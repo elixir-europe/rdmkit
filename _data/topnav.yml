@@ -4,4 +4,4 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/ELIXIR-Belgium/data_management_hub
+      external_url: https://github.com/elixir-europe/rdm-toolkit
