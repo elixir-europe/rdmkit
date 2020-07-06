@@ -3,12 +3,27 @@
 entries:
 - title:
   folders:
-  - title: Test
+  - title: Data Life Cycle
     output: web
-    url: /test.html
-  - title: Test2
+    url: /data_life_cycle.html
+  - title: Functional areas
+    output: web
+    url: /functional_areas.html
+  - title: Use Cases
     output: web
     folderitems:
-    - title: Subtitle test
-      url: /test2.html
+    - title: Plant
+      url: /plant_usecase.html
+      output: web
+    - title: Marine
+      url: /marine_usecase.html
+      output: web
+  - title: Personas
+    output: web
+    folderitems:
+    - title: Data Stewards
+      url: /data_stewards.html
+      output: web
+    - title: Facility manager
+      url: /facility_manager.html
       output: web
