@@ -5,7 +5,7 @@ repository: https://github.com/elixir-europe/rdm-toolkit
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: ELIXIR Data Management Toolkit
+topnav_title: ELIXIR DMP Toolkit
 # this appears on the top navigation bar next to the home button
 
 site_title: ELIXIR Data Management Toolkit
