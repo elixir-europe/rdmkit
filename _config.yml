@@ -68,30 +68,13 @@ defaults:
     values:
       layout: "page"
       comments: false
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: mydoc_sidebar
       topnav: topnav
-  # -
-  #   scope:
-  #     path: ""
-  #     type: "tooltips"
-  #   values:
-  #     layout: "page"
-  #     search: true
-  #     tooltip: true
-
-# these are defaults used for the frontmatter for these file types
 
 sidebars:
 - mydoc_sidebar
 
 description: "This website will need a description"
-# the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
-
 
 github: [metadata]
