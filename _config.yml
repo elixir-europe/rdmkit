@@ -72,14 +72,14 @@ defaults:
       search: true
       sidebar: mydoc_sidebar
       topnav: topnav
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      search: true
-      tooltip: true
+  # -
+  #   scope:
+  #     path: ""
+  #     type: "tooltips"
+  #   values:
+  #     layout: "page"
+  #     search: true
+  #     tooltip: true
 
 # these are defaults used for the frontmatter for these file types
 
