@@ -1,0 +1,14 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title:
+  folders:
+  - title: Test
+    output: web
+    url: /test.html
+  - title: Test2
+    output: web
+    folderitems:
+    - title: Subtitle test
+      url: /test2.html
+      output: web
