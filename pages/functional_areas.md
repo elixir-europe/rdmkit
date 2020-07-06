@@ -2,7 +2,7 @@
 title: "This is a test page"
 keywords: 
 sidebar: mydoc_sidebar
-permalink: test2.html
+permalink: functional_areas.html
 summary: This is a test summary
 ---
 
