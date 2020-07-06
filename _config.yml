@@ -69,11 +69,11 @@ defaults:
       layout: "page"
       comments: false
       search: true
-      sidebar: mydoc_sidebar
+      sidebar: main
       topnav: topnav
 
 sidebars:
-- mydoc_sidebar
+- main
 
 description: "This website will need a description"
 

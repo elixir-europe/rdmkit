@@ -1,7 +1,7 @@
 ---
 title: "This is a test page"
 keywords: 
-sidebar: mydoc_sidebar
+sidebar: main
 permalink: data_life_cycle.html
 summary: This is a test summary
 ---

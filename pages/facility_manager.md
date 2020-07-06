@@ -1,7 +1,7 @@
 ---
 title: "This is a test page"
 keywords: 
-sidebar: mydoc_sidebar
+sidebar: main
 permalink: facility_manager.html
 summary: This is a test summary
 ---
