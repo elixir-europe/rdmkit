@@ -9,11 +9,13 @@
     --nav-text-color: #333;
     --nav-li-background-color: whitesmoke;
     --summary-color: #808080;
-    --table-odd-bg-color: whitesmoke;
+    --table-odd-bg-color: white;
+    --table-border-color: white;
     --h1-color: #333;
     --nav-bar-bg: whitesmoke;
     --nav-button-bg: #fafafa;
     --search-box-bg: #fff;
+    --sidenav-hover-bg: #8D8D8D;
 }
 
 body {
@@ -167,7 +169,7 @@ th {
 table {
     max-width: 90%;
     margin-bottom: 20px;
-    border: 1px solid #dedede;
+    border: 1px solid var(--table-border-color);
 }
 
 table > thead > tr > th,
@@ -179,14 +181,14 @@ table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--nav-li-background-color);
 }
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid var(--nav-li-background-color);
     text-transform: none;
-    background-color: #777;
-    color: white;
+    background-color: var(--table-odd-bg-color);
+    color: var(--main-text-color);
     text-align: left;
 }
 table > caption + thead > tr:first-child > th,
@@ -403,7 +405,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a:hover, .nav li.active > a {
-    background-color: #8D8D8D;
+    background-color: var(--sidenav-hover-bg);
     color: #f5f5f5;
 }
 
@@ -450,7 +452,7 @@ ul#mysidebar {
 }
 
 .nav li a:hover {
-    background-color: #8D8D8D;
+    background-color: var(--sidenav-hover-bg);
 }
 
 .nav ul li a {
@@ -1011,7 +1013,14 @@ a.no_icon:after
 }
 
 .btn-default {
-    margin-bottom: 10px;
+    background-color: var(--nav-li-background-color);
+    border: rgba(0,0,0,0);
+}
+
+.btn-default:hover {
+    background-color: var(--link-color);
+    border: rgba(0,0,0,0);
+    color: white
 }
 
 /* algolia search */

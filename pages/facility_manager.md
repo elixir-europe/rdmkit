@@ -1,9 +1,10 @@
 ---
-title: "This is a test page"
+title: "Facility manager"
 keywords: 
 sidebar: main
 permalink: facility_manager.html
 summary: This is a test summary
+tags: [personas]
 ---
 
 
