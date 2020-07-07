@@ -206,7 +206,7 @@ In the event of any conflict of interest such that Dr Blomberg is not able to ev
 
 ## 5 Acknowledgements
 
-This code is adapted from the [Turing Way Project Code of Conduct] (https://github.com/alan-turing-institute/the-turing-way/blob/master/CODE_OF_CONDUCT.md) which in turn was adapted from [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html), and the with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
+This code is adapted from the [Turing Way Project Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/master/CODE_OF_CONDUCT.md) which in turn was adapted from [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html), and the with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
 All are used under the creative commons attribution license.
 
 The Carpentries Code of Conduct was adapted from guidelines written by the [Django Project](https://www.djangoproject.com/conduct/enforcement-manual/), which was itself based on the [Ada Initiative template](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports) and the [PyCon 2013 Procedure for Handling Harassment Incidents](https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/).
