@@ -880,7 +880,16 @@ span.soft {
 }
 
 .githubEditButton {
-    margin-bottom:7px;
+    color: #ed2e51;
+    border-color: rgba(0,0,0,0);
+    margin-left: 12px;
+    background-color: rgba(0,0,0,0);
+}
+
+.githubEditButton:hover {
+    color: #ed2e51;
+    border-color: rgba(0,0,0,0);
+    background-color: whitesmoke;
 }
 
 .endpoint {
