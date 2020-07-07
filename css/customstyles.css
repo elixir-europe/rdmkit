@@ -1,5 +1,5 @@
 :root {
-    --main-background-color: #fff;
+    --main-background-color: white;
     --main-text-color: #333;
     --link-color: #0066d6;
     --link-hover-color: #02448cf7;
@@ -13,8 +13,8 @@
     --table-border-color: white;
     --h1-color: #333;
     --nav-bar-bg: whitesmoke;
-    --nav-button-bg: #fafafa;
-    --search-box-bg: #fff;
+    --nav-button-bg: white;
+    --search-box-bg: white;
     --sidenav-hover-bg: #8D8D8D;
 }
 
@@ -886,6 +886,7 @@ span.soft {
     border-color: rgba(0,0,0,0);
     margin-left: 12px;
     background-color: rgba(0,0,0,0);
+    font-size: small;
 }
 
 .githubEditButton:hover {
