@@ -1,9 +1,9 @@
 ---
-title: Datasets Sharing
+title: Dataset sharing
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: datasets_sharing.html
+permalink: dataset_sharing.html
 ---
 
 ## Subtitle 1
