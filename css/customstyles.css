@@ -1,8 +1,8 @@
 :root {
     --main-background-color: #fff;
     --main-text-color: #333;
-    --link-color: #337ab7;
-    --link-hover-color: #23527c;
+    --link-color: #0066d6;
+    --link-hover-color: #02448cf7;
     --toc-background-color: whitesmoke;
     --toc-text-color: gray;
     --toc-title-text-color: #555;
@@ -437,7 +437,7 @@ ul#mysidebar {
     color: #248EC2;
     font-weight:bold;
     padding-left:20px;
-    background-color: whitesmoke !important;
+    background-color: var(--nav-li-background-color) !important;
 }
 
 
@@ -889,7 +889,7 @@ span.soft {
 .githubEditButton:hover {
     color: #ed2e51;
     border-color: rgba(0,0,0,0);
-    background-color: whitesmoke;
+    background-color: var(--nav-li-background-color);
 }
 
 .endpoint {
@@ -910,7 +910,7 @@ span.soft {
     border: 1px solid gray;
     padding: 15px;
     margin: 15px 0px;
-    background-color: whitesmoke;
+    background-color: var(--nav-li-background-color);
 }
 
 @media (max-width: 767px) {
@@ -1072,7 +1072,7 @@ span.label.label-primary {
 
 
 .nav li.active > a.subfoldersTitle {
-    background-color: whitesmoke;
+    background-color: var(--nav-li-background-color);
     font-weight: bold;
     color: black;
     }
