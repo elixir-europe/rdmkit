@@ -1,0 +1,29 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title:
+  folders:
+  - title: Data Life Cycle
+    output: web
+    url: /data_life_cycle.html
+  - title: Functional areas
+    output: web
+    url: /functional_areas.html
+  - title: Use Cases
+    output: web
+    folderitems:
+    - title: Plant
+      url: /plant_usecase.html
+      output: web
+    - title: Marine
+      url: /marine_usecase.html
+      output: web
+  - title: Personas
+    output: web
+    folderitems:
+    - title: Data Stewards
+      url: /data_stewards.html
+      output: web
+    - title: Facility manager
+      url: /facility_manager.html
+      output: web

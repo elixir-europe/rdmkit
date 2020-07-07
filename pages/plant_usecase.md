@@ -1,8 +1,8 @@
 ---
 title: "This is a test page"
 keywords: 
-sidebar: mydoc_sidebar
-permalink: test2.html
+sidebar: main
+permalink: plant_usecase.html
 summary: This is a test summary
 ---
 

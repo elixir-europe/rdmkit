@@ -5,3 +5,11 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/elixir-europe/rdm-toolkit
+      
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Help
+      folderitems:
+        - title: How to contribute
+          url: how_to_contribute.html

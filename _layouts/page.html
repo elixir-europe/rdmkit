@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post-header">
-   <h1 class="post-title-main">{{ page.title }}</h1>
+   <h1 class="post-title-main">{{ page.title }}<button target="_blank" rel="noopener" type="button" onclick="location.href='https://github.com/{{site.github_editme_path}}{{page.path}}'" class="btn githubEditButton"><i class="fa fa-pencil"></i> Edit me</button></h1>
 </div>
 
 {% if page.simple_map == true %}
@@ -40,8 +40,6 @@ layout: default
 
 
     {% if site.github_editme_path %}
-
-    <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     {% endif %}
 

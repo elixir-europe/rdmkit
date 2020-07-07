@@ -20,7 +20,7 @@ for title in list_sections:
 
     permalinklink = title.lower().replace(" ", "_")
 
-    header_md = f"---\ntitle: {title}\nkeywords:\nsummary: {summary}\nsidebar: mydoc_sidebar\npermalink: {permalinklink}.html\n---\n"
+    header_md = f"---\ntitle: {title}\nkeywords:\nsummary: {summary}\nsidebar: main\npermalink: {permalinklink}.html\n---\n"
 
     with open(f'pages/{permalinklink}.md', 'w') as md:
         md.write(header_md)

@@ -5,7 +5,7 @@ repository: https://github.com/elixir-europe/rdm-toolkit
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: ELIXIR Data Management Toolkit
+topnav_title: ELIXIR RDM Toolkit
 # this appears on the top navigation bar next to the home button
 
 site_title: ELIXIR Data Management Toolkit
@@ -14,11 +14,8 @@ site_title: ELIXIR Data Management Toolkit
 company_name: ELIXIR Converge
 # this appears in the footer
 
-# github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+github_editme_path: elixir-europe/rdm-toolkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-# gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
-# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # google_analytics: UA-66296557-1
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
@@ -68,30 +65,13 @@ defaults:
     values:
       layout: "page"
       comments: false
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: mydoc_sidebar
+      sidebar: main
       topnav: topnav
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      search: true
-      tooltip: true
-
-# these are defaults used for the frontmatter for these file types
 
 sidebars:
-- mydoc_sidebar
+- main
 
 description: "This website will need a description"
-# the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /documentation-theme-jekyll
-
 
 github: [metadata]
