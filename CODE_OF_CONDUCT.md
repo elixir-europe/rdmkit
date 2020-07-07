@@ -1,9 +1,9 @@
 # Code of Conduct
 
 We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience.
-Accordingly, everyone who participates in the Turing Way project is expected to show respect and courtesy to other community members at all times.
+Accordingly, everyone who participates in the ELIXIR RDM Toolkit is expected to show respect and courtesy to other community members at all times.
 
-Kirstie Whitaker, as PI of this project, and all project members, are dedicated to a ***harassment-free experience for everyone***, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. **We do not tolerate harassment by and/or of members of our community in any form**.
+All project members, are dedicated to a ***harassment-free experience for everyone***, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. **We do not tolerate harassment by and/or of members of our community in any form**.
 
 We are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.
 
@@ -30,29 +30,31 @@ To make clear what is expected, we ask all members of the community to conform t
 
 ## 1 Introduction
 
-The Turing Way is a community-oriented and -led project.
+The ELIXIR RDM Toolkit is a community-oriented and -led project under the auspices of the ELIXIR Research Infrastructure.
 We value the involvement of everyone in the community.
 We are committed to creating a friendly and respectful place for learning, teaching and contributing.
 All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
 
-To make clear what is expected, everyone participating in activities associated with the Turing Way project is required to conform to this Code of Conduct.
-This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in-person focus groups and workshops, and communications online via GitHub.
+To make clear what is expected, everyone participating in activities associated with the ELIXIR RDM Toolkit is required to conform to this Code of Conduct.
+This Code of Conduct applies to all spaces managed by the ELIXIR RDM Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
 
-The lead investigator of the Turing Way - Dr Kirstie Whitaker - is responsible for enforcing the Code of Conduct.
-She can be contacted by emailing [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
-You may contact [Anna Krystalli](mailto:a.krystalli@sheffield.ac.uk) or [Ben Murton](mailto:bmurton@turing.ac.uk) if you would prefer not to contact Dr Whitaker.
+The ELIXIR Code of Conduct Oversight Group are responsible for enforcing the Code of Conduct.
+They can be contacted by emailing [coc.oversight@elixir-europe.org](mailto:coc.oversight@elixir-europe.org). 
+You may also contact the Toolkit Code of Conduct Allies:
+ * name here
+ * name here 
 
 Reports may be reviewed by other members of the core development team, unless there is a conflict of interest, and will be kept confidential.
 
 ## 2 Code of Conduct
 
-The Turing Way team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
+The ELIXIR RDM toolkit team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
 As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others.
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Everyone who participates in the Turing Way project activities is required to conform to this Code of Conduct.
+Everyone who participates in the ELIXIR RDM toolkit activities is required to conform to this Code of Conduct.
 This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
-By participating, contributors indicate their acceptance of the procedures by which the Turing Way project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
+By participating, contributors indicate their acceptance of the procedures by which the ELIXIR RDM Toolkit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
 ### 2.1 Expected Behaviour
 
@@ -65,6 +67,7 @@ The following bullet points set out explicitly what we hope you will consider to
 * **Respect the privacy and safety of others**. Do not take photographs of others without their permission. Do not share other participant’s personal experiences without their express permission. Note that posting (or threatening to post) personally identifying information of others without their consent ("doxing") is a form of harassment.
 * **Be considerate of others’ participation**. Everyone should have an opportunity to be heard. In update sessions, please keep comments succinct so as to allow maximum engagement by all participants. Do not interrupt others on the basis of disagreement; hold such comments until they have finished speaking.
 * **Don’t be a bystander**. If you see something inappropriate happening, speak up. If you don't feel comfortable intervening but feel someone should, please feel free to ask a member of the Code of Conduct response team for support.
+* **Do not gaslight**. Gaslighting is a tactic in which a person or entity, in order to gain more power, makes a victim question their reality. Sometimes you don't even know you are doing it. Look out for the signs in yourself and in others [5 tactics for gaslighting] (https://www.psychologytoday.com/gb/blog/how-be-yourself/201801/how-recognize-5-tactics-gaslighting)
 * As an overriding general rule, please **be intentional in your actions and humble in your mistakes**.
 
 All interactions should be professional regardless of platform: either online or in-person.
@@ -72,7 +75,7 @@ See [this explanation of the four social rules](https://www.recurse.com/manual#s
 
 ### 2.2 Unacceptable Behaviour
 
-Examples of unacceptable behaviour by Turing Way community members at any project event or platform include:
+Examples of unacceptable behaviour by the ELIXIR RDM Toolkit community members at any project event or platform include:
 
 * written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
 * causing someone to fear for their safety, such as through stalking, following, or intimidation
@@ -87,29 +90,29 @@ Examples of unacceptable behaviour by Turing Way community members at any projec
 * incitement to violence, suicide, or self-harm
 * continuing to initiate interaction (including photography or recording) with someone after being asked to stop
 * publication of private communication without consent
+* tactics that make a victim question their reality such as passive-aggressive and gaslighting behaviours
 
 ### 2.3 Consequences of Unacceptable Behaviour
 
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately.
-This applies to all Turing Way community events and platforms, either online or in-person.
+This applies to all ELIXIR RDM Toolkit community events and platforms, either online or in-person.
 If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the [enforcement manual](#4-enforcement-manual) for details).
 
 ### 2.4 Feedback
 
 This Code of Conduct is not intended as a static set of rules by which everyone must abide.
-Rather, you are invited to make suggestions for updates or clarifications by contacting Dr Kirstie Whitaker at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk) or by making a pull request to this document on GitHub.
+Rather, you are invited to make suggestions for updates or clarifications by contacting [the CoC Oversight Committee](mailto:coc.oversight@elixir-europe.org) or by making a pull request to this document on GitHub.
 
 ## 3 Incident Reporting Guidelines
 
 ### 3.1 Contact points
 
-If you feel able to, please contact Kirstie Whitaker by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+If you feel able to, please contact [the CoC Oversight Committee](mailto:coc.oversight@elixir-europe.org) or the Toolkit Code of Conduct Allies.
 
 ### 3.2 Alternate contact points
 
-If you do not feel comfortable contacting Kirstie Whitaker, please report an incident to Anna Krystalli by email at [a.krystalli@sheffield.ac.uk](mailto:a.krystalli@sheffield.ac.uk).
-
-Alternatively, if you would like to contact someone outside of the core development team, please contact Ben Murton by email at [bmurton@turing.ac.uk](mailto:bmurton@turing.ac.uk).
+If you do not feel comfortable contacting the CoC Oversight Committee or the Toolkit Code of Conduct Allies, contact the ELIXIR Director, Niklas Blomberg, by telephone
+at +44 (0) 1223 494135 or email at elixirdirector@elixir-europe.org.
 
 ### 3.3 What to do if someone is in physical danger
 
@@ -121,33 +124,39 @@ A detailed enforcement policy is available in the Enforcement Manual below.
 
 ## 4 Enforcement Manual
 
-This is the enforcement manual followed by the Turing Way project research team.
+This is the enforcement manual followed by the ELIXIR RDM Toolkit project team.
 It's used when we respond to an issue to make sure we're consistent and fair.
 Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
 ### 4.1 The Code of Conduct Committee
 
-The Code of Conduct committee is:
+The ELIXIR Code of Conduct Oversight committee is:
 
-* Kirstie Whitaker: kwhitaker@turing.ac.uk
-* Anna Krystalli: a.krystalli@sheffield.ac.uk
-* Ben Murton: bmurton@turing.ac.uk
+* name
+* name 
+* name
+
+The Toolkit Code of Conduct Allies are:
+
+* name
+* name
+* name
 
 As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
 ### 4.2 Urgent Situations: Acting Unilaterally
 
 If the incident involves physical danger, or involves a threat to anyone's safety (e.g. threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member.
-This can include contacting law enforcement (or other local personnel) and speaking on behalf of the Turing Way team.
+This can include contacting law enforcement (or other local personnel) and speaking on behalf of the ELIXIR RDM Toolkit team.
 
 If the act is ongoing, any community member may act immediately, before reaching consensus, to diffuse the situation.
 In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.
 
-In situations where an individual community member acts unilaterally, they must inform Kirstie Whitaker as soon as possible, and report their actions for review within 24 hours.
+In situations where an individual community member acts unilaterally, they must inform the Toolkit CoC Allies as soon as possible, and report their actions for review within 24 hours.
 
 ### 4.3 Less-Urgent Situations
 
-Upon receiving a report of an incident, the CoC committee will review the incident and determine, to the best of their ability:
+Upon receiving a report of an incident, the ELIXIR Code of Conduct Oversight committee will review the incident and determine, to the best of their ability:
 
 - whether this is an ongoing situation
 - whether there is a threat to anyone's physical safety
@@ -156,18 +165,18 @@ Upon receiving a report of an incident, the CoC committee will review the incide
 - who, if anyone, was the bad actor
 
 This information will be collected either in person or in writing.
-The CoC committee will provide a written summary of the information surrounding the incident.
+The ELIXIR Code of Conduct Oversight committee  will provide a written summary of the information surrounding the incident.
 All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1".
 The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
 
-The CoC committee will aim to have a resolution agreed upon within one week.
-In the event that a resolution can't be determined in that time, a member of the CoC committee will respond to the reporter(s) with an update and projected timeline for resolution.
+The ELIXIR Code of Conduct Oversight committee  will aim to have a resolution agreed upon within one week.
+In the event that a resolution can't be determined in that time, a member of the CoC Oversight committee will respond to the reporter(s) with an update and projected timeline for resolution.
 
 ### 4.4 Resolutions
 
-The CoC committee will seek to agree on a resolution by consensus of all members investigating the report in question.
-If the committee cannot reach consensus and deadlocks for over a week, Dr Whitaker, as lead investigator of the Turing Way project, will break the tie.
-If Dr Whitaker is unable to take part in the discussion due to a conflict of interest, Dr Ben Murton, as an external member of the CoC committee, will make the decision.
+The ELIXIR Code of Conduct Oversight committee  will seek to agree on a resolution by consensus of all members investigating the report in question.
+If the committee cannot reach consensus and deadlocks for over a week, Niklas Blomberg, as Director of ELIXIR, will break the tie.
+If Dr Blomberg is unable to take part in the discussion due to a conflict of interest, <name here>, as an external member of the ELIXIR Code of Conduct Oversight committee, will make the decision.
 
 Possible responses may include:
 
@@ -178,27 +187,27 @@ Possible responses may include:
 * A private in-person conversation between a member of the research team and the individual(s) involved.
   In this case, the person who has the conversation will provide a written summary for record keeping.
 * A private written reprimand from a member of the research team to the individual(s) involved.
-  In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing Kirstie Whitaker for record keeping.
+  In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing the ELIXIR Code of Conduct Oversight committee for record keeping.
 * A public announcement of an incident, ideally in the same venue that the violation occurred (i.e. on the listserv for a listserv violation; GitHub for a GitHub violation, etc.).
   The committee may choose to publish this message elsewhere for posterity.
 * An imposed "time out" from online spaces.
-  Kirstie Whitaker will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all Turing Way project spaces (GitHub, in-person events etc).
+  Niklas Blomberg will communicate this "time out" to the individual(s) involved.
+* A permanent or temporary ban from some or all ELIXIR RDM Toolkit spaces (GitHub, in-person events etc).
   The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
   If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
 
-Once a resolution is agreed upon, but before it is enacted, a member of the CoC committee will contact the original reporter and any other affected parties and explain the proposed resolution.
-The CoC committee member will ask if this resolution is acceptable, and must note feedback for the record.
-However, the CoC committee is not required to act on this feedback.
+Once a resolution is agreed upon, but before it is enacted, a member of the CoC Oversight committee will contact the original reporter and any other affected parties and explain the proposed resolution.
+The CoC Oversight committee member will ask if this resolution is acceptable, and must note feedback for the record.
+However, the CoC Oversight committee is not required to act on this feedback.
 
 ### 4.5 Conflicts of Interest
 
-In the event of any conflict of interest such that Dr Whitaker is not able to evaluate or enforce the reported violation, Ben Murton will take Kirstie's place.
+In the event of any conflict of interest such that Dr Blomberg is not able to evaluate or enforce the reported violation, <name here>  will take Niklas Blombergs's place. **THIS NEEDS REVISION
 
 ## 5 Acknowledgements
 
-This code is adapted from the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)  with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
-Both are used under the creative commons attribution license.
+This code is adapted from the [Turing Way Project Code of Conduct] (https://github.com/alan-turing-institute/the-turing-way/blob/master/CODE_OF_CONDUCT.md) which in turn was adapted from [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html), and the with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
+All are used under the creative commons attribution license.
 
 The Carpentries Code of Conduct was adapted from guidelines written by the [Django Project](https://www.djangoproject.com/conduct/enforcement-manual/), which was itself based on the [Ada Initiative template](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports) and the [PyCon 2013 Procedure for Handling Harassment Incidents](https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/).
 Contributors to the Carpentries Code of Conduct were: Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, Tracy Teal.
