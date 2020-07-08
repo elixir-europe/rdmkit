@@ -412,7 +412,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav>li {
-    margin: 1px 0;
+    margin: 4px 0;
 }
 
 .nav>li li {
@@ -522,6 +522,12 @@ div.navbar-collapse .dropdown-menu>li>a:hover {
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: var(--top-nav-color);
+}
+
+.navbar-brand {
+    height: 55px;
+    padding-top: 8px;
+    padding-left: 15px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-book.fa-lg.navbar-brand:hover {
