@@ -1,16 +1,15 @@
-list_sections = ('Online tools for DMP',
-'Existing data',
-'File formats',
-'Data volume',
-'Datasets Sharing',
-'Data Licenses',
-'Metadata',
-'Identifiers',
-'Ontology',
-'Documentation for metadata',
-'Costs for sharing and storing data',
-'Data quality',
-'Personal data')
+list_sections = ('System Administration',
+'Bioinformatician',
+'Policy Support',
+'Data Management Support',
+'Planning',
+'Collecting,
+'Processing', 
+'Analysing', 
+'Publishing & Sharing', 
+'Preserving',
+'Storage', 
+'Security & Privacy', 'Data Transfer', 'Metadata Management', 'Data Sustainability', 'Compliance Monitoring & Measurement')
 
 summary = "Empty summary"
 
