@@ -378,10 +378,6 @@ li.dropdownActive a {
     color: #248EC2;
 }
 
-footer {
-    font-size: smaller;
-}
-
 /* FAQ page */
 
 #accordion .panel-heading {
@@ -471,7 +467,7 @@ a.accordion-toggle, a.accordion-collapsed {
     padding: 4px 10px;
 }
 
-ul#mysidebar li a{
+ul#mysidebar li a {
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 4px;
@@ -553,11 +549,12 @@ span.projectTitle {
     font-size: 23px;
 }
 
-.footer {
+.page_ending {
     text-align: right;
+    font-size: smaller;
 }
 
-.footerMeta {
+.page_endingMeta {
     background-color: whitesmoke;
     padding: 10px;
     max-width: 250px;
@@ -565,6 +562,75 @@ span.projectTitle {
     margin-top: 50px;
     font-style: italic;
     font-size: 12px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#main {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+.site-footer {
+    background-color: #3e3e3e;
+    padding: 45px 0 0px;
+    font-size: 15px;
+    line-height: 24px;
+    color: whitesmoke;
+}
+
+.site-footer h6 {
+    color: #808080;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.site-footer a {
+    color: whitesmoke;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links.inline li {
+    display: inline-block;
+}
+
+.copyright-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #808080;
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0;
+    }
+    .site-footer .copyright-text, .site-footer .social-icons {
+        text-align: center;
+    }
 }
 
 img.screenshotSmall {
@@ -760,13 +826,13 @@ li img {
 }
 
 li.sidebarTitle {
-    margin-top:20px;
-    font-weight:normal;
-    font-size:130%;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 130%;
     color: #ED1951;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     margin-left: 5px;
-  }
+}
 
 div.sidebarTitle {
     color: var(--secondary-theme-color);
@@ -1149,7 +1215,6 @@ a[href].noCrossRef::after, a.no_icon:after {
 .anchorjs-link:hover {
     color: #216f9b;
 }
-
 
 .btn-default {
     background-color: var(--nav-li-background-color);

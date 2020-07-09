@@ -12,7 +12,7 @@ site_title: ELIXIR Data Management Toolkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ELIXIR Converge
-# this appears in the footer
+# this appears in the page_ending
 
 github_editme_path: elixir-europe/rdm-toolkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
