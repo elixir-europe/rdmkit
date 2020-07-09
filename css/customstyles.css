@@ -571,6 +571,12 @@ span.projectTitle {
     color: var(--white-text);
 }
 
+.site-footer .company-image {
+    width: 120px;
+    height: auto;
+    float: right;
+}
+
 .site-footer h6 {
     color: var(--hover-grey);
     font-size: 16px;
@@ -584,7 +590,7 @@ span.projectTitle {
 }
 
 .site-footer a:hover {
-    color: var(--link-hover-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -603,7 +609,7 @@ span.projectTitle {
 
 .copyright-text {
     margin-top: 10px;
-    text-align: center;
+    text-align: right;
     color: var(--hover-grey);
 }
 
@@ -618,7 +624,7 @@ span.projectTitle {
         padding-bottom: 0;
     }
     .site-footer .copyright-text, .site-footer .social-icons {
-        text-align: center;
+        text-align: right;
     }
 }
 
