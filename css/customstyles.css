@@ -295,7 +295,7 @@ ul#results-container a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 11px;
     border-radius: 4px;
     border-width: 0px;
     background-color: var(--main-bg-color);
@@ -360,7 +360,7 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav>li>a {
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 11px;
 }
 
 .post-content .rssfeedLink {
@@ -397,7 +397,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav>li {
-    margin: 4px 0;
+    /* margin: 4px 0; */
 }
 
 .nav>li li {
@@ -444,7 +444,7 @@ a.accordion-toggle, a.accordion-collapsed {
 .nav li a {
     font-size: 14px;
     line-height: 18px;
-    padding: 2px 10px;
+    /* padding: 2px 10px; */
     background-color: var(--light-grey);
     border-radius: 4px;
     padding-right: 10px;
@@ -499,6 +499,7 @@ div.navbar-collapse .dropdown-menu>li>a:hover {
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: var(--main-bg-color);
+    /* margin-top: 10.5px; */
 }
 
 .navbar-inverse .navbar-toggle {
@@ -510,9 +511,9 @@ div.navbar-collapse .dropdown-menu>li>a:hover {
 }
 
 .navbar-brand {
-    height: 55px;
-    padding-top: 8px;
-    padding-left: 15px;
+    /* height: 55px; */
+    padding-top: 4px;
+    padding-left: 16px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-book.fa-lg.navbar-brand:hover {
@@ -565,7 +566,7 @@ span.projectTitle {
 
 .site-footer {
     background-color: var(--footer-bg);
-    padding: 45px 0 0px;
+    padding: 15px 0 0px;
     font-size: 15px;
     line-height: 24px;
     color: var(--white-text);
@@ -609,14 +610,9 @@ span.projectTitle {
 
 .copyright-text {
     margin-top: 10px;
+    margin-bottom: 15px;
     text-align: right;
     color: var(--hover-grey);
-}
-
-@media (max-width:991px) {
-    .site-footer [class^=col-] {
-        margin-bottom: 30px;
-    }
 }
 
 @media (max-width:767px) {
@@ -801,6 +797,7 @@ h4 {
 
 .alert, .callout {
     overflow: hidden;
+    inline-size: fit-content;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
@@ -1452,7 +1449,7 @@ h4.panel-title {
 
 /*set navbar breakpoint so that it converts to hamburger earlier */
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .navbar-header {
         float: none;
     }
