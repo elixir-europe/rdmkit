@@ -25,6 +25,28 @@
 
 <link rel="shortcut icon" href="{{ "images/favicon.ico"  }}">
 
+<script>
+/*
+* Script to show/hide the buttons under the navigation tiles.
+*/
+window.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.button').forEach(function(item) {
+    // Show the tiles when the cursor hovers over the <h2 class="button">.
+    // Does not apply to touchscreen devices. The CSS just shows all the
+    // subelements by default for those devices.
+    item.addEventListener('mouseenter', function() {
+        item.classList.add("active-button");
+        item.nextElementSibling.classList.add("active-child-box");
+    });
+    // Hide the child boxes when the cursor leaves the wrapper <div>
+    item.parentElement.addEventListener('mouseleave', function() {
+        item.classList.remove("active-button");
+        item.nextElementSibling.classList.remove("active-child-box");
+    });
+    });
+});
+</script>
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
