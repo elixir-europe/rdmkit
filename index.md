@@ -24,9 +24,9 @@ toc: false
     <div class="use-cases">
         <h2 class="button">Use case</h2>
         <ul class="child-box">
-        <li><a href="">Marine</a></li>
-        <li><a href="">Plants</a></li>
-        <li><a href="">Use case 3</a></li>
+        <li><a href="marine_usecase">Marine</a></li>
+        <li><a href="plant_usecase">Plants</a></li>
+        <li><a href="humandata_usecase">Human data</a></li>
         </ul>
     </div>
     <div class="tool-function">
