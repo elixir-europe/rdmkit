@@ -11,7 +11,7 @@ toc: false
 
 <main>
     <p class="centered"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
-    <object type="image/svg+xml" data="images/RDM_cycle.svg"></object>
+    <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
     <p>Or find resources by:</p>
     <div class="flexbox">
     <div class="your-job">
