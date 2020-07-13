@@ -5,7 +5,7 @@ permalink: gdpr.html
 ---
 
 
-# Overview
+## Overview
 
 Where scientific research involves the processing of data concerning people in the EU, it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing 
 derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
@@ -16,7 +16,7 @@ The safeguards are a multitude and include:
   
 The practical impact of the GDPR on research is, then, establishing these safeguards within projects. 
 
-# Considerations
+## Considerations
 
 Seek expert help for the interpretation of GDPR legal requirements to practicable measures.
   * Research institutes appoint Data Protection Officers (DPO). Before starting a project you should contact your DPO to be informed of GDPR compliance requirements for your institution.
@@ -47,7 +47,7 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
   * Time limits for keeping different categories of personal data,
   * Description of organizational and technical data protection measures.
 
-# Tools
+## Tools
 
   * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
   * [European Data Protection Supervisor's "Preliminary opinion on Data Protection and Scientific Research"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf)
