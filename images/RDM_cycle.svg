@@ -98,7 +98,7 @@
          onclick="/process.html" />
     </a>
     <a
-       xlink:href="process"
+       xlink:href="../processing"
        id="a917"
        target="/processing.html">
       <path
@@ -109,7 +109,7 @@
          onclick="/analyzing.html" />
     </a>
     <a
-       xlink:href="preserving"
+       xlink:href="../preserving"
        id="a920"
        target="/preserving.html">
       <path
@@ -142,7 +142,7 @@
          onclick="reusing.html" />
     </a>
     <a
-       xlink:href="planning"
+       xlink:href="../planning"
        id="a908"
        target="/planning.html">
       <path
@@ -154,15 +154,15 @@
          onmouseover="" />
     </a>
     <a
-       xlink:href="collecting"
+       xlink:href="../collecting"
        id="a911"
-       target="/collecting.html">
+       target="../collecting.html">
       <path
          sodipodi:nodetypes="ccccccc"
          d="m -55.020866,57.556922 c 11.102712,8.519418 18.106824,22.241513 18.154299,36.646937 l 12.328027,8.431961 11.408899,-9.602784 C -13.20098,71.387018 -23.46098,50.970876 -40.144273,38.169357 l -3.192986,12.951333 z"
          style="fill:#00597d;fill-opacity:1;stroke:none;stroke-width:0.808582;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1547-4-8-1-2-9-3-9"
-         onclick="/collecting.html" />
+         onclick="../collecting.html" />
     </a>
     <path
        inkscape:export-ydpi="72"
