@@ -351,6 +351,29 @@ div#toc>ul::before {
     padding-left: 10px;
 }
 
+main {width: 90%; margin: 0 auto;}
+.flexbox {display: flex;flex-direction: column;}
+.flexbox h2, .child-box a {border-radius: 5px;padding: 10px 20px 12px;}
+.flexbox h2 {background: #484848; border: 1px solid #484848; margin: 0 10px 0 0;color: white;transition: .2s background;font-weight: normal;font-size: 130%;}
+.flexbox h2:hover {cursor: pointer;}
+.child-box {list-style-type: none; padding: 0; margin: 0 0 1em;}
+.child-box a:link {display: block; background: #eee;margin: 5px 10px 0 0;text-decoration: none;color: #000;}
+.child-box a:visited {color: #000;}
+.child-box a:hover  {text-decoration: none;background: #ddd;}
+object {width: 100%; margin: 0 auto;display: block;}
+.centered {text-align: center; margin-bottom: 0;}
+.flexbox .active-button {background: #f47d21; border-color: #f47d21;}
+
+/* For larger screens */
+@media only screen and (min-width: 500px) {
+  main {width: 70%;}
+  .flexbox {flex-direction: row;}
+  .flexbox > div {width: 33%;}
+  object {width: 55%;}
+  .child-box {height: 0; opacity: 0; transition: opacity .5s;}
+  .active-child-box {height: auto; opacity: 1;}
+}
+
 li.dropdownActive a {
     font-weight: bold;
 }
