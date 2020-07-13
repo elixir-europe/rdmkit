@@ -8,14 +8,14 @@ permalink: dataset_sharing.html
 
 ## Finding the right repositories
 
-### Considerations / Applicability limits / Checklist**
+### Considerations / Applicability limits / Checklist
 
 * You should make sure that you are free to choose the repositories for your data, and that there are no demands from the journal where you are publishing your research or from your funder or institution.
 * You should consider whether the data you want to deposit is sensitive human-subject data.
 * You should consider whether there are other access barriers to your data (e.g. IP restrictions, sensitive species biodiversity data).
 * You should consider that many repositories enforce data sharing policies, whereas others allow you to apply a license of your choice to your data.
 
-### Solution: Pointers to suitable tools**
+### Solution: Pointers to suitable tools
 
 Note that you can generally submit to more than one repository. For finding appropriate repositories by type of data, there are extensive lists and selection tools in the following locations:
 
@@ -24,11 +24,11 @@ Note that you can generally submit to more than one repository. For finding appr
 * FAIRsharing
 * Re3data
 
-### Personal data**
+### Personal data
 
 For the sharing of human-subject phenotype/genotype data there are well-established repositories (EGA, dbGAP, JGA). The choice will depend on the conditions under which data has been donated and the legislative/geographic boundaries for the research project/consortium. There are also community-specific data hubs that may implement a controlled-access model e.g. ORPHANET, MJFF
 
-### Related topics**
+### Related topics
 
 * Metadata
 * Licensing
