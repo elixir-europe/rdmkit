@@ -1,7 +1,5 @@
 ---
-title: Personal data
-keywords:
-summary: Empty summary
+title: Determining the sensitivity of your data
 sidebar: main
 permalink: personal_data.html
 ---

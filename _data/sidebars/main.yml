@@ -24,6 +24,9 @@ entries:
     - title: Marine
       url: /marine_usecase.html
       output: web
+    - title: Human Data
+      url: /humandata_usecase.html
+      output: web
   - title: Personas
     output: web
     folderitems:
