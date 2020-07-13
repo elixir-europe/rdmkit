@@ -1,9 +1,9 @@
 ---
-title: Publishing & Sharing
+title: Re-using
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: publishing_&_sharing.html
+permalink: re-using.html
 ---
 
 ## Subtitle 1

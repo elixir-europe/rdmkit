@@ -12,6 +12,21 @@ entries:
       - title: Collecting
         url: /collecting.html
         output: web
+      - title: Processing
+        url: /processing.html
+        output: web
+      - title: Analysing
+        url: /analysing.html
+        output: web
+      - title: preserving
+        url: /preserving.html
+        output: web
+      - title: Sharing
+        url: /sharing.html
+        output: web
+      - title: Re-using
+        url: /re-using.html
+        output: web
   - title: Functional areas
     output: web
     url: /functional_areas.html
