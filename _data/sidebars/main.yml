@@ -5,7 +5,13 @@ entries:
   folders:
   - title: Data Life Cycle
     output: web
-    url: /data_life_cycle.html
+    folderitems:
+      - title: Planning
+        url: /planning.html
+        output: web
+      - title: Collecting
+        url: /collecting.html
+        output: web
   - title: Functional areas
     output: web
     url: /functional_areas.html
