@@ -8,18 +8,31 @@
         <th>Description</th>
         <th>Tags</th>
     </tr>
-    
-    {% for tool in tools.Tools %}
-        {% if tool.tags contains include.tags %}
-        <tr>
-        {% if tool.link %}
-        <td><a href="{{tool.link}}">{{tool.name}}</a></td>
-        {% else %}
-        <td>{{tool.name}}</td>
-        {% endif %}
-        <td>{{tool.description}}</td>
-        <td>{{ tool.tags | join: ", " }}</td>
-        </tr>
-        {% endif %}
-    {% endfor %}
+    {% if include.tags == "print_all" %}
+        {% for tool in tools.Tools %}
+            <tr>
+            {% if tool.link %}
+            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
+            {% else %}
+            <td>{{tool.name}}</td>
+            {% endif %}
+            <td>{{tool.description}}</td>
+            <td>{{ tool.tags | join: ", " }}</td>
+            </tr>
+        {% endfor %}
+    {% else %}
+        {% for tool in tools.Tools %}
+            {% if tool.tags contains include.tags %}
+            <tr>
+            {% if tool.link %}
+            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
+            {% else %}
+            <td>{{tool.name}}</td>
+            {% endif %}
+            <td>{{tool.description}}</td>
+            <td>{{ tool.tags | join: ", " }}</td>
+            </tr>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 </table>
