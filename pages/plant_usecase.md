@@ -31,11 +31,11 @@ Peter manages his own repository of plant phenotyping data that is fed by severa
 
 ### Solutions
 * For collaborators that collect data manually, you should define a spreadsheet template that is compatible with the database structure 
- * Your template should make use of tools for handling ontology annotations in a spreadsheet (internal link to appropriate page) 
- * If your database is MIAPPE compliant, you have a [MIAPPE-compliant spreadsheet template](https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx)
+  * Your template should make use of tools for handling ontology annotations in a spreadsheet (internal link to appropriate page) 
+  * If your database is MIAPPE compliant, you have a [MIAPPE-compliant spreadsheet template](https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx)
 * For collaborators that collect data in their own data management platforms:
- * If it implements BrAPI, you can ingest data using BrAPI calls
- * If it doesn’t implement BrAPI, they should export their data into the spreadsheet template you define for manual collection
+  * If it implements BrAPI, you can ingest data using BrAPI calls
+  * If it doesn’t implement BrAPI, they should export their data into the spreadsheet template you define for manual collection
 * Data validation can be done via BrAPI
 
  
