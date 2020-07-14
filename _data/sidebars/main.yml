@@ -42,11 +42,11 @@ entries:
   - title: Your domain
     output: web
     folderitems:
-    - title: Plant
-      url: /plant_usecase.html
+    - title: Plant phenotyping
+      url: /plant_phenotyping_usecase.html
       output: web
-    - title: Marine
-      url: /marine_usecase.html
+    - title: Marine metagenomics
+      url: /marine_metagenomics_usecase.html
       output: web
     - title: Human Data
       url: /humandata_usecase.html
