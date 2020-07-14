@@ -3,7 +3,7 @@
     --link-color: #50889f;
     --link-hover-color: #056482;
     --light-grey: #efefef;
-    --accent-color: #ED1951;
+    --accent-color: #C63244;
     --subtle-text: #555;
     --main-bg-color: white;
     --nav-bar-bg: #023452;
@@ -1101,7 +1101,7 @@ span.soft {
 }
 
 .githubEditButton {
-    color: #ed2e51;
+    color: var(--accent-color);
     border-color: rgba(0, 0, 0, 0);
     margin-left: 12px;
     background-color: rgba(0, 0, 0, 0);
@@ -1109,7 +1109,7 @@ span.soft {
 }
 
 .githubEditButton:hover {
-    color: #ed2e51;
+    color: var(--accent-color);
     border-color: rgba(0, 0, 0, 0);
     background-color: var(--light-grey);
 }

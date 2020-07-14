@@ -12,10 +12,34 @@ entries:
       - title: Collecting
         url: /collecting.html
         output: web
-  - title: Functional areas
+      - title: Processing
+        url: /processing.html
+        output: web
+      - title: Analysing
+        url: /analysing.html
+        output: web
+      - title: Preserving
+        url: /preserving.html
+        output: web
+      - title: Sharing
+        url: /sharing.html
+        output: web
+      - title: Re-using
+        url: /re-using.html
+        output: web
+  - title: Your role
     output: web
-    url: /functional_areas.html
-  - title: Use Cases
+    folderitems:
+    - title: Data Stewards
+      url: /data_stewards.html
+      output: web
+    - title: Facility manager
+      url: /facility_manager.html
+      output: web
+    - title: Bioinformatician
+      url: /bioinformatician.html
+      output: web
+  - title: Your domain
     output: web
     folderitems:
     - title: Plant
@@ -27,12 +51,27 @@ entries:
     - title: Human Data
       url: /humandata_usecase.html
       output: web
-  - title: Personas
+  - title: Problem
     output: web
     folderitems:
-    - title: Data Stewards
-      url: /data_stewards.html
+    - title: Storage
+      url: /storage.html
       output: web
-    - title: Facility manager
-      url: /facility_manager.html
+    - title: Security & privacy
+      url: /security_&_privacy.html
+      output: web
+    - title: Data transfer
+      url: /data_transfer.html
+      output: web
+    - title: Metadata management
+      url: /metadata_management.html
+      output: web
+    - title: Data sustainability
+      url: /data_sustainability.html
+      output: web
+    - title: Compliance monitoring & measurement
+      url: /compliance_monitoring_&_measurement.html
+      output: web
+    - title: Other
+      url: /other_functional_areas.html
       output: web

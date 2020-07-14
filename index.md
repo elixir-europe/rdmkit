@@ -1,9 +1,7 @@
 ---
-title: "RDM Toolkit home idea"
-keywords: sample homepage
+title: "Research Data management Toolkit"
 hide_sidebar: true
 permalink: index.html
-summary: Short home page blurb
 toc: false
 ---
 
@@ -11,29 +9,43 @@ toc: false
 
 <main>
     <p class="centered"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
-    <object type="image/svg+xml" data="images/RDM_cycle.svg"></object>
+    <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
     <p>Or find resources by:</p>
     <div class="flexbox">
-    <div class="your-job">
-        <h2 class="button">Job title</h2>
+    <div>
+        <h2 class="button">Your role</h2>
         <ul class="child-box">
-        <li><a href="">Data Steward</a></li>
-        <li><a href="">Data Manager</a></li>
+        <li><a href="data_stewards">Data Steward</a></li>
+        <li><a href="facility_manager">Facility manager</a></li>
+        <li><a href="bioinformatician">Bioinformatician</a></li>
         </ul>
     </div>
-    <div class="use-cases">
-        <h2 class="button">Use case</h2>
+    <div>
+        <h2 class="button">Your domain</h2>
         <ul class="child-box">
-        <li><a href="">Marine</a></li>
-        <li><a href="">Plants</a></li>
-        <li><a href="">Use case 3</a></li>
+        <li><a href="marine_usecase">Marine</a></li>
+        <li><a href="plant_usecase">Plants</a></li>
+        <li><a href="humandata_usecase">Human data</a></li>
         </ul>
     </div>
-    <div class="tool-function">
-        <h2 class="button">Tool function</h2>
+    <div>
+        <h2 class="button">Examples</h2>
         <ul class="child-box">
-        <li><a href="">Function 1</a></li>
-        <li><a href="">Function 2</a></li>
+        <li><a href="">Assembly 1</a></li>
+        <li><a href="">Assembly 2</a></li>
+        <li><a href="">Assembly 3</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="button">Problem</h2>
+        <ul class="child-box">
+        <li><a href="storage">Storage</a></li>
+        <li><a href="security_&_privacy">Security & privacy</a></li>
+        <li><a href="data_transfer">Data transfer</a></li>
+        <li><a href="metadata_management">Metadata management</a></li>
+        <li><a href="data_sustainability">Data sustainability</a></li>
+        <li><a href="compliance_monitoring_&_measurement">Compliance monitoring & measurement</a></li>
+        <li><a href="other_functional_areas">Other</a></li>
         </ul>
     </div>
     </div> <!-- /.flexbox -->

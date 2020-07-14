@@ -1,9 +1,9 @@
 ---
-title: Documentation for metadata
+title: Re-using
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: documentation_for_metadata.html
+permalink: re-using.html
 ---
 
 ## Subtitle 1

@@ -1,9 +1,9 @@
 ---
-title: Ontology
+title: Sharing
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: ontology.html
+permalink: sharing.html
 ---
 
 ## Subtitle 1

@@ -1,0 +1,78 @@
+Tools:
+- name: FAIRDOMHub
+  link: https://fairdomhub.org
+  description: Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.
+  tags :
+    - collect
+    - process
+    - analyse
+    - share
+    - preserve
+    - storage
+    - privacy
+- name: FAIRsharing
+  link: https://fairsharing.org/
+  description: A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies. 
+  tags :
+    - plan
+    - share
+    - monitoring
+- name: DS-Wizard
+  link: https://ds-wizard.org/
+  description: Data Stewardship Wizard
+  tags:
+    - plan
+- name: DMPonline
+  link: https://dmponline.dcc.ac.uk/
+  description: A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.
+  tags:
+    - plan
+- name: DMPonline Belgium
+  link: https://dmponline.be
+  description: A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.
+  tags:
+    - plan
+- name: DMP OPIDoR
+  link: https://dmp.opidor.fr
+  description: Online questionnaire for the development of data management plans; repository of DMPs
+  tags:
+    - plan
+- name: DMPlanner
+  link: https://dmplanner.athenarc.gr/
+  description: Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans. 
+  tags:
+    - plan
+- name: DMP Canvas Generator
+  link: https://dmp.vital-it.ch
+  description: Questionnaire, which generates a pre-filled a DMP
+  tags:
+    - plan
+- name: DAISY
+  link: https://daisy-demo.elixir-luxembourg.org
+  description: Data Information System to keep sensitive data inventory and meet GDPR accountability requirement. 
+  tags:
+    - plan
+    - collect
+- name: COPO
+  link: https://copo-project.org/
+  description: Portal for scientists to broker more easily rich metadata alongside data to public repos 
+  tags:
+    - share
+- name: BrAPI
+  link: https://www.brapi.org
+  description: Specification for a standard API for plant data: plant material, plant phenotyping data
+  tags:
+    - share
+- name: GitHub
+  link: https://github.com
+  description: Versioning system, used for sharing code, as well as for sharing of small data 
+- name: EasyDMP
+  link: https://easydmp.no/
+  description: DMP creation, versioning and sharing
+  tags:
+    - plan
+- name: DMPTuuli
+  link: https://www.dmptuuli.fi/
+  description: Data management planning tool
+  tags:
+    - plan

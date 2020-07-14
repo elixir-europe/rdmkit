@@ -1,9 +1,9 @@
 ---
-title: Data Management Support
+title: Other
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: data_management_support.html
+permalink: other_functional_areas.html
 ---
 
 ## Subtitle 1
