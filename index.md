@@ -16,7 +16,7 @@ toc: false
         <h2 class="button">Your role</h2>
         <ul class="child-box">
         <li><a href="data_stewards">Data Steward</a></li>
-        <li><a href="facility_manager">Facility manager</a></li>
+        <li><a href="research_it">Research IT</a></li>
         <li><a href="bioinformatician">Bioinformatician</a></li>
         </ul>
     </div>
