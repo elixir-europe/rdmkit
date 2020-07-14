@@ -7,7 +7,6 @@ summary: This is a test summary
 tags: [personas]
 ---
 
-
 ## Role title
 
 Data policy officer

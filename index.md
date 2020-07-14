@@ -1,5 +1,5 @@
 ---
-title: "Research Data management Toolkit"
+title: "Research Data Management Toolkit"
 hide_sidebar: true
 permalink: index.html
 toc: false
