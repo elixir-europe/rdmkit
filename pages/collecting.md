@@ -33,7 +33,7 @@ For looking for data through journal searches, you can use the following tools:
 * [Europe PMC/PubMed](https://europepmc.org/)
 * [BASE](https://www.base-search.net/)
 * [Google Scholar](https://scholar.google.com/)
-* Web of Science
+* [Web of Science](http://webofknowledge.com)
 
 
 ## Related topics
