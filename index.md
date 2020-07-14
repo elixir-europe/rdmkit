@@ -13,7 +13,7 @@ toc: false
     <p>Or find resources by:</p>
     <div class="flexbox">
     <div class="your-job">
-        <h2 class="button">Job title</h2>
+        <h2 class="button">Your role</h2>
         <ul class="child-box">
         <li><a href="data_stewards">Data Steward</a></li>
         <li><a href="facility_manager">Facility manager</a></li>
@@ -21,7 +21,7 @@ toc: false
         </ul>
     </div>
     <div class="use-cases">
-        <h2 class="button">Use case</h2>
+        <h2 class="button">Your domain</h2>
         <ul class="child-box">
         <li><a href="marine_usecase">Marine</a></li>
         <li><a href="plant_usecase">Plants</a></li>
@@ -29,7 +29,7 @@ toc: false
         </ul>
     </div>
     <div class="tool-function">
-        <h2 class="button">Tool function</h2>
+        <h2 class="button">Problem</h2>
         <ul class="child-box">
         <li><a href="storage">Storage</a></li>
         <li><a href="security_&_privacy">Security & privacy</a></li>
