@@ -60,7 +60,7 @@ Tools:
     - share
 - name: BrAPI
   link: https://www.brapi.org
-  description: Specification for a standard API for plant data: plant material, plant phenotyping data
+  description: "Specification for a standard API for plant data: plant material, plant phenotyping data"
   tags:
     - share
 - name: GitHub
