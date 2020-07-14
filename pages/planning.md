@@ -16,16 +16,15 @@ Data Management Planning will facilitate the progress of your project, as you ca
 Data Management Planning is best performed before starting a project. Often funders require a DMP with the application, during the contracting phase and when concluding a project. Data Management Planning is not a once in a life-time effort for a project, it is a continous process supporting your project.
 
 ## How?
-### Generating Data Management Plans
 There are many guidelines, policies and tools to assist you with Data Management Planning. This is very depended on your local legislation, the funding body and insitution. Below you can find some tools to navigate this. 
 
-#### Considerations?
+### Considerations?
 * Check what your institute or university advises to use
 * Usually, every institution and/or funders provide specific template(s)
 
-#### Tools for Data Management Planning
+### Tools for Data Management Planning
 
-##### Tools for DMP generation
+#### Tools for DMP generation
 * [DMPonline](https://dmponline.dcc.ac.uk)
 * [DMP Canvas Generator](https://dmp.vital-it.ch/) (Needs an Orcid account to login)
 * [DMPT](https://dmptool.org)
@@ -36,7 +35,7 @@ There are many guidelines, policies and tools to assist you with Data Management
 * [EasyDMP](https://easydmp.no/login/)
 * [DMPTuuli](https://www.dmptuuli.fi)
 
-##### Resources 
+#### Resources 
 * Machine actionable DMPs: [Machine-Actionable Data Management Plan (maDMP) - Research Bridge](https://library.ust.hk/sc/machine-actionable-dmp/)
 * Webinar (2016) on making a good data management plan: [Research Management Plan](https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan)
 
@@ -44,3 +43,6 @@ There are many guidelines, policies and tools to assist you with Data Management
 * Updating your DMP
 * Benefit of a DMP
 * Data Management Guidelines & Policies
+
+
+{% include toollist.html tags="plan" %}
