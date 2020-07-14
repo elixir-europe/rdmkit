@@ -12,7 +12,7 @@ toc: false
     <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
     <p>Or find resources by:</p>
     <div class="flexbox">
-    <div class="your-job">
+    <div>
         <h2 class="button">Your role</h2>
         <ul class="child-box">
         <li><a href="data_stewards">Data Steward</a></li>
@@ -20,7 +20,7 @@ toc: false
         <li><a href="bioinformatician">Bioinformatician</a></li>
         </ul>
     </div>
-    <div class="use-cases">
+    <div>
         <h2 class="button">Your domain</h2>
         <ul class="child-box">
         <li><a href="marine_usecase">Marine</a></li>
@@ -28,7 +28,15 @@ toc: false
         <li><a href="humandata_usecase">Human data</a></li>
         </ul>
     </div>
-    <div class="tool-function">
+    <div>
+        <h2 class="button">Examples</h2>
+        <ul class="child-box">
+        <li><a href="">Assembly 1</a></li>
+        <li><a href="">Assembly 2</a></li>
+        <li><a href="">Assembly 3</a></li>
+        </ul>
+    </div>
+    <div>
         <h2 class="button">Problem</h2>
         <ul class="child-box">
         <li><a href="storage">Storage</a></li>
