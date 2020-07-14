@@ -6,17 +6,17 @@ sidebar: main
 permalink: planning.html
 ---
 
-## Data Management Planning
-### What?
+## What?
 Data Management Planning will help you to identify your data management needs during your project, and the resources and time you might have to dedicate to it.  
 
-### Why?
+## Why?
 Data Management Planning will facilitate the progress of your project, as you can prepare early on. Data Management Planning will also help you to get funded, as this is a critical part of the proposal and/or the contract for many funders and a good Data Management Plan (DMP) will show and improve the feasability of your project.
 
-### When?
+## When?
 Data Management Planning is best performed before starting a project. Often funders require a DMP with the application, during the contracting phase and when concluding a project. Data Management Planning is not a once in a life-time effort for a project, it is a continous process supporting your project.
 
-### How?
+## How?
+### Generating Data Management Plans
 There are many guidelines, policies and tools to assist you with Data Management Planning. This is very depended on your local legislation, the funding body and insitution. Below you can find some tools to navigate this. 
 
 #### Considerations?
@@ -40,7 +40,7 @@ There are many guidelines, policies and tools to assist you with Data Management
 * Machine actionable DMPs: [Machine-Actionable Data Management Plan (maDMP) - Research Bridge](https://library.ust.hk/sc/machine-actionable-dmp/)
 * Webinar (2016) on making a good data management plan: [Research Management Plan](https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan)
 
-### Related topics
+## Related topics
 * Updating your DMP
 * Benefit of a DMP
 * Data Management Guidelines & Policies
