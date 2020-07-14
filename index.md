@@ -23,8 +23,8 @@ toc: false
     <div>
         <h2 class="button">Your domain</h2>
         <ul class="child-box">
-        <li><a href="marine_usecase">Marine</a></li>
-        <li><a href="plant_usecase">Plants</a></li>
+        <li><a href="marine_metagenomics_usecase">Marine metagenomics</a></li>
+        <li><a href="plant_phenotyping_usecase">Plant phenotyping</a></li>
         <li><a href="humandata_usecase">Human data</a></li>
         </ul>
     </div>

@@ -28,7 +28,7 @@ My name is Janet Brown.  I studied B.Sc. Biology and this is my first role after
 * Is there some overview on resources and best practice
 * What DM training resources are available for researchers and data stewards?
 * Where so find national and funder DM policies?
-* How do Iimplement FAIR principles?
+* How do I implement FAIR principles?
 * Are there templates for legal and policy documents?
 * Are there templates for informed consent?
 * Are there templates for ethical reviews?

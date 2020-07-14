@@ -2,7 +2,7 @@
 title: "This is a test page"
 keywords: 
 sidebar: main
-permalink: marine_usecase.html
+permalink: marine_metagenomics_usecase.html
 summary: This is a test summary
 ---
 
