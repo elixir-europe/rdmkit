@@ -1,9 +1,7 @@
 ---
-title: "RDM Toolkit home idea"
-keywords: sample homepage
+title: "Research Data management Toolkit"
 hide_sidebar: true
 permalink: index.html
-summary: Short home page blurb
 toc: false
 ---
 
@@ -19,6 +17,7 @@ toc: false
         <ul class="child-box">
         <li><a href="data_stewards">Data Steward</a></li>
         <li><a href="facility_manager">Facility manager</a></li>
+        <li><a href="bioinformatician">Bioinformatician</a></li>
         </ul>
     </div>
     <div class="use-cases">

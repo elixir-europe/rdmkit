@@ -72,3 +72,6 @@ entries:
     - title: Facility manager
       url: /facility_manager.html
       output: web
+    - title: Bioinformatician
+      url: /bioinformatician.html
+      output: web
