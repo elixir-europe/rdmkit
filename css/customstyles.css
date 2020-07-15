@@ -679,10 +679,6 @@ figcaption {
     color: red;
 }
 
-table.dataTable thead {
-    background-color: #444;
-}
-
 section table tr.success {
     background-color: #dff0d8 !important;
 }
