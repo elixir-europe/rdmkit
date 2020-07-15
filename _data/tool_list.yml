@@ -1,6 +1,7 @@
 Tools:
 - name: FAIRDOMHub
   link: https://fairdomhub.org
+  
   description: Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.
   tags :
     - collect
@@ -50,6 +51,7 @@ Tools:
 - name: DAISY
   link: https://daisy-demo.elixir-luxembourg.org
   description: Data Information System to keep sensitive data inventory and meet GDPR accountability requirement. 
+  biotools: DAISY
   tags:
     - plan
     - collect

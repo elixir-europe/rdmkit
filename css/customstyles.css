@@ -176,10 +176,6 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     color: gray;
 }
 
-table {
-    background-color: transparent;
-}
-
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -187,19 +183,19 @@ caption {
     text-align: left;
 }
 
-th {
-    text-align: left;
-}
-
 table {
     margin-bottom: 20px;
     border: 1px solid var(--main-bg-color);
     table-layout: fixed;
+    background-color: transparent;
 }
 
+th {
+    text-align: left;
+}
 
 .tooltable tr th:nth-child(1){
-    width: 30%;
+    width: 25%;
   }
 
 table>thead>tr>th, table>tbody>tr>th, table>tfoot>tr>th, table>thead>tr>td, table>tbody>tr>td, table>tfoot>tr>td {
@@ -236,10 +232,6 @@ table td[class*="col-"], table th[class*="col-"] {
     position: static;
     display: table-cell;
     float: none;
-}
-
-table tr td {
-    hyphens: auto;
 }
 
 p.external a {
@@ -691,10 +683,6 @@ table.dataTable thead {
     background-color: #444;
 }
 
-table td {
-    hyphens: auto;
-}
-
 section table tr.success {
     background-color: #dff0d8 !important;
 }
@@ -924,12 +912,6 @@ h2 {
 
 span.otherProgrammingLanguages {
     font-style: normal;
-}
-
-a[data-toggle="tooltip"] {
-    color: #649345;
-    font-style: italic;
-    cursor: default;
 }
 
 .seriesNext, .seriesContext {
@@ -1356,7 +1338,6 @@ table thead th code.highlighter-rouge {
     background-color: #f5f5f5;
     font-family: Arial;
     font-size: 12px;
-    hyphens: auto;
     float: left;
     font-size: 12px;
 }
