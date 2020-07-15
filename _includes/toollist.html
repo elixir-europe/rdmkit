@@ -14,7 +14,7 @@
         {% for tool in tools.Tools %}
             <tr>
             {% if tool.link %}
-            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
+            <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
             {% else %}
             <td>{{tool.name}}</td>
             {% endif %}

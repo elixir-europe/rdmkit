@@ -188,6 +188,8 @@ table {
     border: 1px solid var(--main-bg-color);
     table-layout: fixed;
     background-color: transparent;
+    display: block;
+    overflow-x: auto;
 }
 
 th {
