@@ -2,8 +2,16 @@
 layout: default
 ---
 
+
 <div class="post-header">
-   <h1 class="post-title-main">{{ page.title }}<button target="_blank" rel="noopener" type="button" onclick="location.href='https://github.com/{{site.github_editme_path}}{{page.path}}'" class="btn githubEditButton"><i class="fa fa-pencil"></i> Edit me</button></h1>
+   <h1 class="post-title-main">{{ page.title }}
+        {% if page.custom-editme %}
+            {% capture custom-editme %}{{ page.custom-editme }}{% endcapture %}
+            {% include edit_me.html path=custom-editme %}
+        {% else %}
+            {% include edit_me.html %}
+        {% endif %}
+    </h1>
 </div>
 
 {% if page.simple_map == true %}
@@ -37,11 +45,6 @@ layout: default
     {% unless page.toc == false %}
     {% include toc.html %}
     {% endunless %}
-
-
-    {% if site.github_editme_path %}
-
-    {% endif %}
 
    {{content}}
 
