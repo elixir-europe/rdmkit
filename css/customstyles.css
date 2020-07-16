@@ -188,6 +188,8 @@ table {
     border: 1px solid var(--main-bg-color);
     table-layout: fixed;
     background-color: transparent;
+    display: block;
+    overflow-x: auto;
 }
 
 th {
@@ -677,10 +679,6 @@ figcaption {
 
 .preference {
     color: red;
-}
-
-table.dataTable thead {
-    background-color: #444;
 }
 
 section table tr.success {

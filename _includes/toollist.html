@@ -1,17 +1,20 @@
 {% assign tools = site.data.tool_list %}
 <br>
-<table class="tooltable">
+<table class="tooltable display">
+    <thead>
     <tr>
         <th>Tool</th>
         <th>Description</th>
         <th>Tags</th>
         <th>Bio.tools</th>
     </tr>
+    </thead>
+    <tbody>
     {% if include.tags == "print_all" %}
         {% for tool in tools.Tools %}
             <tr>
             {% if tool.link %}
-            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
+            <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
             {% else %}
             <td>{{tool.name}}</td>
             {% endif %}
@@ -44,4 +47,5 @@
                 {% endif %}
         {% endfor %}
     {% endif %}
+    </tbody>
 </table>
