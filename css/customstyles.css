@@ -890,8 +890,7 @@ a.fa.fa-envelope-o.mailto {
 }
 
 h3 {
-    color: var(--accent-color);
-    font-weight: normal;
+    font-weight: 700;
     font-size: 130%;
 }
 
@@ -997,6 +996,7 @@ button.cursorNorm {
 h2 {
     font-size: 24px;
     line-height: 29px;
+    color: var(--primary-theme-color)
 }
 
 span.otherProgrammingLanguages {
