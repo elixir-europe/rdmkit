@@ -3,8 +3,8 @@
     --link-color: #50889f;
     --link-hover-color: #056482;
     --light-grey: #efefef;
-    --accent-color: #C63244;
-    --subtle-text: #555;
+    --accent-color: #055472;
+    --subtle-text: #666;
     --main-bg-color: white;
     --nav-bar-bg: #023452;
     --footer-bg: #3e3e3e;
@@ -21,21 +21,25 @@ body {
     font-variant-ligatures: none;
 }
 
+
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: var(--accent-color)
+}
+
 h3 {
-    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 140%;
 }
 
 h4 {
-    color: #808080;
+    font-weight: 700;
+    font-size: 120%;
+    color: var(--subtle-text);
 }
 
-.h1, h1 {
-    margin-bottom: 20px;
-}
-
-.h2, .h3, h2, h3 {
-    color: var(--main-text-color);
-}
 
 a {
     color: var(--link-color);
@@ -155,6 +159,19 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
 
 .post-content ol li, .post-content ul li {
     margin: 10px 0px;
+}
+
+
+content ul {
+    list-style: none;
+    margin-left: 2.5em;
+  }
+content ul li::before{
+    content: "\2022";
+    color: var(--accent-color);
+    font-size: 1.2em;
+    display: inline-block;
+   /* Add margins as needed. */
 }
 
 .pageSummary {
@@ -340,6 +357,7 @@ div#toc ul li ul {
 
 div#toc ul li ul li::before {
     content: "–  ";
+    
 }
 
 div#toc>ul::before {
@@ -889,19 +907,6 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {
-    color: var(--accent-color);
-    font-weight: normal;
-    font-size: 130%;
-}
-
-h4 {
-    color: #808080;
-    font-weight: normal;
-    font-size: 120%;
-    font-style: italic;
-}
-
 .alert, .callout {
     overflow: hidden;
 }
@@ -992,11 +997,6 @@ hr {
 
 button.cursorNorm {
     cursor: pointer;
-}
-
-h2 {
-    font-size: 24px;
-    line-height: 29px;
 }
 
 span.otherProgrammingLanguages {
