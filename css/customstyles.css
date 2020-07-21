@@ -21,9 +21,6 @@ body {
     font-variant-ligatures: none;
 }
 
-.h1, h1 {
-    margin-bottom: 20px;
-}
 
 h2 {
     font-size: 24px;
@@ -35,12 +32,12 @@ h2 {
 h3 {
     font-weight: 700;
     font-size: 140%;
-    color: var(--subtle-text);
 }
 
 h4 {
     font-weight: 700;
     font-size: 120%;
+    color: var(--subtle-text);
 }
 
 
@@ -162,6 +159,19 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
 
 .post-content ol li, .post-content ul li {
     margin: 10px 0px;
+}
+
+
+content ul {
+    list-style: none;
+    margin-left: 2.5em;
+  }
+content ul li::before{
+    content: "\2022";
+    color: var(--accent-color);
+    font-size: 1.2em;
+    display: inline-block;
+   /* Add margins as needed. */
 }
 
 .pageSummary {
@@ -347,6 +357,7 @@ div#toc ul li ul {
 
 div#toc ul li ul li::before {
     content: "–  ";
+    
 }
 
 div#toc>ul::before {
