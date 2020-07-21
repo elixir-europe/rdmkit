@@ -3,8 +3,8 @@
     --link-color: #50889f;
     --link-hover-color: #056482;
     --light-grey: #efefef;
-    --accent-color: #C63244;
-    --subtle-text: #555;
+    --accent-color: #055472;
+    --subtle-text: #666;
     --main-bg-color: white;
     --nav-bar-bg: #023452;
     --footer-bg: #3e3e3e;
@@ -21,21 +21,28 @@ body {
     font-variant-ligatures: none;
 }
 
-h3 {
-    color: var(--accent-color);
-}
-
-h4 {
-    color: #808080;
-}
-
 .h1, h1 {
     margin-bottom: 20px;
 }
 
-.h2, .h3, h2, h3 {
-    color: var(--main-text-color);
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: var(--accent-color)
 }
+
+h3 {
+    font-weight: 700;
+    font-size: 140%;
+    color: var(--subtle-text);
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 120%;
+}
+
 
 a {
     color: var(--link-color);
@@ -889,18 +896,6 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {
-    font-weight: 700;
-    font-size: 130%;
-}
-
-h4 {
-    color: #808080;
-    font-weight: normal;
-    font-size: 120%;
-    font-style: italic;
-}
-
 .alert, .callout {
     overflow: hidden;
 }
@@ -991,12 +986,6 @@ hr {
 
 button.cursorNorm {
     cursor: pointer;
-}
-
-h2 {
-    font-size: 24px;
-    line-height: 29px;
-    color: var(--primary-theme-color)
 }
 
 span.otherProgrammingLanguages {
