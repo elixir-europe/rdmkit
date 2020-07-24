@@ -46,4 +46,4 @@ There are many guidelines, policies and tools to assist you with Data Management
 
 ## Tools:
 
-{% include toollist.html tags="plan" %}
+{% include toollist.html tag="plan" %}

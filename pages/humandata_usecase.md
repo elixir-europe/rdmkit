@@ -14,8 +14,8 @@ The ELIXIR RDM Toolkit offers help here with a "Human Data" use case. Specifical
   
 ## Key Considerations
 
-  * [Understanding the GDPR](./gdpr.html)
-  * [Determining the sensitivity of your data](./personal_data.html)
+  * [Understanding the GDPR](gdpr)
+  * [Determining the sensitivity of your data](personal_data)
   * Locating tools and platforms suited to handle human data
   
   

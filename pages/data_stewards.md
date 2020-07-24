@@ -4,7 +4,6 @@ keywords:
 sidebar: main
 permalink: data_stewards.html
 summary: This is a test summary
-tags: [personas]
 ---
 
 ## Role title

@@ -15,3 +15,5 @@ topnav_dropdowns:
       folderitems:
         - title: How to contribute
           url: how_to_contribute.html
+        - title: Demo page
+          url: demo_page.html
