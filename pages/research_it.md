@@ -4,7 +4,6 @@ keywords:
 sidebar: main
 permalink: research_it.html
 summary: This is a test summary
-tags: [personas]
 ---
 
 ## Role title
@@ -60,7 +59,9 @@ Inter-process communication, threads and programming for the HPC is also an inte
  * `<type>` data
  * Life science data
 
+## Pages you might be interested in
 
+{% include pagelist.html tag='research_it'%}
 
 
 

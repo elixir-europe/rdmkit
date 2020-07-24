@@ -1,8 +1,8 @@
 Tools:
 - name: FAIRDOMHub
   link: https://fairdomhub.org
-  
   description: Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.
+  biotools:
   tags :
     - collect
     - process
@@ -14,6 +14,7 @@ Tools:
 - name: FAIRsharing
   link: https://fairsharing.org/
   description: A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies. 
+  biotools:
   tags :
     - plan
     - share
@@ -26,26 +27,31 @@ Tools:
 - name: DMPonline
   link: https://dmponline.dcc.ac.uk/
   description: A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.
+  biotools:
   tags:
     - plan
 - name: DMPonline Belgium
   link: https://dmponline.be
   description: A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.
+  biotools:
   tags:
     - plan
 - name: DMP OPIDoR
   link: https://dmp.opidor.fr
   description: Online questionnaire for the development of data management plans; repository of DMPs
+  biotools:
   tags:
     - plan
 - name: DMPlanner
   link: https://dmplanner.athenarc.gr/
   description: Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans. 
+  biotools:
   tags:
     - plan
 - name: DMP Canvas Generator
   link: https://dmp.vital-it.ch
   description: Questionnaire, which generates a pre-filled a DMP
+  biotools:
   tags:
     - plan
 - name: DAISY
@@ -58,11 +64,13 @@ Tools:
 - name: COPO
   link: https://copo-project.org/
   description: Portal for scientists to broker more easily rich metadata alongside data to public repos 
+  biotools:
   tags:
     - share
 - name: BrAPI
   link: https://www.brapi.org
   description: "Specification for a standard API for plant data: plant material, plant phenotyping data"
+  biotools:
   tags:
     - share
 - name: GitHub
@@ -71,10 +79,12 @@ Tools:
 - name: EasyDMP
   link: https://easydmp.no/
   description: DMP creation, versioning and sharing
+  biotools:
   tags:
     - plan
 - name: DMPTuuli
   link: https://www.dmptuuli.fi/
   description: Data management planning tool
+  biotools:
   tags:
     - plan
