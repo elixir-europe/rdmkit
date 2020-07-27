@@ -9,8 +9,12 @@ output_path = "_data/tool_list.yml"
 main_dict_key = "Tools"
 allowed_tags_yaml = "_data/tool_tags.yml"
 
+print(f"----> Converting table {table_path} to {output_path} started.")
+
 with open(allowed_tags_yaml) as file:
     allowed_tags = yaml.load(file, Loader=yaml.FullLoader)['allowed-tags']
+
+print(f"----> Allowed tags: {', '.join(allowed_tags)}.")
 
 tool_table = xlrd.open_workbook(table_path)
 xl_sheet = tool_table.sheet_by_index(0)
@@ -22,6 +26,7 @@ main_dict = {main_dict_key: []}
 header = []
 for col_idx in range(0, num_cols):
     header.append(xl_sheet.cell(0, col_idx).value)
+print("----> Header parsed successfully")
 
 # Looping over rows and addinf its contents to the main dict
 for row_idx in range(1, xl_sheet.nrows):
@@ -38,7 +43,9 @@ for row_idx in range(1, xl_sheet.nrows):
                 cell_obj = unicodedata.normalize("NFKD", cell_obj).strip() # Return the normal form for the Unicode string
             tool[header[col_idx]] = cell_obj
     main_dict[main_dict_key].append(tool)
+    print(f"{row_idx}. {tool['name']} is parsed.")
 
 with open(output_path, 'w') as yaml_file:
     documents = yaml.dump(main_dict, yaml_file)
 
+print("----> YAML is dumped successfully")
