@@ -28,7 +28,7 @@ for col_idx in range(0, num_cols):
     header.append(xl_sheet.cell(0, col_idx).value)
 print("----> Header parsed successfully")
 
-# Looping over rows and addinf its contents to the main dict
+# Looping over rows and adding its contents to the main dict
 for row_idx in range(1, xl_sheet.nrows):
     tool = {}
     for col_idx in range(0, num_cols):
