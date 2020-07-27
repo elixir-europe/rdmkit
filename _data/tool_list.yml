@@ -2,7 +2,7 @@ Tools:
 - name: FAIRDOMHub
   link: https://fairdomhub.org
   description: Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.
-  biotools:
+  biotoolsid:
   tags :
     - collect
     - process
@@ -14,7 +14,7 @@ Tools:
 - name: FAIRsharing
   link: https://fairsharing.org/
   description: A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies. 
-  biotools:
+  biotoolsid:
   tags :
     - plan
     - share
@@ -27,50 +27,50 @@ Tools:
 - name: DMPonline
   link: https://dmponline.dcc.ac.uk/
   description: A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.
-  biotools:
+  biotoolsid:
   tags:
     - plan
 - name: DMPonline Belgium
   link: https://dmponline.be
   description: A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.
-  biotools:
+  biotoolsid:
   tags:
     - plan
 - name: DMP OPIDoR
   link: https://dmp.opidor.fr
   description: Online questionnaire for the development of data management plans; repository of DMPs
-  biotools:
+  biotoolsid:
   tags:
     - plan
 - name: DMPlanner
   link: https://dmplanner.athenarc.gr/
   description: Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans. 
-  biotools:
+  biotoolsid:
   tags:
     - plan
 - name: DMP Canvas Generator
   link: https://dmp.vital-it.ch
   description: Questionnaire, which generates a pre-filled a DMP
-  biotools:
+  biotoolsid:
   tags:
     - plan
 - name: DAISY
   link: https://daisy-demo.elixir-luxembourg.org
   description: Data Information System to keep sensitive data inventory and meet GDPR accountability requirement. 
-  biotools: DAISY
+  biotoolsid: DAISY
   tags:
     - plan
     - collect
 - name: COPO
   link: https://copo-project.org/
   description: Portal for scientists to broker more easily rich metadata alongside data to public repos 
-  biotools:
+  biotoolsid:
   tags:
     - share
 - name: BrAPI
   link: https://www.brapi.org
   description: "Specification for a standard API for plant data: plant material, plant phenotyping data"
-  biotools:
+  biotoolsid:
   tags:
     - share
 - name: GitHub
@@ -79,12 +79,12 @@ Tools:
 - name: EasyDMP
   link: https://easydmp.no/
   description: DMP creation, versioning and sharing
-  biotools:
+  biotoolsid:
   tags:
     - plan
 - name: DMPTuuli
   link: https://www.dmptuuli.fi/
   description: Data management planning tool
-  biotools:
+  biotoolsid:
   tags:
     - plan

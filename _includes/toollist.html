@@ -19,9 +19,9 @@
             {% endif %}
             <td>{{tool.description}}</td>
             <td>{{ tool.tags | join: ", " }}</td>
-            {% if tool.biotools %}
+            {% if tool.biotoolsid %}
             <td style="text-align: center; vertical-align: middle;"><a data-toggle="tooltip"
-                    data-original-title="Bio.tools ID: {{tool.biotools}}" href="https://bio.tools/{{tool.biotools}}"
+                    data-original-title="Bio.tools ID: {{tool.biotoolsid}}" href="https://bio.tools/{{tool.biotoolsid}}"
                     class="no_icon"><i class="fa fa-check-circle" style="font-size: x-large;"></i></a></td>
             {% else %}
             <td></td>
@@ -39,9 +39,9 @@
             {% endif %}
             <td>{{tool.description}}</td>
             <td>{{ tool.tags | join: ", " }}</td>
-            {% if tool.biotools %}
+            {% if tool.biotoolsid %}
             <td style="text-align: center; vertical-align: middle;"><a data-toggle="tooltip"
-                    data-original-title="Bio.tools ID: {{tool.biotools}}" href="https://bio.tools/{{tool.biotools}}"
+                    data-original-title="Bio.tools ID: {{tool.biotoolsid}}" href="https://bio.tools/{{tool.biotoolsid}}"
                     class="no_icon"><i class="fa fa-check-circle" style="font-size: x-large;"></i></a></td>
             {% else %}
             <td></td>
