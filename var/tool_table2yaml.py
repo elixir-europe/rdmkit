@@ -1,4 +1,4 @@
-from sys import argv
+import sys
 import xlrd
 import yaml
 import re
@@ -7,7 +7,10 @@ import unicodedata
 table_path = "_data/tool_list.xlsx"
 output_path = "_data/tool_list.yml"
 main_dict_key = "Tools"
+allowed_tags_yaml = "_data/tool_tags.yml"
 
+with open(allowed_tags_yaml) as file:
+    allowed_tags = yaml.load(file, Loader=yaml.FullLoader)['allowed-tags']
 
 tool_table = xlrd.open_workbook(table_path)
 xl_sheet = tool_table.sheet_by_index(0)
@@ -28,6 +31,9 @@ for row_idx in range(1, xl_sheet.nrows):
         if cell_obj: # Only include keys if there are values
             if  header[col_idx] == 'tags':
                 cell_obj = re.split(', |,', cell_obj)
+                for tag in cell_obj:
+                    if tag not in allowed_tags:
+                        sys.exit(f'The table contains the tag "{tag}" in row {row_idx} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
             else:
                 cell_obj = unicodedata.normalize("NFKD", cell_obj).strip() # Return the normal form for the Unicode string
             tool[header[col_idx]] = cell_obj
