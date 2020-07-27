@@ -465,6 +465,7 @@ object {
         height: 0;
         opacity: 0;
         transition: opacity .5s;
+        margin: 0 10px 0 0;
     }
     .active-child-box {
         height: auto;
