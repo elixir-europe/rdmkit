@@ -1,90 +1,90 @@
 Tools:
-- name: FAIRDOMHub
-  link: https://fairdomhub.org
-  description: Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.
-  biotools:
-  tags :
-    - collect
-    - process
-    - analyse
-    - share
-    - preserve
-    - storage
-    - privacy
-- name: FAIRsharing
-  link: https://fairsharing.org/
-  description: A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies. 
-  biotools:
-  tags :
-    - plan
-    - share
-    - monitoring
-- name: DS-Wizard
-  link: https://ds-wizard.org/
-  description: Data Stewardship Wizard
-  tags:
-    - plan
-- name: DMPonline
-  link: https://dmponline.dcc.ac.uk/
-  description: A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.
-  biotools:
-  tags:
-    - plan
-- name: DMPonline Belgium
-  link: https://dmponline.be
-  description: A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.
-  biotools:
-  tags:
-    - plan
-- name: DMP OPIDoR
-  link: https://dmp.opidor.fr
-  description: Online questionnaire for the development of data management plans; repository of DMPs
-  biotools:
-  tags:
-    - plan
-- name: DMPlanner
-  link: https://dmplanner.athenarc.gr/
-  description: Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans. 
-  biotools:
-  tags:
-    - plan
-- name: DMP Canvas Generator
-  link: https://dmp.vital-it.ch
-  description: Questionnaire, which generates a pre-filled a DMP
-  biotools:
-  tags:
-    - plan
-- name: DAISY
-  link: https://daisy-demo.elixir-luxembourg.org
-  description: Data Information System to keep sensitive data inventory and meet GDPR accountability requirement. 
-  biotools: DAISY
-  tags:
-    - plan
-    - collect
-- name: COPO
-  link: https://copo-project.org/
-  description: Portal for scientists to broker more easily rich metadata alongside data to public repos 
-  biotools:
-  tags:
-    - share
-- name: BrAPI
+- description: 'Specification for a standard API for plant data: plant material, plant
+    phenotyping data'
   link: https://www.brapi.org
-  description: "Specification for a standard API for plant data: plant material, plant phenotyping data"
-  biotools:
+  name: BrAPI
   tags:
-    - share
-- name: GitHub
-  link: https://github.com
-  description: Versioning system, used for sharing code, as well as for sharing of small data 
-- name: EasyDMP
-  link: https://easydmp.no/
-  description: DMP creation, versioning and sharing
-  biotools:
+  - share
+- description: Portal for scientists to broker more easily rich metadata alongside
+    data to public repos
+  link: https://copo-project.org/
+  name: COPO
   tags:
-    - plan
-- name: DMPTuuli
+  - share
+- biotoolsid: DAISY
+  description: Data Information System to keep sensitive data inventory and meet GDPR
+    accountability requirement.
+  link: https://daisy-demo.elixir-luxembourg.org
+  name: DAISY
+  tags:
+  - plan
+  - collect
+- description: Questionnaire, which generates a pre-filled a DMP
+  link: https://dmp.vital-it.ch
+  name: DMP Canvas Generator
+  tags:
+  - plan
+- description: Online questionnaire for the development of data management plans;
+    repository of DMPs
+  link: https://dmp.opidor.fr
+  name: DMP OPIDoR
+  tags:
+  - plan
+- description: Semi-automatically generated, searchable catalogue of resources that
+    are relevant to data management plans.
+  link: https://dmplanner.athenarc.gr/
+  name: DMPlanner
+  tags:
+  - plan
+- description: A free tool to write, share and export a data management plan. Built-in
+    data management plan templates for many major funders.
+  link: https://dmponline.dcc.ac.uk/
+  name: DMPonline
+  tags:
+  - plan
+- description: A free tool to write, share and export a data management plan. Instance
+    aimed at Belgian researchers with built-in data management plan templates for
+    the major funders.
+  link: https://dmponline.be
+  name: DMPonline Belgium
+  tags:
+  - plan
+- description: Data management planning tool
   link: https://www.dmptuuli.fi/
-  description: Data management planning tool
-  biotools:
+  name: DMPTuuli
   tags:
-    - plan
+  - plan
+- description: Data Stewardship Wizard
+  link: https://ds-wizard.org/
+  name: DS-Wizard
+  tags:
+  - plan
+- description: DMP creation, versioning and sharing
+  link: https://easydmp.no/
+  name: EasyDMP
+  tags:
+  - plan
+- description: Data, model and SOPs management for projects, from preliminary data
+    to publication, support for running SBML models etc.
+  link: https://fairdomhub.org
+  name: FAIRDOMHub
+  tags:
+  - collect
+  - process
+  - analyse
+  - share
+  - preserve
+  - storage
+  - privacy
+- description: A curated, informative and educational resource on data and metadata
+    standards, inter-related to databases and data policies.
+  link: https://fairsharing.org/
+  name: FAIRsharing
+  tags:
+  - plan
+  - share
+  - monitoring
+- description: Versioning system, used for sharing code, as well as for sharing of
+    small data
+  link: https://github.com
+  name: GitHub

@@ -1,16 +1,21 @@
 :root {
     --main-text-color: #333;
-    --link-color: #50889f;
-    --link-hover-color: #056482;
-    --light-grey: #efefef;
-    --accent-color: #055472;
+    --primary-theme-color: #f47d21;
+    --blue-dark: #50889f;
+    --blue-x-dark: #056482;
+    --blue-xx-dark: #055472;
+    --blue-xxx-dark: #023452;
     --subtle-text: #666;
     --main-bg-color: white;
-    --nav-bar-bg: #023452;
+    --light-grey: #efefef;
     --footer-bg: #3e3e3e;
     --hover-grey: #8D8D8D;
-    --primary-theme-color: #f47d21;
     --white-text: white;
+    --cycle-red: #C63244;
+    --cycle-yellow: #DBBE28;
+    --cycle-purple: #903292;
+    --cycle-green: #309E69;
+    --cycle-brown: #763E2A;
 }
 
 body {
@@ -21,12 +26,11 @@ body {
     font-variant-ligatures: none;
 }
 
-
 h2 {
     font-size: 24px;
     line-height: 29px;
     font-weight: 700;
-    color: var(--accent-color)
+    color: var(--blue-xx-dark)
 }
 
 h3 {
@@ -40,13 +44,12 @@ h4 {
     color: var(--subtle-text);
 }
 
-
 a {
-    color: var(--link-color);
+    color: var(--blue-dark);
 }
 
 a:hover {
-    color: var(--link-hover-color);
+    color: var(--blue-x-dark);
 }
 
 .bs-callout {
@@ -161,17 +164,17 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     margin: 10px 0px;
 }
 
-
 content ul {
     list-style: none;
     margin-left: 2.5em;
-  }
-content ul li::before{
+}
+
+content ul li::before {
     content: "\2022";
-    color: var(--accent-color);
+    color: var(--blue-xx-dark);
     font-size: 1.2em;
     display: inline-block;
-   /* Add margins as needed. */
+    /* Add margins as needed. */
 }
 
 .pageSummary {
@@ -201,8 +204,8 @@ caption {
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: var(--link-color);
-    border-color: var(--link-color);
+    background-color: var(--blue-dark);
+    border-color: var(--blue-dark);
 }
 
 table {
@@ -357,7 +360,6 @@ div#toc ul li ul {
 
 div#toc ul li ul li::before {
     content: "–  ";
-    
 }
 
 div#toc>ul::before {
@@ -393,7 +395,6 @@ div#toc>ul::before {
     font-weight: normal;
     font-size: 130%;
 }
-
 
 .flexbox h2:hover {
     cursor: pointer;
@@ -441,15 +442,13 @@ object {
 }
 
 .flexbox .active-button {
-    background: #f47d21;
-    border-color: #f47d21;
+    background: var(--primary-theme-color);
+    border-color: transparent;
 }
 
 /* For larger screens */
 
 @media only screen and (min-width: 500px) {
-
-
     .flexbox {
         flex-direction: row;
     }
@@ -466,6 +465,7 @@ object {
         height: 0;
         opacity: 0;
         transition: opacity .5s;
+        margin: 0 10px 0 0;
     }
     .active-child-box {
         height: auto;
@@ -611,7 +611,7 @@ ul#mysidebar li a {
 }
 
 .nav ul li a {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
 }
 
 .nav ul li a {
@@ -640,7 +640,7 @@ div.navbar-collapse .dropdown-menu>li>a:hover {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: rgba(0, 0, 0, 0);
+    border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -728,7 +728,7 @@ span.projectTitle {
 }
 
 .site-footer a:hover {
-    color: var(--link-color);
+    color: var(--blue-dark);
     text-decoration: none;
 }
 
@@ -820,7 +820,7 @@ table.profile thead tr th {
 }
 
 table.request thead tr th {
-    background-color: var(--accent-color);
+    background-color: var(--blue-xx-dark);
 }
 
 .audienceLabel {
@@ -852,10 +852,10 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav>li>a {
 hr.faded {
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+    background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+    background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+    background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
 }
 
 hr.shaded {
@@ -894,7 +894,7 @@ i.border {
     font-size: 16px;
     color: var(--subtle-text);
     margin: 20px 0px 20px 0px;
-    border-left: 5px solid var(--accent-color);
+    border-left: 5px solid var(--blue-xx-dark);
     padding-left: 10px;
 }
 
@@ -932,7 +932,7 @@ li.sidebarTitle {
     margin-top: 20px;
     font-weight: normal;
     font-size: 130%;
-    color: var(--accent-color);
+    color: var(--blue-xx-dark);
     margin-bottom: 10px;
     margin-left: 5px;
 }
@@ -1041,12 +1041,12 @@ ol.series li {
 /* not sure if using this ...*/
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: rgba(0, 0, 0, 0);
+    border-color: transparent;
 }
 
 .navbar-inverse {
-    background-color: var(--nav-bar-bg);
-    border-color: rgba(0, 0, 0, 0);
+    background-color: var(--blue-xxx-dark);
+    border-color: transparent;
 }
 
 #mysidebar .nav ul {
@@ -1177,16 +1177,16 @@ span.soft {
 }
 
 .githubEditButton {
-    color: var(--accent-color);
-    border-color: rgba(0, 0, 0, 0);
+    color: var(--cycle-red);
+    border-color: transparent;
     margin-left: 12px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     font-size: small;
 }
 
 .githubEditButton:hover {
-    color: var(--accent-color);
-    border-color: rgba(0, 0, 0, 0);
+    color: var(--cycle-red);
+    border-color: transparent;
     background-color: var(--light-grey);
 }
 
@@ -1304,12 +1304,12 @@ a[href].noCrossRef::after, a.no_icon:after {
 
 .btn-default {
     background-color: var(--light-grey);
-    border: rgba(0, 0, 0, 0);
+    border: transparent;
 }
 
 .btn-default:hover {
-    background-color: var(--link-color);
-    border: rgba(0, 0, 0, 0);
+    background-color: var(--blue-dark);
+    border: transparent;
     color: var(--white-text)
 }
 
