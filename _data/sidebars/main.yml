@@ -51,7 +51,7 @@ entries:
     - title: Human Data
       url: /humandata_usecase.html
       output: web
-  - title: Problem
+  - title: Your problem
     output: web
     folderitems:
     - title: Storage
