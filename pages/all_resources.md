@@ -8,4 +8,4 @@ toc: false
 custom-editme: _data/resource_list.yml
 ---
 
-{% include resourcelist.html tags="print_all" %}
+{% include resourcelist.html tag="print_all" %}
