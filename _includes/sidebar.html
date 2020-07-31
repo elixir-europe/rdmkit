@@ -7,11 +7,11 @@
   {% if folder.output contains "web" %}
   <li>
       {% if folder.external_url %}
-      <li><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a></li>
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a></li>
       {% elsif page.url == folder.url %}
-      <li class="active"><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %} class="active"><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
       {% elsif folder.url %}
-      <li><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
       {% else %}
       <a title="{{folder.title}}" href="#">{{folder.title}}</a>
       {% endif %}
