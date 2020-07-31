@@ -75,6 +75,7 @@ entries:
     - title: Other
       url: /other_functional_areas.html
       output: web
+  - hr
   - title: All tools
     output: web
     url: /all_tools.html
