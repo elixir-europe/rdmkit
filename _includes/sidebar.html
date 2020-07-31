@@ -7,11 +7,11 @@
   {% if folder.output contains "web" %}
   <li>
       {% if folder.external_url %}
-      <li><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a></li>
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a></li>
       {% elsif page.url == folder.url %}
-      <li class="active"><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %} class="active"><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
       {% elsif folder.url %}
-      <li><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
       {% else %}
       <a title="{{folder.title}}" href="#">{{folder.title}}</a>
       {% endif %}
@@ -52,9 +52,9 @@
           {% endfor %}
       </ul>
    </li>
-     {% endif %}
-      {% endfor %}
-      {% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
 </ul>
 
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->

@@ -9,28 +9,8 @@
         </tr>
     </thead>
     <tbody>
-        {% if include.tags == "print_all" %}
         {% for tool in tools.Tools %}
-        <tr>
-            {% if tool.link %}
-            <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
-            {% else %}
-            <td>{{tool.name}}</td>
-            {% endif %}
-            <td>{{tool.description}}</td>
-            <td>{{ tool.tags | join: ", " }}</td>
-            {% if tool.biotoolsid %}
-            <td style="text-align: center; vertical-align: middle;"><a data-toggle="tooltip"
-                    data-original-title="Bio.tools ID: {{tool.biotoolsid}}" href="https://bio.tools/{{tool.biotoolsid}}"
-                    class="no_icon"><i class="fa fa-check-circle" style="font-size: x-large;"></i></a></td>
-            {% else %}
-            <td></td>
-            {% endif %}
-        </tr>
-        {% endfor %}
-        {% else %}
-        {% for tool in tools.Tools %}
-        {% if tool.tags contains include.tag %}
+        {% if tool.tags contains include.tag or include.tag == "print_all" %}
         <tr>
             {% if tool.link %}
             <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
@@ -49,6 +29,5 @@
         </tr>
         {% endif %}
         {% endfor %}
-        {% endif %}
     </tbody>
 </table>

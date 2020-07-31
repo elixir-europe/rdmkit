@@ -1,4 +1,4 @@
-name: Converting the tool table
+name: Converting the tool and resource table
 
 on:
   push:
@@ -21,7 +21,10 @@ jobs:
           pip install xlrd pyyaml
       - name: Run tool table 2 yaml
         run: |
-          python var/tool_table2yaml.py  
+          python var/tool_table2yaml.py
+      - name: Run resource table 2 yaml
+        run: |
+          python var/resource_table2yaml.py  
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request
@@ -29,18 +32,18 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update tool_list.yaml
-          title: 'Automatic tool-list Update'
+          commit-message: Update tool/resource_list.yaml
+          title: 'Automatic tool/resource-list update'
           body: |
-            This PR is automatically generated based on changes in the tool_list.xlsx file.
+            This PR is automatically generated based on changes in the tool_list.xlsx or resource_list.xlsx file.
 
-            Please verify if this changes are valid.
+            Please verify if these changes are valid.
           labels: |
             automatic PR
           reviewers: bedroesb
           team-reviewers: |
             maintainers
-          branch: toollist_updates
+          branch: list_updates
           base: master
 
       - name: Check output
