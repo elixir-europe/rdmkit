@@ -280,10 +280,27 @@ Giving:
 
 Make sure the tag exists in the `toollist` file.
 
-Tools can be added by manipulating the tollist.yaml file in the `_data` repository.
+Tools can be added by manipulating the tool_list.xlsx file in the `_data` repository.
 
+## Adding a filtered resource-list to your page
 
-## Newline to enforce space between two lines
+Here we list all the tools with the tag **standard**  by using the code snippet:
+
+{% raw %}
+```
+{% include resourcelist.html tag="standard" %}
+```
+{% endraw %}
+
+Giving:
+
+{% include resourcelist.html tag="standard" %}
+
+Make sure the tag exists in the `resourcelist` file.
+
+Resources can be added by manipulating the resource_list.xlsx file in the `_data` repository.
+
+## Enforce space between two lines
 
 To have space between two lines of text, simply leave one empty line in between the line in the markdown. If more is needed, you can force this with:
 
