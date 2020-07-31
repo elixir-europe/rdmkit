@@ -88,3 +88,10 @@ Tools:
     small data
   link: https://github.com
   name: GitHub
+- biotoolsid: phyre
+  description: Protein Homology/analogY Recognition Engine
+  link: http://www.sbg.bio.ic.ac.uk/~phyre2
+  name: Phyre2
+  tags:
+  - process
+  - analyse
