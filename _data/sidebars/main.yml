@@ -78,3 +78,6 @@ entries:
   - title: All tools
     output: web
     url: /all_tools.html
+  - title: All resources
+    output: web
+    url: /all_resources.html
