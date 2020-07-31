@@ -22,9 +22,9 @@ jobs:
       - name: Run tool table 2 yaml
         run: |
           python var/tool_table2yaml.py
-      - name: Run tool table 2 yaml
-          run: |
-            python var/resource_table2yaml.py  
+      - name: Run resource table 2 yaml
+        run: |
+          python var/resource_table2yaml.py  
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request
