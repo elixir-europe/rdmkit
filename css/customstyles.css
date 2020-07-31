@@ -534,7 +534,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav>li {
-    /* margin: 4px 0; */
+    margin-bottom: 4px;
 }
 
 .nav>li li {
@@ -596,7 +596,6 @@ a.accordion-toggle, a.accordion-collapsed {
 ul#mysidebar li a {
     padding-top: 7px;
     padding-bottom: 7px;
-    margin-bottom: 4px;
 }
 
 .nav ul li ul li a {
@@ -612,9 +611,6 @@ ul#mysidebar li a {
 
 .nav ul li a {
     background-color: transparent;
-}
-
-.nav ul li a {
     padding-left: 10px;
     border-radius: 4px;
 }
