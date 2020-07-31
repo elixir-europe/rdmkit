@@ -21,7 +21,7 @@
             <td>{{ recource.tags | join: ", " }}</td>
             {% if recource.fairsharingid %}
             <td style="text-align: center; vertical-align: middle;"><a data-toggle="tooltip"
-                    data-original-title="FAIRsharing ID: {{recource.fairsharingid}}" href=""
+                    data-original-title="FAIRsharing ID: {{recource.fairsharingid}}" href="https://fairsharing.org/FAIRsharing.{{recource.fairsharingid}}"
                     class="no_icon"><i class="fa fa-check-circle" style="font-size: x-large;"></i></a></td>
             {% else %}
             <td></td>
