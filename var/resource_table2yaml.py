@@ -6,7 +6,7 @@ import unicodedata
 
 table_path = "_data/resource_list.xlsx"
 output_path = "_data/resource_list.yml"
-main_dict_key = "resource"
+main_dict_key = "Resources"
 allowed_tags_yaml = "_data/resource_tags.yml"
 
 print(f"----> Converting table {table_path} to {output_path} started.")
