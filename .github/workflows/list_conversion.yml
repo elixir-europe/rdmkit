@@ -1,4 +1,4 @@
-name: Converting the tool and recourse table
+name: Converting the tool and resource table
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
           python var/tool_table2yaml.py
       - name: Run tool table 2 yaml
           run: |
-            python var/recourse_table2yaml.py  
+            python var/resource_table2yaml.py  
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request
@@ -32,10 +32,10 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update tool/recourse_list.yaml
-          title: 'Automatic tool/recourse-list update'
+          commit-message: Update tool/resource_list.yaml
+          title: 'Automatic tool/resource-list update'
           body: |
-            This PR is automatically generated based on changes in the tool_list.xlsx or recourse_list.xlsx file.
+            This PR is automatically generated based on changes in the tool_list.xlsx or resource_list.xlsx file.
 
             Please verify if these changes are valid.
           labels: |

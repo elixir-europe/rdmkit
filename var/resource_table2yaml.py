@@ -4,10 +4,10 @@ import yaml
 import re
 import unicodedata
 
-table_path = "_data/recource_list.xlsx"
-output_path = "_data/recource_list.yml"
-main_dict_key = "Recource"
-allowed_tags_yaml = "_data/recource_tags.yml"
+table_path = "_data/resource_list.xlsx"
+output_path = "_data/resource_list.yml"
+main_dict_key = "resource"
+allowed_tags_yaml = "_data/resource_tags.yml"
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
