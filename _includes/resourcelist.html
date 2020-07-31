@@ -9,28 +9,8 @@
         </tr>
     </thead>
     <tbody>
-        {% if include.tags == "print_all" %}
         {% for resource in resources.Resources %}
-        <tr>
-            {% if resource.link %}
-            <td><a class="no_icon" href="{{resource.link}}">{{resource.name}}</a></td>
-            {% else %}
-            <td>{{resource.name}}</td>
-            {% endif %}
-            <td>{{resource.description}}</td>
-            <td>{{ resource.tags | join: ", " }}</td>
-            {% if resource.fairsharingid %}
-            <td style="text-align: center; vertical-align: middle;"><a data-toggle="tooltip"
-                    data-original-title="FAIRsharing ID: {{resource.fairsharingid}}" href="https://fairsharing.org/FAIRsharing.{{resource.fairsharingid}}"
-                    class="no_icon"><i class="fa fa-check-circle" style="font-size: x-large;"></i></a></td>
-            {% else %}
-            <td></td>
-            {% endif %}
-        </tr>
-        {% endfor %}
-        {% else %}
-        {% for resource in resources.resources %}
-        {% if resource.tags contains include.tag %}
+        {% if resource.tags contains include.tag or include.tag == "print_all" %}
         <tr>
             {% if resource.link %}
             <td><a class="no_icon" href="{{resource.link}}">{{resource.name}}</a></td>
@@ -49,6 +29,5 @@
         </tr>
         {% endif %}
         {% endfor %}
-        {% endif %}
     </tbody>
 </table>
