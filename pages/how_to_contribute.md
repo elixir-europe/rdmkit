@@ -12,7 +12,7 @@ summary: This is a test summary
 Some text that you can fill in
 
 
-This is the [persona template](TEMPLATE_persona)
+This is the [persona template](TEMPLATE_persona).
 
 
 Test
