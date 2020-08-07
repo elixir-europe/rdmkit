@@ -1,5 +1,5 @@
 ---
-title: "How to contributeS"
+title: "How to contribute"
 keywords: 
 sidebar: main
 permalink: how_to_contribute.html
