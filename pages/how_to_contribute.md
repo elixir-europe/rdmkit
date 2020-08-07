@@ -1,5 +1,5 @@
 ---
-title: "This is a test page"
+title: "How to contributeS"
 keywords: 
 sidebar: main
 permalink: how_to_contribute.html
