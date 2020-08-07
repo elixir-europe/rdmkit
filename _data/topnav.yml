@@ -11,7 +11,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Help
+    - title: Contribute
       folderitems:
         - title: How to contribute
           url: how_to_contribute.html
