@@ -1,5 +1,5 @@
 ---
-title: "This is a test page"
+title: Invoking a merge conflict
 keywords: 
 sidebar: main
 permalink: how_to_contribute.html
