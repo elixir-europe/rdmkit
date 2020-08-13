@@ -2,7 +2,6 @@
 title: Processing
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: processing.html
 folder: RDM_cycle
 ---

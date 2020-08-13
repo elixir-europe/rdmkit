@@ -1,7 +1,6 @@
 ---
 title: "About"
 keywords: 
-sidebar: main
 permalink: about.html
 ---
 

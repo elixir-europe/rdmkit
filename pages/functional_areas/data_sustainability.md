@@ -2,7 +2,6 @@
 title: Data Sustainability
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: data_sustainability.html
 folder: functional_areas
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Data steward policy"
 keywords: [Data management training, Data management policy, FAIR, Open data, GDPR, Informed consent, etc, <research domain>, Data license, Software license, Sensitive data, Confidentiality, Data rights, DMP, Data sharing, Life science data, International (research) collaboration]
-sidebar: main
 permalink: data_stewards.html
 summary: This is a test summary
 folder: personas

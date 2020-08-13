@@ -2,7 +2,6 @@
 title: Other
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: other_functional_areas.html
 folder: functional_areas
 ---

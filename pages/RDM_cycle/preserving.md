@@ -2,7 +2,6 @@
 title: Preserving
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: preserving.html
 folder: RDM_cycle
 ---

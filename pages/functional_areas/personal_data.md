@@ -1,6 +1,5 @@
 ---
 title: Determining the sensitivity of your data
-sidebar: main
 permalink: personal_data.html
 folder: functional_areas
 ---

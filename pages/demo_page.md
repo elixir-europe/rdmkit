@@ -244,7 +244,6 @@ This metadata example shows how we tag the "Storage" page with the **research_it
 title: Storage
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: storage.html
 tags: [research_it] 
 ---
