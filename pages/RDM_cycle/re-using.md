@@ -1,9 +1,10 @@
 ---
-title: Data Transfer
+title: Re-using
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: data_transfer.html
+permalink: re-using.html
+folder: RDM_cycle
 ---
 
 ## Subtitle 1

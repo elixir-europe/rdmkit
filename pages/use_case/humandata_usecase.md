@@ -2,6 +2,7 @@
 title: Federated access to human data under the GDPR
 sidebar: main
 permalink: humandata_usecase.html
+folder: use_case
 ---
 
 ## Overview

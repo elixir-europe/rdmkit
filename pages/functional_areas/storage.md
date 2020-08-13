@@ -1,9 +1,11 @@
 ---
-title: Metadata Management
+title: Storage
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: metadata_management.html
+permalink: storage.html
+tags: [research_it] 
+folder: functional_areas
 ---
 
 ## Subtitle 1

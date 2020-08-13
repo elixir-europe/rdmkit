@@ -4,6 +4,7 @@ keywords:
 summary: Empty summary
 sidebar: main
 permalink: security_&_privacy.html
+folder: functional_areas
 ---
 
 ## Is my data sensitive?

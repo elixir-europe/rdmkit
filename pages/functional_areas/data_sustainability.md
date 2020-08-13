@@ -1,9 +1,10 @@
 ---
-title: Processing
+title: Data Sustainability
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: processing.html
+permalink: data_sustainability.html
+folder: functional_areas
 ---
 
 ## Subtitle 1

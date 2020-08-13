@@ -1,10 +1,10 @@
 ---
-title: Storage
+title: Preserving
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: storage.html
-tags: [research_it] 
+permalink: preserving.html
+folder: RDM_cycle
 ---
 
 ## Subtitle 1

@@ -1,9 +1,10 @@
 ---
-title: Data Sustainability
+title: Processing
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: data_sustainability.html
+permalink: processing.html
+folder: RDM_cycle
 ---
 
 ## Subtitle 1

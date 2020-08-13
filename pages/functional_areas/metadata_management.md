@@ -1,9 +1,10 @@
 ---
-title: Other
+title: Metadata Management
 keywords:
 summary: Empty summary
 sidebar: main
-permalink: other_functional_areas.html
+permalink: metadata_management.html
+folder: functional_areas
 ---
 
 ## Subtitle 1
