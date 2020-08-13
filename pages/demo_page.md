@@ -1,7 +1,7 @@
 ---
 title: "Demo page"
 keywords: [ Persistent storage, Temporary storage, Data management infrastructure, Data repositories, FAIR, Open data, DMP, Sensitive data, Information security, Data brokering ]
-sidebar: main
+sidebar: contribute
 permalink: demo_page.html
 summary: This is a demo page to showcase what is possible
 ---

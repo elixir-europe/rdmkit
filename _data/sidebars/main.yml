@@ -1,7 +1,7 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title:
+- title: Main sidebar
   folders:
   - title: Data Life Cycle
     output: web
