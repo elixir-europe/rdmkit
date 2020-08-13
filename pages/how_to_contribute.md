@@ -1,5 +1,5 @@
 ---
-title: Invoking a merge conflict
+title: How to contribute
 keywords: 
 sidebar: contribute
 permalink: how_to_contribute.html

@@ -5,7 +5,6 @@ entries:
       - title: How to contribute
         output: web
         url: /how_to_contribute.html
-        hr: True
       - title: Demo page
         output: web
         url: /demo_page.html
