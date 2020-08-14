@@ -43,7 +43,7 @@ feedback_email: example@gmail.com
 # feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
-feedback_text: "Need help?"
+feedback_text: "Give feedback"
 # if you uncomment the previous line, it changes the Feedback text
 
 # feedback_link: "http://helpy.io/"
