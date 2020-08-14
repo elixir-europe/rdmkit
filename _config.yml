@@ -30,11 +30,20 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
+  - CONTRIBUTORS.yaml
+  - CODEOWNERS
+  - var/
+  - README.md
 
-feedback_disable: true
+feedback_subject_line: RDM toolkit
+
+feedback_email: example@gmail.com
+# used as a contact email for the Feedback link in the top navigation bar
+
+# feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
-# feedback_text: "Need help?"
+feedback_text: "Need help?"
 # if you uncomment the previous line, it changes the Feedback text
 
 # feedback_link: "http://helpy.io/"
@@ -71,6 +80,7 @@ defaults:
 
 sidebars:
 - main
+- contribute
 
 description: "This website will need a description"
 

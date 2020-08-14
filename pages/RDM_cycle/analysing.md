@@ -1,9 +1,9 @@
 ---
-title: Other
+title: Analysing
 keywords:
 summary: Empty summary
-sidebar: main
-permalink: other_functional_areas.html
+permalink: analysing.html
+folder: RDM_cycle
 ---
 
 ## Subtitle 1

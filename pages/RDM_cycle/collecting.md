@@ -2,8 +2,8 @@
 title: Collecting data
 keywords:
 summary: Information about what to consider during the collect phase of the data cycle
-sidebar: main
 permalink: collecting.html
+folder: RDM_cycle
 ---
 
 ## What?

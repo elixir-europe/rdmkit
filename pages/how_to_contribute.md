@@ -1,7 +1,7 @@
 ---
-title: Invoking a merge conflict
+title: How to contribute
 keywords: 
-sidebar: main
+sidebar: contribute
 permalink: how_to_contribute.html
 summary: This is a test summary
 ---

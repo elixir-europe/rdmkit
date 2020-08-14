@@ -2,8 +2,8 @@
 title: Metadata Management
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: metadata_management.html
+folder: functional_areas
 ---
 
 ## Subtitle 1

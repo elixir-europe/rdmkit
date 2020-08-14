@@ -2,8 +2,8 @@
 title: Compliance Monitoring & Measurement
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: compliance_monitoring_&_measurement.html
+folder: functional_areas
 ---
 
 ## Subtitle 1

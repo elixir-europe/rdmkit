@@ -1,9 +1,10 @@
 ---
-title: Processing
+title: Storage
 keywords:
 summary: Empty summary
-sidebar: main
-permalink: processing.html
+permalink: storage.html
+tags: [research_it] 
+folder: functional_areas
 ---
 
 ## Subtitle 1

@@ -1,9 +1,9 @@
 ---
-title: Analysing
+title: Other
 keywords:
 summary: Empty summary
-sidebar: main
-permalink: analysing.html
+permalink: other_functional_areas.html
+folder: functional_areas
 ---
 
 ## Subtitle 1

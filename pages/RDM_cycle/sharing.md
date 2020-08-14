@@ -2,8 +2,8 @@
 title: Sharing
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: sharing.html
+folder: RDM_cycle
 ---
 
 ## What?

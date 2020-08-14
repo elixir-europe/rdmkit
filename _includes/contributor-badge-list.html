@@ -1,0 +1,4 @@
+{% capture people %}
+{% for id in include.contributors %}, {% assign name = contributors[id].name | default: id %}<a href=""><img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="{{ name }}">{{ name }}</a>{% endfor %}
+{% endcapture %}
+{{ people | remove_first: ', ' }}

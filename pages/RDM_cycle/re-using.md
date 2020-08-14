@@ -1,10 +1,9 @@
 ---
-title: Storage
+title: Re-using
 keywords:
 summary: Empty summary
-sidebar: main
-permalink: storage.html
-tags: [research_it] 
+permalink: re-using.html
+folder: RDM_cycle
 ---
 
 ## Subtitle 1

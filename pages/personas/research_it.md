@@ -1,9 +1,9 @@
 ---
 title: "Research IT"
-keywords: 
-sidebar: main
+keywords:  [Persistent storage, Temporary storage, Data management infrastructure, Data repositories, FAIR, Open data, DMP, Sensitive data, Information security (and related concepts), Data brokering, Data organisation, AAI, Containerisation, Reproducibility, Persistent identifiers, Automated submission, Cloud computing, HPC, <type> data, Life science data]
 permalink: research_it.html
 summary: This is a test summary
+folder: personas
 ---
 
 ## Role title
@@ -35,29 +35,6 @@ Inter-process communication, threads and programming for the HPC is also an inte
  * What tools are available to create analysis pipelines?
  * What are the tools that can be used to manage dependencies resolve software package version conflicts?
 
-
-## Keywords for website (not to be included on the website)
-
- * Persistent storage
- * Temporary storage
- * Data management infrastructure
- * Data repositories
- * FAIR
- * Open data
- * DMP
- * Sensitive data
- * Information security (and related concepts)
- * Data brokering 
- * Data organisation
- * AAI
- * Containerisation
- * Reproducibility
- * Persistent identifiers
- * Automated submission
- * Cloud computing
- * HPC
- * `<type>` data
- * Life science data
 
 ## Pages you might be interested in
 

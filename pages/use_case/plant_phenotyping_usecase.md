@@ -1,9 +1,9 @@
 ---
 title: "Plant phenotyping"
 keywords: 
-sidebar: main
 permalink: plant_phenotyping_usecase.html
 summary: How to produce and publish plant phenotype data
+folder: use_case
 ---
 
 

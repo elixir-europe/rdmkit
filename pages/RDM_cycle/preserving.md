@@ -1,9 +1,9 @@
 ---
-title: Re-using
+title: Preserving
 keywords:
 summary: Empty summary
-sidebar: main
-permalink: re-using.html
+permalink: preserving.html
+folder: RDM_cycle
 ---
 
 ## Subtitle 1

@@ -1,7 +1,6 @@
 ---
 title: "All resources"
 keywords: 
-sidebar: main
 permalink: all_resources.html
 datatable: true
 toc: false

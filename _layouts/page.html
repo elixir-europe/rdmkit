@@ -14,6 +14,10 @@ layout: default
     </h1>
 </div>
 
+{% if page.contributors %}
+<div class="contributors-line">By: {% include contributor-badge-list.html contributors=page.contributors %}</div>
+{% endif %}
+
 {% if page.simple_map == true %}
 
 <script>

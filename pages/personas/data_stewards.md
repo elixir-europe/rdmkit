@@ -1,9 +1,9 @@
 ---
 title: "Data steward policy"
-keywords: 
-sidebar: main
+keywords: [Data management training, Data management policy, FAIR, Open data, GDPR, Informed consent, etc, <research domain>, Data license, Software license, Sensitive data, Confidentiality, Data rights, DMP, Data sharing, Life science data, International (research) collaboration]
 permalink: data_stewards.html
 summary: This is a test summary
+folder: personas
 ---
 
 ## Role title
@@ -40,22 +40,3 @@ My name is Janet Brown.  I studied B.Sc. Biology and this is my first role after
 * What governs who owns(?)/has rights of use for data?
 * What data agreements exist between institutions and how can new agreements be made? Sharing data between organisations/companies.
 * What are tools and resources to help ensure that personal data is handled lawfully (GDPR)?
-
-## Keywords for website (not to be included on the webpage)
-
-Data management training
-Data management policy
-FAIR
-Open data
-GDPR
-Informed consent, etc
-<research domain>
-Data license
-Software license
-Sensitive data
-Confidentiality
-Data rights
-DMP
-Data sharing
-Life science data
-International (research) collaboration

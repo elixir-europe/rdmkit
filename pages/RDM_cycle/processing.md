@@ -1,9 +1,9 @@
 ---
-title: Preserving
+title: Processing
 keywords:
 summary: Empty summary
-sidebar: main
-permalink: preserving.html
+permalink: processing.html
+folder: RDM_cycle
 ---
 
 ## Subtitle 1

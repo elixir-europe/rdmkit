@@ -515,6 +515,17 @@ a.accordion-toggle, a.accordion-collapsed {
     text-decoration: none;
 }
 
+.contributors-line {
+    color: var(--subtle-text);
+    font-size: 1.2em;
+}
+
+.contributor-badge {
+    height: 1.25em;
+    border-radius: 50%;
+    margin: 0.25em;
+}
+
 /* navgoco sidebar styles (customized) */
 
 .nav, .nav ul, .nav li {

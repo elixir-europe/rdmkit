@@ -1,9 +1,10 @@
 ---
 title: "Demo page"
-keywords: [ Persistent storage, Temporary storage, Data management infrastructure, Data repositories, FAIR, Open data, DMP, Sensitive data, Information security, Data brokering ]
-sidebar: main
+keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+sidebar: contribute
 permalink: demo_page.html
 summary: This is a demo page to showcase what is possible
+contributors: [bedroesb]
 ---
 
 ## Titles
@@ -244,7 +245,6 @@ This metadata example shows how we tag the "Storage" page with the **research_it
 title: Storage
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: storage.html
 tags: [research_it] 
 ---

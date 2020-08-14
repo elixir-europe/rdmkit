@@ -1,7 +1,7 @@
 ---
 title: Understanding the GDPR
-sidebar: main
 permalink: gdpr.html
+folder: functional_areas
 ---
 
 

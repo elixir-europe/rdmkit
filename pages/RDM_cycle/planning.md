@@ -2,8 +2,8 @@
 title: Planning
 keywords:
 summary: Empty summary
-sidebar: main
 permalink: planning.html
+folder: RDM_cycle
 ---
 
 ## What?

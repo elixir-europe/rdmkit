@@ -1,0 +1,10 @@
+
+entries:
+    - title: Contribute
+      folders:
+      - title: How to contribute
+        output: web
+        url: /how_to_contribute.html
+      - title: Demo page
+        output: web
+        url: /demo_page.html
