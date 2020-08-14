@@ -30,6 +30,10 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
+  - CONTRIBUTORS.yaml
+  - CODEOWNERS
+  - var/
+  - README.md
 
 feedback_subject_line: RDM toolkit
 
