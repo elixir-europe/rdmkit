@@ -7,6 +7,7 @@ folder: personas
 contributors: [contributor1, contributor2]
 ---
 
+{% include note.html content="This page is under construction." %}
 
 Support bioinformatician and data steward.
 
