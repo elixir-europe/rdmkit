@@ -30,7 +30,6 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
-  - CONTRIBUTORS.yaml
   - CODEOWNERS
   - var/
   - README.md
