@@ -8,7 +8,7 @@ toc: false
 {% include note.html content="This site is under construction, weird things can happen at any given moment." %}
 
 <p class="centered"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
-<object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
+<object class="main_rdm" type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
 <p>Or find resources by:</p>
 <div class="flexbox">
 <div>
