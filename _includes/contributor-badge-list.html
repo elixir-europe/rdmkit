@@ -1,6 +1,6 @@
 {% assign allcontributors = site.data.CONTRIBUTORS %}
 
 {% capture people %}
-{% for id in include.contributors %}, <a class="no_icon" href="https://github.com/{{ id }}"><img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="{{ allcontributors[id].name }}"> {{ allcontributors[id].name }}</a>{% endfor %}
+{% for id in include.contributors %}, {% assign name = allcontributors[id].name | default: id %}<a class="no_icon" href="https://github.com/{{ id }}"><img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="{{ name }}"> {{ name }}</a>{% endfor %}
 {% endcapture %}
 {{ people | remove_first: ', ' }}
