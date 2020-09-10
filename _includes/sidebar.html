@@ -10,26 +10,80 @@
 
 <ul id="mysidebar" class="nav">
   <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
-  {% if page.sidebar == "main" %}
+  
+  {% for entry in sidebar %}
+  {% for folder in entry.folders %}
+  {% if folder.output contains "web" %}
+  <li>
+      {% if folder.external_url %}
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a></li>
+      {% elsif page.url == folder.url %}
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %} class="active"><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
+      {% elsif folder.url %}
+      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
+      {% else %}
+      <a title="{{folder.title}}" href="#">{{folder.title}}</a>
+      {% endif %}
+      <ul>
+          {% for folderitem in folder.folderitems %}
+          {% if folderitem.output contains "web" %}
+          {% if folderitem.external_url %}
+          <li><a title="{{folderitem.title}}" href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a></li>
+          {% elsif page.url == folderitem.url %}
+          <li class="active"><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+          {% elsif folderitem.type == "empty" %}
+          <li><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+
+          {% else %}
+          <li><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+          {% endif %}
+          {% for subfolders in folderitem.subfolders %}
+          {% if subfolders.output contains "web" %}
+          <li class="subfolders">
+              <a title="{{subfolders.title}}" href="#">{{ subfolders.title }}</a>
+              <ul>
+                  {% for subfolderitem in subfolders.subfolderitems %}
+                  {% if subfolderitem.output contains "web" %}
+                  {% if subfolderitem.external_url %}
+                  <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.external_url}}" target="_blank" rel="noopener">{{subfolderitem.title}}</a></li>
+                  {% elsif page.url == subfolderitem.url %}
+                  <li class="active"><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a></li>
+                  {% else %}
+                  <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a></li>
+                  {% endif %}
+                  {% endif %}
+                  {% endfor %}
+              </ul>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endfor %}
+      </ul>
+   </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    {% if page.sidebar == "main" %}
     <svg version="1.1" id="Layer_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 250.9 251" style="enable-background:new 0 0 250.9 251;" xml:space="preserve" class="sidebar_rdm">
     <style type="text/css">
         .st0{fill:#f47d21;}
-        .st10{fill:#FFA967;}
+        .st10{fill:#b0c3cf;}
         .st1{fill:#FFFFFF;}
         .st2{fill:#DBBE28;}
-        .st12{fill:#FAE46F;}
+        .st12{fill:#b0c3cf;}
         .st3{fill:#763E2A;}
-        .st13{fill:#A46E5B;}
+        .st13{fill:#b0c3cf;}
         .st4{fill:#309E69;}
-        .st14{fill:#69C197;}
+        .st14{fill:#b0c3cf;}
         .st5{fill:#903292;}
-        .st15{fill:#B76EBA;}
+        .st15{fill:#b0c3cf;}
         .st6{fill:#023452;}
-        .st16{fill:#407DA2;}
+        .st16{fill:#b0c3cf;}
         .st7{fill:#C63244;}
-        .st17{fill:#EF7785;}
-        .st18{fill: #efefef;}
+        .st17{fill:#b0c3cf;}
+        .st18{fill: #484848;}
         .st19{fill: #333;}
         .st8{font-family: 'Lato', sans-serif;}
         .st9{font-size:13.5px;}
@@ -174,59 +228,6 @@
     <text transform="matrix(1 0 0 1 197.0817 128.9797)" class="st1 st8 st9">Collect</text>
     </svg>
   {% endif %}
-  {% for entry in sidebar %}
-  {% for folder in entry.folders %}
-  {% if folder.output contains "web" %}
-  <li>
-      {% if folder.external_url %}
-      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a></li>
-      {% elsif page.url == folder.url %}
-      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %} class="active"><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
-      {% elsif folder.url %}
-      <li {% if folder.hr %}style="margin-top: 20px;"{% endif %}><a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{folder.title}}</a></li>
-      {% else %}
-      <a title="{{folder.title}}" href="#">{{folder.title}}</a>
-      {% endif %}
-      <ul>
-          {% for folderitem in folder.folderitems %}
-          {% if folderitem.output contains "web" %}
-          {% if folderitem.external_url %}
-          <li><a title="{{folderitem.title}}" href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a></li>
-          {% elsif page.url == folderitem.url %}
-          <li class="active"><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
-          {% elsif folderitem.type == "empty" %}
-          <li><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
-
-          {% else %}
-          <li><a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
-          {% endif %}
-          {% for subfolders in folderitem.subfolders %}
-          {% if subfolders.output contains "web" %}
-          <li class="subfolders">
-              <a title="{{subfolders.title}}" href="#">{{ subfolders.title }}</a>
-              <ul>
-                  {% for subfolderitem in subfolders.subfolderitems %}
-                  {% if subfolderitem.output contains "web" %}
-                  {% if subfolderitem.external_url %}
-                  <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.external_url}}" target="_blank" rel="noopener">{{subfolderitem.title}}</a></li>
-                  {% elsif page.url == subfolderitem.url %}
-                  <li class="active"><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a></li>
-                  {% else %}
-                  <li><a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a></li>
-                  {% endif %}
-                  {% endif %}
-                  {% endfor %}
-              </ul>
-          </li>
-          {% endif %}
-          {% endfor %}
-          {% endif %}
-          {% endfor %}
-      </ul>
-   </li>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
 </ul>
 
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->

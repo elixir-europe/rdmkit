@@ -14,7 +14,7 @@
 	.st8{font-family: 'Lato', sans-serif;}
 	.st9{font-size:13.5px;}
 	.st0,.st2,.st3,.st4,.st5,.st6,.st7 {transition: fill 0.3s;}
-	.st0:hover,.st2:hover,.st3:hover,.st4:hover,.st5:hover,.st6:hover,.st7:hover {fill:#999;cursor: pointer;}
+	.st0:hover,.st2:hover,.st3:hover,.st4:hover,.st5:hover,.st6:hover,.st7:hover {fill:#b0c3cf;cursor: pointer;}
 	.st1:hover{fill:#FFFFFF;cursor: pointer;}
 	text {pointer-events : none;}
 
