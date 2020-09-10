@@ -1,0 +1,19 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# General website
+*       @bedroesb
+
+# Different areas 
+/pages/functional_areas       
+/pages/personas       @MijkeJetten
+/pages/RDM_cycle       @wittigue @floradanna @smza
+/pages/use_case      @DanFaria @pinarpink 
+/pages/*      @frederikcoppens @CaroleGoble @vsundesha @roper79
+
+# Sidebar
+/_data/sidebars/*      @vsundesha @roper79 @bedroesb
+
+# Tool and resources
+/_data/resource*      @wittigue @bedroesb
+/_data/tool*     @wittigue @bedroesb

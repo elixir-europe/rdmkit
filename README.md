@@ -1,3 +1,5 @@
+[![Converting the tool and resource table](https://github.com/elixir-europe/rdm-toolkit/workflows/Converting%20the%20tool%20and%20resource%20table/badge.svg)](https://github.com/elixir-europe/rdm-toolkit/actions?query=workflow%3A%22Converting+the+tool+and+resource+table%22) [![Jekyll site CI](https://github.com/elixir-europe/rdm-toolkit/workflows/Jekyll%20site%20CI/badge.svg)](https://github.com/elixir-europe/rdm-toolkit/actions?query=workflow%3A%22Jekyll+site+CI%22)
+
 # rdm-toolkit
 ELIXIR Data Management Toolkit
 

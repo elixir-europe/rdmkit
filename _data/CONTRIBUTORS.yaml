@@ -1,0 +1,21 @@
+# List of contributors
+#
+# reference maintainers/contributors by their id in tutorial metadata files
+#
+# valid tags: name, email, linkedin, twitter, gitter, orcid, bio, joined
+#
+# collection names should be equal to github username, if not, add github: false tag
+
+# two dummy entries that are used in the template pages
+contributor1:
+    name: Contributor A (Please add contributors to the CONTRIBUTORS.yaml file)
+contributor2:
+    name: Contributor B (Please list all contributors of this tutorial in the metadata section)
+
+# our real contributors
+
+bedroesb:
+    name: Bert Droesbeke
+    email: bedro@psb.ugent.be
+    gitter: bedroesb
+    orcid: 0000-0003-0522-5674
