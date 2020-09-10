@@ -84,3 +84,5 @@ sidebars:
 description: "This website will need a description"
 
 github: [metadata]
+
+RDM_pages: ["/re-using.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
