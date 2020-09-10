@@ -1,5 +1,5 @@
 ---
-title: <Title>
+title: [Title]
 keywords: [Keyword 1,Keyword 2, Keyword n]
 summary: Fill in your summary or delete this property when not needed
 permalink: TEMPLATE_RDM_cycle.html
@@ -9,18 +9,18 @@ contributors: [contributor1, contributor2]
 
 {% include note.html content="This page is under construction." %}
 
-<!-- Please replace [TITLE] with the title of the page -->
+<!-- Please replace [Title] with the title of the page -->
 
-## What [TITLE] means
+## What [Title] means
 <!-- Please write your text below -->
 
-## Why [TITLE] is important
+## Why [Title] is important
 <!-- Please write your text below -->
 
-## When [TITLE] should be done
+## When [Title] should be done
 <!-- Please write your text below -->
 
-## How [TITLE] could be done
+## How [Title] could be done
 <!-- Please write your text below -->
 
 ### [TITLE OF STEP1 OR SOLUTION1]
