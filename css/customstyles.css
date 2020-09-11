@@ -534,22 +534,13 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav ul {
     padding: 0;
-    margin: 0px;
 }
 
 .nav {
-    /* padding: 4px;*/
     padding: 0px;
     margin: 0px;
 }
 
-.nav>li {
-    margin-bottom: 4px;
-}
-
-.nav>li li {
-    margin: 4px 0;
-}
 
 .nav>li>a:hover {
     background-color: var(--primary-theme-color);
@@ -606,6 +597,7 @@ a.accordion-toggle, a.accordion-collapsed {
 ul#mysidebar li a {
     padding-top: 7px;
     padding-bottom: 7px;
+    margin-top: 4px;
 }
 
 .nav ul li ul li a {
