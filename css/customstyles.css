@@ -687,6 +687,7 @@ ul#mysidebar li ul .sidebar_rdm_sub {
     padding: 14px 10px 10px 10px;
     border-radius: 0px 0px 4px 4px;
     border-style: solid;
+    border-width: 0.2em;
     margin: -4px 0px 0px 0px;
 }
 
