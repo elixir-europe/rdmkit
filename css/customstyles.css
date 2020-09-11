@@ -682,13 +682,12 @@ a.navbar-brand:hover {
     margin-right: auto
 }
 
-.sidebar_rdm_sub {
+ul#mysidebar li ul .sidebar_rdm_sub {
     border-color: #efefef;
     padding: 14px 10px 10px 10px;
     border-radius: 0px 0px 4px 4px;
     border-style: solid;
     margin: -4px 0px 0px 0px;
-    border-top-style: unset;
 }
 
 @media (max-width: 992px) {
@@ -1237,6 +1236,10 @@ span.soft {
     padding: 15px;
     margin: 15px 0px;
     background-color: var(--light-grey);
+}
+
+ul#mysidebar {
+    margin-top: 20px;
 }
 
 @media (max-width: 990px) {
