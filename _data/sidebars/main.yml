@@ -3,30 +3,10 @@
 entries:
 - title: Main sidebar
   folders:
-  - title: Data Life Cycle
-    output: web
+  - title: Data Life Cycle	
+    output: web	
     folderitems:
-      - title: Planning
-        url: /planning.html
-        output: web
-      - title: Collecting
-        url: /collecting.html
-        output: web
-      - title: Processing
-        url: /processing.html
-        output: web
-      - title: Analysing
-        url: /analysing.html
-        output: web
-      - title: Preserving
-        url: /preserving.html
-        output: web
-      - title: Sharing
-        url: /sharing.html
-        output: web
-      - title: Re-using
-        url: /re-using.html
-        output: web
+      - RDM : True
   - title: Your role
     output: web
     folderitems:

@@ -428,7 +428,7 @@ svg {
     font-variant-ligatures: none;
 }
 
-object {
+.main_rdm {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -458,7 +458,7 @@ object {
     .flexbox h2 {
         margin: 0 10px 0 0;
     }
-    object {
+    .main_rdm {
         width: 55%;
     }
     .child-box {
@@ -474,13 +474,13 @@ object {
 }
 
 @media (min-width: 992px) {
-    object {
+    .main_rdm {
         width: 42%;
     }
 }
 
 @media (min-width: 1200px) {
-    object {
+    .main_rdm {
         width: 35%;
     }
 }
@@ -534,7 +534,6 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav ul {
     padding: 0;
-    /*margin: 0 0 0 18px;*/
     margin: 0px;
 }
 
@@ -549,7 +548,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav>li li {
-    margin: 2px 0;
+    margin: 4px 0;
 }
 
 .nav>li>a:hover {
@@ -676,6 +675,27 @@ a.navbar-brand:hover {
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: var(--primary-theme-color);
 }
+
+.sidebar_rdm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+ul#mysidebar li ul .sidebar_rdm_sub {
+    border-color: #efefef;
+    padding: 14px 10px 10px 10px;
+    border-radius: 0px 0px 4px 4px;
+    border-style: solid;
+    margin: -4px 0px 0px 0px;
+}
+
+@media (max-width: 992px) {
+    .sidebar_rdm {
+        width: 200px;
+    }
+}
+
 
 span.projectTitle {
     font-family: 'Lato', sans-serif;
@@ -1216,6 +1236,10 @@ span.soft {
     padding: 15px;
     margin: 15px 0px;
     background-color: var(--light-grey);
+}
+
+ul#mysidebar {
+    margin-top: 20px;
 }
 
 @media (max-width: 990px) {

@@ -5,17 +5,12 @@
 # valid tags: name, email, linkedin, twitter, gitter, orcid, bio, joined
 #
 # collection names should be equal to github username, if not, add github: false tag
----
 
 # two dummy entries that are used in the template pages
 contributor1:
     name: Contributor A (Please add contributors to the CONTRIBUTORS.yaml file)
-    halloffame: "no"
-    joined: 2020-06
 contributor2:
     name: Contributor B (Please list all contributors of this tutorial in the metadata section)
-    halloffame: "no"
-    joined: 2020-06
 
 # our real contributors
 
