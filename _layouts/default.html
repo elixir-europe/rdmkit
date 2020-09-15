@@ -1,69 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    {% include head.html %}
-    <script>
-        $(document).ready(function () {
-            // Initialize navgoco with default options
-            $("#mysidebar").navgoco({
-                caretHtml: '',
-                accordion: true,
-                openClass: 'active', // open
-                save: false, // leave false or nav highlighting doesn't work right
-                cookie: {
-                    name: 'navgoco',
-                    expires: false,
-                    path: '/'
-                },
-                slide: {
-                    duration: 400,
-                    easing: 'swing'
-                }
-            });
-
-        });
-
-    </script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#tg-sb-link").click(function () {
-                $("#tg-sb-sidebar").toggle();
-                $("#tg-sb-content").toggleClass('col-md-9');
-                $("#tg-sb-content").toggleClass('col-md-12');
-                $("#tg-sb-icon").toggleClass('fa-toggle-on');
-                $("#tg-sb-icon").toggleClass('fa-toggle-off');
-            });
-        });
-    </script>
+{% include head.html %}
     {% if page.datatable == true %}
     <!-- Include the standard DataTables bits -->
     <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css">
     <script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" charset="utf8" src="js/dataTables.bootstrap4.min.js"></script>
     <!-- First, this walks through the tables that occur between ...-begin
-         and ...-end and add the "datatable" class to them.
-         Then it invokes DataTable's standard initializer
-         Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
-      -->
+        and ...-end and add the "datatable" class to them.
+        Then it invokes DataTable's standard initializer
+        Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
+    -->
     <script>
         $(document).ready(function () {
             $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
             $('table.display').DataTable({
                 paging: true,
-                lengthMenu: [ 25, 50, 100, "all" ],
+                lengthMenu: [25, 50, 100, "all"],
                 stateSave: true,
                 searching: true
             });
         });
     </script>
     {% endif %}
-
 </head>
 
 <body>
@@ -73,23 +34,20 @@
         <div id="main">
             <!-- Content Row -->
             <div class="row" id="content-wrap">
-                {% assign content_col_size = "col-md-12" %}
-                {% unless page.hide_sidebar %}
+                {% assign content_col_size = "col-md-12" %}{% unless page.hide_sidebar %}
                 <!-- Sidebar Column -->
                 <div class="col-md-3" id="tg-sb-sidebar">
                     {% include sidebar.html %}
                 </div>
-                    {% assign content_col_size = "col-md-9" %}
-                {% endunless %}
-
+                {% assign content_col_size = "col-md-9" %}{% endunless %}
                 <!-- Content Column -->
                 <div class="{{content_col_size}}" id="tg-sb-content">
                     {{content}}
                 </div>
-                <!-- /.row -->             
-            </div>       
+                <!-- /.row -->
+            </div>
             <!-- /.container -->
-        </div>     
+        </div>
         <!-- /#main -->
     </div>
     {% include footer.html %}
