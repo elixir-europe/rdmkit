@@ -3,6 +3,7 @@ title: "Demo page"
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 permalink: demo_page.html
+folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
 ---
