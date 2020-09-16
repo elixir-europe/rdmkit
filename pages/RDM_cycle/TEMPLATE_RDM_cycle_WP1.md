@@ -1,34 +1,47 @@
 ---
-title: "Full Lifecycle Stage Name" (e.g. Data Management Planning, rather than just Planning)
-keywords: optional
-permalink: to be added by editorial team
-folder: to be added by editorial team
-contributors:
+title: [Title]
+keywords: [Keyword 1,Keyword 2, Keyword n]
+summary: Fill in your summary or delete this property when not needed
+permalink: TEMPLATE_RDM_cycle.html
+folder: RDM_cycle
+contributors: [contributor1, contributor2]
 ---
 
-## What is "Lifecycle Stage Name"?
-Short description of what the stage is about, providing minimal background
+{% include note.html content="This page is under construction." %}
 
-## Why is "Lifecycle Stage Name" important?
-(Optional section)
-Short explanation of why people should do / be aware of this stage
+<!-- Please replace [Title] with the title of the page -->
 
-## What should be considered for "Lifecycle Stage Name"? 
-* Bullet point considerations
+## What [Title] means
+<!-- Please write your text below -->
 
-## What tools are available for "Lifecycle Stage Name"?
-Table of tools automatically inserted by filtering the global tool table with adequate keyword(s)
+## Why [Title] is important
+<!-- Please write your text below -->
 
-## What other resources are available for "Lifecycle Stage Name"?
-Table of resources automatically inserted by filtering the global tool table with adequate keyword(s)
+## When [Title] should be done
+<!-- Please write your text below -->
 
-## Where can training materials and events about "Lifecycle Stage Name" be found?
-Ideally, link to TESS page filtered by adequate keyword(s)
-TODO: consult WP2 about this
+## How [Title] could be done
+<!-- Please write your text below -->
 
-## Related topics
-* Bullet point list of other pages in this website that are connected to this lifecycle stage
+### [TITLE OF STEP1 OR SOLUTION1]
+#### Considerations
+<!-- Please write your text below. Try to use bullet points (indicated by * or -) and short clear sentences as much as possible. While writing all necessary considerations to find the right solution, feel free to add links to other relevant pages and websites -->
+#### Solutions
+<!-- Please write your text below. Try to use bullet points (indicated by * or -) and short clear sentences as much as possible. Feel free to add links to other relevant pages and websites -->
 
-## External links
-(Optional section)
-* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above
+### [TITLE OF STEP2 OR SOLUTION2]
+#### Considerations
+<!-- Please write your text below. Try to use bullet points (indicated by * or -) and short clear sentences as much as possible. While writing all necessary considerations to find the right solution, feel free to add links to other relevant pages and websites -->
+#### Solutions
+<!-- Please write your text below. Try to use bullet points (indicated by * or -) and short clear sentences as much as possible. Feel free to add links to other relevant pages and websites -->
+
+<!-- Add as many steps or solutions as you need by copying the headers: 
+### [TITLE OF STEP OR SOLUTION]
+#### Considerations
+#### Solutions -->
+
+## References
+<!-- Please add references below as:
+Your reference.\\
+[Your reference](url link).\\
+[Reference to an internal page](page name). -->
