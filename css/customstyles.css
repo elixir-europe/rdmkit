@@ -52,6 +52,10 @@ a:hover {
     color: var(--blue-x-dark);
 }
 
+.hr-margin {
+    margin-top: 20px;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -534,22 +538,13 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav ul {
     padding: 0;
-    margin: 0px;
 }
 
 .nav {
-    /* padding: 4px;*/
     padding: 0px;
     margin: 0px;
 }
 
-.nav>li {
-    margin-bottom: 4px;
-}
-
-.nav>li li {
-    margin: 4px 0;
-}
 
 .nav>li>a:hover {
     background-color: var(--primary-theme-color);
@@ -606,6 +601,7 @@ a.accordion-toggle, a.accordion-collapsed {
 ul#mysidebar li a {
     padding-top: 7px;
     padding-bottom: 7px;
+    margin-top: 4px;
 }
 
 .nav ul li ul li a {
@@ -682,13 +678,13 @@ a.navbar-brand:hover {
     margin-right: auto
 }
 
-.sidebar_rdm_sub {
+ul#mysidebar li ul .sidebar_rdm_sub {
     border-color: #efefef;
     padding: 14px 10px 10px 10px;
     border-radius: 0px 0px 4px 4px;
     border-style: solid;
-    margin: -4px 0px 0px 0px;
-    border-top-style: unset;
+    border-width: 0.2em;
+    margin: -5px 0px 0px 0px;
 }
 
 @media (max-width: 992px) {
@@ -1237,6 +1233,10 @@ span.soft {
     padding: 15px;
     margin: 15px 0px;
     background-color: var(--light-grey);
+}
+
+ul#mysidebar {
+    margin-top: 20px;
 }
 
 @media (max-width: 990px) {

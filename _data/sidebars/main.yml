@@ -3,62 +3,43 @@
 entries:
 - title: Main sidebar
   folders:
-  - title: Data Life Cycle	
-    output: web	
+  - title: Data Life Cycle
     folderitems:
       - RDM : True
   - title: Your role
-    output: web
     folderitems:
     - title: Data Stewards
       url: /data_stewards.html
-      output: web
     - title: Research IT
       url: /research_it.html
-      output: web
     - title: Bioinformatician
       url: /bioinformatician.html
-      output: web
   - title: Your domain
-    output: web
     folderitems:
     - title: Plant phenotyping
       url: /plant_phenotyping_usecase.html
-      output: web
     - title: Marine metagenomics
       url: /marine_metagenomics_usecase.html
-      output: web
     - title: Human Data
       url: /humandata_usecase.html
-      output: web
   - title: Your problem
-    output: web
     folderitems:
     - title: Storage
       url: /storage.html
-      output: web
     - title: Security & privacy
       url: /security_&_privacy.html
-      output: web
     - title: Data transfer
       url: /data_transfer.html
-      output: web
     - title: Metadata management
       url: /metadata_management.html
-      output: web
     - title: Data sustainability
       url: /data_sustainability.html
-      output: web
     - title: Compliance monitoring & measurement
       url: /compliance_monitoring_&_measurement.html
-      output: web
     - title: Other
       url: /other_functional_areas.html
-      output: web
   - title: All tools
-    output: web
     url: /all_tools.html
     hr: True
   - title: All resources
-    output: web
     url: /all_resources.html

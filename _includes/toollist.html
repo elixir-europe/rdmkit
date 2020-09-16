@@ -9,8 +9,8 @@
         </tr>
     </thead>
     <tbody>
-        {% for tool in tools.Tools %}
-        {% if tool.tags contains include.tag or include.tag == "print_all" %}
+        {%- for tool in tools.Tools %}
+        {%- if tool.tags contains include.tag or include.tag == "print_all" %}
         <tr>
             {% if tool.link %}
             <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
@@ -28,6 +28,6 @@
             {% endif %}
         </tr>
         {% endif %}
-        {% endfor %}
+        {%- endfor %}
     </tbody>
 </table>

@@ -3,8 +3,11 @@ entries:
     - title: Contribute
       folders:
       - title: How to contribute
-        output: web
         url: /how_to_contribute.html
-      - title: Demo page
-        output: web
-        url: /demo_page.html
+        folderitems:
+          - title: Github way
+            url: /github_way.html
+          - title: Google doc way
+            url: /google_doc_way.html
+          - title: Demo page
+            url: /demo_page.html
