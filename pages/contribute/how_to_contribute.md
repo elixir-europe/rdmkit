@@ -10,7 +10,7 @@ summary: Here you'll find an overview of the ways of contributing to this websit
 
 ## Ways of contributing 
 
-We accept contributions in two ways sketched below, through GitHub or through Google Docs. <br/>
+We accept contributions in two ways sketched below, through GitHub or through Google Docs.
  
 {% include image.html file="howto_contribute_overview.svg" alt="How to contribute overview" %}
 
