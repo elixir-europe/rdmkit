@@ -82,4 +82,3 @@ RDM_pages: ["/re-using.html", "/preserving.html", "/analysing.html", "/processin
 
 plugins:
   - jemoji
-  
