@@ -1,9 +1,10 @@
 ---
-title: "Full Lifecycle Stage Name" (e.g. Data Management Planning, rather than just Planning)
+title: Full Lifecycle Stage Name - (e.g. Data Management Planning, rather than just Planning)
 keywords: optional
 permalink: to be added by editorial team
-folder: to be added by editorial team
+folder: RDM_cycle
 contributors:
+search: false
 ---
 
 ## What is "Lifecycle Stage Name"?
