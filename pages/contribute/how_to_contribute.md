@@ -12,7 +12,7 @@ summary: Here you'll find an overview of the ways of contributing to this websit
 
 We accept contributions in two ways sketched below, through GitHub or through Google Docs. <br/>
  
-![image](images/howto_contribute_overview.svg) <br/>
+{% include image.html file="howto_contribute_overview.svg" alt="How to contribute overview" %}
 
 <br/>
 * **Github way:** We use GitHub to develop the RDM toolkit website. GitHub allows us to accept and coordinate contributions under an open authoring and review process. Therefore, this is our preferred way of accepting contributions. To begin with, you'll need a personal GitHub account, which you can create [here](https://github.com/join).   
