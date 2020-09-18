@@ -6,6 +6,7 @@ permalink: demo_page.html
 folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
+search: false
 ---
 
 ## Titles
@@ -161,6 +162,11 @@ When linking to internal pages, you can manually link to the pages like this:
 Will link to the planning page.
 
 If you change the file name, you'll have to update all of your links.
+
+## Emoji's
+
+Use Github emoticons! Look [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to find a cheat sheet for all the emoticons.
+:+1: is made with `:+1:`
 
 ## Code snippets
 
