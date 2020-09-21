@@ -3,7 +3,6 @@ title: Github way
 sidebar: contribute
 folder: contribute
 permalink: github_way.html
-summary: This is a test summary
 ---
 
 ## Types of contribution

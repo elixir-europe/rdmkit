@@ -1,7 +1,6 @@
 ---
 title: Analysing
 keywords:
-summary: Empty summary
 permalink: analysing.html
 folder: RDM_cycle
 ---

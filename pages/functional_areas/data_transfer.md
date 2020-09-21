@@ -1,7 +1,6 @@
 ---
 title: Data Transfer
 keywords:
-summary: Empty summary
 permalink: data_transfer.html
 folder: functional_areas
 ---

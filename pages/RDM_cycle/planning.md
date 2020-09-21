@@ -1,7 +1,6 @@
 ---
 title: Planning
 keywords:
-summary: Empty summary
 permalink: planning.html
 folder: RDM_cycle
 contributors:
