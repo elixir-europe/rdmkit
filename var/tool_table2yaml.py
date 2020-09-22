@@ -7,12 +7,12 @@ import unicodedata
 table_path = "_data/tool_list.xlsx"
 output_path = "_data/tool_list.yml"
 main_dict_key = "Tools"
-allowed_tags_yaml = "_data/tool_tags.yml"
+allowed_tags_yaml = "_data/tags.yml"
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
 with open(allowed_tags_yaml) as file:
-    allowed_tags = yaml.load(file, Loader=yaml.FullLoader)['allowed-tags']
+    allowed_tags = yaml.load(file, Loader=yaml.FullLoader)
 
 print(f"----> Allowed tags: {', '.join(allowed_tags)}.")
 
