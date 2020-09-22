@@ -1,7 +1,6 @@
 ---
 title: Other
 keywords:
-summary: Empty summary
 permalink: other_functional_areas.html
 folder: functional_areas
 ---

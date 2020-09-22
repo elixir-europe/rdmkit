@@ -1,7 +1,6 @@
 ---
 title: Security & Privacy
 keywords:
-summary: Empty summary
 permalink: security_&_privacy.html
 folder: functional_areas
 ---

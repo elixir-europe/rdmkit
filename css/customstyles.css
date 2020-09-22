@@ -1,6 +1,7 @@
 :root {
     --main-text-color: #333;
     --primary-theme-color: #f47d21;
+    --blue-light: #b0c3cf;
     --blue-dark: #50889f;
     --blue-x-dark: #056482;
     --blue-xx-dark: #055472;
@@ -42,14 +43,6 @@ h4 {
     font-weight: 700;
     font-size: 120%;
     color: var(--subtle-text);
-}
-
-a {
-    color: var(--blue-dark);
-}
-
-a:hover {
-    color: var(--blue-x-dark);
 }
 
 .hr-margin {
@@ -208,8 +201,8 @@ caption {
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: var(--blue-dark);
-    border-color: var(--blue-dark);
+    background-color: var(--blue-xxx-dark);
+    border-color: var(--blue-xxx-dark);
 }
 
 table {
@@ -287,6 +280,11 @@ p.post-meta {
     line-height: 1.71429;
     margin-bottom: 0;
     text-transform: uppercase;
+}
+
+.post-content img.emoji {
+    margin: 0px 0px 0.2em 0px;
+    width: 1.3em;
 }
 
 /* search area */
@@ -852,6 +850,10 @@ table.request thead tr th {
     float: right;
     border: 1px solid #dedede;
     padding: 7px;
+}
+
+.nohover:hover {
+    text-decoration: none;
 }
 
 .prefaceAudienceLabel {

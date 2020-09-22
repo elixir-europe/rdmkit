@@ -1,7 +1,6 @@
 ---
 title: Sharing
 keywords:
-summary: Empty summary
 permalink: sharing.html
 folder: RDM_cycle
 ---

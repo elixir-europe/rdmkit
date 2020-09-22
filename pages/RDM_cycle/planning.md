@@ -1,7 +1,6 @@
 ---
 title: Planning
 keywords:
-summary: Empty summary
 permalink: planning.html
 folder: RDM_cycle
 contributors:
@@ -69,10 +68,7 @@ Best practices and guidelines about different aspects of research data managemen
 
 
 
-## Tools:
+## Tools and resources:
 
 {% include toollist.html tag="plan" %}
 
-## Resources:
-
-{% include resourcelist.html tag="plan" %}

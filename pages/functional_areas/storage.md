@@ -1,7 +1,6 @@
 ---
 title: Storage
 keywords:
-summary: Empty summary
 permalink: storage.html
 tags: [research_it] 
 folder: functional_areas

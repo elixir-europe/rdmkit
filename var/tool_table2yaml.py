@@ -7,12 +7,12 @@ import unicodedata
 table_path = "_data/tool_list.xlsx"
 output_path = "_data/tool_list.yml"
 main_dict_key = "Tools"
-allowed_tags_yaml = "_data/tool_tags.yml"
+allowed_tags_yaml = "_data/tags.yml"
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
 with open(allowed_tags_yaml) as file:
-    allowed_tags = yaml.load(file, Loader=yaml.FullLoader)['allowed-tags']
+    allowed_tags = yaml.load(file, Loader=yaml.FullLoader)
 
 print(f"----> Allowed tags: {', '.join(allowed_tags)}.")
 
@@ -22,7 +22,7 @@ xl_sheet = tool_table.sheet_by_index(0)
 num_cols = xl_sheet.ncols   # Number of columns
 main_dict = {main_dict_key: []}
 
-# Prcessing header
+# Processing header
 header = []
 for col_idx in range(0, num_cols):
     header.append(xl_sheet.cell(0, col_idx).value)

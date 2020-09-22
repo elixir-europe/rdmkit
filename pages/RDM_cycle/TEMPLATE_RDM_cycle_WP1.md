@@ -1,9 +1,9 @@
 ---
 title: [Title]
 keywords: [Keyword 1,Keyword 2, Keyword n]
-summary: Fill in your summary or delete this property when not needed
 permalink: TEMPLATE_RDM_cycle.html
 folder: RDM_cycle
+search: false
 contributors: [contributor1, contributor2]
 ---
 

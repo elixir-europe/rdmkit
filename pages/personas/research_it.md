@@ -2,7 +2,6 @@
 title: "Research IT"
 keywords:  [Persistent storage, Temporary storage, Data management infrastructure, Data repositories, FAIR, Open data, DMP, Sensitive data, Information security (and related concepts), Data brokering, Data organisation, AAI, Containerisation, Reproducibility, Persistent identifiers, Automated submission, Cloud computing, HPC, <type> data, Life science data]
 permalink: research_it.html
-summary: This is a test summary
 folder: personas
 ---
 
