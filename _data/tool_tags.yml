@@ -1,10 +1,12 @@
 allowed-tags:
-  - plan
-  - collect
-  - process
-  - analyse
-  - share
-  - preserve
-  - storage
-  - privacy
-  - monitoring
+  plan: "#903292"
+  collect: "#023452"
+  process: "#309E69"
+  analyse: "#763E2A"
+  share: "#C63244"
+  preserve: "#DBBE28"
+  re-use: "#f47d21"
+  storage: "#6E1FA4"
+  privacy: "#F4F321"
+  monitoring: "#14968C"
+  standard: "#CD1B6C"
