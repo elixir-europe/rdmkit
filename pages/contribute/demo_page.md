@@ -270,7 +270,7 @@ Giving:
 
 This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. To only allow a curated list of tags, make sure you find the tag in the `tags.yaml` file in the `_data` repository. 
 
-## Adding a filtered tool-list to your page
+## Adding a filtered tool and resource-list to your page
 
 Here we list all the tools with the tag **monitoring**  by using the code snippet:
 
@@ -284,27 +284,9 @@ Giving:
 
 {% include toollist.html tag="monitoring" %}
 
-Make sure the tag exists in the `toollist` file.
+Make sure the tag exists in the `tool_list.yml` file + in the `tool_tags.yml`.
 
-Tools can be added by manipulating the tool_list.xlsx file in the `_data` repository.
-
-## Adding a filtered resource-list to your page
-
-Here we list all the tools with the tag **standard**  by using the code snippet:
-
-{% raw %}
-```
-{% include resourcelist.html tag="standard" %}
-```
-{% endraw %}
-
-Giving:
-
-{% include resourcelist.html tag="standard" %}
-
-Make sure the tag exists in the `resourcelist` file.
-
-Resources can be added by manipulating the resource_list.xlsx file in the `_data` repository.
+Tools and resources can be added by manipulating the tool_list.xlsx file in the `_data` repository.
 
 ## Enforce space between two lines
 

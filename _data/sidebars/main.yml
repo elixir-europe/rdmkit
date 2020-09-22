@@ -38,8 +38,6 @@ entries:
       url: /compliance_monitoring_&_measurement.html
     - title: Other
       url: /other_functional_areas.html
-  - title: All tools
-    url: /all_tools.html
+  - title: All tools and resources
+    url: /all_tools_and_resources.html
     hr: True
-  - title: All resources
-    url: /all_resources.html
