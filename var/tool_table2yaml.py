@@ -8,6 +8,7 @@ table_path = "_data/tool_list.xlsx"
 output_path = "_data/tool_list.yml"
 main_dict_key = "Tools"
 allowed_tags_yaml = "_data/tags.yml"
+allowed_registries = ['biotools', 'fairsharing']
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
@@ -35,13 +36,21 @@ for row_idx in range(1, xl_sheet.nrows):
         cell_obj = xl_sheet.cell(row_idx, col_idx).value
         if cell_obj: # Only include keys if there are values
             if  header[col_idx] == 'tags':
-                cell_obj = re.split(', |,', cell_obj)
-                for tag in cell_obj:
+                output = re.split(', |,', cell_obj)
+                for tag in output:
                     if tag not in allowed_tags:
                         sys.exit(f'The table contains the tag "{tag}" in row {row_idx} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
+            elif header[col_idx] == 'registry':
+                output=[]
+                for registry in re.split(', |,', cell_obj):
+                    reg, identifier = re.split(':', registry)
+                    if reg in allowed_registries:
+                        output.append({reg:identifier})
+                    else:
+                        sys.exit(f'The table contains the registry "{reg}" in row {row_idx} which is not allowed.\n')
             else:
-                cell_obj = unicodedata.normalize("NFKD", cell_obj).strip() # Return the normal form for the Unicode string
-            tool[header[col_idx]] = cell_obj
+                output = unicodedata.normalize("NFKD", cell_obj).strip() # Return the normal form for the Unicode string
+            tool[header[col_idx]] = output
     main_dict[main_dict_key].append(tool)
     print(f"{row_idx}. {tool['name']} is parsed.")
 
