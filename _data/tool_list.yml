@@ -16,7 +16,7 @@ Tools:
   link: https://daisy-demo.elixir-luxembourg.org
   name: DAISY
   registry:
-  - biotools: DAISY
+    biotools: DAISY
   tags:
   - plan
   - collect
@@ -93,7 +93,7 @@ Tools:
   link: http://www.sbg.bio.ic.ac.uk/~phyre2
   name: Phyre2
   registry:
-  - biotools: phyre
+    biotools: phyre
   tags:
   - process
   - analyse
@@ -101,7 +101,7 @@ Tools:
   link: https://www.miappe.org/
   name: MIAPPE
   registry:
-  - fairshare: nd9ce9
+    fairsharing: nd9ce9
   tags:
   - standard
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making

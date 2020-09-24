@@ -41,11 +41,11 @@ for row_idx in range(1, xl_sheet.nrows):
                     if tag not in allowed_tags:
                         sys.exit(f'The table contains the tag "{tag}" in row {row_idx} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
             elif header[col_idx] == 'registry':
-                output=[]
+                output={}
                 for registry in re.split(', |,', cell_obj):
                     reg, identifier = re.split(':', registry)
                     if reg in allowed_registries:
-                        output.append({reg:identifier})
+                        output[reg] = identifier
                     else:
                         sys.exit(f'The table contains the registry "{reg}" in row {row_idx} which is not allowed.\n')
             else:
