@@ -334,40 +334,30 @@ ul#results-container a:hover {
     margin: 3px;
 }
 
-div#toc ul li {
-    margin: 8px 0px 8px 22px;
-    font-size: 90%;
-    list-style: square;
+#toc {
+  padding: 15px;
+  background: var(--light-grey);
+  margin: 1.5em 0;
+  border-radius: 4px;
+  font-size: 14px;
+  max-width: 350px;
 }
 
-div#toc ul {
-    background-color: var(--light-grey);
-    padding: 5px;
-    border-radius: 4px;
-    max-width: 300px;
-    color: var(--subtle-text);
+/* Indent the lists and reset any other padding */
+#toc ul {
+  padding: 0 0 0 20px;
 }
 
-div#toc ul li ul {
-    padding-left: 8px;
+/* Consistent vertical space between list items */
+#toc li, #toc ul ul li {
+  margin: 7px 0 0 0;
 }
 
-div#toc ul li ul li::before {
-    content: "–  ";
+/* Sublists */
+#toc ul ul {
+  list-style: circle outside;
 }
 
-div#toc>ul::before {
-    content: "Table of Contents";
-    font-weight: 500;
-    color: var(--subtle-text);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-}
 
 /*------index page----*/
 
@@ -954,6 +944,10 @@ li img {
     clear: both;
 }
 
+ul li::marker {
+    color: var(--blue-xx-dark);
+}
+
 li.sidebarTitle {
     margin-top: 20px;
     font-weight: normal;
@@ -967,14 +961,9 @@ div.sidebarTitle {
     color: var(--primary-theme-color);
 }
 
-div#toc ul li ul li {
-    list-style-type: none;
-    margin: 5px 0px 0px 0px;
-}
-
 .tab-content {
     padding: 15px;
-    background-color: #FAFAFA;
+    background-color: var(--light-grey);
 }
 
 span.tagTitle {
@@ -1076,7 +1065,7 @@ ol.series li {
 }
 
 #mysidebar .nav ul {
-    background-color: #FAFAFA;
+    background-color: var(--light-grey);
 }
 
 .nav ul.series li {
@@ -1093,7 +1082,7 @@ ol.series li {
 }
 
 .nav ul.series {
-    background-color: #FAFAFA;
+    background-color: var(--light-grey);
 }
 
 /*
@@ -1241,21 +1230,16 @@ ul#mysidebar {
     margin-top: 20px;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
     #mysidebar {
         position: relative;
+        max-width: 100%;
     }
 }
 
 @media (min-width: 1000px) {
     ul#mysidebar {
         width: 225px;
-    }
-}
-
-@media (max-width: 900px) {
-    ul#mysidebar {
-        max-width: 100%;
     }
 }
 
