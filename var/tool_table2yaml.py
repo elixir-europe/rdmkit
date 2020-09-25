@@ -4,8 +4,8 @@ import yaml
 import re
 import unicodedata
 
-table_path = "_data/tool_list.xlsx"
-output_path = "_data/tool_list.yml"
+table_path = "_data/tool_and_resource_list.xlsx"
+output_path = "_data/tool_and_resource_list.yml"
 main_dict_key = "Tools"
 allowed_tags_yaml = "_data/tags.yml"
 allowed_registries = ['biotools', 'fairsharing']
