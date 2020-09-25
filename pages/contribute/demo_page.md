@@ -36,7 +36,7 @@ contributors: [bedroesb]
 search: false
 datatable: true
 toc: false
-custom-editme: _data/tool_list.xlsx
+custom-editme: _data/tool_and_resource_list.xlsx
 tags: [research_it] 
 ---
 ```
@@ -338,9 +338,9 @@ Giving:
 
 {% include toollist.html tag="monitoring" %}
 
-Make sure the tag exists in the `tool_list.yml` file + in the `tags.yml`.
+Make sure the tag exists in the `tool_and_resource_list.yml` file + in the `tags.yml`.
 
-Tools and resources can be added by manipulating the tool_list.xlsx file in the `_data` repository.
+Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
 
 ## Enforce space between two lines
 

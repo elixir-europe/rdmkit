@@ -1,7 +1,7 @@
 ---
 title: "About"
-keywords: 
 permalink: about.html
+toc: false
 ---
 
 
