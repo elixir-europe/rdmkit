@@ -11,11 +11,12 @@ Tools:
   name: COPO
   tags:
   - share
-- biotoolsid: DAISY
-  description: Data Information System to keep sensitive data inventory and meet GDPR
+- description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
   name: DAISY
+  registry:
+    biotools: DAISY
   tags:
   - plan
   - collect
@@ -88,10 +89,29 @@ Tools:
     small data
   link: https://github.com
   name: GitHub
-- biotoolsid: phyre
-  description: Protein Homology/analogY Recognition Engine
+- description: Protein Homology/analogY Recognition Engine
   link: http://www.sbg.bio.ic.ac.uk/~phyre2
   name: Phyre2
+  registry:
+    biotools: phyre
   tags:
   - process
   - analyse
+- description: Minimum Information About a Plant Phenotyping Experiment
+  link: https://www.miappe.org/
+  name: MIAPPE
+  registry:
+    fairsharing: nd9ce9
+  tags:
+  - standard
+- description: Machine-Actionable Data Management Plan | Webinar (2016) on making
+    a good data management plan
+  link: https://library.ust.hk/sc/machine-actionable-dmp/
+  name: maDMP - Research Bridge
+  tags:
+  - plan
+- description: Machine actionable DMPs
+  link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
+  name: Research Management Plan
+  tags:
+  - plan

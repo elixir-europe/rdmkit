@@ -1,6 +1,7 @@
 :root {
     --main-text-color: #333;
     --primary-theme-color: #f47d21;
+    --blue-light: #b0c3cf;
     --blue-dark: #50889f;
     --blue-x-dark: #056482;
     --blue-xx-dark: #055472;
@@ -42,14 +43,6 @@ h4 {
     font-weight: 700;
     font-size: 120%;
     color: var(--subtle-text);
-}
-
-a {
-    color: var(--blue-dark);
-}
-
-a:hover {
-    color: var(--blue-x-dark);
 }
 
 .hr-margin {
@@ -156,14 +149,6 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     margin-top: -40px
 }
 
-.post-content img {
-    margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .post-content ol li, .post-content ul li {
     margin: 10px 0px;
 }
@@ -208,8 +193,8 @@ caption {
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: var(--blue-dark);
-    border-color: var(--blue-dark);
+    background-color: var(--blue-xxx-dark);
+    border-color: var(--blue-xxx-dark);
 }
 
 table {
@@ -349,40 +334,30 @@ ul#results-container a:hover {
     margin: 3px;
 }
 
-div#toc ul li {
-    margin: 8px 0px 8px 22px;
-    font-size: 90%;
-    list-style: square;
+#toc {
+  padding: 15px;
+  background: var(--light-grey);
+  margin: 1.5em 0;
+  border-radius: 4px;
+  font-size: 14px;
+  max-width: 350px;
 }
 
-div#toc ul {
-    background-color: var(--light-grey);
-    padding: 5px;
-    border-radius: 4px;
-    max-width: 300px;
-    color: var(--subtle-text);
+/* Indent the lists and reset any other padding */
+#toc ul {
+  padding: 0 0 0 20px;
 }
 
-div#toc ul li ul {
-    padding-left: 8px;
+/* Consistent vertical space between list items */
+#toc li, #toc ul ul li {
+  margin: 7px 0 0 0;
 }
 
-div#toc ul li ul li::before {
-    content: "–  ";
+/* Sublists */
+#toc ul ul {
+  list-style: circle outside;
 }
 
-div#toc>ul::before {
-    content: "Table of Contents";
-    font-weight: 500;
-    color: var(--subtle-text);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-}
 
 /*------index page----*/
 
@@ -859,6 +834,10 @@ table.request thead tr th {
     padding: 7px;
 }
 
+.nohover:hover {
+    text-decoration: none;
+}
+
 .prefaceAudienceLabel {
     color: gray;
     text-align: center;
@@ -885,6 +864,14 @@ hr.faded {
     background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
     background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
     background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
+}
+
+.post-content img.registry_logo {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 hr.shaded {
@@ -957,6 +944,10 @@ li img {
     clear: both;
 }
 
+ul li::marker {
+    color: var(--blue-xx-dark);
+}
+
 li.sidebarTitle {
     margin-top: 20px;
     font-weight: normal;
@@ -970,14 +961,9 @@ div.sidebarTitle {
     color: var(--primary-theme-color);
 }
 
-div#toc ul li ul li {
-    list-style-type: none;
-    margin: 5px 0px 0px 0px;
-}
-
 .tab-content {
     padding: 15px;
-    background-color: #FAFAFA;
+    background-color: var(--light-grey);
 }
 
 span.tagTitle {
@@ -1079,7 +1065,7 @@ ol.series li {
 }
 
 #mysidebar .nav ul {
-    background-color: #FAFAFA;
+    background-color: var(--light-grey);
 }
 
 .nav ul.series li {
@@ -1096,7 +1082,7 @@ ol.series li {
 }
 
 .nav ul.series {
-    background-color: #FAFAFA;
+    background-color: var(--light-grey);
 }
 
 /*
@@ -1244,9 +1230,10 @@ ul#mysidebar {
     margin-top: 20px;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
     #mysidebar {
         position: relative;
+        max-width: 100%;
     }
 }
 
@@ -1254,25 +1241,6 @@ ul#mysidebar {
     ul#mysidebar {
         width: 225px;
     }
-}
-
-@media (max-width: 900px) {
-    ul#mysidebar {
-        max-width: 100%;
-    }
-}
-
-.col-md-9 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.post-content img {
-    margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .col-md-9 img {

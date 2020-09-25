@@ -1,11 +1,12 @@
-{% assign tools = site.data.tool_list %}
+{% assign tools = site.data.tool_and_resource_list %}
+{% assign allowedtags = site.data.tags %}
 <table class="tooltable display">
     <thead>
         <tr>
-            <th>Tool</th>
+            <th>Tool or resource</th>
             <th>Description</th>
             <th>Tags</th>
-            <th>Bio.tools</th>
+            <th>Registry</th>
         </tr>
     </thead>
     <tbody>
@@ -18,14 +19,22 @@
             <td>{{tool.name}}</td>
             {% endif %}
             <td>{{tool.description}}</td>
-            <td>{{ tool.tags | join: ", " }}</td>
-            {% if tool.biotoolsid %}
-            <td style="text-align: center; vertical-align: middle;"><a data-toggle="tooltip"
-                    data-original-title="Bio.tools ID: {{tool.biotoolsid}}" href="https://bio.tools/{{tool.biotoolsid}}"
-                    class="no_icon"><i class="fa fa-check-circle" style="font-size: x-large;"></i></a></td>
-            {% else %}
-            <td></td>
+            {%- capture tags %}
+        {%- for tag in tool.tags %}{% assign color = allowedtags[tag]["bg-color"] | default: "#fefefe" %}{% assign link = allowedtags[tag]["url"] | default: "#" %}<a class="nohover" href="{{link}}"><span class="label" style="background-color:{{color}};">{{tag}}</span></a> {% endfor %}
+            {%- endcapture %}
+            <td>{{tags}}</td>
+            <td style="text-align: center; vertical-align: middle;">
+            {% if tool.registry.biotools %}
+            <a data-toggle="tooltip"
+                data-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
+                class="no_icon"><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
             {% endif %}
+            {% if tool.registry.fairsharing %}
+            <a data-toggle="tooltip"
+                data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
+                class="no_icon"><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
+            {% endif %}
+            </td> 
         </tr>
         {% endif %}
         {%- endfor %}
