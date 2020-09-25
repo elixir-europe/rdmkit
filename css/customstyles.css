@@ -149,14 +149,6 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     margin-top: -40px
 }
 
-.post-content img {
-    margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .post-content ol li, .post-content ul li {
     margin: 10px 0px;
 }
@@ -884,6 +876,14 @@ hr.faded {
     background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
 }
 
+.post-content img.registry_logo {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
 hr.shaded {
     margin-top: 70px;
     background: #ddd;
@@ -1257,19 +1257,6 @@ ul#mysidebar {
     ul#mysidebar {
         max-width: 100%;
     }
-}
-
-.col-md-9 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.post-content img {
-    margin: 12px 0px 3px 0px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .col-md-9 img {

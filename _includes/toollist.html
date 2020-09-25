@@ -27,14 +27,14 @@
             {% if tool.registry.biotools %}
             <a data-toggle="tooltip"
                 data-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
-                class="no_icon"><i class="fa fa-check-circle" style="font-size: large;"></i></a>
+                class="no_icon"><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
             {% endif %}
             {% if tool.registry.fairsharing %}
             <a data-toggle="tooltip"
                 data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
-                class="no_icon"><i class="fa fa-check-circle" style="font-size: large;"></i></a>
+                class="no_icon"><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
             {% endif %}
-            </td>
+            </td> 
         </tr>
         {% endif %}
         {%- endfor %}
