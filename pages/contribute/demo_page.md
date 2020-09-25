@@ -1,5 +1,5 @@
 ---
-title: "Demo page"
+title: Demo page
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 permalink: demo_page.html
@@ -8,6 +8,60 @@ summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
 search: false
 ---
+
+## Possible metadata attributes of a page
+
+Minimum of metadata in a page:
+```
+---
+title: Demo page
+permalink: demo_page.html
+---
+```
+* `title`: Specify here the title of the page. This wil be the H1 title (replacing the top level title using the # in markdown )
+
+* `permalink`: This is the url where the page will be rendered to. For example *demo_page.html* will render the Demo page towards the link https://elixir-europe.github.io/rdm-toolkit/demo_page.html
+
+This can be extended with following attributes (each with an example):
+
+```
+---
+title: Demo page
+keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+sidebar: contribute
+permalink: demo_page.html
+folder: contribute
+summary: This is a demo page to showcase what is possible
+contributors: [bedroesb]
+search: false
+datatable: true
+toc: false
+custom-editme: _data/tool_list.xlsx
+tags: [research_it] 
+---
+```
+
+* `folder`: When your page is located in a subfolder within the pages directory, please specify this folder here.
+
+* `summary`: Using this attribute it is possible to specify a summary which will be displayed under the title of the page. This summary will also be used as description of your page when the page is tagged.
+
+* `contributors`: list here all the contributors that helped in establishing the page. Make sure that the person ID that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory.
+
+* `search`: by setting this field to false, the page will not end up in the search results of the searchbar. By default this is true.
+
+* `hide_sidebar`: When true, the sidebar will be hided. Default: false
+
+* `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
+
+* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page.
+
+* `sidebar`: Specify here an alternative sidebar. Default: main
+
+* `toc`: When set to false, the table of contents in the beginning of the page will not be generated.
+
+* `tags`: If you want to tag this page list the tag using this attribute
+
+* `datatable`: use this attribute to activate the pagination + sorting + searching in tables
 
 ## Titles
 
@@ -284,13 +338,14 @@ Giving:
 
 {% include toollist.html tag="monitoring" %}
 
-Make sure the tag exists in the `tool_list.yml` file + in the `tool_tags.yml`.
+Make sure the tag exists in the `tool_list.yml` file + in the `tags.yml`.
 
 Tools and resources can be added by manipulating the tool_list.xlsx file in the `_data` repository.
 
 ## Enforce space between two lines
 
 To have space between two lines of text, simply leave one empty line in between the line in the markdown. If more is needed, you can force this with:
+
 
 ```md
 <br>
