@@ -45,7 +45,7 @@ Anyone can [comment on your (draft) Pull Request](https://docs.github.com/en/git
   * Click on “Commit changes”.
   
 ## Request a revision
-1. Go to [RDM toolkit website](https://elixir-europe.github.io/rdm-toolkit/) and click on the "GitHub" button on the top navigation bar. It will take you in the GitHub repository of our RDM toolkit.
+1. Go to [RDM toolkit website](https://elixir-europe.github.io/rdm-toolkit/) and click on the "GitHub" button on the top navigation bar. It will take you to the GitHub repository of our RDM toolkit.
 2. Click on the “Pull request” button in the top menu bar.
 3. Find your open PR and click on "[Ready for review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review)". Editors will be notified and they will check your changes.
 
