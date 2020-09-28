@@ -59,6 +59,6 @@ Anyone can [comment on your (draft) Pull Request](https://docs.github.com/en/git
   * Click on the icon with 3 dots "..." of the file you  want to edit and then click on "Edit file".
   * Make your changes.
   * Click on “Commit changes”.
-3. When all the requests have been addressed, the editors will mark the conversation as "Resolved" and the proposed chnages as "Approved".
+3. When all the requests have been addressed, the editors will mark the conversation as "Resolved" and the proposed changes as "Approved".
 4. You content is ready to be merged and published in the main website.
 5. Editors publish your content.
