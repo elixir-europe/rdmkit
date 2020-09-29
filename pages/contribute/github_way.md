@@ -6,7 +6,7 @@ permalink: github_way.html
 ---
 
 
-## Make a GitHub account
+## Prerequisites
 1. Make a [GitHub account](https://github.com/join).
 
 ## Contribution process
