@@ -6,7 +6,7 @@ permalink: demo_page.html
 folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
-search: false
+search: exclude
 ---
 
 ## Possible metadata attributes of a page
@@ -33,7 +33,7 @@ permalink: demo_page.html
 folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
-search: false
+search: exclude
 datatable: true
 toc: false
 custom-editme: _data/tool_and_resource_list.xlsx

@@ -3,7 +3,7 @@ title: [Title]
 keywords: [Keyword 1,Keyword 2, Keyword n]
 permalink: TEMPLATE_RDM_cycle.html
 folder: RDM_cycle
-search: false
+search: exclude
 contributors: [contributor1, contributor2]
 ---
 

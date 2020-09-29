@@ -1,7 +1,7 @@
 ---
 title: Compliance Monitoring & Measurement
 keywords:
-permalink: compliance_monitoring_&_measurement.html
+permalink: compliance_monitoring_and_measurement.html
 folder: functional_areas
 ---
 
