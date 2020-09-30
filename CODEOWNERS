@@ -4,16 +4,19 @@
 # General website
 *       @bedroesb
 
-# Different areas 
-/pages/functional_areas       
+# Different areas
+/pages/contribute       @floradanna @pinarpink 
+CONTRIBUTING.md       @floradanna @pinarpink
+/pages/functional_areas    
 /pages/personas       @MijkeJetten
 /pages/RDM_cycle       @wittigue @floradanna @smza
 /pages/use_case      @DanFaria @pinarpink 
-/pages/*      @frederikcoppens @CaroleGoble @vsundesha @roper79
+/pages/about.md      @frederikcoppens @CaroleGoble
+ACKNOWLEDGEMENTS.md     @frederikcoppens @CaroleGoble
+CODE_OF_CONDUCT.md     @frederikcoppens @CaroleGoble
 
 # Sidebar
 /_data/sidebars/*      @vsundesha @roper79 @bedroesb
 
 # Tool and resources
-/_data/resource*      @wittigue @bedroesb
 /_data/tool*     @wittigue @bedroesb
