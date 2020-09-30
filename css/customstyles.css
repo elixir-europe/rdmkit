@@ -153,19 +153,6 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     margin: 10px 0px;
 }
 
-content ul {
-    list-style: none;
-    margin-left: 2.5em;
-}
-
-content ul li::before {
-    content: "\2022";
-    color: var(--blue-xx-dark);
-    font-size: 1.2em;
-    display: inline-block;
-    /* Add margins as needed. */
-}
-
 .pageSummary {
     font-size: 13px;
     display: block;
@@ -359,7 +346,6 @@ ul#results-container a:hover {
 #toc ul ul {
   list-style: circle outside;
 }
-
 
 /*------index page----*/
 
@@ -934,20 +920,8 @@ a.fa.fa-envelope-o.mailto {
     color: var(--white-text);
 }
 
-ol li ol li {
-    list-style-type: lower-alpha;
-}
-
-ol li ul li {
-    list-style-type: disc;
-}
-
 li img {
     clear: both;
-}
-
-ul li::marker {
-    color: var(--blue-xx-dark);
 }
 
 li.sidebarTitle {
@@ -970,16 +944,6 @@ div.sidebarTitle {
 
 span.tagTitle {
     font-weight: 500;
-}
-
-li.activeSeries {
-    font-weight: bold;
-}
-
-.seriesContext .dropdown-menu li.active {
-    font-weight: bold;
-    margin-left: 43px;
-    font-size: 18px;
 }
 
 .alert-warning {
@@ -1020,40 +984,7 @@ span.otherProgrammingLanguages {
     font-style: normal;
 }
 
-.seriesNext, .seriesContext {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
 
-.seriescontext ol li {
-    list-style-type: upper-roman;
-}
-
-ol.series li {
-    list-style-type: decimal;
-    margin-left: 40px;
-    padding-left: 0px;
-}
-
-.siteTagline {
-    font-size: 200%;
-    font-weight: bold;
-    color: silver;
-    font-family: monospace;
-    text-align: center;
-    line-height: 10px;
-    margin: 20px 0px;
-    display: block;
-}
-
-.versionTagline {
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: courier;
-    color: silver;
-    color: #444;
-    display: block;
-}
 
 /* not sure if using this ...*/
 
@@ -1067,23 +998,6 @@ ol.series li {
 }
 
 #mysidebar .nav ul {
-    background-color: var(--light-grey);
-}
-
-.nav ul.series li {
-    list-style: decimal;
-    font-size: 12px;
-}
-
-.nav ul.series li a:hover {
-    background-color: gray;
-}
-
-.nav ul.series {
-    padding-left: 30px;
-}
-
-.nav ul.series {
     background-color: var(--light-grey);
 }
 
@@ -1406,14 +1320,6 @@ table th code {
     color: white;
 }
 
-ol li ul li ol li {
-    list-style: decimal;
-}
-
-ol li ul li ol li ul li {
-    list-style: disc;
-}
-
 .post-content table th {
     vertical-align: top;
 }
@@ -1438,27 +1344,6 @@ table thead th code.highlighter-rouge {
     background-color: #f0f0f0;
 }
 
-#userMap {
-    overflow-x: auto;
-    overflow-y: auto;
-    padding: 20px;
-    min-width: 770px;
-}
-
-#userMap .active {
-    background-color: #d6f5d6;
-    border: 1px solid #555;
-    font-weight: bold;
-}
-
-h2.userMapTitle {
-    font-family: Arial;
-}
-
-#userMap a:hover {
-    text-decoration: none;
-}
-
 div.arrow {
     max-width: 50px;
     margin-left: 15px;
@@ -1469,66 +1354,6 @@ div.arrow {
 div.content {
     max-width: 110px
 }
-
-#userMap div.arrow, #userMap div.content {
-    float: left;
-}
-
-.clearfix {
-    clear: both;
-}
-
-#userMap div.arrow {
-    position: relative;
-    top: 30px;
-}
-
-.box1 {
-    margin-left: 0px;
-}
-
-button.btn.btn-default.btn-lg.modalButton1 {
-    margin-left: -20px;
-}
-
-div.box.box1 {
-    margin-left: -20px;
-}
-
-#userMap .btn-lg {
-    width: 100px;
-    height: 80px;
-}
-
-#userMap .complexArrow {
-    font-size: 22px;
-    margin: 0px 10px;
-}
-
-#userMap .btn-lg .active {
-    background-color: #d6f5d6;
-}
-
-#userMap .btn-lg {
-    white-space: pre-wrap;
-    /* css-3 */
-    white-space: -moz-pre-wrap;
-    /* Mozilla, since 1999 */
-    white-space: -pre-wrap;
-    /* Opera 4-6 */
-    white-space: -o-pre-wrap;
-    /* Opera 7 */
-    word-wrap: break-word;
-    /* Internet Explorer 5.5+ */
-    font-size: 14px;
-}
-
-/*
- * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
- *
- * [1] IE9
- * [2] IE10+
- */
 
 /* 1 */
 
