@@ -441,7 +441,6 @@ svg {
         width: 55%;
     }
     .child-box {
-        height: 0;
         opacity: 0;
         transition: opacity .5s;
         margin: 0 10px 0 0;
@@ -688,13 +687,9 @@ span.projectTitle {
     font-size: 12px;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
 #main {
     padding-bottom: 2.5rem;
+    min-height: 100vh;
     /* Footer height */
 }
 
@@ -725,7 +720,6 @@ span.projectTitle {
 }
 
 .site-footer a:hover {
-    color: var(--blue-dark);
     text-decoration: none;
 }
 
@@ -776,10 +770,8 @@ dl.dl-horizontal dd {
 }
 
 figcaption {
-    padding-bottom: 12px;
-    padding-top: 6px;
+    margin-top: 10px;
     max-width: 90%;
-    margin-bottom: 20px;
     font-style: italic;
     color: gray;
 }
@@ -865,6 +857,10 @@ hr.faded {
     margin: 2px;
     padding: 5px;
     border-radius: 4px;
+}
+
+.docimage {
+    margin: 20px 0px 20px 0px;
 }
 
 hr.shaded {
@@ -1070,11 +1066,6 @@ dd {
     margin-left: 20px;
 }
 
-.post-content img.inline {
-    margin: 0px;
-    margin-bottom: 6px;
-}
-
 .panel-heading {
     font-weight: bold;
 }
@@ -1168,7 +1159,6 @@ ul#mysidebar {
 }
 
 .post-content img {
-    margin: 12px 0px 3px 0px;
     width: auto;
     height: auto;
     max-width: 100%;

@@ -22,8 +22,8 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
+    {%- if page.tags != null %}
     <div class="tags">
-        {%- if page.tags != null %}
         <b>Tags: </b>
         {%- assign projectTags = site.data.tags %}
         {%- for tag in page.tags %}
@@ -32,7 +32,7 @@ layout: default
             role="button">{{tag | replace: "_", " "}}</a>
         {%- endif %}
         {%- endfor %}
-        {%- endif %}
     </div>
+    {%- endif %}
 </div>
 <!-- {%- include page_ending.html %} -->
