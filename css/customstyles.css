@@ -1571,6 +1571,9 @@ h4.panel-title {
     .navbar-collapse.collapse {
         display: none!important;
     }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
     .navbar-nav {
         float: none!important;
         margin-top: 7.5px;
