@@ -47,7 +47,7 @@ tags: [research_it]
 
 * `contributors`: list here all the contributors that helped in establishing the page. Make sure that the person ID that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory.
 
-* `search`: by setting this field to false, the page will not end up in the search results of the searchbar. By default this is true.
+* `search`: by setting this field to exclude, the page will not end up in the search results of the searchbar. By default this is true.
 
 * `hide_sidebar`: When true, the sidebar will be hided. Default: false
 
