@@ -323,28 +323,35 @@ ul#results-container a:hover {
     margin: 3px;
 }
 
+ul li::marker {
+    color: var(--blue-xx-dark);
+}
+
 #toc {
-  padding: 15px;
-  background: var(--light-grey);
-  margin: 1.5em 0;
-  border-radius: 4px;
-  font-size: 14px;
-  max-width: 350px;
+    padding: 15px;
+    background: var(--light-grey);
+    margin: 1.5em 0;
+    border-radius: 4px;
+    font-size: 14px;
+    max-width: 350px;
 }
 
 /* Indent the lists and reset any other padding */
+
 #toc ul {
-  padding: 0 0 0 20px;
+    padding: 0 0 0 20px;
 }
 
 /* Consistent vertical space between list items */
+
 #toc li, #toc ul ul li {
-  margin: 7px 0 0 0;
+    margin: 7px 0 0 0;
 }
 
 /* Sublists */
+
 #toc ul ul {
-  list-style: circle outside;
+    list-style: circle outside;
 }
 
 /*------index page----*/
@@ -513,7 +520,6 @@ a.accordion-toggle, a.accordion-collapsed {
     margin: 0px;
 }
 
-
 .nav>li>a:hover {
     background-color: var(--primary-theme-color);
 }
@@ -660,7 +666,6 @@ ul#mysidebar li ul .sidebar_rdm_sub {
         width: 200px;
     }
 }
-
 
 span.projectTitle {
     font-family: 'Lato', sans-serif;
@@ -983,8 +988,6 @@ button.cursorNorm {
 span.otherProgrammingLanguages {
     font-style: normal;
 }
-
-
 
 /* not sure if using this ...*/
 
@@ -1415,3 +1418,4 @@ h4.panel-title {
         display: block !important;
     }
 }
+
