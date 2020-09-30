@@ -1,6 +1,7 @@
 ---
 title: "Trial page"
 permalink: trial_page.html
+toc: false
 ---
 
 
