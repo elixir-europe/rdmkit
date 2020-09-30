@@ -11,7 +11,7 @@ permalink: google_doc_way.html
 
 The toolkit is hosted on Github. We understand, however, that many people may be unfamiliar or inexperienced with git. We therefore provide the Google doc option for contributing. This process is sketched below.
 
-{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" max-width="847"  %}
+{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" max-width="847" click=true  %}
 
 
 The steps to be followed by contributors are as follows:

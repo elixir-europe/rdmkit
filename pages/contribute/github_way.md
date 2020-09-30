@@ -12,7 +12,7 @@ permalink: github_way.html
 ## Contribution process
 The process of contribution via GitHub is sketched below. 
 
-{% include image.html file="github_way_flow.svg" alt="Process of contributing via GitHub" max-width="847"  %}
+{% include image.html file="github_way_flow.svg" alt="Process of contributing via GitHub" click=true max-width="847"  %}
 
 The steps to be followed by contributors are detailed below.
 
