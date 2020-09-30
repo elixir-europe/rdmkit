@@ -39,11 +39,11 @@ toc: false
         <h2 class="button no_anchor">Your problem</h2>
         <ul class="child-box">
         <li><a href="storage">Storage</a></li>
-        <li><a href="security_&_privacy">Security & privacy</a></li>
+        <li><a href="security_and_privacy">Security & privacy</a></li>
         <li><a href="data_transfer">Data transfer</a></li>
         <li><a href="metadata_management">Metadata management</a></li>
         <li><a href="data_sustainability">Data sustainability</a></li>
-        <li><a href="compliance_monitoring_&_measurement">Compliance monitoring & measurement</a></li>
+        <li><a href="compliance_monitoring_and_measurement">Compliance monitoring & measurement</a></li>
         <li><a href="other_functional_areas">Other</a></li>
         </ul>
     </div>
