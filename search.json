@@ -18,16 +18,4 @@ search: exclude
 {% endunless %}
 {% endfor %}
 
-{% for post in site.posts %}
-
-{
-"title": "{{ post.title | escape }}",
-"tags": "{{ post.tags }}",
-"keywords": "{{post.keywords}}",
-"url": "{{ post.url | remove: "/" }}",
-"summary": "{{post.summary | strip }}"
-}
-{% unless forloop.last %},{% endunless %}
-{% endfor %}
-
 ]

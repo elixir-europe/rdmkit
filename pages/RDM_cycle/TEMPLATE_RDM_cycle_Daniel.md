@@ -4,7 +4,7 @@ keywords: optional
 permalink: to be added by editorial team
 folder: RDM_cycle
 contributors:
-search: false
+search: exclude
 ---
 
 ## What is "Lifecycle Stage Name"?

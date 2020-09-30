@@ -1,7 +1,7 @@
 ---
 title: Security & Privacy
 keywords:
-permalink: security_&_privacy.html
+permalink: security_and_privacy.html
 folder: functional_areas
 ---
 

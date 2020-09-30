@@ -6,7 +6,7 @@ permalink: demo_page.html
 folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
-search: false
+search: exclude
 ---
 
 ## Possible metadata attributes of a page
@@ -33,7 +33,7 @@ permalink: demo_page.html
 folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
-search: false
+search: exclude
 datatable: true
 toc: false
 custom-editme: _data/tool_and_resource_list.xlsx
@@ -167,7 +167,13 @@ This image is inserted in the markdown using following snippet:
 ```
 {% endraw %}
 
-Make sure that you add the image to the `images` directory and give it an understanding filename. Adapt the snippet so it points towards you image. In the case of the example, the image exampleImage.png is loaded. The alt attribute describes the image and  used for blind people.
+Make sure that you add the image to the `images` directory and give it an understanding filename. Adapt the snippet so it points towards you image (only the filename is needed). In the case of the example, the image exampleImage.png is loaded. Supported attributes are:
+
+* `max-width` : an integer between 1 an 847 to define the width of the image
+* `click`: if true, the image will be clickable -> the image will be loaded in another tab
+* `url`: f you want the image to link to anther page
+* `alt`: describes the image and is used for people that are visually impaired
+* `caption`: Text that will appear under the image
 
 ## Icons
 

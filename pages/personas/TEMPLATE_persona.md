@@ -5,6 +5,7 @@ summary: Fill in your summary or delete this property when not needed
 permalink: bioinformatician.html
 folder: personas
 contributors: [contributor1, contributor2]
+search: exclude
 ---
 
 {% include note.html content="This page is under construction." %}
