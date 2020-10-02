@@ -21,7 +21,7 @@ The steps to be followed by contributors are detailed below.
 2. Click on "Issues" in the top menu bar and check existing issues to see if your idea or suggestion is already being addressed.
   * If yes, add your comments to the existing issue.
   * If not, create a new issue by clicking on the green "New issue" on the right.
-3. Choose one of the issues template and create a new issue [ preview here ](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
+3. Choose one of the issues template and create a new issue [preview here](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
   * Report a bug.
   * Edit or Fix existing text or image.
   * Add a new topic as a new page.
