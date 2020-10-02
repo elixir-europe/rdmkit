@@ -19,7 +19,7 @@ The steps to be followed are as follows:
 * The editors will create an issue in our GitHub repository to announce your prospective contribution to others.  
 * The editors will create an empty page using our google doc template and share it with you.
 * Add your content to the empty page.
-* Email the editorial team at [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org) when you are finished with adding content.
+* Email the editorial team when you are finished with adding content.
 * The editors will assign reviewers to your page, who will provide feedback as comments on the shared google doc.
 * Address the reviewers' comments and let the editorial team know, again by mail, that you're finished with revisions.
 * The editors will transfer your page to GitHub and let you know when the page is merged to the website.
