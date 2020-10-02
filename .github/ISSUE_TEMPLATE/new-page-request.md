@@ -2,12 +2,12 @@
 name: New page request
 about: Suggestion for a new page to be added to the RDM toolkit website
 title: ''
-labels: 'new page request'
+labels: new page request
 assignees: ''
 
 ---
 
-**Which topic should the new page be about?**
+**What topic do you wish to add? Provide a brief description**
 
 
 **Are there existing pages in the RDM toolkit website related to the requested page?**
