@@ -17,11 +17,8 @@ Short explanation of why people should do / be aware of this stage
 ## What should be considered for "Lifecycle Stage Name"? 
 * Bullet point considerations
 
-## What tools are available for "Lifecycle Stage Name"?
+## What tools and resources are available for "Lifecycle Stage Name"?
 Table of tools automatically inserted by filtering the global tool table with adequate keyword(s)
-
-## What other resources are available for "Lifecycle Stage Name"?
-Table of resources automatically inserted by filtering the global tool table with adequate keyword(s)
 
 ## Where can training materials and events about "Lifecycle Stage Name" be found?
 Ideally, link to TESS page filtered by adequate keyword(s)
