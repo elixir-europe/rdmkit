@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-**What topic do you wish to add? Provide a brief description**
-
+**What topic do you wish to add?**
+Please provide a brief description.
 
 **Are there existing pages in the RDM toolkit website related to the requested page?**
 
