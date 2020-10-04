@@ -33,9 +33,9 @@ exclude:
   - var/
   - README.md
 
-feedback_subject_line: RDM toolkit
+feedback_subject_line: RDM toolkit feedback
 
-feedback_email: rdm@elixir-europe.org
+feedback_email: rdm-editors@elixir-europe.org
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
