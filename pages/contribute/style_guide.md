@@ -41,7 +41,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **White space:** make sure there is plenty of space space so that the main elements stand out and the text does not appear overwhelming.
   * **Colours:** <br />
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
-    * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in that diagram.
+    * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram.
     * | <span style="display: inline-block; width: 20px; height: 20px; background: #f47d21;"></span> | #f47d21 | Orange | Logo, menu highlight |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #337ab7 | Blue | Link colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #055472;"></span> | #055472 | Dark blue | Second level headings (<h2>)|
