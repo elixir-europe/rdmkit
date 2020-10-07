@@ -8,5 +8,7 @@ entries:
         url: /github_way.html
       - title: Google doc way
         url: /google_doc_way.html
+      - title: Style guide
+        url: /style_guide.html
       - title: Demo page
         url: /demo_page.html
