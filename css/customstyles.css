@@ -20,29 +20,42 @@
 }
 
 body {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.5;
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
     font-family: 'Lato', sans-serif;
     font-variant-ligatures: none;
+    line-height
 }
 
 h2 {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 25px;
+    line-height: 30px;
     font-weight: 700;
-    color: var(--blue-xx-dark)
+    color: var(--blue-xx-dark);
+    margin: 40px 0 10px;
 }
 
 h3 {
     font-weight: 700;
     font-size: 140%;
+    margin-top: 20px;
 }
 
 h4 {
     font-weight: 700;
     font-size: 120%;
     color: var(--subtle-text);
+    margin-top: 20px;
+}
+
+h2 + h3 {
+  margin-top: 12px;
+}
+
+h3 + h4 {
+  margin-top: 15px;
 }
 
 .hr-margin {
@@ -142,12 +155,15 @@ h4 {
     color: #777 !important;
 }
 
-/* make room for the nav bar */
+/* make room for the nav bar
 
 h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     padding-top: 60px;
     margin-top: -40px
 }
+*/
+
+
 
 .post-content ol li, .post-content ul li {
     margin: 10px 0px;
@@ -185,7 +201,7 @@ caption {
 }
 
 table {
-    margin-bottom: 20px;
+    margin: 20px;
     border: 1px solid var(--main-bg-color);
     table-layout: fixed;
     background-color: transparent;
@@ -330,10 +346,11 @@ ul li::marker {
 #toc {
     padding: 15px;
     background: var(--light-grey);
-    margin: 1.5em 0;
+    margin: 1.75em 0 2em;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 15px;
     max-width: 350px;
+    line-height: 1.4;
 }
 
 /* Indent the lists and reset any other padding */
@@ -345,13 +362,18 @@ ul li::marker {
 /* Consistent vertical space between list items */
 
 #toc li, #toc ul ul li {
-    margin: 7px 0 0 0;
+    margin: 8px 0 0 0;
 }
 
 /* Sublists */
 
 #toc ul ul {
     list-style: circle outside;
+}
+
+/* Extra space if the toc is followed by a paragraph */
+#toc + p {
+  margin-top: 1.75em;
 }
 
 /*------index page----*/
@@ -699,6 +721,7 @@ span.projectTitle {
     font-size: 15px;
     line-height: 24px;
     color: var(--white-text);
+    margin-top: 80px;
 }
 
 .site-footer .company-image {
@@ -1408,4 +1431,3 @@ h4.panel-title {
         display: block !important;
     }
 }
-
