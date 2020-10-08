@@ -201,7 +201,7 @@ caption {
 }
 
 table {
-    margin: 20px;
+    margin: 20px 0;
     border: 1px solid var(--main-bg-color);
     table-layout: fixed;
     background-color: transparent;
