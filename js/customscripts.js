@@ -18,9 +18,10 @@ $(document).ready(function () {
     /**
      * AnchorJS
      */
-    anchors.add('h2,h3,h4,h5');
-    anchors.remove('.no_anchor')
-
+     //anchors.options.visible = 'always';
+     anchors.options.placement = 'left';
+     anchors.options.titleText = 'Link to this section';
+     anchors.add('h2');
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
@@ -110,4 +111,3 @@ window.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-

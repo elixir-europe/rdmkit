@@ -19,6 +19,10 @@
     --cycle-brown: #763E2A;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-size: 16px;
     line-height: 1.5;
@@ -26,7 +30,6 @@ body {
     background-color: var(--main-bg-color);
     font-family: 'Lato', sans-serif;
     font-variant-ligatures: none;
-    line-height
 }
 
 h2 {
@@ -213,6 +216,11 @@ th {
     text-align: left;
 }
 
+/* For the 'All resources' page */
+.dataTables_wrapper {
+  margin: 40px 0 20px;
+}
+
 .tooltable tr th:nth-child(1) {
     width: 25%;
 }
@@ -351,6 +359,11 @@ ul li::marker {
     font-size: 15px;
     max-width: 350px;
     line-height: 1.4;
+}
+
+/* Hide the cahin icon provided by anchor.min.js */
+#toc .anchorjs-link {
+  display: none;
 }
 
 /* Indent the lists and reset any other padding */
@@ -1222,6 +1235,7 @@ a[href^="http://"]:after, a[href^="https://"]:after {
     display: inline-block;
     text-decoration: none;
     padding-left: 3px;
+    font-size: 14px;
 }
 
 /* Strip the outbound icon when this class is present */
