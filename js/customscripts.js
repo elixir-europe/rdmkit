@@ -18,10 +18,11 @@ $(document).ready(function () {
     /**
      * AnchorJS
      */
-     //anchors.options.visible = 'always';
-     anchors.options.placement = 'left';
-     anchors.options.titleText = 'Link to this section';
-     anchors.add('h2');
+    //anchors.options.placement = 'left';
+    anchors.options.titleText = 'Link to this section';
+    anchors.add('h2');
+    anchors.remove('.no_anchor')
+
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
