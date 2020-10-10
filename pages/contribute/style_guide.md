@@ -18,16 +18,17 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Acronyms:** spell them out the first time.
   * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space.
   * **Capitals:** do not use all capitals for emphasis or in headings.
-  * **Data:** singular or plural, or dodge the issue by using both?
+  * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
   * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations).
   * **Email:** not "e-mail".
   * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
+  * **Gender:** avoid using gender-specific words like "he" or "she".
   * **Headings:**
     * Only the first word is capitalised, unless other words are proper nouns.
     * Headings must be hierarchical. They must go down in order (level one, level two, level three), and not skip a level. It is fine to skip levels when moving back up e.g. you can skip from level four to level two.
   * **-ise/-ize:** use the "-ise" form.
   * **"Life cycle":** two separate words.
-  * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here".
+  * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "<i>et al.</i>" for more than five authors.
