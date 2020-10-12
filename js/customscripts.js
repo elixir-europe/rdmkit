@@ -18,8 +18,12 @@ $(document).ready(function () {
     /**
      * AnchorJS
      */
+     anchors.options = {
+       placement: 'left',
+       titleText: 'Link to this section'
+     };
     //anchors.options.placement = 'left';
-    anchors.options.titleText = 'Link to this section';
+    //anchors.options.titleText = 'Link to this section';
     anchors.add('h2');
     anchors.remove('.no_anchor')
 
