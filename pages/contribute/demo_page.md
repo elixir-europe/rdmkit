@@ -17,8 +17,6 @@ title: Demo page
 ```
 * `title`: Specify here the title of the page. This wil be the H1 title (replacing the top level title using the # in markdown )
 
-* `permalink`: This is the url where the page will be rendered to. For example *demo_page.html* will render the Demo page towards the link https://elixir-europe.github.io/rdm-toolkit/demo_page.html
-
 This can be extended with following attributes (each with an example):
 
 ```
@@ -35,8 +33,6 @@ custom-editme: _data/tool_and_resource_list.xlsx
 tags: [research_it] 
 ---
 ```
-
-* `folder`: When your page is located in a subfolder within the pages directory, please specify this folder here.
 
 * `summary`: Using this attribute it is possible to specify a summary which will be displayed under the title of the page. This summary will also be used as description of your page when the page is tagged.
 
