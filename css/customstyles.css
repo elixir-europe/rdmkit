@@ -61,6 +61,34 @@ h3 + h4 {
   margin-top: 15px;
 }
 
+/*
+* Spacer classes (not in Bootstrap 3)
+*/
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mt-2, .alert.mt-2 {
+  margin-top: 1.5em;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1  {
+  margin-bottom: 1em;
+}
+
+.mb-2, .alert.mb-2 {
+  margin-bottom: 1.5em;
+}
+
+
 .hr-margin {
     margin-top: 20px;
 }
@@ -735,6 +763,10 @@ span.projectTitle {
     line-height: 24px;
     color: var(--white-text);
     margin-top: 80px;
+}
+
+.home.site-footer {
+  margin-top: 0;
 }
 
 .site-footer .company-image {
