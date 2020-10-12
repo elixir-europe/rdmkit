@@ -3,7 +3,7 @@ title: Demo page
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 summary: This is a demo page to showcase what is possible
-contributors: [bedroesb]
+contributors: [Bert Droesbeke]
 search: exclude
 ---
 
