@@ -1,8 +1,8 @@
 ---
-title: Demo page
+title: Code reference
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
-summary: This is a demo page to showcase what is possible
+summary: This is a dode reference to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
 search: exclude
 ---

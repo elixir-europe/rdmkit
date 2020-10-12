@@ -13,5 +13,5 @@ entries:
           url: /tool_resource_update.html
         - title: Style guide
           url: /style_guide.html
-        - title: Demo page
-          url: /demo_page.html
+        - title: Code reference
+          url: /code_reference.html
