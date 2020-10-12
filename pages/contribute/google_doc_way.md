@@ -1,9 +1,7 @@
 ---
 title: Google Doc way
 sidebar: contribute
-folder: contribute
 toc: false
-permalink: google_doc_way.html
 ---
 
 

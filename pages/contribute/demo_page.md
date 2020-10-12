@@ -2,8 +2,6 @@
 title: Demo page
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
-permalink: demo_page.html
-folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
 search: exclude
@@ -15,7 +13,6 @@ Minimum of metadata in a page:
 ```
 ---
 title: Demo page
-permalink: demo_page.html
 ---
 ```
 * `title`: Specify here the title of the page. This wil be the H1 title (replacing the top level title using the # in markdown )
@@ -29,8 +26,6 @@ This can be extended with following attributes (each with an example):
 title: Demo page
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
-permalink: demo_page.html
-folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
 search: exclude
@@ -311,7 +306,6 @@ This metadata example shows how we tag the "Storage" page with the **research_it
 ---
 title: Storage
 keywords:
-permalink: storage.html
 tags: [research_it] 
 ---
 ```

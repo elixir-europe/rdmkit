@@ -1,8 +1,6 @@
 ---
 title: Planning
 keywords:
-permalink: planning.html
-folder: RDM_cycle
 contributors:
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: Github way
 sidebar: contribute
-folder: contribute
-permalink: github_way.html
 ---
 
 

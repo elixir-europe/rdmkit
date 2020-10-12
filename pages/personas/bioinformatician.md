@@ -1,8 +1,6 @@
 ---
 title: Bioinformatician
 keywords: [Data steward, Data stewardship, Data management, Data workflow, Data pipeline, Data management lifecycle, Analysis, pipelines, Data management tools, Data planning, DMP, Data archiving, Data management tools, Data archiving tools, Data, publication, Data storage, Data standards, Ontology , Data sharing, FAIR, <type> data, Life science data, Persistent identifiers, Open data, Sensitive data, Provenance]
-permalink: bioinformatician.html
-folder: personas
 ---
 
 ## Role title

@@ -1,7 +1,5 @@
 ---
 title: Federated access to human data under the GDPR
-permalink: humandata_usecase.html
-folder: use_case
 ---
 
 ## Overview

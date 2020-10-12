@@ -1,8 +1,6 @@
 ---
 title: Updating tool and resource list
 sidebar: contribute
-permalink: adding_tool_or_resource.html
-folder: contribute
 summary: How to add a tool or resource to RDM Toolkit
 ---
 

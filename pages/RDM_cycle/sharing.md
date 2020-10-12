@@ -1,8 +1,6 @@
 ---
 title: Sharing
 keywords:
-permalink: sharing.html
-folder: RDM_cycle
 ---
 
 ## What?

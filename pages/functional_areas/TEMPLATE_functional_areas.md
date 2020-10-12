@@ -1,8 +1,6 @@
 ---
 title: Global Problem Title (e.g. Metadata Management)
 keywords: optional
-permalink: to be added by editorial team
-folder: functional_areas
 contributors:
 search: exclude
 ---

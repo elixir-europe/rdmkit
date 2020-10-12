@@ -1,6 +1,5 @@
 ---
 title: Acknowledgements
-permalink: acknowledgements.html
 ---
 
 The ELIXIR RDM Toolkit is supported by:

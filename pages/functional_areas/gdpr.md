@@ -1,7 +1,5 @@
 ---
 title: Understanding the GDPR
-permalink: gdpr.html
-folder: functional_areas
 ---
 
 
