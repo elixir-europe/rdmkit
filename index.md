@@ -5,7 +5,7 @@ permalink: index.html
 toc: false
 ---
 
-{% include note.html content="This site is under construction, weird things can happen at any given moment." %}
+{% include note.html content="We're still developing this website. If you want to see what's coming up next, have a look at the pull requests and issues on [GitHub](https://github.com/elixir-europe/rdm-toolkit). Feel free to [contribute](https://rdm.elixir-europe.org/how_to_contribute.html)!" %}
 
 <p class="centered"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
 <object class="main_rdm" type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>

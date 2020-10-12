@@ -18,7 +18,13 @@ $(document).ready(function () {
     /**
      * AnchorJS
      */
-    anchors.add('h2,h3,h4,h5');
+     anchors.options = {
+       placement: 'left',
+       titleText: 'Link to this section'
+     };
+    //anchors.options.placement = 'left';
+    //anchors.options.titleText = 'Link to this section';
+    anchors.add('h2');
     anchors.remove('.no_anchor')
 
 });
@@ -110,4 +116,3 @@ window.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-
