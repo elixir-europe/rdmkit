@@ -1,14 +1,14 @@
 ---
 title: Privacy
 keywords: optional
-contributors:Pinar
+contributors: Pinar Alper, Regina Becker
 ---
 
 ## "Concrete Problem 1, Ideally Formulated as a Question"
  
 ### Description
 
-Short explanation of what this problem is.
+Privacy is an ....
 
 ### Considerations
 
