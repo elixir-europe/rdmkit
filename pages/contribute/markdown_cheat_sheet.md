@@ -1,8 +1,8 @@
 ---
-title: Code reference
+title: Markdown cheat sheet
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
-summary: This is a dode reference to showcase what is possible within the markdown pages.
+summary: This is a cheat sheet to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
 search: exclude
 ---

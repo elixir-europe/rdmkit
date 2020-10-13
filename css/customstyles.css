@@ -592,7 +592,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav li a {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
     /* padding: 2px 10px; */
     background-color: var(--light-grey);

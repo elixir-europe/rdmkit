@@ -13,5 +13,7 @@ entries:
           url: /tool_resource_update.html
         - title: Style guide
           url: /style_guide.html
-        - title: Code reference
-          url: /code_reference.html
+        - title: Markdown cheat sheet
+          url: /markdown_cheat_sheet.html
+        # - title: Editorial board guide
+        #   url: /editorial_board_guide.html
