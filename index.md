@@ -2,6 +2,7 @@
 title: "Research Data Management Toolkit"
 hide_sidebar: true
 permalink: index.html
+style: home
 toc: false
 ---
 

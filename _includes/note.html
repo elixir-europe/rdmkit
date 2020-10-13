@@ -1,1 +1,1 @@
-<div markdown="span" class="alert alert-info mt-2 mb-2" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> {{include.content}}</div>
+<div markdown="span" class="alert alert-info {% if page.permalink == 'index.html' %}mt-2 mb-2{% endif %}" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> {{include.content}}</div>
