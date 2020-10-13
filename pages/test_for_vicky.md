@@ -2,7 +2,6 @@
 title: Test RDM toolkit 
 keywords: optional
 contributors: [Vicky]
-search: exclude
 ---
 
 ## "Does it work?"
