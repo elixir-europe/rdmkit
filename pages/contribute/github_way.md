@@ -15,7 +15,7 @@ The process of contribution via GitHub is sketched below.
 The steps to be followed by contributors are detailed below.
 
 ### Announce and discuss your proposal through GitHub "issues"
-1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) and click in the "GitHub" icon on the top navigation bar. It will take you in the GitHub repository of our RDM toolkit.
+1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github.
 2. Click on "Issues" in the top menu bar and check existing issues to see if your idea or suggestion is already being addressed.
   * If yes, add your comments to the existing issue.
   * If not, create a new issue by clicking on the green "New issue" on the right.
@@ -38,7 +38,7 @@ The steps to be followed by contributors are detailed below.
   * open a "Pull Request", if you are happy with your contribution.
 Anyone can [comment on your (draft) Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request) and you can reply.
 7. If you had changed your mind about something in your Pull Request (PR), when the PR is not yet closed, or if the editor tells you to edit your PR during the review process, you have to:
-  * Go to the [RDM toolkit repo](https://elixir-europe.github.io/rdm-toolkit/) and click on the "GitHub" button on the top navigation bar. It will take you in the GitHub repository of our RDM toolkit.
+  * Go to the [RDM toolkit repo](https://elixir-europe.github.io/rdm-toolkit/) on Github.
   * Click on the “Pull request” button in the top menu bar.
   * Find your open PR and click on it.
   * Click on "Files changed" in the top menu bar.
@@ -47,14 +47,14 @@ Anyone can [comment on your (draft) Pull Request](https://docs.github.com/en/git
   * Click on “Commit changes”.
   
 ### Request a review
-1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) and click on the "GitHub" button on the top navigation bar. It will take you to the GitHub repository of our RDM toolkit.
+1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github.
 2. Click on the “Pull request” button in the top menu bar.
 3. Find your open PR and click on "[Ready for review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review)". Editors will be notified and they will check your changes.
 
 ### Address editors' comments
 1. When editors add [comments](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request) or [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request) of your PR, you will be notified.
 2. You need to address editors' comments and requests by editing your PR as in step 7 (see above).
-  * Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) and click on the "GitHub" button on the top navigation bar. It will take you in the GitHub repository of our RDM toolkit.
+  * Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github.
   * Click on the “Pull request” button in the top menu bar.
   * Find your open PR and click on it.
   * Click on "Files changed" in the top menu bar.
