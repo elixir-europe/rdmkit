@@ -20,7 +20,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -53,39 +53,40 @@ h4 {
     margin-top: 20px;
 }
 
-h2 + h3 {
-  margin-top: 12px;
+h2+h3 {
+    margin-top: 12px;
 }
 
-h3 + h4 {
-  margin-top: 15px;
+h3+h4 {
+    margin-top: 15px;
 }
 
 /*
 * Spacer classes (not in Bootstrap 3)
 */
+
 .mt-0 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .mt-1 {
-  margin-top: 1em;
+    margin-top: 1em;
 }
 
 .mt-2, .alert.mt-2 {
-  margin-top: 1.5em;
+    margin-top: 1.5em;
 }
 
 .mb-0 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
-.mb-1  {
-  margin-bottom: 1em;
+.mb-1 {
+    margin-bottom: 1em;
 }
 
 .mb-2, .alert.mb-2 {
-  margin-bottom: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .hr-margin {
@@ -193,8 +194,6 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
 }
 */
 
-
-
 .post-content ol li, .post-content ul li {
     margin: 10px 0px;
 }
@@ -244,8 +243,9 @@ th {
 }
 
 /* For the 'All resources' page */
+
 .dataTables_wrapper {
-  margin: 40px 0 20px;
+    margin: 40px 0 20px;
 }
 
 .tooltable tr th:nth-child(1) {
@@ -389,8 +389,9 @@ ul li::marker {
 }
 
 /* Hide the cahin icon provided by anchor.min.js */
+
 #toc .anchorjs-link {
-  display: none;
+    display: none;
 }
 
 /* Indent the lists and reset any other padding */
@@ -412,8 +413,9 @@ ul li::marker {
 }
 
 /* Extra space if the toc is followed by a paragraph */
-#toc + p {
-  margin-top: 1.75em;
+
+#toc+p {
+    margin-top: 1.75em;
 }
 
 /*------index page----*/
@@ -765,7 +767,7 @@ span.projectTitle {
 }
 
 .home.site-footer {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .site-footer .company-image {
