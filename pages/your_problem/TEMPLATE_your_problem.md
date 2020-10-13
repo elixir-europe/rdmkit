@@ -1,7 +1,7 @@
 ---
 title: Global Problem Title (e.g. Metadata Management)
 keywords: optional
-contributors:
+contributors: []
 search: exclude
 ---
 
