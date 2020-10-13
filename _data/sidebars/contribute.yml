@@ -15,5 +15,5 @@ entries:
           url: /style_guide.html
         - title: Markdown cheat sheet
           url: /markdown_cheat_sheet.html
-        # - title: Editorial board guide
-        #   url: /editorial_board_guide.html
+        - title: Editorial board guide
+          url: /editorial_board_guide.html
