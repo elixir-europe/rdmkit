@@ -63,6 +63,7 @@ defaults:
       path: ""
       type: "pages"
     values:
+      permalink: /:basename:output_ext
       layout: "page"
       comments: false
       search: true

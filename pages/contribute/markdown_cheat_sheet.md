@@ -1,11 +1,9 @@
 ---
-title: Demo page
+title: Markdown cheat sheet
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
-permalink: demo_page.html
-folder: contribute
-summary: This is a demo page to showcase what is possible
-contributors: [bedroesb]
+summary: This is a cheat sheet to showcase what is possible within the markdown pages.
+contributors: [Bert Droesbeke]
 search: exclude
 ---
 
@@ -15,12 +13,9 @@ Minimum of metadata in a page:
 ```
 ---
 title: Demo page
-permalink: demo_page.html
 ---
 ```
 * `title`: Specify here the title of the page. This wil be the H1 title (replacing the top level title using the # in markdown )
-
-* `permalink`: This is the url where the page will be rendered to. For example *demo_page.html* will render the Demo page towards the link https://elixir-europe.github.io/rdm-toolkit/demo_page.html
 
 This can be extended with following attributes (each with an example):
 
@@ -29,8 +24,6 @@ This can be extended with following attributes (each with an example):
 title: Demo page
 keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
-permalink: demo_page.html
-folder: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [bedroesb]
 search: exclude
@@ -41,11 +34,9 @@ tags: [research_it]
 ---
 ```
 
-* `folder`: When your page is located in a subfolder within the pages directory, please specify this folder here.
-
 * `summary`: Using this attribute it is possible to specify a summary which will be displayed under the title of the page. This summary will also be used as description of your page when the page is tagged.
 
-* `contributors`: list here all the contributors that helped in establishing the page. Make sure that the person ID that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory.
+* `contributors`: list here all the contributors that helped in establishing the page. This will be the name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
 * `search`: by setting this field to exclude, the page will not end up in the search results of the searchbar. By default this is true.
 
@@ -169,7 +160,7 @@ This image is inserted in the markdown using following snippet:
 
 Make sure that you add the image to the `images` directory and give it an understanding filename. Adapt the snippet so it points towards you image (only the filename is needed). In the case of the example, the image exampleImage.png is loaded. Supported attributes are:
 
-* `max-width` : an integer between 1 an 847 to define the width of the image
+* `max-width` : an integer between 1 and 50 to define the relative width of the image
 * `click`: if true, the image will be clickable -> the image will be loaded in another tab
 * `url`: f you want the image to link to anther page
 * `alt`: describes the image and is used for people that are visually impaired
@@ -311,7 +302,6 @@ This metadata example shows how we tag the "Storage" page with the **research_it
 ---
 title: Storage
 keywords:
-permalink: storage.html
 tags: [research_it] 
 ---
 ```

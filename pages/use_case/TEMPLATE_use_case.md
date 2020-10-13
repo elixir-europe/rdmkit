@@ -1,8 +1,6 @@
 ---
 title: "DOMAIN PAGE TITLE"
 keywords: optional
-permalink: to be added by editorial team
-folder: use_case
 search: exclude
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Code of Conduct
-permalink: CODE_OF_CONDUCT.html
 search: exclude
 ---
 

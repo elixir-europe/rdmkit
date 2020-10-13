@@ -1,8 +1,5 @@
 ---
 title: "Marine metagenomics"
-keywords: 
-permalink: marine_metagenomics_usecase.html
-folder: use_case
 ---
 
 

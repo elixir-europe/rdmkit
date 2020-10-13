@@ -2,8 +2,6 @@
 title: <Your persona>
 keywords: [Keyword 1,Keyword 2, Keyword n]
 summary: Fill in your summary or delete this property when not needed
-permalink: bioinformatician.html
-folder: personas
 contributors: [contributor1, contributor2]
 search: exclude
 ---

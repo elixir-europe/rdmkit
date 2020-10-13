@@ -1,8 +1,6 @@
 ---
 title: Processing
 keywords:
-permalink: processing.html
-folder: RDM_cycle
 ---
 
 ## Subtitle 1

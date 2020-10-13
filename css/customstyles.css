@@ -592,7 +592,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav li a {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
     /* padding: 2px 10px; */
     background-color: var(--light-grey);
@@ -1189,11 +1189,6 @@ ul#mysidebar {
     }
 }
 
-.col-md-9 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .post-content img {
     width: auto;
     height: auto;
@@ -1205,13 +1200,6 @@ ul#mysidebar {
     float: left;
     margin: 15px 15px 15px 0px;
     border: 1px solid #dedede;
-}
-
-@media only screen and (min-width: 900px), only screen and (min-device-width: 900px) {
-    .col-md-9 img {
-        max-width: 700px;
-        max-height: 700px;
-    }
 }
 
 *:hover>.anchorjs-link {
