@@ -59,21 +59,37 @@ For more information about this topic please visit the [Github documentation pag
 
 ## Adding new pages
 
-The content of the website is built up using markdown files found in the *pages* directory
+The content of the website is built up using markdown files found in the *pages* directory. In order for the markdown file to be rendered to the website, it needs a specific frontmatter/metadata section in the top part of the file. This can look like this:
+
+```
+---
+title: Title of the page
+---
+```
+
+These markdown files are divided over subdirectories (your_role, your_domain, your_problem,...) for sorting reasons only. Simply copying the TEMPLATE file in the subdirectory, renaming it, is sufficient to generate a new page. How you can copy a template is explained later in this section.
 
 ### General remarks
 
 - The markdown files should be named without capitals and without spaces (replace them with underscores)
 - Make sure the markdown file has a unique name
-- if the markdown file is named *example.md*, the page will be found at https://rdm.elixir-europe.org/example
+- If the markdown file is named *example.md*, the page will be found at https://rdm.elixir-europe.org/example
 - Check the frontmatter/metadata of the markdown page:
     - is `search: exclude` deleted?
     - did I add the names of the authors to the contributors list?
     - optional: changing the title to an appropriate one 
+- By default a page will not show up in the sidepanel. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory. More info about this can be found [here](#adding-links-to-the-sidebar)
 
 ### Simple: using the Github interface
 
-Go to the `TEMPLATE_` file of choice in the [github repo](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages) and 
+1. Go to the `TEMPLATE_` file of choice in the [github repo](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdm-toolkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file
+
+2. Click "Raw" on the github page to open the file 'as is'
+    {% include image.html file="raw_github.png" alt="Raw button Github." %}
+
+3. Copy all the content
+
+4. 
 
 ### Advanced: Pushing local changes
 
