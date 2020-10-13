@@ -1,11 +1,11 @@
 {%- assign sidebar = site.data.sidebars[page.sidebar].entries -%}
-{%- capture re-using -%}{%- if page.permalink == "re-using.html" -%}st0{%- else -%}st10{%- endif -%}{%- endcapture -%}
-{%- capture preserving -%}{%- if page.permalink == "preserving.html" -%}st2{%- else -%}st12{%- endif -%}{%- endcapture -%}
-{%- capture analysing -%}{%- if page.permalink == "analysing.html" -%}st3{%- else -%}st13{%- endif -%}{%- endcapture -%}
-{%- capture processing -%}{%- if page.permalink == "processing.html" -%}st4{%- else -%}st14{%- endif -%}{%- endcapture -%}
-{%- capture planning -%}{%- if page.permalink == "planning.html" -%}st5{%- else -%}st15{%- endif -%}{%- endcapture -%}
-{%- capture collecting -%}{%- if page.permalink == "collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
-{%- capture sharing -%}{%- if page.permalink == "sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
+{%- capture re-using -%}{%- if page.url == "/re-using.html" -%}st0{%- else -%}st10{%- endif -%}{%- endcapture -%}
+{%- capture preserving -%}{%- if page.url == "/preserving.html" -%}st2{%- else -%}st12{%- endif -%}{%- endcapture -%}
+{%- capture analysing -%}{%- if page.url == "/analysing.html" -%}st3{%- else -%}st13{%- endif -%}{%- endcapture -%}
+{%- capture processing -%}{%- if page.url == "/processing.html" -%}st4{%- else -%}st14{%- endif -%}{%- endcapture -%}
+{%- capture planning -%}{%- if page.url == "/planning.html" -%}st5{%- else -%}st15{%- endif -%}{%- endcapture -%}
+{%- capture collecting -%}{%- if page.url == "/collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
+{%- capture sharing -%}{%- if page.url == "/sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
 <ul id="mysidebar" class="nav">
 {%- for entry in sidebar -%}
 {%- for folder in entry.folders -%}

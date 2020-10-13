@@ -1,7 +1,7 @@
 ---
 title: Full Lifecycle Stage Name - (e.g. Data Management Planning, rather than just Planning)
 keywords: optional
-contributors:
+contributors: []
 search: exclude
 ---
 
