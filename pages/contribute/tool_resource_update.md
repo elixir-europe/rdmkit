@@ -54,7 +54,7 @@ In order to do so follow these general Git steps if you did not already do them 
     git branch -b newtool
     git checkout newtool
     ```
-- Open the excel file `rdm-toolkit/_data/tool_and_resource_list.xlsx` with excel or any other program that supports .xlsx files
+- Open the excel file in `rdm-toolkit/_data` named `tool_and_resource_list.xlsx` with excel or any other program that supports .xlsx files
 - Add or change the tool list.
 - Save.
 - Open terminal and stage your changes:
