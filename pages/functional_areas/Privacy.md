@@ -8,7 +8,7 @@ contributors: Pinar Alper, Regina Becker
  
 ### Description
 
-Privacy is an ....
+Privacy is an blatant bla
 
 ### Considerations
 
