@@ -25,7 +25,7 @@ Privacy is an ....
 Same as above
 
 ### Considerations
-Same as above
+I have added further considerations for genetic data.
 
 ### Solutions
 Same as above
