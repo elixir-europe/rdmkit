@@ -1,8 +1,7 @@
 ---
 title: How to contribute to the RDM toolkit website
 sidebar: contribute
-toc: false
-summary: Here you'll find an overview of the ways of contributing to this website. Depending on your chosen way, please follow the links on the left, where you'll find step-by-step instructions.  
+toc: false 
 ---
 
 
