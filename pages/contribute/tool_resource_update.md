@@ -34,7 +34,7 @@ Since the excel file is a binary file and not a text based file, it is not possi
 ### Simple way: Opening an issue
 
 For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
-- Open this [Goggle spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
+- Open this [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
 - Check if a tool or resource is already listed.
 - Add or edit tools and resources as described above in "The excel table" paragraph.
 - Done! The editors will update the "tool and resource list" in GitHub regularly.
