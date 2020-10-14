@@ -100,7 +100,7 @@ These markdown files are divided over subdirectories (your_role, your_domain, yo
 7. Delete the `search: exclude` attribute in the metadata and check if other fields can be filled in already, for example contributors. More information on the metadata of pages can be found further down in this page.
 
 8. Commit to the master branch by clicking `Commit new file`
-     {% include image.html file="commit_to_master_github" inline=true alt="Commit new file in github." %}
+     {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in github." %}
 
 9. If the markdown file is named *example.md*, the page will be rendered at https://rdm.elixir-europe.org/example
     
