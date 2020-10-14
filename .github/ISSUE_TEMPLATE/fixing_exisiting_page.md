@@ -2,7 +2,7 @@
 name: Fixing an existing page or add tool/resource
 about: Did you spot a typo, incorrect information or a tool/resource that is missing? Click here
 title: ''
-labels: 
+labels: Contentathon
 assignees: ''
 
 ---

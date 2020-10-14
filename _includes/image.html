@@ -13,4 +13,6 @@
     {{include.caption}}
     </figcaption>
     {%- endif %}
+{%- if {{include.inline}} != true %}
 </figure>
+{%- endif %}
