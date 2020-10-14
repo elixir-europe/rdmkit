@@ -31,7 +31,7 @@ The table consists of 5 columns:
 
 Since the excel file is a binary file and not a text based file, it is not possible to make changes using the Github website itself.
 
-### Simple way: Opening an issue
+### Simple way: changing the google spreadsheet
 
 For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
 - Open this [Goggle spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
@@ -39,40 +39,9 @@ For people that are not familiar with Git, no worries! The editors will do the w
 - Add or edit tools and resources as described above in "The excel table" paragraph.
 - Done! The editors will update the "tool and resource list" in GitHub regularly.
 
-### Advanced way: Making your own PR with changes to the excel file
+### Advanced way: making your own PR with changes to the excel file
 
-In order to do so follow these general Git steps if you did not already do them to contribute to this repository:
-- Make a fork of this repository, using the fork button.
-- Open a terminal and clone your fork using:
-    ```
-    git clone git@github.com:USERNAME/rdm-toolkit.git
-    cd rdm-toolkit
-    ```
-- Keep your fork up to date.
-    ```
-    git remote add upstream https://github.com/elixir-europe/rdm-toolkit.git
-    git fetch upstream
-    git pull upstream master
-    ```
-- Create a Branch.
-    ```
-    git branch -b newtool
-    git checkout newtool
-    ```
-- Open the excel file in `rdm-toolkit/_data` named `tool_and_resource_list.xlsx` with excel or any other program that supports .xlsx files
-- Add or change the tool list.
-- Save.
-- Open terminal and stage your changes:
-    ```
-    git add .
-    ```
-- Committing and pushing the changes
-    ```
-    git commit -m "Changing the tool-resource file"
-    git push origin newtool
-    ```
-- Go to [https://github.com/elixir-europe/rdm-toolkit](https://github.com/elixir-europe/rdm-toolkit) and click on *Compare & pull request*
-- Open the pull request
+Just like with every change you want to make to the repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page.
 
 {% include tip.html content="If you want to know wether the conversion of the excel table and your changes are successful, check out the github action check in the PR named 'Validating the tool and resource table / build' " %}
 

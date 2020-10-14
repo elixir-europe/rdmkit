@@ -17,3 +17,5 @@ entries:
           url: /markdown_cheat_sheet.html
         - title: Editorial board guide
           url: /editorial_board_guide.html
+        - title: Working with Git
+          url: /working_with_git.html
