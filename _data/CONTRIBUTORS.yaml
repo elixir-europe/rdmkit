@@ -8,9 +8,9 @@
 
 # two dummy entries that are used in the template pages
 contributor1:
-    name: Contributor A (Please add contributors to the CONTRIBUTORS.yaml file)
+    git: Contributor A (Please add contributors to the CONTRIBUTORS.yaml file)
 contributor2:
-    name: Contributor B (Please list all contributors of this tutorial in the metadata section)
+    git: Contributor B (Please list all contributors of this tutorial in the metadata section)
 
 # our real contributors
 

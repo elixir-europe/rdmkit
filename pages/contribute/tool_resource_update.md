@@ -31,10 +31,15 @@ The table consists of 5 columns:
 
 Since the excel file is a binary file and not a text based file, it is not possible to make changes using the Github website itself.
 
-### Simple: Opening an issue
-For people that are not familiar with Git, no worries! We are really happy to hear your suggestions using the [issues section](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on github. Please click *Fixing an existing page or add tool/resource* when opening an issue and follow further instructions. The editors will help you in adding a new tool or resource to the tool/resource table.
+### Simple way: Opening an issue
 
-### Advanced: Making your own PR with changes to the excel file
+For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
+- Open this [Goggle spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
+- Check if a tool or resource is already listed.
+- Add or edit tools and resources as described above in "The excel table" paragraph.
+- Done! The editors will update the "tool and resource list" in GitHub regularly.
+
+### Advanced way: Making your own PR with changes to the excel file
 
 In order to do so follow these general Git steps if you did not already do them to contribute to this repository:
 - Make a fork of this repository, using the fork button.
