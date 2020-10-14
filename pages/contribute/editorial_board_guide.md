@@ -85,12 +85,25 @@ These markdown files are divided over subdirectories (your_role, your_domain, yo
 1. Go to the `TEMPLATE_` file of choice in the [github repo](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdm-toolkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file
 
 2. Click "Raw" on the github page to open the file 'as is'
-    {% include image.html file="raw_github.png" alt="Raw button Github." %}
+    {% include image.html file="raw_github.png" inline=true alt="Raw button Github." %}
 
 3. Copy all the content
 
-4. 
+4. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_problem*. Click on `Add file` on the right followed up by `Create new file`.
+    {% include image.html file="create_new_file_github.png" inline=true alt="Create new file github." %}
 
+5. Paste the copied content from the template
+
+6. Name the file by choosing a unique self explaining short name. Without capitals and without spaces (replace them with underscores).
+    {% include image.html file="name_file_github.png" inline=true alt="Name the file in github." %}
+
+7. Delete the `search: exclude` attribute in the metadata and check if other fields can be filled in already, for example contributors. More information on the metadata of pages can be found further down in this page.
+
+8. Commit to the master branch by clicking `Commit new file`
+     {% include image.html file="commit_to_master_github" inline=true alt="Commit new file in github." %}
+
+9. If the markdown file is named *example.md*, the page will be rendered at https://rdm.elixir-europe.org/example
+    
 ### Advanced: Pushing local changes
 
 These steps are explained above in the [Working on your own feature branch](#working-on-your-own-feature-branch) section.
