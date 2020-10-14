@@ -2,7 +2,7 @@
 name: New page request
 about: Suggestion for a new page to be added to the RDM toolkit website
 title: ''
-labels: new page request
+labels: new page request, Contentathon
 assignees: ''
 
 ---
