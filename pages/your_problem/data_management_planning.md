@@ -1,9 +1,7 @@
 ---
 title: Data Management Planning
 keywords: optional
-permalink: to be added by editorial team
-folder: functional_areas
-contributors: Flora D'Anna, Daniel Faria
+contributors: [Flora D'Anna, Daniel Faria]
 search: exclude
 ---
 

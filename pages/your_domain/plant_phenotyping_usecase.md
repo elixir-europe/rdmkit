@@ -1,9 +1,6 @@
 ---
 title: "Plant phenotyping"
-keywords: 
-permalink: plant_phenotyping_usecase.html
 summary: How to produce and publish plant phenotype data
-folder: use_case
 ---
 
 

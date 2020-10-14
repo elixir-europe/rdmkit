@@ -1,8 +1,6 @@
 ---
 title: Security & Privacy
 keywords:
-permalink: security_and_privacy.html
-folder: functional_areas
 ---
 
 ## Is my data sensitive?

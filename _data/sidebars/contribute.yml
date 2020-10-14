@@ -4,11 +4,16 @@ entries:
       folders:
       - title: How to contribute
         url: /how_to_contribute.html
-      - title: Github way
-        url: /github_way.html
-      - title: Google doc way
-        url: /google_doc_way.html
-      - title: Style guide
-        url: /style_guide.html
-      - title: Demo page
-        url: /demo_page.html
+        folderitems:
+        - title: Github way
+          url: /github_way.html
+        - title: Google doc way
+          url: /google_doc_way.html
+        - title: Add new tool or resource
+          url: /tool_resource_update.html
+        - title: Style guide
+          url: /style_guide.html
+        - title: Markdown cheat sheet
+          url: /markdown_cheat_sheet.html
+        # - title: Editorial board guide
+        #   url: /editorial_board_guide.html

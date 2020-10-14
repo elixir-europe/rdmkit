@@ -1,9 +1,7 @@
 ---
 title: Full Lifecycle Stage Name - (e.g. Data Management Planning, rather than just Planning)
 keywords: optional
-permalink: to be added by editorial team
-folder: RDM_cycle
-contributors:
+contributors: []
 search: exclude
 ---
 
