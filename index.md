@@ -1,6 +1,7 @@
 ---
 title: "Research Data Management Toolkit"
 hide_sidebar: true
+style: home
 toc: false
 ---
 

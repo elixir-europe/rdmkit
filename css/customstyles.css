@@ -1143,8 +1143,7 @@ dd {
 }
 
 .alert {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 1.5em 0;;
     border-color: transparent;
 }
 
