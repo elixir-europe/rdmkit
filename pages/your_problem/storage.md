@@ -15,12 +15,22 @@ Solutions
 Bullet point list of solutions, including tools and resources if applicable
 
 ###Subtitle 2: How to store your data during the course of your project?
-Description
-Short explanation of what this problem is
-Considerations
-(Optional) Things to consider when addressing this problem 
-Solutions
-Bullet point list of solutions, including tools and resources if applicable
+
+Description:
+To ensure that research data are easy to find and accessible as well as the results are prepared to be reproduced and reused data should be stored already from the beginning of a project and should be kept active during the project duration. 
+
+Considerations:
+* Technical considerations and costs (storage space, in-house versions, backups etc.)
+* Security and data protection rules
+* Usage of standard formats, identifiers, ontologies, controlled vocabularies
+* Storage of metadata from the beginning 
+* Storge of all available data of an experiment (raw data, processed results, protocols, methods etc.)
+* Variable access permissions and sharing definitions during the project (private data or intermediate results versus shared or published data)
+
+Solutions: 
+* FAIRDOMHub/SEEK
+* iPODS
+
 
 ###Subtitle 3: Submitting your data to a public repository for publication?
 
