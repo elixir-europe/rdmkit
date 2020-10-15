@@ -42,7 +42,7 @@ The steps to be followed by contributors are detailed below.
   * open a "Pull Request", if you are confident about your contribution. In this case the editors will be assigned which are responsible for the sections you will add page to or change the content.
     {% include image.html file="draft_pullrequest_github.png" inline=true alt="PrDraft pull request on GitHub" %}
 
-7. In the description of you pull request it is possible to link the issue that covers this change by typing a hashtag `#` and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might be discussed beforehand.
+7. In the description of your pull request it is possible to link the issue that covers this change by typing a hashtag `#` and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might be discussed beforehand.
     {% include image.html file="linking_issues_github.png" inline=true alt="Linking issues in a pull request on GitHub" %}
 
 8. If you had changed your mind about something in your Pull Request (PR), when the PR is not yet closed, or if the editor tells you to edit your PR during the review process, you have to:
