@@ -17,15 +17,17 @@ The steps to be followed by contributors are detailed below.
 ### Announce and discuss your proposal through GitHub "issues"
 1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github.
 2. Click on "Issues" in the top menu bar and check existing issues to see if your idea or suggestion is already being addressed.
-  * If yes, add your comments to the existing issue.
-  * If not, create a new issue by clicking on the green "New issue" on the right.
     {% include image.html file="new_issue_github.png" inline=true alt="Open new issue on GitHub." %}
-3. Choose one of the issues template and create a new issue. More information on creating issues can be found [here](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
+2a. If an Issue exists
+   * Add your comments
+   * If you will edit the content, assign yourself to the issue (at the right top)
+2b. If no appropriate issue exists, create a new issue by clicking on the green "New issue" on the right and choose one of the issues templates:
   * Report a bug.
   * Fixing an existing page or add tool/resource
   * Add a new topic as a new page.
   * General Discussion.
-4. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers on "Leave a comment" box and click on the green "comment" button on the right.
+  More information on creating issues can be found [here](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
+3. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers on "Leave a comment" box and click on the green "comment" button on the right.
 
 ### Write your content
 
