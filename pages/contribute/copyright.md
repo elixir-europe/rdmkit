@@ -24,6 +24,6 @@ Some image are in the public domain, like the ones on [Flickr Commons](https://w
 
 If you are using a stock photo that you bought, then please check the image license to make sure that you are able to use it on the RDM Toolkit website. If you are using images provided by your institute, please also check that you can use them on this site.
 
-If you would like to include an image but you don't have the right image, or if you do not have permission to use the image you would like to the contact the RDM Editorial team. You are welcome to create the images yourself, but please follow the site style guide, and bear in mind the image may be modified to better suite the style of the site. The content of the site is published under [Creative Commons 4 license](https://en.wikipedia.org/wiki/Creative_Commons_license).
+If you would like to include an image but you don't have the right image, or if you do not have permission to use the image you would like to the contact the RDM Editorial team (rdm-editors@elixir-europe.org). You are welcome to create the images yourself, but please follow the site style guide, and bear in mind the image may be modified to better suite the style of the site. The content of the site is published under the [Creative Commons 4 license](https://en.wikipedia.org/wiki/Creative_Commons_license).
 
 
