@@ -3,17 +3,19 @@ title: Copyright best practices
 toc: false
 sidebar: contribute
 ---
+
 ## Copyright best practices
 
 The content of this website should be unique, with text and images especially created for the site. The site aims to be authoritative and informative, and not a pastiche of other resources.
 
-###Text
+### Text
 
 Text on this website should either be unique or be properly attributed. If you want to quote from another source, like a website or publication, then enclose the quote within quotation marks, keep the exact words, and link to the resource. Mention the name of the resource to give clear credit, and give the full citation for a publication. Please do not copy the text and tweak the wording slightly. You must express the concept in your own words.
 
 Please do not include long quotations from other sources. 
 
-##Images
+## Images
+
 **It is your responsibility to make sure you have permission to use the images you put on the website.**
 
 The great majority of images on the web are copyrighted. This includes images on social media. Please make sure you have permission to use them before including them on the website, ideally in writing. If you are not sure whether you can use them, assume that you do not have permission, and contact the copyright owner.
