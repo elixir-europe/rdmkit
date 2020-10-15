@@ -25,10 +25,16 @@ To do research on human data you must follow established research ethical guidel
     * more...
   * Outside EU
 
+
 ### Solutions
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
+* DAISY
+* PIA (Data protection impact assessment tool)
+* ADA-M
+* Data Use Ontology (DUO)
+* Trygge ELSI Checklist
+* GA4GH regulatory and ethical toolkit
+* ...
+
 
 ### Related Problems
 (Optional)
@@ -36,7 +42,7 @@ To do research on human data you must follow established research ethical guidel
 * Link to relevant Your Problem page
 
 
-## “Handling” human data during Process and Analyse
+## Processing and Analysing human data
 
 ### Description
 This topic concerns the procedure and technical issues to ensure that personal information is protected.
@@ -50,9 +56,10 @@ This topic concerns the procedure and technical issues to ensure that personal i
 
 
 ### Solutions
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
+* EUPID
+* RD-Connect Genome Phenome Analysis Platform
+* GA4GH data security toolkit
+
 
 ### Related Problems
 (Optional)
@@ -75,9 +82,9 @@ It is good research ethical practice to ensure that data underlying research is 
 * Information security
 
 ### Solutions
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
+* GA4GH regular and ethical toolkit (?)
+
+
 
 ### Related Problems
 (Optional)
