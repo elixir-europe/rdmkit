@@ -21,7 +21,7 @@ You plan to collect plant phenotypic data and you want to ensure that this data 
   * In addition to generic solutions that can work for plant phenotyping, [COPO](https://copo-project.org/) is a data management platform specific for the plant sciences.
   * The ISA-Tools also include a configuration for MIAPPE and can be used both for filling in metadata and for validating.
   
-* Validation of MIAPPE compliance can be done via ISA-Tools (link to ISA-Validator to be added) or upon data deposition in a BrAPI-compliant repository ([Breeding API, BrAPI](https://brapi.org/).
+* Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a BrAPI-compliant repository ([Breeding API, BrAPI](https://brapi.org/).
 
 * Data should be deposited into one of the many repositories that implement BrAPI, as this enables both validation and findability, through the [FAIDARE plant data discovery service](https://urgi.versailles.inrae.fr/faidare/).
 
