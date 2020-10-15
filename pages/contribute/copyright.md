@@ -26,7 +26,7 @@ Please do not copy the text and tweak the wording slightly. If you are not givin
 
 The great majority of images on the web are copyrighted. This includes images on social media, even if they have been reposted or shared. Please make sure you have permission to use them before including them on the website, ideally in writing. If you are not sure whether you can use them, assume that you do not have permission, and contact the copyright owner. 
 
-If you are using an image with a [Creative Commons license](https://en.wikipedia.org/wiki/Creative_Commons_license), remember you still need to attribute the creator and link to the original work.
+If you are using an image with a [Creative Commons license](https://creativecommons.org/licenses/), remember you still need to attribute the creator and link to the original work.
 
 If you are using a stock image or a royalty-free image, check the image license to make sure that you can use it on the RDM Toolkit website. If you are using images provided by your institute or organisation, please also check that you can use them on this site.
 
