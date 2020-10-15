@@ -10,7 +10,7 @@ contributors: [Pinar Alper]
 
 
 I write here on provacy issues and solutions with tools.
-
+I added a figure done by my great break out colleagues.
 
 ### Considerations
 
