@@ -1,4 +1,5 @@
 ---
 title: Copyright
+toc: false
 ---
 
