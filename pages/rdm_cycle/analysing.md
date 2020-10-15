@@ -1,6 +1,7 @@
 ---
 title: Analysing
 keywords:
+contributors: Rob Hooft
 ---
 
 ## What is Data Analysis?
