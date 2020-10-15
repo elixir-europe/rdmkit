@@ -63,4 +63,4 @@ Anyone can [comment on your (draft) Pull Request](https://docs.github.com/en/git
   * Click on “Commit changes”.
 3. When all the requests have been addressed, the editors will mark the conversation as "Resolved" and the proposed changes as "Approved".
 4. You content is ready to be merged and published in the main website.
-5. Editors publish your content.
+5. Editors publish your content. 
