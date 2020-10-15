@@ -9,6 +9,7 @@ contributors: [Pinar Alper, Carole Goble]
 ### Description
 
 Privacy is important in RDM.
+We have added th elist of privacy tools see below.
 
 ### Considerations
 
