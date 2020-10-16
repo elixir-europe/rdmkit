@@ -69,20 +69,20 @@ The public repository will ask you to provide various kinds of information about
 
 List of discipline-specific, community-recognized repositories can be found in the following links:
 
-[ELIXIR Recommended Deposition Databases] (https://elixir-europe.org/services/tag/elixir-deposition-databases)
-[Nature Recommended Data Repositories] (https://www.nature.com/sdata/policies/repositories)
+* [ELIXIR Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
+* [Nature Recommended Data Repositories](https://www.nature.com/sdata/policies/repositories).
 
 #### General Repositories
 List of Generalist repositories if no suitable community resource is available:
 
-* [4TU.Datacentrum](https://data.4tu.nl/info/en/)
-* [Dryad Digital Repository](http://datadryad.org)
-* [Figshare](https://figshare.com)
-* [Harvard Dataverse](https://dataverse.harvard.edu)
-* [Mendeley Data](https://data.mendeley.com)
-* [Open Science Framework](https://osf.io)
-* [Zenodo](https://zenodo.org)
-* [Code Ocean](https://codeocean.com)
+* [4TU.Datacentrum](https://data.4tu.nl/info/en/).
+* [Dryad Digital Repository](http://datadryad.org).
+* [Figshare](https://figshare.com).
+* [Harvard Dataverse](https://dataverse.harvard.edu).
+* [Mendeley Data](https://data.mendeley.com).
+* [Open Science Framework](https://osf.io).
+* [Zenodo](https://zenodo.org).
+* [Code Ocean](https://codeocean.com).
 
 ### Resources
 
