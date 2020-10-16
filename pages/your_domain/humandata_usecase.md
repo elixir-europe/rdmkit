@@ -1,7 +1,7 @@
 ---
 title: Human Data
 keywords: optional
-contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo]
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper]
 search: exclude
 ---
 
@@ -24,14 +24,14 @@ To do research on human data you must follow established research ethical guidel
 * Data protection legislation
   * GDPR
     * [Understanding the GDPR](gdpr)
-    * [Determining the sensitivity of your data](personal_data) - hmmm…
-    * Data Protection Impact Assessment
+    * [Determining the sensitivity of your data](security_and_privacy)
+    * [Data Protection Impact Assessments](gdpr)
   * Outside EU
 
 
 ### Solutions
 * DAISY
-* PIA (Data protection impact assessment tool)
+* PIA (Data protection impact assessment tool), MONARC
 * ADA-M
 * Data Use Ontology (DUO)
 * Trygge ELSI Checklist
