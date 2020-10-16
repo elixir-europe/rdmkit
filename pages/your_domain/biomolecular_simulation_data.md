@@ -4,10 +4,6 @@ keywords: optional
 search: exclude
 ---
 
-## Overview
-
-A brief overview of the domain as a whole and the particular challenges it raises.
-
 
 ## "User Scenario 1 Title"
  
