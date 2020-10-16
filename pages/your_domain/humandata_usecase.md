@@ -1,5 +1,8 @@
 ---
 title: Human Data
+keywords: optional
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo]
+search: exclude
 ---
 
 ## Introduction
@@ -14,15 +17,15 @@ To do research on human data you must follow established research ethical guidel
 
 ### Considerations
 
-* Ethical permits
+* Have you got an **ethical permit** for your research project?
+  * To get an ethical permit you have to apply for an **ethical review** by an **ethical review board**. The legislation that governs this differs between countries. Do seek advice from your research institute.
   * Informed consents
-  * Ethical review
   * International standards (GA4GH, ...)
 * Data protection legislation
   * GDPR
     * [Understanding the GDPR](gdpr)
     * [Determining the sensitivity of your data](personal_data) - hmmm…
-    * more...
+    * Data Protection Impact Assessment
   * Outside EU
 
 
@@ -32,7 +35,7 @@ To do research on human data you must follow established research ethical guidel
 * ADA-M
 * Data Use Ontology (DUO)
 * Trygge ELSI Checklist
-* GA4GH regulatory and ethical toolkit
+* [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
 * ...
 
 
@@ -108,7 +111,7 @@ To make human research data reusable for others, it must be discoverable, stored
 
 ### Solutions
 * (Federated) EGA
-* (Federated)dbGAP
+* dbGAP
 * Beacon
 * ...
 
