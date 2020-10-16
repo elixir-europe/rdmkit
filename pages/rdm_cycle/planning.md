@@ -1,7 +1,7 @@
 ---
 title: Planning
 keywords:
-contributors: Siiri Fuchs, Korbinian Bösl, Minna Ahokas
+contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas]
 ---
 
 ## What is Data Management Planning?
