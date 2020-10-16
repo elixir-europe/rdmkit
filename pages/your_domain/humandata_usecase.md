@@ -25,7 +25,7 @@ To do research on human data you must follow established research ethical guidel
   * GDPR
     * [Understanding the GDPR](gdpr)
     * [Determining the sensitivity of your data](security_and_privacy)
-    * Data Protection Impact Assessments(gdpr)
+    * [Data Protection Impact Assessments](gdpr)
   * Outside EU
 
 
