@@ -50,9 +50,9 @@ Tools:
   name: DMPonline Belgium
   tags:
   - plan
-- description: Data management planning tool
+- description: Data management planning tool tailored for research in Finland.
   link: https://www.dmptuuli.fi/
-  name: DMPTuuli
+  name: DMPTuuli Finland
   tags:
   - plan
 - description: Data Stewardship Wizard
