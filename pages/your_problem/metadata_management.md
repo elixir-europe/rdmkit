@@ -23,6 +23,7 @@ There are multiple standards for different types of data, ranging from generic d
   * [FAIRsharing.org](https://fairsharing.org) at “Standards” and “Collections”.
   * [DCC](https://www.dcc.ac.uk/guidance/standards/metadata/list).
 
+
 ## Tools and resources
 {% include toollist.html tag="metadata" %}
 
