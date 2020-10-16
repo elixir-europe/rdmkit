@@ -20,7 +20,7 @@
             {% endif %}
             <td>{{tool.description}}</td>
             {%- capture tags %}
-        {%- for tag in tool.tags %}{% assign color = allowedtags[tag]["bg-color"] | default: "#fefefe" %}{% assign link = allowedtags[tag]["url"] | default: "#" %}<a class="nohover" href="{{link}}"><span class="label" style="background-color:{{color}};">{{tag}}</span></a> {% endfor %}
+        {%- for tag in tool.tags %}{% assign color = allowedtags[tag]["bg-color"] | default: "#080808" %}{% assign link = allowedtags[tag]["url"] | default: "#" %}<a class="nohover" href="{{link}}"><span class="label" style="background-color:{{color}};">{{tag}}</span></a> {% endfor %}
             {%- endcapture %}
             <td>{{tags}}</td>
             <td style="text-align: center; vertical-align: middle;">
