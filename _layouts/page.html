@@ -11,9 +11,6 @@ layout: default
         {%- endif %}
     </h1>
 </div>
-{%- if page.contributors %}
-<div class="contributors-line">By: {%- include contributor-badge-list.html contributors=page.contributors %}</div>
-{%- endif %}
 <div class="post-content">
     {%- if page.summary %}
     <div class="summary">{{page.summary}}</div>
@@ -35,4 +32,7 @@ layout: default
     </div>
     {%- endif %}
 </div>
+{%- if page.contributors %}
+<div class="contributors-line">By: {%- include contributor-badge-list.html contributors=page.contributors %}</div>
+{%- endif %}
 <!-- {%- include page_ending.html %} -->
