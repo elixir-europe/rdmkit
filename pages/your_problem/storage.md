@@ -1,7 +1,7 @@
 ---
 title: Storage
 keywords:
-contributors:[Ulrike Wittig, Elin Kronander, Munazah Andrabi]
+contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi]
 tags: [research_it] 
 ---
 
