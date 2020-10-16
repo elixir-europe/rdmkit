@@ -32,19 +32,22 @@ a storage solution.
 
 ## How to store your data during the course of your project?
 
-To ensure that research data are easy to find and accessible as well as the results are prepared to be reproduced and reused data should be stored already from the beginning of a project and should be kept active during the project duration. 
+To ensure that research data are easy to find and accessible as well as the results are prepared to be reproducable and reusable data should be stored already from the beginning of a project and should be kept active during the project duration. For collaborative projects a central storage place for intermediate and final results as well as the sharing of research data between the collaboration partners is essential.  
 
 ### Considerations
 * Technical considerations and costs (storage space, in-house versions, backups etc.)
-* Security and data protection rules
+* Security and data protection rules [Security & Privacy](security_and_privacy)
 * Usage of standard formats, identifiers, ontologies, controlled vocabularies
-* Storage of metadata from the beginning 
-* Storge of all available data of an experiment (raw data, processed results, protocols, methods etc.)
+* Storage of metadata from the beginning [Metadata Management](metadata_management)
+* Storage and interlinkage of all available data of an experiment/project (raw data, processed results, protocols, methods etc.)
 * Variable access permissions and sharing definitions during the project (private data or intermediate results versus shared or published data)
 
 ### Solutions 
-* FAIRDOMHub/SEEK
-* iPODS
+* [SEEK](https://seek4science.org/)/ public SEEK instance [FAIRDOMHub](https://fairdomhub.org)
+* [iRODS](https://irods.org/)
+* [e!DAL](https://edal.ipk-gatersleben.de/)
+* [Research Data Management Platform (RDMP)](https://www.dundee.ac.uk/hic/researchdatamanagementplatform/)
+
 
 
 ## Submitting your data to a public repository.
