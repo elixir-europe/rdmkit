@@ -1,7 +1,7 @@
 ---
 title: Metadata Management
 keywords:
-contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund]
+contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos]
 ---
 
 ## How to find appropriate standard metadata for datasets or samples?
@@ -22,7 +22,6 @@ There are multiple standards for different types of data, ranging from generic d
   * [RDA](https://rd-alliance.github.io/metadata-directory/standards/).
   * [FAIRsharing.org](https://fairsharing.org) at “Standards” and “Collections”.
   * [DCC](https://www.dcc.ac.uk/guidance/standards/metadata/list).
-
 
 ## Tools and resources
 {% include toollist.html tag="metadata" %}
