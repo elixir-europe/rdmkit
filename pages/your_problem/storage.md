@@ -114,5 +114,5 @@ Bullet point list of solutions, including tools and resources if applicable
 Bullet point list of other pages in this website that are connected to this lifecycle stage
 
 ## External links
-* [Wellcome Open Research] (https://wellcomeopenresearch.org/for-authors/data-guidelines).
+* [Wellcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines).
 
