@@ -22,6 +22,8 @@ entries:
       url: /marine_metagenomics_usecase.html
     - title: Human Data
       url: /humandata_usecase.html
+    - title: Intrinsically disordered proteins
+      url: /intrinsically_disordered_proteins.html
   - title: Your problem
     folderitems:
     - title: Storage
