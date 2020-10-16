@@ -11,6 +11,7 @@ Many datasets could exist that you can re-use for your project. Even if you know
 It is not because we can generate massive amounts of data that we always need to do so. Creating data with public money is bringing with it the responsibility to treat those data well and (if potentially useful) make them available for re-use by others. And the circle is only complete if such data is actually re-used.
 
 ## What should be considered for Data Collection?
+
 * You should consider whether there are recommended repositories for the type of data you are searching for
 * You should consider whether the type of data you are searching for is straightforward to reuse (e.g. genome data) or requires extensive metadata to interpret and reuse (e.g. gene expression experiment data)
 * You should keep in mind whether the repositories provide sufficient metadata to enable data reuse
