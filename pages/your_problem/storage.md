@@ -4,30 +4,39 @@ keywords:
 tags: [research_it] 
 ---
 
-## What kind of data do you wish to store?
+## What storage solutions are available?
 
-There are several different types of storage solutions and depending on
-what type of data you wish to store, some might be more suitable than others.
-The timeline and purpose of the storage is also deciding factors for choosing
+There are several different types of storage solutions, for example 
+* Local storage on your harddrive or local servers
+* High Performance Computer clusters
+* Secure Storage for sensitive data 
+* Public Repositories
+* Cloud Service Solutions
+
+Depending on what type of data you wish to store, some might be more suitable than others.
+The timeline and purpose of the storage are also deciding factors for choosing
 a storage solution.
 
 ### Considerations about the data
-* Is your data sensitive?
 * What volume of data do you need a storage solution for?
-* Who will need to access the data? (Only yourself, internal or external collaborators)
-* How often will the data be accessed? (Is it being actively worked on or kept as is?)
+* Who will need to access the data, only yourself, internal or external collaborators?
+* How often will the data be accessed, is it being actively worked on or mainly stored in the current version?
 * Do you need the storage solution to be compatible with certain analysis tools?
+* Is your data sensitive? 
 
-### Considerations about storage solution
+### Considerations about the type of storage solution
 * What are the backup procedures for this storage solution?
 * What are the costs associated with this storage solution?
-* How sustainable is this storage solution? (How is it maintained?)
+* How sustainable is this storage solution, ie. how is it maintained and funded?
 
 ### Solutions
-* Local Storage
-* Cloud services
-* Computer Clusters
-* Possible Providers: Host Institution, National Infrastructure, EOSC, public archives, commercial providers
+To find out what storage solutions are available to you and which one fits your needs, you can reach out to the IT-department of your host institution or a National Infrastructure for your domain or specialised on computing services if those exists in your country.
+
+For active data, it is important that it is easily accessible for everyone that needs to work with it. See recommendations on how to store your data during the course of your project below.
+For sensitive data, consider the security and privacy guidelines.
+For storing your data in a way for others to find and access it, consider a public repository. See below.
+For Big data, local storage is often not suitable.
+
 
 
 ## How to store your data during the course of your project?
@@ -36,14 +45,14 @@ To ensure that research data are easy to find and accessible as well as the resu
 
 ### Considerations
 * Technical considerations and costs (storage space, in-house versions, backups etc.)
-* Security and data protection rules [Security & Privacy](security_and_privacy)
+* Security and data protection rules (see [Security & Privacy](security_and_privacy))
 * Usage of standard formats, identifiers, ontologies, controlled vocabularies
-* Storage of metadata from the beginning [Metadata Management](metadata_management)
+* Storage of metadata from the beginning (see [Metadata Management](metadata_management))
 * Storage and interlinkage of all available data of an experiment/project (raw data, processed results, protocols, methods etc.)
 * Variable access permissions and sharing definitions during the project (private data or intermediate results versus shared or published data)
 
 ### Solutions 
-* [SEEK](https://seek4science.org/)/ public SEEK instance [FAIRDOMHub](https://fairdomhub.org)
+* [SEEK](https://seek4science.org/) - public SEEK instance [FAIRDOMHub](https://fairdomhub.org)
 * [iRODS](https://irods.org/)
 * [e!DAL](https://edal.ipk-gatersleben.de/)
 * [Research Data Management Platform (RDMP)](https://www.dundee.ac.uk/hic/researchdatamanagementplatform/)
