@@ -1,7 +1,7 @@
 ---
 title: Re-using
 keywords:
-contributors:
+contributors: [korbinib, DanFaria]
 ---
 
 ## What is Data Re-use?
