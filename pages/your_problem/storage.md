@@ -1,5 +1,5 @@
 ---
-title: Storage of research data
+title: Storage
 keywords:
 tags: [research_it] 
 ---
