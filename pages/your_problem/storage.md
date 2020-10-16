@@ -1,6 +1,7 @@
 ---
 title: Storage
 keywords:
+contributors: Ulrike Wittig, Elin Kronander, Munazah Andrabi
 tags: [research_it] 
 ---
 
@@ -72,7 +73,7 @@ The public repository will ask you to provide various kinds of information about
   * Does your data contains confidential/restricted information?
   * Do you have the rights to share the data via the repository?
   * Do you have the rights or permissions to store the data? 
-  * Is your data compliant with the data sharing policy of the journal 
+  * Is your data compliant with the data sharing policy of the journal?
   * Does your data follows the FAIR Data Principles?
 
 ### Solutions
@@ -113,5 +114,5 @@ Bullet point list of solutions, including tools and resources if applicable
 Bullet point list of other pages in this website that are connected to this lifecycle stage
 
 ## External links
-https://wellcomeopenresearch.org/for-authors/data-guidelines
+* [Wellcome Open Research] (https://wellcomeopenresearch.org/for-authors/data-guidelines).
 
