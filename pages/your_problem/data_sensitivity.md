@@ -1,5 +1,5 @@
 ---
-title: Data Classification
+title: Data Sensitivity
 keywords: human data
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper]
 ---
