@@ -18,7 +18,7 @@ Data Analysis is the main reason for a data intensive project. It actually works
 
 ## What tools and resources are available for Data Analysis?
 
-{% include toollist.html tag="analysing" %}
+{% include toollist.html tag="analyse" %}
 
 ## Where can training materials and events about Data Analysis be found?
 
