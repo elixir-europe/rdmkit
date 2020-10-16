@@ -1,7 +1,7 @@
 ---
 title: Planning
 keywords:
-contributors:
+contributors: Siiri Fuchs, Korbinian Bösl, Minna Ahokas
 ---
 
 ## What is Data Management Planning?
@@ -17,8 +17,8 @@ Data management planning
 * helps to plan and budget necessary resources and equipment
 * facilitates to identify responsibilities and roles of project participants involved
 * helps you to identify data handling related issues before they arise
-* is often a requirement of research organisation's and funders.
 * enables efficient preservation, sharing and re-use
+* is often a requirement of research organisation's and funders
 
 
 ## What should be considered for Data Management Planning?
