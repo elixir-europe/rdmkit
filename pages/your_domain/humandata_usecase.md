@@ -1,5 +1,8 @@
 ---
 title: Human Data
+keywords: optional
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo]
+search: exclude
 ---
 
 ## Introduction
@@ -108,7 +111,7 @@ To make human research data reusable for others, it must be discoverable, stored
 
 ### Solutions
 * (Federated) EGA
-* (Federated)dbGAP
+* dbGAP
 * Beacon
 * ...
 
