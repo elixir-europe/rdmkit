@@ -5,21 +5,26 @@ keywords:
 
 ## What is preserving?
 
-Preservation refers to reliable preservation of digital information for several decades or centuries. Preservation of digital information requires special data repositories and active maintenance of data.
+Preservation refers to reliable preservation of digital information for several decades or centuries. Hardware, software and file formats get outdated, and the main goal of preservation is to avoid data loss and enable reuse of valuable data also in the future.
+
+Preservation of digital information requires planning, policies, resources (time, funds, people) as well as the right technology to ensure that the data stays functional and it can be accessed. Hence, special long term data repositories should be used for digital preservation, where the data is actively maintained and information integrity is monitored. 
 
 
 ## Why is preserving is important?
 
-Data that has significant value should be preserved for long term. 
+Data that has significant value for example to an organization, nationally or globally should be preserved for long term. 
 
+Digital data is dependent on technology making it on great risk to be lost if not preserved correctly. 
 
 
 ## What should be considered for preserving data?
 
-text..
+When preserving digital data
 
-* Self-explanatory metadata
-* Information about provenance
+* ensure well described and self-explanatory metadata
+* data should be well organized 
+* include information about provenance
+* x
 * 
 
 
@@ -29,7 +34,7 @@ text..
 
 ## What tools and resources are available for preserving
 
-tool list
+{% include toollist.html tag="preserve" %}
 
 ## Where can training materials and events about preserving be found?
 
@@ -37,5 +42,9 @@ tool list
 
 * [Metadata management and documentation](metadata_management)
 * Licences
+* Data quality
+* PIDs
+* Managing files and file naming
+* Checksums
 
 ## External links
