@@ -24,11 +24,10 @@ a storage solution.
 * How sustainable is this storage solution? (How is it maintained?)
 
 ### Solutions
-Local Storage
-Cloud services
-Computer Clusters
-Possible Providers: Host Institution, National Infrastructure, EOSC,
-public archives, commercial providers
+* Local Storage
+* Cloud services
+* Computer Clusters
+* Possible Providers: Host Institution, National Infrastructure, EOSC, public archives, commercial providers
 
 
 ## How to store your data during the course of your project?
@@ -63,7 +62,6 @@ Once you deciding to deposit your data to a public repository you will be asked 
   Some form of confidential/restricted information 
   Do you have the rights to share the data via the Repository
   Rights or permission to store the data 
-
 
 ### General repositories
 4TU.Datacentrum
