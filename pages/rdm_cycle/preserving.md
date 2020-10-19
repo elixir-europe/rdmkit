@@ -1,7 +1,7 @@
 ---
 title: Preserving
 keywords:
-contributors: [siirif, korbinib, achasapi]
+contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi]
 ---
 
 ## What is preserving?
