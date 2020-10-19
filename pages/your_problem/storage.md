@@ -53,12 +53,11 @@ To ensure that research data are easy to find and accessible as well as the resu
 * Variable access permissions and sharing definitions during the project (private data or intermediate results versus shared or published data)
 
 ### Solutions 
+
 * [SEEK](https://seek4science.org/) - public SEEK instance [FAIRDOMHub](https://fairdomhub.org)
 * [iRODS](https://irods.org/)
 * [e!DAL](https://edal.ipk-gatersleben.de/)
 * [Research Data Management Platform (RDMP)](https://www.dundee.ac.uk/hic/researchdatamanagementplatform/)
-
-
 
 ## Submitting your data to a public repository.
 
@@ -115,4 +114,3 @@ Bullet point list of other pages in this website that are connected to this life
 
 ## External links
 * [Wellcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines).
-
