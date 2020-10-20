@@ -31,8 +31,9 @@ The steps to be followed by contributors are detailed below.
   * Add a new topic as a new page.
   * General Discussion.
 4. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers on "Leave a comment" box and click on the green "comment" button on the right.
+5. You can always find back your opened issue in the [issue section](https://github.com/elixir-europe/rdm-toolkit/issues) of our Github repo.
 
-### Write your content
+### Write your content and make a pull request
 
 1. When you and the editors have agreed on the type of contribution, you can go to the page you want to edit on the website and click on "Edit me" pencil icon :pencil:, shown next to the page title. OR if you were looking to add new content and require a new page,the editors will provide you the link to the page via comments in the issue you created. The page will come with a predefined template based on the kind of content you want to contribute.
 2. The "Edit me" pencil icon will take you to the GitHub repository where you again click on the pencil icon, shown on the right and start editing. 
@@ -50,10 +51,10 @@ The steps to be followed by contributors are detailed below.
 7. In the description of your pull request it is possible to link the issue that covers this change by typing a hashtag `#` and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might be discussed beforehand.
     {% include image.html file="linking_issues_github.png" inline=true alt="Linking issues in a pull request on GitHub" %}
 
-8. If you had changed your mind about something in your Pull Request (PR), when the PR is not yet closed, or if the editor tells you to edit your PR during the review process, you have to:
-  * Go to the [RDM toolkit repo](https://elixir-europe.github.io/rdm-toolkit/) on Github.
-  * Click on the “Pull request” button in the top menu bar.
-  * Find your open PR and click on it.
+8. You can always find back your pull request in the [pull request section](https://github.com/elixir-europe/rdm-toolkit/pulls) of our Github repo.
+
+9. If you had changed your mind about something in your Pull Request (PR), when the PR is not yet closed, or if the editor tells you to edit your PR during the review process, you have to:
+  * Go to your pull request
   * Click on "Files changed" in the top menu bar.
       {% include image.html file="files_changed_github.png" inline=true alt="Files changed tab on GitHub" %}
   * Click on the icon with 3 dots "..." of the file you  want to edit and then click on "Edit file".
@@ -64,16 +65,12 @@ The steps to be followed by contributors are detailed below.
 {% include note.html content="Anyone can [comment on your issue or pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request) and you can reply." %}
 
 ### Request a review
-1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github.
-2. Click on the “Pull request” button in the top menu bar.
-3. Find your open PR and click on "[Ready for review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review)". Editors will be notified and they will check your changes.
+If you opened a normal pull request, this is already covered. Editors that are responsible for the sections you make changes to will be assigned as reviewer automatically and they will check your changes. If your PR is still in draft, click on "Ready for review". More information about draft pull requests can be found in the [Github documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review).
 
 ### Address editors' comments
-1. When editors add [comments](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request) or [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request) of your PR, you will be notified.
+1. When editors add comments or add a review of your PR, you will be notified.
 2. You need to address editors' comments and requests by editing your PR as in step 7 (see above).
-  * Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github.
-  * Click on the “Pull request” button in the top menu bar.
-  * Find your open PR and click on it.
+  * Go to your pull request
   * Click on "Files changed" in the top menu bar.
       {% include image.html file="files_changed_github.png" inline=true alt="Files changed tab on GitHub" %}
   * Click on the icon with 3 dots "..." of the file you  want to edit and then click on "Edit file".

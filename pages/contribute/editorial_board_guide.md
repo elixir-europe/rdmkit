@@ -73,6 +73,10 @@ With each PR or merge to the master, some checks are done using GitHub actions. 
   * Discuss who is going to be responsible for each issue with other editors and reviewers (via issue comments or other communication channels).
   * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
   * When a Pull Request (PR) or a draft PR related to an issue is created, link the PR to the issue.
+  
+More information about these topics can be found in the Github documentation:
+- [commenting on PRs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
+- [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
 ## Review pull requests
 
