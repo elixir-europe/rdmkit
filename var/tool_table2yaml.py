@@ -4,7 +4,7 @@ import yaml
 import re
 import unicodedata
 
-table_path = "_data/tool_and_resource_list.csv"
+table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
 main_dict_key = "Tools"
 allowed_tags_yaml = "_data/tags.yml"
