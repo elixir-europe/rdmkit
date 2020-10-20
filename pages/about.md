@@ -19,10 +19,12 @@ At the heart of FAIR Science lies good data management practice. This is increas
 The Toolkit was developed with funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing contents for the Toolkit. 
 
 ## How to cite the RDM Toolkit
-ELIXIR (2020) Research Data Management Toolkit. A deliverable from the ELIXIR-CONVERGE project. URL: https://rdm.elixir-europe.org
-
+ELIXIR (2020) Research Data Management Toolkit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: https://rdm.elixir-europe.org
 
 The ELIXIR Data Management toolkit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 Software are made available under an [MIT license](https://opensource.org/licenses/mit-license.html).
 For full details on licensing, please visit https://github.com/elixir-europe/rdm-toolkit/blob/master/LICENSE
+
+## Acknowledgements
+The Toolkit was developed with funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing contents for the Toolkit. 
