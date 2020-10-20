@@ -36,6 +36,10 @@ entries:
       url: /compliance_monitoring_and_measurement.html
     - title: Other
       url: /other_functional_areas.html
+  - title: Assemblies
+    folderitems:
+    - title: Assembly example
+      url: /assembly_example.html
   - title: All tools and resources
     url: /all_tools_and_resources.html
     hr: True
