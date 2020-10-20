@@ -31,3 +31,9 @@ standard:
   bg-color: "#CD1B6C"
 research_it:
   url: research_it.html
+metadata:
+  url: metadata_management.html
+  bg-color: "#528681"
+human data:
+  url: humandata_usecase.html
+  bg-color: "#526086"

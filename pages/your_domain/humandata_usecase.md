@@ -2,7 +2,6 @@
 title: Human Data
 keywords: optional
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper]
-search: exclude
 ---
 
 ## Introduction
@@ -22,32 +21,34 @@ To do research on human data you must follow established research ethical guidel
   * Informed consents
   * International standards (GA4GH, ...)
 * Data protection legislation
-  * GDPR
+  * EU GDPR
     * [Understanding the GDPR](gdpr)
-    * [Determining the sensitivity of your data](security_and_privacy)
-    * [Data Protection Impact Assessments](gdpr)
-  * Outside EU
+    * [Determining the sensitivity of your data](data_sensitivity)
+    * Data Protection Impact Assessments
+  * Outside EU 
+    * [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf)
 
 
 ### Solutions
-* DAISY
-* PIA (Data protection impact assessment tool), MONARC
-* ADA-M
-* Data Use Ontology (DUO)
-* Trygge ELSI Checklist
-* [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
-* ...
+  * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects. 
+  * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements 
+  * PIA, MONARC (Data protection impact assessment tools)
+  * ADA-M 
+  * Data Use Ontology (DUO)
+  * Informed Consent Ontology (ICO)
+  * Trygge ELSI Checklist
+  * [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
+  * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
+  * [BBMRI-ERIC's Ethical Legal Societal Issues (ELSI) Knowledge Base](http://www.bbmri-eric.eu/elsi-knowledgebase) contains a glossary, agreement templates and guidance. 
 
 
-### Related Problems
-(Optional)
-* Link to relevant Your Problem page
-* Link to relevant Your Problem page
+{% include toollist.html tag="human data" %}
 
 
 ## Processing and Analysing human data
 
 ### Description
+
 This topic concerns the procedure and technical issues to ensure that personal information is protected.
 
 ### Considerations
@@ -59,16 +60,12 @@ This topic concerns the procedure and technical issues to ensure that personal i
 
 
 ### Solutions
+
 * EUPID
 * RD-Connect Genome Phenome Analysis Platform
 * GA4GH data security toolkit
 
-
-### Related Problems
-(Optional)
-* Link to relevant Your Problem page
-* Link to relevant Your Problem page
-
+{% include toollist.html tag="human data" %}
 
 ## Preserving human research data
 
@@ -88,13 +85,6 @@ It is good research ethical practice to ensure that data underlying research is 
 * GA4GH regular and ethical toolkit (?)
 
 
-
-### Related Problems
-(Optional)
-* Link to relevant Your Problem page
-* Link to relevant Your Problem page
-
-
 ## Sharing & Reusing
 
 ### Description
@@ -102,28 +92,29 @@ To make human research data reusable for others, it must be discoverable, stored
   
 ### Considerations
 
-* Research collaborations across borders
-* Depositing data in controlled access repositories
+* Research collaborations across borders: <br/>
+In the context of the GDPR and its country-specific implementations, the re-usability of human-subject data requires extra effort from data users as well as data providers. 
+The ELIXIR RDM Toolkit offers help here with a use case demonstrator on **"Federated Access to Human Data"**. Its goals are:
+  * identify key considerations for the responsible sharing of human genome-phenome data,
+  * showcase a blueprint architecture for federated access to data, which needs stay within national borders,
+  * demonstrate how ELIXIR RDM toolkit components can be combined to implement federated access.
+                                          
+
+* Sharing data via controlled-access: <br/>
+Sensitive human data often carries restrictions to its use and it would need to be shared in a manner that obeys such restrictions. This type of sharing is called controlled-access, where researchers, who typically were involved in the primary collection of data to act as controllers foreseeing the data’s careful dissemination in a manner that honours data’s use conditions. The ELIXIR RDM Toolkit also provides a use case on the **"Re-use of Sensitive Human Data"**, which focuses on the responsibilities of data providers in precise documentation of use restrictions and the mechanisms that can assist data users to matching their requests for use of data against the data’s use restrictions.
+
 * Ethical approvals and Informed consents
 * Locating tools and platforms suited to handle human data
 
-* 
 
 ### Solutions
 * (Federated) EGA
 * dbGAP
 * Beacon
-* ...
 
-### Related Problems
-(Optional)
-* Link to relevant Your Problem page
-* Link to relevant Your Problem page
+
 
   
 
-## External Links
-(Optional)
-* Bullet point list of external links to things that aren't included in any of the sections above
 
 

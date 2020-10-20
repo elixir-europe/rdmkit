@@ -4,7 +4,7 @@ toc: false
 sidebar: contribute
 ---
 
-This website aims to be unique and authoritative. The text and images should be created especially for the site, and not derived from other resources.
+This website aims to be unique and authoritative, but do feel free to include quotes and images from other resources if they add value to the page. Please follow the guidelines below if you do so and respect copyright. 
 
 ## Quoting from other resources
 
@@ -16,7 +16,7 @@ If you do need to quote from another resource, like a website or publication:
  - Give clear credit by naming the author (if known) and the resource
  - Give the full citation for a publication. 
  
-Please do not copy the text and tweak the wording slightly. If you are not giving the exact quote, then you must express the concept in your own words. Avoid using long quotations from other resources. Again, we aim to make the content on this site unique.
+Please do not copy the text and tweak the wording slightly. If you are not giving the exact quote, then you must express the concept in your own words. Avoid using long quotations from other resources. 
 
 ## Images
 
