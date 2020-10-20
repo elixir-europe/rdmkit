@@ -6,7 +6,7 @@ summary: How to add a tool or resource to RDM Toolkit
 
 ## Way of working
 
-The tools or resources you will find on pages are a filtered set from a bigger list. This filtering is done using tags. The general tool/resource list is based on the [csv file](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tool_and_resource_list.csv) in the `_data` directory of the RDM Toolkit repository. If changes to this file are pushed to github, a Github Bot will generate a Pull Request (PR) with the changes of the csv file applied to the main data file of the website (a yaml file).
+The tools or resources you will find on pages are a filtered set from a bigger list. This filtering is done using tags. The general tool/resource list is based on the [csv file](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/main_tool_and_resource_list.csv) in the `_data` directory of the RDM Toolkit repository. If changes to this file are pushed to Github, a Github Bot will generate a Pull Request (PR) with the changes of the csv file applied to the main data file of the website (a yaml file).
 
 ## The excel table
 
