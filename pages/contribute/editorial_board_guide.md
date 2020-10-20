@@ -10,6 +10,11 @@ sidebar: contribute
 
 As an editor, try to work as much as possible on a different branch than the master branch. This can be on the elixir-europe rdm-toolkit repo or your own fork. Open a pull request if you want to merge your changes with the master branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the master branch.
 
+### The google doc way of contributing
+This process is sketched below.
+
+{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true  %}
+
 ### Overview of the file structure in GitHub
 
 The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages) directory.
