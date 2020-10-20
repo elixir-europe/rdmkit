@@ -1,3 +1,5 @@
+# Contributing to Elixir RDM-toolkit
+
 Thank you very much for taking the time to contribute! 
 
 ## Code of conduct 
@@ -17,4 +19,3 @@ Bugs or remarks are tracked as GitHub issues. You can create an issue and choose
 ### Adding a new page or changing an existing page
 
 See our [How to contribute page](https://rdm.elixir-europe.org/how_to_contribute.html).
-
