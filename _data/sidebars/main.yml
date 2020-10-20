@@ -26,8 +26,6 @@ entries:
     folderitems:
     - title: Storage
       url: /storage.html
-    - title: Security & privacy
-      url: /security_and_privacy.html
     - title: Data transfer
       url: /data_transfer.html
     - title: Metadata management
