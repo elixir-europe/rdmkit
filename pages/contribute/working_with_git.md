@@ -5,7 +5,7 @@ toc: false
 ---
 
 
-## Forking - branching - chnaging - pushing - PR
+## Forking - branching - changing - pushing - PR
 
 This is a general workflow in how to work on your own fork (copy) of the rdm-toolkit repo and request changes through a pull request:
 NOTE: if you already did these steps in the past, start from the `git fetch upstream` command. 
