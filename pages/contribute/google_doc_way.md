@@ -7,10 +7,7 @@ toc: false
 
 ## Contribution process
 
-The toolkit is hosted on Github. We understand, however, that many people may be unfamiliar or inexperienced with git. We therefore provide the Google doc option for contributing. This process is sketched below.
-
-{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true  %}
-
+The toolkit is hosted on Github. We understand, however, that many people may be unfamiliar or inexperienced with git. We therefore provide the Google doc option for contributing.
 
 The steps to be followed are as follows:
 * Email the editorial team at [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org) to propose a new page or a new section in an existing page. Make sure you keep other contributors in the CC of your email.

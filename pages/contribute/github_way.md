@@ -3,10 +3,15 @@ title: Github way
 sidebar: contribute
 ---
 
+## General
+People that are familiar with Git and want to contribute can always suggest changes by opening a PR without going through the steps below. The editorial board will than review your PR and give feedback where necessary. Always check the issues or existing pull requests wether other people already had the same idea as you. Making an issue before you make a PR can be seen as a claim that you are going to work in this. For more information on how to fork and work on a local copy, please read our [working with Git](working_with_git) page. 
+
+The guide below is focused on making it easy for the contributor by providing a page to work on through the Github interface and being guided/steered by the editorial board in the process.
+
 
 ## Prerequisites
 1. Make a [GitHub account](https://github.com/join).
-
+  
 ## Contribution process
 The process of contribution via GitHub is sketched below. 
 
