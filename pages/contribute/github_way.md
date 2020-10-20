@@ -4,15 +4,18 @@ sidebar: contribute
 ---
 
 ## General
+
 People that are familiar with Git and want to contribute can always suggest changes by opening a PR without going through the steps below. The editorial board will than review your PR and give feedback where necessary. Always check the issues or existing pull requests wether other people already had the same idea as you. Making an issue before you make a PR can be seen as a claim that you are going to work in this. For more information on how to fork and work on a local copy, please read our [working with Git](working_with_git) page. 
 
 The guide below is focused on making it easy for the contributor by providing a page to work on through the Github interface and being guided/steered by the editorial board in the process.
 
 
 ## Prerequisites
+
 1. Make a [GitHub account](https://github.com/join).
   
 ## Contribution process
+
 The process of contribution via GitHub is sketched below. 
 
 {% include image.html file="github_way_flow.svg" alt="Process of contributing via GitHub" click=true %}
@@ -25,7 +28,7 @@ The steps to be followed by contributors are detailed below.
   * If yes, add your comments to the existing issue.
   * If not, create a new issue by clicking on the green "New issue" on the right.
     {% include image.html file="new_issue_github.png" inline=true alt="Open new issue on GitHub." %}
-3. Choose one of the issues template and create a new issue. More information on creating issues can be found [here](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
+3. Choose one of the issues template and create a new issue. More information on creating issues can be found in the [Github documentation](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
   * Report a bug.
   * Fixing an existing page or add tool/resource
   * Add a new topic as a new page.
@@ -65,9 +68,11 @@ The steps to be followed by contributors are detailed below.
 {% include note.html content="Anyone can [comment on your issue or pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request) and you can reply." %}
 
 ### Request a review
+
 If you opened a normal pull request, this is already covered. Editors that are responsible for the sections you make changes to will be assigned as reviewer automatically and they will check your changes. If your PR is still in draft, click on "Ready for review". More information about draft pull requests can be found in the [Github documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/changing-the-stage-of-a-pull-request#marking-a-pull-request-as-ready-for-review).
 
 ### Address editors' comments
+
 1. When editors add comments or add a review of your PR, you will be notified.
 2. You need to address editors' comments and requests by editing your PR as in step 7 (see above).
   * Go to your pull request
