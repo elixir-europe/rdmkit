@@ -23,7 +23,7 @@ The process of contribution via GitHub is sketched below.
 The steps to be followed by contributors are detailed below.
 
 ### Announce and discuss your proposal through GitHub "issues"
-1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github.
+1. Go to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github .
 2. Click on "Issues" in the top menu bar and check existing issues to see if your idea or suggestion is already being addressed.
   * If yes, add your comments to the existing issue.
   * If not, create a new issue by clicking on the green "New issue" on the right.
@@ -36,6 +36,8 @@ The steps to be followed by contributors are detailed below.
 4. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers on "Leave a comment" box and click on the green "comment" button on the right.
 5. You can always find back your opened issue in the [issue section](https://github.com/elixir-europe/rdm-toolkit/issues) of our Github repo.
 
+{% include tip.html content="You can also get to the [RDM toolkit repo](https://github.com/elixir-europe/rdm-toolkit) on Github using the 'GitHub' link in the header of this site" %}
+
 ### Write your content and make a pull request
 
 1. When you and the editors have agreed on the type of contribution, you can go to the page you want to edit on the website and click on "Edit me" pencil icon :pencil:, shown next to the page title. OR if you were looking to add new content and require a new page,the editors will provide you the link to the page via comments in the issue you created. The page will come with a predefined template based on the kind of content you want to contribute.
@@ -46,9 +48,12 @@ The steps to be followed by contributors are detailed below.
 5. Click on “Propose changes”. 
     {% include image.html file="propose_changes_github.png" inline=true alt="Propose changes on GitHub" %}
 6. You are now redirected on the Pull Request (PR) page. By clicking on the Create Pull Request green button you are redirected to Open Pull Request page and from there you can choose to
-  * open a "[Draft Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests)”, if you are not yet done writing. Later on you can always click on "Ready for review" to switch towards a normal pull request.
-              **OR**
-  * open a "Pull Request", if you are confident about your contribution. In this case the editors will be assigned which are responsible for the sections you will add page to or change the content.
+  
+     * open a "Draft Pull Request", if you are not yet done writing. Later on you can always click on "Ready for review" to switch towards a normal pull request. More info about draft pull request can be found in the [Github documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests)
+  
+      **OR**
+  
+     * open a "Pull Request", if you are confident about your contribution. In this case the editors will be assigned which are responsible for the sections you will add page to or change the content.
     {% include image.html file="draft_pullrequest_github.png" inline=true alt="PrDraft pull request on GitHub" %}
 
 7. In the description of your pull request it is possible to link the issue that covers this change by typing a hashtag `#` and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might be discussed beforehand.
@@ -65,7 +70,7 @@ The steps to be followed by contributors are detailed below.
   * Make your changes.
   * Click on “Commit changes”.
 
-{% include note.html content="Anyone can [comment on your issue or pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request) and you can reply." %}
+{% include note.html content="Anyone can comment on your issue or pull request and you can reply. For more information on this, please visit the [Github docuemntation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)" %}
 
 ### Request a review
 
