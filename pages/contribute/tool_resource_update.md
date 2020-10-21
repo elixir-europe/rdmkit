@@ -15,8 +15,8 @@ The table consists of 5 columns:
 - **name**: the name of the tool or resource
 - **link**: URL to the main page of the tool or resource, make sure to let the URL start with https://
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
-- **registry**: 2 registries are supported: [Bio.tools](https://bio.tools) and [FAIRsharing.org](https://fairsharing.org/) 
-- **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( The `tags.yaml` file [here](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml) )
+- **registry**: 2 registries are supported: [Bio.tools](https://bio.tools) and [FAIRsharing.org](https://fairsharing.org/). The keywords you can use respectivly are: biotools and fairsharing specifying the id with a colon). List multiple registries using a comma `, ` between the keywords. 
+- **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( The `tags.yaml` file [here](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml) ). List multiple tags by using a comma `, ` between them.
 
 | name   	| link                                     	| description                                                                                         	| registry           	| tags             	|
 |--------	|------------------------------------------	|-----------------------------------------------------------------------------------------------------	|--------------------	|------------------	|
