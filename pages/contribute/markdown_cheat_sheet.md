@@ -336,7 +336,7 @@ Giving:
 
 Make sure the tag exists in the `tool_and_resource_list.yml` file + in the `tags.yml`.
 
-Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
+Tools and resources can be added by manipulating the main_tool_and_resource_list.csv file in the `_data` repository. For more info about how to add a tool or resource please visit [our guide](tool_resource_update).
 
 ## Enforce space between two lines
 
