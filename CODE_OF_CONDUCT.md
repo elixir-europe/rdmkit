@@ -43,11 +43,11 @@ All participants in our in-person events and online communications are expected 
 To make clear what is expected, everyone participating in activities associated with the ELIXIR RDM Toolkit is required to conform to this Code of Conduct.
 This Code of Conduct applies to all spaces managed by the ELIXIR RDM Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
 
-The ELIXIR Code of Conduct Oversight Group are responsible for enforcing the Code of Conduct.
+The ELIXIR Code of Conduct Oversight Committee are responsible for enforcing the Code of Conduct.
 They can be contacted by emailing [coc.oversight@elixir-europe.org](mailto:coc.oversight@elixir-europe.org). 
 You may also contact the Toolkit Code of Conduct Allies:
- * name here
- * name here 
+ * Frederik Coppens
+ * Carole Goble
 
 Reports may be reviewed by other members of the core development team, unless there is a conflict of interest, and will be kept confidential.
 
@@ -133,19 +133,18 @@ This is the enforcement manual followed by the ELIXIR RDM Toolkit project team.
 It's used when we respond to an issue to make sure we're consistent and fair.
 Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
-### 4.1 The Code of Conduct Committee
+### 4.1 The Code of Conduct Oversight Committee
 
 The ELIXIR Code of Conduct Oversight committee is:
 
-* name
-* name 
-* name
+* Carole Goble
+* Hannah Hurst
+* Frederik Coppens
 
 The Toolkit Code of Conduct Allies are:
 
-* name
-* name
-* name
+* Frederik Coppens
+* Carole Goble
 
 As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
@@ -157,11 +156,11 @@ This can include contacting law enforcement (or other local personnel) and speak
 If the act is ongoing, any community member may act immediately, before reaching consensus, to diffuse the situation.
 In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.
 
-In situations where an individual community member acts unilaterally, they must inform the Toolkit CoC Allies as soon as possible, and report their actions for review within 24 hours.
+In situations where an individual community member acts unilaterally, they must inform the Toolkit Code of Conduct Allies as soon as possible, and report their actions for review within 24 hours.
 
 ### 4.3 Less-Urgent Situations
 
-Upon receiving a report of an incident, the ELIXIR Code of Conduct Oversight committee will review the incident and determine, to the best of their ability:
+Upon receiving a report of an incident, the ELIXIR Code of Conduct Oversight Committee will review the incident and determine, to the best of their ability:
 
 - whether this is an ongoing situation
 - whether there is a threat to anyone's physical safety
@@ -170,18 +169,18 @@ Upon receiving a report of an incident, the ELIXIR Code of Conduct Oversight com
 - who, if anyone, was the bad actor
 
 This information will be collected either in person or in writing.
-The ELIXIR Code of Conduct Oversight committee  will provide a written summary of the information surrounding the incident.
+The ELIXIR Code of Conduct Oversight Committee  will provide a written summary of the information surrounding the incident.
 All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1".
 The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
 
-The ELIXIR Code of Conduct Oversight committee  will aim to have a resolution agreed upon within one week.
+The ELIXIR Code of Conduct Oversight Committee  will aim to have a resolution agreed upon within one week.
 In the event that a resolution can't be determined in that time, a member of the CoC Oversight committee will respond to the reporter(s) with an update and projected timeline for resolution.
 
 ### 4.4 Resolutions
 
-The ELIXIR Code of Conduct Oversight committee  will seek to agree on a resolution by consensus of all members investigating the report in question.
+The ELIXIR Code of Conduct Oversight Committee  will seek to agree on a resolution by consensus of all members investigating the report in question.
 If the committee cannot reach consensus and deadlocks for over a week, Niklas Blomberg, as Director of ELIXIR, will break the tie.
-If Dr Blomberg is unable to take part in the discussion due to a conflict of interest, <name here>, as an external member of the ELIXIR Code of Conduct Oversight committee, will make the decision.
+If Dr Blomberg is unable to take part in the discussion due to a conflict of interest, Susanna Rep, as an external member of the ELIXIR Code of Conduct Oversight committee, will make the decision.
 
 Possible responses may include:
 
@@ -207,7 +206,7 @@ However, the CoC Oversight committee is not required to act on this feedback.
 
 ### 4.5 Conflicts of Interest
 
-In the event of any conflict of interest such that Dr Blomberg is not able to evaluate or enforce the reported violation, <name here>  will take Niklas Blombergs's place. **THIS NEEDS REVISION
+In the event of any conflict of interest such that Dr Blomberg is not able to evaluate or enforce the reported violation, Susanna Repo will take Niklas Blombergs's place. 
 
 ## 5 Acknowledgements
 
@@ -219,6 +218,8 @@ Contributors to the Carpentries Code of Conduct were: Adam Obeng, Aleksandra Paw
 
 The Turing Institute Data Study Group Code of Conduct was heavily adapted from the [Citizen Lab Summer Institute 2017 Code of Conduct](https://citizenlab.ca/summerinstitute/codeofconduct.html) and used under a CC BY 2.5 CA license.
 Citizen Lab based their Code of Conduct on the [xvzf Code of Conduct](http://xvzf.io/#coc), the [Contributor Covenant](http://contributor-covenant.org/), the [Django Code of Conduct and Reporting Guide](https://www.djangoproject.com/conduct/) and we are also grateful for [this guidance from Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports).
+
+This code of conduct is aligned with the [ELIXIR Code of Conduct for events](https://elixir-europe.org/events/code-of-conduct).
 
 We really appreciate the work that all of the communities linked above have put into creating such a well considered process.
 

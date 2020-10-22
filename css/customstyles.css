@@ -559,7 +559,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .contributors-line {
     color: var(--subtle-text);
-    font-size: 1.2em;
+    margin-top: 30px;
 }
 
 .contributor-badge {
