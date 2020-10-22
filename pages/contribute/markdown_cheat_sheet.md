@@ -334,6 +334,14 @@ Giving:
 
 {% include toollist.html tag="monitoring" %}
 
+Add a second tag for filtering using the 'tag2' attribute:
+
+{% raw %}
+```
+{% include toollist.html tag="human data" tag2="plan" %}
+```
+{% endraw %}
+
 Make sure the tag exists in the `tool_and_resource_list.yml` file + in the `tags.yml`.
 
 Tools and resources can be added by manipulating the main_tool_and_resource_list.csv file in the `_data` repository. For more info about how to add a tool or resource please visit [our guide](tool_resource_update).
