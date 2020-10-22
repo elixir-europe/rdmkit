@@ -11,7 +11,6 @@
       showSpeed: 'slow' // set to 0 to deactivate effect
     },
     settings = $.extend(defaults, options);
-
     var headers = $(settings.headers).filter(function() {
       // get all headers with an ID
       var previousSiblingName = $(this).prev().attr( "name" );
@@ -23,6 +22,8 @@
     if (!headers.length || headers.length < settings.minimumHeaders || !output.length) {
       return;
     }
+    // This line is added to prevent that the styling of the TOC is present when there are less headers than the minimum
+    $('#toc').addClass('tocc');
 
     if (0 === settings.showSpeed) {
       settings.showEffect = 'none';
