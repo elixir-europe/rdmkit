@@ -20,10 +20,10 @@
       return this.id;
     }), output = $(this);
     if (!headers.length || headers.length < settings.minimumHeaders || !output.length) {
+      // This line is added to prevent that the styling of the TOC is present when there are less headers than the minimum
+      document.getElementById("toc").style.display="none";
       return;
     }
-    // This line is added to prevent that the styling of the TOC is present when there are less headers than the minimum
-    $('#toc').addClass('tocc');
 
     if (0 === settings.showSpeed) {
       settings.showEffect = 'none';

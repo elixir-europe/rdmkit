@@ -378,7 +378,7 @@ ul li::marker {
     color: var(--blue-xx-dark);
 }
 
-.tocc {
+#toc {
     padding: 15px;
     background: var(--light-grey);
     margin: 1.75em 0 2em;
