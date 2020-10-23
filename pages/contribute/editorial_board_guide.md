@@ -226,6 +226,14 @@ Giving:
 
 {% include toollist.html tag="monitoring" %}
 
+Add a second tag for filtering using the 'tag2' attribute:
+
+{% raw %}
+```
+{% include toollist.html tag="human data" tag2="plan" %}
+```
+{% endraw %}
+
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
 More information on how to add a tool or resource can be found [here](tool_resource_update).
 

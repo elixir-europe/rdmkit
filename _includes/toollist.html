@@ -1,5 +1,12 @@
-{% assign tools = site.data.tool_and_resource_list %}
-{% assign allowedtags = site.data.tags %}
+{%- assign tools = site.data.tool_and_resource_list -%}
+{%- assign allowedtags = site.data.tags -%}
+{%- assign main_tags = tools.Tools -%}
+{%- if include.tag -%}
+{%- assign main_tags = tools.Tools | where_exp:"tool", "tool.tags contains include.tag" -%}
+{%- endif -%}
+{%- if include.tag2 -%}
+{%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
+{%- endif -%}
 <table class="tooltable display">
     <thead>
         <tr>
@@ -10,8 +17,7 @@
         </tr>
     </thead>
     <tbody>
-        {%- for tool in tools.Tools %}
-        {%- if tool.tags contains include.tag or include.tag == "print_all" %}
+        {%- for tool in main_tags %}
         <tr>
             {% if tool.link %}
             <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
@@ -36,7 +42,6 @@
             {% endif %}
             </td> 
         </tr>
-        {% endif %}
         {%- endfor %}
     </tbody>
 </table>
