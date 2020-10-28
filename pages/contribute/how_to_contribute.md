@@ -8,9 +8,9 @@ toc: false
 ## Ways of contributing 
 
 
-Everyone is welcome to contribute to this site, and we've tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so:".
+Everyone is welcome to contribute to this site, and we've tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so:
 
-* If you are not familiar with GitHub but want to give it a try: follow [our step-by-step instructions](github_way)(no technical knowledge required!).
+* If you are not familiar with GitHub but want to give it a try: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
 * If you are happier using Google Docs: follow [the Google Doc way](google_doc_way). 
 * If you are familiar with Github: [fork the repo and create a pull request](working_with_git).
 * If you just want to make a quick contribution: submit your comments/suggestions using the form below.
@@ -19,7 +19,7 @@ Everyone is welcome to contribute to this site, and we've tried to make it as ea
 
 When writing for this website keep in mind the following:
 
-* For the sake of consistency, please follow our [style guide](https://rdm.elixir-europe.org/style_guide.html).
+* For the sake of consistency, please follow our [style guide](style_guide).
 * We give great importance to authorship credit. If others were involved in your contribution, by writing up or by providing resources such as diagrams/links, please make sure you acknowledge them in the authors' section of your page.
 
 
