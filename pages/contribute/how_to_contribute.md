@@ -10,7 +10,7 @@ toc: false
 
 Everyone is welcome to contribute to this site, and we've tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so:
 
-* If you are not familiar with GitHub but want to give it a try: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
+* If you are not familiar with Git but want to give it a try through the GitHub website: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
 * If you are happier using Google Docs: follow [the Google Doc way](google_doc_way). 
 * If you are familiar with Git: [fork the repo and create a pull request](working_with_git).
 * If you just want to make a quick contribution: submit your comments/suggestions using the form below.
