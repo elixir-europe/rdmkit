@@ -15,7 +15,7 @@ At the heart of FAIR Science lies good data management practice. This is increas
 
 - **For funding agencies and policy makers** - The toolkit is the resource researchers can turn to at the proposal stage of the research, throughout their projects and when publishing their results.  Remember that the cost of not having FAIR research data has been estimated at €10.2bn annually in Europe. By using the toolkit and better managing  data, the outcomes of your investments will be contributing to strengthening regional, national and European economies.
 
-## Funding acknowledgement:
+## Funding acknowledgement
 The Toolkit was developed with funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing contents for the Toolkit. 
 
 ## How to cite the RDM Toolkit
@@ -25,6 +25,3 @@ The ELIXIR Data Management toolkit makes all of their materials publicly availab
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 Software are made available under an [MIT license](https://opensource.org/licenses/mit-license.html).
 For full details on licensing, please visit https://github.com/elixir-europe/rdm-toolkit/blob/master/LICENSE
-
-## Acknowledgements
-The Toolkit was developed with funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing contents for the Toolkit. 
