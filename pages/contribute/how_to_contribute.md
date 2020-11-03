@@ -24,4 +24,6 @@ When writing for this website keep in mind the following:
 
 
 <br/><br/>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-yfGjAdusicjzdmzrfmUOcrfszhaZEk24igCeVwMllKzxsw/viewform?embedded=true" width="640" height="671" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-yfGjAdusicjzdmzrfmUOcrfszhaZEk24igCeVwMllKzxsw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="
+    width: 100%;
+">Loading…</iframe>
