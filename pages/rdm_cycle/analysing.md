@@ -23,5 +23,5 @@ Data Analysis is the main reason for a data intensive project. It actually works
 ## Where can training materials and events about Data Analysis be found?
 
 ## Related topics
-* [Processing](https://rdm.elixir-europe.org/processing)
+* [Processing](processing)
 ## External links
