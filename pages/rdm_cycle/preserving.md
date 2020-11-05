@@ -52,5 +52,5 @@ text
 
 ## External links
 
-https://en.wikipedia.org/wiki/Digital_preservation 
-https://www.iso.org/committee/53666/x/catalogue/
+* [https://en.wikipedia.org/wiki/Digital_preservation](https://en.wikipedia.org/wiki/Digital_preservation)
+* [https://www.iso.org/committee/53666/x/catalogue](https://www.iso.org/committee/53666/x/catalogue/)
