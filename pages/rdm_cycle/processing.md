@@ -40,7 +40,7 @@ The following considerations are important for data processing:
 
 ## Related topics
 
-* [Data Storage](https://rdm.elixir-europe.org/storage)
+* [Data Storage](storage)
 
 ## External links
 
