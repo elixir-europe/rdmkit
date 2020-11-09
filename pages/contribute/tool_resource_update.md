@@ -1,5 +1,5 @@
 ---
-title: Updating tool and resource list
+title: Updating the tool and resource list
 sidebar: contribute
 summary: How to add a tool or resource to RDM Toolkit
 ---
