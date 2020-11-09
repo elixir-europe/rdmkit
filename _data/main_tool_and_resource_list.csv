@@ -1,6 +1,6 @@
 name,link,description,registry,tags
 BrAPI,https://www.brapi.org,"Specification for a standard API for plant data: plant material plant phenotyping data",,"share, collect, re-use"
-COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos ,biotools:COPO fairsharing:biodbcore-001247,share
+COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos ,"biotools:COPO, fairsharing:biodbcore-001247",share
 DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement. ,biotools:DAISY,"plan, collect"
 DMP Canvas Generator,https://dmp.vital-it.ch,"Questionnaire which generates a pre-filled a DMP",,plan
 DMP OPIDoR,https://dmp.opidor.fr,Online questionnaire for the development of data management plans; repository of DMPs,,plan
