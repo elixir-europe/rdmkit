@@ -115,12 +115,12 @@ Tools:
   - standard
   - re-use
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
-    a good data management plan
+    a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
   name: maDMP - Research Bridge
   tags:
   - plan
-- description: Machine actionable DMPs
+- description: Machine actionable DMPs.
   link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
   name: Research Management Plan
   tags:
@@ -278,13 +278,13 @@ Tools:
   tags:
   - share
 - description: The Multi-Crop Passport Descriptor is the metadata standard for plant
-    genetic resources maintained ex situ by genbanks
+    genetic resources maintained ex situ by genbanks.
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: MCPD
   tags:
   - standard
 - description: FAIDARE is a tool allowing to search data across dinstinct databases
-    that implemented BrAPI
+    that implemented BrAPI.
   link: https://urgi.versailles.inra.fr/faidare/
   name: FAIDARE
   registry:
@@ -293,7 +293,7 @@ Tools:
   - share
   - re-use
 - description: The Crop Ontology compiles concepts to curate phenotyping assays on
-    crop plants, including anatomy, structure and phenotype
+    crop plants, including anatomy, structure and phenotype.
   link: https://www.cropontology.org
   name: Crop Ontology
   registry:
@@ -301,7 +301,7 @@ Tools:
   tags:
   - standard
   - re-use
-- description: Open source research data respository software
+- description: Open source research data respository software.
   link: https://dataverse.org/
   name: DATAVERSE
   tags:
@@ -309,7 +309,7 @@ Tools:
   - share
   - re-use
 - description: OntoMaton facilitates ontology search and tagging functionalities within
-    Google Spreadsheets
+    Google Spreadsheets.
   link: https://github.com/ISA-tools/OntoMaton
   name: ONTOMATON
   tags:
@@ -374,14 +374,14 @@ Tools:
   - human data
   - privacy
 - description: EUPID provides a method for identity management, pseudonymisation and
-    record linkage to bridge the gap between multiple contexts
+    record linkage to bridge the gap between multiple contexts.
   link: https://eupid.eu/#/concept
   name: EUPID
   tags:
   - human data
   - privacy
 - description: The RD-Connect GPAP is an online tool for diagnosis and gene discovery
-    in rare disease research
+    in rare disease research.
   link: https://rd-connect.eu/what-we-do/omics/gpap/
   name: RD-Connect Genome Phenome Analysis Platform
   tags:
@@ -391,7 +391,7 @@ Tools:
   - re-use
   - analyse
 - description: Principled and practical framework for the responsible sharing of genomic
-    and health-related data
+    and health-related data.
   link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
   name: GA4GH data security toolkit
   tags:
