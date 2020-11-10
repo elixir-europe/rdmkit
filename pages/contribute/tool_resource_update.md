@@ -1,5 +1,5 @@
 ---
-title: Updating tool and resource list
+title: Updating the tool and resource list
 sidebar: contribute
 summary: How to add a tool or resource to RDM Toolkit
 ---
@@ -39,7 +39,7 @@ For people that are not familiar with Git, no worries! The editors will do the w
 - Add or edit tools and resources as described above in "The excel table" paragraph.
 - Done! The editors will update the "tool and resource list" in GitHub regularly.
 
-### Advanced way: making your own PR with changes to the excel file
+### Advanced way: making your own PR with changes to the csv file
 
 Just like with every change you want to make to the repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page. Open the local copy of the csv file in excel, make your changes and commit them.
 
