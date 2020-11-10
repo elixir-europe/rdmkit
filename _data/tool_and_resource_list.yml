@@ -8,7 +8,7 @@ Tools:
   - collect
   - re-use
 - description: Portal for scientists to broker more easily rich metadata alongside
-    data to public repos
+    data to public repos.
   link: https://copo-project.org/
   name: COPO
   registry:
@@ -362,7 +362,7 @@ Tools:
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
     at providing practical know-how for responsible research.
   link: https://www.bbmri-eric.eu/elsi/knowledge-base/
-  name: "BBMRI-ERIC\u2019s ELSI Knowledge Base"
+  name: BBMRI-ERIC's ELSI Knowledge Base
   tags:
   - human data
   - privacy
@@ -433,8 +433,7 @@ Tools:
     Data Bank.
   link: http://www.cathdb.info/
   name: CATH
-- description: "Dictionary of molecular entities focused on \u2018small\u2019 chemical\
-    \ compounds"
+- description: Dictionary of molecular entities focused on 'small' chemical compounds
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures,
