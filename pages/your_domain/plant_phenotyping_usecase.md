@@ -28,9 +28,10 @@ You plan to collect plant phenotypic data and you want to ensure that this data 
   * There is section describing the experiment itself (greenhouse, field, etc...) and it is advisable to collect its geographical coordinates and time of experiment for linkage with geo-climatic data.
 
 * Tools for data collection and management:
-  * The ISA-Tools also include a configuration for MIAPPE and can be used both for filling in metadata and for validating.
+  * The [ISA-Tools](https://isa-tools.org/) also include a configuration for MIAPPE and can be used both for filling in metadata and for validating.
   * [SEEK](https://seek4science.org/) and [Dataverse](https://dataverse.org/) are free softwares that can be used for data management
   * [COPO](https://copo-project.org/) is a data management platform specific for the plant sciences
+  * [FAIRsharing](https://fairsharing.org) is a manually curated metadata registry of reporting guidelines, vocabularies, identifier scheme, models, formats, repositories, knowledgebases and data policies in the plant sciences and across domain.
   
 * Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a BrAPI-compliant repository ([Breeding API, BrAPI](https://brapi.org/).
 
