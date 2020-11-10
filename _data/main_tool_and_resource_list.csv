@@ -52,7 +52,7 @@ GA4GH data security toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-secu
 GA4GH regular and ethical toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,,,"human data, privacy"
 dbGAP,https://www.ncbi.nlm.nih.gov/gap/,"The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Human.",fairsharing:88v2k0,"human data, privacy, share, re-use, storage"
 BRENDA,https://www.brenda-enzymes.org/,"Database of enzyme and enzyme-ligand information across all taxonomic groups manually extracted from primary literature and extended by text mining procedures.",fairsharing:etp533,
-RDA Standards,https://rd-alliance.github.io/metadata-directory/standards/,"Directory of standard metadata divided into different research areas.",,"plan, collect, process, analyse, share, preserve, metadata"
+RDA Standards,https://rd-alliance.github.io/metadata-directory/standards/,"Directory of standard metadata divided into different research areas.",,"plan, collect, metadata"
 CATH,http://www.cathdb.info/,"A hierarchical domain classification of protein structures in the Protein Data Bank.",fairsharing:xgcyyn,
 ChEBI,https://www.ebi.ac.uk/chebi/,"Dictionary of molecular entities focused on ‘small’ chemical compounds.",fairsharing:62qk8w,
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules it contains 2-D structures calculated properties and abstracted bioactivities.",fairsharing:m3jtpg,
@@ -60,7 +60,7 @@ Ensembl,http://www.ensembl.org/index.html,"Genome browser for vertebrate genomes
 Ensembl Genomes,http://ensemblgenomes.org/,"Comparative analysis data mining and visualisation for the genomes of non-vertebrate species.",fairsharing:923a0p,
 Europe PMC,https://europepmc.org/,"Europe PMC is a repository providing access to worldwide life sciences articles books patents and clinical guidelines.",fairsharing:cmw6mm,
 Human Protein Atlas,http://www.proteinatlas.org/,"The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.",fairsharing:j0t0pe,
-Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,"List of metadata standards.",,"plan, collect, process, analyse, share, preserve, metadata"
+Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,"List of metadata standards.",,"plan, collect, metadata"
 MINT,https://mint.bio.uniroma2.it/,"MINT the Molecular INTeraction database focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators.",fairsharing:2bdvmk,
 InterPro,https://www.ebi.ac.uk/interpro/,"Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites.",fairsharing:pda11d,re-use
 Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive high-quality datasets related to rare diseases and orphan drugs in a reusable and computable format.",fairsharing:biodbcore-001249,re-use
