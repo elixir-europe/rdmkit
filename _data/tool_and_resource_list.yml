@@ -13,6 +13,7 @@ Tools:
   name: COPO
   registry:
     biotools: COPO
+    fairsharing: biodbcore-001247
   tags:
   - share
 - description: Data Information System to keep sensitive data inventory and meet GDPR
