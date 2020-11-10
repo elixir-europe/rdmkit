@@ -11,7 +11,7 @@ DMPTuuli Finland,https://www.dmptuuli.fi/,"Data management planning tool.",,plan
 DS-Wizard,https://ds-wizard.org/,"Data Stewardship Wizard.",biotools:Data_Stewardship_Wizard,plan
 EasyDMP,https://easydmp.no/,"DMP creation versioning and sharing",,plan
 FAIRDOMHub,https://fairdomhub.org,"Data model and SOPs management for projects from preliminary data to publication support for running SBML models etc. (public SEEK instance).",fairsharing:nnvcr9,"collect, process, analyse, share, preserve, storage, privacy"
-FAIRsharing,https://fairsharing.org/,"A curated informative and educational resource on data and metadata standards inter-related to databases and data policies.",fairsharing:2abjs5,"plan, share, monitoring, metadata"
+FAIRsharing,https://fairsharing.org/,"A curated informative and educational resource on data and metadata standards inter-related to databases and data policies.",fairsharing:2abjs5,"plan, collect, process, analyse, share, preserve, monitoring, metadata, human data, re-use"
 GitHub,https://github.com,"Versioning system used for sharing code as well as for sharing of small data.",fairsharing:biodbcore-001160,
 Phyre2,http://www.sbg.bio.ic.ac.uk/~phyre2,"Protein Homology/analogY Recognition Engine.",biotools:phyre,"process, analyse"
 MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"standard, re-use"
