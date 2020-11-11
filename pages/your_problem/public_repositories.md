@@ -1,6 +1,7 @@
 ---
 title: Public Repositories
 keywords: optional
+sidebar: true
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
 search: exclude
 ---
