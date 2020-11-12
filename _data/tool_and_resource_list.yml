@@ -8,11 +8,12 @@ Tools:
   - collect
   - re-use
 - description: Portal for scientists to broker more easily rich metadata alongside
-    data to public repos
+    data to public repos.
   link: https://copo-project.org/
   name: COPO
   registry:
     biotools: COPO
+    fairsharing: biodbcore-001247
   tags:
   - share
 - description: Data Information System to keep sensitive data inventory and meet GDPR
@@ -89,15 +90,25 @@ Tools:
     standards, inter-related to databases and data policies.
   link: https://fairsharing.org/
   name: fairsharing
+  registry:
+    fairsharing: 2abjs5
   tags:
   - plan
+  - collect
+  - process
+  - analyse
   - share
+  - preserve
   - monitoring
   - metadata
+  - human data
+  - re-use
 - description: Versioning system, used for sharing code, as well as for sharing of
     small data
   link: https://github.com
   name: GitHub
+  registry:
+    fairsharing: biodbcore-001160
 - description: Protein Homology/analogY Recognition Engine
   link: http://www.sbg.bio.ic.ac.uk/~phyre2
   name: Phyre2
@@ -115,12 +126,12 @@ Tools:
   - standard
   - re-use
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
-    a good data management plan
+    a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
   name: maDMP - Research Bridge
   tags:
   - plan
-- description: Machine actionable DMPs
+- description: Machine actionable DMPs.
   link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
   name: Research Management Plan
   tags:
@@ -243,7 +254,7 @@ Tools:
   link: http://www.ebi.ac.uk/pdbe/
   name: PDBE
   registry:
-    fairsharing: 6824pv
+    fairsharing: 26ek1v
   tags:
   - share
   - re-use
@@ -278,13 +289,13 @@ Tools:
   tags:
   - share
 - description: The Multi-Crop Passport Descriptor is the metadata standard for plant
-    genetic resources maintained ex situ by genbanks
+    genetic resources maintained ex situ by genbanks.
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: MCPD
   tags:
   - standard
 - description: FAIDARE is a tool allowing to search data across dinstinct databases
-    that implemented BrAPI
+    that implemented BrAPI.
   link: https://urgi.versailles.inra.fr/faidare/
   name: FAIDARE
   registry:
@@ -293,7 +304,7 @@ Tools:
   - share
   - re-use
 - description: The Crop Ontology compiles concepts to curate phenotyping assays on
-    crop plants, including anatomy, structure and phenotype
+    crop plants, including anatomy, structure and phenotype.
   link: https://www.cropontology.org
   name: Crop Ontology
   registry:
@@ -301,7 +312,7 @@ Tools:
   tags:
   - standard
   - re-use
-- description: Open source research data respository software
+- description: Open source research data respository software.
   link: https://dataverse.org/
   name: DATAVERSE
   tags:
@@ -309,7 +320,7 @@ Tools:
   - share
   - re-use
 - description: OntoMaton facilitates ontology search and tagging functionalities within
-    Google Spreadsheets
+    Google Spreadsheets.
   link: https://github.com/ISA-tools/OntoMaton
   name: ONTOMATON
   tags:
@@ -362,7 +373,7 @@ Tools:
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
     at providing practical know-how for responsible research.
   link: https://www.bbmri-eric.eu/elsi/knowledge-base/
-  name: "BBMRI-ERIC\u2019s ELSI Knowledge Base"
+  name: BBMRI-ERIC's ELSI Knowledge Base
   tags:
   - human data
   - privacy
@@ -374,14 +385,14 @@ Tools:
   - human data
   - privacy
 - description: EUPID provides a method for identity management, pseudonymisation and
-    record linkage to bridge the gap between multiple contexts
+    record linkage to bridge the gap between multiple contexts.
   link: https://eupid.eu/#/concept
   name: EUPID
   tags:
   - human data
   - privacy
 - description: The RD-Connect GPAP is an online tool for diagnosis and gene discovery
-    in rare disease research
+    in rare disease research.
   link: https://rd-connect.eu/what-we-do/omics/gpap/
   name: RD-Connect Genome Phenome Analysis Platform
   tags:
@@ -391,7 +402,7 @@ Tools:
   - re-use
   - analyse
 - description: Principled and practical framework for the responsible sharing of genomic
-    and health-related data
+    and health-related data.
   link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
   name: GA4GH data security toolkit
   tags:
@@ -407,6 +418,8 @@ Tools:
     data from studies investigating the interaction of genotype and phenotype in Humans
   link: https://www.ncbi.nlm.nih.gov/gap/
   name: dbGAP
+  registry:
+    fairsharing: 88v2k0
   tags:
   - human data
   - privacy
@@ -418,54 +431,67 @@ Tools:
     procedures
   link: https://www.brenda-enzymes.org/
   name: BRENDA
+  registry:
+    fairsharing: etp533
+  tags:
+  - human data
+  - re-use
 - description: Directory of standard metadata, divided into different research areas
   link: https://rd-alliance.github.io/metadata-directory/standards/
   name: RDA Standards
   tags:
   - plan
   - collect
-  - process
-  - analyse
   - share
-  - preserve
   - metadata
 - description: A hierarchical domain classification of protein structures in the Protein
     Data Bank.
   link: http://www.cathdb.info/
   name: CATH
-- description: "Dictionary of molecular entities focused on \u2018small\u2019 chemical\
-    \ compounds"
+  registry:
+    fairsharing: xgcyyn
+- description: Dictionary of molecular entities focused on 'small' chemical compounds
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
+  registry:
+    fairsharing: 62qk8w
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures,
     calculated properties and abstracted bioactivities.
   link: https://www.ebi.ac.uk/chembl/
   name: ChEMBL
+  registry:
+    fairsharing: m3jtpg
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: http://www.ensembl.org/index.html
   name: Ensembl
+  registry:
+    fairsharing: fx0mw7
 - description: Comparative analysis, data mining and visualisation for the genomes
     of non-vertebrate species
   link: http://ensemblgenomes.org/
   name: Ensembl Genomes
+  registry:
+    fairsharing: 923a0p
 - description: Europe PMC is a repository, providing access to worldwide life sciences
     articles, books, patents and clinical guidelines.
   link: https://europepmc.org/
   name: Europe PMC
+  registry:
+    fairsharing: cmw6mm
 - description: The Human Protein Atlas contains information for a large majority of
     all human protein-coding genes regarding the expression and localization of the
     corresponding proteins based on both RNA and protein data.
   link: http://www.proteinatlas.org/
   name: Human Protein Atlas
+  registry:
+    fairsharing: j0t0pe
 - description: List of metadata standards
   link: https://www.dcc.ac.uk/guidance/standards/metadata/list
   name: Data Curation Centre Metadata list
   tags:
   - plan
   - collect
-  - process
-  - analyse
   - share
   - preserve
   - metadata
@@ -474,10 +500,14 @@ Tools:
     expert curators
   link: https://mint.bio.uniroma2.it/
   name: MINT
+  registry:
+    fairsharing: 2bdvmk
 - description: Functional analysis of protein sequences by classifying them into families
     and predicting the presence of domains and important sites
   link: https://www.ebi.ac.uk/interpro/
   name: InterPro
+  registry:
+    fairsharing: pda11d
   tags:
   - re-use
 - description: The Orphadata platform provides the scientific community with comprehensive,
@@ -485,6 +515,8 @@ Tools:
     and computable format
   link: http://www.orphadata.org/cgi-bin/index.php
   name: Orphadata
+  registry:
+    fairsharing: biodbcore-001249
   tags:
   - re-use
 - description: SILVA provides comprehensive, quality checked and regularly updated
@@ -492,15 +524,21 @@ Tools:
     RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).
   link: https://www.arb-silva.de/
   name: Silva
+  registry:
+    fairsharing: 5vtYGG
   tags:
   - re-use
 - description: Known and predicted protein-protein interactions.
   link: https://string-db.org/
   name: STRING
+  registry:
+    fairsharing: 9b7wvk
   tags:
   - re-use
 - description: Comprehensive resource for protein sequence and annotation data
   link: https://www.uniprot.org/
   name: UniProt
+  registry:
+    fairsharing: s1ne3g
   tags:
   - re-use

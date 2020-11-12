@@ -1,5 +1,5 @@
 ---
-title: Updating tool and resource list
+title: Updating the tool and resource list
 sidebar: contribute
 summary: How to add a tool or resource to RDM Toolkit
 ---
@@ -8,15 +8,15 @@ summary: How to add a tool or resource to RDM Toolkit
 
 The tools or resources you will find on pages are a filtered set from a bigger list. This filtering is done using tags. The general tool/resource list is based on the [csv file](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/main_tool_and_resource_list.csv) in the `_data` directory of the RDM Toolkit repository. If changes to this file are pushed to Github, a Github Bot will generate a Pull Request (PR) with the changes of the csv file applied to the main data file of the website (a yaml file).
 
-## The excel table
+## The main table
 
 
 The table consists of 5 columns:
 - **name**: the name of the tool or resource
 - **link**: URL to the main page of the tool or resource, make sure to let the URL start with https://
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
-- **registry**: 2 registries are supported: [Bio.tools](https://bio.tools) and [FAIRsharing.org](https://fairsharing.org/) 
-- **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( The `tags.yaml` file [here](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml) )
+- **registry**: 2 registries are supported: [Bio.tools](https://bio.tools) and [FAIRsharing.org](https://fairsharing.org/). The keywords you can use respectivly are: biotools and fairsharing specifying the id with a colon). List multiple registries using a comma `, ` between the keywords. 
+- **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( The `tags.yaml` file [here](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml) ). List multiple tags by using a comma `, ` between them.
 
 | name   	| link                                     	| description                                                                                         	| registry           	| tags             	|
 |--------	|------------------------------------------	|-----------------------------------------------------------------------------------------------------	|--------------------	|------------------	|
@@ -39,7 +39,7 @@ For people that are not familiar with Git, no worries! The editors will do the w
 - Add or edit tools and resources as described above in "The excel table" paragraph.
 - Done! The editors will update the "tool and resource list" in GitHub regularly.
 
-### Advanced way: making your own PR with changes to the excel file
+### Advanced way: making your own PR with changes to the csv file
 
 Just like with every change you want to make to the repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page. Open the local copy of the csv file in excel, make your changes and commit them.
 
