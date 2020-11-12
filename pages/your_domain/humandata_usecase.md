@@ -1,6 +1,5 @@
 ---
 title: Human Data
-keywords: optional
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper]
 ---
 

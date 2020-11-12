@@ -1,7 +1,5 @@
 ---
 title: "Intrinsically Disordered Proteins community"
-keywords: optional
-search: exclude
 ---
 
 
