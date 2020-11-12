@@ -65,6 +65,17 @@ h3+h4 {
 * Spacer classes (not in Bootstrap 3)
 */
 
+.default-label {
+    font-weight: inherit;
+    background-color: var(--light-grey);
+    color: var(--main-text-color)
+}
+
+.default-label:hover {
+    color:var(--white-text);
+    background-color: var(--subtle-text);
+}
+
 .mt-0 {
     margin-top: 0;
 }
