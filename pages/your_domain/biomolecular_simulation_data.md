@@ -1,7 +1,6 @@
 ---
 title: "Biomolecular simulation data"
 keywords: molecular dynamics, docking, virtual screening
-search: exclude
 ---
 ## General scope
 Here we show what are (bio)simulation data, how we can store them, how it can be reused for new, unexpected projects, and how they can be transformed to make them FAIR (findable, accessible, interoperable and reusable). However, we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify its data.
