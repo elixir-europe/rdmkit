@@ -9,7 +9,7 @@ tags: [research_it]
 There are many aspects to consider when dealing with data transfer, but the most important are :  
 
 * the data size  
-* the network links between your local computer and the distant computer 
+* the capacity or bandwidth of the network links between your local computer and the distant computer 
 
 These parameters are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services. 
 
@@ -21,27 +21,28 @@ Since data transfer involves so many technical aspects, it is a good idea to int
 
 The most common data transfer applications available are :
 
-* FTP
-* HTTP
-* Rsync
-* scp 
+* FTP (File Transfer Protocol):  *Be sure to use a secured version of this protocol : FTPS ou SFTP (SSH File Transfer Protocol)*. FTP will transfer files between a client and an FTP server who requires an account in order to transfer the files. 
+* HTTP (HyperText Transfer Protocol): 
+* Rsync (remote synchronization) can be used to transfer files between two computers and to keep the files synchronized between these two computers. 
+* SCP (secure copy) : SCP will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication.  
 
-These applications are suitable for small to mid size data. These applications are available on any operating system. 
+These applications are suitable for small to mid size data. These applications are available on any operating system and can be used either through command-line (directly or with tools like cURL) or through a graphical interface. 
 
 For massive amounts of data, additional protocols have been developed, parallelizing the flow of data. 
 
 * Aspera Fasp
 * GridFTP and Globus 
 
-These transfer solutions require commercial licences for your site. 
+These transfer solutions require commercial licences for your site and as such they are available mostly on large computational centres. 
 
 
 ## Optimizing data transfer 
 
-It can be very useful to compress and archive your data in a single to optimize and ease the data transfer. 
+It can be very useful to archive your data in a single to optimize and ease the data transfer. This can be done with two tools available on most systems.
 
-* tar
-* gzip 
+* tar (tape archive) will create an archive, a single file containing several files or directories. 
+* gzip : since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive. 
+
 
 
 ## Checking the transfer
@@ -50,3 +51,10 @@ Since during the transfer some data might be corrupted it is important to check 
 
 * md5
 * SHA 
+
+
+## Data security
+
+Keep in mind, if you intend to transfer sensitive data to another location, that you have to check what are the regulation and security measure on the remote site. You can interact with the IT departments at both location in order to establish your strategy. 
+
+Do not forget to check the [Human Data](https://rdm.elixir-europe.org/humandata_usecase.html) pages of the RDM-toolkit. 
