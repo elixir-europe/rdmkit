@@ -61,6 +61,10 @@ h3+h4 {
     margin-top: 15px;
 }
 
+strong {
+  color: #333;
+}
+
 /*
 * Spacer classes (not in Bootstrap 3)
 */
