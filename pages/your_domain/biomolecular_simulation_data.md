@@ -36,11 +36,11 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 ### Possibilities / Solutions
 * Repositories (to be extended by the community) - There’s a long (and incomplete) list of repositories available for this, that can be divided in two main branches: 
   * Generic: Repositories that can be used to store any kind of data. 
-    * Zenodo - https://zenodo.org/
-    * FigShare - https://figshare.com/
-    * Mendeley data - https://data.mendeley.com/
-    * DataDryad - https://datadryad.org/
-    * OpenScienceFramework - https://osf.io/
+    * [Zenodo](https://zenodo.org/)
+    * [FigShare](https://figshare.com/)
+    * [Mendeley data](https://data.mendeley.com/)
+    * [DataDryad](https://datadryad.org/)
+    * [OpenScienceFramework](https://osf.io/)
   * Specific: Repositories and databases designed to store specific data (e.g. MD data). 
     * Molecular Dynamics repositories
       * GPCRmd - http://gpcrmd.org/ - for GPCR protein simulations, with submission process - https://submission.gpcrmd.org/accounts/login/?next=/accounts/memberpage/.
