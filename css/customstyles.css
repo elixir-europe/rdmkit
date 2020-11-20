@@ -46,6 +46,11 @@ h3 {
     margin-top: 20px;
 }
 
+/* Add space between an image and <h3> */
+figure + h3, .alert + h3 {
+  margin-top: 1.5em;
+}
+
 h4 {
     font-weight: 700;
     font-size: 120%;
@@ -80,7 +85,7 @@ strong {
     background-color: var(--subtle-text);
 }
 
-.mt-0 {
+.mt-0, .docimage.mt-0 {
     margin-top: 0;
 }
 
@@ -92,7 +97,7 @@ strong {
     margin-top: 1.5em;
 }
 
-.mb-0 {
+.mb-0, .docimage.mb-0 {
     margin-bottom: 0;
 }
 
