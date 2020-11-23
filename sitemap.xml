@@ -8,7 +8,7 @@ search: exclude
   {%- for page in site.pages -%}
   {%- unless page.search == "exclude" %}
   <url>
-    <loc>{{site.url}}{{ page.url}}</loc>
+    <loc>https://{{site.url}}{{ page.url}}</loc>
   </url>
   {% endunless -%}
   {% endfor %}
