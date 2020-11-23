@@ -21,7 +21,10 @@ Data Analysis is the main reason for a data intensive project. It actually works
 {% include toollist.html tag="analyse" %}
 
 ## Where can training materials and events about Data Analysis be found?
+<!-- Link to Tess query -->
 
 ## Related topics
 * [Processing](processing)
-## External links
+
+<!-- ## External links
+missing content -->

@@ -8,12 +8,12 @@ contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi]
 
 Preservation refers to reliable preservation of digital information for several decades or centuries. Hardware, software and file formats get outdated, and correct preservation prevents your data from being lost . Preservation aims to keep the content (data) and the context (metadata) usable for far future reuse.
 
-Preservation of digital information requires planning, policies, resources (time, funds, people) as well as the right technology to ensure that the data stays functional and it can be accessed. Hence, special long term data repositories should be used for digital preservation, where the data is actively maintained and information integrity is monitored. 
+Preservation of digital information requires planning, policies, resources (time, funds, people) as well as the right technology to ensure that the data stays functional and it can be accessed. Hence, special long term data repositories should be used for digital preservation, where the data is actively maintained and information integrity is monitored.
 
 
 ## Why is preserving is important?
 
-Data that has significant value for example to an organization, nationally or globally should be preserved for long term. 
+Data that has significant value for example to an organization, nationally or globally should be preserved for long term.
 
 Digital data is dependent on technology making it at great risk of being lost if not preserved correctly.  One reason for loss of data over time can be connected to inherent features for data storage media - so call [bit rot](https://en.wikipedia.org/wiki/Data_degradation).
 
@@ -29,7 +29,7 @@ When preserving digital data
 * data should be named with a consistent naming scheme
 * file formats should be considered carefully
 * include information about provenance
-* include sufficient licensing information 
+* include sufficient licensing information
 
 
 ## What tools and resources are available for preserving
@@ -37,20 +37,20 @@ When preserving digital data
 {% include toollist.html tag="preserve" %}
 
 ## Where can training materials and events about preserving be found?
-
-text 
+<!-- Link to Tess query -->
 
 ## Related topics
 
-* [Metadata management and documentation](metadata_management)
-* Licences
+* [Metadata management](metadata_management)
+
+<!-- * Licences
 * Data quality
 * PIDs
 * Managing files and file naming
 * Checksums
-* Discard data
+* Discard data -->
 
 ## External links
 
-* [https://en.wikipedia.org/wiki/Digital_preservation](https://en.wikipedia.org/wiki/Digital_preservation)
-* [https://www.iso.org/committee/53666/x/catalogue](https://www.iso.org/committee/53666/x/catalogue/)
+* [Digital preservation on Wikipedia.](https://en.wikipedia.org/wiki/Digital_preservation)
+* [ISO Standards for quality, preservation and integrity of information.](https://www.iso.org/committee/53666/x/catalogue/)

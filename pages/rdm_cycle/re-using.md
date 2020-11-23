@@ -30,19 +30,22 @@ For personal (sensitive) data all legal and technical requirements have to met b
 {% include toollist.html tag="re-use" %}
 
 ## Where can training materials and events about Data Re-use be found?
+<!-- Link to Tess query -->
 
 ## Related topics
 
-* File format
+* [Security and privacy](security_and_privacy)
+* [Data sharing](data_sharing)
+
+<!-- * File format
 * Data volume
 * Licences
 * Ontology
 * Data organisation
 * Identifiers
 * Data quality
-* Data repositories
 * Responsibilities
-* Ethical and legal issues
-* [Security and privacy](security_and_privacy)
+* Ethical and legal issues -->
 
-## External links
+<!-- ## External links
+missing content -->

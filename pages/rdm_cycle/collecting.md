@@ -6,14 +6,16 @@ contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi]
 
 ## What is Data Collection?
 
-Data collection is the process where information is gathered about specific variables of interest either using instrumentation or other methods. While data collection methods depend on the field and research subject, it is important to ensure data quality. 
+Data collection is the process where information is gathered about specific variables of interest either using instrumentation or other methods. While data collection methods depend on the field and research subject, it is important to ensure data quality.
 
 You can also reuse existing data in your project, for more information see “Reuse” in the data life cycle.
 
+<!-- ## Why is Data Collection important?
+missing content -->
 
 ## What should be considered for Data Collection?
 
-Consider the following, while collecting data 
+Consider the following, while collecting data
 
 * How to capture provenance - e.g. of samples, researchers and instruments
 * Ensure data quality
@@ -30,15 +32,17 @@ Consider the following, while collecting data
 {% include toollist.html tag="collect" %}
 
 ## Where can training materials and events about Data Collection be found?
+<!-- Link to Tess query -->
 
 ## Related topics
-* Data quality
 * [Reusing existing data](re-using)
 * [Metadata management](metadata_management)
 * [Storage](storage)
 * [Data transfer](data_transfer)
 * [Data security and privacy](security_and_privacy)
-* Managing files and file naming
+
+<!-- * Managing files and file naming
+* Data quality
 
 
-## External links
+## External links -->
