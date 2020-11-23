@@ -34,14 +34,14 @@ entries:
       url: /data_transfer.html
     - title: Metadata management
       url: /metadata_management.html
-    - title: Public Repositories
-      url: /public_repositories.html
+    - title: Data sharing
+      url: /data_sharing.html
     - title: Data sustainability
       url: /data_sustainability.html
     - title: Compliance monitoring & measurement
       url: /compliance_monitoring_and_measurement.html
-    - title: Other
-      url: /other_functional_areas.html
+    #- title: Other
+    #  url: /other_functional_areas.html
   - title: Tool assemblies
     folderitems:
     - title: Assembly example
