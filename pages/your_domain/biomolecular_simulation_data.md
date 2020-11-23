@@ -43,30 +43,30 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
     * [OpenScienceFramework](https://osf.io/)
   * Specific: Repositories and databases designed to store specific data (e.g. MD data). 
     * Molecular Dynamics repositories
-      * GPCRmd - http://gpcrmd.org/ - for GPCR protein simulations, with submission process - https://submission.gpcrmd.org/accounts/login/?next=/accounts/memberpage/.
-      * MoDEL - http://mmb.irbbarcelona.org/MoDEL/ - (https://bio.tools/model) specific database for protein MD simulations. 
-      * BigNASim - http://mmb.irbbarcelona.org/BigNASim/ - (https://bio.tools/bignasim) specific database for Nucleic Acids MD simulations, with submission process - https://github.com/NMRLipids.
-      * MoDEL-CNS - http://mmb.irbbarcelona.org/MoDEL-CNS/#/ - specific database for Central Nervous System-related, mainly membrane protein, MD simulations.
-      * NMRlipids - http://nmrlipids.blogspot.com/ - project to validate lipid force fields with NMR data with submission process
-      * MolSSI - BioExcel COVID-19 therapeutics hub - https://covid.bioexcel.eu/ - with submission process - https://covid.bioexcel.eu/contributing/.
+      * [GPCRmd](http://gpcrmd.org/) - for GPCR protein simulations, [with submission process](https://submission.gpcrmd.org/accounts/login/?next=/accounts/memberpage/).
+      * [MoDEL](http://mmb.irbbarcelona.org/MoDEL/) - (https://bio.tools/model) specific database for protein MD simulations. 
+      * [BigNASim](http://mmb.irbbarcelona.org/BigNASim/) - (https://bio.tools/bignasim) specific database for Nucleic Acids MD simulations, [with submission process](https://github.com/NMRLipids).
+      * [MoDEL-CNS](http://mmb.irbbarcelona.org/MoDEL-CNS/#/) - specific database for Central Nervous System-related, mainly membrane protein, MD simulations.
+      * [NMRlipids](http://nmrlipids.blogspot.com/) - project to validate lipid force fields with NMR data with submission process
+      * [MolSSI - BioExcel COVID-19 therapeutics hub](https://covid.bioexcel.eu/) - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
 
     * Molecular Dynamics databases
-      * BioExcel-CV19 - https://bioexcel-cv19.bsc.es/#/ - database and associated web server to offer in a graphical way analyses on top of COVID-19 related MD trajectories stored in the MolSSI-BioExcel COVID-19 therapeutics hub.  
-      * Dynameomics - http://www.dynameomics.org/ - database of folding/unfolding pathways 
-      * MemprotMD - http://memprotmd.bioch.ox.ac.uk/ - database of automatically generated membrane proteins from PDB inserted into simulated lipid bilayers
+      * [BioExcel-CV19](https://bioexcel-cv19.bsc.es/#/) - database and associated web server to offer in a graphical way analyses on top of COVID-19 related MD trajectories stored in the MolSSI-BioExcel COVID-19 therapeutics hub.  
+      * [Dynameomics](http://www.dynameomics.org/) - database of folding/unfolding pathways 
+      * [MemprotMD](http://memprotmd.bioch.ox.ac.uk/) - database of automatically generated membrane proteins from PDB inserted into simulated lipid bilayers
 
     * Docking respositories
-      * MolSSI - BioExcel COVID-19 therapeutics hub - https://covid.bioexcel.eu/ - with submission process - https://covid.bioexcel.eu/contributing/.
-      * PDB-Dev - https://pdb-dev.wwpdb.org/ - prototype archiving system for structural models using integrative or hybrid modeling, with submission process - https://deposit.pdb-dev.wwpdb.org/accounts/login/?next=/account/.
-      * Model Archive - https://www.modelarchive.org/ - theoretical models of macromolecular structures, with submission process - https://www.modelarchive.org/projects/new/basic.
+      * [MolSSI - BioExcel COVID-19 therapeutics hub](https://covid.bioexcel.eu/) - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
+      * [PDB-Dev](https://pdb-dev.wwpdb.org/) - prototype archiving system for structural models using integrative or hybrid modeling, [with submission process] (https://deposit.pdb-dev.wwpdb.org/accounts/login/?next=/account/).
+      * [Model Archive](https://www.modelarchive.org/) - theoretical models of macromolecular structures, [with submission process](https://www.modelarchive.org/projects/new/basic).
 
     * Virtual Screening repositories:
-      * BioActiveConformationalEnsembles - http://mmb.irbbarcelona.org/BCE - small molecule conformations, with submission process - http://mmb.irbbarcelona.org/BCE/db/upload.
-      * BindingDB - https://www.bindingdb.org/ - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, with submission process - https://www.bindingdb.org/bind/contributedata.jsp. 
+      * [BioActiveConformationalEnsembles](http://mmb.irbbarcelona.org/BCE) - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
+      * [BindingDB](https://www.bindingdb.org/) - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, [with submission process](https://www.bindingdb.org/bind/contributedata.jsp). 
 
     * Free energies and other analyses: 
-       * MolMeDB - https://molmedb.upol.cz/ - for molecule-membrane interactions and free energy profiles with submission process - mailto:molmedb@upol.cz.  
-       * ChannelsDB - https://webchemdev.ncbr.muni.cz/ChannelsDB/index.html - resource of channels, pores and tunnels found in biomacromolecules, with submission process - https://webchemdev.ncbr.muni.cz/ChannelsDB/contribute.html.
+       * [MolMeDB](https://molmedb.upol.cz/) - for molecule-membrane interactions and free energy profiles, [with submission process](mailto:molmedb@upol.cz).  
+       * [ChannelsDB](https://webchemdev.ncbr.muni.cz/ChannelsDB/index.html) - resource of channels, pores and tunnels found in biomacromolecules, [with submission process](https://webchemdev.ncbr.muni.cz/ChannelsDB/contribute.html).
 
 * Type of Data to be Shared
   * Examples of types of essential and optional data depending on the biomolecular simulation data: 
@@ -97,7 +97,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
       * Optionals:
         * Link to Trajectory (Dynamic PDB?)
 * Data Licenses:
-  * There’s a list of datasets licenses available that you can find here - https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets. They mainly differ on openness vs restrictiveness. Read carefully to understand the differences and apply the one you think your data should have before distributing them.  
+  * There’s a list of [datasets licenses available that you can find here](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets). They mainly differ on openness vs restrictiveness. Read carefully to understand the differences and apply the one you think your data should have before distributing them.  
 
 ### Related Problems
 * File formats
@@ -110,9 +110,9 @@ There is no existing standard defining the type and format of the metadata neede
 Data generated in the biomolecular simulation field is growing at an alarming pace. Making this data available to the scientific community sometimes means transferring them to a long-term storage, and even this a priori straightforward process can be cumbersome because of the large data size. 
 
 ## External Links - Further References
-* Sharing Data from Molecular Simulations - https://doi.org/10.1021/acs.jcim.9b00665
-* Ten simple rules on how to create open access and reproducible molecular simulations of biological systems - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006649
-* Surviving the deluge of biosimulation data - https://doi.org/10.1002/wcms.1449
-* An efficient and extensible format, library, and API for binary trajectory data from molecular simulations - https://doi.org/10.1002/jcc.23495
-* Standards for data handling - https://mmb.irbbarcelona.org/BigNASim/htmlib/help/pdf/d7.3_-_white_paper_on_standards_for_data_handling.pdf
+* [Sharing Data from Molecular Simulations](https://doi.org/10.1021/acs.jcim.9b00665)
+* [Ten simple rules on how to create open access and reproducible molecular simulations of biological systems](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006649)
+* [Surviving the deluge of biosimulation data](https://doi.org/10.1002/wcms.1449)
+* [An efficient and extensible format, library, and API for binary trajectory data from molecular simulations](https://doi.org/10.1002/jcc.23495)
+* [Standards for data handling](https://mmb.irbbarcelona.org/BigNASim/htmlib/help/pdf/d7.3_-_white_paper_on_standards_for_data_handling.pdf)
 
