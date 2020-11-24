@@ -28,6 +28,8 @@ entries:
       url: /intrinsically_disordered_proteins.html
   - title: Your problem
     folderitems:
+    - title: Data management plan
+      url: /data_management_plan.html
     - title: Storage
       url: /storage.html
     - title: Data transfer
