@@ -4,22 +4,34 @@ keywords:
 tags: [research_it] 
 ---
 
-## How can I transfer data?
+## How to transfer large data file?
+Large data files cannot be sent by email because they exceed the file size limit of most common email servers. So, how can large data files be transfered from a local computer to a distant one?
 
-### Considerations about data transfer
+### Considerations
 
 There are many aspects to consider when dealing with data transfer, but the most important are :  
 
 * the data size  
-* the capacity or bandwidth of the network links between your local computer and the distant computer 
+* the capacity or bandwidth of the network links between your local computer and the distant computer
+* data security
 
-These parameters are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services. 
-
-Since data transfer involves so many technical aspects, it is a good idea to interact with your technical team in order to avoid any problem if you want to transfer large amounts of data. 
-
+Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services. 
 
 
-## Data transfer protocols and applications
+If you intend to transfer sensitive data to another location, that you have to check what are the regulation and security measure on the remote site. You can interact with the IT departments at both location in order to establish your strategy. Do not forget to check the [Human Data](https://rdm.elixir-europe.org/humandata_usecase.html) pages of the RDM-toolkit. 
+
+
+Since data transfer involves so many technical aspects, it is a good idea to interact with your technical/IT team in order to avoid any problem if you want to transfer large amounts of data.
+
+### Solutions
+
+#### Step 1: Optimize data transfer
+It can be very useful to archive your data in a single to optimize and ease the data transfer. This can be done with two tools available on most systems.
+
+* tar (tape archive) will create an archive, a single file containing several files or directories. 
+* gzip : since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive. 
+
+#### Step 2: Choose the appropriate data transfer protocols or applications
 
 The most common data transfer applications available are :
 
@@ -37,26 +49,17 @@ For massive amounts of data, additional protocols have been developed, paralleli
 
 These transfer solutions require commercial licences for your site and as such they are available mostly on large computational centres. 
 
-
-## Optimizing data transfer 
-
-It can be very useful to archive your data in a single to optimize and ease the data transfer. This can be done with two tools available on most systems.
-
-* tar (tape archive) will create an archive, a single file containing several files or directories. 
-* gzip : since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive. 
-
-
-
-## Checking the transfer
+#### Step 3: Check the transfer
 
 Since during the transfer some data might be corrupted it is important to check if the files you transfered have conserved their integrity. This can be done with hash algorithms. A checkshum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted. 
 
 * md5
-* SHA 
+* SHA
 
+<!-- ## Related topics
+(Optional section)
+* Bullet point list of other pages in this website that are connected to this lifecycle stage -->
 
-## Data security
-
-Keep in mind, if you intend to transfer sensitive data to another location, that you have to check what are the regulation and security measure on the remote site. You can interact with the IT departments at both location in order to establish your strategy. 
-
-Do not forget to check the [Human Data](https://rdm.elixir-europe.org/humandata_usecase.html) pages of the RDM-toolkit. 
+<!-- ## External links
+(Optional section)
+* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above -->
