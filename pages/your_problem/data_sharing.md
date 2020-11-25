@@ -1,5 +1,5 @@
 ---
-title: Public Repositories
+title: Data Sharing
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
 ---
 
