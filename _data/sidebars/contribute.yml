@@ -11,8 +11,8 @@ entries:
           url: /google_doc_way.html
         - title: Git way (advanced)
           url: /working_with_git.html
-        - title: Add new tool or resource
-          url: /tool_resource_update.html
+      - title: Add new tool or resource
+        url: /tool_resource_update.html
       - title: Style guide
         url: /style_guide.html
       - title: Copyright guidelines
