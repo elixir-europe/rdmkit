@@ -47,6 +47,11 @@
                 data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
                 class="no_icon"><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
             {%- endif %}
+            {%- if tool.registry.tess %}
+            <a data-toggle="tooltip"
+                data-original-title="FAIRsharing ID: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
+                class="no_icon"><img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/></a>
+            {%- endif %}
             </td> 
         </tr>
         {%- endfor %}
