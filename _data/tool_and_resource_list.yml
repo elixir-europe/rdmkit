@@ -92,6 +92,7 @@ Tools:
   name: fairsharing
   registry:
     fairsharing: 2abjs5
+    tess: fairsharing
   tags:
   - plan
   - collect
@@ -109,11 +110,13 @@ Tools:
   name: GitHub
   registry:
     fairsharing: biodbcore-001160
+    tess: GitHub
 - description: Protein Homology/analogY Recognition Engine
   link: http://www.sbg.bio.ic.ac.uk/~phyre2
   name: Phyre2
   registry:
     biotools: phyre
+    tess: Phyre2
   tags:
   - process
   - analyse
@@ -122,6 +125,7 @@ Tools:
   name: MIAPPE
   registry:
     fairsharing: nd9ce9
+    tess: MIAPPE
   tags:
   - standard
   - re-use
@@ -150,6 +154,7 @@ Tools:
   name: SEEK
   registry:
     biotools: seek
+    tess: SEEK
   tags:
   - collect
   - process
@@ -171,6 +176,7 @@ Tools:
   name: ArrayExpress
   registry:
     fairsharing: 6k0kwd
+    tess: ArrayExpress
   tags:
   - share
   - re-use
@@ -179,6 +185,7 @@ Tools:
   name: BioModels
   registry:
     fairsharing: paz6mh
+    tess: BioModels
   tags:
   - share
   - re-use
@@ -188,6 +195,7 @@ Tools:
   name: BioSamples
   registry:
     fairsharing: ewjdq6
+    tess: BioSamples
   tags:
   - share
   - re-use
@@ -217,6 +225,7 @@ Tools:
   name: EVA
   registry:
     fairsharing: 6824pv
+    tess: EVA
   tags:
   - share
   - re-use
@@ -226,6 +235,7 @@ Tools:
   name: IntAct
   registry:
     fairsharing: d05nwx
+    tess: IntAct
   tags:
   - share
   - re-use
@@ -235,6 +245,7 @@ Tools:
   name: Metabolights
   registry:
     fairsharing: kkdpxe
+    tess: Metabolights
   tags:
   - share
   - re-use
@@ -245,6 +256,7 @@ Tools:
   name: PRIDE
   registry:
     fairsharing: e1byny
+    tess: PRIDE
   tags:
   - share
   - re-use
@@ -255,6 +267,7 @@ Tools:
   name: PDBE
   registry:
     fairsharing: 26ek1v
+    tess: PDBE
   tags:
   - share
   - re-use
@@ -264,6 +277,7 @@ Tools:
   name: EGA
   registry:
     fairsharing: mya1ff
+    tess: EGA
   tags:
   - share
   - re-use
@@ -276,6 +290,7 @@ Tools:
   name: ENA
   registry:
     fairsharing: dj8nt8
+    tess: ENA
   tags:
   - share
   - re-use
@@ -309,6 +324,7 @@ Tools:
   name: Crop Ontology
   registry:
     fairsharing: bsg-s002695
+    tess: Crop Ontology
   tags:
   - standard
   - re-use
@@ -346,6 +362,7 @@ Tools:
   name: Data Use Ontology
   registry:
     fairsharing: 5dnjs2
+    tess: Data Use Ontology
   tags:
   - human data
   - privacy
@@ -433,6 +450,7 @@ Tools:
   name: BRENDA
   registry:
     fairsharing: etp533
+    tess: BRENDA
   tags:
   - human data
   - re-use
@@ -450,35 +468,41 @@ Tools:
   name: CATH
   registry:
     fairsharing: xgcyyn
+    tess: CATH
 - description: Dictionary of molecular entities focused on 'small' chemical compounds
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
   registry:
     fairsharing: 62qk8w
+    tess: ChEBI
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures,
     calculated properties and abstracted bioactivities.
   link: https://www.ebi.ac.uk/chembl/
   name: ChEMBL
   registry:
     fairsharing: m3jtpg
+    tess: ChEMBL
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: http://www.ensembl.org/index.html
   name: Ensembl
   registry:
     fairsharing: fx0mw7
+    tess: Ensembl
 - description: Comparative analysis, data mining and visualisation for the genomes
     of non-vertebrate species
   link: http://ensemblgenomes.org/
   name: Ensembl Genomes
   registry:
     fairsharing: 923a0p
+    tess: Ensembl Genomes
 - description: Europe PMC is a repository, providing access to worldwide life sciences
     articles, books, patents and clinical guidelines.
   link: https://europepmc.org/
   name: Europe PMC
   registry:
     fairsharing: cmw6mm
+    tess: Europe PMC
 - description: The Human Protein Atlas contains information for a large majority of
     all human protein-coding genes regarding the expression and localization of the
     corresponding proteins based on both RNA and protein data.
@@ -486,6 +510,7 @@ Tools:
   name: Human Protein Atlas
   registry:
     fairsharing: j0t0pe
+    tess: Human Protein Atlas
 - description: List of metadata standards
   link: https://www.dcc.ac.uk/guidance/standards/metadata/list
   name: Data Curation Centre Metadata list
@@ -508,6 +533,7 @@ Tools:
   name: InterPro
   registry:
     fairsharing: pda11d
+    tess: InterPro
   tags:
   - re-use
 - description: The Orphadata platform provides the scientific community with comprehensive,
@@ -526,6 +552,7 @@ Tools:
   name: Silva
   registry:
     fairsharing: 5vtYGG
+    tess: Silva
   tags:
   - re-use
 - description: Known and predicted protein-protein interactions.
@@ -533,6 +560,7 @@ Tools:
   name: STRING
   registry:
     fairsharing: 9b7wvk
+    tess: STRING
   tags:
   - re-use
 - description: Comprehensive resource for protein sequence and annotation data
@@ -540,5 +568,6 @@ Tools:
   name: UniProt
   registry:
     fairsharing: s1ne3g
+    tess: UniProt
   tags:
   - re-use
