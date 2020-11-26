@@ -64,7 +64,7 @@ with open(table_path, 'r') as read_obj:
                                 output[reg] = identifier
                             else:
                                 sys.exit(f'The table contains the registry "{reg}" in row {row_index} which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
-                        if sys.argv[1] == "--tess" and material_available(tool_name) and not "tess" in output:
+                        if sys.argv and sys.argv[1] == "--tess" and material_available(tool_name) and not "tess" in output:
                             output["tess"] = tool_name
                     else:
                         output = unicodedata.normalize("NFKD", cell).strip() # Return the normal form for the Unicode string
