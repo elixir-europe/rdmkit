@@ -34,7 +34,7 @@ jobs:
           commit-message: Update tool/resource_list.yaml
           title: 'Automatic tool/resource-list update'
           body: |
-            This PR is automatically generated based on changes in the tool_and_resource_list.xlsx or resource_list.xlsx file.
+            This PR is automatically generated based on changes in the main_tool_and_resource_list.csv file or based on new links made between the tool table and TeSS.
 
             Please verify if these changes are valid.
           labels: |
