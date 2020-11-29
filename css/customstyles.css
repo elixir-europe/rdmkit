@@ -948,6 +948,21 @@ hr.faded {
     border-radius: 4px;
 }
 
+.post-content img.tess_logo {
+    max-height: 45px;
+    max-width: 45px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+}
+
+.tess-snippet {
+    padding: 16px;
+    display: inline;
+    border-radius: 4px;
+    background-color: #f47d21;
+    color: white;
+}
+
 .docimage {
     margin: 20px 0px 20px 0px;
 }
