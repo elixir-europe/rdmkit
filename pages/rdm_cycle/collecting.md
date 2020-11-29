@@ -2,6 +2,7 @@
 title: Collecting data
 keywords:
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi]
+tags: [plan]
 ---
 
 ## What is Data Collection?
