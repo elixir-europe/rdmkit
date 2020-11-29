@@ -25,7 +25,7 @@ layout: default
         {%- assign projectTags = site.data.tags %}
         {%- for tag in page.tags %}
         {%- if projectTags[tag] %}
-        <a href="{{ projectTags[tag].url }}" class="btn btn-default navbar-btn cursorNorm"
+        <a href="{{ projectTags[tag].url }}" class="btn btn-default"
             role="button">{{tag}}</a>
         {%- endif %}
         {%- endfor %}
