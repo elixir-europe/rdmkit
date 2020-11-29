@@ -2,17 +2,12 @@
 <html lang="en">
 
 <head>
-{% include head.html %}
-    {% if page.datatable == true %}
+    {% include head.html %}
+    {%- if page.datatable == true %}
     <!-- Include the standard DataTables bits -->
     <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css">
     <script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" charset="utf8" src="js/dataTables.bootstrap4.min.js"></script>
-    <!-- First, this walks through the tables that occur between ...-begin
-        and ...-end and add the "datatable" class to them.
-        Then it invokes DataTable's standard initializer
-        Credit here: http://www.beardedhacker.com/blog/2015/08/28/add-class-attribute-to-markdown-table/
-    -->
     <script>
         $(document).ready(function () {
             $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
@@ -24,7 +19,7 @@
             });
         });
     </script>
-    {% endif %}
+    {%- endif %}
 </head>
 
 <body>
@@ -44,16 +39,21 @@
                 <div class="{{content_col_size}}" id="tg-sb-content">
                     {{content}}
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /#main -->
     </div>
     {% include footer.html %}
 </body>
-{% if site.google_analytics %}
-{% include google_analytics.html %}
-{% endif %}
-
+<script>
+    function external_new_window() {
+        for (var c = document.getElementsByTagName("a"), a = 0; a < c.length; a++) {
+            var b = c[a];
+            if (b.getAttribute("href") && b.hostname !== location.hostname) {
+                b.target = "_blank";
+                b.rel = "noopener";
+            }
+        }
+    }
+    external_new_window();
+</script>
 </html>
