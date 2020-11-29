@@ -959,10 +959,14 @@ hr.faded {
     padding: 16px;
     display: inline;
     border-radius: 4px;
-    background-color: #f47d21;
-    color: white;
+    background-color: var(--light-grey);
+    color: var(--main-text-color);
 }
 
+.tess-snippet:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
+}
 .docimage {
     margin: 20px 0px 20px 0px;
 }
