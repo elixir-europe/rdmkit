@@ -1051,7 +1051,7 @@ div.alert code, h2 code {
 }
 
 div.tags {
-    padding: 10px 5px;
+    padding: 10px 0px;
 }
 
 .tabLabel {
@@ -1295,7 +1295,7 @@ a[href].noCrossRef::after, a.no_icon:after {
 }
 
 .btn-default:hover {
-    background-color: var(--blue-dark);
+    background-color: var(--primary-theme-color);
     border: transparent;
     color: var(--white-text)
 }
