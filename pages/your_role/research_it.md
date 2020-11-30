@@ -8,13 +8,13 @@ keywords:  [Persistent storage, Temporary storage, Data management infrastructur
 Sys administration, HPC support, Cloud brokerage
 
 ## My background
-My name is Peter Brown. I studied Engineering at Bristol University. I am interested in building system. I am very competent in unix, system administration, network management, cloud computing, security monitoring? 
-Inter-process communication, threads and programming for the HPC is also an interest of mine.
+My name is Peter Brown. I studied Engineering at Bristol University. I am interested in building system. I am very competent in unix, system administration, network management, cloud computing, security monitoring, inter-process communication, threads and programming for the HPC is also an interest of mine.
 
 
 ## Main duties
 
  * setting-up environments, 
+ * software installation,
  * storage management, 
  * authorization and identifications.
 
@@ -36,6 +36,7 @@ Inter-process communication, threads and programming for the HPC is also an inte
 ## Pages you might be interested in
 
 {% include pagelist.html tag='research_it'%}
+
 
 
 

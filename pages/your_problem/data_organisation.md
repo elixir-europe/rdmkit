@@ -1,16 +1,16 @@
 ---
-title: Privacy
+title: Data Organisation
 keywords: optional
-contributors: [Pinar Alper]
+contributors: [Siiri Fuchs, Minna Ahokas]
+search: exclude
 ---
 
-## "Concrete Problem 1, Ideally Formulated as a Question"
+## What is the best way to name a file?
  
 ### Description
 
-
-I write here on provacy issues and solutions with tools.
-I added a figure done by my great break out colleagues.
+Find the appropriate file naming system is not very easy. File names can be not informative or too long, cousing confusion and technical problems.
+...
 
 ### Considerations
 
@@ -21,7 +21,8 @@ I added a figure done by my great break out colleagues.
   * Sub-point
 * Bullet point solution 2
 
-## "Concrete Problem 2, Ideally Formulated as a Question"
+
+## How to manage file versioning?
  
 ### Description 
 Same as above
@@ -31,6 +32,18 @@ Same as above
 
 ### Solutions
 Same as above
+
+## How to organise files in a folder structure?
+ 
+### Description 
+Same as above
+
+### Considerations
+Same as above
+
+### Solutions
+Same as above
+
 
 ## Related topics
 (Optional section)

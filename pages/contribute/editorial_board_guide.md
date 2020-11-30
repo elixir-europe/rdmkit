@@ -10,6 +10,11 @@ sidebar: contribute
 
 As an editor, try to work as much as possible on a different branch than the master branch. This can be on the elixir-europe rdm-toolkit repo or your own fork. Open a pull request if you want to merge your changes with the master branch. This way it is possible for other editors to give feedback on your changes. Typos or other small fixes can of course be done immediately on the master branch.
 
+### The google doc way of contributing
+This process is sketched below.
+
+{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true  %}
+
 ### Overview of the file structure in GitHub
 
 The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages) directory.
@@ -68,6 +73,10 @@ With each PR or merge to the master, some checks are done using GitHub actions. 
   * Discuss who is going to be responsible for each issue with other editors and reviewers (via issue comments or other communication channels).
   * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
   * When a Pull Request (PR) or a draft PR related to an issue is created, link the PR to the issue.
+  
+More information about these topics can be found in the Github documentation:
+- [commenting on PRs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
+- [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
 ## Review pull requests
 
@@ -119,9 +128,9 @@ Just like with every change you want to make to this repo, it is possible to do 
 
 By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://rdm.elixir-europe.org/markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
 
-### Adding page to the sidebar
+### Linking pages in the sidebar and frontpage
 
-This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars. The sidebar supports multiple levels and each level in the hierarchy can contain a URL to a page within this website or an external URL.
+This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars and the frontpage of the website. The sidebar supports multiple levels and each level in the hierarchy can contain a URL to a page within this website or an external URL.
 
 The attributes that define the structure are:
 - `title`: This is the text that will show up in the sidebar.
@@ -216,6 +225,14 @@ Here we list all the tools with the tag **monitoring**  by using the code snippe
 Giving:
 
 {% include toollist.html tag="monitoring" %}
+
+Add a second tag for filtering using the 'tag2' attribute:
+
+{% raw %}
+```
+{% include toollist.html tag="human data" tag2="plan" %}
+```
+{% endraw %}
 
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
 More information on how to add a tool or resource can be found [here](tool_resource_update).

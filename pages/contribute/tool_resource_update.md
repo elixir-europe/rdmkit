@@ -1,22 +1,24 @@
 ---
-title: Updating tool and resource list
+title: Updating the tool and resource list
 sidebar: contribute
 summary: How to add a tool or resource to RDM Toolkit
 ---
 
 ## Way of working
 
-The tools or resources you will find on pages are a filtered set from a bigger list. This filtering is done using tags. The general tool/resource list is based on the [excel file](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tool_and_resource_list.xlsx) in the `_data` directory of the RDM Toolkit repository. If changes to this file are pushed to github, a Github Bot will generate a Pull Request (PR) with the changes of the excel file applied to the main data file of the website.
+The tools or resources you will find on pages are a filtered set from a [bigger list](all_tools_and_resources). This filtering is done using tags. The general tool/resource list is based on the [csv file](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/main_tool_and_resource_list.csv) in the `_data` directory of the RDM Toolkit repository. Tools and resources are manually linked to [Bio.tools](https://bio.tools) and [FAIRsharing.org](https://fairsharing.org/). The link with [TeSS](https://tess.elixir-europe.org/) is automatically made and weekly updated. If changes to this file are pushed to Github, a Github Bot will generate a Pull Request (PR) with the changes of the csv file applied to the main data file of the website (a yaml file).
 
-## The excel table
+{% include important.html content="The link with TeSS is automatically done using GitHub actions and is weekly updated. These automatic links are not seen in the table. The search query to TeSS for a tool or resource can be overwritten in the registry column of the main csv tool table." %}
+
+## The main table
 
 
 The table consists of 5 columns:
 - **name**: the name of the tool or resource
 - **link**: URL to the main page of the tool or resource, make sure to let the URL start with https://
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
-- **registry**: 2 registries are supported: [Bio.tools](https://bio.tools) and [FAIRsharing.org](https://fairsharing.org/) 
-- **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( The `tags.yaml` file [here](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml) )
+- **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: biotools, fairsharing and tess, specifying the id or query with a colon). List multiple registries using a comma `, ` between the keywords to seperate the key:value pairs. 
+- **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( The `tags.yaml` file [here](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml) ). List multiple tags by using a comma `, ` between them.
 
 | name   	| link                                     	| description                                                                                         	| registry           	| tags             	|
 |--------	|------------------------------------------	|-----------------------------------------------------------------------------------------------------	|--------------------	|------------------	|
@@ -29,7 +31,7 @@ The table consists of 5 columns:
 
 ## Making changes
 
-Since the excel file is a binary file and not a text based file, it is not possible to make changes using the Github website itself.
+Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the Github website itself. 
 
 ### Simple way: changing the google spreadsheet
 
@@ -39,9 +41,9 @@ For people that are not familiar with Git, no worries! The editors will do the w
 - Add or edit tools and resources as described above in "The excel table" paragraph.
 - Done! The editors will update the "tool and resource list" in GitHub regularly.
 
-### Advanced way: making your own PR with changes to the excel file
+### Advanced way: making your own PR with changes to the csv file
 
-Just like with every change you want to make to the repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page.
+Just like with every change you want to make to the repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page. Open the local copy of the csv file in excel, make your changes and commit them.
 
 {% include tip.html content="If you want to know wether the conversion of the excel table and your changes are successful, check out the github action check in the PR named 'Validating the tool and resource table / build' " %}
 

@@ -1,47 +1,25 @@
 ---
-title: "DOMAIN PAGE TITLE"
-keywords: optional
-search: exclude
+title: "Intrinsically Disordered Proteins community"
 ---
 
 
-## "User Scenario 1 Title"
+## Annotating or curating data from an IDP related experiment or study
  
 ### Description
 
-A brief description of the user scenario.
-TODO: decide whether to write the scenario on a personal or impersonal form.
+As a researcher in the field of Intrinsically Disordered Proteins (IDPs), you want to know how to process an experimental result in a FAIR way. As a final aim, you want to deposit the data in a community database or registry for wider adoption.
 
 ### Considerations
-(Optional)
-* Relevant considerations, structured in bullet points
+You can split the experimental process in several steps:
+* How should you describe properly an IDP experiment? Are there any community standards that you should follow?
+* How do you add metadata in order to make IDP data more machine readable?
+* How should you publish IDP data to a wider audience?
 
 ### Solutions
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
+* The IDP community developed a [MIADE](http://www.psidev.info/intrinsically-disordered-proteins-workgroup) standard under a PSI-ID workgroup. The standard specifies the minimum information required to comprehend the result of a disorder experiment.
 
-### Related Problems
-(Optional)
-* Link to relevant Your Problem page
-* Link to relevant Your Problem page
+    The standard is available in XML and TAB format. You can check example annotation in [XML](https://github.com/normandavey/HUPO-PSI-ID/blob/master/HUPO-PSI-ID_XML_format_compact_NFAT_example.xml) and [TAB](https://github.com/normandavey/HUPO-PSI-ID/blob/master/HUPO-PSI-ID_TAB_format.xlsx) format and adapt it to your data.
+* The IDP community developed an Intrinsically Disordered Proteins Ontology (IDPO). The ontology is an agreed consensus of terms used in the community, organized in a structured way.
 
-## "User Scenario 2 Title"
- 
-### Description 
-Same as above
-
-### Considerations
-Same as above
-
-### Solutions
-Same as above
-
-### Related Problems
-Same as above
-
-...
-
-## External Links
-(Optional)
-* Bullet point list of external links to things that aren't included in any of the sections above
+    The ontology is available in [OWL](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.owl) and [OBO](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.obo) format. 
+* You should deposit primary data into relevant community databases ([BMRB](http://www.bmrb.wisc.edu/), [PCDDB](https://pcddb.cryst.bbk.ac.uk/), [SASBDB](https://www.sasbdb.org/)). You should deposit literature data to the manually curated database [DisProt](https://disprot.org/). DisProt is built on MIADE standard and IDPO ontology. As such, DisProt requires curators to annotate all new data according to community standards. DisProt adds and exposes [Bioschemas](https://bioschemas.org/) markup to all data records increasing data findability and interoperability.

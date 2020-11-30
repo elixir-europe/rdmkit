@@ -46,6 +46,11 @@ h3 {
     margin-top: 20px;
 }
 
+/* Add space between an image and <h3> */
+figure + h3, .alert + h3 {
+  margin-top: 1.5em;
+}
+
 h4 {
     font-weight: 700;
     font-size: 120%;
@@ -61,11 +66,26 @@ h3+h4 {
     margin-top: 15px;
 }
 
+strong {
+  color: #333;
+}
+
 /*
 * Spacer classes (not in Bootstrap 3)
 */
 
-.mt-0 {
+.default-label {
+    font-weight: inherit;
+    background-color: var(--light-grey);
+    color: var(--main-text-color)
+}
+
+.default-label:hover {
+    color:var(--white-text);
+    background-color: var(--subtle-text);
+}
+
+.mt-0, .docimage.mt-0 {
     margin-top: 0;
 }
 
@@ -77,7 +97,7 @@ h3+h4 {
     margin-top: 1.5em;
 }
 
-.mb-0 {
+.mb-0, .docimage.mb-0 {
     margin-bottom: 0;
 }
 
@@ -253,7 +273,7 @@ th {
 }
 
 table>thead>tr>th, table>tbody>tr>th, table>tfoot>tr>th, table>thead>tr>td, table>tbody>tr>td, table>tfoot>tr>td {
-    padding: 8px;
+    padding: 8px 8px 8px 0px;
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 1px solid var(--light-grey);
@@ -354,7 +374,7 @@ ul#results-container a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 11px;
+    margin-top: 9.5px;
     border-radius: 4px;
     border-width: 0px;
     background-color: var(--main-bg-color);
@@ -559,7 +579,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .contributors-line {
     color: var(--subtle-text);
-    font-size: 1.2em;
+    margin-top: 30px;
 }
 
 .contributor-badge {

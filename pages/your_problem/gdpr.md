@@ -1,5 +1,6 @@
 ---
 title: Understanding the GDPR
+contributors: [Pinar Alper]
 ---
 
 

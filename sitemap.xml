@@ -5,11 +5,13 @@ search: exclude
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {%- for page in site.pages -%}
-  {%- unless page.search == "exclude" %}
+  {% for page in site.pages -%}
+  {% unless page.sitemap.exclude == true %}
+  {%- if page.title -%}
   <url>
-    <loc>{{site.url}}{{ page.url}}</loc>
+    <loc>https://{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
   </url>
+  {% endif -%}
   {% endunless -%}
-  {% endfor %}
+  {% endfor -%}
 </urlset>
