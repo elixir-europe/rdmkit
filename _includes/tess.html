@@ -1,13 +1,27 @@
-{%- if {{include.search}} %} 
-  <a class="no_icon nohover" data-toggle="tooltip" title="TeSS Search: {{include.search}}" href="https://tess.elixir-europe.org/search?q={{include.search}}">
-    Topic related training: <img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/>
-  </a>
+{%- if {{include.search}} %}
+<a
+  class="no_icon nohover"
+  data-toggle="tooltip"
+  title="TeSS Search: {{include.search}}"
+  href="https://tess.elixir-europe.org/search?q={{include.search}}" >
+  Topic related training:
+  <img
+    style="background-color: #f47d20"
+    class="registry_logo"
+    src="images/tess_logo.svg"
+    alt="TeSS logo" />
+</a>
 {%- elsif {{include.material}} %}
-  <a class="no_icon nohover" data-toggle="tooltip" title="TeSS Material: {{include.material}}" href="https://tess.elixir-europe.org/materials/{{include.material}}">
-    Topic related training: <img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/>
-  </a>
-{%- elsif {{include.event}} %}
-  <a class="no_icon nohover" data-toggle="tooltip" title="TeSS Event: {{include.event}}" href="https://tess.elixir-europe.org/events/{{include.event}}">
-    Topic related training: <img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/>
-  </a>
+<a
+  class="no_icon nohover"
+  data-toggle="tooltip"
+  title="TeSS Material: {{include.material}}"
+  href="https://tess.elixir-europe.org/materials/{{include.material}}" >
+  Topic related training:
+  <img
+    style="background-color: #f47d20"
+    class="registry_logo"
+    src="images/tess_logo.svg"
+    alt="TeSS logo" />
+</a>
 {%- endif %}
