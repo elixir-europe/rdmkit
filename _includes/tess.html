@@ -1,27 +1,15 @@
 {%- if {{include.search}} %}
-<a
-  class="no_icon nohover"
-  data-toggle="tooltip"
-  title="TeSS Search: {{include.search}}"
-  href="https://tess.elixir-europe.org/search?q={{include.search}}" >
+<br>
+<a class="no_icon nohover tess-snippet" role="button" data-toggle="tooltip" title="TeSS Search: {{include.search}}"
+  href="https://tess.elixir-europe.org/search?q={{include.search}}">
   Topic related training:
-  <img
-    style="background-color: #f47d20"
-    class="registry_logo"
-    src="images/tess_logo.svg"
-    alt="TeSS logo" />
+  <img class="tess_logo" src="images/tess_logo.svg" alt="TeSS logo" />
 </a>
 {%- elsif {{include.material}} %}
-<a
-  class="no_icon nohover"
-  data-toggle="tooltip"
-  title="TeSS Material: {{include.material}}"
-  href="https://tess.elixir-europe.org/materials/{{include.material}}" >
+<br>
+<a class="no_icon nohover tess-snippet" role="button" data-toggle="tooltip" title="TeSS Material: {{include.material}}"
+  href="https://tess.elixir-europe.org/materials/{{include.material}}">
   Topic related training:
-  <img
-    style="background-color: #f47d20"
-    class="registry_logo"
-    src="images/tess_logo.svg"
-    alt="TeSS logo" />
+  <img class="tess_logo" src="images/tess_logo.svg" alt="TeSS logo" />
 </a>
 {%- endif %}
