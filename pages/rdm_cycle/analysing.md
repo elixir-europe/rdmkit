@@ -1,7 +1,7 @@
 ---
 title: Analysing
 keywords:
-contributors: Rob Hooft
+contributors: [Rob Hooft]
 ---
 
 ## What is Data Analysis?
@@ -21,7 +21,8 @@ Data Analysis is the main reason for a data intensive project. It actually works
 {% include toollist.html tag="analyse" %}
 
 ## Where can training materials and events about Data Analysis be found?
-<!-- Link to Tess query -->
+
+{% include tess.html search="Data Analysis" %}
 
 ## Related topics
 * [Processing](processing)
