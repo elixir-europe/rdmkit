@@ -27,7 +27,7 @@
             <td>{{tool.description}}</td>
             {%- capture tags %}
             {%- for tag in tool.tags %}
-            {%- if include.tag == tag or include.tag2 == tag %}{% assign bg-color = allowedtags[tag]["bg-color"] | default: "#080808" %}{% assign color = "white" %}
+            {%- if include.tag == tag or include.tag2 == tag %}{% assign bg-color = allowedtags[tag]["bg-color"] | default: "#080808" %}{% assign color = allowedtags[tag]["color"] | default: "white" %}
             <span class="label" style="color:{{color}}; background-color:{{bg-color}};">{{tag}}</span>
             {%- else %}
             {%- assign link = allowedtags[tag]["url"] | default: "#" %}

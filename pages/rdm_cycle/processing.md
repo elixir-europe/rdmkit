@@ -1,7 +1,7 @@
 ---
 title: Processing
 keywords:
-contributors: Rob Hooft
+contributors: [Rob Hooft]
 ---
 
 ## What is data processing?
