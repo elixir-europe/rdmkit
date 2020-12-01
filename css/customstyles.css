@@ -237,6 +237,10 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     color: gray;
 }
 
+.margin-link {
+    margin: 25px 0px;
+}
+
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -250,12 +254,15 @@ caption {
 }
 
 table {
-    margin: 20px 0;
     border: 1px solid var(--main-bg-color);
     table-layout: fixed;
     background-color: transparent;
     display: block;
     overflow-x: auto;
+}
+
+.table-margin {
+    margin: 20px 0;
 }
 
 th {
@@ -955,7 +962,7 @@ hr.faded {
     margin-bottom: 5px;
 }
 
-.tess-snippet {
+.orange-snip {
     padding: 16px;
     display: inline;
     border-radius: 4px;
@@ -963,7 +970,7 @@ hr.faded {
     color: var(--main-text-color);
 }
 
-.tess-snippet:hover {
+.orange-snip:hover {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }

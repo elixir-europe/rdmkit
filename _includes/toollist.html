@@ -7,7 +7,15 @@
 {%- if include.tag2 -%}
 {%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
 {%- endif -%}
-<table class="tooltable display">
+{%- if include.hide %}
+<div class="margin-link">
+<a class="btn orange-snip" href="#{{include.tag}}" role="button" data-toggle="collapse" data-target="#{{include.tag}}" aria-expanded="false" aria-controls="{{include.tag}}">
+    Show tools
+</a>
+</div>
+<div class="collapse" id="{{include.tag}}">
+{%- endif %}
+<table class="tooltable display {%- if include.hide != true %}table-margin{%- endif %}">
     <thead>
         <tr>
             <th>Tool or resource</th>
@@ -57,3 +65,6 @@
         {%- endfor %}
     </tbody>
 </table>
+{%- if include.hide %}
+</div>
+{%- endif %}
