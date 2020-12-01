@@ -51,10 +51,10 @@ DMP can also be written as a simple text document, if preferred.
 * [Analyse](analysing)
 * [Preserving](preserving)
 * [Sharing](sharing)
-* [Find and reuse existing data](re-using)
+* [Find and reuse existing data](reusing)
 * [Metadata Management](metadata_management)
 * [Storage](storage)
-* [Security and privacy](data_sustainability)
+* [Security and privacy](security_and_privacy)
 * [Data sharing](data_sharing)
 
 <!-- * File format

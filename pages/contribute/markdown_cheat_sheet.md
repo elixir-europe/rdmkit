@@ -165,7 +165,6 @@ Make sure that you add the image to the `images` directory and give it an unders
 * `url`: f you want the image to link to anther page
 * `alt`: describes the image and is used for people that are visually impaired
 * `caption`: Text that will appear under the image
-* `inline`: if true this image can be used in a list
 
 ## Icons
 
@@ -265,32 +264,12 @@ public class ScannerAndKeyboard
 * List line 2
     * Sublist line 1
 
-Is made with:
+Comes from:
 
 ```md
 * List line 1
 * List line 2
     * Sublist line 1
-		* Subsublist line 1
-```
-
-Numbered lists look like this:
-
-1. Number one
-2. Number two
-3. Number three
-   1. Sub number one
-   2. Sub number two
-
-and are made with:
-
-```md
-1. Number one
-2. Number two
-3. Number three
-   1. Sub number one
-   2. Sub number two
-
 ```
 
 ## A collapsible piece of text
@@ -312,30 +291,6 @@ Text
 </ol>
 </details>
 ```
-
-## Including a TeSS training material button
-
-Link to a search query:
-{% raw %}
-```
-{% include tess.html search="Data Steward" %}
-```
-{% endraw %}
-
-Will look like this:
-
-{% include tess.html search="Data Steward" %}
-
-Link to a specific training material:
-{% raw %}
-```
-{% include tess.html material="data-management-plans-why-and-how" %}
-```
-{% endraw %}
-
-Will look like this:
-
-{% include tess.html material="data-management-plans-why-and-how" %}
 
 ## Tagging pages and listing those pages
 
