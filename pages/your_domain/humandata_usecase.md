@@ -41,8 +41,6 @@ To do research on human data you must follow established research ethical guidel
   * [BBMRI-ERIC's Ethical Legal Societal Issues (ELSI) Knowledge Base](http://www.bbmri-eric.eu/elsi-knowledgebase) contains a glossary, agreement templates and guidance. 
 
 
-{% include toollist.html tag="human data" %}
-
 
 ## Processing and Analysing human data
 
@@ -64,7 +62,7 @@ This topic concerns the procedure and technical issues to ensure that personal i
 * RD-Connect Genome Phenome Analysis Platform
 * GA4GH data security toolkit
 
-{% include toollist.html tag="human data" %}
+
 
 ## Preserving human research data
 
@@ -110,6 +108,15 @@ Sensitive human data often carries restrictions to its use and it would need to 
 * (Federated) EGA
 * dbGAP
 * Beacon
+
+
+## Tools and resources are available for the management of human-subject data
+
+{% include toollist.html tag="human data" %}
+
+## Training materials and events on the management of human-subject data
+<!-- Link to Tess query -->
+
 
 
 
