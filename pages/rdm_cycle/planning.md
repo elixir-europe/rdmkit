@@ -43,7 +43,7 @@ DMP can also be written as a simple text document, if preferred.
 
 ## Where can training materials and events about Data Management Planning be found?
 
-
+{% include tess.html search="Data Management Planning" %}
 
 ## Related topics
 

@@ -30,7 +30,8 @@ For personal (sensitive) data all legal and technical requirements have to met b
 {% include toollist.html tag="re-use" %}
 
 ## Where can training materials and events about Data Re-use be found?
-<!-- Link to Tess query -->
+
+{% include tess.html search="Data Re-use" %}
 
 ## Related topics
 
