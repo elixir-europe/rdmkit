@@ -34,8 +34,7 @@ For personal (sensitive) data all legal and technical requirements have to met b
 
 ## Related topics
 
-* [Security and privacy](security_and_privacy)
-* [Data sharing](data_sharing)
+{% include pagelist.html tag="re-use" %}
 
 <!-- * File format
 * Data volume

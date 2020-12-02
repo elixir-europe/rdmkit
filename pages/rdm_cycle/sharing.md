@@ -44,7 +44,8 @@ If you want to close or restrict access to your datasets, you must explain your 
 <!-- Link to Tess query -->
 
 ## Related topics
-* [Metadata management](metadata_mamagenet)
+
+{% include pagelist.html tag="share" %}
 
 <!-- * Licensing
 * Funder requirements -->

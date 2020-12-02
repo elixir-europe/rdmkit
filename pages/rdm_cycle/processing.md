@@ -41,7 +41,8 @@ The following considerations are important for data processing:
 
 ## Related topics
 
-* [Data Storage](storage)
+{% include pagelist.html tag="process" %}
+
 
 <!--## External links
 missing content -->

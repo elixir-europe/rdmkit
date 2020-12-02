@@ -41,7 +41,8 @@ When preserving digital data
 
 ## Related topics
 
-* [Metadata management](metadata_management)
+{% include pagelist.html tag="preserve" %}
+
 
 <!-- * Licences
 * Data quality
