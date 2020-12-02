@@ -16,9 +16,6 @@ company_name: ELIXIR Converge
 github_editme_path: elixir-europe/rdm-toolkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-# google_analytics: UA-66296557-1
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
-
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
@@ -48,7 +45,6 @@ feedback_text: "Give feedback"
 # if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
-# library used for syntax highlighting
 
 markdown: kramdown
 kramdown:
@@ -75,8 +71,6 @@ sidebars:
 - contribute
 
 description: "ELIXIR Data Management Toolkit"
-
-github: [metadata]
 
 RDM_pages: ["/re-using.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
 

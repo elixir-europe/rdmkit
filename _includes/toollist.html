@@ -7,7 +7,15 @@
 {%- if include.tag2 -%}
 {%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
 {%- endif -%}
-<table class="tooltable display">
+{%- if include.hide %}
+<div class="margin-link">
+<a class="btn orange-snip" href="#{{include.tag}}" role="button" data-toggle="collapse" data-target="#{{include.tag}}" aria-expanded="false" aria-controls="{{include.tag}}">
+    Show tools
+</a>
+</div>
+<div class="collapse" id="{{include.tag}}">
+{%- endif %}
+<table class="tooltable display {%- if include.hide != true %}table-margin{%- endif %}">
     <thead>
         <tr>
             <th>Tool or resource</th>
@@ -27,7 +35,7 @@
             <td>{{tool.description}}</td>
             {%- capture tags %}
             {%- for tag in tool.tags %}
-            {%- if include.tag == tag or include.tag2 == tag %}{% assign bg-color = allowedtags[tag]["bg-color"] | default: "#080808" %}{% assign color = "white" %}
+            {%- if include.tag == tag or include.tag2 == tag %}{% assign bg-color = allowedtags[tag]["bg-color"] | default: "#080808" %}{% assign color = allowedtags[tag]["color"] | default: "white" %}
             <span class="label" style="color:{{color}}; background-color:{{bg-color}};">{{tag}}</span>
             {%- else %}
             {%- assign link = allowedtags[tag]["url"] | default: "#" %}
@@ -57,3 +65,6 @@
         {%- endfor %}
     </tbody>
 </table>
+{%- if include.hide %}
+</div>
+{%- endif %}

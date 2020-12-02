@@ -237,6 +237,10 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
     color: gray;
 }
 
+.margin-link {
+    margin: 25px 0px;
+}
+
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -250,12 +254,15 @@ caption {
 }
 
 table {
-    margin: 20px 0;
     border: 1px solid var(--main-bg-color);
     table-layout: fixed;
     background-color: transparent;
     display: block;
     overflow-x: auto;
+}
+
+.table-margin {
+    margin: 20px 0;
 }
 
 th {
@@ -948,6 +955,25 @@ hr.faded {
     border-radius: 4px;
 }
 
+.post-content img.tess_logo {
+    max-height: 45px;
+    max-width: 45px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+}
+
+.orange-snip {
+    padding: 16px;
+    display: inline;
+    border-radius: 4px;
+    background-color: var(--light-grey);
+    color: var(--main-text-color);
+}
+
+.orange-snip:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
+}
 .docimage {
     margin: 20px 0px 20px 0px;
 }
@@ -1051,7 +1077,7 @@ div.alert code, h2 code {
 }
 
 div.tags {
-    padding: 10px 5px;
+    padding: 10px 0px;
 }
 
 .tabLabel {
@@ -1295,7 +1321,7 @@ a[href].noCrossRef::after, a.no_icon:after {
 }
 
 .btn-default:hover {
-    background-color: var(--blue-dark);
+    background-color: var(--primary-theme-color);
     border: transparent;
     color: var(--white-text)
 }
