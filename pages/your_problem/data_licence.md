@@ -3,6 +3,7 @@ title: Data Licence
 keywords: optional
 contributors: [Siiri Fuchs, Minna Ahokas]
 search: exclude
+tags: [share, re-use]
 ---
 
 ## "Concrete Problem 1, Ideally Formulated as a Question"

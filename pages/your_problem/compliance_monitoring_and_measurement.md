@@ -1,6 +1,6 @@
 ---
 title: Compliance Monitoring & Measurement
-tags: [research_it, privacy] 
+tags: [plan] 
 toc: false
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper]
 ---
