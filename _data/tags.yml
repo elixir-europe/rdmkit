@@ -34,6 +34,8 @@ metadata:
 human data:
   url: humandata_usecase.html
   bg-color: "#526086"
+privacy: 
+  bg-color: "#666"
 dmp:
   url: data_management_plan.html
 data transfer:
