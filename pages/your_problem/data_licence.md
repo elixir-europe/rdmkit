@@ -12,7 +12,7 @@ Licensing is an important aspect of meeting the R (reusable) principle in FAIR d
 
 ### Considerations
 * Remember that a licence is needed also if you use someone else’s data, that is protected by copyright or related rights.
-* If no license is granted, re-use is not permitted without the consent of the copyright holder.
+* If no license is granted, re-use is generally not permitted without the consent of the copyright holder.
 * Be sure of data ownership before publishing data. 
   * Are there rights belonging to a third party?
 
@@ -50,5 +50,4 @@ This depends on what rights protect your research data. Which licence to choose 
 * Licence selectors:
 (https://creativecommons.org/choose/)
 (https://choosealicense.com/)
-
 
