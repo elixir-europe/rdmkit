@@ -21,7 +21,7 @@ Licensing is an important aspect of meeting the R (reusable) principle in FAIR d
 * Choose a licence that ensures your data is correctly attributed and makes the terms of re-using your data explicit to the user.
 
 ## Related topics
-* [Sharing] (sharing)
+* [Sharing](sharing)
 
 
 
