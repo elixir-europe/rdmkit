@@ -44,7 +44,7 @@ This depends on what rights protect your research data. Which licence to choose 
   * The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
   * [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licenses and are available in human-readable and machine-readable forms, with different levels of permissions.
 * Consider choosing a truly open Creative Commons licence CC0, if your research data is a database or a dataset. CC0 waives all your rights to the work.
-* Remember, that a CC licence cannot be revoked once it has been issued.
+* Remember, that the rights granted in a licence cannot be revoked once it has been applied.
 
 ## External links
 * Licence selectors:
