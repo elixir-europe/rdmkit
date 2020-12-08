@@ -43,11 +43,9 @@ This depends on what rights protect your research data. Which licence to choose 
 * Apply a Creative Commons license to your data to ensure that your data can be shared and reused. 
   * CC licences are conformant with the set forth in the [Open Definition](https://opendefinition.org/licenses/) and they are available in human-readable and machine-readable forms and they offer different levels of permission. 
 * Consider choosing a truly open Creative Commons licence CC0, if your research data is a database or a dataset. CC0 waives all your rights to the work.
-* The granting of a Creative Commons license has no influence on the copyright.
 * Remember, that a CC licence cannot be revoked once it has been issued.
 
 ## External links
 * Licence selectors:
 (https://creativecommons.org/choose/)
 (https://choosealicense.com/)
-
