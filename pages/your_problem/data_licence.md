@@ -40,8 +40,9 @@ This depends on what rights protect your research data. Which licence to choose 
 * ELIXIR data resources ideally have terms of use or a licence that enables the reuse and remixing of data.
 
 ### Solutions
-* Apply a Creative Commons license to your data to ensure that your data can be shared and reused. 
-  * CC licences are conformant with the set forth in the [Open Definition](https://opendefinition.org/licenses/) and they are available in human-readable and machine-readable forms and they offer different levels of permission. 
+* Apply to your data one of the [recommended licenses conformant to the Open Definition](https://opendefinition.org/licenses/), so that your data can be shared and reused.
+  * The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
+  * [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licenses and are available in human-readable and machine-readable forms, with different levels of permissions.
 * Consider choosing a truly open Creative Commons licence CC0, if your research data is a database or a dataset. CC0 waives all your rights to the work.
 * Remember, that a CC licence cannot be revoked once it has been issued.
 
