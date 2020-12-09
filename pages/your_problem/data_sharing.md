@@ -59,3 +59,7 @@ Bullet point list of other pages in this website that are connected to this life
 
 ## External links
 * [Wellcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines).
+
+## Relevant tools and resources
+
+{% include toollist.html tag="data sharing" %}

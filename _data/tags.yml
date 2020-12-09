@@ -23,6 +23,7 @@ storage:
   bg-color: "#6E1FA4"
   url: storage.html
 monitoring: 
+  url: compliance_monitoring_and_measurement.html
   bg-color: "#14968C"
 standard: 
   bg-color: "#CD1B6C"
@@ -42,6 +43,8 @@ data transfer:
   url: data_transfer.html
 data sharing:
   url: data_sharing.html
+  bg-color: "#9ae4bb"
+  color: "#333"
 data quality:
   url: data_quality.html
 data licence:
@@ -63,5 +66,6 @@ policy:
 ontology:
 interoperability:
 sensitive data:
+  url: data_sensitivity.html
 data analysis:
   bg-color: "#763E2A"

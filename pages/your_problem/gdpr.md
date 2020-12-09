@@ -55,3 +55,6 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
   * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects. 
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements 
 
+## Relevant tools and resources
+
+{% include toollist.html tag="gdpr" %}

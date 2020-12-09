@@ -27,3 +27,7 @@ There are multiple standards for different types of data, ranging from generic d
 ## Related topics
  
 ## External links
+
+## Relevant tools and resources
+
+{% include toollist.html tag="metadata" %}

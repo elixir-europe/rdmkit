@@ -80,4 +80,6 @@ A DMP should address a broad range of data management aspects, regardless of tem
   * Ethical and legal issues
 * Consider the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) from the Research Data Alliance as a reference data model for organizing these topic.
 
+## Relevant tools and resources
 
+{% include toollist.html tag="dmp" %}

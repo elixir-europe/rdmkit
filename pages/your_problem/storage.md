@@ -59,3 +59,6 @@ To ensure that research data are easy to find and accessible as well as the resu
 * [e!DAL](https://edal.ipk-gatersleben.de/)
 * [Research Data Management Platform (RDMP)](https://www.dundee.ac.uk/hic/researchdatamanagementplatform/)
 
+## Relevant tools and resources
+
+{% include toollist.html tag="storage" %}
