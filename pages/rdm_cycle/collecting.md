@@ -28,10 +28,6 @@ Consider the following, while collecting data
 * Describing the data, is there a suitable metadata standard?
 
 
-## What tools and resources are available for Data Collection?
-
-{% include toollist.html tag="collect" %}
-
 ## Where can training materials and events about Data Collection be found?
 
 {% include tess.html search="Data Collection" %}

@@ -71,3 +71,8 @@ You have set up an experiment in which you are studying a panel of genetic resou
 ### Solutions
 * For phenotyping data, proceed as described in ## Producing FAIR plant phenotyping data
 * For transcriptomic data
+
+
+## Relevant tools and resources
+
+{% include toollist.html tag="plant" %}

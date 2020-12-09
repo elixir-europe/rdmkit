@@ -32,10 +32,6 @@ The following considerations are important for data processing:
     * Is there a special significance to empty or otherwise special data fields? And is that made explicit?
     * Are all relationships between data fields explicit (e.g. if a dataset contains "medication" and "disease", is that medication actually used to treat the disease? Or is it e.g. medication that the patient is using for other reasons?)
 
-## What tools and resources are available for Data Processing?
-
-{% include toollist.html tag="process" %}
-
 ## Where can training materials and events about Data Processing be found?
 
 {% include tess.html search="Data Processing" %}

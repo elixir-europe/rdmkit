@@ -110,7 +110,7 @@ Sensitive human data often carries restrictions to its use and it would need to 
 * Beacon
 
 
-## Tools and resources are available for the management of human-subject data
+## Relevant tools and resources
 
 {% include toollist.html tag="human data" %}
 

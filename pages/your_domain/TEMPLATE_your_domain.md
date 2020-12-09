@@ -49,3 +49,7 @@ Same as above
 ## External Links
 (Optional)
 * Bullet point list of external links to things that aren't included in any of the sections above
+
+## Relevant tools and resources
+
+{% include toollist.html tag="" %}

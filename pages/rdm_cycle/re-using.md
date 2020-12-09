@@ -24,11 +24,6 @@ One starting point can be to use value added databases with curatated content. O
 The re-use of data should be aligned with the intellectual property right e.g. by making sure it is available under a suiting license.
 For personal (sensitive) data all legal and technical requirements have to met before it can be accessed. Getting access to personal (sensitive) data often requires additional steps.
 
-## What tools and resources are available for Data Re-use?
-
-
-{% include toollist.html tag="re-use" %}
-
 ## Where can training materials and events about Data Re-use be found?
 
 {% include tess.html search="Data Re-use" %}
