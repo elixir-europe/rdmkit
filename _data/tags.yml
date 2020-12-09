@@ -26,7 +26,7 @@ monitoring:
   bg-color: "#14968C"
 standard: 
   bg-color: "#CD1B6C"
-research_it:
+research it:
   url: research_it.html
 metadata:
   url: metadata_management.html
@@ -50,3 +50,18 @@ data organisation:
   url: data_organisation.html
 gdpr:
   url: gdpr.html
+infrastructure:
+plant:
+  url: plant_phenotyping_usecase.html
+  bg-color: "#5cb85c"
+researcher:
+  url: researcher.html
+collaborative research:
+existing data:
+  bg-color: "#f47d21"
+policy:
+ontology:
+interoperability:
+sensitive data:
+data analysis:
+  bg-color: "#763E2A"
