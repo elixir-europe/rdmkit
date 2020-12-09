@@ -66,4 +66,4 @@ Since during the transfer some data might be corrupted it is important to check 
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="dmp" %}
+<!-- {% include toollist.html tag="data transfer" %} -->
