@@ -19,6 +19,9 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
+    {%- if page.tags != null or page.contributors != null %}
+    <hr>
+    {%- endif %}
     {%- if page.tags != null %}
     <div class="tags">
         <b>Tags: </b>

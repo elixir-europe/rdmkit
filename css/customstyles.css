@@ -779,7 +779,6 @@ span.projectTitle {
 }
 
 #main {
-    padding-bottom: 2.5rem;
     min-height: 100vh;
     /* Footer height */
 }
@@ -1077,7 +1076,7 @@ div.alert code, h2 code {
 }
 
 div.tags {
-    padding: 10px 0px;
+    margin-top: 30px;
 }
 
 .tabLabel {
