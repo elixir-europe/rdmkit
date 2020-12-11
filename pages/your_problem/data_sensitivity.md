@@ -1,6 +1,8 @@
 ---
-title: Security & Privacy
-keywords:
+title: Data Sensitivity
+keywords: human data
+contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper]
+tags: [share, collect, process]
 ---
 
 ## Is my data sensitive?

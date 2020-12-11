@@ -11,9 +11,6 @@ layout: default
         {%- endif %}
     </h1>
 </div>
-{%- if page.contributors %}
-<div class="contributors-line">By: {%- include contributor-badge-list.html contributors=page.contributors %}</div>
-{%- endif %}
 <div class="post-content">
     {%- if page.summary %}
     <div class="summary">{{page.summary}}</div>
@@ -28,11 +25,13 @@ layout: default
         {%- assign projectTags = site.data.tags %}
         {%- for tag in page.tags %}
         {%- if projectTags[tag] %}
-        <a href="{{ tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm"
-            role="button">{{tag | replace: "_", " "}}</a>
+        <a href="{{ projectTags[tag].url }}" class="btn btn-default"
+            role="button">{{tag}}</a>
         {%- endif %}
         {%- endfor %}
     </div>
     {%- endif %}
 </div>
-<!-- {%- include page_ending.html %} -->
+{%- if page.contributors %}
+<div class="contributors-line">Contributors: {%- include contributor-badge-list.html contributors=page.contributors %}</div>
+{%- endif %}

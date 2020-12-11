@@ -165,6 +165,7 @@ Make sure that you add the image to the `images` directory and give it an unders
 * `url`: f you want the image to link to anther page
 * `alt`: describes the image and is used for people that are visually impaired
 * `caption`: Text that will appear under the image
+* `inline`: if true this image can be used in a list
 
 ## Icons
 
@@ -264,12 +265,32 @@ public class ScannerAndKeyboard
 * List line 2
     * Sublist line 1
 
-Comes from:
+Is made with:
 
 ```md
 * List line 1
 * List line 2
     * Sublist line 1
+		* Subsublist line 1
+```
+
+Numbered lists look like this:
+
+1. Number one
+2. Number two
+3. Number three
+   1. Sub number one
+   2. Sub number two
+
+and are made with:
+
+```md
+1. Number one
+2. Number two
+3. Number three
+   1. Sub number one
+   2. Sub number two
+
 ```
 
 ## A collapsible piece of text
@@ -292,6 +313,30 @@ Text
 </details>
 ```
 
+## Including a TeSS training material button
+
+Link to a search query:
+{% raw %}
+```
+{% include tess.html search="Data Steward" %}
+```
+{% endraw %}
+
+Will look like this:
+
+{% include tess.html search="Data Steward" %}
+
+Link to a specific training material:
+{% raw %}
+```
+{% include tess.html material="data-management-plans-why-and-how" %}
+```
+{% endraw %}
+
+Will look like this:
+
+{% include tess.html material="data-management-plans-why-and-how" %}
+
 ## Tagging pages and listing those pages
 
 Tagging pages is done by the `tags:` property in the metadata of the markdown page.
@@ -302,7 +347,7 @@ This metadata example shows how we tag the "Storage" page with the **research_it
 ---
 title: Storage
 keywords:
-tags: [research_it] 
+tags: [share, collect] 
 ---
 ```
 
@@ -310,13 +355,13 @@ If you than want to list all the pages containing the tag **research_it** you ca
 
 {% raw %}
 ```
-{% include pagelist.html tag='research_it'%}
+{% include pagelist.html tag='share'%}
 ```
 {% endraw %}
 
 Giving:
 
-{% include pagelist.html tag='research_it'%}
+{% include pagelist.html tag='share'%}
 
 This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. To only allow a curated list of tags, make sure you find the tag in the `tags.yaml` file in the `_data` repository. 
 
@@ -334,9 +379,17 @@ Giving:
 
 {% include toollist.html tag="monitoring" %}
 
+Add a second tag for filtering using the 'tag2' attribute:
+
+{% raw %}
+```
+{% include toollist.html tag="human data" tag2="plan" %}
+```
+{% endraw %}
+
 Make sure the tag exists in the `tool_and_resource_list.yml` file + in the `tags.yml`.
 
-Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
+Tools and resources can be added by manipulating the main_tool_and_resource_list.csv file in the `_data` repository. For more info about how to add a tool or resource please visit [our guide](tool_resource_update).
 
 ## Enforce space between two lines
 

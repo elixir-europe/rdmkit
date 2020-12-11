@@ -1,8 +1,8 @@
 ---
-title: Data Management Planning
-keywords: optional
+title: Data Management Plan
+keywords: 
 contributors: [Flora D'Anna, Daniel Faria]
-search: exclude
+tags: [plan]
 ---
 
 

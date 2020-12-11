@@ -1,16 +1,16 @@
 ---
-title: Privacy
+title: Data Licence
 keywords: optional
-contributors: [Pinar Alper]
+contributors: [Siiri Fuchs, Minna Ahokas]
+search: exclude
+tags: [share, re-use]
 ---
 
 ## "Concrete Problem 1, Ideally Formulated as a Question"
  
 ### Description
 
-
-I write here on provacy issues and solutions with tools.
-I added a figure done by my great break out colleagues.
+Short explanation of what this problem is.
 
 ### Considerations
 

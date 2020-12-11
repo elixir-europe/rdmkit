@@ -1,22 +1,26 @@
 ---
 title: How to contribute to the RDM toolkit website
 sidebar: contribute
-toc: false 
+toc: false
 ---
 
 
-## Ways of contributing 
+## Ways of contributing
 
-We accept contributions in the two ways sketched below, through GitHub or through Google Docs.
- 
-{% include image.html file="howto_contribute_overview.svg" alt="How to contribute overview" %}
 
-* **Github way:** We use GitHub to develop the RDM toolkit website. GitHub allows us to accept and coordinate contributions under an open authoring and review process. Therefore, this is our preferred way of accepting contributions. To begin with, you will need a personal GitHub account, which you can create on the [GiHub Join page](https://github.com/join).   
-* **Google Doc way:** Alternatively, we provide Google Doc templates. This approach requires you to email our editors, who will transfer your content to our git repository for you.
+Everyone is welcome to contribute to this site, and we've tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so:
+
+* **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
+* **If you are happier using Google Docs**: follow [the Google Doc way](google_doc_way).
+* **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](working_with_git)).
+* **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below.
 
 ## Contributor responsibilities
 
 When writing for this website keep in mind the following:
 
-* For the sake of consistency, please follow our [style guide](https://rdm.elixir-europe.org/style_guide.html).
-* We give great importance to authorship credit. If others were involved in your contribution, by writing up or by providing resources such as diagrams/links, please make sure you acknowledge them in the authors' section of your page.
+* For the sake of consistency, please follow our [style guide](style_guide).
+* We give great importance to authorship credit. If others were involved in your contribution, by writing up or by providing resources such as diagrams or links, please make sure you acknowledge them in the authors' section of your page.
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-yfGjAdusicjzdmzrfmUOcrfszhaZEk24igCeVwMllKzxsw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="width: 100%;" class="mt-1">Loading…</iframe>

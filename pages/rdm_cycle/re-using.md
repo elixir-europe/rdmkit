@@ -1,7 +1,7 @@
 ---
 title: Re-using
 keywords:
-contributors: [korbinib, DanFaria]
+contributors: [Korbinian Bösl, Daniel Faria]
 ---
 
 ## What is Data Re-use?
@@ -31,18 +31,21 @@ For personal (sensitive) data all legal and technical requirements have to met b
 
 ## Where can training materials and events about Data Re-use be found?
 
+{% include tess.html search="Data Re-use" %}
+
 ## Related topics
 
-* File format
+{% include pagelist.html tag="re-use" %}
+
+<!-- * File format
 * Data volume
 * Licences
 * Ontology
 * Data organisation
 * Identifiers
 * Data quality
-* Data repositories
 * Responsibilities
-* Ethical and legal issues
-* [Security and privacy](security_and_privacy)
+* Ethical and legal issues -->
 
-## External links
+<!-- ## External links
+missing content -->
