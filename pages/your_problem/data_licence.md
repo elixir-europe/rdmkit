@@ -6,7 +6,7 @@ search: exclude
 tags: [share, re-use]
 ---
 
-## "Why should I assign a licence to my research data?"
+## Why should I assign a licence to my research data?"
  
 ### Description 
 Licensing is an important aspect of meeting the R (reusable) principle in FAIR data management. As part of the publication process, you need to decide under which license the data is released. A license is like a greeting to any person wishing to access, cite and use your data telling what they are allowed to do with the data.
