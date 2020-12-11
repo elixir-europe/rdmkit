@@ -4,33 +4,32 @@ keywords: optional
 search: exclude
 ---
 
-## Overview
+## Introduction
 
-A brief overview of the domain as a whole and the particular challenges it raises.
+Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
+In the event that no adequate Problem page exists for a problem that can be generalized across domains, consider first contributing to create one or raising a GitHub issue. However, if a problem is entirely domain specific, then it should be fully detailed within the respective Domain page.
+
+In this section you should provide a brief overview of the domain from the data management perspective, mentioning and putting into context the challenges that are particular to the domain, which will be the object of sections below.
 
 
-## "User Scenario 1 Title"
+## "Section 1 Title"
  
 ### Description
-
-A brief description of the user scenario.
-TODO: decide whether to write the scenario on a personal or impersonal form.
+Sections within Domain pages (aside from "Introduction" at the start and "Relevant Tools & Resources" at the end) should focus on particular data management problems, which should be described in this first sub-section.
+For problems that are fully domain-specific, a detailed description is merited.
+For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges.
 
 ### Considerations
-(Optional)
-* Relevant considerations, structured in bullet points
+* (Optional) considerations, structured in bullet points and typically framed as questions the Toolkit reader should ask themselves in order to arrive at the best solution among those listed below.
+  * One level of nesting within considerations is fine, but more levels should be avoided
+* Considerations should be direct and concise
 
 ### Solutions
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
+Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. 
+* Do not merely list tools or resources, as they will be automatically listed in the bottom section
+  * However, you can and should mention tools and resources listed below if you detail their usage to solve the problem
 
-### Related Problems
-(Optional)
-* Link to relevant Your Problem page
-* Link to relevant Your Problem page
-
-## "User Scenario 2 Title"
+## "Section 2 Title"
  
 ### Description 
 Same as above
@@ -41,11 +40,7 @@ Same as above
 ### Solutions
 Same as above
 
-### Related Problems
-Same as above
-
 ...
 
-## External Links
-(Optional)
-* Bullet point list of external links to things that aren't included in any of the sections above
+## Relevant Tools & Resources
+(Automatically Generated Table)
