@@ -18,6 +18,7 @@ Short explanation of what this problem is.
   * Sub-point
 * Bullet point solution 2
 
+
 ## Can I share my data?
 
 ### Considerations
@@ -42,30 +43,24 @@ The most suitable repository will depend on the data type and your discipline.
   * Does the funding agency pose specific requirements regarding data sharing?
 
 ### Solutions
-#### Domain-Specific Repositories
-If a domain-specific repository, recognised by the community, exists this should be your first choice. Domain-specific repositories often increases the FAIRness of the data.
-
-The European Bioinformatics Institute (EMBL-EBI) provides a tool to help you choose a suitable repository based on your data type.
-* [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/)
-
-Lists of domain-specific, community-recognized repositories can be found in the following links:
-* [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
-* [scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
+* Domain-Specific Repositories
+If a domain-specific repository, recognised by the community, exists this should be your first choice since domain-specific repositories often increases the FAIRness of the data.
+  * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
+  * Lists of domain-specific, community-recognised repositories can be found in the following links:
+    * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
+    * [scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
 
-#### General Repositories
+* General Repositories
 For other cases, your Institution or University may provide a centralised repository for storing the data or you may consider to use a general repository.
-
-List of Generalist repositories if no suitable community resource is available:
-
-* [4TU.Datacentrum](https://data.4tu.nl/info/en/).
-* [Dryad Digital Repository](http://datadryad.org).
-* [Figshare](https://figshare.com).
-* [Harvard Dataverse](https://dataverse.harvard.edu).
-* [Mendeley Data](https://data.mendeley.com).
-* [Open Science Framework](https://osf.io).
-* [Zenodo](https://zenodo.org).
-* [Code Ocean](https://codeocean.com).
+  * [4TU.Datacentrum](https://data.4tu.nl/info/en/).
+  * [Dryad Digital Repository](http://datadryad.org).
+  * [Figshare](https://figshare.com).
+  * [Harvard Dataverse](https://dataverse.harvard.edu).
+  * [Mendeley Data](https://data.mendeley.com).
+  * [Open Science Framework](https://osf.io).
+  * [Zenodo](https://zenodo.org).
+  * [Code Ocean](https://codeocean.com).
 
 ### Resources
 
