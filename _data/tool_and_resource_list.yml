@@ -206,6 +206,7 @@ Tools:
   name: BioStudies
   registry:
     fairsharing: mtjvme
+    tess: BioStudies
   tags:
   - share
   - re-use
