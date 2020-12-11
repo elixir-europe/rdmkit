@@ -41,10 +41,12 @@ If you want to close or restrict access to your datasets, you must explain your 
 {% include toollist.html tag="share" %}
 
 ## Where can training materials and events about Data Sharing be found?
-<!-- Link to Tess query -->
+
+{% include tess.html search="Data Sharing" %}
 
 ## Related topics
-* [Metadata management](metadata_mamagenet)
+
+{% include pagelist.html tag="share" %}
 
 <!-- * Licensing
 * Funder requirements -->

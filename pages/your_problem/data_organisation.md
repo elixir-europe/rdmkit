@@ -3,6 +3,7 @@ title: Data Organisation
 keywords: optional
 contributors: [Siiri Fuchs, Minna Ahokas]
 search: exclude
+tags: [plan, preserve]
 ---
 
 ## What is the best way to name a file?

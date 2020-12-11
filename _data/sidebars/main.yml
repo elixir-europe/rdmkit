@@ -39,11 +39,9 @@ entries:
     - title: Data sharing
       url: /data_sharing.html
     - title: Data quality
-      url: /data_sustainability.html
+      url: /data_quality.html
     - title: Compliance monitoring & measurement
       url: /compliance_monitoring_and_measurement.html
-    #- title: Other
-    #  url: /other_functional_areas.html
   - title: Tool assemblies
     folderitems:
     - title: Assembly example

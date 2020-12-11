@@ -1,6 +1,7 @@
 ---
 title: Data Sharing
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
+tags: [share]
 ---
 
 ## Submitting your data to a public repository.

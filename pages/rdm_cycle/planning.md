@@ -42,20 +42,13 @@ DMP can also be written as a simple text document, if preferred.
 {% include toollist.html tag="plan" %}
 
 ## Where can training materials and events about Data Management Planning be found?
-<!-- Link to Tess query -->
+
+{% include tess.html search="Data Management Planning" %}
 
 ## Related topics
 
-* [Collect](collecting)
-* [Processing](processing)
-* [Analyse](analysing)
-* [Preserving](preserving)
-* [Sharing](sharing)
-* [Find and reuse existing data](re-using)
-* [Metadata Management](metadata_management)
-* [Storage](storage)
-* [Security and privacy](data_sustainability)
-* [Data sharing](data_sharing)
+{% include pagelist.html tag="plan" %}
+
 
 <!-- * File format
 * Data volume

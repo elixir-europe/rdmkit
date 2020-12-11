@@ -4,7 +4,7 @@ keywords:
 contributors: [Rob Hooft]
 ---
 
-## What is data processing?
+## What is Data Processing?
 
 Data processing is the phase in a project where data is prepared for analysis.
 
@@ -17,11 +17,11 @@ Especially when data is imported from elsewhere, e.g. data that is to be re-used
 
  After data processing, data is readied for analysis, and should therefore be available to the members of the project team that need to perform that step.
 
-## Why is data processing important?
+## Why is Data Processing important?
 
 Data processing is important to ensure the good quality of the collected data and to prepare for the appropriate data analysis. An accurate documentation of every step done during data processing is key for the reproducibility of your result.
 
-## What should be considered for data processing
+## What should be considered for Data Processing
 
 The following considerations are important for data processing:
 
@@ -36,12 +36,14 @@ The following considerations are important for data processing:
 
 {% include toollist.html tag="process" %}
 
-## Where can training materials and events about Data Management Planning be found?
-<!-- Link to Tess query -->
+## Where can training materials and events about Data Processing be found?
+
+{% include tess.html search="Data Processing" %}
 
 ## Related topics
 
-* [Data Storage](storage)
+{% include pagelist.html tag="process" %}
+
 
 <!--## External links
 missing content -->

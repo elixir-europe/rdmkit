@@ -22,9 +22,6 @@ re-use:
 storage: 
   bg-color: "#6E1FA4"
   url: storage.html
-privacy: 
-  bg-color: "#666"
-  url: security_&_privacy.html
 monitoring: 
   bg-color: "#14968C"
 standard: 
@@ -37,3 +34,19 @@ metadata:
 human data:
   url: humandata_usecase.html
   bg-color: "#526086"
+privacy: 
+  bg-color: "#666"
+dmp:
+  url: data_management_plan.html
+data transfer:
+  url: data_transfer.html
+data sharing:
+  url: data_sharing.html
+data quality:
+  url: data_quality.html
+data licence:
+  url: data_license.html
+data organisation:
+  url: data_organisation.html
+gdpr:
+  url: gdpr.html

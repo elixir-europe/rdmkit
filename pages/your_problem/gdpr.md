@@ -1,6 +1,7 @@
 ---
 title: Understanding the GDPR
 contributors: [Pinar Alper]
+tags: [share, collect, process]
 ---
 
 

@@ -29,17 +29,17 @@ Consider the following, while collecting data
 
 
 ## What tools and resources are available for Data Collection?
+
 {% include toollist.html tag="collect" %}
 
 ## Where can training materials and events about Data Collection be found?
-<!-- Link to Tess query -->
+
+{% include tess.html search="Data Collection" %}
 
 ## Related topics
-* [Reusing existing data](re-using)
-* [Metadata management](metadata_management)
-* [Storage](storage)
-* [Data transfer](data_transfer)
-* [Data security and privacy](security_and_privacy)
+
+{% include pagelist.html tag="collect" %}
+
 
 <!-- * Managing files and file naming
 * Data quality

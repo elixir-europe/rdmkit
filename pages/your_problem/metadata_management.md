@@ -2,6 +2,7 @@
 title: Metadata Management
 keywords:
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos]
+tags: [collect, preserve]
 ---
 
 ## How to find appropriate standard metadata for datasets or samples?
