@@ -38,6 +38,8 @@ entries:
       url: /data_transfer.html
     - title: Metadata management
       url: /metadata_management.html
+    - title: Data licence
+      url: /data_licence.html
     - title: Data sharing
       url: /data_sharing.html
     - title: Data quality
