@@ -3,31 +3,56 @@ title: Data Sharing
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
 tags: [share]
 ---
+## "Concrete Problem 1, Ideally Formulated as a Question"
 
-## Submitting your data to a public repository.
+### Description
 
-Once you have completed your experiments and are ready to submit your results for publication you may require to deposit the data in a recognised open repository prior to the article submission. Depending on the type of data you will need to find suitable repository relevant to your data type and discipline. In certain cases, your Institution or University may also provide you a centralised repository for storing the data. However, for some data types, such as the high throughput sequencing data it is essential that the data are deposited in public repositories such as ArrayExpress or Gene Expression Omnibus (GEO). In these cases, only the community recognised repositories should be used.
+Short explanation of what this problem is.
 
-In case a subject-specific repository is not available, you may consider to use some of the availabe general repositories.
+### Considerations
 
-### Considerations 
-The public repository will ask you to provide various kinds of information about the data being deposited. You may be asked the following questions:
-  * Is your data  personal or sensitive?
-  * Is your data  commercially-sensitive?
-  * Does your data contains confidential/restricted information?
-  * Do you have the rights to share the data via the repository?
-  * Do you have the rights or permissions to store the data? 
-  * Is your data compliant with the data sharing policy of the journal?
-  * Does your data follows the FAIR Data Principles?
+* Optional field, ideally structured in bullet points, detailing things to consider about this problem
+
+### Solutions
+* Bullet point solution 1
+  * Sub-point
+* Bullet point solution 2
+
+## Can I share my data?
+
+### Considerations
+* Do you have the rights or permissions to store the data?
+* Is the data commercially-sensitive?
+* Does the data contain confidential/restricted information?
 
 ### Solutions
 
-#### Subject Specific Repositories
 
-List of discipline-specific, community-recognized repositories can be found in the following links:
+## Which repository should I use to share my data?
+Once you have completed your experiments and have performed quality control of your data it is good scientific practice to share your data in a public repository. Sharing your data is often required by funders and publishers.
 
-* [ELIXIR Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
-* [Nature Recommended Data Repositories](https://www.nature.com/sdata/policies/repositories).
+The most suitable repository will depend on the data type and your discipline.
+
+### Considerations
+  * What type of data are you planning to share?
+  * Does the repository need to provide solutions for restricted access for sensitive data?
+  * Do you have the rights to share the data via the repository?
+  * How sustainability is the repository, will the data remain public over time?
+  * How FAIR is the repository?
+  * Does the funding agency pose specific requirements regarding data sharing?
+
+### Solutions
+If a domain-specific repository, recognised by the community, exists this should be your first choice. Domain-specific repositories often increases the FAIRness of the data.
+
+For other cases, your Institution or University may provide a centralised repository for storing the data or you may consider to use a general repository.
+
+#### Domain Specific Repositories
+The European Bioinformatics Institute (EMBL-EBI) provides a tool to help you choose a suitable repository based on your data type.
+* [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/)
+
+Lists of discipline-specific, community-recognized repositories can be found in the following links:
+* [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
+* [scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
 #### General Repositories
 List of Generalist repositories if no suitable community resource is available:
@@ -42,16 +67,6 @@ List of Generalist repositories if no suitable community resource is available:
 * [Code Ocean](https://codeocean.com).
 
 ### Resources
-
-
-
-## Long term storage or archiving of your data?
-Description
-Short explanation of what this problem is
-Considerations
-(Optional) Things to consider when addressing this problem 
-Solutions
-Bullet point list of solutions, including tools and resources if applicable
 
 ## Related topics
 (Optional section)
