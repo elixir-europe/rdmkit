@@ -43,17 +43,16 @@ The most suitable repository will depend on the data type and your discipline.
 
 ### Solutions
 If a domain-specific repository, recognised by the community, exists this should be your first choice. Domain-specific repositories often increases the FAIRness of the data.
-
-For other cases, your Institution or University may provide a centralised repository for storing the data or you may consider to use a general repository.
-
-#### Domain Specific Repositories
+#### Domain-Specific Repositories
 The European Bioinformatics Institute (EMBL-EBI) provides a tool to help you choose a suitable repository based on your data type.
 * [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/)
 
-Lists of discipline-specific, community-recognized repositories can be found in the following links:
+Lists of domain-specific, community-recognized repositories can be found in the following links:
 * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
 * [scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
+
+For other cases, your Institution or University may provide a centralised repository for storing the data or you may consider to use a general repository.
 #### General Repositories
 List of Generalist repositories if no suitable community resource is available:
 
