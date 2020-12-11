@@ -20,7 +20,7 @@ Sometimes it is difficult to determine if sharing data you have at hand is the r
 ### Solutions
 * Certain repositories offer solutions for depositing data that need to be under restricted access. This allows for data to be findable even when it can not be shared openly. One example is the [The European Genome-phenome Archive (EGA)](https://ega-archive.org/) that can be used to deposit potentially identifiable genetic and phenotypic human data.
 * Many repositories provide the option to put an embargo on a deposited dataset. This might be useful if you prefer to use the data in a publication before making it available for others to use.
-
+* FIX ME: Add point about collaboration agreement
 
 ## Which repository should I use to share my data?
 Once you have completed your experiments and have performed quality control of your data it is good scientific practice to share your data in a public repository. Sharing your data is often required by funders and publishers.
@@ -34,7 +34,7 @@ The most suitable repository will depend on the data type and your discipline.
   * How sustainability is the repository, will the data remain public over time?
   * How FAIR is the repository?
   * Does the funding agency pose specific requirements regarding data sharing?
-  * FIX ME: Add point about licence/
+  * FIX ME: Add point about licence/sharing policies of the repository
 
 ### Solutions
 * Domain-Specific Repositories
@@ -60,18 +60,20 @@ For other cases, your Institution or University may provide a centralised reposi
 ## How do I prepare my data for sharing?
 
 ### Description
-
-Short explanation of what this problem is.
+Once you have decided to share your data there are a few preparations that need to be done to get the data ready for repository submission.
 
 ### Considerations
-
-  * Optional field, ideally structured in bullet points, detailing things to consider about this problem
+  * What repository should you choose?
+  * What file formats should be used for the data?
+  * How is the data uploaded?
+  * What metadata do you need to provide?
+  * Under which licence should the data be shared?
 
 ### Solutions
-  * Bullet point solution 1
-    * Sub-point
-  * Bullet point solution 2
-
+  * To find a repository see [Which repository should I use to share my data?](##Which-repository-should-I-use-to-share-my-data?) above.
+  * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
+  * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted to ENA/GenBank/DDBJ are implicitly free to reuse by others as specified in the INCD Standards and policies.
+  * More detailed information about metadata, licences and data transfer is listed under [Related topics](##related-topics) below.
 
 ## Related topics
 (Optional section)
