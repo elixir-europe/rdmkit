@@ -16,7 +16,7 @@ Brief and descriptive file names are important in keeping your data files organi
 
 * Best practice is to develop a file naming convention with elements that are important to your project already when the project starts.
 * When working in collaboration with others, it is important to follow the same file naming convention.
-* If you need to rename a lot files in order to organize your project data and manage the files easier, it is possible use applications e.g. [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free), [Renamer4Mac](https://renamer.com/) (Mac).
+* If you need to rename a lot files in order to organize your project data and manage the files easier, it is possible use applications e.g. [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free), [Renamer4Mac](https://renamer.com/) (Mac). 
 
 ### Tips for naming files
 * Balance with the amount of elements: too many makes it difficult to understand vs too few makes it general.
