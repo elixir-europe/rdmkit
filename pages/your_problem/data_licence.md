@@ -43,11 +43,11 @@ This depends on what rights protect your research data. Which licence to choose 
 ### Solutions
 * Apply to your data one of the [recommended licenses conformant to the Open Definition](https://opendefinition.org/licenses/), so that your data can be shared and reused. The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
 * [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licenses and are available in human-readable and machine-readable forms, with different levels of permissions.
- * [Creative Commons License Chooser](https://creativecommons.org/choose/) helps you choose the right Creative Commons license for your needs.
- * The [video tutorial from Kingsborough E-Learning]() shows how to add a Creative Commons licence to your work in practice.
+  * [Creative Commons License Chooser](https://creativecommons.org/choose/) helps you choose the right Creative Commons license for your needs.
+  * The [video tutorial from Kingsborough E-Learning]() shows how to add a Creative Commons licence to your work in practice.
 * The following tools helps you find the right licence for your software and data:
- * [Licence Selector](https://ufal.github.io/public-license-selector/).
- * [Choose a license](https://choosealicense.com).
+  * [Licence Selector](https://ufal.github.io/public-license-selector/).
+  * [Choose a license](https://choosealicense.com).
 * Consider choosing a truly open Creative Commons licence CC0, if your research data is a database or a dataset. CC0 waives all your rights to the work.
 
 
