@@ -6,10 +6,7 @@ tags: [share]
 
 
 ## Can I really deposit my data in a public repository?
-Sometimes it is difficult to determine if sharing data you have at hand is the right thing to do. Some reasons for hesitations might be:
-* You have not used the data in a publication and you don't want to be scooped
-* The data contains personal information about patients
-* The data was collected or produced in a collaboration
+Sometimes it is difficult to determine if sharing data you have at hand is the right thing to do. Some reasons for hesitations might be that you have not used the data in a publication and you don't want to be scooped, the data contains personal information about patients or the data was collected or produced in a collaboration.
 
 ### Considerations
 * Do you have the rights or permissions to share the data?
@@ -22,7 +19,7 @@ Sometimes it is difficult to determine if sharing data you have at hand is the r
 * Many repositories provide the option to put an embargo on a deposited dataset. This might be useful if you prefer to use the data in a publication before making it available for others to use.
 * FIX ME: Add point about collaboration agreement
 
-## Which repository should I use to share my data?
+## Which repository should I use to share my data? 
 Once you have completed your experiments and have performed quality control of your data it is good scientific practice to share your data in a public repository. Sharing your data is often required by funders and publishers.
 
 The most suitable repository will depend on the data type and your discipline.
@@ -70,7 +67,7 @@ Once you have decided to share your data there are a few preparations that need 
   * Under which licence should the data be shared?
 
 ### Solutions
-  * To find a repository see [Which repository should I use to share my data?](##Which-repository-should-I-use-to-share-my-data?) above.
+  * To find a repository see [Which repository should I use to share my data?](##which-repository-should-i-use-to-share-my-data?) above.
   * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
   * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted to ENA/GenBank/DDBJ are implicitly free to reuse by others as specified in the INCD Standards and policies.
   * More detailed information about metadata, licences and data transfer is listed under [Related topics](##related-topics) below.
