@@ -3,30 +3,23 @@ title: Data Sharing
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
 tags: [share]
 ---
-## "Concrete Problem 1, Ideally Formulated as a Question"
-
-### Description
-
-Short explanation of what this problem is.
-
-### Considerations
-
-* Optional field, ideally structured in bullet points, detailing things to consider about this problem
-
-### Solutions
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
 
 
-## Can I share my data?
+## Can I really deposit my data in a public repository?
+Sometimes it is difficult to determine if sharing data you have at hand is the right thing to do. Some reasons for hesitations might be:
+* You have not used the data in a publication and you don't want to be scooped
+* The data contains personal information about patients
+* The data was collected or produced in a collaboration
 
 ### Considerations
-* Do you have the rights or permissions to store the data?
+* Do you have the rights or permissions to share the data?
 * Is the data commercially-sensitive?
 * Does the data contain confidential/restricted information?
+* Who controls the data?
 
 ### Solutions
+* Certain repositories offer solutions for depositing data that need to be under restricted access. This allows for data to be findable even when it can not be shared openly. One example is the [The European Genome-phenome Archive (EGA)](https://ega-archive.org/) that can be used to deposit potentially identifiable genetic and phenotypic human data.
+* Many repositories provide the option to put an embargo on a deposited dataset. This might be useful if you prefer to use the data in a publication before making it available for others to use.
 
 
 ## Which repository should I use to share my data?
@@ -41,6 +34,7 @@ The most suitable repository will depend on the data type and your discipline.
   * How sustainability is the repository, will the data remain public over time?
   * How FAIR is the repository?
   * Does the funding agency pose specific requirements regarding data sharing?
+  * FIX ME: Add point about licence/
 
 ### Solutions
 * Domain-Specific Repositories
@@ -62,7 +56,22 @@ For other cases, your Institution or University may provide a centralised reposi
   * [Zenodo](https://zenodo.org).
   * [Code Ocean](https://codeocean.com).
 
-### Resources
+
+## How do I prepare my data for sharing?
+
+### Description
+
+Short explanation of what this problem is.
+
+### Considerations
+
+  * Optional field, ideally structured in bullet points, detailing things to consider about this problem
+
+### Solutions
+  * Bullet point solution 1
+    * Sub-point
+  * Bullet point solution 2
+
 
 ## Related topics
 (Optional section)
