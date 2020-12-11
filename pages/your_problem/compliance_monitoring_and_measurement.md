@@ -14,7 +14,7 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 ## Considerations
 
 * Are you being asked to describe information security and data protection arrangements for a project DMP and you find yourself repeating similar descriptions across DMPs of projects?
-  *  Contact your institution's Data Protection Officer (DPO) and Chief Information Security Officer (CISO). They may be able to provide you with a standard description of data protection and infosec measures for institutional data platforms.
+  *  Contact your institution's Data Protection Officer (DPO) and Chief Information Security Officer (CISO). They may be able to provide you with a standard description of data protection and information security measures for institutional data platforms.
   *  Inquire whether the platforms you will use for your project's data management have an information security or data privacy certification.
 * Are you providing a data service, such as data hosting, curation or archival and want to document and assess your service's capabilities?  
   *  Consider measuring the FAIR maturity of your services and the FAIRness of your data assets using community adopted standard metrics.
@@ -25,7 +25,7 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 * FAIR data
   *  GO-FAIR Initiative provides a framework for designing [metrics for the evaluation of FAIRness](https://www.go-fair.org/2017/12/11/metrics-evaluation-fairness/).
   *  The [FAIRplus project](https://fairplus.github.io/cookbook-dev/intro)  has identified a set of [FAIR Indicators](https://zenodo.org/record/3909563#.X8ABpi-ZNTY) for data. 
-  *  [FAIR Evaluators](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/evaluations) are an automated approach evaluate FAIRness of data services. 
+  *  [FAIR Evaluators](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/evaluations) are an automated approach to evaluate FAIRness of data services. 
 * Information Security, Data Protection, Accountability
   *  [21 CFR part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) is a standard, which outlines criteria for electronic records in an IT system to be as valid as signed paper
 records. It is widely adopted in lab information systems and applications used in clinical trials and medical research.
