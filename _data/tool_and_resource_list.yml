@@ -67,6 +67,7 @@ Tools:
     biotools: Data_Stewardship_Wizard
   tags:
   - plan
+  - nels
 - description: DMP creation, versioning and sharing
   link: https://easydmp.no/
   name: EasyDMP
@@ -86,6 +87,7 @@ Tools:
   - preserve
   - storage
   - privacy
+  - nels
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
   link: https://fairsharing.org/
@@ -163,6 +165,7 @@ Tools:
   - preserve
   - storage
   - privacy
+  - nels
 - description: Minimum Information about any (x) Sequence
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
@@ -572,3 +575,21 @@ Tools:
     tess: UniProt
   tags:
   - re-use
+- description: Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses
+  link: https://www.uniprot.org/
+  name: Galaxy
+  registry:
+    biotools: galaxy
+    tess: Galaxy
+  tags:
+  - process
+  - analyse
+  - nels
+- description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data
+  link: https://nels.bioinfo.no
+  name: NeLS
+  registry:
+    biotools: nels
+    tess: NeLS
+  tags:
+  - nels  
