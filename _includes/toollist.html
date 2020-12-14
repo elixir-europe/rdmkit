@@ -1,38 +1,70 @@
-
-<h2>Tools</h2>
-{% assign tools = site.data.tool_list %}
-
-<table>
-    <tr>
-        <th>Tool</th>
-        <th>Description</th>
-        <th>Tags</th>
-    </tr>
-    {% if include.tags == "print_all" %}
-        {% for tool in tools.Tools %}
-            <tr>
+{%- assign tools = site.data.tool_and_resource_list -%}
+{%- assign allowedtags = site.data.tags -%}
+{%- assign main_tags = tools.Tools -%}
+{%- if include.tag -%}
+{%- assign main_tags = tools.Tools | where_exp:"tool", "tool.tags contains include.tag" -%}
+{%- endif -%}
+{%- if include.tag2 -%}
+{%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
+{%- endif -%}
+{%- if include.hide %}
+<div class="margin-link">
+<a class="btn orange-snip" href="#{{include.tag}}" role="button" data-toggle="collapse" data-target="#{{include.tag}}" aria-expanded="false" aria-controls="{{include.tag}}">
+    Show tools
+</a>
+</div>
+<div class="collapse" id="{{include.tag}}">
+{%- endif %}
+<table class="tooltable display {%- if include.hide != true %} table-margin{%- endif %}">
+    <thead>
+        <tr>
+            <th>Tool or resource</th>
+            <th>Description</th>
+            <th>Tags</th>
+            <th>Registry</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%- for tool in main_tags %}
+        <tr>
             {% if tool.link %}
-            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
-            {% else %}
+            <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
+            {%- else %}
             <td>{{tool.name}}</td>
-            {% endif %}
+            {%- endif %}
             <td>{{tool.description}}</td>
-            <td>{{ tool.tags | join: ", " }}</td>
-            </tr>
-        {% endfor %}
-    {% else %}
-        {% for tool in tools.Tools %}
-            {% if tool.tags contains include.tags %}
-            <tr>
-            {% if tool.link %}
-            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
-            {% else %}
-            <td>{{tool.name}}</td>
-            {% endif %}
-            <td>{{tool.description}}</td>
-            <td>{{ tool.tags | join: ", " }}</td>
-            </tr>
-            {% endif %}
-        {% endfor %}
-    {% endif %}
+            {%- capture tags %}
+            {%- for tag in tool.tags %}
+            {%- if include.tag == tag or include.tag2 == tag %}{% assign bg-color = allowedtags[tag]["bg-color"] | default: "#080808" %}{% assign color = allowedtags[tag]["color"] | default: "white" %}
+            <span class="label" style="color:{{color}}; background-color:{{bg-color}};">{{tag}}</span>
+            {%- else %}
+            {%- assign link = allowedtags[tag]["url"] | default: "#" %}
+            <a class="nohover" href="{{link}}"><span class="label default-label">{{tag}}</span></a>
+            {%- endif %}
+            {%- endfor %}
+            {%- endcapture %}
+            <td>{{tags}}</td>
+            <td style="text-align: center; vertical-align: middle;">
+            {%- if tool.registry.biotools %}
+            <a data-toggle="tooltip"
+                data-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
+                class="no_icon"><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
+            {%- endif %}
+            {%- if tool.registry.fairsharing %}
+            <a data-toggle="tooltip"
+                data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
+                class="no_icon"><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
+            {%- endif %}
+            {%- if tool.registry.tess %}
+            <a data-toggle="tooltip"
+                data-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
+                class="no_icon"><img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/></a>
+            {%- endif %}
+            </td> 
+        </tr>
+        {%- endfor %}
+    </tbody>
 </table>
+{%- if include.hide %}
+</div>
+{%- endif %}

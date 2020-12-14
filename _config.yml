@@ -1,5 +1,4 @@
-url: elixir-europe.github.io
-baseurl: /rdm-toolkit
+url: rdm.elixir-europe.org
 repository: https://github.com/elixir-europe/rdm-toolkit
 
 output: web
@@ -17,9 +16,6 @@ company_name: ELIXIR Converge
 github_editme_path: elixir-europe/rdm-toolkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-# google_analytics: UA-66296557-1
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
-
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
@@ -30,18 +26,25 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
+  - CODEOWNERS
+  - var/
+  - README.md
 
-feedback_disable: true
+feedback_subject_line: RDM toolkit feedback
+
+feedback_email: rdm-editors@elixir-europe.org
+# used as a contact email for the Feedback link in the top navigation bar
+
+# feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
-# feedback_text: "Need help?"
+feedback_text: "Give feedback"
 # if you uncomment the previous line, it changes the Feedback text
 
 # feedback_link: "http://helpy.io/"
 # if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
-# library used for syntax highlighting
 
 markdown: kramdown
 kramdown:
@@ -50,19 +53,13 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
-
-collections:
-  tooltips:
-    output: false
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
-
 defaults:
   -
     scope:
       path: ""
       type: "pages"
     values:
+      permalink: /:basename:output_ext
       layout: "page"
       comments: false
       search: true
@@ -71,7 +68,11 @@ defaults:
 
 sidebars:
 - main
+- contribute
 
-description: "This website will need a description"
+description: "ELIXIR Data Management Toolkit"
 
-github: [metadata]
+RDM_pages: ["/re-using.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
+
+plugins:
+  - jemoji

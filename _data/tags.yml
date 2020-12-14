@@ -1,5 +1,52 @@
-# Note:
-# If you are using the createtag script, don't leave an blank line at the end of this file.
-# In other words, the last line must be the last tag in the allowed-tags list.
-allowed-tags:
-  - personas
+plan:
+  bg-color: "#903292"
+  url: planning.html
+collect: 
+  bg-color: "#023452"
+  url: collecting.html
+process: 
+  bg-color: "#309E69"
+  url: processing.html
+analyse: 
+  bg-color: "#763E2A"
+  url: analysing.html
+share: 
+  bg-color: "#C63244"
+  url: sharing.html
+preserve: 
+  bg-color: "#DBBE28"
+  url: preserving.html
+re-use: 
+  bg-color: "#f47d21"
+  url: re-using.html
+storage: 
+  bg-color: "#6E1FA4"
+  url: storage.html
+monitoring: 
+  bg-color: "#14968C"
+standard: 
+  bg-color: "#CD1B6C"
+research_it:
+  url: research_it.html
+metadata:
+  url: metadata_management.html
+  bg-color: "#528681"
+human data:
+  url: humandata_usecase.html
+  bg-color: "#526086"
+privacy: 
+  bg-color: "#666"
+dmp:
+  url: data_management_plan.html
+data transfer:
+  url: data_transfer.html
+data sharing:
+  url: data_sharing.html
+data quality:
+  url: data_quality.html
+data licence:
+  url: data_license.html
+data organisation:
+  url: data_organisation.html
+gdpr:
+  url: gdpr.html

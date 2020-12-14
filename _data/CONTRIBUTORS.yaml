@@ -1,0 +1,70 @@
+# List of contributors
+#
+# reference maintainers/contributors by their id in tutorial metadata files
+#
+# valid tags: name, email, linkedin, twitter, gitter, orcid, bio, joined
+#
+# collection names should be equal to github username, if not, add github: false tag
+
+# two dummy entries that are used in the template pages
+contributor1:
+    git: Contributor A (Please add contributors to the CONTRIBUTORS.yaml file)
+contributor2:
+    git: Contributor B (Please list all contributors of this tutorial in the metadata section)
+
+# our real contributors
+
+Bert Droesbeke:
+    git: bedroesb
+    email: bedro@psb.ugent.be
+    gitter: bedroesb
+    orcid: 0000-0003-0522-5674
+Flora D'Anna:
+    git: floradanna
+Daniel Faria:
+    git: DanFaria
+Pinar Alper:
+    git: pinarpink
+    orcid: 0000-0002-2224-0780
+Carole Goble:
+    git: CaroleGoble
+Frederik Coppens:
+    git: frederikcoppens
+Mijke Jetten:
+    git: MijkeJetten
+    email: m.jetten@dtls.nl
+    orcid: 0000-0001-9114-2896
+Nicola Soranzo:
+    git: nsoranzo
+Munazah Andrabi:
+    git: smza
+Vicky Sundesha:
+    git: vsundesha
+Rob Hooft:
+    git: rwwh
+    email: rob.hooft@dtls.nl
+    orcid: 0000-0001-6825-9439
+Karel Berka:
+    git: KarelBerka
+    email: karel.berka@upol.cz
+    orcid: 0000-0001-9472-2589
+Korbinian Bösl:
+    git: korbinib
+    email: korbinian.bosl@uib.no
+    orcid: 0000-0003-0498-4273
+Siiri Fuchs:
+    git: siirif
+    email: siiri.fuchs@csc.fi
+    orcid: 0000-0003-1391-9959
+Anastasia Chasapi:
+    git: achasapi
+Ulrike Wittig:
+    git: wittigue
+Wei Gu:
+     git: weiguUL
+     email: wei.gu@uni.lu
+     orcid: 0000-0003-3951-6680
+Christophe Trefois:
+     git: trefex
+     email: trefex@gmail.com
+     orcid: 0000-0002-8991-6810
