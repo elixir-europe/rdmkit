@@ -2,6 +2,8 @@
 title: "DOMAIN PAGE TITLE"
 keywords: optional
 search: exclude
+contributors: [<!---Comma separated list of contributors--->]
+tags: [<!---The (single) tag that corresponds to this page--->]
 ---
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
@@ -31,8 +33,8 @@ For detailing the domain-specific challenges of a problem that is generic, pleas
 ...
 
 ## Relevant Tools & Resources 
-<!--- Automatically generated table; edit the TAG below so that tools that have the desired tag (corresponding to this page) are listed. --->
+<!--- Automatically generated table; edit the TAG below to correspond to the one listed for the page in the header, so that tools that have this page's tag are listed. --->
 
-{% include toollist.html tag="TAG" %}
+{% include toollist.html tag="<!---TAG--->" %}
 
 
