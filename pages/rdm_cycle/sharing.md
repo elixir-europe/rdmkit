@@ -1,16 +1,18 @@
 ---
 title: Sharing
+contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg]
 keywords:
 ---
 
 ## What is Data Sharing?
-Data Sharing datasets means making datasets known and available to the whole world and society.
-Does not have to happen immediately, while you are still working on the project. Data can be shared after your scientific paper is published.
+Data Sharing means making datasets known and available to the global research community and to society at large. Data sharing can be done at any time during the researcj data life cycle, but at the latest data should be made available at the time of publication of articles that use the data to make scientific conclusions. 
 
 ## Why Data Sharing is important?
-Data Management Planning will facilitate the progress of your project, as you can prepare early on. Data Management Planning will also help you to get funded, as this is a critical part of the proposal and/or the contract for many funders and a good Data Management Plan (DMP) will show and improve the feasability of your project.
+Sharing of data is a cornerstone of modern research. It is ethical good research  practice to ensure that data underlying research is preserved and made available to anyone, preferably in a way that adheres to the [FAIR principles](). 
 
-## What should be considered for Data Sharing?
+Eventhough all data might not be possible to share openly, strive to make data "_as open as possible, as closed as necessary_".
+
+
 * Good reasons to open access to your datasets.
   * [European Code of Conduct for Research Integrity (2017)](https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf) states that “Researchers, research institutions and organisations ensure access to data is as open as possible, as closed as necessary”.
   * Research funders, institutions and reputable journals/publishers with data sharing mandates will normally allow you to opt out of their open data requirements only for legitimate reasons (see below).
@@ -29,12 +31,28 @@ Data Management Planning will facilitate the progress of your project, as you ca
 
 If you want to close or restrict access to your datasets, you must explain your ethical and/or legal issues in the Data Management Plan. You can ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
 
+
+## What should be considered for Data Sharing?
+
+* Take Data Sharing into consideration already at the [Planning stage](planning). Don't leave it to the last stage. 
+* Making the data as FAIR as possible will ensure that the most value can be made out of it in the future.
+  - The easiest way to make data FAIR is to deposit it in a publicly accessible recognised repository.
+  - If there are Dicipline-specific repositories available for you data, this should be your primary choice. They will work towards a high level of FAIRness by recommending appropriate community standards for describing the data. 
+  - Your second choice should be your Institutional repository, if there is one.
+  - The last choice is to deposit the data in a [general purpose repository](https://www.nature.com/sdata/policies/repositories#general).
+* Consider depositing your data to a repository as early as possible. This saves a lot of trouble later on.
+* To make your life easier, structure the metadata according to your target repositories early on in the project (see Planning).
+* Note that all data might not be possible to make publicly available because of ethical, legal, contractual, or intellectual property reasons. 
+  - For some data types there are repositories that can harbour data that will be under controlled access.
+  - 
+  
 * For finding appropriate repositories by type of data, there are extensive lists and selection tools in the following locations:
   - For Biomolecular Data in Life Science use one of the [ELIXIR Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases), or use the [EBI Guidance Wizard](https://www.ebi.ac.uk/submission/)
   - [FAIRsharing](https://fairsharing.org/)
   - [Re3data](https://re3data.org/)
   - [Repositories recommended by Nature publishing group](https://www.nature.com/sdata/policies/repositories)
-  - For the sharing of human-subject phenotype/genotype data there are well-established repositories ([EGA](https://ega-archive.org/), [dbGAP](https://www.ncbi.nlm.nih.gov/gap/), [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html)). The choice will depend on the conditions under which data has been donated and the legislative/geographic boundaries for the research project/consortium. There are also community-specific data hubs that may implement a controlled-access model e.g. ORPHANET, MJFF.
+  - For the sharing of human-subject phenotype/genotype data there are well-established repositories ([EGA](https://ega-archive.org/), [dbGAP](https://www.ncbi.nlm.nih.gov/gap/), [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html)). 
+    - The choice will depend on the conditions under which data has been donated and the legislative/geographic boundaries for the research project/consortium. There are also community-specific data hubs that may implement a controlled-access model e.g. ORPHANET, MJFF.
 
 ## What Tools and Resources are available for Data Sharing?
 
