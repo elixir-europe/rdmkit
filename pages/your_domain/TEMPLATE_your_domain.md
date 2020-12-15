@@ -2,8 +2,8 @@
 title: "DOMAIN PAGE TITLE"
 keywords: optional
 search: exclude
-contributors: [<!---Comma separated list of contributors--->]
-tags: [<!---The (single) tag that corresponds to this page--->]
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
 ---
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
@@ -33,8 +33,6 @@ For detailing the domain-specific challenges of a problem that is generic, pleas
 ...
 
 ## Relevant Tools & Resources 
-<!--- Automatically generated table; edit the TAG below to correspond to the one listed for the page in the header, so that tools that have this page's tag are listed. --->
+<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
 
 {% include toollist.html tag="<!---TAG--->" %}
-
-
