@@ -13,7 +13,7 @@ site_title: ELIXIR Data Management Toolkit
 company_name: ELIXIR Converge
 # this appears in the page_ending
 
-github_editme_path: bedroesb/rdm-toolkit/blob/master/
+github_editme_path: elixir-europe/rdm-toolkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 host: 127.0.0.1
