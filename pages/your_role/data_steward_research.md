@@ -1,6 +1,6 @@
 ---
 title: Data Steward Research
-keywords: [Keyword 1,Keyword 2, Keyword n]
+keywords: [FAIR, GDPR, ISO 27001]
 summary: Fill in your summary or delete this property when not needed
 contributors: [contributor1, contributor2]
 search: exclude

@@ -1,7 +1,6 @@
 ---
 title: Compliance Monitoring & Measurement
 tags: [plan, researcher, data manager, policy officer] 
-toc: false
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper]
 ---
 

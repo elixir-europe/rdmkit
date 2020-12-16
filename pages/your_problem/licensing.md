@@ -1,6 +1,6 @@
 ---
 title: Licencing
-keywords: optional
+keywords: 
 contributors: [Siiri Fuchs, Minna Ahokas]
 search: exclude
 tags: [share, reuse, data manager, policy officer]
