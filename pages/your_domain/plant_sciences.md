@@ -1,6 +1,6 @@
 ---
-title: "Plants"
-summary: How to publish re-usable plant data
+title: "Plant sciences"
+summary: How to publish reusable plant data
 ---
 ## General scope
 You will find here the guidelines and resources specific to the publication of Findable Accessible Interoperable and Reusable (FAIR) data on plants. Studied plants can be model species like Arabidopsis, crops, wild species among which forest trees... The typical types of data handled by researchers would be data from phenotyping experiments, genomic assays (RNAseq or DNAseq, genome sequences, genotypes, ...). The main objective is to be able to integrate different types of experiments made on the same plant material (e.g. phenotyping experiments and OMICs experiments) to get knowledge on plant biology. The study of the adaptation of plants to their environment necessitate to integrate experimental data on plant material with geo-climatic data.

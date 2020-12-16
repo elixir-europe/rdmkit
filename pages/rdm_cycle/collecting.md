@@ -1,5 +1,5 @@
 ---
-title: Collecting data
+title: Collecting
 keywords:
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi]
 ---

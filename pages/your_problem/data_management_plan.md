@@ -62,7 +62,7 @@ A DMP should address a broad range of data management aspects, regardless of tem
 
 #### Solutions
 * This toolkit includes best practices and guidelines about different aspects of research data management that should be contemplated in a Data Management plan:
-  * Find and reuse existing data: [Collecting](collecting), [Re-using](re-using).
+  * Find and reuse existing data: [Collecting](collecting), [Reusing](reusing).
   * File format
   * Data volume
   * Data sharing

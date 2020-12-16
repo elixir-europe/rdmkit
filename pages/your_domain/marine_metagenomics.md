@@ -1,5 +1,5 @@
 ---
-title: "Marine metagenomics"
+title: "Marine Metagenomics"
 ---
 
 

@@ -90,7 +90,7 @@ To make human research data reusable for others, it must be discoverable, stored
 ### Considerations
 
 * Research collaborations across borders: <br/>
-In the context of the GDPR and its country-specific implementations, the re-usability of human-subject data requires extra effort from data users as well as data providers. 
+In the context of the GDPR and its country-specific implementations, the reusability of human-subject data requires extra effort from data users as well as data providers. 
 The ELIXIR RDM Toolkit offers help here with a use case demonstrator on **"Federated Access to Human Data"**. Its goals are:
   * identify key considerations for the responsible sharing of human genome-phenome data,
   * showcase a blueprint architecture for federated access to data, which needs stay within national borders,
@@ -98,7 +98,7 @@ The ELIXIR RDM Toolkit offers help here with a use case demonstrator on **"Feder
                                           
 
 * Sharing data via controlled-access: <br/>
-Sensitive human data often carries restrictions to its use and it would need to be shared in a manner that obeys such restrictions. This type of sharing is called controlled-access, where researchers, who typically were involved in the primary collection of data to act as controllers foreseeing the data’s careful dissemination in a manner that honours data’s use conditions. The ELIXIR RDM Toolkit also provides a use case on the **"Re-use of Sensitive Human Data"**, which focuses on the responsibilities of data providers in precise documentation of use restrictions and the mechanisms that can assist data users to matching their requests for use of data against the data’s use restrictions.
+Sensitive human data often carries restrictions to its use and it would need to be shared in a manner that obeys such restrictions. This type of sharing is called controlled-access, where researchers, who typically were involved in the primary collection of data to act as controllers foreseeing the data’s careful dissemination in a manner that honours data’s use conditions. The ELIXIR RDM Toolkit also provides a use case on the **"Reuse of Sensitive Human Data"**, which focuses on the responsibilities of data providers in precise documentation of use restrictions and the mechanisms that can assist data users to matching their requests for use of data against the data’s use restrictions.
 
 * Ethical approvals and Informed consents
 * Locating tools and platforms suited to handle human data

@@ -5,7 +5,13 @@
 <div class="flexbox">
     {%- for entry in sidebar -%}
     {%- for folder in entry.folders -%}
-    {% if folder.title != "Data Life Cycle" and folder.title != "All tools and resources"] %}
+    {%- if folder.title == "All Tools and Resources" %}
+    <div>
+        <a class="no_icon" href="{{folderitem.url | remove: "/"  }}">
+            <h2 class="button no_anchor">{{folder.title}}</h2>
+        </a>
+    </div>
+    {% elsif folder.title != "Data Life Cycle"] %}
     <div>
         <h2 class="button no_anchor">{{folder.title}}</h2>
         <ul class="child-box">

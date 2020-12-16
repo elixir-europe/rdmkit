@@ -1,5 +1,5 @@
 ---
-title: "Intrinsically Disordered Proteins community"
+title: "Intrinsically Disordered Proteins"
 ---
 
 

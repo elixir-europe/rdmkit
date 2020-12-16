@@ -466,6 +466,10 @@ ul li::marker {
     font-size: 130%;
 }
 
+.flexbox a:hover {
+    text-decoration: none;
+}
+
 .flexbox h2:hover {
     cursor: pointer;
 }

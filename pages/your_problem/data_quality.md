@@ -7,7 +7,7 @@ tags: [collect, process]
 
 ## How can research data quality be ensured?
 
-Quality is a key attribute of research data. Data quality affects the reliability of research results and it is a key factor increasing the re-usability of data for secondary research. Data quality control can take place at any stage during the research data lifecycle. That said, you should ensure that the necessary procedures are defined during data management planning. 
+Quality is a key attribute of research data. Data quality affects the reliability of research results and it is a key factor increasing the reusability of data for secondary research. Data quality control can take place at any stage during the research data lifecycle. That said, you should ensure that the necessary procedures are defined during data management planning. 
 
 
 ### Considerations

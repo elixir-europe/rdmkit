@@ -1,5 +1,5 @@
 ---
-title: Data Sharing
+title: Data Publication
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
 tags: [share]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Data Transfer
 keywords:
-tags: [share, re-use] 
+tags: [share, reuse] 
 ---
 
 ## How to transfer large data files?

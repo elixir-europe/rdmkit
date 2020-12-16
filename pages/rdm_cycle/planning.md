@@ -17,7 +17,7 @@ Data management planning
 * helps to plan and budget necessary resources and equipment
 * facilitates to identify responsibilities and roles of project participants involved
 * helps you to identify data handling related issues before they arise
-* enables efficient preservation, sharing and re-use
+* enables efficient preservation, sharing and reuse
 * is often a requirement of research organisation's and funders
 
 

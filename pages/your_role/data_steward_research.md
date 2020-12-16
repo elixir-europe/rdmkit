@@ -1,5 +1,5 @@
 ---
-title: Researcher
+title: Data Steward Research
 keywords: [Keyword 1,Keyword 2, Keyword n]
 summary: Fill in your summary or delete this property when not needed
 contributors: [contributor1, contributor2]
@@ -35,6 +35,3 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * What DMP templates and tools could be used for my project?
 * How do I know if my data is sensitive/personal and how would I work with data of this type?
 
-## Relevant tools and resources
-
-{% include toollist.html tag="researcher" %}
