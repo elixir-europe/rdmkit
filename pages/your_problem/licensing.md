@@ -53,3 +53,7 @@ This depends on what rights protect your research data. Which licence to choose 
 
 ## External links
 [How to License Research Data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data): how-to guide from the Digital Curation Centre (DCC).
+
+## Relevant tools and resources
+
+{% include toollist.html tag="licensing" %}

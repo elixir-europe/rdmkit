@@ -57,4 +57,4 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="gdpr" %}
+{% include toollist.html tag="data protection" %}

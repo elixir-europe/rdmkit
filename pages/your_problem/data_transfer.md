@@ -66,4 +66,4 @@ During the transfer some data might become corrupted, thus it is important to ch
 
 ## Relevant tools and resources
 
-<!-- {% include toollist.html tag="data transfer" %} -->
+{% include toollist.html tag="transfer" %}

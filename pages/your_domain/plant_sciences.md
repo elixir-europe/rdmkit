@@ -75,4 +75,4 @@ You have set up an experiment in which you are studying a panel of genetic resou
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="plant" %}
+{% include toollist.html tag="plants" %}

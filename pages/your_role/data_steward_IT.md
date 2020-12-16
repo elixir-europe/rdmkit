@@ -33,6 +33,10 @@ My name is Peter Brown. I studied Engineering at Bristol University. I am intere
  * What are the tools that can be used to manage dependencies resolve software package version conflicts?
 
 
+## Relevant tools and resources
+
+{% include toollist.html tag="IT support" %}
+
 ## Related topics
 
 {% include pagelist.html tag='IT support'%}

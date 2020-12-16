@@ -258,7 +258,6 @@ table {
     table-layout: fixed;
     background-color: transparent;
     display: block;
-    overflow-x: auto;
 }
 
 .table-margin {

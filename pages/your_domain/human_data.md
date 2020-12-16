@@ -114,7 +114,7 @@ Sensitive human data often carries restrictions to its use and it would need to 
 
 {% include toollist.html tag="human data" %}
 
-## Training materials and events on the management of human-subject data
+## Training materials on the management of human-subject data
 <!-- Link to Tess query -->
 
 

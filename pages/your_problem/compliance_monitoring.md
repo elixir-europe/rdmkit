@@ -31,3 +31,7 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 records. It is widely adopted in lab information systems and applications used in clinical trials and medical research.
   *  [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres. 
   *  [ISO/IEC 27018](http://data-reuse.eu/wp-content/uploads/2017/02/ISO-Standards.pdf) is a standard aimed to be a code of practice for protection of personally identifiable information (PII) in public clouds.
+
+## Relevant tools and resources
+
+{% include toollist.html tag="compliance" %}

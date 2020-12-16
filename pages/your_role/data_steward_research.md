@@ -35,6 +35,10 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * What DMP templates and tools could be used for my project?
 * How do I know if my data is sensitive/personal and how would I work with data of this type?
 
+## Relevant tools and resources
+
+{% include toollist.html tag="data manager" %}
+
 ## Related topics
 
 {% include pagelist.html tag='data manager'%}

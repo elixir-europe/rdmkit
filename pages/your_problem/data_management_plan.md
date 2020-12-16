@@ -82,4 +82,4 @@ A DMP should address a broad range of data management aspects, regardless of tem
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="dmp" %}
+{% include toollist.html tag="DMP" %}
