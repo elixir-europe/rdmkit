@@ -7,7 +7,7 @@
 {%- if include.tag2 -%}
 {%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
 {%- endif -%}
-{%- if main_tags == "" or main_tags != nil or main_tags != blank %}
+{%- if main_tags == blank %}
 The tag "{{ include.tag }}" has not yet related tools are resources.
 {%- else%}
 {%- if include.hide %}
