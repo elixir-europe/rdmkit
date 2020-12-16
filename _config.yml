@@ -72,7 +72,7 @@ sidebars:
 
 description: "ELIXIR Data Management Toolkit"
 
-RDM_pages: ["/re-using.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
+RDM_pages: ["/reusing.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
 
 plugins:
   - jemoji
