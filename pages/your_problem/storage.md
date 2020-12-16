@@ -2,7 +2,7 @@
 title: Storage
 keywords:
 contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi]
-tags: [preserve, analyse, collect] 
+tags: [collect, analyse, preserve, share, IT support] 
 ---
 
 ## What storage solutions are available?

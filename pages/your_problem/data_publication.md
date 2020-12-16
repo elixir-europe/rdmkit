@@ -1,7 +1,7 @@
 ---
 title: Data Publication
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
-tags: [share]
+tags: [preserve, share, researcher, data manager]
 ---
 
 ## Submitting your data to a public repository.

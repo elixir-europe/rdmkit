@@ -2,7 +2,7 @@
 title: Data Quality
 keywords: [collecting]
 contributors: [Wei Gu, Pinar Alper]
-tags: [collect, process]
+tags: [collect, process, researcher, data manager]
 ---
 
 ## How can research data quality be ensured?

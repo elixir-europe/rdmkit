@@ -37,3 +37,7 @@ My name is Janet Brown.  I studied B.Sc. Biology and this is my first role after
 * What governs who owns(?)/has rights of use for data?
 * What data agreements exist between institutions and how can new agreements be made? Sharing data between organisations/companies.
 * What are tools and resources to help ensure that personal data is handled lawfully (GDPR)?
+
+## Related topics
+
+{% include pagelist.html tag='policy officer'%}

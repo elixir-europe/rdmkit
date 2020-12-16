@@ -1,5 +1,5 @@
 ---
-title: "Plant sciences"
+title: "Plant Sciences"
 summary: How to publish reusable plant data
 ---
 ## General scope

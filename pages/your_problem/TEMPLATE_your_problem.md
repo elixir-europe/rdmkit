@@ -2,6 +2,7 @@
 title: Global Problem Title (e.g. Metadata Management)
 keywords: optional
 contributors: []
+tags: []
 search: exclude
 ---
 
@@ -41,4 +42,4 @@ Same as above
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="" %}
+{% include toollist.html tag="ADD TAG HERE" %}

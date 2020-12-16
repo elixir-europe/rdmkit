@@ -1,7 +1,7 @@
 ---
 title: Data Protection
 contributors: [Pinar Alper]
-tags: [share, collect, process]
+tags: [plan, preserve, share]
 ---
 
 

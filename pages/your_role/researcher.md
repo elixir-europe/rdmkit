@@ -38,3 +38,8 @@ I am interested in large scale high-throughput analysis of omics data and I have
 ## Relevant tools and resources
 
 {% include toollist.html tag="researcher" %}
+
+
+## Related topics
+
+{% include pagelist.html tag='researcher'%}

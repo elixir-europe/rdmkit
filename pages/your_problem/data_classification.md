@@ -2,7 +2,7 @@
 title: Data Classification
 keywords: human data
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper]
-tags: [share, collect, process]
+tags: [share, collect, process, policy officer]
 ---
 
 ## Is my data sensitive?
