@@ -24,7 +24,7 @@ layout: default
     {%- endif %}
     {%- if page.tags != null %}
     <div class="tags">
-        <b>This page is linked to from: </b>
+        <b>Tags: </b>
         {%- assign projectTags = site.data.tags %}
         {%- assign tags = page.tags | sort %}
         {%- for tag in tags %}
