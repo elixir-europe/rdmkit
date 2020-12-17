@@ -1,8 +1,7 @@
 ---
 title: Licencing
 keywords: 
-contributors: [Siiri Fuchs, Minna Ahokas]
-search: exclude
+contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo]
 tags: [share, reuse, data manager, policy officer]
 ---
 
@@ -46,13 +45,15 @@ This depends on what rights protect your research data. Which licence to choose 
   * [Creative Commons License Chooser](https://creativecommons.org/choose/) helps you choose the right Creative Commons license for your needs.
   * The [video tutorial from Kingsborough E-Learning](https://www.youtube.com/watch?v=5QxkuuiZwRU) shows how to add a Creative Commons licence to your work in practice.
 * The following tools helps you find the right licence for your software and data:
-  * [Licence Selector](https://ufal.github.io/public-license-selector/).
-  * [Choose a license](https://choosealicense.com).
-* Consider choosing a truly open Creative Commons licence CC0, if your research data is a database or a dataset. CC0 waives all your rights to the work.
+  * [Public Licence Selector](https://ufal.github.io/public-license-selector/)
+  * [Choose a license](https://choosealicense.com)
+* If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
 
 
 ## External links
-[How to License Research Data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data): how-to guide from the Digital Curation Centre (DCC).
+
+* [How to License Research Data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data): how-to guide from the Digital Curation Centre (DCC).
+* [Open Data Commons](https://opendatacommons.org/): legal tools and licenses to help you publish, provide and use open data.
 
 ## Relevant tools and resources
 
