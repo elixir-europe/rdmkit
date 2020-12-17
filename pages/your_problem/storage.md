@@ -34,7 +34,7 @@ a storage solution.
 To find out what storage solutions are available to you and which one fits your needs, you can reach out to the IT-department of your host institution or a National Infrastructure for your domain or specialised on computing services if those exists in your country.
 
 For active data, it is important that it is easily accessible for everyone that needs to work with it. See recommendations on how to store your data during the course of your project below.
-For sensitive data, please visit our [GDPR page](gdpr).
+For sensitive data, please visit our [GDPR page](data_classification).
 For storing your data in a way for others to find and access it, consider a public repository. 
 For Big data, local storage is often not suitable.
 

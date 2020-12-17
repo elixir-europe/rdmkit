@@ -21,8 +21,8 @@ To do research on human data you must follow established research ethical guidel
   * International standards (GA4GH, ...)
 * Data protection legislation
   * EU GDPR
-    * [Understanding the GDPR](gdpr)
-    * [Determining the sensitivity of your data](data_sensitivity)
+    * [Understanding the GDPR](data_protection)
+    * [Determining the sensitivity of your data](data_classification)
     * Data Protection Impact Assessments
   * Outside EU 
     * [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf)
