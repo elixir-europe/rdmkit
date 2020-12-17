@@ -5,7 +5,7 @@ keywords:
 ---
 
 ## What is Data Sharing?
-Data Sharing means making datasets known and available to the global research community and to society at large. Data sharing can be done at any time during the research data life cycle, but at the latest, data should be made available at the time of publication of articles that use the data to make scientific conclusions. 
+Data Sharing means making datasets known and available to the global research community and to society at large. Data sharing can be done at any time during the research data life cycle but, at the latest, data should be made available at the time of publication of articles that use the data to make scientific conclusions. 
 
 ## Why Data Sharing is important?
 Sharing of data is a cornerstone of good science. It is ethical good research  practice to ensure that data underlying research is preserved and made available to the research community and society at large. Sharing data is a necessary prerequisite for making your research reproducible. To be useful for others, you should strive to make the shared data adhere to the [FAIR principles](). 
