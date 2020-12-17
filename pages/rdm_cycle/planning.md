@@ -35,11 +35,6 @@ MaDMPs aim to make the DMP interoperable, automated and increasingly standardise
 
 DMP can also be written as a simple text document, if preferred.
 
-
-## What tools and resources are available for Data Management Planning?
-
-{% include toollist.html tag="plan" %}
-
 ## Where can training materials and events about Data Management Planning be found?
 
 {% include tess.html search="Data Management Planning" %}

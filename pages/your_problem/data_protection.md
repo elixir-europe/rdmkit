@@ -1,7 +1,8 @@
 ---
-title: Understanding the GDPR
+title: Data Protection
 contributors: [Pinar Alper]
-tags: [share, collect, process]
+keywords: [GDPR, ethics]
+tags: [plan, preserve, share]
 ---
 
 
@@ -28,7 +29,7 @@ Assess your project under the GDPR.
   * If you are a controller, you need to check whether your processing poses high privacy risks for data subjects, and if so, perform a  Data Protection Impact Assessment (DPIA).
      * The GDPR lists certain data e.g. race, ethnicity, health, genetic, biometric data as [special category](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/how-my-personal-data-protected/how-data-my-religious-beliefs-sexual-orientation-health-political-views-protected_en), requiring it's heightened protection. Your research will be considered high risk processing if it involves special category data or if it includes some specified types of processing. 
      * A DPIA is often a pre-requisite for ethics applications. Your DPO or local ethics advisory board can help determine whether your project requires a DPIA.  
-     * Performing the DPIA while writing the DMP will allow you to re-use information and save time.
+     * Performing the DPIA while writing the DMP will allow you to reuse information and save time.
      * An outcome of the DPIA will be a listing of risks and corresponding mitigations. Mitigations identify the data protection measures you'll adopt, both technical organisational.       
 
 Apply technical and organisational measures for data protection. These include:
@@ -55,3 +56,6 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
   * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects. 
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements 
 
+## Relevant tools and resources
+
+{% include toollist.html tag="data protection" %}

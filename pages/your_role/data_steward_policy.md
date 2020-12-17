@@ -1,6 +1,6 @@
 ---
-title: "Data steward policy"
-keywords: [Data management training, Data management policy, FAIR, Open data, GDPR, Informed consent, etc, <research domain>, Data license, Software license, Sensitive data, Confidentiality, Data rights, DMP, Data sharing, Life science data, International (research) collaboration]
+title: "Data Steward Policy"
+keywords: [Data management training, Data management policy, FAIR, Open data, GDPR, Informed consent, Data license, Software license, Sensitive data, Confidentiality, Data rights, DMP, Data sharing, Life science data, International (research) collaboration]
 ---
 
 ## Role title
@@ -37,3 +37,11 @@ My name is Janet Brown.  I studied B.Sc. Biology and this is my first role after
 * What governs who owns(?)/has rights of use for data?
 * What data agreements exist between institutions and how can new agreements be made? Sharing data between organisations/companies.
 * What are tools and resources to help ensure that personal data is handled lawfully (GDPR)?
+
+## Relevant tools and resources
+
+{% include toollist.html tag="policy officer" %}
+
+## Related topics
+
+{% include pagelist.html tag='policy officer'%}

@@ -1,5 +1,5 @@
 ---
-title: Collecting data
+title: Collecting
 keywords:
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi]
 ---
@@ -28,10 +28,6 @@ Consider the following, while collecting data
 * Where will you store the data?
 * Describing the data, is there a suitable metadata standard?
 
-
-## What tools and resources are available for Data Collection?
-
-{% include toollist.html tag="collect" %}
 
 ## Where can training materials and events about Data Collection be found?
 
