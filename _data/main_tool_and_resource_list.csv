@@ -1,71 +1,69 @@
 name,link,description,registry,tags
-BrAPI,https://www.brapi.org,"Specification for a standard API for plant data: plant material, plant phenotyping data",,"share, collect, re-use"
-COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:COPO, fairsharing:biodbcore-001247",share
-DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement. ,biotools:DAISY,"plan, collect"
-DMP Canvas Generator,https://dmp.vital-it.ch,"Questionnaire, which generates a pre-filled a DMP",,plan
-DMP OPIDoR,https://dmp.opidor.fr,Online questionnaire for the development of data management plans; repository of DMPs,,plan
-DMPlanner,https://dmplanner.athenarc.gr/,"Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans.",,plan
-DMPonline,https://dmponline.dcc.ac.uk/,"A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.",,plan
-DMPonline Belgium,https://dmponline.be,"A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.",,plan
-DMPTuuli Finland,https://www.dmptuuli.fi/,Data management planning tool,,plan
-DS-Wizard,https://ds-wizard.org/,Data Stewardship Wizard,biotools:Data_Stewardship_Wizard,"plan, nels"
-EasyDMP,https://easydmp.no/,"DMP creation, versioning and sharing",,plan
-FAIRDOMHub,https://fairdomhub.org,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc. (public SEEK instance)",fairsharing:nnvcr9,"collect, process, analyse, share, preserve, storage, privacy, nels"
-fairsharing,https://fairsharing.org/,"A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",fairsharing:2abjs5,"plan, collect, process, analyse, share, preserve, monitoring, metadata, human data, re-use"
-GitHub,https://github.com,"Versioning system, used for sharing code, as well as for sharing of small data ",fairsharing:biodbcore-001160,
-Phyre2,http://www.sbg.bio.ic.ac.uk/~phyre2,Protein Homology/analogY Recognition Engine,biotools:phyre,"process, analyse"
-MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"standard, re-use"
-maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,plan
-Research Management Plan,https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan,Machine actionable DMPs.,,plan
-iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:iRODS,storage
-SEEK,https://seek4science.org/,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.",biotools:seek,"collect, process, analyse, share, preserve, storage, privacy, nels"
-The Genomic Standards Consortium (GSC),https://gensc.org/mixs/,Minimum Information about any (x) Sequence,fairsharing:9aa0zp,"human data, privacy"
-ArrayExpress,http://www.ebi.ac.uk/arrayexpress,ArrayExpress is a database of functional genomics experiments ,fairsharing:6k0kwd,"share, re-use"
-BioModels,https://www.ebi.ac.uk/biomodels-main/,BioModels is a repository of computational models of biological processes,fairsharing:paz6mh,"share, re-use"
-BioSamples,https://www.ebi.ac.uk/biosamples/,The BioSamples database aggregates sample information for samples for which data exist in one of the ELIXIR's assay databases,fairsharing:ewjdq6,"share, re-use"
-BioStudies,https://www.ebi.ac.uk/biostudies/,"The BioStudies database holds descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured ELIXIR archives.",fairsharing:mtjvme,"share, re-use"
-EMDB,https://www.ebi.ac.uk/pdbe/emdb/,The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures,fairsharing:651n9j,"share, re-use"
-EVA,https://www.ebi.ac.uk/eva/,"The European Variation Archive is an open-access archive that accepts submission of, and provides access to, all types of genetic variation data from all species.",fairsharing:6824pv,"share, re-use"
-IntAct,http://www.ebi.ac.uk/intact/,"IntAct provides a freely available, open source database system and analysis tools for protein interaction data.",fairsharing:d05nwx,"share, re-use"
-Metabolights,http://www.ebi.ac.uk/metabolights,"MetaboLights is a database for metabolomics studies, their raw experimental data and associated metadata. ",fairsharing:kkdpxe,"share, re-use"
-PRIDE,http://www.ebi.ac.uk/pride,"The PRIDE PRoteomics IDEntifications database is a centralized, standards compliant, public data repository that provides protein and peptide identifications together with supporting evidence. ",fairsharing:e1byny,"share, re-use"
-PDBE,http://www.ebi.ac.uk/pdbe/,"The Protein Data Bank in Europe (PDBe) is the European resource for the collection, organisation and dissemination of data on biological macromolecular structures.",fairsharing:26ek1v,"share, re-use"
-EGA,https://ega-archive.org/,The European Genome-phenome Archive (EGA) allows you to deposit and explore datasets from molecular studies on human subjects,fairsharing:mya1ff,"share, re-use, human data, privacy"
-ENA,http://www.ebi.ac.uk/ena,"The European Nucleotide Archive (ENA) servs both as the database of record for the output of the world's sequencing activity and as a platform for the management, sharing and publication of sequence data.",fairsharing:dj8nt8,"share, re-use"
-ISA-tools,https://isa-tools.org/,"Open source framework and tools helping to manage a diverse set of life science, environmental and biomedical experiments using the Investigation Study Assay (ISA) standard",fairsharing:53gp75,share
-MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,,standard
-FAIDARE,https://urgi.versailles.inra.fr/faidare/,FAIDARE is a tool allowing to search data across dinstinct databases that implemented BrAPI.,biotools:faidare,"share, re-use"
-Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"standard, re-use"
-DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"collect, share, re-use"
-ONTOMATON,https://github.com/ISA-tools/OntoMaton,OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.,,"share, re-use"
-ADA-M,https://github.com/ga4gh/ADA-M,The Automatable Discovery and Access Matrix (ADA-M) provides a standardized way to unambiguously represent the conditions related to data discovery and access.,,"human data, privacy"
-Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,,"human data, share, re-use"
-Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"human data, privacy"
-Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"human data, privacy"
-Privacy Impact Assessment Tool,https://privaon.com/services/privacy-impact-assessment-tool/,"Privacy Impact Assessment Tool is a software, that allows you to carry out Privacy Impact Assessment (PIA) independently.",,"human data, privacy"
-Tryggve ELSI Checklist,https://neic.no/tryggve/,,,"human data, privacy"
-BBMRI-ERIC's ELSI Knowledge Base,https://www.bbmri-eric.eu/elsi/knowledge-base/,The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.,,"human data, privacy"
-DAWID,https://dawid.elixir-luxembourg.org/,The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg to facilitate data sharing agreements.,,"human data, privacy"
-EUPID,https://eupid.eu/#/concept,"EUPID provides a method for identity management, pseudonymisation and record linkage to bridge the gap between multiple contexts.",,"human data, privacy"
-RD-Connect Genome Phenome Analysis Platform,https://rd-connect.eu/what-we-do/omics/gpap/,The RD-Connect GPAP is an online tool for diagnosis and gene discovery in rare disease research.,,"human data, privacy, share, re-use, analyse"
-GA4GH data security toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/,Principled and practical framework for the responsible sharing of genomic and health-related data.,,"human data, privacy, share"
-GA4GH regular and ethical toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,,,"human data, privacy"
-dbGAP,https://www.ncbi.nlm.nih.gov/gap/,The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans,fairsharing:88v2k0,"human data, privacy, share, re-use, storage"
-BRENDA,https://www.brenda-enzymes.org/,"Database of enzyme and enzyme-ligand information, across all taxonomic groups, manually extracted from primary literature and extended by text mining procedures",fairsharing:etp533,"human data, re-use"
-RDA Standards,https://rd-alliance.github.io/metadata-directory/standards/,"Directory of standard metadata, divided into different research areas",,"plan, collect, share, metadata"
+BrAPI,https://www.brapi.org,"Specification for a standard API for plant data: plant material, plant phenotyping data",,"IT support, plants"
+COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:COPO, fairsharing:biodbcore-001247","metadata, researcher, plants"
+DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement. ,biotools:DAISY,"IT support, policy officer, human data"
+DMP Canvas Generator,https://dmp.vital-it.ch,"Questionnaire, which generates a pre-filled a DMP",,"DMP, researcher, data manager"
+DMP OPIDoR,https://dmp.opidor.fr,Online questionnaire for the development of data management plans; repository of DMPs,,"DMP, researcher, data manager"
+DMPlanner,https://dmplanner.athenarc.gr/,"Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans.",,"DMP, researcher, data manager"
+DMPonline,https://dmponline.dcc.ac.uk/,"A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.",,"DMP, researcher, data manager"
+DMPonline Belgium,https://dmponline.be,"A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.",,"DMP, researcher, data manager"
+DMPTuuli Finland,https://www.dmptuuli.fi/,Data management planning tool,,"DMP, researcher, data manager"
+DS-Wizard,https://ds-wizard.org/,Data Stewardship Wizard,biotools:Data_Stewardship_Wizard,"DMP, researcher, data manager, IT support"
+EasyDMP,https://easydmp.no/,"DMP creation, versioning and sharing",,"DMP, researcher, data manager"
+FAIRDOMHub,https://fairdomhub.org,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc. (public SEEK instance)",fairsharing:nnvcr9,"storage, researcher"
+fairsharing,https://fairsharing.org/,"A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",fairsharing:2abjs5,"metadata, data publication, policy officer, data manager, researcher"
+GitHub,https://github.com,"Versioning system, used for sharing code, as well as for sharing of small data ",fairsharing:biodbcore-001160,"data publication, data organisation, IT support"
+Phyre2,http://www.sbg.bio.ic.ac.uk/~phyre2,Protein Homology/analogY Recognition Engine,biotools:phyre,
+MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"metadata, researcher, data manager, plants"
+maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,"DMP, IT support"
+Research Management Plan,https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan,Machine actionable DMPs.,,"DMP, researcher, data manager"
+iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:iRODS,"storage, IT support"
+SEEK,https://seek4science.org/,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.",biotools:seek,"storage, IT support"
+The Genomic Standards Consortium (GSC),https://gensc.org/mixs/,Minimum Information about any (x) Sequence,fairsharing:9aa0zp,"metadata, researcher, IT support, policy officer, human data"
+ArrayExpress,http://www.ebi.ac.uk/arrayexpress,ArrayExpress is a database of functional genomics experiments ,fairsharing:6k0kwd,"data publication, researcher, IT support, data manager"
+BioModels,https://www.ebi.ac.uk/biomodels-main/,BioModels is a repository of computational models of biological processes,fairsharing:paz6mh,"data publication, researcher, IT support, data manager"
+BioSamples,https://www.ebi.ac.uk/biosamples/,The BioSamples database aggregates sample information for samples for which data exist in one of the ELIXIR's assay databases,fairsharing:ewjdq6,"data publication, researcher, IT support, data manager"
+BioStudies,https://www.ebi.ac.uk/biostudies/,"The BioStudies database holds descriptions of biological studies, links to data from these studies in other databases at EMBL-EBI or outside, as well as data that do not fit in the structured ELIXIR archives.",fairsharing:mtjvme,"data publication, researcher, IT support, data manager"
+EMDB,https://www.ebi.ac.uk/pdbe/emdb/,The Electron Microscopy Data Bank (EMDB) is a public repository for electron microscopy density maps of macromolecular complexes and subcellular structures,fairsharing:651n9j,"data publication, researcher, IT support, data manager"
+EVA,https://www.ebi.ac.uk/eva/,"The European Variation Archive is an open-access archive that accepts submission of, and provides access to, all types of genetic variation data from all species.",fairsharing:6824pv,"data publication, researcher, IT support, data manager"
+IntAct,http://www.ebi.ac.uk/intact/,"IntAct provides a freely available, open source database system and analysis tools for protein interaction data.",fairsharing:d05nwx,"data publication, researcher, IT support, data manager"
+Metabolights,http://www.ebi.ac.uk/metabolights,"MetaboLights is a database for metabolomics studies, their raw experimental data and associated metadata. ",fairsharing:kkdpxe,"data publication, researcher, IT support, data manager"
+PRIDE,http://www.ebi.ac.uk/pride,"The PRIDE PRoteomics IDEntifications database is a centralized, standards compliant, public data repository that provides protein and peptide identifications together with supporting evidence. ",fairsharing:e1byny,"data publication, researcher, IT support, data manager"
+PDBE,http://www.ebi.ac.uk/pdbe/,"The Protein Data Bank in Europe (PDBe) is the European resource for the collection, organisation and dissemination of data on biological macromolecular structures.",fairsharing:26ek1v,"data publication, researcher, IT support, data manager"
+EGA,https://ega-archive.org/,The European Genome-phenome Archive (EGA) allows you to deposit and explore datasets from molecular studies on human subjects,fairsharing:mya1ff,"data publication, researcher, IT support, data manager, human data"
+ENA,http://www.ebi.ac.uk/ena,"The European Nucleotide Archive (ENA) servs both as the database of record for the output of the world's sequencing activity and as a platform for the management, sharing and publication of sequence data.",fairsharing:dj8nt8,"data publication, researcher, IT support, data manager"
+ISA-tools,https://isa-tools.org/,"Open source framework and tools helping to manage a diverse set of life science, environmental and biomedical experiments using the Investigation Study Assay (ISA) standard",fairsharing:53gp75,"IT support, data manager"
+MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,,"metadata, researcher, IT support, policy officer, plants"
+FAIDARE,https://urgi.versailles.inra.fr/faidare/,FAIDARE is a tool allowing to search data across dinstinct databases that implemented BrAPI.,biotools:faidare,"researcher, data manager, plants"
+Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"researcher, data manager, IT support, plants"
+DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"storage, researcher, data manager, IT support"
+ONTOMATON,https://github.com/ISA-tools/OntoMaton,OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.,,"researcher, data manager, IT support"
+ADA-M,https://github.com/ga4gh/ADA-M,The Automatable Discovery and Access Matrix (ADA-M) provides a standardized way to unambiguously represent the conditions related to data discovery and access.,,"IT support, data manager"
+Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,,"researcher, data manager, IT support, human data"
+Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
+Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"IT support, policy officer, human data"
+Privacy Impact Assessment Tool,https://privaon.com/services/privacy-impact-assessment-tool/,"Privacy Impact Assessment Tool is a software, that allows you to carry out Privacy Impact Assessment (PIA) independently.",,"data protection, policy officer, human data"
+Tryggve ELSI Checklist,https://neic.no/tryggve/,,,"data classification, policy officer, data manager, human data"
+BBMRI-ERIC's ELSI Knowledge Base,https://www.bbmri-eric.eu/elsi/knowledge-base/,The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.,,"data protection, data classification, policy officer, data manager, human data"
+DAWID,https://dawid.elixir-luxembourg.org/,The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg to facilitate data sharing agreements.,,policy officer
+EUPID,https://eupid.eu/#/concept,"EUPID provides a method for identity management, pseudonymisation and record linkage to bridge the gap between multiple contexts.",,"IT support, policy officer, human data"
+RD-Connect Genome Phenome Analysis Platform,https://rd-connect.eu/what-we-do/omics/gpap/,The RD-Connect GPAP is an online tool for diagnosis and gene discovery in rare disease research.,,"researcher, human data"
+GA4GH data security toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/,Principled and practical framework for the responsible sharing of genomic and health-related data.,,"data publication, policy officer, data manager, IT support, human data"
+GA4GH regular and ethical toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,,,"data protection, data classification, policy officer, data manager, IT support, human data"
+dbGAP,https://www.ncbi.nlm.nih.gov/gap/,The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans,fairsharing:88v2k0,"data publication, researcher, IT support, human data"
+BRENDA,https://www.brenda-enzymes.org/,"Database of enzyme and enzyme-ligand information, across all taxonomic groups, manually extracted from primary literature and extended by text mining procedures",fairsharing:etp533,
+RDA Standards,https://rd-alliance.github.io/metadata-directory/standards/,"Directory of standard metadata, divided into different research areas",,"metadata, researcher, data manager"
 CATH,http://www.cathdb.info/,A hierarchical domain classification of protein structures in the Protein Data Bank.,fairsharing:xgcyyn,
 ChEBI,https://www.ebi.ac.uk/chebi/,Dictionary of molecular entities focused on 'small' chemical compounds,fairsharing:62qk8w,
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.",fairsharing:m3jtpg,
 Ensembl,http://www.ensembl.org/index.html,"Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.",fairsharing:fx0mw7,
 Ensembl Genomes,http://ensemblgenomes.org/,"Comparative analysis, data mining and visualisation for the genomes of non-vertebrate species",fairsharing:923a0p,
-Europe PMC,https://europepmc.org/,"Europe PMC is a repository, providing access to worldwide life sciences articles, books, patents and clinical guidelines.",fairsharing:cmw6mm,
+Europe PMC,https://europepmc.org/,"Europe PMC is a repository, providing access to worldwide life sciences articles, books, patents and clinical guidelines.",fairsharing:cmw6mm,researcher
 Human Protein Atlas,http://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,
-Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"plan, collect, share, preserve, metadata"
+Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,
-InterPro,https://www.ebi.ac.uk/interpro/,Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites,fairsharing:pda11d,re-use
-Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format",fairsharing:biodbcore-001249,re-use
-Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).",fairsharing:5vtYGG,re-use
-STRING,https://string-db.org/,Known and predicted protein-protein interactions.,fairsharing:9b7wvk,re-use
-UniProt,https://www.uniprot.org/,Comprehensive resource for protein sequence and annotation data,fairsharing:s1ne3g,re-use
-NeLS,https://nels.bioinfo.no/,"Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data.",biotools:nels,nels
-Galaxy,https://usegalaxy.org/,"Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.",biotools:galaxy,"process, analyse, nels"
+InterPro,https://www.ebi.ac.uk/interpro/,Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites,fairsharing:pda11d,
+Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format",fairsharing:biodbcore-001249,
+Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).",fairsharing:5vtYGG,
+STRING,https://string-db.org/,Known and predicted protein-protein interactions.,fairsharing:9b7wvk,
+UniProt,https://www.uniprot.org/,Comprehensive resource for protein sequence and annotation data,fairsharing:s1ne3g,

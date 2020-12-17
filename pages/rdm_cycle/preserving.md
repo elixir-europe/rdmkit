@@ -32,10 +32,6 @@ When preserving digital data
 * include sufficient licensing information
 
 
-## What tools and resources are available for Data Preserving
-
-{% include toollist.html tag="preserve" %}
-
 ## Where can training materials and events about Data Preserving be found?
 
 {% include tess.html search="Data Preserving" %}
