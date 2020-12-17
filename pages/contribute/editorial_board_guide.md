@@ -198,13 +198,13 @@ If you then want to list all the pages containing the tag **research_it** you ca
 
 {% raw %}
 ```
-{% include pagelist.html tag='research_it'%}
+{% include pagelist.html tag="research_it" %}
 ```
 {% endraw %}
 
 Giving:
 
-{% include pagelist.html tag='research_it'%}
+{% include pagelist.html tag="research_it" %}
 
 This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. 
 
