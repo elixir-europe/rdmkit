@@ -38,10 +38,11 @@ My name is Janet Brown.  I studied B.Sc. Biology and this is my first role after
 * What data agreements exist between institutions and how can new agreements be made? Sharing data between organisations/companies.
 * What are tools and resources to help ensure that personal data is handled lawfully (GDPR)?
 
-## Relevant tools and resources
-
-{% include toollist.html tag="policy officer" %}
 
 ## Related topics
 
-{% include pagelist.html tag='policy officer'%}
+{% include pagelist.html tag="policy officer" %}
+
+## Relevant tools and resources
+
+{% include toollist.html tag="policy officer" %}
