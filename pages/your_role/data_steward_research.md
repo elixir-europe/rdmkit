@@ -1,9 +1,12 @@
 ---
-title: Bioinformatician
-keywords: [Data steward, Data stewardship, Data management, Data workflow, Data pipeline, Data management lifecycle, Analysis, pipelines, Data management tools, Data planning, DMP, Data archiving, Data management tools, Data archiving tools, Data, publication, Data storage, Data standards, Ontology , Data sharing, FAIR, <type> data, Life science data, Persistent identifiers, Open data, Sensitive data, Provenance]
+title: Data Steward Research
+keywords: [FAIR, GDPR, ISO 27001]
+summary: Fill in your summary or delete this property when not needed
+contributors: [contributor1, contributor2]
+search: exclude
 ---
 
-## Role title
+{% include note.html content="This page is under construction." %}
 
 Support bioinformatician and data steward.
 
@@ -31,3 +34,11 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * What are suitable compute resources for analysing my data?
 * What DMP templates and tools could be used for my project?
 * How do I know if my data is sensitive/personal and how would I work with data of this type?
+
+## Relevant tools and resources
+
+{% include toollist.html tag="data manager" %}
+
+## Related topics
+
+{% include pagelist.html tag='data manager'%}

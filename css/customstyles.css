@@ -258,7 +258,6 @@ table {
     table-layout: fixed;
     background-color: transparent;
     display: block;
-    overflow-x: auto;
 }
 
 .table-margin {
@@ -464,6 +463,10 @@ ul li::marker {
     transition: .2s background;
     font-weight: normal;
     font-size: 130%;
+}
+
+.flexbox a:hover {
+    text-decoration: none;
 }
 
 .flexbox h2:hover {
@@ -779,7 +782,6 @@ span.projectTitle {
 }
 
 #main {
-    padding-bottom: 2.5rem;
     min-height: 100vh;
     /* Footer height */
 }
@@ -1077,7 +1079,7 @@ div.alert code, h2 code {
 }
 
 div.tags {
-    padding: 10px 0px;
+    margin-top: 30px;
 }
 
 .tabLabel {

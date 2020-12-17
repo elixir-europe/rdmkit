@@ -21,8 +21,8 @@ To do research on human data you must follow established research ethical guidel
   * International standards (GA4GH, ...)
 * Data protection legislation
   * EU GDPR
-    * [Understanding the GDPR](gdpr)
-    * [Determining the sensitivity of your data](data_sensitivity)
+    * [Understanding the GDPR](data_protection)
+    * [Determining the sensitivity of your data](data_classification)
     * Data Protection Impact Assessments
   * Outside EU 
     * [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf)
@@ -90,7 +90,7 @@ To make human research data reusable for others, it must be discoverable, stored
 ### Considerations
 
 * Research collaborations across borders: <br/>
-In the context of the GDPR and its country-specific implementations, the re-usability of human-subject data requires extra effort from data users as well as data providers. 
+In the context of the GDPR and its country-specific implementations, the reusability of human-subject data requires extra effort from data users as well as data providers. 
 The ELIXIR RDM Toolkit offers help here with a use case demonstrator on **"Federated Access to Human Data"**. Its goals are:
   * identify key considerations for the responsible sharing of human genome-phenome data,
   * showcase a blueprint architecture for federated access to data, which needs stay within national borders,
@@ -98,7 +98,7 @@ The ELIXIR RDM Toolkit offers help here with a use case demonstrator on **"Feder
                                           
 
 * Sharing data via controlled-access: <br/>
-Sensitive human data often carries restrictions to its use and it would need to be shared in a manner that obeys such restrictions. This type of sharing is called controlled-access, where researchers, who typically were involved in the primary collection of data to act as controllers foreseeing the data’s careful dissemination in a manner that honours data’s use conditions. The ELIXIR RDM Toolkit also provides a use case on the **"Re-use of Sensitive Human Data"**, which focuses on the responsibilities of data providers in precise documentation of use restrictions and the mechanisms that can assist data users to matching their requests for use of data against the data’s use restrictions.
+Sensitive human data often carries restrictions to its use and it would need to be shared in a manner that obeys such restrictions. This type of sharing is called controlled-access, where researchers, who typically were involved in the primary collection of data to act as controllers foreseeing the data’s careful dissemination in a manner that honours data’s use conditions. The ELIXIR RDM Toolkit also provides a use case on the **"Reuse of Sensitive Human Data"**, which focuses on the responsibilities of data providers in precise documentation of use restrictions and the mechanisms that can assist data users to matching their requests for use of data against the data’s use restrictions.
 
 * Ethical approvals and Informed consents
 * Locating tools and platforms suited to handle human data
@@ -110,11 +110,11 @@ Sensitive human data often carries restrictions to its use and it would need to 
 * Beacon
 
 
-## Tools and resources are available for the management of human-subject data
+## Relevant tools and resources
 
 {% include toollist.html tag="human data" %}
 
-## Training materials and events on the management of human-subject data
+## Training materials on the management of human-subject data
 <!-- Link to Tess query -->
 
 

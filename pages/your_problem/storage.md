@@ -2,7 +2,7 @@
 title: Storage
 keywords:
 contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi]
-tags: [research_it] 
+tags: [collect, analyse, preserve, share, IT support] 
 ---
 
 ## What storage solutions are available?
@@ -33,10 +33,9 @@ The timeline and purpose of the storage are also deciding factors for choosing a
 To find out what storage solutions are available to you and which one fits your needs, you can reach out to the IT-department of your host institution. Also, there are often national infrastructures available, for your domain or specialised on computing services, that offers storage solutions as well.
 
 For active data, it is important that it is easily accessible for everyone that needs to work with it. See recommendations on how to store and manage data during the course of your project below. For recommendations about storage after the active phase of a project, see recommendations further down.
-For sensitive data, consider the [Data Sensitivity guidelines](data_sensitivity).
+For sensitive data, consider the [Data Sensitivity guidelines](data_classification).
 For storing your data in a way for others to find and access it, consider a public repository.
 For Big Data, local storage is often not suitable.
-
 
 ## How store and manage your data during the course of a project?
 
@@ -44,7 +43,7 @@ During the active phase of your project, it is important to choose a storage sol
 
 ### Considerations
 * Technical considerations and costs (storage space, in-house versions, backups etc.)
-* Security and data protection rules (see [Data Sensitivity](data_sensitivity))
+* Security and data protection rules (see [Data protection](data_protection))
 * Usage of standard formats, identifiers, ontologies, controlled vocabularies
 * Storage of metadata from the beginning (see [Metadata Management](metadata_management))
 * Storage and interlinkage of all available data of an experiment/project (raw data, processed results, protocols, methods etc.)
@@ -79,3 +78,8 @@ No matter the solution chosen, someone needs to ensure that the data is maintain
 
 * About tar on Wikipedia: [Tar_(computing)](https://en.wikipedia.org/wiki/Tar_(computing))
 * About gzip on Wikipedia: [gzip](https://en.wikipedia.org/wiki/Gzip)
+
+## Relevant tools and resources
+
+{% include toollist.html tag="storage" %}
+

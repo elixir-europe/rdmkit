@@ -2,6 +2,7 @@
 title: Data Management Plan
 keywords: 
 contributors: [Flora D'Anna, Daniel Faria]
+tags: [plan, researcher, data manager, policy officer]
 ---
 
 
@@ -61,7 +62,7 @@ A DMP should address a broad range of data management aspects, regardless of tem
 
 #### Solutions
 * This toolkit includes best practices and guidelines about different aspects of research data management that should be contemplated in a Data Management plan:
-  * Find and reuse existing data: [Collecting](collecting), [Re-using](re-using).
+  * Find and reuse existing data: [Collecting](collecting), [Reusing](reusing).
   * File format
   * Data volume
   * Data sharing
@@ -79,4 +80,6 @@ A DMP should address a broad range of data management aspects, regardless of tem
   * Ethical and legal issues
 * Consider the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) from the Research Data Alliance as a reference data model for organizing these topic.
 
+## Relevant tools and resources
 
+{% include toollist.html tag="DMP" %}

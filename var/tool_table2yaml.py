@@ -58,6 +58,7 @@ with open(table_path, 'r') as read_obj:
                         output = re.split(', |,', cell)
                         for tag in output:
                             if tag not in allowed_tags:
+                                print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
                                 sys.exit(
                                     f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
                     elif header[col_index] == 'registry':
@@ -67,6 +68,7 @@ with open(table_path, 'r') as read_obj:
                             if reg in allowed_registries:
                                 output[reg] = identifier
                             else:
+                                print(f'ERROR: The table contains the registry "{reg}" in row {row_index} which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
                                 sys.exit(
                                     f'The table contains the registry "{reg}" in row {row_index} which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
                         if len(sys.argv) > 1 and sys.argv[1] == "--tess" and material_available(tool_name) and not "tess" in output:
