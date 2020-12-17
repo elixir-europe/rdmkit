@@ -24,7 +24,7 @@ The NeLS Data Management tool assembly can support you with [Data Management Pla
 
 [Data Storage](storage) is the core of the NeLS and builds upon a 3 layer tiered storage system: The first layer is intended for short term storage during computing, processing and analyse steps; the second layer of medium capacity (NeLS) is intended for sharing and storage of active research data, while the third layer (StoreBioinfo) of high capacity is intended for longer storage until end of a project.
 Data in the second (NeLS) layer is protected against hardware failure on disk or server level and snapshots of the data are kept for 4 weeks. The third layer is implemented on top of the national research data storage solutions offered by Sigma2 Uninett A/S and is protected against data loss by snapshots and geo-replication.
-National Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/) can directly upload data for your to your NeLS project for you. 
+National Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/) can directly upload data to your NeLS project for you. 
 
 For [Processing](processing) and [Analysing](analysing) of your data, the NeLS Data Management tool assembly provides access to an [instance of Galaxy](https://usegalaxy.no) with ~2000 tools. of your data, the NeLS Data Management tool assembly provides access to a national instance of Galaxy with ~2000 tools. Data stored in NeLS is directly connected with Galaxy, hence you do not need to keep local copies of your data.
  
