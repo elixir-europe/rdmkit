@@ -18,7 +18,7 @@ Many research funders, institutions and reputable journals/publishers now have d
   - [Ten reasons to share your data.](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)
   - [Ask not what you can do for open data; ask what open data can do for you.](http://blogs.nature.com/naturejobs/2017/06/19/ask-not-what-you-can-do-for-open-data-ask-what-open-data-can-do-for-you/)
 
-Eventhough all data might not be possible to share openly because of ethical, legal, contractual, or intellectual property reasons, do strive to make data "_as open as possible, as closed as necessary_". 
+Even though it may not be possible to openly share all data because of ethical, legal, contractual, or intellectual property reasons, do strive to make data "_as open as possible, as closed as necessary_".
 
 ## What should be considered for Data Sharing?
 
@@ -26,7 +26,7 @@ Eventhough all data might not be possible to share openly because of ethical, le
 * Making the data as FAIR as possible will ensure that the most value can be made out of it in the future.
   - The easiest way to make data FAIR is to deposit it in a publicly accessible recognised repository.
   - If there are Dicipline-specific repositories available for you data, this should be your primary choice. They will work towards a high level of FAIRness by recommending appropriate community standards for describing the data. 
-    - Some recommendations for _Dicipline-specific repositories_:
+    - Some recommendations for _Discipline-specific repositories_:
       - For Biomolecular Data in Life Science use one of the [ELIXIR Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases), or use the [EBI Guidance Wizard](https://www.ebi.ac.uk/submission/)
       - [Repositories recommended by Nature publishing group](https://www.nature.com/sdata/policies/repositories)
       - [FAIRsharing](https://fairsharing.org/)
