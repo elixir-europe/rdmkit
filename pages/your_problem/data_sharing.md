@@ -17,7 +17,7 @@ Sometimes it is difficult to determine if sharing data you have at hand is the r
 ### Solutions
 * Certain repositories offer solutions for depositing data that need to be under restricted access. This allows for data to be findable even when it can not be shared openly. One example is the [The European Genome-phenome Archive (EGA)](https://ega-archive.org/) that can be used to deposit potentially identifiable genetic and phenotypic human data.
 * Many repositories provide the option to put an embargo on a deposited dataset. This might be useful if you prefer to use the data in a publication before making it available for others to use.
-* FIX ME: Add point about collaboration agreement
+* Establish an agreement outlining the controllership of the data and each collaborators' rights and responsibilities.
 
 ## Which repository should I use to share my data?
 Once you have completed your experiments and have performed quality control of your data it is good scientific practice to share your data in a public repository. Sharing your data is often required by funders and publishers.
@@ -31,7 +31,7 @@ The most suitable repository will depend on the data type and your discipline.
   * How sustainable is the repository, will the data remain public over time?
   * How FAIR is the repository?
   * Does the funding agency pose specific requirements regarding data sharing?
-  * FIX ME: Add point about licence/sharing policies of the repository
+  * What are the repository's policies concerning licences and data re-use
 
 ### Solutions
 * Domain-Specific Repositories
