@@ -6,7 +6,7 @@ tags: [share]
 
 
 ## Can I really deposit my data in a public repository?
-Sometimes it is difficult to determine if sharing data you have at hand is the right thing to do. Some reasons for hesitations might be that you have not used the data in a publication and you don't want to be scooped, the data contains personal information about patients or the data was collected or produced in a collaboration.
+Sometimes it is difficult to determine if sharing data you have at hand is the right thing to do. Some reasons for hesitations might be that you have not used the data in a publication yet and don't want to be scooped, that the data contains personal information about patients or that the data was collected or produced in a collaboration.
 
 ### Considerations
 * Do you have the rights or permissions to share the data?
@@ -28,7 +28,7 @@ The most suitable repository will depend on the data type and your discipline.
   * What type of data are you planning to share?
   * Does the repository need to provide solutions for restricted access for sensitive data?
   * Do you have the rights to share the data via the repository?
-  * How sustainability is the repository, will the data remain public over time?
+  * How sustainable is the repository, will the data remain public over time?
   * How FAIR is the repository?
   * Does the funding agency pose specific requirements regarding data sharing?
   * FIX ME: Add point about licence/sharing policies of the repository
@@ -42,8 +42,9 @@ If a domain-specific repository, recognised by the community, exists this should
     * [scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
 
-* General Repositories
-For other cases, your Institution or University may provide a centralised repository for storing the data or you may consider to use a general repository.
+* General Purpose Repositories
+For other cases, a repository that accepts many different data types should be considered.
+
   * [4TU.Datacentrum](https://data.4tu.nl/info/en/).
   * [Dryad Digital Repository](http://datadryad.org).
   * [Figshare](https://figshare.com).
@@ -53,6 +54,9 @@ For other cases, your Institution or University may provide a centralised reposi
   * [Zenodo](https://zenodo.org).
   * [Code Ocean](https://codeocean.com).
 
+
+* Institutional repositories
+Your Institution or University may provide a centralised repository for storing the data. This solution could be suitable for internal sharing but will not necessarily make the data findable and accessible for others.
 
 ## How do I prepare my data for sharing?
 
@@ -69,7 +73,7 @@ Once you have decided to share your data there are a few preparations that need 
 ### Solutions
   * To find a repository see [Which repository should I use to share my data?](##which-repository-should-i-use-to-share-my-data?) above.
   * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
-  * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted tofor example ENA are implicitly free to reuse by others as specified in the [INCD Standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
+  * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted to for example ENA are implicitly free to reuse by others as specified in the [INCD Standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
   * More detailed information about metadata, licences and data transfer is listed under [Related topics](##related-topics) below.
 
 ## Related topics
