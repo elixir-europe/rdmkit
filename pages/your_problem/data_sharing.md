@@ -74,7 +74,7 @@ Once you have decided to share your data there are a few preparations that need 
   * To find a repository see [Which repository should I use to share my data?](#which-repository-should-i-use-to-share-my-data) above.
   * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
   * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted to for example ENA are implicitly free to reuse by others as specified in the [INCD Standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
-  * More detailed information about metadata, licences and data transfer is listed under [Related topics](##related-topics) below.
+  * More detailed information about metadata, licences and data transfer is listed under [Related topics](#related-topics) below.
 
 ## Related topics
 (Optional section)
