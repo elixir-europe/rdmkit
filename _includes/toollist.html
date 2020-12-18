@@ -8,7 +8,7 @@
 {%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
 {%- endif -%}
 {%- if main_tags == blank %}
-The tag "{{ include.tag }}" has not yet related tools are resources.
+The tag "{{ include.tag }}" has not yet related tools or resources.
 {%- else%}
 {%- if include.hide %}
 <div class="margin-link">
