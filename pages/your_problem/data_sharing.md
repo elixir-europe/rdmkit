@@ -45,14 +45,14 @@ If a domain-specific repository, recognised by the community, exists this should
 * General Purpose Repositories
 For other cases, a repository that accepts many different data types should be considered.
 
-  * [4TU.Datacentrum](https://data.4tu.nl/info/en/).
-  * [Dryad Digital Repository](http://datadryad.org).
-  * [Figshare](https://figshare.com).
-  * [Harvard Dataverse](https://dataverse.harvard.edu).
-  * [Mendeley Data](https://data.mendeley.com).
-  * [Open Science Framework](https://osf.io).
-  * [Zenodo](https://zenodo.org).
-  * [Code Ocean](https://codeocean.com).
+  * [4TU.Datacentrum](https://data.4tu.nl/info/en/)
+  * [Dryad Digital Repository](http://datadryad.org)
+  * [Figshare](https://figshare.com)
+  * [Harvard Dataverse](https://dataverse.harvard.edu)
+  * [Mendeley Data](https://data.mendeley.com)
+  * [Open Science Framework](https://osf.io)
+  * [Zenodo](https://zenodo.org)
+  * [Code Ocean](https://codeocean.com)
 
 
 * Institutional repositories
@@ -71,7 +71,7 @@ Once you have decided to share your data there are a few preparations that need 
   * Under which licence should the data be shared?
 
 ### Solutions
-  * To find a repository see [Which repository should I use to share my data?](##which-repository-should-i-use-to-share-my-data?) above.
+  * To find a repository see [Which repository should I use to share my data?](#which-repository-should-i-use-to-share-my-data) above.
   * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
   * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted to for example ENA are implicitly free to reuse by others as specified in the [INCD Standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
   * More detailed information about metadata, licences and data transfer is listed under [Related topics](##related-topics) below.
