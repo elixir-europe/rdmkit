@@ -25,7 +25,7 @@ Data processing is important to ensure the good quality of the collected data an
 
 The following considerations are important for data processing:
 
-* Does data need to be pseudonymized / anonymized? Not only be removing directly identifying data, but also e.g. names are sometimes visible in images.
+* Does data need to be pseudonymized / anonymized? Not only by removing directly identifying data, but also e.g. names are sometimes visible in images.
 * Are there standards for the encoding of different data fields?
 * Is the data properly documented?
     * Are encoding choices documented?
