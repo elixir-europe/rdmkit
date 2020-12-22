@@ -2,7 +2,7 @@
 title: Data Analysis
 keywords: optional
 contributors: [Olivier Collin]
-tags: [Data analysis]
+tags: [analyse]
 ---
 
 ## What are the best practices for data analysis ? 
