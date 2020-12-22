@@ -355,13 +355,13 @@ If you than want to list all the pages containing the tag **research_it** you ca
 
 {% raw %}
 ```
-{% include pagelist.html tag='share'%}
+{% include pagelist.html tag="share"%}
 ```
 {% endraw %}
 
 Giving:
 
-{% include pagelist.html tag='share'%}
+{% include pagelist.html tag="share"%}
 
 This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. To only allow a curated list of tags, make sure you find the tag in the `tags.yaml` file in the `_data` repository. 
 

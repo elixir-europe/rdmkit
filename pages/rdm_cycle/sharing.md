@@ -43,10 +43,6 @@ Even though it may not be possible to openly share all data because of ethical, 
   - If there isn't any suitable repository that can harbour your controlled access data, it is recommended that you at least create a metadata record for the data in an Institutional or General purpose repository.
   
 
-## What Tools and Resources are available for Data Sharing?
-
-{% include toollist.html tag="share" %}
-
 ## Where can training materials and events about Data Sharing be found?
 
 {% include tess.html search="Data Sharing" %}
