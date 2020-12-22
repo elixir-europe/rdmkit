@@ -2,6 +2,7 @@
 title: Global Problem Title (e.g. Metadata Management)
 keywords: optional
 contributors: []
+tags: []
 search: exclude
 ---
 
@@ -38,3 +39,7 @@ Same as above
 ## External links
 (Optional section)
 * Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above
+
+## Relevant tools and resources
+
+{% include toollist.html tag="ADD TAG HERE" %}

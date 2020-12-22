@@ -1,8 +1,8 @@
 ---
-title: Data Sensitivity
-keywords: human data
+title: Data Classification
+keywords: [human data, data sensitivity]
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper]
-tags: [share, collect, process]
+tags: [share, collect, process, policy officer]
 ---
 
 ## Is my data sensitive?
@@ -25,5 +25,6 @@ Finally; not all sensitive information is personal: information on e.g. breeding
 * links to tools etc...
 * links to external help
 
-### Related topics
+## Relevant tools and resources
 
+{% include toollist.html tag="data classification" %}

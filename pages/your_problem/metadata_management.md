@@ -2,7 +2,7 @@
 title: Metadata Management
 keywords:
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos]
-tags: [collect, preserve]
+tags: [collect, preserve, share, researcher, data manager]
 ---
 
 ## How to find appropriate standard metadata for datasets or samples?
@@ -27,3 +27,7 @@ There are multiple standards for different types of data, ranging from generic d
 ## Related topics
  
 ## External links
+
+## Relevant tools and resources
+
+{% include toollist.html tag="metadata" %}

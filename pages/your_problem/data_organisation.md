@@ -1,9 +1,8 @@
 ---
 title: Data Organisation
-keywords: optional
+keywords: [file naming, versioning, folder structures]
 contributors: [Siiri Fuchs, Minna Ahokas]
-search: exclude
-tags: [plan, preserve]
+tags: [collect, process, analyse, preserve, researcher, IT support, data manager]
 ---
 
 ## What is the best way to name a file?
@@ -76,3 +75,7 @@ Same as above
 ## External links
 (Optional section)
 * Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above
+
+## Relevant tools and resources
+
+{% include toollist.html tag="data organisation" %}
