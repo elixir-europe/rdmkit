@@ -5,21 +5,31 @@ contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper]
 
 ## Introduction
 
-When you do research on data derived from human individuals, there are some extra aspects that you need to consider during the data life cycle.  
+When you do research on data derived from human individuals, there are some extra aspects that you need to consider during the data life cycle. Note that much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in EU and on individuals residing in the EU. 
+Much of the information on this page is of a general nature when it comes to working with human data, an additional focus is on human genomic data and the sharing of such information for research purposes.
 
-## Ethical and legal planning, and Collection 
+## Taking ethical and legal implications into consideration for Planning and Collection 
 
 ### Description
 
-To do research on human data you must follow established research ethical guidelines and legislation. Preferably planning for these aspects should be done before starting the research, and in some cases laws even demand it.
+To do research on human data you must follow established research ethical guidelines and legislation. Preferably planning for these aspects has be done before starting to handle the personal data, and in some cases laws even demand it, such in the case of the GDPR.
 
 ### Considerations
 
 * Have you got an **ethical permit** for your research project?
-  * To get an ethical permit you have to apply for an **ethical review** by an **ethical review board**. The legislation that governs this differs between countries. Do seek advice from your research institute.
-  * Informed consents
-  * International standards (GA4GH, ...)
-* Data protection legislation
+  * To get an ethical permit you have to apply for an **ethical review** by an **ethical review board**. 
+    - The legislation that governs this differs between countries. Do seek advice from your research institute.
+  * In most cases you should get **informed consents** from your research subjects.
+    - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimize those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.
+      - Consider describing data use conditions using a machine-readable formalized description such as [DUO](https://github.com/EBISPOT/DUO). This will greatly improve the possibilities to make the data FAIR later on.
+    - Informed consents should be aquired for different purposes:
+      - It is a cornerstone of _research ethics_. Even if there are no other legal obligations for aquiring informed consents it is bad research ethics not to do it. You harm the trust in research if you don't.
+      - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
+      - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
+      - _**Note that the content of an informed consent, as defined by one piece of legislation, might not live up to the demands of another piece of legislation.**_ For example, an informed consent that is good enough for an ethical permit, might not be good enough for the demands of the GDPR.
+  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/).
+    - [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing)
+* Personal data protection legislation
   * EU GDPR
     * [Understanding the GDPR](data_protection)
     * [Determining the sensitivity of your data](data_classification)
