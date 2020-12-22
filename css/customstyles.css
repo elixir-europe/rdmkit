@@ -498,17 +498,17 @@ svg {
     font-variant-ligatures: none;
 }
 
-.main_rdm {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    display: block;
+.embed-responsive.embed-responsive-16by9.main_rdm {
+  padding-bottom: 65%;
+  margin-bottom: 3em;
+}
+
+.embed-responsive {
+  overflow: visible;
 }
 
 .centered {
     text-align: center;
-    margin-bottom: 0;
 }
 
 .flexbox .active-button {
@@ -528,8 +528,8 @@ svg {
     .flexbox h2 {
         margin: 0 10px 0 0;
     }
-    .main_rdm {
-        width: 55%;
+    .embed-responsive.embed-responsive-16by9.main_rdm {
+      padding-bottom: 55%;
     }
     .child-box {
         opacity: 0;
@@ -543,14 +543,14 @@ svg {
 }
 
 @media (min-width: 992px) {
-    .main_rdm {
-        width: 42%;
+    .embed-responsive.embed-responsive-16by9.main_rdm {
+      padding-bottom: 42%;
     }
 }
 
 @media (min-width: 1200px) {
-    .main_rdm {
-        width: 35%;
+    .embed-responsive.embed-responsive-16by9.main_rdm {
+      padding-bottom: 35%;
     }
 }
 
