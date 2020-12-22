@@ -39,13 +39,12 @@ To do research on human data you must follow established research ethical guidel
 
 
 ### Solutions
+  * [Trygge ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
   * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects. 
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements 
   * PIA, MONARC (Data protection impact assessment tools)
-  * ADA-M 
-  * Data Use Ontology (DUO)
-  * Informed Consent Ontology (ICO)
-  * Trygge ELSI Checklist
+  * [Data Use Ontology (DUO)](https://github.com/EBISPOT/DUO)
+  * [Informed Consent Ontology (ICO)](https://github.com/ICO-ontology/ICO)
   * [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
   * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
   * [BBMRI-ERIC's Ethical Legal Societal Issues (ELSI) Knowledge Base](http://www.bbmri-eric.eu/elsi-knowledgebase) contains a glossary, agreement templates and guidance. 
