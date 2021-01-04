@@ -1,6 +1,8 @@
 {%- assign sidebar = site.data.sidebars[page.sidebar].entries -%}
-<p class="centered"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
-<object class="main_rdm" type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
+<p class="centered mb-2"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
+<div class="embed-responsive embed-responsive-16by9 main_rdm">
+    <object class="embed-responsive-item" type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
+</div>
 <p>Or find resources by:</p>
 <div class="flexbox">
     {%- for entry in sidebar -%}
