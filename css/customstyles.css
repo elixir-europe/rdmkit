@@ -588,7 +588,6 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .contributors-line {
-    color: var(--subtle-text);
     margin-top: 30px;
 }
 
@@ -1088,7 +1087,7 @@ div.tags {
 
 hr {
     background: #999;
-    margin: 30px 0px;
+    margin: 60px 0px 30px 0px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
