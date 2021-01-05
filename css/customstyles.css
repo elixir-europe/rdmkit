@@ -1020,7 +1020,6 @@ i.border {
 }
 
 .summary:before {
-    content: "Summary: ";
     font-weight: bold;
 }
 
