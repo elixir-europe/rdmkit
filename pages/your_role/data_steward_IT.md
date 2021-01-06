@@ -1,5 +1,5 @@
 ---
-title: "Research IT"
+title: "Data Steward IT"
 keywords:  [Persistent storage, Temporary storage, Data management infrastructure, Data repositories, FAIR, Open data, DMP, Sensitive data, Information security (and related concepts), Data brokering, Data organisation, AAI, Containerisation, Reproducibility, Persistent identifiers, Automated submission, Cloud computing, HPC, <type> data, Life science data]
 ---
 
@@ -33,11 +33,10 @@ My name is Peter Brown. I studied Engineering at Bristol University. I am intere
  * What are the tools that can be used to manage dependencies resolve software package version conflicts?
 
 
-## Pages you might be interested in
+## Related topics
 
-{% include pagelist.html tag='research_it'%}
+{% include pagelist.html tag="IT support" %}
 
+## Relevant tools and resources
 
-
-
-
+{% include toollist.html tag="IT support" %}

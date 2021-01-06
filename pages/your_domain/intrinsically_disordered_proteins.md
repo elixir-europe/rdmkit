@@ -1,5 +1,5 @@
 ---
-title: "Intrinsically Disordered Proteins community"
+title: "Intrinsically Disordered Proteins"
 ---
 
 
@@ -23,3 +23,7 @@ You can split the experimental process in several steps:
 
     The ontology is available in [OWL](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.owl) and [OBO](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.obo) format. 
 * You should deposit primary data into relevant community databases ([BMRB](http://www.bmrb.wisc.edu/), [PCDDB](https://pcddb.cryst.bbk.ac.uk/), [SASBDB](https://www.sasbdb.org/)). You should deposit literature data to the manually curated database [DisProt](https://disprot.org/). DisProt is built on MIADE standard and IDPO ontology. As such, DisProt requires curators to annotate all new data according to community standards. DisProt adds and exposes [Bioschemas](https://bioschemas.org/) markup to all data records increasing data findability and interoperability.
+
+## Relevant tools and resources
+
+{% include toollist.html tag="IDP" %}

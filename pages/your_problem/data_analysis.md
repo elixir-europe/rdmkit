@@ -1,9 +1,8 @@
 ---
-title: Data Licence
+title: Data Analysis
 keywords: optional
-contributors: [Siiri Fuchs, Minna Ahokas]
-search: exclude
-tags: [share, re-use]
+contributors: []
+tags: []
 ---
 
 ## "Concrete Problem 1, Ideally Formulated as a Question"
@@ -39,3 +38,7 @@ Same as above
 ## External links
 (Optional section)
 * Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above
+
+## Relevant tools and resources
+
+{% include toollist.html tag="ADD TAG HERE" %}

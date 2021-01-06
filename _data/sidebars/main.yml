@@ -1,51 +1,62 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Main sidebar
-  folders:
-  - title: Data Life Cycle
-    folderitems:
-      - RDM : True
-  - title: Your role
-    folderitems:
-    - title: Data Stewards
-      url: /data_stewards.html
-    - title: Research IT
-      url: /research_it.html
-    - title: Bioinformatician
-      url: /bioinformatician.html
-  - title: Your domain
-    folderitems:
-    - title: Plant phenotyping
-      url: /plant_phenotyping_usecase.html
-    - title: Marine metagenomics
-      url: /marine_metagenomics_usecase.html
-    - title: Human Data
-      url: /humandata_usecase.html
-    - title: Biomolecular simulation data
-      url: /biomolecular_simulation_data.html
-    - title: Intrinsically disordered proteins
-      url: /intrinsically_disordered_proteins.html
-  - title: Your problem
-    folderitems:
-    - title: Data management plan
-      url: /data_management_plan.html
-    - title: Storage
-      url: /storage.html
-    - title: Data transfer
-      url: /data_transfer.html
-    - title: Metadata management
-      url: /metadata_management.html
-    - title: Data sharing
-      url: /data_sharing.html
-    - title: Data quality
-      url: /data_quality.html
-    - title: Compliance monitoring & measurement
-      url: /compliance_monitoring_and_measurement.html
-  - title: Tool assemblies
-    folderitems:
-    - title: Assembly example
-      url: /assembly_example.html
-  - title: All tools and resources
-    url: /all_tools_and_resources.html
-    hr: True
+  - title: Main sidebar
+    folders:
+      - title: Data Life Cycle
+        folderitems:
+          - RDM: True
+      - title: Your Role
+        folderitems:
+          - title: Data Steward Policy
+            url: /data_steward_policy.html
+          - title: Data Steward IT
+            url: /data_steward_IT.html
+          - title: Data Steward Research
+            url: /data_steward_research.html
+          - title: Researcher
+            url: /researcher.html
+      - title: Your Domain
+        folderitems:
+          - title: Plant Sciences
+            url: /plant_sciences.html
+          - title: Marine Metagenomics
+            url: /marine_metagenomics.html
+          - title: Human Data
+            url: /human_data.html
+          - title: Biomolecular Simulation Data
+            url: /biomolecular_simulation_data.html
+          - title: Intrinsically Disordered Proteins
+            url: /intrinsically_disordered_proteins.html
+      - title: Your Problem
+        folderitems:
+          - title: Compliance Monitoring
+            url: /compliance_monitoring.html
+          - title: Data Classification
+            url: /data_classification.html
+          - title: Data Management Plan
+            url: /data_management_plan.html
+          - title: Data Organisation
+            url: /data_organisation.html
+          - title: Data Protection
+            url: /data_protection.html
+          - title: Data Publication
+            url: /data_publication.html
+          - title: Data Quality
+            url: /data_quality.html
+          - title: Data Transfer
+            url: /data_transfer.html
+          - title: Licensing
+            url: /licensing.html
+          - title: Metadata Management
+            url: /metadata_management.html
+          - title: Storage
+            url: /storage.html
+      - title: All Tools and Resources
+        url: /all_tools_and_resources.html
+        hr: True
+      - title: Tools Assembly
+        hr: True
+        folderitems:
+          - title: NeLS
+            url: /nels_assembly.html

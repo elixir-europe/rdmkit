@@ -1,7 +1,7 @@
 ---
-title: Data Sharing
+title: Data Publication
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
-tags: [share]
+tags: [preserve, share, researcher, data manager]
 ---
 
 
@@ -81,4 +81,8 @@ Once you have decided to share your data there are a few preparations that need 
 Bullet point list of other pages in this website that are connected to this lifecycle stage
 
 ## External links
-* [Wellcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines).
+* [Welcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines).
+
+## Relevant tools and resources
+
+{% include toollist.html tag="data publication" %}
