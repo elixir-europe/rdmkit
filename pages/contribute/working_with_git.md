@@ -26,8 +26,7 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
     ```
 - Create a new branch named after your feature/edit.
     ```
-    git branch -b 'FEATURE_NAME'
-    git checkout 'FEATURE_NAME'
+    git checkout -b 'FEATURE_NAME'
     ```
 - Make the changes you want to make using an editor of choice
 - Save.
@@ -57,25 +56,29 @@ The website is build on Github using Jekyll, a simple, static site generator bas
     cd rdm-toolkit
     ```
 
-2. Install Jekyll
-If you’ve never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
-   * [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-   * [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+2. If not already present on your machine, install ruby. Note that incompatibility issues may arise with ruby 3.0.0 (released 25.12.20) or newer versions.
 
-3. Install Bundler and Jekyll
+
+3. Install Jekyll
+If you’ve never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+   * Install Jekyll on MacOS/Ubuntu/Other_Linux/Windows: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+
+4. Install Bundler and Jekyll
 
     ```
     gem install jekyll bundler
     ```
 
-4. Update dependencies
+5. Update dependencies
 
     ```
     bundle update
     ```
 
-5. deploy website
+6. deploy website
 
     ```
     bundle exec jekyll serve
     ```
+
+Additional information can be found at the following link: [https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
