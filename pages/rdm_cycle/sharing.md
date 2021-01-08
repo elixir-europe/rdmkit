@@ -36,15 +36,13 @@ If you want to close or restrict access to your datasets, you must explain your 
   - [Repositories recommended by Nature publishing group](https://www.nature.com/sdata/policies/repositories)
   - For the sharing of human-subject phenotype/genotype data there are well-established repositories ([EGA](https://ega-archive.org/), [dbGAP](https://www.ncbi.nlm.nih.gov/gap/), [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html)). The choice will depend on the conditions under which data has been donated and the legislative/geographic boundaries for the research project/consortium. There are also community-specific data hubs that may implement a controlled-access model e.g. ORPHANET, MJFF.
 
-## What Tools and Resources are available for Data Sharing?
-
-{% include toollist.html tag="share" %}
-
 ## Where can training materials and events about Data Sharing be found?
-<!-- Link to Tess query -->
+
+{% include tess.html search="Data Sharing" %}
 
 ## Related topics
-* [Metadata management](metadata_mamagenet)
+
+{% include pagelist.html tag="share" %}
 
 <!-- * Licensing
 * Funder requirements -->

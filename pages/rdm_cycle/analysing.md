@@ -16,16 +16,13 @@ Data Analysis is the main reason for a data intensive project. It actually works
 * Provenance: it is important that the exact steps that have been taken in the data analysis are documented. This includes the exact version of the software used, as well as any parameters. Manual "manipulation" of the data may complicate this documentation process.
 * Who will be doing the analysis? Will it be a computer wizard, or a subject matter expert? In the first case, a series of tools that can be used from the unix command line may give a lot of flexibility, in the latter case a workflow system (such as Galaxy) may be better.
 
-## What tools and resources are available for Data Analysis?
-
-{% include toollist.html tag="analyse" %}
-
 ## Where can training materials and events about Data Analysis be found?
 
 {% include tess.html search="Data Analysis" %}
 
 ## Related topics
-* [Processing](processing)
+
+{% include pagelist.html tag="analyse" %}
 
 <!-- ## External links
 missing content -->
