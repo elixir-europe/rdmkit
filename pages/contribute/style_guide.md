@@ -27,6 +27,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **-ise/-ize:** use the "-ise" form.
   * **"Life cycle":** two separate words.
   * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
+  * **Lists:** every line of a list starts with a capital and ends with a point.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "<i>et al.</i>" for more than five authors.
@@ -56,6 +57,21 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Images:**
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
+
+## Naming of files, tags and navigation titles
+
+* **Markdown file names:**
+  * Do not contain spaces or special characters like &, %, #, (, ), è, é, ê, ë, ...
+  * Are unique among the website.
+  * Are lowercase, except for acronyms.
+* **Tags for tools, resources and pages:**
+  * Do not contain special characters like &, %, #, (, ), è, é, ê, ë, ...
+  * Are lowercase, except for acronyms.
+  * Are short if possible, but distinguishable from existing tags.
+  * Can contain spaces.
+* **Titles in the navigation side panel:**
+  * Have each word capitalized.
+  * Should contain the same words as the filename where this title points to. 
 
 ## How to suggest amendments or additions to this style guide
 [Open a new issue](https://github.com/elixir-europe/rdm-toolkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](https://rdm.elixir-europe.org/how_to_contribute.html).
