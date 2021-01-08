@@ -84,7 +84,6 @@ Tools:
   - researcher
   - data manager
   - IT support
-  - nels
 - description: DMP creation, versioning and sharing
   link: https://easydmp.no/
   name: EasyDMP
@@ -101,7 +100,6 @@ Tools:
   tags:
   - storage
   - researcher
-  - nels
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
   link: https://fairsharing.org/
@@ -126,12 +124,22 @@ Tools:
   - data publication
   - data organisation
   - IT support
-- description: Protein Homology/analogY Recognition Engine
-  link: http://www.sbg.bio.ic.ac.uk/~phyre2
-  name: Phyre2
-  registry:
-    biotools: phyre
-    tess: Phyre2
+  - data manager
+- description: Git based code hosting and collaboration tool, built for teams.
+  link: https://bitbucket.org/
+  name: Bitbucket
+  tags:
+  - data organisation
+  - data manager
+  - IT support
+- description: Distributed version control system designed to handle everything from
+    small to very large projects
+  link: https://git-scm.com/
+  name: Git
+  tags:
+  - data organisation
+  - data manager
+  - IT support
 - description: Minimum Information About a Plant Phenotyping Experiment
   link: https://www.miappe.org/
   name: MIAPPE
@@ -176,7 +184,6 @@ Tools:
   tags:
   - storage
   - IT support
-  - nels
 - description: Minimum Information about any (x) Sequence
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
@@ -491,3 +498,35 @@ Tools:
     biotools: nels
   tags:
   - nels
+- description: Data management platform for automated loading, storage, linkage and
+    provision of data sets
+  link: https://www.dundee.ac.uk/hic/researchdatamanagementplatform/
+  name: Research Data Management Platform (RDMP)
+  registry:
+    biotools: rdmp
+  tags:
+  - storage
+  - IT support
+- description: Electronic data archive library is a framework for publishing and sharing
+    research data
+  link: https://edal.ipk-gatersleben.de/
+  name: e!DAL
+  registry:
+    biotools: edal
+  tags:
+  - storage
+  - IT support
+- description: File renaming software for Windows
+  link: https://www.bulkrenameutility.co.uk/
+  name: Bulk Rename Utility
+  tags:
+  - data organisation
+  - data manager
+  - researcher
+- description: File renaming software for Mac
+  link: https://renamer.com/
+  name: Renamer4Mac
+  tags:
+  - data organisation
+  - data manager
+  - researcher
