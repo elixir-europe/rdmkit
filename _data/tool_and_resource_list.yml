@@ -84,6 +84,7 @@ Tools:
   - researcher
   - data manager
   - IT support
+  - nels
 - description: DMP creation, versioning and sharing
   link: https://easydmp.no/
   name: EasyDMP
@@ -100,6 +101,7 @@ Tools:
   tags:
   - storage
   - researcher
+  - nels
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
   link: https://fairsharing.org/
@@ -184,6 +186,7 @@ Tools:
   tags:
   - storage
   - IT support
+  - nels
 - description: Minimum Information about any (x) Sequence
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
