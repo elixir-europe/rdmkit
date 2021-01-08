@@ -2,22 +2,22 @@
 entries:
     - title: Contribute
       folders:
-      - title: How to contribute
+      - title: How to Contribute
         url: /how_to_contribute.html
         folderitems:
-        - title: Github way
+        - title: Github Way
           url: /github_way.html
-        - title: Google doc way
+        - title: Google Doc Way
           url: /google_doc_way.html
-        - title: Git way (advanced)
+        - title: Git Way (advanced)
           url: /working_with_git.html
-      - title: Add new tool or resource
+      - title: Add New Tool or Resource
         url: /tool_resource_update.html
-      - title: Style guide
+      - title: Style Guide
         url: /style_guide.html
       - title: Copyright guidelines
         url: /copyright.html
-      - title: Markdown cheat sheet
+      - title: Markdown Cheat Sheet
         url: /markdown_cheat_sheet.html
-      - title: Editorial board guide
+      - title: Editorial Board Guide
         url: /editorial_board_guide.html
