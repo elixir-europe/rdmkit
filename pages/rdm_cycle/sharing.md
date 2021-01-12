@@ -31,8 +31,9 @@ Even though it may not be possible to openly share all data because of ethical, 
       - [Repositories recommended by Nature publishing group](https://www.nature.com/sdata/policies/repositories)
       - [FAIRsharing](https://fairsharing.org/)
       - [Re3data](https://re3data.org/)
-  - Your second choice should be your _Institutional repository_, if there is one. Contact the the Research Data Office function at your institution, if there is one.
-  - The last choice is to deposit the data in a [_General purpose repository_](https://www.nature.com/sdata/policies/repositories#general).
+  - In case there are no suitable Dicipline-specific repositories for your data, your choices are:
+    - Deposit the data in an _Institutional repository_, if there is one. These often provide stewardship and curation, helping to ensure that your dataset is preserved and accessible. Contact the the Research Data Office function at your institution, if there is one.
+    - Deposit the data in a [_General purpose repository_](https://www.nature.com/sdata/policies/repositories#general).
 * Consider depositing your data to a repository as early as possible. This saves a lot of trouble later on. Data can be put under embargo until you want to release it, e.g. at the time of article publication.
 * To make your life easier, structure the metadata according to your target repositories early on in the project (see Planning).
 * Note that all data might not be possible to make publicly available because of ethical, legal, contractual, or intellectual property reasons. 
