@@ -19,23 +19,23 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
-    {%- if page.tags != null or page.contributors != null %}
-    <hr>
-    {%- endif %}
-    {%- if page.tags != null %}
-    <div class="tags">
-        <b>Tags: </b>
-        {%- assign projectTags = site.data.tags %}
-        {%- assign tags = page.tags | sort %}
-        {%- for tag in tags %}
-        {%- if projectTags[tag] %}
-        <a href="{{ projectTags[tag].url }}" class="btn btn-default"
-            role="button">{{tag}}</a>
-        {%- endif %}
-        {%- endfor %}
-    </div>
-    {%- endif %}
 </div>
+{%- if page.tags != null or page.contributors != null %}
+<hr>
+{%- endif %}
+{%- if page.tags != null %}
+<div class="tags">
+    <b>Tags: </b>
+    {%- assign projectTags = site.data.tags %}
+    {%- assign tags = page.tags | sort %}
+    {%- for tag in tags %}
+    {%- if projectTags[tag] %}
+    <a href="{{ projectTags[tag].url }}" class="btn btn-default"
+        role="button">{{tag}}</a>
+    {%- endif %}
+    {%- endfor %}
+</div>
+{%- endif %}
 {%- if page.contributors %}
-<div class="contributors-line">Contributors: {%- include contributor-badge-list.html contributors=page.contributors %}</div>
+<div class="contributors-line"><b>Contributors: </b>{%- include contributor-badge-list.html contributors=page.contributors %}</div>
 {%- endif %}

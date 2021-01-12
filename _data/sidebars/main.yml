@@ -55,3 +55,8 @@ entries:
       - title: All Tools and Resources
         url: /all_tools_and_resources.html
         hr: True
+      - title: Tools Assembly
+        hr: True
+        folderitems:
+          - title: NeLS
+            url: /nels_assembly.html

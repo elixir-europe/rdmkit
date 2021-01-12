@@ -46,35 +46,62 @@ Brief and descriptive file names are important in keeping your data files organi
   * Explanation: Time_creator_data type_modification_version
 
 ## How to manage file versioning?
- 
-### Description 
-Same as above
+
+### Description
+File versioning is a way to keep track of changes made to files and datasets. While the implementation of a good file naming convention will indicate that different versions exist, this will not explain the difference between two (or more) versions. File versioning will enable transparency on which actions and changes were made when, and it will be easier to backtrack and find something that was present in a previous version, but which has later been deleted or changed.
 
 ### Considerations
-Same as above
+* Do you need to collaborate on files, perhaps at the same time?
+* Is there a need to be able to backtrack and restore a previous version?
+* Will there be many changes made?
 
 ### Solutions
-Same as above
+* Smaller demands of versioning can be managed manually e.g. by keeping a log where the changes for each respective file is documented, version by version.
+* For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as [Git](https://git-scm.com/), hosted by e.g. [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
+
 
 ## How to organise files in a folder structure?
- 
-### Description 
-Same as above
+
+### Description
+A carefully planned folder structure, with intelligible folder names and an intuitive design, is the foundation for good data organisation. The folder structure gives an overview of which information can be found where, enabling present as well as future stakeholders to understand what files have been produced in the project.
 
 ### Considerations
-Same as above
+* The decisions on how to organise the files should be made during planning and design of the project, so that the strategy can be implemented already from the start.
+* Consider to consistently apply the same strategy in every project within the research group.
 
 ### Solutions
-Same as above
+Folders should:
+* follow a structure with folders and subfolders that correspond to the project design and workflow
+* have a self-explanatory name that is only as long as is necessary
+* have a unique name – avoid assigning the same name to a folder and a subfolder
 
+The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. This file should also contain explanation of the file naming convention.
 
-## Related topics
+#### An example:
+
+    project/  
+      code/                 code needed to go from input files to final results   
+      data/                 raw and primary data (never edit!)   
+         raw_external/  
+         raw_internal/
+         meta/  
+      doc/                  documentation of the study  
+      intermediate/         output files from intermediate analysis steps  
+      logs/                 logs from the different analysis steps  
+      notebooks/            notebooks that document your day-to-day work  
+      results/              output from workflows and analyses  
+         figures/  
+         reports/  
+         tables/  
+      scratch/              temporary files that can safely be deleted or lost  
+      README.txt            file and folder description  
+      
+<!--- ## Related topics
 (Optional section)
-* Bullet point list of other pages in this website that are connected to this lifecycle stage
+* Bullet point list of other pages in this website that are connected to this lifecycle stage -->
 
 ## External links
-(Optional section)
-* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above
+* '[A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)' provides further best-practice suggestions on data organisation.
 
 ## Relevant tools and resources
 

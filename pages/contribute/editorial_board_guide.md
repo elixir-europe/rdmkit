@@ -184,29 +184,29 @@ Bert Droesbeke:
 Tagging pages is done through the `tags:` property in the metadata of the markdown page.
 Add the tag(s) to a list (square brackets). Make sure that your tag corresponds to an existing page. 
 
-This metadata example shows how we tag the "Storage" page with the **research_it** tag:
+This metadata example shows how we tag the "Storage" page with the **share** tag:
 ```md
 ---
 title: Storage
-tags: [research_it] 
+tags: [share, IT support] 
 ---
 ```
 
 ### Listing the pages somewhere else
 
-If you then want to list all the pages containing the tag **research_it** you can use the code snippet:
+If you then want to list all the pages containing the tag **share** you can use the code snippet:
 
 {% raw %}
 ```
-{% include pagelist.html tag="research_it" %}
+{% include pagelist.html tag="share" %}
 ```
 {% endraw %}
 
 Giving:
 
-{% include pagelist.html tag="research_it" %}
+{% include pagelist.html tag="share" %}
 
-This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. 
+This is preferably done on the 'IT support' page. In this way the tag visible on the tagged pages will link to the 'IT support', interlinking everything. 
 
 ### Supported tags
 
@@ -214,25 +214,29 @@ To only allow a curated list of tags, make sure that you find the tags in the `t
 
 ## Using the tool/resource list
 
-Here we list all the tools with the tag **monitoring**  by using the code snippet:
+Here we list all the tools with the tag **data publication**  by using the code snippet:
 
 {% raw %}
 ```
-{% include toollist.html tag="monitoring" %}
+{% include toollist.html tag="data publication" %}
 ```
 {% endraw %}
 
 Giving:
 
-{% include toollist.html tag="monitoring" %}
+{% include toollist.html tag="data publication" %}
 
 Add a second tag for filtering using the 'tag2' attribute:
 
 {% raw %}
 ```
-{% include toollist.html tag="human data" tag2="plan" %}
+{% include toollist.html tag="data publication" tag2="IT support" %}
 ```
 {% endraw %}
+
+Giving:
+
+{% include toollist.html tag="data publication" tag2="IT support" %}
 
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
 More information on how to add a tool or resource can be found [here](tool_resource_update).
