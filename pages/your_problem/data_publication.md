@@ -72,7 +72,7 @@ Once you have decided to share your data there are a few preparations that need 
 ## Related topics
 
 ## External links
-* [Welcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines).
+* [Welcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines)
 
 ## Relevant tools and resources
 
