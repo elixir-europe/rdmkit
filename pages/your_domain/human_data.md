@@ -30,19 +30,20 @@ To do research on human data you must follow established research ethical guidel
   * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/).
     - [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing)
 * Personal data protection legislation
-  * EU GDPR
-    * [Understanding the GDPR](data_protection)
-    * [Determining the sensitivity of your data](data_classification)
-    * Data Protection Impact Assessments
+  * If you are performing research in the EU on human research subjects, or on human research subject in the EU, you must adhere to the General Data Protection Regulation - GDPR.
+    * See [Understanding the GDPR](data_protection) for more information on this law.
+    * The sensitivity of your data affects what considerations you have make when handling it, see [Determining the sensitivity of your data](data_classification) for more information.
+    * For some sensitive data you have to perform a Data Protection Impact Assessments. In general, any biomedical research on human subjects will need to do this.
   * Outside EU 
-    * [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf)
+    * For countries outside the EU, the [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf) list relevant legislations.
 
 
 ### Solutions
   * [Trygge ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
   * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects. 
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements 
-  * PIA, MONARC (Data protection impact assessment tools)
+  * [PIA](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assesment) is a software tool to make Data Protection Impact Assessments. 
+  * [MONARC](https://open-source-security-software.net/project/MONARC) is a risk assessment tool that can be used to do Data Protection Impact Assessments
   * [Data Use Ontology (DUO)](https://github.com/EBISPOT/DUO)
   * [Informed Consent Ontology (ICO)](https://github.com/ICO-ontology/ICO)
   * [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
