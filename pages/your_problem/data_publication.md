@@ -42,7 +42,7 @@ The most suitable repository will depend on the data type and your discipline.
 If a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
   * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
   * Lists of discipline-specific, community-recognised repositories can be found in the following links:
-    * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
+    * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases).
     * [Scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
 
