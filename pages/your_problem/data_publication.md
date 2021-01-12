@@ -6,6 +6,8 @@ tags: [preserve, share, researcher, data manager]
 
 
 ## Can I really deposit my data in a public repository?
+
+### Description
 Sometimes it is difficult to determine if sharing data you have at hand is the right thing to do. Some reasons for hesitations might be that you have not used the data in a publication yet and don't want to be scooped, that the data contains personal information about patients or that the data was collected or produced in a collaboration.
 
 ### Considerations
@@ -20,6 +22,8 @@ Sometimes it is difficult to determine if sharing data you have at hand is the r
 * Establish an agreement outlining the controllership of the data and each collaborators' rights and responsibilities.
 
 ## Which repository should I use to share my data?
+
+### Description
 Once you have completed your experiments and have performed quality control of your data it is good scientific practice to share your data in a public repository. Sharing your data is often required by funders and publishers.
 
 The most suitable repository will depend on the data type and your discipline.
@@ -39,20 +43,12 @@ If a discipline-specific repository, recognised by the community, exists this sh
   * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
   * Lists of discipline-specific, community-recognised repositories can be found in the following links:
     * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
-    * [scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
+    * [Scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
 
 * General Purpose Repositories and Institutional repositories
-For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a General Purpose Repository or a centralised repository provided by your Institution or University.
+For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [General Purpose Repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your Institution or University.
 
-  * [4TU.Datacentrum](https://data.4tu.nl/info/en/)
-  * [Dryad Digital Repository](http://datadryad.org)
-  * [Figshare](https://figshare.com)
-  * [Harvard Dataverse](https://dataverse.harvard.edu)
-  * [Mendeley Data](https://data.mendeley.com)
-  * [Open Science Framework](https://osf.io)
-  * [Zenodo](https://zenodo.org)
-  * [Code Ocean](https://codeocean.com)
 
 
 ## How do I prepare my data for sharing?
