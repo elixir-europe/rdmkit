@@ -7,7 +7,7 @@ keywords:
 ## What is Data Sharing?
 Data Sharing means making datasets known and available to the global research community and to society at large. Data sharing can be done at any time during the research data life cycle but, at the latest, data should be made available at the time of publication of articles that use the data to make scientific conclusions. 
 
-## Why Data Sharing is important?
+## Why is Data Sharing important?
 Sharing of data is a cornerstone of good science. It is ethical good research  practice to ensure that data underlying research is preserved and made available to the research community and society at large. Sharing data is a necessary prerequisite for making your research reproducible. To be useful for others, you should strive to make the shared data adhere to the [FAIR principles](). 
 
 In the EU, the 'Open Data Directive' ([Directive (EU) 2019/1024](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024)) states that "_Member States shall support the availability of research data by adopting national policies and relevant actions aiming at making publicly funded research data openly available (‘open access policies’), following the principle of ‘open by default’ and compatible with the FAIR principles._"
