@@ -4,61 +4,75 @@ contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
 tags: [preserve, share, researcher, data manager]
 ---
 
-## Submitting your data to a public repository.
 
-Once you have completed your experiments and are ready to submit your results for publication you may require to deposit the data in a recognised open repository prior to the article submission. Depending on the type of data you will need to find suitable repository relevant to your data type and discipline. In certain cases, your Institution or University may also provide you a centralised repository for storing the data. However, for some data types, such as the high throughput sequencing data it is essential that the data are deposited in public repositories such as ArrayExpress or Gene Expression Omnibus (GEO). In these cases, only the community recognised repositories should be used.
+## Can I really deposit my data in a public repository?
 
-In case a subject-specific repository is not available, you may consider to use some of the availabe general repositories.
+### Description
+Sometimes it is difficult to determine if sharing data you have at hand is the right thing to do. Some reasons for hesitations might be that you have not used the data in a publication yet and don't want to be scooped, that the data contains personal information about patients or that the data was collected or produced in a collaboration.
 
-### Considerations 
-The public repository will ask you to provide various kinds of information about the data being deposited. You may be asked the following questions:
-  * Is your data  personal or sensitive?
-  * Is your data  commercially-sensitive?
-  * Does your data contains confidential/restricted information?
-  * Do you have the rights to share the data via the repository?
-  * Do you have the rights or permissions to store the data? 
-  * Is your data compliant with the data sharing policy of the journal?
-  * Does your data follows the FAIR Data Principles?
+### Considerations
+* Do you have the rights or permissions to share the data?
+* Is the data commercially-sensitive?
+* Does the data contain confidential/restricted information?
+* Who controls the data?
 
 ### Solutions
+* Certain repositories offer solutions for depositing data that need to be under restricted access. This allows for data to be findable even when it can not be shared openly. One example is the [The European Genome-phenome Archive (EGA)](https://ega-archive.org/) that can be used to deposit potentially identifiable genetic and phenotypic human data.
+* Many repositories provide the option to put an embargo on a deposited dataset. This might be useful if you prefer to use the data in a publication before making it available for others to use.
+* Establish an agreement outlining the controllership of the data and each collaborators' rights and responsibilities.
 
-#### Subject Specific Repositories
+## Which repository should I use to share my data?
 
-List of discipline-specific, community-recognized repositories can be found in the following links:
+### Description
+Once you have completed your experiments and have performed quality control of your data it is good scientific practice to share your data in a public repository. Sharing your data is often required by funders and publishers.
 
-* [ELIXIR Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
-* [Nature Recommended Data Repositories](https://www.nature.com/sdata/policies/repositories).
+The most suitable repository will depend on the data type and your discipline.
 
-#### General Repositories
-List of Generalist repositories if no suitable community resource is available:
+### Considerations
+  * What type of data are you planning to share?
+  * Does the repository need to provide solutions for restricted access for sensitive data?
+  * Do you have the rights to share the data via the repository?
+  * How sustainable is the repository, will the data remain public over time?
+  * How FAIR is the repository?
+  * Does the funding agency pose specific requirements regarding data sharing?
+  * What are the repository's policies concerning licences and data re-use
 
-* [4TU.Datacentrum](https://data.4tu.nl/info/en/).
-* [Dryad Digital Repository](http://datadryad.org).
-* [Figshare](https://figshare.com).
-* [Harvard Dataverse](https://dataverse.harvard.edu).
-* [Mendeley Data](https://data.mendeley.com).
-* [Open Science Framework](https://osf.io).
-* [Zenodo](https://zenodo.org).
-* [Code Ocean](https://codeocean.com).
-
-### Resources
+### Solutions
+* Discipline-Specific Repositories
+If a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
+  * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
+  * Lists of discipline-specific, community-recognised repositories can be found in the following links:
+    * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases).
+    * [Scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
 
+* General Purpose and Institutional repositories
+For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [General Purpose Repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your Institution or University.
 
-## Long term storage or archiving of your data?
-Description
-Short explanation of what this problem is
-Considerations
-(Optional) Things to consider when addressing this problem 
-Solutions
-Bullet point list of solutions, including tools and resources if applicable
+
+
+## How do I prepare my data for sharing?
+
+### Description
+Once you have decided to share your data there are a few preparations that need to be done to get the data ready for repository submission.
+
+### Considerations
+  * What repository should you choose?
+  * What file formats should be used for the data?
+  * How is the data uploaded?
+  * What metadata do you need to provide?
+  * Under which licence should the data be shared?
+
+### Solutions
+  * To find a repository see [Which repository should I use to share my data?](#which-repository-should-i-use-to-share-my-data) above.
+  * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
+  * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted to for example ENA are implicitly free to reuse by others as specified in the [INCD Standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
+  * See the corresponding page for more detailed information about [metadata management](metadata_management), [licences](licensing) and [data transfer](data_transfer) is listed under [Related topics](#related-topics) below.
 
 ## Related topics
-(Optional section)
-Bullet point list of other pages in this website that are connected to this lifecycle stage
 
 ## External links
-* [Welcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines).
+* [Welcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines)
 
 ## Relevant tools and resources
 
