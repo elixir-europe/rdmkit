@@ -51,7 +51,7 @@ For other cases, a repository that accepts data of different types and disciplin
 
 
 
-## How do I prepare my data for sharing?
+## How do I prepare my data for publication?
 
 ### Description
 Once you have decided to publish your data there are a few preparations that need to be done to get the data ready for repository submission.
@@ -61,7 +61,7 @@ Once you have decided to publish your data there are a few preparations that nee
   * What file formats should be used for the data?
   * How is the data uploaded?
   * What metadata do you need to provide?
-  * Under which licence should the data be shared?
+  * Under which licence should the data be published?
 
 ### Solutions
   * To find a repository see [Which repository should I use to publish my data?](#which-repository-should-i-use-to-publish-my-data) above.
