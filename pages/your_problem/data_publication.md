@@ -34,16 +34,16 @@ The most suitable repository will depend on the data type and your discipline.
   * What are the repository's policies concerning licences and data re-use
 
 ### Solutions
-* Domain-Specific Repositories
-If a domain-specific repository, recognised by the community, exists this should be your first choice since domain-specific repositories often increases the FAIRness of the data.
+* Discipline-Specific Repositories
+If a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
   * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
-  * Lists of domain-specific, community-recognised repositories can be found in the following links:
+  * Lists of discipline-specific, community-recognised repositories can be found in the following links:
     * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/services/tag/elixir-deposition-databases).
     * [scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
 
 
-* General Purpose Repositories
-For other cases, a repository that accepts many different data types should be considered.
+* General Purpose Repositories and Institutional repositories
+For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a General Purpose Repository or a centralised repository provided by your Institution or University.
 
   * [4TU.Datacentrum](https://data.4tu.nl/info/en/)
   * [Dryad Digital Repository](http://datadryad.org)
@@ -54,9 +54,6 @@ For other cases, a repository that accepts many different data types should be c
   * [Zenodo](https://zenodo.org)
   * [Code Ocean](https://codeocean.com)
 
-
-* Institutional repositories
-Your Institution or University may provide a centralised repository for storing the data. This solution could be suitable for internal sharing but will not necessarily make the data findable and accessible for others.
 
 ## How do I prepare my data for sharing?
 
