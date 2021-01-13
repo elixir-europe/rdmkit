@@ -8,7 +8,7 @@ contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini]
 
 Data management planning means to formally outline solutions regarding the handling and storing of the data generated within a project, both as the activity is running and after its conclusion. The first step is the creation of Data Management Plan (DMP), a document reporting in detail the data types that will be generated, the associated metadata, the plan for data preservation, the type of analysis that will be performed, data ownership and licensing.
 
-## Why Data Management Planning is important?
+## Why is Data Management Planning important?
 
 It is good research practice to take care of your research data and have a data management plan. It will make your work more efficient, facilitate team work and use of services and tools. Moreover, a detailed DMP would facilitate the reproducibilty of your research results, both in your group and externally. 
 
@@ -34,7 +34,7 @@ The usage of web-based DMP solutions is becoming standard practice. Their usage 
 Some tools support machine actionable DMPs (maDMP), which enable you to transfer information between different tools and systems.
 MaDMPs aim to make the DMP interoperable, automated and increasingly standardised.
 
-DMP can also be written as a simple text document, if preferred.
+DMP can also be written as a plain text document, if preferred.
 
 ## Where can training materials and events about Data Management Planning be found?
 
