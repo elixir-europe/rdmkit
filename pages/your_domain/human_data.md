@@ -56,14 +56,21 @@ To do research on human data you must follow established research ethical guidel
 
 ### Description
 
-This topic concerns the procedure and technical issues to ensure that personal information is protected.
+For human data it is very important to use technical and procedural measures to ensure that the information is kept secure. There might exist legal obligations to document and implement measures to ensure an adequate level of security.
 
 ### Considerations
 
-* Information Security
-  * Technical measures
-  * Procedural measures
+* Establish adequate **Information security** measures. This should be done for all types of research data, but is even more important for human data.
+  - Information security is usually described as containing three main aspects - **Confidentiality**, **Integrity**, and **Accessability**.
+    - Confidentiality is about measures to ensure that data is kept confidential from those that do not have rights to access the data.
+    - Integrity is about measures to ensure that data is not corrupted or destroyed.
+    - Accessability is about measures to ensure that data can be accessed by those that have a right to access it, when they need to access it.
+  - Information security measures are both _procedural_ and _technical_.
+  - What information security measures that need to be established should be defined at the planning stage (see above), when doing a risk assessment, e.g. a GDPR Data Protection Impact Assessment. This should identify information security risks, and define measures to mitigate those risks.
+  - Contact the IT or Information security office at your institution to get guidance and support to address these issues.
+  - [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) is an international information security standard.
 * Locating tools and platforms suited to handle human data
+  - Local research infrastructures might have established compute and/or storage solutions with strong information security measures tailored for working on human data. Contact your institute or your ELIXIR node for guidance.
 
 
 ### Solutions
