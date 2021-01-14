@@ -300,7 +300,9 @@ Tools:
   - data protection
   - policy officer
   - human data
-- link: https://neic.no/tryggve/
+- description: A list of Ethical, Legal, and Societal Implications (ELSI) to consider
+    for research projects on human subjects
+  link: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
   name: Tryggve ELSI Checklist
   tags:
   - data classification
@@ -590,3 +592,38 @@ Tools:
   - data publication
   - human data
   - policy officer
+- description: A resource for researchers when drafting consent forms so they can
+    use language matching cutting-edge GA4GH international standards
+  link: https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing
+  name: Consent Clauses for Genomic Research
+  tags:
+  - human data
+- description: "The International Compilation of Human Research Standards enumerates\
+    \ over 1,000 laws, regulations, and guidelines (collectively referred to as \u201C\
+    standards\u201D) that govern human subject protections in 133 countries, as well\
+    \ as standards from a number of international and regional organizations"
+  link: https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf
+  name: International Compilation of Human Research Standards
+  tags:
+  - human data
+- description: A risk assessment tool that can be used to do Data Protection Impact
+    Assessments
+  link: https://open-source-security-software.net/project/MONARC
+  name: MONARC
+  tags:
+  - data protection
+  - policy officer
+  - human data
+- link: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN
+  name: EU General Data Protection Regulation
+  tags:
+  - data protection
+  - policy officer
+  - human data
+- description: International information security standard
+  link: https://en.wikipedia.org/wiki/ISO/IEC_27001
+  name: ISO/IEC 27001
+  tags:
+  - data protection
+  - policy officer
+  - human data
