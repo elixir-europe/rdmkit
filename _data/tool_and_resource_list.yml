@@ -598,10 +598,10 @@ Tools:
   name: Consent Clauses for Genomic Research
   tags:
   - human data
-- description: "The International Compilation of Human Research Standards enumerates\
-    \ over 1,000 laws, regulations, and guidelines (collectively referred to as \u201C\
-    standards\u201D) that govern human subject protections in 133 countries, as well\
-    \ as standards from a number of international and regional organizations"
+- description: The International Compilation of Human Research Standards enumerates
+    over 1,000 laws, regulations, and guidelines (collectively referred to as standards)
+    that govern human subject protections in 133 countries, as well as standards from
+    a number of international and regional organizations
   link: https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf
   name: International Compilation of Human Research Standards
   tags:
