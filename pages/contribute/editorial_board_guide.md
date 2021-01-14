@@ -80,7 +80,7 @@ More information about these topics can be found in the Github documentation:
 
 ## Review pull requests
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will changed by the PR will be assigned and notified.
+If contributors make a pull request to make changes, by default the editors that are responsible for files that will changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags and keywords, and tools and resources' tags should be checked and assigned according to the established tagging system.
   
 ## Link a pull request to an issue
 
@@ -130,6 +130,8 @@ By default your page will not be linked in the sidebar on the website, or on the
 
 ### Linking pages in the sidebar and frontpage
 
+Make sure all pages are accessible from the navigation sidebar. Please, avoid generating sub-pages that are not directly accessible from the navigation sidebar.
+
 This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars and the frontpage of the website. The sidebar supports multiple levels and each level in the hierarchy can contain a URL to a page within this website or an external URL.
 
 The attributes that define the structure are:
@@ -151,7 +153,7 @@ The attributes that define the structure are:
 
 ### Link page within existing page
 
-When linking to internal pages, you can manually link to the pages like this:
+Avoid manual linking to internal pages. If necessary, you can manually link to the pages like this:
 
 If the markdown page is named example_1.md, you can link towards it using:
 
