@@ -8,7 +8,7 @@ contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi]
 
 Data collection is the process where information is gathered about specific variables of interest either using instrumentation or other methods. While data collection methods depend on the field and research subject, it is important to ensure data quality.
 
-You can also reuse existing data in your project, for more information see “Re-use” in the data life cycle.
+You can also reuse existing data in your project, for more information see “Reuse” in the data life cycle.
 
 ## Why is Data Collection important?
 

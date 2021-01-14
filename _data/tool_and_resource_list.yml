@@ -533,3 +533,60 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: Plant Genomics and Phenomics Research Data Repository
+  link: https://edal-pgp.ipk-gatersleben.de/
+  name: e!DAL-PGP
+  registry:
+    fairsharing: rf3m4g
+  tags:
+  - plants
+  - researcher
+  - data manager
+  - IT support
+- description: List of discipline-specific deposition databases recommended by ELIXIR.
+  link: https://elixir-europe.org/platforms/data/elixir-deposition-databases
+  name: ELIXIR Deposition Databases for Biomolecular Data
+  registry:
+    fairsharing: bsg-c000039
+  tags:
+  - data publication
+  - researcher
+  - data manager
+  - IT support
+- description: List of respositories recommended by Scinetific Data, contains both
+    discipline-specific and general repositories.
+  link: https://www.nature.com/sdata/policies/repositories
+  name: Scientific Data's Recommended Repositories
+  tags:
+  - data publication
+  - researcher
+  - data manager
+  - IT support
+- description: EUDAT's wizard for finding the right licence for your data or code.
+  link: https://ufal.github.io/public-license-selector/
+  name: EUDAT licence selector wizard
+  tags:
+  - licensing
+  - researcher
+  - data manager
+  - policy officer
+- description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
+    data.
+  link: https://www.ebi.ac.uk/submission/
+  name: EMBL-EBI's data submission wizard
+  tags:
+  - data publication
+  - researcher
+  - data manager
+- description: EGA is a service for permanent archiving and sharing of all types of
+    personally identifiable genetic and phenotypic data resulting from biomedical
+    research projects
+  link: https://ega-archive.org/
+  name: The European Genome-phenome Archive (EGA)
+  registry:
+    biotools: ega
+    fairsharing: mya1ff
+  tags:
+  - data publication
+  - human data
+  - policy officer
