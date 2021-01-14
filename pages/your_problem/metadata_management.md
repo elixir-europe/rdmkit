@@ -6,6 +6,8 @@ tags: [collect, preserve, share, researcher, data manager]
 ---
 
 ## How to find appropriate standard metadata for datasets or samples?
+
+### Description
 There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. DCAT, Dublin core, (bio)schema.org) to specific data types (e.g. MIABIS for biosamples). Therefore, **how** to find a standard metadata, and **how** to find the appropriate repository for depositing your data become relevant questions.
  
 ### Considerations
@@ -23,10 +25,8 @@ There are multiple standards for different types of data, ranging from generic d
   * [RDA](https://rd-alliance.github.io/metadata-directory/standards/).
   * [FAIRsharing.org](https://fairsharing.org) at “Standards” and “Collections”.
   * [DCC](https://www.dcc.ac.uk/guidance/standards/metadata/list).
-
-## Related topics
  
-## External links
+<!-- ## External links -->
 
 ## Relevant tools and resources
 
