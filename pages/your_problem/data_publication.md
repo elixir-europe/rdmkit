@@ -1,6 +1,6 @@
 ---
 title: Data Publication
-keywords:[deposition database, repository]
+keywords: [deposition database, repository]
 contributors: [Munazah Andrabi, Ulrike Witting, Elin Kronander]
 tags: [preserve, share, researcher, data manager]
 ---
