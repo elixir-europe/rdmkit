@@ -64,7 +64,8 @@ data classification:
   url: data_classification.html
 data protection:
   url: data_protection.html
-privacy:
+data analysis:
+  url: data_analysis.html
 # Assembly tags
 nels:
   url: nels_assembly.html

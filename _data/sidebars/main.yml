@@ -32,6 +32,8 @@ entries:
         folderitems:
           - title: Compliance Monitoring
             url: /compliance_monitoring.html
+          - title: Data Analysis
+            url: /data_analysis.html   
           - title: Data Classification
             url: /data_classification.html
           - title: Data Management Plan
