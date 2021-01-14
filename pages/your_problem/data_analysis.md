@@ -5,7 +5,7 @@ contributors: [Olivier Collin]
 tags: [analyse]
 ---
 
-## What are the best practices for data analysis ? 
+## What are the best practices for data analysis?
  
 ### Description
 
@@ -14,7 +14,7 @@ This will help to tackle reproducibility problems but also will improve the impa
 
 ### Considerations
 
-There are many ways that will bring reproducibility to your data analysis. You can act at several levels :
+There are many ways that will bring reproducibility to your data analysis. You can act at several levels:
 * by providing your code
 * by providing you execution environment
 * by providing your workflows 
@@ -41,7 +41,7 @@ You can combine the usage of Conda with virtual environments like Docker or Sing
 
 Workflow management systems will help you to keep track and to document the different treatment applied to your data. 
 
-There a many workflow management systems available. One can mention :
+There a many workflow management systems available. One can mention:
 * Galaxy 
 * Nextflow
 * Snakemake 
@@ -50,21 +50,17 @@ It is a flourishing field and many other workflow management systems are availab
 
 #### Notebooks 
 
-Using notebooks, you will be able to create reproducible documents mixing text and code. Notebooks can be used in conjunction with the other solutions mentioned above. 
-Among the most well-known notebooks systems are : 
+Using notebooks, you will be able to create reproducible documents mixing text and code. Notebooks can be used in conjunction with the other solutions mentioned above.
+Among the most well-known notebooks systems are: 
 
 * Jupyter
 * RStudio
 
 
-## Related topics
-
-* [Licensing](https://rdm.elixir-europe.org/data_publication.html) 
-
-## External links
+<!-- ## External links
 (Optional section)
-* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above
+* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above -->
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="ADD TAG HERE" %}
+{% include toollist.html tag="data analysis" %}
