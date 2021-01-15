@@ -32,7 +32,7 @@ Additionally, the RDM toolkit helped signpost local Data Management training.  F
 
 1. Check out the various steps of the RDM life cycle, in particular the Planning stage.
 2. Identify and contact the data steward in your local organisation or your national contact in the ELIXIR network.
-3. Use local guidelines associated with the national or institutional DMP application and/or follow an introductory training. [Link to training page with introduction material](https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials)
+3. Use local guidelines associated with the national or institutional DMP application and/or follow an [introductory training](https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials).
 4. Start planning your project, taking the DMP into account. 
 
 ## Considerations and common issues
