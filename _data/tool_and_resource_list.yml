@@ -395,6 +395,9 @@ Tools:
     tess: Galaxy
   tags:
   - nels
+  - data analysis
+  - researcher
+  - IT support
 - description: Distributed version control system designed to handle everything from
     small to very large projects
   link: https://git-scm.com/
@@ -546,6 +549,11 @@ Tools:
   - researcher
   - data manager
   - IT support
+- description: Data curation tool for working with messy data
+  link: https://openrefine.org/
+  name: OpenRefine
+  tags:
+  - data quality
 - description: The Orphadata platform provides the scientific community with comprehensive,
     high-quality datasets related to rare diseases and orphan drugs, in a reusable
     and computable format
@@ -602,8 +610,9 @@ Tools:
   link: https://rstudio.com
   name: Rstudio
   tags:
-  - IT support
   - data analysis
+  - IT support
+  - researcher
 - description: List of respositories recommended by Scinetific Data, contains both
     discipline-specific and general repositories.
   link: https://www.nature.com/sdata/policies/repositories
@@ -691,3 +700,45 @@ Tools:
   registry:
     fairsharing: s1ne3g
     tess: UniProt
+- description: Minimum Information About Disorder Experiments (MIADE) standard
+  link: http://www.psidev.info/intrinsically-disordered-proteins-workgroup
+  name: MIADE
+  tags:
+  - metadata
+  - researcher
+  - data manager
+  - IDP
+- description: A database of intrinsically disordered proteins
+  link: https://disprot.org/
+  name: DisProt
+  registry:
+    biotools: disprot
+  tags:
+  - IDP
+  - researcher
+- description: The Protein Circular Dichroism Data Bank
+  link: http://pcddb.cryst.bbk.ac.uk/
+  name: PCDDB
+  registry:
+    biotools: pcddb
+  tags:
+  - IDP
+  - researcher
+- description: Small Angle Scattering Biological Data Bank
+  link: https://www.sasbdb.org/
+  name: SASBDB
+  tags:
+  - IDP
+  - researcher
+- description: Biological Magnetic Resonance Data Bank
+  link: https://bmrb.io/
+  name: BMRB
+  tags:
+  - IDP
+  - researcher
+- description: Intrinsically disordered proteins ontology
+  link: https://disprot.org/about
+  name: IDPO
+  tags:
+  - IDP
+  - metadata
