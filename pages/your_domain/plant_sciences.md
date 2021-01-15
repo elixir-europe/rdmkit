@@ -1,9 +1,17 @@
 ---
 title: "Plant Sciences"
-summary: How to publish reusable plant data
+keywords: optional
+search: exclude
+contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
+tags: [metadata]
 ---
-## General scope
-You will find here the guidelines and resources specific to the publication of Findable Accessible Interoperable and Reusable (FAIR) data on plants. Studied plants can be model species like Arabidopsis, crops, wild species among which forest trees... The typical types of data handled by researchers would be data from phenotyping experiments, genomic assays (RNAseq or DNAseq, genome sequences, genotypes, ...). The main objective is to be able to integrate different types of experiments made on the same plant material (e.g. phenotyping experiments and OMICs experiments) to get knowledge on plant biology. The study of the adaptation of plants to their environment necessitate to integrate experimental data on plant material with geo-climatic data.
+
+## Introduction
+The plant science domain aims at studying the adaptation of plants to their environment, with applications ranging from improving crop yield or resistance to environmental conditions, to managing forest ecossystems.
+
+Data integration and reuse are imperative in this domain, as it relies on understanding the play between genotype and environment to produce a phenotype, and therefore requires integrating phenotyping experiments and genomic assays made on the same plant material, with geo-climatic data. Moreover, cross-species comparisons are often necessary to understand the mechanisms behind phenotypic traits, especially at the genotypic level, due to the gap in genomic knowledge between well-studied plant species (namely *Arabidopsis*) and newly sequenced ones. Yet, in few domains is data integration so challenging.
+
+The challenges to data integration stem from the multiple levels of heterogeneity in this domain. It encompasses a variety of species, ranging from model organisms, to crop species, to wild plants such as forest trees. These often need to be detailed at infra-specific levels (e.g. subspecies, variety), but naming at these levels sometimes lacks consensus. Studies can take place in a diversity of settings including indoor (e.g. growth chamber, greenhouse) and outdoor settings (e.g. cultivated field, forest) which differ fundamentally on the requirements and manner of characterizing the environment. Phenotypic data can be collected manually or automatically (by sensors and drones), and be very diverse in nature, spanning from physical measurements, to the results of biochemical assays, and to images. Thus the extension and depth of metadata required to describe a plant experiment in a FAIR-compliant way is very demanding for researchers.
 
 
 ## Producing FAIR plant phenotyping data
