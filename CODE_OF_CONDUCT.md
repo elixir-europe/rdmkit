@@ -126,7 +126,7 @@ Enforcement of the Code of Conduct should be respectful and not include any hara
 
 ### 4.1 The RDM Code of Conduct Group
 
-The RDM Code of Conduct group is:
+The members of the RDM Code of Conduct group are:
 
 * Carole Goble
 * Daniel Faria
