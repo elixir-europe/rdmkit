@@ -1,4 +1,45 @@
 Tools:
+- description: The Automatable Discovery and Access Matrix (ADA-M) provides a standardized
+    way to unambiguously represent the conditions related to data discovery and access.
+  link: https://github.com/ga4gh/ADA-M
+  name: ADA-M
+  tags:
+  - IT support
+  - data manager
+- description: The ELSI Knowledge Base is an open-access resource platform that aims
+    at providing practical know-how for responsible research.
+  link: https://www.bbmri-eric.eu/elsi/knowledge-base/
+  name: BBMRI-ERIC's ELSI Knowledge Base
+  tags:
+  - data protection
+  - data classification
+  - policy officer
+  - data manager
+  - human data
+- description: The Beacon protocol defines an open standard for genomics data discovery.
+  link: https://beacon-project.io/
+  name: Beacon
+  tags:
+  - researcher
+  - data manager
+  - IT support
+  - human data
+- description: Bioconda is a bioinformatics channel for the Conda package manager
+  link: https://bioconda.github.io/
+  name: Bioconda
+  registry:
+    biotools: bioconda
+    tess: Bioconda
+  tags:
+  - IT support
+  - data analysis
+- description: Git based code hosting and collaboration tool, built for teams.
+  link: https://bitbucket.org/
+  name: Bitbucket
+  tags:
+  - data organisation
+  - data manager
+  - IT support
 - description: 'Specification for a standard API for plant data: plant material, plant
     phenotyping data'
   link: https://www.brapi.org
@@ -6,6 +47,53 @@ Tools:
   tags:
   - IT support
   - plants
+- description: Database of enzyme and enzyme-ligand information, across all taxonomic
+    groups, manually extracted from primary literature and extended by text mining
+    procedures
+  link: https://www.brenda-enzymes.org/
+  name: BRENDA
+  registry:
+    fairsharing: etp533
+    tess: BRENDA
+- description: File renaming software for Windows
+  link: https://www.bulkrenameutility.co.uk/
+  name: Bulk Rename Utility
+  tags:
+  - data organisation
+  - data manager
+  - researcher
+- description: A hierarchical domain classification of protein structures in the Protein
+    Data Bank.
+  link: http://www.cathdb.info/
+  name: CATH
+  registry:
+    fairsharing: xgcyyn
+    tess: CATH
+- description: Dictionary of molecular entities focused on 'small' chemical compounds
+  link: https://www.ebi.ac.uk/chebi/
+  name: ChEBI
+  registry:
+    fairsharing: 62qk8w
+    tess: ChEBI
+- description: Database of bioactive drug-like small molecules, it contains 2-D structures,
+    calculated properties and abstracted bioactivities.
+  link: https://www.ebi.ac.uk/chembl/
+  name: ChEMBL
+  registry:
+    fairsharing: m3jtpg
+    tess: ChEMBL
+- description: Open source package management systemn
+  link: https://docs.conda.io/en/latest/
+  name: Conda
+  tags:
+  - IT support
+  - data analysis
+- description: A resource for researchers when drafting consent forms so they can
+    use language matching cutting-edge GA4GH international standards
+  link: https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing
+  name: Consent Clauses for Genomic Research
+  tags:
+  - human data
 - description: Portal for scientists to broker more easily rich metadata alongside
     data to public repos.
   link: https://copo-project.org/
@@ -17,6 +105,18 @@ Tools:
   - metadata
   - researcher
   - plants
+- description: The Crop Ontology compiles concepts to curate phenotyping assays on
+    crop plants, including anatomy, structure and phenotype.
+  link: https://www.cropontology.org
+  name: Crop Ontology
+  registry:
+    fairsharing: bsg-s002695
+    tess: Crop Ontology
+  tags:
+  - researcher
+  - data manager
+  - IT support
+  - plants
 - description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
@@ -26,6 +126,49 @@ Tools:
   tags:
   - IT support
   - policy officer
+  - human data
+- description: List of metadata standards
+  link: https://www.dcc.ac.uk/guidance/standards/metadata/list
+  name: Data Curation Centre Metadata list
+  tags:
+  - metadata
+  - researcher
+  - data manager
+- description: DUO allows to semantically tag datasets with restriction about their
+    usage.
+  link: https://github.com/EBISPOT/DUO
+  name: Data Use Ontology
+  registry:
+    fairsharing: 5dnjs2
+    tess: Data Use Ontology
+  tags:
+  - data manager
+  - researcher
+  - human data
+- description: Open source research data respository software.
+  link: https://dataverse.org/
+  name: DATAVERSE
+  tags:
+  - storage
+  - researcher
+  - data manager
+  - IT support
+- description: The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg
+    to facilitate data sharing agreements.
+  link: https://dawid.elixir-luxembourg.org/
+  name: DAWID
+  tags:
+  - policy officer
+- description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
+    data from studies investigating the interaction of genotype and phenotype in Humans
+  link: https://www.ncbi.nlm.nih.gov/gap/
+  name: dbGAP
+  registry:
+    fairsharing: 88v2k0
+  tags:
+  - data publication
+  - researcher
+  - IT support
   - human data
 - description: Questionnaire, which generates a pre-filled a DMP
   link: https://dmp.vital-it.ch
@@ -74,6 +217,17 @@ Tools:
   - DMP
   - researcher
   - data manager
+- description: Docker is a software for the execution of applications in virtualized
+    environments called containers. It is linked to DockerHub, a library for sharing
+    container images
+  link: https://www.docker.com/
+  name: Docker
+  registry:
+    fairsharing: bsg-d001254
+    tess: Docker
+  tags:
+  - IT support
+  - data analysis
 - description: Data Stewardship Wizard
   link: https://ds-wizard.org/
   name: DS-Wizard
@@ -85,6 +239,25 @@ Tools:
   - data manager
   - IT support
   - nels
+- description: Electronic data archive library is a framework for publishing and sharing
+    research data
+  link: https://edal.ipk-gatersleben.de/
+  name: e!DAL
+  registry:
+    biotools: edal
+  tags:
+  - storage
+  - IT support
+- description: Plant Genomics and Phenomics Research Data Repository
+  link: https://edal-pgp.ipk-gatersleben.de/
+  name: e!DAL-PGP
+  registry:
+    fairsharing: rf3m4g
+  tags:
+  - plants
+  - researcher
+  - data manager
+  - IT support
 - description: DMP creation, versioning and sharing
   link: https://easydmp.no/
   name: EasyDMP
@@ -92,6 +265,83 @@ Tools:
   - DMP
   - researcher
   - data manager
+- description: List of discipline-specific deposition databases recommended by ELIXIR.
+  link: https://elixir-europe.org/platforms/data/elixir-deposition-databases
+  name: ELIXIR Deposition Databases for Biomolecular Data
+  registry:
+    fairsharing: bsg-c000039
+  tags:
+  - data publication
+  - researcher
+  - data manager
+  - IT support
+- description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
+    data.
+  link: https://www.ebi.ac.uk/submission/
+  name: EMBL-EBI's data submission wizard
+  tags:
+  - data publication
+  - researcher
+  - data manager
+- description: Genome browser for vertebrate genomes that supports research in comparative
+    genomics, evolution, sequence variation and transcriptional regulation.
+  link: http://www.ensembl.org/index.html
+  name: Ensembl
+  registry:
+    fairsharing: fx0mw7
+    tess: Ensembl
+- description: Comparative analysis, data mining and visualisation for the genomes
+    of non-vertebrate species
+  link: http://ensemblgenomes.org/
+  name: Ensembl Genomes
+  registry:
+    fairsharing: 923a0p
+    tess: Ensembl Genomes
+- description: Regulation (eu) 2016/679 of the european parliament and of the council
+    on the protection of natural persons with regard to the processing of personal
+    data and on the free movement of such data, and repealing directive 95/46/ec (general
+    data protection regulation).
+  link: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN
+  name: EU General Data Protection Regulation
+  tags:
+  - data protection
+  - policy officer
+  - human data
+- description: EUDAT's wizard for finding the right licence for your data or code.
+  link: https://ufal.github.io/public-license-selector/
+  name: EUDAT licence selector wizard
+  tags:
+  - licensing
+  - researcher
+  - data manager
+  - policy officer
+- description: EUPID provides a method for identity management, pseudonymisation and
+    record linkage to bridge the gap between multiple contexts.
+  link: https://eupid.eu/#/concept
+  name: EUPID
+  tags:
+  - IT support
+  - policy officer
+  - human data
+- description: Europe PMC is a repository, providing access to worldwide life sciences
+    articles, books, patents and clinical guidelines.
+  link: https://europepmc.org/
+  name: Europe PMC
+  registry:
+    fairsharing: cmw6mm
+    tess: Europe PMC
+  tags:
+  - researcher
+- description: FAIDARE is a tool allowing to search data across dinstinct databases
+    that implemented BrAPI.
+  link: https://urgi.versailles.inra.fr/faidare/
+  name: FAIDARE
+  registry:
+    biotools: faidare
+  tags:
+  - researcher
+  - data manager
+  - plants
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
   link: https://fairdomhub.org
@@ -115,6 +365,44 @@ Tools:
   - policy officer
   - data manager
   - researcher
+- description: Principled and practical framework for the responsible sharing of genomic
+    and health-related data.
+  link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
+  name: GA4GH data security toolkit
+  tags:
+  - data publication
+  - policy officer
+  - data manager
+  - IT support
+  - human data
+- description: Framework for Responsible Sharing of Genomic and Health-Related Data
+  link: https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/
+  name: GA4GH regular and ethical toolkit
+  tags:
+  - data protection
+  - data classification
+  - policy officer
+  - data manager
+  - IT support
+  - human data
+- description: Open, web-based platform for data intensive biomedical research. Whether
+    on the free public server or your own instance, you can perform, reproduce, and
+    share complete analyses.
+  link: https://galaxyproject.org/
+  name: Galaxy
+  registry:
+    biotools: galaxy
+    tess: Galaxy
+  tags:
+  - nels
+- description: Distributed version control system designed to handle everything from
+    small to very large projects
+  link: https://git-scm.com/
+  name: Git
+  tags:
+  - data organisation
+  - data manager
+  - IT support
 - description: Versioning system, used for sharing code, as well as for sharing of
     small data
   link: https://github.com
@@ -127,21 +415,88 @@ Tools:
   - data organisation
   - IT support
   - data manager
-- description: Git based code hosting and collaboration tool, built for teams.
-  link: https://bitbucket.org/
-  name: Bitbucket
+- description: The Human Protein Atlas contains information for a large majority of
+    all human protein-coding genes regarding the expression and localization of the
+    corresponding proteins based on both RNA and protein data.
+  link: http://www.proteinatlas.org/
+  name: Human Protein Atlas
+  registry:
+    fairsharing: j0t0pe
+    tess: Human Protein Atlas
+- description: The Informed Consent Ontology (ICO) is an ontology for the informed
+    consent and informed consent process in the medical field.
+  link: http://purl.obolibrary.org/obo/ICO.owl
+  name: Informed Consent Ontology
+  registry:
+    fairsharing: b9znd5
   tags:
-  - data organisation
-  - data manager
   - IT support
-- description: Distributed version control system designed to handle everything from
-    small to very large projects
-  link: https://git-scm.com/
-  name: Git
+  - policy officer
+  - human data
+- description: The International Compilation of Human Research Standards enumerates
+    over 1,000 laws, regulations, and guidelines (collectively referred to as standards)
+    that govern human subject protections in 133 countries, as well as standards from
+    a number of international and regional organizations
+  link: https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf
+  name: International Compilation of Human Research Standards
   tags:
-  - data organisation
-  - data manager
+  - human data
+- description: Functional analysis of protein sequences by classifying them into families
+    and predicting the presence of domains and important sites
+  link: https://www.ebi.ac.uk/interpro/
+  name: InterPro
+  registry:
+    fairsharing: pda11d
+    tess: InterPro
+- description: Integrated Rule-Oriented Data System (iRODS) is open source data management
+    software for a cancer genome analysis workflow.
+  link: https://irods.org/
+  name: iRODS
+  registry:
+    biotools: iRODS
+  tags:
+  - storage
   - IT support
+- description: Open source framework and tools helping to manage a diverse set of
+    life science, environmental and biomedical experiments using the Investigation
+    Study Assay (ISA) standard
+  link: https://isa-tools.org/
+  name: ISA-tools
+  registry:
+    fairsharing: 53gp75
+  tags:
+  - IT support
+  - data manager
+- description: International information security standard
+  link: https://en.wikipedia.org/wiki/ISO/IEC_27001
+  name: ISO/IEC 27001
+  tags:
+  - data protection
+  - policy officer
+  - human data
+- description: Jupyter notebooks allow to share code, documentation
+  link: https://jupyter.org
+  name: Jupyter
+  tags:
+  - IT support
+  - data analysis
+- description: Machine-Actionable Data Management Plan | Webinar (2016) on making
+    a good data management plan.
+  link: https://library.ust.hk/sc/machine-actionable-dmp/
+  name: maDMP - Research Bridge
+  tags:
+  - DMP
+  - IT support
+- description: The Multi-Crop Passport Descriptor is the metadata standard for plant
+    genetic resources maintained ex situ by genbanks.
+  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
+  name: MCPD
+  tags:
+  - metadata
+  - researcher
+  - IT support
+  - policy officer
+  - plants
 - description: Minimum Information About a Plant Phenotyping Experiment
   link: https://www.miappe.org/
   name: MIAPPE
@@ -153,12 +508,88 @@ Tools:
   - researcher
   - data manager
   - plants
-- description: Machine-Actionable Data Management Plan | Webinar (2016) on making
-    a good data management plan.
-  link: https://library.ust.hk/sc/machine-actionable-dmp/
-  name: maDMP - Research Bridge
+- description: MINT, the Molecular INTeraction database, focuses on experimentally
+    verified protein-protein interactions mined from the scientific literature by
+    expert curators
+  link: https://mint.bio.uniroma2.it/
+  name: MINT
+  registry:
+    fairsharing: 2bdvmk
+- description: A risk assessment tool that can be used to do Data Protection Impact
+    Assessments
+  link: https://open-source-security-software.net/project/MONARC
+  name: MONARC
   tags:
-  - DMP
+  - data protection
+  - policy officer
+  - human data
+- description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
+    scientists and their international collaborators to store, share, archive, and
+    analyse their omics-scale data
+  link: https://nels.bioinfo.no
+  name: NeLS
+  registry:
+    biotools: nels
+  tags:
+  - nels
+- description: Nextflow is a framework for data analysis workflow execution
+  link: https://www.nextflow.io
+  name: Nextflow
+  tags:
+  - IT support
+  - data analysis
+- description: OntoMaton facilitates ontology search and tagging functionalities within
+    Google Spreadsheets.
+  link: https://github.com/ISA-tools/OntoMaton
+  name: ONTOMATON
+  tags:
+  - researcher
+  - data manager
+  - IT support
+- description: The Orphadata platform provides the scientific community with comprehensive,
+    high-quality datasets related to rare diseases and orphan drugs, in a reusable
+    and computable format
+  link: http://www.orphadata.org/cgi-bin/index.php
+  name: Orphadata
+  registry:
+    fairsharing: biodbcore-001249
+- description: Privacy Impact Assessment Tool is a software, that allows you to carry
+    out Privacy Impact Assessment (PIA) independently.
+  link: https://privaon.com/services/privacy-impact-assessment-tool/
+  name: Privacy Impact Assessment Tool
+  tags:
+  - data protection
+  - policy officer
+  - human data
+- description: The RD-Connect GPAP is an online tool for diagnosis and gene discovery
+    in rare disease research.
+  link: https://rd-connect.eu/what-we-do/omics/gpap/
+  name: RD-Connect Genome Phenome Analysis Platform
+  tags:
+  - researcher
+  - human data
+- description: Directory of standard metadata, divided into different research areas
+  link: https://rd-alliance.github.io/metadata-directory/standards/
+  name: RDA Standards
+  tags:
+  - metadata
+  - researcher
+  - data manager
+- description: File renaming software for Mac
+  link: https://renamer.com/
+  name: Renamer4Mac
+  tags:
+  - data organisation
+  - data manager
+  - researcher
+- description: Data management platform for automated loading, storage, linkage and
+    provision of data sets
+  link: https://www.dundee.ac.uk/hic/researchdatamanagementplatform/
+  name: Research Data Management Platform (RDMP)
+  registry:
+    biotools: rdmp
+  tags:
+  - storage
   - IT support
 - description: Machine actionable DMPs.
   link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
@@ -167,14 +598,20 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Integrated Rule-Oriented Data System (iRODS) is open source data management
-    software for a cancer genome analysis workflow.
-  link: https://irods.org/
-  name: iRODS
-  registry:
-    biotools: iRODS
+- description: Rstudio notebooks allow to share code, documentation
+  link: https://rstudio.com
+  name: Rstudio
   tags:
-  - storage
+  - IT support
+  - data analysis
+- description: List of respositories recommended by Scinetific Data, contains both
+    discipline-specific and general repositories.
+  link: https://www.nature.com/sdata/policies/repositories
+  name: Scientific Data's Recommended Repositories
+  tags:
+  - data publication
+  - researcher
+  - data manager
   - IT support
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc.
@@ -187,6 +624,47 @@ Tools:
   - storage
   - IT support
   - nels
+- description: SILVA provides comprehensive, quality checked and regularly updated
+    datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal
+    RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).
+  link: https://www.arb-silva.de/
+  name: Silva
+  registry:
+    fairsharing: 5vtYGG
+    tess: Silva
+- description: Singularity is a container platform.
+  link: https://sylabs.io
+  name: Singularity
+  tags:
+  - IT support
+  - data analysis
+- description: Snakemake is a framework for data analysis workflow execution
+  link: https://snakemake.github.io
+  name: Snakemake
+  registry:
+    biotools: snakemake
+    tess: Snakemake
+  tags:
+  - IT support
+  - data analysis
+- description: Known and predicted protein-protein interactions.
+  link: https://string-db.org/
+  name: STRING
+  registry:
+    fairsharing: 9b7wvk
+    tess: STRING
+- description: EGA is a service for permanent archiving and sharing of all types of
+    personally identifiable genetic and phenotypic data resulting from biomedical
+    research projects
+  link: https://ega-archive.org/
+  name: The European Genome-phenome Archive (EGA)
+  registry:
+    biotools: ega
+    fairsharing: mya1ff
+  tags:
+  - data publication
+  - human data
+  - policy officer
 - description: Minimum Information about any (x) Sequence
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
@@ -198,338 +676,18 @@ Tools:
   - IT support
   - policy officer
   - human data
-- description: Open source framework and tools helping to manage a diverse set of
-    life science, environmental and biomedical experiments using the Investigation
-    Study Assay (ISA) standard
-  link: https://isa-tools.org/
-  name: ISA-tools
-  registry:
-    fairsharing: 53gp75
-  tags:
-  - IT support
-  - data manager
-- description: The Multi-Crop Passport Descriptor is the metadata standard for plant
-    genetic resources maintained ex situ by genbanks.
-  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
-  name: MCPD
-  tags:
-  - metadata
-  - researcher
-  - IT support
-  - policy officer
-  - plants
-- description: FAIDARE is a tool allowing to search data across dinstinct databases
-    that implemented BrAPI.
-  link: https://urgi.versailles.inra.fr/faidare/
-  name: FAIDARE
-  registry:
-    biotools: faidare
-  tags:
-  - researcher
-  - data manager
-  - plants
-- description: The Crop Ontology compiles concepts to curate phenotyping assays on
-    crop plants, including anatomy, structure and phenotype.
-  link: https://www.cropontology.org
-  name: Crop Ontology
-  registry:
-    fairsharing: bsg-s002695
-    tess: Crop Ontology
-  tags:
-  - researcher
-  - data manager
-  - IT support
-  - plants
-- description: Open source research data respository software.
-  link: https://dataverse.org/
-  name: DATAVERSE
-  tags:
-  - storage
-  - researcher
-  - data manager
-  - IT support
-- description: OntoMaton facilitates ontology search and tagging functionalities within
-    Google Spreadsheets.
-  link: https://github.com/ISA-tools/OntoMaton
-  name: ONTOMATON
-  tags:
-  - researcher
-  - data manager
-  - IT support
-- description: The Automatable Discovery and Access Matrix (ADA-M) provides a standardized
-    way to unambiguously represent the conditions related to data discovery and access.
-  link: https://github.com/ga4gh/ADA-M
-  name: ADA-M
-  tags:
-  - IT support
-  - data manager
-- description: The Beacon protocol defines an open standard for genomics data discovery.
-  link: https://beacon-project.io/
-  name: Beacon
-  tags:
-  - researcher
-  - data manager
-  - IT support
-  - human data
-- description: DUO allows to semantically tag datasets with restriction about their
-    usage.
-  link: https://github.com/EBISPOT/DUO
-  name: Data Use Ontology
-  registry:
-    fairsharing: 5dnjs2
-    tess: Data Use Ontology
-  tags:
-  - data manager
-  - researcher
-  - human data
-- description: The Informed Consent Ontology (ICO) is an ontology for the informed
-    consent and informed consent process in the medical field.
-  link: http://purl.obolibrary.org/obo/ICO.owl
-  name: Informed Consent Ontology
-  registry:
-    fairsharing: b9znd5
-  tags:
-  - IT support
-  - policy officer
-  - human data
-- description: Privacy Impact Assessment Tool is a software, that allows you to carry
-    out Privacy Impact Assessment (PIA) independently.
-  link: https://privaon.com/services/privacy-impact-assessment-tool/
-  name: Privacy Impact Assessment Tool
-  tags:
-  - data protection
-  - policy officer
-  - human data
-- link: https://neic.no/tryggve/
+- description: A list of Ethical, Legal, and Societal Implications (ELSI) to consider
+    for research projects on human subjects
+  link: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
   name: Tryggve ELSI Checklist
   tags:
   - data classification
   - policy officer
   - data manager
   - human data
-- description: The ELSI Knowledge Base is an open-access resource platform that aims
-    at providing practical know-how for responsible research.
-  link: https://www.bbmri-eric.eu/elsi/knowledge-base/
-  name: BBMRI-ERIC's ELSI Knowledge Base
-  tags:
-  - data protection
-  - data classification
-  - policy officer
-  - data manager
-  - human data
-- description: The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg
-    to facilitate data sharing agreements.
-  link: https://dawid.elixir-luxembourg.org/
-  name: DAWID
-  tags:
-  - policy officer
-- description: EUPID provides a method for identity management, pseudonymisation and
-    record linkage to bridge the gap between multiple contexts.
-  link: https://eupid.eu/#/concept
-  name: EUPID
-  tags:
-  - IT support
-  - policy officer
-  - human data
-- description: The RD-Connect GPAP is an online tool for diagnosis and gene discovery
-    in rare disease research.
-  link: https://rd-connect.eu/what-we-do/omics/gpap/
-  name: RD-Connect Genome Phenome Analysis Platform
-  tags:
-  - researcher
-  - human data
-- description: Principled and practical framework for the responsible sharing of genomic
-    and health-related data.
-  link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
-  name: GA4GH data security toolkit
-  tags:
-  - data publication
-  - policy officer
-  - data manager
-  - IT support
-  - human data
-- link: https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/
-  name: GA4GH regular and ethical toolkit
-  tags:
-  - data protection
-  - data classification
-  - policy officer
-  - data manager
-  - IT support
-  - human data
-- description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
-    data from studies investigating the interaction of genotype and phenotype in Humans
-  link: https://www.ncbi.nlm.nih.gov/gap/
-  name: dbGAP
-  registry:
-    fairsharing: 88v2k0
-  tags:
-  - data publication
-  - researcher
-  - IT support
-  - human data
-- description: Database of enzyme and enzyme-ligand information, across all taxonomic
-    groups, manually extracted from primary literature and extended by text mining
-    procedures
-  link: https://www.brenda-enzymes.org/
-  name: BRENDA
-  registry:
-    fairsharing: etp533
-    tess: BRENDA
-- description: Directory of standard metadata, divided into different research areas
-  link: https://rd-alliance.github.io/metadata-directory/standards/
-  name: RDA Standards
-  tags:
-  - metadata
-  - researcher
-  - data manager
-- description: A hierarchical domain classification of protein structures in the Protein
-    Data Bank.
-  link: http://www.cathdb.info/
-  name: CATH
-  registry:
-    fairsharing: xgcyyn
-    tess: CATH
-- description: Dictionary of molecular entities focused on 'small' chemical compounds
-  link: https://www.ebi.ac.uk/chebi/
-  name: ChEBI
-  registry:
-    fairsharing: 62qk8w
-    tess: ChEBI
-- description: Database of bioactive drug-like small molecules, it contains 2-D structures,
-    calculated properties and abstracted bioactivities.
-  link: https://www.ebi.ac.uk/chembl/
-  name: ChEMBL
-  registry:
-    fairsharing: m3jtpg
-    tess: ChEMBL
-- description: Genome browser for vertebrate genomes that supports research in comparative
-    genomics, evolution, sequence variation and transcriptional regulation.
-  link: http://www.ensembl.org/index.html
-  name: Ensembl
-  registry:
-    fairsharing: fx0mw7
-    tess: Ensembl
-- description: Comparative analysis, data mining and visualisation for the genomes
-    of non-vertebrate species
-  link: http://ensemblgenomes.org/
-  name: Ensembl Genomes
-  registry:
-    fairsharing: 923a0p
-    tess: Ensembl Genomes
-- description: Europe PMC is a repository, providing access to worldwide life sciences
-    articles, books, patents and clinical guidelines.
-  link: https://europepmc.org/
-  name: Europe PMC
-  registry:
-    fairsharing: cmw6mm
-    tess: Europe PMC
-  tags:
-  - researcher
-- description: The Human Protein Atlas contains information for a large majority of
-    all human protein-coding genes regarding the expression and localization of the
-    corresponding proteins based on both RNA and protein data.
-  link: http://www.proteinatlas.org/
-  name: Human Protein Atlas
-  registry:
-    fairsharing: j0t0pe
-    tess: Human Protein Atlas
-- description: List of metadata standards
-  link: https://www.dcc.ac.uk/guidance/standards/metadata/list
-  name: Data Curation Centre Metadata list
-  tags:
-  - metadata
-  - researcher
-  - data manager
-- description: MINT, the Molecular INTeraction database, focuses on experimentally
-    verified protein-protein interactions mined from the scientific literature by
-    expert curators
-  link: https://mint.bio.uniroma2.it/
-  name: MINT
-  registry:
-    fairsharing: 2bdvmk
-- description: Functional analysis of protein sequences by classifying them into families
-    and predicting the presence of domains and important sites
-  link: https://www.ebi.ac.uk/interpro/
-  name: InterPro
-  registry:
-    fairsharing: pda11d
-    tess: InterPro
-- description: The Orphadata platform provides the scientific community with comprehensive,
-    high-quality datasets related to rare diseases and orphan drugs, in a reusable
-    and computable format
-  link: http://www.orphadata.org/cgi-bin/index.php
-  name: Orphadata
-  registry:
-    fairsharing: biodbcore-001249
-- description: SILVA provides comprehensive, quality checked and regularly updated
-    datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal
-    RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).
-  link: https://www.arb-silva.de/
-  name: Silva
-  registry:
-    fairsharing: 5vtYGG
-    tess: Silva
-- description: Known and predicted protein-protein interactions.
-  link: https://string-db.org/
-  name: STRING
-  registry:
-    fairsharing: 9b7wvk
-    tess: STRING
 - description: Comprehensive resource for protein sequence and annotation data
   link: https://www.uniprot.org/
   name: UniProt
   registry:
     fairsharing: s1ne3g
     tess: UniProt
-- description: Open, web-based platform for data intensive biomedical research. Whether
-    on the free public server or your own instance, you can perform, reproduce, and
-    share complete analyses.
-  link: https://galaxyproject.org/
-  name: Galaxy
-  registry:
-    biotools: galaxy
-    tess: Galaxy
-  tags:
-  - nels
-- description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
-    scientists and their international collaborators to store, share, archive, and
-    analyse their omics-scale data
-  link: https://nels.bioinfo.no
-  name: NeLS
-  registry:
-    biotools: nels
-  tags:
-  - nels
-- description: Data management platform for automated loading, storage, linkage and
-    provision of data sets
-  link: https://www.dundee.ac.uk/hic/researchdatamanagementplatform/
-  name: Research Data Management Platform (RDMP)
-  registry:
-    biotools: rdmp
-  tags:
-  - storage
-  - IT support
-- description: Electronic data archive library is a framework for publishing and sharing
-    research data
-  link: https://edal.ipk-gatersleben.de/
-  name: e!DAL
-  registry:
-    biotools: edal
-  tags:
-  - storage
-  - IT support
-- description: File renaming software for Windows
-  link: https://www.bulkrenameutility.co.uk/
-  name: Bulk Rename Utility
-  tags:
-  - data organisation
-  - data manager
-  - researcher
-- description: File renaming software for Mac
-  link: https://renamer.com/
-  name: Renamer4Mac
-  tags:
-  - data organisation
-  - data manager
-  - researcher

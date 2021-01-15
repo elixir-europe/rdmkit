@@ -342,16 +342,16 @@ Will look like this:
 Tagging pages is done by the `tags:` property in the metadata of the markdown page.
 Add the tag(s) to a list (square brackets). Make sure your tag corresponds to an existing page. 
 
-This metadata example shows how we tag the "Storage" page with the **research_it** tag:
+This metadata example shows how we tag the "Storage" page with the **share** tag:
 ```md
 ---
 title: Storage
 keywords:
-tags: [share, collect] 
+tags: [share] 
 ---
 ```
 
-If you than want to list all the pages containing the tag **research_it** you can us the code snippet:
+If you than want to list all the pages containing the tag **share** you can us the code snippet:
 
 {% raw %}
 ```
@@ -367,25 +367,29 @@ This is preferably done on the 'research_it' page. In this way the tag visible o
 
 ## Adding a filtered tool and resource-list to your page
 
-Here we list all the tools with the tag **monitoring**  by using the code snippet:
+Here we list all the tools with the tag **data publication**  by using the code snippet:
 
 {% raw %}
 ```
-{% include toollist.html tag="monitoring" %}
+{% include toollist.html tag="data publication" %}
 ```
 {% endraw %}
 
 Giving:
 
-{% include toollist.html tag="monitoring" %}
+{% include toollist.html tag="data publication" %}
 
 Add a second tag for filtering using the 'tag2' attribute:
 
 {% raw %}
 ```
-{% include toollist.html tag="human data" tag2="plan" %}
+{% include toollist.html tag="data publication" tag2="IT support" %}
 ```
 {% endraw %}
+
+Giving:
+
+{% include toollist.html tag="data publication" tag2="IT support" %}
 
 Make sure the tag exists in the `tool_and_resource_list.yml` file + in the `tags.yml`.
 
