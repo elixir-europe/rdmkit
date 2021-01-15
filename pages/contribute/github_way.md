@@ -30,22 +30,23 @@ This guide tells you how you can easily request and edit a page on this website.
 1. When you and the editors have agreed on what you will do, go to the page you want to edit on the website. Click on "Edit me" pencil icon :pencil:, shown next to the page title. If you want to add a new page, the editors will give you the link to the page via comments in the issue you created. The page will come with a predefined template, based on the kind of content you want to contribute.
 2. The "Edit me" pencil icon will take you to the GitHub repository, where you again click on the pencil icon, shown on the right, and start editing.
     {% include image.html class="mt-0 mb-0" file="raw_github.png" inline=true alt="Editing a page on GitHub" %}
-3. You can now edit or add new text and images according to the provided template. GitHub provide a [guide for writing and formatting in GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github). We also provide a [markdown cheat sheet](markdown_cheat_sheet) to show you how to write in this webpage. Make sure to read our [style guide](style_guide) before start writing.
-4. When you are happy with your first draft of the content, go to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
-5. Click on “Propose changes”.
+3. You can now edit or add new text and images according to the provided template. GitHub provide a [guide for writing and formatting in GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github). We also provide a [markdown cheat sheet](markdown_cheat_sheet) to show you how to write in this webpage. Make sure to read our [style guide](style_guide) before start writing. In general, try to avoid manual interlinking of RDM toolkit pages.
+4. If you have mentioned tools or resources in your text, make sure to add them to the [tool and resource list](https://rdm.elixir-europe.org/tool_resource_update.html).
+5. When you are happy with your first draft of the content, go to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
+6. Click on “Propose changes”.
     {% include image.html class="mt-0 mb-0" file="propose_changes_github.png" inline=true alt="Propose changes on GitHub" %}
-6. You are now redirected to the Pull Request (PR) page. A "pull request" is a request to "pull" your changes into the website. Click on the "Create Pull Request" green button. Here you can choose to:
+7. You are now redirected to the Pull Request (PR) page. A "pull request" is a request to "pull" your changes into the website. Click on the "Create Pull Request" green button. Here you can choose to:
 
      * "Create draft pull request": choose this if you have not finished writing. Later on you can always click on "Ready for review" to switch to a normal pull request. You can find more information about draft pull requests in the [Github documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests).
      * "Create pull request": choose this if you have finished your text. Editors will then review your request.
     {% include image.html class="mt-0 mb-0" file="draft_pullrequest_github.png" inline=true alt="PrDraft pull request on GitHub" %}
 
-7. In the description of your pull request you can link to the issue that relates to this change by typing a hashtag `#` and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might have been discussed beforehand.
+8. In the description of your pull request you can link to the issue that relates to this change by typing a hashtag `#` and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might have been discussed beforehand.
     {% include image.html class="mt-0 mb-0" file="linking_issues_github.png" inline=true alt="Linking issues in a pull request on GitHub" %}
 
-8. You can return to your pull request by going to the [pull request section](https://github.com/elixir-europe/rdm-toolkit/pulls) of our Github repo.
+9. You can return to your pull request by going to the [pull request section](https://github.com/elixir-europe/rdm-toolkit/pulls) of our Github repo.
 
-9. If you change your mind about anything in your pull request and the request is not closed, or if the editor tells you to edit your request during the review process, you have to:
+10. If you change your mind about anything in your pull request and the request is not closed, or if the editor tells you to edit your request during the review process, you have to:
     * Go to your pull request
     * Click on "Files changed" in the top menu bar.
       {% include image.html class="mt-0 mb-0" file="files_changed_github.png" inline=true alt="Files changed tab on GitHub" %}

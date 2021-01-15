@@ -29,6 +29,9 @@ The table consists of 5 columns:
 | MIAPPE 	| https://www.miappe.org/                  	| Minimum Information About a Plant Phenotyping Experiment                                            	| fairsharing:nd9ce9 	| standard         	|
 
 
+## What tool or resource can be added to the table
+Tools and resources specifically mentioned in the text of the pages should be present in the main table. If necessary, tools and resources equivalent to the one mentioned in the text could also be added to the table.
+
 ## Making changes
 
 Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the Github website itself. 

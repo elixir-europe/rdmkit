@@ -5,6 +5,9 @@ tags: [preserve, share, reuse, IT support, data manager]
 ---
 
 ## How to transfer large data files?
+
+### Description
+
 Large data files cannot be sent by email because they exceed the file size limit of most common email servers. So, how can large data files be transfered from a local computer to a distant one?
 
 ### Considerations
