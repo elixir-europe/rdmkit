@@ -1,6 +1,7 @@
 ---
 title: Human Data
-contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper]
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell, Wolmar Nyberg Åkerström]
+keywords: [human data, sensitive data, personal data, ega, ethics, gdpr, legislation, data protection, data classification]
 ---
 
 ## Introduction
