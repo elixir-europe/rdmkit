@@ -24,7 +24,7 @@ When writing for this website keep in mind the following:
 
 ## Attribution of the contributors
 
-Contributors will be listed at the bottom of the page and be mentioned in the hall off fame carousel on the landing page. If you want to link your gitub account, ORCID or email adress, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/CONTRIBUTORS.yaml).
+Contributors will be listed at the bottom of the page and be mentioned in the hall of fame carousel on the landing page. If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/CONTRIBUTORS.yaml).
 
 ## Making a quick suggestion
 
