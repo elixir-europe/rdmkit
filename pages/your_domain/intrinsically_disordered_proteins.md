@@ -2,14 +2,13 @@
 title: "Intrinsically Disordered Proteins"
 keywords: optional
 search: exclude
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
+contributors: [Ivan Mičetić]
+tags: [metadata]
 ---
 
 ## Introduction
 
-<!--- In this section you should provide a brief overview of the domain from the data management perspective, mentioning and putting into context the challenges that are particular to the domain, which will be the object of sections below. --->
-
+Intrinsically disordered proteins (IDP) domain brings together databases and tools needed to organize IDP data and knowledge in a Findable, Accessible, Interoperable and Reusable (FAIR) manner. Experimental data created by users must be complemented by metadata in order to be deposited in an IDP resource. This document describes what community standards must be followed and where to find information needed to complete the metadata of an IDP experiment or study.
 
 ## Annotating or Curating Data from an IDP Related Experiment or Study
  
