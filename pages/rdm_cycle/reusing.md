@@ -22,7 +22,9 @@ By reusing existing data you can:
 
 ## What should be considered for Data Reuse?
 
-* Explore alternative sources for reusable data. A starting point can be to look for value added databases with curated content. Other possibilities include searching data deposition repositories for suitable datasets based on their annotation, or obtaining data directly from the author of a scientific article.
+Consider the following when reusing data:
+
+* Explore different sources for reusable data. A starting point can be to look for value added databases with curated content. Other possibilities include searching data deposition repositories for suitable datasets based on their annotation, or obtaining data directly from the author of a scientific article.
 * Check under which terms and conditions the data is shared. Make sure that there is a licence, and that the licence gives you permission to do what you intend to.
 * Check whether there is sufficient metadata to enable data reuse. Some types of data can be straightforward to reuse (e.g. genome data), while other may require extensive metadata to interpret and reuse (e.g. gene expression experiment data).
 * Assess the quality of the data. Is the data from a trusted source? Is it curated? Does the data adhere to a standard?
