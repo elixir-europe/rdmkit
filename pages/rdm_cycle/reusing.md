@@ -16,6 +16,7 @@ By reusing existing data you can:
 
 * obtain reference data for your research
 * avoid doing new, unnecessary experiments
+* run analyses to verify that reported findings are correct, and thereby making subsequent findings more robust
 * make research more robust by aggregating results obtained from different methods or samples
 * gain novel insights by connecting and meta-analysing datasets
 
