@@ -8,7 +8,7 @@ contributors: [Korbinian Bösl, Daniel Faria]
 
 Data reuse describes the process of using available data for own, new research.
 
-## Why Data Reuse is important?
+## Why is Data Reuse important?
 
 By reusing existing data you can:
 
