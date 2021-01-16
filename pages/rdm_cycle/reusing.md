@@ -22,10 +22,11 @@ By reusing existing data you can:
 
 ## What should be considered for Data Reuse?
 
-One major challenge is to find data for reuse. Another point is that you should assess the quality of the deposited data before it is reused.
-One starting point can be to use value added databases with curated content. Other possibilities include searching data deposition repositories for suitable datasets based on their annotation or obtaining data directly from the author. You should keep in mind whether the repositories provide sufficient metadata to enable data reuse. Some types of data you are searching for can be straightforward to reuse (e.g. genome data) or require extensive metadata to interpret and reuse (e.g. gene expression experiment data)
-The reuse of data should be aligned with the intellectual property right e.g. by making sure it is available under a suiting license.
-For personal (sensitive) data all legal and technical requirements have to met before it can be accessed. Getting access to personal (sensitive) data often requires additional steps.
+* Explore alternative sources for reusable data. A starting point can be to look for value added databases with curated content. Other possibilities include searching data deposition repositories for suitable datasets based on their annotation, or obtaining data directly from the author of a scientific article.
+* Check under which terms and conditions the data is shared. Make sure that there is a licence, and that the licence gives you permission to do what you intend to.
+* Check whether there is sufficient metadata to enable data reuse. Some types of data can be straightforward to reuse (e.g. genome data), while other may require extensive metadata to interpret and reuse (e.g. gene expression experiment data).
+* Assess the quality of the data. Is the data from a trusted source? Is it curated? Does the data adhere to a standard?
+* Verify that the data has been ethically collected and that your reuse of the data conforms with policies and regulations you are expected to follow. For personal (sensitive) data, there are usually legal and technical requirements that have to met before data can be accessed. Getting access to personal (sensitive) data will therefore involve additional steps.
 
 ## Problems to be addressed in this stage
 
