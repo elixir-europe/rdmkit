@@ -28,6 +28,7 @@ By reusing existing data you can:
 * Assess the quality of the data. Is the data from a trusted source? Is it curated? Does the data adhere to a standard?
 * Verify that the data has been ethically collected and that your reuse of the data conforms with policies and regulations you are expected to follow. For personal (sensitive) data, there are usually legal and technical requirements that have to met before data can be accessed. Getting access to personal (sensitive) data will therefore involve additional steps.
 * If the data has been updated, make sure to document which version of the data you are using. Also consider what impact the changes may have on your results.
+* Cite the data properly. Include a persistent identifier (such as a DOI) in the citation if there is one.
 
 ## Problems to be addressed in this stage
 
