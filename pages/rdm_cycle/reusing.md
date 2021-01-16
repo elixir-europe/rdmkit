@@ -28,7 +28,7 @@ For personal (sensitive) data all legal and technical requirements have to met b
 
 {% include tess.html search="Data Reuse" %}
 
-## Related topics
+## Problems to be addressed in this stage
 
 {% include pagelist.html tag="reuse" %}
 
