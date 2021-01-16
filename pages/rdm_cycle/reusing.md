@@ -24,13 +24,13 @@ One starting point can be to use value added databases with curated content. Oth
 The reuse of data should be aligned with the intellectual property right e.g. by making sure it is available under a suiting license.
 For personal (sensitive) data all legal and technical requirements have to met before it can be accessed. Getting access to personal (sensitive) data often requires additional steps.
 
-## Where can training materials and events about Data Reuse be found?
-
-{% include tess.html search="Data Reuse" %}
-
 ## Problems to be addressed in this stage
 
 {% include pagelist.html tag="reuse" %}
+
+## Where can training materials and events about Data Reuse be found?
+
+{% include tess.html search="Data Reuse" %}
 
 <!-- * File format
 * Data volume
