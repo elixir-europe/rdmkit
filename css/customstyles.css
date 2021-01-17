@@ -587,6 +587,8 @@ a.accordion-toggle, a.accordion-collapsed {
     text-decoration: none;
 }
 
+/* Contributors page level */
+
 .contributors-line {
     margin-top: 30px;
 }
@@ -596,6 +598,33 @@ a.accordion-toggle, a.accordion-collapsed {
     border-radius: 50%;
     margin: 0.25em;
 }
+
+/* Contributors carousel homepage */
+.contributors .carousel-item {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.carousel-item.active,
+.carousel-item.next{
+    display: flex;
+}
+
+.hall-of-fame-hero {
+    margin: 0;
+    width: 15%;
+}
+
+.hall-of-fame-hero .name {
+    font-size: 0.7em;
+}
+.thumbnail {
+    padding: 0em;
+}
+
 
 /* navgoco sidebar styles (customized) */
 
