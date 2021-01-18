@@ -6,7 +6,7 @@ contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 
 ## What is Data Reuse?
 
-Data reuse means using data for other purposes than it was originally collected for. Reuse of data is particularly important in science, as it allows different researchers to analyse and publish findings based on the same data independently of one another.
+Data reuse means using data for other purposes than it was originally collected for. Reuse of data is particularly important in science, as it allows different researchers to analyse and publish findings based on the same data independently of one another. Reusability is one key component of the FAIR principles.
 
 Data that is well-described, curated and shared under clear terms and conditions is more likely to be reused. Integration with other data sources is also important, since that can enable new, yet unanticipated, uses for the data.
 
