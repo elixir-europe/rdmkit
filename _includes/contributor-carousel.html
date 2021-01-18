@@ -34,13 +34,13 @@
                     <p class="name">{{ contributor }}</p>
                     <ul class="social-icons">
                         {%- if contributors[contributor].git %}
-                        <li><a class="no_icon" href="https://github.com/{{id}}"><i class="fa fa-github"></i></a></li>
+                        <li><a class="no_icon" href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></li>
                         {%- endif %}
                         {%- if contributors[contributor].email %}
-                        <li><a class="no_icon" href="{{contributors[contributor].email}}"><i class="fa fa-envelope"></i></a></li>
+                        <li><a class="no_icon" href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></li>
                         {%- endif %}
                         {%- if contributors[contributor].orcid %}
-                        <li><a class="no_icon" href="https://orcid.org/{{contributors[contributor].orcid}}"><img alt="ORCID id icon" src="images/ORCID_iD.svg"></a></li>
+                        <li><a class="no_icon" href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></li>
                         {%- endif %}
                     </ul>
                 </div>
