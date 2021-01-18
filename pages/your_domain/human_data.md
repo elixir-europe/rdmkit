@@ -9,7 +9,7 @@ keywords: [human data, sensitive data, personal data, ega, ethics, gdpr, legisla
 When you do research on data derived from human individuals, there are some extra aspects that you need to consider during the data life cycle. Note that much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in EU and on individuals residing in the EU. 
 Much of the information on this page is of a general nature when it comes to working with human data, an additional focus is on human genomic data and the sharing of such information for research purposes.
 
-## Taking ethical and legal implications into consideration for Planning and Collection 
+## Planning for, and Collection of, human research data
 
 ### Description
 
@@ -53,7 +53,7 @@ To do research on human data you must follow established research ethical guidel
 
 
 
-## Processing and Analysing human data
+## Processing and Analysing human research data
 
 ### Description
 
@@ -100,7 +100,7 @@ It is good research ethical practice to ensure that data underlying research is 
 * GA4GH regular and ethical toolkit (?)
 
 
-## Sharing & Reusing
+## Sharing & Reusing of human research data
 
 ### Description
 To make human research data reusable for others, it must be discoverable, stored in a safe way, and it must be clear under what circumstances it can be reused.
