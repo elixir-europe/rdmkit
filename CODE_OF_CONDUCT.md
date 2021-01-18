@@ -165,7 +165,7 @@ In the event that a resolution can't be determined in that time, a member of the
 ### 4.4 Resolutions
 
 The RDM CoC group will seek to agree on a resolution by consensus of all members investigating the report in question.
-If the committee cannot reach consensus and deadlocks for over a week, Niklas Blomberg, as Director of ELIXIR, will break the tie.
+If the committee cannot reach consensus in over a week, Niklas Blomberg, as Director of ELIXIR, will descide on an appropriate resolution.
 If Dr Blomberg is unable to take part in the discussion due to a conflict of interest, Susanna Repo, as an external member of the RDM CoC group, will make the decision.
 
 Possible responses may include:
