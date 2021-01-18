@@ -1,7 +1,7 @@
 ---
 title: Planning
-keywords:
-contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini]
+keywords: [dmp, data stewardship]
+contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 ---
 
 ## What is Data Management Planning?
