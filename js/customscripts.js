@@ -132,12 +132,12 @@ document.addEventListener('DOMContentLoaded', () => {
       if (panel.style.maxHeight) {
         panel.style.maxHeight = null;
       } else {
-        if ($(window).width() > 1024) {
+        if ($(window).width() > 600) {
           panel.style.maxHeight = "225px";
           panel.style.overflowY = "scroll";
           panel.style.width = panelWidth + "px";
         } else {
-          panel.style.maxHeight = "225px";
+          panel.style.maxHeight = panel.scrollHeight + "px";
         }
       }
     });

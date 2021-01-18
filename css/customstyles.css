@@ -519,6 +519,60 @@ svg {
     border-color: transparent;
 }
 
+/* New styles for the dropdown boxes */
+.flexbox > div {
+  position: relative;
+}
+
+.accordion:hover {
+  background-color: var(--blue-xx-dark);
+  background-color: var(--hover-grey);
+}
+
+.accordion.active {
+  background-color: var(--blue-xx-dark);
+  background-color: #e46d21;
+}
+
+.accordion-panel {
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 1em;
+  z-index: 100;
+}
+
+.active + .accordion-panel {
+  border: 1px solid #ddd;
+  border-width: 0 1px 1px;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.accordion-panel li {
+  margin: 5px 0 5px 10px;
+}
+
+.accordion::before {
+    content: '\002B';
+    font-size: 1.75em;
+    line-height: 0.75;
+    color: white;
+    float: left;
+    padding-right: 10px;
+    margin-left: -5px;
+}
+
+.accordion.active::before {
+    content: '\2212';
+}
+
+/* Desktop only */
+.child-box a:link {
+    margin: 0 10px 0 0;
+}
+
 /* For larger screens */
 
 @media only screen and (min-width: 500px) {
@@ -535,6 +589,11 @@ svg {
       padding-bottom: 55%;
     }
 
+    .accordion-panel {
+      position: absolute;
+      left: -20px;
+      margin-left: 20px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -1502,60 +1561,4 @@ h4.panel-title {
     .collapse.in {
         display: block !important;
     }
-}
-
-.flexbox > div {
-  position: relative;
-}
-
-.accordion:hover {
-  background-color: var(--blue-xx-dark);
-  background-color: var(--hover-grey);
-}
-
-.accordion.active {
-  background-color: var(--blue-xx-dark);
-  background-color: #e46d21;
-}
-
-.accordion-panel {
-  position: absolute;
-  left: -20px;
-  width: 100%;
-  padding: 0;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  margin-bottom: 1em;
-  margin-left: 20px;
-}
-
-.active + .accordion-panel {
-  border: 1px solid #ddd;
-  border-width: 0 1px 1px;
-  border-radius: 5px;
-}
-
-ul.accordion-panel li {
-  margin: 5px 0 5px 10px;
-}
-
-.accordion::before {
-    content: '\002B';
-    font-size: 1.75em;
-    line-height: 0.75;
-    color: white;
-    float: left;
-    padding-right: 10px;
-    margin-left: -5px;
-}
-
-.accordion.active::before {
-    content: '\2212';
-}
-
-/* Desktop only */
-.child-box a:link {
-    margin: 0 10px 0 0;
 }
