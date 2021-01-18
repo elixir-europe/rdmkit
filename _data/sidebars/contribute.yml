@@ -1,23 +1,23 @@
-
-entries:
-    - title: Contribute
-      folders:
-      - title: How to Contribute
-        url: /how_to_contribute.html
-        folderitems:
-        - title: Github Way
-          url: /github_way.html
-        - title: Google Doc Way
-          url: /google_doc_way.html
-        - title: Git Way (Advanced)
-          url: /working_with_git.html
-      - title: Add New Tool or Resource
-        url: /tool_resource_update.html
-      - title: Style Guide
-        url: /style_guide.html
-      - title: Copyright Guidelines
-        url: /copyright.html
-      - title: Markdown Cheat Sheet
-        url: /markdown_cheat_sheet.html
-      - title: Editorial Board Guide
-        url: /editorial_board_guide.html
+title: Contribute
+subitems:
+  - title: How to Contribute
+    url: /how_to_contribute.html
+    subitems:
+      - title: Github Way
+        url: /github_way.html
+      - title: Google Doc Way
+        url: /google_doc_way.html
+      - title: Git Way (Advanced)
+        url: /working_with_git.html
+  - title: Add New Tool or Resource
+    url: /tool_resource_update.html
+  - title: Style Guide
+    url: /style_guide.html
+  - title: Copyright Guidelines
+    url: /copyright.html
+  - title: Markdown Cheat Sheet
+    url: /markdown_cheat_sheet.html
+  - title: Editorial Board Guide
+    url: /editorial_board_guide.html
+  - title: Code of Conduct
+    url: /CODE_OF_CONDUCT.html

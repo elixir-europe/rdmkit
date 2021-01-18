@@ -1,9 +1,8 @@
 ---
 title: Code of Conduct
+sidebar: contribute
 search: exclude
 ---
-
-# Code of Conduct
 
 We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience.
 Accordingly, everyone who participates in the ELIXIR RDM Toolkit is expected to show respect and courtesy to other community members at all times.
@@ -14,24 +13,24 @@ We are particularly motivated to support new and/or anxious collaborators, peopl
 
 To make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.
 
-* [1 Introduction](#1-introduction)
-* [2 Code of Conduct](#2-code-of-conduct)
-  * [2.1 Expected Behaviour](21-expected-behaviours)
-  * [2.2 Unacceptable Behaviour](#22-unacceptable-behaviour)
-  * [2.3 Consequences of Unacceptable Behaviour](#23-consequences-of-unacceptable-behaviour)
-  * [2.4 Feedback](#24-feedback)
-* [3 Incident Reporting Guidelines](#3-incident-reporting-guidelines)
-  * [3.1 Contact points](#31-contact-points)
-  * [3.2 Alternate contact points](#32-alternate-contact-points)
-  * [3.3 What to do if someone is in physical danger](#33-what-to-do-if-someone-is-in-physical-danger)
-  * [3.4 Code of Conduct Enforcement](#34-code-of-conduct-enforcement)
-* [4 Enforcement Manual](#4-enforcement-manual)
-  * [4.1 The Code of Conduct Committee](#41-the-code-of-conduct-committee)
-  * [4.2 Urgent Situations: Acting Unilaterally](#42-urgent-situations-acting-unilaterally)
-  * [4.3 Less-Urgent Situations](#43-less-urgent-situations)
-  * [4.4 Resolutions](#44-resolutions)
-  * [4.5 Conflicts of Interest](#45-conflicts-of-interest)
-* [5 Acknowledgements](#5-acknowledgements)
+- [1 Introduction](#1-introduction)
+- [2 Code of Conduct](#2-code-of-conduct)
+  - [2.1 Expected Behaviour](#21-expected-behaviour)
+  - [2.2 Unacceptable Behaviour](#22-unacceptable-behaviour)
+  - [2.3 Consequences of Unacceptable Behaviour](#23-consequences-of-unacceptable-behaviour)
+  - [2.4 Feedback](#24-feedback)
+- [3 Incident Reporting Guidelines](#3-incident-reporting-guidelines)
+  - [3.1 Contact points](#31-contact-points)
+  - [3.2 Alternate contact points](#32-alternate-contact-points)
+  - [3.3 What to do if someone is in physical danger](#33-what-to-do-if-someone-is-in-physical-danger)
+  - [3.4 Code of Conduct Enforcement](#34-code-of-conduct-enforcement)
+- [4 Enforcement Manual](#4-enforcement-manual)
+  - [4.1 The Code of Conduct Oversight Committee](#41-the-code-of-conduct-oversight-committee)
+  - [4.2 Urgent Situations: Acting Unilaterally](#42-urgent-situations-acting-unilaterally)
+  - [4.3 Less-Urgent Situations](#43-less-urgent-situations)
+  - [4.4 Resolutions](#44-resolutions)
+  - [4.5 Conflicts of Interest](#45-conflicts-of-interest)
+- [5 Acknowledgements](#5-acknowledgements)
 
 ## 1 Introduction
 

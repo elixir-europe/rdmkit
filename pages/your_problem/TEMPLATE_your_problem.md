@@ -2,7 +2,7 @@
 title: Global Problem Title (e.g. Metadata Management)
 keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags", "Role Tags"--->]
+tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags" or "Role Tags"--->]
 search: exclude
 ---
 

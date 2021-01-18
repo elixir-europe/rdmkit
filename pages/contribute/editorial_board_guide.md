@@ -143,8 +143,8 @@ The attributes that define the structure are:
 
 ```yaml
 - title: Level_1_title
-    url: level_1_url
-    folderitems:
+  url: level_1_url
+  subitems:
     - title: Level_2_title
       url: level_2_url
 ```
