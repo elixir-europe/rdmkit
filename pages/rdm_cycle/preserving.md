@@ -1,7 +1,7 @@
 ---
 title: Preserving
-keywords:
-contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi]
+keywords: [storage, archiving]
+contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 ---
 
 ## What is Data Preserving?
