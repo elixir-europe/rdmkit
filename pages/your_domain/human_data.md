@@ -1,6 +1,7 @@
 ---
 title: Human Data
-contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper]
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell, Wolmar Nyberg Åkerström]
+keywords: [human data, sensitive data, personal data, ega, ethics, gdpr, legislation, data protection, data classification, consent]
 ---
 
 ## Introduction
@@ -8,7 +9,7 @@ contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper]
 When you do research on data derived from human individuals, there are some extra aspects that you need to consider during the data life cycle. Note that much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in EU and on individuals residing in the EU. 
 Much of the information on this page is of a general nature when it comes to working with human data, an additional focus is on human genomic data and the sharing of such information for research purposes.
 
-## Taking ethical and legal implications into consideration for Planning and Collection 
+## Planning for, and Collection of, human research data
 
 ### Description
 
@@ -31,7 +32,7 @@ To do research on human data you must follow established research ethical guidel
     - [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing)
 * Personal data protection legislation
   * If you are performing research in the EU on human research subjects, or on human research subject in the EU, you must adhere to the General Data Protection Regulation - GDPR.
-    * See [Understanding the GDPR](data_protection) for more information on this law.
+    * See [Data protection](data_protection) for more information on this law.
     * The sensitivity of your data affects what considerations you have make when handling it, see [Determining the sensitivity of your data](data_classification) for more information.
     * For some sensitive data you have to perform a Data Protection Impact Assessments. In general, any biomedical research on human subjects will need to do this.
   * Outside EU 
@@ -39,7 +40,7 @@ To do research on human data you must follow established research ethical guidel
 
 
 ### Solutions
-  * [Trygge ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
+  * [Tryggve ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
   * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects. 
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements 
   * [Privacy Impact Assessment Tool](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assesment) is a software tool to make Data Protection Impact Assessments. 
@@ -52,7 +53,7 @@ To do research on human data you must follow established research ethical guidel
 
 
 
-## Processing and Analysing human data
+## Processing and Analysing human research data
 
 ### Description
 
@@ -99,7 +100,7 @@ It is good research ethical practice to ensure that data underlying research is 
 * GA4GH regular and ethical toolkit (?)
 
 
-## Sharing & Reusing
+## Sharing & Reusing of human research data
 
 ### Description
 To make human research data reusable for others, it must be discoverable, stored in a safe way, and it must be clear under what circumstances it can be reused.
