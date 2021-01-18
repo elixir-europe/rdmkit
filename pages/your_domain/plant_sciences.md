@@ -11,14 +11,17 @@ The plant science domain aims at studying the adaptation of plants to their envi
 
 Data integration and reuse are imperative in this domain, as it relies on understanding the play between genotype and environment to produce a phenotype, and therefore requires integrating phenotyping experiments and genomic assays made on the same plant material, with geo-climatic data. Moreover, cross-species comparisons are often necessary to understand the mechanisms behind phenotypic traits, especially at the genotypic level, due to the gap in genomic knowledge between well-studied plant species (namely *Arabidopsis*) and newly sequenced ones. Yet, in few domains is data integration so challenging.
 
-The challenges to data integration stem from the multiple levels of heterogeneity in this domain. It encompasses a variety of species, ranging from model organisms, to crop species, to wild plants such as forest trees. These often need to be detailed at infra-specific levels (e.g. subspecies, variety), but naming at these levels sometimes lacks consensus. Studies can take place in a diversity of settings including indoor (e.g. growth chamber, greenhouse) and outdoor settings (e.g. cultivated field, forest) which differ fundamentally on the requirements and manner of characterizing the environment. Phenotypic data can be collected manually or automatically (by sensors and drones), and be very diverse in nature, spanning from physical measurements, to the results of biochemical assays, and to images. Thus the extension and depth of metadata required to describe a plant experiment in a FAIR-compliant way is very demanding for researchers.
+The challenges to data integration stem from the multiple levels of heterogeneity in this domain. It encompasses a variety of species, ranging from model organisms, to crop species, to wild plants such as forest trees. These often need to be detailed at infra-specific levels (e.g. subspecies, variety), but naming at these levels sometimes lacks consensus. Studies can take place in a diversity of settings including indoor (e.g. growth chamber, greenhouse) and outdoor settings (e.g. cultivated field, forest) which differ fundamentally on the requirements and manner of characterizing the environment. Phenotypic data can be collected manually or automatically (by sensors and drones), and be very diverse in nature, spanning physical measurements, the results of biochemical assays, and images. Thus the extension and depth of metadata required to describe a plant experiment in a FAIR-compliant way is very demanding for researchers.
+
+Another particularity of this domain is the absense of central deposition databases for plant phenotyping data. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This raises challenges to finding and accessing plant phenotyping data, as well as interconnecting all datasets produced in projects that encompass molecular studies and phenotyping experiments.
 
 
-## Producing FAIR plant phenotyping data
+## Plant Phenotyping Metadata Management
  
 ### Description
+To ensure compliance with the FAIR principles in plant phenotyping datasets, it is highly recommended that metadata collection is contemplated from the start of the experiment and that the working environment facilitates (meta)data collection, storage, and validation throughout the project, up to the publication.
 
-You plan to collect plant phenotypic data and you want to ensure that this data will be FAIR from their birth. The first key point is to describe the plant varieties and seed lots in proper way using the proper metadata standards and identifiers. You would also like to have a working environment that facilitates data and metadata collection and storage along the project before publication, and some ways of validating your metadata against the standards. Finally you need to identify where to can deposit and publish the plant phenotyping data, given that there is no global centralized archives for that type of data.
+Detailed metadata needs to be captured on a number of aspects. One of the most critical is the description of the biological materials used in the study—the plant varieties and, when applicable, the seed lots or the parent plants—as they are the key to integrating omics and phenotyping datasets. Particularly in field studies, it is equally critical to record the geographical coordinates and time of the experiment, for linkage with geo-climatic data. In growth chamber or greenhouse studies, the environmental conditions that were fixed should be described in detail.
 
 ### Considerations
 
@@ -29,7 +32,7 @@ You plan to collect plant phenotypic data and you want to ensure that this data 
 
 ### Solutions
 * The metadata standard applicable to plant phenotyping experiments is [MIAPPE](https://www.miappe.org/).
-  * It contains a section dedicated to the identification of plant biological materials that has been made compatible with the general standard for the identification of plant genetic resources, [The Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/).
+  * It contains a section dedicated to the identification of plant biological materials that follows the general standard for the identification of plant genetic resources, [The Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/).
   * It is also possible to describe samples that were collected from the experimented plants for specific phenotyping assays
   * For woody plants, particularly those in forest settings, it is common to use GPS coordinates as a unique identifier for plant material.
   * There is a section to describe the phenotyping assays based on the [Crop Ontology](https://www.cropontology.org) recommendations
@@ -46,9 +49,10 @@ You plan to collect plant phenotypic data and you want to ensure that this data 
 * Data should be deposited into one of the many repositories that implement BrAPI, as this enables both validation and findability, through the [FAIDARE plant data discovery service](https://urgi.versailles.inrae.fr/faidare/).
 
 
-## Collecting and depositing plant phenotyping data in a dedicated repository
+## Plant Data Deposition
  
-### Description 
+### Description
+Finally you need to identify where to can deposit and publish the plant phenotyping data, given that there is no global centralized archives for that type of data.
 You are managing your own repository of plant phenotyping data and you feed it from datasets produced in different collaborative projects. Some partners of these projects use their own data management platforms, while others collect data manually into excel spreadsheets. You want to ensure that the uptake of the data from your partners and its import in your repository is easy and includes a step of validation of the metadata upon intake.
 
 ### Considerations
