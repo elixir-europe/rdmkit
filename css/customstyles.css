@@ -534,15 +534,7 @@ svg {
     .embed-responsive.embed-responsive-16by9.main_rdm {
       padding-bottom: 55%;
     }
-    .child-box {
-        opacity: 0;
-        transition: opacity .5s;
-        margin: 0 10px 0 0;
-    }
-    .active-child-box {
-        height: auto;
-        opacity: 1;
-    }
+
 }
 
 @media (min-width: 992px) {
@@ -1510,4 +1502,44 @@ h4.panel-title {
     .collapse.in {
         display: block !important;
     }
+}
+.accordion:hover {
+  background-color: var(--blue-xx-dark);
+  background-color: var(--hover-grey);
+}
+
+.accordion.active {
+  background-color: var(--blue-xx-dark);
+background-color: #e46d21;
+}
+.accordion-panel {
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 1em;
+}
+
+ul.accordion-panel li {
+  margin: 5px 0;
+}
+
+.accordion::before {
+    content: '\002B';
+    font-size: 1.75em;
+    line-height: 0.75;
+    color: white;
+    float: left;
+    padding-right: 10px;
+    margin-left: -5px;
+
+}
+.accordion.active::before {
+    content: '\2212';
+}
+
+/* Desktop only */
+.child-box a:link {
+    margin: 0 10px 0 0;
 }

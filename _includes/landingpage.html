@@ -1,20 +1,22 @@
-{%- assign sidebar = site.data.sidebars[page.sidebar] -%}
+{%- assign sidebar = site.data.sidebars[page.sidebar].entries -%}
 <p class="centered mb-2"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
 <div class="embed-responsive embed-responsive-16by9 main_rdm">
     <object class="embed-responsive-item" type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
 </div>
 <p>Or find resources by:</p>
 <div class="flexbox">
-    {%- for folder in sidebar.subitems -%}
+    {%- for entry in sidebar -%}
+    {%- for folder in entry.folders -%}
     {%- if folder.title != "Data Life Cycle" and folder.title != "All Tools and Resources" ] %}
     <div>
-        <h2 class="button no_anchor">{{folder.title}}</h2>
-        <ul class="child-box">
-        {%- for folderitem in folder.subitems -%}
+        <h2 class="button no_anchor accordion">{{folder.title}}</h2>
+        <ul class="child-box accordion-panel">
+        {%- for folderitem in folder.folderitems -%}
         <li><a href="{{folderitem.url | remove: "/"  }}">{{folderitem.title}}</a></li>
         {% endfor -%}
         </ul>
     </div>
     {% endif -%}
+    {% endfor -%}
     {% endfor -%}
 </div>
