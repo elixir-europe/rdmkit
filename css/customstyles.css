@@ -625,6 +625,11 @@ a.accordion-toggle, a.accordion-collapsed {
     margin: 4px;
 }
 
+.hall-of-fame-hero:hover {
+    background-color: var(--footer-bg);
+    color: var(--light-grey);
+}
+
 .item .hall-of-fame-hero .name {
     margin-top: 10px;
     font-size: 0.9em;
