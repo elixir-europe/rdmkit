@@ -87,6 +87,7 @@ $(document).ready(function () {
 
 /*
 * Script to show/hide the buttons under the navigation tiles.
+* REPLACED BY THE SCRIPT BELOW.
 */
 // window.addEventListener('DOMContentLoaded', function () {
 //     document.querySelectorAll('.button').forEach(function (item) {
@@ -115,6 +116,10 @@ $(document).ready(function () {
 //     }
 // }
 
+
+/*
+* Dropdown boxes for the home page
+*/
 document.addEventListener('DOMContentLoaded', () => {
   var acc = document.getElementsByClassName("accordion");
   var i;
@@ -122,21 +127,19 @@ document.addEventListener('DOMContentLoaded', () => {
   for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
       this.classList.toggle("active");
-      // if ($('.accordion.active').length) {
-      //   $('.active + .accordion-panel').css('max-height', '');
-      //   $('.accordion.active').removeClass("active");
-      // }
-
+      var panelWidth = $(this).innerWidth();
       var panel = this.nextElementSibling;
       if (panel.style.maxHeight) {
         panel.style.maxHeight = null;
       } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
+        if ($(window).width() > 1024) {
+          panel.style.maxHeight = "225px";
+          panel.style.overflowY = "scroll";
+          panel.style.width = panelWidth + "px";
+        } else {
+          panel.style.maxHeight = "225px";
+        }
       }
     });
   }
 });
-// Listen for click
-// If click and not active then open
-// If one already open then close it
-// If

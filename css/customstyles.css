@@ -787,7 +787,7 @@ span.projectTitle {
 }
 
 .home.site-footer {
-    margin-top: 0;
+    margin-top: 80px;
 }
 
 .site-footer .company-image {
@@ -1503,6 +1503,11 @@ h4.panel-title {
         display: block !important;
     }
 }
+
+.flexbox > div {
+  position: relative;
+}
+
 .accordion:hover {
   background-color: var(--blue-xx-dark);
   background-color: var(--hover-grey);
@@ -1510,19 +1515,30 @@ h4.panel-title {
 
 .accordion.active {
   background-color: var(--blue-xx-dark);
-background-color: #e46d21;
+  background-color: #e46d21;
 }
+
 .accordion-panel {
-    padding: 0;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    margin-bottom: 1em;
+  position: absolute;
+  left: -20px;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 1em;
+  margin-left: 20px;
+}
+
+.active + .accordion-panel {
+  border: 1px solid #ddd;
+  border-width: 0 1px 1px;
+  border-radius: 5px;
 }
 
 ul.accordion-panel li {
-  margin: 5px 0;
+  margin: 5px 0 5px 10px;
 }
 
 .accordion::before {
@@ -1533,8 +1549,8 @@ ul.accordion-panel li {
     float: left;
     padding-right: 10px;
     margin-left: -5px;
-
 }
+
 .accordion.active::before {
     content: '\2212';
 }
