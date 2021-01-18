@@ -65,4 +65,4 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
 
 ## Where can training materials and events about Data protection be found?
 
-{% include tess.html search=“data protection” %}
+{% include tess.html search="data protection" %}
