@@ -1,6 +1,6 @@
 ---
 title: Reusing
-keywords: [Data reuse, Reusable data, Licencing, Licence, Data integration, Versioning, Citing data, Data citation, FAIR]
+keywords: [reuse data, licence, data integration, citing data]
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 ---
 
