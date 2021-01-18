@@ -166,7 +166,6 @@ In the event that a resolution can't be determined in that time, a member of the
 
 The RDM CoC group will seek to agree on a resolution by consensus of all members investigating the report in question.
 If the committee cannot reach consensus in over a week, Niklas Blomberg, as Director of ELIXIR, will descide on an appropriate resolution.
-If Dr Blomberg is unable to take part in the discussion due to a conflict of interest, Susanna Repo, as an external member of the RDM CoC group, will make the decision.
 
 Possible responses may include:
 
@@ -190,10 +189,6 @@ Once a resolution is agreed upon, but before it is enacted, a member of the RDM 
 The RDM CoC group will ask if this resolution is acceptable, and must note feedback for the record.
 However, the RDM CoC group is not required to act on this feedback.
 
-### 4.5 Conflicts of Interest
-
-In the event of any conflict of interest such that Dr Blomberg is not able to evaluate or enforce the reported violation, Susanna Repo will take Niklas Blombergs's place. 
-
 ## 5 Acknowledgements
 
 This code is adapted from the [Turing Way Project Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/master/CODE_OF_CONDUCT.md) which in turn was adapted from [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html), and the with sections from the [Alan Turing Institute Data Study Group Code of Conduct](https://docs.google.com/document/d/1iv2cizNPUwtEhHqaezAzjIoKkaIX02f7XbYmFMXDTGY/edit).
@@ -207,6 +202,6 @@ Citizen Lab based their Code of Conduct on the [xvzf Code of Conduct](http://xvz
 
 This code of conduct is aligned with the [ELIXIR Code of Conduct for events](https://elixir-europe.org/events/code-of-conduct).
 
-We really appreciate the work that all of the communities linked above have put into creating such a well considered process.
+We really appreciate the work that all of the communities linked to above have put into creating such a well-considered process.
 
 This Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0 CA) license which means you are free to share and adapt the work so long as the attribution to Kirstie Whitaker and the Turing Way community is retained, along with the attribution to the Carpentries, the Alan Turing Institute Data Study Group organising team, Citizen Lab and the other resources.
