@@ -31,6 +31,35 @@ There are multiple standards for different types of data, ranging from generic d
   * [FAIRsharing.org](https://fairsharing.org) at “Standards” and “Collections”
   * [The Digital Curation Centre (DCC): List of Metadata Standards](https://www.dcc.ac.uk/guidance/standards/metadata/list)
  
+
+## How to find appropriate vocabularies or ontologies?
+
+### Description
+
+Vocabularies and ontologies are meant for describing concepts and relationships within a knowledge domain. Used wisely, they can enable both humans and computers to understand your data. There is no clear-cut division between the terms "vocabulary" and "ontology", but the latter is more commonly used when dealing with complex (and perhaps more formal) collections of terms.
+
+There are many vocabularies and ontologies to be found on the web. Finding a suitable one can be both difficult and time-consuming.
+
+
+### Considerations
+
+* Check whether you really need to find a suitable ontology or vocabulary yourself. Perhaps the repository where you are about to submit your data have recommendations? Or the journal where you plan to publish your results?
+* Understand your goal with sharing data. Which formal requirements (by e.g. by funder or publisher) need to be fulfilled? Which parts of your data would benefit the most from adopting ontologies?
+* Learn the basics about ontologies. This will be helpful when you search for terms in ontologies and want to understand how terms are related to one another.
+* Accept that one ontology may not be sufficient to describe your data. It is very common that you have to combine terms from more than one ontology.
+* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Chosing the best available term is often better than not chosing a term at all. Note that the same concept may also be present in multiple ontologies.
+
+
+### Solutions
+
+* Define a list of terms that you want to find ontologies for. Include in the list also any alternative term names that you are aware of.
+* Search for your listed terms on dedicated web portals. These are a few:
+  * [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
+  * [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
+  * [Ontobee](http://www.ontobee.org)
+  * [Schemapedia](https://schemapedia.com)
+
+
 <!-- ## External links -->
 
 ## Relevant tools and resources
