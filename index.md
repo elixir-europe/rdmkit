@@ -8,4 +8,7 @@ toc: false
 
 {% include landingpage.html %}
 
+### Contributors
+This project would not be possible without the many amazing community contributors!
+
 {% include contributor-carousel.html %}

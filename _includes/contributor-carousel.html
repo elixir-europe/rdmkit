@@ -13,9 +13,6 @@
 {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq %}
-<h3>Contributors</h3>
-<p>This project would not be possible without the many amazing community contributors!</p>
-<br>
 <div class="container-fluid">
     <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
