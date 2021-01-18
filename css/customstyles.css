@@ -1353,6 +1353,8 @@ ul#mysidebar {
     border: 1px solid #dedede;
 }
 
+ /* no underline on anchor icons */
+
 *:hover>.anchorjs-link {
     transition: color .25s linear;
     text-decoration: none;
@@ -1364,13 +1366,6 @@ ul#mysidebar {
     padding: 10px;
 }
 
-
-/* Strip the outbound icon when this class is present */
-
-a[href].noCrossRef::after, a.no_icon:after {
-    content: "" !important;
-    padding-left: 0;
-}
 
 .btn-default {
     background-color: var(--light-grey);
