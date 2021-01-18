@@ -27,7 +27,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **-ise/-ize:** use the "-ise" form.
   * **"Life cycle":** two separate words.
   * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
-  * **Lists:** every line of a list starts with a capital and ends with a point.
+  * **Lists:** every line of a list starts with a capital and ends with a full stop.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "<i>et al.</i>" for more than five authors.
@@ -70,7 +70,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Are short if possible, but distinguishable from existing tags.
   * Can contain spaces.
 * **Titles in the navigation side panel:**
-  * Have each word capitalized.
+  * First word and acronyms capitalized.
   * Should contain the same words as the filename where this title points to. 
 
 ## How to suggest amendments or additions to this style guide
