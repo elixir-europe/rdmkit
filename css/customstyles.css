@@ -615,16 +615,56 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .hall-of-fame-hero {
     margin: 0;
-    width: 15%;
+    width: 17%;
+    background-color: var(--light-grey);
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    margin: 4px;
 }
 
-.hall-of-fame-hero .name {
-    font-size: 0.7em;
-}
-.thumbnail {
-    padding: 0em;
+.item .hall-of-fame-hero .name {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
 }
 
+.item .hall-of-fame-hero img{
+    border-radius: 50%;
+    width: 9em;
+}
+
+.social-icons {
+    padding-left: 0;
+    list-style: none;
+    align-items: center;
+    height: 4ex;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.social-icons a {
+    background-color: var(--main-bg-color);
+    color: var(--primary-theme-color);
+    font-size: 16px;
+    display: inline-block;
+    line-height: 4ex;
+    width: 4ex;
+    height: 4ex;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--main-bg-color)
+}
 
 /* navgoco sidebar styles (customized) */
 
@@ -873,7 +913,7 @@ span.projectTitle {
     .site-footer {
         padding-bottom: 0;
     }
-    .site-footer .copyright-text, .site-footer .social-icons {
+    .site-footer .copyright-text, .site-footer {
         text-align: right;
     }
 }

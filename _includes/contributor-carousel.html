@@ -2,7 +2,11 @@
 {%- for page in site.pages %}
 {%- if page.contributors and page.search != "exclude" %}
 {%- assign pagecontr = page.contributors | join: ", " %}
+{%- if allcontrstr %}
 {%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
+{%- else %}
+{%- assign allcontrstr = allcontrstr | append: pagecontr %}
+{%- endif  %}
 {%- endif  %}
 {%- endfor %}
 {%- for contr in contributors %}
@@ -10,7 +14,11 @@
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq %}
 
+{{allcontributors}}
 
+<h3>Contributors</h3>
+<p>This project would not be possible without the many amazing community contributors!</p>
+<br>
 <div class="container-fluid">
     <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
@@ -25,10 +33,16 @@
                   {%- endif %}
                 <div class="hall-of-fame-hero">
                     {%- assign id = contributors[contributor].git | default: 'no_github' %}
-                    <a class="thumbnail" href="{{ site.baseurl }}/hall-of-fame/{{ id }}/">
-                        <img class="img-fluid" src="https://avatars.githubusercontent.com/{{ id }}" alt="{{ id }}">
-                    </a>
+                    <img src="https://avatars.githubusercontent.com/{{id}}" alt="{{id}}">
                     <p class="name">{{ contributor }}</p>
+                    <ul class="social-icons">
+                        {%- if contributors[contributor].git %}
+                        <li><a class="no_icon" href="https://github.com/{{id}}"><i class="fa fa-github"></i></a></li>
+                        {%- endif %}
+                        {%- if contributors[contributor].email %}
+                        <li><a class="no_icon" href="{{email}}"><i class="fa fa-envelope"></i></a></li>
+                        {%- endif %}
+                    </ul>
                 </div>
             {%- assign counter = counter | plus:1 %}
             {%- if forloop.last %}
