@@ -7,6 +7,10 @@ tags: [share, collect, process, policy officer]
 
 ## Is my data sensitive?
 
+### Description
+
+Sensitive data is information that must be protected against unauthorised access. This can for example be personal or commercial information, but also information about breeding grounds of endangered species. What is considered sensitive informaiton is usually regulated by national laws and may differ between countries. You should be very cautious when you are dealing with potentially sensitive information.
+
 ### Considerations
 
 * If you deal with any information about individuals from the EU, you are bound by the GDPR and such data is called “personal data”. 
