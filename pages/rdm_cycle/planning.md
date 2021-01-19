@@ -22,27 +22,19 @@ Data management planning:
 
 
 ## What should be considered for Data Management Planning?
-Data management should be planned in the early stages of a research project. Preferably, the DMP should be filled in before starting data collection. However, the DMP is a living document and should be updated as the research project progresses to match e.g. an update of the infrastructures, research sofwares or a novel collaboration.
+Data management should be planned in the early stages of a research project. Preferably, the DMP should be filled in before starting data collection. However, the DMP is a living document and should be updated as the research project progresses to match e.g. an update of the infrastructures, research softwares or a novel collaboration.
 
 Funders often require a DMP as part of the application for grants or, latest, when the project is funded. There are many guidelines, policies and tools for data management planning. Find recommendations and obtain help from your home institution support services.
 
 
-### Deciding for a DMP tool
+## Problems to be addressed in this stage
 
-The usage of web-based DMP solutions is becoming standard practice. Their usage is recommended as they provide both ready-to-use templates and guidance regarding state-of-the-art solutions. These tools usually enable sharing of the DMP with your collaborators as well as exporting it in several formats.
+{% include pagelist.html tag="plan" %}
 
-Some tools support machine actionable DMPs (maDMP), which enable you to transfer information between different tools and systems.
-MaDMPs aim to make the DMP interoperable, automated and increasingly standardised.
-
-DMP can also be written as a plain text document, if preferred.
 
 ## Where can training materials and events about Data Management Planning be found?
 
 {% include tess.html search="Data Management Planning" %}
-
-## Related topics
-
-{% include pagelist.html tag="plan" %}
 
 
 <!-- * File format
@@ -58,4 +50,4 @@ DMP can also be written as a plain text document, if preferred.
 * Ethical and legal issues
 * Funder guidelines
 
-## External links -->
+<!-- ## External links -->
