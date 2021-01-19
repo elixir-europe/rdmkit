@@ -671,6 +671,7 @@ a.accordion-toggle, a.accordion-collapsed {
 .contributor-container {
     margin-right: auto;
     margin-left: auto;
+    margin: 20px 0px;
 }
 
 @media (max-width: 992px) {

@@ -1,4 +1,7 @@
 {%- assign contributors = site.data.CONTRIBUTORS %}
+{%- if include.custom %}
+{%- assign allcontributors = include.custom | split: ", " | sort %}
+{%- else %}
 {%- for page in site.pages %}
 {%- if page.contributors and page.search != "exclude" %}
 {%- assign pagecontr = page.contributors | join: ", " %}
@@ -12,7 +15,8 @@
 {%- for contr in contributors %}
 {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
 {%- endfor %}
-{%- assign allcontributors = allcontrstr | split: ", " | uniq %}
+{%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
+{%- endif  %}
 <div class="contributor-container">
     <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="4000">
         <div class="carousel-inner">
