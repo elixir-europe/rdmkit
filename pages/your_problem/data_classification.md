@@ -25,8 +25,8 @@ Sensitive data is information that must be protected against unauthorised access
 
 ### Solutions
 
-* links to tools etc...
-* links to external help
+* Identify what legislations and regulation there are that you are expected to follow. Your institution's website may give you hints on where you can look for information about sensitive data.
+* If you cannot determine if your data is sensitive, contact someone with expert knowledge in that area.
 
 ## Relevant tools and resources
 
