@@ -71,7 +71,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Are short if possible, but distinguishable from existing tags.
   * Can contain spaces.
 * **Titles in the navigation side panel:**
-  * First word and acronyms capitalized.
+  * First word and acronyms capitalised.
   * Should contain the same words as the filename where this title points to. 
 
 ## How to suggest amendments or additions to this style guide
