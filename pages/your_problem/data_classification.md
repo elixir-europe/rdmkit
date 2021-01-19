@@ -22,7 +22,6 @@ Sensitive data is information that must be protected against unauthorised access
 * If there are no means to map the data back to individuals, then the data is considered anonymous and is out of the scope of the GDPR. 
 * You should keep in mind that anonymising data is a notoriously difficult task. Does your dataset contain a wide array of attributes, or exhibit unique traits/patterns such that one can reasonably expect that not more than a dozen people in the world have those together? In that case, you can not assume that it is anonymous. Such data run the risk of being linked back to individuals through various technical means. You need to take into account that technical means to identify people in the future may be more powerful than than they are right now: i.e. data that is anonymous right now may not be anonymous forever
 
-Finally; not all sensitive information is personal: information on e.g. breeding grounds of endangered species may be sensitive, but it is not personal information.
 
 ### Things that can help you
 
