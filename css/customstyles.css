@@ -615,7 +615,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .hall-of-fame-hero {
     margin: 0;
-    width: 16%;
+    width: 18%;
     background-color: var(--light-grey);
     padding: 20px 0px;
     display: flex;
@@ -669,6 +669,40 @@ a.accordion-toggle, a.accordion-collapsed {
     background-color: var(--primary-theme-color);
     color: var(--main-bg-color)
 }
+
+@media (max-width: 992px) {
+    .item .hall-of-fame-hero .name {
+        font-size: 0.7em;
+        height: 22px;
+    }
+    
+    .item .hall-of-fame-hero img{
+        width: 5em;
+    }
+    .social-icons a {
+        line-height: 3ex;
+        width: 3ex;
+        height: 3ex;
+    }
+    .social-icons {
+        height: 3ex;
+    }
+}
+
+@media (max-width: 600px) {
+    .item .hall-of-fame-hero img{
+        width: 4em;
+    }
+    .social-icons a {
+        line-height: 2.5ex;
+        width: 2.5ex;
+        height: 2.5ex;
+    }
+    .social-icons {
+        height: 2.5ex;
+    }
+}
+
 
 /* navgoco sidebar styles (customized) */
 
