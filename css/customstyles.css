@@ -615,7 +615,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .hall-of-fame-hero {
     margin: 0;
-    width: 17%;
+    width: 16%;
     background-color: var(--light-grey);
     padding: 20px 0px;
     display: flex;
@@ -638,7 +638,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .item .hall-of-fame-hero img{
     border-radius: 50%;
-    width: 9em;
+    width: 8em;
 }
 
 .social-icons {
