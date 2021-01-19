@@ -1,7 +1,7 @@
 ---
 title: Data Organisation
 keywords: [file naming, versioning, folder structures]
-contributors: [Siiri Fuchs, Minna Ahokas]
+contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
 tags: [collect, process, analyse, preserve, researcher, IT support, data manager]
 ---
 
