@@ -169,7 +169,7 @@ Make sure that you add the image to the `images` directory and give it an unders
 
 ## Icons
 
-Go to the [Font Awesome library](https://fontawesome.com/v4.7.0/icons/) to see the available icons.
+Go to the [Font Awesome library](https://fontawesome.com/) to see the available icons.
 
 The Font Awesome icons allow you to adjust their size by simply adding `fa-2x`, `fa-3x` and so forth as a class to the icon to adjust their size to two times or three times the original size. As vector icons, they scale crisply at any size.
 
