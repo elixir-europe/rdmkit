@@ -23,7 +23,7 @@ Sensitive data is information that must be protected against unauthorised access
 * You should keep in mind that anonymising data is a notoriously difficult task. Does your dataset contain a wide array of attributes, or exhibit unique traits/patterns such that one can reasonably expect that not more than a dozen people in the world have those together? In that case, you can not assume that it is anonymous. Such data run the risk of being linked back to individuals through various technical means. You need to take into account that technical means to identify people in the future may be more powerful than than they are right now: i.e. data that is anonymous right now may not be anonymous forever
 
 
-### Things that can help you
+### Solutions
 
 * links to tools etc...
 * links to external help
