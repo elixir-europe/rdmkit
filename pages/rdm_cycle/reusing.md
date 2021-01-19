@@ -1,36 +1,44 @@
 ---
 title: Reusing
-keywords:
-contributors: [Korbinian Bösl, Daniel Faria]
+keywords: [reuse data, licence, data integration, citing data]
+contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 ---
 
 ## What is Data Reuse?
 
-Data reuse describes the process of using available data for own, new research.
+Data reuse means using data for other purposes than it was originally collected for. Reuse of data is particularly important in science, as it allows different researchers to analyse and publish findings based on the same data independently of one another. Reusability is one key component of the FAIR principles.
 
-## Why Data Reuse is important?
+Data that is well-described, curated and shared under clear terms and conditions is more likely to be reused. Integration with other data sources is also important, since that can enable new, yet unanticipated, uses for the data.
+
+## Why is Data Reuse important?
 
 By reusing existing data you can:
 
 * obtain reference data for your research
 * avoid doing new, unnecessary experiments
+* run analyses to verify that reported findings are correct, and thereby making subsequent findings more robust
 * make research more robust by aggregating results obtained from different methods or samples
-* gain novel insights by connecting and meta-analysing data-sets
+* gain novel insights by connecting and meta-analysing datasets
 
 ## What should be considered for Data Reuse?
 
-One major challenge is to find data for reuse. Another point is that you should assess the quality of the deposited data before it is reused.
-One starting point can be to use value added databases with curated content. Other possibilities include searching data deposition repositories for suitable datasets based on their annotation or obtaining data directly from the author. You should keep in mind whether the repositories provide sufficient metadata to enable data reuse. Some types of data you are searching for can be straightforward to reuse (e.g. genome data) or require extensive metadata to interpret and reuse (e.g. gene expression experiment data)
-The reuse of data should be aligned with the intellectual property right e.g. by making sure it is available under a suiting license.
-For personal (sensitive) data all legal and technical requirements have to met before it can be accessed. Getting access to personal (sensitive) data often requires additional steps.
+Consider the following when reusing data:
+
+* Explore different sources for reusable data. A starting point can be to look for value added databases with curated content. Other possibilities include searching data deposition repositories for suitable datasets based on their annotation, or obtaining data directly from the author of a scientific article.
+* Check under which terms and conditions the data is shared. Make sure that there is a licence, and that the licence gives you permission to do what you intend to.
+* Check whether there is sufficient metadata to enable data reuse. Some types of data can be straightforward to reuse (e.g. genome data), while other may require extensive metadata to interpret and reuse (e.g. gene expression experiment data).
+* Assess the quality of the data. Is the data from a trusted source? Is it curated? Does the data adhere to a standard?
+* Verify that the data has been ethically collected and that your reuse of the data conforms with policies and regulations you are expected to follow. For personal (sensitive) data, there are usually legal and technical requirements that have to met before data can be accessed. Getting access to personal (sensitive) data will therefore involve additional steps.
+* If the data has been updated, make sure to document which version of the data you are using. Also consider what impact the changes may have on your results.
+* Cite the data properly. Include a persistent identifier (such as a DOI) in the citation if there is one.
+
+## Problems to be addressed in this stage
+
+{% include pagelist.html tag="reuse" %}
 
 ## Where can training materials and events about Data Reuse be found?
 
 {% include tess.html search="Data Reuse" %}
-
-## Related topics
-
-{% include pagelist.html tag="reuse" %}
 
 <!-- * File format
 * Data volume
