@@ -13,7 +13,7 @@
 {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq %}
-<div class="container-fluid">
+<div class="contributor-container">
     <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="4000">
         <div class="carousel-inner">
             {%- assign counter = 0 %}

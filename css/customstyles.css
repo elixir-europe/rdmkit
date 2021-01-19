@@ -614,7 +614,6 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .hall-of-fame-hero {
-    margin: 0;
     width: 18%;
     background-color: var(--light-grey);
     padding: 20px 0px;
@@ -622,7 +621,6 @@ a.accordion-toggle, a.accordion-collapsed {
     flex-direction: column;
     align-items: center;
     border-radius: 4px;
-    margin: 4px;
 }
 
 .hall-of-fame-hero:hover {
@@ -670,6 +668,11 @@ a.accordion-toggle, a.accordion-collapsed {
     color: var(--main-bg-color)
 }
 
+.contributor-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (max-width: 992px) {
     .item .hall-of-fame-hero .name {
         font-size: 0.7em;
@@ -697,6 +700,21 @@ a.accordion-toggle, a.accordion-collapsed {
         line-height: 2.5ex;
         width: 2.5ex;
         height: 2.5ex;
+    }
+    .social-icons {
+        height: 2.5ex;
+    }
+}
+
+@media (max-width: 400px) {
+    .item .hall-of-fame-hero img{
+        width: 3em;
+    }
+    .social-icons a {
+        line-height: 2.5ex;
+        width: 2.5ex;
+        height: 2.5ex;
+        font-size: 12px;
     }
     .social-icons {
         height: 2.5ex;
