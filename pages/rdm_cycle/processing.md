@@ -1,7 +1,7 @@
 ---
 title: Processing
-keywords:
-contributors: [Rob Hooft, Munazah Andrabi]
+keywords: Data Cleaning, Data Formatting, Quality Check, Data validation
+contributors: [Rob Hooft]
 ---
 
 ## What is Data Processing?
