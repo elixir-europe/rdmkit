@@ -1,7 +1,7 @@
 ---
 title: Sharing
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
-keywords: collaboration
+keywords: [collaboration]
 ---
 
 ## What is Data Sharing?
