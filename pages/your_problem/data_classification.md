@@ -1,7 +1,7 @@
 ---
 title: Data Classification
 keywords: [human data, data sensitivity]
-contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper]
+contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund]
 tags: [share, collect, process, policy officer]
 ---
 
