@@ -138,7 +138,7 @@ To make human research data reusable for others, it must be discoverable, stored
 * [dbGAP](https://www.ncbi.nlm.nih.gov/gap/) and [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html) are international data repositories, which adopt  the controlled-access model similar to the EGA. While data from these repositories can be used by researchers in the EU, it may not be possible, due to GDPR restrictions, to deposit EU subjects’ data to these international repositories.  
 * Beacon
   * The Beacon Project is a Global Alliance for Genomics & Health (GA4GH) initiative that enables genomic and clinical data sharing across federated networks. A Beacon is defined as a web-accessible service that can be queried for information about a specific allele with no reference to a specific sample or patient, thereby reducing privacy risks.
-* GA4GH  Data Use Ontology DUO(https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
+* GA4GH  Data Use Ontology [DUO](https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
 
 
 ## Relevant tools and resources
