@@ -9,7 +9,7 @@ tags: [share, collect, process, policy officer]
 
 ### Description
 
-Sensitive data is information that must be protected against unauthorised access. This can for example be personal or commercial information, but also information about breeding grounds of endangered species. What is considered sensitive informaiton is usually regulated by national laws and may differ between countries. You should be very cautious when you are dealing with potentially sensitive information.
+Sensitive data is information that must be protected against unauthorised access. This can for example be personal or commercial information, but also information such as breeding grounds of endangered species. What is considered sensitive information is usually regulated by national laws and may differ between countries. You should be cautious when you are dealing with sensitive, or potentially sensitive, information.
 
 ### Considerations
 
