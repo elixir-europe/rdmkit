@@ -278,6 +278,9 @@ Tools:
   - data publication
   - researcher
   - data manager
+- description: "EMBL-EBI\u2019s web portal for finding ontologies"
+  link: https://www.ebi.ac.uk/ols/index
+  name: EMBL-EBI Ontology Lookup Service
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: http://www.ensembl.org/index.html
@@ -478,6 +481,9 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Web portal for finding ontologies
+  link: https://lov.linkeddata.es/dataset/lov/
+  name: Linked Open Vocabularies (LOV)
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
@@ -536,6 +542,9 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: A web portal to search and visualise ontologies
+  link: http://www.ontobee.org
+  name: Ontobee
 - description: OntoMaton facilitates ontology search and tagging functionalities within
     Google Spreadsheets.
   link: https://github.com/ISA-tools/OntoMaton
@@ -608,6 +617,9 @@ Tools:
   - data analysis
   - IT support
   - researcher
+- description: Web portal for finding ontologies
+  link: https://schemapedia.com
+  name: Schemapedia
 - description: List of respositories recommended by Scinetific Data, contains both
     discipline-specific and general repositories.
   link: https://www.nature.com/sdata/policies/repositories
@@ -680,6 +692,12 @@ Tools:
   - IT support
   - policy officer
   - human data
+- description: Collaborative effort to develob interoperable ontologies for the biological
+    sciences
+  link: http://obofoundry.org
+  name: The Open Biological and Biomedical Ontology (OBO) Foundry
+  registry:
+    fairsharing: biodbcore-001083
 - description: A list of Ethical, Legal, and Societal Implications (ELSI) to consider
     for research projects on human subjects
   link: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
