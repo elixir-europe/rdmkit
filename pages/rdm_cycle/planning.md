@@ -6,9 +6,9 @@ contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, F
 
 ## What is Data Management Planning?
 
-Data Management Planning consists in defining the strategy that you plan to use for managing data and documentation generated within the project. It is about thinking upfront what's the best way to avoid problems or unexpected costs related to data management, and set the conditions for your research data to achieve the highest possible impact in science, even after the end of the project.
+Data Management Planning consists of defining the strategy that you plan to use for managing data and documentation generated within the project. It is about thinking upfront what's the best way to avoid problems or unexpected costs related to data management, and set the conditions for your research data to achieve the highest possible impact in science, even after the end of the project.
 
-Solutions regarding the handling of the data generated within a project is usually formalised in a Data Management Plan (or DMP). A DMP is a document describing several aspects of the data management process which occur before, during and after the end of a project.
+Solutions regarding the handling of the data generated within a project is usually formalised in a Data Management Plan (DMP). A DMP is a document describing several aspects of the data management process which occur before, during and after the end of a project.
 Common components of a DMP are:
 - General information about the project.
 - Description of the datasets that will be used and generated.
@@ -31,7 +31,7 @@ Advantages of making a data management plan:
 
 ## What should be considered for Data Management Planning?
 
-* Research organisation and funders often require a DMP as part of the application for grants or, latest, when the project is funded. Therefore, consider guidelines, policies and tools for data management planning required by your funder.
+* Research organisation and funders often require a DMP as part of the application for grants or latest, when the project is funded. Therefore, consider guidelines, policies and tools for data management planning required by your funder.
 
 * Data management should be planned in the early stages of a research project. Preferably, the DMP should be filled in before starting data collection. However, the DMP is a **living document** and should be updated as the research project
 progresses to match e.g. an update of the infrastructures, research softwares or a novel collaboration.
