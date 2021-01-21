@@ -37,7 +37,7 @@ Consider the following, while collecting data
 {% include pagelist.html tag="collect" %}
 
 
-## Available training material
+## Where can training materials and events about Data Collecting be found?
 
 {% include tess.html search="Data Collection" %}
 
