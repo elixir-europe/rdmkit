@@ -3,10 +3,10 @@ title: "About"
 toc: false
 ---
 
-## Who is the RDM Toolkit for?
-The ELIXIR Research Data Management Toolkit (RDM Toolkit) has been designed to guide life scientists in their efforts to better manage their research data. It is based on the various steps of the data lifecycle, although not all the steps will be relevant to everyone. The Toolkit can be navigated via ‘role’, ‘domain’, ‘examples’ and ‘problems’. The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project.
+## Who is the RDMKit for?
+The ELIXIR Research Data Management Toolkit (RDMKit) has been designed to guide life scientists in their efforts to better manage their research data. It is based on the various steps of the data lifecycle, although not all the steps will be relevant to everyone. The Toolkit can be navigated via ‘role’, ‘domain’, ‘examples’ and ‘problems’. The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project.
 
-## What does the RDM Toolkit aim to achieve?
+## What does the RDMKit aim to achieve?
 At the heart of FAIR Science lies good data management practice. This is increasingly important as life science research becomes data-intensive and traditional ‘wet labs’ make space for ‘dry (computer) labs’. More than ever, scientists need relevant tools and guidance to better manage their data and hence contribute to making FAIR Science a reality as well as help researchers be more productive for themselves and their collaborators.
 
 - **For researchers** - The toolkit is a one stop shop of information, advice and signposting to research data management know-how, tools, examples and best practice. Struggling with writing your project data management plan? Then the toolkit can help.
@@ -18,7 +18,7 @@ At the heart of FAIR Science lies good data management practice. This is increas
 ## Funding acknowledgement
 The Toolkit was developed with funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing contents for the Toolkit. 
 
-## How to cite the RDM Toolkit
+## How to cite the RDMKit
 ELIXIR (2020) Research Data Management Toolkit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: https://rdm.elixir-europe.org
 
 The ELIXIR Data Management toolkit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
