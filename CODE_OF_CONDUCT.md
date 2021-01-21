@@ -42,13 +42,9 @@ All participants in our in-person events and online communications are expected 
 To make clear what is expected, everyone participating in activities associated with the ELIXIR RDM Toolkit is required to conform to this Code of Conduct.
 This Code of Conduct applies to all spaces managed by the ELIXIR RDM Toolkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
 
-The ELIXIR Code of Conduct Oversight Committee are responsible for enforcing the Code of Conduct.
-They can be contacted by emailing [coc.oversight@elixir-europe.org](mailto:coc.oversight@elixir-europe.org). 
-You may also contact the Toolkit Code of Conduct Allies:
- * Frederik Coppens
- * Carole Goble
+For issues around Code of Conduct please contact [rdm-coc@elixir-europe.org](mailto:rdm-coc@elixir-europe.org). 
 
-Reports may be reviewed by other members of the core development team, unless there is a conflict of interest, and will be kept confidential.
+Reports will be reviewed by the RDM CoC group, unless there is a conflict of interest, and will be kept confidential.
 
 ## 2 Code of Conduct
 
@@ -105,24 +101,19 @@ If a participant engages in behaviour that violates this Code of Conduct, any me
 ### 2.4 Feedback
 
 This Code of Conduct is not intended as a static set of rules by which everyone must abide.
-Rather, you are invited to make suggestions for updates or clarifications by contacting [the CoC Oversight Committee](mailto:coc.oversight@elixir-europe.org) or by making a pull request to this document on GitHub.
+Rather, you are invited to make suggestions for updates or clarifications by contacting the [RDM CoC Group](mailto:rdm-coc@elixir-europe.org) or by making a pull request to this document on GitHub.
 
 ## 3 Incident Reporting Guidelines
 
 ### 3.1 Contact points
 
-If you feel able to, please contact [the CoC Oversight Committee](mailto:coc.oversight@elixir-europe.org) or the Toolkit Code of Conduct Allies.
+If you feel able to, please contact the [RDM CoC group](mailto:rdm-coc@elixir-europe.org).
 
-### 3.2 Alternate contact points
-
-If you do not feel comfortable contacting the CoC Oversight Committee or the Toolkit Code of Conduct Allies, contact the ELIXIR Director, Niklas Blomberg, by telephone
-at +44 (0) 1223 494135 or email at elixirdirector@elixir-europe.org.
-
-### 3.3 What to do if someone is in physical danger
+### 3.2 What to do if someone is in physical danger
 
 If you believe someone is in physical danger, please contact the appropriate emergency responders.
 
-### 3.4 Code of Conduct Enforcement
+### 3.3 Code of Conduct Enforcement
 
 A detailed enforcement policy is available in the Enforcement Manual below.
 
@@ -132,18 +123,13 @@ This is the enforcement manual followed by the ELIXIR RDM Toolkit project team.
 It's used when we respond to an issue to make sure we're consistent and fair.
 Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
-### 4.1 The Code of Conduct Oversight Committee
+### 4.1 The RDM Code of Conduct Group
 
-The ELIXIR Code of Conduct Oversight committee is:
+The members of the RDM Code of Conduct group are:
 
 * Carole Goble
-* Hannah Hurst
+* Daniel Faria
 * Frederik Coppens
-
-The Toolkit Code of Conduct Allies are:
-
-* Frederik Coppens
-* Carole Goble
 
 As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
@@ -159,7 +145,7 @@ In situations where an individual community member acts unilaterally, they must 
 
 ### 4.3 Less-Urgent Situations
 
-Upon receiving a report of an incident, the ELIXIR Code of Conduct Oversight Committee will review the incident and determine, to the best of their ability:
+Upon receiving a report of an incident, the RDM CoC group will review the incident and determine, to the best of their ability:
 
 - whether this is an ongoing situation
 - whether there is a threat to anyone's physical safety
@@ -168,18 +154,17 @@ Upon receiving a report of an incident, the ELIXIR Code of Conduct Oversight Com
 - who, if anyone, was the bad actor
 
 This information will be collected either in person or in writing.
-The ELIXIR Code of Conduct Oversight Committee  will provide a written summary of the information surrounding the incident.
+The RDM CoC group will provide a written summary of the information surrounding the incident.
 All participants will be anonymised in the summary report, referred to as "Community Member 1", "Community Member 2", or "Research Team Member 1".
 The "de-anonymising key" will be kept in a separate file and only accessed to link repeated reports against the same person over time.
 
-The ELIXIR Code of Conduct Oversight Committee  will aim to have a resolution agreed upon within one week.
-In the event that a resolution can't be determined in that time, a member of the CoC Oversight committee will respond to the reporter(s) with an update and projected timeline for resolution.
+The RDM CoC group will aim to have a resolution agreed upon within one week.
+In the event that a resolution can't be determined in that time, a member of the RDM CoC group will respond to the reporter(s) with an update and projected timeline for resolution.
 
 ### 4.4 Resolutions
 
-The ELIXIR Code of Conduct Oversight Committee  will seek to agree on a resolution by consensus of all members investigating the report in question.
-If the committee cannot reach consensus and deadlocks for over a week, Niklas Blomberg, as Director of ELIXIR, will break the tie.
-If Dr Blomberg is unable to take part in the discussion due to a conflict of interest, Susanna Rep, as an external member of the ELIXIR Code of Conduct Oversight committee, will make the decision.
+The RDM CoC group will seek to agree on a resolution by consensus of all members investigating the report in question.
+If the committee cannot reach consensus within a week, Niklas Blomberg, as Director of ELIXIR, will decide on an appropriate resolution.
 
 Possible responses may include:
 
@@ -190,7 +175,7 @@ Possible responses may include:
 * A private in-person conversation between a member of the research team and the individual(s) involved.
   In this case, the person who has the conversation will provide a written summary for record keeping.
 * A private written reprimand from a member of the research team to the individual(s) involved.
-  In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing the ELIXIR Code of Conduct Oversight committee for record keeping.
+  In this case, the research team member will deliver that reprimand to the individual(s) over email, cc'ing the RDM CoC group for record keeping.
 * A public announcement of an incident, ideally in the same venue that the violation occurred (i.e. on the listserv for a listserv violation; GitHub for a GitHub violation, etc.).
   The committee may choose to publish this message elsewhere for posterity.
 * An imposed "time out" from online spaces.
@@ -199,13 +184,9 @@ Possible responses may include:
   The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
   If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
 
-Once a resolution is agreed upon, but before it is enacted, a member of the CoC Oversight committee will contact the original reporter and any other affected parties and explain the proposed resolution.
-The CoC Oversight committee member will ask if this resolution is acceptable, and must note feedback for the record.
-However, the CoC Oversight committee is not required to act on this feedback.
-
-### 4.5 Conflicts of Interest
-
-In the event of any conflict of interest such that Dr Blomberg is not able to evaluate or enforce the reported violation, Susanna Repo will take Niklas Blombergs's place. 
+Once a resolution is agreed upon, but before it is enacted, a member of the RDM CoC group will contact the original reporter and any other affected parties and explain the proposed resolution.
+The RDM CoC group will ask if this resolution is acceptable, and must note feedback for the record.
+However, the RDM CoC group is not required to act on this feedback.
 
 ## 5 Acknowledgements
 
@@ -220,6 +201,6 @@ Citizen Lab based their Code of Conduct on the [xvzf Code of Conduct](http://xvz
 
 This code of conduct is aligned with the [ELIXIR Code of Conduct for events](https://elixir-europe.org/events/code-of-conduct).
 
-We really appreciate the work that all of the communities linked above have put into creating such a well considered process.
+We really appreciate the work that all of the communities linked to above have put into creating such a well-considered process.
 
 This Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0 CA) license which means you are free to share and adapt the work so long as the attribution to Kirstie Whitaker and the Turing Way community is retained, along with the attribution to the Carpentries, the Alan Turing Institute Data Study Group organising team, Citizen Lab and the other resources.

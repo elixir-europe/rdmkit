@@ -1,11 +1,4 @@
 Tools:
-- description: The Automatable Discovery and Access Matrix (ADA-M) provides a standardized
-    way to unambiguously represent the conditions related to data discovery and access.
-  link: https://github.com/ga4gh/ADA-M
-  name: ADA-M
-  tags:
-  - IT support
-  - data manager
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
     at providing practical know-how for responsible research.
   link: https://www.bbmri-eric.eu/elsi/knowledge-base/
@@ -158,7 +151,9 @@ Tools:
   link: https://dawid.elixir-luxembourg.org/
   name: DAWID
   tags:
+  - data protection
   - policy officer
+  - human data
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   link: https://www.ncbi.nlm.nih.gov/gap/
@@ -283,6 +278,13 @@ Tools:
   - data publication
   - researcher
   - data manager
+- description: "EMBL-EBI\u2019s web portal for finding ontologies"
+  link: https://www.ebi.ac.uk/ols/index
+  name: EMBL-EBI Ontology Lookup Service
+  tags:
+  - metadata
+  - data manager
+  - researcher
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: http://www.ensembl.org/index.html
@@ -483,6 +485,13 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Web portal for finding ontologies
+  link: https://lov.linkeddata.es/dataset/lov/
+  name: Linked Open Vocabularies (LOV)
+  tags:
+  - metadata
+  - data manager
+  - researcher
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
@@ -541,6 +550,13 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: A web portal to search and visualise ontologies
+  link: http://www.ontobee.org
+  name: Ontobee
+  tags:
+  - metadata
+  - data manager
+  - researcher
 - description: OntoMaton facilitates ontology search and tagging functionalities within
     Google Spreadsheets.
   link: https://github.com/ISA-tools/OntoMaton
@@ -612,6 +628,13 @@ Tools:
   tags:
   - data analysis
   - IT support
+  - researcher
+- description: Web portal for finding ontologies
+  link: https://schemapedia.com
+  name: Schemapedia
+  tags:
+  - metadata
+  - data manager
   - researcher
 - description: List of respositories recommended by Scinetific Data, contains both
     discipline-specific and general repositories.
@@ -685,6 +708,16 @@ Tools:
   - IT support
   - policy officer
   - human data
+- description: Collaborative effort to develob interoperable ontologies for the biological
+    sciences
+  link: http://obofoundry.org
+  name: The Open Biological and Biomedical Ontology (OBO) Foundry
+  registry:
+    fairsharing: biodbcore-001083
+  tags:
+  - metadata
+  - data manager
+  - researcher
 - description: A list of Ethical, Legal, and Societal Implications (ELSI) to consider
     for research projects on human subjects
   link: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
@@ -700,6 +733,10 @@ Tools:
   registry:
     fairsharing: s1ne3g
     tess: UniProt
+  tags:
+  - metadata
+  - researcher
+  - IDP
 - description: Minimum Information About Disorder Experiments (MIADE) standard
   link: http://www.psidev.info/intrinsically-disordered-proteins-workgroup
   name: MIADE
@@ -742,3 +779,26 @@ Tools:
   tags:
   - IDP
   - metadata
+- description: A database of protein disorder and mobility annotations
+  link: https://mobidb.org/
+  name: MobiDB
+  registry:
+    biotools: mobidb
+  tags:
+  - IDP
+  - researcher
+- description: Structure integration with function, taxonomy and sequence
+  link: https://www.ebi.ac.uk/pdbe/docs/sifts/
+  name: SIFTS
+  tags:
+  - researcher
+  - IDP
+- description: The Protein Data Bank (PDB)
+  link: http://www.pdb.org
+  name: PDB
+  registry:
+    biotools: pdb
+    tess: PDB
+  tags:
+  - researcher
+  - IDP
