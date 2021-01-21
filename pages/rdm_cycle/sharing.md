@@ -26,7 +26,7 @@ Even though it may not be possible to openly share all data because of ethical, 
   - For collaborative projects use repositories and sharing services which allow controlled access to share your preliminary data with project partners. 
   - Consider depositing your data to a public repository as early as possible. This saves a lot of trouble later on. Data can be put under embargo until you want to release it, e.g. at the time of article publication.
 * Making the data as FAIR as possible will ensure that the most value can be made out of it in the future.
-  - The easiest way to make data FAIR is to deposit it in a publicly accessible recognised repository.
+  - The easiest way to make data more FAIR is to deposit it in a publicly accessible recognised repository.
   - If there are Discipline-specific repositories available for you data, this should be your primary choice. They will work towards a high level of FAIRness by recommending appropriate community standards for describing the data. 
   - If there are no suitable Discipline-specific repositories for your data:
     - Deposit the data in an _Institutional repository_, if there is one. These often provide stewardship and curation, helping to ensure that your dataset is preserved and accessible. Contact the Research Data Office function at your institution, if there is one.
@@ -45,7 +45,7 @@ Even though it may not be possible to openly share all data because of ethical, 
 {% include pagelist.html tag="share" %}
 
 
-## Available training material
+## Where can training materials and events about Data Sharing be found?
 
 {% include tess.html search="Data Sharing" %}
 
