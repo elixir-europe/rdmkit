@@ -15,15 +15,15 @@ Short explanation of why people should do / be aware of this stage. Advantages a
 List and explain all aspects that need to be taken into account to manage this "stage" according to best practices and FAIR principles.
 * Bullet point considerations
 
+## Problems to be addressed at this stage
+* Bullet point list of Your Problem pages in this website that are connected to this lifecycle stage made with:
+
+{% include pagelist.html tag="stage tag" %} <!-- e.g. {% include pagelist.html tag="analyse" %} -->
+
 ## Where can training materials and events about "Data + Stage Name" be found? <!-- Edit this heading (e.g. Where can training materials and events about Data Analysis be found?) and write your text below it -->
 Link to TESS page filtered by adequate keyword(s) done by:
 
 {% include tess.html search="keyword" %} <!-- e.g. {% include tess.html search="Data Analysis" %} -->
-
-## Related topics
-* Bullet point list of Your Problem pages in this website that are connected to this lifecycle stage made with:
-
-{% include pagelist.html tag="stage tag" %} <!-- e.g. {% include pagelist.html tag="analyse" %} -->
 
 ## External links <!-- Put this heading between the symbols used for this sentence if you don't use this paragraph -->
 (Optional section)
