@@ -45,7 +45,7 @@ The main reasons for research data preservation are:
 * If you need to preserve non-digital data (e.g. paper), consider whether digitalising the data is feasible or consult with data management support services in your institution.
 * If you need to preserve materials, such as micro-organisms, biomaterials or biomolecules, consult with data management support services in your institution to find appropriate centers or biobanks.
 
-## Problems to be addressed in this stage
+## Problems to be addressed at this stage
 
 {% include pagelist.html tag="preserve" %}
 
