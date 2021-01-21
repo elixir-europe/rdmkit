@@ -26,7 +26,7 @@ Data processing is important to ensure good quality of the collected data and to
 The following considerations are important for data processing:
 
 * Sensitive data should be Pseudonymised/anonymised. Not only should you remove the directly identifying data, but also be attentive to other sources e.g. names written on images.
-* Appropriate standards for encoding different data fields should be used
+* Appropriate standards for encoding different data fields should be used.
 * All steps of anonymisation and encoding should be properly documented, For e.g.
     * The chosen encoding formats used for data fieds should be documented.
     * The special significance of empty or otherwise special data fields.
