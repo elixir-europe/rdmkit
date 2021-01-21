@@ -22,7 +22,7 @@ For problems that are fully domain-specific, a detailed description is merited.
 For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges. --->
 
 ### Considerations <!--- (Optional) --->
-<!---  Direct and concise considerations, structured in bullet points and typically framed as questions the Toolkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
+<!---  Direct and concise considerations, structured in bullet points and typically framed as questions RDMKit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
 
 
 ### Solutions

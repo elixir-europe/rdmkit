@@ -1,5 +1,5 @@
 ---
-title: "Research Data Management Toolkit"
+title: "Research Data Management Kit"
 hide_sidebar: true
 style: home
 toc: false

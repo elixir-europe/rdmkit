@@ -21,15 +21,13 @@ To make clear what is expected, we ask all members of the community to conform t
   - [2.4 Feedback](#24-feedback)
 - [3 Incident Reporting Guidelines](#3-incident-reporting-guidelines)
   - [3.1 Contact points](#31-contact-points)
-  - [3.2 Alternate contact points](#32-alternate-contact-points)
-  - [3.3 What to do if someone is in physical danger](#33-what-to-do-if-someone-is-in-physical-danger)
-  - [3.4 Code of Conduct Enforcement](#34-code-of-conduct-enforcement)
+  - [3.2 What to do if someone is in physical danger](#32-what-to-do-if-someone-is-in-physical-danger)
+  - [3.3 Code of Conduct Enforcement](#33-code-of-conduct-enforcement)
 - [4 Enforcement Manual](#4-enforcement-manual)
-  - [4.1 The Code of Conduct Oversight Committee](#41-the-code-of-conduct-oversight-committee)
+  - [4.1 The RDM Code of Conduct Group](#41-the-rdm-code-of-conduct-group)
   - [4.2 Urgent Situations: Acting Unilaterally](#42-urgent-situations-acting-unilaterally)
   - [4.3 Less-Urgent Situations](#43-less-urgent-situations)
   - [4.4 Resolutions](#44-resolutions)
-  - [4.5 Conflicts of Interest](#45-conflicts-of-interest)
 - [5 Acknowledgements](#5-acknowledgements)
 
 ## 1 Introduction

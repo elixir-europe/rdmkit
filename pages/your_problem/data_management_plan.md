@@ -61,7 +61,7 @@ However, we a number of web-based DMP tools are currently available and greatly 
 A DMP should address a broad range of data management aspects, regardless of template. It is important to be aware of the current best practices in DMPs before starting one.
 
 #### Solutions
-* This toolkit includes best practices and guidelines about different aspects of research data management that should be contemplated in a Data Management plan:
+* RDMKit includes best practices and guidelines about different aspects of research data management that should be contemplated in a Data Management plan:
   * Find and reuse existing data: [Collecting](collecting), [Reusing](reusing).
   * File format
   * Data volume

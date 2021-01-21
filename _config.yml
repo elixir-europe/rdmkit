@@ -7,7 +7,7 @@ output: web
 topnav_title: RDMKit
 # this appears on the top navigation bar next to the home button
 
-site_title: ELIXIR Data Management Toolkit
+site_title: RDMKit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ELIXIR Converge
@@ -15,6 +15,9 @@ company_name: ELIXIR Converge
 
 github_editme_path: elixir-europe/rdm-toolkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+description: "Research Data Management Kit"
+# Metadata description of the website
 
 host: 127.0.0.1
 # the preview server used. Leave as is.
@@ -70,7 +73,6 @@ sidebars:
 - main
 - contribute
 
-description: "ELIXIR Data Management Toolkit"
 
 RDM_pages: ["/reusing.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
 
