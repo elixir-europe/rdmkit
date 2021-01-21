@@ -32,7 +32,7 @@ Consider the following, while collecting data
 * Identify suitable metadata standards
 
 
-## Problems to be addressed in this stage
+## Problems to be addressed at this stage
 
 {% include pagelist.html tag="collect" %}
 
@@ -42,8 +42,4 @@ Consider the following, while collecting data
 {% include tess.html search="Data Collection" %}
 
 
-<!-- * Managing files and file naming
-* Data quality
-
-
-## External links -->
+<!-- ## External links -->
