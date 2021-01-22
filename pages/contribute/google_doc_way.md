@@ -7,7 +7,7 @@ toc: false
 
 ## Contribution process
 
-The toolkit is hosted on Github. We understand, however, that many people may be unfamiliar or inexperienced with git. We therefore provide the Google doc option for contributing.
+RDMKit is hosted on Github. We understand, however, that many people may be unfamiliar or inexperienced with git. We therefore provide the Google doc option for contributing.
 
 The steps are as follows:
 * Email the editorial team at [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org) to propose a new page or a new section in an existing page. Make sure you keep other contributors in the CC of your email. The editors will create an issue in our GitHub repository to announce your contribution to others.  

@@ -22,7 +22,7 @@ For problems that are fully domain-specific, a detailed description is merited.
 For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges. --->
 
 ### Considerations <!--- (Optional) --->
-<!---  Direct and concise considerations, structured in bullet points and typically framed as questions the Toolkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
+<!---  Direct and concise considerations, structured in bullet points and typically framed as questions RDMKit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
 
 
 ### Solutions
@@ -33,6 +33,6 @@ For detailing the domain-specific challenges of a problem that is generic, pleas
 ...
 
 ## Relevant Tools & Resources 
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
+<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
 
 {% include toollist.html tag="<!---TAG--->" %}
