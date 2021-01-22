@@ -18,6 +18,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Capitals:** do not use all capitals for emphasis or in headings.
   * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
   * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations).
+  * **Datasets:** not "data sets". 
   * **Email:** not "e-mail".
   * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
   * **Gender:** avoid using gender-specific words like "he" or "she".
@@ -58,7 +59,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
 
-## Naming of files, tags and navigation titles
+## Naming of files, tags, keywords, and navigation titles
 
 * **Markdown file names:**
   * Do not contain spaces or special characters like &, %, #, (, ), è, é, ê, ë, ...
@@ -68,6 +69,9 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Do not contain special characters like &, %, #, (, ), è, é, ê, ë, ...
   * Are lowercase, except for acronyms.
   * Are short if possible, but distinguishable from existing tags.
+  * Can contain spaces.
+*  **Keywords:**
+  * Are lowercase.
   * Can contain spaces.
 * **Titles in the navigation side panel:**
   * Have each word capitalized.
