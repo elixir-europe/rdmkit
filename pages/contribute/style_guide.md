@@ -71,7 +71,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Are lowercase, except for acronyms.
   * Are short if possible, but distinguishable from existing tags.
   * Can contain spaces.
-*  **Keywords:**
+* **Keywords:**
   * Are lowercase.
   * Can contain spaces.
 * **Titles in the navigation side panel:**
