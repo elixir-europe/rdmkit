@@ -449,6 +449,7 @@ ul li::marker {
 .flexbox {
     display: flex;
     flex-direction: column;
+    margin-bottom: 250px;
 }
 
 .flexbox h2, .child-box a {
@@ -969,10 +970,6 @@ span.projectTitle {
     line-height: 24px;
     color: var(--white-text);
     margin-top: 80px;
-}
-
-.home.site-footer {
-    margin-top: 250px;
 }
 
 .site-footer .company-image {
