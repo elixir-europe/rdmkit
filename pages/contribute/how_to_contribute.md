@@ -24,7 +24,7 @@ When writing for this website keep in mind the following:
 
 ## Attribution of the contributors
 
-Contributors will be shown at the bottom of the page if listed in the metadata of the markdown. All contributors will also be listed in the carousel on the landing page. If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
+Contributors will be shown at the bottom of the page if listed in the metadata of the markdown. All contributors will also be displayed in the carousel on the landing page. If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
 ## Making a quick suggestion
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-yfGjAdusicjzdmzrfmUOcrfszhaZEk24igCeVwMllKzxsw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="width: 100%;" class="mt-1">Loading…</iframe>
