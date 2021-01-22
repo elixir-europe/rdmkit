@@ -1,7 +1,7 @@
 ---
 title: Researcher
-keywords: [data management, researcher, training, getting started] 
-contributors: [Erik Hjerde, Siiri Fuchs, Federico Bianchini,  Mijke Jetten]
+keywords: [data management, researcher, training, getting started]
+contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez, Wolmar Nyberg Akerstrom, Alexia Cardona]
 ---
 
 ## Applies to
@@ -23,11 +23,10 @@ I know the types and the approximate amount of data I will generate, but I have 
 
 ## Getting started
 
-* Check out the various steps of the [RDM life cycle](https://rdm.elixir-europe.org/index.html), in particular the [planning](planning) stage
-
+* Check out the various steps of the [RDM life cycle](index), in particular the [planning](planning) stage
 * Identify and contact the data steward in your local organisation or your national contact in the [ELIXIR](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators) network
 * Use local guidelines associated with the national or institutional DMP application and/or follow an introductory [training](https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials)
-* Start planning your project taking the [DMP](https://rdm.elixir-europe.org/data_management_plan.html) into account 
+* Start planning your project taking the [DMP](data_management_plan) into account 
 
 ## Common issues
 
@@ -42,10 +41,6 @@ Some common issues and solutions that researchers run into are listed here:
 * What metadata and community standards do I need to [capture](collecting) to enable FAIR-publi*shing in public repositories?
 * What are the data retention policies for [my country](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)?
 
-
-## Related topics
-
-{% include pagelist.html tag="researcher" %}
 
 ## Relevant tools and resources
 
