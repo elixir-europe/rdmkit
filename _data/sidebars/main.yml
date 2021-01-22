@@ -13,9 +13,7 @@ subitems:
       - title: Data Steward Research
         url: /data_steward_research.html
       - title: Data Steward Infrastructure
-        url: /data_steward_IT.html
-
-
+        url: /data_steward_infrastructure.html
   - title: Your Domain
     subitems:
       - title: Plant Sciences
