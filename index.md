@@ -1,5 +1,5 @@
 ---
-title: "Research Data Management Kit"
+title: "ELIXIR Research Data Management Kit"
 hide_sidebar: true
 style: home
 toc: false

@@ -16,7 +16,7 @@ company_name: ELIXIR Converge
 github_editme_path: elixir-europe/rdm-toolkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-description: "Research Data Management Kit"
+description: "ELIXIR Research Data Management Kit"
 # Metadata description of the website
 
 host: 127.0.0.1

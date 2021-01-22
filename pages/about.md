@@ -4,7 +4,7 @@ toc: false
 ---
 
 ## Who is the RDMKit for?
-The Research Data Management Kit (RDMKit) has been designed to guide life scientists in their efforts to better manage their research data. It is based on the various steps of the data lifecycle, although not all the steps will be relevant to everyone. RDMKit can be navigated via ‘role’, ‘domain’, ‘examples’ and ‘problems’. The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project.
+The ELIXIR Research Data Management Kit (RDMKit) has been designed to guide life scientists in their efforts to better manage their research data. It is based on the various steps of the data lifecycle, although not all the steps will be relevant to everyone. RDMKit can be navigated via ‘role’, ‘domain’, ‘examples’ and ‘problems’. The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project.
 
 ## What does the RDMKit aim to achieve?
 At the heart of FAIR Science lies good data management practice. This is increasingly important as life science research becomes data-intensive and traditional ‘wet labs’ make space for ‘dry (computer) labs’. More than ever, scientists need relevant tools and guidance to better manage their data and hence contribute to making FAIR Science a reality as well as help researchers be more productive for themselves and their collaborators.
@@ -21,7 +21,7 @@ RDMKit was developed with funding from the European Union’s Horizon 2020 Resea
 ## How to cite the RDMKit
 ELIXIR (2020) Research Data Management Kit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: https://rdm.elixir-europe.org
 
-The Research Data Management Kit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
+The ELIXIR Research Data Management Kit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 Software are made available under an [MIT license](https://opensource.org/licenses/mit-license.html).
 For full details on licensing, please visit https://github.com/elixir-europe/rdm-toolkit/blob/master/LICENSE
