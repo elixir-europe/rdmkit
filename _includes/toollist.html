@@ -31,7 +31,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
         {%- for tool in main_tags %}
         <tr>
             {% if tool.link %}
-            <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
+            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
             {%- else %}
             <td>{{tool.name}}</td>
             {%- endif %}
@@ -55,17 +55,17 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             {%- if tool.registry.biotools %}
             <a data-toggle="tooltip"
                 data-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
-                class="no_icon"><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
+                class=""><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
             {%- endif %}
             {%- if tool.registry.fairsharing %}
             <a data-toggle="tooltip"
                 data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
-                class="no_icon"><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
+                class=""><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
             {%- endif %}
             {%- if tool.registry.tess %}
             <a data-toggle="tooltip"
                 data-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
-                class="no_icon"><img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/></a>
+                class=""><img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/></a>
             {%- endif %}
             </td> 
         </tr>

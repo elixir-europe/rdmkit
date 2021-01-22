@@ -169,29 +169,29 @@ Make sure that you add the image to the `images` directory and give it an unders
 
 ## Icons
 
-Go to the [Font Awesome library](https://fontawesome.com/v4.7.0/icons/) to see the available icons.
+Go to the [Font Awesome library](https://fontawesome.com/) to see the available icons.
 
 The Font Awesome icons allow you to adjust their size by simply adding `fa-2x`, `fa-3x` and so forth as a class to the icon to adjust their size to two times or three times the original size. As vector icons, they scale crisply at any size.
 
 Here's an example of how to scale up a camera icon:
 
 ```html
-<i class="fa fa-camera-retro"></i> normal size (1x)
-<i class="fa fa-camera-retro fa-lg"></i> fa-lg
-<i class="fa fa-camera-retro fa-2x"></i> fa-2x
-<i class="fa fa-camera-retro fa-3x"></i> fa-3x
-<i class="fa fa-camera-retro fa-4x"></i> fa-4x
-<i class="fa fa-camera-retro fa-5x"></i> fa-5x
+<i class="fas fa-camera-retro"></i> normal size (1x)
+<i class="fas fa-camera-retro fa-lg"></i> fa-lg
+<i class="fas fa-camera-retro fa-2x"></i> fa-2x
+<i class="fas fa-camera-retro fa-3x"></i> fa-3x
+<i class="fas fa-camera-retro fa-4x"></i> fa-4x
+<i class="fas fa-camera-retro fa-5x"></i> fa-5x
 ```
 
 Here's what they render to:
 
-<i class="fa fa-camera-retro"></i> 1x
-<i class="fa fa-camera-retro fa-lg"></i> fa-lg
-<i class="fa fa-camera-retro fa-2x"></i> fa-2x
-<i class="fa fa-camera-retro fa-3x"></i> fa-3x
-<i class="fa fa-camera-retro fa-4x"></i> fa-4x
-<i class="fa fa-camera-retro fa-5x"></i> fa-5x
+<i class="fas fa-camera-retro"></i> 1x
+<i class="fas fa-camera-retro fa-lg"></i> fa-lg
+<i class="fas fa-camera-retro fa-2x"></i> fa-2x
+<i class="fas fa-camera-retro fa-3x"></i> fa-3x
+<i class="fas fa-camera-retro fa-4x"></i> fa-4x
+<i class="fas fa-camera-retro fa-5x"></i> fa-5x
 
 ## Links
 

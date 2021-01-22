@@ -8,11 +8,11 @@
     {%- for folder in sidebar.subitems -%}
     {%- if folder.title != "Data Life Cycle" and folder.title != "All Tools and Resources" ] %}
     <div>
-        <h2 class="button no_anchor accordion">{{folder.title}}</h2>
+        <h2 class="button accordion no-anchor">{{folder.title}}</h2>
         <ul class="child-box accordion-panel">
-        {%- for folderitem in folder.subitems -%}
+        {%- for folderitem in folder.subitems %}
         <li><a href="{{folderitem.url | remove: "/"  }}">{{folderitem.title}}</a></li>
-        {% endfor -%}
+        {%- endfor %}
         </ul>
     </div>
     {% endif -%}

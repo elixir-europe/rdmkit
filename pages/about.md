@@ -25,3 +25,9 @@ The ELIXIR Data Management toolkit makes all of their materials publicly availab
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 Software are made available under an [MIT license](https://opensource.org/licenses/mit-license.html).
 For full details on licensing, please visit https://github.com/elixir-europe/rdm-toolkit/blob/master/LICENSE
+
+
+## The editors of RDMKit
+
+
+{% include contributor-carousel.html custom="Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Mijke Jetten, Munazah Andrabi, Niclas Jareborg, Pinar Alper, Rob Hooft, Ulrike Wittig, Laura Portell Silva, Martin Cook"%}
