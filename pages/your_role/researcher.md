@@ -1,13 +1,8 @@
 ---
 title: Researcher
 keywords: [data management, researcher, training, getting started] 
-
-<!--summary: Fill in your summary or delete this property when not needed-->
 contributors: [Erik Hjerde, Siiri Fuchs, Federico Bianchini,  Mijke Jetten]
-search: exclude
 ---
-
-<!--{% include note.html content="This page is under construction." %}-->
 
 ## Applies to
 PhD candidates, research grant applicants, project managers, group leaders, PIs
@@ -28,7 +23,7 @@ I know the types and the approximate amount of data I will generate, but I have 
 
 ## Getting started
 
-* Check out the various steps of the [RDM life cycle](https://rdm.elixir-europe.org/index.html), in particular the [planning](https://rdm.elixir-europe.org/planning) stage
+* Check out the various steps of the [RDM life cycle](https://rdm.elixir-europe.org/index.html), in particular the [planning](planning) stage
 
 * Identify and contact the data steward in your local organisation or your national contact in the [ELIXIR](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators) network
 * Use local guidelines associated with the national or institutional DMP application and/or follow an introductory [training](https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials)
@@ -37,14 +32,14 @@ I know the types and the approximate amount of data I will generate, but I have 
 ## Common issues
 
 Some common issues and solutions that researchers run into are listed here:
-* How do I know if my data is [sensitive](data_classification) and how to ensure [data protection](https://rdm.elixir-europe.org/data_protection.html) and [compliance](https://rdm.elixir-europe.org/compliance_monitoring.html)?
-* What are suitable resources for data computation and [storage](https://rdm.elixir-europe.org/storage.html) during the project, considering size of data and who has access rights?
-* How do I best capture the [processes](https://rdm.elixir-europe.org/data_analysis.html) involved in creating, processing and analysing my data?
-* What are best practices for [organising](https://rdm.elixir-europe.org/data_organisation.html) my data?
-* How can I ensure research [data quality](https://rdm.elixir-europe.org/data_quality.html)?
-* In which public repository should I [share](https://rdm.elixir-europe.org/sharing) and [publish](https://rdm.elixir-europe.org/data_publication.html) my data? 
-* How do I find appropriate standard [metadata](https://rdm.elixir-europe.org/metadata_management.html) for my data?
-* What metadata and community standards do I need to [capture](https://rdm.elixir-europe.org/collecting) to enable FAIR-publi*shing in public repositories?
+* How do I know if my data is [sensitive](data_classification) and how to ensure [data protection](data_protection) and [compliance](compliance_monitoring)?
+* What are suitable resources for data computation and [storage](storage) during the project, considering size of data and who has access rights?
+* How do I best capture the [processes](data_analysis) involved in creating, processing and analysing my data?
+* What are best practices for [organising](data_organisation) my data?
+* How can I ensure research [data quality](data_quality)?
+* In which public repository should I [share](sharing) and [publish](data_publication) my data? 
+* How do I find appropriate standard [metadata](metadata_management) for my data?
+* What metadata and community standards do I need to [capture](collecting) to enable FAIR-publi*shing in public repositories?
 * What are the data retention policies for [my country](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)?
 
 
