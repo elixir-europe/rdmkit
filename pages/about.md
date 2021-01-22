@@ -24,7 +24,7 @@ ELIXIR (2020) Research Data Management Kit. A deliverable from the EU-funded ELI
 The ELIXIR Research Data Management Kit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
 Software are made available under an [MIT license](https://opensource.org/licenses/mit-license.html).
-For full details on licensing, please visit https://github.com/elixir-europe/rdm-toolkit/blob/master/LICENSE
+For full details on licensing, please visit https://github.com/elixir-europe/rdmkit/blob/master/LICENSE
 
 
 ## The editors of RDMKit

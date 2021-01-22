@@ -13,13 +13,13 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
 - Make a fork of this repository, using the fork button.
 - Open a terminal and clone your fork using:
     ```
-    git clone git@github.com:USERNAME/rdm-toolkit.git
+    git clone git@github.com:USERNAME/rdmkit.git
     cd rdm-toolkit
     ```
-    NOTE: Make sure you clone the fork and not the original elixir-europe/rdm-toolkit one.
+    NOTE: Make sure you clone the fork and not the original elixir-europe/rdmkit one.
 - Keep your fork up to date (IMPORTANT!).
     ```
-    git remote add upstream https://github.com/elixir-europe/rdm-toolkit.git
+    git remote add upstream https://github.com/elixir-europe/rdmkit.git
     git fetch upstream
     git checkout master (if you are not already on the master branch, check with `git branch`)
     git pull upstream master
@@ -42,7 +42,7 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
     ```
     git push origin 'FEATURE_NAME'
     ```
-- Go to [https://github.com/elixir-europe/rdm-toolkit](https://github.com/elixir-europe/rdm-toolkit) and click on *Compare & pull request*
+- Go to [https://github.com/elixir-europe/rdmkit](https://github.com/elixir-europe/rdmkit) and click on *Compare & pull request*
 - Open the pull request an describe your changes.
 - Wait for review by other editors. Editors that are responsible for the sections you make changes to will be assigned as reviewer automatically.
 
@@ -52,7 +52,7 @@ The website is build on Github using Jekyll, a simple, static site generator bas
 
 1. Make sure you have cloned the rdm-toolkit repo
     ```
-    git clone git@github.com:USERNAME/rdm-toolkit.git
+    git clone git@github.com:USERNAME/rdmkit.git
     cd rdm-toolkit
     ```
 

@@ -1,5 +1,5 @@
 url: rdm.elixir-europe.org
-repository: https://github.com/elixir-europe/rdm-toolkit
+repository: https://github.com/elixir-europe/rdmkit
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -13,7 +13,7 @@ site_title: RDMKit
 company_name: ELIXIR Converge
 # this appears in the page_ending
 
-github_editme_path: elixir-europe/rdm-toolkit/blob/master/
+github_editme_path: elixir-europe/rdmkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 description: "ELIXIR Research Data Management Kit"

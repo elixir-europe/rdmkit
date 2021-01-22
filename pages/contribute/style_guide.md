@@ -58,4 +58,4 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     * Include an 'alt' attribute in images.
 
 ## How to suggest amendments or additions to this style guide
-[Open a new issue](https://github.com/elixir-europe/rdm-toolkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](https://rdm.elixir-europe.org/how_to_contribute.html).
+[Open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](https://rdm.elixir-europe.org/how_to_contribute.html).

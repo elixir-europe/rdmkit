@@ -17,7 +17,7 @@ This process is sketched below.
 
 ### Overview of the file structure in GitHub
 
-The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages) directory.
+The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdmkit/tree/master/pages) directory.
 These markdown files are divided over subdirectories (your_role, your_domain, your_problem...) for sorting reasons only.
 
 ### The metadata/frontmatter of the markdown file
@@ -68,7 +68,7 @@ With each PR or merge to the master, some checks are done using GitHub actions. 
 
 ## Label, discuss and assign issues
 
-  * Check open issues regularly or enable notifications by clicking the "WATCH" icon in the top-right side of the [GitHub repository](https://github.com/elixir-europe/rdm-toolkit/issues).
+  * Check open issues regularly or enable notifications by clicking the "WATCH" icon in the top-right side of the [GitHub repository](https://github.com/elixir-europe/rdmkit/issues).
   * Assign labels to issues.
   * Discuss who is going to be responsible for each issue with other editors and reviewers (via issue comments or other communication channels).
   * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
@@ -92,7 +92,7 @@ For more information about this topic please visit the [GitHub documentation pag
 ### Simple way: using the GitHub interface
 To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
 
-1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdm-toolkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
+1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
 
 2. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
@@ -166,7 +166,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 
 ## Linking the GitHub accounts to the contributors
 
-Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
+Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
 
 ```yaml
 Bert Droesbeke:

@@ -15,15 +15,15 @@ This guide tells you how you can easily request and edit a page on this website.
 -->
 
 ## Announce and discuss your proposal through GitHub "issues"
-1. Go to the [RDMKit repo](https://github.com/elixir-europe/rdm-toolkit){:target="_blank"} on Github.
+1. Go to the [RDMKit repo](https://github.com/elixir-europe/rdmkit){:target="_blank"} on Github.
 2. Click on "Issues" in the top menu bar and look at the existing issues. See if your idea or suggestion is already being discussed.
       * **If an issue exists**, add your comments. If you want to edit the content discussed, let people know through the comments.
       * **If no relevant issue exists**, create a new issue by clicking on the green "New issue" button on the right, and choose one of the issues templates. You can find more information on creating issues in the [Github documentation](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
       <!-- {% include image.html class="mt-0 mb-0" file="new_issue_github.png" inline=true alt="Open new issue on GitHub." %} -->
 3. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers in the "Leave a comment" box and click on the green "Comment" button on the right.
-4. You can always return to your opened issue by going to the [issues section](https://github.com/elixir-europe/rdm-toolkit/issues) of our Github repo.
+4. You can always return to your opened issue by going to the [issues section](https://github.com/elixir-europe/rdmkit/issues) of our Github repo.
 
-{% include tip.html content="You can also get to the [RDMKit pages](https://github.com/elixir-europe/rdm-toolkit) on Github using the 'GitHub' link in the header of this site" %}
+{% include tip.html content="You can also get to the [RDMKit pages](https://github.com/elixir-europe/rdmkit) on Github using the 'GitHub' link in the header of this site" %}
 
 ## Write your content and make a pull request
 
@@ -44,7 +44,7 @@ This guide tells you how you can easily request and edit a page on this website.
 8. In the description of your pull request you can link to the issue that relates to this change by typing a hashtag `#` and the correct issue number. Suggestions will appear. This way it is easy for the editors to link back the issue were this change might have been discussed beforehand.
     {% include image.html class="mt-0 mb-0" file="linking_issues_github.png" inline=true alt="Linking issues in a pull request on GitHub" %}
 
-9. You can return to your pull request by going to the [pull request section](https://github.com/elixir-europe/rdm-toolkit/pulls) of our Github repo.
+9. You can return to your pull request by going to the [pull request section](https://github.com/elixir-europe/rdmkit/pulls) of our Github repo.
 
 10. If you change your mind about anything in your pull request and the request is not closed, or if the editor tells you to edit your request during the review process, you have to:
     * Go to your pull request

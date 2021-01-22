@@ -4,7 +4,7 @@ Thank you very much for taking the time to contribute!
 
 ## Code of conduct 
 
-This project is governed by a [code of conduct] (https://github.com/elixir-europe/rdm-toolkit/blob/master/CODE_OF_CONDUCT.md). By participating you are expected to respect this code. You can report inappropriate behaviour to rdm-coc@elixir-europe.org. 
+This project is governed by a [code of conduct] (https://github.com/elixir-europe/rdmkit/blob/master/CODE_OF_CONDUCT.md). By participating you are expected to respect this code. You can report inappropriate behaviour to rdm-coc@elixir-europe.org. 
 
 ## How to contribute 
 
