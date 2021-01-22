@@ -3,7 +3,7 @@
 {%- for name in include.contributors -%}, {% assign id = allcontributors[name].git | default: 'no_github' -%}
 <img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ name }}">
 {% if id != 'no_github' -%}
-<a class="no_icon" href="https://github.com/{{ id }}">
+<a href="https://github.com/{{ id }}">
 {% endif -%}
     {{ name }}
 {%- if id != 'no_github' -%}

@@ -2,6 +2,7 @@
 title: Code of Conduct
 sidebar: contribute
 search: exclude
+toc: false
 ---
 
 We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience.

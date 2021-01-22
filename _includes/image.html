@@ -3,9 +3,9 @@
 {{include.class}}
 {%- endif %}">
     {%- if {{include.url}} %}
-    <a class="no_icon" target="_blank" rel="noopener" href="{{include.url}}">
+    <a target="_blank" rel="noopener" href="{{include.url}}">
     {%- elsif {{include.click}} == true %}
-    <a class="no_icon" target="_blank" rel="noopener noreferrer" href="images/{{include.file}}">
+    <a target="_blank" rel="noopener noreferrer" href="images/{{include.file}}">
     {%- endif %}
     <img src="images/{{include.file}}" alt="{{include.alt}}" {% if {{include.max-width}} %}style="max-width: {{include.max-width}}em"{% endif %} />
     {%- if {{include.url}} or {{include.click}} == true %}

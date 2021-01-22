@@ -40,7 +40,7 @@ Even though it may not be possible to openly share all data because of ethical, 
 * Collaborative project partners need to agree on common data organisation, data formats and standards
 
 
-## Problems to be addressed in this stage
+## Problems to be addressed at this stage
 
 {% include pagelist.html tag="share" %}
 

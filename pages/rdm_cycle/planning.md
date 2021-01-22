@@ -43,7 +43,7 @@ progresses to match e.g. an update of the infrastructures, research softwares or
 * Explore best practices, guidelines, tools and resources for research data management described in this website.
 
 
-## Problems to be addressed in this stage
+## Problems to be addressed at this stage
 
 {% include pagelist.html tag="plan" %}
 
