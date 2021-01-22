@@ -4,17 +4,16 @@ search: exclude
 ---
 
 [
-{% for page in site.pages %}
-{% unless page.search == "exclude" %}
-{
-"title": "{{ page.title | escape }}",
-"tags": "{{ page.tags }}",
-"keywords": "{{page.keywords}}",
-"url": "{{ page.url | remove: "/"}}",
-"summary": "{{page.summary | strip }}"
-}
-{% unless forloop.last and site.posts.size < 1 %},{% endunless %}
-{% endunless %}
-{% endfor %}
-
+    {% for page in site.pages %}
+    {% unless page.search == "exclude" %}
+    {
+        "title"    : "{{ page.title | escape }}",
+        "tags"     : "{{ page.tags | join: ', ' }}",
+        "keywords": "{{page.keywords | join: ', '}}",
+        "summary": "{{page.summary | strip }}",
+        "url"      : "{{ page.url }}"
+    } 
+    {% unless forloop.last and site.posts.size < 1 %},{% endunless %}
+    {% endunless %}
+    {% endfor %}
 ]

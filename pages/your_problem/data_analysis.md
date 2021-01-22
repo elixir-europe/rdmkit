@@ -10,7 +10,7 @@ tags: [analyse, process, reuse, researcher, IT support]
 ### Description
 
 When carrying out your analysis, you should also keep in mind that all your data analysis has to be reproducible. This will complement your research data management approach since your data will be FAIR compliant but also your tools and analysis environments. In other words, you should be able to tell what data and what code or tools were used to generate your results.
-This will help to tackle reproducibility problems but also will improve the impact of your reseach through collaborations with scientists who will reproduce your in silico experiments. 
+This will help to tackle reproducibility problems but also will improve the impact of your research through collaborations with scientists who will reproduce your in silico experiments. 
 
 ### Considerations
 
