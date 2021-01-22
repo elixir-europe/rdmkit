@@ -37,15 +37,15 @@ I know the types and the approximate amount of data I will generate, but I have 
 ## Common issues
 
 Some common issues and solutions that researchers run into are listed here:
-* How do I know if my data is [sensitive](https://rdm.elixir-europe.org/data_classification.html) and how to ensure [data protection](https://rdm.elixir-europe.org/data_protection.html) and [compliance](https://rdm.elixir-europe.org/compliance_monitoring.html)?
+* How do I know if my data is [sensitive](data_classification) and how to ensure [data protection](https://rdm.elixir-europe.org/data_protection.html) and [compliance](https://rdm.elixir-europe.org/compliance_monitoring.html)?
 * What are suitable resources for data computation and [storage](https://rdm.elixir-europe.org/storage.html) during the project, considering size of data and who has access rights?
 * How do I best capture the [processes](https://rdm.elixir-europe.org/data_analysis.html) involved in creating, processing and analysing my data?
 * What are best practices for [organising](https://rdm.elixir-europe.org/data_organisation.html) my data?
-*How can I ensure research [data quality](https://rdm.elixir-europe.org/data_quality.html)?
-*In which public repository should I [share](https://rdm.elixir-europe.org/sharing) and [publish](https://rdm.elixir-europe.org/data_publication.html) my data? 
-*How do I find appropriate standard [metadata](https://rdm.elixir-europe.org/metadata_management.html) for my data?
-*What metadata and community standards do I need to [capture](https://rdm.elixir-europe.org/collecting) to enable FAIR-publi*shing in public repositories?
-*What are the data retention policies for [my country](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)?
+* How can I ensure research [data quality](https://rdm.elixir-europe.org/data_quality.html)?
+* In which public repository should I [share](https://rdm.elixir-europe.org/sharing) and [publish](https://rdm.elixir-europe.org/data_publication.html) my data? 
+* How do I find appropriate standard [metadata](https://rdm.elixir-europe.org/metadata_management.html) for my data?
+* What metadata and community standards do I need to [capture](https://rdm.elixir-europe.org/collecting) to enable FAIR-publi*shing in public repositories?
+* What are the data retention policies for [my country](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)?
 
 
 ## Related topics
