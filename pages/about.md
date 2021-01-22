@@ -27,8 +27,7 @@ Software are made available under an [MIT license](https://opensource.org/licens
 For full details on licensing, please visit https://github.com/elixir-europe/rdm-toolkit/blob/master/LICENSE
 
 
-## The editors of RDM Toolkit
+## The editors of RDMKit
 
-Some information about the editors.
 
-{% include contributor-carousel.html custom="Bert Droesbeke, Flora D'Anna, Carole Goble, Daniel Faria, Frederik Coppens, Martin Cook, Ulrike Wittig, Rob Hooft, Mijke Jetten, Niclas Jareborg, Munazah Andrabi"%}
+{% include contributor-carousel.html custom="Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Mijke Jetten, Munazah Andrabi, Niclas Jareborg, Pinar Alper, Rob Hooft, Ulrike Wittig, Laura Portell Silva, Martin Cook"%}
