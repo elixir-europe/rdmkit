@@ -28,7 +28,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **-ise/-ize:** use the "-ise" form.
   * **"Life cycle":** two separate words.
   * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
-  * **Lists:** every line of a list starts with a capital and ends with a point.
+  * **Lists:** every line of a list starts with a capital and ends with a full stop.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "<i>et al.</i>" for more than five authors.
@@ -37,6 +37,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
+  * **Titles:** Only the first word and acronyms are capitalised.
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
@@ -74,7 +75,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Are lowercase.
   * Can contain spaces.
 * **Titles in the navigation side panel:**
-  * Have each word capitalized.
+  * First word and acronyms capitalised.
   * Should contain the same words as the filename where this title points to. 
 
 ## How to suggest amendments or additions to this style guide
