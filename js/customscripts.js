@@ -85,26 +85,6 @@ $(document).ready(function () {
 });
 
 
-/*
-* Script to show/hide the buttons under the navigation tiles.
-*/
-window.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.button').forEach(function (item) {
-        // Show the tiles when the cursor hovers over the <h2 class="button">.
-        // Does not apply to touchscreen devices. The CSS just shows all the
-        // subelements by default for those devices.
-        item.addEventListener('mouseenter', function () {
-            item.classList.add("active-button");
-            item.nextElementSibling.classList.add("active-child-box");
-        });
-        // Hide the child boxes when the cursor leaves the wrapper <div>
-        item.parentElement.addEventListener('mouseleave', function () {
-            item.classList.remove("active-button");
-            item.nextElementSibling.classList.remove("active-child-box");
-        });
-    });
-});
-
 function external_new_window() {
     for (var c = document.getElementsByTagName("a"), a = 0; a < c.length; a++) {
         var b = c[a];
@@ -114,3 +94,31 @@ function external_new_window() {
         }
     }
 }
+
+
+/*
+* Dropdown boxes for the home page
+*/
+document.addEventListener('DOMContentLoaded', () => {
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panelWidth = $(this).innerWidth();
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        if ($(window).width() > 600) {
+          panel.style.maxHeight = "225px";
+          panel.style.overflowY = "scroll";
+          panel.style.width = panelWidth + "px";
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      }
+    });
+  }
+});
