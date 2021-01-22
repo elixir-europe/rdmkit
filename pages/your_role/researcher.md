@@ -23,11 +23,10 @@ I know the types and the approximate amount of data I will generate, but I have 
 
 ## Getting started
 
-* Check out the various steps of the [RDM life cycle](https://rdm.elixir-europe.org/index.html), in particular the [planning](planning) stage
-
+* Check out the various steps of the [RDM life cycle](index), in particular the [planning](planning) stage
 * Identify and contact the data steward in your local organisation or your national contact in the [ELIXIR](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators) network
 * Use local guidelines associated with the national or institutional DMP application and/or follow an introductory [training](https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials)
-* Start planning your project taking the [DMP](https://rdm.elixir-europe.org/data_management_plan.html) into account 
+* Start planning your project taking the [DMP](data_management_plan) into account 
 
 ## Common issues
 
