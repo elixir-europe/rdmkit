@@ -6,7 +6,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 
 ## Keywords
 
-institutional, coordinating, policy
+Institutional, coordinating, policy. Interacts with policy makers, managers, board of directors, financial and legal experts.
 
 ## Description
 
@@ -18,7 +18,7 @@ It is my job to coordinate and align efforts on the quality, security and manage
 
 * Advise, develop and monitor a research data management (RDM) policy institutionally or nationally
 * Ensure compliance of the RDM policy to codes of conduct and regulations, including ethical and legal compliance
-* Align the RDM policy to the FAIR (Findable, Accessible, Interoperable, Reusable) data principles and the principles of Open Science.
+* Align the RDM policy to the FAIR (Findable, Accessible, Interoperable, Reusable) data principles and the principles of Open Science
 * Organise RDM support into a set of services
 * Identify the requirements of adequate data-infrastructure for RDM to comply with the institute's RDM policy and alignment to (inter)national data-infrastructure and tools
 * Determine the adequate level of knowledge and skills on RDM
@@ -28,7 +28,7 @@ It is my job to coordinate and align efforts on the quality, security and manage
 ## Learning path
 
 Institutes across Europe have started hiring professional data stewards. A policy oriented data steward is expected to be competent in the following areas:
-* Develop, implement, monitor and evaluate policies regarding research data that are endorsed by researchers and aligned with internal and external stakeholders and effectuate change management.
+* Develop, implement, monitor and evaluate policies regarding research data that are endorsed by researchers and aligned with internal and external stakeholders and effectuate change management
 * Communicate about the FAIR data and Open Science principles to researchers, support staff and relevant stakeholders, thus creating awareness within institutes and organisations
 * Give advice on RDM and formats for data management plans (DMP) to a broad audience
 * Communicate about the RDM policy, explain implications and create awareness
