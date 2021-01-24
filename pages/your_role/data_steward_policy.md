@@ -45,6 +45,13 @@ If you want to become competent in these areas or build capacity in your institu
 * Data Carpentry [lessons](https://datacarpentry.org/lessons/)
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
+## Common issues
+
+* [Compliance monitoring & measurement](https://rdm.elixir-europe.org/compliance_monitoring.html) 
+* [Data classification](https://rdm.elixir-europe.org/data_classification.html)
+* [Data management plan](https://rdm.elixir-europe.org/data_management_plan.html)
+* [Licensing](https://rdm.elixir-europe.org/licensing.html)
+
 ## Resources
 
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
