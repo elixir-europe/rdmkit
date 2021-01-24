@@ -5,7 +5,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 ---
 
 ## Keywords
-Research, operational, supporting. Interacts primarily with researchers
+Research, operational, supporting. Interacts primarily with researchers.
 
 ## Description
 As a research data steward, I support and work in close collaboration with the main data producers and users in academia: the researchers, ranging from undergraduate students to full professors. I advise researchers, make sure data is handled in a manner compliant with the institute’s policy and may also perform hands-on work in a project. 
@@ -45,7 +45,7 @@ If you want to become competent in these areas or build capacity in your institu
 * [Data publication](https://rdm.elixir-europe.org/data_publication.html)
 * [Data quality](https://rdm.elixir-europe.org/data_quality.html)
 * [Data transfer](https://rdm.elixir-europe.org/data_transfer.html)
-* [Licencing](https://rdm.elixir-europe.org/licensing.html)
+* [Licensing](https://rdm.elixir-europe.org/licensing.html)
 * [Metadata management](https://rdm.elixir-europe.org/metadata_management.html)
 
 ## Resources
