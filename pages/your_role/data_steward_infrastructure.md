@@ -5,7 +5,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 ---
 
 ## Keywords
-Data infrastructure, IT operations, IT support. Interacts primarily with technicians and infrastructure experts
+Data infrastructure, IT operations, IT support. Interacts primarily with technicians and infrastructure experts.
 
 ## Description
 As a infrastructure data steward, I focus on liaising with the people involved in the IT infrastructure, technicians, application managers and other service providers inside and outside my research  institute. My task is to translate the requirements of policies and science into suitable IT solutions and tools as well as provide advice. I implement IT infrastructure solutions, give access to data and software, and I may also perform hands-on work in a research project. 
@@ -39,7 +39,6 @@ If you want to become competent in these areas or build capacity in your institu
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
 ## Common issues
-
 * [Data Analysis](https://rdm.elixir-europe.org/data_analysis.html)
 * [Data Organisation](https://rdm.elixir-europe.org/data_organisation.html)
 * [Data Transfer](https://rdm.elixir-europe.org/data_transfer.html)
