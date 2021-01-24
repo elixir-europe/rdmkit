@@ -6,14 +6,14 @@ subitems:
       - RDM: True
   - title: Your Role
     subitems:
-      - title: Data Steward Policy
-        url: /data_steward_policy.html
-      - title: Data Steward IT
-        url: /data_steward_IT.html
-      - title: Data Steward Research
-        url: /data_steward_research.html
       - title: Researcher
         url: /researcher.html
+      - title: Data Steward Policy
+        url: /data_steward_policy.html
+      - title: Data Steward Research
+        url: /data_steward_research.html
+      - title: Data Steward Infrastructure
+        url: /data_steward_infrastructure.html
   - title: Your Domain
     subitems:
       - title: Plant Sciences
