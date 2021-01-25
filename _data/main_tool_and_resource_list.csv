@@ -13,7 +13,7 @@ Conda,https://docs.conda.io/en/latest/,Open source package management systemn,,"
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data
 COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:COPO, fairsharing:biodbcore-001247","metadata, researcher, plants"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"researcher, data manager, IT support, plants"
-DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:DAISY,"IT support, policy officer, human data"
+DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:DAISY,"IT support, policy officer, human data, data protection"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"storage, researcher, data manager, IT support"
