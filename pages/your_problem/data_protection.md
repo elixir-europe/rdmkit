@@ -1,7 +1,7 @@
 ---
 title: Data Protection
 contributors: [Pinar Alper]
-keywords: [GDPR, ethics]
+keywords: [gdpr, ethics]
 tags: [plan, preserve, share]
 ---
 

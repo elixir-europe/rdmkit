@@ -1,7 +1,5 @@
 ---
 title: "Intrinsically Disordered Proteins"
-keywords: optional
-search: exclude
 contributors: [Ivan Mičetić]
 tags: [metadata]
 ---

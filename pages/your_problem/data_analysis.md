@@ -1,6 +1,5 @@
 ---
 title: Data Analysis
-keywords: optional
 contributors: [Olivier Collin]
 tags: [analyse, process, reuse, researcher, IT support]
 ---

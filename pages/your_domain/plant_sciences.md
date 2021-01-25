@@ -1,7 +1,5 @@
 ---
 title: "Plant Sciences"
-keywords: optional
-search: exclude
 contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
 tags: [metadata]
 ---

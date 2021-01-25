@@ -1,7 +1,5 @@
 ---
 title: "Marine Metagenomics"
-keywords: optional
-search: exclude
 contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
 tags: [metadata]
 ---
