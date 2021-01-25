@@ -449,7 +449,7 @@ ul li::marker {
 .flexbox {
     display: flex;
     flex-direction: column;
-    margin-bottom: 75px;
+    margin-bottom: 80px;
 }
 
 .flexbox h2, .child-box a {
