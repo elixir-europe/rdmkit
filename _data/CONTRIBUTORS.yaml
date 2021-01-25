@@ -78,7 +78,7 @@ Ivan Mičetić:
     orcid: 0000-0003-1691-8425
 Robert Andrews:
     git: robertmand
-    email: andrewsr9@cardiff.ac.uk 
+    email: andrewsr9@cardiff.ac.uk
     orcid: 0000-0002-3491-2361
 Minna Ahokas:
     git: minnami
@@ -111,7 +111,10 @@ Priit Adler:
 Gregoire Rossier:
     Email: gregoire.rossier@sib.swiss
     Orcid: 0000-0002-0065-5053
-Alexander Botzki: 
+Alexander Botzki:
     git: abotzki
     email: alexander.botzki@vib.be
     orcid: 0000-0001-6691-4233
+Martin Cook:
+    git: martin-nc
+    email: martin.cook@elixir-europe.org  
