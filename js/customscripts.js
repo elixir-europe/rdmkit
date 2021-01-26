@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         panel.style.maxHeight = null;
       } else {
         if ($(window).width() > 600) {
-          panel.style.maxHeight = "225px";
+          panel.style.maxHeight = "250px";
           panel.style.overflowY = "scroll";
           panel.style.width = panelWidth + "px";
         } else {
