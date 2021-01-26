@@ -1,10 +1,5 @@
 
 $(document).ready(function () {
-    // activate tooltips. although this is a bootstrap js function, it must be activated this way in your theme.
-    $('[data-toggle="tooltip"]').tooltip({
-        placement: 'top'
-    });
-
     /**
      * AnchorJS
      */
@@ -32,6 +27,11 @@ $(document).ready(function () {
     });
 
 });
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
 
 // Function to open external links in separate tab
 function external_new_window() {
