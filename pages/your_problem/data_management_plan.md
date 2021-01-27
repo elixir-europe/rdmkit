@@ -30,7 +30,7 @@ Moreover, there are ongoing efforts to develop templates for machine-actionable 
  
 ### Description
 DMPs can be written offline by using the downloaded template in a text document format.
-However, we a number of web-based DMP tools are currently available and greatly facilitate the process, as they usually contain several DMP templates and provide guidance in interpreting and answering the questions.
+However, a number of web-based DMP tools are currently available that greatly facilitate the process, as they usually contain several DMP templates and provide guidance in interpreting and answering the questions.
 
 ### Considerations
 
@@ -60,25 +60,25 @@ However, we a number of web-based DMP tools are currently available and greatly 
 ### Description
 A DMP should address a broad range of data management aspects, regardless of template. It is important to be aware of the current best practices in DMPs before starting one.
 
-#### Solutions
-* RDMKit includes best practices and guidelines about different aspects of research data management that should be contemplated in a Data Management plan:
+### Solutions
+* This toolkit includes best practices and guidelines about the different aspects of research data management that should be covered in a Data Management plan:
   * Find and reuse existing data: [Collecting](collecting), [Reusing](reusing).
   * File format
   * Data volume
-  * Data sharing
-  * Licences
+  * Data sharing: [Data Publication](data_publication)
+  * Licenses: [Licensing](licensing)
   * Metadata: [Metadata Management](metadata_management)
   * Ontology
   * Data documentation
-  * Data organisation
+  * Data organisation: [Data Organisation](data_organisation)
   * Identifiers
-  * Data quality
-  * Storage
+  * Data quality: [Data Quality](data_quality)
+  * Storage: [Storage](storage)
   * Security
   * Costs for data management, storage and sharing
   * Responsibilities
   * Ethical and legal issues
-* Consider the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) from the Research Data Alliance as a reference data model for organizing these topic.
+* Consider the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) from the Research Data Alliance as a reference data model for organizing these topics.
 
 ## Relevant tools and resources
 
