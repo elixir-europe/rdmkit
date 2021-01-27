@@ -53,6 +53,7 @@ There are well-established data anonymization approaches, such as k-anonymity, l
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="data classification" %}
+{% include toollist.html tag="data classification" %}  
+
 [Amnesia](https://amnesia.openaire.eu)
 
