@@ -1,25 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    {% include head.html %}
-    {%- if page.datatable == true %}
-    <!-- Include the standard DataTables bits -->
-    <link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css">
-    <script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="js/dataTables.bootstrap4.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
-            $('table.display').DataTable({
-                paging: true,
-                lengthMenu: [25, 50, 100, "all"],
-                stateSave: true,
-                searching: true
-            });
+{% include head.html %}
+{%- if page.datatable == true %}
+<!-- Include the standard DataTables bits -->
+<link rel="stylesheet" type="text/css" href="assets/css/dataTables.bootstrap5.min.css">
+<script type="text/javascript" charset="utf8" src="assets/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="assets/js/dataTables.bootstrap5.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+        $('table.display').DataTable({
+            paging: true,
+            lengthMenu: [25, 50, 100, "all"],
+            stateSave: true,
+            searching: true
         });
-    </script>
-    {%- endif %}
+    });
+</script>
+{%- endif %}
 </head>
 
 <body>
@@ -31,12 +30,12 @@
             <div class="row">
                 {% assign content_col_size = "col-md-12" %}{% unless page.hide_sidebar %}
                 <!-- Sidebar Column -->
-                <div class="col-md-3" id="tg-sb-sidebar">
+                <div class="col-md-3 container-menu">
                     {% include sidebar.html %}
                 </div>
                 {% assign content_col_size = "col-md-9" %}{% endunless %}
                 <!-- Content Column -->
-                <div class="{{content_col_size}}" id="tg-sb-content">
+                <div class="{{content_col_size}}">
                     {{content}}
                 </div>
             </div>

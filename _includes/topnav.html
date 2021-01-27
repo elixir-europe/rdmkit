@@ -1,87 +1,69 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container topnavlinks">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><span class="projectTitle"><img style="width: 70px; height: auto;" alt="ELIXIR logo" src="images/elixir_logo.svg"> {{site.topnav_title}}</span></a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- entries without drop-downs appear here -->
+<header>
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="projectTitle"><img style="width: 70px; height: auto;" alt="ELIXIR logo" src="images/elixir_logo.svg"> {{site.topnav_title}}</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <!-- navigation entries -->
                     {%- assign topnav = site.data[page.topnav] -%}
                     {%- assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns -%}
                     {%- for entry in topnav.topnav -%}
                     {%- for item in entry.items -%}
                     {%- if item.external_url -%}
-                    <li>
-                        <a href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
                     </li>
                     {% elsif page.url contains item.url %}
-                    <li class="active">
-                        <a href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="{{item.url | remove: "/"}}">{{item.title}}</a>
                     </li>
                     {% else %}
-                    <li>
-                        <a href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="{{item.url | remove: "/"}}">{{item.title}}</a>
                     </li>
                     {% endif %}
-                    {%- endfor -%}
-                    {%- endfor -%}
-                    <!-- entries with drop-downs appear here -->
-                    <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
-                    {%- for entry in topnav_dropdowns -%}
-                    {% for folder in entry.folders %}
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            {%- for folderitem in folder.folderitems -%}
-                            {%- if folderitem.external_url -%}
-                            <li>
-                                <a href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a>
-                            </li>
-                            {% elsif page.url contains folderitem.url %}
-                            <li class="dropdownActive">
-                                <a href="{{folderitem.url |  remove: "/"}}">{{folderitem.title}}</a>
-                            </li>
-                            {% else %}
-                            <li>
-                                <a href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a>
-                            </li>{% endif %}{% endfor %}
-                        </ul>
+                    {%- endfor %}
+                    {%- endfor %}
+                    <!--start Feedback button-->
+                    <li class="nav-item">
+                        {%- if site.feedback_text -%}
+                        {%- assign feedback_text = site.feedback_text -%}
+                        {%- else -%}
+                        {%- assign feedback_text = "Feedback" -%}
+                        {%- endif -%}
+                        {% if site.feedback_link %}
+                        <a class="nav-link" title="Submit feedback" href="{{site.feedback_link}}">{{feedback_text}}</a>
+                        {% else %}
+                        <a class="nav-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:{{site.feedback_email}}?subject={{site.feedback_subject_line}} feedback&body=I have some feedback about the {{page.title}} page: ' + window.location.href;"><i class="far fa-envelope"></i> {{feedback_text}}</a>
+                        {% endif %}
                     </li>
-                    {%- endfor -%}
-                    {%- endfor -%}
-{% if site.feedback_disable == null or site.feedback_disable == false %}
-{% include feedback.html %}
-{% endif %}
-                    <!--comment out this block if you want to hide search-->
-                    <li>
-                        <!--start search-->
-                        <div id="search-demo-container">
-                            <input type="text" id="search-input" placeholder="Search...">
+                    <!--start search-->
+                    <li class="nav-item">
+                        <form autocomplete="off" class="form-inline">
+                            <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
                             <ul id="results-container"></ul>
-                        </div>
-                        <script src="/js/simple-jekyll-search.min.js"></script>
-                        <script type="text/javascript">
-                            var sjs = SimpleJekyllSearch({
-                            searchInput: document.getElementById('search-input'),
-                            resultsContainer: document.getElementById('results-container'),
-                            json: '{{ "search.json" }}',
-                            searchResultTemplate: '<li><a href="{url}" title="{{page.title | escape }}">{title}</a></li>',
-                            noResultsText: 'No results found.',
-                            limit: 10
-                            })
-                        </script>
-                        <!--end search-->
+                            <script src="assets/js/simple-jekyll-search.min.js"></script>
+                            <script type="text/javascript">
+                                var sjs = SimpleJekyllSearch({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                json: '{{ "search.json" }}',
+                                searchResultTemplate: '<li><a href="{url}" title="{{page.title | escape }}">{title}</a></li>',
+                                noResultsText: '<li><a href=""">No results found...</a></li>',
+                                limit: 10
+                                })
+                            </script>
+                            
+                        </form>
                     </li>
+                    <!--end search-->
                 </ul>
             </div>
         </div>
         <!-- /.container -->
     </nav>
+</header>
