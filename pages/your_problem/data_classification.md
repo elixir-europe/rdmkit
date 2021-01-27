@@ -1,11 +1,15 @@
 ---
 title: Data Classification
 keywords: [human data, data sensitivity]
-contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper]
+contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund]
 tags: [share, collect, process, policy officer]
 ---
 
 ## Is my data sensitive?
+
+### Description
+
+Sensitive data is information that must be protected against unauthorised access. This can for example be personal or commercial information, but also information such as breeding grounds of endangered species. What is considered sensitive information is usually regulated by national laws and may differ between countries. You should be cautious when you are dealing with sensitive, or potentially sensitive, information.
 
 ### Considerations
 
@@ -18,12 +22,11 @@ tags: [share, collect, process, policy officer]
 * If there are no means to map the data back to individuals, then the data is considered anonymous and is out of the scope of the GDPR. 
 * You should keep in mind that anonymising data is a notoriously difficult task. Does your dataset contain a wide array of attributes, or exhibit unique traits/patterns such that one can reasonably expect that not more than a dozen people in the world have those together? In that case, you can not assume that it is anonymous. Such data run the risk of being linked back to individuals through various technical means. You need to take into account that technical means to identify people in the future may be more powerful than than they are right now: i.e. data that is anonymous right now may not be anonymous forever
 
-Finally; not all sensitive information is personal: information on e.g. breeding grounds of endangered species may be sensitive, but it is not personal information.
 
-### Things that can help you
+### Solutions
 
-* links to tools etc...
-* links to external help
+* Identify what legislations and regulations there are that you are expected to follow. Your institution's website may give you hints on where you can look for information about sensitive data.
+* If you cannot determine if your data is sensitive, contact someone with expert knowledge in that area.
 
 ## Relevant tools and resources
 
