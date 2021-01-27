@@ -8,7 +8,7 @@
     --blue-xxx-dark: #023452;
     --subtle-text: #666;
     --main-bg-color: white;
-    --light-grey: #efefef;
+    --light-grey: #ebeff1;
     --footer-bg: #3e3e3e;
     --hover-grey: #8D8D8D;
     --white-text: white;
@@ -102,7 +102,7 @@ code {
     padding: 2px 4px;
 }
 
-/*----- Top navigation-----  */
+/*-----Top navigation-----*/
 
 .navbar {
     margin-bottom: 40px;
@@ -132,7 +132,7 @@ li.nav-item.active a:hover {
     color: var(--white-text);
 }
 
-/*-----Search box top navigation -----*/
+/*-----Search box top navigation-----*/
 
 #search-input {
     width: 15em;
@@ -150,7 +150,7 @@ ul#results-container {
 /*-----Sidebar-----*/
 
 .container-menu .menu {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .container-menu li {
@@ -160,8 +160,9 @@ ul#results-container {
 .container-menu li a {
     margin-top: 4px;
     color: var(--main-text-color);
+    background-color: var(--light-grey);
     display: block;
-    padding: 10px 15px;
+    padding: 6px 11px;
     text-decoration: none;
     border-radius: 4px;
 }
@@ -176,17 +177,37 @@ ul#results-container {
 
 .container-menu .menu li a:hover, .container-menu .menu .active>a {
     background: var(--primary-theme-color);
-    color:var(--white-text)
-
+    color: var(--white-text);
 }
 
 .container-menu .menu ul li a {
-    padding-left: 40px;
+    padding-left: 30px;
+    background-color: transparent;
 }
 
-.container-menu .menu li ul {
+.container-menu .menu ul li a:hover, .container-menu .menu ul li.active a {
+    background-color: #f79d59;
+}
+
+.container-menu .menu ul {
     display: none;
-} 
+}
+
+/* RDM wheel in sidebar */
+
+.sidebar_rdm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+li ul .sidebar_rdm_sub {
+    border-color: #efefef;
+    padding: 14px 10px 10px 10px;
+    border-radius: 0px 0px 4px 4px;
+    border-style: none solid solid solid;
+    border-width: 0.2em;
+}
 
 /*-----Summary under page title-----*/
 
@@ -238,6 +259,22 @@ ul#results-container {
 
 #toc+p {
     margin-top: 1.75em;
+}
+
+/*-----Table properties-----*/
+
+.dataTables_wrapper {
+    margin: 40px 0 20px;
+}
+
+table>tbody>tr>th, table>tfoot>tr>th, table>thead>tr>td, table>tbody>tr>td, table>tfoot>tr>td {
+    padding: 8px 8px 8px 0px;
+    line-height: 1.42857143;
+    border-top: 1px solid var(--light-grey);
+}
+
+table>thead>tr>th {
+    border-bottom: 2px solid var(--light-grey);
 }
 
 /*-----Footer-----*/
