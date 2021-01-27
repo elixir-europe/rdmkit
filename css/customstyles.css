@@ -449,6 +449,7 @@ ul li::marker {
 .flexbox {
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
 }
 
 .flexbox h2, .child-box a {
@@ -519,6 +520,60 @@ svg {
     border-color: transparent;
 }
 
+/* New styles for the dropdown boxes */
+.flexbox > div {
+  position: relative;
+}
+
+.accordion:hover {
+  background-color: var(--blue-xx-dark);
+  background-color: var(--hover-grey);
+}
+
+.accordion.active {
+  background-color: var(--blue-xx-dark);
+  background-color: #e46d21;
+}
+
+.accordion-panel {
+  padding: 0;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 1em;
+  z-index: 100;
+}
+
+.active + .accordion-panel {
+  border: 1px solid #ddd;
+  border-width: 0 1px 1px;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.accordion-panel li {
+  margin: 5px 0 5px 10px;
+}
+
+.accordion::before {
+    content: '\002B';
+    font-size: 1.75em;
+    line-height: 0.75;
+    color: white;
+    float: left;
+    padding-right: 10px;
+    margin-left: -5px;
+}
+
+.accordion.active::before {
+    content: '\2212';
+}
+
+/* Desktop only */
+.child-box a:link {
+    margin: 0 10px 0 0;
+}
+
 /* For larger screens */
 
 @media only screen and (min-width: 500px) {
@@ -534,14 +589,12 @@ svg {
     .embed-responsive.embed-responsive-16by9.main_rdm {
       padding-bottom: 55%;
     }
-    .child-box {
-        opacity: 0;
-        transition: opacity .5s;
-        margin: 0 10px 0 0;
-    }
-    .active-child-box {
-        height: auto;
-        opacity: 1;
+
+    .accordion-panel {
+      position: absolute;
+      left: -20px;
+      margin-left: 20px;
+      box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
     }
 }
 
@@ -587,6 +640,8 @@ a.accordion-toggle, a.accordion-collapsed {
     text-decoration: none;
 }
 
+/* Contributors page level */
+
 .contributors-line {
     margin-top: 30px;
 }
@@ -596,6 +651,130 @@ a.accordion-toggle, a.accordion-collapsed {
     border-radius: 50%;
     margin: 0.25em;
 }
+
+/* Contributors carousel homepage */
+.contributors .carousel-item {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.carousel-item.active,
+.carousel-item.next{
+    display: flex;
+}
+
+.hall-of-fame-hero {
+    width: 18%;
+    background-color: var(--light-grey);
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.hall-of-fame-hero:hover {
+    background-color: var(--footer-bg);
+    color: var(--light-grey);
+}
+
+.item .hall-of-fame-hero .name {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.item .hall-of-fame-hero img{
+    border-radius: 50%;
+    width: 8em;
+}
+
+.social-icons {
+    padding-left: 0;
+    list-style: none;
+    align-items: center;
+    height: 4ex;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.social-icons a {
+    background-color: var(--main-bg-color);
+    color: var(--primary-theme-color);
+    font-size: 16px;
+    display: inline-block;
+    line-height: 4ex;
+    width: 4ex;
+    height: 4ex;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--main-bg-color)
+}
+
+.contributor-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin: 20px 0px;
+}
+
+@media (max-width: 992px) {
+    .item .hall-of-fame-hero .name {
+        font-size: 0.7em;
+        height: 22px;
+    }
+
+    .item .hall-of-fame-hero img{
+        width: 5em;
+    }
+    .social-icons a {
+        line-height: 3ex;
+        width: 3ex;
+        height: 3ex;
+    }
+    .social-icons {
+        height: 3ex;
+    }
+}
+
+@media (max-width: 600px) {
+    .item .hall-of-fame-hero img{
+        width: 4em;
+    }
+    .social-icons a {
+        line-height: 2.5ex;
+        width: 2.5ex;
+        height: 2.5ex;
+    }
+    .social-icons {
+        height: 2.5ex;
+    }
+}
+
+@media (max-width: 400px) {
+    .item .hall-of-fame-hero img{
+        width: 3em;
+    }
+    .social-icons a {
+        line-height: 2.5ex;
+        width: 2.5ex;
+        height: 2.5ex;
+        font-size: 12px;
+    }
+    .social-icons {
+        height: 2.5ex;
+    }
+}
+
 
 /* navgoco sidebar styles (customized) */
 
@@ -794,10 +973,6 @@ span.projectTitle {
     margin-top: 80px;
 }
 
-.home.site-footer {
-    margin-top: 0;
-}
-
 .site-footer .company-image {
     width: 120px;
     height: auto;
@@ -844,7 +1019,7 @@ span.projectTitle {
     .site-footer {
         padding-bottom: 0;
     }
-    .site-footer .copyright-text, .site-footer .social-icons {
+    .site-footer .copyright-text, .site-footer {
         text-align: right;
     }
 }
@@ -1280,6 +1455,8 @@ ul#mysidebar {
     border: 1px solid #dedede;
 }
 
+ /* no underline on anchor icons */
+
 *:hover>.anchorjs-link {
     transition: color .25s linear;
     text-decoration: none;
@@ -1291,29 +1468,6 @@ ul#mysidebar {
     padding: 10px;
 }
 
-/* this part adds an icon after external links, using FontAwesome*/
-
-a[href^="http://"]:after, a[href^="https://"]:after {
-    content: "\f08e";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
-    text-decoration: none;
-    padding-left: 3px;
-    font-size: 14px;
-}
-
-/* Strip the outbound icon when this class is present */
-
-a[href].noCrossRef::after, a.no_icon:after {
-    content: "" !important;
-    padding-left: 0;
-}
-
-.anchorjs-link:hover {
-    color: #216f9b;
-}
 
 .btn-default {
     background-color: var(--light-grey);

@@ -1,18 +1,6 @@
 # List of contributors
 #
-# reference maintainers/contributors by their id in tutorial metadata files
-#
-# valid tags: name, email, linkedin, twitter, gitter, orcid, bio, joined
-#
-# collection names should be equal to github username, if not, add github: false tag
-
-# two dummy entries that are used in the template pages
-contributor1:
-    git: Contributor A (Please add contributors to the CONTRIBUTORS.yaml file)
-contributor2:
-    git: Contributor B (Please list all contributors of this tutorial in the metadata section)
-
-# our real contributors
+# reference maintainers/contributors by their name used in contributors metadata section on the pages.
 
 Bert Droesbeke:
     git: bedroesb
@@ -80,3 +68,53 @@ Yvonne Kallberg:
     git: yvonnekallberg
     email: yvonne.kallberg@nbis.se
     orcid: 0000-0002-3977-9600
+Markus Englund:
+    git: jmenglund
+    email: markus.englund@nbis.se
+    orcid: 0000-0003-1688-7112
+Ivan Mičetić:
+    git: ivanmicetic
+    email: ivan.micetic@unipd.it
+    orcid: 0000-0003-1691-8425
+Robert Andrews:
+    git: robertmand
+    email: andrewsr9@cardiff.ac.uk
+    orcid: 0000-0002-3491-2361
+Minna Ahokas:
+    git: minnami
+    email: minna.ahokas@csc.fi
+    orcid: 0000-0003-2313-0011
+Laura Portell Silva:
+    git: lauportell
+    email: laura.portell@bsc.es
+    orcid: 0000-0003-0390-3208
+Federico Bianchini:
+    git: bianchini88
+    email: federico.bianchini@mn.uio.no
+    orcid: 0000-0002-9016-4820
+Celia van Gelder:
+    git: celiavg
+    email: celia.vangelder@dtls.nl
+    orchid: 0000-0002-0223-2329
+Erik Hjerde:
+    git: ehj000
+    email: erik.hjerde@uit.no
+    orcid: 0000-0002-6014-1249
+Daniel Wibberg:
+    git: dwibberg
+    email: dwibberg@cebitec.uni-bielefeld.de
+    orcid: 0000-0002-1331-4311
+Priit Adler:
+    git: adlerpriit
+    email: adler@ut.ee
+    orcid: 0000-0001-8276-5135
+Gregoire Rossier:
+    Email: gregoire.rossier@sib.swiss
+    Orcid: 0000-0002-0065-5053
+Alexander Botzki:
+    git: abotzki
+    email: alexander.botzki@vib.be
+    orcid: 0000-0001-6691-4233
+Martin Cook:
+    git: martin-nc
+    email: martin.cook@elixir-europe.org  

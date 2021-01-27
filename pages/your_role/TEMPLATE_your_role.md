@@ -1,8 +1,8 @@
 ---
 title: <Your persona>
-keywords: [Keyword 1,Keyword 2, Keyword n]
+keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 summary: Fill in your summary or delete this property when not needed
-contributors: [contributor1, contributor2]
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search: exclude
 ---
 
