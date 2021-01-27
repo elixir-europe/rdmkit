@@ -1,5 +1,5 @@
 name,link,description,registry,tags
-Amnesia,https://amnesia.openaire.eu,High accuracy Data Anonymization, Amnesia is a GDPR compliant high accuracy data anonymization tool,"data classification"
+Amnesia,https://amnesia.openaire.eu/,Amnesia is a GDPR compliant high accuracy data anonymization tool,,"data classification"
 BBMRI-ERIC's ELSI Knowledge Base,https://www.bbmri-eric.eu/elsi/knowledge-base/,The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.,,"data protection, data classification, policy officer, data manager, human data"
 Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,,"researcher, data manager, IT support, human data"
 Bioconda,https://bioconda.github.io/,Bioconda is a bioinformatics channel for the Conda package manager,biotools:bioconda,"IT support, data analysis"
