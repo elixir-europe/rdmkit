@@ -41,7 +41,7 @@ Since the csv file is not user-friendly and prone to mistakes because empty fiel
 For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
 - Open this [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
 - Check if a tool or resource is already listed.
-- Add or edit tools and resources as described above in "The excel table" paragraph.
+- Add or edit tools and resources as described above.
 - Done! The editors will update the "tool and resource list" in GitHub regularly.
 
 ### Advanced way: making your own PR with changes to the csv file
@@ -52,4 +52,4 @@ Just like with every change you want to make to the repo, it is possible to do t
 
 
 ## Let the bot do the rest
-If the PR containing the changes to the excel table is merged, a PR will be opened by github-actions. Please check that the changes this PR proposes to the yaml file are in line with what you want to have changed.
+If the PR containing the changes to the .csv table is merged, a PR will be opened by github-actions. Please check that the changes this PR proposes to the yaml file are in line with what you want to have changed.
