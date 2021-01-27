@@ -48,7 +48,7 @@ For people that are not familiar with Git, no worries! The editors will do the w
 
 Just like with every change you want to make to the repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page. Open the local copy of the csv file in excel, make your changes and commit them.
 
-{% include tip.html content="If you want to know wether the conversion of the excel table and your changes are successful, check out the github action check in the PR named 'Validating the tool and resource table / build' " %}
+{% include tip.html content="If you want to know wether the conversion of the .csv table and your changes are successful, check out the github action check in the PR named 'Validating the tool and resource table / build' " %}
 
 
 ## Let the bot do the rest
