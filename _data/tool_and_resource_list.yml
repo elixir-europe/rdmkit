@@ -1,4 +1,9 @@
 Tools:
+- description: Amnesia is a GDPR compliant high accuracy data anonymization tool
+  link: https://amnesia.openaire.eu/
+  name: Amnesia
+  tags:
+  - data classification
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
     at providing practical know-how for responsible research.
   link: https://www.bbmri-eric.eu/elsi/knowledge-base/
@@ -622,6 +627,14 @@ Tools:
   tags:
   - DMP
   - researcher
+  - data manager
+- description: RightField is an open-source tool for adding ontology term selection
+    to Excel spreadsheets
+  link: https://rightfield.org.uk
+  name: Rightfield
+  tags:
+  - researcher
+  - metadata
   - data manager
 - description: Rstudio notebooks allow to share code, documentation
   link: https://rstudio.com
