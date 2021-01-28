@@ -17,7 +17,7 @@ def client(url):
     session.mount('https://', adapter)
     r = session.get(url)
     if r.status_code != requests.codes.ok:
-        raise RuntimeError("Non-200 status code")
+        return False
     else:
         return r.json()
 
@@ -29,16 +29,26 @@ def tess_available(query):
         return True
 
 def biotools_available(query):
-    json_output = client(
-        f"https://bio.tools/api/t/?format=json&name={query}")
-
-    if json_output['count'] == 0:
-        return False
+    if client(f"https://bio.tools/api/tool/{query.lower()}/?format=json"):
+        return query.lower()
     else:
-        for tool in json_output['list']:
-            if tool['name'].lower() == query.strip().lower():
-                return tool['biotoolsID']
+        json_output = client(
+            f"https://bio.tools/api/t/?format=json&q='{query}'")
+        if json_output['count'] != 0:
+            for tool in json_output['list']:
+                if tool['name'].lower() == query.strip().lower():
+                    return tool['biotoolsID']
+        else:
+            json_output = client(
+                f"https://bio.tools/api/t/?format=json&q='{query}'")
+            if json_output['count'] == 0:
+                return False
+            else:
+                for tool in json_output['list']:
+                    if query.strip().lower() in tool['name'].lower():
+                        return tool['biotoolsID']
         return False
+
 
 
 table_path = "_data/main_tool_and_resource_list.csv"

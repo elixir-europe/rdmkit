@@ -85,6 +85,7 @@ Tools:
   link: http://www.cathdb.info/
   name: CATH
   registry:
+    biotools: cath
     fairsharing: xgcyyn
     tess: CATH
 - description: Dictionary of molecular entities focused on 'small' chemical compounds
@@ -131,7 +132,7 @@ Tools:
   link: https://copo-project.org/
   name: COPO
   registry:
-    biotools: COPO
+    biotools: copo
     fairsharing: biodbcore-001247
   tags:
   - metadata
@@ -162,7 +163,7 @@ Tools:
   link: https://daisy-demo.elixir-luxembourg.org
   name: DAISY
   registry:
-    biotools: DAISY
+    biotools: daisy
   tags:
   - IT support
   - policy officer
@@ -368,7 +369,6 @@ Tools:
   link: http://ensemblgenomes.org/
   name: Ensembl Genomes
   registry:
-    biotools: ensembl_genomes
     fairsharing: 923a0p
     tess: Ensembl Genomes
 - description: Regulation (eu) 2016/679 of the european parliament and of the council
@@ -540,7 +540,7 @@ Tools:
   link: https://irods.org/
   name: iRODS
   registry:
-    biotools: iRODS
+    biotools: irods
   tags:
   - storage
   - IT support
@@ -587,6 +587,8 @@ Tools:
     genetic resources maintained ex situ by genbanks.
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: MCPD
+  registry:
+    biotools: mcpd
   tags:
   - metadata
   - researcher
@@ -618,6 +620,7 @@ Tools:
   link: https://mint.bio.uniroma2.it/
   name: MINT
   registry:
+    biotools: mint
     fairsharing: 2bdvmk
 - description: A database of protein disorder and mobility annotations
   link: https://mobidb.org/
@@ -831,6 +834,7 @@ Tools:
   link: https://www.arb-silva.de/
   name: Silva
   registry:
+    biotools: silva
     fairsharing: 5vtYGG
     tess: Silva
 - description: Singularity is a container platform.
