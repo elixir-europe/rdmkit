@@ -18,7 +18,7 @@
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
 {%- endif  %}
 <div class="contributor-container">
-    <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="4000">
+    <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="7000">
         <div class="carousel-inner">
             {%- assign counter = 0 %}
             {%- for contributor in allcontributors %}
@@ -51,5 +51,13 @@
             {%- endif %}
             {%- endfor %}
         </div>
+        <a class="left carousel-control" href="#contributors-carousel" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#contributors-carousel" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
