@@ -22,7 +22,7 @@ reuse:
   bg-color: "#f47d21"
 # Role tags
 IT support:
-  url: data_steward_IT.html
+  url: data_steward_infrastructure.html
 policy officer:
   url: data_steward_policy.html
 data manager:

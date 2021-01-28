@@ -449,7 +449,7 @@ ul li::marker {
 .flexbox {
     display: flex;
     flex-direction: column;
-    margin-bottom: 250px;
+    margin-bottom: 80px;
 }
 
 .flexbox h2, .child-box a {
@@ -594,6 +594,7 @@ ul.accordion-panel li {
       position: absolute;
       left: -20px;
       margin-left: 20px;
+      box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
     }
 }
 
@@ -657,7 +658,7 @@ a.accordion-toggle, a.accordion-collapsed {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 
 .carousel-item.active,
@@ -731,7 +732,7 @@ a.accordion-toggle, a.accordion-collapsed {
         font-size: 0.7em;
         height: 22px;
     }
-    
+
     .item .hall-of-fame-hero img{
         width: 5em;
     }
