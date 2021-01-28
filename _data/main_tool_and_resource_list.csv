@@ -15,10 +15,10 @@ ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small mole
 Choose a license,https://choosealicense.com,Choose an open source license,,"licensing, researcher, data manager, policy officer"
 Conda,https://docs.conda.io/en/latest/,Open source package management systemn,,"IT support, data analysis"
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data
-COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:COPO, fairsharing:biodbcore-001247","metadata, researcher, plants"
+COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:copo, fairsharing:biodbcore-001247","metadata, researcher, plants"
 Creative Commons License Chooser,https://creativecommons.org/choose/,It helps you choose the right Creative Commons license for your needs.,,"licensing, researcher, data manager, policy officer"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"researcher, data manager, IT support, plants"
-DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:DAISY,"IT support, policy officer, human data, data protection"
+DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:daisy,"IT support, policy officer, human data, data protection"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"storage, researcher, data manager, IT support"
@@ -59,7 +59,7 @@ IDPO,https://disprot.org/about,Intrinsically disordered proteins ontology,,"IDP,
 Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"IT support, policy officer, human data"
 International Compilation of Human Research Standards,https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf,"The International Compilation of Human Research Standards enumerates over 1,000 laws, regulations, and guidelines (collectively referred to as standards) that govern human subject protections in 133 countries, as well as standards from a number of international and regional organizations",,human data
 InterPro,https://www.ebi.ac.uk/interpro/,Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites,fairsharing:pda11d,
-iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:iRODS,"storage, IT support"
+iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:irods,"storage, IT support"
 ISA-tools,https://isa-tools.org/,"Open source framework and tools helping to manage a diverse set of life science, environmental and biomedical experiments using the Investigation Study Assay (ISA) standard",fairsharing:53gp75,"IT support, data manager"
 ISO/IEC 27001,https://en.wikipedia.org/wiki/ISO/IEC_27001,International information security standard,,"data protection, policy officer, human data"
 Jupyter,https://jupyter.org,"Jupyter notebooks allow to share code, documentation",,"IT support, data analysis"

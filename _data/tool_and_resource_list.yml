@@ -25,6 +25,9 @@ Tools:
 - description: The Beacon protocol defines an open standard for genomics data discovery.
   link: https://beacon-project.io/
   name: Beacon
+  registry:
+    biotools: beacon
+    tess: Beacon
   tags:
   - researcher
   - data manager
@@ -56,6 +59,8 @@ Tools:
     phenotyping data'
   link: https://www.brapi.org
   name: BrAPI
+  registry:
+    tess: BrAPI
   tags:
   - IT support
   - plants
@@ -65,6 +70,7 @@ Tools:
   link: https://www.brenda-enzymes.org/
   name: BRENDA
   registry:
+    biotools: brenda
     fairsharing: etp533
     tess: BRENDA
 - description: File renaming software for Windows
@@ -79,12 +85,14 @@ Tools:
   link: http://www.cathdb.info/
   name: CATH
   registry:
+    biotools: cath
     fairsharing: xgcyyn
     tess: CATH
 - description: Dictionary of molecular entities focused on 'small' chemical compounds
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
   registry:
+    biotools: chebi
     fairsharing: 62qk8w
     tess: ChEBI
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures,
@@ -92,11 +100,14 @@ Tools:
   link: https://www.ebi.ac.uk/chembl/
   name: ChEMBL
   registry:
+    biotools: chembl
     fairsharing: m3jtpg
     tess: ChEMBL
 - description: Choose an open source license
   link: https://choosealicense.com
   name: Choose a license
+  registry:
+    tess: Choose a license
   tags:
   - licensing
   - researcher
@@ -105,6 +116,8 @@ Tools:
 - description: Open source package management systemn
   link: https://docs.conda.io/en/latest/
   name: Conda
+  registry:
+    tess: Conda
   tags:
   - IT support
   - data analysis
@@ -119,7 +132,7 @@ Tools:
   link: https://copo-project.org/
   name: COPO
   registry:
-    biotools: COPO
+    biotools: copo
     fairsharing: biodbcore-001247
   tags:
   - metadata
@@ -150,7 +163,7 @@ Tools:
   link: https://daisy-demo.elixir-luxembourg.org
   name: DAISY
   registry:
-    biotools: DAISY
+    biotools: daisy
   tags:
   - IT support
   - policy officer
@@ -177,6 +190,8 @@ Tools:
 - description: Open source research data respository software.
   link: https://dataverse.org/
   name: DATAVERSE
+  registry:
+    tess: DATAVERSE
   tags:
   - storage
   - researcher
@@ -195,6 +210,7 @@ Tools:
   link: https://www.ncbi.nlm.nih.gov/gap/
   name: dbGAP
   registry:
+    biotools: dbgap
     fairsharing: 88v2k0
   tags:
   - data publication
@@ -236,6 +252,8 @@ Tools:
     data management plan templates for many major funders.
   link: https://dmponline.dcc.ac.uk/
   name: DMPonline
+  registry:
+    tess: DMPonline
   tags:
   - DMP
   - researcher
@@ -324,6 +342,8 @@ Tools:
 - description: "EMBL-EBI\u2019s web portal for finding ontologies"
   link: https://www.ebi.ac.uk/ols/index
   name: EMBL-EBI Ontology Lookup Service
+  registry:
+    tess: EMBL-EBI Ontology Lookup Service
   tags:
   - metadata
   - data manager
@@ -341,6 +361,7 @@ Tools:
   link: http://www.ensembl.org/index.html
   name: Ensembl
   registry:
+    biotools: ensembl
     fairsharing: fx0mw7
     tess: Ensembl
 - description: Comparative analysis, data mining and visualisation for the genomes
@@ -381,6 +402,7 @@ Tools:
   link: https://europepmc.org/
   name: Europe PMC
   registry:
+    biotools: europe_pmc
     fairsharing: cmw6mm
     tess: Europe PMC
   tags:
@@ -455,6 +477,8 @@ Tools:
     small to very large projects
   link: https://git-scm.com/
   name: Git
+  registry:
+    tess: Git
   tags:
   - data organisation
   - data manager
@@ -508,6 +532,7 @@ Tools:
   link: https://www.ebi.ac.uk/interpro/
   name: InterPro
   registry:
+    biotools: interpro
     fairsharing: pda11d
     tess: InterPro
 - description: Integrated Rule-Oriented Data System (iRODS) is open source data management
@@ -515,7 +540,7 @@ Tools:
   link: https://irods.org/
   name: iRODS
   registry:
-    biotools: iRODS
+    biotools: irods
   tags:
   - storage
   - IT support
@@ -539,6 +564,8 @@ Tools:
 - description: Jupyter notebooks allow to share code, documentation
   link: https://jupyter.org
   name: Jupyter
+  registry:
+    tess: Jupyter
   tags:
   - IT support
   - data analysis
@@ -560,6 +587,8 @@ Tools:
     genetic resources maintained ex situ by genbanks.
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: MCPD
+  registry:
+    biotools: mcpd
   tags:
   - metadata
   - researcher
@@ -591,6 +620,7 @@ Tools:
   link: https://mint.bio.uniroma2.it/
   name: MINT
   registry:
+    biotools: mint
     fairsharing: 2bdvmk
 - description: A database of protein disorder and mobility annotations
   link: https://mobidb.org/
@@ -620,6 +650,8 @@ Tools:
 - description: Nextflow is a framework for data analysis workflow execution
   link: https://www.nextflow.io
   name: Nextflow
+  registry:
+    biotools: nextflow
   tags:
   - IT support
   - data analysis
@@ -650,6 +682,8 @@ Tools:
 - description: Data curation tool for working with messy data
   link: https://openrefine.org/
   name: OpenRefine
+  registry:
+    tess: OpenRefine
   tags:
   - data quality
 - description: The Orphadata platform provides the scientific community with comprehensive,
@@ -658,6 +692,7 @@ Tools:
   link: http://www.orphadata.org/cgi-bin/index.php
   name: Orphadata
   registry:
+    biotools: orphadata
     fairsharing: biodbcore-001249
 - description: The Protein Circular Dichroism Data Bank
   link: http://pcddb.cryst.bbk.ac.uk/
@@ -688,6 +723,8 @@ Tools:
     in rare disease research.
   link: https://rd-connect.eu/what-we-do/omics/gpap/
   name: RD-Connect Genome Phenome Analysis Platform
+  registry:
+    tess: RD-Connect Genome Phenome Analysis Platform
   tags:
   - researcher
   - human data
@@ -726,6 +763,8 @@ Tools:
 - description: Machine actionable DMPs.
   link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
   name: Research Management Plan
+  registry:
+    tess: Research Management Plan
   tags:
   - DMP
   - researcher
@@ -734,6 +773,8 @@ Tools:
     to Excel spreadsheets
   link: https://rightfield.org.uk
   name: Rightfield
+  registry:
+    biotools: rightfield
   tags:
   - researcher
   - metadata
@@ -741,6 +782,9 @@ Tools:
 - description: Rstudio notebooks allow to share code, documentation
   link: https://rstudio.com
   name: Rstudio
+  registry:
+    biotools: rstudio
+    tess: Rstudio
   tags:
   - data analysis
   - IT support
@@ -790,6 +834,7 @@ Tools:
   link: https://www.arb-silva.de/
   name: Silva
   registry:
+    biotools: silva
     fairsharing: 5vtYGG
     tess: Silva
 - description: Singularity is a container platform.
@@ -811,6 +856,7 @@ Tools:
   link: https://string-db.org/
   name: STRING
   registry:
+    biotools: string
     fairsharing: 9b7wvk
     tess: STRING
 - description: EGA is a service for permanent archiving and sharing of all types of
