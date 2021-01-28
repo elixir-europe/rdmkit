@@ -1,4 +1,4 @@
-name: Converting the tool and resource to yaml
+name: Converting to yaml + registry lookup
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
           pip install pyyaml requests
       - name: Run tool table 2 yaml
         run: |
-          python var/tool_table2yaml.py
+          python var/tool_table2yaml.py --reg
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request
