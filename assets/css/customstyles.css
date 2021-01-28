@@ -132,6 +132,10 @@ li.nav-item.active a:hover {
     color: var(--white-text);
 }
 
+.navbar-toggler {
+    color: var(--primary-theme-color);
+}
+
 /*-----Search box top navigation-----*/
 
 #search-input {
@@ -263,7 +267,10 @@ li ul .sidebar_rdm_sub {
 
 /*-----Table properties-----*/
 
-.dataTables_wrapper {
+
+table {
+    display: block;
+    overflow-x: auto;
     margin: 40px 0 20px;
 }
 
@@ -276,6 +283,7 @@ table>tbody>tr>th, table>tfoot>tr>th, table>thead>tr>td, table>tbody>tr>td, tabl
 table>thead>tr>th {
     border-bottom: 2px solid var(--light-grey);
 }
+
 
 /*-----Footer-----*/
 
