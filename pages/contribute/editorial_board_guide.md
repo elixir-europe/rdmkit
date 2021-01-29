@@ -62,7 +62,7 @@ Optional metadata/frontmatter:
 - If the markdown file is named *example.md*, the page will be found at https://rdm.elixir-europe.org/example.
 - By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found [here](#find-your-newly-added-page-back-on-the-website).
 
-### Github checks
+### GitHub checks
 
 With each PR or merge to the master, some checks are done using GitHub actions. One of them checks wether the website builds correctly. The other checks for changes in the tool/resource Excel table. When each of them fails, the PR will not be able to be merged. Click on the red dot/failed check to understand better what caused the fail. 
 
@@ -74,7 +74,7 @@ With each PR or merge to the master, some checks are done using GitHub actions. 
   * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
   * When a Pull Request (PR) or a draft PR related to an issue is created, link the PR to the issue.
   
-More information about these topics can be found in the Github documentation:
+More information about these topics can be found in the GitHub documentation:
 - [commenting on PRs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
 - [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
