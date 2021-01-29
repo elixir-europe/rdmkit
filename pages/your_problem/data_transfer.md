@@ -1,5 +1,5 @@
 ---
-title: Data Transfer
+title: Data transfer
 keywords:
 tags: [preserve, share, reuse, IT support, data manager] 
 ---
@@ -28,13 +28,13 @@ Since data transfer involves so many technical aspects, it is a good idea to int
 
 ### Solutions
 
-#### Step 1: Optimize data transfer
+#### Step 1: optimize data transfer
 It can be very useful to archive your data in a single file to optimize and ease the data transfer. This can be done with two tools available on most systems.
 
 * tar (tape archive) will create an archive, a single file containing several files or directories. 
 * gzip: since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive. 
 
-#### Step 2: Choose an appropriate data transfer protocol or application
+#### Step 2: choose an appropriate data transfer protocol or application
 
 The most common data transfer applications available are:
 
@@ -52,7 +52,7 @@ For massive amounts of data, additional protocols have been developed, paralleli
 
 These transfer solutions require commercial licences for your site and as such they are available mostly on large computational centres. 
 
-#### Step 3: Check the transfer
+#### Step 3: check the transfer
 
 During the transfer some data might become corrupted, thus it is important to check if the files you transfered have conserved their integrity. This can be done with hash algorithms. A checkshum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted. 
 

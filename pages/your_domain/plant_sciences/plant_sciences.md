@@ -1,5 +1,5 @@
 ---
-title: Plant Sciences
+title: Plant sciences
 contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
 tags: [metadata]
 ---
@@ -14,7 +14,7 @@ The challenges to data integration stem from the multiple levels of heterogeneit
 Another particularity of this domain is the absence of central deposition databases for plant phenotyping data. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This raises challenges to finding and accessing plant phenotyping data, as well as interconnecting all datasets produced in projects that encompass molecular studies and phenotyping experiments.
 
 
-## Plant Phenotyping Metadata Management
+## Plant phenotyping metadata management
  
 ### Description
 To ensure compliance with the FAIR principles in plant phenotyping datasets, it is highly recommended that metadata collection is contemplated from the start of the experiment and that the working environment facilitates (meta)data collection, storage, and validation throughout the project, up to the publication.
@@ -47,7 +47,7 @@ Detailed metadata needs to be captured on a number of aspects. One of the most c
 * Data should be deposited into one of the many repositories that implement BrAPI, as this enables both validation and findability, through the [FAIDARE plant data discovery service](https://urgi.versailles.inrae.fr/faidare/).
 
 
-## Plant Data Deposition
+## Plant data deposition
  
 ### Description
 Finally you need to identify where to can deposit and publish the plant phenotyping data, given that there is no global centralized archives for that type of data.

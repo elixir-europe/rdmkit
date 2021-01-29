@@ -4,7 +4,7 @@ keywords: [Data analysis, Computing, Collaboration]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi]
 ---
 
-## What is Data Analysis?
+## What is data analysis?
 
 Data analysis encompasses all the different data manipulation and transformations that will help scientists to discover information or generate new knowledge.
 This is the step where the actual work on the data towards the goal of a research project takes place.
@@ -13,12 +13,12 @@ According to the different types of data (quantitative or qualitative) the metho
 
 Data analysis follows the (often automated, batch) processing in the Processing stage.
 
-## Why is Data Analysis important?
+## Why is data analysis important?
 
 Since Data Analysis is the stage where new knowledge and information are generated, it can be considered as central in the research process.
 With many disciplines becoming data-oriented, more and more data intensive projects will occur and will involve experts from many thematic fields.
 
-## What should be considered for Data Analysis?
+## What should be considered for data analysis?
 
 Because of their nature, data in Life Sciences are now considered as Big Data. These characteristics of Big Data, often summarized by a growing list of "V" properties (Volume, Velocity, Variety, Veracity, Value, etc.), impact strongly the methods and technical solutions used for Data Analysis.
 
@@ -37,7 +37,7 @@ Because of their nature, data in Life Sciences are now considered as Big Data. T
 {% include pagelist.html tag="analyse" %}
 
 
-## Where can training materials and events about Data Analysis be found?
+## Where can training materials and events about data analysis be found?
 
 {% include tess.html search="Data Analysis" %}
 <!-- ## External links

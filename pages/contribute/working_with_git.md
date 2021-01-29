@@ -1,5 +1,5 @@
 ---
-title: Working with Git
+title: Working with git
 sidebar: contribute
 toc: false
 ---

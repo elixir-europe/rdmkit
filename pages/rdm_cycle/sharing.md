@@ -4,10 +4,10 @@ contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
 keywords: [collaboration]
 ---
 
-## What is Data Sharing?
+## What is data sharing?
 Data Sharing means making datasets known and available to collaboration partners within a project or to the global research community and to society at large. Data sharing can be done at any time during the research data life cycle but, at the latest, data should be made available at the time of publication of articles that use the data to make scientific conclusions. 
 
-## Why is Data Sharing important?
+## Why is data sharing important?
 Sharing of data is a cornerstone of good science. It is ethical good research practice to ensure that data underlying research is preserved and made available to the research community and society at large. Sharing data is a necessary prerequisite for making your research reproducible. To be useful for others, you should strive to make the shared data adhere to the FAIR principles. 
 
 In the EU, the 'Open Data Directive' ([Directive (EU) 2019/1024](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024)) states that "_Member States shall support the availability of research data by adopting national policies and relevant actions aiming at making publicly funded research data openly available (‘open access policies’), following the principle of ‘open by default’ and compatible with the FAIR principles._"
@@ -20,7 +20,7 @@ Many research funders, institutions and reputable journals/publishers now have d
 
 Even though it may not be possible to openly share all data because of ethical, legal, contractual, or intellectual property reasons, do strive to make data "_as open as possible, as closed as necessary_".
 
-## What should be considered for Data Sharing?
+## What should be considered for data sharing?
 
 * Take Data Sharing into consideration already at the [Planning stage](planning). Don't leave it to the last stage. 
   - For collaborative projects use repositories and sharing services which allow controlled access to share your preliminary data with project partners. 
@@ -45,7 +45,7 @@ Even though it may not be possible to openly share all data because of ethical, 
 {% include pagelist.html tag="share" %}
 
 
-## Where can training materials and events about Data Sharing be found?
+## Where can training materials and events about data sharing be found?
 
 {% include tess.html search="Data Sharing" %}
 

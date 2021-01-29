@@ -97,7 +97,7 @@ Using:
 
 Make sure there are no spaces between the asterisks and the text you want to put in italic.
 
-## File names/ Files / software names
+## File names/ files / software names
 
 `Text` can be highlighted using:
 
@@ -313,7 +313,7 @@ Text
 </details>
 ```
 
-## Including a TeSS training material button
+## Including a tess training material button
 
 Link to a search query:
 {% raw %}

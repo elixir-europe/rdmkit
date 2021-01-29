@@ -36,7 +36,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the Github website itself. 
 
-### Simple way: changing the google spreadsheet
+### Simple way: changing the Google spreadsheet
 
 For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
 - Open this [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
