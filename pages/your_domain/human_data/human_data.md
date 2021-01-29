@@ -77,7 +77,7 @@ For human data it is very important to use technical and procedural measures to 
     - Norway - [TSD](https://www.uio.no/english/services/it/research/sensitive-data/)
     - Sweden - [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
     - Spain - [MareNostrum](https://www.bsc.es/marenostrum/access-to-supercomputing-resources)
-  - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on data sets that do not leave the place where they are stored.
+  - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on datasets that do not leave the place where they are stored.
     - The GA4GH is developing standards for this in their [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
 
 

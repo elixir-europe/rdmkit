@@ -5,7 +5,7 @@ keywords: [molecular dynamics, docking, virtual screening]
 ## General scope
 Here we show what are (bio)simulation data, how we can store them, how it can be reused for new, unexpected projects, and how they can be transformed to make them FAIR (findable, accessible, interoperable and reusable). However, we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify its data.
 
-## Storing and Sharing the Data from Biomolecular Simulations
+## Storing and sharing the data from biomolecular simulations
  
 ### Description
 
@@ -99,7 +99,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 * Data Licenses:
   * There’s a list of [datasets licenses available that you can find here](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets). They mainly differ on openness vs restrictiveness. Read carefully to understand the differences and apply the one you think your data should have before distributing them.  
 
-### Related Problems
+### Related problems
 * File formats
 Biomolecular simulation field has a tendency to produce a multitude of input/output formats, each of them mainly related to one software package. That makes interoperability and reproducibility really difficult. You can share your data but this data will only be useful if the scientist interested in it has access to the tool that has generated it. The field is working on possible standards (e.g. TNG trajectory).
 
