@@ -1,5 +1,5 @@
 ---
-title: "Intrinsically Disordered Proteins"
+title: Intrinsically Disordered Proteins
 contributors: [Ivan Mičetić]
 tags: [metadata]
 ---

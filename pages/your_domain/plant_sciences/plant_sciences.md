@@ -1,5 +1,5 @@
 ---
-title: "Plant Sciences"
+title: Plant Sciences
 contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
 tags: [metadata]
 ---

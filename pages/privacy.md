@@ -1,5 +1,5 @@
 ---
-title: "Privacy"
+title: Privacy
 toc: false
 ---
 

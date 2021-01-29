@@ -1,5 +1,5 @@
 ---
-title: "DOMAIN PAGE TITLE"
+title: DOMAIN PAGE TITLE
 keywords: optional
 search: exclude
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]

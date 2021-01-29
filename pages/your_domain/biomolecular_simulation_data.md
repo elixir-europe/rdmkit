@@ -1,5 +1,5 @@
 ---
-title: "Biomolecular Simulation Data"
+title: Biomolecular Simulation Data
 keywords: [molecular dynamics, docking, virtual screening]
 ---
 ## General scope
