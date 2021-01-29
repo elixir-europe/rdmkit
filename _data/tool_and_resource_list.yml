@@ -652,6 +652,7 @@ Tools:
   name: Nextflow
   registry:
     biotools: nextflow
+    tess: Nextflow
   tags:
   - IT support
   - data analysis
@@ -840,6 +841,8 @@ Tools:
 - description: Singularity is a container platform.
   link: https://sylabs.io
   name: Singularity
+  registry:
+    tess: Singularity
   tags:
   - IT support
   - data analysis
