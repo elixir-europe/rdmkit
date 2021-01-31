@@ -22,9 +22,9 @@ subitems:
         url: /marine_metagenomics.html
       - title: Human data
         url: /human_data.html
-      - title: Biomolecular simulation Data
+      - title: Biomolecular simulation data
         url: /biomolecular_simulation_data.html
-      - title: Intrinsically disordered Proteins
+      - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins.html
   - title: Your problem
     subitems:
