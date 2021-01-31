@@ -1,5 +1,5 @@
 ---
-title: Data Management Plan
+title: Data management plan
 keywords: 
 contributors: [Flora D'Anna, Daniel Faria]
 tags: [plan, researcher, data manager, policy officer]

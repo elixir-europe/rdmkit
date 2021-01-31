@@ -1,7 +1,5 @@
 ---
-title: "Intrinsically Disordered Proteins"
-keywords: optional
-search: exclude
+title: Intrinsically disordered proteins
 contributors: [Ivan Mičetić]
 tags: [metadata]
 ---
@@ -10,7 +8,7 @@ tags: [metadata]
 
 Intrinsically disordered proteins (IDP) domain brings together databases and tools needed to organize IDP data and knowledge in a Findable, Accessible, Interoperable and Reusable (FAIR) manner. Experimental data created by users must be complemented by metadata in order to be deposited in an IDP resource. This document describes what community standards must be followed and where to find information needed to complete the metadata of an IDP experiment or study.
 
-## Annotating or Curating Data from an IDP Related Experiment or Study
+## Annotating or curating data from an idp related experiment or study
  
 ### Description
 
@@ -31,7 +29,7 @@ You can split the experimental process in several steps:
     The ontology is available in [OWL](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.owl) and [OBO](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.obo) format. 
 * You should deposit primary data into relevant community databases ([BMRB](http://www.bmrb.wisc.edu/), [PCDDB](https://pcddb.cryst.bbk.ac.uk/), [SASBDB](https://www.sasbdb.org/)). You should deposit literature data to the manually curated database [DisProt](https://disprot.org/). DisProt is built on MIADE standard and IDPO ontology. As such, DisProt requires curators to annotate all new data according to community standards. IDP data from primary databases, together with curated experimental annotations and software predictions, is integrated in the comprehensive [MobiDB](https://mobidb.org/) database. DisProt and MobiDB add and expose [Bioschemas](https://bioschemas.org/) markup to all data records increasing data findability and interoperability.
 
-## Issues annotating or describing an IDP related term or study
+## Issues annotating or describing an idp related term or study
 
 ### Description
 IDP field is actively evolving. It integrates newly published experimental evidence of protein disorder and translates it in a machine readable way in an IDP database. This mapping process relies on accurate knowledge of protein identifiers, protein regions under study and disorder region functional annotation.
@@ -52,6 +50,6 @@ Most common issues that you as a researcher can encounter during the mapping pro
 
   If there isn't an appropriate term in ontologies or vocabularies, you can submit a new proposal for community review at [DisProt feedback](https://disprot.org/feedback).
 
-## Relevant Tools & Resources
+## Relevant tools & resources
 
 {% include toollist.html tag="IDP" %}

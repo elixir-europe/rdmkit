@@ -1,5 +1,5 @@
 ---
-title: Data Classification
+title: Data classification
 keywords: [human data, data sensitivity]
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
 tags: [share, collect, process, policy officer]
@@ -16,7 +16,7 @@ Sensitive data is information that must be protected against unauthorised access
 * If you deal with any information about individuals from the EU, you are bound by the GDPR and such data is called “personal data”. 
 * Not all personal information is sensitive: The GDPR [Article 9] identifies specific pieces of data as sensitive: data consisting of racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person's sex life or sexual orientation.  
 * Information in Life Science projects are for the most part categorised under health and genetic data and are considered sensitive under the GDPR.
-* You need to assess whether or not your data set contains personally identifying attributes. 
+* You need to assess whether or not your dataset contains personally identifying attributes. 
 * You need to know the de-identification status of your data. Life Science research data rarely contains personally identifying attributes. Research data would typically be in pseudonymised or anonymised form, meaning devoid of attributes such as name, surname etc. 
 * For some studies there is a cohort owner, often a clinical party or a trusted third party that can map study participant keys back to names and surnames. Such data is considered pseudonymous. 
 * If there are no means to map the data back to individuals, then the data is considered anonymous and is out of the scope of the GDPR. 

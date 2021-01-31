@@ -1,5 +1,5 @@
 ---
-title: "Data Steward Policy"
+title: Data steward policy
 keywords: [institutional, coordinating, policy]
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez, Wolmar Nyberg Åkerström, Alexia Cardona]
 ---

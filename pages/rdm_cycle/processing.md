@@ -4,7 +4,7 @@ keywords: [data cleaning, data formatting, quality check, data validation]
 contributors: [Rob Hooft, Munazah Andrabi]
 ---
 
-## What is Data Processing?
+## What is data processing?
 
 Data processing is the phase in the project where data is converted into a desired format and prepared for analysis. When data has been freshly collected, data processing includes some automated steps in a workflow that perform format conversion, quality check and preprocessing following a standardised protocol. The main aim of processing is to:
  * Convert data into readable format giving it the shape and form necessary for downstream analysis. 
@@ -17,11 +17,11 @@ When data is imported from existing sources, e.g. data to be reused from another
 
  After data processing, clean data is ready for analysis and should therefore be available to the members of the project team that need to perform the next steps.
 
-## Why is Data Processing important?
+## Why is data processing important?
 
 Data processing is important to ensure good quality of the collected data and to prepare it for meaningful data analysis. Accurate data processing is also essential for combining two or more datasets into a single dataset. An accurate documentation of every step done during data processing is key for the reproducibility of your result. Processing data correctly makes it easy to arrange, analyse and also saves a lot of space.
 
-## What should be considered for Data Processing?
+## What should be considered for data processing?
 
 The following considerations are important for data processing:
 
@@ -36,7 +36,7 @@ The following considerations are important for data processing:
 
 {% include pagelist.html tag="process" %}
 
-## Where can training materials and events about Data Processing be found?
+## Where can training materials and events about data processing be found?
 
 {% include tess.html search="Data Processing" %}
 <!--## External links
