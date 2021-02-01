@@ -1045,6 +1045,12 @@ span.projectTitle {
     color: var(--hover-grey);
 }
 
+.contact-us {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: var(--hover-grey);
+}
+
 @media (max-width:767px) {
     .site-footer {
         padding-bottom: 0;
