@@ -9,12 +9,10 @@ You will find helpful advice for where you are in the data’s life cycle (from 
 
 Our goal is to make data management easier for you, and to help you make your data FAIR  - Findable, Accessible, Interoperable and Reusable. 
 
-RDMKit is an open community project, and you are welcome to [join us](#contribute)!
-
 
 ## Contribute
 
-The content of the material is developed in Markdown and a templating system ([Jekyll](http://jekyllrb.com/)) is used to format the Markdown pages and generate a website at ([https://rdm.elixir-europe.org/](https://rdm.elixir-europe.org/)).
+RDMKit is an open community project, and you are welcome to join us! The content of the material is developed in Markdown and a templating system ([Jekyll](http://jekyllrb.com/)) is used to format the Markdown pages and generate a website at ([https://rdm.elixir-europe.org/](https://rdm.elixir-europe.org/)).
 
 Do you want to help with this project? Please check out following pages for more information:
 
