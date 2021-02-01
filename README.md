@@ -27,11 +27,9 @@ Do you which to contact the editors of this project? Use [rdm-editors@elixir-eur
 If you want to build the website locally, please have a look at our [tutorial](https://rdm.elixir-europe.org/working_with_git.html#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser).
 
 
-## This is an ELIXIR Converge project
+## RDMKit is an ELIXIR Converge project
 
-ELIXIR is an intergovernmental organisation that brings together life science resources from across Europe. These resources include databases, software tools, training materials, cloud storage and supercomputers. All the ELIXIR National nodes and the special EMBL-EBI node have come to support data management within the Nodes and for data stewards, reseachers and institutional data managers. The idea is to support data management at the point of creation and enable data to be "FAIR by Design". The development of a Research Data Management Kit will provide researchers with a strategy to manage their data to international standards. RDMKit has two major parts: (i) a website based around the RDM lifecycle and (ii) a collection of Tool Assemblies - that is, tools that the ELIXIR Nodes have put together to support RDM that can be picked up and used by you.
-
-Link to website:  [rdm-toolkit](https://rdm.elixir-europe.org/)
+ELIXIR is an intergovernmental organisation that brings together life science resources from across Europe. These resources include databases, software tools, training materials, cloud storage and supercomputers. All the ELIXIR National nodes and the special EMBL-EBI node have come to support data management within the Nodes and for data stewards, researchers and institutional data managers. The idea is to support data management at the point of creation and enable data to be "FAIR by Design". The development of a Research Data Management Kit will provide researchers with a strategy to manage their data to international standards. 
 
 
 ## License
