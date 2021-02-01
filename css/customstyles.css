@@ -775,6 +775,13 @@ a.accordion-toggle, a.accordion-collapsed {
     }
 }
 
+.blurb {
+    margin: 50px 0px;
+    background-color: var(--light-grey);
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 1.2em;
+}
 
 /* navgoco sidebar styles (customized) */
 
