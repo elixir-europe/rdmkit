@@ -9,7 +9,7 @@ You will find helpful advice for where you are in the data’s life cycle (from 
 
 Our goal is to make data management easier for you, and to help you make your data FAIR  - Findable, Accessible, Interoperable and Reusable. 
 
-RDMKit is an open community project, and you are welcome to [join us](#contriubute)!
+RDMKit is an open community project, and you are welcome to [join us](#contribute)!
 
 
 ## Contribute
