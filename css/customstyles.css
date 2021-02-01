@@ -1022,6 +1022,10 @@ span.projectTitle {
 }
 
 .site-footer a:hover {
+    color: var(--primary-theme-color);
+}
+
+.site-footer a:hover {
     text-decoration: none;
 }
 
@@ -1042,7 +1046,13 @@ span.projectTitle {
     margin-top: 10px;
     margin-bottom: 15px;
     text-align: right;
-    color: var(--hover-grey);
+    color: var(--light-grey);
+}
+
+.contact-us {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: var(--light-grey);
 }
 
 @media (max-width:767px) {
