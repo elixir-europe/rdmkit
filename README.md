@@ -18,8 +18,8 @@ The content of the material is developed in Markdown and a templating system ([J
 
 Do you want to help with this project? Please check out following pages for more information:
 
-* [Code of Conduct](CODE_OF_CONDUCT)
-* [How to contribute](how_to_contribute)
+* [Code of Conduct](https://rdm.elixir-europe.org/CODE_OF_CONDUCT)
+* [How to contribute](https://rdm.elixir-europe.org/how_to_contribute)
 
 
 Do you which to contact the editors of this project? Use [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
@@ -34,7 +34,7 @@ ELIXIR is an intergovernmental organisation that brings together life science re
 
 ## License
 
-The process documents and data are made available under a CC-BY license. Software are made available under an MIT license.
+The process documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about out license can be found [here](LICENSE).
 
 ## Acknowledgements
 
