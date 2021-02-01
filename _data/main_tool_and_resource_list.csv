@@ -1,29 +1,36 @@
 name,link,description,registry,tags
+Amnesia,https://amnesia.openaire.eu/,Amnesia is a GDPR compliant high accuracy data anonymization tool,,data classification
+Argos,https://argos.openaire.eu/splash/,"Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.",,"DMP, researcher, data manager"
 BBMRI-ERIC's ELSI Knowledge Base,https://www.bbmri-eric.eu/elsi/knowledge-base/,The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.,,"data protection, data classification, policy officer, data manager, human data"
 Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,,"researcher, data manager, IT support, human data"
 Bioconda,https://bioconda.github.io/,Bioconda is a bioinformatics channel for the Conda package manager,biotools:bioconda,"IT support, data analysis"
 Bitbucket,https://bitbucket.org/,"Git based code hosting and collaboration tool, built for teams.",,"data organisation, data manager, IT support"
+BMRB,https://bmrb.io/,Biological Magnetic Resonance Data Bank,,"IDP, researcher"
 BrAPI,https://www.brapi.org,"Specification for a standard API for plant data: plant material, plant phenotyping data",,"IT support, plants"
 BRENDA,https://www.brenda-enzymes.org/,"Database of enzyme and enzyme-ligand information, across all taxonomic groups, manually extracted from primary literature and extended by text mining procedures",fairsharing:etp533,
 Bulk Rename Utility,https://www.bulkrenameutility.co.uk/,File renaming software for Windows,,"data organisation, data manager, researcher"
 CATH,http://www.cathdb.info/,A hierarchical domain classification of protein structures in the Protein Data Bank.,fairsharing:xgcyyn,
 ChEBI,https://www.ebi.ac.uk/chebi/,Dictionary of molecular entities focused on 'small' chemical compounds,fairsharing:62qk8w,
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.",fairsharing:m3jtpg,
+Choose a license,https://choosealicense.com,Choose an open source license,,"licensing, researcher, data manager, policy officer"
 Conda,https://docs.conda.io/en/latest/,Open source package management systemn,,"IT support, data analysis"
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data
-COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:COPO, fairsharing:biodbcore-001247","metadata, researcher, plants"
+COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:copo, fairsharing:biodbcore-001247","metadata, researcher, plants"
+Creative Commons License Chooser,https://creativecommons.org/choose/,It helps you choose the right Creative Commons license for your needs.,,"licensing, researcher, data manager, policy officer"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"researcher, data manager, IT support, plants"
-DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:DAISY,"IT support, policy officer, human data, data protection"
+DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:daisy,"IT support, policy officer, human data, data protection"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"storage, researcher, data manager, IT support"
 DAWID,https://dawid.elixir-luxembourg.org/,The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg to facilitate data sharing agreements.,,"data protection, policy officer, human data"
 dbGAP,https://www.ncbi.nlm.nih.gov/gap/,The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans,fairsharing:88v2k0,"data publication, researcher, IT support, human data"
+DisProt,https://disprot.org/,A database of intrinsically disordered proteins,biotools:disprot,"IDP, researcher"
 DMP Canvas Generator,https://dmp.vital-it.ch,"Questionnaire, which generates a pre-filled a DMP",,"DMP, researcher, data manager"
 DMP OPIDoR,https://dmp.opidor.fr,Online questionnaire for the development of data management plans; repository of DMPs,,"DMP, researcher, data manager"
 DMPlanner,https://dmplanner.athenarc.gr/,"Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans.",,"DMP, researcher, data manager"
 DMPonline,https://dmponline.dcc.ac.uk/,"A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.",,"DMP, researcher, data manager"
 DMPonline Belgium,https://dmponline.be,"A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.",,"DMP, researcher, data manager"
+DMPTool,https://dmptool.org,Build your Data Management Plan,,"DMP, researcher, data manager"
 DMPTuuli Finland,https://www.dmptuuli.fi/,Data management planning tool,,"DMP, researcher, data manager"
 Docker,https://www.docker.com/,"Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images",fairsharing:bsg-d001254,"IT support, data analysis"
 DS-Wizard,https://ds-wizard.org/,Data Stewardship Wizard,biotools:Data_Stewardship_Wizard,"DMP, researcher, data manager, IT support, nels"
@@ -31,8 +38,8 @@ e!DAL,https://edal.ipk-gatersleben.de/,Electronic data archive library is a fram
 e!DAL-PGP,https://edal-pgp.ipk-gatersleben.de/,Plant Genomics and Phenomics Research Data Repository,fairsharing:rf3m4g,"plants, researcher, data manager, IT support"
 EasyDMP,https://easydmp.no/,"DMP creation, versioning and sharing",,"DMP, researcher, data manager"
 ELIXIR Deposition Databases for Biomolecular Data,https://elixir-europe.org/platforms/data/elixir-deposition-databases,List of discipline-specific deposition databases recommended by ELIXIR.,fairsharing:bsg-c000039,"data publication, researcher, data manager, IT support"
-EMBL-EBI's data submission wizard,https://www.ebi.ac.uk/submission/,EMBL-EBI's wizard for finding the right EMBL-EBI repository for your data.,,"data publication, researcher, data manager"
 EMBL-EBI Ontology Lookup Service,https://www.ebi.ac.uk/ols/index,EMBL-EBI’s web portal for finding ontologies,,"metadata, data manager, researcher"
+EMBL-EBI's data submission wizard,https://www.ebi.ac.uk/submission/,EMBL-EBI's wizard for finding the right EMBL-EBI repository for your data.,,"data publication, researcher, data manager"
 Ensembl,http://www.ensembl.org/index.html,"Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.",fairsharing:fx0mw7,
 Ensembl Genomes,http://ensemblgenomes.org/,"Comparative analysis, data mining and visualisation for the genomes of non-vertebrate species",fairsharing:923a0p,
 EU General Data Protection Regulation,https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN,"Regulation (eu) 2016/679 of the european parliament and of the council on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing directive 95/46/ec (general data protection regulation).",,"data protection, policy officer, human data"
@@ -48,35 +55,45 @@ Galaxy,https://galaxyproject.org/,"Open, web-based platform for data intensive b
 Git,https://git-scm.com/,Distributed version control system designed to handle everything from small to very large projects,,"data organisation, data manager, IT support"
 GitHub,https://github.com,"Versioning system, used for sharing code, as well as for sharing of small data",fairsharing:biodbcore-001160,"data publication, data organisation, IT support, data manager"
 Human Protein Atlas,http://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,
+IDPO,https://disprot.org/about,Intrinsically disordered proteins ontology,,"IDP, metadata"
 Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"IT support, policy officer, human data"
 International Compilation of Human Research Standards,https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf,"The International Compilation of Human Research Standards enumerates over 1,000 laws, regulations, and guidelines (collectively referred to as standards) that govern human subject protections in 133 countries, as well as standards from a number of international and regional organizations",,human data
 InterPro,https://www.ebi.ac.uk/interpro/,Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites,fairsharing:pda11d,
-iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:iRODS,"storage, IT support"
+iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:irods,"storage, IT support"
 ISA-tools,https://isa-tools.org/,"Open source framework and tools helping to manage a diverse set of life science, environmental and biomedical experiments using the Investigation Study Assay (ISA) standard",fairsharing:53gp75,"IT support, data manager"
 ISO/IEC 27001,https://en.wikipedia.org/wiki/ISO/IEC_27001,International information security standard,,"data protection, policy officer, human data"
 Jupyter,https://jupyter.org,"Jupyter notebooks allow to share code, documentation",,"IT support, data analysis"
 Linked Open Vocabularies (LOV),https://lov.linkeddata.es/dataset/lov/,Web portal for finding ontologies,,"metadata, data manager, researcher"
 maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,"DMP, IT support"
 MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,,"metadata, researcher, IT support, policy officer, plants"
+MIADE,http://www.psidev.info/intrinsically-disordered-proteins-workgroup,Minimum Information About Disorder Experiments (MIADE) standard,,"metadata, researcher, data manager, IDP"
 MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"metadata, researcher, data manager, plants"
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,
+MobiDB,https://mobidb.org/,A database of protein disorder and mobility annotations,biotools:mobidb,"IDP, researcher"
 MONARC,https://open-source-security-software.net/project/MONARC,A risk assessment tool that can be used to do Data Protection Impact Assessments,,"data protection, policy officer, human data"
 NeLS,https://nels.bioinfo.no,"Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data",biotools:nels,nels
 Nextflow,https://www.nextflow.io,Nextflow is a framework for data analysis workflow execution,,"IT support, data analysis"
 Ontobee,http://www.ontobee.org,A web portal to search and visualise ontologies,,"metadata, data manager, researcher"
 ONTOMATON,https://github.com/ISA-tools/OntoMaton,OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.,,"researcher, data manager, IT support"
+Open Definition Conformant Licenses,https://opendefinition.org/licenses/,Licenses that are conformant with the principles laid out in the Open Definition.,,"licensing, researcher, data manager, policy officer"
 OpenRefine,https://openrefine.org/,Data curation tool for working with messy data,,data quality
 Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format",fairsharing:biodbcore-001249,
+PCDDB,http://pcddb.cryst.bbk.ac.uk/,The Protein Circular Dichroism Data Bank,biotools:pcddb,"IDP, researcher"
+PDB,http://www.pdb.org,The Protein Data Bank (PDB),biotools:pdb,"researcher, IDP"
 Privacy Impact Assessment Tool,https://privaon.com/services/privacy-impact-assessment-tool/,"Privacy Impact Assessment Tool is a software, that allows you to carry out Privacy Impact Assessment (PIA) independently.",,"data protection, policy officer, human data"
 RD-Connect Genome Phenome Analysis Platform,https://rd-connect.eu/what-we-do/omics/gpap/,The RD-Connect GPAP is an online tool for diagnosis and gene discovery in rare disease research.,,"researcher, human data"
 RDA Standards,https://rd-alliance.github.io/metadata-directory/standards/,"Directory of standard metadata, divided into different research areas",,"metadata, researcher, data manager"
 Renamer4Mac,https://renamer.com/,File renaming software for Mac,,"data organisation, data manager, researcher"
+Repository Finder,https://repositoryfinder.datacite.org,Repository Finder can help you find an appropriate repository to deposit your research data. The tool is hosted by DataCite and queries the re3data registry of research data repositories.,,"data publication, researcher, data manager"
 Research Data Management Platform (RDMP),https://www.dundee.ac.uk/hic/researchdatamanagementplatform/,"Data management platform for automated loading, storage, linkage and provision of data sets",biotools:rdmp,"storage, IT support"
 Research Management Plan,https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan,Machine actionable DMPs.,,"DMP, researcher, data manager"
+Rightfield,https://rightfield.org.uk,RightField is an open-source tool for adding ontology term selection to Excel spreadsheets,,"researcher,metadata,data manager"
 Rstudio,https://rstudio.com,"Rstudio notebooks allow to share code, documentation",,"data analysis, IT support, researcher"
+SASBDB,https://www.sasbdb.org/,Small Angle Scattering Biological Data Bank,,"IDP, researcher"
 Schemapedia,https://schemapedia.com,Web portal for finding ontologies,,"metadata, data manager, researcher"
 Scientific Data's Recommended Repositories,https://www.nature.com/sdata/policies/repositories,"List of respositories recommended by Scinetific Data, contains both discipline-specific and general repositories.",,"data publication, researcher, data manager, IT support"
 SEEK,https://seek4science.org/,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.",biotools:seek,"storage, IT support, nels"
+SIFTS,https://www.ebi.ac.uk/pdbe/docs/sifts/,"Structure integration with function, taxonomy and sequence",,"researcher, IDP"
 Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).",fairsharing:5vtYGG,
 Singularity,https://sylabs.io,Singularity is a container platform.,,"IT support, data analysis"
 Snakemake,https://snakemake.github.io,Snakemake is a framework for data analysis workflow execution,biotools:snakemake,"IT support, data analysis"
@@ -86,12 +103,3 @@ The Genomic Standards Consortium (GSC),https://gensc.org/mixs/,Minimum Informati
 The Open Biological and Biomedical Ontology (OBO) Foundry,http://obofoundry.org,Collaborative effort to develob interoperable ontologies for the biological sciences,fairsharing:biodbcore-001083,"metadata, data manager, researcher"
 Tryggve ELSI Checklist,https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html,"A list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects",,"data classification, policy officer, data manager, human data"
 UniProt,https://www.uniprot.org/,Comprehensive resource for protein sequence and annotation data,fairsharing:s1ne3g,"metadata, researcher, IDP"
-MIADE,http://www.psidev.info/intrinsically-disordered-proteins-workgroup,Minimum Information About Disorder Experiments (MIADE) standard,,"metadata, researcher, data manager, IDP"
-DisProt,https://disprot.org/,A database of intrinsically disordered proteins,biotools:disprot,"IDP, researcher"
-PCDDB,http://pcddb.cryst.bbk.ac.uk/,The Protein Circular Dichroism Data Bank,biotools:pcddb,"IDP, researcher"
-SASBDB,https://www.sasbdb.org/,Small Angle Scattering Biological Data Bank,,"IDP, researcher"
-BMRB,https://bmrb.io/,Biological Magnetic Resonance Data Bank,,"IDP, researcher"
-IDPO,https://disprot.org/about,Intrinsically disordered proteins ontology,,"IDP, metadata"
-MobiDB,https://mobidb.org/,A database of protein disorder and mobility annotations,biotools:mobidb,"IDP, researcher"
-SIFTS,https://www.ebi.ac.uk/pdbe/docs/sifts/,"Structure integration with function, taxonomy and sequence",,"researcher, IDP"
-PDB,http://www.pdb.org,The Protein Data Bank (PDB),biotools:pdb,"researcher, IDP"

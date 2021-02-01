@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: About
 toc: false
 ---
 
@@ -34,5 +34,4 @@ For full details on licensing, please visit https://github.com/elixir-europe/rdm
 
 ## The editors of RDMKit
 
-
-{% include contributor-carousel.html custom="Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Mijke Jetten, Munazah Andrabi, Niclas Jareborg, Pinar Alper, Rob Hooft, Ulrike Wittig, Laura Portell Silva, Martin Cook"%}
+{% include contributor-carousel.html custom="Bert Droesbeke, Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Mijke Jetten, Munazah Andrabi, Niclas Jareborg, Pinar Alper, Rob Hooft, Ulrike Wittig, Laura Portell Silva, Martin Cook"%}

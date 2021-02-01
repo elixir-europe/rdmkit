@@ -1,18 +1,30 @@
 {%- assign sidebar = site.data.sidebars[page.sidebar] -%}
+<div class="blurb">
+    <p>Are you working in the Life Sciences with data? Do you feel overwhelmed when you think about Research Data
+        Management?</p>
+
+    <p>RDMKit is the portal to guide you through good data management practices from the beginning till the end of your
+        research project. Developed and managed by people who work every day with life science data, RDMKit has
+        guidelines, information and pointers, organised in many different ways to help you with any problem throughout
+        the data’s life cycle.</p>
+
+</div>
+
 <p class="centered mb-2"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
 <div class="embed-responsive embed-responsive-16by9 main_rdm">
     <object class="embed-responsive-item" type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
 </div>
+
 <p>Or find resources by:</p>
 <div class="flexbox">
     {%- for folder in sidebar.subitems -%}
-    {%- if folder.title != "Data Life Cycle" and folder.title != "All Tools and Resources" ] %}
+    {%- if folder.title != "Data life cycle" and folder.title != "All tools and resources" ] %}
     <div>
         <h2 class="button accordion no-anchor">{{folder.title}}</h2>
         <ul class="child-box accordion-panel">
-        {%- for folderitem in folder.subitems %}
-        <li><a href="{{folderitem.url | remove: "/"  }}">{{folderitem.title}}</a></li>
-        {%- endfor %}
+            {%- for folderitem in folder.subitems %}
+            <li><a href="{{folderitem.url | remove: " /" }}">{{folderitem.title}}</a></li>
+            {%- endfor %}
         </ul>
     </div>
     {% endif -%}

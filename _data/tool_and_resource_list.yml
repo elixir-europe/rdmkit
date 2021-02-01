@@ -1,4 +1,17 @@
 Tools:
+- description: Amnesia is a GDPR compliant high accuracy data anonymization tool
+  link: https://amnesia.openaire.eu/
+  name: Amnesia
+  tags:
+  - data classification
+- description: Plan and follow your data. Bring your Data Management Plans closer
+    to where data are generated, analysed and stored.
+  link: https://argos.openaire.eu/splash/
+  name: Argos
+  tags:
+  - DMP
+  - researcher
+  - data manager
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
     at providing practical know-how for responsible research.
   link: https://www.bbmri-eric.eu/elsi/knowledge-base/
@@ -12,6 +25,9 @@ Tools:
 - description: The Beacon protocol defines an open standard for genomics data discovery.
   link: https://beacon-project.io/
   name: Beacon
+  registry:
+    biotools: beacon
+    tess: Beacon
   tags:
   - researcher
   - data manager
@@ -33,10 +49,18 @@ Tools:
   - data organisation
   - data manager
   - IT support
+- description: Biological Magnetic Resonance Data Bank
+  link: https://bmrb.io/
+  name: BMRB
+  tags:
+  - IDP
+  - researcher
 - description: 'Specification for a standard API for plant data: plant material, plant
     phenotyping data'
   link: https://www.brapi.org
   name: BrAPI
+  registry:
+    tess: BrAPI
   tags:
   - IT support
   - plants
@@ -46,6 +70,7 @@ Tools:
   link: https://www.brenda-enzymes.org/
   name: BRENDA
   registry:
+    biotools: brenda
     fairsharing: etp533
     tess: BRENDA
 - description: File renaming software for Windows
@@ -60,12 +85,14 @@ Tools:
   link: http://www.cathdb.info/
   name: CATH
   registry:
+    biotools: cath
     fairsharing: xgcyyn
     tess: CATH
 - description: Dictionary of molecular entities focused on 'small' chemical compounds
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
   registry:
+    biotools: chebi
     fairsharing: 62qk8w
     tess: ChEBI
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures,
@@ -73,11 +100,24 @@ Tools:
   link: https://www.ebi.ac.uk/chembl/
   name: ChEMBL
   registry:
+    biotools: chembl
     fairsharing: m3jtpg
     tess: ChEMBL
+- description: Choose an open source license
+  link: https://choosealicense.com
+  name: Choose a license
+  registry:
+    tess: Choose a license
+  tags:
+  - licensing
+  - researcher
+  - data manager
+  - policy officer
 - description: Open source package management systemn
   link: https://docs.conda.io/en/latest/
   name: Conda
+  registry:
+    tess: Conda
   tags:
   - IT support
   - data analysis
@@ -92,12 +132,20 @@ Tools:
   link: https://copo-project.org/
   name: COPO
   registry:
-    biotools: COPO
+    biotools: copo
     fairsharing: biodbcore-001247
   tags:
   - metadata
   - researcher
   - plants
+- description: It helps you choose the right Creative Commons license for your needs.
+  link: https://creativecommons.org/choose/
+  name: Creative Commons License Chooser
+  tags:
+  - licensing
+  - researcher
+  - data manager
+  - policy officer
 - description: The Crop Ontology compiles concepts to curate phenotyping assays on
     crop plants, including anatomy, structure and phenotype.
   link: https://www.cropontology.org
@@ -115,7 +163,7 @@ Tools:
   link: https://daisy-demo.elixir-luxembourg.org
   name: DAISY
   registry:
-    biotools: DAISY
+    biotools: daisy
   tags:
   - IT support
   - policy officer
@@ -142,6 +190,8 @@ Tools:
 - description: Open source research data respository software.
   link: https://dataverse.org/
   name: DATAVERSE
+  registry:
+    tess: DATAVERSE
   tags:
   - storage
   - researcher
@@ -160,12 +210,21 @@ Tools:
   link: https://www.ncbi.nlm.nih.gov/gap/
   name: dbGAP
   registry:
+    biotools: dbgap
     fairsharing: 88v2k0
   tags:
   - data publication
   - researcher
   - IT support
   - human data
+- description: A database of intrinsically disordered proteins
+  link: https://disprot.org/
+  name: DisProt
+  registry:
+    biotools: disprot
+  tags:
+  - IDP
+  - researcher
 - description: Questionnaire, which generates a pre-filled a DMP
   link: https://dmp.vital-it.ch
   name: DMP Canvas Generator
@@ -193,6 +252,8 @@ Tools:
     data management plan templates for many major funders.
   link: https://dmponline.dcc.ac.uk/
   name: DMPonline
+  registry:
+    tess: DMPonline
   tags:
   - DMP
   - researcher
@@ -202,6 +263,13 @@ Tools:
     the major funders.
   link: https://dmponline.be
   name: DMPonline Belgium
+  tags:
+  - DMP
+  - researcher
+  - data manager
+- description: Build your Data Management Plan
+  link: https://dmptool.org
+  name: DMPTool
   tags:
   - DMP
   - researcher
@@ -271,6 +339,15 @@ Tools:
   - researcher
   - data manager
   - IT support
+- description: "EMBL-EBI\u2019s web portal for finding ontologies"
+  link: https://www.ebi.ac.uk/ols/index
+  name: EMBL-EBI Ontology Lookup Service
+  registry:
+    tess: EMBL-EBI Ontology Lookup Service
+  tags:
+  - metadata
+  - data manager
+  - researcher
 - description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
     data.
   link: https://www.ebi.ac.uk/submission/
@@ -279,18 +356,12 @@ Tools:
   - data publication
   - researcher
   - data manager
-- description: "EMBL-EBI\u2019s web portal for finding ontologies"
-  link: https://www.ebi.ac.uk/ols/index
-  name: EMBL-EBI Ontology Lookup Service
-  tags:
-  - metadata
-  - data manager
-  - researcher
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: http://www.ensembl.org/index.html
   name: Ensembl
   registry:
+    biotools: ensembl
     fairsharing: fx0mw7
     tess: Ensembl
 - description: Comparative analysis, data mining and visualisation for the genomes
@@ -331,6 +402,7 @@ Tools:
   link: https://europepmc.org/
   name: Europe PMC
   registry:
+    biotools: europe_pmc
     fairsharing: cmw6mm
     tess: Europe PMC
   tags:
@@ -405,6 +477,8 @@ Tools:
     small to very large projects
   link: https://git-scm.com/
   name: Git
+  registry:
+    tess: Git
   tags:
   - data organisation
   - data manager
@@ -429,6 +503,12 @@ Tools:
   registry:
     fairsharing: j0t0pe
     tess: Human Protein Atlas
+- description: Intrinsically disordered proteins ontology
+  link: https://disprot.org/about
+  name: IDPO
+  tags:
+  - IDP
+  - metadata
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   link: http://purl.obolibrary.org/obo/ICO.owl
@@ -452,6 +532,7 @@ Tools:
   link: https://www.ebi.ac.uk/interpro/
   name: InterPro
   registry:
+    biotools: interpro
     fairsharing: pda11d
     tess: InterPro
 - description: Integrated Rule-Oriented Data System (iRODS) is open source data management
@@ -459,7 +540,7 @@ Tools:
   link: https://irods.org/
   name: iRODS
   registry:
-    biotools: iRODS
+    biotools: irods
   tags:
   - storage
   - IT support
@@ -483,6 +564,8 @@ Tools:
 - description: Jupyter notebooks allow to share code, documentation
   link: https://jupyter.org
   name: Jupyter
+  registry:
+    tess: Jupyter
   tags:
   - IT support
   - data analysis
@@ -504,12 +587,22 @@ Tools:
     genetic resources maintained ex situ by genbanks.
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: MCPD
+  registry:
+    biotools: mcpd
   tags:
   - metadata
   - researcher
   - IT support
   - policy officer
   - plants
+- description: Minimum Information About Disorder Experiments (MIADE) standard
+  link: http://www.psidev.info/intrinsically-disordered-proteins-workgroup
+  name: MIADE
+  tags:
+  - metadata
+  - researcher
+  - data manager
+  - IDP
 - description: Minimum Information About a Plant Phenotyping Experiment
   link: https://www.miappe.org/
   name: MIAPPE
@@ -527,7 +620,16 @@ Tools:
   link: https://mint.bio.uniroma2.it/
   name: MINT
   registry:
+    biotools: mint
     fairsharing: 2bdvmk
+- description: A database of protein disorder and mobility annotations
+  link: https://mobidb.org/
+  name: MobiDB
+  registry:
+    biotools: mobidb
+  tags:
+  - IDP
+  - researcher
 - description: A risk assessment tool that can be used to do Data Protection Impact
     Assessments
   link: https://open-source-security-software.net/project/MONARC
@@ -548,6 +650,9 @@ Tools:
 - description: Nextflow is a framework for data analysis workflow execution
   link: https://www.nextflow.io
   name: Nextflow
+  registry:
+    biotools: nextflow
+    tess: Nextflow
   tags:
   - IT support
   - data analysis
@@ -566,9 +671,20 @@ Tools:
   - researcher
   - data manager
   - IT support
+- description: Licenses that are conformant with the principles laid out in the Open
+    Definition.
+  link: https://opendefinition.org/licenses/
+  name: Open Definition Conformant Licenses
+  tags:
+  - licensing
+  - researcher
+  - data manager
+  - policy officer
 - description: Data curation tool for working with messy data
   link: https://openrefine.org/
   name: OpenRefine
+  registry:
+    tess: OpenRefine
   tags:
   - data quality
 - description: The Orphadata platform provides the scientific community with comprehensive,
@@ -577,7 +693,25 @@ Tools:
   link: http://www.orphadata.org/cgi-bin/index.php
   name: Orphadata
   registry:
+    biotools: orphadata
     fairsharing: biodbcore-001249
+- description: The Protein Circular Dichroism Data Bank
+  link: http://pcddb.cryst.bbk.ac.uk/
+  name: PCDDB
+  registry:
+    biotools: pcddb
+  tags:
+  - IDP
+  - researcher
+- description: The Protein Data Bank (PDB)
+  link: http://www.pdb.org
+  name: PDB
+  registry:
+    biotools: pdb
+    tess: PDB
+  tags:
+  - researcher
+  - IDP
 - description: Privacy Impact Assessment Tool is a software, that allows you to carry
     out Privacy Impact Assessment (PIA) independently.
   link: https://privaon.com/services/privacy-impact-assessment-tool/
@@ -590,6 +724,8 @@ Tools:
     in rare disease research.
   link: https://rd-connect.eu/what-we-do/omics/gpap/
   name: RD-Connect Genome Phenome Analysis Platform
+  registry:
+    tess: RD-Connect Genome Phenome Analysis Platform
   tags:
   - researcher
   - human data
@@ -607,6 +743,15 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: Repository Finder can help you find an appropriate repository to deposit
+    your research data. The tool is hosted by DataCite and queries the re3data registry
+    of research data repositories.
+  link: https://repositoryfinder.datacite.org
+  name: Repository Finder
+  tags:
+  - data publication
+  - researcher
+  - data manager
 - description: Data management platform for automated loading, storage, linkage and
     provision of data sets
   link: https://www.dundee.ac.uk/hic/researchdatamanagementplatform/
@@ -619,16 +764,37 @@ Tools:
 - description: Machine actionable DMPs.
   link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
   name: Research Management Plan
+  registry:
+    tess: Research Management Plan
   tags:
   - DMP
   - researcher
   - data manager
+- description: RightField is an open-source tool for adding ontology term selection
+    to Excel spreadsheets
+  link: https://rightfield.org.uk
+  name: Rightfield
+  registry:
+    biotools: rightfield
+  tags:
+  - researcher
+  - metadata
+  - data manager
 - description: Rstudio notebooks allow to share code, documentation
   link: https://rstudio.com
   name: Rstudio
+  registry:
+    biotools: rstudio
+    tess: Rstudio
   tags:
   - data analysis
   - IT support
+  - researcher
+- description: Small Angle Scattering Biological Data Bank
+  link: https://www.sasbdb.org/
+  name: SASBDB
+  tags:
+  - IDP
   - researcher
 - description: Web portal for finding ontologies
   link: https://schemapedia.com
@@ -657,17 +823,26 @@ Tools:
   - storage
   - IT support
   - nels
+- description: Structure integration with function, taxonomy and sequence
+  link: https://www.ebi.ac.uk/pdbe/docs/sifts/
+  name: SIFTS
+  tags:
+  - researcher
+  - IDP
 - description: SILVA provides comprehensive, quality checked and regularly updated
     datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal
     RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).
   link: https://www.arb-silva.de/
   name: Silva
   registry:
+    biotools: silva
     fairsharing: 5vtYGG
     tess: Silva
 - description: Singularity is a container platform.
   link: https://sylabs.io
   name: Singularity
+  registry:
+    tess: Singularity
   tags:
   - IT support
   - data analysis
@@ -684,6 +859,7 @@ Tools:
   link: https://string-db.org/
   name: STRING
   registry:
+    biotools: string
     fairsharing: 9b7wvk
     tess: STRING
 - description: EGA is a service for permanent archiving and sharing of all types of
@@ -736,70 +912,5 @@ Tools:
     tess: UniProt
   tags:
   - metadata
-  - researcher
-  - IDP
-- description: Minimum Information About Disorder Experiments (MIADE) standard
-  link: http://www.psidev.info/intrinsically-disordered-proteins-workgroup
-  name: MIADE
-  tags:
-  - metadata
-  - researcher
-  - data manager
-  - IDP
-- description: A database of intrinsically disordered proteins
-  link: https://disprot.org/
-  name: DisProt
-  registry:
-    biotools: disprot
-  tags:
-  - IDP
-  - researcher
-- description: The Protein Circular Dichroism Data Bank
-  link: http://pcddb.cryst.bbk.ac.uk/
-  name: PCDDB
-  registry:
-    biotools: pcddb
-  tags:
-  - IDP
-  - researcher
-- description: Small Angle Scattering Biological Data Bank
-  link: https://www.sasbdb.org/
-  name: SASBDB
-  tags:
-  - IDP
-  - researcher
-- description: Biological Magnetic Resonance Data Bank
-  link: https://bmrb.io/
-  name: BMRB
-  tags:
-  - IDP
-  - researcher
-- description: Intrinsically disordered proteins ontology
-  link: https://disprot.org/about
-  name: IDPO
-  tags:
-  - IDP
-  - metadata
-- description: A database of protein disorder and mobility annotations
-  link: https://mobidb.org/
-  name: MobiDB
-  registry:
-    biotools: mobidb
-  tags:
-  - IDP
-  - researcher
-- description: Structure integration with function, taxonomy and sequence
-  link: https://www.ebi.ac.uk/pdbe/docs/sifts/
-  name: SIFTS
-  tags:
-  - researcher
-  - IDP
-- description: The Protein Data Bank (PDB)
-  link: http://www.pdb.org
-  name: PDB
-  registry:
-    biotools: pdb
-    tess: PDB
-  tags:
   - researcher
   - IDP

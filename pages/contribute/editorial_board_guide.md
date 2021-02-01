@@ -74,7 +74,7 @@ With each PR or merge to the master, some checks are done using GitHub actions. 
   * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
   * When a Pull Request (PR) or a draft PR related to an issue is created, link the PR to the issue.
   
-More information about these topics can be found in the Github documentation:
+More information about these topics can be found in the GitHub documentation:
 - [commenting on PRs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
 - [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
@@ -119,7 +119,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 
 {% include note.html content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
 
-### Advanced: Working on your own feature branch and pushing local changes
+### Advanced: working on your own feature branch and pushing local changes
 
 Just like with every change you want to make to this repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page.
 

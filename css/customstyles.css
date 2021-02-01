@@ -47,8 +47,9 @@ h3 {
 }
 
 /* Add space between an image and <h3> */
-figure + h3, .alert + h3 {
-  margin-top: 1.5em;
+
+figure+h3, .alert+h3 {
+    margin-top: 1.5em;
 }
 
 h4 {
@@ -67,7 +68,7 @@ h3+h4 {
 }
 
 strong {
-  color: #333;
+    color: #333;
 }
 
 /*
@@ -81,7 +82,7 @@ strong {
 }
 
 .default-label:hover {
-    color:var(--white-text);
+    color: var(--white-text);
     background-color: var(--subtle-text);
 }
 
@@ -458,7 +459,7 @@ ul li::marker {
 }
 
 .flexbox h2 {
-    background: #484848;
+    background: var(--footer-bg);
     margin: 0;
     color: white;
     transition: .2s background;
@@ -482,10 +483,10 @@ ul li::marker {
 
 .child-box a:link {
     display: block;
-    background: #eee;
+    background: var(--light-grey);
     margin: 0;
     text-decoration: none;
-    color: #000;
+    color: var(--main-text-color);
 }
 
 .child-box a:visited {
@@ -503,12 +504,12 @@ svg {
 }
 
 .embed-responsive.embed-responsive-16by9.main_rdm {
-  padding-bottom: 65%;
-  margin-bottom: 3em;
+    padding-bottom: 65%;
+    margin-bottom: 3em;
 }
 
 .embed-responsive {
-  overflow: visible;
+    overflow: visible;
 }
 
 .centered {
@@ -521,38 +522,39 @@ svg {
 }
 
 /* New styles for the dropdown boxes */
-.flexbox > div {
-  position: relative;
+
+.flexbox>div {
+    position: relative;
 }
 
 .accordion:hover {
-  background-color: var(--blue-xx-dark);
-  background-color: var(--hover-grey);
+    background-color: var(--blue-xx-dark);
+    background-color: var(--hover-grey);
 }
 
 .accordion.active {
-  background-color: var(--blue-xx-dark);
-  background-color: #e46d21;
+    background-color: var(--blue-xx-dark);
+    background-color: #e46d21;
 }
 
 .accordion-panel {
-  padding: 0;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  margin-bottom: 1em;
-  z-index: 100;
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 1em;
+    z-index: 100;
 }
 
-.active + .accordion-panel {
-  border: 1px solid #ddd;
-  border-width: 0 1px 1px;
-  border-radius: 0 0 5px 5px;
+.active+.accordion-panel {
+    border: 1px solid #ddd;
+    border-width: 0 1px 1px;
+    border-radius: 0 0 5px 5px;
 }
 
 ul.accordion-panel li {
-  margin: 5px 0 5px 10px;
+    margin: 5px 0 5px 10px;
 }
 
 .accordion::before {
@@ -570,6 +572,7 @@ ul.accordion-panel li {
 }
 
 /* Desktop only */
+
 .child-box a:link {
     margin: 0 10px 0 0;
 }
@@ -587,26 +590,25 @@ ul.accordion-panel li {
         margin: 0 10px 0 0;
     }
     .embed-responsive.embed-responsive-16by9.main_rdm {
-      padding-bottom: 55%;
+        padding-bottom: 55%;
     }
-
     .accordion-panel {
-      position: absolute;
-      left: -20px;
-      margin-left: 20px;
-      box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
+        position: absolute;
+        left: -20px;
+        margin-left: 20px;
+        box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
     }
 }
 
 @media (min-width: 992px) {
     .embed-responsive.embed-responsive-16by9.main_rdm {
-      padding-bottom: 42%;
+        padding-bottom: 42%;
     }
 }
 
 @media (min-width: 1200px) {
     .embed-responsive.embed-responsive-16by9.main_rdm {
-      padding-bottom: 35%;
+        padding-bottom: 35%;
     }
 }
 
@@ -653,23 +655,44 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 /* Contributors carousel homepage */
+
 .contributors .carousel-item {
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
-.carousel-item.active,
-.carousel-item.next{
+.carousel-item.active, .carousel-item.next {
     display: flex;
 }
 
+
+.carousel-control.left {
+    background-image: none;
+    writing-mode: vertical-lr;
+}
+
+.carousel-control.right {
+    background-image: none;
+    writing-mode: vertical-rl;
+}
+
+.carousel-control {
+    width: 5%;
+    opacity: 100%;
+    color:var(--primary-theme-color);
+}
+
+.carousel-control:hover {
+    color: var(--hover-grey);
+}
+
+
 .hall-of-fame-hero {
-    width: 18%;
+    width: 15%;
     background-color: var(--light-grey);
-    padding: 20px 0px;
+    padding: 15px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -677,7 +700,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .hall-of-fame-hero:hover {
-    background-color: var(--footer-bg);
+    background-color: var(--hover-grey);
     color: var(--light-grey);
 }
 
@@ -685,11 +708,12 @@ a.accordion-toggle, a.accordion-collapsed {
     margin-top: 10px;
     font-size: 0.9em;
     text-align: center;
+    height: 2em;
 }
 
-.item .hall-of-fame-hero img{
+.item .hall-of-fame-hero img {
     border-radius: 50%;
-    width: 8em;
+    width: 7em;
 }
 
 .social-icons {
@@ -732,8 +756,7 @@ a.accordion-toggle, a.accordion-collapsed {
         font-size: 0.7em;
         height: 22px;
     }
-
-    .item .hall-of-fame-hero img{
+    .item .hall-of-fame-hero img {
         width: 5em;
     }
     .social-icons a {
@@ -747,7 +770,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 @media (max-width: 600px) {
-    .item .hall-of-fame-hero img{
+    .item .hall-of-fame-hero img {
         width: 4em;
     }
     .social-icons a {
@@ -761,20 +784,27 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 @media (max-width: 400px) {
-    .item .hall-of-fame-hero img{
-        width: 3em;
+    .item .hall-of-fame-hero img {
+        width: 1.5em;
     }
     .social-icons a {
-        line-height: 2.5ex;
-        width: 2.5ex;
-        height: 2.5ex;
-        font-size: 12px;
+        line-height: 2ex;
+        width: 2ex;
+        height: 2ex;
+        font-size: 11px;
     }
     .social-icons {
-        height: 2.5ex;
+        height: 2ex;
     }
 }
 
+.blurb {
+    margin: 50px 0px;
+    /* background-color: var(--light-grey); */
+    border-radius: 4px;
+    /* padding: 20px; */
+    font-size: 1.2em;
+}
 
 /* navgoco sidebar styles (customized) */
 
@@ -1150,6 +1180,7 @@ hr.faded {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
+
 .docimage {
     margin: 20px 0px 20px 0px;
 }
@@ -1366,7 +1397,8 @@ dd {
 }
 
 .alert {
-    margin: 1.5em 0;;
+    margin: 1.5em 0;
+    ;
     border-color: transparent;
 }
 
@@ -1455,7 +1487,7 @@ ul#mysidebar {
     border: 1px solid #dedede;
 }
 
- /* no underline on anchor icons */
+/* no underline on anchor icons */
 
 *:hover>.anchorjs-link {
     transition: color .25s linear;
@@ -1467,7 +1499,6 @@ ul#mysidebar {
     background-color: #444;
     padding: 10px;
 }
-
 
 .btn-default {
     background-color: var(--light-grey);
