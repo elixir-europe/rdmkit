@@ -3,7 +3,7 @@
 # RDMKit
 The Elixir Research Data Management Kit
 
-RDMKit is an online guide containing good data management practices applicable to research projects from the beginning to the end. Developed and managed by people who work every day with life science data,  RDMKit has guidelines, information and pointers, organised in many different ways. 
+RDMKit is an online guide containing good data management practices applicable to research projects from the beginning to the end. Developed and managed by people who work every day with life science data, RDMKit has guidelines, information and pointers, organised in many different ways to help you with problems throughout the data’s life cycle.
 
 You will find helpful advice for where you are in the data’s life cycle (from collection planning to archiving) and for what kind of data problem you may have. Our up to date tools and resources lists are smartly cross-linked to these guidelines.  We also have tailored help for different areas of biology and their specialist data types, and real examples of how tools have been assembled to support data management.  
 
