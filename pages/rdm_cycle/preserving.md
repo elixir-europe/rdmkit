@@ -4,7 +4,7 @@ keywords: [storage, archiving]
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 ---
 
-## What is Data Preserving?
+## What is data preserving?
 
 Data preservation consists of a series of activities necessary to ensure safety, integrity and accessibility of data for as long as necessary, even decades. Data preservation is indeed more than just data storage and backup, since data can be stored and backed up without being preserved. Data preservation prevents data from becoming unavailable and unusable over time through appropriate activities, such as:
 * Ensure data safety and integrity.
@@ -13,7 +13,7 @@ Data preservation consists of a series of activities necessary to ensure safety,
 * Ensure that data is organised and described with appropriate metadata and documentation to be always understandable and reusable.
 
 
-## Why is Data Preserving important?
+## Why is data preserving important?
 
 The main reasons for research data preservation are:
 * Guarantee that your data can be verified and reproduced for several years after the end of the project.
@@ -22,7 +22,7 @@ The main reasons for research data preservation are:
 * Preserve data that have significant value for an organisation, a Nation, the environment or  for the entire society.
 
 
-## What should be considered for Preserving Data?
+## What should be considered for preserving data?
 
 * Not all data should be preserved. Preservation should be applied to an appropriate selection of data, since it takes relevant effort and costs. Common criteria to select the data to preserve for a certain amount of time are:
   * Funder, publisher and institution policies (usually, data should be preserved for at least 5 or 10 years after the end of the project).
@@ -49,7 +49,7 @@ The main reasons for research data preservation are:
 
 {% include pagelist.html tag="preserve" %}
 
-## Where can training materials and events about Data Preserving be found?
+## Where can training materials and events about data preserving be found?
 
 {% include tess.html search="Data Preserving" %}
 

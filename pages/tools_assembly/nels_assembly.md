@@ -1,20 +1,20 @@
 ---
-title: NeLS assembly 
+title: Nels assembly 
 contributors: [Korbinian Bösl, Erik Hjerde]
 summary: This is an example of a Data Management tool assembly, NeLS as an infrastructure is funded and aimed for researchers in Norway and their collaborators.
 ---
 
-## What is the NeLS Data Management tool assembly?
+## What is the NeLS data management tool assembly?
 
 The [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no/) is an infrastructure provided by [ELIXIR Norway](https://elixir.no/). NeLS provides necessary tools for Data Management and covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offers [Data Storage](storage) capacities.
 
-## Who can use the NeLS Data Management tool assembly?
+## Who can use the NeLS data management tool assembly?
 
 NeLS and the underlying infrastructure are accessible for researchers in Norway and their collaborators. Eligible researchers can apply for storage quotas and get support through the National (Norwegian) bioinformatics support desk [contact@bioinfo.no](mailto:contact@bioinfo.no).  Most of the tools in NeLS are open source and can be reused.
 
 
 
-## For what can you use the NeLS Data Management tool assembly?
+## For what can you use the NeLS data management tool assembly?
 
 {% include image.html file="NeLS_toolkit.svg" caption="Figure 1. The Norwegian e-Infrastructure for Life Sciences (NeLS) Data Management tool assembly." alt="NeLS RDMKit" %}
 
@@ -54,11 +54,11 @@ Technical article about [Norwegian e-Infrastructure for Life Sciences (NeLS)](ht
 
 [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
 
-## Where can I find training materials and events about the NeLS Data Management tool assembly?
+## Where can I find training materials and events about the NeLS data management tool assembly?
 
 {% include tess.html search="Norway" %}
 
 
-## What tools are used within the NeLS Data Management tool assembly?
+## What tools are used within the NeLS data management tool assembly?
 
 {% include toollist.html tag="nels" %}

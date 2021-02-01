@@ -1,5 +1,5 @@
 ---
-title: "Privacy"
+title: Privacy
 toc: false
 ---
 
@@ -35,7 +35,7 @@ We ask for your permission to set the cookie when you visit the site, but if you
 
 Please contact [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org) if you have any queries concerning the data we may have.
 
-## Your Github information
+## Your GitHub information
 If you are a contributor to the site then you will be automatically listed as a contributor, with your profile picture (if you have one) and a link to your GitHub pages. If you would like to be removed from the contributor list then please contact [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org).
 
 You may also want to see the [GitHub Privacy Statement](https://docs.github.com/en/github/site-policy/github-privacy-statement).

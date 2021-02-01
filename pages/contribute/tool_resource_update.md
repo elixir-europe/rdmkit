@@ -6,7 +6,7 @@ summary: How to add a tool or resource to RDMKit
 
 ## Way of working
 
-The tools or resources you will find on pages are a filtered set from a [bigger list](all_tools_and_resources). This filtering is done using tags. The general tool/resource list is based on the [csv file](https://github.com/elixir-europe/rdmkit/blob/master/_data/main_tool_and_resource_list.csv) in the `_data` directory of the RDMKit repository. Tools and resources are manually linked to [FAIRsharing.org](https://fairsharing.org/). The link with [Bio.tools](https://bio.tools) is done manually in the scenarios that the automatic lookup fail. Finally, the link with [TeSS](https://tess.elixir-europe.org/) is fully automatic and weekly updated. If changes to this file are pushed to Github, a Github Bot will generate a Pull Request (PR) with the changes of the csv file applied to the main data file of the website (a yaml file).
+The tools or resources you will find on pages are a filtered set from a [bigger list](all_tools_and_resources). This filtering is done using tags. The general tool/resource list is based on the [csv file](https://github.com/elixir-europe/rdmkit/blob/master/_data/main_tool_and_resource_list.csv) in the `_data` directory of the RDMKit repository. Tools and resources are manually linked to [FAIRsharing.org](https://fairsharing.org/). The link with [Bio.tools](https://bio.tools) is done manually in the scenarios that the automatic lookup fail. Finally, the link with [TeSS](https://tess.elixir-europe.org/) is fully automatic and weekly updated. If changes to this file are pushed to GitHub, a GitHub Bot will generate a Pull Request (PR) with the changes of the csv file applied to the main data file of the website (a yaml file).
 
 {% include important.html content="The link with TeSS is automatically done using GitHub actions and is weekly updated. These automatic links are not seen in the table. The search query to TeSS for a tool or resource can be overwritten in the registry column of the main csv tool table." %}
 
@@ -34,9 +34,9 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 ## Making changes
 
-Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the Github website itself. 
+Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the GitHub website itself. 
 
-### Simple way: changing the google spreadsheet
+### Simple way: changing the Google spreadsheet
 
 For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
 - Open this [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).

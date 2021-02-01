@@ -1,22 +1,22 @@
 ---
-title: Global Problem Title (e.g. Metadata Management)
+title: Global problem title (e.g. metadata management)
 keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags" or "Role Tags"--->]
 search: exclude
 ---
 
-## "Concrete Problem 1, Formulated as a Question" <!-- Example: What is the best way to name a file?-->
+## Concrete problem 1, formulated as a question <!-- example: what is the best way to name a file?-->
  
-### Description <!-- Do NOT delete this heading and write your text below it -->
+### Description <!-- do not delete this heading and write your text below it -->
 
 Short explanation of what this problem is about.
 
-### Considerations <!-- Do NOT delete this heading and write your text below it -->
+### Considerations <!-- do not delete this heading and write your text below it -->
 
 * Structured in bullet points as much as possible, detailing things to consider about this problem in order to be able to find the right solution.
 
-### Solutions <!-- Do NOT delete this heading and write your text below it -->
+### Solutions <!-- do not delete this heading and write your text below it -->
 
 By using bullet point style as much as possible, try to describe when, why and for what is best to use a specific tool or resource. 
 Avoid making long list of links to tools and resources.
@@ -27,18 +27,18 @@ Make sure to add the tools and resources mentioned in the text in the main "tool
 * Bullet point solution 2
 
 
-## "Concrete Problem 2, Formulated as a Question" <!-- Example: Where to find ontologies?-->
+## Concrete problem 2, formulated as a question <!-- example: where to find ontologies?-->
  
-### Description <!-- Do NOT delete this heading and write your text below it -->
+### Description <!-- do not delete this heading and write your text below it -->
 Same as above
 
-### Considerations <!-- Do NOT delete this heading and write your text below it -->
+### Considerations <!-- do not delete this heading and write your text below it -->
 Same as above
 
-### Solutions <!-- Do NOT delete this heading and write your text below it -->
+### Solutions <!-- do not delete this heading and write your text below it -->
 Same as above
 
-## External links <!-- Put this heading between the symbols used for this sentence if you don't use this paragraph -->
+## External links <!-- put this heading between the symbols used for this sentence if you don't use this paragraph -->
 (Optional section)
 * Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above.
 

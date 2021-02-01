@@ -1,7 +1,5 @@
 ---
-title: "Plant Sciences"
-keywords: optional
-search: exclude
+title: Plant sciences
 contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
 tags: [metadata]
 ---
@@ -13,10 +11,10 @@ Data integration and reuse are imperative in this domain, as it relies on unders
 
 The challenges to data integration stem from the multiple levels of heterogeneity in this domain. It encompasses a variety of species, ranging from model organisms, to crop species, to wild plants such as forest trees. These often need to be detailed at infra-specific levels (e.g. subspecies, variety), but naming at these levels sometimes lacks consensus. Studies can take place in a diversity of settings including indoor (e.g. growth chamber, greenhouse) and outdoor settings (e.g. cultivated field, forest) which differ fundamentally on the requirements and manner of characterizing the environment. Phenotypic data can be collected manually or automatically (by sensors and drones), and be very diverse in nature, spanning physical measurements, the results of biochemical assays, and images. Thus the extension and depth of metadata required to describe a plant experiment in a FAIR-compliant way is very demanding for researchers.
 
-Another particularity of this domain is the absense of central deposition databases for plant phenotyping data. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This raises challenges to finding and accessing plant phenotyping data, as well as interconnecting all datasets produced in projects that encompass molecular studies and phenotyping experiments.
+Another particularity of this domain is the absence of central deposition databases for plant phenotyping data. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This raises challenges to finding and accessing plant phenotyping data, as well as interconnecting all datasets produced in projects that encompass molecular studies and phenotyping experiments.
 
 
-## Plant Phenotyping Metadata Management
+## Plant phenotyping metadata management
  
 ### Description
 To ensure compliance with the FAIR principles in plant phenotyping datasets, it is highly recommended that metadata collection is contemplated from the start of the experiment and that the working environment facilitates (meta)data collection, storage, and validation throughout the project, up to the publication.
@@ -49,14 +47,14 @@ Detailed metadata needs to be captured on a number of aspects. One of the most c
 * Data should be deposited into one of the many repositories that implement BrAPI, as this enables both validation and findability, through the [FAIDARE plant data discovery service](https://urgi.versailles.inrae.fr/faidare/).
 
 
-## Plant Data Deposition
+## Plant data deposition
  
 ### Description
 Finally you need to identify where to can deposit and publish the plant phenotyping data, given that there is no global centralized archives for that type of data.
 You are managing your own repository of plant phenotyping data and you feed it from datasets produced in different collaborative projects. Some partners of these projects use their own data management platforms, while others collect data manually into excel spreadsheets. You want to ensure that the uptake of the data from your partners and its import in your repository is easy and includes a step of validation of the metadata upon intake.
 
 ### Considerations
-* Are the data sets and databases MIAPPE compliant?
+* Are the datasets and databases MIAPPE compliant?
 * With whom (individual researchers and/or data management platforms) and how (manual and/or automated) will you exchange data?
 
 ### Solutions
@@ -72,7 +70,7 @@ You are managing your own repository of plant phenotyping data and you feed it f
 ## Keep the connection between phenotyping and genomic data
  
 ### Description 
-You have set up an experiment in which you are studying a panel of genetic resources in different conditions. You take various phenotyping measurements on the plants themselves and you collect samples at different development stages to perform transcriptomic and metabolomic analysis. You want to ensure that you keep the link between the plant material in the field, their phenotypes and the results obtained in transcriptomics and metabolomics in the data sets that will be generated and when possible published in international archives (transcriptome and metabolome data).
+You have set up an experiment in which you are studying a panel of genetic resources in different conditions. You take various phenotyping measurements on the plants themselves and you collect samples at different development stages to perform transcriptomic and metabolomic analysis. You want to ensure that you keep the link between the plant material in the field, their phenotypes and the results obtained in transcriptomics and metabolomics in the datasets that will be generated and when possible published in international archives (transcriptome and metabolome data).
 
 ### Considerations
 * The key informations for integrating phenotyping and genomic experiments are the identifiers of the different varieties/accessions that constitute the panel of genetic resources that are phenotyped and the identifiers of the samples that are collected from these varieties/accessions for transcriptome and metabolome analysis. these identifiers are generated by distinct groups of people: 
