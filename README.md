@@ -12,17 +12,17 @@ Our goal is to make data management easier for you, and to help you make your da
 
 ## Contribute
 
-RDMKit is an open community project, and you are welcome to join us! The content of the material is developed in Markdown and a templating system ([Jekyll](http://jekyllrb.com/)) is used to format the Markdown pages and generate a website at ([https://rdm.elixir-europe.org/](https://rdm.elixir-europe.org/)).
+RDMKit is an open community project, and you are welcome to join us! The content of the material is developed in Markdown and a templating system ([Jekyll](http://jekyllrb.com/)) is used to format the Markdown pages and generate a website at ([https://rdmkit.elixir-europe.org/](https://rdmkit.elixir-europe.org/)).
 
 Do you want to help with this project? Please check out following pages for more information:
 
-* [Code of Conduct](https://rdm.elixir-europe.org/CODE_OF_CONDUCT)
-* [How to contribute](https://rdm.elixir-europe.org/how_to_contribute)
+* [Code of Conduct](https://rdmkit.elixir-europe.org/CODE_OF_CONDUCT)
+* [How to contribute](https://rdmkit.elixir-europe.org/how_to_contribute)
 
 
 Do you which to contact the editors of this project? Use [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
 
-If you want to build the website locally, please have a look at our [tutorial](https://rdm.elixir-europe.org/working_with_git.html#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser).
+If you want to build the website locally, please have a look at our [tutorial](https://rdmkit.elixir-europe.org/working_with_git.html#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser).
 
 
 ## RDMKit is an ELIXIR Converge project

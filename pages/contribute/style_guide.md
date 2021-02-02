@@ -54,7 +54,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       | <span style="display: inline-block; width: 20px; height: 20px; background: #3e3e3e;"></span> | #3e3e3e | Dark gray | Footer background |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #efefef;"></span> | #efefef | Light gray | Box backgrounds |
   * **Fonts:** Lato is the only font used.
-  * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](https://rdm.elixir-europe.org/how_to_contribute.html)).
+  * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. (To do: agreed styles for boxes, arrows, and icons for things like users and databases.)
   * **Images:**
     * Do not use images to display text.
@@ -79,4 +79,4 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Should contain the same words as the filename where this title points to. 
 
 ## How to suggest amendments or additions to this style guide
-[Open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](https://rdm.elixir-europe.org/how_to_contribute.html).
+[Open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](how_to_contribute).

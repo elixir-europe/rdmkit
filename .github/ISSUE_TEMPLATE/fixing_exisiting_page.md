@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Link to the page of interest**
-https://rdm.elixir-europe.org/....
+https://rdmkit.elixir-europe.org/....
 
 
 **Describe what you would change to the page**

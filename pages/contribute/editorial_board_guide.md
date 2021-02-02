@@ -59,7 +59,7 @@ Optional metadata/frontmatter:
 
 - Markdown files should be named without capitals and without spaces (replace them with underscores).
 - Make sure that the markdown file has a unique name.
-- If the markdown file is named *example.md*, the page will be found at https://rdm.elixir-europe.org/example.
+- If the markdown file is named *example.md*, the page will be found at https://rdmkit.elixir-europe.org/example.
 - By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found [here](#find-your-newly-added-page-back-on-the-website).
 
 ### GitHub checks
@@ -115,7 +115,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 8. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
      {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
 
-9. If the markdown file is named *example.md* the page will be rendered at https://rdm.elixir-europe.org/example. This link can be provided to the contributor through the issue.
+9. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
 
 {% include note.html content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
 
@@ -126,7 +126,7 @@ Just like with every change you want to make to this repo, it is possible to do 
 
 ## Find your newly added page back on the website
 
-By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://rdm.elixir-europe.org/markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
+By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://rdmkit.elixir-europe.org/markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
 
 ### Linking pages in the sidebar and frontpage
 

@@ -39,10 +39,10 @@ If you want to become competent in these areas or build capacity in your institu
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
 ## Common issues
-* [Data Analysis](https://rdm.elixir-europe.org/data_analysis.html)
-* [Data Organisation](https://rdm.elixir-europe.org/data_organisation.html)
-* [Data Transfer](https://rdm.elixir-europe.org/data_transfer.html)
-* [Storage](https://rdm.elixir-europe.org/storage.html)
+* [Data Analysis](data_analysis)
+* [Data Organisation](data_organisation)
+* [Data Transfer](data_transfer)
+* [Storage](storage)
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)

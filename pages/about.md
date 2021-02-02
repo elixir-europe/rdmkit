@@ -24,7 +24,7 @@ More than ever, scientists need relevant tools and guidance to better manage the
 RDMKit was developed with funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing contents for RDMKit. 
 
 ## How to cite the RDMKit
-ELIXIR (2020) Research Data Management Kit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: https://rdm.elixir-europe.org
+ELIXIR (2020) Research Data Management Kit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: https://rdmkit.elixir-europe.org
 
 The ELIXIR Research Data Management Kit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
 The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.

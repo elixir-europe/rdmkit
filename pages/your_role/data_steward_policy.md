@@ -42,10 +42,10 @@ If you want to become competent in these areas or build capacity in your institu
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
 ## Common issues
-* [Compliance Monitoring & Measurement](https://rdm.elixir-europe.org/compliance_monitoring.html) 
-* [Data Classification](https://rdm.elixir-europe.org/data_classification.html)
-* [Data Management Plan](https://rdm.elixir-europe.org/data_management_plan.html)
-* [Licensing](https://rdm.elixir-europe.org/licensing.html)
+* [Compliance Monitoring & Measurement](compliance_monitoring) 
+* [Data Classification](data_classification)
+* [Data Management Plan](data_management_plan)
+* [Licensing](hlicensing)
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
