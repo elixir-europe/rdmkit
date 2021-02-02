@@ -8,7 +8,7 @@ tags: [share, reuse, data manager, policy officer]
 ## Why should you assign a licence to your research data?
  
 ### Description 
-Loosely said, a licence defines what a user is allowed to do with a data set. This can take into account ownership rights (copyright) as well as subject rights if the data is describing human beings.
+Loosely said, a licence defines what a user is allowed to do with a dataset. This can take into account ownership rights (copyright) as well as subject rights if the data is describing human beings.
 
 There are large differences between how copyrights and subject rights are to be addressed!
 * Complying with copyright is primarily the responsibility of the user of the data. Copyright laws allow only the creator of a work to reproduce and use it. If anyone else wants to use the work, then that person needs explicit permission from the holder of the copyright. A copyright licence describes the nature of this agreement, and does not need a signature: the user can never deny the existence of any conditions, because without the licence they would not be able to use the work at all. 
@@ -17,11 +17,11 @@ There are large differences between how copyrights and subject rights are to be 
 Licensing is an important aspect of meeting the R (reusable) principle in FAIR data management. As part of the publication process, you need to decide under which licence the data is released. 
 
 ### Considerations
-* If you are producing a data set and make it available to others, you should be explicit about what others are allowed to do with this. A document describing that is called a licence.
-* If you are re-using a data set that comes from somewhere, you will want to have a licence that explains what you can do with it. Without a licence, reusing a data set could be setting you up for legal trouble.
+* If you are producing a dataset and make it available to others, you should be explicit about what others are allowed to do with this. A document describing that is called a licence.
+* If you are reusing a dataset that comes from somewhere, you will want to have a licence that explains what you can do with it. Without a licence, reusing a dataset could be setting you up for legal trouble.
 * Note that different interpretations of copyright laws think differently about copyrights on data. Under some jurisdictions, some data is explicitly not subject to copyrights. An example is data describing the earth under the laws of the United States of America. Copyright law specifies that it only applies to a "creative work", and arguably, just collecting data does not have sufficiently creative steps to claim copyrights. 
   * Relying on this as a reuser of data, however, is dangerous. Look for a license and apply it.
-  * As a data producer you should be aware that you may not be able to uphold licence restrictions in court, because it may be decided that the data set is not copyrightable in the first place. It is therefore best to apply a permissive licence, not asserting strong copyrights.
+  * As a data producer you should be aware that you may not be able to uphold licence restrictions in court, because it may be decided that the dataset is not copyrightable in the first place. It is therefore best to apply a permissive licence, not asserting strong copyrights.
 * Be sure of data ownership before publishing data. 
   * Are there rights belonging to a third party?
 
