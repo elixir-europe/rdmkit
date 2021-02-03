@@ -1,5 +1,6 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 title: Main sidebar
+version: 0.3.2
 subitems:
   - title: Data Life Cycle
     subitems:
@@ -22,6 +23,9 @@ subitems:
         url: /marine_metagenomics.html
       - title: Human Data
         url: /human_data.html
+        subitems:
+          - title: About
+            url: /about.html
       - title: Biomolecular Simulation Data
         url: /biomolecular_simulation_data.html
       - title: Intrinsically Disordered Proteins

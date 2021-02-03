@@ -29,33 +29,9 @@ function external_new_window() {
   }
 }
 
-/*
-* Dropdown boxes for the home page
-*/
-document.addEventListener('DOMContentLoaded', () => {
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var panelWidth = $(this).innerWidth();
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        if ($(window).width() > 600) {
-          panel.style.maxHeight = "225px";
-          panel.style.overflowY = "scroll";
-          panel.style.width = panelWidth + "px";
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      }
-    });
-  }
-});
-
+/**
+ * Collapsing sidebar
+ */
 $(document).ready(function() {
 	$('.menu li:has(ul)').click(function(e) {
 		e.preventDefault();

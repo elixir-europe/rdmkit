@@ -153,6 +153,12 @@ ul#results-container {
 
 /*-----Sidebar-----*/
 
+.sidebarTitle {
+    margin: 11px 0px;
+    font-weight: 800;
+    font-size: 1.4em;
+}
+
 .container-menu .menu {
     margin-right: 30px;
 }
@@ -189,8 +195,8 @@ ul#results-container {
     background-color: transparent;
 }
 
-.container-menu .menu ul li a:hover, .container-menu .menu ul li.active a {
-    background-color: #f79d59;
+.container-menu .menu ul li ul li a {
+    padding-left: 60px;
 }
 
 .container-menu .menu ul {
@@ -267,7 +273,6 @@ li ul .sidebar_rdm_sub {
 
 /*-----Table properties-----*/
 
-
 table {
     display: block;
     overflow-x: auto;
@@ -283,7 +288,6 @@ table>tbody>tr>th, table>tfoot>tr>th, table>thead>tr>td, table>tbody>tr>td, tabl
 table>thead>tr>th {
     border-bottom: 2px solid var(--light-grey);
 }
-
 
 /*-----Footer-----*/
 
@@ -552,92 +556,5 @@ table>thead>tr>th {
 @media (min-width: 1200px) {
     .ratio.main_rdm {
         padding-bottom: 35%;
-    }
-}
-
-/*-----Dropdown menu on index page-----*/
-
-.flexbox {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 250px;
-}
-
-.flexbox h2, .child-box a {
-    border-radius: 4px;
-    padding: 10px 20px 12px;
-}
-
-.flexbox h2 {
-    background: #484848;
-    margin: 0;
-    color: white;
-    transition: .2s background;
-    font-weight: normal;
-    font-size: 130%;
-}
-
-.flexbox a:hover {
-    text-decoration: none;
-}
-
-.flexbox h2:hover {
-    cursor: pointer;
-}
-
-.child-box {
-    list-style-type: none;
-    padding: 0;
-    margin: 0 0 1em;
-}
-
-.child-box a:link {
-    display: block;
-    background: #eee;
-    margin: 0;
-    text-decoration: none;
-    color: #000;
-}
-
-.child-box a:visited {
-    color: #000;
-}
-
-.child-box a:hover {
-    text-decoration: none;
-    background: #ddd;
-}
-
-.flexbox .active-button {
-    background: var(--primary-theme-color);
-    border-color: transparent;
-}
-
-.flexbox>div {
-    position: relative;
-}
-
-/* Desktop only */
-
-.child-box a:link {
-    margin: 0 10px 0 0;
-}
-
-/* For larger screens */
-
-@media only screen and (min-width: 500px) {
-    .flexbox {
-        flex-direction: row;
-    }
-    .flexbox>div {
-        width: 25%;
-    }
-    .flexbox h2 {
-        margin: 0 10px 0 0;
-    }
-    .accordion-panel {
-        position: absolute;
-        left: -20px;
-        margin-left: 20px;
     }
 }
