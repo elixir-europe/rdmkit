@@ -464,7 +464,7 @@ ul li::marker {
     color: white;
     transition: .2s background;
     font-weight: normal;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 .flexbox a:hover {
