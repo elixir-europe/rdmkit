@@ -1,6 +1,5 @@
 ---
 title: ELIXIR Research Data Management Kit
-hide_sidebar: true
 toc: false
 ---
 
