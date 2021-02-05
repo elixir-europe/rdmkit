@@ -52,6 +52,8 @@ Tools:
 - description: Biological Magnetic Resonance Data Bank
   link: https://bmrb.io/
   name: BMRB
+  registry:
+    biotools: bmrb
   tags:
   - IDP
   - researcher
@@ -163,7 +165,7 @@ Tools:
   link: https://daisy-demo.elixir-luxembourg.org
   name: DAISY
   registry:
-    biotools: daisy
+    biotools: Data_Information_System_DAISY
   tags:
   - IT support
   - policy officer
@@ -495,6 +497,19 @@ Tools:
   - data organisation
   - IT support
   - data manager
+- description: HumanMine integrates many types of human data and provides a powerful
+    query engine, export for results, analysis for lists of data and FAIR access via
+    web services.
+  link: https://www.humanmine.org/
+  name: HumanMine
+  registry:
+    biotools: humanmine
+  tags:
+  - data organisation
+  - data manager
+  - researcher
+  - human data
+  - data analysis
 - description: The Human Protein Atlas contains information for a large majority of
     all human protein-coding genes regarding the expression and localization of the
     corresponding proteins based on both RNA and protein data.

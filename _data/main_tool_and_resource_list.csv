@@ -18,7 +18,7 @@ Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJq
 COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:copo, fairsharing:biodbcore-001247","metadata, researcher, plants"
 Creative Commons License Chooser,https://creativecommons.org/choose/,It helps you choose the right Creative Commons license for your needs.,,"licensing, researcher, data manager, policy officer"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"researcher, data manager, IT support, plants"
-DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:daisy,"IT support, policy officer, human data, data protection"
+DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:Data_Information_System_DAISY,"IT support, policy officer, human data, data protection"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"storage, researcher, data manager, IT support"
@@ -54,6 +54,7 @@ GA4GH regular and ethical toolkit,https://www.ga4gh.org/genomic-data-toolkit/reg
 Galaxy,https://galaxyproject.org/,"Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.",biotools:galaxy,"nels, data analysis, researcher, IT support"
 Git,https://git-scm.com/,Distributed version control system designed to handle everything from small to very large projects,,"data organisation, data manager, IT support"
 GitHub,https://github.com,"Versioning system, used for sharing code, as well as for sharing of small data",fairsharing:biodbcore-001160,"data publication, data organisation, IT support, data manager"
+HumanMine,https://www.humanmine.org/,"HumanMine integrates many types of human data and provides a powerful query engine, export for results, analysis for lists of data and FAIR access via web services.",biotools:humanmine,"data organisation, data manager, researcher, human data, data analysis"
 Human Protein Atlas,http://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,
 IDPO,https://disprot.org/about,Intrinsically disordered proteins ontology,,"IDP, metadata"
 Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"IT support, policy officer, human data"
