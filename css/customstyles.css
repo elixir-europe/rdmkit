@@ -1008,6 +1008,13 @@ span.projectTitle {
     float: right;
 }
 
+.site-footer .europe-flag {
+    float: left;
+    width: 48px;
+    margin: 5px 10px 0 0;
+    opacity: 0.8;
+}
+
 .site-footer h6 {
     color: var(--hover-grey);
     font-size: 16px;
