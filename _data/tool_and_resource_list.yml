@@ -429,6 +429,7 @@ Tools:
   - storage
   - researcher
   - nels
+  - metadata
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
   link: https://fairsharing.org/
@@ -497,6 +498,25 @@ Tools:
   - data organisation
   - IT support
   - data manager
+- description: A multispecies integrative information system dedicated to plant and
+    fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
+    It is used by both large international projects and the French National Research
+    Institute for Agriculture, Food and Environment.
+  link: https://urgi.versailles.inrae.fr/gnpis/
+  name: GnpIS
+  registry:
+    biotools: gnpis
+    fairsharing: dw22y3
+  tags:
+  - plants
+- description: The Human Protein Atlas contains information for a large majority of
+    all human protein-coding genes regarding the expression and localization of the
+    corresponding proteins based on both RNA and protein data.
+  link: http://www.proteinatlas.org/
+  name: Human Protein Atlas
+  registry:
+    fairsharing: j0t0pe
+    tess: Human Protein Atlas
 - description: HumanMine integrates many types of human data and provides a powerful
     query engine, export for results, analysis for lists of data and FAIR access via
     web services.
@@ -510,14 +530,6 @@ Tools:
   - researcher
   - human data
   - data analysis
-- description: The Human Protein Atlas contains information for a large majority of
-    all human protein-coding genes regarding the expression and localization of the
-    corresponding proteins based on both RNA and protein data.
-  link: http://www.proteinatlas.org/
-  name: Human Protein Atlas
-  registry:
-    fairsharing: j0t0pe
-    tess: Human Protein Atlas
 - description: Intrinsically disordered proteins ontology
   link: https://disprot.org/about
   name: IDPO
