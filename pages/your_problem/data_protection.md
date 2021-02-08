@@ -6,7 +6,7 @@ tags: [plan, preserve, share]
 ---
 
 
-## How do I protect research data under the gdpr?
+## How do I protect research data under the GDPR?
 
 ### Description
 
