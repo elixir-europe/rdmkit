@@ -4,13 +4,13 @@ keywords: [reuse data, licence, data integration, citing data]
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 ---
 
-## What is Data Reuse?
+## What is data reuse?
 
 Data reuse means using data for other purposes than it was originally collected for. Reuse of data is particularly important in science, as it allows different researchers to analyse and publish findings based on the same data independently of one another. Reusability is one key component of the FAIR principles.
 
 Data that is well-described, curated and shared under clear terms and conditions is more likely to be reused. Integration with other data sources is also important, since that can enable new, yet unanticipated, uses for the data.
 
-## Why is Data Reuse important?
+## Why is data reuse important?
 
 By reusing existing data you can:
 
@@ -20,7 +20,7 @@ By reusing existing data you can:
 * make research more robust by aggregating results obtained from different methods or samples
 * gain novel insights by connecting and meta-analysing datasets
 
-## What should be considered for Data Reuse?
+## What should be considered for data reuse?
 
 Consider the following when reusing data:
 
@@ -36,7 +36,7 @@ Consider the following when reusing data:
 
 {% include pagelist.html tag="reuse" %}
 
-## Where can training materials and events about Data Reuse be found?
+## Where can training materials and events about data reuse be found?
 
 {% include tess.html search="Data Reuse" %}
 

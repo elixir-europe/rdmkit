@@ -1,5 +1,5 @@
 ---
-title: Metadata Management
+title: Metadata management
 keywords: [ontology, vocabulary]
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos]
 tags: [collect, preserve, share, researcher, data manager]

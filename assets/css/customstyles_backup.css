@@ -398,6 +398,77 @@ span.projectTitle {
 
 #main {
     min-height: 100vh;
+/* Footer height */
+}
+
+.site-footer {
+    background-color: var(--footer-bg);
+    padding: 15px 0 0px;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--white-text);
+    margin-top: 80px;
+}
+
+.site-footer .company-image {
+    width: 120px;
+    height: auto;
+    float: right;
+}
+
+.site-footer h6 {
+    color: var(--hover-grey);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.site-footer a {
+    color: var(--white-text);
+}
+
+.site-footer a:hover {
+    color: var(--primary-theme-color);
+}
+
+.site-footer a:hover {
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links.inline li {
+    display: inline-block;
+}
+
+.copyright-text {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+    color: var(--light-grey);
+}
+
+.contact-us {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: var(--light-grey);
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0;
+    }
+    .site-footer .copyright-text, .site-footer {
+        text-align: right;
+    }
 }
 
 img.screenshotSmall {
@@ -496,6 +567,19 @@ hr.faded {
 }
 
 
+
+.orange-snip {
+    padding: 16px;
+    display: inline;
+    border-radius: 4px;
+    background-color: var(--light-grey);
+    color: var(--main-text-color);
+}
+
+.orange-snip:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
+}
 
 .docimage {
     margin: 20px 0px 20px 0px;
@@ -684,7 +768,8 @@ dd {
 }
 
 .alert {
-    margin: 1.5em 0;;
+    margin: 1.5em 0;
+    ;
     border-color: transparent;
 }
 
@@ -760,7 +845,7 @@ ul#mysidebar {
     border: 1px solid #dedede;
 }
 
- /* no underline on anchor icons */
+/* no underline on anchor icons */
 
 *:hover>.anchorjs-link {
     transition: color .25s linear;
@@ -772,7 +857,6 @@ ul#mysidebar {
     background-color: #444;
     padding: 10px;
 }
-
 
 .btn-default {
     background-color: var(--light-grey);

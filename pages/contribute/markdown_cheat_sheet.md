@@ -1,6 +1,6 @@
 ---
 title: Markdown cheat sheet
-keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+keywords: [ demo page, showreel, markdown, kramdown, jekyll ]
 sidebar: contribute
 summary: This is a cheat sheet to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
@@ -22,10 +22,10 @@ This can be extended with following attributes (each with an example):
 ```
 ---
 title: Demo page
-keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+keywords: [ demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 summary: This is a demo page to showcase what is possible
-contributors: [bedroesb]
+contributors: [Bert Droesbeke]
 search: exclude
 datatable: true
 toc: false
@@ -36,7 +36,7 @@ tags: [research_it]
 
 * `summary`: Using this attribute it is possible to specify a summary which will be displayed under the title of the page. This summary will also be used as description of your page when the page is tagged.
 
-* `contributors`: list here all the contributors that helped in establishing the page. This will be the name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
+* `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
 * `search`: by setting this field to exclude, the page will not end up in the search results of the searchbar. By default this is true.
 
@@ -44,7 +44,7 @@ tags: [research_it]
 
 * `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
 
-* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page.
+* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page, lowercase.
 
 * `sidebar`: Specify here an alternative sidebar. Default: main
 
@@ -97,7 +97,7 @@ Using:
 
 Make sure there are no spaces between the asterisks and the text you want to put in italic.
 
-## File names/ Files / software names
+## File names/ files / software names
 
 `Text` can be highlighted using:
 
@@ -217,7 +217,7 @@ If you change the file name, you'll have to update all of your links.
 
 ## Emoji's
 
-Use Github emoticons! Look [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to find a cheat sheet for all the emoticons.
+Use GitHub emoticons! Look [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to find a cheat sheet for all the emoticons.
 :+1: is made with `:+1:`
 
 ## Code snippets
@@ -313,7 +313,7 @@ Text
 </details>
 ```
 
-## Including a TeSS training material button
+## Including a tess training material button
 
 Link to a search query:
 {% raw %}

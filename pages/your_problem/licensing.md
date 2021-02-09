@@ -1,18 +1,27 @@
 ---
 title: Licencing
 keywords: 
-contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo]
+contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
 tags: [share, reuse, data manager, policy officer]
 ---
 
 ## Why should you assign a licence to your research data?
  
 ### Description 
-Licensing is an important aspect of meeting the R (reusable) principle in FAIR data management. As part of the publication process, you need to decide under which licence the data is released. A licence is like a greeting to any person wishing to access, cite and use your data telling what they are allowed to do with the data.
+Loosely said, a licence defines what a user is allowed to do with a dataset. This can take into account ownership rights (copyright) as well as subject rights if the data is describing human beings.
+
+There are large differences between how copyrights and subject rights are to be addressed!
+* Complying with copyright is primarily the responsibility of the user of the data. Copyright laws allow only the creator of a work to reproduce and use it. If anyone else wants to use the work, then that person needs explicit permission from the holder of the copyright. A copyright licence describes the nature of this agreement, and does not need a signature: the user can never deny the existence of any conditions, because without the licence they would not be able to use the work at all. 
+* Complying with subject rights is primarily the responsibility of the controller (frequently called: owner) of the data. In Europe, the GDPR is an important law specifying the rights of subjects, and it is the controller of the data who needs to ensure that any usage of the data has a legal basis; not only his or her own use of the data, but also the use by others. If others use data about human subjects, this will require contracts between the controller and such others. These contracts, unlike copyright licences, will require a signature. Important contract forms are Data Transfer Agreements and Data Processing Agreements.
+
+Licensing is an important aspect of meeting the R (reusable) principle in FAIR data management. As part of the publication process, you need to decide under which licence the data is released. 
 
 ### Considerations
-* Remember that a licence is needed also if you use someone else’s data, that is protected by copyright or related rights.
-* If no licence is granted, reuse is generally not permitted without the consent of the copyright holder.
+* If you are producing a dataset and make it available to others, you should be explicit about what others are allowed to do with this. A document describing that is called a licence.
+* If you are reusing a dataset that comes from somewhere, you will want to have a licence that explains what you can do with it. Without a licence, reusing a dataset could be setting you up for legal trouble.
+* Note that different interpretations of copyright laws think differently about copyrights on data. Under some jurisdictions, some data is explicitly not subject to copyrights. An example is data describing the earth under the laws of the United States of America. Copyright law specifies that it only applies to a "creative work", and arguably, just collecting data does not have sufficiently creative steps to claim copyrights. 
+  * Relying on this as a reuser of data, however, is dangerous. Look for a license and apply it.
+  * As a data producer you should be aware that you may not be able to uphold licence restrictions in court, because it may be decided that the dataset is not copyrightable in the first place. It is therefore best to apply a permissive licence, not asserting strong copyrights.
 * Be sure of data ownership before publishing data. 
   * Are there rights belonging to a third party?
 

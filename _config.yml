@@ -1,4 +1,4 @@
-url: rdm.elixir-europe.org
+url: rdmkit.elixir-europe.org
 repository: https://github.com/elixir-europe/rdmkit
 
 output: web
@@ -16,7 +16,7 @@ company_name: ELIXIR Converge
 github_editme_path: elixir-europe/rdmkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-description: "ELIXIR Research Data Management Kit"
+description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
 host: 127.0.0.1
@@ -35,7 +35,7 @@ exclude:
 
 feedback_subject_line: RDMKit feedback
 
-feedback_email: rdm-editors@elixir-europe.org
+contact_email: rdm-editors@elixir-europe.org
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true

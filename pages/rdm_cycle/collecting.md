@@ -4,19 +4,19 @@ keywords:
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 ---
 
-## What is Data Collection?
+## What is data collection?
 
 Data collection is the process where information is gathered about specific variables of interest either using instrumentation or other methods (e.g. questionnaires, patient records). While data collection methods depend on the field and research subject, it is important to ensure data quality.
 
 You can also reuse existing data in your project. This can either be individual earlier collected datasets or reference data from curated resources like [ELIXIR Core Data Resources](https://elixir-europe.org/platforms/data/core-data-resources) or consensus data like reference genomes.  For more information see [Reuse](reusing) in the data life cycle. 
 
 
-## Why is Data Collection important?
+## Why is data collection important?
 
 Apart from being the source of information to build your findings on, the collection phase lays the foundation for the quality of both the data and its documentation. It is important that the decisions made regarding quality measures are implemented, and that the collect procedures are appropriately recorded. 
 
 
-## What should be considered for Data Collection?
+## What should be considered for data collection?
 
 Consider the following, while collecting data
 
@@ -37,7 +37,7 @@ Consider the following, while collecting data
 {% include pagelist.html tag="collect" %}
 
 
-## Where can training materials and events about Data Collection be found?
+## Where can training materials and events about data collection be found?
 
 {% include tess.html search="Data Collection" %}
 

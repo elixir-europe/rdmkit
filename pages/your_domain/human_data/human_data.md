@@ -1,5 +1,5 @@
 ---
-title: Human Data
+title: Human data
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström]
 keywords: [human data, sensitive data, personal data, ega, ethics, gdpr, legislation, data protection, data classification, consent]
 ---
@@ -9,7 +9,7 @@ keywords: [human data, sensitive data, personal data, ega, ethics, gdpr, legisla
 When you do research on data derived from human individuals, there are some extra aspects that you need to consider during the data life cycle. Note that much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in EU and on individuals residing in the EU. 
 Much of the information on this page is of a general nature when it comes to working with human data, an additional focus is on human genomic data and the sharing of such information for research purposes.
 
-## Planning for, and Collection of, Human Research Data
+## Planning for, and collection of, human research data
 
 ### Description
 
@@ -53,7 +53,7 @@ To do research on human data you must follow established research ethical guidel
 
 
 
-## Processing and Analysing Human Research Data
+## Processing and analysing human research data
 
 ### Description
 
@@ -77,7 +77,7 @@ For human data it is very important to use technical and procedural measures to 
     - Norway - [TSD](https://www.uio.no/english/services/it/research/sensitive-data/)
     - Sweden - [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
     - Spain - [MareNostrum](https://www.bsc.es/marenostrum/access-to-supercomputing-resources)
-  - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on data sets that do not leave the place where they are stored.
+  - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on datasets that do not leave the place where they are stored.
     - The GA4GH is developing standards for this in their [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
 
 
@@ -90,7 +90,7 @@ For human data it is very important to use technical and procedural measures to 
 
 
 
-## Preserving Human Research Data
+## Preserving human research data
 
 ### Description
 
@@ -115,7 +115,7 @@ It is good research ethical practice to ensure that data underlying research is 
 * [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) is an international information security standard adopted by data centres of some universities and research institutes.
 
 
-## Sharing & Reusing of Human Research Data
+## Sharing & reusing of human research data
 
 ### Description
 To make human research data reusable for others, it must be discoverable, stored in a safe way, and it must be clear under what circumstances it can be reused.

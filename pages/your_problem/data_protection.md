@@ -1,7 +1,7 @@
 ---
-title: Data Protection
+title: Data protection
 contributors: [Pinar Alper]
-keywords: [GDPR, ethics]
+keywords: [gdpr, ethics]
 tags: [plan, preserve, share]
 ---
 
@@ -63,6 +63,6 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
 
 {% include toollist.html tag="data protection" %}
 
-## Where can training materials and events about Data protection be found?
+## Where can training materials and events about data protection be found?
 
 {% include tess.html search="data protection" %}

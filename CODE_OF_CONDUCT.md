@@ -16,18 +16,18 @@ To make clear what is expected, we ask all members of the community to conform t
 
 - [1 Introduction](#1-introduction)
 - [2 Code of Conduct](#2-code-of-conduct)
-  - [2.1 Expected Behaviour](#21-expected-behaviour)
-  - [2.2 Unacceptable Behaviour](#22-unacceptable-behaviour)
-  - [2.3 Consequences of Unacceptable Behaviour](#23-consequences-of-unacceptable-behaviour)
+  - [2.1 Expected behaviour](#21-expected-behaviour)
+  - [2.2 Unacceptable behaviour](#22-unacceptable-behaviour)
+  - [2.3 Consequences of unacceptable behaviour](#23-consequences-of-unacceptable-behaviour)
   - [2.4 Feedback](#24-feedback)
-- [3 Incident Reporting Guidelines](#3-incident-reporting-guidelines)
+- [3 Incident reporting guidelines](#3-incident-reporting-guidelines)
   - [3.1 Contact points](#31-contact-points)
   - [3.2 What to do if someone is in physical danger](#32-what-to-do-if-someone-is-in-physical-danger)
-  - [3.3 Code of Conduct Enforcement](#33-code-of-conduct-enforcement)
-- [4 Enforcement Manual](#4-enforcement-manual)
-  - [4.1 The RDM Code of Conduct Group](#41-the-rdm-code-of-conduct-group)
-  - [4.2 Urgent Situations: Acting Unilaterally](#42-urgent-situations-acting-unilaterally)
-  - [4.3 Less-Urgent Situations](#43-less-urgent-situations)
+  - [3.3 Code of Conduct enforcement](#33-code-of-conduct-enforcement)
+- [4 Enforcement manual](#4-enforcement-manual)
+  - [4.1 The RDM Code of Conduct group](#41-the-rdm-code-of-conduct-group)
+  - [4.2 Urgent situations: acting unilaterally](#42-urgent-situations-acting-unilaterally)
+  - [4.3 Less-urgent situations](#43-less-urgent-situations)
   - [4.4 Resolutions](#44-resolutions)
 - [5 Acknowledgements](#5-acknowledgements)
 
@@ -55,7 +55,7 @@ Everyone who participates in the RDMKit activities is required to conform to thi
 This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
 By participating, contributors indicate their acceptance of the procedures by which the RDMKit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
-### 2.1 Expected Behaviour
+### 2.1 Expected behaviour
 
 We are confident that our community members will together build a supportive and collaborative atmosphere at our events and during online communications.
 The following bullet points set out explicitly what we hope you will consider to be appropriate community guidelines:
@@ -72,7 +72,7 @@ The following bullet points set out explicitly what we hope you will consider to
 All interactions should be professional regardless of platform: either online or in-person.
 See [this explanation of the four social rules](https://www.recurse.com/manual#sub-sec-social-rules) - no feigning surprise, no well-actually's, no back-seat driving, no subtle -isms - for further recommendations for inclusive behaviours.
 
-### 2.2 Unacceptable Behaviour
+### 2.2 Unacceptable behaviour
 
 Examples of unacceptable behaviour by the RDMKit community members at any project event or platform include:
 
@@ -91,7 +91,7 @@ Examples of unacceptable behaviour by the RDMKit community members at any projec
 * publication of private communication without consent
 * tactics that make a victim question their reality such as passive-aggressive and gaslighting behaviours
 
-### 2.3 Consequences of Unacceptable Behaviour
+### 2.3 Consequences of unacceptable behaviour
 
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately.
 This applies to all RDMKit community events and platforms, either online or in-person.
@@ -102,7 +102,7 @@ If a participant engages in behaviour that violates this Code of Conduct, any me
 This Code of Conduct is not intended as a static set of rules by which everyone must abide.
 Rather, you are invited to make suggestions for updates or clarifications by contacting the [RDM CoC Group](mailto:rdm-coc@elixir-europe.org) or by making a pull request to this document on GitHub.
 
-## 3 Incident Reporting Guidelines
+## 3 Incident reporting guidelines
 
 ### 3.1 Contact points
 
@@ -112,17 +112,17 @@ If you feel able to, please contact the [RDM CoC group](mailto:rdm-coc@elixir-eu
 
 If you believe someone is in physical danger, please contact the appropriate emergency responders.
 
-### 3.3 Code of Conduct Enforcement
+### 3.3 Code of Conduct enforcement
 
 A detailed enforcement policy is available in the Enforcement Manual below.
 
-## 4 Enforcement Manual
+## 4 Enforcement manual
 
 This is the enforcement manual followed by the RDMKit project team.
 It's used when we respond to an issue to make sure we're consistent and fair.
 Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
-### 4.1 The RDM Code of Conduct Group
+### 4.1 The RDM Code of Conduct group
 
 The members of the RDM Code of Conduct group are:
 
@@ -132,7 +132,7 @@ The members of the RDM Code of Conduct group are:
 
 As the community grows, we will seek to build a larger committee including members outside of the core development team.
 
-### 4.2 Urgent Situations: Acting Unilaterally
+### 4.2 Urgent situations: acting unilaterally
 
 If the incident involves physical danger, or involves a threat to anyone's safety (e.g. threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member.
 This can include contacting law enforcement (or other local personnel) and speaking on behalf of the RDMKit team.
@@ -142,7 +142,7 @@ In ongoing situations, any member may at their discretion employ any of the tool
 
 In situations where an individual community member acts unilaterally, they must inform the Toolkit Code of Conduct Allies as soon as possible, and report their actions for review within 24 hours.
 
-### 4.3 Less-Urgent Situations
+### 4.3 Less-urgent situations
 
 Upon receiving a report of an incident, the RDM CoC group will review the incident and determine, to the best of their ability:
 

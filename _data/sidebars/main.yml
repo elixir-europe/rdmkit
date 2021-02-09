@@ -1,65 +1,61 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-title: Main sidebar
+title: Test sidebar title
 version: 0.3.2
 subitems:
-  - title: Data Life Cycle
+  - title: Data life cycle
     subitems:
       - RDM: True
-  - title: Your Role
+  - title: Your role
     subitems:
       - title: Researcher
         url: /researcher.html
-      - title: Data Steward Policy
+      - title: Data steward policy
         url: /data_steward_policy.html
-      - title: Data Steward Research
+      - title: Data steward research
         url: /data_steward_research.html
-      - title: Data Steward Infrastructure
+      - title: Data steward infrastructure
         url: /data_steward_infrastructure.html
-  - title: Your Domain
+  - title: Your domain
     subitems:
-      - title: Plant Sciences
+      - title: Plant sciences
         url: /plant_sciences.html
-      - title: Marine Metagenomics
+      - title: Marine metagenomics
         url: /marine_metagenomics.html
-      - title: Human Data
+      - title: Human data
         url: /human_data.html
-        subitems:
-          - title: About
-            url: /about.html
-      - title: Biomolecular Simulation Data
+      - title: Biomolecular simulation data
         url: /biomolecular_simulation_data.html
-      - title: Intrinsically Disordered Proteins
+      - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins.html
-  - title: Your Problem
+  - title: Your problem
     subitems:
-      - title: Compliance Monitoring
+      - title: Compliance monitoring
         url: /compliance_monitoring.html
-      - title: Data Analysis
+      - title: Data analysis
         url: /data_analysis.html
-      - title: Data Classification
+      - title: Data classification
         url: /data_classification.html
-      - title: Data Management Plan
+      - title: Data management Plan
         url: /data_management_plan.html
-      - title: Data Organisation
+      - title: Data organisation
         url: /data_organisation.html
-      - title: Data Protection
+      - title: Data protection
         url: /data_protection.html
-      - title: Data Publication
+      - title: Data publication
         url: /data_publication.html
-      - title: Data Quality
+      - title: Data quality
         url: /data_quality.html
-      - title: Data Transfer
+      - title: Data transfer
         url: /data_transfer.html
       - title: Licensing
         url: /licensing.html
-      - title: Metadata Management
+      - title: Metadata management
         url: /metadata_management.html
       - title: Storage
         url: /storage.html
-  - title: All Tools and Resources
+  - title: All tools and resources
     url: /all_tools_and_resources.html
     hr: True
-  - title: Tools Assembly
+  - title: Tools assembly
     hr: True
     subitems:
       - title: NeLS

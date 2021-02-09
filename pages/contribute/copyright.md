@@ -28,7 +28,7 @@ If you are using an image with a [Creative Commons license](https://creativecomm
 
 If you are using a stock image you have bought, or a royalty-free image, check the image license to make sure that you can use it on the RDMKit website. If you are using images provided by your institute or organisation, please also check that you can use them on this site.
 
-You are welcome to create the images yourself, but please follow the [site style guide](https://rdm.elixir-europe.org/style_guide.html), and bear in mind the image may be modified to better suite the style of the site. The content of the site is published under the [Creative Commons 4 license](https://creativecommons.org/licenses/by/4.0/).
+You are welcome to create the images yourself, but please follow the [site style guide](style_guide), and bear in mind the image may be modified to better suite the style of the site. The content of the site is published under the [Creative Commons 4 license](https://creativecommons.org/licenses/by/4.0/).
 
 If you think an image would be helpful to explain your content but you cannot find the right one, then [create a new issue](https://github.com/elixir-europe/rdmkit/issues) to suggest a new image.
 

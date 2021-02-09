@@ -1,8 +1,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+    <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
+    <meta property="og:title" content="{{ site.site_title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="//rdmkit.elixir-europe.org/images/elixir_logo.png" />
     <title>{{ page.title }} | {{ site.site_title }}</title>
     <!-- Syntax highlighting  -->
     <link rel="stylesheet" href="assets/css/syntax.css">
@@ -22,3 +25,13 @@
     <script src="assets/js/customscripts.js"></script>
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- Schema.org metadata -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "RDMKit", 
+            "url": "{{ site.url }}",
+            "about": "{{ site.description }}",
+        }
+    </script> 

@@ -1,7 +1,7 @@
 ---
-title: Data Steward Research
+title: Data steward research
 keywords: [research, operational, supporting]
-contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez, Wolmar Nyberg Åkerström, Alexia Cardona]
+contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 ---
 
 ## Keywords
@@ -39,14 +39,14 @@ If you want to become competent in these areas or build capacity in your institu
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
 ## Common issues
-* [Compliance Monitoring & Measurement](https://rdm.elixir-europe.org/compliance_monitoring.html)
-* [Data Management Plan](https://rdm.elixir-europe.org/data_management_plan.html)
-* [Data Organisation](https://rdm.elixir-europe.org/data_organisation.html)
-* [Data Publication](https://rdm.elixir-europe.org/data_publication.html)
-* [Data Quality](https://rdm.elixir-europe.org/data_quality.html)
-* [Data Transfer](https://rdm.elixir-europe.org/data_transfer.html)
-* [Licensing](https://rdm.elixir-europe.org/licensing.html)
-* [Metadata Management](https://rdm.elixir-europe.org/metadata_management.html)
+* [Compliance Monitoring & Measurement](compliance_monitoring)
+* [Data Management Plan](hdata_management_plan.)
+* [Data Organisation](data_organisation)
+* [Data Publication](data_publication)
+* [Data Quality](data_quality)
+* [Data Transfer](data_transfer)
+* [Licensing](licensing)
+* [Metadata Management](metadata_management)
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
