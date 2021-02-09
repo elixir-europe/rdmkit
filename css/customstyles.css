@@ -996,7 +996,6 @@ span.projectTitle {
 .site-footer {
     background-color: var(--footer-bg);
     padding: 15px 0 0px;
-    font-size: 15px;
     line-height: 24px;
     color: var(--white-text);
     margin-top: 80px;
@@ -1006,6 +1005,13 @@ span.projectTitle {
     width: 120px;
     height: auto;
     float: right;
+}
+
+.site-footer .europe-flag {
+    float: left;
+    width: 60px;
+    margin: 5px 20px 0 0;
+    opacity: 0.8;
 }
 
 .site-footer h6 {
