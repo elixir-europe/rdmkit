@@ -1,9 +1,6 @@
 url: rdmkit.elixir-europe.org
 repository: https://github.com/elixir-europe/rdmkit
 
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
-
 topnav_title: RDMKit
 # this appears on the top navigation bar next to the home button
 
@@ -43,9 +40,6 @@ contact_email: rdm-editors@elixir-europe.org
 
 feedback_text: "Give feedback"
 # if you uncomment the previous line, it changes the Feedback text
-
-# feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
 
