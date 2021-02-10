@@ -7,7 +7,7 @@ search: exclude
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in site.pages -%}
   {% unless page.sitemap.exclude == true %}
-  {%- if page.title -%}
+  {%- if page.title or page.url == "/index.html"-%}
   <url>
     <loc>https://{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
   </url>
