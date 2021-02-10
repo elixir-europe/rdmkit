@@ -67,7 +67,7 @@ ISO/IEC 27001,https://en.wikipedia.org/wiki/ISO/IEC_27001,International informat
 Jupyter,https://jupyter.org,"Jupyter notebooks allow to share code, documentation",,"IT support, data analysis"
 Linked Open Vocabularies (LOV),https://lov.linkeddata.es/dataset/lov/,Web portal for finding ontologies,,"metadata, data manager, researcher"
 maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,"DMP, IT support"
-MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,,"metadata, researcher, IT support, policy officer, plants"
+MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,"biotools:NA, fairsharing:hn155r","metadata, researcher, IT support, policy officer, plants"
 MIADE,http://www.psidev.info/intrinsically-disordered-proteins-workgroup,Minimum Information About Disorder Experiments (MIADE) standard,,"metadata, researcher, data manager, IDP"
 MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"metadata, researcher, data manager, plants"
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,

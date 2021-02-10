@@ -615,7 +615,7 @@ Tools:
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: MCPD
   registry:
-    biotools: mcpd
+    fairsharing: hn155r
   tags:
   - metadata
   - researcher
