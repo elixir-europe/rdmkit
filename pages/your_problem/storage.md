@@ -1,5 +1,5 @@
 ---
-title: Data Storage
+title: Data storage
 keywords:
 contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi]
 tags: [collect, analyse, preserve, share, IT support] 
