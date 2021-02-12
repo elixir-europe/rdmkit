@@ -1,6 +1,6 @@
 ---
-title: ELIXIR Research Data Management Kit
 toc: false
+search: exclude
 ---
 
 {% include landingpage.html %}
