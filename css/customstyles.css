@@ -798,11 +798,10 @@ a.accordion-toggle, a.accordion-collapsed {
     }
 }
 
-.blurb {
-    margin: 50px 0px;
-    background-color: var(--light-grey);
-    border-radius: 4px;
-    padding: 20px;
+.blurb-title {
+    font-size: 1.3em;
+    margin: 18px 0px;
+    font-weight: 600;
 }
 
 /* navgoco sidebar styles (customized) */
