@@ -38,7 +38,7 @@ Some common issues and solutions that researchers run into are listed here:
 * How can I ensure research [data quality](data_quality)?
 * In which public repository should I [share](sharing) and [publish](data_publication) my data? 
 * How do I find appropriate standard [metadata](metadata_management) for my data?
-* What metadata and community standards do I need to [capture](collecting) to enable FAIR-publi*shing in public repositories?
+* What metadata and community standards do I need to [capture](collecting) to enable FAIR-publishing in public repositories?
 * What are the data retention policies for [my country](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)?
 
 
