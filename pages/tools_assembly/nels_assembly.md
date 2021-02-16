@@ -1,5 +1,5 @@
 ---
-title: Nels assembly 
+title: NeLS assembly 
 contributors: [Korbinian Bösl, Erik Hjerde]
 summary: This is an example of a Data Management tool assembly, NeLS as an infrastructure is funded and aimed for researchers in Norway and their collaborators.
 ---
