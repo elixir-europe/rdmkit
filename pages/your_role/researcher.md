@@ -8,7 +8,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 PhD candidates, research grant applicants, project managers, group leaders, PIs
 
 ## Scenario
-The funding organisation I am applying to requires a data management plan (DMP). I have little experience in writing a DMP, and I am not sure of the level of detail I am required to provide. I have limited access to data management experts within my institution. I am considering using the RDM toolkit for my data management needs. I also hope to find useful references to local training about data management requirements, data archives and DMP tools.
+The funding organisation I am applying to requires a data management plan (DMP). I have little experience in writing a DMP, and I am not sure of the level of detail I am required to provide. I have limited access to data management experts within my institution. I am considering using the RDMKit for my data management needs. I also hope to find useful references to local training about data management requirements, data archives and DMP tools.
 
 I know the types and the approximate amount of data I will generate, but I have not thought about how to share data with my collaborators and how to store data securely. Initially, my plan was to buy a powerful computer and portable hard drive, but I am now thinking that I need to use a national computing infrastructure. The field I work in has well defined data and curation standards, for example, capturing information (metadata) about how to collect and sample my data. However, I am not yet familiar with the importance of storing provenance data, such as tool and database versions used in analysis.
 
