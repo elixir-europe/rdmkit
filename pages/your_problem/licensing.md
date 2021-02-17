@@ -29,10 +29,6 @@ Licensing is an important aspect of meeting the R (reusable) principle in FAIR d
 * Make your research data available under an appropriate licence, which defines the degree of publicity and rights to use your data.
 * Choose a licence that ensures your data is correctly attributed and makes the terms of reusing your data explicit to the user.
 
-<!-- ## Related topics -->
-
-
-
 
 ## What licence should you apply to your research data?
  
@@ -58,11 +54,6 @@ This depends on what rights protect your research data. Which licence to choose 
   * [Choose a license](https://choosealicense.com)
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
 
-
-## External links
-
-* [How to License Research Data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data): how-to guide from the Digital Curation Centre (DCC).
-* [Open Data Commons](https://opendatacommons.org/): legal tools and licenses to help you publish, provide and use open data.
 
 ## Relevant tools and resources
 
