@@ -722,6 +722,18 @@ Tools:
   registry:
     biotools: orphadata
     fairsharing: biodbcore-001249
+- description: One Touch Pipeline (OTP) is a data management platform for running
+    bioinformatics pipelines in a high-throughput setting, and for organising the
+    resulting data and metadata.
+  link: https://gitlab.com/one-touch-pipeline/otp
+  name: OTP
+  registry:
+    biotools: otp
+  tags:
+  - human data
+  - metadata
+  - DMP
+  - data analysis
 - description: The Protein Circular Dichroism Data Bank
   link: http://pcddb.cryst.bbk.ac.uk/
   name: PCDDB
@@ -941,3 +953,44 @@ Tools:
   - metadata
   - researcher
   - IDP
+- description: BIONDA is a free and open-access biomarker database, which employs
+    various text mining methods to extract structured information on biomarkers from
+    abstracts of scientific publications
+  link: http://bionda.mpc.ruhr-uni-bochum.de/start.php
+  name: BIONDA
+  registry:
+    biotools: bionda
+  tags:
+  - storage
+  - researcher
+  - human data
+- description: "A highly useful and flexible tool for calibration of targeted MS\u2010\
+    based measurements. CalibraCurve enables an automated batch-mode determination\
+    \ of dynamic linear ranges and quantification limits for both targeted proteomics\
+    \ and similar assays. The software uses a variety of measures to assess the accuracy\
+    \ of the calibration and provides intuitive visualizations."
+  link: https://github.com/mpc-bioinformatics/CalibraCurve
+  name: CalibraCurve
+  registry:
+    biotools: calibracurve
+  tags:
+  - data analysis
+- description: Wellcome Open Research requires that the source data underlying the
+    results are made available as soon as an article is published. This page provides
+    information about data you need to include, where your data can be stored, and
+    how your data should be presented.
+  link: https://wellcomeopenresearch.org/for-authors/data-guidelines
+  name: Wellcome Open Research - Data Guidelines
+  tags:
+  - data publication
+  - researcher
+  - data manager
+- description: Guidelines about how to license research data from Digital Curation
+    Centre
+  link: https://www.dcc.ac.uk/guidance/how-guides/license-research-data
+  name: How to License Research Data - DCC
+  tags:
+  - licensing
+  - researcher
+  - data manager
+  - policy officer
