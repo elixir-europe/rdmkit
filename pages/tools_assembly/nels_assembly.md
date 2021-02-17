@@ -32,27 +32,6 @@ In order to help you to keep track of metadata NeLS has been integrated with the
  
 One good way to share your data is to deposit them in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). The NeLS Data Management tool assembly will soon offer tools to help you with the deposition step for data stored in NeLS.
 
-## External links
-
-Technical article about [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://doi.org/10.12688/f1000research.15119.1)
-
-[Norwegian e-Infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no/) 
-
-[Data Steward Wizard for Life Scientist in Norway](https://elixir-no.ds-wizard.org)
-
-[usegalaxy.no](https://usegalaxy.no)
-
-[FEIDE](https://www.feide.no/)
-
-[ELIXIR AII](https://elixir-europe.org/services/compute/aai)
-
-[FAIRDOMHub](https://fairdomhub.org/)
-
-[SEEK](https://seek4science.org/)
-
-[JWS Online](jjj.mib.ac.uk)
-
-[ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
 
 ## Where can I find training materials and events about the NeLS data management tool assembly?
 
