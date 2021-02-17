@@ -42,4 +42,3 @@ Consider the following, while collecting data
 {% include tess.html search="Data Collection" %}
 
 
-<!-- ## External links -->

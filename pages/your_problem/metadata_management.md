@@ -60,7 +60,6 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
   * [Schemapedia](https://schemapedia.com)
 
 
-<!-- ## External links -->
 
 ## Relevant tools and resources
 

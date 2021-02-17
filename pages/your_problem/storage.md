@@ -74,10 +74,6 @@ Check with your institution regarding regulations and policies that you have to 
 
 No matter the solution chosen, someone needs to ensure that the data is maintained appropriately (that it is backed up, that integrity is checked, that it is transferred to new formats or storage media when technology advance, etc). Check with your institution or national infrastructure for cost-effective storage solutions.
 
-### External links
-
-* About tar on Wikipedia: [Tar_(computing)](https://en.wikipedia.org/wiki/Tar_(computing))
-* About gzip on Wikipedia: [gzip](https://en.wikipedia.org/wiki/Gzip)
 
 ## Relevant tools and resources
 

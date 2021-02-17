@@ -53,4 +53,3 @@ progresses to match e.g. an update of the infrastructures, research softwares or
 {% include tess.html search="Data Management Planning" %}
 
 
-<!-- ## External links -->
