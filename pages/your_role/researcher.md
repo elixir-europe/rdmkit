@@ -1,6 +1,6 @@
 ---
 title: Researcher
-keywords: [data management, researcher, training, getting started]
+keywords: [PhD, grant applicants, group leaders, PI]
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 ---
 
@@ -41,6 +41,9 @@ Some common issues and solutions that researchers run into are listed here:
 * What metadata and community standards do I need to [capture](collecting) to enable FAIR-publishing in public repositories?
 * What are the data retention policies for [my country](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)?
 
+## Common issues
+
+{% include pagelist.html tag="researcher" %}
 
 ## Relevant tools and resources
 

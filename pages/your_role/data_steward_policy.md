@@ -1,11 +1,8 @@
 ---
 title: Data steward policy
-keywords: [institutional, coordinating, policy]
+keywords: [legal expert, regulation]
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 ---
-
-## Keywords
-Institutional, coordinating, policy. Interacts with policy makers, managers, board of directors, financial and legal experts.
 
 ## Description
 As a policy data steward, I focus on policy development and the implementation of research data management practices in my organisation. I work in close collaboration with directors, policy makers and funders, and I help establish suitable and sufficient data stewardship services and infrastructure. 
@@ -42,10 +39,8 @@ If you want to become competent in these areas or build capacity in your institu
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
 ## Common issues
-* [Compliance Monitoring & Measurement](compliance_monitoring) 
-* [Data Classification](data_classification)
-* [Data Management Plan](data_management_plan)
-* [Licensing](hlicensing)
+
+{% include pagelist.html tag="policy officer" %}
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
