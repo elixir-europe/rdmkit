@@ -2,7 +2,7 @@
 title: Data protection
 contributors: [Pinar Alper]
 keywords: [gdpr, ethics]
-tags: [plan, preserve, share]
+tags: [plan, preserve, share, IT support, policy officer, data manager]
 ---
 
 

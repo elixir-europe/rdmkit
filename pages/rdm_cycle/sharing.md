@@ -53,5 +53,4 @@ Even though it may not be possible to openly share all data because of ethical, 
 <!-- * Licensing
 * Funder requirements -->
 
-<!-- ## External links
-missing content -->
+

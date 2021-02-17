@@ -1,11 +1,8 @@
 ---
 title: Data steward research
-keywords: [research, operational, supporting]
+keywords: [DM support]
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 ---
-
-## Keywords
-Research, operational, supporting. Interacts primarily with researchers.
 
 ## Description
 As a research data steward, I support and work in close collaboration with the main data producers and users in academia: the researchers, ranging from undergraduate students to full professors. I advise researchers, make sure data is handled in a manner compliant with the institute’s policy and may also perform hands-on work in a project. 
@@ -39,14 +36,8 @@ If you want to become competent in these areas or build capacity in your institu
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
 ## Common issues
-* [Compliance Monitoring & Measurement](compliance_monitoring)
-* [Data Management Plan](hdata_management_plan.)
-* [Data Organisation](data_organisation)
-* [Data Publication](data_publication)
-* [Data Quality](data_quality)
-* [Data Transfer](data_transfer)
-* [Licensing](licensing)
-* [Metadata Management](metadata_management)
+
+{% include pagelist.html tag="data manager" %}
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)

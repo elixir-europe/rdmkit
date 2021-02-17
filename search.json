@@ -8,7 +8,6 @@ search: exclude
     {% unless page.search == "exclude" %}
     {
         "title"    : "{{ page.title | escape }}",
-        "tags"     : "{{ page.tags | join: ', ' }}",
         "keywords": "{{page.keywords | join: ', '}}",
         "summary": "{{page.summary | strip }}",
         "url"      : "{{ page.url }}"
