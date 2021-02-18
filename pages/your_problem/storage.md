@@ -1,6 +1,6 @@
 ---
 title: Data storage
-keywords:
+keywords: [archiving, computational resource]
 contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi]
 tags: [collect, analyse, preserve, share, IT support] 
 ---
