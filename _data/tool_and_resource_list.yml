@@ -994,3 +994,54 @@ Tools:
   - researcher
   - data manager
   - policy officer
+- description: OSF (Open Science Framework) is a free, open platform to support your
+    research and enable collaboration.
+  link: https://osf.io
+  name: OSF
+  tags:
+  - storage
+  - researcher
+  - data manager
+- description: As fully on-premises solution, Nextcloud Hub provides the benefits
+    of online collaboration without the compliance and security risks.
+  link: https://nextcloud.com
+  name: NextCloud
+  tags:
+  - storage
+  - IT support
+- description: Cloud storage and file sharing service from Microsoft
+  link: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
+  name: Microsoft OneDrive
+  tags:
+  - storage
+  - IT support
+- description: Cloud storage and file sharing service
+  link: https://www.dropbox.com/?landing=dbv2
+  name: DropBox
+  tags:
+  - storage
+  - IT support
+- description: Cloud storage and file sharing service
+  link: https://www.box.com
+  name: Box
+  registry:
+    tess: Box
+  tags:
+  - storage
+  - IT support
+- description: R Markdown documents are fully reproducible. Use a productive notebook
+    interface to weave together narrative text and code to produce elegantly formatted
+    output. Use multiple languages including R, Python, and SQL.
+  link: https://rmarkdown.rstudio.com
+  name: R Markdown
+  registry:
+    tess: R Markdown
+  tags:
+  - data analysis
+  - researcher
+- description: Cloud storage and file sharing service
+  link: https://owncloud.com
+  name: OwnCloud
+  tags:
+  - storage
+  - IT support
