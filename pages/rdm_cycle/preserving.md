@@ -52,8 +52,3 @@ The main reasons for research data preservation are:
 ## Where can training materials and events about data preserving be found?
 
 {% include tess.html search="Data Preserving" %}
-
-## External links
-
-* [Digital preservation on Wikipedia.](https://en.wikipedia.org/wiki/Digital_preservation)
-* [ISO Standards for quality, preservation and integrity of information.](https://www.iso.org/committee/53666/x/catalogue/)

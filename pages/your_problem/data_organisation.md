@@ -96,12 +96,6 @@ The top folder should have a README.txt file describing the folder structure and
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
       
-<!--- ## Related topics
-(Optional section)
-* Bullet point list of other pages in this website that are connected to this lifecycle stage -->
-
-## External links
-* '[A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)' provides further best-practice suggestions on data organisation.
 
 ## Relevant tools and resources
 
