@@ -92,6 +92,7 @@ OpenEBench,https://openebench.bsc.es/,"ELIXIR benchmarking platform to support c
 OpenRefine,https://openrefine.org/,Data curation tool for working with messy data,,data quality
 Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format",fairsharing:biodbcore-001249,
 OTP,https://gitlab.com/one-touch-pipeline/otp,"One Touch Pipeline (OTP) is a data management platform for running bioinformatics pipelines in a high-throughput setting, and for organising the resulting data and metadata.",,"human data, metadata, DMP, data analysis"
+PAA,https://bioconductor.org/packages/PAA/,PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.,biotools:paa,"data analysis, researcher, human data"
 PCDDB,http://pcddb.cryst.bbk.ac.uk/,The Protein Circular Dichroism Data Bank,biotools:pcddb,"IDP, researcher"
 PDB,http://www.pdb.org,The Protein Data Bank (PDB),biotools:pdb,"researcher, IDP"
 PMut,http://mmb.irbbarcelona.org/PMut,Platform for the study of the impact of pathological mutations in protein stuctures.,biotools:pmut,"data analysis,human data"
