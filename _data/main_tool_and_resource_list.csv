@@ -88,7 +88,7 @@ Nextflow,https://www.nextflow.io,Nextflow is a framework for data analysis workf
 Ontobee,http://www.ontobee.org,A web portal to search and visualise ontologies,,"metadata, data manager, researcher"
 ONTOMATON,https://github.com/ISA-tools/OntoMaton,OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.,,"researcher, data manager, IT support"
 Open Definition Conformant Licenses,https://opendefinition.org/licenses/,Licenses that are conformant with the principles laid out in the Open Definition.,,"licensing, researcher, data manager, policy officer"
-OpenEBench,https://openebench.bsc.es/,ELIXIR benchmarking platform to support community-led scientific benchmarking efforts and the technical monitoring of bioinformatics reosurces,biotools:openebench,"data anlysis,data manager,IT support"
+OpenEBench,https://openebench.bsc.es/,"ELIXIR benchmarking platform to support community-led scientific benchmarking efforts and the technical monitoring of bioinformatics reosurces",biotools:openebench,"data analysis,data manager,IT support"
 OpenRefine,https://openrefine.org/,Data curation tool for working with messy data,,data quality
 Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format",fairsharing:biodbcore-001249,
 OTP,https://gitlab.com/one-touch-pipeline/otp,"One Touch Pipeline (OTP) is a data management platform for running bioinformatics pipelines in a high-throughput setting, and for organising the resulting data and metadata.",,"human data, metadata, DMP, data analysis"
