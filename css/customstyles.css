@@ -840,11 +840,11 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav li>a>span:after {
-    content: '\25be';
+    content: '+';
 }
 
 .nav li.active>a>span:after {
-    content: '\25b4';
+    content: '-';
 }
 
 .nav a:hover, .nav li.active>a {
