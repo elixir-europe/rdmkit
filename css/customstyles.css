@@ -667,7 +667,6 @@ a.accordion-toggle, a.accordion-collapsed {
     display: flex;
 }
 
-
 .carousel-control.left {
     background-image: none;
     writing-mode: vertical-lr;
@@ -681,13 +680,12 @@ a.accordion-toggle, a.accordion-collapsed {
 .carousel-control {
     width: 5%;
     opacity: 100%;
-    color:var(--primary-theme-color);
+    color: var(--primary-theme-color);
 }
 
 .carousel-control:hover {
     color: var(--hover-grey);
 }
-
 
 .hall-of-fame-hero {
     width: 18%;
@@ -714,6 +712,20 @@ a.accordion-toggle, a.accordion-collapsed {
 .item .hall-of-fame-hero img {
     border-radius: 50%;
     width: 7em;
+}
+
+.post-content a:not(.anchorjs-link)[href^="#"] {
+    background-color: var(--light-grey);
+    padding: 4px;
+    color: var(--cycle-red);
+    border-radius: 4px;
+}
+
+.post-content a:not(.anchorjs-link)[href^="#"]:hover {
+    background-color: var(--hover-grey);
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
 .social-icons {
@@ -840,11 +852,11 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav li>a>span:after {
-    content: '\25be';
+    content: '+';
 }
 
 .nav li.active>a>span:after {
-    content: '\25b4';
+    content: '-';
 }
 
 .nav a:hover, .nav li.active>a {

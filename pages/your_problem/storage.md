@@ -51,10 +51,10 @@ During the active phase of your project, it is important to choose a storage sol
 
 ### Solutions
 
-* [SEEK](https://seek4science.org/) - public SEEK instance [FAIRDOMHub](https://fairdomhub.org)
-* [iRODS](https://irods.org/)
-* [e!DAL](https://edal.ipk-gatersleben.de/)
-* [Research Data Management Platform (RDMP)](https://www.dundee.ac.uk/hic/researchdatamanagementplatform/)
+* [SEEK](#SEEK) - public SEEK instance [FAIRDOMHub](#FAIRDOMHub)
+* [iRODS](#iRODS)
+* [e!DAL](#e!DAL)
+* [Research Data Management Platform (RDMP)](#Research Data Management Platform (RDMP))
 
 ## How store your data after a project ends?
 

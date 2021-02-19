@@ -35,7 +35,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
         {%- for tool in main_tags %}
         <tr>
             {% if tool.link %}
-            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
+            <td><a id="{{tool.name}}" href="{{tool.link}}">{{tool.name}}</a></td>
             {%- else %}
             <td>{{tool.name}}</td>
             {%- endif %}

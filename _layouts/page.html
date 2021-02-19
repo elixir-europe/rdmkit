@@ -13,13 +13,13 @@ layout: default
     </h1>
 </div>
 {%- endif %}
-<div class="post-content">
-    {%- if page.summary %}
-    <div class="summary">{{page.summary}}</div>
-    {%- endif %}
-    {%- unless page.toc == false %}
+{%- if page.summary %}
+<div class="summary">{{page.summary}}</div>
+{%- endif %}
+{%- unless page.toc == false %}
     {%- include toc.html %}
-    {%- endunless %}
+{%- endunless %}
+<div class="post-content">
     {{content}}
 </div>
 {%- if page.tags != null or page.contributors != null %}
