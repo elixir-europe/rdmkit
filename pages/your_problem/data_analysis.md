@@ -2,6 +2,7 @@
 title: Data analysis
 contributors: [Olivier Collin]
 tags: [analyse, process, reuse, researcher, IT support]
+description: how to make data analysis FAIR.
 ---
 
 ## What are the best practices for data analysis?
