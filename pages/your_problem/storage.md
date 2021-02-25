@@ -2,7 +2,8 @@
 title: Data storage
 keywords: [archiving, computational resource, collaborative research, sharing]
 contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi, Flora D'Anna, Flavio Licciulli, Ott Oopkaup, Marcus Lundberg, Thanasis Vergoulis, Frederik Coppens, Olivier Collin, Nadia Tonello, Korbinian Bösl]
-tags: [collect, analyse, preserve, share, IT support] 
+tags: [collect, analyse, preserve, share, IT support]
+description: how to find appropriate storage solutions.
 ---
 
 ## What features do I need in a storage solution when collecting data?

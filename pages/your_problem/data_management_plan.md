@@ -3,6 +3,7 @@ title: Data management plan
 keywords: 
 contributors: [Flora D'Anna, Daniel Faria]
 tags: [plan, researcher, data manager, policy officer]
+description: how to write a Data Management Plan (DMP).
 ---
 
 

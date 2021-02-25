@@ -3,6 +3,7 @@ title: Licensing
 keywords: 
 contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
 tags: [share, reuse, data manager, policy officer]
+description: how to license research data.
 ---
 
 ## Why should you assign a licence to your research data?

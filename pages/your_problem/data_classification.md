@@ -3,6 +3,7 @@ title: Data classification
 keywords: [human data, data sensitivity]
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
 tags: [share, collect, process, policy officer]
+description: how to identify different research data types.
 ---
 
 ## Is my data sensitive?
