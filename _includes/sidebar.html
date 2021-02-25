@@ -1,5 +1,5 @@
-{%- assign sidebar = site.data.sidebars[page.sidebar].entries -%}
-{%- capture re-using -%}{%- if page.url == "/re-using.html" -%}st0{%- else -%}st10{%- endif -%}{%- endcapture -%}
+{%- assign sidebar = site.data.sidebars[page.sidebar] %}
+{%- capture reusing -%}{%- if page.url == "/reusing.html" -%}st0{%- else -%}st10{%- endif -%}{%- endcapture -%}
 {%- capture preserving -%}{%- if page.url == "/preserving.html" -%}st2{%- else -%}st12{%- endif -%}{%- endcapture -%}
 {%- capture analysing -%}{%- if page.url == "/analysing.html" -%}st3{%- else -%}st13{%- endif -%}{%- endcapture -%}
 {%- capture processing -%}{%- if page.url == "/processing.html" -%}st4{%- else -%}st14{%- endif -%}{%- endcapture -%}
@@ -7,27 +7,26 @@
 {%- capture collecting -%}{%- if page.url == "/collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
 {%- capture sharing -%}{%- if page.url == "/sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
 <ul id="mysidebar" class="nav">
-{%- for entry in sidebar -%}
-{%- for folder in entry.folders -%}
-{%- if folder.external_url -%}
-    <li {%- if folder.hr %} class="hr-margin"{% endif %}>
-        <a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
-    </li>
-{%- else -%}
-{% if page.url == folder.url %}
+    {%- for folder in sidebar.subitems %}
+    {%- if page.url == folder.url %}
     <li class="active{%- if folder.hr %} hr-margin{% endif %}">
-{% else %}
+    {%- else %}
     <li {%- if folder.hr %} class="hr-margin"{% endif %}>
-{%- endif %}
+    {%- endif %}
+    {%- if folder.external_url %}
+        <a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
+    {%- else %}    
         <a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{ folder.title }}</a>
-    {%- endif -%}
-    {% if folder.folderitems %}
+    {%- endif %}
+    {%- if folder.subitems %}
         <ul>
-            {%- for folderitem in folder.folderitems -%}
-            {%- if folderitem.RDM -%}
+            {%- for subfolder in folder.subitems %}
+            {%- if subfolder.RDM -%}
             {%- if site.RDM_pages contains page.url %}
-            <li class="active sidebar_rdm_sub">{% else %}
-            <li class="sidebar_rdm_sub">{% endif %}
+            <li class="active sidebar_rdm_sub">
+            {% else %}
+            <li class="sidebar_rdm_sub">
+            {% endif %}
                 <svg version="1.1" id="Layer_2_1_" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250.9 251"
                     style="enable-background:new 0 0 250.9 251;" xml:space="preserve" class="sidebar_rdm">
@@ -53,9 +52,9 @@
                         .st17:hover{fill:#C63244;cursor: pointer;}
                         text {pointer-events : none;}
                     </style>
-                    <a xlink:href="./re-using" target="_top">
-                        <g id="Re-usePath">
-                            <path class="{{ re-using }}" d="M63.9,52.1l14.9,33.1c10.7-12.4,26.2-20.5,43.6-21.3l16.7-32.3L122.9,0C85.3,0.8,51.7,18.1,29.2,45L63.9,52.1z
+                    <a xlink:href="./reusing" target="_top">
+                        <g id="ReusePath">
+                            <path class="{{ reusing }}" d="M63.9,52.1l14.9,33.1c10.7-12.4,26.2-20.5,43.6-21.3l16.7-32.3L122.9,0C85.3,0.8,51.7,18.1,29.2,45L63.9,52.1z
                                 " />
                             <path class="st1" d="M92.5,17.4c2-0.9,4.1-1.3,6.3-1.3c0.2,0,0.4,0.1,0.5,0.3c0.2,0.2,0.2,0.6,0,0.8c-0.1,0.2-0.4,0.3-0.6,0.4
                                 c-0.4,0.2-0.8,0.3-1.1,0.5c-0.3,0.2-0.6,0.3-0.9,0.5c-0.6,0.4-1.2,0.8-1.7,1.2c-0.8,0.7-1.5,1.4-2,2.3c-1,1.5-1.6,3.2-1.8,5
@@ -175,7 +174,7 @@
                         </g>
                     </a>
                     <text transform="matrix(1 0 0 1 16.4197 111.8653)" class="st1 st8 st9">Share</text>
-                    <text transform="matrix(1 0 0 1 72.3974 53.4992)" class="st1 st8 st9">Re-use</text>
+                    <text transform="matrix(1 0 0 1 76.3974 53.4992)" class="st1 st8 st9">Reuse</text>
                     <text transform="matrix(1 0 0 1 19.2957 187.4998)" class="st1 st8 st9">Preserve</text>
                     <text transform="matrix(1 0 0 1 90.1372 234.4302)" class="st1 st8 st9">Analyse</text>
                     <text transform="matrix(1 0 0 1 162.3473 208.6529)" class="st1 st8 st9">Process</text>
@@ -184,58 +183,40 @@
                 </svg>
             </li>
             {%- else %}
-            {%- if folderitem.external_url %}
-            <li>
-                <a title="{{folderitem.title}}" href="{{folderitem.external_url}}" target="_blank" rel="noopener">{{folderitem.title}}</a>
-            </li>
-            {%- elsif page.url == folderitem.url %}
+            {%- if page.url == subfolder.url %}
             <li class="active">
-                <a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a>
-            </li>
-            {%- elsif folderitem.type == "empty" %}
-            <li>
-                <a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a>
-            </li>
             {%- else %}
             <li>
-                <a title="{{folderitem.title}}" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a>
-            </li>
-            {%- endif -%}
-            {%- for subfolders in folderitem.subfolders -%}
-            {%- if page.url == subfolders.url %}
-            <li class="active subfolders">
-            {%- else %}
-            <li class="subfolders">
-            {% endif %}
-                <a title="{{subfolders.title}}" href="#">{{ subfolders.title }}</a>
+            {%- endif %}
+            {%- if subfolder.external_url %}
+                <a title="{{subfolder.title}}" href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
+            {%- else %}    
+                <a title="{{subfolder.title}}" href="{{subfolder.url | remove: "/"}}">{{ subfolder.title }}</a>
+            {%- endif %}
+            {%- if subfolder.subitems %}
                 <ul>
-                    {%- for subfolderitem in subfolders.subfolderitems -%}
-                    {%- if subfolderitem.output contains "web" -%}
-                    {%- if subfolderitem.external_url -%}
-                    <li>
-                        <a title="{{subfolderitem.title}}" href="{{subfolderitem.external_url}}" target="_blank" rel="noopener">{{subfolderitem.title}}</a>
-                    </li>
-                    {%- elsif page.url == subfolderitem.url -%}
+                    {%- for subsubfolder in subfolder.subitems %}
+                    {%- if page.url == subsubfolder.url %}
                     <li class="active">
-                        <a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a></li>
-                    {%- else -%}
+                    {%- else %}
                     <li>
-                        <a title="{{subfolderitem.title}}" href="{{subfolderitem.url | remove: "/"}}">{{subfolderitem.title}}</a>
+                    {%- endif %}
+                    {%- if subsubfolder.external_url %}
+                        <a title="{{subsubfolder.title}}" href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
+                    {%- else %}    
+                        <a title="{{subsubfolder.title}}" href="{{subsubfolder.url | remove: "/"}}">{{ subsubfolder.title }}</a>
+                    {%- endif %}
                     </li>
-                    {%- endif -%}
-                    {%- endif -%}
-                    {%- endfor -%}
+                    {%- endfor %}
                 </ul>
+            {%- endif %}
+            {%- endif %}
             </li>
-            {%- endfor -%}
-            {%- endif -%}
-            {% endfor %}
+            {%- endfor %}
         </ul>
-    {% endif %}
+    {%- endif %}
     </li>
-{%- endfor -%}
-{% endfor %}
+    {%- endfor %}
 </ul>
-
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>

@@ -1,42 +1,82 @@
-{% assign tools = site.data.tool_and_resource_list %}
-{% assign allowedtags = site.data.tags %}
-<table class="tooltable display">
+{%- assign tools = site.data.tool_and_resource_list -%}
+{%- assign allowedtags = site.data.tags -%}
+{%- assign main_tags = tools.Tools -%}
+{%- if include.tag -%}
+{%- assign main_tags = tools.Tools | where_exp:"tool", "tool.tags contains include.tag" -%}
+{%- endif -%}
+{%- if include.tag2 -%}
+{%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
+{%- endif -%}
+{%- if main_tags == blank %}
+The tag "{{ include.tag }}" has not yet related tools or resources.
+{%- else%}
+{%- if include.hide %}
+<div class="margin-link">
+<a class="btn orange-snip" href="#{{include.tag}}" role="button" data-toggle="collapse" data-target="#{{include.tag}}" aria-expanded="false" aria-controls="{{include.tag}}">
+    Show tools
+</a>
+</div>
+<div class="collapse" id="{{include.tag}}">
+{%- endif %}
+<table class="tooltable display {%- if include.hide != true %} table-margin{%- endif %}">
     <thead>
         <tr>
-            <th>Tool or resource</th>
+            <th>Tool or resource {%- if include.tag or include.tag2 %}
+                <a href="#" data-toggle="tooltip" title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+                    <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
+                </a>{%- endif %}
+            </th>
             <th>Description</th>
             <th>Tags</th>
             <th>Registry</th>
         </tr>
     </thead>
     <tbody>
-        {%- for tool in tools.Tools %}
-        {%- if tool.tags contains include.tag or include.tag == "print_all" %}
+        {%- for tool in main_tags %}
         <tr>
             {% if tool.link %}
-            <td><a class="no_icon" href="{{tool.link}}">{{tool.name}}</a></td>
-            {% else %}
+            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
+            {%- else %}
             <td>{{tool.name}}</td>
-            {% endif %}
+            {%- endif %}
             <td>{{tool.description}}</td>
             {%- capture tags %}
-        {%- for tag in tool.tags %}{% assign color = allowedtags[tag]["bg-color"] | default: "#fefefe" %}{% assign link = allowedtags[tag]["url"] | default: "#" %}<a class="nohover" href="{{link}}"><span class="label" style="background-color:{{color}};">{{tag}}</span></a> {% endfor %}
+            {%- for tag in tool.tags %}
+            {%- if include.tag == tag or include.tag2 == tag %}{% assign bg-color = allowedtags[tag]["bg-color"] | default: "#3e3e3e" %}{% assign color = allowedtags[tag]["color"] | default: "white" %}
+            <span class="label" style="color:{{color}}; background-color:{{bg-color}};">{{tag}}</span>
+            {%- else %}
+            {%- if allowedtags[tag]["url"] %}
+            {%- assign taglink = allowedtags[tag]["url"] %}
+            <a class="nohover" href="{{taglink}}"><span class="label default-label">{{tag}}</span></a>
+            {%- else %}
+            <span class="label default-label">{{tag}}</span>
+            {%- endif %}
+            {%- endif %}
+            {%- endfor %}
             {%- endcapture %}
             <td>{{tags}}</td>
             <td style="text-align: center; vertical-align: middle;">
-            {% if tool.registry.biotools %}
+            {%- if tool.registry.biotools %}
             <a data-toggle="tooltip"
                 data-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
-                class="no_icon"><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
-            {% endif %}
-            {% if tool.registry.fairsharing %}
+                class=""><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
+            {%- endif %}
+            {%- if tool.registry.fairsharing %}
             <a data-toggle="tooltip"
                 data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
-                class="no_icon"><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
-            {% endif %}
+                class=""><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
+            {%- endif %}
+            {%- if tool.registry.tess %}
+            <a data-toggle="tooltip"
+                data-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
+                class=""><img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/></a>
+            {%- endif %}
             </td> 
         </tr>
-        {% endif %}
         {%- endfor %}
     </tbody>
 </table>
+{%- if include.hide %}
+</div>
+{%- endif %}
+{%- endif%}

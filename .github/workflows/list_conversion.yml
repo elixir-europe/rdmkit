@@ -1,4 +1,4 @@
-name: Converting the tool and resource table
+name: Converting to yaml + registry lookup
 
 on:
   push:
@@ -18,10 +18,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install xlrd pyyaml
+          pip install pyyaml requests
       - name: Run tool table 2 yaml
         run: |
-          python var/tool_table2yaml.py
+          python var/tool_table2yaml.py --reg
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request
@@ -32,7 +32,7 @@ jobs:
           commit-message: Update tool/resource_list.yaml
           title: 'Automatic tool/resource-list update'
           body: |
-            This PR is automatically generated based on changes in the tool_and_resource_list.xlsx or resource_list.xlsx file.
+            This PR is automatically generated based on changes in the main_tool_and_resource_list.csv file or based on new links made between the tool table and TeSS.
 
             Please verify if these changes are valid.
           labels: |

@@ -1,6 +1,6 @@
 ---
 title: Markdown cheat sheet
-keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+keywords: [ demo page, showreel, markdown, kramdown, jekyll ]
 sidebar: contribute
 summary: This is a cheat sheet to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
@@ -22,10 +22,10 @@ This can be extended with following attributes (each with an example):
 ```
 ---
 title: Demo page
-keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+keywords: [ demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 summary: This is a demo page to showcase what is possible
-contributors: [bedroesb]
+contributors: [Bert Droesbeke]
 search: exclude
 datatable: true
 toc: false
@@ -36,7 +36,7 @@ tags: [research_it]
 
 * `summary`: Using this attribute it is possible to specify a summary which will be displayed under the title of the page. This summary will also be used as description of your page when the page is tagged.
 
-* `contributors`: list here all the contributors that helped in establishing the page. This will be the name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
+* `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
 * `search`: by setting this field to exclude, the page will not end up in the search results of the searchbar. By default this is true.
 
@@ -44,7 +44,7 @@ tags: [research_it]
 
 * `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
 
-* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page.
+* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page, lowercase.
 
 * `sidebar`: Specify here an alternative sidebar. Default: main
 
@@ -97,7 +97,7 @@ Using:
 
 Make sure there are no spaces between the asterisks and the text you want to put in italic.
 
-## File names/ Files / software names
+## File names/ files / software names
 
 `Text` can be highlighted using:
 
@@ -165,32 +165,33 @@ Make sure that you add the image to the `images` directory and give it an unders
 * `url`: f you want the image to link to anther page
 * `alt`: describes the image and is used for people that are visually impaired
 * `caption`: Text that will appear under the image
+* `inline`: if true this image can be used in a list
 
 ## Icons
 
-Go to the [Font Awesome library](https://fontawesome.com/v4.7.0/icons/) to see the available icons.
+Go to the [Font Awesome library](https://fontawesome.com/) to see the available icons.
 
 The Font Awesome icons allow you to adjust their size by simply adding `fa-2x`, `fa-3x` and so forth as a class to the icon to adjust their size to two times or three times the original size. As vector icons, they scale crisply at any size.
 
 Here's an example of how to scale up a camera icon:
 
 ```html
-<i class="fa fa-camera-retro"></i> normal size (1x)
-<i class="fa fa-camera-retro fa-lg"></i> fa-lg
-<i class="fa fa-camera-retro fa-2x"></i> fa-2x
-<i class="fa fa-camera-retro fa-3x"></i> fa-3x
-<i class="fa fa-camera-retro fa-4x"></i> fa-4x
-<i class="fa fa-camera-retro fa-5x"></i> fa-5x
+<i class="fas fa-camera-retro"></i> normal size (1x)
+<i class="fas fa-camera-retro fa-lg"></i> fa-lg
+<i class="fas fa-camera-retro fa-2x"></i> fa-2x
+<i class="fas fa-camera-retro fa-3x"></i> fa-3x
+<i class="fas fa-camera-retro fa-4x"></i> fa-4x
+<i class="fas fa-camera-retro fa-5x"></i> fa-5x
 ```
 
 Here's what they render to:
 
-<i class="fa fa-camera-retro"></i> 1x
-<i class="fa fa-camera-retro fa-lg"></i> fa-lg
-<i class="fa fa-camera-retro fa-2x"></i> fa-2x
-<i class="fa fa-camera-retro fa-3x"></i> fa-3x
-<i class="fa fa-camera-retro fa-4x"></i> fa-4x
-<i class="fa fa-camera-retro fa-5x"></i> fa-5x
+<i class="fas fa-camera-retro"></i> 1x
+<i class="fas fa-camera-retro fa-lg"></i> fa-lg
+<i class="fas fa-camera-retro fa-2x"></i> fa-2x
+<i class="fas fa-camera-retro fa-3x"></i> fa-3x
+<i class="fas fa-camera-retro fa-4x"></i> fa-4x
+<i class="fas fa-camera-retro fa-5x"></i> fa-5x
 
 ## Links
 
@@ -216,7 +217,7 @@ If you change the file name, you'll have to update all of your links.
 
 ## Emoji's
 
-Use Github emoticons! Look [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to find a cheat sheet for all the emoticons.
+Use GitHub emoticons! Look [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to find a cheat sheet for all the emoticons.
 :+1: is made with `:+1:`
 
 ## Code snippets
@@ -264,12 +265,32 @@ public class ScannerAndKeyboard
 * List line 2
     * Sublist line 1
 
-Comes from:
+Is made with:
 
 ```md
 * List line 1
 * List line 2
     * Sublist line 1
+		* Subsublist line 1
+```
+
+Numbered lists look like this:
+
+1. Number one
+2. Number two
+3. Number three
+   1. Sub number one
+   2. Sub number two
+
+and are made with:
+
+```md
+1. Number one
+2. Number two
+3. Number three
+   1. Sub number one
+   2. Sub number two
+
 ```
 
 ## A collapsible piece of text
@@ -292,51 +313,87 @@ Text
 </details>
 ```
 
+## Including a tess training material button
+
+Link to a search query:
+{% raw %}
+```
+{% include tess.html search="Data Steward" %}
+```
+{% endraw %}
+
+Will look like this:
+
+{% include tess.html search="Data Steward" %}
+
+Link to a specific training material:
+{% raw %}
+```
+{% include tess.html material="data-management-plans-why-and-how" %}
+```
+{% endraw %}
+
+Will look like this:
+
+{% include tess.html material="data-management-plans-why-and-how" %}
+
 ## Tagging pages and listing those pages
 
 Tagging pages is done by the `tags:` property in the metadata of the markdown page.
 Add the tag(s) to a list (square brackets). Make sure your tag corresponds to an existing page. 
 
-This metadata example shows how we tag the "Storage" page with the **research_it** tag:
+This metadata example shows how we tag the "Storage" page with the **share** tag:
 ```md
 ---
 title: Storage
 keywords:
-tags: [research_it] 
+tags: [share] 
 ---
 ```
 
-If you than want to list all the pages containing the tag **research_it** you can us the code snippet:
+If you than want to list all the pages containing the tag **share** you can us the code snippet:
 
 {% raw %}
 ```
-{% include pagelist.html tag='research_it'%}
+{% include pagelist.html tag="share"%}
 ```
 {% endraw %}
 
 Giving:
 
-{% include pagelist.html tag='research_it'%}
+{% include pagelist.html tag="share"%}
 
 This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. To only allow a curated list of tags, make sure you find the tag in the `tags.yaml` file in the `_data` repository. 
 
 ## Adding a filtered tool and resource-list to your page
 
-Here we list all the tools with the tag **monitoring**  by using the code snippet:
+Here we list all the tools with the tag **data publication**  by using the code snippet:
 
 {% raw %}
 ```
-{% include toollist.html tag="monitoring" %}
+{% include toollist.html tag="data publication" %}
 ```
 {% endraw %}
 
 Giving:
 
-{% include toollist.html tag="monitoring" %}
+{% include toollist.html tag="data publication" %}
+
+Add a second tag for filtering using the 'tag2' attribute:
+
+{% raw %}
+```
+{% include toollist.html tag="data publication" tag2="IT support" %}
+```
+{% endraw %}
+
+Giving:
+
+{% include toollist.html tag="data publication" tag2="IT support" %}
 
 Make sure the tag exists in the `tool_and_resource_list.yml` file + in the `tags.yml`.
 
-Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
+Tools and resources can be added by manipulating the main_tool_and_resource_list.csv file in the `_data` repository. For more info about how to add a tool or resource please visit [our guide](tool_resource_update).
 
 ## Enforce space between two lines
 

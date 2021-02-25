@@ -1,33 +1,71 @@
+# Cycle Tags
 plan:
-  bg-color: "#903292"
   url: planning.html
-collect: 
-  bg-color: "#023452"
+  bg-color: "#903292"
+collect:
   url: collecting.html
-process: 
-  bg-color: "#309E69"
+  bg-color: "#023452"
+process:
   url: processing.html
-analyse: 
-  bg-color: "#763E2A"
+  bg-color: "#309E69"
+analyse:
   url: analysing.html
-share: 
-  bg-color: "#C63244"
-  url: sharing.html
-preserve: 
-  bg-color: "#DBBE28"
+  bg-color: "#763E2A"
+preserve:
   url: preserving.html
-re-use: 
+  bg-color: "#DBBE28"
+share:
+  url: sharing.html
+  bg-color: "#C63244"
+reuse:
+  url: reusing.html
   bg-color: "#f47d21"
-  url: re-using.html
-storage: 
-  bg-color: "#6E1FA4"
+# Role tags
+IT support:
+  url: data_steward_infrastructure.html
+policy officer:
+  url: data_steward_policy.html
+data manager:
+  url: data_steward_research.html
+researcher:
+  url: researcher.html
+# Domain tags
+plants:
+  url: plant_sciences.html
+  bg-color: "#5cb85c"
+marine:
+  url: marine_metagenomics.html
+human data:
+  url: human_data
+biomol sim:
+  url: biomolecular_simulation_data.html
+IDP:
+  url: intrinsically_disordered_proteins.html
+# Problem tags
+DMP:
+  url: data_management_plan.html
+storage:
   url: storage.html
-privacy: 
-  bg-color: "#666"
-  url: security_&_privacy.html
-monitoring: 
-  bg-color: "#14968C"
-standard: 
-  bg-color: "#CD1B6C"
-research_it:
-  url: research_it.html
+transfer:
+  url: data_transfer.html
+metadata:
+  url: metadata_management.html
+data publication:
+  url: data_publication.html
+data quality:
+  url: data_quality.html
+compliance:
+  url: compliance_monitoring.html
+licensing:
+  url: licensing.html
+data organisation:
+  url: data_organisation.html
+data classification:
+  url: data_classification.html
+data protection:
+  url: data_protection.html
+data analysis:
+  url: data_analysis.html
+# Assembly tags
+nels:
+  url: nels_assembly.html

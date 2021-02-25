@@ -1,8 +1,8 @@
 ---
 title: <Your persona>
-keywords: [Keyword 1,Keyword 2, Keyword n]
+keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 summary: Fill in your summary or delete this property when not needed
-contributors: [contributor1, contributor2]
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search: exclude
 ---
 
@@ -35,3 +35,10 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * What DMP templates and tools could be used for my project?
 * How do I know if my data is sensitive/personal and how would I work with data of this type?
 
+## Related topics
+
+{% include pagelist.html tag="REPLACE BY TAG" %}
+
+## Relevant tools and resources
+
+{% include toollist.html tag="REPLACE BY TAG" %}

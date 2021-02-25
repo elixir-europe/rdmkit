@@ -1,0 +1,63 @@
+{%- assign contributors = site.data.CONTRIBUTORS %}
+{%- if include.custom %}
+{%- assign allcontributors = include.custom | split: ", " | sort %}
+{%- else %}
+{%- for page in site.pages %}
+{%- if page.contributors and page.search != "exclude" %}
+{%- assign pagecontr = page.contributors | join: ", " %}
+{%- if allcontrstr %}
+{%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
+{%- else %}
+{%- assign allcontrstr = allcontrstr | append: pagecontr %}
+{%- endif  %}
+{%- endif  %}
+{%- endfor %}
+{%- for contr in contributors %}
+{%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
+{%- endfor %}
+{%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
+{%- endif  %}
+<div class="contributor-container">
+    <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="7000">
+        <div class="carousel-inner">
+            {%- assign counter = 0 %}
+            {%- for contributor in allcontributors %}
+                {%- capture modulo %}{{ counter | modulo:5 }}{% endcapture %}
+                  {%- if modulo == '0' or counter == 0 %}
+                  {%- if counter != 0 %}
+            </div>
+            {%- endif %}
+            <div class="carousel-item item {% if counter == 0 %}active{% endif %}">
+                  {%- endif %}
+                <div class="hall-of-fame-hero">
+                    {%- assign id = contributors[contributor].git | default: 'no_github' %}
+                    <img src="https://avatars.githubusercontent.com/{{id}}" alt="{{id}}">
+                    <p class="name">{{ contributor }}</p>
+                    <ul class="social-icons">
+                        {%- if contributors[contributor].git %}
+                        <li><a href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></li>
+                        {%- endif %}
+                        {%- if contributors[contributor].email %}
+                        <li><a href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></li>
+                        {%- endif %}
+                        {%- if contributors[contributor].orcid %}
+                        <li><a href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></li>
+                        {%- endif %}
+                    </ul>
+                </div>
+            {%- assign counter = counter | plus:1 %}
+            {%- if forloop.last %}
+            </div>
+            {%- endif %}
+            {%- endfor %}
+        </div>
+        <a class="left carousel-control" href="#contributors-carousel" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#contributors-carousel" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>

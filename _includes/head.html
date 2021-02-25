@@ -1,18 +1,21 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+<meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
-<title>{{ page.title }} | {{ site.site_title }}</title>
+<meta property="og:title" content="{{ site.site_title }}" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:image" content="//rdmkit.elixir-europe.org/images/elixir_logo.png" />
+<title>{%- if page.title %}{{ page.title }} | {{ site.site_title }}{%- else %}{{ site.site_title }}{%- endif %}</title>
 <!-- Syntax highlighting  -->
-<link rel="stylesheet" href="{{ "css/syntax.css" }}">
+<link rel="stylesheet" href="css/syntax.css">
 <!-- Icons -->
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/all.min.css">
 <!-- General styling -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <!-- Custom edits on top of bootstrap -->
 <link rel="stylesheet" href="css/customstyles.css">
-<!-- Navigation title font  -->
+<!-- Main font  -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;800;900&display=swap">
 <!-- JavaScript  -->
 <script src="js/jquery.min.js"></script>
@@ -24,3 +27,13 @@
 <script src="js/customscripts.js"></script>
 <!-- favicon -->
 <link rel="shortcut icon" href="images/favicon.ico">
+<!-- Schema.org metadata -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "RDMKit", 
+        "url": "{{ site.url }}",
+        "about": "{{ site.description }}",
+    }
+</script> 

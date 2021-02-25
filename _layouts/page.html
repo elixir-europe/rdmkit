@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{%- if page.title %}
 <div class="post-header">
     <h1 class="post-title-main">{{ page.title }}
         {%- if page.custom-editme %}
@@ -11,8 +12,6 @@ layout: default
         {%- endif %}
     </h1>
 </div>
-{%- if page.contributors %}
-<div class="contributors-line">By: {%- include contributor-badge-list.html contributors=page.contributors %}</div>
 {%- endif %}
 <div class="post-content">
     {%- if page.summary %}
@@ -22,17 +21,23 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
-    {%- if page.tags != null %}
-    <div class="tags">
-        <b>Tags: </b>
-        {%- assign projectTags = site.data.tags %}
-        {%- for tag in page.tags %}
-        {%- if projectTags[tag] %}
-        <a href="{{ tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm"
-            role="button">{{tag | replace: "_", " "}}</a>
-        {%- endif %}
-        {%- endfor %}
-    </div>
-    {%- endif %}
 </div>
-<!-- {%- include page_ending.html %} -->
+{%- if page.tags != null or page.contributors != null %}
+<hr>
+{%- endif %}
+{%- if page.tags != null %}
+<div class="tags">
+    <b>Tags: </b>
+    {%- assign projectTags = site.data.tags %}
+    {%- assign tags = page.tags | sort %}
+    {%- for tag in tags %}
+    {%- if projectTags[tag] %}
+    <a href="{{ projectTags[tag].url }}" class="btn btn-default"
+        role="button">{{tag}}</a>
+    {%- endif %}
+    {%- endfor %}
+</div>
+{%- endif %}
+{%- if page.contributors %}
+<div class="contributors-line"><b>Contributors: </b>{%- include contributor-badge-list.html contributors=page.contributors %}</div>
+{%- endif %}

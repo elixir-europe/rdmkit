@@ -2,13 +2,13 @@
 name: Fixing an existing page or add tool/resource
 about: Did you spot a typo, incorrect information or a tool/resource that is missing? Click here
 title: ''
-labels: Contentathon
+labels: 
 assignees: ''
 
 ---
 
 **Link to the page of interest**
-https://rdm.elixir-europe.org/....
+https://rdmkit.elixir-europe.org/....
 
 
 **Describe what you would change to the page**
