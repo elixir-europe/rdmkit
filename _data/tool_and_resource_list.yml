@@ -935,6 +935,15 @@ Tools:
   tags:
   - researcher
   - IDP
+- description: PIA is a toolbox for mass spectrometrey based protein inference and
+    identification analysis.
+  link: https://github.com/mpc-bioinformatics/pia
+  name: PIA - Protein Inference Algorithms
+  registry:
+    biotools: pia
+  tags:
+  - data analysis
+  - researcher
 - description: Platform for the study of the impact of pathological mutations in protein
     stuctures.
   link: http://mmb.irbbarcelona.org/PMut
