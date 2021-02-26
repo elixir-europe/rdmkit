@@ -115,6 +115,7 @@ Repository Finder,https://repositoryfinder.datacite.org,Repository Finder can he
 Research Data Management Platform (RDMP),https://www.dundee.ac.uk/hic/researchdatamanagementplatform/,"Data management platform for automated loading, storage, linkage and provision of data sets",biotools:rdmp,"storage, IT support"
 Research Management Plan,https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan,Machine actionable DMPs.,,"DMP, researcher, data manager"
 Rightfield,https://rightfield.org.uk,RightField is an open-source tool for adding ontology term selection to Excel spreadsheets,,"researcher,metadata,data manager"
+RO-Crate,https://w3id.org/ro/crate,"RO-Crate is a lightweight approach to packaging research data with their metadata, using schema.org. An RO-Crate is a structured archive of all the items that contributed to the research outcome, including their identifiers, provenance, relations and annotations.",fairsharing:bsg-s001594,"metadata, storage, data organisation, data manager, researcher"
 Rstudio,https://rstudio.com,"Rstudio notebooks allow to share code, documentation",,"data analysis, IT support, researcher"
 SASBDB,https://www.sasbdb.org/,Small Angle Scattering Biological Data Bank,,"IDP, researcher"
 Schemapedia,https://schemapedia.com,Web portal for finding ontologies,,"metadata, data manager, researcher"
