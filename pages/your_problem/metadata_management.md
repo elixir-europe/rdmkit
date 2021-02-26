@@ -3,6 +3,7 @@ title: Metadata management
 keywords: [ontology, vocabulary]
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos]
 tags: [collect, preserve, share, researcher, data manager]
+description: find metadata standards and vocabularies.
 ---
 
 ## How to find appropriate standard metadata for datasets or samples?
@@ -60,7 +61,6 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
   * [Schemapedia](https://schemapedia.com)
 
 
-<!-- ## External links -->
 
 ## Relevant tools and resources
 

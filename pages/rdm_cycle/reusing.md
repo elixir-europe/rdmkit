@@ -50,5 +50,4 @@ Consider the following when reusing data:
 * Responsibilities
 * Ethical and legal issues -->
 
-<!-- ## External links
-missing content -->
+

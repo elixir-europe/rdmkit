@@ -21,7 +21,11 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
 <table class="tooltable display {%- if include.hide != true %} table-margin{%- endif %}">
     <thead>
         <tr>
-            <th>Tool or resource</th>
+            <th>Tool or resource {%- if include.tag or include.tag2 %}
+                <a href="#" data-toggle="tooltip" title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+                    <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
+                </a>{%- endif %}
+            </th>
             <th>Description</th>
             <th>Tags</th>
             <th>Registry</th>

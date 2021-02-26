@@ -1,7 +1,8 @@
 ---
 title: Data transfer
 keywords:
-tags: [preserve, share, reuse, IT support, data manager] 
+tags: [preserve, share, reuse, IT support, data manager]
+description: how to transfer data files.
 ---
 
 ## How to transfer large data files?
@@ -62,10 +63,6 @@ During the transfer some data might become corrupted, thus it is important to ch
 <!-- ## Related topics
 (Optional section)
 * Bullet point list of other pages in this website that are connected to this lifecycle stage -->
-
-<!-- ## External links
-(Optional section)
-* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above -->
 
 ## Relevant tools and resources
 

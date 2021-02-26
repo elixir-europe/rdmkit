@@ -109,13 +109,6 @@ There is no existing standard defining the type and format of the metadata neede
 * Data size
 Data generated in the biomolecular simulation field is growing at an alarming pace. Making this data available to the scientific community sometimes means transferring them to a long-term storage, and even this a priori straightforward process can be cumbersome because of the large data size. 
 
-## External links - further references
-* [Sharing Data from Molecular Simulations](https://doi.org/10.1021/acs.jcim.9b00665)
-* [Ten simple rules on how to create open access and reproducible molecular simulations of biological systems](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006649)
-* [Surviving the deluge of biosimulation data](https://doi.org/10.1002/wcms.1449)
-* [An efficient and extensible format, library, and API for binary trajectory data from molecular simulations](https://doi.org/10.1002/jcc.23495)
-* [Standards for data handling](https://mmb.irbbarcelona.org/BigNASim/htmlib/help/pdf/d7.3_-_white_paper_on_standards_for_data_handling.pdf)
-
 ## Relevant tools and resources
 
 {% include toollist.html tag="biomol sim" %}

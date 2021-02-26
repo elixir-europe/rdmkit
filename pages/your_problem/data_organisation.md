@@ -3,6 +3,7 @@ title: Data organisation
 keywords: [file naming, versioning, folder structures]
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
 tags: [collect, process, analyse, preserve, researcher, IT support, data manager]
+description: best practices to name and organise research data.
 ---
 
 ## What is the best way to name a file?
@@ -75,7 +76,7 @@ Folders should:
 * have a self-explanatory name that is only as long as is necessary
 * have a unique name – avoid assigning the same name to a folder and a subfolder
 
-The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. This file should also contain explanation of the file naming convention.
+The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. This file should also contain explanation of the file naming convention. See also [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
 
 #### An example:
 
@@ -96,12 +97,6 @@ The top folder should have a README.txt file describing the folder structure and
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
       
-<!--- ## Related topics
-(Optional section)
-* Bullet point list of other pages in this website that are connected to this lifecycle stage -->
-
-## External links
-* '[A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)' provides further best-practice suggestions on data organisation.
 
 ## Relevant tools and resources
 

@@ -93,10 +93,16 @@ with open(table_path, 'r') as read_obj:
                                 sys.exit(
                                     f'The table contains the registry "{reg}" in row {row_index} which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
                     if len(sys.argv) > 1 and sys.argv[1] == "--reg":
-                        if tess_available(tool_name) and not "tess" in output:
-                            output["tess"] = tool_name
-                        if biotools_available(tool_name) and not "biotools" in output:
-                            output["biotools"] = biotools_available(tool_name)
+                        if tess_available(tool_name):
+                            if "tess" not in output:
+                                output["tess"] = tool_name
+                            elif output["tess"] == "NA":
+                                del output["tess"]
+                        if biotools_available(tool_name):
+                            if "biotools" not in output:
+                                output["biotools"] = biotools_available(tool_name)
+                            elif output["biotools"] == "NA":
+                                del output["biotools"]
                 else:
                     # Return the normal form for the Unicode string
                     output = unicodedata.normalize("NFKD", cell).strip()

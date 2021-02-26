@@ -50,7 +50,7 @@ subitems:
         url: /licensing.html
       - title: Metadata management
         url: /metadata_management.html
-      - title: Storage
+      - title: Data storage
         url: /storage.html
   - title: All tools and resources
     url: /all_tools_and_resources.html

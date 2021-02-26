@@ -2,6 +2,7 @@
 title: Compliance monitoring & measurement
 tags: [plan, researcher, data manager, policy officer] 
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper]
+description: measure compliance to data management regulations and standards.
 ---
 
 ## How can data management capabilities be measured and documented?

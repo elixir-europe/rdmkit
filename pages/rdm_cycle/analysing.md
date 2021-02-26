@@ -40,5 +40,4 @@ Because of their nature, data in Life Sciences are now considered as Big Data. T
 ## Where can training materials and events about data analysis be found?
 
 {% include tess.html search="Data Analysis" %}
-<!-- ## External links
-missing content -->
+

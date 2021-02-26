@@ -3,6 +3,7 @@ title: Data publication
 keywords: [deposition database, repository]
 contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander]
 tags: [preserve, share, researcher, data manager]
+description: prepare data and find repositories for publication.
 ---
 
 
@@ -69,9 +70,6 @@ Once you have decided to publish your data there are a few preparations that nee
   * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
   * To ascertain re-usability data should be released with a clear and accessible data usage license. We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. The [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/) can help you select suitable licences for your data. Note that sequence data submitted to for example [ENA](https://www.ebi.ac.uk/ena/browser/home) are implicitly free to reuse by others as specified in the [INCD Standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
   * See the corresponding page for more detailed information about [metadata management](metadata_management), [licences](licensing) and [data transfer](data_transfer).
-
-## External links
-* [Welcome Open Research](https://wellcomeopenresearch.org/for-authors/data-guidelines)
 
 ## Relevant tools and resources
 

@@ -2,6 +2,7 @@
 title: Data analysis
 contributors: [Olivier Collin]
 tags: [analyse, process, reuse, researcher, IT support]
+description: how to make data analysis FAIR.
 ---
 
 ## What are the best practices for data analysis?
@@ -54,11 +55,6 @@ Among the most well-known notebooks systems are:
 
 * Jupyter
 * RStudio
-
-
-<!-- ## External links
-(Optional section)
-* Bullet point list of external links to things that aren't included in any of the tools/resources/training sections above -->
 
 ## Relevant tools and resources
 

@@ -4,6 +4,16 @@ Tools:
   name: Amnesia
   tags:
   - data classification
+- description: APID (Agile Protein Interactomes DataServer) is a server that provides
+    a comprehensive collection of protein interactomes for more than 400 organisms
+    based in the integration of known experimentally validated protein-protein physical
+    interactions (PPIs)
+  link: http://apid.dep.usal.es/
+  name: APID Interactomes
+  registry:
+    biotools: apid
+  tags:
+  - IDP
 - description: Plan and follow your data. Bring your Data Management Plans closer
     to where data are generated, analysed and stored.
   link: https://argos.openaire.eu/splash/
@@ -42,6 +52,17 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: BIONDA is a free and open-access biomarker database, which employs
+    various text mining methods to extract structured information on biomarkers from
+    abstracts of scientific publications
+  link: http://bionda.mpc.ruhr-uni-bochum.de/start.php
+  name: BIONDA
+  registry:
+    biotools: bionda
+  tags:
+  - storage
+  - researcher
+  - human data
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -57,6 +78,23 @@ Tools:
   tags:
   - IDP
   - researcher
+- description: BoostDM is a method to score all possible point mutations (single base
+    substitutions) in cancer genes for their potential to be involved in tumorigenesis.
+  link: https://www.intogen.org/boostdm/search
+  name: BoostDM
+  registry:
+    biotools: boostdm
+  tags:
+  - data analysis
+  - human data
+- description: Cloud storage and file sharing service
+  link: https://www.box.com
+  name: Box
+  registry:
+    tess: Box
+  tags:
+  - storage
+  - IT support
 - description: 'Specification for a standard API for plant data: plant material, plant
     phenotyping data'
   link: https://www.brapi.org
@@ -82,6 +120,27 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: "A highly useful and flexible tool for calibration of targeted MS\u2010\
+    based measurements. CalibraCurve enables an automated batch-mode determination\
+    \ of dynamic linear ranges and quantification limits for both targeted proteomics\
+    \ and similar assays. The software uses a variety of measures to assess the accuracy\
+    \ of the calibration and provides intuitive visualizations."
+  link: https://github.com/mpc-bioinformatics/CalibraCurve
+  name: CalibraCurve
+  registry:
+    biotools: calibracurve
+  tags:
+  - data analysis
+- description: Cancer Genome Interpreter (CGI) is designed to support the identification
+    of tumor alterations that drive the disease and detect those that may be therapeutically
+    actionable.
+  link: https://www.cancergenomeinterpreter.org/home
+  name: CancerGenomeInterpreter
+  registry:
+    biotools: cgi
+  tags:
+  - data analysis
+  - human data
 - description: A hierarchical domain classification of protein structures in the Protein
     Data Bank.
   link: http://www.cathdb.info/
@@ -219,6 +278,16 @@ Tools:
   - researcher
   - IT support
   - human data
+- description: A discovery platform containing collections of genes and variants associated
+    to human diseases.
+  link: https://www.disgenet.org/
+  name: DisGeNET
+  registry:
+    biotools: disgenet
+  tags:
+  - data analysis
+  - human data
+  - researcher
 - description: A database of intrinsically disordered proteins
   link: https://disprot.org/
   name: DisProt
@@ -294,6 +363,12 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Cloud storage and file sharing service
+  link: https://www.dropbox.com/?landing=dbv2
+  name: DropBox
+  tags:
+  - storage
+  - IT support
 - description: Data Stewardship Wizard
   link: https://ds-wizard.org/
   name: DS-Wizard
@@ -476,6 +551,15 @@ Tools:
   - data analysis
   - researcher
   - IT support
+- description: Geneid is an ab initio gene finding program used to predict genes along
+    DNA sequences in a large set of organisms.
+  link: https://genome.crg.cat/software/geneid/index.html
+  name: GENEID
+  registry:
+    biotools: geneid
+  tags:
+  - data analysis
+  - researcher
 - description: Distributed version control system designed to handle everything from
     small to very large projects
   link: https://git-scm.com/
@@ -498,6 +582,18 @@ Tools:
   - data organisation
   - IT support
   - data manager
+- description: GitLab is an open source end-to-end software development platform with
+    built-in version control, issue tracking, code review, CI/CD, and more. Self-host
+    GitLab on your own servers, in a container, or on a cloud provider.
+  link: https://gitlab.com/gitlab-org/gitlab
+  name: GitLab
+  registry:
+    tess: GitLab
+  tags:
+  - data organisation
+  - data publication
+  - IT support
+  - data manager
 - description: A multispecies integrative information system dedicated to plant and
     fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
     It is used by both large international projects and the French National Research
@@ -509,6 +605,24 @@ Tools:
     fairsharing: dw22y3
   tags:
   - plants
+- description: The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses.
+    It allows the creation of an automated and integrated workflow to manage, analyse
+    and visualize RNA-Seq data.
+  link: https://github.com/guigolab/grape-nf
+  name: GRAPE 2.0
+  registry:
+    biotools: grape_2.0
+  tags:
+  - data analysis
+- description: Guidelines about how to license research data from Digital Curation
+    Centre
+  link: https://www.dcc.ac.uk/guidance/how-guides/license-research-data
+  name: How to License Research Data - DCC
+  tags:
+  - licensing
+  - researcher
+  - data manager
+  - policy officer
 - description: The Human Protein Atlas contains information for a large majority of
     all human protein-coding genes regarding the expression and localization of the
     corresponding proteins based on both RNA and protein data.
@@ -562,6 +676,15 @@ Tools:
     biotools: interpro
     fairsharing: pda11d
     tess: InterPro
+- description: IntoGen collects and analyses somatic mutations in thousands of tumor
+    genomes to identify cancer driver genes.
+  link: https://www.intogen.org/search
+  name: IntoGen
+  registry:
+    biotools: intogen
+  tags:
+  - data analysis
+  - human data
 - description: Integrated Rule-Oriented Data System (iRODS) is open source data management
     software for a cancer genome analysis workflow.
   link: https://irods.org/
@@ -615,7 +738,7 @@ Tools:
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: MCPD
   registry:
-    biotools: mcpd
+    fairsharing: hn155r
   tags:
   - metadata
   - researcher
@@ -641,6 +764,12 @@ Tools:
   - researcher
   - data manager
   - plants
+- description: Cloud storage and file sharing service from Microsoft
+  link: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
+  name: Microsoft OneDrive
+  tags:
+  - storage
+  - IT support
 - description: MINT, the Molecular INTeraction database, focuses on experimentally
     verified protein-protein interactions mined from the scientific literature by
     expert curators
@@ -657,6 +786,20 @@ Tools:
   tags:
   - IDP
   - researcher
+- description: Database of Protein Molecular Dynamics simulations representing different
+    structural clusters of the PDB
+  link: http://mmb.irbbarcelona.org/MoDEL/
+  name: MoDEL
+  registry:
+    biotools: model
+    tess: MoDEL
+  tags:
+  - biomol sim
+- description: Database of COVID-19 related atomistic Molecular Dynamic Trajectories
+  link: https://bioexcel-cv19.bsc.es/#/
+  name: MoDEL Covid19
+  tags:
+  - biomol sim
 - description: A risk assessment tool that can be used to do Data Protection Impact
     Assessments
   link: https://open-source-security-software.net/project/MONARC
@@ -674,6 +817,13 @@ Tools:
     biotools: nels
   tags:
   - nels
+- description: As fully on-premises solution, Nextcloud Hub provides the benefits
+    of online collaboration without the compliance and security risks.
+  link: https://nextcloud.com
+  name: NextCloud
+  tags:
+  - storage
+  - IT support
 - description: Nextflow is a framework for data analysis workflow execution
   link: https://www.nextflow.io
   name: Nextflow
@@ -707,6 +857,16 @@ Tools:
   - researcher
   - data manager
   - policy officer
+- description: ELIXIR benchmarking platform to support community-led scientific benchmarking
+    efforts and the technical monitoring of bioinformatics reosurces
+  link: https://openebench.bsc.es/
+  name: OpenEBench
+  registry:
+    biotools: openebench
+  tags:
+  - data analysis
+  - data manager
+  - IT support
 - description: Data curation tool for working with messy data
   link: https://openrefine.org/
   name: OpenRefine
@@ -722,6 +882,42 @@ Tools:
   registry:
     biotools: orphadata
     fairsharing: biodbcore-001249
+- description: OSF (Open Science Framework) is a free, open platform to support your
+    research and enable collaboration.
+  link: https://osf.io
+  name: OSF
+  tags:
+  - storage
+  - researcher
+  - data manager
+- description: One Touch Pipeline (OTP) is a data management platform for running
+    bioinformatics pipelines in a high-throughput setting, and for organising the
+    resulting data and metadata.
+  link: https://gitlab.com/one-touch-pipeline/otp
+  name: OTP
+  registry:
+    biotools: otp
+  tags:
+  - human data
+  - metadata
+  - DMP
+  - data analysis
+- description: Cloud storage and file sharing service
+  link: https://owncloud.com
+  name: OwnCloud
+  tags:
+  - storage
+  - IT support
+- description: PAA is an R/Bioconductor tool for protein microarray data analysis
+    aimed at biomarker discovery.
+  link: https://bioconductor.org/packages/PAA/
+  name: PAA
+  registry:
+    biotools: paa
+  tags:
+  - data analysis
+  - researcher
+  - human data
 - description: The Protein Circular Dichroism Data Bank
   link: http://pcddb.cryst.bbk.ac.uk/
   name: PCDDB
@@ -739,6 +935,24 @@ Tools:
   tags:
   - researcher
   - IDP
+- description: PIA is a toolbox for mass spectrometrey based protein inference and
+    identification analysis.
+  link: https://github.com/mpc-bioinformatics/pia
+  name: PIA - Protein Inference Algorithms
+  registry:
+    biotools: pia
+  tags:
+  - data analysis
+  - researcher
+- description: Platform for the study of the impact of pathological mutations in protein
+    stuctures.
+  link: http://mmb.irbbarcelona.org/PMut
+  name: PMut
+  registry:
+    biotools: pmut
+  tags:
+  - data analysis
+  - human data
 - description: Privacy Impact Assessment Tool is a software, that allows you to carry
     out Privacy Impact Assessment (PIA) independently.
   link: https://privaon.com/services/privacy-impact-assessment-tool/
@@ -747,6 +961,16 @@ Tools:
   - data protection
   - policy officer
   - human data
+- description: R Markdown documents are fully reproducible. Use a productive notebook
+    interface to weave together narrative text and code to produce elegantly formatted
+    output. Use multiple languages including R, Python, and SQL.
+  link: https://rmarkdown.rstudio.com
+  name: R Markdown
+  registry:
+    tess: R Markdown
+  tags:
+  - data analysis
+  - researcher
 - description: The RD-Connect GPAP is an online tool for diagnosis and gene discovery
     in rare disease research.
   link: https://rd-connect.eu/what-we-do/omics/gpap/
@@ -941,3 +1165,13 @@ Tools:
   - metadata
   - researcher
   - IDP
+- description: Wellcome Open Research requires that the source data underlying the
+    results are made available as soon as an article is published. This page provides
+    information about data you need to include, where your data can be stored, and
+    how your data should be presented.
+  link: https://wellcomeopenresearch.org/for-authors/data-guidelines
+  name: Wellcome Open Research - Data Guidelines
+  tags:
+  - data publication
+  - researcher
+  - data manager
