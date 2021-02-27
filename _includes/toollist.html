@@ -10,15 +10,7 @@
 {%- if main_tags == blank %}
 The tag "{{ include.tag }}" has not yet related tools or resources.
 {%- else%}
-{%- if include.hide %}
-<div class="margin-link">
-<a class="btn orange-snip" href="#{{include.tag}}" role="button" data-toggle="collapse" data-target="#{{include.tag}}" aria-expanded="false" aria-controls="{{include.tag}}">
-    Show tools
-</a>
-</div>
-<div class="collapse" id="{{include.tag}}">
-{%- endif %}
-<table class="tooltable display {%- if include.hide != true %} table-margin{%- endif %}">
+<table class="tooltable display">
     <thead>
         <tr>
             <th>Tool or resource {%- if include.tag or include.tag2 %}
@@ -32,7 +24,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
         </tr>
     </thead>
     <tbody>
-        {%- for tool in main_tags %}
+        {%- for tool in main_tags | sort %}
         <tr>
             {% if tool.link %}
             <td><a href="{{tool.link}}">{{tool.name}}</a></td>
@@ -59,24 +51,21 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             {%- if tool.registry.biotools %}
             <a data-toggle="tooltip"
                 data-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
-                ><img style="background-color: orange;" class="registry_logo" src="images/bio.tools.svg" alt="bio.tools logo"/></a>
+                ><img style="background-color: orange;" class="registry_logo" src="images/logos/bio.tools.svg" alt="bio.tools logo"/></a>
             {%- endif %}
             {%- if tool.registry.fairsharing %}
             <a data-toggle="tooltip"
                 data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
-                ><img style="background-color: #ECF0F1;" class="registry_logo" src="images/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
+                ><img style="background-color: #ECF0F1;" class="registry_logo" src="images/logos/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
             {%- endif %}
             {%- if tool.registry.tess %}
             <a data-toggle="tooltip"
                 data-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
-                ><img style="background-color: #f47d20;" class="registry_logo" src="images/tess_logo.svg" alt="TeSS logo"/></a>
+                ><img style="background-color: #f47d20;" class="registry_logo" src="images/logos/tess_logo.svg" alt="TeSS logo"/></a>
             {%- endif %}
             </td> 
         </tr>
         {%- endfor %}
     </tbody>
 </table>
-{%- if include.hide %}
-</div>
-{%- endif %}
 {%- endif%}

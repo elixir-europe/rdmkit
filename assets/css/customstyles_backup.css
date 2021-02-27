@@ -1,3 +1,114 @@
+:root {
+    --main-text-color: #333;
+    --primary-theme-color: #f47d21;
+    --blue-light: #b0c3cf;
+    --blue-dark: #50889f;
+    --blue-x-dark: #056482;
+    --blue-xx-dark: #055472;
+    --blue-xxx-dark: #023452;
+    --subtle-text: #666;
+    --main-bg-color: white;
+    --light-grey: #efefef;
+    --footer-bg: #3e3e3e;
+    --hover-grey: #8D8D8D;
+    --white-text: white;
+    --cycle-red: #C63244;
+    --cycle-yellow: #DBBE28;
+    --cycle-purple: #903292;
+    --cycle-green: #309E69;
+    --cycle-brown: #763E2A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+    font-variant-ligatures: none;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: var(--blue-xx-dark);
+    margin: 40px 0 10px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 140%;
+    margin-top: 20px;
+}
+
+/* Add space between an image and <h3> */
+
+figure+h3, .alert+h3 {
+    margin-top: 1.5em;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 120%;
+    color: var(--subtle-text);
+    margin-top: 20px;
+}
+
+h2+h3 {
+    margin-top: 12px;
+}
+
+h3+h4 {
+    margin-top: 15px;
+}
+
+strong {
+    color: #333;
+}
+
+/*
+* Spacer classes (not in Bootstrap 3)
+*/
+
+.default-label {
+    font-weight: inherit;
+    background-color: var(--light-grey);
+    color: var(--main-text-color)
+}
+
+.default-label:hover {
+    color: var(--white-text);
+    background-color: var(--subtle-text);
+}
+
+.mt-0, .docimage.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mt-2, .alert.mt-2 {
+    margin-top: 1.5em;
+}
+
+.mb-0, .docimage.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-2, .alert.mb-2 {
+    margin-bottom: 1.5em;
+}
 
 .hr-margin {
     margin-top: 20px;
@@ -96,18 +207,28 @@
     color: #777 !important;
 }
 
-.default-label {
-    font-weight: inherit;
-    background-color: var(--light-grey);
-    color: var(--main-text-color)
+/* make room for the nav bar
+
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
+    padding-top: 60px;
+    margin-top: -40px
+}
+*/
+
+.post-content ol li, .post-content ul li {
+    margin: 10px 0px;
 }
 
-.default-label:hover {
-    color:var(--white-text);
-    background-color: var(--subtle-text);
+.pageSummary {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 20px;
 }
 
-
+.post-summary {
+    margin-bottom: 12px;
+}
 
 .bs-example {
     margin: 20px;
@@ -685,6 +806,10 @@ a.accordion-toggle, a.accordion-collapsed {
 
 /* navgoco sidebar styles (customized) */
 
+.nav, .nav ul, .nav li {
+    list-style: none;
+}
+
 .nav ul {
     padding: 0;
 }
@@ -702,6 +827,9 @@ a.accordion-toggle, a.accordion-collapsed {
     color: var(--main-text-color);
     display: block;
     outline: none;
+    /*-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;*/
     text-decoration: none;
 }
 
@@ -817,7 +945,6 @@ a.navbar-brand:hover {
     background-color: var(--primary-theme-color);
 }
 
-
 .sidebar_rdm {
     display: block;
     margin-left: auto;
@@ -862,7 +989,7 @@ span.projectTitle {
 
 #main {
     min-height: 100vh;
-/* Footer height */
+    /* Footer height */
 }
 
 .site-footer {
@@ -900,9 +1027,6 @@ span.projectTitle {
 
 .site-footer a:hover {
     color: var(--primary-theme-color);
-}
-
-.site-footer a:hover {
     text-decoration: none;
 }
 
@@ -1008,6 +1132,10 @@ table.request thead tr th {
     padding: 7px;
 }
 
+.nohover:hover {
+    text-decoration: none;
+}
+
 .prefaceAudienceLabel {
     color: gray;
     text-align: center;
@@ -1036,7 +1164,20 @@ hr.faded {
     background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.75), transparent);
 }
 
+.post-content img.registry_logo {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 4px;
+}
 
+.post-content img.tess_logo {
+    max-height: 45px;
+    max-width: 45px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+}
 
 .orange-snip {
     padding: 16px;
@@ -1062,6 +1203,26 @@ hr.shaded {
     margin-bottom: 10px;
 }
 
+.fa-6x {
+    font-size: 900%;
+}
+
+.fa-7x {
+    font-size: 1100%;
+}
+
+.fa-8x {
+    font-size: 1300%;
+}
+
+.fa-9x {
+    font-size: 1500%;
+}
+
+.fa-10x {
+    font-size: 1700%;
+}
+
 i.border {
     padding: 10px 20px;
     background-color: whitesmoke;
@@ -1079,8 +1240,17 @@ i.border {
     font-weight: bold;
 }
 
+a.fa.fa-envelope-o.mailto {
+    font-weight: 600;
+}
+
 .alert, .callout {
     overflow: hidden;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: #248ec2;
+    color: var(--white-text);
 }
 
 li img {
@@ -1263,6 +1433,19 @@ span.soft {
     color: #c0c0c0;
 }
 
+.githubEditButton {
+    color: var(--cycle-red);
+    border-color: transparent;
+    margin-left: 12px;
+    background-color: transparent;
+    font-size: small;
+}
+
+.githubEditButton:hover {
+    color: var(--cycle-red);
+    border-color: transparent;
+    background-color: var(--light-grey);
+}
 
 .endpoint {
     padding: 15px;
@@ -1411,6 +1594,12 @@ span.label.label-primary {
     background-color: white
 }
 
+.nav li.active>a.subfoldersTitle {
+    background-color: var(--light-grey);
+    font-weight: bold;
+    color: black;
+}
+
 a code {
     color: #248EC2;
 }
@@ -1457,6 +1646,26 @@ div.arrow {
 div.content {
     max-width: 110px
 }
+
+/* 1 */
+
+.ie9 img[src$=".svg"] {
+    width: 100%;
+}
+
+/* 2 */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    img[src$=".svg"] {
+        width: 100%;
+    }
+}
+
+h4.panel-title {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
 /*set navbar breakpoint so that it converts to hamburger earlier */
 
 @media (max-width: 1000px) {

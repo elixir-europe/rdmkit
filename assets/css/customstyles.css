@@ -289,6 +289,16 @@ table>thead>tr>th {
     border-bottom: 2px solid var(--light-grey);
 }
 
+/*-----Registries in tool table------*/
+
+.post-content img.registry_logo {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
 /*-----Footer-----*/
 
 .site-footer {
@@ -313,6 +323,12 @@ table>thead>tr>th {
 
 .site-footer a {
     color: var(--white-text);
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: var(--primary-theme-color);
+    text-decoration: none;
 }
 
 .footer-links {
@@ -342,6 +358,13 @@ table>thead>tr>th {
     .site-footer .copyright-text, .site-footer {
         text-align: right;
     }
+}
+
+.site-footer .europe-flag {
+    float: left;
+    width: 60px;
+    margin: 5px 20px 0 0;
+    opacity: 0.8;
 }
 
 /*-----Social icons-----*/
@@ -387,7 +410,7 @@ table>thead>tr>th {
     margin: 0.25em;
 }
 
-/*-----Tags line and the end of the footer-----*/
+/*-----Tags line -----*/
 
 .tags {
     margin-top: 30px;
@@ -499,15 +522,6 @@ table>thead>tr>th {
     text-decoration: none;
 }
 
-/*-----Registries in tool table------*/
-
-.post-content img.registry_logo {
-    max-height: 40px;
-    max-width: 40px;
-    margin: 2px;
-    padding: 5px;
-    border-radius: 4px;
-}
 
 /*-----TeSS button-----*/
 
