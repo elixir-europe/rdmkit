@@ -3,6 +3,7 @@ title: Data protection
 contributors: [Pinar Alper]
 keywords: [gdpr, ethics]
 tags: [plan, preserve, share, IT support, policy officer, data manager]
+description: how to make research data compliant to GDPR.
 ---
 
 

@@ -3,6 +3,7 @@ title: Data management plan
 keywords: 
 contributors: [Flora D'Anna, Daniel Faria]
 tags: [plan, researcher, data manager, policy officer]
+description: how to write a Data Management Plan (DMP).
 ---
 
 
@@ -54,15 +55,17 @@ However, a number of web-based DMP tools are currently available that greatly fa
 ### Description
 A DMP should address a broad range of data management aspects, regardless of template. It is important to be aware of the current best practices in DMPs before starting one.
 
+### Considerations
+Common topics of a DMP are:
+* General information about the project.
+* Description of the datasets that will be used and generated.
+* Description of metadata, ontologies and data documentation.
+* Storage solutions, data security and preservation strategy that will be adopted during and after the project.
+* How, when and where data will be shared and published.
+* Costs and resources needed for data management.
+* Ethical and legal issues, such as privacy, intellectual property and licences.
+
 ### Solutions
-* Common topics of a DMP are:
-  * General information about the project.
-  * Description of the datasets that will be used and generated.
-  * Description of metadata, ontologies and data documentation.
-  * Storage solutions, data security and preservation strategy that will be adopted during and after the project.
-  * How, when and where data will be shared and published.
-  * Costs and resources needed for data management.
-  * Ethical and legal issues, such as privacy, intellectual property and licences.
 * This website includes best practices and guidelines about the different aspects of research data management that should be covered in a DMP.
 * Core requirements for DMP have been described by [Science Europe](https://www.scienceeurope.org/our-priorities/research-data/research-data-management/).
 * Consider the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) from the Research Data Alliance as a reference data model for organising the different topics.

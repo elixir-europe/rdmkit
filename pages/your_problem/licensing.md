@@ -1,8 +1,9 @@
 ---
-title: Licencing
+title: Licensing
 keywords: 
 contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
 tags: [share, reuse, data manager, policy officer]
+description: how to license research data.
 ---
 
 ## Why should you assign a licence to your research data?
@@ -20,7 +21,7 @@ Licensing is an important aspect of meeting the R (reusable) principle in FAIR d
 * If you are producing a dataset and make it available to others, you should be explicit about what others are allowed to do with this. A document describing that is called a licence.
 * If you are reusing a dataset that comes from somewhere, you will want to have a licence that explains what you can do with it. Without a licence, reusing a dataset could be setting you up for legal trouble.
 * Note that different interpretations of copyright laws think differently about copyrights on data. Under some jurisdictions, some data is explicitly not subject to copyrights. An example is data describing the earth under the laws of the United States of America. Copyright law specifies that it only applies to a "creative work", and arguably, just collecting data does not have sufficiently creative steps to claim copyrights. 
-  * Relying on this as a reuser of data, however, is dangerous. Look for a license and apply it.
+  * Relying on this as a reuser of data, however, is dangerous. Look for a licence and apply it.
   * As a data producer you should be aware that you may not be able to uphold licence restrictions in court, because it may be decided that the dataset is not copyrightable in the first place. It is therefore best to apply a permissive licence, not asserting strong copyrights.
 * Be sure of data ownership before publishing data. 
   * Are there rights belonging to a third party?
@@ -46,11 +47,11 @@ This depends on what rights protect your research data. Which licence to choose 
 
 ### Solutions
 * Apply to your data one of the [recommended licenses conformant to the Open Definition](https://opendefinition.org/licenses/), so that your data can be shared and reused. The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
-* [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licenses and are available in human-readable and machine-readable forms, with different levels of permissions.
-  * [Creative Commons License Chooser](https://creativecommons.org/choose/) helps you choose the right Creative Commons license for your needs.
+* [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licences and are available in human-readable and machine-readable forms, with different levels of permissions.
+  * [Creative Commons License Chooser](https://creativecommons.org/choose/) helps you choose the right Creative Commons licence for your needs.
   * The [video tutorial from Kingsborough E-Learning](https://www.youtube.com/watch?v=5QxkuuiZwRU) shows how to add a Creative Commons licence to your work in practice.
 * The following tools helps you find the right licence for your software and data:
-  * [Public Licence Selector](https://ufal.github.io/public-license-selector/)
+  * [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/)
   * [Choose a license](https://choosealicense.com)
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
 

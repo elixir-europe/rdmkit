@@ -3,6 +3,7 @@ title: Data organisation
 keywords: [file naming, versioning, folder structures]
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
 tags: [collect, process, analyse, preserve, researcher, IT support, data manager]
+description: best practices to name and organise research data.
 ---
 
 ## What is the best way to name a file?

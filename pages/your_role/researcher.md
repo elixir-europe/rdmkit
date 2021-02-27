@@ -26,22 +26,9 @@ I know the types and the approximate amount of data I will generate, but I have 
 * Check out the various steps of the [RDM life cycle](index), in particular the [planning](planning) stage
 * Identify and contact the data steward in your local organisation or your national contact in the [ELIXIR](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators) network
 * Use local guidelines associated with the national or institutional DMP application and/or follow an introductory [training](https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials)
-* Start planning your project taking the [DMP](data_management_plan) into account 
+* Start planning your project taking the [DMP](data_management_plan) into account
 
-## Common issues
-
-Some common issues and solutions that researchers run into are listed here:
-* How do I know if my data is [sensitive](data_classification) and how to ensure [data protection](data_protection) and [compliance](compliance_monitoring)?
-* What are suitable resources for data computation and [storage](storage) during the project, considering size of data and who has access rights?
-* How do I best capture the [processes](data_analysis) involved in creating, processing and analysing my data?
-* What are best practices for [organising](data_organisation) my data?
-* How can I ensure research [data quality](data_quality)?
-* In which public repository should I [share](sharing) and [publish](data_publication) my data? 
-* How do I find appropriate standard [metadata](metadata_management) for my data?
-* What metadata and community standards do I need to [capture](collecting) to enable FAIR-publishing in public repositories?
-* What are the data retention policies for [my country](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)?
-
-## Common issues
+## Common problems
 
 {% include pagelist.html tag="researcher" %}
 

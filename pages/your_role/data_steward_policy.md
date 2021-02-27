@@ -5,7 +5,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 ---
 
 ## Description
-As a policy data steward, I focus on policy development and the implementation of research data management practices in my organisation. I work in close collaboration with directors, policy makers and funders, and I help establish suitable and sufficient data stewardship services and infrastructure. 
+As a policy data steward, I focus on policy development and the implementation of research data management practices in my organisation. I work in close collaboration with directors, policy makers and funders, and I help establish suitable and sufficient data stewardship services and infrastructure.
 
 It is my job to coordinate and align efforts on the quality, security and management of my organisation’s data, thus effectively supporting the research process. I have a good knowledge of local, national and international procedures and regulations, such as my institution’s research code, national codes of conduct or the EU privacy legislation. I translate these general concepts into practical guidelines for my organisation, and coordinate their implementation and monitoring.
 
@@ -38,7 +38,7 @@ If you want to become competent in these areas or build capacity in your institu
 * Data Carpentry [lessons](https://datacarpentry.org/lessons/)
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
-## Common issues
+## Common problems
 
 {% include pagelist.html tag="policy officer" %}
 
