@@ -7,14 +7,6 @@ $(document).ready(function () {
   };
   anchors.add('h2:not(.no-anchor)');
 })
-/**
- * Bootstrap Tooltip activation
- */
-
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
 
 /**
  * Function to open external links in separate tab
@@ -30,24 +22,23 @@ function external_new_window() {
 }
 
 /**
- * Collapsing sidebar
+ * Settings for side navigation
  */
-$(document).ready(function() {
-	$('.menu li:has(ul)').click(function(e) {
-		e.preventDefault();
-
-		if($(this).hasClass('active')) {
-			$(this).removeClass('active');
-			$(this).children('ul').slideUp();
-		} else {
-			$('.menu li ul').slideUp();
-			$('.menu li').removeClass('active');
-			$(this).addClass('active');
-			$(this).children('ul').slideDown();
-		}
-
-		$('.menu li ul li a').click(function() {
-			window.location.href = $(this).attr('href');
-		})
-	});
+$(document).ready(function () {
+    // Initialize navgoco with default options
+    $("#menu").navgoco({
+        caretHtml: '',
+        accordion: true,
+        openClass: 'active', // open
+        save: false, // leave false or nav highlighting doesn't work right
+        cookie: {
+            name: 'navgoco',
+            expires: false,
+            path: '/'
+        },
+        slide: {
+            duration: 400,
+            easing: 'swing'
+        }
+    });
 });
