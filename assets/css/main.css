@@ -219,6 +219,12 @@ li ul .sidebar_rdm_sub {
     border-width: 0.2em;
 }
 
+.blurb-title {
+    font-size: 1.3em;
+    margin: 18px 0px;
+    font-weight: 600;
+}
+
 /*-----Summary under page title-----*/
 
 .summary {
@@ -276,6 +282,10 @@ li ul .sidebar_rdm_sub {
 table {
     display: block;
     overflow-x: auto;
+    margin: 40px 0 20px;
+}
+
+.dataTables_wrapper {
     margin: 40px 0 20px;
 }
 
@@ -398,10 +408,45 @@ table>thead>tr>th {
     color: var(--main-bg-color)
 }
 
-/*-----Contributors page level-----*/
 
-.contributors-line {
-    margin-top: 30px;
+/*-----MetaData section -----*/
+
+.meta-line {
+    padding: 15px 0px;
+}
+
+.meta-obj {
+    margin: 5px 0px 5px 5px;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    border-radius: 4px;
+    display: inline-block;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out;
+}
+
+.meta-obj-false {
+    background-color: var(--main-bg-color);
+    margin: 5px 0px 5px 5px;
+    color: var(--main-text-color);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.meta-obj-false:hover {
+    color: var(--main-text-color);
+}
+
+.meta-obj:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--main-text-color);
 }
 
 .contributor-badge {
@@ -410,10 +455,11 @@ table>thead>tr>th {
     margin: 0.25em;
 }
 
-/*-----Tags line -----*/
-
-.tags {
-    margin-top: 30px;
+.page-metadata {
+    background-color: var(--light-grey);
+    border-radius: 4px;
+    padding: 15px 15px;
+    margin-top: 70px;
 }
 
 /*-----Contributors carousel homepage-----*/

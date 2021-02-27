@@ -55,6 +55,8 @@ Optional metadata/frontmatter:
 
 * `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
 
+* `description`: This is a one-liner and is used when the page is listed. 
+
 ### Markdown file naming
 
 - Markdown files should be named without capitals and without spaces (replace them with underscores).
@@ -138,8 +140,7 @@ The attributes that define the structure are:
 - `title`: This is the text that will show up in the sidebar.
 - `url`: The URL to the internal page you want to link to. This is mostly in the form of: */markdown_file_name.html*.
 - `external_url`: Use this instead of URL if you want to link to an external page.
-- `folderitems`: To start a second level of links.
-- `subfolderitems`: To start a third level of links.
+- `subitems`: to define a sublevel.
 
 ```yaml
 - title: Level_1_title

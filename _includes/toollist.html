@@ -10,11 +10,11 @@
 {%- if main_tags == blank %}
 The tag "{{ include.tag }}" has not yet related tools or resources.
 {%- else%}
-<table class="tooltable display">
+<table id="tooltable" class="tooltable display">
     <thead>
         <tr>
-            <th>Tool or resource {%- if include.tag or include.tag2 %}
-                <a href="#" data-toggle="tooltip" title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+            <th>Tool or resource {%- if include.tag or include.tag2 -%}
+                <a role="button" data-toggle="tooltip" title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
                     <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
                 </a>{%- endif %}
             </th>
@@ -39,9 +39,9 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             {%- else %}
             {%- if allowedtags[tag]["url"] %}
             {%- assign taglink = allowedtags[tag]["url"] %}
-            <a class="nohover" href="{{taglink}}"><span class="badge bg-light text-dark">{{tag}}</span></a>
+            <a class="nohover" href="{{taglink}}"><span class="badge">{{tag}}</span></a>
             {%- else %}
-            <span class="badge bg-light text-dark">{{tag}}</span>
+            <span class="badge">{{tag}}</span>
             {%- endif %}
             {%- endif %}
             {%- endfor %}
@@ -50,17 +50,17 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             <td style="text-align: center; vertical-align: middle;">
             {%- if tool.registry.biotools %}
             <a data-toggle="tooltip"
-                data-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
+                title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
                 ><img style="background-color: orange;" class="registry_logo" src="images/logos/bio.tools.svg" alt="bio.tools logo"/></a>
             {%- endif %}
             {%- if tool.registry.fairsharing %}
             <a data-toggle="tooltip"
-                data-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
+                title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
                 ><img style="background-color: #ECF0F1;" class="registry_logo" src="images/logos/FAIRsharing-small.svg" alt="FAIRsharing logo"/></a>
             {%- endif %}
             {%- if tool.registry.tess %}
             <a data-toggle="tooltip"
-                data-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
+                title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
                 ><img style="background-color: #f47d20;" class="registry_logo" src="images/logos/tess_logo.svg" alt="TeSS logo"/></a>
             {%- endif %}
             </td> 

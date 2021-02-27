@@ -1,15 +1,11 @@
 {%- assign allcontributors = site.data.CONTRIBUTORS -%}
 {%- assign contributors = include.contributors |sort -%}
-{%- capture people -%}
-{%- for name in contributors | sort -%}, {% assign id = allcontributors[name].git | default: 'no_github' -%}
-<img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ name }}">
-{% if id != 'no_github' -%}
-<a href="https://github.com/{{ id }}">
-{% endif -%}
-    {{ name }}
-{%- if id != 'no_github' -%}
+{%- for name in contributors | sort -%}{% assign id = allcontributors[name].git | default: 'no_github' -%}
+{%- if id != 'no_github' %}
+<a role="button" class="meta-obj" href="https://github.com/{{ id }}">
+{%- else %}
+<a class="meta-obj-false">
+{%- endif %}
+<img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ name }}">{{ name }}
 </a>
-{% endif -%}
 {% endfor -%}
-{% endcapture -%}
-{{ people | remove_first: ', ' }}
