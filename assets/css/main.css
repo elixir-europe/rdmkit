@@ -149,7 +149,27 @@ ul#results-container {
     border-radius: 4px;
     z-index: 1000;
     width: 15em;
+    padding-left: 0;
 }
+
+ul#results-container li{
+    list-style: none;
+}
+
+ul#results-container li a{
+    color:var(--main-text-color);
+    padding: 6px 11px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.08em;
+}
+
+ul#results-container li a:hover{
+    color: var(--white-text);
+    background-color: var(--primary-theme-color);
+    border-radius: 4px;
+}
+
 
 /*-----Sidebar-----*/
 
@@ -175,6 +195,7 @@ ul#results-container {
     padding: 6px 11px;
     text-decoration: none;
     border-radius: 4px;
+    font-size: 1.08em;
 }
 
 .container-menu ul {
@@ -185,7 +206,7 @@ ul#results-container {
     margin-top: 20px;
 }
 
-.container-menu .menu li a:hover, .container-menu .menu .active>a {
+.container-menu .menu li a:hover{
     background: var(--primary-theme-color);
     color: var(--white-text);
 }
@@ -201,6 +222,20 @@ ul#results-container {
 
 .container-menu .menu ul {
     display: none;
+}
+
+.menu li>a>span{
+    float: right;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.menu li.active>a>span:after{
+    content: '-';
+}
+
+.menu li>a>span:after{
+    content: '+';
 }
 
 /* RDM wheel in sidebar */
