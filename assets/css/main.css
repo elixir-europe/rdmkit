@@ -499,21 +499,21 @@ table>thead>tr>th {
 
 /*-----Contributors carousel homepage-----*/
 
-.contributors .carousel-item {
+#contributors-carousel .carousel-item {
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.carousel-item.active, .carousel-item.next {
+#contributors-carousel .carousel-item.active, #contributors-carousel .carousel-item-next, #contributors-carousel .carousel-item-prev {
     display: flex;
 }
 
 .hall-of-fame-hero {
     width: 18%;
     background-color: var(--light-grey);
-    padding: 20px 0px;
+    padding: 15px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -525,13 +525,14 @@ table>thead>tr>th {
     color: var(--light-grey);
 }
 
-.item .hall-of-fame-hero .name {
+.hall-of-fame-hero .name {
     margin-top: 10px;
     font-size: 0.9em;
     text-align: center;
+    height: 2em;
 }
 
-.item .hall-of-fame-hero img {
+.hall-of-fame-hero img {
     border-radius: 50%;
     width: 8em;
 }
@@ -543,48 +544,48 @@ table>thead>tr>th {
 }
 
 @media (max-width: 992px) {
-    .item .hall-of-fame-hero .name {
+    .hall-of-fame-hero .name {
         font-size: 0.7em;
         height: 22px;
     }
-    .item .hall-of-fame-hero img {
+    .hall-of-fame-hero img {
         width: 5em;
     }
-    .item .hall-of-fame-hero .social-icons a {
+    .hall-of-fame-hero .social-icons a {
         line-height: 3ex;
         width: 3ex;
         height: 3ex;
     }
-    .item .hall-of-fame-hero .social-icons {
+    .hall-of-fame-hero .social-icons {
         height: 3ex;
     }
 }
 
 @media (max-width: 600px) {
-    .item .hall-of-fame-hero img {
+    .hall-of-fame-hero img {
         width: 4em;
     }
-    .item .hall-of-fame-hero .social-icons a {
+    .hall-of-fame-hero .social-icons a {
         line-height: 2.5ex;
         width: 2.5ex;
         height: 2.5ex;
     }
-    .item .hall-of-fame-hero .social-icons {
+    .hall-of-fame-hero .social-icons {
         height: 2.5ex;
     }
 }
 
 @media (max-width: 400px) {
-    .item .hall-of-fame-hero img {
+    .hall-of-fame-hero img {
         width: 3em;
     }
-    .item .hall-of-fame-hero .social-icons a {
+    .hall-of-fame-hero .social-icons a {
         line-height: 2.5ex;
         width: 2.5ex;
         height: 2.5ex;
         font-size: 12px;
     }
-    .item .hall-of-fame-hero .social-icons {
+    .hall-of-fame-hero .social-icons {
         height: 2.5ex;
     }
 }

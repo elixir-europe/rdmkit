@@ -18,7 +18,7 @@
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
 {%- endif  %}
 <div class="contributor-container">
-    <div id="contributors-carousel" class="contributors carousel slide" data-ride="carousel" data-interval="7000">
+    <div id="contributors-carousel" class="carousel slide" data-ride="carousel" data-interval="7000">
         <div class="carousel-inner">
             {%- assign counter = 0 %}
             {%- for contributor in allcontributors %}
@@ -27,7 +27,7 @@
                   {%- if counter != 0 %}
             </div>
             {%- endif %}
-            <div class="carousel-item item {% if counter == 0 %}active{% endif %}">
+            <div class="carousel-item {% if counter == 0 %}active{% endif %}">
                   {%- endif %}
                 <div class="hall-of-fame-hero">
                     {%- assign id = contributors[contributor].git | default: 'no_github' %}
@@ -51,13 +51,13 @@
             {%- endif %}
             {%- endfor %}
         </div>
-        <a class="left carousel-control" href="#contributors-carousel" data-slide="prev">
-            <i class="fas fa-chevron-left"></i>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#contributors-carousel" data-slide="next">
-            <i class="fas fa-chevron-right"></i>
-            <span class="sr-only">Next</span>
-        </a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#contributors-carousel"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#contributors-carousel"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
     </div>
 </div>
