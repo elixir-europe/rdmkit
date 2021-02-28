@@ -510,6 +510,10 @@ table>thead>tr>th {
     display: flex;
 }
 
+.carousel-control-next, .carousel-control-prev{
+    width: 3%;
+}
+
 .hall-of-fame-hero {
     width: 18%;
     background-color: var(--light-grey);
