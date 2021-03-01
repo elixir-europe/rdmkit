@@ -29,12 +29,12 @@
         <div id="main">
             <!-- Content Row -->
             <div class="row">
-                {% assign content_col_size = "col-md-12" %}{% unless page.hide_sidebar %}
+                {% assign content_col_size = "col-lg-12" %}{% unless page.hide_sidebar %}
                 <!-- Sidebar Column -->
-                <div class="col-md-3 container-menu">
+                <div class="col-lg-3 container-menu">
                     {% include sidebar.html %}
                 </div>
-                {% assign content_col_size = "col-md-9" %}{% endunless %}
+                {% assign content_col_size = "col-lg-9" %}{% endunless %}
                 <!-- Content Column -->
                 <div class="{{content_col_size}}">
                     {{content}}

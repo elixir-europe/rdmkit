@@ -211,6 +211,13 @@ ul#results-container li a:hover {
     max-height: 100%;
 }
 
+figcaption {
+    margin-top: 10px;
+    max-width: 90%;
+    font-style: italic;
+    color: gray;
+}
+
 /*-----Sidebar-----*/
 
 .sidebarTitle {
