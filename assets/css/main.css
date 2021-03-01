@@ -83,6 +83,12 @@ hr {
     margin: 10px 0px;
 }
 
+/* page size is minimum screen size */
+#main {
+    min-height: 100vh;
+}
+
+
 /* list circles colored */
 
 ul li::marker {
@@ -96,10 +102,23 @@ ul li::marker {
     width: 1.3em;
 }
 
+/*-----Code highlighting-----*/
+
 code {
     background-color: #fcf2f7;
     border-radius: 4px;
     padding: 2px 4px;
+}
+
+pre {
+    padding: 9.5px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 /*-----Top navigation-----*/
@@ -179,9 +198,6 @@ ul#results-container li a:hover{
     font-size: 1.4em;
 }
 
-.container-menu .menu {
-    margin-right: 30px;
-}
 
 .container-menu li {
     list-style: none;
@@ -206,21 +222,21 @@ ul#results-container li a:hover{
     margin-top: 20px;
 }
 
-.container-menu .menu li a:hover{
+.menu li a:hover{
     background: var(--primary-theme-color);
     color: var(--white-text);
 }
 
-.container-menu .menu ul li a {
+.menu ul li a {
     padding-left: 30px;
     background-color: transparent;
 }
 
-.container-menu .menu ul li ul li a {
+.menu ul li ul li a {
     padding-left: 60px;
 }
 
-.container-menu .menu ul {
+.menu ul {
     display: none;
 }
 
@@ -238,6 +254,12 @@ ul#results-container li a:hover{
     content: '+';
 }
 
+@media (min-width:767px) {
+    .menu {
+        margin-right: 30px;
+    }
+    
+}
 /* RDM wheel in sidebar */
 
 .sidebar_rdm {
@@ -481,7 +503,7 @@ table>thead>tr>th {
 
 .meta-obj:hover {
     background-color: var(--primary-theme-color);
-    color: var(--main-text-color);
+    color: var(--white-text);
 }
 
 .contributor-badge {
