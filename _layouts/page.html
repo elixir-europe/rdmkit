@@ -3,7 +3,7 @@ layout: default
 ---
 {%- if page.title %}
 <div class="post-header">
-    <h1 class="post-title-main">{{ page.title }}
+    <h1>{{ page.title }}
         {%- if page.custom-editme %}
         {%- capture custom-editme %}{{ page.custom-editme }}{%- endcapture %}
         {%- include edit_me.html path=custom-editme %}

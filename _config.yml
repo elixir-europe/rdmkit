@@ -42,6 +42,7 @@ feedback_text: "Give feedback"
 # if you uncomment the previous line, it changes the Feedback text
 
 markdown: kramdown
+highlighter: rouge
 kramdown:
  input: GFM
  auto_ids: true
