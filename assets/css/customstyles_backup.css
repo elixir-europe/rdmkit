@@ -1010,7 +1010,7 @@ span.projectTitle {
     float: left;
     width: 60px;
     margin: 5px 20px 0 0;
-    opacity: 0.8;
+    padding: 10px 0px;
 }
 
 .site-footer h6 {
@@ -1023,6 +1023,7 @@ span.projectTitle {
 
 .site-footer a {
     color: var(--white-text);
+    font-weight: bold;
 }
 
 .site-footer a:hover {
@@ -1044,15 +1045,9 @@ span.projectTitle {
 }
 
 .copyright-text {
-    margin-top: 10px;
-    margin-bottom: 15px;
-    text-align: right;
-    color: var(--light-grey);
-}
-
-.contact-us {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
     color: var(--light-grey);
 }
 
