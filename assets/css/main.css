@@ -371,6 +371,22 @@ table>thead>tr>th {
     border-bottom: 2px solid var(--light-grey);
 }
 
+.default-badge {
+    font-weight: inherit;
+    background-color: var(--light-grey);
+    color: var(--main-text-color);
+}
+
+.default-badge:hover {
+    color: var(--white-text);
+    background-color: var(--hover-grey);
+}
+
+/* name column bigger */
+#tooltable tr th:nth-child(1) {
+    width: 25%;
+}
+
 /*-----Registries in tool table------*/
 
 .post-content img.registry_logo {
