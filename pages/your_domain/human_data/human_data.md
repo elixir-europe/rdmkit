@@ -116,7 +116,7 @@ It is good research ethical practice to ensure that data underlying research is 
   * Do address these issues of long-term preservation and data publication as early as possible, preferably already at the planning stage. If you are relying on your research institution to provide a solution, it might need time to plan for this.
 
 ### Solutions
-* GA4GH data security toolkit(https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/)
+* [GA4GH data security toolkit](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/)
 * [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) is an international information security standard adopted by data centres of some universities and research institutes.
 
 
