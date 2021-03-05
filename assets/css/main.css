@@ -1,22 +1,13 @@
 :root {
-    --main-text-color: #333;
-    --primary-theme-color: #f47d21;
-    --blue-light: #b0c3cf;
-    --blue-dark: #50889f;
-    --blue-x-dark: #056482;
-    --blue-xx-dark: #055472;
-    --blue-xxx-dark: #023452;
+    --main-text-color: #333333;
+    --primary-theme-color: #AE315F;
+    --hover-grey: #848484;
+    --nav-bg-color: #f3f1f2;
     --subtle-text: #666;
     --main-bg-color: white;
-    --light-grey: #ebeff1;
-    --footer-bg: #3e3e3e;
-    --hover-grey: #8D8D8D;
+    --light-grey: #f3f1f2;
+    --dark-bg: #3e3e3e;
     --white-text: white;
-    --cycle-red: #C63244;
-    --cycle-yellow: #DBBE28;
-    --cycle-purple: #903292;
-    --cycle-green: #309E69;
-    --cycle-brown: #763E2A;
     --linkcolor: #337ab7;
 }
 
@@ -25,15 +16,20 @@
 body {
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-variant-ligatures: none;
     font-size: 1em;
+}
+
+.post-header h1 {
+    font-size: 3.5em;
+    font-weight: 400;
 }
 
 .post-content h2 {
     font-size: 1.6em;
     font-weight: 700;
-    color: var(--blue-xx-dark);
+    color: var(--primary-theme-color);
     margin: 40px 0 10px;
 }
 
@@ -93,7 +89,7 @@ hr {
 /* list circles colored */
 
 ul li::marker {
-    color: var(--blue-xx-dark);
+    color: var(--linkcolor);
 }
 
 /* position and size emoji */
@@ -134,15 +130,11 @@ pre code {
 
 .navbar {
     margin-bottom: 40px;
-    background-color: var(--blue-xxx-dark);
+    background-color: var(--nav-bg-color);
 }
 
-.navbar-nav .nav-item {
-    margin-left: 10px;
-}
-
-.navbar-nav .nav-item a, .projectTitle {
-    color: var(--white-text);
+.navbar-nav .nav-item a {
+    color: var(--main-text-color);
 }
 
 .navbar-nav .nav-item a:hover {
@@ -150,18 +142,31 @@ pre code {
     text-decoration: none;
 }
 
-li.nav-item.active a {
+.navbar-nav .nav-item.active a {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
     border-radius: 4px;
 }
 
-li.nav-item.active a:hover {
-    color: var(--white-text);
+.navbar-brand img {
+    height: 40px;
 }
 
 .navbar-toggler {
     color: var(--primary-theme-color);
+}
+
+@media (min-width:992px) {
+    .navbar-nav .nav-item {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-nav .nav-item a {
+        padding-left: 11px;
+        margin-top: 4px;
+    }
 }
 
 /*-----Search box top navigation-----*/
@@ -262,6 +267,11 @@ figcaption {
     padding-left: 60px;
 }
 
+.menu ul li.active a{
+    background: var(--primary-theme-color);
+    color: var(--white-text);
+}
+
 .menu ul {
     display: none;
 }
@@ -308,14 +318,13 @@ li ul .sidebar_rdm_sub {
     border-width: 0.2em;
 }
 
-
 /*-----Summary under page title-----*/
 
 .summary {
     font-size: 16px;
     color: var(--subtle-text);
     margin: 20px 0px 20px 0px;
-    border-left: 5px solid var(--blue-xx-dark);
+    border-left: 5px solid var(--primary-theme-color);
     padding-left: 10px;
 }
 
@@ -390,6 +399,7 @@ table>thead>tr>th {
 }
 
 /* name column bigger */
+
 #tooltable tr th:nth-child(1) {
     width: 25%;
 }
@@ -407,7 +417,7 @@ table>thead>tr>th {
 /*-----Footer-----*/
 
 .site-footer {
-    background-color: var(--footer-bg);
+    background-color: var(--dark-bg);
     padding: 15px 0 0px;
     font-size: 15px;
     line-height: 24px;
@@ -422,7 +432,7 @@ table>thead>tr>th {
 }
 
 .site-footer h6 {
-    color: var(--hover-grey);
+    color: var(--subtle-text);
     margin-top: 5px;
 }
 
@@ -431,6 +441,7 @@ table>thead>tr>th {
     font-weight: bold;
     text-decoration: none;
 }
+
 .site-footer a:hover {
     color: var(--primary-theme-color);
     text-decoration: none;
@@ -498,7 +509,7 @@ table>thead>tr>th {
 .meta-obj {
     margin: 5px 0px 5px 5px;
     background-color: var(--main-bg-color);
-    color: var(--main-text-color);
+    color: var(--primary-theme-color);
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -546,7 +557,7 @@ table>thead>tr>th {
 
 .blurb-title {
     font-size: 1.3em;
-    margin: 18px 0px;
+    margin-bottom: 18px;
     font-weight: 600;
 }
 
@@ -578,7 +589,7 @@ table>thead>tr>th {
 }
 
 .hall-of-fame-hero:hover {
-    background-color: var(--footer-bg);
+    background-color: var(--hover-grey);
     color: var(--light-grey);
 }
 
@@ -650,13 +661,13 @@ table>thead>tr>th {
 /*-----Edit me button-----*/
 
 .githubEditButton {
-    color: var(--cycle-red);
+    color: var(--primary-theme-color);
     margin-left: 12px;
     font-size: small;
 }
 
 .githubEditButton:hover {
-    color: var(--cycle-red);
+    color: var(--primary-theme-color);
     background-color: var(--light-grey);
     text-decoration: none;
 }
