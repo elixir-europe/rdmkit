@@ -1,13 +1,15 @@
-{%- if {{include.search}} %}
-<a class=" nohover orange-snip" role="button" data-toggle="tooltip" title="TeSS Search: {{include.search}}"
-  href="https://tess.elixir-europe.org/search?q={{include.search}}">
-  Topic related training:
-  <img class="tess_logo" src="images/logos/tess_logo.svg" alt="TeSS logo" />
-</a>
-{%- elsif {{include.material}} %}
-<a class=" nohover orange-snip" role="button" data-toggle="tooltip" title="TeSS Material: {{include.material}}"
-  href="https://tess.elixir-europe.org/materials/{{include.material}}">
-  Topic related training:
-  <img class="tess_logo" src="images/logos/tess_logo.svg" alt="TeSS logo" />
-</a>
-{%- endif %}
+<div class="TeSS-button">
+  {%- if {{include.search}} %}
+  <a role="button" data-toggle="tooltip" title="TeSS Search: {{include.search}}"
+    href="https://tess.elixir-europe.org/search?q={{include.search}}">
+    Topic related training:
+    <img class="tess_logo" src="images/logos/tess_logo.svg" alt="TeSS logo" />
+  </a>
+  {%- elsif {{include.material}} %}
+  <a role="button" data-toggle="tooltip" title="TeSS Material: {{include.material}}"
+    href="https://tess.elixir-europe.org/materials/{{include.material}}">
+    Topic related training:
+    <img class="tess_logo" src="images/logos/tess_logo.svg" alt="TeSS logo" />
+  </a>
+  {%- endif %}
+</div>
