@@ -54,10 +54,6 @@ body {
     margin-top: 15px;
 }
 
-.post-content strong {
-    color: #333;
-}
-
 .post-content a {
     text-decoration: none;
     color: var(--linkcolor);
@@ -142,7 +138,7 @@ pre code {
     text-decoration: none;
 }
 
-.navbar-nav .nav-item.active a {
+.navbar-nav .nav-item a.active {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
     border-radius: 4px;
@@ -374,6 +370,7 @@ li ul .sidebar_rdm_sub {
 table {
     display: block;
     overflow-x: auto;
+    overflow-y:hidden;
     margin: 40px 0 20px;
 }
 
@@ -416,51 +413,33 @@ table>thead>tr>th {
 
 /*-----Footer-----*/
 
-.site-footer {
+footer {
     background-color: var(--dark-bg);
-    padding: 15px 0 0px;
     font-size: 15px;
     line-height: 24px;
-    color: var(--white-text);
     margin-top: 80px;
 }
 
-.site-footer .company-image {
-    width: 120px;
-    height: auto;
-    float: right;
-}
-
-.site-footer a {
+footer a {
     color: var(--white-text);
     font-weight: bold;
     text-decoration: none;
 }
 
-.site-footer a:hover {
+footer a:hover {
     color: var(--primary-theme-color);
     text-decoration: none;
 }
 
-.copyright-text {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-@media (max-width:767px) {
+@media (max-width:992px) {
     .site-footer {
         padding-bottom: 0;
     }
-    .site-footer .copyright-text, .site-footer {
-        text-align: right;
-    }
 }
 
-.site-footer .europe-flag {
-    float: left;
-    width: 60px;
-    margin: 5px 20px 0 0;
+footer .europe-flag {
+    float: right;
+    width: 80px;
     padding: 10px 0px;
 }
 
@@ -689,7 +668,7 @@ table>thead>tr>th {
 }
 
 .TeSS-button a:hover {
-    background-color: #CF5F0A;
+    background-color: #f69c55;
     text-decoration: none;
     color: var(--white-text);
 }

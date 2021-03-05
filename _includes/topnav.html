@@ -18,12 +18,12 @@
                         <a class="nav-link" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
                     </li>
                     {% elsif page.url contains item.url %}
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{item.url | remove: "/"}}">{{item.title}}</a>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                        <a class="nav-link" href="{{item.url | remove: "/"}}">{{item.title}}</a>
                     </li>
                     {% endif %}
                     {%- endfor %}
