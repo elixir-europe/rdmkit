@@ -165,6 +165,7 @@ pre code {
 @media (max-width:992px) {
     .navbar-nav .nav-item a {
         padding-left: 11px;
+        margin-top: 4px;
     }
 }
 
@@ -508,7 +509,7 @@ table>thead>tr>th {
 .meta-obj {
     margin: 5px 0px 5px 5px;
     background-color: var(--main-bg-color);
-    color: var(--main-text-color);
+    color: var(--primary-theme-color);
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
