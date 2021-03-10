@@ -1021,6 +1021,20 @@ Tools:
   - DMP
   - researcher
   - data manager
+- description: RO-Crate is a lightweight approach to packaging research data with
+    their metadata, using schema.org. An RO-Crate is a structured archive of all the
+    items that contributed to the research outcome, including their identifiers, provenance,
+    relations and annotations.
+  link: https://w3id.org/ro/crate
+  name: Research Object Crate (RO-Crate)
+  registry:
+    fairsharing: wUoZKE
+  tags:
+  - metadata
+  - storage
+  - data organisation
+  - data manager
+  - researcher
 - description: RightField is an open-source tool for adding ontology term selection
     to Excel spreadsheets
   link: https://rightfield.org.uk
@@ -1159,6 +1173,7 @@ Tools:
   link: https://www.uniprot.org/
   name: UniProt
   registry:
+    biotools: uniprot
     fairsharing: s1ne3g
     tess: UniProt
   tags:
