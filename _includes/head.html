@@ -5,7 +5,9 @@
     <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
     <meta property="og:title" content="{{ site.site_title }}" />
     <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:image" content="//rdmkit.elixir-europe.org/images/logos/elixir_logo.png" />
+    <meta property="og:image" content="//rdmkit.elixir-europe.org/assets/img/apple-touch-icon.png" />
+    <meta name="msapplication-TileColor" content="#2a2e3d">
+    <meta name="theme-color" content="#C23669">
     <title>{%- if page.title %}{{ page.title }} | {{ site.site_title }}{%- else %}{{ site.site_title }}{%- endif %}</title>
     <!-- Syntax highlighting  -->
     <link rel="stylesheet" href="assets/css/syntax.css">
@@ -27,7 +29,11 @@
     <script src="assets/js/jquery.cookie.min.js"></script>
     <script src="assets/js/main.js"></script>
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/logos/favicon.ico">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/site.webmanifest">
     <!-- Schema.org metadata -->
     <script type="application/ld+json">
         {

@@ -226,7 +226,7 @@ figcaption {
 .sidebarTitle {
     margin: 11px 0px;
     font-weight: 800;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .container-menu li {
@@ -487,6 +487,7 @@ footer .europe-flag {
     color: var(--primary-theme-color);
     text-align: center;
     text-decoration: none;
+    font-size: 0.9em;
     vertical-align: middle;
     padding: .375rem .75rem;
     border-radius: 4px;
@@ -500,6 +501,7 @@ footer .europe-flag {
     color: var(--main-text-color);
     text-align: center;
     text-decoration: none;
+    font-size: 0.9em;
     vertical-align: middle;
     padding: .375rem .75rem;
     display: inline-block;
