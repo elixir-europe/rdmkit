@@ -16,17 +16,19 @@
 body {
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-variant-ligatures: none;
     font-size: 1em;
 }
 
 .post-header h1 {
+    font-family: 'Exo 2', sans-serif;
     font-size: 3.5em;
     font-weight: 400;
 }
 
 .post-content h2 {
+    font-family: 'Exo 2', sans-serif;
     font-size: 1.6em;
     font-weight: 700;
     color: var(--primary-theme-color);
@@ -35,13 +37,13 @@ body {
 
 .post-content h3 {
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 20px;
 }
 
 .post-content h4 {
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: var(--subtle-text);
     margin-top: 20px;
 }
@@ -529,6 +531,7 @@ footer .europe-flag {
 /* -----Homepage----- */
 
 .blurb-title {
+    font-family: 'Exo 2', sans-serif;
     font-size: 1.3em;
     margin-bottom: 18px;
     font-weight: 600;
