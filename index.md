@@ -3,21 +3,7 @@ toc: false
 search: exclude
 ---
 
-<div class="blurb-title">
-    Are you working in the Life Sciences with data? Do you feel overwhelmed when you think about Research Data Management?
-</div>
-
-The ELIXIR Research Data Management Kit (RDMKit) is an online guide containing good data management practices applicable to research projects from the
-beginning to the end. Developed and managed by people who work every day with life science data, RDMKit has
-guidelines, information and pointers, organised in many different ways to help you with problems throughout
-the data’s life cycle.
-
-
-<p class="centered mb-2"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
-<div class="ratio main_rdm">
-    <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
-</div>
-
+{% include landingpage.html %}
 
 ### Contributors
 This project would not be possible without the many amazing community contributors. RDMKit is an open community project, and you are welcome to [join us](how_to_contribute)!
