@@ -172,6 +172,10 @@ pre code {
 #search-input {
     width: 15em;
 }
+#search-input:focus {
+    box-shadow: 0 0 0 0.25rem #c2366947;
+    border-color: var(--primary-theme-color);
+}
 
 ul#results-container {
     background-color: var(--main-bg-color);
@@ -189,10 +193,9 @@ ul#results-container li {
 
 ul#results-container li a {
     color: var(--main-text-color);
-    padding: 6px 11px;
+    padding: 7px 11px;
     text-decoration: none;
     display: block;
-    font-size: 1.08em;
 }
 
 ul#results-container li a:hover {
@@ -238,7 +241,7 @@ figcaption {
     color: var(--main-text-color);
     background-color: var(--light-grey);
     display: block;
-    padding: 6px 11px;
+    padding: 7px 11px;
     text-decoration: none;
     border-radius: 4px;
 }
@@ -276,8 +279,9 @@ figcaption {
 
 .menu li>a>span {
     float: right;
-    font-size: 19px;
-    font-weight: bolder;
+    font-size: 2em;
+    right: .75em;
+    line-height: 0.7;
 }
 
 .menu li.active>a>span:after {
@@ -286,6 +290,7 @@ figcaption {
 
 .menu li>a>span:after {
     content: '+';
+
 }
 
 @media (min-width:992px) {
@@ -541,36 +546,33 @@ footer .europe-flag {
 
 /* ----- Home dropdown boxes ------ */
 
-.row .btn {
+#home-boxes a {
     width: 100%;
     text-align: left;
+    color: var(--main-text-color);
+    background-color: var(--light-grey);
+    display: block;
+    padding: 7px 11px;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
-.row .btn:focus {
-    border-color: var(--hover-grey);
-    box-shadow: 0 0 0 0.25rem rgba(132, 132, 132, .25);
+#home-boxes a:hover {
+    background: var(--primary-theme-color);
+    color: var(--white-text);
 }
 
-.row .btn::after {
-    background-image: none;
+
+#home-boxes .dropdown-toggle::after {
+    float: right;
     content: '+';
-    color: white;
     font-size: 2em;
-    position: absolute;
-    right: .75em;
-    line-height: 0.5;
+    line-height: 0.7;
     border: 0;
 }
 
-.accordion-button.collapsed {
-    background-color: var(--dark-bg);
-}
 
-.btn.show {
-    background-color: var(--primary-theme-color);
-}
-
-.btn.show::after {
+#home-boxes .dropdown-toggle.show::after {
     content: '-';
     line-height: .5;
 }
@@ -587,40 +589,7 @@ footer .europe-flag {
     margin: 0;
 }
 
-.dropdown-menu a {
-    color: black;
-    display: block;
-    padding: 15px 8px;
-    line-height: 1.3;
-    color: var(--main-text-color);
-    background: var(--nav-bg-color);
-    border-radius: 4px;
-}
 
-.dropdown-menu a:hover {
-    text-decoration: none;
-    color: black;
-    background: var(--nav-bg-color);
-}
-
-.accordion .list-group-item {
-    padding: 3px;
-    border: 0;
-}
-
-.accordion .list-group-item a {
-    display: block;
-    padding: 15px 8px;
-    line-height: 1.3;
-    color: var(--main-text-color);
-    background: var(--nav-bg-color);
-    border-radius: 4px;
-}
-
-.accordion .list-group-item a:hover {
-    filter: brightness(0.85);
-    text-decoration: none;
-}
 
 @media screen and (max-width: 840px) {
     .row {
