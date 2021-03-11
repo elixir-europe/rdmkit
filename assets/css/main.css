@@ -6,7 +6,7 @@
     --subtle-text: #666;
     --main-bg-color: white;
     --light-grey: #f3f1f2;
-    --dark-bg: #3e3e3e;
+    --dark-bg: #2a2e3d;
     --white-text: white;
     --linkcolor: #337ab7;
 }
@@ -445,8 +445,12 @@ footer a:hover {
 }
 
 footer .europe-flag {
-    float: right;
     width: 80px;
+    padding-top: 18px;
+}
+
+footer .company-logo {
+    float: right
 }
 
 /*-----Social icons-----*/
