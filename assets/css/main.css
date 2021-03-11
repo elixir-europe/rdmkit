@@ -546,6 +546,10 @@ footer .europe-flag {
 
 /* ----- Home dropdown boxes ------ */
 
+#home-boxes {
+    margin-bottom: 3em;
+}
+
 #home-boxes a {
     width: 100%;
     text-align: left;
@@ -571,6 +575,9 @@ footer .europe-flag {
     border: 0;
 }
 
+#home-boxes ul li a {
+    background-color: var(--main-bg-color);
+}
 
 #home-boxes .dropdown-toggle.show::after {
     content: '-';
@@ -582,7 +589,7 @@ footer .europe-flag {
     overflow-y: scroll;
     overflow-x: hidden;
     box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
-    min-width: 12em;
+    width: 14em;
 }
 
 .dropdown .dropdown-menu li {
