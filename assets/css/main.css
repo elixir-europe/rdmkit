@@ -279,9 +279,8 @@ figcaption {
 
 .menu li>a>span {
     float: right;
-    font-size: 2em;
-    right: .75em;
-    line-height: 0.7;
+    font-size: 1.5em;
+    line-height: 1;
 }
 
 .menu li.active>a>span:after {
@@ -574,8 +573,8 @@ footer .company-logo {
 #home-boxes .dropdown-toggle::after {
     float: right;
     content: '+';
-    font-size: 2em;
-    line-height: 0.7;
+    font-size: 1.5em;
+    line-height: 1;
     border: 0;
 }
 
@@ -585,7 +584,7 @@ footer .company-logo {
 
 #home-boxes .dropdown-toggle.show::after {
     content: '-';
-    line-height: .5;
+    line-height: 0.8em;
 }
 
 .dropdown-menu {
