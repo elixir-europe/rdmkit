@@ -535,6 +535,108 @@ footer .europe-flag {
     font-weight: 600;
 }
 
+/* ----- Home dropdown boxes ------ */
+
+
+
+
+.row .btn {
+  width: 100%;
+  text-align: left;
+}
+
+
+.row .btn:focus {
+    border-color: var(--hover-grey);
+    box-shadow: 0 0 0 0.25rem rgba(132,132,132,.25);
+}
+
+.row .btn::after {
+    background-image: none;
+    content: '+';
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    right: .75em;
+    line-height: 0.5;
+    border: 0;
+}
+
+.accordion-button.collapsed {
+    background-color: var(--dark-bg);
+}
+
+.btn.show {
+    background-color: var(--primary-theme-color);
+}
+
+.btn.show::after {
+    content: '-';
+    line-height: .5;
+}
+
+.dropdown-menu {
+  max-height: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
+  min-width: 12em;
+}
+
+.dropdown .dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  color: black;
+  display: block;
+  padding: 15px 8px;
+  line-height: 1.3;
+  color: var(--main-text-color);
+  //background: var(--nav-bg-color);
+  border-radius: 4px;
+}
+
+.dropdown-menu a:hover {
+  text-decoration: none;
+  color: black;
+  background: var(--nav-bg-color);
+}
+
+.accordion .list-group-item {
+  padding: 3px;
+  border: 0;
+}
+
+.accordion .list-group-item a {
+  display: block;
+  padding: 15px 8px;
+  line-height: 1.3;
+  color: var(--main-text-color);
+  background: var(--nav-bg-color);
+  border-radius: 4px;
+}
+
+.accordion .list-group-item a:hover {
+  filter: brightness(0.85);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 840px) {
+  .row {
+    flex-direction: column;
+  }
+  .dropdown.col  {
+      width: 100%;
+      margin: .5em 0
+  }
+
+  .dropdown-menu {
+    width: 100%;
+  }
+}
+/* End home dropdown boxes */
+
 /*-----Contributors carousel homepage-----*/
 
 #contributors-carousel .carousel-item {
