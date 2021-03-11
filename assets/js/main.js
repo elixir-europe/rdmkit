@@ -37,7 +37,7 @@ $(document).ready(function () {
             path: '/'
         },
         slide: {
-            duration: 300,
+            duration: 400,
             easing: 'swing'
         }
     });

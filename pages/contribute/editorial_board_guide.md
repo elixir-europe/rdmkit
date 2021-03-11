@@ -13,7 +13,7 @@ As an editor, try to work as much as possible on a different branch than the mas
 ### The google doc way of contributing
 This process is sketched below.
 
-{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true  caption="liwndiwbwdbwibddbi"%}
+{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true %}
 
 ### Overview of the file structure in GitHub
 

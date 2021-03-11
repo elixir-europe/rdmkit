@@ -1,6 +1,6 @@
 :root {
-    --main-text-color: #333333;
-    --primary-theme-color: #AE315F;
+    --main-text-color: #2a2e3d;
+    --primary-theme-color: #C23669;
     --hover-grey: #848484;
     --nav-bg-color: #f3f1f2;
     --subtle-text: #666;
@@ -16,17 +16,19 @@
 body {
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-variant-ligatures: none;
     font-size: 1em;
 }
 
 .post-header h1 {
+    font-family: 'Exo 2', sans-serif;
     font-size: 3.5em;
     font-weight: 400;
 }
 
 .post-content h2 {
+    font-family: 'Exo 2', sans-serif;
     font-size: 1.6em;
     font-weight: 700;
     color: var(--primary-theme-color);
@@ -35,13 +37,13 @@ body {
 
 .post-content h3 {
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 20px;
 }
 
 .post-content h4 {
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: var(--subtle-text);
     margin-top: 20px;
 }
@@ -224,7 +226,7 @@ figcaption {
 .sidebarTitle {
     margin: 11px 0px;
     font-weight: 800;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .container-menu li {
@@ -440,7 +442,6 @@ footer a:hover {
 footer .europe-flag {
     float: right;
     width: 80px;
-    padding: 10px 0px;
 }
 
 /*-----Social icons-----*/
@@ -486,6 +487,7 @@ footer .europe-flag {
     color: var(--primary-theme-color);
     text-align: center;
     text-decoration: none;
+    font-size: 0.9em;
     vertical-align: middle;
     padding: .375rem .75rem;
     border-radius: 4px;
@@ -499,6 +501,7 @@ footer .europe-flag {
     color: var(--main-text-color);
     text-align: center;
     text-decoration: none;
+    font-size: 0.9em;
     vertical-align: middle;
     padding: .375rem .75rem;
     display: inline-block;
@@ -530,6 +533,7 @@ footer .europe-flag {
 /* -----Homepage----- */
 
 .blurb-title {
+    font-family: 'Exo 2', sans-serif;
     font-size: 1.3em;
     margin-bottom: 18px;
     font-weight: 600;
