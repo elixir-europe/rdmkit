@@ -114,7 +114,7 @@ Data generated in the biomolecular simulation field is growing at an alarming pa
 {% include toollist.html tag="biomol sim" %}
 
 
-## Where can training materials and events about data protection be found?
+## Where can training materials and events about biomolecular simulations be found?
 
 {% include tess.html search="biomolecular simulation" %}
 
