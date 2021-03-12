@@ -1,6 +1,6 @@
 ---
 title: Data analysis
-contributors: [Olivier Collin]
+contributors: [Olivier Collin, Stian Soiland-Reyes]
 tags: [analyse, process, reuse, researcher, IT support]
 description: how to make data analysis FAIR.
 ---
