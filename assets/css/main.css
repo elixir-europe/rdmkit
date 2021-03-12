@@ -1,14 +1,14 @@
 :root {
     --main-text-color: #2a2e3d;
     --primary-theme-color: #C23669;
-    --hover-grey: #848484;
+    --hover-grey: #83858e;
     --nav-bg-color: #f3f1f2;
     --subtle-text: #666;
     --main-bg-color: white;
     --light-grey: #f3f1f2;
     --dark-bg: #2a2e3d;
     --white-text: white;
-    --linkcolor: #337ab7;
+    --linkcolor: #4176A5;
 }
 
 /*-----General styling-----*/
@@ -73,6 +73,20 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Selection color */
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--white-text);
+    background: var(--primary-theme-color);
+}
+
+::selection {
+    color: var(--white-text);
+    background: var(--primary-theme-color);
+}
+/* End - Selection color */
 
 .post-content ol li, .post-content ul li {
     margin: 10px 0px;
@@ -172,6 +186,7 @@ pre code {
 #search-input {
     width: 15em;
 }
+
 #search-input:focus {
     box-shadow: 0 0 0 0.25rem #c2366947;
     border-color: var(--primary-theme-color);
@@ -289,7 +304,6 @@ figcaption {
 
 .menu li>a>span:after {
     content: '+';
-
 }
 
 @media (min-width:992px) {
@@ -492,7 +506,7 @@ footer .company-logo {
 .meta-obj {
     margin: 5px 0px 5px 5px;
     background-color: var(--main-bg-color);
-    color: var(--primary-theme-color);
+    color: var(--linkcolor);
     text-align: center;
     text-decoration: none;
     font-size: 0.9em;
@@ -569,7 +583,6 @@ footer .company-logo {
     color: var(--white-text);
 }
 
-
 #home-boxes .dropdown-toggle::after {
     float: right;
     content: '+';
@@ -598,8 +611,6 @@ footer .company-logo {
 .dropdown .dropdown-menu li {
     margin: 0;
 }
-
-
 
 @media screen and (max-width: 840px) {
     .row {
@@ -743,13 +754,13 @@ footer .company-logo {
 .TeSS-button a {
     padding: 16px;
     border-radius: 4px;
-    background-color: #f47d20;
+    background-color: var(--hover-grey);
     text-decoration: none;
     color: var(--white-text);
 }
 
 .TeSS-button a:hover {
-    background-color: #f69c55;
+    background-color: #f47d20;
     text-decoration: none;
     color: var(--white-text);
 }
