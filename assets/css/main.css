@@ -2,7 +2,7 @@
     --main-text-color: #2a2e3d;
     --primary-theme-color: #C23669;
     --hover-grey: #83858e;
-    --nav-bg-color: #f3f1f2;
+    --nav-bg-color: #2a2e3d;
     --subtle-text: #666;
     --main-bg-color: white;
     --light-grey: #f3f1f2;
@@ -146,7 +146,7 @@ pre code {
 }
 
 .navbar-nav .nav-item a {
-    color: var(--main-text-color);
+    color: var(--white-text);
 }
 
 .navbar-nav .nav-item a:hover {
