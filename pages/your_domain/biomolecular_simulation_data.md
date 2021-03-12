@@ -2,7 +2,7 @@
 title: Biomolecular simulation data
 keywords: [molecular dynamics, docking, virtual screening]
 ---
-## General scope
+## Introduction
 Here we show what are (bio)simulation data, how we can store them, how it can be reused for new, unexpected projects, and how they can be transformed to make them FAIR (findable, accessible, interoperable and reusable). However, we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify its data.
 
 ## Storing and sharing the data from biomolecular simulations
@@ -33,7 +33,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
   * You should consider the terms in which other scientists can use your data for other projects, access, modify, or redistribute them.  
 
 
-### Possibilities / solutions
+### Solutions
 * Repositories (to be extended by the community) - There’s a long (and incomplete) list of repositories available for this, that can be divided in two main branches: 
   * Generic: Repositories that can be used to store any kind of data. 
     * [Zenodo](https://zenodo.org/)
