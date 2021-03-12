@@ -8,7 +8,7 @@
     --light-grey: #f3f1f2;
     --dark-bg: #2a2e3d;
     --white-text: white;
-    --linkcolor: #4176A5;
+    --linkcolor: #376AC3;
 }
 
 /*-----General styling-----*/
@@ -101,7 +101,7 @@ hr {
 /* list circles colored */
 
 ul li::marker {
-    color: var(--linkcolor);
+    color: var(--primary-theme-color);
 }
 
 /* position and size emoji */
@@ -570,8 +570,8 @@ footer .company-logo {
 #home-boxes a {
     width: 100%;
     text-align: left;
-    color: var(--main-text-color);
-    background-color: var(--light-grey);
+    color: var(--white-text);
+    background-color: var(--hover-grey);
     display: block;
     padding: 7px 11px;
     text-decoration: none;
@@ -593,6 +593,7 @@ footer .company-logo {
 
 #home-boxes ul li a {
     background-color: var(--main-bg-color);
+    color: var(--main-text-color);
 }
 
 #home-boxes .dropdown-toggle.show::after {
