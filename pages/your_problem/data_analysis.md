@@ -16,27 +16,43 @@ This will help to tackle reproducibility problems but also will improve the impa
 ### Considerations
 
 There are many ways that will bring reproducibility to your data analysis. You can act at several levels:
-* by providing your code
-* by providing you execution environment
-* by providing your workflows 
-* by providing your data analysis execution
+* By providing your code.
+* By providing your execution environment.
+* By providing your workflows.
+* By providing your data analysis execution.
 
 ### Solutions
 
-#### Code availability  
+* Make your code available. If you have to develop some software for your data analysis, it is always a good idea to publish your code. The git versioning system offers both a way to release your code but offers also a versioning system. You can also use Git to interact with your software users. Be sure to specify a license for your code (see the [licensing section](../licensing.md)).
+* Use package and environment management system. By using package and environment management systems like [Conda](https://anaconda.org/) and its bioinformatics specialized channel [Bioconda](https://bioconda.github.io/), researchers that have got access to your code will be able to easily install specific versions of tools, even older ones, in an isolated environment. They will be able to compile/run your code in an equivalent computational environment, including any dependencies such as the correct version of R or particular libraries and command-line tools your code use. You can also share and preserve your setup by specifying in a [environment file](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) which tools you installed.
+* Use container environments. As an alternative to package management systems you can consider _container environments_ like [Docker](https://www.docker.com/) or [Singularity](https://sylabs.io/docs/).
+* #### Workflows for reproducibility 
 
-If you have to develop some software for your data analysis, it is always a good idea to publish your code. The git versioning system offers both a way to release your code but offers also a versioning system. You can also use Git to interact with your software users. 
+[Scientific Workflow management systems](https://en.wikipedia.org/wiki/Scientific_workflow_system) will help you organize and automate how computational tools are to be executed.
 
-Be sure to specify a license for your code (see the [licensing section](../licensing.md)). 
+Compared to composing tools using a standalone script, workflow systems also help document the different computational analyses applied to your data, and can help with scalability, such as cloud execution.
+
+There a many workflow management systems available. One can mention:
+* [Galaxy](https://galaxyproject.org/)
+* [Nextflow](https://www.nextflow.io/)
+* [Snakemake](https://snakemake.readthedocs.io/)
+
+Reproducibility is also enhanced by the use of workflows, as they typically have bindings for specifying software packages or containers for the tools you use from the workflow, allowing others to re-run your workflow without needing to pre-install every piece of software it needs.
+
+It is a flourishing field and [many other workflow management systems](https://s.apache.org/existing-workflow-systems) are available, some of which are general-purpose (e.g. any command line tool), while others are domain-specific and have tighter tool integration. 
+
+#### Notebooks 
+
+Using notebooks, you will be able to create reproducible documents mixing text and code; which can help explain your analysis choices; but also be used as an exploratory method to examine data in detail.
+
+Notebooks can be used in conjunction with the other solutions mentioned above, as typically the notebook can be converted to a script.
+
+Among the most well-known notebooks systems are: 
+
+* [Jupyter](https://jupyter.org/) with built-in support for code in Python, R and Julia, and many other [kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+* [RStudio](https://rstudio.com/products/rstudio/#rstudio-desktop) based on R 
 
 
-#### Analysis environment reproducibility
-
-To help others to reproduce your analysis on different infrastructures, you can act at several levels. One immediate reproducibility challenge for someone who have got access to your code is how to compile/run it in an equivalent computational environment, including any dependencies such as the correct version of R or particular libraries and command-line tools your code use. 
-
-##### Package and environment management system (Conda)
-
-By using package and environment management systems like [Conda](https://anaconda.org/) and its bioinformatics specialized channel [Bioconda](https://bioconda.github.io/), you will be able to easily install specific versions of tools, even older ones, in an isolated environment. You can also share and preserve your setup by specifying in a [environment file](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) which tools you installed. 
 
 Conda works by making a nested folder containing the traditional UNIX directory structure `bin/` `lib/` but installed from Conda's repositories instead of from a Linux distribution. As such Conda enables consistent installation of computational tools independent of your distribution or operating system version. Conda is  available for Linux, macOS and Windows, giving consistent experience across operating systems (although not all software is available for all OSes).
 
@@ -92,31 +108,7 @@ It can be overwhelming to navigate the landscape of software package management 
  ➡️ Use Conda or containers to ensure installion on cloud VM matches your local machine
 
 
-#### Workflows for reproducibility 
 
-[Scientific Workflow management systems](https://en.wikipedia.org/wiki/Scientific_workflow_system) will help you organize and automate how computational tools are to be executed.
-
-Compared to composing tools using a standalone script, workflow systems also help document the different computational analyses applied to your data, and can help with scalability, such as cloud execution.
-
-There a many workflow management systems available. One can mention:
-* [Galaxy](https://galaxyproject.org/)
-* [Nextflow](https://www.nextflow.io/)
-* [Snakemake](https://snakemake.readthedocs.io/)
-
-Reproducibility is also enhanced by the use of workflows, as they typically have bindings for specifying software packages or containers for the tools you use from the workflow, allowing others to re-run your workflow without needing to pre-install every piece of software it needs.
-
-It is a flourishing field and [many other workflow management systems](https://s.apache.org/existing-workflow-systems) are available, some of which are general-purpose (e.g. any command line tool), while others are domain-specific and have tighter tool integration. 
-
-#### Notebooks 
-
-Using notebooks, you will be able to create reproducible documents mixing text and code; which can help explain your analysis choices; but also be used as an exploratory method to examine data in detail.
-
-Notebooks can be used in conjunction with the other solutions mentioned above, as typically the notebook can be converted to a script.
-
-Among the most well-known notebooks systems are: 
-
-* [Jupyter](https://jupyter.org/) with built-in support for code in Python, R and Julia, and many other [kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
-* [RStudio](https://rstudio.com/products/rstudio/#rstudio-desktop) based on R 
 
 ## Relevant tools and resources
 
