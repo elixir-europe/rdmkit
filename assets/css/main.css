@@ -146,7 +146,7 @@ pre code {
 }
 
 .navbar-nav .nav-item a {
-    color: var(--white-text);
+    color: var(--main-text-color);
 }
 
 .navbar-nav .nav-item a:hover {
