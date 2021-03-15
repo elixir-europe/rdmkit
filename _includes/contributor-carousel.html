@@ -1,4 +1,5 @@
 {%- assign contributors = site.data.CONTRIBUTORS %}
+{%- assign nr = include.nr | default: 5 %}
 {%- if include.custom %}
 {%- assign allcontributors = include.custom | split: ", " | sort %}
 {%- else %}
@@ -22,7 +23,7 @@
         <div class="carousel-inner">
             {%- assign counter = 0 %}
             {%- for contributor in allcontributors %}
-                {%- capture modulo %}{{ counter | modulo:5 }}{% endcapture %}
+                {%- capture modulo %}{{ counter | modulo:nr }}{% endcapture %}
                   {%- if modulo == '0' or counter == 0 %}
                   {%- if counter != 0 %}
             </div>
