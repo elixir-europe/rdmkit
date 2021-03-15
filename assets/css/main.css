@@ -27,6 +27,12 @@ body {
     font-weight: 400;
 }
 
+@media (max-width:992px) {
+    .post-header h1 {
+        font-size: 3em;
+    }
+}
+
 .post-content h2 {
     font-family: 'Exo 2', sans-serif;
     font-size: 1.6em;
@@ -646,7 +652,7 @@ footer .company-logo {
 }
 
 .hall-of-fame-hero {
-    width: 16%;
+    width: 18%;
     background-color: var(--light-grey);
     padding: 15px 0px;
     display: flex;
