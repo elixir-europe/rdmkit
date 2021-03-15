@@ -8,7 +8,7 @@ contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi]
 
 Data analysis encompasses all the different data manipulation and transformations that will help scientists to discover information or generate new knowledge.
 This is the step where the actual work on the data towards the goal of a research project takes place.
-The steps of the workflow in the Analysis phase of a project will often be repeated several times to explore the data as well as to optimize the process.
+The steps of the workflow in the analysis phase of a project will often be repeated several times to explore the data as well as to optimize the process.
 According to the different types of data (quantitative or qualitative) the methods will differ.
 
 Data analysis follows the (often automated, batch) processing in the Processing stage.
