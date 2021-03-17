@@ -41,6 +41,8 @@ biomol sim:
   url: biomolecular_simulation_data.html
 IDP:
   url: intrinsically_disordered_proteins.html
+struct info:
+  url: structural_bioinformatics.html
 # Problem tags
 DMP:
   url: data_management_plan.html
