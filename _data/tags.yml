@@ -62,8 +62,8 @@ licensing:
   url: licensing.html
 data organisation:
   url: data_organisation.html
-data classification:
-  url: data_classification.html
+sensitive:
+  url: sensitive_data.html
 data protection:
   url: data_protection.html
 data analysis:
