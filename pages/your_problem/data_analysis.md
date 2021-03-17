@@ -31,14 +31,17 @@ There are many ways that will bring reproducibility to your data analysis. You c
 
 
 ## How can I use package and environment management systems?
+
 ### Description
 By using package and environment management systems like [Conda](https://anaconda.org/) and its bioinformatics specialized channel [Bioconda](https://bioconda), you will be able to easily install specific versions of tools, even older ones, in an isolated environment. You can also share and preserve your setup by specifying in a [environment file](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) which tools you installed.
+
 ### Considerations
 Conda works by making a nested folder containing the traditional UNIX directory structure `bin/` `lib/` but installed from Conda's repositories instead of from a Linux distribution. 
 * As such Conda enables consistent installation of computational tools independent of your distribution or operating system version. Conda is  available for Linux, macOS and Windows, giving consistent experience across operating systems (although not all software is available for all OSes).
 * Package management systems work particularly well for installing free and Open Source software, but can also be useful for creating an isolated environment for installing commercial software packages; for instance if they requires an older Python version than you have pre-installed.
 * Conda is one example of a generic package management, but individual programming languages typically have their environment management and package repositories.
 * You may want to consider submitting a release of your own code, or at least the general bits of it, to the package repositories for your programming language.
+
 ### Solutions
 * MacOS-specific package management systems: [Homebrew](https://brew.sh/), [Macports](https://www.macports.org/).
 * Windows-specific package management systems: [Chocolatey](https://chocolatey.org/) and [Windows Package Manager](https://docs.microsoft.com/en-us/windows/package-manager/) `winget`. 
@@ -51,8 +54,10 @@ Conda works by making a nested folder containing the traditional UNIX directory 
 
 
 ## How can I use container environments?
+
 ### Description
 Container environments like [Docker](https://www.docker.com/) or [Singularity](https://sylabs.io/docs/) allow you to easily install specific versions of tools, even older ones, in an isolated environment.
+
 ### Considerations
 In short containers works almost like a virtual machine (VMs), in that it re-creates a whole Linux distibution with separation of processes, files and network.
 * Containers are more lightweight than VMs since they don't virtualize hardware. This allows a container to run with a fixed version of the distribution independent of the host, and have just the right, minimal dependencies installed. 
