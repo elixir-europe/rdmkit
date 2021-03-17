@@ -32,8 +32,6 @@ subitems:
         url: /compliance_monitoring.html
       - title: Data analysis
         url: /data_analysis.html
-      - title: Data classification
-        url: /data_classification.html
       - title: Data management Plan
         url: /data_management_plan.html
       - title: Data organisation
@@ -44,14 +42,17 @@ subitems:
         url: /data_publication.html
       - title: Data quality
         url: /data_quality.html
+      - title: Data storage
+        url: /storage.html
       - title: Data transfer
         url: /data_transfer.html
       - title: Licensing
         url: /licensing.html
       - title: Metadata management
         url: /metadata_management.html
-      - title: Data storage
-        url: /storage.html
+      - title: Sensitive data
+        url: /sensitive_data.html
+
   - title: All tools and resources
     url: /all_tools_and_resources.html
     hr: True
