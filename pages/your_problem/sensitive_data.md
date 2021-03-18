@@ -1,5 +1,5 @@
 ---
-title: Data classification
+title: Sensitive data
 keywords: [human data, data sensitivity]
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
 tags: [share, collect, process, policy officer]
@@ -54,6 +54,6 @@ There are well-established data anonymization approaches, such as k-anonymity, l
 
 ## Relevant tools and resources
 
-{% include toollist.html tag="data classification" %}  
+{% include toollist.html tag="sensitive" %}  
 
 

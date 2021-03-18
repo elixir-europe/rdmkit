@@ -41,6 +41,8 @@ biomol sim:
   url: biomolecular_simulation_data.html
 IDP:
   url: intrinsically_disordered_proteins.html
+struct info:
+  url: structural_bioinformatics.html
 # Problem tags
 DMP:
   url: data_management_plan.html
@@ -60,8 +62,8 @@ licensing:
   url: licensing.html
 data organisation:
   url: data_organisation.html
-data classification:
-  url: data_classification.html
+sensitive:
+  url: sensitive_data.html
 data protection:
   url: data_protection.html
 data analysis:

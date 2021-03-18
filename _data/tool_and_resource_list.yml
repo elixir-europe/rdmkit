@@ -3,7 +3,7 @@ Tools:
   link: https://amnesia.openaire.eu/
   name: Amnesia
   tags:
-  - data classification
+  - sensitive
 - description: APID (Agile Protein Interactomes DataServer) is a server that provides
     a comprehensive collection of protein interactomes for more than 400 organisms
     based in the integration of known experimentally validated protein-protein physical
@@ -28,7 +28,7 @@ Tools:
   name: BBMRI-ERIC's ELSI Knowledge Base
   tags:
   - data protection
-  - data classification
+  - sensitive
   - policy officer
   - data manager
   - human data
@@ -533,7 +533,7 @@ Tools:
   name: GA4GH regular and ethical toolkit
   tags:
   - data protection
-  - data classification
+  - sensitive
   - policy officer
   - data manager
   - IT support
@@ -1165,7 +1165,7 @@ Tools:
   link: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
   name: Tryggve ELSI Checklist
   tags:
-  - data classification
+  - sensitive
   - policy officer
   - data manager
   - human data
@@ -1190,3 +1190,55 @@ Tools:
   - data publication
   - researcher
   - data manager
+- description: Generalist research data repository built and developed by OpenAIRE
+    and CERN
+  link: https://zenodo.org/
+  name: Zenodo
+  registry:
+    fairsharing: wy4egf
+    tess: Zenodo
+  tags:
+  - data publication
+  - biomol sim
+- description: Data publishing platform
+  link: http://figshare.com/
+  name: FigShare
+  registry:
+    fairsharing: drtwnh
+    tess: FigShare
+  tags:
+  - data publication
+  - biomol sim
+- description: Multidisciplinary, free-to-use open repository specialized for research
+    data
+  link: https://data.mendeley.com/
+  name: Mendeley data
+  registry:
+    fairsharing: 3epmpp
+  tags:
+  - data publication
+  - biomol sim
+- description: Open-source, community-led data curation, publishing, and preservation
+    platform for CC0 publicly available research data
+  link: http://datadryad.org/
+  name: Dryad
+  registry:
+    fairsharing: wkggtx
+  tags:
+  - data publication
+  - biomol sim
+- description: 'free and open source project management tool that supports the entire
+    research lifecycle: planning, execution, reporting, archiving, and discovery'
+  link: https://osf.io/
+  name: OpenScienceFramework
+  registry:
+    fairsharing: g4z879
+  tags:
+  - data publication
+  - biomol sim
+- description: Overview of typical licenses used for data resources
+  link: https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets
+  name: data.world Data License list
+  tags:
+  - data publication
+  - biomol sim
