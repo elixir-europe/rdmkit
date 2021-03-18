@@ -107,7 +107,7 @@ hr {
 /* list circles colored */
 
 ul li::marker {
-    color: var(--linkcolor);
+    color: var(--primary-theme-color);
 }
 
 /* position and size emoji */
