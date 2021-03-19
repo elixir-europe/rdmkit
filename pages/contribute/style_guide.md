@@ -45,7 +45,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Colours:** <br />
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
     * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram.
-    * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (<h2>), Main theme color |
+    * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (<h2>), Main theme colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #376AC3 | Blue | Link colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #2a2e3d | Dark blue | First level headings (<h1>), Third level heading (<h3>), Body text, Header, Footer |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #83858e | Gray | Gray text, Fourth level heading (<h4>) |
