@@ -2,13 +2,12 @@
     --main-text-color: #2a2e3d;
     --primary-theme-color: #C23669;
     --hover-grey: #83858e;
-    --nav-bg-color: #f3f1f2;
-    --subtle-text: #666;
+    --nav-bg-color: #2a2e3d;
     --main-bg-color: white;
     --light-grey: #f3f1f2;
     --dark-bg: #2a2e3d;
     --white-text: white;
-    --linkcolor: #376AC3;
+    --link-color: #376AC3;
 }
 
 /*-----General styling-----*/
@@ -50,7 +49,7 @@ body {
 .post-content h4 {
     font-weight: 700;
     font-size: 1.1em;
-    color: var(--subtle-text);
+    color: var(--hover-grey);
     margin-top: 20px;
 }
 
@@ -64,11 +63,11 @@ body {
 
 .post-content a {
     text-decoration: none;
-    color: var(--linkcolor);
+    color: var(--link-color);
 }
 
 .post-content a:hover {
-    color: var(--linkcolor);
+    color: var(--link-color);
     text-decoration: underline;
 }
 
@@ -152,7 +151,7 @@ pre code {
 }
 
 .navbar-nav .nav-item a {
-    color: var(--main-text-color);
+    color: var(--white-text);
 }
 
 .navbar-nav .nav-item a:hover {
@@ -214,6 +213,7 @@ ul#results-container li {
 
 ul#results-container li a {
     color: var(--main-text-color);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     padding: 7px 11px;
     text-decoration: none;
     display: block;
@@ -259,6 +259,7 @@ figcaption {
 
 .container-menu li a {
     margin-top: 4px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     color: var(--main-text-color);
     background-color: var(--light-grey);
     display: block;
@@ -344,7 +345,7 @@ li ul .sidebar_rdm_sub {
 
 .summary {
     font-size: 16px;
-    color: var(--subtle-text);
+    color: var(--hover-grey);
     margin: 20px 0px 20px 0px;
     border-left: 5px solid var(--primary-theme-color);
     padding-left: 10px;
@@ -448,6 +449,7 @@ footer {
 
 footer a {
     color: var(--white-text);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     font-weight: bold;
     text-decoration: none;
 }
@@ -488,6 +490,7 @@ footer .company-logo {
 
 .social-icons a {
     background-color: var(--main-bg-color);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     color: var(--primary-theme-color);
     font-size: 16px;
     display: inline-block;
@@ -512,7 +515,7 @@ footer .company-logo {
 .meta-obj {
     margin: 5px 0px 5px 5px;
     background-color: var(--main-bg-color);
-    color: var(--linkcolor);
+    color: var(--link-color);
     text-align: center;
     text-decoration: none;
     font-size: 0.9em;
@@ -575,6 +578,7 @@ footer .company-logo {
 
 #home-boxes a {
     width: 100%;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     text-align: left;
     color: var(--white-text);
     background-color: var(--hover-grey);
@@ -760,6 +764,7 @@ footer .company-logo {
 
 .TeSS-button a {
     padding: 16px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     border-radius: 4px;
     background-color: var(--hover-grey);
     text-decoration: none;
