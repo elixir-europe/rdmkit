@@ -259,7 +259,6 @@ figcaption {
 
 .container-menu li a {
     margin-top: 4px;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     color: var(--main-text-color);
     background-color: var(--light-grey);
     display: block;
