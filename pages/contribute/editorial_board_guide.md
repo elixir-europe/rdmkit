@@ -13,7 +13,7 @@ As an editor, try to work as much as possible on a different branch than the mas
 ### The google doc way of contributing
 This process is sketched below.
 
-{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true  %}
+{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true %}
 
 ### Overview of the file structure in GitHub
 
@@ -54,6 +54,8 @@ Optional metadata/frontmatter:
 * `tags`: If you want to tag this page, list the tags using this attribute. If you want to use multiple tags, make sure to put them in a list like this: [example1, example2].
 
 * `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
+
+* `description`: This is a one-liner and is used when the page is listed. 
 
 ### Markdown file naming
 
@@ -138,8 +140,7 @@ The attributes that define the structure are:
 - `title`: This is the text that will show up in the sidebar.
 - `url`: The URL to the internal page you want to link to. This is mostly in the form of: */markdown_file_name.html*.
 - `external_url`: Use this instead of URL if you want to link to an external page.
-- `folderitems`: To start a second level of links.
-- `subfolderitems`: To start a third level of links.
+- `subitems`: to define a sublevel.
 
 ```yaml
 - title: Level_1_title

@@ -6,7 +6,10 @@
 {%- capture planning -%}{%- if page.url == "/planning.html" -%}st5{%- else -%}st15{%- endif -%}{%- endcapture -%}
 {%- capture collecting -%}{%- if page.url == "/collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
 {%- capture sharing -%}{%- if page.url == "/sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
-<ul id="mysidebar" class="nav">
+<ul id="menu" class="menu">
+    {% if sidebar.title or sidebar.version %}
+    <li class="sidebarTitle">{{sidebar.title}} {{sidebar.version}}</li>
+    {% endif %}
     {%- for folder in sidebar.subitems %}
     {%- if page.url == folder.url %}
     <li class="active{%- if folder.hr %} hr-margin{% endif %}">
@@ -16,7 +19,7 @@
     {%- if folder.external_url %}
         <a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
     {%- else %}    
-        <a title="{{folder.title}}" href="{{folder.url | remove: "/"}}">{{ folder.title }}</a>
+        <a title="{{folder.title}}" href="{{folder.url | remove: '/' | default: '#'}}">{{ folder.title }}</a>
     {%- endif %}
     {%- if folder.subitems %}
         <ul>
@@ -31,25 +34,25 @@
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250.9 251"
                     style="enable-background:new 0 0 250.9 251;" xml:space="preserve" class="sidebar_rdm">
                     <style type="text/css">
-                        .st0{fill:#f47d21;}
-                        .st10,.st12,.st13,.st14,.st15,.st16,.st17 {fill:#b0c3cf;}
+                        .st10,.st12,.st13,.st14,.st15,.st16,.st17 {fill:#83858e;}
                         .st1{fill:#FFFFFF; pointer-events: none;}
-                        .st2{fill:#DBBE28;}
-                        .st3{fill:#763E2A;}
-                        .st4{fill:#309E69;}
-                        .st5{fill:#903292;}
-                        .st6{fill:#023452;}
-                        .st7{fill:#C63244;}
-                        .st8{font-family: 'Lato', sans-serif;}
+                        .st0{fill:#FA484B;}
+                        .st5{fill:#F67028;}
+                        .st6{fill:#FAC54B;}
+                        .st4{fill:#8ABA56;}
+                        .st3{fill:#32B890;}
+                        .st2{fill:#4176A5;}
+                        .st7{fill:#9E51AD;}
+                        .st8{font-family: 'Exo 2', sans-serif;}
                         .st9{font-size:13.5px;}
                         .st0,.st2,.st3,.st4,.st5,.st6,.st7 {transition: fill 0.3s;}
-                        .st10:hover{fill:#f47d21;cursor: pointer;}
-                        .st12:hover{fill:#DBBE28;cursor: pointer;}
-                        .st13:hover{fill:#763E2A;cursor: pointer;}
-                        .st14:hover{fill:#309E69;cursor: pointer;}
-                        .st15:hover{fill:#903292;cursor: pointer;}
-                        .st16:hover{fill:#023452;cursor: pointer;}
-                        .st17:hover{fill:#C63244;cursor: pointer;}
+                        .st10:hover{fill:#FA484B;cursor: pointer;}
+                        .st15:hover{fill:#F67028;cursor: pointer;}
+                        .st16:hover{fill:#FAC54B;cursor: pointer;}
+                        .st14:hover{fill:#8ABA56;cursor: pointer;}
+                        .st13:hover{fill:#32B890;cursor: pointer;}
+                        .st12:hover{fill:#4176A5;cursor: pointer;}
+                        .st17:hover{fill:#9E51AD;cursor: pointer;}
                         text {pointer-events : none;}
                     </style>
                     <a xlink:href="./reusing" target="_top">
@@ -191,7 +194,7 @@
             {%- if subfolder.external_url %}
                 <a title="{{subfolder.title}}" href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
             {%- else %}    
-                <a title="{{subfolder.title}}" href="{{subfolder.url | remove: "/"}}">{{ subfolder.title }}</a>
+                <a title="{{subfolder.title}}" href="{{subfolder.url | remove: '/' | default: '#'}}">{{ subfolder.title }}</a>
             {%- endif %}
             {%- if subfolder.subitems %}
                 <ul>
@@ -204,7 +207,7 @@
                     {%- if subsubfolder.external_url %}
                         <a title="{{subsubfolder.title}}" href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
                     {%- else %}    
-                        <a title="{{subsubfolder.title}}" href="{{subsubfolder.url | remove: "/"}}">{{ subsubfolder.title }}</a>
+                        <a title="{{subsubfolder.title}}" href="{{subsubfolder.url | remove: '/' | default: '#'}}">{{ subsubfolder.title }}</a>
                     {%- endif %}
                     </li>
                     {%- endfor %}
@@ -218,5 +221,4 @@
     </li>
     {%- endfor %}
 </ul>
-<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
