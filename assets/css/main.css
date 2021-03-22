@@ -276,7 +276,7 @@ figcaption {
 }
 
 .menu li a:hover {
-    background: var(--primary-theme-color);
+    background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
 
@@ -290,7 +290,7 @@ figcaption {
 }
 
 .menu ul li.active a {
-    background: var(--primary-theme-color);
+    background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
 
@@ -360,7 +360,7 @@ li ul .sidebar_rdm_sub {
 
 #toc {
     padding: 15px;
-    background: var(--light-grey);
+    background-color: var(--light-grey);
     margin: 1.75em 0 2em;
     border-radius: 4px;
     max-width: 400px;
@@ -441,7 +441,7 @@ table>thead>tr>th {
 
 footer {
     background-color: var(--dark-bg);
-    font-size: 15px;
+    font-size: 0.9em;
     line-height: 24px;
     margin-top: 80px;
 }
@@ -512,7 +512,7 @@ footer .company-logo {
 }
 
 .meta-obj {
-    margin: 5px 0px 5px 5px;
+    margin: 5px 5px 5px 0px;
     background-color: var(--main-bg-color);
     color: var(--link-color);
     text-align: center;
@@ -527,7 +527,7 @@ footer .company-logo {
 
 .meta-obj-false {
     background-color: var(--main-bg-color);
-    margin: 5px 0px 5px 5px;
+    margin: 5px 5px 5px 0px;
     color: var(--main-text-color);
     text-align: center;
     text-decoration: none;
@@ -588,7 +588,7 @@ footer .company-logo {
 }
 
 #home-boxes a:hover {
-    background: var(--primary-theme-color);
+    background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
 
