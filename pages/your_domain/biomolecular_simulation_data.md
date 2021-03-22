@@ -57,11 +57,11 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 
     * Docking respositories
       * [MolSSI - BioExcel COVID-19 therapeutics hub](https://covid.bioexcel.eu/) - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
-      * [PDB-Dev](https://pdb-dev.wwpdb.org/) - prototype archiving system for structural models using integrative or hybrid modeling, [with submission process] (https://deposit.pdb-dev.wwpdb.org/accounts/login/?next=/account/).
+      * [PDB-Dev](https://pdb-dev.wwpdb.org/) - prototype archiving system for structural models using integrative or hybrid modeling, [with submission process](https://deposit.pdb-dev.wwpdb.org/accounts/login/?next=/account/).
       * [Model Archive](https://www.modelarchive.org/) - theoretical models of macromolecular structures, [with submission process](https://www.modelarchive.org/projects/new/basic).
 
     * Virtual Screening repositories:
-      * [BioActiveConformationalEnsembles](http://mmb.irbbarcelona.org/BCE) - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
+      * [Bioactive Conformational Ensemble](http://mmb.irbbarcelona.org/BCE) - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
       * [BindingDB](https://www.bindingdb.org/) - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, [with submission process](https://www.bindingdb.org/bind/contributedata.jsp). 
 
     * Free energies and other analyses: 

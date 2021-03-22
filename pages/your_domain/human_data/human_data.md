@@ -89,7 +89,7 @@ For human data it is very important to use technical and procedural measures to 
 * [PMut](http://mmb.irbbarcelona.org/PMut) is a platform for the study of the impact of pathological mutations in protein structures.
 * [IntoGen](https://www.intogen.org) collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.
 * [BoostDM](https://www.intogen.org/boostdm/search) is a method to score all possible point mutations in cancer genes for their potential to be involved in tumorigenesis.
-* [CancerGenomeInterprete](https://www.cancergenomeinterpreter.org) is designed to identify tumor alterations that drive the disease and detect those that may be therapeutically actionable.
+* [Cancer Genome Interpreter](https://www.cancergenomeinterpreter.org) is designed to identify tumor alterations that drive the disease and detect those that may be therapeutically actionable.
 * [GA4GH data security toolkit](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/)
 * [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
 
