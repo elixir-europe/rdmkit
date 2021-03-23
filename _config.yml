@@ -1,5 +1,5 @@
 url: rdmkit.elixir-europe.org
-repository: https://github.com/elixir-europe/rdmkit
+repository: elixir-europe/rdmkit
 
 topnav_title: RDMKit
 # this appears on the top navigation bar next to the home button
