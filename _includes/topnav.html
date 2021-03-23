@@ -2,7 +2,7 @@
 <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img alt="ELIXIR logo" src="assets/img/RDMkit.svg"></a>
+            <a class="navbar-brand" href="{{ 'index.html' | relative_url }}"><img alt="ELIXIR logo" src="{{ 'assets/img/RDMkit.svg' | relative_url }}"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i title="navbar-toggler" class="fa fa-bars"></i>
             </button>
@@ -19,16 +19,17 @@
                     </li>
                     {% elsif page.url contains item.url %}
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                        <a class="nav-link active" aria-current="page" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                        <a class="nav-link" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% endif %}
                     {%- endfor %}
                     {%- endfor %}
                     <!--start Feedback button-->
+                    {%- unless site.feedback_disable %}
                     <li class="nav-item">
                         {%- if site.feedback_text -%}
                         {%- assign feedback_text = site.feedback_text -%}
@@ -41,17 +42,18 @@
                         <a class="nav-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:{{site.contact_email}}?subject={{site.feedback_subject_line}}&body=I have some feedback about the {{page.title}} page: ' + window.location.href;"><i class="far fa-envelope"></i> {{feedback_text}}</a>
                         {% endif %}
                     </li>
+                    {% endunless %}
                     <!--start search-->
                     <li class="nav-item">
                         <form autocomplete="off" class="form-inline">
                             <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
                             <ul id="results-container"></ul>
-                            <script src="assets/js/simple-jekyll-search.min.js"></script>
+                            <script src="{{ 'assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
                             <script type="text/javascript">
                                 var sjs = SimpleJekyllSearch({
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
-                                json: '{{ "search.json" }}',
+                                json: "{{ 'search.json' | relative_url }}",
                                 searchResultTemplate: '<li><a href="{url}" title="{{page.title | escape }}">{title}</a></li>',
                                 noResultsText: '<li><a href=""">No results found...</a></li>',
                                 limit: 10

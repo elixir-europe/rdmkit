@@ -1,5 +1,5 @@
 url: rdmkit.elixir-europe.org
-repository: https://github.com/elixir-europe/rdmkit
+repository: elixir-europe/rdmkit
 
 topnav_title: RDMKit
 # this appears on the top navigation bar next to the home button
@@ -23,9 +23,7 @@ port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
-  - .idea/
   - .gitignore
-  - vendor
   - CODEOWNERS
   - var/
   - README.md
@@ -56,7 +54,6 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      comments: false
       search: true
       sidebar: main
       topnav: topnav

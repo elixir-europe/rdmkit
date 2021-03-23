@@ -1,13 +1,18 @@
 :root {
-    --main-text-color: #2a2e3d;
+    
     --primary-theme-color: #C23669;
-    --hover-grey: #83858e;
-    --nav-bg-color: #2a2e3d;
-    --main-bg-color: white;
-    --light-grey: #f3f1f2;
-    --dark-bg: #2a2e3d;
-    --white-text: white;
+    --secondairy-theme-color: #2a2e3d;
     --link-color: #376AC3;
+    --light-grey: #f3f1f2;
+    --white: #ffffff;
+    --hover-grey: #83858e;
+    --nav-bg: var(--secondairy-theme-color);
+    --nav-color: var(--white);
+    --main-text-color: var(--secondairy-theme-color);
+    --main-bg-color: var(--white);
+    --footer-bg: var(--secondairy-theme-color);
+    --footer-color: var(--white);
+    --white-text: var(--white);
 }
 
 /*-----General styling-----*/
@@ -147,11 +152,11 @@ pre code {
 
 .navbar {
     margin-bottom: 40px;
-    background-color: var(--nav-bg-color);
+    background-color: var(--nav-bg);
 }
 
 .navbar-nav .nav-item a {
-    color: var(--white-text);
+    color: var(--nav-color);
 }
 
 .navbar-nav .nav-item a:hover {
@@ -242,7 +247,7 @@ figcaption {
     margin-top: 10px;
     max-width: 90%;
     font-style: italic;
-    color: gray;
+    color: var(--hover-grey);
 }
 
 /*-----Sidebar-----*/
@@ -333,7 +338,7 @@ figcaption {
 }
 
 li ul .sidebar_rdm_sub {
-    border-color: #efefef;
+    border-color: var(--light-grey);
     padding: 14px 10px 10px 10px;
     border-radius: 0px 0px 4px 4px;
     border-style: none solid solid solid;
@@ -440,14 +445,15 @@ table>thead>tr>th {
 /*-----Footer-----*/
 
 footer {
-    background-color: var(--dark-bg);
+    background-color: var(--footer-bg);
+    color: var(--footer-color);
     font-size: 0.9em;
     line-height: 24px;
     margin-top: 80px;
 }
 
 footer a {
-    color: var(--white-text);
+    color: var(--footer-color);
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     font-weight: bold;
     text-decoration: none;
