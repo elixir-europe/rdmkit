@@ -2,7 +2,7 @@
 title: Microbial biotechnology
 keywords: optional
 search: exclude
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown]
 tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
 ---
 
@@ -12,27 +12,143 @@ In the event that no adequate Problem page exists for a problem that can be gene
 ## Introduction
 
 <!--- In this section you should provide a brief overview of the domain from the data management perspective, mentioning and putting into context the challenges that are particular to the domain, which will be the object of sections below. --->
+The Microbial Biotechnology domain is a very broad field that encompasses the application of microorganisms to the development of useful products and processes. As such, there are a very wide variety of experimental tools, approaches, and ultimately data, that arise in this field. A convenient representation of microbial biotechnology for organisational purposes is the stages of the engineering life-cycle drawn from the related field of synthetic biology.
 
+### Storing and Sharing Data and appropriate solutions
+Here, we adopt the stages of design, build, test and learn to categorise the various approaches available for the management of data in microbial biotechnology. There are important data standards to consider and various ways to manage, store and share data. Ultimately, the ideal scenario is that data is captured in a standard  format and then uploaded data to a repository to ensure that it is Findable, Accessible, Interoperable and Reusable (FAIR). However, for the biotechnology field data standards are still under development or missing completely. Moreover, there are still gaps in database provision for some data types. 
+ 
+Due to the interdisciplinary nature of the field, data arising from studies in microbial biotechnology relate to both computational studies, such as modelling and simulation and the results of wet-lab based studies used for the construction and experimental characterisation of microbial systems. Also, given the breadth, scope and rapid development of the field of microbial biotechnology, this guide is by no means exhaustive.
 
-## Section 1 title
+## Design
  
 ### Description
 <!--- Sections within Domain pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should focus on particular data management problems, which should be described in this first sub-section.
 For problems that are fully domain-specific, a detailed description is merited.
 For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges. --->
+The design for a system in microbial biotechnology essentially involves two, interrelated exercises. (i) The identification of the biological entities/hosts that will be used to develop the product in question (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. In some cases circuitry can be designed on its own, in a host independent manner, but at the time of writing this is still quite rare. Usually, the intended host context for a genetic system is specified beforehand. 
 
-### Considerations <!--- (optional) --->
+<!---### Considerations <!--- (optional) --->
 <!---  Direct and concise considerations, structured in bullet points and typically framed as questions RDMKit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
 
 
 ### Solutions
 <!--- Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. --->
 
-<!--- ## Section 2 Title --->
+#### Biological hosts
 <!--- Add more sections as needed, with the same subsections as above. --->
-...
+For microbial biotechnology, bacteria and fungi make up the vast majority of hosts used in the biotechnology industry. These organisms are either sourced from a culture collection, another lab, developed in house or isolated from nature. Hosts will need to be described accordingly to record information about their source and their taxonomy. 
+
+Current data standards to capture this level of taxonomic and phenotypic data are still evolving, with notable work on the [Access to Biological Collection Data Schema](https://www.tdwg.org/standards/abcd/) and the activities of the biodiversity information standards task force [(TDWG)](https://www.tdwg.org/). The Darwin Core standard from the TDWG is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism. The [NCBI taxonomy homepage](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/) can also provide appropriate taxon IDs for recording taxonomic information. Information about proposed standardised “Prokaryotic names with Standing in Nomenclature” can be found at the [LPSN](https://lpsn.dsmz.de/) (Parte et al., 2020).
+
+For sharing information, databases such as the bacterial diversity databases (Bacdive), have arisen. Of course users can also deposit their strains and associated information in strain repository such as the [NCIMB](https://www.ncimb.com/culture-collection/) or the [ATCC](https://www.lgcstandards-atcc.org/?geo_country=gb) . There are also many organisations established for individual species of microorganisms, the [Bacillus Genetic Stock Centre](http://www.bgsc.org/) being one example. 
+ 
+Data standards for recording the information about where a microorganism was isolated from do exist and are also covered in other RDM guides such as the [marine metagenomics](https://rdmkit.elixir-europe.org/marine_metagenomics.html) RDM guide.  Information can also be found in a publication by Ten Hoopen and colleagues (Ten Hoopen et al., 2015). [The Environment Ontology](https://sites.google.com/site/environmentontology/) is also relevant here. 
+
+The genetic properties of a host is typically specified as part of a study where the host is modified or used to harbour a genetic construct. The description of the host can therefore be expanded from the taxonomic information to information about which genes have been inserted into the host genome, which genes have been mutated and the parental information about the strain. A set of genetic nomenclature standards have been established by microbiologists and have been used for many years. These are still a useful way of communicating data about the genotype of a strain, see -  (Maloy and Hughes, 2007).  Databases such as [CellRepo](https://cellrepo.herokuapp.com/) allow strains that have been barcoded to be tracked using a version control type system (Tellechea-Luzardo et al., 2020).
+
+Nowadays the ultimate detailed specification of a host begins with its complete genome sequence. This information should be captured at the nucleotide level using the well-known [European Nucleotide Archive standard](https://www.ebi.ac.uk/ena/browser/home) (ENA) and [submitted](https://www.ebi.ac.uk/ena/browser/submit) to the ENA database to allow the information to be shared. Note that capturing the metadata describing a genome sequence and its host is vitally important to facilitate further studies in comparative genomics and phenotypic analysis. Minimal information standards have been established to specify this metadata, such as the MIGS standard - (Field et al., 2008). The INSDC database collection, from the [International Nucleotide Sequence Database Collaboration](http://www.insdc.org/), provides an umbrella for gathering and sharing a variety of sequence data from different sequence databases internationally. Other databases such as Genbank and DDBJ also cater for sequence information.
+
+#### Genetic parts, device and systems
+
+When a host is unable to meet the requirements of a biotechnological project in its wild-type form then it can be engineered through the modification of its genome, through the introduction of new genetic circuitry or with a combination of both approaches. 
+
+As an example, the design of a simple synthetic device to express a protein from a simple transcriptional unit.  To design this genetic device requires the selection of appropriate genetic parts at the DNA level, namely: a promoter sequence, a ribosome binding site (RBS), a coding sequence (CDS)  and a terminator sequence. These sequences are characterised as parts which can be found with the assistance of various repositories such as the [iGEM Parts Registry](http://parts.igem.org/Main_Page), [JBEI-ICE](https://ice.jbei.org) (Ham et al., 2012) and [SynBioHub](https://synbiohub.org), or isolated from standard genetic databases such as ENA and Genbank. At this point it may be desirable to assert which host the designed device is intended to express in and also the intended method of replication in the host - for example, cloned on a particular plasmid or integrated in the host chromosome. 
+
+Much of the design stage is managed using genetic computer aided design tools, such as Benchling for example, where information can be shared within small teams. The data will be downloaded in a relevant format depending on its next application. Benchling supports a number of different data standards including FASTA, GenBank and SBOL1. Sometimes FASTA will be most relevant, for example when sending for DNA synthesis. Formats like GenBank, DICOM-SB ((Sainz de Murieta, Bultelle and Kitney, 2016) or SBOL may be more applicable for instances where more information, such as functional annotation, would be useful to be shared. SBOL 2.0 and higher allows more than just the genetics of a system to be captured and shared. Using SBOL allows interactions between components in the design to be specified, information about RNA and proteins can be included and the provenance of a design can also be captured. Experimental information relating to the test and build of a system can also be captured and shared. SBOL data can be made using tools such as Benchling (SBOL1 only), [SBOL Designer](https://sboldesigner.github.io/) (Zhang et al., 2017) and [ShortBOL](http://shortbol.org/) to name but a few. A more comprehensive list of SBOL tools is available [here](https://sbolstandard.org/).
+
+Once the design is complete, this information can be shared via a repository such as the iGEM Parts Registry, SynBioHub, JBEI-ICE or Addgene. Here, much information about its performance can be included varying from experimental results such as fluorescence curves to predicted performance based on modelling. It would be recommended to use standard figures that can be easily understood. SBOL-Visual is a good example of a graphical standard; it utilises standard shapes to represent different genetic parts which can help clarify a complex synthetic construct. SBOL-Visual can be crafted using tools such as [VISBOL](http://visbol.org/). 
+
+More generally, The [ISA](https://isa-specs.readthedocs.io/) model (Investigation/Study/Assay) can be used in systems biology, life sciences, environmental and biomedical domains to structure research outputs. ISA defines a top-level investigation, consisting of studies, which contain several assays (experiment or test) that produces data files. The ISA format can be used to bundle a variety of data items according to the common study and investigation. The [ISA-Tab](https://isa-specs.readthedocs.io/en/latest/isatab.html) format provides a framework for capturing these data in CSV files. 
+
+Platforms such as [SEEK](https://fair-dom.org/platform/seek/) built on technologies such as ISA to support a large range of systems and synthetic biology projects. [SEEK](https://fair-dom.org/platform/seek/) provides a web-based resource for sharing scientific research datasets, models or simulations, and processes. [SEEK](https://fair-dom.org/platform/seek/) can be installed locally or [FAIRDOMHub](https://fairdomhub.org/), a version of SEEK which is hosted by FAIRDOM, is available for general community use. [Rightfield](https://rightfield.org.uk/download.html) provides a mechanism for capturing metadata using easy to use spreadsheets. 
+
+#### Metabolic engineering designs and enzyme data
+
+One of the most common tasks in microbial biotechnology is the use of microorganisms for the production of small molecules, fine chemicals, vitamins etc. The data sharing approaches outlined above are suitable for organisms that are not genetically modified. For those organisms that are then the genomic modifications can be recorded as described above and the constructs used for the expression of heterologous enzymes and their pathways can also be captured in the same way as the genetic parts and devices discussed above. SBOL allows information about the enzymes and the metabolic pathways to be captured in the design document and so this is a viable approach for sharing more than just the genetics of the system. Databases such as SBOLME (Kuwahara et al., 2017) or SynBioHub can be used to share the data. 
+
+Metabolite information can also be submitted to, or referred to in, [chebi](https://www.ebi.ac.uk/chebi/). Enzymes can be assigned [EC numbers](https://www.qmul.ac.uk/sbcs/iubmb/) to indicate their function and an entry made in the [BRaunschweig ENzyme DAtabase](https://www.brenda-enzymes.org/) (BRENDA). More generally, the [IUPAC-IUBMB Joint Commission on Biochemical Nomenclature](https://www.qmul.ac.uk/sbcs/iupac/jcbn/) (JCBN) encourages the communication of biochemical information using generally understood terminology. 
+
+#### Model based designs
+
+Increasingly mathematical models are built to test the design for a system before it is built. This approach is termed model-based design. Models can be developed and shared to illustrate how a system is supposed to operate. Perhaps the most common example of this approach is in metabolic engineering where whole genome metabolic models can be developed that can be simulated to understand the production of a key metabolite under a particular growth regime. [Systems Biology Markup Language](http://sbml.org/Main_Page) (SBML) is a popular standardised format for sharing mathematical models for which a variety of tools are available for model building. Models can be shared in model repositories such as [biomodels](https://www.ebi.ac.uk/biomodels/).  SBOL can also be used to associate a genetic design with its corresponding model. More generally, the [COmputational Modeling in BIology NEtwork](http://co.mbine.org/) (COMBINE), provides a platform for coordinating standardisation of models in biology. 
+
+## Build
+
+### Description
+
+The build stage and test stage in the microbial biotechnology and/or synthetic biology life cycle involves the application of any number of a large range of experimental techniques and, since these techniques are so varied, the domain is therefore very difficult to standardise in terms of the data and metadata to be shared. The current method of sharing information about the building and testing of microbial systems is to write a detailed free text in the materials and methods section of a scientific paper. 
+
+### Considerations
+
+Consider the simple example of the protein expression device named above. During the build process the protein expression device will need to be assigned to a vector in order for it to replicate in a given host and the intended vector will need to be named. The cloning strategy used to assemble the device and the vector will also need to be specified and shared. This information could be supplied in advance as part of the design phase, as a set of intended instructions, or after the event as a step of experimental data recording a build process that has already been carried out.
+
+In either case the design information about the vector DNA or RNA sequence can be shared using the approaches for DNA parts described above, by submitting the sequence to ENA or Genbank. However, the information about how the final system was built cannot be shared with data standards such as ENA and Genbank format. This information is highly variable and depends on the DNA synthesis and/or assembly approach used. 
+
+### Solutions
+
+There are a variety of DNA synthesis companies who will build DNA from a computer specification of the sequence and also a variety of experimental approaches for assembling DNA molecules. Information from synthesis companies is highly variable and currently not standardised. It could, however, be shared as free text attached to a design in SBOL format and uploaded to a repository that supports SBOL2 and above such as SynBioHub. 
+
+In the case of DNA assembly, these approaches include standard restriction enzyme based cloning, Gibson assembly, Golden Gate assembly and its variants, and so on. Each of these multi-step processes may be carried out manually, or through the use of automation based approaches. Capturing the information about the build process involves collecting the information arising from DNA amplification, DNA preparation and purification, primer design, restriction enzyme analysis, gel electrophoresis and DNA sequencing to name but a few techniques.  To the authors’ knowledge, there are no proposed standards that exist that are able to capture this diverse set of data. Currently, from a pragmatic point of view, the best a data manager wishing to share this data can do is to make sure it is captured in some form from the lab scientist carrying out the build and grouped together with as much metadata as can be obtained for a build exercise. Again, the metadata standards for a build exercise are still to be defined and so at the discretion of the data manager. Once grouped together in a free form the data can be archived along with the metadata perhaps collecting the data together in an archived form using a file compression format. The [combine archive format](http://co.mbine.org/specifications/omex.version-1) may also be useful. SBOL versions 2.0 and above provides a data standard that allows build data that has been grouped to be associated with design data for a part, device or system along with a minimal amount of metadata. Similarly, [research object bundles](https://www.researchobject.org/), and more recently [RO-Crates](https://www.researchobject.org/ro-crate/), can be used to gather together build data and test data with information about the overall study. 
+
+## Test
+
+### Description
+
+The test phase of a biotechnological study is the most variable in terms of the types of data produced. The types of experiments carried out to test a microbial system are highly dependent on the intended function of the system under construction. Some common approaches include at the simplest level, characterising the growth of an organism at various scales in different growth regimes and assaying the production of desired product. 
+
+### Solutions
+
+Organisms are often grown in pure culture as one of the first experiments that is done, in order to isolate large amounts of the organism and its products.  Hect and colleagues have described the minimal information necessary to to record the growth of an organism in culture, termed MIEO (Hecht et al., 2018). 
+
+Assays for a given product are highly dependent on the product. The data arising from these experiments is therefore highly variable and beyond the scope of this short guide. If the product is a protein such as an enzyme then some standards such as those developed by the [STRENDA](https://www.beilstein-institut.de/en/projects/strenda/) consortium may be helpful ((‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’, 2014) 
+
+More generally, the protocols used for testing can be shared using platforms such as [protocols.io](https://www.protocols.io/). The [iGEM measurement committee](https://2020.igem.org/Measurement/Committee) also produce some guidance for a variety of data capture protocols and standardised units.
+
+Microscopy is often also used to characterise the behaviour of engineered microorganisms. Standards such as the [Open Microscopy Environment Ontology](https://fairsharing.org/bsg-s001430/) and the [cellular microscopy phenotype ontology](https://www.ebi.ac.uk/cmpo/) can help provide standardised metadata terms. Repositories such as the [Image Data Resource](https://idr.openmicroscopy.org/) (IDR) can be used to share images with the community. 
+
+Flow cytometry is often used to characterise microbial populations at a single cell level. Standards have been in development for the past three decades for capturing flow cytometry data.  For example, the [International Society for the Advancement of Cytometry](https://isac-net.org/page/Data-Standards) (ISAC) provides information on a variety of appropriate data standards (Spidlen et al., 2021). 
+
+Increasingly, synthetic genetic systems are now tested using omic based approaches to characterise their behavior at the transcriptional level, using RNASeq for example, at the protein level, using proteomics analysis and at the metabolite level using metabolomics based approaches. The ENA, amongst others, provides [guidance](https://ena-docs.readthedocs.io/en/latest/exp_01.html) on the metadata for RNAseq datasets that can be shared by submission to the ENA or to repositories such as [GEO](https://www.ncbi.nlm.nih.gov/geo/) and [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/). The [HUPO proteomics standards initiative](https://www.hupo.org/Proteomics-Standards-Initiative) provides a range of guidance for capturing and sharing proteomics data.
+
+The [Metabolome Exchange Database](http://www.metabolomexchange.org/site/) provides a resource for sharing data from metabolic studies and guidance for the submission of metabolome data. 
+
+More recently, the [BioStudies database](https://www.ebi.ac.uk/biostudies/) has been set up to capture and share information about multi-omics and other biological studies (Sarkans et al., 2018). 
+
+## More
+
+Finally, sites such as [Fairsharing](https://fairsharing.org/) can provide a wealth of data about standards that may be appropriate for a given data type and not mentioned in this brief guide. 
+
+This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data sharing tools that can make it more complete. 
 
 ## Relevant tools and resources  
 <!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
 
 {% include toollist.html tag="<!---TAG--->" %}
+
+## Bibliography
+
+Field, D. et al. (2008) ‘The minimum information about a genome sequence (MIGS) specification’, Nature biotechnology, 26(5), pp. 541–547. doi: 10.1038/nbt1360.
+
+Ham, T. S. et al. (2012) ‘Design, implementation and practice of JBEI-ICE: an open source biological part registry platform and tools’, Nucleic acids research, 40(18), p. e141. doi: 10.1093/nar/gks531.
+
+Hecht, A. et al. (2018) ‘A minimum information standard for reproducing bench-scale bacterial cell growth and productivity’, Communications biology, 1, p. 219. doi: 10.1038/s42003-018-0220-6.
+
+Kuwahara, H. et al. (2017) ‘SBOLme: a Repository of SBOL Parts for Metabolic Engineering’, ACS synthetic biology, 6(4), pp. 732–736. doi: 10.1021/acssynbio.6b00278.
+
+Maloy, S. R. and Hughes, K. T. (2007) ‘Strain Collections and Genetic Nomenclature’, Methods in Enzymology, pp. 3–8. doi: 10.1016/s0076-6879(06)21001-2.
+
+Parte, A. C. et al. (2020) ‘List of Prokaryotic names with Standing in Nomenclature (LPSN) moves to the DSMZ’, International journal of systematic and evolutionary microbiology, 70(11), pp. 5607–5612. doi: 10.1099/ijsem.0.004332.
+
+Sainz de Murieta, I., Bultelle, M. and Kitney, R. I. (2016) ‘Toward the First Data Acquisition Standard in Synthetic Biology’, ACS synthetic biology, 5(8), pp. 817–826. doi: 10.1021/acssynbio.5b00222.
+
+Sarkans, U. et al. (2018) ‘The BioStudies database—one stop shop for all data supporting a life sciences study’, Nucleic Acids Research, pp. D1266–D1270. doi: 10.1093/nar/gkx965.
+
+Spidlen, J. et al. (2021) ‘Data File Standard for Flow Cytometry, Version FCS 3.2’, Cytometry. Part A: the journal of the International Society for Analytical Cytology, 99(1), pp. 100–102. doi: 10.1002/cyto.a.24225.
+
+‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’ (2014) Perspectives in Science, 1(1-6), pp. 131–137. doi: 10.1016/j.pisc.2014.02.012.
+
+Tellechea-Luzardo, J. et al. (2020) ‘Linking Engineered Cells to Their Digital Twins: A Version Control System for Strain Engineering’, ACS synthetic biology, 9(3), pp. 536–545. doi: 10.1021/acssynbio.9b00400.
+
+Ten Hoopen, P. et al. (2015) ‘Marine microbial biodiversity, bioinformatics and biotechnology (M2B3) data reporting and service standards’, Standards in genomic sciences, 10, p. 20. doi: 10.1186/s40793-015-0001-5.
+
+Zhang, M. et al. (2017) ‘SBOLDesigner 2: An Intuitive Tool for Structural Genetic Design’, ACS synthetic biology, 6(7), pp. 1150–1160. doi: 10.1021/acssynbio.6b00275.
