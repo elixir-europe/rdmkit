@@ -4,12 +4,13 @@ layout: default
 {%- if page.title %}
 <div class="post-header">
     <h1>{{ page.title }}
+        {%- unless site.github_editme_path == nil %}
         {%- if page.custom-editme %}
-        {%- capture custom-editme %}{{ page.custom-editme }}{%- endcapture %}
-        {%- include edit_me.html path=custom-editme %}
+        <a href="https://github.com/{{site.github_editme_path}}{{page.custom-editme}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
         {%- else %}
-        {%- include edit_me.html %}
+        <a href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
         {%- endif %}
+        {%- endunless %}
     </h1>
 </div>
 {%- endif %}
