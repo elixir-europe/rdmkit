@@ -26,7 +26,7 @@ exclude:
   - .gitignore
   - CODEOWNERS
   - var/
-  - README.md
+  - README.md  
 
 feedback_subject_line: RDMKit feedback
 
