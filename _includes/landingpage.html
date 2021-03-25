@@ -14,61 +14,27 @@
 </div>
 
 <p>Or find resources by:</p>
-<div id="home-boxes" class="row gx-2 gy-5 align-items-start">
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Your role
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a href="{{ '/researcher.html' | relative_url }}">Researcher</a></li>
-        <li><a href="{{ '/data_steward_policy.html' | relative_url }}">Data steward policy</a></li>
-        <li><a href="{{ '/data_steward_research.html' | relative_url }}">Data steward research</a></li>
-        <li><a href="{{ '/data_steward_infrastructure.html' | relative_url }}">Data steward infrastructure</a></li>
-    </ul>
-</div>
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-    Your domain
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-    <li><a href="{{ '/plant_sciences.html' | relative_url }}">Plant sciences</a></li>
-    <li><a href="{{ '/marine_metagenomics.html' | relative_url }}">Marine metagenomics</a></li>
-    <li><a href="{{ '/human_data.html' | relative_url }}">Human data</a></li>
-    <li><a href="{{ '/biomolecular_simulation_data.html' | relative_url }}">Biomolecular simulation data</a></li>
-    <li><a href="{{ '/intrinsically_disordered_proteins.html' | relative_url }}">Intrinsically disordered proteins</a></li>
-    </ul>
-</div>
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
-    Your problem
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-    <li><a href="{{ '/compliance_monitoring.html' | relative_url }}">Compliance monitoring</a></li>
-    <li><a href="{{ '/data_analysis.html' | relative_url }}">Data analysis</a></li>
-    <li><a href="{{ '/data_management_plan.html' | relative_url }}">Data management Plan</a></li>
-    <li><a href="{{ '/data_organisation.html' | relative_url }}">Data organisation</a></li>
-    <li><a href="{{ '/data_protection.html' | relative_url }}">Data protection</a></li>
-    <li><a href="{{ '/data_publication.html' | relative_url }}">Data publication</a></li>
-    <li><a href="{{ '/sensitive_data.html' | relative_url }}">Sensitive data</a></li>
-    <li><a href="{{ '/data_quality.html' | relative_url }}">Data quality</a></li>
-    <li><a href="{{ '/data_transfer.html' | relative_url }}">Data transfer</a></li>
-    <li><a href="{{ '/licensing.html' | relative_url }}">Licensing</a></li>
-    <li><a href="{{ '/metadata_management.html' | relative_url }}">Metadata management</a></li>
-    <li><a href="{{ '/storage.html' | relative_url }}">Data storage</a></li>
-  </ul>
-</div>
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
-    Tools assembly
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
-      <li><a href="{{ '/nels_assembly.html' | relative_url }}">NeLS</a></li>
-    </ul>
-</div>
-
-<div class="dropdown col">
-  <a type="button" href="{{ '/all_tools_and_resources.html' | relative_url }}">
-    All tools and resources
-  </a>
-</div>
+<div  id="home-boxes" class="row gx-2 gy-5 align-items-start">
+    {% assign i = 1 %}
+    {% assign sidebar = site.data.sidebars[page.sidebar] %}
+    {% for folder in sidebar.subitems %}
+      {% if folder.title != "Data life cycle" and folder.title != "All tools and resources" %}
+      <div class="dropdown col">
+          <a class="dropdown-toggle" type="button" id="dropdownMenuButton{{ i }}" data-bs-toggle="dropdown" aria-expanded="false">{{folder.title}}</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton{{ i }}">
+              {% for folderitem in folder.subitems %}
+              <li><a href="{{folderitem.url | relative_url }}">{{folderitem.title}}</a></li>
+              {% endfor %}
+          </ul>
+      </div>
+      {% assign i = i | plus:1 %}
+      {% endif %}
+      {% if folder.title == "All tools and resources" %}
+      <div class="dropdown col">
+        <a type="button" href="{{ 'all_tools_and_resources.html' | relative_url }}">
+          All tools and resources
+        </a>
+      </div>
+      {% endif %}
+    {% endfor %}
 </div>
