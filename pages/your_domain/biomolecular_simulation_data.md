@@ -3,7 +3,7 @@ title: Biomolecular simulation data
 keywords: [molecular dynamics, docking, virtual screening]
 ---
 ## Introduction
-Here we show what are (bio)simulation data, how we can store them, how it can be reused for new, unexpected projects, and how they can be transformed to make them FAIR (findable, accessible, interoperable and reusable). However, we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify its data.
+Biomolecular simulations are important technique for our understanding and design of biological molecules and their interactions. Simulation methods are demonstrating rapidly growing impact in areas as diverse as biocatalysis, drug delivery, biomaterials, biotechnology, and drug or protein design. Simulations offer the potential of uniquely detailed, atomic‐level insight into mechanisms, dynamics, and processes, as well as increasingly accurate predictions of molecular properties. Yet the field only relatively recently started to store and share (bio)simulation data to be reused for new, unexpected projects, and started discussions about their biomolecular simulation data FAIRification (i.e. to make them Findable, Accessible, Interoperable and Reusable). Here we show several current possibilities moving in this direction, but we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify their data.
 
 ## Storing and sharing the data from biomolecular simulations
  
@@ -15,11 +15,11 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 * What type of data do you have?
   * Molecular dynamics data - by far the most typical and largest biomolecular simulation data. Each molecular dynamics simulation is driven by the used engine, force-field, and multiple other and often hidden simulation parameters to produce trajectories that are further analysed. 
   * Molecular docking data - docking provides the structures of the complex (e.g. ligand-protein, protein-protein, protein-nucleic acid, etc) and its score/energy. 
-  * Virtual screening data - virtual screening is used for selection of active compounds from the pool of others. 
-  * Free energies and other data from analysis - resulting final data stemming from the analysis of the simulations. 
+  * Virtual screening data - virtual screening is used for selection of active compounds from the pool of others and is usually in the form of ID and its score/energy. 
+  * Free energies and other analysis data - data calculatable from the analysis of the simulations. 
 
 * Where should you store this data?
-  * There’s a long list of repositories available for storing scientific data, that can be divided in two main branches: 
+  * Since there is no common community repository that would be able to gather the often spatious simulation data, the field did not systematically store them. Recently, there’s multiple possibilities where the data can be stored. The repositories can be divided in two main branches: 
     * Generic:  Repositories that can be used to store any kind of data.
     * Specific:  Repositories designed to store specific data (e.g. MD data).
   * Are you looking for a long-term or short-term storage? Repositories have different options (and sometimes prices) for the storage time of your data.
@@ -34,7 +34,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 
 
 ### Solutions
-* Repositories (to be extended by the community) - There’s a long (and incomplete) list of repositories available for this, that can be divided in two main branches: 
+* Repositories - There’s a long (and incomplete) list of repositories available for this, that can be divided in two main branches: 
   * Generic: Repositories that can be used to store any kind of data. 
     * [Zenodo](https://zenodo.org/)
     * [FigShare](https://figshare.com/)
@@ -42,7 +42,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
     * [DataDryad](https://datadryad.org/)
     * [OpenScienceFramework](https://osf.io/)
   * Specific: Repositories and databases designed to store specific data (e.g. MD data). 
-    * Molecular Dynamics repositories
+    * Molecular Dynamics repositories - allow storage of user data
       * [GPCRmd](http://gpcrmd.org/) - for GPCR protein simulations, [with submission process](https://submission.gpcrmd.org/accounts/login/?next=/accounts/memberpage/).
       * [MoDEL](http://mmb.irbbarcelona.org/MoDEL/) - (https://bio.tools/model) specific database for protein MD simulations. 
       * [BigNASim](http://mmb.irbbarcelona.org/BigNASim/) - (https://bio.tools/bignasim) specific database for Nucleic Acids MD simulations, [with submission process](https://github.com/NMRLipids).
@@ -50,7 +50,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
       * [NMRlipids](http://nmrlipids.blogspot.com/) - project to validate lipid force fields with NMR data with submission process
       * [MolSSI - BioExcel COVID-19 therapeutics hub](https://covid.bioexcel.eu/) - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
 
-    * Molecular Dynamics databases
+    * Molecular Dynamics databases - allow access to precalculated data
       * [BioExcel-CV19](https://bioexcel-cv19.bsc.es/#/) - database and associated web server to offer in a graphical way analyses on top of COVID-19 related MD trajectories stored in the MolSSI-BioExcel COVID-19 therapeutics hub.  
       * [Dynameomics](http://www.dynameomics.org/) - database of folding/unfolding pathways 
       * [MemprotMD](http://memprotmd.bioch.ox.ac.uk/) - database of automatically generated membrane proteins from PDB inserted into simulated lipid bilayers
@@ -64,12 +64,13 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
       * [Bioactive Conformational Ensemble](http://mmb.irbbarcelona.org/BCE) - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
       * [BindingDB](https://www.bindingdb.org/) - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, [with submission process](https://www.bindingdb.org/bind/contributedata.jsp). 
 
-    * Free energies and other analyses: 
+    * Repositories for the analyzed data from simulations: 
        * [MolMeDB](https://molmedb.upol.cz/) - for molecule-membrane interactions and free energy profiles, [with submission process](mailto:molmedb@upol.cz).  
        * [ChannelsDB](https://webchemdev.ncbr.muni.cz/ChannelsDB/index.html) - resource of channels, pores and tunnels found in biomacromolecules, [with submission process](https://webchemdev.ncbr.muni.cz/ChannelsDB/contribute.html).
 
 * Type of Data to be Shared
-  * Examples of types of essential and optional data depending on the biomolecular simulation data: 
+  * Unfortunately, there is yet to be concluded what data and metadata should be store by the community. 
+  * Here are some suggested examples of types of essential and optional data describing the biomolecular simulation data: 
     * Molecular Dynamics:
       * Essentials:
         * Metadata (Temperature, pressure, program, version, …)
@@ -117,4 +118,4 @@ Data generated in the biomolecular simulation field is growing at an alarming pa
 ## Where can training materials and events about biomolecular simulations be found?
 
 {% include tess.html search="biomolecular simulation" %}
-
+[BioExcel Knowledge Resource Center](https://krc.bioexcel.eu/training)
