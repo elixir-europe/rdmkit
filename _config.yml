@@ -27,7 +27,8 @@ exclude:
   - CODEOWNERS
   - var/
   - README.md
-  
+  - vendor
+
 feedback_subject_line: RDMKit feedback
 
 contact_email: rdm-editors@elixir-europe.org
