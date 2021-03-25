@@ -27,6 +27,7 @@ exclude:
   - CODEOWNERS
   - var/
   - README.md
+  - vendor
 
 feedback_subject_line: RDMKit feedback
 

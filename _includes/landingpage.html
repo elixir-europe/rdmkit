@@ -10,119 +10,36 @@
 <br>
 
 <div id="home-boxes" class="row row-cols-1 row-cols-md-2 g-4">
+  {% assign i = 1 %}
+  {% assign sidebar = site.data.sidebars[page.sidebar] %}
+  {% for folder in sidebar.subitems %}
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-        <h2 class="card-title no-anchor">Data life cycle</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut
-          labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
+        <h2 class="card-title no-anchor">{{folder.title}}</h2>
+        <p class="card-text">{{folder.description}}</p>
+          {% if folder.title == "Data life cycle" %}
         <div class="ratio main_rdm">
           <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h2 class="card-title no-anchor">Your role</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut
-          labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
-          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            List subpages
+          {%- elsif folder.title == "All tools and resources"%}
+          <button type="button">Show subpages</button>
+          {%- else %}
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+            Show subpages
           </button>
-        <div class="collapse" id="collapseExample">
-          <ul>
-            <li><a href="/researcher.html" class="card-link">Researcher</a></li>
-            <li><a href="/data_steward_policy.html" class="card-link">Data steward policy</a></li>
-            <li><a href="/data_steward_research.html" class="card-link">Data steward research</a></li>
-            <li><a href="/data_steward_infrastructure.html" class="card-link">Data steward infrastructure</a></li>
-          </ul>
-        </div>
+          <div class="collapse" id="collapse{{ i }}">
+            <ul>
+              {% for folderitem in folder.subitems %}
+              <li><a href="{{folderitem.url | relative_url }}">{{folderitem.title}}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% assign i = i | plus:1 %}
+          {%- endif %}
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h2 class="card-title no-anchor">Your domain</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut
-          labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
-        <ul>
-          <li><a href="/plant_sciences.html" class="card-link">Plant sciences</a></li>
-          <li><a href="/marine_metagenomics.html" class="card-link">Marine metagenomics</a></li>
-          <li><a href="/human_data.html" class="card-link">Human data</a></li>
-          <li><a href="/biomolecular_simulation_data.html" class="card-link">Biomolecular simulation data</a></li>
-          <li><a href="/intrinsically_disordered_proteins.html" class="card-link">Intrinsically disordered proteins</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h2 class="card-title no-anchor">Your problem</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut
-          labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
-        <ul>
-          <li><a href="/compliance_monitoring.html" class="card-link">Compliance monitoring</a></li>
-          <li><a href="/data_analysis.html" class="card-link">Data analysis</a></li>
-          <li><a href="/data_classification.html" class="card-link">Data classification</a></li>
-          <li><a href="/data_management_plan.html" class="card-link">Data management Plan</a></li>
-          <li><a href="/data_organisation.html" class="card-link">Data organisation</a></li>
-          <li><a href="/data_protection.html" class="card-link">Data protection</a></li>
-          <li><a href="/data_publication.html" class="card-link">Data publication</a></li>
-          <li><a href="/data_quality.html" class="card-link">Data quality</a></li>
-          <li><a href="/data_transfer.html" class="card-link">Data transfer</a></li>
-          <li><a href="/licensing.html" class="card-link">Licensing</a></li>
-          <li><a href="/metadata_management.html" class="card-link">Metadata management</a></li>
-          <li><a href="/storage.html" class="card-link">Data storage</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h2 class="card-title no-anchor">Tools assembly</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut
-          labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
-        <ul>
-          <li><a href="/nels_assembly.html" class="card-link">NeLS</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h2 class="card-title no-anchor">All tools and resources</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut
-          labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
-        <ul>
-          <li><a href="/all_tools_and_resources.html" class="card-link">NeLS</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </div>
+
