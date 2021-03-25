@@ -577,24 +577,23 @@ footer .company-logo {
     margin-bottom: 3em;
 }
 
-#home-boxes a {
+#home-boxes button {
     width: 100%;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     text-align: left;
-    color: var(--white-text);
-    background-color: var(--hover-grey);
+    background-color: var(--light-grey);
     display: block;
     padding: 7px 11px;
-    text-decoration: none;
     border-radius: 4px;
+    border: 0px;
 }
 
-#home-boxes a:hover {
+#home-boxes button:hover {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
 
-#home-boxes .dropdown-toggle::after {
+#home-boxes button::after {
     float: right;
     content: '+';
     font-size: 1.5em;
@@ -602,42 +601,12 @@ footer .company-logo {
     border: 0;
 }
 
-#home-boxes ul li a {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
-}
-
-#home-boxes .dropdown-toggle.show::after {
+#home-boxes button.show::after {
     content: '-';
     line-height: 0.8em;
 }
 
-.dropdown-menu {
-    max-height: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
-    width: 15em;
-}
 
-.dropdown .dropdown-menu li {
-    margin: 0;
-}
-
-@media screen and (max-width: 840px) {
-    .row {
-        flex-direction: column;
-    }
-    .dropdown.col {
-        width: 100%;
-        margin: .5em 0
-    }
-    .dropdown-menu {
-        width: 100%;
-    }
-}
-
-/* End home dropdown boxes */
 
 /*-----Contributors carousel homepage-----*/
 

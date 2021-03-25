@@ -9,7 +9,7 @@
 </p>
 <br>
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
+<div id="home-boxes" class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
@@ -34,12 +34,17 @@
           labore et dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.</p>
-        <ul>
-          <li><a href="/researcher.html" class="card-link">Researcher</a></li>
-          <li><a href="/data_steward_policy.html" class="card-link">Data steward policy</a></li>
-          <li><a href="/data_steward_research.html" class="card-link">Data steward research</a></li>
-          <li><a href="/data_steward_infrastructure.html" class="card-link">Data steward infrastructure</a></li>
-        </ul>
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            List subpages
+          </button>
+        <div class="collapse" id="collapseExample">
+          <ul>
+            <li><a href="/researcher.html" class="card-link">Researcher</a></li>
+            <li><a href="/data_steward_policy.html" class="card-link">Data steward policy</a></li>
+            <li><a href="/data_steward_research.html" class="card-link">Data steward research</a></li>
+            <li><a href="/data_steward_infrastructure.html" class="card-link">Data steward infrastructure</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

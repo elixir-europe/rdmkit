@@ -1,8 +1,10 @@
 subitems:
   - title: Data life cycle
+    description: Find resources for each stage of the RDM life cycle
     subitems:
       - RDM: True
   - title: Your role
+    description: Find resources relevant to your role
     subitems:
       - title: Researcher
         url: /researcher.html
@@ -13,6 +15,7 @@ subitems:
       - title: Data steward infrastructure
         url: /data_steward_infrastructure.html
   - title: Your domain
+    description: Find guidelines for your domain or discipline
     subitems:
       - title: Plant sciences
         url: /plant_sciences.html
@@ -25,6 +28,7 @@ subitems:
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins.html
   - title: Your problem
+    description: Find resources for your data management problems.
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring.html
@@ -52,9 +56,11 @@ subitems:
         url: /sensitive_data.html
 
   - title: All tools and resources
+    description: See how others assembles RDM tools.
     url: /all_tools_and_resources.html
     hr: True
   - title: Tools assembly
+    description: Browse all tools and resources mentioned on this site.
     hr: True
     subitems:
       - title: NeLS
