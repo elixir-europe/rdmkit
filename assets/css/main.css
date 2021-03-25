@@ -578,11 +578,11 @@ footer .company-logo {
 }
 
 #home-boxes button {
-    width: 100%;
+    /* width: 100%; */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     text-align: left;
     background-color: var(--light-grey);
-    display: block;
+    /* display: block; */
     padding: 7px 11px;
     border-radius: 4px;
     border: 0px;
@@ -605,7 +605,6 @@ footer .company-logo {
     content: '-';
     line-height: 0.8em;
 } */
-
 
 
 
