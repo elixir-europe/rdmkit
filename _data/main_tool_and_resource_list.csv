@@ -4,7 +4,11 @@ APID Interactomes,http://apid.dep.usal.es/,APID (Agile Protein Interactomes Data
 Argos,https://argos.openaire.eu/splash/,"Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.",,"DMP, researcher, data manager"
 BBMRI-ERIC's ELSI Knowledge Base,https://www.bbmri-eric.eu/elsi/knowledge-base/,The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.,,"data protection, sensitive, policy officer, data manager, human data"
 Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,,"researcher, data manager, IT support, human data"
+BigNASim,https://mmb.irbbarcelona.org/BigNASim/,Repository for Nucleic Acids MD simulations,biotools:bignasim,biomol sim
+BindingDB,https://www.bindingdb.org/,"Public, web-accessible database of measured binding affinities","fairsharing:3b36hk, biotools:bindingdb",biomol sim
+Bioactive Conformational Ensemble,https://mmb.irbbarcelona.org/BCE/,Platform designed to efficiently generate bioactive conformers and speed up the drug discovery process.,biotools:bce,biomol sim
 Bioconda,https://bioconda.github.io/,Bioconda is a bioinformatics channel for the Conda package manager,biotools:bioconda,"IT support, data analysis"
+BioExcel COVID-19,https://bioexcel-cv19.bsc.es/#/,Platform designed to provide web-access to atomistic-MD trajectories for macromolecules involved in the COVID-19 disease.,,biomol sim
 BIONDA,http://bionda.mpc.ruhr-uni-bochum.de/start.php,"BIONDA is a free and open-access biomarker database, which employs various text mining methods to extract structured information on biomarkers from abstracts of scientific publications",biotools:bionda,"storage, researcher, human data"
 Bitbucket,https://bitbucket.org/,"Git based code hosting and collaboration tool, built for teams.",,"data organisation, data manager, IT support"
 BMRB,https://bmrb.io/,Biological Magnetic Resonance Data Bank,,"IDP, researcher"
@@ -14,7 +18,7 @@ BrAPI,https://www.brapi.org,"Specification for a standard API for plant data: pl
 BRENDA,https://www.brenda-enzymes.org/,"Database of enzyme and enzyme-ligand information, across all taxonomic groups, manually extracted from primary literature and extended by text mining procedures",fairsharing:etp533,
 Bulk Rename Utility,https://www.bulkrenameutility.co.uk/,File renaming software for Windows,,"data organisation, data manager, researcher"
 CalibraCurve,https://github.com/mpc-bioinformatics/CalibraCurve,A highly useful and flexible tool for calibration of targeted MS‐based measurements. CalibraCurve enables an automated batch-mode determination of dynamic linear ranges and quantification limits for both targeted proteomics and similar assays. The software uses a variety of measures to assess the accuracy of the calibration and provides intuitive visualizations.,biotools:calibracurve,data analysis
-CancerGenomeInterpreter,https://www.cancergenomeinterpreter.org/home,Cancer Genome Interpreter (CGI) is designed to support the identification of tumor alterations that drive the disease and detect those that may be therapeutically actionable.,biotools:cgi,"data analysis, human data"
+Cancer Genome Interpreter,https://www.cancergenomeinterpreter.org/home,Cancer Genome Interpreter (CGI) is designed to support the identification of tumor alterations that drive the disease and detect those that may be therapeutically actionable.,biotools:cgi,"data analysis, human data"
 CATH,http://www.cathdb.info/,A hierarchical domain classification of protein structures in the Protein Data Bank.,fairsharing:xgcyyn,
 ChEBI,https://www.ebi.ac.uk/chebi/,Dictionary of molecular entities focused on 'small' chemical compounds,fairsharing:62qk8w,
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.",fairsharing:m3jtpg,
@@ -22,11 +26,13 @@ Choose a license,https://choosealicense.com,Choose an open source license,,"lice
 Conda,https://docs.conda.io/en/latest/,Open source package management systemn,,"IT support, data analysis"
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data
 COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:copo, fairsharing:biodbcore-001247","metadata, researcher, plants"
+COVID-19 Molecular Structure and Therapeutics Hub,https://covid.bioexcel.eu/,COVID-19 Molecular Structure and Therapeutics Hub,,biomol sim
 Creative Commons License Chooser,https://creativecommons.org/choose/,It helps you choose the right Creative Commons license for your needs.,,"licensing, researcher, data manager, policy officer"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"researcher, data manager, IT support, plants"
 DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:Data_Information_System_DAISY,"IT support, policy officer, human data, data protection"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
+data.world Data License list,https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets,Overview of typical licenses used for data resources,,"data publication, biomol sim"
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"storage, researcher, data manager, IT support"
 DAWID,https://dawid.elixir-luxembourg.org/,The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg to facilitate data sharing agreements.,,"data protection, policy officer, human data"
 dbGAP,https://www.ncbi.nlm.nih.gov/gap/,The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans,fairsharing:88v2k0,"data publication, researcher, IT support, human data"
@@ -41,22 +47,26 @@ DMPTool,https://dmptool.org,Build your Data Management Plan,,"DMP, researcher, d
 DMPTuuli Finland,https://www.dmptuuli.fi/,Data management planning tool,,"DMP, researcher, data manager"
 Docker,https://www.docker.com/,"Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images",fairsharing:bsg-d001254,"IT support, data analysis"
 DropBox,https://www.dropbox.com/?landing=dbv2,Cloud storage and file sharing service,,"storage, IT support"
+Dryad,https://datadryad.org/,"Open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data",fairsharing:wkggtx,"data publication, biomol sim"
 DS-Wizard,https://ds-wizard.org/,Data Stewardship Wizard,biotools:Data_Stewardship_Wizard,"DMP, researcher, data manager, IT support, nels"
+Dynameomics,http://www.dynameomics.org/,Database of folding / unfolding pathway of representatives from all known protein folds by MD simulation,,biomol sim
 e!DAL,https://edal.ipk-gatersleben.de/,Electronic data archive library is a framework for publishing and sharing research data,biotools:edal,"storage, IT support"
 e!DAL-PGP,https://edal-pgp.ipk-gatersleben.de/,Plant Genomics and Phenomics Research Data Repository,fairsharing:rf3m4g,"plants, researcher, data manager, IT support"
 EasyDMP,https://easydmp.no/,"DMP creation, versioning and sharing",,"DMP, researcher, data manager"
 ELIXIR Deposition Databases for Biomolecular Data,https://elixir-europe.org/platforms/data/elixir-deposition-databases,List of discipline-specific deposition databases recommended by ELIXIR.,fairsharing:bsg-c000039,"data publication, researcher, data manager, IT support"
 EMBL-EBI Ontology Lookup Service,https://www.ebi.ac.uk/ols/index,EMBL-EBI’s web portal for finding ontologies,,"metadata, data manager, researcher"
 EMBL-EBI's data submission wizard,https://www.ebi.ac.uk/submission/,EMBL-EBI's wizard for finding the right EMBL-EBI repository for your data.,,"data publication, researcher, data manager"
-Ensembl,http://www.ensembl.org/index.html,"Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.",fairsharing:fx0mw7,
-Ensembl Genomes,http://ensemblgenomes.org/,"Comparative analysis, data mining and visualisation for the genomes of non-vertebrate species",fairsharing:923a0p,
+Ensembl,https://www.ensembl.org/index.html,"Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.",fairsharing:fx0mw7,
+Ensembl Genomes,https://ensemblgenomes.org/,"Comparative analysis, data mining and visualisation for the genomes of non-vertebrate species",fairsharing:923a0p,
 EU General Data Protection Regulation,https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN,"Regulation (eu) 2016/679 of the european parliament and of the council on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing directive 95/46/ec (general data protection regulation).",,"data protection, policy officer, human data"
 EUDAT licence selector wizard,https://ufal.github.io/public-license-selector/,EUDAT's wizard for finding the right licence for your data or code.,,"licensing, researcher, data manager, policy officer"
 EUPID,https://eupid.eu/#/concept,"EUPID provides a method for identity management, pseudonymisation and record linkage to bridge the gap between multiple contexts.",,"IT support, policy officer, human data"
+EURISCO,https://eurisco.ipk-gatersleben.de,European Search Catalogue for Plant Genetic Resources,biotools:eurisco,plants
 Europe PMC,https://europepmc.org/,"Europe PMC is a repository, providing access to worldwide life sciences articles, books, patents and clinical guidelines.",fairsharing:cmw6mm,researcher
 FAIDARE,https://urgi.versailles.inra.fr/faidare/,FAIDARE is a tool allowing to search data across dinstinct databases that implemented BrAPI.,biotools:faidare,"researcher, data manager, plants"
 FAIRDOMHub,https://fairdomhub.org,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc. (public SEEK instance)",fairsharing:nnvcr9,"storage, researcher, nels, metadata"
 fairsharing,https://fairsharing.org/,"A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",fairsharing:2abjs5,"metadata, data publication, policy officer, data manager, researcher"
+FigShare,https://figshare.com/,Data publishing platform,fairsharing:drtwnh,"data publication, biomol sim"
 GA4GH data security toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/,Principled and practical framework for the responsible sharing of genomic and health-related data.,,"data publication, policy officer, data manager, IT support, human data"
 GA4GH regular and ethical toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,Framework for Responsible Sharing of Genomic and Health-Related Data,,"data protection, sensitive, policy officer, data manager, IT support, human data"
 Galaxy,https://galaxyproject.org/,"Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.",biotools:galaxy,"nels, data analysis, researcher, IT support"
@@ -65,9 +75,10 @@ Git,https://git-scm.com/,Distributed version control system designed to handle e
 GitHub,https://github.com,"Versioning system, used for sharing code, as well as for sharing of small data",fairsharing:biodbcore-001160,"data publication, data organisation, IT support, data manager"
 GitLab,https://gitlab.com/gitlab-org/gitlab,"GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.",,"data organisation,data publication,IT support,data manager"
 GnpIS,https://urgi.versailles.inrae.fr/gnpis/,"A multispecies integrative information system dedicated to plant and fungi pests. It allows researchers to access genetic, phenotypic and genomic data. It is used by both large international projects and the French National Research Institute for Agriculture, Food and Environment.","fairsharing:dw22y3, biotools:gnpis",plants
+GPCRmd,http://gpcrmd.org/,Repository of GPCR protein simulations,biotools:GPCRmd,biomol sim
 GRAPE 2.0,https://github.com/guigolab/grape-nf,"The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses. It allows the creation of an automated and integrated workflow to manage, analyse and visualize RNA-Seq data.",biotools:grape_2.0,data analysis
 How to License Research Data - DCC,https://www.dcc.ac.uk/guidance/how-guides/license-research-data,Guidelines about how to license research data from Digital Curation Centre,,"licensing, researcher, data manager, policy officer"
-Human Protein Atlas,http://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,
+Human Protein Atlas,https://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,
 HumanMine,https://www.humanmine.org/,"HumanMine integrates many types of human data and provides a powerful query engine, export for results, analysis for lists of data and FAIR access via web services.",biotools:humanmine,"data organisation, data manager, researcher, human data, data analysis"
 IDPO,https://disprot.org/about,Intrinsically disordered proteins ontology,,"IDP, metadata"
 Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"IT support, policy officer, human data"
@@ -81,29 +92,39 @@ Jupyter,https://jupyter.org,"Jupyter notebooks allow to share code, documentatio
 Linked Open Vocabularies (LOV),https://lov.linkeddata.es/dataset/lov/,Web portal for finding ontologies,,"metadata, data manager, researcher"
 maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,"DMP, IT support"
 MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,"biotools:NA, fairsharing:hn155r","metadata, researcher, IT support, policy officer, plants"
-MIADE,http://www.psidev.info/intrinsically-disordered-proteins-workgroup,Minimum Information About Disorder Experiments (MIADE) standard,,"metadata, researcher, data manager, IDP"
+MemProtMD,http://memprotmd.bioch.ox.ac.uk/,Database of over 5000 intrinsic membrane protein structures,,biomol sim
+Mendeley data,https://data.mendeley.com/,"Multidisciplinary, free-to-use open repository specialized for research data",fairsharing:3epmpp,"data publication, biomol sim"
+MIADE,https://www.psidev.info/intrinsically-disordered-proteins-workgroup,Minimum Information About Disorder Experiments (MIADE) standard,,"metadata, researcher, data manager, IDP"
 MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"metadata, researcher, data manager, plants"
 Microsoft OneDrive,https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage,Cloud storage and file sharing service from Microsoft,,"storage, IT support"
+MIGS/MIMS,http://wiki.gensc.org/index.php?title=MIGS/MIMS,Minimum Information about a (Meta)Genome Sequence,fairsharing:va1hck,"metadata, researcher, data manager, marine"
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,
+MIxS,https://gensc.org/mixs/,Minimum Information about any (x) Sequence,fairsharing:9aa0zp,"metadata, researcher, data manager, marine"
 MobiDB,https://mobidb.org/,A database of protein disorder and mobility annotations,biotools:mobidb,"IDP, researcher"
-MoDEL,http://mmb.irbbarcelona.org/MoDEL/,Database of Protein Molecular Dynamics simulations representing different structural clusters of the PDB,biotools:model,biomol sim
+MoDEL,https://mmb.irbbarcelona.org/MoDEL/,Database of Protein Molecular Dynamics simulations representing different structural clusters of the PDB,biotools:model,biomol sim
 MoDEL Covid19,https://bioexcel-cv19.bsc.es/#/,Database of COVID-19 related atomistic Molecular Dynamic Trajectories,,biomol sim
+MoDEL-CNS,https://mmb.irbbarcelona.org/MoDEL-CNS/#/,Repository for Central Nervous System-related mainly membrane protein MD simulations,,biomol sim
+ModelArchive,https://www.modelarchive.org/,Repository for molecular models - providing doi of models,fairsharing:tpqndj,biomol sim
+MolMeDB,https://molmedb.upol.cz/,Database about interactions of molecules with membranes,"biotools:MolMeDB, fairsharing:cwzk3c",biomol sim
 MONARC,https://open-source-security-software.net/project/MONARC,A risk assessment tool that can be used to do Data Protection Impact Assessments,,"data protection, policy officer, human data"
 NeLS,https://nels.bioinfo.no,"Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data",biotools:nels,nels
 NextCloud,https://nextcloud.com,"As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.",,"storage, IT support"
 Nextflow,https://www.nextflow.io,Nextflow is a framework for data analysis workflow execution,,"IT support, data analysis"
+NMRlipids,http://nmrlipids.blogspot.com/,Repository for lipid MD simulations to validate force fields with NMR data,,biomol sim
 Ontobee,http://www.ontobee.org,A web portal to search and visualise ontologies,,"metadata, data manager, researcher"
 ONTOMATON,https://github.com/ISA-tools/OntoMaton,OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.,,"researcher, data manager, IT support"
 Open Definition Conformant Licenses,https://opendefinition.org/licenses/,Licenses that are conformant with the principles laid out in the Open Definition.,,"licensing, researcher, data manager, policy officer"
 OpenEBench,https://openebench.bsc.es/,ELIXIR benchmarking platform to support community-led scientific benchmarking efforts and the technical monitoring of bioinformatics reosurces,biotools:openebench,"data analysis,data manager,IT support"
 OpenRefine,https://openrefine.org/,Data curation tool for working with messy data,,data quality
+OpenScienceFramework,https://osf.io/,"free and open source project management tool that supports the entire research lifecycle: planning, execution, reporting, archiving, and discovery",fairsharing:g4z879,"data publication, biomol sim"
 Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format",fairsharing:biodbcore-001249,
 OSF,https://osf.io,"OSF (Open Science Framework) is a free, open platform to support your research and enable collaboration.",,"storage, researcher, data manager"
 OTP,https://gitlab.com/one-touch-pipeline/otp,"One Touch Pipeline (OTP) is a data management platform for running bioinformatics pipelines in a high-throughput setting, and for organising the resulting data and metadata.",,"human data, metadata, DMP, data analysis"
 OwnCloud,https://owncloud.com,Cloud storage and file sharing service,,"storage, IT support"
 PAA,https://bioconductor.org/packages/PAA/,PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.,biotools:paa,"data analysis, researcher, human data"
-PCDDB,http://pcddb.cryst.bbk.ac.uk/,The Protein Circular Dichroism Data Bank,biotools:pcddb,"IDP, researcher"
-PDB,http://www.pdb.org,The Protein Data Bank (PDB),biotools:pdb,"researcher, IDP"
+PCDDB,https://pcddb.cryst.bbk.ac.uk/,The Protein Circular Dichroism Data Bank,biotools:pcddb,"IDP, researcher"
+PDB,https://www.wwpdb.org/,The Protein Data Bank (PDB),biotools:pdb,"researcher, IDP"
+PDB-Dev,https://pdb-dev.wwpdb.org/,Prototype archiving system for structural models obtained using integrative or hybrid modeling,,biomol sim
 PIA - Protein Inference Algorithms,https://github.com/mpc-bioinformatics/pia,PIA is a toolbox for mass spectrometrey based protein inference and identification analysis.,biotools:pia,"data analysis, researcher"
 PMut,http://mmb.irbbarcelona.org/PMut,Platform for the study of the impact of pathological mutations in protein stuctures.,biotools:pmut,"data analysis,human data"
 Privacy Impact Assessment Tool,https://privaon.com/services/privacy-impact-assessment-tool/,"Privacy Impact Assessment Tool is a software, that allows you to carry out Privacy Impact Assessment (PIA) independently.",,"data protection, policy officer, human data"
@@ -133,11 +154,6 @@ Tryggve ELSI Checklist,https://scilifelab-data-guidelines.readthedocs.io/en/late
 UniProt,https://www.uniprot.org/,Comprehensive resource for protein sequence and annotation data,fairsharing:s1ne3g,"metadata, researcher, IDP"
 Wellcome Open Research - Data Guidelines,https://wellcomeopenresearch.org/for-authors/data-guidelines,"Wellcome Open Research requires that the source data underlying the results are made available as soon as an article is published. This page provides information about data you need to include, where your data can be stored, and how your data should be presented.",,"data publication, researcher, data manager"
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data publication, biomol sim"
-FigShare,http://figshare.com/,Data publishing platform,fairsharing:drtwnh,"data publication, biomol sim"
-Mendeley data,https://data.mendeley.com/,"Multidisciplinary, free-to-use open repository specialized for research data",fairsharing:3epmpp,"data publication, biomol sim"
-Dryad,http://datadryad.org/,"Open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data",fairsharing:wkggtx,"data publication, biomol sim"
-OpenScienceFramework,https://osf.io/,"free and open source project management tool that supports the entire research lifecycle: planning, execution, reporting, archiving, and discovery",fairsharing:g4z879,"data publication, biomol sim"
-data.world Data License list,https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets,Overview of typical licenses used for data resources,,"data publication, biomol sim"
 Biodiversity Information Standards (TDWG),https://www.tdwg.org,"Biodiversity Information Standards (TDWG), historically the Taxonomic Databases Working Group, work to develop biodiversity information standards",,
 Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,,
 National Center for Biotechnology Information (NCBI),https://www.ncbi.nlm.nih.gov,"Online database hosting a vast amount of biotechnological information including nucleic acids, proteins, genomes and publications. Also boasts integrated tools for analysis.",,
