@@ -1,7 +1,6 @@
 ---
 toc: false
 search: exclude
-hide_sidebar: true
 ---
 
 {% include landingpage.html %}
