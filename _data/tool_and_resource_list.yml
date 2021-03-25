@@ -862,6 +862,16 @@ Tools:
   tags:
   - storage
   - IT support
+- description: Minimum Information about a (Meta)Genome Sequence
+  link: http://wiki.gensc.org/index.php?title=MIGS/MIMS
+  name: MIGS/MIMS
+  registry:
+    fairsharing: va1hck
+  tags:
+  - metadata
+  - researcher
+  - data manager
+  - marine
 - description: MINT, the Molecular INTeraction database, focuses on experimentally
     verified protein-protein interactions mined from the scientific literature by
     expert curators
@@ -870,6 +880,17 @@ Tools:
   registry:
     biotools: mint
     fairsharing: 2bdvmk
+- description: Minimum Information about any (x) Sequence
+  link: https://gensc.org/mixs/
+  name: MIxS
+  registry:
+    fairsharing: 9aa0zp
+    tess: MIxS
+  tags:
+  - metadata
+  - researcher
+  - data manager
+  - marine
 - description: A database of protein disorder and mobility annotations
   link: https://mobidb.org/
   name: MobiDB
