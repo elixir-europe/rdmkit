@@ -299,6 +299,10 @@ figcaption {
     color: var(--white-text);
 }
 
+.menu ul {
+    display: none;
+}
+
 .menu li>a>span {
     float: right;
     font-size: 1.5em;
