@@ -43,6 +43,29 @@ Tools:
   - data manager
   - IT support
   - human data
+- description: Repository for Nucleic Acids MD simulations
+  link: https://mmb.irbbarcelona.org/BigNASim/
+  name: BigNASim
+  registry:
+    biotools: bignasim
+  tags:
+  - biomol sim
+- description: Public, web-accessible database of measured binding affinities
+  link: https://www.bindingdb.org/
+  name: BindingDB
+  registry:
+    biotools: bindingdb
+    fairsharing: 3b36hk
+  tags:
+  - biomol sim
+- description: Platform designed to efficiently generate bioactive conformers and
+    speed up the drug discovery process.
+  link: https://mmb.irbbarcelona.org/BCE/
+  name: Bioactive Conformational Ensemble
+  registry:
+    biotools: bce
+  tags:
+  - biomol sim
 - description: Bioconda is a bioinformatics channel for the Conda package manager
   link: https://bioconda.github.io/
   name: Bioconda
@@ -52,6 +75,12 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Platform designed to provide web-access to atomistic-MD trajectories
+    for macromolecules involved in the COVID-19 disease.
+  link: https://bioexcel-cv19.bsc.es/#/
+  name: BioExcel COVID-19
+  tags:
+  - biomol sim
 - description: BIONDA is a free and open-access biomarker database, which employs
     various text mining methods to extract structured information on biomarkers from
     abstracts of scientific publications
@@ -135,7 +164,7 @@ Tools:
     of tumor alterations that drive the disease and detect those that may be therapeutically
     actionable.
   link: https://www.cancergenomeinterpreter.org/home
-  name: CancerGenomeInterpreter
+  name: Cancer Genome Interpreter
   registry:
     biotools: cgi
   tags:
@@ -199,6 +228,11 @@ Tools:
   - metadata
   - researcher
   - plants
+- description: COVID-19 Molecular Structure and Therapeutics Hub
+  link: https://covid.bioexcel.eu/
+  name: COVID-19 Molecular Structure and Therapeutics Hub
+  tags:
+  - biomol sim
 - description: It helps you choose the right Creative Commons license for your needs.
   link: https://creativecommons.org/choose/
   name: Creative Commons License Chooser
@@ -248,6 +282,12 @@ Tools:
   - data manager
   - researcher
   - human data
+- description: Overview of typical licenses used for data resources
+  link: https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets
+  name: data.world Data License list
+  tags:
+  - data publication
+  - biomol sim
 - description: Open source research data respository software.
   link: https://dataverse.org/
   name: DATAVERSE
@@ -369,6 +409,15 @@ Tools:
   tags:
   - storage
   - IT support
+- description: Open-source, community-led data curation, publishing, and preservation
+    platform for CC0 publicly available research data
+  link: https://datadryad.org/
+  name: Dryad
+  registry:
+    fairsharing: wkggtx
+  tags:
+  - data publication
+  - biomol sim
 - description: Data Stewardship Wizard
   link: https://ds-wizard.org/
   name: DS-Wizard
@@ -380,6 +429,12 @@ Tools:
   - data manager
   - IT support
   - nels
+- description: Database of folding / unfolding pathway of representatives from all
+    known protein folds by MD simulation
+  link: http://www.dynameomics.org/
+  name: Dynameomics
+  tags:
+  - biomol sim
 - description: Electronic data archive library is a framework for publishing and sharing
     research data
   link: https://edal.ipk-gatersleben.de/
@@ -435,7 +490,7 @@ Tools:
   - data manager
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
-  link: http://www.ensembl.org/index.html
+  link: https://www.ensembl.org/index.html
   name: Ensembl
   registry:
     biotools: ensembl
@@ -443,7 +498,7 @@ Tools:
     tess: Ensembl
 - description: Comparative analysis, data mining and visualisation for the genomes
     of non-vertebrate species
-  link: http://ensemblgenomes.org/
+  link: https://ensemblgenomes.org/
   name: Ensembl Genomes
   registry:
     fairsharing: 923a0p
@@ -474,6 +529,13 @@ Tools:
   - IT support
   - policy officer
   - human data
+- description: European Search Catalogue for Plant Genetic Resources
+  link: https://eurisco.ipk-gatersleben.de
+  name: EURISCO
+  registry:
+    biotools: eurisco
+  tags:
+  - plants
 - description: Europe PMC is a repository, providing access to worldwide life sciences
     articles, books, patents and clinical guidelines.
   link: https://europepmc.org/
@@ -518,6 +580,15 @@ Tools:
   - policy officer
   - data manager
   - researcher
+- description: Data publishing platform
+  link: https://figshare.com/
+  name: FigShare
+  registry:
+    fairsharing: drtwnh
+    tess: FigShare
+  tags:
+  - data publication
+  - biomol sim
 - description: Principled and practical framework for the responsible sharing of genomic
     and health-related data.
   link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
@@ -605,6 +676,13 @@ Tools:
     fairsharing: dw22y3
   tags:
   - plants
+- description: Repository of GPCR protein simulations
+  link: http://gpcrmd.org/
+  name: GPCRmd
+  registry:
+    biotools: GPCRmd
+  tags:
+  - biomol sim
 - description: The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses.
     It allows the creation of an automated and integrated workflow to manage, analyse
     and visualize RNA-Seq data.
@@ -626,7 +704,7 @@ Tools:
 - description: The Human Protein Atlas contains information for a large majority of
     all human protein-coding genes regarding the expression and localization of the
     corresponding proteins based on both RNA and protein data.
-  link: http://www.proteinatlas.org/
+  link: https://www.proteinatlas.org/
   name: Human Protein Atlas
   registry:
     fairsharing: j0t0pe
@@ -745,8 +823,22 @@ Tools:
   - IT support
   - policy officer
   - plants
+- description: Database of over 5000 intrinsic membrane protein structures
+  link: http://memprotmd.bioch.ox.ac.uk/
+  name: MemProtMD
+  tags:
+  - biomol sim
+- description: Multidisciplinary, free-to-use open repository specialized for research
+    data
+  link: https://data.mendeley.com/
+  name: Mendeley data
+  registry:
+    fairsharing: 3epmpp
+  tags:
+  - data publication
+  - biomol sim
 - description: Minimum Information About Disorder Experiments (MIADE) standard
-  link: http://www.psidev.info/intrinsically-disordered-proteins-workgroup
+  link: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
   name: MIADE
   tags:
   - metadata
@@ -788,7 +880,7 @@ Tools:
   - researcher
 - description: Database of Protein Molecular Dynamics simulations representing different
     structural clusters of the PDB
-  link: http://mmb.irbbarcelona.org/MoDEL/
+  link: https://mmb.irbbarcelona.org/MoDEL/
   name: MoDEL
   registry:
     biotools: model
@@ -798,6 +890,27 @@ Tools:
 - description: Database of COVID-19 related atomistic Molecular Dynamic Trajectories
   link: https://bioexcel-cv19.bsc.es/#/
   name: MoDEL Covid19
+  tags:
+  - biomol sim
+- description: Repository for Central Nervous System-related mainly membrane protein
+    MD simulations
+  link: https://mmb.irbbarcelona.org/MoDEL-CNS/#/
+  name: MoDEL-CNS
+  tags:
+  - biomol sim
+- description: Repository for molecular models - providing doi of models
+  link: https://www.modelarchive.org/
+  name: ModelArchive
+  registry:
+    fairsharing: tpqndj
+  tags:
+  - biomol sim
+- description: Database about interactions of molecules with membranes
+  link: https://molmedb.upol.cz/
+  name: MolMeDB
+  registry:
+    biotools: MolMeDB
+    fairsharing: cwzk3c
   tags:
   - biomol sim
 - description: A risk assessment tool that can be used to do Data Protection Impact
@@ -833,6 +946,12 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Repository for lipid MD simulations to validate force fields with NMR
+    data
+  link: http://nmrlipids.blogspot.com/
+  name: NMRlipids
+  tags:
+  - biomol sim
 - description: A web portal to search and visualise ontologies
   link: http://www.ontobee.org
   name: Ontobee
@@ -874,6 +993,15 @@ Tools:
     tess: OpenRefine
   tags:
   - data quality
+- description: 'free and open source project management tool that supports the entire
+    research lifecycle: planning, execution, reporting, archiving, and discovery'
+  link: https://osf.io/
+  name: OpenScienceFramework
+  registry:
+    fairsharing: g4z879
+  tags:
+  - data publication
+  - biomol sim
 - description: The Orphadata platform provides the scientific community with comprehensive,
     high-quality datasets related to rare diseases and orphan drugs, in a reusable
     and computable format
@@ -919,7 +1047,7 @@ Tools:
   - researcher
   - human data
 - description: The Protein Circular Dichroism Data Bank
-  link: http://pcddb.cryst.bbk.ac.uk/
+  link: https://pcddb.cryst.bbk.ac.uk/
   name: PCDDB
   registry:
     biotools: pcddb
@@ -927,7 +1055,7 @@ Tools:
   - IDP
   - researcher
 - description: The Protein Data Bank (PDB)
-  link: http://www.pdb.org
+  link: https://www.wwpdb.org/
   name: PDB
   registry:
     biotools: pdb
@@ -935,6 +1063,12 @@ Tools:
   tags:
   - researcher
   - IDP
+- description: Prototype archiving system for structural models obtained using integrative
+    or hybrid modeling
+  link: https://pdb-dev.wwpdb.org/
+  name: PDB-Dev
+  tags:
+  - biomol sim
 - description: PIA is a toolbox for mass spectrometrey based protein inference and
     identification analysis.
   link: https://github.com/mpc-bioinformatics/pia
@@ -1197,48 +1331,6 @@ Tools:
   registry:
     fairsharing: wy4egf
     tess: Zenodo
-  tags:
-  - data publication
-  - biomol sim
-- description: Data publishing platform
-  link: http://figshare.com/
-  name: FigShare
-  registry:
-    fairsharing: drtwnh
-    tess: FigShare
-  tags:
-  - data publication
-  - biomol sim
-- description: Multidisciplinary, free-to-use open repository specialized for research
-    data
-  link: https://data.mendeley.com/
-  name: Mendeley data
-  registry:
-    fairsharing: 3epmpp
-  tags:
-  - data publication
-  - biomol sim
-- description: Open-source, community-led data curation, publishing, and preservation
-    platform for CC0 publicly available research data
-  link: http://datadryad.org/
-  name: Dryad
-  registry:
-    fairsharing: wkggtx
-  tags:
-  - data publication
-  - biomol sim
-- description: 'free and open source project management tool that supports the entire
-    research lifecycle: planning, execution, reporting, archiving, and discovery'
-  link: https://osf.io/
-  name: OpenScienceFramework
-  registry:
-    fairsharing: g4z879
-  tags:
-  - data publication
-  - biomol sim
-- description: Overview of typical licenses used for data resources
-  link: https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets
-  name: data.world Data License list
   tags:
   - data publication
   - biomol sim
