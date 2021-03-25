@@ -294,7 +294,7 @@ figcaption {
     padding-left: 60px;
 }
 
-.menu ul li.active a {
+.menu li.active a {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
@@ -809,4 +809,12 @@ footer .company-logo {
     .ratio.main_rdm {
         padding-bottom: 30%;
     }
+}
+
+h2.card-title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--primary-theme-color);
+    margin: 0 0 0.5rem 0;
 }
