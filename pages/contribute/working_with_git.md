@@ -7,14 +7,14 @@ toc: false
 
 ## Forking - branching - changing - pushing - PR
 
-This is a general workflow in how to work on your own fork (copy) of the rdm-toolkit repo and request changes through a pull request:
+This is a general workflow in how to work on your own fork (copy) of the rdmkit repo and request changes through a pull request:
 NOTE: if you already did these steps in the past, start from the `git fetch upstream` command. 
 
 - Make a fork of this repository, using the fork button.
 - Open a terminal and clone your fork using:
     ```
     git clone git@github.com:USERNAME/rdmkit.git
-    cd rdm-toolkit
+    cd rdmkit
     ```
     NOTE: Make sure you clone the fork and not the original elixir-europe/rdmkit one.
 - Keep your fork up to date (IMPORTANT!).
