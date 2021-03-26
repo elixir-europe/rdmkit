@@ -1,8 +1,7 @@
 ---
 title: Compliance monitoring & measurement
 tags: [plan, researcher, data manager, policy officer] 
-contributors: [Christophe Trefois, Wei Gu, Pinar Alper, 
-Markus Englund, Vera Ortseifen]
+contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
 description: measure compliance to data management regulations and standards.
 ---
 
