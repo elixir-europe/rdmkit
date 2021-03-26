@@ -783,6 +783,7 @@ h2.card-title {
     transition: all 500ms ease-out;
     color: var(--footer-color);
     background: var(--footer-bg);
+    border-radius: 0;
 }
 
 .cookiealert.show {
