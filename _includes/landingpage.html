@@ -7,10 +7,10 @@
     the data’s life cycle.
 </p>
 <br>
-{% assign i = 1 %}
-{% assign sidebar = site.data.sidebars[page.sidebar] %}
-{% for folder in sidebar.subitems %}
-{% if folder.title == "Data life cycle" %}
+{%- assign i = 1 %}
+{%- assign sidebar = site.data.sidebars[page.sidebar] %}
+{%- for folder in sidebar.subitems %}
+{%- if folder.title == "Data life cycle" %}
 <div class="card mb-4">
   <div class="card-body">
     <h2 class="card-title no-anchor">{{folder.title}}</h2>
@@ -23,12 +23,12 @@
   </div>
 </div>
 {%- endif %}
-{% endfor %}
+{%- endfor %}
 <div id="home-boxes" class="row row-cols-1 row-cols-md-2 g-4">
-  {% assign i = 1 %}
-  {% assign sidebar = site.data.sidebars[page.sidebar] %}
-  {% for folder in sidebar.subitems %}
-  {% if folder.title != "Data life cycle" %}
+  {%- assign i = 1 %}
+  {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+  {%- for folder in sidebar.subitems %}
+  {%- if folder.title != "Data life cycle" %}
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
@@ -44,16 +44,16 @@
           </button>
           <div class="collapse" id="collapse{{ i }}">
             <ul>
-              {% for folderitem in folder.subitems %}
+              {%- for folderitem in folder.subitems %}
               <li><a href="{{folderitem.url | relative_url }}">{{folderitem.title}}</a></li>
-              {% endfor %}
+              {%- endfor %}
             </ul>
           </div>
-          {% assign i = i | plus:1 %}
+          {%- assign i = i | plus:1 %}
           {%- endif %}
       </div>
     </div>
   </div>
   {%- endif %}
-  {% endfor %}
+  {%- endfor %}
 </div>
