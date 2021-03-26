@@ -34,7 +34,7 @@ records. It is widely adopted in lab information systems and applications used i
   *  [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres. 
   *  [ISO/IEC 27018](http://data-reuse.eu/wp-content/uploads/2017/02/ISO-Standards.pdf) is a standard aimed to be a code of practice for protection of personally identifiable information (PII) in public clouds.
 
-## How can I ethically access genetic resources of another country?
+## How can you ethically access genetic resources of another country?
 
 ### Description
 
@@ -48,7 +48,7 @@ Article 3 of CBD clarifies, that states have sovereign rights over their own (bi
 
 ### Considerations
 
-* Since ABS regulations and Nagoya Protocol put high demands on documentation and is therefore time consuming, this legal aspect needs to be taken into account when planning a research project.
+* Since ABS regulations and Nagoya Protocol put high demands on documentation, this legal aspect is time consuming and therefore needs to be taken into account when planning the research project.
 * ABS is not relevant for all genetic resources. It applies only to resources that have been accessed from a provider country after October 12, 2014. Some genetic resources are explicitly excluded, like for example human genomes, some crops and some viruses. Moreover, there are countries who are party of the Nagoya Protocol, but have no ABS legislation in place.
 * If ABS is relevant to the project it should be part of the Data Management Plan.
 * You must comply with the Nagoya Protocol and other national legislation before accessing the genetic resources.
