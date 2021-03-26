@@ -6,7 +6,7 @@ tags: [collect, analyse, preserve, share, IT support]
 description: how to find appropriate storage solutions.
 ---
 
-## What features do I need in a storage solution when collecting data?
+## What features do you need in a storage solution when collecting data?
 ### Description
 Data storage is a problem that arises early on in a research project, since you will immediately need space to put your data when starting data collection or generation. Therefore, it is a good practice to think about storage solutions during the data management planning phase, and  request storage in advance and/or pay for it. The storage solution for your data should fulfill certain criteria (e.g. amount of space, access & transfer speed, duration of storage  etc), which should be discussed with the IT team. However, it can be difficult to identify and ask for the required features in advance.
 
@@ -17,7 +17,7 @@ When looking for solutions to store your data during the collection or generatio
 * It is a good practice to have a copy of the original raw data in a separate location, to keep it  untouched and unchanged (not editable). Use a different copy of the data for processing and analysis.
 * Knowing for how long the raw data, as well as data processing pipelines and analysis workflows need to be stored, especially after the end of the project, is also a relevant aspect for storage.
 * It is highly recommended to have metadata, such as an identifier and file description, associated with your data (see Metadata management page). This is useful if you want to retrieve the data years later or if your data needs to be shared with your colleagues for collaboration. Make sure to keep metadata together with the data or establish a clear link between data and metadata files.
-* In addition to the original “read-only” raw (meta)data files, you need storage for files used for data processing and analysis as well as the workflows/processes used to produce the data. For these, you should consider: 
+* In addition to the original “read-only” raw (meta)data files, you need storage for files used for data processing and analysis as well as the workflows/processes used to produce the data. For these, you should consider:
   * Who is allowed  to access the data (in case of collaborative projects), how do they expect to access the data and for what purpose.
   * Check if you have the rights to give access to the data, in case of legal limitations or third party rights (for instance, collaboration with industry).
   * Consult policy for data sharing outside the institute/country (see Compliance and Monitoring page).
@@ -27,7 +27,7 @@ When looking for solutions to store your data during the collection or generatio
 ### Solutions
 * Provide an estimate about the volume of your raw data (i.e., is it in the order of Megabytes, Gigabytes or Terabytes?) to the IT support in your institute when consulting for storage solutions.
 * Clarify if your data needs to be transferred from one location to another. Try to provide IT with as much information as possible about the system where the data will come from. See our Data Transfer page for additional information.
-* Ask for a storage solution that gives you easy and fast access to the data for processing and analysis. Explain to the IT support what machine or infrastructure you need to access the data from and if other researchers should have access as well (in case of collaborative projects). 
+* Ask for a storage solution that gives you easy and fast access to the data for processing and analysis. Explain to the IT support what machine or infrastructure you need to access the data from and if other researchers should have access as well (in case of collaborative projects).
 * Ask if the storage solution includes an automatic management of versioning, conflict resolution and back-tracing capabilities (see also our Data Organisation page).
 * Ask the IT support in your institute if they offer technical solutions to keep a copy of your (raw)data secure and untouched (snapshot, read-only access, backup…). You could also keep a copy of the original data file in a separate folder as “read-only”.
 * For small data files and private or collaborative projects within your institute, commonly accessible Cloud Storage is usually provided by the institute, such as NextCloud (on-premises), Microsoft OneDrive, DropBox, Box, etc. Do not use personal accounts on similar services for this purpose, adhere to the policies of your institute.
@@ -36,7 +36,7 @@ When looking for solutions to store your data during the collection or generatio
 
 
 
-## How to estimate computational resources for data processing and analysis?
+## How do you estimate computational resources for data processing and analysis?
 ### Description
 In order to process and analyse your data, you will need access to computational resources. This ranges from your laptop, over local compute clusters to High Performance Computing (HPC) infrastructures. However, it can be difficult to be able to estimate the amount of computational resource needed for a process or an analysis.
 
@@ -53,7 +53,7 @@ Below, you can find some aspects that you need to consider to be able to estimat
 * Try to estimate the volume of:
   * Raw data files necessary for the process/analysis.
   * Data files generated during the computational analysis as intermediate files.
-  * Results data files. 
+  * Results data files.
 * Communicate your expectations about speed and the reliability of connection between storage and compute to the IT team. This could depend on the communication protocols that the compute and storage systems use.
 * It is recommended to ask about the time span for analysis to colleagues or bioinformatic support that have done similar work before. This could save you money and time.
 * If you need some reference datasets (e.g the references genomes such as human genome.), ask IT if they provide it or consult  bioinformaticians that can set up automated public reference dataset retrieval.
@@ -62,7 +62,7 @@ Below, you can find some aspects that you need to consider to be able to estimat
 * For large data volume and bigger collaborative projects, you need a large storage volume on fast hardware that is closely tied to a computational resource accessible to multiple users.
 
 
-## Where should I store the data after the end of the project?
+## Where should you store the data after the end of the project?
 ### Description
 After the end of the project, all the relevant (meta)data (to guarantee reproducibility) should be preserved for a certain amount of time, that is usually defined by funders or institution policy. However, where to preserve data that are not needed for active processing or analysis anymore is a common question in data management.
 
@@ -83,4 +83,3 @@ After the end of the project, all the relevant (meta)data (to guarantee reproduc
 ## Relevant tools and resources
 
 {% include toollist.html tag="storage" %}
-

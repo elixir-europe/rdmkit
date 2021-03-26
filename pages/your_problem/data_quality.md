@@ -6,11 +6,11 @@ tags: [collect, process, researcher, data manager]
 description: ensure high quality research data.
 ---
 
-## How can research data quality be ensured?
+## How do you ensure the quality of research data?
 
 ### Description
 
-Quality is a key attribute of research data. Data quality affects the reliability of research results and it is a key factor increasing the reusability of data for secondary research. Data quality control can take place at any stage during the research data lifecycle. That said, you should ensure that the necessary procedures are defined during data management planning. 
+Quality is a key attribute of research data. Data quality affects the reliability of research results and it is a key factor increasing the reusability of data for secondary research. Data quality control can take place at any stage during the research data lifecycle. That said, you should ensure that the necessary procedures are defined during data management planning.
 
 
 ### Considerations
@@ -24,13 +24,13 @@ Examples of such measures are:
       * automated quality monitoring through tools, pipelines, dashboards,
       * training of study participants and researchers, surveyors or other staff involved,
       * adopting standards,
-      * instrument calibrations, 
-      * repeated samples, 
-      * post collection data curation, 
+      * instrument calibrations,
+      * repeated samples,
+      * post collection data curation,
       * data peer-review.
-  
+
   * Are there standards or established working practices for quality in your field of study? Certain areas such as clinical studies, or those involving Next Generation Sequencing have commonly working methods to ensure data quality.
-  
+
 
 ### Solutions
 
@@ -40,7 +40,7 @@ Examples of such measures are:
   * The U.S. National Institute's of Health's provides [introductory training material](https://oir.nih.gov/sites/default/files/uploads/sourcebook/documents/ethical_conduct/data_quality_management-2015_05_15.pdf) on data quality.
   * Bio.tools' listing for [computational tools and pipelines for data quality control in life sciences](https://bio.tools/t?page=1&q=quality&sort=score).
   * Data integration tools that include pre-defined building blocks to monitor and check data quality, such as [Pentaho Community Edition (CE)](https://wiki.pentaho.com/display/COM/Community+Edition+Downloads?desktop=true&macroName=ul), [Talend Open Studio](https://sourceforge.net/projects/talend-studio/).
-  * Data curation tools such as [OpenRefine](https://openrefine.org/) that help you to identify quality issues, correct (curate) them, carry out transformations in the collected data with easy-to-use graphic interface and visualisation. It also documents all the steps during the curation for reproducibility and backtracking. 
+  * Data curation tools such as [OpenRefine](https://openrefine.org/) that help you to identify quality issues, correct (curate) them, carry out transformations in the collected data with easy-to-use graphic interface and visualisation. It also documents all the steps during the curation for reproducibility and backtracking.
 
 ## Relevant tools and resources
 
