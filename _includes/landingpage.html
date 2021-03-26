@@ -15,7 +15,7 @@
 <div class="card mb-4">
   <div class="card-body">
     <h2 class="card-title no-anchor">{{folder.title}}</h2>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip .</p>
+    <p class="card-text">{{folder.description}}</p>
       
     <div class="ratio main_rdm">
       <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
@@ -34,7 +34,7 @@
     <div class="card h-100">
       <div class="card-body">
         <h2 class="card-title no-anchor">{{folder.title}}</h2>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip .</p>
+        <p class="card-text">{{folder.description}}</p>
           {%- if folder.title == "All tools and resources"%}
           <ul>
           <li><a href="{{folder.url | relative_url }}">All tools and resources page</a></li>
