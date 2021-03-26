@@ -1,5 +1,5 @@
 :root {
-    
+
     --primary-theme-color: #C23669;
     --secondairy-theme-color: #2a2e3d;
     --link-color: #376AC3;
@@ -628,6 +628,25 @@ footer .company-logo {
     margin: 0;
 }
 
+/* Switch to a two-column arrangement for medium-width screens */
+@media only screen and (min-width: 841px) and (max-width: 1100px){
+    #home-boxes {
+      padding-top: 2em;
+    }
+    .dropdown.col {
+        flex: 0 1 50%;
+        margin-top: 1em;
+    }
+    .dropdown-menu {
+        width: 98.5%;
+    }
+    /* Stop the last box going full-width */
+    .dropdown.col:last-child {
+      flex: 0 1 50%;
+    }
+}
+
+/* Switch to a single-column arrangement for mobiles */
 @media screen and (max-width: 840px) {
     .row {
         flex-direction: column;

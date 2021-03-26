@@ -39,7 +39,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             {%- else %}
             {%- if allowedtags[tag]["url"] %}
             {%- assign taglink = allowedtags[tag]["url"] %}
-            <a class="nohover" href="{{taglink}}"><span class="badge default-badge">{{tag}}</span></a>
+            <a class="nohover" href="{{taglink | relative_url }}"><span class="badge default-badge">{{tag}}</span></a>
             {%- else %}
             <span class="badge">{{tag}}</span>
             {%- endif %}

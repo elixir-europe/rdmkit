@@ -11,7 +11,7 @@ The marine metagenomics domain is characterized by large datasets that require a
 ## Managing marine metagenomic metadata
  
 ### Description
-Metagenomics is a highly complex process the encompasses several steps including: sampling, isolation of DNA, generation of sequencing libraries, sequencing, pre-processing of raw data, taxonomic and functional profiling using reads, assembly, binning, refinement of bins, generation of MAGs, taxonomic classification of MAGs, and archiving of raw or processed data. To comply with the FAIR principles, metadata needs to be collected about all these steps.
+Metagenomics is a highly complex process the encompasses several steps including: sampling, isolation of DNA, generation of sequencing libraries, sequencing, pre-processing of raw data, taxonomic and functional profiling using reads, assembly, binning, refinement of bins, generation of MAGs, taxonomic classification of MAGs, and archiving of raw or processed data. To comply with the FAIR principles, you need to collect metadata about all these steps.
 
 Moreover, in marine metagenomics, it is also necessary to characterize the marine environment of the sample, including geolocation, and the physico-chemical properties of the water.
 
@@ -19,15 +19,12 @@ Moreover, in marine metagenomics, it is also necessary to characterize the marin
 - As a starting point to get acquainted with the intricacies of reporting marine metagenomics experiments, the following publications are recommended reading: 
   - [The metagenomic data life-cycle: standards and best practices](https://doi.org/10.1093/gigascience/gix047) which describes the metagenomics data life-cycle in detail.
   - [Marine microbial biodiversity, bioinformatics and biotechnology (M2B3) data reporting and service standards](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4511511/), guided by marine microbial research, and providing clear examples and colour-coded illustrations.
-- Metadata standards that may apply to marine metagenomics data include:
-  - Minimum Information about any (x) Sequence (MIxS)
-  - Minimum Information about Metagenome Sequence (MIMS)
-  - Minimum Information About a Metagenome-Assembled Genome (MIMAG). 
+- Metadata standards that apply to marine metagenomics data are the [Genome Standards Consortium](https://gensc.org/) family of minimum information standards, including the core standard, [Minimum Information about any (x) Sequence (MIxS)](https://gensc.org/mixs/), the derived [Minimum Information about (Meta)genome Sequence (MIGS/MIMS)](http://wiki.gensc.org/index.php?title=MIGS/MIMS), and the also derived [Minimum Information About a Metagenome-Assembled Genome (MIMAG)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6436528/) that is presently only available as a scientific publication. 
 
 ## Tools and resources for analyzing metagenomics datasets
 
 ### Description
-The field of marine metagenomics has been in rapid expansion, with many statistical/computational tools and databases developed to explore the huge influx of data. Researchers in the field need to be able to choose between the multiple bioinformatics techniques, tools, and methodologies available for performing each step of a typical metagenomics  analysis, while ensuring that their choice conforms to the best practices for the domain. Moreover researchers need access to HPC facilities with capacity to execute the analysis and store the resulting data, and therefore should be aware of what computing infrastructures are available to them (and at what cost).
+The field of marine metagenomics has been in rapid expansion, with many statistical/computational tools and databases developed to explore the huge influx of data. You need to be able to choose between the multiple bioinformatics techniques, tools, and methodologies available for performing each step of a typical metagenomics  analysis, while ensuring that your choice conforms to the best practices for the domain. Moreover you need access to HPC facilities with capacity to execute the analysis and store the resulting data, and therefore should be aware of what computing infrastructures are available to you (and at what cost).
 
 ## Considerations 
 - Are there particular characteristics of your dataset that would restrict the choice of applicable tools?
@@ -46,3 +43,8 @@ The field of marine metagenomics has been in rapid expansion, with many statisti
 <!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
 
 {% include toollist.html tag="marine" %}
+
+## Training materials on marine metagenomics
+<!-- Link to Tess query -->
+
+{% include tess.html search="marine metagenomics" %}

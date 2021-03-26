@@ -27,8 +27,8 @@ For problems that are fully domain-specific, a detailed description is merited.
 For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges. --->
 The design for a system in microbial biotechnology essentially involves two, interrelated exercises. (i) The identification of the biological entities/hosts that will be used to develop the product in question (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. In some cases circuitry can be designed on its own, in a host independent manner, but at the time of writing this is still quite rare. Usually, the intended host context for a genetic system is specified beforehand. 
 
-<!---### Considerations <!--- (optional) --->
-<!---  Direct and concise considerations, structured in bullet points and typically framed as questions RDMKit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
+### Considerations <!--- (optional) --->
+<!---  Direct and concise considerations, structured in bullet points and typically framed as questions RDMkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
 
 
 <!---### Solutions--->

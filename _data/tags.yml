@@ -43,6 +43,8 @@ IDP:
   url: intrinsically_disordered_proteins.html
 struct info:
   url: structural_bioinformatics.html
+micro biotech:
+  url: microbial_biotechnology.html
 # Problem tags
 DMP:
   url: data_management_plan.html
