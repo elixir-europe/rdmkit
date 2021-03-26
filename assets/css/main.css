@@ -597,18 +597,19 @@ footer .company-logo {
     color: var(--white-text);
 }
 
-/* #home-boxes button::after {
+#home-boxes button::after {
     float: right;
     content: '+';
     font-size: 1.5em;
     line-height: 1;
     border: 0;
-} */
+    margin-left: 10px;
+} 
 
-/* #home-boxes button.focus::after {
+#home-boxes button.active::after {
     content: '-';
     line-height: 0.8em;
-} */
+}
 
 
 
@@ -758,7 +759,7 @@ footer .company-logo {
 }
 
 .ratio.main_rdm {
-    padding-bottom: 65%;
+    padding-bottom: 40%;
 }
 
 h2.card-title {
