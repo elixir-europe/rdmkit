@@ -1,0 +1,19 @@
+{%- if site.gtag %}
+<!-- START Bootstrap-Cookie-Alert -->
+<div class="alert text-center cookiealert" role="alert">
+    We use cookies to ensure you get the best experience on our website. 
+    <a href="{{ '/privacy.html' | relative_url}}">Click here</a> to read our privacy statement.
+    <button type="button" class="acceptcookies">
+        Got it!
+    </button>
+</div>
+<script>
+    /*
+     * Bootstrap Cookie Alert by Wruczek
+     * https://github.com/Wruczek/Bootstrap-Cookie-Alert
+     * Released under MIT license
+     */
+     !function(){"use strict";var n=document.querySelector(".cookiealert"),e=document.querySelector(".acceptcookies");n&&(n.offsetHeight,function(e){for(var t=e+"=",o=decodeURIComponent(document.cookie).split(";"),c=0;c<o.length;c++){for(var n=o[c];" "===n.charAt(0);)n=n.substring(1);if(0===n.indexOf(t))return n.substring(t.length,n.length)}return""}("acceptCookies")||n.classList.add("show"),e.addEventListener("click",function(){var e,t,o,c;e="acceptCookies",t=!0,o=365,(c=new Date).setTime(c.getTime()+24*o*60*60*1e3),c="expires="+c.toUTCString(),document.cookie=e+"="+t+";"+c+";path=/",n.classList.remove("show"),window.dispatchEvent(new Event("cookieAlertAccept"))}))}();
+</script>
+<!-- END Bootstrap-Cookie-Alert -->
+{%- endif %}

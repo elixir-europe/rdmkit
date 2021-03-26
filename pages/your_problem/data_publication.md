@@ -40,16 +40,12 @@ The most suitable repository will depend on the data type and your discipline.
   * What are the repository's policies concerning licences and data reuse?
 
 ### Solutions
-* Discipline-Specific Repositories
-If a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
+* Discipline-specific repositories: If a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
   * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
   * Lists of discipline-specific, community-recognised repositories can be found in the following links:
-    * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases).
-    * [Scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
-
-
-* General Purpose and Institutional repositories
-For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [General Purpose Repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your Institution or University.
+    * [ELIXIR Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases).
+    * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories).
+* General-purpose and institutional repositories: For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [general-purpose repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your institution or university.
 
 
 

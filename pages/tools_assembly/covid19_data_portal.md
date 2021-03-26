@@ -1,9 +1,11 @@
 ---
 title: COVID-19 Data Portal 
 contributors: [Marianna Ventouratou]
+keywords: [covid, data sharing, portal]
+tags: [share]
 ---
 
-## What is the COVID-19 Data Portal?
+## What is the European COVID-19 Data Portal?
 
 The European COVID-19 Data Platform was launched to facilitate the urgent need to share and analyse COVID-19 data and thus accelerate research that will provide responses and build solutions, such as vaccines, treatments and public health interventions. The Platform comprises three core components, the SARS-CoV-2 Data Hubs, the Federated European Genome-phenome Archive and the COVID-19 Data Portal. The COVID-19 Data Portal brings together and continuously updates relevant COVID-19 datasets from a breadth of analytical platforms. Data are submitted using the SARS-CoV-2 Data Hubs functions or via other major centres of biomedical data. The data available from the COVID-19 Data Portal cover raw and assembled viral and human sequences, protein structures, proteomics, gene and protein expression data, compound screening, metabolomics and imaging data; COVID-19-relevant literature publications and pre-prints are also integrated. The aim is to have a wide variety of open data from across the globe systematised and easily accessible to researchers following FAIR principles (Findable, Accessible, Interoperable and Reusable). The European COVID-19 Data Platform enables national data producers to share biomolecular data with the international scientific community, making these data available for reuse. Ultimately it aims to allow for rapid analysis and dissemination to inform research, public health and health communities and in an evidenced-based manner.
 
