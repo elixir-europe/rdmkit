@@ -15,7 +15,7 @@ In the event that no adequate Problem page exists for a problem that can be gene
 The Microbial Biotechnology domain is a very broad field that encompasses the application of microorganisms to the development of useful products and processes. As such, there are a very wide variety of experimental tools, approaches, and ultimately data, that arise in this field. A convenient representation of microbial biotechnology for organisational purposes is the stages of the engineering life cycle drawn from the related field of synthetic biology.
 
 ### Storing and Sharing Data and appropriate solutions
-Here, we adopt the stages of design, build, test and learn to categorise the various approaches available for the management of data in microbial biotechnology. There are important data standards to consider and various ways to manage, store and share data. Ultimately, the ideal scenario is that data is captured in a standard  format and then uploaded data to a repository to ensure that it is Findable, Accessible, Interoperable and Reusable (FAIR). However, for the biotechnology field data standards are still under development or missing completely.  Moreover, there are still gaps in database provision for some data types and the process of standardising and sharing the data arising from the learn component of synthetic biology studies has received very little attention to-date.
+Here, we adopt the stages of design, build, test and learn to categorise the various approaches available for the management of data in microbial biotechnology. There are important data standards to consider and various ways to manage, store and share data. Ultimately, the ideal scenario is that data is captured in a standard  format and then uploaded to a repository to ensure that it is Findable, Accessible, Interoperable and Reusable (FAIR). However, for the biotechnology field data standards are still under development or missing completely.  Moreover, there are still gaps in database provision for some data types and the process of standardising and sharing the data arising from the learn component of synthetic biology studies has received very little attention to-date.
  
 Due to the interdisciplinary nature of the field, data arising from studies in microbial biotechnology relate to both computational studies, such as modelling and simulation and the results of wet-lab based studies used for the construction and experimental characterisation of microbial systems. Given the breadth, scope and rapid development of the field of microbial biotechnology, this guide is by no means exhaustive.
 
@@ -31,13 +31,20 @@ The design for a system in microbial biotechnology essentially involves two, int
 <!---  Direct and concise considerations, structured in bullet points and typically framed as questions RDMKit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
 
 
-### Solutions
+<!---### Solutions--->
 <!--- Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. --->
 
-#### Biological hosts
 <!--- Add more sections as needed, with the same subsections as above. --->
-For microbial biotechnology, bacteria and fungi make up the vast majority of hosts used in the biotechnology industry. These organisms are either sourced from a culture collection, another lab, developed in house or isolated from nature. Hosts will need to be described accordingly to record information about their source and their taxonomy. 
 
+#### Biological hosts
+
+### Description
+For microbial biotechnology, bacteria and fungi make up the vast majority of hosts used in the biotechnology industry.
+
+### Considerations
+These organisms are either sourced from a culture collection, another lab, developed in house or isolated from nature. Hosts will need to be described accordingly to record information about their source and their taxonomy. 
+
+### Solutions
 Current data standards to capture this level of taxonomic and phenotypic data are still evolving, with notable work on the [Access to Biological Collection Data Schema](https://www.tdwg.org/standards/abcd/) and the activities of the [biodiversity information standards task force (TDWG)](https://www.tdwg.org/). The Darwin Core standard from the [TDWG](https://www.tdwg.org/) is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism. The [NCBI taxonomy homepage](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/) can also provide appropriate taxon IDs for recording taxonomic information. Information about proposed standardised nomenclature for prokaryotes can be found at the [List of Prokaryotic names with Standing in Nomenclature (LPSN)](https://lpsn.dsmz.de/) (Parte et al., 2020).
 
 For sharing information, databases such as the [Bacterial Diversity Metadatabase (Bacdive)](https://bacdive.dsmz.de), have arisen. Of course users can also deposit their strains and associated information in strain repository such as the [National Collection of Industrial, Food and Marine Bacteria (NCIMB)](https://www.ncimb.com/culture-collection/) or the [American Type Culture Collection (ATCC)](https://www.lgcstandards-atcc.org/?geo_country=gb) . There are also many organisations established for individual species of microorganisms, the [Bacillus Genetic Stock Centre (BGSC)](http://www.bgsc.org/) being one example. 
@@ -50,9 +57,14 @@ Nowadays the ultimate detailed specification of a host begins with its complete 
 
 #### Genetic parts, device and systems
 
+### Description
 When a host is unable to meet the requirements of a biotechnological project in its wild-type form then it can be engineered through the modification of its genome, through the introduction of new genetic circuitry or with a combination of both approaches. 
 
-As an example, the design of a simple synthetic device to express a protein from a simple transcriptional unit.  To design this genetic device requires the selection of appropriate genetic parts at the DNA level, namely: a promoter sequence, a ribosome binding site (RBS), a coding sequence (CDS)  and a terminator sequence. These sequences are characterised as parts which can be found with the assistance of various repositories such as the [iGEM Parts Registry](http://parts.igem.org/Main_Page), [The Joint BioEnergy Institute's Inventory of Composable Elements (JBEI-ICE)](https://ice.jbei.org) (Ham et al., 2012) and [SynBioHub](https://synbiohub.org), or isolated from standard genetic databases such as [ENA](https://www.ebi.ac.uk/ena/browser/home) and [GenBank](https://www.ncbi.nlm.nih.gov/genbank/). At this point it may be desirable to assert which host the designed device is intended to express in and also the intended method of replication in the host - for example, cloned on a particular plasmid or integrated in the host chromosome. 
+### Considerations
+As an example, the design of a simple synthetic device to express a protein from a simple transcriptional unit.  To design this genetic device requires the selection of appropriate genetic parts at the DNA level, namely: a promoter sequence, a ribosome binding site (RBS), a coding sequence (CDS)  and a terminator sequence.
+
+### Solutions
+These sequences are characterised as parts which can be found with the assistance of various repositories such as the [iGEM Parts Registry](http://parts.igem.org/Main_Page), [The Joint BioEnergy Institute's Inventory of Composable Elements (JBEI-ICE)](https://ice.jbei.org) (Ham et al., 2012) and [SynBioHub](https://synbiohub.org), or isolated from standard genetic databases such as [ENA](https://www.ebi.ac.uk/ena/browser/home) and [GenBank](https://www.ncbi.nlm.nih.gov/genbank/). At this point it may be desirable to assert which host the designed device is intended to express in and also the intended method of replication in the host - for example, cloned on a particular plasmid or integrated in the host chromosome.
 
 Much of the design stage is managed using genetic computer aided design tools, such as [Benchling](https://benchling.com) for example, where information can be shared within small teams. The data will be downloaded in a relevant format depending on its next application. [Benchling](https://benchling.com) supports a number of different data standards including FASTA, GenBank and SBOL1. Sometimes FASTA will be most relevant, for example when sending for DNA synthesis. Formats like GenBank, DICOM-SB ((Sainz de Murieta, Bultelle and Kitney, 2016) or SBOL may be more applicable for instances where more information, such as functional annotation, would be useful to be shared. SBOL 2.0 and higher allows more than just the genetics of a system to be captured and shared. Using SBOL allows interactions between components in the design to be specified, information about RNA and proteins can be included and the provenance of a design can also be captured. Experimental information relating to the test and build of a system can also be captured and shared. SBOL data can be made using tools such as [Benchling](https://benchling.com) (SBOL1 only), [SBOL Designer](https://sboldesigner.github.io/) (Zhang et al., 2017) and [ShortBOL](http://shortbol.org/) to name but a few. A more comprehensive list of SBOL tools is available [here](https://sbolstandard.org/).
 
@@ -64,13 +76,27 @@ Platforms such as [SEEK](https://fair-dom.org/platform/seek/) built on technolog
 
 #### Metabolic engineering designs and enzyme data
 
-One of the most common tasks in microbial biotechnology is the use of microorganisms for the production of small molecules, fine chemicals, vitamins etc. The data sharing approaches outlined above are suitable for organisms that are not genetically modified. For those organisms that are then the genomic modifications can be recorded as described above and the constructs used for the expression of heterologous enzymes and their pathways can also be captured in the same way as the genetic parts and devices discussed above. SBOL allows information about the enzymes and the metabolic pathways to be captured in the design document and so this is a viable approach for sharing more than just the genetics of the system. Databases such as SBOLME (Kuwahara et al., 2017) or [SynBioHub](https://synbiohub.org) can be used to share the data. 
+### Description
+One of the most common tasks in microbial biotechnology is the use of microorganisms for the production of small molecules, fine chemicals, vitamins etc.
+
+### Considerations
+The data sharing approaches outlined above are suitable for organisms that are not genetically modified. For those organisms that are then the genomic modifications can be recorded as described above and the constructs used for the expression of heterologous enzymes and their pathways can also be captured in the same way as the genetic parts and devices discussed above.
+
+### Solutions
+SBOL allows information about the enzymes and the metabolic pathways to be captured in the design document and so this is a viable approach for sharing more than just the genetics of the system. Databases such as SBOLME (Kuwahara et al., 2017) or [SynBioHub](https://synbiohub.org) can be used to share the data. 
 
 Metabolite information can also be submitted to, or referred to in, [ChEBI](https://www.ebi.ac.uk/chebi/). Enzymes can be assigned EC numbers, according to the guidance from the [International Union of Biochemistry and Molecular Biology (IUBMB)](https://www.qmul.ac.uk/sbcs/iubmb/), to indicate their function and an entry made in the [BRaunschweig ENzyme DAtabase](https://www.brenda-enzymes.org/) (BRENDA). More generally, the [IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN)](https://www.qmul.ac.uk/sbcs/iupac/jcbn/) encourages the communication of biochemical information using generally understood terminology.
 
 #### Model based designs
 
-Increasingly mathematical models are built to test the design for a system before it is built. This approach is termed model-based design. Models can be developed and shared to illustrate how a system is supposed to operate. Perhaps the most common example of this approach is in metabolic engineering where whole genome metabolic models can be developed that can be simulated to understand the production of a key metabolite under a particular growth regime. [Systems Biology Markup Language (SBML)](http://sbml.org/Main_Page) is a popular standardised format for sharing mathematical models for which a variety of tools are available for model building. Models can be shared in model repositories such as [biomodels](https://www.ebi.ac.uk/biomodels/).  SBOL can also be used to associate a genetic design with its corresponding model. More generally, the [COmputational Modeling in BIology NEtwork (COMBINE)](http://co.mbine.org/), provides a platform for coordinating standardisation of models in biology. 
+### Description
+Increasingly mathematical models are built to test the design for a system before it is built. This approach is termed model-based design.
+
+### Considerations
+Models can be developed and shared to illustrate how a system is supposed to operate. Perhaps the most common example of this approach is in metabolic engineering where whole genome metabolic models can be developed that can be simulated to understand the production of a key metabolite under a particular growth regime.
+
+### Solutions
+[Systems Biology Markup Language (SBML)](http://sbml.org/Main_Page) is a popular standardised format for sharing mathematical models for which a variety of tools are available for model building. Models can be shared in model repositories such as [biomodels](https://www.ebi.ac.uk/biomodels/).  SBOL can also be used to associate a genetic design with its corresponding model. More generally, the [COmputational Modeling in BIology NEtwork (COMBINE)](http://co.mbine.org/), provides a platform for coordinating standardisation of models in biology. 
 
 ## Build
 
@@ -94,7 +120,10 @@ In the case of DNA assembly, these approaches include standard restriction enzym
 
 ### Description
 
-The test phase of a biotechnological study is the most variable in terms of the types of data produced. The types of experiments carried out to test a microbial system are highly dependent on the intended function of the system under construction. Some common approaches include at the simplest level, characterising the growth of an organism at various scales in different growth regimes and assaying the production of desired product. 
+The test phase of a biotechnological study is the most variable in terms of the types of data produced. The types of experiments carried out to test a microbial system are highly dependent on the intended function of the system under construction. 
+
+### Considerations
+Some common approaches include at the simplest level, characterising the growth of an organism at various scales in different growth regimes and assaying the production of desired product.
 
 ### Solutions
 
