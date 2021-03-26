@@ -34,15 +34,11 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 
 
 ### Solutions
-* Repositories - There’s a long (and incomplete) list of repositories available for this, that can be divided in two main branches: 
-  * Generic: Repositories that can be used to store any kind of data. 
-    * [Zenodo](https://zenodo.org/)
-    * [FigShare](https://figshare.com/)
-    * [Mendeley data](https://data.mendeley.com/)
-    * [DataDryad](https://datadryad.org/)
-    * [OpenScienceFramework](https://osf.io/)
-  * Specific: Repositories and databases designed to store specific data (e.g. MD data). 
-    * Molecular Dynamics repositories - allow storage of user data
+
+* Deposit your data to a suitable repository for sharing. There’s a long (and incomplete) list of repositories available for data sharing. Repositories are divided into two main categories, *general-purpose* and *discipline-specific*, and both categories are utilised in the domain of biomolecular modeling and simulation. For a general introduction to repositories, you are advised to read the [data publication](data_publication) page.
+  * General-purpose repositories such as [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Mendeley Data](https://data.mendeley.com/), [DataDryad](https://datadryad.org/), and [OpenScienceFramework](https://osf.io/) can be used.
+  * Discipline-specific repositories can be used when the repository supports the type of data to be shared e.g. molecular dynamics data. Repositories for various data types and models are listed below: 
+    * Molecular Dynamics repositories
       * [GPCRmd](http://gpcrmd.org/) - for GPCR protein simulations, [with submission process](https://submission.gpcrmd.org/accounts/login/?next=/accounts/memberpage/).
       * [MoDEL](http://mmb.irbbarcelona.org/MoDEL/) - (https://bio.tools/model) specific database for protein MD simulations. 
       * [BigNASim](http://mmb.irbbarcelona.org/BigNASim/) - (https://bio.tools/bignasim) specific database for Nucleic Acids MD simulations, [with submission process](https://github.com/NMRLipids).
@@ -68,9 +64,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
        * [MolMeDB](https://molmedb.upol.cz/) - for molecule-membrane interactions and free energy profiles, [with submission process](mailto:molmedb@upol.cz).  
        * [ChannelsDB](https://webchemdev.ncbr.muni.cz/ChannelsDB/index.html) - resource of channels, pores and tunnels found in biomacromolecules, [with submission process](https://webchemdev.ncbr.muni.cz/ChannelsDB/contribute.html).
 
-* Type of Data to be Shared
-  * Unfortunately, there is yet to be concluded what data and metadata should be store by the community. 
-  * Here are some suggested examples of types of essential and optional data describing the biomolecular simulation data: 
+* Based on the type of data to be shared, pay attention to what should be included and the data and metadata that will be deposited to repositories. Below listed are some suggested examples of types of essential and optional data describing the biomolecular simulation data: 
     * Molecular Dynamics:
       * Essentials:
         * Metadata (Temperature, pressure, program, version, …)
@@ -97,8 +91,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
         * Values (Free energy values, channels, etc.)
       * Optionals:
         * Link to Trajectory (Dynamic PDB?)
-* Data Licenses:
-  * There’s a list of [datasets licenses available that you can find here](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets). They mainly differ on openness vs restrictiveness. Read carefully to understand the differences and apply the one you think your data should have before distributing them.  
+* Associate a license with the data and/or source code e.g. models. Licenses mainly differ on openness vs restrictiveness, and it is crucial to understand the differences among licenses before sharing your research outputs. The RDMkit [licensing](licensing) page lists resources that can help you understand licensing and choose an appropriate license.  
 
 ### Related problems
 * File formats

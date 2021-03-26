@@ -1,10 +1,10 @@
 url: rdmkit.elixir-europe.org
 repository: elixir-europe/rdmkit
 
-topnav_title: RDMKit
+topnav_title: RDMkit
 # this appears on the top navigation bar next to the home button
 
-site_title: RDMKit
+site_title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ELIXIR Converge
@@ -22,13 +22,17 @@ host: 127.0.0.1
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
+gtag: G-RXQ55EFTTH
+# Google analytics tag
+
 exclude:
   - .gitignore
   - CODEOWNERS
   - var/
   - README.md
+  - vendor
 
-feedback_subject_line: RDMKit feedback
+feedback_subject_line: RDMkit feedback
 
 contact_email: rdm-editors@elixir-europe.org
 # used as a contact email for the Feedback link in the top navigation bar

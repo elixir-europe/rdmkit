@@ -2,7 +2,7 @@ import os
 import re
 
 pagesdir = 'pages'
-white_list= ['Google', 'Research Data Management Kit', 'Data Management Plan', 'Data Management Planning', 'DMP', 'RDMKit', 'I ', 'NeLS', 'ELIXIR', 'GitHub']
+white_list= ['Google', 'Research Data Management Kit', 'Data Management Plan', 'Data Management Planning', 'DMP', 'RDMkit', 'I ', 'NeLS', 'ELIXIR', 'GitHub']
 
 for subdir, dirs, files in os.walk(pagesdir):
     for file_name in files:

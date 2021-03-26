@@ -52,7 +52,8 @@ This depends on what rights protect your research data. Which licence to choose 
   * The [video tutorial from Kingsborough E-Learning](https://www.youtube.com/watch?v=5QxkuuiZwRU) shows how to add a Creative Commons licence to your work in practice.
 * The following tools helps you find the right licence for your software and data:
   * [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/)
-  * [Choose a license](https://choosealicense.com)
+  * [Choose a license](https://choosealicense.com) is an online guide provided by GitHub to help you choose a license for open-source projects.
+  * [data.world](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets) provides list of common license types for datasets.
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
 
 

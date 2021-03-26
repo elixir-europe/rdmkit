@@ -3,7 +3,7 @@ title: Style guide
 sidebar: contribute
 ---
 
-In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines). Below are the points that you might find most useful, though, and that relate particularly to the RDMKit.
+In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines). Below are the points that you might find most useful, though, and that relate particularly to the RDMkit.
 
 ## General style and tone
   * Keep the tone friendly rather than formal, and use "you". Imagine you were explaining something verbally to someone - how would you say it?

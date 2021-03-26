@@ -1,5 +1,4 @@
 :root {
-    
     --primary-theme-color: #C23669;
     --secondairy-theme-color: #2a2e3d;
     --link-color: #376AC3;
@@ -96,6 +95,7 @@ hr {
     color: var(--white-text);
     background: var(--primary-theme-color);
 }
+
 /* End - Selection color */
 
 .post-content ol li, .post-content ul li {
@@ -218,7 +218,7 @@ ul#results-container li {
 
 ul#results-container li a {
     color: var(--main-text-color);
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     padding: 7px 11px;
     text-decoration: none;
     display: block;
@@ -454,7 +454,7 @@ footer {
 
 footer a {
     color: var(--footer-color);
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     font-weight: bold;
     text-decoration: none;
 }
@@ -495,7 +495,7 @@ footer .company-logo {
 
 .social-icons a {
     background-color: var(--main-bg-color);
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     color: var(--primary-theme-color);
     font-size: 16px;
     display: inline-block;
@@ -583,7 +583,7 @@ footer .company-logo {
 
 #home-boxes a {
     width: 100%;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     text-align: left;
     color: var(--white-text);
     background-color: var(--hover-grey);
@@ -627,6 +627,27 @@ footer .company-logo {
 .dropdown .dropdown-menu li {
     margin: 0;
 }
+
+/* Switch to a two-column arrangement for medium-width screens */
+
+@media only screen and (min-width: 841px) and (max-width: 1100px) {
+    #home-boxes {
+        padding-top: 2em;
+    }
+    .dropdown.col {
+        flex: 0 1 50%;
+        margin-top: 1em;
+    }
+    .dropdown-menu {
+        width: 98.5%;
+    }
+    /* Stop the last box going full-width */
+    .dropdown.col:last-child {
+        flex: 0 1 50%;
+    }
+}
+
+/* Switch to a single-column arrangement for mobiles */
 
 @media screen and (max-width: 840px) {
     .row {
@@ -769,7 +790,7 @@ footer .company-logo {
 
 .TeSS-button a {
     padding: 16px;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     border-radius: 4px;
     background-color: var(--hover-grey);
     text-decoration: none;
@@ -809,4 +830,55 @@ footer .company-logo {
     .ratio.main_rdm {
         padding-bottom: 30%;
     }
+}
+
+/* ----- Cookie consent ----- */
+
+.cookiealert {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    color: var(--footer-color);
+    background: var(--footer-bg);
+    border-radius: 0;
+}
+
+.cookiealert.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+.cookiealert .acceptcookies {
+    margin-left: 10px;
+    vertical-align: baseline;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    background-color: var(--light-grey);
+    padding: 7px 11px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.cookiealert .acceptcookies:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
+}
+
+.cookiealert a {
+    color: var(--footer-color);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cookiealert a:hover {
+    color: var(--primary-theme-color);
 }

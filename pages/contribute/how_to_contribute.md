@@ -1,5 +1,5 @@
 ---
-title: How to contribute to the RDMKit website
+title: How to contribute to the RDMkit website
 sidebar: contribute
 toc: false
 ---
