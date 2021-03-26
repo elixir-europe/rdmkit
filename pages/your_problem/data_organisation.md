@@ -7,7 +7,7 @@ description: best practices to name and organise research data.
 ---
 
 ## What is the best way to name a file?
- 
+
 ### Description
 
 Brief and descriptive file names are important in keeping your data files organized. A file name is the principal identifier for a file and a good name gives information what the file contains and helps in sorting them, but only if you have been consistent with the naming.
@@ -25,9 +25,9 @@ Brief and descriptive file names are important in keeping your data files organi
 * Use meaningful abbreviations.
 * Use underscore (_), hypen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
 * Use date format ISO8601: YYYYMMDD, and time if needed HHMMSS.
-* Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly. 
+* Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.
 * Write your file naming convention down and explain abbreviations in your data documentation.
-* If you need to rename a lot files in order to organize your project data and manage the files easier, it is possible use applications e.g. [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free), [Renamer4Mac](https://renamer.com/) (Mac). 
+* If you need to rename a lot files in order to organize your project data and manage the files easier, it is possible use applications e.g. [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free), [Renamer4Mac](https://renamer.com/) (Mac).
 
 #### Example elements to include in the name
 * Date of creation
@@ -46,7 +46,7 @@ Brief and descriptive file names are important in keeping your data files organi
   * 20201203_MM_HEAD_CROPPED_V1.psd
   * Explanation: Time_creator_data type_modification_version
 
-## How to manage file versioning?
+## How do you manage file versioning?
 
 ### Description
 File versioning is a way to keep track of changes made to files and datasets. While the implementation of a good file naming convention will indicate that different versions exist, this will not explain the difference between two (or more) versions. File versioning will enable transparency on which actions and changes were made when, and it will be easier to backtrack and find something that was present in a previous version, but which has later been deleted or changed.
@@ -61,7 +61,7 @@ File versioning is a way to keep track of changes made to files and datasets. Wh
 * For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as [Git](https://git-scm.com/), hosted by e.g. [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
 
 
-## How to organise files in a folder structure?
+## How do you organise files in a folder structure?
 
 ### Description
 A carefully planned folder structure, with intelligible folder names and an intuitive design, is the foundation for good data organisation. The folder structure gives an overview of which information can be found where, enabling present as well as future stakeholders to understand what files have been produced in the project.
@@ -96,7 +96,7 @@ The top folder should have a README.txt file describing the folder structure and
          tables/  
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
-      
+
 
 ## Relevant tools and resources
 
