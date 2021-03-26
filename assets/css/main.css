@@ -581,10 +581,8 @@ footer .company-logo {
     margin-bottom: 3em;
 }
 
-#home-boxes a {
-    width: 100%;
+#home-boxes button {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    text-align: left;
     background-color: var(--light-grey);
     padding: 7px 11px;
     border-radius: 4px;
