@@ -6,7 +6,7 @@ Markus Englund, Vera Ortseifen]
 description: measure compliance to data management regulations and standards.
 ---
 
-## How can data management capabilities be measured and documented?
+## How can you measure and document data management capabilities?
 
 ### Description
 
@@ -32,7 +32,7 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 * Information Security, Data Protection, Accountability
   *  [21 CFR part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) is a standard, which outlines criteria for electronic records in an IT system to be as valid as signed paper
 records. It is widely adopted in lab information systems and applications used in clinical trials and medical research.
-  *  [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres. 
+  *  [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres.
   *  [ISO/IEC 27018](http://data-reuse.eu/wp-content/uploads/2017/02/ISO-Standards.pdf) is a standard aimed to be a code of practice for protection of personally identifiable information (PII) in public clouds.
 
 ## How can I ethically access genetic resources of another country?
