@@ -252,14 +252,27 @@ figcaption {
 
 /*-----Sidebar-----*/
 
+@media (min-width: 992px) {
+    #side-nav {
+        display: block !important;
+    }
+}
+
+.sidebar-collapse {
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    text-align: left;
+    color: var(--white-text);
+    background-color: var(--hover-grey);
+    padding: 7px 11px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 0;
+} 
+
 .sidebarTitle {
     margin: 11px 0px;
     font-weight: 800;
     font-size: 1.3em;
-}
-
-.container-menu li {
-    list-style: none;
 }
 
 .container-menu li a {
@@ -860,7 +873,7 @@ footer .company-logo {
 .cookiealert .acceptcookies {
     margin-left: 10px;
     vertical-align: baseline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color: var(--light-grey);
     padding: 7px 11px;
     border-radius: 4px;
