@@ -258,17 +258,6 @@ figcaption {
     }
 }
 
-.sidebar-collapse {
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    text-align: left;
-    color: var(--white-text);
-    background-color: var(--hover-grey);
-    padding: 7px 11px;
-    text-decoration: none;
-    border-radius: 4px;
-    border: 0;
-} 
-
 .sidebarTitle {
     margin: 11px 0px;
     font-weight: 800;
