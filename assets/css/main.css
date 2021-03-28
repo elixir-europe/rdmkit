@@ -750,12 +750,20 @@ footer .company-logo {
 
 /*-----RDM wheel frontpage-----*/
 
-.centered {
-    text-align: center;
+.ratio.main_rdm {
+    padding-bottom: 100%;
 }
 
-.ratio.main_rdm {
-    padding-bottom: 40%;
+@media (min-width: 576px) {
+    .ratio.main_rdm {
+        padding-bottom: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ratio.main_rdm {
+        padding-bottom: 40%;
+    }
 }
 
 h2.card-title {
