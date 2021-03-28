@@ -151,7 +151,6 @@ pre code {
 /*-----Top navigation-----*/
 
 .navbar {
-    margin-bottom: 40px;
     background-color: var(--nav-bg);
 }
 
@@ -256,6 +255,26 @@ figcaption {
     #side-nav {
         display: block !important;
     }
+}
+
+.sidebar-collapse {
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    width: 100%;
+    padding: 7px 11px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-align: left;
+} 
+
+.sidebar-collapse i {
+    font-size: 1.25rem;
+    float: right;
+    line-height: 1.25em;
+}
+
+.sidebar-collapse:hover, .sidebar-collapse:not(.collapsed) {
+    color: var(--nav-color);
+    background-color: var(--nav-bg);
 }
 
 .sidebarTitle {

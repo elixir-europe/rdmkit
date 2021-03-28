@@ -6,9 +6,10 @@
 {%- capture planning -%}{%- if page.url == "/planning.html" -%}st5{%- else -%}st15{%- endif -%}{%- endcapture -%}
 {%- capture collecting -%}{%- if page.url == "/collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
 {%- capture sharing -%}{%- if page.url == "/sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
-<button class="d-lg-none collapsed navbar-toggler mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
-    <i title="navbar-toggler" class="fa fa-bars"></i> Sidebar
+<button class="d-lg-none collapsed sidebar-collapse mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
+    Main menu <i title="navbar-toggler" class="fa fa-bars ms-2"></i>
 </button>
+
 <div class="collapse" id="side-nav" aria-label="Side navigation">
     <ul id="menu" class="menu list-unstyled mb-4 mb-lg-0">
         {% if sidebar.title or sidebar.version %}
