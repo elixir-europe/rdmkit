@@ -60,7 +60,7 @@ subitems:
     url: /all_tools_and_resources.html
     hr: True
   - title: Tools assembly
-    description: See how others assembles RDM tools.
+    description: See how others assemble RDM tools.
     hr: True
     subitems:
       - title: NeLS
