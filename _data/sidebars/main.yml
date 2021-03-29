@@ -56,11 +56,11 @@ subitems:
         url: /sensitive_data.html
 
   - title: All tools and resources
-    description: See how others assembles RDM tools.
+    description: Browse all tools and resources mentioned on this site.
     url: /all_tools_and_resources.html
     hr: True
   - title: Tools assembly
-    description: Browse all tools and resources mentioned on this site.
+    description: See how others assembles RDM tools.
     hr: True
     subitems:
       - title: NeLS
