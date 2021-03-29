@@ -75,5 +75,40 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * First word and acronyms capitalised.
   * Should contain the same words as the filename where this title points to. 
 
+## RDMkit logo flavours in png and vector (svg)
+
+* RDMkit logo horizontal
+
+  <p>
+    <img src="assets/img/RDMkit_logo.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" /> 
+      [<a href="assets/img/RDMkit_logo.svg">svg</a>]
+      [<a href="assets/img/RDMkit_logo.png">png</a>]
+  </p>
+
+* RDMkit logo horizontal inverted
+
+  <p>
+    <img src="assets/img/RDMkit_logo_inverted.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
+      [<a href="assets/img/RDMkit_logo_inverted.svg">svg</a>]
+      [<a href="assets/img/RDMkit_logo_inverted.png">png</a>]
+  </p>
+
+* RDMkit logo condensed
+
+  <p>
+    <img src="assets/img/RDMkit_logo_condensed.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
+      [<a href="assets/img/RDMkit_logo_condensed.svg">svg</a>]
+      [<a href="assets/img/RDMkit_logo_condensed.png">png</a>]
+  </p>
+
+* RDMkit logo condensed inverted
+
+  <p>
+    <img src="assets/img/RDMkit_logo_condensed_inverted.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
+      [<a href="assets/img/RDMkit_logo_condensed_inverted.svg">svg</a>]
+      [<a href="assets/img/RDMkit_logo_condensed_inverted.png">png</a>]
+  </p>
+
+
 ## How to suggest amendments or additions to this style guide
 [Open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](how_to_contribute).
