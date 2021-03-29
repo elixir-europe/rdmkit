@@ -294,7 +294,7 @@ figcaption {
     padding-left: 60px;
 }
 
-.menu ul li.active a {
+.menu li.active:not(.parent)>a {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
@@ -577,92 +577,61 @@ footer .company-logo {
 
 /* ----- Home dropdown boxes ------ */
 
-#home-boxes {
-    margin-bottom: 3em;
+.home-cards .card {
+    min-height: 9.5em;
 }
 
-#home-boxes a {
-    width: 100%;
+h2.card-title {
+    margin: 0 0 0.5rem 0;
+}
+
+/*-----RDM wheel frontpage-----*/
+
+.ratio.main_rdm {
+    padding-bottom: 100%;
+}
+
+@media (min-width: 576px) {
+    .ratio.main_rdm {
+        padding-bottom: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ratio.main_rdm {
+        padding-bottom: 35%;
+    }
+}
+
+/* Custom buttons */
+
+.btn-custom {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    text-align: left;
-    color: var(--white-text);
-    background-color: var(--hover-grey);
-    display: block;
+    background-color: var(--light-grey);
     padding: 7px 11px;
-    text-decoration: none;
     border-radius: 4px;
+    text-align: left;
+    border: 0;
 }
 
-#home-boxes a:hover {
+.btn-custom:hover {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
 
-#home-boxes .dropdown-toggle::after {
+.btn-custom.plus::after {
     float: right;
     content: '+';
     font-size: 1.5em;
+    min-width: 0.6em;
     line-height: 1;
-    border: 0;
+    margin-left: 10px;
 }
 
-#home-boxes ul li a {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
-}
-
-#home-boxes .dropdown-toggle.show::after {
+.btn-custom.plus:not(.collapsed)::after {
     content: '-';
     line-height: 0.8em;
 }
-
-.dropdown-menu {
-    max-height: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    box-shadow: 0px 8px 10px rgba(70, 70, 70, 0.5);
-    width: 15em;
-}
-
-.dropdown .dropdown-menu li {
-    margin: 0;
-}
-
-/* Switch to a two-column arrangement for medium-width screens */
-
-@media only screen and (min-width: 841px) and (max-width: 1100px) {
-    #home-boxes {
-        padding-top: 2em;
-    }
-    .dropdown.col {
-        flex: 0 1 50%;
-        margin-top: 1em;
-    }
-    .dropdown-menu {
-        width: 98.5%;
-    }
-    /* Stop the last box going full-width */
-    .dropdown.col:last-child {
-        flex: 0 1 50%;
-    }
-}
-
-/* Switch to a single-column arrangement for mobiles */
-
-@media screen and (max-width: 840px) {
-    .row {
-        flex-direction: column;
-    }
-    .dropdown.col {
-        width: 100%;
-        margin: .5em 0
-    }
-    .dropdown-menu {
-        width: 100%;
-    }
-}
-
-/* End home dropdown boxes */
 
 /*-----Contributors carousel homepage-----*/
 
@@ -803,35 +772,6 @@ footer .company-logo {
     color: var(--white-text);
 }
 
-/*-----RDM wheel frontpage-----*/
-
-.centered {
-    text-align: center;
-}
-
-.ratio.main_rdm {
-    padding-bottom: 65%;
-    margin-bottom: 3em;
-}
-
-@media only screen and (min-width: 500px) {
-    .ratio.main_rdm {
-        padding-bottom: 55%;
-    }
-}
-
-@media (min-width: 992px) {
-    .ratio.main_rdm {
-        padding-bottom: 42%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .ratio.main_rdm {
-        padding-bottom: 30%;
-    }
-}
-
 /* ----- Cookie consent ----- */
 
 .cookiealert {
@@ -860,7 +800,7 @@ footer .company-logo {
 .cookiealert .acceptcookies {
     margin-left: 10px;
     vertical-align: baseline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color: var(--light-grey);
     padding: 7px 11px;
     border-radius: 4px;
