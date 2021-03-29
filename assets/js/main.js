@@ -25,22 +25,22 @@ function external_new_window() {
  * Settings for side navigation
  */
 $(document).ready(function () {
-    // Initialize navgoco with default options
-    $("#menu").navgoco({
-        caretHtml: '',
-        accordion: true,
-        openClass: 'active', // open
-        save: false, // leave false or nav highlighting doesn't work right
-        cookie: {
-            name: 'navgoco',
-            expires: false,
-            path: '/'
-        },
-        slide: {
-            duration: 400,
-            easing: 'swing'
-        }
-    });
+  // Initialize navgoco with default options
+  $("#menu").navgoco({
+    caretHtml: '',
+    accordion: true,
+    openClass: 'active', // open
+    save: false, // leave false or nav highlighting doesn't work right
+    cookie: {
+      name: 'navgoco',
+      expires: false,
+      path: '/'
+    },
+    slide: {
+      duration: 400,
+      easing: 'swing'
+    }
+  });
 });
 
 /**
@@ -48,12 +48,22 @@ $(document).ready(function () {
  */
 
 $(function () {
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl, {
-    animation: false
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl, {
+      animation: false
+    })
   })
 })
-})
 
-
+/**
+ * Toggle home button texts
+ */
+ jQuery(function ($) {
+  $('.toggle-text[data-bs-toggle="collapse"]').on('click', function () {
+      $(this)
+      .data('text-original', $(this).text())
+      .text($(this).data('text-alt'))
+      .data('text-alt', $(this).data('text-original'));
+  });
+});

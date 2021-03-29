@@ -610,10 +610,11 @@ h2.card-title {
     background-color: var(--light-grey);
     padding: 7px 11px;
     border-radius: 4px;
-    border: 0px;
+    text-align: left;
+    border: 0;
 }
 
-.btn-custom:hover, .btn-custom:not(.collapsed) {
+.btn-custom:hover {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
@@ -622,8 +623,8 @@ h2.card-title {
     float: right;
     content: '+';
     font-size: 1.5em;
+    min-width: 0.6em;
     line-height: 1;
-    border: 0;
     margin-left: 10px;
 }
 
