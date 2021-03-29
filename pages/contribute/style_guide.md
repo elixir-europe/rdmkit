@@ -45,11 +45,11 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Colours:** <br />
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
     * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram.
-    * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (<h2>), Main theme colour |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #376AC3 | Blue | Link colour |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #2a2e3d | Dark blue | First level headings (<h1>), Third level heading (<h3>), Body text, Header, Footer |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #83858e | Gray | Gray text, Fourth level heading (<h4>) |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
+    * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;' | relative_url }}"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (<h2>), Main theme colour |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;' | relative_url }}"></span> | #376AC3 | Blue | Link colour |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;' | relative_url }}"></span> | #2a2e3d | Dark blue | First level headings (<h1>), Third level heading (<h3>), Body text, Header, Footer |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;' | relative_url }}"></span> | #83858e | Gray | Gray text, Fourth level heading (<h4>) |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;' | relative_url }}"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. (To do: agreed styles for boxes, arrows, and icons for things like users and databases.)
@@ -80,33 +80,33 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 * RDMkit logo horizontal
 
   <p>
-    <img src="assets/img/RDMkit_logo.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" /> 
-      [<a href="assets/img/RDMkit_logo.svg">svg</a>]
-      [<a href="assets/img/RDMkit_logo.png">png</a>]
+    <img src="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}" style="max-width: 20%; max-height: 5em; vertical-align: middle" /> 
+      [<a href="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}">svg</a>]
+      [<a href="{{ 'assets/img/RDMkit_logo.png' | relative_url }}">png</a>]
   </p>
 
 * RDMkit logo horizontal inverted
 
   <p>
-    <img src="assets/img/RDMkit_logo_inverted.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
-      [<a href="assets/img/RDMkit_logo_inverted.svg">svg</a>]
-      [<a href="assets/img/RDMkit_logo_inverted.png">png</a>]
+    <img src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
+      [<a href="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}">svg</a>]
+      [<a href="{{ 'assets/img/RDMkit_logo_inverted.png' | relative_url }}">png</a>]
   </p>
 
 * RDMkit logo condensed
 
   <p>
-    <img src="assets/img/RDMkit_logo_condensed.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
-      [<a href="assets/img/RDMkit_logo_condensed.svg">svg</a>]
-      [<a href="assets/img/RDMkit_logo_condensed.png">png</a>]
+    <img src="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
+      [<a href="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}">svg</a>]
+      [<a href="{{ 'assets/img/RDMkit_logo_condensed.png' | relative_url }}">png</a>]
   </p>
 
 * RDMkit logo condensed inverted
 
   <p>
-    <img src="assets/img/RDMkit_logo_condensed_inverted.svg" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
-      [<a href="assets/img/RDMkit_logo_condensed_inverted.svg">svg</a>]
-      [<a href="assets/img/RDMkit_logo_condensed_inverted.png">png</a>]
+    <img src="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}" style="max-width: 20%; max-height: 5em; vertical-align: middle" />
+      [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}">svg</a>]
+      [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.png' | relative_url }}">png</a>]
   </p>
 
 
