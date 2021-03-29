@@ -1,10 +1,10 @@
 subitems:
   - title: Data life cycle
-    description: Find resources for each stage of the RDM life cycle
+    description: Find resources for each stage by clicking on the RDM data lifecycle.
     subitems:
       - RDM: True
   - title: Your role
-    description: Find resources relevant to your role
+    description: Find resources relevant to your role.
     subitems:
       - title: Researcher
         url: /researcher.html
@@ -15,7 +15,7 @@ subitems:
       - title: Data steward infrastructure
         url: /data_steward_infrastructure.html
   - title: Your domain
-    description: Find guidelines for your domain or discipline
+    description: Find guidelines for your domain or discipline.
     subitems:
       - title: Plant sciences
         url: /plant_sciences.html
