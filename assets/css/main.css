@@ -581,6 +581,28 @@ footer .company-logo {
     margin-bottom: 3em;
 }
 
+h2.card-title {
+    margin: 0 0 0.5rem 0;
+}
+
+/*-----RDM wheel frontpage-----*/
+
+.ratio.main_rdm {
+    padding-bottom: 100%;
+}
+
+@media (min-width: 576px) {
+    .ratio.main_rdm {
+        padding-bottom: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ratio.main_rdm {
+        padding-bottom: 40%;
+    }
+}
+
 /* Custom uttons */
 
 .btn-custom  {
@@ -748,32 +770,6 @@ footer .company-logo {
     background-color: #f47d20;
     text-decoration: none;
     color: var(--white-text);
-}
-
-/*-----RDM wheel frontpage-----*/
-
-.ratio.main_rdm {
-    padding-bottom: 100%;
-}
-
-@media (min-width: 576px) {
-    .ratio.main_rdm {
-        padding-bottom: 70%;
-    }
-}
-
-@media (min-width: 768px) {
-    .ratio.main_rdm {
-        padding-bottom: 40%;
-    }
-}
-
-h2.card-title {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 1.6em;
-    font-weight: 700;
-    color: var(--primary-theme-color);
-    margin: 0 0 0.5rem 0;
 }
 
 /* ----- Cookie consent ----- */
