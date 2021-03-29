@@ -1,8 +1,8 @@
 ---
 title: Compliance monitoring & measurement
-tags: [plan, researcher, data manager, policy officer] 
-contributors: [Christophe Trefois, Wei Gu, Pinar Alper, 
-Markus Englund, Vera Ortseifen]
+tags: [plan, researcher, data manager, policy officer]
+keywords: [FAIR metrics, legislation]
+contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
 description: measure compliance to data management regulations and standards.
 ---
 
@@ -35,29 +35,37 @@ records. It is widely adopted in lab information systems and applications used i
   *  [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres.
   *  [ISO/IEC 27018](http://data-reuse.eu/wp-content/uploads/2017/02/ISO-Standards.pdf) is a standard aimed to be a code of practice for protection of personally identifiable information (PII) in public clouds.
 
-## How can I ethically access genetic resources of another country?
+## How can you ethically access genetic resources of another country?
 
 ### Description
-With the enactment of the Convention on Biological Diversity (CBD) in 1993 the Access and Benefit-Sharing (ABS) was anchored as one of the goals. Article 3 of CBD clarifies, that states have sovereign rights over their own (biological & genetic) resources. Negotiations concluded in 2014 with the Nagoya Protocol on ABS). Since then, working with genetic resources and associated data of another country requires more preparatory measures. The aim of the Nagoya protocol is to ensure fair and equitable sharing of benefits arising from utilisation of genetic resources and from traditional knowledge associated with genetic resources. Many contries, as well as the EU, are parties of the Nagoya protocol and information on this can be found at the ABS Clearing House (https://absch.cbd.int/). By enactment of EU Regulation No. 511/2014, the obligations were implemented in the EU on 12.10.2014 (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0511).
+
+If during your research project you need to access or transport genetic resources and/or associated traditional knowledge from any country, you should comply to all relevant (inter)national legislation. One important legislation in this case is the Nagoya Protocol. The Nagoya Protocol specifies the Access and Benefit-Sharing (ABS) principles, established by the Convention on Biological Diversity (CBD), for countries providing and using genetic resources in a legally binding way. 
+
+Article 3 of CBD clarifies, that states have sovereign rights over their own (biological and genetic) resources. Negotiations concluded in 2014 with the Nagoya Protocol on ABS. Since then, working with genetic resources and associated data of another country requires more preparatory measures. The aim of the Nagoya protocol is to ensure fair and equitable sharing of benefits arising from utilisation of genetic resources and from traditional knowledge associated with genetic resources. Many contries, as well as the EU, are parties of the Nagoya Protocol and information on this can be found at the [ABS Clearing House](https://absch.cbd.int/). By enactment of [EU Regulation No. 511/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0511) the obligations were implemented in the EU on 12.10.2014. Here you can find a short video about [ABS – Simply Explained](https://www.youtube.com/watch?v=09zflWUIKTQ&t=306s).
+
+[Genetic resources are defined](https://ec.europa.eu/environment/nature/biodiversity/international/abs/pdf/Glossary%20for%20Europa.pdf) as “all genetic material of actual or potential value. Essentially, the term encompasses all living organisms (plants, animals and microbes) that carry genetic material potentially useful to humans. Genetic resources can be taken from the wild, domesticated or cultivated. They are sourced from: natural environments (in situ) or human-made collections (ex situ) (e.g. botanical gardens, gene banks, seed banks and microbial culture collections).".
+[The definition of “traditional knowledge associated with genetic resources”](https://ec.europa.eu/environment/nature/biodiversity/international/abs/pdf/Glossary%20for%20Europa.pdf) is left to the Parties of the Protocol instead. However, in the context of the Nagoya Protocol, “the term is used in relation to the knowledge, innovations and practices of indigenous and local communities that result from the close interaction of such communities with their natural environment, and specifically to knowledge that may provide lead information for scientific discoveries on the genetic or biochemical properties of genetic resources. It is characteristic of traditional knowledge that it is not known outside the community holding such knowledge.”.
 
 
 ### Considerations
 
-Associated data about a genetic resources with Access legislation in place also requires special attention. Since ABS regulations put high demands on documentation and is therefore time consuming, this needs to be taken into account when planning a research project. When negotiating the Mutually Agreed Terms, it is very important to think about the future reusability of the data. If ABS is relevant to the project it should be part of the data management plan. Moreover, when sharing data, it is important to include necessary metadata regarding ABS in order to make reuse of the data possible.
-
-ABS is not relevant for all genetic resources. It applies only to resources that have been accessed from a provider country after October 12, 2014. Some genetic resources are explicitly excluded, like for example human genomes, some crops and some viruses. Moreover, there are countries who are party of the Nagoya protocol, but have no ABS legislation in place. 
-
+* Since ABS regulations and Nagoya Protocol put high demands on documentation, this legal aspect is time consuming and therefore needs to be taken into account when planning the research project.
+* ABS is not relevant for all genetic resources. It applies only to resources that have been accessed from a provider country after October 12, 2014. Some genetic resources are explicitly excluded, like for example human genomes, some crops and some viruses. Moreover, there are countries who are party of the Nagoya Protocol, but have no ABS legislation in place.
+* If ABS is relevant to the project it should be part of the Data Management Plan.
+* You must comply with the Nagoya Protocol and other national legislation before accessing the genetic resources.
+* When negotiating the Mutually Agreed Terms (MAT), it is very important to think about the future reusability of the data generated based on the genetic resources. When sharing this data, it is important to include the necessary metadata regarding ABS and to clarify the legal basis, in order to make the data reusable to others again.
 
 ### Solutions
 
-Plan: 
-* Allow extra time to familiarise yourself with the legal requirements. For more information take a look at the European documents https://ec.europa.eu/environment/nature/biodiversity/international/abs/index_en.htm and https://ec.europa.eu/environment/nature/biodiversity/international/abs/material_en.htm
-or on the dedicated websites cbd.int/abs/ (Nagoya Protocol) or https://absch.cbd.int/ (ABS Clearing-House).
-* Help: Get in contact with the corresponding office in your country
-* Actions: First you need a prior informed consent (PIC). In order to use the resource, you must additionally negotiate an agreement (often referred to as Mutually Agreed Terms, MAT) on how to share resulting benefits.
-
-Reuse: 
-* In order to make your data reusable to others again, as an important element of the FAIR principles, the legal basis must be clarified.
+* In the planning stage of your research project, allow extra time to familiarise yourself with the legal requirements. In order to determine if the Nagoya Protocol applies to your research, take a look at:
+  * The European documents [Sharing nature's genetic resources – ABS](https://ec.europa.eu/environment/nature/biodiversity/international/abs/index_en.htm) and [Access and Benefit Sharing](https://ec.europa.eu/environment/nature/biodiversity/international/abs/material_en.htm).
+  * The dedicated websites [Nagoya Protocol](cbd.int/abs/) or [ABS Clearing-House](https://absch.cbd.int/).
+  * Look for "Nagoya Protocol checklists for researchers" available in your institution to determine if the Nagoya Protocol applies to your research.
+  * Ask help to legal experts and get in contact with the corresponding office in your country or the legal team in your institution.
+* If ABS principles and Nagoya Protocol apply to your project, make sure to:
+  * Investigate the conditions for accessing the genetic resources and/or the associated traditional knowledge in the country of origin.
+  * Make a Prior Informed Consent (PIC) with the country that will provide the genetic resources and/or the associated traditional knowledge, to clarify the goal of your research and how you will use the requested resources.
+  * Negotiate a Mutually Agreed Terms (MAT) to establish how to share the resulting benefits. The benefits for the provider of the genetic resources and/or the associated traditional knowledge can be monetary, transfer of knowledge and technology, training, etc.
 
 ## Relevant tools and resources
 
