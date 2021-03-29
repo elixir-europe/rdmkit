@@ -581,6 +581,10 @@ footer .company-logo {
     margin-bottom: 3em;
 }
 
+.home-cards .card {
+    min-height: 9.5em;
+}
+
 h2.card-title {
     margin: 0 0 0.5rem 0;
 }
@@ -603,9 +607,9 @@ h2.card-title {
     }
 }
 
-/* Custom uttons */
+/* Custom buttons */
 
-.btn-custom  {
+.btn-custom {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color: var(--light-grey);
     padding: 7px 11px;
@@ -625,13 +629,12 @@ h2.card-title {
     line-height: 1;
     border: 0;
     margin-left: 10px;
-} 
+}
 
 .btn-custom.plus:not(.collapsed)::after {
     content: '-';
     line-height: 0.8em;
 }
-
 
 /*-----Contributors carousel homepage-----*/
 
@@ -800,7 +803,7 @@ h2.card-title {
 .cookiealert .acceptcookies {
     margin-left: 10px;
     vertical-align: baseline;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color: var(--light-grey);
     padding: 7px 11px;
     border-radius: 4px;
