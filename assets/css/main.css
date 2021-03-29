@@ -613,7 +613,7 @@ h2.card-title {
     border: 0px;
 }
 
-.btn-custom:hover {
+.btn-custom:hover, .btn-custom:not(.collapsed) {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
