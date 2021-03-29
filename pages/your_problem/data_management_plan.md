@@ -1,14 +1,14 @@
 ---
 title: Data management plan
-keywords: 
+keywords:
 contributors: [Flora D'Anna, Daniel Faria]
 tags: [plan, researcher, data manager, policy officer]
 description: how to write a Data Management Plan (DMP).
 ---
 
 
-## What template should I use to draft my Data Management Plan (DMP)?
- 
+## What template should you use to draft your Data Management Plan (DMP)?
+
 ### Description
 
 A number of DMP templates are currently available, originating from different funding agencies or institutions.
@@ -18,7 +18,7 @@ Moreover, there are ongoing efforts to develop templates for machine-actionable 
 
 * Each funding agency could require or recommend a specific DMP template.
 * Your institution could require and recommend a DMP template.
-* Template could be presented as list of questions in text format or in a machine-actionable format. 
+* Template could be presented as list of questions in text format or in a machine-actionable format.
 
 ### Solutions
 * Consult the documentation of your funding agency or institution, or contact them to figure out if they require or recommend a DMP template.
@@ -26,8 +26,8 @@ Moreover, there are ongoing efforts to develop templates for machine-actionable 
 * Consider adopting the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) model from the Research Data Alliance if you want to produce a machine-actionable DMP template.
 
 
-## What tool should I use to write my DMP?
- 
+## What tool should you use to write your DMP?
+
 ### Description
 DMPs can be written offline by using the downloaded template in a text document format.
 However, a number of web-based DMP tools are currently available that greatly facilitate the process, as they usually contain several DMP templates and provide guidance in interpreting and answering the questions.
@@ -50,7 +50,7 @@ However, a number of web-based DMP tools are currently available that greatly fa
 * Additional tools for creating a DMP are listed in the table below.
 
 
-## What should I write in a DMP?
+## What should you write in a DMP?
 
 ### Description
 A DMP should address a broad range of data management aspects, regardless of template. It is important to be aware of the current best practices in DMPs before starting one.
