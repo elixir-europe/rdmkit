@@ -577,11 +577,13 @@ footer .company-logo {
 
 /* ----- Home dropdown boxes ------ */
 
-#home-boxes {
+.home-cards {
     margin-bottom: 3em;
 }
 
-#home-boxes button {
+/* Custom uttons */
+
+.btn-custom  {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color: var(--light-grey);
     padding: 7px 11px;
@@ -589,12 +591,12 @@ footer .company-logo {
     border: 0px;
 }
 
-#home-boxes button:hover {
+.btn-custom:hover {
     background-color: var(--primary-theme-color);
     color: var(--white-text);
 }
 
-#home-boxes button::after {
+.btn-custom.plus::after {
     float: right;
     content: '+';
     font-size: 1.5em;
@@ -603,7 +605,7 @@ footer .company-logo {
     margin-left: 10px;
 } 
 
-#home-boxes button.active::after {
+.btn-custom.plus:not(.collapsed)::after {
     content: '-';
     line-height: 0.8em;
 }
