@@ -452,6 +452,10 @@ footer {
     margin-top: 80px;
 }
 
+footer h2 {
+    font-size: 1em;
+}
+
 footer a {
     color: var(--footer-color);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;

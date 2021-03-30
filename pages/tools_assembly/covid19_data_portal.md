@@ -21,7 +21,7 @@ Researchers benefit the COVID-19 Data Portal in a host of ways:
 
 ## What are the components for the COVID-19 Data Portal?
 
-{% include image.html file="covid19_page.PNG" caption="The COVID-19 Data Portal data flow schematic, showing collation, indexing, integration and user-access functions." alt="COVID-19 Data Portal" %}
+{% include image.html file="covid19_page.png" caption="The COVID-19 Data Portal data flow schematic, showing collation, indexing, integration and user-access functions." alt="COVID-19 Data Portal" %}
 
 The following reusable components will be of value to data stewards:
 - [Discovery API](https://www.covid19dataportal.org/api-documentation) with documented COVID-19 index points across data and literature resources covered by the COVID-19 Data Portal.
