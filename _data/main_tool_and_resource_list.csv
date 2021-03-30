@@ -32,7 +32,7 @@ Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts 
 DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:Data_Information_System_DAISY,"IT support, policy officer, human data, data protection"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
-data.world Data License list,https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets,Overview of typical licenses used for data resources,,"data publication, biomol sim"
+data.world Data License list,https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets,Overview of typical licenses used for data resources,,"licensing, biomol sim"
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,,"storage, researcher, data manager, IT support"
 DAWID,https://dawid.elixir-luxembourg.org/,The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg to facilitate data sharing agreements.,,"data protection, policy officer, human data"
 dbGAP,https://www.ncbi.nlm.nih.gov/gap/,The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans,fairsharing:88v2k0,"data publication, researcher, IT support, human data"
