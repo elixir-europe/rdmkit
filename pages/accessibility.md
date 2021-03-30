@@ -17,7 +17,7 @@ We aim to conform to the to the 'AA' standard of the [Web Content Accessibility 
 If you have any difficulties or annoyances using the site, or feel that we are not meeting accessibility requirements, then please contact the site editors ([rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org)). We will do our best to make the site easier to use.
 
 ## How we assess the accessibility of the site
-The website is a community effort, and includes work by professional web developers. Our web developers assess the accessibility of the site using:
+The website is a community effort, so unfortunately we do not have the resources to hire an accessibility expert. However, our community includes professional web developers, and web developers assess the accessibility of the site using:
 
   * [The W3C Web Accessibility Initiative checklist](https://www.w3.org/WAI/test-evaluate/preliminary/)
   * [The British government accessibility checklist](https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one)
@@ -34,6 +34,7 @@ This website is only partially compliant with the Web Content Accessibility Guid
   * Low contrast on a button link to training materials ([success criteria 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))
   * Focus state not clear on the data management life cycle diagram ([success criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html))
 
-We plan to fix these issues by June 2021.
+We plan to fix these issues by June 2021. If you feel there are more issues to address, then please email ([rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org)).
+
 
 This statement was prepared on 30 March 2021.
