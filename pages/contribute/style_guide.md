@@ -75,5 +75,6 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * First word and acronyms capitalised.
   * Should contain the same words as the filename where this title points to. 
 
+
 ## How to suggest amendments or additions to this style guide
 [Open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). See also the [contribute page](how_to_contribute).
