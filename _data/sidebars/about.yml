@@ -1,0 +1,13 @@
+subitems:
+  - title: About
+    url: /about.html
+  - title: Organisation
+    subitems:
+      - title: Editorial board
+        url: /editorial_board.html
+  - title: Media
+    url: /media_kit.html
+  - title: Accessability 
+    url: /accessibility.html
+  - title: Privacy policy
+    url: /privacy.html
