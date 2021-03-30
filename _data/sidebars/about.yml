@@ -1,11 +1,13 @@
 subitems:
   - title: About
     url: /about.html
-  - title: Organisation
+  - title: Community
     subitems:
+      - title: Contributors
+        url: /contributors.html
       - title: Editorial board
         url: /editorial_board.html
-  - title: Media
+  - title: Media kit
     url: /media_kit.html
   - title: Accessability 
     url: /accessibility.html
