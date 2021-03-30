@@ -13,9 +13,9 @@ CONTRIBUTING.md       @floradanna @pinarpink
 /pages/your_role       @MijkeJetten @pinarpink 
 /pages/rdm_cycle       @wittigue @floradanna @smza
 /pages/your_domain       @DanFaria @pinarpink 
-/pages/about.md       @frederikcoppens @CaroleGoble
+/pages/about/about.md       @frederikcoppens @CaroleGoble
 CODE_OF_CONDUCT.md       @frederikcoppens @CaroleGoble
-/css       @martin-nc @bedroesb
+/assets       @martin-nc @bedroesb
 
 # Sidebar
 /_data/sidebars/*      @vsundesha @roper79 @bedroesb

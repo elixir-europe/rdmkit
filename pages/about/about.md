@@ -1,6 +1,6 @@
 ---
 title: About
-toc: false
+sidebar: about
 ---
 
 ## Who is the RDMkit for?
@@ -32,6 +32,3 @@ Software are made available under an [MIT license](https://opensource.org/licens
 For full details on licensing, please visit https://github.com/elixir-europe/rdmkit/blob/master/LICENSE
 
 
-## The editors of RDMkit
-
-{% include contributor-carousel.html custom="Bert Droesbeke, Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Mijke Jetten, Munazah Andrabi, Niclas Jareborg, Pinar Alper, Rob Hooft, Ulrike Wittig, Laura Portell Silva, Martin Cook"%}
