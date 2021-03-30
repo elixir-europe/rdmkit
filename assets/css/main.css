@@ -515,6 +515,17 @@ footer .company-logo {
     color: var(--main-bg-color)
 }
 
+@media (max-width: 1200px) {
+    .social-icons a {
+        line-height: 3ex;
+        width: 3ex;
+        height: 3ex;
+    }
+    .social-icons {
+        height: 3ex;
+    }
+}
+
 /*-----MetaData section -----*/
 
 .meta-line {
@@ -695,27 +706,11 @@ h2.card-title {
     .hall-of-fame-hero img {
         width: 5em;
     }
-    .hall-of-fame-hero .social-icons a {
-        line-height: 3ex;
-        width: 3ex;
-        height: 3ex;
-    }
-    .hall-of-fame-hero .social-icons {
-        height: 3ex;
-    }
 }
 
 @media (max-width: 600px) {
     .hall-of-fame-hero img {
         width: 4em;
-    }
-    .hall-of-fame-hero .social-icons a {
-        line-height: 2.5ex;
-        width: 2.5ex;
-        height: 2.5ex;
-    }
-    .hall-of-fame-hero .social-icons {
-        height: 2.5ex;
     }
 }
 
@@ -723,15 +718,12 @@ h2.card-title {
     .hall-of-fame-hero img {
         width: 3em;
     }
-    .hall-of-fame-hero .social-icons a {
-        line-height: 2.5ex;
-        width: 2.5ex;
-        height: 2.5ex;
-        font-size: 12px;
-    }
-    .hall-of-fame-hero .social-icons {
-        height: 2.5ex;
-    }
+}
+
+.contributor-cards .card {
+    background-color: var(--light-grey);
+    border: 0;
+    border-radius: 4px;
 }
 
 /*-----Edit me button-----*/
