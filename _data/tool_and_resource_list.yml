@@ -1,4 +1,14 @@
 Tools:
+- description: A standard schema for primary biodiversity data
+  link: https://www.tdwg.org/standards/abcd/
+  name: Access to Biological Collection Data Schema (ABCD)
+  tags:
+  - micro biotech
+- description: A searchable repository with a focus on plasmids
+  link: https://www.addgene.org/browse/
+  name: Addgene
+  tags:
+  - micro biotech
 - description: Amazon Web Services
   link: https://aws.amazon.com/
   name: Amazon Web Services
@@ -31,6 +41,34 @@ Tools:
   - DMP
   - researcher
   - data manager
+- description: A repository of array based genomics data
+  link: https://www.ebi.ac.uk/arrayexpress/
+  name: ArrayExpress
+  registry:
+    biotools: arrayexpress
+    tess: ArrayExpress
+  tags:
+  - micro biotech
+- description: Biological materials resource including cell-lines, strains and genomics
+    tools
+  link: https://www.lgcstandards-atcc.org/en.aspx#
+  name: ATCC
+  registry:
+    biotools: atcc
+  tags:
+  - micro biotech
+- description: A searchable database for bacteria specific information
+  link: https://bacdive.dsmz.de
+  name: BacDive
+  registry:
+    biotools: bacdive
+  tags:
+  - micro biotech
+- description: A repository specific to Bacillus strains
+  link: http://www.bgsc.org/
+  name: Bacillus Genetic Stock Center (BGSC)
+  tags:
+  - micro biotech
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
     at providing practical know-how for responsible research.
   link: https://www.bbmri-eric.eu/elsi/knowledge-base/
@@ -52,6 +90,11 @@ Tools:
   - data manager
   - IT support
   - human data
+- description: R&D Platform for Life Sciences
+  link: https://www.benchling.com
+  name: Benchling
+  tags:
+  - micro biotech
 - description: Repository for Nucleic Acids MD simulations
   link: https://mmb.irbbarcelona.org/BigNASim/
   name: BigNASim
@@ -84,12 +127,26 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Biodiversity Information Standards (TDWG), historically the Taxonomic
+    Databases Working Group, work to develop biodiversity information standards
+  link: https://www.tdwg.org
+  name: Biodiversity Information Standards (TDWG)
+  tags:
+  - micro biotech
 - description: Platform designed to provide web-access to atomistic-MD trajectories
     for macromolecules involved in the COVID-19 disease.
   link: https://bioexcel-cv19.bsc.es/#/
   name: BioExcel COVID-19
   tags:
   - biomol sim
+- description: A repository of mathematical models for application in biological sciences
+  link: https://www.ebi.ac.uk/biomodels/
+  name: BioModels
+  registry:
+    biotools: biomodels
+    tess: BioModels
+  tags:
+  - micro biotech
 - description: BIONDA is a free and open-access biomarker database, which employs
     various text mining methods to extract structured information on biomarkers from
     abstracts of scientific publications
@@ -121,6 +178,15 @@ Tools:
   tags:
   - metadata
   - plants
+- description: A database hosting datasets from biological studies. Useful for storing
+    or accessing data that is not compliant for mainstream repositories.
+  link: https://www.ebi.ac.uk/biostudies/
+  name: BioStudies
+  registry:
+    biotools: biostudies
+    tess: BioStudies
+  tags:
+  - micro biotech
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -210,6 +276,19 @@ Tools:
     biotools: cath
     fairsharing: xgcyyn
     tess: CATH
+- description: A version management tool for modifying strains
+  link: https://cellrepo.herokuapp.com/
+  name: CellRepo
+  tags:
+  - micro biotech
+- description: An ontology for expressing cellular (or multi-cellular) terms with
+    applications in microscopy
+  link: https://www.ebi.ac.uk/cmpo/
+  name: Cellular Microscopy Phenotype Ontology (CMPO)
+  registry:
+    tess: Cellular Microscopy Phenotype Ontology (CMPO)
+  tags:
+  - micro biotech
 - description: CERNBox cloud data storage, sharing and synchronization
   link: https://information-technology.web.cern.ch/services/cernbox-service
   name: CERNBox
@@ -242,6 +321,12 @@ Tools:
   - researcher
   - data manager
   - policy officer
+- description: An initiative to bring together various formats and standard for computational
+    models in biology
+  link: http://co.mbine.org
+  name: COmputational Modeling in BIology NEtwork (COMBINE)
+  tags:
+  - micro biotech
 - description: Open source package management systemn
   link: https://docs.conda.io/en/latest/
   name: Conda
@@ -387,8 +472,8 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Online questionnaire for the development of data management plans -  repository
-    of DMPs
+- description: Online questionnaire for the development of data management plans -
+    repository of DMPs
   link: https://dmp.opidor.fr
   name: DMP OPIDoR
   tags:
@@ -436,6 +521,11 @@ Tools:
   - DMP
   - researcher
   - data manager
+- description: A database of DNA sequences
+  link: https://www.ddbj.nig.ac.jp/index-e.html
+  name: DNA Data Bank of Japan (DDBJ)
+  tags:
+  - micro biotech
 - description: Docker is a software for the execution of applications in virtualized
     environments called containers. It is linked to DockerHub, a library for sharing
     container images
@@ -600,6 +690,15 @@ Tools:
     tess: Europe PMC
   tags:
   - researcher
+- description: A record of sequence information scaling from raw sequcning reads to
+    assemblies and functional annotation
+  link: https://www.ebi.ac.uk/ena/browser/home
+  name: European Nucleotide Archive (ENA)
+  registry:
+    biotools: ena
+    tess: European Nucleotide Archive (ENA)
+  tags:
+  - micro biotech
 - description: FAIDARE is a tool allowing to search data across dinstinct databases
     that implemented BrAPI.
   link: https://urgi.versailles.inra.fr/faidare/
@@ -645,6 +744,11 @@ Tools:
   tags:
   - data publication
   - biomol sim
+- description: Repository of IP-free synthetic biological parts
+  link: https://stanford.freegenes.org/collections/open-genes
+  name: Freegenes
+  tags:
+  - micro biotech
 - description: Principled and practical framework for the responsible sharing of genomic
     and health-related data.
   link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
@@ -678,6 +782,21 @@ Tools:
   - data analysis
   - researcher
   - IT support
+- description: A database of genetic sequence information. GenBank may also refer
+    to the data format used for storing information around genetic sequence data.
+  link: https://www.ncbi.nlm.nih.gov/genbank/
+  name: GenBank
+  registry:
+    biotools: genbank
+    tess: GenBank
+  tags:
+  - micro biotech
+- description: A repository of MIAME-compliant genomics data from arrays and high-throughput
+    sequencing
+  link: https://www.ncbi.nlm.nih.gov/geo/
+  name: Gene Expression Omnibus (GEO)
+  tags:
+  - micro biotech
 - description: Geneid is an ab initio gene finding program used to predict genes along
     DNA sequences in a large set of organisms.
   link: https://genome.crg.cat/software/geneid/index.html
@@ -721,12 +840,6 @@ Tools:
   - data publication
   - IT support
   - data manager
-- description: Cloud Storage for Work and Home
-  link: https://www.google.com/intl/en_us/drive/
-  name: Google Drive
-  tags:
-  - storage
-  - transfer
 - description: A multispecies integrative information system dedicated to plant and
     fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
     It is used by both large international projects and the French National Research
@@ -738,6 +851,12 @@ Tools:
     fairsharing: dw22y3
   tags:
   - plants
+- description: Cloud Storage for Work and Home
+  link: https://www.google.com/intl/en_us/drive/
+  name: Google Drive
+  tags:
+  - storage
+  - transfer
 - description: Repository of GPCR protein simulations
   link: http://gpcrmd.org/
   name: GPCRmd
@@ -797,6 +916,17 @@ Tools:
   tags:
   - IDP
   - metadata
+- description: A collection of standard biological parts to which all entrants in
+    the iGEM competition must submit their parts
+  link: http://parts.igem.org/Main_Page
+  name: iGEM Parts Registry
+  tags:
+  - micro biotech
+- description: A repository of image datasets from scientific publications
+  link: https://idr.openmicroscopy.org
+  name: Image Data Resource (IDR)
+  tags:
+  - micro biotech
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   link: http://purl.obolibrary.org/obo/ICO.owl
@@ -815,6 +945,22 @@ Tools:
   name: International Compilation of Human Research Standards
   tags:
   - human data
+- description: A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI
+    and NCBI
+  link: http://www.insdc.org
+  name: International Nucleotide Sequence Database Collaboration (INSDC)
+  tags:
+  - micro biotech
+- description: Data standards and formats for reporting flow cytometry data
+  link: https://isac-net.org/page/Data-Standards
+  name: International Society for the Advancement of Cytometry (ISAC)
+  tags:
+  - micro biotech
+- description: Resource for naming standards in biochemistry and molecular biology
+  link: https://www.qmul.ac.uk/sbcs/iubmb/
+  name: International Union of Biochemistry and Molecular Biology (IUBMB)
+  tags:
+  - micro biotech
 - description: Functional analysis of protein sequences by classifying them into families
     and predicting the presence of domains and important sites
   link: https://www.ebi.ac.uk/interpro/
@@ -859,6 +1005,17 @@ Tools:
   - data protection
   - policy officer
   - human data
+- description: A collaborative resource from IUPAC and IUBMB for naming standards
+    in biochemistry
+  link: https://www.qmul.ac.uk/sbcs/iupac/jcbn/
+  name: IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN)
+  tags:
+  - micro biotech
+- description: A registry platform for biological parts
+  link: https://ice.jbei.org
+  name: JBEI-ICE
+  tags:
+  - micro biotech
 - description: Jupyter notebooks allow to share code, documentation
   link: https://jupyter.org
   name: Jupyter
@@ -874,6 +1031,11 @@ Tools:
   - metadata
   - data manager
   - researcher
+- description: A database of prokaryote specific biodiversity information
+  link: https://lpsn.dsmz.de
+  name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
+  tags:
+  - micro biotech
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
@@ -893,6 +1055,15 @@ Tools:
   - IT support
   - policy officer
   - plants
+- description: The Multi-crop Passport Descriptors are an international standard to
+    facilitate germplasm passport information exchange
+  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21//
+  name: MCPD
+  registry:
+    biotools: mcpd
+  tags:
+  - metadata
+  - plants
 - description: Database of over 5000 intrinsic membrane protein structures
   link: http://memprotmd.bioch.ox.ac.uk/
   name: MemProtMD
@@ -907,6 +1078,13 @@ Tools:
   tags:
   - data publication
   - biomol sim
+- description: A repository of genomics data relating to the study of the metabolome
+  link: http://www.metabolomexchange.org/site/
+  name: MetabolomeXchange
+  registry:
+    biotools: metabolomexchange
+  tags:
+  - micro biotech
 - description: Minimum Information About Disorder Experiments (MIADE) standard
   link: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
   name: MIADE
@@ -1020,15 +1198,23 @@ Tools:
   - data protection
   - policy officer
   - human data
-- description: The Multi-crop Passport Descriptors are an international standard to
-    facilitate germplasm passport information exchange
-  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21//
-  name: MCPD
-  registry:
-    biotools: mcpd
+- description: Online database hosting a vast amount of biotechnological information
+    including nucleic acids, proteins, genomes and publications. Also boasts integrated
+    tools for analysis.
+  link: https://www.ncbi.nlm.nih.gov
+  name: National Center for Biotechnology Information (NCBI)
   tags:
-  - metadata
-  - plants
+  - micro biotech
+- description: NCBI's taxonomy browser is a database of biodiversity information
+  link: https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/
+  name: NCBI Taxonomy
+  tags:
+  - micro biotech
+- description: Hosts information relating to strains, cultures and more
+  link: https://www.ncimb.com/culture-collection/
+  name: NCIMB
+  tags:
+  - micro biotech
 - description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
     scientists and their international collaborators to store, share, archive, and
     analyse their omics-scale data
@@ -1206,6 +1392,11 @@ Tools:
   - data protection
   - policy officer
   - human data
+- description: A secure platform for developing and sharing reproducible methods.
+  link: https://www.protocols.io
+  name: protocols.io
+  tags:
+  - micro biotech
 - description: R Markdown documents are fully reproducible. Use a productive notebook
     interface to weave together narrative text and code to produce elegantly formatted
     output. Use multiple languages including R, Python, and SQL.
@@ -1321,6 +1512,17 @@ Tools:
   tags:
   - IDP
   - researcher
+- description: A standard library of visual glyphs used to represent SBOL designs
+    and interactions.
+  link: https://sbolstandard.org/visual-glyphs/
+  name: SBOL Visual
+  tags:
+  - micro biotech
+- description: A CAD tool to create SBOL designs through the use of SBOL Visual glyphs.
+  link: https://sboldesigner.github.io
+  name: SBOLDesigner
+  tags:
+  - micro biotech
 - description: Web portal for finding ontologies
   link: https://schemapedia.com
   name: Schemapedia
@@ -1363,6 +1565,12 @@ Tools:
   - IT support
   - nels
   - micro biotech
+- description: A scripting language for creating Synthetic Biology Open Language (SBOL)
+    in a more abstract way.
+  link: http://shortbol.org
+  name: ShortBOL
+  tags:
+  - micro biotech
 - description: Structure integration with function, taxonomy and sequence
   link: https://www.ebi.ac.uk/pdbe/docs/sifts/
   name: SIFTS
@@ -1395,6 +1603,11 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Resource of standards for reporting enzyme data
+  link: https://www.beilstein-institut.de/en/projects/strenda/
+  name: Standards for Reporting Enzyme Data (STRENDA)
+  tags:
+  - micro biotech
 - description: Known and predicted protein-protein interactions.
   link: https://string-db.org/
   name: STRING
@@ -1402,6 +1615,29 @@ Tools:
     biotools: string
     fairsharing: 9b7wvk
     tess: STRING
+- description: A searchable design repository for biological constructs
+  link: https://synbiohub.org
+  name: SynBioHub
+  registry:
+    biotools: synbiohub
+  tags:
+  - micro biotech
+- description: An open standard for the representation of in silico biological designs
+    and their place in the Design-Build-Test-Learn cycle of synthetic biology.
+  link: https://sbolstandard.org
+  name: Synthetic Biology Open Language (SBOL)
+  tags:
+  - micro biotech
+- description: An open format for computational models of biological processes
+  link: http://sbml.org/Main_Page
+  name: Systems Biology Markup Language (SBML)
+  tags:
+  - micro biotech
+- description: An ontology for expressing environmental terms
+  link: https://sites.google.com/site/environmentontology/
+  name: The Environment Ontology (EnvO)
+  tags:
+  - micro biotech
 - description: EGA is a service for permanent archiving and sharing of all types of
     personally identifiable genetic and phenotypic data resulting from biomedical
     research projects
@@ -1456,6 +1692,11 @@ Tools:
   - researcher
   - IDP
   - micro biotech
+- description: A JavaScript library for the visualisation of SBOL.
+  link: http://visbol.org
+  name: VisBOL
+  tags:
+  - micro biotech
 - description: Wellcome Open Research requires that the source data underlying the
     results are made available as soon as an article is published. This page provides
     information about data you need to include, where your data can be stored, and
@@ -1476,244 +1717,3 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Biodiversity Information Standards (TDWG), historically the Taxonomic
-    Databases Working Group, work to develop biodiversity information standards
-  link: https://www.tdwg.org
-  name: Biodiversity Information Standards (TDWG)
-  tags:
-  - micro biotech
-- description: A standard schema for primary biodiversity data
-  link: https://www.tdwg.org/standards/abcd/
-  name: Access to Biological Collection Data Schema (ABCD)
-  tags:
-  - micro biotech
-- description: Online database hosting a vast amount of biotechnological information
-    including nucleic acids, proteins, genomes and publications. Also boasts integrated
-    tools for analysis.
-  link: https://www.ncbi.nlm.nih.gov
-  name: National Center for Biotechnology Information (NCBI)
-  tags:
-  - micro biotech
-- description: NCBI's taxonomy browser is a database of biodiversity information
-  link: https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/
-  name: NCBI Taxonomy
-  tags:
-  - micro biotech
-- description: A database of prokaryote specific biodiversity information
-  link: https://lpsn.dsmz.de
-  name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
-  tags:
-  - micro biotech
-- description: A searchable database for bacteria specific information
-  link: https://bacdive.dsmz.de
-  name: BacDive
-  registry:
-    biotools: bacdive
-  tags:
-  - micro biotech
-- description: Hosts information relating to strains, cultures and more
-  link: https://www.ncimb.com/culture-collection/
-  name: NCIMB
-  tags:
-  - micro biotech
-- description: Biological materials resource including cell-lines, strains and genomics
-    tools
-  link: https://www.lgcstandards-atcc.org/en.aspx#
-  name: ATCC
-  registry:
-    biotools: atcc
-  tags:
-  - micro biotech
-- description: A repository specific to Bacillus strains
-  link: http://www.bgsc.org/
-  name: Bacillus Genetic Stock Center (BGSC)
-  tags:
-  - micro biotech
-- description: An ontology for expressing environmental terms
-  link: https://sites.google.com/site/environmentontology/
-  name: The Environment Ontology (EnvO)
-  tags:
-  - micro biotech
-- description: A version management tool for modifying strains
-  link: https://cellrepo.herokuapp.com/
-  name: CellRepo
-  tags:
-  - micro biotech
-- description: A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI
-    and NCBI
-  link: http://www.insdc.org
-  name: International Nucleotide Sequence Database Collaboration (INSDC)
-  tags:
-  - micro biotech
-- description: A record of sequence information scaling from raw sequcning reads to
-    assemblies and functional annotation
-  link: https://www.ebi.ac.uk/ena/browser/home
-  name: European Nucleotide Archive (ENA)
-  registry:
-    biotools: ena
-    tess: European Nucleotide Archive (ENA)
-  tags:
-  - micro biotech
-- description: A database of genetic sequence information. GenBank may also refer
-    to the data format used for storing information around genetic sequence data.
-  link: https://www.ncbi.nlm.nih.gov/genbank/
-  name: GenBank
-  registry:
-    biotools: genbank
-    tess: GenBank
-  tags:
-  - micro biotech
-- description: A database of DNA sequences
-  link: https://www.ddbj.nig.ac.jp/index-e.html
-  name: DNA Data Bank of Japan (DDBJ)
-  tags:
-  - micro biotech
-- description: A collection of standard biological parts to which all entrants in
-    the iGEM competition must submit their parts
-  link: http://parts.igem.org/Main_Page
-  name: iGEM Parts Registry
-  tags:
-  - micro biotech
-- description: A searchable repository with a focus on plasmids
-  link: https://www.addgene.org/browse/
-  name: Addgene
-  tags:
-  - micro biotech
-- description: Repository of IP-free synthetic biological parts
-  link: https://stanford.freegenes.org/collections/open-genes
-  name: Freegenes
-  tags:
-  - micro biotech
-- description: A registry platform for biological parts
-  link: https://ice.jbei.org
-  name: JBEI-ICE
-  tags:
-  - micro biotech
-- description: A searchable design repository for biological constructs
-  link: https://synbiohub.org
-  name: SynBioHub
-  registry:
-    biotools: synbiohub
-  tags:
-  - micro biotech
-- description: R&D Platform for Life Sciences
-  link: https://www.benchling.com
-  name: Benchling
-  tags:
-  - micro biotech
-- description: An open standard for the representation of in silico biological designs
-    and their place in the Design-Build-Test-Learn cycle of synthetic biology.
-  link: https://sbolstandard.org
-  name: Synthetic Biology Open Language (SBOL)
-  tags:
-  - micro biotech
-- description: A scripting language for creating Synthetic Biology Open Language (SBOL)
-    in a more abstract way.
-  link: http://shortbol.org
-  name: ShortBOL
-  tags:
-  - micro biotech
-- description: A CAD tool to create SBOL designs through the use of SBOL Visual glyphs.
-  link: https://sboldesigner.github.io
-  name: SBOLDesigner
-  tags:
-  - micro biotech
-- description: A JavaScript library for the visualisation of SBOL.
-  link: http://visbol.org
-  name: VisBOL
-  tags:
-  - micro biotech
-- description: A standard library of visual glyphs used to represent SBOL designs
-    and interactions.
-  link: https://sbolstandard.org/visual-glyphs/
-  name: SBOL Visual
-  tags:
-  - micro biotech
-- description: Resource for naming standards in biochemistry and molecular biology
-  link: https://www.qmul.ac.uk/sbcs/iubmb/
-  name: International Union of Biochemistry and Molecular Biology (IUBMB)
-  tags:
-  - micro biotech
-- description: A collaborative resource from IUPAC and IUBMB for naming standards
-    in biochemistry
-  link: https://www.qmul.ac.uk/sbcs/iupac/jcbn/
-  name: IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN)
-  tags:
-  - micro biotech
-- description: An open format for computational models of biological processes
-  link: http://sbml.org/Main_Page
-  name: Systems Biology Markup Language (SBML)
-  tags:
-  - micro biotech
-- description: A repository of mathematical models for application in biological sciences
-  link: https://www.ebi.ac.uk/biomodels/
-  name: BioModels
-  registry:
-    biotools: biomodels
-    tess: BioModels
-  tags:
-  - micro biotech
-- description: An initiative to bring together various formats and standard for computational
-    models in biology
-  link: http://co.mbine.org
-  name: COmputational Modeling in BIology NEtwork (COMBINE)
-  tags:
-  - micro biotech
-- description: Resource of standards for reporting enzyme data
-  link: https://www.beilstein-institut.de/en/projects/strenda/
-  name: Standards for Reporting Enzyme Data (STRENDA)
-  tags:
-  - micro biotech
-- description: A secure platform for developing and sharing reproducible methods.
-  link: https://www.protocols.io
-  name: protocols.io
-  tags:
-  - micro biotech
-- description: An ontology for expressing cellular (or multi-cellular) terms with
-    applications in microscopy
-  link: https://www.ebi.ac.uk/cmpo/
-  name: Cellular Microscopy Phenotype Ontology (CMPO)
-  registry:
-    tess: Cellular Microscopy Phenotype Ontology (CMPO)
-  tags:
-  - micro biotech
-- description: A repository of image datasets from scientific publications
-  link: https://idr.openmicroscopy.org
-  name: Image Data Resource (IDR)
-  tags:
-  - micro biotech
-- description: Data standards and formats for reporting flow cytometry data
-  link: https://isac-net.org/page/Data-Standards
-  name: International Society for the Advancement of Cytometry (ISAC)
-  tags:
-  - micro biotech
-- description: A repository of MIAME-compliant genomics data from arrays and high-throughput
-    sequencing
-  link: https://www.ncbi.nlm.nih.gov/geo/
-  name: Gene Expression Omnibus (GEO)
-  tags:
-  - micro biotech
-- description: A repository of array based genomics data
-  link: https://www.ebi.ac.uk/arrayexpress/
-  name: ArrayExpress
-  registry:
-    biotools: arrayexpress
-    tess: ArrayExpress
-  tags:
-  - micro biotech
-- description: A repository of genomics data relating to the study of the metabolome
-  link: http://www.metabolomexchange.org/site/
-  name: MetabolomeXchange
-  registry:
-    biotools: metabolomexchange
-  tags:
-  - micro biotech
-- description: A database hosting datasets from biological studies. Useful for storing
-    or accessing data that is not compliant for mainstream repositories.
-  link: https://www.ebi.ac.uk/biostudies/
-  name: BioStudies
-  registry:
-    biotools: biostudies
-    tess: BioStudies
-  tags:
-  - micro biotech
