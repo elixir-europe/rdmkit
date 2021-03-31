@@ -92,6 +92,26 @@ Tools:
   - storage
   - researcher
   - human data
+- description: BioSamples stores and supplies descriptions and metadata about biological
+    samples used in research and development by academia and industry.
+  link: https://www.ebi.ac.uk/biosamples/
+  name: Biosamples
+  registry:
+    biotools: biosamples
+    tess: Biosamples
+  tags:
+  - metadata
+  - plants
+- description: The BioStudies database holds descriptions of biological studies and
+    links to data from these studies in other databases.
+  link: https://www.ebi.ac.uk/biostudies/
+  name: Biostudies
+  registry:
+    biotools: biostudies
+    tess: Biostudies
+  tags:
+  - metadata
+  - plants
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -461,6 +481,13 @@ Tools:
   - DMP
   - researcher
   - data manager
+- description: Hub for the identification of plant genetic resources in Europe
+  link: https://www.ecpgr.cgiar.org/
+  name: ECPGR
+  tags:
+  - plants
+  - researcher
+  - data manager
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
   link: https://elixir-europe.org/platforms/data/elixir-deposition-databases
   name: ELIXIR Deposition Databases for Biomolecular Data
@@ -536,6 +563,8 @@ Tools:
     biotools: eurisco
   tags:
   - plants
+  - researcher
+  - data manager
 - description: Europe PMC is a repository, providing access to worldwide life sciences
     articles, books, patents and clinical guidelines.
   link: https://europepmc.org/
@@ -942,6 +971,15 @@ Tools:
   - data protection
   - policy officer
   - human data
+- description: The Multi-crop Passport Descriptors are an international standard to
+    facilitate germplasm passport information exchange
+  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21//
+  name: MCPD
+  registry:
+    biotools: mcpd
+  tags:
+  - metadata
+  - plants
 - description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
     scientists and their international collaborators to store, share, archive, and
     analyse their omics-scale data
