@@ -468,12 +468,6 @@ footer a:hover {
     text-decoration: none;
 }
 
-@media (max-width:992px) {
-    .site-footer {
-        padding-bottom: 0;
-    }
-}
-
 footer .europe-flag {
     width: 80px;
     padding-top: 18px;
@@ -481,38 +475,6 @@ footer .europe-flag {
 
 footer .company-logo {
     float: right
-}
-
-/*-----Social icons-----*/
-
-.social-icons {
-    padding-left: 0;
-    list-style: none;
-    align-items: center;
-    height: 4ex;
-}
-
-.social-icons li {
-    display: inline-block;
-    margin-bottom: 4px;
-}
-
-.social-icons a {
-    background-color: var(--main-bg-color);
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    color: var(--primary-theme-color);
-    font-size: 16px;
-    display: inline-block;
-    line-height: 4ex;
-    width: 4ex;
-    height: 4ex;
-    text-align: center;
-    border-radius: 100%;
-}
-
-.social-icons a:hover {
-    background-color: var(--primary-theme-color);
-    color: var(--main-bg-color)
 }
 
 /*-----MetaData section -----*/
@@ -637,100 +599,50 @@ h2.card-title {
     line-height: 0.8em;
 }
 
-/*-----Contributors carousel homepage-----*/
+/*-----Contributors cards-----*/
 
-#contributors-carousel .carousel-item {
-    align-items: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#contributors-carousel .carousel-item.active, #contributors-carousel .carousel-item-next, #contributors-carousel .carousel-item-prev {
-    display: flex;
-}
-
-.carousel-control-next, .carousel-control-prev {
+#contributors-carousel .carousel-control-next, .carousel-control-prev {
     width: 3%;
 }
 
-.hall-of-fame-hero {
-    width: 18%;
+.contributor-cards .card {
     background-color: var(--light-grey);
-    padding: 15px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border: 0;
     border-radius: 4px;
 }
 
-.hall-of-fame-hero:hover {
-    background-color: var(--hover-grey);
-    color: var(--light-grey);
-}
+/*-----Social icons-----*/
 
-.hall-of-fame-hero .name {
-    margin-top: 10px;
-    font-size: 0.9em;
+
+.social-icons a {
+    background-color: var(--main-bg-color);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    color: var(--primary-theme-color);
+    display: inline-block;
+    line-height: 4ex;
+    width: 4ex;
+    height: 4ex;
     text-align: center;
-    height: 2em;
+    border-radius: 100%;
 }
 
-.hall-of-fame-hero img {
-    border-radius: 50%;
-    width: 8em;
+.social-icons a:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
 }
 
-.contributor-container {
-    margin-right: auto;
-    margin-left: auto;
-    margin: 20px 0px;
-}
+@media (max-width:768px) {
+    #contributors-carousel .social-icons a {
+        line-height: 1.2ex;
+        width: 1.2ex;
+        height: 1.2ex;
+    }
+    #contributors-carousel .card-body {
+        padding: 0.5rem 0.5rem;
+    }
 
-@media (max-width: 992px) {
-    .hall-of-fame-hero .name {
-        font-size: 0.7em;
-        height: 22px;
-    }
-    .hall-of-fame-hero img {
-        width: 5em;
-    }
-    .hall-of-fame-hero .social-icons a {
-        line-height: 3ex;
-        width: 3ex;
-        height: 3ex;
-    }
-    .hall-of-fame-hero .social-icons {
-        height: 3ex;
-    }
-}
-
-@media (max-width: 600px) {
-    .hall-of-fame-hero img {
-        width: 4em;
-    }
-    .hall-of-fame-hero .social-icons a {
-        line-height: 2.5ex;
-        width: 2.5ex;
-        height: 2.5ex;
-    }
-    .hall-of-fame-hero .social-icons {
-        height: 2.5ex;
-    }
-}
-
-@media (max-width: 400px) {
-    .hall-of-fame-hero img {
-        width: 3em;
-    }
-    .hall-of-fame-hero .social-icons a {
-        line-height: 2.5ex;
-        width: 2.5ex;
-        height: 2.5ex;
-        font-size: 12px;
-    }
-    .hall-of-fame-hero .social-icons {
-        height: 2.5ex;
+    #contributors-carousel .card-title {
+        font-size: 0.5em
     }
 }
 
