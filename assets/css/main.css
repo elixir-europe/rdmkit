@@ -258,6 +258,10 @@ figcaption {
     }
 }
 
+button[aria-expanded="true"] + #side-nav {
+    margin-top: -1.5em;
+} 
+
 .sidebar-collapse i {
     font-size: 1.25rem;
     float: right;
@@ -275,7 +279,12 @@ figcaption {
     font-size: 1.3em;
 }
 
-.container-menu li a {
+.menu ul {
+    display: none;
+    padding-left: 0;
+}
+
+.menu li a {
     margin-top: 4px;
     color: var(--main-text-color);
     background-color: var(--light-grey);
@@ -285,17 +294,13 @@ figcaption {
     border-radius: 4px;
 }
 
-.container-menu ul {
-    padding-left: 0;
+.menu li a:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
 }
 
 .hr-margin {
     margin-top: 20px;
-}
-
-.menu li a:hover {
-    background-color: var(--primary-theme-color);
-    color: var(--white-text);
 }
 
 .menu ul li a {
@@ -312,10 +317,6 @@ figcaption {
     color: var(--white-text);
 }
 
-.menu ul {
-    display: none;
-}
-
 .menu li>a>span {
     float: right;
     font-size: 1.5em;
@@ -328,18 +329,6 @@ figcaption {
 
 .menu li>a>span:after {
     content: '+';
-}
-
-@media (min-width:992px) {
-    .menu {
-        margin-right: 30px;
-    }
-}
-
-@media (max-width:992px) {
-    .menu {
-        margin-top: -1.5em;
-    }
 }
 
 /* RDM wheel in sidebar */
