@@ -34,7 +34,7 @@
                 <div class="col">
                     <div class="card h-100">
                     {%- assign id = contributors[contributor].git | default: 'no_github' %}
-                    <img src="https://avatars.githubusercontent.com/{{id}}" class="card-img-top p-1 p-sm-3 rounded-circle" alt="{{ contributor }}">
+                    <img src="https://avatars.githubusercontent.com/{{id}}" class="card-img-top p-1 p-md-3 rounded-circle" alt="{{ contributor }}">
                     <div class="card-body text-center">
                         <p class="card-title">{{ contributor }}</p>
                         {%- if contributors[contributor].git or contributors[contributor].email or contributors[contributor].orcid %}
