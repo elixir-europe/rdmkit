@@ -11,6 +11,12 @@ description: how to transfer data files.
 
 Large data files cannot be sent by email because they exceed the file size limit of most common email servers. So, how can large data files be transfered from a local computer to a distant one?
 
+Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services.
+
+If you intend to transfer sensitive data to another location, you have to check the regulation and security measures on the remote site. You can interact with the IT departments at both locations in order to establish your strategy. Do not forget to check the [Human Data](human_data) pages of the RDMkit.
+
+Since data transfer involves so many technical aspects, it is a good idea to interact with your technical/IT team in order to avoid any problem if you want to transfer large amounts of data.
+
 ### Considerations
 
 There are many aspects to consider when dealing with data transfer, but the most important are:  
@@ -19,19 +25,15 @@ There are many aspects to consider when dealing with data transfer, but the most
 * the capacity or bandwidth of the network links between your local computer and the distant computer
 * data security
 
-Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services.
+
+### Solutions
+#### Step 1: Types of data transfer
 
 **Hard transfer** - Hard drive transfer is a good solution for very large scale transfers, for example those supporting petabytes of data. Such transfers are available for many compute clouds, such as Amazon Snowball or Azure Data Box.
 
 **Sharing** - Rather than perform large transfers, it may be easier to synchronize your local data storage with remote storage, or to use remote storage as a local drive. Common examples of this are Microsoft Azure Drive and Google Drive. The storage can be used by remote services.
 
 **Analysis** - Cloud-based analysis systems include mechanisms for transferring data to and from the Cloud. Such systems include Microsoft Azure, Amazon Web Services, nextCloud and ownCloud.
-
-If you intend to transfer sensitive data to another location, you have to check the regulation and security measures on the remote site. You can interact with the IT departments at both locations in order to establish your strategy. Do not forget to check the [Human Data](human_data) pages of the RDMkit.
-
-Since data transfer involves so many technical aspects, it is a good idea to interact with your technical/IT team in order to avoid any problem if you want to transfer large amounts of data.
-
-### Solutions
 
 #### Step 1: Optimise data transfer
 It can be very useful to archive your data in a single file to optimise and ease the data transfer. This can be done with two tools available on most systems.
