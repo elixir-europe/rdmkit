@@ -27,6 +27,8 @@ subitems:
         url: /biomolecular_simulation_data.html
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins.html
+      - title: Microbial biotechnology
+        url: /microbial_biotechnology.html
   - title: Your problem
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
