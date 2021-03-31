@@ -1,4 +1,13 @@
 Tools:
+- description: Amazon Web Services
+  link: https://aws.amazon.com/
+  name: Amazon Web Services
+  registry:
+    tess: Amazon Web Services
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: Amnesia is a GDPR compliant high accuracy data anonymization tool
   link: https://amnesia.openaire.eu/
   name: Amnesia
@@ -199,6 +208,11 @@ Tools:
     biotools: cath
     fairsharing: xgcyyn
     tess: CATH
+- description: CERNBox cloud data storage, sharing and synchronization
+  link: https://information-technology.web.cern.ch/services/cernbox-service
+  name: CERNBox
+  tags:
+  - storage
 - description: Dictionary of molecular entities focused on 'small' chemical compounds
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
@@ -274,6 +288,11 @@ Tools:
   - data manager
   - IT support
   - plants
+- description: Cloud Storage Services for Synchronization and Sharing (CS3)
+  link: https://www.cs3community.org/
+  name: CS3
+  tags:
+  - storage
 - description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
@@ -364,8 +383,8 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Online questionnaire for the development of data management plans;
-    repository of DMPs
+- description: Online questionnaire for the development of data management plans -  repository
+    of DMPs
   link: https://dmp.opidor.fr
   name: DMP OPIDoR
   tags:
@@ -696,6 +715,12 @@ Tools:
   - data publication
   - IT support
   - data manager
+- description: Cloud Storage for Work and Home
+  link: https://www.google.com/intl/en_us/drive/
+  name: Google Drive
+  tags:
+  - storage
+  - transfer
 - description: A multispecies integrative information system dedicated to plant and
     fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
     It is used by both large international projects and the French National Research
@@ -732,19 +757,6 @@ Tools:
   - researcher
   - data manager
   - policy officer
-- description: Cloud Storage for Work and Home 
-  link: https://www.google.com/intl/en_us/drive/
-  name: Google Drive
-  tags:
-  - storage
-  - transfer
-- description: Cloud Computing Services
-  link: https://cloud.google.com/
-  name: Google Cloud
-  tags:
-  - storage
-  - transfer
-  - data analysis
 - description: The Human Protein Atlas contains information for a large majority of
     all human protein-coding genes regarding the expression and localization of the
     corresponding proteins based on both RNA and protein data.
@@ -766,6 +778,13 @@ Tools:
   - researcher
   - human data
   - data analysis
+- description: Data sharing
+  link: https://www.icloud.com/
+  name: iCloud
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: Intrinsically disordered proteins ontology
   link: https://disprot.org/about
   name: IDPO
@@ -901,19 +920,18 @@ Tools:
   - data manager
   - plants
 - description: Cloud storage and file sharing service from Microsoft
-  link: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
-  name: Microsoft OneDrive
-  tags:
-  - storage
-  - IT support
-  - transfer
-- description: Cloud storage and file sharing service from Microsoft
   link: https://azure.microsoft.com/en-gb/
   name: Microsoft Azure
   tags:
   - storage
   - IT support
   - transfer
+- description: Cloud storage and file sharing service from Microsoft
+  link: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
+  name: Microsoft OneDrive
+  tags:
+  - storage
+  - IT support
 - description: Minimum Information about a (Meta)Genome Sequence
   link: http://wiki.gensc.org/index.php?title=MIGS/MIMS
   name: MIGS/MIMS
@@ -1120,6 +1138,7 @@ Tools:
   - storage
   - IT support
   - transfer
+  - data analysis
 - description: PAA is an R/Bioconductor tool for protein microarray data analysis
     aimed at biomarker discovery.
   link: https://bioconductor.org/packages/PAA/
@@ -1253,6 +1272,12 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: Reva connects cloud storages and application providers
+  link: https://reva.link/
+  name: Reva
+  tags:
+  - data analysis
+  - transfer
 - description: RightField is an open-source tool for adding ontology term selection
     to Excel spreadsheets
   link: https://rightfield.org.uk
@@ -1273,6 +1298,13 @@ Tools:
   - data analysis
   - IT support
   - researcher
+- description: Rucio - Scientific Data Management
+  link: https://rucio.cern.ch/
+  name: Rucio
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: Small Angle Scattering Biological Data Bank
   link: https://www.sasbdb.org/
   name: SASBDB
@@ -1286,6 +1318,14 @@ Tools:
   - metadata
   - data manager
   - researcher
+- description: ScienceMesh - frictionless scientific collaboration and access to research
+    services
+  link: https://sciencemesh.io/
+  name: ScienceMesh
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: List of respositories recommended by Scinetific Data, contains both
     discipline-specific and general repositories.
   link: https://www.nature.com/sdata/policies/repositories
@@ -1295,6 +1335,12 @@ Tools:
   - researcher
   - data manager
   - IT support
+- description: SeaFile File Synchronization and Share Solution
+  link: https://www.seafile.com/
+  name: SeaFile
+  tags:
+  - storage
+  - transfer
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc.
   link: https://seek4science.org/
@@ -1418,60 +1464,3 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Data sharing
-  link: https://www.icloud.com/
-  name: iCloud
-  tags:
-  - storage
-  - data analysis
-  - transfer
-- description: Amazon Web Services
-  link: https://aws.amazon.com/
-  name: Amazon Web Services
-  tags:
-  - storage
-  - data analysis
-  - transfer
-- description: SeaFile File Synchronization and Share Solution
-  link: https://www.seafile.com/
-  name: SeaFile
-  tags:
-  - storage
-  - transfer
-- description: CERNBox cloud data storage, sharing and synchronization
-  link: https://information-technology.web.cern.ch/services/cernbox-service
-  name: CERNBox
-  tags:
-  - storage
-- description: Rucio - Scientific Data Management
-  link: https://rucio.cern.ch/
-  name: Rucio
-  tags:
-  - storage
-  - data analysis
-  - transfer
-- description: Cloud Storage Services for Synchronization and Sharing (CS3)
-  link: https://www.cs3community.org/
-  name: CS3
-  tags:
-  - storage
-- description: ScienceMesh - frictionless scientific collaboration and access to research services
-  link: https://sciencemesh.io/
-  name: ScienceMesh
-  tags:
-  - storage
-  - data analysis
-  - transfer
-- description: oCIS - ownCloud Infinite Scale
-  link: https://owncloud.dev/ocis/
-  name: oCIS
-  tags:
-  - storage
-  - data analysis
-- description: Reva connects cloud storages and application providers
-  link: https://reva.link/
-  name: Reva
-  tags:
-  - sharing
-  - data analysis
-  - transfer
