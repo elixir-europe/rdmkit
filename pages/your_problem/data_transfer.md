@@ -35,13 +35,13 @@ There are many aspects to consider when dealing with data transfer, but the most
 
 **Analysis** - Cloud-based analysis systems include mechanisms for transferring data to and from the Cloud. Such systems include Microsoft Azure, Amazon Web Services, nextCloud and ownCloud.
 
-#### Step 1: Optimise data transfer
+#### Step 2: Optimise data transfer
 It can be very useful to archive your data in a single file to optimise and ease the data transfer. This can be done with two tools available on most systems.
 
 * tar (tape archive) will create an archive, a single file containing several files or directories.
 * gzip: since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive.
 
-#### Step 2: Choose an appropriate data transfer protocol or application
+#### Step 3: Choose an appropriate data transfer protocol or application
 
 The most common data transfer applications available are:
 
@@ -63,7 +63,7 @@ A comparison of file hosting systems is available on [Wikipedia](https://en.wiki
 
 Cloud systems commonly have their own data transfer and data sharing systems. Your solutions then depend upon your choice of system. For very large data these include hard transfer. A useful comparison of cloud systems is on [Wikipedia](https://en.wikipedia.org/wiki/Cloud-computing_comparison)
 
-#### Step 3: Check the transfer
+#### Step 4: Check the transfer
 
 During the transfer some data might become corrupted, thus it is important to check if the files you transfered have conserved their integrity. This can be done with hash algorithms. A checkshum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
 
