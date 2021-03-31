@@ -28,6 +28,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-size: 3.5em;
     font-weight: 400;
+    margin-bottom: 0.5em;
 }
 
 @media (max-width:992px) {
@@ -151,7 +152,6 @@ pre code {
 /*-----Top navigation-----*/
 
 .navbar {
-    margin-bottom: 40px;
     background-color: var(--nav-bg);
 }
 
@@ -252,17 +252,41 @@ figcaption {
 
 /*-----Sidebar-----*/
 
+@media (min-width: 992px) {
+    #side-nav {
+        display: block !important;
+    }
+}
+
+@media (max-width: 992px) {
+    button[aria-expanded="true"]+#side-nav {
+        margin-top: -1.5em;
+    }
+}
+
+.sidebar-collapse i {
+    font-size: 1.25rem;
+    float: right;
+    line-height: 1.25em;
+}
+
+.sidebar-collapse:not(.collapsed) {
+    color: var(--nav-color);
+    background-color: var(--nav-bg);
+}
+
 .sidebarTitle {
     margin: 11px 0px;
     font-weight: 800;
     font-size: 1.3em;
 }
 
-.container-menu li {
-    list-style: none;
+.menu ul {
+    display: none;
+    padding-left: 0;
 }
 
-.container-menu li a {
+.menu li a {
     margin-top: 4px;
     color: var(--main-text-color);
     background-color: var(--light-grey);
@@ -272,17 +296,13 @@ figcaption {
     border-radius: 4px;
 }
 
-.container-menu ul {
-    padding-left: 0;
+.menu li a:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
 }
 
 .hr-margin {
     margin-top: 20px;
-}
-
-.menu li a:hover {
-    background-color: var(--primary-theme-color);
-    color: var(--white-text);
 }
 
 .menu ul li a {
@@ -299,10 +319,6 @@ figcaption {
     color: var(--white-text);
 }
 
-.menu ul {
-    display: none;
-}
-
 .menu li>a>span {
     float: right;
     font-size: 1.5em;
@@ -315,12 +331,6 @@ figcaption {
 
 .menu li>a>span:after {
     content: '+';
-}
-
-@media (min-width:992px) {
-    .menu {
-        margin-right: 30px;
-    }
 }
 
 /* RDM wheel in sidebar */
@@ -390,18 +400,15 @@ li ul .sidebar_rdm_sub {
     list-style: circle outside;
 }
 
-/* Extra space if the toc is followed by a paragraph */
-
-#toc+p {
-    margin-top: 1.75em;
-}
-
 /*-----Table properties-----*/
 
 table {
     display: block;
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+table, .dataTables_wrapper {
     margin: 40px 0 20px;
 }
 
@@ -613,7 +620,6 @@ h2.card-title {
 
 /*-----Social icons-----*/
 
-
 .social-icons a {
     background-color: var(--main-bg-color);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
@@ -640,7 +646,6 @@ h2.card-title {
     #contributors-carousel .card-body {
         padding: 0.5rem 0.5rem;
     }
-
     #contributors-carousel .card-title {
         font-size: 0.5em
     }
