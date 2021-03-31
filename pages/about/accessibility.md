@@ -30,7 +30,7 @@ This website is only partially compliant with the Web Content Accessibility Guid
 
   * Non-hierarchical headings in the footer ([success criterion 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships))
   * Inability to skip blocks ([success criterion 2.4.1](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html))
-  * Low contrast on a button link to training materials ([success criteria 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))
+  * Low contrast on a button link to training materials ([success criterion 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))
   * Focus state not clear on the data management life cycle diagram ([success criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html))
 
 We plan to fix these issues by June 2021. If you feel there are more issues to address, then please email ([rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org)).
