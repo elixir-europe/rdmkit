@@ -16,7 +16,7 @@ NeLS and the underlying infrastructure are accessible for researchers in Norway 
 
 ## For what can you use the NeLS data management tool assembly?
 
-{% include image.html file="NeLS_toolkit.svg" caption="Figure 1. The Norwegian e-Infrastructure for Life Sciences (NeLS) Data Management tool assembly." alt="NeLS RDMKit" %}
+{% include image.html file="NeLS_toolkit.svg" caption="Figure 1. The Norwegian e-Infrastructure for Life Sciences (NeLS) Data Management tool assembly." alt="NeLS RDMkit" %}
 
 You can access all tools in NeLS using the the national solution for secure login and data sharing in the educational and research sector [FEIDE](https://www.feide.no/), when coupled with [ELIXIR AII](https://elixir-europe.org/services/compute/aai).
 The NeLS Data Management tool assembly can support you with [Data Management Planning](planning) through an [instance of the Data Steward Wizard](https://elixir-no.ds-wizard.org) with a dedicated knowledge model referring to national infrastructure, resources, laws and regulations. Soon you will be able to submit storage request forms for [Data Storage](storage) in NeLS with defined access roles through the Data Steward Wizard.

@@ -6,7 +6,7 @@ toc: false
 ---
 
 We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience.
-Accordingly, everyone who participates in the RDMKit is expected to show respect and courtesy to other community members at all times.
+Accordingly, everyone who participates in the RDMkit is expected to show respect and courtesy to other community members at all times.
 
 All project members, are dedicated to a ***harassment-free experience for everyone***, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. **We do not tolerate harassment by and/or of members of our community in any form**.
 
@@ -33,13 +33,13 @@ To make clear what is expected, we ask all members of the community to conform t
 
 ## 1 Introduction
 
-The RDMKit is a community-oriented and -led project under the auspices of the ELIXIR Research Infrastructure.
+The RDMkit is a community-oriented and -led project under the auspices of the ELIXIR Research Infrastructure.
 We value the involvement of everyone in the community.
 We are committed to creating a friendly and respectful place for learning, teaching and contributing.
 All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
 
-To make clear what is expected, everyone participating in activities associated with the RDMKit is required to conform to this Code of Conduct.
-This Code of Conduct applies to all spaces managed by the RDMKit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
+To make clear what is expected, everyone participating in activities associated with the RDMkit is required to conform to this Code of Conduct.
+This Code of Conduct applies to all spaces managed by the RDMkit including, but not limited to, in-person focus groups and workshops, and communications online via GitHub. For events ELIXIR operates a [Code of Conduct](https://elixir-europe.org/events/code-of-conduct).
 
 For issues around Code of Conduct please contact [rdm-coc@elixir-europe.org](mailto:rdm-coc@elixir-europe.org). 
 
@@ -47,13 +47,13 @@ Reports will be reviewed by the RDM CoC group, unless there is a conflict of int
 
 ## 2 Code of Conduct
 
-The RDMKit team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
+The RDMkit team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity.
 As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others.
 We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Everyone who participates in the RDMKit activities is required to conform to this Code of Conduct.
+Everyone who participates in the RDMkit activities is required to conform to this Code of Conduct.
 This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in person focus groups and workshops, and communications online via GitHub.
-By participating, contributors indicate their acceptance of the procedures by which the RDMKit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
+By participating, contributors indicate their acceptance of the procedures by which the RDMkit project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
 ### 2.1 Expected behaviour
 
@@ -74,7 +74,7 @@ See [this explanation of the four social rules](https://www.recurse.com/manual#s
 
 ### 2.2 Unacceptable behaviour
 
-Examples of unacceptable behaviour by the RDMKit community members at any project event or platform include:
+Examples of unacceptable behaviour by the RDMkit community members at any project event or platform include:
 
 * written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
 * causing someone to fear for their safety, such as through stalking, following, or intimidation
@@ -94,7 +94,7 @@ Examples of unacceptable behaviour by the RDMKit community members at any projec
 ### 2.3 Consequences of unacceptable behaviour
 
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately.
-This applies to all RDMKit community events and platforms, either online or in-person.
+This applies to all RDMkit community events and platforms, either online or in-person.
 If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the [enforcement manual](#4-enforcement-manual) for details).
 
 ### 2.4 Feedback
@@ -118,7 +118,7 @@ A detailed enforcement policy is available in the Enforcement Manual below.
 
 ## 4 Enforcement manual
 
-This is the enforcement manual followed by the RDMKit project team.
+This is the enforcement manual followed by the RDMkit project team.
 It's used when we respond to an issue to make sure we're consistent and fair.
 Enforcement of the Code of Conduct should be respectful and not include any harassing behaviours.
 
@@ -135,7 +135,7 @@ As the community grows, we will seek to build a larger committee including membe
 ### 4.2 Urgent situations: acting unilaterally
 
 If the incident involves physical danger, or involves a threat to anyone's safety (e.g. threats of violence), any member of the community may -- and should -- act unilaterally to protect the safety of any community member.
-This can include contacting law enforcement (or other local personnel) and speaking on behalf of the RDMKit team.
+This can include contacting law enforcement (or other local personnel) and speaking on behalf of the RDMkit team.
 
 If the act is ongoing, any community member may act immediately, before reaching consensus, to diffuse the situation.
 In ongoing situations, any member may at their discretion employ any of the tools available in this enforcement manual, including bans and blocks online, or removal from a physical space.
@@ -179,7 +179,7 @@ Possible responses may include:
   The committee may choose to publish this message elsewhere for posterity.
 * An imposed "time out" from online spaces.
   Niklas Blomberg will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all RDMKit spaces (GitHub, in-person events etc).
+* A permanent or temporary ban from some or all RDMkit spaces (GitHub, in-person events etc).
   The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
   If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
 

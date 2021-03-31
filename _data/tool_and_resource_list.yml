@@ -1,4 +1,13 @@
 Tools:
+- description: Amazon Web Services
+  link: https://aws.amazon.com/
+  name: Amazon Web Services
+  registry:
+    tess: Amazon Web Services
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: Amnesia is a GDPR compliant high accuracy data anonymization tool
   link: https://amnesia.openaire.eu/
   name: Amnesia
@@ -92,6 +101,26 @@ Tools:
   - storage
   - researcher
   - human data
+- description: BioSamples stores and supplies descriptions and metadata about biological
+    samples used in research and development by academia and industry.
+  link: https://www.ebi.ac.uk/biosamples/
+  name: Biosamples
+  registry:
+    biotools: biosamples
+    tess: Biosamples
+  tags:
+  - metadata
+  - plants
+- description: The BioStudies database holds descriptions of biological studies and
+    links to data from these studies in other databases.
+  link: https://www.ebi.ac.uk/biostudies/
+  name: Biostudies
+  registry:
+    biotools: biostudies
+    tess: Biostudies
+  tags:
+  - metadata
+  - plants
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -124,6 +153,7 @@ Tools:
   tags:
   - storage
   - IT support
+  - transfer
 - description: 'Specification for a standard API for plant data: plant material, plant
     phenotyping data'
   link: https://www.brapi.org
@@ -178,6 +208,11 @@ Tools:
     biotools: cath
     fairsharing: xgcyyn
     tess: CATH
+- description: CERNBox cloud data storage, sharing and synchronization
+  link: https://information-technology.web.cern.ch/services/cernbox-service
+  name: CERNBox
+  tags:
+  - storage
 - description: Dictionary of molecular entities focused on 'small' chemical compounds
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
@@ -253,6 +288,11 @@ Tools:
   - data manager
   - IT support
   - plants
+- description: Cloud Storage Services for Synchronization and Sharing (CS3)
+  link: https://www.cs3community.org/
+  name: CS3
+  tags:
+  - storage
 - description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
@@ -286,7 +326,7 @@ Tools:
   link: https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets
   name: data.world Data License list
   tags:
-  - data publication
+  - licensing
   - biomol sim
 - description: Open source research data respository software.
   link: https://dataverse.org/
@@ -343,8 +383,8 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Online questionnaire for the development of data management plans;
-    repository of DMPs
+- description: Online questionnaire for the development of data management plans -  repository
+    of DMPs
   link: https://dmp.opidor.fr
   name: DMP OPIDoR
   tags:
@@ -409,6 +449,7 @@ Tools:
   tags:
   - storage
   - IT support
+  - transfer
 - description: Open-source, community-led data curation, publishing, and preservation
     platform for CC0 publicly available research data
   link: https://datadryad.org/
@@ -459,6 +500,13 @@ Tools:
   name: EasyDMP
   tags:
   - DMP
+  - researcher
+  - data manager
+- description: Hub for the identification of plant genetic resources in Europe
+  link: https://www.ecpgr.cgiar.org/
+  name: ECPGR
+  tags:
+  - plants
   - researcher
   - data manager
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
@@ -536,6 +584,8 @@ Tools:
     biotools: eurisco
   tags:
   - plants
+  - researcher
+  - data manager
 - description: Europe PMC is a repository, providing access to worldwide life sciences
     articles, books, patents and clinical guidelines.
   link: https://europepmc.org/
@@ -665,6 +715,12 @@ Tools:
   - data publication
   - IT support
   - data manager
+- description: Cloud Storage for Work and Home
+  link: https://www.google.com/intl/en_us/drive/
+  name: Google Drive
+  tags:
+  - storage
+  - transfer
 - description: A multispecies integrative information system dedicated to plant and
     fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
     It is used by both large international projects and the French National Research
@@ -722,6 +778,13 @@ Tools:
   - researcher
   - human data
   - data analysis
+- description: Data sharing
+  link: https://www.icloud.com/
+  name: iCloud
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: Intrinsically disordered proteins ontology
   link: https://disprot.org/about
   name: IDPO
@@ -857,6 +920,13 @@ Tools:
   - data manager
   - plants
 - description: Cloud storage and file sharing service from Microsoft
+  link: https://azure.microsoft.com/en-gb/
+  name: Microsoft Azure
+  tags:
+  - storage
+  - IT support
+  - transfer
+- description: Cloud storage and file sharing service from Microsoft
   link: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
   name: Microsoft OneDrive
   tags:
@@ -942,6 +1012,15 @@ Tools:
   - data protection
   - policy officer
   - human data
+- description: The Multi-crop Passport Descriptors are an international standard to
+    facilitate germplasm passport information exchange
+  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21//
+  name: MCPD
+  registry:
+    biotools: mcpd
+  tags:
+  - metadata
+  - plants
 - description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
     scientists and their international collaborators to store, share, archive, and
     analyse their omics-scale data
@@ -958,6 +1037,7 @@ Tools:
   tags:
   - storage
   - IT support
+  - transfer
 - description: Nextflow is a framework for data analysis workflow execution
   link: https://www.nextflow.io
   name: Nextflow
@@ -1057,6 +1137,8 @@ Tools:
   tags:
   - storage
   - IT support
+  - transfer
+  - data analysis
 - description: PAA is an R/Bioconductor tool for protein microarray data analysis
     aimed at biomarker discovery.
   link: https://bioconductor.org/packages/PAA/
@@ -1190,6 +1272,12 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: Reva connects cloud storages and application providers
+  link: https://reva.link/
+  name: Reva
+  tags:
+  - data analysis
+  - transfer
 - description: RightField is an open-source tool for adding ontology term selection
     to Excel spreadsheets
   link: https://rightfield.org.uk
@@ -1210,6 +1298,13 @@ Tools:
   - data analysis
   - IT support
   - researcher
+- description: Rucio - Scientific Data Management
+  link: https://rucio.cern.ch/
+  name: Rucio
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: Small Angle Scattering Biological Data Bank
   link: https://www.sasbdb.org/
   name: SASBDB
@@ -1223,6 +1318,14 @@ Tools:
   - metadata
   - data manager
   - researcher
+- description: ScienceMesh - frictionless scientific collaboration and access to research
+    services
+  link: https://sciencemesh.io/
+  name: ScienceMesh
+  tags:
+  - storage
+  - data analysis
+  - transfer
 - description: List of respositories recommended by Scinetific Data, contains both
     discipline-specific and general repositories.
   link: https://www.nature.com/sdata/policies/repositories
@@ -1232,6 +1335,12 @@ Tools:
   - researcher
   - data manager
   - IT support
+- description: SeaFile File Synchronization and Share Solution
+  link: https://www.seafile.com/
+  name: SeaFile
+  tags:
+  - storage
+  - transfer
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc.
   link: https://seek4science.org/

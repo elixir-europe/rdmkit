@@ -1,68 +1,56 @@
 <div class="blurb-title">
-    Are you working in the Life Sciences with data? Do you feel overwhelmed when you think about Research Data Management?
+  Are you working with data in the Life Sciences? Do you feel overwhelmed when you think about Research Data Management?
 </div>
-<p>The ELIXIR Research Data Management Kit (RDMKit) is an online guide containing good data management practices applicable to research projects from the
-    beginning to the end. Developed and managed by people who work every day with life science data, RDMKit has
-    guidelines, information and pointers, organised in many different ways to help you with problems throughout
-    the data’s life cycle.
+<p>The ELIXIR Research Data Management Kit (RDMkit) is an online guide containing good data management practices applicable to research projects from the
+    beginning to the end. Developed and managed by people who work every day with life science data, the RDMkit has
+    guidelines, information, and pointers to help you with problems throughout the data’s life cycle.
 </p>
-<br>
-
-<p class="centered mb-2"><strong>Find resources by clicking on the RDM data lifecycle</strong></p>
-<div class="ratio main_rdm">
-    <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
+<p>
+  The RDMkit organises information into the six sections displayed below, which are interconnected but can be browsed independently.
+</p>
+{%- assign sidebar = site.data.sidebars[page.sidebar] %}
+{%- for folder in sidebar.subitems %}
+{%- if folder.title == "Data life cycle" %}
+<div class="card mb-4 mt-5">
+  <div class="card-body">
+    <h2 class="card-title no-anchor">{{folder.title}}</h2>
+    <p class="card-text">{{folder.description}}</p>
+    <div class="ratio main_rdm">
+      <object type="image/svg+xml" data="images/RDM_circle_final4.svg"></object>
+    </div>
+  </div>
 </div>
-
-<p>Or find resources by:</p>
-<div id="home-boxes" class="row align-items-start">
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Your role
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a href="/researcher.html">Researcher</a></li>
-        <li><a href="/data_steward_policy.html">Data steward policy</a></li>
-        <li><a href="/data_steward_research.html">Data steward research</a></li>
-        <li><a href="/data_steward_infrastructure.html">Data steward infrastructure</a></li>
-    </ul>
-</div>
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-    Your domain
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-    <li><a href="/plant_sciences.html">Plant sciences</a></li>
-    <li><a href="/marine_metagenomics.html">Marine metagenomics</a></li>
-    <li><a href="/human_data.html">Human data</a></li>
-    <li><a href="/biomolecular_simulation_data.html">Biomolecular simulation data</a></li>
-    <li><a href="/intrinsically_disordered_proteins.html">Intrinsically disordered proteins</a></li>
-    </ul>
-</div>
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
-    Your problem
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-    <li><a href="/compliance_monitoring.html">Compliance monitoring</a></li>
-    <li><a href="/data_analysis.html">Data analysis</a></li>
-    <li><a href="/data_classification.html">Data classification</a></li>
-    <li><a href="/data_management_plan.html">Data management Plan</a></li>
-    <li><a href="/data_organisation.html">Data organisation</a></li>
-    <li><a href="/data_protection.html">Data protection</a></li>
-    <li><a href="/data_publication.html">Data publication</a></li>
-    <li><a href="/data_quality.html">Data quality</a></li>
-    <li><a href="/data_transfer.html">Data transfer</a></li>
-    <li><a href="/licensing.html">Licensing</a></li>
-    <li><a href="/metadata_management.html">Metadata management</a></li>
-    <li><a href="/storage.html">Data storage</a></li>
-  </ul>
-</div>
-<div class="dropdown col">
-  <a class="dropdown-toggle" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
-    Tools assembly
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
-      <li><a  href="/nels_assembly.html">NeLS</a></li>
-    </ul>
-</div>
+{%- endif %}
+{%- endfor %}
+<div class="row row-cols-1 row-cols-md-2 g-4 home-cards mb-5">
+  {%- assign i = 1 %}
+  {%- for folder in sidebar.subitems %}
+  {%- if folder.title != "Data life cycle" %}
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title no-anchor">{{folder.title}}</h2>
+        <p class="card-text">{{folder.description}}</p>
+          {%- if folder.title == "All tools and resources"%}
+          <ul>
+          <li><a href="{{folder.url | relative_url }}">All tools and resources page</a></li>
+          </ul>
+          {%- else %}
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ i }}" data-text-alt="Hide pages" aria-expanded="false" aria-controls="collapse{{ i }}" style="min-width: 9em;" class="btn-custom plus toggle-text collapsed">
+            Show pages
+          </button>
+          <div class="collapse" id="collapse{{ i }}">
+            <ul>
+              {%- for folderitem in folder.subitems %}
+              <li><a href="{{folderitem.url | relative_url }}">{{folderitem.title}}</a></li>
+              {%- endfor %}
+            </ul>
+          </div>
+          {%- assign i = i | plus:1 %}
+          {%- endif %}
+      </div>
+    </div>
+  </div>
+  {%- endif %}
+  {%- endfor %}
 </div>

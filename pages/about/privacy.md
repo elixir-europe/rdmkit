@@ -1,5 +1,6 @@
 ---
 title: Privacy
+sidebar: about
 toc: false
 ---
 

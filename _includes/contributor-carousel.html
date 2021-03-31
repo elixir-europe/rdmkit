@@ -18,33 +18,42 @@
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
 {%- endif  %}
-<div class="contributor-container">
-    <div id="contributors-carousel" class="carousel carousel-dark slide" data-ride="carousel" data-bs-interval="7000">
-        <div class="carousel-inner">
-            {%- assign counter = 0 %}
-            {%- for contributor in allcontributors %}
-                {%- capture modulo %}{{ counter | modulo:nr }}{% endcapture %}
-                  {%- if modulo == '0' or counter == 0 %}
-                  {%- if counter != 0 %}
+<div id="contributors-carousel" class="carousel carousel-dark slide my-4" data-ride="carousel" data-bs-interval="7000">
+    <div class="carousel-inner">
+        {%- assign counter = 0 %}
+        {%- for contributor in allcontributors %}
+        {%- capture modulo %}{{ counter | modulo:nr }}{% endcapture %}
+        {%- if modulo == '0' or counter == 0 %}
+        {%- if counter != 0 %}
             </div>
-            {%- endif %}
-            <div class="carousel-item {% if counter == 0 %}active{% endif %}">
-                  {%- endif %}
-                <div class="hall-of-fame-hero">
+        </div>
+        {%- endif %}
+        <div class="carousel-item {% if counter == 0 %}active{% endif %}">
+            <div class="row row-cols-5 contributor-cards g-1 g-sm-4 ">
+        {%- endif %}
+                <div class="col">
+                    <div class="card h-100">
                     {%- assign id = contributors[contributor].git | default: 'no_github' %}
-                    <img src="https://avatars.githubusercontent.com/{{id}}" alt="{{id}}">
-                    <p class="name">{{ contributor }}</p>
-                    <ul class="social-icons">
-                        {%- if contributors[contributor].git %}
-                        <li><a href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></li>
+                    <div>
+                        <img src="https://avatars.githubusercontent.com/{{id}}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-title">{{ contributor }}</p>
+                        {%- if contributors[contributor].git or contributors[contributor].email or contributors[contributor].orcid %}
+                        <div class="d-flex mt-3 justify-content-center social-icons">
+                            {%- if contributors[contributor].git %}
+                            <div class="mx-1"><a href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
+                            {%- endif %}
+                            {%- if contributors[contributor].email %}
+                            <div class="mx-1"><a href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
+                            {%- endif %}
+                            {%- if contributors[contributor].orcid %}
+                            <div class="mx-1"><a href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
+                            {%- endif %}
+                        </div>
                         {%- endif %}
-                        {%- if contributors[contributor].email %}
-                        <li><a href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></li>
-                        {%- endif %}
-                        {%- if contributors[contributor].orcid %}
-                        <li><a href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></li>
-                        {%- endif %}
-                    </ul>
+                    </div>
+                    </div>
                 </div>
             {%- assign counter = counter | plus:1 %}
             {%- if forloop.last %}
@@ -55,10 +64,10 @@
         <button class="carousel-control-prev" type="button" data-bs-target="#contributors-carousel"  data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#contributors-carousel"  data-bs-slide="next">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#contributors-carousel"  data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button>
+        </button>
     </div>
 </div>

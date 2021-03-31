@@ -7,7 +7,7 @@ description: prepare data and find repositories for publication.
 ---
 
 
-## Can I really deposit my data in a public repository?
+## Can you really deposit your data in a public repository?
 
 ### Description
 Sometimes it is difficult to determine if publishing data you have at hand is the right thing to do. Some reasons for hesitations might be that you have not used the data in a publication yet and don't want to be scooped, that the data contains personal information about patients or that the data was collected or produced in a collaboration.
@@ -23,7 +23,7 @@ Sometimes it is difficult to determine if publishing data you have at hand is th
 * Many repositories provide the option to put an embargo on a deposited dataset. This might be useful if you prefer to use the data in a publication before making it available for others to use.
 * Establish an agreement outlining the controllership of the data and each collaborators' rights and responsibilities.
 
-## Which repository should I use to publish my data?
+## Which repository should you use to publish your data?
 
 ### Description
 Once you have completed your experiments and have performed quality control of your data it is good scientific practice to share your data in a public repository. Publishing your data is often required by funders and publishers.
@@ -40,20 +40,16 @@ The most suitable repository will depend on the data type and your discipline.
   * What are the repository's policies concerning licences and data reuse?
 
 ### Solutions
-* Discipline-Specific Repositories
-If a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
+* Discipline-specific repositories: If a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
   * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
   * Lists of discipline-specific, community-recognised repositories can be found in the following links:
-    * [ELIXIR's Recommended Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases).
-    * [Scientific Data's Recommended Repositories](https://www.nature.com/sdata/policies/repositories).
-
-
-* General Purpose and Institutional repositories
-For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [General Purpose Repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your Institution or University.
+    * [ELIXIR Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases).
+    * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories).
+* General-purpose and institutional repositories: For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [general-purpose repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your institution or university.
 
 
 
-## How do I prepare my data for publication?
+## How do you prepare your data for publication?
 
 ### Description
 Once you have decided to publish your data there are a few preparations that need to be done to get the data ready for repository submission.

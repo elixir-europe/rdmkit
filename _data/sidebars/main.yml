@@ -1,8 +1,10 @@
 subitems:
   - title: Data life cycle
+    description: Start here to get an overview of research data management. Click on a section of the diagram below to get an introduction to that stage of the data management life cycle.
     subitems:
       - RDM: True
   - title: Your role
+    description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
     subitems:
       - title: Researcher
         url: /researcher.html
@@ -13,6 +15,7 @@ subitems:
       - title: Data steward infrastructure
         url: /data_steward_infrastructure.html
   - title: Your domain
+    description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.
     subitems:
       - title: Plant sciences
         url: /plant_sciences.html
@@ -24,13 +27,16 @@ subitems:
         url: /biomolecular_simulation_data.html
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins.html
+      - title: Microbial biotechnology
+        url: /microbial_biotechnology.html
   - title: Your problem
+    description: Find guidelines and solutions for tackling common data management problems.
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring.html
       - title: Data analysis
         url: /data_analysis.html
-      - title: Data management Plan
+      - title: Data management plan
         url: /data_management_plan.html
       - title: Data organisation
         url: /data_organisation.html
@@ -52,10 +58,15 @@ subitems:
         url: /sensitive_data.html
 
   - title: All tools and resources
+    description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
     hr: True
   - title: Tools assembly
+    description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     hr: True
     subitems:
       - title: NeLS
         url: /nels_assembly.html
+      - title: Covid-19 Data Portal
+        url: /covid19_data_portal.html
+
