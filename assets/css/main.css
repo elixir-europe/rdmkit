@@ -28,6 +28,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-size: 3.5em;
     font-weight: 400;
+    margin-bottom: 0.5em;
 }
 
 @media (max-width:992px) {
@@ -335,6 +336,12 @@ figcaption {
     }
 }
 
+@media (max-width:992px) {
+    .menu {
+        margin-top: -1.5em;
+    }
+}
+
 /* RDM wheel in sidebar */
 
 .sidebar_rdm {
@@ -402,11 +409,6 @@ li ul .sidebar_rdm_sub {
     list-style: circle outside;
 }
 
-/* Extra space if the toc is followed by a paragraph */
-
-#toc+p {
-    margin-top: 1.75em;
-}
 
 /*-----Table properties-----*/
 
@@ -414,6 +416,9 @@ table {
     display: block;
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+table, .dataTables_wrapper {
     margin: 40px 0 20px;
 }
 
