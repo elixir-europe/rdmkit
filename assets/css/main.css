@@ -236,7 +236,7 @@ ul#results-container li a:hover {
     margin: 20px 0px;
 }
 
-.post-content img {
+.post-content figure img {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -616,6 +616,16 @@ h2.card-title {
     background-color: var(--light-grey);
     border: 0;
     border-radius: 4px;
+}
+
+.contributor-cards .badge {
+    background-color: var(--primary-theme-color);
+    margin: 10px 10px 0px 0px;
+}
+
+.contributor-cards .card-affiliation {
+    color: var(--primary-theme-color);
+    font-size: 0.8em;
 }
 
 /*-----Social icons-----*/

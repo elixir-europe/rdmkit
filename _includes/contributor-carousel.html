@@ -39,6 +39,9 @@
                     </div>
                     <div class="card-body text-center">
                         <p class="card-title">{{ contributor }}</p>
+                        {%- if contributors[contributor].affiliation %}
+                        <p class="card-affiliation">{{ contributors[contributor].affiliation }}</p>
+                        {%- endif %}
                         {%- if contributors[contributor].git or contributors[contributor].email or contributors[contributor].orcid %}
                         <div class="d-flex mt-3 justify-content-center social-icons">
                             {%- if contributors[contributor].git %}
