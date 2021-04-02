@@ -69,10 +69,10 @@ If you’ve never installed or run a Jekyll site locally on your computer, follo
     gem install jekyll bundler
     ```
 
-5. Update dependencies
+5. Install dependencies
 
     ```
-    bundle update
+    bundle install
     ```
 
 6. deploy website
