@@ -1,4 +1,7 @@
 {%- assign contributors = site.data.CONTRIBUTORS %}
+{%- if include.custom %}
+{%- assign allcontributors = include.custom | split: ", " | sort %}
+{%- else %}
 {%- for page in site.pages %}
 {%- if page.contributors and page.search != "exclude" %}
 {%- assign pagecontr = page.contributors | join: ", " %}
@@ -13,13 +16,18 @@
 {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
+{%- endif  %}
 <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-5 g-4 contributor-cards">
     {%- for contributor in allcontributors %}
     <div class="col">
       <div class="card h-100">
         {%- assign id = contributors[contributor].git | default: 'no_github' %}
         <div class="position-relative">
+          {%- if contributors[contributor].image_url %}
+          <img src="{{ contributors[contributor].image_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
+          {%- else %}
           <img src="https://avatars.githubusercontent.com/{{id}}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
+          {%- endif %}
           {%- if contributors[contributor].role %}
           <span class="badge position-absolute top-0 end-0">{{ contributors[contributor].role | capitalize }}</span>
           {%- endif %}

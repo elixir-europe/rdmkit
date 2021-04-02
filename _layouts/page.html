@@ -2,17 +2,15 @@
 layout: default
 ---
 {%- if page.title %}
-<div class="post-header">
-    <h1>{{ page.title }}
-        {%- unless site.github_editme_path == nil %}
-        {%- if page.custom-editme %}
-        <a href="https://github.com/{{site.github_editme_path}}{{page.custom-editme}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
-        {%- else %}
-        <a href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
-        {%- endif %}
-        {%- endunless %}
-    </h1>
-</div>
+<h1>{{ page.title }}
+    {%- unless site.github_editme_path == nil %}
+    {%- if page.custom-editme %}
+    <a href="https://github.com/{{site.github_editme_path}}{{page.custom-editme}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
+    {%- else %}
+    <a href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
+    {%- endif %}
+    {%- endunless %}
+</h1>
 {%- endif %}
 <div class="post-content">
     {%- if page.summary %}

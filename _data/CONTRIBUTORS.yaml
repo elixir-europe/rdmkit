@@ -1,6 +1,14 @@
 # List of contributors
 #
 # reference maintainers/contributors by their name used in contributors metadata section on the pages.
+# Extra metadata that is possible to add:
+# Full Name:
+#    git: github id
+#    email: email adress
+#    orcid: ocrid id
+#    role: the role of the contributor
+#    affiliation: affiliation
+#    image_url: absolute path to image (default image from github)
 
 Bert Droesbeke:
     git: bedroesb
@@ -21,10 +29,16 @@ Pinar Alper:
     role: editor
 Carole Goble:
     git: CaroleGoble
-    role: editor
+    role: lead
+    orcid: 0000-0003-1219-2137
+    affiliation: University of Manchester
+Inge Jonassen:
+    role: lead
+    affiliation: University of Bergen
+    image_url: https://pbs.twimg.com/profile_images/598536528655167488/eiRP7wNL.jpg
 Frederik Coppens:
     git: frederikcoppens
-    role: editor
+    role: lead
     affiliation: VIB-UGent
 Mijke Jetten:
     git: MijkeJetten

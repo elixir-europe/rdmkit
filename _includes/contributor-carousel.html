@@ -35,7 +35,11 @@
                     <div class="card h-100">
                     {%- assign id = contributors[contributor].git | default: 'no_github' %}
                     <div>
+                        {%- if contributors[contributor].image_url %}
+                        <img src="{{ contributors[contributor].image_url }}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
+                        {%- else %}
                         <img src="https://avatars.githubusercontent.com/{{id}}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
+                        {%- endif %}
                     </div>
                     <div class="card-body text-center">
                         <p class="card-title">{{ contributor }}</p>
