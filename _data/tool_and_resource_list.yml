@@ -1475,6 +1475,8 @@ Tools:
 - description: Reva connects cloud storages and application providers
   link: https://reva.link/
   name: Reva
+  registry:
+    biotools: reva
   tags:
   - data analysis
   - transfer
