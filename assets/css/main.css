@@ -323,6 +323,8 @@ figcaption {
     float: right;
     font-size: 1.5em;
     line-height: 1;
+    width: 15px;
+    text-align: center;
 }
 
 .menu li.active>a>span:after {
