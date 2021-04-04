@@ -195,6 +195,7 @@ pre code {
 
 #search-input {
     width: 15em;
+    border: 1px solid var(--nav-bg);
 }
 
 #search-input:focus {
