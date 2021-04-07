@@ -1558,10 +1558,10 @@ Tools:
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc.
   link: https://seek4science.org/
-  name: SEEK
+  name: FAIRDOM-SEEK
   registry:
     biotools: seek
-    tess: SEEK
+    tess: FAIRDOM-SEEK
   tags:
   - storage
   - IT support
