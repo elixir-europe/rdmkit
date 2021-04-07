@@ -5,7 +5,7 @@ topnav:
   items:
     - title: About
       url: about.html
-    - title: GitHub
-      external_url: https://github.com/elixir-europe/rdmkit
     - title: Contribute
       url: how_to_contribute.html
+    - title: GitHub
+      external_url: https://github.com/elixir-europe/rdmkit
