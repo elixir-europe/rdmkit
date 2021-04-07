@@ -32,7 +32,6 @@ researcher:
 # Domain tags
 plants:
   url: plant_sciences.html
-  bg-color: "#5cb85c"
 marine:
   url: marine_metagenomics.html
 human data:
