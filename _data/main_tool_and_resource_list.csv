@@ -40,7 +40,7 @@ ChEBI,https://www.ebi.ac.uk/chebi/,Dictionary of molecular entities focused on '
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.",fairsharing:m3jtpg,,,,,,,,,,,,,,,,,,,,,,
 Choose a license,https://choosealicense.com,Choose an open source license,,"licensing, researcher, data manager, policy officer",,,,,,,,,,,,,,,,,,,,,
 COmputational Modeling in BIology NEtwork (COMBINE),http://co.mbine.org,An initiative to bring together various formats and standard for computational models in biology,,micro biotech,,,,,,,,,,,,,,,,,,,,,
-Common Workflow Language (CWL),https://www.commonwl.org,"An open standard for describing workflows that are build from command line tools",fairsharing:bsg-s000606,"plants, marine, human data, biomol sim, IDP, struct info, IT support, policy officer, researcher, data analysis"
+Common Workflow Language (CWL),https://www.commonwl.org,"An open standard for describing workflows that are build from command line tools",fairsharing:bsg-s000606,"IT support, policy officer, researcher, data analysis"
 Conda,https://docs.conda.io/en/latest/,Open source package management systemn,,"IT support, data analysis",,,,,,,,,,,,,,,,,,,,,
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data,,,,,,,,,,,,,,,,,,,,,
 COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:copo, fairsharing:biodbcore-001247","metadata, researcher, plants",,,,,,,,,,,,,,,,,,,,,
