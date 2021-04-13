@@ -573,10 +573,6 @@ h2.card-title {
 
 /*-----Contributors cards-----*/
 
-#contributors-carousel .carousel-control-next, .carousel-control-prev {
-    width: 3%;
-}
-
 .contributor-cards .card {
     background-color: var(--light-grey);
     border: 0;
@@ -591,6 +587,29 @@ h2.card-title {
 .contributor-cards .card-affiliation {
     color: var(--primary-theme-color);
     font-size: 0.8em;
+}
+
+.contributor-cards .card-body {
+    padding-top: 0rem;
+}
+
+/*-----Contributors carousel-----*/
+
+#contributors-carousel .carousel-control-next, .carousel-control-prev {
+    width: 3%;
+}
+
+@media (max-width:768px) {
+    #contributors-carousel .card-title {
+        font-size: 0.5em
+    }
+    #contributors-carousel .card-affiliation {
+        color: var(--primary-theme-color);
+        font-size: 0.4em;
+    }
+    #contributors-carousel .card-body {
+        padding: 0rem 0.5rem 0.5rem 0.5rem;
+    }
 }
 
 /*-----Social icons-----*/
@@ -617,12 +636,6 @@ h2.card-title {
         line-height: 1.2ex;
         width: 1.2ex;
         height: 1.2ex;
-    }
-    #contributors-carousel .card-body {
-        padding: 0.5rem 0.5rem;
-    }
-    #contributors-carousel .card-title {
-        font-size: 0.5em
     }
 }
 
