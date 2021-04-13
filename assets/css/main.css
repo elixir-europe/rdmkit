@@ -155,14 +155,6 @@ pre code {
     background-color: var(--nav-bg);
 }
 
-.navbar-brand {
-    color: var(--primary-theme-color);
-}
-
-.navbar-brand:hover {
-    color: var(--nav-color);
-}
-
 .navbar-nav .nav-item a {
     color: var(--nav-color);
 }
