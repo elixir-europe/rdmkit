@@ -1,15 +1,15 @@
 :root {
     --primary-theme-color: #C23669;
-    --secondairy-theme-color: #2a2e3d;
+    --secondary-theme-color: #2a2e3d;
     --link-color: #376AC3;
     --light-grey: #f3f1f2;
     --white: #ffffff;
     --hover-grey: #83858e;
-    --nav-bg: var(--secondairy-theme-color);
+    --nav-bg: var(--secondary-theme-color);
     --nav-color: var(--white);
-    --main-text-color: var(--secondairy-theme-color);
+    --main-text-color: var(--secondary-theme-color);
     --main-bg-color: var(--white);
-    --footer-bg: var(--secondairy-theme-color);
+    --footer-bg: var(--secondary-theme-color);
     --footer-color: var(--white);
     --white-text: var(--white);
 }
@@ -155,6 +155,14 @@ pre code {
     background-color: var(--nav-bg);
 }
 
+.navbar-brand {
+    color: var(--primary-theme-color);
+}
+
+.navbar-brand:hover {
+    color: var(--nav-color);
+}
+
 .navbar-nav .nav-item a {
     color: var(--nav-color);
 }
@@ -276,7 +284,7 @@ figcaption {
     background-color: var(--nav-bg);
 }
 
-.sidebarTitle {
+.sidebar-title {
     margin: 11px 0px;
     font-weight: 800;
     font-size: 1.3em;
@@ -628,13 +636,13 @@ h2.card-title {
 
 /*-----Edit me button-----*/
 
-.githubEditButton {
+.github-edit-btn {
     color: var(--primary-theme-color);
     margin-left: 12px;
     font-size: small;
 }
 
-.githubEditButton:hover {
+.github-edit-btn:hover {
     color: var(--primary-theme-color);
     background-color: var(--light-grey);
     text-decoration: none;
