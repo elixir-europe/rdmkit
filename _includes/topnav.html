@@ -14,37 +14,37 @@
                     {%- for entry in topnav.topnav -%}
                     {%- for item in entry.items -%}
                     {%- if item.external_url -%}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
+                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                        <a class="nav-link ps-2" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
                     </li>
                     {% elsif page.url contains item.url %}
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{item.url | relative_url }}">{{item.title}}</a>
+                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                        <a class="nav-link ps-2 active" aria-current="page" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{item.url | relative_url }}">{{item.title}}</a>
+                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                        <a class="nav-link ps-2" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% endif %}
                     {%- endfor %}
                     {%- endfor %}
                     <!--start Feedback button-->
                     {%- unless site.feedback_disable %}
-                    <li class="nav-item">
+                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
                         {%- if site.feedback_text -%}
                         {%- assign feedback_text = site.feedback_text -%}
                         {%- else -%}
                         {%- assign feedback_text = "Feedback" -%}
                         {%- endif -%}
                         {% if site.feedback_link %}
-                        <a class="nav-link" title="Submit feedback" href="{{site.feedback_link}}">{{feedback_text}}</a>
+                        <a class="nav-link ps-2" title="Submit feedback" href="{{site.feedback_link}}">{{feedback_text}}</a>
                         {% else %}
-                        <a class="nav-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:{{site.contact_email}}?subject={{site.feedback_subject_line}}&body=I have some feedback about the {{page.title}} page: ' + window.location.href;"><i class="far fa-envelope"></i> {{feedback_text}}</a>
+                        <a class="nav-link ps-2" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:{{site.contact_email}}?subject={{site.feedback_subject_line}}&body=I have some feedback about the {{page.title}} page: ' + window.location.href;"><i class="far fa-envelope"></i> {{feedback_text}}</a>
                         {% endif %}
                     </li>
                     {% endunless %}
                     <!--start search-->
-                    <li class="nav-item">
+                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
                         <form autocomplete="off" class="form-inline">
                             <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
                             <ul id="results-container"></ul>

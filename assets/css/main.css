@@ -178,19 +178,6 @@ pre code {
     color: var(--primary-theme-color);
 }
 
-@media (min-width:992px) {
-    .navbar-nav .nav-item {
-        margin-left: 15px;
-    }
-}
-
-@media (max-width:992px) {
-    .navbar-nav .nav-item a {
-        padding-left: 11px;
-        margin-top: 4px;
-    }
-}
-
 /*-----Search box top navigation-----*/
 
 #search-input {
