@@ -14,15 +14,15 @@
                     {%- for entry in topnav.topnav -%}
                     {%- for item in entry.items -%}
                     {%- if item.external_url -%}
-                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
                         <a class="nav-link ps-2" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
                     </li>
                     {% elsif page.url contains item.url %}
-                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
                         <a class="nav-link ps-2 active" aria-current="page" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% else %}
-                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
                         <a class="nav-link ps-2" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% endif %}
@@ -30,7 +30,7 @@
                     {%- endfor %}
                     <!--start Feedback button-->
                     {%- unless site.feedback_disable %}
-                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
                         {%- if site.feedback_text -%}
                         {%- assign feedback_text = site.feedback_text -%}
                         {%- else -%}
@@ -44,7 +44,7 @@
                     </li>
                     {% endunless %}
                     <!--start search-->
-                    <li class="nav-item ms-0 ms-lg-2 mt-2 mt-lg-0">
+                    <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
                         <form autocomplete="off" class="form-inline">
                             <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
                             <ul id="results-container"></ul>
