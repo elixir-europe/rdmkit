@@ -50,6 +50,8 @@ subitems:
         url: /storage.html
       - title: Data transfer
         url: /data_transfer.html
+      - title: Identifiers
+        url: /identifiers.html
       - title: Licensing
         url: /licensing.html
       - title: Metadata management
