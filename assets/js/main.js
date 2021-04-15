@@ -57,7 +57,7 @@ $(function () {
 })
 
 /**
- * Toggle home button texts
+ * Toggle button texts
  */
  jQuery(function ($) {
   $('.toggle-text[data-bs-toggle="collapse"]').on('click', function () {
