@@ -1,38 +1,65 @@
 # List of contributors
 #
 # reference maintainers/contributors by their name used in contributors metadata section on the pages.
+# Extra metadata that is possible to add:
+# Full Name:
+#    git: github id
+#    email: email adress
+#    orcid: ocrid id
+#    role: the role of the contributor
+#    affiliation: affiliation
+#    image_url: absolute path to image (default image from github)
 
 Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
     orcid: 0000-0003-0522-5674
+    role: editor
+    affiliation: VIB-UGent
 Flora D'Anna:
     git: floradanna
+    role: editor
+    affiliation: VIB-UGent
 Daniel Faria:
     git: DanFaria
+    role: editor
     orcid: 0000-0003-1511-277X
 Pinar Alper:
     git: pinarpink
     orcid: 0000-0002-2224-0780
+    role: editor
 Carole Goble:
     git: CaroleGoble
+    role: lead
+    orcid: 0000-0003-1219-2137
+    affiliation: University of Manchester
+Inge Jonassen:
+    role: lead
+    affiliation: University of Bergen
+    image_url: https://pbs.twimg.com/profile_images/598536528655167488/eiRP7wNL.jpg
 Frederik Coppens:
     git: frederikcoppens
+    role: lead
+    affiliation: VIB-UGent
 Mijke Jetten:
     git: MijkeJetten
     email: m.jetten@dtls.nl
     orcid: 0000-0001-9114-2896
+    role: editor
 Nicola Soranzo:
     git: nsoranzo
     orcid: 0000-0003-3627-5340
+    affiliation: Earlham Institute
 Munazah Andrabi:
     git: smza
+    role: editor
 Vicky Sundesha:
     git: vsundesha
 Rob Hooft:
     git: rwwh
     email: rob.hooft@dtls.nl
     orcid: 0000-0001-6825-9439
+    role: editor
 Karel Berka:
     git: KarelBerka
     email: karel.berka@upol.cz
@@ -49,6 +76,7 @@ Anastasia Chasapi:
     git: achasapi
 Ulrike Wittig:
     git: wittigue
+    role: editor
 Wei Gu:
      git: weiguUL
      email: wei.gu@uni.lu
@@ -61,6 +89,7 @@ Niclas Jareborg:
     git: nicjar
     email: niclas.jareborg@nbis.se
     orcid: 0000-0002-4520-044X
+    role: editor
 Elin Kronander:
     git: elinkronander
     email: elin.kronander@nbis.se
@@ -89,6 +118,7 @@ Laura Portell Silva:
     git: lauportell
     email: laura.portell@bsc.es
     orcid: 0000-0003-0390-3208
+    role: editor
 Federico Bianchini:
     git: bianchini88
     email: federico.bianchini@mn.uio.no
@@ -110,15 +140,16 @@ Priit Adler:
     email: adler@ut.ee
     orcid: 0000-0001-8276-5135
 Gregoire Rossier:
-    Email: gregoire.rossier@sib.swiss
-    Orcid: 0000-0002-0065-5053
+    email: gregoire.rossier@sib.swiss
+    orcid: 0000-0002-0065-5053
 Alexander Botzki:
     git: abotzki
     email: alexander.botzki@vib.be
     orcid: 0000-0001-6691-4233
 Martin Cook:
     git: martin-nc
-    email: martin.cook@elixir-europe.org 
+    email: martin.cook@elixir-europe.org
+    role: editor
 Victoria Dominguez D. Angel:
     git: vdda
     orcid: 0000-0002-5514-6651
