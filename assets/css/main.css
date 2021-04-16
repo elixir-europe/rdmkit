@@ -1,15 +1,15 @@
 :root {
     --primary-theme-color: #C23669;
-    --secondairy-theme-color: #2a2e3d;
+    --secondary-theme-color: #2a2e3d;
     --link-color: #376AC3;
     --light-grey: #f3f1f2;
     --white: #ffffff;
     --hover-grey: #83858e;
-    --nav-bg: var(--secondairy-theme-color);
+    --nav-bg: var(--secondary-theme-color);
     --nav-color: var(--white);
-    --main-text-color: var(--secondairy-theme-color);
+    --main-text-color: var(--secondary-theme-color);
     --main-bg-color: var(--white);
-    --footer-bg: var(--secondairy-theme-color);
+    --footer-bg: var(--secondary-theme-color);
     --footer-color: var(--white);
     --white-text: var(--white);
 }
@@ -24,14 +24,15 @@ body {
     font-size: 1em;
 }
 
-.post-header h1 {
+h1 {
     font-family: 'Exo 2', sans-serif;
     font-size: 3.5em;
     font-weight: 400;
+    margin-bottom: 0.5em;
 }
 
 @media (max-width:992px) {
-    .post-header h1 {
+    h1 {
         font-size: 3em;
     }
 }
@@ -151,7 +152,6 @@ pre code {
 /*-----Top navigation-----*/
 
 .navbar {
-    margin-bottom: 40px;
     background-color: var(--nav-bg);
 }
 
@@ -178,23 +178,11 @@ pre code {
     color: var(--primary-theme-color);
 }
 
-@media (min-width:992px) {
-    .navbar-nav .nav-item {
-        margin-left: 15px;
-    }
-}
-
-@media (max-width:992px) {
-    .navbar-nav .nav-item a {
-        padding-left: 11px;
-        margin-top: 4px;
-    }
-}
-
 /*-----Search box top navigation-----*/
 
 #search-input {
     width: 15em;
+    border: 1px solid var(--nav-bg);
 }
 
 #search-input:focus {
@@ -236,7 +224,7 @@ ul#results-container li a:hover {
     margin: 20px 0px;
 }
 
-.post-content img {
+.post-content figure img {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -252,17 +240,41 @@ figcaption {
 
 /*-----Sidebar-----*/
 
-.sidebarTitle {
+@media (min-width: 992px) {
+    #side-nav {
+        display: block !important;
+    }
+}
+
+@media (max-width: 992px) {
+    button[aria-expanded="true"]+#side-nav {
+        margin-top: -1.5em;
+    }
+}
+
+.sidebar-collapse i {
+    font-size: 1.25rem;
+    float: right;
+    line-height: 1.25em;
+}
+
+.sidebar-collapse:not(.collapsed) {
+    color: var(--nav-color);
+    background-color: var(--nav-bg);
+}
+
+.sidebar-title {
     margin: 11px 0px;
     font-weight: 800;
     font-size: 1.3em;
 }
 
-.container-menu li {
-    list-style: none;
+.menu ul {
+    display: none;
+    padding-left: 0;
 }
 
-.container-menu li a {
+.menu li a {
     margin-top: 4px;
     color: var(--main-text-color);
     background-color: var(--light-grey);
@@ -272,17 +284,13 @@ figcaption {
     border-radius: 4px;
 }
 
-.container-menu ul {
-    padding-left: 0;
+.menu li a:hover {
+    background-color: var(--primary-theme-color);
+    color: var(--white-text);
 }
 
 .hr-margin {
     margin-top: 20px;
-}
-
-.menu li a:hover {
-    background-color: var(--primary-theme-color);
-    color: var(--white-text);
 }
 
 .menu ul li a {
@@ -299,14 +307,12 @@ figcaption {
     color: var(--white-text);
 }
 
-.menu ul {
-    display: none;
-}
-
 .menu li>a>span {
     float: right;
     font-size: 1.5em;
     line-height: 1;
+    width: 15px;
+    text-align: center;
 }
 
 .menu li.active>a>span:after {
@@ -317,33 +323,7 @@ figcaption {
     content: '+';
 }
 
-@media (min-width:992px) {
-    .menu {
-        margin-right: 30px;
-    }
-}
 
-/* RDM wheel in sidebar */
-
-.sidebar_rdm {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-@media (max-width: 992px) {
-    .sidebar_rdm {
-        width: 200px;
-    }
-}
-
-li ul .sidebar_rdm_sub {
-    border-color: var(--light-grey);
-    padding: 14px 10px 10px 10px;
-    border-radius: 0px 0px 4px 4px;
-    border-style: none solid solid solid;
-    border-width: 0.2em;
-}
 
 /*-----Summary under page title-----*/
 
@@ -390,18 +370,15 @@ li ul .sidebar_rdm_sub {
     list-style: circle outside;
 }
 
-/* Extra space if the toc is followed by a paragraph */
-
-#toc+p {
-    margin-top: 1.75em;
-}
-
 /*-----Table properties-----*/
 
 table {
     display: block;
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+table, .dataTables_wrapper {
     margin: 40px 0 20px;
 }
 
@@ -551,24 +528,6 @@ h2.card-title {
     margin: 0 0 0.5rem 0;
 }
 
-/*-----RDM wheel frontpage-----*/
-
-.ratio.main_rdm {
-    padding-bottom: 100%;
-}
-
-@media (min-width: 576px) {
-    .ratio.main_rdm {
-        padding-bottom: 70%;
-    }
-}
-
-@media (min-width: 768px) {
-    .ratio.main_rdm {
-        padding-bottom: 35%;
-    }
-}
-
 /* Custom buttons */
 
 .btn-custom {
@@ -601,18 +560,46 @@ h2.card-title {
 
 /*-----Contributors cards-----*/
 
-#contributors-carousel .carousel-control-next, .carousel-control-prev {
-    width: 3%;
-}
-
 .contributor-cards .card {
     background-color: var(--light-grey);
     border: 0;
     border-radius: 4px;
 }
 
-/*-----Social icons-----*/
+.contributor-cards .badge {
+    background-color: var(--primary-theme-color);
+    margin: 10px 10px 0px 0px;
+}
 
+.contributor-cards .card-affiliation {
+    color: var(--primary-theme-color);
+    font-size: 0.8em;
+}
+
+.contributor-cards .card-body {
+    padding-top: 0rem;
+}
+
+/*-----Contributors carousel-----*/
+
+#contributors-carousel .carousel-control-next, .carousel-control-prev {
+    width: 3%;
+}
+
+@media (max-width:768px) {
+    #contributors-carousel .card-title {
+        font-size: 0.5em
+    }
+    #contributors-carousel .card-affiliation {
+        color: var(--primary-theme-color);
+        font-size: 0.4em;
+    }
+    #contributors-carousel .card-body {
+        padding: 0rem 0.5rem 0.5rem 0.5rem;
+    }
+}
+
+/*-----Social icons-----*/
 
 .social-icons a {
     background-color: var(--main-bg-color);
@@ -637,55 +624,20 @@ h2.card-title {
         width: 1.2ex;
         height: 1.2ex;
     }
-    #contributors-carousel .card-body {
-        padding: 0.5rem 0.5rem;
-    }
-
-    #contributors-carousel .card-title {
-        font-size: 0.5em
-    }
 }
 
 /*-----Edit me button-----*/
 
-.githubEditButton {
+.github-edit-btn {
     color: var(--primary-theme-color);
     margin-left: 12px;
     font-size: small;
 }
 
-.githubEditButton:hover {
+.github-edit-btn:hover {
     color: var(--primary-theme-color);
     background-color: var(--light-grey);
     text-decoration: none;
-}
-
-/*-----TeSS button-----*/
-
-.TeSS-button {
-    margin: 30px 0px;
-}
-
-.TeSS-button .tess_logo {
-    max-height: 45px;
-    max-width: 45px;
-    margin-left: 17px;
-    margin-bottom: 5px;
-}
-
-.TeSS-button a {
-    padding: 16px;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    border-radius: 4px;
-    background-color: var(--hover-grey);
-    text-decoration: none;
-    color: var(--white-text);
-}
-
-.TeSS-button a:hover {
-    background-color: #f47d20;
-    text-decoration: none;
-    color: var(--white-text);
 }
 
 /* ----- Cookie consent ----- */
@@ -737,4 +689,75 @@ h2.card-title {
 
 .cookiealert a:hover {
     color: var(--primary-theme-color);
+}
+
+/*--------------Custom classes--------------*/
+/* ---------------------------------------- */
+
+/* RDM wheel in sidebar */
+
+.sidebar_rdm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (max-width: 992px) {
+    .sidebar_rdm {
+        width: 200px;
+    }
+}
+
+li ul .sidebar_rdm_sub {
+    border-color: var(--light-grey);
+    padding: 14px 10px 10px 10px;
+    border-radius: 0px 0px 4px 4px;
+    border-style: none solid solid solid;
+    border-width: 0.2em;
+}
+
+/*-----RDM wheel frontpage-----*/
+
+.ratio.main_rdm {
+    padding-bottom: 100%;
+}
+
+@media (min-width: 576px) {
+    .ratio.main_rdm {
+        padding-bottom: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ratio.main_rdm {
+        padding-bottom: 35%;
+    }
+}
+
+/*-----TeSS button-----*/
+
+.TeSS-button {
+    margin: 30px 0px;
+}
+
+.TeSS-button .tess_logo {
+    max-height: 45px;
+    max-width: 45px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+}
+
+.TeSS-button a {
+    padding: 16px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    border-radius: 4px;
+    background-color: var(--hover-grey);
+    text-decoration: none;
+    color: var(--white-text);
+}
+
+.TeSS-button a:hover {
+    background-color: #f47d20;
+    text-decoration: none;
+    color: var(--white-text);
 }
