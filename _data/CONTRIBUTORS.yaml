@@ -40,7 +40,9 @@ Inge Jonassen:
 Frederik Coppens:
     git: frederikcoppens
     role: lead
-    affiliation: VIB-UGent
+    orcid: 0000-0001-6565-5145
+    email: frederik.coppens@psb.vib-ugent.be
+    affiliation: VIB-UGent / ELIXIR-BE
 Mijke Jetten:
     git: MijkeJetten
     email: m.jetten@dtls.nl
