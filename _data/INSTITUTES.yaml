@@ -1,0 +1,13 @@
+institutes:
+  - name: VIB-PSB
+    image_url: /images/institutes/VIB-PSB.svg
+    url: https://www.psb.ugent.be/
+  - name: The Manchester University
+    image_url: /images/institutes/logo-university-of-manchester.svg
+    url: https://www.manchester.ac.uk/
+  - name: NBIS
+    url: https://nbis.se/
+    image_url: /images/institutes/nbislogo-green.svg
+  - name: University of Bergen
+    url: https://www.uib.no/en
+    image_url: /images/institutes/uib_logo.svg
