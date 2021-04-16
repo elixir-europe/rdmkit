@@ -69,6 +69,8 @@ data protection:
   url: data_protection.html
 data analysis:
   url: data_analysis.html
+identifiers:
+  url: identifiers.html
 # Assembly tags
 nels:
   url: nels_assembly.html
