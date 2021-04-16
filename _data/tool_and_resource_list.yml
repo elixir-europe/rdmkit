@@ -268,6 +268,19 @@ Tools:
   tags:
   - data analysis
   - human data
+- description: Castor is an EDC system for researchers and institutions. With Castor,
+    you can create and customize your own database in no time. Without any prior technical
+    knowledge, you can build a study in just a few clicks using our intuitive Form
+    Builder. Simply define your data points and start collecting high quality data,
+    all you need is a web browser.
+  link: https://www.castoredc.com
+  name: Castor
+  registry:
+    biotools: castor
+  tags:
+  - identifiers
+  - IT support
+  - data manager
 - description: A hierarchical domain classification of protein structures in the Protein
     Data Bank.
   link: http://www.cathdb.info/
@@ -710,6 +723,18 @@ Tools:
   - data manager
   - plants
 - description: Data, model and SOPs management for projects, from preliminary data
+    to publication, support for running SBML models etc.
+  link: https://seek4science.org/
+  name: FAIRDOM-SEEK
+  registry:
+    biotools: seek
+    tess: FAIRDOM-SEEK
+  tags:
+  - storage
+  - IT support
+  - nels
+  - micro biotech
+- description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
   link: https://fairdomhub.org
   name: FAIRDOMHub
@@ -910,6 +935,18 @@ Tools:
   - storage
   - data analysis
   - transfer
+- description: The Identifiers.org Resolution Service provides consistent access to
+    life science data using Compact Identifiers. Compact Identifiers consist of an
+    assigned unique prefix and a local provider designated accession number (prefix:accession).
+  link: http://identifiers.org
+  name: Identifiers.org
+  registry:
+    biotools: identifiers.org
+    fairsharing: n14rc8
+  tags:
+  - identifiers
+  - IT support
+  - data manager
 - description: Intrinsically disordered proteins ontology
   link: https://disprot.org/about
   name: IDPO
@@ -1182,6 +1219,18 @@ Tools:
     fairsharing: tpqndj
   tags:
   - biomol sim
+- description: Molgenis is a modular web application for scientific data. Molgenis
+    provides researchers with user friendly and scalable software infrastructures
+    to capture, exchange, and exploit the large amounts of data that is being produced
+    by scientific organisations all around the world.
+  link: https://molgenis.gitbooks.io/molgenis/content/
+  name: Molgenis
+  registry:
+    biotools: molgenis
+  tags:
+  - identifiers
+  - IT support
+  - data manager
 - description: Database about interactions of molecules with membranes
   link: https://molmedb.upol.cz/
   name: MolMeDB
@@ -1262,6 +1311,8 @@ Tools:
   - researcher
   - data manager
   - IT support
+  - metadata
+  - identifiers
 - description: Licenses that are conformant with the principles laid out in the Open
     Definition.
   link: https://opendefinition.org/licenses/
@@ -1343,6 +1394,13 @@ Tools:
   - data analysis
   - researcher
   - human data
+- description: Data Publisher for Earth and Environmental Science
+  link: https://www.pangaea.de/
+  name: PANGAEA
+  registry:
+    biotools: pangaea
+  tags:
+  - data publication
 - description: The Protein Circular Dichroism Data Bank
   link: https://pcddb.cryst.bbk.ac.uk/
   name: PCDDB
@@ -1423,6 +1481,19 @@ Tools:
   - metadata
   - researcher
   - data manager
+- description: REDCap is a secure web application for building and managing online
+    surveys and databases. While REDCap can be used to collect virtually any type
+    of data in any environment, it is specifically geared to support online and offline
+    data capture for research studies and operations.
+  link: https://projectredcap.org
+  name: REDCap
+  registry:
+    biotools: redcap
+  tags:
+  - identifiers
+  - IT support
+  - data manager
+  - data quality
 - description: File renaming software for Mac
   link: https://renamer.com/
   name: Renamer4Mac
@@ -1491,6 +1562,7 @@ Tools:
   - metadata
   - data manager
   - micro biotech
+  - identifiers
 - description: Rstudio notebooks allow to share code, documentation
   link: https://rstudio.com
   name: Rstudio
@@ -1555,18 +1627,6 @@ Tools:
   tags:
   - storage
   - transfer
-- description: Data, model and SOPs management for projects, from preliminary data
-    to publication, support for running SBML models etc.
-  link: https://seek4science.org/
-  name: FAIRDOM-SEEK
-  registry:
-    biotools: seek
-    tess: FAIRDOM-SEEK
-  tags:
-  - storage
-  - IT support
-  - nels
-  - micro biotech
 - description: A scripting language for creating Synthetic Biology Open Language (SBOL)
     in a more abstract way.
   link: http://shortbol.org
