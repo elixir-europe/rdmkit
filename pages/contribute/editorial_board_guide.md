@@ -165,6 +165,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 {% include important.html content="If you change the file name, you'll have to update all of your links." %}
 
 
+
 ## Linking the GitHub accounts to the contributors
 
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
@@ -173,12 +174,25 @@ Do you want that the GitHub picture of a contributor is shown next to their name
 Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
-    gitter: bedroesb
     orcid: 0000-0003-0522-5674
-
+    role: editor
+    affiliation: VIB-UGent
 ```
 {% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
+
+## Adding an institute to the institute page
+
+Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file. In this file, the name, url towards the website of the institute and the relative path to the logo is given.
+
+```yaml
+  - name: VIB-PSB
+    image_url: /images/institutes/VIB-PSB.svg
+    url: https://www.psb.ugent.be/
+```
+
+
+The logos of these corresponding institutes are added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/) directory.
 
 ## Page tagging
 
