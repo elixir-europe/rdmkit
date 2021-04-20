@@ -656,6 +656,7 @@ Tools:
   link: https://ensemblgenomes.org/
   name: Ensembl Genomes
   registry:
+    biotools: ensembl_genomes
     fairsharing: 923a0p
     tess: Ensembl Genomes
 - description: Regulation (eu) 2016/679 of the european parliament and of the council
