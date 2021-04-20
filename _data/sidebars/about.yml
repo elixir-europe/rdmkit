@@ -5,10 +5,10 @@ subitems:
     subitems:
       - title: Contributors
         url: /contributors.html
+      - title: Institutes
+        url: /institutes.html
       - title: Editorial board
         url: /editorial_board.html
-  - title: Institutes
-    url: /institutes.html
   - title: Media kit
     url: /media_kit.html
   - title: Accessibility
