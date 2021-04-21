@@ -5,4 +5,4 @@ sidebar: about
 
 We thank these institutes for their contribution.
 
-{% include institutes.html %}
+{% include logo-page.html data= "INSTITUTES"%}

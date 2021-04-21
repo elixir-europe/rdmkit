@@ -1,6 +1,6 @@
-{%- assign allinstitutes = site.data.INSTITUTES %}
-<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-5">
-    {%- for institute in allinstitutes.institutes %}
+{%- assign alllogos = site.data[include.data] %}
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-5 my-3">
+    {%- for institute in alllogos %}
     {%- if institute.image_url %}
     <div class="col">
       <div class="card h-100 institute-card">

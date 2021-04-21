@@ -1,0 +1,7 @@
+- name: ELIXIR CONVERGE
+  image_url: /assets/img/converge_logo.svg
+  url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
+- name: FWO-IRI 
+  image_url: /images/funders/FWO-logo.svg
+  url: https://www.fwo.be/
+
