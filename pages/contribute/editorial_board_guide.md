@@ -186,13 +186,28 @@ Bert Droesbeke:
 Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file. In this file, the name, url towards the website of the institute and the relative path to the logo is given.
 
 ```yaml
-  - name: VIB-PSB
-    image_url: /images/institutes/VIB-PSB.svg
-    url: https://www.psb.ugent.be/
+- name: VIB-PSB
+  image_url: /images/institutes/VIB-PSB.svg
+  url: https://www.psb.ugent.be/
 ```
 
+{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, if possible." %}
 
 The logos of these corresponding institutes are added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/) directory.
+
+## Adding a funder to the funders page
+
+Funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUNDERS.yaml) file. In this file, the name, url towards the website of the institute and the relative path to the logo is given.
+
+```yaml
+- name: ELIXIR CONVERGE
+  image_url: /assets/img/converge_logo.svg
+  url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
+```
+
+{% include important.html content="Upload vector images (.svg filetype) of the funder logo for better quality, if possible." %}
+
+The logos of these corresponding institutes are added to the [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
 ## Page tagging
 
