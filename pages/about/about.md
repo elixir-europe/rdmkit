@@ -1,10 +1,11 @@
 ---
 title: About
+keywords: [FAIR]
 sidebar: about
 ---
 
 ## Who is the RDMkit for?
-The ELIXIR Research Data Management Kit (RDMkit) has been designed to guide life scientists in their efforts to better manage their research data following the FAIR Principles. It is based on the various steps of the data lifecycle, although not all the steps will be relevant to everyone. RDMkit can be navigated via ‘role’, ‘domain’, ‘examples’ and ‘problems’. The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project.
+The ELIXIR Research Data Management Kit (RDMkit) has been designed to guide life scientists in their efforts to better manage their research data following the FAIR Principles. It is based on the various steps of the data lifecycle, although not all the steps will be relevant to everyone. RDMkit can be navigated via ‘data life cycle’, ‘role’, ‘domain’, ‘problem’, ‘tools and resources’ and ‘tools assembly’. The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project.
 
 ## Why are the FAIR principles needed?
 At the heart of FAIR Science lies good data management practice. This is increasingly important as life science research becomes data-intensive and traditional ‘wet labs’ make space for ‘dry (computer) labs’. Having that in mind, the [FAIR Principles](https://www.nature.com/articles/sdata201618) were designed to improve the infrastructure supporting the reuse of research data. The intention of these principles is to act as a guide to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**euse of digital assets.
