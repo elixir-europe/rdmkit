@@ -15,7 +15,7 @@ Bert Droesbeke:
     email: bedro@psb.ugent.be
     orcid: 0000-0003-0522-5674
     role: editor
-    affiliation: VIB-UGent
+    affiliation: VIB-UGent / ELIXIR-BE
 Flora D'Anna:
     git: floradanna
     orcid: 0000-0003-4665-6673
@@ -33,11 +33,11 @@ Carole Goble:
     git: CaroleGoble
     role: lead
     orcid: 0000-0003-1219-2137
-    affiliation: University of Manchester
+    affiliation: The University of Manchester
 Inge Jonassen:
     role: lead
     affiliation: University of Bergen
-    image_url: https://pbs.twimg.com/profile_images/598536528655167488/eiRP7wNL.jpg
+    git: ingejonassen
 Frederik Coppens:
     git: frederikcoppens
     role: lead
