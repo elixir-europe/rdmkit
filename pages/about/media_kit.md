@@ -38,3 +38,12 @@ For use in presentations, tutorials and all other RDMkit related activities the 
     [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.png' | relative_url }}">png</a>]
 </p>
+
+#### Data life cycle diagram
+
+<p>
+  <img src="{{ 'images/data_life_cycle.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 15em; vertical-align: middle" />
+    [<a href="{{ 'images/data_life_cycle.svg' | relative_url }}">svg</a>]
+    [<a href="{{ 'images/data_life_cycle.png' | relative_url }}">png</a>]
+</p>
+
