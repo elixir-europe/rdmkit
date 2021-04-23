@@ -751,13 +751,13 @@ li ul .sidebar_rdm_sub {
     padding: 16px;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     border-radius: 4px;
-    background-color: var(--hover-grey);
+    background-color: var(--light-grey);
     text-decoration: none;
-    color: var(--white-text);
+    color: var(--main-text-color);
 }
 
 .TeSS-button a:hover {
-    background-color: #f47d20;
+    background-color: var(--primary-theme-color);
     text-decoration: none;
     color: var(--white-text);
 }
