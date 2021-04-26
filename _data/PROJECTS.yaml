@@ -2,7 +2,7 @@
   image_url: /images/projects/Bioexcel_logo_subheading_updated_RGB.svg
   url: https://bioexcel.eu/
 - name: TeSS
-  image_url: /assets/img/tess_logo.svg
+  image_url:  /images/projects/tess_logo.svg
   url: https://tess.elixir-europe.org/
 - name: FAIRsharing
   image_url: /images/projects/FAIRsharing-sdp.svg
