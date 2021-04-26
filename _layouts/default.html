@@ -25,20 +25,18 @@
 <body>
     {% include topnav.html %}
     <!-- Page Content -->
-    <div class="container">
-        <div id="main">
-            <!-- Content Row -->
-            <div class="row gx-0 gx-lg-5">
-                {%- assign content_col_size = "col-lg-12" %}{% unless page.hide_sidebar %}
-                <!-- Sidebar Column -->
-                <div class="col-lg-3">
-                    {% include sidebar.html %}
-                </div>
-                {%- assign content_col_size = "col-lg-9" %}{% endunless %}
-                <!-- Content Column -->
-                <div class="{{content_col_size}}">
-                    {{content}}
-                </div>
+    <div class="container" id="main">
+        <!-- Content Row -->
+        <div class="row gx-0 gx-lg-5">
+            {%- assign content_col_size = "col-lg-12" %}{% unless page.hide_sidebar %}
+            <!-- Sidebar Column -->
+            <div class="col-lg-3">
+                {% include sidebar.html %}
+            </div>
+            {%- assign content_col_size = "col-lg-9" %}{% endunless %}
+            <!-- Content Column -->
+            <div class="{{content_col_size}}">
+                {{content}}
             </div>
         </div>
     </div>
