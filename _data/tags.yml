@@ -1,25 +1,18 @@
 # Cycle Tags
 plan:
   url: planning.html
-  bg-color: "#903292"
 collect:
   url: collecting.html
-  bg-color: "#023452"
 process:
   url: processing.html
-  bg-color: "#309E69"
 analyse:
   url: analysing.html
-  bg-color: "#763E2A"
 preserve:
   url: preserving.html
-  bg-color: "#DBBE28"
 share:
   url: sharing.html
-  bg-color: "#C63244"
 reuse:
   url: reusing.html
-  bg-color: "#f47d21"
 # Role tags
 IT support:
   url: data_steward_infrastructure.html
