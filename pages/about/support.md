@@ -17,6 +17,8 @@ We thank these projects for their efforts:
 
 ## Funders
 
-We thank these funders for their efforts:
+RDMkit is developed in ELIXIR-CONVERGE that received funding from the European Union's Horizon 2020 Research and Innovation programme under grant agreement No 871075. 
+
+Additionally we thank the funders that supported some of our contributors.
 
 {% include logo-page.html data= "FUNDERS"%}
