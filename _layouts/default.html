@@ -8,6 +8,7 @@
     <script type="text/javascript" charset="utf8" src="{{ 'assets/js/jquery.dataTables.min.js' | relative_url }}"></script>
     <script type="text/javascript" charset="utf8" src="{{ 'assets/js/dataTables.bootstrap5.min.js' | relative_url }}"></script>
     <script>
+        $.fn.DataTable.ext.pager.numbers_length = 5;
         $(document).ready(function () {
             $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
             $('table.display').DataTable({
@@ -15,7 +16,6 @@
                 ordering:false,
                 stateSave: true,
                 searching: true,
-
             });
         });
     </script>
