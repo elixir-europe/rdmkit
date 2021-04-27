@@ -1743,6 +1743,7 @@ Tools:
   - policy officer
   - data manager
   - human data
+  - nels
 - description: Comprehensive resource for protein sequence and annotation data
   link: https://www.uniprot.org/
   name: UniProt
