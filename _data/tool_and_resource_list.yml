@@ -1739,6 +1739,7 @@ Tools:
   link: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
   name: Tryggve ELSI Checklist
   tags:
+  - nels
   - sensitive
   - policy officer
   - data manager
