@@ -206,7 +206,7 @@ pre code {
     right: 0;
     top: 100%;
     display: none;
-    width: 34em;
+    width: 36em;
     max-height: calc(90vh - 200%) !important;
     overflow-y: auto;
     background-color: #fff;
@@ -225,7 +225,6 @@ pre code {
 .search-results ul {
     padding-left: 0;
     list-style: none;
-    font-size: 14px !important;
 }
 
 .search-results a {
@@ -255,6 +254,7 @@ pre code {
 
 .search-result-doc.search-result-doc-parent {
     font-size: 12px !important;
+    font-weight: 600;
 }
 
 .search-result-doc .search-result-doc-title {
