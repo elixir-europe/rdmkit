@@ -76,20 +76,24 @@ jQuery(function ($) {
 
 
 /**
- * Search
+ * Search based on just the docs
+ * 
+ * https://github.com/pmarsceill/just-the-docs
+ * The MIT License (MIT)
+ * Copyright (c) 2016 Patrick Marsceill
  */
 
- (function (jtd, undefined) {
+ (function (Website, undefined) {
  
  // Event handling
  
- jtd.addEvent = function(el, type, handler) {
+ Website.addEvent = function(el, type, handler) {
    if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
  }
- jtd.removeEvent = function(el, type, handler) {
+ Website.removeEvent = function(el, type, handler) {
    if (el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
  }
- jtd.onReady = function(ready) {
+ Website.onReady = function(ready) {
    // in case the document is already rendered
    if (document.readyState!='loading') ready();
    // modern browsers
@@ -100,49 +104,6 @@ jQuery(function ($) {
    });
  }
  
- // Show/hide mobile menu
- 
- function initNav() {
-   jtd.addEvent(document, 'click', function(e){
-     var target = e.target;
-     while (target && !(target.classList && target.classList.contains('nav-list-expander'))) {
-       target = target.parentNode;
-     }
-     if (target) {
-       e.preventDefault();
-       target.parentNode.classList.toggle('active');
-     }
-   });
- 
-   const siteNav = document.getElementById('site-nav');
-   const mainHeader = document.getElementById('main-header');
-   const menuButton = document.getElementById('menu-button');
- 
-   jtd.addEvent(menuButton, 'click', function(e){
-     e.preventDefault();
- 
-     if (menuButton.classList.toggle('nav-open')) {
-       siteNav.classList.add('nav-open');
-       mainHeader.classList.add('nav-open');
-     } else {
-       siteNav.classList.remove('nav-open');
-       mainHeader.classList.remove('nav-open');
-     }
-   });
- 
-   const searchInput = document.getElementById('search-input');
-   const searchButton = document.getElementById('search-button');
- 
-   jtd.addEvent(searchButton, 'click', function(e){
-     e.preventDefault();
- 
-     mainHeader.classList.add('nav-open');
-     searchInput.focus();
-   });
- }
- 
- // Site search
- 
  function initSearch() {
    var request = new XMLHttpRequest();
    request.open('GET', '{{ "assets/js/search-data.json" | relative_url }}', true);
@@ -151,7 +112,7 @@ jQuery(function ($) {
      if (request.status >= 200 && request.status < 400) {
        var docs = JSON.parse(request.responseText);
        
-       lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[\s\-/]+/" }}
+       lunr.tokenizer.separator = /[\s/]+/
  
        var index = lunr(function(){
          this.ref('id');
@@ -188,7 +149,6 @@ jQuery(function ($) {
    var docs = docs;
    var searchInput = document.getElementById('search-input');
    var searchResults = document.getElementById('search-results');
-   var mainHeader = document.getElementById('main-header');
    var currentInput;
    var currentSearchIndex = 0;
  
@@ -327,7 +287,7 @@ jQuery(function ($) {
              var previewEnd = position[0] + position[1];
              var ellipsesBefore = true;
              var ellipsesAfter = true;
-             for (var k = 0; k < {{ site.search.preview_words_before | default: 5 }}; k++) {
+             for (var k = 0; k < 4; k++) {
                var nextSpace = doc.content.lastIndexOf(' ', previewStart - 2);
                var nextDot = doc.content.lastIndexOf('. ', previewStart - 2);
                if ((nextDot >= 0) && (nextDot > nextSpace)) {
@@ -342,7 +302,7 @@ jQuery(function ($) {
                }
                previewStart = nextSpace + 1;
              }
-             for (var k = 0; k < {{ site.search.preview_words_after | default: 10 }}; k++) {
+             for (var k = 0; k < 4; k++) {
                var nextSpace = doc.content.indexOf(' ', previewEnd + 1);
                var nextDot = doc.content.indexOf('. ', previewEnd + 1);
                if ((nextDot >= 0) && (nextDot < nextSpace)) {
@@ -402,7 +362,7 @@ jQuery(function ($) {
          resultLink.appendChild(resultPreviews);
  
          var content = doc.content;
-         for (var j = 0; j < Math.min(previewPositions.length, {{ site.search.previews | default: 3 }}); j++) {
+         for (var j = 0; j < Math.min(previewPositions.length, 3); j++) {
            var position = previewPositions[j];
  
            var resultPreview = document.createElement('div');
@@ -444,11 +404,11 @@ jQuery(function ($) {
      }
    }
  
-   jtd.addEvent(searchInput, 'focus', function(){
+   Website.addEvent(searchInput, 'focus', function(){
      setTimeout(update, 0);
    });
  
-   jtd.addEvent(searchInput, 'keyup', function(e){
+   Website.addEvent(searchInput, 'keyup', function(e){
      switch (e.keyCode) {
        case 27: // When esc key is pressed, hide the results and clear the field
          searchInput.value = '';
@@ -462,7 +422,7 @@ jQuery(function ($) {
      update();
    });
  
-   jtd.addEvent(searchInput, 'keydown', function(e){
+   Website.addEvent(searchInput, 'keydown', function(e){
      switch (e.keyCode) {
        case 38: // arrow up
          e.preventDefault();
@@ -506,7 +466,7 @@ jQuery(function ($) {
      }
    });
  
-   jtd.addEvent(document, 'click', function(e){
+   Website.addEvent(document, 'click', function(e){
      if (e.target != searchInput) {
        hideSearch();
      }
@@ -515,10 +475,10 @@ jQuery(function ($) {
  
  // Document ready
  
- jtd.onReady(function(){
+ Website.onReady(function(){
    initSearch();
  });
  
- })(window.jtd = window.jtd || {});
+ })(window.Website = window.Website || {});
  
  

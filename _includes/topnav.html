@@ -46,10 +46,8 @@
                     <!--start search-->
                     <li class="nav-item ms-0 ms-lg-3 mt-2 mt-lg-0">
                         <div class="search">
-                            <div class="search-input-wrap">
-                                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off">
-                                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
-                            </div>
+                            <form class="d-flex">
+                                <input type="search" id="search-input" class="search-input form-control" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off">
                             <div id="search-results" class="search-results"></div>
                         </div>
                     </li>
