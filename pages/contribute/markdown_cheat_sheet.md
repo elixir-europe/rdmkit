@@ -1,6 +1,5 @@
 ---
 title: Markdown cheat sheet
-keywords: [ demo page, showreel, markdown, kramdown, jekyll ]
 sidebar: contribute
 summary: This is a cheat sheet to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
@@ -22,7 +21,6 @@ This can be extended with following attributes (each with an example):
 ```
 ---
 title: Demo page
-keywords: [ demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [Bert Droesbeke]

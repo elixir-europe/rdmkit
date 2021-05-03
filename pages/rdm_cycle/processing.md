@@ -1,6 +1,5 @@
 ---
 title: Processing
-keywords: [data cleaning, data formatting, quality check, data validation]
 contributors: [Rob Hooft, Munazah Andrabi]
 ---
 

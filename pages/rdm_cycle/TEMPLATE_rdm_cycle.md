@@ -1,6 +1,5 @@
 ---
 title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
-keywords: [<!---Optional. REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
 ---

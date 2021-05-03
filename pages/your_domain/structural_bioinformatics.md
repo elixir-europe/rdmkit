@@ -1,6 +1,5 @@
 ---
 title: Structural Bioinformatics
-keywords: optional
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]

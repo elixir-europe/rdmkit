@@ -1,6 +1,5 @@
 ---
 title: Global problem title (e.g. metadata management)
-keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags" or "Role Tags"--->]
 search_exclude: true

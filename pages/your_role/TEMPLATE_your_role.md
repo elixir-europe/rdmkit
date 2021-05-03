@@ -1,6 +1,5 @@
 ---
 title: <Your persona>
-keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 summary: Fill in your summary or delete this property when not needed
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
