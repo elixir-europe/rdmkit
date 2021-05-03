@@ -1,51 +1,70 @@
 ---
 title: Sharing
-keywords:
+contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
+keywords: [collaboration]
 ---
 
-## What is Data Sharing?
-Data Sharing datasets means making datasets known and available to the whole world and society.
-Does not have to happen immediately, while you are still working on the project. Data can be shared after your scientific paper is published.
+## What is data sharing?
+Sharing data means making your data known to other people.
 
-## Why Data Sharing is important?
-Data Management Planning will facilitate the progress of your project, as you can prepare early on. Data Management Planning will also help you to get funded, as this is a critical part of the proposal and/or the contract for many funders and a good Data Management Plan (DMP) will show and improve the feasability of your project.
+You can share your data with collaboration partners in the context of a collaborative research project, or you can publish your data to share it with the global research community and society at large. 
 
-## What should be considered for Data Sharing?
-* Good reasons to open access to your datasets.
-  * [European Code of Conduct for Research Integrity (2017)](https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf) states that “Researchers, research institutions and organisations ensure access to data is as open as possible, as closed as necessary”.
-  * Research funders, institutions and reputable journals/publishers with data sharing mandates will normally allow you to opt out of their open data requirements only for legitimate reasons (see below).
-  * Additional reasons to share your datasets:
-    - [Ten reasons to share your data.](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)
-    - [Ask not what you can do for open data; ask what open data can do for you.](http://blogs.nature.com/naturejobs/2017/06/19/ask-not-what-you-can-do-for-open-data-ask-what-open-data-can-do-for-you/)
-* Good reasons to close or restrict access to your datasets.
-  - Ethical issues.
-  - Personal data.
-  - Sensitive data that could potentially cause harm (e.g. to endangered species, vulnerable sites or groups, public health, national security…) if made public. Some personal data are considered sensitive personal data.
-  - Legal or contractual issues:
-    - Confidential data (you have a duty or agreed to keep the data confidential).
-    - Third-party data (data are not generated in the course of your own research project, but are supplied to you by another party).  
-    - Copyright and/or database right data.
-    - Data with potential economic/commercial value.
+It’s important to know that data sharing doesn’t mean open data or public data. You can choose to share your data with restricted access or even closed access. 
+Moreover, sharing or publishing data is different from publishing a paper or a manuscript in a journal. Here we focused on data (i.e. raw observations and measurements, analysis workflows, code, etc), not on papers or articles.
 
-If you want to close or restrict access to your datasets, you must explain your ethical and/or legal issues in the Data Management Plan. You can ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
+Data sharing can be done at any time during the research data life cycle but, at the latest, data should be made available at the time of publication of articles that use the data to make scientific conclusions. 
 
-* For finding appropriate repositories by type of data, there are extensive lists and selection tools in the following locations:
-  - For Biomolecular Data in Life Science use one of the [ELIXIR Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases), or use the [EBI Guidance Wizard](https://www.ebi.ac.uk/submission/)
-  - [FAIRsharing](https://fairsharing.org/)
-  - [Re3data](https://re3data.org/)
-  - [Repositories recommended by Nature publishing group](https://www.nature.com/sdata/policies/repositories)
-  - For the sharing of human-subject phenotype/genotype data there are well-established repositories ([EGA](https://ega-archive.org/), [dbGAP](https://www.ncbi.nlm.nih.gov/gap/), [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html)). The choice will depend on the conditions under which data has been donated and the legislative/geographic boundaries for the research project/consortium. There are also community-specific data hubs that may implement a controlled-access model e.g. ORPHANET, MJFF.
+## Why is data sharing important?
 
-## Where can training materials and events about Data Sharing be found?
+In a collaborative project, being able to easily share data makes research more efficient.
 
-{% include tess.html search="Data Sharing" %}
+Sharing of data is a cornerstone of good science. It is a good research practice to ensure that data underlying research is preserved and made available to the research community and society at large. Sharing data is a prerequisite for making your research reproducible. To be useful for others, you should strive to make the shared data adhere to the FAIR principles. 
 
-## Related topics
+In the EU, the 'Open Data Directive' ([Directive (EU) 2019/1024](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024)) states that "_Member States shall support the availability of research data by adopting national policies and relevant actions aiming at making publicly funded research data openly available (‘open access policies’), following the principle of ‘open by default’ and compatible with the FAIR principles._"
+
+Many research funders, institutions and reputable journals/publishers now have data sharing mandates, from which you normally cannot opt out of unless there are legitimate reasons (ethical or legal reasons). Additional reasons to share your datasets:
+* [Ten reasons to share your data.](https://www.natureindex.com/news-blog/ten-reasons-to-share-your-data)
+* [Ask not what you can do for open data; ask what open data can do for you.](http://blogs.nature.com/naturejobs/2017/06/19/ask-not-what-you-can-do-for-open-data-ask-what-open-data-can-do-for-you/)
+
+Even though it may not be possible to openly share all data because of ethical, legal, contractual, or intellectual property reasons, do strive to make data ["_as open as possible, as closed as necessary_"](https://www.allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf).
+
+Making the data as FAIR as possible will ensure that maximum value can be obtained out of it in future.
+
+## What should be considered for data sharing?
+
+* If you are part of a collaborative research project, it is recommended to plan and establish the following in advance:
+  * The use of repositories and sharing services which allow controlled access to share your preliminary data with project partners.
+  * The use of storage solutions that guarantee shared, controlled and secure access to the data and appropriate data transfer.
+  * The deposition of your data to a public repository as early as possible. This saves a lot of trouble later on. Data can be put under embargo until you want to release it, e.g. at the time of article publication.
+  * The use of common data organisation, data formats, standards, data documentation and metadata. 
+
+* If you want to share or publish your data, you should:
+  * Make sure you have the rights to do so (i.e., are you the creator of the data?).
+  * Consider all possible ethical, legal, contractual, or intellectual property restrictions related to your data (GDPR, consent, patent, etc).
+  * Check funders and institutional requirements about data sharing policy and data availability.
+  * Establish if you need to limit reusability of your data for legitimate reasons (consider applying a specific licence).
+  * Make the data citable so that you can receive credit (use identifiers).
+
+* Based on the considerations listed above, you should be able to determine the right type of access for you data. Even if the access to the data is restricted, it is good practice to openly and publicly share the metadata of your data.
+  * **Open access**: data is shared publicly. Anyone can access the data freely.
+  * **Registered access or authentication procedure**: potential users must register before they are able to access the data. The “researcher” status is guaranteed by the institution and the user agrees to abide by data usage policies of repositories that serve the shared data. Datasets that are shared via registered-access would typically have no restrictions besides the condition that data is to be used for research. Registered access allows the data archive to monitor who can access data, enabling reminders about conditions of use to be issued.
+  * **Controlled access or Data Access Committees (DACs)**: data can only be shared with researchers, whose research is reviewed and approved by a Data Access Committee (DAC). DAC is an organization of one or more named individuals responsible for data release to external requestors based on specific criteria (research topics, allowed geographical regions, allowed recipients etc). Criteria established by DAC for data access are usually described on the website of the organization.
+  * **Access upon request (not recommended)**: in order to manage this type of access a named contact is required for the dataset who would be responsible for making decisions about whether access is granted. The owner of the data must provide his/her contact in the documentation associated with the datasets (metadata). Metadata about the datasets must be open.
+
+* Share and publish your data in professional deposition databases that provide the appropriate access type and licence:
+  * If there are discipline-specific repositories available for you data, this should be your primary choice. They will work towards a high level of FAIRness by recommending appropriate community standards for describing the data. 
+  * If there are no suitable discipline-specific repositories for your data:
+    * Deposit the data in an _Institutional repository_, if there is one. These often provide stewardship and curation, helping to ensure that your dataset is preserved and accessible. Contact the Research Data Office function at your institution, if there is one.
+    * Deposit the data in a [_General purpose repository_](https://www.nature.com/sdata/policies/repositories#general).
+  * If there isn't any suitable repository that can harbour your controlled access data, it is recommended that you at least create a metadata record for the data in an Institutional or General purpose repository.
+
+
+
+## Problems to be addressed at this stage
 
 {% include pagelist.html tag="share" %}
 
-<!-- * Licensing
-* Funder requirements -->
 
-<!-- ## External links
-missing content -->
+## Where can training materials and events about data sharing be found?
+
+{% include tess.html search="Data Sharing" %}

@@ -1,47 +1,52 @@
 ---
-title: "Data Steward Policy"
-keywords: [Data management training, Data management policy, FAIR, Open data, GDPR, Informed consent, Data license, Software license, Sensitive data, Confidentiality, Data rights, DMP, Data sharing, Life science data, International (research) collaboration]
+title: Data steward policy
+keywords: [legal expert, regulation]
+contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 ---
 
-## Role title
+## Description
+As a policy data steward, I focus on policy development and the implementation of research data management practices in my organisation. I work in close collaboration with directors, policy makers and funders, and I help establish suitable and sufficient data stewardship services and infrastructure.
 
-Data policy officer
+It is my job to coordinate and align efforts on the quality, security and management of my organisation’s data, thus effectively supporting the research process. I have a good knowledge of local, national and international procedures and regulations, such as my institution’s research code, national codes of conduct or the EU privacy legislation. I translate these general concepts into practical guidelines for my organisation, and coordinate their implementation and monitoring.
 
-## My background
+## Focus
+* Advise, develop and monitor a research data management (RDM) policy institutionally or nationally
+* Ensure compliance of the RDM policy to codes of conduct and regulations, including ethical and legal compliance
+* Align the RDM policy to the FAIR (Findable, Accessible, Interoperable, Reusable) data principles and the principles of Open Science
+* Organise RDM support into a set of services
+* Identify the requirements of adequate data-infrastructure for RDM to comply with the institute's RDM policy and alignment to (inter)national data-infrastructure and tools
+* Determine the adequate level of knowledge and skills on RDM
+* Maintain a network of aligned RDM expertise inside and outside the organisation
+* Identify the requirements of adequate support and data infrastructure for FAIR and long-term archiving of data
 
-My name is Janet Brown.  I studied B.Sc. Biology and this is my first role after leaving university.  In the future I would like a higher management role specially in policy around working with sensitive (human) data.
+## Learning path
+Institutes across Europe have started hiring professional data stewards. A policy oriented data steward is expected to be competent in the following areas:
+* Develop, implement, monitor and evaluate policies regarding research data that are endorsed by researchers and aligned with internal and external stakeholders and effectuate change management
+* Communicate about the FAIR data and Open Science principles to researchers, support staff and relevant stakeholders, thus creating awareness within institutes and organisations
+* Give advice on RDM and formats for data management plans (DMP) to a broad audience
+* Communicate about the RDM policy, explain implications and create awareness
+* Translate RDM policy and legislation and codes of conduct concerning research data into practical implications and guidelines for that researchers can understand
+* Formulate requirements for RDM support (staff and services)
+* Assess and analyse needs from researchers regarding support on RDM for researchers and define new requirements
+* Assess RDM knowledge and skills and identify gaps among researchers and relevant stakeholders
 
-## Main duties
+If you want to become competent in these areas or build capacity in your institution then the following training resources might be useful:
+* [TeSS](https://tess.elixir-europe.org/): ELIXIR’s training portal
+* RDNL [Essentials for Data Support](https://datasupport.researchdata.nl/en/)
+* [Mantra](https://mantra.edina.ac.uk/) RDM training
+* GO FAIR [resources](https://www.go-fair.org/resources/)
+* Data Carpentry [lessons](https://datacarpentry.org/lessons/)
+* RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
-* Support and implement data policy within the organisation (security, sensitive data, data management, data sharing)
-* Networking with PIs inside the organisation regarding data policy
-* Knowledge sharing with data stewards and researchers
-
-## Common data issues I encounter
-
-* I would like to know what the terms Data Steward and Data Brokering mean
-* Is there some overview on resources and best practice
-* What DM training resources are available for researchers and data stewards?
-* Where so find national and funder DM policies?
-* How do I implement FAIR principles?
-* Are there templates for legal and policy documents?
-* Are there templates for informed consent?
-* Are there templates for ethical reviews?
-* Are there templates for processing agreements?
-* Are there templates for intellectual property?
-* Are there templates for confidentiality agreements (incl. how to handle data sharing vs confidentiality)?
-* Are there templates for international collaborations / consortia
-* What legal aspects should be considered in international collaborations?
-* What DMP templates for different research domains are available?
-* Under which licenses can researchers share data and tools (software & databases)?
-* What governs who owns(?)/has rights of use for data?
-* What data agreements exist between institutions and how can new agreements be made? Sharing data between organisations/companies.
-* What are tools and resources to help ensure that personal data is handled lawfully (GDPR)?
-
-
-## Related topics
+## Common problems
 
 {% include pagelist.html tag="policy officer" %}
+
+## Resources
+* NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
+* [FAIR](https://www.go-fair.org/fair-principles/) guiding principles
+* [Science Europe](https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/) Practical Guide to the International Alignment of RDM
+* ELIXIR [Data Managers Network](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)
 
 ## Relevant tools and resources
 

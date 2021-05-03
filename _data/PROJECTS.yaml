@@ -1,0 +1,12 @@
+- name: BioExcel
+  image_url: /images/projects/Bioexcel_logo_subheading_updated_RGB.svg
+  url: https://bioexcel.eu/
+- name: TeSS
+  image_url:  /images/projects/tess_logo.svg
+  url: https://tess.elixir-europe.org/
+- name: FAIRsharing
+  image_url: /images/projects/FAIRsharing-sdp.svg
+  url: https://fairsharing.org/
+- name: Bio.tools
+  image_url: /images/projects/bio.tools.svg
+  url: https://bio.tools/

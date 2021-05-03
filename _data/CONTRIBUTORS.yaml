@@ -1,50 +1,68 @@
 # List of contributors
 #
-# reference maintainers/contributors by their id in tutorial metadata files
-#
-# valid tags: name, email, linkedin, twitter, gitter, orcid, bio, joined
-#
-# collection names should be equal to github username, if not, add github: false tag
-
-# two dummy entries that are used in the template pages
-contributor1:
-    git: Contributor A (Please add contributors to the CONTRIBUTORS.yaml file)
-contributor2:
-    git: Contributor B (Please list all contributors of this tutorial in the metadata section)
-
-# our real contributors
+# reference maintainers/contributors by their name used in contributors metadata section on the pages.
+# Extra metadata that is possible to add:
+# Full Name:
+#    git: github id
+#    email: email adress
+#    orcid: ocrid id
+#    role: the role of the contributor
+#    affiliation: affiliation
+#    image_url: absolute path to image (default image from github)
 
 Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
-    gitter: bedroesb
     orcid: 0000-0003-0522-5674
+    role: editor
+    affiliation: VIB-UGent / ELIXIR-BE
 Flora D'Anna:
     git: floradanna
+    orcid: 0000-0003-4665-6673
+    role: editor
+    affiliation: VIB-UGent / ELIXIR-BE
 Daniel Faria:
     git: DanFaria
+    role: editor
+    orcid: 0000-0003-1511-277X
 Pinar Alper:
     git: pinarpink
     orcid: 0000-0002-2224-0780
+    role: editor
 Carole Goble:
     git: CaroleGoble
+    role: lead
+    orcid: 0000-0003-1219-2137
+    affiliation: The University of Manchester
+Inge Jonassen:
+    role: lead
+    affiliation: University of Bergen
+    git: ingejonassen
 Frederik Coppens:
     git: frederikcoppens
+    role: lead
+    orcid: 0000-0001-6565-5145
+    email: frederik.coppens@psb.vib-ugent.be
+    affiliation: VIB-UGent / ELIXIR-BE
 Mijke Jetten:
     git: MijkeJetten
     email: m.jetten@dtls.nl
     orcid: 0000-0001-9114-2896
+    role: editor
 Nicola Soranzo:
     git: nsoranzo
     orcid: 0000-0003-3627-5340
+    affiliation: Earlham Institute
 Munazah Andrabi:
     git: smza
+    role: editor
 Vicky Sundesha:
     git: vsundesha
 Rob Hooft:
     git: rwwh
     email: rob.hooft@dtls.nl
     orcid: 0000-0001-6825-9439
+    role: editor
 Karel Berka:
     git: KarelBerka
     email: karel.berka@upol.cz
@@ -57,10 +75,15 @@ Siiri Fuchs:
     git: siirif
     email: siiri.fuchs@csc.fi
     orcid: 0000-0003-1391-9959
+    affiliation: CSC - IT Center for Science / ELIXIR-FI
 Anastasia Chasapi:
     git: achasapi
 Ulrike Wittig:
     git: wittigue
+    email: ulrike.wittig@h-its.org
+    orcid: 0000-0002-9077-5664
+    affiliation: HITS / ELIXIR-DE
+    role: editor
 Wei Gu:
      git: weiguUL
      email: wei.gu@uni.lu
@@ -69,3 +92,87 @@ Christophe Trefois:
      git: trefex
      email: trefex@gmail.com
      orcid: 0000-0002-8991-6810
+Niclas Jareborg:
+    git: nicjar
+    email: niclas.jareborg@nbis.se
+    orcid: 0000-0002-4520-044X
+    role: editor
+    affiliation: NBIS / ELIXIR-SE
+Elin Kronander:
+    git: elinkronander
+    email: elin.kronander@nbis.se
+    orcid: 0000-0003-0280-6318
+    affiliation: NBIS / ELIXIR-SE
+Yvonne Kallberg:
+    git: yvonnekallberg
+    email: yvonne.kallberg@nbis.se
+    orcid: 0000-0002-3977-9600
+    affiliation: NBIS / ELIXIR-SE
+Markus Englund:
+    git: jmenglund
+    email: markus.englund@nbis.se
+    orcid: 0000-0003-1688-7112
+    affiliation: NBIS / ELIXIR-SE
+Wolmar Nyberg Åkerström:
+    git: wna-se
+    email: wolmar.n.akerstrom@nbis.se
+    orcid: 0000-0002-3890-6620
+    affiliation: NBIS / ELIXIR-SE
+Ivan Mičetić:
+    git: ivanmicetic
+    email: ivan.micetic@unipd.it
+    orcid: 0000-0003-1691-8425
+Robert Andrews:
+    git: robertmand
+    email: andrewsr9@cardiff.ac.uk
+    orcid: 0000-0002-3491-2361
+Minna Ahokas:
+    git: minnami
+    email: minna.ahokas@csc.fi
+    orcid: 0000-0003-2313-0011
+    affiliation: CSC - IT Center for Science / ELIXIR-FI
+Laura Portell Silva:
+    git: lauportell
+    email: laura.portell@bsc.es
+    orcid: 0000-0003-0390-3208
+    role: editor
+Federico Bianchini:
+    git: bianchini88
+    email: federico.bianchini@mn.uio.no
+    orcid: 0000-0002-9016-4820
+Celia van Gelder:
+    git: celiavg
+    email: celia.vangelder@dtls.nl
+    orchid: 0000-0002-0223-2329
+Erik Hjerde:
+    git: ehj000
+    email: erik.hjerde@uit.no
+    orcid: 0000-0002-6014-1249
+Daniel Wibberg:
+    git: dwibberg
+    email: dwibberg@cebitec.uni-bielefeld.de
+    orcid: 0000-0002-1331-4311
+Priit Adler:
+    git: adlerpriit
+    email: adler@ut.ee
+    orcid: 0000-0001-8276-5135
+Gregoire Rossier:
+    email: gregoire.rossier@sib.swiss
+    orcid: 0000-0002-0065-5053
+Alexander Botzki:
+    git: abotzki
+    email: alexander.botzki@vib.be
+    orcid: 0000-0001-6691-4233
+Martin Cook:
+    git: martin-nc
+    email: martin.cook@elixir-europe.org
+    role: editor
+Victoria Dominguez D. Angel:
+    git: vdda
+    orcid: 0000-0002-5514-6651
+Peter McQuilton:
+    git: drosophilic
+    orcid: 0000-0003-2687-1982
+Anne-Françoise Adam-Blondon:
+    git: afablondon
+    orcid: 0000-0002-3412-9086

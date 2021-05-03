@@ -1,20 +1,20 @@
-url: rdm.elixir-europe.org
-repository: https://github.com/elixir-europe/rdm-toolkit
+url: rdmkit.elixir-europe.org
+repository: elixir-europe/rdmkit
 
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
-
-topnav_title: RDM Toolkit
+# topnav_title:
 # this appears on the top navigation bar next to the home button
 
-site_title: ELIXIR Data Management Toolkit
+site_title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ELIXIR Converge
 # this appears in the page_ending
 
-github_editme_path: elixir-europe/rdm-toolkit/blob/master/
+git_editme_path: https://github.com/elixir-europe/rdmkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+description: "Find the answers to your Research Data Management questions in Life Sciences."
+# Metadata description of the website
 
 host: 127.0.0.1
 # the preview server used. Leave as is.
@@ -22,17 +22,19 @@ host: 127.0.0.1
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
+gtag: G-RXQ55EFTTH
+# Google analytics tag
+
 exclude:
-  - .idea/
   - .gitignore
-  - vendor
   - CODEOWNERS
   - var/
   - README.md
+  - vendor
 
-feedback_subject_line: RDM toolkit feedback
+feedback_subject_line: RDMkit feedback
 
-feedback_email: rdm-editors@elixir-europe.org
+contact_email: rdm-editors@elixir-europe.org
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -41,17 +43,12 @@ feedback_email: rdm-editors@elixir-europe.org
 feedback_text: "Give feedback"
 # if you uncomment the previous line, it changes the Feedback text
 
-# feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
-
-highlighter: rouge
-
 markdown: kramdown
+highlighter: rouge
 kramdown:
  input: GFM
  auto_ids: true
  hard_wrap: false
- syntax_highlighter: rouge
 
 defaults:
   -
@@ -61,16 +58,9 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      comments: false
       search: true
       sidebar: main
       topnav: topnav
-
-sidebars:
-- main
-- contribute
-
-description: "ELIXIR Data Management Toolkit"
 
 RDM_pages: ["/reusing.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
 

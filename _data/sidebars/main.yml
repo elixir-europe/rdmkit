@@ -1,62 +1,73 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+subitems:
+  - title: Data life cycle
+    description: Start here to get an overview of research data management. Click on a section of the diagram below to get an introduction to that stage of the data management life cycle.
+    subitems:
+      - RDM: True
+  - title: Your role
+    description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
+    subitems:
+      - title: Researcher
+        url: /researcher.html
+      - title: Data steward policy
+        url: /data_steward_policy.html
+      - title: Data steward research
+        url: /data_steward_research.html
+      - title: Data steward infrastructure
+        url: /data_steward_infrastructure.html
+  - title: Your domain
+    description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.
+    subitems:
+      - title: Plant sciences
+        url: /plant_sciences.html
+      - title: Marine metagenomics
+        url: /marine_metagenomics.html
+      - title: Human data
+        url: /human_data.html
+      - title: Biomolecular simulation data
+        url: /biomolecular_simulation_data.html
+      - title: Intrinsically disordered proteins
+        url: /intrinsically_disordered_proteins.html
+      - title: Microbial biotechnology
+        url: /microbial_biotechnology.html
+  - title: Your problem
+    description: Find guidelines and solutions for tackling common data management problems.
+    subitems:
+      - title: Compliance monitoring
+        url: /compliance_monitoring.html
+      - title: Data analysis
+        url: /data_analysis.html
+      - title: Data management plan
+        url: /data_management_plan.html
+      - title: Data organisation
+        url: /data_organisation.html
+      - title: Data protection
+        url: /data_protection.html
+      - title: Data publication
+        url: /data_publication.html
+      - title: Data quality
+        url: /data_quality.html
+      - title: Data storage
+        url: /storage.html
+      - title: Data transfer
+        url: /data_transfer.html
+      - title: Identifiers
+        url: /identifiers.html
+      - title: Licensing
+        url: /licensing.html
+      - title: Metadata management
+        url: /metadata_management.html
+      - title: Sensitive data
+        url: /sensitive_data.html
 
-entries:
-  - title: Main sidebar
-    folders:
-      - title: Data Life Cycle
-        folderitems:
-          - RDM: True
-      - title: Your Role
-        folderitems:
-          - title: Data Steward Policy
-            url: /data_steward_policy.html
-          - title: Data Steward IT
-            url: /data_steward_IT.html
-          - title: Data Steward Research
-            url: /data_steward_research.html
-          - title: Researcher
-            url: /researcher.html
-      - title: Your Domain
-        folderitems:
-          - title: Plant Sciences
-            url: /plant_sciences.html
-          - title: Marine Metagenomics
-            url: /marine_metagenomics.html
-          - title: Human Data
-            url: /human_data.html
-          - title: Biomolecular Simulation Data
-            url: /biomolecular_simulation_data.html
-          - title: Intrinsically Disordered Proteins
-            url: /intrinsically_disordered_proteins.html
-      - title: Your Problem
-        folderitems:
-          - title: Compliance Monitoring
-            url: /compliance_monitoring.html
-          - title: Data Classification
-            url: /data_classification.html
-          - title: Data Management Plan
-            url: /data_management_plan.html
-          - title: Data Organisation
-            url: /data_organisation.html
-          - title: Data Protection
-            url: /data_protection.html
-          - title: Data Publication
-            url: /data_publication.html
-          - title: Data Quality
-            url: /data_quality.html
-          - title: Data Transfer
-            url: /data_transfer.html
-          - title: Licensing
-            url: /licensing.html
-          - title: Metadata Management
-            url: /metadata_management.html
-          - title: Storage
-            url: /storage.html
-      - title: All Tools and Resources
-        url: /all_tools_and_resources.html
-        hr: True
-      - title: Tools Assembly
-        hr: True
-        folderitems:
-          - title: NeLS
-            url: /nels_assembly.html
+  - title: All tools and resources
+    description: Browse the RDMkit's catalogue of tools and resources for research data management.
+    url: /all_tools_and_resources.html
+    hr: True
+  - title: Tools assembly
+    description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
+    hr: True
+    subitems:
+      - title: NeLS
+        url: /nels_assembly.html
+      - title: Covid-19 Data Portal
+        url: /covid19_data_portal.html

@@ -1,45 +1,41 @@
 ---
 title: Processing
-keywords:
-contributors: [Rob Hooft]
+keywords: [data cleaning, data formatting, quality check, data validation]
+contributors: [Rob Hooft, Munazah Andrabi]
 ---
 
-## What is Data Processing?
+## What is data processing?
 
-Data processing is the phase in a project where data is prepared for analysis.
+Data processing is the phase in the project where data is converted into a desired format and prepared for analysis. When data has been freshly collected, data processing includes some automated steps in a workflow that perform format conversion, quality check and preprocessing following a standardised protocol. The main aim of processing is to:
+ * Convert data into readable format giving it the shape and form necessary for downstream analysis. 
+ * Discard bad or low quality data in order to create clean, high-quality dataset for reliable results.
 
-When data has freshly been collected the data processing can contain some automated steps in a workflow that performs format conversion changes, and preprocessing that is always done in exactly the same way.
+When data is imported from existing sources, e.g. data to be reused from another project, processing can also include manual steps to make it suitable for analysis. These steps include but are not limited to:
+ * Making changes to data formats such that different datasets will be compatible for integration with each other.
+ * Changing coding systems or ontologies for the data to bring everything to the same level.
+ * Filtering data such that only data suitable for the project is retained.
 
-Especially when data is imported from elsewhere, e.g. data that is to be reused from another project, processing can also include manual steps to make data suitable for analysis, such as
- * Making changes in data formats to make different data sets that will be integrated compatible with each other
- * Changing coding systems or ontologies for the data to bring everything to the same level
- * Filtering data so that only data that is suitable for the project remains.
+ After data processing, clean data is ready for analysis and should therefore be available to the members of the project team that need to perform the next steps.
 
- After data processing, data is readied for analysis, and should therefore be available to the members of the project team that need to perform that step.
+## Why is data processing important?
 
-## Why is Data Processing important?
+Data processing is important to ensure good quality of the collected data and to prepare it for meaningful data analysis. Accurate data processing is also essential for combining two or more datasets into a single dataset. An accurate documentation of every step done during data processing is key for the reproducibility of your result. Processing data correctly makes it easy to arrange, analyse and also saves a lot of space.
 
-Data processing is important to ensure the good quality of the collected data and to prepare for the appropriate data analysis. An accurate documentation of every step done during data processing is key for the reproducibility of your result.
-
-## What should be considered for Data Processing
+## What should be considered for data processing?
 
 The following considerations are important for data processing:
 
-* Does data need to be pseudonymized / anonymized? Not only by removing directly identifying data, but also e.g. names are sometimes visible in images.
-* Are there standards for the encoding of different data fields?
-* Is the data properly documented?
-    * Are encoding choices documented?
-    * Is there a special significance to empty or otherwise special data fields? And is that made explicit?
-    * Are all relationships between data fields explicit (e.g. if a dataset contains "medication" and "disease", is that medication actually used to treat the disease? Or is it e.g. medication that the patient is using for other reasons?)
+* Sensitive data should be Pseudonymised/anonymised. Not only should you remove the directly identifying data, but also be attentive to other sources e.g. names written on images.
+* Appropriate standards for encoding different data fields should be used.
+* All steps of anonymisation and encoding should be properly documented, For e.g.
+    * The chosen encoding formats used for data fieds should be documented.
+    * The special significance of empty or otherwise special data fields.
+    * All relationships between data fields should be made explicit (e.g. if a dataset contains "medication" and "disease", is that medication actually used to treat the disease? Or is it a medication that the patient is using for other reasons?).
 
-## Where can training materials and events about Data Processing be found?
-
-{% include tess.html search="Data Processing" %}
-
-## Related topics
+## Problems to be addressed at this stage
 
 {% include pagelist.html tag="process" %}
 
+## Where can training materials and events about data processing be found?
 
-<!--## External links
-missing content -->
+{% include tess.html search="Data Processing" %}

@@ -1,28 +1,21 @@
 # Cycle Tags
 plan:
   url: planning.html
-  bg-color: "#903292"
 collect:
   url: collecting.html
-  bg-color: "#023452"
 process:
   url: processing.html
-  bg-color: "#309E69"
 analyse:
   url: analysing.html
-  bg-color: "#763E2A"
 preserve:
   url: preserving.html
-  bg-color: "#DBBE28"
 share:
   url: sharing.html
-  bg-color: "#C63244"
 reuse:
   url: reusing.html
-  bg-color: "#f47d21"
 # Role tags
 IT support:
-  url: data_steward_IT.html
+  url: data_steward_infrastructure.html
 policy officer:
   url: data_steward_policy.html
 data manager:
@@ -32,7 +25,6 @@ researcher:
 # Domain tags
 plants:
   url: plant_sciences.html
-  bg-color: "#5cb85c"
 marine:
   url: marine_metagenomics.html
 human data:
@@ -41,6 +33,10 @@ biomol sim:
   url: biomolecular_simulation_data.html
 IDP:
   url: intrinsically_disordered_proteins.html
+struct info:
+  url: structural_bioinformatics.html
+micro biotech:
+  url: microbial_biotechnology.html
 # Problem tags
 DMP:
   url: data_management_plan.html
@@ -60,11 +56,16 @@ licensing:
   url: licensing.html
 data organisation:
   url: data_organisation.html
-data classification:
-  url: data_classification.html
+sensitive:
+  url: sensitive_data.html
 data protection:
   url: data_protection.html
-privacy:
+data analysis:
+  url: data_analysis.html
+identifiers:
+  url: identifiers.html
 # Assembly tags
 nels:
   url: nels_assembly.html
+covid-19:
+  url: covid19_data_portal.html

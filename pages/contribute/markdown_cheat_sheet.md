@@ -1,6 +1,6 @@
 ---
 title: Markdown cheat sheet
-keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+keywords: [ demo page, showreel, markdown, kramdown, jekyll ]
 sidebar: contribute
 summary: This is a cheat sheet to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
@@ -22,10 +22,10 @@ This can be extended with following attributes (each with an example):
 ```
 ---
 title: Demo page
-keywords: [ Demo page, showreel, markdown, Kramdown, Jekyll ]
+keywords: [ demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 summary: This is a demo page to showcase what is possible
-contributors: [bedroesb]
+contributors: [Bert Droesbeke]
 search: exclude
 datatable: true
 toc: false
@@ -36,7 +36,7 @@ tags: [research_it]
 
 * `summary`: Using this attribute it is possible to specify a summary which will be displayed under the title of the page. This summary will also be used as description of your page when the page is tagged.
 
-* `contributors`: list here all the contributors that helped in establishing the page. This will be the name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
+* `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
 * `search`: by setting this field to exclude, the page will not end up in the search results of the searchbar. By default this is true.
 
@@ -44,7 +44,7 @@ tags: [research_it]
 
 * `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
 
-* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page.
+* `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page, lowercase.
 
 * `sidebar`: Specify here an alternative sidebar. Default: main
 
@@ -97,7 +97,7 @@ Using:
 
 Make sure there are no spaces between the asterisks and the text you want to put in italic.
 
-## File names/ Files / software names
+## File names/ files / software names
 
 `Text` can be highlighted using:
 
@@ -169,29 +169,29 @@ Make sure that you add the image to the `images` directory and give it an unders
 
 ## Icons
 
-Go to the [Font Awesome library](https://fontawesome.com/v4.7.0/icons/) to see the available icons.
+Go to the [Font Awesome library](https://fontawesome.com/) to see the available icons.
 
 The Font Awesome icons allow you to adjust their size by simply adding `fa-2x`, `fa-3x` and so forth as a class to the icon to adjust their size to two times or three times the original size. As vector icons, they scale crisply at any size.
 
 Here's an example of how to scale up a camera icon:
 
 ```html
-<i class="fa fa-camera-retro"></i> normal size (1x)
-<i class="fa fa-camera-retro fa-lg"></i> fa-lg
-<i class="fa fa-camera-retro fa-2x"></i> fa-2x
-<i class="fa fa-camera-retro fa-3x"></i> fa-3x
-<i class="fa fa-camera-retro fa-4x"></i> fa-4x
-<i class="fa fa-camera-retro fa-5x"></i> fa-5x
+<i class="fas fa-camera-retro"></i> normal size (1x)
+<i class="fas fa-camera-retro fa-lg"></i> fa-lg
+<i class="fas fa-camera-retro fa-2x"></i> fa-2x
+<i class="fas fa-camera-retro fa-3x"></i> fa-3x
+<i class="fas fa-camera-retro fa-4x"></i> fa-4x
+<i class="fas fa-camera-retro fa-5x"></i> fa-5x
 ```
 
 Here's what they render to:
 
-<i class="fa fa-camera-retro"></i> 1x
-<i class="fa fa-camera-retro fa-lg"></i> fa-lg
-<i class="fa fa-camera-retro fa-2x"></i> fa-2x
-<i class="fa fa-camera-retro fa-3x"></i> fa-3x
-<i class="fa fa-camera-retro fa-4x"></i> fa-4x
-<i class="fa fa-camera-retro fa-5x"></i> fa-5x
+<i class="fas fa-camera-retro"></i> 1x
+<i class="fas fa-camera-retro fa-lg"></i> fa-lg
+<i class="fas fa-camera-retro fa-2x"></i> fa-2x
+<i class="fas fa-camera-retro fa-3x"></i> fa-3x
+<i class="fas fa-camera-retro fa-4x"></i> fa-4x
+<i class="fas fa-camera-retro fa-5x"></i> fa-5x
 
 ## Links
 
@@ -217,7 +217,7 @@ If you change the file name, you'll have to update all of your links.
 
 ## Emoji's
 
-Use Github emoticons! Look [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to find a cheat sheet for all the emoticons.
+Use GitHub emoticons! Look [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) to find a cheat sheet for all the emoticons.
 :+1: is made with `:+1:`
 
 ## Code snippets
@@ -293,6 +293,28 @@ and are made with:
 
 ```
 
+## Block quotes
+
+You can add a blockquote using:
+
+```md
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+>
+> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+```
+
+Giving:
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+>
+> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
 ## A collapsible piece of text
 
 <details>
@@ -313,7 +335,7 @@ Text
 </details>
 ```
 
-## Including a TeSS training material button
+## Including a tess training material button
 
 Link to a search query:
 {% raw %}

@@ -13,11 +13,11 @@ As an editor, try to work as much as possible on a different branch than the mas
 ### The google doc way of contributing
 This process is sketched below.
 
-{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true  %}
+{% include image.html file="googledoc_way_flow.svg" alt="Process of contributing via Google docs" click=true %}
 
 ### Overview of the file structure in GitHub
 
-The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages) directory.
+The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdmkit/tree/master/pages) directory.
 These markdown files are divided over subdirectories (your_role, your_domain, your_problem...) for sorting reasons only.
 
 ### The metadata/frontmatter of the markdown file
@@ -55,11 +55,13 @@ Optional metadata/frontmatter:
 
 * `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
 
+* `description`: This is a one-liner and is used when the page is listed. 
+
 ### Markdown file naming
 
 - Markdown files should be named without capitals and without spaces (replace them with underscores).
 - Make sure that the markdown file has a unique name.
-- If the markdown file is named *example.md*, the page will be found at https://rdm.elixir-europe.org/example.
+- If the markdown file is named *example.md*, the page will be found at https://rdmkit.elixir-europe.org/example.
 - By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found [here](#find-your-newly-added-page-back-on-the-website).
 
 ### GitHub checks
@@ -68,19 +70,19 @@ With each PR or merge to the master, some checks are done using GitHub actions. 
 
 ## Label, discuss and assign issues
 
-  * Check open issues regularly or enable notifications by clicking the "WATCH" icon in the top-right side of the [GitHub repository](https://github.com/elixir-europe/rdm-toolkit/issues).
+  * Check open issues regularly or enable notifications by clicking the "WATCH" icon in the top-right side of the [GitHub repository](https://github.com/elixir-europe/rdmkit/issues).
   * Assign labels to issues.
   * Discuss who is going to be responsible for each issue with other editors and reviewers (via issue comments or other communication channels).
   * Assign at least one editor/reviewer to the issue, who will discuss the possible content with the contributor.
   * When a Pull Request (PR) or a draft PR related to an issue is created, link the PR to the issue.
   
-More information about these topics can be found in the Github documentation:
+More information about these topics can be found in the GitHub documentation:
 - [commenting on PRs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
 - [start a review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request)
 
 ## Review pull requests
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will changed by the PR will be assigned and notified.
+If contributors make a pull request to make changes, by default the editors that are responsible for files that will changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags and keywords, and tools and resources' tags should be checked and assigned according to the established tagging system.
   
 ## Link a pull request to an issue
 
@@ -92,7 +94,7 @@ For more information about this topic please visit the [GitHub documentation pag
 ### Simple way: using the GitHub interface
 To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
 
-1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdm-toolkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdm-toolkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
+1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
 
 2. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
@@ -115,20 +117,22 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 8. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
      {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
 
-9. If the markdown file is named *example.md* the page will be rendered at https://rdm.elixir-europe.org/example. This link can be provided to the contributor through the issue.
+9. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
 
 {% include note.html content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
 
-### Advanced: Working on your own feature branch and pushing local changes
+### Advanced: working on your own feature branch and pushing local changes
 
 Just like with every change you want to make to this repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page.
 
 
 ## Find your newly added page back on the website
 
-By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://rdm.elixir-europe.org/markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
+By default your page will not be linked in the sidebar on the website, or on the landing page, but it will exist as an orphan at *https://rdmkit.elixir-europe.org/markdown_file_name*. In order to prevent that people will not find the page back it is better to link towards it in the sidebar or get linked within an existing page. 
 
 ### Linking pages in the sidebar and frontpage
+
+Make sure all pages are accessible from the navigation sidebar. Please, avoid generating sub-pages that are not directly accessible from the navigation sidebar.
 
 This website supports multiple sidebars, the one in the main sections of the website is for example different from the one in the contribute section. Both of them are defined by `.yaml` files in the *_data/sidebars* directory. Changing these yaml file will immediately impact the sidebars and the frontpage of the website. The sidebar supports multiple levels and each level in the hierarchy can contain a URL to a page within this website or an external URL.
 
@@ -136,13 +140,12 @@ The attributes that define the structure are:
 - `title`: This is the text that will show up in the sidebar.
 - `url`: The URL to the internal page you want to link to. This is mostly in the form of: */markdown_file_name.html*.
 - `external_url`: Use this instead of URL if you want to link to an external page.
-- `folderitems`: To start a second level of links.
-- `subfolderitems`: To start a third level of links.
+- `subitems`: to define a sublevel.
 
 ```yaml
 - title: Level_1_title
-    url: level_1_url
-    folderitems:
+  url: level_1_url
+  subitems:
     - title: Level_2_title
       url: level_2_url
 ```
@@ -151,7 +154,7 @@ The attributes that define the structure are:
 
 ### Link page within existing page
 
-When linking to internal pages, you can manually link to the pages like this:
+Avoid manual linking to internal pages. If necessary, you can manually link to the pages like this:
 
 If the markdown page is named example_1.md, you can link towards it using:
 
@@ -162,20 +165,49 @@ If the markdown page is named example_1.md, you can link towards it using:
 {% include important.html content="If you change the file name, you'll have to update all of your links." %}
 
 
+
 ## Linking the GitHub accounts to the contributors
 
-Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdm-toolkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
+Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
 
 ```yaml
 Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
-    gitter: bedroesb
     orcid: 0000-0003-0522-5674
-
+    role: editor
+    affiliation: VIB-UGent
 ```
 {% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
+
+## Adding an institute to the institute page
+
+Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file. In this file, the name, url towards the website of the institute and the relative path to the logo is given.
+
+```yaml
+- name: VIB-PSB
+  image_url: /images/institutes/VIB-PSB.svg
+  url: https://www.psb.ugent.be/
+```
+
+{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, if possible." %}
+
+The logos of these corresponding institutes are added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/) directory.
+
+## Adding a funder to the funders page
+
+Funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUNDERS.yaml) file. In this file, the name, url towards the website of the institute and the relative path to the logo is given.
+
+```yaml
+- name: ELIXIR CONVERGE
+  image_url: /assets/img/converge_logo.svg
+  url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
+```
+
+{% include important.html content="Upload vector images (.svg filetype) of the funder logo for better quality, if possible." %}
+
+The logos of these corresponding institutes are added to the [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
 ## Page tagging
 

@@ -1,16 +1,20 @@
 ---
 layout: default
 ---
-<div class="post-header">
-    <h1 class="post-title-main">{{ page.title }}
-        {%- if page.custom-editme %}
-        {%- capture custom-editme %}{{ page.custom-editme }}{%- endcapture %}
-        {%- include edit_me.html path=custom-editme %}
-        {%- else %}
-        {%- include edit_me.html %}
-        {%- endif %}
-    </h1>
-</div>
+{%- if page.title %}
+<h1>{{ page.title }}
+    {%- unless site.git_editme_path == nil %}
+    {%- if page.custom-editme %}
+    <a href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
+    {%- else %}
+    <a href="{{site.git_editme_path}}{{page.path}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
+    {%- endif %}
+    {%- endunless %}
+</h1>
+{%- if page.subtitle %}
+<h1 class="subtitle">{{page.subtitle}}</h1>
+{%- endif %}
+{%- endif %}
 <div class="post-content">
     {%- if page.summary %}
     <div class="summary">{{page.summary}}</div>
@@ -21,21 +25,27 @@ layout: default
     {{content}}
 </div>
 {%- if page.tags != null or page.contributors != null %}
-<hr>
+<div class="page-metadata">
 {%- endif %}
 {%- if page.tags != null %}
-<div class="tags">
+<div class="meta-line">
     <b>Tags: </b>
     {%- assign projectTags = site.data.tags %}
     {%- assign tags = page.tags | sort %}
     {%- for tag in tags %}
     {%- if projectTags[tag] %}
-    <a href="{{ projectTags[tag].url }}" class="btn btn-default"
+    <a href="{{ projectTags[tag].url }}" class="meta-obj"
         role="button">{{tag}}</a>
     {%- endif %}
     {%- endfor %}
 </div>
 {%- endif %}
 {%- if page.contributors %}
-<div class="contributors-line"><b>Contributors: </b>{%- include contributor-badge-list.html contributors=page.contributors %}</div>
+<div class="meta-line">
+    <b>Contributors: </b>
+    {%- include contributor-badge-list.html contributors=page.contributors %}
+</div>
+{%- endif %}
+{%- if page.tags != null or page.contributors != null %}
+</div>
 {%- endif %}

@@ -1,5 +1,5 @@
 ---
-title: How to contribute to the RDM toolkit website
+title: How to contribute to the RDMkit website
 sidebar: contribute
 toc: false
 ---
@@ -20,7 +20,12 @@ Everyone is welcome to contribute to this site, and we've tried to make it as ea
 When writing for this website keep in mind the following:
 
 * For the sake of consistency, please follow our [style guide](style_guide).
-* We give great importance to authorship credit. If others were involved in your contribution, by writing up or by providing resources such as diagrams or links, please make sure you acknowledge them in the authors' section of your page.
+* We give great importance to authorship credit. If others were involved in your contribution, by writing up or by providing resources such as diagrams or links, please make sure you acknowledge them in the contributors' section of your page.
 
+## Attribution of the contributors
+
+Contributors will be shown at the bottom of the page if listed in the metadata of the markdown file. All contributors will also be displayed in the [contributors page](contributors.html). If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
+
+## Making a quick suggestion
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-yfGjAdusicjzdmzrfmUOcrfszhaZEk24igCeVwMllKzxsw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="width: 100%;" class="mt-1">Loading…</iframe>

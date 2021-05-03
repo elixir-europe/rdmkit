@@ -1,12 +1,6 @@
 <script>
   $(document).ready(function () {
-    $('#toc').toc({ minimumHeaders: 2, listType: 'ul', showSpeed: 0, headers: 'h2' });
-    $('#toc').on('click', 'a', function () {
-      var target = $(this.getAttribute('href'))
-        , scroll_target = target.offset().top
-      $(window).scrollTop(scroll_target - 10);
-      return false
-    })
+    $('#toc').toc({ minimumHeaders: 2, listType: 'ul', showSpeed: 0, headers: 'h2' , title: '' });
   });
 </script>
 <div id="toc"></div>
