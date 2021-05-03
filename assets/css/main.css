@@ -897,37 +897,19 @@ li ul .sidebar_rdm_sub {
     word-wrap: break-word;
 }
 .search-result-doc.search-result-doc-parent {
-    opacity: 0.5;
     font-size: 12px !important;
-}
-@media (min-width: 500px) {
-    .search-result-doc.search-result-doc-parent {
-        font-size: 14px !important;
-   }
-}
-@media (min-width: 800px) {
-    .search-result-doc.search-result-doc-parent {
-        font-size: 11px !important;
-   }
-}
-@media (min-width: 500px) and (min-width: rem(500px)) {
-    .search-result-doc.search-result-doc-parent {
-        font-size: 12px !important;
-   }
 }
 
 .search-result-doc .search-result-doc-title {
     overflow: auto;
-    color: var(--primary-theme-color);
+    color: var(--main-text-color);
 }
 .search-result-section {
-    margin-left: 1.5rem;
     word-wrap: break-word;
     color: var(--primary-theme-color)
 }
 .search-result-rel-url {
     display: block;
-    margin-left: 1.5rem;
     overflow: hidden;
     color: #959396;
     text-overflow: ellipsis;

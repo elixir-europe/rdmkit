@@ -79,7 +79,6 @@ jQuery(function ($) {
  * Search
  */
 
-  
  (function (jtd, undefined) {
  
  // Event handling
@@ -101,6 +100,47 @@ jQuery(function ($) {
    });
  }
  
+ // Show/hide mobile menu
+ 
+ function initNav() {
+   jtd.addEvent(document, 'click', function(e){
+     var target = e.target;
+     while (target && !(target.classList && target.classList.contains('nav-list-expander'))) {
+       target = target.parentNode;
+     }
+     if (target) {
+       e.preventDefault();
+       target.parentNode.classList.toggle('active');
+     }
+   });
+ 
+   const siteNav = document.getElementById('site-nav');
+   const mainHeader = document.getElementById('main-header');
+   const menuButton = document.getElementById('menu-button');
+ 
+   jtd.addEvent(menuButton, 'click', function(e){
+     e.preventDefault();
+ 
+     if (menuButton.classList.toggle('nav-open')) {
+       siteNav.classList.add('nav-open');
+       mainHeader.classList.add('nav-open');
+     } else {
+       siteNav.classList.remove('nav-open');
+       mainHeader.classList.remove('nav-open');
+     }
+   });
+ 
+   const searchInput = document.getElementById('search-input');
+   const searchButton = document.getElementById('search-button');
+ 
+   jtd.addEvent(searchButton, 'click', function(e){
+     e.preventDefault();
+ 
+     mainHeader.classList.add('nav-open');
+     searchInput.focus();
+   });
+ }
+ 
  // Site search
  
  function initSearch() {
@@ -110,7 +150,9 @@ jQuery(function ($) {
    request.onload = function(){
      if (request.status >= 200 && request.status < 400) {
        var docs = JSON.parse(request.responseText);
-       lunr.tokenizer.separator = "/[\s/]+/"
+       
+       lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[\s\-/]+/" }}
+ 
        var index = lunr(function(){
          this.ref('id');
          this.field('title', { boost: 200 });
@@ -285,7 +327,7 @@ jQuery(function ($) {
              var previewEnd = position[0] + position[1];
              var ellipsesBefore = true;
              var ellipsesAfter = true;
-             for (var k = 0; k < 3; k++) {
+             for (var k = 0; k < {{ site.search.preview_words_before | default: 5 }}; k++) {
                var nextSpace = doc.content.lastIndexOf(' ', previewStart - 2);
                var nextDot = doc.content.lastIndexOf('. ', previewStart - 2);
                if ((nextDot >= 0) && (nextDot > nextSpace)) {
@@ -300,7 +342,7 @@ jQuery(function ($) {
                }
                previewStart = nextSpace + 1;
              }
-             for (var k = 0; k <  3; k++) {
+             for (var k = 0; k < {{ site.search.preview_words_after | default: 10 }}; k++) {
                var nextSpace = doc.content.indexOf(' ', previewEnd + 1);
                var nextDot = doc.content.indexOf('. ', previewEnd + 1);
                if ((nextDot >= 0) && (nextDot < nextSpace)) {
@@ -360,7 +402,7 @@ jQuery(function ($) {
          resultLink.appendChild(resultPreviews);
  
          var content = doc.content;
-         for (var j = 0; j < Math.min(previewPositions.length, 2 ); j++) {
+         for (var j = 0; j < Math.min(previewPositions.length, {{ site.search.previews | default: 3 }}); j++) {
            var position = previewPositions[j];
  
            var resultPreview = document.createElement('div');
@@ -471,18 +513,6 @@ jQuery(function ($) {
    });
  }
  
- // Switch theme
- 
- jtd.getTheme = function() {
-   var cssFileHref = document.querySelector('[rel="stylesheet"]').getAttribute('href');
-   return cssFileHref.substring(cssFileHref.lastIndexOf('-') + 1, cssFileHref.length - 4);
- }
- 
- jtd.setTheme = function(theme) {
-   var cssFile = document.querySelector('[rel="stylesheet"]');
-   cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | absolute_url }}' + theme + '.css');
- }
- 
  // Document ready
  
  jtd.onReady(function(){
@@ -490,3 +520,5 @@ jQuery(function ($) {
  });
  
  })(window.jtd = window.jtd || {});
+ 
+ 
