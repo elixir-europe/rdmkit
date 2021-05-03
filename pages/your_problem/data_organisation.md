@@ -43,7 +43,7 @@ Brief and descriptive file names are important in keeping your data files organi
   * File name: `20201202_HB_EXP2_HEL_DATA_V03.xls`
   * Explanation: `Time_ProjectAbbreviation_ExperimentNumber_Location_TypeOfData_VersionNumber`
 * Cropped image of an ant head taken on the third of December 2020 by Meg Megson
-  * `20201203_MM_HEAD_CROPPED_V1.psd`
+  * File name: `20201203_MM_HEAD_CROPPED_V1.psd`
   * Explanation: `Time_CreatorData_TypeModification_Version`
 
 ## How do you manage file versioning?
