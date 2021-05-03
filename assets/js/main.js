@@ -212,7 +212,6 @@ jQuery(function ($) {
  
      } else {
        var resultsList = document.createElement('ul');
-       resultsList.classList.add('search-results-list');
        searchResults.appendChild(resultsList);
  
        addResults(resultsList, results, 0, 10, 100, currentSearchIndex);
@@ -237,11 +236,9 @@ jQuery(function ($) {
        var doc = docs[result.ref];
  
        var resultsListItem = document.createElement('li');
-       resultsListItem.classList.add('search-results-list-item');
        resultsList.appendChild(resultsListItem);
  
        var resultLink = document.createElement('a');
-       resultLink.classList.add('search-result');
        resultLink.setAttribute('href', doc.url);
        resultsListItem.appendChild(resultLink);
  
@@ -426,26 +423,26 @@ jQuery(function ($) {
      switch (e.keyCode) {
        case 38: // arrow up
          e.preventDefault();
-         var active = document.querySelector('.search-result.active');
+         var active = document.querySelector('.search-results a.active');
          if (active) {
            active.classList.remove('active');
            if (active.parentElement.previousSibling) {
-             var previous = active.parentElement.previousSibling.querySelector('.search-result');
+             var previous = active.parentElement.previousSibling.querySelector('.search-results a');
              previous.classList.add('active');
            }
          }
          return;
        case 40: // arrow down
          e.preventDefault();
-         var active = document.querySelector('.search-result.active');
+         var active = document.querySelector('.search-results a.active');
          if (active) {
            if (active.parentElement.nextSibling) {
-             var next = active.parentElement.nextSibling.querySelector('.search-result');
+             var next = active.parentElement.nextSibling.querySelector('.search-results a');
              active.classList.remove('active');
              next.classList.add('active');
            }
          } else {
-           var next = document.querySelector('.search-result');
+           var next = document.querySelector('.search-results a');
            if (next) {
              next.classList.add('active');
            }
@@ -453,11 +450,11 @@ jQuery(function ($) {
          return;
        case 13: // enter
          e.preventDefault();
-         var active = document.querySelector('.search-result.active');
+         var active = document.querySelector('.search-results a.active');
          if (active) {
            active.click();
          } else {
-           var first = document.querySelector('.search-result');
+           var first = document.querySelector('.search-results');
            if (first) {
              first.click();
            }
