@@ -36,7 +36,7 @@ tags: [research_it]
 
 * `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
-* `search`: by setting this field to exclude, the page will not end up in the search results of the searchbar. By default this is true.
+* `search_exclude`: by setting this field true, the page will not end up in the search results of the searchbar. By default this is false.
 
 * `hide_sidebar`: When true, the sidebar will be hided. Default: false
 
