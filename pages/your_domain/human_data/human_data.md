@@ -1,5 +1,5 @@
 ---
-title: Human Data
+title: Human data
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
 keywords: [human data, sensitive data, personal data, ega, ethics, gdpr, legislation, data protection, data classification, consent]
 ---
@@ -157,7 +157,6 @@ To make human research data reusable for others, it must be discoverable, stored
 [A FAIR guide for data providers to maximise sharing of human genomic data](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873)
 
 [Toward better governance of human genomic data](https://www.nature.com/articles/s41588-020-00742-6)
-
 
 
 
