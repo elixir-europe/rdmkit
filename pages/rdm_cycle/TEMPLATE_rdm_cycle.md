@@ -2,7 +2,7 @@
 title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
 keywords: [<!---Optional. REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-search: exclude
+search_exclude: true
 ---
 
 ## What is "data + stage name"? <!-- edit this heading (e.g. what is data analysis?) and write your text below it -->

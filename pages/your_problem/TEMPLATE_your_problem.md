@@ -3,7 +3,7 @@ title: Global problem title (e.g. metadata management)
 keywords: [<!---REPLACE THIS with comma separated list of keywords--->]
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags" or "Role Tags"--->]
-search: exclude
+search_exclude: true
 ---
 
 ## Concrete problem 1, formulated as a question <!-- example: what is the best way to name a file?-->

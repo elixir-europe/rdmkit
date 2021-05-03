@@ -1,7 +1,7 @@
 ---
 title: Code of Conduct
 sidebar: contribute
-search: exclude
+search_exclude: true
 toc: false
 ---
 

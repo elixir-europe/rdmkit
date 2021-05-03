@@ -4,7 +4,7 @@ keywords: [ demo page, showreel, markdown, kramdown, jekyll ]
 sidebar: contribute
 summary: This is a cheat sheet to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
-search: exclude
+search_exclude: true
 ---
 
 ## Possible metadata attributes of a page
@@ -26,7 +26,7 @@ keywords: [ demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [Bert Droesbeke]
-search: exclude
+search_exclude: true
 datatable: true
 toc: false
 custom-editme: _data/tool_and_resource_list.xlsx
