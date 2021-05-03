@@ -203,10 +203,10 @@ pre code {
 
 .search-results {
     position: absolute;
-    left: -312px;
+    right: 0;
     top: 100%;
     display: none;
-    width: 536px;
+    width: 34em;
     max-height: calc(90vh - 200%) !important;
     overflow-y: auto;
     background-color: #fff;
@@ -218,7 +218,6 @@ pre code {
 
 @media (max-width: 992px) {
     .search-results{
-        left: 0px;
         width: 100%;
     }
 }
