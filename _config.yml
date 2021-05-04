@@ -31,6 +31,8 @@ exclude:
   - var/
   - README.md
   - vendor
+  - Gemfile*
+  - LICENSE
 
 feedback_subject_line: RDMkit feedback
 
