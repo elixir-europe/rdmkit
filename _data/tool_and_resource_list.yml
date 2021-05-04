@@ -923,6 +923,7 @@ Tools:
   name: HumanMine
   registry:
     biotools: humanmine
+    tess: HumanMine
   tags:
   - data organisation
   - data manager
