@@ -1,30 +1,30 @@
 ---
 title: Human data
-contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström]
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
 keywords: [human data, sensitive data, personal data, ega, ethics, gdpr, legislation, data protection, data classification, consent]
 ---
 
 ## Introduction
 
-When you do research on data derived from human individuals, there are some extra aspects that you need to consider during the data life cycle. Note that much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in EU and on individuals residing in the EU. 
+When you do research on data derived from human individuals, there are additional aspects that must be considered during the data life cycle. Note, much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in the EU and on individuals residing in the EU. 
 Much of the information on this page is of a general nature when it comes to working with human data, an additional focus is on human genomic data and the sharing of such information for research purposes.
 
 ## Planning for, and collection of, human research data
 
 ### Description
 
-To do research on human data you must follow established research ethical guidelines and legislation. Preferably planning for these aspects should be done before starting to handle the personal data, and in some cases laws even demand it, such in the case of the GDPR.
+For research on human data, you must follow established research ethical guidelines and legislations. Preferably, planning for these aspects should be done before starting to handle personal data and in some cases such as in the case of the GDPR, it is an important requirement by laws and regulations.
 
 ### Considerations
 
 * Have you got an **ethical permit** for your research project?
-  * To get an ethical permit you have to apply for an **ethical review** by an **ethical review board**. 
+  * To get an ethical permit, you have to apply for an **ethical review** by an **ethical review board**. 
     - The legislation that governs this differs between countries. Do seek advice from your research institute.
-  * In most cases you should get **informed consents** from your research subjects.
+  * In most cases, you should get **informed consents** from your research subjects.
     - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimize those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.
       - Consider describing data use conditions using a machine-readable formalized description such as [DUO](https://github.com/EBISPOT/DUO). This will greatly improve the possibilities to make the data FAIR later on.
     - Informed consents should be aquired for different purposes:
-      - It is a cornerstone of _research ethics_. Even if there are no other legal obligations for aquiring informed consents it is bad research ethics not to do it. You harm the trust in research if you don't.
+      - It is a cornerstone of _research ethics_. Regardless of legal obligations, it is important to ask for informed consents as it is a good research ethics practice and maintains trust in research.
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
       - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
       - _**Note that the content of an informed consent, as defined by one piece of legislation, might not live up to the demands of another piece of legislation.**_ For example, an informed consent that is good enough for an ethical permit, might not be good enough for the demands of the GDPR.
@@ -57,7 +57,7 @@ To do research on human data you must follow established research ethical guidel
 
 ### Description
 
-For human data it is very important to use technical and procedural measures to ensure that the information is kept secure. There might exist legal obligations to document and implement measures to ensure an adequate level of security.
+For human data, it is very important to use technical and procedural measures to ensure that the information is kept secure. There might exist legal obligations to document and implement measures to ensure an adequate level of security.
 
 ### Considerations
 
@@ -99,7 +99,7 @@ For human data it is very important to use technical and procedural measures to 
 
 ### Description
 
-It is good research ethical practice to ensure that data underlying research is preserved, preferably in a way that adheres to the FAIR principles. There might also exist legal obligations to preserve the data. With human data you have to take extra precautions into account when doing this.
+It is a good ethical practice to ensure that data underlying research is preserved, preferably in a way that adheres to the FAIR principles. There might also exist legal obligations to preserve the data. With human data, you have to take extra precautions into account when doing this.
 
 ### Considerations
 
@@ -120,7 +120,7 @@ It is good research ethical practice to ensure that data underlying research is 
 * [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) is an international information security standard adopted by data centres of some universities and research institutes.
 
 
-## Sharing & reusing of human research data
+## Sharing and reusing of human research data
 
 ### Description
 To make human research data reusable for others, it must be discoverable, stored in a safe way, and it must be clear under what circumstances it can be reused.
@@ -152,11 +152,12 @@ To make human research data reusable for others, it must be discoverable, stored
 
 ## Training materials on the management of human-subject data
 <!-- Link to Tess query -->
+{% include tess.html search="sensitive human data" %}
 
+[A FAIR guide for data providers to maximise sharing of human genomic data](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873)
 
+[Toward better governance of human genomic data](https://www.nature.com/articles/s41588-020-00742-6)
 
-
-  
 
 
 
