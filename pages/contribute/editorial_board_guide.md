@@ -110,7 +110,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
 7. Check the frontmatter/metadata of the markdown page:
-    - delete `search: exclude` attribute.
+    - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 

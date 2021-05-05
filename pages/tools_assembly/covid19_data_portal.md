@@ -1,7 +1,6 @@
 ---
 title: COVID-19 Data Portal 
 contributors: [Guy Cochrane, Marianna Ventouratou, Nadim Rahman, Sam Holt]
-keywords: [covid, data sharing, portal]
 tags: [share]
 ---
 

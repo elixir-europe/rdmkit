@@ -1,6 +1,5 @@
 ---
 title: Data publication
-keywords: [deposition database, repository]
 contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander]
 tags: [preserve, share, researcher, data manager]
 description: prepare data and find repositories for publication.

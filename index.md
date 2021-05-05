@@ -1,6 +1,6 @@
 ---
 toc: false
-search: exclude
+search_exclude: true
 ---
 
 {% include landingpage.html %}

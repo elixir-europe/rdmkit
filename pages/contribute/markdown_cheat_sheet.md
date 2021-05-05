@@ -1,10 +1,9 @@
 ---
 title: Markdown cheat sheet
-keywords: [ demo page, showreel, markdown, kramdown, jekyll ]
 sidebar: contribute
 summary: This is a cheat sheet to showcase what is possible within the markdown pages.
 contributors: [Bert Droesbeke]
-search: exclude
+search_exclude: true
 ---
 
 ## Possible metadata attributes of a page
@@ -22,11 +21,10 @@ This can be extended with following attributes (each with an example):
 ```
 ---
 title: Demo page
-keywords: [ demo page, showreel, markdown, Kramdown, Jekyll ]
 sidebar: contribute
 summary: This is a demo page to showcase what is possible
 contributors: [Bert Droesbeke]
-search: exclude
+search_exclude: true
 datatable: true
 toc: false
 custom-editme: _data/tool_and_resource_list.xlsx
@@ -38,7 +36,7 @@ tags: [research_it]
 
 * `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
-* `search`: by setting this field to exclude, the page will not end up in the search results of the searchbar. By default this is true.
+* `search_exclude`: by setting this field true, the page will not end up in the search results of the searchbar. By default this is false.
 
 * `hide_sidebar`: When true, the sidebar will be hided. Default: false
 

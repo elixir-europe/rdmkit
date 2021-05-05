@@ -1,6 +1,5 @@
 ---
 title: About
-keywords: [FAIR]
 sidebar: about
 ---
 

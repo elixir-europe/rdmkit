@@ -1,6 +1,5 @@
 ---
 title: Identifiers
-keywords: [DOI, PI, PID, ontology, citation]
 contributors: [Markus Englund, Flavio Licciulli, Nick Juty, Olivier Collin, Ulrike Wittig, Ivan Mičetić, Karel Berka, Shuxin Zhang, Hinri Kerstens, Flora D'Anna, Yvonne Kallberg, Rob Hooft]
 tags: [collect, share, reuse, researcher, data manager, IT support]
 description: how to use identifiers for research data.
