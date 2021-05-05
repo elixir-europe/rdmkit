@@ -375,11 +375,11 @@ jQuery(function ($) {
            }
          }
        }
- 
-       var resultRelUrl = document.createElement('span');
-       resultRelUrl.classList.add('search-result-rel-url');
-       resultRelUrl.innerText = doc.relUrl;
-       resultTitle.appendChild(resultRelUrl);
+      //  Show relative url in search results 
+      //  var resultRelUrl = document.createElement('span');
+      //  resultRelUrl.classList.add('search-result-rel-url');
+      //  resultRelUrl.innerText = doc.relUrl;
+      //  resultTitle.appendChild(resultRelUrl);
      }
  
      function addHighlightedText(parent, text, start, end, positions) {
