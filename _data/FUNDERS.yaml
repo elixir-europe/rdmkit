@@ -4,7 +4,9 @@
 - name: Research Council of Norway 
   image_url: /images/funders/fr-nettsted-logo_engelsk.svg
   url: https://www.forskningsradet.no/en/
-- name: FWO-IRI 
+- name: FWO-IRI
   image_url: /images/funders/FWO-logo.svg
   url: https://www.fwo.be/
-
+- name: Swedish Research Council
+  image_url: /images/funders/svart_liggande_eng.svg
+  url: https://www.vr.se/
