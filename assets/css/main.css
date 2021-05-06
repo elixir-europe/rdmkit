@@ -839,9 +839,3 @@ li ul .sidebar_rdm_sub {
     text-decoration: none;
     color: var(--white-text);
 }
-
-/* Institute cards */
-
-.institute-card {
-    border: none;
-}
