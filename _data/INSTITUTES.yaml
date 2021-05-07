@@ -28,4 +28,6 @@
 - name: University of Luxembourg
   url: https://wwwen.uni.lu/
   image_url: /images/institutes/University-of-Luxembourg-Fr-01_noborder.svg
-
+- name: CSC
+  url: https://www.csc.fi/
+  image_url: /images/institutes/CSC_2012_LOGO_RGB.svg
