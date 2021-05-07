@@ -334,6 +334,18 @@ Tools:
   - researcher
   - data manager
   - policy officer
+- description: An open standard for describing workflows that are build from command
+    line tools
+  link: https://www.commonwl.org
+  name: Common Workflow Language (CWL)
+  registry:
+    fairsharing: bsg-s000606
+    tess: Common Workflow Language (CWL)
+  tags:
+  - IT support
+  - policy officer
+  - researcher
+  - data analysis
 - description: An initiative to bring together various formats and standard for computational
     models in biology
   link: http://co.mbine.org
