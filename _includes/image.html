@@ -1,7 +1,4 @@
-<figure class="docimage
-{%- if {{include.class}} %}
-{{include.class}}
-{%- endif %}">
+<figure class="{% if {{include.inline}} == true %}my-0{% else %}my-4{%- endif %} {% if {{include.class}} %}{{include.class}}{%- endif %}">
     {%- capture file_url -%}
     {{ "/images/" | append:include.file | relative_url }}
     {%- endcapture -%}
@@ -10,12 +7,12 @@
     {%- elsif {{include.click}} == true %}
     <a target="_blank" rel="noopener noreferrer" href="{{file_url}}">
     {%- endif %}
-    <img src="{{file_url}}" alt="{{include.alt}}" {% if {{include.max-width}} %}style="max-width: {{include.max-width}}em"{% endif %} />
+    <img src="{{file_url}}" alt="{{include.alt}}" class="figure-img img-fluid rounded"/>
     {%- if {{include.url}} or {{include.click}} == true %}
     </a>
     {%- endif %}
     {%- if {{include.caption}} %}
-    <figcaption>
+    <figcaption class="figure-caption">
     {{include.caption}}
     </figcaption>
     {%- endif %}
