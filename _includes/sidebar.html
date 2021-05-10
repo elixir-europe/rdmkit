@@ -16,9 +16,9 @@
         {% endif %}
         {%- for folder in sidebar.subitems %}
         {%- if page.url == folder.url %}
-        <li class="active{%- if folder.hr %} hr-margin{% endif %}">
+        <li class="active{%- if folder.hr %} mt-3{% endif %}">
         {%- else %}
-        <li {%- if folder.hr %} class="hr-margin"{% endif %}>
+        <li {%- if folder.hr %} class="mt-3"{% endif %}>
         {%- endif %}
         {%- if folder.external_url %}
             <a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
