@@ -49,8 +49,8 @@ Tools:
     tess: ArrayExpress
   tags:
   - micro biotech
-- description: An open source platform for managing, processing, and sharing genomic
-    and other large scientific and biomedical data
+- description: With Arvados, bioinformaticians run and scale compute-intensive workflows, 
+    developers create biomedical applications, and IT administrators manage large compute and storage resources.
   link: https://arvados.org
   name: Arvados
   tags:
