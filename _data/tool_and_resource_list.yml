@@ -49,6 +49,15 @@ Tools:
     tess: ArrayExpress
   tags:
   - micro biotech
+- description: An open source platform for managing, processing, and sharing genomic
+    and other large scientific and biomedical data
+  link: https://arvados.org
+  name: Arvados
+  tags:
+  - IT support
+  - policy officer
+  - researcher
+  - data analysis
 - description: Biological materials resource including cell-lines, strains and genomics
     tools
   link: https://www.lgcstandards-atcc.org/en.aspx#
