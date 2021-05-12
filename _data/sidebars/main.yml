@@ -54,7 +54,7 @@ subitems:
         url: /identifiers.html
       - title: Licensing
         url: /licensing.html
-      - title: Metadata management
+      - title: Documentation and metadata
         url: /metadata_management.html
       - title: Sensitive data
         url: /sensitive_data.html
