@@ -75,7 +75,7 @@ In short containers works almost like a virtual machine (VMs), in that it re-cre
 * [Biocontainers](https://biocontainers.pro/) have a large selection of bioinformatics tools.
 * To customize a Docker image, it is possible to use techniques such as [volumes](https://docs.docker.com/storage/volumes/) to store data and [Dockerfile](https://docs.docker.com/engine/reference/builder/). This is useful for installing your own application inside a new container image, based on a suitable _base image_ where you can do your `apt install` and software setup in a reproducible fashion - and share your own application as an image on Docker Hub.
 * Container linkage can be done by _container composition_ using tools like [Docker Compose](https://docs.docker.com/compose/).
-* More advanced container deployment solutions like [Kubernetes](https://kubernetes.io/) and [Computational Workflow Management systems](#workflows-for-reproducibility) can also manage cloud instances and handle analytical usage.
+* More advanced container deployment solutions like [Kubernetes](https://kubernetes.io/) and Computational Workflow Management systems can also manage cloud instances and handle analytical usage.
 * Tips and tricks to navigate the landscape of container solutions:
     * If you just need to run a database server, describe how to run it as a Docker/Singularity container.
     * If you need several servers running, connected together, set up containers in Docker Compose.
