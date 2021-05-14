@@ -126,7 +126,7 @@ main img.emoji {
 /*-----Code highlighting-----*/
 
 code {
-    background-color: #fcf2f7;
+    background-color: var(--light-grey);
     border-radius: 4px;
     padding: 2px 4px;
 }
