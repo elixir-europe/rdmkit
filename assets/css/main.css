@@ -4,7 +4,7 @@
     --link-color: #376AC3;
     --light-grey: #f3f1f2;
     --white: #ffffff;
-    --hover-grey: #83858e;
+    --hover-grey: #74767f;
     --nav-bg: var(--secondary-theme-color);
     --nav-color: var(--white);
     --main-text-color: var(--secondary-theme-color);
@@ -37,7 +37,7 @@ h1 {
     }
 }
 
-.post-content h2 {
+main h2 {
     font-family: 'Exo 2', sans-serif;
     font-size: 1.6em;
     font-weight: 700;
@@ -45,33 +45,33 @@ h1 {
     margin: 40px 0 10px;
 }
 
-.post-content h3 {
+main h3 {
     font-weight: 700;
     font-size: 1.2em;
     margin-top: 20px;
 }
 
-.post-content h4 {
+main h4 {
     font-weight: 700;
     font-size: 1.1em;
     color: var(--hover-grey);
     margin-top: 20px;
 }
 
-.post-content h2+h3 {
+main h2+h3 {
     margin-top: 12px;
 }
 
-.post-content h3+h4 {
+main h3+h4 {
     margin-top: 15px;
 }
 
-.post-content a {
+main a {
     text-decoration: none;
     color: var(--link-color);
 }
 
-.post-content a:hover {
+main a:hover {
     color: var(--link-color);
     text-decoration: underline;
 }
@@ -106,14 +106,8 @@ hr {
 
 /* End - Selection color */
 
-.post-content ol li, .post-content ul li {
+main ol li, main ul li {
     margin: 10px 0px;
-}
-
-/* page size is minimum screen size */
-
-#main {
-    min-height: 100vh;
 }
 
 /* list circles colored */
@@ -124,7 +118,7 @@ ul li::marker {
 
 /* position and size emoji */
 
-.post-content img.emoji {
+main img.emoji {
     margin: 0px 0px 0.2em 0px;
     width: 1.3em;
 }
@@ -464,7 +458,7 @@ table>thead>tr>th {
 
 /*-----Registries in tool table------*/
 
-.post-content img.registry_logo {
+main img.registry_logo {
     max-height: 40px;
     max-width: 40px;
     margin: 2px;
