@@ -21,9 +21,9 @@
         <li {%- if folder.hr %} class="mt-3"{% endif %}>
         {%- endif %}
         {%- if folder.external_url %}
-            <a title="{{folder.title}}" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
+            <a href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
         {%- else %}    
-            <a title="{{folder.title}}" href="{{folder.url | relative_url }}">{{ folder.title }}</a>
+            <a href="{{folder.url | relative_url }}">{{ folder.title }}</a>
         {%- endif %}
         {%- if folder.subitems %}
             <ul class="list-unstyled">
@@ -196,9 +196,9 @@
                 <li>
                 {%- endif %}
                 {%- if subfolder.external_url %}
-                    <a title="{{subfolder.title}}" href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
+                    <a href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
                 {%- else %}    
-                    <a title="{{subfolder.title}}" href="{{subfolder.url | relative_url }}">{{ subfolder.title }}</a>
+                    <a href="{{subfolder.url | relative_url }}">{{ subfolder.title }}</a>
                 {%- endif %}
                 {%- if subfolder.subitems %}
                     <ul class="list-unstyled">
@@ -209,9 +209,9 @@
                         <li>
                         {%- endif %}
                         {%- if subsubfolder.external_url %}
-                            <a title="{{subsubfolder.title}}" href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
+                            <a href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
                         {%- else %}    
-                            <a title="{{subsubfolder.title}}" href="{{subsubfolder.url | relative_url }}">{{ subsubfolder.title }}</a>
+                            <a href="{{subsubfolder.url | relative_url }}">{{ subsubfolder.title }}</a>
                         {%- endif %}
                         </li>
                         {%- endfor %}
