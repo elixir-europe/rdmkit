@@ -10,6 +10,7 @@
 {%- if main_tags == blank %}
 The tag "{{ include.tag }}" has not yet related tools or resources.
 {%- else%}
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <table id="tooltable" class="display">
     <thead>
         <tr>
@@ -68,4 +69,5 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
         {%- endfor %}
     </tbody>
 </table>
+<div id="skip-tool-table"></div>
 {%- endif%}
