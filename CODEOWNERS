@@ -12,13 +12,14 @@ CONTRIBUTING.md       @floradanna @pinarpink
 /pages/your_problem       @DanFaria @floradanna
 /pages/your_role       @MijkeJetten @pinarpink 
 /pages/rdm_cycle       @wittigue @floradanna @smza
+/pages/tools_assembly       @korbinib
 /pages/your_domain       @DanFaria @pinarpink 
 /pages/about/about.md       @frederikcoppens @CaroleGoble
 CODE_OF_CONDUCT.md       @frederikcoppens @CaroleGoble
 /assets       @martin-nc @bedroesb
 
 # Sidebar
-/_data/sidebars/*      @vsundesha @roper79 @bedroesb
+/_data/sidebars/*      @roper79 @bedroesb
 
 # Tool and resources
 /_data/tool*     @wittigue @bedroesb
