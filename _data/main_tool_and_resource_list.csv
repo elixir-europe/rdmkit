@@ -6,6 +6,7 @@ Amnesia,https://amnesia.openaire.eu/,Amnesia is a GDPR compliant high accuracy d
 APID Interactomes,http://apid.dep.usal.es/,APID (Agile Protein Interactomes DataServer) is a server that provides a comprehensive collection of protein interactomes for more than 400 organisms based in the integration of known experimentally validated protein-protein physical interactions (PPIs),biotools:apid,IDP
 Argos,https://argos.openaire.eu/splash/,"Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.",,"DMP, researcher, data manager"
 ArrayExpress,https://www.ebi.ac.uk/arrayexpress/,A repository of array based genomics data,,micro biotech
+Arvados,https://arvados.org,"With Arvados, bioinformaticians run and scale compute-intensive workflows, developers create biomedical applications, and IT administrators manage large compute and storage resources.",,"IT support, policy officer, researcher, data analysis"
 ATCC,https://www.lgcstandards-atcc.org/en.aspx#,"Biological materials resource including cell-lines, strains and genomics tools",,micro biotech
 BacDive,https://bacdive.dsmz.de,A searchable database for bacteria specific information,,micro biotech
 Bacillus Genetic Stock Center (BGSC),http://www.bgsc.org/,A repository specific to Bacillus strains,,micro biotech
@@ -40,7 +41,7 @@ CERNBox,https://information-technology.web.cern.ch/services/cernbox-service,"CER
 ChEBI,https://www.ebi.ac.uk/chebi/,Dictionary of molecular entities focused on 'small' chemical compounds,fairsharing:62qk8w,micro biotech
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.",fairsharing:m3jtpg,
 Choose a license,https://choosealicense.com,Choose an open source license,,"licensing, researcher, data manager, policy officer"
-Common Workflow Language (CWL),https://www.commonwl.org,"An open standard for describing workflows that are build from command line tools",fairsharing:bsg-s000606,"IT support, policy officer, researcher, data analysis"
+Common Workflow Language (CWL),https://www.commonwl.org,An open standard for describing workflows that are build from command line tools,fairsharing:bsg-s000606,"IT support, policy officer, researcher, data analysis"
 COmputational Modeling in BIology NEtwork (COMBINE),http://co.mbine.org,An initiative to bring together various formats and standard for computational models in biology,,micro biotech
 Conda,https://docs.conda.io/en/latest/,Open source package management systemn,,"IT support, data analysis"
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data

@@ -49,6 +49,16 @@ Tools:
     tess: ArrayExpress
   tags:
   - micro biotech
+- description: With Arvados, bioinformaticians run and scale compute-intensive workflows,
+    developers create biomedical applications, and IT administrators manage large
+    compute and storage resources.
+  link: https://arvados.org
+  name: Arvados
+  tags:
+  - IT support
+  - policy officer
+  - researcher
+  - data analysis
 - description: Biological materials resource including cell-lines, strains and genomics
     tools
   link: https://www.lgcstandards-atcc.org/en.aspx#
