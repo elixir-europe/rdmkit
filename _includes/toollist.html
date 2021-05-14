@@ -10,11 +10,12 @@
 {%- if main_tags == blank %}
 The tag "{{ include.tag }}" has not yet related tools or resources.
 {%- else%}
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <table id="tooltable" class="display">
     <thead>
         <tr>
             <th>Tool or resource {%- if include.tag or include.tag2 -%}
-                <a role="button" data-bs-toggle="tooltip" title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+                <a data-bs-toggle="tooltip" title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
                     <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
                 </a>{%- endif %}
             </th>
@@ -68,4 +69,5 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
         {%- endfor %}
     </tbody>
 </table>
+<div id="skip-tool-table"></div>
 {%- endif%}
