@@ -15,7 +15,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
     <thead>
         <tr>
             <th>Tool or resource {%- if include.tag or include.tag2 -%}
-                <a data-bs-toggle="tooltip" title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+                <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
                     <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
                 </a>{%- endif %}
             </th>
@@ -51,17 +51,17 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             <td style="text-align: center; vertical-align: middle;">
             {%- if tool.registry.biotools %}
             <a data-bs-toggle="tooltip"
-                title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
+                data-bs-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
                 ><img style="background-color: orange;" class="registry_logo" src="{{ 'assets/img/bio.tools.svg' | relative_url }}" alt="bio.tools logo"/></a>
             {%- endif %}
             {%- if tool.registry.fairsharing %}
             <a data-bs-toggle="tooltip"
-                title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
+                data-bs-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
                 ><img style="background-color: #ECF0F1;" class="registry_logo" src="{{ 'assets/img/FAIRsharing-small.svg' | relative_url }}" alt="FAIRsharing logo"/></a>
             {%- endif %}
             {%- if tool.registry.tess %}
             <a data-bs-toggle="tooltip"
-                title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
+                data-bs-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
                 ><img style="background-color: #f47d20;" class="registry_logo" src="{{ 'assets/img/tess_logo.svg' | relative_url }}" alt="TeSS logo"/></a>
             {%- endif %}
             </td> 
