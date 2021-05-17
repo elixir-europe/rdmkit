@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-title" content="RDMkit">
     <meta name="msapplication-TileColor" content="#c23669">
     <meta name="theme-color" content="#c23669">
-    {%- if page.search_exclude == "true" %}
+    {%- if page.search_exclude == true and page.url != "/index.html" %}
     <meta name="robots" content="noindex" />
     {%- endif %}
     <title>{%- if page.title %}{{ page.title }} | {{ site.site_title }}{%- else %}{{ site.site_title }}{%- endif %}</title>

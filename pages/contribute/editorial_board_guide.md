@@ -62,7 +62,7 @@ Optional metadata/frontmatter:
 - Markdown files should be named without capitals and without spaces (replace them with underscores).
 - Make sure that the markdown file has a unique name.
 - If the markdown file is named *example.md*, the page will be found at https://rdmkit.elixir-europe.org/example.
-- By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found [here](#find-your-newly-added-page-back-on-the-website).
+- By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found on the [find your page back section](#find-your-newly-added-page-back-on-the-website).
 
 ### GitHub checks
 
@@ -257,7 +257,7 @@ Giving:
 {% include toollist.html tag="data publication" tag2="IT support" %}
 
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
-More information on how to add a tool or resource can be found [here](tool_resource_update).
+More information on how to add a tool or resource can be found on the [update tools and resources page](tool_resource_update).
 
 ### Supported tags
 
