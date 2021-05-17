@@ -1,6 +1,5 @@
 ---
 title: Epitranscriptome data
-search_exclude: true
 contributors: [Ernesto Picardi]
 ---
 
