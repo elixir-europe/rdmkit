@@ -22,19 +22,12 @@ The website is a community effort, so unfortunately we do not have the resources
   * [The W3C Web Accessibility Initiative checklist](https://www.w3.org/WAI/test-evaluate/preliminary/)
   * [The British government accessibility checklist](https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one)
   * [The Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
-  * [The Web Accessibility Evaluation Tool (WAVE)](https://wave.webaim.org/) from WebAIM.
+  * [AccessibilityTest.org](https://accessibilitytest.org), which runs several online accessibility checkers at once.
 
-The website was last tested on 30 March 2021.
+The website was last tested on 17 May 2021.
 
 ## Level of compliance
-This website is only partially compliant with the Web Content Accessibility Guidelines version 2.1 AA standard,  due to the non-compliances listed in our [GitHub issue concerning accessibility](https://github.com/elixir-europe/rdmkit/issues/484). Currently the non-compliant issues are:
-
-  * Non-hierarchical headings in the footer ([success criterion 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships))
-  * Inability to skip blocks ([success criterion 2.4.1](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html))
-  * Low contrast on a button link to training materials ([success criteria 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html))
-  * Focus state not clear on the data management life cycle diagram ([success criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance-minimum.html))
-
-We plan to fix these issues by June 2021. If you feel there are more issues to address, then please email ([rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org)).
+As far as we can ascertain, this website is compliant with the Web Content Accessibility Guidelines version 2.1 AA standard. If you feel there are issues to address, however, then please email [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org).
 
 
 This statement was prepared on 30 March 2021.
