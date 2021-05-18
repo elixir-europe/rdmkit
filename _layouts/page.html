@@ -4,7 +4,7 @@ layout: default
 <main id="main">
     {%- if page.title %}
     <h1>{{ page.title }}
-        {%- unless site.github_editme_path == nil %}
+        {%- unless site.git_editme_path == nil %}
         {%- if page.custom-editme %}
         <a href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
         {%- else %}
