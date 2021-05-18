@@ -52,15 +52,15 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### Data life cycle diagram with RDMkit logo
 
 <p>
-  <img src="{{ 'images/data_life_cycle_3.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 15em; vertical-align: middle" alt="Data life cycle diagram" />
-    [<a href="{{ 'images/data_life_cycle_3.svg' | relative_url }}">svg</a>]
-    [<a href="{{ 'images/data_life_cycle_3.png' | relative_url }}">png</a>]
-</p>
-
-#### Data life cycle diagram central branding
-
-<p>
   <img src="{{ 'images/data_life_cycle_9.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 15em; vertical-align: middle" alt="Data life cycle diagram" />
     [<a href="{{ 'images/data_life_cycle_9.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'images/data_life_cycle_9.png' | relative_url }}">png</a>]
+</p>
+
+#### Data life cycle diagram with central condensed RDMkit logo
+
+<p>
+  <img src="{{ 'images/data_life_cycle_3.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 15em; vertical-align: middle" alt="Data life cycle diagram" />
+    [<a href="{{ 'images/data_life_cycle_3.svg' | relative_url }}">svg</a>]
+    [<a href="{{ 'images/data_life_cycle_3.png' | relative_url }}">png</a>]
 </p>
