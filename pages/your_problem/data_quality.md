@@ -1,6 +1,5 @@
 ---
 title: Data quality
-keywords: [collecting]
 contributors: [Wei Gu, Pinar Alper]
 tags: [collect, process, researcher, data manager]
 description: ensure high quality research data.

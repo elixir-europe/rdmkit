@@ -27,6 +27,8 @@ subitems:
         url: /biomolecular_simulation_data.html
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins.html
+      - title: Microbial biotechnology
+        url: /microbial_biotechnology.html
   - title: Your problem
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
@@ -48,6 +50,8 @@ subitems:
         url: /storage.html
       - title: Data transfer
         url: /data_transfer.html
+      - title: Identifiers
+        url: /identifiers.html
       - title: Licensing
         url: /licensing.html
       - title: Metadata management
@@ -67,4 +71,3 @@ subitems:
         url: /nels_assembly.html
       - title: Covid-19 Data Portal
         url: /covid19_data_portal.html
-

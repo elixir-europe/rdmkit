@@ -1,0 +1,14 @@
+{%- assign alllogos = site.data[include.data] %}
+<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-5 my-3">
+    {%- for institute in alllogos %}
+    {%- if institute.image_url %}
+    <div class="col">
+      <div class="card h-100 border-0">
+          <div class="my-auto">
+            {% if institute.url %}<a href="{{ institute.url }}">{% endif %}<img class="card-img-top" src="{{ institute.image_url | relative_url }}"  alt="{{ institute.name }}">{%- if institute.url %}</a>{% endif %}
+        </div>
+      </div>
+    </div>
+    {%- endif %}
+    {%- endfor %}
+</div>

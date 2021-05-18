@@ -1,6 +1,5 @@
 ---
 title: Planning
-keywords: [dmp, data stewardship]
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 ---
 

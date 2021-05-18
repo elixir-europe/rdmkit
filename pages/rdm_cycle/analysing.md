@@ -1,6 +1,5 @@
 ---
 title: Analysing
-keywords: [Data analysis, Computing, Collaboration]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 ---
 

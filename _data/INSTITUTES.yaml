@@ -1,0 +1,33 @@
+- name: VIB-PSB
+  image_url: /images/institutes/VIB-PSB.svg
+  url: https://www.psb.ugent.be/
+- name: The Manchester University
+  image_url: /images/institutes/logo-university-of-manchester.svg
+  url: https://www.manchester.ac.uk/
+- name: NBIS
+  url: https://nbis.se/
+  image_url: /images/institutes/nbislogo-green-txt.svg
+- name: SciLifeLab
+  url: https://www.scilifelab.se/
+  image_url: /images/institutes/SciLifeLab_Logotype_Green_POS.svg
+- name: University of Bergen
+  url: https://www.uib.no/en
+  image_url: /images/institutes/uib_logo.svg
+- name: Barcelona Supercomputing Center
+  url: https://www.bsc.es/
+  image_url: /images/institutes/BSC-blue.svg
+- name: Dutch Techcentre for Life Sciences
+  url: https://www.dtls.nl/
+  image_url: /images/institutes/DTL_logo.svg
+- name: Heidelberg Institute for Theoretical Studies
+  url: https://www.h-its.org/
+  image_url: /images/institutes/hits-logo.svg
+- name: Instituto Gulbenkian de Ciência
+  url: https://gulbenkian.pt/ciencia/
+  image_url: /images/institutes/07_logotipo_web_ciencia_EN_50px-01.svg
+- name: University of Luxembourg
+  url: https://wwwen.uni.lu/
+  image_url: /images/institutes/University-of-Luxembourg-Fr-01_noborder.svg
+- name: CSC
+  url: https://www.csc.fi/
+  image_url: /images/institutes/CSC_2012_LOGO_RGB.svg

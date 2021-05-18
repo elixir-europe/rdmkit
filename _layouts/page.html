@@ -1,20 +1,18 @@
 ---
 layout: default
 ---
-{%- if page.title %}
-<div class="post-header">
+<main id="main">
+    {%- if page.title %}
     <h1>{{ page.title }}
-        {%- unless site.github_editme_path == nil %}
+        {%- unless site.git_editme_path == nil %}
         {%- if page.custom-editme %}
-        <a href="https://github.com/{{site.github_editme_path}}{{page.custom-editme}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
+        <a href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
         {%- else %}
-        <a href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn githubEditButton"><i class="fas fa-pencil-alt"></i> Edit me</a>
+        <a href="{{site.git_editme_path}}{{page.path}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
         {%- endif %}
         {%- endunless %}
     </h1>
-</div>
-{%- endif %}
-<div class="post-content">
+    {%- endif %}
     {%- if page.summary %}
     <div class="summary">{{page.summary}}</div>
     {%- endif %}
@@ -22,7 +20,7 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
-</div>
+</main>
 {%- if page.tags != null or page.contributors != null %}
 <div class="page-metadata">
 {%- endif %}

@@ -62,7 +62,7 @@ Optional metadata/frontmatter:
 - Markdown files should be named without capitals and without spaces (replace them with underscores).
 - Make sure that the markdown file has a unique name.
 - If the markdown file is named *example.md*, the page will be found at https://rdmkit.elixir-europe.org/example.
-- By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found [here](#find-your-newly-added-page-back-on-the-website).
+- By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found on the [find your page back section](#find-your-newly-added-page-back-on-the-website).
 
 ### GitHub checks
 
@@ -110,7 +110,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
 7. Check the frontmatter/metadata of the markdown page:
-    - delete `search: exclude` attribute.
+    - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
@@ -165,6 +165,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 {% include important.html content="If you change the file name, you'll have to update all of your links." %}
 
 
+
 ## Linking the GitHub accounts to the contributors
 
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
@@ -173,12 +174,26 @@ Do you want that the GitHub picture of a contributor is shown next to their name
 Bert Droesbeke:
     git: bedroesb
     email: bedro@psb.ugent.be
-    gitter: bedroesb
     orcid: 0000-0003-0522-5674
-
+    role: editor
+    affiliation: VIB-UGent
 ```
 {% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
+
+## Adding an institute, project or funder to the support page
+
+Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file, projects in the [PROJECTS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/PROJECTS.yaml) file and funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUDNERS.yaml) file. In this file, the name, url towards the website and the relative path to the logo is given.
+
+```yaml
+- name: VIB-PSB
+  image_url: /images/institutes/VIB-PSB.svg
+  url: https://www.psb.ugent.be/
+```
+
+The logos can be added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
+
+{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
 ## Page tagging
 
@@ -242,7 +257,7 @@ Giving:
 {% include toollist.html tag="data publication" tag2="IT support" %}
 
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
-More information on how to add a tool or resource can be found [here](tool_resource_update).
+More information on how to add a tool or resource can be found on the [update tools and resources page](tool_resource_update).
 
 ### Supported tags
 

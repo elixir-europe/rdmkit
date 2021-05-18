@@ -1,6 +1,5 @@
 ---
 title: Data organisation
-keywords: [file naming, versioning, folder structures]
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
 tags: [collect, process, analyse, preserve, researcher, IT support, data manager]
 description: best practices to name and organise research data.
@@ -40,11 +39,11 @@ Brief and descriptive file names are important in keeping your data files organi
 
 **Examples of good file names**
 * Honeybee project, experiment 2 done in Helsinki, data file created on the second of December 2020
-  * File name: 20201202_HB_EXP2_HEL_DATA_V03.xls
-  * Explanation: Time_Project abbreviation_ Experiment number _Location_Type of data_Version number
+  * File name: `20201202_HB_EXP2_HEL_DATA_V03.xls`
+  * Explanation: `Time_ProjectAbbreviation_ExperimentNumber_Location_TypeOfData_VersionNumber`
 * Cropped image of an ant head taken on the third of December 2020 by Meg Megson
-  * 20201203_MM_HEAD_CROPPED_V1.psd
-  * Explanation: Time_creator_data type_modification_version
+  * File name: `20201203_MM_HEAD_CROPPED_V1.psd`
+  * Explanation: `Time_CreatorData_TypeModification_Version`
 
 ## How do you manage file versioning?
 
@@ -59,6 +58,7 @@ File versioning is a way to keep track of changes made to files and datasets. Wh
 ### Solutions
 * Smaller demands of versioning can be managed manually e.g. by keeping a log where the changes for each respective file is documented, version by version.
 * For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as [Git](https://git-scm.com/), hosted by e.g. [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
+* Use a Cloud Storage service (see [Data storage](https://rdmkit.elixir-europe.org/storage.html#what-features-do-you-need-in-a-storage-solution-when-collecting-data) page) that provides automatic file versioning. It can be very handy for spreadsheets, text files and slides.
 
 
 ## How do you organise files in a folder structure?

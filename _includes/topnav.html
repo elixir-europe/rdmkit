@@ -1,8 +1,10 @@
 <!-- Navigation -->
 <header>
-    <nav class="navbar navbar-expand-lg">
+    <a class="visually-hidden-focusable" href='#main'>Skip to content</a>
+    <a class="visually-hidden-focusable" href='#footer'>Skip to footer</a>
+    <nav class="navbar navbar-expand-lg mb-2 mb-lg-5">
         <div class="container">
-            <a class="navbar-brand" href="{{ 'index.html' | relative_url }}"><img alt="ELIXIR logo" src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}"></a>
+            <a class="navbar-brand" href="{{ 'index.html' | relative_url }}"><img alt="ELIXIR logo" src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}">{% if site.topnav_title %}{{site.topnav_title}}{% endif %}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i title="navbar-toggler" class="fa fa-bars"></i>
             </button>
@@ -14,53 +16,42 @@
                     {%- for entry in topnav.topnav -%}
                     {%- for item in entry.items -%}
                     {%- if item.external_url -%}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
+                    <li class="nav-item ms-0 ms-lg-3">
+                        <a class="nav-link ps-2" href="{{item.external_url}}" target="_blank" rel="noopener">{{item.title}}</a>
                     </li>
                     {% elsif page.url contains item.url %}
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{item.url | relative_url }}">{{item.title}}</a>
+                    <li class="nav-item ms-0 ms-lg-3">
+                        <a class="nav-link ps-2 active" aria-current="page" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{item.url | relative_url }}">{{item.title}}</a>
+                    <li class="nav-item ms-0 ms-lg-3">
+                        <a class="nav-link ps-2" href="{{item.url | relative_url }}">{{item.title}}</a>
                     </li>
                     {% endif %}
                     {%- endfor %}
                     {%- endfor %}
                     <!--start Feedback button-->
                     {%- unless site.feedback_disable %}
-                    <li class="nav-item">
+                    <li class="nav-item ms-0 ms-lg-3">
                         {%- if site.feedback_text -%}
                         {%- assign feedback_text = site.feedback_text -%}
                         {%- else -%}
                         {%- assign feedback_text = "Feedback" -%}
                         {%- endif -%}
                         {% if site.feedback_link %}
-                        <a class="nav-link" title="Submit feedback" href="{{site.feedback_link}}">{{feedback_text}}</a>
+                        <a class="nav-link ps-2" title="Submit feedback" href="{{site.feedback_link}}">{{feedback_text}}</a>
                         {% else %}
-                        <a class="nav-link" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:{{site.contact_email}}?subject={{site.feedback_subject_line}}&body=I have some feedback about the {{page.title}} page: ' + window.location.href;"><i class="far fa-envelope"></i> {{feedback_text}}</a>
+                        <a class="nav-link ps-2" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:{{site.contact_email}}?subject={{site.feedback_subject_line}}&body=I have some feedback about the {{page.title}} page: ' + window.location.href;"><i class="far fa-envelope"></i> {{feedback_text}}</a>
                         {% endif %}
                     </li>
                     {% endunless %}
                     <!--start search-->
-                    <li class="nav-item">
-                        <form autocomplete="off" class="form-inline">
-                            <input class="form-control" type="text" id="search-input" placeholder="Search..." aria-label="Search">
-                            <ul id="results-container"></ul>
-                            <script src="{{ 'assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
-                            <script type="text/javascript">
-                                var sjs = SimpleJekyllSearch({
-                                searchInput: document.getElementById('search-input'),
-                                resultsContainer: document.getElementById('results-container'),
-                                json: "{{ 'search.json' | relative_url }}",
-                                searchResultTemplate: '<li><a href="{url}" title="{{page.title | escape }}">{title}</a></li>',
-                                noResultsText: '<li><a href=""">No results found...</a></li>',
-                                limit: 10
-                                })
-                            </script>
-                            
-                        </form>
+                    <li class="nav-item ms-0 ms-lg-3">
+                        <div class="search">
+                            <form role="search" class="d-flex">
+                                <input type="search" id="search-input" class="search-input form-control" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off">
+                            <div id="search-results" class="search-results"></div>
+                        </div>
                     </li>
                     <!--end search-->
                 </ul>

@@ -1,7 +1,7 @@
 url: rdmkit.elixir-europe.org
 repository: elixir-europe/rdmkit
 
-topnav_title: RDMkit
+# topnav_title:
 # this appears on the top navigation bar next to the home button
 
 site_title: RDMkit
@@ -10,7 +10,7 @@ site_title: RDMkit
 company_name: ELIXIR Converge
 # this appears in the page_ending
 
-github_editme_path: elixir-europe/rdmkit/blob/master/
+git_editme_path: https://github.com/elixir-europe/rdmkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 description: "Find the answers to your Research Data Management questions in Life Sciences."
@@ -31,6 +31,8 @@ exclude:
   - var/
   - README.md
   - vendor
+  - Gemfile*
+  - LICENSE
 
 feedback_subject_line: RDMkit feedback
 

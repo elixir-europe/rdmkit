@@ -3,4 +3,6 @@ title: Contributors
 sidebar: about
 ---
 
-{% include note.html content="This page will be soon be a tribute to all our wonderful contributors" %}
+This project would not be possible without the many amazing community contributors. RDMkit is an open community project, and you are welcome to [join us](how_to_contribute)!
+
+{% include contributor-page.html %}

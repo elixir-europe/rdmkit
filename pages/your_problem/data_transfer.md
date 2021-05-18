@@ -21,9 +21,13 @@ There are many aspects to consider when dealing with data transfer, but the most
 
 Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services.
 
+**Hard transfer** - Hard drive transfer is a good solution for very large scale transfers, for example those supporting petabytes of data. Such transfers are available for many compute clouds, such as Amazon Snowball or Azure Data Box.
+
+**Sharing** - Rather than perform large transfers, it may be easier to synchronize your local data storage with remote storage, or to use remote storage as a local drive. Common examples of this are Microsoft Azure Drive and Google Drive. The storage can be used by remote services.
+
+**Analysis** - Cloud-based analysis systems include mechanisms for transferring data to and from the Cloud. Such systems include Microsoft Azure, Amazon Web Services, nextCloud and ownCloud.
 
 If you intend to transfer sensitive data to another location, you have to check the regulation and security measures on the remote site. You can interact with the IT departments at both locations in order to establish your strategy. Do not forget to check the [Human Data](human_data) pages of the RDMkit.
-
 
 Since data transfer involves so many technical aspects, it is a good idea to interact with your technical/IT team in order to avoid any problem if you want to transfer large amounts of data.
 
@@ -52,6 +56,10 @@ For massive amounts of data, additional protocols have been developed, paralleli
 * GridFTP and Globus
 
 These transfer solutions require commercial licences for your site and as such they are available mostly on large computational centres.
+
+A comparison of file hosting systems is available on [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_file_hosting_services).
+
+Cloud systems commonly have their own data transfer and data sharing systems. Your solutions then depend upon your choice of system. For very large data these include hard transfer. A useful comparison of cloud systems is on [Wikipedia](https://en.wikipedia.org/wiki/Cloud-computing_comparison)
 
 #### Step 3: Check the transfer
 
