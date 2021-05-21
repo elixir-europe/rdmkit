@@ -1,7 +1,7 @@
 ---
 title: Data transfer
 keywords:
-contributors: [Olivier Collin, Alan R Williams, Flora D'Anna]
+contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere]
 tags: [preserve, share, reuse, IT support, data manager]
 description: how to transfer data files.
 ---
