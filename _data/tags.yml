@@ -37,6 +37,8 @@ struct info:
   url: structural_bioinformatics.html
 micro biotech:
   url: microbial_biotechnology.html
+epitrans:
+  url: epitranscriptome_data.html
 # Problem tags
 DMP:
   url: data_management_plan.html
