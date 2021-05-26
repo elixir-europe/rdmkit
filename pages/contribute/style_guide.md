@@ -39,6 +39,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
   * **Titles:** Only the first word and acronyms are capitalised.
+  * **Tools Assembly:** There are multiple tools in one assembly.
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
