@@ -7,6 +7,7 @@ APID Interactomes,http://apid.dep.usal.es/,APID (Agile Protein Interactomes Data
 Argos,https://argos.openaire.eu/splash/,"Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.",,"DMP, researcher, data manager"
 ArrayExpress,https://www.ebi.ac.uk/arrayexpress/,A repository of array based genomics data,,micro biotech
 Arvados,https://arvados.org,"With Arvados, bioinformaticians run and scale compute-intensive workflows, developers create biomedical applications, and IT administrators manage large compute and storage resources.",,"IT support, policy officer, researcher, data analysis"
+Aspera Fasp,https://www.ibm.com/products/aspera,"With fast file transfer and streaming solutions built on the award-winning IBM FASP protocol, IBM Aspera software moves data of any size across any distance",,"transfer, IT support"
 ATCC,https://www.lgcstandards-atcc.org/en.aspx#,"Biological materials resource including cell-lines, strains and genomics tools",,micro biotech
 BacDive,https://bacdive.dsmz.de,A searchable database for bacteria specific information,,micro biotech
 Bacillus Genetic Stock Center (BGSC),http://www.bgsc.org/,A repository specific to Bacillus strains,,micro biotech
@@ -21,9 +22,8 @@ Biodiversity Information Standards (TDWG),https://www.tdwg.org,"Biodiversity Inf
 BioExcel COVID-19,https://bioexcel-cv19.bsc.es/#/,Platform designed to provide web-access to atomistic-MD trajectories for macromolecules involved in the COVID-19 disease.,,biomol sim
 BioModels,https://www.ebi.ac.uk/biomodels/,A repository of mathematical models for application in biological sciences,,micro biotech
 BIONDA,http://bionda.mpc.ruhr-uni-bochum.de/start.php,"BIONDA is a free and open-access biomarker database, which employs various text mining methods to extract structured information on biomarkers from abstracts of scientific publications",biotools:bionda,"storage, researcher, human data"
-Biosamples,https://www.ebi.ac.uk/biosamples/,BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry.,,"metadata, plants"
-Biostudies,https://www.ebi.ac.uk/biostudies/,The BioStudies database holds descriptions of biological studies and links to data from these studies in other databases.,,"metadata, plants"
-BioStudies,https://www.ebi.ac.uk/biostudies/,A database hosting datasets from biological studies. Useful for storing or accessing data that is not compliant for mainstream repositories.,,micro biotech
+BioSamples,https://www.ebi.ac.uk/biosamples/,BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry.,,"metadata, plants"
+BioStudies,https://www.ebi.ac.uk/biostudies/,A database hosting datasets from biological studies. Useful for storing or accessing data that is not compliant for mainstream repositories.,,"micro biotech, metadata, plants"
 Bitbucket,https://bitbucket.org/,"Git based code hosting and collaboration tool, built for teams.",,"data organisation, data manager, IT support"
 BMRB,https://bmrb.io/,Biological Magnetic Resonance Data Bank,,"IDP, researcher"
 BoostDM,https://www.intogen.org/boostdm/search,BoostDM is a method to score all possible point mutations (single base substitutions) in cancer genes for their potential to be involved in tumorigenesis.,biotools:boostdm,"data analysis,human data"
@@ -47,9 +47,11 @@ Conda,https://docs.conda.io/en/latest/,Open source package management systemn,,"
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data
 COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:copo, fairsharing:biodbcore-001247","metadata, researcher, plants"
 COVID-19 Molecular Structure and Therapeutics Hub,https://covid.bioexcel.eu/,COVID-19 Molecular Structure and Therapeutics Hub,,biomol sim
+Create a Codebook,https://ddialliance.org/training/getting-started-new-content/create-a-codebook,Examples and tools to create a codebook by the Data Documentation Initiative (DDI),,"metadata, researcher, data manager"
 Creative Commons License Chooser,https://creativecommons.org/choose/,It helps you choose the right Creative Commons license for your needs.,,"licensing, researcher, data manager, policy officer"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:bsg-s002695,"researcher, data manager, IT support, plants"
 CS3,https://www.cs3community.org/,Cloud Storage Services for Synchronization and Sharing (CS3),,storage
+cURL,https://curl.se,command line tool and library for transferring data with URLs ,,"transfer, IT support"
 DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:Data_Information_System_DAISY,"IT support, policy officer, human data, data protection"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data manager"
 Data Use Ontology,https://github.com/EBISPOT/DUO,DUO allows to semantically tag datasets with restriction about their usage.,fairsharing:5dnjs2,"data manager, researcher, human data"
@@ -65,7 +67,7 @@ DMPlanner,https://dmplanner.athenarc.gr/,"Semi-automatically generated, searchab
 DMPonline,https://dmponline.dcc.ac.uk/,"A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.",,"DMP, researcher, data manager"
 DMPonline Belgium,https://dmponline.be,"A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.",,"DMP, researcher, data manager"
 DMPTool,https://dmptool.org,Build your Data Management Plan,,"DMP, researcher, data manager"
-DMPTuuli Finland,https://www.dmptuuli.fi/,Data management planning tool,,"DMP, researcher, data manager"
+DMPTuuli,https://www.dmptuuli.fi/,Data management planning tool (Finland),,"DMP, researcher, data manager"
 DNA Data Bank of Japan (DDBJ),https://www.ddbj.nig.ac.jp/index-e.html,A database of DNA sequences,,micro biotech
 Docker,https://www.docker.com/,"Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images",fairsharing:bsg-d001254,"IT support, data analysis"
 DropBox,https://www.dropbox.com/?landing=dbv2,Cloud storage and file sharing service,,"storage, IT support, transfer"
@@ -88,10 +90,13 @@ EURISCO,https://eurisco.ipk-gatersleben.de,European Search Catalogue for Plant G
 Europe PMC,https://europepmc.org/,"Europe PMC is a repository, providing access to worldwide life sciences articles, books, patents and clinical guidelines.",fairsharing:cmw6mm,researcher
 European Nucleotide Archive (ENA),https://www.ebi.ac.uk/ena/browser/home,A record of sequence information scaling from raw sequcning reads to assemblies and functional annotation,,micro biotech
 FAIDARE,https://urgi.versailles.inra.fr/faidare/,FAIDARE is a tool allowing to search data across dinstinct databases that implemented BrAPI.,biotools:faidare,"researcher, data manager, plants"
+FAIR Evaluation Services,https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!,Resources and guidelines to assess the FAIRness of digital resources.,,"compliance, data manager, policy officer"
+FAIRassist.org,https://fairassist.org/#!/,Help you discover resources to measure and improve FAIRness.,,"compliance, data manager, policy officer"
 FAIRDOM-SEEK,https://seek4science.org/,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.",biotools:seek,"storage, IT support, nels, micro biotech"
 FAIRDOMHub,https://fairdomhub.org,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc. (public SEEK instance)",fairsharing:nnvcr9,"storage, researcher, nels, metadata, micro biotech"
 fairsharing,https://fairsharing.org/,"A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",fairsharing:2abjs5,"metadata, data publication, policy officer, data manager, researcher, micro biotech"
 FigShare,https://figshare.com/,Data publishing platform,fairsharing:drtwnh,"data publication, biomol sim"
+FileZilla,https://filezilla-project.org,A free FTP solution,,"transfer, IT support"
 Freegenes,https://stanford.freegenes.org/collections/open-genes,Repository of IP-free synthetic biological parts,,micro biotech
 GA4GH data security toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/,Principled and practical framework for the responsible sharing of genomic and health-related data.,,"data publication, policy officer, data manager, IT support, human data"
 GA4GH regular and ethical toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,Framework for Responsible Sharing of Genomic and Health-Related Data,,"data protection, sensitive, policy officer, data manager, IT support, human data"
@@ -102,10 +107,12 @@ GENEID,https://genome.crg.cat/software/geneid/index.html,Geneid is an ab initio 
 Git,https://git-scm.com/,Distributed version control system designed to handle everything from small to very large projects,,"data organisation, data manager, IT support"
 GitHub,https://github.com,"Versioning system, used for sharing code, as well as for sharing of small data",fairsharing:biodbcore-001160,"data publication, data organisation, IT support, data manager"
 GitLab,https://gitlab.com/gitlab-org/gitlab,"GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.",,"data organisation,data publication,IT support,data manager"
+Globus,https://www.globus.org,"Globus lets you efficiently, securely, and reliably transfer data directly between systems separated by an office wall or an ocean. Focus on your research and offload your data transfer headaches to Globus",,"transfer, IT support"
 GnpIS,https://urgi.versailles.inrae.fr/gnpis/,"A multispecies integrative information system dedicated to plant and fungi pests. It allows researchers to access genetic, phenotypic and genomic data. It is used by both large international projects and the French National Research Institute for Agriculture, Food and Environment.","fairsharing:dw22y3, biotools:gnpis",plants
 Google Drive,https://www.google.com/intl/en_us/drive/,Cloud Storage for Work and Home,,"storage, transfer"
 GPCRmd,http://gpcrmd.org/,Repository of GPCR protein simulations,biotools:GPCRmd,biomol sim
 GRAPE 2.0,https://github.com/guigolab/grape-nf,"The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses. It allows the creation of an automated and integrated workflow to manage, analyse and visualize RNA-Seq data.",biotools:grape_2.0,data analysis
+Harvard Medical School – ELN Comparison Grid,https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks,ELN Comparison Grid by Hardvard Medical School,,"metadata, identifiers, researcher, data manager"
 How to License Research Data - DCC,https://www.dcc.ac.uk/guidance/how-guides/license-research-data,Guidelines about how to license research data from Digital Curation Centre,,"licensing, researcher, data manager, policy officer"
 Human Protein Atlas,https://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,
 HumanMine,https://www.humanmine.org/,"HumanMine integrates many types of human data and provides a powerful query engine, export for results, analysis for lists of data and FAIR access via web services.",biotools:humanmine,"data organisation, data manager, researcher, human data, data analysis"
@@ -130,8 +137,7 @@ Jupyter,https://jupyter.org,"Jupyter notebooks allow to share code, documentatio
 Linked Open Vocabularies (LOV),https://lov.linkeddata.es/dataset/lov/,Web portal for finding ontologies,,"metadata, data manager, researcher"
 List of Prokaryotic names with Standing in Nomenclature (LPSN),https://lpsn.dsmz.de,A database of prokaryote specific biodiversity information,,micro biotech
 maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,"DMP, IT support"
-MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,"biotools:NA, fairsharing:hn155r","metadata, researcher, IT support, policy officer, plants"
-MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21//,The Multi-crop Passport Descriptors are an international standard to facilitate germplasm passport information exchange,,"metadata, plants"
+MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,"biotools:NA, fairsharing:hn155r","metadata, researcher, IT support, policy officer, plants, plants"
 MemProtMD,http://memprotmd.bioch.ox.ac.uk/,Database of over 5000 intrinsic membrane protein structures,,biomol sim
 Mendeley data,https://data.mendeley.com/,"Multidisciplinary, free-to-use open repository specialized for research data",fairsharing:3epmpp,"data publication, biomol sim"
 MetabolomeXchange,http://www.metabolomexchange.org/site/,A repository of genomics data relating to the study of the metabolome,,micro biotech
@@ -180,6 +186,8 @@ R Markdown,https://rmarkdown.rstudio.com,"R Markdown documents are fully reprodu
 RD-Connect Genome Phenome Analysis Platform,https://rd-connect.eu/what-we-do/omics/gpap/,The RD-Connect GPAP is an online tool for diagnosis and gene discovery in rare disease research.,,"researcher, human data"
 RDA Standards,https://rd-alliance.github.io/metadata-directory/standards/,"Directory of standard metadata, divided into different research areas",,"metadata, researcher, data manager"
 REDCap,https://projectredcap.org,"REDCap is a secure web application for building and managing online surveys and databases. While REDCap can be used to collect virtually any type of data in any environment, it is specifically geared to support online and offline data capture for research studies and operations.",biotools:redcap,"identifiers, IT support, data manager, data quality"
+REDIportal,http://srv00.recas.ba.infn.it/atlas/,"Database of A-to-I (deamination of adenosines to inosines) events that enables to search RNA editing sites by genomic region, gene name and other relevant features as the tissue of origin.",biotools:rediportal,epitrans
+REDItools,https://github.com/BioinfoUNIBA/REDItools,Python scripts to detect RNA editing events in RNAseq experiments,biotools:reditools,epitrans
 Renamer4Mac,https://renamer.com/,File renaming software for Mac,,"data organisation, data manager, researcher"
 Repository Finder,https://repositoryfinder.datacite.org,Repository Finder can help you find an appropriate repository to deposit your research data. The tool is hosted by DataCite and queries the re3data registry of research data repositories.,,"data publication, researcher, data manager"
 Research Data Management Platform (RDMP),https://www.dundee.ac.uk/hic/researchdatamanagementplatform/,"Data management platform for automated loading, storage, linkage and provision of data sets",biotools:rdmp,"storage, IT support"
@@ -196,6 +204,7 @@ Schemapedia,https://schemapedia.com,Web portal for finding ontologies,,"metadata
 ScienceMesh,https://sciencemesh.io/,ScienceMesh - frictionless scientific collaboration and access to research services,,"storage, data analysis, transfer"
 Scientific Data's Recommended Repositories,https://www.nature.com/sdata/policies/repositories,"List of respositories recommended by Scinetific Data, contains both discipline-specific and general repositories.",,"data publication, researcher, data manager, IT support"
 SeaFile,https://www.seafile.com/,SeaFile File Synchronization and Share Solution,,"storage, transfer"
+semares,www.genevention.com/products,"All-in-one platform for life science data management, semantic data integration, data analysis and visualization",,"researcher, data manager, metadata, data analysis, IT support, storage"
 ShortBOL,http://shortbol.org,A scripting language for creating Synthetic Biology Open Language (SBOL) in a more abstract way.,,micro biotech
 SIFTS,https://www.ebi.ac.uk/pdbe/docs/sifts/,"Structure integration with function, taxonomy and sequence",,"researcher, IDP"
 Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).",fairsharing:5vtYGG,
@@ -212,6 +221,8 @@ The Genomic Standards Consortium (GSC),https://gensc.org/mixs/,Minimum Informati
 The Open Biological and Biomedical Ontology (OBO) Foundry,http://obofoundry.org,Collaborative effort to develob interoperable ontologies for the biological sciences,fairsharing:biodbcore-001083,"metadata, data manager, researcher"
 Tryggve ELSI Checklist,https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html,"A list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects",,"sensitive, policy officer, data manager, human data, nels"
 UniProt,https://www.uniprot.org/,Comprehensive resource for protein sequence and annotation data,fairsharing:s1ne3g,"metadata, researcher, IDP, micro biotech"
+University of Cambridge - Electronic Research Notebook Products,https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products,List of Electronic Research Notebook Products by University of Cambridge,,"metadata, identifiers, researcher, data manager"
 VisBOL,http://visbol.org,A JavaScript library for the visualisation of SBOL.,,micro biotech
 Wellcome Open Research - Data Guidelines,https://wellcomeopenresearch.org/for-authors/data-guidelines,"Wellcome Open Research requires that the source data underlying the results are made available as soon as an article is published. This page provides information about data you need to include, where your data can be stored, and how your data should be presented.",,"data publication, researcher, data manager"
+WinSCP,https://winscp.net/eng/index.php,"WinSCP is a popular SFTP client and FTP client for Microsoft Windows! Copy file between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.",,"transfer, IT support"
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data publication, biomol sim"
