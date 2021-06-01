@@ -2,6 +2,7 @@
 title: NeLS assembly 
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
 summary: This is an example of a Data Management tools assembly, NeLS as an infrastructure is funded and aimed for researchers in Norway and their collaborators.
+tools_tag: nels
 ---
 
 ## What is the NeLS data management tools assembly?

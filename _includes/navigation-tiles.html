@@ -1,0 +1,38 @@
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+    {%- for page in site.pages %}
+    {%- if page.title and page.search_exclude != true and page.type == include.type%}
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h2 class="card-title no-anchor">{{page.title}}</h2>
+                {%- if page.summary %}
+                <p class="card-text">{{ page.summary}}</p>
+                {%- endif %}
+                <ul>
+                    {%- if page.tags != null %}
+                    <li><b>Tags: </b>
+                        {%- assign projectTags = site.data.tags %}
+                        {%- assign tags = page.tags | sort %}
+                        {%- for tag in tags %}
+                        {%- if projectTags[tag] %}
+                        <a href="{{ projectTags[tag].url }}" class="meta-obj" role="button">{{tag}}</a>
+                        {%- endif %}
+                        {%- endfor %}
+                    </li>
+                    {%- endif %}
+                    {%- if page.tools_tag != null %}
+                    <li><b>Tools: </b>
+                        {%- assign all_tools = site.data.tool_and_resource_list %}
+                        {%- assign tools = all_tools.Tools | where_exp:"tool", "tool.tags contains page.tools_tag" -%}
+                        {%- for tool in tools %}
+                        <a href="{{ tool.link }}" class="meta-obj">{{tool.name}}</a>
+                        {%- endfor %}
+                    </li>
+                    {%- endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {%- endif %}
+    {%- endfor %}
+</div>

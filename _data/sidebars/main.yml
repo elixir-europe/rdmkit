@@ -67,9 +67,5 @@ subitems:
     hr: True
   - title: Tools assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
+    url: /tools_assembly.html
     hr: True
-    subitems:
-      - title: NeLS
-        url: /nels_assembly.html
-      - title: Covid-19 Data Portal
-        url: /covid19_data_portal.html
