@@ -28,7 +28,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
         {%- for tool in main_tags | sort %}
         <tr>
             {% if tool.link %}
-            <td><a href="{{tool.link}}">{{tool.name}}</a>{% if tool.country %}{% for country in tool.country %}<span class="ms-2 flag-icon flag-icon-{{country | downcase }} rounded"></span>{% endfor %}{% endif %}</td>
+            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
             {%- else %}
             <td>{{tool.name}}</td>
             {%- endif %}
@@ -46,6 +46,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             {%- endif %}
             {%- endif %}
             {%- endfor %}
+            {% if tool.country %}{% for country in tool.country %}<span class="flag-icon flag-icon-{{country | downcase }} rounded align-middle"></span>{% endfor %}{% endif %}
             {%- endcapture %}
             <td>{{tags}}</td>
             <td style="text-align: center; vertical-align: middle;">
