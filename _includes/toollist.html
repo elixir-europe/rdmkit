@@ -28,7 +28,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
         {%- for tool in main_tags | sort %}
         <tr>
             {% if tool.link %}
-            <td><a href="{{tool.link}}">{{tool.name}}</a></td>
+            <td><a href="{{tool.link}}">{{tool.name}}</a>{% if tool.country %}{% for country in tool.country %}<span class="ms-2 flag-icon flag-icon-{{country | downcase }} rounded"></span>{%- endfor %}{% endif %}</td>
             {%- else %}
             <td>{{tool.name}}</td>
             {%- endif %}
