@@ -81,6 +81,8 @@ with open(table_path, 'r') as read_obj:
                             print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
                             sys.exit(
                                 f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
+                elif header[col_index] == 'country' and cell:# Only include keys if there are values:
+                    output = re.split(', |,', cell)
                 elif header[col_index] == 'registry':
                     output = {}
                     if cell:# Only include keys if there are values
