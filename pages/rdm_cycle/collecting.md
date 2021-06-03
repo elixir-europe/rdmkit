@@ -18,7 +18,7 @@ Apart from being the source of information to build your findings on, the collec
 
 ## What should be considered for data collection?
 
-Appropriate tools or integration of multiple tools (also called tools assembly or ecosystem) can help you with data management and documentation during data collection. Suitable tools for data management and documentation during data collection are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services could also be used as ELN or data management systems.
+Appropriate tools or integration of multiple tools (also called tool assembly or ecosystem) can help you with data management and documentation during data collection. Suitable tools for data management and documentation during data collection are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services could also be used as ELN or data management systems.
 
 Independently of the tools you will use, consider the following, while collecting data
 
