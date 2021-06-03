@@ -45,7 +45,7 @@ Detailed metadata needs to be captured on a number of aspects. One of the most c
 * Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a BrAPI-compliant repository ([Breeding API, BrAPI](https://brapi.org/).
 
 
-## Plant phenotyoping data sharing and deposition
+## Plant phenotyping data sharing and deposition
  
 ### Description
 Sharing, deposition and publication of plant phenotyping data can be challenging, given that there is no global centralized archive for this type of data.

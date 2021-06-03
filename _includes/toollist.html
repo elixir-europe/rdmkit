@@ -46,6 +46,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             {%- endif %}
             {%- endif %}
             {%- endfor %}
+            {% if tool.country %}{% for country in tool.country %}<span class="flag-icon flag-icon-{{country | downcase }} rounded align-middle"></span>{% endfor %}{% endif %}
             {%- endcapture %}
             <td>{{tags}}</td>
             <td style="text-align: center; vertical-align: middle;">
