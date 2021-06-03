@@ -333,6 +333,21 @@ Tools:
     biotools: chembl
     fairsharing: m3jtpg
     tess: ChEMBL
+- country:
+  - FI
+  description: Chipster is a user-friendly analysis software for high-throughput data
+    such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large
+    reference genome collection.
+  link: https://chipster.csc.fi/
+  name: Chipster
+  registry:
+    biotools: chipster
+    tess: Chipster
+  tags:
+  - CSC
+  - data analysis
+  - researcher
+  - IT support
 - description: Choose an open source license
   link: https://choosealicense.com
   name: Choose a license
@@ -546,7 +561,9 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: A free tool to write, share and export a data management plan. Instance
+- country:
+  - BE
+  description: A free tool to write, share and export a data management plan. Instance
     aimed at Belgian researchers with built-in data management plan templates for
     the major funders.
   link: https://dmponline.be
@@ -562,13 +579,16 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Data management planning tool (Finland)
+- country:
+  - FI
+  description: Data management planning tool (Finland)
   link: https://www.dmptuuli.fi/
   name: DMPTuuli
   tags:
   - DMP
   - researcher
   - data manager
+  - CSC
 - description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
@@ -1146,6 +1166,16 @@ Tools:
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
   tags:
   - micro biotech
+- description: EuroHPC world-class supercomputer
+  link: https://www.lumi-supercomputer.eu/
+  name: LUMI
+  registry:
+    biotools: lumi
+  tags:
+  - data analysis
+  - researcher
+  - IT support
+  - CSC
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
@@ -1329,7 +1359,9 @@ Tools:
   name: NCIMB
   tags:
   - micro biotech
-- description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
+- country:
+  - 'NO'
+  description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
     scientists and their international collaborators to store, share, archive, and
     analyse their omics-scale data
   link: https://nels.bioinfo.no
