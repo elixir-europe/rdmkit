@@ -23,6 +23,7 @@ Moreover, there are ongoing efforts to develop templates for machine-actionable 
 ### Solutions
 * Consult the documentation of your funding agency or institution, or contact them to figure out if they require or recommend a DMP template.
 * A core DMP template has been provided by [Science Europe](https://www.scienceeurope.org/our-priorities/research-data/research-data-management/).
+* This [Horizon 2020 FAIR DMP template](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm) has been designed to be applicable to any Horizon 2020 project that produces, collects or processes research data.
 * Consider adopting the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) model from the Research Data Alliance if you want to produce a machine-actionable DMP template.
 
 
