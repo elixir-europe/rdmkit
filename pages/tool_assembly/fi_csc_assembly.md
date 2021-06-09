@@ -46,7 +46,7 @@ In addition to the above mentioned services, you can use national [Fairdata.fi s
 
 ## Where can you find training materials and events about the CSC data management tool assembly?
 
-{% include tess.html search="CSC" %}
+{% include tess.html search="csc" %}
 * [CSC - Bioscience webpages](https://research.csc.fi/biosciences)
 * [CSC - Training and events webpages](https://www.csc.fi/en/training) 
 * [CSC - Learning Materials for Bioscientists](https://research.csc.fi/bioscience-learning-materials)
