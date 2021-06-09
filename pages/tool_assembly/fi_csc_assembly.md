@@ -50,9 +50,9 @@ In addition to the above mentioned services, you can use national [Fairdata.fi s
 * [CSC - Bioscience webpages](https://research.csc.fi/biosciences)
 * [CSC - Training and events webpages](https://www.csc.fi/en/training) 
 * [CSC - Learning Materials for Bioscientists](https://research.csc.fi/bioscience-learning-materials)
-* [Data analysis with Chipster:
-Course packages](https://chipster.rahtiapp.fi/manual/courses.html) for RNA-seq, microbial community analysis, single cell RNA-seq, etc, containing slides, exercises, data and lecture videos.
-* [Tutorials and lecture youtube playlists on different topics](https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists)
+* Data analysis with Chipster
+    * [Course packages](https://chipster.rahtiapp.fi/manual/courses.html) for RNA-seq, microbial community analysis, single cell RNA-seq, etc, containing slides, exercises, data and lecture videos.
+    * [Tutorials and lecture playlists on different topics (youtube)](https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists)
 * [CSC - Data management youtube channel](https://www.youtube.com/watch?v=Ol7mniw687E&list=PLD5XtevzF3yEZw-8LadtaGVV8Um6CbMja) 
 * [CSC - Research data management services for life science research (youtube video)](https://youtu.be/lf9L7PYQrBE)
 
