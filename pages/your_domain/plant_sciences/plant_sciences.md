@@ -42,7 +42,7 @@ Detailed metadata needs to be captured on a number of aspects. One of the most c
   * [COPO](https://copo-project.org/) is a data management platform specific for the plant sciences.
   * [FAIRsharing](https://fairsharing.org) is a manually curated registry of reporting guidelines, vocabularies, identifier scheme, models, formats, repositories, knowledgebases, and data policies that includes many resources relevant for managing plant phenotyping data.
   
-* Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a [Breeding API](https://brapi.org/)(BrAPI) [compliant repository](https://www.brapi.org/servers).
+* Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a [Breeding API](https://brapi.org/) (BrAPI) [compliant repository](https://www.brapi.org/servers).
 
 
 ## Plant phenotyping data sharing and deposition
