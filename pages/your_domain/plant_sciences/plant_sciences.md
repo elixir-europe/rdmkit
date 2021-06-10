@@ -42,7 +42,7 @@ Detailed metadata needs to be captured on a number of aspects. One of the most c
   * [COPO](https://copo-project.org/) is a data management platform specific for the plant sciences.
   * [FAIRsharing](https://fairsharing.org) is a manually curated registry of reporting guidelines, vocabularies, identifier scheme, models, formats, repositories, knowledgebases, and data policies that includes many resources relevant for managing plant phenotyping data.
   
-* Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a BrAPI-compliant repository ([Breeding API, BrAPI](https://brapi.org/).
+* Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a [Breeding API (BrAPI)](https://brapi.org/) [compliant repository](https://www.brapi.org/servers).
 
 
 ## Plant phenotyping data sharing and deposition
@@ -67,7 +67,7 @@ For managers of plant phenotyping data repositories that support a project or in
 * If you or your partners collect data into data management platforms:
   * If it implements BrAPI, you can exchange data using BrAPI calls.
   * If it doesn’t implement BrAPI, the simplest solution would be to export data into the MIAPPE spreadsheet template, or another formally defined data template.
-* For data deposition, it is highly recommended that you opt for one of the many [repositories that implement BrAPI](https://www.brapi.org/servers), as they enhance findability through the ELIXIR plant data discovery service, [FAIDARE](https://urgi.versailles.inrae.fr/faidare/) and machine actionable access to MIAPPE compliant data.
+* For data deposition, it is highly recommended that you opt for one of the many [repositories that implement BrAPI](https://www.brapi.org/servers), as they enhance findability through the ELIXIR plant data discovery service, [FAIDARE](https://urgi.versailles.inrae.fr/faidare/), enable machine actionable access to MIAPPE compliant data and validation of that compliance.
  
 ## Integrating plant phenotypic and molecular data
  
