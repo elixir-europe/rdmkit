@@ -808,3 +808,17 @@ li ul .sidebar_rdm_sub {
     text-decoration: none;
     color: var(--white-text);
 }
+
+/* Counters on landing page */
+
+.count-number {
+    font-size: 5em;
+    font-weight: 700;
+    color: var(--primary-theme-color)
+}
+
+.count-panel {
+    background-color: var(--light-grey);
+    padding: 11px;
+    border-radius: 4px;
+}
