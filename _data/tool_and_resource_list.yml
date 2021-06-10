@@ -344,7 +344,7 @@ Tools:
     biotools: chipster
     tess: Chipster
   tags:
-  - CSC
+  - csc
   - data analysis
   - researcher
   - IT support
@@ -588,7 +588,7 @@ Tools:
   - DMP
   - researcher
   - data manager
-  - CSC
+  - csc
 - description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
@@ -1175,7 +1175,7 @@ Tools:
   - data analysis
   - researcher
   - IT support
-  - CSC
+  - csc
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
