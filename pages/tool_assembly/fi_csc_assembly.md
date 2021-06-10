@@ -18,7 +18,7 @@ You can access all CSC services through several secure authentication methods. S
 
 ## For what can you use the CSC data management tool assembly?
 
-{% include image.html file="CSC_assembly.svg" caption="Figure 1. The CSC - IT Center for Science data management tool assembly." alt="CSC RDMkit" %}
+{% include image.html file="fi_csc_assembly.svg" caption="Figure 1. The CSC - IT Center for Science data management tool assembly." alt="CSC RDMkit" %}
 
 ### Data management planning
 You can get support for data management [planning](planning) through [DMPTuuli](https://dmptuuli.fi/), a Finnish instance of DMPonline which includes guidance and templates provided by different organisations and funders. DMPs created in DMPTuuli are not yet machine actionable or linked to the CSC data management tool assembly services. However, a DMP is a valuable document when contacting the CSC research data management services.
@@ -33,7 +33,7 @@ For [processing](processing), [analysing](analysing) and [storing data](storage)
 
 Supercomputers Puhti and Mahti can be used for larger scale analysis and simulations. They will soon be accompanied with the world-class supercomputer LUMI. Pouta and Rahti cloud computing services offer more flexibility, allowing the user to manage the infrastructure. CSC's computers have a wide range of [preinstalled scientific software and databases](https://research.csc.fi/bioscience-programs) with usage instructions. 
 
-This summer, CSC will be releasing beta versions of new services for sensitive data management: Sensitive Data Desktop (SD Desktop) and Sensitive Data Connect (SD Connect). SD Submit will be available later this year. The new Sensitive Data Services are designed to facilitate collaborative research across Finland and between Finnish academics and their European collaborators. [SD Desktop](https://research.csc.fi/-/sd-desktop) is a service that allows a user and their authorized colleagues to access a private computing environment workspace via a web browser and analyze the data within a secure cloud. [SD Connect](https://research.csc.fi/-/sd-connect) allows you to collect, organize and share your encrypted sensitive data in a secure manner via web browser.
+This summer, CSC will be releasing beta versions of new services for sensitive data management: Sensitive Data Desktop (SD Desktop) and Sensitive Data Connect (SD Connect). Sensitive Data Submit (SD Submit) will be available later this year. The new Sensitive Data Services are designed to facilitate collaborative research across Finland and between Finnish academics and their collaborators. [SD Desktop](https://research.csc.fi/-/sd-desktop) is a service that allows a user and their authorized colleagues to access a private computing environment workspace via a web browser and analyze the data within a secure cloud. [SD Connect](https://research.csc.fi/-/sd-connect) allows you to collect, organize and share your encrypted sensitive data in a secure manner via web browser.
 
 
 ### Data sharing and publishing
@@ -47,6 +47,7 @@ In addition to the above mentioned services, you can use national [Fairdata.fi s
 ## Where can you find training materials and events about the CSC data management tool assembly?
 
 {% include tess.html search="csc" %}
+
 * [CSC - Bioscience webpages](https://research.csc.fi/biosciences)
 * [CSC - Training and events webpages](https://www.csc.fi/en/training) 
 * [CSC - Learning Materials for Bioscientists](https://research.csc.fi/bioscience-learning-materials)
