@@ -6,6 +6,8 @@ contributors: [Bert Droesbeke]
 search_exclude: true
 ---
 
+For more information about Markdown, please check the Markdown [guidelines](https://guides.github.com/features/mastering-markdown/).
+
 ## Possible metadata attributes of a page
 
 Minimum of metadata in a page:
