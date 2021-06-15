@@ -96,28 +96,28 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 
 1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
 
-2. Click "Raw" on the GitHub page to open the file 'as is'
+1. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
 
-3. Select and copy all the content.
+1. Select and copy all the content.
 
-4. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_problem*. Click on `Add file` on the right followed up by `Create new file`.
+1. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_problem*. Click on `Add file` on the right followed up by `Create new file`.
     {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
 
-5. Paste the copied content from the template.
+1. Paste the copied content from the template.
 
-6. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
+1. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
-7. Check the frontmatter/metadata of the markdown page:
+1. Check the frontmatter/metadata of the markdown page:
     - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
-8. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
+1. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
      {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
 
-9. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
+1. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
 
 {% include note.html content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
 

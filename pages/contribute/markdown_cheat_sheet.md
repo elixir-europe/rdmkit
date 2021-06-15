@@ -284,10 +284,10 @@ and are made with:
 
 ```md
 1. Number one
-2. Number two
-3. Number three
+1. Number two
+1. Number three
    1. Sub number one
-   2. Sub number two
+   1. Sub number two
 
 ```
 
