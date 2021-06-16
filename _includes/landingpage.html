@@ -34,7 +34,6 @@
             .st0,.st2,.st3,.st4,.st5,.st6,.st7 {transition: fill 0.3s;}
             .st0:hover,.st2:hover,.st3:hover,.st4:hover,.st5:hover,.st6:hover,.st7:hover {fill:#83858e;cursor: pointer;}
             text {pointer-events : none;}
-          
           </style>
           <a href="./planning" id="link-to-planning2" target="_top">
             <g id="PlanPath2">
@@ -223,4 +222,51 @@
   </div>
   {%- endif %}
   {%- endfor %}
+</div>
+
+
+<h3>We welcome contributors!</h3>
+<p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing community contributors</a>. RDMkit is an open community project, and you are welcome to <a href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
+
+
+<h3>RDMkit in numbers</h3>
+
+{%- assign contributors = site.data.CONTRIBUTORS %}
+{%- for page in site.pages %}
+{%- if page.contributors and page.search_exclude != true %}
+{%- assign pagecontr = page.contributors | join: ", " %}
+{%- if allcontrstr %}
+{%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
+{%- else %}
+{%- assign allcontrstr = allcontrstr | append: pagecontr %}
+{%- endif  %}
+{%- endif  %}
+{%- endfor %}
+{%- for contr in contributors %}
+{%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
+{%- endfor %}
+{%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
+{%- assign tools = site.data.tool_and_resource_list -%}
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="count-panel text-center h-100">
+      <span class="count-number">{{allcontributors.size}}</span>
+      <p><b>Contributors</b><br>
+      The force behind RDMkit</p>
+    </div>
+  </div>
+  <div class="col">
+    <div class="count-panel text-center h-100">
+      <span class="count-number">{{tools.Tools.size}}</span>
+      <p><b>Tools & resources</b><br>
+      Explained in the context of real world problems</p>
+    </div>
+  </div>
+  <div class="col">
+    <div class="count-panel text-center h-100">
+      <span class="count-number">{{site.pages.size}}</span>
+      <p><b>Pages</b><br>
+     Helping you with data management</p>
+    </div>
+  </div>
 </div>
