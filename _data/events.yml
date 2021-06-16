@@ -1,7 +1,7 @@
 - name: Contentathon
   startDate: 2021-06-23
-  startTime: 9h00 CET 
+  startTime: '9:00'
   endDate: 2021-06-24
-  endTime: 13h30 CET
-  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same.
+  endTime: 13:30 CET
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days)
   location: Online
