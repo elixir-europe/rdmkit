@@ -89,6 +89,24 @@ If contributors make a pull request to make changes, by default the editors that
 When you make a pull request resolving an issue, it is possible to link this pull request to that specific issue. This can be easily done by writing in the conversation of the PR: `closes #number_of_issue`, or `fixes #number_of_issue` or even `resolves #number_of_issue`. This is definitely applicable when authors first open an issue announcing a change or requesting a new page, followed up by the pull request. 
 For more information about this topic please visit the [GitHub documentation page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
 
+## Adding a new event
+
+Add an event to the landing page by editing the `events.yml` in the `_data` directory in this repository. Use following attributes to define an event:
+
+
+```yml
+- name: Contentathon
+  startDate: 2021-06-23
+  startTime: '9:00'
+  endDate: 2021-06-24
+  endTime: 13:30 CET
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days)
+  location: Online
+
+```
+
+Only name and startDate are mandatory attributes.
+
 ## Create a new page
 
 ### Simple way: using the GitHub interface
@@ -166,7 +184,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 
 
 
-## Linking the GitHub accounts to the contributors
+## Adding extra info to the contributors
 
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
 
