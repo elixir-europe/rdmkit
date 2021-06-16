@@ -812,7 +812,7 @@ li ul .sidebar_rdm_sub {
 /* Counters on landing page */
 
 .count-number {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
     color: var(--primary-theme-color)
 }
@@ -821,4 +821,5 @@ li ul .sidebar_rdm_sub {
     background-color: var(--light-grey);
     padding: 11px;
     border-radius: 4px;
+    margin-top: .5rem;
 }

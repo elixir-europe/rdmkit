@@ -247,23 +247,26 @@
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
 {%- assign tools = site.data.tool_and_resource_list -%}
-<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+<div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="count-panel text-center">
+    <div class="count-panel text-center h-100">
       <span class="count-number">{{allcontributors.size}}</span>
-      <p><b>Contributors</b></p>
+      <p><b>Contributors</b><br>
+      The force behind RDMkit</p>
     </div>
   </div>
   <div class="col">
-    <div class="count-panel text-center">
+    <div class="count-panel text-center h-100">
       <span class="count-number">{{tools.Tools.size}}</span>
-      <p><b>Tools & resources</b></p>
+      <p><b>Tools & resources</b><br>
+      Explained in the context of real world problems</p>
     </div>
   </div>
   <div class="col">
-    <div class="count-panel text-center">
+    <div class="count-panel text-center h-100">
       <span class="count-number">{{site.pages.size}}</span>
-      <p><b>Pages</b></p>
+      <p><b>Pages</b><br>
+     Helping you with data management</p>
     </div>
   </div>
 </div>
