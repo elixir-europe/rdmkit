@@ -811,7 +811,7 @@ li ul .sidebar_rdm_sub {
 
 /* Events homepage */
 
-li.upcoming-event {
+li.upcoming-event, .events {
     display: none;
 }
 

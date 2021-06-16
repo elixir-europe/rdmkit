@@ -5,5 +5,3 @@ layout: page
 ---
 
 {% include landingpage.html %}
-
-{% include events.html %}

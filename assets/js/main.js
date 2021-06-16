@@ -83,9 +83,13 @@ jQuery(function ($) {
 
 function showUpcomingEvents() {
   var dstr = nowToDateString();
+  var events_block = $(document.getElementsByClassName("events"));
   var elements = $('li.upcoming-event').filter(function () {
     return $(this).data('start') >= dstr;
   });
+  if ($(elements).length > 0) {
+    events_block.show()
+  }
   elements.show();
 };
 
