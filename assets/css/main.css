@@ -809,6 +809,34 @@ li ul .sidebar_rdm_sub {
     color: var(--white-text);
 }
 
+/* Events homepage */
+
+li.upcoming-event, .events {
+    display: none;
+}
+
+.events li {
+    border-left: var(--primary-theme-color) 5px solid;
+    border-radius: 4px;
+    padding-left: 11px;
+}
+
+.events i {
+    width: 20px;
+    text-align: center;
+}
+
+.events .title {
+    background-color: var(--main-text-color);
+    font-weight: 600;
+    color: white;
+    padding: 0px 11px;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -11px;
+    border: 1px solid var(--main-text-color);
+    display: inline-block;
+}
+
 /* Counters on landing page */
 
 .count-number {
