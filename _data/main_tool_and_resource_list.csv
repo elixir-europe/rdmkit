@@ -40,7 +40,7 @@ Cellular Microscopy Phenotype Ontology (CMPO),https://www.ebi.ac.uk/cmpo/,An ont
 CERNBox,https://information-technology.web.cern.ch/services/cernbox-service,"CERNBox cloud data storage, sharing and synchronization",,storage,
 ChEBI,https://www.ebi.ac.uk/chebi/,Dictionary of molecular entities focused on 'small' chemical compounds,fairsharing:62qk8w,micro biotech,
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.",fairsharing:m3jtpg,,
-Chipster,https://chipster.csc.fi/,Chipster is a user-friendly analysis software for high-throughput data such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large reference genome collection.,,"CSC, data analysis, researcher, IT support",FI
+Chipster,https://chipster.csc.fi/,Chipster is a user-friendly analysis software for high-throughput data such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large reference genome collection.,,"csc, data analysis, researcher, IT support",FI
 Choose a license,https://choosealicense.com,Choose an open source license,,"licensing, researcher, data manager, policy officer",
 Common Workflow Language (CWL),https://www.commonwl.org,An open standard for describing workflows that are build from command line tools,fairsharing:bsg-s000606,"IT support, policy officer, researcher, data analysis",
 COmputational Modeling in BIology NEtwork (COMBINE),http://co.mbine.org,An initiative to bring together various formats and standard for computational models in biology,,micro biotech,
@@ -68,7 +68,7 @@ DMPlanner,https://dmplanner.athenarc.gr/,"Semi-automatically generated, searchab
 DMPonline,https://dmponline.dcc.ac.uk/,"A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.",,"DMP, researcher, data manager",
 DMPonline Belgium,https://dmponline.be,"A free tool to write, share and export a data management plan. Instance aimed at Belgian researchers with built-in data management plan templates for the major funders.",,"DMP, researcher, data manager",BE
 DMPTool,https://dmptool.org,Build your Data Management Plan,,"DMP, researcher, data manager",
-DMPTuuli,https://www.dmptuuli.fi/,Data management planning tool (Finland),,"DMP, researcher, data manager, CSC",FI
+DMPTuuli,https://www.dmptuuli.fi/,Data management planning tool (Finland),,"DMP, researcher, data manager, csc",FI
 DNA Data Bank of Japan (DDBJ),https://www.ddbj.nig.ac.jp/index-e.html,A database of DNA sequences,,micro biotech,
 Docker,https://www.docker.com/,"Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images",fairsharing:bsg-d001254,"IT support, data analysis",
 DropBox,https://www.dropbox.com/?landing=dbv2,Cloud storage and file sharing service,,"storage, IT support, transfer",
@@ -137,7 +137,7 @@ JBEI-ICE,https://ice.jbei.org,A registry platform for biological parts,,micro bi
 Jupyter,https://jupyter.org,"Jupyter notebooks allow to share code, documentation",,"IT support, data analysis",
 Linked Open Vocabularies (LOV),https://lov.linkeddata.es/dataset/lov/,Web portal for finding ontologies,,"metadata, data manager, researcher",
 List of Prokaryotic names with Standing in Nomenclature (LPSN),https://lpsn.dsmz.de,A database of prokaryote specific biodiversity information,,micro biotech,
-LUMI,https://www.lumi-supercomputer.eu/,EuroHPC world-class supercomputer,,"data analysis, researcher, IT support, CSC",
+LUMI,https://www.lumi-supercomputer.eu/,EuroHPC world-class supercomputer,,"data analysis, researcher, IT support, csc",
 maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,"DMP, IT support",
 MCPD,https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,"biotools:NA, fairsharing:hn155r","metadata, researcher, IT support, policy officer, plants, plants",
 MemProtMD,http://memprotmd.bioch.ox.ac.uk/,Database of over 5000 intrinsic membrane protein structures,,biomol sim,
