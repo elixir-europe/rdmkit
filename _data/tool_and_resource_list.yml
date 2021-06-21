@@ -344,7 +344,7 @@ Tools:
     biotools: chipster
     tess: Chipster
   tags:
-  - csc
+  - CSC
   - data analysis
   - researcher
   - IT support
@@ -588,7 +588,7 @@ Tools:
   - DMP
   - researcher
   - data manager
-  - csc
+  - CSC
 - description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
@@ -631,7 +631,7 @@ Tools:
   - researcher
   - data manager
   - IT support
-  - nels
+  - NeLS
 - description: Database of folding / unfolding pathway of representatives from all
     known protein folds by MD simulation
   link: http://www.dynameomics.org/
@@ -802,7 +802,7 @@ Tools:
   tags:
   - storage
   - IT support
-  - nels
+  - NeLS
   - micro biotech
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
@@ -813,7 +813,7 @@ Tools:
   tags:
   - storage
   - researcher
-  - nels
+  - NeLS
   - metadata
   - micro biotech
 - description: A curated, informative and educational resource on data and metadata
@@ -879,7 +879,7 @@ Tools:
     biotools: galaxy
     tess: Galaxy
   tags:
-  - nels
+  - NeLS
   - data analysis
   - researcher
   - IT support
@@ -1175,7 +1175,7 @@ Tools:
   - data analysis
   - researcher
   - IT support
-  - csc
+  - CSC
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
@@ -1369,7 +1369,7 @@ Tools:
   registry:
     biotools: nels
   tags:
-  - nels
+  - NeLS
 - description: As fully on-premises solution, Nextcloud Hub provides the benefits
     of online collaboration without the compliance and security risks.
   link: https://nextcloud.com
@@ -1866,7 +1866,7 @@ Tools:
   - policy officer
   - data manager
   - human data
-  - nels
+  - NeLS
 - description: Comprehensive resource for protein sequence and annotation data
   link: https://www.uniprot.org/
   name: UniProt

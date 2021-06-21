@@ -40,4 +40,4 @@ One recommended way to share your data is to deposit them in the [ELIXIR Deposit
 
 ## What tools are used within the NeLS data management tool assembly?
 
-{% include toollist.html tag="nels" %}
+{% include toollist.html tag="NeLS" %}
