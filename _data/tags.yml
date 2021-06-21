@@ -66,6 +66,8 @@ data analysis:
   url: data_analysis.html
 identifiers:
   url: identifiers.html
+existing data:
+  url: existing_data.html
 # Assembly tags
 nels:
   url: nels_assembly.html
