@@ -54,7 +54,7 @@ One solution for permanent archiving and sharing of personally identifiable gene
 The Norwegian federated EGA (NFEGA) will be accessible through [ELIXIR AAI](https://elixir-europe.org/services/compute/aai), compatible with [FEIDE](https://www.feide.no/).
 
 
-## Where can I find training materials, documentations and events about the NeLS data management tool assembly?
+## Where can I find training materials, documentations and events about the TSD data management tool assembly?
 
 You can find the documentation for the HPC cluster [here](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/colossus-userguide.html).
 
