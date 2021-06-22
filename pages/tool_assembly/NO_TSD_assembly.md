@@ -24,8 +24,6 @@ If you are affiliated to a Norwegian institution which has already stipulated a 
 
 The Norwegian tools assembly for sensitive data offers support with [Data Management Planning](planning) through an [instance of the Data Stewardship Wizard](https://elixir-no.ds-wizard.org) following the guidelines of the major national and European funding bodys. Dedicated references guide you through national infrastructure, resources, laws and regulations and also include the [Tryggve ELSI Checklist](https://neic.no/tryggve/links/) for Ethical, Legal and Social Implications. Soon you will be able to submit storage request forms for [Data Storage](storage) in TSD with defined access permissions through the Data Stewardship Wizard.
 
-You can access the [ELIXIR-NO instance of the Data Stewardship Wizard](https://elixir-no.ds-wizard.org) using [ELIXIR AAI](https://elixir-europe.org/services/compute/aai), which can be coupled with the national solution for secure login and data sharing in the educational and research sector [FEIDE](https://www.feide.no/).
-
 TSD offers [Data Storage](storage) services. Moreover, [Processing](processing) and [Analysing](analysing) of data is performed in a safe environment within TSD. 
 As a national user, you can access TSD by identifying yourself using the Norwegian [ID-porten](https://eid.difi.no/en/id-porten) system. International users can get access by contacting [tsd-contact@usit.uio.no}(mailto:tsd-contact@usit.uio.no).
 
@@ -33,15 +31,24 @@ Within TSD, you can access  a Windows or Linux virtual machine (VM) and, upon re
 
 As the primary design goal of TSD is security, [transfer of data](data_transfer) by other means to and from [TSD is restricted and logged](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/import-export/index.html).
 
+
+### Data management planning
+
+You can access the [ELIXIR-NO instance of the Data Stewardship Wizard](https://elixir-no.ds-wizard.org) using [ELIXIR AAI](https://elixir-europe.org/services/compute/aai), which can be coupled with the national solution for secure login and data sharing in the educational and research sector [FEIDE](https://www.feide.no/).
+
+### Data Collection
+
 If you use one of the National Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/) they can directly upload data to your TSD project for you, as described in this [page](https://elixir.no/Services-bak/data_produced_NorSeq)
 
 The sensitive data tools assembly provides [Nettskjema](https://nettskjema.no) as a solution for designing and managing data collections using online forms and surveys. This is a secure and GDPR-compliant service. It can be accessed through the  UiO's web pages and it is used through a web browser. Submissions from a Nettskjema questionnaire can be delivered securely (fully encrypted) to your project area within TSD. 
 TSD-users are granted access to Nettskjema through [IDporten or FEIDE](https://www.uio.no/tjenester/it/adm-app/nettskjema/mer-om/eksterne-brukere). When the Nettskjema form is complete, you can upload it on TSD following [these instructions](https://www.uio.no/tjenester/it/adm-app/nettskjema/hjelp/koble-skjema-til-tsd.html). After verification, the form can be used for collecting sensitive data. Note that further processing and analysis of the results should be conducted within TSD. If exporting data is necessary, the files should be properly [de-identified or anonymised](sensitive_data.html#how-can-you-de-identify-your-data). 
 
-
+### Data Processing and Analysis
 
 For [Processing](processing) and [Analysing](analysing) your data,  you can use singularity containers and [individual tools on the HPC cluster](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/software/). 
 The computing services provided through TSD include an Illumina DRAGEN (Dynamic Read Analysis for GENomics) node, which can be used to speed up genomic analysis of sequencing data. Dragen is a dedicated resource, if you want to run jobs on DRAGEN please send an email to [tsd-drift@usit.uio.no](mailto:tsd-drift@usit.uio.no).
+ 
+ ### Data Sharing and Preservation
  
 One solution for permanent archiving and sharing of personally identifiable genetic and phenotypic datasets resulting from biomedical research data is to deposit them to the [European Genome-phenome Archive (EGA)](https://ega-archive.org/). The EGA applies a controlled access model. There can be limitations, e.g. given consents, for your datasets which prevents them from leaving your jurisdiction or being archived in general. This will be partly addressed in the future by federated EGA services with nodes operating from one country or institution under one specific jurisdiction. This model will enable discovery of publicly shareable metadata about studies/datasets archived at the federated EGA nodes through the Central EGA, while the remaining data is stored in a local solution. These nodes will offer the same APIs and interfaces as the Central EGA and provide independent data distribution to users.
 The Norwegian federated EGA (NFEGA) will be accessible through [ELIXIR AAI](https://elixir-europe.org/services/compute/aai), compatible with [FEIDE](https://www.feide.no/).
