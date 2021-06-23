@@ -32,7 +32,7 @@ ELIXIR is an intergovernmental organisation that brings together life science re
 
 ## License
 
-The process documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about out license can be found [here](LICENSE).
+The process documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about our license can be found on our [license](LICENSE) page.
 
 ## Acknowledgements
 

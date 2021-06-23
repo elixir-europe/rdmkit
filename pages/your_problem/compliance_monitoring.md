@@ -1,7 +1,6 @@
 ---
 title: Compliance monitoring & measurement
 tags: [plan, researcher, data manager, policy officer]
-keywords: [FAIR metrics, legislation]
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
 description: measure compliance to data management regulations and standards.
 ---
@@ -27,8 +26,10 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 
 * FAIR data
   *  GO-FAIR Initiative provides a framework for designing [metrics for the evaluation of FAIRness](https://www.go-fair.org/2017/12/11/metrics-evaluation-fairness/).
-  *  The [FAIRplus project](https://fairplus.github.io/cookbook-dev/intro) has identified a set of [FAIR Indicators](https://zenodo.org/record/3909563#.X8ABpi-ZNTY) for data. 
-  *  [FAIR Evaluators](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/evaluations) are an automated approach to evaluate FAIRness of data services. 
+* RDA developed a first set of [guidelines and a checklist](https://zenodo.org/record/3909563#.YKZV3i0RpN1) related to the implementation of the FAIR indicators.
+* The [FAIRplus project](https://fairplus-project.eu) with its [FAIR Cookbook](https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#) provides services, tools, and indicators necessary for the assessment or the evaluation of data against the FAIR Principles:
+    * [FAIR Evaluators](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!) are an automated approach to evaluate FAIRness of data services.
+    * [FAIRassist.org](https://fairassist.org/#!/) aims to collect and describe existing resources for the assessment and/or evaluation of digital objects against the FAIR principles. 
 * Information Security, Data Protection, Accountability
   *  [21 CFR part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) is a standard, which outlines criteria for electronic records in an IT system to be as valid as signed paper
 records. It is widely adopted in lab information systems and applications used in clinical trials and medical research.

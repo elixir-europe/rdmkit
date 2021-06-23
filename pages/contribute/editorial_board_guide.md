@@ -62,7 +62,7 @@ Optional metadata/frontmatter:
 - Markdown files should be named without capitals and without spaces (replace them with underscores).
 - Make sure that the markdown file has a unique name.
 - If the markdown file is named *example.md*, the page will be found at https://rdmkit.elixir-europe.org/example.
-- By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found [here](#find-your-newly-added-page-back-on-the-website).
+- By default a page will not show up in the sidebar. In order to do so you will have to add the link towards the page to the `.yaml` file in the *_data/sidebars* directory or link towards it from another page. More info about this can be found on the [find your page back section](#find-your-newly-added-page-back-on-the-website).
 
 ### GitHub checks
 
@@ -89,6 +89,24 @@ If contributors make a pull request to make changes, by default the editors that
 When you make a pull request resolving an issue, it is possible to link this pull request to that specific issue. This can be easily done by writing in the conversation of the PR: `closes #number_of_issue`, or `fixes #number_of_issue` or even `resolves #number_of_issue`. This is definitely applicable when authors first open an issue announcing a change or requesting a new page, followed up by the pull request. 
 For more information about this topic please visit the [GitHub documentation page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
 
+## Adding a new event
+
+Add an event to the landing page by editing the `events.yml` in the `_data` directory in this repository. Use following attributes to define an event:
+
+
+```yml
+- name: Contentathon
+  startDate: 2021-06-23
+  startTime: '9:00'
+  endDate: 2021-06-24
+  endTime: 13:30 CET
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days)
+  location: Online
+
+```
+
+Only name and startDate are mandatory attributes.
+
 ## Create a new page
 
 ### Simple way: using the GitHub interface
@@ -110,7 +128,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
 7. Check the frontmatter/metadata of the markdown page:
-    - delete `search: exclude` attribute.
+    - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
@@ -166,7 +184,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 
 
 
-## Linking the GitHub accounts to the contributors
+## Adding extra info to the contributors
 
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
 
@@ -181,9 +199,9 @@ Bert Droesbeke:
 {% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
 
-## Adding an institute to the institute page
+## Adding an institute, project or funder to the support page
 
-Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file. In this file, the name, url towards the website of the institute and the relative path to the logo is given.
+Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file, projects in the [PROJECTS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/PROJECTS.yaml) file and funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUDNERS.yaml) file. In this file, the name, url towards the website and the relative path to the logo is given.
 
 ```yaml
 - name: VIB-PSB
@@ -191,23 +209,9 @@ Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/r
   url: https://www.psb.ugent.be/
 ```
 
-{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, if possible." %}
+The logos can be added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
-The logos of these corresponding institutes are added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/) directory.
-
-## Adding a funder to the funders page
-
-Funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUNDERS.yaml) file. In this file, the name, url towards the website of the institute and the relative path to the logo is given.
-
-```yaml
-- name: ELIXIR CONVERGE
-  image_url: /assets/img/converge_logo.svg
-  url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
-```
-
-{% include important.html content="Upload vector images (.svg filetype) of the funder logo for better quality, if possible." %}
-
-The logos of these corresponding institutes are added to the [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
+{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
 ## Page tagging
 
@@ -271,7 +275,7 @@ Giving:
 {% include toollist.html tag="data publication" tag2="IT support" %}
 
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
-More information on how to add a tool or resource can be found [here](tool_resource_update).
+More information on how to add a tool or resource can be found on the [update tools and resources page](tool_resource_update).
 
 ### Supported tags
 

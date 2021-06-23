@@ -29,6 +29,8 @@ subitems:
         url: /intrinsically_disordered_proteins.html
       - title: Microbial biotechnology
         url: /microbial_biotechnology.html
+      - title: Epitranscriptome data
+        url: /epitranscriptome_data.html
   - title: Your problem
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
@@ -54,7 +56,7 @@ subitems:
         url: /identifiers.html
       - title: Licensing
         url: /licensing.html
-      - title: Metadata management
+      - title: Documentation and metadata
         url: /metadata_management.html
       - title: Sensitive data
         url: /sensitive_data.html
@@ -63,11 +65,16 @@ subitems:
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
     hr: True
-  - title: Tools assembly
+  - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     hr: True
     subitems:
-      - title: NeLS
+      - title: NeLS - Norway
         url: /nels_assembly.html
+      - title: TSD - Norway
+        url: /NO_TSD_assembly.html
       - title: Covid-19 Data Portal
         url: /covid19_data_portal.html
+      - title: CSC - Finland
+        url: /fi_csc_assembly.html
+

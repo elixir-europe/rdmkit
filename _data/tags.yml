@@ -37,6 +37,8 @@ struct info:
   url: structural_bioinformatics.html
 micro biotech:
   url: microbial_biotechnology.html
+epitrans:
+  url: epitranscriptome_data.html
 # Problem tags
 DMP:
   url: data_management_plan.html
@@ -65,7 +67,11 @@ data analysis:
 identifiers:
   url: identifiers.html
 # Assembly tags
-nels:
+NeLS:
   url: nels_assembly.html
-covid-19:
+Covid-19:
   url: covid19_data_portal.html
+CSC:
+  url: /fi_csc_assembly.html
+TSD:
+  url: /NO_TSD_assembly.html

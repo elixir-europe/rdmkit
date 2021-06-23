@@ -1,21 +1,18 @@
 ---
 layout: default
 ---
-{%- if page.title %}
-<h1>{{ page.title }}
-    {%- unless site.git_editme_path == nil %}
-    {%- if page.custom-editme %}
-    <a href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
-    {%- else %}
-    <a href="{{site.git_editme_path}}{{page.path}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
+<main id="main">
+    {%- if page.title %}
+    <h1>{{ page.title }}
+        {%- unless site.git_editme_path == nil %}
+        {%- if page.custom-editme %}
+        <a href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
+        {%- else %}
+        <a href="{{site.git_editme_path}}{{page.path}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
+        {%- endif %}
+        {%- endunless %}
+    </h1>
     {%- endif %}
-    {%- endunless %}
-</h1>
-{%- if page.subtitle %}
-<h1 class="subtitle">{{page.subtitle}}</h1>
-{%- endif %}
-{%- endif %}
-<div class="post-content">
     {%- if page.summary %}
     <div class="summary">{{page.summary}}</div>
     {%- endif %}
@@ -23,7 +20,7 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
-</div>
+</main>
 {%- if page.tags != null or page.contributors != null %}
 <div class="page-metadata">
 {%- endif %}

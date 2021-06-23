@@ -49,6 +49,23 @@ Tools:
     tess: ArrayExpress
   tags:
   - micro biotech
+- description: With Arvados, bioinformaticians run and scale compute-intensive workflows,
+    developers create biomedical applications, and IT administrators manage large
+    compute and storage resources.
+  link: https://arvados.org
+  name: Arvados
+  tags:
+  - IT support
+  - policy officer
+  - researcher
+  - data analysis
+- description: With fast file transfer and streaming solutions built on the award-winning
+    IBM FASP protocol, IBM Aspera software moves data of any size across any distance
+  link: https://www.ibm.com/products/aspera
+  name: Aspera Fasp
+  tags:
+  - transfer
+  - IT support
 - description: Biological materials resource including cell-lines, strains and genomics
     tools
   link: https://www.lgcstandards-atcc.org/en.aspx#
@@ -161,20 +178,10 @@ Tools:
 - description: BioSamples stores and supplies descriptions and metadata about biological
     samples used in research and development by academia and industry.
   link: https://www.ebi.ac.uk/biosamples/
-  name: Biosamples
+  name: BioSamples
   registry:
     biotools: biosamples
-    tess: Biosamples
-  tags:
-  - metadata
-  - plants
-- description: The BioStudies database holds descriptions of biological studies and
-    links to data from these studies in other databases.
-  link: https://www.ebi.ac.uk/biostudies/
-  name: Biostudies
-  registry:
-    biotools: biostudies
-    tess: Biostudies
+    tess: BioSamples
   tags:
   - metadata
   - plants
@@ -187,6 +194,8 @@ Tools:
     tess: BioStudies
   tags:
   - micro biotech
+  - metadata
+  - plants
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -324,6 +333,21 @@ Tools:
     biotools: chembl
     fairsharing: m3jtpg
     tess: ChEMBL
+- country:
+  - FI
+  description: Chipster is a user-friendly analysis software for high-throughput data
+    such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large
+    reference genome collection.
+  link: https://chipster.csc.fi/
+  name: Chipster
+  registry:
+    biotools: chipster
+    tess: Chipster
+  tags:
+  - CSC
+  - data analysis
+  - researcher
+  - IT support
 - description: Choose an open source license
   link: https://choosealicense.com
   name: Choose a license
@@ -334,6 +358,18 @@ Tools:
   - researcher
   - data manager
   - policy officer
+- description: An open standard for describing workflows that are build from command
+    line tools
+  link: https://www.commonwl.org
+  name: Common Workflow Language (CWL)
+  registry:
+    fairsharing: bsg-s000606
+    tess: Common Workflow Language (CWL)
+  tags:
+  - IT support
+  - policy officer
+  - researcher
+  - data analysis
 - description: An initiative to bring together various formats and standard for computational
     models in biology
   link: http://co.mbine.org
@@ -370,6 +406,14 @@ Tools:
   name: COVID-19 Molecular Structure and Therapeutics Hub
   tags:
   - biomol sim
+- description: Examples and tools to create a codebook by the Data Documentation Initiative
+    (DDI)
+  link: https://ddialliance.org/training/getting-started-new-content/create-a-codebook
+  name: Create a Codebook
+  tags:
+  - metadata
+  - researcher
+  - data manager
 - description: It helps you choose the right Creative Commons license for your needs.
   link: https://creativecommons.org/choose/
   name: Creative Commons License Chooser
@@ -395,6 +439,12 @@ Tools:
   name: CS3
   tags:
   - storage
+- description: command line tool and library for transferring data with URLs
+  link: https://curl.se
+  name: cURL
+  tags:
+  - transfer
+  - IT support
 - description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
@@ -511,7 +561,9 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: A free tool to write, share and export a data management plan. Instance
+- country:
+  - BE
+  description: A free tool to write, share and export a data management plan. Instance
     aimed at Belgian researchers with built-in data management plan templates for
     the major funders.
   link: https://dmponline.be
@@ -527,13 +579,16 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Data management planning tool
+- country:
+  - FI
+  description: Data management planning tool (Finland)
   link: https://www.dmptuuli.fi/
-  name: DMPTuuli Finland
+  name: DMPTuuli
   tags:
   - DMP
   - researcher
   - data manager
+  - CSC
 - description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
@@ -576,7 +631,7 @@ Tools:
   - researcher
   - data manager
   - IT support
-  - nels
+  - NeLS
 - description: Database of folding / unfolding pathway of representatives from all
     known protein folds by MD simulation
   link: http://www.dynameomics.org/
@@ -723,6 +778,20 @@ Tools:
   - researcher
   - data manager
   - plants
+- description: Resources and guidelines to assess the FAIRness of digital resources.
+  link: https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!
+  name: FAIR Evaluation Services
+  tags:
+  - compliance
+  - data manager
+  - policy officer
+- description: Help you discover resources to measure and improve FAIRness.
+  link: https://fairassist.org/#!/
+  name: FAIRassist.org
+  tags:
+  - compliance
+  - data manager
+  - policy officer
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc.
   link: https://seek4science.org/
@@ -733,7 +802,7 @@ Tools:
   tags:
   - storage
   - IT support
-  - nels
+  - NeLS
   - micro biotech
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
@@ -744,7 +813,7 @@ Tools:
   tags:
   - storage
   - researcher
-  - nels
+  - NeLS
   - metadata
   - micro biotech
 - description: A curated, informative and educational resource on data and metadata
@@ -770,6 +839,12 @@ Tools:
   tags:
   - data publication
   - biomol sim
+- description: A free FTP solution
+  link: https://filezilla-project.org
+  name: FileZilla
+  tags:
+  - transfer
+  - IT support
 - description: Repository of IP-free synthetic biological parts
   link: https://stanford.freegenes.org/collections/open-genes
   name: Freegenes
@@ -804,7 +879,7 @@ Tools:
     biotools: galaxy
     tess: Galaxy
   tags:
-  - nels
+  - NeLS
   - data analysis
   - researcher
   - IT support
@@ -866,6 +941,14 @@ Tools:
   - data publication
   - IT support
   - data manager
+- description: Globus lets you efficiently, securely, and reliably transfer data directly
+    between systems separated by an office wall or an ocean. Focus on your research
+    and offload your data transfer headaches to Globus
+  link: https://www.globus.org
+  name: Globus
+  tags:
+  - transfer
+  - IT support
 - description: A multispecies integrative information system dedicated to plant and
     fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
     It is used by both large international projects and the French National Research
@@ -899,6 +982,14 @@ Tools:
     biotools: grape_2.0
   tags:
   - data analysis
+- description: ELN Comparison Grid by Hardvard Medical School
+  link: https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks
+  name: "Harvard Medical School \u2013 ELN Comparison Grid"
+  tags:
+  - metadata
+  - identifiers
+  - researcher
+  - data manager
 - description: Guidelines about how to license research data from Digital Curation
     Centre
   link: https://www.dcc.ac.uk/guidance/how-guides/license-research-data
@@ -923,6 +1014,7 @@ Tools:
   name: HumanMine
   registry:
     biotools: humanmine
+    tess: HumanMine
   tags:
   - data organisation
   - data manager
@@ -1074,6 +1166,16 @@ Tools:
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
   tags:
   - micro biotech
+- description: EuroHPC world-class supercomputer
+  link: https://www.lumi-supercomputer.eu/
+  name: LUMI
+  registry:
+    biotools: lumi
+  tags:
+  - data analysis
+  - researcher
+  - IT support
+  - CSC
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
@@ -1093,14 +1195,6 @@ Tools:
   - IT support
   - policy officer
   - plants
-- description: The Multi-crop Passport Descriptors are an international standard to
-    facilitate germplasm passport information exchange
-  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21//
-  name: MCPD
-  registry:
-    biotools: mcpd
-  tags:
-  - metadata
   - plants
 - description: Database of over 5000 intrinsic membrane protein structures
   link: http://memprotmd.bioch.ox.ac.uk/
@@ -1265,7 +1359,9 @@ Tools:
   name: NCIMB
   tags:
   - micro biotech
-- description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
+- country:
+  - 'NO'
+  description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
     scientists and their international collaborators to store, share, archive, and
     analyse their omics-scale data
   link: https://nels.bioinfo.no
@@ -1273,7 +1369,7 @@ Tools:
   registry:
     biotools: nels
   tags:
-  - nels
+  - NeLS
 - description: As fully on-premises solution, Nextcloud Hub provides the benefits
     of online collaboration without the compliance and security risks.
   link: https://nextcloud.com
@@ -1495,6 +1591,22 @@ Tools:
   - IT support
   - data manager
   - data quality
+- description: Database of A-to-I (deamination of adenosines to inosines) events that
+    enables to search RNA editing sites by genomic region, gene name and other relevant
+    features as the tissue of origin.
+  link: http://srv00.recas.ba.infn.it/atlas/
+  name: REDIportal
+  registry:
+    biotools: rediportal
+  tags:
+  - epitrans
+- description: Python scripts to detect RNA editing events in RNAseq experiments
+  link: https://github.com/BioinfoUNIBA/REDItools
+  name: REDItools
+  registry:
+    biotools: reditools
+  tags:
+  - epitrans
 - description: File renaming software for Mac
   link: https://renamer.com/
   name: Renamer4Mac
@@ -1628,6 +1740,17 @@ Tools:
   tags:
   - storage
   - transfer
+- description: All-in-one platform for life science data management, semantic data
+    integration, data analysis and visualization
+  link: www.genevention.com/products
+  name: semares
+  tags:
+  - researcher
+  - data manager
+  - metadata
+  - data analysis
+  - IT support
+  - storage
 - description: A scripting language for creating Synthetic Biology Open Language (SBOL)
     in a more abstract way.
   link: http://shortbol.org
@@ -1743,7 +1866,7 @@ Tools:
   - policy officer
   - data manager
   - human data
-  - nels
+  - NeLS
 - description: Comprehensive resource for protein sequence and annotation data
   link: https://www.uniprot.org/
   name: UniProt
@@ -1756,6 +1879,14 @@ Tools:
   - researcher
   - IDP
   - micro biotech
+- description: List of Electronic Research Notebook Products by University of Cambridge
+  link: https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products
+  name: University of Cambridge - Electronic Research Notebook Products
+  tags:
+  - metadata
+  - identifiers
+  - researcher
+  - data manager
 - description: A JavaScript library for the visualisation of SBOL.
   link: http://visbol.org
   name: VisBOL
@@ -1771,6 +1902,14 @@ Tools:
   - data publication
   - researcher
   - data manager
+- description: WinSCP is a popular SFTP client and FTP client for Microsoft Windows!
+    Copy file between a local computer and remote servers using FTP, FTPS, SCP, SFTP,
+    WebDAV or S3 file transfer protocols.
+  link: https://winscp.net/eng/index.php
+  name: WinSCP
+  tags:
+  - transfer
+  - IT support
 - description: Generalist research data repository built and developed by OpenAIRE
     and CERN
   link: https://zenodo.org/

@@ -1,6 +1,5 @@
 ---
 title: Preserving
-keywords: [storage, archiving]
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 ---
 

@@ -6,7 +6,10 @@
   url: https://www.manchester.ac.uk/
 - name: NBIS
   url: https://nbis.se/
-  image_url: /images/institutes/nbislogo-orange-txt.svg
+  image_url: /images/institutes/nbislogo-green-txt.svg
+- name: SciLifeLab
+  url: https://www.scilifelab.se/
+  image_url: /images/institutes/SciLifeLab_Logotype_Green_POS.svg
 - name: University of Bergen
   url: https://www.uib.no/en
   image_url: /images/institutes/uib_logo.svg
@@ -25,4 +28,6 @@
 - name: University of Luxembourg
   url: https://wwwen.uni.lu/
   image_url: /images/institutes/University-of-Luxembourg-Fr-01_noborder.svg
-
+- name: CSC
+  url: https://www.csc.fi/
+  image_url: /images/institutes/CSC_2012_LOGO_RGB.svg
