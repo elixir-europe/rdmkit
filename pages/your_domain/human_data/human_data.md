@@ -32,7 +32,7 @@ For research on human data, you must follow established research ethical guideli
 * Personal data protection legislation
   * If you are performing research in the EU on human research subjects, or on human research subject in the EU, you must adhere to the General Data Protection Regulation - GDPR.
     * See [Data protection](data_protection) for more information on this law.
-    * The sensitivity of your data affects what considerations you have make when handling it, see [Determining the sensitivity of your data](data_classification) for more information.
+    * The sensitivity of your data affects what considerations you have make when handling it, see [Determining the sensitivity of your data](sensitive_data) for more information.
     * For some sensitive data you have to perform a Data Protection Impact Assessments. In general, any biomedical research on human subjects will need to do this.
   * Outside EU 
     * For countries outside the EU, the [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf) list relevant legislations.
