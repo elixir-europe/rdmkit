@@ -72,8 +72,8 @@ For human data, it is very important to use technical and procedural measures to
 * Locating tools and platforms suited to handle human data
   - Local research infrastructures might have established compute and/or storage solutions with strong information security measures tailored for working on human data (see some examples below). Contact your institute or your ELIXIR node for guidance.
     - Denmark - [Computerome](https://computerome.dk/)
-    - Finland - [ePouta](https://research.csc.fi/-/epouta)
-    - Norway - [TSD](https://www.uio.no/english/services/it/research/sensitive-data/)
+    - Finland - [ePouta](https://research.csc.fi/-/epouta), which is part of the [CSC Tools Assembly](fi_csc_assembly)
+    - Norway - [TSD Tools Assembly](NO_TSD_assembly)
     - Sweden - [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
     - Spain - [MareNostrum](https://www.bsc.es/marenostrum/access-to-supercomputing-resources)
   - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on datasets that do not leave the place where they are stored.
