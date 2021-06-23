@@ -44,7 +44,7 @@ However, a number of web-based DMP tools are currently available that greatly fa
 * Use the tool suggested by your funding agency or institution.
 * Choose one of the following online DMP tools:
   * [DMPonline](https://dmponline.dcc.ac.uk): it is widely used in Europe and many universities or institutes provide a DMPonline instance to researchers.
-  * [DMP Canvas Generator](https://dmp.vital-it.ch/): it needs an Orcid account for login.
+  * [DMP Canvas Generator](https://dmp.vital-it.ch/): this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
   * [DMPTool](https://dmptool.org): it is widely used and many universities or institutes provide a DMPtool instance to researchers.
   * [Data Stewardship Wizard (DSW)](https://demo.ds-wizard.org/dashboard): it is a tool to generate machine-actionable questionnaires based on existing or new templates (knowledge models).
   * [EasyDMP](https://easydmp.no/login/): tool provided by the pan-European network EUDAT.
