@@ -66,12 +66,14 @@ data analysis:
   url: data_analysis.html
 identifiers:
   url: identifiers.html
+existing data:
+  url: existing_data.html
 # Assembly tags
 NeLS:
   url: nels_assembly.html
 Covid-19:
   url: covid19_data_portal.html
 CSC:
-  url: /fi_csc_assembly.html
+  url: fi_csc_assembly.html
 TSD:
-  url: /NO_TSD_assembly.html
+  url: NO_TSD_assembly.html
