@@ -30,26 +30,11 @@
                     {% endif %}
                     {%- endfor %}
                     {%- endfor %}
-                    <!--start Feedback button-->
-                    {%- unless site.feedback_disable %}
-                    <li class="nav-item ms-0 ms-lg-3">
-                        {%- if site.feedback_text -%}
-                        {%- assign feedback_text = site.feedback_text -%}
-                        {%- else -%}
-                        {%- assign feedback_text = "Feedback" -%}
-                        {%- endif -%}
-                        {% if site.feedback_link %}
-                        <a class="nav-link ps-2" title="Submit feedback" href="{{site.feedback_link}}">{{feedback_text}}</a>
-                        {% else %}
-                        <a class="nav-link ps-2" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:{{site.contact_email}}?subject={{site.feedback_subject_line}}&body=I have some feedback about the {{page.title}} page: ' + window.location.href;"><i class="far fa-envelope"></i> {{feedback_text}}</a>
-                        {% endif %}
-                    </li>
-                    {% endunless %}
                     <!--start search-->
                     <li class="nav-item ms-0 ms-lg-3">
                         <div class="search">
                             <form role="search" class="d-flex">
-                                <input type="search" id="search-input" class="search-input form-control" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off">
+                                <input type="search" id="search-input" class="search-input form-control" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off"><i class="fas fa-search my-auto ms-2 fa-lg"></i>
                             <div id="search-results" class="search-results"></div>
                         </div>
                     </li>

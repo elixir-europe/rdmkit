@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   items:
+    - title: home
+      url: index.html
     - title: About
       url: about.html
     - title: Contribute

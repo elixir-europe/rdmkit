@@ -193,10 +193,13 @@ pre code {
     position: relative;
     z-index: 2;
 }
+.search i {
+    color: var(--primary-theme-color);
+}
 
 .search-results {
     position: absolute;
-    right: 0;
+    right: 30px;
     top: 100%;
     display: none;
     width: 36em;
@@ -621,10 +624,6 @@ h2.card-title {
 .contributor-cards .card-affiliation {
     color: var(--primary-theme-color);
     font-size: 0.8em;
-}
-
-.contributor-cards .card-body {
-    padding-top: 0rem;
 }
 
 /*-----Contributors carousel-----*/
