@@ -199,7 +199,7 @@ pre code {
 
 .search-results {
     position: absolute;
-    right: 30px;
+    right: 0;
     top: 100%;
     display: none;
     width: 36em;
