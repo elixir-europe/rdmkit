@@ -3,7 +3,7 @@
 topnav:
 - title: Topnav
   items:
-    - title: home
+    - title: Home
       url: index.html
     - title: About
       url: about.html
