@@ -6,6 +6,8 @@ contributors: [Bert Droesbeke]
 search_exclude: true
 ---
 
+For more information about Markdown, please check the Markdown [guidelines](https://guides.github.com/features/mastering-markdown/).
+
 ## Possible metadata attributes of a page
 
 Minimum of metadata in a page:
@@ -284,10 +286,10 @@ and are made with:
 
 ```md
 1. Number one
-2. Number two
-3. Number three
+1. Number two
+1. Number three
    1. Sub number one
-   2. Sub number two
+   1. Sub number two
 
 ```
 
