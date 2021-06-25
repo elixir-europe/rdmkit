@@ -37,6 +37,8 @@ Optional metadata/frontmatter:
 
 * `summary`: By using this attribute it is possible to specify a summary which will be displayed under the page title. This summary will also be used as description of your page when the page is tagged.
 
+* `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
+
 * `contributors`: List here all the contributors that helped in establishing the page, preferibly with their full name. Make sure that the person names that are listed can be found in the CONTRIBUTORS.yaml file in the *_data* directory if you want to link the GitHub ID and other contact information. Multiple contributors will be put in a list like this: [example1, example2].
 
 * `search`: By setting this field to "exclude", the page will not end up in the search results of the search bar. Default: true.
