@@ -60,11 +60,11 @@ To run the website locally, you can either use [Docker](https://www.docker.com/)
 
 ### Run using Docker
 
-1. If not already installed on your machine, install Docker. From the root of the ``rdmkit`` directory, run the following ``bash`` command :
+1. If not already installed on your machine, install Docker. From the root of the ``rdmkit`` directory, run:
     ```
-    ./docker_startup.sh
+    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll serve -w"
     ```
-If ``bash`` is not installed, open the script mentioned above, copy the Docker command and paste it into a terminal. This will start the docker container and serve the website locally.
+This will start the docker container and serve the website locally.
 
 ### Run using Jekyll directly
 
