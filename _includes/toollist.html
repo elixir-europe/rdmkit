@@ -34,11 +34,11 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             <td>{{tool.description}}</td>
             {%- capture tags %}
             {%- for tag in tool.tags %}
-            {%- assign linked_page = site.pages | where:"page_tag",tag | first %}
+            {%- assign related_page = site.pages | where:"page_tag",tag | first %}
             {%- if include.tag == tag or include.tag2 == tag %}
-            <span class="badge bg-dark">{{linked_page.title}}</span>
+            <span class="badge bg-dark">{{related_page.title}}</span>
             {%- else %}
-            <a class="nohover" href="{{linked_page.url | relative_url }}"><span class="badge default-badge">{{linked_page.title}}</span></a>
+            <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
             {%- endif %}
             {%- endfor %}
             {% if tool.country %}{% for country in tool.country %}<span class="flag-icon flag-icon-{{country | downcase }} rounded align-middle"></span>{% endfor %}{% endif %}

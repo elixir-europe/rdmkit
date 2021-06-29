@@ -5,11 +5,9 @@
     <div class="meta-line">
         <b>Related pages: </b>
         {%- for tag in page.tags | sort %}
-        {%- assign linked_page = site.pages | where:"page_tag",tag | first %}
-        {%- if linked_page.page_tag %}
-        <a href="{{ linked_page.url }}" class="meta-obj"
-            role="button">{{linked_page.title}}</a>
-        {%- endif %}
+        {%- assign related_page = site.pages | where:"page_tag",tag | first %}
+        <a href="{{ related_page.url }}" class="meta-obj"
+            role="button">{{related_page.title}}</a>
         {%- endfor %}
     </div>
 {%- endif %}
