@@ -3,6 +3,7 @@ title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
 tags: [collect, preserve, share, researcher, data manager]
 description: how to document and describe your data.
+page_tag: metadata
 ---
 
 ## How can you document data during the project?

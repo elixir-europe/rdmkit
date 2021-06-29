@@ -1,6 +1,6 @@
 ---
 title: Collecting
-keywords:
+page_tag: collect
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 ---
 

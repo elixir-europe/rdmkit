@@ -1,5 +1,6 @@
 ---
 title: Sharing
+page_tag: share
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
 ---
 

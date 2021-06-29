@@ -368,7 +368,6 @@ This metadata example shows how we tag the "Storage" page with the **share** tag
 ```md
 ---
 title: Storage
-keywords:
 tags: [share] 
 ---
 ```

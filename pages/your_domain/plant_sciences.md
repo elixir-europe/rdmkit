@@ -2,6 +2,7 @@
 title: Plant sciences
 contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
 tags: [metadata]
+page_tag: plants
 ---
 
 ## Introduction
