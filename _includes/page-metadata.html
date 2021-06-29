@@ -1,0 +1,41 @@
+{%- if page.tags != null or page.contributors != null %}
+<div class="page-metadata">
+{%- endif %}
+{%- if page.tags != null %}
+    <div class="meta-line">
+        <b>Related pages: </b>
+        {%- for tag in page.tags | sort %}
+        {%- assign linked_page = site.pages | where:"page_tag",tag | first %}
+        {%- if linked_page.page_tag %}
+        <a href="{{ linked_page.url }}" class="meta-obj"
+            role="button">{{linked_page.title}}</a>
+        {%- endif %}
+        {%- endfor %}
+    </div>
+{%- endif %}
+{%- if page.contributors %}
+    {%- assign allcontributors = site.data.CONTRIBUTORS -%}
+    {%- assign contributors = page.contributors |sort -%}
+    <div class="meta-line">
+        <b>Contributors: </b> 
+        {%- for name in contributors | sort -%}{% assign id = allcontributors[name].git | default: 'no_github' -%}
+        {%- if id != 'no_github' %}
+        <a role="button" class="meta-obj" href="https://github.com/{{ id }}">
+        {%- else %}
+        <a class="meta-obj-false">
+        {%- endif %}
+        {%- if allcontributors[name].image_url %}
+        <img class="contributor-badge" src="{{ allcontributors[name].image_url }}"  alt="{{ name }}">{{ name }}
+        {%- else %}
+        <img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ name }}">{{ name }}
+        {%- endif %}
+        </a>
+        {% endfor -%}
+    </div>
+    {%- endif %}
+{%- if page.tags != null or page.contributors != null %}
+</div>
+{%- endif %}
+
+
+

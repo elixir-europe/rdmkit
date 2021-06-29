@@ -21,28 +21,5 @@ layout: default
     {%- endunless %}
     {{content}}
 </main>
-{%- if page.tags != null or page.contributors != null %}
-<div class="page-metadata">
-{%- endif %}
-{%- if page.tags != null %}
-<div class="meta-line">
-    <b>Tags: </b>
-    {%- assign projectTags = site.data.tags %}
-    {%- assign tags = page.tags | sort %}
-    {%- for tag in tags %}
-    {%- if projectTags[tag] %}
-    <a href="{{ projectTags[tag].url }}" class="meta-obj"
-        role="button">{{tag}}</a>
-    {%- endif %}
-    {%- endfor %}
-</div>
-{%- endif %}
-{%- if page.contributors %}
-<div class="meta-line">
-    <b>Contributors: </b>
-    {%- include contributor-badge-list.html contributors=page.contributors %}
-</div>
-{%- endif %}
-{%- if page.tags != null or page.contributors != null %}
-</div>
-{%- endif %}
+{%- include page-metadata.html %}
+
