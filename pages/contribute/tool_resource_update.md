@@ -17,7 +17,7 @@ The table consists of 5 columns:
 - **name**: the name of the tool or resource
 - **link**: URL to the main page of the tool or resource, make sure to let the URL start with `https://`
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
-- **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing` and `tess`, specifying the id or query with a colon). List multiple registries using a comma `, ` between the keywords to separate the key:value pairs. The values that are given in the table will allways overrule the automatic links. If no Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry.
+- **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing`, `fairsharing-coll` and `tess`, specifying the id or query with a colon). FAIRsharing collections have an ID that follows the pattern `bsg-s000XXX`. List multiple registries using a comma `, ` between the keywords to separate the key:value pairs. The values that are given in the table will allways overrule the automatic links. If no Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry.
 - **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( [tags.yml file](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml) ). Since the Data Life Cycle pages are not listing tools, we do not allow these tags in the tool table, instead tag them with Your domain, Your role and Your problem tags. List multiple tags by using a comma `, ` between them.
 
 | name     | link                             | description                                                                               | registry                                    | tags                                             |
@@ -25,8 +25,8 @@ The table consists of 5 columns:
 | Beacon   | https://beacon-project.io/       | The Beacon protocol defines an open standard for genomics data discovery.                 |                                             | researcher, data manager, IT support, human data |
 | Bioconda | https://bioconda.github.io/      | Bioconda is a bioinformatics channel for the Conda package manager                        | biotools:bioconda                           | IT support, data analysis                        |
 | BrAPI    | https://www.brapi.org            | Specification for a standard API for plant data: plant material, plant phenotyping data   |                                             | IT support, plants                               |
-| Conda    | https://docs.conda.io/en/latest/ | Open source package management systemn                                                    |                                             | IT support, data analysis                        |
-| COPO     | https://copo-project.org/        | Portal for scientists to broker more easily rich metadata alongside data to public repos. | biotools:copo, fairsharing:biodbcore-001247 | metadata, researcher, plants                     |
+| Conda    | https://docs.conda.io/en/latest/ | Open source package management system                                                    |                                             | IT support, data analysis                        |
+| COPO     | https://copo-project.org/        | Portal for scientists to broker more easily rich metadata alongside data to public repos. | biotools:copo, fairsharing-coll:bsg-d001247 | metadata, researcher, plants                     |
 
 
 ## What tool or resource can be added to the table
@@ -36,7 +36,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the GitHub website itself. 
 
-### Simple way: changing the Google spreadsheet
+### Simple way: changing the Google spreadsheet (recommended)
 
 For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
 - Open this [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
