@@ -72,7 +72,7 @@ DNA Data Bank of Japan (DDBJ),https://www.ddbj.nig.ac.jp/index-e.html,A database
 Docker,https://www.docker.com/,"Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images",fairsharing-coll:bsg-d001254,"IT support, data analysis",
 DropBox,https://www.dropbox.com/?landing=dbv2,Cloud storage and file sharing service,,"storage, IT support, transfer",
 Dryad,https://datadryad.org/,"Open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data",fairsharing:wkggtx,"data publication, biomol sim",
-DS-Wizard,https://ds-wizard.org/,Data Stewardship Wizard,biotools:Data_Stewardship_Wizard,"DMP, researcher, data manager, IT support, NeLS, TSD",FI
+DS-Wizard,https://ds-wizard.org/,Data Stewardship Wizard,biotools:Data_Stewardship_Wizard,"DMP, researcher, data manager, IT support, NeLS, TSD","CZ, NL, FI, NO, SE"
 Dynameomics,http://www.dynameomics.org/,Database of folding / unfolding pathway of representatives from all known protein folds by MD simulation,,biomol sim,
 e!DAL,https://edal.ipk-gatersleben.de/,Electronic data archive library is a framework for publishing and sharing research data,biotools:edal,"storage, IT support",
 e!DAL-PGP,https://edal-pgp.ipk-gatersleben.de/,Plant Genomics and Phenomics Research Data Repository,fairsharing:rf3m4g,"plants, researcher, data manager, IT support",
