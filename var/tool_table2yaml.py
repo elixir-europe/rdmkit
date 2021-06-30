@@ -55,7 +55,7 @@ table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
 main_dict_key = "Tools"
 allowed_tags_yaml = "_data/tags.yml"
-allowed_registries = ['biotools', 'fairsharing', 'tess']
+allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
