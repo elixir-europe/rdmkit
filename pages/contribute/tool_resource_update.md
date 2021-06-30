@@ -17,18 +17,18 @@ The table consists of 5 columns:
 - **name**: the name of the tool or resource
 - **link**: URL to the main page of the tool or resource, make sure to let the URL start with `https://`
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
-- **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing` and `tess`, specifying the id or query with a colon). List multiple registries using a comma `, ` between the keywords to separate the key:value pairs. The values that are given in the table will allways overrule the automatic links. If no Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry.
+- **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing`, `fairsharing-coll` and `tess`, specifying the id or query with a colon). FAIRsharing collections have an ID that follows the pattern `bsg-s000XXX`. List multiple registries using a comma `, ` between the keywords to separate the key:value pairs. The values that are given in the table will allways overrule the automatic links. If no Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry.
 - **tags**: This is used to tag the tools so it is listed on the correct page. Make sure your tag is listed in the curated list of tags ( [tags.yml file](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml) ). Since the Data Life Cycle pages are not listing tools, we do not allow these tags in the tool table, instead tag them with Your domain, Your role and Your problem tags. List multiple tags by using a comma `, ` between them.
 - **country** : If a tool can only be used in a specific country, list those countries with there Alpha-2 code. For a complete list of all country code please visit the [IBAN](https://www.iban.com/country-codes) website. A flag will appear in the tag column.
 
+| name     | link                             | description                                                                               | registry                                    | tags                                             |
+|----------|----------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------|--------------------------------------------------|
+| Beacon   | https://beacon-project.io/       | The Beacon protocol defines an open standard for genomics data discovery.                 |                                             | researcher, data manager, IT support, human data |
+| Bioconda | https://bioconda.github.io/      | Bioconda is a bioinformatics channel for the Conda package manager                        | biotools:bioconda                           | IT support, data analysis                        |
+| BrAPI    | https://www.brapi.org            | Specification for a standard API for plant data: plant material, plant phenotyping data   |                                             | IT support, plants                               |
+| Conda    | https://docs.conda.io/en/latest/ | Open source package management system                                                    |                                             | IT support, data analysis                        |
+| COPO     | https://copo-project.org/        | Portal for scientists to broker more easily rich metadata alongside data to public repos. | biotools:copo, fairsharing-coll:bsg-d001247 | metadata, researcher, plants                     |
 
-| name       | link                              | description                                                                                                                                                   | registry           | tags                                                 | country |
-|------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------|---------|
-| dbGAP      | https://www.ncbi.nlm.nih.gov/gap/ | The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans | fairsharing:88v2k0 | data publication, researcher, IT support, human data |         |
-| DisGeNET   | https://www.disgenet.org/         | A discovery platform containing collections of genes and variants associated to human diseases.                                                               | biotools:disgenet  | data analysis, human data, researcher                |         |
-| DisProt    | https://disprot.org/              | A database of intrinsically disordered proteins                                                                                                               | biotools:disprot   | IDP, researcher                                      |         |
-| DMP OPIDoR | https://dmp.opidor.fr             | Online questionnaire for the development of data management plans - repository of DMPs                                                                        |                    | DMP, researcher, data manager                        | FR      |
-| DMPlanner  | https://dmplanner.athenarc.gr/    | Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans.                                                   |                    | DMP, researcher, data manager                        |         |
 
 ## What tool or resource can be added to the table
 Tools and resources specifically mentioned in the text of the pages should be present in the main table. If necessary, tools and resources equivalent to the one mentioned in the text could also be added to the table.
@@ -37,7 +37,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the GitHub website itself. 
 
-### Simple way: changing the Google spreadsheet
+### Simple way: changing the Google spreadsheet (recommended)
 
 For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
 - Open this [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).

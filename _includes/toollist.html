@@ -60,6 +60,11 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
                 data-bs-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
                 ><img style="background-color: #ECF0F1;" class="registry_logo" src="{{ 'assets/img/FAIRsharing-small.svg' | relative_url }}" alt="FAIRsharing logo"/></a>
             {%- endif %}
+            {%- if tool.registry.fairsharing-coll %}
+            <a data-bs-toggle="tooltip"
+                data-bs-original-title="FAIRsharing ID: {{tool.registry.fairsharing-coll}}" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"
+                ><img style="background-color: #ECF0F1;" class="registry_logo" src="{{ 'assets/img/FAIRsharing-small.svg' | relative_url }}" alt="FAIRsharing logo"/></a>
+            {%- endif %}
             {%- if tool.registry.tess %}
             <a data-bs-toggle="tooltip"
                 data-bs-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
