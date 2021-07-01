@@ -458,7 +458,7 @@ table>thead>tr>th {
 
 .default-badge:hover {
     color: var(--white-text);
-    background-color: var(--hover-grey);
+    background-color: var(--primary-theme-color);
 }
 
 /* name column bigger */
