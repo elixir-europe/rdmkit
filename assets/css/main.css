@@ -513,9 +513,9 @@ footer .company-logo {
 }
 
 /*-----MetaData section -----*/
-
 .meta-line {
-    padding: 15px 0px;
+    background-color: var(--light-grey);
+    border-radius: 4px;
 }
 
 .meta-obj {
@@ -558,13 +558,6 @@ footer .company-logo {
     height: 1.25em;
     border-radius: 50%;
     margin: 0.25em;
-}
-
-.page-metadata {
-    background-color: var(--light-grey);
-    border-radius: 4px;
-    padding: 15px 15px;
-    margin-top: 70px;
 }
 
 /* -----Homepage----- */
