@@ -37,8 +37,8 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
-  * **Titles:** Only the first word and acronyms are capitalised.
-  * **Tool assembly:** There are multiple tools in **one** assembly. The plural is "tool assemblies".
+  * **Titles:** only the first word and acronyms are capitalised.
+  * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
@@ -52,8 +52,9 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #83858e | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
+  * **Icons:** the icons used in this site come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution.
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
-  * **Illustrations:** use the colours listed above. (To do: agreed styles for boxes, arrows, and icons for things like users and databases.)
+  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
   * **Images:**
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
