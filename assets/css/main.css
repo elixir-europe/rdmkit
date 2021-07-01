@@ -193,6 +193,11 @@ pre code {
     position: relative;
     z-index: 2;
 }
+.search .fa-search {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
 
 .search-results {
     position: absolute;
@@ -299,12 +304,6 @@ pre code {
     }
 }
 
-@media (max-width: 992px) {
-    button[aria-expanded="true"]+#side-nav {
-        margin-top: -1.5em;
-    }
-}
-
 .sidebar-collapse i {
     font-size: 1.25rem;
     float: right;
@@ -328,7 +327,7 @@ pre code {
 }
 
 .menu li a {
-    margin-top: 4px;
+    margin-bottom: 4px;
     color: var(--main-text-color);
     background-color: var(--light-grey);
     display: block;
@@ -603,18 +602,32 @@ h2.card-title {
     color: var(--white-text);
 }
 
-.btn-custom.plus::after {
+.btn-custom.arrow::after {
     float: right;
-    content: '+';
-    font-size: 1.5em;
-    min-width: 0.6em;
-    line-height: 1;
-    margin-left: 10px;
+    width: 15px;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
 }
 
-.btn-custom.plus:not(.collapsed)::after {
-    content: '-';
-    line-height: 0.8em;
+.btn-custom.arrow:not(.collapsed)::after {
+    float: right;
+    width: 15px;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f077";
 }
 
 /*-----Contributors cards-----*/
@@ -633,10 +646,6 @@ h2.card-title {
 .contributor-cards .card-affiliation {
     color: var(--primary-theme-color);
     font-size: 0.8em;
-}
-
-.contributor-cards .card-body {
-    padding-top: 0rem;
 }
 
 /*-----Contributors carousel-----*/

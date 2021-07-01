@@ -6,7 +6,7 @@
 {%- capture planning -%}{%- if page.url == "/planning.html" -%}st5{%- else -%}st15{%- endif -%}{%- endcapture -%}
 {%- capture collecting -%}{%- if page.url == "/collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
 {%- capture sharing -%}{%- if page.url == "/sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
-<button class="d-lg-none collapsed sidebar-collapse btn-custom w-100 mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
+<button class="d-lg-none collapsed sidebar-collapse btn-custom w-100 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
     {{ page.sidebar | capitalize }} menu <i title="navbar-toggler" class="fa fa-bars ms-2"></i>
 </button>
 <nav class="collapse" id="side-nav" aria-label="Side navigation">
