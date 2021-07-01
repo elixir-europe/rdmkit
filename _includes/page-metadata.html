@@ -1,6 +1,6 @@
 {%- if page.tags != null %}
 <div class="meta-line p-3 mt-3">
-    <b>Related pages: </b>
+    <b>Pages that link to this page: </b>
     {%- for tag in page.tags | sort %}
     {%- assign related_page = site.pages | where:"page_tag",tag | first %}
     <a href="{{ related_page.url }}" class="meta-obj"
