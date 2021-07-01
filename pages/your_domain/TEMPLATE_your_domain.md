@@ -3,6 +3,7 @@ title: Domain page title
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
+page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
 ---
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.

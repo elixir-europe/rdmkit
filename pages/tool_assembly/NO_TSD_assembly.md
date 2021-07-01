@@ -3,6 +3,7 @@ title: Norwegian ELIXIR tools assembly for sensitive data - TSD
 contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl]
 summary: This is a Data Management tools assembly for sensitive data around TSD. TSD as an infrastructure is aimed for researchers in Norway and their collaborators, but can be used by anyone.
 tags: [IT support, data manager, researcher, human data, DMP, storage, sensitive]
+page_tag: TSD
 ---
 
 ## What is the Norwegian tools assembly for sensitive data - TSD data management tools assembly?

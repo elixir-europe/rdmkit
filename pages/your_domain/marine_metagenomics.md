@@ -2,6 +2,7 @@
 title: Marine metagenomics
 contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
 tags: [metadata]
+page_tag: marine
 ---
 
 ## Introduction

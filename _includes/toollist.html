@@ -1,5 +1,4 @@
 {%- assign tools = site.data.tool_and_resource_list -%}
-{%- assign allowedtags = site.data.tags -%}
 {%- assign main_tags = tools.Tools -%}
 {%- if include.tag -%}
 {%- assign main_tags = tools.Tools | where_exp:"tool", "tool.tags contains include.tag" -%}
@@ -20,7 +19,7 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
                 </a>{%- endif %}
             </th>
             <th>Description</th>
-            <th>Tags</th>
+            <th>Related pages</th>
             <th>Registry</th>
         </tr>
     </thead>
@@ -35,15 +34,9 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             <td>{{tool.description}}</td>
             {%- capture tags %}
             {%- for tag in tool.tags %}
-            {%- if include.tag == tag or include.tag2 == tag %}{% assign bg-color = allowedtags[tag]["bg-color"] | default: "#3e3e3e" %}{% assign color = allowedtags[tag]["color"] | default: "white" %}
-            <span class="badge" style="color:{{color}}; background-color:{{bg-color}};">{{tag}}</span>
-            {%- else %}
-            {%- if allowedtags[tag]["url"] %}
-            {%- assign taglink = allowedtags[tag]["url"] %}
-            <a class="nohover" href="{{taglink | relative_url }}"><span class="badge default-badge">{{tag}}</span></a>
-            {%- else %}
-            <span class="badge">{{tag}}</span>
-            {%- endif %}
+            {%- assign related_page = site.pages | where:"page_tag",tag | first %}
+            {%- if include.tag != tag and include.tag2 != tag %}
+            <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
             {%- endif %}
             {%- endfor %}
             {% if tool.country %}{% for country in tool.country %}<span class="flag-icon flag-icon-{{country | downcase }} rounded align-middle"></span>{% endfor %}{% endif %}

@@ -1,5 +1,6 @@
 ---
 title: Planning
+page_tag: plan
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 ---
 

@@ -221,6 +221,8 @@ The logos can be added to the [/images/institutes](https://github.com/elixir-eur
 
 Tagging pages is done through the `tags:` property in the metadata of the markdown page.
 Add the tag(s) to a list (square brackets). Make sure that your tag corresponds to an existing page. 
+To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.
+
 
 This metadata example shows how we tag the "Storage" page with the **share** tag:
 ```md
@@ -246,9 +248,9 @@ Giving:
 
 This is preferably done on the 'IT support' page. In this way the tag visible on the tagged pages will link to the 'IT support', interlinking everything. 
 
-### Supported tags
+### Supported page tags
 
-To only allow a curated list of tags, make sure that you find the tags in the `tags.yaml` file in the `_data` repository. 
+We only allow tags that are linked to a page. To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.
 
 ## Using the tool/resource list
 
@@ -279,6 +281,6 @@ Giving:
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
 More information on how to add a tool or resource can be found on the [update tools and resources page](tool_resource_update).
 
-### Supported tags
+### Supported page tags
 
-To only allow a curated list of tags, make sure that you find the tags in the `tags.yaml` file in the `_data` repository. 
+We only allow tags that are linked to a page. To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.

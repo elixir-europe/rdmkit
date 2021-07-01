@@ -1,9 +1,9 @@
 ---
 title: Data transfer
-keywords:
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi]
 tags: [preserve, share, reuse, IT support, data manager]
 description: how to transfer data files.
+page_tag: transfer
 ---
 
 ## How do you transfer large data files?

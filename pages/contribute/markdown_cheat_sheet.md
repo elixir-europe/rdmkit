@@ -55,6 +55,8 @@ tags: [research_it]
 
 * `tags`: If you want to tag this page list the tag using this attribute
 
+* `page_tag`: The tag that is used to link towards this page from other pages or in the tools table.
+
 * `datatable`: use this attribute to activate the pagination + sorting + searching in tables
 
 ## Titles
@@ -371,7 +373,6 @@ This metadata example shows how we tag the "Storage" page with the **share** tag
 ```md
 ---
 title: Storage
-keywords:
 tags: [share] 
 ---
 ```
@@ -388,7 +389,7 @@ Giving:
 
 {% include pagelist.html tag="share"%}
 
-This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. To only allow a curated list of tags, make sure you find the tag in the `tags.yaml` file in the `_data` repository. 
+This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.
 
 ## Adding a filtered tool and resource-list to your page
 

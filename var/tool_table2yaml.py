@@ -1,4 +1,5 @@
 import sys
+import os
 from csv import reader
 import yaml
 import re
@@ -6,6 +7,7 @@ import unicodedata
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import frontmatter
 
 
 def client(url):
@@ -54,15 +56,23 @@ def biotools_available(query):
 table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
 main_dict_key = "Tools"
-allowed_tags_yaml = "_data/tags.yml"
+rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
+
+print(f"----> Reading out page_tag from each file.")
+allowed_tags = []
+for subdir, dirs, files in os.walk(rootdir):
+    for file_name in files:
+        if os.path.splitext(file_name)[1] == '.md':
+            with open(os.path.join(subdir, file_name)) as f:
+                metadata, content = frontmatter.parse(f.read())
+            if 'page_tag' in metadata.keys() and 'search_exclude' not in metadata.keys():
+                allowed_tags.append(metadata['page_tag'])
+
+print(f"----> Allowed tags: {', '.join(allowed_tags)}.")
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
-with open(allowed_tags_yaml) as file:
-    allowed_tags = yaml.load(file, Loader=yaml.FullLoader)
-
-print(f"----> Allowed tags: {', '.join(allowed_tags)}.")
 main_dict = {main_dict_key: []}
 with open(table_path, 'r') as read_obj:
     csv_reader = reader(read_obj)
@@ -78,9 +88,9 @@ with open(table_path, 'r') as read_obj:
                     output = re.split(', |,', cell)
                     for tag in output:
                         if tag not in allowed_tags:
-                            print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
+                            print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_tag" attribute.')
                             sys.exit(
-                                f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check out the tool_tags.yaml file in the _data directory to find out the allowed tags.')
+                                f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_tag" attribute.')
                 elif header[col_index] == 'country' and cell:# Only include keys if there are values:
                     output = re.split(', |,', cell)
                 elif header[col_index] == 'registry':
