@@ -10,7 +10,7 @@
 The tag "{{ include.tag }}" has not yet related tools or resources.
 {%- else%}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
-<table id="tooltable" class="display">
+<table id="tooltable" class="table table-hover display my-5">
     <thead>
         <tr>
             <th>Tool or resource {%- if include.tag or include.tag2 -%}
@@ -45,23 +45,23 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             <td style="text-align: center; vertical-align: middle;">
             {%- if tool.registry.biotools %}
             <a data-bs-toggle="tooltip"
-                data-bs-original-title="Bio.tools ID: {{tool.registry.biotools}}" href="https://bio.tools/{{tool.registry.biotools}}"
-                ><img style="background-color: orange;" class="registry_logo" src="{{ 'assets/img/bio.tools.svg' | relative_url }}" alt="bio.tools logo"/></a>
+                data-bs-original-title="" href="https://bio.tools/{{tool.registry.biotools}}"
+                ><span style="background-color: orange;" class="badge registry_logo">Bio.tools</span></a>
             {%- endif %}
             {%- if tool.registry.fairsharing %}
             <a data-bs-toggle="tooltip"
-                data-bs-original-title="FAIRsharing ID: {{tool.registry.fairsharing}}" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
-                ><img style="background-color: #ECF0F1;" class="registry_logo" src="{{ 'assets/img/FAIRsharing-small.svg' | relative_url }}" alt="FAIRsharing logo"/></a>
+                data-bs-original-title="" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
+                ><span style="background-color: #ECF0F1;" class="badge registry_logo">FAIRsharing</span></a>
             {%- endif %}
             {%- if tool.registry.fairsharing-coll %}
             <a data-bs-toggle="tooltip"
-                data-bs-original-title="FAIRsharing ID: {{tool.registry.fairsharing-coll}}" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"
-                ><img style="background-color: #ECF0F1;" class="registry_logo" src="{{ 'assets/img/FAIRsharing-small.svg' | relative_url }}" alt="FAIRsharing logo"/></a>
+                data-bs-original-title="" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"
+                ><span style="background-color: #ECF0F1;" class="badge registry_logo">FAIRsharing</span></a>
             {%- endif %}
             {%- if tool.registry.tess %}
             <a data-bs-toggle="tooltip"
-                data-bs-original-title="TeSS: {{tool.registry.tess}}" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
-                ><img style="background-color: #f47d20;" class="registry_logo" src="{{ 'assets/img/tess_logo.svg' | relative_url }}" alt="TeSS logo"/></a>
+                data-bs-original-title="" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
+                ><span style="background-color: #f47d20;" class="badge registry_logo">Training though TeSS</span></a>
             {%- endif %}
             </td> 
         </tr>

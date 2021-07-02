@@ -430,24 +430,15 @@ pre code {
 
 /*-----Table properties-----*/
 
-table {
+.table {
     display: block;
     overflow-x: auto;
     overflow-y: hidden;
+    border-color: var(--light-grey);
 }
 
-table, .dataTables_wrapper {
-    margin: 40px 0 20px;
-}
-
-table>tbody>tr>th, table>thead>tr>td, table>tbody>tr>td {
-    padding: 8px 8px 8px 0px;
-    line-height: 1.42857143;
-    border-top: 1px solid var(--light-grey);
-}
-
-table>thead>tr>th {
-    border-bottom: 2px solid var(--light-grey);
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: inherit;
 }
 
 .default-badge {
@@ -461,20 +452,20 @@ table>thead>tr>th {
     background-color: var(--primary-theme-color);
 }
 
-/* name column bigger */
+/* name and description column bigger */
 
 #tooltable tr th:nth-child(1) {
     width: 25%;
 }
+#tooltable tr th:nth-child(2) {
+    width: 40%;
+}
 
 /*-----Registries in tool table------*/
 
-main img.registry_logo {
-    max-height: 40px;
-    max-width: 40px;
-    margin: 2px;
-    padding: 5px;
-    border-radius: 4px;
+.registry_logo {
+    color: var(--main-text-color);
+    font-weight: 400;
 }
 
 /*-----Footer-----*/
