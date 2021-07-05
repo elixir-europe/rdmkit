@@ -10,7 +10,7 @@
 The tag "{{ include.tag }}" has not yet related tools or resources.
 {%- else%}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
-<table id="tooltable" class="table table-hover display my-5">
+<table id="tooltable" class="table display my-5">
     <thead>
         <tr>
             <th>Tool or resource {%- if include.tag or include.tag2 -%}
@@ -20,7 +20,11 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             </th>
             <th>Description</th>
             <th>Related pages</th>
-            <th>Registry</th>
+            <th>Registry {%- if include.tag or include.tag2 -%}
+                <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information in ELIXIR registries: related policies and standards in FAIRsharing, scientific and technical descriptions of the resource in bio.tools, and related training in TeSS.">
+                    <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
+                </a>{%- endif %}
+            </th>
         </tr>
     </thead>
     <tbody>
