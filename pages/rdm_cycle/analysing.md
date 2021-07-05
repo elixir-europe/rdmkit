@@ -26,13 +26,3 @@ Because of the diversity of domains and techologies in Life Sciences, data can b
 * In the case of collaborative data analysis, you will have to ensure access to the data and tools for all collaborators. This can be achieved by setting up virtual research environments.
 * Consider publishing your analysis workflow according to the FAIR principles as well as your datasets.
 
-
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="analyse" %}
-
-
-## Where can training materials and events about data analysis be found?
-
-{% include tess.html search="Data Analysis" %}
-

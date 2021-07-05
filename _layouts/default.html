@@ -40,6 +40,10 @@
             </div>
         </div>
     </div>
+    <!-- Page metadata -->
+    {%- unless page.url == "/index.html"  %}
+    {%- include page-metadata.html %}
+    {%- endunless %}
     {% include footer.html %}
     {% include cookie-popup.html %}
     <script>

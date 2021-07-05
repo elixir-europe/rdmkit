@@ -41,13 +41,3 @@ progresses to match e.g. an update of the infrastructures, research softwares or
 * Due to the variety of aspects that need to be addressed in a DMP, it is better to find recommendations and obtain help from your institution support services, such as IT department, library, data managers or data stewards, legal or tech transfer team and data protection officer.
 
 * Explore best practices, guidelines, tools and resources for research data management described in this website.
-
-
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="plan" %}
-
-
-## Where can training materials and events about Data Management Planning be found?
-
-{% include tess.html search="Data Management Planning" %}

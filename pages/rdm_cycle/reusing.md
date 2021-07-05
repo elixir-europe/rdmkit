@@ -32,22 +32,3 @@ Consider the following when reusing data:
 * If the data has been updated, make sure to document which version of the data you are using. Also consider what impact the changes may have on your results.
 * Cite the data properly. Include a persistent identifier (such as a DOI) in the citation if there is one.
 
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="reuse" %}
-
-## Where can training materials and events about data reuse be found?
-
-{% include tess.html search="Data Reuse" %}
-
-<!-- * File format
-* Data volume
-* Licences
-* Ontology
-* Data organisation
-* Identifiers
-* Data quality
-* Responsibilities
-* Ethical and legal issues -->
-
-

@@ -58,13 +58,3 @@ Making the data as FAIR as possible will ensure that maximum value can be obtain
     * Deposit the data in a [_General purpose repository_](https://www.nature.com/sdata/policies/repositories#general).
   * If there isn't any suitable repository that can harbour your controlled access data, it is recommended that you at least create a metadata record for the data in an Institutional or General purpose repository.
 
-
-
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="share" %}
-
-
-## Where can training materials and events about data sharing be found?
-
-{% include tess.html search="Data Sharing" %}

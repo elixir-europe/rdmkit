@@ -34,13 +34,3 @@ Independently of the tools you will use, consider the following, while collectin
 * Identify suitable metadata standards
 
 
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="collect" %}
-
-
-## Where can training materials and events about data collection be found?
-
-{% include tess.html search="Data Collection" %}
-
-

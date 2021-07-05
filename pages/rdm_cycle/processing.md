@@ -32,10 +32,3 @@ The following considerations are important for data processing:
     * The special significance of empty or otherwise special data fields.
     * All relationships between data fields should be made explicit (e.g. if a dataset contains "medication" and "disease", is that medication actually used to treat the disease? Or is it a medication that the patient is using for other reasons?).
 
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="process" %}
-
-## Where can training materials and events about data processing be found?
-
-{% include tess.html search="Data Processing" %}
