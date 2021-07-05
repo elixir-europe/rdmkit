@@ -463,9 +463,14 @@ pre code {
 
 /*-----Registries in tool table------*/
 
-.registry_logo {
-    color: var(--main-text-color);
-    font-weight: 400;
+.registry_badge {
+    font-weight: inherit;
+    background-color: var(--link-color);
+    color: var(--white-text);
+}
+
+.registry_badge:hover {
+    background-color: var(--primary-theme-color);
 }
 
 /*-----Footer-----*/

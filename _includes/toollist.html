@@ -50,22 +50,22 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
             {%- if tool.registry.biotools %}
             <a data-bs-toggle="tooltip"
                 data-bs-original-title="" href="https://bio.tools/{{tool.registry.biotools}}"
-                ><span style="background-color: orange;" class="badge registry_logo">Bio.tools</span></a>
+                ><span class="badge registry_badge">Bio.tools</span></a>
             {%- endif %}
             {%- if tool.registry.fairsharing %}
             <a data-bs-toggle="tooltip"
                 data-bs-original-title="" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"
-                ><span style="background-color: #ECF0F1;" class="badge registry_logo">FAIRsharing</span></a>
+                ><span class="badge registry_badge">FAIRsharing</span></a>
             {%- endif %}
             {%- if tool.registry.fairsharing-coll %}
             <a data-bs-toggle="tooltip"
                 data-bs-original-title="" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"
-                ><span style="background-color: #ECF0F1;" class="badge registry_logo">FAIRsharing</span></a>
+                ><span class="badge registry_badge">FAIRsharing</span></a>
             {%- endif %}
             {%- if tool.registry.tess %}
             <a data-bs-toggle="tooltip"
                 data-bs-original-title="" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}" 
-                ><span style="background-color: #f47d20;" class="badge registry_logo">Training though TeSS</span></a>
+                ><span class="badge registry_badge">TeSS</span></a>
             {%- endif %}
             </td> 
         </tr>
