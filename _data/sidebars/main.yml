@@ -79,4 +79,6 @@ subitems:
         url: /covid19_data_portal.html
       - title: CSC - Finland
         url: /fi_csc_assembly.html
+      - title: TransMed - Luxembourg
+        url: /transmed_assembly.html
 
