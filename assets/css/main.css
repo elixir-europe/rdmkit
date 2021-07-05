@@ -464,8 +464,7 @@ pre code {
 /*-----Registries in tool table------*/
 
 .registry_badge {
-    font-weight: inherit;
-    background-color: var(--link-color);
+    background-color: var(--secondary-theme-color);
     color: var(--white-text);
 }
 
