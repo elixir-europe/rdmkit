@@ -11,19 +11,18 @@
                 <ul>
                     {%- if page.tags != null %}
                     <li><b>Tags: </b>
-                        {%- assign projectTags = site.data.tags %}
                         {%- assign tags = page.tags | sort %}
                         {%- for tag in tags %}
-                        {%- if projectTags[tag] %}
-                        <a href="{{ projectTags[tag].url }}" class="meta-obj" role="button">{{tag}}</a>
+                        {%- if page.page_tag %}
+                        <a href="{{ page.url }}" class="meta-obj" role="button">{{page.page_tag}}</a>
                         {%- endif %}
                         {%- endfor %}
                     </li>
                     {%- endif %}
-                    {%- if page.tools_tag != null %}
+                    {%- if page.page_tag != null %}
                     <li><b>Tools: </b>
                         {%- assign all_tools = site.data.tool_and_resource_list %}
-                        {%- assign tools = all_tools.Tools | where_exp:"tool", "tool.tags contains page.tools_tag" -%}
+                        {%- assign tools = all_tools.Tools | where_exp:"tool", "tool.tags contains page.page_tag" -%}
                         {%- for tool in tools %}
                         <a href="{{ tool.link }}" class="meta-obj">{{tool.name}}</a>
                         {%- endfor %}
