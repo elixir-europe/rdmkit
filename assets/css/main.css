@@ -465,6 +465,10 @@ pre code {
     width: 40%;
 }
 
+#tooltable tr th:nth-child(4) {
+    width: 15%;
+}
+
 #tooltable td:nth-child(2) {
     font-size: .9em
 }
