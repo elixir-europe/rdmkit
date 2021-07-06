@@ -442,7 +442,7 @@ pre code {
     background-color: var(--primary-theme-color);
 }
 
-/*-----Table properties-----*/
+/*-----General table properties-----*/
 
 .table {
     display: block;
@@ -607,7 +607,6 @@ h2.card-title {
     float: right;
     width: 15px;
     text-align: center;
-    display: inline-block;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
@@ -621,7 +620,6 @@ h2.card-title {
     float: right;
     width: 15px;
     text-align: center;
-    display: inline-block;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
