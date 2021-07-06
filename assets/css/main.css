@@ -193,6 +193,7 @@ pre code {
     position: relative;
     z-index: 2;
 }
+
 .search .fa-search {
     position: absolute;
     top: 12px;
@@ -213,7 +214,7 @@ pre code {
 }
 
 @media (max-width: 992px) {
-    .search-results{
+    .search-results {
         width: 100%;
     }
 }
@@ -428,6 +429,19 @@ pre code {
     list-style: circle outside;
 }
 
+/* ---- Theme Badges-------- */
+
+.default-badge {
+    font-weight: inherit;
+    background-color: var(--light-grey);
+    color: var(--main-text-color);
+}
+
+.default-badge:hover {
+    color: var(--white-text);
+    background-color: var(--primary-theme-color);
+}
+
 /*-----Table properties-----*/
 
 .table {
@@ -441,24 +455,22 @@ pre code {
     border-bottom-color: inherit;
 }
 
-.default-badge {
-    font-weight: inherit;
-    background-color: var(--light-grey);
-    color: var(--main-text-color);
-}
-
-.default-badge:hover {
-    color: var(--white-text);
-    background-color: var(--primary-theme-color);
-}
-
-/* name and description column bigger */
+/* Name and description column improvements */
 
 #tooltable tr th:nth-child(1) {
     width: 25%;
 }
+
 #tooltable tr th:nth-child(2) {
     width: 40%;
+}
+
+#tooltable td:nth-child(2) {
+    font-size: .9em
+}
+
+#tooltable td:nth-child(1) a {
+    font-weight: bold;
 }
 
 /*-----Registries in tool table------*/
@@ -508,6 +520,7 @@ footer .company-logo {
 }
 
 /*-----MetaData section -----*/
+
 .meta-line {
     background-color: var(--light-grey);
     border-radius: 4px;
@@ -748,6 +761,7 @@ h2.card-title {
 }
 
 /*--------------Custom classes--------------*/
+
 /* ---------------------------------------- */
 
 /* RDM wheel in sidebar */
