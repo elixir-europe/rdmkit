@@ -18,28 +18,27 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Capitals:** do not use all capitals for emphasis or in headings.
   * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
   * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations).
-  * **"Datasets":** not "data sets". 
-  * **"Email":** not "e-mail".
-  * **"Email addresses":** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
+  * **Datasets:** not "data sets".
+  * **Email:** not "e-mail".
+  * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
   * **Gender:** avoid using gender-specific words like "he" or "she".
   * **Headings:**
     * Only the first word is capitalised, unless other words are proper nouns.
     * Headings must be hierarchical. They must go down in order (level one, level two, level three), and not skip a level. It is fine to skip levels when moving back up e.g. you can skip from level four to level two.
   * **-ise/-ize:** use the "-ise" form.
-  * **"Life cycle":** two separate words.
+  * **Life cycle:** two separate words.
   * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
   * **Lists:** every line of a list starts with a capital and ends with a full stop.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
-  * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "<
-  * *et al.*" for more than five authors.
+  * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "*et al.*" for more than five authors.
     * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016).
     * Lam, J. <cite>Data Management</cite>. (John Wiley & Sons, Inc., 2019).
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
-  * **Titles:** Only the first word and acronyms are capitalised.
-  * **Tools Assembly:** There are multiple tools in one assembly.
+  * **Titles:** only the first word and acronyms are capitalised.
+  * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
@@ -53,8 +52,9 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #83858e | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
+  * **Icons:** the icons used in this site come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution.
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
-  * **Illustrations:** use the colours listed above. (To do: agreed styles for boxes, arrows, and icons for things like users and databases.)
+  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
   * **Images:**
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
@@ -75,7 +75,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * Can contain spaces.
 * **Titles in the navigation side panel:**
   * First word and acronyms capitalised.
-  * Should contain the same words as the filename where this title points to. 
+  * Should contain the same words as the filename where this title points to.
 
 
 ## How to suggest amendments or additions to this style guide

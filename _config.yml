@@ -34,17 +34,6 @@ exclude:
   - Gemfile*
   - LICENSE
 
-feedback_subject_line: RDMkit feedback
-
-contact_email: rdm-editors@elixir-europe.org
-# used as a contact email for the Feedback link in the top navigation bar
-
-# feedback_disable: true
-# if you uncomment the previous line, the Feedback link gets removed
-
-feedback_text: "Give feedback"
-# if you uncomment the previous line, it changes the Feedback text
-
 markdown: kramdown
 highlighter: rouge
 kramdown:

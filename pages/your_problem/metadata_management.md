@@ -3,6 +3,7 @@ title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
 tags: [collect, preserve, share, researcher, data manager]
 description: how to document and describe your data.
+page_tag: metadata
 ---
 
 ## How can you document data during the project?
@@ -15,7 +16,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 ### Considerations
 * Write the documentation in such a way that someone else who is known to the field can not mis-interpret any of the data, even if they tried.
 
-* It is best practice to use one appropriate tool or an integration of multiple tools (also called tools assembly or ecosystem) for data documentation during a project. Suitable tools for data documentation are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services (such as OSF) could also be used as ELN or data management systems. Check with your institute to know what is offered.
+* It is best practice to use one appropriate tool or an integration of multiple tools (also called tool assembly or ecosystem) for data documentation during a project. Suitable tools for data documentation are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services (such as OSF) could also be used as ELN or data management systems. Check with your institute to know what is offered.
 
 * Independently of the tools you will use, data documentation is needed at two levels: documentation about the entire study or project and documentation about individual records, observations or data points.
   * Study-level documentation describes the project title and summary, study aims, authors, institutions involved, funds, methods, licence and identifier for each dataset, folders structure, file naming conventions, versioning system, relation between files or tables and other general information. 

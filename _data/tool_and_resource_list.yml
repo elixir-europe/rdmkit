@@ -333,6 +333,19 @@ Tools:
     biotools: chembl
     fairsharing: m3jtpg
     tess: ChEMBL
+- description: Chipster is a user-friendly analysis software for high-throughput data
+    such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large
+    reference genome collection.
+  link: https://chipster.csc.fi/
+  name: Chipster
+  registry:
+    biotools: chipster
+    tess: Chipster
+  tags:
+  - CSC
+  - data analysis
+  - researcher
+  - IT support
 - description: Choose an open source license
   link: https://choosealicense.com
   name: Choose a license
@@ -348,7 +361,7 @@ Tools:
   link: https://www.commonwl.org
   name: Common Workflow Language (CWL)
   registry:
-    fairsharing: bsg-s000606
+    fairsharing: 8y5ayx
     tess: Common Workflow Language (CWL)
   tags:
   - IT support
@@ -361,7 +374,9 @@ Tools:
   name: COmputational Modeling in BIology NEtwork (COMBINE)
   tags:
   - micro biotech
-- description: Open source package management systemn
+- country:
+  - FI
+  description: Open source package management systemn
   link: https://docs.conda.io/en/latest/
   name: Conda
   registry:
@@ -381,7 +396,7 @@ Tools:
   name: COPO
   registry:
     biotools: copo
-    fairsharing: biodbcore-001247
+    fairsharing-coll: bsg-d001247
   tags:
   - metadata
   - researcher
@@ -412,7 +427,7 @@ Tools:
   link: https://www.cropontology.org
   name: Crop Ontology
   registry:
-    fairsharing: bsg-s002695
+    fairsharing: wgfrmg
     tess: Crop Ontology
   tags:
   - researcher
@@ -546,15 +561,6 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: A free tool to write, share and export a data management plan. Instance
-    aimed at Belgian researchers with built-in data management plan templates for
-    the major funders.
-  link: https://dmponline.be
-  name: DMPonline Belgium
-  tags:
-  - DMP
-  - researcher
-  - data manager
 - description: Build your Data Management Plan
   link: https://dmptool.org
   name: DMPTool
@@ -569,7 +575,10 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: A database of DNA sequences
+  - CSC
+- country:
+  - FR
+  description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
   tags:
@@ -580,7 +589,7 @@ Tools:
   link: https://www.docker.com/
   name: Docker
   registry:
-    fairsharing: bsg-d001254
+    fairsharing-coll: bsg-d001254
     tess: Docker
   tags:
   - IT support
@@ -601,7 +610,9 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Data Stewardship Wizard
+- country:
+  - FI
+  description: Data Stewardship Wizard
   link: https://ds-wizard.org/
   name: DS-Wizard
   registry:
@@ -611,7 +622,8 @@ Tools:
   - researcher
   - data manager
   - IT support
-  - nels
+  - NeLS
+  - TSD
 - description: Database of folding / unfolding pathway of representatives from all
     known protein folds by MD simulation
   link: http://www.dynameomics.org/
@@ -655,12 +667,20 @@ Tools:
   link: https://elixir-europe.org/platforms/data/elixir-deposition-databases
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
-    fairsharing: bsg-c000039
+    fairsharing-coll: bsg-c000039
   tags:
   - data publication
   - researcher
   - data manager
   - IT support
+- description: The ELIXIR Authentication and Authorisation Infrastructure (AAI)
+  link: https://elixir-europe.org/services/compute/aai
+  name: ELIXIR-AAI
+  registry:
+    tess: ELIXIR-AAI
+  tags:
+  - sensitive
+  - TSD
 - description: "EMBL-EBI\u2019s web portal for finding ontologies"
   link: https://www.ebi.ac.uk/ols/index
   name: EMBL-EBI Ontology Lookup Service
@@ -704,6 +724,7 @@ Tools:
   - data protection
   - policy officer
   - human data
+  - TSD
 - description: EUDAT's wizard for finding the right licence for your data or code.
   link: https://ufal.github.io/public-license-selector/
   name: EUDAT licence selector wizard
@@ -782,7 +803,7 @@ Tools:
   tags:
   - storage
   - IT support
-  - nels
+  - NeLS
   - micro biotech
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
@@ -793,7 +814,7 @@ Tools:
   tags:
   - storage
   - researcher
-  - nels
+  - NeLS
   - metadata
   - micro biotech
 - description: A curated, informative and educational resource on data and metadata
@@ -810,6 +831,7 @@ Tools:
   - data manager
   - researcher
   - micro biotech
+  - existing data
 - description: Data publishing platform
   link: https://figshare.com/
   name: FigShare
@@ -859,7 +881,7 @@ Tools:
     biotools: galaxy
     tess: Galaxy
   tags:
-  - nels
+  - NeLS
   - data analysis
   - researcher
   - IT support
@@ -902,7 +924,7 @@ Tools:
   link: https://github.com
   name: GitHub
   registry:
-    fairsharing: biodbcore-001160
+    fairsharing-coll: bsg-d001160
     tess: GitHub
   tags:
   - data publication
@@ -1035,8 +1057,13 @@ Tools:
 - description: A repository of image datasets from scientific publications
   link: https://idr.openmicroscopy.org
   name: Image Data Resource (IDR)
+  registry:
+    fairsharing: 6wf1zw
   tags:
   - micro biotech
+  - data publication
+  - metadata
+  - transfer
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   link: http://purl.obolibrary.org/obo/ICO.owl
@@ -1146,6 +1173,16 @@ Tools:
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
   tags:
   - micro biotech
+- description: EuroHPC world-class supercomputer
+  link: https://www.lumi-supercomputer.eu/
+  name: LUMI
+  registry:
+    biotools: lumi
+  tags:
+  - data analysis
+  - researcher
+  - IT support
+  - CSC
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
     a good data management plan.
   link: https://library.ust.hk/sc/machine-actionable-dmp/
@@ -1337,7 +1374,14 @@ Tools:
   registry:
     biotools: nels
   tags:
-  - nels
+  - NeLS
+- description: Form and survey tool, also for sensitive data
+  link: https://nettskjema.no/
+  name: Nettskjema
+  tags:
+  - collect
+  - sensitive
+  - TSD
 - description: As fully on-premises solution, Nextcloud Hub provides the benefits
     of online collaboration without the compliance and security risks.
   link: https://nextcloud.com
@@ -1378,7 +1422,9 @@ Tools:
   - IT support
   - metadata
   - identifiers
-- description: Licenses that are conformant with the principles laid out in the Open
+- country:
+  - 'NO'
+  description: Licenses that are conformant with the principles laid out in the Open
     Definition.
   link: https://opendefinition.org/licenses/
   name: Open Definition Conformant Licenses
@@ -1420,7 +1466,7 @@ Tools:
   name: Orphadata
   registry:
     biotools: orphadata
-    fairsharing: biodbcore-001249
+    fairsharing-coll: bsg-d001249
 - description: OSF (Open Science Framework) is a free, open platform to support your
     research and enable collaboration.
   link: https://osf.io
@@ -1693,7 +1739,7 @@ Tools:
   - storage
   - data analysis
   - transfer
-- description: List of respositories recommended by Scinetific Data, contains both
+- description: List of respositories recommended by Scientific Data, contains both
     discipline-specific and general repositories.
   link: https://www.nature.com/sdata/policies/repositories
   name: Scientific Data's Recommended Repositories
@@ -1719,7 +1765,9 @@ Tools:
   - data analysis
   - IT support
   - storage
-- description: A scripting language for creating Synthetic Biology Open Language (SBOL)
+- country:
+  - 'NO'
+  description: A scripting language for creating Synthetic Biology Open Language (SBOL)
     in a more abstract way.
   link: http://shortbol.org
   name: ShortBOL
@@ -1748,6 +1796,7 @@ Tools:
   tags:
   - IT support
   - data analysis
+  - TSD
 - description: Snakemake is a framework for data analysis workflow execution
   link: https://snakemake.github.io
   name: Snakemake
@@ -1820,7 +1869,7 @@ Tools:
   link: http://obofoundry.org
   name: The Open Biological and Biomedical Ontology (OBO) Foundry
   registry:
-    fairsharing: biodbcore-001083
+    fairsharing-coll: bsg-d001083
   tags:
   - metadata
   - data manager
@@ -1834,7 +1883,18 @@ Tools:
   - policy officer
   - data manager
   - human data
-  - nels
+  - NeLS
+  - CSC
+  - TSD
+- description: Norwegian Services for sensitive data
+  link: https://www.uio.no/english/services/it/research/sensitive-data/
+  name: TSD
+  tags:
+  - sensitive
+  - TSD
+  - storage
+  - process
+  - analyse
 - description: Comprehensive resource for protein sequence and annotation data
   link: https://www.uniprot.org/
   name: UniProt
@@ -1888,3 +1948,111 @@ Tools:
   tags:
   - data publication
   - biomol sim
+- description: Registry of Research Data Repositories
+  link: https://www.re3data.org/
+  name: re3data
+  registry:
+    tess: re3data
+  tags:
+  - existing data
+- description: A search engine for academic web resources
+  link: https://www.base-search.net/
+  name: BASE
+  registry:
+    biotools: base
+    tess: BASE
+  tags:
+  - existing data
+- description: A search engine for the complete collection of publicly available DataCite
+    DOIs
+  link: https://search.datacite.org/
+  name: DataCite
+  registry:
+    fairsharing: yknezb
+  tags:
+  - existing data
+- description: Search engine for datasets
+  link: https://datasetsearch.research.google.com/
+  name: Google Dataset Search
+  registry:
+    tess: Google Dataset Search
+  tags:
+  - existing data
+- description: Explore Open Access research outcomes from OpenAIRE network
+  link: https://explore.openaire.eu/search/find
+  name: OpenAIRE Explore
+  tags:
+  - existing data
+- description: Controlled vocabulary that describes types of evidence and assertion
+    methods
+  link: https://evidenceontology.org/
+  name: Evidence and Conclusion Ontology (ECO)
+  registry:
+    fairsharing: wvpgwn
+  tags:
+  - existing data
+  - metadata
+- description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
+    across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
+  link: https://www.omicsdi.org
+  name: OmicsDI
+  registry:
+    biotools: omicsdi
+    fairsharing: re1278
+    tess: OmicsDI
+  tags:
+  - existing data
+- description: OMERO is an open-source client-server platform for managing, visualizing
+    and analyzing microscopy images and associated metadata
+  link: www.openmicroscopy.org
+  name: OMERO
+  registry:
+    biotools: omero
+    tess: OMERO
+  tags:
+  - metadata
+  - data manager
+  - IT support
+  - storage
+- description: The BioImage Archive stores and distributes biological images that
+    are useful to life-science researchers.
+  link: https://www.ebi.ac.uk/bioimage-archive/
+  name: BioImageArchive
+  registry:
+    fairsharing: x38D2k
+  tags:
+  - data publication
+- description: Electron Microscopy Public Image Archive is a public resource for raw,
+    2D electron microscopy images. You can browse, upload and download the raw images
+    used to build a 3D structure
+  link: https://www.ebi.ac.uk/pdbe/emdb/empiar/
+  name: EMPIAR
+  tags:
+  - data publication
+- description: The BioImage Informatics Index is a registry of software tools, image
+    databases for benchmarking, and training materials for bioimage analysis
+  link: https://biii.eu/
+  name: BIII
+  registry:
+    biotools: BISE
+  tags:
+  - IT support
+  - data analysis
+- description: BIAFLOWS is an open-soure web framework to reproducibly deploy and
+    benchmark bioimage analysis workflows
+  link: https://biaflows.neubias.org/
+  name: BIAFLOWS
+  registry:
+    biotools: biaflows
+  tags:
+  - data analysis
+- description: System for Risk and compliance. Processing of personal data in research
+    and student projects at UiB.
+  link: https://rette.app.uib.no/
+  name: RETTE
+  tags:
+  - data protection
+  - sensitive
+  - policy officer
+  - data manager
+  - human data

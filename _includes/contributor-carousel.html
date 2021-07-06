@@ -41,25 +41,27 @@
                         <img src="https://avatars.githubusercontent.com/{{id}}" class="card-img-top p-3 rounded-circle" alt="{{ contributor }}">
                         {%- endif %}
                     </div>
-                    <div class="card-body text-center">
+                    <div class="card-body text-center py-0">
                         <p class="card-title">{{ contributor }}</p>
                         {%- if contributors[contributor].affiliation %}
                         <p class="card-affiliation">{{ contributors[contributor].affiliation }}</p>
                         {%- endif %}
-                        {%- if contributors[contributor].git or contributors[contributor].email or contributors[contributor].orcid %}
-                        <div class="d-flex mt-3 justify-content-center social-icons">
-                            {%- if contributors[contributor].git %}
-                            <div class="mx-1"><a href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
-                            {%- endif %}
-                            {%- if contributors[contributor].email %}
-                            <div class="mx-1"><a href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
-                            {%- endif %}
-                            {%- if contributors[contributor].orcid %}
-                            <div class="mx-1"><a href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
-                            {%- endif %}
-                        </div>
-                        {%- endif %}
                     </div>
+                    {%- if contributors[contributor].git or contributors[contributor].email or contributors[contributor].orcid %}
+                    <div class="card-footer border-0">
+                        <div class="d-flex justify-content-center social-icons">
+                        {%- if contributors[contributor].git %}
+                        <div class="mx-1"><a href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
+                        {%- endif %}
+                        {%- if contributors[contributor].email %}
+                        <div class="mx-1"><a href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
+                        {%- endif %}
+                        {%- if contributors[contributor].orcid %}
+                        <div class="mx-1"><a href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
+                        {%- endif %}
+                        </div>
+                    </div>
+                    {%- endif %}
                     </div>
                 </div>
             {%- assign counter = counter | plus:1 %}

@@ -52,6 +52,8 @@ subitems:
         url: /storage.html
       - title: Data transfer
         url: /data_transfer.html
+      - title: Existing data
+        url: /existing_data.html
       - title: Identifiers
         url: /identifiers.html
       - title: Licensing
@@ -65,7 +67,7 @@ subitems:
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
     hr: True
-  - title: Tools assembly
+  - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     url: /tools_assembly.html
     hr: True

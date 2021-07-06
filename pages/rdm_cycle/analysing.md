@@ -1,5 +1,6 @@
 ---
 title: Analysing
+page_tag: analyse
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 ---
 
