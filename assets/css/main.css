@@ -193,6 +193,11 @@ pre code {
     position: relative;
     z-index: 2;
 }
+.search .fa-search {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
 
 .search-results {
     position: absolute;
@@ -299,12 +304,6 @@ pre code {
     }
 }
 
-@media (max-width: 992px) {
-    button[aria-expanded="true"]+#side-nav {
-        margin-top: -1.5em;
-    }
-}
-
 .sidebar-collapse i {
     font-size: 1.25rem;
     float: right;
@@ -328,7 +327,7 @@ pre code {
 }
 
 .menu li a {
-    margin-top: 4px;
+    margin-bottom: 4px;
     color: var(--main-text-color);
     background-color: var(--light-grey);
     display: block;
@@ -358,18 +357,30 @@ pre code {
 
 .menu li>a>span {
     float: right;
-    font-size: 1.5em;
-    line-height: 1;
     width: 15px;
     text-align: center;
 }
 
 .menu li.active>a>span:after {
-    content: '-';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f077";
 }
 
 .menu li>a>span:after {
-    content: '+';
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
 }
 
 /*-----Summary under page title-----*/
@@ -447,7 +458,7 @@ table>thead>tr>th {
 
 .default-badge:hover {
     color: var(--white-text);
-    background-color: var(--hover-grey);
+    background-color: var(--primary-theme-color);
 }
 
 /* name column bigger */
@@ -502,9 +513,9 @@ footer .company-logo {
 }
 
 /*-----MetaData section -----*/
-
 .meta-line {
-    padding: 15px 0px;
+    background-color: var(--light-grey);
+    border-radius: 4px;
 }
 
 .meta-obj {
@@ -549,13 +560,6 @@ footer .company-logo {
     margin: 0.25em;
 }
 
-.page-metadata {
-    background-color: var(--light-grey);
-    border-radius: 4px;
-    padding: 15px 15px;
-    margin-top: 70px;
-}
-
 /* -----Homepage----- */
 
 .blurb-title {
@@ -591,18 +595,32 @@ h2.card-title {
     color: var(--white-text);
 }
 
-.btn-custom.plus::after {
+.btn-custom.arrow::after {
     float: right;
-    content: '+';
-    font-size: 1.5em;
-    min-width: 0.6em;
-    line-height: 1;
-    margin-left: 10px;
+    width: 15px;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
 }
 
-.btn-custom.plus:not(.collapsed)::after {
-    content: '-';
-    line-height: 0.8em;
+.btn-custom.arrow:not(.collapsed)::after {
+    float: right;
+    width: 15px;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f077";
 }
 
 /*-----Contributors cards-----*/
@@ -621,10 +639,6 @@ h2.card-title {
 .contributor-cards .card-affiliation {
     color: var(--primary-theme-color);
     font-size: 0.8em;
-}
-
-.contributor-cards .card-body {
-    padding-top: 0rem;
 }
 
 /*-----Contributors carousel-----*/
@@ -807,4 +821,47 @@ li ul .sidebar_rdm_sub {
     background-color: var(--primary-theme-color);
     text-decoration: none;
     color: var(--white-text);
+}
+
+/* Events homepage */
+
+li.upcoming-event, .events {
+    display: none;
+}
+
+.events li {
+    border-left: var(--primary-theme-color) 5px solid;
+    border-radius: 4px;
+    padding-left: 11px;
+}
+
+.events i {
+    width: 20px;
+    text-align: center;
+}
+
+.events .title {
+    background-color: var(--main-text-color);
+    font-weight: 600;
+    color: white;
+    padding: 0px 11px;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -11px;
+    border: 1px solid var(--main-text-color);
+    display: inline-block;
+}
+
+/* Counters on landing page */
+
+.count-number {
+    font-size: 4em;
+    font-weight: 700;
+    color: var(--primary-theme-color)
+}
+
+.count-panel {
+    background-color: var(--light-grey);
+    padding: 11px;
+    border-radius: 4px;
+    margin-top: .5rem;
 }

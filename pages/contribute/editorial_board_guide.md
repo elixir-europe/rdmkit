@@ -37,6 +37,8 @@ Optional metadata/frontmatter:
 
 * `summary`: By using this attribute it is possible to specify a summary which will be displayed under the page title. This summary will also be used as description of your page when the page is tagged.
 
+* `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
+
 * `contributors`: List here all the contributors that helped in establishing the page, preferibly with their full name. Make sure that the person names that are listed can be found in the CONTRIBUTORS.yaml file in the *_data* directory if you want to link the GitHub ID and other contact information. Multiple contributors will be put in a list like this: [example1, example2].
 
 * `search`: By setting this field to "exclude", the page will not end up in the search results of the search bar. Default: true.
@@ -89,6 +91,24 @@ If contributors make a pull request to make changes, by default the editors that
 When you make a pull request resolving an issue, it is possible to link this pull request to that specific issue. This can be easily done by writing in the conversation of the PR: `closes #number_of_issue`, or `fixes #number_of_issue` or even `resolves #number_of_issue`. This is definitely applicable when authors first open an issue announcing a change or requesting a new page, followed up by the pull request. 
 For more information about this topic please visit the [GitHub documentation page](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue).
 
+## Adding a new event
+
+Add an event to the landing page by editing the `events.yml` in the `_data` directory in this repository. Use following attributes to define an event:
+
+
+```yml
+- name: Contentathon
+  startDate: 2021-06-23
+  startTime: '9:00'
+  endDate: 2021-06-24
+  endTime: 13:30 CET
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days)
+  location: Online
+
+```
+
+Only name and startDate are mandatory attributes.
+
 ## Create a new page
 
 ### Simple way: using the GitHub interface
@@ -96,28 +116,28 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 
 1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
 
-2. Click "Raw" on the GitHub page to open the file 'as is'
+1. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
 
-3. Select and copy all the content.
+1. Select and copy all the content.
 
-4. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_problem*. Click on `Add file` on the right followed up by `Create new file`.
+1. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_problem*. Click on `Add file` on the right followed up by `Create new file`.
     {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
 
-5. Paste the copied content from the template.
+1. Paste the copied content from the template.
 
-6. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
+1. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
-7. Check the frontmatter/metadata of the markdown page:
+1. Check the frontmatter/metadata of the markdown page:
     - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
-8. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
+1. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
      {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
 
-9. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
+1. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
 
 {% include note.html content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
 
@@ -166,7 +186,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 
 
 
-## Linking the GitHub accounts to the contributors
+## Adding extra info to the contributors
 
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
 
@@ -201,6 +221,8 @@ The logos can be added to the [/images/institutes](https://github.com/elixir-eur
 
 Tagging pages is done through the `tags:` property in the metadata of the markdown page.
 Add the tag(s) to a list (square brackets). Make sure that your tag corresponds to an existing page. 
+To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.
+
 
 This metadata example shows how we tag the "Storage" page with the **share** tag:
 ```md
@@ -226,9 +248,9 @@ Giving:
 
 This is preferably done on the 'IT support' page. In this way the tag visible on the tagged pages will link to the 'IT support', interlinking everything. 
 
-### Supported tags
+### Supported page tags
 
-To only allow a curated list of tags, make sure that you find the tags in the `tags.yaml` file in the `_data` repository. 
+We only allow tags that are linked to a page. To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.
 
 ## Using the tool/resource list
 
@@ -259,6 +281,6 @@ Giving:
 Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
 More information on how to add a tool or resource can be found on the [update tools and resources page](tool_resource_update).
 
-### Supported tags
+### Supported page tags
 
-To only allow a curated list of tags, make sure that you find the tags in the `tags.yaml` file in the `_data` repository. 
+We only allow tags that are linked to a page. To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.
