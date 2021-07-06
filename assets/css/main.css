@@ -328,7 +328,7 @@ pre code {
 }
 
 .menu li a {
-    margin-bottom: 4px;
+    margin-top: 4px;
     color: var(--main-text-color);
     background-color: var(--light-grey);
     display: block;
