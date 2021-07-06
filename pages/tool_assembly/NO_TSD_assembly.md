@@ -16,7 +16,7 @@ This assembly covers [Planning](planning), [Processing](processing), [Analysing]
 ## Who can use the TSD data management tools assembly?
 
 Resources on TSD itself are accessible for international users through [EOSC](https://marketplace.eosc-portal.eu/services/tds) and directly through the [University of Oslo](https://www.uio.no/english/services/it/research/sensitive-data/access/). Researchers in Norway can in addition obtain access through the [national e-infrastructure program Sigma2](https://www.sigma2.no/sensitive-data-services) and additional storage quotas (up to 10TB) for existing TSD projects through the (Norwegian) bioinformatics support desk [contact@bioinfo.no](mailto:contact@bioinfo.no).
-If you are affiliated to a Norwegian institution which has already stipulated a [data processing and/or service agreement with TSD](https://www.uio.no/tjenester/it/forskning/sensitiv/hjelp/start/kontrakter/index.html), this document can be used or amended to account for your project. Otherwise, you can establish a data agreement for your individual project by contacting [tsd-contact@usit.uio.no}(mailto:tsd-contact@usit.uio.no).
+If you are affiliated to a Norwegian institution which has already stipulated a [data processing and/or service agreement with TSD](https://www.uio.no/tjenester/it/forskning/sensitiv/hjelp/start/kontrakter/index.html), this document can be used or amended to account for your project. Otherwise, you can establish a data agreement for your individual project by contacting [tsd-contact@usit.uio.no](mailto:tsd-contact@usit.uio.no).
 
 ## What can you use the TSD data management tools assembly for?
 
