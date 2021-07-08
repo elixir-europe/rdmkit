@@ -15,7 +15,7 @@ To be able to use resources and tools that are mentioned here, you are recommend
 
 ## For what purpose can you use the marine metagenomics data management tool assembly?
 
-{% include image.html file="??" caption="Figure 1. The Marine Metagenomics data management tool assembly." alt="???" %}
+{% include image.html file="mmp_assembly.svg" caption="Figure 1. The Marine Metagenomics data management tool assembly." alt="Diagram on tools in the Data Life Cycle in the Marine Metagenomics tool assembly." %}
 
 ### Data management planning
 The support for data management planning for marine metagenomics in Norway is provided through the [ELIXIR-NO instance of the Data Stewardship Wizard](https://elixir-no.ds-wizard.org/). You can access the Data Management Plan model for marine metagenomics in Norway [here](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2). Read more on standards and best practices for the metagenomics data life-cycle [here](https://academic.oup.com/gigascience/article/6/8/gix047/3869082). Questions regarding the DSW and data management in general can be directed to the [ELIXIR Norway help desk](mailto:contact@bioinfo.no?subject=marine%20metagenomics).
