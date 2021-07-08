@@ -2,6 +2,7 @@
 title: Marine Metagenomics - Norway
 contributors: [Nazeefa Fatima, Espen Åberg, Nils P Willassen]
 summary: Norwegian data management tool assembly for marine metagenomics data
+page_tag: marine assembly
 ---
 ## What is the Norwegian tool assembly for marine metagenomics data management?
 The Norwegian tool assembly for marine metagenomics aims to provide a comprehensive toolkit for management of marine genomic research data throughout a project's data life cycle. The toolkit, developed by students and researchers in Norway, contains resources and software tools for both data management ([Planning](https://rdmkit.elixir-europe.org/planning), [Processing](https://rdmkit.elixir-europe.org/processing), [Storing](https://rdmkit.elixir-europe.org/storage.html) and [Sharing](https://rdmkit.elixir-europe.org/sharing)), data [analysis](https://rdmkit.elixir-europe.org/analysing) and training. It is built on the [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://rdmkit.elixir-europe.org/nels_assembly.html) tool assembly of [ELIXIR Norway](https://elixir.no/) and the [Marine Metagenomics Platform (MMP)](https://mmp2.sfb.uit.no/).
