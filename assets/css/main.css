@@ -193,6 +193,7 @@ pre code {
     position: relative;
     z-index: 2;
 }
+
 .search .fa-search {
     position: absolute;
     top: 12px;
@@ -213,7 +214,7 @@ pre code {
 }
 
 @media (max-width: 992px) {
-    .search-results{
+    .search-results {
         width: 100%;
     }
 }
@@ -327,7 +328,7 @@ pre code {
 }
 
 .menu li a {
-    margin-bottom: 4px;
+    margin-top: 4px;
     color: var(--main-text-color);
     background-color: var(--light-grey);
     display: block;
@@ -428,27 +429,7 @@ pre code {
     list-style: circle outside;
 }
 
-/*-----Table properties-----*/
-
-table {
-    display: block;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-
-table, .dataTables_wrapper {
-    margin: 40px 0 20px;
-}
-
-table>tbody>tr>th, table>thead>tr>td, table>tbody>tr>td {
-    padding: 8px 8px 8px 0px;
-    line-height: 1.42857143;
-    border-top: 1px solid var(--light-grey);
-}
-
-table>thead>tr>th {
-    border-bottom: 2px solid var(--light-grey);
-}
+/* ---- Theme Badges-------- */
 
 .default-badge {
     font-weight: inherit;
@@ -461,20 +442,50 @@ table>thead>tr>th {
     background-color: var(--primary-theme-color);
 }
 
-/* name column bigger */
+/*-----General table properties-----*/
+
+.table {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-color: var(--light-grey);
+}
+
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: inherit;
+}
+
+/* Name and description column improvements */
 
 #tooltable tr th:nth-child(1) {
     width: 25%;
 }
 
+#tooltable tr th:nth-child(2) {
+    width: 40%;
+}
+
+#tooltable tr th:nth-child(4) {
+    width: 15%;
+}
+
+#tooltable td:nth-child(2) {
+    font-size: .9em
+}
+
+#tooltable td:nth-child(1) a {
+    font-weight: bold;
+}
+
 /*-----Registries in tool table------*/
 
-main img.registry_logo {
-    max-height: 40px;
-    max-width: 40px;
-    margin: 2px;
-    padding: 5px;
-    border-radius: 4px;
+.registry_badge {
+    background-color: var(--secondary-theme-color);
+    color: var(--white-text);
+}
+
+.registry_badge:hover {
+    background-color: var(--primary-theme-color);
 }
 
 /*-----Footer-----*/
@@ -513,6 +524,7 @@ footer .company-logo {
 }
 
 /*-----MetaData section -----*/
+
 .meta-line {
     background-color: var(--light-grey);
     border-radius: 4px;
@@ -599,7 +611,6 @@ h2.card-title {
     float: right;
     width: 15px;
     text-align: center;
-    display: inline-block;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
@@ -613,7 +624,6 @@ h2.card-title {
     float: right;
     width: 15px;
     text-align: center;
-    display: inline-block;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
@@ -753,6 +763,7 @@ h2.card-title {
 }
 
 /*--------------Custom classes--------------*/
+
 /* ---------------------------------------- */
 
 /* RDM wheel in sidebar */
