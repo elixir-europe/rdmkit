@@ -4,6 +4,14 @@ Tools:
   name: Access to Biological Collection Data Schema (ABCD)
   tags:
   - micro biotech
+- description: Ada is a performant and highly configurable system for secured integration,
+    visualization, and collaborative analysis of heterogeneous data sets, primarily
+    targeting clinical and experimental sources.
+  link: https://ada-discovery.github.io/
+  name: Ada
+  tags:
+  - data analysis
+  - transmed
 - description: A searchable repository with a focus on plasmids
   link: https://www.addgene.org/browse/
   name: Addgene
@@ -74,6 +82,18 @@ Tools:
     biotools: atcc
   tags:
   - micro biotech
+- description: Free, publicly available web-based, open-source software application
+    developed by the OHDSI community to support the design and execution of observational
+    analyses to generate real world evidence from patient level observational data.
+  link: https://github.com/OHDSI/Atlas/wiki
+  name: Atlas
+  registry:
+    biotools: atlas
+    tess: Atlas
+  tags:
+  - data manager
+  - researcher
+  - transmed
 - description: A searchable database for bacteria specific information
   link: https://bacdive.dsmz.de
   name: BacDive
@@ -86,6 +106,14 @@ Tools:
   name: Bacillus Genetic Stock Center (BGSC)
   tags:
   - micro biotech
+- description: A search engine for academic web resources
+  link: https://www.base-search.net/
+  name: BASE
+  registry:
+    biotools: base
+    tess: BASE
+  tags:
+  - existing data
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
     at providing practical know-how for responsible research.
   link: https://www.bbmri-eric.eu/elsi/knowledge-base/
@@ -112,6 +140,14 @@ Tools:
   name: Benchling
   tags:
   - micro biotech
+- description: BIAFLOWS is an open-soure web framework to reproducibly deploy and
+    benchmark bioimage analysis workflows
+  link: https://biaflows.neubias.org/
+  name: BIAFLOWS
+  registry:
+    biotools: biaflows
+  tags:
+  - data analysis
 - description: Repository for Nucleic Acids MD simulations
   link: https://mmb.irbbarcelona.org/BigNASim/
   name: BigNASim
@@ -119,6 +155,15 @@ Tools:
     biotools: bignasim
   tags:
   - biomol sim
+- description: The BioImage Informatics Index is a registry of software tools, image
+    databases for benchmarking, and training materials for bioimage analysis
+  link: https://biii.eu/
+  name: BIII
+  registry:
+    biotools: BISE
+  tags:
+  - IT support
+  - data analysis
 - description: Public, web-accessible database of measured binding affinities
   link: https://www.bindingdb.org/
   name: BindingDB
@@ -156,6 +201,14 @@ Tools:
   name: BioExcel COVID-19
   tags:
   - biomol sim
+- description: The BioImage Archive stores and distributes biological images that
+    are useful to life-science researchers.
+  link: https://www.ebi.ac.uk/bioimage-archive/
+  name: BioImageArchive
+  registry:
+    fairsharing: x38D2k
+  tags:
+  - data publication
 - description: A repository of mathematical models for application in biological sciences
   link: https://www.ebi.ac.uk/biomodels/
   name: BioModels
@@ -333,7 +386,9 @@ Tools:
     biotools: chembl
     fairsharing: m3jtpg
     tess: ChEMBL
-- description: Chipster is a user-friendly analysis software for high-throughput data
+- country:
+  - FI
+  description: Chipster is a user-friendly analysis software for high-throughput data
     such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large
     reference genome collection.
   link: https://chipster.csc.fi/
@@ -374,9 +429,7 @@ Tools:
   name: COmputational Modeling in BIology NEtwork (COMBINE)
   tags:
   - micro biotech
-- country:
-  - FI
-  description: Open source package management systemn
+- description: Open source package management system
   link: https://docs.conda.io/en/latest/
   name: Conda
   registry:
@@ -456,6 +509,18 @@ Tools:
   - policy officer
   - human data
   - data protection
+  - transmed
+- description: Unique collection of project-level metadata from large research initiatives
+    in a diverse range of fields, including clinical, molecular and observational
+    studies. Its aim is to improve the findability of these projects following FAIR
+    data principles.
+  link: https://datacatalog.elixir-luxembourg.org/
+  name: Data Catalog
+  registry:
+    tess: Data Catalog
+  tags:
+  - metadata
+  - transmed
 - description: List of metadata standards
   link: https://www.dcc.ac.uk/guidance/standards/metadata/list
   name: Data Curation Centre Metadata list
@@ -480,6 +545,14 @@ Tools:
   tags:
   - licensing
   - biomol sim
+- description: A search engine for the complete collection of publicly available DataCite
+    DOIs
+  link: https://search.datacite.org/
+  name: DataCite
+  registry:
+    fairsharing: yknezb
+  tags:
+  - existing data
 - description: Open source research data respository software.
   link: https://dataverse.org/
   name: DATAVERSE
@@ -535,7 +608,9 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Online questionnaire for the development of data management plans -
+- country:
+  - FR
+  description: Online questionnaire for the development of data management plans -
     repository of DMPs
   link: https://dmp.opidor.fr
   name: DMP OPIDoR
@@ -568,7 +643,9 @@ Tools:
   - DMP
   - researcher
   - data manager
-- description: Data management planning tool (Finland)
+- country:
+  - FI
+  description: Data management planning tool (Finland)
   link: https://www.dmptuuli.fi/
   name: DMPTuuli
   tags:
@@ -576,9 +653,7 @@ Tools:
   - researcher
   - data manager
   - CSC
-- country:
-  - FR
-  description: A database of DNA sequences
+- description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
   tags:
@@ -610,9 +685,7 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- country:
-  - FI
-  description: Data Stewardship Wizard
+- description: Data Stewardship Wizard
   link: https://ds-wizard.org/
   name: DS-Wizard
   registry:
@@ -680,7 +753,9 @@ Tools:
     tess: ELIXIR-AAI
   tags:
   - sensitive
+  - NeLS
   - TSD
+  - transmed
 - description: "EMBL-EBI\u2019s web portal for finding ontologies"
   link: https://www.ebi.ac.uk/ols/index
   name: EMBL-EBI Ontology Lookup Service
@@ -698,6 +773,13 @@ Tools:
   - data publication
   - researcher
   - data manager
+- description: Electron Microscopy Public Image Archive is a public resource for raw,
+    2D electron microscopy images. You can browse, upload and download the raw images
+    used to build a 3D structure
+  link: https://www.ebi.ac.uk/pdbe/emdb/empiar/
+  name: EMPIAR
+  tags:
+  - data publication
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: https://www.ensembl.org/index.html
@@ -769,6 +851,15 @@ Tools:
     tess: European Nucleotide Archive (ENA)
   tags:
   - micro biotech
+- description: Controlled vocabulary that describes types of evidence and assertion
+    methods
+  link: https://evidenceontology.org/
+  name: Evidence and Conclusion Ontology (ECO)
+  registry:
+    fairsharing: wvpgwn
+  tags:
+  - existing data
+  - metadata
 - description: FAIDARE is a tool allowing to search data across dinstinct databases
     that implemented BrAPI.
   link: https://urgi.versailles.inra.fr/faidare/
@@ -779,6 +870,15 @@ Tools:
   - researcher
   - data manager
   - plants
+- description: FAIR Cookbook is an online resource for the Life Sciences with recipes
+    that help you to make and keep data Findable, Accessible, Interoperable and Reusable
+    (FAIR)
+  link: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
+  name: FAIR Cookbook
+  tags:
+  - compliance
+  - data manager
+  - transmed
 - description: Resources and guidelines to assess the FAIRness of digital resources.
   link: https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!
   name: FAIR Evaluation Services
@@ -832,6 +932,16 @@ Tools:
   - researcher
   - micro biotech
   - existing data
+- country:
+  - 'NO'
+  description: Feide is the national solution for secure login and data exchange in
+    education and research. Feide can be linked with ELIXIR-AAI through eduGAIN.
+  link: https://www.feide.no/
+  name: Feide
+  tags:
+  - marine assembly
+  - TSD
+  - NeLS
 - description: Data publishing platform
   link: https://figshare.com/
   name: FigShare
@@ -847,6 +957,13 @@ Tools:
   tags:
   - transfer
   - IT support
+- description: FreeIPA is an integrated Identity and Authentication solution for Linux/UNIX
+    networked environments.
+  link: https://www.freeipa.org/
+  name: Free-IPA
+  tags:
+  - IT support
+  - transmed
 - description: Repository of IP-free synthetic biological parts
   link: https://stanford.freegenes.org/collections/open-genes
   name: Freegenes
@@ -882,6 +999,7 @@ Tools:
     tess: Galaxy
   tags:
   - NeLS
+  - marine assembly
   - data analysis
   - researcher
   - IT support
@@ -962,6 +1080,13 @@ Tools:
     fairsharing: dw22y3
   tags:
   - plants
+- description: Search engine for datasets
+  link: https://datasetsearch.research.google.com/
+  name: Google Dataset Search
+  registry:
+    tess: Google Dataset Search
+  tags:
+  - existing data
 - description: Cloud Storage for Work and Home
   link: https://www.google.com/intl/en_us/drive/
   name: Google Drive
@@ -1124,6 +1249,7 @@ Tools:
   tags:
   - storage
   - IT support
+  - transmed
 - description: Open source framework and tools helping to manage a diverse set of
     life science, environmental and biomedical experiments using the Investigation
     Study Assay (ISA) standard
@@ -1161,6 +1287,14 @@ Tools:
   tags:
   - IT support
   - data analysis
+- description: Keycloak is an open source identity and data access management solution.
+  link: https://www.keycloak.org/
+  name: Keycloak
+  registry:
+    tess: Keycloak
+  tags:
+  - IT support
+  - transmed
 - description: Web portal for finding ontologies
   link: https://lov.linkeddata.es/dataset/lov/
   name: Linked Open Vocabularies (LOV)
@@ -1190,6 +1324,39 @@ Tools:
   tags:
   - DMP
   - IT support
+- description: MarDB includes all non-complete marine microbial genomes regardless
+    of level of completeness. Each entry contains 120 metadata fields including information
+    about sampling environment or host, organism and taxonomy, phenotype, pathogenicity,
+    assembly and annotation.
+  link: https://mmp2.sfb.uit.no/mardb/
+  name: MarDB
+  registry:
+    biotools: mardb
+  tags:
+  - marine assembly
+- description: MarFun is a manually curated marine fungi genome database.
+  link: https://mmp2.sfb.uit.no/marfun/
+  name: MarFun
+  tags:
+  - marine assembly
+- description: High-quality curated and freely accessible microbial genomics and metagenomics
+    resources for the marine scientific community
+  link: https://mmp2.sfb.uit.no/
+  name: Marine metagenomics portal
+  registry:
+    biotools: mmp
+  tags:
+  - marine assembly
+- description: MarRef is a manually curated marine microbial reference genome database
+    that equenced genomes. Each entry contains 120 metadata fields including information
+    about sampling environment or host, organism and taxonomy, phenotype, pathogenicity,
+    assembly and annotation information
+  link: https://mmp2.sfb.uit.no/marref/
+  name: MarRef
+  registry:
+    biotools: marref
+  tags:
+  - marine assembly
 - description: The Multi-Crop Passport Descriptor is the metadata standard for plant
     genetic resources maintained ex situ by genbanks.
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
@@ -1217,6 +1384,19 @@ Tools:
   tags:
   - data publication
   - biomol sim
+- country:
+  - 'NO'
+  description: META-pipe is a pipeline for annotation and analysis of marine metagenomics
+    samples, which provides insight into phylogenetic diversity, metabolic and functional
+    potential of environmental communities.
+  link: Metapipe - Marine Metagenomics Portal (uit.no)
+  name: Meta-pipe
+  registry:
+    biotools: meta-pipe
+    tess: Meta-pipe
+  tags:
+  - marine assembly
+  - data analysis
 - description: A repository of genomics data relating to the study of the metabolome
   link: http://www.metabolomexchange.org/site/
   name: MetabolomeXchange
@@ -1349,6 +1529,14 @@ Tools:
   - data protection
   - policy officer
   - human data
+  - transmed
+- description: "mPower is a free, 2 year mobile research study developed by Sage Bionetworks\
+    \ (nonprofit), with the goal of understanding the progression of Parkinson\u2019\
+    s Disease that appears to be unique to individuals."
+  link: https://parkinsonmpower.org
+  name: mPower
+  tags:
+  - transmed
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications. Also boasts integrated
     tools for analysis.
@@ -1361,7 +1549,9 @@ Tools:
   name: NCBI Taxonomy
   tags:
   - micro biotech
-- description: Hosts information relating to strains, cultures and more
+- country:
+  - 'NO'
+  description: Hosts information relating to strains, cultures and more
   link: https://www.ncimb.com/culture-collection/
   name: NCIMB
   tags:
@@ -1375,6 +1565,7 @@ Tools:
     biotools: nels
   tags:
   - NeLS
+  - marine assembly
 - description: Form and survey tool, also for sensitive data
   link: https://nettskjema.no/
   name: Nettskjema
@@ -1405,6 +1596,46 @@ Tools:
   name: NMRlipids
   tags:
   - biomol sim
+- description: Multi-stakeholder, interdisciplinary collaborative to bring out the
+    value of health data through large-scale analytics. All our solutions are open-source.
+  link: https://ohdsi.org/
+  name: OHDSI
+  registry:
+    biotools: ohdsi
+  tags:
+  - researcher
+  - data manager
+  - data analysis
+  - storage
+  - transmed
+- description: OMERO is an open-source client-server platform for managing, visualizing
+    and analyzing microscopy images and associated metadata
+  link: www.openmicroscopy.org
+  name: OMERO
+  registry:
+    biotools: omero
+    tess: OMERO
+  tags:
+  - metadata
+  - data manager
+  - IT support
+  - storage
+- description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
+    across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
+  link: https://www.omicsdi.org
+  name: OmicsDI
+  registry:
+    biotools: omicsdi
+    fairsharing: re1278
+    tess: OmicsDI
+  tags:
+  - existing data
+- description: OMOP is a common data model for the harmonisation for of observational
+    health data.
+  link: https://ohdsi.github.io/CommonDataModel/
+  name: OMOP-CDM
+  tags:
+  - transmed
 - description: A web portal to search and visualise ontologies
   link: http://www.ontobee.org
   name: Ontobee
@@ -1422,9 +1653,7 @@ Tools:
   - IT support
   - metadata
   - identifiers
-- country:
-  - 'NO'
-  description: Licenses that are conformant with the principles laid out in the Open
+- description: Licenses that are conformant with the principles laid out in the Open
     Definition.
   link: https://opendefinition.org/licenses/
   name: Open Definition Conformant Licenses
@@ -1433,6 +1662,11 @@ Tools:
   - researcher
   - data manager
   - policy officer
+- description: Explore Open Access research outcomes from OpenAIRE network
+  link: https://explore.openaire.eu/search/find
+  name: OpenAIRE Explore
+  tags:
+  - existing data
 - description: ELIXIR benchmarking platform to support community-led scientific benchmarking
     efforts and the technical monitoring of bioinformatics reosurces
   link: https://openebench.bsc.es/
@@ -1459,6 +1693,15 @@ Tools:
   tags:
   - data publication
   - biomol sim
+- description: OpenStack is an open source cloud computing infrastructure software
+    project and is one of the three most active open source projects in the world
+  link: https://www.openstack.org/
+  name: OpenStack
+  registry:
+    tess: OpenStack
+  tags:
+  - storage
+  - transmed
 - description: The Orphadata platform provides the scientific community with comprehensive,
     high-quality datasets related to rare diseases and orphan drugs, in a reusable
     and computable format
@@ -1592,6 +1835,13 @@ Tools:
   - metadata
   - researcher
   - data manager
+- description: Registry of Research Data Repositories
+  link: https://www.re3data.org/
+  name: re3data
+  registry:
+    tess: re3data
+  tags:
+  - existing data
 - description: REDCap is a secure web application for building and managing online
     surveys and databases. While REDCap can be used to collect virtually any type
     of data in any environment, it is specifically geared to support online and offline
@@ -1621,6 +1871,15 @@ Tools:
     biotools: reditools
   tags:
   - epitrans
+- description: "REMS (Resource Entitlement Management System), developed by CSC, is\
+    \ a tool that can be used to manage researchers\u2019 access rights to datasets."
+  link: https://github.com/CSCfi/rems
+  name: REMS
+  registry:
+    biotools: rems
+  tags:
+  - IT support
+  - transmed
 - description: File renaming software for Mac
   link: https://renamer.com/
   name: Renamer4Mac
@@ -1670,6 +1929,18 @@ Tools:
   - data manager
   - researcher
   - micro biotech
+- country:
+  - 'NO'
+  description: System for Risk and compliance. Processing of personal data in research
+    and student projects at UiB.
+  link: https://rette.app.uib.no/
+  name: RETTE
+  tags:
+  - data protection
+  - sensitive
+  - policy officer
+  - data manager
+  - human data
 - description: Reva connects cloud storages and application providers
   link: https://reva.link/
   name: Reva
@@ -1707,6 +1978,12 @@ Tools:
   - storage
   - data analysis
   - transfer
+- description: SalDB is a salmon specific database of genome sequenced prokaryotes
+    representing the microbiota of fishes found in the taxonomic family of Salmonidae.
+  link: SalDB - Marine Metagenomics Portal (uit.no)
+  name: salDB
+  tags:
+  - marine assembly
 - description: Small Angle Scattering Biological Data Bank
   link: https://www.sasbdb.org/
   name: SASBDB
@@ -1765,9 +2042,7 @@ Tools:
   - data analysis
   - IT support
   - storage
-- country:
-  - 'NO'
-  description: A scripting language for creating Synthetic Biology Open Language (SBOL)
+- description: A scripting language for creating Synthetic Biology Open Language (SBOL)
     in a more abstract way.
   link: http://shortbol.org
   name: ShortBOL
@@ -1797,6 +2072,16 @@ Tools:
   - IT support
   - data analysis
   - TSD
+- description: SMASCH (Smart Scheduling) system, is a web-based tooldesigned for longitudinal
+    clinical studies requiring recurrent follow-upvisits of the participants. SMASCH
+    controls and simplifies the scheduling of big database of patients. Smasch is
+    also used to organize the daily plannings (delegation of tasks) for the different
+    medical professionals such as doctors, nurses and neuropsychologists.
+  link: https://smasch.pages.uni.lu
+  name: SMASCH
+  tags:
+  - data organisation
+  - transmed
 - description: Snakemake is a framework for data analysis workflow execution
   link: https://snakemake.github.io
   name: Snakemake
@@ -1836,6 +2121,13 @@ Tools:
   name: Systems Biology Markup Language (SBML)
   tags:
   - micro biotech
+- description: Talend is an open source data integration platform.
+  link: https://www.talend.com/
+  name: Talend
+  tags:
+  - data manager
+  - researcher
+  - transmed
 - description: An ontology for expressing environmental terms
   link: https://sites.google.com/site/environmentontology/
   name: The Environment Ontology (EnvO)
@@ -1874,6 +2166,19 @@ Tools:
   - metadata
   - data manager
   - researcher
+- description: Knowledge management and high-content analysis platform enabling analysis
+    of integrated data for the purposes of hypothesis generation, hypothesis validation,
+    and cohort discovery in translational research.
+  link: https://github.com/transmart
+  name: tranSMART
+  registry:
+    biotools: transmart
+  tags:
+  - researcher
+  - data manager
+  - data analysis
+  - storage
+  - transmed
 - description: A list of Ethical, Legal, and Societal Implications (ELSI) to consider
     for research projects on human subjects
   link: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
@@ -1938,6 +2243,14 @@ Tools:
   tags:
   - transfer
   - IT support
+- description: Open source imaging informatics platform. It facilitates common management,
+    productivity, and quality assurance tasks for imaging and associated data.
+  link: https://www.xnat.org/
+  name: XNAT
+  tags:
+  - researcher
+  - data analysis
+  - transmed
 - description: Generalist research data repository built and developed by OpenAIRE
     and CERN
   link: https://zenodo.org/
@@ -1948,111 +2261,3 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Registry of Research Data Repositories
-  link: https://www.re3data.org/
-  name: re3data
-  registry:
-    tess: re3data
-  tags:
-  - existing data
-- description: A search engine for academic web resources
-  link: https://www.base-search.net/
-  name: BASE
-  registry:
-    biotools: base
-    tess: BASE
-  tags:
-  - existing data
-- description: A search engine for the complete collection of publicly available DataCite
-    DOIs
-  link: https://search.datacite.org/
-  name: DataCite
-  registry:
-    fairsharing: yknezb
-  tags:
-  - existing data
-- description: Search engine for datasets
-  link: https://datasetsearch.research.google.com/
-  name: Google Dataset Search
-  registry:
-    tess: Google Dataset Search
-  tags:
-  - existing data
-- description: Explore Open Access research outcomes from OpenAIRE network
-  link: https://explore.openaire.eu/search/find
-  name: OpenAIRE Explore
-  tags:
-  - existing data
-- description: Controlled vocabulary that describes types of evidence and assertion
-    methods
-  link: https://evidenceontology.org/
-  name: Evidence and Conclusion Ontology (ECO)
-  registry:
-    fairsharing: wvpgwn
-  tags:
-  - existing data
-  - metadata
-- description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
-    across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
-  link: https://www.omicsdi.org
-  name: OmicsDI
-  registry:
-    biotools: omicsdi
-    fairsharing: re1278
-    tess: OmicsDI
-  tags:
-  - existing data
-- description: OMERO is an open-source client-server platform for managing, visualizing
-    and analyzing microscopy images and associated metadata
-  link: www.openmicroscopy.org
-  name: OMERO
-  registry:
-    biotools: omero
-    tess: OMERO
-  tags:
-  - metadata
-  - data manager
-  - IT support
-  - storage
-- description: The BioImage Archive stores and distributes biological images that
-    are useful to life-science researchers.
-  link: https://www.ebi.ac.uk/bioimage-archive/
-  name: BioImageArchive
-  registry:
-    fairsharing: x38D2k
-  tags:
-  - data publication
-- description: Electron Microscopy Public Image Archive is a public resource for raw,
-    2D electron microscopy images. You can browse, upload and download the raw images
-    used to build a 3D structure
-  link: https://www.ebi.ac.uk/pdbe/emdb/empiar/
-  name: EMPIAR
-  tags:
-  - data publication
-- description: The BioImage Informatics Index is a registry of software tools, image
-    databases for benchmarking, and training materials for bioimage analysis
-  link: https://biii.eu/
-  name: BIII
-  registry:
-    biotools: BISE
-  tags:
-  - IT support
-  - data analysis
-- description: BIAFLOWS is an open-soure web framework to reproducibly deploy and
-    benchmark bioimage analysis workflows
-  link: https://biaflows.neubias.org/
-  name: BIAFLOWS
-  registry:
-    biotools: biaflows
-  tags:
-  - data analysis
-- description: System for Risk and compliance. Processing of personal data in research
-    and student projects at UiB.
-  link: https://rette.app.uib.no/
-  name: RETTE
-  tags:
-  - data protection
-  - sensitive
-  - policy officer
-  - data manager
-  - human data
