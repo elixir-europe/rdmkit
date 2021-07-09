@@ -94,11 +94,6 @@ Integrating phenotyping and molecular data, both within and between studies, hin
   * When detailing your sample in Biosamples, it is critical that you provide either a global identifier to your plant materials in a genebank or germplasm database, or a precise description of the plant materials in accordance with the MCPD. 
 * It is also recommended that you provide permanent access to a description of the project or study, that contains links to all the data, molecular or phenotypic. The [Biostudies](https://www.ebi.ac.uk/biostudies/) database is recommended for this purpose.
 
-## Relevant tools and resources
-
-{% include toollist.html tag="plants" %}
-
-
 ## Training materials on plant data management
 <!-- Link to Tess query -->
 

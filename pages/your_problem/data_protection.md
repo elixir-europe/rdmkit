@@ -60,10 +60,6 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
   * [Tryggve ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
 
-## Relevant tools and resources
-
-{% include toollist.html tag="data protection" %}
-
 ## Where can you find training materials and events about data protection?
 
 {% include tess.html search="data protection" %}

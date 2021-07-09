@@ -38,9 +38,6 @@ If you want to become competent in these areas or build capacity in your institu
 * Data Carpentry [lessons](https://datacarpentry.org/lessons/)
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
-## Common problems
-
-{% include pagelist.html tag="policy officer" %}
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
@@ -48,6 +45,3 @@ If you want to become competent in these areas or build capacity in your institu
 * [Science Europe](https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/) Practical Guide to the International Alignment of RDM
 * ELIXIR [Data Managers Network](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)
 
-## Relevant tools and resources
-
-{% include toollist.html tag="policy officer" %}

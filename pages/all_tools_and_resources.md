@@ -2,6 +2,7 @@
 title: All tools and resources
 datatable: true
 toc: false
+type: all_tools_and_resources
 custom-editme: _data/main_tool_and_resource_list.csv
 ---
 

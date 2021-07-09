@@ -1,0 +1,7 @@
+{% if page.page_tag %}
+
+<h2>Relevant tools and resources</h2>
+{% capture page_tag %}{{page.page_tag}}{% endcapture %}
+{% include toollist.html tag=page_tag %}
+
+{% endif %}

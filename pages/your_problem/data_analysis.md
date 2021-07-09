@@ -84,8 +84,3 @@ In short containers works almost like a virtual machine (VMs), in that it re-cre
     * If you need to use multiple tools in a pipeline, find Conda or container images, compose them in a Computational Workflow.
     * If you need to run tools in a cloud instance, but it has nothing preinstalled, use Conda or containers to ensure installion on cloud VM matches your local machine.
     * If you just need a particular open source tool installed, e.g. ImageMagick, check the document how to install: _For Ubuntu 20.04, try `apt install imagemagick`_.
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="data analysis" %}

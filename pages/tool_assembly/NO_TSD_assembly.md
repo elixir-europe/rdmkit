@@ -62,6 +62,3 @@ You can find the documentation for the HPC cluster [here](https://www.uio.no/eng
 Course on the usage of TSD from the University of Oslo are announced [here](https://www.uio.no/english/for-employees/support/research/research-data/training/courses/). The recording of a previous course on Nettskjema and TSD is accessible [here](https://www.uio.no/for-ansatte/kompetanse/tema/data/nettskjema-tsd/tsd-nettskjema2april.html).
 
 
-## What tools are used within the TSD data management tools assembly?
-
-{% include toollist.html tag="TSD" %}

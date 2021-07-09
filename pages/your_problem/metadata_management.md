@@ -124,8 +124,3 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
   * [Ontobee](http://www.ontobee.org)
   * [Schemapedia](https://schemapedia.com)
 
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="metadata" %}

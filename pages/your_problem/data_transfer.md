@@ -72,7 +72,3 @@ There are many aspects to consider when dealing with data transfer.
 <!-- ## Related topics
 (Optional section)
 * Bullet point list of other pages in this website that are connected to this lifecycle stage -->
-
-## Relevant tools and resources
-
-{% include toollist.html tag="transfer" %}

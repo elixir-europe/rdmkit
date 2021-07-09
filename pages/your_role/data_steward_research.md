@@ -43,7 +43,3 @@ If you want to become competent in these areas or build capacity in your institu
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
 * GO FAIR [starter kit](https://www.go-fair.org/resources/rdm-starter-kit/)
 * ELIXIR [Data Managers Network](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)
-
-## Relevant tools and resources
-
-{% include toollist.html tag="data manager" %}

@@ -66,9 +66,3 @@ There are a couple of different ways by which you can obtain a globally unique p
 * If you want to publish your data into an existing public repository, please first see our [data publication page](https://rdmkit.elixir-europe.org/data_publication.html). The repository will provide globally unique persistent identifiers for your data. Check their guidelines if you need to edit or update your dataset after publication. Generic repositories (such as Zenodo and Figshare) use versioning DOI to update a public dataset or document.
 * If you want to publish your data in an institutional public repository, ask the institution to obtain a namespace at [identifiers.org](http://identifiers.org) in order to obtain globally unique persistent identifiers for your data.
 * If you have the resources and skills to open up your database to the public, obtain a namespace at [identifiers.org](http://identifiers.org) in order to acquire globally unique persistent identifiers for your data.
-
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="identifiers" %}

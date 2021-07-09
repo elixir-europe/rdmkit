@@ -144,10 +144,6 @@ To make human research data reusable for others, it must be discoverable, stored
 * GA4GH  Data Use Ontology [DUO](https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
 
 
-## Relevant tools and resources
-
-{% include toollist.html tag="human data" %}
-
 ## Training materials on the management of human-subject data
 <!-- Link to Tess query -->
 {% include tess.html search="sensitive human data" %}

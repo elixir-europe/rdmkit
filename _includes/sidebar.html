@@ -29,7 +29,7 @@
             <ul class="list-unstyled">
                 {%- for subfolder in folder.subitems %}
                 {%- if subfolder.RDM -%}
-                {%- if site.RDM_pages contains page.url %}
+                {%- if page.type == "rdm_cycle" %}
                 <li class="active sidebar_rdm_sub">
                 {% else %}
                 <li class="sidebar_rdm_sub">

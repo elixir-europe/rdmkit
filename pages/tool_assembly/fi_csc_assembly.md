@@ -58,9 +58,3 @@ In addition to the above mentioned services, you can use national [Fairdata.fi s
 * [CSC - Data management youtube channel](https://www.youtube.com/watch?v=Ol7mniw687E&list=PLD5XtevzF3yEZw-8LadtaGVV8Um6CbMja) 
 * [CSC - Research data management services for life science research (youtube video)](https://youtu.be/lf9L7PYQrBE)
 
-## What tools are used within the CSC data management tool assembly?
-
-{% include toollist.html tag="CSC" %}
-
-
-

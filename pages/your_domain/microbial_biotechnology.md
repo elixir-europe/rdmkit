@@ -152,9 +152,6 @@ The test phase of a biotechnological study is the most variable in terms of the 
 
 * More recently, the [BioStudies database](https://www.ebi.ac.uk/biostudies/) has been set up to capture and share information about multi-omics and other biological studies ([Sarkans et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29069414/)).
 
-## Relevant tools and resources  
-
-{% include toollist.html tag="micro biotech" %}
 
 ## Bibliography
 

@@ -83,10 +83,3 @@ After the end of the project, all the relevant (meta)data (to guarantee reproduc
 ### Solutions
 * Based on the funders or institutional policy about data preservation, the data volume and the retrieval time span, discuss with the IT team what preservation solutions they can offer (i.e., data archiving services in your Country) and the costs, so that you can budget for it in your DMP.
 * Publish your data in public repositories, and they will preserve the data for you.
-
-
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="storage" %}

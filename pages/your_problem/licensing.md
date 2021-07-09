@@ -56,7 +56,3 @@ This depends on what rights protect your research data. Which licence to choose 
   * [data.world](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets) provides list of common license types for datasets.
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
 
-
-## Relevant tools and resources
-
-{% include toollist.html tag="licensing" %}

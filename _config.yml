@@ -49,11 +49,32 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      search: true
       sidebar: main
       topnav: topnav
-
-RDM_pages: ["/reusing.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
-
+  -
+    scope:
+      path: "pages/rdm_cycle"
+    values:
+      type: rdm_cycle
+  -
+    scope:
+      path: "pages/your_domain"
+    values:
+      type: your_domain
+  -
+    scope:
+      path: "pages/your_problem"
+    values:
+      type: your_problem
+  -
+    scope:
+      path: "pages/your_role"
+    values:
+      type: your_role
+  -
+    scope:
+      path: "pages/tool_assembly"
+    values:
+      type: tool_assembly
 plugins:
   - jemoji

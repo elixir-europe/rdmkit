@@ -38,8 +38,3 @@ One recommended way to share your data is to deposit them in the [ELIXIR Deposit
 ## Where can I find training materials and events about the NeLS data management tool assembly?
 
 {% include tess.html search="Norway" %}
-
-
-## What tools are used within the NeLS data management tool assembly?
-
-{% include toollist.html tag="NeLS" %}

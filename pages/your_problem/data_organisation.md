@@ -98,7 +98,3 @@ The top folder should have a README.txt file describing the folder structure and
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
 
-
-## Relevant tools and resources
-
-{% include toollist.html tag="data organisation" %}

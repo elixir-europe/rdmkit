@@ -52,6 +52,3 @@ Anonymization techniques can sometimes damage the statistical properties of the 
 An example of pseudonymization is where participants in a study are assigned a non-identifying ID and all identifying data (such as name and address) are removed from the metadata to be shared. The mapping of this ID to personal data is held separately and securely by a named researcher who will not share this data.
 There are well-established data anonymization approaches, such as k-anonymity, l-diversity, and differential privacy.
 
-## Relevant tools and resources
-
-{% include toollist.html tag="sensitive" %}  

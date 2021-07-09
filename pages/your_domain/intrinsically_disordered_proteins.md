@@ -50,7 +50,3 @@ Most common issues that you as a researcher can encounter during the mapping pro
   * [Gene Ontology](https://www.ebi.ac.uk/ols/ontologies/go) for functional terms
 
   If there isn't an appropriate term in ontologies or vocabularies, you can submit a new proposal for community review at [DisProt feedback](https://disprot.org/feedback).
-
-## Relevant tools and resources 
-
-{% include toollist.html tag="IDP" %}

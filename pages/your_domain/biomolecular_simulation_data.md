@@ -103,10 +103,6 @@ There is no existing standard defining the type and format of the metadata neede
 * Data size
 Data generated in the biomolecular simulation field is growing at an alarming pace. Making this data available to the scientific community sometimes means transferring them to a long-term storage, and even this a priori straightforward process can be cumbersome because of the large data size. 
 
-## Relevant tools and resources
-
-{% include toollist.html tag="biomol sim" %}
-
 
 ## Where can training materials and events about biomolecular simulations be found?
 

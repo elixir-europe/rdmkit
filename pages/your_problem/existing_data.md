@@ -72,13 +72,3 @@ When you find data of interest, you should first check if the quality is good an
 * Decide which version (if present) of the data you will use.
     * You can decide to  always use the version that is available at the start of the project. You would do this if switching to the new versions would not be very beneficial to the project or it would require major changes. In this case, you need to make sure that you and others, who want to reproduce your results, can access the old version at a later stage too.
     * You can update to the latest versions if new ones come out during your project. You would do this if the new version does not require major changes in your project workflow, and/or if the updates could improve your project. In this case, consider that you may need to re-do all your calculations based on a new version of the dataset and make sure that everything stays consistent.
-
-
-
-
-
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="existing data" %}
