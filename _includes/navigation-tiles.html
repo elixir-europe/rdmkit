@@ -6,24 +6,20 @@
             <div class="card-header">
                 <h3 class="card-title no-anchor my-1">{{page.title}}</h3>
             </div>
-            <div class="card-body">
+            <div class="card-body text-center">
                 {%- if page.summary %}
                 <p class="card-text">{{ page.summary}}</p>
                 {%- endif %}
-                <ul>
-                    {%- if page.page_tag != null %}
-                    <li><b>Tools: </b>
-                        {%- assign all_tools = site.data.tool_and_resource_list %}
-                        {%- assign tools = all_tools.Tools | where_exp:"tool", "tool.tags contains page.page_tag" -%}
-                        {%- for tool in tools %}
-                        <a href="{{ tool.link }}" class="meta-obj">{{tool.name}}</a>
-                        {%- endfor %}
-                    </li>
-                    {%- endif %}
-                </ul>
+                {%- assign all_tools = site.data.tool_and_resource_list %}
+                {%- assign tools = all_tools.Tools | where_exp:"tool", "tool.tags contains page.page_tag" -%}
+                <hr>
+                <b>Tools:</b><br>
+                {%- for tool in tools %}
+                <a class="nohover" href="{{ tool.link }}"><span class="badge default-badge">{{tool.name}}</span></a>
+                {%- endfor %}
             </div>
             <div class="card-footer">
-                <a class="btn btn-primary" href="{{ page.url | relative_url }}">Go to page </a>
+                <button class="btn btn-primary" href="{{ page.url | relative_url }}">Go to page </button>
             </div>
         </div>
     </div>
