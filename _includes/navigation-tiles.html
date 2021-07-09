@@ -1,24 +1,16 @@
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
-    {%- for page in site.pages %}
-    {%- if page.title and page.search_exclude != true and page.type == include.type%}
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+    {%- for page in site.pages | sorted %}
+    {%- if page.title and page.search_exclude != true and page.type == include.type %}
     <div class="col">
         <div class="card h-100">
+            <div class="card-header">
+                <h3 class="card-title no-anchor my-1">{{page.title}}</h3>
+            </div>
             <div class="card-body">
-                <h2 class="card-title no-anchor">{{page.title}}</h2>
                 {%- if page.summary %}
                 <p class="card-text">{{ page.summary}}</p>
                 {%- endif %}
                 <ul>
-                    {%- if page.tags != null %}
-                    <li><b>Tags: </b>
-                        {%- assign tags = page.tags | sort %}
-                        {%- for tag in tags %}
-                        {%- if page.page_tag %}
-                        <a href="{{ page.url }}" class="meta-obj" role="button">{{page.page_tag}}</a>
-                        {%- endif %}
-                        {%- endfor %}
-                    </li>
-                    {%- endif %}
                     {%- if page.page_tag != null %}
                     <li><b>Tools: </b>
                         {%- assign all_tools = site.data.tool_and_resource_list %}
@@ -29,6 +21,9 @@
                     </li>
                     {%- endif %}
                 </ul>
+            </div>
+            <div class="card-footer">
+                <a class="btn btn-primary" href="{{ page.url | relative_url }}">Go to page </a>
             </div>
         </div>
     </div>

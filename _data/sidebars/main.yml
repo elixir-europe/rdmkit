@@ -69,5 +69,5 @@ subitems:
     hr: True
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
-    url: /tools_assembly.html
+    url: /tool_assembly.html
     hr: True

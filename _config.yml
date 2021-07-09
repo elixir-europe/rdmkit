@@ -54,10 +54,10 @@ defaults:
       topnav: topnav
   -
     scope:
-      path: "pages/tools_assembly"
+      path: "pages/tool_assembly"
       type: "pages"
     values:
-      type: assembly
+      type: tool_assembly
 
 
 RDM_pages: ["/reusing.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
