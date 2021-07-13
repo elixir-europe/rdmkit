@@ -1,7 +1,11 @@
-{% if page.page_tag %}
+<section class="section-light">
+    <div class="container">
+        {% if page.page_tag %}
 
-<h2>Relevant tools and resources</h2>
-{% capture page_tag %}{{page.page_tag}}{% endcapture %}
-{% include toollist.html tag=page_tag %}
+        <h2>Relevant tools and resources</h2>
+        {% capture page_tag %}{{page.page_tag}}{% endcapture %}
+        {% include toollist.html tag=page_tag %}
 
-{% endif %}
+        {% endif %}
+    </div>
+</section>

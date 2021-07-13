@@ -37,21 +37,20 @@ h1 {
     }
 }
 
-main h2 {
+main h2, section h2 {
     font-family: 'Exo 2', sans-serif;
-    font-size: 1.6em;
     font-weight: 700;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
 }
 
-main h3 {
+main h3, section h3 {
     font-weight: 700;
     font-size: 1.2em;
     margin-top: 20px;
 }
 
-main h4 {
+main h4, section h4 {
     font-weight: 700;
     font-size: 1.1em;
     color: var(--hover-grey);
@@ -66,12 +65,12 @@ main h3+h4 {
     margin-top: 15px;
 }
 
-main a {
+main a, section a {
     text-decoration: none;
     color: var(--link-color);
 }
 
-main a:hover {
+main a:hover, section a:hover {
     color: var(--link-color);
     text-decoration: underline;
 }
