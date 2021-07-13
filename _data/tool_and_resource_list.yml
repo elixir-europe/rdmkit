@@ -746,6 +746,17 @@ Tools:
   - researcher
   - data manager
   - IT support
+  - Covid-19
+- description: Set of European data resources of fundamental importance to the wider
+    life-science community and the long-term preservation of biological data
+  link: https://elixir-europe.org/platforms/data/core-data-resources
+  name: ELIXIR Core Data Resources
+  registry:
+    fairsharing-coll: bsg-c000039
+    tess: ELIXIR Core Data Resources
+  tags:
+  - existing data
+  - Covid-19
 - description: The ELIXIR Authentication and Authorisation Infrastructure (AAI)
   link: https://elixir-europe.org/services/compute/aai
   name: ELIXIR-AAI
