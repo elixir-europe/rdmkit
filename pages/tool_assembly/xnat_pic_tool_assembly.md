@@ -1,31 +1,38 @@
 ---
-title: XNAT-PIC - Extending XNAT to Preclinical Imaging Centers
+title: XNAT-PIC
 search_exclude: true
-contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo, Silvio Aime.]
-tags: [Preclinical  Imaging,  XNAT, Magnetic  Resonance  Imaging,  Image  Processing,  OpenScience, Database]
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo, Silvio Aime]
+tags: [data organisation, storage, data analysis]
+page_tag: XNAT-PIC
+summary: XNAT for Preclinical Imaging Centers (XNAT-PIC) is a of set of tools to store, process and share preclinical imaging studies built on top of the XNAT imaging informatics platform.
 ---
+
+Preclinical imaging centers deal with many challenges mostly related to the variety of imaging instrumentation yielding huge volumes of raw data. The current procedures to collect, share and reuse preclinical image data are insufficient, thus revealing an urgent need of standardization in terms of data storage and image processing. **XNAT for Preclinical Imaging Centers (XNAT-PIC)** has been developed to overcome this limitation by extending XNAT’s basic functionalities to meet the needs of preclinical imaging facilities. 
 
 ## What is XNAT-PIC?
 
-**XNAT for Preclinical Imaging Centers (XNAT-PIC)** consists of a set of tools to store, process and share preclinical imaging studies built on top of the [XNAT](https://www.xnat.org/) imaging informatics platform.
-
-
+**XNAT for Preclinical Imaging Centers (XNAT-PIC)** consists of a set of tools built in Python and MATLAB to [store](storage), [process](processing) and [share](sharing) preclinical imaging studies built on top of the [XNAT](https://www.xnat.org/) imaging informatics platform.
  
 ## Who is XNAT-PIC intended for?
 
-Preclinical imaging centers deal with many challenges mostly related to the variety of imaging instrumentation yielding huge volumes of raw data. The current procedures to collect, share and reuse preclinical image data are insufficient, thus revealing an urgent need of standardization in terms of data storage and image processing. XNAT-PIC has been developed to overcome this limitation by extending XNAT’s basic functionalities to meet the needs of preclinical imaging facilities. 
+XNAT-PIC is inteded for scientists, researchers and data stewards working in the preclinical and biomedical imaging field to support image data management and processing.
 
 ## Which task can be solved with XNAT-PIC?
 
-XNAT-PIC is a set of tools to support preclinical imaging scientists in their data management and processing needs. In particular, it consists of:
+XNAT-PIC is a set of tools to support preclinical imaging scientists in their data management and processing needs. 
+The Extensible Neuroimaging Archive Toolkit [XNAT](https://www.xnat.org/) is an imaging informatics platform developed by the Neuroinformatics Research Group at the Washington University for the management, storage and analysis of biomedical image data. XNAT is an open-source project that can support a wide range of imaging modalities thanks to its extensibility.
 
-1. **MRI2DICOM**, a Magnetic Resonance Imaging (MRI) converter from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard
+XNAT-PIC adds the following tools:
 
-2. **XNAT-PIC Uploader** to import multimodal DICOM image datasets to XNAT
+<p align="center">
+<img src="images/xnat-pic.png" alt="image" width="700"/>
+ </p>
 
-3. **XNAT-PIC Pipelines** for analysing single or multiple subjects within the same project in XNAT.
+1. **MRI2DICOM** [processes](processing) Magnetic Resonance (MR) images and convert them from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard
 
+2. **XNAT-PIC Uploader** to import and [store](storage) multimodal DICOM image datasets to XNAT
+
+3. **XNAT-PIC Pipelines** for [analysing](analysing) single or multiple subjects within the same project in XNAT.
 
 ## Where can you find training materials and events about XNAT-PIC?
 
@@ -42,11 +49,11 @@ XNAT-PIC is a set of tools to support preclinical imaging scientists in their da
 
 ## Citation
 
-Please, **XNAT-PIC** by using: <br>
+If you use **XNAT-PIC** please cite: <br>
 
-* S. Zullino, A. Paglialonga, W. Dastrù, D. L. Longo, S. Aime. XNAT-PIC: Extending XNAT to Preclinical Imaging Centers, 2021. DOI: https://arxiv.org/abs/2103.02044
+* S. Zullino, A. Paglialonga, W. Dastrù, D. L. Longo, S. Aime. XNAT-PIC: Extending XNAT to Preclinical Imaging Centers, 2021. Pre-print: https://arxiv.org/abs/2103.02044
 
 ## Tools used within XNAT-PIC?
 <!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
 
-{% include toollist.html tag="xnat-pic" %}
+{% include toollist.html tag="XNAT-PIC" %}
