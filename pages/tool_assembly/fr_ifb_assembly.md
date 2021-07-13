@@ -1,6 +1,6 @@
 ---
 title: IFB - France
-contributors: [Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D’Anna]
+contributors: [Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna]
 summary: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_tag: IFB
 ---
