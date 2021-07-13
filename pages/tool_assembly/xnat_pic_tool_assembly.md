@@ -4,6 +4,7 @@ search_exclude: true
 contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo, Silvio Aime]
 tags: [data organisation, storage, data analysis]
 page_tag: XNAT-PIC
+summary: XNAT for Preclinical Imaging Centers (XNAT-PIC) is a of set of tools to store, process and share preclinical imaging studies built on top of the XNAT imaging informatics platform.
 ---
 
 ## Summary
@@ -12,7 +13,7 @@ Preclinical imaging centers deal with many challenges mostly related to the vari
 
 ## What is XNAT-PIC?
 
-**XNAT for Preclinical Imaging Centers (XNAT-PIC)** consists of a set of tools built in Python and MATLAB to [store](https://rdmkit.elixir-europe.org/storage.html), [process](https://rdmkit.elixir-europe.org/processing) and [share](https://rdmkit.elixir-europe.org/sharing) preclinical imaging studies built on top of the [XNAT](https://www.xnat.org/) imaging informatics platform.
+**XNAT for Preclinical Imaging Centers (XNAT-PIC)** consists of a set of tools built in Python and MATLAB to [store](storage), [process](processing) and [share](sharing) preclinical imaging studies built on top of the [XNAT](https://www.xnat.org/) imaging informatics platform.
  
 ## Who is XNAT-PIC intended for?
 
@@ -29,11 +30,11 @@ XNAT-PIC consists of:
 <img src="images/xnat-pic.png" alt="image" width="700"/>
  </p>
 
-1. **MRI2DICOM** [processes](https://rdmkit.elixir-europe.org/processing) Magnetic Resonance (MR) images and convert them from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard
+1. **MRI2DICOM** [processes](processing) Magnetic Resonance (MR) images and convert them from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard
 
-2. **XNAT-PIC Uploader** to import and [store](https://rdmkit.elixir-europe.org/storage.html) multimodal DICOM image datasets to XNAT
+2. **XNAT-PIC Uploader** to import and [store](storage) multimodal DICOM image datasets to XNAT
 
-3. **XNAT-PIC Pipelines** for [analysing](https://rdmkit.elixir-europe.org/processing) single or multiple subjects within the same project in XNAT.
+3. **XNAT-PIC Pipelines** for [analysing](analysing) single or multiple subjects within the same project in XNAT.
 
 ## Where can you find training materials and events about XNAT-PIC?
 
