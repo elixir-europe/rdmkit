@@ -1,6 +1,5 @@
 ---
 title: XNAT-PIC
-search_exclude: true
 contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo, Silvio Aime]
 tags: [data organisation, storage, data analysis]
 page_tag: XNAT-PIC

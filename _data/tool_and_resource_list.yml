@@ -563,6 +563,7 @@ Tools:
   - researcher
   - data manager
   - IT support
+  - IFB
 - description: The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg
     to facilitate data sharing agreements.
   link: https://dawid.elixir-luxembourg.org/
@@ -618,6 +619,7 @@ Tools:
   - DMP
   - researcher
   - data manager
+  - IFB
 - description: Semi-automatically generated, searchable catalogue of resources that
     are relevant to data management plans.
   link: https://dmplanner.athenarc.gr/
@@ -736,6 +738,16 @@ Tools:
   - plants
   - researcher
   - data manager
+- description: Set of European data resources of fundamental importance to the wider
+    life-science community and the long-term preservation of biological data
+  link: https://elixir-europe.org/platforms/data/core-data-resources
+  name: ELIXIR Core Data Resources
+  registry:
+    fairsharing-coll: bsg-c000039
+    tess: ELIXIR Core Data Resources
+  tags:
+  - existing data
+  - Covid-19
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
   link: https://elixir-europe.org/platforms/data/elixir-deposition-databases
   name: ELIXIR Deposition Databases for Biomolecular Data
@@ -747,16 +759,9 @@ Tools:
   - data manager
   - IT support
   - Covid-19
-- description: Set of European data resources of fundamental importance to the wider
-    life-science community and the long-term preservation of biological data
-  link: https://elixir-europe.org/platforms/data/core-data-resources
-  name: ELIXIR Core Data Resources
-  registry:
-    fairsharing-coll: bsg-c000039
-    tess: ELIXIR Core Data Resources
-  tags:
-  - existing data
-  - Covid-19
+  - NeLS
+  - IFB
+  - CSC
 - description: The ELIXIR Authentication and Authorisation Infrastructure (AAI)
   link: https://elixir-europe.org/services/compute/aai
   name: ELIXIR-AAI
@@ -881,6 +886,7 @@ Tools:
   - researcher
   - data manager
   - plants
+  - IFB
 - description: FAIR Cookbook is an online resource for the Life Sciences with recipes
     that help you to make and keep data Findable, Accessible, Interoperable and Reusable
     (FAIR)
@@ -916,6 +922,7 @@ Tools:
   - IT support
   - NeLS
   - micro biotech
+  - IFB
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
   link: https://fairdomhub.org
@@ -1014,6 +1021,7 @@ Tools:
   - data analysis
   - researcher
   - IT support
+  - IFB
 - description: A database of genetic sequence information. GenBank may also refer
     to the data format used for storing information around genetic sequence data.
   link: https://www.ncbi.nlm.nih.gov/genbank/
@@ -1548,6 +1556,15 @@ Tools:
   name: mPower
   tags:
   - transmed
+- description: "a Magnetic Resonance Imaging (MRI) converter from ParaVision\xAE (Bruker,\
+    \ Inc. Billerica, MA) file format to DICOM standard"
+  link: https://github.com/szullino/XNAT-PIC
+  name: MRI2DICOM
+  tags:
+  - researcher
+  - data manager
+  - process
+  - XNAT-PIC
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications. Also boasts integrated
     tools for analysis.
@@ -1712,7 +1729,9 @@ Tools:
     tess: OpenStack
   tags:
   - storage
+  - data analysis
   - transmed
+  - IFB
 - description: The Orphadata platform provides the scientific community with comprehensive,
     high-quality datasets related to rare diseases and orphan drugs, in a reusable
     and computable format
@@ -2156,6 +2175,8 @@ Tools:
   - data publication
   - human data
   - policy officer
+  - CSC
+  - TSD
 - description: Minimum Information about any (x) Sequence
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
@@ -2262,6 +2283,24 @@ Tools:
   - researcher
   - data analysis
   - transmed
+  - XNAT-PIC
+- description: Analysing of single or multiple subjects within the same project in
+    XNAT
+  link: https://github.com/szullino/XNAT-PIC
+  name: XNAT-PIC Pipelines
+  tags:
+  - researcher
+  - data manager
+  - data analysis
+  - XNAT-PIC
+- description: Import tool for multimodal DICOM image datasets to XNAT
+  link: https://github.com/szullino/XNAT-PIC
+  name: XNAT-PIC Uploader
+  tags:
+  - researcher
+  - data manager
+  - collect
+  - XNAT-PIC
 - description: Generalist research data repository built and developed by OpenAIRE
     and CERN
   link: https://zenodo.org/
