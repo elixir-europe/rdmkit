@@ -25,9 +25,8 @@ The Extensible Neuroimaging Archive Toolkit [XNAT](https://www.xnat.org/) is an 
 
 XNAT-PIC consists of:
 
-<p align="center">
-<img src="images/xnat-pic.png" alt="image" width="700"/>
- </p>
+{% include image.html file="xnat-pic.png" caption="Schematic overview of the XNAT-PIC tool assembly." alt="Schematic overview of the XNAT-PIC tool assembly." %}
+
 
 1. **MRI2DICOM** [processes](processing) Magnetic Resonance (MR) images and convert them from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard
 
@@ -37,15 +36,19 @@ XNAT-PIC consists of:
 
 ## Where can you find training materials and events about XNAT-PIC?
 
-* "Demonstrator 5: XNAT-PIC: expanding XNAT for image archiving and processing to Preclinical Imaging Centers". EOSC-Life website, https://www.eosc-life.eu/d5/
+* "Demonstrator 5: XNAT-PIC: expanding XNAT for image archiving and processing to Preclinical Imaging Centers". [EOSC-Life website](https://www.eosc-life.eu/d5/)
 
-* "Towards sharing and reusing of preclinical image data". Euro-Bioimaging website, https://www.eurobioimaging.eu/news/towards-sharing-and-reusing-of-preclinical-image-data/
+* "Towards sharing and reusing of preclinical image data". [Euro-Bioimaging website](https://www.eurobioimaging.eu/news/towards-sharing-and-reusing-of-preclinical-image-data/)
 
-* "Data Management: Biological and Preclinical Imaging Perspective". Euro-Bioimaging Virtual Pub, February 12th, 2021. <br>
-[![](https://img.youtube.com/vi/QNiAGuFk53w/0.jpg)](https://youtu.be/QNiAGuFk53w "")
+* "Data Management: Biological and Preclinical Imaging Perspective". Euro-Bioimaging Virtual Pub, February 12th, 2021. 
 
-* "XNAT-PIC: expanding XNAT for image archiving and processing to Preclinical Imaging Centers". Demonstrator 5 from Populating EOSC-Life: Success stories for the Demonstrators – Session 1 from January 13, 2021.<br>
-[![](https://img.youtube.com/vi/cpEcfIJJqCo/0.jpg)](https://youtu.be/cpEcfIJJqCo "")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QNiAGuFk53w" frameborder="0" allowfullscreen></iframe>
+
+
+* "XNAT-PIC: expanding XNAT for image archiving and processing to Preclinical Imaging Centers". Demonstrator 5 from Populating EOSC-Life: Success stories for the Demonstrators – Session 1 from January 13, 2021.
+  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cpEcfIJJqCo" frameborder="0" allowfullscreen></iframe>
+
 
 
 ## Citation
