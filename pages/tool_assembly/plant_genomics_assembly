@@ -35,4 +35,4 @@ Additionally, data can also be published in e!DAL-PGP.
 
 ## Tools used within the tool assembly?
 
-{% include toollist.html tag="<!---plant_geno_assembly--->" %}
+{% include toollist.html tag="plant_geno_assembly" %}
