@@ -20,7 +20,7 @@ All the components of this tool assembly are publicly available, but most requir
 <!--- TODO: Add figure --->
 
 ### Metadata collection and tracking
-Accurate description of the plant biological materials and samples is critical for interoperability, and should comply with the [MIAPPE](https://www.miappe.org/) standard.
+Accurate [documentation](metadata_management.html) of the plant biological materials and samples is critical for interoperability, and should comply with the [MIAPPE](https://www.miappe.org/) standard.
 This information should be submitted to [BioSamples](https://www.ebi.ac.uk/biosamples/), with MIAPPE compliance validated using BioSamples' [plant-miappe.json](https://github.com/EBIBioSamples/biosamples-v4/blob/biohackathon_miappe_checklist/webapps/core/src/main/resources/schemas/certification/plant-miappe.json) template.
 Submission of sample descriptions to BioSamples can be done as early as the data collection stage, but at the latest, must acompany submission of the genomic data to the [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) (ENA) or of genotyping data to the [European Variation Archive](https://www.ebi.ac.uk/eva/) (EVA).
 [e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/) can be used to manage and share experimental metadata, as well as data.
