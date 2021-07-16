@@ -79,6 +79,3 @@ IFB infrastructure promotes the implementation of the FAIR principles. To this e
 * Documentation for the [IFB core cluster](https://ifb-elixirfr.gitlab.io/cluster/doc/)
 * Documentation for the [Biosphere cloud federation](https://ifb-elixirfr.github.io/biosphere/).
 
-## What tools are used within the IFB data management tool assembly?
-
-{% include toollist.html tag="IFB" %}

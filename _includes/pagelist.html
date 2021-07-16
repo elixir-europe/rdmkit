@@ -1,7 +1,0 @@
-<ul>
-  {%- for page in site.pages %}{%- for tag in page.tags %}{% if tag == include.tag %}
-  <li>
-    <a href="{{ page.url | relative_url }}">{{page.title}}</a>{% if page.description %}: {{ page.description }}{% endif %}
-  </li>
-  {% endif %}{%- endfor %}{%- endfor %}
-</ul>

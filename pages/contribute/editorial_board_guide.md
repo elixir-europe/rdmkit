@@ -232,21 +232,6 @@ tags: [share, IT support]
 ---
 ```
 
-### Listing the pages somewhere else
-
-If you then want to list all the pages containing the tag **share** you can use the code snippet:
-
-{% raw %}
-```
-{% include pagelist.html tag="share" %}
-```
-{% endraw %}
-
-Giving:
-
-{% include pagelist.html tag="share" %}
-
-This is preferably done on the 'IT support' page. In this way the tag visible on the tagged pages will link to the 'IT support', interlinking everything. 
 
 ### Supported page tags
 

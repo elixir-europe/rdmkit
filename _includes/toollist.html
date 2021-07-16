@@ -1,14 +1,5 @@
-{%- assign tools = site.data.tool_and_resource_list -%}
-{%- assign main_tags = tools.Tools -%}
-{%- if include.tag -%}
-{%- assign main_tags = tools.Tools | where_exp:"tool", "tool.tags contains include.tag" -%}
-{%- endif -%}
-{%- if include.tag2 -%}
-{%- assign main_tags = main_tags | where_exp:"tool", "tool.tags contains include.tag2" -%}
-{%- endif -%}
-{%- if main_tags == blank %}
-The tag "{{ include.tag }}" has not yet related tools or resources.
-{%- else%}
+{%- assign tools = site.data.tool_and_resource_list.Tools | where_exp:"tool", "tool.tags contains include.tag" -%}
+{%- unless tools == blank %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <table id="tooltable" class="table display mb-5 mt-4">
     <thead>
@@ -73,4 +64,4 @@ The tag "{{ include.tag }}" has not yet related tools or resources.
     </tbody>
 </table>
 <div id="skip-tool-table"></div>
-{%- endif%}
+{%- endunless %}

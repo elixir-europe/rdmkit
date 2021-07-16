@@ -35,9 +35,6 @@ If you want to become competent in these areas or build capacity in your institu
 * Data Carpentry [lessons](https://datacarpentry.org/lessons/)
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
-## Common problems
-
-{% include pagelist.html tag="data manager" %}
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)

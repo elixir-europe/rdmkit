@@ -377,19 +377,6 @@ tags: [share]
 ---
 ```
 
-If you than want to list all the pages containing the tag **share** you can us the code snippet:
-
-{% raw %}
-```
-{% include pagelist.html tag="share"%}
-```
-{% endraw %}
-
-Giving:
-
-{% include pagelist.html tag="share"%}
-
-This is preferably done on the 'research_it' page. In this way the tag visible on the tagged pages will link to the 'research_it', interlinking everything. To find out what the tag is of a page, please check its metadata attribute `page_tag` at the top of the markdown file.
 
 ## Adding a filtered tool and resource-list to your page
 

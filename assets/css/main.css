@@ -57,11 +57,11 @@ main h4, section h4 {
     margin-top: 20px;
 }
 
-main h2+h3 {
+main h2+h3, section h2+h3 {
     margin-top: 12px;
 }
 
-main h3+h4 {
+main h3+h4, section h3+h4 {
     margin-top: 15px;
 }
 
@@ -105,7 +105,7 @@ hr {
 
 /* End - Selection color */
 
-main ol li, main ul li {
+main ol li, main ul li, section ol li, section ul li{
     margin: 10px 0px;
 }
 

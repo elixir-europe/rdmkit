@@ -44,5 +44,3 @@ In ELIXIR's training portal TeSS you can discover the latest [training events](h
 
 You can access previous [workshop materials](https://elixir.mf.uni-lj.si/course/index.php?categoryid=16) on these topics in the [ELIXIR-SI eLearning Platform (EeLP)](https://elixir.mf.uni-lj.si/).
 
-## What tools are used within the marine metagenomics data management tool assembly?
-{% include toollist.html tag="marine assembly" %}

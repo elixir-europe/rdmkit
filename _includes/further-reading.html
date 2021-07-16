@@ -1,11 +1,29 @@
+<!-- Related pages -->
+{%- capture page_tag %}{{page.page_tag}}{% endcapture %}
+{%- assign related_pages = site.pages | where_exp:"pages", "pages.tags contains page_tag" -%}
+{%- unless related_pages == blank %}
 <section class="section-light">
     <div class="container">
-        {% if page.page_tag %}
-
-        <h2>Relevant tools and resources</h2>
-        {% capture page_tag %}{{page.page_tag}}{% endcapture %}
-        {% include toollist.html tag=page_tag %}
-
-        {% endif %}
+        <h2>Related pages</h2>
+        <ul>
+            {%- for related_page in related_pages %}
+            <li>
+            <a href="{{ page.url | relative_url }}">{{related_page.title}}</a>{% if related_page.description %}: {{ related_page.description }}{% endif %}
+            </li>
+            {%- endfor %}
+        </ul>
     </div>
 </section>
+{%- endunless %}
+<!-- Tool table -->
+{%- if page.page_tag %}
+{%- assign main_tags = site.data.tool_and_resource_list.Tools | where_exp:"tool", "tool.tags contains page_tag" -%}
+{%- unless main_tags == blank %}
+<section class="section-light">
+    <div class="container">
+        <h2>Relevant tools and resources</h2>
+        {% include toollist.html tag=page_tag %}
+    </div>
+</section>
+{%- endunless %}
+{% endif %}
