@@ -10,18 +10,22 @@ page_tag: sensitive
 
 ### Description
 
-Sensitive data is information that must be protected against unauthorised access. This can for example be personal or commercial information, but also information such as breeding grounds of endangered species. What is considered sensitive information is usually regulated by national laws and may differ between countries. You should be cautious when you are dealing with sensitive, or potentially sensitive, information.
+In general, the term "sensitive data" is used for any data that could do harm (for example to people, organisations, countries, or ecosystems) if it would be openly available. 
+This can for example be personal or commercial information, but also information such as breeding grounds of endangered species. 
+Any such data must be protected against unauthorized access.
+What is considered sensitive information is usually regulated by national laws and may differ between countries. You should be cautious when you are dealing with sensitive, or potentially sensitive, information.
+
 
 ### Considerations
 
-* If you deal with any information about individuals from the EU, you are bound by the GDPR and such data is called “personal data”.
-* Not all personal information is sensitive: The GDPR [Article 9] identifies specific pieces of data as sensitive: data consisting of racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person's sex life or sexual orientation.  
+* If you deal with any information about individuals from the EU, you are bound by the General Data Protection Regulation (GDPR), such data is called “personal data”.
+* Confusingly, in the context of GDPR "sensitive data" is a subclass of "personal data" that is potentially even more harmful (defined in Article 9), and GDPR prescribes very strict rules for dealing with this data. Note that this page is concerned with the broader definition of "sensitive data". GDPR calls personal data sensitive consisting of racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person's sex life or sexual orientation.  
 * Information in Life Science projects are for the most part categorised under health and genetic data and are considered sensitive under the GDPR.
-* You need to assess whether or not your dataset contains personally identifying attributes.
-* You need to know the de-identification status of your data. Life Science research data rarely contains personally identifying attributes. Research data would typically be in pseudonymised or anonymised form, meaning devoid of attributes such as name, surname etc.
+* You need to assess whether or not your dataset contains personally identifying attributes. Note that combinations of attributes that are themselves not identifyable can be identifyable together.
+* You need to know the de-identification status of your data. Life Science research data rarely contains directly identifying attributes. Research data would typically be pseudonymised or anonymised. If you work with personal data, you must understand the difference between these two (see under de-identification below).
 * For some studies there is a cohort owner, often a clinical party or a trusted third party that can map study participant keys back to names and surnames. Such data is considered pseudonymous.
 * If there are no means to map the data back to individuals, then the data is considered anonymous and is out of the scope of the GDPR.
-* You should keep in mind that anonymising data is a notoriously difficult task. Does your dataset contain a wide array of attributes, or exhibit unique traits/patterns such that one can reasonably expect that not more than a dozen people in the world have those together? In that case, you can not assume that it is anonymous. Such data run the risk of being linked back to individuals through various technical means. You need to take into account that technical means to identify people in the future may be more powerful than than they are right now: i.e. data that is anonymous right now may not be anonymous forever
+* You should keep in mind that anonymising data is a notoriously difficult task. Does your dataset contain a wide array of attributes, or exhibit unique traits/patterns such that one can reasonably expect that not more than a dozen people in the world have those together? In that case, you can not assume that it is anonymous. Such data run the risk of being linked back to individuals through various technical means. You need to take into account that technical means to identify people in the future may be more powerful than than they are right now: i.e. data that is anonymous right now may not be anonymous forever.
 
 
 ### Solutions
