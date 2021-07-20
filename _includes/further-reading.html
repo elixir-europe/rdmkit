@@ -1,23 +1,38 @@
-<!-- Related pages -->
+<!-- Further reading -->
 {%- capture page_tag %}{{page.page_tag}}{% endcapture %}
-{%- assign related_pages = site.pages | where_exp:"pages", "pages.tags contains page_tag" -%}
+{%- assign related_pages = site.pages | where:"tags", page_tag -%}
 {%- unless related_pages == blank %}
+{%- assign sidebar = site.data.sidebars.main.subitems -%}
 <section class="section-light">
     <div class="container">
         <h2>Related pages</h2>
-        <ul>
-            {%- for related_page in related_pages %}
-            <li>
-            <a href="{{ page.url | relative_url }}">{{related_page.title}}</a>{% if related_page.description %}: {{ related_page.description }}{% endif %}
-            </li>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Related pages -->
+            {%- for sections in sidebar %}
+            {%- assign section = sections.title %}
+            {%- assign section_pages = related_pages | where:"type", section %}
+            {%- unless section_pages == blank %}
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">Related pages in "{{section}}"</div>
+                    <ul class="list-group list-group-flush">
+                        {%- for section_page in section_pages %}
+                        <li class="list-group-item">
+                            <a href="{{ page.url | relative_url }}">{{section_page.title}}</a>{% if section_page.description %}: {{ section_page.description }}{% endif %}
+                        </li>
+                        {%- endfor %}
+                    </ul>
+                </div>
+            </div>
+            {%- endunless %}
             {%- endfor %}
-        </ul>
+        </div>
     </div>
 </section>
 {%- endunless %}
 <!-- Tool table -->
 {%- if page.page_tag %}
-{%- assign main_tags = site.data.tool_and_resource_list.Tools | where_exp:"tool", "tool.tags contains page_tag" -%}
+{%- assign main_tags = site.data.tool_and_resource_list.Tools | where:"tags", page_tag -%}
 {%- unless main_tags == blank %}
 <section class="section-light">
     <div class="container">
@@ -26,4 +41,4 @@
     </div>
 </section>
 {%- endunless %}
-{% endif %}
+{%- endif %}

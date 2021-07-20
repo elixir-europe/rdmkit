@@ -5,11 +5,7 @@
 {%- for page in site.pages %}
 {%- if page.contributors and page.search_exclude != true %}
 {%- assign pagecontr = page.contributors | join: ", " %}
-{%- if allcontrstr %}
-{%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
-{%- else %}
 {%- assign allcontrstr = allcontrstr | append: pagecontr %}
-{%- endif  %}
 {%- endif  %}
 {%- endfor %}
 {%- for contr in contributors %}

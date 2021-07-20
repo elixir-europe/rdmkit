@@ -1,4 +1,4 @@
-{%- assign tools = site.data.tool_and_resource_list.Tools | where_exp:"tool", "tool.tags contains include.tag" -%}
+{%- assign tools = site.data.tool_and_resource_list.Tools | where:"tags", page_tag -%}
 {%- unless tools == blank %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <table id="tooltable" class="table display mb-5 mt-4">
@@ -19,7 +19,7 @@
         </tr>
     </thead>
     <tbody>
-        {%- for tool in main_tags | sort %}
+        {%- for tool in tools | sort %}
         <tr>
             {% if tool.link %}
             <td><a href="{{tool.link}}">{{tool.name}}</a></td>

@@ -55,26 +55,26 @@ defaults:
     scope:
       path: "pages/rdm_cycle"
     values:
-      type: rdm_cycle
+      type: Data life cycle
   -
     scope:
       path: "pages/your_domain"
     values:
-      type: your_domain
+      type: Your domain
   -
     scope:
       path: "pages/your_problem"
     values:
-      type: your_problem
+      type: Your problem
   -
     scope:
       path: "pages/your_role"
     values:
-      type: your_role
+      type: Your role
   -
     scope:
       path: "pages/tool_assembly"
     values:
-      type: tool_assembly
+      type: Tool assembly
 plugins:
   - jemoji
