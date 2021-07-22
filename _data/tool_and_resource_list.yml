@@ -687,9 +687,9 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Data Stewardship Wizard
+- description: Publicly available online tool for composing smart data management plans
   link: https://ds-wizard.org/
-  name: DS-Wizard
+  name: Data Stewardship Wizard
   registry:
     biotools: Data_Stewardship_Wizard
   tags:
