@@ -1549,13 +1549,6 @@ Tools:
   - policy officer
   - human data
   - transmed
-- description: "mPower is a free, 2 year mobile research study developed by Sage Bionetworks\
-    \ (nonprofit), with the goal of understanding the progression of Parkinson\u2019\
-    s Disease that appears to be unique to individuals."
-  link: https://parkinsonmpower.org
-  name: mPower
-  tags:
-  - transmed
 - description: "a Magnetic Resonance Imaging (MRI) converter from ParaVision\xAE (Bruker,\
     \ Inc. Billerica, MA) file format to DICOM standard"
   link: https://github.com/szullino/XNAT-PIC
