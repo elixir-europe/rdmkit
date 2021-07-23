@@ -2,6 +2,9 @@
 title: Preserving
 page_tag: preserve
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=data%20preserving
 ---
 
 ## What is data preserving?

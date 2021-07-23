@@ -3,6 +3,9 @@ title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
 page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=analysing%20data
 ---
 
 ## What is "data + stage name"? <!-- edit this heading (e.g. what is data analysis?) and write your text below it -->

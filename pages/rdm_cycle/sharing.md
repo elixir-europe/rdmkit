@@ -2,6 +2,9 @@
 title: Sharing
 page_tag: share
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=data%20sharing
 ---
 
 ## What is data sharing?

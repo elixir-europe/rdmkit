@@ -24,6 +24,3 @@ In the event that you describe a domain specific tool assembly and no adequate D
 <!--- Add more sections as needed. --->
 ...
 
-## Training for the tool assembly? <!--- (optional) --->
-
-{% include tess.html search="<!---TAG--->" %}

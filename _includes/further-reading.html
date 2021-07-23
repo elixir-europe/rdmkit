@@ -1,11 +1,11 @@
 <!-- Further reading -->
 {%- capture page_tag %}{{page.page_tag}}{% endcapture %}
 {%- assign related_pages = site.pages | where:"tags", page_tag -%}
-{%- unless related_pages == blank %}
+{%- unless related_pages == blank and page.training == blank %}
 {%- assign sidebar = site.data.sidebars.main.subitems -%}
 <section class="section-light">
     <div class="container">
-        <h2>Related pages</h2>
+        <h2 class="text-center">Further reading</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <!-- Related pages -->
             {%- for sections in sidebar %}
@@ -26,6 +26,21 @@
             </div>
             {%- endunless %}
             {%- endfor %}
+            <!-- Training -->
+            {%- if page.training %}
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">Training</div>
+                    <ul class="list-group list-group-flush">
+                        {%- for training in page.training %}
+                        <li class="list-group-item">
+                            <a href="{{ training.url }}">{{training.name}}</a>
+                        </li>
+                        {%- endfor %}
+                    </ul>
+                </div>
+            </div>
+            {%- endif %}
         </div>
     </div>
 </section>
@@ -36,7 +51,7 @@
 {%- unless main_tags == blank %}
 <section class="section-light">
     <div class="container">
-        <h2>Relevant tools and resources</h2>
+        <h2 class="text-center">Relevant tools and resources</h2>
         {% include toollist.html tag=page_tag %}
     </div>
 </section>

@@ -2,6 +2,9 @@
 title: Processing
 page_tag: process
 contributors: [Rob Hooft, Munazah Andrabi]
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=data%20processing
 ---
 
 ## What is data processing?

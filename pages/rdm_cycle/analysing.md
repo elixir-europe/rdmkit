@@ -2,6 +2,9 @@
 title: Analysing
 page_tag: analyse
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=data%20analysis
 ---
 
 ## What is data analysis?

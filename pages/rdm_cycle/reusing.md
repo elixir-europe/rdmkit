@@ -2,6 +2,9 @@
 title: Reusing
 page_tag: reuse
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=data%20reuse
 ---
 
 ## What is data reuse?

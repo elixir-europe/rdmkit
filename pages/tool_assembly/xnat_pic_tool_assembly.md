@@ -4,6 +4,15 @@ contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo
 tags: [data organisation, storage, data analysis]
 page_tag: XNAT-PIC
 summary: XNAT for Preclinical Imaging Centers (XNAT-PIC) is a of set of tools to store, process and share preclinical imaging studies built on top of the XNAT imaging informatics platform.
+training:
+  - name: EOSC-Life website
+    url: https://www.eosc-life.eu/d5/
+  - name: Euro-Bioimaging website
+    url: https://www.eurobioimaging.eu/news/towards-sharing-and-reusing-of-preclinical-image-data
+  - name: Data Management - Biological and Preclinical Imaging Perspective
+    url: https://www.youtube.com/QNiAGuFk53w
+  - name: XNAT-PIC - expanding XNAT for image archiving and processing to Preclinical Imaging Centers
+    url: ttps://www.youtube.com/cpEcfIJJqCo
 ---
 
 ## Summary
@@ -33,22 +42,6 @@ XNAT-PIC consists of:
 2. **XNAT-PIC Uploader** to import and [store](storage) multimodal DICOM image datasets to XNAT
 
 3. **XNAT-PIC Pipelines** for [analysing](analysing) single or multiple subjects within the same project in XNAT.
-
-## Where can you find training materials and events about XNAT-PIC?
-
-* "Demonstrator 5: XNAT-PIC: expanding XNAT for image archiving and processing to Preclinical Imaging Centers". [EOSC-Life website](https://www.eosc-life.eu/d5/)
-
-* "Towards sharing and reusing of preclinical image data". [Euro-Bioimaging website](https://www.eurobioimaging.eu/news/towards-sharing-and-reusing-of-preclinical-image-data/)
-
-* "Data Management: Biological and Preclinical Imaging Perspective". Euro-Bioimaging Virtual Pub, February 12th, 2021. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QNiAGuFk53w" frameborder="0" allowfullscreen></iframe>
-
-
-* "XNAT-PIC: expanding XNAT for image archiving and processing to Preclinical Imaging Centers". Demonstrator 5 from Populating EOSC-Life: Success stories for the Demonstrators – Session 1 from January 13, 2021.
-  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cpEcfIJJqCo" frameborder="0" allowfullscreen></iframe>
-
 
 
 ## Citation

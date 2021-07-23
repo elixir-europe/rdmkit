@@ -3,6 +3,9 @@ title: Marine metagenomics
 contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
 tags: [metadata]
 page_tag: marine
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=marine%20metagenomics
 ---
 
 ## Introduction
@@ -40,8 +43,3 @@ The field of marine metagenomics has been in rapid expansion, with many statisti
 - Freely available software and pipelines, such as those listed below, can be an option compared to commercial analysis packages.
 - To get access to compute and storage you may contact your local IT department or national ELIXIR node which can guide you to the right facilities.
 
-
-## Training materials on marine metagenomics
-<!-- Link to Tess query -->
-
-{% include tess.html search="marine metagenomics" %}

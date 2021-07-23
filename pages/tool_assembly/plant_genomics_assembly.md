@@ -33,6 +33,3 @@ Genetic variant data must be produced in the VCF format, and validated using the
 Plant genomic data should be submitted to ENA together with metadata compliant to the [GSC MIxS plant associated checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000020),  whereas plant genotyping data should be submitted to EVA.
 Additionally, data can also be published in e!DAL-PGP.
 
-## Tools used within the tool assembly?
-
-{% include toollist.html tag="plant_geno_assembly" %}

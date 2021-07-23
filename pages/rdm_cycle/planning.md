@@ -2,6 +2,9 @@
 title: Planning
 page_tag: plan
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=data%20management%20planning
 ---
 
 ## What is Data Management Planning?

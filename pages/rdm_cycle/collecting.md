@@ -2,6 +2,9 @@
 title: Collecting
 page_tag: collect
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=data%20collection
 ---
 
 ## What is data collection?

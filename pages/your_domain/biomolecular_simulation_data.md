@@ -1,6 +1,11 @@
 ---
 title: Biomolecular simulation data
 page_tag: biomol sim
+training:
+  - name: Training in TeSS
+    url: https://tess.elixir-europe.org/search?q=biomolecular%20simulation
+  - name: BioExcel Knowledge Resource Center
+    url: https://krc.bioexcel.eu/training
 ---
 ## Introduction
 Biomolecular simulations are important technique for our understanding and design of biological molecules and their interactions. Simulation methods are demonstrating rapidly growing impact in areas as diverse as biocatalysis, drug delivery, biomaterials, biotechnology, and drug or protein design. Simulations offer the potential of uniquely detailed, atomic‐level insight into mechanisms, dynamics, and processes, as well as increasingly accurate predictions of molecular properties. Yet the field only relatively recently started to store and share (bio)simulation data to be reused for new, unexpected projects, and started discussions about their biomolecular simulation data FAIRification (i.e. to make them Findable, Accessible, Interoperable and Reusable). Here we show several current possibilities moving in this direction, but we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify their data.
@@ -102,9 +107,3 @@ There is no existing standard defining the type and format of the metadata neede
 
 * Data size
 Data generated in the biomolecular simulation field is growing at an alarming pace. Making this data available to the scientific community sometimes means transferring them to a long-term storage, and even this a priori straightforward process can be cumbersome because of the large data size. 
-
-
-## Where can training materials and events about biomolecular simulations be found?
-
-{% include tess.html search="biomolecular simulation" %}
-[BioExcel Knowledge Resource Center](https://krc.bioexcel.eu/training)
