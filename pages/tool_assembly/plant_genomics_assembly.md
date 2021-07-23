@@ -17,7 +17,7 @@ All the components of this tool assembly are publicly available, but most requir
 
 
 ## For what purpose can you use the plant genomics tool assembly?
-<!--- TODO: Add figure --->
+{% include image.html file="plant_genomics.svg" caption="Figure 1. The plant genomics tool assembly." alt="Tools and resources used in managing plant genomics and genotyping data." %}
 
 ### Metadata collection and tracking
 Accurate [documentation](metadata_management.html) of the plant biological materials and samples is critical for interoperability, and should comply with the [MIAPPE](https://www.miappe.org/) standard.
@@ -30,7 +30,7 @@ Reference genomes for genome assembly and annotation should be obtained from [EN
 Genetic variant data must be produced in the VCF format, and validated using the EVA vcf-validator (https://github.com/EBIvariation/vcf-validator).
 
 ### Data sharing and publishing
-Plant genomic data should be submitted to ENA together with metadata compliant to the [GSC MIxS plant associated checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000020),  whereas plant genotyping data should be submitted to EVA.
+Plant genomic data should be submitted to ENA together with metadata compliant to the [GSC MIxS plant associated checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000020), whereas plant genotyping data should be submitted to EVA.
 Additionally, data can also be published in e!DAL-PGP.
 
 ## Tools used within the tool assembly?
