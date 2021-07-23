@@ -1,24 +1,22 @@
 {%- if page.contributors %}
 <section class="section-light">
-    <div class="container">
+    <div class="container py-4">
         {%- assign allcontributors = site.data.CONTRIBUTORS -%}
         {%- assign contributors = page.contributors |sort -%}
-        <div class="meta-line p-3 mt-3">
-            <b>Contributors: </b> 
-            {%- for name in contributors | sort -%}{% assign id = allcontributors[name].git | default: 'no_github' -%}
-            {%- if id != 'no_github' %}
-            <a role="button" class="meta-obj" href="https://github.com/{{ id }}">
-            {%- else %}
-            <a class="meta-obj-false">
-            {%- endif %}
-            {%- if allcontributors[name].image_url %}
-            <img class="contributor-badge" src="{{ allcontributors[name].image_url }}"  alt="{{ name }}">{{ name }}
-            {%- else %}
-            <img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ name }}">{{ name }}
-            {%- endif %}
-            </a>
-            {% endfor -%}
-        </div>
+        <b>Contributors: </b> 
+        {%- for name in contributors | sort -%}{% assign id = allcontributors[name].git | default: 'no_github' -%}
+        {%- if id != 'no_github' %}
+        <a role="button" class="meta-obj text-decoration-none" href="https://github.com/{{ id }}">
+        {%- else %}
+        <a class="meta-obj-false">
+        {%- endif %}
+        {%- if allcontributors[name].image_url %}
+        <img class="contributor-badge" src="{{ allcontributors[name].image_url }}"  alt="{{ name }}">{{ name }}
+        {%- else %}
+        <img class="contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ name }}">{{ name }}
+        {%- endif %}
+        </a>
+        {% endfor -%}
     </div>
 </section>
 {%- endif %}

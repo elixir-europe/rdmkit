@@ -37,11 +37,16 @@ h1 {
     }
 }
 
-main h2, section h2 {
+main h2 {
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
     color: var(--primary-theme-color);
     margin: 40px 0 10px;
+}
+
+section h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
 }
 
 main h3, section h3 {
@@ -490,7 +495,6 @@ footer {
     color: var(--footer-color);
     font-size: 0.9em;
     line-height: 24px;
-    margin-top: 80px;
 }
 
 footer h2 {
@@ -519,11 +523,6 @@ footer .company-logo {
 }
 
 /*-----MetaData section -----*/
-
-.meta-line {
-    background-color: var(--light-grey);
-    border-radius: 4px;
-}
 
 .meta-obj {
     margin: 5px 5px 5px 0px;
@@ -876,4 +875,8 @@ iframe {
     height: 400px;
     width: 100%;
     margin: 40px 0;
+}
+
+.section-light {
+    background-color: var(--light-grey);
 }
