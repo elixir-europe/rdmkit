@@ -88,5 +88,5 @@ subitems:
       - title: XNAT-PIC
         url: /xnat_pic_tool_assembly.html
       - title: Plant Genomics Assembly
-        url: plant_genomics_assembly.md
+        url: /plant_genomics_assembly.html
         
