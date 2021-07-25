@@ -238,6 +238,7 @@ Tools:
   tags:
   - metadata
   - plants
+  - plant_geno_assembly
 - description: A database hosting datasets from biological studies. Useful for storing
     or accessing data that is not compliant for mainstream repositories.
   link: https://www.ebi.ac.uk/biostudies/
@@ -687,11 +688,13 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Data Stewardship Wizard
+- description: Publicly available online tool for composing smart data management
+    plans
   link: https://ds-wizard.org/
-  name: DS-Wizard
+  name: Data Stewardship Wizard
   registry:
     biotools: Data_Stewardship_Wizard
+    tess: Data Stewardship Wizard
   tags:
   - DMP
   - researcher
@@ -721,6 +724,7 @@ Tools:
     fairsharing: rf3m4g
   tags:
   - plants
+  - plant_geno_assembly
   - researcher
   - data manager
   - IT support
@@ -812,6 +816,14 @@ Tools:
     biotools: ensembl_genomes
     fairsharing: 923a0p
     tess: Ensembl Genomes
+- description: Open-access database of full genomes of plant species.
+  link: https://plants.ensembl.org/
+  name: Ensembl Plants
+  registry:
+    fairsharing: j8g2cv
+    tess: Ensembl Plants
+  tags:
+  - plant_geno_assembly
 - description: Regulation (eu) 2016/679 of the european parliament and of the council
     on the protection of natural persons with regard to the processing of personal
     data and on the free movement of such data, and repealing directive 95/46/ec (general
@@ -864,9 +876,20 @@ Tools:
   name: European Nucleotide Archive (ENA)
   registry:
     biotools: ena
+    fairsharing: dj8nt8
     tess: European Nucleotide Archive (ENA)
   tags:
   - micro biotech
+  - plant_geno_assembly
+- description: Open-access database of all types of genetic variation data from all
+    species.
+  link: https://www.ebi.ac.uk/eva/
+  name: European Variation Archive (EVA)
+  registry:
+    biotools: eva
+    fairsharing: 6824pv
+  tags:
+  - plant_geno_assembly
 - description: Controlled vocabulary that describes types of evidence and assertion
     methods
   link: https://evidenceontology.org/
@@ -1442,6 +1465,7 @@ Tools:
   - researcher
   - data manager
   - plants
+  - plant_geno_assembly
 - description: Cloud storage and file sharing service from Microsoft
   link: https://azure.microsoft.com/en-gb/
   name: Microsoft Azure
@@ -1485,6 +1509,7 @@ Tools:
   - researcher
   - data manager
   - marine
+  - plant_geno_assembly
 - description: A database of protein disorder and mobility annotations
   link: https://mobidb.org/
   name: MobiDB
@@ -1548,13 +1573,6 @@ Tools:
   - data protection
   - policy officer
   - human data
-  - transmed
-- description: "mPower is a free, 2 year mobile research study developed by Sage Bionetworks\
-    \ (nonprofit), with the goal of understanding the progression of Parkinson\u2019\
-    s Disease that appears to be unique to individuals."
-  link: https://parkinsonmpower.org
-  name: mPower
-  tags:
   - transmed
 - description: "a Magnetic Resonance Imaging (MRI) converter from ParaVision\xAE (Bruker,\
     \ Inc. Billerica, MA) file format to DICOM standard"
