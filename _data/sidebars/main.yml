@@ -87,4 +87,6 @@ subitems:
         url: /fr_ifb_assembly.html
       - title: XNAT-PIC
         url: /xnat_pic_tool_assembly.html
+      - title: Plant Genomics Assembly
+        url: /plant_genomics_assembly.html
         
