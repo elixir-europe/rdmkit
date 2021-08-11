@@ -3,7 +3,7 @@
 {%- assign related_pages = site.pages | where:"tags", page_tag -%}
 {%- unless related_pages == blank and page.training == blank %}
 {%- assign sidebar = site.data.sidebars.main.subitems -%}
-<section class="section-light mt-4">
+<section class="section-light">
     <div class="container py-4">
         <h2 class="text-center mb-4">Further reading</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
