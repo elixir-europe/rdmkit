@@ -16,14 +16,9 @@
         {%- unless page.search_exclude == true %}
         {%- for training in page.training%}
         <tr>
-            <td><a href="{{training.url | relative_url }}">{{training.name}}</a></td>
+            <td><a href="{{training.url | relative_url }}">{{training.name}}{%- if training.name == 'Training in TeSS'%} about {{page.title}}{%- endif %}</a></td>
             <td><a class="nohover" href="{{page.title | relative_url }}"><span class="badge default-badge">{{page.title}}</span></a></td>
-            <td>{%- if training.name == 'Training in TeSS'%}
-            <a data-bs-toggle="tooltip"
-                data-bs-original-title="Find training for this resource" href="https://tess.elixir-europe.org/" 
-                ><span class="badge registry_badge">TeSS</span></a>
-            {%- endif %}
-            </td> 
+            <td>{%- if training.name == 'Training in TeSS'%}<a href="https://tess.elixir-europe.org/"><span class="badge registry_badge">TeSS</span></a>{%- endif %}</td> 
         </tr>
         {%- endfor %}
         {%- endunless %}
