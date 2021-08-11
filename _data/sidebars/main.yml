@@ -67,6 +67,9 @@ subitems:
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
     hr: True
+  - title: All training resources
+    description: Browse the RDMkit's catalogue of training resources for research data management.
+    url: /all_training_resources.html
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     hr: True

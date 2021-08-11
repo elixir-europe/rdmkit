@@ -473,7 +473,7 @@ pre code {
     font-size: .9em
 }
 
-#tooltable td:nth-child(1) a {
+#tooltable td:nth-child(1) a, #trainingtable td:nth-child(1) a {
     font-weight: bold;
 }
 
