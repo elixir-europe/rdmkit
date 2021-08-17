@@ -161,17 +161,12 @@ pre code {
 
 .navbar-nav .nav-item a {
     color: var(--nav-color);
+    border-radius: 4px;
 }
 
-.navbar-nav .nav-item a:hover {
-    color: var(--primary-theme-color);
-    text-decoration: none;
-}
-
-.navbar-nav .nav-item a.active {
+.navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
     color: var(--white-text);
     background-color: var(--primary-theme-color);
-    border-radius: 4px;
 }
 
 .navbar-brand img {
@@ -200,6 +195,7 @@ pre code {
 
 .search .fa-search {
     position: absolute;
+    color: var(--primary-theme-color);
     top: 12px;
     left: 15px;
 }
