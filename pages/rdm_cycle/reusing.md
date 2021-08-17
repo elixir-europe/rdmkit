@@ -4,6 +4,8 @@ page_tag: reuse
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 training:
   - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=data%20reuse
 ---
 

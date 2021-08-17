@@ -3,6 +3,8 @@ title: Biomolecular simulation data
 page_tag: biomol sim
 training:
   - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=biomolecular%20simulation
   - name: BioExcel Knowledge Resource Center
     url: https://krc.bioexcel.eu/training

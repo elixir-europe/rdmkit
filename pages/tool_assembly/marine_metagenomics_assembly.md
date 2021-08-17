@@ -5,6 +5,8 @@ summary: Norwegian data management tool assembly for marine metagenomics data
 page_tag: marine assembly
 training:
   - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=marine+metagenomics
   - name: ELIXIR Norways training pages
     url: https://elixir.no/training/material

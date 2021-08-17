@@ -5,6 +5,8 @@ summary: Data management tool assembly from CSC - IT Center for Science and ELIX
 page_tag: CSC
 training:
   - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=csc
   - name: CSC - Bioscience webpages
     url: https://research.csc.fi/biosciences

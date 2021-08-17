@@ -6,6 +6,8 @@ tags: [IT support, data manager, researcher, DMP, storage, metadata, data analys
 page_tag: NeLS
 training:
   - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=norway
 ---
 

@@ -5,6 +5,8 @@ search_exclude: true
 page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
 training:
   - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=analysing%20data
 ---
 
