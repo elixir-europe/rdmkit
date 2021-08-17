@@ -577,10 +577,6 @@ footer .company-logo {
 
 /* ----- Home dropdown boxes ------ */
 
-.home-cards .card {
-    min-height: 9.5em;
-}
-
 h2.card-title {
     margin: 0 0 0.5rem 0;
 }
