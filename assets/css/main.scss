@@ -1,12 +1,18 @@
 ---
 ---
 
+
+$blue: #376AC3;
+$light: #f3f1f2;
+$dark: #2a2e3d;
+$secondary: #C23669;
+
+
 @import "bootstrap/bootstrap";
 
 :root {
     --primary-theme-color: #C23669;
     --secondary-theme-color: #2a2e3d;
-    --link-color: #376AC3;
     --light-grey: #f3f1f2;
     --white: #ffffff;
     --hover-grey: #74767f;
@@ -18,7 +24,6 @@
     --footer-color: var(--white);
     --white-text: var(--white);
 }
-
 
 /*-----General styling-----*/
 
@@ -74,11 +79,9 @@ main h3+h4 {
 
 main a {
     text-decoration: none;
-    color: var(--link-color);
 }
 
 main a:hover {
-    color: var(--link-color);
     text-decoration: underline;
 }
 
@@ -190,10 +193,6 @@ pre code {
     border: 1px solid var(--nav-bg);
 }
 
-#search-input:focus {
-    box-shadow: 0 0 0 0.25rem #c2366947;
-    border-color: var(--primary-theme-color);
-}
 
 .search {
     position: relative;
@@ -410,7 +409,6 @@ pre code {
 
 #toc {
     padding: 15px;
-    background-color: var(--light-grey);
     margin: 1.75em 0 2em;
     border-radius: 4px;
     max-width: 400px;
@@ -539,7 +537,7 @@ footer .company-logo {
 .meta-obj {
     margin: 5px 5px 5px 0px;
     background-color: var(--main-bg-color);
-    color: var(--link-color);
+    color: $blue;
     text-align: center;
     text-decoration: none;
     font-size: 0.9em;
