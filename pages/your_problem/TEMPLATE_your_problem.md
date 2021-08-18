@@ -39,6 +39,6 @@ Same as above
 Same as above
 
 ## Relevant tools and resources
-<!--- Automatically generated tools table; replace the TAG below with the PROBLEM TAG for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
+<!--- Automatically generated tools table; replace the TAG below with the PROBLEM TAG for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml). If it isn't listed there, please raise an issue.--->
 
 {% include toollist.html tag="ADD PAGE TAG HERE" %}
