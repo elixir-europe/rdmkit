@@ -32,7 +32,7 @@ A demo server maintained by the OME team is also available for users wishing to 
 
 ## Which tasks can be solved with OMERO?
 
-OMERO can be used for the day-to-day data management of data. Users can remotely view, annotate, analyze, generate figures ready for publication, etc.
+OMERO can be used for the day-to-day data management of data. Users can remotely view, [handle metadata](metadata_management), [analyze](data_analysis), generate figures ready for publication, etc.
 
 The plaform can also be used to publish data either using public repository like Image Data Repository (IDR) or by enabling the public user within the OMERO installation in a given institution e.g. [Liverpool CCI gallery](https://cci02.liv.ac.uk/gallery/).
 
