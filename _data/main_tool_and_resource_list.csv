@@ -270,4 +270,4 @@ XNAT,https://www.xnat.org/,"Open source imaging informatics platform. It facilit
 XNAT-PIC Pipelines,https://github.com/szullino/XNAT-PIC,Analysing of single or multiple subjects within the same project in XNAT,,"researcher, data manager, data analysis, XNAT-PIC",
 XNAT-PIC Uploader,https://github.com/szullino/XNAT-PIC,Import tool for multimodal DICOM image datasets to XNAT,,"researcher, data manager, collect, XNAT-PIC",
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data publication, biomol sim",
-Bio-Formats,https://www.openmicroscopy.org/bio-formats/,Bio-Formats is a software tool for reading and writing image data using standardized, open formats,biotools:bio-formats,"ome",
+Bio-Formats,https://www.openmicroscopy.org/bio-formats/,"Bio-Formats is a software tool for reading and writing image data using standardized, open formats",biotools:bio-formats,"ome",
