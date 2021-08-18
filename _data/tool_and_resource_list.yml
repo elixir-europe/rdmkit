@@ -800,6 +800,7 @@ Tools:
   name: EMPIAR
   tags:
   - data publication
+  - ome
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: https://www.ensembl.org/index.html
@@ -1231,6 +1232,7 @@ Tools:
   - data publication
   - metadata
   - transfer
+  - ome
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   link: http://purl.obolibrary.org/obo/ICO.owl
@@ -1666,6 +1668,7 @@ Tools:
   - data manager
   - IT support
   - storage
+  - ome
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
   link: https://www.omicsdi.org
@@ -2329,3 +2332,10 @@ Tools:
   tags:
   - data publication
   - biomol sim
+- description: Bio-Formats is a software tool for reading and writing image data using standardized, open formats
+  link: https://zenodo.org/
+  name: Bio-Formats
+  registry:
+    biotools: bio-formats
+  tags:
+  - ome
