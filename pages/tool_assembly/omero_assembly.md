@@ -2,7 +2,7 @@
 title: OMERO
 contributors: [Jean-Marie Burel]
 tags: [data organisation, storage, data analysis]
-page_tag: OMERO
+page_tag: ome
 summary: Tool assembly for managing imaging data
 ---
 
