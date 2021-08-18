@@ -40,5 +40,6 @@ I am interested in large scale high-throughput analysis of omics data and I have
 {% include pagelist.html tag="REPLACE BY TAG" %}
 
 ## Relevant tools and resources
+<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml). If it isn't listed there, please raise an issue.--->
 
 {% include toollist.html tag="REPLACE BY TAG" %}
