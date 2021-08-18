@@ -53,10 +53,3 @@ To find out more of what OMERO can offer, we encourage you to read the various m
 1. [Imaging Forum](https://forum.image.sc/): discussions about imaging related topics
 
 {% include toollist.html tag="ome"%}
-
-
-
-
-
-
-
