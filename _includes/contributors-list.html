@@ -1,12 +1,12 @@
 {%- if page.contributors %}
-<section class="section-light">
+<section class="bg-light">
     <div class="container py-4">
         {%- assign allcontributors = site.data.CONTRIBUTORS -%}
         {%- assign contributors = page.contributors |sort -%}
         <b>Contributors: </b> 
         {%- for name in contributors | sort -%}{% assign id = allcontributors[name].git | default: 'no_github' -%}
         {%- if id != 'no_github' %}
-        <a role="button" class="meta-obj text-decoration-none" href="https://github.com/{{ id }}">
+        <a role="button" class="meta-obj p-2 rounded-3" href="https://github.com/{{ id }}">
         {%- else %}
         <a class="meta-obj-false">
         {%- endif %}
