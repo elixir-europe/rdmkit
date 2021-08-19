@@ -2332,10 +2332,12 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Bio-Formats is a software tool for reading and writing image data using standardized, open formats
-  link: https://zenodo.org/
+- description: Bio-Formats is a software tool for reading and writing image data using
+    standardized, open formats
+  link: https://www.openmicroscopy.org/bio-formats/
   name: Bio-Formats
   registry:
     biotools: bio-formats
+    tess: Bio-Formats
   tags:
   - ome
