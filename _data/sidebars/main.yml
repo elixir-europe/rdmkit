@@ -84,11 +84,13 @@ subitems:
       - title: TransMed - Luxembourg
         url: /transmed_assembly.html
       - title: Marine Metagenomics - Norway
-        url: /marine_metagenomics_assembly.html      
+        url: /marine_metagenomics_assembly.html
       - title: IFB - France
         url: /fr_ifb_assembly.html
       - title: XNAT-PIC
         url: /xnat_pic_tool_assembly.html
       - title: Plant Genomics Assembly
         url: /plant_genomics_assembly.html
-        
+      - title: OMERO
+        url: /omero_assembly.html
+
