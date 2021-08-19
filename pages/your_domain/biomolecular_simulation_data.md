@@ -1,6 +1,6 @@
 ---
 title: Biomolecular simulation data
-page_tag: biomol sim
+page_id: biomol sim
 training:
   - name: Training in TeSS
     registry: TeSS

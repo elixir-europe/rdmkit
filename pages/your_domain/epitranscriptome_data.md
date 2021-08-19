@@ -1,7 +1,7 @@
 ---
 title: Epitranscriptome data
 contributors: [Ernesto Picardi]
-page_tag: epitrans
+page_id: epitrans
 ---
 
 ## Introduction

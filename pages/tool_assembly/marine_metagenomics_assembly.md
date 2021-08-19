@@ -2,7 +2,7 @@
 title: Marine Metagenomics - Norway
 contributors: [Nazeefa Fatima, Espen Åberg, Nils P Willassen]
 summary: Norwegian data management tool assembly for marine metagenomics data
-page_tag: marine assembly
+page_id: marine assembly
 training:
   - name: Training in TeSS
     registry: TeSS

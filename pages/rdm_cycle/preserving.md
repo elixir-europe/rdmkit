@@ -1,6 +1,6 @@
 ---
 title: Preserving
-page_tag: preserve
+page_id: preserve
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 training:
   - name: Training in TeSS

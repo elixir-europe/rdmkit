@@ -3,7 +3,7 @@ title: TSD for sensitive data - Norway
 contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl]
 summary: This is a Data Management tools assembly for sensitive data around TSD. TSD as an infrastructure is aimed for researchers in Norway and their collaborators, but can be used by anyone.
 tags: [IT support, data manager, researcher, human data, DMP, storage, sensitive]
-page_tag: TSD
+page_id: TSD
 training:
   - name: Documentation for the HPC cluster
     url: https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/colossus-userguide

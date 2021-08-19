@@ -3,7 +3,7 @@ title: Data protection
 contributors: [Pinar Alper]
 tags: [plan, preserve, share, IT support, policy officer, data manager]
 description: how to make research data compliant to GDPR.
-page_tag: data protection
+page_id: data protection
 training:
   - name: Training in TeSS
     registry: TeSS

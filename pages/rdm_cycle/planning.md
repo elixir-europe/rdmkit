@@ -1,6 +1,6 @@
 ---
 title: Planning
-page_tag: plan
+page_id: plan
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 training:
   - name: Training in TeSS

@@ -1,6 +1,6 @@
 ---
 title: Sharing
-page_tag: share
+page_id: share
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
 training:
   - name: Training in TeSS

@@ -3,7 +3,7 @@ title: Data analysis
 contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
 tags: [analyse, process, reuse, researcher, IT support]
 description: how to make data analysis FAIR.
-page_tag: data analysis
+page_id: data analysis
 ---
 
 ## What are the best practices for data analysis?

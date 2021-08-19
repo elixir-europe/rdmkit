@@ -1,7 +1,7 @@
 ---
 title: Data steward infrastructure
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
-page_tag: IT support
+page_id: IT support
 ---
 
 ## Description

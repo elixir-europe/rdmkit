@@ -1,6 +1,6 @@
 ---
 title: Analysing
-page_tag: analyse
+page_id: analyse
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 training:
   - name: Training in TeSS

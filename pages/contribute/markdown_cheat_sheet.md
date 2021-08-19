@@ -55,7 +55,7 @@ tags: [research_it]
 
 * `tags`: If you want to tag this page list the tag using this attribute
 
-* `page_tag`: The tag that is used to link towards this page from other pages or in the tools table.
+* `page_id`: The tag that is used to link towards this page from other pages or in the tools table.
 
 * `datatable`: use this attribute to activate the pagination + sorting + searching in tables
 

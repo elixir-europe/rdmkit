@@ -2,7 +2,7 @@
 title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
 training:
   - name: Training in TeSS
     registry: TeSS

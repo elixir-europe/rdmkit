@@ -1,7 +1,7 @@
 ---
 title: Human data
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
-page_tag: human data
+page_id: human data
 training:
   - name: Training in TeSS
     registry: TeSS

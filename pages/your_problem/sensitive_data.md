@@ -3,7 +3,7 @@ title: Sensitive data
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
 tags: [share, collect, process, policy officer]
 description: how to identify different research data types.
-page_tag: sensitive
+page_id: sensitive
 ---
 
 ## Is your data sensitive?

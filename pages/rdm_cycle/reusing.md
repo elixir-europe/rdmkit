@@ -1,6 +1,6 @@
 ---
 title: Reusing
-page_tag: reuse
+page_id: reuse
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 training:
   - name: Training in TeSS

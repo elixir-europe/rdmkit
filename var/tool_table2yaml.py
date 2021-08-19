@@ -59,15 +59,15 @@ main_dict_key = "Tools"
 rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
-print(f"----> Reading out page_tag from each file.")
+print(f"----> Reading out page_id from each file.")
 allowed_tags = []
 for subdir, dirs, files in os.walk(rootdir):
     for file_name in files:
         if os.path.splitext(file_name)[1] == '.md':
             with open(os.path.join(subdir, file_name)) as f:
                 metadata, content = frontmatter.parse(f.read())
-            if 'page_tag' in metadata.keys() and 'search_exclude' not in metadata.keys():
-                allowed_tags.append(metadata['page_tag'])
+            if 'page_id' in metadata.keys() and 'search_exclude' not in metadata.keys():
+                allowed_tags.append(metadata['page_id'])
 
 print(f"----> Allowed tags: {', '.join(allowed_tags)}.")
 
@@ -88,9 +88,9 @@ with open(table_path, 'r') as read_obj:
                     output = re.split(', |,', cell)
                     for tag in output:
                         if tag not in allowed_tags:
-                            print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_tag" attribute.')
+                            print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
                             sys.exit(
-                                f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_tag" attribute.')
+                                f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
                 elif header[col_index] == 'country' and cell:# Only include keys if there are values:
                     output = re.split(', |,', cell)
                 elif header[col_index] == 'registry':

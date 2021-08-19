@@ -2,7 +2,7 @@
 title: Plant sciences
 contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
 tags: [metadata]
-page_tag: plants
+page_id: plants
 training:
   - name: Training in TeSS
     registry: TeSS

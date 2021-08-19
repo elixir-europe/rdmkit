@@ -2,7 +2,7 @@
 title: <Your persona>
 summary: Fill in your summary or delete this property when not needed
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
 search_exclude: true
 ---
 

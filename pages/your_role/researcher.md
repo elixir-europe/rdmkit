@@ -1,7 +1,7 @@
 ---
 title: Researcher
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona, Munazah Andrabi]
-page_tag: researcher
+page_id: researcher
 ---
 
 ## Applies to

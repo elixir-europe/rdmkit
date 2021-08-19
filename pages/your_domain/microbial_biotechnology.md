@@ -1,7 +1,7 @@
 ---
 title: Microbial biotechnology
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
-page_tag: micro biotech
+page_id: micro biotech
 ---
 
 ## Introduction

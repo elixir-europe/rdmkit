@@ -1,6 +1,6 @@
 <!-- Further reading -->
-{%- capture page_tag %}{{page.page_tag}}{% endcapture %}
-{%- assign related_pages = site.pages | where:"tags", page_tag -%}
+{%- capture page_id %}{{page.page_id}}{% endcapture %}
+{%- assign related_pages = site.pages | where:"tags", page_id -%}
 {%- unless related_pages == blank and page.training == blank %}
 {%- assign sidebar = site.data.sidebars.main.subitems -%}
 <section class="bg-light">
@@ -50,13 +50,13 @@
 </section>
 {%- endunless %}
 <!-- Tool table -->
-{%- if page.page_tag %}
-{%- assign main_tags = site.data.tool_and_resource_list.Tools | where:"tags", page_tag -%}
+{%- if page.page_id %}
+{%- assign main_tags = site.data.tool_and_resource_list.Tools | where:"tags", page_id -%}
 {%- unless main_tags == blank %}
 <section>
     <div class="container py-4">
         <h2 class="text-center mb-4">Relevant tools and resources</h2>
-        {% include toollist.html tag=page_tag %}
+        {% include toollist.html tag=page_id %}
     </div>
 </section>
 {%- endunless %}

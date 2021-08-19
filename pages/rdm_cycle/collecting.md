@@ -1,6 +1,6 @@
 ---
 title: Collecting
-page_tag: collect
+page_id: collect
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 training:
   - name: Training in TeSS
