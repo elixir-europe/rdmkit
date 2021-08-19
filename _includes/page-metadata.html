@@ -1,9 +1,9 @@
 {%- if page.tags != null %}
-<div class="meta-line p-3 mt-3">
+<div class="bg-light rounded-3 p-3 mt-3">
     <b>Related pages: </b>
     {%- for tag in page.tags | sort %}
     {%- assign related_page = site.pages | where:"page_tag",tag | first %}
-    <a href="{{ related_page.url }}" class="meta-obj"
+    <a href="{{ related_page.url }}" class="meta-obj p-2 rounded-3"
         role="button">{{related_page.title}}</a>
     {%- endfor %}
 </div>
@@ -11,11 +11,11 @@
 {%- if page.contributors %}
 {%- assign allcontributors = site.data.CONTRIBUTORS -%}
 {%- assign contributors = page.contributors |sort -%}
-<div class="meta-line p-3 mt-3">
+<div class="bg-light rounded-3 p-3 mt-3">
     <b>Contributors: </b> 
     {%- for name in contributors | sort -%}{% assign id = allcontributors[name].git | default: 'no_github' -%}
     {%- if id != 'no_github' %}
-    <a role="button" class="meta-obj" href="https://github.com/{{ id }}">
+    <a role="button" class="meta-obj p-2 rounded-3" href="https://github.com/{{ id }}">
     {%- else %}
     <a class="meta-obj-false">
     {%- endif %}

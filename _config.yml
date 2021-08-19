@@ -41,6 +41,10 @@ kramdown:
  auto_ids: true
  hard_wrap: false
 
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 defaults:
   -
     scope:
