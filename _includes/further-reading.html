@@ -3,61 +3,59 @@
 {%- assign related_pages = site.pages | where:"tags", page_id -%}
 {%- unless related_pages == blank and page.training == blank %}
 {%- assign sidebar = site.data.sidebars.main.subitems -%}
-<section class="bg-light">
-    <div class="container py-4">
-        <h2 class="text-center mb-4">Further reading</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <!-- Related pages -->
-            {%- for sections in sidebar %}
-            {%- assign section = sections.title %}
-            {%- assign section_pages = related_pages | where:"type", section %}
-            {%- unless section_pages == blank %}
-            <div class="col">
-                <div class="card">
-                    <div class="card-header fw-bold">Related pages in "{{section}}"</div>
-                    <div class="card-body">
-                        <ul class="list-unstyled">
-                            {%- for section_page in section_pages %}
-                            <li>
-                                <a href="{{ section_page.url | relative_url }}">{{section_page.title}}</a>{% if section_page.description %}: {{ section_page.description }}{% endif %}
-                            </li>
-                            {%- endfor %}
-                        </ul>
-                    </div>
+<div class="p-4 bg-light rounded-3 mt-4">
+    <h2 class="text-center m-0 mb-4">Further reading</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Related pages -->
+        {%- for sections in sidebar %}
+        {%- assign section = sections.title %}
+        {%- assign section_pages = related_pages | where:"type", section %}
+        {%- unless section_pages == blank %}
+        <div class="col">
+            <div class="card">
+                <div class="card-header fw-bold">Related pages in "{{section}}"</div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        {%- for section_page in section_pages %}
+                        <li>
+                            <a href="{{ section_page.url | relative_url }}">{{section_page.title}}</a>{% if section_page.description %}: {{ section_page.description }}{% endif %}
+                        </li>
+                        {%- endfor %}
+                    </ul>
                 </div>
             </div>
-            {%- endunless %}
-            {%- endfor %}
-            <!-- Training -->
-            {%- if page.training %}
-            <div class="col">
-                <div class="card">
-                    <div class="card-header fw-bold">Training</div>
-                    <div class="card-body">
-                        <ul class="list-unstyled">
-                            {%- for training in page.training %}
-                            <li>
-                                <a href="{{ training.url }}">{{training.name}}</a>
-                            </li>
-                            {%- endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            {%- endif %}
         </div>
+        {%- endunless %}
+        {%- endfor %}
+        <!-- Training -->
+        {%- if page.training %}
+        <div class="col">
+            <div class="card">
+                <div class="card-header fw-bold">Training</div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        {%- for training in page.training %}
+                        <li>
+                            <a href="{{ training.url }}">{{training.name}}</a>
+                        </li>
+                        {%- endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {%- endif %}
     </div>
-</section>
+</div>
 {%- endunless %}
 <!-- Tool table -->
 {%- if page.page_id %}
 {%- assign main_tags = site.data.tool_and_resource_list.Tools | where:"tags", page_id -%}
 {%- unless main_tags == blank %}
-<section>
-    <div class="container py-4">
-        <h2 class="text-center mb-4">Relevant tools and resources</h2>
-        {% include toollist.html tag=page_id %}
-    </div>
-</section>
+
+<div class="p-4 rounded-3">
+    <h2 class="text-center m-0 mb-4">Relevant tools and resources</h2>
+    {% include toollist.html tag=page_id %}
+</div>
+
 {%- endunless %}
 {%- endif %}
