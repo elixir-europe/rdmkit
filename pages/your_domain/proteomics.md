@@ -67,7 +67,7 @@ In order to make proteomics data and results worldwide findable and accessible f
 
 ### Solution
 - You can find an appropriate data repository via the website of the [ProteomeXchange](http://www.proteomexchange.org/) Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include PRIDE, PepideAtlasq, MassIVE, jPOST, iProx and PanoramaPublic.
-- Information on data uploads can be found on http://www.proteomexchange.org/submission or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a submission tool that can be downloaded here [LINK] (more information on PRIDE submissions can be found here: [LINK]).
+- Information on data uploads can be found on http://www.proteomexchange.org/submission or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool).
 - There are data repository-specific requirements.
 -- Advantages: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools
 
