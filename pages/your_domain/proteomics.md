@@ -35,7 +35,7 @@ The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ([HUPO-PS
 - mzTab - a tab delimited text file format to report proteomics and metabolomics results.
  
 
-## Software Tools
+## Processing and analysis of proteomics data
 
 ### Description
 For all steps within a FAIR proteomics data analysis pipeline software is needed that imports standard data formats and exports standard data formats including all needed results and metadata.
@@ -52,7 +52,7 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 - Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., https://www.psidev.info/mzML for mzML, https://www.psidev.info/mzidentml for mzIdentML and https://www.psidev.info/mztab for mzTab).
 
 
-## Data repositories
+## Preserving and sharing proteomics data
 
 ### Description
 In order to make proteomics data and results worldwide findable and accessible for other researchers and software FAIR public data repositories are needed. 
