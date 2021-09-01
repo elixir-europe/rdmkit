@@ -1658,7 +1658,7 @@ Tools:
   - transmed
 - description: OMERO is an open-source client-server platform for managing, visualizing
     and analyzing microscopy images and associated metadata
-  link: www.openmicroscopy.org
+  link: https://www.openmicroscopy.org
   name: OMERO
   registry:
     biotools: omero
