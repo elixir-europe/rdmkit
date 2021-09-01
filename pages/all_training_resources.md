@@ -4,11 +4,9 @@ datatable: true
 toc: false
 ---
 
-Overview of all training resources, not yet present in TeSS, mentioned in RDMkit pages under “Show additional training resources”. This overview is generated automatically from the different RDMkit pages.
+Overview of all training resources mentioned in RDMkit pages. This overview is automatically generated.
 
-You can find a subset if these training resources, not yet present in TeSS, listed in different RDMkit pages under “Show additional training resources”.
-
-It is recommended to add your training materials and events into the ELIXIR training registry TeSS.
+It is recommended to add your training materials and events into the ELIXIR training registry [TeSS](https://tess.elixir-europe.org/).
 
 
 {% include traininglist.html %}
