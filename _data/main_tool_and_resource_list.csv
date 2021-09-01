@@ -191,7 +191,7 @@ NextCloud,https://nextcloud.com,"As fully on-premises solution, Nextcloud Hub pr
 Nextflow,https://www.nextflow.io,Nextflow is a framework for data analysis workflow execution,,"IT support, data analysis",
 NMRlipids,http://nmrlipids.blogspot.com/,Repository for lipid MD simulations to validate force fields with NMR data,,biomol sim,
 OHDSI,https://ohdsi.org/,"Multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.",biotools:ohdsi,"researcher, data manager, data analysis, storage, transmed",
-OMERO,www.openmicroscopy.org,"OMERO is an open-source client-server platform for managing, visualizing and analyzing microscopy images and associated metadata",biotools:omero,"metadata, data manager, IT support, storage, ome",
+OMERO,https://www.openmicroscopy.org,"OMERO is an open-source client-server platform for managing, visualizing and analyzing microscopy images and associated metadata",biotools:omero,"metadata, data manager, IT support, storage, ome",
 OmicsDI,https://www.omicsdi.org,"Omics Discovery Index (OmicsDI) provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)","biotools:omicsdi, fairsharing:re1278",existing data,
 OMOP-CDM,https://ohdsi.github.io/CommonDataModel/,OMOP is a common data model for the harmonisation for of observational health data.,,transmed,
 Ontobee,http://www.ontobee.org,A web portal to search and visualise ontologies,,"metadata, data manager, researcher",
