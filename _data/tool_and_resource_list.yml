@@ -201,6 +201,15 @@ Tools:
   name: BioExcel COVID-19
   tags:
   - biomol sim
+- description: Bio-Formats is a software tool for reading and writing image data using
+    standardized, open formats
+  link: https://www.openmicroscopy.org/bio-formats/
+  name: Bio-Formats
+  registry:
+    biotools: bio-formats
+    tess: Bio-Formats
+  tags:
+  - ome
 - description: The BioImage Archive stores and distributes biological images that
     are useful to life-science researchers.
   link: https://www.ebi.ac.uk/bioimage-archive/
@@ -238,7 +247,7 @@ Tools:
   tags:
   - metadata
   - plants
-  - plant_geno_assembly
+  - plant geno assembly
 - description: A database hosting datasets from biological studies. Useful for storing
     or accessing data that is not compliant for mainstream repositories.
   link: https://www.ebi.ac.uk/biostudies/
@@ -402,6 +411,14 @@ Tools:
   - data analysis
   - researcher
   - IT support
+- description: ChIPSummitDB is a database of transcription factor binding sites and
+    the distances of the binding sites relative to the peak summits.
+  link: http://summit.med.unideb.hu/summitdb/
+  name: ChIPSummitDB
+  registry:
+    biotools: chipsummitdb
+  tags:
+  - human data
 - description: Choose an open source license
   link: https://choosealicense.com
   name: Choose a license
@@ -724,7 +741,7 @@ Tools:
     fairsharing: rf3m4g
   tags:
   - plants
-  - plant_geno_assembly
+  - plant geno assembly
   - researcher
   - data manager
   - IT support
@@ -824,7 +841,7 @@ Tools:
     fairsharing: j8g2cv
     tess: Ensembl Plants
   tags:
-  - plant_geno_assembly
+  - plant geno assembly
 - description: Regulation (eu) 2016/679 of the european parliament and of the council
     on the protection of natural persons with regard to the processing of personal
     data and on the free movement of such data, and repealing directive 95/46/ec (general
@@ -881,7 +898,7 @@ Tools:
     tess: European Nucleotide Archive (ENA)
   tags:
   - micro biotech
-  - plant_geno_assembly
+  - plant geno assembly
 - description: Open-access database of all types of genetic variation data from all
     species.
   link: https://www.ebi.ac.uk/eva/
@@ -890,7 +907,7 @@ Tools:
     biotools: eva
     fairsharing: 6824pv
   tags:
-  - plant_geno_assembly
+  - plant geno assembly
 - description: Controlled vocabulary that describes types of evidence and assertion
     methods
   link: https://evidenceontology.org/
@@ -1467,7 +1484,7 @@ Tools:
   - researcher
   - data manager
   - plants
-  - plant_geno_assembly
+  - plant geno assembly
 - description: Cloud storage and file sharing service from Microsoft
   link: https://azure.microsoft.com/en-gb/
   name: Microsoft Azure
@@ -1511,7 +1528,7 @@ Tools:
   - researcher
   - data manager
   - marine
-  - plant_geno_assembly
+  - plant geno assembly
 - description: A database of protein disorder and mobility annotations
   link: https://mobidb.org/
   name: MobiDB
@@ -1583,7 +1600,6 @@ Tools:
   tags:
   - researcher
   - data manager
-  - process
   - XNAT-PIC
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications. Also boasts integrated
@@ -1618,7 +1634,6 @@ Tools:
   link: https://nettskjema.no/
   name: Nettskjema
   tags:
-  - collect
   - sensitive
   - TSD
 - description: As fully on-premises solution, Nextcloud Hub provides the benefits
@@ -1658,7 +1673,7 @@ Tools:
   - transmed
 - description: OMERO is an open-source client-server platform for managing, visualizing
     and analyzing microscopy images and associated metadata
-  link: www.openmicroscopy.org
+  link: https://www.openmicroscopy.org
   name: OMERO
   registry:
     biotools: omero
@@ -2251,8 +2266,6 @@ Tools:
   - sensitive
   - TSD
   - storage
-  - process
-  - analyse
 - description: Comprehensive resource for protein sequence and annotation data
   link: https://www.uniprot.org/
   name: UniProt
@@ -2320,7 +2333,6 @@ Tools:
   tags:
   - researcher
   - data manager
-  - collect
   - XNAT-PIC
 - description: Generalist research data repository built and developed by OpenAIRE
     and CERN
@@ -2332,12 +2344,3 @@ Tools:
   tags:
   - data publication
   - biomol sim
-- description: Bio-Formats is a software tool for reading and writing image data using
-    standardized, open formats
-  link: https://www.openmicroscopy.org/bio-formats/
-  name: Bio-Formats
-  registry:
-    biotools: bio-formats
-    tess: Bio-Formats
-  tags:
-  - ome
