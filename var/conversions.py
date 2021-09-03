@@ -56,7 +56,7 @@ def remove_prefix(s, prefix):
 
 table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
-tags_path = "_data/page_ids.yml"
+related_pages_path = "_data/page_ids.yml"
 main_dict_key = "Tools"
 rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
@@ -76,7 +76,7 @@ for subdir, dirs, files in os.walk(rootdir):
                 if 'description' in metadata:
                     pages_metadata[metadata['page_id']]['description'] = metadata['description']
 
-print(f"----> Allowed tags: {', '.join(pages_metadata.keys())}.")
+print(f"----> Allowed related_pages: {', '.join(pages_metadata.keys())}.")
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
@@ -91,7 +91,7 @@ with open(table_path, 'r') as read_obj:
             tool = {}
             tool_name = row[0]
             for col_index, cell in enumerate(row):
-                if header[col_index] == 'tags' and cell:# Only include keys if there are values:
+                if header[col_index] == 'related_pages' and cell:# Only include keys if there are values:
                     output = re.split(', |,', cell)
                     for tag in output:
                         if tag not in pages_metadata.keys():

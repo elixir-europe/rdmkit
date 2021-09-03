@@ -53,8 +53,8 @@
 {%- endif %}
 <!-- Tool table -->
 {%- if page.page_id %}
-{%- assign main_tags = site.data.tool_and_resource_list.Tools | where:"tags", page.page_id -%}
-{%- unless main_tags == blank %}
+{%- assign main_related_pages = site.data.tool_and_resource_list.Tools | where:"related_pages", page.page_id -%}
+{%- unless main_related_pages == blank %}
 
 <h2>Relevant tools and resources</h2>
 {% include toollist.html tag=page.page_id %}
