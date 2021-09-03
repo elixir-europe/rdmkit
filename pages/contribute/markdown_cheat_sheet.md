@@ -53,11 +53,11 @@ related_pages:
 
 * `toc`: When set to false, the table of contents in the beginning of the page will not be generated.
 
-* `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list `Related pages`.
+* `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list Related pages.
 
-* `related_pages`: List here the `page_id` of RDMkit pages that you want to display as `Related pages`, grouped by section (`Your problem`, `Your domain`, `Tool assembly`).
+* `related_pages`: List here the `page_id` of RDMkit pages that you want to display as Related pages, grouped by section (Your problem, Your domain, Tool assembly).
 
-  If you want pages from the specific section (`Your problem`, `Your domain`, `Tool assembly`) to be shown here as `Related pages`, list their page_id. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
+  If you want pages from the specific section (Your problem, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
 ```yml
 related_pages: 
    - your_problem: [page_id1, page_id2]
@@ -364,7 +364,7 @@ Text
 
 ## Add "Related pages" to a page 
 
-If you want pages from the specific sections `Your problem`, `Your domain` and `Tool assembly` to be shown as `Related pages`, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
+If you want pages from the specific sections Your problem, Your domain and Tool assembly to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
 
 An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
 
