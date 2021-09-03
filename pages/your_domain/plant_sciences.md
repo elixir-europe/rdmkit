@@ -3,6 +3,9 @@ title: Plant sciences
 contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
 related_pages: 
 page_id: plants
+related_pages: 
+  - your_problem: [metadata]
+  - tool_assembly: [plant geno assembly]
 training:
   - name: Training in TeSS
     registry: TeSS

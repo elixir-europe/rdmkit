@@ -2,7 +2,9 @@
 title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
-page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+related_pages: 
+  - your_problem: [<!---REPLACE THIS with the page ID of the your_problem pages that you want to list here as related pages--->]
 training:
   - name: Training in TeSS
     registry: TeSS

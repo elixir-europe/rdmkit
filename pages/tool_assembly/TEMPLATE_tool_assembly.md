@@ -1,9 +1,17 @@
 ---
 title: Assembly page title
 search_exclude: true
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
+summary: <!---REPLACE THIS with a very short summary (one sentence) --->
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
 related_pages: 
-page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
+  - your_problem: [<!---REPLACE THIS with the page ID of the your_problem pages that you want to list here as related pages--->]
+  - your_domain: [<!---REPLACE THIS with the page ID of the your_domain pages that you want to list here as related pages--->]
+training:
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 <!--- Tool Assembly pages should detail a particular data management tool assembly which covers one more life cycle stages from an infrastructural or domain perspective. For an example for an infrastructural example, please see: https://github.com/elixir-europe/rdmkit/blob/master/pages/tool_assembly/nels_assembly.md 

@@ -2,8 +2,10 @@
 title: Structural Bioinformatics
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-related_pages: 
 page_id: struct info
+related_pages: 
+  - your_problem: []
+  - tool_assembly: []
 ---
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.

@@ -2,6 +2,9 @@
 title: Microbial biotechnology
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
 page_id: micro biotech
+related_pages: 
+  - your_problem: []
+  - tool_assembly: []
 ---
 
 ## Introduction

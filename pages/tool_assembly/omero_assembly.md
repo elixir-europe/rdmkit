@@ -1,8 +1,10 @@
 ---
 title: OMERO
-contributors: [Jean-Marie Burel]
-related_pages: 
+contributors: [Jean-Marie Burel] 
 page_id: ome
+related_pages: 
+  - your_problem: [data organisation, storage, data analysi]
+  - your_domain: []
 summary: Tool assembly for managing imaging data
 training:
   - name: General information about the OME ecosystem 

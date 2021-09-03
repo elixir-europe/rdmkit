@@ -2,6 +2,8 @@
 title: Processing
 page_id: process
 contributors: [Rob Hooft, Munazah Andrabi]
+related_pages: 
+  - your_problem: [data analysis, data organisation, data quality, sensitive]
 training:
   - name: Training in TeSS
     registry: TeSS
