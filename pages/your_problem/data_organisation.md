@@ -1,7 +1,7 @@
 ---
 title: Data organisation
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
-tags: [collect, process, analyse, preserve, researcher, IT support, data manager]
+related_pages: 
 description: best practices to name and organise research data.
 page_id: data organisation
 ---

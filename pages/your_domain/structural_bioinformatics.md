@@ -2,7 +2,7 @@
 title: Structural Bioinformatics
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
+related_pages: 
 page_id: struct info
 ---
 

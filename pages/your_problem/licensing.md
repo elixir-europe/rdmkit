@@ -1,7 +1,7 @@
 ---
 title: Licensing
 contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
-tags: [share, reuse, data manager, policy officer]
+related_pages: 
 description: how to license research data.
 page_id: licensing
 ---

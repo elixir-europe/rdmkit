@@ -1,6 +1,8 @@
 ---
 title: Analysing
 page_id: analyse
+related_pages: 
+  - your_problem: [data analysis, data organisation, storage]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 training:
   - name: Training in TeSS

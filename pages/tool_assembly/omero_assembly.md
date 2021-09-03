@@ -1,7 +1,7 @@
 ---
 title: OMERO
 contributors: [Jean-Marie Burel]
-tags: [data organisation, storage, data analysis]
+related_pages: 
 page_id: ome
 summary: Tool assembly for managing imaging data
 training:

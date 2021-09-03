@@ -1,14 +1,11 @@
 <!-- Further reading -->
-{%- capture page_id %}{{page.page_id}}{% endcapture %}
-{%- assign related_pages = site.pages | where:"tags", page_id -%}
-{%- unless related_pages == blank and page.training == blank %}
 {%- assign sidebar = site.data.sidebars.main.subitems -%}
 <div class="p-4 bg-light rounded-3 mt-4">
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <!-- Related pages -->
         {%- for sections in sidebar %}
         {%- assign section = sections.title %}
-        {%- assign section_pages = related_pages | where:"type", section %}
+        {%- assign section_pages = site.data | where:"type", section %}
         {%- unless section_pages == blank %}
         <div class="col">
             <div class="card">
@@ -45,10 +42,9 @@
         {%- endif %}
     </div>
 </div>
-{%- endunless %}
 <!-- Tool table -->
 {%- if page.page_id %}
-{%- assign main_tags = site.data.tool_and_resource_list.Tools | where:"tags", page_id -%}
+{%- assign main_tags = site.data.tool_and_resource_list.Tools | where:"tags", page.page_id -%}
 {%- unless main_tags == blank %}
 
 <h2>Relevant tools and resources</h2>

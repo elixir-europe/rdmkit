@@ -1,7 +1,7 @@
 ---
 title: Data analysis
 contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
-tags: [analyse, process, reuse, researcher, IT support]
+related_pages: 
 description: how to make data analysis FAIR.
 page_id: data analysis
 ---

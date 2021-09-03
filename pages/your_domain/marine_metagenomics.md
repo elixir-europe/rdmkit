@@ -1,7 +1,7 @@
 ---
 title: Marine metagenomics
 contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
-tags: [metadata]
+related_pages: 
 page_id: marine
 training:
   - name: Training in TeSS

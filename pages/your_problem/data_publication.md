@@ -1,7 +1,7 @@
 ---
 title: Data publication
 contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander]
-tags: [preserve, share, researcher, data manager]
+related_pages: 
 description: prepare data and find repositories for publication.
 page_id: data publication
 ---

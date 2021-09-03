@@ -2,7 +2,7 @@
 title: Assembly page title
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
+related_pages: 
 page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
 ---
 

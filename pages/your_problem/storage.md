@@ -1,7 +1,7 @@
 ---
 title: Data storage
 contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi, Flora D'Anna, Flavio Licciulli, Ott Oopkaup, Marcus Lundberg, Thanasis Vergoulis, Frederik Coppens, Olivier Collin, Nadia Tonello, Korbinian Bösl]
-tags: [collect, analyse, preserve, share, IT support]
+related_pages: 
 description: how to find appropriate storage solutions.
 page_id: storage
 ---

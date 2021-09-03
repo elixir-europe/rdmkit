@@ -1,7 +1,7 @@
 ---
 title: Data quality
 contributors: [Wei Gu, Pinar Alper]
-tags: [collect, process, researcher, data manager]
+related_pages: 
 description: ensure high quality research data.
 page_id: data quality
 ---

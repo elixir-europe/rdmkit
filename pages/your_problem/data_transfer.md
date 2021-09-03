@@ -1,7 +1,7 @@
 ---
 title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi]
-tags: [preserve, share, reuse, IT support, data manager]
+related_pages: 
 description: how to transfer data files.
 page_id: transfer
 ---

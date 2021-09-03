@@ -1,7 +1,7 @@
 ---
 title: Intrinsically disordered proteins
 contributors: [Ivan Mičetić]
-tags: [metadata]
+related_pages: 
 page_id: IDP
 ---
 

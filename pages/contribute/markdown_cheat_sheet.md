@@ -31,7 +31,7 @@ search_exclude: true
 datatable: true
 toc: false
 custom-editme: _data/tool_and_resource_list.xlsx
-tags: [research_it] 
+related_pages:  
 ---
 ```
 
@@ -373,7 +373,7 @@ This metadata example shows how we tag the "Storage" page with the **share** tag
 ```md
 ---
 title: Storage
-tags: [share] 
+related_pages:  
 ---
 ```
 

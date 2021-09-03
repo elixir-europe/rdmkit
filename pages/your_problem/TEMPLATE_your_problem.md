@@ -1,7 +1,7 @@
 ---
 title: Global problem title (e.g. metadata management)
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags" or "Role Tags"--->]
+related_pages: 
 page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
 search_exclude: true
 ---

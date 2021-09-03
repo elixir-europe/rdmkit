@@ -1,7 +1,7 @@
 ---
 title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
-tags: [collect, preserve, share, researcher, data manager]
+related_pages: 
 description: how to document and describe your data.
 page_id: metadata
 ---
