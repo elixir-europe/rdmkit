@@ -4,7 +4,6 @@ contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander]
 description: prepare data and find repositories for publication.
 page_id: data publication
 related_pages: 
-  - tool_assembly: []
 ---
 
 

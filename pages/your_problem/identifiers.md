@@ -4,7 +4,6 @@ contributors: [Markus Englund, Flavio Licciulli, Nick Juty, Olivier Collin, Ulri
 description: how to use identifiers for research data.
 page_id: identifiers
 related_pages: 
-  - tool_assembly: []
 ---
 
 ## Which types of identifiers can you use during data collection?

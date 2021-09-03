@@ -4,7 +4,6 @@ contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
 description: how to license research data.
 page_id: licensing
 related_pages: 
-  - tool_assembly: []
 ---
 
 ## Why should you assign a licence to your research data?

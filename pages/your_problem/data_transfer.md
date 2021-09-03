@@ -4,7 +4,6 @@ contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, 
 description: how to transfer data files.
 page_id: transfer
 related_pages: 
-  - tool_assembly: []
 ---
 
 ## How do you transfer large data files?

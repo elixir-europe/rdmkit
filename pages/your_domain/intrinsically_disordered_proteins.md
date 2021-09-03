@@ -5,7 +5,6 @@ related_pages:
 page_id: IDP
 related_pages: 
   - your_problem: [metadata]
-  - tool_assembly: []
 ---
 
 ## Introduction

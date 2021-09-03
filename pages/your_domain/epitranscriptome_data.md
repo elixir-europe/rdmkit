@@ -3,8 +3,6 @@ title: Epitranscriptome data
 contributors: [Ernesto Picardi]
 page_id: epitrans
 related_pages: 
-  - your_problem: []
-  - tool_assembly: []
 ---
 
 ## Introduction
