@@ -12,7 +12,7 @@
         {%- endfor %}
         {%- unless page.related_pages[i][section_name] == blank  %}
         <div class="col">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header fw-bold">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
                 <div class="card-body">
                     <ul class="list-unstyled">
@@ -34,7 +34,7 @@
         <!-- Training -->
         {%- if page.training %}
         <div class="col">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header fw-bold">Training</div>
                 <div class="card-body">
                     <ul class="list-unstyled">
