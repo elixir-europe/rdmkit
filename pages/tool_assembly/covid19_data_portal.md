@@ -1,7 +1,10 @@
 ---
 title: COVID-19 Data Portal 
 contributors: [Guy Cochrane, Marianna Ventouratou, Nadim Rahman, Sam Holt]
-page_tag: Covid-19
+page_id: Covid-19
+related_pages: 
+  - your_problem: [sensitive]
+  - your_domain: [human data]
 summary:  The COVID-19 Data Portal brings together relevant datasets for sharing and analysis in an effort to accelerate coronavirus research. It enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets.
 ---
 
@@ -34,6 +37,3 @@ The following reusable components will be of value to data stewards:
 
 The European COVID-19 Data Portal includes a federation of [national data portals](https://www.covid19dataportal.org/partners), hosted in those nations. As of early 2021, this includes Italy, Japan, Norway, Poland, Slovenia, Spain, Sweden and Turkey. The national COVID-19 Data Portals provide information, guidelines, tools and services to support each nation's researchers in creating and sharing research data on COVID-19. The purpose of the national Portals is to provide an entry and orientation point into national activities including support, data management tools, projects and funding. For centralised data, such as viral sequences, national Portals are closely linked into the central COVID-19 Data Portal to allow users smooth access across the full selection of functions available to them.
 
-## Which tools are accesible through the COVID-19?
-
-{% include toollist.html tag="Covid-19" %}

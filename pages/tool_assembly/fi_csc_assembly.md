@@ -2,7 +2,27 @@
 title: CSC - Finland
 contributors: [Siiri Fuchs, Minna Ahokas]
 summary: Data management tool assembly from CSC - IT Center for Science and ELIXIR Finland that provides high-quality ICT expert services for researchers in Finland and their collaborators.
-page_tag: CSC
+page_id: CSC
+related_pages: 
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=csc
+  - name: CSC - Bioscience webpages
+    url: https://research.csc.fi/biosciences
+  - name: CSC - Training and events webpages
+    url: https://www.csc.fi/en/training
+  - name: CSC - Learning Materials for Bioscientists
+    url: https://research.csc.fi/bioscience-learning-materials
+  - name: CSC - Data management youtube channel
+    url: https://www.youtube.com/watch?v=Ol7mniw687E&list=PLD5XtevzF3yEZw-8LadtaGVV8Um6CbMja
+  - name: CSC - Research data management services for life science research (youtube video)
+    url: https://youtu.be/lf9L7PYQrBE
+  - name: Data analysis with Chipster - Course packages
+    url: https://chipster.rahtiapp.fi/manual/courses.html
+  - name: Tutorials and lecture playlists on different topics (youtube)
+    url: https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists
 ---
 
 ## What is the CSC data management tool assembly?
@@ -43,24 +63,3 @@ It is recommended to [publish](data_publication) data in data specific repositor
 SD Submit allows you to publish sensitive data securely in a national repository. The service will give you the tools to describe your dataset (adding the appropriate metadata) and assign a permanent identifier (DOI). After publication, you will remain the data controller and decide according to specific policies, who can access the sensitive data for reuse. According to the GDPR, your data will remain within the Finnish borders and, at the same time, they will be accessible and discoverable according to FAIR data principles.
 
 In addition to the above mentioned services, you can use national [Fairdata.fi services](https://research.csc.fi/-/fairdata-services). Fairdata IDA storage service enables saving, organising and sharing data within the project group and storing the data in an immutable state. After freezing your data in IDA, you can use Qvain, the research dataset description tool, to describe your data and thus create core metadata for your dataset, and publish it. Publishing means that your dataset will be published in Etsin, the research data finder, where you can discover and download any files you have associated with the dataset. Any published dataset is also made available to the [Research.fi portal](https://research.fi/) automatically by Fairdata services.
-
-
-## Where can you find training materials and events about the CSC data management tool assembly?
-
-{% include tess.html search="csc" %}
-
-* [CSC - Bioscience webpages](https://research.csc.fi/biosciences)
-* [CSC - Training and events webpages](https://www.csc.fi/en/training) 
-* [CSC - Learning Materials for Bioscientists](https://research.csc.fi/bioscience-learning-materials)
-* Data analysis with Chipster
-    * [Course packages](https://chipster.rahtiapp.fi/manual/courses.html) for RNA-seq, microbial community analysis, single cell RNA-seq, etc, containing slides, exercises, data and lecture videos.
-    * [Tutorials and lecture playlists on different topics (youtube)](https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists)
-* [CSC - Data management youtube channel](https://www.youtube.com/watch?v=Ol7mniw687E&list=PLD5XtevzF3yEZw-8LadtaGVV8Um6CbMja) 
-* [CSC - Research data management services for life science research (youtube video)](https://youtu.be/lf9L7PYQrBE)
-
-## What tools are used within the CSC data management tool assembly?
-
-{% include toollist.html tag="CSC" %}
-
-
-

@@ -2,8 +2,21 @@
 title: Marine Metagenomics - Norway
 contributors: [Nazeefa Fatima, Espen Åberg, Nils P Willassen]
 summary: Norwegian data management tool assembly for marine metagenomics data
-page_tag: marine assembly
+page_id: marine assembly
+related_pages: 
+  - your_problem: [metadata]
+  - your_domain: [marine]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=marine+metagenomics
+  - name: ELIXIR Norways training pages
+    url: https://elixir.no/training/material
+  - name: Workshop materials on ELIXIR-SI eLearning Platform (EeLP)
+    url: https://elixir.mf.uni-lj.si/course/index.php?categoryid=16
 ---
+
 ## What is the Norwegian tool assembly for marine metagenomics data management?
 The Norwegian tool assembly for marine metagenomics aims to provide a comprehensive toolkit for management of marine genomic research data throughout a project's data life cycle. The toolkit, developed by students and researchers in Norway, contains resources and software tools for both data management ([Planning](https://rdmkit.elixir-europe.org/planning), [Processing](https://rdmkit.elixir-europe.org/processing), [Storing](https://rdmkit.elixir-europe.org/storage.html) and [Sharing](https://rdmkit.elixir-europe.org/sharing)), data [analysis](https://rdmkit.elixir-europe.org/analysing) and training. It is built on the [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://rdmkit.elixir-europe.org/nels_assembly.html) tool assembly of [ELIXIR Norway](https://elixir.no/) and the [Marine Metagenomics Platform (MMP)](https://mmp2.sfb.uit.no/).
 
@@ -39,10 +52,3 @@ If you need help with publishing or are interested in using the brokering servic
 ### Data reuse
 The [Marine Metagenomics Portal (MMP)](https://mmp2.sfb.uit.no/) provides you with high-quality curated and freely accessible microbial genomics and metagenomics resources. Through MMP you can access the The [Marine reference databases (MarRef)](https://mmp2.sfb.uit.no/marref/), [Marine Genome Database (MarDb)](https://mmp2.sfb.uit.no/mardb/), [(MarFun)](https://mmp2.sfb.uit.no/marfun/), and [(SalDB)](https://mmp2.sfb.uit.no/saldb/) contextual databases. They are built by aggregating data from a number of publicly available sequence, taxonomy and literature databases in a semi-automatic fashion. Other databases or resources such as bacterial diversity and culture collections databases, web mapping service and ontology databases are used extensively for curation of metadata. At present the MarRef contains nearly 1,000 complete microbial genomes, and MarDB hosts more than 13,000 non-complete genomes. The MAR database entries are cross-referenced with ENA and the [World Register of Marine Species (WoRMS)](http://marinespecies.org/). You can read more about the Mar databases [here](https://pubmed.ncbi.nlm.nih.gov/29106641/).
 
-## Where can I find training materials, documentations and events about the Marine Metagenomics data management tool assembly?
-In ELIXIR's training portal TeSS you can discover the latest [training events](https://tess.elixir-europe.org/events) and [materials](https://tess.elixir-europe.org/materials) using for instance [“marine metagenomics”](https://tess.elixir-europe.org/search?utf8=%E2%9C%93&q=marine+metagenomics) or [data management planning](https://tess.elixir-europe.org/search?utf8=%E2%9C%93&q=data+management+planning) as queries. Norwegian users can have a look at ELIXIR Norways [training pages](https://elixir.no/training/material).
-
-You can access previous [workshop materials](https://elixir.mf.uni-lj.si/course/index.php?categoryid=16) on these topics in the [ELIXIR-SI eLearning Platform (EeLP)](https://elixir.mf.uni-lj.si/).
-
-## What tools are used within the marine metagenomics data management tool assembly?
-{% include toollist.html tag="marine assembly" %}
