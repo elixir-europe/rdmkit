@@ -35,9 +35,9 @@ Mandatory metadata/frontmatter:
 
 Optional metadata/frontmatter: 
 
-* `summary`: By using this attribute it is possible to specify a summary which will be displayed under the page title. This summary will also be used as description of your page when the page is tagged.
+* `summary`: By using this attribute it is possible to specify a summary which will be displayed under the page title.
 
-* `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
+* `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed as Related page.
 
 * `contributors`: List here all the contributors that helped in establishing the page, preferibly with their full name. Make sure that the person names that are listed can be found in the CONTRIBUTORS.yaml file in the *_data* directory if you want to link the GitHub ID and other contact information. Multiple contributors will be put in a list like this: [example1, example2].
 
@@ -53,11 +53,34 @@ Optional metadata/frontmatter:
 
 * `toc`: When set to false, the table of contents at the beginning of the page will not be generated.
 
-* `tags`: If you want to tag this page, list the tags using this attribute. If you want to use multiple tags, make sure to put them in a list like this: [example1, example2].
+* `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list Related pages.
+
+* `related_pages`: List here the page_id of RDMkit pages that you want to display as Related pages, grouped by section (Your problem, Your domain, Tool assembly).
+
+  If you want pages from the specific section (Your problem, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
+```yml
+related_pages: 
+   - your_problem: [page_id1, page_id2]
+   - your_domain: [page_id1, page_id2]
+   - tool_assembly: [page_id1, page_id2]
+  ``` 
+
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+
+```yml
+training:
+   - name: Training in TeSS
+     registry: TeSS
+     registry_url: https://tess.elixir-europe.org
+     url: https://tess.elixir-europe.org/search?q=data%20analysis
+
+   - name: Training in TeSS
+     registry: TeSS
+     registry_url: https://tess.elixir-europe.org
+     url: https://tess.elixir-europe.org/search?q=data%20analysis
+```
 
 * `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
-
-* `description`: This is a one-liner and is used when the page is listed. 
 
 ### Markdown file naming
 
@@ -215,57 +238,29 @@ The logos can be added to the [/images/institutes](https://github.com/elixir-eur
 
 {% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
-## Page tagging
+## Related pages
 
-### Tagging the pages 
+### Add "Related pages" to a page 
 
-Tagging pages is done through the `tags:` property in the metadata of the markdown page.
-Add the tag(s) to a list (square brackets). Make sure that your tag corresponds to an existing page. 
-To find out what the tag is of a page, please check its metadata attribute `page_id` at the top of the markdown file.
+RDMkit pages from the sections Your problem, Your domain and Tool assembly can be displayed as "Related RDMkit pages" in a page, grouped by section. 
 
+Only pages from specific sections are allowed in each page (see image below), as pre-defined in the metadata of each template page. Please, do not add extra sections in the metadata of the page.
 
-This metadata example shows how we tag the "Storage" page with the **share** tag:
-```md
----
-title: Storage
-related_pages:  
----
-```
+{% include image.html file="related_pages_system.png" alt="Related pages system" click=true %}
 
 
-### Supported page tags
 
-We only allow tags that are linked to a page. To find out what the tag is of a page, please check its metadata attribute `page_id` at the top of the markdown file.
+An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
 
-## Using the tool/resource list
 
-Here we list all the tools with the tag **data publication**  by using the code snippet:
+```yml
+related_pages: 
+   - your_problem: [page_id1, page_id2]
+   - your_domain: [page_id1, page_id2]
+   - tool_assembly: [page_id1, page_id2]
+  ``` 
 
-{% raw %}
-```
-{% include toollist.html tag="data publication" %}
-```
-{% endraw %}
 
-Giving:
+### Page ID
 
-{% include toollist.html tag="data publication" %}
-
-Add a second tag for filtering using the 'tag2' attribute:
-
-{% raw %}
-```
-{% include toollist.html tag="data publication" tag2="IT support" %}
-```
-{% endraw %}
-
-Giving:
-
-{% include toollist.html tag="data publication" tag2="IT support" %}
-
-Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
-More information on how to add a tool or resource can be found on the [update tools and resources page](tool_resource_update).
-
-### Supported page tags
-
-We only allow tags that are linked to a page. To find out what the tag is of a page, please check its metadata attribute `page_id` at the top of the markdown file.
+To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview page](website_overview).

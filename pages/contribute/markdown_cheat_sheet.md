@@ -53,9 +53,31 @@ related_pages:
 
 * `toc`: When set to false, the table of contents in the beginning of the page will not be generated.
 
-* `tags`: If you want to tag this page list the tag using this attribute
+* `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list Related pages.
 
-* `page_id`: The tag that is used to link towards this page from other pages or in the tools table.
+* `related_pages`: List here the `page_id` of RDMkit pages that you want to display as Related pages, grouped by section (Your problem, Your domain, Tool assembly).
+
+  If you want pages from the specific section (Your problem, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
+```yml
+related_pages: 
+   - your_problem: [page_id1, page_id2]
+   - your_domain: [page_id1, page_id2]
+   - tool_assembly: [page_id1, page_id2]
+  ``` 
+
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+```yml
+training:
+   - name: Training in TeSS
+     registry: TeSS
+     registry_url: https://tess.elixir-europe.org
+     url: https://tess.elixir-europe.org/search?q=data%20analysis
+
+   - name: Training in TeSS
+     registry: TeSS
+     registry_url: https://tess.elixir-europe.org
+     url: https://tess.elixir-europe.org/search?q=data%20analysis
+```
 
 * `datatable`: use this attribute to activate the pagination + sorting + searching in tables
 
@@ -340,73 +362,35 @@ Text
 </details>
 ```
 
-## Including a tess training material button
+## Add "Related pages" to a page 
 
-Link to a search query:
-{% raw %}
-```
-{% include tess.html search="Data Steward" %}
-```
-{% endraw %}
+If you want pages from the specific sections Your problem, Your domain and Tool assembly to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
 
-Will look like this:
+An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
 
-{% include tess.html search="Data Steward" %}
 
-Link to a specific training material:
-{% raw %}
-```
-{% include tess.html material="data-management-plans-why-and-how" %}
-```
-{% endraw %}
-
-Will look like this:
-
-{% include tess.html material="data-management-plans-why-and-how" %}
-
-## Tagging pages and listing those pages
-
-Tagging pages is done by the `tags:` property in the metadata of the markdown page.
-Add the tag(s) to a list (square brackets). Make sure your tag corresponds to an existing page. 
-
-This metadata example shows how we tag the "Storage" page with the **share** tag:
-```md
----
-title: Storage
-related_pages:  
----
+```yml
+related_pages: 
+   - your_problem: [page_id1, page_id2]
+   - your_domain: [page_id1, page_id2]
+   - tool_assembly: [page_id1, page_id2]
 ```
 
+## Listing training material
+You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
 
-## Adding a filtered tool and resource-list to your page
+```yml
+training:
+   - name: Training in TeSS
+     registry: TeSS
+     registry_url: https://tess.elixir-europe.org
+     url: https://tess.elixir-europe.org/search?q=data%20analysis
 
-Here we list all the tools with the tag **data publication**  by using the code snippet:
-
-{% raw %}
+   - name: Training in TeSS
+     registry: TeSS
+     registry_url: https://tess.elixir-europe.org
+     url: https://tess.elixir-europe.org/search?q=data%20analysis
 ```
-{% include toollist.html tag="data publication" %}
-```
-{% endraw %}
-
-Giving:
-
-{% include toollist.html tag="data publication" %}
-
-Add a second tag for filtering using the 'tag2' attribute:
-
-{% raw %}
-```
-{% include toollist.html tag="data publication" tag2="IT support" %}
-```
-{% endraw %}
-
-Giving:
-
-{% include toollist.html tag="data publication" tag2="IT support" %}
-
-Make sure the tag exists in the `tool_and_resource_list.yml` file + in the `tags.yml`.
-
-Tools and resources can be added by manipulating the main_tool_and_resource_list.csv file in the `_data` repository. For more info about how to add a tool or resource please visit [our guide](tool_resource_update).
 
 ## Enforce space between two lines
 
