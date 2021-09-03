@@ -2,8 +2,8 @@
 title: Assembly page title
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+related_pages: 
+page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
 ---
 
 <!--- Tool Assembly pages should detail a particular data management tool assembly which covers one more life cycle stages from an infrastructural or domain perspective. For an example for an infrastructural example, please see: https://github.com/elixir-europe/rdmkit/blob/master/pages/tool_assembly/nels_assembly.md 
@@ -24,11 +24,3 @@ In the event that you describe a domain specific tool assembly and no adequate D
 <!--- Add more sections as needed. --->
 ...
 
-## Training for the tool assembly? <!--- (optional) --->
-
-{% include tess.html search="<!---TAG--->" %}
-
-## Tools used within the tool assembly?
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml). If it isn't listed there, please raise an issue.--->
-
-{% include toollist.html tag="<!---TAG--->" %}

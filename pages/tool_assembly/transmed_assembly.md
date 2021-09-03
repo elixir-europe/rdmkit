@@ -2,8 +2,8 @@
 title: TransMed Assembly
 contributors: [Wei Gu, Soumyabrata Ghosh, Muhammad Shoaib, Irina Balaur, Xinhui Wang, Carlos Vega, Pinar Alper, Venkata Satagopam]
 summary: Data management tool assembly from ELIXIR Luxembourg supporting projects in Translational Biomedicine. The TransMed assembly is available as a hosted service from ELIXIR Luxembourg, it also acts as an RDM blueprint for the wider research community. 
-tags: [compliance, collect, storage, process, metadata, data organisation, data analysis, share]
-page_tag: transmed
+related_pages: 
+page_id: transmed
 ---
 
 ## What is the TransMed data and computing tool assembly?
@@ -42,6 +42,3 @@ TransMed projects usually require different data types from different cohorts to
 
 To facilitate the findability of data the TransMed assembly provides a [Data/Sample Catalog tool](https://datacatalog.elixir-luxembourg.org/) that supports the indexing search and discovery of studies, data sets and samples accumulated in the context of projects from different sites and cohorts. The catalog implements a controlled-access model by integration with [AAI REMS](https://github.com/CSCfi/rems). Audit trailing of data access is achieved by integration of the [DAISY tool](https://daisy-demo.elixir-luxembourg.org/) in the access process. The catalog tool can be integrated with various identity management systems such as [Keycloak](https://www.keycloak.org/), [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) or [Free-IPA](https://www.freeipa.org/). 
 
-## What tools are used within the TransMed assembly?
-
-{% include toollist.html tag="transmed" %}

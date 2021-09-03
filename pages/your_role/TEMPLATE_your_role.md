@@ -2,7 +2,7 @@
 title: <Your persona>
 summary: Fill in your summary or delete this property when not needed
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
 search_exclude: true
 ---
 
@@ -34,12 +34,3 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * What are suitable compute resources for analysing my data?
 * What DMP templates and tools could be used for my project?
 * How do I know if my data is sensitive/personal and how would I work with data of this type?
-
-## Related topics
-
-{% include pagelist.html tag="REPLACE BY TAG" %}
-
-## Relevant tools and resources
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml). If it isn't listed there, please raise an issue.--->
-
-{% include toollist.html tag="REPLACE BY TAG" %}

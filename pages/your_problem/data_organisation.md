@@ -1,9 +1,9 @@
 ---
 title: Data organisation
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
-tags: [collect, process, analyse, preserve, researcher, IT support, data manager]
+related_pages: 
 description: best practices to name and organise research data.
-page_tag: data organisation
+page_id: data organisation
 ---
 
 ## What is the best way to name a file?
@@ -98,7 +98,3 @@ The top folder should have a README.txt file describing the folder structure and
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
 
-
-## Relevant tools and resources
-
-{% include toollist.html tag="data organisation" %}

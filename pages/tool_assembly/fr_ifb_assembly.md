@@ -2,7 +2,20 @@
 title: IFB - France
 contributors: [Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna]
 summary: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
-page_tag: IFB
+page_id: IFB
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=IFB
+  - name: Data management training at the IFB
+    url: https://www.france-bioinformatique.fr/en/training/
+  - name: Inist and the network of regional scientific information units (Urfist)
+    url: https://doranum.fr
+  - name: Documentation for the IFB core cluster
+    url: https://ifb-elixirfr.gitlab.io/cluster/doc/
+  - name: Documentation for the Biosphere cloud federation
+    url: https://ifb-elixirfr.github.io/biosphere/
 ---
 
 ## What is the IFB data management tool assembly?
@@ -11,13 +24,11 @@ The [IFB](https://www.france-bioinformatique.fr) is the French national Bioinfor
 The IFB federates 20 bioinformatics platforms which make physical, operational and human resources available to researchers in a synergistic and efficient way. Each platform brings its own IT infrastructure and bioinformatics expertise to create a better support network, distributed over the country, for Life Sciences research activities. IFB supports scientists since the beginning of a project and relies on the OPIDoR tool to write a data management plan. 
 
 
-
 ## Who can use the IFB data management tool assembly?
 
 IFB and the underlying infrastructure are accessible to researchers in France and their foreign collaborators. Researchers that would like to know more about IFB services can find specific contact details at the unified [IFB help desk page](https://www.france-bioinformatique.fr/en/help-desk/) and get support through the dedicated help pages. Depending on the resources, fees may apply. It is therefore advisable to contact them during the planning phase of the project.
 
 The way you can access the IFB depends on the type of resources (for instance, cluster or cloud), and there will be different authentication procedures (local, national or international). For example, the Biosphere cloud federation uses the EduGAIN federation for authentication, while useGalaxy.fr uses the [ELIXIR AAI](https://elixir-europe.org/services/compute/aai) authentication. To have additional information on how to access the IFB contact the [help desk](https://www.france-bioinformatique.fr/en/help-desk/). 
-
 
 
 ## For what can you use the IFB data management tool assembly?
@@ -70,15 +81,3 @@ You can also browse [cat-OPIDoR](https://cat.opidor.fr/index.php/Cat_OPIDoR,_wik
 
 IFB infrastructure promotes the implementation of the FAIR principles. To this end, IFB provides and encourages the use of the [FAIR-Checker](https://github.com/IFB-ElixirFr/fair-checker), a web interface aimed at monitoring the level of FAIRification of resources. This tool uses the FAIRMetrics APIs to provide a global assessment and recommendations. It also uses semantic technologies to help users in annotating their resources with high-quality metadata.
 
-## Where can you find training materials and events about the IFB data management tool assembly?
-
-{% include tess.html search="IFB" %}
-
-* [Data management training at the IFB](https://www.france-bioinformatique.fr/en/training/)
-* Online training resources provided by [Inist and the network of regional scientific information units (Urfist)](https://doranum.fr) 
-* Documentation for the [IFB core cluster](https://ifb-elixirfr.gitlab.io/cluster/doc/)
-* Documentation for the [Biosphere cloud federation](https://ifb-elixirfr.github.io/biosphere/).
-
-## What tools are used within the IFB data management tool assembly?
-
-{% include toollist.html tag="IFB" %}

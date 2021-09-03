@@ -1,9 +1,9 @@
 ---
 title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
-tags: [collect, preserve, share, researcher, data manager]
+related_pages: 
 description: how to document and describe your data.
-page_tag: metadata
+page_id: metadata
 ---
 
 ## How can you document data during the project?
@@ -124,8 +124,3 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
   * [Ontobee](http://www.ontobee.org)
   * [Schemapedia](https://schemapedia.com)
 
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="metadata" %}

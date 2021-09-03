@@ -1,9 +1,9 @@
 ---
 title: Sensitive data
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
-tags: [share, collect, process, policy officer]
+related_pages: 
 description: how to identify different research data types.
-page_tag: sensitive
+page_id: sensitive
 ---
 
 ## Is your data sensitive?
@@ -52,6 +52,3 @@ Anonymization techniques can sometimes damage the statistical properties of the 
 An example of pseudonymization is where participants in a study are assigned a non-identifying ID and all identifying data (such as name and address) are removed from the metadata to be shared. The mapping of this ID to personal data is held separately and securely by a named researcher who will not share this data.
 There are well-established data anonymization approaches, such as k-anonymity, l-diversity, and differential privacy.
 
-## Relevant tools and resources
-
-{% include toollist.html tag="sensitive" %}  

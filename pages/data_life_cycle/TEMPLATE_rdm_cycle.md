@@ -2,7 +2,12 @@
 title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=analysing%20data
 ---
 
 ## What is "data + stage name"? <!-- edit this heading (e.g. what is data analysis?) and write your text below it -->
@@ -14,13 +19,3 @@ Short explanation of why people should do / be aware of this stage. Advantages a
 ## What should be considered for "data + stage name"? <!-- edit this heading (e.g. what should be considered for data analysis?) and write your text below it -->
 List and explain all aspects that need to be taken into account to manage this "stage" according to best practices and FAIR principles.
 * Bullet point considerations
-
-## Problems to be addressed at this stage
-* Bullet point list of Your Problem pages in this website that are connected to this lifecycle stage made with:
-
-{% include pagelist.html tag="stage tag" %} <!-- e.g. {% include pagelist.html tag="analyse" %} -->
-
-## Where can training materials and events about "data + stage name" be found? <!-- edit this heading (e.g. where can training materials and events about data analysis be found?) and write your text below it -->
-Link to TESS page filtered by adequate keyword(s) done by:
-
-{% include tess.html search="keyword" %} <!-- e.g. {% include tess.html search="Data Analysis" %} -->

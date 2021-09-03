@@ -1,14 +1,15 @@
 ---
 ---
+
 /*-----Theme colors-----*/
 $white: #fff;
-$primary: #376AC3;
+$primary: #376ac3;
 $light: #f3f1f2;
 $dark: #2a2e3d;
-$secondary: #C23669;
+$secondary: #c23669;
 
 /*-----Custom bootstrap values-----*/
-$input-btn-focus-color:#c236698c;
+$component-active-bg: $secondary;
 $navbar-dark-color: $white;
 $navbar-dark-hover-color: $secondary;
 $navbar-dark-toggler-border-color: transparent;
@@ -18,30 +19,28 @@ $body-color: $dark;
 
 @import "bootstrap/bootstrap";
 
-
 /*-----General styling-----*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-variant-ligatures: none;
 }
 
 h1 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 3.5em;
     font-weight: 400;
     margin-bottom: 0.5em;
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
     h1 {
         font-size: 3em;
     }
 }
 
 main h2 {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 1.6em;
+    font-family: "Exo 2", sans-serif;
     font-weight: 700;
     color: $secondary;
     margin: 40px 0 10px;
@@ -60,11 +59,11 @@ main h4 {
     margin-top: 20px;
 }
 
-main h2+h3 {
+main h2 + h3 {
     margin-top: 12px;
 }
 
-main h3+h4 {
+main h3 + h4  {
     margin-top: 15px;
 }
 
@@ -102,7 +101,8 @@ hr {
 
 /* End - Selection color */
 
-main ol li, main ul li {
+main ol li,
+main ul li {
     margin: 10px 0px;
 }
 
@@ -166,6 +166,7 @@ pre code {
 
 .search .fa-search {
     position: absolute;
+    color: $secondary;
     top: 12px;
     left: 15px;
 }
@@ -199,7 +200,8 @@ pre code {
     padding: 0.5rem 0.75rem;
 }
 
-.search-results a:hover, .search-results a.active {
+.search-results a:hover,
+.search-results a.active {
     background-color: $light;
 }
 
@@ -228,7 +230,7 @@ pre code {
 
 .search-result-section {
     word-wrap: break-word;
-    color: $secondary
+    color: $secondary;
 }
 
 .search-result-rel-url {
@@ -251,7 +253,7 @@ pre code {
     vertical-align: top;
 }
 
-.search-result-preview+.search-result-preview {
+.search-result-preview + .search-result-preview {
     margin-top: 0.25rem;
 }
 
@@ -321,18 +323,18 @@ pre code {
     padding-left: 60px;
 }
 
-.menu li.active:not(.parent)>a {
+.menu li.active:not(.parent) > a {
     background-color: $secondary;
     color: $white;
 }
 
-.menu li>a>span {
+.menu li > a > span {
     float: right;
     width: 15px;
     text-align: center;
 }
 
-.menu li.active>a>span:after {
+.menu li.active > a > span:after {
     display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -343,7 +345,7 @@ pre code {
     content: "\f077";
 }
 
-.menu li>a>span:after {
+.menu li > a > span:after {
     display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -378,7 +380,8 @@ pre code {
 
 /* Consistent vertical space between list items */
 
-#toc li, #toc ul ul li {
+#toc li,
+#toc ul ul li {
     margin: 8px 0 0 0;
 }
 
@@ -410,7 +413,7 @@ pre code {
     border-color: $light;
 }
 
-.table>:not(:last-child)>:last-child>* {
+.table > :not(:last-child) > :last-child > * {
     border-bottom-color: inherit;
 }
 
@@ -424,15 +427,12 @@ pre code {
     width: 40%;
 }
 
-#tooltable tr th:nth-child(4) {
-    width: 15%;
-}
-
 #tooltable td:nth-child(2) {
-    font-size: .9em
+    font-size: 0.9em;
 }
 
-#tooltable td:nth-child(1) a {
+#tooltable td:nth-child(1) a,
+#trainingtable td:nth-child(1) a {
     font-weight: bold;
 }
 
@@ -452,7 +452,6 @@ pre code {
 footer {
     font-size: 0.9em;
     line-height: 24px;
-    margin-top: 80px;
 }
 
 footer h2 {
@@ -461,9 +460,7 @@ footer h2 {
 
 footer a {
     color: $white;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     font-weight: bold;
-    text-decoration: none;
 }
 
 footer a:hover {
@@ -477,7 +474,7 @@ footer .europe-flag {
 }
 
 footer .company-logo {
-    float: right
+    float: right;
 }
 
 /*-----MetaData section -----*/
@@ -489,7 +486,7 @@ footer .company-logo {
     font-size: 0.9em;
     vertical-align: middle;
     display: inline-block;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
 
 .meta-obj-false {
@@ -500,7 +497,7 @@ footer .company-logo {
     text-decoration: none;
     font-size: 0.9em;
     vertical-align: middle;
-    padding: .375rem .75rem;
+    padding: 0.375rem 0.75rem;
     display: inline-block;
     border-radius: 4px;
 }
@@ -523,17 +520,13 @@ footer .company-logo {
 /* -----Homepage----- */
 
 .blurb-title {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 1.3em;
     margin-bottom: 18px;
     font-weight: 600;
 }
 
 /* ----- Home dropdown boxes ------ */
-
-.home-cards .card {
-    min-height: 9.5em;
-}
 
 h2.card-title {
     margin: 0 0 0.5rem 0;
@@ -542,7 +535,7 @@ h2.card-title {
 /* Custom buttons */
 
 .btn-custom {
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     background-color: $light;
     padding: 7px 11px;
     border-radius: 4px;
@@ -601,13 +594,14 @@ h2.card-title {
 
 /*-----Contributors carousel-----*/
 
-#contributors-carousel .carousel-control-next, #contributors-carousel .carousel-control-prev {
+#contributors-carousel .carousel-control-next,
+#contributors-carousel .carousel-control-prev {
     width: 3%;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     #contributors-carousel .card-title {
-        font-size: 0.5em
+        font-size: 0.5em;
     }
     #contributors-carousel .card-affiliation {
         color: $secondary;
@@ -622,7 +616,7 @@ h2.card-title {
 
 .social-icons a {
     background-color: $body-bg;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     color: $secondary;
     display: inline-block;
     line-height: 4ex;
@@ -637,7 +631,7 @@ h2.card-title {
     color: $white;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     #contributors-carousel .social-icons a {
         line-height: 1.2ex;
         width: 1.2ex;
@@ -684,7 +678,7 @@ h2.card-title {
 .cookiealert .acceptcookies {
     margin-left: 10px;
     vertical-align: baseline;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     background-color: $light;
     padding: 7px 11px;
     border-radius: 4px;
@@ -698,7 +692,7 @@ h2.card-title {
 
 .cookiealert a {
     color: $white;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     font-weight: bold;
     text-decoration: none;
 }
@@ -716,7 +710,7 @@ h2.card-title {
 .sidebar_rdm {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 @media (max-width: 992px) {
@@ -751,37 +745,10 @@ li ul .sidebar_rdm_sub {
     }
 }
 
-/*-----TeSS button-----*/
-
-.TeSS-button {
-    margin: 30px 0px;
-}
-
-.TeSS-button .tess_logo {
-    max-height: 45px;
-    max-width: 45px;
-    margin-left: 17px;
-    margin-bottom: 5px;
-}
-
-.TeSS-button a {
-    padding: 16px;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    border-radius: 4px;
-    background-color: $light;
-    text-decoration: none;
-    color: $body-color;
-}
-
-.TeSS-button a:hover {
-    background-color: $secondary;
-    text-decoration: none;
-    color: $white;
-}
-
 /* Events homepage */
 
-li.upcoming-event, .events {
+li.upcoming-event,
+.events {
     display: none;
 }
 

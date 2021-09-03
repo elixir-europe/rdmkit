@@ -1,7 +1,12 @@
 ---
 title: Preserving
-page_tag: preserve
+page_id: preserve
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=data%20preserving
 ---
 
 ## What is data preserving?
@@ -44,11 +49,3 @@ The main reasons for research data preservation are:
   * Use standard, open source, file formats instead of proprietary ones.
 * If you need to preserve non-digital data (e.g. paper), consider whether digitalising the data is feasible or consult with data management support services in your institution.
 * If you need to preserve materials, such as micro-organisms, biomaterials or biomolecules, consult with data management support services in your institution to find appropriate centers or biobanks.
-
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="preserve" %}
-
-## Where can training materials and events about data preserving be found?
-
-{% include tess.html search="Data Preserving" %}

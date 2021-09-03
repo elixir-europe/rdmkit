@@ -1,9 +1,9 @@
 ---
 title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi]
-tags: [preserve, share, reuse, IT support, data manager]
+related_pages: 
 description: how to transfer data files.
-page_tag: transfer
+page_id: transfer
 ---
 
 ## How do you transfer large data files?
@@ -68,11 +68,3 @@ There are many aspects to consider when dealing with data transfer.
 * When using data transfer protocol, make sure to check the transfer. During the transfer some data might become corrupted, thus it is important to check if the files you transfered have conserved their integrity. This can be done with hash algorithms. A checkshum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
     * md5
     * SHA
-
-<!-- ## Related topics
-(Optional section)
-* Bullet point list of other pages in this website that are connected to this lifecycle stage -->
-
-## Relevant tools and resources
-
-{% include toollist.html tag="transfer" %}

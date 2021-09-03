@@ -1,7 +1,12 @@
 ---
 title: Collecting
-page_tag: collect
+page_id: collect
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=data%20collection
 ---
 
 ## What is data collection?
@@ -32,15 +37,5 @@ Independently of the tools you will use, consider the following, while collectin
 * How to store the data
 * Where to store the data
 * Identify suitable metadata standards
-
-
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="collect" %}
-
-
-## Where can training materials and events about data collection be found?
-
-{% include tess.html search="Data Collection" %}
 
 

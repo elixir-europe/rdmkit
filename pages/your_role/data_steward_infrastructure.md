@@ -1,7 +1,7 @@
 ---
 title: Data steward infrastructure
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
-page_tag: IT support
+page_id: IT support
 ---
 
 ## Description
@@ -35,15 +35,9 @@ If you want to become competent in these areas or build capacity in your institu
 * Data Carpentry [lessons](https://datacarpentry.org/lessons/)
 * RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
 
-## Common problems
-
-{% include pagelist.html tag="IT support" %}
-
 
 ## Resources
 * NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
 * ELIXIR [Data Managers Network](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)
 
-## Relevant tools and resources
 
-{% include toollist.html tag="IT support" %}
