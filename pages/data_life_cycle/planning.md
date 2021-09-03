@@ -2,6 +2,8 @@
 title: Planning
 page_id: plan
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
+related_pages: 
+  - your_problem: [compliance, DMP, data protection]
 training:
   - name: Training in TeSS
     registry: TeSS

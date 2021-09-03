@@ -3,6 +3,9 @@ title: IFB - France
 contributors: [Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna]
 summary: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_id: IFB
+related_pages: 
+  - your_problem: []
+  - your_domain: []
 training:
   - name: Training in TeSS
     registry: TeSS

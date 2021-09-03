@@ -2,8 +2,15 @@
 title: Domain page title
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
 related_pages: 
-page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
+  - your_problem: [<!---REPLACE THIS with the page ID of the your_problem pages that you want to list here as related pages--->]
+  - tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+training:
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.

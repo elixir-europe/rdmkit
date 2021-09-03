@@ -1,9 +1,10 @@
 ---
 title: Data organisation
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
-related_pages: 
 description: best practices to name and organise research data.
 page_id: data organisation
+related_pages: 
+  - tool_assembly: [ome, transmed, XNAT-PIC]
 ---
 
 ## What is the best way to name a file?
