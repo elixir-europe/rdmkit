@@ -15,37 +15,37 @@ training:
     registry_url:
     url: https://datasupport.researchdata.nl/en/
 
- - name: Mantra - RDM training
+  - name: Mantra - RDM training
     registry:
     registry_url:
     url: https://mantra.edina.ac.uk/
 
- - name: FAIR guiding principles
+  - name: FAIR guiding principles
     registry:
     registry_url:
     url: https://www.go-fair.org/fair-principles/
 
- - name: Data Carpentry lessons
+  - name: Data Carpentry lessons
     registry:
     registry_url:
     url: https://datacarpentry.org/lessons/
 
- - name: RDNL & DCC - Delivering RDM Services
+  - name: RDNL & DCC - Delivering RDM Services
     registry:
     registry_url:
     url: https://www.futurelearn.com/courses/delivering-research-data-management-services
 
- - name: NPOS/ELIXIR data steward competency framework
+  - name: NPOS/ELIXIR data steward competency framework
     registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/record/3490855#.YArTH-lKi7o
 
- - name: ELIXIR Data Management Network
+  - name: ELIXIR Data Management Network
     registry:
     registry_url:
     url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators
 
- - name: Science Europe - Practical Guide to the International Alignment of RDM
+  - name: Science Europe - Practical Guide to the International Alignment of RDM
     registry:
     registry_url:
     url: https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/

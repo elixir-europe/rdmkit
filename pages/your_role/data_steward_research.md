@@ -15,37 +15,37 @@ training:
     registry_url:
     url: https://datasupport.researchdata.nl/en/
 
- - name: Mantra - RDM training
+  - name: Mantra - RDM training
     registry:
     registry_url:
     url: https://mantra.edina.ac.uk/
 
- - name: GO FAIR starter kit
+  - name: GO FAIR starter kit
     registry:
     registry_url:
     url: https://www.go-fair.org/resources/rdm-starter-kit/
 
- - name: Data Carpentry lessons
+  - name: Data Carpentry lessons
     registry:
     registry_url:
     url: https://datacarpentry.org/lessons/
 
- - name: RDNL & DCC - Delivering RDM Services
+  - name: RDNL & DCC - Delivering RDM Services
     registry:
     registry_url:
     url: https://www.futurelearn.com/courses/delivering-research-data-management-services
 
- - name: NPOS/ELIXIR data steward competency framework
+  - name: NPOS/ELIXIR data steward competency framework
     registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/record/3490855#.YArTH-lKi7o
 
- - name: ELIXIR Data Management Network
+  - name: ELIXIR Data Management Network
     registry:
     registry_url:
     url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators
 ---
----
+
 
 ## Description
 As a research data steward, I support and work in close collaboration with the main data producers and users in academia: the researchers, ranging from undergraduate students to full professors. I advise researchers, make sure data is handled in a manner compliant with the institute’s policy and may also perform hands-on work in a project.

@@ -56,12 +56,12 @@ def remove_prefix(s, prefix):
 
 table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
-tags_path = "_data/tags.yml"
+tags_path = "_data/page_ids.yml"
 main_dict_key = "Tools"
 rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
-print(f"----> Reading out page_id from each file and updating tags.yml file")
+print(f"----> Reading out page_id from each file")
 pages_metadata = {}
 for subdir, dirs, files in os.walk(rootdir):
     for file_name in files:
@@ -75,9 +75,7 @@ for subdir, dirs, files in os.walk(rootdir):
                 pages_metadata[metadata['page_id']]['url'] = os.path.splitext(file_name)[0] + ".html"
                 if 'description' in metadata:
                     pages_metadata[metadata['page_id']]['description'] = metadata['description']
-    
-with open(tags_path, 'w') as tags_file:
-    documents = yaml.dump(pages_metadata, tags_file)
+
 print(f"----> Allowed tags: {', '.join(pages_metadata.keys())}.")
 
 print(f"----> Converting table {table_path} to {output_path} started.")
