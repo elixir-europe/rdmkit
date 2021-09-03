@@ -9,6 +9,7 @@
         {%- for section in page.related_pages[i] %}
         {%- assign section_name = section[0] %}
         {%- endfor %}
+        {%- unless page.related_pages[i][section_name] == blank  %}
         <div class="col">
             <div class="card">
                 <div class="card-header fw-bold">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
@@ -26,6 +27,7 @@
                 </div>
             </div>
         </div>
+        {%- endunless %}
         {%- endfor %}
         {%- endif %}
         <!-- Training -->
