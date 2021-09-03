@@ -781,8 +781,10 @@ li.upcoming-event,
     font-weight: 700;
 }
 
-iframe {
-    height: 400px;
+// Scaling presentations and videos
+
+iframe.scale {
+    height: 500px;
     width: 100%;
     margin: 40px 0;
 }
