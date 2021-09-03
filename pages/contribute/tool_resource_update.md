@@ -14,7 +14,7 @@ The [all_tools_and_resources](all_tools_and_resources) list is based on the [csv
 
 {% include important.html content="The link with TeSS and Bio.tools is automatically done using GitHub actions and is weekly updated. These automatic links are not seen in the table. The search query to TeSS or the Bio.tools ID for a tool or resource can be overwritten in the registry column of the main csv tool table. If no Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry." %}
 
-## The main table
+## The main csv table
 
 
 The table consists of 5 columns:
@@ -22,10 +22,10 @@ The table consists of 5 columns:
 - **link**: URL to the main page of the tool or resource, make sure to let the URL start with `https://`
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
 - **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing`, `fairsharing-coll` and `tess`, specifying the id or query with a colon). FAIRsharing collections have an ID that follows the pattern `bsg-s000XXX`. List multiple registries using a comma `, ` between the keywords to separate the key:value pairs. The values that are given in the table will allways overrule the automatic links. If no Bio.tools ID or TeSS Query is available for a source, you can overwrite the automatic linking by adding 'NA' as registry.
-- **page_id**: This is used to tag the tools so it is listed on the correct page. We only allow page_id that are linked to a page. To find out what the page_id of a page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview](website_overview) page. Since the Data life cycle pages are not listing tools, we do not allow these page_id in the tool table. page_id allowed in the tool table are page_id from the following sections: `Your domain`, `Your role`, `Your problem` and `Tool assembly`. List multiple page_id by using a comma `, ` between them.
-- **country** : If a tool can only be used in a specific country, list those countries with there Alpha-2 code. For a complete list of all country code please visit the [IBAN](https://www.iban.com/country-codes) website. A flag will appear in the `Related pages` column.
+- **related_pages**: This is used to tag the tools so it is listed on the correct page. We only allow page_id that are linked to a page. To find out what the page_id of a page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview](website_overview) page. Since the Data life cycle pages are not listing tools, we do not allow these page_id in the tool table. page_id allowed in the tool table are page_id from the following sections: `Your domain`, `Your role`, `Your problem` and `Tool assembly`. List multiple page_id by using a comma `, ` between them.
+- **country** : If a tool can only be used in a specific country, list those countries with there Alpha-2 code. For a complete list of all country code please visit the [IBAN](https://www.iban.com/country-codes) website. A flag will appear in the `related pages` column.
 
-| name     | link                             | description                                                                               | registry                                    | page_id                                             |
+| name     | link                             | description                                                                               | registry                                    | related_pages                                             |
 |----------|----------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------|--------------------------------------------------|
 | Beacon   | https://beacon-project.io/       | The Beacon protocol defines an open standard for genomics data discovery.                 |                                             | researcher, data manager, IT support, human data |
 | Bioconda | https://bioconda.github.io/      | Bioconda is a bioinformatics channel for the Conda package manager                        | biotools:bioconda                           | IT support, data analysis                        |

@@ -1,9 +1,10 @@
 ---
 title: Data management plan
 contributors: [Flora D'Anna, Daniel Faria]
-tags: [plan, researcher, data manager, policy officer]
 description: how to write a Data Management Plan (DMP).
-page_tag: DMP
+page_id: DMP
+related_pages: 
+  - tool_assembly: [NeLS, TSD]
 ---
 
 
@@ -70,8 +71,3 @@ Common topics of a DMP are:
 * This website includes best practices and guidelines about the different aspects of research data management that should be covered in a DMP.
 * Core requirements for DMP have been described by [Science Europe](https://www.scienceeurope.org/our-priorities/research-data/research-data-management/).
 * Consider the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) from the Research Data Alliance as a reference data model for organising the different topics.
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="DMP" %}

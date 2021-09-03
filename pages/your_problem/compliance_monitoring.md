@@ -1,9 +1,10 @@
 ---
-title: Compliance monitoring & measurement
-tags: [plan, researcher, data manager, policy officer]
+title: Compliance monitoring & measurement 
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
 description: measure compliance to data management regulations and standards.
-page_tag: compliance
+page_id: compliance
+related_pages: 
+  - tool_assembly: [transmed]
 ---
 
 ## How can you measure and document data management capabilities?
@@ -68,7 +69,3 @@ Article 3 of CBD clarifies, that states have sovereign rights over their own (bi
   * Investigate the conditions for accessing the genetic resources and/or the associated traditional knowledge in the country of origin.
   * Make a Prior Informed Consent (PIC) with the country that will provide the genetic resources and/or the associated traditional knowledge, to clarify the goal of your research and how you will use the requested resources.
   * Negotiate a Mutually Agreed Terms (MAT) to establish how to share the resulting benefits. The benefits for the provider of the genetic resources and/or the associated traditional knowledge can be monetary, transfer of knowledge and technology, training, etc.
-
-## Relevant tools and resources
-
-{% include toollist.html tag="compliance" %}

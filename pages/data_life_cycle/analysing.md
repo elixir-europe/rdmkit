@@ -1,7 +1,14 @@
 ---
 title: Analysing
-page_tag: analyse
+page_id: analyse
+related_pages: 
+  - your_problem: [data analysis, data organisation, storage]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=data%20analysis
 ---
 
 ## What is data analysis?
@@ -25,14 +32,4 @@ Because of the diversity of domains and techologies in Life Sciences, data can b
 * It is important to document the exact steps used for data analysis. This includes the version of the software used, as well as the parameters used, as well as the computing environment. Manual "manipulation" of the data may complicate this documentation process.
 * In the case of collaborative data analysis, you will have to ensure access to the data and tools for all collaborators. This can be achieved by setting up virtual research environments.
 * Consider publishing your analysis workflow according to the FAIR principles as well as your datasets.
-
-
-## Problems to be addressed at this stage
-
-{% include pagelist.html tag="analyse" %}
-
-
-## Where can training materials and events about data analysis be found?
-
-{% include tess.html search="Data Analysis" %}
 

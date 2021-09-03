@@ -51,25 +51,32 @@ def biotools_available(query):
                         return tool['biotoolsID']
         return False
 
-
+def remove_prefix(s, prefix):
+    return s[s[:len(prefix)].index(prefix) + len(prefix):]
 
 table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
+tags_path = "_data/page_ids.yml"
 main_dict_key = "Tools"
 rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
-print(f"----> Reading out page_tag from each file.")
-allowed_tags = []
+print(f"----> Reading out page_id from each file")
+pages_metadata = {}
 for subdir, dirs, files in os.walk(rootdir):
     for file_name in files:
         if os.path.splitext(file_name)[1] == '.md':
             with open(os.path.join(subdir, file_name)) as f:
                 metadata, content = frontmatter.parse(f.read())
-            if 'page_tag' in metadata.keys() and 'search_exclude' not in metadata.keys():
-                allowed_tags.append(metadata['page_tag'])
+            if 'page_id' in metadata.keys() and 'search_exclude' not in metadata.keys():
+                pages_metadata[metadata['page_id']] = {}
+                pages_metadata[metadata['page_id']]['title'] = metadata['title']
+                pages_metadata[metadata['page_id']]['type'] = remove_prefix( subdir ,'pages/').replace("_", " ").capitalize()
+                pages_metadata[metadata['page_id']]['url'] = os.path.splitext(file_name)[0] + ".html"
+                if 'description' in metadata:
+                    pages_metadata[metadata['page_id']]['description'] = metadata['description']
 
-print(f"----> Allowed tags: {', '.join(allowed_tags)}.")
+print(f"----> Allowed tags: {', '.join(pages_metadata.keys())}.")
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 
@@ -87,10 +94,10 @@ with open(table_path, 'r') as read_obj:
                 if header[col_index] == 'tags' and cell:# Only include keys if there are values:
                     output = re.split(', |,', cell)
                     for tag in output:
-                        if tag not in allowed_tags:
-                            print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_tag" attribute.')
+                        if tag not in pages_metadata.keys():
+                            print(f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
                             sys.exit(
-                                f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_tag" attribute.')
+                                f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
                 elif header[col_index] == 'country' and cell:# Only include keys if there are values:
                     output = re.split(', |,', cell)
                 elif header[col_index] == 'registry':

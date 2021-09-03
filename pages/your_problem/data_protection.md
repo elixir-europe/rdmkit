@@ -1,9 +1,15 @@
 ---
 title: Data protection
 contributors: [Pinar Alper]
-tags: [plan, preserve, share, IT support, policy officer, data manager]
 description: how to make research data compliant to GDPR.
-page_tag: data protection
+page_id: data protection
+related_pages: 
+  - tool_assembly: [TSD, transmed]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=data%20protection
 ---
 
 
@@ -60,10 +66,3 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
   * [Tryggve ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
 
-## Relevant tools and resources
-
-{% include toollist.html tag="data protection" %}
-
-## Where can you find training materials and events about data protection?
-
-{% include tess.html search="data protection" %}

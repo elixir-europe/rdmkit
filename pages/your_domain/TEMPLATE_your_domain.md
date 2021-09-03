@@ -2,8 +2,15 @@
 title: Domain page title
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+related_pages: 
+  - your_problem: [<!---REPLACE THIS with the page ID of the your_problem pages that you want to list here as related pages--->]
+  - tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+training:
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
@@ -32,7 +39,3 @@ For detailing the domain-specific challenges of a problem that is generic, pleas
 <!--- Add more sections as needed, with the same subsections as above. --->
 ...
 
-## Relevant tools and resources  
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml). If it isn't listed there, please raise an issue.--->
-
-{% include toollist.html tag="<!---TAG--->" %}
