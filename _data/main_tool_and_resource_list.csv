@@ -1,4 +1,4 @@
-name,link,description,registry,tags,country
+name,link,description,registry,related_pages,country
 Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,,micro biotech,
 Ada,https://ada-discovery.github.io/,"Ada is a performant and highly configurable system for secured integration, visualization, and collaborative analysis of heterogeneous data sets, primarily targeting clinical and experimental sources.",,"data analysis, transmed",
 Addgene,https://www.addgene.org/browse/,A searchable repository with a focus on plasmids,,micro biotech,

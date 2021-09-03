@@ -1,4 +1,4 @@
-{%- assign tools = site.data.tool_and_resource_list.Tools | where:"tags", include.tag -%}
+{%- assign tools = site.data.tool_and_resource_list.Tools | where:"related_pages", include.tag -%}
 {%- unless tools == blank %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <div class="mt-4">
@@ -28,8 +28,8 @@
                 <td>{{tool.name}}</td>
                 {%- endif %}
                 <td>{{tool.description}}</td>
-                {%- capture tags %}
-                {%- for tag in tool.tags %}
+                {%- capture related_pages %}
+                {%- for tag in tool.related_pages %}
                 {%- assign related_page = site.pages | where:"page_id",tag | first %}
                 {%- if include.tag != tag and include.tag2 != tag %}
                 <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
@@ -37,7 +37,7 @@
                 {%- endfor %}
                 {% if tool.country %}{% for country in tool.country %}<span class="flag-icon flag-icon-{{country | downcase }} rounded align-middle"></span>{% endfor %}{% endif %}
                 {%- endcapture %}
-                <td>{{tags}}</td>
+                <td>{{related_pages}}</td>
                 <td style="text-align: center; vertical-align: middle;">
                 {%- if tool.registry.biotools %}
                 <a data-bs-toggle="tooltip"
