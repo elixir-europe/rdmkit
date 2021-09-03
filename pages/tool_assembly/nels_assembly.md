@@ -2,8 +2,10 @@
 title: NeLS assembly 
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
 summary: This is an example of a Data Management tool assembly, NeLS as an infrastructure is funded and aimed for researchers in Norway and their collaborators.
-tags: [IT support, data manager, researcher, DMP, storage, metadata, data analysis]
 page_id: NeLS
+related_pages: 
+  - your_problem: [DMP, storage, metadata, data analysis]
+  - your_domain: [] 
 training:
   - name: Training in TeSS
     registry: TeSS

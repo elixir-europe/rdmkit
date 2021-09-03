@@ -64,3 +64,10 @@ For use in presentations, tutorials and all other RDMkit related activities the 
     [<a href="{{ 'images/data_life_cycle_3.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'images/data_life_cycle_3.png' | relative_url }}">png</a>]
 </p>
+
+## Promotion gif
+
+<p>
+  <img src="{{ 'images/RDMkit_square_small.gif' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 15em; vertical-align: middle" alt="Promotion gif" />
+    [<a href="{{ 'images/RDMkit_square_small.gif' | relative_url }}">gif</a>]
+</p>

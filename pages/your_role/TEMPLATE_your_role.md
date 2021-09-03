@@ -1,9 +1,16 @@
 ---
 title: <Your persona>
+search_exclude: true
 summary: Fill in your summary or delete this property when not needed
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
-search_exclude: true
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+related_pages: 
+  - your_problem: [<!---REPLACE THIS with the page ID of the your_problem pages that you want to list here as related pages--->]
+training:
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 {% include note.html content="This page is under construction." %}

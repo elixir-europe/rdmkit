@@ -1,9 +1,10 @@
 ---
 title: Data quality
 contributors: [Wei Gu, Pinar Alper]
-tags: [collect, process, researcher, data manager]
 description: ensure high quality research data.
 page_id: data quality
+related_pages: 
+  - tool_assembly: []
 ---
 
 ## How do you ensure the quality of research data?

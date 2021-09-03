@@ -1,9 +1,15 @@
 ---
 title: Global problem title (e.g. metadata management)
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of "Cycle Tags" or "Role Tags"--->]
-page_id: <!---REPLACE THIS with the tag that is used in the tool table--->
 search_exclude: true
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+related_pages: 
+  - tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+training:
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 ## Concrete problem 1, formulated as a question <!-- example: what is the best way to name a file?-->

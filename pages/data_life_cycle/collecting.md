@@ -1,6 +1,8 @@
 ---
 title: Collecting
 page_id: collect
+related_pages: 
+  - your_problem: [data organisation, data quality, existing data, identifiers, metadata, sensitive, storage]
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 training:
   - name: Training in TeSS

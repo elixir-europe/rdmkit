@@ -2,6 +2,8 @@
 title: Researcher
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona, Munazah Andrabi]
 page_id: researcher
+related_pages: 
+  - your_problem: [compliance, data analysis, DMP, data organisation, data publication, data quality, existing data, metadata, identifiers]
 ---
 
 ## Applies to
