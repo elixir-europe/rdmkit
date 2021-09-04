@@ -19,7 +19,7 @@
             <tr>
                 <td><a href="{{training.url | relative_url }}">{{training.name}}{%- if training.name == 'Training in TeSS'%} about {{page.title}}{%- endif %}</a></td>
                 <td><a class="nohover" href="{{page.url | relative_url }}"><span class="badge default-badge">{{page.title}}</span></a></td>
-                <td>{%- if training.registry %}{%- if training.registry_url %}<a href="{{training.registry_url}}">{%- endif %}<span class="badge registry_badge">TeSS</span>{%- if training.registry_url %}</a>{%- endif %}{%- endif %}</td> 
+                <td>{%- if training.registry %}{%- if training.registry_url %}<a href="{{training.registry_url}}">{%- endif %}<span class="badge registry_badge">training.registry</span>{%- if training.registry_url %}</a>{%- endif %}{%- endif %}</td> 
             </tr>
             {%- endfor %}
             {%- endunless %}
