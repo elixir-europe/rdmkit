@@ -6,7 +6,7 @@ related_pages:
   - your_problem: [compliance, licensing, DMP, data protection, sensitive]
 training:
   - name: TeSS - ELIXIR’s training portal
-    registry: https://tess.elixir-europe.org/
+    registry: TeSS
     registry_url: https://tess.elixir-europe.org/
     url: https://tess.elixir-europe.org/
 
