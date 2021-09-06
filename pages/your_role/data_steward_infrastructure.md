@@ -6,7 +6,7 @@ related_pages:
   - your_problem: [data analysis, data protection, transfer, identifiers, storage, data organisation]
 training:
   - name: TeSS - ELIXIR’s training portal
-    registry: https://tess.elixir-europe.org/
+    registry: TeSS
     registry_url: https://tess.elixir-europe.org/
     url: https://tess.elixir-europe.org/
 
