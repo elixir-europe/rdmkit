@@ -36,7 +36,7 @@ training:
     url: https://www.futurelearn.com/courses/delivering-research-data-management-services
 
   - name: NPOS/ELIXIR data steward competency framework
-    registry: https://zenodo.org
+    registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/record/3490855#.YArTH-lKi7o
 
