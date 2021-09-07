@@ -137,7 +137,7 @@ Only name and startDate are mandatory attributes.
 ### Simple way: using the GitHub interface
 To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
 
-1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_tasks/TEMPLATE_your_problem.md) file.
+1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_tasks.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_tasks/TEMPLATE_your_tasks.md) file.
 
 1. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
