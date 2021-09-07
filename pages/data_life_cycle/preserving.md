@@ -3,7 +3,7 @@ title: Preserving
 page_id: preserve
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 related_pages: 
-  - your_problem: [data organisation, data protection, data publication, transfer, metadata, storage]
+  - your_tasks: [data organisation, data protection, data publication, transfer, metadata, storage]
 training:
   - name: Training in TeSS
     registry: TeSS

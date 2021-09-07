@@ -18,7 +18,7 @@ This process is sketched below.
 ### Overview of the file structure in GitHub
 
 The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdmkit/tree/master/pages) directory.
-These markdown files are divided over subdirectories (your_role, your_domain, your_problem...) for sorting reasons only.
+These markdown files are divided over subdirectories (your_role, your_domain, your_tasks...) for sorting reasons only.
 
 ### The metadata/frontmatter of the markdown file
 
@@ -55,12 +55,12 @@ Optional metadata/frontmatter:
 
 * `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list Related pages.
 
-* `related_pages`: List here the page_id of RDMkit pages that you want to display as Related pages, grouped by section (Your problem, Your domain, Tool assembly).
+* `related_pages`: List here the page_id of RDMkit pages that you want to display as Related pages, grouped by section (Your tasks, Your domain, Tool assembly).
 
-  If you want pages from the specific section (Your problem, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
+  If you want pages from the specific section (Your tasks, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
 ```yml
 related_pages: 
-   - your_problem: [page_id1, page_id2]
+   - your_tasks: [page_id1, page_id2]
    - your_domain: [page_id1, page_id2]
    - tool_assembly: [page_id1, page_id2]
   ``` 
@@ -137,14 +137,14 @@ Only name and startDate are mandatory attributes.
 ### Simple way: using the GitHub interface
 To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
 
-1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
+1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_tasks/TEMPLATE_your_problem.md) file.
 
 1. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
 
 1. Select and copy all the content.
 
-1. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_problem*. Click on `Add file` on the right followed up by `Create new file`.
+1. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_tasks*. Click on `Add file` on the right followed up by `Create new file`.
     {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
 
 1. Paste the copied content from the template.
@@ -242,7 +242,7 @@ The logos can be added to the [/images/institutes](https://github.com/elixir-eur
 
 ### Add "Related pages" to a page 
 
-RDMkit pages from the sections Your problem, Your domain and Tool assembly can be displayed as "Related RDMkit pages" in a page, grouped by section. 
+RDMkit pages from the sections Your tasks, Your domain and Tool assembly can be displayed as "Related RDMkit pages" in a page, grouped by section. 
 
 Only pages from specific sections are allowed in each page (see image below), as pre-defined in the metadata of each template page. Please, do not add extra sections in the metadata of the page.
 
@@ -255,7 +255,7 @@ An overview of all RDMkit pages (belonging to the sections listed above) and the
 
 ```yml
 related_pages: 
-   - your_problem: [page_id1, page_id2]
+   - your_tasks: [page_id1, page_id2]
    - your_domain: [page_id1, page_id2]
    - tool_assembly: [page_id1, page_id2]
   ``` 

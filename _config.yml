@@ -67,9 +67,9 @@ defaults:
       type: Your domain
   -
     scope:
-      path: "pages/your_problem"
+      path: "pages/your_tasks"
     values:
-      type: Your problem
+      type: Your tasks
   -
     scope:
       path: "pages/your_role"
