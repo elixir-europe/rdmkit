@@ -31,7 +31,7 @@ subitems:
         url: /microbial_biotechnology.html
       - title: Epitranscriptome data
         url: /epitranscriptome_data.html
-  - title: Your problem
+  - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
       - title: Compliance monitoring

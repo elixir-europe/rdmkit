@@ -4,7 +4,7 @@ contributors: [Wei Gu, Soumyabrata Ghosh, Muhammad Shoaib, Irina Balaur, Xinhui 
 summary: Data management tool assembly from ELIXIR Luxembourg supporting projects in Translational Biomedicine. The TransMed assembly is available as a hosted service from ELIXIR Luxembourg, it also acts as an RDM blueprint for the wider research community. 
 page_id: transmed
 related_pages: 
-  - your_problem: [compliance, storage, metadata, data organisation, data analysis, sensitive]
+  - your_tasks: [compliance, storage, metadata, data organisation, data analysis, sensitive]
   - your_domain: [human data]
 ---
 
