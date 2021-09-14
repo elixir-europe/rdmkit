@@ -23,7 +23,14 @@
     </div>
     {%- endcapture %}
     <button tabindex="0" type="button" class="btn bg-white hover-secondary m-1" data-bs-trigger="focus" data-bs-html="true" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content='{{html_code}}' title="{{contributor}}">
-        {{ contributor }}
+        <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">  
+                <img class="img-fluid rounded-circle contributor-badge-sm" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ stripped_name }}">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                {{ contributor }}
+            </div>
+        </div>
     </button>
     {% endfor -%}
 </div>
