@@ -612,25 +612,15 @@ h2.card-title {
 
 /*-----Social icons-----*/
 
-.social-icons a {
-    background-color: $body-bg;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    color: $secondary;
-    display: inline-block;
+.social-icons {
     line-height: 4ex;
     width: 4ex;
     height: 4ex;
     text-align: center;
-    border-radius: 100%;
-}
-
-.social-icons a:hover {
-    background-color: $secondary;
-    color: $white;
 }
 
 @media (max-width: 768px) {
-    #contributors-carousel .social-icons a {
+    #contributors-carousel .social-icons {
         line-height: 1.2ex;
         width: 1.2ex;
         height: 1.2ex;
@@ -697,6 +687,13 @@ h2.card-title {
 
 .cookiealert a:hover {
     color: $secondary;
+}
+
+
+.hover-secondary:hover,  .hover-secondary:focus {
+    background-color: $secondary !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    color: $white !important;;
 }
 
 /*--------------Custom classes--------------*/
