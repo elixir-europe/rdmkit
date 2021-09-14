@@ -247,7 +247,7 @@
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
 {%- assign tools = site.data.tool_and_resource_list -%}
-<div class="row row-cols-1 row-cols-md-3 g-4 my-3">
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
   <div class="col">
     <div class="bg-light rounded-3 p-3 text-center h-100">
       <span class="count-number text-secondary">{{allcontributors.size}}</span>

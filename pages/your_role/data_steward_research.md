@@ -3,10 +3,10 @@ title: Data steward research
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: data manager
 related_pages: 
-  - your_problem: [compliance, DMP, data organisation, licensing, metadata, data protection, data publication, data quality, transfer, identifiers]
+  - your_tasks: [compliance, DMP, data organisation, licensing, metadata, data protection, data publication, data quality, transfer, identifiers]
 training:
   - name: TeSS - ELIXIR’s training portal
-    registry: https://tess.elixir-europe.org/
+    registry: TeSS
     registry_url: https://tess.elixir-europe.org/
     url: https://tess.elixir-europe.org/
 
