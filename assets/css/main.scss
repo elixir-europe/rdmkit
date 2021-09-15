@@ -16,15 +16,11 @@ $navbar-dark-toggler-border-color: transparent;
 $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
+$font-family-sans-serif: "Open Sans", sans-serif;
 
 @import "bootstrap/bootstrap";
 
 /*-----General styling-----*/
-
-body {
-    font-family: "Open Sans", sans-serif;
-    font-variant-ligatures: none;
-}
 
 h1 {
     font-family: "Exo 2", sans-serif;
