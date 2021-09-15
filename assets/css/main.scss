@@ -16,15 +16,11 @@ $navbar-dark-toggler-border-color: transparent;
 $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
+$font-family-sans-serif: "Open Sans", sans-serif;
 
 @import "bootstrap/bootstrap";
 
 /*-----General styling-----*/
-
-body {
-    font-family: "Open Sans", sans-serif;
-    font-variant-ligatures: none;
-}
 
 h1 {
     font-family: "Exo 2", sans-serif;
@@ -284,8 +280,8 @@ pre code {
 }
 
 .sidebar-collapse:not(.collapsed) {
-    color: $secondary;
-    background-color: $secondary;
+    color: $white;
+    background-color: $secondary !important;
 }
 
 .sidebar-title {
@@ -299,21 +295,6 @@ pre code {
     padding-left: 0;
 }
 
-.menu li a {
-    margin-top: 4px;
-    color: $body-color;
-    background-color: $light;
-    display: block;
-    padding: 7px 11px;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
-.menu li a:hover {
-    background-color: $secondary;
-    color: $white;
-}
-
 .menu ul li a {
     padding-left: 30px;
     background-color: transparent;
@@ -324,7 +305,7 @@ pre code {
 }
 
 .menu li.active:not(.parent) > a {
-    background-color: $secondary;
+    background-color: $secondary !important;
     color: $white;
 }
 
@@ -477,45 +458,6 @@ footer .company-logo {
     float: right;
 }
 
-/*-----MetaData section -----*/
-
-.meta-obj {
-    margin: 5px 5px 5px 0px;
-    background-color: $body-bg;
-    text-align: center;
-    font-size: 0.9em;
-    vertical-align: middle;
-    display: inline-block;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
-}
-
-.meta-obj-false {
-    background-color: $body-bg;
-    margin: 5px 5px 5px 0px;
-    color: $body-color;
-    text-align: center;
-    text-decoration: none;
-    font-size: 0.9em;
-    vertical-align: middle;
-    padding: 0.375rem 0.75rem;
-    display: inline-block;
-    border-radius: 4px;
-}
-
-.meta-obj-false:hover {
-    color: $body-color;
-}
-
-.meta-obj:hover {
-    background-color: $secondary;
-    color: $white;
-}
-
-.contributor-badge {
-    height: 1.25em;
-    border-radius: 50%;
-    margin: 0.25em;
-}
 
 /* -----Homepage----- */
 
@@ -532,23 +474,9 @@ h2.card-title {
     margin: 0 0 0.5rem 0;
 }
 
-/* Custom buttons */
+/* Arrow in button */
 
-.btn-custom {
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    background-color: $light;
-    padding: 7px 11px;
-    border-radius: 4px;
-    text-align: left;
-    border: 0;
-}
-
-.btn-custom:hover {
-    background-color: $secondary;
-    color: $white;
-}
-
-.btn-custom.arrow::after {
+.btn.arrow::after {
     float: right;
     width: 15px;
     text-align: center;
@@ -561,7 +489,7 @@ h2.card-title {
     content: "\f078";
 }
 
-.btn-custom.arrow:not(.collapsed)::after {
+.btn.arrow:not(.collapsed)::after {
     float: right;
     width: 15px;
     text-align: center;
@@ -614,29 +542,29 @@ h2.card-title {
 
 /*-----Social icons-----*/
 
-.social-icons a {
-    background-color: $body-bg;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    color: $secondary;
-    display: inline-block;
+.social-icons {
     line-height: 4ex;
     width: 4ex;
     height: 4ex;
     text-align: center;
-    border-radius: 100%;
-}
-
-.social-icons a:hover {
-    background-color: $secondary;
-    color: $white;
 }
 
 @media (max-width: 768px) {
-    #contributors-carousel .social-icons a {
+    #contributors-carousel .social-icons {
         line-height: 1.2ex;
         width: 1.2ex;
         height: 1.2ex;
     }
+}
+
+/*-----Contributor list-----*/
+
+.contributor-badge {
+    width: 130px;
+}
+
+.contributor-badge-sm {
+    height: 1.7em;
 }
 
 /*-----Edit me button-----*/
@@ -699,6 +627,13 @@ h2.card-title {
 
 .cookiealert a:hover {
     color: $secondary;
+}
+
+
+.hover-secondary:hover,  .hover-secondary:focus {
+    background-color: $secondary !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    color: $white !important;;
 }
 
 /*--------------Custom classes--------------*/
