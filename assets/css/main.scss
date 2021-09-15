@@ -567,20 +567,6 @@ h2.card-title {
     height: 1.7em;
 }
 
-/*-----Edit me button-----*/
-
-.github-edit-btn {
-    color: $secondary;
-    margin-left: 12px;
-    font-size: small;
-}
-
-.github-edit-btn:hover {
-    color: $secondary;
-    background-color: $light;
-    text-decoration: none;
-}
-
 /* ----- Cookie consent ----- */
 
 .cookiealert {
@@ -603,32 +589,8 @@ h2.card-title {
     transition-delay: 1000ms;
 }
 
-.cookiealert .acceptcookies {
-    margin-left: 10px;
-    vertical-align: baseline;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    background-color: $light;
-    padding: 7px 11px;
-    border-radius: 4px;
-    border: 0px;
-}
-
-.cookiealert .acceptcookies:hover {
-    background-color: $secondary;
-    color: $white;
-}
-
-.cookiealert a {
-    color: $white;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.cookiealert a:hover {
-    color: $secondary;
-}
-
+/*--------------Hover classes--------------*/
+/* ---------------------------------------- */
 
 .hover-secondary:hover,  .hover-secondary:focus {
     background-color: $secondary !important;
@@ -636,8 +598,12 @@ h2.card-title {
     color: $white !important;;
 }
 
-/*--------------Custom classes--------------*/
+.text-hover-secondary:hover,  .text-hover-secondary:focus {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    color: $secondary !important;;
+}
 
+/*--------------Custom classes--------------*/
 /* ---------------------------------------- */
 
 /* RDM wheel in sidebar */
