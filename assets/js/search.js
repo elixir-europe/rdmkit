@@ -1,6 +1,6 @@
 ---
 layout: none
-permalink: assets / js / search.js
+permalink: assets/js/search.js
 ---
 /**
  * Search based on just the docs
