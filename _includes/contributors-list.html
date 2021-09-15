@@ -27,7 +27,7 @@
         {%- endif %}
     </div>
     {%- endcapture %}
-    <button tabindex="0" type="button" class="btn bg-white hover-secondary m-1 text-decoration-none" data-bs-trigger="focus" data-bs-html="true" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content='{{html_code}}' title="{{contributor}}">
+    <a tabindex="0" type="button" class="btn bg-white hover-secondary m-1 text-decoration-none border-0" data-bs-trigger="focus" data-bs-html="true" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content='{{html_code}}' title="{{contributor}}">
         <div class="d-flex align-items-center">
             <div class="flex-shrink-0">  
                 {%- if contributors[contributor].image_url %}
@@ -40,7 +40,7 @@
                 {{ contributor }}
             </div>
         </div>
-    </button>
+    </a>
     {%- assign count = count | plus: 1 %}
     {%- endfor %}
 </div>
