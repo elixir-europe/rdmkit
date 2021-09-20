@@ -94,7 +94,7 @@ function nowToDateString() {
 
 function showUpcomingEvents() {
   var dstr = nowToDateString();
-  var events_block = $(document.getElementsByClassName("events"));
+  var events_block = $(document.getElementsByClassName("upcoming-events"));
   var elements = $('li.upcoming-event').filter(function () {
     return $(this).data('start') >= dstr;
   });
@@ -103,6 +103,19 @@ function showUpcomingEvents() {
   }
   elements.show();
 };
+
+function showPastEvents() {
+  var dstr = nowToDateString();
+  var events_block = $(document.getElementsByClassName("past-events"));
+  var elements = $('li.past-event').filter(function () {
+    return $(this).data('start') < dstr;
+  });
+  if ($(elements).length > 0) {
+    events_block.show()
+  }
+  elements.show();
+};
+
 
 
 /** 

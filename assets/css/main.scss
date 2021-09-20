@@ -646,25 +646,28 @@ li ul .sidebar_rdm_sub {
     }
 }
 
-/* Events homepage */
+/* Events and news homepage */
 
-li.upcoming-event,
+li.upcoming-event, li.past-event,
 .events {
     display: none;
 }
 
-.events li {
+.events li, .news li {
     border-left: $secondary 5px solid;
     border-radius: 4px;
-    padding-left: 11px;
+    padding: 0px 11px ;
+    border-bottom: 1px $gray-300 solid; 
+    border-right: 1px $gray-300 solid;
+    border-top: 1px $gray-300 solid;
 }
 
-.events i {
+.events i, .news i {
     width: 20px;
     text-align: center;
 }
 
-.events .title {
+.events .title, .news .title {
     background-color: $body-color;
     font-weight: 600;
     color: white;
