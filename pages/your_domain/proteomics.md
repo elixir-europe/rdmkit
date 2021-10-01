@@ -1,9 +1,17 @@
 ---
 title: Proteomics
+search_exclude: true
 contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig]
-tags: [metadata]
-page_tag: proteomics
+page_id: proteomics
+related_pages: 
+  - your_tasks: [metadata]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=proteomics
 ---
+
 
 ## Introduction
 
