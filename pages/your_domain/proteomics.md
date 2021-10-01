@@ -78,13 +78,3 @@ In order to make proteomics data and results worldwide findable and accessible f
 - Information on data uploads can be found on http://www.proteomexchange.org/submission or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
 - Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools
 
-
-## Relevant tools and resources  
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
-
-{% include toollist.html tag="proteomics" %}
-
-## Training materials on proteomics
-<!-- Link to Tess query -->
-
-{% include tess.html search="proteomics" %}
