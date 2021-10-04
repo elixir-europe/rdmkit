@@ -43,7 +43,7 @@ When looking for solutions to store your data during the collection or generatio
 * Make sure to generate good documentation (i.e., README file) and metadata together with the data. Follow best practices for folder structure, file naming and versioning systems (see our Data Organisation page). Check if your institute provides a (meta)data management system, such as iRODS, DataVerse, FAIRDOM-SEEK or OSF. See All tools and resources table below for additional tools.
 
 ### Planning your data storage solution
-You can plan your data storage, including the above considerations and solutions, using the [Data Stewardship Wizard](https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=a12aa967-28a5-4a9b-8df8-f7c533205ea4). This link provides access directly to the appropriate section of the Data Management Plan questionnaire.
+You can plan your data storage, including the above considerations and solutions, using the [Data Stewardship Wizard]({{ site.dsw_deep_link_prefix }}a12aa967-28a5-4a9b-8df8-f7c533205ea4). This link provides access directly to the appropriate section of the Data Management Plan questionnaire.
 
 ## How do you estimate computational resources for data processing and analysis?
 ### Description
