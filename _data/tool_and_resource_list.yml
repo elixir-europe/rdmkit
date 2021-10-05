@@ -1322,6 +1322,15 @@ Tools:
   - IT support
   - data manager
   - micro biotech
+- description: Open source software library that can be used to generate a ISA-TAB
+    export from in-house data sets. These comprises e.g. local database or local file
+    system based experimental.
+  link: https://doi.org/10.12688/f1000research.27188.1
+  name: ISA4J
+  registry:
+    biotools: isa4j
+  related_pages:
+  - plants
 - description: International information security standard
   link: https://en.wikipedia.org/wiki/ISO/IEC_27001
   name: ISO/IEC 27001
