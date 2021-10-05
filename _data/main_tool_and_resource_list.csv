@@ -150,6 +150,7 @@ InterPro,https://www.ebi.ac.uk/interpro/,Functional analysis of protein sequence
 IntoGen,https://www.intogen.org/search,IntoGen collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.,biotools:intogen,"data analysis,human data",
 iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:irods,"storage, IT support, transmed",
 ISA-tools,https://isa-tools.org/,"Open source framework and tools helping to manage a diverse set of life science, environmental and biomedical experiments using the Investigation Study Assay (ISA) standard",fairsharing:53gp75,"IT support, data manager, micro biotech",
+ISA4J,https://doi.org/10.12688/f1000research.27188.1,"Open source software library that can be used to generate a ISA-TAB export from in-house data sets. These comprises e.g. local database or local file system based experimental.",biotools:isa4j,plants,
 ISO/IEC 27001,https://en.wikipedia.org/wiki/ISO/IEC_27001,International information security standard,,"data protection, policy officer, human data",
 IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN),https://www.qmul.ac.uk/sbcs/iupac/jcbn/,A collaborative resource from IUPAC and IUBMB for naming standards in biochemistry,,micro biotech,
 JBEI-ICE,https://ice.jbei.org,A registry platform for biological parts,,micro biotech,
