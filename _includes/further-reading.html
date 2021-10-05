@@ -1,0 +1,63 @@
+<!-- More information -->
+{%- if page.related_pages or page.training %}
+<h2>More information</h2>
+<div class="p-4 bg-light rounded-3 mt-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Related pages -->
+        {%- if page.related_pages %}
+        {%- assign amount_section = page.related_pages.size | minus: 1 %}
+        {%- for i in (0..amount_section) %}
+        {%- for section in page.related_pages[i] %}
+        {%- assign section_name = section[0] %}
+        {%- endfor %}
+        {%- unless page.related_pages[i][section_name] == blank  %}
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-header fw-bold">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        {%- for page_id in page.related_pages[i][section_name] %}
+                        {%- assign metadata = site.pages | where:"page_id", page_id %}
+                        {%- for page_hit in metadata %}
+                        <li>
+                            <a href="{{ page_hit.url | relative_url }}">{{page_hit.title}}</a>{% if page_hit.description %}: {{ page_hit.description }}{% endif %}
+                        </li>
+                        {%- endfor %}
+                        {%- endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {%- endunless %}
+        {%- endfor %}
+        {%- endif %}
+        <!-- Training -->
+        {%- if page.training %}
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-header fw-bold">Training</div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        {%- for training in page.training %}
+                        <li>
+                            <a href="{{ training.url }}">{{training.name}}</a>
+                        </li>
+                        {%- endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {%- endif %}
+    </div>
+</div>
+{%- endif %}
+<!-- Tool table -->
+{%- if page.page_id %}
+{%- assign main_related_pages = site.data.tool_and_resource_list.Tools | where:"related_pages", page.page_id -%}
+{%- unless main_related_pages == blank %}
+
+<h2>Relevant tools and resources</h2>
+{% include toollist.html tag=page.page_id %}
+
+{%- endunless %}
+{%- endif %}

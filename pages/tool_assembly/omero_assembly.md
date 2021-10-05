@@ -1,9 +1,24 @@
 ---
 title: OMERO
-contributors: [Jean-Marie Burel]
-tags: [data organisation, storage, data analysis]
-page_tag: ome
+contributors: [Jean-Marie Burel] 
+page_id: ome
+related_pages: 
+  - your_tasks: [data organisation, storage, data analysi]
+  - your_domain: []
 summary: Tool assembly for managing imaging data
+training:
+  - name: General information about the OME ecosystem 
+    url: https://www.openmicroscopy.org
+  - name: Collection of presentations given over the years
+    url: https://downloads.openmicroscopy.org/presentations/
+  - name: Technical documentation for developers, system administrators
+    url: https://docs.openmicroscopy.org/omero/latest/
+  - name: Collection of workflow describing to how use the system, with links to scripts and notebooks
+    url: https://omero-guides.readthedocs.io/en/latest/
+  - name: YouTube channel with tutorials and presentations
+    url: https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ
+  - name: Imaging Forum - discussions about imaging related topics
+    url: https://forum.image.sc/
 ---
 
 ## What is OMERO?
@@ -39,17 +54,3 @@ The plaform can also be used to publish data either using public repository like
 OMERO is the platform between several public image repositories e.g. [Image Data Repository](http://idr.openmicroscopy.org/), [EMPIAR](https://www.ebi.ac.uk/empiar/)
 
 OMERO is also used as a teaching platform by several institutions e.g. University of Dundee, Harvard Medical school.
-
-
-## Materials
-
-To find out more of what OMERO can offer, we encourage you to read the various materials below or watch the videos on the dedicate Youtube channel.
-
-1. [General information](www.openmicroscopy.org) about the OME ecosystem 
-1. [Presentations](https://downloads.openmicroscopy.org/presentations/): collection of presentations given over the years
-1. [General Documentations](https://docs.openmicroscopy.org/omero/latest/): technical documentation for developers, system administrators. 
-1. [Guides](https://omero-guides.readthedocs.io/en/latest/): collection of workflow describing to how use the system, with links to scripts and notebooks.
-1. [YouTube channel](https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ) with tutorials and presentations
-1. [Imaging Forum](https://forum.image.sc/): discussions about imaging related topics
-
-{% include toollist.html tag="ome"%}

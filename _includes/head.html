@@ -2,7 +2,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="{{page.tags}}{% if page.tags %}, {% endif %} {{page.keywords}}">
+    {%- capture keywords %}
+    {%- if page.related_pages %}
+    {%- assign amount_section = page.related_pages.size | minus: 1 %}
+    {%- for i in (0..amount_section) %}{% for section in page.related_pages[i] %}
+    {%- assign section_name = section[0] %}{% endfor %}{% unless page.related_pages[i][section_name] == blank  %}{{ page.related_pages[i][section_name] | join: ', ' }}
+    {%- endunless %}
+    {%- endfor %}
+    {%- endif %}
+    {%- endcapture %}
+    <meta name="keywords" content="{{keywords}}">
     <meta property="og:title" content="{{ site.site_title }}" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:image" content="//rdmkit.elixir-europe.org/assets/img/apple-touch-icon.png" />
@@ -33,6 +42,7 @@
     <script src="{{ 'assets/js/jquery.navgoco.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/jquery.cookie.min.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/search.js' | relative_url }}"></script>
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/img/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/img/favicon-32x32.png' | relative_url }}">

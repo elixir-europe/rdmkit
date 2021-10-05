@@ -9,5 +9,7 @@ topnav:
       url: about.html
     - title: Contribute
       url: how_to_contribute.html
+    - title: Contact
+      url: contact.html
     - title: GitHub
       external_url: https://github.com/elixir-europe/rdmkit

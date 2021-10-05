@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<main id="main">
+<main id="main" class="mb-5">
     {%- if page.title %}
     <h1>{{ page.title }}
         {%- unless site.git_editme_path == nil %}
         {%- if page.custom-editme %}
-        <a href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
+        <a role="button" href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn hover-secondary text-secondary text-decoration-none btn-sm"><i class="fas fa-pencil-alt"></i> Edit me</a>
         {%- else %}
-        <a href="{{site.git_editme_path}}{{page.path}}" class="btn github-edit-btn"><i class="fas fa-pencil-alt"></i> Edit me</a>
+        <a role="button" href="{{site.git_editme_path}}{{page.path}}" class="btn hover-secondary text-secondary text-decoration-none btn-sm"><i class="fas fa-pencil-alt"></i> Edit me</a>
         {%- endif %}
         {%- endunless %}
     </h1>
@@ -20,6 +20,7 @@ layout: default
     {%- include toc.html %}
     {%- endunless %}
     {{content}}
+    {% include further-reading.html %}
+    {% include contributors-list.html %}
 </main>
-{%- include page-metadata.html %}
 

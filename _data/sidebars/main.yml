@@ -33,7 +33,7 @@ subitems:
         url: /epitranscriptome_data.html
       - title: Proteomics
         url: /proteomics.html
-  - title: Your problem
+  - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
       - title: Compliance monitoring
@@ -64,14 +64,8 @@ subitems:
         url: /metadata_management.html
       - title: Sensitive data
         url: /sensitive_data.html
-
-  - title: All tools and resources
-    description: Browse the RDMkit's catalogue of tools and resources for research data management.
-    url: /all_tools_and_resources.html
-    hr: True
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
-    hr: True
     subitems:
       - title: NeLS - Norway
         url: /nels_assembly.html
@@ -93,4 +87,12 @@ subitems:
         url: /plant_genomics_assembly.html
       - title: OMERO
         url: /omero_assembly.html
+  - title: All tools and resources
+    description: Browse the RDMkit's catalogue of tools and resources for research data management.
+    url: /all_tools_and_resources.html
+    hr: True
+  - title: All training resources
+    description: Browse the RDMkit's catalogue of training resources for research data management.
+    url: /all_training_resources.html
+
 

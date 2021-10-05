@@ -1,14 +1,23 @@
 ---
 title: TSD for sensitive data - Norway
 contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl]
-summary: This is a Data Management tools assembly for sensitive data around TSD. TSD as an infrastructure is aimed for researchers in Norway and their collaborators, but can be used by anyone.
-tags: [IT support, data manager, researcher, human data, DMP, storage, sensitive]
-page_tag: TSD
+summary: This is a Data Management tools assembly for sensitive data around TSD. TSD as an infrastructure is aimed for researchers in Norway and their collaborators, but can be used by anyone. 
+page_id: TSD
+related_pages: 
+  - your_tasks: [DMP, storage, sensitive]
+  - your_domain: [human data]
+training:
+  - name: Documentation for the HPC cluster
+    url: https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/colossus-userguide
+  - name: Courses on the usage of TSD from the University of Oslo
+    url: https://www.uio.no/english/for-employees/support/research/research-data/training/courses/
+  - name: Recording of a previous course on Nettskjema and TSD
+    url: https://www.uio.no/for-ansatte/kompetanse/tema/data/nettskjema-tsd/tsd-nettskjema2april.html
 ---
 
 ## What is the Norwegian tools assembly for sensitive data - TSD data management tools assembly?
 The Norwegian ELIXIR tools assembly for sensitive data is centred around 
-[TSD - literally for: services for sensitive data](https://www.uio.no/english/services/it/research/sensitive-data/ is an infrastructure provided by [the University of Oslo (UiO)](https://www.uio.no). Together with the other complementary tools provided by ELIXIR, TSD can be used for the management of [sensitive data](sensitive_data), including handling of [Human data](human_data).
+[TSD - literally for: services for sensitive data](https://www.uio.no/english/services/it/research/sensitive-data/) is an infrastructure provided by [the University of Oslo (UiO)](https://www.uio.no). Together with the other complementary tools provided by ELIXIR, TSD can be used for the management of [sensitive data](sensitive_data), including handling of [Human data](human_data).
 This assembly covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offer [Data Storage](storage) capacities and tools for [transfer](data_transfer) of sensitive data, following the requirements of the EU general data protection regulations (GDPR) and its Norwegian implementation. 
 
 
@@ -54,14 +63,3 @@ The computing services provided through TSD include an Illumina DRAGEN (Dynamic 
 One solution for permanent archiving and sharing of personally identifiable genetic and phenotypic datasets resulting from biomedical research data is to deposit them to the [European Genome-phenome Archive (EGA)](https://ega-archive.org/). The EGA applies a controlled access model. There can be limitations, e.g. given consents, for your datasets which prevents them from leaving your jurisdiction or being archived in general. This will be partly addressed in the future by federated EGA services with nodes operating from one country or institution under one specific jurisdiction. This model will enable discovery of publicly shareable metadata about studies/datasets archived at the federated EGA nodes through the Central EGA, while the remaining data is stored in a local solution. These nodes will offer the same APIs and interfaces as the Central EGA and provide independent data distribution to users.
 The Norwegian federated EGA (NFEGA) will be accessible through [ELIXIR AAI](https://elixir-europe.org/services/compute/aai), compatible with [FEIDE](https://www.feide.no/).
 
-
-## Where can I find training materials, documentations and events about the TSD data management tool assembly?
-
-You can find the documentation for the HPC cluster [here](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/colossus-userguide.html).
-
-Course on the usage of TSD from the University of Oslo are announced [here](https://www.uio.no/english/for-employees/support/research/research-data/training/courses/). The recording of a previous course on Nettskjema and TSD is accessible [here](https://www.uio.no/for-ansatte/kompetanse/tema/data/nettskjema-tsd/tsd-nettskjema2april.html).
-
-
-## What tools are used within the TSD data management tools assembly?
-
-{% include toollist.html tag="TSD" %}

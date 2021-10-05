@@ -6,7 +6,7 @@
 {%- capture planning -%}{%- if page.url == "/planning.html" -%}st5{%- else -%}st15{%- endif -%}{%- endcapture -%}
 {%- capture collecting -%}{%- if page.url == "/collecting.html" -%}st6{%- else -%}st16{%- endif -%}{%- endcapture -%}
 {%- capture sharing -%}{%- if page.url == "/sharing.html" -%}st7{%- else -%}st17{%- endif -%}{%- endcapture -%}
-<button class="d-lg-none collapsed sidebar-collapse btn-custom w-100 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
+<button class="btn bg-light text-start d-lg-none collapsed sidebar-collapse btn w-100 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#side-nav" aria-controls="side-nav" aria-expanded="true" aria-label="Toggle navigation">
     {{ page.sidebar | capitalize }} menu <i title="navbar-toggler" class="fa fa-bars ms-2"></i>
 </button>
 <nav class="collapse" id="side-nav" aria-label="Side navigation">
@@ -21,15 +21,15 @@
         <li {%- if folder.hr %} class="mt-3"{% endif %}>
         {%- endif %}
         {%- if folder.external_url %}
-            <a href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
+            <a class="btn bg-light hover-secondary text-start d-block mt-1" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
         {%- else %}    
-            <a href="{{folder.url | relative_url }}">{{ folder.title }}</a>
+            <a class="btn bg-light hover-secondary text-start d-block mt-1" href="{{folder.url | relative_url }}">{{ folder.title }}</a>
         {%- endif %}
         {%- if folder.subitems %}
             <ul class="list-unstyled">
                 {%- for subfolder in folder.subitems %}
                 {%- if subfolder.RDM -%}
-                {%- if site.RDM_pages contains page.url %}
+                {%- if page.type == "Data life cycle" %}
                 <li class="active sidebar_rdm_sub">
                 {% else %}
                 <li class="sidebar_rdm_sub">
@@ -196,9 +196,9 @@
                 <li>
                 {%- endif %}
                 {%- if subfolder.external_url %}
-                    <a href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
+                    <a class="btn hover-secondary text-start d-block mt-1" href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
                 {%- else %}    
-                    <a href="{{subfolder.url | relative_url }}">{{ subfolder.title }}</a>
+                    <a class="btn hover-secondary text-start d-block mt-1" href="{{subfolder.url | relative_url }}">{{ subfolder.title }}</a>
                 {%- endif %}
                 {%- if subfolder.subitems %}
                     <ul class="list-unstyled">
@@ -209,9 +209,9 @@
                         <li>
                         {%- endif %}
                         {%- if subsubfolder.external_url %}
-                            <a href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
+                            <a class="btn hover-secondary text-start d-block mt-1" href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
                         {%- else %}    
-                            <a href="{{subsubfolder.url | relative_url }}">{{ subsubfolder.title }}</a>
+                            <a class="btn hover-secondary text-start d-block mt-1" href="{{subsubfolder.url | relative_url }}">{{ subsubfolder.title }}</a>
                         {%- endif %}
                         </li>
                         {%- endfor %}
