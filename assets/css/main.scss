@@ -654,12 +654,9 @@ li.upcoming-event, li.past-event,
 }
 
 .events li, .news li {
-    border-left: $secondary 5px solid;
+    border-left: $light 5px solid;
     border-radius: 4px;
     padding: 0px 11px ;
-    border-bottom: 1px $gray-300 solid; 
-    border-right: 1px $gray-300 solid;
-    border-top: 1px $gray-300 solid;
 }
 
 .events i, .news i {
@@ -668,13 +665,13 @@ li.upcoming-event, li.past-event,
 }
 
 .events .title, .news .title {
-    background-color: $body-color;
+    background-color: $secondary;
     font-weight: 600;
     color: white;
     padding: 0px 11px;
     border-radius: 0px 4px 4px 0px;
     margin-left: -11px;
-    border: 1px solid $body-color;
+    border: 1px solid $secondary;
     display: inline-block;
 }
 
