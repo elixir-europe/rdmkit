@@ -654,7 +654,7 @@ li.upcoming-event, li.past-event,
 }
 
 .events li, .news li {
-    border-left: $light 5px solid;
+    border-left: $secondary 5px solid;
     border-radius: 4px;
     padding: 0px 11px ;
 }
@@ -665,13 +665,13 @@ li.upcoming-event, li.past-event,
 }
 
 .events .title, .news .title {
-    background-color: $secondary;
+    background-color: $light;
     font-weight: 600;
-    color: white;
+    color: $body-color;
     padding: 0px 11px;
     border-radius: 0px 4px 4px 0px;
     margin-left: -11px;
-    border: 1px solid $secondary;
+    border: 1px solid $light;
     display: inline-block;
 }
 
