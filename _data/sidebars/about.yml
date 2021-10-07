@@ -9,6 +9,10 @@ subitems:
         url: /editorial_board.html
       - title: Support
         url: /support.html
+  - title: News
+    url: /news.html
+  - title: Events
+    url: /events.html
   - title: Media kit
     url: /media_kit.html
   - title: Outreach

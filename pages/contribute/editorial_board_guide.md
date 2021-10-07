@@ -132,6 +132,19 @@ Add an event to the landing page by editing the `events.yml` in the `_data` dire
 
 Only name and startDate are mandatory attributes.
 
+## Adding a news item
+
+Add a news item to the landing page by editing the `news.yml` in the `_data` directory in this repository. Use following attributes to define a news item:
+
+
+```yml
+- name: News title
+  date: 2021-06-23
+  description: A short description
+```
+
+All attributes are mandatory.
+
 ## Create a new page
 
 ### Simple way: using the GitHub interface

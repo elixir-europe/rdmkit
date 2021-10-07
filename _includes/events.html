@@ -1,6 +1,6 @@
 
-<div class="events">
-    <h3 class="mt-5">Upcoming events</h3>
+<div class="events upcoming-events">
+  <h2 class="mt-5 text-dark">Upcoming events</h2>
     {%- assign events = site.data.events %}
     <ul class="list-unstyled mt-3">
         {%- for event in events %}
@@ -12,11 +12,12 @@
           <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-2"></i>{{ event.location }}</p> 
           {%- endif %}
           {%- if event.description %}
-          <p class="text-muted">{{ event.description }}</p>
+          <p class="mt-2">{{ event.description }}</p>
           {%- endif %}
         </li>
         {%- endfor %}
     </ul>
+    <small>An overview of all our events can be fount on the <a href="/events.html">events page</a>.</small>
 </div>
 <script>
   $(document).ready(function() {
