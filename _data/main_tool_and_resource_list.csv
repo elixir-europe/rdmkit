@@ -4,7 +4,6 @@ Ada,https://ada-discovery.github.io/,"Ada is a performant and highly configurabl
 Addgene,https://www.addgene.org/browse/,A searchable repository with a focus on plasmids,,micro biotech,
 Amazon Web Services,https://aws.amazon.com/,Amazon Web Services,,"storage, data analysis, transfer",
 Amnesia,https://amnesia.openaire.eu/,Amnesia is a GDPR compliant high accuracy data anonymization tool,,sensitive,
-AOP4EUpest,http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php,"AOP4EUpest web server is devoted to the identification of pesticides involved in an Adverse Outcome Pathway via text mining approaches.",biotools:aop4eupest,toxicology data,
 APID Interactomes,http://apid.dep.usal.es/,APID (Agile Protein Interactomes DataServer) is a server that provides a comprehensive collection of protein interactomes for more than 400 organisms based in the integration of known experimentally validated protein-protein physical interactions (PPIs),biotools:apid,IDP,
 Argos,https://argos.openaire.eu/splash/,"Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.",,"DMP, researcher, data manager",
 ArrayExpress,https://www.ebi.ac.uk/arrayexpress/,A repository of array based genomics data,,micro biotech,
