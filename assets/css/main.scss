@@ -387,12 +387,6 @@ pre code {
 
 /*-----General table properties-----*/
 
-.table {
-    display: block;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-
 .table>:not(:first-child) {
     border-color: inherit;
 }
