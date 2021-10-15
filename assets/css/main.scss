@@ -387,16 +387,10 @@ pre code {
 
 /*-----General table properties-----*/
 
-.table {
-    display: block;
-    overflow-x: auto;
-    overflow-y: hidden;
-    border-color: $light;
+.table>:not(:first-child) {
+    border-color: inherit;
 }
 
-.table > :not(:last-child) > :last-child > * {
-    border-bottom-color: inherit;
-}
 
 /* Name and description column improvements */
 
