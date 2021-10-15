@@ -63,7 +63,7 @@ main h3 + h4  {
     margin-top: 15px;
 }
 
-main a:hover {
+main a:not(.btn):hover {
     text-decoration: underline;
 }
 
@@ -683,3 +683,4 @@ iframe.scale {
     width: 100%;
     margin: 40px 0;
 }
+

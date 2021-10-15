@@ -1,55 +1,110 @@
 <!-- More information -->
 {%- if page.related_pages or page.training %}
 <h2>More information</h2>
-<div class="p-4 bg-light rounded-3 mt-4">
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <!-- Related pages -->
-        {%- if page.related_pages %}
-        {%- assign amount_section = page.related_pages.size | minus: 1 %}
-        {%- for i in (0..amount_section) %}
-        {%- for section in page.related_pages[i] %}
-        {%- assign section_name = section[0] %}
-        {%- endfor %}
-        {%- unless page.related_pages[i][section_name] == blank  %}
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-header fw-bold">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
-                <div class="card-body">
-                    <ul class="list-unstyled">
-                        {%- for page_id in page.related_pages[i][section_name] %}
-                        {%- assign metadata = site.pages | where:"page_id", page_id %}
-                        {%- for page_hit in metadata %}
-                        <li>
-                            <a href="{{ page_hit.url | relative_url }}">{{page_hit.title}}</a>{% if page_hit.description %}: {{ page_hit.description }}{% endif %}
-                        </li>
-                        {%- endfor %}
-                        {%- endfor %}
-                    </ul>
-                </div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+    <!-- Related pages -->
+    {%- if page.related_pages %}
+    {%- assign amount_section = page.related_pages.size | minus: 1 %}
+    {%- for i in (0..amount_section) %}
+    {%- for section in page.related_pages[i] %}
+    {%- assign section_name = section[0] %}
+    {%- endfor %}
+    {%- unless page.related_pages[i][section_name] == blank  %}
+    <div class="col">
+        <div class="card border-0 h-100 info-card bg-light">
+            <div class="card-header bg-dark border-0 fw-bold text-white">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    {%- for page_id in page.related_pages[i][section_name] %}
+                    {%- assign metadata = site.pages | where:"page_id", page_id %}
+                    {%- for page_hit in metadata %}
+                    <li class="d-grid">
+                        <a class="btn bg-white text-start" href="{{ page_hit.url | relative_url }}"><span class="text-primary">{{page_hit.title}}{% if page_hit.description %}</span><br><small>{{ page_hit.description | capitalize }}</small>{% endif %}</a>
+                    </li>
+                    {%- endfor %}
+                    {%- endfor %}
+                </ul>
             </div>
         </div>
-        {%- endunless %}
-        {%- endfor %}
-        {%- endif %}
-        <!-- Training -->
-        {%- if page.training %}
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-header fw-bold">Training</div>
-                <div class="card-body">
-                    <ul class="list-unstyled">
-                        {%- for training in page.training %}
-                        <li>
-                            <a href="{{ training.url }}">{{training.name}}</a>
-                        </li>
-                        {%- endfor %}
-                    </ul>
-                </div>
-            </div>
-        </div>
-        {%- endif %}
     </div>
+    {%- endunless %}
+    {%- endfor %}
+    {%- endif %}
+    <!-- Training -->
+    {%- if page.training %}
+    <div class="col">
+        <div class="card border-0 h-100 info-card bg-light">
+            <div class="card-header bg-dark border-0 fw-bold text-white">Training</div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    {%- for training in page.training %}
+                    <li class="d-grid">
+                        <a class="btn bg-white text-start" href="{{ training.url }}">
+                            <div class="row g-1">
+                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    {%- if training.registry == "TeSS" %}
+                                    <img alt="TeSS logo" class="img-fluid h-75" src="assets/img/tess_logo.svg">
+                                    {%- else %}
+                                    <i class="fas fa-link text-secondary fs-4"></i>
+                                    {%- endif %}
+                                </div>
+                                <div class="col-10 d-flex align-items-center">
+                                    <span class="text-primary text-start">{{training.name}}</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {%- endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {%- endif %}
+    <!-- FAIRcookbook and FAIRsharing -->
+    {%- if page.faircookbook or page.fairsharing %}
+    <div class="col">
+        <div class="card border-0 h-100 info-card bg-light">
+            <div class="card-header bg-dark border-0 fw-bold text-white">Links to other ELIXIR resources</div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    {%- if page.faircookbook %}
+                    {%- for recipe in page.faircookbook %}
+                    <li class="d-grid">
+                        <a class="btn bg-white text-start" href="{{ recipe.url }}">
+                            <div class="row g-1">
+                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img alt="FAIRcookbook logo" class="img-fluid h-75" src="assets/img/fairplus.svg">
+                                </div>
+                                <div class="col-10 d-flex align-items-center">
+                                    <span class="text-primary text-start">FAIRcookbook recipe about {{recipe.name}}</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {%- endfor %}
+                    {%- endif %}
+                    <!-- {%- if page.fairsharing %}
+                    <li class="d-grid">
+                        <a class="btn bg-white text-start" href="{{ page.fairsharing }}">
+                            <div class="row g-1">
+                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img alt="fairsharing logo" class="img-fluid h-75" src="assets/img/FAIRsharing-small.svg">
+                                </div>
+                                <div class="col-10 d-flex align-items-center">
+                                    <span class="text-primary text-start">FAIRsharing collection about {{page.title}}</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {%- endif %} -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    {%- endif %}
 </div>
+
 {%- endif %}
 <!-- Tool table -->
 {%- if page.page_id %}
