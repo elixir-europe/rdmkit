@@ -391,12 +391,12 @@ pre code {
     display: block;
     overflow-x: auto;
     overflow-y: hidden;
-    border-color: $light;
 }
 
-.table > :not(:last-child) > :last-child > * {
-    border-bottom-color: inherit;
+.table>:not(:first-child) {
+    border-color: inherit;
 }
+
 
 /* Name and description column improvements */
 
