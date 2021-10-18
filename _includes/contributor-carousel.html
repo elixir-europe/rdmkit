@@ -51,13 +51,13 @@
                     <div class="card-footer border-0">
                         <div class="d-flex justify-content-center">
                             {%- if contributors[contributor].git %}
-                            <div class="mx-1"><a class="btn bg-white text-secondary hover-secondary rounded-circle social-icons p-0" href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
+                            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
                             {%- endif %}
                             {%- if contributors[contributor].email %}
-                            <div class="mx-1"><a class="btn bg-white text-secondary hover-secondary rounded-circle social-icons p-0" href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
+                            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
                             {%- endif %}
                             {%- if contributors[contributor].orcid %}
-                            <div class="mx-1"><a class="btn bg-white text-secondary hover-secondary rounded-circle social-icons p-0" href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
+                            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
                             {%- endif %}
                         </div>
                     </div>

@@ -3,19 +3,22 @@
 
 /*-----Theme colors-----*/
 $white: #fff;
-$primary: #376ac3;
+$primary: #c23669;
+$blue: #376ac3;
 $light: #f3f1f2;
 $dark: #2a2e3d;
-$secondary: #c23669;
 
 /*-----Custom bootstrap values-----*/
-$component-active-bg: $secondary;
+$component-active-bg: $primary;
 $navbar-dark-color: $white;
-$navbar-dark-hover-color: $secondary;
+$navbar-dark-hover-color: $primary;
 $navbar-dark-toggler-border-color: transparent;
+$link-color: $blue;
+$info: $blue;
 $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
+$border-radius: 0.3rem;
 $font-family-sans-serif: "Open Sans", sans-serif;
 
 @import "bootstrap/bootstrap";
@@ -38,7 +41,7 @@ h1 {
 main h2 {
     font-family: "Exo 2", sans-serif;
     font-weight: 700;
-    color: $secondary;
+    color: $primary;
     margin: 40px 0 10px;
 }
 
@@ -59,7 +62,7 @@ main h2 + h3 {
     margin-top: 12px;
 }
 
-main h3 + h4  {
+main h3 + h4 {
     margin-top: 15px;
 }
 
@@ -72,7 +75,7 @@ blockquote {
     border-left: 5px solid $gray-600;
     padding-left: 10px;
     color: $gray-600;
-    border-radius: 4px;
+    border-radius: $border-radius;
 }
 
 hr {
@@ -87,12 +90,12 @@ hr {
 ::-moz-selection {
     /* Code for Firefox */
     color: $white;
-    background: $secondary;
+    background: $primary;
 }
 
 ::selection {
     color: $white;
-    background: $secondary;
+    background: $primary;
 }
 
 /* End - Selection color */
@@ -105,7 +108,7 @@ main ul li {
 /* list circles colored */
 
 ul li::marker {
-    color: $secondary;
+    color: $primary;
 }
 
 /* position and size emoji */
@@ -119,7 +122,7 @@ main img.emoji {
 
 code {
     background-color: $light;
-    border-radius: 4px;
+    border-radius: $border-radius;
     padding: 2px 4px;
 }
 
@@ -130,7 +133,7 @@ pre {
     word-break: break-all;
     word-wrap: break-word;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: $border-radius;
 }
 
 pre code {
@@ -145,8 +148,8 @@ pre code {
 
 .navbar-nav .nav-item a.active {
     color: $white;
-    background-color: $secondary;
-    border-radius: 4px;
+    background-color: $primary;
+    border-radius: $border-radius;
 }
 
 .navbar-brand img {
@@ -162,7 +165,7 @@ pre code {
 
 .search .fa-search {
     position: absolute;
-    color: $secondary;
+    color: $primary;
     top: 12px;
     left: 15px;
 }
@@ -176,8 +179,8 @@ pre code {
     max-height: calc(90vh - 200%) !important;
     overflow-y: auto;
     background-color: $white;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 20%), 0 3px 10px rgba(0, 0, 0, 15%);
-    border-radius: 4px;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
 }
 
 @media (max-width: 992px) {
@@ -226,7 +229,7 @@ pre code {
 
 .search-result-section {
     word-wrap: break-word;
-    color: $secondary;
+    color: $primary;
 }
 
 .search-result-rel-url {
@@ -281,7 +284,7 @@ pre code {
 
 .sidebar-collapse:not(.collapsed) {
     color: $white;
-    background-color: $secondary !important;
+    background-color: $primary !important;
 }
 
 .sidebar-title {
@@ -305,7 +308,7 @@ pre code {
 }
 
 .menu li.active:not(.parent) > a {
-    background-color: $secondary !important;
+    background-color: $primary !important;
     color: $white;
 }
 
@@ -313,17 +316,6 @@ pre code {
     float: right;
     width: 15px;
     text-align: center;
-}
-
-.menu li.active > a > span:after {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f077";
 }
 
 .menu li > a > span:after {
@@ -335,6 +327,11 @@ pre code {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f078";
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu li.active > a > span:after {
+    transform: rotate(-180deg);
 }
 
 /*-----Summary under page title-----*/
@@ -343,7 +340,7 @@ pre code {
     font-size: 16px;
     color: $gray-600;
     margin: 20px 0px 20px 0px;
-    border-left: 5px solid $secondary;
+    border-left: 5px solid $primary;
     padding-left: 10px;
 }
 
@@ -382,15 +379,14 @@ pre code {
 
 .default-badge:hover {
     color: $white;
-    background-color: $secondary;
+    background-color: $primary;
 }
 
 /*-----General table properties-----*/
 
-.table>:not(:first-child) {
+.table > :not(:first-child) {
     border-color: inherit;
 }
-
 
 /* Name and description column improvements */
 
@@ -419,7 +415,7 @@ pre code {
 }
 
 .registry_badge:hover {
-    background-color: $secondary;
+    background-color: $primary;
 }
 
 /*-----Footer-----*/
@@ -439,7 +435,7 @@ footer a {
 }
 
 footer a:hover {
-    color: $secondary;
+    color: $primary;
     text-decoration: none;
 }
 
@@ -451,7 +447,6 @@ footer .europe-flag {
 footer .company-logo {
     float: right;
 }
-
 
 /* -----Homepage----- */
 
@@ -481,19 +476,11 @@ h2.card-title {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f078";
+    transition: transform 0.2s ease-in-out;
 }
 
 .btn.arrow:not(.collapsed)::after {
-    float: right;
-    width: 15px;
-    text-align: center;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f077";
+    transform: rotate(-180deg);
 }
 
 /*-----Contributors cards-----*/
@@ -501,16 +488,15 @@ h2.card-title {
 .contributor-cards .card {
     background-color: $light;
     border: 0;
-    border-radius: 4px;
 }
 
 .contributor-cards .badge {
-    background-color: $secondary;
+    background-color: $primary;
     margin: 10px 10px 0px 0px;
 }
 
 .contributor-cards .card-affiliation {
-    color: $secondary;
+    color: $primary;
     font-size: 0.8em;
 }
 
@@ -526,7 +512,7 @@ h2.card-title {
         font-size: 0.5em;
     }
     #contributors-carousel .card-affiliation {
-        color: $secondary;
+        color: $primary;
         font-size: 0.4em;
     }
     #contributors-carousel .card-body {
@@ -586,15 +572,17 @@ h2.card-title {
 /*--------------Hover classes--------------*/
 /* ---------------------------------------- */
 
-.hover-secondary:hover,  .hover-secondary:focus {
-    background-color: $secondary !important;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    color: $white !important;;
+.hover-primary:hover,
+.hover-primary:focus {
+    background-color: $primary !important;
+    transition: $btn-transition;
+    color: $white !important;
 }
 
-.text-hover-secondary:hover,  .text-hover-secondary:focus {
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-    color: $secondary !important;;
+.text-hover-primary:hover,
+.text-hover-primary:focus {
+    transition: $btn-transition;
+    color: $primary !important;
 }
 
 /*--------------Custom classes--------------*/
@@ -642,30 +630,34 @@ li ul .sidebar_rdm_sub {
 
 /* Events and news homepage */
 
-li.upcoming-event, li.past-event,
+li.upcoming-event,
+li.past-event,
 .events {
     display: none;
 }
 
-.events li, .news li {
+.events li,
+.news li {
     border-left: $light 5px solid;
-    border-radius: 4px;
-    padding: 0px 11px ;
+    border-radius: $border-radius;
+    padding: 0px 11px;
 }
 
-.events i, .news i {
+.events i,
+.news i {
     width: 20px;
     text-align: center;
 }
 
-.events .title, .news .title {
-    background-color: $secondary;
+.events .title,
+.news .title {
+    background-color: $primary;
     font-weight: 600;
     color: $white;
     padding: 0px 11px;
     border-radius: 0px 4px 4px 0px;
     margin-left: -11px;
-    border: 1px solid $secondary;
+    border: 1px solid $primary;
     display: inline-block;
 }
 
@@ -683,4 +675,3 @@ iframe.scale {
     width: 100%;
     margin: 40px 0;
 }
-

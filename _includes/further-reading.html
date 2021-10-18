@@ -20,7 +20,7 @@
                     {%- assign metadata = site.pages | where:"page_id", page_id %}
                     {%- for page_hit in metadata %}
                     <li class="d-grid">
-                        <a class="btn bg-white text-start" href="{{ page_hit.url | relative_url }}"><span class="text-primary">{{page_hit.title}}{% if page_hit.description %}</span><br><small>{{ page_hit.description | capitalize }}</small>{% endif %}</a>
+                        <a class="btn bg-white hover-primary text-start" href="{{ page_hit.url | relative_url }}"><span>{{page_hit.title}}{% if page_hit.description %}</span><br><small class="text-muted">{{ page_hit.description | capitalize }}</small>{% endif %}</a>
                     </li>
                     {%- endfor %}
                     {%- endfor %}
@@ -40,17 +40,17 @@
                 <ul class="list-unstyled">
                     {%- for training in page.training %}
                     <li class="d-grid">
-                        <a class="btn bg-white text-start" href="{{ training.url }}">
+                        <a class="btn bg-white hover-primary text-start" href="{{ training.url }}">
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
                                     {%- if training.registry == "TeSS" %}
                                     <img alt="TeSS logo" class="img-fluid h-75" src="assets/img/tess_logo.svg">
                                     {%- else %}
-                                    <i class="fas fa-link text-secondary fs-4"></i>
+                                    <i class="fas fa-link text-primary fs-4"></i>
                                     {%- endif %}
                                 </div>
                                 <div class="col-10 d-flex align-items-center">
-                                    <span class="text-primary text-start">{{training.name}}</span>
+                                    <span class=" text-start">{{training.name}}</span>
                                 </div>
                             </div>
                         </a>
@@ -71,13 +71,13 @@
                     {%- if page.faircookbook %}
                     {%- for recipe in page.faircookbook %}
                     <li class="d-grid">
-                        <a class="btn bg-white text-start" href="{{ recipe.url }}">
+                        <a class="btn bg-white hover-primary text-start" href="{{ recipe.url }}">
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
                                     <img alt="FAIRcookbook logo" class="img-fluid h-75" src="assets/img/fairplus.svg">
                                 </div>
                                 <div class="col-10 d-flex align-items-center">
-                                    <span class="text-primary text-start">FAIRcookbook recipe about {{recipe.name}}</span>
+                                    <span class="text-start">FAIRcookbook recipe about {{recipe.name}}</span>
                                 </div>
                             </div>
                         </a>
@@ -86,13 +86,13 @@
                     {%- endif %}
                     <!-- {%- if page.fairsharing %}
                     <li class="d-grid">
-                        <a class="btn bg-white text-start" href="{{ page.fairsharing }}">
+                        <a class="btn bg-white hover-primary text-start" href="{{ page.fairsharing }}">
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
                                     <img alt="fairsharing logo" class="img-fluid h-75" src="assets/img/FAIRsharing-small.svg">
                                 </div>
                                 <div class="col-10 d-flex align-items-center">
-                                    <span class="text-primary text-start">FAIRsharing collection about {{page.title}}</span>
+                                    <span class="text-start">FAIRsharing collection about {{page.title}}</span>
                                 </div>
                             </div>
                         </a>
