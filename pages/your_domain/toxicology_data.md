@@ -13,7 +13,7 @@ Toxicology was traditionally an observational science that obtained an important
 
 ### Storing and Standardizing toxicology data and appropiate solutions
 
-In this page, the relevant toxicological data management issues from in vitro assays, animal experiments, human assays and ecotoxicology studies are explained, as well as the appropriate solutions for them. It has to be pointed out that most of these data are generated in a regulatory context, following guidelines for obtaining marketing approval. It has to be pointed out that most of the toxicology data is generated in a regulatory context, following guidelines for obtaining marketing approval. This data constitute an extremely valuable resource that should be made available to the scientific community and, therefore, efforts are being made for the systematic collection and storage of these data, as well as their standardization, which enables their integration and joint analysis.
+In this page, the relevant toxicological data management issues from in vitro, animal and human assays and ecotoxicology studies are explained, as well as the appropriate solutions for them. It has to be pointed out that most of these data are generated in a regulatory context, following guidelines for obtaining marketing approval. This data constitute an extremely valuable resource that should be made available to the scientific community and, therefore, efforts are being made for the systematic collection and storage of these data, as well as their standardization, which enables their integration and joint analysis.
 
 ## Data from in vitro assays
  
