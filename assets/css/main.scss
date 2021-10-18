@@ -675,3 +675,19 @@ iframe.scale {
     width: 100%;
     margin: 40px 0;
 }
+
+// More information cards
+
+.info-card {
+    a:hover {
+        .text-muted {
+            transition: $btn-transition;
+            color: $white !important;
+        }
+
+        i {
+            transition: $btn-transition;
+            color: $white !important;
+        }
+    }
+}
