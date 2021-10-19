@@ -1636,6 +1636,7 @@ Tools:
   name: NeLS
   registry:
     biotools: nels
+    tess: NeLS
   related_pages:
   - NeLS
   - marine assembly
@@ -1942,6 +1943,13 @@ Tools:
 - description: Python scripts to detect RNA editing events in RNAseq experiments
   link: https://github.com/BioinfoUNIBA/REDItools
   name: REDItools
+  registry:
+    biotools: reditools
+  related_pages:
+  - epitrans
+- description: REDItools2 is the optimized and parallel multi-node version of REDItools
+  link: https://github.com/BioinfoUNIBA/REDItools2
+  name: REDItools2
   registry:
     biotools: reditools
   related_pages:
@@ -2271,6 +2279,8 @@ Tools:
 - description: Norwegian Services for sensitive data
   link: https://www.uio.no/english/services/it/research/sensitive-data/
   name: TSD
+  registry:
+    tess: TSD
   related_pages:
   - sensitive
   - TSD
