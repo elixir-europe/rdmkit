@@ -45,6 +45,7 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
   * Syntaxes such as JSON-LD and RDF/XML contribute to [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability#Semantic_as_a_function_of_syntactic_interoperability).
 * Not be in PDF format (scanned images of lab books, tables, articles or papers in .pdf)
 * Not be in plain text (.txt) nor Word documents (.docx) formats (e.g. README.txt file).
+* Not be images, audio nor video (.jpeg, png, etc).
 
 
  
