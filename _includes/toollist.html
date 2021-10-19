@@ -1,8 +1,8 @@
 {%- assign tools = site.data.tool_and_resource_list.Tools | where:"related_pages", include.tag -%}
 {%- unless tools == blank %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
-<div class="table-responsive mt-4">
-    <table id="tooltable" class="table display mb-5 mt-4">
+<div class="table-responsive mt-4 mb-5">
+    <table id="tooltable" class="table display">
         <thead>
             <tr>
                 <th>Tool or resource {%- if include.tag -%}

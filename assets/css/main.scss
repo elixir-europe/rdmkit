@@ -388,6 +388,10 @@ pre code {
     border-color: inherit;
 }
 
+.dataTables_wrapper {
+    margin: $btn-focus-width $btn-focus-width 0 0;
+}
+
 /* Name and description column improvements */
 
 #tooltable tr th:nth-child(1) {
@@ -605,7 +609,7 @@ h2.card-title {
 li ul .sidebar_rdm_sub {
     border-color: $light;
     padding: 14px 10px 10px 10px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px $border-radius $border-radius;
     border-style: none solid solid solid;
     border-width: 0.2em;
 }
