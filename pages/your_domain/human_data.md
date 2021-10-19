@@ -5,9 +5,6 @@ page_id: human data
 related_pages: 
   - your_tasks: [sensitive]
   - tool_assembly: [TSD, Covid-19, transmed]
-faircookbook:
-  - name: Data licenses
-    url: https://fairplus.github.io/the-fair-cookbook/content/recipes/reusability/ATI_licensing_data.html
 training:
   - name: Training in TeSS
     registry: TeSS
