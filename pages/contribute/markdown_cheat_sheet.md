@@ -31,7 +31,8 @@ search_exclude: true
 datatable: true
 toc: false
 custom-editme: _data/tool_and_resource_list.xlsx
-related_pages:  
+related_pages:
+faircookbook:   
 ---
 ```
 
