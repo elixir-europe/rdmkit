@@ -3,7 +3,7 @@
     {%- for institute in alllogos %}
     {%- if institute.image_url %}
     <div class="col">
-      <div class="card h-100 border-0">
+      <div class="card h-100">
           <div class="my-auto">
             {% if institute.url %}<a href="{{ institute.url }}">{% endif %}<img class="card-img-top" src="{{ institute.image_url | relative_url }}"  alt="{{ institute.name }}">{%- if institute.url %}</a>{% endif %}
         </div>

@@ -25,6 +25,9 @@ port: 4000
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 
+dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
+# prefix for DSW deep links to a certain question
+
 exclude:
   - .gitignore
   - CODEOWNERS
@@ -41,6 +44,10 @@ kramdown:
  auto_ids: true
  hard_wrap: false
 
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 defaults:
   -
     scope:
@@ -49,18 +56,33 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      search: true
       sidebar: main
       topnav: topnav
   -
     scope:
-      path: "pages/tool_assembly"
-      type: "pages"
+      path: "pages/data_life_cycle"
     values:
-      type: tool_assembly
-
-
-RDM_pages: ["/reusing.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
+      type: Data life cycle
+  -
+    scope:
+      path: "pages/your_domain"
+    values:
+      type: Your domain
+  -
+    scope:
+      path: "pages/your_tasks"
+    values:
+      type: Your tasks
+  -
+    scope:
+      path: "pages/your_role"
+    values:
+      type: Your role
+  -
+    scope:
+      path: "pages/tool_assembly"
+    values:
+      type: Tool assembly
 
 plugins:
   - jemoji

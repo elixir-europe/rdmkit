@@ -1,0 +1,23 @@
+
+
+<div class="news">
+  {%- if include.front == "true" %}
+  <h2 class="mt-5 text-dark">News</h2>
+  {%- endif %}
+  {%- assign news = site.data.news %}
+  {%- assign count = 0 %}
+  <ul class="list-unstyled mt-3">
+      {%- for new in news reversed%}
+      <li>
+        <span class="title mb-1">{{ new.name | escape }}</span>
+        <p class="text-muted mb-0"><i class="far fa-calendar me-2"></i><time>{{ new.date | date_to_long_string }}</time></p> 
+        <p class="mt-2">{{ new.description }}</p>
+      </li>
+      {%- assign count = count | plus: 1 %}
+      {%- if include.limit and count == include.limit %}
+      {%- break %}
+      {%- endif %}
+      {%- endfor %}
+  </ul>
+  <small>For more news please visit our <a href="/news.html">news page</a>.</small>
+</div>

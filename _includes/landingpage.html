@@ -11,7 +11,7 @@
 {%- assign sidebar = site.data.sidebars[page.sidebar] %}
 {%- for folder in sidebar.subitems %}
 {%- if folder.title == "Data life cycle" %}
-<div class="card mb-4 mt-5">
+<div class="card border-1 mb-4 mt-5">
   <div class="card-body">
     <h2 class="card-title no-anchor">{{folder.title}}</h2>
     <p class="card-text">{{folder.description}}</p>
@@ -196,16 +196,16 @@
   {%- for folder in sidebar.subitems %}
   {%- if folder.title != "Data life cycle" %}
   <div class="col">
-    <div class="card">
+    <div class="card border-1 h-100">
       <div class="card-body">
         <h2 class="card-title no-anchor">{{folder.title}}</h2>
         <p class="card-text">{{folder.description}}</p>
-          {%- if folder.title == "All tools and resources"%}
+        {%- if folder.title == "All tools and resources" or folder.title == "All training resources"%}
           <ul>
-          <li><a href="{{folder.url | relative_url }}">All tools and resources page</a></li>
+          <li class="my-0"><a href="{{folder.url | relative_url }}">{{folder.title}} page</a></li>
           </ul>
           {%- else %}
-          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ i }}" data-text-alt="Hide pages" aria-expanded="false" aria-controls="collapse{{ i }}" style="min-width: 9em;" class="btn-custom arrow toggle-text collapsed">
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ i }}" data-text-alt="Hide pages" aria-expanded="false" aria-controls="collapse{{ i }}" style="min-width: 9em;" class="btn bg-light hover-primary arrow toggle-text collapsed">
             Show pages
           </button>
           <div class="collapse" id="collapse{{ i }}">
@@ -226,12 +226,13 @@
 
 {% include events.html %}
 
-<h3>We welcome contributors!</h3>
+{% include news.html front="true" limit=2 %}
+
+<h2 class="mt-5 text-dark">We welcome contributors!</h2>
 <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing community contributors</a>. RDMkit is an open community project, and you are welcome to <a href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
 
 
-<h3>RDMkit in numbers</h3>
-
+<h2 class="mt-5 text-dark">RDMkit in numbers</h2>
 {%- assign contributors = site.data.CONTRIBUTORS %}
 {%- for page in site.pages %}
 {%- if page.contributors and page.search_exclude != true %}
@@ -248,24 +249,24 @@
 {%- endfor %}
 {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
 {%- assign tools = site.data.tool_and_resource_list -%}
-<div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
   <div class="col">
-    <div class="count-panel text-center h-100">
-      <span class="count-number">{{allcontributors.size}}</span>
+    <div class="bg-light rounded p-3 text-center h-100">
+      <span class="count-number text-primary">{{allcontributors.size}}</span>
       <p><b>Contributors</b><br>
       The force behind RDMkit</p>
     </div>
   </div>
   <div class="col">
-    <div class="count-panel text-center h-100">
-      <span class="count-number">{{tools.Tools.size}}</span>
+    <div class="bg-light rounded p-3 text-center h-100">
+      <span class="count-number text-primary">{{tools.Tools.size}}</span>
       <p><b>Tools & resources</b><br>
       Explained in the context of real world problems</p>
     </div>
   </div>
   <div class="col">
-    <div class="count-panel text-center h-100">
-      <span class="count-number">{{site.pages.size}}</span>
+    <div class="bg-light rounded p-3 text-center h-100">
+      <span class="count-number text-primary">{{site.pages.size}}</span>
       <p><b>Pages</b><br>
      Helping you with data management</p>
     </div>

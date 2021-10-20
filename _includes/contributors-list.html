@@ -1,0 +1,47 @@
+{%- if page.contributors %}
+<div class="p-4 bg-light rounded mt-4">
+    {%- assign contributors = site.data.CONTRIBUTORS -%}
+    {%- assign page_contributors = page.contributors |sort -%}
+    <b>Contributors: </b>
+    {%- for contributor in page_contributors | sort %}
+    {%- assign count = 0 %}
+    {%- assign id = contributors[contributor].git | default: 'no_github' %}
+    {%- capture html_code %}
+    {%- assign stripped_name = contributor | replace: "'", " " %}
+    <div class="d-flex justify-content-center">
+        {%- if contributors[contributor].image_url %}
+        <img class="img-fluid rounded-circle contributor-badge" src="{{ contributors[contributor].image_url }}" alt="Avatar of the contributor {{ stripped_name }}">
+        {%- else %}
+        <img class="img-fluid rounded-circle contributor-badge" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ stripped_name }}">
+        {%- endif %}
+    </div>
+    <div class="d-flex mt-2 justify-content-center pt-2">
+        {%- if contributors[contributor].git %}
+        <div class="mx-1"><a class="btn btn-primary rounded-circle social-icons p-0" href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
+        {%- endif %}
+        {%- if contributors[contributor].email %}
+        <div class="mx-1"><a class="btn btn-primary rounded-circle social-icons p-0" href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
+        {%- endif %}
+        {%- if contributors[contributor].orcid %}
+        <div class="mx-1"><a class="btn btn-primary rounded-circle social-icons p-0" href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
+        {%- endif %}
+    </div>
+    {%- endcapture %}
+    <a tabindex="0" role="button" class="btn bg-white hover-primary m-1" data-bs-trigger="focus" data-bs-html="true" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content='{{html_code}}' title="{{contributor}}">
+        <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">  
+                {%- if contributors[contributor].image_url %}
+                <img class="img-fluid rounded-circle contributor-badge-sm" src="{{ contributors[contributor].image_url }}" alt="Avatar of the contributor {{ stripped_name }}">
+                {%- else %}
+                <img class="img-fluid rounded-circle contributor-badge-sm" src="https://avatars.githubusercontent.com/{{ id }}" alt="Avatar of the contributor {{ stripped_name }}">
+                {%- endif %}
+            </div>
+            <div class="flex-grow-1 ms-2">
+                {{ contributor }}
+            </div>
+        </div>
+    </a>
+    {%- assign count = count | plus: 1 %}
+    {%- endfor %}
+</div>
+{%- endif %}

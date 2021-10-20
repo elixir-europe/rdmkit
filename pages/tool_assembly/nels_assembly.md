@@ -2,8 +2,15 @@
 title: NeLS assembly 
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
 summary: This is an example of a Data Management tool assembly, NeLS as an infrastructure is funded and aimed for researchers in Norway and their collaborators.
-tags: [IT support, data manager, researcher, DMP, storage, metadata, data analysis]
-page_tag: NeLS
+page_id: NeLS
+related_pages: 
+  - your_tasks: [DMP, storage, metadata, data analysis]
+  - your_domain: [] 
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=norway
 ---
 
 ## What is the NeLS data management tool assembly?
@@ -33,13 +40,3 @@ Data stored in NeLS is directly available within this Galaxy instance, hence you
 In order to help you keeping track of metadata, NeLS is integrated with the [SEEK](https://seek4science.org/) web-based cataloguing and sharing platform. You can use any instance of SEEK such as the public [FAIRDOMHub](https://fairdomhub.org/) to [manage metadata](metadata_management) associated with your data stored in NeLS and access the data through SEEK. SEEK uses the ISA (Investigation, Study, Assay) structure to organise your data and recommended minimal information such as sample characteristics, technologies, measurements and relationships between samples, data and models. Public SEEK instances like the [FAIRDOMHub](https://fairdomhub.org/) can also be used to collaborate on data and to [share](sharing) them publicly. If you are doing modelling, you can also use the inbuilt [JWS Online](https://jjj.mib.ac.uk/) simulator for your SBML models.
  
 One recommended way to share your data is to deposit them in the [ELIXIR Deposition Databases for Biomolecular Data](https://elixir-europe.org/platforms/data/elixir-deposition-databases). The NeLS Data Management tool assembly will soon offer tools to help you with the deposition step for data stored in NeLS.
-
-
-## Where can I find training materials and events about the NeLS data management tool assembly?
-
-{% include tess.html search="Norway" %}
-
-
-## What tools are used within the NeLS data management tool assembly?
-
-{% include toollist.html tag="NeLS" %}

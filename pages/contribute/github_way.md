@@ -25,7 +25,7 @@ This guide tells you how you can easily request and edit a page on this website.
 1. The "Edit me" pencil icon will take you to the GitHub repository, where you again click on the pencil icon, shown on the right, and start editing.
     {% include image.html file="raw_github.png" inline=true alt="Editing a page on GitHub" %}
 1. You can now edit or add new text and images according to the provided template. GitHub provide a [guide for writing and formatting in GitHub](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github). We also provide a [markdown cheat sheet](markdown_cheat_sheet) to show you how to write in this webpage. Make sure to read our [style guide](style_guide) before start writing. In general, try to avoid manual interlinking of RDMkit pages.
-1. If you have mentioned tools or resources in your text, make sure to add them to the [tool and resource list](tool_resource_update).
+1. If you have mentioned tools or resources in your text, make sure to add them to the [tool and resource list](tool_resource_update). If you want to list training material in your page, add it to the metadata of the page, according to the training matadata fields provided in the page template.
 1. When you are happy with your first draft of the content, go to the “Propose changes” section at the end of the page and write a title and a brief explanation of your changes.
 1. Click on “Propose changes”.
     {% include image.html file="propose_changes_github.png" inline=true alt="Propose changes on GitHub" %}

@@ -1,9 +1,16 @@
 ---
 title: <Your persona>
+search_exclude: true
 summary: Fill in your summary or delete this property when not needed
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
-search_exclude: true
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+related_pages: 
+  - your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+training:
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 {% include note.html content="This page is under construction." %}
@@ -34,11 +41,3 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * What are suitable compute resources for analysing my data?
 * What DMP templates and tools could be used for my project?
 * How do I know if my data is sensitive/personal and how would I work with data of this type?
-
-## Related topics
-
-{% include pagelist.html tag="REPLACE BY TAG" %}
-
-## Relevant tools and resources
-
-{% include toollist.html tag="REPLACE BY TAG" %}
