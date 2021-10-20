@@ -33,6 +33,8 @@ subitems:
         url: /epitranscriptome_data.html
       - title: Proteomics
         url: /proteomics.html
+      - title: Toxicology data
+        url: /toxicology_data.html
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:

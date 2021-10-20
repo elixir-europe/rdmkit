@@ -8,7 +8,7 @@ The ELIXIR Research Data Management Kit (RDMkit) has been designed to guide life
 
 The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project.
 
-<div class="card mt-4">
+<div class="card border-1 mt-4">
   <div class="card-body">
     <p class="card-text">RDMkit is recommended in the <a href="https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf">Horizon Europe Program Guide</a> as the "resource for Data Management guidelines and good practices for the Life Sciences."</p>
   </div>
