@@ -14,7 +14,7 @@ $navbar-dark-color: $white;
 $navbar-dark-hover-color: $primary;
 $navbar-dark-toggler-border-color: transparent;
 $border-radius: 0.3rem;
-$card-inner-border-radius: $border-radius;
+$card-border-width: 0;
 $link-color: $blue;
 $info: $blue;
 $link-decoration: none;
@@ -492,7 +492,6 @@ h2.card-title {
 
 .contributor-cards .card {
     background-color: $light;
-    border: 0;
 }
 
 .contributor-cards .badge {

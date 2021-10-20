@@ -12,8 +12,8 @@
     {%- endfor %}
     {%- unless page.related_pages[i][section_name] == blank  %}
     <div class="col">
-        <div class="card border-0 h-100 info-card bg-light">
-            <div class="card-header bg-dark border-0 fw-bold text-white">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
+        <div class="card h-100 info-card bg-light">
+            <div class="card-header bg-dark fw-bold text-white">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
             <div class="card-body">
                 <ul class="list-unstyled">
                     {%- for page_id in page.related_pages[i][section_name] %}
@@ -34,8 +34,8 @@
     <!-- Training -->
     {%- if page.training %}
     <div class="col">
-        <div class="card border-0 h-100 info-card bg-light">
-            <div class="card-header bg-dark border-0 fw-bold text-white">Training</div>
+        <div class="card h-100 info-card bg-light">
+            <div class="card-header bg-dark fw-bold text-white">Training</div>
             <div class="card-body">
                 <ul class="list-unstyled">
                     {%- for training in page.training %}
@@ -64,8 +64,8 @@
     <!-- FAIR Cookbook and FAIRsharing -->
     {%- if page.faircookbook or page.fairsharing %}
     <div class="col">
-        <div class="card border-0 h-100 info-card bg-light">
-            <div class="card-header bg-dark border-0 fw-bold text-white">Links to other ELIXIR resources</div>
+        <div class="card h-100 info-card bg-light">
+            <div class="card-header bg-dark fw-bold text-white">Links to other ELIXIR resources</div>
             <div class="card-body">
                 <ul class="list-unstyled">
                     {%- if page.faircookbook %}
