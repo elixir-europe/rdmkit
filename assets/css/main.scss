@@ -13,12 +13,13 @@ $component-active-bg: $primary;
 $navbar-dark-color: $white;
 $navbar-dark-hover-color: $primary;
 $navbar-dark-toggler-border-color: transparent;
+$border-radius: 0.3rem;
+$card-inner-border-radius: $border-radius;
 $link-color: $blue;
 $info: $blue;
 $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
-$border-radius: 0.3rem;
 $font-family-sans-serif: "Open Sans", sans-serif;
 
 @import "bootstrap/bootstrap";
