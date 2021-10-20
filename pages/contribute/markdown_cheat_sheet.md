@@ -79,7 +79,7 @@ faircookbook:
       registry_url: https://tess.elixir-europe.org
       url: https://tess.elixir-europe.org/search?q=data%20analysis
   ```
-* `faircookbook`: List here all the links towards FAIRcookbook recipes.
+* `faircookbook`: List here all the links towards FAIR Cookbook recipes.
   ```yml
   faircookbook:
   - name: Data licenses

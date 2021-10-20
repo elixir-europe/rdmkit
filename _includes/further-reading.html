@@ -46,7 +46,7 @@
                                     {%- if training.registry == "TeSS" %}
                                     <img alt="TeSS logo" class="img-fluid h-75" src="assets/img/tess_logo.svg">
                                     {%- else %}
-                                    <i class="fas fa-link text-primary fs-4"></i>
+                                    <i class="fas fa-external-link-alt text-primary fs-4"></i>
                                     {%- endif %}
                                 </div>
                                 <div class="col-10 d-flex align-items-center">
@@ -61,7 +61,7 @@
         </div>
     </div>
     {%- endif %}
-    <!-- FAIRcookbook and FAIRsharing -->
+    <!-- FAIR Cookbook and FAIRsharing -->
     {%- if page.faircookbook or page.fairsharing %}
     <div class="col">
         <div class="card border-0 h-100 info-card bg-light">
@@ -74,10 +74,10 @@
                         <a class="btn bg-white hover-primary text-start" href="{{ recipe.url }}">
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
-                                    <img alt="FAIRcookbook logo" class="img-fluid h-75" src="assets/img/fairplus.svg">
+                                    <img alt="FAIR Cookbook logo" class="img-fluid h-75" src="assets/img/fairplus.svg">
                                 </div>
                                 <div class="col-10 d-flex align-items-center">
-                                    <span class="text-start">FAIRcookbook recipe about {{recipe.name}}</span>
+                                    <span class="text-start">FAIR Cookbook recipe about "{{recipe.name}}"</span>
                                 </div>
                             </div>
                         </a>
