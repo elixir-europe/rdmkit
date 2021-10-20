@@ -4,4 +4,4 @@ toc: false
 search_exclude: true
 ---
 
-{% include navigation-tiles.html type="tool_assembly" %}
+{% include navigation-tiles.html type="Tool assembly" %}

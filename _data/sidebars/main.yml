@@ -69,7 +69,6 @@ subitems:
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     url: /tool_assembly.html
-    hr: True
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
