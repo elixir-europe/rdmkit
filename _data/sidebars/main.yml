@@ -52,14 +52,16 @@ subitems:
         url: /storage.html
       - title: Data transfer
         url: /data_transfer.html
+      - title: Documentation and metadata
+        url: /metadata_management.html
       - title: Existing data
         url: /existing_data.html
       - title: Identifiers
         url: /identifiers.html
       - title: Licensing
         url: /licensing.html
-      - title: Documentation and metadata
-        url: /metadata_management.html
+      - title: Machine actionability
+        url: /machine_actionability.html
       - title: Sensitive data
         url: /sensitive_data.html
   - title: Tool assembly
