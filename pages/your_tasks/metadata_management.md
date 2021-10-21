@@ -4,7 +4,7 @@ contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Mar
 description: how to document and describe your data.
 page_id: metadata
 related_pages: 
-  - tool_assembly: [IDP, NeLS, transmed, plant geno assembly, marine assembly]
+  - tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
 ---
 
 ## How can you document data during the project?
