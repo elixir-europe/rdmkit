@@ -16,7 +16,7 @@
                 <hr>
                 <b>Tools:</b><br>
                 {%- for tool in tools %}
-                <a class="nohover" href="{{ tool.link }}"><span class="badge text-dark bg-white hover-primary text-wrap">{{tool.name | truncate: 20}}</span></a>
+                <a class="nohover" href="{{ tool.link }}"><span class="badge text-dark bg-white hover-primary">{{tool.name | truncate: 20}}</span></a>
                 {%- endfor %}
                 {%- endif %}
             </div>
