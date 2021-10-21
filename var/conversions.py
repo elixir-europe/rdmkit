@@ -77,8 +77,8 @@ def get_fairsharing_token(username, password):
     url = "https://api.fairsharing.org/users/sign_in"
     payload="{\"user\": {\"login\":\"" + username + "\",\"password\":\"" + password + "\"} }"
     headers = {
-    'Accept': 'application/json',
-    'Content-Type': 'application/json'
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
     }
 
     try:
@@ -94,9 +94,9 @@ def fairsharing_available(query, token):
     url = "https://api.fairsharing.org/search/fairsharing_records"
 
     headers = {
-    'Accept': 'application/json',
-    'Content-Type': 'application/json',
-    'Authorization': token,
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Authorization': token,
     }
     payload = {'q': query}
     response = requests.request("GET", url, headers=headers, params=payload)
@@ -116,6 +116,7 @@ allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
 
 # --------- Reading out page_ids from pages ---------
+
 print(f"----> Reading out page_id from each file")
 pages_metadata = {}
 for subdir, dirs, files in os.walk(rootdir):
@@ -134,6 +135,7 @@ for subdir, dirs, files in os.walk(rootdir):
 print(f"----> Allowed related_pages: {', '.join(pages_metadata.keys())}.")
 
 # --------- Converting the table ---------
+
 print(f"----> Converting table {table_path} to {output_path} started.")
 args = process_args()
 main_dict = {main_dict_key: []}
