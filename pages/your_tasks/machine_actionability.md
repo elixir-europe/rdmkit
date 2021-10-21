@@ -25,7 +25,7 @@ More and more often, funders, data managers/stewards, IT staff and institutions 
 
 * It is because of the variety of possible definitions for data that can be processed in some form by computers, that we decided to use the term _machine-actionable_ in the remainder of this document to refer to this type of (meta)data.
 
-* Machine-actionable (meta)data doesn't mean just digital. A digital object could be impossible or very difficult to read for computers and software (e.g. a scanned image). It is also NOT just:
+* Machine-actionable (meta)data doesn't mean just digital. For computers and software, it might not be possible to process the information contained in a digital object (e.g. scanned image). It is also NOT just:
   * A digital file that is readable by  some software (i.e. not broken or corrupted).
   * A digital file in an open (non-proprietary) or free  format (ex: .txt, .pdf) that can be read by some software.
   * A digital file that is readable by some non-proprietary software (e.g. .txt, .pdf).
