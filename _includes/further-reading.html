@@ -13,7 +13,8 @@
             <div class="card-body">
                 <ul class="list-unstyled">
                     {%- for page_id in section[1] %}
-                    {%- assign metadata = site.pages | where:"page_id", page_id %}
+                    {%- assign section_pages = site.pages | where:"type", section[0] %}
+                    {%- assign metadata = section_pages | where:"page_id", page_id %}
                     {%- for page_hit in metadata %}
                     <li class="d-grid">
                         <a class="btn bg-white hover-primary text-start" href="{{ page_hit.url | relative_url }}"><span>{{page_hit.title}}{% if page_hit.description %}</span><br><small class="text-muted">{{ page_hit.description | capitalize }}</small>{% endif %}</a>
