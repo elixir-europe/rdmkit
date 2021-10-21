@@ -4,7 +4,7 @@ contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi, Flora D'Anna, Fla
 description: how to find appropriate storage solutions.
 page_id: storage
 related_pages: 
-  - tool_assembly: [NeLS, TSD, ome, transmed, XNAT-PIC]
+  tool_assembly: [NeLS, TSD, ome, transmed, XNAT-PIC]
 ---
 
 ## What features do you need in a storage solution when collecting data?

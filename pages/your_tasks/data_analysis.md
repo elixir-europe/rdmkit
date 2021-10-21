@@ -4,7 +4,7 @@ contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
 description: how to make data analysis FAIR.
 page_id: data analysis
 related_pages: 
-  - tool_assembly: [NeLS, XNAT-PIC, transmed, ome]
+  tool_assembly: [NeLS, XNAT-PIC, transmed, ome]
 ---
 
 ## What are the best practices for data analysis?

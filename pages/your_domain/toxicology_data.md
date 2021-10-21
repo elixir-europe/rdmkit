@@ -3,7 +3,7 @@ title: Toxicology data
 contributors: [Manuel Pastor, Janet Piñero Gonzalez, Juan Manuel Ramírez-Anguita, Ferran Sanz, Miguel Angel Mayer]
 page_id: toxicology data
 related_pages: 
-  - your_tasks: [data analysis]
+  your_tasks: [data analysis]
 ---
 
 ## Introduction
