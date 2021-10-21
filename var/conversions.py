@@ -51,6 +51,9 @@ def biotools_available(query):
                         return tool['biotoolsID']
         return False
 
+def fairsharing_available(query):
+    return False
+
 def remove_prefix(s, prefix):
     return s[s[:len(prefix)].index(prefix) + len(prefix):]
 
@@ -112,16 +115,23 @@ with open(table_path, 'r') as read_obj:
                                 sys.exit(
                                     f'The table contains the registry "{reg}" in row {row_index} which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
                     if len(sys.argv) > 1 and sys.argv[1] == "--reg":
-                        if tess_available(tool_name):
-                            if "tess" not in output:
+                        if "tess" not in output:
+                            if tess_available(tool_name):
                                 output["tess"] = tool_name
-                            elif output["tess"] == "NA":
+                        elif output["tess"] == "NA":
                                 del output["tess"]
-                        if biotools_available(tool_name):
-                            if "biotools" not in output:
-                                output["biotools"] = biotools_available(tool_name)
-                            elif output["biotools"] == "NA":
-                                del output["biotools"]
+                        if  "biotools" not in output:
+                            check_biotools = biotools_available(tool_name)
+                            if check_biotools:
+                                output["biotools"] = check_biotools
+                        elif output["biotools"] == "NA":
+                            del output["biotools"]
+                        if "fairsharing" not in output:
+                            check_fairsharing = fairsharing_available(tool_name)
+                            if check_fairsharing:
+                                output["fairsharing"] = check_fairsharing
+                        elif output["fairsharing"] == "NA":
+                            del output["fairsharing"]
                 else:
                     # Return the normal form for the Unicode string
                     output = unicodedata.normalize("NFKD", cell).strip()
