@@ -40,9 +40,7 @@ def client(url):
     session.mount('http://', adapter)
     session.mount('https://', adapter)
     r = session.get(url)
-    if r.status_code != requests.codes.ok:
-        return False
-    else:
+    if r.status_code == requests.codes.ok:
         return r.json()
 
 
@@ -65,13 +63,10 @@ def biotools_available(query):
         else:
             json_output = client(
                 f"https://bio.tools/api/t/?format=json&q='{query}'")
-            if json_output['count'] == 0:
-                return False
-            else:
+            if json_output['count'] != 0:
                 for tool in json_output['list']:
                     if query.strip().lower() in tool['name'].lower():
                         return tool['biotoolsID']
-        return False
 
 def get_fairsharing_token(username, password):
     url = "https://api.fairsharing.org/users/sign_in"
@@ -96,11 +91,16 @@ def fairsharing_available(query, token):
     headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
-        'Authorization': token,
+        'Authorization': f'Bearer {token}',
     }
     payload = {'q': query}
-    response = requests.request("GET", url, headers=headers, params=payload)
-    print(response.json())
+    try:
+        response = requests.request("POST", url, headers=headers, params=payload)
+        output = response.json()['data']
+        if len(output) == 1 and query.lower() in output[0]['attributes']['name'].lower() and output[0]['attributes']['doi']:
+            return output[0]['attributes']['url'].split(".")[-1]
+    except:
+        print("Could not connect to FAIRsharing")
 
 def remove_prefix(s, prefix):
     return s[s[:len(prefix)].index(prefix) + len(prefix):]

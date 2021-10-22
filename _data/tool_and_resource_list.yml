@@ -263,6 +263,7 @@ Tools:
   name: BioStudies
   registry:
     biotools: biostudies
+    fairsharing: mtjvme
     tess: BioStudies
   related_pages:
   - micro biotech
@@ -479,6 +480,7 @@ Tools:
   name: Comptox
   registry:
     biotools: comptox_chemistry_dashboard
+    fairsharing: tfj7gt
   related_pages:
   - toxicology data
 - description: An initiative to bring together various formats and standard for computational
@@ -1696,6 +1698,7 @@ Tools:
   name: MobiDB
   registry:
     biotools: mobidb
+    fairsharing: jwra3e
   related_pages:
   - IDP
   - researcher
@@ -1881,6 +1884,8 @@ Tools:
 - description: A web portal to search and visualise ontologies
   link: http://www.ontobee.org
   name: Ontobee
+  registry:
+    fairsharing: q8fx1b
   related_pages:
   - metadata
   - data manager
@@ -2422,6 +2427,7 @@ Tools:
   name: SynBioHub
   registry:
     biotools: synbiohub
+    fairsharing: 7CVoS6
   related_pages:
   - micro biotech
 - description: An open standard for the representation of in silico biological designs
