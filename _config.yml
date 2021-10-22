@@ -62,26 +62,26 @@ defaults:
     scope:
       path: "pages/data_life_cycle"
     values:
-      type: Data life cycle
+      type: data_life_cycle
   -
     scope:
       path: "pages/your_domain"
     values:
-      type: Your domain
+      type: your_domain
   -
     scope:
       path: "pages/your_tasks"
     values:
-      type: Your tasks
+      type: your_tasks
   -
     scope:
       path: "pages/your_role"
     values:
-      type: Your role
+      type: your_role
   -
     scope:
       path: "pages/tool_assembly"
     values:
-      type: Tool assembly
+      type: tool_assembly
 plugins:
   - jemoji

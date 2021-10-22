@@ -4,8 +4,8 @@ contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl]
 summary: This is a Data Management tools assembly for sensitive data around TSD. TSD as an infrastructure is aimed for researchers in Norway and their collaborators, but can be used by anyone. 
 page_id: TSD
 related_pages: 
-  - your_tasks: [DMP, storage, sensitive]
-  - your_domain: [human data]
+  your_tasks: [DMP, storage, sensitive]
+  your_domain: [human data]
 training:
   - name: Documentation for the HPC cluster
     url: https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/colossus-userguide
