@@ -2521,7 +2521,6 @@ Tools:
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
   registry:
-    biotools: gsc
     fairsharing: 9aa0zp
   related_pages:
   - metadata
