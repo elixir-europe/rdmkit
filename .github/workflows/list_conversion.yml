@@ -1,8 +1,9 @@
 name: Converting to yaml + registry lookup
 
 on:
-  push:
-    branches: [ master ]
+  schedule:
+    - cron:  '0 13 * * 1'
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest

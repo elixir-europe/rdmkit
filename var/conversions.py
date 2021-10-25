@@ -1,6 +1,7 @@
 import sys
 import argparse
 import os
+import re
 from csv import reader
 import yaml
 import re
@@ -32,6 +33,11 @@ def process_args():
 
     return args
 
+def parse_acronym (query):
+    m = re.match(r"(.*)\s\((.*)\)", query)
+    if m:
+        return {"fullname": m.group(1), "acronym": m.group(2)}
+
 def client(url):
     """API object fetcher"""
     session = requests.Session()
@@ -51,9 +57,12 @@ def tess_available(query):
         return True
 
 def biotools_available(query):
-    if client(f"https://bio.tools/api/tool/{query.lower()}/?format=json"):
+    acronym = parse_acronym(query)
+    if acronym and client(f"https://bio.tools/api/tool/{acronym['acronym'].lower()}/?format=json"):
+        return acronym['acronym'].lower()
+    elif client(f"https://bio.tools/api/tool/{query.lower()}/?format=json"):
         return query.lower()
-    else:
+    elif len(query) > 4:
         json_output = client(
             f"https://bio.tools/api/t/?format=json&q='{query}'")
         if json_output['count'] != 0:
@@ -97,8 +106,10 @@ def fairsharing_available(query, token):
     try:
         response = requests.request("POST", url, headers=headers, params=payload)
         output = response.json()['data']
-        if len(output) == 1 and query.lower() in output[0]['attributes']['name'].lower() and output[0]['attributes']['doi']:
-            return output[0]['attributes']['url'].split(".")[-1]
+        if len(output) >= 1:
+            for farisharing_obj in output:
+                if query.lower() in farisharing_obj['attributes']['name'].lower() and farisharing_obj['attributes']['doi']:
+                    return farisharing_obj['attributes']['url'].split(".")[-1]
     except:
         print("Could not connect to FAIRsharing")
 
@@ -176,17 +187,18 @@ with open(table_path, 'r') as read_obj:
                             if tess_available(tool_name):
                                 output["tess"] = tool_name
                         elif output["tess"] == "NA":
-                                del output["tess"]
-                        if  "biotools" not in output:
+                            del output["tess"]
+                        if "biotools" not in output:
                             check_biotools = biotools_available(tool_name)
                             if check_biotools:
                                 output["biotools"] = check_biotools
                         elif output["biotools"] == "NA":
                             del output["biotools"]
                         if "fairsharing" not in output:
-                            check_fairsharing = fairsharing_available(tool_name, fairsharing_token)
-                            if check_fairsharing:
-                                output["fairsharing"] = check_fairsharing
+                            if len(tool_name) > 4:
+                                check_fairsharing = fairsharing_available(tool_name, fairsharing_token)
+                                if check_fairsharing:
+                                    output["fairsharing"] = check_fairsharing
                         elif output["fairsharing"] == "NA":
                             del output["fairsharing"]
                 else:

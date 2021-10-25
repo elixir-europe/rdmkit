@@ -2,19 +2,23 @@ Tools:
 - description: A standard schema for primary biodiversity data
   link: https://www.tdwg.org/standards/abcd/
   name: Access to Biological Collection Data Schema (ABCD)
+  registry:
+    biotools: abcd
   related_pages:
   - micro biotech
 - description: Ada is a performant and highly configurable system for secured integration,
     visualization, and collaborative analysis of heterogeneous data sets, primarily
     targeting clinical and experimental sources.
   link: https://ada-discovery.github.io/
-  name: Ada
+  name: Ada Discovery Analytics (Ada)
   related_pages:
   - data analysis
   - transmed
 - description: A searchable repository with a focus on plasmids
   link: https://www.addgene.org/browse/
   name: Addgene
+  registry:
+    fairsharing: 8hcczk
   related_pages:
   - micro biotech
 - description: Amazon Web Services
@@ -62,6 +66,7 @@ Tools:
   name: ArrayExpress
   registry:
     biotools: arrayexpress
+    fairsharing: 6k0kwd
     tess: ArrayExpress
   related_pages:
   - micro biotech
@@ -97,6 +102,7 @@ Tools:
   name: Atlas
   registry:
     biotools: atlas
+    fairsharing: dvyrsz
     tess: Atlas
   related_pages:
   - data manager
@@ -231,6 +237,7 @@ Tools:
   name: BioModels
   registry:
     biotools: biomodels
+    fairsharing: paz6mh
     tess: BioModels
   related_pages:
   - micro biotech
@@ -252,6 +259,7 @@ Tools:
   name: BioSamples
   registry:
     biotools: biosamples
+    fairsharing: ewjdq6
     tess: BioSamples
   related_pages:
   - metadata
@@ -357,6 +365,8 @@ Tools:
     a subdivision of the American Chemical Society.
   link: https://www.cas.org/cas-data/cas-registry
   name: CAS Registry
+  registry:
+    fairsharing: r7Kwy7
   related_pages:
   - toxicology data
 - description: Castor is an EDC system for researchers and institutions. With Castor,
@@ -456,6 +466,8 @@ Tools:
     of medicine which makes available private and public-funded clinical trials.
   link: https://clinicaltrials.gov/
   name: ClinicalTrials.gov
+  registry:
+    fairsharing: mewhad
   related_pages:
   - toxicology data
 - description: An open standard for describing workflows that are build from command
@@ -672,6 +684,7 @@ Tools:
   name: DisGeNET
   registry:
     biotools: disgenet
+    fairsharing: fssydn
   related_pages:
   - data analysis
   - human data
@@ -741,6 +754,8 @@ Tools:
 - description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
+  registry:
+    biotools: ddbj
   related_pages:
   - micro biotech
 - description: Docker is a software for the execution of applications in virtualized
@@ -1162,6 +1177,7 @@ Tools:
   name: GenBank
   registry:
     biotools: genbank
+    fairsharing: 9kahy4
     tess: GenBank
   related_pages:
   - micro biotech
@@ -1322,6 +1338,7 @@ Tools:
   name: HumanMine
   registry:
     biotools: humanmine
+    fairsharing: RJ99Pj
     tess: HumanMine
   related_pages:
   - data organisation
@@ -1350,7 +1367,7 @@ Tools:
   - data manager
 - description: Intrinsically disordered proteins ontology
   link: https://disprot.org/about
-  name: IDPO
+  name: Intrinsically disordered proteins ontology (IDPO)
   related_pages:
   - IDP
   - metadata
@@ -1364,6 +1381,7 @@ Tools:
   link: https://idr.openmicroscopy.org
   name: Image Data Resource (IDR)
   registry:
+    biotools: idr
     fairsharing: 6wf1zw
   related_pages:
   - micro biotech
@@ -1393,6 +1411,8 @@ Tools:
     and NCBI
   link: http://www.insdc.org
   name: International Nucleotide Sequence Database Collaboration (INSDC)
+  registry:
+    biotools: insdc
   related_pages:
   - micro biotech
 - description: Data standards and formats for reporting flow cytometry data
@@ -1585,7 +1605,7 @@ Tools:
 - description: The Multi-Crop Passport Descriptor is the metadata standard for plant
     genetic resources maintained ex situ by genbanks.
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
-  name: MCPD
+  name: Multi-Crop Passport Descriptor (MCPD)
   registry:
     fairsharing: hn155r
   related_pages:
@@ -1708,6 +1728,7 @@ Tools:
   name: MoDEL
   registry:
     biotools: model
+    fairsharing: vxz9pn
     tess: MoDEL
   related_pages:
   - biomol sim
@@ -1753,6 +1774,8 @@ Tools:
     Assessments
   link: https://open-source-security-software.net/project/MONARC
   name: MONARC
+  registry:
+    fairsharing: b2979t
   related_pages:
   - data protection
   - policy officer
@@ -1783,6 +1806,8 @@ Tools:
 - description: NCBI's taxonomy browser is a database of biodiversity information
   link: https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/
   name: NCBI Taxonomy
+  registry:
+    fairsharing: fj07xj
   related_pages:
   - micro biotech
 - country:
@@ -2003,6 +2028,7 @@ Tools:
   name: PANGAEA
   registry:
     biotools: pangaea
+    fairsharing: 6yw6cp
   related_pages:
   - data publication
 - description: The Protein Circular Dichroism Data Bank
@@ -2171,11 +2197,9 @@ Tools:
     biotools: reditools
   related_pages:
   - epitrans
-- description: REDItools2 is the optimized and parallel multi-node version of REDItools
+- description: REDItools2 is the optimized, parallel multi-node version of REDItools.
   link: https://github.com/BioinfoUNIBA/REDItools2
   name: REDItools2
-  registry:
-    biotools: reditools
   related_pages:
   - epitrans
 - description: "REMS (Resource Entitlement Management System), developed by CSC, is\
@@ -2293,6 +2317,7 @@ Tools:
   name: RxNorm
   registry:
     biotools: rxnorm
+    fairsharing: 36pf8q
   related_pages:
   - toxicology data
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes
@@ -2434,11 +2459,15 @@ Tools:
     and their place in the Design-Build-Test-Learn cycle of synthetic biology.
   link: https://sbolstandard.org
   name: Synthetic Biology Open Language (SBOL)
+  registry:
+    biotools: sbol
   related_pages:
   - micro biotech
 - description: An open format for computational models of biological processes
   link: http://sbml.org/Main_Page
   name: Systems Biology Markup Language (SBML)
+  registry:
+    biotools: sbml
   related_pages:
   - micro biotech
 - description: The Toxin and Toxin Target Database is a bioinformatics resource that
@@ -2492,6 +2521,7 @@ Tools:
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
   registry:
+    biotools: gsc
     fairsharing: 9aa0zp
   related_pages:
   - metadata
