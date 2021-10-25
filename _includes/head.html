@@ -4,9 +4,8 @@
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {%- capture keywords %}
     {%- if page.related_pages %}
-    {%- assign amount_section = page.related_pages.size | minus: 1 %}
-    {%- for i in (0..amount_section) %}{% for section in page.related_pages[i] %}
-    {%- assign section_name = section[0] %}{% endfor %}{% unless page.related_pages[i][section_name] == blank  %}{{ page.related_pages[i][section_name] | join: ', ' }}
+    {%- for section in page.related_pages %}
+    {%- unless section[1] == blank  %}{{ section[1] | join: ', ' }}
     {%- endunless %}
     {%- endfor %}
     {%- endif %}
@@ -62,4 +61,3 @@
     </script>
     <!-- Google analytics -->
     {% include gtag.html %}
-    

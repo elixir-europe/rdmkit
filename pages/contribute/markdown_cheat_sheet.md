@@ -61,9 +61,9 @@ faircookbook:
   If you want pages from the specific section (Your tasks, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
   ```yml
   related_pages: 
-    - your_tasks: [page_id1, page_id2]
-    - your_domain: [page_id1, page_id2]
-    - tool_assembly: [page_id1, page_id2]
+    your_tasks: [page_id1, page_id2]
+    your_domain: [page_id1, page_id2]
+    tool_assembly: [page_id1, page_id2]
   ``` 
 
 * `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
@@ -378,9 +378,9 @@ An overview of all RDMkit pages (belonging to the sections listed above) and the
 
 ```yml
 related_pages: 
-   - your_tasks: [page_id1, page_id2]
-   - your_domain: [page_id1, page_id2]
-   - tool_assembly: [page_id1, page_id2]
+   your_tasks: [page_id1, page_id2]
+   your_domain: [page_id1, page_id2]
+   tool_assembly: [page_id1, page_id2]
 ```
 
 ## Listing training material

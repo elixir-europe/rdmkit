@@ -5,19 +5,16 @@
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
     <!-- Related pages -->
     {%- if page.related_pages %}
-    {%- assign amount_section = page.related_pages.size | minus: 1 %}
-    {%- for i in (0..amount_section) %}
-    {%- for section in page.related_pages[i] %}
-    {%- assign section_name = section[0] %}
-    {%- endfor %}
-    {%- unless page.related_pages[i][section_name] == blank  %}
+    {%- for section in page.related_pages %}
+    {%- unless section[1] == blank  %}
     <div class="col">
         <div class="card h-100 info-card bg-light">
-            <div class="card-header bg-dark fw-bold text-white">Related RDMkit pages in "{{ section_name | replace: "_", " " | capitalize }}"</div>
+            <div class="card-header bg-dark fw-bold text-white">Related RDMkit pages in "{{ section[0] | replace: "_", " " | capitalize }}"</div>
             <div class="card-body">
                 <ul class="list-unstyled">
-                    {%- for page_id in page.related_pages[i][section_name] %}
-                    {%- assign metadata = site.pages | where:"page_id", page_id %}
+                    {%- for page_id in section[1] %}
+                    {%- assign section_pages = site.pages | where:"type", section[0] %}
+                    {%- assign metadata = section_pages | where:"page_id", page_id %}
                     {%- for page_hit in metadata %}
                     <li class="d-grid">
                         <a class="btn bg-white hover-primary text-start" href="{{ page_hit.url | relative_url }}"><span>{{page_hit.title}}{% if page_hit.description %}</span><br><small class="text-muted">{{ page_hit.description | capitalize }}</small>{% endif %}</a>

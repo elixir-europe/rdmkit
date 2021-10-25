@@ -1,8 +1,8 @@
 {%- if page.contributors %}
-<div class="p-4 bg-light rounded mt-4">
+<span class="d-block h2-like fs-2 text-dark">Contributors</span>
+<div class="p-4 bg-light rounded">
     {%- assign contributors = site.data.CONTRIBUTORS -%}
     {%- assign page_contributors = page.contributors |sort -%}
-    <b>Contributors: </b>
     {%- for contributor in page_contributors | sort %}
     {%- assign count = 0 %}
     {%- assign id = contributors[contributor].git | default: 'no_github' %}

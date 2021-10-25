@@ -4,8 +4,8 @@ contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Daniel Faria, Paulet
 summary: Tool assembly for managing plant genomic data 
 page_id: plant geno assembly
 related_pages: 
-  - your_tasks: [metadata]
-  - your_domain: [plants]
+  your_tasks: [metadata]
+  your_domain: [plants]
 ---
 
 ## What is the plant genomics tool assembly?

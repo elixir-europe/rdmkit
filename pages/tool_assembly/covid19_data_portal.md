@@ -3,8 +3,8 @@ title: COVID-19 Data Portal
 contributors: [Guy Cochrane, Marianna Ventouratou, Nadim Rahman, Sam Holt]
 page_id: Covid-19
 related_pages: 
-  - your_tasks: [sensitive]
-  - your_domain: [human data]
+  your_tasks: [sensitive]
+  your_domain: [human data]
 summary:  The COVID-19 Data Portal brings together relevant datasets for sharing and analysis in an effort to accelerate coronavirus research. It enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets.
 ---
 

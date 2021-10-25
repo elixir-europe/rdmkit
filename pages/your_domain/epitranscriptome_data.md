@@ -1,6 +1,6 @@
 ---
 title: Epitranscriptome data
-contributors: [Ernesto Picardi]
+contributors: [Ernesto Picardi, Laura Portell Silva]
 page_id: epitrans
 related_pages: 
 ---

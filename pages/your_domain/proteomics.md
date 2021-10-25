@@ -3,7 +3,7 @@ title: Proteomics
 contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig]
 page_id: proteomics
 related_pages: 
-  - your_tasks: [metadata]
+  your_tasks: [metadata]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -56,7 +56,7 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 
 ### Solutions
 - Within the proteomics community various converter software tools such as [msconvert](https://proteowizard.sourceforge.io/tools.shtml) were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
-- Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., https://www.psidev.info/mzML for mzML, https://www.psidev.info/mzidentml for mzIdentML and https://www.psidev.info/mztab for mzTab).
+- Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ).
 
 
 ## Preserving and sharing proteomics data
@@ -74,6 +74,6 @@ In order to make proteomics data and results worldwide findable and accessible f
 
 ### Solution
 - You can find an appropriate data repository via the website of the [ProteomeXchange](http://www.proteomexchange.org/) Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include PRIDE, PepideAtlasq, MassIVE, jPOST, iProx and PanoramaPublic.
-- Information on data uploads can be found on http://www.proteomexchange.org/submission or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
+- Information on data uploads can be found on [proteomexchange.org](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
 - Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools
 

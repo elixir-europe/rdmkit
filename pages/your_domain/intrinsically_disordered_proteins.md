@@ -4,7 +4,7 @@ contributors: [Ivan Mičetić]
 related_pages: 
 page_id: IDP
 related_pages: 
-  - your_tasks: [metadata]
+  your_tasks: [metadata]
 ---
 
 ## Introduction
