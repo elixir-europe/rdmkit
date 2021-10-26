@@ -11,7 +11,7 @@
     {%- endif %}
     {%- endcapture %}
     <meta name="keywords" content="{{keywords}}">
-    <meta property="og:title" content="{{ site.site_title }}" />
+    <meta property="og:title" content="{{ site.title }}" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:image" content="//rdmkit.elixir-europe.org/assets/img/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="RDMkit">
@@ -20,7 +20,7 @@
     {%- if page.search_exclude == true and page.url != "/index.html" %}
     <meta name="robots" content="noindex" />
     {%- endif %}
-    <title>{%- if page.title %}{{ page.title }} | {{ site.site_title }}{%- else %}{{ site.site_title }}{%- endif %}</title>
+    <title>{%- if page.title %}{{ page.title }} | {{ site.title }}{%- else %}{{ site.title }}{%- endif %}</title>
     <!-- Syntax highlighting  -->
     <link rel="stylesheet" href="{{ 'assets/css/syntax.css' | relative_url }}">
     <!-- Country flags  -->
@@ -54,7 +54,7 @@
         {
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "{{ site.site_title }}",
+            "name": "{{ site.title }}",
             "url": "{{ site.url }}",
             "about": "{{ site.description }}",
         }
