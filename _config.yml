@@ -74,5 +74,6 @@ defaults:
       path: "pages/tool_assembly"
     values:
       type: tool_assembly
+
 plugins:
   - jemoji
