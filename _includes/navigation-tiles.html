@@ -4,24 +4,12 @@
     <div class="col">
         <div class="card h-100">
             <div class="card-header bg-dark">
-                <h3 class="card-title  text-white m-0">{{current_page.title}}</h3>
+                <a class="stretched-link text-white" href="{{ current_page.url | relative_url }}"><h3 class="card-title m-0">{{current_page.title}}</h3></a>
             </div>
             <div class="card-body bg-light">
                 {%- if current_page.summary %}
                 <p class="card-text">{{ current_page.summary}}</p>
                 {%- endif %}
-                {%- assign all_tools = site.data.tool_and_resource_list %}
-                {%- assign tools = all_tools.Tools | where_exp:"tool", "tool.related_pages contains current_page.page_id" -%}
-                {%- if tools %}
-                <hr>
-                <b>Tools:</b><br>
-                {%- for tool in tools %}
-                <a class="nohover" href="{{ tool.link }}"><span class="badge text-dark bg-white hover-primary">{{tool.name | truncate: 20}}</span></a>
-                {%- endfor %}
-                {%- endif %}
-            </div>
-            <div class="card-footer bg-light">
-                <a class="btn btn-primary stretched-link" href="{{ current_page.url | relative_url }}">Go to page </a>
             </div>
         </div>
     </div>
