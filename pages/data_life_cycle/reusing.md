@@ -3,7 +3,7 @@ title: Reusing
 page_id: reuse
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 related_pages: 
-  - your_tasks: [data analysis, transfer, existing data, identifiers, licensing]
+  your_tasks: [data analysis, transfer, existing data, identifiers, licensing]
 training:
   - name: Training in TeSS
     registry: TeSS

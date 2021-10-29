@@ -4,8 +4,8 @@ contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
 related_pages: 
 page_id: marine
 related_pages: 
-  - your_tasks: [metadata]
-  - tool_assembly: [marine assembly]
+  your_tasks: [metadata]
+  tool_assembly: [marine assembly]
 training:
   - name: Training in TeSS
     registry: TeSS

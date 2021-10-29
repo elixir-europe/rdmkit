@@ -4,7 +4,7 @@ contributors: [Flora D'Anna, Daniel Faria]
 description: how to write a Data Management Plan (DMP).
 page_id: DMP
 related_pages: 
-  - tool_assembly: [NeLS, TSD]
+  tool_assembly: [NeLS, TSD]
 ---
 
 

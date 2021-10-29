@@ -4,7 +4,7 @@ contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ort
 description: measure compliance to data management regulations and standards.
 page_id: compliance
 related_pages: 
-  - tool_assembly: [transmed]
+  tool_assembly: [transmed]
 ---
 
 ## How can you measure and document data management capabilities?

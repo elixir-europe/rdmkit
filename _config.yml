@@ -4,23 +4,14 @@ repository: elixir-europe/rdmkit
 # topnav_title:
 # this appears on the top navigation bar next to the home button
 
-site_title: RDMkit
+title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-
-company_name: ELIXIR Converge
-# this appears in the page_ending
 
 git_editme_path: https://github.com/elixir-europe/rdmkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
-
-host: 127.0.0.1
-# the preview server used. Leave as is.
-
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 gtag: G-RXQ55EFTTH
 # Google analytics tag
@@ -62,27 +53,26 @@ defaults:
     scope:
       path: "pages/data_life_cycle"
     values:
-      type: Data life cycle
+      type: data_life_cycle
   -
     scope:
       path: "pages/your_domain"
     values:
-      type: Your domain
+      type: your_domain
   -
     scope:
       path: "pages/your_tasks"
     values:
-      type: Your tasks
+      type: your_tasks
   -
     scope:
       path: "pages/your_role"
     values:
-      type: Your role
+      type: your_role
   -
     scope:
       path: "pages/tool_assembly"
     values:
-      type: Tool assembly
-
+      type: tool_assembly
 plugins:
   - jemoji
