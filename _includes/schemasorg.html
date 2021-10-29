@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "about": "{{ site.description }}",
+        {%- if page.contributors %}
+        {%- assign contributors = site.data.CONTRIBUTORS -%}
+        {% for people in page.contributors %}
+        "author": {
+            "@type": "Person",
+            "givenName": "{{people}}",
+            {%- if contributors[people].affiliation %}
+            "affiliation": "{{contributors[people].affiliation}}",
+            {%- endif %}
+            {%- if contributors[people].email %}
+            "email": "{{contributors[people].email}}",
+            {%- endif %}
+            {%- if contributors[people].orcid %}
+            "orcid": "{{contributors[people].orcid}}",
+            {%- endif %}
+        }
+        {%- endfor %}
+        {%- endif %}
+    }
+</script>
