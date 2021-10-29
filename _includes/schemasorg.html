@@ -12,7 +12,10 @@
             "@type": "Person",
             "givenName": "{{people}}",
             {%- if contributors[people].affiliation %}
-            "affiliation": "{{contributors[people].affiliation}}",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "{{contributors[people].affiliation}}"
+            },
             {%- endif %}
             {%- if contributors[people].email %}
             "email": "{{contributors[people].email}}",
