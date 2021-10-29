@@ -68,7 +68,30 @@ subitems:
         url: /sensitive_data.html
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
-    url: /tool_assembly.html
+    subitems:
+      - title: Overview
+        url: /tool_assembly.html
+      - title: NeLS - Norway
+        url: /nels_assembly.html
+      - title: TSD - Norway
+        url: /no_tsd_assembly.html
+      - title: Covid-19 Data Portal
+        url: /covid19_data_portal.html
+      - title: CSC - Finland
+        url: /fi_csc_assembly.html
+      - title: TransMed - Luxembourg
+        url: /transmed_assembly.html
+      - title: Marine Metagenomics - Norway
+        url: /marine_metagenomics_assembly.html
+      - title: IFB - France
+        url: /fr_ifb_assembly.html
+      - title: XNAT-PIC
+        url: /xnat_pic_tool_assembly.html
+      - title: Plant Genomics Assembly
+        url: /plant_genomics_assembly.html
+      - title: OMERO
+        url: /omero_assembly.html
+
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
