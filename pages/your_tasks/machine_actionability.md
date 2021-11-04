@@ -45,6 +45,84 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
 * Not be images, audio nor video (.jpg, png, etc).
 
 
+
+## What are the advantages of generating machine-actionable metadata and data, during and after the project?
+
+### Description
+
+Numerous research institutes have already introduced or are going to introduce the use of Electronic Laboratory Notebook (ELN), Laboratory Information Management System (LIMS) or similar systems to manage samples, reagents, metadata and data, during a research project. The reason for this is that this software could organize information in a structured way and make (meta)data “more” machine-actionable, compared to traditional lab books or individual folders and files in a computer. The use of machine-actionable (meta)data allows for scalable solutions that can be applied during a project’s lifetime, increasing efficiency and ensuring that findings and contributions remain relevant within the research group.
+
+Similarly, funders and institutions ask researchers to make their (meta)data FAIR and available in a machine-actionable way. This means that (meta)data should be in databases that can expose it in such a way to allow search engines and [harvesting](https://en.wikipedia.org/wiki/Metadata_discovery) servers to discover it, index it and link it to other relevant contextual information, thus vastly enhancing the likelihood of reusing the data (see [Horizon Europe DMP template](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan-template_he_en.docx)).
+
+
+### Considerations
+
+* During a research project, scientists and researchers should utilize metadata in order to use, reuse, and expand knowledge by:
+  * Managing experiments, samples and analysis pipelines. 
+  * Expanding current datasets e.g. to increase the sample size.
+  * Repeating experiments done by colleagues in the team.
+  * Reproducing and confirming findings done by others.
+  * Testing new hypotheses on data generated for different purposes.
+
+* Scalable reuse of existing data is possible only if (meta)data is annotated with commonly used terms and findable by computers (e.g. database browser or search engines). The alternative could be very tedious and inefficient since you might have to:
+  * Read the lab book of previous colleagues until you find the right page(s) where information about previously generated data is provided.
+  * Look through numerous (shared) folders to find the documentation about a specific experiment done by previous colleagues that generated the dataset you are interested in.
+  * Read all publications about a topic and check if there is a dataset linked to it and/or available upon request.
+
+* Integration of multiple datasets can be straightforward only if each dataset can be easily queried, processed and formatted via software/programmes that can properly handle structured and big (meta)data files, such as [OpenRefine](https://openrefine.org/#) and programming languages such as Python or R. Otherwise, manual data integration and processing can be very slow and error-prone.
+
+
+### Advantages
+
+The advantages of having machine-actionable data and metadata are numerous for all the parties involved.
+
+#### For researchers
+
+By providing structured metadata and data to a database that follows standards (metadata schemas, ontologies, file formats, programmatic access, etc.), at the level of each recorded value or observation, researchers:
+* Could more easily query and filter (meta)data based on specific variables, experimental conditions, biological sources and many other parameters, based on the capabilities of the used ELN or data management software.
+* Can more easily find and reproduce experiments performed in the past by others in  literature or in databases e.g. by using [Europe PMC](https://europepmc.org/) and [EBI Search](https://www.ebi.ac.uk/ebisearch/overview.ebi/about).
+* Can easily integrate data from multiple datasets and studies, sharing the same experimental conditions or variables. Datasets integration and manipulation are easier to achieve, more reproducible and can be automated by using common programmes/software such as R and [OpenRefine](https://openrefine.org/#).
+* Can make use of visualization and exploration tools, provided by some repositories, to browse and explore the data of multiple datasets at once. For instance, you can use  [Expression Atlas](https://www.ebi.ac.uk/gxa/home) to easily make a query about the expression of a gene in specific conditions, even without knowledge of any data analysis software. As another example, [GISAID](https://www.gisaid.org) allows you to visualise the spreading of viral variants. See the pages in the “Your Domain” section to find domain-specific databases, atlas or portals.
+* Can import, export and exchange (meta)data between tools/systems/platforms without data loss. Exchanging and integrating (meta)data between two software or platforms is possible only if the format in which the information is contained can be read and interpreted by both. For instance, (meta)data from both [UniProt](https://www.uniprot.org) and [PDBe-KB](https://www.ebi.ac.uk/pdbe/pdbe-kb) can be accessed in [3DBioNotes](http://3dbionotes-ws.cnb.csic.es/) to enrich the structural analysis with sequence features.
+* Can explore and visualise biological knowledge graphs by using software such as [KnetMiner](https://knetminer.com) and [AgroLD](http://agrold.southgreen.fr/agrold/).
+* Can perform complex queries, from a single entry point, across multiple distributed databases and across domains via [APIs](https://en.wikipedia.org/wiki/API) or via SPARQL Query Language. For instance: “Retrieve the number of UniProtKB/Swiss-Prot human enzymes that metabolize cholesterol or cholesterol derivatives and that are involved in diseases?" in the [Integrated Database of Small Molecules](https://idsm.elixir-czech.cz/).
+* Can more easily find reference data and existing data in general, since machine-actionable (meta)data could be found by search engines and domain specific or generic data catalogs and portals.
+
+
+#### For software developers and repositories managers
+* Implementation of domain specific metadata schemas and ontologies for data and metadata increases the reusability for researchers.
+* The use of machine-actionable formats and ontologies contribute to [syntactic](https://en.wikipedia.org/wiki/Interoperability) and [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability) of the (meta)data, which can be used by other tools/software or platforms.
+* Applying RDF syntax to the database can make the (meta)data available for knowledge graphs and semantic web applications.
+* If [Application Programming Interface (API)](https://en.wikipedia.org/wiki/API) is available, other software/applications could make complex queries, access the database programmatically and always get up-to-date data.
+* If the metadata of your database or repository is exposed according to specific standards, it could function as data provider or data source, and be harvested and indexed by
+  * Data catalogues or data portals, such as [OmicsDI](https://www.omicsdi.org) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
+  * Other instances of your data repository software, such as [Dataverse](https://guides.dataverse.org/en/latest/admin/dashboard.html#harvesting) and [EUDAT B2FIND](http://b2find.eudat.eu/guidelines/harvesting.html), which use OAI-PMH for metadata harvest.
+  * Search engines such as [Google Dataset Search](https://datasetsearch.research.google.com/help), which relies on [sitemaps.org](https://www.sitemaps.org), [schema.org](https://schema.org), [DCAT](https://www.w3.org/TR/vocab-dcat/) and other approaches to datasets discovery.
+* Machine actionable metadata facilitates the automatization of data handling and validation, allowing for easier development of new tools and analysis strategies (e.g. data visualization tools, machine learning and artificial intelligence applications).
+
+#### For the authors of a machine-actionable public dataset
+* High impact of the published data.
+* More citations.
+* More opportunity for collaborations.
+* Opportunity for reproducibility test and confirmation of their results by others.
+* Easy way to reuse the same (meta)data for other research.
+* Improved scalability of their research efforts.
+
+#### For public funders and institutions/governments
+* Proof that their fundings produced knowledge that is findable and reusable.
+* Transparency.
+* Straightforward collection and indexing of research output in registries for easier impact assessment and report.
+
+
+
+
+
+
+
+
+
+
+
  
 
 
