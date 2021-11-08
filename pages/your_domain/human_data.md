@@ -62,7 +62,7 @@ For research on human data, you must follow established research ethical guideli
   * [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
   * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
   * [BBMRI-ERIC's ELSI Knowledge Base](https://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance. 
-
+  * [EHDEN Academy](https://academy.ehden.eu/) has a number of courses on the OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data.
 
 
 ## Processing and analysing human research data
