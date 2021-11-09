@@ -2600,6 +2600,8 @@ Tools:
     from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
   link: https://txg-mapr.eu/
   name: TXG-MAPr
+  registry:
+    biotools: txg-mapr
   related_pages:
   - data analysis
   - researcher
