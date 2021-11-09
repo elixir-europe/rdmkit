@@ -1,5 +1,5 @@
 ---
-title: NeLS assembly 
+title: NeLS
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
 description: Data Management tool assembly by NeLS aimed for researchers in Norway and their collaborators.
 page_id: NeLS
