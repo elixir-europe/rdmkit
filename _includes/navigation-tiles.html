@@ -7,8 +7,8 @@
                 <a class="stretched-link text-white" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}"><h3 class="card-title m-0">{{current_page.title}}</h3></a>
             </div>
             <div class="card-body bg-light">
-                {%- if current_page.summary %}
-                <p class="card-text">{{ current_page.summary}}</p>
+                {%- if current_page.description %}
+                <p class="card-text">{{ current_page.description}}</p>
                 {%- endif %}
             </div>
         </div>
