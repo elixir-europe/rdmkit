@@ -2,6 +2,8 @@
 title: OMERO
 contributors: [Jean-Marie Burel] 
 page_id: ome
+affiliations: [ALL]
+audience: [ALL]
 related_pages: 
   your_tasks: [data organisation, storage, data analysi]
   your_domain: []
@@ -23,7 +25,7 @@ training:
 
 ## What is OMERO?
 
-OMERO is a software platform for managing, sharing and analysing images data. OMERO supports over proprietary 150 file formats, including all major microscopy formats, medical images, digital pathology images, high content screening, etc. using [Bio-Formats](https://www.openmicroscopy.org/bio-formats/). Bio-Formats is a Java software tool for reading proprietary image data and metadata and writing image data using standardized open formats.
+[OMERO](https://www.openmicroscopy.org/index.html) is a software platform for managing, sharing and analysing images data. OMERO supports over proprietary 150 file formats, including all major microscopy formats, medical images, digital pathology images, high content screening, etc. using [Bio-Formats](https://www.openmicroscopy.org/bio-formats/). Bio-Formats is a Java software tool for reading proprietary image data and metadata and writing image data using standardized open formats.
 
 OMERO handles all your images in a secure central repository. Users can view, [organize](data_organisation), [analyze](analysing) and [share](sharing) data from anywhere via the internet. Users can work with image data and metadata from a Desktop application, from the Web or from 3rd party tools e.g. [Fiji](https://fiji.sc/).
 
