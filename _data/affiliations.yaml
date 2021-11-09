@@ -1,12 +1,12 @@
 - name: VIB-PSB
   image_url: /images/institutes/VIB-PSB.svg
-  pid: 
+  pid: https://ror.org/03xrhmk39
   rdmkit_about: true
   type: institute
   url: https://www.psb.ugent.be/
 - name: The Manchester University
   image_url: /images/institutes/logo-university-of-manchester.svg
-  pid: 
+  pid: https://ror.org/02aswte26
   rdmkit_about: true
   type: institute
   url: https://www.manchester.ac.uk/
@@ -19,78 +19,78 @@
 - name: SciLifeLab
   url: https://www.scilifelab.se/
   image_url: /images/institutes/SciLifeLab_Logotype_Green_POS.svg
-  pid: 
+  pid: https://ror.org/04ev03g22
   rdmkit_about: true
   type: institute
 - name: University of Bergen
   url: https://www.uib.no/en
   image_url: /images/institutes/uib_logo.svg
-  pid: 
+  pid: https://ror.org/03zga2b32
   rdmkit_about: true
   type: institute
 - name: Barcelona Supercomputing Center
   url: https://www.bsc.es/
   image_url: /images/institutes/BSC-blue.svg
-  pid: 
+  pid: https://ror.org/05sd8tv96
   rdmkit_about: true
   type: institute
 - name: Dutch Techcentre for Life Sciences
   url: https://www.dtls.nl/
   image_url: /images/institutes/DTL_logo.svg
-  pid: 
+  pid: https://ror.org/055d8gs64
   rdmkit_about: true
   type: institute
 - name: Heidelberg Institute for Theoretical Studies
   url: https://www.h-its.org/
   image_url: /images/institutes/hits-logo.svg
-  pid: 
+  pid: https://ror.org/01f7bcy98
   rdmkit_about: true
   type: institute
 - name: Instituto Gulbenkian de Ciência
   url: https://gulbenkian.pt/ciencia/
   image_url: /images/institutes/07_logotipo_web_ciencia_EN_50px-01.svg
-  pid: 
+  pid: https://ror.org/04b08hq31
   rdmkit_about: true
   type: institute
 - name: University of Luxembourg
   url: https://wwwen.uni.lu/
   image_url: /images/institutes/University-of-Luxembourg-Fr-01_noborder.svg
-  pid: 
+  pid: https://ror.org/036x5ad56
   rdmkit_about: true
   type: institute
 - name: CSC
   url: https://www.csc.fi/
   image_url: /images/institutes/CSC_2012_LOGO_RGB.svg
-  pid: 
+  pid: https://ror.org/04m8m1253
   rdmkit_about: true
   type: institute
 - name: ELIXIR CONVERGE
   image_url: /assets/img/converge_logo.svg
-  pid: 
+  pid: https://cordis.europa.eu/project/id/871075
   rdmkit_about: true
   type: funder
   url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
 - name: Research Council of Norway 
   image_url: /images/funders/fr-nettsted-logo_engelsk.svg
-  pid: 
+  pid: http://dx.doi.org/10.13039/501100005416
   rdmkit_about: true
   type: funder
   url: https://www.forskningsradet.no/en/
 - name: FWO-IRI
   image_url: /images/funders/FWO-logo.svg
-  pid: 
+  pid: http://dx.doi.org/10.13039/501100003130
   rdmkit_about: true
   type: funder
   url: https://www.fwo.be/
 - name: Swedish Research Council
   image_url: /images/funders/svart_liggande_eng.svg
-  pid: 
+  pid: http://dx.doi.org/10.13039/501100004359
   rdmkit_about: true
   type: funder
   url: https://www.vr.se/
 - name: BioExcel
   image_url: /images/projects/Bioexcel_logo_subheading_updated_RGB.svg
-  pid: 
+  pid: https://cordis.europa.eu/project/id/823830
   rdmkit_about: true
   type: project
   url: https://bioexcel.eu/
