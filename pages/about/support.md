@@ -7,13 +7,13 @@ sidebar: about
 
 We thank these institutes for their contribution.
 
-{% include logo-page.html data= "INSTITUTES"%}
+{% include logo-page.html type="institute"%}
 
 ## Projects
 
 We thank these projects for their efforts:
 
-{% include logo-page.html data= "PROJECTS"%}
+{% include logo-page.html type="project"%}
 
 ## Funders
 
@@ -21,4 +21,4 @@ RDMkit is developed in ELIXIR-CONVERGE that received funding from the European U
 
 Additionally we thank the funders that supported some of our contributors.
 
-{% include logo-page.html data= "FUNDERS"%}
+{% include logo-page.html type="funder"%}

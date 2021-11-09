@@ -1,7 +1,7 @@
 ---
 title: Marine Metagenomics - Norway
 contributors: [Nazeefa Fatima, Espen Åberg, Nils P Willassen]
-summary: Norwegian data management tool assembly for marine metagenomics data
+description: Norwegian data management tool assembly for marine metagenomics data
 page_id: marine assembly
 related_pages: 
   your_tasks: [metadata]

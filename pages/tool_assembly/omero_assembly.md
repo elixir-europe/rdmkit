@@ -5,7 +5,7 @@ page_id: ome
 related_pages: 
   your_tasks: [data organisation, storage, data analysi]
   your_domain: []
-summary: Tool assembly for managing imaging data
+description: Tool assembly for managing imaging data
 training:
   - name: General information about the OME ecosystem 
     url: https://www.openmicroscopy.org

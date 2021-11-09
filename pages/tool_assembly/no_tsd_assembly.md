@@ -1,7 +1,7 @@
 ---
 title: TSD for sensitive data - Norway
 contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl]
-summary: This is a Data Management tools assembly for sensitive data around TSD. TSD as an infrastructure is aimed for researchers in Norway and their collaborators, but can be used by anyone. 
+description: This is a Data Management tools assembly for sensitive data around TSD. TSD as an infrastructure is aimed for researchers in Norway and their collaborators, but can be used by anyone. 
 page_id: TSD
 related_pages: 
   your_tasks: [DMP, storage, sensitive]
