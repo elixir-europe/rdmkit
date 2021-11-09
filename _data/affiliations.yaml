@@ -124,3 +124,9 @@
   rdmkit_about: false
   type: infrastructure
   url: https://www.eurobioimaging.eu/
+- name: University of Oslo
+  image_url: /images/institutions/UiO_logo.svg
+  pid: https://ror.org/01xtthb56
+  rdmkit_about: false
+  type: institution
+  url: https://www.uio.no/english/
