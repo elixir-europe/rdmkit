@@ -1,8 +1,10 @@
 ---
 title: Plant Genomics Assembly
 contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Daniel Faria, Paulette Lieby, Sebastian Beier]
-description: Tool assembly for managing plant genomic data 
+description: Tool assembly for managing plant genomic data. 
 page_id: plant geno assembly
+affiliations: []
+audience: [ALL]
 related_pages: 
   your_tasks: [metadata]
   your_domain: [plants]
