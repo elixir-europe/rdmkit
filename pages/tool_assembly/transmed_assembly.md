@@ -1,5 +1,5 @@
 ---
-title: TransMed Assembly
+title: TransMed
 contributors: [Wei Gu, Soumyabrata Ghosh, Muhammad Shoaib, Irina Balaur, Xinhui Wang, Carlos Vega, Pinar Alper, Venkata Satagopam]
 description: Data management tool assembly from ELIXIR Luxembourg supporting projects in Translational Biomedicine.
 page_id: transmed
