@@ -7,7 +7,7 @@ sidebar: about
 
 We thank these institutes for their contribution.
 
-{% include logo-page.html type="institute"%}
+{% include logo-page.html type="institution"%}
 
 ## Projects
 
