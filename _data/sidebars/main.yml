@@ -76,19 +76,19 @@ subitems:
       - title: NeLS
         url: /nels_assembly.html
       - title: TSD
-        url: /no_tsd_assembly.html
+        url: /tsd_assembly.html
       - title: Covid-19 Data Portal
         url: /covid19_data_portal.html
       - title: CSC
-        url: /fi_csc_assembly.html
+        url: /csc_assembly.html
       - title: TransMed
         url: /transmed_assembly.html
       - title: Marine Metagenomics
         url: /marine_metagenomics_assembly.html
       - title: IFB
-        url: /fr_ifb_assembly.html
+        url: /ifb_assembly.html
       - title: XNAT-PIC
-        url: /xnat_pic_tool_assembly.html
+        url: /xnat_pic_assembly.html
       - title: Plant Genomics Assembly
         url: /plant_genomics_assembly.html
       - title: OMERO
