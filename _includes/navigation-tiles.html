@@ -36,7 +36,7 @@
                     {%- for affiliation in current_page.affiliations %}
                     {%- assign filter_affiliation = alllogos | where: "name", affiliation %}
                     {%- if affiliation.size == 2 %}
-                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="country {{affiliation | downcase}}" title="country {{affiliation | downcase}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
+                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" title="{{affiliation | downcase}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
                     {%- elsif affiliation == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_affiliation %}
@@ -53,7 +53,7 @@
                     {%- for audience in current_page.audience %}
                     {%- assign filter_audience = alllogos | where: "name", audience %}
                     {%- if audience.size == 2 %}
-                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="country {{affiliation | downcase}}" title="{{audience | downcase}} country"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
+                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
                     {%- elsif audience == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_audience %}
