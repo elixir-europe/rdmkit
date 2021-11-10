@@ -31,7 +31,7 @@ Submission of sample descriptions to BioSamples can be done as early as the data
     2. Submit reference genome assembly to INSDC (NCBI Genbank / EBML-EBI ENA / DDBJ) and wait until accession number is issued, then proceed to step 4
 4.  Submit VCF file to EVA (using BioSamples IDs to identify material, GCF/GCA accession for the reference genome assembly)
 
-Note: Metadata associated with a single sample registered with BioSamples can only be updated from the original account.
+{% include note.html content="Metadata associated with a single sample registered with BioSamples can only be updated from the original account." %}
 
 [e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/), Fairdom-seek instances such as Fairdomhub or [Data INRAE](https://data.inrae.fr/) can be used to manage and share experimental metadata, as well as data.
 
