@@ -6,7 +6,7 @@ page_id: IFB
 affiliations: ["ELIXIR Europe", "FR"]
 audience: [FR]
 related_pages: 
-  your_tasks: [DMP, data organisation ,storage, data publication, data transfer, metadata]
+  your_tasks: [DMP, data organisation ,storage, data publication, data transfer, metadata, data analysis]
   your_domain:
 training:
   - name: Training in TeSS
