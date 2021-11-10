@@ -1,0 +1,138 @@
+- name: VIB
+  image_url: /images/institutions/VIB-PSB.svg
+  pid: https://ror.org/03xrhmk39
+  rdmkit_about: true
+  type: institution
+  url: https://www.psb.ugent.be/
+- name: The Manchester University
+  image_url: /images/institutions/logo-university-of-manchester.svg
+  pid: https://ror.org/02aswte26
+  rdmkit_about: true
+  type: institution
+  url: https://www.manchester.ac.uk/
+- name: NBIS
+  url: https://nbis.se/
+  image_url: /images/institutions/nbislogo-green-txt.svg
+  pid: 
+  rdmkit_about: true
+  type: institution
+- name: SciLifeLab
+  url: https://www.scilifelab.se/
+  image_url: /images/institutions/SciLifeLab_Logotype_Green_POS.svg
+  pid: https://ror.org/04ev03g22
+  rdmkit_about: true
+  type: institution
+- name: University of Bergen
+  url: https://www.uib.no/en
+  image_url: /images/institutions/uib_logo.svg
+  pid: https://ror.org/03zga2b32
+  rdmkit_about: true
+  type: institution
+- name: Barcelona Supercomputing Center
+  url: https://www.bsc.es/
+  image_url: /images/institutions/BSC-blue.svg
+  pid: https://ror.org/05sd8tv96
+  rdmkit_about: true
+  type: institution
+- name: Dutch Techcentre for Life Sciences
+  url: https://www.dtls.nl/
+  image_url: /images/institutions/DTL_logo.svg
+  pid: https://ror.org/055d8gs64
+  rdmkit_about: true
+  type: institution
+- name: Heidelberg Institute for Theoretical Studies
+  url: https://www.h-its.org/
+  image_url: /images/institutions/hits-logo.svg
+  pid: https://ror.org/01f7bcy98
+  rdmkit_about: true
+  type: institution
+- name: Instituto Gulbenkian de Ciência
+  url: https://gulbenkian.pt/ciencia/
+  image_url: /images/institutions/07_logotipo_web_ciencia_EN_50px-01.svg
+  pid: https://ror.org/04b08hq31
+  rdmkit_about: true
+  type: institution
+- name: University of Luxembourg
+  url: https://wwwen.uni.lu/
+  image_url: /images/institutions/University-of-Luxembourg-Fr-01_noborder.svg
+  pid: https://ror.org/036x5ad56
+  rdmkit_about: true
+  type: institution
+- name: CSC
+  url: https://www.csc.fi/
+  image_url: /images/institutions/CSC_2012_LOGO_RGB.svg
+  pid: https://ror.org/04m8m1253
+  rdmkit_about: true
+  type: institution
+- name: ELIXIR CONVERGE
+  image_url: /assets/img/converge_logo.svg
+  pid: https://cordis.europa.eu/project/id/871075
+  rdmkit_about: true
+  type: funder
+  url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
+- name: Research Council of Norway 
+  image_url: /images/funders/fr-nettsted-logo_engelsk.svg
+  pid: http://dx.doi.org/10.13039/501100005416
+  rdmkit_about: true
+  type: funder
+  url: https://www.forskningsradet.no/en/
+- name: FWO-IRI
+  image_url: /images/funders/FWO-logo.svg
+  pid: http://dx.doi.org/10.13039/501100003130
+  rdmkit_about: true
+  type: funder
+  url: https://www.fwo.be/
+- name: Swedish Research Council
+  image_url: /images/funders/svart_liggande_eng.svg
+  pid: http://dx.doi.org/10.13039/501100004359
+  rdmkit_about: true
+  type: funder
+  url: https://www.vr.se/
+- name: BioExcel
+  image_url: /images/projects/Bioexcel_logo_subheading_updated_RGB.svg
+  pid: https://cordis.europa.eu/project/id/823830
+  rdmkit_about: true
+  type: project
+  url: https://bioexcel.eu/
+- name: TeSS
+  image_url: /images/projects/tess_logo.svg
+  pid: 
+  rdmkit_about: true
+  type: project
+  url: https://tess.elixir-europe.org/
+- name: FAIRsharing
+  image_url: /images/projects/FAIRsharing-sdp.svg
+  pid: 
+  rdmkit_about: true
+  type: project
+  url: https://fairsharing.org/
+- name: Bio.tools
+  image_url: /images/projects/bio.tools.svg
+  pid: 
+  rdmkit_about: true
+  type: project
+  url: https://bio.tools/
+- name: ELIXIR Europe
+  image_url: /images/infrastructures/ELIXIR-logo.svg
+  pid: 
+  rdmkit_about: false
+  type: infrastructure
+  url: https://elixir-europe.org/
+- name: Euro BioImaging
+  image_url: /images/infrastructures/Euro-BioImaging_logo.svg
+  pid: 
+  rdmkit_about: false
+  type: infrastructure
+  url: https://www.eurobioimaging.eu/
+- name: University of Oslo
+  image_url: /images/institutions/UiO_logo.svg
+  pid: https://ror.org/01xtthb56
+  rdmkit_about: false
+  type: institution
+  url: https://www.uio.no/english/
+- name: NeLS
+  image_url: /images/infrastructures/NeLS_logo.svg
+  pid:
+  rdmkit_about: false
+  type: infrastructure
+  url: https://nels.bioinfo.no/

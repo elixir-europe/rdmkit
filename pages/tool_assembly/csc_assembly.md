@@ -1,9 +1,13 @@
 ---
-title: CSC - Finland
+title: CSC
 contributors: [Siiri Fuchs, Minna Ahokas]
-summary: Data management tool assembly from CSC - IT Center for Science and ELIXIR Finland that provides high-quality ICT expert services for researchers in Finland and their collaborators.
+description: The Center of Science (CSC) provides high-quality ICT expert services for researchers in Finland and their collaborators.
 page_id: CSC
+affiliations: [FI, CSC, ELIXIR Europe]
+audience: [FI]
 related_pages: 
+  your_tasks: [sensitive, DMP, data protection, storage, data publication, data transfer, data analysis]
+  your_domain: [human data]
 training:
   - name: Training in TeSS
     registry: TeSS
