@@ -25,7 +25,7 @@
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_affiliation %}
                     {%- for result in filter_affiliation %}
-                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url}}" class="d-inline h-30px"></button>
+                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></button>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
@@ -42,7 +42,7 @@
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_audience %}
                     {%- for result in filter_audience %}
-                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url}}" class="d-inline h-30px"></button>
+                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></button>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
