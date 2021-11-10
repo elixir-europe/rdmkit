@@ -130,3 +130,9 @@
   rdmkit_about: false
   type: institution
   url: https://www.uio.no/english/
+- name: NeLS
+  image_url: /images/infrastructures/NeLS_logo.svg
+  pid:
+  rdmkit_about: false
+  type: infrastructure
+  url: https://nels.bioinfo.no/
