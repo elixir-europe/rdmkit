@@ -6,6 +6,8 @@ page_id: IFB
 affiliations: [FR]
 audience: [FR]
 related_pages: 
+  your_tasks: [DMP, data organisation ,storage, data publication, data transfer, metadata]
+  your_domain:
 training:
   - name: Training in TeSS
     registry: TeSS
