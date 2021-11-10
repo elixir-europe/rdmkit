@@ -6,7 +6,7 @@ page_id: TSD
 affiliations: ["NO", ELIXIR Europe, University of Oslo]
 audience: [ALL]
 related_pages: 
-  your_tasks: [DMP, storage, sensitive]
+  your_tasks: [DMP, storage, sensitive, data protection, transfer]
   your_domain: [human data]
 training:
   - name: Documentation for the HPC cluster
