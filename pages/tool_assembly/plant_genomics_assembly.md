@@ -33,7 +33,7 @@ Submission of sample descriptions to BioSamples can be done as early as the data
 
 {% include note.html content="Metadata associated with a single sample registered with BioSamples can only be updated from the original account." %}
 
-[e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/), Fairdom-seek instances such as Fairdomhub or [Data INRAE](https://data.inrae.fr/) can be used to manage and share experimental metadata, as well as data.
+[e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/), FAIRDOM-SEEK instances such as [FAIRDOMHub](https://fairdomhub.org/) or [Data INRAE](https://data.inrae.fr/) can be used to manage and share experimental metadata, as well as data.
 
 ### Data processing and analysis
 Reference genomes for genome assembly and annotation should be obtained from [ENSEMBL Plants](https://plants.ensembl.org/index.html) or [PLAZA](https://bioinformatics.psb.ugent.be/plaza/), if available.
