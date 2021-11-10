@@ -1,4 +1,4 @@
-<div class="row row-cols-1 row-cols-md-2 g-4 mb-5 navigation-tiles">
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-4 mb-5 navigation-tiles">
     {%- for current_page in site.pages | sorted %}
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
     <div class="col">
@@ -56,7 +56,7 @@
                     {%- assign filter_audience = alllogos | where: "name", audience %}
                     {%- if audience.size == 2 %}
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{affiliation | downcase}}">
-                        <button class="btn btn-sm text-dark bg-white pe-none" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
+                        <button class="btn btn-sm text-dark bg-white pe-none" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
                     </span>
                     {%- elsif audience == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
