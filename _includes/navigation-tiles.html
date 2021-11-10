@@ -19,7 +19,7 @@
                     {%- assign section_pages = site.pages | where:"type", section[0] %}
                     {%- assign metadata = section_pages | where:"page_id", page_id %}
                     {%- for page_hit in metadata %}
-                    <a href="{{ page_hit.url | relative_url }}"><span class="badge text-dark bg-white hover-primary">{{page_hit.title}}</span></a>
+                    <a href="{{ page_hit.url | relative_url }}"><span class="badge text-dark bg-white hover-primary">{{page_hit.title | truncate: 20 }}</span></a>
                     {%- endfor %}
                     {%- endfor %}
                 </div>
@@ -41,7 +41,7 @@
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_affiliation %}
                     {%- for result in filter_affiliation %}
-                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></button>
+                    <a role="button" href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
@@ -58,7 +58,7 @@
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_audience %}
                     {%- for result in filter_audience %}
-                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></button>
+                    <a  role="button" href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
