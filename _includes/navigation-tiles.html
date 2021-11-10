@@ -14,12 +14,12 @@
                 {%- for section in current_page.related_pages %}
                 {%- unless section[1] == blank  %}
                 <div>
-                    <span><small>{{ section[0] | replace: "_", " " | capitalize }}: </small></span>
+                    <span><b><small>{{ section[0] | replace: "_", " " | capitalize }}: </small></b></span>
                     {%- for page_id in section[1] %}
                     {%- assign section_pages = site.pages | where:"type", section[0] %}
                     {%- assign metadata = section_pages | where:"page_id", page_id %}
                     {%- for page_hit in metadata %}
-                    <a href="{{ page_hit.url | relative_url }}"><span class="badge text-dark bg-white hover-primary">{{page_hit.title | truncate: 20 }}</span></a>
+                    <a href="{{ page_hit.url | relative_url }}"><span class="badge fw-normal text-dark bg-white hover-primary">{{page_hit.title | truncate: 20 }}</span></a>
                     {%- endfor %}
                     {%- endfor %}
                 </div>
@@ -32,16 +32,16 @@
             <div class="card-footer bg-light border-top border-white border-3 d-flex align-middle">
                 {%- if current_page.affiliations %}
                 <div class="me-3">
-                    <span class="me-2"><small>Affiliations:</small></span>
+                    <span class="me-2"><b><small>Affiliations:</small></b></span>
                     {%- for affiliation in current_page.affiliations %}
                     {%- assign filter_affiliation = alllogos | where: "name", affiliation %}
                     {%- if affiliation.size == 2 %}
-                    <button class="btn btn-sm text-dark bg-white pe-none" title="{{affiliation | downcase}} country"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
+                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="country {{affiliation | downcase}}" title="country {{affiliation | downcase}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
                     {%- elsif affiliation == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_affiliation %}
                     {%- for result in filter_affiliation %}
-                    <a role="button" href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
+                    <a role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
@@ -49,16 +49,16 @@
                 {%- endif %}
                 {%- if current_page.audience %}
                 <div>
-                    <span class="me-2"><small>Audience:</small></span>
+                    <span class="me-2"><b><small>Audience:</small></b></span>
                     {%- for audience in current_page.audience %}
                     {%- assign filter_audience = alllogos | where: "name", audience %}
                     {%- if audience.size == 2 %}
-                    <button class="btn btn-sm text-dark bg-white pe-none" title="{{audience | downcase}} country"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
+                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="country {{affiliation | downcase}}" title="{{audience | downcase}} country"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
                     {%- elsif audience == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_audience %}
                     {%- for result in filter_audience %}
-                    <a  role="button" href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
+                    <a  role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
