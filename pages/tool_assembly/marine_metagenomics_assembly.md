@@ -5,6 +5,7 @@ description: The Marine Metagenomics tool assembly aims to provide a comprehensi
 page_id: marine assembly
 affiliations: [ELIXIR Europe, "NO"]
 audience: ["NO"]
+related pages:
   your_tasks: [DMP, existing data, data organisation ,storage, data publication, data transfer, metadata, data analysis]
   your_domain: [marine]
 training:
@@ -15,7 +16,7 @@ training:
   - name: ELIXIR Norways training pages
     url: https://elixir.no/training/material
   - name: Workshop materials on ELIXIR-SI eLearning Platform (EeLP)
-    url: https://elixir.mf.uni-lj.si/course/index.php?categoryid=16
+    url: https://elixir.mf.uni-lj.si/course/index.php?categoryid=16  
 ---
 
 ## What is the Norwegian tool assembly for marine metagenomics data management?
