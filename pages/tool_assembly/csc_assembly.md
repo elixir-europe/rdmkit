@@ -3,7 +3,7 @@ title: CSC
 contributors: [Siiri Fuchs, Minna Ahokas]
 description: CSC provides high-quality ICT expert services for researchers in Finland and their collaborators.
 page_id: CSC
-affiliations: [FI, CSC, ELIXIR]
+affiliations: [FI, CSC, ELIXIR Europe]
 audience: [FI]
 related_pages: 
 training:

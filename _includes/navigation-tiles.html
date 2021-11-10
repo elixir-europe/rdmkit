@@ -1,16 +1,55 @@
-<div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5 navigation-tiles">
     {%- for current_page in site.pages | sorted %}
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
     <div class="col">
         <div class="card h-100">
             <div class="card-header bg-dark">
-                <a class="stretched-link text-white" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}"><h3 class="card-title m-0">{{current_page.title}}</h3></a>
+                <a class="text-white" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}"><h3 class="card-title m-0">{{current_page.title}}</h3></a>
             </div>
             <div class="card-body bg-light">
                 {%- if current_page.description %}
                 <p class="card-text">{{ current_page.description}}</p>
                 {%- endif %}
             </div>
+            {%- if current_page.audience or current_page.affiliations %}
+            {%- assign alllogos = site.data.affiliations %}
+            <div class="card-footer bg-light border-top border-white border-3 d-flex align-middle">
+                {%- if current_page.affiliations %}
+                <div class="me-3">
+                    <span class="me-2"><small>Affiliations:</small></span>
+                    {%- for affiliation in current_page.affiliations %}
+                    {%- assign filter_affiliation = alllogos | where: "name", affiliation %}
+                    {%- if affiliation.size == 2 %}
+                    <button class="btn btn-sm text-dark bg-white pe-none" title="{{affiliation | downcase}} country"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
+                    {%- elsif affiliation == "ALL" %}
+                    <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
+                    {%- elsif filter_affiliation %}
+                    {%- for result in filter_affiliation %}
+                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url}}" class="d-inline h-30px"></button>
+                    {%- endfor %}
+                    {%- endif %}
+                    {%- endfor %}
+                </div>
+                {%- endif %}
+                {%- if current_page.audience %}
+                <div>
+                    <span class="me-2"><small>Audience:</small></span>
+                    {%- for audience in current_page.audience %}
+                    {%- assign filter_audience = alllogos | where: "name", audience %}
+                    {%- if audience.size == 2 %}
+                    <button class="btn btn-sm text-dark bg-white pe-none" title="{{audience | downcase}} country"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
+                    {%- elsif audience == "ALL" %}
+                    <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
+                    {%- elsif filter_audience %}
+                    {%- for result in filter_audience %}
+                    <button href="{{result.url}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url}}" class="d-inline h-30px"></button>
+                    {%- endfor %}
+                    {%- endif %}
+                    {%- endfor %}
+                </div>
+                {%- endif %}
+            </div>
+            {%- endif %}
         </div>
     </div>
     {%- endif %}
