@@ -89,7 +89,7 @@ subitems:
         url: /ifb_assembly.html
       - title: XNAT-PIC
         url: /xnat_pic_assembly.html
-      - title: Plant Genomics Assembly
+      - title: Plant Genomics
         url: /plant_genomics_assembly.html
       - title: OMERO
         url: /omero_assembly.html
