@@ -35,7 +35,7 @@ subitems:
         url: /proteomics.html
       - title: Toxicology data
         url: /toxicology_data.html
-  - title: Your tasks
+  - title: Your task
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
       - title: Compliance monitoring
@@ -70,29 +70,7 @@ subitems:
         url: /sensitive_data.html
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
-    subitems:
-      - title: Overview
-        url: /tool_assembly.html
-      - title: NeLS
-        url: /nels_assembly.html
-      - title: TSD
-        url: /tsd_assembly.html
-      - title: Covid-19 Data Portal
-        url: /covid19_data_portal.html
-      - title: CSC
-        url: /csc_assembly.html
-      - title: TransMed
-        url: /transmed_assembly.html
-      - title: Marine Metagenomics
-        url: /marine_metagenomics_assembly.html
-      - title: IFB
-        url: /ifb_assembly.html
-      - title: XNAT-PIC
-        url: /xnat_pic_assembly.html
-      - title: Plant Genomics
-        url: /plant_genomics_assembly.html
-      - title: OMERO
-        url: /omero_assembly.html
+    url: /tool_assembly.html
 
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
