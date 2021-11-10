@@ -55,7 +55,7 @@
                     {%- for audience in current_page.audience %}
                     {%- assign filter_audience = alllogos | where: "name", audience %}
                     {%- if audience.size == 2 %}
-                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{affiliation | downcase}}">
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{audience | downcase}}">
                         <button class="btn btn-sm text-dark bg-white pe-none" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
                     </span>
                     {%- elsif audience == "ALL" %}
