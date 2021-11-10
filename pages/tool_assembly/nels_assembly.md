@@ -1,7 +1,7 @@
 ---
 title: NeLS
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
-description: Data Management tool assembly by NeLS aimed for researchers in Norway and their collaborators.
+description: NeLS provides the necessary tools for data management aimed for researchers in Norway and their collaborators.
 page_id: NeLS
 affiliations: ["NO"]
 audience: ["NO"]
