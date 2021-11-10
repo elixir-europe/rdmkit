@@ -36,7 +36,9 @@
                     {%- for affiliation in current_page.affiliations %}
                     {%- assign filter_affiliation = alllogos | where: "name", affiliation %}
                     {%- if affiliation.size == 2 %}
-                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" title="{{affiliation | downcase}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{affiliation | downcase}}">
+                        <button class="btn btn-sm text-dark bg-white pe-none" title="{{affiliation | downcase}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
+                    </span>
                     {%- elsif affiliation == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_affiliation %}
@@ -53,7 +55,9 @@
                     {%- for audience in current_page.audience %}
                     {%- assign filter_audience = alllogos | where: "name", audience %}
                     {%- if audience.size == 2 %}
-                    <button class="btn btn-sm text-dark bg-white" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{affiliation | downcase}}">
+                        <button class="btn btn-sm text-dark bg-white pe-none" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
+                    </span>
                     {%- elsif audience == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_audience %}
