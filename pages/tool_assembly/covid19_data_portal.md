@@ -5,7 +5,7 @@ page_id: Covid-19
 affiliations: [ELIXIR CONVERGE]
 audience: [ALL]
 related_pages:
-  your_tasks: [sensitive]
+  your_tasks: [sensitive, existing data, data publication]
   your_domain: [human data]
 description: The COVID-19 Data Portal brings together relevant datasets for sharing and analysis to accelerate coronavirus research.
 

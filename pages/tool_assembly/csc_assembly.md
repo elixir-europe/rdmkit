@@ -6,6 +6,8 @@ page_id: CSC
 affiliations: [FI, CSC, ELIXIR Europe]
 audience: [FI]
 related_pages: 
+  your_tasks: [sensitive, DMP, data protection, storage, data publication, data transfer]
+  your_domain: [human data]
 training:
   - name: Training in TeSS
     registry: TeSS
