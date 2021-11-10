@@ -10,6 +10,22 @@
                 {%- if current_page.description %}
                 <p class="card-text">{{ current_page.description}}</p>
                 {%- endif %}
+                {%- if current_page.related_pages %}
+                {%- for section in current_page.related_pages %}
+                {%- unless section[1] == blank  %}
+                <div>
+                    <span><small>{{ section[0] | replace: "_", " " | capitalize }}: </small></span>
+                    {%- for page_id in section[1] %}
+                    {%- assign section_pages = site.pages | where:"type", section[0] %}
+                    {%- assign metadata = section_pages | where:"page_id", page_id %}
+                    {%- for page_hit in metadata %}
+                    <a href="{{ page_hit.url | relative_url }}"><span class="badge text-dark bg-white hover-primary">{{page_hit.title}}</span></a>
+                    {%- endfor %}
+                    {%- endfor %}
+                </div>
+                {%- endunless %}
+                {%- endfor %}
+                {%- endif %}
             </div>
             {%- if current_page.audience or current_page.affiliations %}
             {%- assign alllogos = site.data.affiliations %}
