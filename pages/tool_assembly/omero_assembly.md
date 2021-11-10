@@ -7,7 +7,7 @@ audience: [ALL]
 related_pages: 
   your_tasks: [data organisation, storage, data analysi]
   your_domain: []
-description: Tool assembly for managing imaging data
+description: OMERO is a software platform for managing, sharing and analysing images data.
 training:
   - name: General information about the OME ecosystem 
     url: https://www.openmicroscopy.org
