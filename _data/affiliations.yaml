@@ -1,4 +1,4 @@
-- name: VIB-PSB
+- name: VIB
   image_url: /images/institutions/VIB-PSB.svg
   pid: https://ror.org/03xrhmk39
   rdmkit_about: true
