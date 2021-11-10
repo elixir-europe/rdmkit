@@ -35,7 +35,7 @@ subitems:
         url: /proteomics.html
       - title: Toxicology data
         url: /toxicology_data.html
-  - title: Your task
+  - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
       - title: Compliance monitoring
