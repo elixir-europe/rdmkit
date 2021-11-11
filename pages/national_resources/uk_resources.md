@@ -25,6 +25,6 @@ resources:
    * Medical Research Council (MRC) [DM guidelines](https://www.open.ac.uk/library-research-support/research-data-management/mrc-data-management-plans)
   
 
-## Regulations in <!---Country Name--->
+## Regulations  <!---Country Name--->
 
-## Domain-specific infrastructures/resources (e.g. human data, covid-19) in <!---Country Name--->
+<!---## Domain-specific infrastructures/resources (e.g. human data, covid-19) in <!---Country Name--->--->
