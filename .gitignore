@@ -5,3 +5,4 @@ _pdf
 .idea
 .bundle/
 _site
+/vendor
