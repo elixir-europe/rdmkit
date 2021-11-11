@@ -34,7 +34,7 @@ resources:
     how_to_access:
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+      your_domain: [human data]
     url: https://galaxy.sciensano.be/
 
 ---
