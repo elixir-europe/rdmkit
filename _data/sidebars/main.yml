@@ -76,6 +76,9 @@ subitems:
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
     hr: True
+  - title: National resources
+    description: Browse trough the national resource pages
+    url: /national_resources.html
   - title: All training resources
     description: Browse the RDMkit's catalogue of training resources for research data management.
     url: /all_training_resources.html
