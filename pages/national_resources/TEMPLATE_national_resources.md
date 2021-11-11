@@ -1,6 +1,7 @@
 ---
 
 title: <!---REPLACE THIS with full country name in English--->
+search_exclude: true
 country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinadors of your ELIXIR node--->]
