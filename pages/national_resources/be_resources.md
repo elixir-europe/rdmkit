@@ -22,7 +22,7 @@ resources:
     url: https://rdm.elixir-belgium.org
     
   - name: Galaxy Belgium
-    description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the [Flemish Supercomputer Center (VSC)](https://www.vscentrum.be).
+    description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the Flemish Supercomputer Center (VSC).
     how_to_access:
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
