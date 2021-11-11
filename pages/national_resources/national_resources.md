@@ -1,6 +1,7 @@
 ---
 title: National resources
 toc: false
+search_exclude: true
 summary: A blurb comes here
 
 ---
