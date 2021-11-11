@@ -27,4 +27,4 @@ resources:
 
 ## Regulations  <!---Country Name--->
 
-<!---## Domain-specific infrastructures/resources (e.g. human data, covid-19) in <!---Country Name--->--->
+<!---## Domain-specific infrastructures/resources (e.g. human data, covid-19) in <!---Country Name--->
