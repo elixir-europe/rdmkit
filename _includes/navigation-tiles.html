@@ -34,7 +34,7 @@
                 <div class="me-3">
                     <span class="me-2"><b><small>Affiliations:</small></b></span>
                     {%- for affiliation in current_page.affiliations %}
-                    {%- assign filter_affiliation = alllogos | where: "name", affiliation %}
+                    {%- assign filter_affiliation = alllogos | where: "name", affiliation | first %}
                     {%- if affiliation.size == 2 %}
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{affiliation | downcase}}">
                         <button class="btn btn-sm text-dark bg-white pe-none" title="{{affiliation | downcase}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
@@ -42,9 +42,7 @@
                     {%- elsif affiliation == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_affiliation %}
-                    {%- for result in filter_affiliation %}
-                    <a role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
-                    {%- endfor %}
+                    <a role="button" href="{{filter_affiliation.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{filter_affiliation.name}}" src="{{filter_affiliation.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endif %}
                     {%- endfor %}
                 </div>
@@ -53,7 +51,7 @@
                 <div>
                     <span class="me-2"><b><small>Audience:</small></b></span>
                     {%- for audience in current_page.audience %}
-                    {%- assign filter_audience = alllogos | where: "name", audience %}
+                    {%- assign filter_audience = alllogos | where: "name", audience | first %}
                     {%- if audience.size == 2 %}
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{audience | downcase}}">
                         <button class="btn btn-sm text-dark bg-white pe-none" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
@@ -61,9 +59,7 @@
                     {%- elsif audience == "ALL" %}
                     <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
                     {%- elsif filter_audience %}
-                    {%- for result in filter_audience %}
-                    <a  role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
-                    {%- endfor %}
+                    <a  role="button" href="{{filter_audience.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{filter_audience.name}}" src="{{filter_audience.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endif %}
                     {%- endfor %}
                 </div>
