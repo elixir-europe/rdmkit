@@ -1,46 +1,30 @@
 ---
-title: Global problem title (e.g. metadata management)
-search_exclude: true
+
+title: <!---REPLACE THIS with full country name in English--->
+country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
-related_pages: 
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-training:
-  - name:
-    registry:
-    registry_url:
+coordinators: [<!---REPLACE THIS with the name of data management coordinadors of your ELIXIR node--->]
+resources:
+  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
+    description:
+    how_to_access:
+    related_pages:
+      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+      domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
     url:
+
 ---
 
-## Concrete problem 1, formulated as a question <!-- example: what is the best way to name a file?-->
- 
-### Description <!-- do not delete this heading and write your text below it -->
+<!---Following information for the page text. All fields are optional--->
+<!---If the information is already in another resource, please include the link instead of duplicating information--->
+<!---Please focus on resources that are relevant for the whole country for life sciences--->
 
-Short explanation of what this problem is about.
+## Introduction 
 
-### Considerations <!-- do not delete this heading and write your text below it -->
+<!---General RDM considerations for your country, how to deal with RDM on a national level--->
 
-* Structured in bullet points as much as possible, detailing things to consider about this problem in order to be able to find the right solution.
+## Funders in <!---Type Country Name--->
 
-### Solutions <!-- do not delete this heading and write your text below it -->
+## Regulations in <!---Country Name--->
 
-By using bullet point style as much as possible, try to describe when, why and for what is best to use a specific tool or resource. 
-Avoid making long list of links to tools and resources.
-Make sure to add the tools and resources mentioned in the text in the main "tools and resources" table.
-
-* Bullet point solution 1
-  * Sub-point
-* Bullet point solution 2
-
-
-## Concrete problem 2, formulated as a question <!-- example: where to find ontologies?-->
- 
-### Description <!-- do not delete this heading and write your text below it -->
-Same as above
-
-### Considerations <!-- do not delete this heading and write your text below it -->
-Same as above
-
-### Solutions <!-- do not delete this heading and write your text below it -->
-Same as above
-
+## Domain-specific infrastructures/resources (e.g. human data, covid-19) in <!---Country Name--->
