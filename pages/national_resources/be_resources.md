@@ -1,7 +1,6 @@
 ---
 
 title: Belgium
-search_exclude: true
 country_code: BE
 contributors: [Flora D'Anna]
 coordinators: [Flora D'Anna]
