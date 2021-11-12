@@ -8,7 +8,7 @@
         {%- if page.contributors %}
         {%- assign contributors = site.data.CONTRIBUTORS %}
         {%- assign contributor_count = page.contributors.size %}
-        {%- assign count == 1 %}
+        {%- assign count = 1 %}
         "author": [
             {%- for people in page.contributors %}
             {
