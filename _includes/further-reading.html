@@ -1,10 +1,10 @@
-<!-- More information -->
 {%- if page.related_pages or page.training or page.faircookbook or page.fairsharing %}
+<!-- More information -->
 <h2>More information</h2>
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
-    <!-- Related pages -->
     {%- if page.related_pages %}
+    <!-- Related pages -->
     {%- for section in page.related_pages %}
     {%- unless section[1] == blank  %}
     <div class="col">
@@ -28,8 +28,8 @@
     {%- endunless %}
     {%- endfor %}
     {%- endif %}
-    <!-- Training -->
     {%- if page.training %}
+    <!-- Training -->
     <div class="col">
         <div class="card h-100 info-card bg-light">
             <div class="card-header bg-dark fw-bold text-white">Training</div>
@@ -58,8 +58,8 @@
         </div>
     </div>
     {%- endif %}
-    <!-- FAIR Cookbook and FAIRsharing -->
     {%- if page.faircookbook or page.fairsharing %}
+    <!-- FAIR Cookbook and FAIRsharing -->
     <div class="col">
         <div class="card h-100 info-card bg-light">
             <div class="card-header bg-dark fw-bold text-white">Links to other ELIXIR resources</div>
@@ -101,15 +101,12 @@
     </div>
     {%- endif %}
 </div>
-
 {%- endif %}
-<!-- Tool table -->
 {%- if page.page_id %}
+<!-- Tool table -->
 {%- assign main_related_pages = site.data.tool_and_resource_list.Tools | where:"related_pages", page.page_id -%}
 {%- unless main_related_pages == blank %}
-
 <h2>Relevant tools and resources</h2>
 {% include toollist.html tag=page.page_id %}
-
 {%- endunless %}
 {%- endif %}

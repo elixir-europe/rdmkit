@@ -1,3 +1,4 @@
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,6 +43,24 @@
     <script src="{{ 'assets/js/jquery.cookie.min.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/search.js' | relative_url }}"></script>
+    {%- if page.datatable == true %}
+    <!-- Include the standard DataTables bits -->
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/dataTables.bootstrap5.min.css' | relative_url }}">
+    <script type="text/javascript" charset="utf8" src="{{ 'assets/js/jquery.dataTables.min.js' | relative_url }}"></script>
+    <script type="text/javascript" charset="utf8" src="{{ 'assets/js/dataTables.bootstrap5.min.js' | relative_url }}"></script>
+    <script>
+        $.fn.DataTable.ext.pager.numbers_length = 5;
+        $(document).ready(function () {
+            $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
+            $('table.display').DataTable({
+                lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+                ordering:false,
+                stateSave: true,
+                searching: true
+            });
+        });
+    </script>
+    {%- endif %}
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/img/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/img/favicon-32x32.png' | relative_url }}">
@@ -50,14 +69,7 @@
     <link rel="mask-icon" href="{{ 'assets/img/safari-pinned-tab.svg' | relative_url }}" color="#c23669">
     <link rel="shortcut icon" href="{{ 'assets/img/favicon.ico' | relative_url }}">
     <!-- Schema.org metadata -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "{{ site.title }}",
-            "url": "{{ site.url }}",
-            "about": "{{ site.description }}",
-        }
-    </script>
+    {% include schemasorg.html %}
     <!-- Google analytics -->
     {% include gtag.html %}
+</head>
