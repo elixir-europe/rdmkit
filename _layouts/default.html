@@ -1,27 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
 {% include head.html %}
-{%- if page.datatable == true %}
-    <!-- Include the standard DataTables bits -->
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/dataTables.bootstrap5.min.css' | relative_url }}">
-    <script type="text/javascript" charset="utf8" src="{{ 'assets/js/jquery.dataTables.min.js' | relative_url }}"></script>
-    <script type="text/javascript" charset="utf8" src="{{ 'assets/js/dataTables.bootstrap5.min.js' | relative_url }}"></script>
-    <script>
-        $.fn.DataTable.ext.pager.numbers_length = 5;
-        $(document).ready(function () {
-            $('div.datatable-begin').nextUntil('div.datatable-end', 'table').addClass('display');
-            $('table.display').DataTable({
-                lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
-                ordering:false,
-                stateSave: true,
-                searching: true
-            });
-        });
-    </script>
-{%- endif %}
-</head>
-
 <body>
     {% include topnav.html %}
     <!-- Page Content -->

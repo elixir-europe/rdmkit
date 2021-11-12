@@ -4,7 +4,6 @@
     {%- assign contributors = site.data.CONTRIBUTORS -%}
     {%- assign page_contributors = page.contributors |sort -%}
     {%- for contributor in page_contributors | sort %}
-    {%- assign count = 0 %}
     {%- assign id = contributors[contributor].git | default: 'no_github' %}
     {%- capture html_code %}
     {%- assign stripped_name = contributor | replace: "'", " " %}
@@ -44,7 +43,6 @@
             {% if page.coordinators %}{% for coordinator in page.coordinators %}{% if coordinator == contributor %}<i class="fa fa-crown"></i>{% endif %}{% endfor %}{% endif %}
         </div>
     </a>
-    {%- assign count = count | plus: 1 %}
     {%- endfor %}
 </div>
 {%- endif %}
