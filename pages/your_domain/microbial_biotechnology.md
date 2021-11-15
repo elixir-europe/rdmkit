@@ -160,7 +160,7 @@ How can the models be shared via repositories and made  available in a way that 
 * Models can be shared in model repositories such as [biomodels](https://www.ebi.ac.uk/biomodels/).
 
 
-## Methods used to build the modified organism - Documentation and (meta)data publication
+## Methods - Documentation and (meta)data publication
 
 ### Description
 The build stage in the microbial biotechnology and/or synthetic biology life cycle involves the application of any number of a range of experimental techniques and, since these techniques are so varied, the domain is therefore very difficult to standardise in terms of the data and metadata to be shared. 
@@ -185,10 +185,12 @@ The current method of sharing information about the building of microbial system
 * Once grouped together in a free form the data can be archived along with the metadata, collecting the data together in an archived form using a file compression format. The [combine archive format](http://co.mbine.org/specifications/omex.version-1) may also be useful.
  
 
-## Test and analysis of the modified organism - Metadata collection
+## Test - Metadata standards and (meta)data publication
 
 ### Description
-The test phase of a biotechnological study is the most variable in terms of the types of data produced. The types of experiments carried out to test a microbial system are highly dependent on the intended function of the system under construction. Some common approaches include at the simplest level, characterising the growth of an organism at various scales in different growth regimes and assaying the production of desired product. 
+The test stage of a biotechnological study is the most variable in terms of the types of data produced. The types of experiments carried out to test a microbial system are highly dependent on the intended function of the system under construction. Some common approaches include at the simplest level, characterising the growth of an organism at various scales in different growth regimes and assaying the production of desired product.
+
+The data arising from assays for product development is highly variable and beyond the scope of this short guide, however we propose some recommended resources.
 
 ### Considerations
 
@@ -196,17 +198,22 @@ The test phase of a biotechnological study is the most variable in terms of the 
     * Is there a reporting guideline for the type of you are generating?
     * Will you reuse existing testing protocols or generate and share your own protocols?
 
+* Since (meta)data repositories often require compliance to their metadata standards, ontologies and file formats, it is recommended to be aware of those requirements when describing the test stage.
+
 ### Solutions
 
-* MIEO: Minimal information necessary to record the growth of an organism in culture, has been described by Hect and colleagues ([Hecht et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283831/)). 
+#### Metadata standards
+* **Minimum Information Standard for Engineered Organism Experiments (MIEO)**. Minimal information necessary to record the growth of an organism in culture, has been described by Hect and colleagues ([Hecht et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283831/)). 
 
-* The data arising from assays for product development is highly variable and beyond the scope of this short guide. However, if your product is a protein such as an enzyme then some standards developed by the [Standards for Reporting Enzyme Data (STRENDA) Consortium](https://www.beilstein-institut.de/en/projects/strenda/) may be helpful ([‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’, 2014](https://www.sciencedirect.com/science/article/pii/S2213020914000135)).
+* If your product is a protein such as an **enzyme** then some standards developed by the [Standards for Reporting Enzyme Data (STRENDA) Consortium](https://www.beilstein-institut.de/en/projects/strenda/) may be helpful ([‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’, 2014](https://www.sciencedirect.com/science/article/pii/S2213020914000135)).
 
-* Microscopy is often also used to characterise the behaviour of engineered microorganisms. Standards such as the [Open Microscopy Environment Ontology](https://fairsharing.org/bsg-s001430/) and the [Cellular Microscopy Phenotype Ontology (CMPO)](https://www.ebi.ac.uk/cmpo/) can help provide standardised metadata terms.
+* **Microscopy** is often also used to characterise the behaviour of engineered microorganisms. Standards such as the [Open Microscopy Environment Ontology](https://fairsharing.org/bsg-s001430/) and the [Cellular Microscopy Phenotype Ontology (CMPO)](https://www.ebi.ac.uk/cmpo/) can help provide standardised metadata terms.
 
-* The [International Society for the Advancement of Cytometry (ISAC)](https://isac-net.org/page/Data-Standards) provides information on a variety of appropriate data standards for capturing Flow Cytometry data (used to characterise microbial populations at a single cell level) ([Spidlen et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32881398/)).
+* **Flow Cytometry data.** The [International Society for the Advancement of Cytometry (ISAC)](https://isac-net.org/page/Data-Standards) provides information on a variety of appropriate data standards for capturing Flow Cytometry data (used to characterise microbial populations at a single cell level) ([Spidlen et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32881398/)).
 
-* The [ENA](https://www.ebi.ac.uk/ena/browser/home), amongst others, provides guidance on the metadata for RNAseq datasets that can be shared by submission to the [ENA](https://www.ebi.ac.uk/ena/browser/home) or to repositories such as [GEO](https://www.ncbi.nlm.nih.gov/geo/) and [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/). [HUPO proteomics standards initiative](https://www.hupo.org/Proteomics-Standards-Initiative) provides a range of guidance for capturing and sharing proteomics data.
+* **Nucleic acids information.** The [ENA](https://www.ebi.ac.uk/ena/browser/home), amongst others, provides guidance on the metadata for RNAseq datasets.
+
+* **Proteomics.** [HUPO proteomics standards initiative](https://www.hupo.org/Proteomics-Standards-Initiative) provides a range of guidance for capturing and sharing proteomics data.
 
 
 #### (Meta)Data publication and sharing
