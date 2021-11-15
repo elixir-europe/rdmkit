@@ -31,7 +31,11 @@ subitems:
         url: /microbial_biotechnology.html
       - title: Epitranscriptome data
         url: /epitranscriptome_data.html
-  - title: Your problem
+      - title: Proteomics
+        url: /proteomics.html
+      - title: Toxicology data
+        url: /toxicology_data.html
+  - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
       - title: Compliance monitoring
@@ -52,40 +56,27 @@ subitems:
         url: /storage.html
       - title: Data transfer
         url: /data_transfer.html
+      - title: Documentation and metadata
+        url: /metadata_management.html
       - title: Existing data
         url: /existing_data.html
       - title: Identifiers
         url: /identifiers.html
       - title: Licensing
         url: /licensing.html
-      - title: Documentation and metadata
-        url: /metadata_management.html
+      - title: Machine actionability
+        url: /machine_actionability.html
       - title: Sensitive data
         url: /sensitive_data.html
+  - title: Tool assembly
+    description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
+    url: /tool_assembly.html
 
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources.html
     hr: True
-  - title: Tool assembly
-    description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
-    hr: True
-    subitems:
-      - title: NeLS - Norway
-        url: /nels_assembly.html
-      - title: TSD - Norway
-        url: /no_tsd_assembly.html
-      - title: Covid-19 Data Portal
-        url: /covid19_data_portal.html
-      - title: CSC - Finland
-        url: /fi_csc_assembly.html
-      - title: TransMed - Luxembourg
-        url: /transmed_assembly.html
-      - title: Marine Metagenomics - Norway
-        url: /marine_metagenomics_assembly.html      
-      - title: IFB - France
-        url: /fr_ifb_assembly.html
-      - title: XNAT-PIC
-        url: /xnat_pic_tool_assembly.html
-      - title: Plant Genomics Assembly
-        url: /plant_genomics_assembly.html    
+  - title: All training resources
+    description: Browse the RDMkit's catalogue of training resources for research data management.
+    url: /all_training_resources.html
+

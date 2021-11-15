@@ -238,5 +238,49 @@ Sara Zullino:
     email: sara.zullino@unito.it
     git: szullino
     affiliation: Euro-BioImaging | University of Torino
-
-
+Jean-Marie Burel:
+    orcid: 0000-0002-1789-1861
+    email: j.burel@dundee.ac.uk
+    git: jburel
+    affiliation: Euro-BioImaging | University of Dundee
+Manuel Pastor:
+    orcid: 0000-0001-8850-1341
+    email: manuel.pastor@upf.edu
+    git: manuelpastor
+    affiliation: Universitat Pompeu Fabra
+Janet Piñero Gonzalez:
+    orcid: 0000-0003-1244-7654
+    email: janet.pinero@upf.edu
+    git: jpinero
+    affiliation: Universitat Pompeu Fabra
+Juan Manuel Ramírez-Anguita:
+    orcid: 0000-0002-8509-0927
+    email: juanmanuel.ramirez@upf.edu
+    git: palilsonjmr
+    affiliation: Universitat Pompeu Fabra
+Ferran Sanz:
+    orcid: 0000-0002-7534-7661
+    email: ferran.sanz@upf.edu
+    affiliation: Universitat Pompeu Fabra
+Miguel Angel Mayer:
+    orcid: 0000-0003-0362-6298
+    email: miguelangel.mayer@upf.edu
+    git: mmayerp
+    affiliation: Universitat Pompeu Fabra
+Kees van Bochove:
+    orcid: 0000-0002-8589-0609
+    email: kees@thehyve.nl
+    git: keesvanbochove
+    affiliation: The Hyve
+Cyril Pommier:
+    git: cpommier
+Frederik Delaere:
+    git: fretn
+Nadim Rahman:
+    git: nadimm-rahman
+Rafael Andrade Buono:
+    git: rabuono
+Sebastian Beier:
+    git: sebeier
+Sirarat Sarntivijai:
+    git: siiraa

@@ -3,6 +3,6 @@
 _pdf
 .DS_Store
 .idea
-vendor/
 .bundle/
 _site
+/vendor

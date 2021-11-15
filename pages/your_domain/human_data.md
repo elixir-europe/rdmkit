@@ -1,7 +1,21 @@
 ---
 title: Human data
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
-page_tag: human data
+page_id: human data
+related_pages: 
+  your_tasks: [sensitive]
+  tool_assembly: [TSD, Covid-19, transmed]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
+  - name: A FAIR guide for data providers to maximise sharing of human genomic data
+    url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873
+  - name: Toward better governance of human genomic data
+    url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
+  - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
+    url: https://academy.ehden.eu/
 ---
 
 ## Introduction
@@ -49,7 +63,7 @@ For research on human data, you must follow established research ethical guideli
   * [Informed Consent Ontology](https://github.com/ICO-ontology/ICO)
   * [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
   * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
-  * [BBMRI-ERIC's ELSI Knowledge Base](ttps://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance. 
+  * [BBMRI-ERIC's ELSI Knowledge Base](https://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance. 
 
 
 
@@ -142,20 +156,4 @@ To make human research data reusable for others, it must be discoverable, stored
 * [dbGAP](https://www.ncbi.nlm.nih.gov/gap/) and [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html) are other international data repositories, based in the USA and Japan respectively, that adopt a controlled-access model based on their national regulations. Due to European GDPR specific requirements, it may not be possible to deposit EU subjects’ data to these repositories.  
 * The [GA4GH Beacon](https://beacon-project.io) project is a Global Alliance for Genomics & Health (GA4GH) initiative that enables genomic and clinical data sharing across federated networks. A Beacon is defined as a web-accessible service that can be queried for information about a specific allele with no reference to a specific sample or patient, thereby reducing privacy risks.
 * GA4GH  Data Use Ontology [DUO](https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
-
-
-## Relevant tools and resources
-
-{% include toollist.html tag="human data" %}
-
-## Training materials on the management of human-subject data
-<!-- Link to Tess query -->
-{% include tess.html search="sensitive human data" %}
-
-[A FAIR guide for data providers to maximise sharing of human genomic data](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873)
-
-[Toward better governance of human genomic data](https://www.nature.com/articles/s41588-020-00742-6)
-
-
-
 

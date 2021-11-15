@@ -4,11 +4,8 @@ repository: elixir-europe/rdmkit
 # topnav_title:
 # this appears on the top navigation bar next to the home button
 
-site_title: RDMkit
+title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-
-company_name: ELIXIR Converge
-# this appears in the page_ending
 
 git_editme_path: https://github.com/elixir-europe/rdmkit/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
@@ -16,14 +13,11 @@ git_editme_path: https://github.com/elixir-europe/rdmkit/blob/master/
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
-host: 127.0.0.1
-# the preview server used. Leave as is.
-
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-
 gtag: G-RXQ55EFTTH
 # Google analytics tag
+
+dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
+# prefix for DSW deep links to a certain question
 
 exclude:
   - .gitignore
@@ -41,6 +35,10 @@ kramdown:
  auto_ids: true
  hard_wrap: false
 
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 defaults:
   -
     scope:
@@ -49,11 +47,33 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      search: true
       sidebar: main
       topnav: topnav
-
-RDM_pages: ["/reusing.html", "/preserving.html", "/analysing.html", "/processing.html", "/planning.html", "/collecting.html", "/sharing.html"]
+  -
+    scope:
+      path: "pages/data_life_cycle"
+    values:
+      type: data_life_cycle
+  -
+    scope:
+      path: "pages/your_domain"
+    values:
+      type: your_domain
+  -
+    scope:
+      path: "pages/your_tasks"
+    values:
+      type: your_tasks
+  -
+    scope:
+      path: "pages/your_role"
+    values:
+      type: your_role
+  -
+    scope:
+      path: "pages/tool_assembly"
+    values:
+      type: tool_assembly
 
 plugins:
   - jemoji

@@ -21,6 +21,6 @@ jobs:
           pip install pyyaml requests python-frontmatter
       - name: Run tool table 2 yaml
         run: |
-          python var/tool_table2yaml.py
+          python var/conversions.py
       - name: Show differences
         run: 'git diff --stat'

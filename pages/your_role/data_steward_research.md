@@ -1,8 +1,51 @@
 ---
 title: Data steward research
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
-page_tag: data manager
+page_id: data manager
+related_pages: 
+  your_tasks: [compliance, DMP, data organisation, licensing, metadata, data protection, data publication, data quality, transfer, identifiers]
+training:
+  - name: TeSS - ELIXIR’s training portal
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org/
+    url: https://tess.elixir-europe.org/
+
+  - name: RDNL - Essentials for Data Support
+    registry:
+    registry_url:
+    url: https://datasupport.researchdata.nl/en/
+
+  - name: Mantra - RDM training
+    registry:
+    registry_url:
+    url: https://mantra.edina.ac.uk/
+
+  - name: GO FAIR starter kit
+    registry:
+    registry_url:
+    url: https://www.go-fair.org/resources/rdm-starter-kit/
+
+  - name: Data Carpentry lessons
+    registry:
+    registry_url:
+    url: https://datacarpentry.org/lessons/
+
+  - name: RDNL & DCC - Delivering RDM Services
+    registry:
+    registry_url:
+    url: https://www.futurelearn.com/courses/delivering-research-data-management-services
+
+  - name: NPOS/ELIXIR data steward competency framework
+    registry: Zenodo
+    registry_url: https://zenodo.org
+    url: https://zenodo.org/record/3490855#.YArTH-lKi7o
+
+  - name: ELIXIR Data Management Network
+    registry:
+    registry_url:
+    url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators
 ---
+
 
 ## Description
 As a research data steward, I support and work in close collaboration with the main data producers and users in academia: the researchers, ranging from undergraduate students to full professors. I advise researchers, make sure data is handled in a manner compliant with the institute’s policy and may also perform hands-on work in a project.
@@ -27,23 +70,3 @@ Institutes across Europe have started hiring professional data stewards. A resea
 * Assist researchers in developing a DMP, review DMPs, and support researchers in putting DMPs into action
 * Liaise with the surrounding environment (department, project, national stakeholders and international network) and continuously follow the field to gain knowledge of relevant facilities, tools and emerging standards available for RDM
 
-If you want to become competent in these areas or build capacity in your institution then the following training resources might be useful:
-* [TeSS](https://tess.elixir-europe.org/): ELIXIR’s training portal
-* RDNL [Essentials for Data Support](https://datasupport.researchdata.nl/en/)
-* [Mantra](https://mantra.edina.ac.uk/) RDM training
-* GO FAIR [resources](https://www.go-fair.org/resources/)
-* Data Carpentry [lessons](https://datacarpentry.org/lessons/)
-* RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
-
-## Common problems
-
-{% include pagelist.html tag="data manager" %}
-
-## Resources
-* NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
-* GO FAIR [starter kit](https://www.go-fair.org/resources/rdm-starter-kit/)
-* ELIXIR [Data Managers Network](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)
-
-## Relevant tools and resources
-
-{% include toollist.html tag="data manager" %}

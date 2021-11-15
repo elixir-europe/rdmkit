@@ -1,8 +1,16 @@
 ---
 title: Plant sciences
-contributors: [Anne-Françoise Adam-Blondon,Daniel Faria]
-tags: [metadata]
-page_tag: plants
+contributors: [Anne-Françoise Adam-Blondon,Daniel Faria, Sebastian Beier, Erwan Le Floch]
+related_pages: 
+page_id: plants
+related_pages: 
+  your_tasks: [metadata]
+  tool_assembly: [plant geno assembly]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=plant%20data%20management
 ---
 
 ## Introduction
@@ -69,6 +77,44 @@ For managers of plant phenotyping data repositories that support a project or in
   * If it implements BrAPI, you can exchange data using BrAPI calls.
   * If it doesn’t implement BrAPI, the simplest solution would be to export data into the MIAPPE spreadsheet template, or another formally defined data template.
 * For data deposition, it is highly recommended that you opt for one of the many [repositories that implement BrAPI](https://www.brapi.org/servers), as they enhance findability through the ELIXIR plant data discovery service, [FAIDARE](https://urgi.versailles.inrae.fr/faidare/), enable machine actionable access to MIAPPE compliant data and validation of that compliance.
+
+## Plant genotyping data sharing and deposition
+
+### Solutions
+In order to ensure interoperability of VCF files, the following VCF meta-information lines should be used:
+* Obligatory meta-information line :  
+  * ##fileformat : file format.  
+    Examples:  
+    ##fileformat=VCFv4.3  
+    ##fileformat=VCFv4.1  
+* Recommended meta-information lines :  
+  * ##bioinformatics_source (URL or URI): Analytic approach usually consisting of chains of bioinformatics tools for creating the VCF file specified as the DOI of a publication, or more generally as URL/URI, like a public repository for the scripts used.  
+    Examples:  
+    ##bioinformatics_source=”doi.org/10.1038/s41588-018-0266-x”  
+    ##bioinformatics_source=”doi.org/10.3389/fpls.2021.628439”  
+  * ##reference_ac (assembly_accession): accession number, including the version, of the reference sequence on which the variation data of the present VCF is based.  
+    Examples:  
+    ##reference_ac=GCA_902498975.1  
+    ##reference_ac=GCA_000005005.5  
+  * ##reference_url (DOI): a DOI (or URL/URI) for downloading of this reference genome, preferably from one INSDC archive.  
+    Examples:  
+    ##reference_url=”ftp.ncbi.nlm.nih.gov/genomes/all/GCA/902/498/975/GCA_902498975.1_Morex_v2.0/GCA_902498975.1_Morex_v2.0_genomic.fna.gz”  
+    ##reference_url=”ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/005/GCA_000005005.5_B73_RefGen_v3/GCA_000005005.5_B73_RefGen_v3_genomic.fna.gz”  
+  * ##contig (<ID=ctg1, length=sequence_length, assembly=gca_accession, md5=md5_hash, species=species_of_interest>) : The individual sequence(s) of the reference genome  
+    Examples:  
+    ##contig=<ID=chr1H,length=522466905,assembly=GCA_902498975.1,md5=8d21a35cc68340ecf40e2a8dec9428fa,species="Hordeum vulgare">  
+    ##contig=<ID=GK000031.3,length=301433382,assembly=GCA_000005005.5,md5=74dfe85ad898416814fa98e8d7048f76,species=”Zea mays”>  
+  * ##SAMPLE(<ID=BioSample_accession, DOI=url, Original=Accession_number, Name=Genotype_name>) : Describe the material whose variants are given in the genotype call columns in greater detail and can be extended using the specifications of the VCF format.  
+    Examples:  
+    ##SAMPLE=<ID=SAMEA7836897,DOI="doi.org/10.25642/IPK/GBIS/17527",Original="HOR 1361 BRG",Name="Hordeum vulgare L. convar. vulgare var. densum Sér.">  
+    ##SAMPLE=<ID=SAMEA9111398,DOI=”www.ipk-gatersleben.de”,Original=”CAPFRU07”,Name=”RCAT077650”>  
+* Optional meta-information lines :  
+  * ##fileDate: creation date of the VCF in the basic form without separator: YYYYMMDD  
+    Examples:  
+    ##fileDate=20211028  
+    ##fileDate=20120316  
+  * In case of adding new fields : Please check the official format specifications to avoid redundancy and possible incompatibilities.  
+
  
 ## Integrating plant phenotypic and molecular data
  
@@ -94,12 +140,3 @@ Integrating phenotyping and molecular data, both within and between studies, hin
   * When detailing your sample in Biosamples, it is critical that you provide either a global identifier to your plant materials in a genebank or germplasm database, or a precise description of the plant materials in accordance with the MCPD. 
 * It is also recommended that you provide permanent access to a description of the project or study, that contains links to all the data, molecular or phenotypic. The [Biostudies](https://www.ebi.ac.uk/biostudies/) database is recommended for this purpose.
 
-## Relevant tools and resources
-
-{% include toollist.html tag="plants" %}
-
-
-## Training materials on plant data management
-<!-- Link to Tess query -->
-
-{% include tess.html search="plant data management" %}

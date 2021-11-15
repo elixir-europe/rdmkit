@@ -1,0 +1,33 @@
+
+{%- assign sidebar = site.data.sidebars.main.subitems -%}
+{%- for sections in sidebar %}
+{%- assign section = sections.title | downcase | replace: " ", "_" %}
+{%- assign section_pages = site.pages | where:"type", section %}
+{%- unless section_pages == blank %}
+<h2>{{sections.title}}</h2>
+<div class="table-responsive">
+    <table class="table ">
+        <thead>
+            <tr>
+                <th>title</th>
+                <th>page_id</th>
+                <th>description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for section_page in section_pages %}
+            {%- if section_page.page_id and section_page.search_exclude != true %}
+            <tr>
+                <td><a href="{{ section_page.url | relative_url }}">{{section_page.title}}</a></td>
+                <td>{{section_page.page_id}}</td>
+                {%- if section_page.description %}
+                <td>{{section_page.description}}</td>
+                {%- endif %}
+            </tr>
+            {%- endif %}
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+{%- endunless %}
+{%- endfor %}

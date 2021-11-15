@@ -1,7 +1,8 @@
 ---
 title: Microbial biotechnology
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
-page_tag: micro biotech
+page_id: micro biotech
+related_pages: 
 ---
 
 ## Introduction
@@ -25,14 +26,14 @@ The design for a system in microbial biotechnology essentially involves two, int
 
 In this section, the data management considerations and solutions surrounding the exercises outlined above will be discussed.
 
-#### Biological hosts
+### Biological hosts
 
-### Considerations
+#### Considerations
  * The recording of taxonomic and genetic data must be considered carefully as part of the design stage
  * Metadata surrounding the host is essential, such as where it was isolated, growth conditions, recommended protocols etc.
  * Genetic information relating to strains and any modifications needs to be kept track of as modifications are made
 
-### Solutions
+#### Solutions
 * Current data standards to capture the  taxonomic and phenotypic data are still evolving, with notable work on the [Access to Biological Collection Data Schema (ABCD)](https://www.tdwg.org/standards/abcd/) and the activities of the [Biodiversity Information Standards task force (TDWG)](https://www.tdwg.org/). 
 The Darwin Core standard from the [(TDWG)](https://www.tdwg.org/) is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism.
 * The [NCBI taxonomy homepage](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/) can also provide appropriate taxon IDs for recording taxonomic information.
@@ -47,16 +48,16 @@ The Darwin Core standard from the [(TDWG)](https://www.tdwg.org/) is an appropri
 * Other databases such as [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) and the [DNA Data Bank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp/index-e.html) also cater for sequence information.
 
 
-#### Genetic parts, device and systems
+### Genetic parts, device and systems
 
-### Considerations
+#### Considerations
 
 * Format of designs may vary depending on the application, whether this be at the sequence level or an entire system
 * Consider existing management tools that can help visualise and modify genetic designs
 * How can the information about characterisation of genetic constructs assist in the selection of parts and modelling designs?
 * Consider how you will record metadata at each point in the design process
 
-### Solutions
+#### Solutions
 * Sequences are characterised as parts which can be found with the assistance of various repositories such as the [iGEM Parts Registry](http://parts.igem.org/Main_Page), [The Joint BioEnergy Institute's Inventory of Composable Elements (JBEI-ICE)](https://ice.jbei.org) ([Ham et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467034/)) and [SynBioHub](https://synbiohub.org), or isolated from standard genetic databases such as [ENA](https://www.ebi.ac.uk/ena/browser/home) and [GenBank](https://www.ncbi.nlm.nih.gov/genbank/). At this point it may be desirable to assert which host the designed device is intended to express in and also the intended method of replication in the host - for example, cloned on a particular plasmid or integrated in the host chromosome.
 
 * You can manage the design stage using genetic computer aided design tools, such as [Benchling](https://benchling.com) for example, where information can be shared within small teams. [Benchling](https://benchling.com) supports a number of different data standards including FASTA, GenBank and SBOL1. Sometimes FASTA will be the most relevant format, for example when sending for DNA synthesis. Formats like GenBank, DICOM-SB ([Sainz de Murieta, Bultelle and Kitney, 2016](https://pubmed.ncbi.nlm.nih.gov/26854090/)) or SBOL may be more applicable for instances where more information, such as functional annotation, would be useful to be shared. SBOL 2.0 and higher allows more than just the genetics of a system to be captured and shared. Using SBOL allows interactions between components in the design to be specified, information about RNA and proteins can be included and the provenance of a design can also be captured. Experimental information relating to the test and build of a system can also be captured and shared.
@@ -68,14 +69,14 @@ The Darwin Core standard from the [(TDWG)](https://www.tdwg.org/) is an appropri
 
 * Platforms such as [SEEK](https://fair-dom.org/platform/seek/), built on technologies such as ISA, support a large range of systems and synthetic biology projects. [SEEK](https://fair-dom.org/platform/seek/) provides a web-based resource for sharing scientific research datasets, models or simulations, and processes. [SEEK](https://fair-dom.org/platform/seek/) can be installed locally or [FAIRDOMHub](https://fairdomhub.org/), a version of [SEEK](https://fair-dom.org/platform/seek/) which is hosted by FAIRDOM, is available for general community use. [Rightfield](https://rightfield.org.uk/download.html) provides a mechanism for capturing metadata using easy to use spreadsheets. 
 
-#### Metabolic engineering designs and enzyme data
+### Metabolic engineering designs and enzyme data
 
-### Considerations
+#### Considerations
 * How can designs regarding metabolic pathways be accurately represented and stored?
 * Enzymes have specific data standards that should be considered when accessing and recording their data
 * How can assay data and functional information be collected and recorded?
 
-### Solutions
+#### Solutions
 
 * SBOL allows information about the enzymes and the metabolic pathways to be captured in the design document and so this is a viable approach for sharing more than just the genetics of the system.
 * Databases such as SBOLME ([Kuwahara et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28076956/)) or [SynBioHub](https://synbiohub.org) can be used to share the data. 
@@ -83,13 +84,13 @@ The Darwin Core standard from the [(TDWG)](https://www.tdwg.org/) is an appropri
 * Enzymes can be assigned EC numbers, according to the guidance from the [International Union of Biochemistry and Molecular Biology (IUBMB)](https://www.qmul.ac.uk/sbcs/iubmb/), to indicate their function and an entry made in the [BRaunschweig ENzyme DAtabase](https://www.brenda-enzymes.org/) (BRENDA).
 * More generally, the [IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN)](https://www.qmul.ac.uk/sbcs/iupac/jcbn/) encourages the communication of biochemical information using generally understood terminology.
 
-#### Model based designs
+### Model based designs
 
-### Considerations
+#### Considerations
 * What tools and standards need to be considered when building mathematical models to aid the design of genetic systems
 * How can the models be shared via repositories and made  available in a way that makes results replicable?
 
-### Solutions
+#### Solutions
 
 * [Systems Biology Markup Language (SBML)](http://sbml.org/Main_Page) is a popular standardised format for sharing mathematical models for which a variety of tools are available for model building.
 * Models can be shared in model repositories such as [biomodels](https://www.ebi.ac.uk/biomodels/).
@@ -152,9 +153,6 @@ The test phase of a biotechnological study is the most variable in terms of the 
 
 * More recently, the [BioStudies database](https://www.ebi.ac.uk/biostudies/) has been set up to capture and share information about multi-omics and other biological studies ([Sarkans et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29069414/)).
 
-## Relevant tools and resources  
-
-{% include toollist.html tag="micro biotech" %}
 
 ## Bibliography
 

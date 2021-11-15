@@ -1,7 +1,8 @@
 ---
 title: Epitranscriptome data
-contributors: [Ernesto Picardi]
-page_tag: epitrans
+contributors: [Ernesto Picardi, Laura Portell Silva]
+page_id: epitrans
+related_pages: 
 ---
 
 ## Introduction
@@ -13,13 +14,14 @@ Epitranscriptome modifications are emerging as important factors to fine tune ge
 Several high-throughput experimental approaches have been developed for profiling the transcriptome-wide distribution of RNA modifications. While not-transient changes (RNA editing) can be detected using standard RNAseq data, RNA modifications like m6A or m1A or m5C can be identified by a variety of antibody based methods such as MeRIPseq or miCLIP and by means of the RNA directed sequencing. To comply with the FAIR principles, it is important to define the sequencing protocol adopted to produce data as well as related metadata. 
 
 ### Considerations
-- What is the aim of the experiments? 
 - Are you planning to profile transient or not-transient RNA modifications?
 - Is the method based on the RNA directed sequencing?
+- Do you collect your own data or reuse them from public databases?
 
 ### Solutions
-- Define the sequencing protocol depending on the target RNA modification (transient or not-transient). In case of data from public databases, carefully look at the method used to generate them.
+- Define the sequencing protocol depending on the target RNA modification (transient or not-transient). In case of using data from public databases, carefully look at the method used to generate them.
 - Prefer profiling methods allowing the detection of RNA modifications at single nucleotide level.
+- Epitranscriptome data is generally reused from literature or public and established databases, such as [REDIportal](http://srv00.recas.ba.infn.it/atlas/). All data must have an identifier depending on the original database that comes from. The source database is used also to retrieve metadata.
 
 ## Processing and analysis of epitranscriptome data
 
@@ -27,14 +29,16 @@ Several high-throughput experimental approaches have been developed for profilin
 Epitranscriptome is a novel field and in rapid expansion. Since a variety of transcriptome-wide sequencing methods exists, several computational tools have been developed. It is important here to decide which pipeline to adopt.
 
 ### Considerations
-- Are you using classical RNAseq data?
-- Are you profiling not-transient RNA modifications?
-- Are you profiling transient RNA changes?
+- What are the compute resources you need to analyse your data?
+- Do you have data storage problems due to the size of the data?
+- Are you using RNAseq data?
+- Are you profiling or transient not-transient RNA modifications?
 
 ### Solutions
+- The current pipeline for RNA editing ([REDItools](https://github.com/BioinfoUNIBA/REDItools)) requires the use of time intensive computational resources to browse position by position all genomic sites covered by RNAseq reads. In order to overcome that, a novel tool ([REDItools2](https://github.com/BioinfoUNIBA/REDItools2)) able to employ HPC resources and reduce the computing time has been developed. However, for transient modifications identified by direct RNA sequencing compute intensive tools are still required. The computational speed up could be obtained by using GPU graphical cards. In general, for standard RNAseq experiments, each sample requires 8-10 CPUs and at least 8-10 GB of RAM memory. Direct RNA sequencing, instead, requires 8-10 CPUs, at least 1 GPU and 8-10 GB of RAM memory. Once a pipeline has been adopted, it should be used for all samples.
+- Data storage is a big issue and not all intermediate files produced during the analyses can be maintained. However, since original data are easily and always available from public sources, analysis files are stored until the end of the established computational workflow. Then, only the final table file including epitranscriptomic variants are recovered and included in [REDIportal](http://srv00.recas.ba.infn.it/atlas/). Although this procedure could be time consuming in case of important updates, such as the adoption of a novel genome assembly, it preserves the storage requirements.
 - Epitranscriptome experts often provide reviews on the best tools and practices, so a good starting point is to read such publications. A good example is [Investigating RNA editing in deep transcriptome datasets with REDItools and REDIportal](https://www.nature.com/articles/s41596-019-0279-7).
 - For RNA editing events, prefer RNAseq data from total and rRNA depleted RNA. Strand oriented reads will improve the read mappability, mitigating mis-mapping biases.
-- Once a pipeline has been adopted, it should be used for all samples.
 
 ## Preservation, sharing and reuse of analysis results
 
@@ -42,12 +46,11 @@ Epitranscriptome is a novel field and in rapid expansion. Since a variety of tra
 Storing epitranscriptome data is relevant for investigating the biological properties of RNA modifications and facilitating the sharing and reuse.
 
 ### Considerations
-Which kind of RNA modifications are you studying?
+- Which kind of RNA modifications are you studying?
+- Do you have data storage problems when preserving the data?
+- Can epitranscriptome data be openly shared?
 
 ### Solutions
-Upload your data and results in available databases. For not transient RNA modifications, [REDIportal](http://srv00.recas.ba.infn.it/atlas/) could be a solution.
-
-## Relevant tools and resources  
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
-
-{% include toollist.html tag="epitrans" %}
+- For long term storage and for preserving epitranscriptome data, raw reads have to be submitted to public databases. This is a mandatory requirement to upload epitranscriptomic annotations in specialized databases. In case of data deposited in public databases such as ENA or SRA, RNA modifications could be uploaded in dedicated databases as [REDIportal](http://srv00.recas.ba.infn.it/atlas/).
+- To avoid the storage of a large amount of files, raw data is used to complete all computational steps. Soon after, they are removed as well as intermediate files. Only final tables are preserved and stored in our portal. Data is actually preserved because raw data is always available through public and established databases.
+- All data included in the REDIportal, including individual variants, annotations and metadata, is sharable and open. Only one database is mentioned here because there is the plan of having a unique and individual resource for epitranscriptome data.
