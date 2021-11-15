@@ -36,7 +36,7 @@ Examples of such measures are:
     * verification (focusing on the intrinsic consistency, such as adherence to a format or specified value range);
     * validation (focusing on the alignment of values with respect to external benchmarks).
 
-* In health data, a nice example of working out what data quality means can be found in the [OHDSI](https://www.ohdsi.org/) community. The context in this case is observational healthcare data represented in the [OMOP Common Data Model](https://ohdsi.github.io/CommonDataModel/).
+* For health data, a nice example of working out what data quality means can be found in the [OHDSI](https://www.ohdsi.org/) community. The context in this case is observational healthcare data represented in the [OMOP Common Data Model](https://ohdsi.github.io/CommonDataModel/).
 
 
 ### Solutions
