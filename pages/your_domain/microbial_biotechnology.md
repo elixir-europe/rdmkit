@@ -16,10 +16,10 @@ The **Design-Build-Test-Learn (DBTL) cycle** represents experimental design and 
 The design for a system in microbial biotechnology essentially involves two, interrelated exercises: (i) Identification of the biological entities/hosts that will be used to develop the product in question (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. The design stage may also include optional approaches: (iii) Metabolic engineering of biosynthetic pathways (iv) Using mathematical modelling to aid the design of the system. Data management best practices and guidelines should be applied for each exercise and approach.
 
 The components of the design stage could be summarised as below.
-* Biological host or organism.
-* Synthetic parts.
-* Metabolomic pathways and enzymes.
-* Mathematical model for system design.
+* [Biological host](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
+* [Synthetic parts](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-syntethic-parts---existing-data-metadata-collection-and-publication).
+* [Metabolomic pathways and enzymes](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-metabolomic-pathways-and-enzymes---metadata-ontologies-and-metadata-publication).
+* [Mathematical model](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-mathematical-model---standards-and-metadata-publication) for system design.
 
 #### Build
 The build stage in the microbial biotechnology and/or synthetic biology life cycle is about building of the microbial systems and involves the application of any number of a range of experimental techniques. In this stage the synthetic parts are assembled and transformed into the biological host.
@@ -160,7 +160,7 @@ How can the models be shared via repositories and made  available in a way that 
 * Models can be shared in model repositories such as [biomodels](https://www.ebi.ac.uk/biomodels/).
 
 
-## Build - Documentation and (meta)data publication
+## Build: Methods - Documentation and (meta)data publication
 
 ### Description
 The build stage in the microbial biotechnology and/or synthetic biology life cycle involves the application of any number of a range of experimental techniques and, since these techniques are so varied, the domain is therefore very difficult to standardise in terms of the data and metadata to be shared. 
@@ -185,7 +185,7 @@ The current method of sharing information about the building of microbial system
 * Once grouped together in a free form the data can be archived along with the metadata, collecting the data together in an archived form using a file compression format. The [combine archive format](http://co.mbine.org/specifications/omex.version-1) may also be useful.
  
 
-## Test - Metadata standards and (meta)data publication
+## Test: Outcome tests - Metadata standards and (meta)data publication
 
 ### Description
 The test stage of a biotechnological study is the most variable in terms of the types of data produced. The types of experiments carried out to test a microbial system are highly dependent on the intended function of the system under construction. Some common approaches include at the simplest level, characterising the growth of an organism at various scales in different growth regimes and assaying the production of desired product.
@@ -203,11 +203,11 @@ The data arising from assays for product development is highly variable and beyo
 ### Solutions
 
 #### Metadata standards
-* **Minimum Information Standard for Engineered Organism Experiments (MIEO)**. Minimal information necessary to record the growth of an organism in culture, has been described by Hect and colleagues ([Hecht et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283831/)). 
+* **Minimum Information Standard for Engineered Organism Experiments (MIEO).** Minimal information necessary to record the growth of an organism in culture, has been described by Hect and colleagues ([Hecht et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283831/)). 
 
-* If your product is a protein such as an **enzyme** then some standards developed by the [Standards for Reporting Enzyme Data (STRENDA) Consortium](https://www.beilstein-institut.de/en/projects/strenda/) may be helpful ([‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’, 2014](https://www.sciencedirect.com/science/article/pii/S2213020914000135)).
+* **Enzyme.** If your product is a protein such as an enzyme then some standards developed by the [Standards for Reporting Enzyme Data (STRENDA) Consortium](https://www.beilstein-institut.de/en/projects/strenda/) may be helpful ([‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’, 2014](https://www.sciencedirect.com/science/article/pii/S2213020914000135)).
 
-* **Microscopy** is often also used to characterise the behaviour of engineered microorganisms. Standards such as the [Open Microscopy Environment Ontology](https://fairsharing.org/bsg-s001430/) and the [Cellular Microscopy Phenotype Ontology (CMPO)](https://www.ebi.ac.uk/cmpo/) can help provide standardised metadata terms.
+* **Microscopy.** Microscopy is often also used to characterise the behaviour of engineered microorganisms. Standards such as the [Open Microscopy Environment Ontology](https://fairsharing.org/bsg-s001430/) and the [Cellular Microscopy Phenotype Ontology (CMPO)](https://www.ebi.ac.uk/cmpo/) can help provide standardised metadata terms.
 
 * **Flow Cytometry data.** The [International Society for the Advancement of Cytometry (ISAC)](https://isac-net.org/page/Data-Standards) provides information on a variety of appropriate data standards for capturing Flow Cytometry data (used to characterise microbial populations at a single cell level) ([Spidlen et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32881398/)).
 
@@ -217,17 +217,17 @@ The data arising from assays for product development is highly variable and beyo
 
 
 #### (Meta)Data publication and sharing
-* **Protocols** used for testing can be shared using platforms such as: 
+* **Protocols.** Protocols used for testing can be shared using platforms such as: 
   * [protocols.io](https://www.protocols.io/). 
   * [iGEM engineering hub](https://2021.igem.org/Engineering/Introduction), which also provides some guidance for a variety of data capture protocols and standardised units.
-* **Images** can be shared with the community by repositories such as the [Image Data Resource (IDR)](https://idr.openmicroscopy.org/).
-* **Nucleic acids information** can be shared via
+* **Images.** Images can be shared with the community by repositories such as the [Image Data Resource (IDR)](https://idr.openmicroscopy.org/).
+* **Nucleic acids information.** Information about nucleic acids can be shared via
   * [ENA](https://www.ebi.ac.uk/ena/browser/home)
   * [GEO](https://www.ncbi.nlm.nih.gov/geo/)
   * [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/) 
-* **Proteomics** data can be shared via [HUPO proteomics standards initiative](https://www.hupo.org/Proteomics-Standards-Initiative).
-* **Metabolic studies** can be shared through the [Metabolome Exchange Database](http://www.metabolomexchange.org/site/), which provides a resource for sharing data from metabolic studies and guidance for the submission of metabolome data.
-* Information about **biological sources** can be shared via the [BioStudies database](https://www.ebi.ac.uk/biostudies/), which has been set up to capture and share information about multi-omics and other biological studies ([Sarkans et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29069414/)).
+* **Proteomics.** Proteomics data can be shared via [HUPO proteomics standards initiative](https://www.hupo.org/Proteomics-Standards-Initiative).
+* **Metabolic studies.** Metabolomic studies can be shared through the [Metabolome Exchange Database](http://www.metabolomexchange.org/site/), which provides a resource for sharing data from metabolic studies and guidance for the submission of metabolome data.
+* **Biological sources.** Information about biological sources can be shared via the [BioStudies database](https://www.ebi.ac.uk/biostudies/), which has been set up to capture and share information about multi-omics and other biological studies ([Sarkans et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29069414/)).
 
 
 ## Bibliography
