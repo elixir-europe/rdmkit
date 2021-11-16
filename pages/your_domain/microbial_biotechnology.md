@@ -25,11 +25,11 @@ The components of the design stage could be summarised as below.
 The build stage in the microbial biotechnology and/or synthetic biology life cycle is about building of the microbial systems and involves the application of any number of a range of experimental techniques. In this stage the synthetic parts are assembled and transformed into the biological host.
 
 The main aspects of the build stage are:
-* methods, protocols and procedures used to build the modified organism.
+* [methods](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#build-methods---documentation-and-metadata-publication), protocols and procedures used to build the modified organism.
 
 #### Test
 The test stage of a biotechnological study is the most variable in terms of the types of data produced. This stage is mostly about:
-* testing the outcome or output variables and analyse the modified organism.
+* [testing](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#test-outcome-tests---metadata-standards-and-metadata-publication) the outcome or output variables and analyse the modified organism.
 
 #### Learn
 The learning stage consists in interpreting the obtained results, share the acquired knowledge and reuse it in combination with other existing data to improve the creation of the modified organism.
