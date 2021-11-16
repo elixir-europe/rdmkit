@@ -46,7 +46,7 @@ Due to the interdisciplinary nature of the field, data arising from studies in m
 This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data sharing tools that can make it more complete. Sites such as [Fairsharing](https://fairsharing.org/) can provide a wealth of data about standards that may be appropriate for a given data type and not mentioned in this brief guide.
 
 
-## Biological hosts - Metadata, ontologies and (meta)data publication
+## Design: Biological hosts - Metadata, ontologies and (meta)data publication
 
 ### Description
 Metadata standards and ontologies to capture the taxonomic and phenotypic data about the biological hosts or organism are still evolving, therefore finding and using a correct standard to describe the biological host can be challenging. 
@@ -80,7 +80,7 @@ It is recommended to publish and share information about biological hosts in ded
 * Other databases such as [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) and the [DNA Data Bank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp/index-e.html) also cater for sequence information.
 
 
-## Syntethic parts - Existing data, metadata collection and publication
+## Design: Syntethic parts - Existing data, metadata collection and publication
 
 ### Description
 Approriate and detailed description of the systethic parts design is critical for reproducibility. It is important to consider how to record metadata at each point in the design process in a standard way, so that it can be clear to others and reproducible.
@@ -121,7 +121,7 @@ Approriate and detailed description of the systethic parts design is critical fo
 * Platforms such as [SEEK](https://fair-dom.org/platform/seek/), built on technologies such as ISA, support a large range of systems and synthetic biology projects. [SEEK](https://fair-dom.org/platform/seek/) provides a web-based resource for sharing scientific research datasets, models or simulations, and processes. [SEEK](https://fair-dom.org/platform/seek/) can be installed locally or [FAIRDOMHub](https://fairdomhub.org/), a version of [SEEK](https://fair-dom.org/platform/seek/) which is hosted by FAIRDOM, is available for general community use.
 
 
-## Metabolomic pathways and enzymes - Metadata, ontologies and (meta)data publication
+## Design: Metabolomic pathways and enzymes - Metadata, ontologies and (meta)data publication
 
 ### Description
 Here we describe some of the available options to accurately represent and store information about the designs of metabolic pathways and functional information about assays. 
@@ -142,7 +142,7 @@ Here we describe some of the available options to accurately represent and store
 * [BRaunschweig ENzyme DAtabase](https://www.brenda-enzymes.org/) (BRENDA).
 
 
-## Mathematical model - Standards and (meta)data publication
+## Design: Mathematical model - Standards and (meta)data publication
 
 ### Description
 What tools and standards need to be considered when building mathematical models to aid the design of genetic systems?
@@ -160,7 +160,7 @@ How can the models be shared via repositories and made  available in a way that 
 * Models can be shared in model repositories such as [biomodels](https://www.ebi.ac.uk/biomodels/).
 
 
-## Methods - Documentation and (meta)data publication
+## Build - Documentation and (meta)data publication
 
 ### Description
 The build stage in the microbial biotechnology and/or synthetic biology life cycle involves the application of any number of a range of experimental techniques and, since these techniques are so varied, the domain is therefore very difficult to standardise in terms of the data and metadata to be shared. 
