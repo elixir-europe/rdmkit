@@ -4,6 +4,11 @@ contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, 
 description: how to transfer data files.
 page_id: transfer
 related_pages: 
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=%22data%22%20%22transfer%22
 ---
 
 ## How do you transfer large data files?

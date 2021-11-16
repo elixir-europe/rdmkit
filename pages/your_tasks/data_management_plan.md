@@ -5,6 +5,11 @@ description: how to write a Data Management Plan (DMP).
 page_id: DMP
 related_pages: 
   tool_assembly: [NeLS, TSD]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=%22data%22%20%22management%22%20%22plan%22
 ---
 
 
