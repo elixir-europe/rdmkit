@@ -1,3 +1,54 @@
+{%- if include.filter %}
+{%- assign allcountries = site.data.countries %}
+{%- for current_page in site.pages | sorted %}
+{%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
+{%- if current_page.audience %}
+{%- assign pageaudience = current_page.audience | join: ", " %}
+{%- if allaudience %}
+{%- assign allaudience = allaudience | append: ", " | append: pageaudience %}
+{%- else %}
+{%- assign allaudience = allaudience | append: pageaudience %}
+{%- endif  %}
+{%- endif %}
+{%- endif %}
+{%- endfor %}
+{%- assign allaudience = allaudience | split: ", " | uniq | sort %}
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <div class="btn-group" role="group">
+        <button class="btn bg-light hover-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Filter by audience
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            {%- for affiliation in allaudience %}
+            {%- if affiliation.size == 2 %}
+            {%- assign country = affiliation | upcase %}
+            <li><a class="dropdown-item" href="#">{{allcountries[country]}}</a></li>
+            {%- else %}
+            <li><a class="dropdown-item" href="#">{{affiliation}}</a></li>
+            {%- endif %}
+            {%- endfor %}
+        </ul>
+    </div>
+    <div class="btn-group" role="group">
+        <button class="btn bg-light hover-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        Filter by affiliation
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            {%- for affiliation in allaudience %}
+            {%- if affiliation.size == 2 %}
+            {%- assign country = affiliation | upcase %}
+            <li><a class="dropdown-item" href="#">{{allcountries[country]}}</a></li>
+            {%- else %}
+            <li><a class="dropdown-item" href="#">{{affiliation}}</a></li>
+            {%- endif %}
+            {%- endfor %}
+        </ul>
+    </div>
+    <button class="btn bg-light hover-primary" type="button" id="dropdownMenuButton3">
+        Clear filters
+    </button>
+</div>
+{%- endif %}
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-5 navigation-tiles">
     {%- for current_page in site.pages | sorted %}
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}

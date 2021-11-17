@@ -6,4 +6,4 @@ summary: Tool Assemblies are examples of combining  tools to cover data manageme
 
 ---
 
-{% include navigation-tiles.html type="tool_assembly" %}
+{% include navigation-tiles.html type="tool_assembly" filter="true" %}
