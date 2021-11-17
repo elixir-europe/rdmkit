@@ -80,42 +80,65 @@ For managers of plant phenotyping data repositories that support a project or in
 
 ## Plant genotyping data sharing and deposition
 
+### Description
+Sharing plant genotyping data involves the use of Variant Call Format (VCF) files, which is a standard for the exchange and publication of genotyping data.  Findability and reusability of VCF files depends on the supplied metadata, as well as the availability in a suitable open-access database. Here are described the mandatory, recommended and optional metadata fields for data interoperability, as well as for deposition in EVA (European Variation Archive), the EMBL-EBI's open-access genetic variation archive.
+
+### Considerations
+* Is your plant material provided by a genebank or derived from material provided by a genebank?
+* Is the reference genome assembly available in an [INSDC](https://www.insdc.org/) archive and has GCF / GCA accession number ?
+* Is the analytic approach used for creating the VCF file available in a publication and has a DOI ?
+
 ### Solutions
 In order to ensure interoperability of VCF files, the following VCF meta-information lines should be used:
-* Obligatory meta-information line :  
-  * ##fileformat : file format.  
-    Examples:  
+* Mandatory meta-information line :  
+  * `##fileformat` : file format.  
+    Examples:
+    ```
     ##fileformat=VCFv4.3  
-    ##fileformat=VCFv4.1  
+    ##fileformat=VCFv4.1 
+    ```
 * Recommended meta-information lines :  
-  * ##bioinformatics_source (URL or URI): Analytic approach usually consisting of chains of bioinformatics tools for creating the VCF file specified as the DOI of a publication, or more generally as URL/URI, like a public repository for the scripts used.  
-    Examples:  
+  * `##bioinformatics_source` (URL or URI): Analytic approach usually consisting of chains of bioinformatics tools for creating the VCF file specified as the DOI of a publication, or more generally as URL/URI, like a public repository for the scripts used.  
+    Examples: 
+    ```
     ##bioinformatics_source=”doi.org/10.1038/s41588-018-0266-x”  
     ##bioinformatics_source=”doi.org/10.3389/fpls.2021.628439”  
-  * ##reference_ac (assembly_accession): accession number, including the version, of the reference sequence on which the variation data of the present VCF is based.  
+    ```
+  * `##reference_ac` (assembly_accession): accession number, including the version, of the reference sequence on which the variation data of the present VCF is based.  
     Examples:  
+    ```
     ##reference_ac=GCA_902498975.1  
     ##reference_ac=GCA_000005005.5  
-  * ##reference_url (DOI): a DOI (or URL/URI) for downloading of this reference genome, preferably from one INSDC archive.  
+    ```
+  * `##reference_url` (DOI): a DOI (or URL/URI) for downloading of this reference genome, preferably from one INSDC archive.  
     Examples:  
+    ```    
     ##reference_url=”ftp.ncbi.nlm.nih.gov/genomes/all/GCA/902/498/975/GCA_902498975.1_Morex_v2.0/GCA_902498975.1_Morex_v2.0_genomic.fna.gz”  
-    ##reference_url=”ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/005/GCA_000005005.5_B73_RefGen_v3/GCA_000005005.5_B73_RefGen_v3_genomic.fna.gz”  
-  * ##contig (<ID=ctg1, length=sequence_length, assembly=gca_accession, md5=md5_hash, species=species_of_interest>) : The individual sequence(s) of the reference genome  
-    Examples:  
+    ##reference_url=”ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/005/GCA_000005005.5_B73_RefGen_v3/GCA_000005005.5_B73_RefGen_v3_genomic.fna.gz”
+    ```
+  * `##contig` (<ID=ctg1, length=sequence_length, assembly=gca_accession, md5=md5_hash, species=species_of_interest>) : The individual sequence(s) of the reference genome  
+    Examples: 
+    ```
     ##contig=<ID=chr1H,length=522466905,assembly=GCA_902498975.1,md5=8d21a35cc68340ecf40e2a8dec9428fa,species="Hordeum vulgare">  
     ##contig=<ID=GK000031.3,length=301433382,assembly=GCA_000005005.5,md5=74dfe85ad898416814fa98e8d7048f76,species=”Zea mays”>  
-  * ##SAMPLE(<ID=BioSample_accession, DOI=url, Original=Accession_number, Name=Genotype_name>) : Describe the material whose variants are given in the genotype call columns in greater detail and can be extended using the specifications of the VCF format.  
+    ```
+  * `##SAMPLE` (<ID=BioSample_accession, DOI=url, Original=Accession_number, Name=Genotype_name>) : Describe the material whose variants are given in the genotype call columns in greater detail and can be extended using the specifications of the VCF format.  
     Examples:  
+    ```
     ##SAMPLE=<ID=SAMEA7836897,DOI="doi.org/10.25642/IPK/GBIS/17527",Original="HOR 1361 BRG",Name="Hordeum vulgare L. convar. vulgare var. densum Sér.">  
     ##SAMPLE=<ID=SAMEA9111398,DOI=”www.ipk-gatersleben.de”,Original=”CAPFRU07”,Name=”RCAT077650”>  
+    ```
 * Optional meta-information lines :  
-  * ##fileDate: creation date of the VCF in the basic form without separator: YYYYMMDD  
-    Examples:  
+  * `##fileDate`: creation date of the VCF in the basic form without separator: YYYYMMDD  
+    Examples: 
+    ```
     ##fileDate=20211028  
     ##fileDate=20120316  
+    ```
   * In case of adding new fields : Please check the official format specifications to avoid redundancy and possible incompatibilities.  
 
- 
+**Data deposition:** Once the VCF file is ready with all necessary metadata, it can be submitted to the European Variation Archive (EVA). You will find all necessary information on the submission steps on the [EVA submission page](https://www.ebi.ac.uk/eva/?Submit-Data).
+
 ## Integrating plant phenotypic and molecular data
  
 ### Description 
