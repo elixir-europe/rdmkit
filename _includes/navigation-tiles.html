@@ -11,9 +11,10 @@
 {%- endif %}
 {%- endfor %}
 {%- assign allaffiliations = allaffiliations | split: ", " | uniq | sort %}
-<div class="input-group">
-    <select class="form-select" id="affiliation-input" aria-label="Example select with button addon">
-        <option selected>Filter by affiliation</option>
+<div class="input-group my-4">
+    <label class="input-group-text" for="affiliations-input">Filter by affiliation</label>
+    <select class="form-select" id="affiliations-input" aria-label="Example select with button addon">
+        <option selected>Choose...</option>
         {%- for affiliation in allaffiliations %}
         {%- if affiliation.size == 2 %}
         {%- assign country = affiliation | upcase %}
@@ -23,12 +24,12 @@
         {%- endif %}
         {%- endfor %}
     </select>
-    <button class="btn btn-primary" type="button" id="clearfilters">
-        Clear filters
+    <button class="btn btn-primary" type="button" id="clearfilter">
+        Clear filter
     </button>
 </div>
 {%- endif %}
-<div class="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-5 navigation-tiles">
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5 navigation-tiles">
     {%- for current_page in site.pages | sorted %}
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
     {%- if current_page.affiliations %}
