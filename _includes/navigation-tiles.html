@@ -1,50 +1,29 @@
 {%- if include.filter %}
 {%- assign allcountries = site.data.countries %}
 {%- for current_page in site.pages | sorted %}
-{%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
-{%- if current_page.audience %}
-{%- assign pageaudience = current_page.audience | join: ", " %}
-{%- if allaudience %}
-{%- assign allaudience = allaudience | append: ", " | append: pageaudience %}
+{%- if current_page.affiliations %}
+{%- assign pageaffiliations = current_page.affiliations | join: ", " %}
+{%- if allaffiliations %}
+{%- assign allaffiliations = allaffiliations | append: ", " | append: pageaffiliations %}
 {%- else %}
-{%- assign allaudience = allaudience | append: pageaudience %}
+{%- assign allaffiliations = allaffiliations | append: pageaffiliations %}
 {%- endif  %}
 {%- endif %}
-{%- endif %}
 {%- endfor %}
-{%- assign allaudience = allaudience | split: ", " | uniq | sort %}
-<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-    <div class="btn-group" role="group">
-        <button class="btn bg-light hover-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        Filter by audience
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            {%- for affiliation in allaudience %}
-            {%- if affiliation.size == 2 %}
-            {%- assign country = affiliation | upcase %}
-            <li><a class="dropdown-item" href="#">{{allcountries[country]}}</a></li>
-            {%- else %}
-            <li><a class="dropdown-item" href="#">{{affiliation}}</a></li>
-            {%- endif %}
-            {%- endfor %}
-        </ul>
-    </div>
-    <div class="btn-group" role="group">
-        <button class="btn bg-light hover-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-        Filter by affiliation
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            {%- for affiliation in allaudience %}
-            {%- if affiliation.size == 2 %}
-            {%- assign country = affiliation | upcase %}
-            <li><a class="dropdown-item" href="#">{{allcountries[country]}}</a></li>
-            {%- else %}
-            <li><a class="dropdown-item" href="#">{{affiliation}}</a></li>
-            {%- endif %}
-            {%- endfor %}
-        </ul>
-    </div>
-    <button class="btn bg-light hover-primary" type="button" id="dropdownMenuButton3">
+{%- assign allaffiliations = allaffiliations | split: ", " | uniq | sort %}
+<div class="input-group">
+    <select class="form-select" id="affiliation-input" aria-label="Example select with button addon">
+        <option selected>Filter by affiliation</option>
+        {%- for affiliation in allaffiliations %}
+        {%- if affiliation.size == 2 %}
+        {%- assign country = affiliation | upcase %}
+        <option value="{{country | slugify}}">{{allcountries[country]}}</option>
+        {%- else %}
+        <option value="{{affiliation | slugify}}">{{affiliation}}</option>
+        {%- endif %}
+        {%- endfor %}
+    </select>
+    <button class="btn btn-primary" type="button" id="clearfilters">
         Clear filters
     </button>
 </div>
@@ -52,7 +31,15 @@
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-5 navigation-tiles">
     {%- for current_page in site.pages | sorted %}
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
-    <div class="col">
+    {%- if current_page.affiliations %}
+    {%- capture affiliations_classes -%}
+    {%- for affiliation in current_page.affiliations %}
+    {%- assign group_affiliations = affiliation | slugify | prepend: " " %}
+    {%- assign affiliations_output = affiliations_output | append: group_affiliations | strip %}
+    {%- endfor %}{{affiliations_output}}
+    {%- endcapture -%}
+    {%- endif %}
+    <div class="col" data-affiliations="{{affiliations_classes}}">
         <div class="card h-100">
             <div class="card-header bg-dark">
                 <a class="text-white" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}"><h3 class="card-title m-0">{{current_page.title}}</h3></a>
