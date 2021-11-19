@@ -15,6 +15,7 @@ $navbar-dark-hover-color: $primary;
 $navbar-dark-toggler-border-color: transparent;
 $border-radius: 0.3rem;
 $card-border-width: 0;
+$card-cap-bg:  rgba($dark, .08);
 $link-color: $blue;
 $info: $blue;
 $link-decoration: none;
@@ -492,10 +493,6 @@ h2.card-title {
 }
 
 /*-----Contributors cards-----*/
-
-.contributor-cards .card {
-    background-color: $light;
-}
 
 .contributor-cards .badge {
     background-color: $primary;
