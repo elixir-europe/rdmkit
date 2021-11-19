@@ -11,22 +11,33 @@
 {%- endif %}
 {%- endfor %}
 {%- assign allaffiliations = allaffiliations | split: ", " | uniq | sort %}
-<div class="input-group my-4">
-    <label class="input-group-text" for="affiliations-input">Filter by affiliation</label>
-    <select class="form-select" id="affiliations-input" aria-label="Example select with button addon">
-        <option selected="" value="reset">Choose...</option>
-        {%- for affiliation in allaffiliations %}
-        {%- if affiliation.size == 2 %}
-        {%- assign country = affiliation | upcase %}
-        <option value="{{country | slugify}}">{{allcountries[country]}}</option>
-        {%- else %}
-        <option value="{{affiliation | slugify}}">{{affiliation}}</option>
-        {%- endif %}
-        {%- endfor %}
-    </select>
-    <button class="btn btn-primary" type="button" id="clearfilter">
-        Clear filter
-    </button>
+
+<div class="row g-4 my-4">
+    <div class="col-md-7">
+        <div class="input-group">
+            <label class="input-group-text" for="affiliations-input">Filter by affiliation</label>
+            <select class="form-select" id="affiliations-input" aria-label="Example select with button addon">
+                <option selected="" value="reset">Choose...</option>
+                {%- for affiliation in allaffiliations %}
+                {%- if affiliation.size == 2 %}
+                {%- assign country = affiliation | upcase %}
+                <option value="{{country | slugify}}">{{allcountries[country]}}</option>
+                {%- else %}
+                <option value="{{affiliation | slugify}}">{{affiliation}}</option>
+                {%- endif %}
+                {%- endfor %}
+            </select>
+            <button class="btn btn-primary" type="button" id="clearfilter">
+                Clear filter
+            </button>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="input-group">
+            <span class="input-group-text" id="search-label">Search</span>
+            <input type="search" id="title-search" class="form-control" onkeyup="buttonUp();" placeholder="Type here to search {{page.type | replace: '_', ' ' |}}" aria-label="{{page.type | replace: '_', ' ' |}}" aria-describedby="search-label">
+        </div>
+    </div>
 </div>
 {%- endif %}
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5 navigation-tiles">
