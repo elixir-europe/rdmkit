@@ -14,7 +14,7 @@
 <div class="input-group my-4">
     <label class="input-group-text" for="affiliations-input">Filter by affiliation</label>
     <select class="form-select" id="affiliations-input" aria-label="Example select with button addon">
-        <option selected>Choose...</option>
+        <option selected="" value="reset">Choose...</option>
         {%- for affiliation in allaffiliations %}
         {%- if affiliation.size == 2 %}
         {%- assign country = affiliation | upcase %}
@@ -34,6 +34,7 @@
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
     {%- if current_page.affiliations %}
     {%- capture affiliations_classes -%}
+    {%- assign affiliations_output = "" %}
     {%- for affiliation in current_page.affiliations %}
     {%- assign group_affiliations = affiliation | slugify | prepend: " " %}
     {%- assign affiliations_output = affiliations_output | append: group_affiliations | strip %}

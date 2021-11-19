@@ -155,4 +155,31 @@ jQuery(function ($) { // DOM ready and $ in scope
 
 });
 
+/** 
+ * Filter cards by affiliation
+ */
+
+ $(document).ready(function () {
+  document
+    .getElementById("affiliations-input")
+    .addEventListener("change", function () {
+      const cols = document.querySelectorAll(".col");
+      for (col of cols) {
+        const colCategories = col.getAttribute("data-affiliations").split(" ");
+        if (colCategories.indexOf(this.value) != -1 || this.value === "reset") {
+          col.style.display = "block";
+        } else {
+          col.style.display = "none";
+        }
+      }
+    });
+  document.getElementById("clearfilter").addEventListener("click", function () {
+    document.getElementById("affiliations-input").selectedIndex = null;
+    const cols = document.querySelectorAll(".col");
+      for (col of cols) {
+        const colCategories = col.getAttribute("data-affiliations").split(" ");
+          col.style.display = "block";
+      }
+  });
+});
 

@@ -41,7 +41,8 @@ h1 {
     }
 }
 
-main h2, .h2-like {
+main h2,
+.h2-like {
     font-family: "Exo 2", sans-serif;
     font-weight: 700;
     color: $primary;
@@ -705,4 +706,3 @@ iframe.scale {
         height: 24px;
     }
 }
-
