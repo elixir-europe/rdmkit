@@ -3,6 +3,13 @@ title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
 description: how to document and describe your data.
 page_id: metadata
+faircookbook:
+- name: Introduction to terminologies and ontologies
+  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/interoperability/introduction-terminologies-ontologies.html# 
+- name: Creating data/variable dictionary
+  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/interoperability/creating-data-dictionary.html
+- name: Creating a metadata profile
+  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/interoperability/creating-minimal-metadata-profiles.html#
 related_pages: 
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
 ---
