@@ -479,7 +479,6 @@ Tools:
     tess: Common Workflow Language (CWL)
   related_pages:
   - IT support
-  - policy officer
   - researcher
   - data analysis
 - description: The CompTox Chemicals Dashboard provides toxicological information
@@ -606,6 +605,16 @@ Tools:
   name: Data Curation Centre Metadata list
   related_pages:
   - metadata
+  - researcher
+  - data manager
+- description: Dataverse for life sciences and agronomic related data
+  link: https://data.inrae.fr/
+  name: Data INRAE
+  registry:
+    fairsharing: 178BmT
+  related_pages:
+  - plants
+  - plant geno assembly
   - researcher
   - data manager
 - description: Publicly available online tool for composing smart data management
@@ -2080,6 +2089,17 @@ Tools:
   - data analysis
   - researcher
   - proteomics
+- description: Access point for plant comparative genomics, centralizing genomic data
+    produced by different genome sequencing initiatives.
+  link: https://bioinformatics.psb.ugent.be/plaza/
+  name: PLAZA
+  registry:
+    fairsharing: wBOua0
+    tess: PLAZA
+  related_pages:
+  - plants
+  - plant geno assembly
+  - researcher
 - description: Platform for the study of the impact of pathological mutations in protein
     stuctures.
   link: http://mmb.irbbarcelona.org/PMut
