@@ -1,7 +1,10 @@
 ---
 title: Bioimaging data
 contributors: [Jean-Marie Burel, Josh Moore, Sebastien Besson, Susanne Kunis, Stefanie Weidtkamp-Peters]
-page_tag: bioimaging data
+page_id: bioimaging data
+related_pages: 
+  your_tasks: [DMP, data organisation, data publication, existing data, transfer, licensing, metadata, storage]
+  tool_assembly: [ome, XNAT-PIC]
 ---
 
 ## Introduction
@@ -139,7 +142,7 @@ Bioimaging tools and resources are behind compared to what is available in seque
 ### Solutions
 
 Example of repositories than can be used to deposit images:
-- [BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/): 
+- [BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/):
   - **Type**: Archive
   - **Data restrictions**: No Protected health information (PIH) data.
   - **Data upload restrictions**: None
