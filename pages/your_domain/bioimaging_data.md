@@ -183,7 +183,7 @@ Example of repositories than can be used to deposit images:
   - **Data restrictions**: None
   - **Data upload restrictions**: None
   - **DOI**: Yes
-  - **Cost**: --
+  - **Cost**: Free
 
 Other resources:
 
