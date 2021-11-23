@@ -142,6 +142,7 @@ Bioimaging tools and resources are behind compared to what is available in seque
 ### Solutions
 
 Example of repositories than can be used to deposit images:
+
 - [BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/):
   - **Type**: Archive
   - **Data restrictions**: No Protected health information (PIH) data.
@@ -168,13 +169,13 @@ Example of repositories than can be used to deposit images:
   - **Cost**: Free
 - [SSBD:database](https://ssbd.riken.jp/database/)
   - **Type**: Added-value
-  - **Data restrictions**: None
+  - **Data restrictions**: Biological dynamics imaging data
   - **Data upload restrictions**: None
   - **DOI**: --
   - **Cost**: Free
 - [SSBD:repository](https://ssbd.riken.jp/repository/)
   - **Type**: Archive
-  - **Data restrictions**: biological dynamics imaging data
+  - **Data restrictions**: Biological dynamics imaging data
   - **Data upload restrictions**: None
   - **DOI**: --
   - **Cost**: Free
