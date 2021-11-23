@@ -394,6 +394,10 @@ pre code {
     margin: $btn-focus-width $btn-focus-width 0 0;
 }
 
+table {
+    @extend .table;
+}
+
 /* Name and description column improvements */
 
 #tooltable tr th:nth-child(1) {
