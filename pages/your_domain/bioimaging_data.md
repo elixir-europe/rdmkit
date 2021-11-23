@@ -186,11 +186,14 @@ Example of repositories than can be used to deposit images:
   - **DOI**: Yes
   - **Cost**: Free
 
-Other resources:
+Ontologies Resources:
+ - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms
+ - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service
+ - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies
 
- - [pancreatlas](https://pancreatlas.org/) - pancreas imaging data
- - [Figshare](https://figshare.com/)
 
 Misc:
 
  - [Research Data repositories Registry](https://www.re3data.org/)
+
+
