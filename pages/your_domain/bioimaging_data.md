@@ -181,7 +181,7 @@ Example of repositories than can be used to deposit images:
 - [Zenodo](https://zenodo.org)
   - **Type**: Archive
   - **Data restrictions**: None
-  - **Data upload restrictions**: None
+  - **Data upload restrictions**: 50GB per dataset
   - **DOI**: Yes
   - **Cost**: Free
 
