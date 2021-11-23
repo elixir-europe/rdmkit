@@ -152,7 +152,7 @@ Example of repositories than can be used to deposit images:
   - **Type**: Archive
   - **Data restrictions**: No PIH data
   - **Data upload restrictions**: 3000GB
-  - **DOI**: --
+  - **DOI**: Yes
   - **Cost**: over 50GB unless submitter is based at member institution
 - [EMPIAR](https://www.ebi.ac.uk/empiar/)
   - **Type**: Added-value
