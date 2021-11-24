@@ -5,6 +5,11 @@ description: how to identify different research data types.
 page_id: sensitive
 related_pages: 
   tool_assembly: [TSD, Covid-19, transmed]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
 ---
 
 ## Is your data sensitive?

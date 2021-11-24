@@ -5,6 +5,11 @@ description: how to make data analysis FAIR.
 page_id: data analysis
 related_pages: 
   tool_assembly: [NeLS, XNAT-PIC, transmed, ome]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 ---
 
 ## What are the best practices for data analysis?
