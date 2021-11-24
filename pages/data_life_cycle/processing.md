@@ -8,7 +8,7 @@ training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=%22Data%20processing%22
+    url: https://tess.elixir-europe.org/search?q=%22Data+process%22#materials
 ---
 
 ## What is data processing?

@@ -9,7 +9,7 @@ training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=%22sensitive%22%20%22data%22
+    url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
 ---
 
 ## Is your data sensitive?
