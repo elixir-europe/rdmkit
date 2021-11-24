@@ -1,6 +1,6 @@
 ---
 title: Bioimaging data
-contributors: [Jean-Marie Burel, Josh Moore, Sebastien Besson, Susanne Kunis, Stefanie Weidtkamp-Peters]
+contributors: [Jean-Marie Burel, Josh Moore, Sébastien Besson, Susanne Kunis, Stefanie Weidtkamp-Peters]
 page_id: bioimaging data
 related_pages: 
   your_tasks: [DMP, data organisation, data publication, existing data, transfer, licensing, metadata, storage]
