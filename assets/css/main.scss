@@ -21,6 +21,7 @@ $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
 $font-family-sans-serif: "Open Sans", sans-serif;
+$alert-border-width: 0;
 
 @import "bootstrap/bootstrap";
 
@@ -391,6 +392,10 @@ pre code {
 
 .dataTables_wrapper {
     margin: $btn-focus-width $btn-focus-width 0 0;
+}
+
+table {
+    @extend .table;
 }
 
 /* Name and description column improvements */

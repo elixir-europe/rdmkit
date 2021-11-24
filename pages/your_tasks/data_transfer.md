@@ -3,6 +3,11 @@ title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi] 
 description: how to transfer data files.
 page_id: transfer
+faircookbook:
+- name: Transferring data with SFTP
+  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/sftp.html
+- name: Downloading data with Aspera
+  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/aspera.html 
 related_pages: 
 training:
   - name: Training in TeSS
