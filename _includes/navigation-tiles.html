@@ -27,14 +27,17 @@
                 {%- endfor %}
             </select>
             <button class="btn btn-primary" type="button" id="clearfilter">
-                Clear filter
+                <i class="fas fa-backspace"></i>
             </button>
         </div>
     </div>
     <div class="col-md-5">
         <div class="input-group">
             <span class="input-group-text" id="search-label">Search</span>
-            <input type="search" id="title-search" class="form-control" onkeyup="buttonUp();" placeholder="Type here to search {{page.type | replace: '_', ' ' |}}" aria-label="{{page.type | replace: '_', ' ' |}}" aria-describedby="search-label">
+            <input type="text" id="title-search" class="form-control" onkeyup="buttonUp();" placeholder="Type here to search {{page.type | replace: '_', ' ' |}}" aria-label="{{page.type | replace: '_', ' ' |}}" aria-describedby="search-label">
+            <button class="btn btn-primary" type="button" id="clearsearch">
+                <i class="fas fa-backspace"></i>
+            </button>
         </div>
     </div>
 </div>

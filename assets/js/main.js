@@ -203,3 +203,14 @@ var buttonUp = () => {
         }
     }
 }
+$(document).ready(function () {
+    document.getElementById("clearsearch").addEventListener("click", function () {
+        document.getElementById('title-search').value = ''
+        const cols = document.querySelectorAll(".navigation-tiles .col");
+        for (col of cols) {
+            const colCategories = col.getAttribute("data-affiliations").split(" ");
+            col.classList.remove("d-none");
+
+        }
+    });
+});
