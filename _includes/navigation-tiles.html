@@ -44,6 +44,7 @@
 {%- endif %}
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5 navigation-tiles">
     {%- for current_page in site.pages | sorted %}
+    {%- assign affiliations_classes = "" %}
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
     {%- if current_page.affiliations %}
     {%- capture affiliations_classes -%}
@@ -63,7 +64,9 @@
                 {%- if current_page.description %}
                 <p class="card-text">{{ current_page.description}}</p>
                 {%- endif %}
-                {%- if current_page.related_pages %}
+            </div>
+            {%- if current_page.related_pages %}
+            <div class="card-body">
                 {%- for section in current_page.related_pages %}
                 {%- unless section[1] == blank  %}
                 <div>
@@ -78,8 +81,8 @@
                 </div>
                 {%- endunless %}
                 {%- endfor %}
-                {%- endif %}
             </div>
+            {%- endif %}
             {%- if current_page.audience or current_page.affiliations %}
             {%- assign alllogos = site.data.affiliations %}
             {%- assign allcountries = site.data.countries %}
