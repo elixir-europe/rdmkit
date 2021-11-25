@@ -64,9 +64,7 @@
                 {%- if current_page.description %}
                 <p class="card-text">{{ current_page.description}}</p>
                 {%- endif %}
-            </div>
-            {%- if current_page.related_pages %}
-            <div class="card-body">
+                {%- if current_page.related_pages %}
                 {%- for section in current_page.related_pages %}
                 {%- unless section[1] == blank  %}
                 <div>
@@ -81,8 +79,8 @@
                 </div>
                 {%- endunless %}
                 {%- endfor %}
+                {%- endif %}
             </div>
-            {%- endif %}
             {%- if current_page.audience or current_page.affiliations %}
             {%- assign alllogos = site.data.affiliations %}
             {%- assign allcountries = site.data.countries %}

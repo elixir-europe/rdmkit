@@ -16,7 +16,7 @@ $navbar-dark-hover-color: $primary;
 $navbar-dark-toggler-border-color: transparent;
 $border-radius: 0.3rem;
 $card-border-width: 0;
-$card-cap-bg:  $light-x;
+$card-cap-bg: $light-x;
 $link-color: $blue;
 $info: $blue;
 $link-decoration: none;
@@ -704,5 +704,9 @@ iframe.scale {
 .navigation-tiles {
     .h-30px {
         height: 24px;
+    }
+
+    .card .card-text {
+        min-height: 4.5em;
     }
 }
