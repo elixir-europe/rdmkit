@@ -1,7 +1,7 @@
 {%- if include.filter %}
 {%- assign allcountries = site.data.countries %}
 {%- for current_page in site.pages | sorted %}
-{%- if current_page.affiliations %}
+{%- if current_page.affiliations and current_page.search_exclude != true and current_page.type == include.type %}
 {%- assign pageaffiliations = current_page.affiliations | join: ", " %}
 {%- if allaffiliations %}
 {%- assign allaffiliations = allaffiliations | append: ", " | append: pageaffiliations %}
