@@ -1,12 +1,71 @@
-<div class="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-5 navigation-tiles">
-    {%- for current_page in site.pages | sorted %}
-    {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
+{%- unless include.affiliations == nill and include.search == nill and include.related_pages == nill %}
+{%- assign allcountries = site.data.countries %}
+{%- for current_page in site.pages | sorted %}
+{%- if current_page.affiliations and current_page.search_exclude != true and current_page.type == include.type %}
+{%- assign pageaffiliations = current_page.affiliations | join: ", " %}
+{%- if allaffiliations %}
+{%- assign allaffiliations = allaffiliations | append: ", " | append: pageaffiliations %}
+{%- else %}
+{%- assign allaffiliations = allaffiliations | append: pageaffiliations %}
+{%- endif  %}
+{%- endif %}
+{%- endfor %}
+{%- assign allaffiliations = allaffiliations | split: ", " | uniq | sort %}
+<div class="row g-4 row-cols-1 row-cols-md-2 my-4">
+    {%- unless include.affiliations == nill %}
     <div class="col">
-        <div class="card h-100">
+        <div class="input-group">
+            <label class="input-group-text" for="affiliations-input">Filter by affiliation</label>
+            <select class="form-select" id="affiliations-input" aria-label="Example select with button addon">
+                <option selected="" value="reset">Choose...</option>
+                {%- for affiliation in allaffiliations %}
+                {%- if affiliation.size == 2 %}
+                {%- assign country = affiliation | upcase %}
+                <option value="{{country | slugify}}">{{allcountries[country]}}</option>
+                {%- else %}
+                <option value="{{affiliation | slugify}}">{{affiliation}}</option>
+                {%- endif %}
+                {%- endfor %}
+            </select>
+            <button class="btn btn-primary" title="Button to clear affiliations selection" type="button" id="clearfilter">
+                <i class="fas fa-backspace"></i>
+            </button>
+        </div>
+    </div>
+    {%- endunless %}
+    {%- unless include.search == nill %}
+    <div class="col">
+        <div class="input-group">
+            <span class="input-group-text" id="search-label">Search</span>
+            <input type="text" id="title-search" class="form-control" onkeyup="buttonUp();" placeholder="Type here..." aria-label="{{page.type | replace: '_', ' ' |}}" aria-describedby="search-label">
+            <button class="btn btn-primary" title="Button to clear search"  type="button" id="clearsearch">
+                <i class="fas fa-backspace"></i>
+            </button>
+        </div>
+    </div>
+    {%- endunless %}
+</div>
+{%- endunless %}
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-5 navigation-tiles">
+    {%- for current_page in site.pages | sorted %}
+    {%- assign affiliations_classes = "" %}
+    {%- assign related_pages_classes = "" %}
+    {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
+    {%- if current_page.affiliations %}
+    {%- capture affiliations_classes -%}
+    {%- assign affiliations_output = "" %}
+    {%- for affiliation in current_page.affiliations %}
+    {%- assign group_affiliations = affiliation | slugify | prepend: " " %}
+    {%- assign affiliations_output = affiliations_output | append: group_affiliations | strip %}
+    {%- endfor %}{{affiliations_output}}
+    {%- endcapture -%}
+    {%- endif %}
+    <div class="col" data-affiliations="{{affiliations_classes}}" related-pages="{{related_pages_classes}}">
+        <div class="card bg-light h-100">
             <div class="card-header bg-dark">
                 <a class="text-white" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}"><h3 class="card-title m-0">{{current_page.title}}</h3></a>
             </div>
-            <div class="card-body bg-light">
+            <div class="card-body">
                 {%- if current_page.description %}
                 <p class="card-text">{{ current_page.description}}</p>
                 {%- endif %}
@@ -29,21 +88,25 @@
             </div>
             {%- if current_page.audience or current_page.affiliations %}
             {%- assign alllogos = site.data.affiliations %}
-            <div class="card-footer bg-light border-top border-white border-3 d-flex align-middle">
+            {%- assign allcountries = site.data.countries %}
+            <div class="card-footer d-flex align-middle">
                 {%- if current_page.affiliations %}
                 <div class="me-3">
                     <span class="me-2"><b><small>Affiliations:</small></b></span>
                     {%- for affiliation in current_page.affiliations %}
                     {%- assign filter_affiliation = alllogos | where: "name", affiliation %}
                     {%- if affiliation.size == 2 %}
-                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{affiliation | downcase}}">
-                        <button class="btn btn-sm text-dark bg-white pe-none" title="{{affiliation | downcase}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
+                    {%- assign country = affiliation | upcase %}
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{allcountries[country]}}">
+                        <button class="btn btn-sm text-dark bg-white pe-none" title="{{allcountries[country]}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
                     </span>
                     {%- elsif affiliation == "ALL" %}
-                    <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="All people">
+                        <button class="btn btn-sm text-dark bg-white pe-none" title="ALL"><div class="h-30px">ALL</div></button>
+                    </span>
                     {%- elsif filter_affiliation %}
                     {%- for result in filter_affiliation %}
-                    <a role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
+                    <a role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
@@ -55,14 +118,17 @@
                     {%- for audience in current_page.audience %}
                     {%- assign filter_audience = alllogos | where: "name", audience %}
                     {%- if audience.size == 2 %}
-                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{audience | downcase}}">
-                        <button class="btn btn-sm text-dark bg-white pe-none" title="{{audience | downcase}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
+                    {%- assign country = audience | upcase  %}
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{allcountries[country]}}">
+                        <button class="btn btn-sm text-dark bg-white pe-none" title="{{allcountries[country]}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
                     </span>
                     {%- elsif audience == "ALL" %}
-                    <div class="rounded text-dark bg-white d-inline-block py-1 px-2"><div class="h-30px">ALL</div></div>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="All people">
+                        <button class="btn btn-sm text-dark bg-white pe-none" title="ALL"><div class="h-30px">ALL</div></button>
+                    </span>
                     {%- elsif filter_audience %}
                     {%- for result in filter_audience %}
-                    <a  role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation | downcase}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
+                    <a  role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
