@@ -9,6 +9,11 @@ faircookbook:
 - name: Downloading data with Aspera
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/aspera.html 
 related_pages: 
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
 ---
 
 ## How do you transfer large data files?
