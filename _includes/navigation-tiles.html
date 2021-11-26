@@ -1,4 +1,4 @@
-{%- if include.filter %}
+{%- unless include.affiliations == nill and include.search == nill and include.related_pages == nill %}
 {%- assign allcountries = site.data.countries %}
 {%- for current_page in site.pages | sorted %}
 {%- if current_page.affiliations and current_page.search_exclude != true and current_page.type == include.type %}
@@ -11,8 +11,9 @@
 {%- endif %}
 {%- endfor %}
 {%- assign allaffiliations = allaffiliations | split: ", " | uniq | sort %}
-<div class="row g-4 my-4">
-    <div class="col-md-7">
+<div class="row g-4 row-cols-1 row-cols-md-2 my-4">
+    {%- unless include.affiliations == nill %}
+    <div class="col">
         <div class="input-group">
             <label class="input-group-text" for="affiliations-input">Filter by affiliation</label>
             <select class="form-select" id="affiliations-input" aria-label="Example select with button addon">
@@ -26,25 +27,29 @@
                 {%- endif %}
                 {%- endfor %}
             </select>
-            <button class="btn btn-primary" type="button" id="clearfilter">
+            <button class="btn btn-primary" title="Button to clear affiliations selection" type="button" id="clearfilter">
                 <i class="fas fa-backspace"></i>
             </button>
         </div>
     </div>
-    <div class="col-md-5">
+    {%- endunless %}
+    {%- unless include.search == nill %}
+    <div class="col">
         <div class="input-group">
             <span class="input-group-text" id="search-label">Search</span>
             <input type="text" id="title-search" class="form-control" onkeyup="buttonUp();" placeholder="Type here..." aria-label="{{page.type | replace: '_', ' ' |}}" aria-describedby="search-label">
-            <button class="btn btn-primary" type="button" id="clearsearch">
+            <button class="btn btn-primary" title="Button to clear search"  type="button" id="clearsearch">
                 <i class="fas fa-backspace"></i>
             </button>
         </div>
     </div>
+    {%- endunless %}
 </div>
-{%- endif %}
+{%- endunless %}
 <div class="row row-cols-1 row-cols-md-2 g-4 mb-5 navigation-tiles">
     {%- for current_page in site.pages | sorted %}
     {%- assign affiliations_classes = "" %}
+    {%- assign related_pages_classes = "" %}
     {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
     {%- if current_page.affiliations %}
     {%- capture affiliations_classes -%}
@@ -55,7 +60,7 @@
     {%- endfor %}{{affiliations_output}}
     {%- endcapture -%}
     {%- endif %}
-    <div class="col" data-affiliations="{{affiliations_classes}}">
+    <div class="col" data-affiliations="{{affiliations_classes}}" related-pages="{{related_pages_classes}}">
         <div class="card bg-light h-100">
             <div class="card-header bg-dark">
                 <a class="text-white" aria-label="Go to the {{current_page.title}} page" href="{{ current_page.url | relative_url }}"><h3 class="card-title m-0">{{current_page.title}}</h3></a>

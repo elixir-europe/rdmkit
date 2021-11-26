@@ -160,10 +160,13 @@ jQuery(function ($) { // DOM ready and $ in scope
  */
 
 $(document).ready(function () {
-    document
-        .getElementById("affiliations-input")
-        .addEventListener("change", function () {
-            document.getElementById('title-search').value = ''
+    var affiliations = document.getElementById('affiliations-input');
+    if (affiliations) {
+        affiliations.addEventListener("change", function () {
+            var search = document.getElementById('title-search')
+            if (search) {
+                search.value = '';
+            }
             const cols = document.querySelectorAll(".navigation-tiles .col");
             for (col of cols) {
                 const colCategories = col.getAttribute("data-affiliations").split(" ");
@@ -174,14 +177,22 @@ $(document).ready(function () {
                 }
             }
         });
-    document.getElementById("clearfilter").addEventListener("click", function () {
-        document.getElementById("affiliations-input").selectedIndex = null;
-        const cols = document.querySelectorAll(".navigation-tiles .col");
-        for (col of cols) {
-            const colCategories = col.getAttribute("data-affiliations").split(" ");
-            col.classList.remove("d-none");
-        }
-    });
+    }
+    var clearaffiliations = document.getElementById("clearfilter");
+    if (clearaffiliations) {
+        clearaffiliations.addEventListener("click", function () {
+            var affiliations = document.getElementById('affiliations-input');
+            if (affiliations) {
+                document.getElementById("affiliations-input").selectedIndex = null;
+                const cols = document.querySelectorAll(".navigation-tiles .col");
+                for (col of cols) {
+                    const colCategories = col.getAttribute("data-affiliations").split(" ");
+                    col.classList.remove("d-none");
+                }
+            }
+        });
+
+    }
 });
 
 /** 
@@ -190,27 +201,36 @@ $(document).ready(function () {
 
 var buttonUp = () => {
     const input = document.getElementById("title-search");
-    const cols = document.querySelectorAll(".navigation-tiles .col");
-    let filter = input.value.toLowerCase();
-    document.getElementById("affiliations-input").selectedIndex = null;
-    for (let i = 0; i < cols.length; i++) {
-        let body = cols[i].querySelector(".card-body");
-        let title = cols[i].querySelector(".card-header");
-        if (title.innerText.toLowerCase().indexOf(filter) > -1 || body.innerText.toLowerCase().indexOf(filter) > -1) {
-            cols[i].classList.remove("d-none");
-        } else {
-            cols[i].classList.add("d-none");
+    if (input) {
+        const cols = document.querySelectorAll(".navigation-tiles .col");
+        let filter = input.value.toLowerCase();
+        var affiliations = document.getElementById('affiliations-input');
+        if (affiliations) {
+            document.getElementById("affiliations-input").selectedIndex = null;
+        }
+        for (let i = 0; i < cols.length; i++) {
+            let body = cols[i].querySelector(".card-body");
+            let title = cols[i].querySelector(".card-header");
+            if (title.innerText.toLowerCase().indexOf(filter) > -1 || body.innerText.toLowerCase().indexOf(filter) > -1) {
+                cols[i].classList.remove("d-none");
+            } else {
+                cols[i].classList.add("d-none");
+            }
         }
     }
 }
 $(document).ready(function () {
-    document.getElementById("clearsearch").addEventListener("click", function () {
-        document.getElementById('title-search').value = ''
-        const cols = document.querySelectorAll(".navigation-tiles .col");
-        for (col of cols) {
-            const colCategories = col.getAttribute("data-affiliations").split(" ");
-            col.classList.remove("d-none");
-
-        }
-    });
+    var clearsearch = document.getElementById("clearsearch");
+    if (clearsearch) {
+        clearsearch.addEventListener("click", function () {
+            var search = document.getElementById('title-search')
+            if (search) {
+                search.value = ''
+                const cols = document.querySelectorAll(".navigation-tiles .col");
+                for (col of cols) {
+                    col.classList.remove("d-none");
+                }
+            }
+        });
+    }
 });
