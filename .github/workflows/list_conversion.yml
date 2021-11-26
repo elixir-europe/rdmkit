@@ -23,6 +23,9 @@ jobs:
       - name: Run tool table 2 yaml
         run: |
           python var/conversions.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+      - name: Fetch country names with corresponding iso
+        run: |
+          python var/country_list.py
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request

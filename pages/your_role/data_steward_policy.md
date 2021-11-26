@@ -8,7 +8,7 @@ training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS
     registry_url: https://tess.elixir-europe.org/
-    url: https://tess.elixir-europe.org/
+    url: https://tess.elixir-europe.org/search?q=%22policy%20officer%22#materials
 
   - name: RDNL - Essentials for Data Support
     registry:
