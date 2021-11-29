@@ -249,9 +249,9 @@ Bert Droesbeke:
 {% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
 
-## Adding an institute, project or funder
+## Adding an institution, infrastructure, project or funder
 
-institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations and audience in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations and audience in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
@@ -269,7 +269,7 @@ institutions, projects, funders and infrastructures are listed in the [affiliati
 - `url`: url towards the homepage of this association
 
 
-The logos can be added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/rdmkit/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
+The logos can be added to the [/images/institutions](https://github.com/elixir-europe/rdmkit/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/rdmkit/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
 {% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
