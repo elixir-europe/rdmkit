@@ -115,7 +115,7 @@
 - name: ELIXIR Europe
   image_url: /images/infrastructures/ELIXIR-logo.svg
   pid: 
-  rdmkit_about: false
+  rdmkit_about: true
   type: infrastructure
   url: https://elixir-europe.org/
 - name: Euro BioImaging
