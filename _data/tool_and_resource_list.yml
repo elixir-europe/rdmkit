@@ -279,6 +279,14 @@ Tools:
   - micro biotech
   - metadata
   - plants
+- description: Resource for management and analysis of 5D biological images
+  link: https://bioimage.ucsb.edu/bisque
+  name: BisQue
+  related_pages:
+  - data organisation
+  - data manager
+  - data analysis
+  - bioimaging data
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -339,6 +347,13 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: Store and publish your research data. Can be used to bridge between domains
+  link: https://b2share.eudat.eu/
+  name: b2share
+  related_pages:
+  - storage
+  - data publication
+  - bioimaging data
 - description: A highly useful and flexible tool for calibration of targeted MS?based
     measurements. CalibraCurve enables an automated batch-mode determination of dynamic
     linear ranges and quantification limits for both targeted proteomics and similar
@@ -564,6 +579,12 @@ Tools:
   related_pages:
   - transfer
   - IT support
+- description: Image Data management
+  link: https://github.com/cytomine/Cytomine-IMS
+  name: Cytomine-IMS
+  related_pages:
+  - data manager
+  - bioimaging data
 - description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
@@ -1746,6 +1767,13 @@ Tools:
   - researcher
   - data manager
   - XNAT-PIC
+- description: A file-system based platform handling the transfer of data
+  link: http://www.mytardis.org/
+  name: MyTardis
+  related_pages:
+  - transfer
+  - data manager
+  - bioimaging data
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications. Also boasts integrated
     tools for analysis.
@@ -2377,6 +2405,19 @@ Tools:
   related_pages:
   - IT support
   - data analysis
+- description: Added-value database for biological dynamics images
+  link: https://ssbd.riken.jp/database/
+  name: SSBD:database
+  related_pages:
+  - bioimaging data
+  - data publication
+- description: An open data archive that stores and publishes bioimaging and
+    biological quantitative datasets
+  link: https://ssbd.riken.jp/repository/
+  name: SSBD:repository
+  related_pages:
+  - bioimaging data
+  - data publication
 - description: Resource of standards for reporting enzyme data
   link: https://www.beilstein-institut.de/en/projects/strenda/
   name: Standards for Reporting Enzyme Data (STRENDA)
