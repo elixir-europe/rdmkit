@@ -195,6 +195,7 @@ Tools:
     tess: Bio-Formats
   related_pages:
   - ome
+  - bioimaging data
 - description: Platform designed to efficiently generate bioactive conformers and
     speed up the drug discovery process.
   link: https://mmb.irbbarcelona.org/BCE/
@@ -232,6 +233,7 @@ Tools:
     fairsharing: x38D2k
   related_pages:
   - data publication
+  - bioimaging data
 - description: A repository of mathematical models for application in biological sciences
   link: https://www.ebi.ac.uk/biomodels/
   name: BioModels
@@ -765,6 +767,7 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
 - description: Database of folding / unfolding pathway of representatives from all
     known protein folds by MD simulation
   link: http://www.dynameomics.org/
@@ -880,6 +883,7 @@ Tools:
   related_pages:
   - data publication
   - ome
+  - bioimaging data
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: https://www.ensembl.org/index.html
@@ -1081,6 +1085,7 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
 - description: A free FTP solution
   link: https://filezilla-project.org
   name: FileZilla
@@ -1352,6 +1357,7 @@ Tools:
   - metadata
   - transfer
   - ome
+  - bioimaging data
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   link: http://purl.obolibrary.org/obo/ICO.owl
@@ -1424,6 +1430,7 @@ Tools:
   - storage
   - IT support
   - transmed
+  - bioimaging data
 - description: Open source framework and tools helping to manage a diverse set of
     life science, environmental and biomedical experiments using the Investigation
     Study Assay (ISA) standard
@@ -1826,6 +1833,7 @@ Tools:
   - IT support
   - storage
   - ome
+  - bioimaging data
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
   link: https://www.omicsdi.org
@@ -2612,6 +2620,7 @@ Tools:
   - data analysis
   - transmed
   - XNAT-PIC
+  - bioimaging data
 - description: Analysing of single or multiple subjects within the same project in
     XNAT
   link: https://github.com/szullino/XNAT-PIC
@@ -2638,3 +2647,5 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
+
