@@ -109,7 +109,7 @@ Due to the scale of data, keeping track of the image data and the associated dat
    - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) -  image specific
    - [XNAT](https://www.xnat.org/) - medical imaging platform, DICOM-based
    - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data
-   - [BisQue](https://github.com/cytomine/Cytomine-IMS) - resource for management and analysis of 5D biological images 
+   - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images
   - Platforms like [OMERO](https://www.openmicroscopy.org/omero/), [b2share](https://b2share.eudat.eu/) also allow you to publish the data associated with a given project.
 
 Misc:
