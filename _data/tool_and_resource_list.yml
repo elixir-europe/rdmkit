@@ -1523,6 +1523,7 @@ Tools:
   link: https://jupyter.org
   name: Jupyter
   registry:
+    biotools: jupyter
     tess: Jupyter
   related_pages:
   - IT support
