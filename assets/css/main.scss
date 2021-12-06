@@ -154,10 +154,9 @@ pre code {
 
 /*-----Top navigation-----*/
 
-.navbar-nav .nav-item a.active {
+.navbar-nav .nav-item > a.active {
     color: $white;
     background-color: $primary;
-    border-radius: $border-radius;
 }
 
 .navbar-brand img {
@@ -178,6 +177,7 @@ pre code {
     background-color: $white;
     box-shadow: $box-shadow;
     border-radius: $border-radius;
+    z-index: $zindex-dropdown;
 }
 
 @media (max-width: 992px) {
