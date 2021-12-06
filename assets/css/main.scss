@@ -166,17 +166,6 @@ pre code {
 
 /*-----Search box top navigation-----*/
 
-.search {
-    position: relative;
-    z-index: 2;
-}
-
-.search .fa-search {
-    position: absolute;
-    color: $primary;
-    top: 12px;
-    left: 15px;
-}
 
 .search-results {
     position: absolute;
@@ -453,15 +442,6 @@ footer a {
 footer a:hover {
     color: $primary;
     text-decoration: none;
-}
-
-footer .europe-flag {
-    width: 80px;
-    padding-top: 18px;
-}
-
-footer .company-logo {
-    float: right;
 }
 
 /* -----Homepage----- */
