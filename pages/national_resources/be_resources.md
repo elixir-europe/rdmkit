@@ -75,7 +75,7 @@ resources:
       your_role: [data manager, researcher, IT support]
       your_tasks: [transfer]
     url: https://belnet.be/en
- - name: Flemish Supercomputing Center (VSC)
+  - name: Flemish Supercomputing Center (VSC)
     description: VSC is the Flanders' most highly integrated high-performance research computing environment, providing world-class services to government, industry, and researchers.
     how_to_access:
     related_pages:
