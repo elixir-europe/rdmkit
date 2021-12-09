@@ -33,7 +33,6 @@
                 {%- assign related_page = site.pages | where:"page_id",tag | first %}
                 <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
                 {%- endfor %}
-                {% if tool.country %}{% for country in tool.country %}<span class="flag-icon flag-icon-{{country | downcase }} rounded align-middle"></span>{% endfor %}{% endif %}
                 {%- endcapture %}
                 <td>{{related_pages}}</td>
                 <td style="text-align: center; vertical-align: middle;">
@@ -60,6 +59,33 @@
                 </td> 
             </tr>
             {%- endfor %}
+            {%- if include.tag %}
+            {%- assign country_pages = site.pages | where: "type", "national_resources" | where: "search_exclude", "false" %}
+            {%- for country_page in country_pages %}
+            {%- assign query = "related_pages." | append: page.type %}
+            {%- assign tool_matches = country_page.resources | where: query, include.tag %}
+            {%- for tool in tool_matches | sort %}
+            <tr>
+                {% if tool.url %}
+                <td><a href="{{tool.url}}">{{tool.name}}</a></td>
+                {%- else %}
+                <td>{{tool.name}}</td>
+                {%- endif %}
+                <td>{{tool.description}}</td>
+                {%- capture related_pages %}
+                {%- for section in tool.related_pages %}
+                {%- for tag in section[1] %}
+                {%- assign related_page = site.pages | where:"page_id",tag | first %}
+                <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
+                {%- endfor %}
+                {%- endfor %}
+                {%- endcapture %}
+                <td>{{related_pages}}</td>
+                <td></td>
+            </tr>
+            {%- endfor %}
+            {%- endfor %}
+            {%- endif %}
         </tbody>
     </table>
 </div>

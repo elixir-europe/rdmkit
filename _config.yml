@@ -51,6 +51,7 @@ defaults:
       layout: "page"
       sidebar: main
       topnav: topnav
+      search_exclude: false
   -
     scope:
       path: "pages/data_life_cycle"
