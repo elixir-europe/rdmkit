@@ -62,12 +62,16 @@
             </tr>
             {%- endfor %}
             {%- if include.tag %}
+            {%- assign total_county_tools = 0 %}
             {%- assign country_pages = site.pages | where: "type", "national_resources" | where: "search_exclude", "false" %}
             {%- for country_page in country_pages %}
             {%- assign query = "related_pages." | append: page.type %}
             {%- assign tool_matches = country_page.resources | where: query, include.tag %}
+            {%- unless tool_matches == blank %}
+            {%- assign total_county_tools = total_county_tools | plus: 1 %}
+            {%- endunless %}
             {%- for tool in tool_matches | sort %}
-            <tr>
+            <tr class="collapse" id="resource_table">
                 {% if tool.url %}
                 <td><a href="{{tool.url}}">{{tool.name}}</a></td>
                 {%- else %}
@@ -93,5 +97,10 @@
         </tbody>
     </table>
 </div>
+{%- unless total_county_tools == 0 %}
+<a class="btn btn-primary" data-bs-toggle="collapse" href="#resource_table" role="button" aria-expanded="false" aria-controls="resource_table">
+    View national resources <span class="badge bg-white text-primary ms-2">{{total_county_tools}}</span>
+  </a>
+{%- endunless %}
 <div id="skip-tool-table"></div>
 {%- endunless %}
