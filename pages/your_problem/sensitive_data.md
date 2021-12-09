@@ -18,7 +18,7 @@ What is considered sensitive information is usually regulated by national laws a
 
 ### Considerations
 
-* If you deal with any information about individuals from the EU, you are bound by the General Data Protection Regulation (GDPR), such data is called “personal data”.
+* If you deal with any information about individuals from the EU, you are bound by the [General Data Protection Regulation (GDPR)](https://gdpr.eu/what-is-gdpr/). In GDPR, such data is called "personal data".
 * Confusingly, in the context of GDPR "sensitive data" is a subclass of "personal data" that is potentially even more harmful (defined in Article 9), and GDPR prescribes very strict rules for dealing with this data. Note that this page is concerned with the broader definition of "sensitive data". GDPR calls personal data sensitive consisting of racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person's sex life or sexual orientation.  
 * Information in Life Science projects are for the most part categorised under health and genetic data and are considered sensitive under the GDPR.
 * You need to assess whether or not your dataset contains personally identifying attributes. Note that combinations of attributes that are themselves not identifyable can be identifyable together.
