@@ -5,7 +5,7 @@ country_code: BE
 contributors: [Flora D'Anna]
 coordinators: [Flora D'Anna]
 related_pages: 
-
+  tool_assembly: [plant geno assembly]
 training:
   - name: Training in TeSS
     registry: TeSS
