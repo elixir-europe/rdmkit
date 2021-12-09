@@ -29,7 +29,7 @@ resources:
       your_role: [<!---REPLACE THIS with the page ID of the role pages that you want to list here as related pages--->]
       your_tasks: [<!---REPLACE THIS with the page ID of the tasks pages that you want to list here as related pages--->]
     url: https://www.elixir-belgium.org    
- - name: ELIXIR Belgium GitHub
+  - name: ELIXIR Belgium GitHub
     description: ELIXIR Belgium GitHub repositories.
     how_to_access:
     related_pages:
@@ -47,7 +47,6 @@ resources:
       your_role: [researcher, data manager]
       your_tasks: [<!---REPLACE THIS with the page ID of the tasks pages that you want to list here as related pages--->]
     url: https://rdm.elixir-belgium.org
-    
   - name: Galaxy Belgium
     description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the Flemish Supercomputer Center (VSC).
     how_to_access:
@@ -57,7 +56,6 @@ resources:
       your_role: [researcher]
       your_tasks: [data analysis]
     url: https://galaxy.sciensano.be/
-    
   - name: Galaxy Sciensano
     description: Galaxy Sciensano is a Galaxy server dedicated completely towards public health applications, focusing heavily on making available tools, pipelines and databases relevant for using WGS for routine pathogen typing and characterization in an applied public health setting.
     how_to_access:
@@ -67,7 +65,6 @@ resources:
       your_role: [policy officer, researcher]
       your_tasks: [data analysis]
     url: https://galaxy.sciensano.be/
-
   - name: ENA upload tool
     description: The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
     how_to_access:
