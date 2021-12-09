@@ -4,12 +4,35 @@ country_code: "NO"
 contributors: [Korbinian Bösl]
 coordinators: [Korbinian Bösl]
 resources:
-  - name: NeLS
-    description: test
+  - name: Feide
+    description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with ELIXIR-AAI through eduGAIN.
     how_to_access: 
     related_pages:
-      tool_assembly: [nels]
-    url:
+      tool_assembly: [TSD, NELS]
+      your_domain: [marine assembly]
+    url: https://www.feide.no/
+  - name: Meta-pipe
+    description: META-pipe is a pipeline for annotation and analysis of marine metagenomics samples, which provides insight into phylogenetic diversity, metabolic and functional potential of environmental communities.
+    how_to_access: 
+    related_pages:
+      your_tasks: [data analysis]
+      your_domain: [marine assembly]
+    url: https://galaxy-uit.bioinfo.no/root/index
+  - name: NeLS
+    description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data
+    how_to_access: 
+    related_pages:
+      tool_assembly: [NeLS]
+      your_domain: [marine assembly]
+    url: https://nels.bioinfo.no
+  - name: RETTE
+    description: System for Risk and compliance. Processing of personal data in research and student projects at UiB.
+    how_to_access: 
+    related_pages:
+      your_domain: [human data]
+      your_tasks: [data protection, sensitive]
+      your_role: [policy officer, data manager]
+    url: https://rette.app.uib.no/
 
 ---
 
