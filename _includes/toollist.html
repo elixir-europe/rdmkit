@@ -72,16 +72,16 @@
             {%- endunless %}
             {%- endfor %}
             {%- unless total_county_tools == 0 %}
-            <tr class="{% unless page.type == 'tool_assembly' %}collapse{% endunless %} bg-light" id="resource_table"><td colspan="4">National resources</td></tr>
+            <tr class="{% unless page.type == 'tool_assembly' %}collapse{% endunless %} bg-light" id="resource_table"><td colspan="4"><b>National resources</b></td></tr>
             {%- endunless %}
             {%- for country_page in country_pages %}
             {%- assign tool_matches = country_page.resources | where: query, include.tag %}
             {%- for tool in tool_matches | sort %}
             <tr class="{% unless page.type == 'tool_assembly' %}collapse{% endunless %}" id="resource_table">
                 {% if tool.url %}
-                <td><a href="{{tool.url}}">{{tool.name}}</a></td>
+                <td><span class="flag-icon me-2 flag-icon-{{country_page.country_code | downcase }}"></span><a href="{{tool.url}}">{{tool.name}}</a></td>
                 {%- else %}
-                <td>{{tool.name}}</td>
+                <td><span class="flag-icon me-2 flag-icon-{{country_page.country_code | downcase }}"></span>{{tool.name}}</td>
                 {%- endif %}
                 <td>{{tool.description}}</td>
                 {%- capture related_pages %}

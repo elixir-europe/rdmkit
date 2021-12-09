@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="position-absolute top-0 start-100 translate-middle">
-            {% if page.coordinators %}{% for coordinator in page.coordinators %}{% if coordinator == contributor %}<i class="fa fa-crown"></i>{% endif %}{% endfor %}{% endif %}
+            {% if page.coordinators %}{% for coordinator in page.coordinators %}{% if coordinator == contributor %}<i class="fa fa-crown text-dark"></i>{% endif %}{% endfor %}{% endif %}
         </div>
     </a>
     {%- endfor %}
