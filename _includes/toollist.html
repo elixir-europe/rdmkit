@@ -30,8 +30,10 @@
                 <td>{{tool.description}}</td>
                 {%- capture related_pages %}
                 {%- for tag in tool.related_pages %}
+                {%- unless tag == page.page_id %}
                 {%- assign related_page = site.pages | where:"page_id",tag | first %}
                 <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
+                {%- endunless %}
                 {%- endfor %}
                 {%- endcapture %}
                 <td>{{related_pages}}</td>
@@ -75,8 +77,10 @@
                 {%- capture related_pages %}
                 {%- for section in tool.related_pages %}
                 {%- for tag in section[1] %}
+                {%- unless tag == page.page_id %}
                 {%- assign related_page = site.pages | where:"page_id",tag | first %}
                 <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
+                {%- endunless %}
                 {%- endfor %}
                 {%- endfor %}
                 {%- endcapture %}
