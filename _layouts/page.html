@@ -5,11 +5,14 @@ layout: default
     {%- if page.title %}
     <h1>{{ page.title }}
         {%- unless site.git_editme_path == nil %}
-        {%- if page.custom-editme %}
-        <a role="button" href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn hover-primary text-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit me</a>
-        {%- else %}
-        <a role="button" href="{{site.git_editme_path}}{{page.path}}" class="btn hover-primary text-primary btn-sm"><i class="fas fa-pencil-alt"></i> Edit me</a>
-        {%- endif %}
+        <div class="btn-group">
+            {%- if page.custom-editme %}
+            <a role="button" data-bs-toggle="tooltip" title="Propose changes to the content of this page on GitHub" href="{{site.git_editme_path}}{{page.custom-editme}}" class="btn hover-primary text-primary"><i class="fas fa-pencil-alt"></i></a>
+            {%- else %}
+            <a role="button" data-bs-toggle="tooltip" title="Propose changes to this page on GitHub"  href="{{site.git_editme_path}}{{page.path}}" class="btn hover-primary text-primary"><i class="fas fa-pencil-alt"></i></a>
+            {%- endif %}
+            <a role="button" data-bs-toggle="tooltip" title="Check out the history of this page" href="{{site.git_history_path}}{{page.path}}" class="btn hover-primary text-primary"><i class="fas fa-history"></i></a>
+        </div>
         {%- endunless %}
     </h1>
     {%- endif %}
