@@ -43,8 +43,8 @@ resources:
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 
-## Funders in <!---Type Country Name--->
+## Funders
 
-## Regulations in <!---Country Name--->
+## Regulations
 
-## Domain-specific infrastructures/resources (e.g. human data, covid-19) in <!---Country Name--->
+## Domain-specific infrastructures/resources

@@ -22,3 +22,14 @@ resources:
     url: https://www.dmptuuli.fi/
     
 ---
+
+## Introduction 
+
+<!---General RDM considerations for your country, how to deal with RDM on a national level--->
+
+## Funders
+
+## Regulations
+
+## Domain-specific infrastructures/resources
+

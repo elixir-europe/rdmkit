@@ -13,3 +13,14 @@ resources:
       your_tasks: [DMP]
     url: https://dmp.opidor.fr
 ---
+
+
+## Introduction 
+
+<!---General RDM considerations for your country, how to deal with RDM on a national level--->
+
+## Funders
+
+## Regulations
+
+## Domain-specific infrastructures/resources
