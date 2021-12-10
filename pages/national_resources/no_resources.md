@@ -134,7 +134,7 @@ We provide here a list of higher education institutions with Data Management Pol
 
 ## Acts and Laws Relevant to Life Sciences Research and Data in Norway
 ### Privacy
-* [Personvernforordningen] (https://lovdata.no/dokument/RFA/lov/2000-04-14-31)
+* [Personvernforordningen](https://lovdata.no/dokument/RFA/lov/2000-04-14-31)
 * [Forskrift om behandling av personopplysninger](https://lovdata.no/dokument/SF/forskrift/2018-06-15-876)
 * [Overgangsregler om behandling av personopplysninger](https://lovdata.no/dokument/SF/forskrift/2018-06-15-877)
 
