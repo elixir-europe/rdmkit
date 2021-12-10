@@ -2,6 +2,8 @@ Tools:
 - description: A standard schema for primary biodiversity data
   link: https://www.tdwg.org/standards/abcd/
   name: Access to Biological Collection Data Schema (ABCD)
+  registry:
+    biotools: abcd
   related_pages:
   - micro biotech
 - description: Ada is a performant and highly configurable system for secured integration,
@@ -15,11 +17,15 @@ Tools:
 - description: A searchable repository with a focus on plasmids
   link: https://www.addgene.org/browse/
   name: Addgene
+  registry:
+    fairsharing: 8hcczk
   related_pages:
   - micro biotech
 - description: Amazon Web Services
   link: https://aws.amazon.com/
   name: Amazon Web Services
+  registry:
+    tess: Amazon Web Services
   related_pages:
   - storage
   - data analysis
@@ -58,6 +64,10 @@ Tools:
 - description: A repository of array based genomics data
   link: https://www.ebi.ac.uk/arrayexpress/
   name: ArrayExpress
+  registry:
+    biotools: arrayexpress
+    fairsharing: 6k0kwd
+    tess: ArrayExpress
   related_pages:
   - micro biotech
 - description: With Arvados, bioinformaticians run and scale compute-intensive workflows,
@@ -81,6 +91,8 @@ Tools:
     tools
   link: https://www.lgcstandards-atcc.org/en.aspx#
   name: ATCC
+  registry:
+    biotools: atcc
   related_pages:
   - micro biotech
 - description: Free, publicly available web-based, open-source software application
@@ -88,6 +100,10 @@ Tools:
     analyses to generate real world evidence from patient level observational data.
   link: https://github.com/OHDSI/Atlas/wiki
   name: Atlas
+  registry:
+    biotools: atlas
+    fairsharing: dvyrsz
+    tess: Atlas
   related_pages:
   - data manager
   - researcher
@@ -95,18 +111,21 @@ Tools:
 - description: A searchable database for bacteria specific information
   link: https://bacdive.dsmz.de
   name: BacDive
+  registry:
+    biotools: bacdive
   related_pages:
   - micro biotech
 - description: A repository specific to Bacillus strains
   link: http://www.bgsc.org/
   name: Bacillus Genetic Stock Center (BGSC)
-  registry:
-    biotools: NA
   related_pages:
   - micro biotech
 - description: A search engine for academic web resources
   link: https://www.base-search.net/
   name: BASE
+  registry:
+    biotools: base
+    tess: BASE
   related_pages:
   - existing data
 - description: The ELSI Knowledge Base is an open-access resource platform that aims
@@ -122,6 +141,9 @@ Tools:
 - description: The Beacon protocol defines an open standard for genomics data discovery.
   link: https://beacon-project.io/
   name: Beacon
+  registry:
+    biotools: beacon
+    tess: Beacon
   related_pages:
   - researcher
   - data manager
@@ -170,6 +192,7 @@ Tools:
   name: Bio-Formats
   registry:
     biotools: bio-formats
+    tess: Bio-Formats
   related_pages:
   - ome
 - description: Platform designed to efficiently generate bioactive conformers and
@@ -185,6 +208,7 @@ Tools:
   name: Bioconda
   registry:
     biotools: bioconda
+    tess: Bioconda
   related_pages:
   - IT support
   - data analysis
@@ -211,6 +235,10 @@ Tools:
 - description: A repository of mathematical models for application in biological sciences
   link: https://www.ebi.ac.uk/biomodels/
   name: BioModels
+  registry:
+    biotools: biomodels
+    fairsharing: paz6mh
+    tess: BioModels
   related_pages:
   - micro biotech
 - description: BIONDA is a free and open-access biomarker database, which employs
@@ -230,7 +258,9 @@ Tools:
   link: https://www.ebi.ac.uk/biosamples/
   name: BioSamples
   registry:
+    biotools: biosamples
     fairsharing: ewjdq6
+    tess: BioSamples
   related_pages:
   - metadata
   - plants
@@ -239,6 +269,10 @@ Tools:
     or accessing data that is not compliant for mainstream repositories.
   link: https://www.ebi.ac.uk/biostudies/
   name: BioStudies
+  registry:
+    biotools: biostudies
+    fairsharing: mtjvme
+    tess: BioStudies
   related_pages:
   - micro biotech
   - metadata
@@ -253,6 +287,8 @@ Tools:
 - description: Biological Magnetic Resonance Data Bank
   link: https://bmrb.io/
   name: BMRB
+  registry:
+    biotools: bmrb
   related_pages:
   - IDP
   - researcher
@@ -268,6 +304,8 @@ Tools:
 - description: Cloud storage and file sharing service
   link: https://www.box.com
   name: Box
+  registry:
+    tess: Box
   related_pages:
   - storage
   - IT support
@@ -276,6 +314,8 @@ Tools:
     phenotyping data'
   link: https://www.brapi.org
   name: BrAPI
+  registry:
+    tess: BrAPI
   related_pages:
   - IT support
   - plants
@@ -285,7 +325,9 @@ Tools:
   link: https://www.brenda-enzymes.org/
   name: BRENDA
   registry:
+    biotools: brenda
     fairsharing: etp533
+    tess: BRENDA
   related_pages:
   - micro biotech
 - description: File renaming software for Windows
@@ -323,6 +365,8 @@ Tools:
     a subdivision of the American Chemical Society.
   link: https://www.cas.org/cas-data/cas-registry
   name: CAS Registry
+  registry:
+    fairsharing: r7Kwy7
   related_pages:
   - toxicology data
 - description: Castor is an EDC system for researchers and institutions. With Castor,
@@ -333,7 +377,7 @@ Tools:
   link: https://www.castoredc.com
   name: Castor
   registry:
-    fairsharing: NA
+    biotools: castor
   related_pages:
   - identifiers
   - IT support
@@ -343,7 +387,9 @@ Tools:
   link: http://www.cathdb.info/
   name: CATH
   registry:
+    biotools: cath
     fairsharing: xgcyyn
+    tess: CATH
 - description: A version management tool for modifying strains
   link: https://cellrepo.herokuapp.com/
   name: CellRepo
@@ -353,6 +399,8 @@ Tools:
     applications in microscopy
   link: https://www.ebi.ac.uk/cmpo/
   name: Cellular Microscopy Phenotype Ontology (CMPO)
+  registry:
+    tess: Cellular Microscopy Phenotype Ontology (CMPO)
   related_pages:
   - micro biotech
 - description: CERNBox cloud data storage, sharing and synchronization
@@ -364,7 +412,9 @@ Tools:
   link: https://www.ebi.ac.uk/chebi/
   name: ChEBI
   registry:
+    biotools: chebi
     fairsharing: 62qk8w
+    tess: ChEBI
   related_pages:
   - micro biotech
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures,
@@ -374,6 +424,7 @@ Tools:
   registry:
     biotools: chembl
     fairsharing: m3jtpg
+    tess: ChEMBL
   related_pages:
   - data analysis
   - researcher
@@ -389,6 +440,8 @@ Tools:
 - description: Choose an open source license
   link: https://choosealicense.com
   name: Choose a license
+  registry:
+    tess: Choose a license
   related_pages:
   - licensing
   - researcher
@@ -398,6 +451,8 @@ Tools:
     of medicine which makes available private and public-funded clinical trials.
   link: https://clinicaltrials.gov/
   name: ClinicalTrials.gov
+  registry:
+    fairsharing: mewhad
   related_pages:
   - toxicology data
 - description: An open standard for describing workflows that are build from command
@@ -406,6 +461,7 @@ Tools:
   name: Common Workflow Language (CWL)
   registry:
     fairsharing: 8y5ayx
+    tess: Common Workflow Language (CWL)
   related_pages:
   - IT support
   - researcher
@@ -420,6 +476,7 @@ Tools:
   name: Comptox
   registry:
     biotools: comptox_chemistry_dashboard
+    fairsharing: tfj7gt
   related_pages:
   - toxicology data
 - description: An initiative to bring together various formats and standard for computational
@@ -431,6 +488,8 @@ Tools:
 - description: Open source package management system
   link: https://docs.conda.io/en/latest/
   name: Conda
+  registry:
+    tess: Conda
   related_pages:
   - IT support
   - data analysis
@@ -478,6 +537,7 @@ Tools:
   name: Crop Ontology
   registry:
     fairsharing: wgfrmg
+    tess: Crop Ontology
   related_pages:
   - researcher
   - data manager
@@ -521,7 +581,7 @@ Tools:
   link: https://datacatalog.elixir-luxembourg.org/
   name: Data Catalog
   registry:
-    fairsharing: NA
+    tess: Data Catalog
   related_pages:
   - metadata
   - transmed
@@ -548,6 +608,7 @@ Tools:
   name: Data Stewardship Wizard
   registry:
     biotools: Data_Stewardship_Wizard
+    tess: Data Stewardship Wizard
   related_pages:
   - DMP
   - researcher
@@ -561,6 +622,7 @@ Tools:
   name: Data Use Ontology
   registry:
     fairsharing: 5dnjs2
+    tess: Data Use Ontology
   related_pages:
   - data manager
   - researcher
@@ -583,7 +645,7 @@ Tools:
   link: https://dataverse.org/
   name: DATAVERSE
   registry:
-    fairsharing: NA
+    tess: DATAVERSE
   related_pages:
   - storage
   - researcher
@@ -603,6 +665,7 @@ Tools:
   link: https://www.ncbi.nlm.nih.gov/gap/
   name: dbGAP
   registry:
+    biotools: dbgap
     fairsharing: 88v2k0
   related_pages:
   - data publication
@@ -615,6 +678,7 @@ Tools:
   name: DisGeNET
   registry:
     biotools: disgenet
+    fairsharing: fssydn
   related_pages:
   - data analysis
   - human data
@@ -647,6 +711,8 @@ Tools:
     data management plan templates for many major funders.
   link: https://dmponline.dcc.ac.uk/
   name: DMPonline
+  registry:
+    tess: DMPonline
   related_pages:
   - DMP
   - researcher
@@ -661,6 +727,8 @@ Tools:
 - description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
+  registry:
+    biotools: ddbj
   related_pages:
   - micro biotech
 - description: Docker is a software for the execution of applications in virtualized
@@ -670,6 +738,7 @@ Tools:
   name: Docker
   registry:
     fairsharing-coll: bsg-d001254
+    tess: Docker
   related_pages:
   - IT support
   - data analysis
@@ -758,6 +827,7 @@ Tools:
   name: ELIXIR Core Data Resources
   registry:
     fairsharing-coll: bsg-c000039
+    tess: ELIXIR Core Data Resources
   related_pages:
   - existing data
   - Covid-19
@@ -778,6 +848,8 @@ Tools:
 - description: The ELIXIR Authentication and Authorisation Infrastructure (AAI)
   link: https://elixir-europe.org/services/compute/aai
   name: ELIXIR-AAI
+  registry:
+    tess: ELIXIR-AAI
   related_pages:
   - sensitive
   - NeLS
@@ -786,6 +858,8 @@ Tools:
 - description: "EMBL-EBI\u2019s web portal for finding ontologies"
   link: https://www.ebi.ac.uk/ols/index
   name: EMBL-EBI Ontology Lookup Service
+  registry:
+    tess: EMBL-EBI Ontology Lookup Service
   related_pages:
   - metadata
   - data manager
@@ -811,18 +885,23 @@ Tools:
   link: https://www.ensembl.org/index.html
   name: Ensembl
   registry:
+    biotools: ensembl
     fairsharing: fx0mw7
+    tess: Ensembl
 - description: Comparative analysis, data mining and visualisation for the genomes
     of non-vertebrate species
   link: https://ensemblgenomes.org/
   name: Ensembl Genomes
   registry:
+    biotools: ensembl_genomes
     fairsharing: 923a0p
+    tess: Ensembl Genomes
 - description: Open-access database of full genomes of plant species.
   link: https://plants.ensembl.org/
   name: Ensembl Plants
   registry:
     fairsharing: j8g2cv
+    tess: Ensembl Plants
   related_pages:
   - plant geno assembly
 - description: Regulation (eu) 2016/679 of the european parliament and of the council
@@ -873,7 +952,9 @@ Tools:
   link: https://europepmc.org/
   name: Europe PMC
   registry:
+    biotools: europe_pmc
     fairsharing: cmw6mm
+    tess: Europe PMC
   related_pages:
   - researcher
 - description: A record of sequence information scaling from raw sequcning reads to
@@ -881,7 +962,9 @@ Tools:
   link: https://www.ebi.ac.uk/ena/browser/home
   name: European Nucleotide Archive (ENA)
   registry:
+    biotools: ena
     fairsharing: dj8nt8
+    tess: European Nucleotide Archive (ENA)
   related_pages:
   - micro biotech
   - plant geno assembly
@@ -890,6 +973,7 @@ Tools:
   link: https://www.ebi.ac.uk/eva/
   name: European Variation Archive (EVA)
   registry:
+    biotools: eva
     fairsharing: 6824pv
   related_pages:
   - plant geno assembly
@@ -954,6 +1038,7 @@ Tools:
   name: FAIRDOM-SEEK
   registry:
     biotools: seek
+    tess: FAIRDOM-SEEK
   related_pages:
   - storage
   - IT support
@@ -978,6 +1063,7 @@ Tools:
   name: fairsharing
   registry:
     fairsharing: 2abjs5
+    tess: fairsharing
   related_pages:
   - metadata
   - data publication
@@ -991,6 +1077,7 @@ Tools:
   name: FigShare
   registry:
     fairsharing: drtwnh
+    tess: FigShare
   related_pages:
   - data publication
   - biomol sim
@@ -1039,6 +1126,7 @@ Tools:
   name: Galaxy
   registry:
     biotools: galaxy
+    tess: Galaxy
   related_pages:
   - NeLS
   - marine assembly
@@ -1050,6 +1138,10 @@ Tools:
     to the data format used for storing information around genetic sequence data.
   link: https://www.ncbi.nlm.nih.gov/genbank/
   name: GenBank
+  registry:
+    biotools: genbank
+    fairsharing: 9kahy4
+    tess: GenBank
   related_pages:
   - micro biotech
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput
@@ -1072,6 +1164,8 @@ Tools:
     community.
   link: https://www.ncbi.nlm.nih.gov/geo/
   name: GEO
+  registry:
+    tess: GEO
   related_pages:
   - toxicology data
 - description: GHS (Globally Harmonized System of Classification and Labelling of
@@ -1088,6 +1182,8 @@ Tools:
     small to very large projects
   link: https://git-scm.com/
   name: Git
+  registry:
+    tess: Git
   related_pages:
   - data organisation
   - data manager
@@ -1098,6 +1194,7 @@ Tools:
   name: GitHub
   registry:
     fairsharing-coll: bsg-d001160
+    tess: GitHub
   related_pages:
   - data publication
   - data organisation
@@ -1108,6 +1205,8 @@ Tools:
     GitLab on your own servers, in a container, or on a cloud provider.
   link: https://gitlab.com/gitlab-org/gitlab
   name: GitLab
+  registry:
+    tess: GitLab
   related_pages:
   - data organisation
   - data publication
@@ -1135,6 +1234,8 @@ Tools:
 - description: Search engine for datasets
   link: https://datasetsearch.research.google.com/
   name: Google Dataset Search
+  registry:
+    tess: Google Dataset Search
   related_pages:
   - existing data
 - description: Cloud Storage for Work and Home
@@ -1190,6 +1291,7 @@ Tools:
   name: Human Protein Atlas
   registry:
     fairsharing: j0t0pe
+    tess: Human Protein Atlas
   related_pages:
   - proteomics
 - description: HumanMine integrates many types of human data and provides a powerful
@@ -1199,6 +1301,8 @@ Tools:
   name: HumanMine
   registry:
     biotools: humanmine
+    fairsharing: RJ99Pj
+    tess: HumanMine
   related_pages:
   - data organisation
   - data manager
@@ -1240,6 +1344,7 @@ Tools:
   link: https://idr.openmicroscopy.org
   name: Image Data Resource (IDR)
   registry:
+    biotools: idr
     fairsharing: 6wf1zw
   related_pages:
   - micro biotech
@@ -1269,6 +1374,8 @@ Tools:
     and NCBI
   link: http://www.insdc.org
   name: International Nucleotide Sequence Database Collaboration (INSDC)
+  registry:
+    biotools: insdc
   related_pages:
   - micro biotech
 - description: Data standards and formats for reporting flow cytometry data
@@ -1286,7 +1393,9 @@ Tools:
   link: https://www.ebi.ac.uk/interpro/
   name: InterPro
   registry:
+    biotools: interpro
     fairsharing: pda11d
+    tess: InterPro
 - description: IntoGen collects and analyses somatic mutations in thousands of tumor
     genomes to identify cancer driver genes.
   link: https://www.intogen.org/search
@@ -1300,6 +1409,9 @@ Tools:
     on health that might arise after exposure to environmental contaminants.
   link: https://www.epa.gov/iris
   name: IRIS
+  registry:
+    biotools: iris
+    tess: IRIS
   related_pages:
   - toxicology data
 - description: Integrated Rule-Oriented Data System (iRODS) is open source data management
@@ -1346,6 +1458,8 @@ Tools:
     and a link to each organization for further details.
   link: https://www.tera.org/iter/
   name: ITER
+  registry:
+    tess: ITER
   related_pages:
   - toxicology data
 - description: A collaborative resource from IUPAC and IUBMB for naming standards
@@ -1362,12 +1476,16 @@ Tools:
 - description: Jupyter notebooks allow to share code, documentation
   link: https://jupyter.org
   name: Jupyter
+  registry:
+    tess: Jupyter
   related_pages:
   - IT support
   - data analysis
 - description: Keycloak is an open source identity and data access management solution.
   link: https://www.keycloak.org/
   name: Keycloak
+  registry:
+    tess: Keycloak
   related_pages:
   - IT support
   - transmed
@@ -1400,6 +1518,8 @@ Tools:
 - description: EuroHPC world-class supercomputer
   link: https://www.lumi-supercomputer.eu/
   name: LUMI
+  registry:
+    biotools: lumi
   related_pages:
   - data analysis
   - researcher
@@ -1450,7 +1570,6 @@ Tools:
   link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
   name: Multi-Crop Passport Descriptor (MCPD)
   registry:
-    biotools: NA
     fairsharing: hn155r
   related_pages:
   - metadata
@@ -1476,6 +1595,8 @@ Tools:
 - description: A repository of genomics data relating to the study of the metabolome
   link: http://www.metabolomexchange.org/site/
   name: MetabolomeXchange
+  registry:
+    biotools: metabolomexchange
   related_pages:
   - micro biotech
 - description: Minimum Information About Disorder Experiments (MIADE) standard
@@ -1491,6 +1612,7 @@ Tools:
   name: MIAPPE
   registry:
     fairsharing: nd9ce9
+    tess: MIAPPE
   related_pages:
   - metadata
   - researcher
@@ -1527,12 +1649,14 @@ Tools:
   link: https://mint.bio.uniroma2.it/
   name: MINT
   registry:
+    biotools: mint
     fairsharing: 2bdvmk
 - description: Minimum Information about any (x) Sequence
   link: https://gensc.org/mixs/
   name: MIxS
   registry:
     fairsharing: 9aa0zp
+    tess: MIxS
   related_pages:
   - metadata
   - researcher
@@ -1544,6 +1668,7 @@ Tools:
   name: MobiDB
   registry:
     biotools: mobidb
+    fairsharing: jwra3e
   related_pages:
   - IDP
   - researcher
@@ -1553,6 +1678,8 @@ Tools:
   name: MoDEL
   registry:
     biotools: model
+    fairsharing: vxz9pn
+    tess: MoDEL
   related_pages:
   - biomol sim
 - description: Database of COVID-19 related atomistic Molecular Dynamic Trajectories
@@ -1597,6 +1724,8 @@ Tools:
     Assessments
   link: https://open-source-security-software.net/project/MONARC
   name: MONARC
+  registry:
+    fairsharing: b2979t
   related_pages:
   - data protection
   - policy officer
@@ -1627,6 +1756,8 @@ Tools:
 - description: NCBI's taxonomy browser is a database of biodiversity information
   link: https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/
   name: NCBI Taxonomy
+  registry:
+    fairsharing: fj07xj
   related_pages:
   - micro biotech
 - description: Hosts information relating to strains, cultures and more
@@ -1651,6 +1782,9 @@ Tools:
 - description: Nextflow is a framework for data analysis workflow execution
   link: https://www.nextflow.io
   name: Nextflow
+  registry:
+    biotools: nextflow
+    tess: Nextflow
   related_pages:
   - IT support
   - data analysis
@@ -1685,7 +1819,7 @@ Tools:
   name: OMERO
   registry:
     biotools: omero
-    fairsharing: NA
+    tess: OMERO
   related_pages:
   - metadata
   - data manager
@@ -1699,6 +1833,7 @@ Tools:
   registry:
     biotools: omicsdi
     fairsharing: re1278
+    tess: OmicsDI
   related_pages:
   - existing data
   - proteomics
@@ -1711,6 +1846,8 @@ Tools:
 - description: A web portal to search and visualise ontologies
   link: http://www.ontobee.org
   name: Ontobee
+  registry:
+    fairsharing: q8fx1b
   related_pages:
   - metadata
   - data manager
@@ -1752,6 +1889,8 @@ Tools:
 - description: Data curation tool for working with messy data
   link: https://openrefine.org/
   name: OpenRefine
+  registry:
+    tess: OpenRefine
   related_pages:
   - data quality
 - description: 'free and open source project management tool that supports the entire
@@ -1767,6 +1906,8 @@ Tools:
     project and is one of the three most active open source projects in the world
   link: https://www.openstack.org/
   name: OpenStack
+  registry:
+    tess: OpenStack
   related_pages:
   - storage
   - data analysis
@@ -1778,6 +1919,7 @@ Tools:
   link: http://www.orphadata.org/cgi-bin/index.php
   name: Orphadata
   registry:
+    biotools: orphadata
     fairsharing-coll: bsg-d001249
 - description: OSF (Open Science Framework) is a free, open platform to support your
     research and enable collaboration.
@@ -1792,6 +1934,8 @@ Tools:
     resulting data and metadata.
   link: https://gitlab.com/one-touch-pipeline/otp
   name: OTP
+  registry:
+    biotools: otp
   related_pages:
   - human data
   - metadata
@@ -1821,6 +1965,7 @@ Tools:
   name: PANGAEA
   registry:
     biotools: pangaea
+    fairsharing: 6yw6cp
   related_pages:
   - data publication
 - description: The Protein Circular Dichroism Data Bank
@@ -1836,6 +1981,7 @@ Tools:
   name: PDB
   registry:
     biotools: pdb
+    tess: PDB
   related_pages:
   - researcher
   - IDP
@@ -1877,6 +2023,7 @@ Tools:
   name: PLAZA
   registry:
     fairsharing: wBOua0
+    tess: PLAZA
   related_pages:
   - plants
   - plant geno assembly
@@ -1894,7 +2041,9 @@ Tools:
   link: https://www.ebi.ac.uk/pride/
   name: PRIDE
   registry:
+    biotools: pride
     fairsharing: e1byny
+    tess: PRIDE
   related_pages:
   - proteomics
 - description: Privacy Impact Assessment Tool is a software, that allows you to carry
@@ -1910,7 +2059,9 @@ Tools:
   link: http://www.proteomexchange.org/
   name: ProteomeXchange
   registry:
+    biotools: proteomexchange
     fairsharing: 92dt9d
+    tess: ProteomeXchange
   related_pages:
   - proteomics
 - description: The HUPO Proteomics Standards Initiative defines community standards
@@ -1930,6 +2081,8 @@ Tools:
     output. Use multiple languages including R, Python, and SQL.
   link: https://rmarkdown.rstudio.com
   name: R Markdown
+  registry:
+    tess: R Markdown
   related_pages:
   - data analysis
   - researcher
@@ -1937,6 +2090,8 @@ Tools:
     in rare disease research.
   link: https://rd-connect.eu/what-we-do/omics/gpap/
   name: RD-Connect Genome Phenome Analysis Platform
+  registry:
+    tess: RD-Connect Genome Phenome Analysis Platform
   related_pages:
   - researcher
   - human data
@@ -1950,6 +2105,8 @@ Tools:
 - description: Registry of Research Data Repositories
   link: https://www.re3data.org/
   name: re3data
+  registry:
+    tess: re3data
   related_pages:
   - existing data
 - description: Portal with public data submitted to ECHA in REACH registration dossiers
@@ -2030,6 +2187,8 @@ Tools:
 - description: Machine actionable DMPs.
   link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
   name: Research Management Plan
+  registry:
+    tess: Research Management Plan
   related_pages:
   - DMP
   - researcher
@@ -2052,6 +2211,8 @@ Tools:
 - description: Reva connects cloud storages and application providers
   link: https://reva.link/
   name: Reva
+  registry:
+    biotools: reva
   related_pages:
   - data analysis
   - transfer
@@ -2059,6 +2220,8 @@ Tools:
     to Excel spreadsheets
   link: https://rightfield.org.uk
   name: Rightfield
+  registry:
+    biotools: rightfield
   related_pages:
   - researcher
   - metadata
@@ -2068,6 +2231,9 @@ Tools:
 - description: Rstudio notebooks allow to share code, documentation
   link: https://rstudio.com
   name: Rstudio
+  registry:
+    biotools: rstudio
+    tess: Rstudio
   related_pages:
   - data analysis
   - IT support
@@ -2087,6 +2253,7 @@ Tools:
   name: RxNorm
   registry:
     biotools: rxnorm
+    fairsharing: 36pf8q
   related_pages:
   - toxicology data
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes
@@ -2171,10 +2338,14 @@ Tools:
   link: https://www.arb-silva.de/
   name: Silva
   registry:
+    biotools: silva
     fairsharing: 5vtYGG
+    tess: Silva
 - description: Singularity is a container platform.
   link: https://sylabs.io
   name: Singularity
+  registry:
+    tess: Singularity
   related_pages:
   - IT support
   - data analysis
@@ -2194,6 +2365,7 @@ Tools:
   name: Snakemake
   registry:
     biotools: snakemake
+    tess: Snakemake
   related_pages:
   - IT support
   - data analysis
@@ -2206,23 +2378,32 @@ Tools:
   link: https://string-db.org/
   name: STRING
   registry:
+    biotools: string
     fairsharing: 9b7wvk
+    tess: STRING
   related_pages:
   - proteomics
 - description: A searchable design repository for biological constructs
   link: https://synbiohub.org
   name: SynBioHub
+  registry:
+    biotools: synbiohub
+    fairsharing: 7CVoS6
   related_pages:
   - micro biotech
 - description: An open standard for the representation of in silico biological designs
     and their place in the Design-Build-Test-Learn cycle of synthetic biology.
   link: https://sbolstandard.org
   name: Synthetic Biology Open Language (SBOL)
+  registry:
+    biotools: sbol
   related_pages:
   - micro biotech
 - description: An open format for computational models of biological processes
   link: http://sbml.org/Main_Page
   name: Systems Biology Markup Language (SBML)
+  registry:
+    biotools: sbml
   related_pages:
   - micro biotech
 - description: The Toxin and Toxin Target Database is a bioinformatics resource that
@@ -2276,7 +2457,6 @@ Tools:
   link: https://gensc.org/mixs/
   name: The Genomic Standards Consortium (GSC)
   registry:
-    biotools: NA
     fairsharing: 9aa0zp
   related_pages:
   - metadata
@@ -2346,6 +2526,8 @@ Tools:
 - description: Norwegian Services for sensitive data
   link: https://www.uio.no/english/services/it/research/sensitive-data/
   name: TSD
+  registry:
+    tess: TSD
   related_pages:
   - sensitive
   - TSD
@@ -2354,6 +2536,8 @@ Tools:
     from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
   link: https://txg-mapr.eu/
   name: TXG-MAPr
+  registry:
+    biotools: txg-mapr
   related_pages:
   - data analysis
   - researcher
@@ -2379,7 +2563,9 @@ Tools:
   link: https://www.uniprot.org/
   name: UniProt
   registry:
+    biotools: uniprot
     fairsharing: s1ne3g
+    tess: UniProt
   related_pages:
   - metadata
   - researcher
@@ -2448,6 +2634,7 @@ Tools:
   name: Zenodo
   registry:
     fairsharing: wy4egf
+    tess: Zenodo
   related_pages:
   - data publication
   - biomol sim
