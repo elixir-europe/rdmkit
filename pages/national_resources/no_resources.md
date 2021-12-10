@@ -176,7 +176,7 @@ We provide here a list of higher education institutions with Data Management Pol
 ## Domain-specific infrastructures/resources
 Following resources and tools could be useful to implement data management practices, relevant to your research area/topic:
 
-[Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
-[National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/tsd_assembly.html)
-[Covid-19 Data Portal](https://bedroesb.github.io/rdmkit/covid19_data_portal.html)
-[Marine metagenomics Portal - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/marine_metagenomics_assembly.html)
+* [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
+* [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/tsd_assembly.html)
+* [Covid-19 Data Portal](https://bedroesb.github.io/rdmkit/covid19_data_portal.html)
+* [Marine metagenomics Portal - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/marine_metagenomics_assembly.html)
