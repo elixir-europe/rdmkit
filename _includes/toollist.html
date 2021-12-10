@@ -79,9 +79,9 @@
             {%- for tool in tool_matches | sort %}
             <tr class="{% unless page.type == 'tool_assembly' %}collapse{% endunless %}" id="resource_table">
                 {% if tool.url %}
-                <td><span class="flag-icon me-2 flag-icon-{{country_page.country_code | downcase }}"></span><a href="{{tool.url}}">{{tool.name}}</a></td>
+                <td><a href="{{tool.url}}">{{tool.name}}</a><a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- else %}
-                <td><span class="flag-icon me-2 flag-icon-{{country_page.country_code | downcase }}"></span>{{tool.name}}</td>
+                <td>{{tool.name}}<a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- endif %}
                 <td>{{tool.description}}</td>
                 {%- capture related_pages %}
