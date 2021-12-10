@@ -33,6 +33,7 @@ resources:
   - name: Galaxy Belgium
     description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the Flemish Supercomputer Center (VSC).
     how_to_access:
+    instance_of: Galaxy
     related_pages:
       tool_assembly: []
       your_domain: []
