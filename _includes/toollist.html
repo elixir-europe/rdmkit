@@ -43,7 +43,7 @@
                 {%- endif %}
                 <td>{{tool.description}}
                 {%- unless instances_tool == 0 or total_county_tools == 0 %}
-                <a href="#national-resources-button">
+                <a href="#national-resources-button" class="d-block">
                 <span class="badge text-white bg-primary"><i class="fas fa-arrow-circle-down me-2"></i>Different instances available</span>
                 </a>
                 {%- endunless %}
@@ -57,7 +57,7 @@
                 {%- endfor %}
                 {%- endcapture %}
                 <td>{{related_pages}}</td>
-                <td style="text-align: center; vertical-align: middle;">
+                <td class="align-middle text-center">
                 {%- if tool.registry.biotools %}
                 <a data-bs-toggle="tooltip"
                     data-bs-original-title="Find a scientific and technical description of the resource" href="https://bio.tools/{{tool.registry.biotools}}"
@@ -82,18 +82,24 @@
             </tr>
             {%- endfor %}
             {%- unless total_county_tools == 0 or include.tag == blank %}
-            <tr class="{% unless page.type == 'tool_assembly' %}collapse{% endunless %} bg-light" id="resource_table"><td colspan="4"><b>National resources</b></td></tr>
+            <tr class="collapse bg-light" id="resource_table"><td colspan="4"><b>National resources</b></td></tr>
             {%- endunless %}
             {%- for country_page in country_pages %}
             {%- assign tool_matches = country_page.resources | where: query, include.tag %}
             {%- for tool in tool_matches %}
-            <tr class="{% unless page.type == 'tool_assembly' or include.tag == blank %}collapse{% endunless %}" id="resource_table">
+            <tr class="collapse" id="resource_table">
                 {% if tool.url %}
                 <td><a href="{{tool.url}}">{{tool.name}}</a><a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- else %}
                 <td>{{tool.name}}<a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- endif %}
-                <td>{{tool.description}}</td>
+                <td>{{tool.description}}
+                {% if tool.instance_of %}
+                <div class="d-block">
+                    <span class="badge text-primary border border-primary">{{tool.instance_of}}</span>
+                </div>
+                {%- endif %}
+                </td>
                 {%- capture related_pages %}
                 {%- for section in tool.related_pages %}
                 {%- for tag in section[1] %}
@@ -112,7 +118,7 @@
         </tbody>
     </table>
 </div>
-{%- unless total_county_tools == 0 or page.type == "tool_assembly" %}
+{%- unless total_county_tools == 0 %}
 <a class="btn btn-primary" id="national-resources-button" data-bs-toggle="collapse" href="#resource_table" role="button" aria-expanded="false" aria-controls="resource_table">
     View national resources <span class="badge bg-white text-primary ms-2">{{total_county_tools}}</span>
   </a>
