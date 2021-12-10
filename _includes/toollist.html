@@ -82,12 +82,15 @@
             </tr>
             {%- endfor %}
             {%- unless total_county_tools == 0 or include.tag == blank %}
-            <tr class="collapse bg-light" id="resource_table"><td colspan="4"><b>National resources</b></td></tr>
+            <tr class="collapse multi-collapse bg-light" id="resource_title"><td colspan="4"><b>National resources</b></td></tr>
             {%- endunless %}
+            {%- assign hide_ids = "resource_title" %}
             {%- for country_page in country_pages %}
             {%- assign tool_matches = country_page.resources | where: query, include.tag %}
             {%- for tool in tool_matches %}
-            <tr class="collapse" id="resource_table">
+            {%- assign tool_id = tool.name | slugify %}
+            {%- assign hide_ids = hide_ids | append: " " | append: tool_id %}
+            <tr class="collapse multi-collapse" id="{{tool_id}}">
                 {% if tool.url %}
                 <td><a href="{{tool.url}}">{{tool.name}}</a><a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- else %}
@@ -119,7 +122,7 @@
     </table>
 </div>
 {%- unless total_county_tools == 0 %}
-<a class="btn btn-primary" id="national-resources-button" data-bs-toggle="collapse" href="#resource_table" role="button" aria-expanded="false" aria-controls="resource_table">
+<a class="btn btn-primary" id="national-resources-button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" role="button" aria-expanded="false" aria-controls="{{hide_ids}}">
     View national resources <span class="badge bg-white text-primary ms-2">{{total_county_tools}}</span>
   </a>
 {%- endunless %}
