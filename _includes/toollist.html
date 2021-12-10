@@ -1,4 +1,4 @@
-{%- assign tools = site.data.tool_and_resource_list.Tools | where:"related_pages", include.tag -%}
+{%- assign tools = site.data.tool_and_resource_list.Tools | where:"related_pages", include.tag %}
 {%- unless tools == blank %}
 <a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
 <div class="table-responsive mt-4 mb-5">
@@ -61,7 +61,6 @@
                 </td> 
             </tr>
             {%- endfor %}
-            {%- if include.tag %}
             {%- assign total_county_tools = 0 %}
             {%- assign query = "related_pages." | append: page.type %}
             {%- assign country_pages = site.pages | where: "type", "national_resources" | where: "search_exclude", "false" %}
@@ -71,13 +70,13 @@
             {%- assign total_county_tools = total_county_tools | plus: tool_matches.size %}
             {%- endunless %}
             {%- endfor %}
-            {%- unless total_county_tools == 0 %}
+            {%- unless total_county_tools == 0 or include.tag == blank %}
             <tr class="{% unless page.type == 'tool_assembly' %}collapse{% endunless %} bg-light" id="resource_table"><td colspan="4"><b>National resources</b></td></tr>
             {%- endunless %}
             {%- for country_page in country_pages %}
             {%- assign tool_matches = country_page.resources | where: query, include.tag %}
-            {%- for tool in tool_matches | sort %}
-            <tr class="{% unless page.type == 'tool_assembly' %}collapse{% endunless %}" id="resource_table">
+            {%- for tool in tool_matches %}
+            <tr class="{% unless page.type == 'tool_assembly' or include.tag == blank %}collapse{% endunless %}" id="resource_table">
                 {% if tool.url %}
                 <td><a href="{{tool.url}}">{{tool.name}}</a><a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- else %}
@@ -99,11 +98,10 @@
             </tr>
             {%- endfor %}
             {%- endfor %}
-            {%- endif %}
         </tbody>
     </table>
 </div>
-{%- unless total_county_tools == 0 or page.type == "tool_assembly" %}
+{%- unless total_county_tools == 0 or page.type == "tool_assembly" or include.tag == blank %}
 <a class="btn btn-primary" data-bs-toggle="collapse" href="#resource_table" role="button" aria-expanded="false" aria-controls="resource_table">
     View national resources <span class="badge bg-white text-primary ms-2">{{total_county_tools}}</span>
   </a>
