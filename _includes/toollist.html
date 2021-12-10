@@ -7,14 +7,14 @@
             <tr>
                 <th>Tool or resource {%- if include.tag -%}
                     <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
-                        <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
+                        <i class="fas fa-info-circle"></i>
                     </a>{%- endif %}
                 </th>
                 <th>Description</th>
                 <th>Related pages</th>
                 <th>Registry {%- if include.tag -%}
                     <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information in ELIXIR registries: related policies and standards in FAIRsharing, scientific and technical descriptions of the resource in bio.tools, and related training in TeSS.">
-                        <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
+                        <i class="fas fa-info-circle"></i>
                     </a>{%- endif %}
                 </th>
             </tr>
@@ -32,7 +32,7 @@
                 {%- for tag in tool.related_pages %}
                 {%- unless tag == page.page_id %}
                 {%- assign related_page = site.pages | where:"page_id",tag | first %}
-                <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
+                <a href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
                 {%- endunless %}
                 {%- endfor %}
                 {%- endcapture %}
