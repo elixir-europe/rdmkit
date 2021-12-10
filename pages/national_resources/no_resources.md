@@ -3,8 +3,6 @@ title: Norway
 country_code: "NO"
 contributors: [Nazeefa Fatima, Fedrico Bianchini, Korbinian Bösl]
 coordinators: [Korbinian Bösl]
-
-
 resources:
   - name: Feide
     description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with ELIXIR-AAI through eduGAIN.
@@ -13,13 +11,13 @@ resources:
       tool_assembly: [TSD, NELS]
       tool_assembly: [marine assembly]
     url: https://www.feide.no/
-- name: DS Wizard ELIXIR-Norway
-    Description: DS Wizard is a simple but powerful solution for researchers to help them understand what is needed for a good, FAIR-oriented Data Stewardship, and to help them build their own Data Management Plans. The template we provide in this instance provides additional guidance on resources, laws and regulations in Norway.
+  - name: DS Wizard ELIXIR-Norway
+    description: DS Wizard is a simple but powerful solution for researchers to help them understand what is needed for a good, FAIR-oriented Data Stewardship, and to help them build their own Data Management Plans. The template we provide in this instance provides additional guidance on resources, laws and regulations in Norway.
     how_to_access: access with ELIXIR-AAI with FEIDE or upon registration
-related_pages:
+    related_pages:
       your_tasks: [DMP]
-    url:https://elixir-no.ds-wizard.org/ 
- - name: Meta-pipe
+    url: https://elixir-no.ds-wizard.org/ 
+  - name: Meta-pipe
     description: META-pipe is a pipeline for annotation and analysis of marine metagenomics samples, which provides insight into phylogenetic diversity, metabolic and functional potential of environmental communities.
     how_to_access: FEIDE or upon application
     related_pages:
@@ -30,14 +28,14 @@ related_pages:
     description: MarDB includes all non-complete marine microbial genomes regardless of level of completeness. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation.
     how_to_access: FEIDE or upon application
     related_pages:
-    your_tasks: [data analysis]
+      your_tasks: [data analysis]
       tool_assembly: [marine assembly]
     url: https://mmp2.sfb.uit.no/mardb/
- - name: MarFun
+  - name: MarFun
     description: MarFun is a manually curated marine fungi genome database.
     how_to_access: FEIDE or upon application
     related_pages:
-    your_tasks: [data analysis]
+      your_tasks: [data analysis]
       tool_assembly: [marine assembly]
     url: https://mmp2.sfb.uit.no/marfun/
   - name: Norwegian COVID-19 Data Portal
@@ -46,45 +44,44 @@ related_pages:
     related_pages:
       your_domain: [human data]
       your_tasks: [sensitive, existing data, data publication]
-tool_assembly: [covid-19 data portal]
+      tool_assembly: [covid-19 data portal]
     url: https://covid19dataportal.no/
   - name: Norwegian Federated EGA
-    description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal.
-With this solution, sensitive data will not physically leave the country, but will reside on TSD.
-how_to_access: access with ELIXIR-AAI; intended for data from Norwegian institutions
+    description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
+    how_to_access: access with ELIXIR-AAI; intended for data from Norwegian institutions
     related_pages:
       your_domain: [human data]
       your_tasks: [sensitive, existing data, data publication]
     tool_assembly: [tsd]
-    url:https://ega.elixir.no/
- - name: usegalaxy.no
+    url: https://ega.elixir.no/
+  - name: usegalaxy.no
     description: 
     how_to_access: FEIDE or upon application
-related_pages:
+    related_pages:
       your_domain: [human data]
       your_tasks: [data analysis, sensitive, existing data, data publication]
     Tool_assembly: [nels]
-    url:https://usegalaxy.no
-- name: NeLS
+    url: https://usegalaxy.no
+  - name: NeLS
     description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data
     how_to_access: “Everyone with funding from a Norwegian funder or a project at one of the health regions or universities can get access through FEIDE or upon application for collaborators.”
     related_pages:
       tool_assembly: [NeLS,marine assembly]
     url: https://nels.bioinfo.no
--name: NIRD
-description: The National Infrastructure for Research Data (NIRD) infrastructure offers storage services, archiving services, and processing capacity for computing on the stored data. It offers services and capacities to any scientific discipline that requires access to advanced, large-scale, or high-end resources for storing, processing, publishing research data or searching digital databases and collections. This service is owned and operated by [UNINETT Sigma2](https://www.sigma2.no). 
-How_to_access: A formal application is required to gain access to the storage services . The process is explained at the [How to apply for a user account](https://www.sigma2.no/how-apply-user-account) page.
-Related_pages:
-your_tasks: [transfer, storage]
-    tool_assembly: [NeLS]
-url: https://documentation.sigma2.no/files_storage/nird.html
--name: saga
-description: saga is the national hpc resource. It has a computational capacity of approximately 140 million CPU hours a year and a life expectancy of four year, until 2023. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
-How_to_access: A formal application is required to gain access to the storage services . The process is explained at the [How to apply for a user account](https://www.sigma2.no/how-apply-user-account) page.
-Related_pages:
-your_tasks: [data analysis]
-url: https://documentation.sigma2.no/hpc_machines/saga.html
- - name: RETTE
+  - name: NIRD
+    description: The National Infrastructure for Research Data (NIRD) infrastructure offers storage services, archiving services, and processing capacity for computing on the stored data. It offers services and capacities to any scientific discipline that requires access to advanced, large-scale, or high-end resources for storing, processing, publishing research data or searching digital databases and collections. This service is owned and operated by [UNINETT Sigma2](https://www.sigma2.no). 
+    how_to_access: A formal application is required to gain access to the storage services . The process is explained at the [How to apply for a user account](https://www.sigma2.no/how-apply-user-account) page.
+    related_pages:
+      your_tasks: [transfer, storage]
+      tool_assembly: [NeLS]
+    url: https://documentation.sigma2.no/files_storage/nird.html
+  - name: saga
+    description: saga is the national hpc resource. It has a computational capacity of approximately 140 million CPU hours a year and a life expectancy of four year, until 2023. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
+    how_to_access: A formal application is required to gain access to the storage services . The process is explained at the [How to apply for a user account](https://www.sigma2.no/how-apply-user-account) page.
+    related_pages:
+      your_tasks: [data analysis]
+    url: https://documentation.sigma2.no/hpc_machines/saga.html
+  - name: RETTE
     description: System for Risk and compliance. Processing of personal data in research and student projects at UiB.
     how_to_access: Through FIEDE, only if you are based at the UiB
     related_pages:
@@ -92,7 +89,7 @@ url: https://documentation.sigma2.no/hpc_machines/saga.html
       your_tasks: [data protection, sensitive]
       your_role: [policy officer, data manager]
     url: https://rette.app.uib.no/
- - name: DataverseNO
+  - name: DataverseNO
     description: 
     how_to_access: open access
     related_pages:
@@ -100,7 +97,6 @@ url: https://documentation.sigma2.no/hpc_machines/saga.html
       your_tasks: [data publication]
       your_role: []
     url: https://dataverse.no/
-
 ---
 
 <!---Following information for the page text. All fields are optional--->
