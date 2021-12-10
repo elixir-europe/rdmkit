@@ -27,7 +27,7 @@
                 {%- assign query = "related_pages." | append: page.type %}
                 {%- assign country_pages = site.pages | where: "type", "national_resources" | where: "search_exclude", "false" %}
                 {%- for country_page in country_pages %}
-                {%- assign instance_matches = country_page.resources | where: "instance_of", tool.name %}
+                {%- assign instance_matches = country_page.resources | where: "instance_of", tool.name | where: query, include.tag %}
                 {%- assign tool_matches = country_page.resources | where: query, include.tag %}
                 {%- unless tool_matches == blank %}
                 {%- assign total_county_tools = total_county_tools | plus: tool_matches.size %}
