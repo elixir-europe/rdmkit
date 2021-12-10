@@ -2,10 +2,10 @@
 <header>
     <a class="visually-hidden-focusable" href='#main'>Skip to content</a>
     <a class="visually-hidden-focusable" href='#footer'>Skip to footer</a>
-    <nav class="navbar navbar-expand-lg mb-3 mb-lg-5">
+    <nav class="navbar navbar-expand-lg mb-3 mb-lg-5 bg-dark navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="{{ 'index.html' | relative_url }}"><img alt="ELIXIR logo" src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}">{% if site.topnav_title %}{{site.topnav_title}}{% endif %}</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i title="navbar-toggler" class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
@@ -32,9 +32,10 @@
                     {%- endfor %}
                     <!--start search-->
                     <li class="nav-item ms-0 ms-lg-3 my-2 my-lg-0">
-                        <div class="search position-relative">
-                            <form role="search" class="d-flex">
-                                <i class="fa fa-search fa-lg"></i> <input type="search" id="search-input" class="ps-5 search-input form-control" tabindex="0" placeholder="Search {{ site.site_title }}" aria-label="Search {{ site.site_title }}" autocomplete="off">
+                        <div class="position-relative">
+                            <form role="search" class="input-group">
+                                <span class="input-group-text" id="search-label"><i class="fa fa-search"></i></span><input type="search" id="search-input" class="search-input form-control" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                            </form>
                             <div id="search-results" class="search-results"></div>
                         </div>
                     </li>

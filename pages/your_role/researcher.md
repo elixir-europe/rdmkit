@@ -1,7 +1,14 @@
 ---
 title: Researcher
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona, Munazah Andrabi]
-page_tag: researcher
+page_id: researcher
+related_pages: 
+  your_tasks: [compliance, data analysis, DMP, data organisation, data publication, data quality, existing data, metadata, identifiers]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials
 ---
 
 ## Applies to
@@ -25,13 +32,5 @@ I know the types and the approximate amount of data I will generate, but I have 
 
 * Check out the various steps of the [RDM life cycle](index), in particular the [planning](planning) stage
 * Identify and contact the data steward in your local organisation or your national contact in the [ELIXIR](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators) network
-* Use local guidelines associated with the national or institutional DMP application and/or follow an introductory [training](https://tess.elixir-europe.org/search?q=Data%20Management%20Planning#materials)
 * Start planning your project taking the [DMP](data_management_plan) into account
 
-## Common problems
-
-{% include pagelist.html tag="researcher" %}
-
-## Relevant tools and resources
-
-{% include toollist.html tag="researcher" %}

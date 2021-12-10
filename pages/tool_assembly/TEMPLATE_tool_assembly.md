@@ -1,9 +1,19 @@
 ---
 title: Assembly page title
 search_exclude: true
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
-page_tag: <!---REPLACE THIS with the tag that is used in the tool table--->
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
+description: <!---REPLACE THIS with a very short summary (one sentence) --->
+affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work--->]
+audience: [<!---REPLACE THIS with comma separated list of possible audiences. Countries use the ISO 3166-1-alpha-2 notation, other audiences must be present in the affiliations.yaml in the _data directory in order to work."ALL" can be used if the tools and infrastructure this page talks about are accessible for everyone in the world.--->]
+page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+related_pages: 
+  your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+  your_domain: [<!---REPLACE THIS with the page ID of the your_domain pages that you want to list here as related pages--->]
+training:
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 <!--- Tool Assembly pages should detail a particular data management tool assembly which covers one more life cycle stages from an infrastructural or domain perspective. For an example for an infrastructural example, please see: https://github.com/elixir-europe/rdmkit/blob/master/pages/tool_assembly/nels_assembly.md 
@@ -24,11 +34,3 @@ In the event that you describe a domain specific tool assembly and no adequate D
 <!--- Add more sections as needed. --->
 ...
 
-## Training for the tool assembly? <!--- (optional) --->
-
-{% include tess.html search="<!---TAG--->" %}
-
-## Tools used within the tool assembly?
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
-
-{% include toollist.html tag="<!---TAG--->" %}

@@ -32,7 +32,7 @@
             <div class="row row-cols-5 contributor-cards g-1 g-sm-4 ">
         {%- endif %}
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card bg-light h-100">
                     {%- assign id = contributors[contributor].git | default: 'no_github' %}
                     <div>
                         {%- if contributors[contributor].image_url %}
@@ -48,17 +48,17 @@
                         {%- endif %}
                     </div>
                     {%- if contributors[contributor].git or contributors[contributor].email or contributors[contributor].orcid %}
-                    <div class="card-footer border-0">
-                        <div class="d-flex justify-content-center social-icons">
-                        {%- if contributors[contributor].git %}
-                        <div class="mx-1"><a href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
-                        {%- endif %}
-                        {%- if contributors[contributor].email %}
-                        <div class="mx-1"><a href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
-                        {%- endif %}
-                        {%- if contributors[contributor].orcid %}
-                        <div class="mx-1"><a href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
-                        {%- endif %}
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-center">
+                            {%- if contributors[contributor].git %}
+                            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://github.com/{{id}}"><i class="fab fa-github"></i></a></div>
+                            {%- endif %}
+                            {%- if contributors[contributor].email %}
+                            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="mailto:{{contributors[contributor].email}}"><i class="fas fa-envelope"></i></a></div>
+                            {%- endif %}
+                            {%- if contributors[contributor].orcid %}
+                            <div class="mx-1"><a class="btn bg-white text-primary hover-primary rounded-circle social-icons p-0" href="https://orcid.org/{{contributors[contributor].orcid}}"><i class="fab fa-orcid"></i></a></div>
+                            {%- endif %}
                         </div>
                     </div>
                     {%- endif %}
