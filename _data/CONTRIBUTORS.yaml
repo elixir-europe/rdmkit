@@ -50,7 +50,6 @@ Mijke Jetten:
     git: MijkeJetten
     email: m.jetten@dtls.nl
     orcid: 0000-0001-9114-2896
-    role: editor
 Nicola Soranzo:
     git: nsoranzo
     orcid: 0000-0003-3627-5340
@@ -147,6 +146,7 @@ Federico Bianchini:
     git: bianchini88
     email: federico.bianchini@mn.uio.no
     orcid: 0000-0002-9016-4820
+    role: editor
 Celia van Gelder:
     git: celiavg
     email: celia.vangelder@dtls.nl
