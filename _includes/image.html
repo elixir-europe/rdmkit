@@ -3,9 +3,9 @@
     {{ "/images/" | append:include.file | relative_url }}
     {%- endcapture -%}
     {%- if {{include.url}} %}
-    <a class="no-icon" target="_blank" rel="noopener" href="{{include.url}}">
+    <a target="_blank" rel="noopener" href="{{include.url}}">
     {%- elsif {{include.click}} == true %}
-    <a class="no-icon" target="_blank" rel="noopener noreferrer" href="{{file_url}}">
+    <a target="_blank" rel="noopener noreferrer" href="{{file_url}}">
     {%- endif %}
     <img src="{{file_url}}" alt="{{include.alt}}" class="figure-img img-fluid rounded"/>
     {%- if {{include.url}} or {{include.click}} == true %}

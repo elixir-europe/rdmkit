@@ -6,7 +6,7 @@
     <div class="col">
       <div class="card h-100">
           <div class="my-auto">
-            {% if affiliation.url %}<a class="no-icon" href="{{ affiliation.url }}">{% endif %}<img class="card-img-top" src="{{ affiliation.image_url | relative_url }}"  alt="{{ affiliation.name }}">{%- if affiliation.url %}</a>{% endif %}
+            {% if affiliation.url %}<a href="{{ affiliation.url }}">{% endif %}<img class="card-img-top" src="{{ affiliation.image_url | relative_url }}"  alt="{{ affiliation.name }}">{%- if affiliation.url %}</a>{% endif %}
         </div>
       </div>
     </div>

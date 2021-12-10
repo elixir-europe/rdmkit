@@ -86,21 +86,6 @@ blockquote {
     border-radius: $border-radius;
 }
 
-
-main a:not([role="button"]):not(.btn)[target="_blank"]:not(.no-icon):after {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f35d";
-    font-size: 70%;
-    margin-left: 5px;
-    vertical-align: middle;
-}
-
 /* Selection color */
 
 ::-moz-selection {
