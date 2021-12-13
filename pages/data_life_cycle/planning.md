@@ -3,12 +3,12 @@ title: Planning
 page_id: plan
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 related_pages: 
-  - your_tasks: [compliance, DMP, data protection]
+  your_tasks: [compliance, DMP, data protection]
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20management%20planning
+    url: https://tess.elixir-europe.org/search?q=%22data+management+planning%22#materials
 ---
 
 ## What is Data Management Planning?

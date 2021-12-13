@@ -3,12 +3,12 @@ title: Processing
 page_id: process
 contributors: [Rob Hooft, Munazah Andrabi]
 related_pages: 
-  - your_tasks: [data analysis, data organisation, data quality, sensitive]
+  your_tasks: [data analysis, data organisation, data quality, sensitive]
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20processing
+    url: https://tess.elixir-europe.org/search?q=%22data+process%22#materials
 ---
 
 ## What is data processing?

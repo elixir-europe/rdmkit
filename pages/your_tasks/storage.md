@@ -4,7 +4,12 @@ contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi, Flora D'Anna, Fla
 description: how to find appropriate storage solutions.
 page_id: storage
 related_pages: 
-  - tool_assembly: [NeLS, TSD, ome, transmed, XNAT-PIC]
+  tool_assembly: [NeLS, TSD, ome, transmed, XNAT-PIC]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    registry_url: https://tess.elixir-europe.org
+    url: https://tess.elixir-europe.org/search?q=%22data+storage%22#materials
 ---
 
 ## What features do you need in a storage solution when collecting data?

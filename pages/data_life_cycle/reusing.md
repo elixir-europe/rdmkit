@@ -3,12 +3,12 @@ title: Reusing
 page_id: reuse
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 related_pages: 
-  - your_tasks: [data analysis, transfer, existing data, identifiers, licensing]
+  your_tasks: [data analysis, transfer, existing data, identifiers, licensing]
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20reuse
+    url: https://tess.elixir-europe.org/search?q=%22data+reuse%22#materials
 ---
 
 ## What is data reuse?

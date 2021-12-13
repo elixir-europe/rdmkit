@@ -4,8 +4,8 @@ contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
 related_pages: 
 page_id: marine
 related_pages: 
-  - your_tasks: [metadata]
-  - tool_assembly: [marine assembly]
+  your_tasks: [metadata]
+  tool_assembly: [marine assembly]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -35,7 +35,7 @@ Moreover, in marine metagenomics, it is also necessary to characterize the marin
 ### Description
 The field of marine metagenomics has been in rapid expansion, with many statistical/computational tools and databases developed to explore the huge influx of data. You need to be able to choose between the multiple bioinformatics techniques, tools, and methodologies available for performing each step of a typical metagenomics  analysis, while ensuring that your choice conforms to the best practices for the domain. Moreover you need access to HPC facilities with capacity to execute the analysis and store the resulting data, and therefore should be aware of what computing infrastructures are available to you (and at what cost).
 
-## Considerations 
+### Considerations 
 - Are there particular characteristics of your dataset that would restrict the choice of applicable tools?
 - Are the recommended tools freely available?
   - If not, can you afford the software licensing cost?
@@ -43,7 +43,7 @@ The field of marine metagenomics has been in rapid expansion, with many statisti
 - Does your institution have its own HPC facilities, and what are the access conditions?
 - Does your country have a research HPC infrastructure, and what are the access conditions?
 
-## Solutions
+### Solutions
 - Experts in the field often provide reviews on the best tools and practices, so a good starting point is to look up such publications. A good example is [Metagenomics: tools and insights for analyzing next-generation sequencing data derived from biodiversity studies](https://pubmed.ncbi.nlm.nih.gov/25983555/).
 - Freely available software and pipelines, such as those listed below, can be an option compared to commercial analysis packages.
 - To get access to compute and storage you may contact your local IT department or national ELIXIR node which can guide you to the right facilities.

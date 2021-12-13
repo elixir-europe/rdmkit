@@ -3,12 +3,12 @@ title: Sharing
 page_id: share
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
 related_pages: 
-  - your_tasks: [data protection, data publication, transfer, identifiers, licensing, metadata, sensitive, storage]
+  your_tasks: [data protection, data publication, transfer, identifiers, licensing, metadata, sensitive, storage]
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20sharing
+    url: https://tess.elixir-europe.org/search?q=%22data+share%22#materials
 ---
 
 ## What is data sharing?

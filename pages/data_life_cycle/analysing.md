@@ -2,13 +2,13 @@
 title: Analysing
 page_id: analyse
 related_pages: 
-  - your_tasks: [data analysis, data organisation, storage]
+  your_tasks: [data analysis, data organisation, storage]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20analysis
+    url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 ---
 
 ## What is data analysis?

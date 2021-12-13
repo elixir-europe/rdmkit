@@ -4,12 +4,12 @@ contributors: [Pinar Alper]
 description: how to make research data compliant to GDPR.
 page_id: data protection
 related_pages: 
-  - tool_assembly: [TSD, transmed]
+  tool_assembly: [TSD, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20protection
+    url: https://tess.elixir-europe.org/search?q=data+protection#materials
 ---
 
 

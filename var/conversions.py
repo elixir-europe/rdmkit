@@ -1,5 +1,7 @@
 import sys
+import argparse
 import os
+import re
 from csv import reader
 import yaml
 import re
@@ -10,6 +12,32 @@ from urllib3.util.retry import Retry
 import frontmatter
 
 
+def process_args():
+    '''parse command-line arguments
+    '''
+
+    parser = argparse.ArgumentParser(prog='Conversions',
+                                     description='This script will convert the tool and resources table to a yaml file while injecting bio.tools and FAIRsharing IDs where needed.',)
+    parser.add_argument('--username',
+                        help='specify the version of the tool this submission is done with')
+
+    parser.add_argument('--password',
+                        help='indicate if no upload should be performed and you like to submit a RUN object (e.g. if uploaded was done separately).')
+
+    parser.add_argument('--reg',
+                        default=False,
+                        action="store_true",
+                        help='Enable TeSS, bio.tools and FAIRsharing lookup')
+
+    args = parser.parse_args()
+
+    return args
+
+def parse_acronym (query):
+    m = re.match(r"(.*)\s\((.*)\)", query)
+    if m:
+        return {"fullname": m.group(1), "acronym": m.group(2)}
+
 def client(url):
     """API object fetcher"""
     session = requests.Session()
@@ -18,9 +46,7 @@ def client(url):
     session.mount('http://', adapter)
     session.mount('https://', adapter)
     r = session.get(url)
-    if r.status_code != requests.codes.ok:
-        return False
-    else:
+    if r.status_code == requests.codes.ok:
         return r.json()
 
 
@@ -31,9 +57,12 @@ def tess_available(query):
         return True
 
 def biotools_available(query):
-    if client(f"https://bio.tools/api/tool/{query.lower()}/?format=json"):
+    acronym = parse_acronym(query)
+    if acronym and client(f"https://bio.tools/api/tool/{acronym['acronym'].lower()}/?format=json"):
+        return acronym['acronym'].lower()
+    elif client(f"https://bio.tools/api/tool/{query.lower()}/?format=json"):
         return query.lower()
-    else:
+    elif len(query) > 4:
         json_output = client(
             f"https://bio.tools/api/t/?format=json&q='{query}'")
         if json_output['count'] != 0:
@@ -43,16 +72,51 @@ def biotools_available(query):
         else:
             json_output = client(
                 f"https://bio.tools/api/t/?format=json&q='{query}'")
-            if json_output['count'] == 0:
-                return False
-            else:
+            if json_output['count'] != 0:
                 for tool in json_output['list']:
                     if query.strip().lower() in tool['name'].lower():
                         return tool['biotoolsID']
-        return False
+
+def get_fairsharing_token(username, password):
+    url = "https://api.fairsharing.org/users/sign_in"
+    payload="{\"user\": {\"login\":\"" + username + "\",\"password\":\"" + password + "\"} }"
+    headers = {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    }
+
+    try:
+        response = requests.request("POST", url, headers=headers, data=payload)
+        if response.json()["success"] != True:
+            sys.exit()
+        else:
+            return response.json()["jwt"]
+    except:
+        print("Could not login into FAIRsharing")
+
+def fairsharing_available(query, token):
+    url = "https://api.fairsharing.org/search/fairsharing_records"
+
+    headers = {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {token}',
+    }
+    payload = {'q': query}
+    try:
+        response = requests.request("POST", url, headers=headers, params=payload)
+        output = response.json()['data']
+        if len(output) >= 1:
+            for farisharing_obj in output:
+                if query.lower() in farisharing_obj['attributes']['name'].lower() and farisharing_obj['attributes']['doi']:
+                    return farisharing_obj['attributes']['url'].split(".")[-1]
+    except:
+        print("Could not connect to FAIRsharing")
 
 def remove_prefix(s, prefix):
     return s[s[:len(prefix)].index(prefix) + len(prefix):]
+
+# --------- Variables ---------
 
 table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
@@ -60,6 +124,9 @@ related_pages_path = "_data/page_ids.yml"
 main_dict_key = "Tools"
 rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
+
+
+# --------- Reading out page_ids from pages ---------
 
 print(f"----> Reading out page_id from each file")
 pages_metadata = {}
@@ -78,9 +145,13 @@ for subdir, dirs, files in os.walk(rootdir):
 
 print(f"----> Allowed related_pages: {', '.join(pages_metadata.keys())}.")
 
-print(f"----> Converting table {table_path} to {output_path} started.")
+# --------- Converting the table ---------
 
+print(f"----> Converting table {table_path} to {output_path} started.")
+args = process_args()
 main_dict = {main_dict_key: []}
+if args.reg:
+    fairsharing_token = get_fairsharing_token(args.username, args.password)
 with open(table_path, 'r') as read_obj:
     csv_reader = reader(read_obj)
     header = next(csv_reader)
@@ -111,17 +182,25 @@ with open(table_path, 'r') as read_obj:
                                 print(f'ERROR: The table contains the registry "{reg}" in row {row_index} which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
                                 sys.exit(
                                     f'The table contains the registry "{reg}" in row {row_index} which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
-                    if len(sys.argv) > 1 and sys.argv[1] == "--reg":
-                        if tess_available(tool_name):
-                            if "tess" not in output:
+                    if args.reg:
+                        if "tess" not in output:
+                            if tess_available(tool_name):
                                 output["tess"] = tool_name
-                            elif output["tess"] == "NA":
-                                del output["tess"]
-                        if biotools_available(tool_name):
-                            if "biotools" not in output:
-                                output["biotools"] = biotools_available(tool_name)
-                            elif output["biotools"] == "NA":
-                                del output["biotools"]
+                        elif output["tess"] == "NA":
+                            del output["tess"]
+                        if "biotools" not in output:
+                            check_biotools = biotools_available(tool_name)
+                            if check_biotools:
+                                output["biotools"] = check_biotools
+                        elif output["biotools"] == "NA":
+                            del output["biotools"]
+                        if "fairsharing" not in output:
+                            if len(tool_name) > 4:
+                                check_fairsharing = fairsharing_available(tool_name, fairsharing_token)
+                                if check_fairsharing:
+                                    output["fairsharing"] = check_fairsharing
+                        elif output["fairsharing"] == "NA":
+                            del output["fairsharing"]
                 else:
                     # Return the normal form for the Unicode string
                     output = unicodedata.normalize("NFKD", cell).strip()

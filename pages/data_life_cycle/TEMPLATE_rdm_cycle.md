@@ -4,12 +4,12 @@ contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
 page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
 related_pages: 
-  - your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+  your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
 training:
-  - name: Training in TeSS
-    registry: TeSS
-    registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=analysing%20data
+  - name:
+    registry:
+    registry_url:
+    url:
 ---
 
 ## What is "data + stage name"? <!-- edit this heading (e.g. what is data analysis?) and write your text below it -->

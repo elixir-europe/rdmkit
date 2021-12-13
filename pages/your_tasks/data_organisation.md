@@ -4,7 +4,7 @@ contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
 description: best practices to name and organise research data.
 page_id: data organisation
 related_pages: 
-  - tool_assembly: [ome, transmed, XNAT-PIC]
+  tool_assembly: [ome, transmed, XNAT-PIC]
 ---
 
 ## What is the best way to name a file?
@@ -26,6 +26,7 @@ Brief and descriptive file names are important in keeping your data files organi
 * Use meaningful abbreviations.
 * Use underscore (_), hypen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
 * Use date format ISO8601: YYYYMMDD, and time if needed HHMMSS.
+* Include a unique identifier (see: [Identifiers](identifiers))
 * Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.
 * Write your file naming convention down and explain abbreviations in your data documentation.
 * If you need to rename a lot files in order to organize your project data and manage the files easier, it is possible use applications e.g. [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free), [Renamer4Mac](https://renamer.com/) (Mac).

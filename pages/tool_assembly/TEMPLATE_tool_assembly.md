@@ -2,11 +2,13 @@
 title: Assembly page title
 search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
-summary: <!---REPLACE THIS with a very short summary (one sentence) --->
+description: <!---REPLACE THIS with a very short summary (one sentence) --->
+affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work--->]
+audience: [<!---REPLACE THIS with comma separated list of possible audiences. Countries use the ISO 3166-1-alpha-2 notation, other audiences must be present in the affiliations.yaml in the _data directory in order to work."ALL" can be used if the tools and infrastructure this page talks about are accessible for everyone in the world.--->]
 page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
 related_pages: 
-  - your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-  - your_domain: [<!---REPLACE THIS with the page ID of the your_domain pages that you want to list here as related pages--->]
+  your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+  your_domain: [<!---REPLACE THIS with the page ID of the your_domain pages that you want to list here as related pages--->]
 training:
   - name:
     registry:

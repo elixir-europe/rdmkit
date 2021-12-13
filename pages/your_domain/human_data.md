@@ -3,8 +3,8 @@ title: Human data
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
 page_id: human data
 related_pages: 
-  - your_tasks: [sensitive]
-  - tool_assembly: [TSD, Covid-19, transmed]
+  your_tasks: [sensitive]
+  tool_assembly: [TSD, Covid-19, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -13,7 +13,9 @@ training:
   - name: A FAIR guide for data providers to maximise sharing of human genomic data
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873
   - name: Toward better governance of human genomic data
-    url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data**
+    url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
+  - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
+    url: https://academy.ehden.eu/
 ---
 
 ## Introduction

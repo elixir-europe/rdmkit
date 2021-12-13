@@ -53,32 +53,44 @@ Optional metadata/frontmatter:
 
 * `toc`: When set to false, the table of contents at the beginning of the page will not be generated.
 
+* `affiliations`: List here all affiliations that made this page possible. This is especially used for tool assembly pages. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work.
+
+* `audience`: List here the audiences of this page. This is especially used for tool assembly pages. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work. "ALL" can be used if the tools and infrastructure this page talks about are accessible for everyone in the world.
+
 * `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list Related pages.
 
 * `related_pages`: List here the page_id of RDMkit pages that you want to display as Related pages, grouped by section (Your tasks, Your domain, Tool assembly).
 
   If you want pages from the specific section (Your tasks, Your domain, Tool assembly) to be shown here as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. The specific sections allowed in each page are specified in each page template. Please, do not add extra sections in the metadata of the page.
-```yml
-related_pages: 
-   - your_tasks: [page_id1, page_id2]
-   - your_domain: [page_id1, page_id2]
-   - tool_assembly: [page_id1, page_id2]
-  ``` 
+  ```yml
+  related_pages: 
+    your_tasks: [page_id1, page_id2]
+    your_domain: [page_id1, page_id2]
+    tool_assembly: [page_id1, page_id2]
+    ``` 
 
 * `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
 
-```yml
-training:
-   - name: Training in TeSS
-     registry: TeSS
-     registry_url: https://tess.elixir-europe.org
-     url: https://tess.elixir-europe.org/search?q=data%20analysis
+  ```yml
+  training:
+    - name: Training in TeSS
+      registry: TeSS
+      registry_url: https://tess.elixir-europe.org
+      url: https://tess.elixir-europe.org/search?q=data%20analysis
 
-   - name: Training in TeSS
-     registry: TeSS
-     registry_url: https://tess.elixir-europe.org
-     url: https://tess.elixir-europe.org/search?q=data%20analysis
-```
+    - name: Training in TeSS
+      registry: TeSS
+      registry_url: https://tess.elixir-europe.org
+      url: https://tess.elixir-europe.org/search?q=data%20analysis
+  ```
+
+* `faircookbook`: List here all the links towards FAIR Cookbook recipes.
+
+  ```yml
+  faircookbook:
+  - name: Data licenses
+    url: https://fairplus.github.io/the-fair-cookbook/content/recipes/reusability/ATI_licensing_data.html
+  ```
 
 * `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
 
@@ -237,17 +249,27 @@ Bert Droesbeke:
 {% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
 
-## Adding an institute, project or funder to the support page
+## Adding an institution, infrastructure, project or funder
 
-Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file, projects in the [PROJECTS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/PROJECTS.yaml) file and funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUDNERS.yaml) file. In this file, the name, url towards the website and the relative path to the logo is given.
-
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations and audience in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
-- name: VIB-PSB
-  image_url: /images/institutes/VIB-PSB.svg
+- name: VIB
+  image_url: /images/institutions/VIB-PSB.svg
+  pid: https://ror.org/03xrhmk39
+  rdmkit_about: true
+  type: institution
   url: https://www.psb.ugent.be/
 ```
 
-The logos can be added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
+- `name`: name
+- `image_url`: relative url towards the image
+- `pid`: url including the unique identifier towards the page of the association on [ROR](https://ror.org)
+- `rdmkit_about`: true or false, when true this association will be shown in the about section
+- `type`: can be any of these values: *institution*, *funder*, *infrastructure* or *project*
+- `url`: url towards the homepage of this association
+
+
+The logos can be added to the [/images/institutions](https://github.com/elixir-europe/rdmkit/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/rdmkit/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
 {% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
@@ -268,9 +290,9 @@ An overview of all RDMkit pages (belonging to the sections listed above) and the
 
 ```yml
 related_pages: 
-   - your_tasks: [page_id1, page_id2]
-   - your_domain: [page_id1, page_id2]
-   - tool_assembly: [page_id1, page_id2]
+   your_tasks: [page_id1, page_id2]
+   your_domain: [page_id1, page_id2]
+   tool_assembly: [page_id1, page_id2]
   ``` 
 
 

@@ -3,12 +3,12 @@ title: Data steward infrastructure
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: IT support
 related_pages: 
-  - your_tasks: [data analysis, data protection, transfer, identifiers, storage, data organisation]
+  your_tasks: [data analysis, data protection, transfer, identifiers, storage, data organisation]
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS
     registry_url: https://tess.elixir-europe.org/
-    url: https://tess.elixir-europe.org/
+    url: https://tess.elixir-europe.org/search?q=%22IT%20support%22#materials
 
   - name: RDNL - Essentials for Data Support
     registry:

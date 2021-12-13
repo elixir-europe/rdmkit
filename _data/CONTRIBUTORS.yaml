@@ -50,7 +50,6 @@ Mijke Jetten:
     git: MijkeJetten
     email: m.jetten@dtls.nl
     orcid: 0000-0001-9114-2896
-    role: editor
 Nicola Soranzo:
     git: nsoranzo
     orcid: 0000-0003-3627-5340
@@ -147,6 +146,7 @@ Federico Bianchini:
     git: bianchini88
     email: federico.bianchini@mn.uio.no
     orcid: 0000-0002-9016-4820
+    role: editor
 Celia van Gelder:
     git: celiavg
     email: celia.vangelder@dtls.nl
@@ -243,5 +243,44 @@ Jean-Marie Burel:
     email: j.burel@dundee.ac.uk
     git: jburel
     affiliation: Euro-BioImaging | University of Dundee
-
-
+Manuel Pastor:
+    orcid: 0000-0001-8850-1341
+    email: manuel.pastor@upf.edu
+    git: manuelpastor
+    affiliation: Universitat Pompeu Fabra
+Janet Piñero Gonzalez:
+    orcid: 0000-0003-1244-7654
+    email: janet.pinero@upf.edu
+    git: jpinero
+    affiliation: Universitat Pompeu Fabra
+Juan Manuel Ramírez-Anguita:
+    orcid: 0000-0002-8509-0927
+    email: juanmanuel.ramirez@upf.edu
+    git: palilsonjmr
+    affiliation: Universitat Pompeu Fabra
+Ferran Sanz:
+    orcid: 0000-0002-7534-7661
+    email: ferran.sanz@upf.edu
+    affiliation: Universitat Pompeu Fabra
+Miguel Angel Mayer:
+    orcid: 0000-0003-0362-6298
+    email: miguelangel.mayer@upf.edu
+    git: mmayerp
+    affiliation: Universitat Pompeu Fabra
+Kees van Bochove:
+    orcid: 0000-0002-8589-0609
+    email: kees@thehyve.nl
+    git: keesvanbochove
+    affiliation: The Hyve
+Cyril Pommier:
+    git: cpommier
+Frederik Delaere:
+    git: fretn
+Nadim Rahman:
+    git: nadimm-rahman
+Rafael Andrade Buono:
+    git: rabuono
+Sebastian Beier:
+    git: sebeier
+Sirarat Sarntivijai:
+    git: siiraa
