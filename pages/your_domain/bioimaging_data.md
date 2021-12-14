@@ -147,47 +147,17 @@ Two distinct types of resources should be considered:
 
 ### Solutions
 
-Example of repositories than can be used to deposit images:
+Comparative table of some repositories that can be used to deposit imaging data:
 
-- [BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/):
-  - **Type**: Archive
-  - **Data restrictions**: No Protected health information (PIH) data.
-  - **Data upload restrictions**: None
-  - **DOI**: --
-  - **Cost**: Free
-- [Dryad](https://datadryad.org/)
-  - **Type**: Archive
-  - **Data restrictions**: No PIH data
-  - **Data upload restrictions**: 3000GB
-  - **DOI**: Yes
-  - **Cost**: over 50GB unless submitter is based at member institution
-- [EMPIAR](https://www.ebi.ac.uk/empiar/)
-  - **Type**: Added-value
-  - **Data restrictions**: Electron microscopy imaging data
-  - **Data upload restrictions**: None
-  - **DOI**: Yes
-  - **Cost**: Free
-- [IDR](https://idr.openmicroscopy.org/)
-  - **Type**: Added-value
-  - **Data restrictions**: Cell/Tissue imaging data, no PIH data
-  - **Data upload restrictions**: None
-  - **DOI**: Yes
-  - **Cost**: Free
-- [SSBD:database](https://ssbd.riken.jp/database/)
-  - **Type**: Added-value
-  - **Data restrictions**: Biological dynamics imaging data
-  - **Data upload restrictions**: None
-  - **DOI**: --
-  - **Cost**: Free
-- [SSBD:repository](https://ssbd.riken.jp/repository/)
-  - **Type**: Archive
-  - **Data restrictions**: Biological dynamics imaging data
-  - **Data upload restrictions**: None
-  - **DOI**: --
-  - **Cost**: Free
-- [Zenodo](https://zenodo.org)
-  - **Type**: Archive
-  - **Data restrictions**: None
-  - **Data upload restrictions**: 50GB per dataset
-  - **DOI**: Yes
-  - **Cost**: Free
+| Repository | Type | Data Restrictions | Data Upload Restrictions | DOI | Cost |
+|------------|------|-------------------|---------------------|-----|------|
+| [BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/) | Archive | No PIH data | None | --- | Free |
+| [Dryad](https://datadryad.org/)| Archive | No PIH data | 300GB | Yes | over 50GB (*) |
+| [EMPIAR](https://www.ebi.ac.uk/empiar/) | Added-value | Electron microscopy imaging data | None | Yes | Free |
+| [IDR](https://idr.openmicroscopy.org/) | Added-value | Cell/Tissue imaging data, no PIH data | None| Yes | Free |
+| [SSBD:database](https://ssbd.riken.jp/database/) | Added-value | Biological dynamics imaging data | None | --- | Free |
+| [SSBD:repository](https://ssbd.riken.jp/repository/) | Archive | Biological dynamics imaging data | None | --- | Free |
+| [Zenodo](https://zenodo.org) | Archive | None | 50GB per dataset | Yes | Free |
+
+- PIH: Protected health information.
+- (*) unless submitter is based at member institution.
