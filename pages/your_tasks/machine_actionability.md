@@ -167,7 +167,7 @@ For machine-actionability and interoperability, you should consider:
 
 #### Metadata checklist
 * Here, we define metadata checklists as content in the form of a fixed set of attributes or fields, without any particular order nor structure. Compliance to metadata checklists is not related to the format nor the structure, but rather to the content provided.
-* Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. MIAME, MINSEQE). 
+* Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. MIAPPE). 
 * Some data repositories have customised metadata checklists (e.g. ENA Samples checklists).
 * Attributes in a metadata checklist can be ontology terms.
 * For more information see the [Data documentation and metadata](metadata_management) page.
@@ -178,7 +178,7 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
 
 ### Solutions
 
-* (Meta)Data in data exchange formats (XML, JSON, CSV, etc), that follow a standard metadata schema can be considered machine-actionable and syntactically interoperable. Ontologies that uniquely identify terms can be included for semantic interoperability.
+* (Meta)Data in data exchange formats (XML, JSON, CSV, etc) that follows a standard metadata schema can be considered machine-actionable and syntactically interoperable. Ontologies that uniquely identify terms can be included for semantic interoperability.
 * RDF syntaxes, such as RDF/XML and JSON-LD, support syntactic and semantic interoperability among machines. In other words, these formats convey the structure of the data being presented and the link to the necessary information to interpret its content, e.g. ontologies. Ontology or vocabulary is a way of expressing semantics/meaning of (meta)data. 
 
   Example of machine-interpretable metadata for the word “Jaguar” in JSON-LD format, which allows to clarify the intended meaning of the word "Jaguar" (the animal) and distinguishes it from other possible meanings such as car or computer:
