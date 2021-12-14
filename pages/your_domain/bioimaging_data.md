@@ -26,17 +26,10 @@ The collection of images can take several forms:
  - Slides scanned for example.
 
 
+### Data management challenges
 
-
-### Description
-An image is much more than a collection of zeros and ones.
-The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used,  etc.
-
-### Considerations
-
-Managing images immediately becomes a larger problem, not only the binary files need to be handled, but also the associated metadata.Several efforts have been made and still ongoing to capture those metadata.
-Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
-An image could take multiple forms on disk: a single file, a collection of files e.g. TIFF files including associated metadata files, etc. The number of files and the size of files could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse.
+An image could take multiple forms on disk: a single file, a collection of files e.g. TIFF files including associated metadata files, etc.
+The number of files and the size of files could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse. Managing images immediately becomes a major problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and are still ongoing to capture those metadata. Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
 
 
 ## Standard (meta)data formats
@@ -78,32 +71,36 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 
 
-## Bioimage data management
+## (Meta)Data collection
 
 ### Description
 
+The acquisition of bioimaging data takes place in various environments. The (usually) light or electron microscope may be in a core facility, in a research lab or even remotely in a different institution. Regardless of where the instrument is located, the acquired imaging data is likely to be stored, at least temporarily, in a local, vendor specific system’s PC next to the acquisition system due to their complexity and size. This is often unavoidable in order to securely store the data as quickly as the acquisition process itself.
 
-The acquisition of bioimaging data takes place in various environments. The (usually) light or electron microscope may be in a core facility, in a research lab or even remotely in a different institution. Regardless of where the instrument is located, the acquired imaging data is likely to be stored, at least temporarily, in a local, vendor specific system’s PC next to the acquisition system due to their complexity and size. This is often unavoidable in order to securely store the data as quickly as the acquisition process itself. 
-Due to the scale of data, keeping track of the image data and the associated data and metadata is essential, particularly in life sciences and medical fields. Storing, sharing, publishing image data and metadata can be very challenging. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used, and shared within research groups. Depending on the platforms selected you can:
 
- - control the access you wish to give to your data and how you wish to work e.g. PI only can view and annotate my data or you can choose to work on project with some collaborators
- - access data from anywhere via either Web or Desktop clients and API
- - store the metadata with your images. For example, analytical results can be linked to your imaging data and can be easily findable.
- - add value to your imaging data by for example linking them to external resources like ontologies.
- - make your data publicly available and slowly moving towards FAIRness
+Due to the scale of data, keeping track of the image data and the associated data and metadata is essential, particularly in life sciences and medical fields. Organising, storing, sharing, publishing image data and metadata can be very challenging.
+
 
 
 ### Considerations
-
+ - Consider using an image management software platform. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used, and shared within research groups.
+ - When evaluating an image management software platforms, check if it allows you to:
+   - Control the access you wish to give to your data and how you wish to work e.g. PI only can view and annotate my data or you can choose to work on project with some collaborators.
+   - Access data from anywhere via either Web or Desktop clients and API.
+   - Store the metadata with your images. For example, analytical results can be linked to your imaging data and can be easily findable.
+   - Add value to your imaging data by for example linking them to external resources like ontologies.
+   - Make your data publicly available and slowly moving towards FAIRness.
  - Try to avoid storing bioimaging data in the local system’s PC.
- - If possible, make a transfer to central storage mandatory.
- - If not possible, enable automation of data backup to central storage.
- - Consider support for minimal standards in your domain
+ - If possible, make a transfer to central storage mandatory. If not possible, enable automation of data backup to central storage.
+ - Consider support for minimal standards (metadata schemas, file formats etc.) in your domain.
+ - Consider reusing existing data.
 
 
 ### Solutions
 
- - [iRODS](https://irods.org/), [b2share](https://b2share.eudat.eu/) - image-agnostic platforms that can be used to bridge between domain data
+ - Agnostic platforms that can be used to bridge between domain data include:
+   - [iRODS](https://irods.org/)
+   - [b2share](https://b2share.eudat.eu/)
  - Image-specific data management platforms include:
    - [OMERO](https://www.openmicroscopy.org/omero/) - broad support for a large number of imaging formats
    - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) -  image specific
@@ -111,32 +108,41 @@ Due to the scale of data, keeping track of the image data and the associated dat
    - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data
    - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images
   - Platforms like [OMERO](https://www.openmicroscopy.org/omero/), [b2share](https://b2share.eudat.eu/) also allow you to publish the data associated with a given project.
+  - Metadata standards can be found at the [Metadata Standards Directory Working Group](http://rd-alliance.github.io/metadata-directory/).
+  - Ontologies Resources:
+    - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms
+    - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service
+    - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies
+   - Existing data can be found by using the following resources:
+    - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers)
+    - [Research Data repositories Registry](https://www.re3data.org/)
 
-Misc:
 
- - [Asset FAIRness](https://fairassist.org/#!/)
- - [Metadata Standards Directory Working Group](http://rd-alliance.github.io/metadata-directory/)
-
-
-## Bioimage sharing and deposition
+## Data publication and archiving
 
 ### Description
 
-Public data archives are an essential component of biological research. 
-Bioimaging tools and resources are behind compared to what is available in sequencing for example. Two distinct types of resources should be considered: 
- - Data archives as a long-lasting storage for data and metadata and making those data easily accessible to the community
+Public data archives are an essential component of biological research. However, publishing image data and metadata can be very challenging for multiple reasons, just to mention a few: limited infrastructure for some domains, data support, sparse data.
+
+Bioimaging tools and resources are behind compared to what is available in sequencing for example.
+mainly due to limited infrastructures capable of hosting the data. There are a few ongoing efforts to breach that gap.
+
+Two distinct types of resources should be considered: 
+ - Data archives as a long-lasting storage for data and metadata and making those data easily accessible to the community.
  - Added-values archives: store enhanced curated data, typically aiming at a scientific community,
 
 
 ### Considerations
 
+- If you only need to make your data available online and have limited metadata associated, consider publishing in a **Data archive**.
+- If your data are rich in metadata and should be considered as a reference dataset, consider an **Added-values archive**.
+- Select and choose the repositories based on the following characteristics:
   - Storage vs Added-value resources
   - Images format support
-  - Which license to use e.g. CC0 or CC-BY license . For example [Image Data Resource (IDR)](http://idr.openmicroscopy.org/) uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
+  - Supported licenses e.g. CC0 or CC-BY license. For example the [Image Data Resource (IDR)](http://idr.openmicroscopy.org/) uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
   - Which types of access is required for the users e.g. download only, browse search and view data and metadata, API access, etc. 
       - Does an entry have an access e.g. idr-xxx, EMPIAR-#####?
       - Does an entry have a DOI (Digital Object Identifier)?
-  - Consider using existing ontologies for added-value resources
 
 
 ### Solutions
@@ -185,18 +191,3 @@ Example of repositories than can be used to deposit images:
   - **Data upload restrictions**: 50GB per dataset
   - **DOI**: Yes
   - **Cost**: Free
-
-Ontologies Resources:
- - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms
- - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service
- - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies
-
-
-Misc:
-
- - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers)
- - 
- - [Research Data repositories Registry](https://www.re3data.org/)
-
-
-
