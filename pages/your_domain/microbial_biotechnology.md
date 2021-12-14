@@ -30,11 +30,13 @@ The main aspects of the build stage are:
 #### Test
 The test stage of a biotechnological study is the most variable in terms of the types of data produced. This stage is mostly about:
 * [testing](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#test-outcome-tests---metadata-standards-and-metadata-publication) the outcome or output variables and analyse the modified organism.
+* Characterising the synthetic parts using experimental data.
 
 #### Learn
 The learning stage consists in interpreting the obtained results, share the acquired knowledge and reuse it in combination with other existing data to improve the creation of the modified organism.
 * Publish and share data and results.
 * Reuse existing data and combine it with new data.
+* Feed data back into model(s) to inform the next iteration.
 
 Here, we adopt the stages of **design**, **build** and **test**, and their components or aspects, to categorise the various approaches available for the management of data in microbial biotechnology. 
 
@@ -80,10 +82,10 @@ It is recommended to publish and share information about biological hosts in ded
 * Other databases such as [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) and the [DNA Data Bank of Japan (DDBJ)](https://www.ddbj.nig.ac.jp/index-e.html) also cater for sequence information.
 
 
-## Design: Syntethic parts - Existing data, metadata collection and publication
+## Design: Synthetic parts - Existing data, metadata collection and publication
 
 ### Description
-Approriate and detailed description of the systethic parts design is critical for reproducibility. It is important to consider how to record metadata at each point in the design process in a standard way, so that it can be clear to others and reproducible.
+Appropriate and detailed description of the synthetic parts design is critical for reproducibility. It is important to consider how to record metadata at each point in the design process in a standard way, so that it can be clear to others and reproducible.
 
 ### Considerations
 * Format of designs may vary depending on the application, whether this be at the sequence level or an entire system.
@@ -136,7 +138,6 @@ Here we describe some of the available options to accurately represent and store
 * More generally, the [IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN)](https://www.qmul.ac.uk/sbcs/iupac/jcbn/) encourages the communication of biochemical information using generally understood terminology.
 
 #### (Meta)Data publication
-* SBOL.
 * Databases such as SBOLME ([Kuwahara et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28076956/)) or [SynBioHub](https://synbiohub.org) can be used to share the data.
 * Metabolite information can also be submitted to, or referred to in, [ChEBI](https://www.ebi.ac.uk/chebi/).
 * [BRaunschweig ENzyme DAtabase](https://www.brenda-enzymes.org/) (BRENDA).
@@ -175,7 +176,9 @@ The current method of sharing information about the building of microbial system
 
 ### Solutions
 #### Documentation
-* To the authors’ knowledge, there are no proposed standards that exist that are able to capture this diverse set of data. Currently, from a pragmatic point of view, the best a data manager can do is to make sure data is captured in some form from the lab scientist and grouped together with as much metadata as possible.The metadata standards for a build exercise are still to be defined and so at the discretion of the data manager.
+* To the authors’ knowledge, there are no proposed standards that exist that are able to capture this diverse set of data. Currently, from a pragmatic point of view, the best a data manager can do is to make sure data is captured in some form from the lab scientist and grouped together with as much metadata as possible. 
+
+  The metadata standards for a build exercise are still to be defined and so at the discretion of the data manager.
 * SBOL versions 2.0 and above provides a data standard that allows build data that has been grouped to be associated with design data for a part, device or system along with a minimal amount of metadata.
 * Similarly, [research object bundles](https://www.researchobject.org/), and more recently [RO-Crates](https://www.researchobject.org/ro-crate/), can be used to gather together build data and test data with information about the overall study.
 
