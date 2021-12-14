@@ -41,7 +41,7 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 - When purchasing a microscope, consider carefully how the resulting files will be processed. If open source tools will be used, proprietary file formats may require a time-consuming conversion. Discuss with your vendor if an open format is available.
 - If data from multiple vendors is to be combined, similar a conversion may be necessary to make the data comparable.
 - Imaging data brings special considerations due to the large, often continuous nature of the data. Single terabyte-scale files are not uncommon. Sharing these can require special infrastructure, like a data management server (described below) or a cloud-native format (described below). One goal of such infrastructure is to enable the selective (i.e. interactive) zooming of your image data *without* the need to download the entire volume, thereby reducing your internet bandwidth and costs.
-- Importantly, most acquisition systems produce proprietary file formats. Understanding how well they are supported by the imaging community could be a key factor of a successful study. Will it be possible to analyse or view the image using open-source software, will it be possible to deposit the images to public repositories when published? The choice of proprietary file formats could prevent from using any other tools that are not related to the acquisition systems.
+- Importantly, most acquisition systems produce proprietary file formats. Understanding how well they are supported by the imaging community could be a key factor of a successful study. Will it be possible to analyse or view the image using open-source software? Will it be possible to deposit the images to public repositories when published? The choice of proprietary file formats could prevent from using any other tools that are not related to the acquisition systems.
 
 ### Solutions
 
@@ -55,10 +55,10 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 **Permanent conversion**: An alternative is permanently convert your data to
 
-  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, “OME-TIFF”, to which you can convert your data. Bio-Formats (above) is likely the most straight-forward method to convert your data to OME-TIFF.
+  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. Bio-Formats (above) is likely the most straight-forward method to convert your data to OME-TIFF.
   - The [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) and [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff) toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, you might want to give it a try.
 
-**Cloud (or “object”) storage**: If you are storing your data in the cloud, you will likely need a different file format since most current image file formats are not suitable for cloud storage. OME is currently developing a [next-generation file format (NGFF)](https://ngff.openmicroscopy.org/latest/) that you can use.
+**Cloud (or "object") storage**: If you are storing your data in the cloud, you will likely need a different file format since most current image file formats are not suitable for cloud storage. OME is currently developing a [next-generation file format (NGFF)](https://ngff.openmicroscopy.org/latest/) that you can use.
 
 **Metadata**: If metadata are stored separately from the image data, the format of the metadata should follow the subject-specific standards regarding the schema, vocabulary or ontologies and storage format used such as:
 
@@ -74,13 +74,11 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 The acquisition of bioimaging data takes place in various environments. The (usually) light or electron microscope may be in a core facility, in a research lab or even remotely in a different institution. Regardless of where the instrument is located, the acquired imaging data is likely to be stored, at least temporarily, in a local, vendor specific system’s PC next to the acquisition system due to their complexity and size. This is often unavoidable in order to securely store the data as quickly as the acquisition process itself.
 
-
 Due to the scale of data, keeping track of the image data and the associated data and metadata is essential, particularly in life sciences and medical fields. Organising, storing, sharing, publishing image data and metadata can be very challenging.
 
 
-
 ### Considerations
- - Consider using an image management software platform. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used, and shared within research groups.
+ - Consider using an image management software platform. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used and shared within research groups.
  - When evaluating an image management software platforms, check if it allows you to:
    - Control the access you wish to give to your data and how you wish to work e.g. PI only can view and annotate my data or you can choose to work on project with some collaborators.
    - Access data from anywhere via either Web or Desktop clients and API.
@@ -100,13 +98,13 @@ Due to the scale of data, keeping track of the image data and the associated dat
    - [b2share](https://b2share.eudat.eu/)
  - Image-specific data management platforms include:
    - [OMERO](https://www.openmicroscopy.org/omero/) - broad support for a large number of imaging formats
-   - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) -  image specific
+   - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) - image specific
    - [XNAT](https://www.xnat.org/) - medical imaging platform, DICOM-based
    - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data
    - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images
   - Platforms like [OMERO](https://www.openmicroscopy.org/omero/), [b2share](https://b2share.eudat.eu/) also allow you to publish the data associated with a given project.
   - Metadata standards can be found at the [Metadata Standards Directory Working Group](http://rd-alliance.github.io/metadata-directory/).
-  - Ontologies Resources:
+  - Ontologies Resources available at:
     - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms
     - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service
     - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies
@@ -125,14 +123,14 @@ Bioimaging tools and resources are behind compared to what is available in seque
 mainly due to limited infrastructures capable of hosting the data. There are a few ongoing efforts to breach that gap.
 
 Two distinct types of resources should be considered: 
- - Data archives as a long-lasting storage for data and metadata and making those data easily accessible to the community.
+ - Data archives ("storage") as a long-lasting storage for data and metadata and making those data easily accessible to the community.
  - Added-values archives: store enhanced curated data, typically aiming at a scientific community,
 
 
 ### Considerations
 
 - If you only need to make your data available online and have limited metadata associated, consider publishing in a **Data archive**.
-- If your data are rich in metadata and should be considered as a reference dataset, consider an **Added-values archive**.
+- If your data should be considered as a reference dataset, consider an **Added-values archive**.
 - Select and choose the repositories based on the following characteristics:
   - Storage vs Added-value resources
   - Images format support
