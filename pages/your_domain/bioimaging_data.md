@@ -14,21 +14,18 @@ Bioimaging specialists are acquiring an ever growing amount of data: images, ass
 ## What constitutes bioimage data
 
 An image is much more than a collection of zeros and ones.
-The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used,  etc.
+The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used, etc.
 Managing images immediately becomes a larger problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and still ongoing to capture those metadata.
 Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
-An image could take multiple forms on disk: a single file, a collection of files e.g. TIFF files including associated metadata files, etc. The number of files and the size of files could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse.
-
 
 The collection of images can take several forms: 
  - Data acquired within a facility
- - Data acquired in other facility (commissioned work or external guest user) and “transported” by the users to their facility
+ - Data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility
  - Slides scanned for example.
 
 
 ### Data management challenges
 
-An image could take multiple forms on disk: a single file, a collection of files e.g. TIFF files including associated metadata files, etc.
 The number of files and the size of files could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse. Managing images immediately becomes a major problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and are still ongoing to capture those metadata. Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
 
 
