@@ -11,7 +11,7 @@ related_pages:
 
 Bioimaging specialists are acquiring an ever growing amount of data: images, associated metadata, etc. However, image data management often does not receive the attention it requires or is avoided altogether since it is considered a burdensome task. At the same time, storing images on personal computers or USB keys is no longer an option, assuming it ever was! Data volume is exponentially increasing, and not just the acquired images need storing but potentially processed images will be generated and will need to be kept alongside the original images. It is critical to proactively identify where the data will be stored, for how long, who will cover the cost of the hardware, and who will cover the cost of managing the infrastructure. All the stakeholders need to be involved in the preliminary discussions: biologists, facility managers, data analysis, IT support, etc. to ensure that the requirements are understood and met. 
 
-## What constitues bioimage data
+## What constitutes bioimage data
 
 An image is much more than a collection of zeros and ones.
 The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used,  etc.
