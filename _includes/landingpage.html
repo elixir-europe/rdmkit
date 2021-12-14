@@ -266,7 +266,8 @@
   </div>
   <div class="col">
     <div class="bg-light rounded p-3 text-center h-100">
-      <span class="count-number text-primary">{{site.pages.size}}</span>
+      {%- assign content_pages = site.pages |  where_exp:"item", "item.type != blank" %}
+      <span class="count-number text-primary">{{content_pages.size}}</span>
       <p><b>Pages</b><br>
      Helping you with data management</p>
     </div>
