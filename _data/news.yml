@@ -5,11 +5,11 @@
 - name: The history button
   date: 2021-11-29
   linked_pr: 767
-  description: Next to the edit me button you will now also find a history button to discover when th latest changes were made on this page.
+  description: Next to the edit me button you will now also find a history button to discover when the latest changes were made on this page.
 - name: "New section: national resources"
   date: 2021-12-10
   linked_pr: 749
-  description: We have from now on a dedicated place on this website to list country specific research data management resources!
+  description: We have from now on a dedicated place on this website to list country specific research data management resources! [Discover the section here](national_resources).
 - name: Linking to FAIR Cookbook
   date: 2021-11-19
   linked_pr: 759
@@ -17,6 +17,6 @@
 - name: "New page: machine actionability page"
   date: 2021-11-04
   linked_pr: 715
-  description: A "your task" page about the meaning of machine actionability in life sciences RDM.
+  description: A "your task" page about the meaning of machine actionability in life sciences RDM. [Discover the page here](machine_actionability).
 
 

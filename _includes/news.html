@@ -11,7 +11,7 @@
       <li>
         <span class="title mb-1">{{ new.name | escape }}</span>
         <p class="text-muted mb-0"><i class="far fa-calendar me-2"></i><time>{{ new.date | date_to_long_string }}</time><b> - </b><i class="fas fa-code-branch"></i><a href="{{ site.github.repository_url | append: '/pull/' | append: new.linked_pr }}">{{new.linked_pr }}</a></p>
-        <p class="mt-2">{{ new.description }}</p>
+        <p class="mt-2">{{ new.description | markdownify }}</p>
       </li>
       {%- assign count = count | plus: 1 %}
       {%- if include.limit and count == include.limit %}

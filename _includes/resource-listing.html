@@ -23,7 +23,7 @@
                 {%- else %}
                 <td>{{tool.name}}</td>
                 {%- endif %}
-                <td>{{tool.description}}</td>
+                <td>{{tool.description | markdownify }}</td>
                 {%- capture related_pages %}
                 {%- for section in tool.related_pages %}
                 {%- for tag in section[1] %}
