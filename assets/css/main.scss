@@ -27,6 +27,11 @@ $alert-border-width: 0;
 $input-group-addon-bg: $light-x;
 $input-bg: $light;
 $input-border-width: 0;
+$h1-font-size: 1rem * 3.5 !default;
+$h3-font-size: 1rem * 1.5 !default;
+$h4-font-size: 1rem * 1.1 !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 1rem !default;
 
 @import "bootstrap/bootstrap";
 
@@ -34,44 +39,36 @@ $input-border-width: 0;
 
 h1 {
     font-family: "Exo 2", sans-serif;
-    font-size: 3.5em;
     font-weight: 400;
-    margin-bottom: 0.5em;
+    margin-bottom:  $spacer * 1.5;
 }
 
-@media (max-width: 992px) {
-    h1 {
-        font-size: 3em;
-    }
-}
 
 main h2,
 .h2-like {
     font-family: "Exo 2", sans-serif;
     font-weight: 700;
     color: $primary;
-    margin: 40px 0 10px;
+    margin-top: $spacer * 2;
 }
 
 main h3 {
     font-weight: 700;
-    font-size: 1.2em;
-    margin-top: 20px;
+    margin-top: $spacer * 1.5;
 }
 
 main h4 {
     font-weight: 700;
-    font-size: 1.1em;
     color: $gray-600;
-    margin-top: 20px;
+    margin-top: $spacer * 1.5;
 }
 
 main h2 + h3 {
-    margin-top: 12px;
+    margin-top: $spacer * 0.5;
 }
 
 main h3 + h4 {
-    margin-top: 15px;
+    margin-top: $spacer * 0.25;
 }
 
 main a:not(.btn):hover {
