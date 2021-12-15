@@ -6,6 +6,7 @@ $white: #fff;
 $primary: #c23669;
 $blue: #376ac3;
 $light: #f3f1f2;
+$light-x: #e3e1e4;
 $dark: #2a2e3d;
 
 /*-----Custom bootstrap values-----*/
@@ -15,12 +16,17 @@ $navbar-dark-hover-color: $primary;
 $navbar-dark-toggler-border-color: transparent;
 $border-radius: 0.3rem;
 $card-border-width: 0;
+$card-cap-bg: $light-x;
 $link-color: $blue;
 $info: $blue;
 $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
 $font-family-sans-serif: "Open Sans", sans-serif;
+$alert-border-width: 0;
+$input-group-addon-bg: $light-x;
+$input-bg: $light;
+$input-border-width: 0;
 
 @import "bootstrap/bootstrap";
 
@@ -39,7 +45,8 @@ h1 {
     }
 }
 
-main h2, .h2-like {
+main h2,
+.h2-like {
     font-family: "Exo 2", sans-serif;
     font-weight: 700;
     color: $primary;
@@ -77,13 +84,6 @@ blockquote {
     padding-left: 10px;
     color: $gray-600;
     border-radius: $border-radius;
-}
-
-hr {
-    background: #999;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* Selection color */
@@ -147,7 +147,7 @@ pre code {
 
 /*-----Top navigation-----*/
 
-.navbar-nav .nav-item a.active {
+.navbar-nav .nav-item > a.active {
     color: $white;
     background-color: $primary;
     border-radius: $border-radius;
@@ -159,17 +159,6 @@ pre code {
 
 /*-----Search box top navigation-----*/
 
-.search {
-    position: relative;
-    z-index: 2;
-}
-
-.search .fa-search {
-    position: absolute;
-    color: $primary;
-    top: 12px;
-    left: 15px;
-}
 
 .search-results {
     position: absolute;
@@ -182,6 +171,7 @@ pre code {
     background-color: $white;
     box-shadow: $box-shadow;
     border-radius: $border-radius;
+    z-index: $zindex-dropdown;
 }
 
 @media (max-width: 992px) {
@@ -393,6 +383,10 @@ pre code {
     margin: $btn-focus-width $btn-focus-width 0 0;
 }
 
+table {
+    @extend .table;
+}
+
 /* Name and description column improvements */
 
 #tooltable tr th:nth-child(1) {
@@ -444,15 +438,6 @@ footer a:hover {
     text-decoration: none;
 }
 
-footer .europe-flag {
-    width: 80px;
-    padding-top: 18px;
-}
-
-footer .company-logo {
-    float: right;
-}
-
 /* -----Homepage----- */
 
 .blurb-title {
@@ -489,10 +474,6 @@ h2.card-title {
 }
 
 /*-----Contributors cards-----*/
-
-.contributor-cards .card {
-    background-color: $light;
-}
 
 .contributor-cards .badge {
     background-color: $primary;
@@ -702,5 +683,8 @@ iframe.scale {
     .h-30px {
         height: 24px;
     }
-}
 
+    .card .card-text {
+        min-height: 4.5em;
+    }
+}

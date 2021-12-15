@@ -35,6 +35,8 @@ subitems:
         url: /proteomics.html
       - title: Toxicology data
         url: /toxicology_data.html
+      - title: Bioimaging data
+        url: /bioimaging_data.html
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
@@ -71,6 +73,9 @@ subitems:
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     url: /tool_assembly.html
+  - title: National resources
+    description: Browse trough the national resource pages
+    url: /national_resources.html
 
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
