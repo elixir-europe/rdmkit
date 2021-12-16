@@ -7,7 +7,7 @@ resources:
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs
     how_to_access:
-    instance_of: DMPonline
+    instance_of: DMPRoadmap
     related_pages:
       tool_assembly: [IFB]
       your_role: [researcher, data manager]
