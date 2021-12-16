@@ -2692,3 +2692,10 @@ Tools:
   - data publication
   - biomol sim
   - bioimaging data
+- description: DMP Roadmap is a Data Management Planning tool.
+  link: https://github.com/DMPRoadmap/roadmap
+  name: DMPRoadmap
+  related_pages:
+  - DMP
+  - researcher
+  - data manager
