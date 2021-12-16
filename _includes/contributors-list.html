@@ -1,6 +1,6 @@
 {%- if page.contributors %}
 <span class="d-block h2-like fs-2 text-dark">Contributors</span>
-<div class="p-4 bg-light rounded">
+<div class="p-4 bg-light rounded mt-4">
     {%- assign contributors = site.data.CONTRIBUTORS -%}
     {%- assign page_contributors = page.contributors |sort -%}
     {%- for contributor in page_contributors | sort %}
