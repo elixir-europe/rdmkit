@@ -149,6 +149,7 @@ We provide here a list of higher education institutions with Data Management Pol
 * [Lov om legemidler mv (legemiddelloven)](http://www.lovdata.no/all/nl-19921204-132.html)
 * [Forskrift om klinisk utprøving av legemidler til mennesker](http://www.lovdata.no/for/sf/ho/ho-20091030-1321.html)
 * [Lov om humanmedisinsk bruk av bioteknologi mm (bioteknologiloven)](https://lovdata.no/dokument/NL/lov/2003-12-05-100)
+
 ### Other laws of relevance in this context
 * [Lov om arkiv [arkivlova]](https://lovdata.no/dokument/NL/lov/1992-12-04-126)
 * [Lov om organisering av forskningsetisk arbeid * (forskningsetikkloven)](https://lovdata.no/dokument/NL/lov/2017-04-28-23)
@@ -161,6 +162,7 @@ We provide here a list of higher education institutions with Data Management Pol
 ### Privacy
 * [Datatilsynet: Journalistiske, akademiske, kunstneriske og litterære formål](https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/personvern-vs.-ytringsfrihet/)
 * [Atferdsnormer Informasjonssikkerhet og internkontroll](https://www.datatilsynet.no/regelverk-og-verktoy/atferdsnorm/)
+
 ### Health research
 * [e-helse Direktoratet: “Normen”: Norm for helsedata](https://ehelse.no/normen)
 
