@@ -6,9 +6,9 @@ sidebar: about
 
 ## Presentations
 
-**2021-06-04**
-
 ### RDMkit ELIXIR All Hands DM-Symposium 2021
+
+**2021-06-04**
 
 <iframe class="scale" src="https://docs.google.com/presentation/d/e/2PACX-1vQDLybJaTlgEeoW_z7UOisURpqis-4s9kR08n7u4oY1AxIDq2uwl0eziRbzkT93LQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
