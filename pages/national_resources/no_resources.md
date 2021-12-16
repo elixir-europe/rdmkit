@@ -14,6 +14,7 @@ resources:
   - name: DS Wizard ELIXIR-Norway
     description: DS Wizard is a simple but powerful solution for researchers to help them understand what is needed for a good, FAIR-oriented Data Stewardship, and to help them build their own Data Management Plans. The template we provide in this instance provides additional guidance on resources, laws and regulations in Norway.
     how_to_access: access with ELIXIR-AAI with FEIDE or upon registration
+    instance_of: Data Stewardship Wizard
     related_pages:
       your_tasks: [DMP]
     url: https://elixir-no.ds-wizard.org/ 
@@ -56,6 +57,7 @@ resources:
     url: https://ega.elixir.no/
   - name: usegalaxy.no
     description: 
+    instance_of: Galaxy
     how_to_access: FEIDE or upon application
     related_pages:
       your_domain: [human data]
@@ -91,6 +93,7 @@ resources:
     url: https://rette.app.uib.no/
   - name: DataverseNO
     description: 
+    instance_of: DATAVERSE
     how_to_access: open access
     related_pages:
       your_domain: []
