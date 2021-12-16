@@ -67,6 +67,7 @@ faircookbook:
   ``` 
 
 * `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+
   ```yml
   training:
     - name: Training in TeSS
@@ -80,6 +81,7 @@ faircookbook:
       url: https://tess.elixir-europe.org/search?q=data%20analysis
   ```
 * `faircookbook`: List here all the links towards FAIR Cookbook recipes.
+
   ```yml
   faircookbook:
   - name: Data licenses

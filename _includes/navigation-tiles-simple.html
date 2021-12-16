@@ -1,0 +1,10 @@
+{%- assign allcountries = site.data.countries %}
+<div class="row row-cols-1 row-cols-md-2 g-3 mb-5 navigation-tiles">
+    {%- for current_page in site.pages | sorted %}
+    {%- if current_page.title and current_page.search_exclude != true and current_page.type == include.type %}
+    <div class="col d-grid" >
+        <a role="button" class="btn bg-light py-4 fs-3 hover-primary" href="{{ current_page.url | relative_url }}">{{current_page.title}}<span class="flag-icon ms-3 flag-icon-{{current_page.country_code | downcase }}"></span></a>
+    </div>
+    {%- endif %}
+    {%- endfor %}
+</div>
