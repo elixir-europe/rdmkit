@@ -14,6 +14,7 @@ resources:
     url: https://chipster.csc.fi/
   - name: DMPTuuli
     description: Data management planning tool (Finland)
+    instance_of: DMPRoadmap
     how_to_access: 
     related_pages:
       tool_assembly: [CSC]

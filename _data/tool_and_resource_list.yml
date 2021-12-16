@@ -195,6 +195,7 @@ Tools:
     tess: Bio-Formats
   related_pages:
   - ome
+  - bioimaging data
 - description: Platform designed to efficiently generate bioactive conformers and
     speed up the drug discovery process.
   link: https://mmb.irbbarcelona.org/BCE/
@@ -232,6 +233,7 @@ Tools:
     fairsharing: x38D2k
   related_pages:
   - data publication
+  - bioimaging data
 - description: A repository of mathematical models for application in biological sciences
   link: https://www.ebi.ac.uk/biomodels/
   name: BioModels
@@ -277,6 +279,16 @@ Tools:
   - micro biotech
   - metadata
   - plants
+- description: Resource for management and analysis of 5D biological images
+  link: https://bioimage.ucsb.edu/bisque
+  name: BisQue
+  registry:
+    biotools: bisque
+  related_pages:
+  - data organisation
+  - data manager
+  - data analysis
+  - bioimaging data
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -337,6 +349,14 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: Store and publish your research data. Can be used to bridge between
+    domains
+  link: https://b2share.eudat.eu/
+  name: b2share
+  related_pages:
+  - storage
+  - data publication
+  - bioimaging data
 - description: A highly useful and flexible tool for calibration of targeted MS?based
     measurements. CalibraCurve enables an automated batch-mode determination of dynamic
     linear ranges and quantification limits for both targeted proteomics and similar
@@ -562,6 +582,12 @@ Tools:
   related_pages:
   - transfer
   - IT support
+- description: Image Data management
+  link: https://github.com/cytomine/Cytomine-IMS
+  name: Cytomine-IMS
+  related_pages:
+  - data manager
+  - bioimaging data
 - description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
@@ -765,6 +791,7 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
 - description: Database of folding / unfolding pathway of representatives from all
     known protein folds by MD simulation
   link: http://www.dynameomics.org/
@@ -880,6 +907,7 @@ Tools:
   related_pages:
   - data publication
   - ome
+  - bioimaging data
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: https://www.ensembl.org/index.html
@@ -1081,6 +1109,7 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
 - description: A free FTP solution
   link: https://filezilla-project.org
   name: FileZilla
@@ -1352,6 +1381,7 @@ Tools:
   - metadata
   - transfer
   - ome
+  - bioimaging data
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   link: http://purl.obolibrary.org/obo/ICO.owl
@@ -1424,6 +1454,7 @@ Tools:
   - storage
   - IT support
   - transmed
+  - bioimaging data
 - description: Open source framework and tools helping to manage a diverse set of
     life science, environmental and biomedical experiments using the Investigation
     Study Assay (ISA) standard
@@ -1739,6 +1770,13 @@ Tools:
   - researcher
   - data manager
   - XNAT-PIC
+- description: A file-system based platform handling the transfer of data
+  link: http://www.mytardis.org/
+  name: MyTardis
+  related_pages:
+  - data manager
+  - transfer
+  - bioimaging data
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications. Also boasts integrated
     tools for analysis.
@@ -1826,6 +1864,7 @@ Tools:
   - IT support
   - storage
   - ome
+  - bioimaging data
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
   link: https://www.omicsdi.org
@@ -2374,6 +2413,19 @@ Tools:
   name: Standards for Reporting Enzyme Data (STRENDA)
   related_pages:
   - micro biotech
+- description: Added-value database for biological dynamics images
+  link: https://ssbd.riken.jp/database/
+  name: SSBD:database
+  related_pages:
+  - bioimaging data
+  - data publication
+- description: An open data archive that stores and publishes bioimaging and biological
+    quantitative datasets
+  link: https://ssbd.riken.jp/repository/
+  name: SSBD:repository
+  related_pages:
+  - bioimaging data
+  - data publication
 - description: Known and predicted protein-protein interactions.
   link: https://string-db.org/
   name: STRING
@@ -2612,6 +2664,7 @@ Tools:
   - data analysis
   - transmed
   - XNAT-PIC
+  - bioimaging data
 - description: Analysing of single or multiple subjects within the same project in
     XNAT
   link: https://github.com/szullino/XNAT-PIC
@@ -2638,3 +2691,11 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
+- description: DMP Roadmap is a Data Management Planning tool.
+  link: https://github.com/DMPRoadmap/roadmap
+  name: DMPRoadmap
+  related_pages:
+  - DMP
+  - researcher
+  - data manager
