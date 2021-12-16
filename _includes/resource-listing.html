@@ -24,7 +24,7 @@
                 {%- else %}
                 <td>{{tool.name}}</td>
                 {%- endif %}
-                <td>{{tool.description}}
+                <td>{{tool.description | markdownify }}
                     {%- if tool.instance_of or tool.how_to_access %}
                     <div class="d-block">
                         <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="This resource is an instance of {{tool.instance_of}}"><span class="badge text-primary border border-primary">{{tool.instance_of}}</span></span>
