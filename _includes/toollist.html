@@ -96,7 +96,7 @@
                 {%- else %}
                 <td>{{tool.name}}<a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- endif %}
-                <td>{{tool.description}}
+                <td>{{tool.description | markdownify }}
                 {% if tool.instance_of %}
                 <div class="d-block">
                     <span class="badge text-primary border border-primary">{{tool.instance_of}}</span>
