@@ -95,11 +95,16 @@
                     <span class="me-2"><b><small>Affiliations:</small></b></span>
                     {%- for affiliation in current_page.affiliations %}
                     {%- assign filter_affiliation = alllogos | where: "name", affiliation %}
-                    {%- if affiliation.size == 2 %}
                     {%- assign country = affiliation | upcase %}
+                    {%- if affiliation.size == 2 %}
+                    {%- assign country_link = site.pages | where:"country_code",country | first %}
+                    {%- if country_link %}
+                    <a role="button" href="{{country_link.url}}" data-bs-toggle="tooltip" title="{{allcountries[country]}}" class="btn btn-sm bg-white hover-primary"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></a>
+                    {%- else %}
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{allcountries[country]}}">
                         <button class="btn btn-sm text-dark bg-white pe-none" title="{{allcountries[country]}}"><div class="flag-icon flag-icon-{{affiliation | downcase}} h-30px"></div></button>
                     </span>
+                    {%- endif %}
                     {%- elsif affiliation == "ALL" %}
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="All people">
                         <button class="btn btn-sm text-dark bg-white pe-none" title="ALL"><div class="h-30px">ALL</div></button>
@@ -118,10 +123,15 @@
                     {%- for audience in current_page.audience %}
                     {%- assign filter_audience = alllogos | where: "name", audience %}
                     {%- if audience.size == 2 %}
-                    {%- assign country = audience | upcase  %}
+                    {%- assign country = audience | upcase %}
+                    {%- assign country_link = site.pages | where:"country_code",country | first %}
+                    {%- if country_link %}
+                    <a role="button" href="{{country_link.url}}" data-bs-toggle="tooltip" title="{{allcountries[country]}}" class="btn btn-sm bg-white hover-primary"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></a>
+                    {%- else %}
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{allcountries[country]}}">
                         <button class="btn btn-sm text-dark bg-white pe-none" title="{{allcountries[country]}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
                     </span>
+                    {%- endif %}
                     {%- elsif audience == "ALL" %}
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="All people">
                         <button class="btn btn-sm text-dark bg-white pe-none" title="ALL"><div class="h-30px">ALL</div></button>
