@@ -259,14 +259,20 @@
   </div>
   <div class="col">
     <div class="bg-light rounded p-3 text-center h-100">
-      <span class="count-number text-primary">{{tools.Tools.size}}</span>
+      {%- assign national_tools = 0 %}
+      {%- assign country_pages = site.pages | where: "type", "national_resources" | where: "search_exclude", "false" %}
+      {%- for country_page in country_pages %}
+      {%- assign national_tools = national_tools | plus: country_page.resources.size %}
+      {%- endfor %}
+      <span class="count-number text-primary">{{tools.Tools.size | plus: national_tools }}</span>
       <p><b>Tools & resources</b><br>
       Explained in the context of real world problems</p>
     </div>
   </div>
   <div class="col">
     <div class="bg-light rounded p-3 text-center h-100">
-      <span class="count-number text-primary">{{site.pages.size}}</span>
+      {%- assign content_pages = site.pages |  where_exp:"item", "item.type != blank" | where: "search_exclude", "false" %}
+      <span class="count-number text-primary">{{content_pages.size}}</span>
       <p><b>Pages</b><br>
      Helping you with data management</p>
     </div>

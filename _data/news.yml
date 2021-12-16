@@ -1,18 +1,24 @@
-- name: Open Science FAIR
-  date: 2021-09-20
-  description: 3rd Open Science FAIR Conference, an international event for all topics related to Open Science
-    OS Fair 2021 aims to bring together and empower open science communities and services;
-    to identify common practices related to open science;
-    to see what are the best synergies to deliver and operate services that work for many;<br>
-    and to bring experiences from all around the world and learn from each other.<br>
-    - <a href="https://www.opensciencefair.eu/2021/programme">Program zoom links for panel sessions</a><br>
-    - <a href="https://www.youtube.com/watch?v=TrZrRcCoQSo">Plenaries on youtube</a>
-- name: "BioData.pt TALKS: RDM Toolkit"
-  date: 2021-09-20
-  description: BioData.pt talks comprise a series of monthly webinars given by BioData.pt collaborators and guest experts. The webinar on 2nd November 2021 aims to provide an introduction on the use and features of RDMkit. <a href="https://biodata.pt/node/336">More information about the event</a>
-- name: RDMkit nominated for NFDI4Ing Community Award
-  date: 2021-09-27
-  description: RDMkit was nominated for the NFDI4Ing Community Award beside <a href="https://pad.gwdg.de/s/5pQIive5h">other tools</a> at the German <a href="https://nfdi4ing.de/konferenz/">NFDI4Ing conference</a>.
-- name: "RDMkit: A data management toolkit for life scientists" 
-  date: 2021-12-16
-  description: RDMkit was presented at the "FAIR Hackathon" by EOSC Life <a href="https://www.eosc-life.eu">
+- name: Improved TeSS links
+  date: 2021-11-24
+  linked_pr: 755
+  description: Due to a Converge WP2-WP3 hackathon, we improved many links towards TeSS to ensure that people are linked to relevant trainings.
+- name: The history button
+  date: 2021-11-29
+  linked_pr: 767
+  description: Next to the edit me button you will now also find a history button to discover when the latest changes were made on this page.
+- name: "New section: National resources"
+  date: 2021-12-10
+  linked_pr: 749
+  description: We have from now on a dedicated place on this website to list country specific research data management resources! [Discover the section here](national_resources).
+- name: Linking to FAIR Cookbook
+  date: 2021-11-19
+  linked_pr: 759
+  description: We increase the interoperability of our website by adding official support for linking towardsFAIR cookbook for in depth recipes about some data management topics.
+- name: "New page: Machine actionability"
+  date: 2021-11-04
+  linked_pr: 715
+  description: A "your task" page about the meaning of machine actionability in life sciences RDM. [Discover the page here](machine_actionability).
+- name: "New page: Bioimaging data"
+  date: 2021-12-14
+  linked_pr: 765
+  description: A "your domain" page about Bioimaging. [Discover the page here](bioimaging_data).
