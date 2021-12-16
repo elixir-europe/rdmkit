@@ -52,7 +52,7 @@ resources:
   - name: DMPonline.be
     description: This instance of DMPonline is provided by the DMPbelgium Consortium. We can help you write and maintain data management plans for your research.
     how_to_access: Affiliation with one of the universities of the consortium is required.
-    instance_of: DMPonline
+    instance_of: DMPRoadmap
     related_pages:
       tool_assembly: []
       your_domain: []
