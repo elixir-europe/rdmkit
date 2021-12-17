@@ -1128,27 +1128,19 @@ Tools:
   name: Freegenes
   related_pages:
   - micro biotech
-- description: Open standards for genomic data sharing.
-  link: https://www.ga4gh.org/genomic-data-toolkit/
-  name: GA4GH Genomic Data Toolkit
-  related_pages:
-  - data manager
-  - IT support
-  - human data
 - description: Principled and practical framework for the responsible sharing of genomic
     and health-related data.
   link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
-  name: GA4GH Data Security Toolkit
+  name: GA4GH data security toolkit
   related_pages:
   - data publication
   - policy officer
   - data manager
   - IT support
-  - sensitive
   - human data
 - description: Framework for Responsible Sharing of Genomic and Health-Related Data
   link: https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/
-  name: GA4GH Regulatory and Ethics toolkit
+  name: GA4GH regular and ethical toolkit
   related_pages:
   - data protection
   - sensitive
