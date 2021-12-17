@@ -42,12 +42,14 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 ### Solutions
 #### Identification of plant biological materials
 * Detailed metadata needs to be captured on the biological materials used in the study—the accession in the genebank or the experimental identification and, when applicable, the seed lots or the parent plants as well as the possible samples taken from the plant—as they are the key to integrating omics and phenotyping datasets. 
+
 #### Checklists and metadata standard
 * The identification and description of plant materials should comply with the standard for the identification of plant genetic resources, The [Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/)(MCPD).
   * If you are studying experimental plant materials that cannot be traced to an existing genebank or germplasm database, you should describe them in accordance with the MCPD in as much detail as possible.
   * If your plant materials can be traced to an existing genebank or germplasm database, you need only to cross reference to the MCPD information already published in the genebank or germplasm database. 
   * The minimal fields from MCPD are listed in the Biological Material section of the MIAPPE metadata standard.
   * For wild plants and accessions from tree collections, precise identification often requires the GPS coordinates of the tree. MIAPPE provides the necessary fields.
+
 #### Tools for (meta)data collection
 * For identifying your plant material in a plant genetic resource repository (genebank or germplasm database), you can consult the [European Cooperative Programme for Plant Genetic Resources](https://www.ecpgr.cgiar.org/) (ECPGR), which includes a [central germplasm database](https://www.ecpgr.cgiar.org/resources/germplasm-databases/ecpgr-central-crop-databases) and a catalogue of relevant [external databases](https://www.ecpgr.cgiar.org/resources/germplasm-databases/international-multicrop-databases).
 * Other key databases for identifying plant material are 
@@ -66,6 +68,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
   * [Fairdomhub](https://fairdomhub.org/)
 
 ## Phenotyping: (meta)data collection and publication
+
 ### Description
 Archiving, sharing, and publication of plant phenotyping data can be challenging, given that there is no global centralized archive for this type of data. Research projects often involve multiple partners, some of which collate data into their own (institutional) data management platforms, whereas others collate data into Excel spreadsheets.
 
@@ -86,6 +89,7 @@ It is recommended that metadata collection is contemplated from the start of the
   * If not, are they MIAPPE-compliant and do they enable automated data exchange?
 
 ### Solutions
+
 #### Checklists and ontologies
 * The metadata standard applicable to plant phenotyping experiments is [MIAPPE](https://www.miappe.org/).
   * There is a section dedicated to the identification of plant biological materials that follows [The Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/) (MCPD) described [above](#plant-biological-materials-metadata-collection-and-sharing).
@@ -109,6 +113,7 @@ It is recommended that metadata collection is contemplated from the start of the
 * For data deposition, it is highly recommended that you opt for one of the many [repositories that implement BrAPI](https://www.brapi.org/servers), as they enhance findability through the ELIXIR plant data discovery service, [FAIDARE](https://urgi.versailles.inrae.fr/faidare/), enable machine actionable access to MIAPPE compliant data and validation of that compliance.
 
 ## Genotyping: (meta)data collection and publication
+
 ### Description
 Here are described the mandatory, recommended and optional metadata fields for data interoperability and re-use, as well as for data deposition in EVA (European Variation Archive), the EMBL-EBI's open-access genetic variation archive connected to [BioSamples](https://www.ebi.ac.uk/biosamples/), described [above](#plant-biological-materials-metadata-collection-and-sharing).
 
@@ -121,5 +126,6 @@ Here are described the mandatory, recommended and optional metadata fields for d
 #### Checklists, ontologies and file formats
 * Sharing plant genotyping data files involves the use of the Variant Call Format (VCF) standard.  
 * Findability and reusability of VCF files depends on the supplied metadata and in particular with MIAPPE compliant biological material description: the [plant VCF metadata FAIR Cookbook](INSERT LINK) helps you on that topic.
+
 #### Data sharing and publication
 * Once the VCF file is ready with all necessary metadata, it can be submitted to the European Variation Archive (EVA). You will find all necessary information on the submission steps on the [EVA submission page](https://www.ebi.ac.uk/eva/?Submit-Data).
