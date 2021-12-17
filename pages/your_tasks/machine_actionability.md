@@ -129,15 +129,15 @@ The theoretically most machine-actionable format is in practice not achieved or 
 
 For machine-actionability and interoperability, you should consider:
 1. File formats that are data exchange formats (e.g. JSON, XML).
-2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. ISA model or OME data model). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
+2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. ISA model, OME data model). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
 3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. MIAPPE, ENA Samples checklists), that capture reporting best practice in the field.
 4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. EFO, OBI).
 
 #### File format
 
 * Information contained in a digital object is only as accessible as the [file format](https://opendatahandbook.org/glossary/en/terms/file-format/) it is saved in. A file format is the way that information is encoded for storage in a computer file. This is often indicated by the file extension, e.g. .csv for a CSV file. Different file formats are preferred for different purposes. For instance:
-  * PDF is tailored to store and display text and graphics to humans, according to specific layout, but it is not suitable for exchanging information between machines.
-  * CSV is appropriate to exchange plain text information in a tabular format.
+  * PDF is tailored to store and display text and graphics to humans, according to specific layouts, but it is not suitable for exchanging information between machines.
+  * CSV is appropriate to exchange plain text information in a tabular format, but its flat nature makes a challenge to describe more complex relationships between information. 
   * XML and JSON formats are widely used for data exchange between systems (such as softwares, platforms or hardwares) and on the web. Both are easy to read and interpreted by machines, but not very human-readable.
 
 * Exchange file formats using key-value pairs, such as .xml and .json, can wrap or encode the information to be sent or exchanged in a hierarchical (tree) data model. 
@@ -152,14 +152,14 @@ For machine-actionability and interoperability, you should consider:
 * Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model in a more implicit way (e.g. ISA-TAB,  MAGE-TAB).
 * Some data repositories develop customised (meta)data schemas.
 * Different metadata schemas are preferred for different purposes. For instance, 
-  * [Schema.org](https://schema.org) and [Bioschemas.org](https://bioschemas.org/index.html) markup are mostly used to describe web resources and make them findable by search engines on the Web. 
+  * [Schema.org](https://schema.org) and [Bioschemas.org](https://bioschemas.org/index.html) markup are mostly used to describe web resources and make them findable by Web search engines. 
   * [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-2/) is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
   * [Investigation-Study-Assay (ISA) model](https://isa-tools.org/isa-api/content/isamodel.html#) was originally designed for describing multi-omics experiments in Life Sciences.
-  * The [OME Model](https://docs.openmicroscopy.org/ome-model/6.0.0/) is a specification for storing data on biological imaging.
+  * The [OME Data Model](https://docs.openmicroscopy.org/ome-model/latest/) is a specification for storing and exchanging data on biological imaging.
 
 * The [W3C](https://www.w3.org/) consortium has formalised a universal abstract data model to potentially establish relationships among any resource available on the web (people, places, web pages, events, abstract concepts, etc) called [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf-concepts/#section-Introduction). This universal abstract data model allows us to describe relationships between multiple resources encoded in different formats, following different standards and stored in different locations/servers on the internet. 
 
-  [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describes the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values etc.
+  [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values etc.
 
 * RDF concept can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as Schema.org or Bioschemas.org (for Life Sciences), Data Catalog Vocabulary (DCAT), Dublin Core, etc.
   
@@ -188,14 +188,15 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
   "@type": "Taxon",
   "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9690" , 
   "taxonRank": "species",
-  "name": "Panthera onca"
+  "name": "Panthera onca",
+  "alternateName": "Jaguar"
   }
   ```
 * Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rd-alliance.github.io/metadata-directory/subjects/life-sciences.html) or among standards in [Fairsharing.org](https://fairsharing.org/standards/).
 * Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
-  * ISA-JSON (.json) and ISA-TAB (.csv) - generic metadata framework originally created to describe information about multi-omics experiments.
-  * [MAGE-TAB](https://www.ebi.ac.uk/arrayexpress/help/magetab_spec.html) (.csv) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
-  * OME-TIFF for bioimaging, with OME metadata in the header, in the form of OME-XML. Ontologies to uniquely identify terms can be included.
+  * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
+  * [MAGE-TAB](https://www.ebi.ac.uk/arrayexpress/help/magetab_spec.html) (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
+  * [OME data model](https://docs.openmicroscopy.org/ome-model/latest/) (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included.
 * For more information about metadata schemas and ontologies, see [Documentation and Metadata](metadata_management) page.
 
 
