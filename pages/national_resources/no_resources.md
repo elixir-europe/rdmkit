@@ -24,13 +24,13 @@ training:
 resources:
   - name: Feide
     description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
-    how_to_access:  Everyone with an affiliation to a Norwegian academic institution.
+    how_to_access: Everyone with an affiliation to a Norwegian academic institution.
     related_pages:
       tool_assembly: [TSD, NELS,marine assembly]
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
     description: DS-Wizard is a solution for researchers to help them understand what is needed for a good, FAIR-oriented Data Stewardship, and to help them build their own Data Management Plans. The template we provide in this instance provides additional guidance on resources, laws and regulations in Norway.
-    how_to_access: [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) with Feide or upon registration
+    how_to_access: ELIXIR-AAI with Feide or upon registration"
     instance_of: Data Stewardship Wizard
     related_pages:
       tool_assembly: [TSD,NeLS,marine assembly]
@@ -63,7 +63,6 @@ resources:
     url: https://mmp2.sfb.uit.no/marfun/
   - name: Norwegian COVID-19 Data Portal
     description: The Norwegian COVID-19 Data Portal aims to bundle the Norwegian research efforts and offers guidelines, tools, databases and services to support Norwegian COVID-19 researchers.
-    how_to_access: openly accessible
     related_pages:
       your_domain: [human data]
       your_tasks: [sensitive, existing data, data publication]
@@ -71,7 +70,7 @@ resources:
     url: https://covid19dataportal.no/
   - name: Norwegian Federated EGA
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
-    how_to_access: [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai); intended for data from Norwegian institutions
+    how_to_access: ELIXIR-AAI; intended for data from Norwegian institutions
     instance_of: The European Genome-phenome Archive (EGA)
     related_pages:
       your_domain: [human data]
@@ -294,7 +293,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Biotechnology Act (on the medical use of biotechnology)](https://lovdata.no/dokument/NL/lov/2003-12-05-100)
 * [e-helse Direktoratet: “Normen”: Norms for health data](https://ehelse.no/normen)
 
-### Other Laws of potential relevance to Life Sciences Research Data 
+### Other Laws of potential relevance to Life Sciences Research Data
 
 * [Archive Act](https://lovdata.no/dokument/NL/lov/1992-12-04-126)
 * [Research Ethics Act](https://lovdata.no/dokument/NL/lov/2017-04-28-23)
