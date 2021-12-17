@@ -92,16 +92,19 @@
             {%- assign hide_ids = hide_ids | append: " " | append: tool_id %}
             <tr class="collapse multi-collapse" id="{{tool_id}}">
                 {% if tool.url %}
-                <td><a href="{{tool.url}}">{{tool.name}}</a><a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
+                <td><a href="{{tool.url}}">{{tool.name}}</a><a href="{{country_page.url}}" data-bs-toggle="tooltip" title="{{country_page.title}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- else %}
                 <td>{{tool.name}}<a href="{{country_page.url}}"><span class="flag-icon ms-2 flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
                 {%- endif %}
                 <td>{{tool.description | markdownify }}
-                {% if tool.instance_of %}
-                <div class="d-block">
-                    <span class="badge text-primary border border-primary">{{tool.instance_of}}</span>
-                </div>
-                {%- endif %}
+                    {%- if tool.instance_of or tool.how_to_access %}
+                    <div class="d-block">
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="This resource is an instance of {{tool.instance_of}}"><span class="badge text-primary border border-primary">{{tool.instance_of}}</span></span>
+                        {%- if tool.how_to_access %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{tool.how_to_access}}"><span class="badge text-primary border border-primary">  <i class="fas fa-key"></i></span></span>
+                        {%- endif %}
+                    </div>
+                    {%- endif %}
                 </td>
                 {%- capture related_pages %}
                 {%- for section in tool.related_pages %}
