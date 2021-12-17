@@ -14,6 +14,7 @@ training:
 ---
 
 ## Introduction
+
 ### Data management challenges in plant sciences
 The plant science domain includes studying the adaptation of plants to their environment, with applications ranging from improving crop yield or resistance to environmental conditions, to managing forest ecosystems. Data integration and reuse are facilitators for understanding the play between genotype and environment to produce a phenotype, which requires integrating phenotyping experiments and genomic assays made on the same plant material, with geo-climatic data. Moreover, cross-species comparisons are often necessary to understand the mechanisms behind phenotypic traits, especially at the genotypic level, due to the gap in genomic knowledge between well-studied plant species (namely Arabidopsis) and newly sequenced ones.
 
@@ -22,6 +23,7 @@ The challenges to data integration stem from the multiple levels of heterogeneit
 Another particularity of this domain is the absence of central deposition databases for certain important data types, in particular data deriving from plant phenotyping experiments. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This makes it difficult to find, access and interconnect plant phenotyping data.
 
 ## Plant biological materials: (meta)data collection and sharing
+
 ### Description
 Plant genetic studies such as genomic-based prediction of phenotypes requires the integration of genomic and phenotypic data with data about their environment. While phenotypic and environmental data are typically stored together in phenotyping databases, genomic and other types of molecular data are typically deposited in international deposition databases, for example, those of the [INSDC global consortium](http://www.insdc.org/).
 
@@ -40,6 +42,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
   * How do you unambiguously identify your material ?
 
 ### Solutions
+
 #### Identification of plant biological materials
 * Detailed metadata needs to be captured on the biological materials used in the study—the accession in the genebank or the experimental identification and, when applicable, the seed lots or the parent plants as well as the possible samples taken from the plant—as they are the key to integrating omics and phenotyping datasets. 
 
@@ -123,6 +126,7 @@ Here are described the mandatory, recommended and optional metadata fields for d
 * Is the analytic approach used for creating the VCF file available in a publication and has a DOI ?
 
 ### Solutions
+
 #### Checklists, ontologies and file formats
 * Sharing plant genotyping data files involves the use of the Variant Call Format (VCF) standard.  
 * Findability and reusability of VCF files depends on the supplied metadata and in particular with MIAPPE compliant biological material description: the [plant VCF metadata FAIR Cookbook](INSERT LINK) helps you on that topic.
