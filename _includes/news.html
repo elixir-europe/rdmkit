@@ -2,16 +2,16 @@
 
 <div class="news">
   {%- if include.front == "true" %}
-  <h2 class="mt-5 text-dark">News</h2>
+  <h2 class="mt-5 text-dark">Whats new?</h2>
   {%- endif %}
-  {%- assign news = site.data.news %}
+  {%- assign news = site.data.news | sort: "date"%}
   {%- assign count = 0 %}
   <ul class="list-unstyled mt-3">
       {%- for new in news reversed%}
       <li>
         <span class="title mb-1">{{ new.name | escape }}</span>
-        <p class="text-muted mb-0"><i class="far fa-calendar me-2"></i><time>{{ new.date | date_to_long_string }}</time></p> 
-        <p class="mt-2">{{ new.description }}</p>
+        <p class="text-muted mb-0"><i class="far fa-calendar me-2"></i><time>{{ new.date | date_to_long_string }}</time>{% if new.linked_pr %}<b> - </b><i class="fas fa-code-branch"></i><a href="{{ site.github.repository_url | append: '/pull/' | append: new.linked_pr }}">{{new.linked_pr }}</a>{% endif %}</p>
+        <p class="mt-2">{{ new.description | markdownify }}</p>
       </li>
       {%- assign count = count | plus: 1 %}
       {%- if include.limit and count == include.limit %}

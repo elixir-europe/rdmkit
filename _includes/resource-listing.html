@@ -1,0 +1,53 @@
+{%- if page.resources %}
+{%- assign tools = page.resources  %}
+<h2>Relevant tools and resources</h2>
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
+<div class="table-responsive mt-4 mb-5">
+    <table id="tooltable" class="table display">
+        <thead>
+            <tr>
+                <th>Resource {%- if include.tag -%}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+                        <i class="fas fa-info-circle" style="color:var(--main-text-color);"></i>
+                    </a>{%- endif %}
+                </th>
+                <th>Description</th>
+                <th>Related pages</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for tool in tools | sort %}
+            <tr>
+                {% if tool.url %}
+                <td><a href="{{tool.url}}">{{tool.name}}</a>
+                </td>
+                {%- else %}
+                <td>{{tool.name}}</td>
+                {%- endif %}
+                <td>{{tool.description | markdownify }}
+                    {%- if tool.instance_of or tool.how_to_access %}
+                    <div class="d-block">
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="This resource is an instance of {{tool.instance_of}}"><span class="badge text-primary border border-primary">{{tool.instance_of}}</span></span>
+                        {%- if tool.how_to_access %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{tool.how_to_access}}"><span class="badge text-primary border border-primary">  <i class="fas fa-key"></i></span></span>
+                        {%- endif %}
+                    </div>
+                    {%- endif %}
+                </td>
+                {%- capture related_pages %}
+                {%- for section in tool.related_pages %}
+                {%- for tag in section[1] %}
+                {%- assign related_page = site.pages | where:"page_id",tag | first %}
+                <a class="nohover" href="{{related_page.url | relative_url }}"><span class="badge default-badge">{{related_page.title}}</span></a>
+                {%- endfor %}
+                {%- endfor %}
+                {%- endcapture %}
+                <td>{{related_pages}}</td>
+            </tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+<div id="skip-tool-table"></div>
+
+{%- endif %}

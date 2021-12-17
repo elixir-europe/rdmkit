@@ -195,6 +195,7 @@ Tools:
     tess: Bio-Formats
   related_pages:
   - ome
+  - bioimaging data
 - description: Platform designed to efficiently generate bioactive conformers and
     speed up the drug discovery process.
   link: https://mmb.irbbarcelona.org/BCE/
@@ -232,6 +233,7 @@ Tools:
     fairsharing: x38D2k
   related_pages:
   - data publication
+  - bioimaging data
 - description: A repository of mathematical models for application in biological sciences
   link: https://www.ebi.ac.uk/biomodels/
   name: BioModels
@@ -277,6 +279,16 @@ Tools:
   - micro biotech
   - metadata
   - plants
+- description: Resource for management and analysis of 5D biological images
+  link: https://bioimage.ucsb.edu/bisque
+  name: BisQue
+  registry:
+    biotools: bisque
+  related_pages:
+  - data organisation
+  - data manager
+  - data analysis
+  - bioimaging data
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
@@ -337,6 +349,14 @@ Tools:
   - data organisation
   - data manager
   - researcher
+- description: Store and publish your research data. Can be used to bridge between
+    domains
+  link: https://b2share.eudat.eu/
+  name: b2share
+  related_pages:
+  - storage
+  - data publication
+  - bioimaging data
 - description: A highly useful and flexible tool for calibration of targeted MS?based
     measurements. CalibraCurve enables an automated batch-mode determination of dynamic
     linear ranges and quantification limits for both targeted proteomics and similar
@@ -429,21 +449,6 @@ Tools:
   - data analysis
   - researcher
   - toxicology data
-- country:
-  - FI
-  description: Chipster is a user-friendly analysis software for high-throughput data
-    such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large
-    reference genome collection.
-  link: https://chipster.csc.fi/
-  name: Chipster
-  registry:
-    biotools: chipster
-    tess: Chipster
-  related_pages:
-  - CSC
-  - data analysis
-  - researcher
-  - IT support
 - description: ChIPSummitDB is a database of transcription factor binding sites and
     the distances of the binding sites relative to the peak summits.
   link: http://summit.med.unideb.hu/summitdb/
@@ -479,7 +484,6 @@ Tools:
     tess: Common Workflow Language (CWL)
   related_pages:
   - IT support
-  - policy officer
   - researcher
   - data analysis
 - description: The CompTox Chemicals Dashboard provides toxicological information
@@ -578,6 +582,12 @@ Tools:
   related_pages:
   - transfer
   - IT support
+- description: Image Data management
+  link: https://github.com/cytomine/Cytomine-IMS
+  name: Cytomine-IMS
+  related_pages:
+  - data manager
+  - bioimaging data
 - description: Data Information System to keep sensitive data inventory and meet GDPR
     accountability requirement.
   link: https://daisy-demo.elixir-luxembourg.org
@@ -606,6 +616,16 @@ Tools:
   name: Data Curation Centre Metadata list
   related_pages:
   - metadata
+  - researcher
+  - data manager
+- description: Dataverse for life sciences and agronomic related data
+  link: https://data.inrae.fr/
+  name: Data INRAE
+  registry:
+    fairsharing: 178BmT
+  related_pages:
+  - plants
+  - plant geno assembly
   - researcher
   - data manager
 - description: Publicly available online tool for composing smart data management
@@ -705,17 +725,6 @@ Tools:
   - DMP
   - researcher
   - data manager
-- country:
-  - FR
-  description: Online questionnaire for the development of data management plans -
-    repository of DMPs
-  link: https://dmp.opidor.fr
-  name: DMP OPIDoR
-  related_pages:
-  - DMP
-  - researcher
-  - data manager
-  - IFB
 - description: Semi-automatically generated, searchable catalogue of resources that
     are relevant to data management plans.
   link: https://dmplanner.athenarc.gr/
@@ -741,16 +750,6 @@ Tools:
   - DMP
   - researcher
   - data manager
-- country:
-  - FI
-  description: Data management planning tool (Finland)
-  link: https://www.dmptuuli.fi/
-  name: DMPTuuli
-  related_pages:
-  - DMP
-  - researcher
-  - data manager
-  - CSC
 - description: A database of DNA sequences
   link: https://www.ddbj.nig.ac.jp/index-e.html
   name: DNA Data Bank of Japan (DDBJ)
@@ -792,6 +791,7 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
 - description: Database of folding / unfolding pathway of representatives from all
     known protein folds by MD simulation
   link: http://www.dynameomics.org/
@@ -907,6 +907,7 @@ Tools:
   related_pages:
   - data publication
   - ome
+  - bioimaging data
 - description: Genome browser for vertebrate genomes that supports research in comparative
     genomics, evolution, sequence variation and transcriptional regulation.
   link: https://www.ensembl.org/index.html
@@ -1099,16 +1100,6 @@ Tools:
   - researcher
   - micro biotech
   - existing data
-- country:
-  - 'NO'
-  description: Feide is the national solution for secure login and data exchange in
-    education and research. Feide can be linked with ELIXIR-AAI through eduGAIN.
-  link: https://www.feide.no/
-  name: Feide
-  related_pages:
-  - marine assembly
-  - TSD
-  - NeLS
 - description: Data publishing platform
   link: https://figshare.com/
   name: FigShare
@@ -1118,6 +1109,7 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
 - description: A free FTP solution
   link: https://filezilla-project.org
   name: FileZilla
@@ -1397,6 +1389,7 @@ Tools:
   - metadata
   - transfer
   - ome
+  - bioimaging data
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   link: http://purl.obolibrary.org/obo/ICO.owl
@@ -1469,6 +1462,7 @@ Tools:
   - storage
   - IT support
   - transmed
+  - bioimaging data
 - description: Open source framework and tools helping to manage a diverse set of
     life science, environmental and biomedical experiments using the Investigation
     Study Assay (ISA) standard
@@ -1637,19 +1631,6 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
-- country:
-  - 'NO'
-  description: META-pipe is a pipeline for annotation and analysis of marine metagenomics
-    samples, which provides insight into phylogenetic diversity, metabolic and functional
-    potential of environmental communities.
-  link: https://galaxy-uit.bioinfo.no/root/index
-  name: Meta-pipe
-  registry:
-    biotools: meta-pipe
-    tess: Meta-pipe
-  related_pages:
-  - marine assembly
-  - data analysis
 - description: A repository of genomics data relating to the study of the metabolome
   link: http://www.metabolomexchange.org/site/
   name: MetabolomeXchange
@@ -1797,6 +1778,13 @@ Tools:
   - researcher
   - data manager
   - XNAT-PIC
+- description: A file-system based platform handling the transfer of data
+  link: http://www.mytardis.org/
+  name: MyTardis
+  related_pages:
+  - data manager
+  - transfer
+  - bioimaging data
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications. Also boasts integrated
     tools for analysis.
@@ -1818,24 +1806,11 @@ Tools:
     fairsharing: fj07xj
   related_pages:
   - micro biotech
-- country:
-  - 'NO'
-  description: Hosts information relating to strains, cultures and more
+- description: Hosts information relating to strains, cultures and more
   link: https://www.ncimb.com/culture-collection/
   name: NCIMB
   related_pages:
   - micro biotech
-- description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life
-    scientists and their international collaborators to store, share, archive, and
-    analyse their omics-scale data
-  link: https://nels.bioinfo.no
-  name: NeLS
-  registry:
-    biotools: nels
-    tess: NeLS
-  related_pages:
-  - NeLS
-  - marine assembly
 - description: Form and survey tool, also for sensitive data
   link: https://nettskjema.no/
   name: Nettskjema
@@ -1897,6 +1872,7 @@ Tools:
   - IT support
   - storage
   - ome
+  - bioimaging data
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
   link: https://www.omicsdi.org
@@ -2088,6 +2064,17 @@ Tools:
   - data analysis
   - researcher
   - proteomics
+- description: Access point for plant comparative genomics, centralizing genomic data
+    produced by different genome sequencing initiatives.
+  link: https://bioinformatics.psb.ugent.be/plaza/
+  name: PLAZA
+  registry:
+    fairsharing: wBOua0
+    tess: PLAZA
+  related_pages:
+  - plants
+  - plant geno assembly
+  - researcher
 - description: Platform for the study of the impact of pathological mutations in protein
     stuctures.
   link: http://mmb.irbbarcelona.org/PMut
@@ -2268,18 +2255,6 @@ Tools:
   - data manager
   - researcher
   - micro biotech
-- country:
-  - 'NO'
-  description: System for Risk and compliance. Processing of personal data in research
-    and student projects at UiB.
-  link: https://rette.app.uib.no/
-  name: RETTE
-  related_pages:
-  - data protection
-  - sensitive
-  - policy officer
-  - data manager
-  - human data
 - description: Reva connects cloud storages and application providers
   link: https://reva.link/
   name: Reva
@@ -2446,6 +2421,19 @@ Tools:
   name: Standards for Reporting Enzyme Data (STRENDA)
   related_pages:
   - micro biotech
+- description: Added-value database for biological dynamics images
+  link: https://ssbd.riken.jp/database/
+  name: SSBD:database
+  related_pages:
+  - bioimaging data
+  - data publication
+- description: An open data archive that stores and publishes bioimaging and biological
+    quantitative datasets
+  link: https://ssbd.riken.jp/repository/
+  name: SSBD:repository
+  related_pages:
+  - bioimaging data
+  - data publication
 - description: Known and predicted protein-protein interactions.
   link: https://string-db.org/
   name: STRING
@@ -2608,6 +2596,8 @@ Tools:
     from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
   link: https://txg-mapr.eu/
   name: TXG-MAPr
+  registry:
+    biotools: txg-mapr
   related_pages:
   - data analysis
   - researcher
@@ -2682,6 +2672,7 @@ Tools:
   - data analysis
   - transmed
   - XNAT-PIC
+  - bioimaging data
 - description: Analysing of single or multiple subjects within the same project in
     XNAT
   link: https://github.com/szullino/XNAT-PIC
@@ -2708,3 +2699,11 @@ Tools:
   related_pages:
   - data publication
   - biomol sim
+  - bioimaging data
+- description: DMP Roadmap is a Data Management Planning tool.
+  link: https://github.com/DMPRoadmap/roadmap
+  name: DMPRoadmap
+  related_pages:
+  - DMP
+  - researcher
+  - data manager

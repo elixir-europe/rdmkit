@@ -1,14 +1,8 @@
-url: rdmkit.elixir-europe.org
-repository: elixir-europe/rdmkit
-
-# topnav_title:
-# this appears on the top navigation bar next to the home button
-
 title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-git_editme_path: https://github.com/elixir-europe/rdmkit/blob/master/
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+# topnav_title:
+# this appears on the top navigation bar next to the home button
 
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
@@ -49,6 +43,7 @@ defaults:
       layout: "page"
       sidebar: main
       topnav: topnav
+      search_exclude: false
   -
     scope:
       path: "pages/data_life_cycle"
@@ -74,5 +69,13 @@ defaults:
       path: "pages/tool_assembly"
     values:
       type: tool_assembly
+  -
+    scope:
+      path: "pages/national_resources"
+    values:
+      type: national_resources
+      datatable: true
+
 plugins:
   - jemoji
+  - jekyll-github-metadata

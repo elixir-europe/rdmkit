@@ -14,8 +14,10 @@ The [all_tools_and_resources](all_tools_and_resources) list is based on the [csv
 
 {% include important.html content="The link with FAIRsharing,TeSS and Bio.tools is automatically done using GitHub actions and is weekly updated. These automatic links are not seen in the table. The search query to one of these registries for a tool or resource can be overwritten in the registry column of the main csv tool table. If no FAIRsharing ID, Bio.tools ID or TeSS Query is available for a source, but there is yet one automatically given (faulty), you can overwrite the automatic linking by adding 'NA' as registry." %}
 
-## The main csv table
+## The main table
 
+
+The main table is based on [this google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit#gid=268211668).
 
 The table consists of 5 columns:
 - **name**: the name of the tool or resource
@@ -39,22 +41,13 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 ## Making changes
 
-Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the GitHub website itself. 
+Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the GitHub website itself, instead we point people to the [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
 
-### Simple way: changing the Google spreadsheet (recommended)
+The editors will do the work on Git for you. All you need to do is:
 
-For people that are not familiar with Git, no worries! The editors will do the work on Git for you. All you need to do is:
-- Open this [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
 - Check if a tool or resource is already listed.
 - Add or edit tools and resources as described above.
-- Done! The editors will update the "tool and resource list" in GitHub regularly.
+- Done! The editors will update the "tool and resource list" in GitHub regularly. In case your change is urgent, ping an editor in an issue or pull request.
 
-### Advanced way: making your own PR with changes to the csv file
-
-Just like with every change you want to make to the repo, it is possible to do this through Git by working on a local copy. For more information on how to do this, please read our [working with Git](working_with_git) page. Open the local copy of the csv file in excel, make your changes and commit them.
-
-{% include tip.html content="If you want to know wether the conversion of the .csv table and your changes are successful, check out the github action check in the PR named 'Validating the tool and resource table / build' " %}
-
-
-## Let the bot do the rest
-If the PR containing the changes to the .csv table is merged, a PR will be opened by github-actions. Please check that the changes this PR proposes to the yaml file are in line with what you want to have changed.
+## Let the editor and GitHub bot do the rest
+If the PR of the editor containing the changes to the .csv table is merged, a PR will be opened by github-actions. Please check that the changes this PR proposes to the yaml file are in line with what you want to have changed.
