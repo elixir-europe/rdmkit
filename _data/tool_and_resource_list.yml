@@ -503,6 +503,8 @@ Tools:
     models in biology
   link: http://co.mbine.org
   name: COmputational Modeling in BIology NEtwork (COMBINE)
+  registry:
+    tess: COmputational Modeling in BIology NEtwork (COMBINE)
   related_pages:
   - micro biotech
 - description: Open source package management system
