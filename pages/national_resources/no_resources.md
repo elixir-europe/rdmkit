@@ -1,7 +1,7 @@
 ---
 title: Norway
 country_code: "NO"
-contributors: [Nazeefa Fatima, Fedrico Bianchini, Korbinian Bösl]
+contributors: [Nazeefa Fatima, Federico Bianchini, Korbinian Bösl]
 coordinators: [Korbinian Bösl]
 resources:
   - name: Feide
@@ -12,7 +12,7 @@ resources:
       tool_assembly: [marine assembly]
     url: https://www.feide.no/
   - name: DS Wizard ELIXIR-Norway
-    description: DS Wizard is a simple but powerful solution for researchers to help them understand what is needed for a good, FAIR-oriented Data Stewardship, and to help them build their own Data Management Plans. The template we provide in this instance provides additional guidance on resources, laws and regulations in Norway.
+    description: DS Wizard is a simple but powerful solution to help researchers understand what is needed for a comprehensive, FAIR-oriented Data Stewardship, and to help them create their own Data Management Plans. The questionnaire (knowledge model) we provide in this instance provides additional guidance on resources, laws and regulations in Norway.
     how_to_access: access with ELIXIR-AAI with FEIDE or upon registration
     instance_of: Data Stewardship Wizard
     related_pages:
@@ -49,6 +49,7 @@ resources:
     url: https://covid19dataportal.no/
   - name: Norwegian Federated EGA
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
+    .
     how_to_access: access with ELIXIR-AAI; intended for data from Norwegian institutions
     related_pages:
       your_domain: [human data]
@@ -119,11 +120,11 @@ Norway has released a
 
 List of funders with Data Management Policies in Norway:
 
-* [Forskningsrådet (also known as Research Council Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf) 
+* [Norges Forskningsråd (also known as Research Council Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf) 
 
 ##  Institutional policies on research data in Norway
 
-We provide here a list of higher education institutions with Data Management Policies in Norway:
+We provide here a list of of Data Management policies and guidelines from five higher education institutions in Norway:
 
 * [Norwegian University of Life Sciences](https://www.nmbu.no/download/file/fid/31742)
 * [Norwegian university of science and technology](https://www.ntnu.edu/policy-for-open-science)
@@ -175,7 +176,7 @@ We provide here a list of higher education institutions with Data Management Pol
 * [The Arctic University of Norway](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
 
 ## Domain-specific infrastructures/resources
-Following resources and tools could be useful to implement data management practices, relevant to your research area/topic:
+The following resources and tools could be useful to implement data management practices relevant to your research area/topic:
 
 * [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
 * [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/tsd_assembly.html)
