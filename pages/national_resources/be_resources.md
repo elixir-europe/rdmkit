@@ -102,7 +102,7 @@ Details about national guidelines, tools and resources can be found at [RDM Guid
 * [Research Foundation - Flanders (FWO)](https://www.fwo.be/en/).
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
-* Special Research Fund (BOF) from Univeristies.
+* Special Research Fund (BOF) from Universities.
 
 
 <!---## Regulations--->
