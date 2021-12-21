@@ -1,7 +1,7 @@
 ---
 title: Support
 sidebar: about
-custom-editme: https://rdmkit.elixir-europe.org//editorial_board_guide.html#adding-an-institution-project-or-funder
+custom-editme: _data/affiliations.yaml
 ---
 
 ## Institutions
