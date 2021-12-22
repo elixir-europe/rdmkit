@@ -4,6 +4,7 @@ contributors: [Wei Gu, Pinar Alper, Kees van Bochove]
 description: ensure high quality research data.
 page_id: data quality
 related_pages: 
+    tool_assembly: []
 ---
 
 ## How do you ensure the quality of research data?

@@ -7,7 +7,7 @@ affiliations: ["ELIXIR Europe", "NO"]
 audience: ["NO"]
 related_pages: 
   your_tasks: [DMP, data organisation ,storage, data publication, data transfer, metadata]
-  your_domain:
+  your_domain: []
 training:
   - name: Training in TeSS
     registry: TeSS

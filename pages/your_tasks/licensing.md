@@ -7,6 +7,7 @@ faircookbook:
 - name: Licensing
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/reusability/ATI-licensing.html#
 related_pages: 
+  tool_assembly: []
 ---
 
 ## Why should you assign a licence to your research data?

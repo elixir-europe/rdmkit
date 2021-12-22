@@ -4,6 +4,7 @@ contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrik
 page_id: proteomics
 related_pages: 
   your_tasks: [metadata]
+  tool_assembly: []
 training:
   - name: Training in TeSS
     registry: TeSS
