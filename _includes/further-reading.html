@@ -1,4 +1,9 @@
-{%- if page.related_pages or page.training or page.faircookbook or page.fairsharing %}
+{%- for section in page.related_pages %}
+{%- unless section[1] == blank  %}
+{%- assign actual_related = 1 %}
+{%- endunless %}
+{%- endfor %}
+{%- if actual_related != blank or page.faircookbook or page.fairsharing %}
 <!-- More information -->
 <h2>More information</h2>
 
