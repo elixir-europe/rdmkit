@@ -6,6 +6,8 @@ page_id: machine actionability
 faircookbook:
 - name: Search engine optimization
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/findability/seo.html# 
+related_pages: 
+    tool_assembly: []
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?

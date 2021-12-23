@@ -9,6 +9,7 @@ faircookbook:
 - name: Downloading data with Aspera
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/aspera.html 
 related_pages: 
+    tool_assembly: []
 training:
   - name: Training in TeSS
     registry: TeSS

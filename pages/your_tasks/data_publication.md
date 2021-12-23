@@ -7,6 +7,7 @@ faircookbook:
 - name: Depositing in Zenodo generic repository
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/findability/zenodo-deposition.html#
 related_pages: 
+    tool_assembly: []
 ---
 
 
