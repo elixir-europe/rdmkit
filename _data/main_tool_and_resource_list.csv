@@ -64,6 +64,7 @@ COVID-19 Molecular Structure and Therapeutics Hub,https://covid.bioexcel.eu/,COV
 Create a Codebook,https://ddialliance.org/training/getting-started-new-content/create-a-codebook,Examples and tools to create a codebook by the Data Documentation Initiative (DDI),,"metadata, researcher, data manager"
 Creative Commons License Chooser,https://creativecommons.org/choose/,It helps you choose the right Creative Commons license for your needs.,,"licensing, researcher, data manager, policy officer"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:wgfrmg,"researcher, data manager, IT support, plants"
+Crypt4GH,https://crypt4gh.readthedocs.io/en/latest/,"A Python tool to encrypt, decrypt or re-encrypt files, according to the GA4GH encryption file format.",,human data
 CS3,https://www.cs3community.org/,Cloud Storage Services for Synchronization and Sharing (CS3),,storage
 CTD,http://ctdbase.org/,A database that aims to advance understanding about how environmental exposures affect human health.,biotools:ctd,toxicology data
 cURL,https://curl.se,command line tool and library for transferring data with URLs,,"transfer, IT support"
