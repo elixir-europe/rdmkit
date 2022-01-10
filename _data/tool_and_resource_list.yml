@@ -565,6 +565,12 @@ Tools:
   - data manager
   - IT support
   - plants
+- description: A Python tool to encrypt, decrypt or re-encrypt files, according to
+    the GA4GH encryption file format.
+  link: https://crypt4gh.readthedocs.io/en/latest/
+  name: Crypt4GH
+  related_pages:
+  - human data
 - description: Cloud Storage Services for Synchronization and Sharing (CS3)
   link: https://www.cs3community.org/
   name: CS3
