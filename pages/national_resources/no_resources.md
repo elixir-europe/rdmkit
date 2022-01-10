@@ -175,7 +175,7 @@ The Norwegian government has released a
 
 List of funders with Data Management Policies in Norway:
 
-* [Norges Forskningsrådet (The Research Council of Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
+* [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
 
 ##  Institutional policies on research data
 
