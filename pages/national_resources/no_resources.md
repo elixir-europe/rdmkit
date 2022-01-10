@@ -175,7 +175,7 @@ The Norwegian government has released a
 
 List of funders with Data Management Policies in Norway:
 
-* [Norges Forskningsråd (The Research Council of Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
+* [Norges Forskningsrådet (The Research Council of Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
 
 ##  Institutional policies on research data
 
@@ -189,7 +189,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 
 ### Institutional storage guidelines
 
-Most universities in Norway classify data into four categories, depending on access restriction requirements:
+Most universities in Norway classify data into four categories, depending on access requirements:
 * Open (Green)
 * Restricted (Yellow)
 * Confidential (Red)
@@ -227,7 +227,7 @@ There are several support services available to Norwegian Life Science researche
 
 
 ## Domain-specific infrastructures/resources
-The following resources and tools are relevant to the implemention of data management practices relevant to your specific research area/topic:
+The following resources and tools are relevant to the implemention of data management practices in your specific research area/topic:
 
 * [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
 * [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/tsd_assembly.html)
