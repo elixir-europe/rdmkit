@@ -205,7 +205,7 @@ Details and provided solutions vary according to each institution.
 
 ### Institutional guidelines related to personal data
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
-* [Norwegian University of Science and Technology - Privacy in research guidlines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
+* [Norwegian University of Science and Technology - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
 * [Norwegian University of Science and Technology - Health research guidelines](https://innsida.ntnu.no/helseforskning)
 * [University of Bergen](https://www.uib.no/en/ub/111372/research-data)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
