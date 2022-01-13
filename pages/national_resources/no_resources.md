@@ -195,11 +195,11 @@ Most universities in Norway classify data into four categories, depending on how
 * Confidential (Red):
 * Strictly confidential (Black):
 
-Details and provided solutions vary according to each institution.
+Details and provided solutions vary according to each institution. They are based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
 
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
 * [Norwegian university of science and technology ](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
-* [University of Bergen](https://it.uib.no/en/File_storage_and_backup)
+* [University of Bergen](https://regler.app.uib.no/regler/Del-4-OEkonomi-eiendom-og-IKT/4.3-Informasjons-og-kommunikasjonsteknologi/Styringssystem-for-informasjonssikkerhet-og-personvern-Del-II-Gjennomfoerende-del/#kartlegging-og-klassifisering-av-informasjon)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
@@ -207,7 +207,7 @@ Details and provided solutions vary according to each institution.
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
 * [Norwegian university of science and technology - Privacy in Research guidlines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
 * [Norwegian university of science and technology - health research guidelines](https://innsida.ntnu.no/helseforskning)
-* [University of Bergen](https://www.uib.no/en/ub/111372/research-data)
+* [University of Bergen](https://www.uib.no/personvern)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
 * [The Arctic University of Norway](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
 
