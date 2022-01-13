@@ -148,7 +148,7 @@ resources:
       your_role: [policy officer, data manager]
     url: https://rette.app.uib.no/
   - name: DataverseNO
-    description: DataverseNO is a national, generic repository for open research data.
+    description: DataverseNO is a national, generic repository for open research data. Various Norwegian research institutions have established a partner agreements about using DataverseNO as institutional repositories for open research data.
     how_to_access: open access
     instance_of: DATAVERSE
     related_pages:
