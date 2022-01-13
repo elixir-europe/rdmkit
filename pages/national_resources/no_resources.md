@@ -284,7 +284,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Health Research Act](https://lovdata.no/dokument/LTI/lov/2008-06-20-44)
 * [Regulations on the organization of medical and health research](http://www.lovdata.no/for/sf/ho/ho-20090701-0955.html)
 * [Comments to health research legislative work by the Norwegian government](http://www.regjeringen.no/nb/dep/hod/dok/lover_regler/forskrifter/2009/helseforskningsloven.html?id=570542)
-* [Health Register Act)](https://lovdata.no/dokument/NL/lov/2014-06-20-43)
+* [Health Register Act](https://lovdata.no/dokument/NL/lov/2014-06-20-43)
 * [Regulations on population-based health surveys](https://lovdata.no/dokument/SF/forskrift/2018-04-27-645)
 * [Health Personnel Act](http://www.lovdata.no/all/nl-19990702-064.html)
 * [Patient and User Rights Act](http://www.lovdata.no/all/nl-19990702-063.html)
