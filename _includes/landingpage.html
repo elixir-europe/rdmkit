@@ -200,7 +200,7 @@
       <div class="card-body">
         <h2 class="card-title no-anchor">{{folder.title}}</h2>
         <p class="card-text">{{folder.description}}</p>
-        {%- if folder.title == "All tools and resources" or folder.title == "All training resources" or folder.title == "Tool assembly"%}
+        {%- if folder.title == "All tools and resources" or folder.title == "All training resources" or folder.title == "Tool assembly" or folder.title == "National resources"%}
           <ul>
           <li class="my-0"><a href="{{folder.url | relative_url }}">{{folder.title}} page</a></li>
           </ul>

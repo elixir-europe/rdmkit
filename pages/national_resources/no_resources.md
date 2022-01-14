@@ -36,8 +36,9 @@ resources:
       tool_assembly: [TSD,NeLS,marine assembly]
       your_tasks: [DMP]
     url: https://elixir-no.ds-wizard.org/
-  - name: easyDMP
+  - name: EasyDMP
     description: DMP tool from [UNINETT Sigma2](https://www.sigma2.no/)
+    instance_of: EasyDMP
     how_to_access: Feide
     related_pages:
       your_tasks: [DMP]
@@ -148,7 +149,7 @@ resources:
       your_role: [policy officer, data manager]
     url: https://rette.app.uib.no/
   - name: DataverseNO
-    description: DataverseNO is a national, generic repository for open research data.
+    description: DataverseNO is a national, generic repository for open research data. Various Norwegian research institutions have established a partner agreements about using DataverseNO as institutional repositories for open research data.
     how_to_access: open access
     instance_of: DATAVERSE
     related_pages:
@@ -195,11 +196,11 @@ Most universities in Norway classify data into four categories, depending on acc
 * Confidential (Red)
 * Strictly confidential (Black)
 
-Details and provided solutions vary according to each institution.
+Details and provided solutions vary according to each institution. They are based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
 
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
-* [Norwegian University of Science and Technology ](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
-* [University of Bergen](https://it.uib.no/en/File_storage_and_backup)
+* [Norwegian University of Science and Technology](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
+* [University of Bergen](https://regler.app.uib.no/regler/Del-4-OEkonomi-eiendom-og-IKT/4.3-Informasjons-og-kommunikasjonsteknologi/Styringssystem-for-informasjonssikkerhet-og-personvern-Del-II-Gjennomfoerende-del/#kartlegging-og-klassifisering-av-informasjon)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
@@ -207,7 +208,7 @@ Details and provided solutions vary according to each institution.
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
 * [Norwegian University of Science and Technology - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
 * [Norwegian University of Science and Technology - Health research guidelines](https://innsida.ntnu.no/helseforskning)
-* [University of Bergen](https://www.uib.no/en/ub/111372/research-data)
+* [University of Bergen](https://www.uib.no/personvern)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
 * [The Arctic University of Norway](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
 
@@ -284,7 +285,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Health Research Act](https://lovdata.no/dokument/LTI/lov/2008-06-20-44)
 * [Regulations on the organization of medical and health research](http://www.lovdata.no/for/sf/ho/ho-20090701-0955.html)
 * [Comments to health research legislative work by the Norwegian government](http://www.regjeringen.no/nb/dep/hod/dok/lover_regler/forskrifter/2009/helseforskningsloven.html?id=570542)
-* [Health Register Act)](https://lovdata.no/dokument/NL/lov/2014-06-20-43)
+* [Health Register Act](https://lovdata.no/dokument/NL/lov/2014-06-20-43)
 * [Regulations on population-based health surveys](https://lovdata.no/dokument/SF/forskrift/2018-04-27-645)
 * [Health Personnel Act](http://www.lovdata.no/all/nl-19990702-064.html)
 * [Patient and User Rights Act](http://www.lovdata.no/all/nl-19990702-063.html)
