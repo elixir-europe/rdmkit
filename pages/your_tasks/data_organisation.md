@@ -5,6 +5,13 @@ description: best practices to name and organise research data.
 page_id: data organisation
 related_pages: 
   tool_assembly: [ome, transmed, XNAT-PIC]
+dsw:
+  - name: File Naming conventions
+    parentuuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
+  - name: How will you do file naming and file organization?
+    parentuuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
+  - name: Are you using a filesystem with files and folders?
+    parentuuid: a12aa967-28a5-4a9b-8df8-f7c533205ea4
 ---
 
 ## What is the best way to name a file?
