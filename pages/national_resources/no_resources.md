@@ -167,6 +167,7 @@ resources:
 ## Introduction
 
 This page provides an overview of useful information, giving an overview of the data management resources in Norway and it is aimed at the current and future scientists in Norway and their collaborators, in life sciences.
+The [Data Stewardship Wizard instance from ELIXIR-Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate this recommendations and resources.
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 Norway has released a
@@ -176,7 +177,7 @@ Norway has released a
 
 List of funders with Data Management Policies in Norway:
 
-* [Forskningsrådet (also known as Research Council of Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
+* [Forskningsrådet (also known as Research Council of Norway) Policy](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
 
 ##  Institutional Policies on Research Data
 
@@ -206,7 +207,7 @@ Details and provided solutions vary according to each institution. They are base
 
 ### Institutional Guidelines related to Personal Data
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
-* [Norwegian university of science and technology - Privacy in Research guidlines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
+* [Norwegian university of science and technology - Privacy in Research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects)
 * [Norwegian university of science and technology - health research guidelines](https://innsida.ntnu.no/helseforskning)
 * [University of Bergen](https://www.uib.no/personvern)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
@@ -271,7 +272,7 @@ Through the Research Ethics Committees, the  following recommendations were made
 
 ## Laws and Regulations Relevant to Life Sciences Research Data
 
-These are some of the laws relevant for research data management in Norway. You should refer to the relevant laws and ethical guidelines in your DMP (in [DSW NO](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview?questionUuid=4ed4aadb-6ee8-40c3-8e31-c9f9039a5b1e). Some of the legal information is only accessible after login with Feide.
+These are some of the laws relevant for research data management in Norway. You should refer to the relevant laws and ethical guidelines in your DMP (in [DSW NO](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview?questionUuid=4ed4aadb-6ee8-40c3-8e31-c9f9039a5b1e)). Some of the legal information is only accessible after login with Feide.
 
 ### Data Privacy
 * [Personal Data Act](https://lovdata.no/dokument/RFA/lov/2000-04-14-31)
@@ -305,4 +306,4 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Genetic Engineering Act](https://lovdata.no/dokument/NL/lov/1993-04-02-38)
 * [Biodiversity Act](https://lovdata.no/dokument/NL/lov/2009-06-19-100)
 * [Regulations on the protection of traditional knowledge related to genetic material](https://lovdata.no/dokument/SF/forskrift/2016-11-25-1367)
-* [Norwegian Environment Agency:Guidelines on sensitive species data](https://sensitive-artsdata.miljodirektoratet.no/Contentpages/Forsiden.aspx)
+* [Norwegian Environment Agency: Guidelines on sensitive species data](https://sensitive-artsdata.miljodirektoratet.no/Contentpages/Forsiden.aspx)
