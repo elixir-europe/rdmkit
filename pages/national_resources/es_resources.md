@@ -1,7 +1,7 @@
 ---
 title: Spain
 country_code: ES
-contributors: [Laura Portell]
+contributors: [Laura Portell Silva, Salvador Capella-Gutierrez]
 coordinators: [Salvador Capella-Gutierrez]
 resources:
   - name: Red Española de Supercomputación
