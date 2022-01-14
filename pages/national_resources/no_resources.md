@@ -29,7 +29,7 @@ resources:
       tool_assembly: [TSD, NELS,marine assembly]
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
-    description: DS-Wizard is a solution for researchers to help them understand what is needed for a good, FAIR-oriented Data Stewardship, and to help them build their own Data Management Plans. The template we provide in this instance provides additional guidance on resources, laws and regulations in Norway.
+    description: DS-Wizard is a tool to aid the creation, organisaton and sharing of data management plans. It provides scientists with guidance, facilitating the understanding of the key components of FAIR-oriented Data Stewardship. The template in this instance provides additional guidance on resources, laws and regulations in Norway.
     how_to_access: ELIXIR-AAI with Feide or upon registration"
     instance_of: Data Stewardship Wizard
     related_pages:
@@ -100,7 +100,7 @@ resources:
       tool_assembly: [NeLS]
     url: https://documentation.sigma2.no/files_storage/nird.html
   - name: Sigma2 HPC systems
-    description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes.The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
+    description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
     how_to_access: A formal application is required to gain access to the storage services.
     related_pages:
       your_tasks: [data analysis]
@@ -114,12 +114,12 @@ resources:
     url: https://www.nrec.no/
   - name: Educloud Research
     description: Educloud Research is a platform provided by the Centre for information Technology (USIT) at the University of Oslo (UiO). This platform provides access to a work environment accessible to collaborators from other institutions or countries. This service provides a storage solution and a low threshold HPC system that offers batch job submission (SLURM) and interactive nodes. Data up to the [red classification  level](https://www.uio.no/english/services/it/security/lsis/data-classes.html#toc4) can be stored/analysed.
-    how_to_access: Educloud Research can be ordered by a project at UiO or by external organisations connected to the University/University College sector. More information and pricing is available at the webpage.
+    how_to_access: Educloud Research can be ordered by a project at UiO or by external organisations connected to the University/University College sector. 
     related_pages:
       your_tasks: [data analysis, sensitive, storage]
     url: https://www.uio.no/english/services/it/research/platforms/edu-research/
   - name: TSD
-    description: The TSD – Service for Sensitive Data, is a platform for collecting, storing, analyzing and sharing sensitive data in compliance with the Norwegian privacy regulation.  TSD is developed and operated by UiO.
+    description: The TSD – Service for Sensitive Data, is a platform for collecting, storing, analysing and sharing sensitive data in compliance with the Norwegian privacy regulation.  TSD is developed and operated by UiO.
     how_to_access: To register a project in TSD you have to attach the ethical approval, to conduct your research, either from REK, NSD, the Norwegian Data Protection Authority or your local Data Protection Officer (DPO). You can access your project through minID-login.
     related_pages:
       your_domain: [human data]
@@ -128,7 +128,7 @@ resources:
     url: https://www.uio.no/english/services/it/research/sensitive-data/
   - name: HUNTCloud
     description: The HUNT Cloud, established in 2013, aims to improve and develop the collection, accessibility and exploration of large scale information. HUNT Cloud offers cloud services, lab management, and is a key service that has established a framework for data protection, data security, and data management. HUNT Cloud is owned by NTNU and operated by HUNT Research Centre at the Department of Public Health and Nursing at the Faculty of Medicine and Health Sciences.
-    how_to_access: Depending on your organization, data processor agreements may be signed on various organizational levels. For example, your Department will be the internal data controller at NTNU.
+    how_to_access: Depending on your organisation, data processor agreements may be signed on various organizational levels. For example, your Department will be the internal data controller at NTNU.
     related_pages:
       your_domain: [human data]
       your_tasks: [data analysis, sensitive, storage]
@@ -166,49 +166,50 @@ resources:
 
 ## Introduction
 
-This page provides an overview of useful information, giving an overview of the data management resources in Norway and it is aimed at the current and future scientists in Norway and their collaborators, in life sciences.
+This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
 The [Data Stewardship Wizard instance from ELIXIR-Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate this recommendations and resources.
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
-Norway has released a
+The Norwegian government has released a
 [National strategy on access to and sharing of research data](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/?ch=1) in 2018.
 
 ##  Funder policies on research data
 
 List of funders with Data Management Policies in Norway:
 
-* [Forskningsrådet (also known as Research Council of Norway) Policy](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
+* [Norges Forskningsråd (Research Council of Norway) Policy](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
 
-##  Institutional Policies on Research Data
+
+##  Institutional policies on research data
 
 We provide here a non-exhaustive list of research institutions with Data Management Policies in Norway:
 
 * [Norwegian University of Life Sciences](https://www.nmbu.no/download/file/fid/31742)
-* [Norwegian university of science and technology](https://www.ntnu.edu/policy-for-open-science)
+* [Norwegian University of Science and Technology](https://www.ntnu.edu/policy-for-open-science)
 * [University of Bergen](https://www.uib.no/en/ub/111372/research-data)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-and-guidelines/index.html)
 * [The Arctic University of Norway](https://en.uit.no/regelverk/sentraleregler#innhold_740835)
 
-### Institutional Storage Guidelines
+### Institutional storage guidelines
 
-Most universities in Norway classify data into four categories, depending on how restricted the access to them has to be:
+Most universities in Norway classify data into four categories, depending on access requirements:
 * Open (Green)
 * Restricted (Yellow)
-* Confidential (Red):
-* Strictly confidential (Black):
+* Confidential (Red)
+* Strictly confidential (Black)
 
 Details and provided solutions vary according to each institution. They are based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
 
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
-* [Norwegian university of science and technology ](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
+* [Norwegian University of Science and Technology](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
 * [University of Bergen](https://regler.app.uib.no/regler/Del-4-OEkonomi-eiendom-og-IKT/4.3-Informasjons-og-kommunikasjonsteknologi/Styringssystem-for-informasjonssikkerhet-og-personvern-Del-II-Gjennomfoerende-del/#kartlegging-og-klassifisering-av-informasjon)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
-### Institutional Guidelines related to Personal Data
+### Institutional guidelines related to personal data
 * [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
-* [Norwegian university of science and technology - Privacy in Research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects)
-* [Norwegian university of science and technology - health research guidelines](https://innsida.ntnu.no/helseforskning)
+* [Norwegian University of Science and Technology - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
+* [Norwegian University of Science and Technology - Health research guidelines](https://innsida.ntnu.no/helseforskning)
 * [University of Bergen](https://www.uib.no/personvern)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
 * [The Arctic University of Norway](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
@@ -229,7 +230,7 @@ There are several support services available to Norwegian Life Science researche
 
 
 ## Domain-specific infrastructures/resources
-Following resources and tools could be useful to implement data management practices, relevant to your research area/topic:
+The following resources and tools are relevant to the implemention of data management practices in your specific research area/topic:
 
 * [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/nels_assembly.html)
 * [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
@@ -238,12 +239,12 @@ Following resources and tools could be useful to implement data management pract
 * [Marine metagenomics Portal - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/marine_metagenomics_assembly.html)
 
 
-## Ethical Committees and General Authorities
-Here, we provide a list of ethical committees and general authorities that are responsible for national regulations in Norway:
-### Data Privacy
+## Ethical committees and general authorities
+We report here a list of ethical committees and general authorities that are responsible for national regulations in Norway:
+### Data privacy
 * [Norwegian Data Protection Authority](https://www.datatilsynet.no/)
 
-### Health Research
+### Health research
 
 * [Regional Ethic committees (for health research)](https://rekportalen.no/#hjem/home)
 * Medical devices, medicines, dietary supplements,natural substances or other substances: [Norwegian Medicine Agency](https://legemiddelverket.no)
@@ -252,7 +253,7 @@ Here, we provide a list of ethical committees and general authorities that are r
 * [Norwegian National Research Ethics Committees](https://www.forskningsetikk.no/en/)
 
 
-## Relevant Ethical guidelines
+## Relevant ethical guidelines
 
 * [General guidelines for research ethics](https://www.forskningsetikk.no/en/guidelines/general-guidelines/)
 * [Guidelines for Research Ethics in Science and Technology](https://www.forskningsetikk.no/en/guidelines/science-and-technology/guidelines-for-research-ethics-in-science-and-technology/)
@@ -271,18 +272,18 @@ Through the Research Ethics Committees, the  following recommendations were made
 * [The Oviedo Convention](https://www.forskningsetikk.no/en/resources/the-research-ethics-library/legal-statutes-and-guidelines/oviedo-convention/)
 
 
-## Laws and Regulations Relevant to Life Sciences Research Data
+## Laws and regulations relevant to life sciences research data
 
 These are some of the laws relevant for research data management in Norway. You should refer to the relevant laws and ethical guidelines in your DMP (in [DSW NO](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview?questionUuid=4ed4aadb-6ee8-40c3-8e31-c9f9039a5b1e)). Some of the legal information is only accessible after login with Feide.
 
-### Data Privacy
+### Data privacy
 * [Personal Data Act](https://lovdata.no/dokument/RFA/lov/2000-04-14-31)
 * Regulations on the processing of personal data [Forskrift om behandling av personopplysninger](https://lovdata.no/dokument/SF/forskrift/2018-06-15-876)
 * Transitional rules on the processing of personal data [Overgangsregler om behandling av personopplysninger](https://lovdata.no/dokument/SF/forskrift/2018-06-15-877)
 * [The Norwegian Data Protection Agency: Journalistic, academic, artistic and literary purposes](https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/personvern-vs.-ytringsfrihet/)
 * [The Norwegian Data Protection Agency: Code of Conduct on Information Security and Internal Control](https://www.datatilsynet.no/regelverk-og-verktoy/atferdsnorm/)
 
-### Health Research Data
+### Health research data
 
 * [Health Research Act](https://lovdata.no/dokument/LTI/lov/2008-06-20-44)
 * [Regulations on the organization of medical and health research](http://www.lovdata.no/for/sf/ho/ho-20090701-0955.html)
@@ -296,7 +297,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Biotechnology Act (on the medical use of biotechnology)](https://lovdata.no/dokument/NL/lov/2003-12-05-100)
 * [e-helse Direktoratet: “Normen”: Norms for health data](https://ehelse.no/normen)
 
-### Other Laws of potential relevance to Life Sciences Research Data
+### Other laws of potential relevance to life sciences research data
 
 * [Archive Act](https://lovdata.no/dokument/NL/lov/1992-12-04-126)
 * [Research Ethics Act](https://lovdata.no/dokument/NL/lov/2017-04-28-23)

@@ -6,13 +6,13 @@ contributors: [Flora D'Anna]
 coordinators: [Flora D'Anna]
 
 related_pages: 
-  tool_assembly: [plant geno assembly]
+  tool_assembly: []
 
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=Belgium
+    url: https://tess.elixir-europe.org/materials?node=Belgium
   - name: ELIXIR Belgium community in Zenodo
     registry: Zenodo
     registry_url: https://zenodo.org
