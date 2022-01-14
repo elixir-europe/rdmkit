@@ -167,6 +167,7 @@ resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
+The [Data Stewardship Wizard instance from ELIXIR-Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate this recommendations and resources.
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian government has released a
@@ -176,7 +177,8 @@ The Norwegian government has released a
 
 List of funders with Data Management Policies in Norway:
 
-* [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
+* [Norges Forskningsråd (Research Council of Norway) Policy](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
+
 
 ##  Institutional policies on research data
 
@@ -230,6 +232,7 @@ There are several support services available to Norwegian Life Science researche
 ## Domain-specific infrastructures/resources
 The following resources and tools are relevant to the implemention of data management practices in your specific research area/topic:
 
+* [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/nels_assembly.html)
 * [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
 * [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/tsd_assembly.html)
 * [Covid-19 Data Portal](https://covid19dataportal.no/)
@@ -305,4 +308,4 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Genetic Engineering Act](https://lovdata.no/dokument/NL/lov/1993-04-02-38)
 * [Biodiversity Act](https://lovdata.no/dokument/NL/lov/2009-06-19-100)
 * [Regulations on the protection of traditional knowledge related to genetic material](https://lovdata.no/dokument/SF/forskrift/2016-11-25-1367)
-* [Norwegian Environment Agency:Guidelines on sensitive species data](https://sensitive-artsdata.miljodirektoratet.no/Contentpages/Forsiden.aspx)
+* [Norwegian Environment Agency: Guidelines on sensitive species data](https://sensitive-artsdata.miljodirektoratet.no/Contentpages/Forsiden.aspx)
