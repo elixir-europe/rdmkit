@@ -2,7 +2,7 @@
 
 title: Portugal
 country_code: PT
-contributors: [Jorge Oliveira]
+contributors: [Jorge Oliveira, Ana Portugal Melo]
 coordinators: [Ana Portugal Melo]
 
 related_pages: 
