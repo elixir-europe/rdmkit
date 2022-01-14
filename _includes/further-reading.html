@@ -89,7 +89,7 @@
                     {%- if page.dsw %}
                     {%- for question in page.dsw %}
                     <li class="d-grid">
-                        <a class="btn bg-white hover-primary text-start" href="{{ dsw_deep_link_prefix | append: question.parentuuid }}">
+                        <a class="btn bg-white hover-primary text-start" href="{{ site.dsw_deep_link_prefix | append: question.parentuuid }}">
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
                                     <img alt="DSW logo" class="img-fluid h-75" src="assets/img/dsw-compact.svg">

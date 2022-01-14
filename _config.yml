@@ -10,7 +10,7 @@ description: "Find the answers to your Research Data Management questions in Lif
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
+dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root-rdmkit:2.3.7/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 
 exclude:
