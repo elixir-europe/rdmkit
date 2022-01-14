@@ -36,8 +36,9 @@ resources:
       tool_assembly: [TSD,NeLS,marine assembly]
       your_tasks: [DMP]
     url: https://elixir-no.ds-wizard.org/
-  - name: easyDMP
+  - name: EasyDMP
     description: DMP tool from [UNINETT Sigma2](https://www.sigma2.no/)
+    instance_of: EasyDMP
     how_to_access: Feide
     related_pages:
       your_tasks: [DMP]
