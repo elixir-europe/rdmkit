@@ -102,7 +102,7 @@ Tools:
   name: Atlas
   registry:
     biotools: atlas
-    fairsharing: dvyrsz
+    fairsharing: j0t0pe
     tess: Atlas
   related_pages:
   - data manager
@@ -701,6 +701,7 @@ Tools:
   registry:
     biotools: dbgap
     fairsharing: 88v2k0
+    tess: dbGAP
   related_pages:
   - data publication
   - researcher
