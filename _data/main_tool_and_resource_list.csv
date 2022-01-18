@@ -11,7 +11,8 @@ ArrayExpress,https://www.ebi.ac.uk/arrayexpress/,A repository of array based gen
 Arvados,https://arvados.org,"With Arvados, bioinformaticians run and scale compute-intensive workflows, developers create biomedical applications, and IT administrators manage large compute and storage resources.",,"IT support, policy officer, researcher, data analysis"
 Aspera Fasp,https://www.ibm.com/products/aspera,"With fast file transfer and streaming solutions built on the award-winning IBM FASP protocol, IBM Aspera software moves data of any size across any distance",,"transfer, IT support"
 ATCC,https://www.lgcstandards-atcc.org/en.aspx#,"Biological materials resource including cell-lines, strains and genomics tools",,micro biotech
-Atlas,https://github.com/OHDSI/Atlas/wiki,"Free, publicly available web-based, open-source software application developed by the OHDSI community to support the design and execution of observational analyses to generate real world evidence from patient level observational data.",,"data manager, researcher, transmed"
+Atlas,https://github.com/OHDSI/Atlas/wiki,"Free, publicly available web-based, open-source software application developed by the OHDSI community to support the design and execution of observational analyses to generate real world evidence from patient level observational data.",fairsharing:NA,"data manager, researcher, transmed"
+b2share,https://b2share.eudat.eu/,Store and publish your research data. Can be used to bridge between domains,,"storage, data publication,bioimaging data"
 BacDive,https://bacdive.dsmz.de,A searchable database for bacteria specific information,,micro biotech
 Bacillus Genetic Stock Center (BGSC),http://www.bgsc.org/,A repository specific to Bacillus strains,biotools:NA,micro biotech
 BASE,https://www.base-search.net/,A search engine for academic web resources,,existing data
@@ -40,7 +41,6 @@ Box,https://www.box.com,Cloud storage and file sharing service,,"storage, IT sup
 BrAPI,https://www.brapi.org,"Specification for a standard API for plant data: plant material, plant phenotyping data",,"IT support, plants"
 BRENDA,https://www.brenda-enzymes.org/,"Database of enzyme and enzyme-ligand information, across all taxonomic groups, manually extracted from primary literature and extended by text mining procedures",fairsharing:etp533,micro biotech
 Bulk Rename Utility,https://www.bulkrenameutility.co.uk/,File renaming software for Windows,,"data organisation, data manager, researcher"
-b2share,https://b2share.eudat.eu/,Store and publish your research data. Can be used to bridge between domains,,"storage, data publication,bioimaging data"
 CalibraCurve,https://github.com/mpc-bioinformatics/CalibraCurve,A highly useful and flexible tool for calibration of targeted MS?based measurements. CalibraCurve enables an automated batch-mode determination of dynamic linear ranges and quantification limits for both targeted proteomics and similar assays. The software uses a variety of measures to assess the accuracy of the calibration and provides intuitive visualizations.,biotools:calibracurve,"data analysis, proteomics"
 Cancer Genome Interpreter,https://www.cancergenomeinterpreter.org/home,Cancer Genome Interpreter (CGI) is designed to support the identification of tumor alterations that drive the disease and detect those that may be therapeutically actionable.,biotools:cgi,"data analysis, human data"
 CAS Registry,https://www.cas.org/cas-data/cas-registry,"The CAS Registry (Chemical Abstracts Service Registry) includes more than 188 million unique chemicals. CAS Registry Numbers are broadly used as a unique identifier for chemical substances. The Registry is maintained by CAS, a subdivision of the American Chemical Society.",,toxicology data
@@ -85,6 +85,7 @@ DisProt,https://disprot.org/,A database of intrinsically disordered proteins,bio
 DMP Canvas Generator,https://dmp.vital-it.ch,"Questionnaire, which generates a pre-filled a DMP",,"DMP, researcher, data manager"
 DMPlanner,https://dmplanner.athenarc.gr/,"Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans.",,"DMP, researcher, data manager"
 DMPonline,https://dmponline.dcc.ac.uk/,"A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.",,"DMP, researcher, data manager"
+DMPRoadmap,https://github.com/DMPRoadmap/roadmap,DMP Roadmap is a Data Management Planning tool.,,"DMP, researcher, data manager"
 DMPTool,https://dmptool.org,Build your Data Management Plan,,"DMP, researcher, data manager"
 DNA Data Bank of Japan (DDBJ),https://www.ddbj.nig.ac.jp/index-e.html,A database of DNA sequences,,micro biotech
 Docker,https://www.docker.com/,"Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images",fairsharing-coll:bsg-d001254,"IT support, data analysis"
@@ -128,8 +129,9 @@ FigShare,https://figshare.com/,Data publishing platform,fairsharing:drtwnh,"data
 FileZilla,https://filezilla-project.org,A free FTP solution,,"transfer, IT support"
 Free-IPA,https://www.freeipa.org/,FreeIPA is an integrated Identity and Authentication solution for Linux/UNIX networked environments.,,"IT support, transmed"
 Freegenes,https://stanford.freegenes.org/collections/open-genes,Repository of IP-free synthetic biological parts,,micro biotech
-GA4GH data security toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/,Principled and practical framework for the responsible sharing of genomic and health-related data.,,"data publication, policy officer, data manager, IT support, human data"
-GA4GH regular and ethical toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,Framework for Responsible Sharing of Genomic and Health-Related Data,,"data protection, sensitive, policy officer, data manager, IT support, human data"
+GA4GH Data Security Toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/,Principled and practical framework for the responsible sharing of genomic and health-related data.,,"data publication, policy officer, data manager, IT support, human data, sensitive"
+GA4GH Genomic Data Toolkit,https://www.ga4gh.org/genomic-data-toolkit/,Open standards for genomic data sharing.,,"data manager, IT support, human data"
+GA4GH Regulatory and Ethics toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,Framework for Responsible Sharing of Genomic and Health-Related Data,,"data protection, sensitive, policy officer, data manager, IT support, human data"
 Galaxy,https://galaxyproject.org/,"Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.",biotools:galaxy,"NeLS, marine assembly, data analysis, researcher, IT support, IFB"
 GenBank,https://www.ncbi.nlm.nih.gov/genbank/,A database of genetic sequence information. GenBank may also refer to the data format used for storing information around genetic sequence data.,,micro biotech
 Gene Expression Omnibus (GEO),https://www.ncbi.nlm.nih.gov/geo/,A repository of MIAME-compliant genomics data from arrays and high-throughput sequencing,,micro biotech
@@ -145,14 +147,13 @@ Google Dataset Search,https://datasetsearch.research.google.com/,Search engine f
 Google Drive,https://www.google.com/intl/en_us/drive/,Cloud Storage for Work and Home,,"storage, transfer"
 GPCRmd,http://gpcrmd.org/,Repository of GPCR protein simulations,biotools:GPCRmd,biomol sim
 GRAPE 2.0,https://github.com/guigolab/grape-nf,"The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses. It allows the creation of an automated and integrated workflow to manage, analyse and visualize RNA-Seq data.",biotools:grape_2.0,data analysis
-Harvard Medical School – ELN Comparison Grid,https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks,ELN Comparison Grid by Hardvard Medical School,,"metadata, identifiers, researcher, data manager"
+Harvard Medical School - ELN Comparison Grid,https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks,ELN Comparison Grid by Hardvard Medical School,,"metadata, identifiers, researcher, data manager"
 Haz-Map,https://haz-map.com/,Haz-Map is an occupational health database that makes available information about the adverse effects of exposures to chemical and biological agents at the workplace. These associations have been established using current scientific evidence.,,toxicology data
 How to License Research Data - DCC,https://www.dcc.ac.uk/guidance/how-guides/license-research-data,Guidelines about how to license research data from Digital Curation Centre,,"licensing, researcher, data manager, policy officer"
 Human Protein Atlas,https://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,proteomics
 HumanMine,https://www.humanmine.org/,"HumanMine integrates many types of human data and provides a powerful query engine, export for results, analysis for lists of data and FAIR access via web services.",biotools:humanmine,"data organisation, data manager, researcher, human data, data analysis"
 iCloud,https://www.icloud.com/,Data sharing,,"storage, data analysis, transfer"
 Identifiers.org,http://identifiers.org,The Identifiers.org Resolution Service provides consistent access to life science data using Compact Identifiers. Compact Identifiers consist of an assigned unique prefix and a local provider designated accession number (prefix:accession).,"biotools:identifiers.org, fairsharing:n14rc8","identifiers, IT support, data manager"
-Intrinsically disordered proteins ontology (IDPO),https://disprot.org/about,Intrinsically disordered proteins ontology,,"IDP, metadata"
 iGEM Parts Registry,http://parts.igem.org/Main_Page,A collection of standard biological parts to which all entrants in the iGEM competition must submit their parts,,micro biotech
 Image Data Resource (IDR),https://idr.openmicroscopy.org,A repository of image datasets from scientific publications,fairsharing:6wf1zw,"micro biotech, data publication, metadata, transfer, ome,bioimaging data"
 Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"IT support, policy officer, human data"
@@ -162,6 +163,7 @@ International Society for the Advancement of Cytometry (ISAC),https://isac-net.o
 International Union of Biochemistry and Molecular Biology (IUBMB),https://www.qmul.ac.uk/sbcs/iubmb/,Resource for naming standards in biochemistry and molecular biology,,micro biotech
 InterPro,https://www.ebi.ac.uk/interpro/,Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites,fairsharing:pda11d,
 IntoGen,https://www.intogen.org/search,IntoGen collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.,biotools:intogen,"data analysis,human data"
+Intrinsically disordered proteins ontology (IDPO),https://disprot.org/about,Intrinsically disordered proteins ontology,,"IDP, metadata"
 IRIS,https://www.epa.gov/iris,The Integrated Risk Information System (IRIS) resource evaluates information on health that might arise after exposure to environmental contaminants.,,toxicology data
 iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open source data management software for a cancer genome analysis workflow.,biotools:irods,"storage, IT support, transmed,bioimaging data"
 ISA-tools,https://isa-tools.org/,"Open source framework and tools helping to manage a diverse set of life science, environmental and biomedical experiments using the Investigation Study Assay (ISA) standard",fairsharing:53gp75,"IT support, data manager, micro biotech"
@@ -181,7 +183,6 @@ MarDB,https://mmp2.sfb.uit.no/mardb/,"MarDB includes all non-complete marine mic
 MarFun,https://mmp2.sfb.uit.no/marfun/,MarFun is a manually curated marine fungi genome database.,,marine assembly
 Marine metagenomics portal,https://mmp2.sfb.uit.no/,High-quality curated and freely accessible microbial genomics and metagenomics resources for the marine scientific community,biotools:mmp,marine assembly
 MarRef,https://mmp2.sfb.uit.no/marref/,"MarRef is a manually curated marine microbial reference genome database that equenced genomes. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation information",biotools:marref,marine assembly
-Multi-Crop Passport Descriptor (MCPD),https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,"biotools:NA, fairsharing:hn155r","metadata, researcher, IT support, policy officer, plants, plants"
 MemProtMD,http://memprotmd.bioch.ox.ac.uk/,Database of over 5000 intrinsic membrane protein structures,,biomol sim
 Mendeley data,https://data.mendeley.com/,"Multidisciplinary, free-to-use open repository specialized for research data",fairsharing:3epmpp,"data publication, biomol sim"
 MetabolomeXchange,http://www.metabolomexchange.org/site/,A repository of genomics data relating to the study of the metabolome,,micro biotech
@@ -201,6 +202,7 @@ Molgenis,https://molgenis.gitbooks.io/molgenis/content/,"Molgenis is a modular w
 MolMeDB,https://molmedb.upol.cz/,Database about interactions of molecules with membranes,"biotools:MolMeDB, fairsharing:cwzk3c",biomol sim
 MONARC,https://open-source-security-software.net/project/MONARC,A risk assessment tool that can be used to do Data Protection Impact Assessments,,"data protection, policy officer, human data, transmed"
 MRI2DICOM,https://github.com/szullino/XNAT-PIC,"a Magnetic Resonance Imaging (MRI) converter from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard",,"researcher, data manager, XNAT-PIC"
+Multi-Crop Passport Descriptor (MCPD),https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/,The Multi-Crop Passport Descriptor is the metadata standard for plant genetic resources maintained ex situ by genbanks.,"biotools:NA, fairsharing:hn155r","metadata, researcher, IT support, policy officer, plants"
 MyTardis,http://www.mytardis.org/,A file-system based platform handling the transfer of data,,"data manager, transfer, bioimaging data"
 National Center for Biotechnology Information (NCBI),https://www.ncbi.nlm.nih.gov,"Online database hosting a vast amount of biotechnological information including nucleic acids, proteins, genomes and publications. Also boasts integrated tools for analysis.",,micro biotech
 NBP,https://www.cdc.gov/biomonitoring/,The National Biomonitoring Program (NBP) is a public resource that offers an assessment of nutritional status and the exposure of the U.S. population to environmental chemicals and toxic substances.,,toxicology data
@@ -277,9 +279,9 @@ Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked a
 Singularity,https://sylabs.io,Singularity is a container platform.,,"IT support, data analysis, TSD"
 SMASCH,https://smasch.pages.uni.lu,"SMASCH (Smart Scheduling) system, is a web-based tooldesigned for longitudinal clinical studies requiring recurrent follow-upvisits of the participants. SMASCH controls and simplifies the scheduling of big database of patients. Smasch is also used to organize the daily plannings (delegation of tasks) for the different medical professionals such as doctors, nurses and neuropsychologists.",,"data organisation, transmed"
 Snakemake,https://snakemake.github.io,Snakemake is a framework for data analysis workflow execution,biotools:snakemake,"IT support, data analysis"
-Standards for Reporting Enzyme Data (STRENDA),https://www.beilstein-institut.de/en/projects/strenda/,Resource of standards for reporting enzyme data,,micro biotech
 SSBD:database,https://ssbd.riken.jp/database/,Added-value database for biological dynamics images,,"bioimaging data, data publication"
 SSBD:repository,https://ssbd.riken.jp/repository/,An open data archive that stores and publishes bioimaging and biological quantitative datasets ,,"bioimaging data, data publication"
+Standards for Reporting Enzyme Data (STRENDA),https://www.beilstein-institut.de/en/projects/strenda/,Resource of standards for reporting enzyme data,,micro biotech
 STRING,https://string-db.org/,Known and predicted protein-protein interactions.,fairsharing:9b7wvk,proteomics
 SynBioHub,https://synbiohub.org,A searchable design repository for biological constructs,,micro biotech
 Synthetic Biology Open Language (SBOL),https://sbolstandard.org,An open standard for the representation of in silico biological designs and their place in the Design-Build-Test-Learn cycle of synthetic biology.,,micro biotech
@@ -309,4 +311,3 @@ XNAT,https://www.xnat.org/,"Open source imaging informatics platform. It facilit
 XNAT-PIC Pipelines,https://github.com/szullino/XNAT-PIC,Analysing of single or multiple subjects within the same project in XNAT,,"researcher, data manager, data analysis, XNAT-PIC"
 XNAT-PIC Uploader,https://github.com/szullino/XNAT-PIC,Import tool for multimodal DICOM image datasets to XNAT,,"researcher, data manager, XNAT-PIC"
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data publication, biomol sim, bioimaging data"
-DMPRoadmap,https://github.com/DMPRoadmap/roadmap,DMP Roadmap is a Data Management Planning tool.,,"DMP, researcher, data manager"
