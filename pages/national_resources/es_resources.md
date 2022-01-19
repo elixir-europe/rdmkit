@@ -8,7 +8,7 @@ training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/materials?node=Spain
+    url: https://tess.elixir-europe.org/materials?node=Spain&scientific_topics=Data+management
     
 resources:
   - name: Red Española de Supercomputación
