@@ -5,6 +5,9 @@ country_code: GB
 contributors: [Munazah Andrabi]
 coordinators: [Robert Andrews, Munazah Andrabi]
 
+related_pages:
+  tool_assembly: []
+
 resources:
   - name: FAIRDOM-SEEK
     description: A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.
@@ -13,7 +16,8 @@ resources:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
       domain: [storage, metadata]
     url: https://seek4science.org
-    
+  
+
 ---
 
 ## Introduction 
