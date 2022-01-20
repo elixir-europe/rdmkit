@@ -11,7 +11,7 @@
 CONTRIBUTING.md       @floradanna @pinarpink
 /pages/your_tasks       @DanFaria @floradanna
 /pages/your_role       @MijkeJetten @pinarpink
-/pages/rdm_cycle       @wittigue @floradanna @smza
+/pages/data_life_cycle       @wittigue @floradanna @smza
 /pages/tool_assembly       @korbinib @bianchini88
 /pages/your_domain       @DanFaria @pinarpink @bianchini88
 /pages/about/about.md       @frederikcoppens @CaroleGoble
@@ -19,7 +19,7 @@ CODE_OF_CONDUCT.md       @frederikcoppens @CaroleGoble
 /assets       @martin-nc @bedroesb
 
 # Sidebar
-/_data/sidebars/*      @roper79 @bedroesb
+/_data/sidebars/*      @bedroesb
 
 # Tool and resources
 /_data/tool*     @wittigue @bedroesb
