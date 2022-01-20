@@ -13,6 +13,14 @@ resources:
       domain: [storage, metadata]
     url: https://seek4science.org
     
+ - name: COPO
+   description: COPO is a portal for plant scientists to describe, store and retrieve data more easily. COPO assists scientists with labelling and tagging their work, in other words 'contextualising research', so that it is found at the right time and place.
+   how_to_access: 
+   related_pages:
+     tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+     domain: [storage, metadata]
+   url:  https://copo-project.org
+    
 ---
 
 ## Introduction 
