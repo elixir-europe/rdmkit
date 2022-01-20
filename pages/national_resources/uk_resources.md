@@ -14,8 +14,32 @@ resources:
     how_to_access: 
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      domain: [storage, metadata]
+      your domain: [storage, metadata]
+      your role: []
+      your tasks: []
     url: https://seek4science.org
+  - name:DMPonline
+    description:DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs.
+    how_to_access:
+    instance_of: DMPRoadmap
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: [data manager, researcher]
+      your_tasks: [DMP]
+    url:https://dcc.ac.uk/dmponline
+  - name:COPO
+    description:COPO is a portal for plant scientists to describe, store and retrieve data more easily.COPO assists scientists with labelling and tagging their work, in other words 'contextualising research', so that it is found at the right time and place
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: [data manager, researcher]
+      your_tasks: [metadata]
+    url:https://www.earlham.ac.uk/copo
+    
+    
   
 
 ---
