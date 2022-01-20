@@ -1,7 +1,6 @@
 ---
 
 title: Germany
-search_exclude: true
 country_code: DE
 contributors: [Ulrike Wittig]
 coordinators: [Ulrike Wittig]
