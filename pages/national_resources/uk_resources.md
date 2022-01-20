@@ -58,3 +58,10 @@ resources:
 ## Regulations
 
 ## Domain-specific infrastructures/resources
+
+  * [Scotland Data Safe Haven programme] (https://www.nhsresearchscotland.org.uk/research-in-scotland/data/safe-havens)
+  * [UK Secure eResearch Platform in Wales] (https://saildatabank.com/)
+  * [Genomics England Research Environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/)
+  * [NHS England TREs] (https://digital.nhs.uk/coronavirus/coronavirus-data-services-updates/trusted-research-environment-service-for-england
+)
+  * [UK Data Service Secure Lab] (https://ukdataservice.ac.uk/help/secure-lab/am-i-eligible-to-apply-to-access-securelab/)
