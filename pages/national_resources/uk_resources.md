@@ -4,6 +4,7 @@ title: United Kingdom
 country_code: GB
 contributors: [Munazah Andrabi]
 coordinators: [Robert Andrews, Munazah Andrabi]
+
 resources:
   - name: FAIRDOM-SEEK
     description: A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.
