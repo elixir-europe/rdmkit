@@ -7,7 +7,7 @@ search_exclude: true
   {% for page in site.pages -%}
   {% if page.url == "/index.html" or page.search_exclude != true and page.title %}
   <url>
-    <loc>https://{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+    <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
   </url>
   {% endif -%}
   {% endfor -%}

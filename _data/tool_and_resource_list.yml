@@ -102,12 +102,19 @@ Tools:
   name: Atlas
   registry:
     biotools: atlas
-    fairsharing: dvyrsz
     tess: Atlas
   related_pages:
   - data manager
   - researcher
   - transmed
+- description: Store and publish your research data. Can be used to bridge between
+    domains
+  link: https://b2share.eudat.eu/
+  name: b2share
+  related_pages:
+  - storage
+  - data publication
+  - bioimaging data
 - description: A searchable database for bacteria specific information
   link: https://bacdive.dsmz.de
   name: BacDive
@@ -349,14 +356,6 @@ Tools:
   - data organisation
   - data manager
   - researcher
-- description: Store and publish your research data. Can be used to bridge between
-    domains
-  link: https://b2share.eudat.eu/
-  name: b2share
-  related_pages:
-  - storage
-  - data publication
-  - bioimaging data
 - description: A highly useful and flexible tool for calibration of targeted MS?based
     measurements. CalibraCurve enables an automated batch-mode determination of dynamic
     linear ranges and quantification limits for both targeted proteomics and similar
@@ -701,6 +700,7 @@ Tools:
   registry:
     biotools: dbgap
     fairsharing: 88v2k0
+    tess: dbGAP
   related_pages:
   - data publication
   - researcher
@@ -747,6 +747,13 @@ Tools:
   name: DMPonline
   registry:
     tess: DMPonline
+  related_pages:
+  - DMP
+  - researcher
+  - data manager
+- description: DMP Roadmap is a Data Management Planning tool.
+  link: https://github.com/DMPRoadmap/roadmap
+  name: DMPRoadmap
   related_pages:
   - DMP
   - researcher
@@ -1139,16 +1146,24 @@ Tools:
 - description: Principled and practical framework for the responsible sharing of genomic
     and health-related data.
   link: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
-  name: GA4GH data security toolkit
+  name: GA4GH Data Security Toolkit
   related_pages:
   - data publication
   - policy officer
   - data manager
   - IT support
   - human data
+  - sensitive
+- description: Open standards for genomic data sharing.
+  link: https://www.ga4gh.org/genomic-data-toolkit/
+  name: GA4GH Genomic Data Toolkit
+  related_pages:
+  - data manager
+  - IT support
+  - human data
 - description: Framework for Responsible Sharing of Genomic and Health-Related Data
   link: https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/
-  name: GA4GH regular and ethical toolkit
+  name: GA4GH Regulatory and Ethics toolkit
   related_pages:
   - data protection
   - sensitive
@@ -1299,7 +1314,7 @@ Tools:
   - data analysis
 - description: ELN Comparison Grid by Hardvard Medical School
   link: https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks
-  name: "Harvard Medical School \u2013 ELN Comparison Grid"
+  name: Harvard Medical School - ELN Comparison Grid
   related_pages:
   - metadata
   - identifiers
@@ -1365,12 +1380,6 @@ Tools:
   - identifiers
   - IT support
   - data manager
-- description: Intrinsically disordered proteins ontology
-  link: https://disprot.org/about
-  name: Intrinsically disordered proteins ontology (IDPO)
-  related_pages:
-  - IDP
-  - metadata
 - description: A collection of standard biological parts to which all entrants in
     the iGEM competition must submit their parts
   link: http://parts.igem.org/Main_Page
@@ -1443,6 +1452,12 @@ Tools:
   related_pages:
   - data analysis
   - human data
+- description: Intrinsically disordered proteins ontology
+  link: https://disprot.org/about
+  name: Intrinsically disordered proteins ontology (IDPO)
+  related_pages:
+  - IDP
+  - metadata
 - description: The Integrated Risk Information System (IRIS) resource evaluates information
     on health that might arise after exposure to environmental contaminants.
   link: https://www.epa.gov/iris
@@ -1604,19 +1619,6 @@ Tools:
     biotools: marref
   related_pages:
   - marine assembly
-- description: The Multi-Crop Passport Descriptor is the metadata standard for plant
-    genetic resources maintained ex situ by genbanks.
-  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
-  name: Multi-Crop Passport Descriptor (MCPD)
-  registry:
-    fairsharing: hn155r
-  related_pages:
-  - metadata
-  - researcher
-  - IT support
-  - policy officer
-  - plants
-  - plants
 - description: Database of over 5000 intrinsic membrane protein structures
   link: http://memprotmd.bioch.ox.ac.uk/
   name: MemProtMD
@@ -1778,6 +1780,18 @@ Tools:
   - researcher
   - data manager
   - XNAT-PIC
+- description: The Multi-Crop Passport Descriptor is the metadata standard for plant
+    genetic resources maintained ex situ by genbanks.
+  link: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
+  name: Multi-Crop Passport Descriptor (MCPD)
+  registry:
+    fairsharing: hn155r
+  related_pages:
+  - metadata
+  - researcher
+  - IT support
+  - policy officer
+  - plants
 - description: A file-system based platform handling the transfer of data
   link: http://www.mytardis.org/
   name: MyTardis
@@ -2416,11 +2430,6 @@ Tools:
   related_pages:
   - IT support
   - data analysis
-- description: Resource of standards for reporting enzyme data
-  link: https://www.beilstein-institut.de/en/projects/strenda/
-  name: Standards for Reporting Enzyme Data (STRENDA)
-  related_pages:
-  - micro biotech
 - description: Added-value database for biological dynamics images
   link: https://ssbd.riken.jp/database/
   name: SSBD:database
@@ -2434,6 +2443,11 @@ Tools:
   related_pages:
   - bioimaging data
   - data publication
+- description: Resource of standards for reporting enzyme data
+  link: https://www.beilstein-institut.de/en/projects/strenda/
+  name: Standards for Reporting Enzyme Data (STRENDA)
+  related_pages:
+  - micro biotech
 - description: Known and predicted protein-protein interactions.
   link: https://string-db.org/
   name: STRING
@@ -2700,10 +2714,3 @@ Tools:
   - data publication
   - biomol sim
   - bioimaging data
-- description: DMP Roadmap is a Data Management Planning tool.
-  link: https://github.com/DMPRoadmap/roadmap
-  name: DMPRoadmap
-  related_pages:
-  - DMP
-  - researcher
-  - data manager

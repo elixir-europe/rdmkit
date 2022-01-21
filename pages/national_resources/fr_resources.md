@@ -1,6 +1,7 @@
 ---
 title: France
 country_code: FR
+search_exclude: true
 contributors: []
 coordinators: []
 resources:
