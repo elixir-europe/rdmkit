@@ -1,6 +1,7 @@
 ---
 title: Finland
 country_code: FI
+search_exclude: true
 contributors: []
 coordinators: []
 resources:
