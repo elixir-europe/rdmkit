@@ -24,6 +24,7 @@ $link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
 $font-family-sans-serif: "Open Sans", sans-serif;
+$font-family-theme: "Exo 2", sans-serif;
 $alert-border-width: 0;
 $input-group-addon-bg: $light-x;
 $input-bg: $light;
@@ -39,15 +40,14 @@ $h6-font-size: 1rem !default;
 /*-----General styling-----*/
 
 h1 {
-    font-family: "Exo 2", sans-serif;
+    font-family: $font-family-theme;
     font-weight: 400;
-    margin-bottom:  $spacer * 1.5;
+    margin-bottom: $spacer * 1.5;
 }
-
 
 main h2,
 .h2-like {
-    font-family: "Exo 2", sans-serif;
+    font-family: $font-family-theme;
     font-weight: 700;
     color: $primary;
     margin-top: $spacer * 2;
@@ -74,6 +74,14 @@ main h3 + h4 {
 
 main a:not(.btn):hover {
     text-decoration: underline;
+}
+
+.ff-body {
+    font-family: $font-family-sans-serif!important;
+}
+
+.ff-theme {
+    font-family: $font-family-theme!important;
 }
 
 blockquote {
@@ -156,7 +164,6 @@ pre code {
 }
 
 /*-----Search box top navigation-----*/
-
 
 .search-results {
     position: absolute;
