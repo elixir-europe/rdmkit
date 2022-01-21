@@ -61,7 +61,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     * | <span style="display: inline-block; width: 20px; height: 20px; background: #C23669;"></span> | #C23669 | Magenta | Logo, Menu highlight, Second level heading (h2), Main theme colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #337ab7;"></span> | #376AC3 | Blue | Link colour |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #2a2e3d;"></span> | #2a2e3d | Dark blue | First level headings (h1), Third level heading (h3), Body text, Header, Footer |
-      | <span style="display: inline-block; width: 20px; height: 20px; background: #83858e;"></span> | #83858e | Gray | Gray text, Fourth level heading (h4) |
+      | <span style="display: inline-block; width: 20px; height: 20px; background: #73757D;"></span> | #73757D | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
   * **Icons:** the icons used in this site come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution.

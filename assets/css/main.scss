@@ -4,7 +4,7 @@
 /*-----Theme colors-----*/
 $white: #fff;
 $primary: #c23669;
-$secondary: #73757D;
+$gray-600: #73757D;
 $blue: #376ac3;
 $light: #f3f1f2;
 $light-x: #e3e1e4;
@@ -60,7 +60,7 @@ main h3 {
 
 main h4 {
     font-weight: 700;
-    color: $gray-600;
+    color: $secondary;
     margin-top: $spacer * 1.5;
 }
 
