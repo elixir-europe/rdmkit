@@ -3,7 +3,8 @@ layout: default
 ---
 <main id="main" class="mb-5">
     {%- if page.title %}
-    <h1>{{ page.title }}
+    {%- assign subtitle = page.type | replace: "_", " " | capitalize %}
+    <h1><span class="d-block text-primary fs-4 fw-bold">{{subtitle}}</span><span class="visually-hidden">:</span> {{ page.title }}
         <div class="btn-group">
             {%- if page.custom-editme %}
             <a role="button" data-bs-toggle="tooltip" title="Propose changes to the content of this page on GitHub" href="{{site.github.repository_url}}/blob/master/{{page.custom-editme}}" class="btn hover-primary text-primary"><i class="fas fa-pencil-alt"></i></a>
