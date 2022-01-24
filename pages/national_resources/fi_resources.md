@@ -77,7 +77,7 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [data analysis,]
+      your_tasks: [data analysis]
     url: https://research.csc.fi/computing#high-performance-computing
   - name: Cloud computing
     description: "CSC offers a variety of cloud computing services: the Pouta IaaS services and the Rahti container cloud service."
