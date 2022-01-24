@@ -39,7 +39,7 @@ resources:
       your_role: [researcher, data manager]
       your_tasks: [sensitive_data, data_publication, existing_data]
       your_domain: [human_data]
-     url: https://research.csc.fi/-/fega
+    url: https://research.csc.fi/-/fega
   - name: Findata
     description: The Health and Social Data Permit Authority. Findata offers services and enables secure and efficient utilisation of data materials containing health and social data.
     instance_of: 
@@ -49,7 +49,7 @@ resources:
       your_role: [researcher, data manager]
       your_tasks: [sensitive_data, existing_data]
       your_domain: [human_data]
-     url: https://findata.fi/en/
+    url: https://findata.fi/en/
   - name: Fingenious
     description: Finnish Biobank Cooperative (FINBB) connects researchers to Finnish biomedical research. Via Fingenious® services the researcher can connect to all Finnish public bio banks.
     instance_of: 
@@ -59,7 +59,7 @@ resources:
       your_role: [researcher, data manager]
       your_tasks: [sensitive_data]
       your_domain: [human_data]
-     url: https://site.fingenious.fi/en/
+    url: https://site.fingenious.fi/en/
   - name: Sensitive Data Services for Research
     description: CSC Sensitive Data Services for Research are designed to support secure sensitive data management through web-user interfaces accessible from the user's own computer
     instance_of: 
