@@ -21,18 +21,18 @@
         <li {%- if folder.hr %} class="mt-3"{% endif %}>
         {%- endif %}
         {%- if folder.external_url %}
-            <a class="btn bg-light hover-primary text-start d-block mt-1" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
+            <a class="btn bg-light hover-primary text-start d-block mb-1" href="{{folder.external_url}}" target="_blank" rel="noopener">{{folder.title}}</a>
         {%- else %}    
-            <a class="btn bg-light hover-primary text-start d-block mt-1" href="{{folder.url | relative_url }}">{{ folder.title }}</a>
+            <a class="btn bg-light hover-primary text-start d-block mb-1" href="{{folder.url | relative_url }}">{{ folder.title }}</a>
         {%- endif %}
         {%- if folder.subitems %}
             <ul class="list-unstyled">
                 {%- for subfolder in folder.subitems %}
                 {%- if subfolder.RDM -%}
                 {%- if page.type == "data_life_cycle" %}
-                <li class="active sidebar_rdm_sub">
+                <li class="active sidebar_rdm_sub mb-1">
                 {% else %}
-                <li class="sidebar_rdm_sub">
+                <li class="sidebar_rdm_sub mb-1">
                 {% endif %}
                     <svg version="1.1" id="data-life-cycle" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250.9 251"
@@ -196,9 +196,9 @@
                 <li>
                 {%- endif %}
                 {%- if subfolder.external_url %}
-                    <a class="btn hover-primary text-start d-block mt-1" href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
+                    <a class="btn hover-primary text-start d-block mb-1" href="{{subfolder.external_url}}" target="_blank" rel="noopener">{{subfolder.title}}</a>
                 {%- else %}    
-                    <a class="btn hover-primary text-start d-block mt-1" href="{{subfolder.url | relative_url }}">{{ subfolder.title }}</a>
+                    <a class="btn hover-primary text-start d-block mb-1" href="{{subfolder.url | relative_url }}">{{ subfolder.title }}</a>
                 {%- endif %}
                 {%- if subfolder.subitems %}
                     <ul class="list-unstyled">
@@ -209,9 +209,9 @@
                         <li>
                         {%- endif %}
                         {%- if subsubfolder.external_url %}
-                            <a class="btn hover-primary text-start d-block mt-1" href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
+                            <a class="btn hover-primary text-start d-block mb-1" href="{{subsubfolder.external_url}}" target="_blank" rel="noopener">{{subsubfolder.title}}</a>
                         {%- else %}    
-                            <a class="btn hover-primary text-start d-block mt-1" href="{{subsubfolder.url | relative_url }}">{{ subsubfolder.title }}</a>
+                            <a class="btn hover-primary text-start d-block mb-1" href="{{subsubfolder.url | relative_url }}">{{ subsubfolder.title }}</a>
                         {%- endif %}
                         </li>
                         {%- endfor %}
