@@ -28,7 +28,7 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [storage, data_publication, existing_data]
+      your_tasks: [storage, data publication, existing data]
     url: https://research.csc.fi/-/fairdata-services
   - name: Federated EGA Finland
     description: FEGA allows you to store and shaare sensitive data in Finland in a way that fulfils all the requirements of the General Data Protection Regulation (GDPR). 
@@ -37,8 +37,8 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [sensitive_data, data_publication, existing_data]
-      your_domain: [human_data]
+      your_tasks: [sensitive, data publication, existing data]
+      your_domain: [human data]
     url: https://research.csc.fi/-/fega
   - name: Findata
     description: The Health and Social Data Permit Authority. Findata offers services and enables secure and efficient utilisation of data materials containing health and social data.
@@ -47,8 +47,8 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [sensitive_data, existing_data]
-      your_domain: [human_data]
+      your_tasks: [sensitive, existing data]
+      your_domain: [human data]
     url: https://findata.fi/en/
   - name: Fingenious
     description: Finnish Biobank Cooperative (FINBB) connects researchers to Finnish biomedical research. Via Fingenious® services the researcher can connect to all Finnish public bio banks.
@@ -57,8 +57,8 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [sensitive_data]
-      your_domain: [human_data]
+      your_tasks: [sensitive]
+      your_domain: [human data]
     url: https://site.fingenious.fi/en/
   - name: Sensitive Data Services for Research
     description: CSC Sensitive Data Services for Research are designed to support secure sensitive data management through web-user interfaces accessible from the user's own computer
@@ -67,8 +67,8 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [sensitive_data, data_analysis, data_storage, data_publication]
-      your_domain: [human_data]
+      your_tasks: [sensitive, data analysis, storage, data publication]
+      your_domain: [human data]
     url: https://research.csc.fi/sensitive-data-services-for-research
   - name: High performance computing
     description: CSC Supercomputers Puhti, Mahti and LUMI performance ranges from medium scale simulations to one of the most competitive supercomputers in the world.
@@ -77,7 +77,7 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [data_analysis,]
+      your_tasks: [data analysis]
     url: https://research.csc.fi/computing#high-performance-computing
   - name: Cloud computing
     description: "CSC offers a variety of cloud computing services: the Pouta IaaS services and the Rahti container cloud service."
@@ -86,7 +86,7 @@ resources:
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [data_analysis]
+      your_tasks: [data analysis]
     url: https://research.csc.fi/computing#cloud-computing 
 ---
 
