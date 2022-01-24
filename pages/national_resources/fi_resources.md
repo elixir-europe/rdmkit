@@ -22,7 +22,7 @@ resources:
       your_role: [researcher, data manager]
       your_tasks: [DMP]
     url: https://www.dmptuuli.fi/
-   - name: Fairdata.fi
+  - name: Fairdata.fi
     description: With the Fairdata Services you can store, share and publish your research data with easy-to-use web tools.
     instance_of: 
     how_to_access: 
@@ -70,7 +70,7 @@ resources:
       your_role: [researcher, data manager]
       your_tasks: [sensitive_data, data_analysis, data_storage, data_publication]
       your_domain: [human_data]
-      url: https://research.csc.fi/sensitive-data-services-for-research
+    url: https://research.csc.fi/sensitive-data-services-for-research
   - name: High performance computing
     description: CSC Supercomputers Puhti, Mahti and LUMI performance ranges from medium scale simulations to one of the most competitive supercomputers in the world.
     instance_of: 
@@ -79,16 +79,16 @@ resources:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
       your_tasks: [data_analysis,]
-      url: https://research.csc.fi/computing#high-performance-computing
+    url: https://research.csc.fi/computing#high-performance-computing
   - name: Cloud computing
-    description: CSC offers a variety of cloud computing services: the Pouta IaaS services and the Rahti container cloud service.
+    description: "CSC offers a variety of cloud computing services: the Pouta IaaS services and the Rahti container cloud service."
     instance_of: 
     how_to_access: 
     related_pages:
       tool_assembly: [CSC]
       your_role: [researcher, data manager]
-      your_tasks: [data_analysis,]
-      url: https://research.csc.fi/computing#cloud-computing 
+      your_tasks: [data_analysis]
+    url: https://research.csc.fi/computing#cloud-computing 
 ---
 
 ## Introduction 
