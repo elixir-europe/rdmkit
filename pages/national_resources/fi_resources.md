@@ -1,7 +1,6 @@
 ---
 title: Finland
 country_code: FI
-search_exclude: true
 contributors: [Siiri Fuchs, Minna Ahokas]
 coordinators: []
 resources:
