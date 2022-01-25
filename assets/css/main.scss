@@ -575,6 +575,20 @@ h2.card-title {
     color: $primary !important;
 }
 
+
+/*-------------- Fixed sizes --------------*/
+/* ---------------------------------------- */
+
+
+.h-40px {
+    height: 40px;
+}
+
+.h-30px {
+    height: 24px;
+}
+
+
 /*--------------Custom classes--------------*/
 /* ---------------------------------------- */
 
@@ -685,10 +699,6 @@ iframe.scale {
 // navigation tiles
 
 .navigation-tiles {
-    .h-30px {
-        height: 24px;
-    }
-
     .card .card-text {
         min-height: 4.5em;
     }
