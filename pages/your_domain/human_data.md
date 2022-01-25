@@ -16,6 +16,13 @@ training:
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
   - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
     url: https://academy.ehden.eu/
+dsw:
+- name: Will you collect any data connected to a person, "personal data"?
+  parentuuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
+- name: Are personal data sufficiently protected?
+  parentuuid: d5990471-0618-42cd-92cb-bbbfd4f61532
+- name: Will you be allowing authenticated access to the data?
+  parentuuid: 55f03a4a-034b-422a-adf6-757416b7650a
 ---
 
 ## Introduction

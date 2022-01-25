@@ -10,6 +10,11 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+storage%22#materials
+dsw:
+- name: Data storage systems and file naming conventions
+  parentuuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
+- name: Will you be storing data in an "object store" system?
+  parentuuid: dc39957e-688a-4f71-a6a8-57f52509e7cf
 ---
 
 ## What features do you need in a storage solution when collecting data?

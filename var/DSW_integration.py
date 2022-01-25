@@ -4,6 +4,7 @@ import re
 import json
 import frontmatter
 from urllib.parse import urlparse
+import yaml
 
 
 # --------- Variables ---------
@@ -58,13 +59,41 @@ for subdir, dirs, files in os.walk(rootdir):
     for file_name in files:
         if os.path.splitext(file_name)[1] == '.md':
             filename_stripped = os.path.splitext(file_name)[0]
-            with open(os.path.join(subdir, file_name)) as f:
-                markdown = frontmatter.loads(f.read())
-            if filename_stripped in parent_ids:
-                dsw_info = []
-                for dsw_object in parent_ids[filename_stripped]:
-                    dsw_info.append(
-                        {'name': titles_mapping[dsw_object['parentUuid']], 'parentuuid': dsw_object['parentUuid']})
-                markdown.metadata['dsw'] = dsw_info
-                with open(os.path.join(subdir, file_name), 'w') as f:
-                    print(frontmatter.dumps(markdown), file=f)
+            with open(os.path.join(subdir, file_name), "r") as f:
+                contents = f.readlines()
+                frontmatter_start = False
+                frontmatter_end = 0
+                dsw_start = 0
+                dsw_end = 0
+                for index, line in enumerate(contents):
+                    if re.match(r'^---', line):
+                        if not frontmatter_start:
+                            frontmatter_start = True
+                        else:
+                            frontmatter_start = False
+                            frontmatter_end = index
+                            if dsw_start:
+                                dsw_end = index
+                    elif line.startswith("dsw:") and frontmatter_start:
+                        dsw_start = index
+                    elif re.match(r'^[a-zA-Z]', line) and frontmatter_start and dsw_start:
+                        dsw_end = index
+
+                    if frontmatter_end:
+                        break
+            if ( dsw_end and dsw_start ) or filename_stripped in parent_ids:
+                if  dsw_end and dsw_start:
+                    del contents[dsw_start:dsw_end]
+                    frontmatter_end = frontmatter_end - (dsw_end - dsw_start)
+                
+                metadata = {}
+                if filename_stripped in parent_ids:
+                    dsw_info = []
+                    for dsw_object in parent_ids[filename_stripped]:
+                        dsw_info.append(
+                            {'name': titles_mapping[dsw_object['parentUuid']], 'parentuuid': dsw_object['parentUuid']})
+                    metadata['dsw'] = dsw_info
+                contents.insert(frontmatter_end, yaml.dump( metadata , default_flow_style=False))
+                with open(os.path.join(subdir, file_name), "w") as f:
+                    contents = "".join(contents)
+                    f.write(contents)

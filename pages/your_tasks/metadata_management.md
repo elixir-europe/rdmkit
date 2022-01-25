@@ -12,6 +12,9 @@ faircookbook:
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/interoperability/creating-minimal-metadata-profiles.html#
 related_pages: 
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
+dsw:
+- name: Do you know how and when you will be collecting the necessary metadata?
+  parentuuid: ed872b74-6bf7-4cba-8f36-4da4509e4a4f
 ---
 
 ## How can you document data during the project?
