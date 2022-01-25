@@ -1,11 +1,13 @@
 title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-# topnav_title:
+topnav_title: ""
 # this appears on the top navigation bar next to the home button
 
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
+
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme
 
 gtag: G-RXQ55EFTTH
 # Google analytics tag
@@ -13,25 +15,6 @@ gtag: G-RXQ55EFTTH
 dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 
-exclude:
-  - .gitignore
-  - CODEOWNERS
-  - var/
-  - README.md
-  - vendor
-  - Gemfile*
-  - LICENSE
-
-markdown: kramdown
-highlighter: rouge
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
-
-sass:
-  sass_dir: assets/css
-  style: compressed
 
 defaults:
   -
@@ -75,7 +58,3 @@ defaults:
     values:
       type: national_resources
       datatable: true
-
-plugins:
-  - jemoji
-  - jekyll-github-metadata
