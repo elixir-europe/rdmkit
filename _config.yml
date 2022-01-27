@@ -7,13 +7,25 @@ topnav_title: ""
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@bugfixes
 
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 
 dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
+
+navbar:
+  theme: dark
+  # Can be light, dark, white, primary, secondary
+
+footer:
+  background: dark
+  # Can be light, dark, white, primary, secondary
+  font: white
+  # Can be light, dark, white, primary, secondary
+
+theme_color: c23669
 
 
 defaults:
