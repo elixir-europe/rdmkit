@@ -22,3 +22,21 @@
   date: 2021-12-14
   linked_pr: 765
   description: A "your domain" page about Bioimaging. [Discover the page here](bioimaging_data).
+- name: "Linking with DSW"
+  date: 2022-01-28
+  linked_pr: 803
+  description: RDMkit will from now on automatically add links to the converge knowledge model on the Data Stewardship Wizard (DSW), where relevant. This is based on existing links towards RDMkit in DSW.
+- name: "New page: National resources Finland"
+  date: 2022-01-24
+  linked_pr: 816
+  description: This page gives an insight in RDM on national level in Finland [Discover the page here](fi_resources)
+- name: "New page: National resources Germany"
+  date: 2022-01-21
+  linked_pr: 812
+  description: This page gives an insight in RDM on national level in Germany [Discover the page here](de_resources)
+- name: "New page: National resources Norway"
+  date: 2022-01-14
+  linked_pr: 792
+  description: This page gives an insight in RDM on national level in Norway [Discover the page here](no_resources)
+
+
