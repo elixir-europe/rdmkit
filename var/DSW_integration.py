@@ -36,10 +36,8 @@ def client(url, payload):
     session.mount('http://', adapter)
     session.mount('https://', adapter)
     r = session.post(url, json=payload)
-    if r.status_code == requests.codes.ok:
-        return r.json()
-    else:
-        r.raise_for_status()
+    r.raise_for_status()
+    return r.json()
 
 
 def fetch_rdmkit_dsw_links(endpoint: str, package: str) -> Dict[str, List[DSWQuestion]]:
