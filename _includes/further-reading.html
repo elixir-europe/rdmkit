@@ -3,7 +3,7 @@
 {%- assign actual_related = 1 %}
 {%- endunless %}
 {%- endfor %}
-{%- if actual_related != blank or page.faircookbook or page.fairsharing or page.training %}
+{%- if actual_related != blank or page.faircookbook or page.fairsharing or page.training or page.dsw %}
 <!-- More information -->
 <h2>More information</h2>
 
@@ -46,7 +46,7 @@
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
                                     {%- if training.registry == "TeSS" %}
-                                    <img alt="TeSS logo" class="img-fluid h-75" src="assets/img/tess_logo.svg">
+                                    <img alt="TeSS logo" class="img-fluid h-40px" src="assets/img/tess_logo.svg">
                                     {%- else %}
                                     <i class="fas fa-external-link-alt text-primary fs-5"></i>
                                     {%- endif %}
@@ -63,7 +63,7 @@
         </div>
     </div>
     {%- endif %}
-    {%- if page.faircookbook or page.fairsharing %}
+    {%- if page.faircookbook or page.fairsharing or page.dsw %}
     <!-- FAIR Cookbook and FAIRsharing -->
     <div class="col">
         <div class="card h-100 info-card bg-light">
@@ -76,7 +76,7 @@
                         <a class="btn bg-white hover-primary text-start" href="{{ recipe.url }}">
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
-                                    <img alt="FAIR Cookbook logo" class="img-fluid h-75" src="assets/img/fairplus.svg">
+                                    <img alt="FAIR Cookbook logo" class="img-fluid h-40px" src="assets/img/fairplus.svg">
                                 </div>
                                 <div class="col-10 d-flex align-items-center">
                                     <span class="text-start">FAIR Cookbook recipe for "{{recipe.name}}"</span>
@@ -86,20 +86,38 @@
                     </li>
                     {%- endfor %}
                     {%- endif %}
-                    <!-- {%- if page.fairsharing %}
+                    {%- if page.dsw %}
+                    {%- for question in page.dsw %}
                     <li class="d-grid">
-                        <a class="btn bg-white hover-primary text-start" href="{{ page.fairsharing }}">
+                        <a class="btn bg-white hover-primary text-start" href="{{ site.dsw_deep_link_prefix | append: question.uuid }}">
                             <div class="row g-1">
                                 <div class="col-2 d-flex align-items-center justify-content-center">
-                                    <img alt="fairsharing logo" class="img-fluid h-75" src="assets/img/FAIRsharing-small.svg">
+                                    <img alt="DSW logo" class="img-fluid h-40px" src="assets/img/dsw-compact.svg">
                                 </div>
                                 <div class="col-10 d-flex align-items-center">
-                                    <span class="text-start">FAIRsharing collection about {{page.title}}</span>
+                                    <span class="text-start">DSW question for "{{question.name}}"</span>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    {%- endif %} -->
+                    {%- endfor %}
+                    {%- endif %}
+                    {%- if page.fairsharing %}
+                    {%- for standard in page.fairsharing %}
+                    <li class="d-grid">
+                        <a class="btn bg-white hover-primary text-start" href="{{ standard.fairsharing }}">
+                            <div class="row g-1">
+                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img alt="fairsharing logo" class="img-fluid h-40px" src="assets/img/FAIRsharing-small.svg">
+                                </div>
+                                <div class="col-10 d-flex align-items-center">
+                                    <span class="text-start">FAIRsharing collection about {{standard.title}}</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    {%- endfor %}
+                    {%- endif %}
                 </ul>
             </div>
         </div>
