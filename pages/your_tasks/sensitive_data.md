@@ -15,17 +15,17 @@ dsw:
   parentuuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
 - name: Are personal data sufficiently protected?
   parentuuid: d5990471-0618-42cd-92cb-bbbfd4f61532
-- name: How is pseudonymization handled?
-  parentuuid: 59748a7b-f729-404d-babe-3147e2c6b247
+- name: Are there privacy reasons why your data can not be open?
+  parentuuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
+- name: Does this dataset contain personal data?
+  parentuuid: a1d76760-053c-4706-80a2-cfb6c6a061f3
 - name: Could the coupling of data create a danger of re-identification of anonymized
     privacy sensitive data?
   parentuuid: 6b3d62a5-1d4d-49e1-aaf1-0a8b398a7ac3
-- name: Does this dataset contain personal data?
-  parentuuid: a1d76760-053c-4706-80a2-cfb6c6a061f3
+- name: How is pseudonymization handled?
+  parentuuid: 59748a7b-f729-404d-babe-3147e2c6b247
 - name: Does this dataset contain sensitive information?
   parentuuid: cc95b399-7d8d-4232-bccf-686f78c91bff
-- name: Are there privacy reasons why your data can not be open?
-  parentuuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
 ---
 
 ## Is your data sensitive?

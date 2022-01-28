@@ -13,8 +13,8 @@ faircookbook:
 related_pages: 
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
 dsw:
-- name: Do you know how and when you will be collecting the necessary metadata?
-  parentuuid: ed872b74-6bf7-4cba-8f36-4da4509e4a4f
+- name: How will you be collecting and keeping your metadata?
+  parentuuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
 ---
 
 ## How can you document data during the project?

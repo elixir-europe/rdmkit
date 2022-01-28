@@ -8,8 +8,6 @@ related_pages:
 dsw:
 - name: Will you be using quality processes?
   parentuuid: ba38b16d-2154-4372-b445-7854a6e90443
-- name: What techniques are you using to ensure data quality and integrity?
-  parentuuid: 59cd7bb6-8b24-4a4b-9baa-e7147807c58d
 - name: Did you consider how to monitor data integrity once it has been collected?
   parentuuid: 02b3fed1-0b50-4a80-b8b6-a225a1107022
 ---
