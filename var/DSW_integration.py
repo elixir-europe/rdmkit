@@ -113,7 +113,7 @@ for subdir, dirs, files in os.walk(rootdir):
                     dsw_info = []
                     for question in parent_ids[filename_stripped]:
                         dsw_info.append(
-                            {'name': question.text, 'parentuuid': question.uuid})
+                            {'name': question.text, 'uuid': question.uuid})
                     metadata['dsw'] = dsw_info
                 contents.insert(frontmatter_end, yaml.dump( metadata , default_flow_style=False))
                 print(f"\tNew frontmatter block inserted in content")

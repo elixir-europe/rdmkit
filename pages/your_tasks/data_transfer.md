@@ -17,9 +17,9 @@ training:
     url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
 dsw:
 - name: How will the raw data be transported?
-  parentuuid: 2e8d6e55-36ea-46eb-a921-65e550bce5dc
+  uuid: 2e8d6e55-36ea-46eb-a921-65e550bce5dc
 - name: How will your first data come in?
-  parentuuid: f4065e54-d27a-45de-be4c-10384feacd0d
+  uuid: f4065e54-d27a-45de-be4c-10384feacd0d
 ---
 
 ## How do you transfer large data files?

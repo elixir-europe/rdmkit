@@ -11,7 +11,7 @@ training:
     url: https://tess.elixir-europe.org/search?q=%22data+reuse%22#materials
 dsw:
 - name: Is there any pre-existing data?
-  parentuuid: efc80cc8-8318-4f8c-acb7-dc1c60e491c1
+  uuid: efc80cc8-8318-4f8c-acb7-dc1c60e491c1
 ---
 
 ## What is data reuse?

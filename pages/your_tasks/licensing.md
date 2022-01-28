@@ -10,7 +10,7 @@ related_pages:
   tool_assembly: []
 dsw:
 - name: Will a license be assigned to your datasets?
-  parentuuid: ae28a862-5020-44c2-8c78-3abc185b190f
+  uuid: ae28a862-5020-44c2-8c78-3abc185b190f
 ---
 
 ## Why should you assign a licence to your research data?

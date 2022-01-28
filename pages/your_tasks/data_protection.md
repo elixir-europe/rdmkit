@@ -12,9 +12,9 @@ training:
     url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:
 - name: Will you collect any data connected to a person, "personal data"?
-  parentuuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
+  uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
 - name: Do you need a Data Protection Impact Assessment?
-  parentuuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
+  uuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
 ---
 
 
