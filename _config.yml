@@ -21,7 +21,8 @@ theme_variables:
   navbar:
     theme: dark
     # Can be light, dark, white, primary, secondary
-
+  sidebar:
+    background_color: light
   footer:
     background_color: dark
     # Can be light, dark, white, primary, secondary

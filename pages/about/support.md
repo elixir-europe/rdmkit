@@ -8,13 +8,13 @@ custom-editme: _data/affiliations.yaml
 
 We thank these institutions for their contribution.
 
-{% include logo-page.html type="institution"%}
+{% include logo-tiles.html type="institution"%}
 
 ## Projects
 
 We thank these projects for their efforts:
 
-{% include logo-page.html type="project"%}
+{% include logo-tiles.html type="project"%}
 
 ## Funders
 
@@ -22,10 +22,10 @@ RDMkit is developed in ELIXIR-CONVERGE that received funding from the European U
 
 Additionally we thank the funders that supported some of our contributors.
 
-{% include logo-page.html type="funder"%}
+{% include logo-tiles.html type="funder"%}
 
 ## Infrastructures
 
 We thank these infrastructures for their efforts:
 
-{% include logo-page.html type="infrastructure"%}
+{% include logo-tiles.html type="infrastructure"%}
