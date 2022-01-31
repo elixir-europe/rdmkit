@@ -43,7 +43,9 @@
             {%- if page.coordinators %}
             {%- for coordinator in page.coordinators %}
             {%- if coordinator == contributor %}
-            <i class="fa fa-crown text-dark"></i>
+            <div class="rounded-circle bg-dark coordinator-badge">
+                <i class="fa fa-crown text-white"></i>
+            </div>
             {%- endif %}
             {%- endfor %}
             {%- endif %}
