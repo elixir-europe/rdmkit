@@ -1,4 +1,4 @@
-name: Converting to yaml + registry lookup
+name: Converting to yaml + registry lookup + countrylist update
 
 on:
   schedule:
@@ -21,11 +21,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests python-frontmatter
       - name: Run tool table 2 yaml
-        run: |
+        run: | 
           python var/conversions.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
       - name: Fetch country names with corresponding iso
         run: |
           python var/country_list.py
+      - name: Update markdown pages with DSW links
+        run: |
+          python var/DSW_integration.py
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request

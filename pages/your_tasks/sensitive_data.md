@@ -10,6 +10,22 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
+dsw:
+- name: Will you collect any data connected to a person, "personal data"?
+  uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
+- name: Are personal data sufficiently protected?
+  uuid: d5990471-0618-42cd-92cb-bbbfd4f61532
+- name: Are there privacy reasons why your data can not be open?
+  uuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
+- name: Does this dataset contain personal data?
+  uuid: a1d76760-053c-4706-80a2-cfb6c6a061f3
+- name: Could the coupling of data create a danger of re-identification of anonymized
+    privacy sensitive data?
+  uuid: 6b3d62a5-1d4d-49e1-aaf1-0a8b398a7ac3
+- name: How is pseudonymization handled?
+  uuid: 59748a7b-f729-404d-babe-3147e2c6b247
+- name: Does this dataset contain sensitive information?
+  uuid: cc95b399-7d8d-4232-bccf-686f78c91bff
 ---
 
 ## Is your data sensitive?

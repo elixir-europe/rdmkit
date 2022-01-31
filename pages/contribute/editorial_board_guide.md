@@ -92,6 +92,8 @@ Optional metadata/frontmatter:
     url: https://fairplus.github.io/the-fair-cookbook/content/recipes/reusability/ATI_licensing_data.html
   ```
 
+* `dsw`: Here all relevant Data Stewardship Wizard questions in the RDMkit knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
+
 * `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
 
 ### Markdown file naming
