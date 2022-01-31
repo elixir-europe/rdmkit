@@ -1,7 +1,7 @@
 title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: ""
+topnav_title: 
 # this appears on the top navigation bar next to the home button
 
 description: "Find the answers to your Research Data Management questions in Life Sciences."
@@ -17,6 +17,7 @@ dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root-r
 
 theme_variables:
   theme_color: c23669
+  # This color used in the metadata of the website
   navbar:
     theme: dark
     # Can be light, dark, white, primary, secondary
