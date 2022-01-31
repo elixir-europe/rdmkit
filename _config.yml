@@ -15,17 +15,20 @@ gtag: G-RXQ55EFTTH
 dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root-rdmkit:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 
-navbar:
-  theme: dark
-  # Can be light, dark, white, primary, secondary
+theme_variables:
+  theme_color: c23669
+  navbar:
+    theme: dark
+    # Can be light, dark, white, primary, secondary
 
-footer:
-  background: dark
-  # Can be light, dark, white, primary, secondary
-  font: white
-  # Can be light, dark, white, primary, secondary
-
-theme_color: c23669
+  footer:
+    background_color: dark
+    # Can be light, dark, white, primary, secondary
+    color: white
+    # Can be light, dark, white, primary, secondary
+  fonts:
+    - https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap
+    - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
 
 
 defaults:
