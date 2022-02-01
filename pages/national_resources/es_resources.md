@@ -12,7 +12,7 @@ training:
     
 resources:
   - name: Red Española de Supercomputación
-    description: Its mission is to offer the resources and services of supercomputing and data management necessary for the development of innovative and high-quality scientific and technological projects, through competitive calls based on the scientific excellence of the projects to be developed.
+    description: The Spanish Supercomputing Network's mission is to offer the resources and services of supercomputing and data management necessary for the development of innovative and high-quality scientific and technological projects, through competitive calls based on the scientific excellence of the projects to be developed.
     how_to_access: 
     related_pages:
       your_role: [researcher, data manager, IT support]
