@@ -39,7 +39,7 @@ resources:
 
 ## Introduction 
 
-This page gives an overview of some of the data management resources in Spain. A guideline on how to prepare a data management plan by the CSIC can be found [here](https://digital.csic.es/dc/politicas/preparacion-planes-gestion-datos.jsp).
+This page gives an overview of some of the data management resources in Spain. A guideline on how to prepare a data management plan by the Spanish National Research Council (CSIC) can be found [here](https://digital.csic.es/dc/politicas/preparacion-planes-gestion-datos.jsp).
 
 ## Relevant initiatives
 
