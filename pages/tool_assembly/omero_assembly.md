@@ -2,8 +2,7 @@
 title: OMERO
 contributors: [Jean-Marie Burel] 
 page_id: ome
-affiliations: [Euro BioImaging]
-audience: [ALL]
+affiliations: [Euro BioImaging]s
 related_pages: 
   your_tasks: [data organisation, storage, data analysis]
   your_domain: [bioimaging data]

@@ -86,7 +86,7 @@
                 {%- endfor %}
                 {%- endif %}
             </div>
-            {%- if current_page.audience or current_page.affiliations %}
+            {%- if current_page.affiliations %}
             {%- assign alllogos = site.data.affiliations %}
             {%- assign allcountries = site.data.countries %}
             <div class="card-footer d-flex align-middle">
@@ -112,33 +112,6 @@
                     {%- elsif filter_affiliation %}
                     {%- for result in filter_affiliation %}
                     <a role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
-                    {%- endfor %}
-                    {%- endif %}
-                    {%- endfor %}
-                </div>
-                {%- endif %}
-                {%- if current_page.audience %}
-                <div>
-                    <span class="me-2"><b><small>Audience:</small></b></span>
-                    {%- for audience in current_page.audience %}
-                    {%- assign filter_audience = alllogos | where: "name", audience %}
-                    {%- if audience.size == 2 %}
-                    {%- assign country = audience | upcase %}
-                    {%- assign country_link = site.pages | where:"country_code",country | first %}
-                    {%- if country_link %}
-                    <a role="button" href="{{country_link.url}}" data-bs-toggle="tooltip" title="{{allcountries[country]}}" class="btn btn-sm bg-white hover-primary"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></a>
-                    {%- else %}
-                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{allcountries[country]}}">
-                        <button class="btn btn-sm text-dark bg-white pe-none" title="{{allcountries[country]}}"><div class="flag-icon flag-icon-{{audience | downcase}} h-30px"></div></button>
-                    </span>
-                    {%- endif %}
-                    {%- elsif audience == "ALL" %}
-                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="All people">
-                        <button class="btn btn-sm text-dark bg-white pe-none" title="ALL"><div class="h-30px">ALL</div></button>
-                    </span>
-                    {%- elsif filter_audience %}
-                    {%- for result in filter_audience %}
-                    <a  role="button" href="{{result.url}}" data-bs-toggle="tooltip" data-bs-original-title="{{affiliation}}" class="btn btn-sm bg-white hover-primary"><img alt="logo of {{result.name}}" src="{{result.image_url | relative_url }}" class="d-inline h-30px"></a>
                     {%- endfor %}
                     {%- endif %}
                     {%- endfor %}
