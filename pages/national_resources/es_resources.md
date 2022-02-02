@@ -1,7 +1,7 @@
 ---
 title: Spain
 country_code: ES
-contributors: [Laura Portell Silva, Salvador Capella-Gutierrez]
+contributors: [Laura Portell Silva, Salvador Capella-Gutierrez, Eva Alloza]
 coordinators: [Salvador Capella-Gutierrez]
 
 training:
