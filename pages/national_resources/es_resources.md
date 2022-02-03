@@ -45,7 +45,7 @@ This page gives an overview of some of the data management resources in Spain. A
 
 - [Aporta](https://datos.gob.es/es/acerca-de-la-iniciativa-aporta): An initiative that aims to harmonize and efficiently take advantage of the synergies between ongoing open data projects. It seeks to always drive and coordinate actions being carried out by different levels of the administration, the private sector and academic field, according to an integrating governance model.
 - [Research Data Alliance (RDA) in Spain](https://www.rd-alliance.org/groups/rda-spain): This is the space dedicated to the activities, news and events of the RDA Spanish Node.
-- [Red de e-ciencia](https://www.e-ciencia.es/): Inclusive initiative that combines efforts, shares information and aims to strengthen the position of Spanish institutions within the framework of the European Open Science Cloud (EOSC).
+- [E-science network](https://www.e-ciencia.es/): Inclusive initiative that combines efforts, shares information and aims to strengthen the position of Spanish institutions within the framework of the European Open Science Cloud (EOSC).
 - [SOMMa Open Science group](https://www.somma.es/research/open-science): SOMMa embraces Open Science to make research more collaborative, reproducible, and accessible, and to engage all levels of an inquiring society.
 
 Aside of the national initiatives, there are also other territorial initiatives that can be found in [this page](https://datos.gob.es/es/iniciativas/categoria/salud-2285/categoria/ciencia-y-tecnologia-2271).
