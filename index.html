@@ -230,9 +230,9 @@ layout: page
   {%- endfor %}
 </div>
 
-{% include events.html %}
+{% include events.html event_type="upcoming_event" title="true" caption="true" %}
 
-{% include news.html front="true" limit=3 %}
+{% include news.html caption="true" title="true" limit=3 %}
 
 <h2 class="mt-5 text-dark">We welcome contributors!</h2>
 <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing community contributors</a>. RDMkit is an open community project, and you are welcome to <a href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
