@@ -1,9 +1,9 @@
 ---
 title: France
 country_code: FR
-search_exclude: true
 contributors: [Olivier Collin]
 coordinators: []
+
 resources:
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs
