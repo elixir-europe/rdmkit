@@ -25,7 +25,7 @@ training:
     registry_url: <!---REPLACE THIS with the url of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-resources: <!---All the resources added here will appear on the table at the bottom of the page--->
+resources:
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
     how_to_access: <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
@@ -35,8 +35,8 @@ resources: <!---All the resources added here will appear on the table at the bot
       your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
       your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
     url:
-
 ---
+<!---All the resources added above will appear on the table at the bottom of the page--->
 
 <!---Following information for the page text--->
 <!---Use this template as guidance, all fields are optional. Feel free to modify any section if you think it is necessary--->
