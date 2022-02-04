@@ -258,7 +258,7 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
   pid: https://ror.org/03xrhmk39
-  rdmkit_about: true
+  expose: true
   type: institution
   url: https://www.psb.ugent.be/
 ```
@@ -266,7 +266,7 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - `name`: name
 - `image_url`: relative url towards the image
 - `pid`: url including the unique identifier towards the page of the association on [ROR](https://ror.org)
-- `rdmkit_about`: true or false, when true this association will be shown in the about section
+- `expose`: true or false, when true this association will be shown in the about section
 - `type`: can be any of these values: *institution*, *funder*, *infrastructure* or *project*
 - `url`: url towards the homepage of this association
 
