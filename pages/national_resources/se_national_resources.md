@@ -6,30 +6,17 @@ country_code: SE
 contributors: [Stephan Nylinder,Yvonne Kallberg]
 coordinators: [Niclas Jareborg,Yvonne Kallberg]
 
-related_pages: 
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Sweden&scientific_topics=Data+management <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
-  - name: ELIXIR NODENAME community in Zenodo
-    registry: Zenodo
-    registry_url: https://zenodo.org
-    url: <!--- https://zenodo.org/communities/elixir NODENAME --->
-  - name: ELIXIR NODENAME YouTube
-    url: <!--- URL of the channel --->
-  - name: <!---REPLACE THIS with the name of your training in registry or platform--->
-    registry: <!---REPLACE THIS with the name of the registry--->
-    registry_url: <!---REPLACE THIS with the url of the registry--->
-    url: <!---REPLACE THIS with the url of your training registry or platform--->
   - name: SciLifeLab Data Management YouTube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS 
   
 
 resources:
- - name: DS-Wizard ELIXIR-SE
+  - name: DS-Wizard ELIXIR-SE
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
     how_to_access: ELIXIR AAI login <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
     instance_of: Data Stewardship Wizard
@@ -43,7 +30,7 @@ resources:
       instance_of: FigShare
       your_tasks: [Existing data, Data publication]
     url: https://scilifelab.figshare.com/
- - name: NBIS Data Management Consultation
+  - name: NBIS Data Management Consultation
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
@@ -51,38 +38,28 @@ resources:
       your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
       your_tasks: [dmp,data publication,sensitive data <!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
     url: https://nbis.se/support/supportform/index.php?form=consultation
- - name: Swedish COVID-19 Data Portal 
-   description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
+  - name: Swedish COVID-19 Data Portal 
+    description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
       tool_assembly: [covid-19 data portal]
       domain: [Human data]
       your_tasks: [Sensitive data, Existing data, Data publication]
     url: https://covid19dataportal.se/ 
- - name: SNIC 
+  - name: SNIC 
     description: The Swedish National Infrastructure for Computing (SNIC) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
     how_to_access: An application is required to gain access to the compute and storage services.
     related_pages:
       your_tasks: [data analysis,storage]
     url: https://www.snic.se/ 
- - name: SciLifeLab Data Guidelines
+  - name: SciLifeLab Data Guidelines
     description: A data type centric resource that provides guidance on good data management practices during the data life cycle, including available infrastructures.
     url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html
- - name: Human Data Guidelines
+  - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
       domain: [<!---? human data?--->]
       your_tasks: [sensitive data]
     url: https://nbis.se/support/human-data.html
-
- - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
-    related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-    url:
 
 ---
 
