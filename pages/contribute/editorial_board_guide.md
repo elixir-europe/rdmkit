@@ -235,7 +235,6 @@ If the markdown page is named example_1.md, you can link towards it using:
 {% include callout.html type="important" content="If you change the file name, you'll have to update all of your links." %}
 
 
-
 ## Adding extra info to the contributors
 
 Do you want that the GitHub picture of a contributor is shown next to their name? Or maybe you want that the name is clickable and links towards the GitHub page of that person? To enable this please add the name and the necessary metadata to the [CONTRIBUTORS.yaml](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml) file in the *_data* directory like this:
