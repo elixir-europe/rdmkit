@@ -10,7 +10,7 @@ training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/events?include_expired=true&node=Sweden&scientific_topics=Data+management <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
+    url: https://tess.elixir-europe.org/events?include_expired=true&node=Sweden&scientific_topics=Data+management
   - name: SciLifeLab Data Management YouTube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS 
   
@@ -18,14 +18,14 @@ training:
 resources:
   - name: DS-Wizard ELIXIR-SE
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
-    how_to_access: ELIXIR AAI login <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
+    how_to_access: ELIXIR AAI login
     instance_of: Data Stewardship Wizard
     related_pages:
       your_tasks: [DMP]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
-    how_to_access: Available to everyone with an affiliation to a Swedish academic institution. <!-- check specifics ---> <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
+    how_to_access: Available to everyone with an affiliation to a Swedish academic institution. 
     related_pages:
       instance_of: FigShare
       your_tasks: [Existing data, Data publication]
@@ -34,9 +34,7 @@ resources:
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
-      domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [dmp,data publication,sensitive data <!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+      your_tasks: [dmp,data publication,sensitive data]
     url: https://nbis.se/support/supportform/index.php?form=consultation
   - name: Swedish COVID-19 Data Portal 
     description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
@@ -57,7 +55,7 @@ resources:
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
-      domain: [<!---? human data?--->]
+      domain: [human data]
       your_tasks: [sensitive data]
     url: https://nbis.se/support/human-data.html
 
