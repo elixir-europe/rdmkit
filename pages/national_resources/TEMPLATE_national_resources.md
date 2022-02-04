@@ -25,7 +25,7 @@ training:
     registry_url: <!---REPLACE THIS with the url of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-resources:
+resources: <!---All the resources added here will appear on the table at the bottom of the page--->
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
     how_to_access: <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
@@ -38,7 +38,8 @@ resources:
 
 ---
 
-<!---Following information for the page text. All fields are optional--->
+<!---Following information for the page text--->
+<!---Use this template as guidance, all fields are optional. Feel free to modify any section if you think it is necessary--->
 <!---If the information is already in another resource, please include the link instead of duplicating information--->
 <!---Please focus on resources that are relevant for the whole country for life sciences--->
 
@@ -48,7 +49,7 @@ resources:
 ## Funders
 
 ## Regulations
-<!--- Ethical and legal regulations in the Country, committes etc --->
+<!--- Ethical and legal regulations in the country, committes etc --->
 
 ## Domain-specific infrastructures or resources 
-<!--- e.g. human data, covid-19 --->
+<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
