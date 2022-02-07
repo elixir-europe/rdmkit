@@ -1,0 +1,95 @@
+/*--------------Custom classes--------------*/
+/* ---------------------------------------- */
+
+/* RDM wheel in sidebar */
+
+.sidebar_rdm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 992px) {
+    .sidebar_rdm {
+        width: 200px;
+    }
+}
+
+li ul .sidebar_rdm_sub {
+    border-color: $light;
+    padding: .75rem .5rem .5rem .5rem;
+    border-radius: 0px 0px $border-radius $border-radius;
+    border-style: none solid solid solid;
+    border-width: 0.2em;
+    margin-top: -.25rem;
+}
+
+
+/* -----Homepage----- */
+
+/* Counters on landing page */
+
+.count-number {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.blurb-title {
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+/* ----- Home dropdown boxes ------ */
+
+h2.card-title {
+    margin: 0 0 0.5rem 0;
+}
+
+/* Arrow in button */
+
+.btn.arrow::after {
+    float: right;
+    width: 15px;
+    text-align: center;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn.arrow:not(.collapsed)::after {
+    transform: rotate(-180deg);
+}
+
+
+// RDM wheel frontpage
+
+.ratio.main_rdm {
+    padding-bottom: 100%;
+}
+
+@media (min-width: 576px) {
+    .ratio.main_rdm {
+        padding-bottom: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ratio.main_rdm {
+        padding-bottom: 35%;
+    }
+}
+
+/*-----Top navigation-----*/
+
+.navbar-nav .nav-item > a.active {
+    color: $white;
+    background-color: $primary;
+    border-radius: $border-radius;
+}

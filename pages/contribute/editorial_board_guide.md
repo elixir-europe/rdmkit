@@ -189,7 +189,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 
 1. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
 
-{% include note.html content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
+{% include callout.html type="note" content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
 
 ### Advanced: working on your own feature branch and pushing local changes
 
@@ -220,7 +220,7 @@ The attributes that define the structure are:
       url: level_2_url
 ```
 
-{% include tip.html content="Copy around existing parts in the yaml file to add pages to the same level" %}
+{% include callout.html type="tip" content="Copy around existing parts in the yaml file to add pages to the same level" %}
 
 ### Link page within existing page
 
@@ -232,8 +232,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 [Example 1](example_1)
 ```
 
-{% include important.html content="If you change the file name, you'll have to update all of your links." %}
-
+{% include callout.html type="important" content="If you change the file name, you'll have to update all of your links." %}
 
 
 ## Adding extra info to the contributors
@@ -248,7 +247,7 @@ Bert Droesbeke:
     role: editor
     affiliation: VIB-UGent
 ```
-{% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
+{% include callout.html type="important" content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
 
 ## Adding an institution, infrastructure, project or funder
@@ -258,7 +257,7 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
   pid: https://ror.org/03xrhmk39
-  rdmkit_about: true
+  expose: true
   type: institution
   url: https://www.psb.ugent.be/
 ```
@@ -266,14 +265,14 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - `name`: name
 - `image_url`: relative url towards the image
 - `pid`: url including the unique identifier towards the page of the association on [ROR](https://ror.org)
-- `rdmkit_about`: true or false, when true this association will be shown in the about section
+- `expose`: true or false, when true this association will be shown in the about section
 - `type`: can be any of these values: *institution*, *funder*, *infrastructure* or *project*
 - `url`: url towards the homepage of this association
 
 
 The logos can be added to the [/images/institutions](https://github.com/elixir-europe/rdmkit/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/rdmkit/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
-{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
+{% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
 ## Related pages
 

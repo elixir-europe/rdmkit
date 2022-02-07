@@ -3,9 +3,6 @@ title: Plant sciences
 contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erwan Le Floch, Daniel Faria]
 related_pages: 
 page_id: plants
-faircookbook:
-- name: VCF specifications for plant genotyping data (under development)
-  url: INSERT LINK
 related_pages: 
   your_tasks: [metadata]
   tool_assembly: [plant geno assembly]

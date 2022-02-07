@@ -166,22 +166,22 @@ You can use Multimarkdown syntax for tables. The following shows a sample:
 
 Change the content attribute in the code snippet to change the text in the message box
 
-{% include note.html content="This is my note." %}
+{% include callout.html type="note" content="This is my note." %}
 
-{% include tip.html content="This is my tip." %}
+{% include callout.html type="tip" content="This is my tip." %}
 
-{% include warning.html content="This is my warning." %}
+{% include callout.html type="warning" content="This is my warning." %}
 
-{% include important.html content="This is my important info." %}
+{% include callout.html type="important" content="This is my important info." %}
 
 
 This is done by using this snippet:
 {% raw %}
 ```
-{% include note.html content="This is my note." %}
+{% include callout.html type="note" content="This is my note." %}
 ```
 {% endraw %}
-note.html can be replaced with tip.html, warning.html, important.html, depending on the type of message you want. 
+note can be replaced with tip, warning, important, depending on the type of message you want. 
 
 ## Images
 
