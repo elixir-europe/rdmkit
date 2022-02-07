@@ -10,6 +10,13 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+storage%22#materials
+dsw:
+- name: Data storage systems and file naming conventions
+  uuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
+- name: How long will this data set be kept?
+  uuid: d4e6a244-07fb-4573-b93f-c20a9409ac7c
+- name: Will you be storing data in an "object store" system?
+  uuid: dc39957e-688a-4f71-a6a8-57f52509e7cf
 ---
 
 ## What features do you need in a storage solution when collecting data?
@@ -47,8 +54,6 @@ When looking for solutions to store your data during the collection or generatio
 *  It is a requirement from the funders or universities to store raw data and data analysis workflows (for reproducible results) for a certain amount of time after the end of the project (see our Preserve page). This is usually a requirement. Check the data policy for your project or institute to know if a copy of the data should be also stored at your institute for a specific time after the project. This helps you budget for storage costs and helps your IT support with estimation of storage resources needed.
 * Make sure to generate good documentation (i.e., README file) and metadata together with the data. Follow best practices for folder structure, file naming and versioning systems (see our Data Organisation page). Check if your institute provides a (meta)data management system, such as iRODS, DataVerse, FAIRDOM-SEEK or OSF. See All tools and resources table below for additional tools.
 
-### Planning your data storage solution
-You can plan your data storage, including the above considerations and solutions, using the [Data Stewardship Wizard]({{ site.dsw_deep_link_prefix }}a12aa967-28a5-4a9b-8df8-f7c533205ea4). This link provides access directly to the appropriate section of the Data Management Plan questionnaire.
 
 ## How do you estimate computational resources for data processing and analysis?
 ### Description

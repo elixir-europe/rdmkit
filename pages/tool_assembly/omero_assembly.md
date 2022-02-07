@@ -6,7 +6,7 @@ affiliations: [Euro BioImaging]
 audience: [ALL]
 related_pages: 
   your_tasks: [data organisation, storage, data analysis]
-  your_domain: []
+  your_domain: [bioimaging data]
 description: OMERO is a software platform for managing, sharing and analysing images data.
 training:
   - name: General information about the OME ecosystem 

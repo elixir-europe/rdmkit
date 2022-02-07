@@ -8,11 +8,11 @@ subitems:
     subitems:
       - title: Researcher
         url: /researcher.html
-      - title: Data steward policy
+      - title: "Data Steward: policy"
         url: /data_steward_policy.html
-      - title: Data steward research
+      - title: "Data Steward: research"
         url: /data_steward_research.html
-      - title: Data steward infrastructure
+      - title: "Data Steward: infrastructure"
         url: /data_steward_infrastructure.html
   - title: Your domain
     description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.

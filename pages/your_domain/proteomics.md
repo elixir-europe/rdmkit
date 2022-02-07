@@ -4,6 +4,7 @@ contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrik
 page_id: proteomics
 related_pages: 
   your_tasks: [metadata]
+  tool_assembly: []
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -57,6 +58,7 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 ### Solutions
 - Within the proteomics community various converter software tools such as [msconvert](https://proteowizard.sourceforge.io/tools.shtml) were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
 - Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ).
+
 
 
 ## Preserving and sharing proteomics data

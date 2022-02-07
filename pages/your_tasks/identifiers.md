@@ -4,6 +4,10 @@ contributors: [Markus Englund, Flavio Licciulli, Nick Juty, Olivier Collin, Ulri
 description: how to use identifiers for research data.
 page_id: identifiers
 related_pages: 
+    tool_assembly: []
+dsw:
+- name: Will this data be assigned a persistent identifier?
+  uuid: d21fdb06-22bf-418e-aa40-dc5ef1485f56
 ---
 
 ## Which types of identifiers can you use during data collection?

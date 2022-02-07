@@ -4,6 +4,8 @@ search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: struct info
 related_pages: 
+  your_tasks: []
+  tool_assembly: []
 ---
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.

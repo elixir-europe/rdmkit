@@ -10,6 +10,11 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
+dsw:
+- name: Did you choose the workflow engine you will be using?
+  uuid: a1c37c05-57ff-499c-b58c-e90f511241fa
+- name: How will you make sure to know what exactly has been run?
+  uuid: 1991077f-04ae-4808-90a5-e4b2f82e30bf
 ---
 
 ## What are the best practices for data analysis?

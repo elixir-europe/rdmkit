@@ -11,7 +11,7 @@ ArrayExpress,https://www.ebi.ac.uk/arrayexpress/,A repository of array based gen
 Arvados,https://arvados.org,"With Arvados, bioinformaticians run and scale compute-intensive workflows, developers create biomedical applications, and IT administrators manage large compute and storage resources.",,"IT support, policy officer, researcher, data analysis"
 Aspera Fasp,https://www.ibm.com/products/aspera,"With fast file transfer and streaming solutions built on the award-winning IBM FASP protocol, IBM Aspera software moves data of any size across any distance",,"transfer, IT support"
 ATCC,https://www.lgcstandards-atcc.org/en.aspx#,"Biological materials resource including cell-lines, strains and genomics tools",,micro biotech
-Atlas,https://github.com/OHDSI/Atlas/wiki,"Free, publicly available web-based, open-source software application developed by the OHDSI community to support the design and execution of observational analyses to generate real world evidence from patient level observational data.",,"data manager, researcher, transmed"
+Atlas,https://github.com/OHDSI/Atlas/wiki,"Free, publicly available web-based, open-source software application developed by the OHDSI community to support the design and execution of observational analyses to generate real world evidence from patient level observational data.",fairsharing:NA,"data manager, researcher, transmed"
 b2share,https://b2share.eudat.eu/,Store and publish your research data. Can be used to bridge between domains,,"storage, data publication,bioimaging data"
 BacDive,https://bacdive.dsmz.de,A searchable database for bacteria specific information,,micro biotech
 Bacillus Genetic Stock Center (BGSC),http://www.bgsc.org/,A repository specific to Bacillus strains,biotools:NA,micro biotech
@@ -64,6 +64,7 @@ COVID-19 Molecular Structure and Therapeutics Hub,https://covid.bioexcel.eu/,COV
 Create a Codebook,https://ddialliance.org/training/getting-started-new-content/create-a-codebook,Examples and tools to create a codebook by the Data Documentation Initiative (DDI),,"metadata, researcher, data manager"
 Creative Commons License Chooser,https://creativecommons.org/choose/,It helps you choose the right Creative Commons license for your needs.,,"licensing, researcher, data manager, policy officer"
 Crop Ontology,https://www.cropontology.org,"The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.",fairsharing:wgfrmg,"researcher, data manager, IT support, plants"
+Crypt4GH,https://crypt4gh.readthedocs.io/en/latest/,"A Python tool to encrypt, decrypt or re-encrypt files, according to the GA4GH encryption file format.",,human data
 CS3,https://www.cs3community.org/,Cloud Storage Services for Synchronization and Sharing (CS3),,storage
 CTD,http://ctdbase.org/,A database that aims to advance understanding about how environmental exposures affect human health.,biotools:ctd,toxicology data
 cURL,https://curl.se,command line tool and library for transferring data with URLs,,"transfer, IT support"
@@ -129,8 +130,8 @@ FileZilla,https://filezilla-project.org,A free FTP solution,,"transfer, IT suppo
 Free-IPA,https://www.freeipa.org/,FreeIPA is an integrated Identity and Authentication solution for Linux/UNIX networked environments.,,"IT support, transmed"
 Freegenes,https://stanford.freegenes.org/collections/open-genes,Repository of IP-free synthetic biological parts,,micro biotech
 GA4GH Data Security Toolkit,https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/,Principled and practical framework for the responsible sharing of genomic and health-related data.,,"data publication, policy officer, data manager, IT support, human data, sensitive"
-GA4GH Regulatory and Ethics toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,Framework for Responsible Sharing of Genomic and Health-Related Data,,"data protection, sensitive, policy officer, data manager, IT support, human data"
 GA4GH Genomic Data Toolkit,https://www.ga4gh.org/genomic-data-toolkit/,Open standards for genomic data sharing.,,"data manager, IT support, human data"
+GA4GH Regulatory and Ethics toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,Framework for Responsible Sharing of Genomic and Health-Related Data,,"data protection, sensitive, policy officer, data manager, IT support, human data"
 Galaxy,https://galaxyproject.org/,"Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.",biotools:galaxy,"NeLS, marine assembly, data analysis, researcher, IT support, IFB"
 GenBank,https://www.ncbi.nlm.nih.gov/genbank/,A database of genetic sequence information. GenBank may also refer to the data format used for storing information around genetic sequence data.,,micro biotech
 Gene Expression Omnibus (GEO),https://www.ncbi.nlm.nih.gov/geo/,A repository of MIAME-compliant genomics data from arrays and high-throughput sequencing,,micro biotech
@@ -146,7 +147,7 @@ Google Dataset Search,https://datasetsearch.research.google.com/,Search engine f
 Google Drive,https://www.google.com/intl/en_us/drive/,Cloud Storage for Work and Home,,"storage, transfer"
 GPCRmd,http://gpcrmd.org/,Repository of GPCR protein simulations,biotools:GPCRmd,biomol sim
 GRAPE 2.0,https://github.com/guigolab/grape-nf,"The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses. It allows the creation of an automated and integrated workflow to manage, analyse and visualize RNA-Seq data.",biotools:grape_2.0,data analysis
-Harvard Medical School – ELN Comparison Grid,https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks,ELN Comparison Grid by Hardvard Medical School,,"metadata, identifiers, researcher, data manager"
+Harvard Medical School - ELN Comparison Grid,https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks,ELN Comparison Grid by Hardvard Medical School,,"metadata, identifiers, researcher, data manager"
 Haz-Map,https://haz-map.com/,Haz-Map is an occupational health database that makes available information about the adverse effects of exposures to chemical and biological agents at the workplace. These associations have been established using current scientific evidence.,,toxicology data
 How to License Research Data - DCC,https://www.dcc.ac.uk/guidance/how-guides/license-research-data,Guidelines about how to license research data from Digital Curation Centre,,"licensing, researcher, data manager, policy officer"
 Human Protein Atlas,https://www.proteinatlas.org/,The Human Protein Atlas contains information for a large majority of all human protein-coding genes regarding the expression and localization of the corresponding proteins based on both RNA and protein data.,fairsharing:j0t0pe,proteomics

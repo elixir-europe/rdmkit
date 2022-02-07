@@ -188,6 +188,7 @@ Anne-Françoise Adam-Blondon:
     affiliation: INRAE / ELIXIR-FR
 Nazeefa Fatima:
     git: Nazeeefa
+    role: editor
 Ernesto Picardi:
     email: ernesto.picardi@uniba.it
     orcid: 0000-0002-6549-0114
@@ -303,3 +304,6 @@ Susanne Kunis:
     email: sukunis@uos.de
     git: sukunis
     affiliation: German BioImaging | University Osnabrück
+Eva Alloza:
+    email: eva.alloza@bsc.es
+    git: EvaAlloza

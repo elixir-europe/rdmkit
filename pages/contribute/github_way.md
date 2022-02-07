@@ -17,7 +17,7 @@ This guide tells you how you can easily request and edit a page on this website.
 1. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers in the "Leave a comment" box and click on the green "Comment" button on the right.
 1. You can always return to your opened issue by going to the [issues section](https://github.com/elixir-europe/rdmkit/issues) of our GitHub repo.
 
-{% include tip.html content="You can also get to the [RDMkit pages](https://github.com/elixir-europe/rdmkit) on GitHub using the 'GitHub' link in the header of this site" %}
+{% include callout.html type="tip" content="You can also get to the [RDMkit pages](https://github.com/elixir-europe/rdmkit) on GitHub using the 'GitHub' link in the header of this site" %}
 
 ## Write your content and make a pull request
 
@@ -49,7 +49,7 @@ This guide tells you how you can easily request and edit a page on this website.
     * Make your changes.
     * Click on “Commit changes”.
 
-{% include note.html content="Anyone can comment on your issue or pull request and you can reply. For more information on this, please visit the [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)" %}
+{% include callout.html type="note" content="Anyone can comment on your issue or pull request and you can reply. For more information on this, please visit the [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)" %}
 
 ## Request a review
 

@@ -6,13 +6,13 @@ contributors: [Flora D'Anna]
 coordinators: [Flora D'Anna]
 
 related_pages: 
-  tool_assembly: [plant geno assembly]
+  tool_assembly: []
 
 training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=Belgium
+    url: https://tess.elixir-europe.org/materials?node=Belgium
   - name: ELIXIR Belgium community in Zenodo
     registry: Zenodo
     registry_url: https://zenodo.org
@@ -102,7 +102,7 @@ Details about national guidelines, tools and resources can be found at [RDM Guid
 * [Research Foundation - Flanders (FWO)](https://www.fwo.be/en/).
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
-* Special Research Fund (BOF) from Univeristies.
+* Special Research Fund (BOF) from Universities.
 
 
 <!---## Regulations--->
