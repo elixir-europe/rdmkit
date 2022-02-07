@@ -129,7 +129,7 @@ Here are described the mandatory, recommended and optional metadata fields for d
 
 #### Checklists, ontologies and file formats
 * Sharing plant genotyping data files involves the use of the Variant Call Format (VCF) standard.  
-* Findability and reusability of VCF files depends on the supplied metadata and in particular with MIAPPE compliant biological material description: the [plant VCF metadata FAIR Cookbook (under development)](INSERT LINK) helps you on that topic.
+* Findability and reusability of VCF files depends on the supplied metadata and in particular with MIAPPE compliant biological material description: the plant VCF metadata FAIR Cookbook (under development) helps you on that topic.
 
 #### Data sharing and publication
 * Once the VCF file is ready with all necessary metadata, it can be submitted to the European Variation Archive (EVA). You will find all necessary information on the submission steps on the [EVA submission page](https://www.ebi.ac.uk/eva/?Submit-Data).
