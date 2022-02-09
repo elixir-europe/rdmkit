@@ -27,6 +27,7 @@ CODE_OF_CONDUCT.md       @frederikcoppens @CaroleGoble
 
 #Theme
 /assets       @martin-nc @bedroesb
+/_sass       @martin-nc @bedroesb
 
 # Sidebar
 /_data/sidebars/*      @bedroesb
