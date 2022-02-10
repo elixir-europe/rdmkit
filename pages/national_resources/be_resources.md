@@ -100,6 +100,7 @@ Details about national guidelines, tools and resources can be found at [RDM Guid
 
 ## Funders
 * [Research Foundation - Flanders (FWO)](https://www.fwo.be/en/).
+  * [FWO Research policy](https://www.fwo.be/en/the-fwo/research-policy/).
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
 * Special Research Fund (BOF) from Universities.
