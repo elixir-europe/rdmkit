@@ -98,12 +98,13 @@ resources:
 An overview of data management services provided by ELIXIR Belgium can be found on the [ELIXIR Belgium website](https://www.elixir-belgium.org).
 Details about national guidelines, tools and resources can be found at [RDM Guide](https://rdm.elixir-belgium.org).
 
-## Funders
+## Funders and assistance
 * [Research Foundation - Flanders (FWO)](https://www.fwo.be/en/).
   * [FWO Research policy](https://www.fwo.be/en/the-fwo/research-policy/).
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
 * Special Research Fund (BOF) from Universities.
+* [National Contact Points (NCPs)](https://ncpfederal.belspo.be/contact_NCPbelgium_en.stm) for help with navigating the EU funding system.
 
 
 <!---## Regulations--->
