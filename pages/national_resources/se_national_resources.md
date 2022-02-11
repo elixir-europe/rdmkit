@@ -2,8 +2,8 @@
 
 title: Sweden
 country_code: SE
-contributors: [Stephan Nylinder,Yvonne Kallberg]
-coordinators: [Niclas Jareborg,Yvonne Kallberg]
+contributors: [Stephan Nylinder, Yvonne Kallberg]
+coordinators: [Niclas Jareborg, Yvonne Kallberg]
 
 training:
   - name: Training in TeSS
@@ -26,26 +26,26 @@ resources:
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
       instance_of: FigShare
-      your_tasks: [existing data,data publication]
+      your_tasks: [existing data, data publication]
     url: https://scilifelab.figshare.com/
   - name: NBIS Data Management Consultation
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
-      your_tasks: [DMP,data publication,sensitive data]
+      your_tasks: [DMP, data publication, sensitive data]
     url: https://nbis.se/support/supportform/index.php?form=consultation
   - name: Swedish COVID-19 Data Portal
     description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
-      tool_assembly: [covid-19 data portal]
-      domain: [Human data]
-      your_tasks: [sensitive data,existing data,data publication]
+      tool_assembly: [Covid-19]
+      domain: [human data]
+      your_tasks: [sensitive data, existing data, data publication]
     url: https://covid19dataportal.se/ 
   - name: SNIC 
     description: The Swedish National Infrastructure for Computing (SNIC) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
     how_to_access: An application is required to gain access to the compute and storage services.
     related_pages:
-      your_tasks: [data analysis,storage]
+      your_tasks: [data analysis, storage]
     url: https://www.snic.se/ 
   - name: SciLifeLab Data Guidelines
     description: A data type centric resource that provides guidance on good data management practices during the data life cycle, including available infrastructures.
