@@ -39,7 +39,7 @@ resources:
     related_pages:
       tool_assembly: [Covid-19]
       domain: [human data]
-      your_tasks: [sensitive data, existing data, data publication]
+      your_tasks: [sensitive, existing data, data publication]
     url: https://covid19dataportal.se/ 
   - name: SNIC 
     description: The Swedish National Infrastructure for Computing (SNIC) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
@@ -54,7 +54,7 @@ resources:
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
       domain: [human data]
-      your_tasks: [sensitive data]
+      your_tasks: [sensitive]
     url: https://nbis.se/support/human-data.html
 
 ---
