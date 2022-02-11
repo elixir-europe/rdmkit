@@ -1,7 +1,6 @@
 ---
 
 title: Sweden
-search_exclude: true
 country_code: SE
 contributors: [Stephan Nylinder,Yvonne Kallberg]
 coordinators: [Niclas Jareborg,Yvonne Kallberg]
