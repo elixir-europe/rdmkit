@@ -24,8 +24,8 @@ resources:
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
+    instance_of: FigShare
     related_pages:
-      instance_of: FigShare
       your_tasks: [existing data, data publication]
     url: https://scilifelab.figshare.com/
   - name: NBIS Data Management Consultation
@@ -56,7 +56,7 @@ resources:
       your_domain: [human data]
       your_tasks: [sensitive]
     url: https://nbis.se/support/human-data.html
-
+    
 ---
 
 ## Introduction 
