@@ -38,7 +38,7 @@ resources:
     description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
       tool_assembly: [Covid-19]
-      domain: [human data]
+      your_domain: [human data]
       your_tasks: [sensitive, existing data, data publication]
     url: https://covid19dataportal.se/ 
   - name: SNIC 
@@ -53,7 +53,7 @@ resources:
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
-      domain: [human data]
+      your_domain: [human data]
       your_tasks: [sensitive]
     url: https://nbis.se/support/human-data.html
 
