@@ -104,6 +104,7 @@ Details about national guidelines, tools and resources can be found at [RDM Guid
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
 * Special Research Fund (BOF) from Universities.
+* EU-Team and/or Research support team from Universities.
 * [National Contact Points (NCPs)](https://ncpfederal.belspo.be/contact_NCPbelgium_en.stm) for help with navigating the EU funding system.
 
 
