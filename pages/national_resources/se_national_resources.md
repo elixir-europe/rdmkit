@@ -32,7 +32,7 @@ resources:
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
-      your_tasks: [DMP, data publication, sensitive data]
+      your_tasks: [DMP, data publication, sensitive]
     url: https://nbis.se/support/supportform/index.php?form=consultation
   - name: Swedish COVID-19 Data Portal
     description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
