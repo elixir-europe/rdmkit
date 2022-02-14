@@ -299,6 +299,8 @@ Tools:
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
+  registry:
+    fairsharing: fc3431
   related_pages:
   - data organisation
   - data manager
@@ -1245,6 +1247,7 @@ Tools:
   link: https://github.com
   name: GitHub
   registry:
+    fairsharing: c55d5e
     fairsharing-coll: bsg-d001160
     tess: GitHub
   related_pages:
@@ -1258,6 +1261,7 @@ Tools:
   link: https://gitlab.com/gitlab-org/gitlab
   name: GitLab
   registry:
+    fairsharing: 530e61
     tess: GitLab
   related_pages:
   - data organisation
@@ -1455,6 +1459,8 @@ Tools:
 - description: Intrinsically disordered proteins ontology
   link: https://disprot.org/about
   name: Intrinsically disordered proteins ontology (IDPO)
+  registry:
+    biotools: idpo
   related_pages:
   - IDP
   - metadata
@@ -1981,6 +1987,7 @@ Tools:
   name: Orphadata
   registry:
     biotools: orphadata
+    fairsharing: d1a667
     fairsharing-coll: bsg-d001249
 - description: OSF (Open Science Framework) is a free, open platform to support your
     research and enable collaboration.
@@ -2130,6 +2137,8 @@ Tools:
     exchange and verification.
   link: https://www.psidev.info/
   name: Proteomics Standards Initiative
+  registry:
+    fairsharing: 46e1e9
   related_pages:
   - proteomics
 - description: A secure platform for developing and sharing reproducible methods.
