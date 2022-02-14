@@ -1,6 +1,5 @@
 ---
 title: Editorial board
-sidebar: about
 ---
 
 ## Meet the editorial board members

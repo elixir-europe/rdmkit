@@ -1,6 +1,5 @@
 ---
 title: News
-sidebar: about
 toc: false
 ---
 

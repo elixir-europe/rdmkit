@@ -1,6 +1,5 @@
 ---
 title: Support
-sidebar: about
 custom-editme: _data/affiliations.yaml
 ---
 
