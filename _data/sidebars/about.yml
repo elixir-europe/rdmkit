@@ -1,4 +1,6 @@
 subitems:
+  - title: Overview
+    url: /about.html
   - title: Community
     subitems:
       - title: Contributors
@@ -8,7 +10,7 @@ subitems:
       - title: Support
         url: /support.html
   - title: Contact
-    url: contact.html
+    url: /contact.html
   - title: News
     url: /news.html
   - title: Events

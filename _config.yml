@@ -29,8 +29,7 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      sidebar: main
-      topnav: topnav
+      sidebar: data_management
       search_exclude: false
   -
     scope:

@@ -1,4 +1,6 @@
 subitems:
+  - title: Overview
+    url: /how_to_contribute.html
   - title: Ways to contribute
     subitems:
       - title: GitHub way
