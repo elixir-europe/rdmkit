@@ -35,8 +35,8 @@ resources:
   related_pages:
     tool_assembly: []
     domain: []
-    your_role: [researcher, data manager, data steward]
-    your_tasks: [data management, storage]
+    your_role: [researcher, data manager]
+    your_tasks: [storage]
   url: https://dmportal.biodata.pt/
 - name: BioData.pt Data Stewardship Wizard
   description: Local instance of Data Stewardship Wizard. You can use this tool to create your own Data Management Plans.
@@ -45,9 +45,19 @@ resources:
   related_pages:
     tool_assembly: []
     domain: []
-    your_role: [researcher, data manager, data steward]
-    your_tasks: [data management, data management plans]
+    your_role: [researcher, data manager]
+    your_tasks: [DMP]
   url: https://biodata-pt.ds-wizard.org/
+- name: Ready for BioData Management
+  description: Capacity building program in data management for the life sciences to empower researchers and institutions in managing their data more effectively and efficiently.
+  instance_of: Data Stewardship Wizard
+  how_to_access: 
+  related_pages:
+    tool_assembly: []
+    domain: []
+    your_role: [researcher]
+    your_tasks: [DMP]
+  url: http://ready4biodatamanagement.biodata.pt/
 ---
 
 ## Introduction 
