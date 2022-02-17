@@ -1,6 +1,7 @@
 ---
 title: Structural Bioinformatics
 contributors: [Gerardo Tauriello, Ian Sillitoe, Nicola Bordin, Christine Orengo, Mihaly Varadi, Sameer Velankar, Jiří Černý]
+coordinators: [Gerardo Tauriello]
 page_id: struct bioinfo
 related_pages: 
   your_tasks: []
