@@ -9,6 +9,12 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+process%22#materials
+dsw:
+- name: List the data formats you will be using for interpretation and describe their
+    structure
+  uuid: a797cab9-0829-4787-a096-1b5cedc9147f
+- name: How will you work with your data?
+  uuid: df36fb68-131c-4f31-a42b-684abf523bbc
 ---
 
 ## What is data processing?
