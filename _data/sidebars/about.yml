@@ -1,6 +1,5 @@
+title: About
 subitems:
-  - title: Overview
-    url: /about.html
   - title: Community
     subitems:
       - title: Contributors
