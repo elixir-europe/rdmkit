@@ -4,7 +4,6 @@ contributors: [Nazeefa Fatima, Espen Åberg, Nils P Willassen]
 description: The Marine Metagenomics tool assembly aims to provide a comprehensive data management toolkit of marine genomics researchers in Norway.
 page_id: marine assembly
 affiliations: [ELIXIR Europe, "NO"]
-audience: ["NO"]
 related_pages:
   your_tasks: [DMP, existing data, data organisation ,storage, data publication, data transfer, metadata, data analysis]
   your_domain: [marine]

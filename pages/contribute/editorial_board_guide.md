@@ -55,8 +55,6 @@ Optional metadata/frontmatter:
 
 * `affiliations`: List here all affiliations that made this page possible. This is especially used for tool assembly pages. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work.
 
-* `audience`: List here the audiences of this page. This is especially used for tool assembly pages. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work. "ALL" can be used if the tools and infrastructure this page talks about are accessible for everyone in the world.
-
 * `page_id`: Unique identifier of a page. It is usually a shortened version of the page name or title, with small letters and spaces, or an acronym, with capital and small letters. Used to list Related pages.
 
 * `related_pages`: List here the page_id of RDMkit pages that you want to display as Related pages, grouped by section (Your tasks, Your domain, Tool assembly).
@@ -252,7 +250,7 @@ Bert Droesbeke:
 
 ## Adding an institution, infrastructure, project or funder
 
-Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations and audience in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg

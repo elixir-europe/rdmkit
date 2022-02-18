@@ -133,6 +133,7 @@ pages_metadata = {}
 for subdir, dirs, files in os.walk(rootdir):
     for file_name in files:
         if os.path.splitext(file_name)[1] == '.md':
+            print(f"Opening {os.path.splitext(file_name)[0]}")
             with open(os.path.join(subdir, file_name)) as f:
                 metadata, content = frontmatter.parse(f.read())
             if 'page_id' in metadata.keys() and 'search_exclude' not in metadata.keys():
