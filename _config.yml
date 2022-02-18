@@ -8,6 +8,7 @@ description: "Find the answers to your Research Data Management questions in Lif
 # Metadata description of the website
 
 remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@sidebar-memory
+
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 

@@ -1,4 +1,10 @@
 Tools:
+- description: Network providing unified programmatic access to experimentally determined
+    and predicted structure models
+  link: https://3d-beacons.org
+  name: 3D-Beacons
+  related_pages:
+  - struct bioinfo
 - description: A standard schema for primary biodiversity data
   link: https://www.tdwg.org/standards/abcd/
   name: Access to Biological Collection Data Schema (ABCD)
@@ -274,6 +280,15 @@ Tools:
   - metadata
   - plants
   - plant geno assembly
+- description: Bioschemas aims to improve the Findability on the Web of life sciences
+    resources such as datasets, software, and training materials
+  link: https://bioschemas.org
+  name: Bioschemas.org
+  registry:
+    tess: Bioschemas.org
+  related_pages:
+  - machine actionability
+  - IT support
 - description: A database hosting datasets from biological studies. Useful for storing
     or accessing data that is not compliant for mainstream repositories.
   link: https://www.ebi.ac.uk/biostudies/
@@ -299,6 +314,8 @@ Tools:
 - description: Git based code hosting and collaboration tool, built for teams.
   link: https://bitbucket.org/
   name: Bitbucket
+  registry:
+    fairsharing: fc3431
   related_pages:
   - data organisation
   - data manager
@@ -368,6 +385,15 @@ Tools:
   related_pages:
   - data analysis
   - proteomics
+- description: Continuous evaluation of the accuracy and reliability of protein structure
+    prediction methods in a fully automated manner
+  link: https://cameo3d.org
+  name: CAMEO
+  registry:
+    biotools: cameo
+    fairsharing: dq34p2
+  related_pages:
+  - struct bioinfo
 - description: Cancer Genome Interpreter (CGI) is designed to support the identification
     of tumor alterations that drive the disease and detect those that may be therapeutically
     actionable.
@@ -378,6 +404,12 @@ Tools:
   related_pages:
   - data analysis
   - human data
+- description: Critical assessment of structure prediction methods for protein-protein
+    interactions
+  link: https://www.ebi.ac.uk/pdbe/complex-pred/capri/
+  name: CAPRI
+  related_pages:
+  - struct bioinfo
 - description: The CAS Registry (Chemical Abstracts Service Registry) includes more
     than 188 million unique chemicals. CAS Registry Numbers are broadly used as a
     unique identifier for chemical substances. The Registry is maintained by CAS,
@@ -388,6 +420,13 @@ Tools:
     fairsharing: r7Kwy7
   related_pages:
   - toxicology data
+- description: Biennial critical assessment of techniques for protein structure prediction
+  link: https://predictioncenter.org
+  name: CASP
+  registry:
+    biotools: casp
+  related_pages:
+  - struct bioinfo
 - description: Castor is an EDC system for researchers and institutions. With Castor,
     you can create and customize your own database in no time. Without any prior technical
     knowledge, you can build a study in just a few clicks using our intuitive Form
@@ -409,6 +448,18 @@ Tools:
     biotools: cath
     fairsharing: xgcyyn
     tess: CATH
+- description: CEDAR is making data submission smarter and faster, so that scientific
+    researchers and analysts can create and use better metadata.
+  link: https://metadatacenter.org
+  name: CEDAR
+  registry:
+    biotools: cedar
+    fairsharing: pmygc7
+  related_pages:
+  - metadata
+  - machine actionability
+  - researcher
+  - data manager
 - description: A version management tool for modifying strains
   link: https://cellrepo.herokuapp.com/
   name: CellRepo
@@ -531,6 +582,7 @@ Tools:
   - metadata
   - researcher
   - plants
+  - machine actionability
 - description: COVID-19 Molecular Structure and Therapeutics Hub
   link: https://covid.bioexcel.eu/
   name: COVID-19 Molecular Structure and Therapeutics Hub
@@ -618,6 +670,13 @@ Tools:
   related_pages:
   - metadata
   - transmed
+- description: DCAT is an RDF vocabulary designed to facilitate interoperability between
+    data catalogs published on the Web.
+  link: https://www.w3.org/TR/vocab-dcat-2/
+  name: Data Catalog Vocabulary (DCAT)
+  related_pages:
+  - machine actionability
+  - IT support
 - description: List of metadata standards
   link: https://www.dcc.ac.uk/guidance/standards/metadata/list
   name: Data Curation Centre Metadata list
@@ -1088,6 +1147,7 @@ Tools:
   - NeLS
   - micro biotech
   - IFB
+  - machine actionability
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
   link: https://fairdomhub.org
@@ -1100,6 +1160,7 @@ Tools:
   - NeLS
   - metadata
   - micro biotech
+  - machine actionability
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
   link: https://fairsharing.org/
@@ -1245,6 +1306,7 @@ Tools:
   link: https://github.com
   name: GitHub
   registry:
+    fairsharing: c55d5e
     fairsharing-coll: bsg-d001160
     tess: GitHub
   related_pages:
@@ -1258,6 +1320,7 @@ Tools:
   link: https://gitlab.com/gitlab-org/gitlab
   name: GitLab
   registry:
+    fairsharing: 530e61
     tess: GitLab
   related_pages:
   - data organisation
@@ -1455,6 +1518,8 @@ Tools:
 - description: Intrinsically disordered proteins ontology
   link: https://disprot.org/about
   name: Intrinsically disordered proteins ontology (IDPO)
+  registry:
+    biotools: idpo
   related_pages:
   - IDP
   - metadata
@@ -1489,6 +1554,7 @@ Tools:
   - IT support
   - data manager
   - micro biotech
+  - machine actionability
 - description: Open source software library that can be used to generate a ISA-TAB
     export from in-house data sets. These comprises e.g. local database or local file
     system based experimental.
@@ -1498,6 +1564,7 @@ Tools:
     biotools: isa4j
   related_pages:
   - plants
+  - machine actionability
 - description: International information security standard
   link: https://en.wikipedia.org/wiki/ISO/IEC_27001
   name: ISO/IEC 27001
@@ -1734,13 +1801,15 @@ Tools:
   name: MoDEL-CNS
   related_pages:
   - biomol sim
-- description: Repository for molecular models - providing doi of models
+- description: Repository for theoretical models of macromolecular structures with
+    DOIs for models
   link: https://www.modelarchive.org/
   name: ModelArchive
   registry:
     fairsharing: tpqndj
   related_pages:
   - biomol sim
+  - struct bioinfo
 - description: Molgenis is a modular web application for scientific data. Molgenis
     provides researchers with user friendly and scalable software infrastructures
     to capture, exchange, and exploit the large amounts of data that is being produced
@@ -1981,6 +2050,7 @@ Tools:
   name: Orphadata
   registry:
     biotools: orphadata
+    fairsharing: d1a667
     fairsharing-coll: bsg-d001249
 - description: OSF (Open Science Framework) is a free, open platform to support your
     research and enable collaboration.
@@ -2046,12 +2116,28 @@ Tools:
   related_pages:
   - researcher
   - IDP
+  - struct bioinfo
 - description: Prototype archiving system for structural models obtained using integrative
     or hybrid modeling
   link: https://pdb-dev.wwpdb.org/
   name: PDB-Dev
   related_pages:
   - biomol sim
+  - struct bioinfo
+- description: Information about the standard PDB archive format PDBx/mmCIF, its dictionaries
+    and related software tools
+  link: https://mmcif.wwpdb.org/
+  name: PDBx/mmCIF format and tools
+  registry:
+    fairsharing: fd28en
+  related_pages:
+  - struct bioinfo
+- description: Extension of the PDBx/mmCIF dictionary for theoretical models of macromolecular
+    structures
+  link: https://mmcif.wwpdb.org/dictionaries/mmcif_ma.dic/Index/
+  name: PDBx/mmCIF ModelCIF Extension Dictionary
+  related_pages:
+  - struct bioinfo
 - description: A resource that curates knowledge about the impact of genetic variation
     on drug response.
   link: https://www.pharmgkb.org/
@@ -2130,6 +2216,8 @@ Tools:
     exchange and verification.
   link: https://www.psidev.info/
   name: Proteomics Standards Initiative
+  registry:
+    fairsharing: 46e1e9
   related_pages:
   - proteomics
 - description: A secure platform for developing and sharing reproducible methods.
@@ -2269,6 +2357,7 @@ Tools:
   - data manager
   - researcher
   - micro biotech
+  - machine actionability
 - description: Reva connects cloud storages and application providers
   link: https://reva.link/
   name: Reva
@@ -2289,6 +2378,7 @@ Tools:
   - data manager
   - micro biotech
   - identifiers
+  - machine actionability
 - description: Rstudio notebooks allow to share code, documentation
   link: https://rstudio.com
   name: Rstudio
@@ -2340,6 +2430,17 @@ Tools:
   name: SBOLDesigner
   related_pages:
   - micro biotech
+- description: Schema.org is a collaborative, community activity with a mission to
+    create, maintain, and promote schemas for structured data on the Internet, on
+    web pages, in email messages, and beyond.
+  link: https://schema.org
+  name: Schema.org
+  registry:
+    fairsharing: hzdzq8
+    tess: Schema.org
+  related_pages:
+  - machine actionability
+  - IT support
 - description: Web portal for finding ontologies
   link: https://schemapedia.com
   name: Schemapedia
@@ -2646,6 +2747,7 @@ Tools:
   - IDP
   - micro biotech
   - proteomics
+  - struct bioinfo
 - description: List of Electronic Research Notebook Products by University of Cambridge
   link: https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products
   name: University of Cambridge - Electronic Research Notebook Products
@@ -2677,6 +2779,17 @@ Tools:
   related_pages:
   - transfer
   - IT support
+- description: WorkflowHub is a registry for describing, sharing and publishing scientific
+    computational workflows.
+  link: https://workflowhub.eu
+  name: WorkflowHub
+  registry:
+    biotools: workflowhub
+    fairsharing: 07cf72
+  related_pages:
+  - data publication
+  - data manager
+  - researcher
 - description: Open source imaging informatics platform. It facilitates common management,
     productivity, and quality assurance tasks for imaging and associated data.
   link: https://www.xnat.org/
@@ -2714,3 +2827,13 @@ Tools:
   - data publication
   - biomol sim
   - bioimaging data
+- description: Find possible ontology mappings for free text terms in the ZOOMA repository.
+  link: https://www.ebi.ac.uk/spot/zooma/
+  name: Zooma
+  registry:
+    biotools: zooma
+    tess: Zooma
+  related_pages:
+  - metadata
+  - data manager
+  - researcher

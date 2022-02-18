@@ -8,6 +8,10 @@ faircookbook:
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/findability/seo.html# 
 related_pages: 
     tool_assembly: []
+dsw:
+- name: List the data formats you will be using for interpretation and describe their
+    structure
+  uuid: a797cab9-0829-4787-a096-1b5cedc9147f
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?

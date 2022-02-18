@@ -38,6 +38,8 @@ subitems:
         url: /toxicology_data.html
       - title: Bioimaging data
         url: /bioimaging_data.html
+      - title: Structural bioinformatics
+        url: /structural_bioinformatics.html
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
