@@ -9,6 +9,11 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+preserve%22#materials
+dsw:
+- name: Specify a list of data sets you will be producing
+  uuid: 4e0c1edf-660c-4ebf-81f5-9fa959dead30
+- name: Will this data set be published?
+  uuid: a063da1c-aaea-4e18-85ec-f560d833f292
 ---
 
 ## What is data preserving?

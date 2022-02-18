@@ -1,0 +1,73 @@
+
+/*-----General styling-----*/
+$font-family-theme: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$h2-color: $primary;
+
+/*-----Buttons hover style-----*/
+$btn-primary-bg-hover: $primary;
+$btn-primary-color-hover: $white;
+
+/*-----Top navigation-----*/
+$topnav-bg: $dark;
+$topnav-title-color: $primary;
+$topnav-brand-height: 40px;
+$topnav-border: 0;
+
+/*-----Search-----*/
+$search-result-color: $primary;
+
+/*-----Sidebar-----*/
+$sidebar-bg: $light;
+$sidebar-color: $dark;
+$sidebar-lvl2-bg: $white;
+$sidebar-lvl2-color: $dark;
+$sidebar-lvl3-bg: $white;
+$sidebar-lvl3-color: $dark;
+$sidebar-bg-active: $primary;
+$sidebar-color-active: $white;
+
+/*-----TOC-----*/
+$toc-bg: $light;
+$toc-border: 0;
+
+/*-----Section navigation tiles-----*/
+$nav-card-bg: $light;
+$nav-card-header-bg: $dark;
+$nav-card-header-color: $white;
+$nav-card-badge-color: $body-color;
+$nav-card-badge-bg: $white;
+$nav-card-badge-color-hover: $white;
+$nav-card-badge-bg-hover: $primary;
+
+/*-----More information tiles-----*/
+$info-card-bg: $light;
+$info-card-header-bg: $dark;
+$info-card-header-color: $white;
+
+/*-----Contributors-cards-----*/
+$contr-card-bg: $light;
+
+/*-----Page contributors-----*/
+$contr-bg: $light;
+$contr-link-bg: $white;
+$contr-crown-bg: $dark;
+$contr-crown-color: $white;
+
+/*-----Events & news-----*/
+$news-title-bg: $primary;
+
+/*-----Default badge-----*/
+$badge-color: $body-color;
+$badge-bg: $light;
+$badge-color-hover: $white;
+$badge-bg-hover: $primary;
+
+/*-----Footer-----*/
+$footer-bg: $dark;
+$footer-color: $white;
+$footer-link-color: $white;
+$footer-link-color-hover: $primary;
+$footer-copyright-bg: #00000033;
+$footer-border: 0;
+
+

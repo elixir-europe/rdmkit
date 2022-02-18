@@ -13,6 +13,8 @@ training:
 dsw:
 - name: Data storage systems and file naming conventions
   uuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
+- name: How long will this data set be kept?
+  uuid: d4e6a244-07fb-4573-b93f-c20a9409ac7c
 - name: Will you be storing data in an "object store" system?
   uuid: dc39957e-688a-4f71-a6a8-57f52509e7cf
 ---

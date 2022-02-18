@@ -13,7 +13,7 @@ training:
     url:
 ---
 
-{% include note.html content="This page is under construction." %}
+{% include callout.html type="note" content="This page is under construction." %}
 
 Support bioinformatician and data steward.
 
