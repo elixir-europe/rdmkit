@@ -31,14 +31,15 @@ resources:
     how_to_access: <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
+      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
       your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
       your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
     url:
-
 ---
+<!---All the resources added above will appear on the table at the bottom of the page--->
 
-<!---Following information for the page text. All fields are optional--->
+<!---Following information for the page text--->
+<!---Use this template as guidance, all fields are optional. Feel free to modify any section if you think it is necessary--->
 <!---If the information is already in another resource, please include the link instead of duplicating information--->
 <!---Please focus on resources that are relevant for the whole country for life sciences--->
 
@@ -48,7 +49,7 @@ resources:
 ## Funders
 
 ## Regulations
-<!--- Ethical and legal regulations in the Country, committes etc --->
+<!--- Ethical and legal regulations in the country, committes etc --->
 
 ## Domain-specific infrastructures or resources 
-<!--- e.g. human data, covid-19 --->
+<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
