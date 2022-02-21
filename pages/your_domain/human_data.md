@@ -112,8 +112,8 @@ For human data, it is very important to use technical and procedural measures to
 * [IntoGen](https://www.intogen.org) collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.
 * [BoostDM](https://www.intogen.org/boostdm/search) is a method to score all possible point mutations in cancer genes for their potential to be involved in tumorigenesis.
 * [Cancer Genome Interpreter](https://www.cancergenomeinterpreter.org) is designed to identify tumor alterations that drive the disease and detect those that may be therapeutically actionable.
-* [GA4GH data security toolkit](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/)
-* [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
+* GA4GH's [Data Security](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/), and [Genomic Data](https://www.ga4gh.org/genomic-data-toolkit/) toolkits provide policies, standards for the secure transfer and processing of human genomics data. GA4GH standards are often implemented into multiple tools. For example, the [Crypt4GH data encryption standard](https://www.ga4gh.org/news/crypt4gh-a-secure-method-for-sharing-human-genetic-data/) is implemented both in [SAMTools](http://samtools.github.io/hts-specs/crypt4gh.pdf) and also provided as a [utility from the EGA Archive](https://github.com/EGA-archive/crypt4gh).
+* [GA4GH's Cloud Workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/) is a more recent initiative and focuses on keeping data in secure cloud environments and meanwhile bringing computational analysis to the data.
 
 
 
