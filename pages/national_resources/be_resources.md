@@ -101,6 +101,7 @@ Details about national guidelines, tools and resources can be found at [RDM Guid
 The Flemish Government approved the Flemish Open Science policy plan and the establishment of the [Flemish Open Science Board (FOSB)](https://www.ewi-vlaanderen.be/nieuws/flemish-open-science-board-fosb-opgericht). The mandate of the FOSB is to develop the policy on Open Science and to advise on how to spend the resources that will be used for this purpose.
 
 ## Funders and assistance
+In line with European funders, Belgian research funders require Data Management Plans (DMP) and support Open Science. Consult the funders' webpage and their policy about data management and Open Science.
 * [Research Foundation - Flanders (FWO)](https://www.fwo.be/en/).
   * [FWO Research policy](https://www.fwo.be/en/the-fwo/research-policy/).
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
