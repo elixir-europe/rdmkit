@@ -1,7 +1,6 @@
 ---
 
 title: Estonia
-search_exclude: true
 country_code: EE
 contributors: [Heleri Inno]
 coordinators: [Heleri Inno]
