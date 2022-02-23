@@ -270,7 +270,7 @@ layout: page
       {%- for country_page in country_pages %}
       {%- assign national_tools = national_tools | plus: country_page.resources.size %}
       {%- endfor %}
-      <span class="count-number text-primary">{{tools.Tools.size | plus: national_tools }}</span>
+      <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
       <p><b>Tools & resources</b><br>
       Explained in the context of real world problems</p>
     </div>
