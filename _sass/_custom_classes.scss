@@ -22,6 +22,22 @@ li ul .sidebar_rdm_sub {
     margin-top: -.25rem;
 }
 
+.sidebar-title {
+    background-color: $dark;
+    color: $white;
+    margin-bottom: 1rem;
+    display: block;
+    align-self: center;
+    text-align: left;
+    vertical-align: middle;
+    @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
+    font-family: $btn-font-family;
+    font-weight: $btn-font-weight;
+    line-height: $btn-line-height;
+    border-radius: $border-radius;
+    @include transition($btn-transition);
+}
+
 
 /* -----Homepage----- */
 
