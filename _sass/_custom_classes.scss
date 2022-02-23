@@ -15,17 +15,16 @@
 
 li ul .sidebar_rdm_sub {
     border-color: $light;
-    padding: .75rem .5rem .5rem .5rem;
+    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
     border-radius: 0px 0px $border-radius $border-radius;
     border-style: none solid solid solid;
     border-width: 0.2em;
-    margin-top: -.25rem;
+    margin-top: -0.25rem;
 }
 
-.sidebar-title {
+.sidebar-title a {
     background-color: $dark;
     color: $white;
-    margin-bottom: 1rem;
     display: block;
     align-self: center;
     text-align: left;
@@ -36,8 +35,13 @@ li ul .sidebar_rdm_sub {
     line-height: $btn-line-height;
     border-radius: $border-radius;
     @include transition($btn-transition);
-}
 
+    &:hover,
+    &.active {
+        background-color: $sidebar-bg-active;
+        color: $sidebar-color-active;
+    }
+}
 
 /* -----Homepage----- */
 
@@ -80,7 +84,6 @@ h2.card-title {
 .btn.arrow:not(.collapsed)::after {
     transform: rotate(-180deg);
 }
-
 
 // RDM wheel frontpage
 
