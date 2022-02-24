@@ -29,14 +29,24 @@
 - name: "New page: National resources Finland"
   date: 2022-01-24
   linked_pr: 816
-  description: This page gives an insight in RDM on national level in Finland [Discover the page here](fi_resources)
+  description: This page gives an insight in RDM on national level in Finland. [Discover the page here](fi_resources)
 - name: "New page: National resources Germany"
   date: 2022-01-21
   linked_pr: 812
-  description: This page gives an insight in RDM on national level in Germany [Discover the page here](de_resources)
+  description: This page gives an insight in RDM on national level in Germany. [Discover the page here](de_resources)
 - name: "New page: National resources Norway"
   date: 2022-01-14
   linked_pr: 792
-  description: This page gives an insight in RDM on national level in Norway [Discover the page here](no_resources)
-
-
+  description: This page gives an insight in RDM on national level in Norway. [Discover the page here](no_resources)
+- name: "New page: National resources France"
+  date: 2022-02-03
+  linked_pr: 825
+  description: This page gives an insight in RDM on national level in France. [Discover the page here](fr_resources)
+- name: "New page: National resources Sweden"
+  date: 2022-02-11
+  linked_pr: 827
+  description: This page gives an insight in RDM on national level in Sweden. [Discover the page here](se_resources)
+- name: "New page: Structural bioinformatics"
+  date: 2022-02-18
+  linked_pr: 831
+  description: A "your domain" page about Structural bioinformatics. [Discover the page here](structural_bioinformatics).

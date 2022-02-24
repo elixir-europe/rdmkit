@@ -121,7 +121,6 @@ def remove_prefix(s, prefix):
 table_path = "_data/main_tool_and_resource_list.csv"
 output_path = "_data/tool_and_resource_list.yml"
 related_pages_path = "_data/page_ids.yml"
-main_dict_key = "Tools"
 rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 
@@ -133,6 +132,7 @@ pages_metadata = {}
 for subdir, dirs, files in os.walk(rootdir):
     for file_name in files:
         if os.path.splitext(file_name)[1] == '.md':
+            print(f"Opening {os.path.splitext(file_name)[0]}")
             with open(os.path.join(subdir, file_name)) as f:
                 metadata, content = frontmatter.parse(f.read())
             if 'page_id' in metadata.keys() and 'search_exclude' not in metadata.keys():
@@ -149,7 +149,7 @@ print(f"----> Allowed related_pages: {', '.join(pages_metadata.keys())}.")
 
 print(f"----> Converting table {table_path} to {output_path} started.")
 args = process_args()
-main_dict = {main_dict_key: []}
+main_list = []
 if args.reg:
     fairsharing_token = get_fairsharing_token(args.username, args.password)
 with open(table_path, 'r') as read_obj:
@@ -206,10 +206,10 @@ with open(table_path, 'r') as read_obj:
                     output = unicodedata.normalize("NFKD", cell).strip()
                 if output:
                     tool[header[col_index]] = output
-            main_dict[main_dict_key].append(tool)
+            main_list.append(tool)
             print(f"{row_index}. {tool['name']} is parsed.")
 
 with open(output_path, 'w') as yaml_file:
-    documents = yaml.dump(main_dict, yaml_file)
+    documents = yaml.dump(main_list, yaml_file)
 
 print("----> YAML is dumped successfully")

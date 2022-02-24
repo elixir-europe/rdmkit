@@ -4,7 +4,7 @@ title: <!---REPLACE THIS with full country name in English--->
 search_exclude: true
 country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capital letters--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-coordinators: [<!---REPLACE THIS with the name of data management coordinadors of your ELIXIR node--->]
+coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
 
 related_pages: 
   tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
@@ -28,7 +28,8 @@ training:
 resources:
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
-    how_to_access: <!--- free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
+    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
+    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
       your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
@@ -49,7 +50,7 @@ resources:
 ## Funders
 
 ## Regulations
-<!--- Ethical and legal regulations in the country, committes etc --->
+<!--- Ethical and legal regulations in the country, committees etc --->
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->

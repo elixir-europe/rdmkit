@@ -3,7 +3,6 @@ title: COVID-19 Data Portal
 contributors: [Guy Cochrane, Marianna Ventouratou, Nadim Rahman, Sam Holt]
 page_id: Covid-19
 affiliations: [ELIXIR CONVERGE]
-audience: [ALL]
 related_pages:
   your_tasks: [sensitive, existing data, data publication]
   your_domain: [human data]

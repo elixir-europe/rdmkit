@@ -30,7 +30,7 @@ resources:
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
     description: DS-Wizard is a tool to aid the creation, organisaton and sharing of data management plans. It provides scientists with guidance, facilitating the understanding of the key components of FAIR-oriented Data Stewardship. The template in this instance provides additional guidance on resources, laws and regulations in Norway.
-    how_to_access: ELIXIR-AAI with Feide or upon registration"
+    how_to_access: ELIXIR-AAI with Feide or upon registration
     instance_of: Data Stewardship Wizard
     related_pages:
       tool_assembly: [TSD,NeLS,marine assembly]
