@@ -1,6 +1,5 @@
 ---
 title: Outreach
-sidebar: about
 ---
 
 

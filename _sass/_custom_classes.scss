@@ -1,3 +1,11 @@
+/*-----General styling-----*/
+
+@media (min-width: 992px) {
+    main h1:not(.has-subtitle):not(.blurb-title), main .h1:not(.has-subtitle) {
+        margin-top: -1rem;
+    }
+}
+
 /*-----Sidebar-----*/
 
 //RDM wheel in sidebar
@@ -15,13 +23,17 @@
 
 li ul .sidebar_rdm_sub {
     border-color: $light;
-    padding: .75rem .5rem .5rem .5rem;
+    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
     border-radius: 0px 0px $border-radius $border-radius;
     border-style: none solid solid solid;
     border-width: 0.2em;
-    margin-top: -.25rem;
+    margin-top: -0.25rem;
 }
 
+.sidebar-title a {
+    background-color: $dark;
+    color: $white;
+}
 
 /* -----Homepage----- */
 
@@ -65,7 +77,6 @@ h2.card-title {
     transform: rotate(-180deg);
 }
 
-
 // RDM wheel frontpage
 
 .ratio.main_rdm {
@@ -92,13 +103,6 @@ h2.card-title {
     border-radius: $border-radius;
 }
 
-
-/*-----Country flags-----*/
-
-.flag-icon {
-    border-radius: 3px;
-    background-size: cover;
-}
 
 
 

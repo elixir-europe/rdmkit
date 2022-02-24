@@ -1,6 +1,5 @@
 ---
 title: Google doc way
-sidebar: contribute
 toc: false
 ---
 

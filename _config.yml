@@ -7,7 +7,7 @@ topnav_title:
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.4.0
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.4.1
 
 gtag: G-RXQ55EFTTH
 # Google analytics tag
@@ -21,7 +21,6 @@ theme_variables:
     - https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap
     - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
 
-
 defaults:
   -
     scope:
@@ -30,8 +29,7 @@ defaults:
     values:
       permalink: /:basename:output_ext
       layout: "page"
-      sidebar: main
-      topnav: topnav
+      sidebar: data_management
       search_exclude: false
   -
     scope:
@@ -64,3 +62,13 @@ defaults:
     values:
       type: national_resources
       datatable: true
+  -
+    scope:
+      path: "pages/contribute"
+    values:
+      sidebar: contribute
+  -
+    scope:
+      path: "pages/about"
+    values:
+      sidebar: about

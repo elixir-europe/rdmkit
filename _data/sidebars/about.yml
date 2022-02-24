@@ -1,6 +1,6 @@
+title: About
+title_url: /about.html
 subitems:
-  - title: About
-    url: /about.html
   - title: Community
     subitems:
       - title: Contributors
@@ -9,6 +9,8 @@ subitems:
         url: /editorial_board.html
       - title: Support
         url: /support.html
+  - title: Contact
+    url: /contact.html
   - title: News
     url: /news.html
   - title: Events

@@ -1,6 +1,5 @@
 ---
 title: Contributors
-sidebar: about
 toc: false
 ---
 

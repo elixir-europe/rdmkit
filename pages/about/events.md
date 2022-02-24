@@ -1,6 +1,5 @@
 ---
 title: Events
-sidebar: about
 ---
 
 {% include events.html event_type="upcoming_event" title="true" %}

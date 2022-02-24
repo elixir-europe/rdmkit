@@ -1,6 +1,5 @@
 ---
 title: Media kit
-sidebar: about
 ---
 
 ## RDMkit logo

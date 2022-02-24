@@ -1,6 +1,7 @@
+title: Contribute
+title_url: /how_to_contribute.html
 subitems:
-  - title: How to contribute
-    url: /how_to_contribute.html
+  - title: Ways to contribute
     subitems:
       - title: GitHub way
         url: /github_way.html

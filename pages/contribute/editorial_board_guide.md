@@ -1,7 +1,6 @@
 ---
 title: Editorial board guide
 summary: This guide is there to help editors.
-sidebar: contribute
 ---
 
 ## All you need to know about this GitHub repository

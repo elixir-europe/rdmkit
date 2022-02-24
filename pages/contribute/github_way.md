@@ -1,6 +1,5 @@
 ---
 title: GitHub way
-sidebar: contribute
 ---
 
 

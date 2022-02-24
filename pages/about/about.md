@@ -1,6 +1,5 @@
 ---
 title: About
-sidebar: about
 ---
 
 ## Who is the RDMkit for?
