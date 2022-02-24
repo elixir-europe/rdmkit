@@ -25,22 +25,6 @@ li ul .sidebar_rdm_sub {
 .sidebar-title a {
     background-color: $dark;
     color: $white;
-    display: block;
-    align-self: center;
-    text-align: left;
-    vertical-align: middle;
-    @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
-    font-family: $btn-font-family;
-    font-weight: $btn-font-weight;
-    line-height: $btn-line-height;
-    border-radius: $border-radius;
-    @include transition($btn-transition);
-
-    &:hover,
-    &.active {
-        background-color: $sidebar-bg-active;
-        color: $sidebar-color-active;
-    }
 }
 
 /* -----Homepage----- */
