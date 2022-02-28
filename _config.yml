@@ -7,7 +7,12 @@ topnav_title:
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.4.2
+remote_theme: ELIXIR-Belgium/jekyll-bootstrap-theme@1.5.0
+
+plausible: 
+# Plausible tag
+plausible_src: 
+# default: 'https://plausible.io/js/plausible.js
 
 gtag: G-RXQ55EFTTH
 # Google analytics tag
