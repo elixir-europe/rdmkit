@@ -44,13 +44,6 @@ li ul .sidebar_rdm_sub {
     font-weight: 700;
 }
 
-.blurb-title {
-    font-family: "Exo 2", sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 18px;
-    font-weight: 600;
-}
-
 // Dropdown boxes
 
 h2.card-title {
@@ -92,6 +85,21 @@ h2.card-title {
 @media (min-width: 768px) {
     .ratio.main_rdm {
         padding-bottom: 35%;
+    }
+}
+
+.landing-panel {
+    min-height: 50vh !important;
+    .blurb-title {
+        font-family: "Exo 2", sans-serif;
+        font-size: 2em;
+        margin-bottom: 18px;
+        font-weight: 600;
+    }
+
+    li {
+        font-size: 1.4em;
+        margin-bottom: 0.7em;
     }
 }
 
