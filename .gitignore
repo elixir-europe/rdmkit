@@ -1,5 +1,6 @@
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache/
 _pdf
 .DS_Store
 .idea
@@ -7,3 +8,4 @@ _pdf
 _site
 /vendor
 .vscode/
+Gemfile.lock
