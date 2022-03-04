@@ -83,4 +83,4 @@ defaults:
       sidebar: about
 
 plugins:
-  - jekyll-remote-theme
+  - jemoji
