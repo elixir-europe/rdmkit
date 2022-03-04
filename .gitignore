@@ -8,3 +8,4 @@ _pdf
 _site
 /vendor
 .vscode/
+Gemfile.lock
