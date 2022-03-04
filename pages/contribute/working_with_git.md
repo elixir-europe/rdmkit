@@ -83,7 +83,7 @@ If you have never installed or run a Jekyll site locally on your computer, follo
 2. deploy website
 
     ```
-    jekyll serve
+    bundle exec jekyll serve
     ```
 
 Additional information can be found at the following link: [https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
