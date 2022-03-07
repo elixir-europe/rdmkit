@@ -6,5 +6,8 @@ subitems:
     url: about.html
   - title: Contribute
     url: how_to_contribute.html
+  - title: News
+    url: news.html
+
 
 
