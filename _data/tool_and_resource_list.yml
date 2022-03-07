@@ -417,6 +417,7 @@
   name: CAS Registry
   registry:
     fairsharing: r7Kwy7
+    tess: CAS Registry
   related_pages:
   - toxicology data
 - description: Biennial critical assessment of techniques for protein structure prediction
@@ -1011,6 +1012,8 @@
     data protection regulation).
   link: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN
   name: EU General Data Protection Regulation
+  registry:
+    tess: EU General Data Protection Regulation
   related_pages:
   - data protection
   - policy officer
@@ -1288,6 +1291,8 @@
     data sheets.
   link: https://pubchem.ncbi.nlm.nih.gov/ghs/
   name: GHS Classification
+  registry:
+    tess: GHS Classification
   related_pages:
   - toxicology data
 - description: Distributed version control system designed to handle everything from
@@ -1355,6 +1360,8 @@
 - description: Cloud Storage for Work and Home
   link: https://www.google.com/intl/en_us/drive/
   name: Google Drive
+  registry:
+    tess: Google Drive
   related_pages:
   - storage
   - transfer
@@ -1798,6 +1805,8 @@
     MD simulations
   link: https://mmb.irbbarcelona.org/MoDEL-CNS/#/
   name: MoDEL-CNS
+  registry:
+    tess: MoDEL-CNS
   related_pages:
   - biomol sim
 - description: Repository for theoretical models of macromolecular structures with
@@ -2055,6 +2064,8 @@
     research and enable collaboration.
   link: https://osf.io
   name: OSF
+  registry:
+    tess: OSF
   related_pages:
   - storage
   - researcher
@@ -2304,6 +2315,7 @@
   name: REMS
   registry:
     biotools: rems
+    tess: REMS
   related_pages:
   - IT support
   - transmed
