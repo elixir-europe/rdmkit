@@ -1,10 +1,10 @@
 /*-----General styling-----*/
 
-@media (min-width: 992px) {
-    main h1:not(.has-subtitle):not(.blurb-title), main .h1:not(.has-subtitle) {
-        margin-top: -1rem;
-    }
-}
+// @media (min-width: 992px) {
+//     main h1:not(.has-subtitle):not(.blurb-title), main .h1:not(.has-subtitle) {
+//         margin-top: -1rem;
+//     }
+// }
 
 /*-----Sidebar-----*/
 
@@ -30,9 +30,16 @@ li ul .sidebar_rdm_sub {
     margin-top: -0.25rem;
 }
 
-.sidebar-title a {
-    background-color: $gray-600;
-    color: $white;
+
+.sidebar-title {
+    border-bottom: 0.25rem solid $primary;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-bottom: $input-btn-padding-y - 0.25rem;
+}
+
+#side-nav>ul {
+    margin-top: $spacer;
 }
 
 /* -----Homepage----- */
