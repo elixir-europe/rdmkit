@@ -32,14 +32,13 @@ li ul .sidebar_rdm_sub {
 
 
 .sidebar-title {
-    border-bottom: 0.25rem solid $primary;
+    border-bottom: 0.20rem solid $primary;
     font-weight: bold;
-    font-size: 1.3rem;
-    padding-bottom: $input-btn-padding-y - 0.25rem;
+    padding-bottom: $input-btn-padding-y - 0.20rem;
 }
 
 #side-nav>ul {
-    margin-top: $spacer;
+    margin-top: $spacer * .5;
 }
 
 /* -----Homepage----- */
