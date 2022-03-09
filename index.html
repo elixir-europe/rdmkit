@@ -277,7 +277,7 @@ layout: page
   </div>
   <div class="col">
     <div class="bg-light rounded p-3 text-center h-100">
-      {%- assign content_pages = site.pages |  where:"sidebar", "data_management" | where: "search_exclude", "false" %}
+      {%- assign content_pages = site.pages | where: "search_exclude", "false" %}
       <span class="count-number text-primary">{{content_pages.size}}</span>
       <p><b>Pages</b><br>
      Helping you with data management</p>
