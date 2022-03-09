@@ -76,7 +76,7 @@ There are many aspects to consider when dealing with data transfer.
         * [Aspera Fasp](https://www.ibm.com/products/aspera)
         * GridFTP and [Globus](https://www.globus.org)
 
-    * Data Transfer Protocols with a graphical user interface are:  
+    * Data Transfer tools with a graphical user interface are:  
         * [FileZilla](https://filezilla-project.org)
         * [WinSCP](https://winscp.net/eng/index.php)
 

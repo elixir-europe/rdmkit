@@ -2,7 +2,7 @@
 
 title: Sweden
 country_code: SE
-contributors: [Stephan Nylinder, Yvonne Kallberg]
+contributors: [Stephan Nylinder, Yvonne Kallberg, Niclas Jareborg]
 coordinators: [Niclas Jareborg, Yvonne Kallberg]
 
 training:
@@ -98,11 +98,11 @@ The [**Swedish National Infrastructure for Computing**](https://snic.se/) (SNIC)
 [**Swedish National Data Service**](https://snd.gu.se/en) (SND) with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans.
  
 List of universities with established Research Data Offices or Data Access Units (DAUs), with links to local online resources and contact information:
-* Chalmers University of Technology - [Research Data Support](https://www.lib.chalmers.se/en/publish-and-analyse/open-access/research-data/) - [contact](dataoffice@chalmers.se)
-* Karolinska Institutet - [Research Data Support](https://staff.ki.se/about-research-data-office-rdo) - [contact](rdo@ki.se)
-* KTH Royal Institute of Technology - [Research Data Support](https://intra.kth.se/en/forskning/overgripande-stod) - [contact](researchdata@kth.se)
-* Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - [contact](opendata@su.se)
-* Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/about-DCU/) - [contact](dms@slu.se)
+* Chalmers University of Technology - [Research Data Support](https://www.lib.chalmers.se/en/publish-and-analyse/open-access/research-data/) - <dataoffice@chalmers.se>
+* Karolinska Institutet - [Research Data Support](https://staff.ki.se/about-research-data-office-rdo) - <rdo@ki.se>
+* KTH Royal Institute of Technology - [Research Data Support](https://intra.kth.se/en/forskning/overgripande-stod) - <researchdata@kth.se>
+* Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - <opendata@su.se>
+* Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/about-DCU/) - <dms@slu.se>
 * Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/organisation-and-contacts/contacts-at-umea-university/) - See web page for contact information
-* University of Gothenburg - [Research Data Support](https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001) - [contact](researchdata@gu.se)
-* Uppsala University - [Research Data Support](https://mp.uu.se/en/web/info/forska/forskningsdata) - [contact](dataoffice@uu.se)
+* University of Gothenburg - [Research Data Support](https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001) - <researchdata@gu.se>
+* Uppsala University - [Research Data Support](https://mp.uu.se/en/web/info/forska/forskningsdata) - <dataoffice@uu.se>

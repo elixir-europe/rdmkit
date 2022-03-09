@@ -50,3 +50,7 @@
   date: 2022-02-18
   linked_pr: 831
   description: A "your domain" page about Structural bioinformatics. [Discover the page here](structural_bioinformatics).
+- name: "New page: National resources Estonia"
+  date: 2022-02-21
+  linked_pr: 846
+  description: This page gives an insight in RDM on national level in Estonia. [Discover the page here](ee_resources).

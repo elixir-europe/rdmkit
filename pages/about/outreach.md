@@ -42,6 +42,15 @@ RDMkit was nominated for the NFDI4Ing Community Award beside [other tools](https
 
 RDMkit was presented at the "FAIR Hackathon" by [EOSC Life](https://www.eosc-life.eu)
 
+### European Biomedical Research Infrastructures’ resources for Researchers in Neurosciences meeting: RDMkit and DSW talk
+
+**2022-02-01**
+
+NEURON organized an open virtual meeting “European Biomedical Research Infrastructures’ resources for Researchers in Neurosciences”. The 2-day-webinar addressed the different resources that several European Biomedical Research Infrastructures, such as ELIXIR, EBRAINS and INFRAFRONTIER, can offer to the researchers in Neurosciences, including the RDMkit and DSW. The webinar was held on February 1st & 3rd, 2022.
+- [More information about the event](https://www.neuron-eranet.eu/news-publications/events/european-biomedical-research-infrastructures-resources-for-researchers-in-neurosciences/)
+- [Youtube video](https://www.youtube.com/watch?v=qiKtDw15GmU)
+- [Presentation](https://www.neuron-eranet.eu/wp-content/uploads/RDMkit-DSW-ERANet-Neuron.pdf)
+
 ## Videos
 
 ### ELIXIR Webinar: Research Data Management Kit (RDMKit)

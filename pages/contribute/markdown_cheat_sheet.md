@@ -183,24 +183,39 @@ note can be replaced with tip, warning, important, depending on the type of mess
 
 ## Images
 
-{% include image.html file="exampleImage.png" caption="Figure 1. Say something about this pic." alt="Servers" %}
+{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELXIIR logo" %}
 
 This image is inserted in the markdown using following snippet:
 
 {% raw %}
 ```
-{% include image.html file="exampleImage.png" caption="Figure 1. Say something about this pic." alt="Servers" %}
+{% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELXIIR logo" max-width="10" %}
 ```
 {% endraw %}
 
 Make sure that you add the image to the `images` directory and give it an understanding filename. Adapt the snippet so it points towards you image (only the filename is needed). In the case of the example, the image exampleImage.png is loaded. Supported attributes are:
 
-* `max-width` : an integer between 1 and 50 to define the relative width of the image
 * `click`: if true, the image will be clickable -> the image will be loaded in another tab
 * `url`: f you want the image to link to anther page
 * `alt`: describes the image and is used for people that are visually impaired
 * `caption`: Text that will appear under the image
 * `inline`: if true this image can be used in a list
+
+
+or using following markdown syntax:
+{% raw %}
+```
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+```
+{% endraw %}
+
+gives:
+
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg)
+![ELIXIR logo](/images/infrastructures/ELIXIR-logo.svg){: height="200px" width="200px"}
+
+
 
 ## Icons
 
@@ -409,7 +424,7 @@ To have space between two lines of text, simply leave one empty line in between 
 <br>
 ```
 
-## Enforce no space between two lines
+## Enfore line break
 
 When you want to have a line of text.\\
 And another line underneath it without space, use:
