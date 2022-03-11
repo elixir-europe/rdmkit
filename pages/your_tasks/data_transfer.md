@@ -34,7 +34,12 @@ There are many aspects to consider when dealing with data transfer.
 
 * The **size or volume** of the data and the **capacity or bandwidth of the network** that links your local computer with the distant computer are crucial aspects. Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services.
 
-* Data **security**. If you intend to transfer sensitive data to another location, you have to check the regulation and security measures on the remote site. You can interact with the IT departments at both locations in order to establish your strategy. Do not forget to check the [Human Data](human_data) pages of the RDMkit.
+* Ensure that you are aware of the **legal and ethical implications** of your data transfer
+    * For data concerning  persons, you have to safeguard compliance with various legal and ethical frameworks, including the GDPR. You might have to establish a **data processing** or **joint data controller** agreement before you can transfer the data.  Do not forget to check the [Human Data](human_data) pages of the RDMkit.
+    * For data relevant for later patenting or other types of commercialization you  might want to establish a **non-disclosure** or other types of agreement with the other party first, so that your commercial interest is not endangered.
+    * You might also have to consider other laws and regulations, for instance regarding **biosecurity** of data affecting pathogens or other aspects of potential **dual-use**.
+    * The technical protocol you choose for your data transfer should meet your requirement for **data security** resulting these implications. You can interact with the IT departments at both locations in order to establish your strategy.
+
 
 * If you have the technical skills and knowledge, consider using appropriate File Transfer Protocols.
 
