@@ -35,6 +35,8 @@ li ul .sidebar_rdm_sub {
     border-bottom: 0.2rem solid $primary;
     font-weight: bold;
     padding-bottom: $input-btn-padding-y - 0.2rem;
+    border-width: 0 0 0.2rem;
+    border-radius: 0;
 }
 
 #side-nav > ul {
