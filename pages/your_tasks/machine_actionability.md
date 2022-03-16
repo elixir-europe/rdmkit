@@ -104,7 +104,7 @@ By providing structured metadata and data to a database that follows standards (
 * Applying RDF syntax to the database can make the (meta)data available for knowledge graphs and semantic web applications.
 * If [Application Programming Interface (API)](https://en.wikipedia.org/wiki/API) is available, other software/applications could make complex queries, access the database programmatically and always get up-to-date data.
 * If the metadata of your database or repository is exposed according to specific standards, it could function as data provider or data source, and be harvested and indexed by
-  * Data catalogues or data portals, such as [OmicsDI](https://www.omicsdi.org) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
+  * Data catalogues or data portals, such as [OmicsDI](http://blog.omicsdi.org/post/omicsdi-spec/) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
   * The [OpenAIRE aggregator](https://www.openaire.eu/aggregation-and-content-provision-workflows) that collects metadata records via OAI-PMH in the majority of cases.
   * Other instances of your data repository software, such as [Dataverse](https://guides.dataverse.org/en/latest/admin/dashboard.html#harvesting) and [EUDAT B2FIND](http://b2find.eudat.eu/guidelines/harvesting.html), which use OAI-PMH for metadata harvest.
   * Search engines such as [Google Dataset Search](https://datasetsearch.research.google.com/help), which relies on [sitemaps.org](https://www.sitemaps.org), [schema.org](https://schema.org), [DCAT](https://www.w3.org/TR/vocab-dcat/) and other approaches to datasets discovery.
