@@ -279,7 +279,13 @@ RDMkit pages from the sections Your tasks, Your domain and Tool assembly can be 
 
 Only pages from specific sections are allowed in each page (see image below), as pre-defined in the metadata of each template page. Please, do not add extra sections in the metadata of the page.
 
-{% include image.html file="related_pages_system.png" alt="Related pages system" click=true %}
+| _page_id_           | Related pages id: Data life cycle | Related pages id: Your tasks | Related pages id: Your role | Related pages id: Your domain | Related pages id: Tool assembly | Related pages visualised |
+|---------------------|-----------------------------------|------------------------------|-----------------------------|-------------------------------|---------------------------------|--------------------------|
+| **Data life cycle** |                                   |              yes             |                             |                               |                                 |        Your tasks        |
+| **Your tasks**      |                                   |                              |                             |                               |               yes               |       Tool assembly      |
+| **Your role**       |                                   |              yes             |                             |                               |                                 |         Your tasks        |
+| **Your domain**     |                                   |              yes             |                             |                               |               yes               | Your tasks Tool assembly |
+| **Tool assembly**   |                                   |              yes             |                             |              yes              |                                 |  Your tasks Your domain  |
 
 
 
