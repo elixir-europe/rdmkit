@@ -1,7 +1,7 @@
 ---
 title: Biomolecular simulation data
 page_id: biomol sim
-contributors: [Karel Berka]
+contributors: [Karel Berka, Adam Hospital]
 related_pages: 
   your_tasks: [data publication, metadata, storage]
   tool_assembly: []
