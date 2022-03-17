@@ -286,8 +286,8 @@ Only pages from specific sections are allowed in each page (see image below), as
 | **Data life cycle** |                                   |              yes             |                             |                               |                                 |        Your tasks        |
 | **Your tasks**      |                                   |                              |                             |                               |               yes               |       Tool assembly      |
 | **Your role**       |                                   |              yes             |                             |                               |                                 |         Your tasks        |
-| **Your domain**     |                                   |              yes             |                             |                               |               yes               | Your tasks Tool assembly |
-| **Tool assembly**   |                                   |              yes             |                             |              yes              |                                 |  Your tasks Your domain  |
+| **Your domain**     |                                   |              yes             |                             |                               |               yes               | Your tasks, Tool assembly |
+| **Tool assembly**   |                                   |              yes             |                             |              yes              |                                 |  Your tasks, Your domain  |
 
 
 
