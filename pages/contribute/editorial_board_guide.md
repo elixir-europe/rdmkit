@@ -40,7 +40,9 @@ Optional metadata/frontmatter:
 
 * `contributors`: List here all the contributors that helped in establishing the page, preferibly with their full name. Make sure that the person names that are listed can be found in the CONTRIBUTORS.yaml file in the *_data* directory if you want to link the GitHub ID and other contact information. Multiple contributors will be put in a list like this: [example1, example2].
 
-* `search`: By setting this field to "exclude", the page will not end up in the search results of the search bar. Default: true.
+* `coordinators`: List here the names of the people responsible for the content of the page. People responsible for the content of the National resources pages can be members of the ELIXIR data management network. Make sure that coordinators also listed as contributors in `contributors` and CONTRIBUTORS.yaml. Multiple coordinators will be put in a list like this: [example1, example2].
+
+* `search_exclude`: By setting this field to "true", the page will not end up in the search results of the search bar. `search_exclude: true` is the default for template pages. Make sure to delete this metadata field when creating a new page for contributors, before approving or before merging a pull request.
 
 * `hide_sidebar`: When true, the sidebar will be hidden. Default: false.
 
@@ -279,7 +281,13 @@ RDMkit pages from the sections Your tasks, Your domain and Tool assembly can be 
 
 Only pages from specific sections are allowed in each page (see image below), as pre-defined in the metadata of each template page. Please, do not add extra sections in the metadata of the page.
 
-{% include image.html file="related_pages_system.png" alt="Related pages system" click=true %}
+| _page_id_           | Related pages id: Data life cycle | Related pages id: Your tasks | Related pages id: Your role | Related pages id: Your domain | Related pages id: Tool assembly | Related pages visualised |
+|---------------------|-----------------------------------|------------------------------|-----------------------------|-------------------------------|---------------------------------|--------------------------|
+| **Data life cycle** |                                   |              yes             |                             |                               |                                 |        Your tasks        |
+| **Your tasks**      |                                   |                              |                             |                               |               yes               |       Tool assembly      |
+| **Your role**       |                                   |              yes             |                             |                               |                                 |         Your tasks        |
+| **Your domain**     |                                   |              yes             |                             |                               |               yes               | Your tasks, Tool assembly |
+| **Tool assembly**   |                                   |              yes             |                             |              yes              |                                 |  Your tasks, Your domain  |
 
 
 

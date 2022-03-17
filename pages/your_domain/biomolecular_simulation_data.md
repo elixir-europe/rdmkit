@@ -1,8 +1,9 @@
 ---
 title: Biomolecular simulation data
 page_id: biomol sim
+contributors: [Karel Berka, Adam Hospital]
 related_pages: 
-  your_tasks: []
+  your_tasks: [data publication, metadata, storage]
   tool_assembly: []
 training:
   - name: Training in TeSS
