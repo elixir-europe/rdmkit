@@ -35,7 +35,7 @@ Carole Goble:
     git: CaroleGoble
     role: lead
     orcid: 0000-0003-1219-2137
-    affiliation: The University of Manchester
+    affiliation: The University of Manchester | ELIXIR-UK
 Inge Jonassen:
     role: lead
     affiliation: University of Bergen
@@ -57,6 +57,8 @@ Nicola Soranzo:
 Munazah Andrabi:
     git: smza
     role: editor
+    orcid: 0000-0002-7718-5109
+    affiliation: The University of Manchester
 Vicky Sundesha:
     git: vsundesha
 Rob Hooft:
@@ -194,12 +196,21 @@ Ernesto Picardi:
     orcid: 0000-0002-6549-0114
 Stian Soiland-Reyes:
     git: stain
+    orcid: 0000-0001-9842-9718
+    email: soiland-reyes@manchester.ac.uk
+    affiliation: The University of Manchester | ELIXIR-UK
 Michael R. Crusoe:
     git: mr-c
+    orcid: 0000-0002-2961-9670
+    affiliation: Common Workflow Language project | ELIXIR-NL
 Alan R Williams:
     git: alaninmcr
+    orcid: 0000-0003-3156-2105
+    affiliation: The University of Manchester | ELIXIR-UK
 Chris Child:
     git: christopherchild
+    orcid: 0000-0003-0758-6908
+    affiliation: The University of Manchester | ELIXIR-UK
 Olivier Collin:
     git: OlivierCollin
 Vera Ortseifen:
@@ -275,6 +286,8 @@ Kees van Bochove:
     affiliation: The Hyve
 Cyril Pommier:
     git: cpommier
+    orcid: 0000-0002-9040-8733
+    affiliation: INRA | ELIXIR-FR
 Frederik Delaere:
     git: fretn
 Nadim Rahman:
@@ -322,3 +335,5 @@ Jiří Černý:
     affiliation: Institute of Biotechnology
 Adam Hospital:
     git: adamhospital
+    orcid: 0000-0002-8291-8071
+    affiliation: Institute for Research in Biomedicine (IRB Barcelona)
