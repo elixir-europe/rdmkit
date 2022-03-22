@@ -2,7 +2,7 @@
 title: Media kit
 ---
 
-The logo's and images listed here are licensed under a Creative Commons Attribution 4.0 International License, just like the rest of the content on RDMkit. THis means that you can reuse them, as long as you give attribution to RDMkit. 
+The logo's and images listed here are licensed under a Creative Commons Attribution 4.0 International License, just like the rest of the content on RDMkit. This means that you can use them, as long as you give attribution to RDMkit. 
 
 ## RDMkit logo
 
