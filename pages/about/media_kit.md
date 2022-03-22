@@ -2,6 +2,8 @@
 title: Media kit
 ---
 
+The logo's and images listed here are licensed under a Creative Commons Attribution 4.0 International License, just like the rest of the content on RDMkit. THis means that you can reuse them, as long as you give attribution to RDMkit. 
+
 ## RDMkit logo
 
 For use in presentations, tutorials and all other RDMkit related activities the RDMkit logo is available in several flavours, both in PNG and SVG:
