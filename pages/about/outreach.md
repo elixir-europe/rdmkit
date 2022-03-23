@@ -51,6 +51,12 @@ NEURON organized an open virtual meeting “European Biomedical Research Infrast
 - [Youtube video](https://www.youtube.com/watch?v=qiKtDw15GmU)
 - [Presentation](https://www.neuron-eranet.eu/wp-content/uploads/RDMkit-DSW-ERANet-Neuron.pdf)
 
+### RDMkit on the NIH Data Sharing and Reuse Seminar 2022
+
+**2022-03-11**
+
+<iframe class="scale" src="https://docs.google.com/presentation/d/e/2PACX-1vSkyhr1ifD_eJ-Dq7sgrmOjE-bj1ZNfiZFgKzInmjoM8N5m8y5HIbVpP9A4SxucFA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Videos
 
 ### ELIXIR Webinar: Research Data Management Kit (RDMKit)

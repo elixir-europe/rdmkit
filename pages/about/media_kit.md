@@ -66,6 +66,13 @@ For use in presentations, tutorials and all other RDMkit related activities the 
     [<a href="{{ 'images/data_life_cycle_3.png' | relative_url }}">png</a>]
 </p>
 
+## Presentations
+
+#### RDMkit in 1 and 3 slides
+
+<iframe  class="scale" src="https://docs.google.com/presentation/d/e/2PACX-1vQN8VjdCv96Jwdd1H8r-bxhVPk1wgI-FBTfuHiHX1_7R9HCl30W6GDPXMSm_bQkwz99vK0KGDYY3Na2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
 ## Promotion gif
 
 <p>
