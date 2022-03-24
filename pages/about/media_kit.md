@@ -2,7 +2,7 @@
 title: Media kit
 ---
 
-The logo's and images listed here are licensed under a Creative Commons Attribution 4.0 International License, just like the rest of the content on RDMkit. This means that you can use them, as long as you give attribution to RDMkit. 
+Here you can find materials that are out of the box available for use outside RDMkit. The logo's and images listed here are licensed under a Creative Commons Attribution 4.0 International License, just like the rest of the content on RDMkit. This means that you can use them, as long as you give attribution to RDMkit. If possible, make use of the svg image since this will preserve the image quality better.
 
 ## RDMkit logo
 
@@ -65,6 +65,13 @@ For use in presentations, tutorials and all other RDMkit related activities the 
     [<a href="{{ 'images/data_life_cycle_3.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'images/data_life_cycle_3.png' | relative_url }}">png</a>]
 </p>
+
+## Presentations
+
+#### RDMkit in 1 and 3 slides
+
+<iframe  class="scale" src="https://docs.google.com/presentation/d/e/2PACX-1vQN8VjdCv96Jwdd1H8r-bxhVPk1wgI-FBTfuHiHX1_7R9HCl30W6GDPXMSm_bQkwz99vK0KGDYY3Na2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 ## Promotion gif
 
