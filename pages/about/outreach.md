@@ -2,6 +2,7 @@
 title: Outreach
 ---
 
+We are since the beginning actively spreading the word about RDMkit. On this page we keep track where we gave a presentation about RDMkit and the links towards those presentations if possible.
 
 ## Presentations
 
