@@ -64,7 +64,7 @@ faircookbook:
     tool_assembly: [page_id1, page_id2]
   ``` 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
 
   ```yml
   training:
@@ -400,7 +400,7 @@ related_pages:
 ```
 
 ## Listing training material
-You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
 
 ```yml
 training:
