@@ -3,9 +3,6 @@ title: Machine actionability
 contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat Sarntivijai, Nazeefa Fatima, Rafael Andrade Buono, Alex Henderson, Korbinian Bösl, Dominik Martinat, M-Christine Jacquemot-Perbal]
 description: how to make machine-actionable (meta)data.
 page_id: machine actionability
-faircookbook:
-- name: Search engine optimization
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/findability/seo.html# 
 related_pages: 
     tool_assembly: []
 dsw:
