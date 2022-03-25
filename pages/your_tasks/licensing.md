@@ -10,6 +10,9 @@ dsw:
   uuid: ae28a862-5020-44c2-8c78-3abc185b190f
 - name: Licenses under which this distribution of the data set will be available
   uuid: 3d89e23d-ff5c-45da-97a8-169ad8c39be6
+faircookbook:
+- name: null
+  url: https://w3id.org/faircookbook/FCB032
 ---
 
 ## Why should you assign a licence to your research data?

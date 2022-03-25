@@ -15,6 +15,11 @@ dsw:
   uuid: 2e8d6e55-36ea-46eb-a921-65e550bce5dc
 - name: How will your first data come in?
   uuid: f4065e54-d27a-45de-be4c-10384feacd0d
+faircookbook:
+- name: Transferring data with SFTP
+  url: https://w3id.org/faircookbook/FCB014
+- name: Downloading data with Aspera
+  url: https://w3id.org/faircookbook/FCB015
 ---
 
 ## How do you transfer large data files?

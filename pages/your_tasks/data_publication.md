@@ -5,6 +5,9 @@ description: prepare data and find repositories for publication.
 page_id: data publication
 related_pages: 
     tool_assembly: []
+faircookbook:
+- name: Depositing in Zenodo generic repository
+  url: https://w3id.org/faircookbook/FCB009
 ---
 
 
