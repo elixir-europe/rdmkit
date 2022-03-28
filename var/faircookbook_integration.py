@@ -1,6 +1,5 @@
 import os
 import re
-from xmlrpc.client import Boolean
 import yaml
 
 
@@ -73,4 +72,4 @@ for subdir, dirs, files in os.walk(rootdir):
                         contents = "".join(contents)
                         f.write(contents)
                     print(f"\tDone")
-print(f"DSW links successfully added to the markdown pages")
+print(f"FCB links successfully added to the markdown pages")
