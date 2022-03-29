@@ -6,7 +6,7 @@ page_id: licensing
 related_pages: 
   tool_assembly: []
 faircookbook:
-- name: null
+- name: Licensing
   url: https://w3id.org/faircookbook/FCB032
 dsw:
 - name: Will a license be assigned to your datasets?

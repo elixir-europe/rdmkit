@@ -78,7 +78,7 @@ faircookbook:
       registry_url: https://tess.elixir-europe.org
       url: https://tess.elixir-europe.org/search?q=data%20analysis
   ```
-* `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the `faircookbook_rdmkt_mapping.yml` mapping file. If you want to make a new link, please ma a pull request against this file. Every week the changes of this file are brought to the corresponding files.
+* `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the `faircookbook_rdmkit_mapping.yml` mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
 
 * `dsw`: Here all relevant Data Stewardship Wizard questions in the RDMkit knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.

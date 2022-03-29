@@ -13,7 +13,7 @@
 - rdmkit_title: Licensing
   rdmkit_filename: licensing
   links:
-    - fcb_title:
+    - fcb_title: Licensing
       fcb_id: FCB032
 - rdmkit_title: Machine actionability
   rdmkit_filename: machine_actionability
