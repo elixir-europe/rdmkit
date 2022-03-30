@@ -44,6 +44,10 @@ Optional metadata/frontmatter:
 
 * `search_exclude`: By setting this field to "true", the page will not end up in the search results of the search bar. `search_exclude: true` is the default for template pages. Make sure to delete this metadata field when creating a new page for contributors, before approving or before merging a pull request.
 
+* `sitemap`: let the page appear in the sitema.xml. Default: true
+
+* `no_robots`: by setting this field to true, the page will not end up in the search results of google or any other search engine.
+
 * `hide_sidebar`: When true, the sidebar will be hidden. Default: false.
 
 * `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button.
