@@ -3,11 +3,11 @@ title: Machine actionability
 contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat Sarntivijai, Nazeefa Fatima, Rafael Andrade Buono, Alex Henderson, Korbinian Bösl, Dominik Martinat, M-Christine Jacquemot-Perbal]
 description: how to make machine-actionable (meta)data.
 page_id: machine actionability
-faircookbook:
-- name: Search engine optimization
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/findability/seo.html# 
 related_pages: 
     tool_assembly: []
+faircookbook:
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure
@@ -180,7 +180,7 @@ For machine-actionability and interoperability, you should consider:
 * For more information see the [Data documentation and metadata](metadata_management) page.
 
 #### Vocabulary or ontology
-Vocabularies and ontologies are meant for describing concepts and relationships within a knowledge domain. For more information see the [Data documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management.html#how-do-you-find-appropriate-vocabularies-or-ontologies) page.
+Vocabularies and ontologies are meant for describing concepts and relationships within a knowledge domain. For more information see the [Data documentation and metadata](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies) page.
 
 
 ### Solutions

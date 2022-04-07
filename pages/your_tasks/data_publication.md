@@ -3,11 +3,11 @@ title: Data publication
 contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna]
 description: prepare data and find repositories for publication.
 page_id: data publication
-faircookbook:
-- name: Depositing in Zenodo generic repository
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/findability/zenodo-deposition.html#
 related_pages: 
     tool_assembly: []
+faircookbook:
+- name: Depositing in Zenodo generic repository
+  url: https://w3id.org/faircookbook/FCB009
 ---
 
 

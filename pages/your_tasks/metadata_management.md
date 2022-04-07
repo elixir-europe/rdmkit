@@ -3,15 +3,15 @@ title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
 description: how to document and describe your data.
 page_id: metadata
-faircookbook:
-- name: Introduction to terminologies and ontologies
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/interoperability/introduction-terminologies-ontologies.html# 
-- name: Creating data/variable dictionary
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/interoperability/creating-data-dictionary.html
-- name: Creating a metadata profile
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/interoperability/creating-minimal-metadata-profiles.html#
 related_pages: 
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
+faircookbook:
+- name: Introduction to terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB019
+- name: Creating data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
 dsw:
 - name: How will you be collecting and keeping your metadata?
   uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
@@ -72,11 +72,11 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * Highly structured data documentation is called **metadata**. Generating metadata in machine-readable or -actionable format makes your data more FAIR . Metadata provides structured and searchable information so that a user can find existing data, evaluate its reusability and cite it.
 
-* It is good practice to use international standard metadata schemas to organise and store your (meta)data in a structured way. A metadata schema describes the relations, such as hierarchy, of the elements that belong to the structure. It is also good practice to use international standard metadata checklists to describe the content your (meta)data. A (meta)data checklist is a fixed set of attributes about the data that needs to be provided. Some attributes are mandatory, some are only recommended or optional. International standard metadata schemas and checklists are developed by and accepted as standards by communities. There are many standard metadata schemas and checklists, some generic, while others discipline-specific. See the paragraph about [how to find standard metadata.](https://rdmkit.elixir-europe.org/metadata_management.html#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
+* It is good practice to use international standard metadata schemas to organise and store your (meta)data in a structured way. A metadata schema describes the relations, such as hierarchy, of the elements that belong to the structure. It is also good practice to use international standard metadata checklists to describe the content your (meta)data. A (meta)data checklist is a fixed set of attributes about the data that needs to be provided. Some attributes are mandatory, some are only recommended or optional. International standard metadata schemas and checklists are developed by and accepted as standards by communities. There are many standard metadata schemas and checklists, some generic, while others discipline-specific. See the paragraph about [how to find standard metadata.](metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
 
 * You can use the attributes of metadata schemas and checklists in a format that is not machine-readable or -actionable (e.g., by copying the metadata fields in a README.txt file or in a Codebook.xls). However, using standard metadata in a machine-readable or -actionable format will increase the findability of your data.
 
-* Metadata schemas and checklists usually rely on ontologies and controlled vocabularies, which make your data more reusable and interoperable. See the paragraph about [how to find ontologies and controlled vocabularies.](https://rdmkit.elixir-europe.org/metadata_management.html#how-do-you-find-appropriate-vocabularies-or-ontologies)
+* Metadata schemas and checklists usually rely on ontologies and controlled vocabularies, which make your data more reusable and interoperable. See the paragraph about [how to find ontologies and controlled vocabularies.](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
 
 * We recommend familiarizing yourself with the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data according to their requirements as early as possible.
 

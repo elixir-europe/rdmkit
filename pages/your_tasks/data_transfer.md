@@ -3,11 +3,6 @@ title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi] 
 description: how to transfer data files.
 page_id: transfer
-faircookbook:
-- name: Transferring data with SFTP
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/sftp.html
-- name: Downloading data with Aspera
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/aspera.html 
 related_pages: 
     tool_assembly: []
 training:
@@ -15,6 +10,11 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
+faircookbook:
+- name: Transferring data with SFTP
+  url: https://w3id.org/faircookbook/FCB014
+- name: Downloading data with Aspera
+  url: https://w3id.org/faircookbook/FCB015
 dsw:
 - name: How will the raw data be transported?
   uuid: 2e8d6e55-36ea-46eb-a921-65e550bce5dc

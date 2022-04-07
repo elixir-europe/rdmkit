@@ -154,7 +154,7 @@ for subdir, dirs, files in os.walk(rootdir):
                 pages_metadata[metadata['page_id']]['type'] = remove_prefix(
                     subdir, 'pages/').replace("_", " ").capitalize()
                 pages_metadata[metadata['page_id']]['url'] = os.path.splitext(file_name)[
-                    0] + ".html"
+                    0]
                 if 'description' in metadata:
                     pages_metadata[metadata['page_id']
                                    ]['description'] = metadata['description']

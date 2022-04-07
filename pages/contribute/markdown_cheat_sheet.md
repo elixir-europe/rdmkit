@@ -68,7 +68,7 @@ faircookbook:
     tool_assembly: [page_id1, page_id2]
   ``` 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
 
   ```yml
   training:
@@ -82,13 +82,9 @@ faircookbook:
       registry_url: https://tess.elixir-europe.org
       url: https://tess.elixir-europe.org/search?q=data%20analysis
   ```
-* `faircookbook`: List here all the links towards FAIR Cookbook recipes.
+* `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the `faircookbook_rdmkit_mapping.yml` mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
-  ```yml
-  faircookbook:
-  - name: Data licenses
-    url: https://fairplus.github.io/the-fair-cookbook/content/recipes/reusability/ATI_licensing_data.html
-  ```
+
 * `dsw`: Here all relevant Data Stewardship Wizard questions in the RDMkit knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
 
 * `datatable`: use this attribute to activate the pagination + sorting + searching in tables
@@ -404,7 +400,7 @@ related_pages:
 ```
 
 ## Listing training material
-You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](https://rdmkit.elixir-europe.org/all_training_resources.html).
+You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
 
 ```yml
 training:
