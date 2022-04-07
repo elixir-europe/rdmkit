@@ -7,7 +7,7 @@ topnav_title:
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@back-to-top
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.13.0
 
 sass:
   style: compressed
