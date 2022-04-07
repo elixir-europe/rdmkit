@@ -45,6 +45,8 @@ resources:
 <!---Please focus on resources that are relevant for the whole country for life sciences--->
 
 ## Introduction 
+This is an overview of research data management resources in the Netherlands, relevant for researchers in the Netherlands and to their collaborators. 
+
 The [ELIXIR Netherlands website](https://elixir-europe.org/about-us/who-we-are/nodes/netherlands) provides information on the organisation of and resources for ELIXIR Netherlands partners. The Dutch ELIXIR Node is hosted by the [Dutch Techcentre for Life Sciences (DTL)](https://www.dtls.nl), which is a public-private partnership of more than 50 life science institutions, and focuses on data stewardship capacity building, services and infrastructure to support FAIR implementation for the Dutch life science research. 
 
 Together with [Health-RI] (https://www.health-ri.nl), DTL has recently drafted the roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/news/setup-thematic-digital-competence-centers) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network will formally be established this spring (2022), and will be focused on FAIR data stewardship. Moreover, DTL also coordinates the National Programme Open Science (NPOS) [FAIR Data Programme Line](https://www.openscience.nl/en/fair-data-programme-line).
@@ -66,6 +68,3 @@ Additionally, the following national service provide useful information and supp
 * [NL-RSE](https://nl-rse.org/), the Dutch community of people writing and contributing to research software
 * The Dutch [Open Science Communities](https://www.openscience.nl/en/open-science-communities) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science
 * [RDA-NL](https://www.rd-alliance.org/groups/rda-netherlands), the Dutch Research Data Alliance Node 
-
-## Domain-specific infrastructures or resources 
-<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
