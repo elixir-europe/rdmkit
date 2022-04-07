@@ -42,6 +42,10 @@ faircookbook:
 
 * `search_exclude`: by setting this field true, the page will not end up in the search results of the searchbar. By default this is false.
 
+* `sitemap`: let the page appear in the sitema.xml. Default: true
+
+* `no_robots`: by setting this field to true, the page will not end up in the search results of google or any other search engine.
+
 * `hide_sidebar`: When true, the sidebar will be hided. Default: false
 
 * `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button

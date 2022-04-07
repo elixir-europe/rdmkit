@@ -116,6 +116,8 @@
     domains
   link: https://b2share.eudat.eu/
   name: b2share
+  registry:
+    fairsharing: da9307
   related_pages:
   - storage
   - data publication
