@@ -42,6 +42,54 @@ defaults:
       search_exclude: false
   -
     scope:
+      path: "pages/data_life_cycle/TEMPLATE_rdm_cycle.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/national_resources/TEMPLATE_resources.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/tool_assembly/TEMPLATE_tool_assembly.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/your_domain/TEMPLATE_your_domain.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/your_role/TEMPLATE_your_role.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/your_tasks/TEMPLATE_your_tasks.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
       path: "pages/data_life_cycle"
     values:
       type: data_life_cycle
@@ -84,3 +132,4 @@ defaults:
 
 plugins:
   - jemoji
+  - jekyll-sitemap
