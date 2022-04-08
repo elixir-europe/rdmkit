@@ -218,6 +218,8 @@ Details and provided solutions vary according to each institution. They are base
 
 There are several support services available to Norwegian Life Science researchers, including:
 * [ELIXIR Helpdesk](https://elixir.no/helpdesk)
+* [GBIF Norway Helpdesk for deposition of biodiversity data](https://www.gbif.no/services/)
+* [ELSI Helpdesk for biobanking from BBMRI-NO](https://bbmri.no/help-desk-elsi)
 * [NSD on (sensitive) personal data in research](https://www.nsd.no/en/data-protection-services)
 * University Research Data teams
     * [Research Data @ NTNU](https://i.ntnu.no/researchdata)
