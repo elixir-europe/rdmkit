@@ -118,11 +118,12 @@ def fairsharing_available(query, token):
             "POST", url, headers=headers, params=payload)
         output = response.json()['data']
         if len(output) >= 1:
-            for farisharing_obj in output:
-                if query.lower() in farisharing_obj['attributes']['name'].lower() and farisharing_obj['attributes']['doi']:
-                    return farisharing_obj['attributes']['url'].split(".")[-1]
+            for fairsharing_obj in output:
+                if query.lower() in fairsharing_obj['attributes']['name'].lower() and fairsharing_obj['attributes']['doi']:
+                    return fairsharing_obj['attributes']['url'].split(".")[-1]
     except:
-        print("Could not connect to FAIRsharing")
+        print(response)
+        sys.exit("Could not connect to FAIRsharing")
 
 
 def remove_prefix(s, prefix):
