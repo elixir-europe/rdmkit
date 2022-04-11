@@ -5,13 +5,13 @@ description: how to make machine-actionable (meta)data.
 page_id: machine actionability
 related_pages: 
     tool_assembly: []
-faircookbook:
-- name: Search engine optimization
-  url: https://w3id.org/faircookbook/FCB010
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure
   uuid: a797cab9-0829-4787-a096-1b5cedc9147f
+faircookbook:
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?
