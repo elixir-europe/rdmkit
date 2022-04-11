@@ -22,8 +22,6 @@
 - description: A searchable repository with a focus on plasmids
   link: https://www.addgene.org/browse/
   name: Addgene
-  registry:
-    fairsharing: 8hcczk
   related_pages:
   - micro biotech
 - description: Amazon Web Services
@@ -71,7 +69,6 @@
   name: ArrayExpress
   registry:
     biotools: arrayexpress
-    fairsharing: 6k0kwd
     tess: ArrayExpress
   related_pages:
   - micro biotech
@@ -116,8 +113,6 @@
     domains
   link: https://b2share.eudat.eu/
   name: b2share
-  registry:
-    fairsharing: da9307
   related_pages:
   - storage
   - data publication
@@ -253,7 +248,6 @@
   name: BioModels
   registry:
     biotools: biomodels
-    fairsharing: paz6mh
     tess: BioModels
   related_pages:
   - micro biotech
@@ -296,7 +290,6 @@
   name: BioStudies
   registry:
     biotools: biostudies
-    fairsharing: mtjvme
     tess: BioStudies
   related_pages:
   - micro biotech
@@ -417,8 +410,6 @@
     a subdivision of the American Chemical Society.
   link: https://www.cas.org/cas-data/cas-registry
   name: CAS Registry
-  registry:
-    fairsharing: r7Kwy7
   related_pages:
   - toxicology data
 - description: Biennial critical assessment of techniques for protein structure prediction
@@ -455,7 +446,6 @@
   name: CEDAR
   registry:
     biotools: cedar
-    fairsharing: pmygc7
   related_pages:
   - metadata
   - machine actionability
@@ -520,8 +510,6 @@
     of medicine which makes available private and public-funded clinical trials.
   link: https://clinicaltrials.gov/
   name: ClinicalTrials.gov
-  registry:
-    fairsharing: mewhad
   related_pages:
   - toxicology data
 - description: An open standard for describing workflows that are build from command
@@ -775,7 +763,6 @@
   name: DisGeNET
   registry:
     biotools: disgenet
-    fairsharing: fssydn
   related_pages:
   - data analysis
   - human data
@@ -1253,7 +1240,6 @@
   name: GenBank
   registry:
     biotools: genbank
-    fairsharing: 9kahy4
     tess: GenBank
   related_pages:
   - micro biotech
@@ -1306,7 +1292,6 @@
   link: https://github.com
   name: GitHub
   registry:
-    fairsharing: c55d5e
     fairsharing-coll: bsg-d001160
     tess: GitHub
   related_pages:
@@ -1320,7 +1305,6 @@
   link: https://gitlab.com/gitlab-org/gitlab
   name: GitLab
   registry:
-    fairsharing: 530e61
     tess: GitLab
   related_pages:
   - data organisation
@@ -1774,7 +1758,6 @@
   name: MobiDB
   registry:
     biotools: mobidb
-    fairsharing: jwra3e
   related_pages:
   - IDP
   - researcher
@@ -1784,7 +1767,6 @@
   name: MoDEL
   registry:
     biotools: model
-    fairsharing: vxz9pn
     tess: MoDEL
   related_pages:
   - biomol sim
@@ -1832,8 +1814,6 @@
     Assessments
   link: https://open-source-security-software.net/project/MONARC
   name: MONARC
-  registry:
-    fairsharing: b2979t
   related_pages:
   - data protection
   - policy officer
@@ -1883,8 +1863,6 @@
 - description: NCBI's taxonomy browser is a database of biodiversity information
   link: https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/
   name: NCBI Taxonomy
-  registry:
-    fairsharing: fj07xj
   related_pages:
   - micro biotech
 - description: Hosts information relating to strains, cultures and more
@@ -2096,7 +2074,6 @@
   name: PANGAEA
   registry:
     biotools: pangaea
-    fairsharing: 6yw6cp
   related_pages:
   - data publication
 - description: The Protein Circular Dichroism Data Bank
@@ -2216,8 +2193,6 @@
     exchange and verification.
   link: https://www.psidev.info/
   name: Proteomics Standards Initiative
-  registry:
-    fairsharing: 46e1e9
   related_pages:
   - proteomics
 - description: A secure platform for developing and sharing reproducible methods.
@@ -2435,7 +2410,6 @@
   link: https://schema.org
   name: Schema.org
   registry:
-    fairsharing: hzdzq8
     tess: Schema.org
   related_pages:
   - machine actionability
@@ -2784,7 +2758,6 @@
   name: WorkflowHub
   registry:
     biotools: workflowhub
-    fairsharing: 07cf72
   related_pages:
   - data publication
   - data manager
