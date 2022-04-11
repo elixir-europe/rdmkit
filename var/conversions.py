@@ -19,10 +19,10 @@ def process_args():
     parser = argparse.ArgumentParser(prog='Conversions',
                                      description='This script will convert the tool and resources table to a yaml file while injecting bio.tools and FAIRsharing IDs where needed.',)
     parser.add_argument('--username',
-                        help='specify the version of the tool this submission is done with')
+                        help='Specify the FAIRsharing username')
 
     parser.add_argument('--password',
-                        help='indicate if no upload should be performed and you like to submit a RUN object (e.g. if uploaded was done separately).')
+                        help='Specify the FAIRsharing password')
 
     parser.add_argument('--reg',
                         default=False,
