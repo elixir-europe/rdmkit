@@ -1,5 +1,6 @@
 ---
-title: How to contribute to the RDMkit website
+title: How to contribute to RDMkit
+toc: false
 ---
 
 

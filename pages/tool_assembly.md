@@ -1,6 +1,5 @@
 ---
 title: Tool assembly
-toc: false
 search_exclude: true
 ---
 
