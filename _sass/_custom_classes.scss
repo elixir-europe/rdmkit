@@ -103,9 +103,8 @@ h2.card-title {
     }
 }
 
-.landing-panel {
-    min-height: 50vh !important;
-    .blurb-title {
+.landing-block {
+    h1 {
         font-family: "Exo 2", sans-serif;
         font-size: 2em;
         margin-bottom: 18px;
