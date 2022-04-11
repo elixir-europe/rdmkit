@@ -20,7 +20,11 @@ dsw:
 ### Description
 Sometimes it is challenging to exchange data across data producers, infrastructures and data sharing platforms. Some reasons can be that the data has to be pre-processed or enriched to comply with legal or organisational practices, that the data has to be translated to different data formats, or that transferring data requires expertise and access to special interfaces. By acting as a broker, you can fill this gap by negotiating a contract with data providers and/or recipients and doing the work required to make it convenient for them to exchange data.
 
-IMAGE
+<img
+  src="/images/data_brokering_figure(1).svg"
+  alt="A flowchart displaying necessary steps required for data brokering, from producing data to sharing on behalf of others within a well defined ethical and legal framework."
+  title="Data Brokering Workflow"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 Figure 1: Individual data producers may process the data, store it, and submit it directly to international repositories or local public health authorities. In the data brokering model instead, several data producers (i.e. the data providers) submit their data to a common data recipient that might be charge of curating the data, analysing it with common pipelines, storing it and re-sharing parts of the data (as agreed with the data providers) to local health authorities and international repositories. The latter service is often referred to as “data brokering”, i.e. sharing data on behalf of others within a well defined ethical and legal framework. Icons attribution; Folder by mambu, Processing by ainul muttaqin, Database by Icons Bazaar, Personal Data by Silviu Ojog, Legal by Irvan Rhomadhani, and Validated File by Miguel Rocha - all icons are available at NounProject.com, and licensed under a [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
 
