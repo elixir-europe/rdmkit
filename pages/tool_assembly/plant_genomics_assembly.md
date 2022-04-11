@@ -39,7 +39,7 @@ Submission of sample descriptions to BioSamples can be done as early as the data
 ### Data processing and analysis
 Reference genomes for genome assembly and annotation should be obtained from [ENSEMBL Plants](https://plants.ensembl.org/index.html) or [PLAZA](https://bioinformatics.psb.ugent.be/plaza/), if available.
 Genetic variant data must be produced in the VCF format, and validated using the EVA vcf-validator (https://github.com/EBIvariation/vcf-validator). Please note to only use identifiers of sequences that match the reference genome assembly identifiers.
-In order to ensure interoperability of VCF files, the VCF meta-information lines should be used: see the [Plant sciences page](https://rdmkit.elixir-europe.org/plant_sciences.html#plant-genotyping-data-sharing-and-deposition) for more details.
+In order to ensure interoperability of VCF files, the VCF meta-information lines should be used: see the [Plant sciences page](plant_sciences#plant-genotyping-data-sharing-and-deposition) for more details.
 
 ### Data sharing and publishing
 All sequencing data collected in plant genotyping experiments should be submitted to ENA together with metadata compliant to the [GSC MIxS plant associated checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000020). Final results of such studies in the form of VCF files should be submitted to EVA. Additionally, supplemental data complementing these two data types is encouraged to be submitted to [e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/) or [Data INRAE](https://data.inrae.fr/).

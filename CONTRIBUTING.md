@@ -18,4 +18,4 @@ Bugs or remarks are tracked as GitHub issues. You can create an issue and choose
 
 ### Adding a new page or changing an existing page
 
-See our [How to contribute page](https://rdmkit.elixir-europe.org/how_to_contribute.html).
+See our [How to contribute page](how_to_contribute).

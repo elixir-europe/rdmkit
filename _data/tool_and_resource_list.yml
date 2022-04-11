@@ -116,6 +116,8 @@
     domains
   link: https://b2share.eudat.eu/
   name: b2share
+  registry:
+    fairsharing: da9307
   related_pages:
   - storage
   - data publication
@@ -509,8 +511,6 @@
 - description: Choose an open source license
   link: https://choosealicense.com
   name: Choose a license
-  registry:
-    tess: Choose a license
   related_pages:
   - licensing
   - researcher
@@ -552,8 +552,6 @@
     models in biology
   link: http://co.mbine.org
   name: COmputational Modeling in BIology NEtwork (COMBINE)
-  registry:
-    tess: COmputational Modeling in BIology NEtwork (COMBINE)
   related_pages:
   - micro biotech
 - description: Open source package management system
@@ -570,6 +568,15 @@
   name: Consent Clauses for Genomic Research
   related_pages:
   - human data
+- description: A command-line utility that creates projects from cookiecutters (project
+    templates), e.g. creating a Python package project from a Python package project
+    template.
+  link: https://github.com/cookiecutter/cookiecutter
+  name: Cookiecutter
+  related_pages:
+  - data organisation
+  - IT support
+  - data manager
 - description: Portal for scientists to broker more easily rich metadata alongside
     data to public repos.
   link: https://copo-project.org/
@@ -664,8 +671,6 @@
     data principles.
   link: https://datacatalog.elixir-luxembourg.org/
   name: Data Catalog
-  registry:
-    tess: Data Catalog
   related_pages:
   - metadata
   - transmed
@@ -927,7 +932,6 @@
   name: ELIXIR Core Data Resources
   registry:
     fairsharing-coll: bsg-c000039
-    tess: ELIXIR Core Data Resources
   related_pages:
   - existing data
   - Covid-19
@@ -958,8 +962,6 @@
 - description: "EMBL-EBI\u2019s web portal for finding ontologies"
   link: https://www.ebi.ac.uk/ols/index
   name: EMBL-EBI Ontology Lookup Service
-  registry:
-    tess: EMBL-EBI Ontology Lookup Service
   related_pages:
   - metadata
   - data manager
@@ -1002,7 +1004,6 @@
   name: Ensembl Plants
   registry:
     fairsharing: j8g2cv
-    tess: Ensembl Plants
   related_pages:
   - plant geno assembly
 - description: Regulation (eu) 2016/679 of the european parliament and of the council
@@ -1348,8 +1349,6 @@
 - description: Search engine for datasets
   link: https://datasetsearch.research.google.com/
   name: Google Dataset Search
-  registry:
-    tess: Google Dataset Search
   related_pages:
   - existing data
 - description: Cloud Storage for Work and Home
@@ -2055,6 +2054,8 @@
     research and enable collaboration.
   link: https://osf.io
   name: OSF
+  registry:
+    tess: OSF
   related_pages:
   - storage
   - researcher
@@ -2304,6 +2305,7 @@
   name: REMS
   registry:
     biotools: rems
+    tess: REMS
   related_pages:
   - IT support
   - transmed
@@ -2335,8 +2337,6 @@
 - description: Machine actionable DMPs.
   link: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
   name: Research Management Plan
-  registry:
-    tess: Research Management Plan
   related_pages:
   - DMP
   - researcher

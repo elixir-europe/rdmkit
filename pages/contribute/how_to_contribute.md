@@ -22,7 +22,7 @@ When writing for this website keep in mind the following:
 
 ## Attribution of the contributors
 
-Contributors will be shown at the bottom of the page if listed in the metadata of the markdown file. All contributors will also be displayed in the [contributors page](contributors.html). If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
+Contributors will be shown at the bottom of the page if listed in the metadata of the markdown file. All contributors will also be displayed in the [contributors page](contributors). If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
 
 ## Making a quick suggestion
 

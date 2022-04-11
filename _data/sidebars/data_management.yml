@@ -1,5 +1,5 @@
 title: Data management
-title_url: /index.html
+title_url: /index
 subitems:
   - title: Data life cycle
     description: Start here to get an overview of research data management. Click on a section of the diagram below to get an introduction to that stage of the data management life cycle.
@@ -9,83 +9,83 @@ subitems:
     description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
     subitems:
       - title: Researcher
-        url: /researcher.html
+        url: /researcher
       - title: "Data Steward: policy"
-        url: /data_steward_policy.html
+        url: /data_steward_policy
       - title: "Data Steward: research"
-        url: /data_steward_research.html
+        url: /data_steward_research
       - title: "Data Steward: infrastructure"
-        url: /data_steward_infrastructure.html
+        url: /data_steward_infrastructure
   - title: Your domain
     description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.
     subitems:
       - title: Plant sciences
-        url: /plant_sciences.html
+        url: /plant_sciences
       - title: Marine metagenomics
-        url: /marine_metagenomics.html
+        url: /marine_metagenomics
       - title: Human data
-        url: /human_data.html
+        url: /human_data
       - title: Biomolecular simulation data
-        url: /biomolecular_simulation_data.html
+        url: /biomolecular_simulation_data
       - title: Intrinsically disordered proteins
-        url: /intrinsically_disordered_proteins.html
+        url: /intrinsically_disordered_proteins
       - title: Microbial biotechnology
-        url: /microbial_biotechnology.html
+        url: /microbial_biotechnology
       - title: Epitranscriptome data
-        url: /epitranscriptome_data.html
+        url: /epitranscriptome_data
       - title: Proteomics
-        url: /proteomics.html
+        url: /proteomics
       - title: Toxicology data
-        url: /toxicology_data.html
+        url: /toxicology_data
       - title: Bioimaging data
-        url: /bioimaging_data.html
+        url: /bioimaging_data
       - title: Structural bioinformatics
-        url: /structural_bioinformatics.html
+        url: /structural_bioinformatics
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     subitems:
       - title: Compliance monitoring
-        url: /compliance_monitoring.html
+        url: /compliance_monitoring
       - title: Data analysis
-        url: /data_analysis.html
+        url: /data_analysis
       - title: Data management plan
-        url: /data_management_plan.html
+        url: /data_management_plan
       - title: Data organisation
-        url: /data_organisation.html
+        url: /data_organisation
       - title: Data protection
-        url: /data_protection.html
+        url: /data_protection
       - title: Data publication
-        url: /data_publication.html
+        url: /data_publication
       - title: Data quality
-        url: /data_quality.html
+        url: /data_quality
       - title: Data storage
-        url: /storage.html
+        url: /storage
       - title: Data transfer
-        url: /data_transfer.html
+        url: /data_transfer
       - title: Documentation and metadata
-        url: /metadata_management.html
+        url: /metadata_management
       - title: Existing data
-        url: /existing_data.html
+        url: /existing_data
       - title: Identifiers
-        url: /identifiers.html
+        url: /identifiers
       - title: Licensing
-        url: /licensing.html
+        url: /licensing
       - title: Machine actionability
-        url: /machine_actionability.html
+        url: /machine_actionability
       - title: Sensitive data
-        url: /sensitive_data.html
+        url: /sensitive_data
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
-    url: /tool_assembly.html
+    url: /tool_assembly
   - title: National resources
     description: Browse trough the national resource pages
-    url: /national_resources.html
+    url: /national_resources
 
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
-    url: /all_tools_and_resources.html
+    url: /all_tools_and_resources
     hr: True
   - title: All training resources
     description: Browse the RDMkit's catalogue of training resources for research data management.
-    url: /all_training_resources.html
+    url: /all_training_resources
 
