@@ -13,7 +13,8 @@ import yaml
 rootdir = 'pages/'
 DSWQuestion = collections.namedtuple('DSWQuestion', 'uuid, text')
 RDMKIT_PREFIX = 'https://rdmkit.elixir-europe.org'
-
+DSW_API_URL = 'https://api-converge.ds-wizard.org'
+DSW_KM_ID = 'dsw:root:latest'
 
 # --------- Functions ---------
 
@@ -64,8 +65,8 @@ def fetch_rdmkit_dsw_links(endpoint: str, package: str) -> Dict[str, List[DSWQue
 
 # --------- Parsing DSW json ---------
 parent_ids = fetch_rdmkit_dsw_links(
-    endpoint='https://api-converge.ds-wizard.org',
-    package='dsw:root-rdmkit:latest',
+    endpoint=DSW_API_URL,
+    package=DSW_KM_ID,
 )
 
 
@@ -85,19 +86,18 @@ for subdir, dirs, files in os.walk(rootdir):
                 dsw_end = 0
                 for index, line in enumerate(contents):
                     if re.match(r'^---', line):
-                        if not frontmatter_start:
-                            frontmatter_start = True
+                        if isinstance(frontmatter_start, bool):
+                            frontmatter_start = index
                         else:
-                            frontmatter_start = False
                             frontmatter_end = index
-                            if dsw_start:
+                            if dsw_start and not dsw_end:
                                 dsw_end = index
-                    elif line.startswith("dsw:") and frontmatter_start:
+                    elif line.startswith("dsw:") and isinstance(frontmatter_start, int):
                         dsw_start = index
-                    elif re.match(r'^[a-zA-Z]', line) and frontmatter_start and dsw_start:
+                    elif re.match(r'^[a-zA-Z]', line) and isinstance(frontmatter_start, int) and dsw_start and not dsw_end :
                         dsw_end = index
                     if frontmatter_end:
-                        print(f"\tFrontmatter present from line 0 - {frontmatter_end}")
+                        print(f"\tFrontmatter present from line {frontmatter_start} - {frontmatter_end}")
                         break
             if ( dsw_end and dsw_start ) or filename_stripped in parent_ids:
                 if  dsw_end and dsw_start:

@@ -1,7 +1,8 @@
 /*-----General styling-----*/
 
 @media (min-width: 992px) {
-    main h1:not(.has-subtitle):not(.blurb-title), main .h1:not(.has-subtitle) {
+    main h1:not(.has-subtitle):not(.blurb-title),
+    main .h1:not(.has-subtitle) {
         margin-top: -1rem;
     }
 }
@@ -30,9 +31,23 @@ li ul .sidebar_rdm_sub {
     margin-top: -0.25rem;
 }
 
-.sidebar-title a {
-    background-color: $dark;
-    color: $white;
+.sidebar-title {
+    border-bottom: 0.2rem solid $primary;
+    font-weight: bold;
+    padding-bottom: $input-btn-padding-y - 0.2rem;
+}
+
+#side-nav > ul {
+    margin-top: $spacer * 0.5;
+}
+
+/*-----News and events-----*/
+
+.events,
+.news {
+    h2 {
+        color: $dark;
+    }
 }
 
 /* -----Homepage----- */
@@ -105,12 +120,11 @@ h2.card-title {
 
 /*-----Top navigation-----*/
 
-.navbar-nav .nav-item > a.active {
-    color: $white;
-    background-color: $primary;
-    border-radius: $border-radius;
+.navbar-nav .nav-item > a {
+    white-space: nowrap;
+    &.active {
+        color: $white;
+        background-color: $primary;
+        border-radius: $border-radius;
+    }
 }
-
-
-
-

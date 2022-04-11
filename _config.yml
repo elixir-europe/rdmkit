@@ -1,18 +1,14 @@
 title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: 
-# this appears on the top navigation bar next to the home button
-
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.5.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.13.0
 
-plausible: 
-# Plausible tag
-plausible_src: 
-# default: 'https://plausible.io/js/plausible.js
+sass:
+  style: compressed
+  sourcemap: never
 
 gtag: G-RXQ55EFTTH
 # Google analytics tag
@@ -26,16 +22,67 @@ theme_variables:
     - https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap
     - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
 
+exclude:
+  - README.md
+
 defaults:
   -
     scope:
       path: ""
       type: "pages"
     values:
-      permalink: /:basename:output_ext
+      permalink: /:basename
       layout: "page"
       sidebar: data_management
       search_exclude: false
+  -
+    scope:
+      path: "pages/data_life_cycle/TEMPLATE_rdm_cycle.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/national_resources/TEMPLATE_resources.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/tool_assembly/TEMPLATE_tool_assembly.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/your_domain/TEMPLATE_your_domain.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/your_role/TEMPLATE_your_role.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
+  -
+    scope:
+      path: "pages/your_tasks/TEMPLATE_your_tasks.md"
+      type: "pages"
+    values:
+      sitemap: false
+      search_exclude: true
+      no_robots: true
   -
     scope:
       path: "pages/data_life_cycle"
@@ -77,3 +124,8 @@ defaults:
       path: "pages/about"
     values:
       sidebar: about
+
+plugins:
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap

@@ -1,7 +1,6 @@
 ---
 toc: false
 search_exclude: true
-layout: page
 ---
 <div class="d-flex landing-panel align-items-center">
   <div>
@@ -282,7 +281,7 @@ layout: page
   </div>
   <div class="col">
     <div class="bg-light rounded p-3 text-center h-100">
-      {%- assign content_pages = site.pages |  where_exp:"item", "item.type != blank" | where: "search_exclude", "false" %}
+      {%- assign content_pages = site.pages | where: "search_exclude", "false" %}
       <span class="count-number text-primary">{{content_pages.size}}</span>
       <p><b>Pages</b><br>
      Helping you with data management</p>
@@ -328,4 +327,22 @@ jQuery(function ($) { // DOM ready and $ in scope
     });
 
 });
+
+
+/**
+ * Toggle button texts
+ */
+ 
+ jQuery(function ($) {
+    $('.toggle-text[data-bs-toggle="collapse"]').on('click', function () {
+        $(this)
+            .data('text-original', $(this).text())
+            .text($(this).data('text-alt'))
+            .data('text-alt', $(this).data('text-original'));
+    });
+});
+
+
 </script>
+
+

@@ -232,11 +232,11 @@ There are several support services available to Norwegian Life Science researche
 ## Domain-specific infrastructures/resources
 The following resources and tools are relevant to the implemention of data management practices in your specific research area/topic:
 
-* [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/nels_assembly.html)
+* [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](nels_assembly)
 * [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
-* [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/tsd_assembly.html)
+* [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](tsd_assembly)
 * [Covid-19 Data Portal](https://covid19dataportal.no/)
-* [Marine metagenomics Portal - Tool Assembly RDMkit Page](https://rdmkit.elixir-europe.org/marine_metagenomics_assembly.html)
+* [Marine metagenomics Portal - Tool Assembly RDMkit Page](marine_metagenomics_assembly)
 
 
 ## Ethical committees and general authorities

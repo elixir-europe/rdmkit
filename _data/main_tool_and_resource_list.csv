@@ -65,6 +65,7 @@ Comptox,https://comptox.epa.gov/dashboard,The CompTox Chemicals Dashboard provid
 COmputational Modeling in BIology NEtwork (COMBINE),http://co.mbine.org,An initiative to bring together various formats and standard for computational models in biology,,micro biotech
 Conda,https://docs.conda.io/en/latest/,Open source package management system,,"IT support, data analysis"
 Consent Clauses for Genomic Research,https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing,A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards,,human data
+Cookiecutter,https://github.com/cookiecutter/cookiecutter,"A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.",,"data organisation, IT support, data manager"
 COPO,https://copo-project.org/,Portal for scientists to broker more easily rich metadata alongside data to public repos.,"biotools:copo, fairsharing-coll:bsg-d001247","metadata, researcher, plants, machine actionability"
 COVID-19 Molecular Structure and Therapeutics Hub,https://covid.bioexcel.eu/,COVID-19 Molecular Structure and Therapeutics Hub,,biomol sim
 Create a Codebook,https://ddialliance.org/training/getting-started-new-content/create-a-codebook,Examples and tools to create a codebook by the Data Documentation Initiative (DDI),,"metadata, researcher, data manager"

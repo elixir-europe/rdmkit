@@ -1,0 +1,31 @@
+- rdmkit_title: Data publication
+  rdmkit_filename: data_publication
+  links:
+    - fcb_title: Depositing in Zenodo generic repository
+      fcb_id: FCB009
+- rdmkit_title: Data transfer
+  rdmkit_filename: data_transfer
+  links:
+    - fcb_title: Transferring data with SFTP
+      fcb_id: FCB014
+    - fcb_title: Downloading data with Aspera
+      fcb_id: FCB015
+- rdmkit_title: Licensing
+  rdmkit_filename: licensing
+  links:
+    - fcb_title: Licensing
+      fcb_id: FCB032
+- rdmkit_title: Machine actionability
+  rdmkit_filename: machine_actionability
+  links:
+    - fcb_title: Search engine optimization
+      fcb_id: FCB010
+- rdmkit_title: Documentation and metadata
+  rdmkit_filename: metadata_management
+  links:
+    - fcb_title: Introduction to terminologies and ontologies
+      fcb_id: FCB019
+    - fcb_title: Creating data/variable dictionary
+      fcb_id: FCB025
+    - fcb_title: Creating a metadata profile
+      fcb_id: FCB026
