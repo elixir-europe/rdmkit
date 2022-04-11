@@ -1,6 +1,5 @@
 ---
 title: About
-toc: false
 ---
 
 ## Who is the RDMkit for?
