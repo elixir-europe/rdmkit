@@ -6,6 +6,11 @@ We are, since the beginning, actively spreading the word about RDMkit making sur
 
 ## Presentations
 
+### How RDMkit works and the theme behind it - Infectious diseases toolkit introduction
+
+**2022-04-12**
+
+<iframe class="scale" src="https://docs.google.com/presentation/d/e/2PACX-1vS3lQc2qo1nnn_98_8iBp63sKO2_sb2S-5NLuByiN4kpQZ-xiNQRv-WBlDYnWHED1OUZEU-5zNFoP4z/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### RDMkit on the NIH Data Sharing and Reuse Seminar 2022
 
