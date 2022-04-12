@@ -46,8 +46,6 @@ resources:
       your_role: 
       your_tasks: [DMP, compliance]
     url: https://www.health-ri.nl/services/hands
-    
-    
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
