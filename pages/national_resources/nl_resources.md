@@ -70,6 +70,6 @@ The following national service provide useful information and support:
 * The Dutch [Open Science Communities](https://www.openscience.nl/en/open-science-communities) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science
 * [RDA-NL](https://www.rd-alliance.org/groups/rda-netherlands), the Dutch Research Data Alliance Node 
 
-## Assistence
+## Assistance
 Researchers seeking practical assistance best check [RDM in the Netherlands](https://www.lcrdm.nl/en/rdm-in-the-netherlands), which provides information on the various local universities’ and university medical centers support desks
  
