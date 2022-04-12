@@ -35,7 +35,19 @@ resources:
       your_domain: [human data]
       your_role: 
       your_tasks: [DMP, compliance]
-    url:  https://www.health-ri.nl/services/elsi-servicedesk
+    url: https://www.health-ri.nl/services/elsi-servicedesk
+      - name: Handbook for Adequate Natural Data Stewardship
+    description: Guidelines on data stewardship and practical toolbox for researchers at Dutch University Medical Centres (UMCs).
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain: [human data]
+      your_role: 
+      your_tasks: [DMP, compliance]
+    url: https://www.health-ri.nl/services/hands
+    
+    
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
