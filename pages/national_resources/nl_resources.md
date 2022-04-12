@@ -49,19 +49,16 @@ This is an overview of research data management resources in the Netherlands, re
 
 The [ELIXIR Netherlands website](https://elixir-europe.org/about-us/who-we-are/nodes/netherlands) provides information on the organisation of and resources for ELIXIR Netherlands partners. The Dutch ELIXIR Node is hosted by the [Dutch Techcentre for Life Sciences (DTL)](https://www.dtls.nl), which is a public-private partnership of more than 50 life science institutions, and focuses on data stewardship capacity building, services and infrastructure to support FAIR implementation for the Dutch life science research. 
 
+## Funders
+National funders [NWO](https://www.nwo.nl/en/research-data-management) and [ZonMw](https://www.zonmw.nl/en/research-and-results/fair-data-and-data-management) consider responsible research data management an essential component of good research practice. They promote FAIR data stewardship - among others via mandatory data management plans, the requirement to deposit and share (meta)data, and facilitating researchers in creating FAIR data (with help of the [GO FAIR Foundation](https://www.gofairfoundation.org/m4m/), Health-RI and DTL). 
+For more information on the requirements for FAIR data stewardship, consult the funders’ webpages and their particular policies about data management and Open Science.
+
 ## National initiatives
 Together with [Health-RI](https://www.health-ri.nl), DTL has recently drafted the roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/news/setup-thematic-digital-competence-centers) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network will formally be established this spring (2022), and will be focused on FAIR data stewardship. 
 
 Moreover, DTL also coordinates the National Programme Open Science (NPOS) [FAIR Data Programme Line](https://www.openscience.nl/en/fair-data-programme-line).
 
-## Funders
-National funders [NWO](https://www.nwo.nl/en/research-data-management) and [ZonMw](https://www.zonmw.nl/en/research-and-results/fair-data-and-data-management) consider responsible research data management an essential component of good research practice. They promote FAIR data stewardship - among others via mandatory data management plans, the requirement to deposit and share (meta)data, and facilitating researchers in creating FAIR data (with help of the [GO FAIR Foundation](https://www.gofairfoundation.org/m4m/), Health-RI and DTL). 
-For more information on the requirements for FAIR data stewardship, consult the funders’ webpages and their particular policies about data management and Open Science.
-
-## Assistence initiatives
-Researchers seeking practical assistance best check [RDM in the Netherlands](https://www.lcrdm.nl/en/rdm-in-the-netherlands), which provides information on the various local universities’ and university medical centers support desks
- 
-Additionally, the following national service provide useful information and support:
+The following national service provide useful information and support:
 * [The National Coordination Point Research Data Management](https://www.lcrdm.nl/en) (LCRDM)
 * [SURF](https://www.surf.nl/en), the collaborative organisation for IT in Dutch education and research
 * [DANS](https://dans.knaw.nl/en/), the Dutch national centre of expertise and repository for research data
@@ -72,3 +69,7 @@ Additionally, the following national service provide useful information and supp
 * [NL-RSE](https://nl-rse.org/), the Dutch community of people writing and contributing to research software
 * The Dutch [Open Science Communities](https://www.openscience.nl/en/open-science-communities) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science
 * [RDA-NL](https://www.rd-alliance.org/groups/rda-netherlands), the Dutch Research Data Alliance Node 
+
+## Assistence
+Researchers seeking practical assistance best check [RDM in the Netherlands](https://www.lcrdm.nl/en/rdm-in-the-netherlands), which provides information on the various local universities’ and university medical centers support desks
+ 
