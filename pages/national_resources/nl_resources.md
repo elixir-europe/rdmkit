@@ -26,16 +26,16 @@ training:
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
 resources:
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+  - name: ELSI servicedesk
+    description: Guidance and answers to the ethical, legal and social implications of research on personalised medicine and next generation sequencing. The ELSI Servicedesk helps to answer questions on these topics.
+    how_to_access: 
+    instance_of: 
     related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-    url:
+      tool_assembly: 
+      your_domain: [human data]
+      your_role: 
+      your_tasks: [DMP, compliance]
+    url:  https://www.health-ri.nl/services/elsi-servicedesk
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
