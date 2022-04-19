@@ -35,7 +35,7 @@ Carole Goble:
     git: CaroleGoble
     role: lead
     orcid: 0000-0003-1219-2137
-    affiliation: The University of Manchester | ELIXIR-UK
+    affiliation: The University of Manchester / ELIXIR-UK
 Inge Jonassen:
     role: lead
     affiliation: University of Bergen
@@ -58,7 +58,7 @@ Munazah Andrabi:
     git: smza
     role: editor
     orcid: 0000-0002-7718-5109
-    affiliation: The University of Manchester | ELIXIR-UK
+    affiliation: The University of Manchester / ELIXIR-UK
 Vicky Sundesha:
     git: vsundesha
 Rob Hooft:
@@ -199,19 +199,19 @@ Stian Soiland-Reyes:
     git: stain
     orcid: 0000-0001-9842-9718
     email: soiland-reyes@manchester.ac.uk
-    affiliation: The University of Manchester | ELIXIR-UK
+    affiliation: The University of Manchester / ELIXIR-UK
 Michael R. Crusoe:
     git: mr-c
     orcid: 0000-0002-2961-9670
-    affiliation: Common Workflow Language project | ELIXIR-NL
+    affiliation: Common Workflow Language project / ELIXIR-NL
 Alan R Williams:
     git: alaninmcr
     orcid: 0000-0003-3156-2105
-    affiliation: The University of Manchester | ELIXIR-UK
+    affiliation: The University of Manchester / ELIXIR-UK
 Chris Child:
     git: christopherchild
     orcid: 0000-0003-0758-6908
-    affiliation: The University of Manchester | ELIXIR-UK
+    affiliation: The University of Manchester / ELIXIR-UK
 Olivier Collin:
     git: OlivierCollin
 Vera Ortseifen:
@@ -250,12 +250,12 @@ Sara Zullino:
     orcid: 0000-0003-3066-9357
     email: sara.zullino@unito.it
     git: szullino
-    affiliation: Euro-BioImaging | University of Torino
+    affiliation: Euro-BioImaging / University of Torino
 Jean-Marie Burel:
     orcid: 0000-0002-1789-1861
     email: j.burel@dundee.ac.uk
     git: jburel
-    affiliation: Euro-BioImaging | University of Dundee
+    affiliation: Euro-BioImaging / University of Dundee
 Manuel Pastor:
     orcid: 0000-0001-8850-1341
     email: manuel.pastor@upf.edu
@@ -288,7 +288,7 @@ Kees van Bochove:
 Cyril Pommier:
     git: cpommier
     orcid: 0000-0002-9040-8733
-    affiliation: INRA | ELIXIR-FR
+    affiliation: INRA / ELIXIR-FR
 Frederik Delaere:
     git: fretn
 Nadim Rahman:
@@ -304,21 +304,21 @@ Josh Moore:
     orcid: 0000-0003-4028-811X
     email: j.a.moore@dundee.ac.uk
     git: joshmoore
-    affiliation: German BioImaging | University of Dundee
+    affiliation: German BioImaging / University of Dundee
 Sébastien Besson:
     orcid: 0000-0001-8783-1429
     email: s.besson@dundee.ac.uk
     git: sbesson
-    affiliation: Euro-BioImaging | University of Dundee
+    affiliation: Euro-BioImaging / University of Dundee
 Stefanie Weidtkamp-Peters:
     orcid: 0000-0001-7734-3771
     email: stefanie.weidtkamp-peters@hhu.de
-    affiliation: German BioImaging | Heinrich Heine University Düsseldorf
+    affiliation: German BioImaging / Heinrich Heine University Düsseldorf
 Susanne Kunis:
     orcid: 0000-0001-6523-7496
     email: sukunis@uos.de
     git: sukunis
-    affiliation: German BioImaging | University Osnabrück
+    affiliation: German BioImaging / University Osnabrück
 Eva Alloza:
     email: eva.alloza@bsc.es
     git: EvaAlloza
