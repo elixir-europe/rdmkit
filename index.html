@@ -1,7 +1,6 @@
 ---
 toc: false
 search_exclude: true
-layout: page
 ---
 
 <h1 class="blurb-title">
@@ -323,4 +322,22 @@ jQuery(function ($) { // DOM ready and $ in scope
     });
 
 });
+
+
+/**
+ * Toggle button texts
+ */
+ 
+ jQuery(function ($) {
+    $('.toggle-text[data-bs-toggle="collapse"]').on('click', function () {
+        $(this)
+            .data('text-original', $(this).text())
+            .text($(this).data('text-alt'))
+            .data('text-alt', $(this).data('text-original'));
+    });
+});
+
+
 </script>
+
+

@@ -1,7 +1,6 @@
 ---
 title: All training resources
 datatable: true
-toc: false
 ---
 
 Overview of all training resources mentioned in RDMkit pages. This overview is automatically generated.

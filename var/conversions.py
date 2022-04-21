@@ -19,10 +19,10 @@ def process_args():
     parser = argparse.ArgumentParser(prog='Conversions',
                                      description='This script will convert the tool and resources table to a yaml file while injecting bio.tools and FAIRsharing IDs where needed.',)
     parser.add_argument('--username',
-                        help='specify the version of the tool this submission is done with')
+                        help='Specify the FAIRsharing username')
 
     parser.add_argument('--password',
-                        help='indicate if no upload should be performed and you like to submit a RUN object (e.g. if uploaded was done separately).')
+                        help='Specify the FAIRsharing password')
 
     parser.add_argument('--reg',
                         default=False,
@@ -118,11 +118,12 @@ def fairsharing_available(query, token):
             "POST", url, headers=headers, params=payload)
         output = response.json()['data']
         if len(output) >= 1:
-            for farisharing_obj in output:
-                if query.lower() in farisharing_obj['attributes']['name'].lower() and farisharing_obj['attributes']['doi']:
-                    return farisharing_obj['attributes']['url'].split(".")[-1]
+            for fairsharing_obj in output:
+                if query.lower() in fairsharing_obj['attributes']['name'].lower() and fairsharing_obj['attributes']['doi']:
+                    return fairsharing_obj['attributes']['url'].split(".")[-1]
     except:
-        print("Could not connect to FAIRsharing")
+        print(response)
+        sys.exit("Could not connect to FAIRsharing")
 
 
 def remove_prefix(s, prefix):
@@ -154,7 +155,7 @@ for subdir, dirs, files in os.walk(rootdir):
                 pages_metadata[metadata['page_id']]['type'] = remove_prefix(
                     subdir, 'pages/').replace("_", " ").capitalize()
                 pages_metadata[metadata['page_id']]['url'] = os.path.splitext(file_name)[
-                    0] + ".html"
+                    0]
                 if 'description' in metadata:
                     pages_metadata[metadata['page_id']
                                    ]['description'] = metadata['description']

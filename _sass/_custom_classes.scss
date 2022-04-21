@@ -41,6 +41,15 @@ li ul .sidebar_rdm_sub {
     margin-top: $spacer * 0.5;
 }
 
+/*-----News and events-----*/
+
+.events,
+.news {
+    h2 {
+        color: $dark;
+    }
+}
+
 /* -----Homepage----- */
 
 // Counters on landing page

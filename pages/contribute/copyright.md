@@ -1,6 +1,5 @@
 ---
 title: Copyright guidelines
-toc: false
 ---
 
 This website aims to be unique and authoritative, but do feel free to include quotes and images from other resources if they add value to the page. Please follow the guidelines below if you do so and respect copyright. 

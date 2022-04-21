@@ -3,18 +3,18 @@ title: GitHub way
 ---
 
 
-This guide tells you how you can easily request and edit a page on this website. You do this using GitHub. For other ways of contributing, see [How to contribute](how_to_contribute.html).
+This guide tells you how you can easily request and edit a page on this website. You do this using GitHub. For other ways of contributing, see [How to contribute](how_to_contribute).
 
 
 **Prerequisite:** [create a GitHub account](https://github.com/join) before you start. It's easy and free.
 
 ## Announce and discuss your proposal through GitHub "issues"
-1. Go to the [RDMkit repo](https://github.com/elixir-europe/rdmkit){:target="_blank"} on GitHub.
-1. Click on "Issues" in the top menu bar and look at the existing issues. See if your idea or suggestion is already being discussed.
+1. Go to the [RDMkit repo](https://github.com/elixir-europe/rdmkit) on GitHub.
+2. Click on "Issues" in the top menu bar and look at the existing issues. See if your idea or suggestion is already being discussed.
       * **If an issue exists**, add your comments. If you want to edit the content discussed, let people know through the comments.
       * **If no relevant issue exists**, create a new issue by clicking on the green "New issue" button on the right, and choose one of the issues templates. You can find more information on creating issues in the [GitHub documentation](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
-1. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers in the "Leave a comment" box and click on the green "Comment" button on the right.
-1. You can always return to your opened issue by going to the [issues section](https://github.com/elixir-europe/rdmkit/issues) of our GitHub repo.
+3. Discuss your idea with the editors through comments in the issues. You will be notified when others comment on your issues. Read the comments and write your opinion/questions/answers in the "Leave a comment" box and click on the green "Comment" button on the right.
+4. You can always return to your opened issue by going to the [issues section](https://github.com/elixir-europe/rdmkit/issues) of our GitHub repo.
 
 {% include callout.html type="tip" content="You can also get to the [RDMkit pages](https://github.com/elixir-europe/rdmkit) on GitHub using the 'GitHub' link in the header of this site" %}
 

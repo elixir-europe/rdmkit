@@ -1,4 +1,4 @@
-[![Converting the tool and resource table](https://github.com/elixir-europe/rdmkit/workflows/Converting%20the%20tool%20and%20resource%20table/badge.svg)](https://github.com/elixir-europe/rdmkit/actions?query=workflow%3A%22Converting+the+tool+and+resource+table%22) [![Jekyll site CI](https://github.com/elixir-europe/rdmkit/workflows/Jekyll%20site%20CI/badge.svg)](https://github.com/elixir-europe/rdmkit/actions?query=workflow%3A%22Jekyll+site+CI%22) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5110061.svg)](https://doi.org/10.5281/zenodo.5110061)
+[![Converting the tool and resource table](https://github.com/elixir-europe/rdmkit/workflows/Converting%20the%20tool%20and%20resource%20table/badge.svg)](https://github.com/elixir-europe/rdmkit/actions?query=workflow%3A%22Converting+the+tool+and+resource+table%22) [![Jekyll site CI](https://github.com/elixir-europe/rdmkit/workflows/Jekyll%20site%20CI/badge.svg)](https://github.com/elixir-europe/rdmkit/actions?query=workflow%3A%22Jekyll+site+CI%22) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5110061.svg)](https://doi.org/10.5281/zenodo.5110061) [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
 <img src="https://raw.githubusercontent.com/elixir-europe/rdmkit/master/assets/img/RDMkit_logo.svg" alt="RDMkit logo" width="450"/>
 
@@ -26,7 +26,7 @@ Do you want to help with this project? Please check out following pages for more
 
 Do you which to contact the editors of this project? Use [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
 
-If you want to build the website locally, please have a look at our [tutorial](https://rdmkit.elixir-europe.org/working_with_git.html#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser).
+If you want to build the website locally, please have a look at our [tutorial](working_with_git#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser).
 
 
 ## RDMkit is an ELIXIR Converge project
