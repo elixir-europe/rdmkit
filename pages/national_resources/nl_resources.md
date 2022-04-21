@@ -64,17 +64,17 @@ National funders [NWO](https://www.nwo.nl/en/research-data-management) and [ZonM
 For more information on the requirements for FAIR data stewardship, consult the funders’ webpages and their particular policies about data management and Open Science.
 
 ## National initiatives
-Together with [Health-RI](https://www.health-ri.nl), DTL has recently drafted the roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/news/setup-thematic-digital-competence-centers) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network will formally be established this spring (2022), and will be focused on FAIR data stewardship. 
+Together with [Health-RI](https://www.health-ri.nl), DTL has recently drafted the roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/news/setup-thematic-digital-competence-centers) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network will formally be established this spring (2022), and will contribute to strengthening and harmonising the digital practises among stakeholders in the broad Dutch research domains of life sciences and biomedical/health sciences.
 
 Moreover, DTL also coordinates the National Programme Open Science (NPOS) [FAIR Data Programme Line](https://www.openscience.nl/en/fair-data-programme-line).
 
-The following national service provide useful information and support:
+The following national services provide useful information and support:
 * [The National Coordination Point Research Data Management](https://www.lcrdm.nl/en) (LCRDM)
 * [SURF](https://www.surf.nl/en), the collaborative organisation for IT in Dutch education and research
 * [DANS](https://dans.knaw.nl/en/), the Dutch national centre of expertise and repository for research data
 * [4TU.ResearchData](https://data.4tu.nl/info/en/), the Dutch national data repository for science, engineering and design 
 * [Netherlands eScience Center](https://www.esciencecenter.nl/) (NleSC), building and applying software to enhance the use of computing and digital technologies in academic research
-* [Research Data Netherlands](https://researchdata.nl/en/) (RDNL), strengthening the National Programme Open Science, and helping create a FAIR research ecosystem across science fields, and its [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) Training 
+* [Research Data Netherlands](https://researchdata.nl/en/) (RDNL), collaboration of SURF, 4TU.ResearchData, DANS and DTL to contribute to strengthening the National Programme Open Science, and helping create a FAIR research ecosystem across science fields, and its [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) Training 
 * The [DTL Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/) (DSIG), the Dutch (and beyond) community hub for data stewardship that enables informal and inclusive knowledge and experience exchange
 * [NL-RSE](https://nl-rse.org/), the Dutch community of people writing and contributing to research software
 * The Dutch [Open Science Communities](https://www.openscience.nl/en/open-science-communities) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science
