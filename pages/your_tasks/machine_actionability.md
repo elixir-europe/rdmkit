@@ -3,15 +3,15 @@ title: Machine actionability
 contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat Sarntivijai, Nazeefa Fatima, Rafael Andrade Buono, Alex Henderson, Korbinian Bösl, Dominik Martinat, M-Christine Jacquemot-Perbal]
 description: how to make machine-actionable (meta)data.
 page_id: machine actionability
-faircookbook:
-- name: Search engine optimization
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/findability/seo.html# 
 related_pages: 
     tool_assembly: []
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure
   uuid: a797cab9-0829-4787-a096-1b5cedc9147f
+faircookbook:
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?
@@ -104,7 +104,8 @@ By providing structured metadata and data to a database that follows standards (
 * Applying RDF syntax to the database can make the (meta)data available for knowledge graphs and semantic web applications.
 * If [Application Programming Interface (API)](https://en.wikipedia.org/wiki/API) is available, other software/applications could make complex queries, access the database programmatically and always get up-to-date data.
 * If the metadata of your database or repository is exposed according to specific standards, it could function as data provider or data source, and be harvested and indexed by
-  * Data catalogues or data portals, such as [OmicsDI](https://www.omicsdi.org) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
+  * Data catalogues or data portals, such as [OmicsDI](http://blog.omicsdi.org/post/omicsdi-spec/) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
+  * The [OpenAIRE aggregator](https://www.openaire.eu/aggregation-and-content-provision-workflows) that collects metadata records via OAI-PMH in the majority of cases.
   * Other instances of your data repository software, such as [Dataverse](https://guides.dataverse.org/en/latest/admin/dashboard.html#harvesting) and [EUDAT B2FIND](http://b2find.eudat.eu/guidelines/harvesting.html), which use OAI-PMH for metadata harvest.
   * Search engines such as [Google Dataset Search](https://datasetsearch.research.google.com/help), which relies on [sitemaps.org](https://www.sitemaps.org), [schema.org](https://schema.org), [DCAT](https://www.w3.org/TR/vocab-dcat/) and other approaches to datasets discovery.
 * Machine actionable metadata facilitates the automatization of data handling and validation, allowing for easier development of new tools and analysis strategies (e.g. data visualization tools, machine learning and artificial intelligence applications).
@@ -179,7 +180,7 @@ For machine-actionability and interoperability, you should consider:
 * For more information see the [Data documentation and metadata](metadata_management) page.
 
 #### Vocabulary or ontology
-Vocabularies and ontologies are meant for describing concepts and relationships within a knowledge domain. For more information see the [Data documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management.html#how-do-you-find-appropriate-vocabularies-or-ontologies) page.
+Vocabularies and ontologies are meant for describing concepts and relationships within a knowledge domain. For more information see the [Data documentation and metadata](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies) page.
 
 
 ### Solutions

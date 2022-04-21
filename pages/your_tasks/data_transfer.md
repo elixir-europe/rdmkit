@@ -3,11 +3,6 @@ title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi] 
 description: how to transfer data files.
 page_id: transfer
-faircookbook:
-- name: Transferring data with SFTP
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/sftp.html
-- name: Downloading data with Aspera
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/accessibility/aspera.html 
 related_pages: 
     tool_assembly: []
 training:
@@ -20,6 +15,11 @@ dsw:
   uuid: 2e8d6e55-36ea-46eb-a921-65e550bce5dc
 - name: How will your first data come in?
   uuid: f4065e54-d27a-45de-be4c-10384feacd0d
+faircookbook:
+- name: Transferring data with SFTP
+  url: https://w3id.org/faircookbook/FCB014
+- name: Downloading data with Aspera
+  url: https://w3id.org/faircookbook/FCB015
 ---
 
 ## How do you transfer large data files?
@@ -34,7 +34,12 @@ There are many aspects to consider when dealing with data transfer.
 
 * The **size or volume** of the data and the **capacity or bandwidth of the network** that links your local computer with the distant computer are crucial aspects. Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services.
 
-* Data **security**. If you intend to transfer sensitive data to another location, you have to check the regulation and security measures on the remote site. You can interact with the IT departments at both locations in order to establish your strategy. Do not forget to check the [Human Data](human_data) pages of the RDMkit.
+* Ensure that you are aware of the **legal and ethical implications** of your data transfer
+    * For data concerning  persons, you have to safeguard compliance with various legal and ethical frameworks, including the GDPR. You might have to establish a **data processing** or **joint data controller** agreement before you can transfer the data.  We highly recommend you to check the [Human Data](human_data) pages of the RDMkit.
+    * For data relevant for later patenting or other types of commercialization you  might want to establish a **non-disclosure** or other type of agreement with the other party to protect your interest.
+    * You might also have to consider other laws and regulations, for instance regarding **biosecurity** of data affecting pathogens or other aspects of potential **dual-use**.
+    * The technical protocol you choose for your data transfer should meet your requirement for **data security** resulting these implications. You can interact with the IT departments at both locations in order to establish your strategy.
+
 
 * If you have the technical skills and knowledge, consider using appropriate File Transfer Protocols.
 
@@ -64,19 +69,19 @@ There are many aspects to consider when dealing with data transfer.
 
 * Countries could provide national file sender services (browser based or other) which could be useful for one time transfer of data files, limited in number and volume (for instance, up to 100 GB or 250 GB), from person to person. Importantly, an academic account is usually needed to use these kinds of services, so ask the IT team in your institute for more information.
 
-* If you have the technical skills and the knowledge, you can use the most common data transfer protocols. These protocols are useful for data volume **bigger than 50GB or for hundreds of data files**.
+* If you have the technical skills and the knowledge, you can use the most common data transfer protocols. These protocols are useful for data volume **larger than 50GB or for hundreds of data files**.
     * Applications suitable for small to mid size data available on any operating system and that can be used either through command-line (directly or with tools like [cURL](https://curl.se)) or through a graphical interface, are:
         * FTP (File Transfer Protocol) will transfer files between a client and an FTP server, which will require an account in order to transfer the files.
         * Be sure to use a **secure** version of this protocol, such as FTPS or SFTP (SSH File Transfer Protocol). 
         * HTTP (HyperText Transfer Protocol)
         * Rsync (remote synchronization): can be used to transfer files between two computers and to keep the files synchronized between these two computers.
-        * SCP (secure copy): SCP will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication.  
+        * SCP (secure copy protocol): SCP will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication.  
 
     * For massive amounts of data, additional protocols have been developed, parallelizing the flow of data. These transfer solutions require commercial licences for your site and as such they are available mostly on large computational centres.
         * [Aspera Fasp](https://www.ibm.com/products/aspera)
         * GridFTP and [Globus](https://www.globus.org)
 
-    * Data Transfer Protocols with a graphical user interface are:  
+    * Data Transfer tools with a graphical user interface are:  
         * [FileZilla](https://filezilla-project.org)
         * [WinSCP](https://winscp.net/eng/index.php)
 
