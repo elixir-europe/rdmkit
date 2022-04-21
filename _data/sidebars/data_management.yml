@@ -48,6 +48,8 @@ subitems:
         url: /compliance_monitoring.html
       - title: Data analysis
         url: /data_analysis.html
+      - title: Data brokering
+        url: /data_brokering
       - title: Data management plan
         url: /data_management_plan.html
       - title: Data organisation
