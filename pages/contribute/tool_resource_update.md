@@ -40,7 +40,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 
 ## Making changes
 
-Since the csv file is not user-friendly and prone to mistakes because empty fields and commas, we do not recommend making changes using the GitHub website itself, instead we point people to the [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
+Since the csv file is not user-friendly and prone to mistakes because of potential empty fields and use of commas, we do not recommend making changes using the GitHub website itself, instead we point people to the [Google spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit?usp=sharing).
 
 The editors will do the work on Git for you. All you need to do is:
 
