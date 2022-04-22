@@ -8,7 +8,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 dsw:
 - name: Did you choose the workflow engine you will be using?

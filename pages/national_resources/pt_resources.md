@@ -11,7 +11,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/materials?node=Portugal
   - name: Ready for BioData.pt Data Management?
     registry: R4BDM

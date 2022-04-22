@@ -8,7 +8,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
   - name: A FAIR guide for data providers to maximise sharing of human genomic data
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873

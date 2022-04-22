@@ -74,12 +74,10 @@ faircookbook:
   training:
     - name: Training in TeSS
       registry: TeSS
-      registry_url: https://tess.elixir-europe.org
       url: https://tess.elixir-europe.org/search?q=data%20analysis
 
     - name: Training in TeSS
       registry: TeSS
-      registry_url: https://tess.elixir-europe.org
       url: https://tess.elixir-europe.org/search?q=data%20analysis
   ```
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/rdmkit/tree/master/_data/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
@@ -406,12 +404,10 @@ You can list training material by using the metadata fields as in the example be
 training:
    - name: Training in TeSS
      registry: TeSS
-     registry_url: https://tess.elixir-europe.org
      url: https://tess.elixir-europe.org/search?q=data%20analysis
 
    - name: Training in TeSS
      registry: TeSS
-     registry_url: https://tess.elixir-europe.org
      url: https://tess.elixir-europe.org/search?q=data%20analysis
 ```
 

@@ -11,7 +11,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Norway
   - name: ELIXIR Norway community in Zenodo
     registry: Zenodo
