@@ -6,7 +6,7 @@ related_pages:
   your_tasks: [compliance, DMP, data organisation, licensing, metadata, data protection, data publication, data quality, transfer, identifiers, machine actionability]
 training:
   - name: TeSS - ELIXIR’s training portal
-    registry: TeSS/
+    registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data%20manager%22#materials
 
   - name: RDNL - Essentials for Data Support

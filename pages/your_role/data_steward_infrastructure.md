@@ -6,7 +6,7 @@ related_pages:
   your_tasks: [data analysis, data protection, transfer, identifiers, storage, data organisation, machine actionability]
 training:
   - name: TeSS - ELIXIR’s training portal
-    registry: TeSS/
+    registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22IT%20support%22#materials
 
   - name: RDNL - Essentials for Data Support

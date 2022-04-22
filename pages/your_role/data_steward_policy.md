@@ -6,7 +6,7 @@ related_pages:
   your_tasks: [compliance, licensing, DMP, data protection, sensitive]
 training:
   - name: TeSS - ELIXIR’s training portal
-    registry: TeSS/
+    registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22policy%20officer%22#materials
 
   - name: RDNL - Essentials for Data Support
