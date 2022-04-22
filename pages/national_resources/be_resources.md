@@ -14,9 +14,9 @@ training:
     url: https://tess.elixir-europe.org/materials?node=Belgium
   - name: ELIXIR Belgium community in Zenodo
     registry: Zenodo
-    registry_url: https://zenodo.org
     url: https://zenodo.org/communities/elixir-be/?page=1&size=20
   - name: ELIXIR Belgium YouTube
+    registry: Youtube
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
 resources:

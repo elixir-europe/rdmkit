@@ -36,7 +36,6 @@ training:
 
   - name: NPOS/ELIXIR data steward competency framework
     registry: Zenodo
-    registry_url: https://zenodo.org
     url: https://zenodo.org/record/3490855#.YArTH-lKi7o
 
   - name: ELIXIR Data Management Network
