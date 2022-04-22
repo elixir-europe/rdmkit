@@ -11,27 +11,22 @@ training:
 
   - name: RDNL - Essentials for Data Support
     registry:
-    registry_url:
     url: https://datasupport.researchdata.nl/en/
 
   - name: Mantra - RDM training
     registry:
-    registry_url:
     url: https://mantra.edina.ac.uk/
 
   - name: GO FAIR resources
     registry:
-    registry_url:
     url: https://www.go-fair.org/resources/
 
   - name: Data Carpentry lessons
-    registry:
-    registry_url:
+    registry: Carpentries
     url: https://datacarpentry.org/lessons/
 
   - name: RDNL & DCC - Delivering RDM Services
     registry:
-    registry_url:
     url: https://www.futurelearn.com/courses/delivering-research-data-management-services
 
   - name: NPOS/ELIXIR data steward competency framework
@@ -40,7 +35,6 @@ training:
 
   - name: ELIXIR Data Management Network
     registry:
-    registry_url:
     url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators
 ---
 
