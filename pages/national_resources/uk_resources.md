@@ -46,7 +46,7 @@ resources:
 
 This page provides an overview of the data management resources in the UK. The target audience is the scientific community in the life sciences and collaborators.
 
-## Funder policies, guidelines and data managment plan (DMP) templates
+## Funder policies, guidelines and data management plan (DMP) templates
    * UK Research and Innovation ([UKRI](https://www.ukri.org/)): [Concordat on open research](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf) and [Open access policy](https://www.ukri.org/publications/ukri-open-access-policy/)
    * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [DM guidelines](https://www.ukri.org/councils/bbsrc/guidance-for-applicants/what-to-include-in-your-application/data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
    * Medical Research Council ([MRC](https://www.ukri.org/councils/mrc/)): [DM guidelines](https://www.ukri.org/publications/what-is-a-data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/mrc-data-sharing-policy/)
