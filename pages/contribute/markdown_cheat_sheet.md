@@ -68,7 +68,7 @@ faircookbook:
     tool_assembly: [page_id1, page_id2]
   ``` 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources). If the registry is specified, please use one of the following: TeSS, Youtube, Zenodo or Carpentries.
 
   ```yml
   training:

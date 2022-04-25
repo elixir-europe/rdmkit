@@ -72,7 +72,7 @@ Optional metadata/frontmatter:
     tool_assembly: [page_id1, page_id2]
     ``` 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources). If the registry is specified, please use one of the following: TeSS, Youtube, Zenodo or Carpentries.
 
   ```yml
   training:
@@ -84,12 +84,12 @@ Optional metadata/frontmatter:
       registry: TeSS
       url: https://tess.elixir-europe.org/search?q=data%20analysis
   ```
-
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/rdmkit/tree/master/_data/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
+
 
 * `dsw`: Here all relevant Data Stewardship Wizard questions in the RDMkit knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
 
-* `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
+* `datatable`: use this attribute to activate the pagination + sorting + searching in tables
 
 ### Markdown file naming
 
