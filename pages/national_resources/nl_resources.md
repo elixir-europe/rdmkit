@@ -18,6 +18,7 @@ training:
     url: <!--- https://zenodo.org/communities/elixir NODENAME --->
   - name: ELIXIR NODENAME YouTube
     url: <!--- URL of the channel --->
+    registry: Youtube
   - name: <!---REPLACE THIS with the name of your training in registry or platform--->
     registry: <!---REPLACE THIS with the name of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
