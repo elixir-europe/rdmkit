@@ -7,7 +7,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+process%22#materials
 dsw:
 - name: List the data formats you will be using for interpretation and describe their

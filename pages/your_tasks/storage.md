@@ -8,7 +8,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+storage%22#materials
 dsw:
 - name: Data storage systems and file naming conventions

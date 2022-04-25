@@ -11,13 +11,12 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Norway
   - name: ELIXIR Norway community in Zenodo
     registry: Zenodo
-    registry_url: https://zenodo.org
     url: https://zenodo.org/communities/elixir-no/?page=1&size=20
 #  - name: ELIXIR Norway YouTube
+#    registry: Youtube
 #    url: https://www.youtube.com/channel/UCva4S9uWxXqyGnbSgxIbcwA
 
 

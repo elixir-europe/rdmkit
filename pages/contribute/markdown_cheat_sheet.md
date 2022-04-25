@@ -68,18 +68,16 @@ faircookbook:
     tool_assembly: [page_id1, page_id2]
   ``` 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources). If the registry is specified, please use one of the following: TeSS, Youtube, Zenodo or Carpentries.
 
   ```yml
   training:
     - name: Training in TeSS
       registry: TeSS
-      registry_url: https://tess.elixir-europe.org
       url: https://tess.elixir-europe.org/search?q=data%20analysis
 
     - name: Training in TeSS
       registry: TeSS
-      registry_url: https://tess.elixir-europe.org
       url: https://tess.elixir-europe.org/search?q=data%20analysis
   ```
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/rdmkit/tree/master/_data/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
@@ -226,22 +224,22 @@ The Font Awesome icons allow you to adjust their size by simply adding `fa-2x`, 
 Here's an example of how to scale up a camera icon:
 
 ```html
-<i class="fas fa-camera-retro"></i> normal size (1x)
-<i class="fas fa-camera-retro fa-lg"></i> fa-lg
-<i class="fas fa-camera-retro fa-2x"></i> fa-2x
-<i class="fas fa-camera-retro fa-3x"></i> fa-3x
-<i class="fas fa-camera-retro fa-4x"></i> fa-4x
-<i class="fas fa-camera-retro fa-5x"></i> fa-5x
+<i class="fa-solid fa-camera-retro"></i> normal size (1x)
+<i class="fa-solid fa-camera-retro fa-lg"></i> fa-lg
+<i class="fa-solid fa-camera-retro fa-2x"></i> fa-2x
+<i class="fa-solid fa-camera-retro fa-3x"></i> fa-3x
+<i class="fa-solid fa-camera-retro fa-4x"></i> fa-4x
+<i class="fa-solid fa-camera-retro fa-5x"></i> fa-5x
 ```
 
 Here's what they render to:
 
-<i class="fas fa-camera-retro"></i> 1x
-<i class="fas fa-camera-retro fa-lg"></i> fa-lg
-<i class="fas fa-camera-retro fa-2x"></i> fa-2x
-<i class="fas fa-camera-retro fa-3x"></i> fa-3x
-<i class="fas fa-camera-retro fa-4x"></i> fa-4x
-<i class="fas fa-camera-retro fa-5x"></i> fa-5x
+<i class="fa-solid fa-camera-retro"></i> 1x
+<i class="fa-solid fa-camera-retro fa-lg"></i> fa-lg
+<i class="fa-solid fa-camera-retro fa-2x"></i> fa-2x
+<i class="fa-solid fa-camera-retro fa-3x"></i> fa-3x
+<i class="fa-solid fa-camera-retro fa-4x"></i> fa-4x
+<i class="fa-solid fa-camera-retro fa-5x"></i> fa-5x
 
 ## Links
 
@@ -406,12 +404,10 @@ You can list training material by using the metadata fields as in the example be
 training:
    - name: Training in TeSS
      registry: TeSS
-     registry_url: https://tess.elixir-europe.org
      url: https://tess.elixir-europe.org/search?q=data%20analysis
 
    - name: Training in TeSS
      registry: TeSS
-     registry_url: https://tess.elixir-europe.org
      url: https://tess.elixir-europe.org/search?q=data%20analysis
 ```
 

@@ -7,7 +7,6 @@ contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 ---
 
