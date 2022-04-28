@@ -53,7 +53,7 @@ Data brokering involves collecting data from various data providers (metadata an
 * Data brokers should also consider implementing a mechanism for metadata and data files update within their platform, and define mechanisms to pass on the updates to international repositories. Please consider that depending on the update mechanisms in place at the international repositories (e.g. API vs manual update via email), this process might become quite time-consuming.
 * [Data transfer](data_transfer) from the data providers to the data brokering platform will depend on the nature and volume of data. The volume might be larger if data providers can submit data in batches. 
 * Clarify with the data providers how the data will be processed, in terms of data curation/cleaning and downstream [data analyses](data_analysis). 
-* [Data storage](https://rdmkit.elixir-europe.org/storage.html) needs should be carefully addressed; consider storing data in compressed formats and deleting intermediate files from analyses that could be recomputed if needed to gain storage space.
+* [Data storage](storage) needs should be carefully addressed; consider storing data in compressed formats and deleting intermediate files from analyses that could be recomputed if needed to gain storage space.
 
 ### Solutions
 Collection of metadata can be done in various ways:
