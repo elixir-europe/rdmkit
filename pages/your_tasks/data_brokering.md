@@ -64,7 +64,7 @@ Collection of metadata can be done in various ways:
 
 ## Sharing data to public repositories
 ### Description
-Often, a goal of the broker is to submit the collected and harmonised data in an open archive for the benefit of both the data owners and the wider scientific community. This supports sharing data with collaborators, referencing for publication and provides a [long-term storage solution](https://rdmkit.elixir-europe.org/storage.html).
+Often, a goal of the broker is to submit the collected and harmonised data in an open archive for the benefit of both the data owners and the wider scientific community. This supports sharing data with collaborators, referencing for publication and provides a [long-term storage solution](storage).
 
 ### Example for genomic data
 For sharing of sequencing data within Europe, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/about) can be used. The ENA is part of the [INSDC](https://www.insdc.org/), a global collaboration for the archival of nucleotide sequence data including NCBI and DDBJ. For information on the structure of ENA content, please see here: https://www.ebi.ac.uk/ena/browser/about/content. A general guide to submissions to the ENA can be found here: https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html
