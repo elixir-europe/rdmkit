@@ -7,8 +7,6 @@
 - description: A standard schema for primary biodiversity data
   link: https://www.tdwg.org/standards/abcd/
   name: Access to Biological Collection Data Schema (ABCD)
-  registry:
-    biotools: abcd
   related_pages:
   - micro biotech
 - description: Ada is a performant and highly configurable system for secured integration,
@@ -75,6 +73,7 @@
     tess: ArrayExpress
   related_pages:
   - micro biotech
+  - data publication
 - description: With Arvados, bioinformaticians run and scale compute-intensive workflows,
     developers create biomedical applications, and IT administrators manage large
     compute and storage resources.
@@ -183,6 +182,7 @@
     biotools: bignasim
   related_pages:
   - biomol sim
+  - data publication
 - description: The BioImage Informatics Index is a registry of software tools, image
     databases for benchmarking, and training materials for bioimage analysis
   link: https://biii.eu/
@@ -257,6 +257,7 @@
     tess: BioModels
   related_pages:
   - micro biotech
+  - data publication
 - description: BIONDA is a free and open-access biomarker database, which employs
     various text mining methods to extract structured information on biomarkers from
     abstracts of scientific publications
@@ -302,6 +303,7 @@
   - micro biotech
   - metadata
   - plants
+  - data publication
 - description: Resource for management and analysis of 5D biological images
   link: https://bioimage.ucsb.edu/bisque
   name: BisQue
@@ -896,6 +898,7 @@
   - researcher
   - data manager
   - IT support
+  - data publication
 - description: DMP creation, versioning and sharing
   link: https://easydmp.no/
   name: EasyDMP
@@ -1263,6 +1266,12 @@
   name: Gene Expression Omnibus (GEO)
   related_pages:
   - micro biotech
+  - data publication
+  - metadata
+  - transfer
+  - ome
+  - bioimaging data
+  - toxicology data
 - description: Geneid is an ab initio gene finding program used to predict genes along
     DNA sequences in a large set of organisms.
   link: https://genome.crg.cat/software/geneid/index.html
@@ -1272,15 +1281,6 @@
   related_pages:
   - data analysis
   - researcher
-- description: A public repository that stores microarray, next-generation sequencing,
-    and other forms of high-throughput functional genomics data submitted by the research
-    community.
-  link: https://www.ncbi.nlm.nih.gov/geo/
-  name: GEO
-  registry:
-    tess: GEO
-  related_pages:
-  - toxicology data
 - description: GHS (Globally Harmonized System of Classification and Labelling of
     Chemicals) classification was developed by the United Nations in an attempt to
     align standards and chemical regulations in different countries. GHS includes
@@ -1364,6 +1364,7 @@
     biotools: GPCRmd
   related_pages:
   - biomol sim
+  - data publication
 - description: The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses.
     It allows the creation of an automated and integrated workflow to manage, analyse
     and visualize RNA-Seq data.
@@ -1705,6 +1706,7 @@
     biotools: metabolomexchange
   related_pages:
   - micro biotech
+  - data publication
 - description: Minimum Information About Disorder Experiments (MIADE) standard
   link: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
   name: MIADE
@@ -1799,6 +1801,7 @@
   name: MoDEL-CNS
   related_pages:
   - biomol sim
+  - data publication
 - description: Repository for theoretical models of macromolecular structures with
     DOIs for models
   link: https://www.modelarchive.org/
@@ -1808,6 +1811,7 @@
   related_pages:
   - biomol sim
   - struct bioinfo
+  - data publication
 - description: Molgenis is a modular web application for scientific data. Molgenis
     provides researchers with user friendly and scalable software infrastructures
     to capture, exchange, and exploit the large amounts of data that is being produced
@@ -1921,6 +1925,7 @@
   name: NMRlipids
   related_pages:
   - biomol sim
+  - data publication
 - description: The National Poison Data System (NPDS) is a resource that provides
     poisson exposure occurring in the US and some freely associated states.
   link: https://www.aapcc.org/national-poison-data-system
