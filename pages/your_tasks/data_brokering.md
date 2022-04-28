@@ -72,7 +72,7 @@ For sharing of sequencing data within Europe, the [European Nucleotide Archive](
 In the particular case of SARS-CoV-2 genomic data, more information will be available on the SARS-CoV-2 domain page (under construction, coming soon).
 
 ### Considerations
-* There are many data repositories, so it is important to decide where you plan to share the data and adhere to the correct standards and submission protocols for your data type. This may notably include adhering to checklists provided by the chosen data repositories. See here for more information: https://rdmkit.elixir-europe.org/data_publication.html.
+* There are many data repositories, so it is important to decide where you plan to share the data and adhere to the correct standards and submission protocols for your data type. This may notably include adhering to checklists provided by the chosen data repositories. More information can be found on our [data publication](data_publication) page.
 * If submitting to open access repositories, ensure clarity on which fields and data to share and, if these fields contain sensitive information, should they be anonymised/pseudonymised
   * metadata anonymisation:  [sensitive data](https://rdmkit.elixir-europe.org/sensitive_data.html), and [human data](https://rdmkit.elixir-europe.org/human_data.html)
   * Need to remove any human data (e.g. reads) prior to submission
