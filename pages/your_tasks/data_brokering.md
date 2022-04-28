@@ -51,7 +51,7 @@ Data brokering involves collecting data from various data providers (metadata an
 
 * Regular data checks should always be performed at the database level, to check unicity of identifiers where expected (e.g. sample identifier within a laboratory is expected to be unique) and identify potential incoherences in the data (e.g. division indicated in the name of a virus versus division indicated in the location field).
 * Data brokers should also consider implementing a mechanism for metadata and data files update within their platform, and define mechanisms to pass on the updates to international repositories. Please consider that depending on the update mechanisms in place at the international repositories (e.g. API vs manual update via email), this process might become quite time-consuming.
-* [Data transfer](https://rdmkit.elixir-europe.org/data_transfer.html) from the data providers to the data brokering platform will depend on the nature and volume of data. The volume might be larger if data providers can submit data in batches. 
+* [Data transfer](data_transfer) from the data providers to the data brokering platform will depend on the nature and volume of data. The volume might be larger if data providers can submit data in batches. 
 * Clarify with the data providers how the data will be processed, in terms of data curation/cleaning and downstream [data analyses](https://rdmkit.elixir-europe.org/data_analysis.html). 
 * [Data storage](https://rdmkit.elixir-europe.org/storage.html) needs should be carefully addressed; consider storing data in compressed formats and deleting intermediate files from analyses that could be recomputed if needed to gain storage space.
 
