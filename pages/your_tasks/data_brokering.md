@@ -46,7 +46,7 @@ Data brokering involves collecting data from various data providers (metadata an
 
 ### Considerations
 * [Data collection](collecting) should be carefully prepared, notably to define the data model, the metadata and data that are needed for the envisioned applications, assess which fields should be compulsory or optional, follow controlled vocabularies or ontologies, and identify the nature of data (personal, sensitive data) and thereby the required level of security or data treatment (e.g. pseudonymised or anonymised data, ethical consent…).
-  * Collection of *metadata* can be done in various ways, each having its advantages and disadvantages, notably in terms of user-friendliness, ease of processing and [data quality](https://rdmkit.elixir-europe.org/data_quality.html).
+  * Collection of *metadata* can be done in various ways, each having its advantages and disadvantages, notably in terms of user-friendliness, ease of processing and [data quality](data_quality).
   * Collection of data files (e.g. sequencing data) should also involve minimal validation where possible (e.g. file extensions, regular checks of file sizes across the database to identify potential outliers with issues, integrity checks (checksum)…).
 
 * Regular data checks should always be performed at the database level, to check unicity of identifiers where expected (e.g. sample identifier within a laboratory is expected to be unique) and identify potential incoherences in the data (e.g. division indicated in the name of a virus versus division indicated in the location field).
