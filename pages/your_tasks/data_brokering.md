@@ -79,7 +79,7 @@ In the particular case of SARS-CoV-2 genomic data, more information will be avai
 * Submitted data may not be deleted, but may be suppressed from public view upon request
 * Submitted records may be updated at a later date with new or amended metadata entries. However, it should be noted that upon creation of a new record, data is tagged for distribution and selected metadata fields are exchanged with other repositories. Redistribution of updated records is usually not triggered automatically, so updating records fully can be a time consuming and manual process.
 * After data is submitted to a public repository, should the original copy of the data be retained at the central brokering platform and linked to its public counterpart? Or should it be removed and replaced with the ID of the public record?
-* Within INSDC databases, data may be submitted and held privately for a period of time by setting a release date at time of submission: https://ena-docs.readthedocs.io/en/latest/faq/release.html
+* Within INSDC databases, data may be submitted and held privately for a period of time by setting a release date at time of submission, see [ENA documentation](https://ena-docs.readthedocs.io/en/latest/faq/release.html).
 * By default, data submitted using default accounts are accredited to the submitting institute. However, broker accounts have the ability to credit different institutes with different records: https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html 
 
 ### Solutions
