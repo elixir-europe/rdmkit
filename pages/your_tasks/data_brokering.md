@@ -35,7 +35,7 @@ There are many aspects to consider when getting started as a broker.
 ### Solutions
 
 The solutions that you adopt will vary depending on the agreements you have negotiated with data providers and/or recipients. The following are examples of general solutions that would help you comply with regulations and implement good data management practices.
-* [Data management plan](https://rdmkit.elixir-europe.org/data_management_plan.html) – Many questions that you would answer while writing a data management plan can be relevant to answer when you specify the terms of service for your brokering service, such as data storage, data standards, legal and ethical, etc. 
+* [Data management plan](data_management_plan) – Many questions that you would answer while writing a data management plan can be relevant to answer when you specify the terms of service for your brokering service, such as data storage, data standards, legal and ethical, etc. 
 * [Data protection](https://rdmkit.elixir-europe.org/data_protection.html) – If you are working with data concerning people in the EU, you should make sure to comply with both national and international regulations for data protection.
 * [Apply for brokering permissions](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html) e.g. [ENA support/helpdesk](https://www.ebi.ac.uk/ena/browser/support) 
 
