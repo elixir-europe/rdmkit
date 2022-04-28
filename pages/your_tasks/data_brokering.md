@@ -27,7 +27,7 @@ There are many aspects to consider when getting started as a broker.
 * Identify what kind of processing you will handle as a broker, such as (meta)data curation and validation, data masking/anonymisation, etc.
 * Define the time frame for your commitment and your responsibilities for the data, such as how to handle data loss before delivery, what to do with the data after a successful delivery, how to manage changes to data that has already been delivered etc.
 * Identify who is responsible for the data before, during and after delivery, such as the data controller/processor (according to GDPR) and/or intellectual property owner/licensee relationships between the provider and recipient
-* Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data protection](https://rdmkit.elixir-europe.org/data_protection.html), [licensing](https://rdmkit.elixir-europe.org/licensing.html) and [compliance](https://rdmkit.elixir-europe.org/compliance_monitoring.html).
+* Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data protection](data_protection), [licensing](licensing) and [compliance](compliance_monitoring).
 * Estimate and secure the resources required to keep your commitment, such as staff with time and necessary skills, accounts, compute, storage and software
 * Refer to the sections below for considerations related to collecting data from data providers and delivering data to public data repositories.
 
