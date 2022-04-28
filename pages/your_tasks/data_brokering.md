@@ -74,7 +74,7 @@ In the particular case of SARS-CoV-2 genomic data, more information will be avai
 ### Considerations
 * There are many data repositories, so it is important to decide where you plan to share the data and adhere to the correct standards and submission protocols for your data type. This may notably include adhering to checklists provided by the chosen data repositories. More information can be found on our [data publication](data_publication) page.
 * If submitting to open access repositories, ensure clarity on which fields and data to share and, if these fields contain sensitive information, should they be anonymised/pseudonymised
-  * metadata anonymisation:  [sensitive data](https://rdmkit.elixir-europe.org/sensitive_data.html), and [human data](https://rdmkit.elixir-europe.org/human_data.html)
+  * metadata anonymisation:  [sensitive data](sensitive_data), and [human data](human_data)
   * Need to remove any human data (e.g. reads) prior to submission
 * Submitted data may not be deleted, but may be suppressed from public view upon request
 * Submitted records may be updated at a later date with new or amended metadata entries. However, it should be noted that upon creation of a new record, data is tagged for distribution and selected metadata fields are exchanged with other repositories. Redistribution of updated records is usually not triggered automatically, so updating records fully can be a time consuming and manual process.
