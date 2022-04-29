@@ -15,7 +15,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `search_exclude` must be deleted
    * `description`
    * `affiliation`
-   * `coordinators`(they must be listed as `contributors` as well)
+   * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
 5. Items in the "[all tools and resources spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit#gid=268211668)" are tagged with already existing (merged) `page_id` from "Your role, Your domain, Your tasks, Tool assembly" and that Bert has been informed of the changes.
 6. The content is conform to RDMkit scope, [style](style_guide) and templates.
