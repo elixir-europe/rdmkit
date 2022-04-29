@@ -21,6 +21,6 @@ summary: Checklist for editors before approving and merging a pull request (PR).
 6. The content is conform to RDMkit scope, [style](style_guide) and templates.
 7. There are no copyright issues related to the content of the page.
 8. The contributors implemented the requested changes.
-9. News items are added to the news page (`rdmkit/_data/news.yml`), in the same branch of the PR.
+9. When a new page is added, a news item is added to the [news.yml file](https://github.com/elixir-europe/rdmkit/blob/master/_data/news.yml), in the same branch of the PR.
 10. The contributors are thanked for their effort and informed about the publication of their content.
 11. The PR is linked to related issues and can be merged in main branch with no conflicts.
