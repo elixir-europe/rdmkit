@@ -18,7 +18,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `coordinators`(they must be listed as `contributors` as well)
    * `resources`
 5. Items in the "[all tools and resources spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit#gid=268211668)" are tagged with already existing (merged) `page_id` from "Your role, Your domain, Your tasks, Tool assembly" and that Bert has been informed of the changes.
-6. The content is conform to RDMkit scope, [style](https://rdmkit.elixir-europe.org/style_guide.html) and templates.
+6. The content is conform to RDMkit scope, [style](style_guide) and templates.
 7. There are no copyright issues related to the content of the page.
 8. The contributors implemented the requested changes.
 9. News items are added to the news page (`rdmkit/_data/news.yml`), in the same branch of the PR.
