@@ -10,7 +10,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
 4. All relevant metadata fields in a specific page are correctly filled in (see the [Editorial board guide](editorial_board_guide) and the [Markdown cheat sheet](markdown_cheat_sheet)). Some critical ones are listed below.
    * unique `page_id` ([Website overview](website_overview)).
    * `contributors`
-   * `related_pages` ([Related pages](https://rdmkit.elixir-europe.org/editorial_board_guide.html#related-pages))
+   * `related_pages` ([Related pages](editorial_board_guide.html#related-pages))
    * `training`
    * `search_exclude` must be deleted
    * `description`
