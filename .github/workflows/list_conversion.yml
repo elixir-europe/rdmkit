@@ -21,15 +21,15 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pyyaml requests python-frontmatter
-      - name: Run tool table 2 yaml
-        run: | 
-          python var/conversions.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
-      - name: Fetch country names with corresponding iso
-        run: |
-          python var/country_list.py
-      - name: Update markdown pages with DSW links
-        run: |
-          python var/dsw_integration.py
+      # - name: Run tool table 2 yaml
+      #   run: | 
+      #     python var/conversions.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+      # - name: Fetch country names with corresponding iso
+      #   run: |
+      #     python var/country_list.py
+      # - name: Update markdown pages with DSW links
+      #   run: |
+      #     python var/dsw_integration.py
       - name: Get faircookbook-rdmkit repository
         uses: actions/checkout@v3
         with:
