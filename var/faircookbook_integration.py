@@ -5,8 +5,7 @@ import yaml
 
 # --------- Variables ---------
 rootdir = 'pages/'
-RDMKIT_PREFIX = 'https://rdmkit.elixir-europe.org'
-map_file = '_data/faircookbook_rdmkit_mapping.yml'
+map_file = '/faircookbook-rdmkit/faircookbook_rdmkit_mapping.yml'
 
 # --------- Functions ---------
 
