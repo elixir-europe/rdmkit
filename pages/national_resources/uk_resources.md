@@ -2,7 +2,7 @@
 
 title: United Kingdom
 country_code: GB
-contributors: [Munazah Andrabi, Robert Andrews, Nicola Soranzo, Kellie Snow, Sara Morsy, Branka Franicevic]
+contributors: [Munazah Andrabi, Robert Andrews, Nicola Soranzo, Kellie Snow, Sara Morsy, Branka Franicevic, Emma Karoune, Saskia Lawson-Tovey]
 coordinators: [Robert Andrews, Munazah Andrabi]
 
 related_pages:
@@ -66,7 +66,7 @@ This page provides an overview of the data management resources in the UK. The t
   * Genomics England: [The Research Environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/)
   * NHS England: [Trusted Research Environment service](https://digital.nhs.uk/coronavirus/coronavirus-data-services-updates/trusted-research-environment-service-for-england
 )
-  * UK Data Service [Secure Lab](https://ukdataservice.ac.uk/help/secure-lab/am-i-eligible-to-apply-to-access-securelab/) providing controlled access to senstitive and confidential data
-  * The [Safepod Network](https://safepodnetwork.ac.uk/) provding approved researchers with access to sensitive data
+  * UK Data Service [Secure Lab](https://ukdataservice.ac.uk/help/secure-lab/am-i-eligible-to-apply-to-access-securelab/) providing controlled access to sensitive and confidential data
+  * The [Safepod Network](https://safepodnetwork.ac.uk/) providing approved researchers with access to sensitive data
   * [UK Biobank](https://www.ukbiobank.ac.uk/) large-scale biomedical database and research resource
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics
