@@ -38,7 +38,7 @@ jobs:
           ref: main
       - name: Update markdown pages with FAIR Cookbook links
         run: |
-          python var/faircookbook_integration.py
+          python var/faircookbook_integration.py ${GITHUB_WORKSPACE}/faircookbook-rdmkit/faircookbook_rdmkit_mapping.yml
       - name: Deleting faircookbook-rdmkit repository
         run: rm -r faircookbook-rdmkit
       - name: Show differences

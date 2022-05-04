@@ -1,11 +1,12 @@
 import os
 import re
 import yaml
+import sys
 
 
 # --------- Variables ---------
 rootdir = 'pages/'
-map_file = '/faircookbook-rdmkit/faircookbook_rdmkit_mapping.yml'
+map_file = sys.argv[1]
 
 # --------- Functions ---------
 
