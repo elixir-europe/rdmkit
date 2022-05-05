@@ -62,8 +62,8 @@ resources:
 An overview of data management services provided by ELIXIR Portugal / BioData.pt can be found on the BioData.pt Website. 
 
 ## Institutional policies on research data in Portugal
-[Centre of Marine Sciences (CCMAR)](https://ccmar.ualg.pt/en/page/open-science-and-data-management)
-[Instituto Gulbenkian de Ciência (IGC)](https://zenodo.org/record/6325980#.YmrF1m7MJTY)
+* [Centre of Marine Sciences (CCMAR)](https://ccmar.ualg.pt/en/page/open-science-and-data-management)
+* [Instituto Gulbenkian de Ciência (IGC)](https://zenodo.org/record/6325980#.YmrF1m7MJTY)
 
 ## Funders
 
