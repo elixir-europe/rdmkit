@@ -2,13 +2,14 @@ title: Contribute
 title_url: /how_to_contribute
 subitems:
   - title: Ways to contribute
+    url: /ways_to_contribute
     subitems:
       - title: GitHub way
-        url: /github_way
+          url: /github_way
       - title: Google doc way
-        url: /google_doc_way
+          url: /google_doc_way
       - title: Git way (advanced)
-        url: /working_with_git
+          url: /working_with_git
   - title: Add new tool or resource
     url: /tool_resource_update
   - title: Style guide
