@@ -14,9 +14,9 @@ resources:
     how_to_access: 
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your domain: [storage, metadata]
-      your role: []
-      your tasks: []
+      your_domain: [storage, metadata]
+      your_role: []
+      your_tasks: []
     url: https://seek4science.org 
   - name: DMPonline
     description: DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs.
