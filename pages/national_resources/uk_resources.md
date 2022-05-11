@@ -104,12 +104,13 @@ This page provides an overview of the data management resources in the UK. The t
 
 ## Funder policies, guidelines and data management plan (DMP) templates
    * UK Research and Innovation ([UKRI](https://www.ukri.org/)): [Concordat on open research](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf) and [Open access policy](https://www.ukri.org/publications/ukri-open-access-policy/)
+   
    * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [DM guidelines](https://www.ukri.org/councils/bbsrc/guidance-for-applicants/what-to-include-in-your-application/data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
    * Medical Research Council ([MRC](https://www.ukri.org/councils/mrc/)): [DM guidelines](https://www.ukri.org/publications/what-is-a-data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/mrc-data-sharing-policy/)
    * [Wellcome Trust](https://wellcome.org/): [DM and sharing guidelines](https://wellcome.org/grant-funding/guidance/data-software-materials-management-and-sharing-policy)
    * [The Royal Society](https://royalsociety.org/): [DM and sharing guidelines](https://royalsociety.org/journals/ethics-policies/data-sharing-mining/)
    * [Cancer Research UK](https://www.cancerresearchuk.org/): [DM and sharing guidelines](https://www.cancerresearchuk.org/funding-for-researchers/applying-for-funding/policies-that-affect-your-grant/submission-of-a-data-sharing-and-preservation-strategy/data-sharing-guidelines)
-   *  Horizon 2020: [DM guidelines](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm) and [DMP template](http://ec.europa.eu/research/participants/data/ref/h2020/gm/reporting/h2020-erc-tpl-oa-data-mgt-plan_en.docx)
+   * Horizon 2020: [DM guidelines](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm) and [DMP template](http://ec.europa.eu/research/participants/data/ref/h2020/gm/reporting/h2020-erc-tpl-oa-data-mgt-plan_en.docx)
 
 ## National policies and recommendations for research data
   * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018)
