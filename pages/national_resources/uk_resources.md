@@ -123,10 +123,10 @@ This page provides an overview of the data management resources in the UK. The t
   * SAIL Databank: [UK Secure eResearch Platform in Wales](https://saildatabank.com/)
   * Genomics England: [The Research Environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/)
   * NHS England: [Trusted Research Environment service](https://digital.nhs.uk/coronavirus/coronavirus-data-services-updates/trusted-research-environment-service-for-england)
-  * [Health Data Research Innovation Gateway](https://www.healthdatagateway.org/) Search engine/portal to discovering and accessing UK health-related datasets, and any associated health data resources such as tools, projects, and publications
+  * [Health Data Research Innovation Gateway](https://www.healthdatagateway.org/) Search engine/portal to discover and access UK health-related datasets, and any associated health data resources such as tools, projects, and publications
   * UK Data Service [Secure Lab](https://ukdataservice.ac.uk/help/secure-lab/am-i-eligible-to-apply-to-access-securelab/) providing controlled access to sensitive and confidential data
   * [Data Service Learning Hub](https://ukdataservice.ac.uk/learning-hub/research-data-management/) National research infrastructure for curating/accessing social science data. Learning hub contains training to enhance data skills, including research data management
-  * UK Reproducibility Network [UKRN](https://www.ukrn.org/) National peer-led consortium to promote robust research, training activities, and best practice to ensure reproducible research. Works with external stakeholders (e.g. funding bodies, educational organisations and national/international services) across all disciplines
+  * UK Reproducibility Network [UKRN](https://www.ukrn.org/) National peer-led consortium to promote robust research, training activities, and best practice to ensure reproducible research. It works with external stakeholders (e.g. funding bodies, educational organisations and national/international services) across all disciplines
   *  [Digital Curation Centre](https://www.dcc.ac.uk/) Organisation offering a range of services to assist UK institutions in digital curation and data management
   * The [Safepod Network](https://safepodnetwork.ac.uk/) providing approved researchers with access to sensitive data
   * [UK Biobank](https://www.ukbiobank.ac.uk/) large-scale biomedical database and research resource
