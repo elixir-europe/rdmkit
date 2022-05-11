@@ -5,109 +5,97 @@ country_code: GB
 contributors: [Munazah Andrabi, Robert Andrews, Nicola Soranzo, Kellie Snow, Sara Morsy, Branka Franicevic, Emma Karoune, Saskia Lawson-Tovey, Graham Parton]
 coordinators: [Robert Andrews, Munazah Andrabi]
 
-related_pages:
-  tool_assembly: []
-
 resources:
   - name: FAIRDOM-SEEK
-    description: A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.
-    how_to_access: 
+    description: "A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes."
+    how_to_access:
+    instance_of:
     related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
       your_domain: [storage, metadata]
       your_role: [data manager, researcher]
-      your_tasks: []
     url: https://seek4science.org 
+    
   - name: DMPonline
-    description: DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs.
+    description: "DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs."
     how_to_access:
     instance_of: DMPRoadmap
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [DMP]
     url: https://dcc.ac.uk/dmponline
+    
   - name: COPO
-    description: COPO is an open source data brokering platform that helps researchers annotate their data with metadata conforming to repository standards, and supports submission of data to a number of these public repositories
+    description: "COPO is an open source data brokering platform that helps researchers annotate their data with metadata conforming to repository standards, and supports submission of data to a number of these public repositories."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: https://www.earlham.ac.uk/copo
+    
   - name: CyVerse UK
-    description: The CyVerse Data Store is a cloud-based storage space, accessible via the CyVerse Discovery Environment (DE), a virtual bioinformatics lab workbench, and developer APIs such as the AGAVE API. In the DE, users can share datasets and tools to analyse data with as many or as few people as they wish
+    description: "The CyVerse Data Store is a cloud-based storage space, accessible via the CyVerse Discovery Environment (DE), a virtual bioinformatics lab workbench, and developer APIs such as the AGAVE API. In the DE, users can share datasets and tools to analyse data with as many or as few people as they wish."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: https://cyverseuk.org/
+    
   - name: FAIRsharing
-    description: A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies
+    description: "A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: https://fairsharing.org/ 
+    
   - name: ISA-tools
-    description: The open source ISA framework and tools help to manage an increasingly diverse set of life science, environmental and biomedical experiments that employing one or a combination of technologies.
+    description: "The open source ISA framework and tools help to manage an increasingly diverse set of life science, environmental and biomedical experiments that employing one or a combination of technologies."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: https://isa-tools.org/
+    
   - name: Jisc Research data management toolkit
-    description: Guidance on the research data lifecycle that signposts resources from a wide range of organisations and websites
+    description: "Guidance on the research data lifecycle that signposts resources from a wide range of organisations and websites."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: https://www.jisc.ac.uk/guides/rdm-toolkit 
+    
   - name: Bioschemas
-    description: Bioschemas encourages the consistent use of markup to ease the consumption of the contained markup across many sites. This structured information then makes it easier to discover, collate, and analyse distributed resources
+    description: "Bioschemas encourages the consistent use of markup to ease the consumption of the contained markup across many sites. This structured information then makes it easier to discover, collate, and analyse distributed resources."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: https://bioschemas.org  
+    
   - name: Agrischema
-    description: Linked data schemas for the fields of agriculture, food, agri-business, plant biology
+    description: "Linked data schemas for the fields of agriculture, food, agri-business, plant biology."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
- - name: InterMine
-    description: InterMine integrates heterogenous data sources, making it easy to query and analyse data
+    
+  - name: InterMine
+    description: "InterMine integrates heterogenous data sources, making it easy to query and analyse data."
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: http://intermine.org/
+    
 ---
 
 ## Introduction 
