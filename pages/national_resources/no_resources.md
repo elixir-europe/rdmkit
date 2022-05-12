@@ -49,18 +49,6 @@ resources:
       your_tasks: [data analysis]
       tool_assembly: [marine assembly]
     url:  https://mmp2.sfb.uit.no/metapipe/
-  - name: MarDB
-    description: MarDB includes all non-complete marine microbial genomes regardless of level of completeness. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation.
-    related_pages:
-      your_tasks: [data analysis]
-      tool_assembly: [marine assembly]
-    url: https://mmp2.sfb.uit.no/mardb/
-  - name: MarFun
-    description: MarFun is a manually curated marine fungi genome database.
-    related_pages:
-      your_tasks: [data analysis]
-      tool_assembly: [marine assembly]
-    url: https://mmp2.sfb.uit.no/marfun/
   - name: Norwegian COVID-19 Data Portal
     description: The Norwegian COVID-19 Data Portal aims to bundle the Norwegian research efforts and offers guidelines, tools, databases and services to support Norwegian COVID-19 researchers.
     related_pages:

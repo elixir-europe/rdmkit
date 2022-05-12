@@ -39,15 +39,6 @@ resources:
       your_role: [researcher]
       your_tasks: [data analysis]
     url: https://usegalaxy.be
-  - name: ENA upload tool
-    description: The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
-    how_to_access:
-    related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: [IT support, data manager, researcher]
-      your_tasks: []
-    url: https://github.com/usegalaxy-eu/ena-upload-cli
   - name: DMPonline.be
     description: This instance of DMPonline is provided by the DMPbelgium Consortium. We can help you write and maintain data management plans for your research.
     how_to_access: Affiliation with one of the universities of the consortium is required.

@@ -15,14 +15,6 @@ training:
 
 
 resources:
-  - name: e!DAL-PGP
-    description: Plant Genomics and Phenomics Research Data Repository
-    related_pages:
-      your_tasks: [storage, metadata]
-      your_role: [researcher, data manager, IT support]
-      your_domain: [plants]
-      tool_assembly: [plant geno assembly]
-    url: https://edal-pgp.ipk-gatersleben.de/  
   - name: GFBio Data Management Plan Tool
     related_pages:
       your_tasks: [DMP]
@@ -33,18 +25,6 @@ resources:
       your_tasks: [storage, metadata]
       your_role: [researcher, data manager]
     url: https://ghga.dkfz.de/
-  - name: FAIRDOM-SEEK
-    description: Data management platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.
-    related_pages:
-      your_tasks: [storage, metadata]
-      your_role: [researcher, data manager, IT support]
-    url: http://fairdomseek.org
-  - name: PANGAEA
-    description: Data Publisher for Earth & Environmental Science
-    related_pages:
-      your_tasks: [storage, metadata]
-      your_role: [researcher, data manager]
-    url: https://www.pangaea.de/
   - name: PUBLISSO
     description: Open access publishing platform for life sciences
     related_pages:

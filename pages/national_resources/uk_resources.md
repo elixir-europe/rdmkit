@@ -6,15 +6,6 @@ contributors: [Munazah Andrabi, Robert Andrews, Nicola Soranzo, Kellie Snow, Sar
 coordinators: [Robert Andrews, Munazah Andrabi]
 
 resources:
-  - name: FAIRDOM-SEEK
-    description: "A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes."
-    how_to_access:
-    instance_of:
-    related_pages:
-      your_domain: [storage, metadata]
-      your_role: [data manager, researcher]
-    url: https://seek4science.org 
-    
   - name: DMPonline
     description: "DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs."
     how_to_access:
@@ -22,7 +13,7 @@ resources:
     related_pages:
       your_role: [data manager, researcher]
       your_tasks: [DMP]
-    url: https://dcc.ac.uk/dmponline
+    url: https://dmponline.dcc.ac.uk/
     
   - name: CyVerse UK
     description: "The CyVerse Data Store is a cloud-based storage space, accessible via the CyVerse Discovery Environment (DE), a virtual bioinformatics lab workbench, and developer APIs such as the AGAVE API. In the DE, users can share datasets and tools to analyse data with as many or as few people as they wish."

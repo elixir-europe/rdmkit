@@ -806,16 +806,6 @@
   - DMP
   - researcher
   - data manager
-- description: A free tool to write, share and export a data management plan. Built-in
-    data management plan templates for many major funders.
-  link: https://dmponline.dcc.ac.uk/
-  name: DMPonline
-  registry:
-    tess: DMPonline
-  related_pages:
-  - DMP
-  - researcher
-  - data manager
 - description: DMP Roadmap is a Data Management Planning tool.
   link: https://github.com/DMPRoadmap/roadmap
   name: DMPRoadmap
@@ -899,13 +889,7 @@
   - data manager
   - IT support
   - data publication
-- description: DMP creation, versioning and sharing
-  link: https://easydmp.no/
-  name: EasyDMP
-  related_pages:
-  - DMP
-  - researcher
-  - data manager
+  - metadata
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly
     available Knowledgebase providing single chemical environmental toxicity data
     on aquatic life, terrestrial plants, and wildlife.
@@ -913,6 +897,14 @@
   name: ECOTOX
   related_pages:
   - toxicology data
+- description: The program submits experimental data and respective metadata to the
+    European Nucleotide Archive (ENA).
+  link: https://github.com/usegalaxy-eu/ena-upload-cli
+  name: ENA upload tool
+  related_pages:
+  - IT support
+  - data manager
+  - researcher
 - description: Hub for the identification of plant genetic resources in Europe
   link: https://www.ecpgr.cgiar.org/
   name: ECPGR
@@ -1137,8 +1129,8 @@
   - compliance
   - data manager
   - policy officer
-- description: Data, model and SOPs management for projects, from preliminary data
-    to publication, support for running SBML models etc.
+- description: A data Management Platform for organising, sharing and publishing research
+    datasets, models, protocols, samples, publications and other research outcomes.
   link: https://seek4science.org/
   name: FAIRDOM-SEEK
   registry:
@@ -1164,13 +1156,14 @@
   - metadata
   - micro biotech
   - machine actionability
+  - data manager
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
   link: https://fairsharing.org/
-  name: fairsharing
+  name: FAIRsharing
   registry:
     fairsharing: 2abjs5
-    tess: fairsharing
+    tess: FAIRsharing
   related_pages:
   - metadata
   - data publication
@@ -1662,11 +1655,13 @@
     biotools: mardb
   related_pages:
   - marine assembly
+  - data analysis
 - description: MarFun is a manually curated marine fungi genome database.
   link: https://mmp2.sfb.uit.no/marfun/
   name: MarFun
   related_pages:
   - marine assembly
+  - data analysis
 - description: High-quality curated and freely accessible microbial genomics and metagenomics
     resources for the marine scientific community
   link: https://mmp2.sfb.uit.no/
@@ -2104,6 +2099,9 @@
     fairsharing: 6yw6cp
   related_pages:
   - data publication
+  - metadata
+  - researcher
+  - data manager
 - description: The Protein Circular Dichroism Data Bank
   link: https://pcddb.cryst.bbk.ac.uk/
   name: PCDDB
@@ -2702,15 +2700,6 @@
   - NeLS
   - CSC
   - TSD
-- description: Norwegian Services for sensitive data
-  link: https://www.uio.no/english/services/it/research/sensitive-data/
-  name: TSD
-  registry:
-    tess: TSD
-  related_pages:
-  - sensitive
-  - TSD
-  - storage
 - description: A tool that contains weighted gene co-expression networks obtained
     from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
   link: https://txg-mapr.eu/
@@ -2820,6 +2809,27 @@
   - researcher
   - data manager
   - XNAT-PIC
+- description: Generalist research data repository built and developed by OpenAIRE
+    and CERN
+  link: https://zenodo.org/
+  name: Zenodo
+  registry:
+    fairsharing: wy4egf
+    tess: Zenodo
+  related_pages:
+  - data publication
+  - biomol sim
+  - bioimaging data
+- description: Find possible ontology mappings for free text terms in the ZOOMA repository.
+  link: https://www.ebi.ac.uk/spot/zooma/
+  name: Zooma
+  registry:
+    biotools: zooma
+    tess: Zooma
+  related_pages:
+  - metadata
+  - data manager
+  - researcher
 - description: Generalist research data repository built and developed by OpenAIRE
     and CERN
   link: https://zenodo.org/
