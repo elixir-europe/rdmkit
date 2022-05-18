@@ -51,5 +51,5 @@ Information in the portal is organised according to the point of view of 4 types
 * local institutions
 * citizens
 
-Additional resource is a catalogue of more than 50 open access policy documents from Italian universities, along with international reference documents as reports, recommendations and guidelines about open science.
+In addition, a catalogue of more than 50 open access policy documents from Italian universities is available, along with international reference documents as reports, recommendations and guidelines about open science.
 
