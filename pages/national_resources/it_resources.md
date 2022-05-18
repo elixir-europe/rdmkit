@@ -35,7 +35,7 @@ Its activities articulate around tre main actions:
 * EOSC competence centre task force
 * National working groups
 
-Data management support and training for life science researchers is provided at national level by the Italian ELIXIR Node, hosted at the Italian Infrastructure for Bioinformatics [(ELIXIR-IIB)](https://elixir-italy.org/).
+Data management support and training for life science researchers is provided at national level by the Italian ELIXIR Node, hosted at the Italian Infrastructure for Bioinformatics ([IIB](https://elixir-italy.org/)).
 
 The Research Data Alliance ([RDA](https://www.rd-alliance.org/groups/rda-italy)) Italian Node is hosted at the CNR Institute of Information Science and Technologies (CNR-ISTI) and provides support and training for both humanities and STEM.
 
