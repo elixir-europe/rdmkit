@@ -20,7 +20,7 @@ training:
 #    url: https://www.youtube.com/channel/UCva4S9uWxXqyGnbSgxIbcwA
 
 
-resources:
+national_resources:
   - name: Feide
     description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
     how_to_access: Everyone with an affiliation to a Norwegian academic institution.
@@ -144,6 +144,10 @@ resources:
       your_tasks: [data publication]
       your_role: []
     url: https://dataverse.no/
+
+main_resources:
+  - MarDB
+  - MarFun
 
 ---
 

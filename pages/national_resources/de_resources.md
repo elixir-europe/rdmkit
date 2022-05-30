@@ -14,7 +14,7 @@ training:
     url: https://tess.elixir-europe.org/materials?node=Germany
 
 
-resources:
+national_resources:
   - name: GFBio Data Management Plan Tool
     related_pages:
       your_tasks: [DMP]
@@ -36,7 +36,12 @@ resources:
     related_pages:
       your_tasks: [DMP]
     url: https://rdmorganiser.github.io/
-    
+
+main_resources:
+  - e!DAL-PGP
+  - FAIRDOM-SEEK
+  - PANGAEA
+
 ---
 
 

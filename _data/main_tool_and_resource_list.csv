@@ -1,4 +1,4 @@
-name,link,description,registry,related_pages
+name,url,description,registry,related_pages
 3D-Beacons,https://3d-beacons.org,Network providing unified programmatic access to experimentally determined and predicted structure models,,struct bioinfo
 Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,biotools:NA,micro biotech
 Ada Discovery Analytics (Ada),https://ada-discovery.github.io/,"Ada is a performant and highly configurable system for secured integration, visualization, and collaborative analysis of heterogeneous data sets, primarily targeting clinical and experimental sources.",,"data analysis, transmed"

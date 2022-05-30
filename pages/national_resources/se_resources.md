@@ -13,7 +13,7 @@ training:
     registry: Youtube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
-resources:
+national_resources:
   - name: DS-Wizard ELIXIR-SE
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
     how_to_access: ELIXIR AAI login

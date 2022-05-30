@@ -19,7 +19,12 @@ training:
     registry: Youtube
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
-resources:
+main_resources:
+  - FAIRDOM-SEEK
+  - Galaxy
+  - WorkflowHub
+
+national_resources:
   - name: RDM Guide
     description: RDM Guide describes Belgian data management guidelines, resources, tools and services available for researchers in Life Sciences.
     how_to_access:

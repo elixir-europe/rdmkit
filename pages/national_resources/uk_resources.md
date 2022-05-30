@@ -5,7 +5,7 @@ country_code: GB
 contributors: [Munazah Andrabi, Robert Andrews, Nicola Soranzo, Kellie Snow, Sara Morsy, Branka Franicevic, Emma Karoune, Saskia Lawson-Tovey, Graham Parton]
 coordinators: [Robert Andrews, Munazah Andrabi]
 
-resources:
+national_resources:
   - name: DMPonline
     description: "DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs."
     how_to_access:
@@ -50,7 +50,10 @@ resources:
       your_role: [data manager, researcher]
       your_tasks: [metadata]
     url: http://intermine.org/
-    
+
+main_resources:
+  - WorkflowHub
+  - FAIRDOM-SEEK
 ---
 
 ## Introduction 
