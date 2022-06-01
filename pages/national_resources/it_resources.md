@@ -1,7 +1,6 @@
 ---
 
 title: Italy
-search_exclude: true
 country_code: IT
 contributors: [Marco Carraro, Ivan Mičetić]
 coordinators: [Marco Carraro]
