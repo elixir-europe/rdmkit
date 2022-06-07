@@ -63,6 +63,8 @@ national_resources:
       your_role: [data manager, researcher, IT support]
       your_tasks: []
     url: https://pippa.psb.ugent.be
+    registry:
+      biotools: PIPPA
   - name: Belnet
     description: Belnet is the privileged partner of higher education, research and administration for connectivity. We provide high-bandwidth internet access and related services for our specific target groups.
     how_to_access:
