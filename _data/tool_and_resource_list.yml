@@ -1741,7 +1741,7 @@
   - storage
   - IT support
 - description: Minimum Information about a (Meta)Genome Sequence
-  link: link: https://gensc.org/mixs/
+  link: https://gensc.org/mixs/
   name: MIGS/MIMS
   registry:
     fairsharing: va1hck
