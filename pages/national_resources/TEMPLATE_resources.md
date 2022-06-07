@@ -23,6 +23,9 @@ training:
     registry: <!---REPLACE THIS with the name of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
+main_resources:
+  - <!---REPLACE THIS with the resource name--->
+
 national_resources:
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
