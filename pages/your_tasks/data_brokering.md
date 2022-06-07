@@ -1,6 +1,5 @@
 ---
 title: Data brokering
-search_exclude: true
 contributors: [Aitana Lebrand, Parul Tewatia, Wolmar Nyberg Åkerström, Carla Cummins, Nils Peder Willassen, Nazeefa Fatima]
 page_id: data brokering
 related_pages: 
