@@ -56,6 +56,154 @@ resources:
       your_role: 
       your_tasks:
     url: https://www.health-ri.nl/services/health-ri-service-catalogue 
+  - name: cBioPortal
+    description: The Health-RI cBioPortal provides a web-based resource for researchers to explore, visualize, analyze, and share multidimensional cancer genomics data sets as well as other studies with multidimensional genomics data.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/cbioportal
+  - name: Data Stewardship Wizard
+    description: Data Stewardship Wizard is a simple and powerful tool for researchers and data stewards to build Data Management Plans. It helps to get a grip on good, FAIR-oriented Data Stewardship and get assistance from experts.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://ds-wizard.org/
+  - name: Parelsnoer Clinical Biobanks
+    description: Parelsnoer is a collaborative biobanking initiative of the University Medical Centres (UMCs) in the Netherlands. Offering researchers an infrastructure and harmonized procedures for the establishment, expansion and optimisation of clinical biobanks for collaborative scientific research.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/parelsnoer-clinical-biobanks
+  - name: Jupyter Notebooks
+    description: Making data analyses easier. Store, share and reproduce data analyses. Quick insight into your data analyses and disseminate research results fast.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.surf.nl/en/jupyter-notebook-accessible-and-interactive-data-analysis-for-research-and-education     
+  - name: CBS, Statistics Netherlands
+    description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data to produce insight into social issues.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/cbs-statistics-netherlands
+  - name: X-omics Helpdesk
+    description: The X-omics helpdesk gives researchers access to X-omics research infrastructure X-omics. Researchers can contact X-omics experts and get advice on a X-omics approach.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://x-omics.nl/helpdesk
+  - name: Technology Hotels
+    description: More than 130 Technology Hotels offer access to high-end technology and expertise in the field of bioimaging, bioinformatics, genomics, medical imaging, metabolomics, phenotyping, proteomics, structural biology, and/or systems biology.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/technology-hotels  
+  - name: The iCRF Generator
+    description: Generate Interoperable CRFs for major EDC.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: health-ri.nl/services/icrf-generator  
+  - name: 
+    description: 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:
+  - name: 
+    description: 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:
+  - name: 
+    description: 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:
+  - name: 
+    description: 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:
+  - name: 
+    description: 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:
+  - name: 
+    description: 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:
+
+
+
+
+
+
+
+
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
