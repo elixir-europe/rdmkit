@@ -1,6 +1,6 @@
 name,link,description,registry,related_pages
 3D-Beacons,https://3d-beacons.org,Network providing unified programmatic access to experimentally determined and predicted structure models,,struct bioinfo
-Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,,micro biotech
+Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,biotools:NA,micro biotech
 Ada Discovery Analytics (Ada),https://ada-discovery.github.io/,"Ada is a performant and highly configurable system for secured integration, visualization, and collaborative analysis of heterogeneous data sets, primarily targeting clinical and experimental sources.",,"data analysis, transmed"
 Addgene,https://www.addgene.org/browse/,A searchable repository with a focus on plasmids,,micro biotech
 Amazon Web Services,https://aws.amazon.com/,Amazon Web Services,,"storage, data analysis, transfer"
@@ -8,7 +8,7 @@ Amnesia,https://amnesia.openaire.eu/,Amnesia is a GDPR compliant high accuracy d
 AOP4EUpest,http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php,AOP4EUpest web server is devoted to the identification of pesticides involved in an Adverse Outcome Pathway via text mining approaches.,biotools:aop4eupest,toxicology data
 APID Interactomes,http://apid.dep.usal.es/,APID (Agile Protein Interactomes DataServer) is a server that provides a comprehensive collection of protein interactomes for more than 400 organisms based in the integration of known experimentally validated protein-protein physical interactions (PPIs),biotools:apid,IDP
 Argos,https://argos.openaire.eu/splash/,"Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.",,"DMP, researcher, data manager"
-ArrayExpress,https://www.ebi.ac.uk/arrayexpress/,A repository of array based genomics data,,micro biotech
+ArrayExpress,https://www.ebi.ac.uk/arrayexpress/,A repository of array based genomics data,,"micro biotech, data publication"
 Arvados,https://arvados.org,"With Arvados, bioinformaticians run and scale compute-intensive workflows, developers create biomedical applications, and IT administrators manage large compute and storage resources.",,"IT support, policy officer, researcher, data analysis"
 Aspera Fasp,https://www.ibm.com/products/aspera,"With fast file transfer and streaming solutions built on the award-winning IBM FASP protocol, IBM Aspera software moves data of any size across any distance",,"transfer, IT support"
 ATCC,https://www.lgcstandards-atcc.org/en.aspx#,"Biological materials resource including cell-lines, strains and genomics tools",,micro biotech
@@ -21,7 +21,7 @@ BBMRI-ERIC's ELSI Knowledge Base,https://www.bbmri-eric.eu/elsi/knowledge-base/,
 Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,,"researcher, data manager, IT support, human data"
 Benchling,https://www.benchling.com,R&D Platform for Life Sciences,,micro biotech
 BIAFLOWS,https://biaflows.neubias.org/,BIAFLOWS is an open-soure web framework to reproducibly deploy and benchmark bioimage analysis workflows,biotools:biaflows,data analysis
-BigNASim,https://mmb.irbbarcelona.org/BigNASim/,Repository for Nucleic Acids MD simulations,biotools:bignasim,biomol sim
+BigNASim,https://mmb.irbbarcelona.org/BigNASim/,Repository for Nucleic Acids MD simulations,biotools:bignasim,"biomol sim, data publication"
 BIII,https://biii.eu/,"The BioImage Informatics Index is a registry of software tools, image databases for benchmarking, and training materials for bioimage analysis",biotools:BISE,"IT support, data analysis"
 BindingDB,https://www.bindingdb.org/,"Public, web-accessible database of measured binding affinities","fairsharing:3b36hk, biotools:bindingdb",biomol sim
 Bio-Formats,https://www.openmicroscopy.org/bio-formats/,"Bio-Formats is a software tool for reading and writing image data using standardized, open formats",biotools:bio-formats,"ome, bioimaging data"
@@ -30,11 +30,11 @@ Bioconda,https://bioconda.github.io/,Bioconda is a bioinformatics channel for th
 Biodiversity Information Standards (TDWG),https://www.tdwg.org,"Biodiversity Information Standards (TDWG), historically the Taxonomic Databases Working Group, work to develop biodiversity information standards",,micro biotech
 BioExcel COVID-19,https://bioexcel-cv19.bsc.es/#/,Platform designed to provide web-access to atomistic-MD trajectories for macromolecules involved in the COVID-19 disease.,,biomol sim
 BioImageArchive,https://www.ebi.ac.uk/bioimage-archive/,The BioImage Archive stores and distributes biological images that are useful to life-science researchers.,fairsharing:x38D2k,"data publication, bioimaging data"
-BioModels,https://www.ebi.ac.uk/biomodels/,A repository of mathematical models for application in biological sciences,,micro biotech
+BioModels,https://www.ebi.ac.uk/biomodels/,A repository of mathematical models for application in biological sciences,,"micro biotech, data publication"
 BIONDA,http://bionda.mpc.ruhr-uni-bochum.de/start.php,"BIONDA is a free and open-access biomarker database, which employs various text mining methods to extract structured information on biomarkers from abstracts of scientific publications",biotools:bionda,"storage, researcher, human data, proteomics"
 BioSamples,https://www.ebi.ac.uk/biosamples/,BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry.,fairsharing:ewjdq6,"metadata, plants, plant geno assembly"
 Bioschemas.org,https://bioschemas.org,"Bioschemas aims to improve the Findability on the Web of life sciences resources such as datasets, software, and training materials",,"machine actionability, IT support"
-BioStudies,https://www.ebi.ac.uk/biostudies/,A database hosting datasets from biological studies. Useful for storing or accessing data that is not compliant for mainstream repositories.,,"micro biotech, metadata, plants"
+BioStudies,https://www.ebi.ac.uk/biostudies/,A database hosting datasets from biological studies. Useful for storing or accessing data that is not compliant for mainstream repositories.,,"micro biotech, metadata, plants, data publication"
 BisQue,https://bioimage.ucsb.edu/bisque,Resource for management and analysis of 5D biological images,,"data organisation, data manager, data analysis, bioimaging data"
 Bitbucket,https://bitbucket.org/,"Git based code hosting and collaboration tool, built for teams.",,"data organisation, data manager, IT support"
 BMRB,https://bmrb.io/,Biological Magnetic Resonance Data Bank,,"IDP, researcher"
@@ -102,7 +102,7 @@ Drug Matrix,https://ntp.niehs.nih.gov/data/drugmatrix/,A toxicogenomic resource 
 Dryad,https://datadryad.org/,"Open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data",fairsharing:wkggtx,"data publication, biomol sim,bioimaging data"
 Dynameomics,http://www.dynameomics.org/,Database of folding / unfolding pathway of representatives from all known protein folds by MD simulation,,biomol sim
 e!DAL,https://edal.ipk-gatersleben.de/,Electronic data archive library is a framework for publishing and sharing research data,biotools:edal,"storage, IT support"
-e!DAL-PGP,https://edal-pgp.ipk-gatersleben.de/,Plant Genomics and Phenomics Research Data Repository,fairsharing:rf3m4g,"plants, plant geno assembly, researcher, data manager, IT support"
+e!DAL-PGP,https://edal-pgp.ipk-gatersleben.de/,Plant Genomics and Phenomics Research Data Repository,fairsharing:rf3m4g,"plants, plant geno assembly, researcher, data manager, IT support, data publication"
 EasyDMP,https://easydmp.no/,"DMP creation, versioning and sharing",,"DMP, researcher, data manager"
 ECOTOX,https://cfpub.epa.gov/ecotox/,"The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.",,toxicology data
 ECPGR,https://www.ecpgr.cgiar.org/,Hub for the identification of plant genetic resources in Europe,,"plants, researcher, data manager"
@@ -142,9 +142,8 @@ GA4GH Genomic Data Toolkit,https://www.ga4gh.org/genomic-data-toolkit/,Open stan
 GA4GH Regulatory and Ethics toolkit,https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/,Framework for Responsible Sharing of Genomic and Health-Related Data,,"data protection, sensitive, policy officer, data manager, IT support, human data"
 Galaxy,https://galaxyproject.org/,"Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.",biotools:galaxy,"NeLS, marine assembly, data analysis, researcher, IT support, IFB"
 GenBank,https://www.ncbi.nlm.nih.gov/genbank/,A database of genetic sequence information. GenBank may also refer to the data format used for storing information around genetic sequence data.,,micro biotech
-Gene Expression Omnibus (GEO),https://www.ncbi.nlm.nih.gov/geo/,A repository of MIAME-compliant genomics data from arrays and high-throughput sequencing,,micro biotech
+Gene Expression Omnibus (GEO),https://www.ncbi.nlm.nih.gov/geo/,A repository of MIAME-compliant genomics data from arrays and high-throughput sequencing,,"micro biotech, data publication, metadata, transfer, ome, bioimaging data, toxicology data"
 GENEID,https://genome.crg.cat/software/geneid/index.html,Geneid is an ab initio gene finding program used to predict genes along DNA sequences in a large set of organisms.,biotools:geneid,"data analysis, researcher"
-GEO,https://www.ncbi.nlm.nih.gov/geo/,"A public repository that stores microarray, next-generation sequencing, and other forms of high-throughput functional genomics data submitted by the research community.",,toxicology data
 GHS Classification,https://pubchem.ncbi.nlm.nih.gov/ghs/,"GHS (Globally Harmonized System of Classification and Labelling of Chemicals) classification was developed by the United Nations in an attempt to align standards and chemical regulations in different countries. GHS includes criteria for the classification of health, physical and environmental hazards, and what information should be included on labels of hazardous chemicals and safety data sheets.",,toxicology data
 Git,https://git-scm.com/,Distributed version control system designed to handle everything from small to very large projects,,"data organisation, data manager, IT support"
 GitHub,https://github.com,"Versioning system, used for sharing code, as well as for sharing of small data",fairsharing-coll:bsg-d001160,"data publication, data organisation, IT support, data manager"
@@ -153,7 +152,7 @@ Globus,https://www.globus.org,"Globus lets you efficiently, securely, and reliab
 GnpIS,https://urgi.versailles.inrae.fr/gnpis/,"A multispecies integrative information system dedicated to plant and fungi pests. It allows researchers to access genetic, phenotypic and genomic data. It is used by both large international projects and the French National Research Institute for Agriculture, Food and Environment.","fairsharing:dw22y3, biotools:gnpis",plants
 Google Dataset Search,https://datasetsearch.research.google.com/,Search engine for datasets,,existing data
 Google Drive,https://www.google.com/intl/en_us/drive/,Cloud Storage for Work and Home,,"storage, transfer"
-GPCRmd,http://gpcrmd.org/,Repository of GPCR protein simulations,biotools:GPCRmd,biomol sim
+GPCRmd,http://gpcrmd.org/,Repository of GPCR protein simulations,biotools:GPCRmd,"biomol sim, data publication"
 GRAPE 2.0,https://github.com/guigolab/grape-nf,"The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses. It allows the creation of an automated and integrated workflow to manage, analyse and visualize RNA-Seq data.",biotools:grape_2.0,data analysis
 Harvard Medical School - ELN Comparison Grid,https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks,ELN Comparison Grid by Hardvard Medical School,,"metadata, identifiers, researcher, data manager"
 Haz-Map,https://haz-map.com/,Haz-Map is an occupational health database that makes available information about the adverse effects of exposures to chemical and biological agents at the workplace. These associations have been established using current scientific evidence.,,toxicology data
@@ -166,7 +165,7 @@ iGEM Parts Registry,http://parts.igem.org/Main_Page,A collection of standard bio
 Image Data Resource (IDR),https://idr.openmicroscopy.org,A repository of image datasets from scientific publications,fairsharing:6wf1zw,"micro biotech, data publication, metadata, transfer, ome,bioimaging data"
 Informed Consent Ontology,http://purl.obolibrary.org/obo/ICO.owl,The Informed Consent Ontology (ICO) is an ontology for the informed consent and informed consent process in the medical field.,fairsharing:b9znd5,"IT support, policy officer, human data"
 International Compilation of Human Research Standards,https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf,"The International Compilation of Human Research Standards enumerates over 1,000 laws, regulations, and guidelines (collectively referred to as standards) that govern human subject protections in 133 countries, as well as standards from a number of international and regional organizations",,human data
-International Nucleotide Sequence Database Collaboration (INSDC),http://www.insdc.org,"A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI and NCBI",,micro biotech
+International Nucleotide Sequence Database Collaboration (INSDC),http://www.insdc.org,"A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI and NCBI",,"micro biotech"
 International Society for the Advancement of Cytometry (ISAC),https://isac-net.org/page/Data-Standards,Data standards and formats for reporting flow cytometry data,,micro biotech
 International Union of Biochemistry and Molecular Biology (IUBMB),https://www.qmul.ac.uk/sbcs/iubmb/,Resource for naming standards in biochemistry and molecular biology,,micro biotech
 InterPro,https://www.ebi.ac.uk/interpro/,Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites,fairsharing:pda11d,
@@ -193,19 +192,19 @@ Marine metagenomics portal,https://mmp2.sfb.uit.no/,High-quality curated and fre
 MarRef,https://mmp2.sfb.uit.no/marref/,"MarRef is a manually curated marine microbial reference genome database that equenced genomes. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation information",biotools:marref,marine assembly
 MemProtMD,http://memprotmd.bioch.ox.ac.uk/,Database of over 5000 intrinsic membrane protein structures,,biomol sim
 Mendeley data,https://data.mendeley.com/,"Multidisciplinary, free-to-use open repository specialized for research data",fairsharing:3epmpp,"data publication, biomol sim"
-MetabolomeXchange,http://www.metabolomexchange.org/site/,A repository of genomics data relating to the study of the metabolome,,micro biotech
+MetabolomeXchange,http://www.metabolomexchange.org/site/,A repository of genomics data relating to the study of the metabolome,,"micro biotech, data publication"
 MIADE,https://www.psidev.info/intrinsically-disordered-proteins-workgroup,Minimum Information About Disorder Experiments (MIADE) standard,,"metadata, researcher, data manager, IDP"
 MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"metadata, researcher, data manager, plants, plant geno assembly"
 Microsoft Azure,https://azure.microsoft.com/en-gb/,Cloud storage and file sharing service from Microsoft,,"storage, IT support, transfer"
 Microsoft OneDrive,https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage,Cloud storage and file sharing service from Microsoft,,"storage, IT support"
-MIGS/MIMS,http://wiki.gensc.org/index.php?title=MIGS/MIMS,Minimum Information about a (Meta)Genome Sequence,fairsharing:va1hck,"metadata, researcher, data manager, marine, micro biotech"
+MIGS/MIMS,https://gensc.org/mixs/,Minimum Information about a (Meta)Genome Sequence,fairsharing:va1hck,"metadata, researcher, data manager, marine, micro biotech"
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,
 MIxS,https://gensc.org/mixs/,Minimum Information about any (x) Sequence,fairsharing:9aa0zp,"metadata, researcher, data manager, marine, plant geno assembly"
 MobiDB,https://mobidb.org/,A database of protein disorder and mobility annotations,biotools:mobidb,"IDP, researcher"
 MoDEL,https://mmb.irbbarcelona.org/MoDEL/,Database of Protein Molecular Dynamics simulations representing different structural clusters of the PDB,biotools:model,biomol sim
 MoDEL Covid19,https://bioexcel-cv19.bsc.es/#/,Database of COVID-19 related atomistic Molecular Dynamic Trajectories,,biomol sim
-MoDEL-CNS,https://mmb.irbbarcelona.org/MoDEL-CNS/#/,Repository for Central Nervous System-related mainly membrane protein MD simulations,,biomol sim
-ModelArchive,https://www.modelarchive.org/,Repository for theoretical models of macromolecular structures with DOIs for models,fairsharing:tpqndj,"biomol sim, struct bioinfo"
+MoDEL-CNS,https://mmb.irbbarcelona.org/MoDEL-CNS/#/,Repository for Central Nervous System-related mainly membrane protein MD simulations,,"biomol sim, data publication"
+ModelArchive,https://www.modelarchive.org/,Repository for theoretical models of macromolecular structures with DOIs for models,fairsharing:tpqndj,"biomol sim, struct bioinfo, data publication"
 Molgenis,https://molgenis.gitbooks.io/molgenis/content/,"Molgenis is a modular web application for scientific data. Molgenis provides researchers with user friendly and scalable software infrastructures to capture, exchange, and exploit the large amounts of data that is being produced by scientific organisations all around the world.",biotools:molgenis,"identifiers, IT support, data manager"
 MolMeDB,https://molmedb.upol.cz/,Database about interactions of molecules with membranes,"biotools:MolMeDB, fairsharing:cwzk3c",biomol sim
 MONARC,https://open-source-security-software.net/project/MONARC,A risk assessment tool that can be used to do Data Protection Impact Assessments,,"data protection, policy officer, human data, transmed"
@@ -219,7 +218,7 @@ NCIMB,https://www.ncimb.com/culture-collection/,"Hosts information relating to s
 Nettskjema,https://nettskjema.no/,"Form and survey tool, also for sensitive data",,"sensitive, TSD"
 NextCloud,https://nextcloud.com,"As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.",,"storage, IT support, transfer"
 Nextflow,https://www.nextflow.io,Nextflow is a framework for data analysis workflow execution,,"IT support, data analysis"
-NMRlipids,http://nmrlipids.blogspot.com/,Repository for lipid MD simulations to validate force fields with NMR data,,biomol sim
+NMRlipids,http://nmrlipids.blogspot.com/,Repository for lipid MD simulations to validate force fields with NMR data,,"biomol sim, data publication"
 NPDS,https://www.aapcc.org/national-poison-data-system,The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.,,toxicology data
 OHDSI,https://ohdsi.org/,"Multi-stakeholder, interdisciplinary collaborative to bring out the value of health data through large-scale analytics. All our solutions are open-source.",biotools:ohdsi,"researcher, data manager, data analysis, storage, transmed, toxicology data"
 OMERO,https://www.openmicroscopy.org,"OMERO is an open-source client-server platform for managing, visualizing and analyzing microscopy images and associated metadata","biotools:omero, fairsharing:NA","metadata, data manager, IT support, storage, ome,bioimaging data"

@@ -1,6 +1,5 @@
 ---
 title: Working with git
-toc: false
 ---
 
 

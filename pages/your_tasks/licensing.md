@@ -3,9 +3,6 @@ title: Licensing
 contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
 description: how to license research data.
 page_id: licensing
-faircookbook:
-- name: Licensing
-  url: https://fairplus.github.io/the-fair-cookbook/content/recipes/reusability/ATI-licensing.html#
 related_pages: 
   tool_assembly: []
 dsw:
@@ -13,6 +10,9 @@ dsw:
   uuid: ae28a862-5020-44c2-8c78-3abc185b190f
 - name: Licenses under which this distribution of the data set will be available
   uuid: 3d89e23d-ff5c-45da-97a8-169ad8c39be6
+faircookbook:
+- name: Licensing
+  url: https://w3id.org/faircookbook/FCB032
 ---
 
 ## Why should you assign a licence to your research data?

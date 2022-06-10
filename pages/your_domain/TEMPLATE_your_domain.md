@@ -9,7 +9,6 @@ related_pages:
 training:
   - name:
     registry:
-    registry_url:
     url:
 ---
 

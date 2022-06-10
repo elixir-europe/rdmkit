@@ -9,8 +9,10 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
+faircookbook:
+- name: Plant genomic and genetic variation data submission to EMBL-EBI databases
+  url: https://w3id.org/faircookbook/FCB061
 ---
 
 ## Introduction

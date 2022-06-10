@@ -11,11 +11,9 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/materials?node=Portugal
   - name: Ready for BioData.pt Data Management?
     registry: R4BDM
-    registry_url: http://ready4biodatamanagement.biodata.pt/
     url: http://ready4biodatamanagement.biodata.pt/
 
 resources:
@@ -64,7 +62,8 @@ resources:
 An overview of data management services provided by ELIXIR Portugal / BioData.pt can be found on the BioData.pt Website. 
 
 ## Institutional policies on research data in Portugal
-[Centre of Marine Sciences (CCMAR)](https://ccmar.ualg.pt/en/page/open-science-and-data-management)
+* [Centre of Marine Sciences (CCMAR)](https://ccmar.ualg.pt/en/page/open-science-and-data-management)
+* [Instituto Gulbenkian de Ciência (IGC)](https://zenodo.org/record/6325980#.YmrF1m7MJTY)
 
 ## Funders
 

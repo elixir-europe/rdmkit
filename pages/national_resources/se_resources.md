@@ -8,9 +8,9 @@ coordinators: [Niclas Jareborg, Yvonne Kallberg]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Sweden&scientific_topics=Data+management
   - name: SciLifeLab Data Management YouTube
+    registry: Youtube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
 resources:

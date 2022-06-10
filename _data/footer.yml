@@ -10,7 +10,7 @@ columns:
     width: 3
     children: 
       - url_text: Contributors
-        url: /contributors.html
+        url: /contributors
         external_url: 
       - url_text: ELIXIR-CONVERGE
         url: 
@@ -19,22 +19,22 @@ columns:
         url: 
         external_url: 
       - url_text: Institutes, projects and funders
-        url: /support.html
+        url: /support
         external_url: 
   - type: links
     width: 3
     children: 
       - url_text: About
-        url: /about.html
+        url: /about
         external_url: 
       - url_text: Contact
-        url: /contact.html
+        url: /contact
         external_url: 
       - url_text: Accessibility
-        url: /accessibility.html
+        url: /accessibility
         external_url: 
       - url_text: Privacy
-        url: /privacy.html
+        url: /privacy
         external_url: 
   - type: image
     image_width: 100px
