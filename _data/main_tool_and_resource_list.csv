@@ -323,4 +323,4 @@ XNAT-PIC Pipelines,https://github.com/szullino/XNAT-PIC,Analysing of single or m
 XNAT-PIC Uploader,https://github.com/szullino/XNAT-PIC,Import tool for multimodal DICOM image datasets to XNAT,,"researcher, data manager, XNAT-PIC"
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data publication, biomol sim, bioimaging data"
 Zooma,https://www.ebi.ac.uk/spot/zooma/,Find possible ontology mappings for free text terms in the ZOOMA repository.,,"metadata, data manager, researcher"
-Research Data Management Organiser,https://rdmorganiser.github.io/en,supports the systematic planning, organisation and implementation of research data management throughout the course of a project,,"DMP, researcher, data manager, IT support"
+Research Data Management Organiser,https://rdmorganiser.github.io/en,"Supports the systematic planning, organisation and implementation of research data management throughout the course of a project",,"DMP, researcher, data manager, IT support"
