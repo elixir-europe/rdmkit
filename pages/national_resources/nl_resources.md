@@ -246,36 +246,7 @@ resources:
       your_role: 
       your_tasks:
     url: https://23things.sites.uu.nl/
-  - name: 
-    description: 
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:
-  - name: 
-    description: 
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:
-  - name: 
-    description: 
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:    
+
 
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
