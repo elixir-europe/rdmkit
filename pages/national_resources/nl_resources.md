@@ -6,9 +6,6 @@ country_code: NL
 contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft, Mascha Jansen]
 coordinators: [Mijke Jetten]
 
-related_pages: 
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -136,7 +133,7 @@ resources:
       your_role: 
       your_tasks:
     url: health-ri.nl/services/icrf-generator  
-  - name: Ldot: workflow tool for clinical research
+  - name: "Ldot: workflow tool for clinical research"
     description: A web-based software package to help with the logistics of your research.  
     how_to_access: 
     instance_of: 
