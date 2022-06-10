@@ -13,11 +13,11 @@ training:
   - name: Training in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
-    url: <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
+    url: https://tess.elixir-europe.org/nodes/netherlands
   - name: ELIXIR NODENAME community in Zenodo
     registry: Zenodo
     registry_url: https://zenodo.org
-    url: <!--- https://zenodo.org/communities/elixir NODENAME --->
+    url: https://zenodo.org/communities/dtl/?page=1&size=20
   - name: ELIXIR NODENAME YouTube
     url: <!--- URL of the channel --->
   - name: <!---REPLACE THIS with the name of your training in registry or platform--->
@@ -46,6 +46,16 @@ resources:
       your_role: 
       your_tasks: [DMP, compliance]
     url: https://www.health-ri.nl/services/hands
+  - name: Health-RI Service Catalogue
+    description: Health-RI provides a set of tools and services available to the biomedical research community.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/health-ri-service-catalogue 
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
@@ -81,5 +91,5 @@ The following national services provide useful information and support:
 * [RDA-NL](https://www.rd-alliance.org/groups/rda-netherlands), the Dutch Research Data Alliance Node 
 
 ## Assistance
-Researchers seeking practical assistance best check [RDM in the Netherlands](https://www.lcrdm.nl/en/rdm-in-the-netherlands), which provides information on the various local universities’ and university medical centers support desks
+Researchers seeking practical assistance best check [RDM in the Netherlands](https://www.lcrdm.nl/en/rdm-in-the-netherlands), which provides information on the various local universities’ and university medical centers support desks.
  
