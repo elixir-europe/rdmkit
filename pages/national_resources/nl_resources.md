@@ -243,6 +243,96 @@ resources:
       your_role: 
       your_tasks:
     url: https://23things.sites.uu.nl/
+  - name: FAIR-Aware
+    description: Online tool which helps researchers and data managers assess how much they know about the requirements for making datasets findable, accessible, interoperable, and reusable (FAIR) before uploading them into a data repository. 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://fairaware.dans.knaw.nl
+ - name: FAIRsharing.org
+    description: A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://fairsharing.org/   
+- name: 
+    description:
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:  
+- name: 
+    description:
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: 
+- name: 
+    description:
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: 
+- name: 
+    description:
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: 
+- name: 
+    description:
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: 
+- name: 
+    description:
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: 
+- name: 
+    description:
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url:     
 
 
 ---
@@ -263,7 +353,7 @@ National funders [NWO](https://www.nwo.nl/en/research-data-management) and [ZonM
 For more information on the requirements for FAIR data stewardship, consult the funders’ webpages and their particular policies about data management and Open Science.
 
 ## National initiatives
-Together with [Health-RI](https://www.health-ri.nl), DTL will have a leading role in the national roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/news/setup-thematic-digital-competence-centers) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network will formally be established this spring (2022), and will contribute to strengthening and harmonising the digital practises among stakeholders in the broad Dutch research domains of life sciences and biomedical/health sciences.
+Together with [Health-RI](https://www.health-ri.nl), DTL will have a leading role in the national roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/news/setup-thematic-digital-competence-centers) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network was formally established in the spring of 2022, and is contributing to strengthening and harmonising the digital practises among stakeholders in the broad Dutch research domains of life sciences and biomedical/health sciences.
 
 Moreover, DTL also coordinates the National Programme Open Science (NPOS) [FAIR Data Programme Line](https://www.openscience.nl/en/fair-data-programme-line).
 
