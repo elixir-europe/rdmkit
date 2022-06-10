@@ -87,7 +87,7 @@ resources:
       your_tasks:
     url: https://www.health-ri.nl/services/parelsnoer-clinical-biobanks
   - name: Jupyter Notebooks
-    description: Making data analyses easier. Store, share and reproduce data analyses. Quick insight into your data analyses and disseminate research results fast.
+    description: Making data analyses easier. Store, share and reproduce data analyses. Quick insight into your data analyses and disseminate research. results fast.
     how_to_access: 
     instance_of: 
     related_pages:
@@ -136,6 +136,116 @@ resources:
       your_role: 
       your_tasks:
     url: health-ri.nl/services/icrf-generator  
+  - name: Ldot: workflow tool for clinical research
+    description: A web-based software package to help with the logistics of your research.  
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/ldot-workflow-tool-clinical-research
+  - name: DMPonline
+    description: DMPonline helps you to create, review, and share data management plans that meet institutional and funder requirements. 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://dmponline.dcc.ac.uk/
+  - name: SURFfilesender
+    description: Secure sending and receiving of small to very large files of data.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.surf.nl/en/surffilesender-send-large-files-securely-and-encrypted
+  - name: Registry in a Box
+    description: Guidance & Tools for Registries.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/registry-box
+  - name: Dutch COVID-19 Data Support Programme
+    description: To support investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme
+  - name: BBMRI.nl Image analysis platform
+    description: Enabling researchers to share medical imaging data and image-analysis pipelines.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/bbmrinl-image-analysis-platform
+  - name: XNAT
+    description: Extensible Imaging Archive Toolkit. Archiving, viewing and analysing clinical imaging data.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/xnat
+  - name: Molgenis
+    description: A modular web application for scientific data. Flexible data integration platform to find, capture, exchange, manage and analyse scientific data.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.molgenis.org
+  - name: BBMRI.nl Catalogue
+    description: The catalogue gives an overview of a large set of sample collections, data collections, studies and biobanks in the Netherlands. All data and samples are available to order for further research.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://catalogue.bbmri.nl/menu/main/background
+  - name: RIVM Health and Healthcare Data
+    description: Provides an overview of all health- and healthcare registrations in the Netherlands with the aim to prevent duplication of data collection.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://www.health-ri.nl/services/rivm-health-and-healthcare-data
+  - name: 23 Things for Research Data Management tool
+    description: Shared reference tool for knowledge on data management 
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://23things.sites.uu.nl/
   - name: 
     description: 
     how_to_access: 
@@ -165,44 +275,7 @@ resources:
       your_domain:
       your_role: 
       your_tasks:
-    url:
-  - name: 
-    description: 
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:
-  - name: 
-    description: 
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:
-  - name: 
-    description: 
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:
-
-
-
-
-
-
-
+    url:    
 
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
