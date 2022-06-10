@@ -133,7 +133,7 @@ resources:
       your_role: 
       your_tasks:
     url: health-ri.nl/services/icrf-generator  
-  - name: "Ldot: workflow tool for clinical research"
+  - name: Ldot workflow tool for clinical research
     description: A web-based software package to help with the logistics of your research.  
     how_to_access: 
     instance_of: 
@@ -263,77 +263,6 @@ resources:
       your_role: 
       your_tasks:
     url: https://fairsharing.org/   
-- name: 
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:  
-- name: 
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: 
-- name: 
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: 
-- name: 
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: 
-- name: 
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: 
-- name: 
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: 
-- name: 
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url:     
-
 
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
