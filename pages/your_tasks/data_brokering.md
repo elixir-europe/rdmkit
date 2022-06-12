@@ -36,8 +36,7 @@ There are many aspects to consider when getting started as a broker.
 The solutions that you adopt will vary depending on the agreements you have negotiated with data providers and/or recipients. The following are examples of general solutions that would help you comply with regulations and implement good data management practices.
 * [Data management plan](data_management_plan) – Many questions that you would answer while writing a data management plan can be relevant to answer when you specify the terms of service for your brokering service, such as data storage, data standards, legal and ethical, etc. 
 * [Data protection](data_protection) – If you are working with data concerning people in the EU, you should make sure to comply with both national and international regulations for data protection.
-* [Apply for brokering permissions](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html) e.g. [ENA support/helpdesk](https://www.ebi.ac.uk/ena/browser/support) 
-
+* Apply for brokering permissions at the repository where you plan to submit data. For example, you can have a broker account at ENA; in this case, please visit [ENA Documentation]((https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html)) for guidelines on how to apply for such an account.
 
 ## Collecting and processing the metadata and data
 ### Description
@@ -52,37 +51,24 @@ Data brokering involves collecting data from various data providers (metadata an
 * Data brokers should also consider implementing a mechanism for metadata and data files update within their platform, and define mechanisms to pass on the updates to international repositories. Please consider that depending on the update mechanisms in place at the international repositories (e.g. API vs manual update via email), this process might become quite time-consuming.
 * [Data transfer](data_transfer) from the data providers to the data brokering platform will depend on the nature and volume of data. The volume might be larger if data providers can submit data in batches. 
 * Clarify with the data providers how the data will be processed, in terms of data curation/cleaning and downstream [data analyses](data_analysis). 
-* [Data storage](storage) needs should be carefully addressed; consider storing data in compressed formats and deleting intermediate files from analyses that could be recomputed if needed to gain storage space.
+* [Data storage](storage) needs should be carefully addressed; consider storing data in compressed formats and deleting intermediate files from analyses that could be recomputed if needed to gain a storage space.
 
 ### Solutions
 Collection of metadata can be done in various ways:
 
 * Electronic forms (e.g. online form, eCRF) allow controlling data at the entry point, ensuring the use of controlled vocabularies and ontologies if properly set up. While user friendly for single uploads, this type of upload can become very cumbersome for batch upload.
 * Spreadsheet files enable controlling data at the entry point, thanks to native validation features of spreadsheet tools (e.g Excel). It is at the same time very convenient for batch uploads and users generally like having a file that they can store and easily re-open to check what they have provided.
-* Text files (TSV, CSV, JSON, XML…) are very practical to automate batch submissions on the user side, since scripts can easily generate these files. It is recommended to specify to the users which encoding should be used (e.g. UTF-8). There is however no data control at the entry point and only upon submission to the data brokering database. All data validation is therefore performed upon loading into the database, and error handling should be carefully evaluated prior to implementation. Examples include automatically informing the user of errors and asking them to re-submit, or involving data curators who may correct obvious mistakes and can be in contact with data providers to clarify data validation errors. Some automation may also be implemented to map terms to a controlled list of terms or an ontology even in the case of minor typos.
+* Text files (e.g. TSV, CSV, JSON, XML, and so on) are very practical to automate batch submissions on the user side, since scripts can easily generate these files. It is recommended to specify to the users which encoding should be used (e.g. UTF-8). There is however no data control at the entry point and only upon submission to the data brokering database. All data validation is therefore performed upon loading into the database, and error handling should be carefully evaluated prior to implementation. Examples include automatically informing the user of errors and asking them to re-submit, or involving data curators who may correct obvious mistakes and can be in contact with data providers to clarify data validation errors. Some automation may also be implemented to map terms to a controlled list of terms or an ontology even in the case of minor typos.
 
 ## Sharing data to public repositories
 ### Description
-Often, a goal of the broker is to submit the collected and harmonised data in an open archive for the benefit of both the data owners and the wider scientific community. This supports sharing data with collaborators, referencing for publication and provides a [long-term storage solution](storage).
+Often, a goal of the broker is to [publish the collected and harmonised data](data_publication) in an open archive for the benefit of both the data owners and the wider scientific community. This supports sharing data with collaborators, referencing for publication and provides a [long-term storage solution](storage).
 
-### Example for genomic data
-For sharing of sequencing data within Europe, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/about) can be used. The ENA is part of the [INSDC](https://www.insdc.org/), a global collaboration for the archival of nucleotide sequence data including NCBI and DDBJ. For information on the structure of ENA content, please see here: https://www.ebi.ac.uk/ena/browser/about/content. A general guide to submissions to the ENA can be found here: https://ena-docs.readthedocs.io/en/latest/submit/general-guide.html
-
-In the particular case of SARS-CoV-2 genomic data, more information will be available on the SARS-CoV-2 domain page (under construction, coming soon).
+Once relevant repositories are identified for data submission and sharing, being an official data broker for a repository will generally give you additional rights such as the possibility to submit data on behalf of data producers, as well as providing a list of authors and address of the data providers. This is important to ensure that data producers can claim authorship (e.g. via [ORCiD](https://www.orcid.org)) and are given credit for their work.
 
 ### Considerations
-* There are many data repositories, so it is important to decide where you plan to share the data and adhere to the correct standards and submission protocols for your data type. This may notably include adhering to checklists provided by the chosen data repositories. More information can be found on our [data publication](data_publication) page.
-* If submitting to open access repositories, ensure clarity on which fields and data to share and, if these fields contain sensitive information, should they be anonymised/pseudonymised
-  * metadata anonymisation:  [sensitive data](sensitive_data), and [human data](human_data)
-  * Need to remove any human data (e.g. reads) prior to submission
-* Submitted data may not be deleted, but may be suppressed from public view upon request
-* Submitted records may be updated at a later date with new or amended metadata entries. However, it should be noted that upon creation of a new record, data is tagged for distribution and selected metadata fields are exchanged with other repositories. Redistribution of updated records is usually not triggered automatically, so updating records fully can be a time consuming and manual process.
-* After data is submitted to a public repository, should the original copy of the data be retained at the central brokering platform and linked to its public counterpart? Or should it be removed and replaced with the ID of the public record?
-* Within INSDC databases, data may be submitted and held privately for a period of time by setting a release date at time of submission, see [ENA documentation](https://ena-docs.readthedocs.io/en/latest/faq/release.html).
-* By default, data submitted using default accounts are accredited to the submitting institute. However, broker accounts have the ability to credit different institutes with different records: https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html 
+* Does the repository have a “broker”-like account? This is usually referred to as a “Broker” or “Teams” account and is not always well advertised on the repository web page. Do not hesitate to contact the repository mailing-list for more information on the existence of brokering-like accounts and ask for the related additional rights.
+* As a data broker, you generally wish to submit large amounts of data continuously. Hence, having access to a submission command-line-interface (CLI) or Application Programming Interface (API) is generally preferred over a user interface.
 
 ### Solutions
-* There are many tools available to remove human reads from your non-human data, e.g. https://github.com/alakob/Metagen-FastQC-Docker 
-* If submitting to ENA, please find the sample metadata checklist relating to your domain here: https://www.ebi.ac.uk/ena/browser/checklists 
-* For information on updating assemblies, see here: https://ena-docs.readthedocs.io/en/latest/update/assembly.html#updating-assemblies
-* For information on updating all other data types, see here: https://ena-docs.readthedocs.io/en/latest/submit/general-guide/programmatic.html#submission-xml-update-existing-objects
+* For example, ENA offers a submission CLI and API as well as an official data broker role. For more information on data submission as a broker, please visit: https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html?highlight=broker 
