@@ -25,7 +25,7 @@ There are many aspects to consider when getting started as a broker.
 * Identify what kind of processing you will handle as a broker, such as (meta)data curation and validation, data masking/anonymisation, etc.
 * Define the time frame for your commitment and your responsibilities for the data, such as how to handle data loss before delivery, what to do with the data after a successful delivery, how to manage changes to data that has already been delivered etc.
 * Identify who is responsible for the data before, during and after delivery, such as the data controller/processor (according to GDPR) and/or intellectual property owner/licensee relationships between the provider and recipient
-* Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data protection](data_protection), [licensing](licensing) and [compliance](compliance_monitoring).
+* Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data protection](data_protection), [licensing](licensing), and [compliance](compliance_monitoring).
 * Estimate and secure the resources required to keep your commitment, such as staff with time and necessary skills, accounts, compute, storage and software
 * Refer to the sections below for considerations related to collecting data from data providers and delivering data to public data repositories.
 
@@ -35,7 +35,7 @@ There are many aspects to consider when getting started as a broker.
 The solutions that you adopt will vary depending on the agreements you have negotiated with data providers and/or recipients. The following are examples of general solutions that would help you comply with regulations and implement good data management practices.
 * [Data management plan](data_management_plan) – Many questions that you would answer while writing a data management plan can be relevant to answer when you specify the terms of service for your brokering service, such as data storage, data standards, legal and ethical, etc. 
 * [Data protection](data_protection) – If you are working with data concerning people in the EU, you should make sure to comply with both national and international regulations for data protection.
-* Apply for brokering permissions at the repository where you plan to submit data. For example, you can have a broker account at ENA; in this case, please visit [ENA Documentation]((https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html)) for guidelines on how to apply for such an account.
+* Apply for brokering permissions at the repository where you plan to submit data. For example, you can have a broker account at ENA; in this case, please visit [ENA Documentation](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html) for guidelines on how to apply for such an account.
 
 ## Collecting and processing the metadata and data
 ### Description
@@ -47,7 +47,7 @@ Data brokering involves collecting data from various data providers (metadata an
   * Collection of data files (e.g. sequencing data) should also involve minimal validation where possible (e.g. file extensions, regular checks of file sizes across the database to identify potential outliers with issues, integrity checks (checksum)…).
 
 * Regular data checks should always be performed at the database level, to check unicity of identifiers where expected (e.g. sample identifier within a laboratory is expected to be unique) and identify potential incoherences in the data (e.g. division indicated in the name of a virus versus division indicated in the location field).
-* Data brokers should also consider implementing a mechanism for metadata and data files update within their platform, and define mechanisms to pass on the updates to international repositories. Please consider that depending on the update mechanisms in place at the international repositories (e.g. API vs manual update via email), this process might become quite time-consuming.
+* Data brokers should also consider implementing a mechanism for metadata and data files update within their platform, and define mechanisms to pass on the updates to international repositories. Please consider that depending on the update mechanisms in place at the international repositories (e.g.  Application Programming Interface (API) vs manual update via email), this process might become quite time-consuming.
 * [Data transfer](data_transfer) from the data providers to the data brokering platform will depend on the nature and volume of data. The volume might be larger if data providers can submit data in batches. 
 * Clarify with the data providers how the data will be processed, in terms of data curation/cleaning and downstream [data analyses](data_analysis). 
 * [Data storage](storage) needs should be carefully addressed; consider storing data in compressed formats and deleting intermediate files from analyses that could be recomputed if needed to gain a storage space.
@@ -67,7 +67,7 @@ Once relevant repositories are identified for data submission and sharing, being
 
 ### Considerations
 * Does the repository have a “broker”-like account? This is usually referred to as a “Broker” or “Teams” account and is not always well advertised on the repository web page. Do not hesitate to contact the repository mailing-list for more information on the existence of brokering-like accounts and ask for the related additional rights.
-* As a data broker, you generally wish to submit large amounts of data continuously. Hence, having access to a submission command-line-interface (CLI) or Application Programming Interface (API) is generally preferred over a user interface.
+* As a data broker, you generally wish to submit large amounts of data continuously. Hence, having access to a submission command-line-interface (CLI) or API is generally preferred over a user interface.
 
 ### Solutions
-* For example, ENA offers a submission CLI and API as well as an official data broker role. For more information on data submission as a broker, please visit: https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html?highlight=broker 
+* For example, ENA offers a submission CLI and API as well as an official data broker role. For more information on data submission as a broker, please visit: [https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html?highlight=broker](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html?highlight=broker) 
