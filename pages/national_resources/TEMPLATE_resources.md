@@ -6,6 +6,7 @@ country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capita
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
 
+# Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
 related_pages:
   tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
 
@@ -23,12 +24,11 @@ training:
     registry: <!---REPLACE THIS with the name of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-
-<!--- Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. --->
+# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
   -  <!---REPLACE THIS with the tool name--->
 
-<!--- List here tools and resources mainly relevant for the specific country --->
+# List here tools and resources mainly relevant for the specific country
 national_resources: 
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
