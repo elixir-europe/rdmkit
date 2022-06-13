@@ -58,16 +58,6 @@ national_resources:
       your_role: 
       your_tasks:
     url: https://www.health-ri.nl/services/cbioportal
-  - name: Data Stewardship Wizard
-    description: Data Stewardship Wizard is a simple and powerful tool for researchers and data stewards to build Data Management Plans. It helps to get a grip on good, FAIR-oriented Data Stewardship and get assistance from experts.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://ds-wizard.org/
   - name: Parelsnoer Clinical Biobanks
     description: Parelsnoer is a collaborative biobanking initiative of the University Medical Centres (UMCs) in the Netherlands. Offering researchers an infrastructure and harmonized procedures for the establishment, expansion and optimisation of clinical biobanks for collaborative scientific research.
     how_to_access: 
@@ -138,16 +128,6 @@ national_resources:
       your_role: 
       your_tasks:
     url: https://www.health-ri.nl/services/ldot-workflow-tool-clinical-research
-  - name: DMPonline
-    description: DMPonline helps you to create, review, and share data management plans that meet institutional and funder requirements. 
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://dmponline.dcc.ac.uk/
   - name: SURFfilesender
     description: Secure sending and receiving of small to very large files of data.
     how_to_access: 
@@ -188,26 +168,6 @@ national_resources:
       your_role: 
       your_tasks:
     url: https://www.health-ri.nl/services/bbmrinl-image-analysis-platform
-  - name: XNAT
-    description: Extensible Imaging Archive Toolkit. Archiving, viewing and analysing clinical imaging data.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://www.health-ri.nl/services/xnat
-  - name: Molgenis
-    description: A modular web application for scientific data. Flexible data integration platform to find, capture, exchange, manage and analyse scientific data.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://www.molgenis.org
   - name: BBMRI.nl Catalogue
     description: The catalogue gives an overview of a large set of sample collections, data collections, studies and biobanks in the Netherlands. All data and samples are available to order for further research.
     how_to_access: 
@@ -248,16 +208,13 @@ national_resources:
       your_role: 
       your_tasks:
     url: https://fairaware.dans.knaw.nl
-  - name: FAIRsharing.org
-    description: A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://fairsharing.org/   
+
+# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+ref_to_main_resources:
+  - FAIRsharing
+  - Molgenis
+  - XNAT
+  - Data Stewardship Wizard
 
 ---
 
