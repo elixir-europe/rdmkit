@@ -51,7 +51,7 @@ national_resources:
       your_tasks: [metadata]
     url: http://intermine.org/
 
-main_resources:
+ref_to_main_resources:
   - WorkflowHub
   - FAIRDOM-SEEK
 ---

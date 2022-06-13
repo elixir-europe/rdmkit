@@ -5,9 +5,6 @@ country_code: BE
 contributors: [Flora D'Anna]
 coordinators: [Flora D'Anna]
 
-related_pages: 
-  tool_assembly: []
-
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -19,10 +16,11 @@ training:
     registry: Youtube
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
-main_resources:
+ref_to_main_resources:
   - FAIRDOM-SEEK
   - Galaxy
   - WorkflowHub
+  - ENA upload tool
 
 national_resources:
   - name: RDM Guide

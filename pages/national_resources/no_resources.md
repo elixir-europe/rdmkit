@@ -145,7 +145,7 @@ national_resources:
       your_role: []
     url: https://dataverse.no/
 
-main_resources:
+ref_to_main_resources:
   - MarDB
   - MarFun
 

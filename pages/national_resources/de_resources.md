@@ -5,9 +5,6 @@ country_code: DE
 contributors: [Ulrike Wittig]
 coordinators: [Ulrike Wittig]
 
-related_pages: 
-  tool_assembly: []
-
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -37,7 +34,7 @@ national_resources:
       your_tasks: [DMP]
     url: https://rdmorganiser.github.io/
 
-main_resources:
+ref_to_main_resources:
   - e!DAL-PGP
   - FAIRDOM-SEEK
   - PANGAEA
