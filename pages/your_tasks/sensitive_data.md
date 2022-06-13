@@ -25,6 +25,9 @@ dsw:
   uuid: 59748a7b-f729-404d-babe-3147e2c6b247
 - name: Does this dataset contain sensitive information?
   uuid: cc95b399-7d8d-4232-bccf-686f78c91bff
+faircookbook:
+- name: Declaring data's permitted uses
+  url: https://w3id.org/faircookbook/FCB035
 ---
 
 ## Is your data sensitive?

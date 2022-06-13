@@ -7,6 +7,8 @@ related_pages:
     tool_assembly: []
 faircookbook:
 - name: Depositing in Zenodo generic repository
+  url: https://w3id.org/faircookbook/FCB007
+- name: Depositing in Zenodo generic repository
   url: https://w3id.org/faircookbook/FCB009
 ---
 
