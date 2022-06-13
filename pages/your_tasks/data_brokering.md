@@ -1,6 +1,7 @@
 ---
 title: Data brokering
-contributors: [Aitana Lebrand, Parul Tewatia, Wolmar Nyberg Åkerström, Carla Cummins, Nils Peder Willassen, Nazeefa Fatima]
+contributors: [Aitana Neves, Parul Tewatia, Wolmar Nyberg Åkerström, Carla Cummins, Nils Peder Willassen, Nazeefa Fatima]
+description: information on brokering data to data repositories on behalf of data producers
 page_id: data brokering
 related_pages: 
   tool_assembly:
