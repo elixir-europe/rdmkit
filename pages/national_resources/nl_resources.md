@@ -15,14 +15,9 @@ training:
     registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/communities/dtl/?page=1&size=20
-  - name: ELIXIR NODENAME YouTube
-    url: <!--- URL of the channel --->
-    registry: Youtube
-  - name: <!---REPLACE THIS with the name of your training in registry or platform--->
-    registry: <!---REPLACE THIS with the name of the registry--->
-    url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-resources:
+
+national_resources:
   - name: ELSI servicedesk
     description: Guidance and answers to the ethical, legal and social implications of research on personalised medicine and next generation sequencing. The ELSI Servicedesk helps to answer questions on these topics.
     how_to_access: 
@@ -244,8 +239,8 @@ resources:
       your_tasks:
     url: https://23things.sites.uu.nl/
 
-
 ---
+
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
 <!---Following information for the page text--->

@@ -5,7 +5,7 @@ country_code: EE
 contributors: [Heleri Inno]
 coordinators: [Heleri Inno]
 
-resources:
+national_resources:
   - name: Galaxy Estonia
     description: This is the Estonian instance of  Galaxy, which is an open source, web-based platform for data intensive biomedical research.
     how_to_access:

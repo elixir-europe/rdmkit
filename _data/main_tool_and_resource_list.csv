@@ -1,4 +1,4 @@
-name,link,description,registry,related_pages
+name,url,description,registry,related_pages
 3D-Beacons,https://3d-beacons.org,Network providing unified programmatic access to experimentally determined and predicted structure models,,struct bioinfo
 Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,biotools:NA,micro biotech
 Ada Discovery Analytics (Ada),https://ada-discovery.github.io/,"Ada is a performant and highly configurable system for secured integration, visualization, and collaborative analysis of heterogeneous data sets, primarily targeting clinical and experimental sources.",,"data analysis, transmed"
@@ -92,7 +92,6 @@ DisGeNET,https://www.disgenet.org/,A discovery platform containing collections o
 DisProt,https://disprot.org/,A database of intrinsically disordered proteins,biotools:disprot,"IDP, researcher"
 DMP Canvas Generator,https://dmp.vital-it.ch,"Questionnaire, which generates a pre-filled a DMP",,"DMP, researcher, data manager"
 DMPlanner,https://dmplanner.athenarc.gr/,"Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans.",,"DMP, researcher, data manager"
-DMPonline,https://dmponline.dcc.ac.uk/,"A free tool to write, share and export a data management plan. Built-in data management plan templates for many major funders.",,"DMP, researcher, data manager"
 DMPRoadmap,https://github.com/DMPRoadmap/roadmap,DMP Roadmap is a Data Management Planning tool.,,"DMP, researcher, data manager"
 DMPTool,https://dmptool.org,Build your Data Management Plan,,"DMP, researcher, data manager"
 DNA Data Bank of Japan (DDBJ),https://www.ddbj.nig.ac.jp/index-e.html,A database of DNA sequences,,micro biotech
@@ -102,9 +101,9 @@ Drug Matrix,https://ntp.niehs.nih.gov/data/drugmatrix/,A toxicogenomic resource 
 Dryad,https://datadryad.org/,"Open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data",fairsharing:wkggtx,"data publication, biomol sim,bioimaging data"
 Dynameomics,http://www.dynameomics.org/,Database of folding / unfolding pathway of representatives from all known protein folds by MD simulation,,biomol sim
 e!DAL,https://edal.ipk-gatersleben.de/,Electronic data archive library is a framework for publishing and sharing research data,biotools:edal,"storage, IT support"
-e!DAL-PGP,https://edal-pgp.ipk-gatersleben.de/,Plant Genomics and Phenomics Research Data Repository,fairsharing:rf3m4g,"plants, plant geno assembly, researcher, data manager, IT support, data publication"
-EasyDMP,https://easydmp.no/,"DMP creation, versioning and sharing",,"DMP, researcher, data manager"
+e!DAL-PGP,https://edal-pgp.ipk-gatersleben.de/,Plant Genomics and Phenomics Research Data Repository,fairsharing:rf3m4g,"plants, plant geno assembly, researcher, data manager, IT support, data publication, metadata"
 ECOTOX,https://cfpub.epa.gov/ecotox/,"The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.",,toxicology data
+ENA upload tool,https://github.com/usegalaxy-eu/ena-upload-cli,The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).,,"IT support, data manager, researcher"
 ECPGR,https://www.ecpgr.cgiar.org/,Hub for the identification of plant genetic resources in Europe,,"plants, researcher, data manager"
 EDKB,https://www.fda.gov/science-research/bioinformatics-tools/endocrine-disruptor-knowledge-base,"Endocrine Disruptor Knowledge Base is a platform designed to foster the development of computational predictive toxicology. This platform allows direct access to ten libraries containing the following resources: a biological activity database, QSAR training sets, in vitro and in vivo experimental data for more than 3,000 chemicals, literature citations, chemical-structure search capabilities.",,toxicology data
 ELIXIR Core Data Resources,https://elixir-europe.org/platforms/data/core-data-resources,Set of European data resources of fundamental importance to the wider life-science community and the long-term preservation of biological data,fairsharing-coll:bsg-c000039,"existing data, Covid-19"
@@ -130,9 +129,9 @@ FAIDARE,https://urgi.versailles.inra.fr/faidare/,FAIDARE is a tool allowing to s
 FAIR Cookbook,https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#,"FAIR Cookbook is an online resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable (FAIR)",,"compliance, data manager, transmed"
 FAIR Evaluation Services,https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!,Resources and guidelines to assess the FAIRness of digital resources.,,"compliance, data manager, policy officer"
 FAIRassist.org,https://fairassist.org/#!/,Help you discover resources to measure and improve FAIRness.,,"compliance, data manager, policy officer"
-FAIRDOM-SEEK,https://seek4science.org/,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc.",biotools:seek,"storage, IT support, NeLS, micro biotech, IFB, machine actionability"
-FAIRDOMHub,https://fairdomhub.org,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc. (public SEEK instance)",fairsharing:nnvcr9,"storage, researcher, NeLS, metadata, micro biotech, machine actionability"
-fairsharing,https://fairsharing.org/,"A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",fairsharing:2abjs5,"metadata, data publication, policy officer, data manager, researcher, micro biotech, existing data"
+FAIRDOM-SEEK,https://seek4science.org/,"A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.",biotools:seek,"storage, IT support, NeLS, micro biotech, IFB, machine actionability"
+FAIRDOMHub,https://fairdomhub.org,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc. (public SEEK instance)",fairsharing:nnvcr9,"storage, researcher, NeLS, metadata, micro biotech, machine actionability, data manager"
+FAIRsharing,https://fairsharing.org/,"A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies.",fairsharing:2abjs5,"metadata, data publication, policy officer, data manager, researcher, micro biotech, existing data"
 FigShare,https://figshare.com/,Data publishing platform,fairsharing:drtwnh,"data publication, biomol sim,bioimaging data"
 FileZilla,https://filezilla-project.org,A free FTP solution,,"transfer, IT support"
 Free-IPA,https://www.freeipa.org/,FreeIPA is an integrated Identity and Authentication solution for Linux/UNIX networked environments.,,"IT support, transmed"
@@ -186,8 +185,8 @@ Linked Open Vocabularies (LOV),https://lov.linkeddata.es/dataset/lov/,Web portal
 List of Prokaryotic names with Standing in Nomenclature (LPSN),https://lpsn.dsmz.de,A database of prokaryote specific biodiversity information,,micro biotech
 LUMI,https://www.lumi-supercomputer.eu/,EuroHPC world-class supercomputer,,"data analysis, researcher, IT support, CSC"
 maDMP - Research Bridge,https://library.ust.hk/sc/machine-actionable-dmp/,Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.,,"DMP, IT support"
-MarDB,https://mmp2.sfb.uit.no/mardb/,"MarDB includes all non-complete marine microbial genomes regardless of level of completeness. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation.",biotools:mardb,marine assembly
-MarFun,https://mmp2.sfb.uit.no/marfun/,MarFun is a manually curated marine fungi genome database.,,marine assembly
+MarDB,https://mmp2.sfb.uit.no/mardb/,"MarDB includes all non-complete marine microbial genomes regardless of level of completeness. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation.",biotools:mardb,"marine assembly, data analysis"
+MarFun,https://mmp2.sfb.uit.no/marfun/,MarFun is a manually curated marine fungi genome database.,,"marine assembly, data analysis"
 Marine metagenomics portal,https://mmp2.sfb.uit.no/,High-quality curated and freely accessible microbial genomics and metagenomics resources for the marine scientific community,biotools:mmp,marine assembly
 MarRef,https://mmp2.sfb.uit.no/marref/,"MarRef is a manually curated marine microbial reference genome database that equenced genomes. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation information",biotools:marref,marine assembly
 MemProtMD,http://memprotmd.bioch.ox.ac.uk/,Database of over 5000 intrinsic membrane protein structures,,biomol sim
@@ -237,7 +236,7 @@ OSF,https://osf.io,"OSF (Open Science Framework) is a free, open platform to sup
 OTP,https://gitlab.com/one-touch-pipeline/otp,"One Touch Pipeline (OTP) is a data management platform for running bioinformatics pipelines in a high-throughput setting, and for organising the resulting data and metadata.",,"human data, metadata, DMP, data analysis"
 OwnCloud,https://owncloud.com,Cloud storage and file sharing service,,"storage, IT support, transfer, data analysis"
 PAA,https://bioconductor.org/packages/PAA/,PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.,biotools:paa,"data analysis, researcher, human data, proteomics"
-PANGAEA,https://www.pangaea.de/,Data Publisher for Earth and Environmental Science,biotools:pangaea,data publication
+PANGAEA,https://www.pangaea.de/,Data Publisher for Earth and Environmental Science,biotools:pangaea,"data publication, metadata, researcher, data manager"
 PCDDB,https://pcddb.cryst.bbk.ac.uk/,The Protein Circular Dichroism Data Bank,biotools:pcddb,"IDP, researcher"
 PDB,https://www.wwpdb.org/,The Protein Data Bank (PDB),biotools:pdb,"researcher, IDP, struct bioinfo"
 PDB-Dev,https://pdb-dev.wwpdb.org/,Prototype archiving system for structural models obtained using integrative or hybrid modeling,,"biomol sim, struct bioinfo"
@@ -308,7 +307,6 @@ ToxCast_data,https://www.epa.gov/chemical-research/exploring-toxcast-data-downlo
 TOXNET,https://www.nlm.nih.gov/toxnet/index.html,"The Toxicology Data Network (TOXNET) was a portal that allowed access to several relevant sources in the toxicological field. Nowadays, these sources have been integrated into other NLM resources.",,toxicology data
 tranSMART,https://github.com/transmart,"Knowledge management and high-content analysis platform enabling analysis of integrated data for the purposes of hypothesis generation, hypothesis validation, and cohort discovery in translational research.",biotools:transmart,"researcher, data manager, data analysis, storage, transmed"
 Tryggve ELSI Checklist,https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html,"A list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects",,"sensitive, policy officer, data manager, human data, NeLS, CSC, TSD"
-TSD,https://www.uio.no/english/services/it/research/sensitive-data/,Norwegian Services for sensitive data,,"sensitive, TSD, storage"
 TXG-MAPr,https://txg-mapr.eu/,"A tool that contains weighted gene co-expression networks obtained from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.",,"data analysis, researcher, toxicology data"
 UMLS,https://www.nlm.nih.gov/research/umls/index.html,The Unified Medical Language System (UMLS) is a set of tools that establishes a mapping structure among different vocabularies in the biomedical sciences field to enable interoperativity between computer systems.,,toxicology data
 UniChem,https://www.ebi.ac.uk/unichem/,"UniChem is a very simple, large-scale non-redundant database of pointers between chemical structures and EMBL-EBI chemistry resources. Primarily, this service has been designed to maintain cross references between EBI chemistry resources. These include primary chemistry resources (ChEMBL and ChEBI), and other resources where the main focus is not small molecules, but which may nevertheless contain some small molecule information (eg: Gene Expression Atlas, PDBe).",,toxicology data
@@ -323,3 +321,4 @@ XNAT-PIC Pipelines,https://github.com/szullino/XNAT-PIC,Analysing of single or m
 XNAT-PIC Uploader,https://github.com/szullino/XNAT-PIC,Import tool for multimodal DICOM image datasets to XNAT,,"researcher, data manager, XNAT-PIC"
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data publication, biomol sim, bioimaging data"
 Zooma,https://www.ebi.ac.uk/spot/zooma/,Find possible ontology mappings for free text terms in the ZOOMA repository.,,"metadata, data manager, researcher"
+Research Data Management Organiser,https://rdmorganiser.github.io/en,"Supports the systematic planning, organisation and implementation of research data management throughout the course of a project",,"DMP, researcher, data manager, IT support"

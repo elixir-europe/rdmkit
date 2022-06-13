@@ -1,11 +1,13 @@
 ---
 title: Data publication
-contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna]
+contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins]
 description: prepare data and find repositories for publication.
 page_id: data publication
 related_pages: 
     tool_assembly: []
 faircookbook:
+- name: Depositing in Zenodo generic repository
+  url: https://w3id.org/faircookbook/FCB007
 - name: Depositing in Zenodo generic repository
   url: https://w3id.org/faircookbook/FCB009
 ---
@@ -18,7 +20,7 @@ Sometimes it is difficult to determine if publishing data you have at hand is th
 
 ### Considerations
 * Publishing data does not necessarily mean open access nor public. Data can be published with closed or restricted access.
-* Data doesn't have to be published immidiately while you are still working on the project. Data can be made available during the revision of the paper or after the publication of the paper.
+* Data doesn't have to be published immediately while you are still working on the project. Data can be made available during the revision of the paper or after the publication of the paper.
 * Make sure to have the rights or permissions to publish the data.
   * Is the data commercially-sensitive?
   * Does the data contain confidential/restricted information?
@@ -52,7 +54,6 @@ The most suitable repository will depend on the data type and your discipline.
   * Does the funding agency or the scientific journal pose specific requirements regarding data sharing?
   * What are the repository's policies concerning licences and data reuse?
 
-
 ### Solutions
 * Based on the possible ethical, legal and contractual implications of your data, decides:
   * The right [type of access](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing) for your data.
@@ -77,6 +78,8 @@ Once you have decided where to publish your data, you will have to make your (me
   * How is the data uploaded?
   * What metadata do you need to provide?
   * Under which licence should the data be published?
+  * Should [sensitive data](sensitive_data) and metadata be anonymised or pseudonymised prior to a publication? This could notably be the case if you work with [human data](human_data).
+  * After data is submitted to a public repository, should the original copy of the data be retained at the central brokering platform and linked to its public counterpart? Or should it be removed and replaced with the ID of the public record?
 
 
 ### Solutions
@@ -87,5 +90,19 @@ Once you have decided where to publish your data, you will have to make your (me
     * Costs for sharing and storing data.
   * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
   * To ascertain re-usability data should be released with a clear and accessible data usage [licence](licensing). We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. 
-    * Note that every repository can have one default licence for all datasets. For instance, sequence data submitted to for example [ENA](https://www.ebi.ac.uk/ena/browser/home) are implicitly free to reuse by others as specified in the [INCD Standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
+    * Note that every repository can have one default licence for all datasets. For instance, sequence data submitted to for example [ENA](https://www.ebi.ac.uk/ena/browser/home) are implicitly free to reuse by others as specified in the [INSDC standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
   * See the corresponding page for more detailed information about [metadata](metadata_management), [licences](licensing) and [data transfer](data_transfer).
+  * There are many tools available to remove human reads from your non-human data, e.g. Metagen-FastQC https://github.com/alakob/Metagen-FastQC-Docker
+
+## How do you update or delete a published entry from a data repository?
+
+### Description
+You will sometimes need to update or delete some entries that were incomplete or wrongly submitted for publication. Note however that upon creation of a new record, data is generally tagged for distribution and selected metadata fields may be exchanged with other repositories. Thus, redistribution of updated records may not be triggered automatically and updating records fully can be a time consuming and manual process for the repository. Also, in general, submitted data may not be deleted, but may be suppressed from public view upon request. In a nutshell, it is therefore safer to make sure to submit the right entry from the start, rather than updating it or asking for its withdrawal at a later stage.
+
+### Considerations
+* Does the repository offer the possibility to update a submission? For the data submitter, is this a manual procedure (e.g. email, web interface) or is it available through an Application Programming Interface (API) or Command Line Interface (CLI)?
+* Does the repository offer the possibility to delete (or hide) submissions? 
+* Does the repository have a test-server where data can be submitted for testing purpose?
+
+### Solutions
+Solutions are very much repository-dependent. For example, on the ENA, entries can be easily updated using a CLI. However, the updated information is not automatically redistributed to other registries linked to ENA. Upon email request, entries may also be suppressed from public view. Note that ENA also has a test server to make test submissions before submitting to the actual production server, which can be very useful when sending large batches of data to test for any systematic errors. Please check these points with your repository of choice.
