@@ -1080,6 +1080,7 @@
   url: https://evidenceontology.org/
   name: Evidence and Conclusion Ontology (ECO)
   registry:
+    biotools: eco
     fairsharing: wvpgwn
   related_pages:
   - existing data
@@ -2852,3 +2853,12 @@
   - metadata
   - data manager
   - researcher
+- description: Supports the systematic planning, organisation and implementation of
+    research data management throughout the course of a project
+  link: https://rdmorganiser.github.io/en
+  name: Research Data Management Organiser
+  related_pages:
+  - DMP
+  - researcher
+  - data manager
+  - IT support

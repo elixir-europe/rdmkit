@@ -19,6 +19,8 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB014
 - name: Downloading data with Aspera
   url: https://w3id.org/faircookbook/FCB015
+- name: Describe data by checksums
+  url: https://w3id.org/faircookbook/FCB052
 ---
 
 ## How do you transfer large data files?

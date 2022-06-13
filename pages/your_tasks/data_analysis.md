@@ -19,6 +19,9 @@ dsw:
   uuid: decb7c9c-c6dc-4027-8c0e-18934c852ca6
 - name: How will you make sure to know what exactly has been run?
   uuid: 1991077f-04ae-4808-90a5-e4b2f82e30bf
+faircookbook:
+- name: Provenance information
+  url: https://w3id.org/faircookbook/FCB036
 ---
 
 ## What are the best practices for data analysis?

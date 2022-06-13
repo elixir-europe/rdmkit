@@ -54,3 +54,7 @@
   date: 2022-02-21
   linked_pr: 846
   description: This page gives an insight in RDM on national level in Estonia. [Discover the page here](ee_resources).
+- name: "New page: Data brokering"
+  date: 2022-06-13
+  linked_pr: 892
+  description: A "your task" page about Data brokering that provides information on how to upload data to repositories on behalf of data producers. [Discover the page here](data_brokering).
