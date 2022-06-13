@@ -17,6 +17,14 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB025
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
+- name: Selecting terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB020
+- name: Requesting new terms
+  url: https://w3id.org/faircookbook/FCB021
+- name: Ontology-related tools and services
+  url: https://w3id.org/faircookbook/FCB022
 ---
 
 ## How can you document data during the project?
