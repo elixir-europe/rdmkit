@@ -22,7 +22,7 @@ training:
   - name: <!---REPLACE THIS with the name of your training in registry or platform--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-resources:
+national_resources:
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
     how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
