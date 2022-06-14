@@ -310,7 +310,7 @@ Kees van Bochove:
 Cyril Pommier:
     git: cpommier
     orcid: 0000-0002-9040-8733
-    affiliation: INRA / ELIXIR-FR
+    affiliation: INRAE / ELIXIR-FR
 Frederik Delaere:
     git: fretn
 Nadim Rahman:
@@ -380,7 +380,9 @@ Ana Portugal Melo:
     email: ammelo@igc.gulbenkian.pt
     affiliation: BioData.pt / INESC-ID
 Erwan Le Floch:
-    git: ErwanLeFloch
+    git: erlefloch
+    orcid: 0000-0002-1010-6859
+    affiliation: INRAE / ELIXIR-FR
 Marco Carraro:
     git: marcocarraro
 Evangelos Pafilis: 
