@@ -1,5 +1,5 @@
 import os
-import re
+import frontmatter
 from urllib.parse import urlparse
 import requests
 from requests.adapters import HTTPAdapter
@@ -78,46 +78,25 @@ for subdir, dirs, files in os.walk(rootdir):
         if os.path.splitext(file_name)[1] == '.md':
             filename_stripped = os.path.splitext(file_name)[0]
             with open(os.path.join(subdir, file_name), "r") as f:
-                print(f"Reading out {filename_stripped}")
-                contents = f.readlines()
-                frontmatter_start = False
-                frontmatter_end = 0
-                dsw_start = 0
-                dsw_end = 0
-                for index, line in enumerate(contents):
-                    if re.match(r'^---', line):
-                        if isinstance(frontmatter_start, bool):
-                            frontmatter_start = index
-                        else:
-                            frontmatter_end = index
-                            if dsw_start and not dsw_end:
-                                dsw_end = index
-                    elif line.startswith("dsw:") and isinstance(frontmatter_start, int):
-                        dsw_start = index
-                    elif re.match(r'^[a-zA-Z]', line) and isinstance(frontmatter_start, int) and dsw_start and not dsw_end :
-                        dsw_end = index
-                    if frontmatter_end:
-                        print(f"\tFrontmatter present from line {frontmatter_start} - {frontmatter_end}")
-                        break
-            if ( dsw_end and dsw_start ) or filename_stripped in parent_ids:
-                if  dsw_end and dsw_start:
-                    print(f"\tdsw block present from line {dsw_start} - {dsw_end}")
-                    del contents[dsw_start:dsw_end]
-                    print(f"\tdsw block deleted")
-                    frontmatter_end = frontmatter_end - (dsw_end - dsw_start)
-                metadata = {}
-                if filename_stripped in parent_ids:
-                    print(f"\tMaking new frontmatter block")
-                    dsw_info = []
-                    for question in parent_ids[filename_stripped]:
-                        dsw_info.append(
-                            {'name': question.text, 'uuid': question.uuid})
-                    metadata['dsw'] = dsw_info
-                contents.insert(frontmatter_end, yaml.dump( metadata , default_flow_style=False))
-                print(f"\tNew frontmatter block inserted in content")
+                print(f"Reading... {filename_stripped}")
+                page = frontmatter.load(f)
+                page_content = page.content
+                page_metadata = page.metadata
+            if 'dsw' in page_metadata:
+                print(f"\tdsw block present")
+                del page_metadata['dsw']
+                print(f"\tdsw block deleted")
+            if filename_stripped in parent_ids:
+                print(f"\tMaking new frontmatter block")
+                dsw_info = []
+                for question in parent_ids[filename_stripped]:
+                    dsw_info.append(
+                        {'name': question.text, 'uuid': question.uuid})
+                page_metadata['dsw'] = dsw_info
+                page.metadata = page_metadata
+            
                 print(f"\tDumping content in markdown file {os.path.join(subdir, file_name)}")
                 with open(os.path.join(subdir, file_name), "w") as f:
-                    contents = "".join(contents)
-                    f.write(contents)
-                print(f"\tDone")
+                    f.write(frontmatter.dumps(page) + '\n')
+                    print(f"\tDone")
 print(f"DSW links successfully added to the markdown pages")

@@ -1,18 +1,28 @@
 ---
-title: Preserving
-page_id: preserve
-contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
-related_pages: 
-  your_tasks: [data organisation, data protection, data publication, transfer, metadata, storage]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22data+preserve%22#materials
+contributors:
+- Siiri Fuchs
+- Korbinian Bösl
+- Anastasia Chasapi
+- Flora D'Anna
 dsw:
 - name: Specify a list of data sets you will be producing
   uuid: 4e0c1edf-660c-4ebf-81f5-9fa959dead30
 - name: Will this data set be published?
   uuid: a063da1c-aaea-4e18-85ec-f560d833f292
+page_id: preserve
+related_pages:
+  your_tasks:
+  - data organisation
+  - data protection
+  - data publication
+  - transfer
+  - metadata
+  - storage
+title: Preserving
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22data+preserve%22#materials
 ---
 
 ## What is data preserving?
