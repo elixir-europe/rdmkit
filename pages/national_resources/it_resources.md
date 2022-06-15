@@ -50,7 +50,7 @@ The Research Data Alliance ([RDA](https://www.rd-alliance.org/groups/rda-italy))
 Italian [OpenAIRE NOAD](https://www.openaire.eu/contact-noads) (National Open Access Desk) is in place in order to develop capacity at local level and to provide expert advice on infrastructures, supporting workflows for open science.
 
 ### Open-science.it
-[Open-science.it](hhttps://open-science.it/home)  is the Italian portal dedicated to the field of open science (in Italian).
+[Open-science.it](https://open-science.it/home)  is the Italian portal dedicated to the field of open science (in Italian).
 
 The resource is part of [ICDI](https://www.icdi.it/it/)  activities, hosting the Open-science.it editorial committee.
 Information in the portal is organised according to the point of view of 4 types of users:
