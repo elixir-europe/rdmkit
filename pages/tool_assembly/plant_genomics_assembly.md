@@ -1,15 +1,24 @@
 ---
-title: Plant Genomics
-contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Daniel Faria, Paulette Lieby, Sebastian Beier, Erwan Le Floch]
+affiliations: null
+contributors:
+- Anne-Françoise Adam-Blondon
+- Cyril Pommier
+- Daniel Faria
+- Paulette Lieby
+- Sebastian Beier
+- Erwan Le Floch
 description: Tool assembly for managing plant genomic data.
-page_id: plant geno assembly
-affiliations:
-related_pages: 
-  your_tasks: [metadata, data publication]
-  your_domain: [plants]
 faircookbook:
 - name: Plant genomic and genetic variation data submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
+page_id: plant geno assembly
+related_pages:
+  your_domain:
+  - plants
+  your_tasks:
+  - metadata
+  - data publication
+title: Plant Genomics
 ---
 
 ## What is the plant genomics tool assembly?

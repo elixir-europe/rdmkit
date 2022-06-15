@@ -1,14 +1,9 @@
 ---
-title: Data analysis
-contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
+contributors:
+- Olivier Collin
+- Stian Soiland-Reyes
+- Michael R. Crusoe
 description: how to make data analysis FAIR.
-page_id: data analysis
-related_pages: 
-  tool_assembly: [NeLS, XNAT-PIC, transmed, ome]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 dsw:
 - name: Did you choose the workflow engine you will be using?
   uuid: a1c37c05-57ff-499c-b58c-e90f511241fa
@@ -22,6 +17,18 @@ dsw:
 faircookbook:
 - name: Provenance information
   url: https://w3id.org/faircookbook/FCB036
+page_id: data analysis
+related_pages:
+  tool_assembly:
+  - NeLS
+  - XNAT-PIC
+  - transmed
+  - ome
+title: Data analysis
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 ---
 
 ## What are the best practices for data analysis?

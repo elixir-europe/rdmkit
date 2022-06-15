@@ -1,17 +1,23 @@
 ---
-title: Data publication
-contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins]
+contributors:
+- Munazah Andrabi
+- Ulrike Wittig
+- Elin Kronander
+- Flora D'Anna
+- Aitana Neves
+- Nazeefa Fatima
+- Carla Cummins
 description: prepare data and find repositories for publication.
-page_id: data publication
-related_pages: 
-    tool_assembly: []
 faircookbook:
 - name: Depositing in Zenodo generic repository
   url: https://w3id.org/faircookbook/FCB007
 - name: Depositing in Zenodo generic repository
   url: https://w3id.org/faircookbook/FCB009
+page_id: data publication
+related_pages:
+  tool_assembly: []
+title: Data publication
 ---
-
 
 ## Can you really deposit your data in a public repository?
 

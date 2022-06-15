@@ -1,16 +1,24 @@
 ---
-title: Reusing
-page_id: reuse
-contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
-related_pages: 
-  your_tasks: [data analysis, transfer, existing data, identifiers, licensing]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22data+reuse%22#materials
+contributors:
+- Korbinian Bösl
+- Daniel Faria
+- Markus Englund
 dsw:
 - name: Is there any pre-existing data?
   uuid: efc80cc8-8318-4f8c-acb7-dc1c60e491c1
+page_id: reuse
+related_pages:
+  your_tasks:
+  - data analysis
+  - transfer
+  - existing data
+  - identifiers
+  - licensing
+title: Reusing
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22data+reuse%22#materials
 ---
 
 ## What is data reuse?
@@ -40,4 +48,3 @@ Consider the following when reusing data:
 * Verify that the data has been ethically collected and that your reuse of the data conforms with policies and regulations you are expected to follow. For personal (sensitive) data, there are usually legal and technical requirements that have to met before data can be accessed. Getting access to personal (sensitive) data will therefore involve additional steps.
 * If the data has been updated, make sure to document which version of the data you are using. Also consider what impact the changes may have on your results.
 * Cite the data properly. Include a persistent identifier (such as a DOI) in the citation if there is one.
-

@@ -1,18 +1,24 @@
 ---
-title: Plant sciences
-contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erwan Le Floch, Daniel Faria]
-related_pages: 
-page_id: plants
-related_pages: 
-  your_tasks: [metadata]
-  tool_assembly: [plant geno assembly]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=plant%20data%20management
+contributors:
+- Anne-Françoise Adam-Blondon
+- Sebastian Beier
+- Cyril Pommier
+- Erwan Le Floch
+- Daniel Faria
 faircookbook:
 - name: Plant genomic and genetic variation data submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
+page_id: plants
+related_pages:
+  tool_assembly:
+  - plant geno assembly
+  your_tasks:
+  - metadata
+title: Plant sciences
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=plant%20data%20management
 ---
 
 ## Introduction

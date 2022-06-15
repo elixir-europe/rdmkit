@@ -1,10 +1,17 @@
 ---
-title: Machine actionability
-contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat Sarntivijai, Nazeefa Fatima, Rafael Andrade Buono, Alex Henderson, Korbinian Bösl, Dominik Martinat, M-Christine Jacquemot-Perbal]
+contributors:
+- Karel Berka
+- Flora D'Anna
+- Erik Hjerde
+- Yvonne Kallberg
+- Sirarat Sarntivijai
+- Nazeefa Fatima
+- Rafael Andrade Buono
+- Alex Henderson
+- Korbinian Bösl
+- Dominik Martinat
+- M-Christine Jacquemot-Perbal
 description: how to make machine-actionable (meta)data.
-page_id: machine actionability
-related_pages: 
-    tool_assembly: []
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure
@@ -16,6 +23,10 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB010
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
+page_id: machine actionability
+related_pages:
+  tool_assembly: []
+title: Machine actionability
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?
@@ -209,20 +220,3 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
   * [MAGE-TAB](https://www.ebi.ac.uk/arrayexpress/help/magetab_spec.html) (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
   * [OME data model](https://docs.openmicroscopy.org/ome-model/latest/) (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included.
 * For more information about metadata schemas and ontologies, see [Documentation and Metadata](metadata_management) page.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-

@@ -1,14 +1,11 @@
 ---
-title: Data transfer
-contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi] 
+contributors:
+- Olivier Collin
+- Alan R Williams
+- Flora D'Anna
+- Frederik Delaere
+- Munazah Andrabi
 description: how to transfer data files.
-page_id: transfer
-related_pages: 
-    tool_assembly: []
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
 dsw:
 - name: How will the raw data be transported?
   uuid: 2e8d6e55-36ea-46eb-a921-65e550bce5dc
@@ -21,6 +18,14 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB015
 - name: Describe data by checksums
   url: https://w3id.org/faircookbook/FCB052
+page_id: transfer
+related_pages:
+  tool_assembly: []
+title: Data transfer
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
 ---
 
 ## How do you transfer large data files?

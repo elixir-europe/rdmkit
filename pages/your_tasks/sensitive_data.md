@@ -1,14 +1,12 @@
 ---
-title: Sensitive data
-contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
+contributors:
+- Rob Hooft
+- Yvonne Kallberg
+- Pinar Alper
+- Markus Englund
+- Thanasis Vergoulis
+- Robert Andrews
 description: how to identify different research data types.
-page_id: sensitive
-related_pages: 
-  tool_assembly: [TSD, Covid-19, transmed]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
 dsw:
 - name: Will you collect any data connected to a person, "personal data"?
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
@@ -28,6 +26,17 @@ dsw:
 faircookbook:
 - name: Declaring data's permitted uses
   url: https://w3id.org/faircookbook/FCB035
+page_id: sensitive
+related_pages:
+  tool_assembly:
+  - TSD
+  - Covid-19
+  - transmed
+title: Sensitive data
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
 ---
 
 ## Is your data sensitive?
@@ -79,4 +88,3 @@ Anonymization techniques can sometimes damage the statistical properties of the 
 
 An example of pseudonymization is where participants in a study are assigned a non-identifying ID and all identifying data (such as name and address) are removed from the metadata to be shared. The mapping of this ID to personal data is held separately and securely by a named researcher who will not share this data.
 There are well-established data anonymization approaches, such as k-anonymity, l-diversity, and differential privacy.
-

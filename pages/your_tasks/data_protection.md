@@ -1,14 +1,7 @@
 ---
-title: Data protection
-contributors: [Pinar Alper]
+contributors:
+- Pinar Alper
 description: how to make research data compliant to GDPR.
-page_id: data protection
-related_pages: 
-  tool_assembly: [TSD, transmed]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:
 - name: Will you collect any data connected to a person, "personal data"?
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
@@ -19,8 +12,17 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB034
 - name: Declaring data's permitted uses
   url: https://w3id.org/faircookbook/FCB035
+page_id: data protection
+related_pages:
+  tool_assembly:
+  - TSD
+  - transmed
+title: Data protection
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=data+protection#materials
 ---
-
 
 ## How do you protect research data under GDPR?
 
@@ -74,4 +76,3 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
   * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects.
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
   * [Tryggve ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
-

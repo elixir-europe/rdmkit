@@ -1,10 +1,10 @@
 ---
-title: Licensing
-contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
+contributors:
+- Siiri Fuchs
+- Minna Ahokas
+- Nicola Soranzo
+- Rob Hooft
 description: how to license research data.
-page_id: licensing
-related_pages: 
-  tool_assembly: []
 dsw:
 - name: Will a license be assigned to your datasets?
   uuid: ae28a862-5020-44c2-8c78-3abc185b190f
@@ -19,6 +19,10 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB034
 - name: Declaring data's permitted uses
   url: https://w3id.org/faircookbook/FCB035
+page_id: licensing
+related_pages:
+  tool_assembly: []
+title: Licensing
 ---
 
 ## Why should you assign a licence to your research data?
@@ -70,4 +74,3 @@ This depends on what rights protect your research data. Which licence to choose 
   * [Choose a license](https://choosealicense.com) is an online guide provided by GitHub to help you choose a license for open-source projects.
   * [data.world](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets) provides list of common license types for datasets.
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
-

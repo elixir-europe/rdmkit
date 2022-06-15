@@ -1,19 +1,32 @@
 ---
-title: Sharing
-page_id: share
-contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
-related_pages: 
-  your_tasks: [data protection, data brokering, data publication, transfer, identifiers, licensing, metadata, sensitive, storage]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22data+share%22#materials
+contributors:
+- Flora D'Anna
+- Bert Droesbeke
+- Niclas Jareborg
+- Ulrike Wittig
 dsw:
 - name: When will the data set be published?
   uuid: 5f5cc5b6-a17c-4cf5-b6fc-ecfd655c0fe6
 - name: Is there a collaboration agreement in the project that describes who can have
     access to what data?
   uuid: a5dbea23-b7d6-4e31-a1a5-ec5007ec7848
+page_id: share
+related_pages:
+  your_tasks:
+  - data protection
+  - data brokering
+  - data publication
+  - transfer
+  - identifiers
+  - licensing
+  - metadata
+  - sensitive
+  - storage
+title: Sharing
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22data+share%22#materials
 ---
 
 ## What is data sharing?
@@ -69,4 +82,3 @@ Making the data as FAIR as possible will ensure that maximum value can be obtain
     * Deposit the data in an _Institutional repository_, if there is one. These often provide stewardship and curation, helping to ensure that your dataset is preserved and accessible. Contact the Research Data Office function at your institution, if there is one.
     * Deposit the data in a [_General purpose repository_](https://www.nature.com/sdata/policies/repositories#general).
   * If there isn't any suitable repository that can harbour your controlled access data, it is recommended that you at least create a metadata record for the data in an Institutional or General purpose repository.
-

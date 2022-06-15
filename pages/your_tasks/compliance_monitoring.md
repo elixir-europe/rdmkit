@@ -1,10 +1,11 @@
 ---
-title: Compliance monitoring & measurement 
-contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
+contributors:
+- Christophe Trefois
+- Wei Gu
+- Pinar Alper
+- Markus Englund
+- Vera Ortseifen
 description: measure compliance to data management regulations and standards.
-page_id: compliance
-related_pages: 
-  tool_assembly: [transmed]
 faircookbook:
 - name: Creating a data/variable dictionary
   url: https://w3id.org/faircookbook/FCB025
@@ -12,6 +13,11 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB049
 - name: FAIRshake tool
   url: https://w3id.org/faircookbook/FCB050
+page_id: compliance
+related_pages:
+  tool_assembly:
+  - transmed
+title: Compliance monitoring & measurement
 ---
 
 ## How can you measure and document data management capabilities?

@@ -1,10 +1,9 @@
 ---
-title: Data organisation
-contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
+contributors:
+- Siiri Fuchs
+- Minna Ahokas
+- Yvonne Kallberg
 description: best practices to name and organise research data.
-page_id: data organisation
-related_pages: 
-  tool_assembly: [ome, transmed, XNAT-PIC]
 dsw:
 - name: How will you do file naming and file organization?
   uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
@@ -19,6 +18,13 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB026
 - name: Extraction, transformation, and loading process
   url: https://w3id.org/faircookbook/FCB031
+page_id: data organisation
+related_pages:
+  tool_assembly:
+  - ome
+  - transmed
+  - XNAT-PIC
+title: Data organisation
 ---
 
 ## What is the best way to name a file?
@@ -112,5 +118,4 @@ The top folder should have a README.txt file describing the folder structure and
          reports/  
          tables/  
       scratch/              temporary files that can safely be deleted or lost  
-      README.txt            file and folder description  
-
+      README.txt            file and folder description

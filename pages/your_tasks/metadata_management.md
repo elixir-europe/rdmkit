@@ -1,10 +1,13 @@
 ---
-title: Documentation and metadata
-contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
+contributors:
+- Flora D'Anna
+- Marco Carraro
+- Yvonne Kallberg
+- Markus Englund
+- Marco Roos
+- Korbinian Bösl
+- Rob Hooft
 description: how to document and describe your data.
-page_id: metadata
-related_pages: 
-  tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
 dsw:
 - name: How will you be collecting and keeping your metadata?
   uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
@@ -25,6 +28,14 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB021
 - name: Ontology-related tools and services
   url: https://w3id.org/faircookbook/FCB022
+page_id: metadata
+related_pages:
+  tool_assembly:
+  - NeLS
+  - transmed
+  - plant geno assembly
+  - marine assembly
+title: Documentation and metadata
 ---
 
 ## How can you document data during the project?
@@ -144,4 +155,3 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
   * [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
   * [Ontobee](http://www.ontobee.org)
   * [Schemapedia](https://schemapedia.com)
-

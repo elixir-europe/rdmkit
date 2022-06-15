@@ -1,10 +1,18 @@
 ---
-title: Identifiers
-contributors: [Markus Englund, Flavio Licciulli, Nick Juty, Olivier Collin, Ulrike Wittig, Ivan Mičetić, Karel Berka, Shuxin Zhang, Hinri Kerstens, Flora D'Anna, Yvonne Kallberg, Rob Hooft] 
+contributors:
+- Markus Englund
+- Flavio Licciulli
+- Nick Juty
+- Olivier Collin
+- Ulrike Wittig
+- Ivan Mičetić
+- Karel Berka
+- Shuxin Zhang
+- Hinri Kerstens
+- Flora D'Anna
+- Yvonne Kallberg
+- Rob Hooft
 description: how to use identifiers for research data.
-page_id: identifiers
-related_pages: 
-    tool_assembly: []
 dsw:
 - name: Will this data be assigned a persistent identifier?
   uuid: d21fdb06-22bf-418e-aa40-dc5ef1485f56
@@ -18,6 +26,10 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB007
 - name: Minting identifiers with Minid
   url: https://w3id.org/faircookbook/FCB008
+page_id: identifiers
+related_pages:
+  tool_assembly: []
+title: Identifiers
 ---
 
 ## Which types of identifiers can you use during data collection?

@@ -1,10 +1,9 @@
 ---
-title: Data quality
-contributors: [Wei Gu, Pinar Alper, Kees van Bochove]
+contributors:
+- Wei Gu
+- Pinar Alper
+- Kees van Bochove
 description: ensure high quality research data.
-page_id: data quality
-related_pages: 
-    tool_assembly: []
 dsw:
 - name: Will you be using quality processes?
   uuid: ba38b16d-2154-4372-b445-7854a6e90443
@@ -13,6 +12,10 @@ dsw:
 faircookbook:
 - name: Provenance information
   url: https://w3id.org/faircookbook/FCB036
+page_id: data quality
+related_pages:
+  tool_assembly: []
+title: Data quality
 ---
 
 ## How do you ensure the quality of research data?

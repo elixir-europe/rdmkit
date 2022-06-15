@@ -1,14 +1,18 @@
 ---
-title: Data storage
-contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi, Flora D'Anna, Flavio Licciulli, Ott Oopkaup, Marcus Lundberg, Thanasis Vergoulis, Frederik Coppens, Olivier Collin, Nadia Tonello, Korbinian Bösl]
+contributors:
+- Ulrike Wittig
+- Elin Kronander
+- Munazah Andrabi
+- Flora D'Anna
+- Flavio Licciulli
+- Ott Oopkaup
+- Marcus Lundberg
+- Thanasis Vergoulis
+- Frederik Coppens
+- Olivier Collin
+- Nadia Tonello
+- Korbinian Bösl
 description: how to find appropriate storage solutions.
-page_id: storage
-related_pages: 
-  tool_assembly: [NeLS, TSD, ome, transmed, XNAT-PIC]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22data+storage%22#materials
 dsw:
 - name: Data storage systems and file naming conventions
   uuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
@@ -16,6 +20,19 @@ dsw:
   uuid: d4e6a244-07fb-4573-b93f-c20a9409ac7c
 - name: Will you be storing data in an "object store" system?
   uuid: dc39957e-688a-4f71-a6a8-57f52509e7cf
+page_id: storage
+related_pages:
+  tool_assembly:
+  - NeLS
+  - TSD
+  - ome
+  - transmed
+  - XNAT-PIC
+title: Data storage
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22data+storage%22#materials
 ---
 
 ## What features do you need in a storage solution when collecting data?

@@ -1,16 +1,27 @@
 ---
-title: Collecting
-page_id: collect
-related_pages: 
-  your_tasks: [data organisation, data quality, existing data, identifiers, metadata, sensitive, storage]
-contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=%22data+collection%22#materials
+contributors:
+- Korbinian Bösl
+- Siiri Fuchs
+- Anastasia Chasapi
+- Ulrike Wittig
 dsw:
 - name: Specify a list of data sets you will be producing
   uuid: 4e0c1edf-660c-4ebf-81f5-9fa959dead30
+page_id: collect
+related_pages:
+  your_tasks:
+  - data organisation
+  - data quality
+  - existing data
+  - identifiers
+  - metadata
+  - sensitive
+  - storage
+title: Collecting
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/search?q=%22data+collection%22#materials
 ---
 
 ## What is data collection?
@@ -41,5 +52,3 @@ Independently of the tools you will use, consider the following, while collectin
 * How to store the data
 * Where to store the data
 * Identify suitable metadata standards
-
-
