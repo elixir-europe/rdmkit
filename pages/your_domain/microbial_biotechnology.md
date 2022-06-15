@@ -18,7 +18,7 @@ The **Design-Build-Test-Learn (DBTL) cycle** represents experimental design and 
 The design for a system in microbial biotechnology essentially involves two, interrelated exercises: (i) Identification of the biological entities/hosts that will be used to develop the product in question (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. The design stage may also include optional approaches: (iii) Metabolic engineering of biosynthetic pathways (iv) Using mathematical modelling to aid the design of the system. Data management best practices and guidelines should be applied for each exercise and approach.
 
 The components of the design stage could be summarised as below.
-* [Biological host](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
+* [Biological host](microbial_biotechnology#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
 * [Synthetic parts](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-synthetic-parts---existing-data-metadata-collection-and-publication).
 * [Metabolomic pathways and enzymes](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-metabolomic-pathways-and-enzymes---metadata-ontologies-and-metadata-publication).
 * [Mathematical model](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-mathematical-model---standards-and-metadata-publication) for system design.
