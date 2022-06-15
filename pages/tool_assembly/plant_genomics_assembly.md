@@ -1,5 +1,4 @@
 ---
-affiliations: null
 contributors:
 - Anne-Françoise Adam-Blondon
 - Cyril Pommier
