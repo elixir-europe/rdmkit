@@ -18,20 +18,20 @@ The **Design-Build-Test-Learn (DBTL) cycle** represents experimental design and 
 The design for a system in microbial biotechnology essentially involves two, interrelated exercises: (i) Identification of the biological entities/hosts that will be used to develop the product in question (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. The design stage may also include optional approaches: (iii) Metabolic engineering of biosynthetic pathways (iv) Using mathematical modelling to aid the design of the system. Data management best practices and guidelines should be applied for each exercise and approach.
 
 The components of the design stage could be summarised as below.
-* [Biological host](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
-* [Synthetic parts](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-syntethic-parts---existing-data-metadata-collection-and-publication).
-* [Metabolomic pathways and enzymes](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-metabolomic-pathways-and-enzymes---metadata-ontologies-and-metadata-publication).
-* [Mathematical model](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#design-mathematical-model---standards-and-metadata-publication) for system design.
+* [Biological host](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
+* [Synthetic parts](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-synthetic-parts---existing-data-metadata-collection-and-publication).
+* [Metabolomic pathways and enzymes](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-metabolomic-pathways-and-enzymes---metadata-ontologies-and-metadata-publication).
+* [Mathematical model](https://rdmkit.elixir-europe.org/microbial_biotechnology#design-mathematical-model---standards-and-metadata-publication) for system design.
 
 #### Build
 The build stage in the microbial biotechnology and/or synthetic biology life cycle is about building of the microbial systems and involves the application of any number of a range of experimental techniques. In this stage the synthetic parts are assembled and transformed into the biological host.
 
 The main aspects of the build stage are:
-* [methods](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#build-methods---documentation-and-metadata-publication), protocols and procedures used to build the modified organism.
+* [methods](https://rdmkit.elixir-europe.org/microbial_biotechnology#build-methods---documentation-and-metadata-publication), protocols and procedures used to build the modified organism.
 
 #### Test
 The test stage of a biotechnological study is the most variable in terms of the types of data produced. This stage is mostly about:
-* [testing](https://floradanna.github.io/rdm-toolkit/microbial_biotechnology.html#test-outcome-tests---metadata-standards-and-metadata-publication) the outcome or output variables and analyse the modified organism.
+* [testing](https://rdmkit.elixir-europe.org/microbial_biotechnology#test-outcome-tests---metadata-standards-and-metadata-publication) the outcome or output variables and analyse the modified organism.
 * Characterising the synthetic parts using experimental data.
 
 #### Learn
