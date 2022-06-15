@@ -10,6 +10,9 @@ dsw:
   uuid: ba38b16d-2154-4372-b445-7854a6e90443
 - name: Did you consider how to monitor data integrity once it has been collected?
   uuid: 02b3fed1-0b50-4a80-b8b6-a225a1107022
+faircookbook:
+- name: Provenance information
+  url: https://w3id.org/faircookbook/FCB036
 ---
 
 ## How do you ensure the quality of research data?

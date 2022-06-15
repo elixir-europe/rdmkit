@@ -310,7 +310,7 @@ Kees van Bochove:
 Cyril Pommier:
     git: cpommier
     orcid: 0000-0002-9040-8733
-    affiliation: INRA / ELIXIR-FR
+    affiliation: INRAE / ELIXIR-FR
 Frederik Delaere:
     git: fretn
 Nadim Rahman:
@@ -380,7 +380,9 @@ Ana Portugal Melo:
     email: ammelo@igc.gulbenkian.pt
     affiliation: BioData.pt / INESC-ID
 Erwan Le Floch:
-    git: ErwanLeFloch
+    git: erlefloch
+    orcid: 0000-0002-1010-6859
+    affiliation: INRAE / ELIXIR-FR
 Marco Carraro:
     git: marcocarraro
     email: marco.carraro.1@unipd.it
@@ -406,4 +408,18 @@ Guy Cochrane:
 Marianna Ventouratou:
     email: ventouratou@ebi.ac.uk
     orcid: 0000-0001-7964-6127
+    affiliation: EMBL-EBI
+Aitana Neves:
+    git: aitananeves
+    email: Aitana.Neves@sib.swiss
+    orcid: 0000-0002-3984-6842
+    affiliation: SIB Swiss Institute of Bioinformatics / ELIXIR-CH
+Parul Tewatia:
+    email: parul.tewatia@scilifelab.se
+    orcid: 0000-0002-3096-1318
+    affiliation: SciLifeLab Data Centre
+Carla Cummins:
+    git: carlacummins
+    email: carlac@ebi.ac.uk
+    orcid: 0000-0002-5394-8896
     affiliation: EMBL-EBI
