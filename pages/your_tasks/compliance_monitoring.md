@@ -5,6 +5,13 @@ description: measure compliance to data management regulations and standards.
 page_id: compliance
 related_pages: 
   tool_assembly: [transmed]
+faircookbook:
+- name: Creating a data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: FAIR Evaluator tool
+  url: https://w3id.org/faircookbook/FCB049
+- name: FAIRshake tool
+  url: https://w3id.org/faircookbook/FCB050
 ---
 
 ## How can you measure and document data management capabilities?

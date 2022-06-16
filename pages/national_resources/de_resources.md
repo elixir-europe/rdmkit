@@ -5,24 +5,13 @@ country_code: DE
 contributors: [Ulrike Wittig]
 coordinators: [Ulrike Wittig]
 
-related_pages: 
-  tool_assembly: []
-
 training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/materials?node=Germany
 
 
-resources:
-  - name: e!DAL-PGP
-    description: Plant Genomics and Phenomics Research Data Repository
-    related_pages:
-      your_tasks: [storage, metadata]
-      your_role: [researcher, data manager, IT support]
-      your_domain: [plants]
-      tool_assembly: [plant geno assembly]
-    url: https://edal-pgp.ipk-gatersleben.de/  
+national_resources:
   - name: GFBio Data Management Plan Tool
     related_pages:
       your_tasks: [DMP]
@@ -33,18 +22,6 @@ resources:
       your_tasks: [storage, metadata]
       your_role: [researcher, data manager]
     url: https://ghga.dkfz.de/
-  - name: FAIRDOM-SEEK
-    description: Data management platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.
-    related_pages:
-      your_tasks: [storage, metadata]
-      your_role: [researcher, data manager, IT support]
-    url: http://fairdomseek.org
-  - name: PANGAEA
-    description: Data Publisher for Earth & Environmental Science
-    related_pages:
-      your_tasks: [storage, metadata]
-      your_role: [researcher, data manager]
-    url: https://www.pangaea.de/
   - name: PUBLISSO
     description: Open access publishing platform for life sciences
     related_pages:
@@ -56,7 +33,12 @@ resources:
     related_pages:
       your_tasks: [DMP]
     url: https://rdmorganiser.github.io/
-    
+
+ref_to_main_resources:
+  - e!DAL-PGP
+  - FAIRDOM-SEEK
+  - PANGAEA
+
 ---
 
 

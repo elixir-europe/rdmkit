@@ -3,7 +3,7 @@ title: Sharing
 page_id: share
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
 related_pages: 
-  your_tasks: [data protection, data publication, transfer, identifiers, licensing, metadata, sensitive, storage]
+  your_tasks: [data protection, data brokering, data publication, transfer, identifiers, licensing, metadata, sensitive, storage]
 training:
   - name: Training in TeSS
     registry: TeSS

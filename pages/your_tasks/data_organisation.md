@@ -12,6 +12,13 @@ dsw:
   uuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
 - name: Are you using a filesystem with files and folders?
   uuid: a12aa967-28a5-4a9b-8df8-f7c533205ea4
+faircookbook:
+- name: Creating a data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
+- name: Extraction, transformation, and loading process
+  url: https://w3id.org/faircookbook/FCB031
 ---
 
 ## What is the best way to name a file?

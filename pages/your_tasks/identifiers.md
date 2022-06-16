@@ -11,6 +11,13 @@ dsw:
 - name: Will you make explicit cross-reference between physical samples and your digital
     data?
   uuid: 9e238002-da35-4f9b-a9b7-8fe3613a3c03
+faircookbook:
+- name: Unique, persistent identifiers
+  url: https://w3id.org/faircookbook/FCB006
+- name: InChI and SMILES identifiers for chemical structures
+  url: https://w3id.org/faircookbook/FCB007
+- name: Minting identifiers with Minid
+  url: https://w3id.org/faircookbook/FCB008
 ---
 
 ## Which types of identifiers can you use during data collection?
