@@ -10,7 +10,7 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/nodes/netherlands
-  - name: ELIXIR NODENAME community in Zenodo
+  - name: ELIXIR Netherlands community in Zenodo
     registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/communities/dtl/?page=1&size=20
