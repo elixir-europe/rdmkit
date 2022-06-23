@@ -1,7 +1,6 @@
 ---
 
 title: Netherlands
-search_exclude: true
 country_code: NL
 contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft, Mascha Jansen]
 coordinators: [Mijke Jetten]
