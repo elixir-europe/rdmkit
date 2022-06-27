@@ -54,6 +54,8 @@ national_resources:
 ref_to_main_resources:
   - WorkflowHub
   - FAIRDOM-SEEK
+  - COPO
+  
 ---
 
 ## Introduction 
