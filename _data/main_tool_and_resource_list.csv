@@ -201,7 +201,7 @@ MIGS/MIMS,https://gensc.org/mixs/,Minimum Information about a (Meta)Genome Seque
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,
 MIxS,https://gensc.org/mixs/,Minimum Information about any (x) Sequence,fairsharing:9aa0zp,"metadata, researcher, data manager, marine, plant geno assembly"
 MobiDB,https://mobidb.org/,A database of protein disorder and mobility annotations,biotools:mobidb,"IDP, researcher"
-MoDEL,https://mmb.irbbarcelona.org/MoDEL/,Database of Protein Molecular Dynamics simulations representing different structural clusters of the PDB,biotools:model,biomol sim
+MoDEL,https://mmb.irbbarcelona.org/MoDEL/,Database of Protein Molecular Dynamics simulations representing different structural clusters of the PDB,"biotools:model, fairsharing:NA",biomol sim
 MoDEL Covid19,https://bioexcel-cv19.bsc.es/#/,Database of COVID-19 related atomistic Molecular Dynamic Trajectories,,biomol sim
 MoDEL-CNS,https://mmb.irbbarcelona.org/MoDEL-CNS/#/,Repository for Central Nervous System-related mainly membrane protein MD simulations,,"biomol sim, data publication"
 ModelArchive,https://www.modelarchive.org/,Repository for theoretical models of macromolecular structures with DOIs for models,fairsharing:tpqndj,"biomol sim, struct bioinfo, data publication"
