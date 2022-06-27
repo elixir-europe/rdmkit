@@ -71,7 +71,7 @@ Conda works by making a nested folder containing the traditional UNIX directory 
 * Tips and tricks to navigate the landscape of software package management solutions:
     * If you need multiple tools/programming languages, but your machines have different OS types or versions, list packages in a Conda `environment.yml`.
     * If you need conflicting versions of some tools/libraries for different operations, make separate Conda environments.
-    * If you need a few open source libraries for my Python script, none which require complilation, make a `requirements.txt` and reference `pip` packages.
+    * If you need a few open source libraries for your Python script, none which require compiling, make a `requirements.txt` and reference `pip` packages.
 
 
 ## How can you use container environments?
@@ -80,7 +80,7 @@ Conda works by making a nested folder containing the traditional UNIX directory 
 Container environments like [Docker](https://www.docker.com/) or [Singularity](https://sylabs.io/docs/) allow you to easily install specific versions of tools, even older ones, in an isolated environment.
 
 ### Considerations
-In short containers works almost like a virtual machine (VMs), in that it re-creates a whole Linux distibution with separation of processes, files and network.
+In short containers works almost like a virtual machine (VMs), in that it re-creates a whole Linux distribution with separation of processes, files and network.
 * Containers are more lightweight than VMs since they don't virtualize hardware. This allows a container to run with a fixed version of the distribution independent of the host, and have just the right, minimal dependencies installed.
 * The container isolation also adds a level of _isolation_, which although not as secure as VMs, can reduce the attack vectors. For instance if the database container was compromised by unwelcome visitors, they would not have access to modify the web server configuration, and the container would not be able to expose additional services to the Internet.
 * A big advantage of containers is that there are large registries of community-provided container images.
@@ -100,5 +100,5 @@ In short containers works almost like a virtual machine (VMs), in that it re-cre
     * If you need several servers running, connected together, set up containers in Docker Compose.
     * If you need to install many things, some of which are not available as packages, make a new `Dockerfile` recipe to build container image.
     * If you need to use multiple tools in a pipeline, find Conda or container images, compose them in a Computational Workflow.
-    * If you need to run tools in a cloud instance, but it has nothing preinstalled, use Conda or containers to ensure installion on cloud VM matches your local machine.
+    * If you need to run tools in a cloud instance, but it has nothing preinstalled, use Conda or containers to ensure installation on cloud VM matches your local machine.
     * If you just need a particular open source tool installed, e.g. ImageMagick, check the document how to install: _For Ubuntu 20.04, try `apt install imagemagick`_.
