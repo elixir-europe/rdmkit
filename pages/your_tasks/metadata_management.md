@@ -63,7 +63,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
     * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
     * [University of Cambridge - Electronic Research Notebook Products.](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products)
 
-* Independently of the tools, you should agree on and establish a [data organisation](https://rdmkit.elixir-europe.org/data_organisation.html) system for files (or tables in a database) together with your team or [Data Management Working Group](https://rdmkit.elixir-europe.org/data_quality.html#how-do-you-ensure-the-quality-of-research-data): 
+* Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data): 
   * Folder structure
   * File naming convention
   * Versioning system
