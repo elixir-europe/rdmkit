@@ -27,8 +27,8 @@ Sometimes it is difficult to determine if publishing data you have at hand is th
   * Who controls the data?
 
 ### Solutions
-* If ethical, legal or contractual issues apply to your data (e.g. personal or sensitive data, confidential or third-party data, data with copyright, data with potential economic or commercial value, intellectual property or IP data, etc) ask help to the Legal Team, Tech Transfer Office or Data Protection Officer of your institute.
-* Decide what is the right [type of access](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing) for your data, for instance:
+* If ethical, legal or contractual issues apply to your data type (e.g. personal or sensitive data, confidential or third-party data, data with copyright, data with potential economic or commercial value, intellectual property or IP data, etc), ask for help and advice from the Legal Team, Tech Transfer Office, and/or Data Protection Officer of your institute.
+* Decide what is the right [type of access](sharing#what-should-be-considered-for-data-sharing) for your data, for instance:
   * Open access.
   * Registered access or with authentication procedure.
   * Controlled access or via Data Access Committees (DACs).
@@ -56,7 +56,7 @@ The most suitable repository will depend on the data type and your discipline.
 
 ### Solutions
 * Based on the possible ethical, legal and contractual implications of your data, decides:
-  * The right [type of access](https://rdmkit.elixir-europe.org/sharing#what-should-be-considered-for-data-sharing) for your data.
+  * The right [type of access](sharing#what-should-be-considered-for-data-sharing) for your data.
   * The [licence](licensing) that should be applied to your metadata and data.
 * Check if/what discipline-specific repositories can apply the necessary access conditions and licences to your (meta)data.
 * Discipline-specific repositories: if a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
