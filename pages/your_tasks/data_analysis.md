@@ -71,7 +71,7 @@ Conda works by making a nested folder containing the traditional UNIX directory 
 * Tips and tricks to navigate the landscape of software package management solutions:
     * If you need multiple tools/programming languages, but your machines have different OS types or versions, list packages in a Conda `environment.yml`.
     * If you need conflicting versions of some tools/libraries for different operations, make separate Conda environments.
-    * If you need a few open source libraries for your Python script, none which require compiling, make a `requirements.txt` and reference `pip` packages.
+    * If you need a few open source libraries for your Python script, none of which require compiling, make a `requirements.txt` and reference `pip` packages.
 
 
 ## How can you use container environments?
