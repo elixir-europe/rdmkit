@@ -4,7 +4,7 @@ title: RDMkit
 description: "Find the answers to your Research Data Management questions in Life Sciences."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.15.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.17.0
 
 sass:
   style: compressed
@@ -13,7 +13,7 @@ sass:
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root-rdmkit:latest/preview?questionUuid=
+dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 
 theme_variables:

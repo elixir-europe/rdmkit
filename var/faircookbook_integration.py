@@ -1,12 +1,12 @@
 import os
 import re
 import yaml
+import sys
 
 
 # --------- Variables ---------
 rootdir = 'pages/'
-RDMKIT_PREFIX = 'https://rdmkit.elixir-europe.org'
-map_file = '_data/faircookbook_rdmkit_mapping.yml'
+map_file = sys.argv[1]
 
 # --------- Functions ---------
 

@@ -17,6 +17,14 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB025
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
+- name: Selecting terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB020
+- name: Requesting new terms
+  url: https://w3id.org/faircookbook/FCB021
+- name: Ontology-related tools and services
+  url: https://w3id.org/faircookbook/FCB022
 ---
 
 ## How can you document data during the project?
@@ -55,7 +63,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
     * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
     * [University of Cambridge - Electronic Research Notebook Products.](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products)
 
-* Independently of the tools, you should agree on and establish a [data organisation](https://rdmkit.elixir-europe.org/data_organisation.html) system for files (or tables in a database) together with your team or [Data Management Working Group](https://rdmkit.elixir-europe.org/data_quality.html#how-do-you-ensure-the-quality-of-research-data): 
+* Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data): 
   * Folder structure
   * File naming convention
   * Versioning system
@@ -125,7 +133,7 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
 * Understand your goal with sharing data. Which formal requirements (by e.g. by funder or publisher) need to be fulfilled? Which parts of your data would benefit the most from adopting ontologies?
 * Learn the basics about ontologies. This will be helpful when you search for terms in ontologies and want to understand how terms are related to one another.
 * Accept that one ontology may not be sufficient to describe your data. It is very common that you have to combine terms from more than one ontology.
-* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Chosing the best available term is often better than not chosing a term at all. Note that the same concept may also be present in multiple ontologies.
+* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Choosing the best available term is often better than not choosing a term at all. Note that the same concept may also be present in multiple ontologies.
 
 
 ### Solutions

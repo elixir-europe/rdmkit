@@ -13,6 +13,12 @@ dsw:
 faircookbook:
 - name: Licensing
   url: https://w3id.org/faircookbook/FCB032
+- name: Software licenses
+  url: https://w3id.org/faircookbook/FCB033
+- name: Data licenses
+  url: https://w3id.org/faircookbook/FCB034
+- name: Declaring data's permitted uses
+  url: https://w3id.org/faircookbook/FCB035
 ---
 
 ## Why should you assign a licence to your research data?

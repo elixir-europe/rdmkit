@@ -5,9 +5,6 @@ country_code: BE
 contributors: [Flora D'Anna]
 coordinators: [Flora D'Anna]
 
-related_pages: 
-  tool_assembly: []
-
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -19,7 +16,13 @@ training:
     registry: Youtube
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
-resources:
+ref_to_main_resources:
+  - FAIRDOM-SEEK
+  - Galaxy
+  - WorkflowHub
+  - ENA upload tool
+
+national_resources:
   - name: RDM Guide
     description: RDM Guide describes Belgian data management guidelines, resources, tools and services available for researchers in Life Sciences.
     how_to_access:
@@ -39,15 +42,6 @@ resources:
       your_role: [researcher]
       your_tasks: [data analysis]
     url: https://usegalaxy.be
-  - name: ENA upload tool
-    description: The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
-    how_to_access:
-    related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: [IT support, data manager, researcher]
-      your_tasks: []
-    url: https://github.com/usegalaxy-eu/ena-upload-cli
   - name: DMPonline.be
     description: This instance of DMPonline is provided by the DMPbelgium Consortium. We can help you write and maintain data management plans for your research.
     how_to_access: Affiliation with one of the universities of the consortium is required.
@@ -67,6 +61,8 @@ resources:
       your_role: [data manager, researcher, IT support]
       your_tasks: []
     url: https://pippa.psb.ugent.be
+    registry:
+      biotools: PIPPA
   - name: Belnet
     description: Belnet is the privileged partner of higher education, research and administration for connectivity. We provide high-bandwidth internet access and related services for our specific target groups.
     how_to_access:
