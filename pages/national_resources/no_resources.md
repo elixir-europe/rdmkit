@@ -221,7 +221,7 @@ There are several support services available to Norwegian Life Science researche
 
 
 ## Domain-specific infrastructures/resources
-The following resources and tools are relevant to the implemention of data management practices in your specific research area/topic:
+The following resources and tools are relevant to the implementation of data management practices in your specific research area/topic:
 
 * [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](nels_assembly)
 * [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
