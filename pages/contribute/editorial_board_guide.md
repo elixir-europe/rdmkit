@@ -77,6 +77,7 @@ Add a news item to the landing page by editing the `news.yml` in the `_data` dir
 ```yml
 - name: News title
   date: 2021-06-23
+  linked_pr: 767
   description: A short description
 ```
 
@@ -102,7 +103,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 1. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
-1. Check the frontmatter/metadata of the markdown page:
+1. Check the [frontmatter/metadata](page_metadata) of the markdown page:
     - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
