@@ -71,7 +71,7 @@ When all records and measurements have been collected and you are ready to share
 
 PIDs are essential to make your digital object (datasets or resources) citable, enabling you to claim and receive credit for your research output. In turn, when you reuse someone else research output, you have to cite it.
 
-There are a couple of different ways by which you can obtain a globally unique persistent identifier, and you need to decide which one is the best solution for your dataset or resource.
+There are different ways to obtain a globally unique persistent identifier, and you need to decide which one is the best solution for your dataset or resource.
 * By publishing into an existing public repository. For most types of data, this is usually the best option because the repository will assign a globally unique persistent identifier or an accession number. Update your internal database to keep the relationship with public identifiers.
 * By opening up your local database to the public. This requires that the resource has a sustainability plan, as well as policies for versioning and naming of identifiers. While this option could be a viable solution if there is no public repository that allows for the right level of exposure of your data, it puts a lot of responsibility on your shoulders for future maintenance and availability. 
 

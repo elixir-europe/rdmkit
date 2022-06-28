@@ -69,9 +69,9 @@ Conda works by making a nested folder containing the traditional UNIX directory 
 * Linux distributions also have their own package management systems (`rpm`/`yum`/`dnf`, `deb`/`apt`) that have a wide variety of tools available, but at the cost of less flexibility in terms of the tool versions, to ensure they exist co-installed.
 * Language-specific virtual environments and repositories: [rvm](https://rvm.io/) and [RubyGems](https://rubygems.org/) for Ruby, [pip](https://docs.python.org/3/installing/index.html) and [venv](https://docs.python.org/3/tutorial/venv.html) for Python, [npm](https://www.npmjs.com/) for NodeJS/Javascript, [renv](https://rstudio.github.io/renv/) and [CRAN](https://cran.r-project.org/) for R, [Apache Maven](https://maven.apache.org/) or [Gradle](https://gradle.org/) for Java etc.
 * Tips and tricks to navigate the landscape of software package management solutions:
-    * If you need multiple tools/programming languages, but your machines have different OS types or versions, list packages in a Conda `environment.yml`.
+    * Manage the software you need in an OS-independent way by listing all relevant packages in your Conda environment via the `environment.yaml` file.
     * If you need conflicting versions of some tools/libraries for different operations, make separate Conda environments.
-    * If you need a few open source libraries for your Python script, none which require compiling, make a `requirements.txt` and reference `pip` packages.
+    * If you need a few open source libraries for your Python script, none of which require compiling, make a `requirements.txt` and reference `pip` packages.
 
 
 ## How can you use container environments?

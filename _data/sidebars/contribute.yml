@@ -15,6 +15,8 @@ subitems:
     url: /style_guide
   - title: Copyright guidelines
     url: /copyright
+  - title: Page metadata
+    url: /page_metadata
   - title: Markdown cheat sheet
     url: /markdown_cheat_sheet
   - title: Editorial board guide
