@@ -93,6 +93,7 @@ The main tools are described in the mains tools and resources table. How to add 
     -  Resource name
   ```
 * `national_resources`: List here tools and resources mainly relevant for the specific country
+  
   ```yml
   national_resources: 
     - name: Resource name
