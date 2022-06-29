@@ -3,7 +3,7 @@ title: Page metadata
 ---
 
 
-In order to render the markdown file to the website, it needs a specific frontmatter/metadata section in the top part of the file. This section is delimited by two times `---` and contains all key value pairs.  An example of how this can look lik:
+In order to render the markdown file to the website, it needs a specific frontmatter/metadata section in the top part of the file. This section is delimited by two times `---` and contains all key value pairs.  An example of how this can look like:
 
 ```yaml
 ---
@@ -43,7 +43,7 @@ title: Title of the page
 * `datatable`: use this attribute to activate the pagination + sorting + searching in tables
 
 
-## Related pages
+### Related pages
 
 * `related_pages`: List here the `page_id` of {{site.title}} pages that you want to display as Related pages, grouped by section.
 
@@ -57,7 +57,7 @@ title: Title of the page
   ``` 
 
 
-## More information
+### More information
 
 
 * `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS.
@@ -81,7 +81,7 @@ title: Title of the page
 
 
 
-## Tools and resources
+### Tools and resources
 
 The main tools are described in the mains tools and resources table. How to add a tool are resource can be read [here](tool_resource_update). Using the page metadata attributes to describe tools is only used in national resource pages. We support two types: 
 
