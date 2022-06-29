@@ -3,7 +3,7 @@ title: Page metadata
 ---
 
 
-In order to render the markdown file to the website, it needs a specific frontmatter/metadata section in the top part of the file. This section is delimited by two times `---` and contains all key value pairs.  An example of how this can look like:
+In order to render the markdown file to the website, it needs a specific frontmatter/metadata section in the top part of the file. This section is delimited by two times `---` and contains all key value pairs. This can be seen as settings on pagelevel to enable/disable certain page functions are to deliver extra information which can be displayed in a structured way. An example of how this can look like:
 
 ```yaml
 ---
@@ -24,7 +24,7 @@ title: Title of the page
 
 * `search_exclude`: by setting this field true, the page will not end up in the search results of the searchbar. By default this is false.
 
-* `sitemap`: let the page appear in the sitema.xml. Default: true
+* `sitemap`: let the page appear in the sitemap.xml. Default: true
 
 * `no_robots`: by setting this field to true, the page will not end up in the search results of google or any other search engine.
 
