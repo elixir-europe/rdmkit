@@ -3,7 +3,7 @@ title: Page metadata
 ---
 
 
-In order to render the markdown file to the website, it needs a specific frontmatter/metadata section in the top part of the file. This section is delimited by two times `---` and contains all key value pairs. This can be seen as settings on pagelevel to enable/disable certain page functions are to deliver extra information which can be displayed in a structured way. An example of how this can look like:
+In order to render the website, each markdown file contains a specific frontmatter/metadata section. This section is located at the top of the markdown file, is delimited by two times `---` and contains all key value pairs. This can be seen as settings on pagelevel to enable/disable certain page functions are to deliver extra information which can be displayed in a structured way. An example of how this can look like:
 
 ```yaml
 ---
