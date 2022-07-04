@@ -1131,6 +1131,16 @@
   - data manager
   - policy officer
   url: https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!
+- description: The FAIR wizard utilizes FAIRification resources developed by the FAIRplus
+    project and other platforms, suggests FAIRification materials based on the FAIRification
+    requirements, and designs FAIRification solutions for data owners, data stewards,
+    and other people involved in FAIRification.
+  name: FAIR-Wizard
+  related_pages:
+  - compliance
+  - data manager
+  - policy officer
+  url: https://wwwdev.ebi.ac.uk/ait/fair-wizard/home
 - description: Help you discover resources to measure and improve FAIRness.
   name: FAIRassist.org
   related_pages:
@@ -1790,7 +1800,6 @@
   name: MoDEL
   registry:
     biotools: model
-    fairsharing: vxz9pn
     tess: MoDEL
   related_pages:
   - biomol sim
