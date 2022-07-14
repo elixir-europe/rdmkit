@@ -8,7 +8,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=proteomics
 ---
 
@@ -39,7 +38,7 @@ The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ([HUPO-PS
 - The Minimum Information About a Proteomics Experiment (MIAPE) guidelines document.
 - mzML  - a standard format for encoding raw mass spectrometer output.
 - mzIdentML - a standard exchange format for peptides and proteins identified from mass spectra.
-- mzQuantML - a standard format that is intended to store the systematic description of workflows quantifying molecules (principly peptides and proteins) by mass spectrometry.
+- mzQuantML - a standard format that is intended to store the systematic description of workflows quantifying molecules (principally peptides and proteins) by mass spectrometry.
 - mzTab - a tab delimited text file format to report proteomics and metabolomics results.
  
 

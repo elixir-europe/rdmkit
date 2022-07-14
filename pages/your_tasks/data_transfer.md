@@ -8,18 +8,19 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
-faircookbook:
-- name: Transferring data with SFTP
-  url: https://w3id.org/faircookbook/FCB014
-- name: Downloading data with Aspera
-  url: https://w3id.org/faircookbook/FCB015
 dsw:
 - name: How will the raw data be transported?
   uuid: 2e8d6e55-36ea-46eb-a921-65e550bce5dc
 - name: How will your first data come in?
   uuid: f4065e54-d27a-45de-be4c-10384feacd0d
+faircookbook:
+- name: Transferring data with SFTP
+  url: https://w3id.org/faircookbook/FCB014
+- name: Downloading data with Aspera
+  url: https://w3id.org/faircookbook/FCB015
+- name: Describe data by checksums
+  url: https://w3id.org/faircookbook/FCB052
 ---
 
 ## How do you transfer large data files?
@@ -86,6 +87,6 @@ There are many aspects to consider when dealing with data transfer.
         * [WinSCP](https://winscp.net/eng/index.php)
 
 
-* When using data transfer protocol, make sure to check the transfer. During the transfer some data might become corrupted, thus it is important to check if the files you transfered have conserved their integrity. This can be done with hash algorithms. A checkshum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
+* When using data transfer protocol, make sure to check the transfer. During the transfer some data might become corrupted, thus it is important to check if the files you transferred have conserved their integrity. This can be done with hash algorithms. A checksum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
     * md5
     * SHA

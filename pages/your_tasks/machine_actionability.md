@@ -5,13 +5,17 @@ description: how to make machine-actionable (meta)data.
 page_id: machine actionability
 related_pages: 
     tool_assembly: []
-faircookbook:
-- name: Search engine optimization
-  url: https://w3id.org/faircookbook/FCB010
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure
   uuid: a797cab9-0829-4787-a096-1b5cedc9147f
+faircookbook:
+- name: Unique, persistent identifiers
+  url: https://w3id.org/faircookbook/FCB006
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?
@@ -45,7 +49,7 @@ More and more often, funders, data managers/stewards, IT staff and institutions 
 ### Solutions 
 For RDM in Life Sciences, machine-actionable metadata and data should:
 * Be structured data: "data where the structural relation between elements is explicit in the way the data is stored on a computer disk.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/).
-* Be in a format that allows "many types of structure to be represtented.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/). For instance, JSON and XML for text files; certain formats for e.g. images that include structured (meta)data in a structured format.
+* Be in a format that allows "many types of structure to be represented.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/). For instance, JSON and XML for text files; certain formats for e.g. images that include structured (meta)data in a structured format.
   * Common formats such as XML and JSON contribute to [syntactic interoperability](https://en.wikipedia.org/wiki/Interoperability) between machines.
 * Be interpreted by computer systems unambiguously. The meaning (semantic) of the (meta)data should be unique and shared among computer systems.
   * Syntaxes such as JSON-LD and RDF/XML contribute to [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability#Semantic_as_a_function_of_syntactic_interoperability).

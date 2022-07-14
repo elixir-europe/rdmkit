@@ -10,6 +10,9 @@ dsw:
   uuid: ba38b16d-2154-4372-b445-7854a6e90443
 - name: Did you consider how to monitor data integrity once it has been collected?
   uuid: 02b3fed1-0b50-4a80-b8b6-a225a1107022
+faircookbook:
+- name: Provenance information
+  url: https://w3id.org/faircookbook/FCB036
 ---
 
 ## How do you ensure the quality of research data?
@@ -57,4 +60,4 @@ Examples of such measures are:
   
 * For health data.
   * The [Book of OHDSI](http://book.ohdsi.org) has several [chapters](https://ohdsi.github.io/TheBookOfOhdsi/EvidenceQuality.html) on methods for assessing the data quality of observational health datasets, split out by data quality, clinical validity, software validity and method validity.
-  * The [OHDSI DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard) is a software framework for asesssing the quality and suitability of routinely generated healthcare data that is represented in the [OMOP Common Data Model](https://ohdsi.github.io/CommonDataModel/). Frameworks proposed in the literature, to define and evaluate overall data quality, could be used to create computational representations of the data quality of a dataset, such as the one visualized in the [OHDSI Data Quality Dashboard](https://github.com/OHDSI/DataQualityDashboard), which leverages the Kahn framework referenced above (adapted from [original thehyve.nl blogpost](https://www.thehyve.nl/articles/fair-data-for-machine-learning)).
+  * The [OHDSI DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard) is a software framework for assessing the quality and suitability of routinely generated healthcare data that is represented in the [OMOP Common Data Model](https://ohdsi.github.io/CommonDataModel/). Frameworks proposed in the literature, to define and evaluate overall data quality, could be used to create computational representations of the data quality of a dataset, such as the one visualized in the [OHDSI Data Quality Dashboard](https://github.com/OHDSI/DataQualityDashboard), which leverages the Kahn framework referenced above (adapted from [original thehyve.nl blogpost](https://www.thehyve.nl/articles/fair-data-for-machine-learning)).

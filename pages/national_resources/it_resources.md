@@ -12,20 +12,17 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
   - name: ELIXIR NODENAME community in Zenodo
     registry: Zenodo
-    registry_url: https://zenodo.org
     url: <!--- https://zenodo.org/communities/elixir NODENAME --->
   - name: ELIXIR NODENAME YouTube
+    registry: Youtube
     url: <!--- URL of the channel --->
   - name: <!---REPLACE THIS with the name of your training in registry or platform--->
-    registry: <!---REPLACE THIS with the name of the registry--->
-    registry_url: <!---REPLACE THIS with the url of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-resources:
+national_resources:
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
     how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->

@@ -1,7 +1,6 @@
 ---
 title: Structural Bioinformatics
 contributors: [Gerardo Tauriello, Ian Sillitoe, Nicola Bordin, Christine Orengo, Mihaly Varadi, Sameer Velankar, Jiří Černý]
-coordinators: [Gerardo Tauriello]
 page_id: struct bioinfo
 related_pages: 
   your_tasks: []
@@ -9,7 +8,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?utf8=%E2%9C%93&q=Structural+Bioinformatics#workflows
 ---
 
@@ -38,7 +36,7 @@ Researchers in the field should be able to find predictions of macromolecular st
 * There are three main options to make your models available:
   * Deposit in [ModelArchive](https://www.modelarchive.org) for theoretical models of macromolecular structures. Models deposited in the ModelArchive are made available under the CC BY-SA 4.0 licence (see [here for details](https://modelarchive.org/terms-of-use)).
   * Deposit in [PDB-Dev](https://pdb-dev.wwpdb.org) for models using integrative or hybrid modelling. Models deposited in PDB-Dev are made available under the CC0 1.0 licence (see [here for details](https://www.wwpdb.org/about/usage-policies)). If theoretical models were used as part of the modelling, they can either be included in the PDB-Dev deposition or, if they are expected to be useful by themselves, deposited in ModelArchive and referenced to.
-  * Make available using a dedicated web service for large-scale modelling efforts which are updated on a regular basis using automated prediction methods. Unified access to such services can be provided with the [3D-Beacons network](https://3d-beacons.org) which is being developed by the [ELIXIR 3D-BioInfo Community](https://elixir-europe.org/communities/3d-bioinfo). The data providers currently connected in the network are listed in [the 3D-Beacons documentation](https://www.ebi.ac.uk/pdbe/pdbe-kb/3dbeacons/docs#partners). An appropriate licence must be associated with the models (check the [RDMkit licensing page](https://rdmkit.elixir-europe.org/licensing) for guidance on this) and must be compatible with CC-BY 4.0 if the models are to be distributed in the 3D-Beacons network.
+  * Make available using a dedicated web service for large-scale modelling efforts which are updated on a regular basis using automated prediction methods. Unified access to such services can be provided with the [3D-Beacons network](https://3d-beacons.org) which is being developed by the [ELIXIR 3D-BioInfo Community](https://elixir-europe.org/communities/3d-bioinfo). The data providers currently connected in the network are listed in [the 3D-Beacons documentation](https://www.ebi.ac.uk/pdbe/pdbe-kb/3dbeacons/docs#partners). An appropriate licence must be associated with the models (check the [RDMkit licensing page](licensing) for guidance on this) and must be compatible with CC-BY 4.0 if the models are to be distributed in the 3D-Beacons network.
 * Model coordinates are preferably stored in the standard PDB archive format [PDBx/mmCIF](https://mmcif.wwpdb.org/). While, for many purposes, the legacy PDB format may suffice to store model coordinates and is still widely used, the format is no longer being modified or extended.
 * Model quality estimates can be computed globally, per-residue, and per-residue-pair. The estimates should be computed using a relatively recent and well benchmarked tool or by the structure prediction method itself. Please check [CAMEO](https://cameo3d.org), [CASP](https://predictioncenter.org), and [CAPRI](https://www.ebi.ac.uk/pdbe/complex-pred/capri/) to find suitable quality estimators. The [3D-BioInfo Community](https://elixir-europe.org/communities/3d-bioinfo) is also currently working to further improve benchmarking for protein complexes, protein-ligand interactions, and nucleic acid structures. By convention, the main per-residue quality estimates are stored in place of B-factors in model coordinate files. In mmCIF files any number of quality estimates can be properly described and stored in the ma_qa_metric category of the PDBx/mmCIF ModelArchive Extension Dictionary described below.
 * Metadata for theoretical models of macromolecular structures should preferably be stored using the [PDBx/mmCIF ModelCIF Extension Dictionary](https://mmcif.wwpdb.org/dictionaries/mmcif_ma.dic/Index) independently of the deposition process. The extension is being developed by the [ModelCIF working group](https://wwpdb.org/task/modelcif) with input from the community. Feedback and change requests are welcome and can be given on [github](https://github.com/ihmwg/ModelCIF). The same information can also be provided manually during the deposition in ModelArchive and there is [additional documentation](https://modelarchive.org/help) on how to provide metadata and minimal requirements for it. Generally, the metadata must include:

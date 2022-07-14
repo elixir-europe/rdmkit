@@ -6,26 +6,30 @@ country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capita
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
 
-related_pages: 
+# Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
+related_pages:
   tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
 
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
   - name: ELIXIR NODENAME community in Zenodo
     registry: Zenodo
-    registry_url: https://zenodo.org
     url: <!--- https://zenodo.org/communities/elixir NODENAME --->
   - name: ELIXIR NODENAME YouTube
+  - registry: Youtube
     url: <!--- URL of the channel --->
   - name: <!---REPLACE THIS with the name of your training in registry or platform--->
     registry: <!---REPLACE THIS with the name of the registry--->
-    registry_url: <!---REPLACE THIS with the url of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-resources:
+# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+ref_to_main_resources: 
+  -  <!---REPLACE THIS with the tool name--->
+
+# List here tools and resources mainly relevant for the specific country
+national_resources: 
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
     how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
@@ -36,6 +40,10 @@ resources:
       your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
       your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
     url:
+    registry:
+      biotools: <!--- DELETE ME if not needed --->
+      fairsharing: <!--- DELETE ME if not needed --->
+      tess: <!--- DELETE ME if not needed --->
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 

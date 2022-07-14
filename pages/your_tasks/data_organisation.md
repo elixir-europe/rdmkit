@@ -12,6 +12,13 @@ dsw:
   uuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
 - name: Are you using a filesystem with files and folders?
   uuid: a12aa967-28a5-4a9b-8df8-f7c533205ea4
+faircookbook:
+- name: Creating a data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
+- name: Extraction, transformation, and loading process
+  url: https://w3id.org/faircookbook/FCB031
 ---
 
 ## What is the best way to name a file?
@@ -31,7 +38,7 @@ Brief and descriptive file names are important in keeping your data files organi
 * Balance with the amount of elements: too many makes it difficult to understand vs too few makes it general.
 * Order the elements from general to specific.
 * Use meaningful abbreviations.
-* Use underscore (_), hypen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
+* Use underscore (_), hyphen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
 * Use date format ISO8601: YYYYMMDD, and time if needed HHMMSS.
 * Include a unique identifier (see: [Identifiers](identifiers))
 * Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.

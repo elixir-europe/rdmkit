@@ -5,6 +5,13 @@ description: measure compliance to data management regulations and standards.
 page_id: compliance
 related_pages: 
   tool_assembly: [transmed]
+faircookbook:
+- name: Creating a data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: FAIR Evaluator tool
+  url: https://w3id.org/faircookbook/FCB049
+- name: FAIRshake tool
+  url: https://w3id.org/faircookbook/FCB050
 ---
 
 ## How can you measure and document data management capabilities?
@@ -44,7 +51,7 @@ records. It is widely adopted in lab information systems and applications used i
 
 If during your research project you need to access or transport genetic resources and/or associated traditional knowledge from any country, you should comply to all relevant (inter)national legislation. One important legislation in this case is the Nagoya Protocol. The Nagoya Protocol specifies the Access and Benefit-Sharing (ABS) principles, established by the Convention on Biological Diversity (CBD), for countries providing and using genetic resources in a legally binding way. 
 
-Article 3 of CBD clarifies, that states have sovereign rights over their own (biological and genetic) resources. Negotiations concluded in 2014 with the Nagoya Protocol on ABS. Since then, working with genetic resources and associated data of another country requires more preparatory measures. The aim of the Nagoya protocol is to ensure fair and equitable sharing of benefits arising from utilisation of genetic resources and from traditional knowledge associated with genetic resources. Many contries, as well as the EU, are parties of the Nagoya Protocol and information on this can be found at the [ABS Clearing House](https://absch.cbd.int/). By enactment of [EU Regulation No. 511/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0511) the obligations were implemented in the EU on 12.10.2014. Here you can find a short video about [ABS – Simply Explained](https://www.youtube.com/watch?v=09zflWUIKTQ&t=306s).
+Article 3 of CBD clarifies, that states have sovereign rights over their own (biological and genetic) resources. Negotiations concluded in 2014 with the Nagoya Protocol on ABS. Since then, working with genetic resources and associated data of another country requires more preparatory measures. The aim of the Nagoya protocol is to ensure fair and equitable sharing of benefits arising from utilisation of genetic resources and from traditional knowledge associated with genetic resources. Many countries, as well as the EU, are parties of the Nagoya Protocol and information on this can be found at the [ABS Clearing House](https://absch.cbd.int/). By enactment of [EU Regulation No. 511/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0511) the obligations were implemented in the EU on 12.10.2014. Here you can find a short video about [ABS – Simply Explained](https://www.youtube.com/watch?v=09zflWUIKTQ&t=306s).
 
 [Genetic resources are defined](https://ec.europa.eu/environment/nature/biodiversity/international/abs/pdf/Glossary%20for%20Europa.pdf) as “all genetic material of actual or potential value. Essentially, the term encompasses all living organisms (plants, animals and microbes) that carry genetic material potentially useful to humans. Genetic resources can be taken from the wild, domesticated or cultivated. They are sourced from: natural environments (in situ) or human-made collections (ex situ) (e.g. botanical gardens, gene banks, seed banks and microbial culture collections).".
 [The definition of “traditional knowledge associated with genetic resources”](https://ec.europa.eu/environment/nature/biodiversity/international/abs/pdf/Glossary%20for%20Europa.pdf) is left to the Parties of the Protocol instead. However, in the context of the Nagoya Protocol, “the term is used in relation to the knowledge, innovations and practices of indigenous and local communities that result from the close interaction of such communities with their natural environment, and specifically to knowledge that may provide lead information for scientific discoveries on the genetic or biochemical properties of genetic resources. It is characteristic of traditional knowledge that it is not known outside the community holding such knowledge.”.

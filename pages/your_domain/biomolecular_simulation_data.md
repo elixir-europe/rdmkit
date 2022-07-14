@@ -8,7 +8,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=biomolecular%20simulation
   - name: BioExcel Knowledge Resource Center
     url: https://krc.bioexcel.eu/training
@@ -27,10 +26,10 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
   * Molecular dynamics data - by far the most typical and largest biomolecular simulation data. Each molecular dynamics simulation is driven by the used engine, force-field, and multiple other and often hidden simulation parameters to produce trajectories that are further analysed. 
   * Molecular docking data - docking provides the structures of the complex (e.g. ligand-protein, protein-protein, protein-nucleic acid, etc) and its score/energy. 
   * Virtual screening data - virtual screening is used for selection of active compounds from the pool of others and is usually in the form of ID and its score/energy. 
-  * Free energies and other analysis data - data calculatable from the analysis of the simulations. 
+  * Free energies and other analysis data - data calculable from the analysis of the simulations. 
 
 * Where should you store this data?
-  * Since there is no common community repository that would be able to gather the often spatious simulation data, the field did not systematically store them. Recently, there’s multiple possibilities where the data can be stored. The repositories can be divided in two main branches: 
+  * Since there is no common community repository that would be able to gather the often spacious simulation data, the field did not systematically store them. Recently, there’s multiple possibilities where the data can be stored. The repositories can be divided in two main branches: 
     * Generic:  Repositories that can be used to store any kind of data.
     * Specific:  Repositories designed to store specific data (e.g. MD data).
   * Are you looking for a long-term or short-term storage? Repositories have different options (and sometimes prices) for the storage time of your data.
