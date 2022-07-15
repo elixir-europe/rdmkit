@@ -129,6 +129,7 @@ FAERS,https://www.fda.gov/drugs/surveillance/questions-and-answers-fdas-adverse-
 FAIDARE,https://urgi.versailles.inra.fr/faidare/,FAIDARE is a tool allowing to search data across dinstinct databases that implemented BrAPI.,biotools:faidare,"researcher, data manager, plants, IFB"
 FAIR Cookbook,https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#,"FAIR Cookbook is an online resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable (FAIR)",,"compliance, data manager, transmed"
 FAIR Evaluation Services,https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!,Resources and guidelines to assess the FAIRness of digital resources.,,"compliance, data manager, policy officer"
+FAIR-Wizard,https://wwwdev.ebi.ac.uk/ait/fair-wizard/home,"The FAIR wizard utilizes FAIRification resources developed by the FAIRplus project and other platforms, suggests FAIRification materials based on the FAIRification requirements, and designs FAIRification solutions for data owners, data stewards, and other people involved in FAIRification.",,"compliance, data manager, policy officer"
 FAIRassist.org,https://fairassist.org/#!/,Help you discover resources to measure and improve FAIRness.,,"compliance, data manager, policy officer"
 FAIRDOM-SEEK,https://seek4science.org/,"A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.",biotools:seek,"storage, IT support, NeLS, micro biotech, IFB, machine actionability"
 FAIRDOMHub,https://fairdomhub.org,"Data, model and SOPs management for projects, from preliminary data to publication, support for running SBML models etc. (public SEEK instance)",fairsharing:nnvcr9,"storage, researcher, NeLS, metadata, micro biotech, machine actionability, data manager"
@@ -201,7 +202,7 @@ MIGS/MIMS,https://gensc.org/mixs/,Minimum Information about a (Meta)Genome Seque
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,
 MIxS,https://gensc.org/mixs/,Minimum Information about any (x) Sequence,fairsharing:9aa0zp,"metadata, researcher, data manager, marine, plant geno assembly"
 MobiDB,https://mobidb.org/,A database of protein disorder and mobility annotations,biotools:mobidb,"IDP, researcher"
-MoDEL,https://mmb.irbbarcelona.org/MoDEL/,Database of Protein Molecular Dynamics simulations representing different structural clusters of the PDB,biotools:model,biomol sim
+MoDEL,https://mmb.irbbarcelona.org/MoDEL/,Database of Protein Molecular Dynamics simulations representing different structural clusters of the PDB,"biotools:model, fairsharing:NA",biomol sim
 MoDEL Covid19,https://bioexcel-cv19.bsc.es/#/,Database of COVID-19 related atomistic Molecular Dynamic Trajectories,,biomol sim
 MoDEL-CNS,https://mmb.irbbarcelona.org/MoDEL-CNS/#/,Repository for Central Nervous System-related mainly membrane protein MD simulations,,"biomol sim, data publication"
 ModelArchive,https://www.modelarchive.org/,Repository for theoretical models of macromolecular structures with DOIs for models,fairsharing:tpqndj,"biomol sim, struct bioinfo, data publication"

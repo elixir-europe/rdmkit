@@ -17,6 +17,8 @@ subitems:
     url: /copyright
   - title: Markdown cheat sheet
     url: /markdown_cheat_sheet
+  - title: Page metadata
+    url: /page_metadata
   - title: Editorial board guide
     url: /editorial_board_guide
   - title: Editors checklist

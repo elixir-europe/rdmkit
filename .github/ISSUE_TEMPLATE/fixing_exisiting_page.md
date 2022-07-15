@@ -18,4 +18,4 @@ https://rdmkit.elixir-europe.org/....
 - Name
 - Link
 - Description
-- Registry (biotools or/and fairdome ID) (optional)
+- Registry (biotools or/and FAIRsharing ID) (optional)
