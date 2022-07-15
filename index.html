@@ -8,7 +8,7 @@ layout: none
 {% include head.html %}
 
 <body>
-    <div class="main">
+    <div id="main">
         {% include topnav.html search="false" %}
         <section class="container mb-5">
             <div>
@@ -20,12 +20,8 @@ layout: none
         </section>
         <section class="bg-light hero py-5">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xs-12 text-center">
-                        <h2>What can we help you find?</h2>
-                    </div>
-                </div>
                 <div class="row">
+                    <h2 class="no-anchor text-center">What can we help you find?</h2>
                     <div class="position-relative">
                         <form role="search" class="input-group mx-auto mt-2">
                             <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -46,7 +42,7 @@ layout: none
                             <div class="card bg-white h-100">
                                 <div class="card-body">
                                     <a href="{{ folder.url | relative_url }}" class="stretched-link">
-                                        <h2 class="card-title no-anchor">{{folder.title}}</h2>
+                                        <h2 class="card-title no-anchor text-primary">{{folder.title}}</h2>
                                     </a>
                                     <p class="card-text">{{folder.description}}</p>
                                 </div>
