@@ -65,44 +65,16 @@ h2.card-title {
     margin: 0 0 0.5rem 0;
 }
 
-//  Arrow in button
-
-.btn.arrow::after {
-    float: right;
-    width: 15px;
-    text-align: center;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f078";
-    transition: transform 0.2s ease-in-out;
-}
-
-.btn.arrow:not(.collapsed)::after {
-    transform: rotate(-180deg);
-}
-
-// RDM wheel frontpage
-
-.ratio.main_rdm {
-    padding-bottom: 100%;
-}
-
-@media (min-width: 576px) {
-    .ratio.main_rdm {
-        padding-bottom: 70%;
+section.hero {
+    #search-results {
+        left: 14px;
+        right: 14px;
+        width: unset;
+        position: absolute;
+        z-index: 9999;
     }
+    
 }
-
-@media (min-width: 768px) {
-    .ratio.main_rdm {
-        padding-bottom: 35%;
-    }
-}
-
 .landing-block {
     h1 {
         font-family: "Exo 2", sans-serif;
