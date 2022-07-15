@@ -8,7 +8,7 @@ layout: none
 {% include head.html %}
 
 <body>
-    <div id="main">
+    <main>
         {% include topnav.html search="false" %}
         <section class="container mb-5">
             <div>
@@ -55,7 +55,7 @@ layout: none
         </section>
         <section class="py-5 bg-dark text-white">
             <div class="container">
-                <h2>We welcome contributors!</h2>
+                <h2 class="text-white">We welcome contributors!</h2>
                 <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
                         community
                         contributors</a>. RDMkit is an open community project, and you are welcome to <a
@@ -128,7 +128,7 @@ layout: none
         {%- endif %}
         {% include footer.html %}
         {% include cookie-popup.html %}
-    </div>
+    </main>
 </body>
 
 </html>
