@@ -21,7 +21,7 @@ layout: none
             </ul>
         </div>
     </section>
-    <section class="container hero">
+    <section class="container hero my-5">
         <div class="row justify-content-center">
             <div class="col-xs-12 text-center">
                 <h2>What can we help you find?</h2>
@@ -32,8 +32,8 @@ layout: none
                 <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
                 <input type="search" id="search-input" class="search-input form-control form-control-lg" tabindex="0"
                     placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                <div id="search-results" class="search-results"></div>
             </form>
-            <div id="search-results" class="search-results"></div>
         </div>
     </section>
     <section class="container">
