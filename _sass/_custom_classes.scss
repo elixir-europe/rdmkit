@@ -58,6 +58,23 @@ li ul .sidebar_rdm_sub {
     box-shadow: $box-shadow;
 }
 
+// Search box
+
+section.hero {
+
+    form {
+        max-width: 600px;
+    }
+
+    #search-results {
+        left: 14px;
+
+    }
+}
+
+
+
+
 // Counters on landing page
 
 .count-number {
@@ -65,19 +82,9 @@ li ul .sidebar_rdm_sub {
     font-weight: 700;
 }
 
-// Dropdown boxes
 
-h2.card-title {
-    margin: 0 0 0.5rem 0;
-}
+// Landing block
 
-section.hero {
-    #search-results {
-        left: 14px;
-
-    }
-    
-}
 .landing-block {
     h1 {
         font-family: "Exo 2", sans-serif;
