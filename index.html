@@ -21,35 +21,39 @@ layout: none
             </ul>
         </div>
     </section>
-    <section class="container hero my-5">
-        <div class="row justify-content-center">
-            <div class="col-xs-12 text-center">
-                <h2>What can we help you find?</h2>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <form role="search" class="input-group">
-                <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="search" id="search-input" class="search-input form-control form-control-lg" tabindex="0"
-                    placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
-                <div id="search-results" class="search-results"></div>
-            </form>
-        </div>
-    </section>
-    <section class="container">
-        {%- assign sidebar = site.data.sidebars[page.sidebar] %}
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 home-cards">
-            {%- assign i = 1 %}
-            {%- for folder in sidebar.subitems %}
-            <div class="col">
-                <div class="card border-1 bg-white h-100">
-                    <div class="card-body">
-                        <h2 class="card-title no-anchor">{{folder.title}}</h2>
-                        <p class="card-text">{{folder.description}}</p>
-                    </div>
+    <section class="bg-light hero my-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xs-12 text-center">
+                    <h2>What can we help you find?</h2>
                 </div>
             </div>
-            {%- endfor %}
+            <div class="row justify-content-center">
+                <form role="search" class="input-group">
+                    <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="search" id="search-input" class="search-input form-control form-control-lg" tabindex="0"
+                        placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                    <div id="search-results" class="search-results"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light">
+        <div class="container">
+            {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 home-cards">
+                {%- assign i = 1 %}
+                {%- for folder in sidebar.subitems %}
+                <div class="col">
+                    <div class="card border-1 bg-white h-100">
+                        <div class="card-body">
+                            <h2 class="card-title no-anchor">{{folder.title}}</h2>
+                            <p class="card-text">{{folder.description}}</p>
+                        </div>
+                    </div>
+                </div>
+                {%- endfor %}
+            </div>
         </div>
     </section>
     <section class="container">
