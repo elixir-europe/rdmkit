@@ -64,14 +64,15 @@ layout: none
                     href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
         </div>
     </section>
-    <section class="container">
+    <section class="py-5 bg-light">
+        <div class="container">
         {% include events.html event_type="upcoming_event" title="true" caption="true" %}
 
         {% include news.html caption="true" title="true" limit=3 %}
-
+        </div>
     </section>
 
-    <section class="container">
+    <section class="container my-5">
         <h2 class="mt-5 mb-3 text-dark">RDMkit in numbers</h2>
         {%- assign contributors = site.data.CONTRIBUTORS %}
         {%- for page in site.pages %}
