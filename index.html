@@ -7,9 +7,9 @@ layout: none
 <html lang="en">
 {% include head.html %}
 
-<body id="landing" class="landing">
+<body>
     {% include topnav.html search="false" %}
-    <section class="container">
+    <section class="container mb-5">
         <div class="landing-block">
             <h1>
                 RDMkit - The Research Data Management toolkit for Life Sciences
@@ -21,7 +21,7 @@ layout: none
             </ul>
         </div>
     </section>
-    <section class="bg-light hero my-5">
+    <section class="bg-light hero mp-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xs-12 text-center">
@@ -31,14 +31,14 @@ layout: none
             <div class="row justify-content-center">
                 <form role="search" class="input-group">
                     <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="search" id="search-input" class="search-input form-control form-control-lg" tabindex="0"
+                    <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
                         placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
                     <div id="search-results" class="search-results"></div>
                 </form>
             </div>
         </div>
     </section>
-    <section class="bg-light">
+    <section class="bg-light pb-5">
         <div class="container">
             {%- assign sidebar = site.data.sidebars[page.sidebar] %}
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 home-cards">
@@ -55,7 +55,7 @@ layout: none
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container py-5 bg-dark text-white">
         <h2 class="mt-5 text-dark">We welcome contributors!</h2>
         <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
                 community
