@@ -52,6 +52,12 @@ li ul .sidebar_rdm_sub {
 
 /* -----Homepage----- */
 
+// Home cards
+
+.home-cards .card:hover{
+    box-shadow: $box-shadow;
+}
+
 // Counters on landing page
 
 .count-number {
@@ -68,7 +74,7 @@ h2.card-title {
 section.hero {
     #search-results {
         left: 14px;
-        
+
     }
     
 }
