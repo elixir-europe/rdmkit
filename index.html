@@ -8,7 +8,7 @@ layout: none
 {% include head.html %}
 
 <body id="landing" class="landing">
-    {% include topnav.html %}
+    {% include topnav.html search="false" %}
     <section class="container">
         <div class="landing-block">
             <h1>
@@ -21,7 +21,7 @@ layout: none
             </ul>
         </div>
     </section>
-    <section class="hero container">
+    <section class="container">
         <div class="row justify-content-center">
             <div class="col-xs-12 text-center">
                 <h2>What can we help you find?</h2>
@@ -30,10 +30,10 @@ layout: none
         <div class="row justify-content-center">
             <form role="search" class="input-group">
                 <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="search" id="search-input" class="search-input form-control" tabindex="0"
+                <input type="search" id="search-input" class="search-input form-control form-control-lg" tabindex="0"
                     placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
-                <div id="search-results" class="search-results"></div>
             </form>
+            <div id="search-results" class="search-results"></div>
         </div>
     </section>
     <section class="container">
@@ -42,7 +42,7 @@ layout: none
             {%- assign i = 1 %}
             {%- for folder in sidebar.subitems %}
             <div class="col">
-                <div class="card border-1 h-100">
+                <div class="card border-1 bg-white h-100">
                     <div class="card-body">
                         <h2 class="card-title no-anchor">{{folder.title}}</h2>
                         <p class="card-text">{{folder.description}}</p>
@@ -129,14 +129,6 @@ layout: none
 </body>
 
 </html>
-
-
-
-
-
-
-
-
 
 <script type="text/javascript">
     /** 
