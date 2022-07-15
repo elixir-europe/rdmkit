@@ -39,7 +39,7 @@ layout: none
         </div>
     </section>
     <section class="bg-light pb-5">
-        <div class="container">
+        
             {%- assign sidebar = site.data.sidebars[page.sidebar] %}
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 home-cards">
                 {%- for folder in sidebar.subitems %}
@@ -55,14 +55,14 @@ layout: none
             </div>
         </div>
     </section>
-    <section class="container py-5 bg-dark text-white">
-        <h2 class="mt-5 text-dark">We welcome contributors!</h2>
-        <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
-                community
-                contributors</a>. RDMkit is an open community project, and you are welcome to <a
-                href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
-
-
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="mt-5 text-dark">We welcome contributors!</h2>
+            <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
+                    community
+                    contributors</a>. RDMkit is an open community project, and you are welcome to <a
+                    href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
+        </div>
     </section>
     <section class="container">
         {% include events.html event_type="upcoming_event" title="true" caption="true" %}
