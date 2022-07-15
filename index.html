@@ -28,13 +28,15 @@ layout: none
                     <h2>What can we help you find?</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <form role="search" class="input-group">
-                    <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
-                        placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+            <div class="row">
+                <div class="position-relative">
+                    <form role="search" class="input-group">
+                        <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
+                            placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                    </form>
                     <div id="search-results" class="search-results"></div>
-                </form>
+                </div>
             </div>
         </div>
     </section>
