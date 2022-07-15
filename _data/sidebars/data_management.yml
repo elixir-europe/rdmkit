@@ -3,10 +3,12 @@ title_url: /index
 subitems:
   - title: Data life cycle
     description: Start here to get an overview of research data management. Click on a section of the diagram below to get an introduction to that stage of the data management life cycle.
+    url: /data_life_cycle
     subitems:
       - RDM: True
   - title: Your role
     description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
+    url: /your_role
     subitems:
       - title: Researcher
         url: /researcher
@@ -18,6 +20,7 @@ subitems:
         url: /data_steward_infrastructure
   - title: Your domain
     description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.
+    url: /your_domain
     subitems:
       - title: Plant sciences
         url: /plant_sciences
@@ -43,6 +46,7 @@ subitems:
         url: /structural_bioinformatics
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
+    url: /you_tasks
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring
@@ -82,7 +86,6 @@ subitems:
   - title: National resources
     description: Browse trough the national resource pages
     url: /national_resources
-
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources
