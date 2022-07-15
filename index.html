@@ -38,7 +38,7 @@ layout: none
     </section>
     <section class="container">
         {%- assign sidebar = site.data.sidebars[page.sidebar] %}
-        <div class="row row-cols-1 row-cols-md-2 g-4 home-cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 home-cards">
             {%- assign i = 1 %}
             {%- for folder in sidebar.subitems %}
             <div class="col">
