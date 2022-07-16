@@ -69,6 +69,17 @@ li ul .sidebar_rdm_sub {
         font-weight: 500;
     }
 
+    section.contributor {
+        a {
+            color: $white  !important;
+            font-weight: bold;
+        }
+    
+        a:hover {
+            color: $primary  !important;
+        }
+    }
+
 }
 
 // Search box
