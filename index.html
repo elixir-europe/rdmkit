@@ -8,127 +8,125 @@ layout: none
 {% include head.html %}
 
 <body>
-    <main>
-        {% include topnav.html search="false" %}
-        <section class="container mb-5">
-            <div>
-                <h1>RDMkit - The Research Data Management toolkit for Life Sciences</h1>
-                <p>Data management best practices and guidelines you can use in your research projects through their life cycle.
-                    The RDMkit includes information, pointers and examples to help you make your data FAIR — Findable, Accessible, Interoperable and Reusable.
-                </p>
-            </div>
-        </section>
-        <section class="bg-light hero py-5">
-            <div class="container">
-                <div class="row">
-                    <h2 class="no-anchor text-center">What can we help you find?</h2>
-                    <div class="position-relative">
-                        <form role="search" class="input-group mx-auto mt-2">
-                            <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
-                                placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
-                        </form>
-                        <div id="search-results" class="search-results"></div>
-                    </div>
+    {% include topnav.html search="false" %}
+    <section class="container mb-5">
+        <div>
+            <h1>RDMkit - The Research Data Management toolkit for Life Sciences</h1>
+            <p>Data management best practices and guidelines you can use in your research projects through their life cycle.
+                The RDMkit includes information, pointers and examples to help you make your data FAIR — Findable, Accessible, Interoperable and Reusable.
+            </p>
+        </div>
+    </section>
+    <section class="bg-light hero py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="no-anchor text-center ff-theme strong">What can we help you find?</h2>
+                <div class="position-relative">
+                    <form role="search" class="input-group mx-auto mt-2">
+                        <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
+                            placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                    </form>
+                    <div id="search-results" class="search-results"></div>
                 </div>
             </div>
-        </section>
-        <section class="bg-light pb-5">
-            <div class="container">
-                {%- assign sidebar = site.data.sidebars[page.sidebar] %}
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 home-cards">
-                    {%- for folder in sidebar.subitems %}
-                    <div class="col">
-                            <div class="card bg-white h-100">
-                                <div class="card-body">
-                                    <a href="{{ folder.url | relative_url }}" class="stretched-link">
-                                        <h2 class="card-title no-anchor text-primary">{{folder.title}}</h2>
-                                    </a>
-                                    <p class="card-text">{{folder.description}}</p>
-                                </div>
+        </div>
+    </section>
+    <section class="bg-light pb-5">
+        <div class="container">
+            {%- assign sidebar = site.data.sidebars[page.sidebar] %}
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 home-cards">
+                {%- for folder in sidebar.subitems %}
+                <div class="col">
+                        <div class="card bg-white h-100">
+                            <div class="card-body">
+                                <a href="{{ folder.url | relative_url }}" class="stretched-link">
+                                    <h2 class="card-title no-anchor text-primary ff-theme strong">{{folder.title}}</h2>
+                                </a>
+                                <p class="card-text">{{folder.description}}</p>
                             </div>
-                        </a>
-                    </div>
-                    {%- endfor %}
+                        </div>
+                    </a>
                 </div>
+                {%- endfor %}
             </div>
-        </section>
-        <section class="py-5 bg-dark text-white">
-            <div class="container">
-                <h2 class="text-white">We welcome contributors!</h2>
-                <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
-                        community
-                        contributors</a>. RDMkit is an open community project, and you are welcome to <a
-                        href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
-            </div>
-        </section>
-        <section class="py-5 bg-light">
-            <div class="container">
-            {% include events.html event_type="upcoming_event" title="true" caption="true" %}
+        </div>
+    </section>
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-white ff-theme strong">We welcome contributors!</h2>
+            <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
+                    community
+                    contributors</a>. RDMkit is an open community project, and you are welcome to <a
+                    href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
+        </div>
+    </section>
+    <section class="py-5 bg-light">
+        <div class="container">
+        {% include events.html event_type="upcoming_event" title="true" caption="true" %}
 
-            {% include news.html caption="true" title="true" limit=3 %}
-            </div>
-        </section>
+        {% include news.html caption="true" title="true" limit=3 %}
+        </div>
+    </section>
 
-        <section class="container my-5">
-            <h2 class="mt-5 mb-3 text-dark">RDMkit in numbers</h2>
-            {%- assign contributors = site.data.CONTRIBUTORS %}
-            {%- for page in site.pages %}
-            {%- if page.contributors and page.search_exclude != true %}
-            {%- assign pagecontr = page.contributors | join: ", " %}
-            {%- if allcontrstr %}
-            {%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
-            {%- else %}
-            {%- assign allcontrstr = allcontrstr | append: pagecontr %}
-            {%- endif %}
-            {%- endif %}
-            {%- endfor %}
-            {%- for contr in contributors %}
-            {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
-            {%- endfor %}
-            {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
-            {%- assign tools = site.data.tool_and_resource_list -%}
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
-                <div class="col">
-                    <div class="bg-light rounded p-3 text-center h-100">
-                        <span class="count-number text-primary">{{allcontributors.size}}</span>
-                        <p><b>Contributors</b><br>
-                            The force behind RDMkit</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="bg-light rounded p-3 text-center h-100">
-                        {%- assign national_tools = 0 %}
-                        {%- assign country_pages = site.pages | where: "type", "national_resources" | where:
-                        "search_exclude",
-                        "false" %}
-                        {%- for country_page in country_pages %}
-                        {%- assign national_tools = national_tools | plus: country_page.resources.size %}
-                        {%- endfor %}
-                        <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
-                        <p><b>Tools & resources</b><br>
-                            Explained in the context of real world problems</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="bg-light rounded p-3 text-center h-100">
-                        {%- assign content_pages = site.pages | where: "search_exclude", "false" %}
-                        <span class="count-number text-primary">{{content_pages.size}}</span>
-                        <p><b>Pages</b><br>
-                            Helping you with data management</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
-        <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
-            <i class="fa-solid fa-arrow-up"></i><span class="ms-2 d-none d-sm-inline">Back to top</span>
-        </button>
+    <section class="container my-5">
+        <h2 class="mt-5 mb-3 ff-theme strong">RDMkit in numbers</h2>
+        {%- assign contributors = site.data.CONTRIBUTORS %}
+        {%- for page in site.pages %}
+        {%- if page.contributors and page.search_exclude != true %}
+        {%- assign pagecontr = page.contributors | join: ", " %}
+        {%- if allcontrstr %}
+        {%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
+        {%- else %}
+        {%- assign allcontrstr = allcontrstr | append: pagecontr %}
         {%- endif %}
-        {% include footer.html %}
-        {% include cookie-popup.html %}
-    </main>
+        {%- endif %}
+        {%- endfor %}
+        {%- for contr in contributors %}
+        {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
+        {%- endfor %}
+        {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
+        {%- assign tools = site.data.tool_and_resource_list -%}
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <div class="col">
+                <div class="bg-light rounded p-3 text-center h-100">
+                    <span class="count-number text-primary">{{allcontributors.size}}</span>
+                    <p><b>Contributors</b><br>
+                        The force behind RDMkit</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="bg-light rounded p-3 text-center h-100">
+                    {%- assign national_tools = 0 %}
+                    {%- assign country_pages = site.pages | where: "type", "national_resources" | where:
+                    "search_exclude",
+                    "false" %}
+                    {%- for country_page in country_pages %}
+                    {%- assign national_tools = national_tools | plus: country_page.resources.size %}
+                    {%- endfor %}
+                    <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
+                    <p><b>Tools & resources</b><br>
+                        Explained in the context of real world problems</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="bg-light rounded p-3 text-center h-100">
+                    {%- assign content_pages = site.pages | where: "search_exclude", "false" %}
+                    <span class="count-number text-primary">{{content_pages.size}}</span>
+                    <p><b>Pages</b><br>
+                        Helping you with data management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
+    <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
+        <i class="fa-solid fa-arrow-up"></i><span class="ms-2 d-none d-sm-inline">Back to top</span>
+    </button>
+    {%- endif %}
+    {% include footer.html %}
+    {% include cookie-popup.html %}
 </body>
 
 </html>
