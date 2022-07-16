@@ -44,10 +44,17 @@ li ul .sidebar_rdm_sub {
 /* -----Homepage----- */
 
 .landingpage {
-    
+
     .card:hover{
         box-shadow: $box-shadow;
     }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
     h2 {
         font-weight: 700;
         font-family:  $font-family-theme;
