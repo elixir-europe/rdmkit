@@ -2,7 +2,7 @@ title: Data management
 title_url: /index
 subitems:
   - title: Data life cycle
-    description: Start here to get an overview of research data management. Click on a section of the diagram below to get an introduction to that stage of the data management life cycle.
+    description: Start here to get an overview of research data management based on steps in the data life cycle.
     url: /data_life_cycle
     subitems:
       - RDM: True
