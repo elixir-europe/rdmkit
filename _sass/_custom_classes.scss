@@ -41,27 +41,22 @@ li ul .sidebar_rdm_sub {
     margin-top: $spacer * 0.5;
 }
 
-/*-----News and events-----*/
-
-.events,
-.news {
-    h2 {
-        color: $dark;
-    }
-}
-
 /* -----Homepage----- */
 
-// Home cards
-
-.home-cards .card:hover{
-    box-shadow: $box-shadow;
+.landingpage {
+    
+    .card:hover{
+        box-shadow: $box-shadow;
+    }
+    h2 {
+        font-weight: 700;
+        font-family:  $font-family-theme;
+    }
 }
 
 // Search box
 
 section.hero {
-
     form {
         max-width: 600px;
     }
@@ -69,6 +64,9 @@ section.hero {
     #search-results {
         left: 14px;
 
+    }
+    .input-group-text {
+        font-size: 1.5rem;
     }
 }
 
