@@ -20,7 +20,7 @@ layout: none
     <section class="bg-light hero py-5">
         <div class="container">
             <div class="row">
-                <h2 class="no-anchor text-center ff-theme strong">What can we help you find?</h2>
+                <h2 class="no-anchor text-center ff-theme">What can we help you find?</h2>
                 <div class="position-relative">
                     <form role="search" class="input-group mx-auto mt-2">
                         <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -41,7 +41,7 @@ layout: none
                         <div class="card bg-white h-100">
                             <div class="card-body">
                                 <a href="{{ folder.url | relative_url }}" class="stretched-link">
-                                    <h2 class="card-title no-anchor text-primary ff-theme strong">{{folder.title}}</h2>
+                                    <h2 class="card-title no-anchor text-primary ff-theme">{{folder.title}}</h2>
                                 </a>
                                 <p class="card-text">{{folder.description}}</p>
                             </div>
@@ -54,7 +54,7 @@ layout: none
     </section>
     <section class="py-5 bg-dark text-white">
         <div class="container">
-            <h2 class="text-white ff-theme strong">We welcome contributors!</h2>
+            <h2 class="text-white ff-theme">We welcome contributors!</h2>
             <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
                     community
                     contributors</a>. RDMkit is an open community project, and you are welcome to <a
@@ -70,7 +70,7 @@ layout: none
     </section>
 
     <section class="container my-5">
-        <h2 class="mt-5 mb-3 ff-theme strong">RDMkit in numbers</h2>
+        <h2 class="mt-5 mb-3 ff-theme">RDMkit in numbers</h2>
         {%- assign contributors = site.data.CONTRIBUTORS %}
         {%- for page in site.pages %}
         {%- if page.contributors and page.search_exclude != true %}
