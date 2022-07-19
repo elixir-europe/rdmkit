@@ -58,3 +58,7 @@
   date: 2022-06-13
   linked_pr: 892
   description: A "your task" page about Data brokering that provides information on how to upload data to repositories on behalf of data producers. [Discover the page here](data_brokering).
+- name: "New page: National resources Italy"
+  date: 2022-07-19
+  linked_pr: 931
+  description: This page gives an insight in RDM on national level in Italy. [Discover the page here](it_resources)
