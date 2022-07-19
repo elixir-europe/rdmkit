@@ -222,7 +222,6 @@
   name: Bioconda
   registry:
     biotools: bioconda
-    tess: Bioconda
   related_pages:
   - IT support
   - data analysis
@@ -1153,7 +1152,6 @@
   name: FAIRDOM-SEEK
   registry:
     biotools: seek
-    tess: FAIRDOM-SEEK
   related_pages:
   - storage
   - IT support
@@ -2251,8 +2249,6 @@
     interface to weave together narrative text and code to produce elegantly formatted
     output. Use multiple languages including R, Python, and SQL.
   name: R Markdown
-  registry:
-    tess: R Markdown
   related_pages:
   - data analysis
   - researcher
