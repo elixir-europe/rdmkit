@@ -49,7 +49,7 @@ subitems:
         url: /structural_bioinformatics
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
-    url: /you_tasks
+    url: /youR_tasks
     image_url: /assets/img/list-check-solid.svg
     subitems:
       - title: Compliance monitoring
