@@ -60,17 +60,17 @@ layout: none
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 my-auto">
-                        <img class="h-icon-6" src="{{ '/assets/img/users-solid.svg' | relative_url }}" alt="Contributors icon">
+                        <img class="h-icon-6" src="{{ '/assets/img/users-solid-white.svg' | relative_url }}" alt="Contributors icon">
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-7">
                         <h2 class="text-white">We welcome contributors!</h2>
                         <p>This project would not be possible without the many <a class="text-white text-hover-primary" href="{{ '/contributors' | relative_url }}"><b>amazing
                             community contributors</b></a>. RDMkit is an open community project, and you are welcome to join us!
                         </p>
                     </div>
-                    <div class="col-lg-2 my-auto">
+                    <div class="col-lg-3 my-auto">
                         <div>
-                            <a class="btn btn-primary btn-lg text-nowrap" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
+                            <a class="btn btn-primary btn-lg w-100" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
                         </div>
                     </div>
                 </div>
@@ -101,12 +101,19 @@ layout: none
             {%- endfor %}
             {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
             {%- assign tools = site.data.tool_and_resource_list -%}
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-3">
                 <div class="col">
                     <div class="bg-light rounded p-3 text-center h-100">
-                        <span class="count-number text-primary">{{allcontributors.size}}</span>
-                        <p><b>Contributors</b><br>
-                            The force behind RDMkit</p>
+                        <div class="row g-1">
+                            <div class="col-5 my-auto">
+                                <img class="h-icon-5" src="{{ '/assets/img/users-solid.svg' | relative_url }}" alt="Contributors icon">
+                            </div>
+                            <div class="col-7">
+                                <span class="count-number text-primary">{{allcontributors.size}}</span>
+                                <p><b>Contributors</b><br>
+                                    The force behind RDMkit</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
@@ -118,17 +125,31 @@ layout: none
                         {%- for country_page in country_pages %}
                         {%- assign national_tools = national_tools | plus: country_page.resources.size %}
                         {%- endfor %}
-                        <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
-                        <p><b>Tools & resources</b><br>
-                            Explained in the context of real world problems</p>
+                        <div class="row g-1">
+                            <div class="col-5 my-auto">
+                                <img class="h-icon-5" src="{{ '/assets/img/gears-solid.svg' | relative_url }}" alt="Contributors icon">
+                            </div>
+                            <div class="col-7">
+                                <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
+                                <p><b>Tools & resources</b><br>
+                                    Explained in the context of real world problems</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="bg-light rounded p-3 text-center h-100">
                         {%- assign content_pages = site.pages | where: "search_exclude", "false" %}
-                        <span class="count-number text-primary">{{content_pages.size}}</span>
-                        <p><b>Pages</b><br>
-                            Helping you with data management</p>
+                        <div class="row g-1">
+                            <div class="col-5 my-auto">
+                                <img class="h-icon-5" src="{{ '/assets/img/file-lines-solid.svg' | relative_url }}" alt="Contributors icon">
+                            </div>
+                            <div class="col-7">
+                                <span class="count-number text-primary">{{content_pages.size}}</span>
+                                <p><b>Pages</b><br>
+                                    Helping you with data management</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
