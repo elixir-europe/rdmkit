@@ -69,9 +69,7 @@ layout: none
                         </p>
                     </div>
                     <div class="col-lg-3 my-auto">
-                        <div>
-                            <a class="btn btn-primary btn-lg w-100" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
-                        </div>
+                        <a class="btn btn-primary btn-lg" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
                     </div>
                 </div>
             </div>
@@ -105,13 +103,13 @@ layout: none
                 <div class="col">
                     <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
                         <div class="row g-1 flex-grow-1">
-                            <div class="col-5 my-auto">
-                                <img class="h-icon-4" src="{{ '/assets/img/users-solid.svg' | relative_url }}" alt="Contributors icon">
-                            </div>
                             <div class="col-7">
                                 <span class="count-number text-primary">{{allcontributors.size}}</span>
                                 <p><b>Contributors</b><br>
                                     The force behind RDMkit</p>
+                            </div>
+                            <div class="col-5 my-auto">
+                                <img class="h-icon-4" src="{{ '/assets/img/users-solid.svg' | relative_url }}" alt="Contributors icon">
                             </div>
                         </div>
                     </div>
@@ -126,13 +124,13 @@ layout: none
                         {%- assign national_tools = national_tools | plus: country_page.resources.size %}
                         {%- endfor %}
                         <div class="row g-1 flex-grow-1">
-                            <div class="col-5 my-auto">
-                                <img class="h-icon-4" src="{{ '/assets/img/gears-solid.svg' | relative_url }}" alt="Contributors icon">
-                            </div>
                             <div class="col-7">
                                 <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
                                 <p><b>Tools & resources</b><br>
                                     Explained in the context of real world problems</p>
+                            </div>
+                            <div class="col-5 my-auto">
+                                <img class="h-icon-4" src="{{ '/assets/img/gears-solid.svg' | relative_url }}" alt="Contributors icon">
                             </div>
                         </div>
                     </div>
@@ -141,13 +139,13 @@ layout: none
                     <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
                         {%- assign content_pages = site.pages | where: "search_exclude", "false" %}
                         <div class="row g-1 flex-grow-1">
-                            <div class="col-5 my-auto">
-                                <img class="h-icon-4" src="{{ '/assets/img/file-lines-solid.svg' | relative_url }}" alt="Contributors icon">
-                            </div>
                             <div class="col-7">
                                 <span class="count-number text-primary">{{content_pages.size}}</span>
                                 <p><b>Pages</b><br>
                                     Helping you with data management</p>
+                            </div>
+                            <div class="col-5 my-auto">
+                                <img class="h-icon-4" src="{{ '/assets/img/file-lines-solid.svg' | relative_url }}" alt="Contributors icon">
                             </div>
                         </div>
                     </div>
