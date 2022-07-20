@@ -13,5 +13,4 @@ In “Your tasks” section, information is organised around common research dat
 - A summary table of tools and resources relevant for the specific task and recommended by communities.
 
 
-<br>
-{% include section-navigation-tiles-simple.html type="your_tasks" %}
+{% include section-navigation-tiles.html type="your_tasks" search="true" %}

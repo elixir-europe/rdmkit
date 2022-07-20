@@ -11,7 +11,6 @@ In “Your domain” section, information is organised per very broad and/or nar
 - A summary table of the relevant tools and resources for the specific domain, recommended by the community.
 
 
-<br>
-{% include section-navigation-tiles-simple.html type="your_domain" %}
+{% include section-navigation-tiles.html type="your_domain" search="true" %}
 
 

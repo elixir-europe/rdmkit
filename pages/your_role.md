@@ -13,6 +13,5 @@ In “Your role” section, information is organised based on different job prof
 - A summary table of tools and resources relevant for the tasks that each role should address.
 
 
-<br>
-{% include section-navigation-tiles-simple.html type="your_role" %}
+{% include section-navigation-tiles.html type="your_role" search="true" %}
 
