@@ -87,11 +87,55 @@ subitems:
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     url: /tool_assembly
+    subitems:
+      - title: COVID-19 Data Portal 
+        url: /covid19_data_portal
+      - title: CSC
+        url: /csc_assembly
+      - title: IFB
+        url: /ifb_assembly
+      - title: Marine Metagenomics
+        url: /marine_metagenomics_assembly
+      - title: NeLS
+        url: /nels_assembly
+      - title: OMERO
+        url: /omero_assembly
+      - title: Plant Genomics 
+        url: /plant_genomics_assembly
+      - title: TransMed
+        url: /transmed_assembly
+      - title: TSD
+        url: /tsd_assembly
+      - title: XNAT-PIC
+        url: /xnat_pic_assembly
     image_url: /assets/img/arrows-to-dot-solid.svg
   - title: National resources
     description: Browse trough the national resource pages
     url: /national_resources
     image_url: /assets/img/earth-europe-solid.svg
+    subitems:
+      - title: Belgium
+        url: /be_resources
+      - title: Germany
+        url: /de_resources
+      - title: Estonia
+        url: /ee_resources
+      - title: Spain
+        url: /es_resources
+      - title: Finland
+        url: /fi_resources
+      - title: France
+        url: /fr_resources
+      - title: Italy
+        url: /it_resources
+      - title: Norway
+        url: /no_resources
+      - title: Portugal
+        url: /pt_resources
+      - title: Sweden
+        url: /se_resources
+      - title: United Kingdom
+        url: /uk_resources
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources
