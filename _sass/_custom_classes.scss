@@ -7,6 +7,10 @@
     }
 }
 
+.bg-light-x {
+    background-color: $light-x;
+}
+
 /*-----Sidebar-----*/
 
 //RDM wheel in sidebar
@@ -54,7 +58,6 @@ li ul .sidebar_rdm_sub {
     .h-icon-4 {
         height: 4em;
     }
-
 
     .card {
         &:hover{
@@ -108,6 +111,20 @@ section#search-section {
     font-size: 4em;
     font-weight: 700;
 }
+
+
+/*-----Section navigation tiles-----*/
+
+.navigation-tiles {
+    .card:hover {
+        box-shadow: $box-shadow;
+    }
+
+    .card-header a:hover {
+        text-decoration: none;
+    }
+}
+
 
 /*-----Top navigation-----*/
 
