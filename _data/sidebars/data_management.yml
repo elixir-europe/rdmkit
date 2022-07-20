@@ -110,7 +110,7 @@ subitems:
         url: /xnat_pic_assembly
     image_url: /assets/img/arrows-to-dot-solid.svg
   - title: National resources
-    description: Browse trough the national resource pages
+    description: Browse through the national resource pages
     url: /national_resources
     image_url: /assets/img/earth-europe-solid.svg
     subitems:
