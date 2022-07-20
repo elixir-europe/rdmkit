@@ -6,9 +6,11 @@ subitems:
     url: /data_life_cycle
     subitems:
       - RDM: True
+    image_url: /assets/img/arrows-spin-solid.svg
   - title: Your role
     description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
     url: /your_role
+    image_url: /assets/img/address-card-solid.svg
     subitems:
       - title: Researcher
         url: /researcher
@@ -21,6 +23,7 @@ subitems:
   - title: Your domain
     description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.
     url: /your_domain
+    image_url: /assets/img/dna-solid.svg
     subitems:
       - title: Plant sciences
         url: /plant_sciences
@@ -47,6 +50,7 @@ subitems:
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management problems.
     url: /you_tasks
+    image_url: /assets/img/list-check-solid.svg
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring
@@ -83,14 +87,18 @@ subitems:
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
     url: /tool_assembly
+    image_url: /assets/img/arrows-to-dot-solid.svg
   - title: National resources
     description: Browse trough the national resource pages
     url: /national_resources
+    image_url: /assets/img/earth-europe-solid.svg
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources
+    image_url: /assets/img/gears-solid.svg
     hr: True
   - title: All training resources
     description: Browse the RDMkit's catalogue of training resources for research data management.
     url: /all_training_resources
+    image_url: /assets/img/graduation-cap-solid.svg
 

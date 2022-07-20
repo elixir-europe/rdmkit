@@ -38,10 +38,11 @@ layout: none
         <section class="bg-light pb-5">
             <div class="container">
                 {%- assign sidebar = site.data.sidebars[page.sidebar] %}
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                     {%- for folder in sidebar.subitems %}
                     <div class="col">
                             <div class="card bg-white h-100">
+                                <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5" alt="{{folder.title}} icon">
                                 <div class="card-body">
                                     <a href="{{ folder.url | relative_url }}" class="stretched-link">
                                         <h3 class="card-title no-anchor text-primary">{{folder.title}}</h2>
@@ -57,11 +58,22 @@ layout: none
         </section>
         <section class="py-5 bg-dark text-white contributor">
             <div class="container">
-                <h2 class="text-white">We welcome contributors!</h2>
-                <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}">amazing
-                        community
-                        contributors</a>. RDMkit is an open community project, and you are welcome to <a
-                        href="{{ '/how_to_contribute' | relative_url }}">join us</a>!</p>
+                <div class="row">
+                    <div class="col-lg-2 my-auto">
+                        <img class="h-icon-6" src="{{ '/assets/img/users-solid.svg' | relative_url }}" alt="Contributors icon">
+                    </div>
+                    <div class="col-lg-8">
+                        <h2 class="text-white">We welcome contributors!</h2>
+                        <p>This project would not be possible without the many <a class="text-white text-hover-primary" href="{{ '/contributors' | relative_url }}"><b>amazing
+                            community contributors</b></a>. RDMkit is an open community project, and you are welcome to join us!
+                        </p>
+                    </div>
+                    <div class="col-lg-2 my-auto">
+                        <div>
+                            <a class="btn btn-primary btn-lg text-nowrap" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="py-5 bg-light">

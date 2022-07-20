@@ -44,8 +44,24 @@ li ul .sidebar_rdm_sub {
 /* -----Homepage----- */
 
 .landingpage {
-    .card:hover{
-        box-shadow: $box-shadow;
+
+    .h-icon-6 {
+        height: 6em;
+    }
+    .h-icon-5 {
+        height: 5em;
+    }
+
+    .card {
+        &:hover{
+            box-shadow: $box-shadow;
+        }
+
+        .card-img-top {
+            margin-right: auto;
+            width: unset;
+            padding: $card-spacer-x $card-spacer-x 0 $card-spacer-x;
+        }
     }
 
     h1 {
@@ -64,17 +80,6 @@ li ul .sidebar_rdm_sub {
         font-family:  $font-family-theme;
     }
 
-    section.contributor {
-        a {
-            color: $white  !important;
-            font-weight: bold;
-        }
-    
-        a:hover {
-            color: $primary  !important;
-        }
-    }
-
 }
 
 // Search box
@@ -90,6 +95,8 @@ section#search-section {
     .input-group-text {
         font-size: 1.5rem;
     }
+
+    
 }
 
 // Counters on landing page
