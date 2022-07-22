@@ -120,8 +120,13 @@ section#search-section {
         box-shadow: $box-shadow;
     }
 
-    .card-header a:hover {
-        text-decoration: none;
+    .card-header {
+        a:hover {
+            text-decoration: none;
+        }
+        h3 {
+            font-size: 1.2;
+        }
     }
 }
 

@@ -7,7 +7,9 @@ $topnav-bg: $dark;
 $topnav-brand-height: 40px;
 
 /*-----More information tiles-----*/
-$info-card-header-bg: $dark;
+$info-card-header-bg: $light-x;
+$info-card-header-color: $dark;
+
 
 /*-----Section navigation tiles-----*/
 $nav-card-bg: $light;
@@ -23,4 +25,4 @@ $footer-link-color: $white;
 $footer-copyright-bg: #00000033;
 
 /*-----Events & news-----*/
-$news-border-color: $white;
+$news-border-color: $dark;
