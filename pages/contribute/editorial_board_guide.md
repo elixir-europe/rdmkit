@@ -234,7 +234,7 @@ To find out what the `page_id` of an RDMkit page is, please check its metadata a
 
 ### Links between RDMkit and FAIR Cookbook
 
-- To register links between the RDMkit pages  and FAIR Cookbook recipies enter the links in the faircookbook_rdmkit_mapping.yml file. The .yml is placed in the [repository](https://github.com/elixir-europe/faircookbook-rdmkit).
+- Links between RDMkit and FAIR Cookbook are described in the `faircookbook_rdmkit_mapping.yml` file located in the [faircookbook-rdmkit repository](https://github.com/elixir-europe/faircookbook-rdmkit).
 - After adding the links create a PR. The PR should be reviewd and approved by atleast one editor from both teams.
 - After the approval from editors Fair Cookbook and RDMkit will automatically pull changes from the central .yml file to update there repository. The process of merging the changes to the main branch from the reposiory takes place weekly.
 
