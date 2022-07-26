@@ -232,7 +232,7 @@ related_pages:
 To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview page](website_overview).
 
 
-### Links between RDMkit and FAIR Cookbook
+### Linking from RDMkit to FAIR Cookbook
 
 - Links between RDMkit and FAIR Cookbook are described in the `faircookbook_rdmkit_mapping.yml` file located in the [faircookbook-rdmkit repository](https://github.com/elixir-europe/faircookbook-rdmkit).
 - After adding the links create a PR. The PR should be reviewed and approved by at least one editor from both teams.
