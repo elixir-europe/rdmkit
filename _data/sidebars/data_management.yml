@@ -112,7 +112,7 @@ subitems:
   - title: National resources
     description: Browse through the national resource pages
     url: /national_resources
-    image_url: /assets/img/earth-europe-solid.svg
+    image_url: /assets/img/flag.svg
     subitems:
       - title: Belgium
         url: /be_resources
