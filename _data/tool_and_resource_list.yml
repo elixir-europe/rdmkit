@@ -155,6 +155,7 @@
   name: Beacon
   registry:
     biotools: beacon
+    fairsharing: 6fba91
     tess: Beacon
   related_pages:
   - researcher
@@ -830,6 +831,7 @@
     container images
   name: Docker
   registry:
+    fairsharing: afc2b3
     fairsharing-coll: bsg-d001254
     tess: Docker
   related_pages:
@@ -2242,6 +2244,8 @@
   url: https://www.psidev.info/
 - description: A secure platform for developing and sharing reproducible methods.
   name: protocols.io
+  registry:
+    fairsharing: 132b10
   related_pages:
   - micro biotech
   url: https://www.protocols.io
