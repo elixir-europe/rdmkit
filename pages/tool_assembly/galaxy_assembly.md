@@ -40,4 +40,6 @@ Galaxy also provides [open infrastructure ready to use for researchers worldwide
 
 ## What can you use Galaxy for?
 
+Galaxy can be used at different stages of the data life cycle, covering from the data collection to the reuse steps. 
 
+{% include image.html file="galaxy-rdmkit.png" caption="Figure 1. Uses of Galaxy throughout the whole data life cycle." alt="Galaxy RDMkit" %}
