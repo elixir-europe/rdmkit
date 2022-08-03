@@ -2,6 +2,8 @@
 title: Tour tasks
 ---
 
+<img class="section-image ms-4 mb-4" src="{{ '/assets/img/tasks.svg' | relative_url }}" alt="section logo" >
+
 ## What is in “Your tasks”?
 
 In “Your tasks” section, information is organised around common research data management tasks or challenges. Here, you will find:

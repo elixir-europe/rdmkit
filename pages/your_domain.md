@@ -2,6 +2,8 @@
 title: Your domain
 ---
 
+<img class="section-image ms-4 mb-4" src="{{ '/assets/img/domain.svg' | relative_url }}" alt="section logo" >
+
 In “Your domain” section, information is organised per very broad and/or narrow domains in life sciences (I.e. Human data and Intrinsically Disordered Proteins). You will find:
 
 - Domain-specific best practices and guidelines for data management.

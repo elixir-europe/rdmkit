@@ -141,3 +141,11 @@ section#search-section {
         border-radius: $border-radius;
     }
 }
+
+/*-----Section images-----*/
+
+.section-image {
+    max-height: 90px;
+    opacity: 0.4;
+    float: right;
+}

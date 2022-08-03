@@ -2,6 +2,8 @@
 title: Your role
 ---
 
+<img class="section-image ms-4 mb-4" src="{{ '/assets/img/role.svg' | relative_url }}" alt="section logo" >
+
 ## What is in “Your role”?
 
 In “Your role” section, information is organised based on different job profiles in research data management. Here, you will find:
