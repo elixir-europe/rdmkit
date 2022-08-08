@@ -6,11 +6,11 @@ page_id: identifiers
 related_pages: 
     tool_assembly: []
 dsw:
-- name: Will this data be assigned a persistent identifier?
-  uuid: d21fdb06-22bf-418e-aa40-dc5ef1485f56
 - name: Will you make explicit cross-reference between physical samples and your digital
     data?
   uuid: 9e238002-da35-4f9b-a9b7-8fe3613a3c03
+- name: Will this data be assigned a persistent identifier?
+  uuid: d21fdb06-22bf-418e-aa40-dc5ef1485f56
 faircookbook:
 - name: Unique, persistent identifiers
   url: https://w3id.org/faircookbook/FCB006
