@@ -4,6 +4,7 @@ page_id: analyse
 related_pages: 
   your_tasks: [data analysis, data organisation, storage]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
+description: How to manage the data analysis stage
 training:
   - name: Training in TeSS
     registry: TeSS

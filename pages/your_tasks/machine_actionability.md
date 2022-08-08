@@ -1,7 +1,7 @@
 ---
 title: Machine actionability
 contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat Sarntivijai, Nazeefa Fatima, Rafael Andrade Buono, Alex Henderson, Korbinian Bösl, Dominik Martinat, M-Christine Jacquemot-Perbal]
-description: how to make machine-actionable (meta)data.
+description: How to make machine-actionable (meta)data
 page_id: machine actionability
 related_pages: 
     tool_assembly: []

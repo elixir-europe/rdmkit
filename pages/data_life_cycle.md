@@ -4,14 +4,13 @@ title: Data life cycle
 
 <img class="section-image ms-4 mb-4" src="{{ '/assets/img/cycle_alt.svg' | relative_url }}" alt="section logo" >
 
-## What is in “Data life cycle”?
-
-In “Data life cycle” section, information is organised according to the stages of the research data life cycle . Here, you will find:
-
-- General description and introduction of the data life cycle stage.
-- List of  the main considerations that need to be taken into account during that stage.
-- Links to training related to the life cycle stage.
+In this section, information is organised according to the stages of the research data life cycle. You will find:
+- A general description and introduction of each  stage.
+- A list of the main considerations that need to be taken into account during each stage.
+- Links to training materials related to each stage.
 - Links to related data management tasks that can be performed at each stage.
+- Links to a Data Stewardship Wizard for your DMP and to step-by-step instructions to make your data FAIR.
+
 
 <div class="main_rdm mt-5 d-flex justify-content-center">
     <svg version="1.1" id="data-life-cycle-index" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

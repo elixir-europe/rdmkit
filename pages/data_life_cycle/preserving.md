@@ -1,6 +1,7 @@
 ---
 title: Preserving
 page_id: preserve
+description: Introduction to data preservation
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 related_pages: 
   your_tasks: [data organisation, data protection, data publication, transfer, metadata, storage]

@@ -2,7 +2,7 @@ title: Data management
 title_url: /index
 subitems:
   - title: Data life cycle
-    description: Start here to get an overview of research data management based on steps in the data life cycle.
+    description: Start here to get an overview of research data management based on stages in the data life cycle.
     url: /data_life_cycle
     subitems:
       - RDM: True
@@ -85,7 +85,7 @@ subitems:
       - title: Sensitive data
         url: /sensitive_data
   - title: Tool assembly
-    description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
+    description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.
     url: /tool_assembly
     subitems:
       - title: COVID-19 Data Portal 
@@ -110,7 +110,7 @@ subitems:
         url: /xnat_pic_assembly
     image_url: /assets/img/assembly.svg
   - title: National resources
-    description: Browse through the national resource pages
+    description: Find pointers to country specific information resources and national research data management practices. 
     url: /national_resources
     image_url: /assets/img/flag.svg
     subitems:
@@ -142,6 +142,6 @@ subitems:
     image_url: /assets/img/tools.svg
     hr: True
   - title: All training resources
-    description: Browse the RDMkit's catalogue of training resources for research data management.
+    description: Browse all training resources mentioned in RDMkit pages.
     url: /all_training_resources
     image_url: /assets/img/education.svg
