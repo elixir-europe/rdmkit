@@ -6,7 +6,7 @@ subitems:
     url: /data_life_cycle
     subitems:
       - RDM: True
-    image_url: /assets/img/cycle_alt.svg
+    image_url: /assets/img/cycle.svg
   - title: Your role
     description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
     url: /your_role
