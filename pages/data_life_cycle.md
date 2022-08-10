@@ -13,7 +13,7 @@ In this section, information is organised according to the stages of the researc
 
 <div class="main_rdm mt-5 d-flex justify-content-center">
     <svg version="1.1" id="data-life-cycle-index" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    viewBox="0 0 250.9 251" xml:space="preserve" height="30em">
+    viewBox="0 0 250.9 251" xml:space="preserve" height="24em">
         <style type="text/css">
         .st0{fill:#FA484B;}
         .st5{fill:#F67028;}
