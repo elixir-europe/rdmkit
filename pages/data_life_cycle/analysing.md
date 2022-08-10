@@ -11,6 +11,7 @@ training:
     url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 ---
 
+
 ## What is data analysis?
 
 Data analysis consists in exploring the collected data to begin understanding the messages contained in a dataset and/or in applying mathematical formula (or models) to identify relationships between variables.
