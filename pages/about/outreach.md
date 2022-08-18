@@ -7,7 +7,7 @@ We are, since the beginning, actively spreading the word about RDMkit making sur
 ## Presentations
 
 
-### ELIXIR FAIR & Research Data Management  know-how ecosystem - All hands 2022
+### ELIXIR FAIR & Research Data Management know-how ecosystem - All hands 2022
 
 **2022-06-10**
 
