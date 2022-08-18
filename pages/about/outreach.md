@@ -6,6 +6,14 @@ We are, since the beginning, actively spreading the word about RDMkit making sur
 
 ## Presentations
 
+
+### ELIXIR FAIR & Research Data Management  know-how ecosystem - All hands 2022
+
+**2022-06-10**
+
+<iframe allowtransparency="true" allowfullscreen="true" frameborder="0" src="//api.accusoft.com/v1/viewer/?key=aIAHEk1WtoJas0JtfMsvfRTwAP3ApQikUG4NnwM3RzGuKnHIty0UftIkfzzFE6XS&amp;viewertype=html5&amp;document=https://d1hiluowqo0t4b.cloudfront.net/posters/compressed/f1000research-435915.pdf&amp;viewerHeight=550&amp;viewerWidth=100%&amp;upperToolbarColor=373e46&amp;lowerToolbarColor=eeeeee&amp;bottomToolbarColor=373e46&amp;backgroundColor=f7f6f5&amp;fontColor=ffffff&amp;buttonColor=black&amp;hidden=selectText,download,panTool,magnifyTool,rotateDocument,rotatePage,fullScreen,print,pageInfo,redact,esign" height="550" width="100%" class="scale"></iframe>
+
+
 ### How RDMkit works and the theme behind it - Infectious diseases toolkit introduction
 
 **2022-04-12**
