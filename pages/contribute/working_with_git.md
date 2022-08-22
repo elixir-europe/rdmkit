@@ -1,7 +1,5 @@
 ---
 title: Working with git
-sidebar: contribute
-toc: false
 ---
 
 
@@ -62,7 +60,7 @@ To run the website locally, you can either use [Docker](https://www.docker.com/)
 
 1. If not already installed on your machine, install Docker. From the root of the ``rdmkit`` directory, run:
     ```
-    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll serve -w"
+    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "gem install github-pages --no-document && chmod 777 /srv/jekyll && jekyll serve -w"
     ```
 This will start the docker container and serve the website locally.
 
@@ -78,19 +76,13 @@ If you have never installed or run a Jekyll site locally on your computer, follo
 1. Install Bundler and Jekyll
 
     ```
-    gem install jekyll bundler
+    gem install jekyll bundler github-pages
     ```
 
-1. Install dependencies
-
-    ```
-    bundle install
-    ```
-
-1. deploy website
+2. deploy website
 
     ```
     bundle exec jekyll serve
     ```
 
-Additional information can be found at the following link: [https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+Additional information can be found at the following link: [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)

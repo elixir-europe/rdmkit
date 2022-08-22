@@ -2,11 +2,10 @@
 title: OMERO
 contributors: [Jean-Marie Burel] 
 page_id: ome
-affiliations: [ALL, Euro BioImaging]
-audience: [ALL]
+affiliations: [Euro BioImaging]
 related_pages: 
   your_tasks: [data organisation, storage, data analysis]
-  your_domain: []
+  your_domain: [bioimaging data]
 description: OMERO is a software platform for managing, sharing and analysing images data.
 training:
   - name: General information about the OME ecosystem 
@@ -18,6 +17,7 @@ training:
   - name: Collection of workflow describing to how use the system, with links to scripts and notebooks
     url: https://omero-guides.readthedocs.io/en/latest/
   - name: YouTube channel with tutorials and presentations
+    registry: Youtube
     url: https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ
   - name: Imaging Forum - discussions about imaging related topics
     url: https://forum.image.sc/

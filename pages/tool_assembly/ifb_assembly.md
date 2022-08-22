@@ -4,14 +4,12 @@ contributors: [Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora 
 description: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_id: IFB
 affiliations: ["ELIXIR Europe", "FR"]
-audience: [FR]
 related_pages: 
   your_tasks: [DMP, data organisation ,storage, data publication, data transfer, metadata, data analysis]
-  your_domain:
+  your_domain: []
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=IFB
   - name: Data management training at the IFB
     url: https://www.france-bioinformatique.fr/en/training/
@@ -76,7 +74,7 @@ IFB infrastructure can also help you with bioinformatics analysis of your data. 
 
 ### Data sharing and publishing
 
-It is good practice to [publish](data_publication) your data on repositories. IFB encourages researchers to browse the list of [ELIXIR depostion databases for biomolecular data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) to find the appropriate repository. 
+It is good practice to [publish](data_publication) your data on repositories. IFB encourages researchers to browse the list of [ELIXIR deposition databases for biomolecular data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) to find the appropriate repository. 
 
 If you are a member of INRAE (one of the stakeholders of IFB infrastructure), you can access the institutional instance of the Dataverse platform [Data INRAE](https://data.inrae.fr). Data INRAE can be used by researchers to store and describe datasets during the project, and to share them according to specific sharing settings. 
 

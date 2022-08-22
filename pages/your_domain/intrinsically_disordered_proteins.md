@@ -5,6 +5,7 @@ related_pages:
 page_id: IDP
 related_pages: 
   your_tasks: [metadata]
+  tool_assembly: []
 ---
 
 ## Introduction

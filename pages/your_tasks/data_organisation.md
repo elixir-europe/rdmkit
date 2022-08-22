@@ -5,6 +5,20 @@ description: best practices to name and organise research data.
 page_id: data organisation
 related_pages: 
   tool_assembly: [ome, transmed, XNAT-PIC]
+dsw:
+- name: How will you do file naming and file organization?
+  uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
+- name: Data storage systems and file naming conventions
+  uuid: bc5e3dbf-2923-4025-a49a-f204b01d4018
+- name: Are you using a filesystem with files and folders?
+  uuid: a12aa967-28a5-4a9b-8df8-f7c533205ea4
+faircookbook:
+- name: Creating a data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
+- name: Extraction, transformation, and loading process
+  url: https://w3id.org/faircookbook/FCB031
 ---
 
 ## What is the best way to name a file?
@@ -24,8 +38,9 @@ Brief and descriptive file names are important in keeping your data files organi
 * Balance with the amount of elements: too many makes it difficult to understand vs too few makes it general.
 * Order the elements from general to specific.
 * Use meaningful abbreviations.
-* Use underscore (_), hypen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
+* Use underscore (_), hyphen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
 * Use date format ISO8601: YYYYMMDD, and time if needed HHMMSS.
+* Include a unique identifier (see: [Identifiers](identifiers))
 * Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.
 * Write your file naming convention down and explain abbreviations in your data documentation.
 * If you need to rename a lot files in order to organize your project data and manage the files easier, it is possible use applications e.g. [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free), [Renamer4Mac](https://renamer.com/) (Mac).
@@ -60,7 +75,7 @@ File versioning is a way to keep track of changes made to files and datasets. Wh
 ### Solutions
 * Smaller demands of versioning can be managed manually e.g. by keeping a log where the changes for each respective file is documented, version by version.
 * For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as [Git](https://git-scm.com/), hosted by e.g. [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
-* Use a Cloud Storage service (see [Data storage](https://rdmkit.elixir-europe.org/storage.html#what-features-do-you-need-in-a-storage-solution-when-collecting-data) page) that provides automatic file versioning. It can be very handy for spreadsheets, text files and slides.
+* Use a Cloud Storage service (see [Data storage](storage#what-features-do-you-need-in-a-storage-solution-when-collecting-data) page) that provides automatic file versioning. It can be very handy for spreadsheets, text files and slides.
 
 
 ## How do you organise files in a folder structure?

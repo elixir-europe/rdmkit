@@ -1,6 +1,5 @@
 ---
 title: Accessibility
-sidebar: about
 ---
 
 We appreciate people have different preferences and abilities when using websites. We have tried to make the site easy to use and understand, no matter what technology or browsing method you are using. For example, you should be able to:

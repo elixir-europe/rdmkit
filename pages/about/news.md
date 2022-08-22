@@ -1,7 +1,6 @@
 ---
 title: News
-sidebar: about
-toc: false
+custom-editme: _data/news.yml
 ---
 
 {% include news.html %}

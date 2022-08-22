@@ -3,12 +3,12 @@
   startTime: '9:00'
   endDate: 2021-06-24
   endTime: 13:30 CET
-  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same (two half days). <a href="https://nettskjema.no/a/rdmkit-tool-assemblies#/page/1">Sign up here</a>.
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same (two half days). [Sign up here](https://nettskjema.no/a/rdmkit-tool-assemblies#/page/1).
   location: Online
 - name: BioHackathon Europe
   startDate: 2021-11-08
   endDate: 2021-11-12
-  description: Highlight your data management tool assembly in the RDMkit! <a href="Highlight your data management tools assembly in the RDMkit!">Sign up here</a>.
+  description: Highlight your data management tool assembly in the RDMkit! Highlight your data management tools assembly in the RDMkit!
   location: Barcelona
 - name: 'RDMkit Focus session: Machine-Readable Metadata'
   startDate: 2021-09-24
@@ -17,4 +17,4 @@
   description: Do you have experience in generating machine-readable metadata during life sciences research projects? If yes, join this focus group!
     Help to describe best practices on machine-readable metadata in a your task page. We are bundling our expertise on this topic in a joint discussion and writing session. 
     For more information, please contact the rdm-editors@elixir-europe.org.
-  location: <a href="https://cesnet.zoom.us/j/92001466230?pwd=V2lKc09pa0xGajFJRzA3a1FuS2Uxdz09">Zoom</a>
+  location: "[Zoom](https://cesnet.zoom.us/j/92001466230?pwd=V2lKc09pa0xGajFJRzA3a1FuS2Uxdz09)"

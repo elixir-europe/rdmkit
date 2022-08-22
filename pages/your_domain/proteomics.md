@@ -4,10 +4,10 @@ contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrik
 page_id: proteomics
 related_pages: 
   your_tasks: [metadata]
+  tool_assembly: []
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=proteomics
 ---
 
@@ -38,7 +38,7 @@ The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ([HUPO-PS
 - The Minimum Information About a Proteomics Experiment (MIAPE) guidelines document.
 - mzML  - a standard format for encoding raw mass spectrometer output.
 - mzIdentML - a standard exchange format for peptides and proteins identified from mass spectra.
-- mzQuantML - a standard format that is intended to store the systematic description of workflows quantifying molecules (principly peptides and proteins) by mass spectrometry.
+- mzQuantML - a standard format that is intended to store the systematic description of workflows quantifying molecules (principally peptides and proteins) by mass spectrometry.
 - mzTab - a tab delimited text file format to report proteomics and metabolomics results.
  
 
@@ -57,6 +57,7 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 ### Solutions
 - Within the proteomics community various converter software tools such as [msconvert](https://proteowizard.sourceforge.io/tools.shtml) were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
 - Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ).
+
 
 
 ## Preserving and sharing proteomics data

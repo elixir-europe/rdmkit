@@ -7,8 +7,10 @@ contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20collection
+    url: https://tess.elixir-europe.org/search?q=%22data+collection%22#materials
+dsw:
+- name: Specify a list of data sets you will be producing
+  uuid: 4e0c1edf-660c-4ebf-81f5-9fa959dead30
 ---
 
 ## What is data collection?

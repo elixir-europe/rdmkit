@@ -7,8 +7,13 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20processing
+    url: https://tess.elixir-europe.org/search?q=%22data+process%22#materials
+dsw:
+- name: List the data formats you will be using for interpretation and describe their
+    structure
+  uuid: a797cab9-0829-4787-a096-1b5cedc9147f
+- name: How will you work with your data?
+  uuid: df36fb68-131c-4f31-a42b-684abf523bbc
 ---
 
 ## What is data processing?
@@ -35,7 +40,7 @@ The following considerations are important for data processing:
 * Sensitive data should be Pseudonymised/anonymised. Not only should you remove the directly identifying data, but also be attentive to other sources e.g. names written on images.
 * Appropriate standards for encoding different data fields should be used.
 * All steps of anonymisation and encoding should be properly documented, For e.g.
-    * The chosen encoding formats used for data fieds should be documented.
+    * The chosen encoding formats used for data fields should be documented.
     * The special significance of empty or otherwise special data fields.
     * All relationships between data fields should be made explicit (e.g. if a dataset contains "medication" and "disease", is that medication actually used to treat the disease? Or is it a medication that the patient is using for other reasons?).
 

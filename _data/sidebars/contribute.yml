@@ -1,24 +1,29 @@
+title: Contribute
+title_url: /how_to_contribute
 subitems:
-  - title: How to contribute
-    url: /how_to_contribute.html
+  - title: Ways to contribute
     subitems:
       - title: GitHub way
-        url: /github_way.html
+        url: /github_way
       - title: Google doc way
-        url: /google_doc_way.html
+        url: /google_doc_way
       - title: Git way (advanced)
-        url: /working_with_git.html
+        url: /working_with_git
   - title: Add new tool or resource
-    url: /tool_resource_update.html
+    url: /tool_resource_update
   - title: Style guide
-    url: /style_guide.html
+    url: /style_guide
   - title: Copyright guidelines
-    url: /copyright.html
+    url: /copyright
   - title: Markdown cheat sheet
-    url: /markdown_cheat_sheet.html
+    url: /markdown_cheat_sheet
+  - title: Page metadata
+    url: /page_metadata
   - title: Editorial board guide
-    url: /editorial_board_guide.html
+    url: /editorial_board_guide
+  - title: Editors checklist
+    url: /editors_checklist
   - title: Code of Conduct
-    url: /CODE_OF_CONDUCT.html
+    url: /CODE_OF_CONDUCT
   - title: Website overview
-    url: /website_overview.html
+    url: /website_overview

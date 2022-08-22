@@ -1,6 +1,5 @@
 ---
 title: Website overview
-sidebar: contribute
 ---
 
-{% include site-overview.html %}
+{% include pageids-overview.html sidebar="data_management" %}

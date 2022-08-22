@@ -8,7 +8,6 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
   - name: A FAIR guide for data providers to maximise sharing of human genomic data
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873
@@ -16,6 +15,13 @@ training:
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
   - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
     url: https://academy.ehden.eu/
+dsw:
+- name: Will you collect any data connected to a person, "personal data"?
+  uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
+- name: Are personal data sufficiently protected?
+  uuid: d5990471-0618-42cd-92cb-bbbfd4f61532
+- name: Will you be allowing authenticated access to the data?
+  uuid: 55f03a4a-034b-422a-adf6-757416b7650a
 ---
 
 ## Introduction
@@ -37,7 +43,7 @@ For research on human data, you must follow established research ethical guideli
   * In most cases, you should get **informed consents** from your research subjects.
     - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimize those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.
       - Consider describing data use conditions using a machine-readable formalized description such as [DUO](https://github.com/EBISPOT/DUO). This will greatly improve the possibilities to make the data FAIR later on.
-    - Informed consents should be aquired for different purposes:
+    - Informed consents should be acquired for different purposes:
       - It is a cornerstone of _research ethics_. Regardless of legal obligations, it is important to ask for informed consents as it is a good research ethics practice and maintains trust in research.
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
       - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
@@ -93,6 +99,7 @@ For human data, it is very important to use technical and procedural measures to
     - Spain - [MareNostrum](https://www.bsc.es/marenostrum/access-to-supercomputing-resources)
   - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on datasets that do not leave the place where they are stored.
     - The GA4GH is developing standards for this in their [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
+* Data quality. When processing human data, data quality is a very important aspect to consider because it can influence the results of the research. Especially in the healthcare sector, some of the data that is used for research was not collected for research purposes, and therefore it is not guaranteed to have sufficient quality. Check the [Data Quality page](data_quality) of the RDMkit to learn more about how to assess the quality of health data.
 
 
 ### Solutions
@@ -104,8 +111,8 @@ For human data, it is very important to use technical and procedural measures to
 * [IntoGen](https://www.intogen.org) collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.
 * [BoostDM](https://www.intogen.org/boostdm/search) is a method to score all possible point mutations in cancer genes for their potential to be involved in tumorigenesis.
 * [Cancer Genome Interpreter](https://www.cancergenomeinterpreter.org) is designed to identify tumor alterations that drive the disease and detect those that may be therapeutically actionable.
-* [GA4GH data security toolkit](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/)
-* [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
+* GA4GH's [Data Security](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/), and [Genomic Data](https://www.ga4gh.org/genomic-data-toolkit/) toolkits provide policies, standards for the secure transfer and processing of human genomics data. GA4GH standards are often implemented into multiple tools. For example, the [Crypt4GH data encryption standard](https://www.ga4gh.org/news/crypt4gh-a-secure-method-for-sharing-human-genetic-data/) is implemented both in [SAMTools](http://samtools.github.io/hts-specs/crypt4gh.pdf) and also provided as a [utility from the EGA Archive](https://github.com/EGA-archive/crypt4gh).
+* [GA4GH's Cloud Workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/) is a more recent initiative and focuses on keeping data in secure cloud environments and meanwhile bringing computational analysis to the data.
 
 
 
@@ -151,9 +158,12 @@ To make human research data reusable for others, it must be discoverable, stored
   * It is highly recommended that Human Research Data is shared under controlled access. There are emerging models of sharing data through repositories under federated models. 
   * The **European Genome-phenome Archive (EGA)** is the prime repository for human genomic and phenotypic data. The EGA applies a controlled access model.
 
+* Transferring human data
+  * Transferring human data has to be done in a secure way in order to avoid breaches of privacy. Encrypting of human data whilst it is being transferred provides successful protection if the data is intercepted by an external party while the transfer is being done. 
+
 ### Solutions
 * The [European Genome-phenome Archive (EGA)](https://ega-archive.org/) is an international service for secure archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical studies and healthcare centres. Human genomic data is considered Sensitive data and is protected by European GDPR, therefore access must be restricted to authorized users. The EGA platform offers secure and European law-compliant data storage, working with GA4GH standards for encryption and storage. At the same time, data is discoverable in the EGA website and shareable with other researchers through authorization and authentication protocols. The right to allow access belongs to the Data providers (and not to the EGA), who are responsible to sign a DAA (Data Access Agreement) with researchers requesting access to their data. The EGA hosts data from all around the world and distributes it where and when the data providers’ law allows.
 * [dbGAP](https://www.ncbi.nlm.nih.gov/gap/) and [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html) are other international data repositories, based in the USA and Japan respectively, that adopt a controlled-access model based on their national regulations. Due to European GDPR specific requirements, it may not be possible to deposit EU subjects’ data to these repositories.  
 * The [GA4GH Beacon](https://beacon-project.io) project is a Global Alliance for Genomics & Health (GA4GH) initiative that enables genomic and clinical data sharing across federated networks. A Beacon is defined as a web-accessible service that can be queried for information about a specific allele with no reference to a specific sample or patient, thereby reducing privacy risks.
 * GA4GH  Data Use Ontology [DUO](https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
-
+* [Crypt4gh](https://crypt4gh.readthedocs.io/en/latest/) is a Python tool to encrypt, decrypt or re-encrypt files, according to the GA4GH encryption file format.

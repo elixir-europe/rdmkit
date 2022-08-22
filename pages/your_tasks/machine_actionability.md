@@ -3,6 +3,19 @@ title: Machine actionability
 contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat Sarntivijai, Nazeefa Fatima, Rafael Andrade Buono, Alex Henderson, Korbinian Bösl, Dominik Martinat, M-Christine Jacquemot-Perbal]
 description: how to make machine-actionable (meta)data.
 page_id: machine actionability
+related_pages: 
+    tool_assembly: []
+dsw:
+- name: List the data formats you will be using for interpretation and describe their
+    structure
+  uuid: a797cab9-0829-4787-a096-1b5cedc9147f
+faircookbook:
+- name: Unique, persistent identifiers
+  url: https://w3id.org/faircookbook/FCB006
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?
@@ -36,13 +49,13 @@ More and more often, funders, data managers/stewards, IT staff and institutions 
 ### Solutions 
 For RDM in Life Sciences, machine-actionable metadata and data should:
 * Be structured data: "data where the structural relation between elements is explicit in the way the data is stored on a computer disk.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/).
-* Be in a format that allows "many types of structure to be represtented.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/). For instance, JSON and XML for text files; certain formats for e.g. images that include structured (meta)data in a structured format.
+* Be in a format that allows "many types of structure to be represented.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/). For instance, JSON and XML for text files; certain formats for e.g. images that include structured (meta)data in a structured format.
   * Common formats such as XML and JSON contribute to [syntactic interoperability](https://en.wikipedia.org/wiki/Interoperability) between machines.
 * Be interpreted by computer systems unambiguously. The meaning (semantic) of the (meta)data should be unique and shared among computer systems.
   * Syntaxes such as JSON-LD and RDF/XML contribute to [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability#Semantic_as_a_function_of_syntactic_interoperability).
 * Not be in PDF format (scanned images of lab books, tables, articles or papers in .pdf)
 * Not be in plain text (.txt) nor Word documents (.docx) formats (e.g. README.txt file).
-* Not be images, audio nor video (.jpg, png, etc).
+* Not be images, audio nor video (.jpeg, png, etc).
 
 
 
@@ -95,7 +108,8 @@ By providing structured metadata and data to a database that follows standards (
 * Applying RDF syntax to the database can make the (meta)data available for knowledge graphs and semantic web applications.
 * If [Application Programming Interface (API)](https://en.wikipedia.org/wiki/API) is available, other software/applications could make complex queries, access the database programmatically and always get up-to-date data.
 * If the metadata of your database or repository is exposed according to specific standards, it could function as data provider or data source, and be harvested and indexed by
-  * Data catalogues or data portals, such as [OmicsDI](https://www.omicsdi.org) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
+  * Data catalogues or data portals, such as [OmicsDI](http://blog.omicsdi.org/post/omicsdi-spec/) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
+  * The [OpenAIRE aggregator](https://www.openaire.eu/aggregation-and-content-provision-workflows) that collects metadata records via OAI-PMH in the majority of cases.
   * Other instances of your data repository software, such as [Dataverse](https://guides.dataverse.org/en/latest/admin/dashboard.html#harvesting) and [EUDAT B2FIND](http://b2find.eudat.eu/guidelines/harvesting.html), which use OAI-PMH for metadata harvest.
   * Search engines such as [Google Dataset Search](https://datasetsearch.research.google.com/help), which relies on [sitemaps.org](https://www.sitemaps.org), [schema.org](https://schema.org), [DCAT](https://www.w3.org/TR/vocab-dcat/) and other approaches to datasets discovery.
 * Machine actionable metadata facilitates the automatization of data handling and validation, allowing for easier development of new tools and analysis strategies (e.g. data visualization tools, machine learning and artificial intelligence applications).
@@ -112,6 +126,92 @@ By providing structured metadata and data to a database that follows standards (
 * Proof that their fundings produced knowledge that is findable and reusable.
 * Transparency.
 * Straightforward collection and indexing of research output in registries for easier impact assessment and report.
+
+
+## What makes a file machine-actionable?
+
+### Description
+
+Due to the complexity of the topic and the lack of a unified definition, it is often difficult to identify the characteristics that make information contained in a digital object machine-actionable. Moreover, it is important not only to make a digital file machine-actionable, but also interoperable between different machines, so that different systems can exchange information.
+
+The theoretically most machine-actionable format is in practice not achieved or established yet, however we try to list here some of the currently accepted best-practices that should be considered when making a file machine-actionable and interoperable, in Life Sciences research.
+
+### Considerations
+
+For machine-actionability and interoperability, you should consider:
+1. File formats that are data exchange formats (e.g. JSON, XML).
+2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. ISA model, OME data model). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
+3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. MIAPPE, ENA Samples checklists), that capture reporting best practice in the field.
+4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. EFO, OBI).
+
+#### File format
+
+* Information contained in a digital object is only as accessible as the [file format](https://opendatahandbook.org/glossary/en/terms/file-format/) it is saved in. A file format is the way that information is encoded for storage in a computer file. This is often indicated by the file extension, e.g. .csv for a CSV file. Different file formats are preferred for different purposes. For instance:
+  * PDF is tailored to store and display text and graphics to humans, according to specific layouts, but it is not suitable for exchanging information between machines.
+  * CSV is appropriate to exchange plain text information in a tabular format, but its flat nature makes a challenge to describe more complex relationships between information. 
+  * XML and JSON formats are widely used for data exchange between systems (such as softwares, platforms or hardwares) and on the web. Both are easy to read and interpreted by machines, but not very human-readable.
+
+* Exchange file formats using key-value pairs, such as .xml and .json, can wrap or encode the information to be sent or exchanged in a hierarchical (tree) data model. 
+  * XML is a markup language. It is based on “elements” enclosed by pairs of “tags” and “attributes” ```(<tag>element<tag>)```. It is self-explanatory because it contains metadata about the format and “tags” are chosen by the creator of the .xml file. For instance, ```<name>Jaguar<name>```.
+  * JSON format can be easily read in any programming language. It is based on key-value pairs separated by colons ( ```{key:value}``` ). For instance, ```{ name: “Jaguar” }```.
+
+* File formats (or file extensions) for expressing data in triplets (e.g. “Jaguar” → “is in” → “Jungle”) in the Resource Description Framework (RDF) data model are .rdf for RDF/XML, .jsonld for JSON-LD, .nt for N-Triples and .ttl for Turtle syntax.
+
+#### (Meta)Data schema
+* A (meta)data schema describes the relations, such as hierarchy, among the elements or pieces of information that constitute the (meta)data model or structure.
+* The relationship between pieces of information in a (meta)data schema can be implicit, following an agreed order (such as the order of columns in a table), or explicitly expressed by additional information in the file. To allow more universal interpretability, explicit additional information on the relationship between the pieces of information is highly advantageous.
+* Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model in a more implicit way (e.g. ISA-TAB,  MAGE-TAB).
+* Some data repositories develop customised (meta)data schemas.
+* Different metadata schemas are preferred for different purposes. For instance, 
+  * [Schema.org](https://schema.org) and [Bioschemas.org](https://bioschemas.org/index.html) markup are mostly used to describe web resources and make them findable by Web search engines. 
+  * [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-2/) is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
+  * [Investigation-Study-Assay (ISA) model](https://isa-tools.org/isa-api/content/isamodel.html#) was originally designed for describing multi-omics experiments in Life Sciences.
+  * The [OME Data Model](https://docs.openmicroscopy.org/ome-model/latest/) is a specification for storing and exchanging data on biological imaging.
+
+* The [W3C](https://www.w3.org/) consortium has formalised a universal abstract data model to potentially establish relationships among any resource available on the web (people, places, web pages, events, abstract concepts, etc) called [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf-concepts/#section-Introduction). This universal abstract data model allows us to describe relationships between multiple resources encoded in different formats, following different standards and stored in different locations/servers on the internet. 
+
+  [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values etc.
+
+* RDF concept can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as Schema.org or Bioschemas.org (for Life Sciences), Data Catalog Vocabulary (DCAT), Dublin Core, etc.
+  
+  Any metadata schemas and [vocabularies/ontologies](https://www.w3.org/standards/semanticweb/ontology) describing web resources can be expressed according to standards, such as the [Web Ontology Language (OWL)](https://www.w3.org/TR/owl-ref/), the [RDF Schema (RDFS)](https://www.w3.org/TR/rdf-schema/) or the [Simple Knowledge Organisation System (SKOS)](http://www.w3.org/standards/techs/skos#w3c_all) to provide more expressive definition and inferences/relationships between terms or pieces of information.
+
+#### Metadata checklist
+* Here, we define metadata checklists as content in the form of a fixed set of attributes or fields, without any particular order nor structure. Compliance to metadata checklists is not related to the format nor the structure, but rather to the content provided.
+* Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. MIAPPE). 
+* Some data repositories have customised metadata checklists (e.g. ENA Samples checklists).
+* Attributes in a metadata checklist can be ontology terms.
+* For more information see the [Data documentation and metadata](metadata_management) page.
+
+#### Vocabulary or ontology
+Vocabularies and ontologies are meant for describing concepts and relationships within a knowledge domain. For more information see the [Data documentation and metadata](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies) page.
+
+
+### Solutions
+
+* (Meta)Data in data exchange formats (XML, JSON, CSV, etc) that follows a standard metadata schema can be considered machine-actionable and syntactically interoperable. Ontologies that uniquely identify terms can be included for semantic interoperability.
+* RDF syntaxes, such as RDF/XML and JSON-LD, support syntactic and semantic interoperability among machines. In other words, these formats convey the structure of the data being presented and the link to the necessary information to interpret its content, e.g. ontologies. Ontology or vocabulary is a way of expressing semantics/meaning of (meta)data. 
+
+  Example of machine-interpretable metadata for the word “Jaguar” in JSON-LD format, which allows to clarify the intended meaning of the word "Jaguar" (the animal) and distinguishes it from other possible meanings such as car or computer:
+  ```
+  { 
+  "@context": "http://bioschemas.org", → "hey browser, I am using these definitions"
+  "@type": "Taxon",
+  "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9690" , 
+  "taxonRank": "species",
+  "name": "Panthera onca",
+  "alternateName": "Jaguar"
+  }
+  ```
+* Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rd-alliance.github.io/metadata-directory/subjects/life-sciences.html) or among standards in [Fairsharing.org](https://fairsharing.org/standards/).
+* Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
+  * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
+  * [MAGE-TAB](https://www.ebi.ac.uk/arrayexpress/help/magetab_spec.html) (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
+  * [OME data model](https://docs.openmicroscopy.org/ome-model/latest/) (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included.
+* For more information about metadata schemas and ontologies, see [Documentation and Metadata](metadata_management) page.
+
+
+
 
 
 

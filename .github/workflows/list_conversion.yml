@@ -1,4 +1,4 @@
-name: Converting to yaml + registry lookup
+name: Converting to yaml + registry lookup + countrylist update
 
 on:
   schedule:
@@ -11,7 +11,8 @@ jobs:
       matrix:
         python-version: [3.8]
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
@@ -21,8 +22,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml requests python-frontmatter
       - name: Run tool table 2 yaml
-        run: |
+        run: | 
           python var/conversions.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+      - name: Fetch country names with corresponding iso
+        run: |
+          python var/country_list.py
+      - name: Update markdown pages with DSW links
+        run: |
+          python var/dsw_integration.py
+      - name: Get faircookbook-rdmkit repository
+        uses: actions/checkout@v3
+        with:
+          repository: elixir-europe/faircookbook-rdmkit
+          path: faircookbook-rdmkit
+          ref: main
+      - name: Update markdown pages with FAIR Cookbook links
+        run: |
+          python var/faircookbook_integration.py ${GITHUB_WORKSPACE}/faircookbook-rdmkit/faircookbook_rdmkit_mapping.yml
+      - name: Deleting faircookbook-rdmkit repository
+        run: rm -r faircookbook-rdmkit
       - name: Show differences
         run: 'git diff --stat'
       - name: Create Pull Request

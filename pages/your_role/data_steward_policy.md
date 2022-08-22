@@ -1,5 +1,5 @@
 ---
-title: Data steward policy
+title: "Data Steward: policy"
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: policy officer
 related_pages: 
@@ -7,47 +7,38 @@ related_pages:
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org/
-    url: https://tess.elixir-europe.org/
+    url: https://tess.elixir-europe.org/search?q=%22policy%20officer%22#materials
 
   - name: RDNL - Essentials for Data Support
     registry:
-    registry_url:
     url: https://datasupport.researchdata.nl/en/
 
   - name: Mantra - RDM training
     registry:
-    registry_url:
     url: https://mantra.edina.ac.uk/
 
   - name: FAIR guiding principles
     registry:
-    registry_url:
     url: https://www.go-fair.org/fair-principles/
 
   - name: Data Carpentry lessons
-    registry:
-    registry_url:
+    registry: Carpentries
     url: https://datacarpentry.org/lessons/
 
   - name: RDNL & DCC - Delivering RDM Services
     registry:
-    registry_url:
     url: https://www.futurelearn.com/courses/delivering-research-data-management-services
 
   - name: NPOS/ELIXIR data steward competency framework
     registry: Zenodo
-    registry_url: https://zenodo.org
     url: https://zenodo.org/record/3490855#.YArTH-lKi7o
 
   - name: ELIXIR Data Management Network
     registry:
-    registry_url:
     url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators
 
   - name: Science Europe - Practical Guide to the International Alignment of RDM
     registry:
-    registry_url:
     url: https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/
 ---
 

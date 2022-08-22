@@ -5,6 +5,26 @@ description: how to document and describe your data.
 page_id: metadata
 related_pages: 
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
+dsw:
+- name: Will the metadata be available even when the data no longer exists?
+  uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd
+- name: How will you be collecting and keeping your metadata?
+  uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
+faircookbook:
+- name: Introduction to terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB019
+- name: Creating data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
+- name: Selecting terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB020
+- name: Requesting new terms
+  url: https://w3id.org/faircookbook/FCB021
+- name: Ontology-related tools and services
+  url: https://w3id.org/faircookbook/FCB022
 ---
 
 ## How can you document data during the project?
@@ -25,7 +45,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * Both the study- and data-level documentation must be generated as early as possible in the research process and also maintained, in order to be accurate and complete
 
-* Documentation is also required when publishing your data. General-purpose repositories usually require only study-level documentation, while discipline-specific repositories generally require both study-level and data-level documentation. Importantly, repositories often accept data and documentation in a very strict format: they can require a predefined set of attributes or fields (metadata scheme) to be filled, ontology terms to be used, specific data model (e.g., ISA model, MAGE-TAB) to be adopted. We recommend familiarizing yourself with  the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data accordingly as early as possible.
+* Documentation is also required when publishing your data. General-purpose repositories usually require only study-level documentation, while discipline-specific repositories generally require both study-level and data-level documentation. Importantly, repositories often accept data and documentation in a very strict format: they can require a predefined set of attributes or fields (metadata checklists) to be filled, ontology terms to be used, specific (meta)data schemas (e.g., ISA model, MAGE-TAB) to be adopted. We recommend familiarizing yourself with  the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data accordingly as early as possible.
 
 * Make sure the documentation is kept close to the data, so that nobody will be exposed to the data without being able to find the documentation.
  
@@ -43,7 +63,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
     * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
     * [University of Cambridge - Electronic Research Notebook Products.](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products)
 
-* Independently of the tools, you should agree on and establish a [data organisation](https://rdmkit.elixir-europe.org/data_organisation.html) system for files (or tables in a database) together with your team or [Data Management Working Group](https://rdmkit.elixir-europe.org/data_quality.html#how-do-you-ensure-the-quality-of-research-data): 
+* Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data): 
   * Folder structure
   * File naming convention
   * Versioning system
@@ -56,15 +76,15 @@ Due to the large variety of experiments, techniques and collaborative studies th
   * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
-  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine readable formats (such as XML, JSON, CSV, RDF, HTML) are preferred to non-machine-readable ones (.txt, xls, pdf). Also non-proprietary formats are preferred over proprietary ones.
+  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf). Also non-proprietary formats are preferred over proprietary ones.
 
-* Highly structured data documentation is called **metadata**. Generating metadata in **machine-readable format** makes your data more FAIR . Metadata provides structured and searchable information so that a user can find existing data, evaluate its reusability and cite it.
+* Highly structured data documentation is called **metadata**. Generating metadata in machine-readable or -actionable format makes your data more FAIR . Metadata provides structured and searchable information so that a user can find existing data, evaluate its reusability and cite it.
 
-* It is good practice to use international standard metadata schemes to describe your data. A metadata schema is a fixed set of attributes (elements or fields) about the data that needs to be provided. Some attributes are mandatory, some are only recommended or optional. International standard metadata schemes are developed by and accepted as standards by communities. There are many standard metadata schemes, some generic, while others discipline-specific. See the paragraph about [how to find standard metadata schemes.](https://rdmkit.elixir-europe.org/metadata_management.html#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
+* It is good practice to use international standard metadata schemas to organise and store your (meta)data in a structured way. A metadata schema describes the relations, such as hierarchy, of the elements that belong to the structure. It is also good practice to use international standard metadata checklists to describe the content your (meta)data. A (meta)data checklist is a fixed set of attributes about the data that needs to be provided. Some attributes are mandatory, some are only recommended or optional. International standard metadata schemas and checklists are developed by and accepted as standards by communities. There are many standard metadata schemas and checklists, some generic, while others discipline-specific. See the paragraph about [how to find standard metadata.](metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
 
-* You can use the attributes of a metadata scheme in a format that is not machine readable (e.g., by copying the metadata fields in a README.txt file or in a Codebook.xls). However, using standard metadata schemes in a machine-readable format will increase the findability of your data.
+* You can use the attributes of metadata schemas and checklists in a format that is not machine-readable or -actionable (e.g., by copying the metadata fields in a README.txt file or in a Codebook.xls). However, using standard metadata in a machine-readable or -actionable format will increase the findability of your data.
 
-* Metadata schemes usually rely on ontologies and controlled vocabularies, which make your data more reusable and interoperable. See the paragraph about [how to find ontologies and controlled vocabularies.](https://rdmkit.elixir-europe.org/metadata_management.html#how-do-you-find-appropriate-vocabularies-or-ontologies)
+* Metadata schemas and checklists usually rely on ontologies and controlled vocabularies, which make your data more reusable and interoperable. See the paragraph about [how to find ontologies and controlled vocabularies.](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
 
 * We recommend familiarizing yourself with the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data according to their requirements as early as possible.
 
@@ -113,7 +133,7 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
 * Understand your goal with sharing data. Which formal requirements (by e.g. by funder or publisher) need to be fulfilled? Which parts of your data would benefit the most from adopting ontologies?
 * Learn the basics about ontologies. This will be helpful when you search for terms in ontologies and want to understand how terms are related to one another.
 * Accept that one ontology may not be sufficient to describe your data. It is very common that you have to combine terms from more than one ontology.
-* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Chosing the best available term is often better than not chosing a term at all. Note that the same concept may also be present in multiple ontologies.
+* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Choosing the best available term is often better than not choosing a term at all. Note that the same concept may also be present in multiple ontologies.
 
 
 ### Solutions

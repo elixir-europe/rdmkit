@@ -1,7 +1,6 @@
 ---
 title: All training resources
 datatable: true
-toc: false
 ---
 
 Overview of all training resources mentioned in RDMkit pages. This overview is automatically generated.
@@ -9,4 +8,4 @@ Overview of all training resources mentioned in RDMkit pages. This overview is a
 It is recommended to add your training materials and events into the ELIXIR training registry [TeSS](https://tess.elixir-europe.org/).
 
 
-{% include traininglist.html %}
+{% include training-table-all.html %}

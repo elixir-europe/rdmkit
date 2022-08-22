@@ -4,7 +4,6 @@ contributors: [Wei Gu, Soumyabrata Ghosh, Muhammad Shoaib, Irina Balaur, Xinhui 
 description: TransMed from ELIXIR Luxembourg supports projects in Translational Biomedicine for clinical and translational projects.
 page_id: transmed
 affiliations: [ELIXIR Europe, LU]
-audience: [ALL]
 related_pages: 
   your_tasks: [compliance, storage, metadata, data organisation, data analysis, sensitive, data protection, DMP]
   your_domain: [human data]

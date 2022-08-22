@@ -7,8 +7,7 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
-    url: https://tess.elixir-europe.org/search?q=data%20management%20planning
+    url: https://tess.elixir-europe.org/search?q=%22data+management+planning%22#materials
 ---
 
 ## What is Data Management Planning?
