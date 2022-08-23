@@ -2,7 +2,7 @@
 title: Galaxy
 contributors: [Amandine Nunes-Jorge, Beatriz Serrano-Solano]
 description: Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational research.
-page_id: Galaxy
+page_id: galaxy
 affiliations: [ELIXIR Europe, "European Union"]
 related_pages: 
   your_tasks: [data analysis, data organisation, data publication, data quality, data transfer, existing data, identifiers, machine actionability, metadata]
@@ -44,9 +44,12 @@ Galaxy can be used at different stages of the data life cycle, covering from the
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
   <div class="col">
     <div class="card border-2 h-100" style="border-color: #fac54b!important">
+    <div style="background-color:#fac54b;">
+        <img src="{{ '/images/life_cycle_icons/noun-flask.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="collect">
+        <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Collect</h3>
+      </div>
       <div class="card-body">
-        <h3 class="card-title text-center mb-4">Collect</h3>
-        <h4>Access to databases</h4>
+        <h4 class="mt-0">Access to databases</h4>
         <ul class="lh-sm">
           <li><a href="https://www.uniprot.org/">UniProt</a></li>
           <li><a href="http://intermine.org/">InterMine</a></li>
@@ -76,9 +79,12 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   </div>
   <div class="col">
     <div class="card border-2 h-100" style="border-color: #8aba56!important">
+      <div style="background-color:#8aba56;">
+        <img src="{{ '/images/life_cycle_icons/noun-computer.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="process">
+        <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Process</h3>
+      </div>
       <div class="card-body">
-        <h3 class="card-title text-center mb-4">Process</h3>
-        <h4>Data transformation</h4>
+        <h4 class="mt-0">Data transformation</h4>
         <ul class="lh-sm">
           <li>Data transformation tools</li>
           <li>Quality control</li>
@@ -103,9 +109,12 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   </div>
   <div class="col">
     <div class="card border-2 h-100" style="border-color: #32b890!important">
+      <div style="background-color:#32b890;">
+        <img src="{{ '/images/life_cycle_icons/noun-bar-chart.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="analyse">
+        <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Analyse</h3>
+      </div>
       <div class="card-body">
-        <h3 class="card-title text-center mb-4">Analyse</h3>
-        <h4>2,900 domain-specific tools</h4>
+        <h4 class="mt-0">2,900 domain-specific tools</h4>
         <ul class="lh-sm">
           <li><a href="https://cancer.usegalaxy.eu/">Cancer research</a></li>
           <li><a href="https://climate.usegalaxy.eu/">Climate science</a></li>
@@ -126,9 +135,12 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   </div>
   <div class="col">
     <div class="card border-2 h-100" style="border-color: #4176a5!important">
+      <div style="background-color:#4176a5;">
+        <img src="{{ '/images/life_cycle_icons/noun-database.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="preserve">
+        <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Preserve</h3>
+      </div>
       <div class="card-body">
-        <h3 class="card-title text-center mb-4">Preserve</h3>
-        <h4>Export artefacts</h4>
+        <h4 class="mt-0">Export artefacts</h4>
         <ul class="lh-sm">
           <li>Workflows</li>
           <li>History</li>
@@ -156,9 +168,12 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   </div>
   <div class="col">
     <div class="card border-2 h-100" style="border-color: #9e51ad!important">
+      <div style="background-color:#9e51ad;">
+        <img src="{{ '/images/life_cycle_icons/noun-share.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="share">
+        <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Share</h3>
+      </div>
       <div class="card-body">
-        <h3 class="card-title text-center mb-4">Share</h3>
-        <h4>Share artefacts</h4>
+        <h4 class="mt-0">Share artefacts</h4>
         <ul class="lh-sm">
           <li>Datasets</li>
           <li>Histories</li>
@@ -181,9 +196,12 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   </div>
   <div class="col">
     <div class="card border-2 h-100" style="border-color: #fa484b!important">
+      <div style="background-color:#fa484b;">
+        <img src="{{ '/images/life_cycle_icons/noun-reuse.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="reuse">
+        <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Reuse</h3>
+      </div>
       <div class="card-body">
-        <h3 class="card-title text-center mb-4">Reuse</h3>
-        <h4>Account cleaning</h4>
+        <h4 class="mt-0">Account cleaning</h4>
         <ul class="lh-sm">
           <li>Storage dashboard to manage quota</li>
           <li>Bulk (permanent) delete</li>
