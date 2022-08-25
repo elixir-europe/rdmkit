@@ -223,6 +223,7 @@
   name: Bioconda
   registry:
     biotools: bioconda
+    tess: Bioconda
   related_pages:
   - IT support
   - data analysis
@@ -351,8 +352,6 @@
 - description: 'Specification for a standard API for plant data: plant material, plant
     phenotyping data'
   name: BrAPI
-  registry:
-    tess: BrAPI
   related_pages:
   - IT support
   - plants
@@ -973,6 +972,8 @@
 - description: The program submits experimental data and respective metadata to the
     European Nucleotide Archive (ENA).
   name: ENA upload tool
+  registry:
+    tess: ENA upload tool
   related_pages:
   - IT support
   - data manager
