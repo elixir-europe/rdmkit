@@ -57,9 +57,9 @@ def tess_available(query):
     def fetch_output(query):
         return client(
             f'https://tess.elixir-europe.org/materials.json_api?q="{query}"&page_number=1&page_size=30')
-    if len(fetch_output(query)) > 0:
+    if len(fetch_output(query)['data']) > 0:
         return query
-    if acronym and len(fetch_output(acronym['fullname'])) > 0:
+    if acronym and len(fetch_output(acronym['fullname'])['data']) > 0:
         return acronym['fullname']
 
 
