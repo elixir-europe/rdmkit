@@ -137,7 +137,7 @@
   type: infrastructure
   url: https://nels.bioinfo.no/
 - name: European Union
-  image_url: /images/funders/Flag_of_Europe.svg
+  image_url: /images/funders/European_Commission.svg
   pid: http://dx.doi.org/10.13039/501100000780
   expose: false
   type: funder
