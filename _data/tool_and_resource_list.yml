@@ -1262,6 +1262,7 @@
   - researcher
   - IT support
   - IFB
+  - galaxy
   url: https://galaxyproject.org/
 - description: A database of genetic sequence information. GenBank may also refer
     to the data format used for storing information around genetic sequence data.
