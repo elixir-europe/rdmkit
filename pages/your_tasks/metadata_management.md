@@ -6,10 +6,10 @@ page_id: metadata
 related_pages: 
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
 dsw:
-- name: How will you be collecting and keeping your metadata?
-  uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
 - name: Will the metadata be available even when the data no longer exists?
   uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd
+- name: How will you be collecting and keeping your metadata?
+  uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
 faircookbook:
 - name: Introduction to terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB019
