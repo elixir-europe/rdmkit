@@ -45,7 +45,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   <div class="col">
     <div class="card border-3 h-100" style="border-color: #fac54b!important">
     <div style="background-color:#fac54b;">
-        <img src="{{ '/images/life_cycle_icons/collect-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="collect">
+        <img src="{{ '/images/life_cycle_icons/collect-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="collect">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Collect</h3>
       </div>
       <div class="card-body">
@@ -80,7 +80,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   <div class="col">
     <div class="card border-3 h-100" style="border-color: #8aba56!important">
       <div style="background-color:#8aba56;">
-        <img src="{{ '/images/life_cycle_icons/process-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="process">
+        <img src="{{ '/images/life_cycle_icons/process-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="process">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Process</h3>
       </div>
       <div class="card-body">
@@ -110,7 +110,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   <div class="col">
     <div class="card border-3 h-100" style="border-color: #32b890!important">
       <div style="background-color:#32b890;">
-        <img src="{{ '/images/life_cycle_icons/analyse-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="analyse">
+        <img src="{{ '/images/life_cycle_icons/analyse-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="analyse">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Analyse</h3>
       </div>
       <div class="card-body">
@@ -136,7 +136,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   <div class="col">
     <div class="card border-3 h-100" style="border-color: #4176a5!important">
       <div style="background-color:#4176a5;">
-        <img src="{{ '/images/life_cycle_icons/preserve-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="preserve">
+        <img src="{{ '/images/life_cycle_icons/preserve-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="preserve">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Preserve</h3>
       </div>
       <div class="card-body">
@@ -169,7 +169,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   <div class="col">
     <div class="card border-3 h-100" style="border-color: #9e51ad!important">
       <div style="background-color:#9e51ad;">
-        <img src="{{ '/images/life_cycle_icons/share-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="share">
+        <img src="{{ '/images/life_cycle_icons/share-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="share">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Share</h3>
       </div>
       <div class="card-body">
@@ -197,7 +197,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
   <div class="col">
     <div class="card border-3 h-100" style="border-color: #fa484b!important">
       <div style="background-color:#fa484b;">
-        <img src="{{ '/images/life_cycle_icons/reuse-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 6em;" alt="reuse">
+        <img src="{{ '/images/life_cycle_icons/reuse-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="reuse">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Reuse</h3>
       </div>
       <div class="card-body">
