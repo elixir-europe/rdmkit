@@ -2,7 +2,7 @@
 title: Your role
 ---
 
-<img class="section-image ms-4 mb-4" src="{{ '/assets/img/role.svg' | relative_url }}" alt="section logo" >
+<img class="section-image ms-4 mb-4" src="{{ '/assets/img/section-icons/address-card-light.svg' | relative_url }}" alt="section logo" >
 
 In this section, information is organised based on the different roles a professional can have in research data management. You will find:
 - A description of the main tasks usually handled by each role.

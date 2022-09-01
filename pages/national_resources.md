@@ -2,7 +2,7 @@
 title: National resources
 ---
 
-<img class="section-image ms-4 mb-4" src="{{ '/assets/img/flag.svg' | relative_url }}" alt="section logo" >
+<img class="section-image ms-4 mb-4" src="{{ '/assets/img/section-icons/flag-light.svg' | relative_url }}" alt="section logo" >
 
 To carry out RDM tasks FAIRly and effectively, it is important to consider not only common global solutions but also existing, national solutions, that are often dependent on institute- and country-specific policies, funders, and infrastructures.
 

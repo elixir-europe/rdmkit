@@ -2,7 +2,7 @@
 title: Your domain
 ---
 
-<img class="section-image ms-4 mb-4" src="{{ '/assets/img/domain.svg' | relative_url }}" alt="section logo" >
+<img class="section-image ms-4 mb-4" src="{{ '/assets/img/section-icons/dna-light.svg' | relative_url }}" alt="section logo" >
 
 In this section, information is organised based on different domains in life sciences with different approaches on how they manage their data. You will find:
 - Domain-specific best practices and guidelines for data management.
