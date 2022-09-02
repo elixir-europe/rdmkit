@@ -2,8 +2,6 @@
 title: Data life cycle
 ---
 
-<img class="section-image ms-4 mb-4" src="{{ '/assets/img/section-icons/cycle_alt.svg' | relative_url }}" alt="section logo" >
-
 
 In this section, information is organised according to the stages of the research data life cycle. You will find:
 - A general description and introduction of each  stage.

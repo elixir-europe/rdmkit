@@ -6,7 +6,7 @@ subitems:
     url: /data_life_cycle
     subitems:
       - RDM: True
-    image_url: /assets/img/section-icons/cycle_alt.svg
+    image_url: /assets/img/section-icons/arrows-spin-light.svg
   - title: Your role
     description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
     url: /your_role
@@ -21,7 +21,7 @@ subitems:
       - title: "Data Steward: infrastructure"
         url: /data_steward_infrastructure
   - title: Your domain
-    description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.
+    description: Learn about data management tasks that affect your domain or research community, and the solutions adopted to address them.
     url: /your_domain
     image_url: /assets/img/section-icons/dna-light.svg
     subitems:
@@ -48,7 +48,7 @@ subitems:
       - title: Structural bioinformatics
         url: /structural_bioinformatics
   - title: Your tasks
-    description: Find guidelines and solutions for tackling common data management problems.
+    description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks
     image_url: /assets/img/section-icons/list-check-light.svg
     subitems:

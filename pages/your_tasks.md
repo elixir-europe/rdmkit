@@ -2,8 +2,6 @@
 title: Your tasks
 ---
 
-<img class="section-image ms-4 mb-4" src="{{ '/assets/img/section-icons/list-check-light.svg' | relative_url }}" alt="section logo" >
-
 In this section, information is organised around regular research data management tasks or challenges. You will find:
 - Best practices and guidelines for each data management task.
 - A list of all the considerations to be taken into account when performing a specific data management task.
