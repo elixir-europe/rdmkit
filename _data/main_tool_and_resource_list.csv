@@ -54,7 +54,7 @@ CATH,http://www.cathdb.info/,A hierarchical domain classification of protein str
 CEDAR,https://metadatacenter.org,"CEDAR is making data submission smarter and faster, so that scientific researchers and analysts can create and use better metadata.",,"metadata, machine actionability, researcher, data manager"
 CellRepo,https://cellrepo.herokuapp.com/,A version management tool for modifying strains,,micro biotech
 Cellular Microscopy Phenotype Ontology (CMPO),https://www.ebi.ac.uk/cmpo/,An ontology for expressing cellular (or multi-cellular) terms with applications in microscopy,,micro biotech
-CERNBox,https://information-technology.web.cern.ch/services/cernbox-service,"CERNBox cloud data storage, sharing and synchronization",,storage
+CERNBox,https://cernbox.web.cern.ch/cernbox/,"CERNBox cloud data storage, sharing and synchronization",,storage
 ChEBI,https://www.ebi.ac.uk/chebi/,Dictionary of molecular entities focused on 'small' chemical compounds,fairsharing:62qk8w,micro biotech
 ChEMBL,https://www.ebi.ac.uk/chembl/,"Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.","biotools:chembl, fairsharing:m3jtpg","data analysis, researcher, toxicology data"
 ChIPSummitDB,http://summit.med.unideb.hu/summitdb/,ChIPSummitDB is a database of transcription factor binding sites and the distances of the binding sites relative to the peak summits.,biotools:chipsummitdb,human data
@@ -177,7 +177,6 @@ iRODS,https://irods.org/,Integrated Rule-Oriented Data System (iRODS) is open so
 ISA-tools,https://isa-tools.org/,"Open source framework and tools helping to manage a diverse set of life science, environmental and biomedical experiments using the Investigation Study Assay (ISA) standard",fairsharing:53gp75,"IT support, data manager, micro biotech, machine actionability"
 ISA4J,https://doi.org/10.12688/f1000research.27188.1,Open source software library that can be used to generate a ISA-TAB export from in-house data sets. These comprises e.g. local database or local file system based experimental.,biotools:isa4j,"plants, machine actionability"
 ISO/IEC 27001,https://en.wikipedia.org/wiki/ISO/IEC_27001,International information security standard,,"data protection, policy officer, human data"
-ITER,https://www.tera.org/iter/,"The International Toxicity Estimates for Risk (ITER) is a free online resource of human health risk values and cancer classifications for over 680 chemicals of environmental concern. ITER shows tabular risk data from several sources in a tabular format for easy comparison, a synopsis explaining discrepancies in data, and a link to each organization for further details.",,toxicology data
 IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN),https://www.qmul.ac.uk/sbcs/iupac/jcbn/,A collaborative resource from IUPAC and IUBMB for naming standards in biochemistry,,micro biotech
 JBEI-ICE,https://ice.jbei.org,A registry platform for biological parts,,micro biotech
 Jupyter,https://jupyter.org,"Jupyter notebooks allow to share code, documentation",,"IT support, data analysis"
@@ -198,7 +197,7 @@ MIADE,https://www.psidev.info/intrinsically-disordered-proteins-workgroup,Minimu
 MIAPPE,https://www.miappe.org/,Minimum Information About a Plant Phenotyping Experiment,fairsharing:nd9ce9,"metadata, researcher, data manager, plants, plant geno assembly"
 Microsoft Azure,https://azure.microsoft.com/en-gb/,Cloud storage and file sharing service from Microsoft,,"storage, IT support, transfer"
 Microsoft OneDrive,https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage,Cloud storage and file sharing service from Microsoft,,"storage, IT support"
-MIGS/MIMS,https://gensc.org/mixs/,Minimum Information about a (Meta)Genome Sequence,fairsharing:va1hck,"metadata, researcher, data manager, marine, micro biotech"
+MIGS/MIMS,https://genomicsstandardsconsortium.github.io/mixs/,Minimum Information about a (Meta)Genome Sequence,fairsharing:va1hck,"metadata, researcher, data manager, marine, micro biotech"
 MINT,https://mint.bio.uniroma2.it/,"MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators",fairsharing:2bdvmk,
 MIxS,https://gensc.org/mixs/,Minimum Information about any (x) Sequence,fairsharing:9aa0zp,"metadata, researcher, data manager, marine, plant geno assembly"
 MobiDB,https://mobidb.org/,A database of protein disorder and mobility annotations,biotools:mobidb,"IDP, researcher"
@@ -250,7 +249,6 @@ PIA - Protein Inference Algorithms,https://github.com/mpc-bioinformatics/pia,PIA
 PLAZA,https://bioinformatics.psb.ugent.be/plaza/,"Access point for plant comparative genomics, centralizing genomic data produced by different genome sequencing initiatives.",fairsharing:wBOua0,"plants, plant geno assembly, researcher"
 PMut,http://mmb.irbbarcelona.org/PMut,Platform for the study of the impact of pathological mutations in protein stuctures.,biotools:pmut,"data analysis, human data"
 PRIDE,https://www.ebi.ac.uk/pride/,PRoteomics IDEntifications (PRIDE) Archive database,fairsharing:e1byny,proteomics
-Privacy Impact Assessment Tool,https://privaon.com/services/privacy-impact-assessment-tool/,"Privacy Impact Assessment Tool is a software, that allows you to carry out Privacy Impact Assessment (PIA) independently.",,"data protection, policy officer, human data"
 ProteomeXchange,http://www.proteomexchange.org/,ProteomeXchange provides globally coordinated standard data submission and dissemination pipelines,fairsharing:92dt9d,proteomics
 Proteomics Standards Initiative,https://www.psidev.info/,"The HUPO Proteomics Standards Initiative defines community standards for data representation in proteomics and interactomics to facilitate data comparison, exchange and verification.",,proteomics
 protocols.io,https://www.protocols.io,A secure platform for developing and sharing reproducible methods.,,micro biotech
@@ -267,7 +265,7 @@ REMS,https://github.com/CSCfi/rems,"REMS (Resource Entitlement Management System
 Renamer4Mac,https://renamer.com/,File renaming software for Mac,,"data organisation, data manager, researcher"
 Repository Finder,https://repositoryfinder.datacite.org,Repository Finder can help you find an appropriate repository to deposit your research data. The tool is hosted by DataCite and queries the re3data registry of research data repositories.,,"data publication, researcher, data manager"
 Research Data Management Organiser,https://rdmorganiser.github.io/en,"Supports the systematic planning, organisation and implementation of research data management throughout the course of a project",,"DMP, researcher, data manager, IT support"
-Research Data Management Platform (RDMP),https://www.dundee.ac.uk/hic/researchdatamanagementplatform/,"Data management platform for automated loading, storage, linkage and provision of data sets",biotools:rdmp,"storage, IT support"
+Research Data Management Platform (RDMP),https://www.dundee.ac.uk/hic/data-team/researchdatamanagementplatform/,"Data management platform for automated loading, storage, linkage and provision of data sets",biotools:rdmp,"storage, IT support"
 Research Management Plan,https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan,Machine actionable DMPs.,,"DMP, researcher, data manager"
 Research Object Crate (RO-Crate),https://w3id.org/ro/crate,"RO-Crate is a lightweight approach to packaging research data with their metadata, using schema.org. An RO-Crate is a structured archive of all the items that contributed to the research outcome, including their identifiers, provenance, relations and annotations.",fairsharing:wUoZKE,"metadata, storage, data organisation, data manager, researcher, micro biotech, machine actionability"
 Reva,https://reva.link/,Reva connects cloud storages and application providers,,"data analysis, transfer"
@@ -284,7 +282,7 @@ Schemapedia,https://schemapedia.com,Web portal for finding ontologies,,"metadata
 ScienceMesh,https://sciencemesh.io/,ScienceMesh - frictionless scientific collaboration and access to research services,,"storage, data analysis, transfer"
 Scientific Data's Recommended Repositories,https://www.nature.com/sdata/policies/repositories,"List of respositories recommended by Scientific Data, contains both discipline-specific and general repositories.",,"data publication, researcher, data manager, IT support"
 SeaFile,https://www.seafile.com/,SeaFile File Synchronization and Share Solution,,"storage, transfer"
-semares,www.genevention.com/products,"All-in-one platform for life science data management, semantic data integration, data analysis and visualization",,"researcher, data manager, metadata, data analysis, IT support, storage"
+semares,https://www.genevention.com/products,"All-in-one platform for life science data management, semantic data integration, data analysis and visualization",,"researcher, data manager, metadata, data analysis, IT support, storage"
 ShortBOL,http://shortbol.org,A scripting language for creating Synthetic Biology Open Language (SBOL) in a more abstract way.,,micro biotech
 SIFTS,https://www.ebi.ac.uk/pdbe/docs/sifts/,"Structure integration with function, taxonomy and sequence",,"researcher, IDP"
 Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).",fairsharing:5vtYGG,

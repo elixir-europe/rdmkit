@@ -14,7 +14,7 @@ training:
 
 ## Introduction
 
-The marine metagenomics domain is characterized by large datasets that require access to substantial [storage](storage) and High-Performance Computing (HPC) for running complex and memory-intensive [analysis](analysing) pipelines, and therefore are difficult to handle for typical end-users and beyond the resources of many service providers. With respect to [sharing](sharing) metagenomics datasets in compliance with the FAIR principles, so that they can be [reused](reuse), it hinges entirely on recording rich metadata about all the steps from sampling to data analysis.
+The marine metagenomics domain is characterized by large datasets that require access to substantial [storage](storage) and High-Performance Computing (HPC) for running complex and memory-intensive [analysis](analysing) pipelines, and therefore are difficult to handle for typical end-users and beyond the resources of many service providers. With respect to [sharing](sharing) metagenomics datasets in compliance with the FAIR principles, so that they can be [reused](reusing), it hinges entirely on recording rich metadata about all the steps from sampling to data analysis.
 
 ## Managing marine metagenomic metadata
  
