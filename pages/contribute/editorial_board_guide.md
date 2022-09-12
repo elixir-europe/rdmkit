@@ -108,12 +108,14 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
-1. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
+1. Describe shortly which changes you made in the description of your commit below the page. Commit to a new branch branch and click `Commit new file`.
      {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
+
+1. Wait till another editor approves your changes. After approval, the branch can be merged and changes will be applied.
 
 1. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
 
-{% include callout.html type="note" content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
+{% include callout.html type="note" content="Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors." %}
 
 ### Advanced: working on your own feature branch and pushing local changes
 
