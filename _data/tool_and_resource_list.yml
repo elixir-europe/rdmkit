@@ -253,7 +253,7 @@
   name: BioModels
   registry:
     biotools: biomodels
-    fairsharing: paz6mh
+    fairsharing: 1sgm8q
     tess: BioModels
   related_pages:
   - micro biotech
@@ -478,7 +478,7 @@
   name: CERNBox
   related_pages:
   - storage
-  url: https://information-technology.web.cern.ch/services/cernbox-service
+  url: https://cernbox.web.cern.ch/cernbox/
 - description: Dictionary of molecular entities focused on 'small' chemical compounds
   name: ChEBI
   registry:
@@ -1586,17 +1586,6 @@
   - policy officer
   - human data
   url: https://en.wikipedia.org/wiki/ISO/IEC_27001
-- description: The International Toxicity Estimates for Risk (ITER) is a free online
-    resource of human health risk values and cancer classifications for over 680 chemicals
-    of environmental concern. ITER shows tabular risk data from several sources in
-    a tabular format for easy comparison, a synopsis explaining discrepancies in data,
-    and a link to each organization for further details.
-  name: ITER
-  registry:
-    tess: ITER
-  related_pages:
-  - toxicology data
-  url: https://www.tera.org/iter/
 - description: A collaborative resource from IUPAC and IUBMB for naming standards
     in biochemistry
   name: IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN)
@@ -1767,7 +1756,7 @@
   - data manager
   - marine
   - micro biotech
-  url: https://gensc.org/mixs/
+  url: https://genomicsstandardsconsortium.github.io/mixs/
 - description: MINT, the Molecular INTeraction database, focuses on experimentally
     verified protein-protein interactions mined from the scientific literature by
     expert curators
@@ -2217,14 +2206,6 @@
   related_pages:
   - proteomics
   url: https://www.ebi.ac.uk/pride/
-- description: Privacy Impact Assessment Tool is a software, that allows you to carry
-    out Privacy Impact Assessment (PIA) independently.
-  name: Privacy Impact Assessment Tool
-  related_pages:
-  - data protection
-  - policy officer
-  - human data
-  url: https://privaon.com/services/privacy-impact-assessment-tool/
 - description: ProteomeXchange provides globally coordinated standard data submission
     and dissemination pipelines
   name: ProteomeXchange
@@ -2366,7 +2347,7 @@
   related_pages:
   - storage
   - IT support
-  url: https://www.dundee.ac.uk/hic/researchdatamanagementplatform/
+  url: https://www.dundee.ac.uk/hic/data-team/researchdatamanagementplatform/
 - description: Machine actionable DMPs.
   name: Research Management Plan
   related_pages:
@@ -2513,7 +2494,7 @@
   - data analysis
   - IT support
   - storage
-  url: www.genevention.com/products
+  url: https://www.genevention.com/products
 - description: A scripting language for creating Synthetic Biology Open Language (SBOL)
     in a more abstract way.
   name: ShortBOL
