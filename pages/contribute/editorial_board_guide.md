@@ -108,7 +108,7 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
-1. Describe shortly which changes you made in the description of your commit below the page. Commit to a new branch branch and click `Commit new file`.
+1. Describe shortly which changes you made in the description of your commit below the page. Commit to a new branch and click `Commit new file`.
      {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
 
 1. Wait till another editor approves your changes. After approval, the branch can be merged and changes will be applied.
