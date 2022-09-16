@@ -1,5 +1,6 @@
 ---
 title: Bioimaging data
+description: Data management solutions for bioimaging data
 contributors: [Sébastien Besson, Jean-Marie Burel, Susanne Kunis, Josh Moore, Stefanie Weidtkamp-Peters]
 page_id: bioimaging data
 related_pages: 

@@ -11,8 +11,8 @@ $info-card-header-bg: $dark;
 
 /*-----Section navigation tiles-----*/
 $nav-card-bg: $light;
-$nav-card-header-bg: $dark;
-$nav-card-header-color: $white;
+$nav-card-header-bg: $light-x;
+$nav-card-header-color: $dark;
 $nav-card-badge-color: $body-color;
 $nav-card-badge-bg: $white;
 
@@ -22,4 +22,5 @@ $footer-color: $white;
 $footer-link-color: $white;
 $footer-copyright-bg: #00000033;
 
-
+/*-----Events & news-----*/
+$news-border-color: $dark;
