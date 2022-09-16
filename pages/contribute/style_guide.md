@@ -53,7 +53,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
-  * **White space:** make sure there is plenty of space space so that the main elements stand out and the text does not appear overwhelming.
+  * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
   * **Colours:** <br/>
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
     * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram.
