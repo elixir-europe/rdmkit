@@ -92,6 +92,8 @@ subitems:
         url: /covid19_data_portal
       - title: CSC
         url: /csc_assembly
+      - title: Galaxy
+        url: /galaxy_assembly
       - title: IFB
         url: /ifb_assembly
       - title: Marine Metagenomics
