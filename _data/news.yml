@@ -67,6 +67,6 @@
   linked_pr: 961
   description: A "tool assembly" page about Galaxy, an open, web-based platform for accessible, reproducible, and transparent computational research. [Discover the page here](galaxy_assembly)
 - name: "New landing page style"
-  date: 2022-09-19
+  date: 2022-09-16
   linked_pr: 857
   description: The landing page of RDMkit got a facelift with a more central search and tiles to that give a better overview. This also includes landing pages for every section and matching icons.
