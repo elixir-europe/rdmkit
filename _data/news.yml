@@ -69,4 +69,4 @@
 - name: "New landing page style"
   date: 2022-09-16
   linked_pr: 857
-  description: The landing page of RDMkit got a facelift with a more central search and tiles to that give a better overview. This also includes landing pages for every section and matching icons.
+  description: The landing page of RDMkit got a facelift with more focus on the search bar and tiles that give a better overview of our sections. This update also includes landing pages for every section and matching icons.
