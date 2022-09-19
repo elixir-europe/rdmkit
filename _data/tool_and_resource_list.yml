@@ -253,7 +253,7 @@
   name: BioModels
   registry:
     biotools: biomodels
-    fairsharing: 1sgm8q
+    fairsharing: paz6mh
     tess: BioModels
   related_pages:
   - micro biotech
@@ -785,6 +785,7 @@
   name: DisProt
   registry:
     biotools: disprot
+    tess: DisProt
   related_pages:
   - IDP
   - researcher
@@ -1155,6 +1156,7 @@
   name: FAIRDOM-SEEK
   registry:
     biotools: seek
+    tess: FAIRDOM-SEEK
   related_pages:
   - storage
   - IT support
