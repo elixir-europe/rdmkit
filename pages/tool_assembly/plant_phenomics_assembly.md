@@ -25,7 +25,7 @@ All the components of the PlantPheno tool assembly are publicly available and li
 
 ## The plant phenomics tools
 
-insert schema here
+{% include image.html file="plant_phenomics.svg" caption="Figure 1. The plant phenomics tool assembly." alt="Tools and resources used in managing plant phenomics and phenotyping data." %}
 
 ### Data management planning
 
