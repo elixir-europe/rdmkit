@@ -19,11 +19,11 @@ The plant phenomics tool assembly helps [researchers](https://rdmkit.elixir-euro
 * the findability of their data in plant specific (e.g. [FAIDARE](https://urgi.versailles.inrae.fr/faidare/)) or generic search portal (e.g. Google Data Search).
 * the long term reusability of their data.
 
-## How can you access the PlantPheno tool assembly?
+## How can you access the plant phenomics tool assembly?
 
 All the components of the PlantPheno tool assembly are publicly available and listed below, but many of them require registration.
 
-## The Plant Phenomics tools
+## The plant phenomics tools
 
 insert schema here
 
