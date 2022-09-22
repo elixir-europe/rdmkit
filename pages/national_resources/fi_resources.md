@@ -89,7 +89,7 @@ national_resources:
       your_tasks: [data analysis]
     url: https://research.csc.fi/computing#cloud-computing 
   - name: IceBear
-    description: A RDM tool for structural biology. It covers crystallization trials, crystal fishing and shipping, as well as linking crystals, datasets, and PDB depositions for full chain of custody. 
+    description: A browser-based Research Data Management tool for protein cyrstallization that offers flexible crystal fishing workbench, no-typing submission for crystal shipment, and linking crystals and datasets including PDB depositions. 
     instance_of: 
     how_to_access: 
     related_pages:
