@@ -12,10 +12,10 @@ faircookbook:
 
 ## What is the plant phenomics tool assembly and who can use it ?
 
-The plant phenomics tool assembly covers the whole [life cycle](https://rdmkit.elixir-europe.org/data_life_cycle) of experimental plant phenotyping data.  It uses the concepts of the [MIAPPE](https://www.miappe.org/) (Minimum Information About a Plant Phenotyping Experiment) standard. A general introduction of MIAPPE concepts can be found in the following [webinar](https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe).
+The plant phenomics tool assembly covers the whole [life cycle](data_life_cycle) of experimental plant phenotyping data.  It uses the concepts of the [MIAPPE](https://www.miappe.org/) (Minimum Information About a Plant Phenotyping Experiment) standard. A general introduction of MIAPPE concepts can be found in the following [webinar](https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe).
 
-The plant phenomics tool assembly helps [researchers](https://rdmkit.elixir-europe.org/researcher), [research data stewards](https://rdmkit.elixir-europe.org/data_steward_research) and [developers in charge of infrastructures](https://rdmkit.elixir-europe.org/data_steward_infrastructure) supporting plant phenotyping data management  to enable:
-* the integration of phenotyping data with other omics data: see the general principles on the [Plant Sciences domain page](https://rdmkit.elixir-europe.org/plant_sciences).
+The plant phenomics tool assembly helps [researchers](researcher), [research data stewards](data_steward_research) and [developers in charge of infrastructures](data_steward_infrastructure) supporting plant phenotyping data management  to enable:
+* the integration of phenotyping data with other omics data: see the general principles on the [Plant Sciences domain page](plant_sciences).
 * the findability of their data in plant specific (e.g. [FAIDARE](https://urgi.versailles.inrae.fr/faidare/)) or generic search portal (e.g. Google Data Search).
 * the long term reusability of their data.
 
@@ -29,12 +29,12 @@ All the components of the PlantPheno tool assembly are publicly available and li
 
 ### Data management planning
 
-The general principles to be considered are described in the [Plant Science domain page](https://rdmkit.elixir-europe.org/plant_sciences) and in particular in its section dedicated to [plant phenotyping data](https://rdmkit.elixir-europe.org/plant_sciences#phenotyping-metadata-collection-and-publication).
+The general principles to be considered are described in the [Plant Science domain page](plant_sciences) and in particular in its section dedicated to [plant phenotyping data](plant_sciences#phenotyping-metadata-collection-and-publication).
 In a nutshell:
 * the phenotyping data must be described following the [MIAPPE](https://www.miappe.org/) data standard.
-* special attention should be given to the identification and description of the [biological material](https://rdmkit.elixir-europe.org/plant_sciences#plant-biological-materials-metadata-collection-and-sharing) and the [observation variables](https://rdmkit.elixir-europe.org/plant_sciences#phenotyping-metadata-collection-and-publication).
+* special attention should be given to the identification and description of the [biological material](plant_sciences#plant-biological-materials-metadata-collection-and-sharing) and the [observation variables](plant_sciences#phenotyping-metadata-collection-and-publication).
 
-The general principles for data management planning and available tools are described in the RDMkit [data management plan page](https://rdmkit.elixir-europe.org/data_management_plan). The knowledge model of the data management planning application  [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) was reviewed for compliance with the needs of the Plant Sciences community.
+The general principles for data management planning and available tools are described in the RDMkit [data management plan page](data_management_plan). The knowledge model of the data management planning application  [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) was reviewed for compliance with the needs of the Plant Sciences community.
 
 ### File based data collection
 
@@ -87,14 +87,14 @@ It is MIAPPE and BrAPI compliant, and naming conventions are recommended for use
 ### Data processing and analysis 
 
 It is important to keep in mind the difference between data processing and analysing.
-[Processing](https://rdmkit.elixir-europe.org/processing) provides the tools and procedures to transform primary data, such as imaging or observational data, to appropriate quality and processability:  
-[Analysis](https://rdmkit.elixir-europe.org/analysing), on the other hand, is concerned with extracting information from the processed data for the purpose of supporting knowledge acquisition: 
+[Processing](processing) provides the tools and procedures to transform primary data, such as imaging or observational data, to appropriate quality and processability:  
+[Analysis](analysing), on the other hand, is concerned with extracting information from the processed data for the purpose of supporting knowledge acquisition: 
 
 Some analysis tools dedicated to plant phenotyping experiments are registered in bio.tools, for example: [Plant 3D](https://bio.tools/plant-3d), [LeafNet](https://bio.tools/leafnet), [PlantCV](https://bio.tools/plantcv_v2), [Phenomenal 3D](https://bio.tools/phenomenal-3d).
 
 ### Data sharing
 
-The data collected and annotated can be [shared](https://rdmkit.elixir-europe.org/sharing ) in trustworthy repositories under clear conditions of access to the data. As no global central repository exists for phenotyping data, the Plant Science research community combines the use of scattered trustworthy repositories and of centralized search tools. 
+The data collected and annotated can be [shared](sharing ) in trustworthy repositories under clear conditions of access to the data. As no global central repository exists for phenotyping data, the Plant Science research community combines the use of scattered trustworthy repositories and of centralized search tools. 
 
 #### Dataverse based solutions
 
@@ -116,17 +116,10 @@ The Breeding API ([BrAPI](http://www.brapi.org)) is a MIAPPE compliant web servi
 
 ### Data preservation
 
-No central, global repository with long term [data preservation](https://rdmkit.elixir-europe.org/preserving) exists for Plant Phenotyping data. This is under the responsibility of each country.
+No central, global repository with long term [data preservation](preserving) exists for Plant Phenotyping data. This is under the responsibility of each country.
 
 ### Data Reuse
 
 Plant phenotyping data reuse relies on rich metadata following the MIAPPE specifications annotated with proper ontologies. Most of the important ontologies are registered on FAIRSHARING: use this [search example](https://fairsharing.org/search?fairsharingRegistry=Standard&q=plant&isMaintained=true).
 [AgroPortal](http://agroportal.lirmm.fr/) is another vocabulary and ontology repository for agronomy and related domains.
 
-## Where can you find training materials and events about the MIAPPE data management tool assembly?
-
-{% include tess.html search="miappe" %}
-
-## Relevant tools and resources
-
-{% include toollist.html tag="plant pheno assembly" %}
