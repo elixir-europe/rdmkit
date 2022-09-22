@@ -88,14 +88,13 @@ PIPPA, the PSB Interface for Plant Phenotype Analysis, is the central web interf
 It is important to keep in mind the difference between data processing and analysing.
 [Processing](processing) provides the tools and procedures to transform primary data, such as imaging or observational data, to appropriate quality and processability. 
 [Analysis](analysing), on the other hand, is concerned with extracting information from the processed data for the purpose of supporting knowledge acquisition. 
-
 Some analysis tools dedicated to plant phenotyping experiments are registered in bio.tools, for example: [Plant 3D](https://bio.tools/plant-3d), [LeafNet](https://bio.tools/leafnet), [PlantCV](https://bio.tools/plantcv_v2), [Phenomenal 3D](https://bio.tools/phenomenal-3d).
 
 ### Data sharing
 
 The data collected and annotated can be [shared](sharing ) in trustworthy repositories under clear conditions of access to the data. As no global central repository exists for phenotyping data, the Plant Science research community combines the use of scattered trustworthy repositories and of centralized search tools. 
 
-**[Dataverse based solutions](https://dataverse.org/)**
+**[Dataverse-based solutions](https://dataverse.org/)**
 
 Dataverse is an open source research data repository software used by several research institute over the globe to publicly share heterogenous dataset. In Europe, it is being used among others by the portuguese  [DMPortal](https://dmportal.biodata.pt/), the german [Julich data portal](https://data.fz-juelich.de/), and the french [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/) (previously Data.INRAE) research communities.  Its main strength is its flexibility, as the mandatory metadata are focused on publication information such as title, abstract, authors and keywords. It can therefore host any datatype, which is both a strength and a weakness, as shared good practices are necessary to ensure the reusability and findability of published phenomic data.
 
@@ -118,5 +117,7 @@ No central, global repository with long term [data preservation](preserving) exi
 ### Data Reuse
 
 Plant phenotyping data reuse relies on rich metadata following the MIAPPE specifications annotated with proper ontologies. Most of the important ontologies are registered on FAIRSHARING: use this [search example](https://fairsharing.org/search?fairsharingRegistry=Standard&q=plant&isMaintained=true).
+
 **[AgroPortal](http://agroportal.lirmm.fr/)** is a vocabulary and ontology repository for agronomy and related domains.
+
 **[FAIDARE](https://bio.tools/faidare)** (FAIR Data-finder for Agronomic Research) is a portal facilitating discoverability of public data on plant biology from a federation of established data repositories.
