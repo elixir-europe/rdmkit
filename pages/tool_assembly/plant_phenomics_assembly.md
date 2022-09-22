@@ -18,7 +18,7 @@ training:
 
 The plant phenomics tool assembly covers the whole [life cycle](data_life_cycle) of experimental plant phenotyping data.  It uses the concepts of the [MIAPPE](https://www.miappe.org/) (Minimum Information About a Plant Phenotyping Experiment) standard.
 
-The plant phenomics tool assembly helps [researchers](researcher), [research data stewards](data_steward_research) and [developers in charge of infrastructures](data_steward_infrastructure) supporting plant phenotyping data management  to enable:
+The plant phenomics tool assembly helps [everyone](your_role) in charge of plant phenotyping data management to enable:
 * the integration of phenotyping data with other omics data: see the general principles on the [Plant Sciences domain page](plant_sciences).
 * the findability of their data in plant specific (e.g. [FAIDARE](https://urgi.versailles.inrae.fr/faidare/)) or generic search portal (e.g. Google Data Search).
 * the long term reusability of their data.
