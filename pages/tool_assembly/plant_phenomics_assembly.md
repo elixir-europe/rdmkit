@@ -1,13 +1,12 @@
 ---
 title: Plant Phenomics
-contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Bert Droesbeke, Matthias Lange, Daniel Arend, Daniel Faria, Isabelle Alic, Philippe Rocca-Serra, Sebastian Beier, Erwan Le Floch, did I miss someone ?]
+contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Bert Droesbeke, Matthias Lange, Daniel Arend, Daniel Faria, Isabelle Alic, Philippe Rocca-Serra, Sebastian Beier, Erwan Le Floch]
 description: Tool assembly for managing plant phenomic data.
 page_id: plant pheno assembly
 affiliations:
 related_pages: 
   your_tasks: [metadata, data publication]
   your_domain: [plants]
-faircookbook:
 ---
 
 ## What is the plant phenomics tool assembly and who can use it ?
@@ -50,25 +49,25 @@ The metadata and description of your experiments should be filled using a [MIAPP
 
 ### Experimental data gathering and management 
 
-#### File based systems
+#### Systems for file based data collection
 
-##### FAIRDOM-Seek
+**[FAIRDOM-SEEK](https://seek4science.org/)**
 
-[FAIRDOM-SEEK](https://seek4science.org/) is an open source web-based data sharing platform used as a repository or a catalog. It is being deployed as several instances ranging from confidential project data sharing platforms ([INRAE/AGENT](https://urgi.versailles.inrae.fr/fairdom), VIB) to public repositories like [FAIRDOMHub](https://fairdomhub.org/). It is MIAPPE compliant through the integration of MIAPPE metadata at the investigation, study and assay levels. It can be used for project based early data sharing, in preparation for long term data storage, but also as a preservation tool for raw data.
+FAIRDOM-SEEK is an open source web-based data sharing platform used as a repository or a catalog. It is being deployed as several instances ranging from confidential project data sharing platforms ([INRAE/AGENT](https://urgi.versailles.inrae.fr/fairdom), VIB) to public repositories like [FAIRDOMHub](https://fairdomhub.org/). It is MIAPPE compliant through the integration of MIAPPE metadata at the investigation, study and assay levels. It can be used for project based early data sharing, in preparation for long term data storage, but also as a preservation tool for raw data.
 
-##### pISATree
+**[pISA-tree](https://bio.tools/pisa-tree)**
 
-[pISA-tree](https://bio.tools/pisa-tree) is a data management solution developed to contribute to the reproducibility of research and analyses. Hierarchical set of batch files is used to create standardized nested directory tree and associated files for research projects.
+pISA-tree is a data management solution developed to contribute to the reproducibility of research and analyses. Hierarchical set of batch files is used to create standardized nested directory tree and associated files for research projects.
 
-##### COPO
+**[COPO](https://copo-project.org/)**
 
-[COPO](https://copo-project.org/) is a data management platform specific to plant sciences.
+COPO is a data management platform specific to plant sciences.
 
 #### High Throughput dedicated systems
 
-##### The PHIS information system 
+**[PHIS](http://www.phis.inra.fr/)**
 
-The open-source [Phenotyping Hybrid Information System (PHIS)](http://www.phis.inra.fr/) manages and collects data from Phenotyping and High Throughput Phenotyping experiments on a day to day basis. It can store, organize and manage highly heterogeneous (e.g. images, spectra, growth curves) and multi-spatial and temporal scale data (leaf to canopy level) originating from multiple sources (field, greenhouse). 
+The open-source Phenotyping Hybrid Information System (PHIS) manages and collects data from Phenotyping and High Throughput Phenotyping experiments on a day to day basis. It can store, organize and manage highly heterogeneous (e.g. images, spectra, growth curves) and multi-spatial and temporal scale data (leaf to canopy level) originating from multiple sources (field, greenhouse). 
 It unambiguously identifies all objects and traits in an experiment and establishes their relations via ontologies and semantics that apply to both field and controlled conditions. Its ontology-driven architecture is a powerful tool for integrating and managing data from multiple experiments and platforms, for creating relationships between objects and enriching
 datasets with knowledge and metadata.
 It is MIAPPE and BrAPI compliant, and naming conventions are recommended for users to declare their resources. Several experimental platforms use PHIS to manage their data, and PHIS instances dedicated to sharing resources (projects, genetic resources, variables) also exist to allow the sharing of studied concepts.
@@ -80,9 +79,9 @@ It is MIAPPE and BrAPI compliant, and naming conventions are recommended for use
 * [Contribute to OpenSILEX](https://github.com/OpenSILEX/)
 </details>
 
-##### PIPPA 
+**[PIPPA](https://pippa.psb.ugent.be/)**
 
-[PIPPA](https://pippa.psb.ugent.be/), the PSB Interface for Plant Phenotype Analysis, is the central web interface and database that provides the tools for the management of the plant imaging robots on the one hand, and the analysis of images and data on the other hand. The database supports all MIAPPE fields which are accessible through the BrAPI endpoints. Experiment pages are marked up with Bioschemas to improve findability on google. 
+PIPPA, the PSB Interface for Plant Phenotype Analysis, is the central web interface and database that provides the tools for the management of the plant imaging robots on the one hand, and the analysis of images and data on the other hand. The database supports all MIAPPE fields which are accessible through the BrAPI endpoints. Experiment pages are marked up with Bioschemas to improve findability on google. 
 
 ### Data processing and analysis 
 
@@ -96,23 +95,21 @@ Some analysis tools dedicated to plant phenotyping experiments are registered in
 
 The data collected and annotated can be [shared](sharing ) in trustworthy repositories under clear conditions of access to the data. As no global central repository exists for phenotyping data, the Plant Science research community combines the use of scattered trustworthy repositories and of centralized search tools. 
 
-#### Dataverse based solutions
+**[Dataverse based solutions](https://dataverse.org/)**
 
 Dataverse is an open source research data repository software used by several research institute over the globe to publicly share heterogenous dataset. In Europe, it is being used among others by the portuguese  [DMPortal](https://dmportal.biodata.pt/), the german [Julich data portal](https://data.fz-juelich.de/), and the french [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/) (previously Data.INRAE) research communities.  Its main strength is its flexibility, as the mandatory metadata are focused on publication information such as title, abstract, authors and keywords. It can therefore host any datatype, which is both a strength and a weakness, as shared good practices are necessary to ensure the reusability and findability of published phenomic data.
 
-#### e!DAL-PGP /DE
+**[e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/)**
 
-[e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/) is a comprehensive research data repository, which is hosted at the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben and is mainly focused on sharing high valuable and large genomics and phenomics datasets. It is the first productive instance, which is based on the open source e!DAL infrastructure software and is furthermore a part of the de.NBI/ELIXIR Germany services. All provided datasets are FAIR compliant and citable via a persistent DOI. By using the widely established LifeScience AAI (formerly known as ELIXIR AAI) the submission procedure is open for all ELIXIR associated users. The key feature of e!DAL-PGP is its user-friendly, simple and FAIR-compliant data submission and internal review procedure. The repository has no general limit to any type of size of datasets. A comprehensive documentation including, guidelines, code snippets for technical integration and videos is available on the project website.
+e!DAL-PGP is a comprehensive research data repository, which is hosted at the Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben and is mainly focused on sharing high valuable and large genomics and phenomics datasets. It is the first productive instance, which is based on the open source e!DAL infrastructure software and is furthermore a part of the de.NBI/ELIXIR Germany services. All provided datasets are FAIR compliant and citable via a persistent DOI. By using the widely established LifeScience AAI (formerly known as ELIXIR AAI) the submission procedure is open for all ELIXIR associated users. The key feature of e!DAL-PGP is its user-friendly, simple and FAIR-compliant data submission and internal review procedure. The repository has no general limit to any type of size of datasets. A comprehensive documentation including, guidelines, code snippets for technical integration and videos is available on the project website.
 
-#### Zenodo
+**[Zenodo](https://zenodo.org/)**
 
-[Zenodo](https://zenodo.org/) is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides. Therefore the publication is usually associated with the publication of a research paper, book chapters or presentations. The Zenodo data submission form allows to describe every data file with a set of technical metadata based on the DataCite metadata schema, which is necessary and assign a persistent DOI to every dataset. The Zenodo infrastructure is hosted at the CERN and can publish dataset up to a size of 50 GB for free. For larger datasets a specific support request is necessary. A further valuable feature of Zenodo is the connection to GitHub and the provided opportunity to assign a DOI to a concrete version or rather commit of a hosted software repository which allows to persist software scripts, which improves the reproducibility of research workflows and results, which is often a challenge especially for older research publications.
+Zenodo is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides. Therefore the publication is usually associated with the publication of a research paper, book chapters or presentations. The Zenodo data submission form allows to describe every data file with a set of technical metadata based on the DataCite metadata schema, which is necessary and assign a persistent DOI to every dataset. The Zenodo infrastructure is hosted at the CERN and can publish dataset up to a size of 50 GB for free. For larger datasets a specific support request is necessary. A further valuable feature of Zenodo is the connection to GitHub and the provided opportunity to assign a DOI to a concrete version or rather commit of a hosted software repository which allows to persist software scripts, which improves the reproducibility of research workflows and results, which is often a challenge especially for older research publications.
 
 ### Machine actionable data sharing
 
-The Breeding API ([BrAPI](http://www.brapi.org)) is a MIAPPE compliant web service specification available on several [deposition databases](https://www.brapi.org/servers). Those endpoints can be validated using the BrAPI validator  [BRAVA](https://webapps.ipk-gatersleben.de/brapivalidator/). BrAPI hosts several documentation and training material to support its usage.
-
-[FAIDARE](https://bio.tools/faidare) is a portal allowing users to search data across distinct databases.
+**[BrAPI](http://www.brapi.org)** (the Breeding API) is a MIAPPE compliant web service specification available on several [deposition databases](https://www.brapi.org/servers). Those endpoints can be validated using the BrAPI validator [BRAVA](https://webapps.ipk-gatersleben.de/brapivalidator/). BrAPI hosts several documentation and training material to support its usage.
 
 ### Data preservation
 
@@ -121,5 +118,5 @@ No central, global repository with long term [data preservation](preserving) exi
 ### Data Reuse
 
 Plant phenotyping data reuse relies on rich metadata following the MIAPPE specifications annotated with proper ontologies. Most of the important ontologies are registered on FAIRSHARING: use this [search example](https://fairsharing.org/search?fairsharingRegistry=Standard&q=plant&isMaintained=true).
-[AgroPortal](http://agroportal.lirmm.fr/) is another vocabulary and ontology repository for agronomy and related domains.
-
+**[AgroPortal](http://agroportal.lirmm.fr/)** is a vocabulary and ontology repository for agronomy and related domains.
+**[FAIDARE](https://bio.tools/faidare)** (FAIR Data-finder for Agronomic Research) is a portal facilitating discoverability of public data on plant biology from a federation of established data repositories.
