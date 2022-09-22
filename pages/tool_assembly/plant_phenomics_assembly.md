@@ -12,7 +12,7 @@ faircookbook:
 
 ## What is the plant phenomics tool assembly and who can use it ?
 
-The plant phenomics tool assembly covers the whole [life cycle](https://rdmkit.elixir-europe.org/data_life_cycle) of experimental plant phenotyping data.  It uses the concepts of the [MIAPPE](https://www.miappe.org/) standard. A general introduction of MIAPPE concepts can be found in the following [webinar](https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe).
+The plant phenomics tool assembly covers the whole [life cycle](https://rdmkit.elixir-europe.org/data_life_cycle) of experimental plant phenotyping data.  It uses the concepts of the [MIAPPE](https://www.miappe.org/) (Minimum Information About a Plant Phenotyping Experiment) standard. A general introduction of MIAPPE concepts can be found in the following [webinar](https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe).
 
 The plant phenomics tool assembly helps [researchers](https://rdmkit.elixir-europe.org/researcher), [research data stewards](https://rdmkit.elixir-europe.org/data_steward_research) and [developers in charge of infrastructures](https://rdmkit.elixir-europe.org/data_steward_infrastructure) supporting plant phenotyping data management  to enable:
 * the integration of phenotyping data with other omics data: see the general principles on the [Plant Sciences domain page](https://rdmkit.elixir-europe.org/plant_sciences).
