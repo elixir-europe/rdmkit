@@ -86,8 +86,8 @@ PIPPA, the PSB Interface for Plant Phenotype Analysis, is the central web interf
 ### Data processing and analysis 
 
 It is important to keep in mind the difference between data processing and analysing.
-[Processing](processing) provides the tools and procedures to transform primary data, such as imaging or observational data, to appropriate quality and processability:  
-[Analysis](analysing), on the other hand, is concerned with extracting information from the processed data for the purpose of supporting knowledge acquisition: 
+[Processing](processing) provides the tools and procedures to transform primary data, such as imaging or observational data, to appropriate quality and processability. 
+[Analysis](analysing), on the other hand, is concerned with extracting information from the processed data for the purpose of supporting knowledge acquisition. 
 
 Some analysis tools dedicated to plant phenotyping experiments are registered in bio.tools, for example: [Plant 3D](https://bio.tools/plant-3d), [LeafNet](https://bio.tools/leafnet), [PlantCV](https://bio.tools/plantcv_v2), [Phenomenal 3D](https://bio.tools/phenomenal-3d).
 
