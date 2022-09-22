@@ -7,6 +7,11 @@ affiliations:
 related_pages: 
   your_tasks: [metadata, data publication]
   your_domain: [plants]
+  tool_assembly: [plant geno assembly]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    url: https://tess.elixir-europe.org/search?q=miappe
 ---
 
 ## What is the plant phenomics tool assembly and who can use it ?
