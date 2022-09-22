@@ -98,7 +98,7 @@ The data collected and annotated can be [shared](https://rdmkit.elixir-europe.or
 
 #### Dataverse based solutions
 
-Dataverse is an open source research data repository software used by several research institute over the globe to publicly share heterogenous dataset. In Europe, it is being used among others by the portuguese  [DMPortal](https://dmportal.biodata.pt/), the german [Julich data portal](https://data.fz-juelich.de/), and the french [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/) research communities.  Its main strength is its flexibility, as the mandatory metadata are focused on publication information such as title, abstract, authors and keywords. It can therefore host any datatype, which is both a strength and a weakness, as shared good practices are necessary to ensure the reusability and findability of published phenomic data.
+Dataverse is an open source research data repository software used by several research institute over the globe to publicly share heterogenous dataset. In Europe, it is being used among others by the portuguese  [DMPortal](https://dmportal.biodata.pt/), the german [Julich data portal](https://data.fz-juelich.de/), and the french [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/) (previously Data.INRAE) research communities.  Its main strength is its flexibility, as the mandatory metadata are focused on publication information such as title, abstract, authors and keywords. It can therefore host any datatype, which is both a strength and a weakness, as shared good practices are necessary to ensure the reusability and findability of published phenomic data.
 
 #### e!DAL-PGP /DE
 
@@ -121,6 +121,7 @@ No central, global repository with long term [data preservation](https://rdmkit.
 ### Data Reuse
 
 Plant phenotyping data reuse relies on rich metadata following the MIAPPE specifications annotated with proper ontologies. Most of the important ontologies are registered on FAIRSHARING: use this [search example](https://fairsharing.org/search?fairsharingRegistry=Standard&q=plant&isMaintained=true).
+[AgroPortal](http://agroportal.lirmm.fr/) is another vocabulary and ontology repository for agronomy and related domains.
 
 ## Where can you find training materials and events about the MIAPPE data management tool assembly?
 
