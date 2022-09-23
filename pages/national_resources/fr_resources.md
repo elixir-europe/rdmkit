@@ -6,6 +6,7 @@ coordinators: []
 
 ref_to_main_resources:
   - PHIS
+  - FAIDARE
 
 national_resources:
   - name: DMP OPIDoR
