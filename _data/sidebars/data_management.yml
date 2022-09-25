@@ -104,6 +104,8 @@ subitems:
         url: /omero_assembly
       - title: Plant Genomics 
         url: /plant_genomics_assembly
+      - title: Plant Phenomics
+        url: /plant_phenomics_assembly
       - title: TransMed
         url: /transmed_assembly
       - title: TSD
