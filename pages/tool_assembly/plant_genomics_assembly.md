@@ -7,6 +7,7 @@ affiliations:
 related_pages: 
   your_tasks: [metadata, data publication]
   your_domain: [plants]
+  tool_assembly: [plant_pheno_assembly]
 faircookbook:
 - name: Plant genomic and genetic variation data submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
