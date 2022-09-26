@@ -56,7 +56,7 @@ national_resources:
     description: PIPPA, the PSB Interface for Plant Phenotype Analysis, is the central web interface and database that provides the tools for the management of the plant imaging robots on the one hand, and the analysis of images and data on the other hand.
     how_to_access:
     related_pages:
-      tool_assembly: []
+      tool_assembly: [plant pheno assembly]
       your_domain: [plants]
       your_role: [data manager, researcher, IT support]
       your_tasks: []
