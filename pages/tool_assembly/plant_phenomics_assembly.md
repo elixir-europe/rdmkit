@@ -8,9 +8,18 @@ related_pages:
   your_tasks: [metadata, data publication]
   your_domain: [plants]
 training:
-  - name: Training in TeSS
+  - name: MIAPPE training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=miappe
+  - name: MIAPPE templates on GitHub
+    registry: GitHub
+    url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates
+  - name: PHIS user documentation
+    registry:
+    url: https://opensilex.github.io/phis-docs-community/
+  - name: PHIS developer documentation
+    registry:
+    url: https://opensilex.github.io/docs-community-dev/
 ---
 
 ## What is the plant phenomics tool assembly and who can use it ?
@@ -63,7 +72,7 @@ COPO is a data management platform specific to plant sciences.
 
 **[PHIS](http://www.phis.inra.fr/)**
 
-The open-source Phenotyping Hybrid Information System (PHIS) manages and collects data from Phenotyping and High Throughput Phenotyping experiments on a day to day basis. It can store, organize and manage highly heterogeneous (e.g. images, spectra, growth curves) and multi-spatial and temporal scale data (leaf to canopy level) originating from multiple sources (field, greenhouse). 
+The open-source Phenotyping Hybrid Information System (PHIS), based on [OpenSILEX](https://github.com/OpenSILEX/), manages and collects data from Phenotyping and High Throughput Phenotyping experiments on a day to day basis. It can store, organize and manage highly heterogeneous (e.g. images, spectra, growth curves) and multi-spatial and temporal scale data (leaf to canopy level) originating from multiple sources (field, greenhouse). 
 It unambiguously identifies all objects and traits in an experiment and establishes their relations via ontologies and semantics that apply to both field and controlled conditions. Its ontology-driven architecture is a powerful tool for integrating and managing data from multiple experiments and platforms, for creating relationships between objects and enriching
 datasets with knowledge and metadata.
 It is MIAPPE and BrAPI compliant, and naming conventions are recommended for users to declare their resources. Several experimental platforms use PHIS to manage their data, and PHIS instances dedicated to sharing resources (projects, genetic resources, variables) also exist to allow the sharing of studied concepts.
