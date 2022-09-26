@@ -7,11 +7,19 @@ affiliations:
 related_pages: 
   your_tasks: [metadata, data publication]
   your_domain: [plants]
-  tool_assembly: [plant geno assembly]
 training:
-  - name: Training in TeSS
+  - name: MIAPPE training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=miappe
+  - name: MIAPPE templates on GitHub
+    registry: GitHub
+    url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates
+  - name: PHIS user documentation
+    registry:
+    url: https://opensilex.github.io/phis-docs-community/
+  - name: PHIS developer documentation
+    registry:
+    url: https://opensilex.github.io/docs-community-dev/
 ---
 
 ## What is the plant phenomics tool assembly and who can use it ?
@@ -43,14 +51,6 @@ The general principles for data management planning and available tools are desc
 ### File based data collection
 
 The metadata and description of your experiments should be filled using a [MIAPPE template](https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates). Note that there is a readme that fully describes each field as well as their type and their optional or mandatory status. All fields should be present in the file you are using, even if you leave the optional ones empty. This will allow standard processing and validation using dedicated tools.
-<details><summary>MIAPPE template resources</summary>
-
-* [Presentation](https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-miappe)
-* [Webinar](https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe)
-* [MIAPPE template](https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates)
-* [MIAPPE ISA template (under validation)](https://github.com/MIAPPE/MIAPPE/blob/eppn2020-template/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_ISA_EPPN2020_template.xlsx )
-</details>
-
 
 ### Experimental data gathering and management 
 
@@ -72,17 +72,10 @@ COPO is a data management platform specific to plant sciences.
 
 **[PHIS](http://www.phis.inra.fr/)**
 
-The open-source Phenotyping Hybrid Information System (PHIS) manages and collects data from Phenotyping and High Throughput Phenotyping experiments on a day to day basis. It can store, organize and manage highly heterogeneous (e.g. images, spectra, growth curves) and multi-spatial and temporal scale data (leaf to canopy level) originating from multiple sources (field, greenhouse). 
+The open-source Phenotyping Hybrid Information System (PHIS), based on [OpenSILEX](https://github.com/OpenSILEX/), manages and collects data from Phenotyping and High Throughput Phenotyping experiments on a day to day basis. It can store, organize and manage highly heterogeneous (e.g. images, spectra, growth curves) and multi-spatial and temporal scale data (leaf to canopy level) originating from multiple sources (field, greenhouse). 
 It unambiguously identifies all objects and traits in an experiment and establishes their relations via ontologies and semantics that apply to both field and controlled conditions. Its ontology-driven architecture is a powerful tool for integrating and managing data from multiple experiments and platforms, for creating relationships between objects and enriching
 datasets with knowledge and metadata.
 It is MIAPPE and BrAPI compliant, and naming conventions are recommended for users to declare their resources. Several experimental platforms use PHIS to manage their data, and PHIS instances dedicated to sharing resources (projects, genetic resources, variables) also exist to allow the sharing of studied concepts.
-<details><summary>More information about PHIS</summary>
-
-* [User documentation](https://opensilex.github.io/phis-docs-community/) 
-* [Developer documentation](https://opensilex.github.io/docs-community-dev/) 
-* [Research paper](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15385)
-* [Contribute to OpenSILEX](https://github.com/OpenSILEX/)
-</details>
 
 **[PIPPA](https://pippa.psb.ugent.be/)**
 
