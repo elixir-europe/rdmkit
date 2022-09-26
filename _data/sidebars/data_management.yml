@@ -47,6 +47,8 @@ subitems:
         url: /bioimaging_data
       - title: Structural bioinformatics
         url: /structural_bioinformatics
+      - title: Rare disease data
+        url: /rare_disease_data
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks
