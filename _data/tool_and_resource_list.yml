@@ -1,6 +1,8 @@
 - description: Network providing unified programmatic access to experimentally determined
     and predicted structure models
   name: 3D-Beacons
+  registry:
+    biotools: 3d-beacons
   related_pages:
   - struct bioinfo
   url: https://3d-beacons.org
@@ -24,6 +26,14 @@
   related_pages:
   - micro biotech
   url: https://www.addgene.org/browse/
+- description: Browser for ontologies for agricultural science based on NBCO BioPortal.
+  name: AgroPortal
+  registry:
+    biotools: AgroPortal
+    fairsharing: z4xpxx
+  related_pages:
+  - plant pheno assembly
+  url: http://agroportal.lirmm.fr/
 - description: Amazon Web Services
   name: Amazon Web Services
   registry:
@@ -355,6 +365,7 @@
   related_pages:
   - IT support
   - plants
+  - plant pheno assembly
   url: https://www.brapi.org
 - description: Database of enzyme and enzyme-ligand information, across all taxonomic
     groups, manually extracted from primary literature and extended by text mining
@@ -588,6 +599,7 @@
   - researcher
   - plants
   - machine actionability
+  - plant pheno assembly
   url: https://copo-project.org/
 - description: COVID-19 Molecular Structure and Therapeutics Hub
   name: COVID-19 Molecular Structure and Therapeutics Hub
@@ -697,6 +709,7 @@
   - plant geno assembly
   - researcher
   - data manager
+  - plant pheno assembly
   url: https://data.inrae.fr/
 - description: Publicly available online tool for composing smart data management
     plans
@@ -711,6 +724,7 @@
   - IT support
   - NeLS
   - TSD
+  - plant pheno assembly
   url: https://ds-wizard.org/
 - description: DUO allows to semantically tag datasets with restriction about their
     usage.
@@ -889,6 +903,7 @@
   - IT support
   - data publication
   - metadata
+  - plant pheno assembly
   url: https://edal-pgp.ipk-gatersleben.de/
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly
     available Knowledgebase providing single chemical environmental toxicity data
@@ -1117,6 +1132,7 @@
   - data manager
   - plants
   - IFB
+  - plant pheno assembly
   url: https://urgi.versailles.inra.fr/faidare/
 - description: FAIR Cookbook is an online resource for the Life Sciences with recipes
     that help you to make and keep data Findable, Accessible, Interoperable and Reusable
@@ -1164,6 +1180,7 @@
   - micro biotech
   - IFB
   - machine actionability
+  - plant pheno assembly
   url: https://seek4science.org/
 - description: Data, model and SOPs management for projects, from preliminary data
     to publication, support for running SBML models etc. (public SEEK instance)
@@ -1734,6 +1751,7 @@
   - data manager
   - plants
   - plant geno assembly
+  - plant pheno assembly
   url: https://www.miappe.org/
 - description: Cloud storage and file sharing service from Microsoft
   name: Microsoft Azure
@@ -2169,6 +2187,15 @@
   related_pages:
   - toxicology data
   url: https://pharosproject.net/
+- description: The open-source Phenotyping Hybrid Information System (PHIS) manages
+    and collects data from plants phenotyping and high throughput phenotyping experiments
+    on a day to day basis.
+  name: PHIS
+  registry:
+    tess: PHIS
+  related_pages:
+  - plant pheno assembly
+  url: http://www.phis.inra.fr/
 - description: PIA is a toolbox for mass spectrometrey based protein inference and
     identification analysis.
   name: PIA - Protein Inference Algorithms
@@ -2179,6 +2206,21 @@
   - researcher
   - proteomics
   url: https://github.com/mpc-bioinformatics/pia
+- description: A data management solution for intra-institutional organization and
+    structured storage of life science project-associated research data, with emphasis
+    on the generation of adequate metadata.
+  name: pISA-tree
+  registry:
+    biotools: pisa-tree
+  related_pages:
+  - plants
+  - micro biotech
+  - researcher
+  - data manager
+  - data organisation
+  - metadata
+  - plant pheno assembly
+  url: https://github.com/NIB-SI/pISA-tree
 - description: Access point for plant comparative genomics, centralizing genomic data
     produced by different genome sequencing initiatives.
   name: PLAZA
@@ -2496,7 +2538,7 @@
   - data analysis
   - IT support
   - storage
-  url: https://www.genevention.com/products
+  url: www.genevention.com/products
 - description: A scripting language for creating Synthetic Biology Open Language (SBOL)
     in a more abstract way.
   name: ShortBOL
@@ -2832,6 +2874,7 @@
   - data publication
   - biomol sim
   - bioimaging data
+  - plant pheno assembly
   url: https://zenodo.org/
 - description: Find possible ontology mappings for free text terms in the ZOOMA repository.
   name: Zooma
