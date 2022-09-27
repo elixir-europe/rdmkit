@@ -70,3 +70,13 @@
   date: 2022-09-16
   linked_pr: 857
   description: The landing page of RDMkit got a facelift with more focus on the search bar and tiles that give a better overview of our sections. This update also includes landing pages for every section and matching icons.
+- name: "New page: Plant phenomics assembly"
+  date: 2022-09-26
+  linked_pr: 985
+  description: A "tool assembly" page about plant phenomics, a tool assembly for managing plant phenomic data. [Discover the page here](plant_phenomics_assembly)
+- name: "New page: Rare disease data"
+  date: 2022-09-22
+  linked_pr: 986
+  description: A "your domain" page about Rare disease data. [Discover the page here](rare_disease_data).
+
+
