@@ -4,7 +4,6 @@ description: Data management solutions for rare disease data
 contributors: [Philip van Damme, Nirupama Benis, César Bernabé, Shuxin Zhang, Alberto Camara Ballesteros, Bruna Dos Santos Vieira, Munazah Andrabi]
 page_id: rare disease
 related_pages: 
-  your_role: [IT support]
   your_domain: [human data]
   your_tasks: [DMP, data publication, machine actionability]
 ---
