@@ -436,6 +436,7 @@
   name: CASP
   registry:
     biotools: casp
+    tess: CASP
   related_pages:
   - struct bioinfo
   url: https://predictioncenter.org
@@ -989,8 +990,6 @@
 - description: The program submits experimental data and respective metadata to the
     European Nucleotide Archive (ENA).
   name: ENA upload tool
-  registry:
-    tess: ENA upload tool
   related_pages:
   - IT support
   - data manager
@@ -2679,6 +2678,7 @@
   registry:
     biotools: ega
     fairsharing: mya1ff
+    tess: The European Genome-phenome Archive (EGA)
   related_pages:
   - data publication
   - human data
