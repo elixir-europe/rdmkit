@@ -14,7 +14,7 @@ training:
     registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/communities/dtl/
-  - name: Professionalising data stewardship: Dutch projects in Zenodo
+  - name: Professionalising data stewardship. Dutch projects in Zenodo
     registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/communities/nl-ds-pd-ls/
