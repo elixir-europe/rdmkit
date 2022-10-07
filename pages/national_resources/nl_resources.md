@@ -13,11 +13,11 @@ training:
   - name: ELIXIR Netherlands community in Zenodo
     registry: Zenodo
     registry_url: https://zenodo.org
-    url: https://zenodo.org/communities/dtl/?page=1&size=20
+    url: https://zenodo.org/communities/dtl/
   - name: Professionalising data stewardship: Dutch projects in Zenodo
     registry: Zenodo
     registry_url: https://zenodo.org
-    url: https://zenodo.org/communities/nl-ds-pd-ls/?page=1&size=20
+    url: https://zenodo.org/communities/nl-ds-pd-ls/
 
 national_resources:
   - name: Health-RI Service Catalogue
