@@ -27,7 +27,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://www.health-ri.nl/services/health-ri-service-catalogue 
   - name: BBMRI catalogue
@@ -37,7 +37,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://www.bbmri.nl
   - name: Jupyter Notebooks
@@ -47,7 +47,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://www.surf.nl/en/jupyter-notebook-accessible-and-interactive-data-analysis-for-research-and-education     
   - name: CBS, Statistics Netherlands
@@ -57,7 +57,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://www.cbs.nl/en-gb/our-services/customised-services-microdata/microdata-conducting-your-own-research/microdata-catalogue
   - name: Technology Hotels
@@ -67,7 +67,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://www.dtls.nl/technology-hotels/list
   - name: Dutch COVID-19 Data Support Programme
@@ -77,7 +77,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme
   - name: RIVM Health and Healthcare Data
@@ -87,7 +87,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://www.vzinfo.nl
   - name: Handbook for Adequate Natural Data Stewardship
@@ -97,7 +97,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain: [human data]
-      your_role: 
+      your_role: [Researcher]
       your_tasks: [DMP, compliance]
     url: https://www.health-ri.nl/services/hands
   - name: 23 Things for Research Data Management tool
@@ -107,7 +107,7 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
     url: https://23things.sites.uu.nl/
   - name: FAIR-Aware
@@ -117,20 +117,9 @@ national_resources:
     related_pages:
       tool_assembly: 
       your_domain:
-      your_role: 
+      your_role: [Researcher]
       your_tasks:
-    url: https://fairaware.dans.knaw.nl
-  - name: 
-    description: Overviews of competencies for data stewards for three data steward roles (policy, research and infrastructure)
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://fairaware.dans.knaw.nl    
-    
+    url: https://fairaware.dans.knaw.nl  
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources:
