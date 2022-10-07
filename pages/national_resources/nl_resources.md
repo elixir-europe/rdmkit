@@ -2,7 +2,7 @@
 
 title: Netherlands
 country_code: NL
-contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft, Mascha Jansen]
+contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft]
 coordinators: [Mijke Jetten]
 
 training:
@@ -14,29 +14,12 @@ training:
     registry: Zenodo
     registry_url: https://zenodo.org
     url: https://zenodo.org/communities/dtl/?page=1&size=20
-
+  - name: Professionalising data stewardship: Dutch projects in Zenodo
+    registry: Zenodo
+    registry_url: https://zenodo.org
+    url: https://zenodo.org/communities/nl-ds-pd-ls/?page=1&size=20
 
 national_resources:
-  - name: ELSI servicedesk
-    description: Guidance and answers to the ethical, legal and social implications of research on personalised medicine and next generation sequencing. The ELSI Servicedesk helps to answer questions on these topics.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain: [human data]
-      your_role: 
-      your_tasks: [DMP, compliance]
-    url: https://www.health-ri.nl/services/elsi-servicedesk
-  - name: Handbook for Adequate Natural Data Stewardship
-    description: Guidelines on data stewardship and practical toolbox for researchers at Dutch University Medical Centres (UMCs).
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain: [human data]
-      your_role: 
-      your_tasks: [DMP, compliance]
-    url: https://www.health-ri.nl/services/hands
   - name: Health-RI Service Catalogue
     description: Health-RI provides a set of tools and services available to the biomedical research community.
     how_to_access: 
@@ -47,8 +30,8 @@ national_resources:
       your_role: 
       your_tasks:
     url: https://www.health-ri.nl/services/health-ri-service-catalogue 
-  - name: cBioPortal
-    description: The Health-RI cBioPortal provides a web-based resource for researchers to explore, visualize, analyze, and share multidimensional cancer genomics data sets as well as other studies with multidimensional genomics data.
+  - name: BBMRI catalogue
+    description: Biobanking Netherlands makes biosamples, images and data findable, accessible and usable for health research.
     how_to_access: 
     instance_of: 
     related_pages:
@@ -56,17 +39,7 @@ national_resources:
       your_domain:
       your_role: 
       your_tasks:
-    url: https://www.health-ri.nl/services/cbioportal
-  - name: Parelsnoer Clinical Biobanks
-    description: Parelsnoer is a collaborative biobanking initiative of the University Medical Centres (UMCs) in the Netherlands. Offering researchers an infrastructure and harmonized procedures for the establishment, expansion and optimisation of clinical biobanks for collaborative scientific research.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://www.health-ri.nl/services/parelsnoer-clinical-biobanks
+    url: https://www.bbmri.nl
   - name: Jupyter Notebooks
     description: Making data analyses easier. Store, share and reproduce data analyses. Quick insight into your data analyses and disseminate research. results fast.
     how_to_access: 
@@ -78,7 +51,7 @@ national_resources:
       your_tasks:
     url: https://www.surf.nl/en/jupyter-notebook-accessible-and-interactive-data-analysis-for-research-and-education     
   - name: CBS, Statistics Netherlands
-    description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data to produce insight into social issues.
+    description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data in the life sciences and health domain.
     how_to_access: 
     instance_of: 
     related_pages:
@@ -86,17 +59,7 @@ national_resources:
       your_domain:
       your_role: 
       your_tasks:
-    url: https://www.health-ri.nl/services/cbs-statistics-netherlands
-  - name: X-omics Helpdesk
-    description: The X-omics helpdesk gives researchers access to X-omics research infrastructure X-omics. Researchers can contact X-omics experts and get advice on a X-omics approach.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://x-omics.nl/helpdesk
+    url: https://www.cbs.nl/en-gb/our-services/customised-services-microdata/microdata-conducting-your-own-research/microdata-catalogue
   - name: Technology Hotels
     description: More than 130 Technology Hotels offer access to high-end technology and expertise in the field of bioimaging, bioinformatics, genomics, medical imaging, metabolomics, phenotyping, proteomics, structural biology, and/or systems biology.
     how_to_access: 
@@ -106,47 +69,7 @@ national_resources:
       your_domain:
       your_role: 
       your_tasks:
-    url: https://www.health-ri.nl/services/technology-hotels  
-  - name: The iCRF Generator
-    description: Generate Interoperable CRFs for major EDC.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: health-ri.nl/services/icrf-generator  
-  - name: "Ldot: workflow tool for clinical research"
-    description: A web-based software package to help with the logistics of your research.  
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://www.health-ri.nl/services/ldot-workflow-tool-clinical-research
-  - name: SURFfilesender
-    description: Secure sending and receiving of small to very large files of data.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://www.surf.nl/en/surffilesender-send-large-files-securely-and-encrypted
-  - name: Registry in a Box
-    description: Guidance & Tools for Registries.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://www.health-ri.nl/services/registry-box
+    url: https://www.dtls.nl/technology-hotels/list
   - name: Dutch COVID-19 Data Support Programme
     description: To support investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences.
     how_to_access: 
@@ -157,28 +80,8 @@ national_resources:
       your_role: 
       your_tasks:
     url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme
-  - name: BBMRI.nl Image analysis platform
-    description: Enabling researchers to share medical imaging data and image-analysis pipelines.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://www.health-ri.nl/services/bbmrinl-image-analysis-platform
-  - name: BBMRI.nl Catalogue
-    description: The catalogue gives an overview of a large set of sample collections, data collections, studies and biobanks in the Netherlands. All data and samples are available to order for further research.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: 
-      your_tasks:
-    url: https://catalogue.bbmri.nl/menu/main/background
   - name: RIVM Health and Healthcare Data
-    description: Provides an overview of all health- and healthcare registrations in the Netherlands with the aim to prevent duplication of data collection.
+    description: The Dutch National Institute for Public Health and the Environment (RIVM), together with other organisations, provides numbers and explanation on relevant topics, to prevent duplication of data collection.
     how_to_access: 
     instance_of: 
     related_pages:
@@ -186,7 +89,17 @@ national_resources:
       your_domain:
       your_role: 
       your_tasks:
-    url: https://www.health-ri.nl/services/rivm-health-and-healthcare-data
+    url: https://www.vzinfo.nl
+  - name: Handbook for Adequate Natural Data Stewardship
+    description: Guidelines on data stewardship and practical toolbox for researchers at Dutch University Medical Centres (UMCs).
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain: [human data]
+      your_role: 
+      your_tasks: [DMP, compliance]
+    url: https://www.health-ri.nl/services/hands
   - name: 23 Things for Research Data Management tool
     description: Shared reference tool for knowledge on data management 
     how_to_access: 
@@ -207,6 +120,17 @@ national_resources:
       your_role: 
       your_tasks:
     url: https://fairaware.dans.knaw.nl
+  - name: 
+    description: Overviews of competencies for data stewards for three data steward roles (policy, research and infrastructure)
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain:
+      your_role: 
+      your_tasks:
+    url: https://fairaware.dans.knaw.nl    
+    
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources:
@@ -214,6 +138,7 @@ ref_to_main_resources:
   - Molgenis
   - XNAT
   - Data Stewardship Wizard
+  - WikiPathways
 
 ---
 
@@ -227,16 +152,15 @@ ref_to_main_resources:
 ## Introduction 
 This is an overview of research data management resources in the Netherlands, relevant for researchers in the Netherlands and to their collaborators. 
 
-The [ELIXIR Netherlands website](https://elixir-europe.org/about-us/who-we-are/nodes/netherlands) provides information on the organisation of and resources for ELIXIR Netherlands partners. The Dutch ELIXIR Node is hosted by the [Dutch Techcentre for Life Sciences (DTL)](https://www.dtls.nl), which is a public-private partnership of more than 50 life science institutions, and focuses on data stewardship capacity building, services and infrastructure to support FAIR implementation for the Dutch life science research. 
+The [ELIXIR Netherlands website](https://elixir-europe.org/about-us/who-we-are/nodes/netherlands) provides information on the organisation of and resources for ELIXIR Netherlands partners. The Dutch ELIXIR Node is hosted by the [Dutch Techcentre for Life Sciences (DTL)](https://www.dtls.nl), a public-private partnership of more than 50 life science institutions, and focuses on data stewardship capacity building, services and infrastructure to support FAIR implementation for the Dutch life science research. 
 
 ## Funders
-National funders [NWO](https://www.nwo.nl/en/research-data-management) and [ZonMw](https://www.zonmw.nl/en/research-and-results/fair-data-and-data-management) consider responsible research data management an essential component of good research practice. They promote FAIR data stewardship - among others via mandatory data management plans, the requirement to deposit and share (meta)data, and facilitating researchers in creating FAIR data (with help of the [GO FAIR Foundation](https://www.gofairfoundation.org/m4m/), Health-RI and DTL). 
-For more information on the requirements for FAIR data stewardship, consult the funders’ webpages and their particular policies about data management and Open Science.
+National funders [NWO](https://www.nwo.nl/en/research-data-management) and [ZonMw](https://www.zonmw.nl/en/research-and-results/fair-data-and-data-management) consider responsible research data management an essential component of good research practice. They promote FAIR data stewardship - among others via mandatory data management plans, the requirement to deposit and share (meta)data, and facilitating researchers in creating FAIR data, with help of the [GO FAIR Foundation](https://www.gofairfoundation.org/), Health-RI and DTL. For information on the requirements for FAIR data stewardship, visit the funders’ webpages and consult their particular policies on data management and Open Science.
 
 ## National initiatives
-Together with [Health-RI](https://www.health-ri.nl), DTL will have a leading role in the national roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/news/setup-thematic-digital-competence-centers) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network was formally established in the spring of 2022, and is contributing to strengthening and harmonising the digital practises among stakeholders in the broad Dutch research domains of life sciences and biomedical/health sciences.
+Together with [Health-RI](https://www.health-ri.nl), DTL is leading the national roadmap for the [Thematic Digital Competence Center (TDCC)](https://www.nwo.nl/en/researchprogrammes/implementation-plan-investments-digital-research-infrastructure/roadmaps-three) for Life Science & Health (LSH), funded by NWO. The TDCC LSH network was established in the spring of 2022, and is contributing to strengthening and harmonising the digital practises among stakeholders in the broad Dutch research domains of life sciences and biomedical/health sciences. The TDCC-LSH is collaborating cross-domain with Social Sciences and Humanities (TDCC-SSH) and Natural and Engineering Sciences (TDCC-NES). 
 
-Moreover, DTL also coordinates the National Programme Open Science (NPOS) [FAIR Data Programme Line](https://www.openscience.nl/en/fair-data-programme-line).
+Moreover, DTL also coordinates the National Programme Open Science (NPOS) [FAIR Data Programme Line](https://www.openscience.nl/en/npos-2/), and has delivered the reports [Towards FAIR data steward as profession for the lifesciences](https://doi.org/10.5281/zenodo.3471707) and [Professionalising data stewardship in the Netherlands](https://doi.org/10.5281/zenodo.4320504), including the [NPOS/ELIXIR Data Stewardship Competency Framework](https://www.dtls.nl/fair-data/training/).
 
 The following national services provide useful information and support:
 * [The National Coordination Point Research Data Management](https://www.lcrdm.nl/en) (LCRDM)
@@ -247,9 +171,10 @@ The following national services provide useful information and support:
 * [Research Data Netherlands](https://researchdata.nl/en/) (RDNL), collaboration of SURF, 4TU.ResearchData, DANS and DTL to contribute to strengthening the National Programme Open Science, and helping create a FAIR research ecosystem across science fields, and its [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) Training 
 * The [DTL Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/) (DSIG), the Dutch (and beyond) community hub for data stewardship that enables informal and inclusive knowledge and experience exchange
 * [NL-RSE](https://nl-rse.org/), the Dutch community of people writing and contributing to research software
-* The Dutch [Open Science Communities](https://www.openscience.nl/en/open-science-communities) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science
+* The Dutch [Open Science Communities](https://www.osc-nl.com/) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science
 * [RDA-NL](https://www.rd-alliance.org/groups/rda-netherlands), the Dutch Research Data Alliance Node 
 
 ## Assistance
-Researchers seeking practical assistance best check [RDM in the Netherlands](https://www.lcrdm.nl/en/rdm-in-the-netherlands), which provides information on the various local universities’ and university medical centers support desks.
- 
+* Researchers seeking practical assistance best check [RDM in the Netherlands](https://www.lcrdm.nl/en/rdm-in-the-netherlands), which provides information on the various local universities’ and university medical centers support desks
+* Researchers can contact the [Health-RI service desk](https://www.health-ri.nl/health-ri-service-desk) for practical guidelines, tools and services, or the [ELSI servicedesk](https://elsi.health-ri.nl/) for ethical, legal and social issues
+* The [X-omics helpdesk](https://x-omics.nl/helpdesk) provides researchers assistance with X-omics research infrastructure
