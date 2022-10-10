@@ -1,10 +1,10 @@
 title: RDMkit
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-description: "Find the answers to your Research Data Management questions in Life Sciences."
+description: "Best practices and guidelines you can use for FAIR management of your research data."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.17.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.19.0
 
 sass:
   style: compressed
@@ -17,6 +17,8 @@ dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root:l
 # prefix for DSW deep links to a certain question
 
 theme_variables:
+  topnav:
+    theme: dark
   theme_color: c23669
   fonts:
     - https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap

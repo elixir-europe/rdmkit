@@ -1,7 +1,7 @@
 ---
 title: Data organisation
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
-description: best practices to name and organise research data.
+description: Best practices to name and organise research data
 page_id: data organisation
 related_pages: 
   tool_assembly: [ome, transmed, XNAT-PIC]
@@ -38,7 +38,7 @@ Brief and descriptive file names are important in keeping your data files organi
 * Balance with the amount of elements: too many makes it difficult to understand vs too few makes it general.
 * Order the elements from general to specific.
 * Use meaningful abbreviations.
-* Use underscore (_), hypen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
+* Use underscore (_), hyphen (- ) or capitalized letters to separate elements in the name. Don’t use spaces or special characters: ?!& , * % # ; * ( ) @$ ^ ~ ‘ { } [ ] < >.
 * Use date format ISO8601: YYYYMMDD, and time if needed HHMMSS.
 * Include a unique identifier (see: [Identifiers](identifiers))
 * Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.

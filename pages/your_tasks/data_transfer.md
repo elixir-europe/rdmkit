@@ -1,7 +1,7 @@
 ---
 title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi] 
-description: how to transfer data files.
+description: How to transfer data files
 page_id: transfer
 related_pages: 
     tool_assembly: []
@@ -87,6 +87,6 @@ There are many aspects to consider when dealing with data transfer.
         * [WinSCP](https://winscp.net/eng/index.php)
 
 
-* When using data transfer protocol, make sure to check the transfer. During the transfer some data might become corrupted, thus it is important to check if the files you transfered have conserved their integrity. This can be done with hash algorithms. A checkshum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
+* When using data transfer protocol, make sure to check the transfer. During the transfer some data might become corrupted, thus it is important to check if the files you transferred have conserved their integrity. This can be done with hash algorithms. A checksum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
     * md5
     * SHA

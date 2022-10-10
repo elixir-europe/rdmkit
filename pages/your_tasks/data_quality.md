@@ -1,7 +1,7 @@
 ---
 title: Data quality
 contributors: [Wei Gu, Pinar Alper, Kees van Bochove]
-description: ensure high quality research data.
+description: Ensure high quality research data
 page_id: data quality
 related_pages: 
     tool_assembly: []
@@ -60,4 +60,4 @@ Examples of such measures are:
   
 * For health data.
   * The [Book of OHDSI](http://book.ohdsi.org) has several [chapters](https://ohdsi.github.io/TheBookOfOhdsi/EvidenceQuality.html) on methods for assessing the data quality of observational health datasets, split out by data quality, clinical validity, software validity and method validity.
-  * The [OHDSI DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard) is a software framework for asesssing the quality and suitability of routinely generated healthcare data that is represented in the [OMOP Common Data Model](https://ohdsi.github.io/CommonDataModel/). Frameworks proposed in the literature, to define and evaluate overall data quality, could be used to create computational representations of the data quality of a dataset, such as the one visualized in the [OHDSI Data Quality Dashboard](https://github.com/OHDSI/DataQualityDashboard), which leverages the Kahn framework referenced above (adapted from [original thehyve.nl blogpost](https://www.thehyve.nl/articles/fair-data-for-machine-learning)).
+  * The [OHDSI DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard) is a software framework for assessing the quality and suitability of routinely generated healthcare data that is represented in the [OMOP Common Data Model](https://ohdsi.github.io/CommonDataModel/). Frameworks proposed in the literature, to define and evaluate overall data quality, could be used to create computational representations of the data quality of a dataset, such as the one visualized in the [OHDSI Data Quality Dashboard](https://github.com/OHDSI/DataQualityDashboard), which leverages the Kahn framework referenced above (adapted from [original thehyve.nl blogpost](https://www.thehyve.nl/articles/fair-data-for-machine-learning)).

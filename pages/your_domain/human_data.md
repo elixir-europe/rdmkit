@@ -1,8 +1,9 @@
 ---
 title: Human data
+description: Data management solutions for human data
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
 page_id: human data
-related_pages: 
+related_pages:
   your_tasks: [sensitive]
   tool_assembly: [TSD, Covid-19, transmed]
 training:
@@ -26,7 +27,7 @@ dsw:
 
 ## Introduction
 
-When you do research on data derived from human individuals, there are additional aspects that must be considered during the data life cycle. Note, much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in the EU and on individuals residing in the EU. 
+When you do research on data derived from human individuals, there are additional aspects that must be considered during the data life cycle. Note, much of the topics discussed on this page will refer to the EU General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research done on human subjects in the EU and on individuals residing in the EU.
 Much of the information on this page is of a general nature when it comes to working with human data, an additional focus is on human genomic data and the sharing of such information for research purposes.
 
 ## Planning for, and collection of, human research data
@@ -38,12 +39,12 @@ For research on human data, you must follow established research ethical guideli
 ### Considerations
 
 * Have you got an **ethical permit** for your research project?
-  * To get an ethical permit, you have to apply for an **ethical review** by an **ethical review board**. 
+  * To get an ethical permit, you have to apply for an **ethical review** by an **ethical review board**.
     - The legislation that governs this differs between countries. Do seek advice from your research institute.
   * In most cases, you should get **informed consents** from your research subjects.
     - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimize those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.
       - Consider describing data use conditions using a machine-readable formalized description such as [DUO](https://github.com/EBISPOT/DUO). This will greatly improve the possibilities to make the data FAIR later on.
-    - Informed consents should be aquired for different purposes:
+    - Informed consents should be acquired for different purposes:
       - It is a cornerstone of _research ethics_. Regardless of legal obligations, it is important to ask for informed consents as it is a good research ethics practice and maintains trust in research.
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
       - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
@@ -55,21 +56,21 @@ For research on human data, you must follow established research ethical guideli
     * See [Data protection](data_protection) for more information on this law.
     * The sensitivity of your data affects what considerations you have make when handling it, see [Determining the sensitivity of your data](sensitive_data) for more information.
     * For some sensitive data you have to perform a Data Protection Impact Assessments. In general, any biomedical research on human subjects will need to do this.
-  * Outside EU 
+  * Outside EU
     * For countries outside the EU, the [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf) list relevant legislations.
 
 
 ### Solutions
   * [Tryggve ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
-  * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects. 
-  * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements 
-  * [Privacy Impact Assessment Tool](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assesment) is a software tool to make Data Protection Impact Assessments. 
+  * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects.
+  * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
+  * [Privacy Impact Assessment Tool](https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assesment) is a software tool to make Data Protection Impact Assessments.
   * [MONARC](https://open-source-security-software.net/project/MONARC) is a risk assessment tool that can be used to do Data Protection Impact Assessments
   * [Data Use Ontology](https://github.com/EBISPOT/DUO)
   * [Informed Consent Ontology](https://github.com/ICO-ontology/ICO)
   * [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/)
   * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
-  * [BBMRI-ERIC's ELSI Knowledge Base](https://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance. 
+  * [BBMRI-ERIC's ELSI Knowledge Base](https://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance.
 
 
 
@@ -93,8 +94,8 @@ For human data, it is very important to use technical and procedural measures to
 * Locating tools and platforms suited to handle human data
   - Local research infrastructures might have established compute and/or storage solutions with strong information security measures tailored for working on human data (see some examples below). Contact your institute or your ELIXIR node for guidance.
     - Denmark - [Computerome](https://computerome.dk/)
-    - Finland - [ePouta](https://research.csc.fi/-/epouta), which is part of the [CSC Tools Assembly](fi_csc_assembly)
-    - Norway - [TSD Tools Assembly](NO_TSD_assembly)
+    - Finland - [ePouta](https://research.csc.fi/-/epouta), which is part of the [CSC Tools Assembly](csc_assembly)
+    - Norway - [TSD Tools Assembly](tsd_assembly)
     - Sweden - [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
     - Spain - [MareNostrum](https://www.bsc.es/marenostrum/access-to-supercomputing-resources)
   - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on datasets that do not leave the place where they are stored.
@@ -103,8 +104,8 @@ For human data, it is very important to use technical and procedural measures to
 
 
 ### Solutions
- 
-* [EUPID](https://eupid.eu/#/home) is a tool that allows researchers to generate unique pseudonyms for patients that participate in rare disease studies. 
+
+* [EUPID](https://eupid.eu/#/home) is a tool that allows researchers to generate unique pseudonyms for patients that participate in rare disease studies.
 * [RD-Connect Genome Phenome Analysis Platform](https://rd-connect.eu/) is a platform to improve the study and analysis of Rare Diseases.
 * [DisGeNET](https://www.disgenet.org/) is a platform containing collections of genes and variants associated to human diseases.
 * [PMut](http://mmb.irbbarcelona.org/PMut) is a platform for the study of the impact of pathological mutations in protein structures.
@@ -127,13 +128,13 @@ It is a good ethical practice to ensure that data underlying research is preserv
 * Depositing data in an international repository
   * To make the data as accessible as possible according to the FAIR principles, do deposit the data in an international repository under controlled access whenever possible, see the section _Sharing & Reusing of human research data_ below
 * Legal obligations for preserving research data
-  * In some countries there are legal obligations to preserve research data long-term, e.g. for ten years. 
+  * In some countries there are legal obligations to preserve research data long-term, e.g. for ten years.
   * Even if the data has been deposited in an international repository, this might not live up to the requirements of the law.
   * The legal responsibility for preserving the data would in most cases lie with the research institution where you perform your research. You should consult the Research Data and/or IT support functions of your institution.
 * Information security
   * The solutions you use need to provide information security measures that are appropriate for storing personal data, see the section _Processing and Analysing human research data_ above. Note that the providers of the solutions must be made aware that there are probably extra information security measures needed for long-term storage of this type of data.
 *  Regardless of where your data is preserved long-term, do ensure that it is associated with proper metadata according to community standards, to promote FAIR sharing of the data.
-* Planning for long-term storage 
+* Planning for long-term storage
   * Do address these issues of long-term preservation and data publication as early as possible, preferably already at the planning stage. If you are relying on your research institution to provide a solution, it might need time to plan for this.
 
 ### Solutions
@@ -145,7 +146,7 @@ It is a good ethical practice to ensure that data underlying research is preserv
 
 ### Description
 To make human research data reusable for others, it must be discoverable, stored in a safe way, and it must be clear under what circumstances it can be reused.
-  
+
 ### Considerations
 
 * Selecting suitable access modes for sharing human data
@@ -155,11 +156,11 @@ To make human research data reusable for others, it must be discoverable, stored
     * **Controlled access**: Data can only be shared with researchers, whose research is reviewed and approved by a data access committee (DAC). Typically  researchers, who were involved in the primary collection of data will form the DAC. Use conditions for controlled-access could be a multitude and includes allowed research topics, allowed geographical regions, allowed recipients e.g. non-profit organisations.
 
 * Publishing Human Research Data
-  * It is highly recommended that Human Research Data is shared under controlled access. There are emerging models of sharing data through repositories under federated models. 
+  * It is highly recommended that Human Research Data is shared under controlled access. There are emerging models of sharing data through repositories under federated models.
   * The **European Genome-phenome Archive (EGA)** is the prime repository for human genomic and phenotypic data. The EGA applies a controlled access model.
 
 * Transferring human data
-  * Transferring human data has to be done in a secure way in order to avoid breaches of privacy. Encrypting of human data whilst it is being transferred provides successful protection if the data is intercepted by an external party while the transfer is being done. 
+  * Transferring human data has to be done in a secure way in order to avoid breaches of privacy. Encrypting of human data whilst it is being transferred provides successful protection if the data is intercepted by an external party while the transfer is being done.
 
 ### Solutions
 * The [European Genome-phenome Archive (EGA)](https://ega-archive.org/) is an international service for secure archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical studies and healthcare centres. Human genomic data is considered Sensitive data and is protected by European GDPR, therefore access must be restricted to authorized users. The EGA platform offers secure and European law-compliant data storage, working with GA4GH standards for encryption and storage. At the same time, data is discoverable in the EGA website and shareable with other researchers through authorization and authentication protocols. The right to allow access belongs to the Data providers (and not to the EGA), who are responsible to sign a DAA (Data Access Agreement) with researchers requesting access to their data. The EGA hosts data from all around the world and distributes it where and when the data providers’ law allows.

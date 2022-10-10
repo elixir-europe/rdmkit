@@ -310,7 +310,7 @@ Kees van Bochove:
 Cyril Pommier:
     git: cpommier
     orcid: 0000-0002-9040-8733
-    affiliation: INRA / ELIXIR-FR
+    affiliation: INRAE / ELIXIR-FR
 Frederik Delaere:
     git: fretn
 Nadim Rahman:
@@ -380,9 +380,13 @@ Ana Portugal Melo:
     email: ammelo@igc.gulbenkian.pt
     affiliation: BioData.pt / INESC-ID
 Erwan Le Floch:
-    git: ErwanLeFloch
+    git: erlefloch
+    orcid: 0000-0002-1010-6859
+    affiliation: INRAE / ELIXIR-FR
 Marco Carraro:
     git: marcocarraro
+    email: marco.carraro.1@unipd.it
+    orcid: 0000-0003-0770-1822
 Evangelos Pafilis: 
     git: evangelospafilis
     orcid: 0000-0001-5079-0125
@@ -419,3 +423,18 @@ Carla Cummins:
     email: carlac@ebi.ac.uk
     orcid: 0000-0002-5394-8896
     affiliation: EMBL-EBI
+Philip van Damme:
+    git: PhilipvD 
+    email: p.vandamme@amsterdamumc.nl
+    orcid: 0000-0002-7124-8949
+    affiliation: Amsterdam UMC
+Daniel Arend:
+    git: arendd
+    email: arendd@ipk-gatersleben.de
+    orcid: 0000-0002-2455-5938
+    affiliation: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben
+Ishwar Chandramouliswaran:
+    git: cishwar
+    orcid: 0000-0001-9697-9599
+    affiliation: NIH / OD
+    role: editor
