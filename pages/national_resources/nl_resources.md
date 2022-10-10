@@ -26,9 +26,9 @@ national_resources:
     instance_of: 
     related_pages:
       tool_assembly: 
-      your_domain:
+      your_domain: [human_data]
       your_role: [researcher]
-      your_tasks:
+      your_tasks: [data_analysis, existing_data, storage]
     url: https://www.health-ri.nl/services/health-ri-service-catalogue 
   - name: BBMRI catalogue
     description: Biobanking Netherlands makes biosamples, images and data findable, accessible and usable for health research.
@@ -36,29 +36,19 @@ national_resources:
     instance_of: 
     related_pages:
       tool_assembly: 
-      your_domain:
+      your_domain: [human_data]
       your_role: [researcher]
-      your_tasks:
-    url: https://www.bbmri.nl
-  - name: Jupyter Notebooks
-    description: Making data analyses easier. Store, share and reproduce data analyses. Quick insight into your data analyses and disseminate research. results fast.
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain:
-      your_role: [researcher]
-      your_tasks:
-    url: https://www.surf.nl/en/jupyter-notebook-accessible-and-interactive-data-analysis-for-research-and-education     
+      your_tasks: [data_analysis, existing_data, storage]
+    url: https://www.bbmri.nl    
   - name: CBS, Statistics Netherlands
     description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data in the life sciences and health domain.
     how_to_access: 
     instance_of: 
     related_pages:
       tool_assembly: 
-      your_domain:
+      your_domain: [human_data]
       your_role: [researcher]
-      your_tasks:
+      your_tasks: [existing_data]
     url: https://www.cbs.nl/en-gb/our-services/customised-services-microdata/microdata-conducting-your-own-research/microdata-catalogue
   - name: Technology Hotels
     description: More than 130 Technology Hotels offer access to high-end technology and expertise in the field of bioimaging, bioinformatics, genomics, medical imaging, metabolomics, phenotyping, proteomics, structural biology, and/or systems biology.
@@ -66,9 +56,9 @@ national_resources:
     instance_of: 
     related_pages:
       tool_assembly: 
-      your_domain:
+      your_domain: [human_data, bioimaging_data, proteomics]
       your_role: [researcher]
-      your_tasks:
+      your_tasks: [compliance_monitoring]
     url: https://www.dtls.nl/technology-hotels/list
   - name: Dutch COVID-19 Data Support Programme
     description: To support investigators and health care professionals with tools and services in their search for ways to overcome the pandemic and its health consequences.
@@ -76,9 +66,9 @@ national_resources:
     instance_of: 
     related_pages:
       tool_assembly: 
-      your_domain:
+      your_domain: [human_data]
       your_role: [researcher]
-      your_tasks:
+      your_tasks: [existing_data]
     url: https://www.health-ri.nl/initiatives/dutch-covid-19-data-support-programme
   - name: RIVM Health and Healthcare Data
     description: The Dutch National Institute for Public Health and the Environment (RIVM), together with other organisations, provides numbers and explanation on relevant topics, to prevent duplication of data collection.
@@ -86,9 +76,9 @@ national_resources:
     instance_of: 
     related_pages:
       tool_assembly: 
-      your_domain:
+      your_domain: [human_data]
       your_role: [researcher]
-      your_tasks:
+      your_tasks: [existing_data]
     url: https://www.vzinfo.nl
   - name: Handbook for Adequate Natural Data Stewardship
     description: Guidelines on data stewardship and practical toolbox for researchers at Dutch University Medical Centres (UMCs).
@@ -98,7 +88,7 @@ national_resources:
       tool_assembly: 
       your_domain: [human data]
       your_role: [researcher]
-      your_tasks: [DMP, compliance]
+      your_tasks: [data_management_plan, compliance_monitoring]
     url: https://www.health-ri.nl/services/hands
   - name: 23 Things for Research Data Management tool
     description: Shared reference tool for knowledge on data management 
@@ -106,9 +96,9 @@ national_resources:
     instance_of: 
     related_pages:
       tool_assembly: 
-      your_domain:
+      your_domain: [human data]
       your_role: [researcher, data_steward_research, data_steward_policy, data_steward_infrastructure]
-      your_tasks:
+      your_tasks: [data_management_plan, compliance_monitoring]
     url: https://23things.sites.uu.nl/
   - name: FAIR-Aware
     description: Online tool which helps researchers and data managers assess how much they know about the requirements for making datasets findable, accessible, interoperable, and reusable (FAIR) before uploading them into a data repository. 
@@ -118,7 +108,7 @@ national_resources:
       tool_assembly: 
       your_domain:
       your_role: [researcher]
-      your_tasks:
+      your_tasks: [data_management_plan, compliance_monitoring, data_publication]
     url: https://fairaware.dans.knaw.nl  
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
