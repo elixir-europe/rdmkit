@@ -78,5 +78,9 @@
   date: 2022-09-22
   linked_pr: 986
   description: A "your domain" page about Rare disease data. [Discover the page here](rare_disease_data).
+- name: "New page: National resources Netherlands"
+  date: 2022-10-10
+  linked_pr: 939
+  description: This page gives an insight in RDM on national level in the Netherlands. [Discover the page here](nl_resources).
 
 
