@@ -142,3 +142,15 @@
   expose: false
   type: funder
   url: https://ec.europa.eu/
+- name: Data Stewardship Wizard
+  image_url: /images/projects/dsw-logo-full-color-filled.svg
+  pid: 
+  expose: yes
+  type: project
+  url: https://ds-wizard.org/
+- name: FAIR Cookbook
+  image_url: /images/projects/cookbook-logo.png
+  pid: 
+  expose: yes
+  type: project
+  url: https://faircookbook.elixir-europe.org/
