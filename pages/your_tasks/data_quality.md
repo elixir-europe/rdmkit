@@ -8,7 +8,7 @@ related_pages:
 dsw:
 - name: Will you be using quality processes?
   uuid: ba38b16d-2154-4372-b445-7854a6e90443
-- name: Did you consider how to monitor data integrity once it has been collected?
+- name: Will you monitor data integrity once it has been collected?
   uuid: 02b3fed1-0b50-4a80-b8b6-a225a1107022
 faircookbook:
 - name: Provenance information

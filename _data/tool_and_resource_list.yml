@@ -1523,6 +1523,8 @@
   url: http://www.insdc.org
 - description: Data standards and formats for reporting flow cytometry data
   name: International Society for the Advancement of Cytometry (ISAC)
+  registry:
+    biotools: isac
   related_pages:
   - micro biotech
   url: https://isac-net.org/page/Data-Standards
@@ -2321,6 +2323,7 @@
   name: REDCap
   registry:
     biotools: redcap
+    tess: REDCap
   related_pages:
   - identifiers
   - IT support
