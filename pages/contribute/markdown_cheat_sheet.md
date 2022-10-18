@@ -356,7 +356,7 @@ To have space between two lines of text, simply leave one empty line in between 
 <br>
 ```
 
-## Enfore line break
+## Enforce line break
 
 When you want to have a line of text.\\
 And another line underneath it without space, use:
