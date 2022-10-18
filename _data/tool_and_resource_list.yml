@@ -536,6 +536,14 @@
   related_pages:
   - toxicology data
   url: https://clinicaltrials.gov/
+- description: A collection of software applications which enables creation, storing
+    and publishing of "Common Data Elements" according to the CDE semantic model.
+  name: Common Data Elements (CDE) in a box
+  registry:
+    biotools: cde
+  related_pages:
+  - rare disease
+  url: https://github.com/ejp-rd-vp/cde-in-box
 - description: An open standard for describing workflows that are build from command
     line tools
   name: Common Workflow Language (CWL)
@@ -1080,6 +1088,29 @@
   related_pages:
   - researcher
   url: https://europepmc.org/
+- description: A programme aiming to create an effective rare diseases research ecosystem
+    for progress, innovation and for the benefit of everyone with a rare disease.
+  name: European Joint Programme on Rare Diseases (EJP RD)
+  related_pages:
+  - rare disease
+  url: https://www.ejprarediseases.org/
+- description: This core model is designed to represent data about a rare disease
+    patient and biosample registries. The model is based on and builds on existing
+    standards, such as the European Rare Disease Registry Infrastructure and the Common
+    Data Elements from the rare disease community and other more generalised standards
+    for data sharing such as the W3C DCAT vocabulary.
+  name: European Joint Programme on Rare Diseases Metadata Model
+  related_pages:
+  - rare disease
+  url: https://github.com/ejp-rd-vp/resource-metadata-schema
+- description: 'The Virtual Platform is a federated ecosystem, in which resources
+    are enhanced to be amenable to rare disease research, and made Findable, Accessible,
+    Interoperable and Reusable: data stays at the source level but can be queyrable
+    at distance from an EJP RD query point.'
+  name: European Joint Programme on Rare Diseases Virtual Platform (EJP RD)
+  related_pages:
+  - rare disease
+  url: https://vp.ejprarediseases.org/
 - description: A record of sequence information scaling from raw sequcning reads to
     assemblies and functional annotation
   name: European Nucleotide Archive (ENA)
@@ -1092,6 +1123,29 @@
   - plant geno assembly
   - data brokering
   url: https://www.ebi.ac.uk/ena/browser/home
+- description: ERDRI.dor provides an overview of participating rare disease registries
+    with their main characteristics and description.
+  name: European Rare Disease Registry Infrastructure directory of registries (ERDRI.dor)
+  related_pages:
+  - rare disease
+  url: https://eu-rd-platform.jrc.ec.europa.eu/erdridor/
+- description: ERDRI.mdr serves to ease the integration of heterogeneous data from
+    different rare disease registries. For this purpose, it contains a collection
+    of metadata which specifies the used data elements of a registry including the
+    designation of the used data elements, their definition and units of measurement.
+  name: European Rare Disease Registry Infrastructure metadata repository (ERDRI.mdr)
+  related_pages:
+  - rare disease
+  url: https://eu-rd-platform.jrc.ec.europa.eu/mdr/
+- description: Virtual networks involving healthcare providers across Europe. They
+    aim to facilitate discussion on complex or rare diseases and conditions that require
+    highly specialised treatment, and concentrated knowledge and resources.
+  name: European Reference Networks (ERNs)
+  registry:
+    tess: European Reference Networks (ERNs)
+  related_pages:
+  - rare disease
+  url: https://health.ec.europa.eu/european-reference-networks_en
 - description: Open-access database of all types of genetic variation data from all
     species.
   name: European Variation Archive (EVA)
@@ -1143,6 +1197,16 @@
   - data manager
   - transmed
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
+- description: A FAIR Data Point stores metadata in a standardized and sharable way.
+  name: FAIR Data Point (FDP)
+  registry:
+    fairsharing: '298'
+    tess: FAIR Data Point
+  related_pages:
+  - rare disease
+  - metadata
+  - IT support
+  url: https://www.fairdatapoint.org/
 - description: Resources and guidelines to assess the FAIRness of digital resources.
   name: FAIR Evaluation Services
   related_pages:
@@ -2529,6 +2593,12 @@
   - storage
   - transfer
   url: https://www.seafile.com/
+- description: A semantic data model describing the common data elements for rare
+    diseases registration.
+  name: Semantic data model of the set of common data elements for rare diseases registration
+  related_pages:
+  - rare disease
+  url: https://github.com/ejp-rd-vp/CDE-semantic-model
 - description: All-in-one platform for life science data management, semantic data
     integration, data analysis and visualization
   name: semares
@@ -2540,6 +2610,12 @@
   - IT support
   - storage
   url: www.genevention.com/products
+- description: Contains 16 data elements to be registered by each rare disease registry
+    across Europe, which are considered to be essential for further research.
+  name: Set of common data elements for rare diseases registration
+  related_pages:
+  - rare disease
+  url: https://eu-rd-platform.jrc.ec.europa.eu/set-of-common-data-elements_en
 - description: A scripting language for creating Synthetic Biology Open Language (SBOL)
     in a more abstract way.
   name: ShortBOL
@@ -2888,78 +2964,3 @@
   - data manager
   - researcher
   url: https://www.ebi.ac.uk/spot/zooma/
-- description: ERDRI.dor provides an overview of participating rare disease registries
-    with their main characteristics and description.
-  name: European Rare Disease Registry Infrastructure directory of registries (ERDRI.dor)
-  related_pages:
-  - rare disease
-  url: https://eu-rd-platform.jrc.ec.europa.eu/erdridor/
-- description: ERDRI.mdr serves to ease the integration of heterogeneous data from
-    different rare disease registries. For this purpose, it contains a collection
-    of metadata which specifies the used data elements of a registry including the
-    designation of the used data elements, their definition and units of measurement.
-  name: European Rare Disease Registry Infrastructure metadata repository (ERDRI.mdr)
-  related_pages:
-  - rare disease
-  url: https://eu-rd-platform.jrc.ec.europa.eu/mdr/
-- description: A programme aiming to create an effective rare diseases research ecosystem
-    for progress, innovation and for the benefit of everyone with a rare disease.
-  name: European Joint Programme on Rare Diseases (EJP RD)
-  related_pages:
-  - rare disease
-  url: https://www.ejprarediseases.org/
-- description: Virtual networks involving healthcare providers across Europe. They
-    aim to facilitate discussion on complex or rare diseases and conditions that require
-    highly specialised treatment, and concentrated knowledge and resources.
-  name: European Reference Networks (ERNs)
-  registry:
-    tess: European Reference Networks (ERNs)
-  related_pages:
-  - rare disease
-  url: https://health.ec.europa.eu/european-reference-networks_en
-- description: Contains 16 data elements to be registered by each rare disease registry
-    across Europe, which are considered to be essential for further research.
-  name: Set of common data elements for rare diseases registration
-  related_pages:
-  - rare disease
-  url: https://eu-rd-platform.jrc.ec.europa.eu/set-of-common-data-elements_en
-- description: A FAIR Data Point stores metadata in a standardized and sharable way.
-  name: FAIR Data Point (FDP)
-  registry:
-    fairsharing: '298'
-    tess: FAIR Data Point
-  related_pages:
-  - rare disease
-  - metadata
-  url: https://www.fairdatapoint.org/
-- description: A semantic data model describing the common data elements for rare
-    diseases registration.
-  name: Semantic data model of the set of common data elements for rare diseases registration
-  related_pages:
-  - rare disease
-  url: https://github.com/ejp-rd-vp/CDE-semantic-model
-- description: A collection of software applications which enables creation, storing
-    and publishing of "Common Data Elements" according to the CDE semantic model.
-  name: Common Data Elements (CDE) in a box
-  registry:
-    biotools: cde
-  related_pages:
-  - rare disease
-  url: https://github.com/ejp-rd-vp/cde-in-box
-- description: 'The Virtual Platform is a federated ecosystem, in which resources
-    are enhanced to be amenable to rare disease research, and made Findable, Accessible,
-    Interoperable and Reusable: data stays at the source level but can be queyrable
-    at distance from an EJP RD query point.'
-  name: European Joint Programme on Rare Diseases Virtual Platform (EJP RD)
-  related_pages:
-  - rare disease
-  url: https://vp.ejprarediseases.org/
-- description: This core model is designed to represent data about a rare disease
-    patient and biosample registries. The model is based on and builds on existing
-    standards, such as the European Rare Disease Registry Infrastructure and the Common
-    Data Elements from the rare disease community and other more generalised standards
-    for data sharing such as the W3C DCAT vocabulary.
-  name: European Joint Programme on Rare Diseases Metadata Model
-  related_pages:
-  - rare disease
-  url: https://github.com/ejp-rd-vp/resource-metadata-schema
