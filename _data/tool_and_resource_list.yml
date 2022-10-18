@@ -2321,6 +2321,7 @@
   name: REDCap
   registry:
     biotools: redcap
+    tess: REDCap
   related_pages:
   - identifiers
   - IT support
