@@ -15,7 +15,7 @@ training:
  
 ### Description
 
-Most national and European funders of (multiparty) projects now require Data management plans (DMPs) that are evaluated before grant awards. Therefore, coordinators of project consortia need to mobilise a dedicated effort to decide on the approach for data management, developing the DMP, using the DMP as a live document over the course of  the project, etc, to ensure that the research outputs from the project follow the FAIR principles. This is new terrain for many people, requiring them to grasp what this entails and figure out who to approach.
+Most national and European funders of (multiparty) projects now require [Data management plans (DMPs)](data_management_plan) that are evaluated before grant awards. Therefore, coordinators of project consortia need to mobilise a dedicated effort to decide on the approach for data management, developing the DMP, using the DMP as a live document over the course of  the project, etc, to ensure that the research outputs from the project follow the [FAIR principles](about#why-are-the-fair-principles-needed). This is new terrain for many people, requiring them to grasp what this entails and figure out who to approach.
 
 ### Considerations
 
@@ -39,7 +39,7 @@ Here, we provide some advice and methods to help consortia with data management 
 * As a monitoring mechanism, some of the milestones and deliverables should be the successful creation of datasets with their metadata and possibly their deposition.
 * If applicable, each partner (actually, its representative) should consult with personal data legislation experts (e.g. GDPR or equivalent), Data Protection Officers (DPOs) and the legal office of the institution (e.g. for technology transfer) to reach a consensus at the consortium level about data protection, availability and open science.
 * It is recommended to discuss as early as possible the licensing and the intellectual property (IP) rights of project outcomes (datasets, software, tools, etc), in order to comply with open science requirements and to avoid legal issues later on. 
-* Discuss a common plan for the sharing of data, metadata and documentation between partners.
+* Discuss a common plan for the sharing of data, [metadata and documentation](metadata_management) between partners.
 
 ## How to execute data management in collaborative projects?
 
@@ -61,11 +61,11 @@ Once the project is awarded, the data management plan needs to be executed durin
   * Agree on data formats (e.g. TXT, MP4, FASTQ), metadata standards (e.g. MIAPPE, MIASE - depends on the type of data generated), and controlled vocabularies/ontologies.
 * Ensure that all partners deposit data according to the agreed data publication strategy.
 * The DMP should be revisited on a regular basis and updated when necessary. Things to look out for are:
-  * Ensuring that the chosen data repositories are fit for purpose.
+  * Ensuring that the chosen [data repositories](data_publication) are fit for purpose.
   * Ensuring that the metadata standards and the ontologies used are fit for purpose. 
   * Ensuring that the strategy for documentation and data exchange is adequate.
   * Planning for long-term storage and data sharing for all partners.
-* Keep it simple, do not burden researchers with too many details, otherwise, nothing will be documented.
+* Try to keep it simple and find a balance between the amount of necessary details and not making documentation overly difficult and discouraging.
 
 ## How to sustain and monitor data management in collaborative projects?
 
@@ -84,10 +84,6 @@ If you want to secure a constant effort on research data management across the w
 * For long-term preservation of valuable project outcomes, try to look for additional funding within your organization or from other funders, or create a feasible strategy to use e.g. institutional, national, or international repositories, with their own preservation policy.
 * Automate backups as much as possible with your IT department and test them. Backup log files should be actively monitored for potential issues.
 * The DMWG should perform regular checks with data hosting project partners to check that data and metadata are produced according to the DMP, and that agreed backup routines are followed. 
-* Post-project preservation of data should consider reproducibility/replicability of the data from a long-term perspective, as well as the potential reuse value. You might want to consult a data preservation service (e.g. national data centres) regarding larger amounts of data. As an initial inspiration, you can start from this data value checklist https://www.bgs.ac.uk/download/ngdc-data-value-checklist/ and adapt it for your legal framework and domain.
+* Post-project preservation of data should consider reproducibility/replicability of the data from a long-term perspective, as well as the potential reuse value. You might want to consult a [data preservation](preserving) service (e.g. national data centres) regarding larger amounts of data. As an initial inspiration, you can start from [this data value checklist](https://www.bgs.ac.uk/download/ngdc-data-value-checklist/) and adapt it for your legal framework and domain.
 * Do not leave the data holders with an impossible task of trying to figure out who can have access to the resources, but rather use a license that allows re-use of data - e.g. some projects (project call level) demand to use CC-BY-4.0 and refrain from using bespoke, non-standard license terms.
 * If data is to be made available to others through a restricted access mechanism, the access granting procedure and responsibilities must be defined and implemented. Note that this *must* work after the end of the project.
-
-
-  
-
