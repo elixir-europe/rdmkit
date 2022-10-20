@@ -40,3 +40,54 @@ Here, we provide some advice and methods to help consortia with data management 
 * If applicable, each partner (actually, its representative) should consult with personal data legislation experts (e.g. GDPR or equivalent), Data Protection Officers (DPOs) and the legal office of the institution (e.g. for technology transfer) to reach a consensus at the consortium level about data protection, availability and open science.
 * It is recommended to discuss as early as possible the licensing and the intellectual property (IP) rights of project outcomes (datasets, software, tools, etc), in order to comply with open science requirements and to avoid legal issues later on. 
 * Discuss a common plan for the sharing of data, metadata and documentation between partners.
+
+## How to execute data management in collaborative projects?
+
+### Description 
+Once the project is awarded, the data management plan needs to be executed during its duration.
+
+### Considerations 
+* Some data management challenges may not have been foreseen at the pre-award stage.
+* Possible difficulties during the execution of the DMP by individual partners may arise. Not all partners have the same skills and resources.
+* Possible problems with data exchange between partners can resurface during the project. 
+* Consider contacting and establishing collaborations for depositing data with key repositories, e.g. setting up an ENA Compare Data Hub for depositing sequence data at the European Nucleotide Archive.
+
+### Solutions 
+* The DMWG should have regular meetings to find appropriate solutions to arising data management issues.
+* The DMWG should make sure all partners are able to implement the data management strategies.
+* Establish a strategy for documentation and exchange of data (within the project and with other collaborators):
+  * Evaluate the value of your project outcomes (datasets, data, tools, etc) and establish which of them are worth preserving long term. 
+  * Define the strategy as early as possible, preferably at the beginning of the project, otherwise it may generate problems.  
+  * Agree on data formats (e.g. TXT, MP4, FASTQ), metadata standards (e.g. MIAPPE, MIASE - depends on the type of data generated), and controlled vocabularies/ontologies.
+* Ensure that all partners deposit data according to the agreed data publication strategy.
+* The DMP should be revisited on a regular basis and updated when necessary. Things to look out for are:
+  * Ensuring that the chosen data repositories are fit for purpose.
+  * Ensuring that the metadata standards and the ontologies used are fit for purpose. 
+  * Ensuring that the strategy for documentation and data exchange is adequate.
+  * Planning for long-term storage and data sharing for all partners.
+* Keep it simple, do not burden researchers with too many details, otherwise, nothing will be documented.
+
+## How to sustain and monitor data management in collaborative projects?
+
+### Description
+If you want to secure a constant effort on research data management across the whole project and after the project, with stable data quality, this requires dedicated monitoring and focus from the project management and the DMWG.
+
+### Considerations
+* Be aware of a possible lack of storage infrastructure, thus requiring financing that might not be part of the initially proposed project budget.
+* Monitor that data is not lost, e.g. by missing or not-implemented backup procedures. 
+* Monitor that metadata is collected, and organized according to agreed standards and that no discrepancies between metadata and reality exist (e.g. sample ID mismatches).
+* Copyright licenses connected to the reuse of the project outputs should be applicable long-term beyond the project's lifetime.
+* Some data might need to be made available through restricted access mechanisms, e.g. for sensitive (personal) data. Safeguarding the functionality of a data access committee beyond the project period requires coordination on an institutional level.
+* The quality, size, location, and reuse of datasets might be an object of project reporting and be used as a performance indicator. 
+
+### Solutions
+* For long-term preservation of valuable project outcomes, try to look for additional funding within your organization or from other funders, or create a feasible strategy to use e.g. institutional, national, or international repositories, with their own preservation policy.
+* Automate backups as much as possible with your IT department and test them. Backup log files should be actively monitored for potential issues.
+* The DMWG should perform regular checks with data hosting project partners to check that data and metadata are produced according to the DMP, and that agreed backup routines are followed. 
+* Post-project preservation of data should consider reproducibility/replicability of the data from a long-term perspective, as well as the potential reuse value. You might want to consult a data preservation service (e.g. national data centres) regarding larger amounts of data. As an initial inspiration, you can start from this data value checklist https://www.bgs.ac.uk/download/ngdc-data-value-checklist/ and adapt it for your legal framework and domain.
+* Do not leave the data holders with an impossible task of trying to figure out who can have access to the resources, but rather use a license that allows re-use of data - e.g. some projects (project call level) demand to use CC-BY-4.0 and refrain from using bespoke, non-standard license terms.
+* If data is to be made available to others through a restricted access mechanism, the access granting procedure and responsibilities must be defined and implemented. Note that this *must* work after the end of the project.
+
+
+  
+
