@@ -15,7 +15,7 @@ training:
  
 ### Description
 
-Most national and European funders of (multiparty) projects now require [Data management plans (DMPs)](data_management_plan) that are evaluated before grant awards. Therefore, coordinators of project consortia need to mobilise a dedicated effort to decide on the approach for data management, developing the DMP, using the DMP as a live document over the course of  the project, etc, to ensure that the research outputs from the project follow the [FAIR principles](about#why-are-the-fair-principles-needed). This is new terrain for many people, requiring them to grasp what this entails and figure out who to approach.
+Most national and European funders of (multi-partner) projects now require [Data management plans (DMPs)](data_management_plan) that are evaluated before grant awards. Therefore, coordinators of a project consortia need to mobilise a dedicated effort to decide on the approach for data management, developing the DMP, using the DMP as a live document over the course of the project, and so on, to ensure that the research outputs from the project follow the [FAIR principles](about#why-are-the-fair-principles-needed). This is new terrain for many people, requiring them to grasp what this entails and figure out who to approach.
 
 ### Considerations
 
