@@ -58,7 +58,7 @@ Once the project is awarded, the data management plan needs to be executed durin
 * Establish a strategy for documentation and exchange of data (within the project and with other collaborators):
   * Evaluate the value of your project outcomes (datasets, data, tools, etc) and establish which of them are worth preserving long term. 
   * Define the strategy as early as possible, preferably at the beginning of the project, otherwise it may generate problems.  
-  * Agree on data formats (e.g. TXT, MP4, FASTQ), metadata standards (e.g. MIAPPE, MIASE - depends on the type of data generated), and controlled vocabularies/ontologies.
+  * Agree on relevant data formats (e.g. TXT, MP4, FASTQ), metadata standards (e.g. MIAPPE, MIASE), and controlled vocabularies/ontologies - all these depend on the type of data generated.
 * Ensure that all partners deposit data according to the agreed data publication strategy.
 * The DMP should be revisited on a regular basis and updated when necessary. Things to look out for are:
   * Ensuring that the chosen [data repositories](data_publication) are fit for purpose.
