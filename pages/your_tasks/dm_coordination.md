@@ -65,7 +65,7 @@ Once the project is awarded, the data management plan needs to be executed durin
   * Ensuring that the metadata standards and the ontologies used are fit for purpose. 
   * Ensuring that the strategy for documentation and data exchange is adequate.
   * Planning for long-term storage and data sharing for all partners.
-* Try to keep it simple and find a balance between the amount of necessary details and not making documentation overly difficult and discouraging.
+* Try to keep it simple and find a balance between the amount of necessary details, to avoid making documentation difficult and discouraging.
 
 ## How to sustain and monitor data management in collaborative projects?
 
