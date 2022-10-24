@@ -21,7 +21,7 @@ Most national and European funders of (multi-partner) projects now require [Data
 
 * During the writing stage of a grant proposal, members of a multi partners project or consortium need to agree on how to address data management during (and after) the project, and formalise the way of working in the proposal.
 * What information regarding data management is needed at different phases (preparation, submission, execution, wrap up, reporting to the funders) in the project needs to be decided in advance.
-* There is a need to understand the institutional landscape in terms of legal requirements, data policies, IT services, etc. that are needed to carry out the project. They might vary among individual institutions in the project consortium:
+* There is a need to understand the institutional landscape in terms of legal requirements, data policies, IT services, and so on that are essential to carry out the project. They might vary among individual institutions involved in the project consortium:
   * Not every institution has a centralised IT department to support data management; often data management is carried out by the group itself without help from the IT department.
   * Legal and ethical requirements, data policies, etc. can be very different or even not be in place in some institutions.
 * Data management strategies and the types of data generated can change during the project.
