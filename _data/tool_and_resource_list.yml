@@ -809,6 +809,7 @@
   name: DisProt
   registry:
     biotools: disprot
+    fairsharing: dt9z89
     tess: DisProt
   related_pages:
   - IDP
