@@ -243,7 +243,7 @@ A DMP typically contains information about data handling during a project and af
 
 <!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
 
-ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/). This is an internationally developed tool which has been adapted to better suit the needs of Norwegian researchers, PIs and institutions. DSW provides templates which are compliant  with all different funder regulations and offers machine-actionable DMP exports in addition. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs contain partially prefilled with domain-specific recommendations amd can be used as  a starting point for own projects.
+ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/). This is an internationally developed tool which has been adapted to better suit the needs of Norwegian researchers, PIs and institutions. DSW provides templates which are compliant  with all different funder regulations, is [recommened by RCN](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) and offers machine-actionable DMP exports in addition. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs contain partially prefilled with domain-specific recommendations amd can be used as  a starting point for own projects.
 
 
 ## Life science-specific infrastructures/resources
