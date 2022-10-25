@@ -37,7 +37,7 @@ resources:
       your_tasks: [DMP]
     url: https://elixir-no.ds-wizard.org/
   - name: EasyDMP
-    description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/)
+    description: DMP tool from [UNINETT Sigma2](https://www.sigma2.no/)
     instance_of: EasyDMP
     how_to_access: Feide
     related_pages:
@@ -100,7 +100,7 @@ resources:
       tool_assembly: [NeLS]
     url: https://documentation.sigma2.no/files_storage/nird.html
   - name: Sigma2 HPC systems
-    description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS (SIKT)](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
+    description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
     how_to_access: A formal application is required to gain access to the storage services.
     related_pages:
       your_tasks: [data analysis]
@@ -184,13 +184,11 @@ List of funders with Data Management Policies in Norway:
 
 We provide here a non-exhaustive list of research institutions with Data Management Policies in Norway:
 
-* [Norwegian University of Life Sciences, NMBU](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34680)
-* [Norwegian University of Science and Technology](https://www.ntnu.edu/policy-for-open-science)
-* [University of Bergen](https://www.uib.no/en/ub/111372/research-data)
-* [University of Oslo](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-and-guidelines/index.html)
-* [The Arctic University of Norway](https://en.uit.no/regelverk/sentraleregler#innhold_740835)
-* [University of Stavanger](https://www.uis.no/en/library/researchdata)
-* [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
+* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34680)
+* [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/policy-for-open-science)
+* [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/research-data)
+* [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-and-guidelines/index.html)
+* [The Arctic University of Norway (UiT)](https://en.uit.no/regelverk/sentraleregler#innhold_740835)
 
 ### Institutional storage guidelines
 
@@ -202,19 +200,19 @@ Most universities in Norway classify data into four categories, depending on acc
 
 Details and provided solutions vary according to each institution. They are based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
 
-* [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
-* [Norwegian University of Science and Technology](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
-* [University of Bergen](https://regler.app.uib.no/regler/Del-4-OEkonomi-eiendom-og-IKT/4.3-Informasjons-og-kommunikasjonsteknologi/Styringssystem-for-informasjonssikkerhet-og-personvern-Del-II-Gjennomfoerende-del/#kartlegging-og-klassifisering-av-informasjon)
-* [University of Oslo](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
-* [The Arctic University of Norway](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
+* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
+* [Norwegian University of Science and Technology (NTNU)](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
+* [University of Bergen (UiB)](https://regler.app.uib.no/regler/Del-4-OEkonomi-eiendom-og-IKT/4.3-Informasjons-og-kommunikasjonsteknologi/Styringssystem-for-informasjonssikkerhet-og-personvern-Del-II-Gjennomfoerende-del/#kartlegging-og-klassifisering-av-informasjon)
+* [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
+* [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
 ### Institutional guidelines related to personal data
-* [Norwegian University of Life Sciences](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
-* [Norwegian University of Science and Technology - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
+* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
+* [Norwegian University of Science and Technology - Privacy in research guidelines (NTNU)](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
 * [Norwegian University of Science and Technology - Health research guidelines](https://innsida.ntnu.no/helseforskning)
-* [University of Bergen](https://www.uib.no/personvern)
-* [University of Oslo](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
-* [The Arctic University of Norway](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
+* [University of Bergen (UiB)](https://www.uib.no/personvern)
+* [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
+* [The Arctic University of Norway (UiT)](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
 
 ## Support services
 
@@ -222,20 +220,19 @@ There are several support services available to Norwegian Life Science researche
 * [ELIXIR Helpdesk](https://elixir.no/helpdesk)
 * [GBIF Norway Helpdesk for deposition of biodiversity data](https://www.gbif.no/services/)
 * [ELSI Helpdesk for biobanking from BBMRI-NO](https://bbmri.no/help-desk-elsi)
-* [NSD (SIKT) on (sensitive) personal data in research](https://www.nsd.no/en/data-protection-services)
+* [NSD on (sensitive) personal data in research](https://www.nsd.no/en/data-protection-services)
 * University Research Data teams
     * [Norges teknisk-naturvitenskapelige universitet (NTNU)](https://i.ntnu.no/researchdata)
     * [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/open-access-research-data)
     * [University of Oslo (UiO)](https://www.ub.uio.no/english/courses-events/courses/other/research-data/)
-    * [University of Tromsø (UiT)](https://uit.no/forskning/forskningsdata)
+    * [The Arctic University of Norway (UiT)](https://uit.no/forskning/forskningsdata)
     * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
-    * [University of Agder](https://www.uia.no/bibliotek/forskning-og-publisering2/forskningsdata)
 
-* [NRIS/SIKT technical and administrative support](https://www.sigma2.no/user-support)
-
+* [NRIS technical and administrative support](https://www.sigma2.no/user-support)
 
 
-## Life science-specific infrastructures/resources
+
+## Domain-specific infrastructures/resources
 The following resources and tools are relevant to the implemention of data management practices in your specific research area/topic:
 
 * [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](nels_assembly)
@@ -246,7 +243,7 @@ The following resources and tools are relevant to the implemention of data manag
 
 
 ## Ethical committees and general authorities
-We report here a list of ethical committees and general authorities that are responsible for national regulations in Norway:
+We provide here a list of ethical committees and guidelines, relevant to life sciences data, that are responsible for national regulations in Norway:
 ### Data privacy
 * [Norwegian Data Protection Authority](https://www.datatilsynet.no/)
 
