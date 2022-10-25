@@ -184,7 +184,7 @@ List of funders with Data Management Policies in Norway:
 
 We provide here a non-exhaustive list of research institutions with Data Management Policies in Norway:
 
-* [Norwegian University of Life Sciences](https://www.nmbu.no/download/file/fid/31742)
+* [Norwegian University of Life Sciences, NMBU](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34680)
 * [Norwegian University of Science and Technology](https://www.ntnu.edu/policy-for-open-science)
 * [University of Bergen](https://www.uib.no/en/ub/111372/research-data)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-and-guidelines/index.html)
@@ -222,10 +222,11 @@ There are several support services available to Norwegian Life Science researche
 * [ELSI Helpdesk for biobanking from BBMRI-NO](https://bbmri.no/help-desk-elsi)
 * [NSD on (sensitive) personal data in research](https://www.nsd.no/en/data-protection-services)
 * University Research Data teams
-    * [Research Data @ NTNU](https://i.ntnu.no/researchdata)
-    * [Research Data @ UiB](https://www.uib.no/en/ub/111372/open-access-research-data)
-    * [Research Data @ UiO](https://www.ub.uio.no/english/courses-events/courses/other/research-data/)
-    * [Research Data @ UiT](https://uit.no/forskning/forskningsdata)
+    * [Norges teknisk-naturvitenskapelige universitet (NTNU)](https://i.ntnu.no/researchdata)
+    * [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/open-access-research-data)
+    * [University of Oslo (UiO)](https://www.ub.uio.no/english/courses-events/courses/other/research-data/)
+    * [University of Tromsø (UiT)](https://uit.no/forskning/forskningsdata)
+    * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
 
 * [NRIS technical and administrative support](https://www.sigma2.no/user-support)
 
