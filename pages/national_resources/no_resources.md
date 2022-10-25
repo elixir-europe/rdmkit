@@ -168,7 +168,7 @@ The Norwegian government has released a
 
 List of funders with Data Management Policies in Norway:
 
-* [Norges Forskningsråd (Research Council of Norway) Policy](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
+* [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The research data management  [policy](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf) of RCN requires a Data Management Plan (DMP) after a positive funding decision for each project and which also has to be submitted as part of the final report. RCN  recommends to follow the  ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and  performers.  In addition to policies for open science and open access to publications, [RCN provides recommendations on how to make data research available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). 
 
 
 ##  Institutional policies on research data
