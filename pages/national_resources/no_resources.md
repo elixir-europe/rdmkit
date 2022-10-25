@@ -37,7 +37,7 @@ resources:
       your_tasks: [DMP]
     url: https://elixir-no.ds-wizard.org/
   - name: EasyDMP
-    description: DMP tool from [UNINETT Sigma2](https://www.sigma2.no/)
+    description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/)
     instance_of: EasyDMP
     how_to_access: Feide
     related_pages:
@@ -100,7 +100,7 @@ resources:
       tool_assembly: [NeLS]
     url: https://documentation.sigma2.no/files_storage/nird.html
   - name: Sigma2 HPC systems
-    description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
+    description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS (SIKT)](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
     how_to_access: A formal application is required to gain access to the storage services.
     related_pages:
       your_tasks: [data analysis]
@@ -189,6 +189,8 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Bergen](https://www.uib.no/en/ub/111372/research-data)
 * [University of Oslo](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-and-guidelines/index.html)
 * [The Arctic University of Norway](https://en.uit.no/regelverk/sentraleregler#innhold_740835)
+* [University of Stavanger](https://www.uis.no/en/library/researchdata)
+* [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 
 ### Institutional storage guidelines
 
@@ -220,15 +222,16 @@ There are several support services available to Norwegian Life Science researche
 * [ELIXIR Helpdesk](https://elixir.no/helpdesk)
 * [GBIF Norway Helpdesk for deposition of biodiversity data](https://www.gbif.no/services/)
 * [ELSI Helpdesk for biobanking from BBMRI-NO](https://bbmri.no/help-desk-elsi)
-* [NSD on (sensitive) personal data in research](https://www.nsd.no/en/data-protection-services)
+* [NSD (SIKT) on (sensitive) personal data in research](https://www.nsd.no/en/data-protection-services)
 * University Research Data teams
     * [Norges teknisk-naturvitenskapelige universitet (NTNU)](https://i.ntnu.no/researchdata)
     * [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/open-access-research-data)
     * [University of Oslo (UiO)](https://www.ub.uio.no/english/courses-events/courses/other/research-data/)
     * [University of Tromsø (UiT)](https://uit.no/forskning/forskningsdata)
     * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
+    * [University of Agder](https://www.uia.no/bibliotek/forskning-og-publisering2/forskningsdata)
 
-* [NRIS technical and administrative support](https://www.sigma2.no/user-support)
+* [NRIS/SIKT technical and administrative support](https://www.sigma2.no/user-support)
 
 
 
