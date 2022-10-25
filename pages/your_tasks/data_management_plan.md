@@ -1,14 +1,13 @@
 ---
 title: Data management plan
 contributors: [Flora D'Anna, Daniel Faria]
-description: how to write a Data Management Plan (DMP).
+description: How to write a Data Management Plan (DMP)
 page_id: DMP
 related_pages: 
   tool_assembly: [NeLS, TSD]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+management+plan%22#materials
 ---
 

@@ -4,10 +4,10 @@ page_id: analyse
 related_pages: 
   your_tasks: [data analysis, data organisation, storage]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
+description: How to manage the data analysis stage
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 ---
 
@@ -19,11 +19,11 @@ According to the different types of data (quantitative or qualitative) the data 
 
 ## Why is data analysis important?
 
-Since data analysis is the stage where new knowledge and information are generated, it can be considered as central in the research process. Because of the relevance of the data analysis stage in research findings, it is essential that the analysis workflow applied to a dataset complies with the FAIR principles. Moreover, it is extremily important that the analysis workflow is reproducible by other researchers and scientists.  
+Since data analysis is the stage where new knowledge and information are generated, it can be considered as central in the research process. Because of the relevance of the data analysis stage in research findings, it is essential that the analysis workflow applied to a dataset complies with the FAIR principles. Moreover, it is extremely important that the analysis workflow is reproducible by other researchers and scientists.  
 With many disciplines becoming data-oriented, more data intensive projects will arise which will require experts from dedicated fields.
 
 ## What should be considered for data analysis?
-Because of the diversity of domains and techologies in Life Sciences, data can be either "small" or "big data". As a consequence, the methods and technical solutions used for data analysis might differ. The characteristics of "big data" are often summarized by a growing list of ["V" properties: Volume, Velocity, Variety, Variability, Veracity, Visualization and Value](https://bigdatapath.wordpress.com/2019/11/13/understanding-the-7-vs-of-big-data/).
+Because of the diversity of domains and technologies in Life Sciences, data can be either "small" or "big data". As a consequence, the methods and technical solutions used for data analysis might differ. The characteristics of "big data" are often summarized by a growing list of ["V" properties: Volume, Velocity, Variety, Variability, Veracity, Visualization and Value](https://bigdatapath.wordpress.com/2019/11/13/understanding-the-7-vs-of-big-data/).
 
 * The data analysis stage relies on the previous stages (collection, processing) that will lay the foundations for the generation of new knowledge by providing accurate and trustworthy data.
 * The location of your data is important because of the need of proximity with computing resources. This can impact data transfer across the different infrastructures. It is worthwhile to compare the cost of the transfer of massive amounts of data compared to the transfer of virtual images of machines for the analysis.

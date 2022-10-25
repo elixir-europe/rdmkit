@@ -1,10 +1,14 @@
 ---
 title: Toxicology data
+description: Data management solutions for toxicology data
 contributors: [Manuel Pastor, Janet Piñero Gonzalez, Juan Manuel Ramírez-Anguita, Ferran Sanz, Miguel Angel Mayer, Laura Portell Silva]
 page_id: toxicology data
 related_pages: 
   your_tasks: [data analysis]
   tool_assembly: []
+dsw:
+- name: Will you need existing data for toxicology research
+  uuid: a781badf-f7ee-4588-9478-d31470f00c38
 ---
 
 ## Introduction
@@ -90,7 +94,7 @@ Harmonization of terminologies can be achieved by using different resources:
 - The [OHDSI](https://www.ohdsi.org/analytic-tools/athena-standardized-vocabularies/) initiative for health data harmonization is an alternative solution for the mapping of vocabularies needed for the harmonization of different resources. This initiative maintains the ATHENA set of vocabularies which is in constant evolution and covers relevant domains in the realm of health care. The OHDSI community is paying special attention to the mappings between medication identifiers coming from national regulatory agencies of the countries of provenance of the institutions involved in the initiative, and the RxNorm identifier which is the standard vocabulary used by OHDSI.
 - Resources in the context of environmental ([ITER](https://www.tera.org/iter/), [IRIS](https://www.epa.gov/iris)) or occupational ([Haz-Map](https://haz-map.com/)) toxicity using CAS Registry Number identifiers can be connected with those in the pharmaceutical field prone to use [ChEMBL](https://www.ebi.ac.uk/chembl/) identifiers via molecular identifiers available in both resources like the standard InChI or standard InChI Key representations. Services like EBI’s [UniChem](https://www.ebi.ac.uk/unichem/) can help to translate between different chemical identifiers.
 
-To import unstructured data sources into structured schemas is a really challenging task as it involves the application of natural language processing technologies. The development of these tools in the field of toxicology is still at the embrionary stage but several initiatives exist:
+To import unstructured data sources into structured schemas is a really challenging task as it involves the application of natural language processing technologies. The development of these tools in the field of toxicology is still at the embryonic stage but several initiatives exist:
 
 - The [LimTox](http://limtox.bioinfo.cnio.es/) system is a text mining approach devoted to the extraction of associations between chemical agents and hepatotoxicity.
 - The [AOP4EUpest](http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php) webserver is a resource for the identification of annotated pesticides-biological events involved in Adverse Outcome Pathways (AOPs) via text mining approaches.

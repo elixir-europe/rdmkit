@@ -1,10 +1,17 @@
 ---
-title: Compliance monitoring & measurement 
+title: Compliance monitoring & measurement
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
-description: measure compliance to data management regulations and standards.
+description: Measure compliance to data management regulations and standards
 page_id: compliance
-related_pages: 
+related_pages:
   tool_assembly: [transmed]
+faircookbook:
+- name: Creating a data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: FAIR Evaluator tool
+  url: https://w3id.org/faircookbook/FCB049
+- name: FAIRshake tool
+  url: https://w3id.org/faircookbook/FCB050
 ---
 
 ## How can you measure and document data management capabilities?
@@ -31,20 +38,20 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 * RDA developed a first set of [guidelines and a checklist](https://zenodo.org/record/3909563#.YKZV3i0RpN1) related to the implementation of the FAIR indicators.
 * The [FAIRplus project](https://fairplus-project.eu) with its [FAIR Cookbook](https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#) provides services, tools, and indicators necessary for the assessment or the evaluation of data against the FAIR Principles:
     * [FAIR Evaluators](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!) are an automated approach to evaluate FAIRness of data services.
-    * [FAIRassist.org](https://fairassist.org/#!/) aims to collect and describe existing resources for the assessment and/or evaluation of digital objects against the FAIR principles. 
+    * [FAIRassist.org](https://fairassist.org/#!/) aims to collect and describe existing resources for the assessment and/or evaluation of digital objects against the FAIR principles.
 * Information Security, Data Protection, Accountability
   *  [21 CFR part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) is a standard, which outlines criteria for electronic records in an IT system to be as valid as signed paper
 records. It is widely adopted in lab information systems and applications used in clinical trials and medical research.
   *  [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres.
-  *  [ISO/IEC 27018](http://data-reuse.eu/wp-content/uploads/2017/02/ISO-Standards.pdf) is a standard aimed to be a code of practice for protection of personally identifiable information (PII) in public clouds.
+  *  [ISO/IEC 27018](https://www.iso.org/standard/76559.html) is a standard aimed to be a code of practice for protection of personally identifiable information (PII) in public clouds.
 
 ## How can you ethically access genetic resources of another country?
 
 ### Description
 
-If during your research project you need to access or transport genetic resources and/or associated traditional knowledge from any country, you should comply to all relevant (inter)national legislation. One important legislation in this case is the Nagoya Protocol. The Nagoya Protocol specifies the Access and Benefit-Sharing (ABS) principles, established by the Convention on Biological Diversity (CBD), for countries providing and using genetic resources in a legally binding way. 
+If during your research project you need to access or transport genetic resources and/or associated traditional knowledge from any country, you should comply to all relevant (inter)national legislation. One important legislation in this case is the Nagoya Protocol. The Nagoya Protocol specifies the Access and Benefit-Sharing (ABS) principles, established by the Convention on Biological Diversity (CBD), for countries providing and using genetic resources in a legally binding way.
 
-Article 3 of CBD clarifies, that states have sovereign rights over their own (biological and genetic) resources. Negotiations concluded in 2014 with the Nagoya Protocol on ABS. Since then, working with genetic resources and associated data of another country requires more preparatory measures. The aim of the Nagoya protocol is to ensure fair and equitable sharing of benefits arising from utilisation of genetic resources and from traditional knowledge associated with genetic resources. Many contries, as well as the EU, are parties of the Nagoya Protocol and information on this can be found at the [ABS Clearing House](https://absch.cbd.int/). By enactment of [EU Regulation No. 511/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0511) the obligations were implemented in the EU on 12.10.2014. Here you can find a short video about [ABS – Simply Explained](https://www.youtube.com/watch?v=09zflWUIKTQ&t=306s).
+Article 3 of CBD clarifies, that states have sovereign rights over their own (biological and genetic) resources. Negotiations concluded in 2014 with the Nagoya Protocol on ABS. Since then, working with genetic resources and associated data of another country requires more preparatory measures. The aim of the Nagoya protocol is to ensure fair and equitable sharing of benefits arising from utilisation of genetic resources and from traditional knowledge associated with genetic resources. Many countries, as well as the EU, are parties of the Nagoya Protocol and information on this can be found at the [ABS Clearing House](https://absch.cbd.int/). By enactment of [EU Regulation No. 511/2014](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0511) the obligations were implemented in the EU on 12.10.2014. Here you can find a short video about [ABS – Simply Explained](https://www.youtube.com/watch?v=09zflWUIKTQ&t=306s).
 
 [Genetic resources are defined](https://ec.europa.eu/environment/nature/biodiversity/international/abs/pdf/Glossary%20for%20Europa.pdf) as “all genetic material of actual or potential value. Essentially, the term encompasses all living organisms (plants, animals and microbes) that carry genetic material potentially useful to humans. Genetic resources can be taken from the wild, domesticated or cultivated. They are sourced from: natural environments (in situ) or human-made collections (ex situ) (e.g. botanical gardens, gene banks, seed banks and microbial culture collections).".
 [The definition of “traditional knowledge associated with genetic resources”](https://ec.europa.eu/environment/nature/biodiversity/international/abs/pdf/Glossary%20for%20Europa.pdf) is left to the Parties of the Protocol instead. However, in the context of the Nagoya Protocol, “the term is used in relation to the knowledge, innovations and practices of indigenous and local communities that result from the close interaction of such communities with their natural environment, and specifically to knowledge that may provide lead information for scientific discoveries on the genetic or biochemical properties of genetic resources. It is characteristic of traditional knowledge that it is not known outside the community holding such knowledge.”.
@@ -62,7 +69,7 @@ Article 3 of CBD clarifies, that states have sovereign rights over their own (bi
 
 * In the planning stage of your research project, allow extra time to familiarise yourself with the legal requirements. In order to determine if the Nagoya Protocol applies to your research, take a look at:
   * The European documents [Sharing nature's genetic resources – ABS](https://ec.europa.eu/environment/nature/biodiversity/international/abs/index_en.htm) and [Access and Benefit Sharing](https://ec.europa.eu/environment/nature/biodiversity/international/abs/material_en.htm).
-  * The dedicated websites [Nagoya Protocol](cbd.int/abs/) or [ABS Clearing-House](https://absch.cbd.int/).
+  * The dedicated websites [Nagoya Protocol](https://www.cbd.int/abs/) or [ABS Clearing-House](https://absch.cbd.int/).
   * Look for "Nagoya Protocol checklists for researchers" available in your institution to determine if the Nagoya Protocol applies to your research.
   * Ask help to legal experts and get in contact with the corresponding office in your country or the legal team in your institution.
 * If ABS principles and Nagoya Protocol apply to your project, make sure to:

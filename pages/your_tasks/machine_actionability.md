@@ -1,17 +1,21 @@
 ---
 title: Machine actionability
 contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat Sarntivijai, Nazeefa Fatima, Rafael Andrade Buono, Alex Henderson, Korbinian Bösl, Dominik Martinat, M-Christine Jacquemot-Perbal]
-description: how to make machine-actionable (meta)data.
+description: How to make machine-actionable (meta)data
 page_id: machine actionability
 related_pages: 
     tool_assembly: []
-faircookbook:
-- name: Search engine optimization
-  url: https://w3id.org/faircookbook/FCB010
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure
   uuid: a797cab9-0829-4787-a096-1b5cedc9147f
+faircookbook:
+- name: Unique, persistent identifiers
+  url: https://w3id.org/faircookbook/FCB006
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?
@@ -27,7 +31,7 @@ More and more often, funders, data managers/stewards, IT staff and institutions 
     * "Machine-readable: data in a data format that can be automatically read and processed by a computer, such as [CSV](https://opendatahandbook.org/glossary/en/terms/csv/), [JSON](https://opendatahandbook.org/glossary/en/terms/json/), [XML](https://opendatahandbook.org/glossary/en/terms/xml/), etc. Machine-readable data must be [structured data](https://opendatahandbook.org/glossary/en/terms/structured-data/).", [Open Data Handbook](https://opendatahandbook.org/glossary/it/terms/machine-readable/).
     * "Machine-readable data, or computer-readable data, is data in a format that can be processed by a computer. Machine-readable data must be structured data.", [Wikipedia](https://en.wikipedia.org/wiki/Machine-readable_data).
     * "Machine-actionable: this term refers to information that is structured in a consistent way so that machines, or computers, can be programmed against the structure.", [DDI](https://ddialliance.org/taxonomy/term/198).
-    * Machine-interpretable: machines can put the provided information into context and “understand” the meaning (semantics) and relations contained in the digital object. This concept is strictly related to the [Semantic Web](https://www.w3.org/standards/semanticweb/) vision and the [Linked Data](https://www.w3.org/standards/semanticweb/data) concept. See e.g. [What Is the Semantic Web?](https://www.ontotext.com/knowledgehub/fundamentals/what-is-the-semantic-web/).
+    * Machine-interpretable: machines can put the provided information into context and “understand” the meaning (semantics) and relations contained in the digital object. This concept is related to the [Semantic Web](https://www.w3.org/standards/semanticweb/) vision and the [Linked Data](https://www.w3.org/standards/semanticweb/data) concept. See e.g. [What Is the Semantic Web?](https://www.ontotext.com/knowledgehub/fundamentals/what-is-the-semantic-web/).
 
   The terms _machine-readable_ and _machine-actionable_ are often used interchangeably as synonymous. It is because of the variety of possible definitions for data that can be processed in some form by computers, that we decided to use the term **_machine-actionable_** in the remainder of this document to refer to this type of (meta)data.
 
@@ -45,7 +49,7 @@ More and more often, funders, data managers/stewards, IT staff and institutions 
 ### Solutions 
 For RDM in Life Sciences, machine-actionable metadata and data should:
 * Be structured data: "data where the structural relation between elements is explicit in the way the data is stored on a computer disk.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/).
-* Be in a format that allows "many types of structure to be represtented.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/). For instance, JSON and XML for text files; certain formats for e.g. images that include structured (meta)data in a structured format.
+* Be in a format that allows "many types of structure to be represented.", [Open Data Handbook](https://opendatahandbook.org/glossary/en/terms/structured-data/). For instance, JSON and XML for text files; certain formats for e.g. images that include structured (meta)data in a structured format.
   * Common formats such as XML and JSON contribute to [syntactic interoperability](https://en.wikipedia.org/wiki/Interoperability) between machines.
 * Be interpreted by computer systems unambiguously. The meaning (semantic) of the (meta)data should be unique and shared among computer systems.
   * Syntaxes such as JSON-LD and RDF/XML contribute to [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability#Semantic_as_a_function_of_syntactic_interoperability).

@@ -1,5 +1,6 @@
 ---
 title: Marine metagenomics
+description: Data management solutions for marine metagenomics data
 contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
 related_pages: 
 page_id: marine
@@ -9,13 +10,12 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=marine%20metagenomics
 ---
 
 ## Introduction
 
-The marine metagenomics domain is characterized by large datasets that require access to substantial [storage](storage) and High-Performance Computing (HPC) for running complex and memory-intensive [analysis](analysing) pipelines, and therefore are difficult to handle for typical end-users and beyond the resources of many service providers. With respect to [sharing](sharing) metagenomics datasets in compliance with the FAIR principles, so that they can be [reused](reuse), it hinges entirely on recording rich metadata about all the steps from sampling to data analysis.
+The marine metagenomics domain is characterized by large datasets that require access to substantial [storage](storage) and High-Performance Computing (HPC) for running complex and memory-intensive [analysis](analysing) pipelines, and therefore are difficult to handle for typical end-users and beyond the resources of many service providers. With respect to [sharing](sharing) metagenomics datasets in compliance with the FAIR principles, so that they can be [reused](reusing), it hinges entirely on recording rich metadata about all the steps from sampling to data analysis.
 
 ## Managing marine metagenomic metadata
  
@@ -28,7 +28,7 @@ Moreover, in marine metagenomics, it is also necessary to characterize the marin
 - As a starting point to get acquainted with the intricacies of reporting marine metagenomics experiments, the following publications are recommended reading: 
   - [The metagenomic data life-cycle: standards and best practices](https://doi.org/10.1093/gigascience/gix047) which describes the metagenomics data life-cycle in detail.
   - [Marine microbial biodiversity, bioinformatics and biotechnology (M2B3) data reporting and service standards](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4511511/), guided by marine microbial research, and providing clear examples and colour-coded illustrations.
-- Metadata standards that apply to marine metagenomics data are the [Genome Standards Consortium](https://gensc.org/) family of minimum information standards, including the core standard, [Minimum Information about any (x) Sequence (MIxS)](https://gensc.org/mixs/), the derived [Minimum Information about (Meta)genome Sequence (MIGS/MIMS)](http://wiki.gensc.org/index.php?title=MIGS/MIMS), and the also derived [Minimum Information About a Metagenome-Assembled Genome (MIMAG)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6436528/) that is presently only available as a scientific publication. 
+- Metadata standards that apply to marine metagenomics data are the [Genome Standards Consortium](https://gensc.org/) family of minimum information standards, including the core standard, [Minimum Information about any (x) Sequence (MIxS)](https://gensc.org/mixs/), the derived [Minimum Information about (Meta)genome Sequence (MIGS/MIMS)](https://gensc.org/mixs/), and the also derived [Minimum Information About a Metagenome-Assembled Genome (MIMAG)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6436528/) that is presently only available as a scientific publication. 
 
 ## Tools and resources for analyzing metagenomics datasets
 

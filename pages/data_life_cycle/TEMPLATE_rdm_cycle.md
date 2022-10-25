@@ -2,13 +2,13 @@
 title: -ing form of the stage name - (e.g. analysing, rather than just analyse)
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
+description: <!---REPLACE THIS with a one sentence description of the page--->
 page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
 related_pages: 
   your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
 training:
   - name:
     registry:
-    registry_url:
     url:
 ---
 

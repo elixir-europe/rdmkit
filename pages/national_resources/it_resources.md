@@ -1,42 +1,32 @@
 ---
 
 title: Italy
-search_exclude: true
 country_code: IT
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
+contributors: [Marco Carraro, Ivan Mičetić]
+coordinators: [Marco Carraro]
 
 related_pages: 
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+  tool_assembly: []
 
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
-    url: <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
-  - name: ELIXIR NODENAME community in Zenodo
-    registry: Zenodo
-    registry_url: https://zenodo.org
-    url: <!--- https://zenodo.org/communities/elixir NODENAME --->
-  - name: ELIXIR NODENAME YouTube
-    url: <!--- URL of the channel --->
-  - name: <!---REPLACE THIS with the name of your training in registry or platform--->
-    registry: <!---REPLACE THIS with the name of the registry--->
-    registry_url: <!---REPLACE THIS with the url of the registry--->
-    url: <!---REPLACE THIS with the url of your training registry or platform--->
+    url: https://tess.elixir-europe.org/materials?node=Italy
 
-resources:
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+national_resources:
+  - name: Open-science.it
+    description: Italian portal dedicated to the field of open science
+    how_to_access: 
+    instance_of: 
     related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-    url:
+      tool_assembly: []
+      your_domain: []
+      your_role: [data manager, researcher]
+      your_tasks: [DMP]
+    url: https://open-science.it/
+
 ---
+
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
 <!---Following information for the page text--->
@@ -45,12 +35,31 @@ resources:
 <!---Please focus on resources that are relevant for the whole country for life sciences--->
 
 ## Introduction 
-<!---General RDM considerations for your country, how to deal with RDM on a national level--->
+This page provides a general overview of national resources on Research Data Management (RDM) in Italy.
 
-## Funders
+[ICDI](https://www.icdi.it/it/) (Italian Computing and Data Infrastructure) is a forum created by representatives of the main Italian research institutions and e-Infrastructures. Aim of this initiative is the promotion of synergies at national level in order to strengthen the Italian effort in tackling the current European challenges in data management, such as the European Open Science Cloud (EOSC), the European Data Infrastructure (EDI) and High Performance Computing (HPC).
 
-## Regulations
-<!--- Ethical and legal regulations in the country, committees etc --->
+Its activities articulate around tre main actions:
 
-## Domain-specific infrastructures or resources 
-<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
+* Federated cloud platform task force
+* EOSC competence centre task force
+* National working groups
+
+Data management support and training for life science researchers is provided at national level by the Italian ELIXIR Node, hosted at the Italian Infrastructure for Bioinformatics ([IIB](https://elixir-italy.org/)).
+
+The Research Data Alliance ([RDA](https://www.rd-alliance.org/groups/rda-italy)) Italian Node is hosted at the CNR Institute of Information Science and Technologies (CNR-ISTI) and provides support and training for both humanities and STEM.
+
+Italian [OpenAIRE NOAD](https://www.openaire.eu/contact-noads) (National Open Access Desk) is in place in order to develop capacity at local level and to provide expert advice on infrastructures, supporting workflows for open science.
+
+### Open-science.it
+[Open-science.it](https://open-science.it/home)  is the Italian portal dedicated to the field of open science (in Italian).
+
+The resource is part of [ICDI](https://www.icdi.it/it/)  activities, hosting the Open-science.it editorial committee.
+Information in the portal is organised according to the point of view of 4 types of users:
+* researchers 
+* funding bodies
+* local institutions
+* citizens
+
+In addition, a catalogue of more than 50 open access policy documents from Italian universities is available, along with international reference documents as reports, recommendations and guidelines about open science.
+

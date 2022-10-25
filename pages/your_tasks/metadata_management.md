@@ -1,10 +1,15 @@
 ---
 title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
-description: how to document and describe your data.
+description: How to document and describe your data
 page_id: metadata
-related_pages: 
+related_pages:
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
+dsw:
+- name: Will the metadata be available even when the data no longer exists?
+  uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd
+- name: How will you be collecting and keeping your metadata?
+  uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
 faircookbook:
 - name: Introduction to terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB019
@@ -12,27 +17,30 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB025
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
-dsw:
-- name: How will you be collecting and keeping your metadata?
-  uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
-- name: Will the metadata be available even when the data no longer exists?
-  uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd
+- name: Search engine optimization
+  url: https://w3id.org/faircookbook/FCB010
+- name: Selecting terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB020
+- name: Requesting new terms
+  url: https://w3id.org/faircookbook/FCB021
+- name: Ontology-related tools and services
+  url: https://w3id.org/faircookbook/FCB022
 ---
 
 ## How can you document data during the project?
- 
+
 ### Description
 Data documentation could be defined as the clear description of everything that a new “data user” or “your future-self” would need to know in order to find, understand, reproduce and reuse your data, independently. Data documentation should clearly describe how you generated or used the data, why, and where to find the related files. It could be used also as onboarding documentation for new colleagues, even if the responsible researcher leaves the project.
- 
+
 Due to the large variety of experiments, techniques and collaborative studies that usually occur within the same project, it is challenging to keep good documentation. However, lack of good data documentation often leads to data loss, not reproducible results and therefore, waste of money and time for scientists. Here we provide best practices and guidelines to help you properly document your data.
- 
+
 ### Considerations
 * Write the documentation in such a way that someone else who is known to the field can not mis-interpret any of the data, even if they tried.
 
 * It is best practice to use one appropriate tool or an integration of multiple tools (also called tool assembly or ecosystem) for data documentation during a project. Suitable tools for data documentation are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services (such as OSF) could also be used as ELN or data management systems. Check with your institute to know what is offered.
 
 * Independently of the tools you will use, data documentation is needed at two levels: documentation about the entire study or project and documentation about individual records, observations or data points.
-  * Study-level documentation describes the project title and summary, study aims, authors, institutions involved, funds, methods, licence and identifier for each dataset, folders structure, file naming conventions, versioning system, relation between files or tables and other general information. 
+  * Study-level documentation describes the project title and summary, study aims, authors, institutions involved, funds, methods, licence and identifier for each dataset, folders structure, file naming conventions, versioning system, relation between files or tables and other general information.
   * Data-level documentation provides information about individual records or data point, such as the meaning of each variable name, label, ID or type (numeric, string, regular expression, date, etc), units (i.e., cm, kg…), experimental factors, categories, controlled vocabulary or ontology terms accepted as values for each variable, missing values code and so on. An example could be a data file that contains a "sex" field: someone known to the field could try to misinterpret that from "external sex organs present at birth" to "chromosomal XX or XY" or "high or low testosterone level" or "social gender" or other. In order to avoid this, the way the assignment is made must be part of the documentation or of the data itself (controlled vocabulary).
 
 * Both the study- and data-level documentation must be generated as early as possible in the research process and also maintained, in order to be accurate and complete
@@ -40,7 +48,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 * Documentation is also required when publishing your data. General-purpose repositories usually require only study-level documentation, while discipline-specific repositories generally require both study-level and data-level documentation. Importantly, repositories often accept data and documentation in a very strict format: they can require a predefined set of attributes or fields (metadata checklists) to be filled, ontology terms to be used, specific (meta)data schemas (e.g., ISA model, MAGE-TAB) to be adopted. We recommend familiarizing yourself with  the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data accordingly as early as possible.
 
 * Make sure the documentation is kept close to the data, so that nobody will be exposed to the data without being able to find the documentation.
- 
+
 ### Solutions
 * There are many appropriate tools for data documentation during the project. Check with your institute to know what is offered.
   * Electronic Lab Notebooks (ELNs) are usually better for more disparate and unstructured information that requires flexibility. Researchers can use ELN in a personalized way and adapt it to document their every-day work.
@@ -55,7 +63,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
     * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
     * [University of Cambridge - Electronic Research Notebook Products.](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products)
 
-* Independently of the tools, you should agree on and establish a [data organisation](https://rdmkit.elixir-europe.org/data_organisation.html) system for files (or tables in a database) together with your team or [Data Management Working Group](https://rdmkit.elixir-europe.org/data_quality.html#how-do-you-ensure-the-quality-of-research-data): 
+* Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data):
   * Folder structure
   * File naming convention
   * Versioning system
@@ -104,7 +112,7 @@ There are multiple standards for different types of data, ranging from generic d
   * On the repository website, go through the submission process (try to submit some dummy data) to identify metadata requirements. For instance, if you consider publishing your transcriptomic data in ArrayExpress, you can make your metadata spreadsheet by using [Annotare 2.0 submission tool](https://www.ebi.ac.uk/fg/annotare/), at the beginning of the project.
   * Be aware that data type specific repositories usually have check-lists for metadata. For example, the European Nucleotide Archive provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
-* If you don’t know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information ...your topic”, e.g. [MIAME](http://fged.org/projects/miame/) or [MINSEQE](http://fged.org/projects/minseqe/) or [MIAPPE](https://www.miappe.org)) required for your type of data in your community, or other metadata, at the following resources:
+* If you don’t know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information ...your topic”, e.g. [MIAME](https://www.fged.org/projects/miame) or [MINSEQE](https://www.fged.org/projects/minseqe) or [MIAPPE](https://www.miappe.org)) required for your type of data in your community, or other metadata, at the following resources:
   * [Research Data Alliance (RDA): Metadata Dictionary: Standards](https://rd-alliance.github.io/metadata-directory/standards/)
   * [FAIRsharing.org](https://fairsharing.org) at “Standards” and “Collections”
   * [The Digital Curation Centre (DCC): List of Metadata Standards](https://www.dcc.ac.uk/guidance/standards/metadata/list)
@@ -125,7 +133,7 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
 * Understand your goal with sharing data. Which formal requirements (by e.g. by funder or publisher) need to be fulfilled? Which parts of your data would benefit the most from adopting ontologies?
 * Learn the basics about ontologies. This will be helpful when you search for terms in ontologies and want to understand how terms are related to one another.
 * Accept that one ontology may not be sufficient to describe your data. It is very common that you have to combine terms from more than one ontology.
-* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Chosing the best available term is often better than not chosing a term at all. Note that the same concept may also be present in multiple ontologies.
+* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Choosing the best available term is often better than not choosing a term at all. Note that the same concept may also be present in multiple ontologies.
 
 
 ### Solutions
@@ -136,4 +144,3 @@ There are many vocabularies and ontologies to be found on the web. Finding a sui
   * [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
   * [Ontobee](http://www.ontobee.org)
   * [Schemapedia](https://schemapedia.com)
-
