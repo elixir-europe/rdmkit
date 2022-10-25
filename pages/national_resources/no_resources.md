@@ -233,6 +233,18 @@ There are several support services available to Norwegian Life Science researche
 
 * [NRIS technical and administrative support](https://www.sigma2.no/user-support)
 
+## Data Management Planning
+A data management plan (DMP) is currently requested by
+* The research performing institutions 
+* RCN upon project funding
+* International funding programs (e.g. Horizon Europe, European Research Council)
+
+A DMP typically contains information about data handling during a project and after its completion and makes it possible to identify (and budget for) significant issues to be resolved (e.g. storage). While some of the institutions mentioned above require DMPs to follow a certain standard, this does not apply to all local institutions (e.g. [UiO does not currently enforce any specific template](https://www.uio.no/english/for-employees/support/research/research-data-management-old/data-management-plan/)). There are several tools available for creating a DMP. 
+
+<!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
+
+ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/). This is an internationally developed tool which has been adapted to better suit the needs of Norwegian researchers, PIs and institutions. DSW provides templates which are compliant  with all different funder regulations and offers machine-actionable DMP exports in addition. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs contain partially prefilled with domain-specific recommendations amd can be used as  a starting point for own projects.
+
 
 ## Life science-specific infrastructures/resources
 
@@ -241,7 +253,7 @@ The following resources and tools are relevant to the implemention of data manag
 * [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](nels_assembly)
 * [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
 * [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](tsd_assembly)
-* [Covid-19 Data Portal](https://covid19dataportal.no/)
+* [The Norwegian Covid-19 Data Portal](https://covid19dataportal.no/)
 * [Marine metagenomics Portal - Tool Assembly RDMkit Page](marine_metagenomics_assembly)
 
 
