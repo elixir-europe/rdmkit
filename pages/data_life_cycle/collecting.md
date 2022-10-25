@@ -1,13 +1,13 @@
 ---
 title: Collecting
 page_id: collect
+description: Data management at the data collection stage
 related_pages: 
   your_tasks: [data organisation, data quality, existing data, identifiers, metadata, sensitive, storage]
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22data+collection%22#materials
 dsw:
 - name: Specify a list of data sets you will be producing

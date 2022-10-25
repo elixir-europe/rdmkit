@@ -48,12 +48,12 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
   * **Schema/scheme:** Use "schema" if you mean a pattern for structuring data. The plural is "schemas". 
-  * **Titles:** only the first word and acronyms are capitalised.
+  * **Titles (the "title" in the front matter of pages):** only the first word, proper nouns and acronyms are capitalised.
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
-  * **White space:** make sure there is plenty of space space so that the main elements stand out and the text does not appear overwhelming.
+  * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
   * **Colours:** <br/>
     * The headings, links and text will automatically appear in the right colour if you use the site page templates.
     * Use only the following colours in the design, text and illustrations of the site. The RDM life cycle diagram colours are only for use in the pages related to the diagram.
@@ -63,7 +63,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       | <span style="display: inline-block; width: 20px; height: 20px; background: #73757d;"></span> | #73757d | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** the icons used in this site come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution.
+  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution. Other icons on this site come from [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
   * **Images:**

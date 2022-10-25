@@ -1,7 +1,7 @@
 ---
 title: <Your persona>
 search_exclude: true
-summary: Fill in your summary or delete this property when not needed
+description: <!---REPLACE THIS with a one sentence description of the page--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
 related_pages: 
@@ -9,7 +9,6 @@ related_pages:
 training:
   - name:
     registry:
-    registry_url:
     url:
 ---
 

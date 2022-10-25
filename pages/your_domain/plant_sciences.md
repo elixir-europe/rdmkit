@@ -1,16 +1,19 @@
 ---
 title: Plant sciences
+description: Data management solutions for plant sciences data
 contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erwan Le Floch, Daniel Faria]
 related_pages: 
 page_id: plants
 related_pages: 
   your_tasks: [metadata]
-  tool_assembly: [plant geno assembly]
+  tool_assembly: [plant geno assembly, plant pheno assembly]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
+faircookbook:
+- name: Plant genomic and genetic variation data submission to EMBL-EBI databases
+  url: https://w3id.org/faircookbook/FCB061
 ---
 
 ## Introduction
@@ -129,7 +132,7 @@ Here are described the mandatory, recommended and optional metadata fields for d
 
 #### Checklists, ontologies and file formats
 * Sharing plant genotyping data files involves the use of the Variant Call Format (VCF) standard.  
-* Findability and reusability of VCF files depends on the supplied metadata and in particular with MIAPPE compliant biological material description: the plant VCF metadata FAIR Cookbook (under development) helps you on that topic.
+* Findability and reusability of VCF files depends on the supplied metadata and in particular with MIAPPE compliant biological material description: the [plant genomic and genetic variation data submission recipe](https://w3id.org/faircookbook/FCB061) helps you on that topic.
 
 #### Data sharing and publication
 * Once the VCF file is ready with all necessary metadata, it can be submitted to the European Variation Archive (EVA). You will find all necessary information on the submission steps on the [EVA submission page](https://www.ebi.ac.uk/eva/?Submit-Data).

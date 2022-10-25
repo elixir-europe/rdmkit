@@ -7,6 +7,10 @@
     }
 }
 
+.bg-light-x {
+    background-color: $light-x;
+}
+
 /*-----Sidebar-----*/
 
 //RDM wheel in sidebar
@@ -41,16 +45,65 @@ li ul .sidebar_rdm_sub {
     margin-top: $spacer * 0.5;
 }
 
-/*-----News and events-----*/
+/* -----Homepage----- */
 
-.events,
-.news {
-    h2 {
-        color: $dark;
+.landingpage {
+
+    .h-icon-6 {
+        height: 6em;
     }
+    .h-icon-5 {
+        height: 5em;
+    }
+    .h-icon-4 {
+        height: 4em;
+    }
+
+    .card {
+        &:hover{
+            box-shadow: $box-shadow;
+        }
+
+        .card-img-top {
+            width: unset;
+            padding: $card-spacer-x $card-spacer-x 0 $card-spacer-x;
+        }
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-family:  $font-family-theme;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-family:  $font-family-theme;
+    }
+
 }
 
-/* -----Homepage----- */
+// Search box
+
+section#search-section {
+    form {
+        max-width: 600px;
+    }
+
+    #search-results {
+        right: unset;
+    }
+    .input-group-text {
+        font-size: 1.5rem;
+    }
+
+    
+}
 
 // Counters on landing page
 
@@ -59,63 +112,30 @@ li ul .sidebar_rdm_sub {
     font-weight: 700;
 }
 
-.blurb-title {
-    font-family: "Exo 2", sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 18px;
-    font-weight: 600;
-}
 
-// Dropdown boxes
+/*-----Section navigation tiles-----*/
 
-h2.card-title {
-    margin: 0 0 0.5rem 0;
-}
+.navigation-tiles {
+    .card:hover {
+        box-shadow: $box-shadow;
+    }
 
-//  Arrow in button
-
-.btn.arrow::after {
-    float: right;
-    width: 15px;
-    text-align: center;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f078";
-    transition: transform 0.2s ease-in-out;
-}
-
-.btn.arrow:not(.collapsed)::after {
-    transform: rotate(-180deg);
-}
-
-// RDM wheel frontpage
-
-.ratio.main_rdm {
-    padding-bottom: 100%;
-}
-
-@media (min-width: 576px) {
-    .ratio.main_rdm {
-        padding-bottom: 70%;
+    .card-header {
+        a:hover {
+            text-decoration: none;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
     }
 }
 
-@media (min-width: 768px) {
-    .ratio.main_rdm {
-        padding-bottom: 35%;
-    }
-}
 
 /*-----Top navigation-----*/
 
 .navbar-nav .nav-item > a {
     white-space: nowrap;
     &.active {
-        color: $white;
         background-color: $primary;
         border-radius: $border-radius;
     }

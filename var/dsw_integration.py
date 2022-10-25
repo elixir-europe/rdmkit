@@ -13,7 +13,8 @@ import yaml
 rootdir = 'pages/'
 DSWQuestion = collections.namedtuple('DSWQuestion', 'uuid, text')
 RDMKIT_PREFIX = 'https://rdmkit.elixir-europe.org'
-
+DSW_API_URL = 'https://api-converge.ds-wizard.org'
+DSW_KM_ID = 'dsw:root:latest'
 
 # --------- Functions ---------
 
@@ -64,8 +65,8 @@ def fetch_rdmkit_dsw_links(endpoint: str, package: str) -> Dict[str, List[DSWQue
 
 # --------- Parsing DSW json ---------
 parent_ids = fetch_rdmkit_dsw_links(
-    endpoint='https://api-converge.ds-wizard.org',
-    package='dsw:root-rdmkit:latest',
+    endpoint=DSW_API_URL,
+    package=DSW_KM_ID,
 )
 
 

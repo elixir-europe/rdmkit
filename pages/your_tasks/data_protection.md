@@ -1,20 +1,24 @@
 ---
 title: Data protection
 contributors: [Pinar Alper]
-description: how to make research data compliant to GDPR.
+description: How to make research data compliant to GDPR
 page_id: data protection
 related_pages: 
   tool_assembly: [TSD, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:
 - name: Will you collect any data connected to a person, "personal data"?
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
 - name: Do you need a Data Protection Impact Assessment?
   uuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
+faircookbook:
+- name: Data licenses
+  url: https://w3id.org/faircookbook/FCB034
+- name: Declaring data's permitted uses
+  url: https://w3id.org/faircookbook/FCB035
 ---
 
 

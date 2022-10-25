@@ -1,48 +1,41 @@
 ---
 title: "Data Steward: infrastructure"
+description: Data Steward with focus on tools (software) and IT infrastructure for data management
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: IT support
 related_pages: 
-  your_tasks: [data analysis, data protection, transfer, identifiers, storage, data organisation, machine actionability]
+  your_tasks: [data analysis, data protection, data brokering, transfer, identifiers, storage, data organisation, machine actionability]
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org/
     url: https://tess.elixir-europe.org/search?q=%22IT%20support%22#materials
 
   - name: RDNL - Essentials for Data Support
     registry:
-    registry_url:
     url: https://datasupport.researchdata.nl/en/
 
   - name: Mantra - RDM training
     registry:
-    registry_url:
     url: https://mantra.edina.ac.uk/
 
   - name: GO FAIR resources
     registry:
-    registry_url:
     url: https://www.go-fair.org/resources/
 
   - name: Data Carpentry lessons
-    registry:
-    registry_url:
+    registry: Carpentries
     url: https://datacarpentry.org/lessons/
 
   - name: RDNL & DCC - Delivering RDM Services
     registry:
-    registry_url:
     url: https://www.futurelearn.com/courses/delivering-research-data-management-services
 
   - name: NPOS/ELIXIR data steward competency framework
     registry: Zenodo
-    registry_url: https://zenodo.org
     url: https://zenodo.org/record/3490855#.YArTH-lKi7o
 
   - name: ELIXIR Data Management Network
     registry:
-    registry_url:
     url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators
 ---
 

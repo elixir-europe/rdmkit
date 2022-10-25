@@ -2,11 +2,15 @@ title: Data management
 title_url: /index
 subitems:
   - title: Data life cycle
-    description: Start here to get an overview of research data management. Click on a section of the diagram below to get an introduction to that stage of the data management life cycle.
+    description: Start here to get an overview of research data management based on stages in the data life cycle.
+    url: /data_life_cycle
     subitems:
       - RDM: True
+    image_url: /assets/img/section-icons/arrows-spin-light.svg
   - title: Your role
     description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
+    url: /your_role
+    image_url: /assets/img/section-icons/address-card-light.svg
     subitems:
       - title: Researcher
         url: /researcher
@@ -17,7 +21,9 @@ subitems:
       - title: "Data Steward: infrastructure"
         url: /data_steward_infrastructure
   - title: Your domain
-    description: Learn about the data management problems that affect your domain or research community, and the solutions adopted to address them.
+    description: Learn about data management tasks that affect your domain or research community, and the solutions adopted to address them.
+    url: /your_domain
+    image_url: /assets/img/section-icons/dna-light.svg
     subitems:
       - title: Plant sciences
         url: /plant_sciences
@@ -41,13 +47,19 @@ subitems:
         url: /bioimaging_data
       - title: Structural bioinformatics
         url: /structural_bioinformatics
+      - title: Rare disease data
+        url: /rare_disease_data
   - title: Your tasks
-    description: Find guidelines and solutions for tackling common data management problems.
+    description: Find guidelines and solutions for tackling common data management tasks.
+    url: /your_tasks
+    image_url: /assets/img/section-icons/list-check-light.svg
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring
       - title: Data analysis
         url: /data_analysis
+      - title: Data brokering
+        url: /data_brokering
       - title: Data management plan
         url: /data_management_plan
       - title: Data organisation
@@ -75,17 +87,69 @@ subitems:
       - title: Sensitive data
         url: /sensitive_data
   - title: Tool assembly
-    description: Find concrete combinations of tools and resources assembled into a workflow for research data management.
+    description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.
     url: /tool_assembly
+    subitems:
+      - title: COVID-19 Data Portal 
+        url: /covid19_data_portal
+      - title: CSC
+        url: /csc_assembly
+      - title: Galaxy
+        url: /galaxy_assembly
+      - title: IFB
+        url: /ifb_assembly
+      - title: Marine Metagenomics
+        url: /marine_metagenomics_assembly
+      - title: NeLS
+        url: /nels_assembly
+      - title: OMERO
+        url: /omero_assembly
+      - title: Plant Genomics 
+        url: /plant_genomics_assembly
+      - title: Plant Phenomics
+        url: /plant_phenomics_assembly
+      - title: TransMed
+        url: /transmed_assembly
+      - title: TSD
+        url: /tsd_assembly
+      - title: XNAT-PIC
+        url: /xnat_pic_assembly
+    image_url: /assets/img/section-icons/arrows-to-dot-light.svg
   - title: National resources
-    description: Browse trough the national resource pages
+    description: Find pointers to country specific information resources and national research data management practices. 
     url: /national_resources
-
+    image_url: /assets/img/section-icons/flag-light.svg
+    subitems:
+      - title: Belgium
+        url: /be_resources
+      - title: Germany
+        url: /de_resources
+      - title: Estonia
+        url: /ee_resources
+      - title: Spain
+        url: /es_resources
+      - title: Finland
+        url: /fi_resources
+      - title: France
+        url: /fr_resources
+      - title: Italy
+        url: /it_resources
+      - title: Netherlands
+        url: /nl_resources
+      - title: Norway
+        url: /no_resources
+      - title: Portugal
+        url: /pt_resources
+      - title: Sweden
+        url: /se_resources
+      - title: United Kingdom
+        url: /uk_resources
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources
+    image_url: /assets/img/section-icons/gears-light.svg
     hr: True
   - title: All training resources
-    description: Browse the RDMkit's catalogue of training resources for research data management.
+    description: Browse all training resources mentioned in RDMkit pages.
     url: /all_training_resources
-
+    image_url: /assets/img/section-icons/graduation-cap-light.svg

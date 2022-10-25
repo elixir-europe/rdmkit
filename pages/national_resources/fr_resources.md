@@ -4,7 +4,11 @@ country_code: FR
 contributors: [Olivier Collin]
 coordinators: []
 
-resources:
+ref_to_main_resources:
+  - PHIS
+  - FAIDARE
+
+national_resources:
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs
     how_to_access:

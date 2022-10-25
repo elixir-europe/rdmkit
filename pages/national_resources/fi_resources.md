@@ -3,7 +3,7 @@ title: Finland
 country_code: FI
 contributors: [Siiri Fuchs, Minna Ahokas]
 coordinators: []
-resources:
+national_resources:
   - name: Chipster
     description: Chipster is a user-friendly analysis software for high-throughput data such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large reference genome collection.
     how_to_access: 
@@ -88,13 +88,23 @@ resources:
       your_role: [researcher, data manager]
       your_tasks: [data analysis]
     url: https://research.csc.fi/computing#cloud-computing 
+  - name: IceBear
+    description: A browser-based Research Data Management tool for protein cyrstallization that offers flexible crystal fishing workbench, no-typing submission for crystal shipment, and linking crystals and datasets including PDB depositions. 
+    instance_of: 
+    how_to_access: 
+    related_pages:
+      tool_assembly:
+      your_role: [researcher, data manager]
+      your_tasks: [data analysis]
+      your_domain: [structural_bioinformatics]
+    url: https://icebear.fi/
 ---
 
 ## Introduction 
 
 This is an overview of research data management resources in Finland. These resources are accessible for researchers in Finland and to their collaborators.
 
-[CSC – IT Center for Science](https://research.csc.fi/home) provides comprehensive scientific computing, data management and analysis services and solutions for research in Finland. CSC operates the ELIXIR Finland node and offers medical and bioinformatics research tools developed in Finland and Europe. An overview of data management services provided by ELIXIR Finland and CSC can be found on the [ELIXIR Finland](https://www.elixir-finland.org/en/frontpage/) website and [CSC's Services for Research](https://research.csc.fi/home) website.
+[CSC – IT Center for Science](https://research.csc.fi/home) provides comprehensive scientific computing, data management and analysis services and solutions for research in Finland. CSC operates the ELIXIR Finland node and offers medical and bioinformatic research tools developed in Finland and Europe. An overview of data management services provided by ELIXIR Finland and CSC can be found on the [ELIXIR Finland](https://www.elixir-finland.org/en/frontpage/) website and [CSC's Services for Research](https://research.csc.fi/home) website.
 
 ## Regulations and policies on research data
 
@@ -105,7 +115,7 @@ If personal data are processed in your research, [Data Protection Act](https://w
 Ethical review is needed in defined research configurations. See more at [Finnish National Board of Research Integrity](https://tenk.fi/en/ethical-review/ethical-review-finland).
 
 ### National policies
-[Policies of open science and and research in Finland](https://avointiede.fi/en/policies/policies-open-science-and-research-finland) outline in detail the strategic principles, objectives and action plans necessary to achieve the objectives set out in [the Declaration for Open Science and Research](https://avointiede.fi/en/policies/declaration-open-science-and-research-2020-2025). The policies cover four areas: culture for open scholarship, open access to scholarly publications, open access of research data and methods, and open education and open access to educational resources. 
+[Policies of open science and research in Finland](https://avointiede.fi/en/policies/policies-open-science-and-research-finland) outline in detail the strategic principles, objectives and action plans necessary to achieve the objectives set out in [the Declaration for Open Science and Research](https://avointiede.fi/en/policies/declaration-open-science-and-research-2020-2025). The policies cover four areas: culture for open scholarship, open access to scholarly publications, open access of research data and methods, and open education and open access to educational resources. 
 
 ### Funder policies 
 Funders have their individual data policies and mandatory guidelines with regard to research data management. The general expectation is that publicly funded research data are a public good, and should be made openly available with as few restrictions as possible. Check your funder’s website for current information and guidance. See e.g. [Academy of Finland policies on open science](https://www.aka.fi/en/research-funding/responsible-science/open-science/academy-policies-on-open-science/).

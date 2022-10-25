@@ -10,7 +10,10 @@ def client(url):
     adapter = HTTPAdapter(max_retries=retry)
     session.mount('http://', adapter)
     session.mount('https://', adapter)
-    r = session.get(url)
+    try:
+        r = session.get(url)
+    except:
+        print("Could not connect")
     if r.status_code == requests.codes.ok:
         return r.json()
 
@@ -19,6 +22,9 @@ def fetch_country_list():
         f"https://restcountries.com/v2/all")
     if json_output:
         return json_output
+    else:
+        print("Country lookup is skipped")
+        exit()
 
 
 # --------- Variables ---------

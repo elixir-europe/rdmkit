@@ -8,12 +8,12 @@ coordinators: [Niclas Jareborg, Yvonne Kallberg]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Sweden&scientific_topics=Data+management
   - name: SciLifeLab Data Management YouTube
+    registry: Youtube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
-resources:
+national_resources:
   - name: DS-Wizard ELIXIR-SE
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
     how_to_access: ELIXIR AAI login
@@ -103,7 +103,7 @@ List of universities with established Research Data Offices or Data Access Units
 * KTH Royal Institute of Technology - [Research Data Support](https://intra.kth.se/en/forskning/overgripande-stod) - <researchdata@kth.se>
 * Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-data/contacts-and-research-data-initiatives) - See web page for contact information
 * Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - <opendata@su.se>
-* Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/about-DCU/) - <dms@slu.se>
-* Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/organisation-and-contacts/contacts-at-umea-university/) - See web page for contact information
+* Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data) - <dms@slu.se>
+* Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/library/research-data/organisation-and-contacts/) for contact information
 * University of Gothenburg - [Research Data Support](https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001) - <researchdata@gu.se>
 * Uppsala University - [Research Data Support](https://mp.uu.se/en/web/info/forska/forskningsdata) - <dataoffice@uu.se>

@@ -7,10 +7,9 @@ coordinators: [Salvador Capella-Gutierrez]
 training:
   - name: Training in TeSS
     registry: TeSS
-    registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/materials?node=Spain&scientific_topics=Data+management
     
-resources:
+national_resources:
   - name: Red Española de Supercomputación
     description: The Spanish Supercomputing Network's mission is to offer the resources and services of supercomputing and data management necessary for the development of innovative and high-quality scientific and technological projects, through competitive calls based on the scientific excellence of the projects to be developed.
     how_to_access: 
