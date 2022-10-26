@@ -4,7 +4,7 @@ description: how to coordinate and organise data management activities in collab
 contributors: [Robert Andrews, Stefanie Meyer, Tereza Motalova, Graham Parton, Marko Petek, Maja Zagorščak, Karolina Zavoralova, Karel Berka, Korbinian Bösl, Flora D’Anna, Niclas Jareborg, Yvonne Kallberg, Paulette Lieby]
 page_id: DM coordination
 related_pages: 
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+  tool_assembly: []
 training:
   - name:
     registry:
