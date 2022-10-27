@@ -1,8 +1,9 @@
 ---
 
-title: <!---REPLACE THIS with full country name in English--->
+title: Greece
 search_exclude: true
-country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capital letters--->
+description: <!---REPLACE THIS with a one sentence description of the page--->
+country_code: GR
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
 
