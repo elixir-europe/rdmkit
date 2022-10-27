@@ -1,7 +1,7 @@
 ---
 title: Project data management coordination
 description: how to coordinate and organise data management activities in collaborative or multi-parter projects
-contributors: [Robert Andrews, Stefanie Meyer, Tereza Motalova, Graham Parton, Marko Petek, Maja Zagorščak, Karolina Zavoralova, Karel Berka, Korbinian Bösl, Flora D’Anna, Niclas Jareborg, Yvonne Kallberg, Paulette Lieby]
+contributors: [Robert Andrews, Stefanie Meyer, Tereza Motalova, Graham Parton, Marko Petek, Maja Zagorščak, Karolina Zavoralova, Karel Berka, Korbinian Bösl, Flora D'Anna, Niclas Jareborg, Yvonne Kallberg, Paulette Lieby]
 page_id: DM coordination
 related_pages: 
   tool_assembly: []
@@ -39,7 +39,7 @@ Here, we provide some advice and methods to help consortia with data management 
 * As a monitoring mechanism, some of the milestones and deliverables should be the successful creation of datasets with their metadata and possibly their deposition.
 * If applicable, each partner (actually, its representative) should consult with personal data legislation experts (e.g. GDPR or equivalent), Data Protection Officers (DPOs) and the legal office of the institution (e.g. for technology transfer) to reach a consensus at the consortium level about data protection, availability and open science.
 * It is recommended to discuss as early as possible the licensing and the intellectual property (IP) rights of project outcomes (datasets, software, tools, etc), in order to comply with open science requirements and to avoid legal issues later on. 
-* Discuss a common plan for the sharing of data, [metadata and documentation](metadata_management) between partners.
+* Discuss a common plan for the sharing of data, [documentation and metadata](metadata_management) between partners.
 
 ## How to execute data management in collaborative projects?
 
@@ -58,7 +58,7 @@ Once the project is awarded, the data management plan needs to be executed durin
 * Establish a strategy for documentation and exchange of data (within the project and with other collaborators):
   * Evaluate the value of your project outcomes (datasets, data, tools, etc) and establish which of them are worth preserving long term. 
   * Define the strategy as early as possible, preferably at the beginning of the project, otherwise it may generate problems.  
-  * Agree on relevant data formats (e.g. TXT, MP4, FASTQ), metadata schemas, checklists and controlled vocabularies/ontologies that are recognised as standards by scientific communities - all these depend on the type of data generated. Read more about [Documentation and metadata](metadata_management).
+  * Agree on relevant data formats (e.g. TXT, MP4, FASTQ), metadata schemas, checklists and controlled vocabularies/ontologies that are recognised as standards by scientific communities - all these depend on the type of data generated. Read more about [documentation and metadata](metadata_management).
 * Ensure that all partners deposit data according to the agreed [data publication](data_publication) strategy.
 * The DMP should be revisited on a regular basis and updated when necessary. Things to look out for are:
   * Ensuring that the chosen [data repositories](data_publication#which-repository-should-you-use-to-publish-your-data) are fit for purpose.
