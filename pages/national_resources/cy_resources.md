@@ -2,7 +2,6 @@
 
 title: Cyprus
 search_exclude: true
-description: <!---REPLACE THIS with a one sentence description of the page--->
 country_code: CY
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
