@@ -60,6 +60,8 @@ subitems:
         url: /data_analysis
       - title: Data brokering
         url: /data_brokering
+      - title: Data management coordination
+        url: /dm_coordination
       - title: Data management plan
         url: /data_management_plan
       - title: Data organisation
