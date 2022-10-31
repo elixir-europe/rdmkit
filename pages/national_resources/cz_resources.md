@@ -34,7 +34,7 @@ https://du.cesnet.cz/cs/navody/narodni_repozitar/start
     instance_of: Galaxy
     related_pages:
       tool_assembly: [ ]
-      your_domain: [plant]
+      your_domain: [plant_sciences]
       your_role: [researcher]
       your_tasks: [data analysis]
     url: https://galaxy.metacentrum.cz/
