@@ -180,7 +180,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34680)
 * [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/policy-for-open-science)
-* [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/research-data)
+* [University of Bergen (UiB)](https://www.uib.no/en/foremployees/142184/university-bergen-policy-open-science)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-and-guidelines/index.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/regelverk/sentraleregler#innhold_740835)
 * [University of Stavanger](https://www.uis.no/en/library/researchdata)
@@ -201,7 +201,7 @@ Details and provided solutions vary according to each institution. They are base
 
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
 * [Norwegian University of Science and Technology (NTNU)](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
-* [University of Bergen (UiB)](https://regler.app.uib.no/regler/Del-4-OEkonomi-eiendom-og-IKT/4.3-Informasjons-og-kommunikasjonsteknologi/Styringssystem-for-informasjonssikkerhet-og-personvern-Del-II-Gjennomfoerende-del/#kartlegging-og-klassifisering-av-informasjon)
+* [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
