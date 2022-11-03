@@ -39,7 +39,7 @@ national_resources:
     url: https://galaxy.metacentrum.cz/
     registry:
       biotools: repeat_explorer
-     - name: e-Infra Supercomputing and data services 
+  - name: e-Infra Supercomputing and data services 
     description: e-Infra is the Czech Republic integrated high-performance research computing/data storage environment, providing world-class services to government, industry, and researchers. It also cooperates with European Open Science Cloud (EOSC) implementation in the Czech Republic
     how_to_access:
     related_pages: 
