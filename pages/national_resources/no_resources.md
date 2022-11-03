@@ -161,7 +161,7 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR-Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate this recommendations and resources.
+The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources.
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian government has released a
@@ -171,7 +171,7 @@ The Norwegian government has released a
 
 List of funders with Data Management Policies in Norway:
 
-* [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The research data management  [policy](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf) of RCN requires a Data Management Plan (DMP) after a positive funding decision for each project and which also has to be submitted as part of the final report. RCN  recommends to follow the  ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and  performers.  In addition to policies for open science and open access to publications, [RCN provides recommendations on how to make data research available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). 
+* [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The [research data management policy of RCN](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf) requires a Data Management Plan (DMP) after a positive funding decision for each project and which also has to be submitted as part of a final report. RCN recommends to follow the ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and  performers. In addition to policies for open science and open access to publications, [RCN provides recommendations on how to make research data available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). 
 
 
 ##  Institutional policies on research data
@@ -207,7 +207,7 @@ Details and provided solutions vary according to each institution. They are base
 
 ### Institutional guidelines related to personal data
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
-* [Norwegian University of Science and Technology - Privacy in research guidelines (NTNU)](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
+* [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
 * [Norwegian University of Science and Technology - Health research guidelines](https://innsida.ntnu.no/helseforskning)
 * [University of Bergen (UiB)](https://www.uib.no/personvern)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
@@ -234,7 +234,7 @@ There are several support services available to Norwegian Life Science researche
 * [NRIS technical and administrative support](https://www.sigma2.no/user-support)
 
 ## Data Management Planning
-A data management plan (DMP) is currently requested by
+A data management plan (DMP) is currently requested by:
 * The research performing institutions 
 * RCN upon project funding
 * International funding programs (e.g. Horizon Europe, European Research Council)
@@ -243,7 +243,7 @@ A DMP typically contains information about data handling during a project and af
 
 <!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
 
-ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/). This is an internationally developed tool which has been adapted to better suit the needs of Norwegian researchers, PIs and institutions. DSW provides templates which are compliant  with all different funder regulations, is [recommened by RCN](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) and offers machine-actionable DMP exports in addition. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs contain partially prefilled with domain-specific recommendations amd can be used as  a starting point for own projects.
+ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/). This is an internationally developed tool which has been adapted to better suit the needs of Norwegian researchers, PIs and institutions. DSW provides templates that are compliant  with all different funders' regulations, is [recommened by RCN](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) and, in addition, it offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs; these DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for own projects.
 
 
 ## Life science-specific infrastructures/resources
@@ -258,7 +258,7 @@ The following resources and tools are relevant to the implemention of data manag
 
 
 ## Ethical committees and general authorities
-We provide here a list of ethical committees and guidelines, relevant to life sciences data, that are responsible for national regulations in Norway:
+We provide here a list of ethics committees and guidelines, relevant to life sciences data, that are responsible for national regulations in Norway:
 ### Data privacy
 * [Norwegian Data Protection Authority](https://www.datatilsynet.no/)
 
@@ -284,7 +284,7 @@ We provide here a list of ethical committees and guidelines, relevant to life sc
 * [Guidelines for the inclusion of adults with impaired or absent capacity to consent](https://www.forskningsetikk.no/retningslinjer/med-helse/inklusjon-av-voksne-personer-med-manglende-eller-redusert-samtykkekompetanse/)
 * [Guidelines for research ethical and scientifically assessment of qualitative research projects](https://www.forskningsetikk.no/retningslinjer/med-helse/vurdering-av-kvalitative-forskningsprosjekt-innen-medisin-og-helsefag/)
 
-Through the Research Ethics Committees, the  following recommendations were made binding in Norway and it is therefore advised to take them into consideration for data ethics:
+Through the Research Ethics Committees, the following recommendations were made binding in Norway and it is therefore advised to take them into consideration for data ethics:
 * [The Vancouver Recommendations](https://www.forskningsetikk.no/en/resources/the-research-ethics-library/legal-statutes-and-guidelines/the-vancouver-recommendations/)
 * [Declaration of Helsinki](https://www.forskningsetikk.no/en/guidelines/medical-and-health-research/declaration-of-helsinki/)
 * [The Oviedo Convention](https://www.forskningsetikk.no/en/resources/the-research-ethics-library/legal-statutes-and-guidelines/oviedo-convention/)
