@@ -19,7 +19,7 @@ training:
   - name: ELIXIR-CZ Github
     registry: Github
     url: https://github.com/ELIXIR-CZ
- - name: ELIXIR CZ Zenodo
+  - name: ELIXIR CZ Zenodo
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-cz/?page=1&size=20
 
