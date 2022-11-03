@@ -48,7 +48,7 @@ national_resources:
       your_role: [data_steward_research, data_steward_infrastructure]
       your_tasks: [data analysis, storage]
     url: https://www.e-infra.cz/en
-- name: Data Stewardship Wizard (DSW)
+  - name: Data Stewardship Wizard (DSW)
     description: DSW is a tool to create, plan, collaborate, and bring your data management plans to life.
     how_to_access:
     related_pages: 
@@ -57,7 +57,7 @@ national_resources:
       your_role: [data_steward_research, data_steward_policy, researcher]
       your_tasks: [data_management_plan]
     url: https://ds-wizard.org/
-- name: Owncloud@CESNET
+  - name: Owncloud@CESNET
     description: Owncloud is a 100 GB cloud storage freely available for Czech scientists to manage their data from any research projects 
     how_to_access: To use ownCloud, you have to be an employee or a student of a Czech academic organization. For technical reasons, you have to have an account in eduID.cz.
     instance_of: Owncloud
@@ -67,7 +67,7 @@ national_resources:
       your_role: [researcher, data_steward_infrastructure]
       your_tasks: [storage, data_transfer, data_organisation]
     url: https://du.cesnet.cz/en/navody/owncloud/start/
-   - name: Czech National Repository
+  - name: Czech National Repository
     description: NR is a service provided to the scientific and research communities in the Czech Republic to store their generated research data together with persistent DOI identifier. NR service is currently under the pilot program. 
     how_to_access: To use National Repository, you have to be an employee or a student of a Czech academic organization. For technical reasons, you have to have an account in eduID.cz and if you want to upload .
     instance_of: 
