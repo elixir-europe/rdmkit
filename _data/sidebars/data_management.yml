@@ -25,30 +25,30 @@ subitems:
     url: /your_domain
     image_url: /assets/img/section-icons/dna-light.svg
     subitems:
-      - title: Plant sciences
-        url: /plant_sciences
-      - title: Marine metagenomics
-        url: /marine_metagenomics
-      - title: Human data
-        url: /human_data
-      - title: Biomolecular simulation data
-        url: /biomolecular_simulation_data
-      - title: Intrinsically disordered proteins
-        url: /intrinsically_disordered_proteins
-      - title: Microbial biotechnology
-        url: /microbial_biotechnology
-      - title: Epitranscriptome data
-        url: /epitranscriptome_data
-      - title: Proteomics
-        url: /proteomics
-      - title: Toxicology data
-        url: /toxicology_data
       - title: Bioimaging data
         url: /bioimaging_data
-      - title: Structural bioinformatics
-        url: /structural_bioinformatics
+      - title: Biomolecular simulation data
+        url: /biomolecular_simulation_data
+      - title: Epitranscriptome data
+        url: /epitranscriptome_data
+      - title: Human data
+        url: /human_data
+      - title: Intrinsically disordered proteins
+        url: /intrinsically_disordered_proteins
+      - title: Marine metagenomics
+        url: /marine_metagenomics
+      - title: Microbial biotechnology
+        url: /microbial_biotechnology
+      - title: Plant sciences
+        url: /plant_sciences
+      - title: Proteomics
+        url: /proteomics
       - title: Rare disease data
         url: /rare_disease_data
+      - title: Structural bioinformatics
+        url: /structural_bioinformatics
+      - title: Toxicology data
+        url: /toxicology_data
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks
