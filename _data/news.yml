@@ -82,5 +82,8 @@
   date: 2022-10-10
   linked_pr: 939
   description: This page gives an insight in RDM on national level in the Netherlands. [Discover the page here](nl_resources).
-
+- name: "New page: Project data management coordination"
+  date: 2022-10-21
+  linked_pr: 1020
+  description: This page gives insights about how to coordinate and organise data management activities in collaborative projects. [Discover the page here](dm_coordination).
 

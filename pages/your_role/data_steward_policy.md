@@ -4,7 +4,7 @@ description: Data Steward with focus on data policies
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: policy officer
 related_pages: 
-  your_tasks: [compliance, licensing, DMP, data protection, sensitive]
+  your_tasks: [compliance, licensing, DMP, data protection, sensitive, DM coordination]
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS

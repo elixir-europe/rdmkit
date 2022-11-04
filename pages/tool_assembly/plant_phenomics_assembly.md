@@ -33,7 +33,7 @@ The plant phenomics tool assembly helps [everyone](your_role) in charge of plant
 
 ## How can you access the plant phenomics tool assembly?
 
-All the components of the PlantPheno tool assembly are publicly available and listed below, but many of them require registration.
+All the components of the plant phenomics tool assembly are publicly available and listed below, but many of them require registration.
 
 ## The plant phenomics tools
 
