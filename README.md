@@ -5,7 +5,7 @@
 
 
 # RDMkit
-The Elixir Research Data Management Kit
+The ELIXIR Research Data Management Kit
 
 RDMkit is an online guide containing good data management practices applicable to research projects from the beginning to the end. Developed and managed by people who work every day with life science data, RDMkit has guidelines, information and pointers, organised in many different ways to help you with problems throughout the data’s life cycle.
 
