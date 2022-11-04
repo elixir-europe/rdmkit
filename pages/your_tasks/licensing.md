@@ -6,10 +6,10 @@ page_id: licensing
 related_pages: 
   tool_assembly: []
 dsw:
-- name: Will a license be assigned to your datasets?
-  uuid: ae28a862-5020-44c2-8c78-3abc185b190f
 - name: Licenses under which this distribution of the data set will be available
   uuid: 3d89e23d-ff5c-45da-97a8-169ad8c39be6
+- name: Will a license be assigned to your datasets?
+  uuid: ae28a862-5020-44c2-8c78-3abc185b190f
 faircookbook:
 - name: Licensing
   url: https://w3id.org/faircookbook/FCB032

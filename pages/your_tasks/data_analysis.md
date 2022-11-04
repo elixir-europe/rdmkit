@@ -14,11 +14,11 @@ dsw:
   uuid: 1991077f-04ae-4808-90a5-e4b2f82e30bf
 - name: Did you choose the workflow engine you will be using?
   uuid: a1c37c05-57ff-499c-b58c-e90f511241fa
-- name: How will you work with your data?
-  uuid: df36fb68-131c-4f31-a42b-684abf523bbc
 - name: Will you use a central repository for all tools and their versions as used
     in your project?
   uuid: decb7c9c-c6dc-4027-8c0e-18934c852ca6
+- name: How will you work with your data?
+  uuid: df36fb68-131c-4f31-a42b-684abf523bbc
 faircookbook:
 - name: Provenance information
   url: https://w3id.org/faircookbook/FCB036

@@ -10,11 +10,11 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+share%22#materials
 dsw:
+- name: When will the data set be published?
+  uuid: 5f5cc5b6-a17c-4cf5-b6fc-ecfd655c0fe6
 - name: Is there a collaboration agreement in the project that describes who can have
     access to what data?
   uuid: a5dbea23-b7d6-4e31-a1a5-ec5007ec7848
-- name: When will the data set be published?
-  uuid: 5f5cc5b6-a17c-4cf5-b6fc-ecfd655c0fe6
 ---
 
 ## What is data sharing?

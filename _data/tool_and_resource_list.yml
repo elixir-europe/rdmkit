@@ -996,6 +996,14 @@
   - ome
   - bioimaging data
   url: https://www.ebi.ac.uk/pdbe/emdb/empiar/
+- description: This tool carries out data hub set up at the European Nucleotide Archive
+    (ENA).
+  name: ENA COMPARE Data Hubs
+  related_pages:
+  - DM coordination
+  - IT support
+  - data manager
+  url: https://github.com/nadimm-rahman/ena-datahub-setup
 - description: The program submits experimental data and respective metadata to the
     European Nucleotide Archive (ENA).
   name: ENA upload tool
@@ -1215,6 +1223,15 @@
   - data manager
   - policy officer
   url: https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!
+- description: The FIP is a collection of FAIR implementation choices made by a community
+    of practice for each of the FAIR Principles.
+  name: FAIR Implementation Profile
+  related_pages:
+  - DM coordination
+  - DMP
+  - researcher
+  - data manager
+  url: https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/
 - description: The FAIR wizard utilizes FAIRification resources developed by the FAIRplus
     project and other platforms, suggests FAIRification materials based on the FAIRification
     requirements, and designs FAIRification solutions for data owners, data stewards,
@@ -1292,6 +1309,16 @@
   - transfer
   - IT support
   url: https://filezilla-project.org
+- description: FIP Wizard is a toolset to facilitate the capture of data in FAIR Convergence
+    Matrix questionnaire prompting communities to explicitly declare their FAIR Implementation
+    Profiles. These profiles can be then stored and published as nanopublications.
+  name: FIP Wizard
+  related_pages:
+  - DM coordination
+  - DMP
+  - researcher
+  - data manager
+  url: https://fip-wizard.readthedocs.io/en/latest/
 - description: FreeIPA is an integrated Identity and Authentication solution for Linux/UNIX
     networked environments.
   name: Free-IPA
@@ -2260,6 +2287,8 @@
     tess: PHIS
   related_pages:
   - plant pheno assembly
+  - plants
+  - IFB
   url: http://www.phis.inra.fr/
 - description: PIA is a toolbox for mass spectrometrey based protein inference and
     identification analysis.
