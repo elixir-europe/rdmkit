@@ -11,6 +11,9 @@ training:
     url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
   - name: RDMbites
     registry: TeSS
+    url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
+  - name: RDMbites
+    registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
 dsw:
 - name: Are there privacy reasons why your data can not be open?
