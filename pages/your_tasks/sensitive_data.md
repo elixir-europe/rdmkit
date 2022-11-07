@@ -12,7 +12,9 @@ training:
   - name: RDMbites
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
-    
+  - name: RDMbites
+    registry: TeSS
+    url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
 dsw:
 - name: Are there privacy reasons why your data can not be open?
   uuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
