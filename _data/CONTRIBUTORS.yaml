@@ -320,6 +320,7 @@ Rafael Andrade Buono:
     git: rabuono
 Sebastian Beier:
     git: sebeier
+    orcid: 0000-0002-2177-8781
 Sirarat Sarntivijai:
     git: siiraa
 Josh Moore:
@@ -440,6 +441,7 @@ Ishwar Chandramouliswaran:
     role: editor
 Philippe Rocca-Serra:
     git: proccaserra
+    orcid: 0000-0001-9853-5668
 Beatriz Serrano-Solano:
     git: beatrizserrano
 Isabelle Alic:
@@ -447,3 +449,6 @@ Isabelle Alic:
     email: isabelle.alic@inrae.fr
     orcid: 0000-0002-8961-6068
     affiliation: INRAE - MISTEA
+Matthias Lange:
+    git: langeipk
+    orcid: 0000-0002-4316-078X
