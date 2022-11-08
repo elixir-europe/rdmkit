@@ -6,6 +6,10 @@ page_id: bioimaging data
 related_pages: 
   your_tasks: [DMP, data organisation, data publication, existing data, transfer, licensing, metadata, storage]
   tool_assembly: [ome, XNAT-PIC]
+training:
+  - name: RDMbites
+    registry: TeSS
+    url: https://tess.elixir-europe.org/collections/rdmbites-data-sharing-collection
 ---
 
 ## Introduction
