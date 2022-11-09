@@ -33,7 +33,7 @@ national_resources:
     instance_of: Galaxy
     related_pages:
       tool_assembly: [ ]
-      your_domain: [plant_sciences]
+      your_domain: [plant]
       your_role: [researcher]
       your_tasks: [data analysis]
     url: https://galaxy.metacentrum.cz/
@@ -45,7 +45,7 @@ national_resources:
     related_pages: 
       tool_assembly: []
       your_domain: []
-      your_role: [data_steward_research, data_steward_infrastructure]
+      your_role: [data manager, IT support]
       your_tasks: [data analysis, storage]
     url: https://www.e-infra.cz/en
   - name: Data Stewardship Wizard (DSW)
@@ -54,8 +54,8 @@ national_resources:
     related_pages: 
       tool_assembly: []
       your_domain: []
-      your_role: [data_steward_research, data_steward_policy, researcher]
-      your_tasks: [data_management_plan]
+      your_role: [data manager, policy officer, researcher]
+      your_tasks: [DMP]
     url: https://ds-wizard.org/
   - name: Owncloud@CESNET
     description: Owncloud is a 100 GB cloud storage freely available for Czech scientists to manage their data from any research projects 
@@ -64,8 +64,8 @@ national_resources:
     related_pages:
       tool_assembly: [ ]
       your_domain: []
-      your_role: [researcher, data_steward_infrastructure]
-      your_tasks: [storage, data_transfer, data_organisation]
+      your_role: [researcher, IT support]
+      your_tasks: [storage, data transfer, data organisation]
     url: https://du.cesnet.cz/en/navody/owncloud/start/
   - name: Czech National Repository
     description: NR is a service provided to the scientific and research communities in the Czech Republic to store their generated research data together with persistent DOI identifier. NR service is currently under the pilot program. 
@@ -74,8 +74,8 @@ national_resources:
     related_pages:
       tool_assembly: [ ]
       your_domain: []
-      your_role: [researcher, data_steward_research, data_steward_infrastructure]
-      your_tasks: [storage, existing_data, identifiers, metadata_management]
+      your_role: [researcher, data manager, IT support]
+      your_tasks: [storage, existing data, identifiers, DMP]
     url: https://data.narodni-repozitar.cz/
 
 ---
