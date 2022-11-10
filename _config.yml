@@ -121,6 +121,7 @@ defaults:
       path: "pages/contribute"
     values:
       sidebar: contribute
+      search_exclude: true
   -
     scope:
       path: "pages/about"
