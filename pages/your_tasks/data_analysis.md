@@ -3,6 +3,7 @@ title: Data analysis
 contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
 description: How to make data analysis FAIR
 page_id: data analysis
+redirect_from: /pid/data analysis
 related_pages:
   tool_assembly: [NeLS, XNAT-PIC, transmed, ome]
 training:

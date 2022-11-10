@@ -3,6 +3,7 @@ title: Human data
 description: Data management solutions for human data
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
 page_id: human data
+redirect_from: /pid/human data
 related_pages:
   your_tasks: [sensitive]
   tool_assembly: [TSD, Covid-19, transmed]

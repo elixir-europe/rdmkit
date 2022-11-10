@@ -4,6 +4,7 @@ description: Data management solutions for intrinsically disordered proteins dat
 contributors: [Ivan Mičetić]
 related_pages: 
 page_id: IDP
+redirect_from: /pid/IDP
 related_pages: 
   your_tasks: [metadata]
   tool_assembly: []

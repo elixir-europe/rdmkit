@@ -1,6 +1,7 @@
 ---
 title: Analysing
 page_id: analyse
+redirect_from: /pid/analyse
 related_pages: 
   your_tasks: [data analysis, data organisation, storage]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]

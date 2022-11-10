@@ -1,6 +1,7 @@
 ---
 title: Planning
 page_id: plan
+redirect_from: /pid/plan
 description: Introduction to data management planning
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 related_pages: 

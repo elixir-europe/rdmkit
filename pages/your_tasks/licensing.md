@@ -3,6 +3,7 @@ title: Licensing
 contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
 description: How to license research data
 page_id: licensing
+redirect_from: /pid/licensing
 related_pages: 
   tool_assembly: []
 dsw:

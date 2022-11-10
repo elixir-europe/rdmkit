@@ -1,6 +1,7 @@
 ---
 title: Processing
 page_id: process
+redirect_from: /pid/process
 description: How to manage the data processing stage
 contributors: [Rob Hooft, Munazah Andrabi]
 related_pages: 

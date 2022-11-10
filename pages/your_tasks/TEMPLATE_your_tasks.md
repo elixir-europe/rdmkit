@@ -4,6 +4,7 @@ search_exclude: true
 description: <!---REPLACE THIS with a one sentence description of the page--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
+redirect_from: /pid/<!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
 related_pages: 
   tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
 training:

@@ -3,6 +3,7 @@ title: IFB
 contributors: [Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna]
 description: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_id: IFB
+redirect_from: /pid/IFB
 affiliations: ["ELIXIR Europe", "FR"]
 related_pages: 
   your_tasks: [DMP, data organisation ,storage, data publication, data transfer, metadata, data analysis]

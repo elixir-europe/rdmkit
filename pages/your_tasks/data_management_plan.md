@@ -3,6 +3,7 @@ title: Data management plan
 contributors: [Flora D'Anna, Daniel Faria]
 description: How to write a Data Management Plan (DMP)
 page_id: DMP
+redirect_from: /pid/DMP
 related_pages: 
   tool_assembly: [NeLS, TSD]
 training:

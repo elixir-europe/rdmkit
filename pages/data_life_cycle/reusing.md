@@ -1,6 +1,7 @@
 ---
 title: Reusing
 page_id: reuse
+redirect_from: /pid/reuse
 description: Introduction to data reuse
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 related_pages: 
