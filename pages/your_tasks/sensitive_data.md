@@ -12,7 +12,7 @@ training:
   - name: RDMbites for using REDCap
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
-  - name: RDMbites
+  - name: RDMbites for sensitive data
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
 dsw:
