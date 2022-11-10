@@ -9,10 +9,10 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
-  - name: RDMbites
+  - name: RDMbites for using REDCap
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
-  - name: RDMbites
+  - name: RDMbites for sensitive data
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
 dsw:
