@@ -62,6 +62,27 @@ def tess_available(query):
     if acronym and len(fetch_output(acronym['fullname'])['data']) > 0:
         return acronym['fullname']
 
+def get_biotools_info(toolid):
+    json_output = client(
+            f"https://bio.tools/api/tool/{toolid}?format=json")
+    return {'name':json_output['name'], 'url':json_output['homepage'], 'description':json_output['description']}
+
+def get_fairsharing_info(toolid, token):
+    url = f"https://api.fairsharing.org/fairsharing_records/{toolid}"
+
+    headers = {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {token}'
+    }
+    try:
+        response = requests.request(
+            "GET", url, headers=headers)
+        json_output = response.json()['data']['attributes']
+        return {'name':json_output['name'], 'url':json_output['url'], 'description':json_output['description']}
+    except:
+        print(f'ERROR: We could not fetch FAIRsharing info for {toolid}')
+        
 
 def biotools_available(query):
     acronym = parse_acronym(query)
@@ -177,6 +198,7 @@ with open(table_path, 'r') as read_obj:
         # Looping over rows and adding its contents to the main dict
         for row_index, row in enumerate(csv_reader):
             tool = {}
+            toolinfo = {}
             tool_name = row[0]
             for col_index, cell in enumerate(row):
                 # Only include keys if there are values:
@@ -188,9 +210,6 @@ with open(table_path, 'r') as read_obj:
                                 f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
                             sys.exit(
                                 f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
-                # Only include keys if there are values:
-                elif header[col_index] == 'country' and cell:
-                    output = re.split(', |,', cell)
                 elif header[col_index] == 'registry':
                     output = {}
                     if cell:  # Only include keys if there are values
@@ -214,21 +233,36 @@ with open(table_path, 'r') as read_obj:
                             check_biotools = biotools_available(tool_name)
                             if check_biotools:
                                 output["biotools"] = check_biotools
+                                toolinfo = get_biotools_info(check_biotools)
+
                         elif output["biotools"] == "NA":
                             del output["biotools"]
+                        else:
+                            toolinfo = get_biotools_info(output["biotools"])
                         if "fairsharing" not in output:
                             if len(tool_name) > 4:
                                 check_fairsharing = fairsharing_available(
                                     tool_name, fairsharing_token)
                                 if check_fairsharing:
                                     output["fairsharing"] = check_fairsharing
+                                    toolinfo = get_fairsharing_info(check_fairsharing, fairsharing_token)
                         elif output["fairsharing"] == "NA":
                             del output["fairsharing"]
+                        else:
+                            toolinfo = get_fairsharing_info(output["fairsharing"], fairsharing_token)
                 else:
                     # Return the normal form for the Unicode string
                     output = unicodedata.normalize("NFKD", cell).strip()
                 if output:
                     tool[header[col_index]] = output
+            if toolinfo:
+                if toolinfo['name']:
+                    tool['name'] = toolinfo['name']
+                if toolinfo['description']:
+                    tool['description'] = toolinfo['description']
+                if toolinfo['url']:
+                    tool['url'] = toolinfo['url']
+                    
             main_list.append(tool)
             print(f"{row_index}. {tool['name']} is parsed.")
 
