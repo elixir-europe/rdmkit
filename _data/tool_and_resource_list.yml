@@ -29,7 +29,7 @@
     fairsharing: 8hcczk
   related_pages:
   - micro biotech
-  url: https://fairsharing.org/10.25504/FAIRsharing.qtwya6
+  url: https://github.com/ESIPFed/sweet/blob/master/src/matrElement.ttl
 - description: Browser for ontologies for agricultural science based on NBCO BioPortal.
   name: AgroPortal
   registry:
@@ -108,7 +108,7 @@
   related_pages:
   - micro biotech
   - data publication
-  url: https://fairsharing.org/10.25504/FAIRsharing.5pp7gn
+  url: https://doi.org/10.1038/npre.2008.1720.1
 - description: With Arvados, bioinformaticians run and scale compute-intensive workflows,
     developers create biomedical applications, and IT administrators manage large
     compute and storage resources.
@@ -214,7 +214,7 @@
   - data manager
   - IT support
   - human data
-  url: https://fairsharing.org/10.25504/FAIRsharing.5pp7gn
+  url: https://doi.org/10.1038/npre.2008.1720.1
 - description: R&D Platform for Life Sciences
   name: Benchling
   related_pages:
@@ -261,7 +261,7 @@
     fairsharing: 3b36hk
   related_pages:
   - biomol sim
-  url: https://fairsharing.org/10.25504/FAIRsharing.dg76vs
+  url: https://sbolstandard.org/visual-about/
 - description: Bio-Formats is a standalone Java library for reading and writing life
     sciences image file formats. It is capable of parsing both pixels and metadata
     for a large number of formats, as well as writing to several formats. See the
@@ -580,7 +580,7 @@
     tess: ChEBI
   related_pages:
   - micro biotech
-  url: https://fairsharing.org/10.25504/FAIRsharing.zwtww5
+  url: http://www.violinet.org/vaccineontology/
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures,
     calculated properties and abstracted bioactivities.
   name: ChEMBL
@@ -638,7 +638,7 @@
   - IT support
   - researcher
   - data analysis
-  url: https://fairsharing.org/10.25504/FAIRsharing.qtwya6
+  url: https://github.com/ESIPFed/sweet/blob/master/src/matrElement.ttl
 - description: The CompTox Chemicals Dashboard provides toxicological information
     for over 800.000 chemical compounds. It is a part of a suite of databases and
     web applications developed by the US Environmental Protection Agency's Chemical
@@ -813,7 +813,7 @@
   - researcher
   - data manager
   - plant pheno assembly
-  url: https://fairsharing.org/10.25504/FAIRsharing.kbz5jh
+  url: http://co.mbine.org/standards/mamo
 - description: The Data Stewardship Wizard is an international project to help serious
     researchers and data stewards with building smart Data Management Plans for FAIR
     Open Science.
@@ -843,7 +843,7 @@
   - data manager
   - researcher
   - human data
-  url: https://fairsharing.org/10.25504/FAIRsharing.1sgm8q
+  url: http://bioportal.bioontology.org/ontologies/BIOMODELS
 - description: Overview of typical licenses used for data resources
   name: data.world Data License list
   related_pages:
@@ -889,7 +889,7 @@
   - researcher
   - IT support
   - human data
-  url: https://fairsharing.org/10.25504/FAIRsharing.ngv2xx
+  url: http://purl.obolibrary.org/obo/apollo_sv.owl
 - description: A discovery platform containing collections of genes and variants associated
     to human diseases.
   name: DisGeNET
@@ -1135,7 +1135,7 @@
     biotools: ensembl_genomes
     fairsharing: 923a0p
     tess: Ensembl Genomes
-  url: https://fairsharing.org/10.25504/FAIRsharing.w9jvbt
+  url: http://co.mbine.org/standards/teddy
 - description: Open-access database of full genomes of plant species.
   name: Ensembl Plants
   registry:
@@ -1350,7 +1350,7 @@
   - rare disease
   - metadata
   - IT support
-  url: https://fairsharing.org/fairsharing_records/298
+  url: https://github.com/DTL-FAIRData/FAIRDataPoint
 - description: Resources and guidelines to assess the FAIRness of digital resources.
   name: FAIR Evaluation Services
   related_pages:
@@ -1432,7 +1432,7 @@
   - researcher
   - micro biotech
   - existing data
-  url: https://fairsharing.org/10.25504/FAIRsharing.2mk2zb
+  url: https://loinc.org/
 - description: Data publishing platform
   name: FigShare
   registry:
@@ -1523,7 +1523,7 @@
     tess: GenBank
   related_pages:
   - micro biotech
-  url: https://fairsharing.org/10.25504/FAIRsharing.qtb9yb
+  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput
     sequencing
   name: Gene Expression Omnibus (GEO)
@@ -1590,7 +1590,7 @@
   - data publication
   - IT support
   - data manager
-  url: https://fairsharing.org/10.25504/FAIRsharing.mvp707
+  url: http://bioportal.bioontology.org/ontologies/GBM
 - description: Globus lets you efficiently, securely, and reliably transfer data directly
     between systems separated by an office wall or an ocean. Focus on your research
     and offload your data transfer headaches to Globus
@@ -1743,7 +1743,7 @@
   - transfer
   - ome
   - bioimaging data
-  url: https://fairsharing.org/10.25504/FAIRsharing.5pp7gn
+  url: https://doi.org/10.1038/npre.2008.1720.1
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   name: Informed Consent Ontology
@@ -1844,7 +1844,7 @@
   - data manager
   - micro biotech
   - machine actionability
-  url: https://fairsharing.org/10.25504/FAIRsharing.76c96a
+  url: https://guidelines.openaire.eu/en/latest/literature/index.html
 - description: 'A scalable Java library for creating ISA-Tab metadata.
 
 
@@ -1982,7 +1982,7 @@
   related_pages:
   - data publication
   - biomol sim
-  url: https://fairsharing.org/10.25504/FAIRsharing.dg76vs
+  url: https://sbolstandard.org/visual-about/
 - description: An international data aggregation and notification service for metabolomics.
   name: MetabolomeXchange
   registry:
@@ -2047,7 +2047,7 @@
   registry:
     biotools: mint
     fairsharing: 2bdvmk
-  url: https://fairsharing.org/10.25504/FAIRsharing.2mk2zb
+  url: https://loinc.org/
 - description: 'This FAIRsharing record describes: Minimal set of terms for anatomy.'
   name: 'FAIRsharing record for: Minimal Anatomical Terminology'
   registry:
@@ -2059,7 +2059,7 @@
   - data manager
   - marine
   - plant geno assembly
-  url: https://fairsharing.org/10.25504/FAIRsharing.qtb9yb
+  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
 - description: A database of protein disorder and mobility annotations
   name: MobiDB
   registry:
@@ -2421,7 +2421,7 @@
   - metadata
   - researcher
   - data manager
-  url: https://fairsharing.org/10.25504/FAIRsharing.5pp7gn
+  url: https://doi.org/10.1038/npre.2008.1720.1
 - description: The Protein Circular Dichroism Data Bank is a public repository for
     circular dichroism and synchrotron radiation CD spectral data and their associated
     experimental metadata. All entries undergo validation and curation procedures
@@ -2577,7 +2577,7 @@
     tess: ProteomeXchange
   related_pages:
   - proteomics
-  url: https://fairsharing.org/10.25504/FAIRsharing.zvrep1
+  url: http://wiki.gensc.org/index.php?title=MIMARKS
 - description: 'This FAIRsharing record describes: The IUPAC Gold Book is a database
     of ~7000 chemical concepts derived from IUPAC''s Recommendations published in
     Pure and Applied Chemistry.'
@@ -2586,7 +2586,7 @@
     fairsharing: 46e1e9
   related_pages:
   - proteomics
-  url: https://fairsharing.org/10.25504/FAIRsharing.OsiqlF
+  url: https://goldbook.iupac.org/
 - description: 'This FAIRsharing record describes: This format is for displaying SNPs
     from personal genomes. It is the same as is used for the Genome Variants and Population
     Variants tracks.'
@@ -2595,7 +2595,7 @@
     fairsharing: 132b10
   related_pages:
   - micro biotech
-  url: https://fairsharing.org/10.25504/FAIRsharing.gnga3t
+  url: http://genome.ucsc.edu/FAQ/FAQformat.html#format10
 - description: R Markdown documents are fully reproducible. Use a productive notebook
     interface to weave together narrative text and code to produce elegantly formatted
     output. Use multiple languages including R, Python, and SQL.
@@ -2786,7 +2786,7 @@
     fairsharing: 36pf8q
   related_pages:
   - toxicology data
-  url: https://fairsharing.org/10.25504/FAIRsharing.3gxr9b
+  url: http://www.ncbi.nlm.nih.gov/geo/info/soft2.html
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes
     representing the microbiota of fishes found in the taxonomic family of Salmonidae.
   name: salDB
@@ -2896,7 +2896,7 @@
     biotools: silva
     fairsharing: 5vtYGG
     tess: Silva
-  url: https://fairsharing.org/10.25504/FAIRsharing.1sgm8q
+  url: http://bioportal.bioontology.org/ontologies/BIOMODELS
 - description: Singularity is a container platform.
   name: Singularity
   registry:
@@ -2954,7 +2954,7 @@
     tess: STRING
   related_pages:
   - proteomics
-  url: https://fairsharing.org/10.25504/FAIRsharing.qtb9yb
+  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
 - description: 'This FAIRsharing record describes: An ontology for spider comparative
     biology including anatomical parts (e.g. leg, claw), behavior (e.g. courtship,
     combing) and products (i.g. silk, web, borrow).'
@@ -2964,7 +2964,7 @@
     fairsharing: 7CVoS6
   related_pages:
   - micro biotech
-  url: https://fairsharing.org/10.25504/FAIRsharing.yecp83
+  url: https://github.com/obophenotype/spider-ontology
 - description: 'The Synthetic Biology Open Language (SBOL) Version 3.
 
 
@@ -3053,7 +3053,7 @@
   - IT support
   - policy officer
   - human data
-  url: https://fairsharing.org/10.25504/FAIRsharing.qtb9yb
+  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
 - description: Collaborative effort to develob interoperable ontologies for the biological
     sciences
   name: The Open Biological and Biomedical Ontology (OBO) Foundry
@@ -3203,7 +3203,7 @@
   - data publication
   - data manager
   - researcher
-  url: https://fairsharing.org/10.25504/FAIRsharing.yecp83
+  url: https://github.com/obophenotype/spider-ontology
 - description: Open source imaging informatics platform. It facilitates common management,
     productivity, and quality assurance tasks for imaging and associated data.
   name: XNAT

@@ -79,7 +79,7 @@ def get_fairsharing_info(toolid, token):
         response = requests.request(
             "GET", url, headers=headers)
         json_output = response.json()['data']['attributes']
-        return {'name':json_output['name'], 'url':json_output['url'], 'description':json_output['description']}
+        return {'name':json_output['name'], 'url':json_output['metadata']['homepage'], 'description':json_output['description']}
     except:
         print(f'ERROR: We could not fetch FAIRsharing info for {toolid}')
         
