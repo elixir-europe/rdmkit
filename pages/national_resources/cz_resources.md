@@ -52,7 +52,7 @@ national_resources:
   - name: ownCloud@CESNET
     description: CESNET-hosted ownCloud is a 100 GB cloud storage freely available for Czech scientists to manage their data from any research projects 
     how_to_access: To use the CESNET-hosted ownCloud, you have to be an employee or a student of a Czech academic organization. For technical reasons, you have to have an account in [eduID.cz](https://eduid.cz).
-    instance_of: OwnCloud
+    instance_of: ownCloud
     related_pages:
       tool_assembly: []
       your_domain: []

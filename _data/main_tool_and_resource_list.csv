@@ -247,7 +247,7 @@ OpenStack,https://www.openstack.org/,OpenStack is an open source cloud computing
 Orphadata,http://www.orphadata.org/cgi-bin/index.php,"The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format",fairsharing-coll:bsg-d001249,
 OSF,https://osf.io,"OSF (Open Science Framework) is a free, open platform to support your research and enable collaboration.",,"storage, researcher, data manager"
 OTP,https://gitlab.com/one-touch-pipeline/otp,"One Touch Pipeline (OTP) is a data management platform for running bioinformatics pipelines in a high-throughput setting, and for organising the resulting data and metadata.",,"human data, metadata, DMP, data analysis"
-OwnCloud,https://owncloud.com,Cloud storage and file sharing service,,"storage, IT support, transfer, data analysis"
+ownCloud,https://owncloud.com,Cloud storage and file sharing service,,"storage, IT support, transfer, data analysis"
 PAA,https://bioconductor.org/packages/PAA/,PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.,biotools:paa,"data analysis, researcher, human data, proteomics"
 PANGAEA,https://www.pangaea.de/,Data Publisher for Earth and Environmental Science,biotools:pangaea,"data publication, metadata, researcher, data manager"
 PCDDB,https://pcddb.cryst.bbk.ac.uk/,The Protein Circular Dichroism Data Bank,biotools:pcddb,"IDP, researcher"
