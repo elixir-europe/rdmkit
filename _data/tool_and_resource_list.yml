@@ -2195,7 +2195,7 @@
   - data analysis
   url: https://gitlab.com/one-touch-pipeline/otp
 - description: Cloud storage and file sharing service
-  name: OwnCloud
+  name: ownCloud
   related_pages:
   - storage
   - IT support
