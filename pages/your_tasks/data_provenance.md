@@ -1,6 +1,5 @@
 ---
 title: Data provenance
-search_exclude: true
 description: how to record information about data provenace
 contributors: [Flora D'Anna]
 page_id: data provenance
