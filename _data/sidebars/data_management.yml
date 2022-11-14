@@ -68,6 +68,8 @@ subitems:
         url: /data_organisation
       - title: Data protection
         url: /data_protection
+      - title: Data provenance
+        url: /data_provenance
       - title: Data publication
         url: /data_publication
       - title: Data quality
