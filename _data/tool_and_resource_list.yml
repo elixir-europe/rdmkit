@@ -1894,6 +1894,7 @@
   registry:
     biotools: mobidb
     fairsharing: jwra3e
+    tess: MobiDB
   related_pages:
   - IDP
   - researcher
