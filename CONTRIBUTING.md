@@ -9,7 +9,7 @@ This project is governed by a [code of conduct] (https://github.com/elixir-europ
 ## How to contribute 
 
 You can create new pages or report errors or typos in two ways:
- - Use the GitHub web interface (see How to contribute)
+ - Use the GitHub web interface ([How to contribute](https://rdmkit.elixir-europe.org/how_to_contribute))
  - Send a text file with your suggested changes to the editors (rdm-editors@elixir-europe.org). 
 
 ### Reporting a bug or a typo 
