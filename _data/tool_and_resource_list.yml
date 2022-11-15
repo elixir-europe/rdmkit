@@ -19,25 +19,31 @@
   - data analysis
   - transmed
   url: https://ada-discovery.github.io/
-- description: 'This FAIRsharing record describes: Material Element component of SWEET
-    ontology. SWEET is a highly modular ontology suite with many separate ontologies
-    covering Earth system science. SWEET is a mid-level ontology and consists of nine
-    top-level concepts that can be used as a foundation for domain-specific ontologies
-    that extend these top-level SWEET components. '
-  name: 'FAIRsharing record for: Material Element component of the SWEET ontology'
+- description: Addgene is a non-profit plasmid repository dedicated to helping scientists
+    around the world share high-quality plasmids. Addgene are working with thousands
+    of laboratories to assemble a high-quality library of published plasmids for use
+    in research and discovery. By linking plasmids with articles, scientists can always
+    find data related to the materials they request.
+  name: Addgene
   registry:
     fairsharing: 8hcczk
   related_pages:
   - micro biotech
-  url: https://github.com/ESIPFed/sweet/blob/master/src/matrElement.ttl
-- description: Browser for ontologies for agricultural science based on NBCO BioPortal.
+  url: http://www.addgene.org/
+- description: AgroPortal is an ontology repository for agronomy as well as food,
+    plant, agriculture and biodiversity sciences. It provides ontology hosting, search,
+    versioning, visualization, comment, and recommendation; enables semantic annotation;
+    stores and exploits ontology alignments; and enables interoperation with the semantic
+    web. To align with the needs of the agronomy community, AgroPortal uses SKOS vocabularies
+    and trait dictionaries) and supported features (offering detailed metadata and
+    advanced annotation capabilities).
   name: AgroPortal
   registry:
     biotools: AgroPortal
     fairsharing: z4xpxx
   related_pages:
   - plant pheno assembly
-  url: http://agroportal.lirmm.fr/
+  url: http://agroportal.lirmm.fr
 - description: Amazon Web Services
   name: Amazon Web Services
   registry:
@@ -88,19 +94,12 @@
   - researcher
   - data manager
   url: https://argos.openaire.eu/splash/
-- description: 'This FAIRsharing record describes: This module represents the formalised
-    opinion of the authors and the CARMEN consortium, which identifies the minimum
-    information required to report the use of electrophysiology in a neuroscience
-    study. A MINI module represents the minimum information that should be reported
-    about a dataset to facilitate computational access and analysis to allow a reader
-    to interpret and critically evaluate the processes performed and the conclusions
-    reached, and to support their experimental corroboration. In practice a MINI module
-    comprises a checklist of information that should be provided (for example about
-    the protocols employed) when a data set is submitted to the CARMEN system. Please
-    note that, while these guidelines remain available, the CARMEN project can no
-    longer be accessed. Please let us know if you have any information regarding this
-    resource.'
-  name: 'FAIRsharing record for: Minimum Information about a Neuroscience Investigation'
+- description: ArrayExpress is a database of functional genomics experiments that
+    can be queried and the data downloaded. It includes gene expression data from
+    microarray and high throughput sequencing studies. Data is collected to MIAME
+    and MINSEQE standards. Experiments are submitted directly to ArrayExpress or are
+    imported from the NCBI GEO database.
+  name: ArrayExpress
   registry:
     biotools: arrayexpress
     fairsharing: 6k0kwd
@@ -108,7 +107,7 @@
   related_pages:
   - micro biotech
   - data publication
-  url: https://doi.org/10.1038/npre.2008.1720.1
+  url: https://www.ebi.ac.uk/arrayexpress/
 - description: With Arvados, bioinformaticians run and scale compute-intensive workflows,
     developers create biomedical applications, and IT administrators manage large
     compute and storage resources.
@@ -148,9 +147,13 @@
   - researcher
   - transmed
   url: https://www.hgsc.bcm.edu/software/atlas-whole-genome-assembly-suite
-- description: Store and publish your research data. Can be used to bridge between
-    domains
-  name: b2share
+- description: B2SHARE is a repository for storing small-scale research data from
+    diverse contexts. It guarantees long-term persistence of data (with permanent
+    identifiers) and allows that data to be shared with other users. B2SHARE is integrated
+    within the EUDAT collaborative data infrastructure. B2SHARE is open to all researchers
+    and scientists who are affiliated with research institutions, universities as
+    well as to individual researchers (citizen scientists).
+  name: EUDAT B2SHARE
   registry:
     fairsharing: da9307
   related_pages:
@@ -192,19 +195,15 @@
   - data manager
   - human data
   url: https://www.bbmri-eric.eu/elsi/knowledge-base/
-- description: 'This FAIRsharing record describes: This module represents the formalised
-    opinion of the authors and the CARMEN consortium, which identifies the minimum
-    information required to report the use of electrophysiology in a neuroscience
-    study. A MINI module represents the minimum information that should be reported
-    about a dataset to facilitate computational access and analysis to allow a reader
-    to interpret and critically evaluate the processes performed and the conclusions
-    reached, and to support their experimental corroboration. In practice a MINI module
-    comprises a checklist of information that should be provided (for example about
-    the protocols employed) when a data set is submitted to the CARMEN system. Please
-    note that, while these guidelines remain available, the CARMEN project can no
-    longer be accessed. Please let us know if you have any information regarding this
-    resource.'
-  name: 'FAIRsharing record for: Minimum Information about a Neuroscience Investigation'
+- description: Beacon v2 is a protocol/specification established by the Global Alliance
+    for Genomics and Health initiative (GA4GH) that defines an open standard for federated
+    discovery of genomic data and associated information in biomedical research and
+    clinical applications. The Beacon v2 standard - a major update from the original
+    GA4GH Beacon first proposed in 2014 - was accepted by GA4GH in April 2022. Beacon
+    v2 consists of two components, the Framework and the Models. The Framework contains
+    the format for the requests and responses, whereas the Models define the structure
+    of the biological data response.
+  name: Beacon
   registry:
     biotools: beacon
     fairsharing: 6fba91
@@ -214,7 +213,7 @@
   - data manager
   - IT support
   - human data
-  url: https://doi.org/10.1038/npre.2008.1720.1
+  url: http://docs.genomebeacons.org
 - description: R&D Platform for Life Sciences
   name: Benchling
   related_pages:
@@ -252,16 +251,15 @@
   - IT support
   - data analysis
   url: https://biii.eu
-- description: "This FAIRsharing record describes: Synthetic Biology Open Language\
-    \ Visual (SBOL Visual) is an open-source graphical notation that uses schematic\
-    \ \u201Cglyphs\u201D to specify genetic parts, devices, modules, and systems."
-  name: 'FAIRsharing record for: Synthetic Biology Open Language Visual'
+- description: BindingDB enables research by making a growing collection of high-quality,
+    quantitative, protein-ligand binding data findable and usable. Funded by NIGMS/NIH.
+  name: BindingDB database of measured binding affinities
   registry:
     biotools: bindingdb
     fairsharing: 3b36hk
   related_pages:
   - biomol sim
-  url: https://sbolstandard.org/visual-about/
+  url: http://www.bindingdb.org
 - description: Bio-Formats is a standalone Java library for reading and writing life
     sciences image file formats. It is capable of parsing both pixels and metadata
     for a large number of formats, as well as writing to several formats. See the
@@ -307,15 +305,20 @@
   - biomol sim
   url: https://bioexcel-cv19.bsc.es/#/
 - description: The BioImage Archive stores and distributes biological images that
-    are useful to life-science researchers.
-  name: BioImageArchive
+    are useful to life-science researchers. Its development will provide data archiving
+    services to the broader bioimaging database community. This includes added-value
+    bioimaging data resources such as EMPIAR, Cell-IDR and Tissue-IDR.
+  name: BioImage Archive
   registry:
     fairsharing: x38D2k
   related_pages:
   - data publication
   - bioimaging data
   url: https://www.ebi.ac.uk/bioimage-archive/
-- description: A repository of mathematical models for application in biological sciences
+- description: BioModels is a repository of computational models of biological processes.
+    It allows users to search and retrieve mathematical models published in the literature.
+    Many models are manually curated (to ensure reproducibility) and extensively cross-linked
+    to publicly available reference information.
   name: BioModels
   registry:
     biotools: biomodels
@@ -325,14 +328,14 @@
   - micro biotech
   - data publication
   url: https://www.ebi.ac.uk/biomodels/
-- description: "The BIONDA biomarker database provides structured information on all\
-    \ biomarker candidates published in PubMed articles. There is no limitation to\
-    \ any kind of diseases. To this end, PubMed article abstracts and renowned databases\
-    \ such as UniProt and Human Disease Ontology are used as sources for BIONDA\u2019\
-    s database entries. These are acquired automatically and updated regularly using\
-    \ text mining methods. BIONDA is available freely via a user-friendly web interface.\
-    \ As a specific characteristic, BIONDA\u2019s database entries are rated by a\
-    \ scoring approach estimating biomarker reliability."
+- description: The BIONDA biomarker database provides structured information on all
+    biomarker candidates published in PubMed articles. There is no limitation to any
+    kind of diseases. To this end, PubMed article abstracts and renowned databases
+    such as UniProt and Human Disease Ontology are used as sources for BIONDA's database
+    entries. These are acquired automatically and updated regularly using text mining
+    methods. BIONDA is available freely via a user-friendly web interface. As a specific
+    characteristic, BIONDA's database entries are rated by a scoring approach estimating
+    biomarker reliability.
   name: BIONDA - Biomarker Database
   registry:
     biotools: bionda
@@ -343,8 +346,12 @@
   - proteomics
   url: http://bionda.mpc.rub.de/start.php
 - description: BioSamples stores and supplies descriptions and metadata about biological
-    samples used in research and development by academia and industry.
-  name: BioSamples
+    samples used in research and development by academia and industry. Samples are
+    either 'reference' samples (e.g. from 1000 Genomes, HipSci, FAANG) or have been
+    used in an assay database such as the European Nucleotide Archive (ENA) or ArrayExpress.
+    It provides links to assays and specific samples, and accepts direct submissions
+    of sample information.
+  name: BioSamples at the European Bioinformatics Institute
   registry:
     biotools: biosamples
     fairsharing: ewjdq6
@@ -353,18 +360,24 @@
   - plants
   - plant geno assembly
   url: https://www.ebi.ac.uk/biosamples/
-- description: Bioschemas aims to improve the Findability on the Web of life sciences
-    resources such as datasets, software, and training materials
-  name: Bioschemas
+- description: "The Bioschemas Sample Profile describes a minimal set of properties\
+    \ to encapsulate identification, linking, and metadata descriptions for biological\
+    \ samples. Some of these properties are existing standard schema.org properties,\
+    \ others require Bioschemas extensions. \n\n"
+  name: Bioschemas Sample Profile
   registry:
     fairsharing: f3a3ca
     tess: Bioschemas
   related_pages:
   - machine actionability
   - IT support
-  url: https://bioschemas.org
-- description: A database hosting datasets from biological studies. Useful for storing
-    or accessing data that is not compliant for mainstream repositories.
+  url: https://bioschemas.org/profiles/Sample/0.2-RELEASE-2018_11_10
+- description: The BioStudies database holds descriptions of biological studies, links
+    to data from these studies in other databases at EMBL-EBI or outside, as well
+    as data that do not fit in the structured archives at EMBL-EBI. The database can
+    accept a wide range of types of studies described via a simple format. It also
+    enables manuscript authors to submit supplementary information and link to it
+    from the publication.
   name: BioStudies
   registry:
     biotools: biostudies
@@ -387,7 +400,10 @@
   - data analysis
   - bioimaging data
   url: http://bisque.yulab.org/
-- description: Git based code hosting and collaboration tool, built for teams.
+- description: Bitbucket is a Git-based source code repository hosting service owned
+    by Atlassian. It provides a number of different access levels, from free through
+    to premium paid services. Users can create public or private repositories, the
+    latter of which is restricted to 5 users under the free plan.
   name: Bitbucket
   registry:
     fairsharing: fc3431
@@ -437,10 +453,9 @@
   - plants
   - plant pheno assembly
   url: https://www.brapi.org
-- description: Database of enzyme and enzyme-ligand information, across all taxonomic
-    groups, manually extracted from primary literature and extended by text mining
-    procedures
-  name: BRENDA
+- description: BRENDA is the main collection of enzyme functional data available to
+    the scientific community.
+  name: BRENDA Enzyme Database
   registry:
     biotools: brenda
     fairsharing: etp533
@@ -455,11 +470,11 @@
   - data manager
   - researcher
   url: https://www.bulkrenameutility.co.uk/
-- description: "A highly useful and flexible tool for calibration of targeted MS\u2010\
-    based measurements. CalibraCurve enables an automated batch-mode determination\
-    \ of dynamic linear ranges and quantification limits for both targeted proteomics\
-    \ and similar assays. The software uses a variety of measures to assess the accuracy\
-    \ of the calibration and provides intuitive visualizations."
+- description: A highly useful and flexible tool for calibration of targeted MS-based
+    measurements. CalibraCurve enables an automated batch-mode determination of dynamic
+    linear ranges and quantification limits for both targeted proteomics and similar
+    assays. The software uses a variety of measures to assess the accuracy of the
+    calibration and provides intuitive visualizations.
   name: CalibraCurve
   registry:
     biotools: calibracurve
@@ -467,15 +482,17 @@
   - data analysis
   - proteomics
   url: https://github.com/mpc-bioinformatics/CalibraCurve
-- description: Continuous evaluation of the accuracy and reliability of protein structure
-    prediction methods in a fully automated manner
-  name: CAMEO
+- description: Continuous automated benchmarking of computational protein structure
+    prediction methods (and model quality estimation techniques). CAMEO assessment
+    is based on blind predictions for weekly pre-released targets from PDB. Benchmarking
+    results are made available as reference data for methods development.
+  name: Continuously Automated Model Evaluation
   registry:
     biotools: cameo
     fairsharing: dq34p2
   related_pages:
   - struct bioinfo
-  url: https://cameo3d.org
+  url: http://cameo3d.org/
 - description: Cancer Genome Interpreter (CGI) is designed to support the identification
     of tumor alterations that drive the disease and detect those that may be therapeutically
     actionable. CGI relies on existing knowledge collected from several resources
@@ -494,16 +511,16 @@
   related_pages:
   - struct bioinfo
   url: https://www.ebi.ac.uk/pdbe/complex-pred/capri/
-- description: The CAS Registry (Chemical Abstracts Service Registry) includes more
-    than 188 million unique chemicals. CAS Registry Numbers are broadly used as a
-    unique identifier for chemical substances. The Registry is maintained by CAS,
-    a subdivision of the American Chemical Society.
-  name: CAS Registry
+- description: Identifier used by the Chemical Abstracts Service Registry. A CAS Registry
+    Number is a numeric identifier that can contain up to 10 digits, divided by hyphens
+    into three parts. The right-most digit is a check digit used to verify the validity
+    and uniqueness of the entire number.
+  name: CAS Registry Number
   registry:
     fairsharing: r7Kwy7
   related_pages:
   - toxicology data
-  url: https://www.cas.org/cas-data/cas-registry
+  url: https://www.cas.org/support/documentation/chemical-substances/faqs#2
 - description: Image analysis tool in comet assay. It has been developed to work with
     either color, or gray-scale images of fluorescence-stained comets saved in TIF
     format. In its present version it does not control a video or CCD camera. Comets
@@ -529,17 +546,22 @@
   - IT support
   - data manager
   url: https://cran.r-project.org/web/packages/castor/index.html
-- description: A hierarchical domain classification of protein structures in the Protein
-    Data Bank.
+- description: The CATH database is a free, publicly available online resource that
+    provides information on the evolutionary relationships of protein domains. It
+    provides a hierarchical domain classification of protein structures in the Protein
+    Data Bank. Protein structures are classified using a combination of automated
+    and manual procedures. There are four major levels in this hierarchy; Class (secondary
+    structure classification, e.g. mostly alpha), Architecture (classification based
+    on overall shape), Topology (fold family) and Homologous superfamily (protein
+    domains which are thought to share a common ancestor).
   name: CATH
   registry:
     biotools: cath
     fairsharing: xgcyyn
     tess: CATH
   url: http://www.cathdb.info/
-- description: CEDAR is making data submission smarter and faster, so that scientific
-    researchers and analysts can create and use better metadata.
-  name: CEDAR
+- description: The initial set of value sets used by CEDAR.
+  name: CEDAR Value Sets
   registry:
     biotools: cedar
     fairsharing: pmygc7
@@ -548,7 +570,7 @@
   - machine actionability
   - researcher
   - data manager
-  url: https://metadatacenter.org
+  url: http://cedar.stanford.edu
 - description: A version management tool for modifying strains
   name: CellRepo
   related_pages:
@@ -567,22 +589,28 @@
   related_pages:
   - storage
   url: https://cernbox.web.cern.ch/cernbox/
-- description: 'This FAIRsharing record describes: The Vaccine Ontology (VO) was created
-    as part of an international community-based effort to represent vaccine knowledge
-    and to support automated reasoning. VO describes the detailed classification and
-    definitions of vaccine components and vaccine administration processes. The Vaccine
-    Ontology is being used in a variety of applications by many user groups in academia
-    and industry.'
-  name: 'FAIRsharing record for: Vaccine Ontology'
+- description: Chemical Entities of Biological Interest (ChEBI) is a free dictionary
+    that describes 'small' chemical compounds. These compound includes distinct synthetic
+    or natural atoms, molecules, ions, ion pair, radicals, radical ions, complexes,
+    conformers, etc.. These molecular entities can interact with or affect the processes
+    of living organisms.
+  name: Chemical Entities of Biological Interest
   registry:
     biotools: chebi
     fairsharing: 62qk8w
     tess: ChEBI
   related_pages:
   - micro biotech
-  url: http://www.violinet.org/vaccineontology/
-- description: Database of bioactive drug-like small molecules, it contains 2-D structures,
-    calculated properties and abstracted bioactivities.
+  url: http://www.ebi.ac.uk/chebi/
+- description: ChEMBL is an open, manually-curated, large-scale bioactivity database
+    integrating data records extracted from medicinal chemistry literature, from deposited
+    data sets, as well as other public data sources. It brings together chemical,
+    bioactivity and genomic data to aid the translation of genomic information into
+    effective new drugs. Information regarding the compounds tested (including their
+    chemical structures), the biological or physicochemical assays performed on these
+    and the targets of these assays are recorded in a structured form, standardized,
+    and annotated with controlled vocabularies to allow users to address a broad range
+    of drug discovery questions.
   name: ChEMBL
   registry:
     biotools: chembl
@@ -592,7 +620,7 @@
   - data analysis
   - researcher
   - toxicology data
-  url: https://www.ebi.ac.uk/chembl/
+  url: https://www.ebi.ac.uk/chembl
 - description: ChIP-seq-based database of human transcription factor binding sites
     and the topological arrangements of the proteins bound to them.
   name: ChIPSummitDB
@@ -609,14 +637,18 @@
   - data manager
   - policy officer
   url: https://choosealicense.com
-- description: ClinicalTrials.gov is a resource depending on the National Library
-    of medicine which makes available private and public-funded clinical trials.
+- description: 'ClinicalTrials.gov hosts a large collection of clinical studies from
+    around the world. You can search for clinical studies by condition or disease
+    name or other terms such as a drug name. Note: ClinicalTrials.gov is an official
+    website of the U.S. Department of Health and Human Services, National Institutes
+    of Health, National Library of Medicine, and National Center for Biotechnology
+    Information. The National Library of Medicine (NLM) maintains this website. '
   name: ClinicalTrials.gov
   registry:
     fairsharing: mewhad
   related_pages:
   - toxicology data
-  url: https://clinicaltrials.gov/
+  url: https://beta.clinicaltrials.gov/
 - description: Common Data Elements for Unruptured Intracranial Aneurysm and Subarachnoid
     Hemorrhage Clinical Research.
   name: CDE
@@ -625,12 +657,15 @@
   related_pages:
   - rare disease
   url: https://cde.nlm.nih.gov/home
-- description: 'This FAIRsharing record describes: Material Element component of SWEET
-    ontology. SWEET is a highly modular ontology suite with many separate ontologies
-    covering Earth system science. SWEET is a mid-level ontology and consists of nine
-    top-level concepts that can be used as a foundation for domain-specific ontologies
-    that extend these top-level SWEET components. '
-  name: 'FAIRsharing record for: Material Element component of the SWEET ontology'
+- description: 'Common Workflow Language (CWL) is an open standard for describing
+    how to run command line tools and connect them to create workflows.
+
+
+    Tools and workflows described using CWL are portable across a variety of platforms
+    that support the CWL standards. Using CWL, it easy to scale complex data analysis
+    and machine learning workflows from a single developer''s laptop up to massively
+    parallel cluster, cloud and high performance computing environments.'
+  name: Common Workflow Language
   registry:
     fairsharing: 8y5ayx
     tess: Common Workflow Language (CWL)
@@ -638,14 +673,20 @@
   - IT support
   - researcher
   - data analysis
-  url: https://github.com/ESIPFed/sweet/blob/master/src/matrElement.ttl
-- description: The CompTox Chemicals Dashboard provides toxicological information
-    for over 800.000 chemical compounds. It is a part of a suite of databases and
-    web applications developed by the US Environmental Protection Agency's Chemical
-    Safety for Sustainability Research Program. These databases and apps support EPA's
-    computational toxicology research efforts to develop innovative methods to change
-    how chemicals are currently evaluated for potential health risks.
-  name: Comptox
+  url: http://www.commonwl.org
+- description: The foundation of chemical safety testing relies on chemistry information
+    such as high-quality chemical structures and physical chemical properties. This
+    information is used by scientists to predict the potential health risks of chemicals.
+    The Dashboard is part of a suite of dashboards developed by EPA to help evaluate
+    the safety of chemicals. It provides access to a variety of information on over
+    700,000 chemicals currently in use. Within the Dashboard, users can access chemical
+    structures, experimental and predicted physicochemical and toxicity data, and
+    additional links to relevant websites and applications. It maps curated physicochemical
+    property data associated with chemical substances to their corresponding chemical
+    structures. These data are compiled from sources including the EPA's computational
+    toxicology research databases, and public domain databases such as the National
+    Center for Biotechnology Information's PubChem database.
+  name: EPA Comptox Chemicals Dashboard
   registry:
     biotools: comptox_chemistry_dashboard
     fairsharing: tfj7gt
@@ -716,8 +757,24 @@
   - data manager
   - policy officer
   url: https://creativecommons.org/choose/
-- description: The Crop Ontology compiles concepts to curate phenotyping assays on
-    crop plants, including anatomy, structure and phenotype.
+- description: Created in 2008 by the CGIAR, the Crop Ontology (CO; http://www.cropontology.org)
+    is an essential source of traits and variables to support the standardization
+    of the breeding databases such as the Integrated Breeding Platform's BMS (IBP;
+    https://www.integratedbreeding.net/) and the Boyce Thompson Institute's Breedbase
+    (https://breedbase.org/) (Arnaud et al., 2020). By providing descriptions of agronomic,
+    morphological, physiological, quality, and stress traits along with their definitions
+    and relationships, also including a standard nomenclature for composing the variables,
+    the CO enables digital capture and aggregation of crop trait data, as well as
+    comparison across projects and locations (Shrestha et al, 2012). The crop ontologies
+    follow a conceptual model that defines a phenotypic variable as a combination
+    of a trait, a method and a scale. This model aims at supporting the creation and
+    management of breeders' field books and the generation of annotated trial data.
+    Annotated data are interpretable, interoperable and reusable. The development
+    of a crop-specific ontology is a community-driven effort which is usually coordinated
+    by a curator (or curators) nominated from within the community itself. CO's Traits
+    that are properly described following the guidelines are progressively mapped
+    to the Planteome species-neutral Trait Ontology (TO) maintained by Oregon State
+    University.
   name: Crop Ontology
   registry:
     fairsharing: wgfrmg
@@ -727,7 +784,7 @@
   - data manager
   - IT support
   - plants
-  url: https://www.cropontology.org
+  url: http://www.cropontology.org/
 - description: A Python tool to encrypt, decrypt or re-encrypt files, according to
     the GA4GH encryption file format.
   name: Crypt4GH
@@ -801,10 +858,15 @@
   - researcher
   - data manager
   url: https://www.dcc.ac.uk/guidance/standards/metadata/list
-- description: 'This FAIRsharing record describes: Classification of the types of
-    mathematical models used mostly in the life sciences, the types of variables,
-    the types of readout and other relevant features.'
-  name: 'FAIRsharing record for: Mathematical Modelling Ontology'
+- description: Portail Data INRAE is offered by INRAE as part of its mission to open
+    the results of its research. INRAE is Europe's top agricultural research institute
+    and the world's number two centre for the agricultural sciences.  Data INRAE will
+    share research data in relation to food, nutrition, agriculture and environment.
+    It includes experimental, simulation and observation data, omics data, survey
+    and text data. Only data produced by or in collaboration with INRAE will be hosted
+    in the repository, but anyone can access the metadata and the open data. Data
+    INRAE is built on software from the Dataverse Project.
+  name: Portail Data INRAE
   registry:
     fairsharing: 178BmT
   related_pages:
@@ -813,7 +875,7 @@
   - researcher
   - data manager
   - plant pheno assembly
-  url: http://co.mbine.org/standards/mamo
+  url: https://data.inrae.fr/
 - description: The Data Stewardship Wizard is an international project to help serious
     researchers and data stewards with building smart Data Management Plans for FAIR
     Open Science.
@@ -830,12 +892,14 @@
   - TSD
   - plant pheno assembly
   url: https://ds-wizard.org
-- description: 'This FAIRsharing record describes: The BioModels Ontology is an OWL
-    Representation of the models in the BioModels repository. This resource has not
-    been updated recently within BioPortal, and no official homepage can be found,
-    therefore we have marked its status as Uncertain. Please get in touch with us
-    if you have any information on this project.'
-  name: 'FAIRsharing record for: BioModels Ontology'
+- description: The Data Use Ontology (DUO) describes data use requirements and limitations.
+    DUO allows to semantically tag datasets with restriction about their usage, making
+    them discoverable automatically based on the authorization level of users, or
+    intended usage. This resource is based on the OBO Foundry principles, and developed
+    using the W3C Web Ontology Language. It is used in production by the European
+    Genome-phenome Archive (EGA) at EMBL-EBI and CRG as well as the Broad Institute
+    for the Data Use Oversight System (DUOS).
+  name: The Data Use Ontology
   registry:
     fairsharing: 5dnjs2
     tess: Data Use Ontology
@@ -843,16 +907,26 @@
   - data manager
   - researcher
   - human data
-  url: http://bioportal.bioontology.org/ontologies/BIOMODELS
+  url: https://raw.githubusercontent.com/EBISPOT/DUO/master/duo.owl
 - description: Overview of typical licenses used for data resources
   name: data.world Data License list
   related_pages:
   - licensing
   - biomol sim
   url: https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets
-- description: A search engine for the complete collection of publicly available DataCite
-    DOIs
-  name: DataCite
+- description: DataCite is a leading global non-profit organisation that provides
+    persistent identifiers (DOIs) for research data. Their goal is to help the research
+    community locate, identify, and cite research data with confidence. They support
+    the creation and allocation of DOIs and accompanying metadata. They provide services
+    that support the enhanced search and discovery of research content. They also
+    promote data citation and advocacy through community-building efforts and responsive
+    communication and outreach materials. DataCite gathers metadata for each DOI assigned
+    to an object. The metadata is used for a large index of research data that can
+    be queried directly to find data, obtain stats and explore connections. All the
+    metadata is free to access and review. To showcase and expose the metadata gathered,
+    DataCite provides an integrated search interface, where it is possible to search,
+    filter and extract all the details from a collection of millions of records.
+  name: DataCite Repository
   registry:
     fairsharing: yknezb
   related_pages:
@@ -877,9 +951,12 @@
   - policy officer
   - human data
   url: https://dawid.elixir-luxembourg.org/
-- description: 'This FAIRsharing record describes: An ontology of infectious disease
-    epidemiology and ecology (a.k.a. population biology).'
-  name: 'FAIRsharing record for: Apollo-SV'
+- description: The Database of Genotypes and Phenotypes (dbGaP) archives and distributes
+    the results of studies that have investigated the interaction of genotype and
+    phenotype. Such studies include genome-wide association studies, medical sequencing,
+    molecular diagnostic assays, as well as association between genotype and non-clinical
+    traits.
+  name: Database of Genotypes and Phenotypes
   registry:
     biotools: dbgap
     fairsharing: 88v2k0
@@ -889,9 +966,19 @@
   - researcher
   - IT support
   - human data
-  url: http://purl.obolibrary.org/obo/apollo_sv.owl
-- description: A discovery platform containing collections of genes and variants associated
-    to human diseases.
+  url: https://www.ncbi.nlm.nih.gov/gap/
+- description: DisGeNET is a discovery platform containing one of the largest collections
+    available of genes and variants involved in human diseases. DisGeNET integrates
+    data from expert curated repositories, GWAS catalogues, animal models, and the
+    scientific literature, and covers the whole landscape of human diseases. The current
+    version of DisGeNET (v7.0) contains 1,134,942 gene-disease associations (GDAs),
+    between 21,671 genes and 30,170 diseases, disorders, traits, and clinical or abnormal
+    human phenotypes, and 369,554 variant-disease associations (VDAs), between 194,515
+    variants and 14,155 diseases, traits, and phenotypes. The data are homogeneously
+    annotated with controlled vocabularies and community-driven ontologies. Additionally,
+    several original metrics are provided to assist the prioritization of genotype-phenotype
+    relationships. The information is accessible through a web interface, a Cytoscape
+    App, an RDF SPARQL endpoint, a REST API, and an R package.
   name: DisGeNET
   registry:
     biotools: disgenet
@@ -901,8 +988,13 @@
   - human data
   - researcher
   - toxicology data
-  url: https://www.disgenet.org/
-- description: A database of intrinsically disordered proteins
+  url: http://www.disgenet.org
+- description: The Database of Protein Disorder (DisProt) is a curated database that
+    provides information about intrinsically disordered proteins that lack fixed 3D
+    structure in their putatively native states, either in their entirety or in part.
+    Disordered regions are manually curated from literature. DisProt annotations cover
+    both structural and functional aspects of disorder detected by specific experimental
+    methods.
   name: DisProt
   registry:
     biotools: disprot
@@ -953,10 +1045,12 @@
   related_pages:
   - micro biotech
   url: http://www.ddbj.nig.ac.jp
-- description: Docker is a software for the execution of applications in virtualized
-    environments called containers. It is linked to DockerHub, a library for sharing
-    container images
-  name: Docker
+- description: Docker Hub is a library and community for sharing container images.
+    It currently contains over 100,000 container images from software vendors, open-source
+    projects, and the community. It has become a common way of sharing bioinformatics
+    tools and resources in a way that reduces the difficulty of running these tools
+    in a compute environment with the correct software dependencies.
+  name: Docker Hub
   registry:
     fairsharing: afc2b3
     fairsharing-coll: bsg-d001254
@@ -964,7 +1058,7 @@
   related_pages:
   - IT support
   - data analysis
-  url: https://www.docker.com/
+  url: https://hub.docker.com/
 - description: Cloud storage and file sharing service
   name: DropBox
   related_pages:
@@ -979,16 +1073,27 @@
   related_pages:
   - toxicology data
   url: https://ntp.niehs.nih.gov/data/drugmatrix/
-- description: Open-source, community-led data curation, publishing, and preservation
-    platform for CC0 publicly available research data
-  name: Dryad
+- description: 'Dryad is an open-source, community-led data curation, publishing,
+    and preservation platform for CC0 publicly available research data. Dryad has
+    a long-term data preservation strategy, and is a Core Trust Seal Certified Merritt
+    repository with storage in US and EU at the San Diego Supercomputing Center, DANS,
+    and Zenodo. While data is undergoing peer review, it is embargoed if the related
+    journal requires / allows this. Dryad is an independent non-profit that works
+    directly with: researchers to publish datasets utilising best practices for discovery
+    and reuse; publishers to support the integration of data availability statements
+    and data citations into their workflows; and institutions to enable scalable campus
+    support for research data management best practices at low cost. Costs are covered
+    by institutional, publisher, and funder members, otherwise a one-time fee of $120
+    for authors to cover cost of curation and preservation. Dryad also receives direct
+    funder support through grants.'
+  name: Dryad Digital Repository
   registry:
     fairsharing: wkggtx
   related_pages:
   - data publication
   - biomol sim
   - bioimaging data
-  url: https://datadryad.org/
+  url: http://datadryad.org/
 - description: Database of folding / unfolding pathway of representatives from all
     known protein folds by MD simulation
   name: Dynameomics
@@ -1007,8 +1112,13 @@
   - storage
   - IT support
   url: https://edal.ipk-gatersleben.de/
-- description: Plant Genomics and Phenomics Research Data Repository
-  name: e!DAL-PGP
+- description: This repository provides several plant genomic and phenotypic datasets
+    resulting from IPK and German Plant Phenotyping Network (DPPN) research activities.
+    It was established in January 2015. The background of the study is in plant genetic
+    resources, in particular the association of genotypes and phenotypes. This archive
+    aims to provide data from the "system plant" - from the root to bloom and seed,
+    as well from sequence analysis to systems biology.Ge
+  name: Plant Genomics and Phenomics Research Data Repository
   registry:
     fairsharing: rf3m4g
   related_pages:
@@ -1020,7 +1130,7 @@
   - data publication
   - metadata
   - plant pheno assembly
-  url: https://edal-pgp.ipk-gatersleben.de/
+  url: http://edal-pgp.ipk-gatersleben.de
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly
     available Knowledgebase providing single chemical environmental toxicity data
     on aquatic life, terrestrial plants, and wildlife.
@@ -1118,31 +1228,41 @@
   - researcher
   - data brokering
   url: https://github.com/usegalaxy-eu/ena-upload-cli
-- description: Genome browser for vertebrate genomes that supports research in comparative
-    genomics, evolution, sequence variation and transcriptional regulation.
+- description: Ensembl creates, integrates and distributes reference datasets and
+    analysis tools that enable genomics. Ensembl is a genome browser that supports
+    research in comparative genomics, evolution, sequence variation and transcriptional
+    regulation. Ensembl annotate genes, computes multiple alignments, predicts regulatory
+    function and collects disease data.
   name: Ensembl
   registry:
     biotools: ensembl
     fairsharing: fx0mw7
     tess: Ensembl
-  url: https://www.ensembl.org/index.html
-- description: 'This FAIRsharing record describes: The TErminology for the Description
-    of DYnamics (TEDDY) project aims to provide an ontology for dynamical behaviours,
-    observable dynamical phenomena, and control elements of bio-models and biological
-    systems in Systems Biology and Synthetic Biology.'
-  name: 'FAIRsharing record for: TErminology for the Description of DYnamics'
+  url: http://www.ensembl.org/
+- description: The Ensembl genome annotation system, developed jointly by EMBL-EBI
+    and the Wellcome Trust Sanger Institute, has been used for the annotation, analysis
+    and display of vertebrate genomes since 2000. Since 2009, the Ensembl site has
+    been complemented by the creation of five new sites, for bacteria, protists, fungi,
+    plants and invertebrate metazoa, enabling users to use a single collection of
+    (interactive and programatic) interfaces for accessing and comparing genome-scale
+    data from species of scientific interest from across the taxonomy.
+  name: Ensembl Genomes
   registry:
     biotools: ensembl_genomes
     fairsharing: 923a0p
     tess: Ensembl Genomes
-  url: http://co.mbine.org/standards/teddy
-- description: Open-access database of full genomes of plant species.
+  url: https://ensemblgenomes.org/
+- description: Ensembl Plants holds the genomes of plants of significant interest.
+    These range from those of agricultural importance, those which support primary
+    research and of environmental interest. Ensembl Plants datasets are constructed
+    in a direct collaboration with the Gramene resource. The resource holds the genomes
+    of wheat, rice, corn and mouse ear cress amongst others.
   name: Ensembl Plants
   registry:
     fairsharing: j8g2cv
   related_pages:
   - plant geno assembly
-  url: https://plants.ensembl.org/
+  url: https://plants.ensembl.org/index.html
 - description: Web-based tool allowing users to create and manage a register of personal
     data processing activities (ROPA).
   name: ERPA
@@ -1198,16 +1318,16 @@
   - researcher
   - data manager
   url: http://eurisco.ecpgr.org
-- description: Europe PMC is a repository, providing access to worldwide life sciences
-    articles, books, patents and clinical guidelines.
-  name: Europe PMC
+- description: Europe PubMed Central (Europe PMC) is an on-line database that offers
+    free access to a large and growing collection of biomedical research literature.
+  name: Europe PubMed Central
   registry:
     biotools: europe_pmc
     fairsharing: cmw6mm
     tess: Europe PMC
   related_pages:
   - researcher
-  url: https://europepmc.org/
+  url: https://europepmc.org
 - description: A programme aiming to create an effective rare diseases research ecosystem
     for progress, innovation and for the benefit of everyone with a rare disease.
   name: European Joint Programme on Rare Diseases (EJP RD)
@@ -1231,9 +1351,18 @@
   related_pages:
   - rare disease
   url: https://vp.ejprarediseases.org/
-- description: A record of sequence information scaling from raw sequcning reads to
-    assemblies and functional annotation
-  name: European Nucleotide Archive (ENA)
+- description: The European Nucleotide Archive (ENA) is a globally comprehensive data
+    resource for nucleotide sequence, spanning raw data, alignments and assemblies,
+    functional and taxonomic annotation and rich contextual data relating to sequenced
+    samples and experimental design. Serving both as the database of record for the
+    output of the world's sequencing activity and as a platform for the management,
+    sharing and publication of sequence data, the ENA provides a portfolio of services
+    for submission, data management, search and retrieval across web and programmatic
+    interfaces. The ENA is part of the International Nucleotide Sequence Database
+    Collaboration (INSDC), which comprises the DNA DataBank of Japan (DDBJ), the European
+    Molecular Biology Laboratory (EMBL), and GenBank at the NCBI. These three organizations
+    exchange data on a daily basis.
+  name: European Nucleotide Archive
   registry:
     biotools: ena
     fairsharing: dj8nt8
@@ -1242,7 +1371,7 @@
   - micro biotech
   - plant geno assembly
   - data brokering
-  url: https://www.ebi.ac.uk/ena/browser/home
+  url: http://www.ebi.ac.uk/ena
 - description: ERDRI.dor provides an overview of participating rare disease registries
     with their main characteristics and description.
   name: European Rare Disease Registry Infrastructure directory of registries (ERDRI.dor)
@@ -1266,18 +1395,25 @@
   related_pages:
   - rare disease
   url: https://health.ec.europa.eu/european-reference-networks_en
-- description: Open-access database of all types of genetic variation data from all
-    species.
-  name: European Variation Archive (EVA)
+- description: The European Variation Archive is an open-access archive that accepts
+    submission of, and provides access to, all types of genetic variation data from
+    all species. All users are able to download any dataset, or query our study catalogue
+    via our variation table. Access to EVA data is also provided by RESTful web services
+    for a variety of applications, such as annotation pipelines.
+  name: European Variation Archive
   registry:
     biotools: eva
     fairsharing: 6824pv
   related_pages:
   - plant geno assembly
-  url: https://www.ebi.ac.uk/eva/
-- description: Controlled vocabulary that describes types of evidence and assertion
-    methods
-  name: Evidence and Conclusion Ontology (ECO)
+  url: http://www.ebi.ac.uk/eva/
+- description: The Evidence and Conclusion Ontology (ECO) contains terms that describe
+    types of evidence and assertion methods. ECO terms are used in the process of
+    biocuration to capture the evidence that supports biological assertions (e.g.
+    gene product X has function Y as supported by evidence Z). Capture of this information
+    allows tracking of annotation provenance, establishment of quality control measures,
+    and query of eviden
+  name: Evidence and Conclusion Ontology
   registry:
     fairsharing: wvpgwn
   related_pages:
@@ -1337,12 +1473,8 @@
   - data manager
   - transmed
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
-- description: 'This FAIRsharing record describes: FAIRDataPoint is a REST api for
-    creating, storing and servering FAIR metadata. The metadata contents are in this
-    api are generated semi-automatically according to the FAIR Data Point software
-    specification document. In the current version of api we support GET, POST and
-    PATCH requests.'
-  name: 'FAIRsharing record for: FAIR Data Point'
+- description: A FAIR Data Point stores metadata in a standardized and sharable way.
+  name: FAIR Data Point (FDP)
   registry:
     fairsharing: '298'
     tess: FAIR Data Point
@@ -1350,7 +1482,7 @@
   - rare disease
   - metadata
   - IT support
-  url: https://github.com/DTL-FAIRData/FAIRDataPoint
+  url: https://www.fairdatapoint.org/
 - description: Resources and guidelines to assess the FAIRness of digital resources.
   name: FAIR Evaluation Services
   related_pages:
@@ -1399,8 +1531,14 @@
   - machine actionability
   - plant pheno assembly
   url: http://www.seek4science.org/
-- description: Data, model and SOPs management for projects, from preliminary data
-    to publication, support for running SBML models etc. (public SEEK instance)
+- description: 'The FAIRDOMHub is a publicly available repository build using the
+    SEEK software, which enables collaborations within the scientific community. FAIRDOM
+    will establish a support and service network for European Systems Biology. It
+    will serve projects in standardizing, managing and disseminating data and models
+    in a FAIR manner: Findable, Accessible, Interoperable and Reusable. FAIRDOM is
+    an initiative to develop a community, and establish an internationally sustained
+    Data and Model Management service to the European Systems Biology community. FAIRDOM
+    is a joint action of ERA-Net EraSysAPP and European Research Infrastructure ISBE.'
   name: FAIRDOMHub
   registry:
     fairsharing: nnvcr9
@@ -1412,15 +1550,20 @@
   - micro biotech
   - machine actionability
   - data manager
-  url: https://fairdomhub.org
-- description: 'This FAIRsharing record describes: LOINC is a common language (set
-    of identifiers, names, and codes) for clinical and laboratory observations. LOINC
-    is a catalog of measurements, including laboratory tests, clinical measures like
-    vital signs and anthropomorphic measures, standardized survey instruments, and
-    more. LOINC enables the exchange and aggregation of clinical results for care
-    delivery, outcomes management, and research by providing a set of universal codes
-    and structured names to unambiguously identify things you can measure or observe.'
-  name: 'FAIRsharing record for: Logical Observation Identifier Names and Codes'
+  url: https://fairdomhub.org/
+- description: FAIRsharing is a FAIR-supporting resource that provides an informative
+    and educational registry on data standards, databases, repositories and policy,
+    alongside search and visualization tools and services that interoperate with other
+    FAIR-enabling resources. FAIRsharing guides consumers to discover, select and
+    use standards, databases, repositories and policy with confidence, and producers
+    to make their resources more discoverable, more widely adopted and cited. Each
+    record in FAIRsharing is curated in collaboration with the maintainers of the
+    resource themselves, ensuring that the metadata in the FAIRsharing registry is
+    accurate and timely. Every record is manually reviewed at least once a year. Records
+    can be collated into collections, based on a project, society or organisation,
+    or Recommendations, where they are collated around a policy, such as a journal
+    or funder data policy.
+  name: FAIRsharing
   registry:
     fairsharing: 2abjs5
     tess: FAIRsharing
@@ -1432,9 +1575,23 @@
   - researcher
   - micro biotech
   - existing data
-  url: https://loinc.org/
-- description: Data publishing platform
-  name: FigShare
+  url: https://www.FAIRsharing.org
+- description: 'figshare is a data publishing platform that is free for all researchers.
+    Some of figshare''s core beliefs are: academic research outputs should be as open
+    as possible, as closed as necessary; academic research outputs should never be
+    behind a paywall; academic research outputs should be human and machine readable/query-able;
+    academic infrastructure should be interchangeable; academic researchers should
+    never have to put the same information into multiple systems at the same institution;
+    identifiers for everything; and the impact of research is independent of where
+    it is published and what type of output it is. figshare supports embargoing and
+    managed access, and will embargo data while undergoing peer review. Metadata in
+    figshare is licenced under is CC0. All files and metadata can be accessed from
+    docs.figshare.com. figshare has also partnered with DuraSpace and Chronopolis
+    to offer further assurances that public data will be archived under the stewardship
+    of Chronopolis. In the highly unlikely event of multiple AWS S3 failures, figshare
+    can restore public user content from Chronopolis. figshare is supported through
+    Institutional, Funder, and Governmental service subscriptions.'
+  name: figshare
   registry:
     fairsharing: drtwnh
     tess: FigShare
@@ -1442,7 +1599,7 @@
   - data publication
   - biomol sim
   - bioimaging data
-  url: https://figshare.com/
+  url: http://figshare.com/
 - description: A free FTP solution
   name: FileZilla
   related_pages:
@@ -1515,15 +1672,31 @@
   - IFB
   - galaxy
   url: https://usegalaxy.org/
-- description: 'This FAIRsharing record describes: Minimal set of terms for anatomy.'
-  name: 'FAIRsharing record for: Minimal Anatomical Terminology'
+- description: 'GenBank (r) is the NIH genetic sequence database of annotated collections
+    of all publicly available DNA sequences. GenBank is part of an International Nucleotide
+    Sequence Database Collaboration, which comprises the DNA DataBank of Japan (DDBJ),
+    the European Nucleotide Archive (ENA), and GenBank at NCBI. The GenBank database
+    is designed to provide and encourage access within the scientific community to
+    the most up-to-date and comprehensive DNA sequence information, and release available
+    versioned collections every two months from the ftp site. As part of the International
+    Nucleotide Sequence Database Collaboration (INSDC), a long-standing foundational
+    initiative (operating between DDBJ, EMBL-EBI and NCBI), the INSDC covers the spectrum
+    of data raw reads, through alignments and assemblies to functional annotation,
+    enriched with contextual information relating to samples and experimental configurations.
+    GenBank data submission types include:  mRNA sequences, Prokaryotic genes, Eukaryotic
+    genes, rRNA and/or ITS, viral sequences, transposon or insertion sequences, microsatellite
+    sequences, pseudogenes, cloning vectors, phylogenetic or population sets, and
+    non-coding RNAs.
+
+    '
+  name: GenBank Nucleotide Sequence Database
   registry:
     biotools: genbank
     fairsharing: 9kahy4
     tess: GenBank
   related_pages:
   - micro biotech
-  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
+  url: https://www.ncbi.nlm.nih.gov/genbank/
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput
     sequencing
   name: Gene Expression Omnibus (GEO)
@@ -1565,8 +1738,12 @@
   - data manager
   - IT support
   url: https://git-scm.com/
-- description: Versioning system, used for sharing code, as well as for sharing of
-    small data
+- description: GitHub Inc. is a Git-based software repository that provides version
+    control. It offers all of the distributed version control and source code management
+    (SCM) functionality of Git as well as adding its own features. It provides access
+    control and several collaboration features such as bug tracking, feature requests,
+    task management, and wikis for each project. It provides a number of different
+    access levels, from free through to paid services.
   name: GitHub
   registry:
     fairsharing: c55d5e
@@ -1577,11 +1754,11 @@
   - data organisation
   - IT support
   - data manager
-  url: https://github.com
-- description: 'This FAIRsharing record describes: Record does not exist anymore:
-    Glioblastoma. The record with identifier content 10.25504/FAIRsharing.mvp707 was
-    invalid.'
-  name: 'FAIRsharing record for: Glioblastoma'
+  url: https://github.com/
+- description: GitLab is a Git-based source code repository with wiki and issue tracker
+    functionality. It provides a number of different access levels, from free through
+    to a number of paid services.
+  name: GitLab
   registry:
     fairsharing: 530e61
     tess: GitLab
@@ -1590,7 +1767,7 @@
   - data publication
   - IT support
   - data manager
-  url: http://bioportal.bioontology.org/ontologies/GBM
+  url: https://about.gitlab.com/
 - description: Globus lets you efficiently, securely, and reliably transfer data directly
     between systems separated by an office wall or an ocean. Focus on your research
     and offload your data transfer headaches to Globus
@@ -1599,17 +1776,25 @@
   - transfer
   - IT support
   url: https://www.globus.org
-- description: A multispecies integrative information system dedicated to plant and
-    fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
-    It is used by both large international projects and the French National Research
-    Institute for Agriculture, Food and Environment.
-  name: GnpIS
+- description: GnpIS is a multispecies integrative information system dedicated to
+    plant and fungi pests. It bridges genetic and genomic data, allowing researchers
+    access to both genetic information (e.g. genetic maps, quantitative trait loci,
+    association genetics, markers, polymorphisms, germplasms, phenotypes and genotypes)
+    and genomic data (e.g. genomic sequences, physical maps, genome annotation and
+    expression data) for species of agronomical interest. GnpIS is used by both large
+    international projects and plant science departments at the French National Institute
+    for Agricultural Research. It is regularly improved and released several times
+    per year. GnpIS is accessible through a web portal and allows to browse different
+    types of data either independently through dedicated interfaces or simultaneously
+    using a quick search ('google like search') or advanced search (Biomart, Galaxy,
+    Intermine) tools.
+  name: Genetic and Genomic Information System
   registry:
     biotools: gnpis
     fairsharing: dw22y3
   related_pages:
   - plants
-  url: https://urgi.versailles.inrae.fr/gnpis/
+  url: https://urgi.versailles.inra.fr/gnpis
 - description: Search engine for datasets
   name: Google Dataset Search
   related_pages:
@@ -1670,19 +1855,23 @@
   - data manager
   - policy officer
   url: https://www.dcc.ac.uk/guidance/how-guides/license-research-data
-- description: The Human Protein Atlas contains information for a large majority of
-    all human protein-coding genes regarding the expression and localization of the
-    corresponding proteins based on both RNA and protein data.
-  name: Human Protein Atlas
+- description: 'The Human Protein Atlas (HPA) portal is a publicly available database
+    with millions of high-resolution images showing the spatial distribution of proteins
+    in a number of different wild-type tissues, cancer types and human cell lines.
+    The goal of the HPA is to map all the human proteins in cells, tissues and organs
+    using an integration of various omics technologies, including antibody-based imaging,
+    mass spectrometry-based proteomics, transcriptomics and systems biology. The HPA
+    is composed of six parts: the Tissue Atlas, the Single Cell Type Atlas, the Pathology
+    Atlas, the Blood Atlas, the Brain Atlas, and the Cell Atlas.'
+  name: The Human Protein Atlas
   registry:
     fairsharing: j0t0pe
     tess: Human Protein Atlas
   related_pages:
   - proteomics
   url: https://www.proteinatlas.org/
-- description: HumanMine integrates many types of human data and provides a powerful
-    query engine, export for results, analysis for lists of data and FAIR access via
-    web services.
+- description: HumanMine integrates many types of data for Homo sapiens and Mus musculus.
+    Users can run flexible queries, export results and analyse lists of data.
   name: HumanMine
   registry:
     biotools: humanmine
@@ -1702,10 +1891,13 @@
   - data analysis
   - transfer
   url: https://www.icloud.com/
-- description: The Identifiers.org Resolution Service provides consistent access to
-    life science data using Compact Identifiers. Compact Identifiers consist of an
-    assigned unique prefix and a local provider designated accession number (prefix:accession).
-  name: Identifiers.org
+- description: The Identifiers.org Central Registry provides the necessary information
+    for the generation and resolution of unique and perennial identifiers for life
+    science data. Those identifiers are both in URI and compact form, and make use
+    of Identifiers.org to provide direct access to the identified data records on
+    the Web. Resource maintainers request an Identifiers.org prefix for their databases
+    or services.
+  name: Identifiers.org Central Registry
   registry:
     biotools: identifiers.org
     fairsharing: n14rc8
@@ -1713,26 +1905,21 @@
   - identifiers
   - IT support
   - data manager
-  url: http://identifiers.org
+  url: https://registry.identifiers.org/
 - description: A collection of standard biological parts to which all entrants in
     the iGEM competition must submit their parts
   name: iGEM Parts Registry
   related_pages:
   - micro biotech
   url: http://parts.igem.org/Main_Page
-- description: 'This FAIRsharing record describes: This module represents the formalised
-    opinion of the authors and the CARMEN consortium, which identifies the minimum
-    information required to report the use of electrophysiology in a neuroscience
-    study. A MINI module represents the minimum information that should be reported
-    about a dataset to facilitate computational access and analysis to allow a reader
-    to interpret and critically evaluate the processes performed and the conclusions
-    reached, and to support their experimental corroboration. In practice a MINI module
-    comprises a checklist of information that should be provided (for example about
-    the protocols employed) when a data set is submitted to the CARMEN system. Please
-    note that, while these guidelines remain available, the CARMEN project can no
-    longer be accessed. Please let us know if you have any information regarding this
-    resource.'
-  name: 'FAIRsharing record for: Minimum Information about a Neuroscience Investigation'
+- description: IDR is a prototype platform for publishing, mining and integrating
+    bioimaging data at scale, following the Euro-BioImaging/ELIXIR imaging strategy
+    using the OMERO and Bio-Formats open source software built by the Open Microscopy
+    Environment. Deployed on an OpenStack cloud running on the EMBL-EBI's Embassy
+    resource, it includes image data linked to independent studies from genetic, RNAi,
+    chemical, localisation and geographic high content screens, super-resolution microscopy,
+    and digital pathology.
+  name: Image Data Resource
   registry:
     biotools: idr
     fairsharing: 6wf1zw
@@ -1743,9 +1930,12 @@
   - transfer
   - ome
   - bioimaging data
-  url: https://doi.org/10.1038/npre.2008.1720.1
-- description: The Informed Consent Ontology (ICO) is an ontology for the informed
-    consent and informed consent process in the medical field.
+  url: https://idr.openmicroscopy.org
+- description: Informed Consent Ontology (ICO) represents the documentations and processes
+    involved in informed consent. ICO aims to support informed consent data integration
+    and reasoning in the clinical research space. The core terms of ICO covers informed
+    consent forms, the component inside the informed consent form, and various informed
+    consent processes.
   name: Informed Consent Ontology
   registry:
     fairsharing: b9znd5
@@ -1753,7 +1943,7 @@
   - IT support
   - policy officer
   - human data
-  url: http://purl.obolibrary.org/obo/ICO.owl
+  url: https://github.com/ICO-ontology/ICO
 - description: The International Compilation of Human Research Standards enumerates
     over 1,000 laws, regulations, and guidelines (collectively referred to as standards)
     that govern human subject protections in 133 countries, as well as standards from
@@ -1784,14 +1974,17 @@
   related_pages:
   - micro biotech
   url: https://www.qmul.ac.uk/sbcs/iubmb/
-- description: Functional analysis of protein sequences by classifying them into families
-    and predicting the presence of domains and important sites
-  name: InterPro
+- description: InterPro is a resource that provides functional analysis of protein
+    sequences by classifying them into families and predicting the presence of domains
+    and important sites. To classify proteins in this way, InterPro uses predictive
+    models, known as signatures, provided by several different databases (referred
+    to as member databases) that make up the InterPro consortium.
+  name: Integrated resource of protein families, domains and functional sites
   registry:
     biotools: interpro
     fairsharing: pda11d
     tess: InterPro
-  url: https://www.ebi.ac.uk/interpro/
+  url: https://www.ebi.ac.uk/interpro
 - description: IntOGen is a framework for automatic and comprehensive knowledge extraction
     based on mutational data from sequenced tumor samples from patients. The framework
     identifies cancer genes and pinpoints their putative mechanism of action across
@@ -1832,11 +2025,15 @@
   - transmed
   - bioimaging data
   url: https://irods.org/
-- description: 'This FAIRsharing record describes: OpenAIRE Guidelines for Literature
-    Repository Managers provides orientation for repository managers to define and
-    implement their local data management policies according to the requirements of
-    the OpenAIRE - Open Access Infrastructure for Research in Europe.'
-  name: 'FAIRsharing record for: OpenAIRE Guidelines for Literature Repositories'
+- description: 'Investigation Study Assay Tabular (ISA-Tab) describes the ISA Abstract
+    Model reference implementation specified using the ISA-Tab format. ISA-Tab files
+    are tab separated value (tsv) files, with specific labeled column structures.
+    The ISA model consists of three core entities to capture experimental metadata:
+    investigation, study and assay. The extensible, hierarchical structure of this
+    model enables the representation of studies employing one or a combination of
+    technologies, focusing on the description of its experimental metadata (i.e. sample
+    characteristics, technology and measurement types, sample-to-data relationships).'
+  name: Investigation Study Assay Tabular
   registry:
     fairsharing: 53gp75
   related_pages:
@@ -1844,7 +2041,7 @@
   - data manager
   - micro biotech
   - machine actionability
-  url: https://guidelines.openaire.eu/en/latest/literature/index.html
+  url: https://isa-specs.readthedocs.io/en/latest/isatab.html
 - description: 'A scalable Java library for creating ISA-Tab metadata.
 
 
@@ -1973,16 +2170,22 @@
   related_pages:
   - biomol sim
   url: http://memprotmd.bioch.ox.ac.uk/
-- description: "This FAIRsharing record describes: Synthetic Biology Open Language\
-    \ Visual (SBOL Visual) is an open-source graphical notation that uses schematic\
-    \ \u201Cglyphs\u201D to specify genetic parts, devices, modules, and systems."
-  name: 'FAIRsharing record for: Synthetic Biology Open Language Visual'
+- description: Mendeley Data is a multidisciplinary, free-to-use open repository specialised
+    for research data. Files of any format can be uploaded and shared with the research
+    community following the FAIR data principles, up to a maximum of 10GB per dataset.
+    Each version of a dataset is given a unique DOI, and dark archived with DANS (Data
+    Archiving and Networking Services), ensuring that every dataset and citation will
+    be valid in perpetuity. Datasets can be licensed under a range of open licences,
+    and datasets are and will continue to be free access. Mendeley Data supports embargoing
+    of data both generally and while undergoing peer review. It is funded by a subscription
+    model for Academic & Government entities.
+  name: Mendeley Data
   registry:
     fairsharing: 3epmpp
   related_pages:
   - data publication
   - biomol sim
-  url: https://sbolstandard.org/visual-about/
+  url: https://data.mendeley.com
 - description: An international data aggregation and notification service for metabolomics.
   name: MetabolomeXchange
   registry:
@@ -1999,8 +2202,15 @@
   - data manager
   - IDP
   url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
-- description: Minimum Information About a Plant Phenotyping Experiment
-  name: MIAPPE
+- description: 'MIAPPE is a reporting guideline for plant phenotyping experiments.
+    It comprises a checklist, i.e., a list of attributes to describe an experiment
+    so that it is understandable and replicable. It should be consulted by people
+    recording and depositing plan phenotyping data. MIAPPE covers the description
+    of the following aspects of plant phenotyping experiment: study, environment,
+    experimental design, sample management, biosource, treatment and phenotype. A
+    basic reference implementation of MIAPPE has been proposed for the ISA-Tab format.
+    Other current developments include a Breeding API (BrAPI) implementation.'
+  name: Minimum Information about Plant Phenotyping Experiment
   registry:
     fairsharing: nd9ce9
     tess: MIAPPE
@@ -2011,7 +2221,7 @@
   - plants
   - plant geno assembly
   - plant pheno assembly
-  url: https://www.miappe.org/
+  url: http://miappe.org
 - description: Cloud storage and file sharing service from Microsoft
   name: Microsoft Azure
   related_pages:
@@ -2025,8 +2235,11 @@
   - storage
   - IT support
   url: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
-- description: Minimum Information about a (Meta)Genome Sequence
-  name: MIGS/MIMS
+- description: MIGS/MIMS (Minimum Information About a (Meta)Genome Sequence) outlines
+    a conceptual structure for extending the core information that has been traditionally
+    captured by the INSDC (DDBJ/EMBL/Genbank) to describe genomic and metagenomic
+    sequences. The MIMS extension describes key aspects of environmental context.
+  name: Minimum Information about a (Meta)Genome Sequence
   registry:
     fairsharing: va1hck
   related_pages:
@@ -2035,21 +2248,22 @@
   - data manager
   - marine
   - micro biotech
-  url: https://genomicsstandardsconsortium.github.io/mixs/
-- description: 'This FAIRsharing record describes: LOINC is a common language (set
-    of identifiers, names, and codes) for clinical and laboratory observations. LOINC
-    is a catalog of measurements, including laboratory tests, clinical measures like
-    vital signs and anthropomorphic measures, standardized survey instruments, and
-    more. LOINC enables the exchange and aggregation of clinical results for care
-    delivery, outcomes management, and research by providing a set of universal codes
-    and structured names to unambiguously identify things you can measure or observe.'
-  name: 'FAIRsharing record for: Logical Observation Identifier Names and Codes'
+  url: http://wiki.gensc.org/index.php?title=MIGS/MIMS
+- description: MINT focuses on experimentally verified protein-protein interactions
+    mined from the scientific literature by expert curators. This resource uses the
+    IntAct database framework to help reduce the effort of scientists and improve
+    on IT development. MINT is an ELIXIR Core Resource.
+  name: Molecular INTeraction Database
   registry:
     biotools: mint
     fairsharing: 2bdvmk
-  url: https://loinc.org/
-- description: 'This FAIRsharing record describes: Minimal set of terms for anatomy.'
-  name: 'FAIRsharing record for: Minimal Anatomical Terminology'
+  url: http://mint.bio.uniroma2.it
+- description: The minimum information about any (x) sequence (MIxS) is an overarching
+    framework of sequence metadata, that includes technology-specific checklists from
+    the previous MIGS and MIMS standards, provides a way of introducing additional
+    checklists such as MIMARKS, and also allows annotation of sample data using environmental
+    packages.
+  name: Minimum Information about any (x) Sequence
   registry:
     fairsharing: 9aa0zp
     tess: MIxS
@@ -2059,8 +2273,15 @@
   - data manager
   - marine
   - plant geno assembly
-  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
-- description: A database of protein disorder and mobility annotations
+  url: http://gensc.org/mixs/
+- description: 'MobiDB is a database of intrinsically disordered regions (IDRs) and
+    related features from various sources and prediction tools. Different levels of
+    reliability and different features are reported as different and independent annotations.
+    The database features three levels of annotation: manually curated, indirect and
+    predicted. MobiDB annotates the binding modes of disordered proteins, whether
+    they undergo disorder-to-order transitions or remain disordered in the bound state.
+    In addition, disordered regions undergoing liquid-liquid phase separation or post-translational
+    modifications are defined.'
   name: MobiDB
   registry:
     biotools: mobidb
@@ -2091,9 +2312,11 @@
   - biomol sim
   - data publication
   url: https://mmb.irbbarcelona.org/MoDEL-CNS/#/
-- description: Repository for theoretical models of macromolecular structures with
-    DOIs for models
-  name: ModelArchive
+- description: The Model Archive provides a stable archive for computational macro-molecular
+    models published in the scientific literature. The model archive provides a unique
+    stable accession code (DOI) for each deposited model, which can be directly referenced
+    in the corresponding manuscripts.
+  name: Model Archive
   registry:
     fairsharing: tpqndj
   related_pages:
@@ -2112,17 +2335,19 @@
   - IT support
   - data manager
   url: https://molgenis.org
-- description: Database about interactions of molecules with membranes
-  name: MolMeDB
+- description: MolMeDB is an open chemistry database concerning the interaction of
+    molecules with membranes.
+  name: 'MolMeDB: Molecules on Membranes Database'
   registry:
     biotools: MolMeDB
     fairsharing: cwzk3c
   related_pages:
   - biomol sim
-  url: https://molmedb.upol.cz/
-- description: A risk assessment tool that can be used to do Data Protection Impact
-    Assessments
-  name: MONARC
+  url: http://molmedb.upol.cz
+- description: MonDO (Monarch Disease Ontology) is a semi-automatically constructed
+    ontology that merges in multiple disease resources to yield a coherent merged
+    ontology.
+  name: Monarch Disease Ontology
   registry:
     fairsharing: b2979t
   related_pages:
@@ -2130,7 +2355,7 @@
   - policy officer
   - human data
   - transmed
-  url: https://open-source-security-software.net/project/MONARC
+  url: https://github.com/monarch-initiative/monarch-disease-ontology
 - description: "a Magnetic Resonance Imaging (MRI) converter from ParaVision\xAE (Bruker,\
     \ Inc. Billerica, MA) file format to DICOM standard"
   name: MRI2DICOM
@@ -2139,9 +2364,15 @@
   - data manager
   - XNAT-PIC
   url: https://github.com/szullino/XNAT-PIC
-- description: The Multi-Crop Passport Descriptor is the metadata standard for plant
-    genetic resources maintained ex situ by genbanks.
-  name: Multi-Crop Passport Descriptor (MCPD)
+- description: The List of Multi-Crop Passport Descriptors (MCPD) is a reference tool
+    developed jointly by IPGRI and FAO to provide international standards to facilitate
+    germplasm passport information exchange across crops. These descriptors aim to
+    be compatible with IPGRI crop descriptor lists and with the descriptors used for
+    the FAO World Information and Early Warning System (WIEWS) on plant genetic resources
+    (PGR). This revised version (December 2001) of the 1997 MCPD List, provides a
+    brief explanation of content, coding scheme and suggested fieldnames for each
+    descriptor to assist in the computerized exchange of this type of data.
+  name: Multi-Crop Passport Descriptors
   registry:
     fairsharing: hn155r
   related_pages:
@@ -2150,7 +2381,7 @@
   - IT support
   - policy officer
   - plants
-  url: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
+  url: https://www.bioversityinternational.org/e-library/publications/detail/faoipgri-multi-crop-passport-descriptors-mcpd/
 - description: A file-system based platform handling the transfer of data
   name: MyTardis
   related_pages:
@@ -2172,13 +2403,17 @@
   related_pages:
   - toxicology data
   url: https://www.cdc.gov/biomonitoring/
-- description: NCBI's taxonomy browser is a database of biodiversity information
+- description: The NCBI Taxonomy is a database of taxonomic information. It does not
+    follow a single taxonomic treatise but rather attempts to incorporate phylogenetic
+    and taxonomic knowledge from a variety of sources, including the published literature,
+    web-based databases, and the advice of sequence submitters and outside taxonomy
+    experts.
   name: NCBI Taxonomy
   registry:
     fairsharing: fj07xj
   related_pages:
   - micro biotech
-  url: https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/
+  url: https://www.ncbi.nlm.nih.gov/taxonomy
 - description: Hosts information relating to strains, cultures and more
   name: NCIMB
   related_pages:
@@ -2250,9 +2485,16 @@
   - ome
   - bioimaging data
   url: http://www.openmicroscopy.org/omero/
-- description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
-    across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
-  name: OmicsDI
+- description: The Omics Discovery Index (OmicsDI) provides dataset discovery across
+    a heterogeneous, distributed group of Transcriptomics, Genomics, Proteomics and
+    Metabolomics data resources, including both open and controlled access data resources.
+    The resource provides a short description of every dataset, including accession,
+    description, sample/data protocols biological evidences, and publication. Based
+    on these metadata, OmicsDI provides extensive search capabilities, as well as
+    identification of related datasets by metadata and data content where possible.
+    In particular, OmicsDI identifies groups of related, multi-omics datasets across
+    repositories by shared identifiers.
+  name: Omics Discovery Index
   registry:
     biotools: omicsdi
     fairsharing: re1278
@@ -2260,14 +2502,20 @@
   related_pages:
   - existing data
   - proteomics
-  url: https://www.omicsdi.org
+  url: http://www.omicsdi.org/home
 - description: OMOP is a common data model for the harmonisation for of observational
     health data.
   name: OMOP-CDM
   related_pages:
   - transmed
   url: https://ohdsi.github.io/CommonDataModel/
-- description: A web portal to search and visualise ontologies
+- description: A linked data server designed for ontologies. Ontobee is aimed to facilitate
+    ontology data sharing, visualization, query, integration, and analysis. Ontobee
+    dynamically dereferences and presents individual ontology term URIs to (i) HTML
+    web pages for user-friendly web browsing and navigation, and to (ii) RDF source
+    code for Semantic Web applications. Ontobee is the default linked data server
+    for most OBO Foundry library ontologies. Ontobee has also been used for many non-OBO
+    ontologies.
   name: Ontobee
   registry:
     fairsharing: q8fx1b
@@ -2275,7 +2523,7 @@
   - metadata
   - data manager
   - researcher
-  url: http://www.ontobee.org
+  url: http://www.ontobee.org/
 - description: OntoMaton facilitates ontology search and tagging functionalities within
     Google Spreadsheets.
   name: ONTOMATON
@@ -2325,15 +2573,27 @@
   related_pages:
   - data quality
   url: https://openrefine.org/
-- description: 'free and open source project management tool that supports the entire
-    research lifecycle: planning, execution, reporting, archiving, and discovery'
-  name: OpenScienceFramework
+- description: 'The Open Science Framework (OSF) is a free and open free, open repository
+    and platform to enable collaboration and support the entire research lifecycle:
+    planning, execution, reporting, archiving, and discovery. Features include automated
+    versioning, logging of all actions, collaboration support, free and unlimited
+    file storage, registrations, and connections to other tools/services (ie. Dropbox,
+    figshare, Amazon S3, Dataverse, GitHub). It is 100% free to researchers, open
+    source, and intended for use in all domain areas. OSF has an open, public API
+    to support broad indexing, as well as a partnership with Internet Archive for
+    long-term preservation with a $250k preservation fund and an IMLS grant for transfer
+    to Internet Archive (currently in progress). The OSF supports embargoing during
+    peer review via a view-only link with the ability to anonymize contributor list.
+    It also provides managed access by allowing access requests and private sharing
+    settings. OSF is a non-profit with direct funder support through grants, government
+    contracts, and community memberships.'
+  name: The Open Science Framework
   registry:
     fairsharing: g4z879
   related_pages:
   - data publication
   - biomol sim
-  url: https://osf.io/
+  url: http://osf.io
 - description: OpenStack is an open source cloud computing infrastructure software
     project and is one of the three most active open source projects in the world
   name: OpenStack
@@ -2345,15 +2605,15 @@
   - transmed
   - IFB
   url: https://www.openstack.org/
-- description: The Orphadata platform provides the scientific community with comprehensive,
-    high-quality datasets related to rare diseases and orphan drugs, in a reusable
-    and computable format
+- description: Orphadata provides the scientific community with comprehensive, quality
+    datasets related to rare diseases and orphan drugs from the Orphanet knowledge
+    base, in reusable formats.
   name: Orphadata
   registry:
     biotools: orphadata
     fairsharing: d1a667
     fairsharing-coll: bsg-d001249
-  url: http://www.orphadata.org/cgi-bin/index.php
+  url: http://www.orphadata.org/
 - description: OSF (Open Science Framework) is a free, open platform to support your
     research and enable collaboration.
   name: OSF
@@ -2400,19 +2660,22 @@
   - human data
   - proteomics
   url: http://bioconductor.org/packages/PAA/
-- description: 'This FAIRsharing record describes: This module represents the formalised
-    opinion of the authors and the CARMEN consortium, which identifies the minimum
-    information required to report the use of electrophysiology in a neuroscience
-    study. A MINI module represents the minimum information that should be reported
-    about a dataset to facilitate computational access and analysis to allow a reader
-    to interpret and critically evaluate the processes performed and the conclusions
-    reached, and to support their experimental corroboration. In practice a MINI module
-    comprises a checklist of information that should be provided (for example about
-    the protocols employed) when a data set is submitted to the CARMEN system. Please
-    note that, while these guidelines remain available, the CARMEN project can no
-    longer be accessed. Please let us know if you have any information regarding this
-    resource.'
-  name: 'FAIRsharing record for: Minimum Information about a Neuroscience Investigation'
+- description: "PANGAEA - Data Publisher for Earth & Environmental Sciences  has an\
+    \ almost 30-year history as an open-access library for archiving, publishing,\
+    \ and disseminating georeferenced data from the Earth, environmental, and biodiversity\
+    \ sciences. Originally evolving from a database for sediment cores, it is operated\
+    \ as a joint facility of the Alfred Wegener Institute, Helmholtz Centre for Polar\
+    \ and Marine Research (AWI) and the Center for Marine Environmental Sciences (MARUM)\
+    \ at the University of Bremen. PANGAEA holds a mandate from the World Meteorological\
+    \ Organization (WMO)  and is accredited as a World Radiation Monitoring Center\
+    \ (WRMC). It was further accredited as a World Data Center by the International\
+    \ Council for Science (ICS)  in 2001 and has been certified with the Core Trust\
+    \ Seal  since 2019. \nThe successful cooperation between PANGAEA and the publishing\
+    \ industry along with the correspondent technical implementation enables the cross-referencing\
+    \ of scientific publications and datasets archived as supplements to these publications.\
+    \ PANGAEA is the recommended data repository of numerous international scientific\
+    \ journals."
+  name: PANGAEA - Data Publisher for Earth and Environmental Science
   registry:
     biotools: pangaea
     fairsharing: 6yw6cp
@@ -2421,7 +2684,7 @@
   - metadata
   - researcher
   - data manager
-  url: https://doi.org/10.1038/npre.2008.1720.1
+  url: https://www.pangaea.de
 - description: The Protein Circular Dichroism Data Bank is a public repository for
     circular dichroism and synchrotron radiation CD spectral data and their associated
     experimental metadata. All entries undergo validation and curation procedures
@@ -2456,14 +2719,14 @@
   - biomol sim
   - struct bioinfo
   url: https://pdb-dev.wwpdb.org/
-- description: Information about the standard PDB archive format PDBx/mmCIF, its dictionaries
-    and related software tools
-  name: PDBx/mmCIF format and tools
+- description: PDBx/mmCIF is a dictionary of data archiving macromolecule crystallographic
+    experiments and their results.
+  name: macromolecular Crystallographic Information File
   registry:
     fairsharing: fd28en
   related_pages:
   - struct bioinfo
-  url: https://mmcif.wwpdb.org/
+  url: http://mmcif.pdb.org/
 - description: Extension of the PDBx/mmCIF dictionary for theoretical models of macromolecular
     structures
   name: PDBx/mmCIF ModelCIF Extension Dictionary
@@ -2539,8 +2802,11 @@
   - metadata
   - plant pheno assembly
   url: https://github.com/NIB-SI/pISA
-- description: Access point for plant comparative genomics, centralizing genomic data
-    produced by different genome sequencing initiatives.
+- description: PLAZA is a platform for comparative, evolutionary, and functional genomics.
+    It makes a broad set of genomes, data types and analysis tools available to researchers
+    through a user-friendly website, an API, and bulk downloads. The platform consists
+    of multiple instances, where each instance contains additional genomes, improved
+    genome annotations, new software tools, and similar.
   name: PLAZA
   registry:
     fairsharing: wBOua0
@@ -2558,44 +2824,59 @@
   - data analysis
   - human data
   url: http://mmb.irbbarcelona.org/PMut
-- description: PRoteomics IDEntifications (PRIDE) Archive database
-  name: PRIDE
+- description: 'The PRIDE PRoteomics IDEntifications (PRIDE) Archive database is a
+    centralized, standards compliant, public data repository for mass spectrometry
+    proteomics data, including protein and peptide identifications and the corresponding
+    expression values, post-translational modifications and supporting mass spectra
+    evidence (both as raw data and peak list files). PRIDE is a core member in the
+    ProteomeXchange (PX) consortium, which provides a standardised way for submitting
+    mass spectrometry based proteomics data to public-domain repositories. '
+  name: PRoteomics IDEntifications database
   registry:
     biotools: pride
     fairsharing: e1byny
     tess: PRIDE
   related_pages:
   - proteomics
-  url: https://www.ebi.ac.uk/pride/
-- description: 'This FAIRsharing record describes: MIMARKS is the metadata reporting
-    standard of the Genomic Standards Consortium that covers marker gene sequences
-    from environmental surveys or individual organisms'
-  name: 'FAIRsharing record for: Minimum Information about a MARKer gene Sequence'
+  url: http://www.ebi.ac.uk/pride/
+- description: The ProteomeXchange consortium has been set up to provide a single
+    point of submission of MS proteomics data to the main existing proteomics repositories,
+    and to encourage the data exchange between them for optimal data dissemination.
+  name: ProteomeXchange
   registry:
     biotools: proteomexchange
     fairsharing: 92dt9d
     tess: ProteomeXchange
   related_pages:
   - proteomics
-  url: http://wiki.gensc.org/index.php?title=MIMARKS
-- description: 'This FAIRsharing record describes: The IUPAC Gold Book is a database
-    of ~7000 chemical concepts derived from IUPAC''s Recommendations published in
-    Pure and Applied Chemistry.'
-  name: 'FAIRsharing record for: IUPAC Compendium of Chemical Terminology'
+  url: http://www.proteomexchange.org/
+- description: The PSI Extended Fasta Format (PEFF) is a unified format for protein
+    and nucleotide sequence databases to be used by sequence search engines and other
+    associated tools (spectra library search tools, sequence alignment software, data
+    repositories, etc). This format enables consistent extraction, display and processing
+    of information such as protein/nucleotide sequence database entry identifier,
+    description, taxonomy, etc. across software platforms. It also allows the representation
+    of structural annotations such as post-translational modifications, mutations
+    and other processing events. The proposed format has the form of a plain text
+    file that extends the formalism of the individual sequence entries as presented
+    in the FASTA format and that includes a header of meta data to describe relevant
+    information about the database(s) from which the sequences have been obtained.
+  name: Proteomics Standards Initiative Extended Fasta Format
   registry:
     fairsharing: 46e1e9
   related_pages:
   - proteomics
-  url: https://goldbook.iupac.org/
-- description: 'This FAIRsharing record describes: This format is for displaying SNPs
-    from personal genomes. It is the same as is used for the Genome Variants and Population
-    Variants tracks.'
-  name: 'FAIRsharing record for: Personal Genome SNP Format'
+  url: http://psidev.info/peff
+- description: 'The protocols.io repository is an open access hub for comprehensive
+    research methods; the protocols.io platform enables researchers to record and
+    share detailed up to date methods for research. It is open globally to users wherever
+    they''re located and free to use and publish. '
+  name: protocols.io
   registry:
     fairsharing: 132b10
   related_pages:
   - micro biotech
-  url: http://genome.ucsc.edu/FAQ/FAQformat.html#format10
+  url: https://protocols.io/welcome
 - description: R Markdown documents are fully reproducible. Use a productive notebook
     interface to weave together narrative text and code to produce elegantly formatted
     output. Use multiple languages including R, Python, and SQL.
@@ -2719,11 +3000,13 @@
   - researcher
   - data manager
   url: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
-- description: RO-Crate is a lightweight approach to packaging research data with
-    their metadata, using schema.org. An RO-Crate is a structured archive of all the
-    items that contributed to the research outcome, including their identifiers, provenance,
-    relations and annotations.
-  name: Research Object Crate (RO-Crate)
+- description: RO-Crate is a community effort to establish a lightweight approach
+    to packaging research data with their metadata. It is based on schema.org annotations
+    in JSON-LD, and aims to make best-practice in formal metadata description accessible
+    and practical for use in a wide variety of situations. An RO-Crate is a structured
+    archive of all the items that contributed to the research outcome, including their
+    identifiers, provenance, relations and annotations.
+  name: Research Object Crate
   registry:
     fairsharing: wUoZKE
   related_pages:
@@ -2775,18 +3058,22 @@
   - data analysis
   - transfer
   url: https://rucio.cern.ch/
-- description: 'This FAIRsharing record describes: Using Simple Omnibus Format in
-    Text (SOFT), researchers can readily upload and download data. The resource is
-    text-based so can be compatible with simple spreadsheets and data applications.
-    A SOFT file can simultaneously contain both tabulated data as well as descriptive
-    information for a chain of related Platforms, Samples, and/or Series records.'
-  name: 'FAIRsharing record for: Simple Omnibus Format in Text'
+- description: RxNorm provides normalized names for clinical drugs and links its names
+    to many of the drug vocabularies commonly used in pharmacy management and drug
+    interaction software, including those of First Databank, Micromedex, MediSpan,
+    Gold Standard Drug Database, and Multum. By providing links between these vocabularies,
+    RxNorm can mediate messages between systems not using the same software and vocabulary.
+    RxNorm now includes the National Drug File - Reference Terminology (NDF-RT) from
+    the Veterans Health Administration. NDF-RT is a terminology used to code clinical
+    drug properties, including mechanism of action, physiologic effect, and therapeutic
+    category.
+  name: RxNORM
   registry:
     biotools: rxnorm
     fairsharing: 36pf8q
   related_pages:
   - toxicology data
-  url: http://www.ncbi.nlm.nih.gov/geo/info/soft2.html
+  url: https://www.nlm.nih.gov/research/umls/rxnorm/
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes
     representing the microbiota of fishes found in the taxonomic family of Salmonidae.
   name: salDB
@@ -2811,8 +3098,14 @@
   - micro biotech
   url: https://sboldesigner.github.io
 - description: Schema.org is a collaborative, community activity with a mission to
-    create, maintain, and promote schemas for structured data on the Internet, on
-    web pages, in email messages, and beyond.
+    create, maintain, and promote schemas for structured data on the Internet. In
+    addition to people from the sponsoring companies, there is substantial participation
+    by the larger web community, through public mailing lists such as public-vocabs@w3.org
+    and through GitHub. Search engines including Bing, Google, Yahoo! and Yandex rely
+    on schema.org markup to improve the display of search results, making it easier
+    for people to find the right web pages.  Since April 2015, the W3C Schema.org
+    Community Group is the main forum for schema collaboration, and provides the public-schemaorg@w3.org
+    mailing list for discussions.
   name: Schema.org
   registry:
     fairsharing: hzdzq8
@@ -2820,7 +3113,7 @@
   related_pages:
   - machine actionability
   - IT support
-  url: https://schema.org
+  url: http://schema.org/
 - description: Web portal for finding ontologies
   name: Schemapedia
   related_pages:
@@ -2886,17 +3179,24 @@
   - researcher
   - IDP
   url: https://www.ebi.ac.uk/pdbe/docs/sifts/
-- description: 'This FAIRsharing record describes: The BioModels Ontology is an OWL
-    Representation of the models in the BioModels repository. This resource has not
-    been updated recently within BioPortal, and no official homepage can be found,
-    therefore we have marked its status as Uncertain. Please get in touch with us
-    if you have any information on this project.'
-  name: 'FAIRsharing record for: BioModels Ontology'
+- description: SILVA is a comprehensive, quality-controlled web resource for up-to-date
+    aligned ribosomal RNA (rRNA) gene sequences from the Bacteria, Archaea and Eukaryota
+    domains alongside supplementary online services. In addition to data products,
+    SILVA provides various online tools such as alignment and classification, phylogenetic
+    tree calculation and viewer, probe/primer matching, and an amplicon analysis pipeline.
+    With every full release a curated guide tree is provided that contains the latest
+    taxonomy and nomenclature based on multiple references. The SILVA curation team
+    is now part of Bergey's Trustees and the Protist Reference Taxonomy Project UniEuk,
+    which will further improve the quality of SILVA taxonomy. In order to cope with
+    the dramatic expansion of bacterial and archaeal phyla, we have also teamed up
+    with phylogenomic taxonomy efforts (i.e. Genome Taxonomy Database). SILVA is an
+    ELIXIR Core Data Resource.
+  name: SILVA
   registry:
     biotools: silva
     fairsharing: 5vtYGG
     tess: Silva
-  url: http://bioportal.bioontology.org/ontologies/BIOMODELS
+  url: https://www.arb-silva.de
 - description: Singularity is a container platform.
   name: Singularity
   registry:
@@ -2946,25 +3246,27 @@
   related_pages:
   - micro biotech
   url: https://www.beilstein-institut.de/en/projects/strenda/
-- description: 'This FAIRsharing record describes: Minimal set of terms for anatomy.'
-  name: 'FAIRsharing record for: Minimal Anatomical Terminology'
+- description: STRING is a database of known and predicted protein interactions. The
+    interactions include direct (physical) and indirect (functional) associations.
+  name: STRING
   registry:
     biotools: string
     fairsharing: 9b7wvk
     tess: STRING
   related_pages:
   - proteomics
-  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
-- description: 'This FAIRsharing record describes: An ontology for spider comparative
-    biology including anatomical parts (e.g. leg, claw), behavior (e.g. courtship,
-    combing) and products (i.g. silk, web, borrow).'
-  name: 'FAIRsharing record for: Spider Anatomy Ontology'
+  url: https://string-db.org/
+- description: SynBioHub is a design repository for people designing biological constructs.
+    It enables DNA and protein designs to be uploaded, then provides a shareable link
+    to allow others to view them. SynBioHub also facilitates searching for information
+    about existing useful parts and designs by combining data from a variety of sources.
+  name: SynBioHub
   registry:
     biotools: synbiohub
     fairsharing: 7CVoS6
   related_pages:
   - micro biotech
-  url: https://github.com/obophenotype/spider-ontology
+  url: https://synbiohub.org
 - description: 'The Synthetic Biology Open Language (SBOL) Version 3.
 
 
@@ -3028,10 +3330,12 @@
   related_pages:
   - micro biotech
   url: https://sites.google.com/site/environmentontology/
-- description: EGA is a service for permanent archiving and sharing of all types of
-    personally identifiable genetic and phenotypic data resulting from biomedical
-    research projects
-  name: The European Genome-phenome Archive (EGA)
+- description: The European Genome-phenome Archive (EGA) is a service for permanent
+    archiving and sharing of personally identifiable genetic, phenotypic, and clinical
+    data generated for the purposes of biomedical research projects or in the context
+    of research-focused healthcare systems. Access to data must be approved by the
+    specified Data Access Committee (DAC).
+  name: The European Genome-phenome Archive
   registry:
     biotools: ega
     fairsharing: mya1ff
@@ -3043,8 +3347,12 @@
   - CSC
   - TSD
   url: https://ega-archive.org/
-- description: 'This FAIRsharing record describes: Minimal set of terms for anatomy.'
-  name: 'FAIRsharing record for: Minimal Anatomical Terminology'
+- description: The minimum information about any (x) sequence (MIxS) is an overarching
+    framework of sequence metadata, that includes technology-specific checklists from
+    the previous MIGS and MIMS standards, provides a way of introducing additional
+    checklists such as MIMARKS, and also allows annotation of sample data using environmental
+    packages.
+  name: Minimum Information about any (x) Sequence
   registry:
     fairsharing: 9aa0zp
   related_pages:
@@ -3053,7 +3361,7 @@
   - IT support
   - policy officer
   - human data
-  url: http://bioportal.bioontology.org/ontologies/MAT?p=summary
+  url: http://gensc.org/mixs/
 - description: Collaborative effort to develob interoperable ontologies for the biological
     sciences
   name: The Open Biological and Biomedical Ontology (OBO) Foundry
@@ -3147,8 +3455,19 @@
   related_pages:
   - toxicology data
   url: https://www.ebi.ac.uk/unichem/
-- description: Comprehensive resource for protein sequence and annotation data
-  name: UniProt
+- description: 'The UniProt Knowledgebase (UniProtKB) is the central hub for the collection
+    of functional information on proteins, with accurate, consistent and rich annotation.
+    In addition to capturing the core data mandatory for each UniProtKB entry (mainly,
+    the amino acid sequence, protein name or description, taxonomic data and citation
+    information), as much annotation information as possible is added. This includes
+    widely accepted biological ontologies, classifications and cross-references, and
+    clear indications of the quality of annotation in the form of evidence attribution
+    of experimental and computational data. The UniProt Knowledgebase consists of
+    two sections: a reviewed section containing manually-annotated records with information
+    extracted from literature and curator-evaluated computational analysis (aka "UniProtKB/Swiss-Prot"),
+    and an unreviewed section with computationally analyzed records that await full
+    manual annotation (aka "UniProtKB/TrEMBL").'
+  name: UniProt Knowledgebase
   registry:
     biotools: uniprot
     fairsharing: s1ne3g
@@ -3160,7 +3479,7 @@
   - micro biotech
   - proteomics
   - struct bioinfo
-  url: https://www.uniprot.org/
+  url: https://www.uniprot.org/uniprot/
 - description: List of Electronic Research Notebook Products by University of Cambridge
   name: University of Cambridge - Electronic Research Notebook Products
   related_pages:
@@ -3192,10 +3511,8 @@
   - transfer
   - IT support
   url: https://winscp.net/eng/index.php
-- description: 'This FAIRsharing record describes: An ontology for spider comparative
-    biology including anatomical parts (e.g. leg, claw), behavior (e.g. courtship,
-    combing) and products (i.g. silk, web, borrow).'
-  name: 'FAIRsharing record for: Spider Anatomy Ontology'
+- description: The WorkflowHub is a registry of scientific workflows.
+  name: WorkflowHub
   registry:
     biotools: workflowhub
     fairsharing: 07cf72
@@ -3203,7 +3520,7 @@
   - data publication
   - data manager
   - researcher
-  url: https://github.com/obophenotype/spider-ontology
+  url: https://workflowhub.eu
 - description: Open source imaging informatics platform. It facilitates common management,
     productivity, and quality assurance tasks for imaging and associated data.
   name: XNAT
@@ -3230,8 +3547,18 @@
   - data manager
   - XNAT-PIC
   url: https://github.com/szullino/XNAT-PIC
-- description: Generalist research data repository built and developed by OpenAIRE
-    and CERN
+- description: Zenodo is a generalist research data repository built and developed
+    by OpenAIRE and CERN. It was developed to aid Open Science and is built on open
+    source code. Zenodo helps researchers receive credit by making the research results
+    citable and through OpenAIRE integrates them into existing reporting lines to
+    funding agencies like the European Commission. Citation information is also passed
+    to DataCite and onto the scholarly aggregators. Content is available publicly
+    under any one of 400 open licences (from opendefinition.org and spdx.org). Restricted
+    and Closed content is also supported. Free for researchers below 50 GB/dataset.
+    Content is both online on disk and offline on tape as part of a long-term preservation
+    policy. Zenodo supports managed access (with an access request workflow) as well
+    as embargoing generally and during peer review. The base infrastructure of Zenodo
+    is provided by CERN, a non-profit IGO. Projects are funded through grants.
   name: Zenodo
   registry:
     fairsharing: wy4egf
@@ -3241,7 +3568,7 @@
   - biomol sim
   - bioimaging data
   - plant pheno assembly
-  url: https://zenodo.org/
+  url: https://www.zenodo.org
 - description: ZOOMA 2 is a search engine for automatic curation and a repository
     of annotation knowledge. It facilitates automated data annotation against a variety
     of ontologies by exploring context and previous annotation efforts as well as

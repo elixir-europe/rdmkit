@@ -5,6 +5,7 @@ import re
 from csv import reader
 import yaml
 import re
+import unidecode
 import unicodedata
 import requests
 from requests.adapters import HTTPAdapter
@@ -65,10 +66,10 @@ def tess_available(query):
 def get_biotools_info(toolid):
     json_output = client(
             f"https://bio.tools/api/tool/{toolid}?format=json")
-    return {'name':json_output['name'], 'url':json_output['homepage'], 'description':json_output['description']}
+    return {'name':json_output['name'], 'url':json_output['homepage'], 'description':unidecode.unidecode(json_output['description'])}
 
 def get_fairsharing_info(toolid, token):
-    url = f"https://api.fairsharing.org/fairsharing_records/{toolid}"
+    url = f"https://api.fairsharing.org/fairsharing_record/FAIRsharing.{toolid}"
 
     headers = {
         'Accept': 'application/json',
@@ -79,7 +80,7 @@ def get_fairsharing_info(toolid, token):
         response = requests.request(
             "GET", url, headers=headers)
         json_output = response.json()['data']['attributes']
-        return {'name':json_output['name'], 'url':json_output['metadata']['homepage'], 'description':json_output['description']}
+        return {'name':json_output['name'].replace('FAIRsharing record for: ',''), 'url':json_output['metadata']['homepage'], 'description':unidecode.unidecode(json_output['description'].replace('This FAIRsharing record describes: ',''))}
     except:
         print(f'ERROR: We could not fetch FAIRsharing info for {toolid}')
         
