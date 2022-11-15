@@ -1,4 +1,4 @@
-# Contributing to ELIXIR RDM-toolkit
+# Contributing to the ELIXIR RDMkit
 
 Thank you very much for taking the time to contribute! 
 
