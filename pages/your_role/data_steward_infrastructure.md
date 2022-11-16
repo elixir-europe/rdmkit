@@ -4,7 +4,7 @@ description: Data Steward with focus on tools (software) and IT infrastructure f
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: IT support
 related_pages: 
-  your_tasks: [data analysis, data protection, data brokering, transfer, identifiers, storage, data organisation, machine actionability, DM coordination]
+  your_tasks: [data analysis, data protection, data brokering, transfer, identifiers, storage, data organisation, machine actionability, DM coordination, data provenance]
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS
