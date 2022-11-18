@@ -1,6 +1,6 @@
 ---
 title: Data provenance
-description: how to record information about data provenace
+description: How to record information about data provenace
 contributors: [Flora D'Anna, Korbinian Bösl]
 page_id: data provenance
 related_pages: 
