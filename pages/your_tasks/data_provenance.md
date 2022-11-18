@@ -4,7 +4,7 @@ description: how to record information about data provenace
 contributors: [Flora D'Anna, Korbinian Bösl]
 page_id: data provenance
 related_pages: 
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+  tool_assembly: []
 training:
   - name:
     registry:
