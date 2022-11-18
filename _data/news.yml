@@ -90,4 +90,8 @@
   date: 2022-11-09
   linked_pr: 1029
   description: This page gives an insight in RDM on national level in Czech Republic. [Discover the page here](cz_resources)
+- name: "New page: Data provenance"
+  date: 2022-11-18
+  linked_pr: 1053
+  description: This page gives insights about how to record information about data provenance. [Discover the page here](data_provenance).
 
