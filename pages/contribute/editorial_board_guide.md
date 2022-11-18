@@ -238,8 +238,8 @@ To find out what the `page_id` of an RDMkit page is, please check its metadata a
 
 - Links between RDMkit and FAIR Cookbook are described in the `faircookbook_rdmkit_mapping.yml` file located in the [faircookbook-rdmkit repository](https://github.com/elixir-europe/faircookbook-rdmkit).
   - Data life cycle, your role, and national resources pages are not linked to recipes.
-  - Domain pages should only be linked to domain specific recipes.
-  - Task pages should only be linked task generic recipes.
+  - Domain pages should only link to domain specific recipes.
+  - Task pages should only link to recipes for generic tasks.
 - After adding the links create a PR. The PR should be reviewed and approved by at least one editor from both teams.
 - After the approval from editors Fair Cookbook and RDMkit will automatically pull changes from the central .yml file to update there repository. The process of merging the changes to the main branch from the reposiory takes place weekly.
 
