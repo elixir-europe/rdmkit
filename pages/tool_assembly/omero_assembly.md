@@ -17,7 +17,7 @@ training:
   - name: Collection of workflow describing to how use the system, with links to scripts and notebooks
     url: https://omero-guides.readthedocs.io/en/latest/
   - name: YouTube channel with tutorials and presentations
-    registry: Youtube
+    registry: 
     url: https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ
   - name: Imaging Forum - discussions about imaging related topics
     url: https://forum.image.sc/

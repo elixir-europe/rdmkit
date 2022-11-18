@@ -13,10 +13,10 @@ training:
   - name: Euro-Bioimaging website
     url: https://www.eurobioimaging.eu/news/towards-sharing-and-reusing-of-preclinical-image-data
   - name: Data Management - Biological and Preclinical Imaging Perspective
-    registry: Youtube
+    registry: 
     url: https://www.youtube.com/QNiAGuFk53w
   - name: XNAT-PIC - expanding XNAT for image archiving and processing to Preclinical Imaging Centers
-    registry: Youtube
+    registry: 
     url: ttps://www.youtube.com/cpEcfIJJqCo
 ---
 

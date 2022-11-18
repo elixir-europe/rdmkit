@@ -14,7 +14,7 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/content_providers/elixir-the-czech-republic-node
   - name: ELIXIR-CZ YouTube
-    registry: Youtube
+    registry: 
     url: https://www.youtube.com/channel/UCt0SKet24szBGjN-V1d4EKw
   - name: ELIXIR-CZ GitHub
     registry: GitHub
