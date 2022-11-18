@@ -73,7 +73,7 @@ title: Title of the page
       url: example_url
   ```
 
-  The supported registries that can be used in the `registries` attribute are: *YouTube*, *Zenodo*, *Carpentries* and *TeSS*.
+  The supported registries that can be used in the `registry` attribute are: *YouTube*, *Zenodo*, *Carpentries* and *TeSS*.
 
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
