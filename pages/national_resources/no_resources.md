@@ -16,7 +16,7 @@ training:
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-no/?page=1&size=20
 #  - name: ELIXIR Norway YouTube
-#    registry: Youtube
+#    registry: YouTube
 #    url: https://www.youtube.com/channel/UCva4S9uWxXqyGnbSgxIbcwA
 
 

@@ -13,7 +13,7 @@ training:
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-be/?page=1&size=20
   - name: ELIXIR Belgium YouTube
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
 ref_to_main_resources:
