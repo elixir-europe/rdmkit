@@ -1278,6 +1278,13 @@
   - machine actionability
   - data manager
   url: https://fairdomhub.org
+- description: A System to Evaluate the FAIRness of Digital Objects
+  name: FAIRshake
+  related_pages:
+  - compliance
+  - data manager
+  - IT support
+  url: https://fairshake.cloud
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
   name: FAIRsharing
@@ -1689,6 +1696,7 @@
   related_pages:
   - plants
   - machine actionability
+  - plant pheno assembly
   url: https://doi.org/10.12688/f1000research.27188.1
 - description: International information security standard
   name: ISO/IEC 27001
@@ -2371,6 +2379,12 @@
   related_pages:
   - micro biotech
   url: https://www.protocols.io
+- description: PROV-DM is the conceptual data model that forms a basis for the W3C
+    provenance (PROV) family of specifications.
+  name: 'PROV-DM: The PROV Data Model'
+  related_pages:
+  - data provenance
+  url: https://www.w3.org/TR/prov-dm/
 - description: R Markdown documents are fully reproducible. Use a productive notebook
     interface to weave together narrative text and code to produce elegantly formatted
     output. Use multiple languages including R, Python, and SQL.
@@ -2510,6 +2524,7 @@
   - researcher
   - micro biotech
   - machine actionability
+  - data provenance
   url: https://w3id.org/ro/crate
 - description: Reva connects cloud storages and application providers
   name: Reva
