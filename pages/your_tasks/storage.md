@@ -3,7 +3,6 @@ title: Data storage
 contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi, Flora D'Anna, Flavio Licciulli, Ott Oopkaup, Marcus Lundberg, Thanasis Vergoulis, Frederik Coppens, Olivier Collin, Nadia Tonello, Korbinian Bösl]
 description: How to find appropriate storage solutions
 page_id: storage
-redirect_from: /pid/storage
 related_pages: 
   tool_assembly: [NeLS, TSD, ome, transmed, XNAT-PIC]
 training:

@@ -3,7 +3,6 @@ title: "Data Steward: research"
 description: Data Steward with focus on management of research data
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: data manager
-redirect_from: /pid/data manager
 related_pages: 
   your_tasks: [compliance, DMP, data organisation, licensing, metadata, data protection, data publication, data quality, transfer, identifiers, machine actionability, DM coordination, data provenance]
 training:

@@ -1,7 +1,6 @@
 ---
 title: Sharing
 page_id: share
-redirect_from: /pid/share
 description: Introduction to data sharing
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
 related_pages: 

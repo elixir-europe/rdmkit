@@ -4,7 +4,6 @@ description: Data management solutions for marine metagenomics data
 contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
 related_pages: 
 page_id: marine
-redirect_from: /pid/marine
 related_pages: 
   your_tasks: [metadata]
   tool_assembly: [marine assembly]

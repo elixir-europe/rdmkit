@@ -3,7 +3,6 @@ title: Data quality
 contributors: [Wei Gu, Pinar Alper, Kees van Bochove]
 description: Ensure high quality research data
 page_id: data quality
-redirect_from: /pid/data quality
 related_pages: 
     tool_assembly: []
 dsw:

@@ -1,7 +1,6 @@
 ---
 title: Preserving
 page_id: preserve
-redirect_from: /pid/preserve
 description: Introduction to data preservation
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 related_pages: 

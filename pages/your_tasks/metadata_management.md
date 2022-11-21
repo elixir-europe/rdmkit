@@ -3,7 +3,6 @@ title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
 description: How to document and describe your data
 page_id: metadata
-redirect_from: /pid/metadata
 related_pages:
   tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
 dsw:

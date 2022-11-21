@@ -3,7 +3,6 @@ title: NeLS
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
 description: NeLS provides the necessary tools for data management aimed for researchers in Norway and their collaborators.
 page_id: NeLS
-redirect_from: /pid/NeLS
 affiliations: ["ELIXIR Europe", "NO"]
 related_pages: 
   your_tasks: [DMP, data organisation ,storage, data publication, data transfer, metadata]

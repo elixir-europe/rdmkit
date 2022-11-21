@@ -1,7 +1,6 @@
 ---
 title: Biomolecular simulation data
 page_id: biomol sim
-redirect_from: /pid/biomol sim
 description: Data management solutions for biomolecular simulation data
 contributors: [Karel Berka, Adam Hospital]
 related_pages:

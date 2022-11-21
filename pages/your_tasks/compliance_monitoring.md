@@ -3,7 +3,6 @@ title: Compliance monitoring & measurement
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
 description: Measure compliance to data management regulations and standards
 page_id: compliance
-redirect_from: /pid/compliance
 related_pages:
   tool_assembly: [transmed]
 faircookbook:

@@ -5,7 +5,6 @@ contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitiations for the audience--->
 affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work--->]
 page_id: <!---REPLACE THIS with a shortened page name, with small letters and spaces, or an acronym in capital and small letters--->
-redirect_from: /pid/<!---REPLACE THIS with page_id--->
 related_pages: 
   your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
   your_domain: [<!---REPLACE THIS with the page ID of the your_domain pages that you want to list here as related pages--->]

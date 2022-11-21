@@ -3,7 +3,6 @@ title: Proteomics
 description: Data management solutions for proteomics data
 contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig]
 page_id: proteomics
-redirect_from: /pid/proteomics
 related_pages:
   your_tasks: [metadata]
   tool_assembly: []

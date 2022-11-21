@@ -3,7 +3,6 @@ title: Identifiers
 contributors: [Markus Englund, Flavio Licciulli, Nick Juty, Olivier Collin, Ulrike Wittig, Ivan Mičetić, Karel Berka, Shuxin Zhang, Hinri Kerstens, Flora D'Anna, Yvonne Kallberg, Rob Hooft] 
 description: How to use identifiers for research data
 page_id: identifiers
-redirect_from: /pid/identifiers
 related_pages: 
     tool_assembly: []
 dsw:

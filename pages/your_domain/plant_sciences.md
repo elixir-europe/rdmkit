@@ -4,7 +4,6 @@ description: Data management solutions for plant sciences data
 contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erwan Le Floch, Daniel Faria]
 related_pages: 
 page_id: plants
-redirect_from: /pid/plants
 related_pages: 
   your_tasks: [metadata]
   tool_assembly: [plant geno assembly, plant pheno assembly]
