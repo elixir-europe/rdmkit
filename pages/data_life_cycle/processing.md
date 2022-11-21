@@ -5,7 +5,7 @@ redirect_from: /pid/process
 description: How to manage the data processing stage
 contributors: [Rob Hooft, Munazah Andrabi]
 related_pages: 
-  your_tasks: [data analysis, data organisation, data quality, sensitive]
+  your_tasks: [data analysis, data organisation, data quality, sensitive, data provenance]
 training:
   - name: Training in TeSS
     registry: TeSS

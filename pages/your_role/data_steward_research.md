@@ -5,7 +5,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 page_id: data manager
 redirect_from: /pid/data manager
 related_pages: 
-  your_tasks: [compliance, DMP, data organisation, licensing, metadata, data protection, data publication, data quality, transfer, identifiers, machine actionability, DM coordination]
+  your_tasks: [compliance, DMP, data organisation, licensing, metadata, data protection, data publication, data quality, transfer, identifiers, machine actionability, DM coordination, data provenance]
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS

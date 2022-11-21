@@ -19,14 +19,14 @@ training:
   - name: CSC - Learning Materials for Bioscientists
     url: https://research.csc.fi/bioscience-learning-materials
   - name: CSC - Data management youtube channel
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/watch?v=Ol7mniw687E&list=PLD5XtevzF3yEZw-8LadtaGVV8Um6CbMja
   - name: CSC - Research data management services for life science research (youtube video)
     url: https://youtu.be/lf9L7PYQrBE
   - name: Data analysis with Chipster - Course packages
     url: https://chipster.rahtiapp.fi/manual/courses.html
   - name: Tutorials and lecture playlists on different topics (youtube)
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists
 ---
 

@@ -5,7 +5,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 page_id: researcher
 redirect_from: /pid/researcher
 related_pages: 
-  your_tasks: [data analysis, DMP, data organisation, data publication, data quality, existing data, metadata, identifiers]
+  your_tasks: [data analysis, DMP, data organisation, data publication, data quality, existing data, metadata, identifiers, data provenance]
 training:
   - name: Training in TeSS
     registry: TeSS

@@ -4,7 +4,7 @@ page_id: collect
 redirect_from: /pid/collect
 description: Data management at the data collection stage
 related_pages: 
-  your_tasks: [data organisation, data quality, existing data, identifiers, metadata, sensitive, storage]
+  your_tasks: [data organisation, data quality, existing data, identifiers, metadata, sensitive, storage, data provenance]
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 training:
   - name: Training in TeSS

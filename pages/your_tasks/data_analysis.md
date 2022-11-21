@@ -5,7 +5,7 @@ description: How to make data analysis FAIR
 page_id: data analysis
 redirect_from: /pid/data analysis
 related_pages:
-  tool_assembly: [NeLS, XNAT-PIC, transmed, ome]
+  tool_assembly: [NeLS, XNAT-PIC, transmed, ome, galaxy]
 training:
   - name: Training in TeSS
     registry: TeSS

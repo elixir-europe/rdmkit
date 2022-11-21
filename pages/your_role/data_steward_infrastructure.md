@@ -5,7 +5,7 @@ contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, 
 page_id: IT support
 redirect_from: /pid/IT support
 related_pages: 
-  your_tasks: [data analysis, data protection, data brokering, transfer, identifiers, storage, data organisation, machine actionability, DM coordination]
+  your_tasks: [data analysis, data protection, data brokering, transfer, identifiers, storage, data organisation, machine actionability, DM coordination, data provenance]
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS
