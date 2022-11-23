@@ -10,6 +10,7 @@ training:
   - name:
     registry:
     url:
+# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
 ## Concrete problem 1, formulated as a question <!-- example: what is the best way to name a file?-->

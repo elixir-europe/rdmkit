@@ -12,6 +12,8 @@ training:
   - name:
     registry:
     url:
+# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+
 ---
 
 <!--- Tool Assembly pages should detail a particular data management tool assembly which covers one more life cycle stages from an infrastructural or domain perspective. For an example for an infrastructural example, please see: https://github.com/elixir-europe/rdmkit/blob/master/pages/tool_assembly/nels_assembly.md 
