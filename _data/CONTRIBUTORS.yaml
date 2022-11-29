@@ -366,12 +366,12 @@ Anastasis Oulas:
     email: anastasioso@cing.ac.cy
     git: aoulas
     affiliation: Cyprus Institute of Neurology & Genetics (CING)
-Heleri Inno: 
+Heleri Inno:
     git: heleriinno
     email: heleri.inno@ut.ee
     orcid: 0000-0003-2043-0772
-    affiliation: University of Tartu / ELIXIR-EE   
-Jorge Oliveira: 
+    affiliation: University of Tartu / ELIXIR-EE
+Jorge Oliveira:
     git: BioDataAdmin
     email: jorge.oliveira@tecnico.ulisboa.pt
     orcid: 0000-0001-6425-2176
@@ -388,7 +388,7 @@ Marco Carraro:
     git: marcocarraro
     email: marco.carraro.1@unipd.it
     orcid: 0000-0003-0770-1822
-Evangelos Pafilis: 
+Evangelos Pafilis:
     git: evangelospafilis
     orcid: 0000-0001-5079-0125
     affiliation: Institute of Marine Biology Biotechnology and Aquaculture / Hellenic Centre for Marine Research / ELIXIR-GR
@@ -425,7 +425,7 @@ Carla Cummins:
     orcid: 0000-0002-5394-8896
     affiliation: EMBL-EBI
 Philip van Damme:
-    git: PhilipvD 
+    git: PhilipvD
     email: p.vandamme@amsterdamumc.nl
     orcid: 0000-0002-7124-8949
     affiliation: Amsterdam UMC
@@ -458,3 +458,13 @@ Matthias Lange:
     orcid: 0000-0002-4316-078X
     email: lange@ipk-gatersleben.de
     affiliation: IPK-Gatersleben
+Aneas Hodselmans:
+    git:
+    orcid: 0000-0002-2924-918X
+    email: a.w.hodselmans@rug.nl
+    affiliation: University of Groningen
+Marije van der Geest:
+    git:
+    orcid: 0000-0002-1919-6547
+    email: m.a.van.der.geest@umcg.nl
+    affiliation: University Medical Center Groningen

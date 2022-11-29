@@ -94,7 +94,7 @@ subitems:
     description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.
     url: /tool_assembly
     subitems:
-      - title: COVID-19 Data Portal 
+      - title: COVID-19 Data Portal
         url: /covid19_data_portal
       - title: CSC
         url: /csc_assembly
@@ -104,11 +104,13 @@ subitems:
         url: /ifb_assembly
       - title: Marine Metagenomics
         url: /marine_metagenomics_assembly
+      - title: MOLGENIS
+        url: /molgenis_assembly
       - title: NeLS
         url: /nels_assembly
       - title: OMERO
         url: /omero_assembly
-      - title: Plant Genomics 
+      - title: Plant Genomics
         url: /plant_genomics_assembly
       - title: Plant Phenomics
         url: /plant_phenomics_assembly
@@ -120,7 +122,7 @@ subitems:
         url: /xnat_pic_assembly
     image_url: /assets/img/section-icons/arrows-to-dot-light.svg
   - title: National resources
-    description: Find pointers to country specific information resources and national research data management practices. 
+    description: Find pointers to country specific information resources and national research data management practices.
     url: /national_resources
     image_url: /assets/img/section-icons/flag-light.svg
     subitems:
