@@ -60,7 +60,7 @@ To run the website locally, you can either use [Docker](https://www.docker.com/)
 
 1. If not already installed on your machine, install Docker. From the root of the ``rdmkit`` directory, run:
     ```
-    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "gem install github-pages --no-document && chmod 777 /srv/jekyll && jekyll serve -w"
+    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "gem install github-pages --no-document && chmod 777 /srv/jekyll && bundle exec jekyll serve -w"
     ```
 This will start the docker container and serve the website locally.
 
