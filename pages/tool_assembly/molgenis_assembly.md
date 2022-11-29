@@ -75,4 +75,4 @@ Get data directly from the source. Use the questionnaire tool to ask individuals
 Add your own user interfaces to the app store. MOLGENIS gives programmers the complete freedom to create HTML+JavaScript applications using MOLGENIS REST-style programmers interfaces. But it gets even better: you can upload these apps like plugins to become part of MOLGENIS itself and use them seamlessly.
 
 ### High performance computing
-Easily schedule large scale analysis jobs on a computer cluster. MOLGENIS does also provide a high performance computing framework. It is simply called 'compute' and it uses spreadsheets to define workflows, and templates to define workflow steps. It works on the HPC workload managersPBS and SLURM.
+Easily schedule large scale analysis jobs on a computer cluster. MOLGENIS does also provide a high performance computing framework. It is simply called 'compute' and it uses spreadsheets to define workflows, and templates to define workflow steps. It works on the HPC workload managers PBS and SLURM.
