@@ -102,7 +102,7 @@ national_resources:
       fairsharing:
       tess:    
   - name: DORA
-    description: Digit Object Repository at the Libr4RI (4 ETH Domain Research Institutes: EAWAG, EMPA, PSI, WSL).
+    description: Digit Object Repository at the Libr4RI (4 ETH Domain Research Institutes, that are EAWAG, EMPA, PSI, WSL).
     how_to_access:
     instance_of:
     related_pages:
