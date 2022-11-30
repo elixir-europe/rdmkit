@@ -13,11 +13,10 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/nodes/switzerland
 
-ref_to_main_resources: 
-  -  <!---REPLACE THIS with the tool name--->
+ref_to_main_resources:
 
 
-national_resources: 
+national_resources:
   - name: OLOS
     description: OLOS is a Swiss-based data management portal, to help Swiss researchers safely manage, publish and preserve their data.
     how_to_access:
@@ -29,25 +28,122 @@ national_resources:
       your_tasks: []
     url: https://www.dlcm.ch/olos
     registry:
-      biotools: <!--- DELETE ME if not needed --->
-      fairsharing: <!--- DELETE ME if not needed --->
-      tess: <!--- DELETE ME if not needed --->
-      
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+      biotools:
+      fairsharing:
+      tess:
+  - name: SWISSUbase
+    description: SWISSUbase is a national cross-disciplinary solution for Swiss universities and other research organizations in need of local institutional data repositories for their researchers. The platform relies on international archiving standards and processes to ensure that data are preserved and accessible in the long-term.
+    how_to_access:
+    instance_of:
     related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-    url:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: []
+    url: https://www.swissubase.ch/
     registry:
-      biotools: <!--- DELETE ME if not needed --->
-      fairsharing: <!--- DELETE ME if not needed --->
-      tess: <!--- DELETE ME if not needed --->
-      
+      biotools:
+      fairsharing:
+      tess:     
+  - name: OpenRDM.swiss
+    description: openRDM.swiss offers research data management as a service to the scientific community, based on the powerful openBIS platform.
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: []
+    url: https://openbis.ch/index.php/openrdm-swiss/
+    registry:
+      biotools:
+      fairsharing:
+      tess:    
+  - name: Renku
+    description: An open-source knowledge infrastructure for collaborative and reproducible data science.
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: []
+    url: https://renkulab.io/
+    registry:
+      biotools:
+      fairsharing:
+      tess:     
+  - name: BioMedIT
+    description: A secure IT network for the responsible processing of health-related data.
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: []
+    url: https://www.biomedit.ch/
+    registry:
+      biotools:
+      fairsharing:
+      tess:    
+  - name: Swiss Pathogen Surveillance Platform (SPSP)
+    description: A secure One-health online platform that enables near real-time sharing under controlled access of pathogen whole genome sequences (WGS) and their associated clinical/epidemiological metadata. Since 20221 it has centralized and processed all SARS-CoV-2 sequencing data within the national genomic surveillance program.
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: []
+    url: https://spsp.ch/
+    registry:
+      biotools:
+      fairsharing:
+      tess:    
+  - name: DORA
+    description: Digit Object Repository at the Libr4RI (4 ETH Domain Research Institutes: EAWAG, EMPA, PSI, WSL).
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: []
+    url: https://www.dora.lib4ri.ch/
+    registry:
+      biotools:
+      fairsharing:
+      tess: 
+  - name: UNIL DMP Online
+    description: This instance of DMPonline is provided by the Service des ressources informationnelles et archives (UNIRIS) of the University of Lausanne (UNIL) to help its community of researchers to write a Data Management Plan (DMP).
+    how_to_access:
+    instance_of: DMPonline
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: [DMP]
+    url: https://dmp.unil.ch/
+    registry:
+      biotools:
+      fairsharing:
+      tess:
+  - name: SIB/Vital-IT Canvas Generator
+    description: This is a tool to help scientists generate data management plans for SNSF -unded projects. The Word document produced complies with the SNSF instructions for creating DMPs.
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: []
+      your_domain: []
+      your_role: []
+      your_tasks: []
+    url: https://dmp.vital-it.ch/
+    registry:
+      biotools:
+      fairsharing:
+      tess:
+  
 ---
 
 ## Introduction 
