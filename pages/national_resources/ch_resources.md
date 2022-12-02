@@ -4,7 +4,9 @@ title: Switzerland
 country_code: CH
 contributors: [Gregoire Rossier, Vassilios Ioannidis]
 coordinators: [Gregoire Rossier, Vassilios Ioannidis]
- 
+
+search_exclude: true
+
 related_pages:
   tool_assembly: []
 
