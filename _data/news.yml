@@ -94,7 +94,3 @@
   date: 2022-11-18
   linked_pr: 1053
   description: This page gives insights about how to record information about data provenance. [Discover the page here](data_provenance).
-- name: "New page: National resources Switzerland"
-  date: 2022-12-02
-  linked_pr: 1073
-  description: This page gives an insight in RDM on national level in Switzerland. [Discover the page here](ch_resources)
