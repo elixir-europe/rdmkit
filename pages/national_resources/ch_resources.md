@@ -2,8 +2,8 @@
 
 title: Switzerland
 country_code: CH
-contributors: [Gregoire Rossier]
-coordinators: [Gregoire Rossier]
+contributors: [Gregoire Rossier, Vassilios Ioannidis]
+coordinators: [Gregoire Rossier, Vassilios Ioannidis]
  
 related_pages:
   tool_assembly: []
