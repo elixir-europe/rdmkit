@@ -27,7 +27,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: []
+      your_tasks: [storage, data publication]
     url: https://www.dlcm.ch/olos
     registry:
       biotools:
@@ -41,7 +41,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: []
+      your_tasks: [storage, data publication]
     url: https://www.swissubase.ch/
     registry:
       biotools:
@@ -55,7 +55,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: []
+      your_tasks: [data analysis]
     url: https://openbis.ch/index.php/openrdm-swiss/
     registry:
       biotools:
@@ -69,7 +69,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: []
+      your_tasks: [data analysis]
     url: https://renkulab.io/
     registry:
       biotools:
@@ -81,9 +81,9 @@ national_resources:
     instance_of:
     related_pages:
       tool_assembly: []
-      your_domain: []
+      your_domain: [human data]
       your_role: []
-      your_tasks: []
+      your_tasks: [data analysis, sensitive]
     url: https://www.biomedit.ch/
     registry:
       biotools:
@@ -94,10 +94,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
+      tool_assembly: [Covid-19]
       your_domain: []
       your_role: []
-      your_tasks: []
+      your_tasks: [existing data]
     url: https://spsp.ch/
     registry:
       biotools:
@@ -111,7 +111,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: []
+      your_tasks: [data publication]
     url: https://www.dora.lib4ri.ch/
     registry:
       biotools:
@@ -139,7 +139,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: []
+      your_tasks: [DMP]
     url: https://dmp.vital-it.ch/
     registry:
       biotools:
