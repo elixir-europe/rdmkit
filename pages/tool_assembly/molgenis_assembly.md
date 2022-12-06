@@ -17,6 +17,7 @@ training:
   - name: Manual
     url: https://molgenis.gitbook.io/molgenis/
   - name: Code on github
+    registry: GitHub
     url: https://github.com/molgenis/molgenis
   - name: Installation
     url: https://galaxy.ansible.com/molgenis
