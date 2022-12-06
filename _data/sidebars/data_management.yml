@@ -148,6 +148,8 @@ subitems:
         url: /pt_resources
       - title: Sweden
         url: /se_resources
+      - title: Switzerland
+        url: /ch_resources
       - title: United Kingdom
         url: /uk_resources
   - title: All tools and resources
