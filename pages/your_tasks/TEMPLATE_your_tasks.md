@@ -22,11 +22,11 @@ Short explanation of what this problem is about.
 
 ### Considerations <!-- do not delete this heading and write your text below it -->
 
-* Structured in bullet points as much as possible, detailing things to consider about this problem in order to be able to find the right solution.
+* [Structured in bullet points](style_guide#text) as much as possible, detailing things to consider about this problem in order to be able to find the right solution.
 
 ### Solutions <!-- do not delete this heading and write your text below it -->
 
-By using bullet point style as much as possible, try to describe when, why and for what is best to use a specific tool or resource. 
+By using [bullet point style](style_guide#text) as much as possible, try to describe when, why and for what is best to use a specific tool or resource. 
 Avoid making long list of links to tools and resources.
 Make sure to add the tools and resources mentioned in the text in the main "tools and resources" table.
 
