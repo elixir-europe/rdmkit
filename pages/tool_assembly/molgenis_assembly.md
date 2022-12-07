@@ -38,7 +38,7 @@ MOLGENIS is an ELIXIR recommended interoperability resource.
 
 If you are a researcher, a (bio)informatician, a biomedical practitioner, datamanager or anyone else who has a lot of (scientific) data on their hands, then MOLGENIS is a software package that will help you in setting up an online database application in a short time, making your data query-able and allowing you to share your data with collaborators easily.The MOLGENIS software toolkit enables you to [store, edit, analyse, and share your data](#for-what-purpose-can-molgenis-assembly-be-used) efficiently.
 
-MOLGENIS is open source, [free to download](https://www.molgenis.org/get.html) and to install yourself. You can also purchase a MOLGENIS [instance as a service from ready for use from the Genomics Coordination Centrer (GCC)](https://www.molgenis.org/get.html#hosting-and-support), which is the main developer of MOLGENIS. GCC can also provide you with support on entering and managing your data-model on the servers.
+MOLGENIS is open source, [free to download](https://www.molgenis.org/get.html) and to install yourself. You can also purchase a MOLGENIS [instance as a service ready for use from the Genomics Coordination Centrer (GCC)](https://www.molgenis.org/get.html#hosting-and-support), which is the main developer of MOLGENIS. GCC can also provide you with support on entering and managing your data-model on the servers.
 
 
 
