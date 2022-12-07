@@ -4,7 +4,7 @@ page_id: preserve
 description: Introduction to data preservation
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 related_pages: 
-  your_tasks: [data_organisation, data_protection, data_publication, transfer, metadata, storage]
+  your_tasks: [data_organisation, data_protection, data_publication, metadata, storage, identifiers, licensing]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -16,18 +16,18 @@ dsw:
   uuid: a063da1c-aaea-4e18-85ec-f560d833f292
 ---
 
-## What is data preserving?
+## What is data preservation?
 
-Data preservation consists of a series of activities necessary to ensure safety, integrity and accessibility of data for as long as necessary, even decades. Data preservation is indeed more than just data storage and backup, since data can be stored and backed up without being preserved. Data preservation prevents data from becoming unavailable and unusable over time through appropriate activities, such as:
+Data preservation consists of a series of activities necessary to ensure safety, integrity and accessibility of data for as long as necessary, even decades. Data preservation is indeed more than just data storage and backup, since data can be stored and backed up without being preserved. Data preservation prevents data from becoming unavailable and unusable over time through appropriate steps.
 * Ensure data safety and integrity.
 * Change the file format (format migration) and update software to make sure that they do not become outdated or obsolete.
-* Change hardware and other storage media (such as paper, magnetic tape, etc) to avoid degradation.
+* Change hardware and other storage media (such as paper, magnetic tape, etc.) to avoid degradation.
 * Ensure that data is organised and described with appropriate metadata and documentation to be always understandable and reusable.
 
 
 ## Why is data preserving important?
 
-The main reasons for research data preservation are:
+There are several important reasons to preserve research data.
 * Guarantee that your data can be verified and reproduced for several years after the end of the project.
 * Allow the reuse of the data in the future for different purposes, such as teaching or further research.
 * Funders, publishers, institutions and organisations could require a specific period for preservation of certain data for a specific purpose.
@@ -36,13 +36,13 @@ The main reasons for research data preservation are:
 
 ## What should be considered for preserving data?
 
-* Not all data should be preserved. Preservation should be applied to an appropriate selection of data, since it takes relevant effort and costs. Common criteria to select the data to preserve for a certain amount of time are:
-  * Funder, publisher and institution policies (usually, data should be preserved for at least 5 or 10 years after the end of the project).
-  * Legal or ethical requirements (e.g. clinical trial data).
-  * Unique data or that cannot be easily re-generated (e.g. raw data, analysis workflow).
-  * Data that will probably being reused in the future.
-  * Data of great value for society (scientifically, historically or culturally).
-* Data preservation must be done by experts and dedicated services. Preservation of digital information requires planning, policies, resources (time, funds, people) as well as the right technology to ensure that the data stays functional and that it can be accessed (see [ISO Standards for quality, preservation and integrity of information](https://www.iso.org/committee/53666/x/catalogue/)). Hence, special long term data repositories should be used for digital preservation, where the data is actively maintained and information integrity is monitored. Therefore, it is best to:
+Not all data should be preserved. Preservation should be applied to an appropriate selection of data, since it takes relevant effort and costs. Common criteria to select the data to preserve for a certain amount of time are:
+* data requared to be preserved by funder, publisher and institution policies (usually, data should be preserved for at least 5 or 10 years after the end of the project);
+* data preservation of which is needed by legal or ethical requirements (e.g. clinical trial data);
+* unique data or that cannot be easily re-generated (e.g. raw data, analysis workflow);
+* data that will probably being reused in the future;
+* data of great value for society (scientifically, historically or culturally).
+Data preservation must be done by experts and dedicated services. Preservation of digital information requires planning, policies, resources (time, funds, people) as well as the right technology to ensure that the data stays functional and that it can be accessed (see [ISO Standards for quality, preservation and integrity of information](https://www.iso.org/committee/53666/x/catalogue/)). Hence, special long term data repositories should be used for digital preservation, where the data is actively maintained and information integrity is monitored. Therefore, it is best to:
   * Contact the IT department or the library or the data center of your institution.
   * Check if national services are available.
   * Choose trustworthy research data repositories or deposition databases, based on your data type. Repositories could be publicly accessible and allow you to also publish your data.
