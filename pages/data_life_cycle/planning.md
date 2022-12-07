@@ -4,7 +4,7 @@ page_id: plan
 description: Introduction to data management planning
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 related_pages: 
-  your_tasks: [compliance, DMP, data protection]
+  your_tasks: [compliance, dmp, data_protection]
 training:
   - name: Training in TeSS
     registry: TeSS

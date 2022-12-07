@@ -4,7 +4,7 @@ contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis
 description: How to identify different research data types
 page_id: sensitive
 related_pages: 
-  tool_assembly: [TSD, Covid-19, transmed]
+  tool_assembly: [tsd, covid-19, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS

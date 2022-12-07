@@ -2,10 +2,10 @@
 title: Plant Genomics
 contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Daniel Faria, Paulette Lieby, Sebastian Beier, Erwan Le Floch]
 description: Tool assembly for managing plant genomic data.
-page_id: plant geno assembly
+page_id: plant_geno_assembly
 affiliations:
 related_pages: 
-  your_tasks: [metadata, data publication]
+  your_tasks: [metadata, data_publication]
   your_domain: [plants]
 faircookbook:
 - name: Plant genomic and genetic variation data submission to EMBL-EBI databases

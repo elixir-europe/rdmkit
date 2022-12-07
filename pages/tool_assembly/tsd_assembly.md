@@ -2,11 +2,11 @@
 title: TSD
 contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl]
 description: The Sensitive Data Service (TSD) provides a platform to store, compute and analyse research sensitive data in compliance with Norwegian regulations regarding individuals’ privacy.
-page_id: TSD
+page_id: tsd
 affiliations: ["NO", ELIXIR Europe, University of Oslo]
 related_pages: 
-  your_tasks: [DMP, storage, sensitive, data protection, transfer]
-  your_domain: [human data]
+  your_tasks: [dmp, storage, sensitive, data_protection, transfer]
+  your_domain: [human_data]
 training:
   - name: Documentation for the HPC cluster
     url: https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/colossus-userguide

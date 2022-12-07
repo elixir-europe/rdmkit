@@ -14,9 +14,9 @@ national_resources:
     how_to_access:
     instance_of: DMPRoadmap
     related_pages:
-      tool_assembly: [IFB]
-      your_role: [researcher, data manager]
-      your_tasks: [DMP]
+      tool_assembly: [ifb]
+      your_role: [researcher, data_manager]
+      your_tasks: [dmp]
     url: https://dmp.opidor.fr
 ---
 

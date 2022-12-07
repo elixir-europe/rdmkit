@@ -6,7 +6,7 @@ related_pages:
 page_id: plants
 related_pages: 
   your_tasks: [metadata]
-  tool_assembly: [plant geno assembly, plant pheno assembly]
+  tool_assembly: [plant_geno_assembly, plant_pheno_assembly]
 training:
   - name: Training in TeSS
     registry: TeSS

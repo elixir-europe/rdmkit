@@ -19,33 +19,33 @@ national_resources:
     how_to_access: ELIXIR AAI login
     instance_of: Data Stewardship Wizard
     related_pages:
-      your_tasks: [DMP]
+      your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     instance_of: FigShare
     related_pages:
-      your_tasks: [existing data, data publication]
+      your_tasks: [existing_data, data_publication]
     url: https://scilifelab.figshare.com/
   - name: NBIS Data Management Consultation
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
-      your_tasks: [DMP, data publication, sensitive]
+      your_tasks: [dmp, data_publication, sensitive]
     url: https://nbis.se/support/supportform/index.php?form=consultation
   - name: Swedish COVID-19 Data Portal
     description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
-      tool_assembly: [Covid-19]
-      your_domain: [human data]
-      your_tasks: [sensitive, existing data, data publication]
+      tool_assembly: [covid-19]
+      your_domain: [human_data]
+      your_tasks: [sensitive, existing_data, data_publication]
     url: https://covid19dataportal.se/ 
   - name: SNIC 
     description: The Swedish National Infrastructure for Computing (SNIC) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
     how_to_access: An application is required to gain access to the compute and storage services.
     related_pages:
-      your_tasks: [data analysis, storage]
+      your_tasks: [data_analysis, storage]
     url: https://www.snic.se/ 
   - name: SciLifeLab Data Guidelines
     description: A data type centric resource that provides guidance on good data management practices during the data life cycle, including available infrastructures.
@@ -53,7 +53,7 @@ national_resources:
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
-      your_domain: [human data]
+      your_domain: [human_data]
       your_tasks: [sensitive]
     url: https://nbis.se/support/human-data.html
     

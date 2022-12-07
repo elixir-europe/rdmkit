@@ -1,11 +1,11 @@
 ---
 title: COVID-19 Data Portal 
 contributors: [Guy Cochrane, Marianna Ventouratou, Nadim Rahman, Sam Holt]
-page_id: Covid-19
+page_id: covid-19
 affiliations: [ELIXIR CONVERGE]
 related_pages:
-  your_tasks: [sensitive, existing data, data publication]
-  your_domain: [human data]
+  your_tasks: [sensitive, existing_data, data_publication]
+  your_domain: [human_data]
 description: The COVID-19 Data Portal brings together relevant datasets for sharing and analysis to accelerate coronavirus research.
 
 ---

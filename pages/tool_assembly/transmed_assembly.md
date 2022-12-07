@@ -5,8 +5,8 @@ description: TransMed from ELIXIR Luxembourg supports projects in Translational 
 page_id: transmed
 affiliations: [ELIXIR Europe, LU]
 related_pages: 
-  your_tasks: [compliance, storage, metadata, data organisation, data analysis, sensitive, data protection, DMP]
-  your_domain: [human data]
+  your_tasks: [compliance, storage, metadata, data_organisation, data_analysis, sensitive, data_protection, dmp]
+  your_domain: [human_data]
 ---
 
 ## What is the TransMed data and computing tool assembly?

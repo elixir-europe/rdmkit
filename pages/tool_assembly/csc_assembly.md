@@ -2,11 +2,11 @@
 title: CSC
 contributors: [Siiri Fuchs, Minna Ahokas]
 description: The Center of Science (CSC) provides high-quality ICT expert services for researchers in Finland and their collaborators.
-page_id: CSC
+page_id: csc
 affiliations: [FI, CSC, ELIXIR Europe]
 related_pages: 
-  your_tasks: [sensitive, DMP, data protection, storage, data publication, data transfer, data analysis]
-  your_domain: [human data]
+  your_tasks: [sensitive, dmp, data_protection, storage, data_publication, data_transfer, data_analysis]
+  your_domain: [human_data]
 training:
   - name: Training in TeSS
     registry: TeSS

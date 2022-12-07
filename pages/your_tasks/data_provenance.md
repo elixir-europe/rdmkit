@@ -2,7 +2,7 @@
 title: Data provenance
 description: How to record information about data provenance
 contributors: [Flora D'Anna, Korbinian Bösl]
-page_id: data provenance
+page_id: data_provenance
 related_pages: 
   tool_assembly: []
 training:

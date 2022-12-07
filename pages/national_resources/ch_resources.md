@@ -25,7 +25,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: [storage, data publication]
+      your_tasks: [storage, data_publication]
     url: https://www.dlcm.ch/olos
     registry:
       biotools:
@@ -39,7 +39,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: [storage, data publication]
+      your_tasks: [storage, data_publication]
     url: https://www.swissubase.ch/
     registry:
       biotools:
@@ -53,7 +53,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: [data analysis]
+      your_tasks: [data_analysis]
     url: https://openbis.ch/index.php/openrdm-swiss/
     registry:
       biotools:
@@ -67,7 +67,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: [data analysis]
+      your_tasks: [data_analysis]
     url: https://renkulab.io/
     registry:
       biotools:
@@ -79,9 +79,9 @@ national_resources:
     instance_of:
     related_pages:
       tool_assembly: []
-      your_domain: [human data]
+      your_domain: [human_data]
       your_role: []
-      your_tasks: [data analysis, sensitive]
+      your_tasks: [data_analysis, sensitive]
     url: https://www.biomedit.ch/
     registry:
       biotools:
@@ -92,10 +92,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: [Covid-19]
+      tool_assembly: [covid-19]
       your_domain: []
       your_role: []
-      your_tasks: [existing data]
+      your_tasks: [existing_data]
     url: https://spsp.ch/
     registry:
       biotools:
@@ -109,7 +109,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: [data publication]
+      your_tasks: [data_publication]
     url: https://www.dora.lib4ri.ch/
     registry:
       biotools:
@@ -123,7 +123,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: [DMP]
+      your_tasks: [dmp]
     url: https://dmp.unil.ch/
     registry:
       biotools:
@@ -137,7 +137,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: []
-      your_tasks: [DMP]
+      your_tasks: [dmp]
     url: https://dmp.vital-it.ch/
     registry:
       biotools:
