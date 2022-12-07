@@ -1,7 +1,7 @@
 ---
 title: MOLGENIS
 contributors: [Aneas Hodselmans, Marije van der Geest]
-description: Molgenis is a modular web application for scientific data. Flexible data integration platform to find, capture, exchange, manage and analyze scientific data.
+description: Molgenis is a modular web application for scientific data. Flexible data integration platform to find, capture, exchange, manage and analyse scientific data.
 page_id: molgenis
 affiliations: ["BBMRI-NL"]
 related_pages:
@@ -27,18 +27,16 @@ training:
 
 ## What is the Molgenis tool assembly?
 
-[MOLGENIS](https://www.molgenis.org/) is a modular web application for scientific data. MOLGENIS was born from molecular genetics research (and was called 'molecular genetics information system') but has grown, to be used in many scientific areas such as biobanking, rare disease research, patient registries and even energy research. MOLGENIS provides user-friendly and scalable software infrastructures to capture, exchange, and exploit the large amounts of data that is being produced by scientific organizations all around the world. To get an idea of what the software can do, visit our MOLGENIS YouTube channel or our demo page via the [related pages](#related-pages).
+[MOLGENIS](https://www.molgenis.org/) is a modular web application for scientific data. MOLGENIS was born from molecular genetics research (and was called 'molecular genetics information system') but has become relevant to many other scientific areas such as biobanking, rare disease research, patient registries and even energy research. MOLGENIS provides user-friendly and scalable software infrastructures to capture, exchange, and exploit the large amounts of data that is being produced by scientific organizations all around the world. To get an idea of what the software can do, visit our MOLGENIS YouTube channel or our demo page via the [related pages](#related-pages).
 MOLGENIS is an [ELIXIR Recommended Interoperability Resource](https://elixir-europe.org/platforms/interoperability/rirs#ELIXIR%20Recommended%20Interoperability%20Resources%20list).
 
-One of the key features is that it has a completely customizable data system, allowing you to model your data according to your needs. This creates flexibility that other, more static, database applications often lack. It's web-based, meaning you setup a server, install and configure MOLGENIS, load your data and can share it with the world. If your data is ready, setting up a useful online research database application can be done in a few hours. Another key feature is that MOLGENIS is modular, having all kinds of extension modules to store and interact with your data. A good example are interfaces to create R and Python scripts that interact with your data. This enables you to add your own statistical modules to run statistical analysis, or create plots based on your data within the online environment.
-MOLGENIS is an ELIXIR recommended interoperability resource.
-
+One of the key features is that it has a completely customisable data system, allowing you to model your data according to your needs. This creates flexibility that other, more static, database applications often lack. It is web-based, meaning you setup a server, install and configure MOLGENIS, load your data and share it. If your data is ready, setting up a useful online research database application can be done in few hours. Another key feature is that MOLGENIS is modular, having all kinds of extension modules to store and interact with your data. A good example are interfaces to create R and Python scripts that interact with your data. This enables you to add your own statistical modules to run statistical analysis, or create plots based on your data within the online environment.
 
 ## Who can use the Molgenis tool assembly?
 
-If you are a researcher, a (bio)informatician, a biomedical practitioner, datamanager or anyone else who has a lot of (scientific) data on their hands, then MOLGENIS is a software package that will help you in setting up an online database application in a short time, making your data query-able and allowing you to share your data with collaborators easily.The MOLGENIS software toolkit enables you to [store, edit, analyse, and share your data](#for-what-purpose-can-molgenis-assembly-be-used) efficiently.
+If you are a researcher, a (bio)informatician, a biomedical practitioner, a data manager or anyone else who handles a considerable amount of (scientific) data, then MOLGENIS is a software package that will help you in setting up an online database application in a short time, making your data query-able and allowing you to share your data with collaborators easily.The MOLGENIS software toolkit enables you to [store, edit, analyse, and share your data](#for-what-purpose-can-molgenis-assembly-be-used) efficiently.
 
-MOLGENIS is open source, [free to download](https://www.molgenis.org/get.html) and to install yourself. You can also purchase a MOLGENIS [instance as a service from ready for use from the Genomics Coordination Centrer (GCC)](https://www.molgenis.org/get.html#hosting-and-support), which is the main developer of MOLGENIS. GCC can also provide you with support on entering and managing your data-model on the servers.
+MOLGENIS is open source, [free to download](https://www.molgenis.org/get.html) and to install yourself. You can also purchase a MOLGENIS [instance as a service ready to use from the Genomics Coordination Centrer (GCC)](https://www.molgenis.org/get.html#hosting-and-support), which is the main developer of MOLGENIS. GCC can also provide you with support on entering and managing your data-model on the servers.
 
 
 
