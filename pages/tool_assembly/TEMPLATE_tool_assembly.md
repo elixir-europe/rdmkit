@@ -24,14 +24,14 @@ In the event that you describe a domain specific tool assembly and no adequate D
 
 <!--- In this section you should provide a brief overview of the tool assembly, mentioning and putting into context the challenges that are particularly solved by the tool assembly and define potential users  --->
 
+<!---If need be, you can create a separate section to organise information e.g. a section titled "Who can use the TOOL ASSEMBLY?" can be used to define potential users--->
 
-## section 1 title
- 
 ### What can you use the TOOL ASSEMBLY for?
 <!--- Sections within Tool Assembly pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should be used to describe the potential usage of the tool and the tool assembly --->
 
+### How to access the TOOL ASSEMBLY?
 
-<!--- ## Section 2 Title --->
+<!--- ## Section Title --->
 <!--- Add more sections as needed. --->
 ...
 
