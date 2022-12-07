@@ -4,7 +4,7 @@ contributors: [Guy Cochrane, Marianna Ventouratou, Nadim Rahman, Sam Holt]
 page_id: covid-19
 affiliations: [ELIXIR CONVERGE]
 related_pages:
-  your_tasks: [sensitive, existing_data, data_publication]
+  your_tasks: [sensitive, existing_data, data_publication, data_analysis]
   your_domain: [human_data]
 description: The COVID-19 Data Portal brings together relevant datasets for sharing and analysis to accelerate coronavirus research.
 
@@ -27,7 +27,7 @@ Researchers benefit the COVID-19 Data Portal in a host of ways, including:
 
 ## What are the components for the COVID-19 Data Portal?
 
-The following reusable components will be of value to data stewards:
+The COVID-19 Data Portal contains reusable components that will be of value to data stewards, including:
 - [discovery API](https://www.covid19dataportal.org/api-documentation) with documented COVID-19 index points across data and literature resources covered by the COVID-19 Data Portal;
 - [options for membership](https://www.covid19dataportal.org/partners) of the network of national COVID-19 Data Portals, currently comprising some 8 partners;
 - open source web application to [establish a national COVID-19 Data Portal](https://github.com/ScilifelabDataCentre/covid-portal), courtesy of ELIXIR Sweden. 
