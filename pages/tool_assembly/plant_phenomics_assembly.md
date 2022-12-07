@@ -2,10 +2,10 @@
 title: Plant Phenomics
 contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Bert Droesbeke, Matthias Lange, Daniel Arend, Daniel Faria, Isabelle Alic, Philippe Rocca-Serra, Sebastian Beier, Erwan Le Floch]
 description: Tool assembly for managing plant phenomic data.
-page_id: plant pheno assembly
+page_id: plant_pheno_assembly
 affiliations:
 related_pages: 
-  your_tasks: [metadata, data publication]
+  your_tasks: [metadata, data_publication]
   your_domain: [plants]
 training:
   - name: MIAPPE training in TeSS

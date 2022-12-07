@@ -21,8 +21,8 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data manager, researcher]
-      your_tasks: [DMP]
+      your_role: [data_manager, researcher]
+      your_tasks: [dmp]
     url: https://open-science.it/
 
 ---

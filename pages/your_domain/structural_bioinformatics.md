@@ -2,7 +2,7 @@
 title: Structural Bioinformatics
 description: Data management solutions for structural bioinformatics data
 contributors: [Gerardo Tauriello, Ian Sillitoe, Nicola Bordin, Christine Orengo, Mihaly Varadi, Sameer Velankar, Jiří Černý]
-page_id: struct bioinfo
+page_id: struct_bioinfo
 related_pages: 
   your_tasks: []
   tool_assembly: []

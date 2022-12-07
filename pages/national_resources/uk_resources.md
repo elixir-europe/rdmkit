@@ -11,8 +11,8 @@ national_resources:
     how_to_access:
     instance_of: DMPRoadmap
     related_pages:
-      your_role: [data manager, researcher]
-      your_tasks: [DMP]
+      your_role: [data_manager, researcher]
+      your_tasks: [dmp]
     url: https://dmponline.dcc.ac.uk/
     
   - name: CyVerse UK
@@ -20,7 +20,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: https://cyverseuk.org/
     
@@ -29,7 +29,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: https://www.jisc.ac.uk/guides/rdm-toolkit 
     
@@ -38,7 +38,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
     
@@ -47,7 +47,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: http://intermine.org/
 

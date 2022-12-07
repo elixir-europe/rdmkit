@@ -2,7 +2,7 @@
 title: Analysing
 page_id: analyse
 related_pages: 
-  your_tasks: [data analysis, data organisation, storage, data provenance]
+  your_tasks: [data_analysis, data_organisation, storage, data_provenance]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 description: How to manage the data analysis stage
 training:

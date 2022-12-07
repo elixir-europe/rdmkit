@@ -4,7 +4,7 @@ page_id: reuse
 description: Introduction to data reuse
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 related_pages: 
-  your_tasks: [data analysis, transfer, existing data, identifiers, licensing]
+  your_tasks: [data_analysis, transfer, existing_data, identifiers, licensing]
 training:
   - name: Training in TeSS
     registry: TeSS

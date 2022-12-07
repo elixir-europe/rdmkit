@@ -4,7 +4,7 @@ page_id: share
 description: Introduction to data sharing
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
 related_pages: 
-  your_tasks: [data protection, data brokering, data publication, transfer, identifiers, licensing, metadata, sensitive, storage]
+  your_tasks: [data_protection, data_brokering, data_publication, transfer, identifiers, licensing, metadata, sensitive, storage]
 training:
   - name: Training in TeSS
     registry: TeSS

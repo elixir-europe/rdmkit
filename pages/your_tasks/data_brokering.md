@@ -2,7 +2,7 @@
 title: Data brokering
 contributors: [Aitana Neves, Parul Tewatia, Wolmar Nyberg Åkerström, Carla Cummins, Nils Peder Willassen, Nazeefa Fatima]
 description: Information on brokering data to data repositories on behalf of data producers
-page_id: data brokering
+page_id: data_brokering
 training:
   - name: Training in TeSS
     registry: TeSS

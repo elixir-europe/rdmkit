@@ -1,10 +1,10 @@
 ---
 title: XNAT-PIC
 contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo, Silvio Aime]
-page_id: XNAT-PIC
+page_id: xnat-pic
 affiliations: [Euro BioImaging, IT]
 related_pages: 
-  your_tasks: [data organisation, storage, data analysis]
+  your_tasks: [data_organisation, storage, data_analysis]
   your_domain: []
 description: XNAT for Preclinical Imaging Centers (XNAT-PIC) is a of set of tools to store, process and share preclinical imaging studies built on top of the XNAT imaging informatics platform.
 training:

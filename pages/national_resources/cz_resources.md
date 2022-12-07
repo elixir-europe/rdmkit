@@ -36,7 +36,7 @@ national_resources:
       tool_assembly: []
       your_domain: [plant]
       your_role: [researcher]
-      your_tasks: [data analysis]
+      your_tasks: [data_analysis]
     url: https://galaxy.metacentrum.cz/
     registry:
       biotools: repeat_explorer
@@ -46,8 +46,8 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data manager, IT support]
-      your_tasks: [data analysis, storage]
+      your_role: [data_manager, it_support]
+      your_tasks: [data_analysis, storage]
     url: https://www.e-infra.cz/en
   - name: ownCloud@CESNET
     description: CESNET-hosted ownCloud is a 100 GB cloud storage freely available for Czech scientists to manage their data from any research projects 
@@ -56,8 +56,8 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, IT support]
-      your_tasks: [storage, data transfer, data organisation]
+      your_role: [researcher, it_support]
+      your_tasks: [storage, data_transfer, data_organisation]
     url: https://du.cesnet.cz/en/navody/owncloud/start/
   - name: Czech National Repository
     description: National Repository (NR) is a service provided to the scientific and research communities in the Czech Republic to store their generated research data together with persistent DOI identifier. NR service is currently under the pilot program. 
@@ -66,8 +66,8 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, data manager, IT support]
-      your_tasks: [storage, existing data, identifiers, DMP]
+      your_role: [researcher, data_manager, it_support]
+      your_tasks: [storage, existing_data, identifiers, dmp]
     url: https://data.narodni-repozitar.cz/
 
 ---

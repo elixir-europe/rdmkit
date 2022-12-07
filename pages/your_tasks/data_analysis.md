@@ -2,9 +2,9 @@
 title: Data analysis
 contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
 description: How to make data analysis FAIR
-page_id: data analysis
+page_id: data_analysis
 related_pages:
-  tool_assembly: [NeLS, XNAT-PIC, transmed, ome, galaxy]
+  tool_assembly: [nels, xnat-pic, transmed, ome, galaxy]
 training:
   - name: Training in TeSS
     registry: TeSS
