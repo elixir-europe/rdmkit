@@ -38,7 +38,7 @@ Reusing existing data implies checking the necessary conditions for reuse are me
 * Check under which terms and conditions the data is shared. Make sure that there is a licence, and that the licence gives you permission to do what you intend to.
 * Check whether there is sufficient metadata to enable data reuse. Some types of data can be straightforward to reuse (e.g. genome data), while other may require extensive metadata to interpret and reuse (e.g. gene expression experiment data).
 * Assess the quality of the data. 
-  * Evaluate if the data comes from a trusted source and if it curated. 
+  * Evaluate if the data comes from a trusted source and if it is curated. 
   * Check if the data adheres to a standard.
 * Verify that the data has been ethically collected and that your reuse of the data conforms with policies and regulations you are expected to follow. For personal (sensitive) data, there are usually legal and technical requirements that have to be met before data can be accessed. Getting access to personal (sensitive) data will therefore involve additional steps.
 * If the data you are reusing has been updated, make sure to document which version of the data you are using. Also consider what impact the changes may have on your results.
