@@ -36,13 +36,13 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 
 ### Considerations
 * Are you working with established plant varieties, namely crop plants?
-  * Can you trace their provenance to a genebank accession ?
-  * Are they identified in a germplasm database with an accession number ?
+  * Can you trace their provenance to a genebank accession?
+  * Are they identified in a germplasm database with an accession number?
 * Are you working with crosses of established plant varieties?
   * Can you trace the genealogy of the crosses to plant varieties from a genebank or identified in a germplasm database?
-* Are you working with experimental material ?
-  * Can you trace a genealogy to other material ?
-  * How do you unambiguously identify your material ?
+* Are you working with experimental material?
+  * Can you trace a genealogy to other material?
+  * How do you unambiguously identify your material?
 
 ### Solutions
 
@@ -83,9 +83,9 @@ For researchers, it is highly desirable that the datasets collected in different
 It is recommended that metadata collection is contemplated from the start of the experiment and that the working environment facilitates (meta)data collection, storage, and validation throughout the project. In field studies, it is critical to record the geographical coordinates and time of the experiment, for linkage with geo-climatic data. For all study types (fields, growth chamber or greenhouse), the environmental conditions that were measured should be described in detail.
 
 ### Considerations
-* Did you collect the metadata for the identification of your plant material according to the recommendation provided in the [above section](#plant-biological-materials-metadata-collection-and-sharing) ?
+* Did you collect the metadata for the identification of your plant material according to the recommendation provided in the [above section](#plant-biological-materials-metadata-collection-and-sharing)?
 * Have you documented your phenotyping and environment assays (i.e. measurement or computation methodology based on the trait, method, scale triplet) both for direct measures (data collection) and computed data (after data processing or analysis)?
-  * Is there an existing [Crop Ontology](https://www.cropontology.org) for the species you experiment and does it describe your assay? If not, have you described your data following the trait, method, scale triplet ? 
+  * Is there an existing [Crop Ontology](https://www.cropontology.org) for the species you experiment and does it describe your assay? If not, have you described your data following the trait, method, scale triplet? 
 * Do you have your own system to collect data and is it compliant with the [MIAPPE](https://www.miappe.org/) standard?
 * Are you exchanging data with individual researchers?
   * In what media is data being collected?
@@ -124,9 +124,9 @@ It is recommended that metadata collection is contemplated from the start of the
 Here are described the mandatory, recommended and optional metadata fields for data interoperability and re-use, as well as for data deposition in EVA (European Variation Archive), the EMBL-EBI's open-access genetic variation archive connected to [BioSamples](https://www.ebi.ac.uk/biosamples/), described [above](#plant-biological-materials-metadata-collection-and-sharing).
 
 ### Considerations
-* Did you collect the metadata for the identification of your plant samples according to the recommendations provided in the [above section](#plant-biological-materials-metadata-collection-and-sharing) ?
-* Is the reference genome assembly available in an [INSDC](https://www.insdc.org/) archive and has GCF / GCA accession number ?
-* Is the analytic approach used for creating the VCF file available in a publication and has a DOI ?
+* Did you collect the metadata for the identification of your plant samples according to the recommendations provided in the [above section](#plant-biological-materials-metadata-collection-and-sharing)?
+* Is the reference genome assembly available in an [INSDC](https://www.insdc.org/) archive and has GCF / GCA accession number?
+* Is the analytic approach used for creating the VCF file available in a publication and has a DOI?
 
 ### Solutions
 
