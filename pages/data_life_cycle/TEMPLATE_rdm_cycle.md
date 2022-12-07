@@ -22,4 +22,4 @@ Short explanation of why people should do / be aware of this stage. Advantages a
 
 ## What should be considered for "data + stage name"? <!-- edit this heading (e.g. what should be considered for data analysis?) and write your text below it -->
 List and explain all aspects that need to be taken into account to manage this "stage" according to best practices and FAIR principles.
-* Bullet point considerations
+* [Bullet point](style_guide#text) considerations
