@@ -49,9 +49,8 @@ For research on human data, you must follow established research ethical guideli
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
       - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
       - _**Note that the content of an informed consent, as defined by one piece of legislation, might not live up to the demands of another piece of legislation.**_ For example, an informed consent that is good enough for an ethical permit, might not be good enough for the demands of the GDPR.
-  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/).
-    - [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing)
-* Personal data protection legislation
+  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing).
+* Personal data protection legislation:
   * **Within the EU.** If you are performing human data research in the EU, or your data subjects are located in the EU, then you must adhere to the General Data Protection Regulation - GDPR.
     * Requirements for research that fall under the GDPR are outlined in the [RDMkit Data protection page](data_protection). 
     * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit sensitive data page](sensitive_data) provides guidance on determining and reducing data sensitivity.
@@ -96,6 +95,7 @@ For human data, it is very important to use technical and procedural measures to
     - Norway - [TSD Tools Assembly](tsd_assembly)
     - Sweden - [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
     - Spain - [MareNostrum](https://www.bsc.es/marenostrum/access-to-supercomputing-resources)
+    - Luxembourg - [TransMed Tools Assembly](transmed)
   - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on datasets that do not leave the place where they are stored.
     - The GA4GH is developing standards for this in their [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
 * Data quality. When processing human data, data quality is a very important aspect to consider because it can influence the results of the research. Especially in the healthcare sector, some of the data that is used for research was not collected for research purposes, and therefore it is not guaranteed to have sufficient quality. Check the [RDMkit Data Quality page](data_quality) to learn more about how to assess the quality of health data.
