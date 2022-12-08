@@ -71,7 +71,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
   * [e!DAL](https://edal.ipk-gatersleben.de/)
   * [Zenodo](https://zenodo.org/)
   * [Biostudies](https://www.ebi.ac.uk/biostudies/)
-  * [FAIRDOMhub](https://fairdomhub.org/)
+  * [FAIRDOMHub](https://fairdomhub.org/)
 
 ## Phenotyping: (meta)data collection and publication
 
