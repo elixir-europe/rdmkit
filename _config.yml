@@ -26,6 +26,7 @@ theme_variables:
 
 exclude:
   - README.md
+  - vendor
 
 defaults:
   -
