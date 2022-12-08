@@ -28,7 +28,7 @@ Another particularity of this domain is the absence of central deposition databa
 ## Plant biological materials: (meta)data collection and sharing
 
 ### Description
-Plant genetic studies such as genomic-based prediction of phenotypes requires the integration of genomic and phenotypic data with data about their environment. While phenotypic and environmental data are typically stored together in phenotyping databases, genomic and other types of molecular data are typically deposited in international deposition databases, for example, those of the [INSDC global consortium](http://www.insdc.org/).
+Plant genetic studies such as genomic-based prediction of phenotypes requires the integration of genomic and phenotypic data with data about their environment. While phenotypic and environmental data are typically stored together in phenotyping databases, genomic and other types of molecular data are typically deposited in international deposition databases, for example, those of the [International Nucleotide Sequence Database Collaboration INSDC global consortium](http://www.insdc.org/).
 
 It can be challenging to integrate phenotypic and molecular data even within a single project, particularly if the project involves studying a panel of genetic resources in different conditions. It is paramount to maintain the link between the plant material in the field, the samples extracted from them (e.g. at different development stages), and the results of omics experiments (e.g. transcriptomics, metabolomics) performed on those samples, across all datasets that will be generated and published.
 
@@ -53,7 +53,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 * The identification and description of plant materials should comply with the standard for the identification of plant genetic resources, The [Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/)(MCPD).
   * If you are studying experimental plant materials that cannot be traced to an existing genebank or germplasm database, you should describe them in accordance with the MCPD in as much detail as possible.
   * If your plant materials can be traced to an existing genebank or germplasm database, you need only to cross reference to the MCPD information already published in the genebank or germplasm database. 
-  * The minimal fields from MCPD are listed in the Biological Material section of the MIAPPE metadata standard.
+  * The minimal fields from MCPD are listed in the Biological Material section of the Minimum Information About Plant Phenotyping Experiments (MIAPPE) metadata standard.
   * For wild plants and accessions from tree collections, precise identification often requires the GPS coordinates of the tree. MIAPPE provides the necessary fields.
 
 #### Tools for (meta)data collection
@@ -71,7 +71,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
   * [e!DAL](https://edal.ipk-gatersleben.de/)
   * [Zenodo](https://zenodo.org/)
   * [Biostudies](https://www.ebi.ac.uk/biostudies/)
-  * [Fairdomhub](https://fairdomhub.org/)
+  * [FAIRDOMhub](https://fairdomhub.org/)
 
 ## Phenotyping: (meta)data collection and publication
 
@@ -91,7 +91,7 @@ It is recommended that metadata collection is contemplated from the start of the
   * In what media is data being collected?
   * Is the data described in a [MIAPPE](https://www.miappe.org/)-compliant manner?
 * Are you exchanging data across different data management platforms?
-  * Do these platforms implement [BrAPI](https://brapi.org/)?
+  * Do these platforms implement the [Breeding API (BrAPI)](https://brapi.org/) specification?
   * If not, are they MIAPPE-compliant and do they enable automated data exchange?
 
 ### Solutions
@@ -103,20 +103,20 @@ It is recommended that metadata collection is contemplated from the start of the
   * There is a section describing the type of experiment (greenhouse, field, etc…) and it is advisable to collect the location (geographical coordinates) and time where it was performed for linkage with geo-climatic data. 
   * Other sections include description of investigations, studies, people involved, data files, environmental parameters, experimental factors, events, observed variables.
 * Tools and resources for data collection and management:
-  * [Fairdom-SEEK](https://seek4science.org/) is a free data management platform for which MIAPPE templates are in development.
+  * [FAIRDOM-SEEK](https://seek4science.org/) is a free data management platform for which MIAPPE templates are in development.
   * [Dataverse](https://dataverse.org/) is a free data management platform for which MIAPPE templates are in development. It is used in several repositories such as [Data INRAE](https://data.inrae.fr/).
   * [e!DAL](https://edal.ipk-gatersleben.de/) is a free data management platform for which MIAPPE templates are in development.
   * The [ISA-Tools](https://isa-tools.org/) also include a configuration for MIAPPE and can be used both for filling-in metadata and for validating.
-  * [COPO](https://copo-project.org/) is a data management platform specific for the plant sciences.
+  * [Collaborative Open Plant Omics (COPO)](https://copo-project.org/) is a data management platform specific for the plant sciences.
   * [FAIRsharing](https://fairsharing.org) is a manually curated registry of reporting guidelines, vocabularies, identifier scheme, models, formats, repositories, knowledge bases, and data policies that includes many resources relevant for managing plant phenotyping data.
 * Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a [Breeding API](https://brapi.org/) (BrAPI) [compliant repository](https://www.brapi.org/servers).
 * If you or your partners collect data manually, it is critical to adopt a spreadsheet template that is compatible with the structure of the database that will be used for data deposition.
   * If the database is MIAPPE compliant, you can use the [MIAPPE-compliant spreadsheet template](https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx).
-  * This template could make use of tools for handling ontology annotations in a spreadsheet, such as [Rightfield](https://rightfield.org.uk/) or [OntoMaton](https://github.com/ISA-tools/OntoMaton).   
+  * This template could make use of tools for handling ontology annotations in a spreadsheet, such as [RightField](https://rightfield.org.uk/) or [OntoMaton](https://github.com/ISA-tools/OntoMaton).   
 * If you or your partners collect data into data management platforms:
   * If it implements BrAPI, you can exchange data using BrAPI calls.
   * If it doesn’t implement BrAPI, the simplest solution would be to export data into the MIAPPE spreadsheet template, or another formally defined data template.
-* For data deposition, it is highly recommended that you opt for one of the many [repositories that implement BrAPI](https://www.brapi.org/servers), as they enhance findability through the ELIXIR plant data discovery service, [FAIDARE](https://urgi.versailles.inrae.fr/faidare/), enable machine actionable access to MIAPPE compliant data and validation of that compliance.
+* For data deposition, it is highly recommended that you opt for one of the many [repositories that implement BrAPI](https://www.brapi.org/servers), as they enhance findability through the ELIXIR plant data discovery service, [FAIR Data-finder for Agronomic Research (FAIDARE)](https://urgi.versailles.inrae.fr/faidare/), enable machine actionable access to MIAPPE compliant data and validation of that compliance.
 
 ## Genotyping: (meta)data collection and publication
 
@@ -125,8 +125,8 @@ Here are described the mandatory, recommended and optional metadata fields for d
 
 ### Considerations
 * Did you collect the metadata for the identification of your plant samples according to the recommendations provided in the [above section](#plant-biological-materials-metadata-collection-and-sharing)?
-* Is the reference genome assembly available in an [INSDC](https://www.insdc.org/) archive and has GCF / GCA accession number?
-* Is the analytic approach used for creating the VCF file available in a publication and has a DOI?
+* Is the reference genome assembly available in an [INSDC](https://www.insdc.org/) archive and has a Genome Collections Accession number, either GCA or GCF?
+* Is the analytic approach used for creating the VCF file available in a publication and has a Digital Object Identifier (DOI)?
 
 ### Solutions
 
