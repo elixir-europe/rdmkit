@@ -1,7 +1,7 @@
 ---
 title: Data protection
 contributors: [Pinar Alper]
-description: How to make research data compliant to GDPR
+description: How to make research data compliant to GDPR.
 page_id: data_protection
 related_pages: 
   tool_assembly: [tsd, transmed]
