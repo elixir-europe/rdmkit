@@ -65,7 +65,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 
 #### (Meta)Data sharing and publication
 * For identifying samples from which molecular data was produced, the [BioSamples](https://www.ebi.ac.uk/biosamples/) database is recommended as a provider of international unique identifiers. 
-  * The [Plant-miappe.JSon](https://www.ebi.ac.uk/biosamples/schemas/certification/plant-miappe.json) model provided by BioSample is aligned with all recommendations provided above for plant identification and is therefore recommended for your sample submission.
+  * The [plant-miappe.json](https://www.ebi.ac.uk/biosamples/schemas/certification/plant-miappe.json) model provided by BioSample is aligned with all recommendations provided above for plant identification and is therefore recommended for your sample submission.
 * It is also recommended that you provide permanent access to a description of the project or study, that contains links to all the data, molecular or phenotypic. Several databases are recommended for this purpose including:
   * [Data INRAE](https://data.inrae.fr/)
   * [e!DAL](https://edal.ipk-gatersleben.de/)
