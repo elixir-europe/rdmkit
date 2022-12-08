@@ -4,7 +4,9 @@ install:
 
 .PHONY: dev
 dev:
-	JEKYLL_ENV=development bundle exec jekyll serve --livereload --incremental
+	GITHUB_BRANCH=$$(git rev-parse --abbrev-ref HEAD) \
+	JEKYLL_ENV=development \
+	bundle exec jekyll serve --livereload --incremental
 
 .PHONY: build
 build:
