@@ -25,7 +25,7 @@ Data preservation consists of a series of activities necessary to ensure safety,
 * Ensure that data is organised and described with appropriate metadata and documentation to be always understandable and reusable.
 
 
-## Why is data preserving important?
+## Why is data preservation important?
 
 There are several important reasons to preserve research data.
 * Guarantee that your data can be verified and reproduced for several years after the end of the project.
