@@ -49,7 +49,7 @@ However, a number of web-based DMP tools are currently available that greatly fa
 * Use the tool suggested by your funding agency or institution.
 * Choose one of the following online DMP tools (ordered alphabetically):
   * [Data Stewardship Wizard (DSW)](https://ds-wizard.org): publicly available open-source tool to collaboratively compose data management plans through smart and customisable questionnaires with FAIRness evaluation.
-  * [DAMAP](https://damap.org/)): tool for machine actionable Data Management Plans.
+  * [DAMAP](https://damap.org/): tool for machine actionable Data Management Plans.
   * [DMP Canvas Generator](https://dmp.vital-it.ch): this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
   * [DMPonline](https://dmponline.dcc.ac.uk): tool widely used in Europe and many universities or institutes provide a DMPonline instance to researchers.
   * [DMPTool](https://dmptool.org): widely used tool and many universities or institutes provide a DMPTool instance to researchers.
