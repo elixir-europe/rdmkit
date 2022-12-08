@@ -8,6 +8,7 @@ layout: none
 {% include head.html %}
 
 <body>
+    {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <div class="landingpage">
         <section class="container mb-5">
