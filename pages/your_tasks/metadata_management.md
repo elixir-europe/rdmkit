@@ -1,7 +1,7 @@
 ---
 title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
-description: How to document and describe your data
+description: How to document and describe your data.
 page_id: metadata
 related_pages:
   tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly]

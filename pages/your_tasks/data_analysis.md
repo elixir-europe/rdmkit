@@ -1,7 +1,7 @@
 ---
 title: Data analysis
 contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
-description: How to make data analysis FAIR
+description: How to make data analysis FAIR.
 page_id: data_analysis
 related_pages:
   tool_assembly: [nels, xnat-pic, transmed, ome, galaxy]

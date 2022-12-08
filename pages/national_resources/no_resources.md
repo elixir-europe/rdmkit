@@ -36,7 +36,7 @@ national_resources:
       your_tasks: [dmp]
     url: https://elixir-no.ds-wizard.org/
   - name: EasyDMP
-    description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/)
+    description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
     instance_of: EasyDMP
     how_to_access: Feide
     related_pages:
@@ -74,13 +74,13 @@ national_resources:
       tool_assembly: [nels]
     url: https://usegalaxy.no
   - name: NeLS
-    description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data
+    description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data.
     how_to_access: Everyone with funding from a Norwegian funder or a project at one of the health regions or universities can get access through Feide or upon application for collaborators.
     related_pages:
       tool_assembly: [nels, marine_assembly]
     url: https://nels.bioinfo.no
   - name: NIRD
-    description: The National Infrastructure for Research Data (NIRD) infrastructure offers storage services, archiving services, and processing capacity for computing on the stored data. It offers services and capacities to any scientific discipline that requires access to advanced, large-scale, or high-end resources for storing, processing, publishing research data or searching digital databases and collections. This service is owned and operatedby [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/)
+    description: The National Infrastructure for Research Data (NIRD) infrastructure offers storage services, archiving services, and processing capacity for computing on the stored data. It offers services and capacities to any scientific discipline that requires access to advanced, large-scale, or high-end resources for storing, processing, publishing research data or searching digital databases and collections. This service is owned and operatedby [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
     how_to_access: A formal application is required to gain access to the storage services.
     related_pages:
       your_tasks: [transfer, storage]
@@ -145,7 +145,7 @@ national_resources:
       your_role: []
     url: https://dataverse.no/  
   - name: openscience.no
-    description: general information about open research, especially open access and guidance for researchers and institutions
+    description: General information about open research, especially open access and guidance for researchers and institutions.
     url: https://www.openscience.no/
     
 ref_to_main_resources:

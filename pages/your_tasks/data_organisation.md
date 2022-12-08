@@ -1,7 +1,7 @@
 ---
 title: Data organisation
 contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
-description: Best practices to name and organise research data
+description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
   tool_assembly: [ome, transmed, xnat-pic]
