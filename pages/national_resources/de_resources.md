@@ -17,19 +17,19 @@ national_resources:
       your_tasks: [dmp]
     url: https://www.gfbio.org/plan
   - name: GHGA
-    description: The German Human Genome-Phenome Archive
+    description: The German Human Genome-Phenome Archive.
     related_pages:
       your_tasks: [storage, metadata]
       your_role: [researcher, data_manager]
     url: https://ghga.dkfz.de/
   - name: PUBLISSO
-    description: Open access publishing platform for life sciences
+    description: Open access publishing platform for life sciences.
     related_pages:
       your_tasks: [data_publication]
       your_role: [researcher, data_manager]
     url: https://www.publisso.de/en/
   - name: RDMO
-    description: Research Data Management Organiser
+    description: Research Data Management Organiser.
     related_pages:
       your_tasks: [dmp]
     url: https://rdmorganiser.github.io/
