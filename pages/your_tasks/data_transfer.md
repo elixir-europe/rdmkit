@@ -1,7 +1,7 @@
 ---
 title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi] 
-description: How to transfer data files
+description: How to transfer data files.
 page_id: transfer
 related_pages: 
     tool_assembly: []
@@ -27,7 +27,7 @@ faircookbook:
 
 ### Description
 
-Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. So, how can large data files be transferred from a local computer to a distant one?
+Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. Moreover, some data cannot be sent by email because its sensitive nature. So, how can large data files be transferred from a local computer to a distant one?
 
 ### Considerations
 
@@ -35,8 +35,8 @@ There are many aspects to consider when dealing with data transfer.
 
 * The **size or volume** of the data and the **capacity or bandwidth of the network** that links your local computer with the distant computer are crucial aspects. Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services.
 
-* Ensure that you are aware of the **legal and ethical implications** of your data transfer
-    * For data concerning  persons, you have to safeguard compliance with various legal and ethical frameworks, including the GDPR. You might have to establish a **data processing** or **joint data controller** agreement before you can transfer the data.  We highly recommend you to check the [Human Data](human_data) pages of the RDMkit.
+* You need to be aware of the **legal and ethical implications** of your data transfer.
+    * For personal data, you have to ensure compliance with various legal and ethical frameworks, including the GDPR. You might have to establish a **data processing** or **joint data controller** agreement before you can transfer the data.  We highly recommend you to check the [Human data](human_data) pages of the RDMkit.
     * For data relevant for later patenting or other types of commercialization you  might want to establish a **non-disclosure** or other type of agreement with the other party to protect your interest.
     * You might also have to consider other laws and regulations, for instance regarding **biosecurity** of data affecting pathogens or other aspects of potential **dual-use**.
     * The technical protocol you choose for your data transfer should meet your requirement for **data security** resulting these implications. You can interact with the IT departments at both locations in order to establish your strategy.
@@ -44,14 +44,17 @@ There are many aspects to consider when dealing with data transfer.
 
 * If you have the technical skills and knowledge, consider using appropriate File Transfer Protocols.
 
-* Consider using Cloud Storage Services (see Data Storage page), that provide data sharing solutions, or specialised data transfer services available in your institute or country.
+* Consider using Cloud Storage Services (see Data storage page), that provide data sharing solutions, or specialised data transfer services available in your institute or country.
 
 * Consider pros and cons of transferring data by shipping hard disks through carrier services (time, costs, security). This is not a recommended method, unless good internet connection is not available.
+
+* During the transfer some data might become corrupted. Thus, it is important to check if the files you transferred have conserved their integrity. This can be done with hash algorithms. A checksum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
 
 * Since data transfer involves so many technical aspects, it is a good idea to interact with your technical/IT team in order to avoid any problem if you want to transfer large amounts of data.
 
 ### Solutions
 
+Preferable transfer channel depends on the volume of your data and number of files. However, there are several general approaches to help you with the task. 
 * Try to optimise and ease your data transfer by archiving your data in a single file. This can be done with two tools available on most systems.
     * tar (tape archive) will create an archive, a single file containing several files or directories.
     * gzip: since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive.
@@ -73,20 +76,15 @@ There are many aspects to consider when dealing with data transfer.
 * If you have the technical skills and the knowledge, you can use the most common data transfer protocols. These protocols are useful for data volume **larger than 50GB or for hundreds of data files**.
     * Applications suitable for small to mid size data available on any operating system and that can be used either through command-line (directly or with tools like [cURL](https://curl.se)) or through a graphical interface, are:
         * FTP (File Transfer Protocol) will transfer files between a client and an FTP server, which will require an account in order to transfer the files.
-        * Be sure to use a **secure** version of this protocol, such as FTPS or SFTP (SSH File Transfer Protocol). 
-        * HTTP (HyperText Transfer Protocol)
-        * Rsync (remote synchronization): can be used to transfer files between two computers and to keep the files synchronized between these two computers.
-        * SCP (secure copy protocol): SCP will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication.  
+        * Be sure to use a **secure** version of this protocol, such as FTPS or SFTP (SSH File Transfer Protocol). A possible tool with graphical interface is [FileZilla](https://filezilla-project.org).
+        * HTTP (HyperText Transfer Protocol).
+        * Rsync (remote synchronization) can be used to transfer files between two computers and to keep the files synchronized between these two computers.
+        * SCP (secure copy protocol) will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication. A possible tool with graphical interface is [WinSCP](https://winscp.net/eng/index.php).
 
-    * For massive amounts of data, additional protocols have been developed, parallelizing the flow of data. These transfer solutions require commercial licences for your site and as such they are available mostly on large computational centres.
-        * [Aspera Fasp](https://www.ibm.com/products/aspera)
-        * GridFTP and [Globus](https://www.globus.org)
+    * For massive amounts of data, additional protocols have been developed, parallelizing the flow of data. These transfer solutions require specific tools and as such they are available mostly on large computational centres.
+        * FASP protocol implemented in [IBM Aspera tool](https://www.ibm.com/products/aspera).
+        * GridFTP protocol used by [Globus tool](https://www.globus.org).
 
-    * Data Transfer tools with a graphical user interface are:  
-        * [FileZilla](https://filezilla-project.org)
-        * [WinSCP](https://winscp.net/eng/index.php)
-
-
-* When using data transfer protocol, make sure to check the transfer. During the transfer some data might become corrupted, thus it is important to check if the files you transferred have conserved their integrity. This can be done with hash algorithms. A checksum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
-    * md5
-    * SHA
+* Several algorithms can be used for checksum calculation.
+  * MD5 checksums can be generated and verified in command line of all operational systems or throught tools with graphical interface, e.g. [MD5Summer](http://www.md5summer.org/) for Windows.
+  * SHA-2 set is more secured but slower than MD5. SHA checksums can also be generated and verified in command line of all operational systems.
