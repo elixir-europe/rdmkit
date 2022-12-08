@@ -26,11 +26,11 @@ faircookbook:
 
 ### Description
 
-Where scientific research involves the processing of data concerning people in the EU, it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
+Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
 derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
 The safeguards are a multitude and include:
-  * data collection with informed consent under ethical oversight and accountability,
-  * ensuring lawful processing and exchange of human-subject information,
+  * data collection with informed consent under ethical oversight and accountability;
+  * ensuring lawful processing and exchange of human-subject information;
   * putting in place organisational and technical data protection measures such as encryption and pseudonymisation.
 
 The practical impact of the GDPR on research is, then, establishing these safeguards within projects.
@@ -51,20 +51,20 @@ Assess your project under the GDPR.
      * An outcome of the DPIA will be a listing of risks and corresponding mitigations. Mitigations identify the data protection measures you'll adopt, both technical organisational.       
 
 Apply technical and organisational measures for data protection. These include:
-  * Institutional policies and codes of conduct,
-  * Staff training,
-  * User authentication, authorisation, data level access control,
-  * Data privacy measures such as pseudonymisation, anonymisation and encryption,
-  * Arrangements that will enable data subjects to exercise their rights.
+  * institutional policies and codes of conduct;
+  * staff training;
+  * user authentication, authorisation, data level access control;
+  * data privacy measures such as pseudonymisation, anonymisation and encryption,
+  * arrangements that will enable data subjects to exercise their rights.
 
 Record your data processing. To meet  GDPR's accountability requirement you should maintain records on the following:
-  * Project stakeholders and their GDPR roles (controller, processor),
-  * Purpose of your data processing,
-  * Description of data subjects and the data,
-  * Description of data recipients, particularly those outside the EU,
-  * Logs of data transfers to recipients and the safeguards put in place for transfers, such as data sharing agreements,
-  * Time limits for keeping different categories of personal data,
-  * Description of organizational and technical data protection measures.
+  * project stakeholders and their GDPR roles (controller, processor);
+  * purpose of your data processing;
+  * description of data subjects and the data;
+  * description of data recipients, particularly those outside the EU;
+  * logs of data transfers to recipients and the safeguards put in place for transfers, such as data sharing agreements;
+  * time limits for keeping different categories of personal data;
+  * description of organizational and technical data protection measures.
 
 ### Solution
 
