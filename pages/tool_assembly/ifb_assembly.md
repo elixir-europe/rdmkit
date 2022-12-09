@@ -42,7 +42,7 @@ The way you can access the IFB depends on the type of resources (for instance, c
 
 ### Data management planning
 
-IFB recommends [DMP-OPIDoR](https://dmp.opidor.fr) or [DSW](https://ds-wizard.org) as tools for writing a Data Management Plan (DMP).
+IFB recommends [DMP-OPIDoR](https://dmp.opidor.fr) or [DSW](https://dsw.france-bioinformatique.fr) as tools for writing a Data Management Plan (DMP).
 
 - DMP-OPIDoR is hosted and maintained at Inist-CNRS and is tailored to meet the needs of many French academic institutes. You will find many DMP templates, in French and/or English, created by funders and academic institutes. A dedicated team offers training and support for DMP templates and DMPs. They can be reached [via this contact form](https://dmp.opidor.fr/contact-us).
 The machine actionable version of DMP-OPIDoR allows the production of structured standardized DMP content. It enables the integration of information from funding agencies such as the French National Agency (ANR), and also integration and interactions with computing infrastructures provided by IFB and Genci, the organization in charge of the three supercomputing centres in France. 
