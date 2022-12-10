@@ -1,6 +1,6 @@
 ---
 title: Data transfer
-contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi] 
+contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi, Marina Popleteeva, Nazeefa Fatima] 
 description: How to transfer data files.
 page_id: transfer
 related_pages: 
@@ -27,7 +27,7 @@ faircookbook:
 
 ### Description
 
-Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. Moreover, some data cannot be sent by email because its sensitive nature. So, how can large data files be transferred from a local computer to a distant one?
+Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. Moreover, some data cannot be sent by email due to its sensitive nature. So, how can large data files be transferred from a local computer to a distant one?
 
 ### Considerations
 
@@ -36,7 +36,7 @@ There are many aspects to consider when dealing with data transfer.
 * The **size or volume** of the data and the **capacity or bandwidth of the network** that links your local computer with the distant computer are crucial aspects. Data size and bandwidth are tightly linked since transferring large volumes of data on a low bandwidth network will be so time consuming that it could be simpler to send the data on a hard drive through carrier services.
 
 * You need to be aware of the **legal and ethical implications** of your data transfer.
-    * For personal data, you have to ensure compliance with various legal and ethical frameworks, including the GDPR. You might have to establish a **data processing** or **joint data controller** agreement before you can transfer the data.  We highly recommend you to check the [Human data](human_data) pages of the RDMkit.
+    * For personal data, you have to ensure compliance with various legal and ethical frameworks, including the GDPR. You might have to establish a **data processing** or **joint data controller** agreement before you can transfer the data.  We highly recommend you to check the [human data](human_data) pages of the RDMkit.
     * For data relevant for later patenting or other types of commercialization you  might want to establish a **non-disclosure** or other type of agreement with the other party to protect your interest.
     * You might also have to consider other laws and regulations, for instance regarding **biosecurity** of data affecting pathogens or other aspects of potential **dual-use**.
     * The technical protocol you choose for your data transfer should meet your requirement for **data security** resulting these implications. You can interact with the IT departments at both locations in order to establish your strategy.
@@ -44,13 +44,13 @@ There are many aspects to consider when dealing with data transfer.
 
 * If you have the technical skills and knowledge, consider using appropriate File Transfer Protocols.
 
-* Consider using Cloud Storage Services (see Data storage page), that provide data sharing solutions, or specialised data transfer services available in your institute or country.
+* Consider using Cloud Storage Services (see [Data storage page](storage)), that provide data sharing solutions, or specialised data transfer services available in your institute or country.
 
 * Consider pros and cons of transferring data by shipping hard disks through carrier services (time, costs, security). This is not a recommended method, unless good internet connection is not available.
 
-* During the transfer some data might become corrupted. Thus, it is important to check if the files you transferred have conserved their integrity. This can be done with hash algorithms. A checksum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, the files are not corrupted.
+* During a transfer, some data might become corrupted. Thus, it is important to check if the files you transferred have conserved their integrity. This can be done with hash algorithms. A checksum file is calculated for each file before transfer and compared to a checksum calculated on the transferred files. If the checksums are the same, then the files are not corrupted.
 
-* Since data transfer involves so many technical aspects, it is a good idea to interact with your technical/IT team in order to avoid any problem if you want to transfer large amounts of data.
+* Since data transfer involves so many technical aspects, it is a good idea to interact with your technical/IT team in order to avoid any problem if you want to transfer a large amount of data.
 
 ### Solutions
 
@@ -60,8 +60,8 @@ Preferable transfer channel depends on the volume of your data and number of fil
     * gzip: since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive.
 
 * Ask the IT team of your institution or organisation about available services for data transfer. Usually, for **small data volume or limited number of files** universities and professional organisations can provide:
-    * Secure server- or cloud-based applications where you should store work-related data files, synchronize files from different computers and share files by sending a link for access or download. This solution is ideal in case of a small number of files, since files need to be downloaded one by one and this can be inconvenient. Examples of these kinds of applications are NextCloud, Box, ownCloud (see Data storage page).
-    * Access to Office 365 (Software as a Service, or SaaS) which include cloud storage on OneDrive and SharePoint for collaborations and files sharing. You can “transfer” your data with these services by generating and sending a link for access or download of specific files.
+    * Secure server- or cloud-based applications where you should store work-related data files, synchronize files from different computers and share files by sending a link for access or download. This solution is ideal in case of a small number of files, since files need to be downloaded one by one and this can be inconvenient. Examples of these kinds of applications are NextCloud, Box, ownCloud (see [Data storage page](storage)).
+    * Access to Office 365 (Software as a Service, or SaaS) that includes cloud storage on OneDrive, and SharePoint for collaborations and files sharing - you can “transfer” your data with these services by generating and sending a link for access or download of specific files.
 
 * Usually, universities and institutions strongly **discourage** the use of personal accounts on Google Drive, Amazon Drive, Dropbox and similar, to share and transfer work related data, and especially sensitive or personal data. Moreover, it is not allowed to store human data in clouds which are not hosted in the EU.
 
@@ -71,7 +71,7 @@ Preferable transfer channel depends on the volume of your data and number of fil
 
 * If you are considering transferring data from or to cloud-based services (Microsoft Azure or Amazon S3) by shipping hard disks through carrier services, it is useful to know that services such as Amazon Snowball and Azure Data Box Disk will help you with the shipping of hard disks or appliances through carrier services.
 
-* Countries could provide national file sender services (browser based or other) which could be useful for one time transfer of data files, limited in number and volume (for instance, up to 100 GB or 250 GB), from person to person. Importantly, an academic account is usually needed to use these kinds of services, so ask the IT team in your institute for more information.
+* Countries could provide national file sender services (browser based or other) which could be useful for one time transfer of data files, limited in number and volume (for instance, up to 100 GB or 250 GB), from person to person. Importantly, an academic account is usually needed to use these kinds of services, therefore contact the IT team in your institute for more information.
 
 * If you have the technical skills and the knowledge, you can use the most common data transfer protocols. These protocols are useful for data volume **larger than 50GB or for hundreds of data files**.
     * Applications suitable for small to mid size data available on any operating system and that can be used either through command-line (directly or with tools like [cURL](https://curl.se)) or through a graphical interface, are:
@@ -86,5 +86,5 @@ Preferable transfer channel depends on the volume of your data and number of fil
         * GridFTP protocol used by [Globus tool](https://www.globus.org).
 
 * Several algorithms can be used for checksum calculation.
-  * MD5 checksums can be generated and verified in command line of all operational systems or throught tools with graphical interface, e.g. [MD5Summer](http://www.md5summer.org/) for Windows.
+  * MD5 checksums can be generated and verified in command line of all operational systems or throught tools with a graphical interface, e.g. [MD5Summer](http://www.md5summer.org/) for Windows.
   * SHA-2 set is more secured but slower than MD5. SHA checksums can also be generated and verified in command line of all operational systems.
