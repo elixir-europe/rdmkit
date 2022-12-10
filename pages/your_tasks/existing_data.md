@@ -4,7 +4,7 @@ contributors: [Rob Hooft, Flora D'Anna, Pinar Alper, Yvonne Kallberg, Karel Berk
 page_id: existing_data
 related_pages:
     tool_assembly: []
-description: How to find and reuse existing data
+description: How to find and reuse existing data.
 dsw:
 - name: Is there any pre-existing data?
   uuid: efc80cc8-8318-4f8c-acb7-dc1c60e491c1
