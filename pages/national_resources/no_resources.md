@@ -148,7 +148,7 @@ national_resources:
     description: general information about open research, especially open access and guidance for researchers and institutions
     url: https://www.openscience.no/
   - name: Nettskjema
-    description: Nettskjema is a solution for designing and managing data collections using online forms and surveys. It can be used for collecting sensitive data and offers a high degree of security and privacy.
+    description: Nettskjema is a solution for designing and managing data collections using online forms and surveys. It can be used for collecting sensitive data and offers a high degree of security and privacy.
     how_to_access: Feide, TSD, or via ID-porten upon application.
     related_pages:
       your_tasks: [sensitive]
