@@ -49,7 +49,6 @@ jobs:
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           PAGES_REPO_NWO: ${{ github.repository }}
-          GITHUB_BRANCH: ${{ github.ref_name }}
           JEKYLL_ENV: ${{ steps.name.outputs.jekyll_env }}
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
