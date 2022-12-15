@@ -39,7 +39,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       * This is item 1 of the list.
       * This is item 2 of the list.
       * This is item 3 of the list.
-  * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
+  * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "*et al.*" for more than five authors.
     * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016).

@@ -21,7 +21,7 @@ dsw:
 Data preservation consists of a series of activities necessary to ensure safety, integrity and accessibility of data for as long as necessary, even decades. Data preservation is indeed more than just data storage and backup, since data can be stored and backed up without being preserved. Data preservation prevents data from becoming unavailable and unusable over time through appropriate activities, such as:
 * Ensure data safety and integrity.
 * Change the file format (format migration) and update software to make sure that they do not become outdated or obsolete.
-* Change hardware and other storage media (such as paper, magnetic tape, etc) to avoid degradation.
+* Change hardware and other storage media (such as paper, magnetic tape, etc.) to avoid degradation.
 * Ensure that data is organised and described with appropriate metadata and documentation to be always understandable and reusable.
 
 

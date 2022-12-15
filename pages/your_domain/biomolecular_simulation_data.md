@@ -25,7 +25,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 ### Considerations
 * What type of data do you have?
   * Molecular dynamics data - by far the most typical and largest biomolecular simulation data. Each molecular dynamics simulation is driven by the used engine, force-field, and multiple other and often hidden simulation parameters to produce trajectories that are further analysed.
-  * Molecular docking data - docking provides the structures of the complex (e.g. ligand-protein, protein-protein, protein-nucleic acid, etc) and its score/energy.
+  * Molecular docking data - docking provides the structures of the complex (e.g. ligand-protein, protein-protein, protein-nucleic acid, etc.) and its score/energy.
   * Virtual screening data - virtual screening is used for selection of active compounds from the pool of others and is usually in the form of ID and its score/energy.
   * Free energies and other analysis data - data calculable from the analysis of the simulations.
 

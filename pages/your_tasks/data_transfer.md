@@ -27,7 +27,7 @@ faircookbook:
 
 ### Description
 
-Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. So, how can large data files be transferred from a local computer to a distant one?
+Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc.). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. So, how can large data files be transferred from a local computer to a distant one?
 
 ### Considerations
 

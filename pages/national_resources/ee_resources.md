@@ -41,7 +41,7 @@ The Estonian government has released an [“Estonian Research and Development, I
 * [Republic of Estonia Education and Youth Board](https://harno.ee/en)
 
 ## Relevant initiatives
-<!--- Ethical and legal regulations in the country, committees etc; we mostly don't have these, we will add different organisations dealing with data management in Estonia --->
+<!--- Ethical and legal regulations in the country, committees etc.; we mostly don't have these, we will add different organisations dealing with data management in Estonia --->
 
 ### Organisations
 * [Estonian Research Council](https://etag.ee/en/activities/open-science/) open science policies, surveys and documentation.
