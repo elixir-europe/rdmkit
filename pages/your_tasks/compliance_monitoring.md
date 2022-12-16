@@ -24,10 +24,10 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 
 ### Considerations
 
-* Are you being asked to describe information security and data protection arrangements for a project DMP and you find yourself repeating similar descriptions across DMPs of projects.
+* Are you being asked to describe information security and data protection arrangements for a project DMP and you find yourself repeating similar descriptions across DMPs of projects?
   *  Contact your institution's Data Protection Officer (DPO) and Chief Information Security Officer (CISO). They may be able to provide you with a standard description of data protection and information security measures for institutional data platforms.
   *  Inquire whether the platforms you will use for your project's data management have an information security or data privacy certification.
-* Are you providing a data service, such as data hosting, curation or archival and want to document and assess your service's capabilities.  
+* Are you providing a data service, such as data hosting, curation or archival and want to document and assess your service's capabilities? 
   *  Consider measuring the FAIR maturity of your services and the FAIRness of your data assets using community adopted standard metrics.
 
 
