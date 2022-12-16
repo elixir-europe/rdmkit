@@ -23,7 +23,7 @@ Most national and European funders of (multi-partner) projects now require [Data
 * What information regarding data management is needed at different phases (preparation, submission, execution, wrap up, reporting to the funders) in the project needs to be decided in advance.
 * There is a need to understand the institutional landscape in terms of legal requirements, data policies, IT services, and so on, that are essential to carry out the project. They might vary among individual institutions involved in the project consortium:
   * Not every institution has a centralised IT department to support data management; often data management is carried out by the group itself without help from the IT department.
-  * Legal and ethical requirements, data policies, etc. can be very different or even not be in place in some institutions.
+  * Legal and ethical requirements, data policies, etc., can be very different or even not be in place in some institutions.
 * Data management strategies and the types of data generated can change during the project.
 
 

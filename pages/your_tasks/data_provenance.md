@@ -26,7 +26,7 @@ However, knowing what’s the best way to document provenance can be challenging
 ### Considerations
 
 - Provence is part of [documentation and metadata](metadata_management).
-- Many aspects of data documentation and metadata are related to provenance information, such as history log, versioning, licence, citation, identifiers, etc. Moreover, data provenance is related to several other aspects of data management, namely data access rights, governance, privacy and security.
+- Many aspects of data documentation and metadata are related to provenance information, such as history log, versioning, licence, citation, identifiers, etc., Moreover, data provenance is related to several other aspects of data management, namely data access rights, governance, privacy and security.
 - Provence information can be recorded:
     - as free text and unstructured information (mainly readable for humans, not for machines/software), describing data collection and processing method.
     - according to metadata schemas or standards, that can be generic (e.g. Dublin Core) or discipline specific such as [ISO19115-2](https://www.iso.org/standard/67039.html).
