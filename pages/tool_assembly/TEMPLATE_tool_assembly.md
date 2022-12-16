@@ -20,7 +20,7 @@ training:
 <!--- Tool Assembly pages should detail a particular data management tool assembly which covers one more life cycle stages from an infrastructural or domain perspective. For an example for an infrastructural example, please see: https://github.com/elixir-europe/rdmkit/blob/master/pages/tool_assembly/nels_assembly.md 
 In the event that you describe a domain specific tool assembly and no adequate Domain page exists, consider first contributing to create one or raising a GitHub issue.  --->
 
-## Introduction 
+## What is the TOOL ASSEMBLY?
 
 <!--- In this section you should provide a brief overview of the tool assembly, mentioning and putting into context the challenges that are particularly solved by the tool assembly and define potential users  --->
 
