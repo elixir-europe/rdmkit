@@ -58,12 +58,12 @@ The most suitable repository will depend on the data type and your discipline.
   * The [licence](licensing) that should be applied to your metadata and data.
 * Check if/what discipline-specific repositories can apply the necessary access conditions and licences to your (meta)data.
 * Discipline-specific repositories: if a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
-  * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) will help you choose a suitable repository based on your data type.
+  * The {% tool "embl-ebis-data-submission-wizard" %} will help you choose a suitable repository based on your data type.
   * Lists of discipline-specific, community-recognised repositories can be found in the following links:
-    * [ELIXIR Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases).
+    * {% tool "elixir-deposition-databases-for-biomolecular-data" %}
     * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories).
 * General-purpose and institutional repositories: For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [general-purpose repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your institution or university.
-* [re3data.org](https://www.re3data.org) or [Repository Finder](https://repositoryfinder.datacite.org) gathers information about existing repositories and allows you to filter them based on access and licence types.
+* [re3data.org](https://www.re3data.org) or {% tool "repository-finder" %} gathers information about existing repositories and allows you to filter them based on access and licence types.
 * [re3data.org](https://www.re3data.org) and [FAIRsharing](https://fairsharing.org) websites gather features of repositories, which you can filter by discipline, data type, taxonomy and many other features.
 
 ## How do you prepare your data for publication in data repositories?
