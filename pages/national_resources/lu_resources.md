@@ -35,35 +35,35 @@ ref_to_main_resources:
 national_resources: 
 
 - name: DSW ELIXIR-LU
-    description: This training instance of Data Steward Wizard (DSW) has several national DMP templates.
-    how_to_access: registration
-    instance_of: Data Stewardship Wizard
-    related_pages:
-      your_tasks: [DMP]
-    url: https://learning.ds-wizard.org/dashboard
+  description: This training instance of Data Steward Wizard (DSW) has several national DMP templates.
+  how_to_access: registration
+  instance_of: Data Stewardship Wizard
+  related_pages:
+    your_tasks: [DMP]
+  url: https://learning.ds-wizard.org/dashboard
 
 - name: DPMOnline ELIXIR-LU
-    description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
-    how_to_access: registration
-    instance_of: DMPRoadmap
-    related_pages:
-      your_tasks: [DMP]
-    url: https://dmponline.elixir-luxembourg.org/
+  description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
+  how_to_access: registration
+  instance_of: DMPRoadmap
+  related_pages:
+    your_tasks: [DMP]
+  url: https://dmponline.elixir-luxembourg.org/
 
- - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
-    related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-    url:
-    registry:
-      biotools: <!--- DELETE ME if not needed --->
-      fairsharing: <!--- DELETE ME if not needed --->
-      tess: <!--- DELETE ME if not needed --->
+- name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
+  description:
+  how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
+  instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+  related_pages:
+    tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+    your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
+    your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
+    your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+  url:
+  registry:
+    biotools: <!--- DELETE ME if not needed --->
+    fairsharing: <!--- DELETE ME if not needed --->
+    tess: <!--- DELETE ME if not needed --->
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
