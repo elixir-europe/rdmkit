@@ -20,7 +20,7 @@ Many datasets could exist that you can reuse for your project. Even if you know 
 
 * When the outputs of a project are to be published, the methodology of selecting a source dataset will be subjected to peer review. Following community best practice for data discovery and documenting your method will help you later in reviews.
 
-* List the characteristics of the datasets you are looking for, e.g. format, availability, coverage, etc., This enables you to formulate the search terms. Please see [Gregory K. et al. Eleven quick tips for finding research data. PLoS Comput Biol 14(4): e1006038 (2018)](https://doi.org/10.1371/journal.pcbi.1006038) for more information.
+* List the characteristics of the datasets you are looking for, e.g. format, availability, coverage, etc. This enables you to formulate the search terms. Please see [Gregory K. et al. Eleven quick tips for finding research data. PLoS Comput Biol 14(4): e1006038 (2018)](https://doi.org/10.1371/journal.pcbi.1006038) for more information.
 
 
 ### Solutions
