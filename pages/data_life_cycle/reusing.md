@@ -1,7 +1,7 @@
 ---
 title: Reusing
 page_id: reuse
-description: Introduction to data reuse
+description: Introduction to data reuse.
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
 related_pages: 
   your_tasks: [data_analysis, transfer, existing_data, identifiers, licensing, data_provenance, data_quality]
