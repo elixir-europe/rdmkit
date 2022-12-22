@@ -1,10 +1,10 @@
 ---
 title: Preserving
 page_id: preserve
-description: Introduction to data preservation
+description: Introduction to data preservation.
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
 related_pages: 
-  your_tasks: [data organisation, data protection, data publication, transfer, metadata, storage]
+  your_tasks: [data_organisation, data_protection, data_publication, transfer, metadata, storage]
 training:
   - name: Training in TeSS
     registry: TeSS

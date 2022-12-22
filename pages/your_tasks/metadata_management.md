@@ -1,10 +1,10 @@
 ---
 title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
-description: How to document and describe your data
+description: How to document and describe your data.
 page_id: metadata
 related_pages:
-  tool_assembly: [NeLS, transmed, plant geno assembly, marine assembly]
+  tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly]
 dsw:
 - name: Will the metadata be available even when the data no longer exists?
   uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd

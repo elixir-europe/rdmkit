@@ -1,11 +1,11 @@
 ---
 title: Bioimaging data
-description: Data management solutions for bioimaging data
+description: Data management solutions for bioimaging data.
 contributors: [Sébastien Besson, Jean-Marie Burel, Susanne Kunis, Josh Moore, Stefanie Weidtkamp-Peters]
-page_id: bioimaging data
+page_id: bioimaging_data
 related_pages: 
-  your_tasks: [DMP, data organisation, data publication, existing data, transfer, licensing, metadata, storage]
-  tool_assembly: [ome, XNAT-PIC]
+  your_tasks: [dmp, data_organisation, data_publication, existing_data, transfer, licensing, metadata, storage]
+  tool_assembly: [ome, xnat-pic]
 training:
   - name: RDMbites for using REMBI
     registry: TeSS

@@ -14,7 +14,7 @@ national_resources:
       tool_assembly:
       your_domain:
       your_role: [researcher]
-      your_tasks: [data analysis]
+      your_tasks: [data_analysis]
     url: https://galaxy.hpc.ut.ee/
 
   - name: REDCap Estonia
@@ -24,8 +24,8 @@ national_resources:
     related_pages:
       tool_assembly:
       your_domain:
-      your_role: [data manager]
-      your_tasks: [data quality]
+      your_role: [data_manager]
+      your_tasks: [data_quality]
     url: https://redcap.ut.ee/
 ---
 

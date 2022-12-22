@@ -1,10 +1,10 @@
 ---
 title: "Data Steward: infrastructure"
-description: Data Steward with focus on tools (software) and IT infrastructure for data management
+description: Data Steward with focus on tools (software) and IT infrastructure for data management.
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
-page_id: IT support
+page_id: it_support
 related_pages: 
-  your_tasks: [data analysis, data protection, data brokering, transfer, identifiers, storage, data organisation, machine actionability, DM coordination, data provenance]
+  your_tasks: [data_analysis, data_protection, data_brokering, transfer, identifiers, storage, data_organisation, machine_actionability, dm_coordination, data_provenance]
 training:
   - name: TeSS - ELIXIR’s training portal
     registry: TeSS

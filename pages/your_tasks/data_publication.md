@@ -1,8 +1,8 @@
 ---
 title: Data publication
 contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins]
-description: Prepare data and find repositories for publication
-page_id: data publication
+description: Prepare data and find repositories for publication.
+page_id: data_publication
 related_pages: 
     tool_assembly: []
 faircookbook:

@@ -1,10 +1,10 @@
 ---
 title: Sensitive data
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
-description: How to identify different research data types
+description: How to identify the sensitivity of different research data types
 page_id: sensitive
 related_pages: 
-  tool_assembly: [TSD, Covid-19, transmed]
+  tool_assembly: [tsd, covid-19, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
