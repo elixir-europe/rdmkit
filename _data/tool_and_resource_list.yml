@@ -2393,6 +2393,8 @@
     interface to weave together narrative text and code to produce elegantly formatted
     output. Use multiple languages including R, Python, and SQL.
   name: R Markdown
+  registry:
+    tess: R Markdown
   related_pages:
   - data_analysis
   - researcher
