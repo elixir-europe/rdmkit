@@ -4,7 +4,7 @@ page_id: analyse
 related_pages: 
   your_tasks: [data_analysis, data_organisation, storage, data_provenance]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
-description: Introduction to data analysis
+description: Introduction to data analysis.
 training:
   - name: Training in TeSS
     registry: TeSS

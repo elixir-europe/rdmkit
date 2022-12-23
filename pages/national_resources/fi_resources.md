@@ -13,7 +13,7 @@ national_resources:
       your_tasks: [data_analysis]
     url: https://chipster.csc.fi/
   - name: DMPTuuli
-    description: Data management planning tool (Finland)
+    description: Data management planning tool (Finland).
     instance_of: DMPRoadmap
     how_to_access: 
     related_pages:
@@ -61,7 +61,7 @@ national_resources:
       your_domain: [human_data]
     url: https://site.fingenious.fi/en/
   - name: Sensitive Data Services for Research
-    description: CSC Sensitive Data Services for Research are designed to support secure sensitive data management through web-user interfaces accessible from the user's own computer
+    description: CSC Sensitive Data Services for Research are designed to support secure sensitive data management through web-user interfaces accessible from the user's own computer.
     instance_of: 
     how_to_access: 
     related_pages:
