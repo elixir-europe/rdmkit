@@ -1,6 +1,6 @@
 ---
 title: Rare disease data
-description: Data management solutions for rare disease data
+description: Data management solutions for rare disease data.
 contributors: [Philip van Damme, Nirupama Benis, César Bernabé, Shuxin Zhang, Alberto Camara Ballesteros, Bruna Dos Santos Vieira, Munazah Andrabi]
 page_id: rare_disease
 related_pages: 
@@ -23,9 +23,9 @@ The [European Rare Disease Registry Infrastructure](https://eu-rd-platform.jrc.e
 When going through the process of making a rare disease registry more FAIR, and building a team of people to do so, it is considered good practice to follow the so called ‘three-party collaboration’ setup for interdisciplinary teams. 
 
 Essential roles include:
-*   FAIRification steward (embedded in a group that has experience with making data FAIR and semantic data modelling).
+* FAIRification steward (embedded in a group that has experience with making data FAIR and semantic data modelling).
 *	Local steward (expert of local data management).
-*	Software engineer responsible for the software that manages the data (we recommend avoiding vendor lock-in).
+*	Software engineer responsible for the software that manages the data (it is recommended to avoid vendor lock-in as much as possible).
 
 Recommended additional roles:
 *	Project manager (highly recommended organizer role).
