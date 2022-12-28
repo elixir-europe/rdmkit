@@ -229,6 +229,7 @@ with open(table_path, 'r') as read_obj:
                     output = unicodedata.normalize("NFKD", cell).strip()
                 if output:
                     tool[header[col_index]] = output
+            tool['id'] = re.sub("[\(\[].*?[\)\]]", "", tool['name']).strip().replace(" ", "-").lower()
             main_list.append(tool)
             print(f"{row_index}. {tool['name']} is parsed.")
 
