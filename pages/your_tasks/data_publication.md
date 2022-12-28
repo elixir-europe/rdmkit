@@ -1,7 +1,7 @@
 ---
 title: Data publication
 contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins]
-description: Prepare data and find repositories for publication.
+description: How to prepare data and find repositories for publication.
 page_id: data_publication
 related_pages: 
     tool_assembly: []
@@ -58,12 +58,12 @@ The most suitable repository will depend on the data type and your discipline.
   * The [licence](licensing) that should be applied to your metadata and data.
 * Check if/what discipline-specific repositories can apply the necessary access conditions and licences to your (meta)data.
 * Discipline-specific repositories: if a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
-  * The {% tool "embl-ebis-data-submission-wizard" %} will help you choose a suitable repository based on your data type.
-  * Lists of discipline-specific, community-recognised repositories can be found in the following links:
-    * {% tool "elixir-deposition-databases-for-biomolecular-data" %}
-    * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories).
+  * The [EMBL-EBI's data submission wizard](https://www.ebi.ac.uk/submission/) can help you choose a suitable repository based on your data type.
+  * There are lists of discipline-specific, community-recognised repositories e.g.:
+   * [ELIXIR Deposition Databases](https://elixir-europe.org/platforms/data/elixir-deposition-databases)
+   * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories)
 * General-purpose and institutional repositories: For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [general-purpose repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your institution or university.
-* [re3data.org](https://www.re3data.org) or {% tool "repository-finder" %} gathers information about existing repositories and allows you to filter them based on access and licence types.
+* [re3data.org](https://www.re3data.org) or [Repository Finder](https://repositoryfinder.datacite.org) gather information about existing repositories and allows you to filter them based on access and licence types.
 * [re3data.org](https://www.re3data.org) and [FAIRsharing](https://fairsharing.org) websites gather features of repositories, which you can filter by discipline, data type, taxonomy and many other features.
 
 ## How do you prepare your data for publication in data repositories?
@@ -82,15 +82,15 @@ Once you have decided where to publish your data, you will have to make your (me
 
 ### Solutions
   * Learn the following information about the chosen repositories:
-    * Required metadata schemes.
-    * Required ontologies or controlled vocabularies.
-    * Accepted file formats for data and metadata.
-    * Costs for sharing and storing data.
+    * Required metadata schemes
+    * Required ontologies or controlled vocabularies
+    * Accepted file formats for data and metadata
+    * Costs for sharing and storing data
   * Repositories generally have information about data formats, metadata requirements and how data can be uploaded under a section called "submit", "submit data", "for submitters" or something similar. Read this section in detail.
   * To ascertain re-usability data should be released with a clear and accessible data usage [licence](licensing). We suggest making your data available under licences that permit free reuse of data, e.g. a Creative Commons licence, such as CC0 or CC-BY. 
-    * Note that every repository can have one default licence for all datasets. For instance, sequence data submitted to for example [ENA](https://www.ebi.ac.uk/ena/browser/home) are implicitly free to reuse by others as specified in the [INSDC standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
-  * See the corresponding page for more detailed information about [metadata](metadata_management), [licences](licensing) and [data transfer](data_transfer).
-  * There are many tools available to remove human reads from your non-human data, e.g. Metagen-FastQC https://github.com/alakob/Metagen-FastQC-Docker
+    * Note that every repository can have one default licence for all datasets. For instance, sequence data submitted to for example European Nucleotide Archive [ENA](https://www.ebi.ac.uk/ena/browser/home) are implicitly free to reuse by others as specified in the [INSDC standards and policies](https://www.ebi.ac.uk/ena/browser/about/policies).
+  * See the corresponding pages for more detailed information about [metadata](metadata_management), [licences](licensing) and [data transfer](data_transfer).
+  * There are many tools available to remove human reads from your non-human data, e.g. [Metagen-FastQC](https://github.com/alakob/Metagen-FastQC-Docker)
 
 ## How do you update or delete a published entry from a data repository?
 
@@ -103,4 +103,4 @@ You will sometimes need to update or delete some entries that were incomplete or
 * Does the repository have a test-server where data can be submitted for testing purpose?
 
 ### Solutions
-Solutions are very much repository-dependent. For example, on the ENA, entries can be easily updated using a CLI. However, the updated information is not automatically redistributed to other registries linked to ENA. Upon email request, entries may also be suppressed from public view. Note that ENA also has a test server to make test submissions before submitting to the actual production server, which can be very useful when sending large batches of data to test for any systematic errors. Please check these points with your repository of choice.
+Solutions are very much repository-dependent. For example, on the [ENA](https://www.ebi.ac.uk/ena/browser/home), entries can be easily updated using a CLI. However, the updated information is not automatically redistributed to other registries linked to ENA. Upon email request, entries may also be suppressed from public view. Note that ENA also has a test server to make test submissions before submitting to the actual production server, which can be very useful when sending large batches of data to test for any systematic errors. Please check these points with your repository of choice.
