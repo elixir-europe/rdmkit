@@ -646,6 +646,8 @@
 - description: A Python tool to encrypt, decrypt or re-encrypt files, according to
     the GA4GH encryption file format.
   name: Crypt4GH
+  registry:
+    tess: Crypt4GH
   related_pages:
   - human_data
   url: https://crypt4gh.readthedocs.io/en/latest/
