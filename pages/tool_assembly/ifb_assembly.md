@@ -76,7 +76,7 @@ IFB infrastructure can also help you with bioinformatics analysis of your data. 
 
 ### Data sharing and publishing
 
-It is good practice to [publish](data_publication) your data on repositories. IFB encourages researchers to browse the list of [ELIXIR deposition databases for biomolecular data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) to find the appropriate repository. 
+It is good practice to [publish](data_publication) your data on repositories. IFB encourages researchers to browse the list of {% tool "elixir-deposition-databases-for-biomolecular-data" %} to find the appropriate repository. 
 
 The french scientific community benefit from [Recherche.Data.Gouv](https://recherche.data.gouv.fr/en) a national Dataverse repository. This repository is associated with [thematic reference centres](https://recherche.data.gouv.fr/en/page/thematic-reference-centers-providing-expertise-for-individual-scientific-fields) and data management clusters. IFB is the reference centre for Life Science. 
 

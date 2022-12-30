@@ -50,7 +50,7 @@ Once the project is awarded, the data management plan needs to be executed throu
 * Some data management challenges may not have been foreseen at the pre-award stage.
 * Possible difficulties during the execution of the DMP by individual partners may arise. Not all partners have the same skills and resources.
 * Possible problems with data exchange between partners can resurface during the project. 
-* Consider contacting and establishing collaborations for depositing data with key repositories, e.g. setting up an [ENA Compare Data Hub](https://github.com/nadimm-rahman/ena-datahub-setup)for depositing sequence data at the European Nucleotide Archive.
+* Consider contacting and establishing collaborations for depositing data with key repositories, e.g. setting up an {% tool "ena-compare-data-hubs" %} for depositing sequence data at the {% tool "european-nucleotide-archive" %}.
 
 ### Solutions 
 * The DMWG should have regular meetings to find appropriate solutions to arising data management issues.

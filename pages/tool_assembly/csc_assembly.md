@@ -62,7 +62,7 @@ This summer, CSC will be releasing beta versions of new services for sensitive d
 
 
 ### Data sharing and publishing
-It is recommended to [publish](data_publication) data in data specific repositories. You can find many options from [ELIXIR Deposition Databases for Biomolecular data web page](https://elixir-europe.org/platforms/data/elixir-deposition-databases). Furthermore, CSC and ELIXIR-FI will offer Federated EGA for sensitive human biomedical data that is linked to the central European Genome-phenome Archive and the SD Submit at the end of 2021. 
+It is recommended to [publish](data_publication) data in data specific repositories. You can find many options from {% tool "elixir-deposition-databases-for-biomolecular-data" %}. Furthermore, CSC and ELIXIR-FI will offer Federated EGA for sensitive human biomedical data that is linked to the central European Genome-phenome Archive and the SD Submit at the end of 2021. 
 
 SD Submit allows you to publish sensitive data securely in a national repository. The service will give you the tools to describe your dataset (adding the appropriate metadata) and assign a permanent identifier (DOI). After publication, you will remain the data controller and decide according to specific policies, who can access the sensitive data for reuse. According to the GDPR, your data will remain within the Finnish borders and, at the same time, they will be accessible and discoverable according to FAIR data principles.
 

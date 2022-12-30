@@ -48,7 +48,7 @@ Ultimately, the ideal scenario is that data is captured in a standard format and
 
 Due to the interdisciplinary nature of the field, data arising from studies in microbial biotechnology relate to both computational studies, such as modelling and simulation, and the results of wet-lab based studies used for the construction and experimental characterisation of microbial systems. Given the breadth, scope and rapid development of the field of microbial biotechnology, this guide is by no means exhaustive.
 
-This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data sharing tools that can make it more complete. Sites such as [Fairsharing](https://fairsharing.org/) can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide.
+This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data sharing tools that can make it more complete. Sites such as {% tool "fairsharing" %} can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide.
 
 
 ## Design: Biological hosts - metadata, ontologies and (meta)data publication
@@ -103,7 +103,7 @@ Appropriate and detailed description of the synthetic parts design is critical f
   * [iGEM Parts Registry](http://parts.igem.org/Main_Page)
   * [The Joint BioEnergy Institute's Inventory of Composable Elements (JBEI-ICE)](https://ice.jbei.org) ([Ham et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467034/))
   * [SynBioHub](https://synbiohub.org)
-* Sequences can be isolated from standard genetic databases such as [ENA](https://www.ebi.ac.uk/ena/browser/home) and [GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
+* Sequences can be isolated from standard genetic databases such as {% tool "european-nucleotide-archive" %} and [GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
 
 #### Tools for metadata collection
 * You can manage the design stage using genetic computer aided design tools, such as [Benchling](https://benchling.com) for example, where information can be shared within small teams. [Benchling](https://benchling.com) supports a number of different data standards including FASTA, GenBank and SBOL1. 
@@ -217,7 +217,7 @@ The data arising from assays for product development is highly variable and beyo
 
 * **Flow Cytometry data.** The [International Society for the Advancement of Cytometry (ISAC)](https://isac-net.org/page/Data-Standards) provides information on a variety of appropriate data standards for capturing Flow Cytometry data (used to characterise microbial populations at a single cell level) ([Spidlen et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32881398/)).
 
-* **Nucleic acids information.** The [ENA](https://www.ebi.ac.uk/ena/browser/home), amongst others, provides guidance on the metadata for RNAseq datasets.
+* **Nucleic acids information.** The {% tool "european-nucleotide-archive" %}, amongst others, provides guidance on the metadata for RNAseq datasets.
 
 * **Proteomics.** [HUPO proteomics standards initiative](https://www.hupo.org/Proteomics-Standards-Initiative) provides a range of guidance for capturing and sharing proteomics data.
 
@@ -228,7 +228,7 @@ The data arising from assays for product development is highly variable and beyo
   * [iGEM engineering hub](https://2021.igem.org/Engineering/Introduction), which also provides some guidance for a variety of data capture protocols and standardised units.
 * **Images.** Images can be shared with the community by repositories such as the [Image Data Resource (IDR)](https://idr.openmicroscopy.org/).
 * **Nucleic acids information.** Information about nucleic acids can be shared via
-  * [ENA](https://www.ebi.ac.uk/ena/browser/home)
+  * {% tool "european-nucleotide-archive" %}
   * [GEO](https://www.ncbi.nlm.nih.gov/geo/)
   * [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/) 
 * **Proteomics.** Proteomics data can be shared via [HUPO proteomics standards initiative](https://www.hupo.org/Proteomics-Standards-Initiative).

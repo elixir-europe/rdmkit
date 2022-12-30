@@ -82,7 +82,7 @@ Below, you can find some aspects that you need to consider to be able to estimat
 * Communicate your expectations about speed and the reliability of connection between storage and compute to the IT team. This could depend on the communication protocols that the compute and storage systems use.
 * It is recommended to ask about the time span for analysis to colleagues or bioinformatic support that have done similar work before. This could save you money and time.
 * If you need some reference datasets (e.g the references genomes such as human genome.), ask IT if they provide it or consult  bioinformaticians that can set up automated public reference dataset retrieval.
-* For small data files and private projects, using the computational resources of your own laptop might be fine, but make sure to preserve the reproducibility of your work by using data analysis software such as Galaxy or R Markdown.
+* For small data files and private projects, using the computational resources of your own laptop might be fine, but make sure to preserve the reproducibility of your work by using data analysis software such as {% tool "galaxy" %} or R Markdown.
 * For small data volume and small collaborative projects, a commonly accessible Cloud Storage, such as Nextcloud (on-premises) or Owncloud might be fine. Adhere to the policies of your institute.
 * For large data volume and bigger collaborative projects, you need a large storage volume on fast hardware that is closely tied to a computational resource accessible to multiple users.
 
