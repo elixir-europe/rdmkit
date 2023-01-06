@@ -47,13 +47,13 @@ national_resources:
 
   - name: Luxembourg Covid-19 data portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  
-      related_pages:
+    related_pages:
       tool_assembly: [Covid-19]
       your_domain: [human data]
       your_tasks: [sensitive, existing data, data publication]
     url: https://covid19dataportal.lu/
 
- - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
+  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
     how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
