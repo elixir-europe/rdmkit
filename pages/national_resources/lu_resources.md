@@ -29,8 +29,7 @@ ref_to_main_resources:
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
-
-- name: learning.DSW 
+  - name: learning.DSW 
     description: A training instance of Data Steward Wizard (DSW), which has the FNR and the DPIA templates.
     how_to_access: registration
     instance_of: Data Stewardship Wizard
@@ -38,7 +37,7 @@ national_resources:
       your_tasks: [dmp]
     url: https://learning.ds-wizard.org/dashboard
 
-- name: DPMRoadmap @ ELIXIR Luxembourg
+  - name: DPMRoadmap @ ELIXIR Luxembourg
     description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
     how_to_access: registration
     instance_of: DMPRoadmap
@@ -46,7 +45,7 @@ national_resources:
       your_tasks: [dmp]
     url: https://dmponline.elixir-luxembourg.org/
 
- - name: Luxembourg Covid-19 data portal
+  - name: Luxembourg Covid-19 data portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  
       related_pages:
       tool_assembly: [Covid-19]
