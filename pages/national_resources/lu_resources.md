@@ -8,29 +8,22 @@ coordinators: [Wei Gu]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
 related_pages:
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+  tool_assembly: [transmed]
 
 training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/nodes/luxembourg
-  - name: ELIXIR Luxembourg community in Zenodo
+  - name: Materials for the ELIXIR Luxembourg course on "Best Practices in Research Data Management and Stewardship."
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-lu/
-  - name: ELIXIR NODENAME YouTube
-  - registry: Youtube
-    url: <!--- URL of the channel --->
-  - name: <!---REPLACE THIS with the name of your training in registry or platform--->
-    registry: <!---REPLACE THIS with the name of the registry--->
-    url: <!---REPLACE THIS with the url of your training registry or platform--->
+
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
   -  FAIR Cookbook
-  -  DAISY
-  -  Data Catalog
   -  COVID-19 Disease Map
-  -  <!---REPLACE THIS with the tool name--->
+
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
