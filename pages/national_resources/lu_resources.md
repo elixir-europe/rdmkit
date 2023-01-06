@@ -77,20 +77,25 @@ national_resources:
 
 ## Introduction 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
-This page provides an overview of data management resources in Luxembourg. The target audience is scientific community in life science. An overview of services provided by ELIXIR-LU can be found on [this webpage](https://elixir-luxembourg.org/services/catalog/).
+On this page you will find an overview of data management resources available for the Luxembourgish life science research community. In addition to information provided here, the reader is advised to read the [Research Luxembourg website](https://www.researchluxembourg.org/en/), which describes the Luxembourg research landscape and developments.
 
 ## Funders
-Luxembourg’s main research funding body is the [Fonds National de la Recherche (FNR)](https://www.fnr.lu/). The FNR promotes open-access to scientific publication through its [open-access fund](https://www.fnr.lu/funding-instruments/open-access-fund/). To increase the re-usability of research outputs the FNR adopt a research data management policy and expects all funded projects to prepare and implement Data Management Plans (DMP) in line with Science Europe guidelines. [Data Management Plan guiding questions](https://storage.fnr.lu/index.php/s/urQOCMeKlgXexZF) are provided in FNR grant management system.
+Luxembourg’s main research funding body is the [Fonds National de la Recherché (FNR)](https://www.fnr.lu/). The FNR promotes open-access to scientific publication through its [open-access fund](https://www.fnr.lu/funding-instruments/open-access-fund/). To increase the re-usability of research outputs the FNR adopts a [research data management policy](https://www.fnr.lu/open-science-new-fnr-policy-on-research-data-management/) and expects all funded projects to prepare and implement Data Management Plans (DMP) in line with Science Europe guidelines. [DMP guiding questions](https://storage.fnr.lu/index.php/s/urQOCMeKlgXexZF) are provided in the FNR grant management system.
 
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
 
+Luxembourg’s National Commission for Data Protection ([CNPD](https://cnpd.public.lu/en.html)), through its Open Data Protection Laboratory([DaProLab](https://cnpd.public.lu/en/actualites/national/2020/03/dapro-lab-recherche.html)), provides online guidance and information sessions on data protection for research.
+Luxembourg’s National Research Ethics Committee ([CNER](https://www.cner.lu/en-gb/Home)) provides ethical oversight and individual assessment for research projects, particularly for the collection, use and secondary use of data/samples from human subjects.
+
 ## Research infrastructures and resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
-[ELIXIR Luxembourg](https://elixir-luxembourg.org) provides resources for life science data management, with the focus areas of translational biomedicine data hosting, data protection, data FAIRification and reproducible research. 
+[The Luxembourgish node of ELIXIR](https://elixir-luxembourg.org) provides resources for life science data management, focusing on the areas of translational biomedicine data hosting, data protection, data FAIRification and reproducible research. ELIXIR Luxembourg provides the [TransMed tool assembly](transmed_assembly) to support research project with sensitive human data.
 
-Luxembourg is part of [EATRIS](https://eatris.eu/countries/luxembourg/) and provides services in translational medicine. ELIXIR Luxembourg also provides the [TransMed tool assembly](transmed_assembly) to support research project with sensitive human data.
+The Luxembourgish node of [EATRIS](https://eatris.eu/countries/luxembourg/) provides services in translational medicine.
 
-Luxembourg National Data Exchange Platform (PNED) is a government established infrastructure that provides services for the sharing and secondary use of data. PNED services are domain-agnostic, but includes lifesciences data management.  
+Luxembourg National Data Service (LDS) is a government established organisation aiming to support and stimulate value creation from data in Luxembourg. LDS provides a variety of data management and stewardship services to enable the secondary use of data. LDS services are domain-agnostic and support the life sciences as well as other domains. 
 
-[Uni.lu HPC](https://hpc.uni.lu/) and [EuroHPC MeluXina](https://luxprovide.lu/) offer high performance computing infrastructure combined with huge data storage capacity to Luxembourg public research. <!--Access: available to all research and industrial partners for the duration of joint projects. Related pages: data analysis, data storage. -->
+The Integrated BioBank of Luxembourg ([IBBL](https://www.lih.lu/en/translational-medicine/translational-medicine-operations-hub/integrated-biobank-of-luxembourg-ibbl/)) is a not-for-profit institute and the national biobanking platform hosted within the Luxembourg Institute of Health ([LIH](https://www.lih.lu/en/)). IBBL provides a full range of biobanking services to the biomedical sector including the industry, academia and EU consortia.
+
+University of Luxembourg’s High-Performance Computing Platform ([ULHPC](https://hpc.uni.lu)) and the EuroHPC  Joint Intitiative’s [MeluXina supercomputer](https://docs.lxp.lu) offer HPC capabilities for Luxembourg researchers, public sector and the industry. 
