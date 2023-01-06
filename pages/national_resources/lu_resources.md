@@ -14,7 +14,7 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/nodes/luxembourg
-  - name: Materials for the ELIXIR Luxembourg course on "Best Practices in Research Data Management and Stewardship."
+  - name: Materials for the ELIXIR Luxembourg course on \"Best Practices in Research Data Management and Stewardship.\"
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-lu/
 
@@ -23,28 +23,30 @@ training:
 ref_to_main_resources: 
   -  FAIR Cookbook
   -  COVID-19 Disease Map
-
+  -  DAISY
+  -  Data Catalog
+  -  DPIA Knowledge Model
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
 
-- name: DSW ELIXIR-LU
-    description: This training instance of Data Steward Wizard (DSW) has several national DMP templates.
+- name: learning.DSW 
+    description: A training instance of Data Steward Wizard (DSW), which has the FNR and the DPIA templates.
     how_to_access: registration
     instance_of: Data Stewardship Wizard
     related_pages:
-      your_tasks: [DMP]
+      your_tasks: [dmp]
     url: https://learning.ds-wizard.org/dashboard
 
-- name: DPMOnline ELIXIR-LU
+- name: DPMRoadmap @ ELIXIR Luxembourg
     description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
     how_to_access: registration
     instance_of: DMPRoadmap
     related_pages:
-      your_tasks: [DMP]
+      your_tasks: [dmp]
     url: https://dmponline.elixir-luxembourg.org/
 
- - name: Covid-19 data portal
+ - name: Luxembourg Covid-19 data portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  
       related_pages:
       tool_assembly: [Covid-19]
