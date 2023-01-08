@@ -85,12 +85,13 @@ Luxembourg’s main research funding body is the [Fonds National de la Recherch�
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
 
-Luxembourg’s National Commission for Data Protection ([CNPD](https://cnpd.public.lu/en.html)), through its Open Data Protection Laboratory([DaProLab](https://cnpd.public.lu/en/actualites/national/2020/03/dapro-lab-recherche.html)), provides online guidance and information sessions on data protection for research.
+Luxembourg’s National Commission for Data Protection ([CNPD](https://cnpd.public.lu/en.html)), through its Open Data Protection Laboratory ([DaProLab](https://cnpd.public.lu/en/actualites/national/2020/03/dapro-lab-recherche.html)), provides online guidance and information sessions on data protection for research.
+
 Luxembourg’s National Research Ethics Committee ([CNER](https://www.cner.lu/en-gb/Home)) provides ethical oversight and individual assessment for research projects, particularly for the collection, use and secondary use of data/samples from human subjects.
 
 ## Research infrastructures and resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
-[The Luxembourgish node of ELIXIR](https://elixir-luxembourg.org) provides resources for life science data management, focusing on the areas of translational biomedicine data hosting, data protection, data FAIRification and reproducible research. ELIXIR Luxembourg provides the [TransMed tool assembly](transmed_assembly) to support research project with sensitive human data.
+[ELIXIR Lxembourg](https://elixir-luxembourg.org) provides resources for life science data management, focusing on the areas of translational biomedicine data hosting, data protection, data FAIRification and reproducible research. ELIXIR Luxembourg provides the [TransMed tool assembly](transmed_assembly) to support research project with sensitive human data.
 
 The Luxembourgish node of [EATRIS](https://eatris.eu/countries/luxembourg/) provides services in translational medicine.
 
