@@ -3,8 +3,7 @@ title: Costs of data management
 description: Budgeting and costing for data management
 contributors: [Siiri Fuchs, Minna Ahokas, Robert Andrews, Anna Strachotova, Nazeefa Fatima]
 page_id: costs
-related_pages: 
-  your_tasks: [planning, DMP]
+related_pages:
 ---
 
 ## How to estimate the costs of data management?
@@ -13,7 +12,7 @@ related_pages:
 
 The processes of data management will incur costs. The expenses may consist of people’s time, tools and services needed for managing the research data during the whole life cycle of the project. You should estimate these costs and address the resources needed in your data management plan. 
 
-### Considerations 
+### Considerations
 
 * Budgeting and costing for your data management is often dependent upon local and temporal circumstances, institutional resources, services, and policies. You have to take into account even items such as investments (site services, infrastructure), operations (network, electricity, maintenance) and personnel costs. 
 * Note that there may be costs of data even beyond the end of the project. 
@@ -36,9 +35,9 @@ The processes of data management will incur costs. The expenses may consist of p
 #### Costs for data processing and data documentation
 * Anonymisation: Costs for anonymisation of data for controlled or public release.
 * Digitisation: Do you have paper-based or analogue data that needs to be digitised? Will you need equipment or software for this or does it require manual checking? If so, remember to budget for both equipment as well as for time consumed. 
-* Data documentation: To make your data understandable, you need to document how it has been used and what it means. You need to describe the context, methodology, creation process, what the variables & abbreviations mean as well how the data was processed and quality controlled. The better this has been done during the project the less time you will need for this at the end of the project.
-* Data cleaning: Does your data need to be cleaned, verified, checked or do you for example combine different data sets? Have you made good documentation documents about what have done, what the variables means, do you have readme-files explaining your files? Data cleaning takes time and the better you have organised your data while collecting & processing it, the less you will need time at the end of the project when sharing the data. 
-* Describing data and metadata: Consider how much work is needed to provide the necessary metadata and fill in metadata fields?
+* Data documentation: To make your data understandable, you need to document how it has been used and what it means. You need to describe the context, methodology, creation process, what the variables and abbreviations mean as well how the data was processed and quality controlled. The better this has been done during the project the less time you will need for this at the end of the project.
+* Data cleaning: Does your data need to be cleaned, verified, checked? or do you, for example, combine different data sets? Have you made good documentation documents about what have done, and do you have README files explaining your data files? Data cleaning takes time; the better you organise your data while collecting and processing it, the more time will be saved at the end of the project when it comes to sharing the data. 
+* Describing data and metadata: Consider how much work is needed to provide the necessary metadata and to fill in metadata fields.
 
 #### Costs for data storing, access control and security measures
 * Data storage and back-up: Consider costs for active data storage during the lifetime of the project, as well as archive beyond the end of the study.
@@ -46,6 +45,6 @@ The processes of data management will incur costs. The expenses may consist of p
 
 
 #### Costs for making data available (publishing/sharing) and preserving
-* Data sharing: Where do you plan to share and/ or preserve your data and are there some direct costs that the service provider charges, e.g. per € per GB /year? Remember to take into consideration that cleaning the data to a format that it can be shared as well as discovery metadata creation will take time.
+* Data sharing: Where do you plan to share and/or preserve your data and are there some direct costs that the service provider charges, e.g. per GB or per year basis? Remember to take into consideration that cleaning the data to a format that it can be shared as well as discovery of metadata creation will take time.
 * Consent for data sharing: Establish a point of contact for data access where access is controlled and consider costs for administering this.
-* File formats: Do you need to convert your data to a different (open or standard) format for sharing or preserving data and do you need additional software or hardware for this? In addition to time, software might cause costs. 
+* File formats: Do you need to convert your data to a different (open or standard) format for sharing or preserving data? and, do you need additional software or hardware for this? In addition to time, software might cause costs.
