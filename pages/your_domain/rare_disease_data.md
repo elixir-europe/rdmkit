@@ -25,8 +25,8 @@ When going through the process of making a rare disease registry more FAIR, and 
 
 Essential roles include:
 
-* FAIRification steward (embedded in a group that has experience with making data FAIR and semantic data modelling). Note: this role relates to the [Data Steward: infrastructure](https://rdmkit.elixir-europe.org/data_steward_infrastructure) role. 
-*	Local steward (expert of local data management). Note: this role relates to the [Data Steward: research](https://rdmkit.elixir-europe.org/data_steward_research) role. 
+* FAIRification steward (embedded in a group that has experience with making data FAIR and semantic data modelling). Note: this role relates to the [Data Steward: infrastructure](data_steward_infrastructure) role. 
+*	Local steward (expert of local data management). Note: this role relates to the [Data Steward: research](data_steward_research) role. 
 *	Software engineer responsible for the software that manages the data (it is recommended to avoid vendor lock-in as much as possible).
 
 Recommended additional roles:
