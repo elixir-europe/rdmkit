@@ -20,6 +20,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Datasets:** not "data sets".
   * **Email:** not "e-mail".
   * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
+  * **etc** should be avoided. Try using ‘for example’ or ‘such as’ or ‘including’ at the start of a listing. 
   * **Gender:** avoid using gender-specific words like "he" or "she".
   * **Headings:**
     * Only the first word is capitalised, unless other words are proper nouns.
