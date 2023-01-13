@@ -26,7 +26,11 @@ theme_variables:
 
 exclude:
   - README.md
+  - .gitignore
+  - var/
   - vendor
+  - Gemfile*
+  - LICENSE
 
 defaults:
   -

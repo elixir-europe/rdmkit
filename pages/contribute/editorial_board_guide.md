@@ -62,7 +62,7 @@ Add an event to the landing page by editing the `events.yml` in the `_data` dire
   startTime: '9:00'
   endDate: 2021-06-24
   endTime: 13:30 CET
-  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days)
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days).
   location: Online
 
 ```
@@ -78,7 +78,7 @@ Add a news item to the landing page by editing the `news.yml` in the `_data` dir
 - name: News title
   date: 2021-06-23
   linked_pr: 767
-  description: A short description
+  description: A short description.
 ```
 
 All attributes are mandatory.

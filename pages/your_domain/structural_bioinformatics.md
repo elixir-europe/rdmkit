@@ -1,6 +1,6 @@
 ---
 title: Structural Bioinformatics
-description: Data management solutions for structural bioinformatics data
+description: Data management solutions for structural bioinformatics data.
 contributors: [Gerardo Tauriello, Ian Sillitoe, Nicola Bordin, Christine Orengo, Mihaly Varadi, Sameer Velankar, Jiří Černý]
 page_id: struct_bioinfo
 related_pages: 
@@ -41,10 +41,10 @@ Researchers in the field should be able to find predictions of macromolecular st
 * Model coordinates are preferably stored in the standard PDB archive format [PDBx/mmCIF](https://mmcif.wwpdb.org/). While, for many purposes, the legacy PDB format may suffice to store model coordinates and is still widely used, the format is no longer being modified or extended.
 * Model quality estimates can be computed globally, per-residue, and per-residue-pair. The estimates should be computed using a relatively recent and well benchmarked tool or by the structure prediction method itself. Please check [CAMEO](https://cameo3d.org), [CASP](https://predictioncenter.org), and [CAPRI](https://www.ebi.ac.uk/pdbe/complex-pred/capri/) to find suitable quality estimators. The [3D-BioInfo Community](https://elixir-europe.org/communities/3d-bioinfo) is also currently working to further improve benchmarking for protein complexes, protein-ligand interactions, and nucleic acid structures. By convention, the main per-residue quality estimates are stored in place of B-factors in model coordinate files. In mmCIF files any number of quality estimates can be properly described and stored in the ma_qa_metric category of the PDBx/mmCIF ModelArchive Extension Dictionary described below.
 * Metadata for theoretical models of macromolecular structures should preferably be stored using the [PDBx/mmCIF ModelCIF Extension Dictionary](https://mmcif.wwpdb.org/dictionaries/mmcif_ma.dic/Index) independently of the deposition process. The extension is being developed by the [ModelCIF working group](https://wwpdb.org/task/modelcif) with input from the community. Feedback and change requests are welcome and can be given on [github](https://github.com/ihmwg/ModelCIF). The same information can also be provided manually during the deposition in ModelArchive and there is [additional documentation](https://modelarchive.org/help) on how to provide metadata and minimal requirements for it. Generally, the metadata must include:
-  * A short description of the study for which the model was generated
-  * If available, a citation to the manuscript referring to the models
-  * The source for the sequences of modelled proteins with references to databases such as [UniProtKB](https://www.uniprot.org)
-  * Modelling steps with references to available software or web services used and to manuscripts describing the method.
-  * Input data needed for the modelling steps. For instance in homology modelling this could include the [PDB](https://www.wwpdb.org/) identifiers for the template structures used for modelling and their alignments to the target protein.
-  * Model quality estimates
+  * a short description of the study for which the model was generated;
+  * if available, a citation to the manuscript referring to the models;
+  * the source for the sequences of modelled proteins with references to databases such as [UniProtKB](https://www.uniprot.org);
+  * modelling steps with references to available software or web services used and to manuscripts describing the method;
+  * input data needed for the modelling steps. For instance in homology modelling this could include the [PDB](https://www.wwpdb.org/) identifiers for the template structures used for modelling and their alignments to the target protein;
+  * model quality estimates.
 * If necessary, accompanying data can be provided in separate files using different file formats. The files can be added to ModelArchive depositions and referred to in the PDBx/mmCIF ModelArchive extension format.
