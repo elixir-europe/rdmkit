@@ -67,7 +67,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 * For identifying samples from which molecular data was produced, the [BioSamples](https://www.ebi.ac.uk/biosamples/) database is recommended as a provider of international unique identifiers. 
   * The [plant-miappe.json](https://www.ebi.ac.uk/biosamples/schemas/certification/plant-miappe.json) model provided by BioSample is aligned with all recommendations provided above for plant identification and is therefore recommended for your sample submission.
 * It is also recommended that you provide permanent access to a description of the project or study, that contains links to all the data, molecular or phenotypic. Several databases are recommended for this purpose including:
-  * [Data INRAE](https://data.inrae.fr/)
+  * [Recherche Data Gouv](https://recherche.data.gouv.fr/)
   * [e!DAL](https://edal.ipk-gatersleben.de/)
   * [Zenodo](https://zenodo.org/)
   * [Biostudies](https://www.ebi.ac.uk/biostudies/)
@@ -104,7 +104,7 @@ It is recommended that metadata collection is contemplated from the start of the
   * Other sections include description of investigations, studies, people involved, data files, environmental parameters, experimental factors, events, observed variables.
 * Tools and resources for data collection and management:
   * [FAIRDOM-SEEK](https://seek4science.org/) is a free data management platform for which MIAPPE templates are in development.
-  * [Dataverse](https://dataverse.org/) is a free data management platform for which MIAPPE templates are in development. It is used in several repositories such as [Data INRAE](https://data.inrae.fr/).
+  * [Dataverse](https://dataverse.org/) is a free data management platform for which MIAPPE templates are in development. It is used in several repositories such as [Recherche Data Gouv](https://recherche.data.gouv.fr/).
   * [e!DAL](https://edal.ipk-gatersleben.de/) is a free data management platform for which MIAPPE templates are in development.
   * The [ISA-Tools](https://isa-tools.org/) also include a configuration for MIAPPE and can be used both for filling-in metadata and for validating.
   * [Collaborative Open Plant Omics (COPO)](https://copo-project.org/) is a data management platform specific for the plant sciences.

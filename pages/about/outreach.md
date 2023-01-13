@@ -13,6 +13,11 @@ We are, since the beginning, actively spreading the word about RDMkit making sur
 
 RDMkit was presented at all hands. The presentation can be found on [f1000 research](https://f1000research.com/slides/11-737)
 
+### Q-EBRA WORKSHOP: Your next grant application - methodological approach
+
+**2022-04-27**
+
+The event involved different activities on how to write a grant application and DMP generation, including a talk about RDMkit and an eLearning session on how to use the Data Stewardship Wizard. [More information about the event](https://www.ebra.eu/news-and-events/event-report-of-q-ebra-workshop-your-next-grant-application-methodological-approach/#)
 
 ### How RDMkit works and the theme behind it - Infectious diseases toolkit introduction
 
