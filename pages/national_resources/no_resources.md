@@ -147,7 +147,13 @@ national_resources:
   - name: openscience.no
     description: General information about open research, especially open access and guidance for researchers and institutions.
     url: https://www.openscience.no/
-    
+  - name: Nettskjema
+    description: Nettskjema is a solution for designing and managing data collections using online forms and surveys. It can be used for collecting sensitive data and offers a high degree of security and privacy.
+    how_to_access: Feide, TSD, or via ID-porten upon application.
+    related_pages:
+      your_tasks: [sensitive]
+      tool_assembly: [tsd]
+    url: https://nettskjema.no/
 ref_to_main_resources:
   - MarDB
   - MarFun
@@ -243,7 +249,7 @@ A DMP typically contains information about data handling during a project and af
 
 <!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
 
-ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/). This is an internationally developed tool which has been adapted to better suit the needs of Norwegian researchers, PIs and institutions. DSW provides templates that are compliant  with all different funders' regulations, is [recommened by RCN](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) and, in addition, it offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs; these DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for own projects.
+ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/). This is an internationally developed tool which has been adapted to better suit the needs of Norwegian researchers, PIs and institutions. DSW provides templates that are compliant  with all different funders' regulations, is [recommended by RCN](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) and, in addition, it offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs; these DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for own projects.
 
 
 ## Life science-specific infrastructures/resources
