@@ -10,20 +10,20 @@ related_pages:
 
 ### Description
 
-The processes of data management will incur costs. The expenses may consist of people’s time, tools and services needed for managing the research data during the whole life cycle of the project. You should estimate these costs and address the resources needed in your data management plan. 
+The processes of data management will incur costs. The expenses may consist of people’s time, tools and services needed for managing the research data during the whole life cycle of the project. You should estimate these costs and address the resources needed in your [data management plan](dmp). 
 
 ### Considerations
 
 * Budgeting and costing for your data management is often dependent upon local and temporal circumstances, institutional resources, services, and policies. You have to take into account even items such as investments (site services, infrastructure), operations (network, electricity, maintenance) and personnel costs. 
 * Note that there may be costs of data even beyond the end of the project. 
-* Planning and implementing data management well can save you from arising costs later on during your research project! 
-* The bigger your project (or e.g. infrastructure) is or the more partners are involved, it is useful to consider the measures needed to implement and operationalise data management. For example; would you need a dedicated data manager?, should roles and responsibilities about various data management activities be allocated?, do you need training, other resources, or extra time? All of these aspects are important to be taken into consideration when addressing data management costs. 
+* Planning and implementing data management well can save you from arising costs later on during your research project.
+* The bigger your project (or e.g. infrastructure) is or the more partners are involved, it is useful to consider the measures needed to implement and operationalise data management. For example, would you need a dedicated data manager?, should roles and responsibilities about various data management activities be allocated?, do you need training, other resources, or extra time? All of these aspects are important to be taken into consideration when addressing data management costs. 
 
 ### Solutions 
 * To get an overview of possible costs in your research project, you can go through different research [life cycle phases](data_life_cycle) and activities specific for your project.
 * Some organisations have prepared costing tools to help formulate and budget data management costs. Tools such as the [Data Management costing Tool](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/costing/) developed by the UK Data Service or the [TU Delft data management costing tool](https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-costs) help to budget for personnel costs or for the additional costs that are needed to preserve and share research data beyond your research project.
 
-#### Costs for Data Stewards
+#### Costs for sata stewards
 * Personal costs of Data Steward as an eligible cost in many projects. (FTE limitation)
 * Which data management tasks will be carried out by a data steward, how many person months will be needed?
 
