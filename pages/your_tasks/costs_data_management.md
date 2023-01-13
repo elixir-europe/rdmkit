@@ -23,7 +23,7 @@ The processes of data management will incur costs. The expenses may consist of p
 * To get an overview of possible costs in your research project, you can go through different research [life cycle phases](data_life_cycle) and activities specific for your project.
 * Some organisations have prepared costing tools to help formulate and budget data management costs. Tools such as the [Data Management costing Tool](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/costing/) developed by the UK Data Service or the [TU Delft data management costing tool](https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-costs) help to budget for personnel costs or for the additional costs that are needed to preserve and share research data beyond your research project.
 
-#### Costs for sata stewards
+#### Costs for data stewards
 * Personal costs of Data Steward as an eligible cost in many projects. (FTE limitation)
 * Which data management tasks will be carried out by a data steward, how many person months will be needed?
 
