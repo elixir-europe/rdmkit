@@ -36,7 +36,7 @@ Many datasets could exist that you can reuse for your project. Even if you know 
 * Search registries for suitable data repositories.
     * [FAIRsharing](https://fairsharing.org) is an ELIXIR resource listing repositories.
     * [Re3data](https://www.re3data.org) lists repositories from all fields of science.
-    * [Google Dataset search](https://datasetsearch.research.google.com) or [Datacite](https://search.datacite.org) for localization of datasets.
+    * [Google Dataset Search](https://datasetsearch.research.google.com) or [DataCite](https://search.datacite.org) for localization of datasets.
     * The [Omics Discovery Index (OmicsDI)](https://www.omicsdi.org) provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).
 
 * Search through all repositories you found to identify what you could use. Give priority to curated repositories.
@@ -67,7 +67,7 @@ When you find data of interest, you should first check if the quality is good an
 
 * Verify the quality of the data. Some repositories have quality indicators, such as:
     * Star system indicating level of curation, e.g. for manually curated/non-curated entries.
-    * [Evidence ontology](https://evidenceontology.org).
+    * [Evidence & Conclusion Ontology](https://evidenceontology.org).
     * Detailed quality assessment methods. For instance, PDB has several [structure quality assessment metrics](https://validate.wwpdb.org/).
 
 * If metadata is available, check the quality of metadata. For instance, information about experimental setup, sample preparation, data analysis/processing can be necessary to reuse the data and reproduce the experiments.

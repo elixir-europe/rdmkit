@@ -24,16 +24,16 @@ faircookbook:
 ## Why should you assign a licence to your research data?
  
 ### Description 
-Loosely said, a licence defines what a user is allowed to do with a dataset. This can take into account ownership rights (copyright) as well as subject rights if the data is describing human beings.
+Loosely said, a licence defines what a user is allowed to do with a dataset. This can take into account ownership rights (copyright) as well as subject rights if the data is describing human beings. 
 
-There are large differences between how copyrights and subject rights are to be addressed!
+There are large differences between how copyrights and subject rights are to be addressed.
 * Complying with copyright is primarily the responsibility of the user of the data. Copyright laws allow only the creator of a work to reproduce and use it. If anyone else wants to use the work, then that person needs explicit permission from the holder of the copyright. A copyright licence describes the nature of this agreement, and does not need a signature: the user can never deny the existence of any conditions, because without the licence they would not be able to use the work at all. 
 * Complying with subject rights is primarily the responsibility of the controller (frequently called: owner) of the data. In Europe, the GDPR is an important law specifying the rights of subjects, and it is the controller of the data who needs to ensure that any usage of the data has a legal basis; not only his or her own use of the data, but also the use by others. If others use data about human subjects, this will require contracts between the controller and such others. These contracts, unlike copyright licences, will require a signature. Important contract forms are Data Transfer Agreements and Data Processing Agreements.
 
-Licensing is an important aspect of meeting the R (reusable) principle in FAIR data management. As part of the publication process, you need to decide under which licence the data is released. 
+Licensing is an important aspect of meeting the principle of reusability (the R in FAIR) in FAIR data management. As part of the publication process, you need to decide under which licence the data is released. 
 
 ### Considerations
-* If you are producing a dataset and make it available to others, you should be explicit about what others are allowed to do with this. A document describing that is called a licence.
+* If you are producing a dataset and make it available to others, you should be explicit about what others are allowed to do with it. A document describing that is called a licence.
 * If you are reusing a dataset that comes from somewhere, you will want to have a licence that explains what you can do with it. Without a licence, reusing a dataset could be setting you up for legal trouble.
 * Note that different interpretations of copyright laws think differently about copyrights on data. Under some jurisdictions, some data is explicitly not subject to copyrights. An example is data describing the earth under the laws of the United States of America. Copyright law specifies that it only applies to a "creative work", and arguably, just collecting data does not have sufficiently creative steps to claim copyrights. 
   * Relying on this as a reuser of data, however, is dangerous. Look for a licence and apply it.
@@ -50,7 +50,7 @@ Licensing is an important aspect of meeting the R (reusable) principle in FAIR d
  
 ### Description
 
-This depends on what rights protect your research data. Which licence to choose might be governed by university policy or funders’ mandates. Research data can have varying degrees of publicity. There are circumstances in which data may be subject to restrictions eg. if datasets contain sensitive information. 
+What licence you should apply to your research data depends on what rights protect your research data. Which licence to choose might be governed by university policy or funders’ mandates. Research data can have varying degrees of publicity. There are circumstances in which data may be subject to restrictions eg. if datasets contain sensitive information. 
 
 ### Considerations
 
@@ -65,8 +65,8 @@ This depends on what rights protect your research data. Which licence to choose 
 * [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licences and are available in human-readable and machine-readable forms, with different levels of permissions.
   * [Creative Commons License Chooser](https://creativecommons.org/choose/) helps you choose the right Creative Commons licence for your needs.
   * The [video tutorial from Kingsborough E-Learning](https://www.youtube.com/watch?v=5QxkuuiZwRU) shows how to add a Creative Commons licence to your work in practice.
-* The following tools helps you find the right licence for your software and data:
-  * [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/)
+* The following tools helps you find the right licence for your software and data.
+  * [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/).
   * [Choose a license](https://choosealicense.com) is an online guide provided by GitHub to help you choose a license for open-source projects.
   * [data.world](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets) provides list of common license types for datasets.
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
