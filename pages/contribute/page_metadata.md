@@ -97,7 +97,7 @@ The main tools are described in the mains tools and resources table. How to add 
   ```yml
   national_resources: 
     - name: Resource name
-      description: A general description about the resource
+      description: A general description about the resource.
       how_to_access: explantation on how you can access this resource
       instance_of: GitHub
       related_pages:

@@ -1,7 +1,7 @@
 ---
 title: Collecting
 page_id: collect
-description: Introduction to data collection
+description: Introduction to data collection.
 related_pages: 
   your_tasks: [data_organisation, data_quality, existing_data, identifiers, metadata, sensitive, storage, data_provenance]
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
