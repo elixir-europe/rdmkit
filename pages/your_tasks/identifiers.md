@@ -12,10 +12,12 @@ dsw:
 - name: Will this data be assigned a persistent identifier?
   uuid: d21fdb06-22bf-418e-aa40-dc5ef1485f56
 faircookbook:
+- name: Creating resolvable identifiers
+  url: https://w3id.org/faircookbook/FCB077
+- name: Interlinking data from different sources
+  url: https://w3id.org/faircookbook/FCB016
 - name: Unique, persistent identifiers
   url: https://w3id.org/faircookbook/FCB006
-- name: InChI and SMILES identifiers for chemical structures
-  url: https://w3id.org/faircookbook/FCB007
 - name: Minting identifiers with Minid
   url: https://w3id.org/faircookbook/FCB008
 ---
