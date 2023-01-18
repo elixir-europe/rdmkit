@@ -10,6 +10,9 @@ training:
   - name: RDMbites for using REMBI
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-data-sharing-collection
+faircookbook:
+- name: IMI EUBOPEN FAIR High-Content Screening data deposition
+  url: https://w3id.org/faircookbook/FCB067
 ---
 
 ## Introduction
