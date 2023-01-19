@@ -1,6 +1,6 @@
 ---
 title: Human data
-description: Key data management considerations solutions for projects with human data.
+description: Key data management considerations for projects with human data.
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
 page_id: human_data
 related_pages:
