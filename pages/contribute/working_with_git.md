@@ -76,7 +76,7 @@ If you have never installed or run a Jekyll site locally on your computer, follo
 1. Install Bundler and Jekyll
 
     ```
-    gem install jekyll bundler github-pages
+    gem install jekyll
     bundle install
     ```
 
