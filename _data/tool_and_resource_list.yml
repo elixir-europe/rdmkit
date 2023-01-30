@@ -3055,13 +3055,3 @@
   - data_manager
   - researcher
   url: https://www.ebi.ac.uk/spot/zooma/
-- description: Find possible ontology mappings for free text terms in the ZOOMA repository.
-  name: Zooma
-  registry:
-    biotools: zooma
-    tess: Zooma
-  related_pages:
-  - metadata
-  - data_manager
-  - researcher
-  url: https://www.ebi.ac.uk/spot/zooma/
