@@ -792,6 +792,14 @@
   - policy_officer
   - human_data
   url: https://dawid.elixir-luxembourg.org/
+- description: It guides you step by step through a DMP and lets you export a pre-filled
+    DMP as a Word document that you can customize and use for submission to funders.
+    Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs
+    and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.
+  name: DAMAP
+  related_pages:
+  - dmp
+  url: https://damap.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   name: dbGAP
@@ -875,6 +883,15 @@
   - it_support
   - data_analysis
   url: https://www.docker.com/
+- description: A DSW knowledge model guiding users through a set of questions to collect
+    information necessary for a research project Data Protection Impact Assessment
+    (DPIA).
+  name: DPIA Knowledge Model
+  related_pages:
+  - data_protection
+  - policy_officer
+  - human_data
+  url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
 - description: Cloud storage and file sharing service
   name: Dropbox
   related_pages:
@@ -1245,6 +1262,8 @@
 - description: The FIP is a collection of FAIR implementation choices made by a community
     of practice for each of the FAIR Principles.
   name: FAIR Implementation Profile
+  registry:
+    fairsharing: '343864'
   related_pages:
   - dm_coordination
   - dmp
@@ -2649,13 +2668,6 @@
   - machine_actionability
   - it_support
   url: https://schema.org
-- description: Web portal for finding ontologies
-  name: Schemapedia
-  related_pages:
-  - metadata
-  - data_manager
-  - researcher
-  url: https://schemapedia.com
 - description: ScienceMesh - frictionless scientific collaboration and access to research
     services
   name: ScienceMesh
