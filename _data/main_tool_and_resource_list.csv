@@ -90,6 +90,7 @@ data.world Data License list,https://help.data.world/hc/en-us/articles/115006114
 DataCite,https://search.datacite.org/,A search engine for the complete collection of publicly available DataCite DOIs,fairsharing:yknezb,existing_data
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,fairsharing:NA,"storage, researcher, data_manager, it_support, ifb"
 DAWID,https://dawid.elixir-luxembourg.org/,The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg to facilitate data sharing agreements.,,"data_protection, policy_officer, human_data"
+DAMAP,https://damap.org/,"It guides you step by step through a DMP and lets you export a pre-filled DMP as a Word document that you can customize and use for submission to funders. Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.",,dmp
 dbGAP,https://www.ncbi.nlm.nih.gov/gap/,The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans,fairsharing:88v2k0,"data_publication, researcher, it_support, human_data"
 DisGeNET,https://www.disgenet.org/,A discovery platform containing collections of genes and variants associated to human diseases.,biotools:disgenet,"data_analysis, human_data, researcher, toxicology_data"
 DisProt,https://disprot.org/,A database of intrinsically disordered proteins,biotools:disprot,"idp, researcher"
@@ -99,6 +100,7 @@ DMPRoadmap,https://github.com/DMPRoadmap/roadmap,DMP Roadmap is a Data Managemen
 DMPTool,https://dmptool.org,Build your Data Management Plan,,"dmp, researcher, data_manager"
 DNA Data Bank of Japan (DDBJ),https://www.ddbj.nig.ac.jp/index-e.html,A database of DNA sequences,,micro_biotech
 Docker,https://www.docker.com/,"Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images",fairsharing-coll:bsg-d001254,"it_support, data_analysis"
+DPIA Knowledge Model,https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0,A DSW knowledge model guiding users through a set of questions to collect information necessary for a research project Data Protection Impact Assessment (DPIA).,,"data_protection, policy_officer, human_data"
 Dropbox,https://www.dropbox.com/?landing=dbv2,Cloud storage and file sharing service,,"storage, it_support, transfer"
 Drug Matrix,https://ntp.niehs.nih.gov/data/drugmatrix/,A toxicogenomic resource that provides access to the gene expression profiles of over 600 different compounds in several cell types from rats and primary rat hepatocytes.,,toxicology_data
 Dryad,https://datadryad.org/,"Open-source, community-led data curation, publishing, and preservation platform for CC0 publicly available research data",fairsharing:wkggtx,"data_publication, biomol_sim, bioimaging_data"
@@ -140,7 +142,7 @@ FAIDARE,https://urgi.versailles.inra.fr/faidare/,FAIDARE is a tool allowing to s
 FAIR Cookbook,https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#,"FAIR Cookbook is an online resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable (FAIR)",,"compliance, data_manager, transmed"
 FAIR Data Point (FDP),https://www.fairdatapoint.org/,A FAIR Data Point stores metadata in a standardized and sharable way.,fairsharing:298,"rare_disease, metadata, it_support"
 FAIR Evaluation Services,https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!,Resources and guidelines to assess the FAIRness of digital resources.,,"compliance, data_manager, policy_officer"
-FAIR Implementation Profile,https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/,The FIP is a collection of FAIR implementation choices made by a community of practice for each of the FAIR Principles.,,"dm_coordination, dmp, researcher, data_manager"
+FAIR Implementation Profile,https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/,The FIP is a collection of FAIR implementation choices made by a community of practice for each of the FAIR Principles.,biotools:NA,"dm_coordination, dmp, researcher, data_manager"
 FAIR-Wizard,https://wwwdev.ebi.ac.uk/ait/fair-wizard/home,"The FAIR wizard utilizes FAIRification resources developed by the FAIRplus project and other platforms, suggests FAIRification materials based on the FAIRification requirements, and designs FAIRification solutions for data owners, data stewards, and other people involved in FAIRification.",,"compliance, data_manager, policy_officer"
 FAIRassist.org,https://fairassist.org/#!/,Help you discover resources to measure and improve FAIRness.,,"compliance, data_manager, policy_officer"
 FAIRDOM-SEEK,https://seek4science.org/,"A data Management Platform for organising, sharing and publishing research datasets, models, protocols, samples, publications and other research outcomes.",biotools:seek,"storage, it_support, nels, micro_biotech, ifb, machine_actionability, plant_pheno_assembly, plant_geno_assembly"
@@ -297,7 +299,6 @@ SASBDB,https://www.sasbdb.org/,Small Angle Scattering Biological Data Bank,,"idp
 SBOL Visual,https://sbolstandard.org/visual-glyphs/,A standard library of visual glyphs used to represent SBOL designs and interactions.,,micro_biotech
 SBOLDesigner,https://sboldesigner.github.io,A CAD tool to create SBOL designs through the use of SBOL Visual glyphs.,,micro_biotech
 Schema.org,https://schema.org,"Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.",,"machine_actionability, it_support"
-Schemapedia,https://schemapedia.com,Web portal for finding ontologies,,"metadata, data_manager, researcher"
 ScienceMesh,https://sciencemesh.io/,ScienceMesh - frictionless scientific collaboration and access to research services,,"storage, data_analysis, transfer"
 Scientific Data's Recommended Repositories,https://www.nature.com/sdata/policies/repositories,"List of respositories recommended by Scientific Data, contains both discipline-specific and general repositories.",,"data_publication, researcher, data_manager, it_support"
 SeaFile,https://www.seafile.com/,SeaFile File Synchronization and Share Solution,,"storage, transfer"
@@ -342,5 +343,4 @@ XNAT,https://www.xnat.org/,"Open source imaging informatics platform. It facilit
 XNAT-PIC Pipelines,https://github.com/szullino/XNAT-PIC,Analysing of single or multiple subjects within the same project in XNAT,,"researcher, data_manager, data_analysis, xnat-pic"
 XNAT-PIC Uploader,https://github.com/szullino/XNAT-PIC,Import tool for multimodal DICOM image datasets to XNAT,,"researcher, data_manager, xnat-pic"
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data_publication, biomol_sim, bioimaging_data, plant_pheno_assembly"
-Zooma,https://www.ebi.ac.uk/spot/zooma/,Find possible ontology mappings for free text terms in the ZOOMA repository.,,"metadata, data_manager, researcher"
 Zooma,https://www.ebi.ac.uk/spot/zooma/,Find possible ontology mappings for free text terms in the ZOOMA repository.,,"metadata, data_manager, researcher"
