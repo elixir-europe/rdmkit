@@ -689,14 +689,6 @@
   - data_protection
   - transmed
   url: https://daisy-demo.elixir-luxembourg.org
-- description: DAMAP is a Data Management Planning tool that is being developed as
-    part of the FAIR Data Austria project
-  name: DAMAP
-  related_pages:
-  - dmp
-  - researcher
-  - data_manager
-  url: https://damap.org/
 - description: Unique collection of project-level metadata from large research initiatives
     in a diverse range of fields, including clinical, molecular and observational
     studies. Its aim is to improve the findability of these projects following FAIR
@@ -799,6 +791,8 @@
   name: DAMAP
   related_pages:
   - dmp
+  - researcher
+  - data_manager
   url: https://damap.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans

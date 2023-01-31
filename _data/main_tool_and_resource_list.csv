@@ -79,7 +79,6 @@ CTD,http://ctdbase.org/,A database that aims to advance understanding about how 
 cURL,https://curl.se,Command line tool and library for transferring data with URLs,,"transfer, it_support"
 Cytomine-IMS,https://github.com/cytomine/Cytomine-IMS,Image Data management,,"data_manager, bioimaging_data"
 DAISY,https://daisy-demo.elixir-luxembourg.org,Data Information System to keep sensitive data inventory and meet GDPR accountability requirement.,biotools:Data_Information_System_DAISY,"it_support, policy_officer, human_data, data_protection, transmed"
-DAMAP,https://damap.org/,DAMAP is a Data Management Planning tool that is being developed as part of the FAIR Data Austria project,,"dmp, researcher, data_manager"
 Data Catalog,https://datacatalog.elixir-luxembourg.org/,"Unique collection of project-level metadata from large research initiatives in a diverse range of fields, including clinical, molecular and observational studies. Its aim is to improve the findability of these projects following FAIR data principles.",fairsharing:NA,"metadata, transmed"
 Data Catalog Vocabulary (DCAT),https://www.w3.org/TR/vocab-dcat-2/,DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.,,"machine_actionability, it_support, rare_disease"
 Data Curation Centre Metadata list,https://www.dcc.ac.uk/guidance/standards/metadata/list,List of metadata standards,,"metadata, researcher, data_manager"
@@ -90,7 +89,7 @@ data.world Data License list,https://help.data.world/hc/en-us/articles/115006114
 DataCite,https://search.datacite.org/,A search engine for the complete collection of publicly available DataCite DOIs,fairsharing:yknezb,existing_data
 DATAVERSE,https://dataverse.org/,Open source research data respository software.,fairsharing:NA,"storage, researcher, data_manager, it_support, ifb"
 DAWID,https://dawid.elixir-luxembourg.org/,The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg to facilitate data sharing agreements.,,"data_protection, policy_officer, human_data"
-DAMAP,https://damap.org/,"It guides you step by step through a DMP and lets you export a pre-filled DMP as a Word document that you can customize and use for submission to funders. Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.",,dmp
+DAMAP,https://damap.org/,"It guides you step by step through a DMP and lets you export a pre-filled DMP as a Word document that you can customize and use for submission to funders. Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.",,"dmp, researcher, data_manager"
 dbGAP,https://www.ncbi.nlm.nih.gov/gap/,The database of Genotypes and Phenotypes (dbGaP) archives and distributes data from studies investigating the interaction of genotype and phenotype in Humans,fairsharing:88v2k0,"data_publication, researcher, it_support, human_data"
 DisGeNET,https://www.disgenet.org/,A discovery platform containing collections of genes and variants associated to human diseases.,biotools:disgenet,"data_analysis, human_data, researcher, toxicology_data"
 DisProt,https://disprot.org/,A database of intrinsically disordered proteins,biotools:disprot,"idp, researcher"
