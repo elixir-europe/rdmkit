@@ -218,7 +218,7 @@ Only pages from specific sections are allowed in each page (see image below), as
 
 
 
-An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
+An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [List of page IDs](website_overview).
 
 
 ```yml
@@ -231,7 +231,7 @@ related_pages:
 
 ### Page ID
 
-To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview page](website_overview).
+To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
 
 
 ## Linking from RDMkit to FAIR Cookbook
