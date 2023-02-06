@@ -458,11 +458,6 @@
   registry:
     biotools: Data_Information_System_DAISY
   url: https://daisy-demo.elixir-luxembourg.org
-- description: DAMAP is a Data Management Planning tool that is being developed as
-    part of the FAIR Data Austria project
-  id: damap
-  name: DAMAP
-  url: https://damap.org/
 - description: Unique collection of project-level metadata from large research initiatives
     in a diverse range of fields, including clinical, molecular and observational
     studies. Its aim is to improve the findability of these projects following FAIR
@@ -523,6 +518,16 @@
   id: dawid
   name: DAWID
   url: https://dawid.elixir-luxembourg.org/
+- description: It guides you step by step through a DMP and lets you export a pre-filled
+    DMP as a Word document that you can customize and use for submission to funders.
+    Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs
+    and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.
+  name: DAMAP
+  related_pages:
+  - dmp
+  - researcher
+  - data_manager
+  url: https://damap.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   id: dbgap
@@ -572,6 +577,15 @@
   registry:
     fairsharing-coll: bsg-d001254
   url: https://www.docker.com/
+- description: A DSW knowledge model guiding users through a set of questions to collect
+    information necessary for a research project Data Protection Impact Assessment
+    (DPIA).
+  name: DPIA Knowledge Model
+  related_pages:
+  - data_protection
+  - policy_officer
+  - human_data
+  url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
 - description: Cloud storage and file sharing service
   id: dropbox
   name: Dropbox
@@ -825,6 +839,8 @@
     of practice for each of the FAIR Principles.
   id: fair-implementation-profile
   name: FAIR Implementation Profile
+  registry:
+    fairsharing: '343864'
   url: https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/
 - description: The FAIR wizard utilizes FAIRification resources developed by the FAIRplus
     project and other platforms, suggests FAIRification materials based on the FAIRification
@@ -1729,10 +1745,6 @@
   id: schema-org
   name: Schema.org
   url: https://schema.org
-- description: Web portal for finding ontologies
-  id: schemapedia
-  name: Schemapedia
-  url: https://schemapedia.com
 - description: ScienceMesh - frictionless scientific collaboration and access to research
     services
   id: sciencemesh
@@ -1988,10 +2000,6 @@
   registry:
     fairsharing: wy4egf
   url: https://zenodo.org/
-- description: Find possible ontology mappings for free text terms in the ZOOMA repository.
-  id: zooma
-  name: Zooma
-  url: https://www.ebi.ac.uk/spot/zooma/
 - description: Find possible ontology mappings for free text terms in the ZOOMA repository.
   id: zooma
   name: Zooma

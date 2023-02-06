@@ -8,6 +8,17 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22submission%22#materials
+faircookbook:
+- name: Introduction to terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB019
+- name: Creating data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
+- name: Selecting terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB020
+- name: Ontology-related tools and services
+  url: https://w3id.org/faircookbook/FCB022
 ---
 
 ## Taking on the data broker role 

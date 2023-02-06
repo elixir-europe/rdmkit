@@ -8,6 +8,9 @@ description: How to find and reuse existing data.
 dsw:
 - name: Is there any pre-existing data?
   uuid: efc80cc8-8318-4f8c-acb7-dc1c60e491c1
+faircookbook:
+- name: Licensing
+  url: https://w3id.org/faircookbook/FCB032
 ---
 
 ## How can you find existing data?

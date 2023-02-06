@@ -16,6 +16,15 @@ dsw:
   uuid: d4e6a244-07fb-4573-b93f-c20a9409ac7c
 - name: Will you be storing data in an "object store" or a "document store" system?
   uuid: dc39957e-688a-4f71-a6a8-57f52509e7cf
+faircookbook:
+- name: Licensing Software
+  url: https://w3id.org/faircookbook/FCB033
+- name: Making Computational Workflows FAIR
+  url: https://w3id.org/faircookbook/FCB062
+- name: Depositing to generic repositories - Zenodo use case
+  url: https://w3id.org/faircookbook/FCB0009
+- name: Registering datasets with Wikidata
+  url: https://w3id.org/faircookbook/FCB060
 ---
 
 ## What features do you need in a storage solution when collecting data?
