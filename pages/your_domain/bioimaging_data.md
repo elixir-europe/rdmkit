@@ -53,7 +53,7 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 ### Solutions
 
-**Vendor libraries**: Some vendors provide open source libraries for parsing their proprietary file formats. See [libCZI](https://github.com/zeiss-microscopy/libCZI) from Zeiss.
+**Vendor libraries**: Some vendors provide open source libraries for parsing their proprietary file formats. See [libCZI](https://github.com/ZEISS/libczi) from Zeiss.
 
 **Open source translators**: Members of the community have developed multi-format translators that can be used to access your data with needing to transform it. You will need to perform this translation each time you access your data.
 
@@ -111,7 +111,7 @@ Due to the scale of data, keeping track of the image data and the associated dat
    - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data
    - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images
   - Platforms like [OMERO](https://www.openmicroscopy.org/omero/), [b2share](https://b2share.eudat.eu/) also allow you to publish the data associated with a given project.
-  - Metadata standards can be found at the [Metadata Standards Directory Working Group](http://rd-alliance.github.io/metadata-directory/).
+  - Metadata standards can be found at the [Metadata Standards Directory Working Group](https://rdamsc.bath.ac.uk/).
   - Ontologies Resources available at:
     - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms
     - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service
