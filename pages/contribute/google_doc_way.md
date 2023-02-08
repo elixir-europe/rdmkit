@@ -10,7 +10,7 @@ RDMkit is hosted on GitHub. We understand, however, that many people may be unfa
 The steps are as follows:
 * Email the editorial team at [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org) to propose a new page or a new section in an existing page. Make sure you keep other contributors in the CC of your email. The editors will create an issue in our GitHub repository to announce your contribution to others.  
 * Use our section specifc google doc templates to write your page:
-*   [Your Domain Template](https://docs.google.com/document/d/1zXY3SvUlI5EpRF8lasX4MjhMY___tDaEJ4o0JnGTqyE/edit#)
+*   [Your Domain Template](https://docs.google.com/document/d/1fh8-Gq50AkXS1nhHr-gVFog-eI61dFI49nKROZlRYEQ/edit?usp=sharing)
 * 
 * Notify the editorial team when you are finished.
 * The editors will assign reviewers to your page, who will provide feedback as comments on the shared google doc.
