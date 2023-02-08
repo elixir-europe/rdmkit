@@ -164,10 +164,11 @@ For machine-actionability and interoperability, you should consider:
 * The relationship between pieces of information in a (meta)data schema can be implicit, following an agreed order (such as the order of columns in a table), or explicitly expressed by additional information in the file. To allow more universal interpretability, explicit additional information on the relationship between the pieces of information is highly advantageous.
 * Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model in a more implicit way (e.g. ISA-TAB,  MAGE-TAB).
 * Some data repositories develop customised (meta)data schemas.
-* Different metadata schemas are preferred for different purposes. For instance, 
+* Different metadata schemas are preferred for different purposes. Some examples are listed below. 
   * [Schema.org](https://schema.org) and [Bioschemas.org](https://bioschemas.org/index.html) markup are mostly used to describe web resources and make them findable by Web search engines. 
   * [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-2/) is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
   * [Investigation-Study-Assay (ISA) model](https://isa-tools.org/isa-api/content/isamodel.html#) was originally designed for describing multi-omics experiments in Life Sciences.
+  * The [DAta Tag Suite (DATS)](https://github.com/datatagsuite) is a data description model designed and produced to describe datasets and associated metadata in a number of data deposition repositories.
   * The [OME Data Model](https://docs.openmicroscopy.org/ome-model/latest/) is a specification for storing and exchanging data on biological imaging.
 
 * The [W3C](https://www.w3.org/) consortium has formalised a universal abstract data model to potentially establish relationships among any resource available on the web (people, places, web pages, events, abstract concepts, etc) called [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf-concepts/#section-Introduction). This universal abstract data model allows us to describe relationships between multiple resources encoded in different formats, following different standards and stored in different locations/servers on the internet. 
