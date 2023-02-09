@@ -30,17 +30,17 @@ The processes of data management will incur costs. The expenses may consist of p
 
 #### Costs for data collection 
 * Collecting and reusing data: Collecting data sometimes involves equipment or services that may incur costs. On the other hand, if you reuse data from a data repository it is worth checking whether there are some costs involved using the service. 
-* Granularity of data: When collecting data it can be tempting to collect more data than is required to answer the research question. Hence, it is important to consider what data is needed as the more the data you have, the more expensive it gets to store, clean, and transfer the data.
+* Granularity of data: When collecting data it can be tempting to collect more data than is required to answer the research question. Hence, it is important to consider what data is needed as the more data you have, the more expensive it gets to store, clean, and transfer the data.
 * Organizing and formatting data: Keeping data organized from the start of the project will help to manage the data later. Keep an up-to-date data catalogue/registry of data provenance and plan beforehand a clear file structure, names and templates so the involved costs and time spent on organizing the data are lower.
 
 #### Costs for data processing and data documentation
 * Anonymisation & pseudonymisation: When working with sensitive or confidential data, consider the possibility of anonymising or pseudonymising the data for controlled or public release. Costs may rise either from time spent on anonymise data or if the service needs to be bought from an expert.
 * Digitisation: Some project data can be in a paper-based or analogue format that needs to be digitised. Consider if special services, equipment or software are needed and if results need to be manually checked. These may incur direct costs or time consumed.
-* Data documentation: To make data understandable it needs to be documented, meaning creating information, which enables the interpretations of the data correctly and independently. Describing the data context, methodology, creation process, what the variables and abbreviations mean, as well how the data was processed and quality controlled takes time. 
+* Data documentation: To make data understandable, it needs to be documented, meaning creating information, which enables the interpretations of the data correctly and independently. Describing the data context, methodology, creation process, what the variables and abbreviations mean, as well as how the data was processed and quality controlled takes time. 
 * Data cleaning: Cleaning data files or verifying data take time and accuracy. At the end of the project cleaning data files for sharing purposes take much more time than keeping the data well organised during the project while collecting and processing it. 
 
 #### Costs for data storing, access control and security measures
-* Data storage and back-up: Regardless what kind of data types your research project has, the data needs to be stored in a secure place with adequate access control. Consider your needs for active data storage during the lifetime of the project, as well as archiving needs beyond the end of the study. Find out storing costs from your local service provider.
+* Data storage and back-up: Regardless of data types your research project has, the data needs to be stored in a secure place with adequate access control. Consider your needs for active data storage during the lifetime of the project, as well as archiving needs beyond the end of the study. Find out storing costs from your local service provider.
 * Access and security: To protect data from unauthorised use, consider what kind of access control and security measures does your data need. Especially, if you work with sensitive or confidential data, there might be solutions that incur costs, for example if special protected servers or services or software for encrypting data are needed. 
 
 #### Costs for making data available (publishing/sharing) and preserving
