@@ -100,7 +100,7 @@ It is recommended that metadata collection is contemplated from the start of the
 * The metadata standard applicable to plant phenotyping experiments is [MIAPPE](https://www.miappe.org/).
   * There is a section dedicated to the identification of plant biological materials that follows [The Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/) (MCPD) described [above](#plant-biological-materials-metadata-collection-and-sharing).
   * There is a section to describe the phenotyping assays based on the [Crop Ontology](https://www.cropontology.org) recommendations.
-  * There is a section describing the type of experiment (greenhouse, field, etc…) and it is advisable to collect the location (geographical coordinates) and time where it was performed for linkage with geo-climatic data. 
+  * There is a section describing the type of experiment (greenhouse, field, etc.) and it is advisable to collect the location (geographical coordinates) and time where it was performed for linkage with geo-climatic data. 
   * Other sections include description of investigations, studies, people involved, data files, environmental parameters, experimental factors, events, observed variables.
 * Tools and resources for data collection and management:
   * [FAIRDOM-SEEK](https://seek4science.org/) is a free data management platform for which MIAPPE templates are in development.

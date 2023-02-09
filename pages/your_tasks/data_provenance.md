@@ -42,7 +42,7 @@ However, knowing what’s the best way to document provenance can be challenging
 ### Solutions
 
 - Record provenance according to schemas or defined profiles. These can be generic or domain-specific, and can be found in [RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk) or [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard). Use metadata schemas containing provenance information in your README file and in any kind of data documentation and metadata file. Best practices for documentation and metadata, and data organisation should be applied for provenance file as well.
-- Implement serialisation specification of the [PROV-MODEL](https://www.w3.org/TR/prov-overview/) in your data management tools to record provenance in machine-actionable format (RDF, Linked data, owl, xml, etc).
+- Implement serialisation specification of the [PROV-MODEL](https://www.w3.org/TR/prov-overview/) in your data management tools to record provenance in machine-actionable format (RDF, Linked data, owl, xml, etc.).
 - Use [RO-Crate specifications](https://www.researchobject.org/ro-crate/1.1/provenance.html) and/or specific profiles for provenance (e.g., [RO-Crate profiles to capture the provenance of workflow runs](https://www.researchobject.org/workflow-run-crate/)).
 - Make use of tools and software that help you record provenance in a manual or an automated way. Use:
   - Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS) or similar tools.

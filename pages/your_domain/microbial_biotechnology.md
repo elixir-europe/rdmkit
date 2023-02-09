@@ -60,7 +60,7 @@ It is recommended to publish and share information about biological hosts in ded
 
 ### Considerations
  * The recording of taxonomic and genetic data must be considered carefully as part of the design stage.
- * Metadata surrounding the host is essential, such as where it was isolated, growth conditions, recommended protocols etc.
+ * Metadata surrounding the host is essential, such as where it was isolated, growth conditions, recommended protocols, etc.
  * Genetic information relating to strains and any modifications needs to be kept track of as modifications are made. Note that capturing the metadata describing a genome sequence and its host is vitally important to facilitate further studies in comparative genomics and phenotypic analysis.
  * To choose what are the appropriate repositories for your (meta)data, you should consider what kind of information about the host you are going to share, since each type of information could be published in a different repository.
    * Species, taxonomy, strain.

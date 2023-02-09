@@ -57,7 +57,7 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
   * Syntaxes such as JSON-LD and RDF/XML contribute to [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability#Semantic_as_a_function_of_syntactic_interoperability).
 * Not be in PDF format (scanned images of lab books, tables, articles or papers in .pdf)
 * Not be in plain text (.txt) nor Word documents (.docx) formats (e.g. README.txt file).
-* Not be images, audio nor video (.jpeg, png, etc).
+* Not be images, audio nor video (.jpeg, png, etc.).
 
 
 
@@ -170,9 +170,9 @@ For machine-actionability and interoperability, you should consider:
   * [Investigation-Study-Assay (ISA) model](https://isa-tools.org/isa-api/content/isamodel.html#) was originally designed for describing multi-omics experiments in Life Sciences.
   * The [OME Data Model](https://docs.openmicroscopy.org/ome-model/latest/) is a specification for storing and exchanging data on biological imaging.
 
-* The [W3C](https://www.w3.org/) consortium has formalised a universal abstract data model to potentially establish relationships among any resource available on the web (people, places, web pages, events, abstract concepts, etc) called [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf-concepts/#section-Introduction). This universal abstract data model allows us to describe relationships between multiple resources encoded in different formats, following different standards and stored in different locations/servers on the internet. 
+* The [W3C](https://www.w3.org/) consortium has formalised a universal abstract data model to potentially establish relationships among any resource available on the web (people, places, web pages, events, abstract concepts, etc.) called [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf-concepts/#section-Introduction). This universal abstract data model allows us to describe relationships between multiple resources encoded in different formats, following different standards and stored in different locations/servers on the internet. 
 
-  [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values etc.
+  [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values, etc.
 
 * RDF concept can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as Schema.org or Bioschemas.org (for Life Sciences), Data Catalog Vocabulary (DCAT), Dublin Core, etc.
   
@@ -191,7 +191,7 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
 
 ### Solutions
 
-* (Meta)Data in data exchange formats (XML, JSON, CSV, etc) that follows a standard metadata schema can be considered machine-actionable and syntactically interoperable. Ontologies that uniquely identify terms can be included for semantic interoperability.
+* (Meta)Data in data exchange formats (XML, JSON, CSV, etc.) that follows a standard metadata schema can be considered machine-actionable and syntactically interoperable. Ontologies that uniquely identify terms can be included for semantic interoperability.
 * RDF syntaxes, such as RDF/XML and JSON-LD, support syntactic and semantic interoperability among machines. In other words, these formats convey the structure of the data being presented and the link to the necessary information to interpret its content, e.g. ontologies. Ontology or vocabulary is a way of expressing semantics/meaning of (meta)data. 
 
   Example of machine-interpretable metadata for the word “Jaguar” in JSON-LD format, which allows to clarify the intended meaning of the word "Jaguar" (the animal) and distinguishes it from other possible meanings such as car or computer:

@@ -20,6 +20,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Datasets:** not "data sets".
   * **Email:** not "e-mail".
   * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
+  * **Etc.** should be avoided. Try using ‘for example’ or ‘such as’ or ‘including’ at the start of a listing. If etc. is used, put a comma before it if it is in a list, like "A, B, etc.". 
   * **Gender:** avoid using gender-specific words like "he" or "she".
   * **Headings:**
     * Only the first word is capitalised, unless other words are proper nouns.
@@ -39,7 +40,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       * This is item 1 of the list.
       * This is item 2 of the list.
       * This is item 3 of the list.
-  * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc).
+  * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
   * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "*et al.*" for more than five authors.
     * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016).
