@@ -53,7 +53,7 @@ When you find data of interest, you should first check if the quality is good an
 ### Considerations
 * Before reusing the data, make sure to check if a licence is attached and that it allows your intended use of the data.
 
-* Check if metadata or documentation are provided with the data. Metadata and documentation should provide enough information for a correct interpretation and reuse of the data. The use of standard metadata schemes and ontologies increase reusability of the data.
+* Check if metadata or documentation are provided with the data. Metadata and documentation should provide enough information for a correct interpretation and reuse of the data. The use of standard metadata schemas and ontologies increase reusability of the data.
 
 * Quality of the data is of utmost importance. You should check whether there is a data curation process on the repository (automatic, manual, community). This information should be available on the repository’s website. Check if the repository provides a quality status of each dataset (e.g. star rating system or quality indicators).
 

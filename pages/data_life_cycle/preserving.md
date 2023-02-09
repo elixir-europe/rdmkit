@@ -54,7 +54,7 @@ When preparing data for preservation several requirements need to be fulfilled.
   * Include information about provenance.
   * Include sufficient licensing information.
   * Ensure that data is well organised.
-  * Ensure that a consistent naming scheme is used.
+  * Ensure that a consistent naming schema is used.
   * Use standard, open source, file formats instead of proprietary ones.
 
 If you need to preserve non-digital data (e.g. paper), consider whether digitalising the data is feasible or consult with data management support services in your institution.
