@@ -48,7 +48,7 @@ Brief and descriptive file names are important in keeping your data files organi
 #### Example elements to include in the file name
 * Date of creation
 * Project number / Experiment / Acronym
-* Type of data (Sample ID, Analysis, Conditions, Modifications etc.)
+* Type of data (Sample ID, Analysis, Conditions, Modifications, etc.)
 * Location / Coordinates
 * Name / Initials of the creator
 * Version number

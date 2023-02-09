@@ -92,7 +92,7 @@ Due to the scale of data, keeping track of the image data and the associated dat
    - Make your data publicly available and slowly moving towards FAIRness.
  - Try to avoid storing bioimaging data in the local system’s PC.
  - If possible, make a transfer to central storage mandatory. If not possible, enable automation of data backup to central storage.
- - Consider support for minimal standards (metadata schemas, file formats etc.) in your domain.
+ - Consider support for minimal standards (metadata schemas, file formats, etc.) in your domain.
  - Consider reusing existing data.
 
 

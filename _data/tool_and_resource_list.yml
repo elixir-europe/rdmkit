@@ -1285,7 +1285,7 @@
   - plant_geno_assembly
   url: https://seek4science.org/
 - description: Data, model and SOPs management for projects, from preliminary data
-    to publication, support for running SBML models etc. (public SEEK instance)
+    to publication, support for running SBML models, etc. (public SEEK instance)
   name: FAIRDOMHub
   registry:
     fairsharing: nnvcr9

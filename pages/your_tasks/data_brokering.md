@@ -22,7 +22,7 @@ Sometimes it is challenging to exchange data across data producers, infrastructu
 There are many aspects to consider when getting started as a broker.
 
 * Decide how to interact with the data providers/recipients, such as to what extent you will be able to adapt your workflows to meet their needs/requirements. 
-* Identify what kind of processing you will handle as a broker, such as (meta)data curation and validation, data masking/anonymisation, etc.
+* Identify what kind of processing you will handle as a broker, such as (meta)data curation and validation, data masking/anonymisation.
 * Define the time frame for your commitment and your responsibilities for the data, such as how to handle data loss before delivery, what to do with the data after a successful delivery, how to manage changes to data that has already been delivered, etc.
 * Identify who is responsible for the data before, during and after delivery, such as the data controller/processor (according to GDPR) and/or intellectual property owner/licensee relationships between the provider and recipient
 * Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data protection](data_protection), [licensing](licensing), and [compliance](compliance_monitoring).

@@ -57,7 +57,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
   * Electronic Data Capture (EDC) systems are usually designated for collection of clinical trial data.
 
-  * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, OSF.io has integrations with Mendeley, Dropbox, GitHub, Figshare etc.
+  * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, OSF.io has integrations with Mendeley, Dropbox, GitHub, Figshare, etc.
 
   * There is a major area of overlap between the aforementioned tools for data documentation, so it is better to choose the tool(s) that best address your specific need. Some tools can be used at the same time to address different needs and they can be complementary. Comparative lists can help with the choice:
     * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
