@@ -302,7 +302,7 @@ ScienceMesh,https://sciencemesh.io/,ScienceMesh - frictionless scientific collab
 Scientific Data's Recommended Repositories,https://www.nature.com/sdata/policies/repositories,"List of respositories recommended by Scientific Data, contains both discipline-specific and general repositories.",,"data_publication, researcher, data_manager, it_support"
 SeaFile,https://www.seafile.com/,SeaFile File Synchronization and Share Solution,,"storage, transfer"
 Semantic data model of the set of common data elements for rare diseases registration,https://github.com/ejp-rd-vp/CDE-semantic-model,A semantic data model describing the common data elements for rare diseases registration.,,rare_disease
-semares,www.genevention.com/products,"All-in-one platform for life science data management, semantic data integration, data analysis and visualization",,"researcher, data_manager, metadata, data_analysis, it_support, storage"
+Semares,https://www.genevention.com/products,"All-in-one platform for life science data management, semantic data integration, data analysis and visualization",,"researcher, data_manager, metadata, data_analysis, it_support, storage"
 Set of common data elements for rare diseases registration,https://eu-rd-platform.jrc.ec.europa.eu/set-of-common-data-elements_en,"Contains 16 data elements to be registered by each rare disease registry across Europe, which are considered to be essential for further research.",,rare_disease
 ShortBOL,http://shortbol.org,A scripting language for creating Synthetic Biology Open Language (SBOL) in a more abstract way.,,micro_biotech
 SIFTS,https://www.ebi.ac.uk/pdbe/docs/sifts/,"Structure integration with function, taxonomy and sequence",,"researcher, idp"

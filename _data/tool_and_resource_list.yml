@@ -2693,7 +2693,7 @@
   url: https://github.com/ejp-rd-vp/CDE-semantic-model
 - description: All-in-one platform for life science data management, semantic data
     integration, data analysis and visualization
-  name: semares
+  name: Semares
   related_pages:
   - researcher
   - data_manager
@@ -2701,7 +2701,7 @@
   - data_analysis
   - it_support
   - storage
-  url: www.genevention.com/products
+  url: https://www.genevention.com/products
 - description: Contains 16 data elements to be registered by each rare disease registry
     across Europe, which are considered to be essential for further research.
   name: Set of common data elements for rare diseases registration
