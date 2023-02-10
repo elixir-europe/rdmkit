@@ -10,7 +10,7 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
-  - name: Training in TeSS
+  - name: RDMbites for sensitive data
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
   - name: A FAIR guide for data providers to maximise sharing of human genomic data
