@@ -82,7 +82,7 @@ Once you have decided where to publish your data, you will have to make your (me
 
 ### Solutions
   * Learn the following information about the chosen repositories:
-    * Required metadata schemes
+    * Required metadata schemas
     * Required ontologies or controlled vocabularies
     * Accepted file formats for data and metadata
     * Costs for sharing and storing data
