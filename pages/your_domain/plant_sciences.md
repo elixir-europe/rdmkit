@@ -67,7 +67,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 * For identifying samples from which molecular data was produced, the [BioSamples](https://www.ebi.ac.uk/biosamples/) database is recommended as a provider of international unique identifiers. 
   * The [plant-miappe.json](https://www.ebi.ac.uk/biosamples/schemas/certification/plant-miappe.json) model provided by BioSample is aligned with all recommendations provided above for plant identification and is therefore recommended for your sample submission.
 * It is also recommended that you provide permanent access to a description of the project or study, that contains links to all the data, molecular or phenotypic. Several databases are recommended for this purpose including:
-  * [Data INRAE](https://data.inrae.fr/)
+  * [Recherche Data Gouv](https://recherche.data.gouv.fr/)
   * [e!DAL](https://edal.ipk-gatersleben.de/)
   * [Zenodo](https://zenodo.org/)
   * [Biostudies](https://www.ebi.ac.uk/biostudies/)
@@ -100,15 +100,15 @@ It is recommended that metadata collection is contemplated from the start of the
 * The metadata standard applicable to plant phenotyping experiments is [MIAPPE](https://www.miappe.org/).
   * There is a section dedicated to the identification of plant biological materials that follows [The Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/) (MCPD) described [above](#plant-biological-materials-metadata-collection-and-sharing).
   * There is a section to describe the phenotyping assays based on the [Crop Ontology](https://www.cropontology.org) recommendations.
-  * There is a section describing the type of experiment (greenhouse, field, etc…) and it is advisable to collect the location (geographical coordinates) and time where it was performed for linkage with geo-climatic data. 
+  * There is a section describing the type of experiment (greenhouse, field, etc.) and it is advisable to collect the location (geographical coordinates) and time where it was performed for linkage with geo-climatic data. 
   * Other sections include description of investigations, studies, people involved, data files, environmental parameters, experimental factors, events, observed variables.
 * Tools and resources for data collection and management:
   * [FAIRDOM-SEEK](https://seek4science.org/) is a free data management platform for which MIAPPE templates are in development.
-  * [Dataverse](https://dataverse.org/) is a free data management platform for which MIAPPE templates are in development. It is used in several repositories such as [Data INRAE](https://data.inrae.fr/).
+  * [Dataverse](https://dataverse.org/) is a free data management platform for which MIAPPE templates are in development. It is used in several repositories such as [Recherche Data Gouv](https://recherche.data.gouv.fr/).
   * [e!DAL](https://edal.ipk-gatersleben.de/) is a free data management platform for which MIAPPE templates are in development.
   * The [ISA-Tools](https://isa-tools.org/) also include a configuration for MIAPPE and can be used both for filling-in metadata and for validating.
   * [Collaborative Open Plant Omics (COPO)](https://copo-project.org/) is a data management platform specific for the plant sciences.
-  * [FAIRsharing](https://fairsharing.org) is a manually curated registry of reporting guidelines, vocabularies, identifier scheme, models, formats, repositories, knowledge bases, and data policies that includes many resources relevant for managing plant phenotyping data.
+  * [FAIRsharing](https://fairsharing.org) is a manually curated registry of reporting guidelines, vocabularies, identifier schemes, models, formats, repositories, knowledge bases, and data policies that includes many resources relevant for managing plant phenotyping data.
 * Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a [Breeding API](https://brapi.org/) (BrAPI) [compliant repository](https://www.brapi.org/servers).
 * If you or your partners collect data manually, it is critical to adopt a spreadsheet template that is compatible with the structure of the database that will be used for data deposition.
   * If the database is MIAPPE compliant, you can use the [MIAPPE-compliant spreadsheet template](https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx).

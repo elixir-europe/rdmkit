@@ -1,11 +1,35 @@
-name: Converting to yaml + registry lookup + countrylist update
-
+name: Validation of the tools and page metadata
 on:
+  pull_request:
+    branches: [ master, main ]
   schedule:
     - cron:  '0 13 * * 1'
   workflow_dispatch:
 jobs:
-  build:
+  validation:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml requests python-frontmatter
+      - name: Run tool table 2 yaml
+        run: | 
+          python var/conversions.py
+  
+  registry-lookup:
+    if: |
+        github.repository_owner == 'elixir-europe' &&  github.event_name != 'pull_request'
+  
     runs-on: ubuntu-latest
     strategy:
       matrix:

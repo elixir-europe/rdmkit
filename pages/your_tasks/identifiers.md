@@ -12,10 +12,12 @@ dsw:
 - name: Will this data be assigned a persistent identifier?
   uuid: d21fdb06-22bf-418e-aa40-dc5ef1485f56
 faircookbook:
+- name: Creating resolvable identifiers
+  url: https://w3id.org/faircookbook/FCB077
+- name: Interlinking data from different sources
+  url: https://w3id.org/faircookbook/FCB016
 - name: Unique, persistent identifiers
   url: https://w3id.org/faircookbook/FCB006
-- name: InChI and SMILES identifiers for chemical structures
-  url: https://w3id.org/faircookbook/FCB007
 - name: Minting identifiers with Minid
   url: https://w3id.org/faircookbook/FCB008
 ---
@@ -24,7 +26,7 @@ faircookbook:
  
 ### Description 
 
-A lot of (meta)data is collected in the form of [tables](https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/), representing quantitative or qualitative measurements (values in cells) of certain named properties (variables in columns) of a range of subjects or samples (records or observations in rows). It can help your research a lot if you make sure you can address each of these records, variables and values unambiguously, i.e. if each has a unique identifier. This is also true for (meta)data that is not in tabular format (“key”:value format, unstructured data etc). Identifiers should be always used for metadata and data independently of the format.
+A lot of (meta)data is collected in the form of [tables](https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/), representing quantitative or qualitative measurements (values in cells) of certain named properties (variables in columns) of a range of subjects or samples (records or observations in rows). It can help your research a lot if you make sure you can address each of these records, variables and values unambiguously, i.e. if each has a unique identifier. This is also true for (meta)data that is not in tabular format (“key”:value format, unstructured data, etc.). Identifiers should be always used for metadata and data independently of the format.
 
 If the research institute or group has a centralised and structured system (such as a central electronic database) in place to describe and store (meta)data, this process can be quite straight forward for the researcher. However, if there is no such system, often researchers have to set up an internal “database” to keep track of each record or observation in a study. This situation can be quite challenging for many reasons, one of which is assigning identifiers. The use of identifiers for records, variables and values will increase the [reusability and interoperability](about#why-are-the-fair-principles-needed) of the data for you, your future-self and others.
 
@@ -65,7 +67,7 @@ If the research institute or group has a centralised and structured system (such
  
 ### Description
 
-When all records and measurements have been collected and you are ready to share your entire dataset with others, it is good practise to assign **globally unique persistent identifiers** in order to make your dataset more FAIR. "A Globally Unique Identifier (GUID) is a unique number that can be used as an identifier for anything in the universe and the uniqueness of a GUID relies on the algorithm that was used to generate it" ([What is a GUID?](http://guid.one/guid)). “A persistent identifier (PID) is a long-lasting reference to a resource. That resource might be a publication, dataset or person. Equally it could be a scientific sample, funding body, set of geographical coordinates, unpublished report or piece of software. Whatever it is, the primary purpose of the PID is to provide the information required to reliably identify, verify and locate it. A PID may be connected to a set of metadata describing an item rather than to the item itself" ([What is a persistent identifier, OpenAIRE](https://www.openaire.eu/what-is-a-persistent-identifier)). This means that any dataset with a PID will be findable even if the location of the dataset and its web address (URL) changes. The central registry that manage PID will ensure that the given PID will point you to the digital resource's current location. There are [different types of PID](https://en.wikipedia.org/wiki/Persistent_identifier), such as DOI, PURL, Handle and URN. [GO FAIR organisation](https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/) provides examples of GUID, PID and services that supply identifiers.
+When all records and measurements have been collected and you are ready to share your entire dataset with others, it is good practise to assign **globally unique persistent identifiers** in order to make your dataset more FAIR. "A Globally Unique Identifier (GUID) is a unique number that can be used as an identifier for anything in the universe and the uniqueness of a GUID relies on the algorithm that was used to generate it" ([What is a GUID?](http://guid.one/guid)). “A persistent identifier (PID) is a long-lasting reference to a resource. That resource might be a publication, dataset or person. Equally it could be a scientific sample, funding body, set of geographical coordinates, unpublished report or piece of software. Whatever it is, the primary purpose of the PID is to provide the information required to reliably identify, verify and locate it. A PID may be connected to a set of metadata describing an item rather than to the item itself" ([What is a persistent identifier, OpenAIRE](https://www.openaire.eu/what-is-a-persistent-identifier)). This means that any dataset with a PID will be findable even if the location of the dataset and its web address (URL) changes. The central registry that manage PID will ensure that the given PID will point you to the digital resource's current location. There are different types of PID, such as [DOI](https://www.doi.org/), [PURL](https://sites.google.com/site/persistenturls/), [Handle](http://www.handle.net/), [IGSN](https://www.igsn.org) and [URN](https://en.wikipedia.org/wiki/Uniform_Resource_Name). The [GO FAIR organisation](https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/) provides examples of GUID, PID and services that supply identifiers.
 
 ### Considerations
 

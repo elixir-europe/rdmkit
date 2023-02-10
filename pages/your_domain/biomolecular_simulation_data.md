@@ -25,7 +25,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 ### Considerations
 * What type of data do you have?
   * Molecular dynamics data - by far the most typical and largest biomolecular simulation data. Each molecular dynamics simulation is driven by the used engine, force-field, and multiple other and often hidden simulation parameters to produce trajectories that are further analysed.
-  * Molecular docking data - docking provides the structures of the complex (e.g. ligand-protein, protein-protein, protein-nucleic acid, etc) and its score/energy.
+  * Molecular docking data - docking provides the structures of the complex (e.g. ligand-protein, protein-protein, protein-nucleic acid, etc.) and its score/energy.
   * Virtual screening data - virtual screening is used for selection of active compounds from the pool of others and is usually in the form of ID and its score/energy.
   * Free energies and other analysis data - data calculable from the analysis of the simulations.
 
@@ -109,7 +109,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 Biomolecular simulation field has a tendency to produce a multitude of input/output formats, each of them mainly related to one software package. That makes interoperability and reproducibility really difficult. You can share your data but this data will only be useful if the scientist interested in it has access to the tool that has generated it. The field is working on possible standards (e.g. TNG trajectory).
 
 * Metadata standards
-There is no existing standard defining the type and format of the metadata needed to describe a particular project and its associated data. How to store the program, version, parameters used, input files, etc. is still an open question, which has been addressed in many ways and using many formats (json, xml, txt, etc.). Again, different initiatives exist trying to address this issue (see further references).
+There is no existing standard defining the type and format of the metadata needed to describe a particular project and its associated data. How to store the program, version, parameters used, input files, etc., is still an open question, which has been addressed in many ways and using many formats (json, xml, txt, etc.). Again, different initiatives exist trying to address this issue (see further references).
 
 * Data size
 Data generated in the biomolecular simulation field is growing at an alarming pace. Making this data available to the scientific community sometimes means transferring them to a long-term storage, and even this a priori straightforward process can be cumbersome because of the large data size.

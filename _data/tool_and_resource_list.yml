@@ -33,6 +33,7 @@
     fairsharing: z4xpxx
   related_pages:
   - plant_pheno_assembly
+  - plants
   url: http://agroportal.lirmm.fr/
 - description: Amazon Web Services
   name: Amazon Web Services
@@ -94,13 +95,6 @@
   - researcher
   - data_analysis
   url: https://arvados.org
-- description: With fast file transfer and streaming solutions built on the award-winning
-    IBM FASP protocol, IBM Aspera software moves data of any size across any distance
-  name: Aspera Fasp
-  related_pages:
-  - transfer
-  - it_support
-  url: https://www.ibm.com/products/aspera
 - description: Biological materials resource including cell-lines, strains and genomics
     tools
   name: ATCC
@@ -291,6 +285,7 @@
   related_pages:
   - plants
   - plant_geno_assembly
+  - plant_pheno_assembly
   url: https://www.ebi.ac.uk/biosamples/
 - description: Bioschemas aims to improve the Findability on the Web of life sciences
     resources such as datasets, software, and training materials
@@ -609,7 +604,12 @@
   - plants
   - machine_actionability
   - plant_pheno_assembly
+  - plant_geno_assembly
   url: https://copo-project.org/
+- description: An assembly of molecular interaction diagrams, established based on
+    literature evidence
+  name: COVID-19 Disease Map
+  url: https://fairdomhub.org/projects/190
 - description: COVID-19 Molecular Structure and Therapeutics Hub
   name: COVID-19 Molecular Structure and Therapeutics Hub
   related_pages:
@@ -642,10 +642,13 @@
   - data_manager
   - it_support
   - plants
+  - plant_pheno_assembly
   url: https://www.cropontology.org
 - description: A Python tool to encrypt, decrypt or re-encrypt files, according to
     the GA4GH encryption file format.
   name: Crypt4GH
+  registry:
+    tess: Crypt4GH
   related_pages:
   - human_data
   url: https://crypt4gh.readthedocs.io/en/latest/
@@ -662,7 +665,7 @@
   related_pages:
   - toxicology_data
   url: http://ctdbase.org/
-- description: command line tool and library for transferring data with URLs
+- description: Command line tool and library for transferring data with URLs
   name: cURL
   related_pages:
   - transfer
@@ -735,6 +738,7 @@
   - nels
   - tsd
   - plant_pheno_assembly
+  - plant_geno_assembly
   url: https://ds-wizard.org/
 - description: DUO allows to semantically tag datasets with restriction about their
     usage.
@@ -780,6 +784,16 @@
   - policy_officer
   - human_data
   url: https://dawid.elixir-luxembourg.org/
+- description: It guides you step by step through a DMP and lets you export a pre-filled
+    DMP as a Word document that you can customize and use for submission to funders.
+    Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs
+    and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.
+  name: DAMAP
+  related_pages:
+  - dmp
+  - researcher
+  - data_manager
+  url: https://damap.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   name: dbGAP
@@ -830,7 +844,7 @@
   - researcher
   - data_manager
   url: https://dmplanner.athenarc.gr/
-- description: DMP Roadmap is a Data Management Planning tool.
+- description: DMP Roadmap is a Data Management Planning tool
   name: DMPRoadmap
   related_pages:
   - dmp
@@ -863,8 +877,17 @@
   - it_support
   - data_analysis
   url: https://www.docker.com/
+- description: A DSW knowledge model guiding users through a set of questions to collect
+    information necessary for a research project Data Protection Impact Assessment
+    (DPIA).
+  name: DPIA Knowledge Model
+  related_pages:
+  - data_protection
+  - policy_officer
+  - human_data
+  url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
 - description: Cloud storage and file sharing service
-  name: DropBox
+  name: Dropbox
   related_pages:
   - storage
   - it_support
@@ -1038,6 +1061,7 @@
     tess: Ensembl Plants
   related_pages:
   - plant_geno_assembly
+  - plants
   url: https://plants.ensembl.org/
 - description: Web-based tool allowing users to create and manage a register of personal
     data processing activities (ROPA).
@@ -1089,6 +1113,7 @@
   - plants
   - researcher
   - data_manager
+  - plant_pheno_assembly
   url: https://eurisco.ipk-gatersleben.de
 - description: Europe PMC is a repository, providing access to worldwide life sciences
     articles, books, patents and clinical guidelines.
@@ -1200,6 +1225,7 @@
   - plants
   - ifb
   - plant_pheno_assembly
+  - plant_geno_assembly
   url: https://urgi.versailles.inra.fr/faidare/
 - description: FAIR Cookbook is an online resource for the Life Sciences with recipes
     that help you to make and keep data Findable, Accessible, Interoperable and Reusable
@@ -1230,6 +1256,8 @@
 - description: The FIP is a collection of FAIR implementation choices made by a community
     of practice for each of the FAIR Principles.
   name: FAIR Implementation Profile
+  registry:
+    fairsharing: '343864'
   related_pages:
   - dm_coordination
   - dmp
@@ -1267,9 +1295,10 @@
   - ifb
   - machine_actionability
   - plant_pheno_assembly
+  - plant_geno_assembly
   url: https://seek4science.org/
 - description: Data, model and SOPs management for projects, from preliminary data
-    to publication, support for running SBML models etc. (public SEEK instance)
+    to publication, support for running SBML models, etc. (public SEEK instance)
   name: FAIRDOMHub
   registry:
     fairsharing: nnvcr9
@@ -1313,8 +1342,9 @@
   - data_publication
   - biomol_sim
   - bioimaging_data
+  - identifiers
   url: https://figshare.com/
-- description: A free FTP solution
+- description: A free FTP (FTPS and SFTP) solution with graphical interface
   name: FileZilla
   related_pages:
   - transfer
@@ -1463,9 +1493,7 @@
   - it_support
   - data_manager
   url: https://gitlab.com/gitlab-org/gitlab
-- description: Globus lets you efficiently, securely, and reliably transfer data directly
-    between systems separated by an office wall or an ocean. Focus on your research
-    and offload your data transfer headaches to Globus
+- description: High-performance data transfers between systems within and across organizations
   name: Globus
   related_pages:
   - transfer
@@ -1481,6 +1509,7 @@
     fairsharing: dw22y3
   related_pages:
   - plants
+  - plant_pheno_assembly
   url: https://urgi.versailles.inrae.fr/gnpis/
 - description: Search engine for datasets
   name: Google Dataset Search
@@ -1511,7 +1540,7 @@
   - data_analysis
   url: https://github.com/guigolab/grape-nf
 - description: ELN Comparison Grid by Hardvard Medical School
-  name: Harvard Medical School - ELN Comparison Grid
+  name: Harvard Medical School - Electronic Lab Notebooks
   related_pages:
   - metadata
   - identifiers
@@ -1559,6 +1588,13 @@
   - human_data
   - data_analysis
   url: https://www.humanmine.org/
+- description: With fast file transfer and streaming solutions built on the award-winning
+    IBM FASP protocol, IBM Aspera software moves data of any size across any distance
+  name: IBM Aspera
+  related_pages:
+  - transfer
+  - it_support
+  url: https://www.ibm.com/products/aspera
 - description: Data sharing
   name: iCloud
   related_pages:
@@ -1658,7 +1694,7 @@
   related_pages:
   - idp
   - metadata
-  url: https://disprot.org/about
+  url: https://disprot.org/ontology
 - description: The Integrated Risk Information System (IRIS) resource evaluates information
     on health that might arise after exposure to environmental contaminants.
   name: IRIS
@@ -1759,6 +1795,8 @@
   url: https://lov.linkeddata.es/dataset/lov/
 - description: A database of prokaryote specific biodiversity information
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
+  registry:
+    biotools: lpsn
   related_pages:
   - micro_biotech
   url: https://lpsn.dsmz.de
@@ -1836,6 +1874,12 @@
   - micro_biotech
   - data_publication
   url: http://www.metabolomexchange.org/site/
+- description: Cleans metagenomic reads to remove adapters, low-quality bases and
+    host (e.g. human) contamination
+  name: Metagen-FastQC
+  related_pages:
+  - data_publication
+  url: https://github.com/alakob/Metagen-FastQC-Docker
 - description: Minimum Information About Disorder Experiments (MIADE) standard
   name: MIADE
   related_pages:
@@ -1880,7 +1924,7 @@
   - data_manager
   - marine
   - micro_biotech
-  url: https://genomicsstandardsconsortium.github.io/mixs/
+  url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
 - description: MINT, the Molecular INTeraction database, focuses on experimentally
     verified protein-protein interactions mined from the scientific literature by
     expert curators
@@ -1900,7 +1944,7 @@
   - data_manager
   - marine
   - plant_geno_assembly
-  url: https://gensc.org/mixs/
+  url: https://genomicsstandardsconsortium.github.io/mixs/
 - description: A database of protein disorder and mobility annotations
   name: MobiDB
   registry:
@@ -1946,7 +1990,7 @@
     provides researchers with user friendly and scalable software infrastructures
     to capture, exchange, and exploit the large amounts of data that is being produced
     by scientific organisations all around the world.
-  name: Molgenis
+  name: MOLGENIS
   registry:
     biotools: molgenis
   related_pages:
@@ -1965,8 +2009,6 @@
 - description: A risk assessment tool that can be used to do Data Protection Impact
     Assessments
   name: MONARC
-  registry:
-    fairsharing: b2979t
   related_pages:
   - data_protection
   - policy_officer
@@ -1992,9 +2034,11 @@
   - it_support
   - policy_officer
   - plants
+  - plant_pheno_assembly
+  - plant_geno_assembly
   url: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
 - description: A file-system based platform handling the transfer of data
-  name: MyTardis
+  name: MyTARDIS
   related_pages:
   - data_manager
   - transfer
@@ -2033,8 +2077,8 @@
   - tsd
   url: https://nettskjema.no/
 - description: As fully on-premises solution, Nextcloud Hub provides the benefits
-    of online collaboration without the compliance and security risks.
-  name: NextCloud
+    of online collaboration without the compliance and security risks
+  name: Nextcloud
   related_pages:
   - storage
   - it_support
@@ -2106,6 +2150,16 @@
   related_pages:
   - transmed
   url: https://ohdsi.github.io/CommonDataModel/
+- description: OntoMaton facilitates ontology search and tagging functionalities within
+    Google Spreadsheets.
+  name: OnotoMaton
+  related_pages:
+  - researcher
+  - data_manager
+  - it_support
+  - metadata
+  - identifiers
+  url: https://github.com/ISA-tools/OntoMaton
 - description: A web portal to search and visualise ontologies
   name: Ontobee
   registry:
@@ -2115,16 +2169,6 @@
   - data_manager
   - researcher
   url: http://www.ontobee.org
-- description: OntoMaton facilitates ontology search and tagging functionalities within
-    Google Spreadsheets.
-  name: ONTOMATON
-  related_pages:
-  - researcher
-  - data_manager
-  - it_support
-  - metadata
-  - identifiers
-  url: https://github.com/ISA-tools/OntoMaton
 - description: Licenses that are conformant with the principles laid out in the Open
     Definition.
   name: Open Definition Conformant Licenses
@@ -2320,13 +2364,13 @@
   registry:
     biotools: pisa-tree
   related_pages:
-  - plants
   - micro_biotech
   - researcher
   - data_manager
   - data_organisation
   - metadata
   - plant_pheno_assembly
+  - plant_geno_assembly
   url: https://github.com/NIB-SI/pISA-tree
 - description: Access point for plant comparative genomics, centralizing genomic data
     produced by different genome sequencing initiatives.
@@ -2407,6 +2451,7 @@
   related_pages:
   - researcher
   - human_data
+  - rare_disease
   url: https://rd-connect.eu/what-we-do/omics/gpap/
 - description: Directory of standard metadata, divided into different research areas
   name: RDA Standards
@@ -2421,6 +2466,7 @@
     tess: re3data
   related_pages:
   - existing_data
+  - data_publication
   url: https://www.re3data.org/
 - description: Portal with public data submitted to ECHA in REACH registration dossiers
     by substance manufacturers, importers, or their representatives, as laid out by
@@ -2616,13 +2662,6 @@
   - machine_actionability
   - it_support
   url: https://schema.org
-- description: Web portal for finding ontologies
-  name: Schemapedia
-  related_pages:
-  - metadata
-  - data_manager
-  - researcher
-  url: https://schemapedia.com
 - description: ScienceMesh - frictionless scientific collaboration and access to research
     services
   name: ScienceMesh
@@ -2654,7 +2693,7 @@
   url: https://github.com/ejp-rd-vp/CDE-semantic-model
 - description: All-in-one platform for life science data management, semantic data
     integration, data analysis and visualization
-  name: semares
+  name: Semares
   related_pages:
   - researcher
   - data_manager
@@ -2662,7 +2701,7 @@
   - data_analysis
   - it_support
   - storage
-  url: www.genevention.com/products
+  url: https://www.genevention.com/products
 - description: Contains 16 data elements to be registered by each rare disease registry
     across Europe, which are considered to be essential for further research.
   name: Set of common data elements for rare diseases registration
@@ -2816,7 +2855,9 @@
   - csc
   - tsd
   url: https://ega-archive.org/
-- description: Minimum Information about any (x) Sequence
+- description: The Genomic Standards Consortium (GSC) is an open-membership working
+    body enabling genomic data integration, discovery and comparison through international
+    community-driven standards.
   name: The Genomic Standards Consortium (GSC)
   registry:
     fairsharing: 9aa0zp
@@ -2826,7 +2867,7 @@
   - it_support
   - policy_officer
   - human_data
-  url: https://gensc.org/mixs/
+  url: https://www.gensc.org/pages/about.html
 - description: Collaborative effort to develob interoperable ontologies for the biological
     sciences
   name: The Open Biological and Biomedical Ontology (OBO) Foundry
@@ -2885,6 +2926,7 @@
   - nels
   - csc
   - tsd
+  - data_protection
   url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
 - description: A tool that contains weighted gene co-expression networks obtained
     from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
