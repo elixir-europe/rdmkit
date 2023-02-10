@@ -98,3 +98,7 @@
   date: 2022-12-06
   linked_pr: 1076
   description: This page gives an insight in RDM on national level in Switzerland. [Discover the page here](ch_resources)
+- name: "New page: National resources Luxembourg"
+  date: 2023-02-10
+  linked_pr: 1063
+  description: This page gives an insight in RDM on national level in Luxembourg. [Discover the page here](lu_resources)
