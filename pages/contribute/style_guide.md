@@ -48,7 +48,6 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
-  * **Schema/scheme:** Use "schema" if you mean a pattern for structuring data. The plural is "schemas". 
   * **Titles (the "title" in the front matter of pages):** only the first word, proper nouns and acronyms are capitalised.
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
