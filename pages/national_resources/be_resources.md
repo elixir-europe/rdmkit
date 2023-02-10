@@ -13,7 +13,7 @@ training:
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-be/?page=1&size=20
   - name: ELIXIR Belgium YouTube
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
 ref_to_main_resources:
@@ -29,7 +29,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, data manager]
+      your_role: [researcher, data_manager]
       your_tasks: []
     url: https://rdm.elixir-belgium.org
   - name: Galaxy Belgium
@@ -40,7 +40,7 @@ national_resources:
       tool_assembly: []
       your_domain: []
       your_role: [researcher]
-      your_tasks: [data analysis]
+      your_tasks: [data_analysis]
     url: https://usegalaxy.be
   - name: DMPonline.be
     description: This instance of DMPonline is provided by the DMPbelgium Consortium. We can help you write and maintain data management plans for your research.
@@ -49,16 +49,16 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data manager, researcher]
-      your_tasks: [DMP]
+      your_role: [data_manager, researcher]
+      your_tasks: [dmp]
     url: https://dmponline.be
   - name: PIPPA
     description: PIPPA, the PSB Interface for Plant Phenotype Analysis, is the central web interface and database that provides the tools for the management of the plant imaging robots on the one hand, and the analysis of images and data on the other hand.
     how_to_access:
     related_pages:
-      tool_assembly: [plant pheno assembly]
+      tool_assembly: [plant_pheno_assembly]
       your_domain: [plants]
-      your_role: [data manager, researcher, IT support]
+      your_role: [data_manager, researcher, it_support]
       your_tasks: []
     url: https://pippa.psb.ugent.be
     registry:
@@ -69,7 +69,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data manager, researcher, IT support]
+      your_role: [data_manager, researcher, it_support]
       your_tasks: [transfer]
     url: https://belnet.be/en
   - name: Flemish Supercomputing Center (VSC)
@@ -78,8 +78,8 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data manager, IT support]
-      your_tasks: [data analysis, storage]
+      your_role: [data_manager, it_support]
+      your_tasks: [data_analysis, storage]
     url: https://www.vscentrum.be
     
 

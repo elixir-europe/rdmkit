@@ -189,8 +189,13 @@ Priit Adler:
     email: adler@ut.ee
     orcid: 0000-0001-8276-5135
 Gregoire Rossier:
+    git: greg-r-sib
     email: gregoire.rossier@sib.swiss
     orcid: 0000-0002-0065-5053
+Vassilios Ioannidis:
+    git: vioannid
+    email: vassilios.ioannidis@sib.swiss
+    orcid: 0000-0002-4209-2578
 Alexander Botzki:
     git: abotzki
     email: alexander.botzki@vib.be
@@ -320,6 +325,7 @@ Rafael Andrade Buono:
     git: rabuono
 Sebastian Beier:
     git: sebeier
+    orcid: 0000-0002-2177-8781
 Sirarat Sarntivijai:
     git: siiraa
 Josh Moore:
@@ -365,12 +371,12 @@ Anastasis Oulas:
     email: anastasioso@cing.ac.cy
     git: aoulas
     affiliation: Cyprus Institute of Neurology & Genetics (CING)
-Heleri Inno: 
+Heleri Inno:
     git: heleriinno
     email: heleri.inno@ut.ee
     orcid: 0000-0003-2043-0772
-    affiliation: University of Tartu / ELIXIR-EE   
-Jorge Oliveira: 
+    affiliation: University of Tartu / ELIXIR-EE
+Jorge Oliveira:
     git: BioDataAdmin
     email: jorge.oliveira@tecnico.ulisboa.pt
     orcid: 0000-0001-6425-2176
@@ -387,7 +393,7 @@ Marco Carraro:
     git: marcocarraro
     email: marco.carraro.1@unipd.it
     orcid: 0000-0003-0770-1822
-Evangelos Pafilis: 
+Evangelos Pafilis:
     git: evangelospafilis
     orcid: 0000-0001-5079-0125
     affiliation: Institute of Marine Biology Biotechnology and Aquaculture / Hellenic Centre for Marine Research / ELIXIR-GR
@@ -424,7 +430,7 @@ Carla Cummins:
     orcid: 0000-0002-5394-8896
     affiliation: EMBL-EBI
 Philip van Damme:
-    git: PhilipvD 
+    git: PhilipvD
     email: p.vandamme@amsterdamumc.nl
     orcid: 0000-0002-7124-8949
     affiliation: Amsterdam UMC
@@ -440,5 +446,30 @@ Ishwar Chandramouliswaran:
     role: editor
 Philippe Rocca-Serra:
     git: proccaserra
+    orcid: 0000-0001-9853-5668
 Beatriz Serrano-Solano:
     git: beatrizserrano
+Isabelle Alic:
+    git: Isabelle-inrae
+    email: isabelle.alic@inrae.fr
+    orcid: 0000-0002-8961-6068
+    affiliation: INRAE - MISTEA
+Marek Suchánek:
+    git: MarekSuchanek
+    orcid: 0000-0001-7525-9218
+    affiliation: DSW / CTU in Prague / ELIXIR-CZS
+Matthias Lange:
+    git: langeipk
+    orcid: 0000-0002-4316-078X
+    email: lange@ipk-gatersleben.de
+    affiliation: IPK-Gatersleben
+Aneas Hodselmans:
+    git:
+    orcid: 0000-0002-2924-918X
+    email: a.w.hodselmans@rug.nl
+    affiliation: University of Groningen
+Marije van der Geest:
+    git:
+    orcid: 0000-0002-1919-6547
+    email: m.a.van.der.geest@umcg.nl
+    affiliation: University Medical Center Groningen

@@ -11,8 +11,8 @@ national_resources:
     how_to_access:
     instance_of: DMPRoadmap
     related_pages:
-      your_role: [data manager, researcher]
-      your_tasks: [DMP]
+      your_role: [data_manager, researcher]
+      your_tasks: [dmp]
     url: https://dmponline.dcc.ac.uk/
     
   - name: CyVerse UK
@@ -20,7 +20,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: https://cyverseuk.org/
     
@@ -29,7 +29,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: https://www.jisc.ac.uk/guides/rdm-toolkit 
     
@@ -38,7 +38,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
     
@@ -47,7 +47,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data manager, researcher]
+      your_role: [data_manager, researcher]
       your_tasks: [metadata]
     url: http://intermine.org/
 
@@ -75,7 +75,7 @@ This page provides an overview of the data management resources in the UK. The t
 ## National policies and recommendations for research data
   * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018)
   * The [Five Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/) framework enabling data services to provide safe research access to data
-  * [Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector
+  * [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector
 
 ## Domain-specific data infrastructures
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics

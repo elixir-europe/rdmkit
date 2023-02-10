@@ -13,6 +13,11 @@ We are, since the beginning, actively spreading the word about RDMkit making sur
 
 RDMkit was presented at all hands. The presentation can be found on [f1000 research](https://f1000research.com/slides/11-737)
 
+### Q-EBRA WORKSHOP: Your next grant application - methodological approach
+
+**2022-04-27**
+
+The event involved different activities on how to write a grant application and DMP generation, including a talk about RDMkit and an eLearning session on how to use the Data Stewardship Wizard. [More information about the event](https://www.ebra.eu/news-and-events/event-report-of-q-ebra-workshop-your-next-grant-application-methodological-approach/#)
 
 ### How RDMkit works and the theme behind it - Infectious diseases toolkit introduction
 
@@ -32,7 +37,7 @@ RDMkit was presented at all hands. The presentation can be found on [f1000 resea
 
 NEURON organized an open virtual meeting “European Biomedical Research Infrastructures’ resources for Researchers in Neurosciences”. The 2-day-webinar addressed the different resources that several European Biomedical Research Infrastructures, such as ELIXIR, EBRAINS and INFRAFRONTIER, can offer to the researchers in Neurosciences, including the RDMkit and DSW. The webinar was held on February 1st & 3rd, 2022.
 - [More information about the event](https://www.neuron-eranet.eu/news-publications/events/european-biomedical-research-infrastructures-resources-for-researchers-in-neurosciences/)
-- [Youtube video](https://www.youtube.com/watch?v=qiKtDw15GmU)
+- [YouTube video](https://www.youtube.com/watch?v=qiKtDw15GmU)
 - [Presentation](https://www.neuron-eranet.eu/wp-content/uploads/RDMkit-DSW-ERANet-Neuron.pdf)
 
 ### RDMkit: A data management toolkit for life scientists

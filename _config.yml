@@ -4,8 +4,7 @@ title: RDMkit
 description: "Best practices and guidelines you can use for FAIR management of your research data."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.20.1
-
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.23.0
 sass:
   style: compressed
   sourcemap: never
@@ -13,7 +12,7 @@ sass:
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
+dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 
 theme_variables:
@@ -26,6 +25,11 @@ theme_variables:
 
 exclude:
   - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
 
 defaults:
   -

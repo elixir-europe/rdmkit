@@ -1,14 +1,17 @@
 ---
 title: Toxicology data
-description: Data management solutions for toxicology data
+description: Data management solutions for toxicology data.
 contributors: [Manuel Pastor, Janet Piñero Gonzalez, Juan Manuel Ramírez-Anguita, Ferran Sanz, Miguel Angel Mayer, Laura Portell Silva]
-page_id: toxicology data
+page_id: toxicology_data
 related_pages: 
-  your_tasks: [data analysis]
+  your_tasks: [data_analysis]
   tool_assembly: []
 dsw:
 - name: Will you need existing data for toxicology research
   uuid: a781badf-f7ee-4588-9478-d31470f00c38
+faircookbook:
+- name: Creating InChIKeys for IUPAC names
+  url: https://w3id.org/faircookbook/FCB080
 ---
 
 ## Introduction

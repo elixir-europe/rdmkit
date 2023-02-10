@@ -2,11 +2,11 @@
 title: CSC
 contributors: [Siiri Fuchs, Minna Ahokas]
 description: The Center of Science (CSC) provides high-quality ICT expert services for researchers in Finland and their collaborators.
-page_id: CSC
+page_id: csc
 affiliations: [FI, CSC, ELIXIR Europe]
 related_pages: 
-  your_tasks: [sensitive, DMP, data protection, storage, data publication, data transfer, data analysis]
-  your_domain: [human data]
+  your_tasks: [sensitive, dmp, data_protection, storage, data_publication, data_transfer, data_analysis]
+  your_domain: [human_data]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -18,14 +18,14 @@ training:
   - name: CSC - Learning Materials for Bioscientists
     url: https://research.csc.fi/bioscience-learning-materials
   - name: CSC - Data management youtube channel
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/watch?v=Ol7mniw687E&list=PLD5XtevzF3yEZw-8LadtaGVV8Um6CbMja
   - name: CSC - Research data management services for life science research (youtube video)
     url: https://youtu.be/lf9L7PYQrBE
   - name: Data analysis with Chipster - Course packages
     url: https://chipster.rahtiapp.fi/manual/courses.html
   - name: Tutorials and lecture playlists on different topics (youtube)
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists
 ---
 
@@ -34,11 +34,11 @@ training:
 
 
 ## Who can use the CSC data management tool assembly?
-CSC and ELIXIR-FI services are accessible for researchers in Finland and to foreign collaborators of Finland-based research groups. Most of CSC's services are [free-of-charge](https://research.csc.fi/free-of-charge-use-cases) for academic research, education and training purposes in Finnish higher education institutions and in state research institutes. Researchers can start using services by registering an [account](https://research.csc.fi//accounts-and-projects) and get bioinformatics user support from our [service desk](servicedesk@csc.fi).
+CSC and ELIXIR-FI services are accessible for researchers in Finland and to foreign collaborators of Finland-based research groups. Most of CSC's services are [free-of-charge](https://research.csc.fi/free-of-charge-use-cases) for academic research, education and training purposes in Finnish higher education institutions and in state research institutes. Researchers can start using services by registering an [account](https://research.csc.fi//accounts-and-projects) and get bioinformatics user support from our [service desk](mailto:servicedesk@csc.fi).
 
 
 ## How can you access the CSC data management tool assembly?
-You can access all CSC services through several secure authentication methods. Start by [registering an account at CSC](https://docs.csc.fi/accounts/how-to-create-new-user-account/) with your home organization HAKA or VIRTU login or by contacting our [service desk](servicedesk@csc.fi). Afterwards you can also use ELIXIR login. Find more information from [CSC accounts and support web pages](https://research.csc.fi//accounts-and-projects) how to get access to different services.
+You can access all CSC services through several secure authentication methods. Start by [registering an account at CSC](https://docs.csc.fi/accounts/how-to-create-new-user-account/) with your home organization HAKA or VIRTU login or by contacting our [service desk](mailto:servicedesk@csc.fi). Afterwards you can also use ELIXIR login. Find more information from [CSC accounts and support web pages](https://research.csc.fi//accounts-and-projects) how to get access to different services.
 
 
 ## For what can you use the CSC data management tool assembly?

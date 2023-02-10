@@ -1,13 +1,13 @@
 ---
 
-title: Greece
+title: Slovenia
 search_exclude: true
-description: <!---REPLACE THIS with a one sentence description of the page--->
-country_code: GR
+country_code: SI
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
 
-# Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
+# Link to other pages in the tool assembly section on the RDMkit by listing the page_id.
+# More information on which page_id you can use can be found at https://rdmkit.elixir-europe.org/website_overview 
 related_pages:
   tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
 
@@ -45,6 +45,7 @@ national_resources:
       biotools: <!--- DELETE ME if not needed --->
       fairsharing: <!--- DELETE ME if not needed --->
       tess: <!--- DELETE ME if not needed --->
+# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 

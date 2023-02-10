@@ -18,15 +18,15 @@ national_resources:
   description: BioData.pt Service Hub includes several data management resources, tools and services available for researchers in Life Sciences.
   how_to_access: 
   related_pages:
-    your_role: [researcher, data manager]
-    your_tasks: [data analysis, storage]
+    your_role: [researcher, data_manager]
+    your_tasks: [data_analysis, storage]
   url: http://services.biodata.pt/
 - name: BioData.pt Data Management Portal (DMPortal)
   description: This instance of DataVerse is provided by the BioData.pt. We can help you write and maintain data management plans for your research.
   instance_of: DATAVERSE
   how_to_access: 
   related_pages:
-    your_role: [researcher, data manager]
+    your_role: [researcher, data_manager]
     your_tasks: [storage]
   url: https://dmportal.biodata.pt/
 - name: BioData.pt Data Stewardship Wizard
@@ -34,8 +34,8 @@ national_resources:
   instance_of: Data Stewardship Wizard
   how_to_access: 
   related_pages:
-    your_role: [researcher, data manager]
-    your_tasks: [DMP]
+    your_role: [researcher, data_manager]
+    your_tasks: [dmp]
   url: https://biodata-pt.ds-wizard.org/
 - name: Ready for BioData Management
   description: Capacity building program in data management for the life sciences to empower researchers and institutions in managing their data more effectively and efficiently.
@@ -43,7 +43,7 @@ national_resources:
   how_to_access: 
   related_pages:
     your_role: [researcher]
-    your_tasks: [DMP]
+    your_tasks: [dmp]
   url: http://ready4biodatamanagement.biodata.pt/
 ---
 

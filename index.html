@@ -8,6 +8,7 @@ layout: none
 {% include head.html %}
 
 <body>
+    {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <div class="landingpage">
         <section class="container mb-5">
@@ -75,9 +76,14 @@ layout: none
         </section>
         <section class="py-5 bg-light">
             <div class="container">
-            {% include events.html event_type="upcoming_event" title=true caption=true %}
-
-            {% include news.html caption=true title=true limit=3 %}
+                <div class="row">
+                    <div class="col-lg-6">
+                    {% include news.html caption=true title=true limit=3 %}
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                    {% include events.html title=true event_type="upcoming_event"%}
+                    </div>
+                </div>
             </div>
         </section>
         <section class="container my-5">
@@ -154,7 +160,7 @@ layout: none
     </div>
     {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
     <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
-        <i class="fa-solid fa-arrow-up"></i><span class="ms-2 d-none d-sm-inline">Back to top</span>
+        <i class="fa-solid fa-arrow-up"></i>
     </button>
     {%- endif %}
     {% include footer.html %}

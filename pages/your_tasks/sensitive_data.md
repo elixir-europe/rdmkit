@@ -1,30 +1,36 @@
 ---
 title: Sensitive data
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
-description: How to identify different research data types
+description: How to identify the sensitivity of different research data types
 page_id: sensitive
 related_pages: 
-  tool_assembly: [TSD, Covid-19, transmed]
+  tool_assembly: [tsd, covid-19, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
+  - name: RDMbites for using REDCap
+    registry: TeSS
+    url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
+  - name: RDMbites for sensitive data
+    registry: TeSS
+    url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
 dsw:
-- name: Will you collect any data connected to a person, "personal data"?
-  uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
-- name: Are personal data sufficiently protected?
-  uuid: d5990471-0618-42cd-92cb-bbbfd4f61532
-- name: Does this dataset contain personal data?
-  uuid: a1d76760-053c-4706-80a2-cfb6c6a061f3
-- name: How is pseudonymization handled?
-  uuid: 59748a7b-f729-404d-babe-3147e2c6b247
 - name: Are there privacy reasons why your data can not be open?
   uuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
+- name: Will you collect any data connected to a person, "personal data"?
+  uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
+- name: How is pseudonymization handled?
+  uuid: 59748a7b-f729-404d-babe-3147e2c6b247
 - name: Could the coupling of data create a danger of re-identification of anonymized
     privacy sensitive data?
   uuid: 6b3d62a5-1d4d-49e1-aaf1-0a8b398a7ac3
+- name: Does this dataset contain personal data?
+  uuid: a1d76760-053c-4706-80a2-cfb6c6a061f3
 - name: Does this dataset contain sensitive information?
   uuid: cc95b399-7d8d-4232-bccf-686f78c91bff
+- name: Are personal data sufficiently protected?
+  uuid: d5990471-0618-42cd-92cb-bbbfd4f61532
 faircookbook:
 - name: Declaring data's permitted uses
   url: https://w3id.org/faircookbook/FCB035

@@ -14,7 +14,7 @@ national_resources:
       tool_assembly:
       your_domain:
       your_role: [researcher]
-      your_tasks: [data analysis]
+      your_tasks: [data_analysis]
     url: https://galaxy.hpc.ut.ee/
 
   - name: REDCap Estonia
@@ -24,8 +24,8 @@ national_resources:
     related_pages:
       tool_assembly:
       your_domain:
-      your_role: [data manager]
-      your_tasks: [data quality]
+      your_role: [data_manager]
+      your_tasks: [data_quality]
     url: https://redcap.ut.ee/
 ---
 
@@ -41,7 +41,7 @@ The Estonian government has released an [“Estonian Research and Development, I
 * [Republic of Estonia Education and Youth Board](https://harno.ee/en)
 
 ## Relevant initiatives
-<!--- Ethical and legal regulations in the country, committees etc; we mostly don't have these, we will add different organisations dealing with data management in Estonia --->
+<!--- Ethical and legal regulations in the country, committees, etc.; we mostly don't have these, we will add different organisations dealing with data management in Estonia --->
 
 ### Organisations
 * [Estonian Research Council](https://etag.ee/en/activities/open-science/) open science policies, surveys and documentation.

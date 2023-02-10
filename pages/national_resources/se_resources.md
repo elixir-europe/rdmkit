@@ -10,7 +10,7 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Sweden&scientific_topics=Data+management
   - name: SciLifeLab Data Management YouTube
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
 national_resources:
@@ -19,33 +19,33 @@ national_resources:
     how_to_access: ELIXIR AAI login
     instance_of: Data Stewardship Wizard
     related_pages:
-      your_tasks: [DMP]
+      your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     instance_of: FigShare
     related_pages:
-      your_tasks: [existing data, data publication]
+      your_tasks: [existing_data, data_publication]
     url: https://scilifelab.figshare.com/
   - name: NBIS Data Management Consultation
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
-      your_tasks: [DMP, data publication, sensitive]
+      your_tasks: [dmp, data_publication, sensitive]
     url: https://nbis.se/support/supportform/index.php?form=consultation
   - name: Swedish COVID-19 Data Portal
     description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
-      tool_assembly: [Covid-19]
-      your_domain: [human data]
-      your_tasks: [sensitive, existing data, data publication]
+      tool_assembly: [covid-19]
+      your_domain: [human_data]
+      your_tasks: [sensitive, existing_data, data_publication]
     url: https://covid19dataportal.se/ 
   - name: SNIC 
     description: The Swedish National Infrastructure for Computing (SNIC) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
     how_to_access: An application is required to gain access to the compute and storage services.
     related_pages:
-      your_tasks: [data analysis, storage]
+      your_tasks: [data_analysis, storage]
     url: https://www.snic.se/ 
   - name: SciLifeLab Data Guidelines
     description: A data type centric resource that provides guidance on good data management practices during the data life cycle, including available infrastructures.
@@ -53,7 +53,7 @@ national_resources:
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
-      your_domain: [human data]
+      your_domain: [human_data]
       your_tasks: [sensitive]
     url: https://nbis.se/support/human-data.html
     
@@ -101,9 +101,12 @@ List of universities with established Research Data Offices or Data Access Units
 * Chalmers University of Technology - [Research Data Support](https://www.lib.chalmers.se/en/publish-and-analyse/open-access/research-data/) - <dataoffice@chalmers.se>
 * Karolinska Institutet - [Research Data Support](https://staff.ki.se/about-research-data-office-rdo) - <rdo@ki.se>
 * KTH Royal Institute of Technology - [Research Data Support](https://intra.kth.se/en/forskning/overgripande-stod) - <researchdata@kth.se>
+* Linköping University - [Research Data Support](https://ep.liu.se/en/datamanagement.aspx) - <datamanagement@liu.se>
+* Linnaeus University - [Research Data Support](https://lnu.se/en/medarbetare/researcher/researcher5/research-data/) - <dau@lnu.se>
 * Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-data/contacts-and-research-data-initiatives) - See web page for contact information
 * Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - <opendata@su.se>
 * Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data) - <dms@slu.se>
 * Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/library/research-data/organisation-and-contacts/) for contact information
 * University of Gothenburg - [Research Data Support](https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001) - <researchdata@gu.se>
 * Uppsala University - [Research Data Support](https://mp.uu.se/en/web/info/forska/forskningsdata) - <dataoffice@uu.se>
+* Örebro University - [Research Data Support](https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/) - See web page for contact information

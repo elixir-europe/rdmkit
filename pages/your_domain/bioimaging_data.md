@@ -1,16 +1,23 @@
 ---
 title: Bioimaging data
-description: Data management solutions for bioimaging data
+description: Data management solutions for bioimaging data.
 contributors: [Sébastien Besson, Jean-Marie Burel, Susanne Kunis, Josh Moore, Stefanie Weidtkamp-Peters]
-page_id: bioimaging data
+page_id: bioimaging_data
 related_pages: 
-  your_tasks: [DMP, data organisation, data publication, existing data, transfer, licensing, metadata, storage]
-  tool_assembly: [ome, XNAT-PIC]
+  your_tasks: [dmp, data_organisation, data_publication, existing_data, transfer, licensing, metadata, storage]
+  tool_assembly: [ome, xnat-pic]
+training:
+  - name: RDMbites for using REMBI
+    registry: TeSS
+    url: https://tess.elixir-europe.org/collections/rdmbites-data-sharing-collection
+faircookbook:
+- name: IMI EUBOPEN FAIR High-Content Screening data deposition
+  url: https://w3id.org/faircookbook/FCB067
 ---
 
 ## Introduction
 
-Bioimaging specialists are acquiring an ever growing amount of data: images, associated metadata, etc. However, image data management often does not receive the attention it requires or is avoided altogether since it is considered a burdensome task. At the same time, storing images on personal computers or USB keys is no longer an option, assuming it ever was! Data volume is exponentially increasing, and not just the acquired images need storing but potentially processed images will be generated and will need to be kept alongside the original images. It is critical to proactively identify where the data will be stored, for how long, who will cover the cost of the hardware, and who will cover the cost of managing the infrastructure. All the stakeholders need to be involved in the preliminary discussions: biologists, facility managers, data analysis, IT support, etc. to ensure that the requirements are understood and met. 
+Bioimaging specialists are acquiring an ever growing amount of data: images, associated metadata, etc. However, image data management often does not receive the attention it requires or is avoided altogether since it is considered a burdensome task. At the same time, storing images on personal computers or USB keys is no longer an option, assuming it ever was! Data volume is exponentially increasing, and not just the acquired images need storing but potentially processed images will be generated and will need to be kept alongside the original images. It is critical to proactively identify where the data will be stored, for how long, who will cover the cost of the hardware, and who will cover the cost of managing the infrastructure. All the stakeholders need to be involved in the preliminary discussions: biologists, facility managers, data analysis, IT support, etc., to ensure that the requirements are understood and met. 
 
 ## What constitutes bioimage data
 
@@ -88,7 +95,7 @@ Due to the scale of data, keeping track of the image data and the associated dat
    - Make your data publicly available and slowly moving towards FAIRness.
  - Try to avoid storing bioimaging data in the local system’s PC.
  - If possible, make a transfer to central storage mandatory. If not possible, enable automation of data backup to central storage.
- - Consider support for minimal standards (metadata schemas, file formats etc.) in your domain.
+ - Consider support for minimal standards (metadata schemas, file formats, etc.) in your domain.
  - Consider reusing existing data.
 
 

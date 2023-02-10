@@ -6,7 +6,8 @@ country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capita
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
 
-# Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
+# Link to other pages in the tool assembly section on the RDMkit by listing the page_id.
+# More information on which page_id you can use can be found at https://rdmkit.elixir-europe.org/website_overview 
 related_pages:
   tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
 
@@ -18,7 +19,7 @@ training:
     registry: Zenodo
     url: <!--- https://zenodo.org/communities/elixir NODENAME --->
   - name: ELIXIR NODENAME YouTube
-  - registry: Youtube
+    registry: YouTube
     url: <!--- URL of the channel --->
   - name: <!---REPLACE THIS with the name of your training in registry or platform--->
     registry: <!---REPLACE THIS with the name of the registry--->
@@ -32,7 +33,7 @@ ref_to_main_resources:
 national_resources: 
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
+    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations, etc., are needed to access the resource or tool--->
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
@@ -44,6 +45,7 @@ national_resources:
       biotools: <!--- DELETE ME if not needed --->
       fairsharing: <!--- DELETE ME if not needed --->
       tess: <!--- DELETE ME if not needed --->
+# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
@@ -58,7 +60,7 @@ national_resources:
 ## Funders
 
 ## Regulations
-<!--- Ethical and legal regulations in the country, committees etc --->
+<!--- Ethical and legal regulations in the country, committees, etc. --->
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
