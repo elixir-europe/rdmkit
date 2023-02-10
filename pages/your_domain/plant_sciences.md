@@ -108,7 +108,7 @@ It is recommended that metadata collection is contemplated from the start of the
   * [e!DAL](https://edal.ipk-gatersleben.de/) is a free data management platform for which MIAPPE templates are in development.
   * The [ISA-Tools](https://isa-tools.org/) also include a configuration for MIAPPE and can be used both for filling-in metadata and for validating.
   * [Collaborative Open Plant Omics (COPO)](https://copo-project.org/) is a data management platform specific for the plant sciences.
-  * [FAIRsharing](https://fairsharing.org) is a manually curated registry of reporting guidelines, vocabularies, identifier schema, models, formats, repositories, knowledge bases, and data policies that includes many resources relevant for managing plant phenotyping data.
+  * [FAIRsharing](https://fairsharing.org) is a manually curated registry of reporting guidelines, vocabularies, identifier schemes, models, formats, repositories, knowledge bases, and data policies that includes many resources relevant for managing plant phenotyping data.
 * Validation of MIAPPE compliance can be done via [ISA-Tools](https://isa-tools.org/) or upon data deposition in a [Breeding API](https://brapi.org/) (BrAPI) [compliant repository](https://www.brapi.org/servers).
 * If you or your partners collect data manually, it is critical to adopt a spreadsheet template that is compatible with the structure of the database that will be used for data deposition.
   * If the database is MIAPPE compliant, you can use the [MIAPPE-compliant spreadsheet template](https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx).
