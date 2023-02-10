@@ -1,7 +1,6 @@
 ---
 
 title: Luxembourg
-search_exclude: true
 country_code: LU
 contributors: [Pinar Alper, Marina Popleteeva, Vilem Ded, Wei Gu]
 coordinators: [Wei Gu]
