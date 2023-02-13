@@ -12,7 +12,7 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
 faircookbook:
-- name: Plant genomic and genetic variation data submission to EMBL-EBI databases
+- name: Improving dataset maturity - the MIAPPE use case
   url: https://w3id.org/faircookbook/FCB061
 ---
 

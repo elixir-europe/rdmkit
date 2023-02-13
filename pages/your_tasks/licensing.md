@@ -13,11 +13,11 @@ dsw:
 faircookbook:
 - name: Licensing
   url: https://w3id.org/faircookbook/FCB032
-- name: Software licenses
+- name: Licensing Software
   url: https://w3id.org/faircookbook/FCB033
-- name: Data licenses
+- name: Licensing Data
   url: https://w3id.org/faircookbook/FCB034
-- name: Declaring data's permitted uses
+- name: Declaring data permitted uses
   url: https://w3id.org/faircookbook/FCB035
 ---
 

@@ -15,11 +15,11 @@ dsw:
 - name: How will your first data come in?
   uuid: f4065e54-d27a-45de-be4c-10384feacd0d
 faircookbook:
-- name: Transferring data with SFTP
+- name: Transferring data with SFTP protocol
   url: https://w3id.org/faircookbook/FCB014
-- name: Downloading data with Aspera
+- name: Downloading data with Aspera protocol
   url: https://w3id.org/faircookbook/FCB015
-- name: Describe data by checksums
+- name: Creating file checksums
   url: https://w3id.org/faircookbook/FCB052
 ---
 

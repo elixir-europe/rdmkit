@@ -17,7 +17,7 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB025
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
-- name: Extraction, transformation, and loading process
+- name: Surveying extraction, transformation, load (ETL) tools
   url: https://w3id.org/faircookbook/FCB031
 ---
 

@@ -16,9 +16,9 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB077
 - name: Interlinking data from different sources
   url: https://w3id.org/faircookbook/FCB016
-- name: Unique, persistent identifiers
+- name: Introducing unique, persistent identifiers
   url: https://w3id.org/faircookbook/FCB006
-- name: Minting identifiers with Minid
+- name: Minting identifiers with Globus Minid client
   url: https://w3id.org/faircookbook/FCB008
 ---
 

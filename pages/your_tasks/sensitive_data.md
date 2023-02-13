@@ -32,7 +32,7 @@ dsw:
 - name: Are personal data sufficiently protected?
   uuid: d5990471-0618-42cd-92cb-bbbfd4f61532
 faircookbook:
-- name: Declaring data's permitted uses
+- name: Declaring data permitted uses
   url: https://w3id.org/faircookbook/FCB035
 ---
 

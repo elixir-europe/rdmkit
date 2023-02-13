@@ -15,10 +15,12 @@ dsw:
 - name: Do you need a Data Protection Impact Assessment?
   uuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
 faircookbook:
-- name: Data licenses
+- name: Licensing Data
   url: https://w3id.org/faircookbook/FCB034
-- name: Declaring data's permitted uses
+- name: Declaring data permitted uses
   url: https://w3id.org/faircookbook/FCB035
+- name: Data Protection Impact Assessment and Data Privacy
+  url: https://w3id.org/faircookbook/FCB074
 ---
 
 

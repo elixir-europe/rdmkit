@@ -11,7 +11,7 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-data-sharing-collection
 faircookbook:
-- name: IMI EUBOPEN FAIR High-Content Screening data deposition
+- name: Depositing IMI EUBOPEN High-Content Screening data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB067
 ---
 
