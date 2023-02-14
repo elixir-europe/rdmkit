@@ -80,7 +80,7 @@ Luxembourg’s National Research Ethics Committee ([CNER](https://www.cner.lu/en
 
 The Luxembourgish node of [EATRIS](https://eatris.eu/countries/luxembourg/) provides services in translational medicine.
 
-Luxembourg National Data Service (LDS) is a government established organisation aiming to support and stimulate value creation from data in Luxembourg. LDS provides a variety of data management and stewardship services to enable the secondary use of data. LDS services are domain-agnostic and support the life sciences as well as other domains. 
+Luxembourg National Data Service (LNDS) is a government established organisation aiming to support and stimulate value creation from data in Luxembourg. LNDS provides a variety of data management and stewardship services to enable the secondary use of data. LNDS services are domain-agnostic and support the life sciences as well as other domains. 
 
 The Integrated BioBank of Luxembourg ([IBBL](https://www.lih.lu/en/translational-medicine/translational-medicine-operations-hub/integrated-biobank-of-luxembourg-ibbl/)) is a not-for-profit institute and the national biobanking platform hosted within the Luxembourg Institute of Health ([LIH](https://www.lih.lu/en/)). IBBL provides a full range of biobanking services to the biomedical sector including the industry, academia and EU consortia.
 
