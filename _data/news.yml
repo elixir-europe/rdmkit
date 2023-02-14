@@ -102,3 +102,7 @@
   date: 2023-02-10
   linked_pr: 1063
   description: This page gives an insight in RDM on national level in Luxembourg. [Discover the page here](lu_resources)
+- name: "New page: Costs for data management"
+  date: 2023-02-14
+  linked_pr: 1171
+  description: This page gives insights about costs for data management, and related solutions and resources. [Discover the page here](costs).
