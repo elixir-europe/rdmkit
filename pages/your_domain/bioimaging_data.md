@@ -36,9 +36,9 @@ Managing images immediately becomes a larger problem, not only the binary files 
 Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
 
 The collection of images can take several forms: 
- - Data acquired within a facility
- - Data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility
- - Slides scanned for example.
+ - data acquired within a facility;
+ - data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility;
+ - slides scanned for example.
 
 ## Standard (meta)data formats
 
@@ -58,7 +58,7 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 **Vendor libraries**: Some vendors provide open source libraries for parsing their proprietary file formats. See [libCZI](https://github.com/ZEISS/libczi) from Zeiss.
 
-**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data with needing to transform it. You will need to perform this translation each time you access your data.
+**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data with needing to transform it. You will need to perform this translation each time you access your data. Translation libraries include, 
 
   - [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) (Java) - supports over 150 file formats
   - [OpenSlide](https://openslide.org/) (C++) - primarily for whole-slide imaging (WSI) formats
@@ -66,16 +66,16 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 **Permanent conversion**: An alternative is permanently convert your data to
 
-  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. Bio-Formats (above) is likely the most straight-forward method to convert your data to OME-TIFF.
-  - The [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) and [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff) toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, you might want to give it a try.
+  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. Bio-Formats (above) is likely the most straight-forward method to convert your data to OME-TIFF
+  - The [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) and [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff) toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, you might want to give it a try
 
 **Cloud (or "object") storage**: If you are storing your data in the cloud, you will likely need a different file format since most current image file formats are not suitable for cloud storage. OME is currently developing a [next-generation file format (NGFF)](https://ngff.openmicroscopy.org/latest/) that you can use.
 
 **Metadata**: If metadata are stored separately from the image data, the format of the metadata should follow the subject-specific standards regarding the schema, vocabulary or ontologies and storage format used such as:
 
-  - [OME model](https://docs.openmicroscopy.org/ome-model/latest/) XML-based representation of microscopy data
-  - [Quality assessment working groups](https://quarep.org/)
-  - [REMBI](https://www.nature.com/articles/s41592-021-01166-8)
+  - [OME model](https://docs.openmicroscopy.org/ome-model/latest/) XML-based representation of microscopy data.
+  - [Quality assessment working groups](https://quarep.org/).
+  - [REMBI](https://www.nature.com/articles/s41592-021-01166-8).
 
 
 
@@ -105,23 +105,23 @@ Due to the scale of data, keeping track of the image data and the associated dat
 ### Solutions
 
  - Agnostic platforms that can be used to bridge between domain data include:
-   - [iRODS](https://irods.org/)
-   - [b2share](https://b2share.eudat.eu/)
+   - [iRODS](https://irods.org/).
+   - [b2share](https://b2share.eudat.eu/).
  - Image-specific data management platforms include:
-   - [OMERO](https://www.openmicroscopy.org/omero/) - broad support for a large number of imaging formats
-   - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) - image specific
-   - [XNAT](https://www.xnat.org/) - medical imaging platform, DICOM-based
-   - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data
-   - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images
+   - [OMERO](https://www.openmicroscopy.org/omero/) - broad support for a large number of imaging formats.
+   - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) - image specific.
+   - [XNAT](https://www.xnat.org/) - medical imaging platform, DICOM-based.
+   - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data.
+   - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images.
   - Platforms like [OMERO](https://www.openmicroscopy.org/omero/), [b2share](https://b2share.eudat.eu/) also allow you to publish the data associated with a given project.
   - Metadata standards can be found at the [Metadata Standards Directory Working Group](https://rdamsc.bath.ac.uk/).
   - Ontologies Resources available at:
-    - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms
-    - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service
-    - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies
+    - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms.
+    - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service.
+    - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies.
    - Existing data can be found by using the following resources:
-    - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers)
-    - [Research Data repositories Registry](https://www.re3data.org/)
+    - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers).
+    - [Research Data repositories Registry](https://www.re3data.org/).
 
 
 ## Data publication and archiving
@@ -135,7 +135,7 @@ mainly due to limited infrastructures capable of hosting the data. There are a f
 
 Two distinct types of resources should be considered: 
  - Data archives ("storage") as a long-lasting storage for data and metadata and making those data easily accessible to the community.
- - Added-values archives: store enhanced curated data, typically aiming at a scientific community,
+ - Added-values archives: store enhanced curated data, typically aiming at a scientific community.
 
 
 ### Considerations
@@ -143,10 +143,10 @@ Two distinct types of resources should be considered:
 - If you only need to make your data available online and have limited metadata associated, consider publishing in a **Data archive**.
 - If your data should be considered as a reference dataset, consider an **Added-values archive**.
 - Select and choose the repositories based on the following characteristics:
-  - Storage vs Added-value resources
-  - Images format support
+  - Storage vs Added-value resources.
+  - Images format support.
   - Supported licenses e.g. CC0 or CC-BY license. For example the [Image Data Resource (IDR)](http://idr.openmicroscopy.org/) uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
-  - Which types of access is required for the users e.g. download only, browse search and view data and metadata, API access, etc. 
+  - Which types of access is required for the users e.g. download only, browse search and view data and metadata, API access. 
       - Does an entry have an access e.g. idr-xxx, EMPIAR-#####?
       - Does an entry have a DOI (Digital Object Identifier)?
 
