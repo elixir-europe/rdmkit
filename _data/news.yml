@@ -105,4 +105,4 @@
 - name: "New page: Costs for data management"
   date: 2023-02-14
   linked_pr: 1171
-  description: This page gives insights about costs for data management, and related solutions and resources. [Discover the page here](costs).
+  description: This page gives insights about costs for data management, and related solutions and resources. [Discover the page here](costs_data_management).

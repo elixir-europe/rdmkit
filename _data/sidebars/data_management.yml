@@ -57,7 +57,7 @@ subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring
       - title: Costs for data management
-        url: /dm_costs
+        url: /costs_data_management
       - title: Data analysis
         url: /data_analysis
       - title: Data brokering
