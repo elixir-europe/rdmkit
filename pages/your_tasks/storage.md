@@ -16,6 +16,15 @@ dsw:
   uuid: d4e6a244-07fb-4573-b93f-c20a9409ac7c
 - name: Will you be storing data in an "object store" or a "document store" system?
   uuid: dc39957e-688a-4f71-a6a8-57f52509e7cf
+faircookbook:
+- name: Licensing Software
+  url: https://w3id.org/faircookbook/FCB033
+- name: Making Computational Workflows FAIR
+  url: https://w3id.org/faircookbook/FCB062
+- name: Depositing to generic repositories - Zenodo use case
+  url: https://w3id.org/faircookbook/FCB0009
+- name: Registering datasets with Wikidata
+  url: https://w3id.org/faircookbook/FCB060
 ---
 
 ## What features do you need in a storage solution when collecting data?
@@ -24,7 +33,7 @@ dsw:
 
 The need for Data storage arises early on in a research project, as space will be required to put your data when starting collection or generation. Therefore, it is a good practice to think about storage solutions during the data management planning phase, and request storage in advance and/or pay for it.
 
-The storage solution for your data should fulfil certain criteria (e.g. space, access & transfer speed, duration of storage etc), which should be discussed with the IT team. You may choose a tiered storage system for assigning data to various types of storage media based on requirements for access, performance, recovery and cost. Using tiered storage allows you to classify data according to levels of importance and assign it to the appropriate storage tiers or move it to different tier for e.g. once analysis is completed you have the option to move data to lower tier for preservation or archiving.
+The storage solution for your data should fulfil certain criteria (e.g. space, access & transfer speed, duration of storage, etc.), which should be discussed with the IT team. You may choose a tiered storage system for assigning data to various types of storage media based on requirements for access, performance, recovery and cost. Using tiered storage allows you to classify data according to levels of importance and assign it to the appropriate storage tiers or move it to different tier for e.g. once analysis is completed you have the option to move data to lower tier for preservation or archiving.
 
 Tiered Storage is classified as “Cold” or “Hot” Storage. “Hot” storage is associated with fast access speed, high access frequency, high value data and consists of faster drives such as the Solid State Drives (SSD). This storage is usually located in close proximity to the user such as on campus and incurs high costs. “Cold” storage is associate with low access speed and frequency and consists of slower drives or tapes. This storage is usually off-premises and incurs low cost.
 

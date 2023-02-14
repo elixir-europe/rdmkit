@@ -144,6 +144,8 @@ subitems:
         url: /fr_resources
       - title: Italy
         url: /it_resources
+      - title: Luxembourg
+        url: /lu_resources
       - title: Netherlands
         url: /nl_resources
       - title: Norway

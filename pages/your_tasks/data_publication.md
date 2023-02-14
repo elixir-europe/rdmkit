@@ -25,7 +25,7 @@ Sometimes it is difficult to determine if publishing data you have at hand is th
   * Who controls the data?
 
 ### Solutions
-* If ethical, legal or contractual issues apply to your data type (e.g. personal or sensitive data, confidential or third-party data, data with copyright, data with potential economic or commercial value, intellectual property or IP data, etc), ask for help and advice from the Legal Team, Tech Transfer Office, and/or Data Protection Officer of your institute.
+* If ethical, legal or contractual issues apply to your data type (e.g. personal or sensitive data, confidential or third-party data, data with copyright, data with potential economic or commercial value, intellectual property or IP data, etc.), ask for help and advice from the Legal Team, Tech Transfer Office, and/or Data Protection Officer of your institute.
 * Decide what is the right [type of access](sharing#what-should-be-considered-for-data-sharing) for your data, for instance:
   * Open access.
   * Registered access or with authentication procedure.
@@ -82,7 +82,7 @@ Once you have decided where to publish your data, you will have to make your (me
 
 ### Solutions
   * Learn the following information about the chosen repositories:
-    * Required metadata schemes
+    * Required metadata schemas
     * Required ontologies or controlled vocabularies
     * Accepted file formats for data and metadata
     * Costs for sharing and storing data

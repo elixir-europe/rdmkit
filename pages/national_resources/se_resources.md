@@ -101,9 +101,12 @@ List of universities with established Research Data Offices or Data Access Units
 * Chalmers University of Technology - [Research Data Support](https://www.lib.chalmers.se/en/publish-and-analyse/open-access/research-data/) - <dataoffice@chalmers.se>
 * Karolinska Institutet - [Research Data Support](https://staff.ki.se/about-research-data-office-rdo) - <rdo@ki.se>
 * KTH Royal Institute of Technology - [Research Data Support](https://intra.kth.se/en/forskning/overgripande-stod) - <researchdata@kth.se>
+* Linköping University - [Research Data Support](https://ep.liu.se/en/datamanagement.aspx) - <datamanagement@liu.se>
+* Linnaeus University - [Research Data Support](https://lnu.se/en/medarbetare/researcher/researcher5/research-data/) - <dau@lnu.se>
 * Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-data/contacts-and-research-data-initiatives) - See web page for contact information
 * Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - <opendata@su.se>
 * Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data) - <dms@slu.se>
 * Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/library/research-data/organisation-and-contacts/) for contact information
 * University of Gothenburg - [Research Data Support](https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001) - <researchdata@gu.se>
 * Uppsala University - [Research Data Support](https://mp.uu.se/en/web/info/forska/forskningsdata) - <dataoffice@uu.se>
+* Örebro University - [Research Data Support](https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/) - See web page for contact information

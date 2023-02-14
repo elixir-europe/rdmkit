@@ -689,14 +689,6 @@
   - data_protection
   - transmed
   url: https://daisy-demo.elixir-luxembourg.org
-- description: DAMAP is a Data Management Planning tool that is being developed as
-    part of the FAIR Data Austria project
-  name: DAMAP
-  related_pages:
-  - dmp
-  - researcher
-  - data_manager
-  url: https://damap.org/
 - description: Unique collection of project-level metadata from large research initiatives
     in a diverse range of fields, including clinical, molecular and observational
     studies. Its aim is to improve the findability of these projects following FAIR
@@ -792,6 +784,16 @@
   - policy_officer
   - human_data
   url: https://dawid.elixir-luxembourg.org/
+- description: It guides you step by step through a DMP and lets you export a pre-filled
+    DMP as a Word document that you can customize and use for submission to funders.
+    Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs
+    and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.
+  name: DAMAP
+  related_pages:
+  - dmp
+  - researcher
+  - data_manager
+  url: https://damap.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   name: dbGAP
@@ -875,6 +877,15 @@
   - it_support
   - data_analysis
   url: https://www.docker.com/
+- description: A DSW knowledge model guiding users through a set of questions to collect
+    information necessary for a research project Data Protection Impact Assessment
+    (DPIA).
+  name: DPIA Knowledge Model
+  related_pages:
+  - data_protection
+  - policy_officer
+  - human_data
+  url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
 - description: Cloud storage and file sharing service
   name: Dropbox
   related_pages:
@@ -1245,6 +1256,8 @@
 - description: The FIP is a collection of FAIR implementation choices made by a community
     of practice for each of the FAIR Principles.
   name: FAIR Implementation Profile
+  registry:
+    fairsharing: '343864'
   related_pages:
   - dm_coordination
   - dmp
@@ -1285,7 +1298,7 @@
   - plant_geno_assembly
   url: https://seek4science.org/
 - description: Data, model and SOPs management for projects, from preliminary data
-    to publication, support for running SBML models etc. (public SEEK instance)
+    to publication, support for running SBML models, etc. (public SEEK instance)
   name: FAIRDOMHub
   registry:
     fairsharing: nnvcr9
@@ -2649,13 +2662,6 @@
   - machine_actionability
   - it_support
   url: https://schema.org
-- description: Web portal for finding ontologies
-  name: Schemapedia
-  related_pages:
-  - metadata
-  - data_manager
-  - researcher
-  url: https://schemapedia.com
 - description: ScienceMesh - frictionless scientific collaboration and access to research
     services
   name: ScienceMesh
@@ -2687,7 +2693,7 @@
   url: https://github.com/ejp-rd-vp/CDE-semantic-model
 - description: All-in-one platform for life science data management, semantic data
     integration, data analysis and visualization
-  name: semares
+  name: Semares
   related_pages:
   - researcher
   - data_manager
@@ -2695,7 +2701,7 @@
   - data_analysis
   - it_support
   - storage
-  url: www.genevention.com/products
+  url: https://www.genevention.com/products
 - description: Contains 16 data elements to be registered by each rare disease registry
     across Europe, which are considered to be essential for further research.
   name: Set of common data elements for rare diseases registration
@@ -3045,16 +3051,6 @@
   - bioimaging_data
   - plant_pheno_assembly
   url: https://zenodo.org/
-- description: Find possible ontology mappings for free text terms in the ZOOMA repository.
-  name: Zooma
-  registry:
-    biotools: zooma
-    tess: Zooma
-  related_pages:
-  - metadata
-  - data_manager
-  - researcher
-  url: https://www.ebi.ac.uk/spot/zooma/
 - description: Find possible ontology mappings for free text terms in the ZOOMA repository.
   name: Zooma
   registry:
