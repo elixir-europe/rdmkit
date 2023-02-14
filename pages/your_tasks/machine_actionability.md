@@ -10,14 +10,18 @@ dsw:
     structure
   uuid: a797cab9-0829-4787-a096-1b5cedc9147f
 faircookbook:
-- name: Unique, persistent identifiers
+- name: Introducing unique, persistent identifiers
   url: https://w3id.org/faircookbook/FCB006
-- name: Search engine optimization
+- name: Introducing Search Engine Optimization (SEO)
   url: https://w3id.org/faircookbook/FCB010
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
 - name: Interlinking data from different sources
   url: https://w3id.org/faircookbook/FCB016
+- name: Introducing the DATS model
+  url: https://w3id.org/faircookbook/FCB082
+- name: Creating knowledge graphs from unstructured text
+  url: https://w3id.org/faircookbook/FCB081
 ---
 
 ## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?

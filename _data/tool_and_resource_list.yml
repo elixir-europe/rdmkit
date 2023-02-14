@@ -1980,6 +1980,7 @@
     DOIs for models
   name: ModelArchive
   registry:
+    biotools: modelarchive
     fairsharing: tpqndj
   related_pages:
   - biomol_sim
