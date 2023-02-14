@@ -91,7 +91,7 @@ national_resources:
       your_tasks: [dmp, compliance]
     url: https://www.health-ri.nl/services/hands
   - name: 23 Things for Research Data Management tool
-    description: Shared reference tool for knowledge on data management 
+    description: Shared reference tool for knowledge on data management.
     how_to_access: 
     instance_of: 
     related_pages:

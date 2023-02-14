@@ -1,6 +1,6 @@
 ---
 title: Human data
-description: Data management solutions for human data
+description: Data management solutions for human data.
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
 page_id: human_data
 related_pages:
@@ -98,6 +98,7 @@ For human data, it is very important to use technical and procedural measures to
     - Norway - [TSD Tools Assembly](tsd_assembly)
     - Sweden - [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
     - Spain - [MareNostrum](https://www.bsc.es/marenostrum/access-to-supercomputing-resources)
+    - Switzerland - [BioMedIT](https://www.biomedit.ch/)
   - There are also emerging alternative approaches to analyse sensitive data, such as doing “distributed” computation, where defined analysis workflows are used to do analysis on datasets that do not leave the place where they are stored.
     - The GA4GH is developing standards for this in their [GA4GH Cloud workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/)
 * Data quality. When processing human data, data quality is a very important aspect to consider because it can influence the results of the research. Especially in the healthcare sector, some of the data that is used for research was not collected for research purposes, and therefore it is not guaranteed to have sufficient quality. Check the [Data Quality page](data_quality) of the RDMkit to learn more about how to assess the quality of health data.

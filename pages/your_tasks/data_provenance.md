@@ -1,7 +1,7 @@
 ---
 title: Data provenance
-description: How to record information about data provenance
-contributors: [Flora D'Anna, Korbinian Bösl]
+description: How to record information about data provenance.
+contributors: [Flora D'Anna, Korbinian Bösl, Nazeefa Fatima]
 page_id: data_provenance
 related_pages: 
   tool_assembly: []
@@ -11,7 +11,7 @@ training:
     url:
 ---
 
-## How can you record data provenance?
+## How to document and track your data provenance?
  
 ### Description
 
@@ -19,7 +19,7 @@ Provenance is the documentation of why and how the data (but also datasets, comp
 Data provenance is often used interchangeably with the term “data lineage”, although their definition might slightly differs in some contexts. 
 Data provenance/lineage means tracing the movements and the changes of the data that occurred between their origin and their destination system.
 
-Well documented data provenance is essential for assessing authenticity, credibility, trustworthiness, quality (it helps finding errors) and reusability of data, as well as the reproducibility of the results.
+Well-documented data provenance is essential for assessing authenticity, credibility, trustworthiness, quality (it helps finding errors) and reusability of data, as well as the reproducibility of the results.
 
 However, knowing what’s the best way to document provenance can be challenging due to the large amount and variety of the information that need to be recorded.
 
@@ -41,10 +41,10 @@ However, knowing what’s the best way to document provenance can be challenging
 
 ### Solutions
 
-- Record provenance according to schemas or defined profiles. These can be generic or domain-specific, and can be found in [Metadata Standards Catalog](https://rdamsc.bath.ac.uk) or [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard). Use metadata schemas containing provenance information in your README file and in any kind of data documentation and metadata file. Best practices for documentation and metadata, and data organisation should be applied for provenance file as well.
-- Implement serialisation specification of the [PROV-MODEL](https://www.w3.org/TR/prov-overview/) in your data management tools to record provenance in machine-actionable format (RDF, Linked data, owl, xml, etc).
+- Record provenance according to schemas or defined profiles. These can be generic or domain-specific, and can be found in [RDA Metadata Standards Catalog](https://rdamsc.bath.ac.uk) or [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard). Use metadata schemas containing provenance information in your README file and in any kind of data documentation and metadata file. Best practices for documentation and metadata, and data organisation should be applied for provenance file as well.
+- Implement serialisation specification of the [PROV-MODEL](https://www.w3.org/TR/prov-overview/) in your data management tools to record provenance in machine-actionable format (RDF, Linked data, owl, xml, etc.).
 - Use [RO-Crate specifications](https://www.researchobject.org/ro-crate/1.1/provenance.html) and/or specific profiles for provenance (e.g., [RO-Crate profiles to capture the provenance of workflow runs](https://www.researchobject.org/workflow-run-crate/)).
-- Make use of tools and software that help you recording provenance in manual or automated way. Use:
+- Make use of tools and software that help you record provenance in a manual or an automated way. Use:
   - Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS) or similar tools.
-  - workflow management systems (such as Kepler, Galaxy, Taverna, VisTrails). Provenance information embedded in such software or tools are usually available to users of the same tool or can be exported as separated file in several formats, such as [RO-Crate](https://www.researchobject.org/ro-crate/).
-  - registries such as [WorkflowHub](https://workflowhub.eu).
+  - Workflow management systems (such as Kepler, Galaxy, Taverna, VisTrails); provenance information embedded in such software or tools are usually available to users of the same tool or can be exported as separated file in several formats, such as [RO-Crate](https://www.researchobject.org/ro-crate/).
+  - Registries such as [WorkflowHub](https://workflowhub.eu).
