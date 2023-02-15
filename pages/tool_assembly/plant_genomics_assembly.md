@@ -9,7 +9,7 @@ related_pages:
   your_domain: [plants]
   tool_assembly: [plant_pheno_assembly]
 faircookbook:
-- name: Plant genomic and genetic variation data submission to EMBL-EBI databases
+- name: Improving dataset maturity - the MIAPPE use case
   url: https://w3id.org/faircookbook/FCB061
 ---
 

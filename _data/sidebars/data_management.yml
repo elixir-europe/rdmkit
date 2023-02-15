@@ -56,6 +56,8 @@ subitems:
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring
+      - title: Costs of data management
+        url: /costs_data_management
       - title: Data analysis
         url: /data_analysis
       - title: Data brokering
@@ -142,6 +144,8 @@ subitems:
         url: /fr_resources
       - title: Italy
         url: /it_resources
+      - title: Luxembourg
+        url: /lu_resources
       - title: Netherlands
         url: /nl_resources
       - title: Norway

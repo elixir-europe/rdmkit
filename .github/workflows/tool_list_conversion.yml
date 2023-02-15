@@ -84,7 +84,7 @@ jobs:
           team-reviewers: |
             maintainers
           branch: list_updates
-          base: main
+          base: master
 
       - name: Check output
         run: |

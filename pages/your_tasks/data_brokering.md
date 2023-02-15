@@ -8,6 +8,17 @@ training:
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22submission%22#materials
+faircookbook:
+- name: Introducing terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB019
+- name: Creating a data/variable dictionary
+  url: https://w3id.org/faircookbook/FCB025
+- name: Creating a metadata profile
+  url: https://w3id.org/faircookbook/FCB026
+- name: Selecting terminologies and ontologies
+  url: https://w3id.org/faircookbook/FCB020
+- name: Introducing ontology-related tools and services
+  url: https://w3id.org/faircookbook/FCB022
 ---
 
 ## Taking on the data broker role 
@@ -22,7 +33,7 @@ Sometimes it is challenging to exchange data across data producers, infrastructu
 There are many aspects to consider when getting started as a broker.
 
 * Decide how to interact with the data providers/recipients, such as to what extent you will be able to adapt your workflows to meet their needs/requirements. 
-* Identify what kind of processing you will handle as a broker, such as (meta)data curation and validation, data masking/anonymisation, etc.
+* Identify what kind of processing you will handle as a broker, such as (meta)data curation and validation, data masking/anonymisation.
 * Define the time frame for your commitment and your responsibilities for the data, such as how to handle data loss before delivery, what to do with the data after a successful delivery, how to manage changes to data that has already been delivered, etc.
 * Identify who is responsible for the data before, during and after delivery, such as the data controller/processor (according to GDPR) and/or intellectual property owner/licensee relationships between the provider and recipient
 * Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data protection](data_protection), [licensing](licensing), and [compliance](compliance_monitoring).
@@ -44,7 +55,7 @@ Data brokering involves collecting data from various data providers (metadata an
 ### Considerations
 * [Data collection](collecting) should be carefully prepared, notably to define the data model, the metadata and data that are needed for the envisioned applications, assess which fields should be compulsory or optional, follow controlled vocabularies or ontologies, and identify the nature of data (personal, [sensitive data](sensitive) and thereby the required level of security or data treatment (e.g. pseudonymised or anonymised data, ethical consent…).
   * Collection of *metadata* can be done in various ways, each having its advantages and disadvantages, notably in terms of user-friendliness, ease of processing and [data quality](data_quality).
-  * Collection of data files (e.g. sequencing data) should also involve minimal validation where possible (e.g. file extensions, regular checks of file sizes across the database to identify potential outliers with issues, integrity checks (checksum), etc).
+  * Collection of data files (e.g. sequencing data) should also involve minimal validation where possible (e.g. file extensions, regular checks of file sizes across the database to identify potential outliers with issues, integrity checks (checksum), etc.).
 
 * Regular data checks should always be performed at the database level, to check unicity of identifiers where expected (e.g. sample identifier within a laboratory is expected to be unique) and identify potential incoherences in the data (e.g. division indicated in the name of a virus versus division indicated in the location field).
 * Data brokers should also consider implementing a mechanism for metadata and data files update within their platform, and define mechanisms to pass on the updates to international repositories. Please consider that depending on the update mechanisms in place at the international repositories (e.g.  Application Programming Interface (API) vs manual update via email), this process might become quite time-consuming.
