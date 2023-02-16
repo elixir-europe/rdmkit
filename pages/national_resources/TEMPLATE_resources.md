@@ -47,6 +47,8 @@ national_resources:
       tess: <!--- DELETE ME if not needed --->
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
+
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
 <!---Following information for the page text--->
