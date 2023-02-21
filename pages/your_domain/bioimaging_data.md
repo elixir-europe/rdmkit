@@ -58,16 +58,16 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 **Vendor libraries**: Some vendors provide open source libraries for parsing their proprietary file formats. See [libCZI](https://github.com/ZEISS/libczi) from Zeiss.
 
-**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data on-the-fly i.e. the original format is preserved, no file written on disk. This implies that you will need to perform this translation each time you access your data and depending on the size of the image(s) you could run out of memory. Translation libraries include, 
+**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data on-the-fly i.e. the original format is preserved, no file written on disk. This implies that you will need to perform this translation each time you access your data and, depending on the size of the image(s), you could run out of memory. Translation libraries include, 
 
   - [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) (Java) - supports over 150 file formats
   - [OpenSlide](https://openslide.org/) (C++) - primarily for whole-slide imaging (WSI) formats
   - [aicsimageio](https://github.com/AllenCellModeling/aicsimageio) (Python) - wraps vendor libraries and Bio-Formats to support a wide-range of formats in Python
 
-**Permanent conversion**: An alternative is permanently convert your data to
+**Permanent conversion**: An alternative is to permanently convert your data to
 
-  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. Bio-Formats (above) is likely the most straight-forward method to convert your data to OME-TIFF
-  - The [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) and [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff) toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, you might want to give it a try
+  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. The Bio-Formats (above) library comes with a command line to tool [bfconvert](https://bio-formats.readthedocs.io/en/stable/users/comlinetools/conversion.html) that can be used to convert to files to OME-TIFF
+  - The [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) and [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff) toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, the toolchain could also be an option to consider.
 
 **Cloud (or "object") storage**: If you are storing your data in the cloud, you will likely need a different file format since most current image file formats are not suitable for cloud storage. OME is currently developing a [next-generation file format (NGFF)](https://ngff.openmicroscopy.org/latest/) that you can use.
 
