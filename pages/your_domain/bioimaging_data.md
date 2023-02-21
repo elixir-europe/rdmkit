@@ -35,10 +35,13 @@ The number of files and their size could be extremely large. Deleting/misplacing
 Managing images immediately becomes a larger problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and still ongoing to capture those metadata.
 Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
 
-The collection of images can take several forms: 
+The collection of images could be: 
  - data acquired within a facility;
  - data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility;
- - slides scanned for example.
+ - slides scanned.
+
+After acquisition, data are usually moved to more permanent storages with different level of permissions. This depends on the facility policies and could prevent collaborative work.
+Users will also adopt their own "organisation" conventions, this could potentially make it very difficult to find or understand the data when, for example, the data are migrated to a new location or when the researcher who acquired the data leaves the lab.
 
 ## Standard (meta)data formats
 
