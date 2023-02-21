@@ -38,7 +38,7 @@ Understanding and capturing the metadata are critical for many reasons, just to 
 The collection of images can take several forms: 
  - data acquired within a facility;
  - data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility;
- - slides scanned.
+ - slides scanned for example.
 
 ## Standard (meta)data formats
 
@@ -58,7 +58,7 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 **Vendor libraries**: Some vendors provide open source libraries for parsing their proprietary file formats. See [libCZI](https://github.com/ZEISS/libczi) from Zeiss.
 
-**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data with needing to transform it. You will need to perform this translation each time you access your data. Translation libraries include, 
+**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data on-the-fly i.e. the original format is preserved, no file written on disk. This implies that you will need to perform this translation each time you access your data and depending on the size of the image(s) you could run out of memory. Translation libraries include, 
 
   - [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) (Java) - supports over 150 file formats
   - [OpenSlide](https://openslide.org/) (C++) - primarily for whole-slide imaging (WSI) formats
