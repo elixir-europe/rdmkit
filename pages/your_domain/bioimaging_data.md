@@ -146,7 +146,7 @@ Two distinct types of resources should be considered:
   - Storage vs Added-value resources.
   - Images format support.
   - Supported licenses e.g. CC0 or CC-BY license. For example the [Image Data Resource (IDR)](http://idr.openmicroscopy.org/) uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
-  - Which types of access is required for the users e.g. download only, browse search and view data and metadata, API access. 
+  - Which types of access are required for the users e.g. download only, browse search and view data and metadata, API access. 
       - Does an entry have an access e.g. idr-xxx, EMPIAR-#####?
       - Does an entry have a DOI (Digital Object Identifier)?
 
