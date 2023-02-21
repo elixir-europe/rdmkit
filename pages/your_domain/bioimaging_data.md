@@ -24,13 +24,13 @@ Bioimaging specialists are acquiring an ever growing amount of data: images, ass
 An image is much more than a collection of zeros and ones.
 The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used, etc.
 
-The number image proprietary formats is very large. It is a difficult challenge to support i.e. read/extract metadata.
+The number of image proprietary formats is very large and keeps increasing. It is challenging to support so many proprietary file formats i.e. read/extract metadata.
 The [Bio-formats](https://bio-formats.readthedocs.io/) library currently supports over [150 different file formats](https://bio-formats.readthedocs.io/en/latest/supported-formats.html).
 The [Dataset Structure Table](https://bio-formats.readthedocs.io/en/latest/formats/dataset-table.html) shows the extension of the files to read and indicates the structure of the image itself e.g. single file, multiple files, one image file and a companion file, etc.
 
 ### Data management challenges
 
-The number of files and the size of files could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse. 
+The number of files and their size could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse. 
 
 Managing images immediately becomes a larger problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and still ongoing to capture those metadata.
 Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
@@ -38,7 +38,7 @@ Understanding and capturing the metadata are critical for many reasons, just to 
 The collection of images can take several forms: 
  - data acquired within a facility;
  - data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility;
- - slides scanned for example.
+ - slides scanned.
 
 ## Standard (meta)data formats
 
