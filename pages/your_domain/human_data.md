@@ -34,7 +34,7 @@ Much of the information on this page is of a general nature when it comes to wor
 
 ### Description
 
-For human data (hereon human data), you must follow established research ethical guidelines and legislations. Preferably, planning for these aspects should be done before starting to handle personal data and in some cases such as in the case of the GDPR, it is an important requirement by laws and regulations.
+When working with human data, you must follow established research ethical guidelines and legislations. Preferably, planning for these aspects should be done before starting to handle personal data and in some cases such as in the case of the GDPR, it is an important requirement by laws and regulations.
 
 ### Considerations
 
