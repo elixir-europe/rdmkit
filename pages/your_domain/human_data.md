@@ -1,7 +1,7 @@
 ---
 title: Human data
-description: Key data management considerations for projects with human data.
-contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima]
+description: Data management solutions for human data.
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Teresa D'Altri]
 page_id: human_data
 related_pages:
   your_tasks: [sensitive]
@@ -129,7 +129,6 @@ It is a good ethical practice to ensure that data underlying research is preserv
 * [GA4GH data security toolkit](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/)
 * [International Standards Organisation's ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) is an international information security standard adopted by data centres of some universities and research institutes.
 
-
 ## Sharing and reusing of human data
 
 ### Description
@@ -149,7 +148,7 @@ To make human data reusable for others, it must be discoverable, stored in a saf
   * Transferring human data has to be done in a secure way in order to avoid breaches of privacy. Encrypting of human data whilst it is being transferred provides successful protection if the data is intercepted by an external party while the transfer is being done.
 
 ### Solutions
-* The [European Genome-phenome Archive (EGA)](https://ega-archive.org/) is the prime repository for human genomic and phenotypic data. The EGA applies a controlled access model. The EGA is an international service for secure archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical studies and healthcare centres. Human genomic data is considered sensitive data and is protected by European GDPR, therefore access must be restricted to authorised users. The EGA platform offers secure and European law-compliant data storage, working with GA4GH standards for encryption and storage. At the same time, data is discoverable in the EGA website and shareable with other researchers through authorization and authentication protocols. The right to allow access belongs to the Data providers (and not to the EGA), who are responsible to sign a DAA (Data Access Agreement) with researchers requesting access to their data. The EGA hosts data from all around the world and distributes it where and when the data providers’ law allows.
+* The [European Genome-phenome Archive (EGA)](https://ega-archive.org/) is an international service for secure archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical studies and healthcare centres. All services are free of charge. The EGA platform offers secure and European law-compliant data sharing. Data treatment is FAIR-compliant, thus data is discoverable in the EGA website and shareable with other researchers through authorisation and authentication protocols. The right to allow access to any dataset belongs to the Data controllers (and not to the EGA), who are responsible to sign a Data Access Agreement (DAA) with researchers requesting access to their data. Templates of the legal documents are provided. The EGA hosts data from all around the world and distributes it where and when the data controllers permit.
 * [dbGAP](https://www.ncbi.nlm.nih.gov/gap/) and [JGA](https://www.ddbj.nig.ac.jp/jga/index-e.html) are other international data repositories, based in the USA and Japan respectively, that adopt a controlled-access model based on their national regulations. Due to European GDPR specific requirements, it may not be possible to deposit EU subjects’ data to these repositories.  
 * The [GA4GH Beacon](https://beacon-project.io) project is a GA4GH initiative that enables genomic and clinical data sharing across federated networks. A Beacon is defined as a web-accessible service that can be queried for information about a specific allele with no reference to a specific sample or patient, thereby reducing privacy risks.
 * The [GA4GH Data Use Ontology DUO](https://github.com/EBISPOT/DUO) is an international standard, which provides codes to represent data use restrictions for controlled access datasets.

@@ -20,7 +20,7 @@ dsw:
 - name: How will you work with your data?
   uuid: df36fb68-131c-4f31-a42b-684abf523bbc
 faircookbook:
-- name: Provenance information
+- name: Introducing Provenance Information
   url: https://w3id.org/faircookbook/FCB036
 ---
 

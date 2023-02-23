@@ -6,7 +6,7 @@ page_id: data_publication
 related_pages: 
     tool_assembly: []
 faircookbook:
-- name: Depositing in Zenodo generic repository
+- name: Depositing to generic repositories - Zenodo use case
   url: https://w3id.org/faircookbook/FCB009
 ---
 

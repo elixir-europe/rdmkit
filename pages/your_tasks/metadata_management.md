@@ -11,19 +11,19 @@ dsw:
 - name: How will you be collecting and keeping your metadata?
   uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
 faircookbook:
-- name: Introduction to terminologies and ontologies
+- name: Introducing terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB019
-- name: Creating data/variable dictionary
+- name: Creating a data/variable dictionary
   url: https://w3id.org/faircookbook/FCB025
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
-- name: Search engine optimization
+- name: Introducing Search Engine Optimization (SEO)
   url: https://w3id.org/faircookbook/FCB010
 - name: Selecting terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB020
-- name: Requesting new terms
+- name: Requesting new terms from terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB021
-- name: Ontology-related tools and services
+- name: Introducing ontology-related tools and services
   url: https://w3id.org/faircookbook/FCB022
 ---
 

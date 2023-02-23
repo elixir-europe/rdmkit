@@ -17,6 +17,8 @@ training:
 
 ---
 
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
+
 <!--- Tool Assembly pages should detail a particular data management tool assembly which covers one more life cycle stages from an infrastructural or domain perspective. For an example for an infrastructural example, please see: https://github.com/elixir-europe/rdmkit/blob/master/pages/tool_assembly/nels_assembly.md 
 In the event that you describe a domain specific tool assembly and no adequate Domain page exists, consider first contributing to create one or raising a GitHub issue.  --->
 
