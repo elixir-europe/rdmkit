@@ -8,9 +8,9 @@ related_pages:
 faircookbook:
 - name: Creating a data/variable dictionary
   url: https://w3id.org/faircookbook/FCB025
-- name: FAIR Evaluator tool
+- name: Assessing with FAIR Evaluator
   url: https://w3id.org/faircookbook/FCB049
-- name: FAIRshake tool
+- name: Assessing with FAIRshake
   url: https://w3id.org/faircookbook/FCB050
 ---
 

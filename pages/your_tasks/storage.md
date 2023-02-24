@@ -33,7 +33,7 @@ faircookbook:
 
 The need for Data storage arises early on in a research project, as space will be required to put your data when starting collection or generation. Therefore, it is a good practice to think about storage solutions during the data management planning phase, and request storage in advance and/or pay for it.
 
-The storage solution for your data should fulfil certain criteria (e.g. space, access & transfer speed, duration of storage etc), which should be discussed with the IT team. You may choose a tiered storage system for assigning data to various types of storage media based on requirements for access, performance, recovery and cost. Using tiered storage allows you to classify data according to levels of importance and assign it to the appropriate storage tiers or move it to different tier for e.g. once analysis is completed you have the option to move data to lower tier for preservation or archiving.
+The storage solution for your data should fulfil certain criteria (e.g. space, access & transfer speed, duration of storage, etc.), which should be discussed with the IT team. You may choose a tiered storage system for assigning data to various types of storage media based on requirements for access, performance, recovery and cost. Using tiered storage allows you to classify data according to levels of importance and assign it to the appropriate storage tiers or move it to different tier for e.g. once analysis is completed you have the option to move data to lower tier for preservation or archiving.
 
 Tiered Storage is classified as “Cold” or “Hot” Storage. “Hot” storage is associated with fast access speed, high access frequency, high value data and consists of faster drives such as the Solid State Drives (SSD). This storage is usually located in close proximity to the user such as on campus and incurs high costs. “Cold” storage is associate with low access speed and frequency and consists of slower drives or tapes. This storage is usually off-premises and incurs low cost.
 
@@ -61,7 +61,7 @@ When looking for solutions to store your data during the collection or generatio
 * Ask for a tiered storage solution that gives you easy and fast access to the data for processing and analysis. Explain to the IT support what machine or infrastructure you need to access the data from and if other researchers should have access as well (in case of collaborative projects).
 * Ask if the storage solution includes an automatic management of versioning, conflict resolution and back-tracing capabilities (see also our Data Organisation page).
 * Ask the IT support in your institute if they offer technical solutions to keep a copy of your (raw)data secure and untouched (snapshot, read-only access, backup…). You could also keep a copy of the original data file in a separate folder as “read-only”.
-* For small data files and private or collaborative projects within your institute, commonly accessible Cloud Storage is usually provided by the institute, such as NextCloud (on-premises), Microsoft OneDrive, DropBox, Box, etc. Do not use personal accounts on similar services for this purpose, adhere to the policies of your institute.
+* For small data files and private or collaborative projects within your institute, commonly accessible Cloud Storage is usually provided by the institute, such as Nextcloud (on-premises), Microsoft OneDrive, DropBox, Box, etc. Do not use personal accounts on similar services for this purpose, adhere to the policies of your institute.
 * It is a requirement from the funders or universities to store raw data and data analysis workflows (for reproducible results) for a certain amount of time after the end of the project (see our Preserve page). This is usually a requirement. Check the data policy for your project or institute to know if a copy of the data should be also stored at your institute for a specific time after the project. This helps you budget for storage costs and helps your IT support with estimation of storage resources needed.
 * Make sure to generate good documentation (i.e., README file) and metadata together with the data. Follow best practices for folder structure, file naming and versioning systems (see our Data Organisation page). Check if your institute provides a (meta)data management system, such as iRODS, DataVerse, FAIRDOM-SEEK or OSF. See All tools and resources table below for additional tools.
 
@@ -78,7 +78,7 @@ Below, you can find some aspects that you need to consider to be able to estimat
 * The volume of total data is an important discerning factor to estimate the computational resources needed.
 * Consider how much data volume you need “concurrently or at once”. For example, consider the possibility to analyse a large dataset by downloading or accessing only a subset of the data at a  time (e.g., stream 1 TB at a time from a big dataset of 500 TB).
 * Define the expected speed and the reliability of connection between storage and compute.
-* Determine which software you are going to use. If it is a proprietary software, you should check possible licensing issues. Check if it only runs on specific operative systems (windows, mac, linux…).
+* Determine which software you are going to use. If it is a proprietary software, you should check possible licensing issues. Check if it only runs on specific operative systems (Windows, MacOS, Linux,…).
 * Establish if and what reference datasets you need.
 * In the case of collaborative projects, define who can access the data and the computational resource for analysis (specify from what device, if possible). Check policy about data access between different Countries. Try to establish a versioning system.
 
@@ -92,7 +92,7 @@ Below, you can find some aspects that you need to consider to be able to estimat
 * It is recommended to ask about the time span for analysis to colleagues or bioinformatic support that have done similar work before. This could save you money and time.
 * If you need some reference datasets (e.g the references genomes such as human genome.), ask IT if they provide it or consult  bioinformaticians that can set up automated public reference dataset retrieval.
 * For small data files and private projects, using the computational resources of your own laptop might be fine, but make sure to preserve the reproducibility of your work by using data analysis software such as {% tool "galaxy" %} or R Markdown.
-* For small data volume and small collaborative projects, a commonly accessible Cloud Storage, such as Nextcloud (on-premises) or Owncloud might be fine. Adhere to the policies of your institute.
+* For small data volume and small collaborative projects, a commonly accessible cloud storage, such as Nextcloud (on-premises) or ownCloud might be fine. Adhere to the policies of your institute.
 * For large data volume and bigger collaborative projects, you need a large storage volume on fast hardware that is closely tied to a computational resource accessible to multiple users.
 
 ## Where should you store the data after the end of the project?

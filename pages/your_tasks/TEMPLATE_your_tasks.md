@@ -13,6 +13,7 @@ training:
     url:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
 ## Concrete problem 1, formulated as a question <!-- example: what is the best way to name a file?-->
  

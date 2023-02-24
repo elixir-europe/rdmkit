@@ -458,6 +458,16 @@
   registry:
     biotools: Data_Information_System_DAISY
   url: https://daisy-demo.elixir-luxembourg.org
+- description: It guides you step by step through a DMP and lets you export a pre-filled
+    DMP as a Word document that you can customize and use for submission to funders.
+    Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs
+    and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.
+  name: DAMAP
+  related_pages:
+  - dmp
+  - researcher
+  - data_manager
+  url: https://damap.org/
 - description: Unique collection of project-level metadata from large research initiatives
     in a diverse range of fields, including clinical, molecular and observational
     studies. Its aim is to improve the findability of these projects following FAIR
@@ -489,6 +499,12 @@
   registry:
     biotools: Data_Stewardship_Wizard
   url: https://ds-wizard.org/
+- description: This service provides simple estimation of storage costs based on desired
+    properties and local/actual configuration.
+  name: Data Stewardship Wizard Storage Costs Evaluator
+  related_pages:
+  - costs
+  url: https://storage-costs-evaluator.ds-wizard.org/
 - description: DUO allows to semantically tag datasets with restriction about their
     usage.
   id: data-use-ontology
@@ -518,16 +534,6 @@
   id: dawid
   name: DAWID
   url: https://dawid.elixir-luxembourg.org/
-- description: It guides you step by step through a DMP and lets you export a pre-filled
-    DMP as a Word document that you can customize and use for submission to funders.
-    Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs
-    and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.
-  name: DAMAP
-  related_pages:
-  - dmp
-  - researcher
-  - data_manager
-  url: https://damap.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   id: dbgap
@@ -861,9 +867,9 @@
     biotools: seek
   url: https://seek4science.org/
 - description: Data, model and SOPs management for projects, from preliminary data
-    to publication, support for running SBML models etc. (public SEEK instance)
-  id: fairdomhub
+    to publication, support for running SBML models, etc. (public SEEK instance)
   name: FAIRDOMHub
+  id: fairdomhub
   registry:
     fairsharing: nnvcr9
   url: https://fairdomhub.org
@@ -1305,6 +1311,7 @@
   id: modelarchive
   name: ModelArchive
   registry:
+    biotools: modelarchive
     fairsharing: tpqndj
   url: https://www.modelarchive.org/
 - description: Molgenis is a modular web application for scientific data. Molgenis
@@ -1767,8 +1774,8 @@
 - description: All-in-one platform for life science data management, semantic data
     integration, data analysis and visualization
   id: semares
-  name: semares
-  url: www.genevention.com/products
+  name: Semares
+  url: https://www.genevention.com/products
 - description: Contains 16 data elements to be registered by each rare disease registry
     across Europe, which are considered to be essential for further research.
   id: set-of-common-data-elements-for-rare-diseases-registration
@@ -1927,11 +1934,22 @@
   id: tryggve-elsi-checklist
   name: Tryggve ELSI Checklist
   url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
+- description: TU Delft costing tool helps to budget for data management personnel
+    costs in proposals.
+  name: TU Delft data management costing tool
+  related_pages:
+  - costs
+  url: https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-costs
 - description: A tool that contains weighted gene co-expression networks obtained
     from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
   id: txg-mapr
   name: TXG-MAPr
   url: https://txg-mapr.eu/
+- description: UK Data Service activity-based costing tool.
+  name: UK Data Service Data Management costing Tool
+  related_pages:
+  - costs
+  url: https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/costing/
 - description: The Unified Medical Language System (UMLS) is a set of tools that establishes
     a mapping structure among different vocabularies in the biomedical sciences field
     to enable interoperativity between computer systems.

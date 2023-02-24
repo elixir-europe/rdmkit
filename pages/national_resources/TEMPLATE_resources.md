@@ -33,7 +33,7 @@ ref_to_main_resources:
 national_resources: 
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations etc are needed to access the resource or tool--->
+    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations, etc., are needed to access the resource or tool--->
     instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
@@ -47,6 +47,8 @@ national_resources:
       tess: <!--- DELETE ME if not needed --->
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
+
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 <!---All the resources added above will appear on the table at the bottom of the page--->
 
 <!---Following information for the page text--->
@@ -60,7 +62,7 @@ national_resources:
 ## Funders
 
 ## Regulations
-<!--- Ethical and legal regulations in the country, committees etc --->
+<!--- Ethical and legal regulations in the country, committees, etc. --->
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->

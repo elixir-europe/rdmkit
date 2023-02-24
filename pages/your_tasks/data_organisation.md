@@ -17,7 +17,7 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB025
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
-- name: Extraction, transformation, and loading process
+- name: Surveying extraction, transformation, load (ETL) tools
   url: https://w3id.org/faircookbook/FCB031
 ---
 
@@ -48,7 +48,7 @@ Brief and descriptive file names are important in keeping your data files organi
 #### Example elements to include in the file name
 * Date of creation
 * Project number / Experiment / Acronym
-* Type of data (Sample ID, Analysis, Conditions, Modifications etc.)
+* Type of data (Sample ID, Analysis, Conditions, Modifications, etc.)
 * Location / Coordinates
 * Name / Initials of the creator
 * Version number

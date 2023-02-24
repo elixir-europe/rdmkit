@@ -11,7 +11,7 @@ dsw:
 - name: Will you be using quality processes?
   uuid: ba38b16d-2154-4372-b445-7854a6e90443
 faircookbook:
-- name: Provenance information
+- name: Introducing Provenance Information
   url: https://w3id.org/faircookbook/FCB036
 ---
 
