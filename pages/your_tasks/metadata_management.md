@@ -11,19 +11,19 @@ dsw:
 - name: How will you be collecting and keeping your metadata?
   uuid: 8c962e6f-17ee-4b22-8ebb-9f06f779e3b3
 faircookbook:
-- name: Introduction to terminologies and ontologies
+- name: Introducing terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB019
-- name: Creating data/variable dictionary
+- name: Creating a data/variable dictionary
   url: https://w3id.org/faircookbook/FCB025
 - name: Creating a metadata profile
   url: https://w3id.org/faircookbook/FCB026
-- name: Search engine optimization
+- name: Introducing Search Engine Optimization (SEO)
   url: https://w3id.org/faircookbook/FCB010
 - name: Selecting terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB020
-- name: Requesting new terms
+- name: Requesting new terms from terminologies and ontologies
   url: https://w3id.org/faircookbook/FCB021
-- name: Ontology-related tools and services
+- name: Introducing ontology-related tools and services
   url: https://w3id.org/faircookbook/FCB022
 ---
 
@@ -41,7 +41,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * Independently of the tools you will use, data documentation is needed at two levels: documentation about the entire study or project and documentation about individual records, observations or data points.
   * Study-level documentation describes the project title and summary, study aims, authors, institutions involved, funds, methods, licence and identifier for each dataset, folders structure, file naming conventions, versioning system, relation between files or tables and other general information.
-  * Data-level documentation provides information about individual records or data point, such as the meaning of each variable name, label, ID or type (numeric, string, regular expression, date, etc), units (i.e., cm, kg…), experimental factors, categories, controlled vocabulary or ontology terms accepted as values for each variable, missing values code and so on. An example could be a data file that contains a "sex" field: someone known to the field could try to misinterpret that from "external sex organs present at birth" to "chromosomal XX or XY" or "high or low testosterone level" or "social gender" or other. In order to avoid this, the way the assignment is made must be part of the documentation or of the data itself (controlled vocabulary).
+  * Data-level documentation provides information about individual records or data point, such as the meaning of each variable name, label, ID or type (numeric, string, regular expression, date, etc.), units (i.e., cm, kg…), experimental factors, categories, controlled vocabulary or ontology terms accepted as values for each variable, missing values code and so on. An example could be a data file that contains a "sex" field: someone known to the field could try to misinterpret that from "external sex organs present at birth" to "chromosomal XX or XY" or "high or low testosterone level" or "social gender" or other. In order to avoid this, the way the assignment is made must be part of the documentation or of the data itself (controlled vocabulary).
 
 * Both the study- and data-level documentation must be generated as early as possible in the research process and also maintained, in order to be accurate and complete
 
@@ -57,7 +57,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
   * Electronic Data Capture (EDC) systems are usually designated for collection of clinical trial data.
 
-  * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, OSF.io has integrations with Mendeley, Dropbox, GitHub, Figshare etc.
+  * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, OSF.io has integrations with Mendeley, Dropbox, GitHub, Figshare, etc.
 
   * There is a major area of overlap between the aforementioned tools for data documentation, so it is better to choose the tool(s) that best address your specific need. Some tools can be used at the same time to address different needs and they can be complementary. Comparative lists can help with the choice:
     * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
@@ -143,4 +143,3 @@ There are many vocabularies and ontologies available on the web. Finding a suita
   * [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
   * [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
   * [Ontobee](http://www.ontobee.org)
-  * [Schemapedia](https://schemapedia.com)

@@ -14,6 +14,8 @@ training:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
+
 ## What is "data + stage name"? <!-- edit this heading (e.g. what is data analysis?) and write your text below it -->
 Short description of what the stage is about, providing minimal background and definition.
 

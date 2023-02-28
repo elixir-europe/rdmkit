@@ -23,7 +23,7 @@ Most national and European funders of (multi-partner) projects now require [Data
 * What information regarding data management is needed at different phases (preparation, submission, execution, wrap up, reporting to the funders) in the project needs to be decided in advance.
 * There is a need to understand the institutional landscape in terms of legal requirements, data policies, IT services, and so on, that are essential to carry out the project. They might vary among individual institutions involved in the project consortium:
   * Not every institution has a centralised IT department to support data management; often data management is carried out by the group itself without help from the IT department.
-  * Legal and ethical requirements, data policies, etc. can be very different or even not be in place in some institutions.
+  * Legal and ethical requirements, data policies, etc., can be very different or even not be in place in some institutions.
 * Data management strategies and the types of data generated can change during the project.
 
 
@@ -38,7 +38,7 @@ Here, we provide some advice and methods to help consortia with data management 
 * Ideally, the DMWG should agree on: data deposition databases, data sharing and archiving, and metadata standards (model, checklist, format, ontologies and controlled vocabularies) during the writing of the proposal. However, if it is not feasible at the writing stage, making these decisions can be added as early tasks, milestones or deliverables of the project.
 * As a monitoring mechanism, some of the milestones and deliverables should be the successful creation of datasets with their metadata and possibly their deposition.
 * If applicable, each partner (actually, its representative) should consult with personal data legislation experts (e.g. GDPR or equivalent), Data Protection Officers (DPOs) and the legal office of the institution (e.g. for technology transfer) to reach a consensus at the consortium level about data protection, availability and open science.
-* It is recommended to discuss as early as possible the licensing and the intellectual property (IP) rights of project outcomes (datasets, software, tools, etc), in order to comply with open science requirements and to avoid legal issues later on. 
+* It is recommended to discuss as early as possible the licensing and the intellectual property (IP) rights of project outcomes (datasets, software, tools, etc.), in order to comply with open science requirements and to avoid legal issues later on. 
 * Discuss a common plan for the sharing of data, [documentation and metadata](metadata_management) between partners.
 
 ## How to execute data management in collaborative projects?
@@ -56,7 +56,7 @@ Once the project is awarded, the data management plan needs to be executed throu
 * The DMWG should have regular meetings to find appropriate solutions to arising data management issues.
 * The DMWG should make sure all partners are able to implement the data management strategies.
 * Establish a strategy for documentation and exchange of data (within the project and with other collaborators):
-  * Evaluate the value of your project outcomes (datasets, data, tools, etc) and establish which of them are worth preserving long term. 
+  * Evaluate the value of your project outcomes (datasets, data, tools, etc.) and establish which of them are worth preserving long term. 
   * Agree on relevant data formats (e.g. TXT, MP4, FASTQ), metadata schemas, checklists and controlled vocabularies/ontologies that are recognised as standards by scientific communities - all these depend on the type of data generated. Read more about [documentation and metadata](metadata_management).
 * Ensure that all partners deposit data according to the agreed [data publication](data_publication) strategy.
 * The DMP should be revisited on a regular basis and updated when necessary. Things to look out for are:
