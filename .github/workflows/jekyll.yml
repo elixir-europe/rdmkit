@@ -19,7 +19,7 @@ jobs:
           ref: ${{ github.event.inputs.branch }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.127.0
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
           bundler-cache: true
@@ -50,7 +50,7 @@ jobs:
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           PAGES_REPO_NWO: ${{ github.repository }}
-          GITHUB_BRANCH: ${{ github.ref_name }}
+          JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
           JEKYLL_ENV: ${{ steps.name.outputs.jekyll_env }}
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
