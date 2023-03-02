@@ -311,7 +311,7 @@ Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked a
 Singularity,https://sylabs.io,Singularity is a container platform.,,"it_support, data_analysis, tsd"
 SMASCH,https://smasch.pages.uni.lu,"SMASCH (Smart Scheduling) system, is a web-based tooldesigned for longitudinal clinical studies requiring recurrent follow-upvisits of the participants. SMASCH controls and simplifies the scheduling of big database of patients. Smasch is also used to organize the daily plannings (delegation of tasks) for the different medical professionals such as doctors, nurses and neuropsychologists.",,"data_organisation, transmed"
 Snakemake,https://snakemake.github.io,Snakemake is a framework for data analysis workflow execution,biotools:snakemake,"it_support, data_analysis"
-SSBD:database,https://ssbd.riken.jp/database/,Added-value database for biological dynamics images,,"bioimaging_data, data_publication"
+SSBD:database,https://ssbd.riken.jp/database/,Added-value database for biological dynamics images,fairsharing:we2r5a,"bioimaging_data, data_publication"
 SSBD:repository,https://ssbd.riken.jp/repository/,An open data archive that stores and publishes bioimaging and biological quantitative datasets,,"bioimaging_data, data_publication"
 Standards for Reporting Enzyme Data (STRENDA),https://www.beilstein-institut.de/en/projects/strenda/,Resource of standards for reporting enzyme data,,micro_biotech
 STRING,https://string-db.org/,Known and predicted protein-protein interactions.,fairsharing:9b7wvk,proteomics
