@@ -115,7 +115,7 @@ ELIXIR Deposition Databases for Biomolecular Data,https://elixir-europe.org/plat
 ELIXIR-AAI,https://elixir-europe.org/services/compute/aai,The ELIXIR Authentication and Authorisation Infrastructure (AAI),,"sensitive, nels, tsd, transmed"
 EMBL-EBI Ontology Lookup Service,https://www.ebi.ac.uk/ols/index,EMBL-EBI’s web portal for finding ontologies,,"metadata, data_manager, researcher"
 EMBL-EBI's data submission wizard,https://www.ebi.ac.uk/submission/,EMBL-EBI's wizard for finding the right EMBL-EBI repository for your data.,,"data_publication, researcher, data_manager"
-EMPIAR,https://www.ebi.ac.uk/pdbe/emdb/empiar/,"Electron Microscopy Public Image Archive is a public resource for raw, 2D electron microscopy images. You can browse, upload and download the raw images used to build a 3D structure",,"data_publication, ome, bioimaging_data"
+EMPIAR,https://www.ebi.ac.uk/pdbe/emdb/empiar/,"Electron Microscopy Public Image Archive is a public resource for raw, 2D electron microscopy images. You can browse, upload and download the raw images used to build a 3D structure",fairsharing:dff3ef,"data_publication, ome, bioimaging_data"
 ENA COMPARE Data Hubs,https://github.com/nadimm-rahman/ena-datahub-setup,This tool carries out data hub set up at the European Nucleotide Archive (ENA).,,"dm_coordination, it_support, data_manager"
 ENA upload tool,https://github.com/usegalaxy-eu/ena-upload-cli,The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).,,"it_support, data_manager, researcher, data_brokering"
 Ensembl,https://www.ensembl.org/index.html,"Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.",fairsharing:fx0mw7,
@@ -311,7 +311,7 @@ Silva,https://www.arb-silva.de/,"SILVA provides comprehensive, quality checked a
 Singularity,https://sylabs.io,Singularity is a container platform.,,"it_support, data_analysis, tsd"
 SMASCH,https://smasch.pages.uni.lu,"SMASCH (Smart Scheduling) system, is a web-based tooldesigned for longitudinal clinical studies requiring recurrent follow-upvisits of the participants. SMASCH controls and simplifies the scheduling of big database of patients. Smasch is also used to organize the daily plannings (delegation of tasks) for the different medical professionals such as doctors, nurses and neuropsychologists.",,"data_organisation, transmed"
 Snakemake,https://snakemake.github.io,Snakemake is a framework for data analysis workflow execution,biotools:snakemake,"it_support, data_analysis"
-SSBD:database,https://ssbd.riken.jp/database/,Added-value database for biological dynamics images,,"bioimaging_data, data_publication"
+SSBD:database,https://ssbd.riken.jp/database/,Added-value database for biological dynamics images,fairsharing:we2r5a,"bioimaging_data, data_publication"
 SSBD:repository,https://ssbd.riken.jp/repository/,An open data archive that stores and publishes bioimaging and biological quantitative datasets,,"bioimaging_data, data_publication"
 Standards for Reporting Enzyme Data (STRENDA),https://www.beilstein-institut.de/en/projects/strenda/,Resource of standards for reporting enzyme data,,micro_biotech
 STRING,https://string-db.org/,Known and predicted protein-protein interactions.,fairsharing:9b7wvk,proteomics
