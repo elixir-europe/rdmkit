@@ -1021,6 +1021,7 @@
     used to build a 3D structure
   name: EMPIAR
   registry:
+    fairsharing: dff3ef
     tess: EMPIAR
   related_pages:
   - data_publication
@@ -2765,6 +2766,8 @@
   url: https://snakemake.github.io
 - description: Added-value database for biological dynamics images
   name: SSBD:database
+  registry:
+    fairsharing: we2r5a
   related_pages:
   - bioimaging_data
   - data_publication
