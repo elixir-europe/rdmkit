@@ -32,8 +32,6 @@ jobs:
         github.repository_owner == 'elixir-europe' &&  github.event_name != 'pull_request'
   
     runs-on: ubuntu-latest
-    
-    if: github.repository_owner == 'elixir-europe'
 
     strategy:
       matrix:
