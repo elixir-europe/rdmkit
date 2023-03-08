@@ -676,6 +676,9 @@
     used to build a 3D structure
   id: empiar
   name: EMPIAR
+  registry:
+    fairsharing: dff3ef
+    tess: EMPIAR
   url: https://www.ebi.ac.uk/pdbe/emdb/empiar/
 - description: This tool carries out data hub set up at the European Nucleotide Archive
     (ENA).
@@ -1819,6 +1822,8 @@
 - description: Added-value database for biological dynamics images
   id: ssbd-database
   name: SSBD:database
+  registry:
+    fairsharing: we2r5a
   url: https://ssbd.riken.jp/database/
 - description: An open data archive that stores and publishes bioimaging and biological
     quantitative datasets
