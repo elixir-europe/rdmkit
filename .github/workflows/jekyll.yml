@@ -54,7 +54,7 @@ jobs:
           PAGES_REPO_NWO: ${{ github.repository }}
           JEKYLL_ENV: ${{ steps.name.outputs.jekyll_env }}
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JEKYLL_BUILD_BRANCH: ${{ secrets.github.ref_name }}
+          JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
           JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - name: Upload artifact
