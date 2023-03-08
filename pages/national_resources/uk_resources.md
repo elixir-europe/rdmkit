@@ -70,7 +70,7 @@ This page provides an overview of the data management resources in the UK. The t
    * [Wellcome Trust](https://wellcome.org/): [DM and sharing guidelines](https://wellcome.org/grant-funding/guidance/data-software-materials-management-and-sharing-policy)
    * [The Royal Society](https://royalsociety.org/): [DM and sharing guidelines](https://royalsociety.org/journals/ethics-policies/data-sharing-mining/)
    * [Cancer Research UK](https://www.cancerresearchuk.org/): [DM and sharing guidelines](https://www.cancerresearchuk.org/funding-for-researchers/applying-for-funding/policies-that-affect-your-grant/submission-of-a-data-sharing-and-preservation-strategy/data-sharing-guidelines)
-   * [British Heart Foundation](https://www.bhf.org.uk/): [DM and sharing guidelines](https://www.bhf.org.uk/for-professionals/information-for-researchers/what-we-fund)
+   * [British Heart Foundation](https://www.bhf.org.uk/): [DM and sharing guidelines](https://www.bhf.org.uk/for-professionals/information-for-researchers)
    * Horizon 2020: [DM guidelines](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm) and [DMP template](http://ec.europa.eu/research/participants/data/ref/h2020/gm/reporting/h2020-erc-tpl-oa-data-mgt-plan_en.docx)
 
 ## National policies and recommendations for research data
