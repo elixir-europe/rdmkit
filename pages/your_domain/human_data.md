@@ -131,6 +131,7 @@ It is a good ethical practice to ensure that data underlying research is preserv
 ### Solutions
 * [GA4GH data security toolkit](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/)
 * [International Standards Organisation's ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) is an international information security standard adopted by data centres of some universities and research institutes.
+* [The European Genome-phenome Archive (EGA)](https://ega-archive.org/) is an international service for secure archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical studies and healthcare centres. All services are free of charge. The EGA stores the data and metadata long-term, without ending date of the service. The data is backed-up in two separate geographical locations. The storing is GDPR-compliant, thanks to the use of [Ga4GH encryption standard](https://www.ga4gh.org/news/crypt4gh-a-secure-method-for-sharing-human-genetic-data/) and continuously kept up-to-date. National repositories working as Federated EGA nodes are available in some countries like Sweden, Norway, Finland, Germany and Spain. Those may address specific additional national legal needs, not included in European regulation.
 
 ## Sharing and reusing of human data
 
