@@ -1276,6 +1276,8 @@
     requirements, and designs FAIRification solutions for data owners, data stewards,
     and other people involved in FAIRification.
   name: FAIR-Wizard
+  registry:
+    tess: FAIR-Wizard
   related_pages:
   - compliance
   - data_manager
@@ -1293,6 +1295,7 @@
   name: FAIRDOM-SEEK
   registry:
     biotools: seek
+    tess: FAIRDOM-SEEK
   related_pages:
   - storage
   - it_support
