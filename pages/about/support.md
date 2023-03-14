@@ -1,6 +1,6 @@
 ---
 title: Support
-custom-editme: _data/affiliations.yaml
+custom_editme: _data/affiliations.yaml
 ---
 
 ## Institutions
