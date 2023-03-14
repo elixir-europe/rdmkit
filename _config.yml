@@ -4,13 +4,17 @@ title: RDMkit
 description: "Best practices and guidelines you can use for FAIR management of your research data."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.23.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.24.0
+
 sass:
   style: compressed
   sourcemap: never
 
 gtag: G-RXQ55EFTTH
 # Google analytics tag
+
+matomo: https://webstats.elixir-europe.org/
+# Matomo domain where Matomo is running
 
 dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question

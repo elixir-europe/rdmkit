@@ -30,7 +30,7 @@ title: Title of the page
 
 * `hide_sidebar`: When true, the sidebar will be hided. Default: false
 
-* `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
+* `custom_editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
 
 * `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page, lowercase.
 
