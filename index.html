@@ -8,6 +8,7 @@ layout: none
 {% include head.html %}
 
 <body>
+    {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
     <div class="landingpage">
         <section class="container mb-5">
@@ -159,7 +160,7 @@ layout: none
     </div>
     {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
     <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
-        <i class="fa-solid fa-arrow-up"></i><span class="ms-2 d-none d-sm-inline">Back to top</span>
+        <i class="fa-solid fa-arrow-up"></i>
     </button>
     {%- endif %}
     {% include footer.html %}

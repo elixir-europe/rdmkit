@@ -14,7 +14,7 @@ training:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
-{% include callout.html type="note" content="This page is under construction." %}
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
 Support bioinformatician and data steward.
 

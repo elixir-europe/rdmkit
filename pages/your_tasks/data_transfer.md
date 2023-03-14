@@ -15,11 +15,11 @@ dsw:
 - name: How will your first data come in?
   uuid: f4065e54-d27a-45de-be4c-10384feacd0d
 faircookbook:
-- name: Transferring data with SFTP
+- name: Transferring data with SFTP protocol
   url: https://w3id.org/faircookbook/FCB014
-- name: Downloading data with Aspera
+- name: Downloading data with Aspera protocol
   url: https://w3id.org/faircookbook/FCB015
-- name: Describe data by checksums
+- name: Creating file checksums
   url: https://w3id.org/faircookbook/FCB052
 ---
 
@@ -27,7 +27,7 @@ faircookbook:
 
 ### Description
 
-Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. Moreover, some data cannot be sent by email due to its sensitive nature. So, how can large data files be transferred from a local computer to a distant one?
+Often, research in Life Sciences generates massive amounts of digital data, such as output files of ‘omics’ techniques (genomics, transcriptomics, metabolomics, proteomics, etc.). Large data files cannot be sent by email because they exceed the file size limit of most common email servers. Moreover, some data cannot be sent by email due to its sensitive nature. So, how can large data files be transferred from a local computer to a distant one?
 
 ### Considerations
 
