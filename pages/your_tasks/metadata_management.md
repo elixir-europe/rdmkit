@@ -143,3 +143,4 @@ There are many vocabularies and ontologies available on the web. Finding a suita
   * [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
   * [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
   * [Ontobee](http://www.ontobee.org)
+  * [BioPortal](https://bioportal.bioontology.org)
