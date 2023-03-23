@@ -11,7 +11,7 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo horizontal
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal" /> 
+  <img src="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}" class="m-2 bg-white p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal" /> 
     [<a href="{{ 'assets/img/RDMkit_logo.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo.png' | relative_url }}">png</a>]
 </p>
@@ -19,7 +19,7 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo horizontal inverted
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal inverted" />
+  <img src="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}" class="m-2 bg-dark p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo horizontal inverted" />
     [<a href="{{ 'assets/img/RDMkit_logo_inverted.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo_inverted.png' | relative_url }}">png</a>]
 </p>
@@ -27,7 +27,7 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo condensed
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed" />
+  <img src="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}" class="m-2 bg-white p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed" />
     [<a href="{{ 'assets/img/RDMkit_logo_condensed.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo_condensed.png' | relative_url }}">png</a>]
 </p>
@@ -35,7 +35,7 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 #### RDMkit logo condensed inverted
 
 <p>
-  <img src="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}" class="m-2" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed inverted" />
+  <img src="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}" class="m-2 bg-dark p-2 rounded" style="max-width: 20%; max-height: 5em; vertical-align: middle" alt="RDMkit logo condensed inverted" />
     [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.svg' | relative_url }}">svg</a>]
     [<a href="{{ 'assets/img/RDMkit_logo_condensed_inverted.png' | relative_url }}">png</a>]
 </p>
