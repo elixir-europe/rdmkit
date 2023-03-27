@@ -34,6 +34,7 @@
   related_pages:
   - plant_pheno_assembly
   - plants
+  - metadata
   url: http://agroportal.lirmm.fr/
 - description: Amazon Web Services
   name: Amazon Web Services
@@ -158,7 +159,7 @@
 - description: The Beacon protocol defines an open standard for genomics data discovery.
   name: Beacon
   registry:
-    biotools: beacon
+    biotools: ga4gh_beacon
     fairsharing: 6fba91
     tess: Beacon
   related_pages:
@@ -3084,3 +3085,12 @@
   - data_manager
   - researcher
   url: https://www.ebi.ac.uk/spot/zooma/
+- description: A comprehensive repository of biomedical ontologies
+  name: BioPortal
+  registry:
+    biotools: bioportal
+    fairsharing: 4m97ah
+    tess: BioPortal
+  related_pages:
+  - metadata
+  url: https://bioportal.bioontology.org
