@@ -167,7 +167,7 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources.
+The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](elixir.no/rdm-lookup/).
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian government has released a
@@ -238,6 +238,17 @@ There are several support services available to Norwegian Life Science researche
     * [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
 
 * [NRIS technical and administrative support](https://www.sigma2.no/user-support)
+
+## Communities for research data management support personell
+
+* [Life-Science RDM Group](https://elixir.no/organization/biomeddata/Life-Science-RDM-Group)
+* [RDA Norway](https://www.rd-alliance.org/groups/rda-norway)
+* [University of Oslo Data Manager Network](https://www.ub.uio.no/english/libraries/dsc/data-managers-network/)
+* [Bergen Research Data Network](mailto:research-data@uib.no?subject=forskningsdata@uib.no)
+* [GIDA-Sápmi -Sámi Research Data Governance, members from Norway, Sweden and Finland](https://uit.no/research/sshf-no/project?pid=788403)
+* DataverseNO Network of Expertise
+
+
 
 ## Data Management Planning
 A data management plan (DMP) is currently requested by:
