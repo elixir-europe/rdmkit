@@ -3,7 +3,7 @@
 title: Cyprus
 search_exclude: true
 country_code: CY
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+contributors: [Anastasis Oulas, Nestoras Karathanasis, George Spyrou]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
