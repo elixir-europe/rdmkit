@@ -247,6 +247,8 @@ There are several support services available to Norwegian Life Science researche
 * [Bergen Research Data Network](mailto:research-data@uib.no?subject=forskningsdata@uib.no)
 * [GIDA-Sápmi -Sámi Research Data Governance, members from Norway, Sweden and Finland](https://uit.no/research/sshf-no/project?pid=788403)
 * DataverseNO Network of Expertise
+* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic FAIR Data Forum](https://neic.no/fairdataforum/)
+* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic Sensitive Data Forum](https://neic.no/sensitivedataforum/)
 
 
 
