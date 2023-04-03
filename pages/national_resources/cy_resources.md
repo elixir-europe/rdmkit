@@ -3,8 +3,8 @@
 title: Cyprus
 search_exclude: true
 country_code: CY
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
+contributors: [Anastasis Oulas, Nicholas Killilis, Nestoras Kathanasis, George Spyrou, Vasilis Promponas]
+coordinators: [Anastasis Oulas, Nicholas Killilis]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
 related_pages:
@@ -53,12 +53,22 @@ national_resources:
 <!---Please focus on resources that are relevant for the whole country for life sciences--->
 
 ## Introduction 
-<!---General RDM considerations for your country, how to deal with RDM on a national level--->
+This page provides a general overview of national resources and initiatives on research data management (RDM) in Cyprus
 
 ## Funders
+H2020-WIDESPREAD-01-2018-2019: Teaming Phase 2, for €15mi for 7 years. €15mi by the Government of Cyprus and another €8mi by the  University of Cyprus. 
+The Research and Innovation Foundation (RIF) is the national authority in charge of supporting and promoting research, technological development and innovation in Cyprus.
 
 ## Regulations
-<!--- Ethical and legal regulations in the country, committees, etc. --->
+Cyprus National Bioethics Committee (document EEBK3). 
+All medical records and biological material are kept under secure conditions at a specially prepared 
+Biobank suite with absolute confidentiality and protection of sensitive data of personal character, 
+in compliance with the European General Data Protection Regulation (GDPR)
 
 ## Domain-specific infrastructures or resources 
-<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
+Further development of the Biobank came with the success in funding by the European Commission in the framework of 
+program H2020-WIDESPREAD-01-2018-2019: Teaming Phase 2, for €15mi for 7 years. 
+The project is entitled: Biobanking and the Cyprus Human Genome Project. The project 
+is supplemented by another €15mi by the Government of Cyprus and another €8mi by the 
+University of Cyprus for a duration of 15 years, October 1, 2019 to September 30, 2034. 
+It aims to upgrade the current infrastructure into a Center of Excellence in Biobanking and Biomedical Research.
