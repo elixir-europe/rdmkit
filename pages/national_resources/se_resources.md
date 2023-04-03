@@ -47,9 +47,9 @@ national_resources:
     related_pages:
       your_tasks: [data_analysis, storage]
     url: https://www.snic.se/ 
-  - name: SciLifeLab Data Guidelines
-    description: A data type centric resource that provides guidance on good data management practices during the data life cycle, including available infrastructures.
-    url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html
+  - name: SciLifeLab RDM Guidelines
+    description: Knowledge hub for the management of life science research data in Sweden.
+    url: https://data-guidelines.scilifelab.se/
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
