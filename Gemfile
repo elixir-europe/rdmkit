@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
-group :jekyll_plugins do
-    gem "github-pages"
-  end
+# GitHub pages dependencies
+gem 'github-pages', group: :jekyll_plugins
+
+# Webrick needed for Ruby v3.0+ compatibility
+gem "webrick"
