@@ -683,6 +683,7 @@
   name: DAISY
   registry:
     biotools: Data_Information_System_DAISY
+    tess: DAISY
   related_pages:
   - it_support
   - policy_officer
@@ -820,6 +821,7 @@
   registry:
     biotools: disgenet
     fairsharing: fssydn
+    tess: DisGeNET
   related_pages:
   - data_analysis
   - human_data
@@ -1297,7 +1299,6 @@
   name: FAIRDOM-SEEK
   registry:
     biotools: seek
-    tess: FAIRDOM-SEEK
   related_pages:
   - storage
   - it_support
@@ -1620,6 +1621,7 @@
   registry:
     biotools: identifiers.org
     fairsharing: n14rc8
+    tess: Identifiers.org
   related_pages:
   - identifiers
   - it_support
@@ -2040,6 +2042,7 @@
   name: Multi-Crop Passport Descriptor (MCPD)
   registry:
     fairsharing: hn155r
+    tess: Multi-Crop Passport Descriptor
   related_pages:
   - metadata
   - researcher
