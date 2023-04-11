@@ -13,11 +13,13 @@ training:
 
 national_resources:
   - name: DataPLAN
+    description: Data Management Plan (DMP) generator that focuses on plant science. 
     related_pages:
       your_tasks: [dmp]
       your_domain: [plants]
     url: https://plan.nfdi4plants.org/
   - name: GFBio Data Management Plan Tool
+    description: DMP creation and support by German Federation for Biological Data (GFBio).
     related_pages:
       your_tasks: [dmp]
     url: https://www.gfbio.org/plan
