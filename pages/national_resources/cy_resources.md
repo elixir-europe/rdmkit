@@ -4,7 +4,6 @@ title: Cyprus
 search_exclude: true
 country_code: CY
 contributors: [Anastasis Oulas, Nicholas Killilis, Nestoras Kathanasis, George Spyrou, Vasilis Promponas]
-coordinators: [Anastasis Oulas, Nicholas Killilis]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
 related_pages:
