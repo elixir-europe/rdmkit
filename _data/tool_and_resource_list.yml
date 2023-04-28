@@ -3036,6 +3036,7 @@
   registry:
     biotools: workflowhub
     fairsharing: 07cf72
+    tess: WorkflowHub
   related_pages:
   - data_publication
   - data_manager
