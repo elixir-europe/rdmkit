@@ -1,5 +1,7 @@
 name,url,description,registry,related_pages
 3D-Beacons,https://3d-beacons.org,Network providing unified programmatic access to experimentally determined and predicted structure models,,struct_bioinfo
+4DN-BINA-OME-QUAREP (NBO-Q) Microscopy Metadata Specifications,https://www.nature.com/articles/s41592-021-01327-9,Rigorous record-keeping and quality control are required to ensure the quality, reproducibility and value of imaging data. The 4DN Initiative and BINA have published light Microscopy Metadata Specifications that extend the OME Data Model, scale with experimental intent and complexity, and make it possible for scientists to create comprehensive records of imaging experiments.
+The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are being revised in QUAREP-LiMi in collaboration with instrument manufacturers,fairsharing:4747,"data_publication, ome, bioimaging_data"
 Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,biotools:NA,micro_biotech
 Ada Discovery Analytics (Ada),https://ada-discovery.github.io/,"Ada is a performant and highly configurable system for secured integration, visualization, and collaborative analysis of heterogeneous data sets, primarily targeting clinical and experimental sources.",,"data_analysis, transmed"
 Addgene,https://www.addgene.org/browse/,A searchable repository with a focus on plasmids,,micro_biotech
