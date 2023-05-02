@@ -106,3 +106,7 @@
   date: 2023-02-14
   linked_pr: 1171
   description: This page gives insights about costs for data management, and related solutions and resources. [Discover the page here](costs_data_management).
+- name: "New page: RDMkit alliance"
+  date: 2023-05-02
+  linked_pr: 1239
+  description: This page gives an insight in how we will govern and further develop the RDMkit in the future. [Discover the page here](rdmkit_alliance).
