@@ -6,15 +6,17 @@
   related_pages:
   - struct_bioinfo
   url: https://3d-beacons.org
-- description: Rigorous record-keeping and quality control are required to ensure the quality,
-    reproducibility and value of imaging data. The 4DN Initiative and BINA have published light Microscopy Metadata
-    Specifications that extend the OME Data Model, scale with experimental intent and complexity,
-    and make it possible for scientists to create comprehensive records of imaging experiments.
-    The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are being revised
-    in QUAREP-LiMi in collaboration with instrument manufacturer
+- description: 'Rigorous record-keeping and quality control are required to ensure
+    the quality, reproducibility and value of imaging data. The 4DN Initiative and
+    BINA have published light Microscopy Metadata Specifications that extend the OME
+    Data Model, scale with experimental intent and complexity, and make it possible
+    for scientists to create comprehensive records of imaging experiments.
+
+    The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are
+    being revised in QUAREP-LiMi in collaboration with instrument manufacturers'
   name: 4DN-BINA-OME-QUAREP (NBO-Q) Microscopy Metadata Specifications
   registry:
-    fairsharing: 4747
+    fairsharing: '4747'
   related_pages:
   - data_publication
   - ome
@@ -372,6 +374,8 @@
 - description: 'Specification for a standard API for plant data: plant material, plant
     phenotyping data'
   name: BrAPI
+  registry:
+    tess: BrAPI
   related_pages:
   - it_support
   - plants
