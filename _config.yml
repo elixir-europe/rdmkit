@@ -13,6 +13,9 @@ sass:
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 
+matomo: https://webstats.elixir-europe.org/
+# Matomo domain where Matomo is running
+
 dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 

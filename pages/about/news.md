@@ -1,6 +1,6 @@
 ---
 title: News
-custom-editme: _data/news.yml
+custom_editme: _data/news.yml
 ---
 
 {% include news.html %}

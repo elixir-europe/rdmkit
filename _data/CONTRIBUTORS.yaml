@@ -236,7 +236,6 @@ Alan R Williams:
     orcid: 0000-0003-3156-2105
     affiliation: The University of Manchester / ELIXIR-UK
 Chris Child:
-    git: christopherchild
     orcid: 0000-0003-0758-6908
     affiliation: The University of Manchester / ELIXIR-UK
 Olivier Collin:
@@ -256,7 +255,6 @@ Muhammad Shoaib:
 Xinhui Wang:
     orcid : 0000-0001-8697-4209
     email : xinhui.wang@uni.lu
-    git: xinhui.wang
     affiliation: LCSB
 Soumyabrata Ghosh:
     orcid: 0000-0003-0659-6733
@@ -478,7 +476,6 @@ Teresa D'Altri:
     orcid: 0000-0002-8146-5365
     affiliation: Center for Genomic Regulation
 Marina Popleteeva:
-    git: marina-popleteeva
     orcid: 0000-0002-8409-6147
     email: marina.popleteeva@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg

@@ -3,6 +3,18 @@
   id: 3d-beacons
   name: 3D-Beacons
   url: https://3d-beacons.org
+- description: 'Rigorous record-keeping and quality control are required to ensure
+    the quality, reproducibility and value of imaging data. The 4DN Initiative and
+    BINA have published light Microscopy Metadata Specifications that extend the OME
+    Data Model, scale with experimental intent and complexity, and make it possible
+    for scientists to create comprehensive records of imaging experiments.
+
+    The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are
+    being revised in QUAREP-LiMi in collaboration with instrument manufacturers'
+  name: 4DN-BINA-OME-QUAREP (NBO-Q) Microscopy Metadata Specifications
+  registry:
+    fairsharing: '4747'
+  url: https://www.nature.com/articles/s41592-021-01327-9
 - description: A standard schema for primary biodiversity data
   id: access-to-biological-collection-data-schema
   name: Access to Biological Collection Data Schema (ABCD)
@@ -24,6 +36,7 @@
   name: AgroPortal
   registry:
     biotools: AgroPortal
+    fairsharing: z4xpxx
   url: http://agroportal.lirmm.fr/
 - description: Amazon Web Services
   id: amazon-web-services
@@ -104,6 +117,10 @@
 - description: The Beacon protocol defines an open standard for genomics data discovery.
   id: beacon
   name: Beacon
+  registry:
+    biotools: ga4gh_beacon
+    fairsharing: 6fba91
+    tess: Beacon
   url: https://beacon-project.io/
 - description: R&D Platform for Life Sciences
   id: benchling
@@ -231,6 +248,8 @@
     phenotyping data'
   id: brapi
   name: BrAPI
+  registry:
+    tess: BrAPI
   url: https://www.brapi.org
 - description: Database of enzyme and enzyme-ligand information, across all taxonomic
     groups, manually extracted from primary literature and extended by text mining
@@ -457,6 +476,7 @@
   name: DAISY
   registry:
     biotools: Data_Information_System_DAISY
+    tess: DAISY
   url: https://daisy-demo.elixir-luxembourg.org
 - description: It guides you step by step through a DMP and lets you export a pre-filled
     DMP as a Word document that you can customize and use for submission to funders.
@@ -498,8 +518,6 @@
 - description: This service provides simple estimation of storage costs based on desired
     properties and local/actual configuration.
   name: Data Stewardship Wizard Storage Costs Evaluator
-  related_pages:
-  - costs
   url: https://storage-costs-evaluator.ds-wizard.org/
 - description: DUO allows to semantically tag datasets with restriction about their
     usage.
@@ -543,6 +561,8 @@
   name: DisGeNET
   registry:
     biotools: disgenet
+    fairsharing: fssydn
+    tess: DisGeNET
   url: https://www.disgenet.org/
 - description: A database of intrinsically disordered proteins
   id: disprot
@@ -583,10 +603,6 @@
     information necessary for a research project Data Protection Impact Assessment
     (DPIA).
   name: DPIA Knowledge Model
-  related_pages:
-  - data_protection
-  - policy_officer
-  - human_data
   url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
 - description: Cloud storage and file sharing service
   id: dropbox
@@ -673,6 +689,7 @@
   id: empiar
   name: EMPIAR
   registry:
+    biotools: empiar
     fairsharing: dff3ef
     tess: EMPIAR
   url: https://www.ebi.ac.uk/pdbe/emdb/empiar/
@@ -853,6 +870,8 @@
     and other people involved in FAIRification.
   id: fair-wizard
   name: FAIR-Wizard
+  registry:
+    tess: FAIR-Wizard
   url: https://wwwdev.ebi.ac.uk/ait/fair-wizard/home
 - description: Help you discover resources to measure and improve FAIRness.
   id: fairassist-org
@@ -1057,6 +1076,7 @@
   registry:
     biotools: identifiers.org
     fairsharing: n14rc8
+    tess: Identifiers.org
   url: http://identifiers.org
 - description: A collection of standard biological parts to which all entrants in
     the iGEM competition must submit their parts
@@ -1348,6 +1368,7 @@
   registry:
     biotools: NA
     fairsharing: hn155r
+    tess: Multi-Crop Passport Descriptor
   url: https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/
 - description: A file-system based platform handling the transfer of data
   id: mytardis
@@ -1993,6 +2014,10 @@
     computational workflows.
   id: workflowhub
   name: WorkflowHub
+  registry:
+    biotools: workflowhub
+    fairsharing: 07cf72
+    tess: WorkflowHub
   url: https://workflowhub.eu
 - description: Open source imaging informatics platform. It facilitates common management,
     productivity, and quality assurance tasks for imaging and associated data.
@@ -2019,3 +2044,10 @@
   id: zooma
   name: Zooma
   url: https://www.ebi.ac.uk/spot/zooma/
+- description: A comprehensive repository of biomedical ontologies
+  name: BioPortal
+  registry:
+    biotools: bioportal
+    fairsharing: 4m97ah
+    tess: BioPortal
+  url: https://bioportal.bioontology.org

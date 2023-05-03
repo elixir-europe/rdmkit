@@ -16,7 +16,7 @@ We collect data about your activity on the site, such as:
 The information is collected anonymously and aggregated. We cannot identify you from the information gathered, or track your web browsing outside of this site.
 
 ## How we collect the data
-We use Google Analytics to collect this data. When you visit this site the Google Analytics program puts a small file called a cookie in your browser. Cookies are widely used to store preferences and to enable shopping carts and log-in areas on websites.
+We use Google Analytics and Matomo to collect this data. When you visit this site, Google Analytics and Matomo puts a small file called a cookie in your browser. Cookies are widely used to store preferences and to enable shopping carts and log-in areas on websites.
 
 ## Why we collect the data
 We collect the data so that we can then generate reports about the site for our funders. We also collect the date to help us improve the site, and ensure we design the site for the browsers and devices that most people are using.

@@ -1,9 +1,11 @@
 name,url,description,registry,related_pages
 3D-Beacons,https://3d-beacons.org,Network providing unified programmatic access to experimentally determined and predicted structure models,,struct_bioinfo
+4DN-BINA-OME-QUAREP (NBO-Q) Microscopy Metadata Specifications,https://www.nature.com/articles/s41592-021-01327-9,"Rigorous record-keeping and quality control are required to ensure the quality, reproducibility and value of imaging data. The 4DN Initiative and BINA have published light Microscopy Metadata Specifications that extend the OME Data Model, scale with experimental intent and complexity, and make it possible for scientists to create comprehensive records of imaging experiments.
+The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are being revised in QUAREP-LiMi in collaboration with instrument manufacturers",fairsharing:4747,"data_publication, ome, bioimaging_data"
 Access to Biological Collection Data Schema (ABCD),https://www.tdwg.org/standards/abcd/,A standard schema for primary biodiversity data,biotools:NA,micro_biotech
 Ada Discovery Analytics (Ada),https://ada-discovery.github.io/,"Ada is a performant and highly configurable system for secured integration, visualization, and collaborative analysis of heterogeneous data sets, primarily targeting clinical and experimental sources.",,"data_analysis, transmed"
 Addgene,https://www.addgene.org/browse/,A searchable repository with a focus on plasmids,,micro_biotech
-AgroPortal,http://agroportal.lirmm.fr/,Browser for ontologies for agricultural science based on NBCO BioPortal.,biotools:AgroPortal,"plant_pheno_assembly, plants"
+AgroPortal,http://agroportal.lirmm.fr/,Browser for ontologies for agricultural science based on NBCO BioPortal.,biotools:AgroPortal,"plant_pheno_assembly, plants, metadata"
 Amazon Web Services,https://aws.amazon.com/,Amazon Web Services,,"storage, data_analysis, transfer"
 Amnesia,https://amnesia.openaire.eu/,Amnesia is a GDPR compliant high accuracy data anonymization tool,,sensitive
 AOP4EUpest,http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php,AOP4EUpest web server is devoted to the identification of pesticides involved in an Adverse Outcome Pathway via text mining approaches.,biotools:aop4eupest,toxicology_data
@@ -18,7 +20,7 @@ BacDive,https://bacdive.dsmz.de,A searchable database for bacteria specific info
 Bacillus Genetic Stock Center (BGSC),http://www.bgsc.org/,A repository specific to Bacillus strains,biotools:NA,micro_biotech
 BASE,https://www.base-search.net/,A search engine for academic web resources,,existing_data
 BBMRI-ERIC's ELSI Knowledge Base,https://www.bbmri-eric.eu/elsi/knowledge-base/,The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.,,"data_protection, sensitive, policy_officer, data_manager, human_data"
-Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,,"researcher, data_manager, it_support, human_data"
+Beacon,https://beacon-project.io/,The Beacon protocol defines an open standard for genomics data discovery.,biotools:ga4gh_beacon,"researcher, data_manager, it_support, human_data"
 Benchling,https://www.benchling.com,R&D Platform for Life Sciences,,micro_biotech
 BIAFLOWS,https://biaflows.neubias.org/,BIAFLOWS is an open-soure web framework to reproducibly deploy and benchmark bioimage analysis workflows,biotools:biaflows,data_analysis
 BigNASim,https://mmb.irbbarcelona.org/BigNASim/,Repository for Nucleic Acids MD simulations,biotools:bignasim,"biomol_sim, data_publication"
@@ -346,3 +348,4 @@ XNAT-PIC Pipelines,https://github.com/szullino/XNAT-PIC,Analysing of single or m
 XNAT-PIC Uploader,https://github.com/szullino/XNAT-PIC,Import tool for multimodal DICOM image datasets to XNAT,,"researcher, data_manager, xnat-pic"
 Zenodo,https://zenodo.org/,Generalist research data repository built and developed by OpenAIRE and CERN,fairsharing:wy4egf,"data_publication, biomol_sim, bioimaging_data, plant_pheno_assembly"
 Zooma,https://www.ebi.ac.uk/spot/zooma/,Find possible ontology mappings for free text terms in the ZOOMA repository.,,"metadata, data_manager, researcher"
+BioPortal,https://bioportal.bioontology.org,A comprehensive repository of biomedical ontologies,fairsharing:4m97ah,metadata

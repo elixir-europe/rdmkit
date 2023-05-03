@@ -188,9 +188,6 @@ with open(table_path, 'r') as read_obj:
                                 f'ERROR: The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
                             sys.exit(
                                 f'The table contains the tag "{tag}" in row {row_index} which is not allowed.\n-> Check if the tag you are using is declared in the metadata of one of the pages using the "page_id" attribute.')
-                # Only include keys if there are values:
-                elif header[col_index] == 'country' and cell:
-                    output = re.split(', |,', cell)
                 elif header[col_index] == 'registry':
                     output = {}
                     if cell:  # Only include keys if there are values

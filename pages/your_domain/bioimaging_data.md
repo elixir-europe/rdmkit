@@ -77,7 +77,7 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 **Metadata**: If metadata are stored separately from the image data, the format of the metadata should follow the subject-specific standards regarding the schema, vocabulary or ontologies and storage format used such as:
 
   - [OME model](https://docs.openmicroscopy.org/ome-model/latest/) XML-based representation of microscopy data.
-  - [Quality assessment working groups](https://quarep.org/).
+  - [Quality assessment and Reproducibility in Light Microscopy (QUAREP-LiMi)](https://quarep.org/).
   - [REMBI](https://www.nature.com/articles/s41592-021-01166-8).
 
 
