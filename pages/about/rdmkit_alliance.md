@@ -27,8 +27,6 @@ The RDMkit Alliance could take different forms, and we have quite a number of st
 
 Then  we can launch the RDMkit Alliance and begin working towards achieving its goals and objectives. 
 
-If you would be interested in joining such an Alliance and would like to contribute to the steps to set it up, please SIGN UP HERE.
-
 ## Provisional RDMkit Alliance set up timetable
 
 | Date          |                                                            |
@@ -39,3 +37,11 @@ If you would be interested in joining such an Alliance and would like to contrib
 | Oct 2023      | Second public online meeting                               |
 | Nov 2023      | Third and final public online meeting                      |
 | Jan 2024      | Launch RDMkit Alliance                                     |
+
+
+## Join the alliance
+
+If you would be interested in joining such an Alliance and would like to contribute to the steps to set it up, please sign up here:
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevYwIlBx5Axua5jL23jI-Kd2xqdacxFGeRbdQHzmWVvUvR1Q/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;" class="mt-1">Loading...</iframe>
