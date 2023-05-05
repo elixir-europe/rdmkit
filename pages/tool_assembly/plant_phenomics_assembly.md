@@ -76,6 +76,12 @@ Some analysis tools dedicated to plant phenotyping experiments are registered in
 
 The data collected and annotated can be [shared](sharing) in trustworthy repositories under clear conditions of access to the data. As no global central repository exists for phenotyping data, the Plant Science research community combines the use of scattered trustworthy repositories and of centralized search tools. 
 
+#### Metadata management
+
+* [isa4j](https://github.com/IPK-BIT/isa4j) is a software library which can help you to programmatically generate ISA-Tab formatted metadata for your experiments. This will make your metadata machine-(and human-)readable and thereby improve the reusability of your work. It was especially designed for large datasets and/or to be included in applications which export data regularly, but of course it can also be used for smaller, individual datasets (although you will need to know how to code). Since version 1.1 it also supports specific term completion and validation for MIAPPE, see the [isa4j documentation](https://ipk-bit.github.io/isa4j/miappe-validation.html).
+
+#### Repositories
+
 * [Dataverse](https://dataverse.org/) is an open source research data repository software used by several research institute over the globe to publicly share heterogenous dataset. In Europe, it is being used among others by the portuguese [DMPortal](https://dmportal.biodata.pt/), the german [Julich data portal](https://data.fz-juelich.de/), and the french [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/) (previously Data.INRAE) research communities. Its main strength is its flexibility, as the mandatory metadata are focused on publication information such as title, abstract, authors and keywords. It can therefore host any datatype, which is both a strength and a weakness, as shared good practices are necessary to ensure the reusability and findability of published phenomic data.
 
 * [e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/) is a comprehensive research data repository, which is hosted at the [Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben](https://www.ipk-gatersleben.de/en/) and is mainly focused on sharing high valuable and large genomics and phenomics datasets. It is the first productive instance, which is based on the open source [e!DAL](https://edal.ipk-gatersleben.de) infrastructure software and is furthermore a part of the de.NBI/ELIXIR Germany services. All provided datasets are FAIR compliant and citable via a persistent DOI. By using the widely established LifeScience AAI (formerly known as ELIXIR AAI) the submission procedure is open for all ELIXIR associated users. The key feature of e!DAL-PGP is its user-friendly, simple and FAIR-compliant data submission and internal review procedure. The repository has no general limit to any type of size of datasets. A comprehensive documentation including, guidelines, code snippets for technical integration and videos is available on the [project website](https://edal-pgp.ipk-gatersleben.de/).
@@ -84,7 +90,7 @@ The data collected and annotated can be [shared](sharing) in trustworthy reposit
 
 #### Machine actionable data sharing
 
-[BrAPI](http://www.brapi.org) (the Breeding API) is a MIAPPE compliant web service specification available on several [deposition databases](https://www.brapi.org/servers). Those endpoints can be validated using the BrAPI validator [BRAVA](https://webapps.ipk-gatersleben.de/brapivalidator/). BrAPI hosts several documentation and training material to support its usage.
+* [BrAPI](http://www.brapi.org) (the Breeding API) is a MIAPPE compliant web service specification available on several [deposition databases](https://www.brapi.org/servers). Those endpoints can be validated using the BrAPI validator [BRAVA](https://webapps.ipk-gatersleben.de/brapivalidator/). BrAPI hosts several documentation and training material to support its usage.
 
 ### Data reuse
 
