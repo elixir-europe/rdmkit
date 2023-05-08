@@ -45,3 +45,37 @@ If you would be interested in joining such an Alliance and would like to contrib
 
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevYwIlBx5Axua5jL23jI-Kd2xqdacxFGeRbdQHzmWVvUvR1Q/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;" class="mt-1">Loading...</iframe>
+
+
+## Alliance concept
+
+An alliance is an association, partnership, or coalition formed between individuals, organizations, or countries with the purpose of achieving common goals or interests. Alliances are often established to share resources, knowledge, expertise, or power to address specific challenges, solve problems, or create opportunities.
+
+Alliances can be found in various contexts; relevant to RDMkit are:
+1. **Research and Academia**: Research institutions and universities may form alliances to share resources, knowledge, and expertise to advance scientific understanding, develop new technologies, or improve education.
+2. **Non-profit and Advocacy**: Non-profit organizations, advocacy groups, or community organizations may form alliances to amplify their voices, pool resources, and coordinate efforts to address social, environmental, or political issues.
+
+The nature of an alliance can be formal or informal, depending on the level of commitment and the specific agreements made between the participants. Alliances can be temporary or long-lasting, depending on the goals, interests, and dynamics of the participants involved.
+
+There are several examples of alliances we can consider as a template. By examining their governance structures and activities of these alliances we may be able to identify best practices and strategies that could be adapted.
+
+We should keep our ambition small and focused - like the OntoPortal.
+1. [Research Data Alliance (RDA)](https://www.rd-alliance.org/): RDA is a global community-driven organization that aims to develop the infrastructure and standards needed to support data sharing and reuse. RDA brings together stakeholders from academia, industry, and government to develop practical solutions to data management challenges. The organization has a governance structure that includes a Council, Secretariat, and Technical Advisory Board.
+2. [The Research Software Alliance (ReSA)](https://www.researchsoft.org/about-resa/) is an organization focused on promoting the recognition and value of research software and its developers in the global research community. Its vision is to ensure research software and its developers are considered fundamental to research worldwide. ReSA aims to coordinate efforts across various international research software organizations and programs to address challenges in software productivity, quality, reproducibility, and sustainability. ReSA is a fiscally sponsored project of Code for Science & Society and is led by the ReSA Steering Committee. Community members are expected to adhere to the ReSA Code of Conduct. ReSA is financially supported by the community through organizational members, project grants, founding members, and donations. It has received income totaling USD$501,000 from 2019-2022, which is primarily used to support a part-time Director and part-time Community Manager. In-kind support also provides an additional part-time Community Manager and opportunities to co-lead initiatives with other organizations.
+3. [The OntoPortal Alliance](https://ontoportal.org/) is an organization that aims to support and advance the use of ontology repositories in research and industry. The alliance brings together organizations, researchers, and developers who are working with ontologies and related technologies to collaborate and share resources, knowledge, and expertise. The OntoPortal Alliance focuses on the following key aspects:
+Developing and maintaining the OntoPortal software platform, which enables users to create, manage, and use ontology repositories.
+Providing support and guidance to users of the OntoPortal platform and related technologies.
+Encouraging collaboration and knowledge sharing among members, fostering the development of best practices, and promoting the use of ontologies in various domains.
+4. [Coalition for Networked Information (CNI)](https://www.cni.org/) is an organization that promotes the use of digital information technology in academia and research. The coalition brings together librarians, technologists, and researchers to explore issues related to digital information management. CNI has a membership structure and a governance structure that includes an Executive Director, Board of Directors, and Task Forces.
+5. [Earth Science Information Partners (ESIP)](https://www.esipfed.org/): ESIP is a community-driven organization that promotes the use of Earth science data and information. ESIP brings together stakeholders from academia, industry, and government to develop solutions to Earth science data management challenges. The organization has a membership structure and a governance structure that includes a President, Board of Directors, and committees.
+6. [Open Preservation Foundation (OPF)](https://openpreservation.org/): OPF is a non-profit organization that supports the preservation of digital content. The foundation brings together stakeholders from academia, industry, and government to develop practical solutions to digital preservation challenges. OPF has a membership structure and a governance structure that includes a Board of Directors, Executive Director, and working groups.
+7. [The Pistoia Alliance](https://www.pistoiaalliance.org/) is a global, not-for-profit organization made up of life science companies, technology providers, publishers, and academic groups. It was established in 2009 with the goal of fostering collaboration and innovation within the life sciences industry. By promoting the development and adoption of new technologies, best practices, and data standards, the alliance aims to improve the efficiency and effectiveness of research and development in life sciences, including pharmaceuticals, biotechnology, and diagnostics.
+
+
+Examples of RDMkits
+
+- [Infectious Diseases Toolkit](https://www.infectious-diseases-toolkit.org/) (using platform and processes)
+- [NFDI4 Chem KnowledgeBase](https://knowledgebase.nfdi4chem.de/knowledge_base/docs/intro/) (different platform, homage)
+
+
+
