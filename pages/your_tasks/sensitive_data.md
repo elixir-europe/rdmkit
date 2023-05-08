@@ -1,5 +1,5 @@
 ---
-title: Sensitive data
+title: Data sensitivity
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
 description: How to identify the sensitivity of different research data types
 page_id: sensitive
@@ -12,7 +12,7 @@ training:
   - name: RDMbites for using REDCap
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
-  - name: RDMbites for sensitive data
+  - name: RDMbites about data sensitivity
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
 dsw:
@@ -60,7 +60,7 @@ What is considered sensitive information is usually regulated by national laws a
 
 ### Solutions
 
-* Identify what legislations and regulations there are that you are expected to follow. Your institution's website may give you hints on where you can look for information about sensitive data.
+* Identify what legislations and regulations there are that you are expected to follow. Your institution's website may give you hints on where you can look for information about data sensitivity.
 * If you cannot determine if your data is sensitive, contact someone with expert knowledge in that area.
 
 
