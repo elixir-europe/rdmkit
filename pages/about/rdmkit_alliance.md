@@ -77,5 +77,3 @@ Examples of RDMkits
 - [Infectious Diseases Toolkit](https://www.infectious-diseases-toolkit.org/) (using platform and processes)
 - [NFDI4 Chem KnowledgeBase](https://knowledgebase.nfdi4chem.de/knowledge_base/docs/intro/) (different platform, homage)
 
-
-
