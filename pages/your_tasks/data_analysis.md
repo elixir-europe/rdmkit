@@ -128,7 +128,7 @@ Creating an analysis workflow involves several steps that require careful consid
 * Once you have determined the tools and software to use, the next step is to create the workflow. This involves breaking down the analysis process into small, manageable steps that can be automated. Each step should be clearly defined, and the inputs and outputs of each step should be documented.
 * If you want to use containers, you can now define the container images for the execution of the entire workflow or for the individual steps.
 * After creating the workflow, it is important to test it to ensure that it works as expected. You can do this by running a test dataset through the workflow and checking the outputs to ensure they match the expected results.
-* Once you have tested the workflow, the next step is to run it on your dataset. You can run the workflow locally on your computer or on a cloud-based platform.
+* Once you have tested the workflow, the next step is to run it on your dataset. Depending on the size of your data, you can run the workflow locally on your computer or on a remote workflow management system.
 
 ### Solutions
 
