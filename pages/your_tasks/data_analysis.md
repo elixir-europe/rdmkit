@@ -138,4 +138,4 @@ Creating an analysis workflow involves several steps that require careful consid
 - [OpenEBench](https://openebench.bsc.es/) is a framework for monitoring and  benchmarking analysis tools and workflows.
 - Sharing and re-using workflows is supported by the [WorkflowHub](https://workflowhub.eu/) project.
 - [LifeMonitor](https://crs4.github.io/life_monitor/) is a service designed to facilitate the long-term viability and reusability of published computational workflows.
-- The [ELIXIR Cloud and AAI project](https://elixir-cloud-aai.github.io/) supports a framework for executing workflows in the cloud via the standards of the GA4GH
+- The [ELIXIR Cloud and AAI project](https://elixir-cloud-aai.github.io/) supports a framework for executing workflows in the cloud via the standards developed by the [GA4GH](https://www.ga4gh.org/) community.
