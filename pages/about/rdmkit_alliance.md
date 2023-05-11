@@ -44,4 +44,4 @@ Then  we can launch the RDMkit Alliance and begin working towards achieving its
 If you would be interested in joining such an Alliance and would like to contribute to the steps to set it up, please sign up here:
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevYwIlBx5Axua5jL23jI-Kd2xqdacxFGeRbdQHzmWVvUvR1Q/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;" class="mt-1">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevYwIlBx5Axua5jL23jI-Kd2xqdacxFGeRbdQHzmWVvUvR1Q/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;" class="mt-1">Loading...</iframe>
