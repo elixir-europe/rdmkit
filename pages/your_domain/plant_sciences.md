@@ -25,6 +25,18 @@ The challenges to data integration stem from the multiple levels of heterogeneit
 
 Another particularity of this domain is the absence of central deposition databases for certain important data types, in particular data deriving from plant phenotyping experiments. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This makes it difficult to find, access and interconnect plant phenotyping data.
 
+## Data management planning
+
+### Description
+
+### Considerations
+
+### Solutions
+#### DMP as a text document
+#### Machine-actionable DMP
+The DSW Project Template "WP5 Plant Sciences" can be used for any plant sciences project. When creating the DSW DMP Project, choose the option "From Project Template" and search for the "Plant Sciences" template.
+
+
 ## Plant biological materials: (meta)data collection and sharing
 
 ### Description
