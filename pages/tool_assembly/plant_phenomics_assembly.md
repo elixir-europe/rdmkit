@@ -40,11 +40,7 @@ All the components of the plant phenomics tool assembly are publicly available a
 
 ### Data management planning
 
-The general principles to be considered are described in the [Plant Science domain page](plant_sciences) and in particular in its section dedicated to [plant phenotyping data](plant_sciences#phenotyping-metadata-collection-and-publication). In a nutshell:
-* the phenotyping data must be described following the [MIAPPE](https://www.miappe.org/) data standard;
-* special attention should be given to the identification and description of the [biological material](plant_sciences#plant-biological-materials-metadata-collection-and-sharing) and the [observation variables](plant_sciences#phenotyping-metadata-collection-and-publication).
-
-The general principles for data management planning and available tools are described in the RDMkit [data management plan page](data_management_plan). The knowledge model of the data management planning application [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) was reviewed for compliance with the needs of the Plant Sciences community.
+The general principles to be considered are described in the [Plant Science domain page](plant_sciences).
 
 ### File based data collection
 
