@@ -25,6 +25,9 @@ All the components of this tool assembly are publicly available, but most requir
 ## For what purpose can you use the plant genomics tool assembly?
 {% include image.html file="plant_genomics.svg" caption="Figure 1. The plant genomics tool assembly." alt="Tools and resources used in managing plant genomics and genotyping data." %}
 
+### Data management planning
+The general principles to be considered are described in the [Plant Science domain page](plant_sciences).
+
 ### Metadata collection and tracking
 Accurate [documentation](metadata_management.html) of the plant biological materials and samples is critical for interoperability, and should comply with the [MIAPPE](https://www.miappe.org/) standard.
 This information should be submitted to [BioSamples](https://www.ebi.ac.uk/biosamples/), with MIAPPE compliance validated using BioSamples' [plant-miappe.json](https://github.com/EBIBioSamples/biosamples-v4/blob/biohackathon_miappe_checklist/webapps/core/src/main/resources/schemas/certification/plant-miappe.json) template available on the [sample validation](https://www.ebi.ac.uk/biosamples/docs/guides/validation) page.

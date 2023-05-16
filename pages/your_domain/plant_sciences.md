@@ -28,13 +28,19 @@ Another particularity of this domain is the absence of central deposition databa
 ## Data management planning
 
 ### Description
+The general principles for data management planning and available tools are described in the RDMkit [data management plan page](data_management_plan).
 
 ### Considerations
+* the phenotyping data must be described following the [MIAPPE](https://www.miappe.org/) data standard;
+* special attention should be given to the identification and description of the [biological material](plant_sciences#plant-biological-materials-metadata-collection-and-sharing) and the [observation variables](plant_sciences#phenotyping-metadata-collection-and-publication).
+
 
 ### Solutions
+The knowledge model of the data management planning application [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) was reviewed for compliance with the needs of the Plant Sciences community.
 #### DMP as a text document
+* [DataPLAN](https://plan.nfdi4plants.org) is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.
 #### Machine-actionable DMP
-The DSW Project Template "WP5 Plant Sciences" can be used for any plant sciences project. When creating the DSW DMP Project, choose the option "From Project Template" and search for the "Plant Sciences" template.
+* The Plant Sciences project template, available on https://researchers.ds-wizard.org/projects/create/from-template can be used for any plant sciences project. When creating the DSW DMP Project, choose the option "From Project Template" and search for the "Plant Sciences" template.
 
 
 ## Plant biological materials: (meta)data collection and sharing
