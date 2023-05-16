@@ -40,7 +40,9 @@ All the components of the plant phenomics tool assembly are publicly available a
 
 ### Data management planning
 
-The general principles to be considered are described in the [Plant Science domain page](plant_sciences).
+The general principles to be considered are described in the [Plant Sciences domain page](plant_sciences).
+
+* [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) is a human-friendly tool for machine-actionable DMP collaborative editing. The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
 
 ### File based data collection
 
