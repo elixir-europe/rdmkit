@@ -27,21 +27,25 @@ Another particularity of this domain is the absence of central deposition databa
 
 ## Data management planning
 
-### Description
-The general principles for data management planning and available tools are described in the RDMkit [data management plan page](data_management_plan).
+### Description <!-- TODO -->
+The general principles for data management planning and available tools are described in the RDMkit [Data Management Plan](data_management_plan) page.
 
-### Considerations
-* the phenotyping data must be described following the [MIAPPE](https://www.miappe.org/) data standard;
-* special attention should be given to the identification and description of the [biological material](plant_sciences#plant-biological-materials-metadata-collection-and-sharing) and the [observation variables](plant_sciences#phenotyping-metadata-collection-and-publication).
+### Considerations <!-- TODO -->
 
+* Will phenotyping data must be described following the [MIAPPE](https://www.miappe.org/) data standard ?
+* How will you identify and describe the biological material and the observation variables ?
+
+https://rdmkit.elixir-europe.org/planning#what-should-be-considered-for-data-management-planning
 
 ### Solutions
 The knowledge model of the data management planning application [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) was reviewed for compliance with the needs of the Plant Sciences community.
+
+#### Machine-actionable DMP
+* The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
+
 #### DMP as a text document
 * [DataPLAN](https://plan.nfdi4plants.org) is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.
-#### Machine-actionable DMP
-* The Plant Sciences project template, available on https://researchers.ds-wizard.org/projects/create/from-template can be used for any plant sciences project. When creating the DSW DMP Project, choose the option "From Project Template" and search for the "Plant Sciences" template.
-
+* Depending on the country there might also be other tools to take into consideration: for example [DMP OPIDoR](https://dmp.opidor.fr/) in France, or [DMPonline](https://dmponline.dcc.ac.uk/) for UK. Visit the RDMkit [national resources](national_resources) section for details.
 
 ## Plant biological materials: (meta)data collection and sharing
 
