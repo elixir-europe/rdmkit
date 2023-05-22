@@ -175,9 +175,7 @@ The Norwegian government has released a
 
 ##  Funder policies on research data
 
-List of funders with Data Management Policies in Norway:
-
-* [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The [research data management policy of RCN](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf) requires a Data Management Plan (DMP) after a positive funding decision for each project and which also has to be submitted as part of a final report. RCN recommends to follow the ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and  performers. In addition to policies for open science and open access to publications, [RCN provides recommendations on how to make research data available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). 
+[Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The [research data management policy of RCN](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf) requires a Data Management Plan (DMP) after a positive funding decision for each project and which also has to be submitted as part of a final report. RCN recommends to follow the ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and  performers. In addition to policies for open science and open access to publications, [RCN provides recommendations on how to make research data available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). 
 
 
 ##  Institutional policies on research data
@@ -254,14 +252,39 @@ ELIXIR Norway provides access to a [national instance of the Data Stewardship Wi
 
 ## Life science-specific infrastructures/resources
 
-The following resources and tools are relevant to the implemention of data management practices in your specific research area/topic:
+We provide both general and area-specific resources to streamline and enhance your data management practices, safeguarding your research data. By implementing improved data management, you can boost productivity while ensuring that your research is compliant, transparent, and reproducible. Discover a tool that aligns with your research needs from our selection.
 
-* [Norwegian e-Infrastructure for Life Sciences (NeLS) - Tool Assembly RDMkit Page](nels_assembly)
-* [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/)
-* [National Norwegian services for sensitive (personal) data - Tool Assembly RDMkit Page](tsd_assembly)
-* [The Norwegian Covid-19 Data Portal](https://covid19dataportal.no/)
-* [Marine metagenomics Portal - Tool Assembly RDMkit Page](marine_metagenomics_assembly)
+### Norwegian e-Infrastructure for Life Sciences (NeLS) tool assembly
 
+ELIXIR Norway offers the comprehensive NeLS tool assembly for researchers in Norway and their collaborators. NeLS simplifies research data management by serving as a unified resource for planning, processing, analysing, and sharing research data throughout your project life cycle.
+
+* Use the Data Stewardship Wizard to simplify data management planning, including compliance with relevant laws and regulations.
+* Secure your data with NeLS' multi-tiered storage system, accessible via FEIDE and the ELIXIR Authentication and Authorization infrastructure.
+* Utilise versatile tools offered by integration with platforms like Galaxy and SEEK.
+
+For more information, visit the [Norwegian e-Infrastructure for Life Sciences (NeLS) tool assembly RDMkit page](nels_assembly).
+
+### Federated European Genome-phenome Archive (EGA) Norway node
+
+Established by ELIXIR Norway and hosted by the University of Oslo, the Norwegian Federated EGA node provides a secure, controlled platform for sharing and archiving sensitive personal data. This service prioritises making sensitive data findable, accessible, interoperable, and reusable (FAIR) while fully complying with GDPR and the Norwegian Personal Data Act. Boost your datasets' visibility while maintaining control over access permissions with your designated data access committee. Learn more at the [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/).
+
+### Norwegian tools assembly for sensitive personal data
+
+ELIXIR Norway's tools assembly for personally identifiable datasets leverages the University of Oslo's Services for Sensitive Data (TSD). This infrastructure provides resources to help you:
+
+* Comply with Norwegian and European regulations regarding sensitive personal data.
+* Store, process, and analyse your data in a secure, restricted environment.
+* Employ a diverse range of integrated data management tools.
+
+Explore more details on the [National Norwegian services for sensitive (personal) data tool assembly RDMkit page](tsd_assembly).
+
+### The Norwegian Covid-19 data portal
+
+The [Norwegian Covid-19 Data Portal](https://covid19dataportal.no/) acts as a specialised hub for collecting, storing, and analysing Covid-19 related research data. Access research data, tools, and workflows with the assurance of data security and privacy in compliance with data protection regulations.
+
+### Marine metagenomics portal tool assembly
+
+The Norwegian marine metagenomics portal tool assembly offers comprehensive resources for researchers and students. While the data storage tools through NeLS are primarily for users in Norway, the data analysis tools and repositories are globally accessible. The Marine Metagenomics Portal (MMP) is a rich collection of high-quality, curated microbial genomics and metagenomics resources. Find more about the toolkit on the [Marine metagenomics Portal tool assembly RDMkit page](marine_metagenomics_assembly).
 
 ## Ethical committees and general authorities
 We provide here a list of ethics committees and guidelines, relevant to life sciences data, that are responsible for national regulations in Norway:
