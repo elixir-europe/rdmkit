@@ -321,7 +321,7 @@ Through the Research Ethics Committees, the following recommendations were made 
 
 ## Laws and regulations relevant to life sciences research data
 
-These are some of the laws relevant for research data management in Norway. You should refer to the relevant laws and ethical guidelines in your DMP (in [DSW NO](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview?questionUuid=4ed4aadb-6ee8-40c3-8e31-c9f9039a5b1e)). Some of the legal information is only accessible after login with Feide.
+These are some of the laws relevant for research data management in Norway. You should refer to the relevant laws and ethical guidelines in your DMP (e.g. in [Norway's instance of the Data Stewardship Wizard (DSW)](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview?questionUuid=4ed4aadb-6ee8-40c3-8e31-c9f9039a5b1e)). Some of the legal information is only accessible after login with Feide.
 
 ### Data privacy
 * [Personal Data Act](https://lovdata.no/dokument/RFA/lov/2000-04-14-31)
