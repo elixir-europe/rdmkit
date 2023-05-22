@@ -90,7 +90,7 @@ subitems:
         url: /licensing
       - title: Machine actionability
         url: /machine_actionability
-      - title: Sensitive data
+      - title: Data sensitivity
         url: /sensitive_data
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.

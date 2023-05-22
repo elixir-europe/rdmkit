@@ -51,7 +51,7 @@ However, a number of web-based DMP tools are currently available that greatly fa
   * {% tool "data-stewardship-wizard" %}: publicly available open-source tool to collaboratively compose data management plans through smart and customisable questionnaires with FAIRness evaluation.
   * {% tool "dmp-canvas-generator" %}: this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
   * [DAMAP](https://damap.org/): tool for machine actionable Data Management Plans.
-  * [DataPLAN](https://plan.nfdi4plants.org): A FAIR and fast Data Management Plan generator for plant science.
+  * [DMP Canvas Generator](https://dmp.vital-it.ch): this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
   * [DMPonline](https://dmponline.dcc.ac.uk): tool widely used in Europe and many universities or institutes provide a DMPonline instance to researchers.
   * {% tool "dmptool" %}: widely used tool and many universities or institutes provide a DMPTool instance to researchers.
   * [EasyDMP](https://easydmp.no): tool provided by the pan-European network EUDAT.

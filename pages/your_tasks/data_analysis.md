@@ -1,6 +1,6 @@
 ---
 title: Data analysis
-contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe]
+contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe, Sven Twardziok]
 description: How to make data analysis FAIR.
 page_id: data_analysis
 related_pages:
@@ -108,3 +108,34 @@ In short containers works almost like a virtual machine (VMs), in that it re-cre
     * If you need to use multiple tools in a pipeline, find Conda or container images, compose them in a Computational Workflow.
     * If you need to run tools in a cloud instance, but it has nothing preinstalled, use Conda or containers to ensure installation on cloud VM matches your local machine.
     * If you just need a particular open source tool installed, e.g. ImageMagick, check the document how to install: _For Ubuntu 20.04, try `apt install imagemagick`_.
+
+## How can you use workflow management systems for reproducible data analysis?
+
+### Description
+
+Using containerization together with workflow management systems provides several benefits for data analysis, including:
+
+* Reproducibility: By using containerized environments and workflow management systems, you can ensure that your analysis is reproducible, as the environment in which the analysis is executed is exactly the same each time.
+* Portability: Containerized environments can be easily moved between different computing environments, allowing you to execute your analysis on different computing resources or share your analysis with collaborators.
+* Scalability: Workflow management systems can be used to execute analyses on large computing clusters or cloud computing resources, enabling you to scale your analysis as needed.
+
+### Considerations
+
+Creating an analysis workflow involves several steps that require careful consideration. The following steps can help you create a workflow and run it locally or in the cloud:
+
+* Before creating a workflow, it is important to define the scope and objectives of the analysis. This will help you to determine the type of data to collect, the analysis methods to use, and the resources required for the analysis.
+* After defining the scope and objectives, the next step is to determine the tools and software to use. You need to choose software that is compatible with the type of data you want to analyze and the analysis methods you plan to use.
+* Once you have determined the tools and software to use, the next step is to create the workflow. This involves breaking down the analysis process into small, manageable steps that can be automated. Each step should be clearly defined, and the inputs and outputs of each step should be documented.
+* If you want to use containers, you can now define the container images for the execution of the entire workflow or for the individual steps.
+* After creating the workflow, it is important to test it to ensure that it works as expected. You can do this by running a test dataset through the workflow and checking the outputs to ensure they match the expected results.
+* Once you have tested the workflow, the next step is to run it on your dataset. Depending on the size of your data, you can run the workflow locally on your computer or on a remote workflow management system.
+
+### Solutions
+
+- Most workflow management systems provide detailed tutorials and documentation for creating workflows and including containerization technologies. Here are documentations for [Nextflow](https://www.nextflow.io/docs/latest/docker.html), [Snakemake](https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html), [Cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/Containers/), [CWL](https://www.commonwl.org/user_guide/topics/using-containers.html).
+- The [Biocontainer](https://biocontainers.pro/) project provides a platform for storing and sharing containers that can used in your workflow.
+- The [bio.tools](https://bio.tools/) repository lists state of the art tools and databases from the field of bioinformatics ordered by collections and communities.
+- [OpenEBench](https://openebench.bsc.es/) is a framework for monitoring and  benchmarking analysis tools and workflows.
+- [WorkflowHub](https://workflowhub.eu/) and [Dockstore](https://dockstore.org/) are two popular services for sharing and re-using workflows.
+- [LifeMonitor](https://crs4.github.io/life_monitor/) is a service designed to facilitate the long-term viability and reusability of published computational workflows.
+- The [ELIXIR Cloud and AAI project](https://elixir-cloud-aai.github.io/) supports a framework for executing workflows in the cloud via the standards developed by the [GA4GH](https://www.ga4gh.org/) community.
