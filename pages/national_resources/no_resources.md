@@ -258,7 +258,7 @@ We provide both general and area-specific resources to streamline and enhance yo
 
 ELIXIR Norway offers the comprehensive NeLS tool assembly for researchers in Norway and their collaborators. NeLS simplifies research data management by serving as a unified resource for planning, processing, analysing, and sharing research data throughout your project life cycle.
 
-* Use the Data Stewardship Wizard to simplify data management planning, including compliance with relevant laws and regulations.
+* Use the Norwegian instannce of the Data Stewardship Wizard to simplify data management planning, including compliance with relevant laws and regulations.
 * Secure your data with NeLS' multi-tiered storage system, accessible via FEIDE and the ELIXIR Authentication and Authorization infrastructure.
 * Utilise versatile tools offered by integration with platforms like Galaxy and SEEK.
 
@@ -280,7 +280,7 @@ Explore more details on the [National Norwegian services for sensitive (personal
 
 ### The Norwegian Covid-19 data portal
 
-The [Norwegian Covid-19 Data Portal](https://covid19dataportal.no/) acts as a specialised hub for collecting, storing, and analysing Covid-19 related research data. Access research data, tools, and workflows with the assurance of data security and privacy in compliance with data protection regulations.
+The [Norwegian Covid-19 Data Portal](https://covid19dataportal.no/) acts as a specialised hub for collecting, storing, and analysing Covid-19 related research data. You can access research data, tools, and workflows with the assurance of data security and privacy in compliance with data protection regulations.
 
 ### Marine metagenomics portal tool assembly
 
