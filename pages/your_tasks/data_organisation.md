@@ -62,6 +62,8 @@ Brief and descriptive file names are important in keeping your data files organi
   * File name: `20201203_MM_HEAD_CROPPED_V1.psd`
   * Explanation: `Time_CreatorData_TypeModification_Version`
 
+## How to choose the appropriate file formats?
+
 ## How do you manage file versioning?
 
 ### Description
