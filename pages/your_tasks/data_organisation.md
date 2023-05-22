@@ -1,6 +1,6 @@
 ---
 title: Data organisation
-contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
+contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg, Ivan Mičetić, Marina Popleteeva, Naeem Muhammad]
 description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
