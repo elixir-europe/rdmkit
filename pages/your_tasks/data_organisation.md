@@ -84,15 +84,15 @@ The following table lists the recommended file formats for best practices in res
 
 | **Type**                       | **Preferred**                                                                  | **Acceptable**                                                | Non-recommended                                         |
 |----------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|
-| Rich text documents        | ODT (.odt) Markdown (.md) LaTeX (.tex) for read-only documents: PDF/A (.pdf) | Office Open XML (.docx)                                   | Microsoft Word (.doc) PDF other than PDF/A (.pdf)        |
+| Rich text documents        | ODT (.odt)<br> Markdown (.md)<br> LaTeX (.tex)<br> for read-only documents: PDF/A (.pdf) | Office Open XML (.docx)                                   | Microsoft Word (.doc)<br> PDF other than PDF/A (.pdf)        |
 | Plain text documents       | Unicode text (.txt)                                                        |                                                           | Non-Unicode text (.txt)                                 |
 | Tabular data               | CSV (.csv, .tsv)                                                           | Office Open XML Workbook (.xlsx)                          | Microsoft Excel (.xls)                                  |
-| Containers and compression | ZIP (.zip)                                                                 | tar (.tar) gzip (.gz) bzip2 (.bz2)                        | RAR (.rar) 7-Zip (.7z)                                  |
-| Raster images              | TIFF (.tif, .tiff)  DICOM (.dcm)                                           | proprietary microscopy formats (CZI, LIF, NEF) PNG (.png) | JPEG (.jpg, .jpeg) PS (.ps) EPS (.eps) BMP (.bmp)       |
-| Vector images              | SVG (.svg)                                                                 | PS (.ps) EPS (.eps)                                       | Adobe Illustrator (.ai) WMF/EMF (.wmf, .emf) CDR (.cdr) |
-| Audio                      | Matroska (.mka) FLAC (.flac)                                              | WAVE (.wav) MP3 (.mp3)                                    |                                                         |
-| Video                      | Matroska (.mkv)                                                            | MPEG/MPG animation (.mpg, .mp4, .mjpeg)                   | AVI (.avi)QuickTime (.mov, .qt)                         |
-| Machine-readable metadata  | JSON (.json) XML (.xml)                                                     |                                                           |                                                         |
+| Containers and compression | ZIP (.zip)                                                                 | tar (.tar)<br> gzip (.gz)<br> bzip2 (.bz2)                        | RAR (.rar)<br> 7-Zip (.7z)                                  |
+| Raster images              | TIFF (.tif, .tiff)<br>  DICOM (.dcm)                                           | proprietary microscopy formats (CZI, LIF, NEF)<br> PNG (.png) | JPEG (.jpg, .jpeg)<br> PS (.ps)<br> EPS (.eps)<br> BMP (.bmp)       |
+| Vector images              | SVG (.svg)                                                                 | PS (.ps)<br> EPS (.eps)                                       | Adobe Illustrator (.ai)<br> WMF/EMF (.wmf, .emf)<br> CDR (.cdr) |
+| Audio                      | Matroska (.mka)<br> FLAC (.flac)                                              | WAVE (.wav)<br> MP3 (.mp3)                                    |                                                         |
+| Video                      | Matroska (.mkv)                                                            | MPEG/MPG animation (.mpg, .mp4, .mjpeg)                   | AVI (.avi)<br> QuickTime (.mov, .qt)                         |
+| Machine-readable metadata  | JSON (.json)<br> XML (.xml)                                                     |                                                           |                                                         |
 
 For domain specific file formats please check the appropriate [domain page](https://rdmkit.elixir-europe.org/your_domain).
 
