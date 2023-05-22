@@ -64,6 +64,25 @@ Brief and descriptive file names are important in keeping your data files organi
 
 ## How to choose the appropriate file formats?
 
+### Description
+File formats play an important role when you try to open files later or another person would like to work with the data. Choosing open and widely supported file formats ensures compatibility and accessibility in the foreseen future.
+
+### Considerations
+Wherever possible, try to use as much from the following list:
+- non-proprietary;
+- based on open standard;
+- commonly used in your research domain;
+- uncompressed;
+- unencrypted.
+It is important to differentiate between file formats intended for active phase (data acquisition, data reduction and primary data analysis) and those designed for long-term storage or reuse (sharing, publishing and archiving). For the latter purpose, we recommend utilizing file formats that adhere to open standards, enjoy broad acceptance, and are unlikely to become obsolete. In the active phase it is fine to use proprietary device-specific file formats, if needed. This is acceptable until you reach the phase of sharing the data for subsequent analysis, validation or control with other team members. At this point, you need to convert (or export) the data in order to be usable by members without access to proprietary software or instrumentation that generated it.
+
+### Solutions
+The best file formats depend on data types, availability and common acceptance of open file formats and research domain. There is no one size fits all solution. You need to choose the best for your case.
+
+The following table lists the recommended file formats for best practices in research data management. Acceptable and non-recommended file formats represent commonly used file formats that do not fulfill all of the above mentioned criteria.  
+
+For domain specific file formats please check the appropriate [domain page](https://rdmkit.elixir-europe.org/your_domain)
+
 ## How do you manage file versioning?
 
 ### Description
