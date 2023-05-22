@@ -94,7 +94,7 @@ The following table lists the recommended file formats for best practices in res
 | Video                      | Matroska (.mkv)                                                            | MPEG/MPG animation (.mpg, .mp4, .mjpeg)                   | AVI (.avi)QuickTime (.mov, .qt)                         |
 | Machine-readable metadata  | JSON (.json)XML (.xml)                                                     |                                                           |                                                         |
 
-For domain specific file formats please check the appropriate [domain page](https://rdmkit.elixir-europe.org/your_domain)
+For domain specific file formats please check the appropriate [domain page](https://rdmkit.elixir-europe.org/your_domain).
 
 ## How do you manage file versioning?
 
