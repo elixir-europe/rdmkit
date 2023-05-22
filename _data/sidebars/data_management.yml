@@ -33,6 +33,8 @@ subitems:
         url: /epitranscriptome_data
       - title: Human data
         url: /human_data
+      - title: Human pathogen genomics
+        url: /human_pathogen_genomics
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins
       - title: Marine metagenomics
