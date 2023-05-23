@@ -76,14 +76,14 @@ Due to the large variety of experiments, techniques and collaborative studies th
   * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
-  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception from this aproach as its main purpose is to be human-readable with is controversial with machine-actionable.
+  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception from this aproach as its main purpose is to be human-readable which is controversial with machine-actionable.
   Also non-proprietary formats are preferred over proprietary ones.
 
 * Highly structured data documentation is called **metadata**. Generating metadata in a machine-readable or -actionable format makes your data more FAIR . Metadata provides structured and searchable information so that a user can find existing data, evaluate its reusability and cite it.
 
 * It is good practice to use international standard metadata schemas to organise and store your (meta)data in a structured way. A metadata schema describes the relations, such as hierarchy, of the elements that belong to the structure. It is also good practice to use international standard metadata checklists to describe the content your (meta)data. A (meta)data checklist is a fixed set of attributes about the data that needs to be provided. Some attributes are mandatory, some are only recommended or optional. International standard metadata schemas and checklists are developed by and accepted as standards by communities. There are many standard metadata schemas and checklists, some generic, while others discipline-specific. See the paragraph about [how to find standard metadata.](metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
 
-* You can use the attributes of metadata schemas and checklists in a format that is not machine-readable or -actionable (e.g., by copying the metadata fields in a README.txt file or in a Codebook.xls). However, using standard metadata in a machine-readable or -actionable format will increase the findability of your data.
+* You can use the attributes of metadata schemas and checklists in a format that is not machine-readable or -actionable (e.g., by copying the metadata fields in a Codebook.xls). However, using standard metadata in a machine-readable or -actionable format will increase the findability of your data.
 
 * Metadata schemas and checklists usually rely on ontologies and controlled vocabularies, which make your data more reusable and interoperable. See the paragraph about [how to find ontologies and controlled vocabularies.](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
 
@@ -194,7 +194,7 @@ Below you will find examples of README files for study-level and data-level. For
     DATA COLLECTION
     - Institutional catalog ID (if applicable):
     - Date of data collection: <provide single date, range, or approximate date; suggested format YYYY-MM-DD>
-    - Link to electronic lab book where the following is described (if it does not exist, include it here):
+    - Link to electronic lab book (codebook) where the following is described (if it does not exist, include it here):
       - Methods used for data collection (including references, documentation (e.g. consent form template), links):
       - Geographic location of collection (if applicable):
       - Experimental & environmental conditions of collection (if applicable):
