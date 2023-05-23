@@ -2228,6 +2228,70 @@
     fairsharing: 
     tess: 
   url: http://www.insdc.org/
+- description: A number of ECPGR Central Crop Databases have been established through the initiative of individual institutes and of ECPGR Working Groups. The databases hold passport data and, to varying degrees, characterization and primary evaluation data of the major collections of the respective crops in Europe.
+  id: ecpgr-central-crop-databases
+  name: ECPGR Central Crop Databases and other Crop Databases
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.ecpgr.cgiar.org/resources/germplasm-databases/ecpgr-central-crop-databases
+- description: A catalogue of relevant International Multicrop Databases
+  id: international-multicrop-databases
+  name: International Multicrop Databases
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.ecpgr.cgiar.org/resources/germplasm-databases/international-multicrop-databases
+- description: Genesys is an online platform where you can find information about Plant Genetic Resources for Food and Agriculture PGRFA conserved in genebanks worldwide.
+  id: genesys
+  name: Genesys
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.genesys-pgr.org/
+- description: This document describes the MIAPPE Checklist and Data Model 
+  id: miappe-checklist-data-model
+  name: MIAPPE_Checklist-Data-Model
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1
+- description: BioSamples Plant MIAPPE checklist in JSON format
+  id: plant-miappe-json
+  name: plant-miappe.json
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.ebi.ac.uk/biosamples/schemas/certification/plant-miappe.json
+- description: An ecosystem for sharing and opening research data
+  id: recherche-data-gouv
+  name: Recherche Data Gouv
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://recherche.data.gouv.fr/
+- description: Submit a new BrAPI compatible server
+  id: brapi-compatible-server
+  name: BrAPI compatible server
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.brapi.org/servers
+- description: MIAPPE-compliant spreadsheet template
+  id: miappe-compliant-spreadsheet-template
+  name: MIAPPE-compliant spreadsheet template
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx
 - description: 
   id: 
   name: 
