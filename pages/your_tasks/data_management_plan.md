@@ -50,11 +50,12 @@ However, a number of web-based DMP tools are currently available that greatly fa
 * Choose one of the following online DMP tools (ordered alphabetically).
   * {% tool "data-stewardship-wizard" %}: publicly available open-source tool to collaboratively compose data management plans through smart and customisable questionnaires with FAIRness evaluation.
   * {% tool "dmp-canvas-generator" %}: this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
-  * [DAMAP](https://damap.org/): tool for machine actionable Data Management Plans.
-  * [DMP Canvas Generator](https://dmp.vital-it.ch): this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
-  * [DMPonline](https://dmponline.dcc.ac.uk): tool widely used in Europe and many universities or institutes provide a DMPonline instance to researchers.
+  * {% tool "damap" %}: tool for machine actionable Data Management Plans.
+  * {% tool "dmp-canvas-generator" %}: this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
+  * {% tool "dmponline" %}: tool widely used in Europe and many universities or institutes provide a DMPonline instance to researchers.
   * {% tool "dmptool" %}: widely used tool and many universities or institutes provide a DMPTool instance to researchers.
-  * [EasyDMP](https://easydmp.no): tool provided by the pan-European network EUDAT.
+  * {% tool "dmproadmap" %}: DMP Roadmap is a Data Management Planning tool. Management and development of DMP Roadmap is jointly provided by the Digital Curation Centre (DCC), http://www.dcc.ac.uk/, and the University of California Curation Center (UC3), http://www.cdlib.org/services/uc3/. The DMPTool and DMPonline sites are both now running from the joint DMPRoadmap codebase.
+  * {% tool "easy-dmp" %}: tool provided by the pan-European network EUDAT.
 * Additional tools for creating a DMP are listed in the table below.
 
 

@@ -56,7 +56,7 @@ What licence you should apply to your research data depends on what rights prote
 
 * If possible, choose and apply the least restrictive licence to ensure the widest possible reuse.
 * Remember that if you publish your data in a data repository of your choice, a licence agreement will be applied to your data.
-  * Repositories can be selected based on data licence and sharing policy by using {% tool "re3data" %}/).
+  * Repositories can be selected based on data licence and sharing policy by using {% tool "re3data" %}.
 * ELIXIR data resources ideally have terms of use or a licence that enables the reuse and remixing of data.
 * Remember that the rights granted in a licence cannot be revoked once it has been applied.
 

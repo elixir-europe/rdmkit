@@ -63,8 +63,8 @@ The most suitable repository will depend on the data type and your discipline.
    * {% tool "elixir-deposition-databases-for-biomolecular-data" %}
    * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories)
 * General-purpose and institutional repositories: For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [general-purpose repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your institution or university.
-* {% tool "re3data" %}) or {% tool "repository-finder" %} gather information about existing repositories and allows you to filter them based on access and licence types.
-* {% tool "re3data" %}) and {% tool "fairsharing" %} websites gather features of repositories, which you can filter by discipline, data type, taxonomy and many other features.
+* {% tool "re3data" %} or {% tool "repository-finder" %} gather information about existing repositories and allows you to filter them based on access and licence types.
+* {% tool "re3data" %} and {% tool "fairsharing" %} websites gather features of repositories, which you can filter by discipline, data type, taxonomy and many other features.
 
 ## How do you prepare your data for publication in data repositories?
 

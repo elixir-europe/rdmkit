@@ -60,8 +60,8 @@ Due to the large variety of experiments, techniques and collaborative studies th
   * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, OSF.io has integrations with Mendeley, Dropbox, GitHub, Figshare, etc.
 
   * There is a major area of overlap between the aforementioned tools for data documentation, so it is better to choose the tool(s) that best address your specific need. Some tools can be used at the same time to address different needs and they can be complementary. Comparative lists can help with the choice:
-    * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
-    * [University of Cambridge - Electronic Research Notebook Products.](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products)
+    * {% tool "harvard-medical-school-electronic-lab-notebooks" %}
+    * {% tool "university-of-cambridge-electronic-research-notebook-products" %}
 
 * Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data):
   * Folder structure
@@ -100,7 +100,7 @@ There are multiple standards for different types of data, ranging from generic d
 
 ### Considerations
 
-* Decide at the beginning of the project what are the [recommended repositories](https://elixir-europe.org/platforms/data/elixir-deposition-databases) for your data types.
+* Decide at the beginning of the project what are the {% tool "elixir-deposition-databases-for-biomolecular-data" %} for your data types.
   * Note that you can use several repositories if you have different data types.
   * Distinguish between generic (e.g. Zenodo) and data type (technique) specific repositories (e.g. EBI repositories).
 
@@ -113,9 +113,9 @@ There are multiple standards for different types of data, ranging from generic d
   * Be aware that data type specific repositories usually have check-lists for metadata. For example, the European Nucleotide Archive provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
 * If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information ...your topic”, e.g. [MIAME](https://www.fged.org/projects/miame) or [MINSEQE](https://www.fged.org/projects/minseqe) or [MIAPPE](https://www.miappe.org)) required for your type of data in your community, or other metadata, at the following resources:
-  * [Research Data Alliance (RDA): Metadata Dictionary: Standards](https://rd-alliance.github.io/metadata-directory/standards/)
-  * [FAIRsharing.org](https://fairsharing.org) at “Standards” and “Collections”
-  * [The Digital Curation Centre (DCC): List of Metadata Standards](https://www.dcc.ac.uk/guidance/standards/metadata/list)
+  * {% tool "rda-standards" %}
+  * {% tool "fairsharing" %} at “Standards” and “Collections”
+  * {% tool "data-curation-centre-metadata-list" %}
 
 
 ## How do you find appropriate vocabularies or ontologies?
@@ -140,8 +140,8 @@ There are many vocabularies and ontologies available on the web. Finding a suita
 
 * Define a list of terms that you want to find ontologies for. Include in the list also any alternative term names that you are aware of.
 * Search for your listed terms on dedicated web portals. These are a few:
-  * [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
-  * [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
-  * [Ontobee](http://www.ontobee.org)
-  * [BioPortal](https://bioportal.bioontology.org)
-  * [AgroPortal](https://agroportal.lirmm.fr)
+  * {% tool "linked-open-vocabularies" %}
+  * {% tool "ontology-lookup-service" %}
+  * {% tool "ontobee" %}
+  * {% tool "bioportal" %}
+  * {% tool "agroportal" %}

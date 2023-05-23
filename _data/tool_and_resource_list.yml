@@ -554,6 +554,7 @@
     DMP as a Word document that you can customize and use for submission to funders.
     Also, DAMAP is compatible with the RDA recommendation for machine-actionable DMPs
     and offers an export of JSON DMPs. DAMAP is open source and to be self deployed.
+  id: damap
   name: DAMAP
   url: https://damap.org/
 - description: Unique collection of project-level metadata from large research initiatives
@@ -589,6 +590,7 @@
   url: https://ds-wizard.org/
 - description: This service provides simple estimation of storage costs based on desired
     properties and local/actual configuration.
+  id: data-stewardship-wizard-storage-costs-evaluator
   name: Data Stewardship Wizard Storage Costs Evaluator
   url: https://storage-costs-evaluator.ds-wizard.org/
 - description: DUO allows to semantically tag datasets with restriction about their
@@ -747,8 +749,8 @@
   name: ELIXIR-AAI
   url: https://elixir-europe.org/services/compute/aai
 - description: "EMBL-EBI's web portal for finding ontologies"
-  id: ontology-search
-  name: Ontology Search
+  id: ontology-lookup-service
+  name: Ontology Lookup Service
   url: https://www.ebi.ac.uk/ols/index
 - description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
     data.
@@ -2030,6 +2032,8 @@
   url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
 - description: TU Delft costing tool helps to budget for data management personnel
     costs in proposals.
+  id: tu-delft-data-management-costing-tool
+  url: https://www.tudelft.nl/en/library/resea
   name: TU Delft data management costing tool
   url: https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-costs
 - description: A tool that contains weighted gene co-expression networks obtained
@@ -2038,6 +2042,7 @@
   name: TXG-MAPr
   url: https://txg-mapr.eu/
 - description: UK Data Service activity-based costing tool.
+  id: uk-data-service-data-management-costing-tool
   name: UK Data Service Data Management costing Tool
   url: https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/costing/
 - description: The Unified Medical Language System (UMLS) is a set of tools that establishes
@@ -2292,6 +2297,238 @@
     fairsharing: 
     tess: 
   url: https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx
+- description: The Common Workflow Language CWL is an emerging standard for writing workflows that are portable across multiple workflow engines and platforms. Toil has full support for the CWL v1.0, v1.1, and v1.2 standards.
+  id: cwl-in-toil
+  name: CWL in Toil
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://toil.readthedocs.io/en/latest/running/cwl.html
+- description: This is the reference implementation of the Common Workflow Language open standards. It is intended to be feature complete and provide comprehensive validation of CWL files as well as provide other tools related to working with CWL.
+  id: cwltool
+  name: cwltool
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://pypi.org/project/cwltool/
+- description: Kernel Zero is IPython, which you can get through ipykernel, and is still a dependency of jupyter. The IPython kernel can be thought of as a reference implementation, as CPython is for Python.
+  id: jupyter-kernels
+  name: Jupyter kernels
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
+- description: The Missing Package Manager for macOS or Linux
+  id: homebrew
+  name: Homebrew
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://brew.sh/
+- description: The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac operating system. 
+  id: macports
+  name: MacPorts
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.macports.org
+- description: The Package Manager for Windows
+  id: chocolatey
+  name: Chocolatey
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://chocolatey.org/
+- description: Windows Package Manager is a comprehensive package manager solution that consists of a command line tool and set of services for installing applications on Windows 10 and Windows 11.
+  id: windows-package-manager
+  name: Windows Package Manager
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://docs.microsoft.com/en-us/windows/package-manager/
+- description: udocker is a basic user tool to execute simple docker containers in user space without requiring root privileges. 
+  id: udocker
+  name: udocker
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://indigo-dc.gitbook.io/udocker/
+- description: Manage containers, pods, and images with Podman. Seamlessly work with containers and Kubernetes from your local environment.
+  id: podman
+  name: Podman
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://podman.io/
+- description: Docker Hub is the world's easiest way to create, manage, and deliver your team's container applications.
+  id: docker-hub
+  name: Docker Hub
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://hub.docker.com/
+- description: BioContainers Flow
+  id: biocontainers
+  name: BioContainers
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://biocontainers.pro/
+- description: Volumes are the preferred mechanism for persisting data generated by and used by Docker containers.
+  id: volumes
+  name: Volumes
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://docs.docker.com/storage/volumes/
+- description: Docker can build images automatically by reading the instructions from a Dockerfile
+  id: dockerfile-reference
+  name: Dockerfile reference
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://docs.docker.com/engine/reference/builder/
+- description: Compose is a tool for defining and running multi-container Docker applications. 
+  id: docker-compose-overview
+  name: Docker Compose overview
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://docs.docker.com/compose/
+- description: Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+  id: kubernetes
+  name: Kubernetes
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://kubernetes.io/
+- description: Cromwell is a Workflow Management System geared towards scientific workflows. 
+  id: cromwell
+  name: Cromwell
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://cromwell.readthedocs.io/en/stable/tutorials/Containers/
+- description: Essential scientific and technical information about software tools, databases and services for bioinformatics and the life sciences.
+  id: bio-tools
+  name: bio.tools
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://bio.tools/
+- description: Dockstore is a free and open source platform for sharing reusable and scalable analytical tools and workflows. It’s developed by the Cancer Genome Collaboratory and used by the GA4GH.
+  id: dockstore
+  name: Dockstore
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://dockstore.org
+- description: LifeMonitor is a service to support the sustainability and reusability of published computational workflows.
+  id: life-monitor
+  name: Life-Monitor
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://crs4.github.io/life_monitor/
+- description: Data Management Plans that meet institutional funder requirements.
+  id: dmponline
+  name: DMPonline
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://dmponline.dcc.ac.uk
+- description: Data Management Plan Generator
+  id: easy-dmp
+  name: easy.DMP
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://easydmp.no
+- description: Gene expression across species and biological conditions
+  id: expression-atlas
+  name: Expression Atlas
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.ebi.ac.uk/gxa/home
+- description: Accessible database designed by scientist for scientist, to improve the sharing of influenza data.
+  id: gisaid
+  name: GISAID
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.gisaid.org
+- description: Protein Data Bank in Europe Knowledge Base
+  id: pdbe-kb
+  name: PDBe-KB
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.ebi.ac.uk/pdbe/pdbe-kb
+- description: 3DBIONOTES-WS  is a web application designed to automatically annotate biochemical and biomedical information onto structural models.
+  id: 3dbionotes
+  name: 3DBioNotes
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: http://3dbionotes-ws.cnb.csic.es/
+- description: A software to make biological search more integrated, intuitive and intelligent, enabling a better way to discover and share new insights.
+  id: knetMiner
+  name: KnetMiner
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://knetminer.com
+- description: The RDF Knowledge-based Database for plant molecular networks
+  id: agronomic-linked-data
+  name: Agronomic Linked Data
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: http://agrold.southgreen.fr/agrold/
+- description: Interoperability in small molecules
+  id: integrated-database-of-small-molecules
+  name: Integrated Database of Small Molecules
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://idsm.elixir-czech.cz/
+- description: 
+  id: 
+  name: 
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: 
 - description: 
   id: 
   name: 

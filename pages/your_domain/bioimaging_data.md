@@ -120,7 +120,7 @@ Due to the scale of data, keeping track of the image data and the associated dat
   - Metadata standards can be found at the [Metadata Standards Directory Working Group](https://rdamsc.bath.ac.uk/).
   - Ontologies Resources available at:
     - {% tool "zooma" %} - Resource to find ontology mapping for free text terms.
-    - {% tool "ontology-search" %} - Ontology lookup service.
+    - {% tool "ontology-lookup-service" %} - Ontology lookup service.
     - {% tool "bioportal" %} - Biomedical ontologies.
    - Existing data can be found by using the following resources:
     - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers).
