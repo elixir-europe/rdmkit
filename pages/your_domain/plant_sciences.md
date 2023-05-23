@@ -116,7 +116,7 @@ It is recommended that metadata collection is contemplated from the start of the
 * If you or your partners collect data into data management platforms:
   * If it implements BrAPI, you can exchange data using BrAPI calls.
   * If it doesn’t implement BrAPI, the simplest solution would be to export data into the MIAPPE spreadsheet template, or another formally defined data template.
-* For data deposition, it is highly recommended that you opt for one of the many repositories that implement BrAPI({% tool "brapi-compatible-server" %}), as they enhance findability through the ELIXIR plant data discovery service, FAIR Data-finder for Agronomic Research ({% tool "faidare" %}), enable machine actionable access to MIAPPE compliant data and validation of that compliance.
+* For data deposition, it is highly recommended that you opt for one of the many repositories that implement {% tool "brapi-compatible-server" %}, as they enhance findability through the ELIXIR plant data discovery service, FAIR Data-finder for Agronomic Research ({% tool "faidare" %}), enable machine actionable access to MIAPPE compliant data and validation of that compliance.
 
 ## Genotyping: (meta)data collection and publication
 
