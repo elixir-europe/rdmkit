@@ -159,7 +159,7 @@ A README file is typically a text file written in text (.txt) or markdown (.md) 
 
 ### Solutions 
 
-Below you will find examples of REDME files for study-level and data-level. For more information you might want to check [documentation page](https://rdm.elixir-belgium.org/data_documentation#readme-file) from ELIXIR Belgium node.
+Below you will find examples of README files for study-level and data-level. For more information you might want to check [documentation page](https://rdm.elixir-belgium.org/data_documentation#readme-file) from ELIXIR Belgium node.
 
 #### Study/project level README
 
@@ -167,7 +167,7 @@ Below you will find examples of REDME files for study-level and data-level. For 
 
     GENERAL INFORMATION
     - Study/project title:
-    - Description: <provide a short description of the project>
+    - Description: <provide a short description of the study/project>
     - Principle Investigator:
     - Link to Data management plan
 
@@ -205,8 +205,8 @@ Below you will find examples of REDME files for study-level and data-level. For 
 
     DATA RE-USE
     - DOI/accession number (if dataset is published): 
-    - License (if any)
-    - Use restrictions (if any)
-    - Recommended citation for the data (if any)
+    - License (if any):
+    - Use restrictions (if any):
+    - Recommended citation for the data (if any):
 
 
