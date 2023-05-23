@@ -150,7 +150,7 @@ There are many vocabularies and ontologies available on the web. Finding a suita
 
 ### Description
 
-A README file is typically a text file written in text (.txt) or markdown (.md) format. The content could either be on project-level or data-level. This is a file for a potential user of your data, including yourself, it is not meant to be machine-actionable.
+A README file is typically a text file written in text (.txt) or markdown (.md) format. The content could either be on study-level or data-level. This is a file for a potential user of your data, including yourself, it is not meant to be machine-actionable.
 
 ### Considerations
 
