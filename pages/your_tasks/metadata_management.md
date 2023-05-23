@@ -1,6 +1,6 @@
 ---
 title: Documentation and metadata
-contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
+contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft, Elin Kronander, Marina Popleteeva]
 description: How to document and describe your data.
 page_id: metadata
 related_pages:
