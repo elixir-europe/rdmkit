@@ -70,7 +70,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * The established data organization system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, RDF, HTML). The description of the data organization system has to be placed in the folder at the highest level (e.g. “Project” folder).
 
-* [Study-level and data-level documentation](https://www.ukdataservice.ac.uk/manage-data/document/data-level.aspx) can be provided as
+* [Study-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/study-level-documentation/) and [data-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/data-level/) documentation can be provided as
   * README file
   * [Codebook](https://ddialliance.org/training/getting-started-new-content/create-a-codebook)
   * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
