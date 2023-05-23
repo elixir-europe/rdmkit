@@ -55,12 +55,27 @@ national_resources:
 <!---Please focus on resources that are relevant for the whole country for life sciences--->
 
 ## Introduction 
-<!---General RDM considerations for your country, how to deal with RDM on a national level--->
+This page provides a general overview of national resources on Research Data Management (RDM) in Slovenia.
+An overview of data management services provided by ELIXIR Slovenia can be found on the ELIXIR Slovenia website. 
 
 ## Funders
+The main public funder of research in Slovenia is the Slovenian Research and Innovation Agency (ARIS), which provides stable funding to the scientific community. The funding policy goals are to enable fair competition of scientists and to achieve excellence in science, reflected through participation of Slovenian scientists in European and other international projects. These projects result in high-impact publication with ARIS-funded scientists as leading authors. The Agency follows the policies of open science, scientific integrity, and gender equality.
+Some of ELIXIR Slovenia’s activities are funded by the European Union (EU), mainly through the ELIXIR-CONVERGE project.
 
 ## Regulations
-<!--- Ethical and legal regulations in the country, committees, etc. --->
+There are several guidelines and regulations in Slovenia that promote scientific integrity, open science, and research data management. The key aspects of the legal framework are listed below.
+
+- Slovenian Research and Innovation Agency (ARIS) Guidelines: 
+  - Principles for research ethics, integrity and responsible conduct in research, including honesty, objectivity, transparency, and accountability.
+  - Open access to scientific publications and data to ensure wider accessibility and dissemination of knowledge. Researchers are encouraged to publish their findings in open access journals and deposit their data in open repositories.
+  - Data Management Plans (DMPs) have to be submitted as part of research project proposals. These plans outline how data will be collected, managed, preserved, and shared throughout the research project.
+- Code of Ethics for Researchers: 
+  - Slovenia adheres to the European Code of Conduct for Research Integrity, which sets out ethical principles and professional standards for researchers. It covers aspects such as research misconduct, data management, authorship, and peer review.
+- National Open Science and Open Education Action Plan:
+  - Promotion of open science, open education and collaborative research. 
+  - Improved access to scientific publications and research data.
+
+Guidelines and regulations provide comprehensive and up-to-date information on policies concerning scientific integrity, open science, and research data management in Slovenia. Researchers have to consult the relevant guidelines and regulations issued by ARIS, research institutions, and other national bodies.
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
