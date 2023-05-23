@@ -194,11 +194,11 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 
 ### Institutional storage guidelines
 
-Most universities in Norway classify data into four categories, depending on access requirements:
-* Open (Green)
-* Restricted (Yellow)
-* Confidential (Red)
-* Strictly confidential (Black)
+Most universities in Norway classify data into four categories, depending on access requirements, based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
+* **Open (Green)**: Information can be available to everyone, without special access rights.
+* **Restricted (Yellow)**: Information must have some protections if access by unauthorised persons could harm the institution or collaborators in some way. The information can be available both internally and externally with controlled access rights.
+* **Confidential (Red)**: Information must have strict access rights if unauthorised access would cause damage to public interests, individuals, the institution, or collaborators.
+* **Strictly confidential (Black)**: Information must have the strictest access rights if unauthorised access could cause significant damage (for example, highly confidential research or confidential addresses).
 
 Details and provided solutions vary according to each institution:
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
@@ -206,9 +206,6 @@ Details and provided solutions vary according to each institution:
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
-
-They are based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet), which are summarised below.
-
 
 ### Institutional guidelines related to personal data
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
