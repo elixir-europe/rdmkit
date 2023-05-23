@@ -5,7 +5,7 @@
     biotools: 
     fairsharing: 
     tess: 
-  url: https://openslide.org/
+  url:  https://openslide.org/
 - description: Image Reading, Metadata Conversion, and Image Writing for Microscopy Images in Pure Python
   name: AICSImageIO
   id: aicsimageio
@@ -13,7 +13,7 @@
     biotools: 
     fairsharing: 
     tess: 
-  url: https://openslide.org/
+  url: https://github.com/AllenCellModeling/aicsimageio
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   name: bioformats2raw
   id: bioformats2raw
@@ -1329,7 +1329,7 @@
   url: https://data.mendeley.com/
 - description: A repository of genomics data relating to the study of the metabolome
   id: metabolomexchange
-  name: MetabolomeXchange
+  name: Metabolome Exchange
   url: http://www.metabolomexchange.org/site/
 - description: Cleans metagenomic reads to remove adapters, low-quality bases and
     host (e.g. human) contamination
@@ -1689,7 +1689,7 @@
     for data representation in proteomics and interactomics to facilitate data comparison,
     exchange and verification.
   id: proteomics-standards-initiative
-  name: Proteomics Standards Initiative
+  name: HUPO Proteomics Standards Initiative
   url: https://www.psidev.info/
 - description: A secure platform for developing and sharing reproducible methods.
   id: protocols-io
