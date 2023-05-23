@@ -42,7 +42,7 @@ To protect your research data, code, and other information assets you should est
 
 ### Solution
 
-* Below is a non-exhaustive list of good practices that might be relevant depending on the level of protection required. Note that some of these might be quite costly. 
+* Below is a non-exhaustive list of good practices that might be relevant depending on the level of protection required. Note that some of these might be quite costly, such as investing in hardware or hiring highly specialized staff to ensure high levels of security. More on costs for RDM is available on the [Costs of data management](/costs_data_management) page.
 * Confidentiality
   * Use password protection on all computers
   * Use two-factor authentication, i.e. using two ways of identification in order to obtain access to the (remote) data
@@ -52,19 +52,19 @@ To protect your research data, code, and other information assets you should est
   * Consider implementing systems monitoring measures in order to ensure that hacking attempts are detected
   * Decide on procedures on how systems can be physically accessed. Should data be allowed to reside on personal laptops, or only on designated stationery systems? Should stationary systems be physically protected in locked compartments only accessible to a limited number of individuals?
 * Integrity
-	* Generate checksums for all files as soon as possible, preferably upon file creation.
-	* Keep the number of copies to a minimum to facilitate its management.
+  * Generate checksums for all files as soon as possible, preferably upon file creation.
+  * Keep the number of copies to a minimum to facilitate its management.
   * Adopt a data release workflow which ensures the data are versioned and preserved. Each version shall be protected against any change by users, e.g. by setting permissions to read-only.    
   * Perform quality checks both upon data collection to ensure accuracy and on a regular basis to discover potential integrity errors.
   * Define, document and adopt a back-up strategy for your data.
   * Utilise available tools for data management (data warehouses) ensuring data integrity by default.
 * Availability
-	* Set up disaster recovery procedures with instructions on *what* data, *how*, and by *who*, recovery of data should be done in case an incident of system failure or data loss happens.
-	* If high availability is a must, consider designing a redundant computing and storage strategy where there are physically separated compute and storage resources, that ensures that the data is available at all times even in the event of system failure.
+  * Set up disaster recovery procedures with instructions on *what* data, *how*, and by *who*, recovery of data should be done in case an incident of system failure or data loss happens.
+  * If high availability is a must, consider designing a redundant computing and storage strategy where there are physically separated compute and storage resources, that ensures that the data is available at all times even in the event of system failure.
 * Organisational Measures
   * The procedures on how the technical protection measures are to be used, and who is responsible for what, must be understood by all personnel that work with the data, code, and other information assets. The procedures should be documented, and staff should have access to relevant training to follow the procedures. This is often the most vulnerable part in an Information Security strategy.
   * Policies are an important component of data management and they are essential for information security. Organisations use policies to announce to their staff and third parties the expectations, roles and responsibilities in data handling. Policies typically cover data classification, storage/backup, transfer, retention/archival, deletion/destruction, acceptable use of IT platforms and the reporting of security incidents and data breaches. In some cases research data requirements would be addressed in dedicated policies. Therefore, at the planning phase, it is important to understand institutional data policies applicable to the project’s data. If the data is considered sensitive as per the institutional data classification, this will have an impact on the IT platforms that can be used to store and transmit the data as well as the specific procedures to be followed.
-  * Information inventories and documentation is another requirement for projects dealing with sensitive data. At the planning phase you should identify the various categories of data that will be processed in the project e.g. personal health and biomedical data, sensitive habitat data, IP restricted data from the industry. You should document which platforms will be used to process the data and the applicable security measures in case certain measures are applied to restricted classes of data. See the next section for GDPR-specific documentation requirements.
+  * Information inventories and documentation is another requirement for projects dealing with sensitive data. At the planning phase you should identify the various categories of data that will be processed in the project e.g. personal health and biomedical data, sensitive habitat data, IP restricted data from the industry. You should document which platforms will be used to process the data and the applicable security measures in case certain measures are applied to restricted classes of data. See the next section for GDPR-specific documentation requirements. See the [Data Sensitivity] page for more information on sensitive data.
   * [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) is an international information security standard adopted by data processing centres worldwide. Some universities and research institutes also acquire an ISO 27001 certification for their IT environments. Such certifications allow institutions to consistently and thoroughly identify information security risks and put in place best practice information security controls. These controls would include all above mentioned technical and organisational safeguards and more.
 
 
