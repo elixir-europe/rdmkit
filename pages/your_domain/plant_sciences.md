@@ -28,7 +28,7 @@ Another particularity of this domain is the absence of central deposition databa
 ## Plant biological materials: (meta)data collection and sharing
 
 ### Description
-Plant genetic studies such as genomic-based prediction of phenotypes requires the integration of genomic and phenotypic data with data about their environment. While phenotypic and environmental data are typically stored together in phenotyping databases, genomic and other types of molecular data are typically deposited in international deposition databases, for example, those of the [International Nucleotide Sequence Database Collaboration INSDC global consortium](http://www.insdc.org/).
+Plant genetic studies such as genomic-based prediction of phenotypes requires the integration of genomic and phenotypic data with data about their environment. While phenotypic and environmental data are typically stored together in phenotyping databases, genomic and other types of molecular data are typically deposited in international deposition databases, for example, those of the {% tool "international-nucleotide-sequence-database-collaboration" %}.
 
 It can be challenging to integrate phenotypic and molecular data even within a single project, particularly if the project involves studying a panel of genetic resources in different conditions. It is paramount to maintain the link between the plant material in the field, the samples extracted from them (e.g. at different development stages), and the results of omics experiments (e.g. transcriptomics, metabolomics) performed on those samples, across all datasets that will be generated and published.
 
@@ -50,14 +50,14 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 * Detailed metadata needs to be captured on the biological materials used in the study—the accession in the genebank or the experimental identification and, when applicable, the seed lots or the parent plants as well as the possible samples taken from the plant—as they are the key to integrating omics and phenotyping datasets. 
 
 #### Checklists and metadata standard
-* The identification and description of plant materials should comply with the standard for the identification of plant genetic resources, The [Multi-Crop Passport Descriptors](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/)(MCPD).
+* The identification and description of plant materials should comply with the standard for the identification of plant genetic resources, The {% tool "multi-crop-passport-descriptor" %}.
   * If you are studying experimental plant materials that cannot be traced to an existing genebank or germplasm database, you should describe them in accordance with the MCPD in as much detail as possible.
   * If your plant materials can be traced to an existing genebank or germplasm database, you need only to cross reference to the MCPD information already published in the genebank or germplasm database. 
   * The minimal fields from MCPD are listed in the Biological Material section of the Minimum Information About Plant Phenotyping Experiments (MIAPPE) metadata standard.
   * For wild plants and accessions from tree collections, precise identification often requires the GPS coordinates of the tree. MIAPPE provides the necessary fields.
 
 #### Tools for (meta)data collection
-* For identifying your plant material in a plant genetic resource repository (genebank or germplasm database), you can consult the [European Cooperative Programme for Plant Genetic Resources](https://www.ecpgr.cgiar.org/) (ECPGR), which includes a [central germplasm database](https://www.ecpgr.cgiar.org/resources/germplasm-databases/ecpgr-central-crop-databases) and a catalogue of relevant [external databases](https://www.ecpgr.cgiar.org/resources/germplasm-databases/international-multicrop-databases).
+* For identifying your plant material in a plant genetic resource repository (genebank or germplasm database), you can consult the European Cooperative Programme for Plant Genetic Resources {% tool "ecpgr" %}, which includes a [central germplasm database](https://www.ecpgr.cgiar.org/resources/germplasm-databases/ecpgr-central-crop-databases) and a catalogue of relevant [external databases](https://www.ecpgr.cgiar.org/resources/germplasm-databases/international-multicrop-databases).
 * Other key databases for identifying plant material are 
   * the [European Search Catalogue for Plant Genetic Resources](https://eurisco.ipk-gatersleben.de/) (EURISCO), which provides information about more than 2 million accessions of crop plants and their wild relatives, from hundreds of European institutes in 43 member countries 
   * [Genesys](https://www.genesys-pgr.org/), an online platform with a search engine for Plant Genetic Resources for Food and Agriculture (PGRFA) conserved in genebanks worldwide.

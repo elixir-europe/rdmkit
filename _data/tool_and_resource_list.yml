@@ -443,7 +443,7 @@
   name: ClinicalTrials.gov
   url: https://clinicaltrials.gov/
 - description: A collection of software applications which enables creation, storing
-    and publishing of "Common Data Elements" according to the CDE semantic model.
+    and publishing of Common Data Elements according to the CDE semantic model.
   id: common-data-elements-in-a-box
   name: Common Data Elements (CDE) in a box
   url: https://github.com/ejp-rd-vp/cde-in-box
@@ -2124,3 +2124,115 @@
     fairsharing: 4m97ah
     tess: BioPortal
   url: https://bioportal.bioontology.org
+- description: PROAST (copyright RIVM National Institute for Public Health and the Environment) is a software package for the statistical analysis of dose-response data.
+  id: proast
+  name: PROAST
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.rivm.nl/en/proast
+- description: EPA's Benchmark Dose Software (BMDS) collects and provides easy access to numerous mathematical models that help risk assessors estimate the quantitative relationship between a chemical dose and the test subject’s response.
+  id: bmds
+  name: BMDS
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.epa.gov/bmds
+- description: Differential gene expression analysis based on the negative binomial distribution
+  id: deseq2
+  name: DESEq2
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://bioconductor.org/packages/release/bioc/html/DESeq2.html
+- description: Linear Models for Microarray Data
+  id: limma
+  name: limma
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://bioconductor.org/packages/release/bioc/html/limma.html
+- description: Flame is a flexible framework supporting predictive modeling and similarity search within the eTRANSAFE project.
+  id: flame
+  name: Flame
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://github.com/phi-grib/flame
+- description: CDISC SEND Controlled Terminology
+  id: cdisc-send
+  name: CDISC/SEND
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://evs.nci.nih.gov/ftp1/CDISC/SEND/SEND%20Terminology.html
+- description: The OntoBrowser tool was developed to manage ontologies and code lists.
+  id: ontobrowser
+  name: ONTOBROWSER
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://opensource.nibr.com/projects/ontobrowser/
+- description: ITER is an Internet database of human health risk values and cancer classifications for over 680 chemicals of environmental concern from multiple organizations worldwide.
+  id: iter
+  name: ITER
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.tera.org/iter/
+- description: ERDRI.spider (Secure Privacy-preserving Identity management in Distributed Environments for Research) pseudonymisation tool generates pseudonyms for RD patients.
+  id: spider-pseudonymisation-tool
+  name: SPIDER pseudonymisation tool
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://eu-rd-platform.jrc.ec.europa.eu/spider/
+- description: Metadata for machines
+  id: fair-data-points
+  name: FAIR Data Points
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://home.fairdatapoint.org/
+- description: EJP RD - European Joint Programme on Rare Diseases - ERN Registries Generic Informed Consent Forms
+  id: ern-registries-generic-informed-consent-forms
+  name: ERN Registries Generic Informed Consent Forms
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.ejprarediseases.org/ern-registries-generic-icf/
+- description: ProteoWizard provides a set of open-source, cross-platform software libraries and tools that facilitate proteomics data analysis.
+  id: proteowizard
+  name: ProteoWizard
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://proteowizard.sourceforge.io/
+- description: The International Nucleotide Sequence Database Collaboration (INSDC) is a long-standing foundational initiative that operates between DDBJ, EMBL-EBI and NCBI. INSDC covers the spectrum of data raw reads, through alignments and assemblies to functional annotation, enriched with contextual information relating to samples and experimental configurations.
+  id: international-nucleotide-sequence-database-collaboration
+  name: International Nucleotide Sequence Database Collaboration
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: http://www.insdc.org/
+- description: 
+  id: 
+  name: 
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: 
