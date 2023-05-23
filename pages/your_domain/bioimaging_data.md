@@ -69,8 +69,8 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 **Permanent conversion**: An alternative is to permanently convert your data to
 
-  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. The Bio-Formats (above) library comes with a command line to tool [bfconvert](https://bio-formats.readthedocs.io/en/stable/users/comlinetools/conversion.html) that can be used to convert to files to OME-TIFF
-  - The {% tool "bioformats2raw" %} and {% tool raw2ometiff %} toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, the toolchain could also be an option to consider.
+  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. The Bio-Formats (above) library comes with a command line to tool {% tool "bfconvert" %} that can be used to convert to files to OME-TIFF
+  - The {% tool "bioformats2raw" %} and {% tool "raw2ometiff" %} toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, the toolchain could also be an option to consider.
 
 **Cloud (or "object") storage**: If you are storing your data in the cloud, you will likely need a different file format since most current image file formats are not suitable for cloud storage. OME is currently developing a [next-generation file format (NGFF)](https://ngff.openmicroscopy.org/latest/) that you can use.
 
@@ -148,7 +148,7 @@ Two distinct types of resources should be considered:
 - Select and choose the repositories based on the following characteristics:
   - Storage vs Added-value resources.
   - Images format support.
-  - Supported licenses e.g. CC0 or CC-BY license. For example the {% tool image-data-resource %} uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
+  - Supported licenses e.g. CC0 or CC-BY license. For example the {% tool "image-data-resource" %} uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
   - Which types of access are required for the users e.g. download only, browse search and view data and metadata, API access. 
       - Does an entry have an access e.g. idr-xxx, EMPIAR-#####?
       - Does an entry have a DOI (Digital Object Identifier)?
@@ -159,14 +159,24 @@ Two distinct types of resources should be considered:
 Comparative table of some repositories that can be used to deposit imaging data:
 
 | Repository | Type | Data Restrictions | Data Upload Restrictions | DOI | Cost |
-|------------|------|-------------------|---------------------|-----|------|
-| {% tool "bioimagearchive" %} | Archive | No PIH data | None | --- | Free |
-| {% tool "dryad" %}| Archive | No PIH data | 300GB | Yes | over 50GB (*) |
-| {% tool "empiar" %} | Added-value | Electron microscopy imaging data | None | Yes | Free |
-| {% tool "image-data-resource" %} | Added-value | Cell/Tissue imaging data, no PIH data | None| Yes | Free |
-| {% tool "ssbd-database" %} | Added-value | Biological dynamics imaging data | None | --- | Free |
-| {% tool "ssbd-repository" %} | Archive | Biological dynamics imaging data | None | --- | Free |
-| {% tool "zenodo" %} | Archive | None | 50GB per dataset | Yes | Free |
+|---|---|---|---|---|---|
+| {::nomarkdown type='html'}{% tool "bioimagearchive" %}{:/nomarkdown} | Archive | No PIH data | None | --- | Free |
+| {::nomarkdown type='html'}{% tool "dryad" %}{:/nomarkdown} | Archive | No PIH data | 300GB | Yes | over 50GB (*) |
+| {::nomarkdown type='html'}{::nomarkdown}{% tool "empiar" %}{:/nomarkdown} | Added-value | Electron microscopy imaging data | None | Yes | Free |
+| {::nomarkdown type='html'}{% tool "image-data-resource" %}{:/nomarkdown} | Added-value | Cell/Tissue imaging data, no PIH data | None | Yes | Free |
+| {::nomarkdown type='html'}{% tool "ssbd-database" %}{:/nomarkdown} | Added-value | Biological dynamics imaging data | None | --- | Free |
+| {::nomarkdown type='html'}{% tool "ssbd-repository" %}{:/nomarkdown} | Archive | Biological dynamics imaging data | None | --- | Free |
+| {::nomarkdown type='html'}{% tool "zenodo" %}{:/nomarkdown} | Archive | None | 50GB per dataset | Yes | Free |
+
+| Fruit   | Price  | Advantages                        |
+| ------- | ------ | --------------------------------- |
+| Bananas | $1.34  | <ul><li>built-in wrapper</li><li>bright color</li></ul> |
+| Oranges | $2.10  | <ul><li>cures scurvy</li><li>tasty</li></ul> |
+
+| Fruit   | Price  | Advantages                        |
+| ------- | ------ | --------------------------------- |
+| Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
+| Oranges | $2.10  | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |
 
 - PIH: Protected health information.
 - (*) unless submitter is based at member institution.

@@ -1,42 +1,22 @@
 - description: C library that provides a simple interface to read whole-slide images (also known as virtual slides)
   name: OpenSlide
   id: openslide
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
-  url: https://openslide.org/
+  url:  https://openslide.org/
 - description: Image Reading, Metadata Conversion, and Image Writing for Microscopy Images in Pure Python
   name: AICSImageIO
   id: aicsimageio
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
-  url: https://openslide.org/
+  url: https://github.com/AllenCellModeling/aicsimageio
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   name: bioformats2raw
-  id: bioformats2raw
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
+  id: bioformats2raw 
   url: https://github.com/glencoesoftware/bioformats2raw
 - description: Java application to convert a directory of tiles to an OME-TIFF pyramid. This is the second half of iSyntax/.mrxs => OME-TIFF conversion.
   name: raw2ometiff
   id: raw2ometiff
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
   url: https://github.com/glencoesoftware/raw2ometiff
-- description: 
+- description: The bfconvert command line tool can be used to convert files between supported formats.
   name: bfconvert
   id: bfconvert
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
   url: https://bio-formats.readthedocs.io/en/stable/users/comlinetools/conversion.html
 - description: Aggregating critical information to accelerate COVID-19 drug discovery for the molecular modeling and simulation community.
   name: MolSSI - BioExcel COVID-19 therapeutics hub
@@ -62,14 +42,6 @@
     fairsharing: 
     tess: 
   url: https://www.ddbj.nig.ac.jp/jga/index-e.html
-- description: 
-  name: 
-  id: 
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
-  url: 
 - description: Network providing unified programmatic access to experimentally determined
     and predicted structure models
   id: 3d-beacons
@@ -1331,7 +1303,7 @@
   url: https://data.mendeley.com/
 - description: A repository of genomics data relating to the study of the metabolome
   id: metabolomexchange
-  name: MetabolomeXchange
+  name: Metabolome Exchange
   url: http://www.metabolomexchange.org/site/
 - description: Cleans metagenomic reads to remove adapters, low-quality bases and
     host (e.g. human) contamination
@@ -1691,7 +1663,7 @@
     for data representation in proteomics and interactomics to facilitate data comparison,
     exchange and verification.
   id: proteomics-standards-initiative
-  name: Proteomics Standards Initiative
+  name: HUPO Proteomics Standards Initiative
   url: https://www.psidev.info/
 - description: A secure platform for developing and sharing reproducible methods.
   id: protocols-io
