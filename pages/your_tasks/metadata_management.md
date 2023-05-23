@@ -148,14 +148,14 @@ There are many vocabularies and ontologies available on the web. Finding a suita
 
 ## What do you write in README file?
 
-### Description (fixed subheading)
+### Description
 
-A readme file is typically a text file written in .txt or .md (markdown) format. The content could either be on project level or data-level. This is a file for a potential user of your data, it is not meant to be machine-actionable.
+A readme file is typically a text file written in text (.txt) or markdown (.md) format. The content could either be on project level or data-level. This is a file for a potential user of your data, including yourself, it is not meant to be machine-actionable.
 
 ### Considerations
 
-README file can be updated with time to include information which was not available before. It is a good practice to create a first version at the beginning.
-For complex projects, consider to write README files on several levels, not only in the top level of the project.
+* README file can be updated with time to include information which was not available before. It is a good practice to create a first version when starting a new project.
+* For complex projects, consider to write README files on several levels, not only in the top level of the project.
 
 ### Solutions 
 
