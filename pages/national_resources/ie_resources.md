@@ -15,7 +15,7 @@ training:
   - name: ELIXIR Ireland Training
     registry: ELIXIR Ireland
     url: https://elixir-ireland.ie/training.html
-Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+
 ref_to_main_resources: 
   -  <!---REPLACE THIS with the tool name--->
 
