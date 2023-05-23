@@ -159,6 +159,8 @@ A README file is typically a text file written in text (.txt) or markdown (.md) 
 
 ### Solutions 
 
+Below you will find examples of REDME files for study-level and data-level. For more information you might want to check [documentation page](https://rdm.elixir-belgium.org/data_documentation#readme-file) from ELIXIR Belgium node.
+
 #### Study/project level README
 
     This README file was generated on [YYYY-MM-DD] by [NAME]
