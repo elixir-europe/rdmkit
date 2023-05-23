@@ -232,10 +232,10 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [Norges teknisk-naturvitenskapelige universitet (NTNU)](https://i.ntnu.no/researchdata)
 * [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/open-access-research-data)
 * [University of Oslo (UiO)](https://www.ub.uio.no/english/courses-events/courses/other/research-data/)
-* [The Arctic University of Norway (UiT)](https://uit.no/forskning/forskningsdata)
+* [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal)
 * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
-* [Nord University](https://www.nord.no/en/library/research-data)
+* [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
 * [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
 
