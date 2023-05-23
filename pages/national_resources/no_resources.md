@@ -3,7 +3,7 @@
 title: Norway
 country_code: "NO"
 contributors: [Nazeefa Fatima,Federico Bianchini,Korbinian Bösl,Erin Calhoun]
-coordinators: [Nazeefa Fatima,Korbinian Bösl]
+coordinators: [Korbinian Bösl, Nazeefa Fatima]
 
 related_pages:
   tool_assembly: [tsd, nels, marine_assembly]
@@ -212,11 +212,11 @@ They are based on the recommendations from [UNIT](https://www.unit.no/klassifise
 
 ### Institutional guidelines related to personal data
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
-* [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
+* [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects), also available [in Norwegian](https://i.ntnu.no/wiki/-/wiki/Norsk/Behandle+personopplysninger+i+student-+og+forskningsprosjekt)
 * [Norwegian University of Science and Technology - Health research guidelines](https://i.ntnu.no/helseforskning)
-* [University of Bergen (UiB)](https://www.uib.no/personvern)
+* [University of Bergen (UiB)](https://www.uib.no/en/personaldata/130126/privacy-policy-university-bergen), also available [in Norwegian](https://www.uib.no/personvern)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
-* [The Arctic University of Norway (UiT)](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
+* [The Arctic University of Norway (UiT)](https://en.uit.no/research/ethics/art?p_document_id=754184), [full guidelines](https://uit.no/Content/800249/cache=1673451716000/Guidelines%20for%20processing%20of%20personal%20data%20in%20research%20and%20student%20projects%20at%20UiT.PDF) available as pdf
 
 ## Support services
 
@@ -251,7 +251,7 @@ A data management plan (DMP) is currently requested by:
 * RCN upon project funding
 * International funding programs (e.g. Horizon Europe, European Research Council)
 
-A DMP typically contains information about data handling during a project and after its completion and makes it possible to identify (and budget for) significant issues to be resolved (e.g. storage). While some of the institutions mentioned above require DMPs to follow a certain standard, this does not apply to all local institutions (e.g. [UiO does not currently enforce any specific template](https://www.uio.no/english/for-employees/support/research/research-data-management-old/data-management-plan/)). There are several tools available for creating a DMP. 
+A DMP typically contains information about data handling during a project and after its completion and makes it possible to identify (and budget for) significant issues to be resolved (e.g. storage). While some of the institutions mentioned above require DMPs to follow a certain standard, this does not apply to all local institutions (e.g. [UiO does not currently enforce any specific template](https://www.uio.no/english/for-employees/support/research/research-data-management/write-a-dmp.html)). There are several tools available for creating a DMP. 
 
 <!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
 
