@@ -3,7 +3,7 @@
 title: Norway
 country_code: "NO"
 contributors: [Nazeefa Fatima,Federico Bianchini,Korbinian Bösl,Erin Calhoun]
-coordinators: [Korbinian Bösl]
+coordinators: [Nazeefa Fatima,Korbinian Bösl]
 
 related_pages:
   tool_assembly: [tsd, nels, marine_assembly]
@@ -200,18 +200,20 @@ Most universities in Norway classify data into four categories, depending on acc
 * Confidential (Red)
 * Strictly confidential (Black)
 
-Details and provided solutions vary according to each institution. They are based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
-
+Details and provided solutions vary according to each institution:
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
 * [Norwegian University of Science and Technology (NTNU)](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
+They are based on the recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet), which are summarised below.
+
+
 ### Institutional guidelines related to personal data
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
 * [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects),
-* [Norwegian University of Science and Technology - Health research guidelines](https://innsida.ntnu.no/helseforskning)
+* [Norwegian University of Science and Technology - Health research guidelines](https://i.ntnu.no/helseforskning)
 * [University of Bergen (UiB)](https://www.uib.no/personvern)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
 * [The Arctic University of Norway (UiT)](https://uit.no/Content/755221/cache=1637158889000/Retningslinjer+for+behandling+av+personopplysningar+i+forskings-+og+studentprosjekt+ved+UiT+%28oppdatert+300921%29.pdf)
