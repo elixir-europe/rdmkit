@@ -76,7 +76,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
   * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
-  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception from this aproach as its main purpose is to be human-readable which is controversial with machine-actionable.
+  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception from this approach as its main purpose is to be human-readable which is controversial with machine-actionable.
   Also non-proprietary formats are preferred over proprietary ones.
 
 * Highly structured data documentation is called **metadata**. Generating metadata in a machine-readable or -actionable format makes your data more FAIR . Metadata provides structured and searchable information so that a user can find existing data, evaluate its reusability and cite it.
