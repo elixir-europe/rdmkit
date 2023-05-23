@@ -146,7 +146,7 @@ There are many vocabularies and ontologies available on the web. Finding a suita
   * [BioPortal](https://bioportal.bioontology.org)
   * [AgroPortal](https://agroportal.lirmm.fr)
 
-## What to write in README file?
+## What do you write in README file?
 
 ### Description (fixed subheading)
 
