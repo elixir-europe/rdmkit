@@ -1,7 +1,6 @@
 ---
 title: Editorial board guide
 summary: This guide is there to help editors.
-sidebar: contribute
 ---
 
 ## All you need to know about this GitHub repository
@@ -18,44 +17,7 @@ This process is sketched below.
 ### Overview of the file structure in GitHub
 
 The content of the website is built up using markdown files found in the [pages](https://github.com/elixir-europe/rdmkit/tree/master/pages) directory.
-These markdown files are divided over subdirectories (your_role, your_domain, your_problem...) for sorting reasons only.
-
-### The metadata/frontmatter of the markdown file
-
-In order to render the markdown file to the website, it needs a specific frontmatter/metadata section in the top part of the file. This latter can look like:
-
-```
----
-title: Title of the page
----
-```
-
-Mandatory metadata/frontmatter:
-* `title`: Specify here the page title. This will be the H1 title (replacing the top level title using the # in markdown )
-
-Optional metadata/frontmatter: 
-
-* `summary`: By using this attribute it is possible to specify a summary which will be displayed under the page title. This summary will also be used as description of your page when the page is tagged.
-
-* `contributors`: List here all the contributors that helped in establishing the page, preferibly with their full name. Make sure that the person names that are listed can be found in the CONTRIBUTORS.yaml file in the *_data* directory if you want to link the GitHub ID and other contact information. Multiple contributors will be put in a list like this: [example1, example2].
-
-* `search`: By setting this field to "exclude", the page will not end up in the search results of the search bar. Default: true.
-
-* `hide_sidebar`: When true, the sidebar will be hidden. Default: false.
-
-* `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button.
-
-* `keywords`: List here all the keywords that can be used to find the page using the search box in the right-upper corner of the page. Multiple keywords are put in a list like this: [example1, example2].
-
-* `sidebar`: Specify here an alternative sidebar. Default: main.
-
-* `toc`: When set to false, the table of contents at the beginning of the page will not be generated.
-
-* `tags`: If you want to tag this page, list the tags using this attribute. If you want to use multiple tags, make sure to put them in a list like this: [example1, example2].
-
-* `datatable`: Use this attribute to activate pagination, sorting  and searching in tables.
-
-* `description`: This is a one-liner and is used when the page is listed. 
+These markdown files are divided over subdirectories (your_role, your_domain, your_tasks...) for sorting reasons only.
 
 ### Markdown file naming
 
@@ -82,7 +44,7 @@ More information about these topics can be found in the GitHub documentation:
 
 ## Review pull requests
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags and keywords, and tools and resources' tags should be checked and assigned according to the established tagging system.
+If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags, and tools and resources' tags should be checked and assigned according to the established tagging system. The editor who provides the last approval to a PR should also merge it.
   
 ## Link a pull request to an issue
 
@@ -100,44 +62,60 @@ Add an event to the landing page by editing the `events.yml` in the `_data` dire
   startTime: '9:00'
   endDate: 2021-06-24
   endTime: 13:30 CET
-  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days)
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days).
   location: Online
 
 ```
 
 Only name and startDate are mandatory attributes.
 
+## Adding a news item
+
+Add a news item to the landing page by editing the `news.yml` in the `_data` directory in this repository. Use following attributes to define a news item:
+
+
+```yml
+- name: News title
+  date: 2021-06-23
+  linked_pr: 767
+  description: A short description.
+```
+
+All attributes are mandatory.
+
 ## Create a new page
 
 ### Simple way: using the GitHub interface
 To generate a new page it is sufficient to simply copy the TEMPLATE file in the subdirectory and rename it. To copy a template you have to:
 
-1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_problem.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_problem/TEMPLATE_your_problem.md) file.
+1. Go to the `TEMPLATE_` file of choice in the [GitHub repo](https://github.com/elixir-europe/rdmkit/tree/master/pages), every section has its own TEMPLATE file. For example the [TEMPLATE_your_tasks.md](https://github.com/elixir-europe/rdmkit/blob/master/pages/your_tasks/TEMPLATE_your_tasks.md) file.
 
-2. Click "Raw" on the GitHub page to open the file 'as is'
+1. Click "Raw" on the GitHub page to open the file 'as is'
     {% include image.html file="raw_github.png" inline=true alt="Raw button GitHub." %}
 
-3. Select and copy all the content.
+1. Select and copy all the content.
 
-4. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_problem*. Click on `Add file` on the right followed up by `Create new file`.
+1. Go back to the main section were you want to make the new page, in our example this will be in */pages/your_tasks*. Click on `Add file` on the right followed up by `Create new file`.
     {% include image.html file="create_new_file_github.png" inline=true alt="Create new file GitHub." %}
 
-5. Paste the copied content from the template.
+1. Paste the copied content from the template.
 
-6. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
+1. Name the file by choosing a unique self explaining short name without capitals and without spaces (replace them with underscores).
     {% include image.html file="name_file_github.png" inline=true alt="Name the file in GitHub." %}
 
-7. Check the frontmatter/metadata of the markdown page:
+1. Check the [frontmatter/metadata](page_metadata) of the markdown page:
     - delete `search_exclude: true` attribute.
     - add the author names to the contributors list.
     - optional: change the title into an appropriate one.
 
-8. Describe shortly which changes you made in the description of your commit below the page. Commit to the master branch by clicking `Commit new file`.
+1. Describe shortly which changes you made in the description of your commit below the page. Commit to a new branch and click `Commit new file`.
      {% include image.html file="commit_to_master_github.png" inline=true alt="Commit new file in GitHub." %}
 
-9. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
+1. Wait till another editor approves your changes. After approval, the branch can be merged and changes will be applied.
 
-{% include note.html content="It is not a problem to immediately duplicate pages in the master branch, but be aware that new content always needs to be pushed to another branch which will give you the option to open a pull request." %}
+1. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
+
+{% include callout.html type="note" content="Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors." %}
 
 ### Advanced: working on your own feature branch and pushing local changes
 
@@ -168,7 +146,7 @@ The attributes that define the structure are:
       url: level_2_url
 ```
 
-{% include tip.html content="Copy around existing parts in the yaml file to add pages to the same level" %}
+{% include callout.html type="tip" content="Copy around existing parts in the yaml file to add pages to the same level" %}
 
 ### Link page within existing page
 
@@ -180,8 +158,7 @@ If the markdown page is named example_1.md, you can link towards it using:
 [Example 1](example_1)
 ```
 
-{% include important.html content="If you change the file name, you'll have to update all of your links." %}
-
+{% include callout.html type="important" content="If you change the file name, you'll have to update all of your links." %}
 
 
 ## Adding extra info to the contributors
@@ -196,87 +173,73 @@ Bert Droesbeke:
     role: editor
     affiliation: VIB-UGent
 ```
-{% include important.html content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
+{% include callout.html type="important" content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 
 
-## Adding an institute, project or funder to the support page
+## Adding an institution, infrastructure, project or funder
 
-Institutes are listed in the [INSTITUTES.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/INSTITUTES.yaml) file, projects in the [PROJECTS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/PROJECTS.yaml) file and funders are listed in the [FUNDERS.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/FUDNERS.yaml) file. In this file, the name, url towards the website and the relative path to the logo is given.
-
+Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
-- name: VIB-PSB
-  image_url: /images/institutes/VIB-PSB.svg
+- name: VIB
+  image_url: /images/institutions/VIB-PSB.svg
+  pid: https://ror.org/03xrhmk39
+  expose: true
+  type: institution
   url: https://www.psb.ugent.be/
 ```
 
-The logos can be added to the [/images/institutes](https://github.com/elixir-europe/rdmkit/blob/master/images/institutes/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
+- `name`: name
+- `image_url`: relative url towards the image
+- `pid`: url including the unique identifier towards the page of the association on [ROR](https://ror.org)
+- `expose`: true or false, when true this association will be shown in the about section
+- `type`: can be any of these values: *institution*, *funder*, *infrastructure* or *project*
+- `url`: url towards the homepage of this association
 
-{% include important.html content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
-## Page tagging
+The logos can be added to the [/images/institutions](https://github.com/elixir-europe/rdmkit/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/rdmkit/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
-### Tagging the pages 
+{% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
 
-Tagging pages is done through the `tags:` property in the metadata of the markdown page.
-Add the tag(s) to a list (square brackets). Make sure that your tag corresponds to an existing page. 
+## Related pages
 
-This metadata example shows how we tag the "Storage" page with the **share** tag:
-```md
----
-title: Storage
-tags: [share, IT support] 
----
-```
+### Add "Related pages" to a page 
 
-### Listing the pages somewhere else
+RDMkit pages from the sections Your tasks, Your domain and Tool assembly can be displayed as "Related RDMkit pages" in a page, grouped by section. 
 
-If you then want to list all the pages containing the tag **share** you can use the code snippet:
+Only pages from specific sections are allowed in each page (see image below), as pre-defined in the metadata of each template page. Please, do not add extra sections in the metadata of the page.
 
-{% raw %}
-```
-{% include pagelist.html tag="share" %}
-```
-{% endraw %}
+| _page_id_           | Related pages id: Data life cycle | Related pages id: Your tasks | Related pages id: Your role | Related pages id: Your domain | Related pages id: Tool assembly | Related pages visualised |
+|---------------------|-----------------------------------|------------------------------|-----------------------------|-------------------------------|---------------------------------|--------------------------|
+| **Data life cycle** |                                   |              yes             |                             |                               |                                 |        Your tasks        |
+| **Your tasks**      |                                   |                              |                             |                               |               yes               |       Tool assembly      |
+| **Your role**       |                                   |              yes             |                             |                               |                                 |         Your tasks        |
+| **Your domain**     |                                   |              yes             |                             |                               |               yes               | Your tasks, Tool assembly |
+| **Tool assembly**   |                                   |              yes             |                             |              yes              |                                 |  Your tasks, Your domain  |
 
-Giving:
 
-{% include pagelist.html tag="share" %}
 
-This is preferably done on the 'IT support' page. In this way the tag visible on the tagged pages will link to the 'IT support', interlinking everything. 
+An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [List of page IDs](website_overview).
 
-### Supported tags
 
-To only allow a curated list of tags, make sure that you find the tags in the `tags.yaml` file in the `_data` repository. 
+```yml
+related_pages: 
+   your_tasks: [page_id1, page_id2]
+   your_domain: [page_id1, page_id2]
+   tool_assembly: [page_id1, page_id2]
+  ``` 
 
-## Using the tool/resource list
 
-Here we list all the tools with the tag **data publication**  by using the code snippet:
+### Page ID
 
-{% raw %}
-```
-{% include toollist.html tag="data publication" %}
-```
-{% endraw %}
+To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
 
-Giving:
 
-{% include toollist.html tag="data publication" %}
+## Linking from RDMkit to FAIR Cookbook
 
-Add a second tag for filtering using the 'tag2' attribute:
+- Links between RDMkit and FAIR Cookbook are described in the `faircookbook_rdmkit_mapping.yml` file located in the [faircookbook-rdmkit repository](https://github.com/elixir-europe/faircookbook-rdmkit).
+  - Data life cycle, your role, and national resources pages are not linked to recipes.
+  - Domain pages should only link to domain specific recipes.
+  - Task pages should only link to recipes for generic tasks.
+- After adding the links create a PR. The PR should be reviewed and approved by at least one editor from both teams.
+- After the approval from editors Fair Cookbook and RDMkit will automatically pull changes from the central .yml file to update there repository. The process of merging the changes to the main branch from the reposiory takes place weekly.
 
-{% raw %}
-```
-{% include toollist.html tag="data publication" tag2="IT support" %}
-```
-{% endraw %}
-
-Giving:
-
-{% include toollist.html tag="data publication" tag2="IT support" %}
-
-Tools and resources can be added by manipulating the tool_and_resource_list.xlsx file in the `_data` repository.
-More information on how to add a tool or resource can be found on the [update tools and resources page](tool_resource_update).
-
-### Supported tags
-
-To only allow a curated list of tags, make sure that you find the tags in the `tags.yaml` file in the `_data` repository. 

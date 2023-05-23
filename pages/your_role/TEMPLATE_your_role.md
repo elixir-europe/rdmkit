@@ -1,11 +1,20 @@
 ---
 title: <Your persona>
-summary: Fill in your summary or delete this property when not needed
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 search_exclude: true
+description: <!---REPLACE THIS with a one sentence description of the page--->
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo
+related_pages: 
+  your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
+training:
+  - name:
+    registry:
+    url:
+# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
-{% include note.html content="This page is under construction." %}
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
 Support bioinformatician and data steward.
 
@@ -33,11 +42,3 @@ I am interested in large scale high-throughput analysis of omics data and I have
 * What are suitable compute resources for analysing my data?
 * What DMP templates and tools could be used for my project?
 * How do I know if my data is sensitive/personal and how would I work with data of this type?
-
-## Related topics
-
-{% include pagelist.html tag="REPLACE BY TAG" %}
-
-## Relevant tools and resources
-
-{% include toollist.html tag="REPLACE BY TAG" %}

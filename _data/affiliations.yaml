@@ -1,0 +1,162 @@
+- name: VIB
+  image_url: /images/institutions/VIB-notagline-pos.svg
+  pid: https://ror.org/03xrhmk39
+  expose: true
+  type: institution
+  url: https://www.psb.ugent.be/
+- name: The Manchester University
+  image_url: /images/institutions/logo-university-of-manchester.svg
+  pid: https://ror.org/02aswte26
+  expose: true
+  type: institution
+  url: https://www.manchester.ac.uk/
+- name: NBIS
+  url: https://nbis.se/
+  image_url: /images/institutions/nbislogo-green-txt.svg
+  pid:
+  expose: true
+  type: institution
+- name: SciLifeLab
+  url: https://www.scilifelab.se/
+  image_url: /images/institutions/SciLifeLab_Logotype_Green_POS.svg
+  pid: https://ror.org/04ev03g22
+  expose: true
+  type: institution
+- name: University of Bergen
+  url: https://www.uib.no/en
+  image_url: /images/institutions/uib_logo.svg
+  pid: https://ror.org/03zga2b32
+  expose: true
+  type: institution
+- name: Barcelona Supercomputing Center
+  url: https://www.bsc.es/
+  image_url: /images/institutions/BSC-blue.svg
+  pid: https://ror.org/05sd8tv96
+  expose: true
+  type: institution
+- name: Dutch Techcentre for Life Sciences
+  url: https://www.dtls.nl/
+  image_url: /images/institutions/DTL_logo.svg
+  pid: https://ror.org/055d8gs64
+  expose: true
+  type: institution
+- name: Heidelberg Institute for Theoretical Studies
+  url: https://www.h-its.org/
+  image_url: /images/institutions/hits-logo.svg
+  pid: https://ror.org/01f7bcy98
+  expose: true
+  type: institution
+- name: Instituto Gulbenkian de Ciência
+  url: https://gulbenkian.pt/ciencia/
+  image_url: /images/institutions/07_logotipo_web_ciencia_EN_50px-01.svg
+  pid: https://ror.org/04b08hq31
+  expose: true
+  type: institution
+- name: University of Luxembourg
+  url: https://wwwen.uni.lu/
+  image_url: /images/institutions/University-of-Luxembourg-Fr-01_noborder.svg
+  pid: https://ror.org/036x5ad56
+  expose: true
+  type: institution
+- name: CSC
+  url: https://www.csc.fi/
+  image_url: /images/institutions/CSC_2012_LOGO_RGB.svg
+  pid: https://ror.org/04m8m1253
+  expose: true
+  type: institution
+- name: ELIXIR CONVERGE
+  image_url: /assets/img/converge_logo.svg
+  pid: https://cordis.europa.eu/project/id/871075
+  expose: true
+  type: funder
+  url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
+- name: Research Council of Norway
+  image_url: /images/funders/fr-nettsted-logo_engelsk.svg
+  pid: http://dx.doi.org/10.13039/501100005416
+  expose: true
+  type: funder
+  url: https://www.forskningsradet.no/en/
+- name: FWO-IRI
+  image_url: /images/funders/FWO-logo.svg
+  pid: http://dx.doi.org/10.13039/501100003130
+  expose: true
+  type: funder
+  url: https://www.fwo.be/
+- name: Swedish Research Council
+  image_url: /images/funders/svart_liggande_eng.svg
+  pid: http://dx.doi.org/10.13039/501100004359
+  expose: true
+  type: funder
+  url: https://www.vr.se/
+- name: BioExcel
+  image_url: /images/projects/Bioexcel_logo_subheading_updated_RGB.svg
+  pid: https://cordis.europa.eu/project/id/823830
+  expose: true
+  type: project
+  url: https://bioexcel.eu/
+- name: TeSS
+  image_url: /images/projects/tess_logo.svg
+  pid:
+  expose: true
+  type: project
+  url: https://tess.elixir-europe.org/
+- name: FAIRsharing
+  image_url: /images/projects/FAIRsharing-sdp.svg
+  pid:
+  expose: true
+  type: project
+  url: https://fairsharing.org/
+- name: Bio.tools
+  image_url: /images/projects/bio.tools.svg
+  pid:
+  expose: true
+  type: project
+  url: https://bio.tools/
+- name: ELIXIR Europe
+  image_url: /images/infrastructures/ELIXIR-logo.svg
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://elixir-europe.org/
+- name: Euro BioImaging
+  image_url: /images/infrastructures/Euro-BioImaging_logo.svg
+  pid:
+  expose: false
+  type: infrastructure
+  url: https://www.eurobioimaging.eu/
+- name: University of Oslo
+  image_url: /images/institutions/UiO_logo.svg
+  pid: https://ror.org/01xtthb56
+  expose: false
+  type: institution
+  url: https://www.uio.no/english/
+- name: NeLS
+  image_url: /images/infrastructures/NeLS_logo.svg
+  pid:
+  expose: false
+  type: infrastructure
+  url: https://nels.bioinfo.no/
+- name: European Union
+  image_url: /images/funders/European_Commission.svg
+  pid: http://dx.doi.org/10.13039/501100000780
+  expose: false
+  type: funder
+  url: https://ec.europa.eu/
+- name: Data Stewardship Wizard
+  image_url: /images/projects/dsw-logo-full-color-filled.svg
+  pid:
+  expose: yes
+  type: project
+  url: https://ds-wizard.org/
+- name: FAIR Cookbook
+  image_url: /images/projects/cookbook-logo.png
+  pid:
+  expose: yes
+  type: project
+  url: https://faircookbook.elixir-europe.org/
+- name: BBMRI-NL
+  image_url: /images/infrastructures/BBMRI-NL_logo.svg
+  pid: https://ror.org/0003kpv33
+  expose: yes
+  type: infrastructure
+  url: https://www.bbmri.nl/

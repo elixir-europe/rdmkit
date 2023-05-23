@@ -1,9 +1,21 @@
 ---
 title: Domain page title
 search_exclude: true
+description: <!---REPLACE THIS with a one sentence description of the page--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-tags: [<!---REPLACE THIS with comma separated list of (outgoing) tags to other pages related to this page--->]
+page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo
+related_pages: 
+  your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
+training:
+  - name:
+    registry:
+    url:
+# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
+
+<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
 
 <!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
 In the event that no adequate Problem page exists for a problem that can be generalized across domains, consider first contributing to create one or raising a GitHub issue. However, if a problem is entirely domain specific, then it should be fully detailed within the respective Domain page. --->
@@ -31,7 +43,3 @@ For detailing the domain-specific challenges of a problem that is generic, pleas
 <!--- Add more sections as needed, with the same subsections as above. --->
 ...
 
-## Relevant tools and resources  
-<!--- Automatically generated table; edit the TAG below to the tag for this page, so that tools that have this page's tag are listed here. You can get the tag for this page from the [list of tags](https://github.com/elixir-europe/rdmkit/blob/master/_data/tags.yml). If it isn't listed there, please raise an issue.--->
-
-{% include toollist.html tag="<!---TAG--->" %}

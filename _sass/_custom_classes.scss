@@ -1,0 +1,142 @@
+/*-----General styling-----*/
+
+@media (min-width: 992px) {
+    main h1:not(.has-subtitle):not(.blurb-title),
+    main .h1:not(.has-subtitle) {
+        margin-top: -1rem;
+    }
+}
+
+.bg-light-x {
+    background-color: $light-x;
+}
+
+/*-----Sidebar-----*/
+
+//RDM wheel in sidebar
+.sidebar_rdm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 992px) {
+    .sidebar_rdm {
+        width: 200px;
+    }
+}
+
+li ul .sidebar_rdm_sub {
+    border-color: $light;
+    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 0px 0px $border-radius $border-radius;
+    border-style: none solid solid solid;
+    border-width: 0.2em;
+    margin-top: -0.25rem;
+}
+
+#side-nav .btn.sidebar-title {
+    border-bottom: 0.2rem solid $primary;
+    font-weight: bold;
+    padding-bottom: $input-btn-padding-y - 0.2rem;
+}
+
+#side-nav > ul {
+    margin-top: $spacer * 0.5;
+}
+
+/* -----Homepage----- */
+
+.landingpage {
+
+    .h-icon-6 {
+        height: 6em;
+    }
+    .h-icon-5 {
+        height: 5em;
+    }
+    .h-icon-4 {
+        height: 4em;
+    }
+
+    .card {
+        &:hover{
+            box-shadow: $box-shadow;
+        }
+
+        .card-img-top {
+            width: unset;
+            padding: $card-spacer-x $card-spacer-x 0 $card-spacer-x;
+        }
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-family:  $font-family-theme;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-family:  $font-family-theme;
+    }
+
+}
+
+// Search box
+
+section#search-section {
+    form {
+        max-width: 600px;
+    }
+
+    #search-results {
+        right: unset;
+    }
+    .input-group-text {
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+// Counters on landing page
+
+.count-number {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+
+/*-----Section navigation tiles-----*/
+
+.navigation-tiles {
+    .card:hover {
+        box-shadow: $box-shadow;
+    }
+
+    .card-header {
+        a:hover {
+            text-decoration: none;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+
+/*-----Top navigation-----*/
+
+.navbar-nav .nav-item > a {
+    white-space: nowrap;
+    &.active {
+        background-color: $primary;
+        border-radius: $border-radius;
+    }
+}

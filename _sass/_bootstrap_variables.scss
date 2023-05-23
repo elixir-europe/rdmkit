@@ -1,0 +1,33 @@
+/*-----Theme colors-----*/
+$white: #fff;
+$primary: #c23669;
+$gray-600: #73757d;
+$blue: #376ac3;
+$light: #f3f1f2;
+$light-x: #e3e1e4;
+$dark: #2a2e3d;
+
+/*-----Custom values for Bootstrap variables-----*/
+$component-active-bg: $primary;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-toggler-border-color: transparent;
+$border-radius: 0.3rem;
+$btn-border-radius-sm: $border-radius;
+$card-border-width: 0;
+$card-cap-bg: $light-x;
+$link-color: $blue;
+$info: $blue;
+$link-decoration: none;
+$body-bg: $white;
+$body-color: $dark;
+$font-family-sans-serif: "Open Sans", sans-serif;
+$alert-border-width: 0;
+$input-group-addon-bg: $light-x;
+$input-bg: $light;
+$input-border-width: 0;
+$h1-font-size: 1rem * 3.5 !default;
+$h3-font-size: 1rem * 1.5 !default;
+$h4-font-size: 1rem * 1.1 !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 1rem !default;

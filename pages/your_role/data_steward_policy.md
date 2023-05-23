@@ -1,6 +1,46 @@
 ---
-title: Data steward policy
+title: "Data Steward: policy"
+description: Data Steward with focus on data policies.
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
+page_id: policy_officer
+related_pages: 
+  your_tasks: [compliance, licensing, dmp, data_protection, sensitive, dm_coordination]
+training:
+  - name: TeSS - ELIXIR’s training portal
+    registry: TeSS
+    url: https://tess.elixir-europe.org/search?q=%22policy%20officer%22#materials
+
+  - name: RDNL - Essentials for Data Support
+    registry:
+    url: https://datasupport.researchdata.nl/en/
+
+  - name: Mantra - RDM training
+    registry:
+    url: https://mantra.edina.ac.uk/
+
+  - name: FAIR guiding principles
+    registry:
+    url: https://www.go-fair.org/fair-principles/
+
+  - name: Data Carpentry lessons
+    registry: Carpentries
+    url: https://datacarpentry.org/lessons/
+
+  - name: RDNL & DCC - Delivering RDM Services
+    registry:
+    url: https://www.futurelearn.com/courses/delivering-research-data-management-services
+
+  - name: NPOS/ELIXIR data steward competency framework
+    registry: Zenodo
+    url: https://zenodo.org/record/3490855#.YArTH-lKi7o
+
+  - name: ELIXIR Data Management Network
+    registry:
+    url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators
+
+  - name: Science Europe - Practical Guide to the International Alignment of RDM
+    registry:
+    url: https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/
 ---
 
 ## Description
@@ -29,24 +69,3 @@ Institutes across Europe have started hiring professional data stewards. A polic
 * Assess and analyse needs from researchers regarding support on RDM for researchers and define new requirements
 * Assess RDM knowledge and skills and identify gaps among researchers and relevant stakeholders
 
-If you want to become competent in these areas or build capacity in your institution then the following training resources might be useful:
-* [TeSS](https://tess.elixir-europe.org/): ELIXIR’s training portal
-* RDNL [Essentials for Data Support](https://datasupport.researchdata.nl/en/)
-* [Mantra](https://mantra.edina.ac.uk/) RDM training
-* GO FAIR [resources](https://www.go-fair.org/resources/)
-* Data Carpentry [lessons](https://datacarpentry.org/lessons/)
-* RDNL & DCC [Delivering RDM Services](https://www.futurelearn.com/courses/delivering-research-data-management-services)
-
-## Common problems
-
-{% include pagelist.html tag="policy officer" %}
-
-## Resources
-* NPOS/ELIXIR data steward [competency framework](https://zenodo.org/record/3490855#.YArTH-lKi7o)
-* [FAIR](https://www.go-fair.org/fair-principles/) guiding principles
-* [Science Europe](https://www.scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/) Practical Guide to the International Alignment of RDM
-* ELIXIR [Data Managers Network](https://elixir-europe.org/about-us/how-funded/eu-projects/converge/wp1/dm-coordinators)
-
-## Relevant tools and resources
-
-{% include toollist.html tag="policy officer" %}

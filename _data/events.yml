@@ -3,5 +3,31 @@
   startTime: '9:00'
   endDate: 2021-06-24
   endTime: 13:30 CET
-  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same (two half days). <a href="https://nettskjema.no/a/rdmkit-tool-assemblies#/page/1">Sign up here</a>.
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same (two half days). [Sign up here](https://nettskjema.no/a/rdmkit-tool-assemblies#/page/1).
   location: Online
+- name: BioHackathon Europe
+  startDate: 2021-11-08
+  endDate: 2021-11-12
+  description: Highlight your data management tool assembly in the RDMkit! Highlight your data management tools assembly in the RDMkit!
+  location: Barcelona
+- name: 'RDMkit Focus session: Machine-Readable Metadata'
+  startDate: 2021-09-24
+  startTime: '13:00'
+  endTime: '15:00 CET'
+  description: Do you have experience in generating machine-readable metadata during life sciences research projects? If yes, join this focus group!
+    Help to describe best practices on machine-readable metadata in a your task page. We are bundling our expertise on this topic in a joint discussion and writing session. 
+    For more information, please contact the rdm-editors@elixir-europe.org.
+  location: "[Zoom](https://cesnet.zoom.us/j/92001466230?pwd=V2lKc09pa0xGajFJRzA3a1FuS2Uxdz09)"
+- name: ELIXIR CONVERGE - RDMkit Virtual Hackathon
+  startDate: 2022-12-08
+  endDate: 2022-12-09
+  description: Take the opportunity to revise RDMkit pages; editors will be available in two time slots to help you with it. More information on the event can be found [in this document](https://docs.google.com/document/d/1HEemKzQikLrHvyaTyC7hqg8Lpp1NmS4R9hRwpeKkCXw). [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLSfxrHi-0QshZghec46psfZJlPon2cgDfsehSX1YRx54S8tyVA/viewform).
+  location: Online
+- name: RDMkit Contentathon
+  startDate: 2023-05-22
+  startTime: '9:00'
+  endDate: 2023-05-24
+  endTime: 12:00 CET
+  description: As a community, we want to make sure that the RDMkit content is regularly revised, improved, and further developed for better learning of what data management entails and how it works. With that, we would like to invite current and future contributors to [join us](https://www.eventbrite.com/e/550843105557) at RDMkit contentathon!
+  location: "[Monasterium](https://monasterium.be/nl/), Ghent, Belgium + virtual"
+
