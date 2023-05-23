@@ -259,7 +259,7 @@ ELIXIR Norway provides access to a [national instance of the Data Stewardship Wi
 
 ## Life science-specific infrastructures/resources
 
-Norway has both general and topic-specific resources to simplify and streamline your data management practices and to protect your research data. These resources can help you increase productivity while ensuring that your research is compliant, transparent, and reproducible.
+We've included both general and topic-specific resources to simplify and streamline data management practices and to protect your research data. These resources can help you increase productivity while ensuring that your research is compliant, transparent, and reproducible.
 
 ### Norwegian e-Infrastructure for Life Sciences (NeLS) tool assembly
 
