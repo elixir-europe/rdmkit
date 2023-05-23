@@ -219,23 +219,30 @@ Details and provided solutions vary according to each institution. They are base
 
 ## Support services
 
-There are several support services available to Norwegian Life Science researchers, including:
-* [ELIXIR Norway Helpdesk](https://elixir.no/helpdesk)
-* [GBIF Norway Helpdesk for deposition of biodiversity data](https://www.gbif.no/services/)
-* [ELSI Helpdesk for biobanking from BBMRI-NO](https://bbmri.no/help-desk-elsi)
-* [NSD (SIKT) on (sensitive) personal data in research](https://www.nsd.no/en/data-protection-services)
-* Institutional Research Data teams
-    * [Norges teknisk-naturvitenskapelige universitet (NTNU)](https://i.ntnu.no/researchdata)
-    * [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/open-access-research-data)
-    * [University of Oslo (UiO)](https://www.ub.uio.no/english/courses-events/courses/other/research-data/)
-    * [The Arctic University of Norway (UiT)](https://uit.no/forskning/forskningsdata)
-    * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
-    * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
-    * [Nord University](https://www.nord.no/en/library/research-data)
-    * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
-    * [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
+### Helpdesks
 
-* [NRIS technical and administrative support](https://www.sigma2.no/user-support)
+The [ELIXIR Norway Helpdesk](https://elixir.no/helpdesk) offers bioinformatics and data management support together with documentation and support for using ELIXIR Norway's life science infrastructures. Researchers in Norway as well as international collaborators—including private companies and governmental research institutions—can contact the Helpdesk to request access to data management services.
+
+The [Global Biodiversity Information Facility (GBIF) Norway Helpdesk](https://www.gbif.no/services/) supplies IT-services and assistance with deposition of biodiversity data to affiliated organizations. If you are not currently part of the GBIF community, you can follow their guidelines to request endorsement. The GBIF network supports four classes of datasets: resources metadata, checklists, occurrences, and sampling-event data.
+
+The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates compliance with Norway-specific regulations and standards for ethical, legal, and societal issues, as part of Biobank Norway (BBMRI-NO).
+
+### Institutional research data teams
+* [Norges teknisk-naturvitenskapelige universitet (NTNU)](https://i.ntnu.no/researchdata)
+* [University of Bergen (UiB)](https://www.uib.no/en/ub/111372/open-access-research-data)
+* [University of Oslo (UiO)](https://www.ub.uio.no/english/courses-events/courses/other/research-data/)
+* [The Arctic University of Norway (UiT)](https://uit.no/forskning/forskningsdata)
+* [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
+* [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
+* [Nord University](https://www.nord.no/en/library/research-data)
+* [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
+* [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
+
+### Other data management infrastructures
+
+Sikt is a Norwegian governmental agency that provides [(sensitive) personal data protection services](https://sikt.no/en/data-protection-services) to research and education institutions in Norway. Sikt offers guidelines, tools for creating data management plans, and assistance with the legal aspects of personal data management.
+
+NRIS, a collaboration between Sigma2 (a subsidiary of Sikt) and four universities, gives [technical and administrative support](https://www.sigma2.no/user-support) to researchers in Norway on large-scale data storage and high-performance computing.
 
 ## Data Management Planning
 A data management plan (DMP) is currently requested by:
