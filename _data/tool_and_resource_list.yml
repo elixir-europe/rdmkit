@@ -1,3 +1,75 @@
+- description: C library that provides a simple interface to read whole-slide images (also known as virtual slides)
+  name: OpenSlide
+  id: openslide
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://openslide.org/
+- description: Image Reading, Metadata Conversion, and Image Writing for Microscopy Images in Pure Python
+  name: AICSImageIO
+  id: aicsimageio
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://openslide.org/
+- description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
+  name: bioformats2raw
+  id: bioformats2raw
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://github.com/glencoesoftware/bioformats2raw
+- description: Java application to convert a directory of tiles to an OME-TIFF pyramid. This is the second half of iSyntax/.mrxs => OME-TIFF conversion.
+  name: raw2ometiff
+  id: raw2ometiff
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://github.com/glencoesoftware/raw2ometiff
+- description: 
+  name: bfconvert
+  id: bfconvert
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://bio-formats.readthedocs.io/en/stable/users/comlinetools/conversion.html
+- description: Aggregating critical information to accelerate COVID-19 drug discovery for the molecular modeling and simulation community.
+  name: MolSSI - BioExcel COVID-19 therapeutics hub
+  id: molssi
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://covid.bioexcel.eu/
+- description: The open source PIA software helps to carry out data protection impact assessment
+  name: Privacy Impact Assessment Tool (PIA)
+  id: pia
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment
+- description: The Japanese Genotype-phenotype Archive (JGA) is a service for permanent archiving and sharing of all types of individual-level genetic and de-identified phenotypic data resulting from biomedical research projects.
+  name: JGA
+  id: jga
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: https://www.ddbj.nig.ac.jp/jga/index-e.html
+- description: 
+  name: 
+  id: 
+  registry:
+    biotools: 
+    fairsharing: 
+    tess: 
+  url: 
 - description: Network providing unified programmatic access to experimentally determined
     and predicted structure models
   id: 3d-beacons
@@ -522,7 +594,7 @@
 - description: DUO allows to semantically tag datasets with restriction about their
     usage.
   id: data-use-ontology
-  name: Data Use Ontology
+  name: Data Use Ontology (DUO)
   registry:
     fairsharing: 5dnjs2
   url: https://github.com/EBISPOT/DUO
@@ -546,7 +618,7 @@
 - description: The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg
     to facilitate data sharing agreements.
   id: dawid
-  name: DAWID
+  name: Data Agreement Wizard (DAWID)
   url: https://dawid.elixir-luxembourg.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
@@ -674,9 +746,9 @@
   id: elixir-aai
   name: ELIXIR-AAI
   url: https://elixir-europe.org/services/compute/aai
-- description: "EMBL-EBI\u2019s web portal for finding ontologies"
-  id: embl-ebi-ontology-lookup-service
-  name: EMBL-EBI Ontology Lookup Service
+- description: "EMBL-EBI's web portal for finding ontologies"
+  id: ontology-search
+  name: Ontology Search
   url: https://www.ebi.ac.uk/ols/index
 - description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
     data.
@@ -1092,7 +1164,7 @@
 - description: The Informed Consent Ontology (ICO) is an ontology for the informed
     consent and informed consent process in the medical field.
   id: informed-consent-ontology
-  name: Informed Consent Ontology
+  name: Informed Consent Ontology (ICO)
   registry:
     fairsharing: b9znd5
   url: http://purl.obolibrary.org/obo/ICO.owl
@@ -1133,7 +1205,7 @@
     biotools: intogen
   url: https://www.intogen.org/search
 - description: Intrinsically disordered proteins ontology
-  id: intrinsically-disordered-proteins-ontology
+  id: idpo
   name: Intrinsically disordered proteins ontology (IDPO)
   url: https://disprot.org/ontology
 - description: The Integrated Risk Information System (IRIS) resource evaluates information
@@ -1431,7 +1503,7 @@
   registry:
     biotools: omero
     fairsharing: NA
-  url: https://www.openmicroscopy.org
+  url: https://www.openmicroscopy.org/omero/
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
   id: omicsdi
@@ -1909,12 +1981,12 @@
 - description: The Genomic Standards Consortium (GSC) is an open-membership working
     body enabling genomic data integration, discovery and comparison through international
     community-driven standards.
-  id: the-genomic-standards-consortium
-  name: The Genomic Standards Consortium (GSC)
+  id: genomic-standards-consortium
+  name: Genomic Standards Consortium (GSC)
   registry:
     biotools: NA
     fairsharing: 9aa0zp
-  url: https://www.gensc.org/pages/about.html
+  url: https://www.gensc.org/
 - description: Collaborative effort to develob interoperable ontologies for the biological
     sciences
   id: the-open-biological-and-biomedical-ontology-foundry
@@ -2046,6 +2118,7 @@
   url: https://www.ebi.ac.uk/spot/zooma/
 - description: A comprehensive repository of biomedical ontologies
   name: BioPortal
+  id: bioportal
   registry:
     biotools: bioportal
     fairsharing: 4m97ah

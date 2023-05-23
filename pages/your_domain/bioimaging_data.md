@@ -25,7 +25,7 @@ An image is much more than a collection of zeros and ones.
 The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used, etc.
 
 The number of image proprietary formats is very large and keeps increasing. It is challenging to support so many proprietary file formats i.e. read/extract metadata.
-The [Bio-formats](https://bio-formats.readthedocs.io/) library currently supports over [150 different file formats](https://bio-formats.readthedocs.io/en/latest/supported-formats.html).
+The {% tool "bio-formats" %} library currently supports over [150 different file formats](https://bio-formats.readthedocs.io/en/latest/supported-formats.html).
 The [Dataset Structure Table](https://bio-formats.readthedocs.io/en/latest/formats/dataset-table.html) shows the extension of the files to read and indicates the structure of the image itself e.g. single file, multiple files, one image file and a companion file, etc.
 
 ### Data management challenges
@@ -63,14 +63,14 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 **Open source translators**: Members of the community have developed multi-format translators that can be used to access your data on-the-fly i.e. the original format is preserved, no file written on disk. This implies that you will need to perform this translation each time you access your data and, depending on the size of the image(s), you could run out of memory. Translation libraries include, 
 
-  - [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) (Java) - supports over 150 file formats
-  - [OpenSlide](https://openslide.org/) (C++) - primarily for whole-slide imaging (WSI) formats
-  - [aicsimageio](https://github.com/AllenCellModeling/aicsimageio) (Python) - wraps vendor libraries and Bio-Formats to support a wide-range of formats in Python
+  - {% tool "bio-formats" %} (Java) - supports over 150 file formats
+  - {% tool "openslide" %} (C++) - primarily for whole-slide imaging (WSI) formats
+  - {% tool "aicsimageio" %} (Python) - wraps vendor libraries and Bio-Formats to support a wide-range of formats in Python
 
 **Permanent conversion**: An alternative is to permanently convert your data to
 
   - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. The Bio-Formats (above) library comes with a command line to tool [bfconvert](https://bio-formats.readthedocs.io/en/stable/users/comlinetools/conversion.html) that can be used to convert to files to OME-TIFF
-  - The [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) and [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff) toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, the toolchain could also be an option to consider.
+  - The {% tool "bioformats2raw" %} and {% tool raw2ometiff %} toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, the toolchain could also be an option to consider.
 
 **Cloud (or "object") storage**: If you are storing your data in the cloud, you will likely need a different file format since most current image file formats are not suitable for cloud storage. OME is currently developing a [next-generation file format (NGFF)](https://ngff.openmicroscopy.org/latest/) that you can use.
 
@@ -108,20 +108,20 @@ Due to the scale of data, keeping track of the image data and the associated dat
 ### Solutions
 
  - Agnostic platforms that can be used to bridge between domain data include:
-   - [iRODS](https://irods.org/).
-   - [b2share](https://b2share.eudat.eu/).
+   - {% tool "irods" %}.
+   - {% tool "b2share" %}.
  - Image-specific data management platforms include:
-   - [OMERO](https://www.openmicroscopy.org/omero/) - broad support for a large number of imaging formats.
-   - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) - image specific.
-   - [XNAT](https://www.xnat.org/) - medical imaging platform, DICOM-based.
-   - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data.
-   - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images.
-  - Platforms like [OMERO](https://www.openmicroscopy.org/omero/), [b2share](https://b2share.eudat.eu/) also allow you to publish the data associated with a given project.
+   - {% tool "omero" %} - broad support for a large number of imaging formats.
+   - {% tool "cytomine-ims" %} - image specific.
+   - {% tool "xnat" %} - medical imaging platform, DICOM-based.
+   - {% tool "mytardis" %} - largely file-system based platform handling the transfer of data.
+   - {% tool "bisque" %} - resource for management and analysis of 5D biological images.m
+  - Platforms like {% tool "omero" %}, {% tool "b2share" %} also allow you to publish the data associated with a given project.
   - Metadata standards can be found at the [Metadata Standards Directory Working Group](https://rdamsc.bath.ac.uk/).
   - Ontologies Resources available at:
-    - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms.
-    - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service.
-    - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies.
+    - {% tool "zooma" %} - Resource to find ontology mapping for free text terms.
+    - {% tool "ontology-search" %} - Ontology lookup service.
+    - {% tool "bioportal" %} - Biomedical ontologies.
    - Existing data can be found by using the following resources:
     - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers).
     - [Research Data repositories Registry](https://www.re3data.org/).
@@ -148,7 +148,7 @@ Two distinct types of resources should be considered:
 - Select and choose the repositories based on the following characteristics:
   - Storage vs Added-value resources.
   - Images format support.
-  - Supported licenses e.g. CC0 or CC-BY license. For example the [Image Data Resource (IDR)](http://idr.openmicroscopy.org/) uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
+  - Supported licenses e.g. CC0 or CC-BY license. For example the {% tool image-data-resource %} uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
   - Which types of access are required for the users e.g. download only, browse search and view data and metadata, API access. 
       - Does an entry have an access e.g. idr-xxx, EMPIAR-#####?
       - Does an entry have a DOI (Digital Object Identifier)?
@@ -160,13 +160,13 @@ Comparative table of some repositories that can be used to deposit imaging data:
 
 | Repository | Type | Data Restrictions | Data Upload Restrictions | DOI | Cost |
 |------------|------|-------------------|---------------------|-----|------|
-| [BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/) | Archive | No PIH data | None | --- | Free |
-| [Dryad](https://datadryad.org/)| Archive | No PIH data | 300GB | Yes | over 50GB (*) |
-| [EMPIAR](https://www.ebi.ac.uk/empiar/) | Added-value | Electron microscopy imaging data | None | Yes | Free |
-| [IDR](https://idr.openmicroscopy.org/) | Added-value | Cell/Tissue imaging data, no PIH data | None| Yes | Free |
-| [SSBD:database](https://ssbd.riken.jp/database/) | Added-value | Biological dynamics imaging data | None | --- | Free |
-| [SSBD:repository](https://ssbd.riken.jp/repository/) | Archive | Biological dynamics imaging data | None | --- | Free |
-| [Zenodo](https://zenodo.org) | Archive | None | 50GB per dataset | Yes | Free |
+| {% tool "bioimagearchive" %} | Archive | No PIH data | None | --- | Free |
+| {% tool "dryad" %}| Archive | No PIH data | 300GB | Yes | over 50GB (*) |
+| {% tool "empiar" %} | Added-value | Electron microscopy imaging data | None | Yes | Free |
+| {% tool "image-data-resource" %} | Added-value | Cell/Tissue imaging data, no PIH data | None| Yes | Free |
+| {% tool "ssbd-database" %} | Added-value | Biological dynamics imaging data | None | --- | Free |
+| {% tool "ssbd-repository" %} | Archive | Biological dynamics imaging data | None | --- | Free |
+| {% tool "zenodo" %} | Archive | None | 50GB per dataset | Yes | Free |
 
 - PIH: Protected health information.
 - (*) unless submitter is based at member institution.

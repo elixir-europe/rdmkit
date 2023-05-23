@@ -69,7 +69,7 @@ It is recommended to publish and share information about biological hosts in ded
 
 ### Solutions
 #### Metadata schemas and ontologies
-* Current data standards to capture the  taxonomic and phenotypic data are still evolving, with notable work on the [Access to Biological Collection Data Schema (ABCD)](https://www.tdwg.org/standards/abcd/) and the activities of the [Biodiversity Information Standards task force (TDWG)](https://www.tdwg.org/). The Darwin Core standard from the [(TDWG)](https://www.tdwg.org/) is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism.
+* Current data standards to capture the  taxonomic and phenotypic data are still evolving, with notable work on the {% tool "access-to-biological-collection-data-schema" %} and the activities of the {% tool "biodiversity-information-standards" %}. The Darwin Core standard from the {% tool "biodiversity-information-standards" %} is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism.
 * The [NCBI taxonomy homepage](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/) can also provide appropriate taxon IDs for recording taxonomic information.
 * Information about proposed standardised nomenclature for prokaryotes can be found at the [List of Prokaryotic names with Standing in Nomenclature (LPSN)](https://lpsn.dsmz.de/) ([Parte et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32701423/)).
 * Data standards for recording the information about where a microorganism was isolated from do exist and this topic is covered in other RDMkit pages such as the [marine metagenomics](marine_metagenomics) domain. Information can also be found in a publication by Ten Hoopen and colleagues ([Ten Hoopen et al., 2015](https://pubmed.ncbi.nlm.nih.gov/26203332/)). 
@@ -103,7 +103,7 @@ Appropriate and detailed description of the synthetic parts design is critical f
   * [iGEM Parts Registry](http://parts.igem.org/Main_Page)
   * [The Joint BioEnergy Institute's Inventory of Composable Elements (JBEI-ICE)](https://ice.jbei.org) ([Ham et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467034/))
   * [SynBioHub](https://synbiohub.org)
-* Sequences can be isolated from standard genetic databases such as {% tool "european-nucleotide-archive" %} and [GenBank](https://www.ncbi.nlm.nih.gov/genbank/).
+* Sequences can be isolated from standard genetic databases such as {% tool "european-nucleotide-archive" %} and {% tool "genbank" %}.
 
 #### Tools for metadata collection
 * You can manage the design stage using genetic computer aided design tools, such as [Benchling](https://benchling.com) for example, where information can be shared within small teams. [Benchling](https://benchling.com) supports a number of different data standards including FASTA, GenBank and SBOL1. 
