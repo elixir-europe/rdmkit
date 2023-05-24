@@ -16,75 +16,30 @@ related_pages:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
-# Working document for Converge WP9 RDMkit Task force
-<blockquote>
-
-* Useful for diagrams: https://app.diagrams.net/
-* Markdown guide: https://www.markdownguide.org/extended-syntax/
-
-Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page.
-
-Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
-In the event that no adequate Problem page exists for a problem that can be generalized across domains, consider first contributing to create one or raising a GitHub issue. However, if a problem is entirely domain specific, then it should be fully detailed within the respective Domain page.
-    
-Suggested scope/focus:
-
-* Specimen collected from human host, extracted/isolated produce
-* Outbreak data sharing and analysis efforts, both public health surveillance and research studies
-* Challenges related to data sharing with samples collected from human hosts and from within health care
-* Filtering fragments of human DNA from viral genome reads
-* Masking research subject/patient information subject/patient information
-* Whats is sensitive data and what is not
-Remove human sequences from samples
-Link to legal aspects workshop
-
-    
-</blockquote>
+# Human Pathogen Genomics
 
 ## Introduction
-<blockquote>
-In this section you should provide a brief overview of the domain from the data management perspective, mentioning and putting into context the challenges that are particular to the domain, which will be the object of sections below.
-</blockquote>
+The human pathogen genomics domain focuses on studying the genetic code of organisms that cause disease in humans. Studies to identify and understand pathogens are conducted across different types of organisations raging from research institutes to regional public health authorities. And the aims can include urgent outbreak response and prevention measures and developing remedies such as treatments and vaccines.
 
+Data management challenges in this domain include the potential urgency of data sharing and secondary use of data across initiatives emerging from research, public health and policy. And while the pathogenic organisms are the object of interest, there are many consideration to account for when dealing with samples collected from patients, healthcare, and human research subjects.
 
-
-<!---A domain page based on the work of Converge WP9, exact scope to be defined but something on the lines of “Human pathogen genomics”, focusing on sections related to outbreak data sharing and analysis efforts, both public health surveillance and research studies. Also links to the IDTk.--->
-
-Human pathogen genomics analyses the genetic code of disease-causing organisms. This information can be used by researchers and public health authorities to identify and understand the pathogen and by extension to prevent and respond to outbreaks and to develop remedies such as treatments and vaccines. 
-
-* Something about from samples from a single individual and a specific target pathogen to metagenomic studies with genomic data from many pathogens and a larger population.
-
-
-The human pathogen genomics domain includes the data challenges of research with a public health and policy focus and research with a focus on the characterization of the pathogens themselves. As data initially generated with either focus can be of important reuse value for the other focus (e.g. pathogen surveillance data used for pathogen evolution studies) it is imperative that rich metadata is collected and that provenance and standards are properly recorded. Moreover, considerations on human sensitive data permeate the domain, either through intentional data collection efforts (e.g. patient information recorded as metadata) or as an inherent effect of the methodologies employed (e.g. remnants of human genetic material in sequencing results).
-On this page we highlight aspects of the data life cycle that deserve specific attention in this domain.
-
-### Pathogens from healthcare and research studies
-
-* Different frameworks for legal and operational aspects, consent issues, …
-* Something about timeliness of data sharing across the two…
-* A bullet with [a link][short_link_a]
-* Challenge 1:&nbsp;Pathogen surveillance&nbsp;
-* Pathogens from healthcare
-* Challenge 2: Novel/ not actively monitored pathogens
-* Pathogens from research projects
-
-
-[short_link_a]: https://raw.githubusercontent.com/elixir-europe/rdmkit/master/pages/your_domain/TEMPLATE_your_domain.md
-
-
+The genomic data can represent anything from the genetic sequence of a single pathogen isolate to various fragments of genetic materials from a flora of pathogens in larger population. Other data can represent a wide range of contextual information about the human host, the disease, and various environmental factors.
 
 ## Planning a study with pathogen genome data
 
 ### Description
+<blockquote>Sections within Domain pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should focus on particular data management problems, which should be described in this first sub-section. For problems that are fully domain-specific, a detailed description is merited. For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges.</blockquote>
+
 While the object of interest in this domain are pathogens, the data is usually derived from samples originating from patients and human research subjects. This means that you must plan to either remove or to handle human data during your study.
 
 ### Considerations
+<blockquote>Direct and concise considerations, structured in bullet points and typically framed as questions RDMkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided.</blockquote>
 
 Consant mixing of human and non-human data.
 
 * What legal and ethical aspects do you need to consider? 
   * Can you separate pathogen and human host material and data?
-  * ELSI aspects and contracts with suppliers etc.
+  * What ELSI aspects and contracts with suppliers etc?
   * Who needs to be consulted and how much time would be required to obtain access/permits to get access to samples/data?
 * What public health and research initives should you consider aligning with?
   * What data could be shared with or reused from other initiatives during the project?
@@ -95,19 +50,19 @@ Consant mixing of human and non-human data.
   * What conventions should you adopt for documenting your research? 
 
 ### Solutions
+<blockquote>Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. </blockquote>
+
 #### Isolate pathogen from host information
-* Depending on the pathogen, how it interacts with the host, or the methods applied, it can be possible to generate clean isolates that do not contain host related material. Data produced from a clean isolate could potentially be handled with few restrictions, while other data will be considered to be personal and sensitive.
-  * Human data task page
-  * Data protection
+* Depending on the pathogen, how it interacts with the host, or the methods applied, it can be possible to generate clean isolates that do not contain host related material. Data produced from a clean isolate could potentially be handled with few restrictions, while other data will be considered to be personal and [sensitive](sensitive_data) that need [protection](data_protection)
 
 #### Public health initiaitves
 * National and international recommendations from public health authorities, epidemic surveillance programs and research data communities should be considered when planning a new study or surveillance programme. In particular, you could consult relevant guidance issued by national and international surveillance programs while considering widely adopted guidelines for research documentation, and recommendations provided by data sharing platforms and communities.
-  * WHO Pathogen genomic initatives
-  * ECDC Pathogen genomic initatives
-  * [National resources](https://rdmkit.elixir-europe.org/national_resources) 
-  * INSDC Pathogens
-  * EMBL-EBI Pathogens
-  * RDA
+  * [WHO genomic surveillance strategy](https://www.who.int/initiatives/genomic-surveillance-strategy)
+  * [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en)
+  * [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/genomics/pathogen/index.htm)
+  * [National resources | RDMkit](./national_resources) 
+  * [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/)
+  * [EMBL-EBI Pathogens](https://www.ebi.ac.uk/ena/pathogens/home)
   * [ECDC’s Surveillance and study protocols](https://www.ecdc.europa.eu/en/covid-19/surveillance/study-protocols)
 
 #### Documenting sequencing experiments
@@ -119,14 +74,14 @@ Consant mixing of human and non-human data.
   * [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260)
 
 
-
-
 ## Collecting and processing pathogen sequence data
 
 ### Description
-
+<blockquote>Sections within Domain pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should focus on particular data management problems, which should be described in this first sub-section. For problems that are fully domain-specific, a detailed description is merited. For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges.</blockquote>
 
 ### Considerations
+<blockquote>Direct and concise considerations, structured in bullet points and typically framed as questions RDMkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided.</blockquote>
+
 * What information should you consider recording when collecting data?
   * What should you note when collecting, storing and preparing the samples?
   * How will you capture information about the configuration and quality of the sequencing results?
@@ -139,6 +94,8 @@ Consant mixing of human and non-human data.
   * What is the recommended citation for the data and their versions?
 
 ### Solutions
+<blockquote>Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. </blockquote>
+
 #### Filtering genomic reads coresponding to human dna fragments
 
 * Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions.
@@ -177,7 +134,8 @@ Consant mixing of human and non-human data.
 
 #### Genomic information and quality assessment
 * Make sure you are using common and suitable data formats
-  * Enough pathogen materials? Was it stored properly?
+  * Enough pathogen materials?(https://www.sequencing.uio.no/pacbio-services/dna-requirements/) Was it stored properly?
+  * Repositories generally have information about [data formats](Data_publication)
   * [High-Throughput Sequencing | LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
   * [B1MG D3.1 - Quality metrics for sequencing](https://doi.org/10.5281/zenodo.4889390)
 
@@ -206,9 +164,10 @@ Consant mixing of human and non-human data.
 
 
 ### Description
-
+<blockquote>Sections within Domain pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should focus on particular data management problems, which should be described in this first sub-section. For problems that are fully domain-specific, a detailed description is merited. For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges.</blockquote>
 
 ### Considerations
+<blockquote>Direct and concise considerations, structured in bullet points and typically framed as questions RDMkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided.</blockquote>
 
 * What data need to be preserved by the project and for how long?
   * What is preserved by others and how would someone find and access the data?
@@ -216,36 +175,19 @@ Consant mixing of human and non-human data.
 
 
 ### Solutions
+<blockquote>Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. </blockquote>
+
 #### Sharing host related and other contextual information
 * Something about links to non-sensitive pathogen genome data etc. Aggregate level information, data masking and access to detailed records. Reference human data. Some of this information can be used as metadata for genomic data. 
 
 #### Sharing pathogen genomic data
+Several platforms can be used in parallel to reach different audiences and include national and European healthcare surveillance systems administered by public health authorities, such as the ECDC’s TESSy/EpiPulse; international research data exchanges such as INSDC (EMBL-EBI, NCBI, DDBJ) and the Federated EGA network; and virus specific initiatives such as GISAID. 
+
 * Something about INSDC, GISAID, EBI-data base chooser etc. also FEGA, ECDC, national data hubs etc.
-* EBI Pathogens data hubs
-* Licenses
-* Provenance
-* Differences between Health and Research
-* Sharing
-* Data ownership
-* Data brokering
-* Data sharing agreements/conditions
-* Platforms for sharing
+  * EBI Pathogens data hubs
+  * Differences between Health and Research
+  * Data ownership
+  * [Data brokering](https://rdmkit.elixir-europe.org/data_brokering)
+  * Data sharing agreements/conditions
+  * Platforms for sharing
 
-
-## Template
-### Description
-<blockquote>Sections within Domain pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should focus on particular data management problems, which should be described in this first sub-section.
-For problems that are fully domain-specific, a detailed description is merited.
-For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges.</blockquote>
-
-### Considerations 
-<blockquote>Direct and concise considerations, structured in bullet points and typically framed as questions RDMkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided.</blockquote>
-
-
-### Solutions
-<blockquote>Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. </blockquote>
-
-<!--- ## Section 2 Title --->
-<!--- Add more sections as needed, with the same subsections as above. --->
-
-* A bullet with [a link][short_link_a]
