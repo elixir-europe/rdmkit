@@ -49,7 +49,7 @@ Assess your project under the GDPR.
      * The GDPR lists certain data e.g. race, ethnicity, health, genetic, biometric data as [special category](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/how-my-personal-data-protected/how-data-my-religious-beliefs-sexual-orientation-health-political-views-protected_en), requiring it's heightened protection. Your research will be considered high risk processing if it involves special category data or if it includes some specified types of processing.
      * A DPIA is often a pre-requisite for ethics applications. Your DPO or local ethics advisory board can help determine whether your project requires a DPIA.  
      * Performing the DPIA while writing the DMP will allow you to reuse information and save time.
-     * An outcome of the DPIA will be a listing of risks and corresponding mitigations. Mitigations identify the data protection measures you'll adopt, both technical organisational.       
+     * An outcome of the DPIA will be a listing of risks and corresponding mitigations. Mitigations identify the data protection measures you'll adopt, both technical organisational.
 
 Apply technical and organisational measures for data protection. These include:
   * institutional policies and codes of conduct;
@@ -71,6 +71,7 @@ Record your data processing. To meet GDPR's accountability requirement you shoul
 
   * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
   * [European Data Protection Supervisor's "Preliminary opinion on Data Protection and Scientific Research"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf)
+  * [GDPR-Carpa - A Luxembourgish certification mechanism according to the GDPR criteria](https://cnpd.public.lu/en/actualites/national/2022/06/adpoption-gdpr-carpa.html)
   * [BBMRI-ERIC's Ethical Legal Societal Issues (ELSI) Knowledge Base](https://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance.
   * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects.
   * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
