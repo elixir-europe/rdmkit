@@ -6,6 +6,10 @@
   name: AICSImageIO
   id: aicsimageio
   url: https://github.com/AllenCellModeling/aicsimageio
+- description: Bio-Formats is a software tool for reading and writing image data using standardized, open formats.
+  id: bioformats
+  name: Bio-Formats
+  url: https://www.openmicroscopy.org/bio-formats/
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   name: bioformats2raw
   id: bioformats2raw 
@@ -371,6 +375,14 @@
   id: cedar
   name: CEDAR
   url: https://metadatacenter.org
+- description: Image analysis software
+  id: cellprofiler
+  name: CellProfiler
+  url: https://cellprofiler.org/
+- description: ilastik is a user-friendly tool for interactive image classification, segmentation and analysis
+  id: ilastik
+  name: ilastik
+  url: https://www.ilastik.org/
 - description: A version management tool for modifying strains
   id: cellrepo
   name: CellRepo
@@ -964,6 +976,10 @@
   id: fip-wizard
   name: FIP Wizard
   url: https://fip-wizard.readthedocs.io/en/latest/
+- description: Fiji is an image processing package
+  id: fiji
+  name: Fiji
+  url: https://fiji.sc/
 - description: FreeIPA is an integrated Identity and Authentication solution for Linux/UNIX
     networked environments.
   id: free-ipa
@@ -1227,6 +1243,10 @@
   id: jupyter
   name: Jupyter
   url: https://jupyter.org
+- description: JWS-Online is a systems biology tool for the construction, modification and simulation of kinetic models and for the storage of curated models.
+  id: jws-online
+  name: JWS Online 
+  url: https://jjj.mib.ac.uk/
 - description: Keycloak is an open source identity and data access management solution.
   id: keycloak
   name: Keycloak
