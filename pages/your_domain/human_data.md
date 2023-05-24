@@ -1,7 +1,7 @@
 ---
 title: Human data
 description: Data management solutions for human data.
-contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Teresa D'Altri]
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Vilem Ded, Teresa D'Altri]
 page_id: human_data
 related_pages:
   your_tasks: [sensitive]
