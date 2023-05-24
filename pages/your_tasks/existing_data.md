@@ -30,7 +30,7 @@ Many datasets could exist that you can reuse for your project. Even if you know 
 * Locate the repositories relevant for your field.
     * Check the bibliography on relevant publications, and check where the authors of those papers have stored their data. Note those repositories. If papers don’t provide data, contact the authors.
     * Data papers provide peer-reviewed descriptions of publicly available datasets or databases and link to the data source in repositories. Data papers can be published in dedicated journals, such as [Scientific Data](https://www.nature.com/sdata/), or be a specific article type in conventional journals.
-    * Search for research communities in the field, and find out whether they have policies for data submission that mention data repositories. For instance, [ELIXIR communities in Life Sciences](https://elixir-europe.org/communities).
+    * Search for research communities in the field, and find out whether they have policies for data submission that mention data repositories. For instance, {% tool "ELIXIR Core Data Resources" %} [ELIXIR communities in Life Sciences](https://elixir-europe.org/communities).
 
 * Locate the primary journals in the field, and find out what data repositories they endorse.
     * Journal websites will have a “Submitter Guide”, where you’ll find lists of recommended deposition databases per discipline, or generalist repositories. For instance, {% tool "scientific-data-s-recommended-repositories" %}.
