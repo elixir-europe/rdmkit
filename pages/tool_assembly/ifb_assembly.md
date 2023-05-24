@@ -33,7 +33,7 @@ IFB data management tool assembly supports data management activities of scienti
 
 IFB and the underlying infrastructure are accessible to researchers in France and their foreign collaborators. Researchers that would like to know more about IFB services can find specific contact details at the unified [IFB help desk page](https://www.france-bioinformatique.fr/en/help-desk/) and get support through the dedicated help pages. Depending on the resources, fees may apply. It is therefore advisable to contact them during the planning phase of the project.
 
-The way you can access the IFB depends on the type of resources (for instance, cluster or cloud), and there will be different authentication procedures (local, national or international). For example, the Biosphere cloud federation uses the EduGAIN federation for authentication, while useGalaxy.fr uses the [ELIXIR AAI](https://elixir-europe.org/services/compute/aai) authentication. To have additional information on how to access the IFB contact the [help desk](https://www.france-bioinformatique.fr/en/help-desk/). 
+The way you can access the IFB depends on the type of resources (for instance, cluster or cloud), and there will be different authentication procedures (local, national or international). For example, the Biosphere cloud federation uses the EduGAIN federation for authentication, while useGalaxy.fr uses the {% tool "elixir-aai" %} authentication. To have additional information on how to access the IFB contact the [help desk](https://www.france-bioinformatique.fr/en/help-desk/). 
 
 
 ## For what can you use the IFB data management tool assembly?
