@@ -27,8 +27,8 @@ faircookbook:
 
 ### Description
 
-Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
-derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
+Where scientific research involves the processing of data concerning identifiable people in the European Union (EU), it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
+
 The safeguards are a multitude and include:
   * data collection with informed consent under ethical oversight and accountability;
   * ensuring lawful processing and exchange of human-subject information;
@@ -58,7 +58,7 @@ Apply technical and organisational measures for data protection. These include:
   * data privacy measures such as pseudonymisation, anonymisation and encryption,
   * arrangements that will enable data subjects to exercise their rights.
 
-Record your data processing. To meet  GDPR's accountability requirement you should maintain records on the following:
+Record your data processing. To meet GDPR's accountability requirement you should maintain records on the following:
   * project stakeholders and their GDPR roles (controller, processor);
   * purpose of your data processing;
   * description of data subjects and the data;
