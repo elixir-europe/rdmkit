@@ -29,7 +29,7 @@ faircookbook:
 - name: How to create checksum files
   url: https://w3id.org/faircookbook/FCB052
 - name: How to check file integrity by validating checksums
-url: https://w3id.org/faircookbook/FCB053
+  url: https://w3id.org/faircookbook/FCB053
 ---
 
 ## How do you ensure that your data is handled securely?
