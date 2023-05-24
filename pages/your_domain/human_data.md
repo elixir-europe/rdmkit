@@ -55,7 +55,7 @@ When working with human data, you must follow established research ethical guide
   * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing).
 * Personal data protection legislation:
   * **Within the EU.** If you are performing human data research in the EU, or your data subjects are located in the EU, then you must adhere to the General Data Protection Regulation - GDPR.
-    * Requirements for research that fall under the GDPR are outlined in the [RDMkit Data protection page](data_protection). 
+    * Requirements for research that fall under the GDPR are outlined in the [RDMkit GDPR compliance page](GDPR_compliance). 
     * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](sensitive_data) provides guidance on determining and reducing data sensitivity.
   * **Outside the EU.** For countries outside the EU, the [International Compilation of Human Research Standards](https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf) list relevant legislations.
 

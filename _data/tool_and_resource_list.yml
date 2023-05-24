@@ -166,7 +166,7 @@
     at providing practical know-how for responsible research.
   name: BBMRI-ERIC's ELSI Knowledge Base
   related_pages:
-  - data_protection
+  - gdpr_compliance
   - sensitive
   - policy_officer
   - data_manager
@@ -706,7 +706,7 @@
   - it_support
   - policy_officer
   - human_data
-  - data_protection
+  - gdpr_compliance
   - transmed
   url: https://daisy-demo.elixir-luxembourg.org
 - description: It guides you step by step through a DMP and lets you export a pre-filled
@@ -816,7 +816,7 @@
     to facilitate data sharing agreements.
   name: DAWID
   related_pages:
-  - data_protection
+  - gdpr_compliance
   - policy_officer
   - human_data
   url: https://dawid.elixir-luxembourg.org/
@@ -909,7 +909,7 @@
     (DPIA).
   name: DPIA Knowledge Model
   related_pages:
-  - data_protection
+  - gdpr_compliance
   - policy_officer
   - human_data
   url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
@@ -1098,7 +1098,7 @@
   related_pages:
   - policy_officer
   - human_data
-  - data_protection
+  - gdpr_compliance
   url: https://gitlab.sib.swiss/clinbio/erpa-app
 - description: Regulation (eu) 2016/679 of the european parliament and of the council
     on the protection of natural persons with regard to the processing of personal
@@ -1106,7 +1106,7 @@
     data protection regulation).
   name: EU General Data Protection Regulation
   related_pages:
-  - data_protection
+  - gdpr_compliance
   - policy_officer
   - human_data
   - tsd
@@ -1423,7 +1423,7 @@
 - description: Framework for Responsible Sharing of Genomic and Health-Related Data
   name: GA4GH Regulatory and Ethics toolkit
   related_pages:
-  - data_protection
+  - gdpr_compliance
   - sensitive
   - policy_officer
   - data_manager
@@ -1772,7 +1772,7 @@
 - description: International information security standard
   name: ISO/IEC 27001
   related_pages:
-  - data_protection
+  - gdpr_compliance
   - policy_officer
   - human_data
   url: https://en.wikipedia.org/wiki/ISO/IEC_27001
@@ -2042,7 +2042,7 @@
     Assessments
   name: MONARC
   related_pages:
-  - data_protection
+  - gdpr_compliance
   - policy_officer
   - human_data
   - transmed
@@ -2961,7 +2961,7 @@
   - nels
   - csc
   - tsd
-  - data_protection
+  - gdpr_compliance
   url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
 - description: TU Delft costing tool helps to budget for data management personnel
     costs in proposals.
