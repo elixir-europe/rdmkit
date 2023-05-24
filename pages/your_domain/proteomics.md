@@ -34,7 +34,7 @@ For different proteomics experiments and different steps of the respective data 
 
 
 ### Solutions
-The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ([HUPO-PSI](https://www.psidev.info/)), a proteomics community-driven organization, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
+The Human Proteome Organisation (HUPO) {% tool "proteomics-standards-initiative" %}, a proteomics community-driven organization, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
 - Controlled vocabularies: PSI-MS, PSI-MI, XLMOD and sepCV, which are provided as OBO files.
 - The Minimum Information About a Proteomics Experiment (MIAPE) guidelines document.
 - mzML  - a standard format for encoding raw mass spectrometer output.
@@ -56,8 +56,8 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 
 
 ### Solutions
-- Within the proteomics community various converter software tools such as [msconvert](https://proteowizard.sourceforge.io/) were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
-- Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ).
+- Within the proteomics community various converter software tools such as {% tool "proteowizard" %} were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
+- Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the {% tool "proteomics-standards-initiative" %} (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab)).
 
 
 
@@ -75,6 +75,6 @@ In order to make proteomics data and results worldwide findable and accessible f
 
 
 ### Solution
-- You can find an appropriate data repository via the website of the [ProteomeXchange](http://www.proteomexchange.org/) Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include PRIDE, PepideAtlasq, MassIVE, jPOST, iProx and PanoramaPublic.
-- Information on data uploads can be found on [proteomexchange.org](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
-- Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools
+- You can find an appropriate data repository via the website of the {% tool "proteomexchange" %} Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include {% tool "pride" %}, PepideAtlasq, MassIVE, jPOST, iProx and PanoramaPublic.
+- Information on data uploads can be found on [proteomexchange.org](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. {% tool "pride" %} uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
+- Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools.
