@@ -68,8 +68,8 @@ subitems:
         url: /data_management_plan
       - title: Data organisation
         url: /data_organisation
-      - title: Data protection
-        url: /data_protection
+      - title: Data security
+        url: /data_security
       - title: Data provenance
         url: /data_provenance
       - title: Data publication

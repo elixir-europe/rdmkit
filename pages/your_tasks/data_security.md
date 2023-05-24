@@ -1,8 +1,8 @@
 ---
-title: Data protection
+title: Data security
 contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jareborg]
 description: How to protect your research data, and how to make research data compliant to GDPR.
-page_id: data_protection
+page_id: data_security
 related_pages: 
   tool_assembly: [tsd, transmed]
 training:
