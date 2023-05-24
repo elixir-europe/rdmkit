@@ -242,6 +242,21 @@ Sikt is a Norwegian governmental agency that provides [(sensitive) personal data
 
 NRIS, a collaboration between Sigma2 (a subsidiary of Sikt) and four universities, gives [technical and administrative support](https://www.sigma2.no/user-support) to researchers in Norway on large-scale data storage and high-performance computing.
 
+
+### Communities for research data management support personell
+
+* [Life-Science RDM Group](https://elixir.no/organization/biomeddata/Life-Science-RDM-Group)
+* [RDA Norway](https://www.rd-alliance.org/groups/rda-norway)
+* [University of Oslo Data Manager Network](https://www.ub.uio.no/english/libraries/dsc/data-managers-network/)
+* [Bergen Research Data Network](mailto:research-data@uib.no?subject=forskningsdata@uib.no)
+* [GIDA-Sápmi -Sámi Research Data Governance, members from Norway, Sweden and Finland](https://uit.no/research/sshf-no/project?pid=788403)
+* DataverseNO Network of Expertise
+* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic FAIR Data Forum](https://neic.no/fairdataforum/)
+* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic Sensitive Data Forum](https://neic.no/sensitivedataforum/)
+
+
+
+
 ## Data Management Planning
 A data management plan (DMP) is currently requested by:
 * The research performing institutions 
