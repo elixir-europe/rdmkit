@@ -5,6 +5,7 @@ description: How to protect your research data, and how to make research data co
 page_id: gdpr_compliance
 related_pages: 
   tool_assembly: [tsd, transmed]
+  your_tasks: [data_security]
 training:
   - name: Training in TeSS
     registry: TeSS
