@@ -167,7 +167,7 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources.
+The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian Ministry of Education and Research's "[National strategy on access to and sharing of research data](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/?ch=1)" from 2018 is an initiative aimed at fostering open, equitable, and efficient sharing of research data in Norway. For researchers in Norway and their international partners, this strategy lays the groundwork for creating a robust, collaborative research environment where data is shared freely but responsibly. The national strategy underscores Norway's commitment to scientific advancement and maintaining ethical and legal standards in a data-driven era.
@@ -241,6 +241,24 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 Sikt is a Norwegian governmental agency that provides [(sensitive) personal data protection services](https://sikt.no/en/data-protection-services) to research and education institutions in Norway. Sikt offers guidelines, tools for creating data management plans, and assistance with the legal aspects of personal data management.
 
 NRIS, a collaboration between Sigma2 (a subsidiary of Sikt) and four universities, gives [technical and administrative support](https://www.sigma2.no/user-support) to researchers in Norway on large-scale data storage and high-performance computing.
+
+
+### Communities for research data management support personnel
+
+There are several RDM communities (with subject or local focus) in Norway to enable exchange and discussion:
+ 
+
+* [Life-Science RDM Group](https://elixir.no/organization/biomeddata/Life-Science-RDM-Group)
+* [RDA Norway](https://www.rd-alliance.org/groups/rda-norway)
+* [University of Oslo Data Manager Network](https://www.ub.uio.no/english/libraries/dsc/data-managers-network/)
+* [Bergen Research Data Network](mailto:research-data@uib.no?subject=forskningsdata@uib.no)
+* [GIDA-Sápmi -Sámi Research Data Governance, members from Norway, Sweden and Finland](https://uit.no/research/sshf-no/project?pid=788403)
+* DataverseNO Network of Expertise
+* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic FAIR Data Forum](https://neic.no/fairdataforum/)
+* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic Sensitive Data Forum](https://neic.no/sensitivedataforum/)
+
+
+
 
 ## Data Management Planning
 A data management plan (DMP) is currently requested by:
