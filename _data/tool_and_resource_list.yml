@@ -1,3 +1,43 @@
+- description: BRAVA is a tool designed to help developers test servers that comply with the BrAPI specifications.
+  id: brava
+  name: BRAVA
+  registry:
+    biotools:
+    fairsharing:
+    tess:
+  url: https://webapps.ipk-gatersleben.de/brapivalidator
+- description: Plant 3D is a plant phenotyping toolkit for 3D point clouds. Plant 3D (P3D) automatically extracts common phenotyping features of interest from high-resolution 3D scans of plant architectures.
+  id: plant3d
+  name: Plant 3D
+  registry:
+    biotools: plant-3d 
+    fairsharing: 
+    tess: 
+  url: https://bio.tools/plant-3d
+- description: LeafNet is a convenient tool that can robustly localize stomata and segment pavement cells for light-microscope images of leaves
+  id: leafnet
+  name: LeafNet
+  registry:
+    biotools: leafnet
+    fairsharing:
+    tess:
+  url: https://bio.tools/leafnet  
+- description:  Plant Computer Vision (PlantCV)is an image processing toolkit for plant phenotyping analysis. 
+  id: plantcv
+  name: PlantCV
+  registry:
+    biotools: plantcv_v2
+    fairsharing:
+    tess:
+  url: https://bio.tools/plantcv_v2
+- description: Phenomenal-3D is an automatic open source library for 3D shoot architecture reconstruction and analysis for image-based plant phenotyping
+  id: phenomenal-3d
+  name: Phenomenal 3D
+  registry:
+    biotools: phenomenal-3d
+    fairsharing:
+    tess:
+  url: https://bio.tools/phenomenal-3d
 - description: C library that provides a simple interface to read whole-slide images (also known as virtual slides)
   name: OpenSlide
   id: openslide
@@ -1225,7 +1265,7 @@
   name: ISA4J
   registry:
     biotools: isa4j
-  url: https://doi.org/10.12688/f1000research.27188.1
+  url: https://mvnrepository.com/artifact/de.ipk-gatersleben/isa4j
 - description: International information security standard
   id: iso-iec-27001
   name: ISO/IEC 27001
