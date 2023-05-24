@@ -10,10 +10,17 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:
-- name: Will you collect any data connected to a person, "personal data"?
-  uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
-- name: Do you need a Data Protection Impact Assessment?
-  uuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
+- name: Is the risk of information loss, leaks and vandalism acceptably low?
+  uuid: 614ab69d-55a6-4214-b384-00ba21ce92a1
+- name: Will you monitor data integrity once it has been collected?
+  uuid: 02b3fed1-0b50-4a80-b8b6-a225a1107022
+- name: Will you be keeping a master list with checksums of certified/correct/canonical/verified data?
+  uuid: e0759fdc-7ce9-4020-816d-73119f634c7e
+- name: Will you make backup copies of project data that is not in the work space?
+  uuid: 98d9789b-32fc-4e2f-876a-47760ad7c7ec  
+- name: Are you sure you will not need a backup of the data stored on the scratch file systems (any scratch you use)?
+  uuid: 3a076e83-73b0-4cdd-bb71-c5d41469a191
+
 faircookbook:
 - name: Downloading data with Aspera
   url: https://w3id.org/faircookbook/FCB015
