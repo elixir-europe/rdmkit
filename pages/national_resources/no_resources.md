@@ -243,7 +243,10 @@ Sikt is a Norwegian governmental agency that provides [(sensitive) personal data
 NRIS, a collaboration between Sigma2 (a subsidiary of Sikt) and four universities, gives [technical and administrative support](https://www.sigma2.no/user-support) to researchers in Norway on large-scale data storage and high-performance computing.
 
 
-### Communities for research data management support personell
+### Communities for research data management support personnel
+
+There are several RDM communities (with subject or local focus) in Norway to enable exchange and discussion:
+ 
 
 * [Life-Science RDM Group](https://elixir.no/organization/biomeddata/Life-Science-RDM-Group)
 * [RDA Norway](https://www.rd-alliance.org/groups/rda-norway)
