@@ -15,12 +15,14 @@ dsw:
 - name: Do you need a Data Protection Impact Assessment?
   uuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
 faircookbook:
-- name: Licensing Data
-  url: https://w3id.org/faircookbook/FCB034
-- name: Declaring data permitted uses
-  url: https://w3id.org/faircookbook/FCB035
-- name: Data Protection Impact Assessment and Data Privacy
-  url: https://w3id.org/faircookbook/FCB074
+- name: Downloading data with Aspera
+  url: https://w3id.org/faircookbook/FCB015
+- name: Transferring data with SFTP
+  url: https://w3id.org/faircookbook/FCB014
+- name: How to create checksum files
+  url: https://w3id.org/faircookbook/FCB052
+- name: How to check file integrity by validating checksums
+url: https://w3id.org/faircookbook/FCB053
 ---
 
 ## How do you ensure that your data is handled securely?
