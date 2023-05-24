@@ -44,7 +44,9 @@ When working with human data, you must follow established research ethical guide
 * Have you got an **ethical permit** for your research project?
   * To get an ethical permit, you have to apply for an **ethical review** by an **ethical review board**.
     - The legislation that governs this differs between countries. Do seek advice from your research institute.
-  * In most cases, you should get **informed consents** from your research subjects.
+  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing).
+* The acquisition of data must be legal.
+  * **Receiving data/samples directly from data subjects** requires in most cases **informed consents**.
     - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimise those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.
       - Consider describing data use conditions using a machine-readable formalised description such as the Data Use Ontology [DUO](https://github.com/EBISPOT/DUO). This will greatly improve the possibilities to make the data FAIR later on.
     - Informed consents should be acquired for different purposes:
@@ -52,7 +54,8 @@ When working with human data, you must follow established research ethical guide
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
       - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
       - _**Note that the content of an informed consent, as defined by one piece of legislation, might not live up to the demands of another piece of legislation.**_ For example, an informed consent that is good enough for an ethical permit, might not be good enough for the demands of the GDPR.
-  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing).
+  * **Receiving data from a collaborator** must be covered by a contract. Ensure detailed provisions on data use, retention, re-use and publication are included in the agreements (Data Use agreement, Consortium agreement, Data Sharing agreement, ...). This applies also to samples you receive from a collaborator. Related contract (e.g. Material Transfer Agreement - MTA) should cover use of human data generated from these samples. Incomplete legal framework for the data use can require lengthy legal amendments and can result in your in-ability to comply with requirements set out by your funder or targeted publisher.
+  * **Receiving data from a repository** also comes with certain use restrictions. These are either defined in the license attributed to the data or defined in a dataset specific **access policy** and **terms of service** of the repository.
 * Personal data protection legislation:
   * **Within the EU.** If you are performing human data research in the EU, or your data subjects are located in the EU, then you must adhere to the General Data Protection Regulation - GDPR.
     * Requirements for research that fall under the GDPR are outlined in the [RDMkit Data protection page](data_protection). 
