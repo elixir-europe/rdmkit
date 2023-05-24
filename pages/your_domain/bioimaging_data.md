@@ -158,25 +158,76 @@ Two distinct types of resources should be considered:
 
 Comparative table of some repositories that can be used to deposit imaging data:
 
-| Repository | Type | Data Restrictions | Data Upload Restrictions | DOI | Cost |
-|---|---|---|---|---|---|
-| {::nomarkdown type='html'}{% tool "bioimagearchive" %}{:/nomarkdown} | Archive | No PIH data | None | --- | Free |
-| {::nomarkdown type='html'}{% tool "dryad" %}{:/nomarkdown} | Archive | No PIH data | 300GB | Yes | over 50GB (*) |
-| {::nomarkdown type='html'}{::nomarkdown}{% tool "empiar" %}{:/nomarkdown} | Added-value | Electron microscopy imaging data | None | Yes | Free |
-| {::nomarkdown type='html'}{% tool "image-data-resource" %}{:/nomarkdown} | Added-value | Cell/Tissue imaging data, no PIH data | None | Yes | Free |
-| {::nomarkdown type='html'}{% tool "ssbd-database" %}{:/nomarkdown} | Added-value | Biological dynamics imaging data | None | --- | Free |
-| {::nomarkdown type='html'}{% tool "ssbd-repository" %}{:/nomarkdown} | Archive | Biological dynamics imaging data | None | --- | Free |
-| {::nomarkdown type='html'}{% tool "zenodo" %}{:/nomarkdown} | Archive | None | 50GB per dataset | Yes | Free |
-
-| Fruit   | Price  | Advantages                        |
-| ------- | ------ | --------------------------------- |
-| Bananas | $1.34  | <ul><li>built-in wrapper</li><li>bright color</li></ul> |
-| Oranges | $2.10  | <ul><li>cures scurvy</li><li>tasty</li></ul> |
-
-| Fruit   | Price  | Advantages                        |
-| ------- | ------ | --------------------------------- |
-| Bananas | $1.34  | {::nomarkdown}<ul><li>built-in wrapper</li><li>bright color</li></ul>{:/} |
-| Oranges | $2.10  | {::nomarkdown}<ul><li>cures scurvy</li><li>tasty</li></ul>{:/} |
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Type</th>
+    <th>Data Restrictions</th>
+    <th>Data Upload Restrictions</th>
+    <th>DOI</th>
+    <th>Cost</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>{% tool "bioimagearchive" %}</td>
+    <td>Archive</td>
+    <td>No PIH data</td>
+    <td>None</td>
+    <td>---</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "dryad" %}</td>
+    <td>Archive</td>
+    <td>No PIH data</td>
+    <td>300GB</td>
+    <td>Yes</td>
+    <td>over 50GB (*)</td>
+  </tr>
+  <tr>
+    <td>{% tool "empiar" %}</td>
+    <td>Added-value</td>
+    <td>Electron microscopy imaging data</td>
+    <td>None</td>
+    <td>Yes</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "image-data-resource" %}</td>
+    <td>Added-value</td>
+    <td>Cell/Tissue imaging data, no PIH data</td>
+    <td>None</td>
+    <td>Yes</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "ssbd-database" %}</td>
+    <td>Added-value</td>
+    <td>Biological dynamics imaging data</td>
+    <td>None</td>
+    <td>---</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "ssbd-repository" %}</td>
+    <td>Archive</td>
+    <td>Biological dynamics imaging data</td>
+    <td>None</td>
+    <td>---</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "zenodo" %}</td>
+    <td>Archive</td>
+    <td>None</td>
+    <td>50GB per dataset</td>
+    <td>Yes</td>
+    <td>Free</td>
+  </tr>
+</tbody>
+</table>
 
 - PIH: Protected health information.
 - (*) unless submitter is based at member institution.
