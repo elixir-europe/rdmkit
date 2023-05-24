@@ -53,10 +53,10 @@ This page gives an overview of data management services provided by ELIXIR-Irela
 
 ## Funder guidelines and policies
 
-Irish research funding agencies support Open Science and  require data management plans (DMPs) as part of their application process. Consult the funder’s webpages for guidelines and information about research data management.
+Irish research funding agencies support Open Science and require data management plans (DMPs) as part of their application process. Consult the funder’s webpages for guidelines and information about research data management.
 
-* Science Foundation Ireland [Guidelines and Policies for Open Research and Data Management](https://www.sfi.ie/funding/sfi-policies-and-guidance/open-research/) (Link to [pdf](https://www.sfi.ie/funding/sfi-policies-and-guidance/open-research/SFI-DMP-Guidance-FINAL-140322.pdf) for SFI DMP guidance ) 
-* Irish Research Council [Policies] (https://research.ie/about-us/policies/) (Link to [pdf](https://research.ie/assets/uploads/2017/05/Data-Management-Plans-Tips-Advice.pdf) for IRC DMP Tips and Advice)
+* Science Foundation Ireland [Guidelines and Policies for Open Research and Data Management](https://www.sfi.ie/funding/sfi-policies-and-guidance/open-research/) (Link to [PDF](https://www.sfi.ie/funding/sfi-policies-and-guidance/open-research/SFI-DMP-Guidance-FINAL-140322.pdf) for SFI DMP guidance) 
+* Irish Research Council [Policies](https://research.ie/about-us/policies/) (Link to [PDF](https://research.ie/assets/uploads/2017/05/Data-Management-Plans-Tips-Advice.pdf) for IRC DMP Tips and Advice)
 * Health Research Board [Management and Sharing of Data Policy](https://www.hrb.ie/funding/manage-a-grant/grant-policies/management-and-sharing-of-research-data/) and [Open Research Data Guidelines](https://hrbopenresearch.org/for-authors/data-guidelines)
 
 
@@ -67,15 +67,15 @@ Irish research funding agencies support Open Science and  require data managemen
 * [HEA Principles of Good Practice in Research within Irish Higher Education Institutes](https://hea.ie/assets/uploads/2022/12/High-res-links-v3-HEA-Principles-of-Good-Practice-in-Research-within-Irish-Higher-Education-Institutions.pdf)
 
 ## Institutional policies
-
-A non exhaustive list of Data Management Policies from Irish Universities:
+Here are non-exhaustive lists of data management policies and open research policies from the universities across Ireland.
+### Data Management Policies from Irish Universities
 * [University of Galway](https://www.universityofgalway.ie/media/staffsub-sites/researchoffice/files/Research-Data-Management-Policy-(QA509).pdf)
 * [University College Cork](https://www.ucc.ie/en/media/support/academicsecretariat/policies/researchpolicies/ResearchDataManagementPolicy.pdf)
 * [Royal College of Surgeons in Ireland](https://drive.google.com/file/d/1mCM4hHK97cMJFKh0dm5mZ5tn8FdBnAHB/view)
 * [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Research_Data_Management_Policy.pdf)
 * [University of Limerick Health Research Policy](https://www.ul.ie/media/23713/download?inline)
 
-A non exhaustive list of Open Research Policies from Irish Universities:
+### Open Research Policies from Irish Universities
 * [Maynooth University](https://nuim.libguides.com/ld.php?content_id=33703942)
 * [Royal College of Surgeons in Ireland](https://drive.google.com/file/d/1vXnxf-K9KZa78-PmWRY9Q4vZpb-qBG6S/view?usp=sharing)
 * [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Open_Access_Policy.pdf)
