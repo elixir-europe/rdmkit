@@ -181,6 +181,7 @@ List of funders with Data Management Policies in Norway:
 
 
 ##  Institutional policies on research data
+General information about open research, especially open access and guidance for researchers and institutions can be found on {% tool "openscience.no" %}.
 
 We provide here a non-exhaustive list of research institutions with Data Management Policies in Norway:
 
