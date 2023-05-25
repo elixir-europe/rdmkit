@@ -22,14 +22,14 @@ training:
 
 national_resources:
   - name: Feide
-    description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
+    description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [Life Science Login (LS Login)](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
     how_to_access: Everyone with an affiliation to a Norwegian academic institution.
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
     description: DS-Wizard is a tool to aid the creation, organisaton and sharing of data management plans. It provides scientists with guidance, facilitating the understanding of the key components of FAIR-oriented Data Stewardship. The template in this instance provides additional guidance on resources, laws and regulations in Norway.
-    how_to_access: ELIXIR-AAI with Feide or upon registration
+    how_to_access: Life Science Login (LS Login) with Feide or upon registration
     instance_of: Data Stewardship Wizard
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
@@ -58,7 +58,7 @@ national_resources:
     url: https://covid19dataportal.no/
   - name: Norwegian Federated EGA
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
-    how_to_access: ELIXIR-AAI; intended for data from Norwegian institutions
+    how_to_access: Life Science Login (LS Login); intended for data from Norwegian institutions
     instance_of: The European Genome-phenome Archive (EGA)
     related_pages:
       your_domain: [human_data]
