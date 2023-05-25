@@ -1,6 +1,6 @@
 ---
-title: Sensitive data
-contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews]
+title: Data sensitivity
+contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews, Nazeefa Fatima]
 description: How to identify the sensitivity of different research data types
 page_id: sensitive
 related_pages: 
@@ -12,7 +12,7 @@ training:
   - name: RDMbites for using REDCap
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
-  - name: RDMbites for sensitive data
+  - name: RDMbites about data sensitivity
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
 dsw:
@@ -40,10 +40,7 @@ faircookbook:
 
 ### Description
 
-In general, the term "sensitive data" is used for any data that could do harm (for example to people, organisations, countries, or ecosystems) if it would be openly available. 
-This can for example be personal or commercial information, but also information such as breeding grounds of endangered species. 
-Any such data must be protected against unauthorized access.
-What is considered sensitive information is usually regulated by national laws and may differ between countries. You should be cautious when you are dealing with sensitive, or potentially sensitive, information.
+In general, data can be categorised into two types i.e. sensitive data and non-sensitive data. Non-sensitive data can be shared openly without a risk of any harm. The term sensitive data is used when making data publicly available could put people, organisations, countries, and/or ecosystems at risk - this could be for example, personal or commercial information, and it could also be information about habitat, geographical location, and breeding grounds of endangered/vulnerable species. Such data sensitivity must be protected against unauthorized access, and therefore one should be cautious when deadling with potentitally sensitive or sensitive information. It is important to identifty, at early stage of data management process, that at which point data becomes sensitive or what parts of (existing or newly generated) data are sensitive. What is considered sensitive information is usually regulated by national laws and may differ between countries, so it is important to take into consideration both global and local regulations and policies.
 
 
 ### Considerations
@@ -60,7 +57,7 @@ What is considered sensitive information is usually regulated by national laws a
 
 ### Solutions
 
-* Identify what legislations and regulations there are that you are expected to follow. Your institution's website may give you hints on where you can look for information about sensitive data.
+* Identify what legislations and regulations there are that you are expected to follow. Your institution's website may give you hints on where you can look for information about data sensitivity.
 * If you cannot determine if your data is sensitive, contact someone with expert knowledge in that area.
 
 

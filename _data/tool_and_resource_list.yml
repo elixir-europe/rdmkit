@@ -6,6 +6,22 @@
   related_pages:
   - struct_bioinfo
   url: https://3d-beacons.org
+- description: 'Rigorous record-keeping and quality control are required to ensure
+    the quality, reproducibility and value of imaging data. The 4DN Initiative and
+    BINA have published light Microscopy Metadata Specifications that extend the OME
+    Data Model, scale with experimental intent and complexity, and make it possible
+    for scientists to create comprehensive records of imaging experiments.
+
+    The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are
+    being revised in QUAREP-LiMi in collaboration with instrument manufacturers'
+  name: 4DN-BINA-OME-QUAREP (NBO-Q) Microscopy Metadata Specifications
+  registry:
+    fairsharing: '4747'
+  related_pages:
+  - data_publication
+  - ome
+  - bioimaging_data
+  url: https://www.nature.com/articles/s41592-021-01327-9
 - description: A standard schema for primary biodiversity data
   name: Access to Biological Collection Data Schema (ABCD)
   related_pages:
@@ -34,6 +50,7 @@
   related_pages:
   - plant_pheno_assembly
   - plants
+  - metadata
   url: http://agroportal.lirmm.fr/
 - description: Amazon Web Services
   name: Amazon Web Services
@@ -158,7 +175,7 @@
 - description: The Beacon protocol defines an open standard for genomics data discovery.
   name: Beacon
   registry:
-    biotools: beacon
+    biotools: ga4gh_beacon
     fairsharing: 6fba91
     tess: Beacon
   related_pages:
@@ -357,6 +374,8 @@
 - description: 'Specification for a standard API for plant data: plant material, plant
     phenotyping data'
   name: BrAPI
+  registry:
+    tess: BrAPI
   related_pages:
   - it_support
   - plants
@@ -682,6 +701,7 @@
   name: DAISY
   registry:
     biotools: Data_Information_System_DAISY
+    tess: DAISY
   related_pages:
   - it_support
   - policy_officer
@@ -819,6 +839,7 @@
   registry:
     biotools: disgenet
     fairsharing: fssydn
+    tess: DisGeNET
   related_pages:
   - data_analysis
   - human_data
@@ -1021,6 +1042,8 @@
     used to build a 3D structure
   name: EMPIAR
   registry:
+    biotools: empiar
+    fairsharing: dff3ef
     tess: EMPIAR
   related_pages:
   - data_publication
@@ -1275,6 +1298,8 @@
     requirements, and designs FAIRification solutions for data owners, data stewards,
     and other people involved in FAIRification.
   name: FAIR-Wizard
+  registry:
+    tess: FAIR-Wizard
   related_pages:
   - compliance
   - data_manager
@@ -1614,6 +1639,7 @@
   registry:
     biotools: identifiers.org
     fairsharing: n14rc8
+    tess: Identifiers.org
   related_pages:
   - identifiers
   - it_support
@@ -2034,6 +2060,7 @@
   name: Multi-Crop Passport Descriptor (MCPD)
   registry:
     fairsharing: hn155r
+    tess: Multi-Crop Passport Descriptor
   related_pages:
   - metadata
   - researcher
@@ -2765,6 +2792,8 @@
   url: https://snakemake.github.io
 - description: Added-value database for biological dynamics images
   name: SSBD:database
+  registry:
+    fairsharing: we2r5a
   related_pages:
   - bioimaging_data
   - data_publication
@@ -3025,6 +3054,7 @@
   registry:
     biotools: workflowhub
     fairsharing: 07cf72
+    tess: WorkflowHub
   related_pages:
   - data_publication
   - data_manager
@@ -3078,3 +3108,12 @@
   - data_manager
   - researcher
   url: https://www.ebi.ac.uk/spot/zooma/
+- description: A comprehensive repository of biomedical ontologies
+  name: BioPortal
+  registry:
+    biotools: bioportal
+    fairsharing: 4m97ah
+    tess: BioPortal
+  related_pages:
+  - metadata
+  url: https://bioportal.bioontology.org

@@ -1,5 +1,5 @@
 - name: VIB
-  image_url: /images/institutions/VIB-PSB.svg
+  image_url: /images/institutions/VIB-notagline-pos.svg
   pid: https://ror.org/03xrhmk39
   expose: true
   type: institution
