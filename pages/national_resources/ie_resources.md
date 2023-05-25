@@ -1,7 +1,6 @@
 ---
 
 title: Ireland
-search_exclude: true
 country_code: IE
 contributors: [Siobhán Cleary]
 coordinators: [Lars Jermiin, Siobhán Cleary]
@@ -17,24 +16,24 @@ training:
     url: https://elixir-ireland.ie/training.html
 
 ref_to_main_resources: 
-  -  <!---REPLACE THIS with the tool name--->
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
+  - name:
     description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations, etc., are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    how_to_access: 
+    instance_of: 
     related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
+      tool_assembly: 
+      your_domain: 
+      your_role: 
+      your_tasks:
     url:
     registry:
-      biotools: <!--- DELETE ME if not needed --->
-      fairsharing: <!--- DELETE ME if not needed --->
-      tess: <!--- DELETE ME if not needed --->
+      biotools:
+      fairsharing:
+      tess:
+
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
