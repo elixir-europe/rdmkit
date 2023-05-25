@@ -39,9 +39,9 @@ The Extensible Neuroimaging Archive Toolkit {% tool "xnat" %} is an imaging info
 
 XNAT-PIC consists of:
 
-* **MRI2DICOM** to [process](processing) Magnetic Resonance (MR) images and convert them from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard;
-* **XNAT-PIC Uploader** to import and [store](storage) multimodal DICOM image datasets to XNAT;
-* **XNAT-PIC Pipelines** for [analysing](analysing) single or multiple subjects within the same project in XNAT.
+* {% tool "mri2dicom" %} to [process](processing) Magnetic Resonance (MR) images and convert them from ParaVision® (Bruker, Inc. Billerica, MA) file format to DICOM standard;
+* {% tool "xnat-pic-uploader" %} to import and [store](storage) multimodal DICOM image datasets to XNAT;
+* {% tool "xnat-pic-pipelines" %} for [analysing](analysing) single or multiple subjects within the same project in XNAT.
 
 ## Citation
 
