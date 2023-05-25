@@ -728,10 +728,10 @@
   registry:
     fairsharing-coll: bsg-c000039
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
-- description: The ELIXIR Authentication and Authorisation Infrastructure (AAI)
-  id: elixir-aai
-  name: ELIXIR-AAI
-  url: https://elixir-europe.org/services/compute/aai
+- description: An authentication service from EOSC-Life
+  id: life-science-login
+  name: Life Science Login (LS Login)
+  url: https://lifescience-ri.eu/ls-login/
 - description: "EMBL-EBI's web portal for finding ontologies"
   id: ontology-lookup-service
   name: Ontology Lookup Service
@@ -2021,7 +2021,7 @@
     for research projects on human subjects
   id: tryggve-elsi-checklist
   name: Tryggve ELSI Checklist
-  url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html
+  url: https://neic.no/tryggve/links/
 - description: TU Delft costing tool helps to budget for data management personnel
     costs in proposals.
   id: tu-delft-data-management-costing-tool
@@ -2513,14 +2513,14 @@
     fairsharing: 
     tess: 
   url: https://idsm.elixir-czech.cz/
-- description: 
-  id: 
-  name: 
+- description: The OME Model is a specification for storing data on biological imaging.
+  id: ome-data-model-and-file-formats
+  name: OME Data Model and File Formats
   registry:
     biotools: 
     fairsharing: 
     tess: 
-  url: 
+  url: https://docs.openmicroscopy.org/ome-model/
 - description: 
   id: 
   name: 

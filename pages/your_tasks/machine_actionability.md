@@ -146,7 +146,7 @@ The theoretically most machine-actionable format is in practice not achieved or 
 
 For machine-actionability and interoperability, you should consider:
 1. File formats that are data exchange formats (e.g. JSON, XML).
-2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html), [OME data model](https://docs.openmicroscopy.org/ome-model/6.0.1/)). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
+2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html), {% tool "ome-data-model-and-file-formats" %}). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
 3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. MIAPPE, ENA Samples checklists), that capture reporting best practice in the field.
 4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. EFO, OBI).
 
@@ -173,7 +173,7 @@ For machine-actionability and interoperability, you should consider:
   * {% tool "data-catalog-vocabulary" %} is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
   * [Investigation-Study-Assay (ISA) model](https://isa-tools.org/isa-api/content/isamodel.html#) was originally designed for describing multi-omics experiments in Life Sciences.
   * The [DAta Tag Suite (DATS)](https://github.com/datatagsuite) is a data description model designed and produced to describe datasets and associated metadata in a number of data deposition repositories.
-  * The [OME Data Model](https://docs.openmicroscopy.org/ome-model/latest/) is a specification for storing and exchanging data on biological imaging.
+  * The {% tool "ome-data-model-and-file-formats" %} is a specification for storing and exchanging data on biological imaging.
 
 * The [W3C](https://www.w3.org/) consortium has formalised a universal abstract data model to potentially establish relationships among any resource available on the web (people, places, web pages, events, abstract concepts, etc.) called [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf-concepts/#section-Introduction). This universal abstract data model allows us to describe relationships between multiple resources encoded in different formats, following different standards and stored in different locations/servers on the internet. 
 
@@ -214,7 +214,7 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
 * Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
   * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
   * [MAGE-TAB](https://www.ebi.ac.uk/arrayexpress/help/magetab_spec.html) (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
-  * [OME data model](https://docs.openmicroscopy.org/ome-model/latest/) (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included.
+  * {% tool "ome-data-model-and-file-formats" %} (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included. See also Hammer, M., Huisman, M., Rigano, A. et al. Towards community-driven metadata standards for light microscopy: tiered specifications extending the OME model. Nat Methods 18, 1427–1440 (2021). https://doi.org/10.1038/s41592-021-01327-9.
 * For more information about metadata schemas and ontologies, see [Documentation and Metadata](metadata_management) page.
 
 

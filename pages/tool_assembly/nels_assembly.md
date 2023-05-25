@@ -27,7 +27,7 @@ NeLS and the underlying infrastructure are accessible for researchers in Norway 
 
 {% include image.html file="NeLS_toolkit.svg" caption="Figure 1. The Norwegian e-Infrastructure for Life Sciences (NeLS) Data Management tool assembly." alt="NeLS RDMkit" %}
 
-You can access all tools in NeLS using the the national solution for secure login and data sharing in the educational and research sector [FEIDE](https://www.feide.no/), when coupled with {% tool "elixir-aai" %}.
+You can access all tools in NeLS using the the national solution for secure login and data sharing in the educational and research sector [FEIDE](https://www.feide.no/), when coupled with {% tool "life-science-login" %}.
 The NeLS Data Management tool assembly provides support with [Data Management Planning](planning) through an [instance of the Data Steward Wizard](https://elixir-no.ds-wizard.org) following the guidelines of the major national and European funding bodys. Dedicated references guide you through national infrastructure, resources, laws and regulations and also include the {% tool "tryggve-elsi-checklist" %} for Ethical, Legal and Social Implications. Soon you will be able to submit storage request forms for [Data Storage](storage) in NeLS with defined access permissions through the Data Stewardship Wizard.
 
 [Data Storage](storage) is the core functionality of NeLS and builds upon a 3 layer tiered system: the first layer is intended for short-term storage when computing, processing and analysing data; the second layer of medium capacity (NeLS) is intended for sharing and storing active research data, while the third layer (StoreBioinfo) of high capacity is intended for longer storage until end of a project.
