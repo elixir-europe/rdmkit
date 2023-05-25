@@ -2065,9 +2065,8 @@
 - description: TU Delft costing tool helps to budget for data management personnel
     costs in proposals.
   id: tu-delft-data-management-costing-tool
-  url: https://www.tudelft.nl/en/library/resea
-  name: TU Delft data management costing tool
   url: https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-costs
+  name: TU Delft data management costing tool
 - description: A tool that contains weighted gene co-expression networks obtained
     from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
   id: txg-mapr
@@ -2553,19 +2552,11 @@
     fairsharing: 
     tess: 
   url: https://idsm.elixir-czech.cz/
-- description: 
-  id: 
-  name: 
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
-  url: 
-- description: 
-  id: 
-  name: 
-  registry:
-    biotools: 
-    fairsharing: 
-    tess: 
-  url: 
+# - description: 
+#   id: 
+#   name: 
+#   registry:
+#     biotools: 
+#     fairsharing: 
+#     tess: 
+#   url: 
