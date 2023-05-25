@@ -40,8 +40,12 @@ Galaxy also provides [open infrastructure ready to use for researchers worldwide
 
 Galaxy can be used at different stages of the data life cycle, covering from the data collection to the reuse steps. 
 
-
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+<style>
+  #galaxy-rdm .tool {
+  white-space: normal !important;
+}
+</style>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4" id="galaxy-rdm">
   <div class="col">
     <div class="card border border-3 h-100" style="border-color: #fac54b!important">
     <div style="background-color:#fac54b;">
@@ -58,7 +62,8 @@ Galaxy can be used at different stages of the data life cycle, covering from the
           <li><a href="https://www.copernicus.eu/en">Copernicus</a></li>
           <li><a href="https://genome.ucsc.edu/">UCSC genome browser</a> (<a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html">tutorial</a>)</li>
           <li><a href="https://www.ncbi.nlm.nih.gov/datasets/">NCBI datasets</a></li>
-          <li>{% tool "international-nucleotide-sequence-database-collaboration" %}</li> <li>{% tool "european-nucleotide-archive" %}</li>
+          <li>{% tool "international-nucleotide-sequence-database-collaboration" %}</li>
+          <li>{% tool "european-nucleotide-archive" %}</li>
           <li>{% tool "pdb" %}</li>
           <li>3rd-party databases</li>
         </ul>
