@@ -65,10 +65,10 @@ Brief and descriptive file names are important in keeping your data files organi
 ## How to choose the appropriate file formats?
 
 ### Description
-File formats play an important role when you try to open files later or another person would like to work with the data. Choosing open and widely supported file formats ensures compatibility and accessibility in the foreseen future.
+File formats play an important role when you try to open files later or another person would like to work with the data. Some file formats keep structured data and even permit metadata inclusion, hereby enabling machine-readability and promoting interoperability. Others are easy for humans to understand. Each type of format has use cases. However, as a general principle, choosing open and widely supported file formats ensures long-term compatibility and accessibility in the foreseen future.
 
 ### Considerations
-Wherever possible, try to use as much from the following list:
+When making a selection for an appropriate file format, you should consider the following factors whenever feasible:
 - non-proprietary;
 - based on open standard;
 - commonly used in your research domain;
