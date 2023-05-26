@@ -59,20 +59,26 @@ Consant mixing of human and non-human data.
 * National and international recommendations from public health authorities, epidemic surveillance programs and research data communities should be considered when planning a new study or surveillance programme. In particular, you could consult relevant guidance issued by national and international surveillance programs while considering widely adopted guidelines for research documentation, and recommendations provided by data sharing platforms and communities.
   * [WHO genomic surveillance strategy](https://www.who.int/initiatives/genomic-surveillance-strategy)
   * [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en)
+  * [ECDC’s Surveillance and study protocols](https://www.ecdc.europa.eu/en/covid-19/surveillance/study-protocols)
   * [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/genomics/pathogen/index.htm)
-  * [National resources | RDMkit](./national_resources) 
   * [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/)
   * [EMBL-EBI Pathogens](https://www.ebi.ac.uk/ena/pathogens/home)
-  * [ECDC’s Surveillance and study protocols](https://www.ecdc.europa.eu/en/covid-19/surveillance/study-protocols)
+  * [National resources \| RDMkit](national_resources)
 
 #### Documenting sequencing experiments
 * Good practices for annotating sequencing experiments suggest that the documentation, at a minimum, should describe the design of the study or surveillance program, the collected specimens and how the samples were prepared, the experimental setup and protocols, and the analysis workflow.
 
   * [Minimal Information about a high throughput SEQuencing Experiment (MINSEQE)](https://fairsharing.org/FAIRsharing.a55z32)
-  * [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp) and current Extensions
-  * Documentation and metadata task page
-  * [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260)
-
+  * The Genomic Standards Consortium (GSC) have defined a set of core and extended descriptors, the [Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp), for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
+  * The RDMkit page on [documentation and metadata](Documentation_and_metadata) provides a guide to how you can document data during a project.
+  * This paper give [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260) to help data producers collect and store high-quality metadata about sequencing experiments.
+  * ISO, the International Organization for Standardization have several general guidelines relevant for both the laboratory and bioinformatic components of genome sequencing, i.e.
+[ISO 20397-1:2022](https://www.iso.org/standard/74054.html),
+[ISO/TS 20428:2017](https://www.iso.org/standard/67981.html),
+[ISO 20397-2:2021](https://www.iso.org/standard/67895.html),
+[ISO/TS 20428:2017](https://www.iso.org/obp/ui/#iso:std:iso:ts:20428:ed-1:v1:en),
+[ISO/TS 22692:2020](https://www.iso.org/standard/73693.html),
+[ISO 23418:2022](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en). (NB! requires a subscription or one time purchase)
 
 ## Collecting and processing pathogen sequence data
 
@@ -105,7 +111,6 @@ Consant mixing of human and non-human data.
 #### Contextual information about the sample
 
 * Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. This information can contain personal and sensitive data.
-  * Checklists...
   * Pathogens checklist(s) can be found among [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists), including checklists derived from the [MIxS consortium](http://w3id.org/mixs). For example the [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been recurrently used for SARS-CoV-2 studies.
  
 <!--- Other potential checklist examples
@@ -120,7 +125,7 @@ Consant mixing of human and non-human data.
     * [GSC MIxS human skin](https://www.ebi.ac.uk/ena/browser/view/ERC000017)
     * [GSC MIxS human vaginal](https://www.ebi.ac.uk/ena/browser/view/ERC000018)--->
 
-* Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. These information can be used for 
+* Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. This information can be used for 
   * Ontologies and checklists
       * [Phenotypic QualiTy Ontology](https://bioportal.bioontology.org/ontologies/PATO)
       * [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
@@ -136,17 +141,20 @@ Consant mixing of human and non-human data.
 * Make sure you are using common and suitable data formats
   * Enough pathogen materials?(https://www.sequencing.uio.no/pacbio-services/dna-requirements/) Was it stored properly?
   * Repositories generally have information about [data formats](Data_publication)
-  * [High-Throughput Sequencing | LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
-  * [B1MG D3.1 - Quality metrics for sequencing](https://doi.org/10.5281/zenodo.4889390)
+  * [High-Throughput Sequencing \| LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
+  * 
 
 * Example of a common pipeline structure and corresponding outs with and example of quality information...
 
 * Checklists and convenstion for describing experiment configuration and execution
   * checklists
 
-* Data quality assurance
-  * Multi-QC etc
-  * [Reference FAIR Cookbook or something](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
+* Data quality assurance  
+NGS pipelines are comprised of several elements, all of which contribute to the end quality of the result, from the reception of the samples to delivery of the outcomes. For this reason, quality control (QC) steps should be incorporated into the workflow to ensure that the data is fit for use, and its usage poses no risk to the patient. 
+    * [The Beyond One Million Genomes (B1MG)](https://b1mg-project.eu) project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
+    * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is  [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
+  * The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) provides instructions on validation of [file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
+  * The Galaxy Training Network provides free on-line [training material](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) on quality control.
 
 
 #### Describing samples and processing steps
