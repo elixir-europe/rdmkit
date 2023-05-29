@@ -77,6 +77,7 @@ This page provides an overview of the data management resources in the UK. The t
   * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018)
   * The [Five Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/) framework enabling data services to provide safe research access to data
   * [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector
+  * [Building Trusted Research Environments](https://doi.org/10.5281/zenodo.5767586) principle and best practices
 
 ## Domain-specific data infrastructures
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics
