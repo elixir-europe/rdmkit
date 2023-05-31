@@ -80,7 +80,7 @@ It is important to differentiate between file formats intended for active phase 
 ### Solutions
 The best file formats depend on data types, availability and common acceptance of open file formats and research domain. There is no one size fits all solution. You need to choose the best for your case.
 
-The following table lists the recommended file formats for best practices in research data management. Acceptable and non-recommended file formats represent commonly used file formats that do not fulfill all of the above mentioned criteria.  
+The following table lists the recommended file formats for best practices in research data management. Acceptable and non-recommended file formats represent commonly used file formats that do not fulfill above-mentioned criteria (listed under 'Considerations').  
 
 | **Type**                       | **Preferred**                                                                  | **Acceptable**                                                | Non-recommended                                         |
 |----------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|
