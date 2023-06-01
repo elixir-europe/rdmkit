@@ -64,7 +64,7 @@ Irish research funding agencies support Open Science and require data management
 
 * [National Open Research Forum](https://norf.ie/about-norf/) 
 * [National Action Plan for Open Research](https://norf.ie/national-action-plan/)
-* [HEA Principles of Good Practice in Research within Irish Higher Education Institutes](https://hea.ie/assets/uploads/2022/12/High-res-links-v3-HEA-Principles-of-Good-Practice-in-Research-within-Irish-Higher-Education-Institutions.pdf)
+* [HEA Principles of Good Practice in Research within Irish Higher Education Institutes](https://hea.ie/assets/uploads/2022/12/High-res-links-v3-HEA-Principles-of-Good-Practice-in-Research-within-Irish-Higher-Education-Institutions.pdf) (PDF)
 
 ## Institutional policies
 Here are non-exhaustive lists of data management policies and open research policies from the universities across Ireland.
@@ -72,7 +72,7 @@ Here are non-exhaustive lists of data management policies and open research poli
 ### Data Management Policies from Irish Universities
 
 * [University College Dublin](https://www.ucd.ie/researchethics/informationforresearchers/researchethicsdatamanagement/) (UCD Library [Data Management Checklist](https://libguides.ucd.ie/ld.php?content_id=32484988))
-* [University of Galway](https://www.universityofgalway.ie/media/staffsub-sites/researchoffice/files/Research-Data-Management-Policy-(QA509).pdf)
+* [University of Galway](https://www.universityofgalway.ie/media/staffsub-sites/researchoffice/files/Research-Data-Management-Policy-(QA509).pdf) (PDF)
 * [University College Cork](https://www.ucc.ie/en/media/support/academicsecretariat/policies/researchpolicies/ResearchDataManagementPolicy.pdf)
 * [Royal College of Surgeons in Ireland](https://drive.google.com/file/d/1mCM4hHK97cMJFKh0dm5mZ5tn8FdBnAHB/view)
 * [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Research_Data_Management_Policy.pdf)
