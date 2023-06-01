@@ -74,10 +74,10 @@ This page provides an overview of the data management resources in the UK. The t
    * Horizon 2020: [DM guidelines](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm) and [DMP template](http://ec.europa.eu/research/participants/data/ref/h2020/gm/reporting/h2020-erc-tpl-oa-data-mgt-plan_en.docx)
 
 ## National policies and recommendations for research data
-  * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018)
+  * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018) is the UK’s implementation of the General Data Protection Regulation (GDPR)
   * The [Five Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/) framework enabling data services to provide safe research access to data
   * [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector
-  * [Building Trusted Research Environments](https://doi.org/10.5281/zenodo.5767586) principle and best practices
+  * [Building Trusted Research Environments](https://doi.org/10.5281/zenodo.5767586); the paper covers principles, approaches and guidelines for data sharing and linkage practice within TREs, as well as examples of best practices. 
 
 ## Domain-specific data infrastructures
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics
