@@ -65,7 +65,7 @@ This page provides an overview of the data management resources in the UK. The t
 ## Funder policies, guidelines and data management plan (DMP) templates
    * UK Research and Innovation ([UKRI](https://www.ukri.org/)): [Publishing your research findings](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [Concordat on open research](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf) and [Open access policy](https://www.ukri.org/publications/ukri-open-access-policy/)
    
-   * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [DM guidelines](https://www.ukri.org/councils/bbsrc/guidance-for-applicants/what-to-include-in-your-application/data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
+   * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [DM guidelines](https://www.ukri.org/councils/bbsrc/guidance-for-applicants/what-to-include-in-your-application/data-management-plan/) and [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
    * Medical Research Council ([MRC](https://www.ukri.org/councils/mrc/)): [DM guidelines](https://www.ukri.org/publications/what-is-a-data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/mrc-data-sharing-policy/)
    * [Wellcome Trust](https://wellcome.org/): [DM and sharing guidelines](https://wellcome.org/grant-funding/guidance/data-software-materials-management-and-sharing-policy)
    * [The Royal Society](https://royalsociety.org/): [DM and sharing guidelines](https://royalsociety.org/journals/ethics-policies/data-sharing-mining/)
@@ -77,6 +77,7 @@ This page provides an overview of the data management resources in the UK. The t
   * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018)
   * The [Five Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/) framework enabling data services to provide safe research access to data
   * [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector
+  * [Building Trusted Research Environments](https://doi.org/10.5281/zenodo.5767586) principle and best practices
 
 ## Domain-specific data infrastructures
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics
