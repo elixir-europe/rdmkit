@@ -7,32 +7,32 @@ coordinators: [Lars Jermiin, Siobhán Cleary]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id.
 # More information on which page_id you can use can be found at https://rdmkit.elixir-europe.org/website_overview 
-related_pages:
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+# related_pages:
+#   tool_assembly:
 
 training:
   - name: ELIXIR Ireland Training
     registry: ELIXIR Ireland
     url: https://elixir-ireland.ie/training.html
 
-ref_to_main_resources: 
+# ref_to_main_resources: 
 
 # List here tools and resources mainly relevant for the specific country
-national_resources: 
-  - name:
-    description:
-    how_to_access: 
-    instance_of: 
-    related_pages:
-      tool_assembly: 
-      your_domain: 
-      your_role: 
-      your_tasks:
-    url:
-    registry:
-      biotools:
-      fairsharing:
-      tess:
+# national_resources: 
+#   - name:
+#     description:
+#     how_to_access: 
+#     instance_of: 
+#     related_pages:
+#       tool_assembly: 
+#       your_domain: 
+#       your_role: 
+#       your_tasks:
+#     url:
+#     registry:
+#       biotools:
+#       fairsharing:
+#       tess:
 
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
