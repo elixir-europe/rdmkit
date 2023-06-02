@@ -73,11 +73,12 @@ While the object of interest in this domain are pathogens, the data is usually d
   * This paper gives [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260) to help data producers collect and store high-quality metadata about sequencing experiments.
 * The Genomic Standards Consortium (GSC) have defined a set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
   * [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp)
+* WHO offers some [guidance on implementation for maximum impact on public health](https://apps.who.int/iris/bitstream/handle/10665/338480/9789240018440-eng.pdf?sequence=1&isAllowed=y) and there are published reports that advise on [implementing Implementing Quality Management Systems in Public Health Laboratories](https://doi.org/10.1128/jcm.00261-19).
 * ISO (the International Organization for Standardization) have several general guidelines relevant for both the laboratory and bioinformatic components of genome sequencing.
   * [ISO 20397-1:2022 Biotechnology — Massively parallel sequencing — Part 1: Nucleic acid and library preparation](https://www.iso.org/standard/74054.html)
   * [ISO 20397-2:2021 Biotechnology — Massively parallel sequencing — Part 2: Quality evaluation of sequencing data](https://www.iso.org/standard/67895.html)
   * [ISO/TS 20428:2017 Health informatics — Data elements and their metadata for describing structured clinical genomic sequence information in electronic health records](https://www.iso.org/standard/67981.html)
-  * [ISO/TS 22692:2020 Genomics informatics— Quality control metrics for DNA sequencing](https://www.iso.org/standard/73693.html)
+  * [ISO/TS 22692:2020 Genomics informatics — Quality control metrics for DNA sequencing](https://www.iso.org/standard/73693.html)
   * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterization of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
 
 ## Collecting and processing pathogen sequence data
@@ -99,80 +100,37 @@ While the object of interest in this domain are pathogens, the data is usually d
 
 #### Filtering genomic reads corresponding to human DNA fragments
 
-* Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions.
-  * Mapping to human reference genomes
-  * Mapping to pathogen genome
-  * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7478626/
-  * https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html
+* Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
+  * Mapping to (human) host reference genomes, [can inadvertedly leave some host associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
+  * Mapping to pathogens reference genomes can inadvertedly mask some pathogen associated reads and still leave some host associated reads unmasked
+  * [Removal of human reads from SARS-CoV-2 sequencing data | Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
+
 
 #### Contextual information about the sample
 
-* Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. This information can contain personal and sensitive data.
-  * Pathogens checklist(s) can be found among [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists), including checklists derived from the [MIxS consortium](http://w3id.org/mixs). For example the [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been recurrently used for SARS-CoV-2 studies.
- 
-<!--- Other potential checklist examples
-   * [ENA prokaryotic pathogen minimal sample checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000028)
-* [ENA binned metagenome](https://www.ebi.ac.uk/ena/browser/view/ERC000050)
-    * [ENA Global Microbial Identifier reporting standard checklist GMI_MDM:1.1](https://www.ebi.ac.uk/ena/browser/view/ERC000029)
-    * [GSC MIxS host associated](https://www.ebi.ac.uk/ena/browser/view/ERC000013)
-    * [GSC MIxS human associated](https://www.ebi.ac.uk/ena/browser/view/ERC000014)
-    * [GSC MIxS microbial mat biolfilm](https://www.ebi.ac.uk/ena/browser/view/ERC000019)
-    * [GSC MIxS human gut](https://www.ebi.ac.uk/ena/browser/view/ERC000015)
-    * [GSC MIxS human oral](https://www.ebi.ac.uk/ena/browser/view/ERC000016)
-    * [GSC MIxS human skin](https://www.ebi.ac.uk/ena/browser/view/ERC000017)
-    * [GSC MIxS human vaginal](https://www.ebi.ac.uk/ena/browser/view/ERC000018)--->
+* Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Consider adopting common reporting checklists, terms and vocabularies that can simplify data sharing across initatives. Note: This information can contain personal and sensitive data.
+* Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
+* Pathogens checklist(s) can be found among [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists), including checklists derived from the [MIxS consortium](http://w3id.org/mixs). For example the [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been recurrently used for SARS-CoV-2 studies. Other ontologies and checklists include
+  * [Phenotypic QualiTy Ontology](https://bioportal.bioontology.org/ontologies/PATO)
+  * [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
+  * [Disease Ontology](https://disease-ontology.org)
+  * [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary)
+  * [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON)
 
-* Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. This information can be used for 
-  * Ontologies and checklists
-      * [Phenotypic QualiTy Ontology](https://bioportal.bioontology.org/ontologies/PATO)
-      * [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
-      * [Disease Ontology](https://disease-ontology.org)
-      * [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary)
-      * [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON)
-
-  * Pathogens checklist(s) for ENA/packages for SRA? Etc.?
-
-* Information about the sampled material and how it was processed for sequencing
-
-#### Genomic information and quality assessment
-* Make sure you are using common and suitable data formats
-  * Enough pathogen materials?(https://www.sequencing.uio.no/pacbio-services/dna-requirements/) Was it stored properly?
-  * Repositories generally have information about [data formats](Data_publication)
-  * [High-Throughput Sequencing \| LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
-  * 
-
-* Example of a common pipeline structure and corresponding outs with and example of quality information...
-
-* Checklists and convenstion for describing experiment configuration and execution
-  * checklists
-
-* Data quality assurance  
-NGS pipelines are comprised of several elements, all of which contribute to the end quality of the result, from the reception of the samples to delivery of the outcomes. For this reason, quality control (QC) steps should be incorporated into the workflow to ensure that the data is fit for use, and its usage poses no risk to the patient. 
+#### Generating genomic data
+* Establish protocols and document the steps taken in the lab to process the sample and in the computational workflow to prepare the resulting data. Make sure to keep information from quality assurance procedures and strive to make your labwork and computational process as reproducible as possible.
+    * [High-Throughput Sequencing \| LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
     * [The Beyond One Million Genomes (B1MG)](https://b1mg-project.eu) project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
+    * Repositories generally have information about recommended [data file formats](Data_publication) and 
+    * The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
     * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is  [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
-  * The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) provides instructions on validation of [file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
-  * The Galaxy Training Network provides free on-line [training material](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) on quality control.
+  * The [Infectious Diseases Toolkit (IDTk)](https://www.infectious-diseases-toolkit.org/) has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
+  * The Galaxy Training Network provides free on-line [training materials on quality control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html).
 
-
-#### Describing samples and processing steps
-
-* Separating pathogen from human
-* Sharing/Public
-* Dealing with patient/research subject information
-* Analysis
-* Workflow harmonization
-* Link to Galaxy showcase in IDTk
-* Automated pipelines
-* Collections: Galaxy workflows, WorkflowHub, other sources?
 
 ## Sharing and preserving pathogen genomic data
 
-
-### Description
-<blockquote>Sections within Domain pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should focus on particular data management problems, which should be described in this first sub-section. For problems that are fully domain-specific, a detailed description is merited. For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges.</blockquote>
-
 ### Considerations
-<blockquote>Direct and concise considerations, structured in bullet points and typically framed as questions RDMkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided.</blockquote>
 
 * What data need to be preserved by the project and for how long?
   * What is preserved by others and how would someone find and access the data?
@@ -180,10 +138,9 @@ NGS pipelines are comprised of several elements, all of which contribute to the 
 
 
 ### Solutions
-<blockquote>Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. </blockquote>
 
 #### Sharing host related and other contextual information
-* Something about links to non-sensitive pathogen genome data etc. Aggregate level information, data masking and access to detailed records. Reference human data. Some of this information can be used as metadata for genomic data. 
+* ?? Something about links to non-sensitive pathogen genome data etc. Aggregate level information, data masking and access to detailed records. Reference human data. Some of this information can be used as metadata for genomic data. 
 
 #### Sharing pathogen genomic data
 Several platforms can be used in parallel to reach different audiences and include national and European healthcare surveillance systems administered by public health authorities, such as the ECDC’s TESSy/EpiPulse; international research data exchanges such as INSDC (EMBL-EBI, NCBI, DDBJ) and the Federated EGA network; and virus specific initiatives such as GISAID. 
