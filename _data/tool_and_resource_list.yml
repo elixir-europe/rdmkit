@@ -970,6 +970,8 @@
     available Knowledgebase providing single chemical environmental toxicity data
     on aquatic life, terrestrial plants, and wildlife.
   name: ECOTOX
+  registry:
+    fairsharing: 4b2234
   related_pages:
   - toxicology_data
   url: https://cfpub.epa.gov/ecotox/
