@@ -54,7 +54,7 @@ Tools and resources specifically mentioned in the text of the pages should be pr
     {% endraw %}
     ```
 
-    {% include callout.html type="Don't forget to add the `"` double quotes around the tool_id and make sure to use the exact tool_id as described in the yaml file." %}
+    {% include callout.html type="Don't forget to add the `\"` double quotes around the tool_id and make sure to use the exact tool_id as described in the yaml file." %}
 
     Example:
 
