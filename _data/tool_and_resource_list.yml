@@ -1378,6 +1378,8 @@
   url: https://figshare.com/
 - description: A free FTP (FTPS and SFTP) solution with graphical interface
   name: FileZilla
+  registry:
+    tess: FileZilla
   related_pages:
   - transfer
   - it_support
