@@ -103,7 +103,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 * Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
   * Mapping to (human) host reference genomes, [can inadvertedly leave some host associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
   * Mapping to pathogens reference genomes can inadvertedly mask some pathogen associated reads and still leave some host associated reads unmasked
-  * [Removal of human reads from SARS-CoV-2 sequencing data | Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
+  * [Removal of human reads from SARS-CoV-2 sequencing data \| Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
 
 
 #### Contextual information about the sample
@@ -143,13 +143,12 @@ While the object of interest in this domain are pathogens, the data is usually d
 * ?? Something about links to non-sensitive pathogen genome data etc. Aggregate level information, data masking and access to detailed records. Reference human data. Some of this information can be used as metadata for genomic data. 
 
 #### Sharing pathogen genomic data
-Several platforms can be used in parallel to reach different audiences and include national and European healthcare surveillance systems administered by public health authorities, such as the ECDC’s TESSy/EpiPulse; international research data exchanges such as INSDC (EMBL-EBI, NCBI, DDBJ) and the Federated EGA network; and virus specific initiatives such as GISAID. 
+* You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to used to reach relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
+  * European healthcare surveillance systems is administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
+  * International research data exchanges such as [European Neucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/submit) for non-sensitive genomic data and the [Federated EGA](https://ega-archive.org/federated) network for sensitive data.
+  * There are also pathogen specifc initiatives, such as GISAID for certain viruses.
+* Investigate if there are [national resources](national_resources) or [Data brokering](data_brokering) organisation available to facilitate data sharing.
+  * [EBI Pathogens data hubs](https://www.ebi.ac.uk/ena/pathogens/v2/)
+  * [Submit new data \| European COVID-19 platform](https://www.covid19dataportal.org/submit-data)
 
-* Something about INSDC, GISAID, EBI-data base chooser etc. also FEGA, ECDC, national data hubs etc.
-  * EBI Pathogens data hubs
-  * Differences between Health and Research
-  * Data ownership
-  * [Data brokering](https://rdmkit.elixir-europe.org/data_brokering)
-  * Data sharing agreements/conditions
-  * Platforms for sharing
 
