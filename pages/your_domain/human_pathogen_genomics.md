@@ -44,7 +44,7 @@ While the object of interest in this domain are pathogens, the data is usually d
   * Can you separate pathogen and human host material and data?
   * What data protection measures should be implemented in contracts and procedures dealing with suppliers and collaborators?
   * What is the appropriate scope for the legal and ethical agreements necessary for the study?
-  * How should statements related to data processing be phrased to allow timely and relevant data sharing?
+  * How should statements related to data processing be phrased to allow timely and efficient data sharing?
   * How much time would be required to negotiate access to the samples and data for the study?
 * What public health and research initives should you consider aligning with?
   * What data could be shared with or reused from other initiatives during the project?
@@ -79,8 +79,8 @@ While the object of interest in this domain are pathogens, the data is usually d
   * [Minimal Information about a high throughput SEQuencing Experiment (MINSEQE)](https://fairsharing.org/FAIRsharing.a55z32)
   * The RDMkit page on [documentation and metadata](Documentation_and_metadata) provides a guide to how you can document data during a project.
   * This paper gives [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260) to help data producers collect and store high-quality metadata about sequencing experiments.
-* The Genomic Standards Consortium (GSC) have defined a set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
-  * [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp)
+* The Genomic Standards Consortium (GSC) develops and maintains the [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp) set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
+* The GenEpiO Consortium develops and maintains the [Genomic Epidemiology Application Ontology (GenEpiO)](https://doi.org/10.25504/FAIRsharing.y1mmbv) to support data sharing and integration specifically for foodborne infectious disease surveillance and outbreak investigations.
 * WHO offers some [guidance on implementation for maximum impact on public health](https://apps.who.int/iris/bitstream/handle/10665/338480/9789240018440-eng.pdf?sequence=1&isAllowed=y) and there are published reports that advise on [implementing Implementing Quality Management Systems in Public Health Laboratories](https://doi.org/10.1128/jcm.00261-19).
 * ISO (the International Organization for Standardization) have several general guidelines relevant for both the laboratory and bioinformatic components of genome sequencing.
   * [ISO 20397-1:2022 Biotechnology — Massively parallel sequencing — Part 1: Nucleic acid and library preparation](https://www.iso.org/standard/74054.html)
@@ -154,7 +154,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 #### Sharing pathogen genomic data
 * You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to used to reach relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
   * European healthcare surveillance systems is administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
-  * International research data exchanges such as [European Neucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/submit) for non-sensitive genomic data and the [Federated EGA](https://ega-archive.org/federated) network for sensitive data.
+  * International research data exchanges such as [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/submit) for non-sensitive genomic data and the [Federated EGA](https://ega-archive.org/federated) network for sensitive data.
   * There are also pathogen specifc initiatives, such as GISAID for certain viruses.
 * Investigate if there are [national resources](national_resources) or [Data brokering](data_brokering) organisation available to facilitate data sharing.
   * [EBI Pathogens data hubs](https://www.ebi.ac.uk/ena/pathogens/v2/)
