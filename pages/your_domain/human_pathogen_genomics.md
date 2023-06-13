@@ -5,9 +5,17 @@ description: <!---REPLACE THIS with a one sentence description of the page--->
 contributors: [Diana Pilvar, Espen Åberg, Wolmar Nyberg Åkerström, Rafael Andrade Buono]
 page_id: human_pathogen_genomics
 related_pages: 
-  your_tasks: [data_brokering, metadata_management, data_transfer]
-  tool_assembly: [covid19_data_portal]
-  your_domain: [rare_disease_data, human_data]
+  your_tasks:
+    - data_brokering
+    - metadata_management
+    - data_transfer
+    - data_protection
+    - data_quality
+  tool_assembly:
+    - covid19_data_portal
+  your_domain:
+    - rare_disease_data
+    - human_data
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 #training:
 #  - name:
@@ -121,7 +129,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 * Establish protocols and document the steps taken in the lab to process the sample and in the computational workflow to prepare the resulting data. Make sure to keep information from quality assurance procedures and strive to make your labwork and computational process as reproducible as possible.
     * [High-Throughput Sequencing \| LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
     * [The Beyond One Million Genomes (B1MG)](https://b1mg-project.eu) project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
-    * Repositories generally have information about recommended [data file formats](Data_publication) and 
+    * Data repositories generally have information about recommended [data file formats](Data_publication) and [metadata](metadata_management)
     * The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
     * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is  [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
   * The [Infectious Diseases Toolkit (IDTk)](https://www.infectious-diseases-toolkit.org/) has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
@@ -133,7 +141,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 ### Considerations
 
 * What data need to be preserved by the project and for how long?
-  * What is preserved by others and how would someone find and access the data?
+* What is preserved by others and how would someone find and access the data?
 * What databases should I use to share human pathogen genomics data?
 
 
@@ -141,6 +149,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 
 #### Sharing host related and other contextual information
 * ?? Something about links to non-sensitive pathogen genome data etc. Aggregate level information, data masking and access to detailed records. Reference human data. Some of this information can be used as metadata for genomic data. 
+* ?? Something about federated solutions for data access.
 
 #### Sharing pathogen genomic data
 * You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to used to reach relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
