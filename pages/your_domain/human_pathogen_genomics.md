@@ -144,13 +144,15 @@ While the object of interest in this domain are pathogens, the data is usually d
 * What data need to be preserved by the project and for how long?
 * What is preserved by others and how would someone find and access the data?
 * What databases should I use to share human pathogen genomics data?
+* What other research information (such as protocols, computational tools, samples) can the project share?
 
 
 ### Solutions
 
 #### Sharing host related and other contextual information
-* ?? Something about links to non-sensitive pathogen genome data etc. Aggregate level information, data masking and access to detailed records. Reference human data. Some of this information can be used as metadata for genomic data. 
-* ?? Something about federated solutions for data access.
+* Some host related information can be personal and/or sensitive and care should be taken when storing and sharing it. Apply data masking and aggregation techniques to pseudonymise or anonymise the contentual information and take measures to separate personal and sensitive information from the pathogen data when possible.
+* Adopt solutions for federated analysis to support distributed analyses on information that could otherwise not be shared, such as establishing contractual agreements with suitable regional or international data infrastructures.
+
 
 #### Sharing pathogen genomic data
 * You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to used to reach relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
