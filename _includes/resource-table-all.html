@@ -1,0 +1,171 @@
+{%- if include.tag %}
+{%- assign tools = site.data.tool_and_resource_list | add_related_pages | where:"related_pages", include.tag  | sort_natural: "name" %}
+{%- else %}
+{%- assign tools = site.data.tool_and_resource_list | add_related_pages  | sort_natural: "name" %}
+{%- endif %}
+{%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
+{%- unless tools.size == 0 or tools == nil %}
+{%- if include.tag %}
+<h2>Relevant tools and resources</h2>
+{%- endif %}
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
+<div class="table-responsive mt-4 mb-5">
+    <table class="tooltable table display">
+        <thead>
+            <tr class="text-nowrap">
+                <th>Tool or resource {%- if include.tag -%}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="This is a curated list which means that not all tools or resources that exist for this topic are listed here. This is mainly because we do not intend to be a registry. In most cases you will only find back the tools or resources that are mentioned in this page.">
+                        <i class="fa-solid fa-info-circle"></i>
+                    </a>{%- endif %}
+                </th>
+                <th>Description</th>
+                <th>Related pages</th>
+                <th>Registry {%- if include.tag -%}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="Links to related information in ELIXIR registries: related policies and standards in FAIRsharing, scientific and technical descriptions of the resource in bio.tools, and related training in TeSS.">
+                        <i class="fa-solid fa-info-circle"></i>
+                    </a>{%- endif %}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for tool in tools %}
+            <tr>
+                {%- assign instances_tool = 0 %}
+                {%- assign total_county_tools = 0 %}
+                {%- assign query = "related_pages." | append: page.type %}
+                {%- for country_page in country_pages %}
+                {%- assign instance_matches = country_page.national_resources | where: "instance_of", tool.id | where_exp:"resource","resource.related_pages != nil" | where: query, include.tag %}
+                {%- assign tool_matches = country_page.national_resources | where_exp:"resource","resource.related_pages != nil" | where: query, include.tag %}
+                {%- unless tool_matches.size == 0 %}
+                {%- assign total_county_tools = total_county_tools | plus: tool_matches.size %}
+                {%- endunless %}
+                {%- unless instance_matches.size == 0 %}
+                {%- assign instances_tool = instances_tool | plus: instance_matches.size %}
+                {%- endunless %}
+                {%- endfor %}
+                {% if tool.url %}
+                <td><a href="{{tool.url}}">{{tool.name}}</a></td>
+                {%- else %}
+                <td>{{tool.name}}</td>
+                {%- endif %}
+                <td>{{tool.description}}
+                    {%- if tool.instance_of or tool.how_to_access or instances_tool != 0 and total_county_tools != 0 and include.tag != nil %}
+                    {%- assign linked_tool = site.data.tool_and_resource_list | where:"id", tool.instance_of | first %}
+                    <div class="d-block mt-1">
+                        {%- if linked_tool %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="This resource is an instance of {{linked_tool.name}}"><span class="badge text-primary border border-primary">{{linked_tool.name}}</span></span>
+                        {%- endif %}
+                        {%- if tool.how_to_access %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{tool.how_to_access}}"><span class="badge text-primary border border-primary"> <i class="fa-solid fa-key"></i></span></span>
+                        {%- endif %}
+                        {%- unless instances_tool == 0 or total_county_tools == 0 or include.tag == nil %}    
+                        <a href="#national-resources-button">
+                            <span class="badge text-white bg-primary"><i class="fa-solid fa-arrow-circle-down me-2"></i>Different instances available</span>
+                        </a>
+                        {%- endunless %}
+                    </div>
+                    {%- endif %}
+                </td>
+                {%- capture related_pages %}
+                {%- for tag in tool.related_pages %}
+                {%- unless tag == page.page_id %}
+                {%- assign related_page = site.pages | where:"page_id",tag | first %}
+                <a href="{{related_page.url | relative_url }}" data-bs-toggle="tooltip" title="{{related_page.type | replace: '_', ' ' | capitalize}}"><span class="badge default-badge">{{related_page.title}}</span></a>
+                {%- endunless %}
+                {%- endfor %}
+                {%- endcapture %}
+                <td>{{related_pages}}</td>
+                <td>
+                    {%- if tool.registry.biotools %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="Bio.tools" href="https://bio.tools/{{tool.registry.biotools}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>Tool info</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.fairsharing %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.fairsharing-coll %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing collection" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.tess %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="TeSS" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-graduation-cap me-2"></i>Training</span></a>
+                    {%- endif %}
+                </td>
+            </tr>
+            {%- endfor %}
+            {%- unless total_county_tools == 0 or include.tag == nil %}
+            <tr class="collapse multi-collapse bg-light" id="resource_title">
+                <td colspan="4"><b>National resources</b></td>
+            </tr>
+            {%- endunless %}
+            {%- assign hide_ids = "resource_title" %}
+            {%- for country_page in country_pages %}
+            {%- if include.tag %}
+            {%- assign tool_matches = country_page.national_resources | where_exp:"resource","resource.related_pages != nil" | where: query, include.tag | sort_natural: "name" %}
+            {%- else %}
+            {%- assign tool_matches = country_page.national_resources | sort_natural: "name" %}
+            {%- endif %}
+            {%- for tool in tool_matches %}
+            {%- assign tool_id = tool.name | slugify %}
+            {%- assign hide_ids = hide_ids | append: " " | append: tool_id %}
+            <tr {% unless include.tag==nil %} class="collapse multi-collapse" id="{{tool_id}}" {% endunless %}>
+                {% if tool.url %}
+                <td><a href="{{tool.url}}">{{tool.name}}</a><a href="{{country_page.url | relative_url }}" data-bs-toggle="tooltip" title="{{country_page.title}}"><span class="flag-icon ms-2 shadow-sm flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
+                {%- else %}
+                <td>{{tool.name}}<a href="{{country_page.url}}"><span class="flag-icon ms-2 shadow-sm flag-icon-{{country_page.country_code | downcase }}"></span></a></td>
+                {%- endif %}
+                <td>{{tool.description | markdownify }}
+                    {%- if tool.instance_of or tool.how_to_access %}
+                    {%- assign linked_tool = site.data.tool_and_resource_list | where:"id", tool.instance_of | first %}
+                    <div class="d-block mt-1">
+                        {%- if linked_tool %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="This resource is an instance of {{linked_tool.name}}"><span class="badge text-primary border border-primary">{{linked_tool.name}}</span></span>
+                        {%- endif %}
+                        {%- if tool.how_to_access %}
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="{{tool.how_to_access}}"><span class="badge text-primary border border-primary"> <i class="fa-solid fa-key"></i></span></span>
+                        {%- endif %}
+                    </div>
+                    {%- endif %}
+                </td>
+                {%- if tool.related_pages %}
+                {%- capture related_pages %}
+                {%- for section in tool.related_pages %}
+                {%- unless section[1].size == 0 %}
+                {%- for tag in section[1] %}
+                {%- unless tag == page.page_id %}
+                {%- assign related_page = site.pages | where:"page_id",tag | first %}
+                <a class="nohover" href="{{related_page.url | relative_url }}" data-bs-toggle="tooltip" title="{{related_page.type | replace: '_', ' ' | capitalize}}"><span class="badge default-badge">{{related_page.title}}</span></a>
+                {%- endunless %}
+                {%- endfor %}
+                {%- endunless %}
+                {%- endfor %}
+                {%- endcapture %}
+                <td>{{related_pages}}</td>
+                {%- else %}
+                <td></td>
+                {%- endif %}
+                <td>
+                    {%- if tool.registry.biotools %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="Bio.tools" href="https://bio.tools/{{tool.registry.biotools}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-info me-2"></i>Tool info</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.fairsharing %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing" href="https://fairsharing.org/FAIRsharing.{{tool.registry.fairsharing}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.fairsharing-coll %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="FAIRsharing collection" href="https://fairsharing.org/{{tool.registry.fairsharing-coll}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-database me-2"></i>Standards/Databases</span></a>
+                    {%- endif %}
+                    {%- if tool.registry.tess %}
+                    <a data-bs-toggle="tooltip" data-bs-original-title="TeSS" href="https://tess.elixir-europe.org/search?q={{tool.registry.tess}}"><span class="badge bg-dark text-white hover-primary"><i class="fa-solid fa-graduation-cap me-2"></i>Training</span></a>
+                    {%- endif %}
+                </td>
+            </tr>
+            {%- endfor %}
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+{%- unless total_county_tools == 0 or include.tag == nil %}
+<a class="btn btn-primary" id="national-resources-button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" role="button" aria-expanded="false" aria-controls="{{hide_ids}}">
+    View national resources <span class="badge bg-white text-primary ms-2">{{total_county_tools}}</span>
+</a>
+{%- endunless %}
+<div id="skip-tool-table"></div>
+{%- endunless %}
