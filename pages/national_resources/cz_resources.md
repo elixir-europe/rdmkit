@@ -24,8 +24,8 @@ training:
     url: https://zenodo.org/communities/elixir-cz/
 
 ref_to_main_resources: 
-  - Galaxy
-  - Data Stewardship Wizard
+  - galaxy
+  - data-stewardship-wizard
 
 national_resources: 
   - name: Galaxy MetaCentrum

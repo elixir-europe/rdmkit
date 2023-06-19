@@ -17,10 +17,10 @@ training:
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
 ref_to_main_resources:
-  - FAIRDOM-SEEK
-  - Galaxy
-  - WorkflowHub
-  - ENA upload tool
+  - fairdom-seek
+  - galaxy
+  - workflowhub
+  - ena-upload-tool
 
 national_resources:
   - name: RDM Guide

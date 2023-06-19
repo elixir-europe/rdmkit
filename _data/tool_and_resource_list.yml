@@ -702,6 +702,7 @@
     (DPIA).
   name: DPIA Knowledge Model
   url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
+  id: dpia-knowledge-model
 - description: Cloud storage and file sharing service
   id: dropbox
   name: Dropbox

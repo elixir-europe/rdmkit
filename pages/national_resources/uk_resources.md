@@ -52,9 +52,9 @@ national_resources:
     url: http://intermine.org/
 
 ref_to_main_resources:
-  - WorkflowHub
-  - FAIRDOM-SEEK
-  - COPO
+  - workflowhub
+  - fairdom-seek
+  - copo
   
 ---
 

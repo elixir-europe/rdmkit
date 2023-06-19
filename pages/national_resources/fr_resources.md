@@ -5,8 +5,8 @@ contributors: [Olivier Collin]
 coordinators: []
 
 ref_to_main_resources:
-  - PHIS
-  - FAIDARE
+  - phis
+  - faidare
 
 national_resources:
   - name: DMP OPIDoR

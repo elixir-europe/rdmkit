@@ -155,8 +155,8 @@ national_resources:
       tool_assembly: [tsd]
     url: https://nettskjema.no/
 ref_to_main_resources:
-  - MarDB
-  - MarFun
+  - mardb
+  - marfun
 
 ---
 
