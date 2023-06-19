@@ -66,29 +66,25 @@ While the object of interest in this domain are pathogens, the data is usually d
 
 #### Public health initiatives
 * National and international recommendations from public health authorities, epidemic surveillance programs and research data communities should be considered when planning a new study or surveillance programme. In particular, you could consult conventions for relevant surveillance programs while considering widely adopted guidelines for research documentation, and instructions from the data sharing platforms.
-  * [WHO genomic surveillance strategy](https://www.who.int/initiatives/genomic-surveillance-strategy)
-  * [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en)
-  * [ECDC’s Surveillance and study protocols](https://www.ecdc.europa.eu/en/covid-19/surveillance/study-protocols)
-  * [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/genomics/pathogen/index.htm)
-  * [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/)
-  * [EMBL-EBI Pathogens](https://www.ebi.ac.uk/ena/pathogens/home)
-  * [National resources \| RDMkit](national_resources)
+  * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en) issues [Surveillance and reporting protocols](https://www.ecdc.europa.eu/en/search?s=protocol) as well as other [Technical guidance on sequencing](https://www.ecdc.europa.eu/en/search?s=protocol)
+  * [WHO genomic surveillance strategy](https://www.who.int/initiatives/genomic-surveillance-strategy) and [guidance on implementation for maximum impact on public health](https://apps.who.int/iris/handle/10665/338480) and there are published reports that advise on [implementing Implementing Quality Management Systems in Public Health Laboratories](https://doi.org/10.1128/jcm.00261-19).
+  * The US Centers for Disease Control and Prevention (CDC) offers guidance on [Pathogen genomics](https://www.cdc.gov/genomics/pathogen/index.htm) for its work in monitoring, investigating, and controlling infectious diseases.
+  * Refer to [National resources](national_resources) for information on regional authorities and national considerations.
 
 #### Sequencing experiments
-* Good practices for annotating sequencing experiments suggest that the documentation, at a minimum, should describe the design of the study or surveillance program, the collected specimens and how the samples were prepared, the experimental setup and protocols, and the analysis workflow.
-  * [Minimal Information about a high throughput SEQuencing Experiment (MINSEQE)](https://fairsharing.org/FAIRsharing.a55z32)
-  * The RDMkit page on [documentation and metadata](Documentation_and_metadata) provides a guide to how you can document data during a project.
-  * This paper gives [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260) to help data producers collect and store high-quality metadata about sequencing experiments.
-* The Genomic Standards Consortium (GSC) develops and maintains the [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp) set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
-* The GenEpiO Consortium develops and maintains the [Genomic Epidemiology Application Ontology (GenEpiO)](https://doi.org/10.25504/FAIRsharing.y1mmbv) to support data sharing and integration specifically for foodborne infectious disease surveillance and outbreak investigations.
-* The [Public Health Alliance for Genomic Epidemiology (PHA4GE)](https://pha4ge.org/) supports openness and interoperability in public health bioinformatics. The [Data Structures working group](https://pha4ge.org/working-groups/) develops, adapts and standardises data models for microbial sequence data, contextual metadata, results and workflow metrics, such as the [SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification).
-* WHO offers some [guidance on implementation for maximum impact on public health](https://apps.who.int/iris/bitstream/handle/10665/338480/9789240018440-eng.pdf?sequence=1&isAllowed=y) and there are published reports that advise on [implementing Implementing Quality Management Systems in Public Health Laboratories](https://doi.org/10.1128/jcm.00261-19).
-* ISO (the International Organization for Standardization) have several general guidelines relevant for both the laboratory and bioinformatic components of genome sequencing.
-  * [ISO 20397-1:2022 Biotechnology — Massively parallel sequencing — Part 1: Nucleic acid and library preparation](https://www.iso.org/standard/74054.html)
-  * [ISO 20397-2:2021 Biotechnology — Massively parallel sequencing — Part 2: Quality evaluation of sequencing data](https://www.iso.org/standard/67895.html)
-  * [ISO/TS 20428:2017 Health informatics — Data elements and their metadata for describing structured clinical genomic sequence information in electronic health records](https://www.iso.org/standard/67981.html)
-  * [ISO/TS 22692:2020 Genomics informatics — Quality control metrics for DNA sequencing](https://www.iso.org/standard/73693.html)
-  * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterization of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
+* Good practices for genome experiments suggest that the documentation, at a minimum, should describe the design of the study or surveillance program, the collected specimens and how the samples were prepared, the experimental setup and protocols, and the analysis workflow.
+  * Adopt recommendations specifically for genomics and pathogen genomics such as [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260).
+  * Refer to general guidance on how to provide [documentation and metadata](Documentation_and_metadata) during your project.
+* Adopt standards, conventions and robust protocols to maximise the reuse potential of the data in parallell initiatives and your future projects.
+  * The Genomic Standards Consortium (GSC) develops and maintains the [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp) set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
+  * The GenEpiO Consortium develops and maintains the [Genomic Epidemiology Application Ontology (GenEpiO)](https://doi.org/10.25504/FAIRsharing.y1mmbv) to support data sharing and integration specifically for foodborne infectious disease surveillance and outbreak investigations.
+  * The [Public Health Alliance for Genomic Epidemiology (PHA4GE)](https://pha4ge.org/) supports openness and interoperability in public health bioinformatics. The [Data Structures working group](https://pha4ge.org/working-groups/) develops, adapts and standardises data models for microbial sequence data, contextual metadata, results and workflow metrics, such as the [SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification).
+  * ISO (the International Organization for Standardization) has issued standards that can be referenced when designing or commissioning genomic sequencing and informatics services, such as 
+    * [ISO 20397-1:2022 Biotechnology — Massively parallel sequencing — Part 1: Nucleic acid and library preparation](https://www.iso.org/standard/74054.html)
+    * [ISO 20397-2:2021 Biotechnology — Massively parallel sequencing — Part 2: Quality evaluation of sequencing data](https://www.iso.org/standard/67895.html)
+    * [ISO/TS 20428:2017 Health informatics — Data elements and their metadata for describing structured clinical genomic sequence information in electronic health records](https://www.iso.org/standard/67981.html)
+    * [ISO/TS 22692:2020 Genomics informatics — Quality control metrics for DNA sequencing](https://www.iso.org/standard/73693.html)
+    * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterization of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
 
 ## Collecting and processing pathogen sequence data
 
@@ -158,7 +154,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 * You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to used to reach relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
   * European healthcare surveillance systems is administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
   * International research data exchanges such as [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/submit) for non-sensitive genomic data and the [Federated EGA](https://ega-archive.org/federated) network for sensitive data.
-  * There are also pathogen specifc initiatives, such as GISAID for certain viruses.
+  * There are also pathogen specifc initiatives, such as [EMBL-EBI Pathogens](https://www.ebi.ac.uk/ena/pathogens/home) and [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/). And initiatives focusing specifically on viruses, cetrain Pathogens or certains data types, such as [GISAID (Global Initiative on Sharing All Influenza Data)](https://gisaid.org/) for observations and assembled consensus sequences on a selection of pathogens.
 * Investigate if there are [national resources](national_resources) or [Data brokering](data_brokering) organisation available to facilitate data sharing.
   * [EBI Pathogens data hubs](https://www.ebi.ac.uk/ena/pathogens/v2/)
   * [Submit new data \| European COVID-19 platform](https://www.covid19dataportal.org/submit-data)
