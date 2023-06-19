@@ -17,14 +17,14 @@ national_resources:
   - name: DS-Wizard ELIXIR-SE
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
     how_to_access: ELIXIR AAI login
-    instance_of: Data Stewardship Wizard
+    instance_of: data-stewardship-wizard
     related_pages:
       your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
-    instance_of: FigShare
+    instance_of: figshare
     related_pages:
       your_tasks: [existing_data, data_publication]
     url: https://scilifelab.figshare.com/

@@ -12,7 +12,7 @@ national_resources:
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs.
     how_to_access:
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
       tool_assembly: [ifb]
       your_role: [researcher, data_manager]

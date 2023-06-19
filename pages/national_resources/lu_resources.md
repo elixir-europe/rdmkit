@@ -31,7 +31,7 @@ national_resources:
   - name: learning.DSW 
     description: A training instance of Data Steward Wizard (DSW), which has the FNR and the DPIA templates.
     how_to_access: registration
-    instance_of: Data Stewardship Wizard
+    instance_of: data-stewardship-wizard
     related_pages:
       your_tasks: [dmp]
     url: https://learning.ds-wizard.org/dashboard
@@ -39,7 +39,7 @@ national_resources:
   - name: DPMRoadmap @ ELIXIR Luxembourg
     description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
     how_to_access: registration
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
       your_tasks: [dmp]
     url: https://dmponline.elixir-luxembourg.org/

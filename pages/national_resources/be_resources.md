@@ -35,7 +35,7 @@ national_resources:
   - name: Galaxy Belgium
     description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the Flemish Supercomputer Center (VSC).
     how_to_access:
-    instance_of: Galaxy
+    instance_of: galaxy
     related_pages:
       tool_assembly: []
       your_domain: []
@@ -45,7 +45,7 @@ national_resources:
   - name: DMPonline.be
     description: This instance of DMPonline is provided by the DMPbelgium Consortium. We can help you write and maintain data management plans for your research.
     how_to_access: Affiliation with one of the universities of the consortium is required.
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
       tool_assembly: []
       your_domain: []
