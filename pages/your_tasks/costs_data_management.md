@@ -10,7 +10,7 @@ related_pages:
 
 ### Description
 
-The processes of data management will incur costs. The expenses may consist of people’s time, tools and services needed for managing the research data during the whole life cycle of the project. You should estimate these costs and address the resources needed in your [data management plan](dmp). 
+The processes of data management will incur costs. The expenses may consist of people’s time, tools and services needed for managing the research data during the whole life cycle of the project. You should estimate these costs and address the resources needed in your [data management plan](data_management_plan). 
 
 ### Considerations
 

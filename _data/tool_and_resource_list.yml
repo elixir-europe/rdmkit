@@ -744,6 +744,8 @@
     on aquatic life, terrestrial plants, and wildlife.
   id: ecotox
   name: ECOTOX
+  registry:
+    fairsharing: 4b2234
   url: https://cfpub.epa.gov/ecotox/
 - description: Hub for the identification of plant genetic resources in Europe
   id: ecpgr
@@ -1011,6 +1013,8 @@
 - description: A free FTP (FTPS and SFTP) solution with graphical interface
   id: filezilla
   name: FileZilla
+  registry:
+    tess: FileZilla
   url: https://filezilla-project.org
 - description: FIP Wizard is a toolset to facilitate the capture of data in FAIR Convergence
     Matrix questionnaire prompting communities to explicitly declare their FAIR Implementation

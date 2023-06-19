@@ -110,3 +110,7 @@
   date: 2023-05-10
   linked_pr: 1239
   description: This page gives an insight in how we will govern and further develop the RDMkit in the future. [Discover the page here](rdmkit_alliance).
+- name: "New page: National resources Ireland"
+  date: 2023-05-24
+  linked_pr: 1076
+  description: This page gives an insight in RDM on national level in Ireland. [Discover the page here](ie_resources)

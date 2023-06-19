@@ -14,3 +14,4 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-remote-theme"
 end
+

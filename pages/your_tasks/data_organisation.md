@@ -1,6 +1,6 @@
 ---
 title: Data organisation
-contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
+contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg, Ivan Mičetić, Marina Popleteeva, Naeem Muhammad]
 description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
@@ -61,6 +61,40 @@ Brief and descriptive file names are important in keeping your data files organi
 * Cropped image of an ant head taken on the third of December 2020 by Meg Megson
   * File name: `20201203_MM_HEAD_CROPPED_V1.psd`
   * Explanation: `Time_CreatorData_TypeModification_Version`
+
+## How to choose the appropriate file formats?
+
+### Description
+File formats play an important role when you try to open files later or another person would like to work with the data. Some file formats keep structured data and even permit metadata inclusion, hereby enabling machine-readability and promoting interoperability. Others are easy for humans to understand. Each type of format has use cases. However, as a general principle, choosing open and widely supported file formats ensures long-term compatibility and accessibility in the foreseen future.
+
+### Considerations
+When making a selection for an appropriate file format, you should consider the following factors whenever feasible:
+- non-proprietary;
+- based on open standard;
+- commonly used in your research domain;
+- uncompressed;
+- unencrypted.
+
+It is important to differentiate between file formats intended for active phase (data acquisition, data reduction and primary data analysis) and those designed for long-term storage or reuse (sharing, publishing and archiving). For the latter purpose, we recommend utilizing file formats that adhere to open standards, have a broad acceptance, and are unlikely to become obsolete. In the active phase, it is fine to use proprietary device-specific file formats if needed. This is acceptable until you reach the phase of sharing the data for subsequent analysis, and for data validation or control with other team members. At this point, you need to convert (or export) the data for it be usable by members without access to proprietary software or instrumentation that generated it.
+
+### Solutions
+The best file formats depend on data types, availability and common acceptance of open file formats and research domain. There is no one size fits all solution. You need to choose the best for your case.
+
+The following table lists the recommended file formats for best practices in research data management. Acceptable and non-recommended file formats represent commonly used file formats that do not fulfill above-mentioned criteria (listed under 'Considerations').  
+
+| **Type**                       | **Preferred**                                                                  | **Acceptable**                                                | Non-recommended                                         |
+|----------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|
+| Rich text documents        | ODT (.odt)<br> Markdown (.md)<br> LaTeX (.tex)<br> for read-only documents: PDF/A (.pdf) | Office Open XML (.docx)                                   | Microsoft Word (.doc)<br> PDF other than PDF/A (.pdf)        |
+| Plain text documents       | Unicode text (.txt)                                                        |                                                           | Non-Unicode text (.txt)                                 |
+| Tabular data               | CSV (.csv, .tsv)                                                           | Office Open XML Workbook (.xlsx)                          | Microsoft Excel (.xls)                                  |
+| Containers and compression | ZIP (.zip)                                                                 | tar (.tar)<br> gzip (.gz)<br> bzip2 (.bz2)                        | RAR (.rar)<br> 7-Zip (.7z)                                  |
+| Raster images              | TIFF (.tif, .tiff)<br>  DICOM (.dcm)                                           | proprietary microscopy formats (CZI, LIF, NEF)<br> PNG (.png) | JPEG (.jpg, .jpeg)<br> PS (.ps)<br> EPS (.eps)<br> BMP (.bmp)       |
+| Vector images              | SVG (.svg)                                                                 | PS (.ps)<br> EPS (.eps)                                       | Adobe Illustrator (.ai)<br> WMF/EMF (.wmf, .emf)<br> CDR (.cdr) |
+| Audio                      | Matroska (.mka)<br> FLAC (.flac)                                              | WAVE (.wav)<br> MP3 (.mp3)                                    |                                                         |
+| Video                      | Matroska (.mkv)                                                            | MPEG/MPG animation (.mpg, .mp4, .mjpeg)                   | AVI (.avi)<br> QuickTime (.mov, .qt)                         |
+| Machine-readable metadata  | JSON (.json)<br> XML (.xml)                                                     |                                                           |                                                         |
+
+For domain-specific file formats, please check the appropriate [domain page](https://rdmkit.elixir-europe.org/your_domain).
 
 ## How do you manage file versioning?
 
