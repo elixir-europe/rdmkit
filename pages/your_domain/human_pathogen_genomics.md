@@ -113,14 +113,11 @@ While the object of interest in this domain are pathogens, the data is usually d
 
 #### Contextual information about the sample
 
-* Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Consider adopting common reporting checklists, terms and vocabularies that can simplify data sharing across initatives. Note: This information can contain personal and sensitive data.
-* Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
-* Pathogens checklist(s) can be found among [ENA Sample checklists](https://www.ebi.ac.uk/ena/browser/checklists), including checklists derived from the [MIxS consortium](http://w3id.org/mixs). For example the [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been recurrently used for SARS-CoV-2 studies. Other ontologies and checklists include
-  * [Phenotypic QualiTy Ontology](https://bioportal.bioontology.org/ontologies/PATO)
-  * [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy)
-  * [Disease Ontology](https://disease-ontology.org)
-  * [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary)
-  * [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON)
+* Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
+* Adopt common reporting checklists, data dictionaries, terms and vocabularies to simplify data sharing across initatives.
+  * ENA hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequncing experiements, including checklists derived from the [MIxS consortium](http://w3id.org/mixs). The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
+  * Reuse terms and definitions from existing vocabularies, such as the [Phenotypic QualiTy Ontology](https://www.ebi.ac.uk/ols4/ontologies/pato), [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy), [Disease Ontology](https://disease-ontology.org),  [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary), and [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON).
+  * The [PHA4GE SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification) is a comprehensive example including a reporting checklist, related protocols, and mappings to relevant vocabularies and data sharing platforms.
 
 #### Generating genomic data
 * Establish protocols and document the steps taken in the lab to process the sample and in the computational workflow to prepare the resulting data. Make sure to keep information from quality assurance procedures and strive to make your labwork and computational process as reproducible as possible.
