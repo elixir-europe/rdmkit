@@ -100,6 +100,7 @@
     The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are
     being revised in QUAREP-LiMi in collaboration with instrument manufacturers'
   name: 4DN-BINA-OME-QUAREP (NBO-Q) Microscopy Metadata Specifications
+  id: 4dn-bina-ome-quarep
   registry:
     fairsharing: '4747'
   url: https://www.nature.com/articles/s41592-021-01327-9
