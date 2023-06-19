@@ -66,8 +66,8 @@ While the object of interest in this domain are pathogens, the data is usually d
 
 #### Public health initiatives
 * National and international recommendations from public health authorities, epidemic surveillance programs and research data communities should be considered when planning a new study or surveillance programme. In particular, you could consult conventions for relevant surveillance programs while considering widely adopted guidelines for research documentation, and instructions from the data sharing platforms.
-  * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en) issues [Surveillance and reporting protocols](https://www.ecdc.europa.eu/en/search?s=protocol) as well as other [Technical guidance on sequencing](https://www.ecdc.europa.eu/en/search?s=protocol)
-  * [WHO genomic surveillance strategy](https://www.who.int/initiatives/genomic-surveillance-strategy) and [guidance on implementation for maximum impact on public health](https://apps.who.int/iris/handle/10665/338480) and there are published reports that advise on [implementing Implementing Quality Management Systems in Public Health Laboratories](https://doi.org/10.1128/jcm.00261-19).
+  * [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/en) coordinates [Disease and laboratory networks](https://www.ecdc.europa.eu/en/about-ecdc/what-we-do/partners-and-networks/disease-and-laboratory-networks) and also issues [Surveillance and reporting protocols](https://www.ecdc.europa.eu/en/search?s=protocol) and other [Technical guidance on sequencing](https://www.ecdc.europa.eu/en/search?s=protocol).
+  * [WHO genomic surveillance strategy](https://www.who.int/initiatives/genomic-surveillance-strategy) and [guidance on implementation for maximum impact on public health](https://apps.who.int/iris/handle/10665/338480) and there are published reports that advise on [Implementing Quality Management Systems in Public Health Laboratories](https://doi.org/10.1128/jcm.00261-19).
   * The US Centers for Disease Control and Prevention (CDC) offers guidance on [Pathogen genomics](https://www.cdc.gov/genomics/pathogen/index.htm) for its work in monitoring, investigating, and controlling infectious diseases.
   * Refer to [National resources](national_resources) for information on regional authorities and national considerations.
 
@@ -75,7 +75,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 * Good practices for genome experiments suggest that the documentation, at a minimum, should describe the design of the study or surveillance program, the collected specimens and how the samples were prepared, the experimental setup and protocols, and the analysis workflow.
   * Adopt recommendations specifically for genomics and pathogen genomics such as [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260).
   * Refer to general guidance on how to provide [documentation and metadata](Documentation_and_metadata) during your project.
-* Adopt standards, conventions and robust protocols to maximise the reuse potential of the data in parallell initiatives and your future projects.
+* Adopt standards, conventions and robust protocols to maximise the reuse potential of the data in parallel initiatives and your future projects.
   * The Genomic Standards Consortium (GSC) develops and maintains the [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp) set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
   * The GenEpiO Consortium develops and maintains the [Genomic Epidemiology Application Ontology (GenEpiO)](https://doi.org/10.25504/FAIRsharing.y1mmbv) to support data sharing and integration specifically for foodborne infectious disease surveillance and outbreak investigations.
   * The [Public Health Alliance for Genomic Epidemiology (PHA4GE)](https://pha4ge.org/) supports openness and interoperability in public health bioinformatics. The [Data Structures working group](https://pha4ge.org/working-groups/) develops, adapts and standardises data models for microbial sequence data, contextual metadata, results and workflow metrics, such as the [SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification).
@@ -95,9 +95,9 @@ While the object of interest in this domain are pathogens, the data is usually d
   * How will you capture information about the configuration and quality of the sequencing results?
   * How will you ensure that the information captured is complete and correct?
 * What data and file formats should you consider for your project?
-  * What are the de-facto standards used for the experiemnt type and down-stream analysis-pipelines?
+  * What are the de-facto standards used for the experiment type and down-stream analysis-pipelines?
   * Where are the instrument specific aspects for the data and files formats documented?
-* What existing data will you integrate or use as a reference in  your project?
+* What existing data will you integrate or use as a reference in your project?
   * What reference genome(s) will you need access to?
   * What is the recommended citation for the data and their versions?
 
@@ -106,16 +106,16 @@ While the object of interest in this domain are pathogens, the data is usually d
 #### Filtering genomic reads corresponding to human DNA fragments
 
 * Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
-  * Mapping to (human) host reference genomes, [can inadvertedly leave some host associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
-  * Mapping to pathogens reference genomes can inadvertedly mask some pathogen associated reads and still leave some host associated reads unmasked
+  * Mapping to (human) host reference genomes, [can inadvertently leave some host associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
+  * Mapping to pathogens reference genomes can inadvertently mask some pathogen associated reads and still leave some host associated reads unmasked
   * [Removal of human reads from SARS-CoV-2 sequencing data \| Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
 
 
 #### Contextual information about the sample
 
 * Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
-* Adopt common reporting checklists, data dictionaries, terms and vocabularies to simplify data sharing across initatives.
-  * ENA hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequncing experiements, including checklists derived from the [MIxS consortium](http://w3id.org/mixs). The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
+* Adopt common reporting checklists, data dictionaries, terms and vocabularies to simplify data sharing across initiatives.
+  * ENA hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequencing experiements, including checklists derived from the [MIxS consortium](http://w3id.org/mixs). The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
   * Reuse terms and definitions from existing vocabularies, such as the [Phenotypic QualiTy Ontology](https://www.ebi.ac.uk/ols4/ontologies/pato), [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy), [Disease Ontology](https://disease-ontology.org),  [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary), and [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON).
   * The [PHA4GE SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification) is a comprehensive example including a reporting checklist, related protocols, and mappings to relevant vocabularies and data sharing platforms.
 
@@ -143,16 +143,16 @@ While the object of interest in this domain are pathogens, the data is usually d
 ### Solutions
 
 #### Sharing host related and other contextual information
-* Some host related information can be personal and/or sensitive and care should be taken when storing and sharing it. Apply data masking and aggregation techniques to pseudonymise or anonymise the contentual information and take measures to separate personal and sensitive information from the pathogen data when possible.
+* Some host related information can be personal and/or sensitive and care should be taken when storing and sharing it. Apply data masking and aggregation techniques to pseudonymise or anonymise the contextual information and take measures to separate personal and sensitive information from the pathogen data when possible.
 * Adopt solutions for federated analysis to support distributed analyses on information that could otherwise not be shared, such as establishing contractual agreements with suitable regional or international data infrastructures.
 
 
 #### Sharing pathogen genomic data
-* You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to used to reach relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
+* You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to use to reach the relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
   * European healthcare surveillance systems is administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
   * International research data exchanges such as [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/submit) for non-sensitive genomic data and the [Federated EGA](https://ega-archive.org/federated) network for sensitive data.
-  * There are also pathogen specifc initiatives, such as [EMBL-EBI Pathogens](https://www.ebi.ac.uk/ena/pathogens/home) and [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/). And initiatives focusing specifically on viruses, cetrain Pathogens or certains data types, such as [GISAID (Global Initiative on Sharing All Influenza Data)](https://gisaid.org/) for observations and assembled consensus sequences on a selection of pathogens.
-* Investigate if there are [national resources](national_resources) or [Data brokering](data_brokering) organisation available to facilitate data sharing.
+  * There are also pathogen specifc initiatives, such as [EMBL-EBI Pathogens](https://www.ebi.ac.uk/ena/pathogens/home) and [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/). And initiatives focusing specifically on viruses, certain pathogens or certain data types, such as [GISAID (Global Initiative on Sharing All Influenza Data)](https://gisaid.org/) for observations and assembled consensus sequences on a selection of pathogens.
+* Investigate if there are [national resources](national_resources) or a [data brokering](data_brokering) organisation available to facilitate data sharing.
   * [EBI Pathogens data hubs](https://www.ebi.ac.uk/ena/pathogens/v2/)
   * [Submit new data \| European COVID-19 platform](https://www.covid19dataportal.org/submit-data)
 
