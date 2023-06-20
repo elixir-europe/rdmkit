@@ -27,9 +27,9 @@ related_pages:
 # Human Pathogen Genomics
 
 ## Introduction
-The human pathogen genomics domain focuses on studying the genetic code of organisms that cause disease in humans. Studies to identify and understand pathogens are conducted across different types of organisations ranging from research institutes to regional public health authorities. And the aims can include urgent outbreak response and prevention measures and developing remedies such as treatments and vaccines.
+The human pathogen genomics domain focuses on studying the genetic code of organisms that cause disease in humans. Studies to identify and understand pathogens are conducted across different types of organisations ranging from research institutes to regional public health authorities. The aims can include urgent outbreak response, prevention measures, and developing remedies such as treatments and vaccines.
 
-Data management challenges in this domain include the potential urgency of data sharing and secondary use of data across initiatives emerging from research, public health and policy. And while the pathogenic organisms are the object of interest, there are many considerations to account for when dealing with samples collected from patients, pathogen surveillance, and human research subjects.
+Data management challenges in this domain include the potential urgency of data sharing and secondary use of data across initiatives emerging from research, public health and policy. While the pathogenic organisms are the object of interest, there are many considerations to account for when dealing with samples collected from patients, pathogen surveillance, and human research subjects.
 
 The genomic data can represent anything from the genetic sequence of a single pathogen isolate to various fragments of genetic materials from a flora of pathogens in larger population. Other data can represent a wide range of contextual information about the human host, the disease, and various environmental factors.
 
@@ -95,7 +95,7 @@ While the object of interest in this domain are pathogens, the data is usually d
   * How will you capture information about the configuration and quality of the sequencing results?
   * How will you ensure that the information captured is complete and correct?
 * What data and file formats should you consider for your project?
-  * What are the de-facto standards used for the experiment type and down-stream analysis-pipelines?
+  * What are the *de-facto* standards used for the experiment type and down-stream analysis-pipelines?
   * Where are the instrument specific aspects for the data and files formats documented?
 * What existing data will you integrate or use as a reference in your project?
   * What reference genome(s) will you need access to?
