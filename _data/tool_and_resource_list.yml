@@ -2535,8 +2535,8 @@
     tess: 
   url: http://3dbionotes-ws.cnb.csic.es/
 - description: A software to make biological search more integrated, intuitive and intelligent, enabling a better way to discover and share new insights.
-  id: knetMiner
-  name: Knetminer
+  id: knetminer
+  name: KnetMiner
   registry:
     biotools: 
     fairsharing: 
