@@ -177,6 +177,7 @@ with open(yaml_path, 'r') as read_obj:
     yaml=YAML(typ='safe')
     yaml.default_flow_style = False
     yaml.representer.add_representer(type(None), my_represent_none)
+    yaml.width = 1000
     all_tools = yaml.load(read_obj)
 
     # Looping over tools
