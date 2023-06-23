@@ -58,7 +58,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
       * {% tool "molssi" %} - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
 
     * Molecular Dynamics databases - allow access to precalculated data
-      * {% tool "bioexcel-covid-19"%} - database and associated web server to offer in a graphical way analyses on top of COVID-19 related MD trajectories stored in the MolSSI-BioExcel COVID-19 therapeutics hub.  
+      * {% tool "bioexcel-covid-19" %} - database and associated web server to offer in a graphical way analyses on top of COVID-19 related MD trajectories stored in the MolSSI-BioExcel COVID-19 therapeutics hub.  
       * {% tool "dynameomics" %} - database of folding/unfolding pathways
       * {% tool "memprotmd" %} - database of automatically generated membrane proteins from PDB inserted into simulated lipid bilayers
 
