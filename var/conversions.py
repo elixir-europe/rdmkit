@@ -8,6 +8,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import frontmatter
+from urllib.parse import urlparse
 
 class NullRepresenter:
     def __init__(self):
@@ -196,6 +197,12 @@ with open(yaml_path, 'r') as read_obj:
                         f'ERROR: The table contains the registry "{registry}" in row which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
                     sys.exit(
                         f'The table contains the registry "{registry}" in row which is not allowed.\n' + f"Allowed registries are {', '.join(allowed_registries)}.\n")
+        if 'url' in tool and tool['url']:
+            validation = urlparse(tool['url'])
+            if not validation.scheme and not validation.netloc:
+                print( f'ERROR: The tool "{tool_name}" contains has an invalid url: {tool["url"]}\n')
+                sys.exit()
+
 
 # --------- Pulling from FAIRsharing, TeSS and Bio.tools ---------
             if args.reg:
