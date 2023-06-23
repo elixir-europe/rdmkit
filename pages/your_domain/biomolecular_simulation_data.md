@@ -68,7 +68,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
       * [Model Archive](https://www.modelarchive.org/) - theoretical models of macromolecular structures, [with submission process](https://www.modelarchive.org/projects/new/basic).
 
     * Virtual Screening repositories:
-      * [Bioactive Conformational Ensemble](http://mmb.irbbarcelona.org/BCE) - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
+      * {% tool "bioactive-conformational-ensemble" %} - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
       * {% tool "bindingdb" %} - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, [with submission process](https://www.bindingdb.org/bind/contributedata.jsp).
 
     * Repositories for the analyzed data from simulations:
