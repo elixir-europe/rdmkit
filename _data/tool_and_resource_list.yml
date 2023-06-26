@@ -1120,7 +1120,7 @@
   url: https://mmp2.sfb.uit.no/marfun/
 - description: High-quality curated and freely accessible microbial genomics and metagenomics resources for the marine scientific community
   id: marine-metagenomics-portal
-  name: Marine metagenomics portal
+  name: Marine Metagenomics Portal (MMP)
   registry:
     biotools: mmp
   url: https://mmp2.sfb.uit.no/

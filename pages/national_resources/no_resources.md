@@ -295,7 +295,7 @@ The [Norwegian Covid-19 Data Portal](https://covid19dataportal.no/) acts as a sp
 
 ### Marine metagenomics portal tool assembly
 
-The Norwegian marine metagenomics portal tool assembly offers comprehensive resources for researchers and students. While the data storage tools through NeLS are primarily for users in Norway, the data analysis tools and repositories are globally accessible. The Marine Metagenomics Portal (MMP) is a rich collection of high-quality, curated microbial genomics and metagenomics resources. The toolkit is described in detail on the [Marine metagenomics Portal tool assembly RDMkit page](marine_metagenomics_assembly).
+The Norwegian marine metagenomics portal tool assembly offers comprehensive resources for researchers and students. While the data storage tools through NeLS are primarily for users in Norway, the data analysis tools and repositories are globally accessible. The {% tool "marine-metagenomics-portal" %} is a rich collection of high-quality, curated microbial genomics and metagenomics resources. The toolkit is described in detail on the [Marine metagenomics Portal tool assembly RDMkit page](marine_metagenomics_assembly).
 
 ## Ethical committees and general authorities
 We provide here a list of ethics committees and guidelines, relevant to life sciences data, that are responsible for national regulations in Norway:
