@@ -453,10 +453,6 @@
   id: covid-19-disease-map
   name: COVID-19 Disease Map
   url: https://fairdomhub.org/projects/190
-- description: COVID-19 Molecular Structure and Therapeutics Hub
-  id: covid-19-molecular-structure-and-therapeutics-hub
-  name: COVID-19 Molecular Structure and Therapeutics Hub
-  url: https://covid.bioexcel.eu/
 - description: Examples and tools to create a codebook by the Data Documentation Initiative (DDI)
   id: create-a-codebook
   name: Create a Codebook
@@ -518,12 +514,6 @@
   id: data-curation-centre-metadata-list
   name: Data Curation Centre Metadata list
   url: https://www.dcc.ac.uk/guidance/standards/metadata/list
-- description: Dataverse for life sciences and agronomic related data
-  id: data-inrae
-  name: Data INRAE
-  registry:
-    fairsharing: 178BmT
-  url: https://data.inrae.fr/
 - description: Publicly available online tool for composing smart data management plans
   id: data-stewardship-wizard
   name: Data Stewardship Wizard
@@ -1207,10 +1197,6 @@
     biotools: model
     fairsharing: NA
   url: https://mmb.irbbarcelona.org/MoDEL/
-- description: Database of COVID-19 related atomistic Molecular Dynamic Trajectories
-  id: model-covid19
-  name: MoDEL Covid19
-  url: https://bioexcel-cv19.bsc.es/#/
 - description: Repository for Central Nervous System-related mainly membrane protein MD simulations
   id: model-cns
   name: MoDEL-CNS
