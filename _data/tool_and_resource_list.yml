@@ -923,13 +923,6 @@
   id: globus
   name: Globus
   url: https://www.globus.org
-- description: A multispecies integrative information system dedicated to plant and fungi pests. It allows researchers to access genetic, phenotypic and genomic data. It is used by both large international projects and the French National Research Institute for Agriculture, Food and Environment.
-  id: gnpis
-  name: GnpIS
-  registry:
-    biotools: gnpis
-    fairsharing: dw22y3
-  url: https://urgi.versailles.inrae.fr/gnpis/
 - description: Search engine for datasets
   id: google-dataset-search
   name: Google Dataset Search
