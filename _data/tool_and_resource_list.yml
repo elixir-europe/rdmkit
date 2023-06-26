@@ -146,6 +146,7 @@
   name: BacDive
   registry:
     biotools: bacdive
+    tess: BacDive
   related_pages:
   - micro_biotech
   url: https://bacdive.dsmz.de
@@ -1334,6 +1335,7 @@
   name: FAIRDOMHub
   registry:
     fairsharing: nnvcr9
+    tess: FAIRDOMHub
   related_pages:
   - storage
   - researcher
@@ -2312,6 +2314,7 @@
   registry:
     biotools: pangaea
     fairsharing: 6yw6cp
+    tess: PANGAEA
   related_pages:
   - data_publication
   - metadata
