@@ -24,7 +24,7 @@ def process_args():
     '''parse command-line arguments
     '''
 
-    parser = argparse.ArgumentParser(prog='Conversions',
+    parser = argparse.ArgumentParser(prog='Tools Validator',
                                      description='This script will convert the tool and resources table to a yaml file while injecting bio.tools and FAIRsharing IDs where needed.',)
     parser.add_argument('--username',
                         help='Specify the FAIRsharing username')
@@ -206,30 +206,40 @@ with open(yaml_path, 'r') as read_obj:
 
 # --------- Pulling from FAIRsharing, TeSS and Bio.tools ---------
             if args.reg:
+                registry = {}
+                if 'registry' in tool:
+                    registry = tool['registry']
                 # TeSS Lookup
                 check_tess = tess_available(tool_name)
                 if check_tess:
-                    tool['registry']["tess"] = check_tess
+                    registry['tess'] = check_tess
                 else: 
-                    if "tess" in tool['registry'].keys():
-                        del tool['registry']["tess"]
+                    if 'tess' in registry.keys():
+                        del registry['tess']
                 # Bio.tools Lookup
-                if "biotools" not in tool['registry'].keys() or not tool['registry']["biotools"] :
+                if 'biotools' not in registry.keys() or not registry['biotools'] :
                     check_biotools = biotools_available(tool_name)
                     if check_biotools:
-                        tool['registry']["biotools"] = check_biotools
-                if "biotools" in tool['registry'].keys() and not tool['registry']["biotools"]:
-                    del tool['registry']["biotools"]
+                        registry['biotools'] = check_biotools
+                if 'biotools' in registry.keys() and not registry['biotools']:
+                    del registry['biotools']
 
                 # FAIRsharing Lookup
-                if "fairsharing" not in tool['registry'].keys() or not tool['registry']["fairsharing"]:
+                if 'fairsharing' not in registry.keys() or not registry['fairsharing']:
                     if len(tool_name) > 4:
                         check_fairsharing = fairsharing_available(
                             tool_name, fairsharing_token)
                         if check_fairsharing:
-                            tool['registry']["fairsharing"] = check_fairsharing
-                if "fairsharing" in tool['registry'].keys() and not tool['registry']["fairsharing"]:
-                    del tool['registry']["fairsharing"]
+                            registry['fairsharing'] = check_fairsharing
+                if 'fairsharing' in registry.keys() and not registry['fairsharing']:
+                    del registry['fairsharing']
+
+                # Add populated registry dict to the main list
+                if registry:
+                    tool['registry'] = registry
+                # Delete empty dict
+                if 'registry' in tool and not tool['registry']:
+                    del tool['registry']
         main_list.append(tool)
         print(f"{i}. {tool['name']} is parsed.")
 

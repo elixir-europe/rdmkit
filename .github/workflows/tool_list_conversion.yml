@@ -25,7 +25,7 @@ jobs:
           pip install ruamel.yaml requests python-frontmatter
       - name: Run tool table 2 yaml
         run: | 
-          python var/conversions.py
+          python var/tools_validator.py
   
   registry-lookup:
     if: |
@@ -53,7 +53,7 @@ jobs:
 
       - name: Run regsitry lookup for the tools file
         run: | 
-          python var/conversions.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+          python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
 
       - name: Fetch country names with corresponding iso
         run: |
