@@ -743,17 +743,6 @@
   - researcher
   - data_manager
   url: https://www.dcc.ac.uk/guidance/standards/metadata/list
-- description: Dataverse for life sciences and agronomic related data
-  name: Data INRAE
-  registry:
-    fairsharing: 178BmT
-  related_pages:
-  - plants
-  - plant_geno_assembly
-  - researcher
-  - data_manager
-  - plant_pheno_assembly
-  url: https://data.inrae.fr/
 - description: Publicly available online tool for composing smart data management
     plans
   name: Data Stewardship Wizard
