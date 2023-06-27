@@ -80,8 +80,6 @@ It is good practice to [publish](data_publication) your data on repositories. IF
 
 The french scientific community benefit from [Recherche.Data.Gouv](https://recherche.data.gouv.fr/en) a national Dataverse repository. This repository is associated with [thematic reference centres](https://recherche.data.gouv.fr/en/page/thematic-reference-centers-providing-expertise-for-individual-scientific-fields) and data management clusters. IFB is the reference centre for Life Science. 
 
-If you are a member of INRAE (one of the stakeholders of IFB infrastructure), you can access the institutional instance of the Dataverse platform [Data INRAE](https://data.inrae.fr). Data INRAE can be used by researchers to store and describe datasets during the project, and to share them according to specific sharing settings. 
-
 You can also browse [cat-OPIDoR](https://cat.opidor.fr/index.php/Cat_OPIDoR,_wiki_des_services_dédiés_aux_données_de_la_recherche) for an overview of the different services related to data management provided by IFB infrastructure and its stakeholders in France.
 
 ### Compliance monitoring & measurement
