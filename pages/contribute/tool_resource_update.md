@@ -1,5 +1,5 @@
 ---
-title: Updating the tool and resource list
+title: Add new tool or resource
 summary: How to add a tool or resource to RDMkit
 ---
 
