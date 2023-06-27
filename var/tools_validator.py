@@ -183,8 +183,8 @@ with open(yaml_path, 'r') as read_obj:
 
     # Looping over tools
     for i, tool in enumerate(all_tools):
-        if tool['id'] != re.sub('[^0-9a-zA-Z]+', ' ', re.sub("[\(\[].*?[\)\]]", "", tool['id'])).strip().replace(" ", "-").lower():
-            sys.exit(f"{tool['name']} has an incorrect ID")
+        if 'id' not in tool.keys() or tool['id'] != re.sub('[^0-9a-zA-Z]+', ' ', re.sub("[\(\[].*?[\)\]]", "", tool['id'])).strip().replace(" ", "-").lower():
+            sys.exit(f"{tool['name']} has an no or incorrect ID. Make sure the ID is kebab-case and only contains alphanumerical characters.")
         tool_name = tool['name']
         # Only include keys if there are values:
         if 'related_pages' in tool and tool['related_pages']:
