@@ -5,7 +5,7 @@ contributors: [Sébastien Besson, Jean-Marie Burel, Susanne Kunis, Josh Moore, S
 page_id: bioimaging_data
 related_pages: 
   your_tasks: [dmp, data_organisation, data_publication, existing_data, transfer, licensing, metadata, storage]
-  tool_assembly: [ome, xnat-pic]
+  tool_assembly: [ome, xnat_pic]
 training:
   - name: RDMbites for using REMBI
     registry: TeSS

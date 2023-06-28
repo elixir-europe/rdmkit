@@ -1,7 +1,7 @@
 ---
 title: XNAT-PIC
 contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo, Silvio Aime]
-page_id: xnat-pic
+page_id: xnat_pic
 affiliations: [Euro BioImaging, IT]
 related_pages: 
   your_tasks: [data_organisation, storage, data_analysis]
