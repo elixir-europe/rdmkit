@@ -24,8 +24,6 @@ related_pages:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
-# Human Pathogen Genomics
-
 ## Introduction
 The human pathogen genomics domain focuses on studying the genetic code of organisms that cause disease in humans. Studies to identify and understand pathogens are conducted across different types of organisations ranging from research institutes to regional public health authorities. The aims can include urgent outbreak response, prevention measures, and developing remedies such as treatments and vaccines.
 
@@ -33,7 +31,7 @@ Data management challenges in this domain include the potential urgency of data 
 
 The genomic data can represent anything from the genetic sequence of a single pathogen isolate to various fragments of genetic materials from a flora of pathogens in larger population. Other data can represent a wide range of contextual information about the human host, the disease, and various environmental factors.
 
-## Planning a study with pathogen genome data
+## Planning a study with pathogen genomic data
 
 ### Description
 While the object of interest in this domain are pathogens, the data is usually derived from samples originating from patients and human research subjects. This means that you must plan to either remove or to handle [human data](human_data) during your study.
@@ -86,7 +84,7 @@ While the object of interest in this domain are pathogens, the data is usually d
     * [ISO/TS 22692:2020 Genomics informatics — Quality control metrics for DNA sequencing](https://www.iso.org/standard/73693.html)
     * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterization of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
 
-## Collecting and processing pathogen sequence data
+## Collecting and processing pathogen genomic data
 
 ### Considerations
 
