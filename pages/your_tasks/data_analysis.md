@@ -101,6 +101,7 @@ In short containers works almost like a virtual machine (VMs), in that it re-cre
 * To customize a Docker image, it is possible to use techniques such as {% tool "volumes" %} to store data and {% tool "dockerfile-reference" %}. This is useful for installing your own application inside a new container image, based on a suitable _base image_ where you can do your `apt install` and software setup in a reproducible fashion - and share your own application as an image on Docker Hub.
 * Container linkage can be done by _container composition_ using tools like {% tool "docker-compose-overview" %}.
 * More advanced container deployment solutions like {% tool "kubernetes" %} and Computational Workflow Management systems can also manage cloud instances and handle analytical usage.
+* {% tool "OpenStack" %} is an open-source platform that uses pooled virtual resources to build and manage private and public clouds. It provides a stable base for deploying and managing containers, allowing for faster application deployment and simplified management.
 * Tips and tricks to navigate the landscape of container solutions:
     * If you just need to run a database server, describe how to run it as a Docker/Singularity container.
     * If you need several servers running, connected together, set up containers in Docker Compose.
