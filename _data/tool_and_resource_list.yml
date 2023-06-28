@@ -1086,10 +1086,6 @@
   id: ibm-aspera
   name: IBM Aspera
   url: https://www.ibm.com/products/aspera
-- description: Data sharing
-  id: icloud
-  name: iCloud
-  url: https://www.icloud.com/
 - description: The Identifiers.org Resolution Service provides consistent access to life science data using Compact Identifiers. Compact Identifiers consist of an assigned unique prefix and a local provider designated accession number (prefix:accession).
   id: identifiers-org
   name: Identifiers.org
