@@ -72,7 +72,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * [Study-level and data-level documentation](https://www.ukdataservice.ac.uk/manage-data/document/data-level.aspx) can be provided as
   * README file
-  * [Codebook](https://ddialliance.org/training/getting-started-new-content/create-a-codebook)
+  * Codebook ({% tool "create-a-codebook" %})
   * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
