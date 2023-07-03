@@ -157,3 +157,4 @@ To make human data reusable for others, it must be discoverable, stored in a saf
 * The {% tool "beacon" %} project is a GA4GH initiative that enables genomic and clinical data sharing across federated networks. A Beacon is defined as a web-accessible service that can be queried for information about a specific allele with no reference to a specific sample or patient, thereby reducing privacy risks.
 * The {% tool "data-use-ontology" %} is an international standard, which provides codes to represent data use restrictions for controlled access datasets.
 * {% tool "crypt4gh" %} is a Python tool to encrypt, decrypt or re-encrypt files, according to the GA4GH encryption file format.
+* [HumanMine](https://www.humanmine.org/humanmine) is an integrative database of *Homo sapiens* genomic data, that integrates many types of human data and provides a powerful query engine, export for results, analysis for lists of data and FAIR access via web services.
