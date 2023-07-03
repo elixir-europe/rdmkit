@@ -181,7 +181,7 @@ The Norwegian Ministry of Education and Research's "[National strategy on access
 
 We provide here a non-exhaustive list of research institutions with Data Management Policies in Norway:
 
-* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34680)
+* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/forskning/forskningsdata)
 * [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/policy-for-open-science)
 * [University of Bergen (UiB)](https://www.uib.no/en/foremployees/142184/university-bergen-policy-open-science)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-guidelines.html)
@@ -201,14 +201,14 @@ Most universities in Norway classify data into four categories, depending on acc
 * **Strictly confidential (Black)**: Information must have the strictest access rights if unauthorised access could cause significant damage (for example, highly confidential research or confidential addresses).
 
 Details and provided solutions vary according to each institution:
-* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
+* [Norwegian University of Life Sciences (NMBU) - login](https://www.nmbu.no/node/35651)
 * [Norwegian University of Science and Technology (NTNU)](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
 ### Institutional guidelines related to personal data
-* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
+* [Norwegian University of Life Sciences (NMBU)]([https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780](https://www.nmbu.no/forskning/forskningsdata))
 * [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects), also available [in Norwegian](https://i.ntnu.no/wiki/-/wiki/Norsk/Behandle+personopplysninger+i+student-+og+forskningsprosjekt)
 * [Norwegian University of Science and Technology - Health research guidelines](https://i.ntnu.no/helseforskning)
 * [University of Bergen (UiB)](https://www.uib.no/en/personaldata/130126/privacy-policy-university-bergen), also available [in Norwegian](https://www.uib.no/personvern)
