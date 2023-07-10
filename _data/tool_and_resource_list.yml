@@ -2266,3 +2266,19 @@
   id: ome-data-model-and-file-formats
   name: OME Data Model and File Formats
   url: https://docs.openmicroscopy.org/ome-model/
+- description: A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards
+  id: consentgenomicresearch
+  name: Consent Clauses for Genomic Research
+  url: https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view
+- description: Regulation (eu) 2016/679 of the european parliament and of the council on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing directive 95/46/ec (general data protection regulation)
+  id: euprotectregu
+  name: EU General Data Protection Regulation
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN
+- description: The International Compilation of Human Research Standards enumerates over 1,000 laws, regulations, and guidelines (collectively referred to as standards) that govern human subject protections in 133 countries, as well as standards from a number of international and regional organizations
+  id: humanresearchstandards
+  name: International Compilation of Human Research Standards
+  url: https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf
+- description: HumanMine is an integrative database of *Homo sapiens* genomic data, that integrates many types of human data and provides a powerful query engine, export for results, analysis for lists of data and FAIR access via web services
+  id: humanmine
+  name: HumanMine
+  url: https://www.humanmine.org/humanmine
