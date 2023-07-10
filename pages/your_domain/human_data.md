@@ -52,12 +52,12 @@ When working with human data, you must follow established research ethical guide
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
       - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
       - _**Note that the content of an informed consent, as defined by one piece of legislation, might not live up to the demands of another piece of legislation.**_ For example, an informed consent that is good enough for an ethical permit, might not be good enough for the demands of the GDPR.
-  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the {% tool "consentgenomicresearch" %}.
+  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the {% tool "consent-clauses-for-genomic-research" %}.
 * Personal data protection legislation:
   * **Within the EU.** If you are performing human data research in the EU, or your data subjects are located in the EU, then you must adhere to the General Data Protection Regulation - GDPR.
     * Requirements for research that fall under the GDPR are outlined in the [RDMkit Data protection page](data_protection). 
     * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](sensitive_data) provides guidance on determining and reducing data sensitivity.
-  * **Outside the EU.** For countries outside the EU, the {% tool "humanresearchstandards" %} list relevant legislations.
+  * **Outside the EU.** For countries outside the EU, the {% tool "international-compilation-of-human-research-standards" %} list relevant legislations.
 
 
 ### Solutions
@@ -69,7 +69,7 @@ When working with human data, you must follow established research ethical guide
   * {% tool "data-use-ontology" %}
   * {% tool "informed-consent-ontology" %}
   * {% tool "ga4gh-regulatory-and-ethics-toolkit" %}
-  * {% tool "euprotectregu" %}
+  * {% tool "eu-general-data-protection-regulation" %}
   * {% tool "bbmri-eric-s-elsi-knowledge-base" %} contains a glossary, agreement templates and guidance.
 
 ## Processing and analysing human data
