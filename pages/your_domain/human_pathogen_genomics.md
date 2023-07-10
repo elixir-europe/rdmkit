@@ -1,7 +1,6 @@
 ---
 title: Human pathogen genomics
-search_exclude: true
-description: <!---REPLACE THIS with a one sentence description of the page--->
+description: Data management solutions for Human pathogen genomics
 contributors: [Diana Pilvar, Espen Åberg, Wolmar Nyberg Åkerström, Rafael Andrade Buono]
 page_id: human_pathogen_genomics
 related_pages: 
