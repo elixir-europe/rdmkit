@@ -48,7 +48,7 @@ When working with human data, you must follow established research ethical guide
 * The acquisition of data must be legal.
   * **Receiving data/samples directly from data subjects** requires in most cases **informed consents**.
     - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimise those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.
-      - Consider describing data use conditions using a machine-readable formalised description such as the Data Use Ontology [DUO](https://github.com/EBISPOT/DUO). This will greatly improve the possibilities to make the data FAIR later on.
+      - Consider adoption of formalised machine-readable description of data use conditions. This will greatly improve the possibilities to make the data FAIR later on.
     - Informed consents should be acquired for different purposes:
       - It is a cornerstone of _research ethics_. Regardless of legal obligations, it is important to ask for informed consents as it is a good research ethics practice and maintains trust in research.
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
