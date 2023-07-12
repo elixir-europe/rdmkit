@@ -45,7 +45,7 @@ In general, data can be categorised into two types i.e. sensitive data and non-s
 
 ### Considerations
 
-* If you deal with any information about individuals from the EU, you are bound by the [General Data Protection Regulation (GDPR)](https://gdpr.eu/what-is-gdpr/). In GDPR, such data is called "personal data".
+* If you deal with any information about individuals from the EU, you are bound by the {% tool "eu-general-data-protection-regulation" %}. In GDPR, such data is called "personal data".
 * In the context of GDPR "special category data" is a subclass of "personal data" that is potentially even more harmful, and GDPR prescribes very strict rules for dealing with this data. Article 9 of GDPR defines the special categories as data consisting of racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person's sex life or sexual orientation. Confusingly, these special categories are sometimes colloquially called "sensitive data". Note that this page is concerned with the broader definition of "sensitive data".
 * Information in Life Science projects are for the most part categorised under health and genetic data and are considered special category data under the GDPR.
 * You need to assess whether or not your dataset contains attributes that can lead to the identification of a person. Note that combinations of attributes that are themselves not identifiable can be identifiable together. See the definitions described in the [How can you de-identify your data](#how-can-you-de-identify-your-data) section.
