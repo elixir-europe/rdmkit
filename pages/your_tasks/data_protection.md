@@ -72,7 +72,7 @@ To protect your research data, code, and other information assets you should est
 
 ### Description
 
-Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
+Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN) (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
 derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
 The safeguards are a multitude and include:
   * data collection with informed consent under ethical oversight and accountability;
@@ -114,10 +114,10 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
 
 ### Solution
 
-  * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
   * [European Data Protection Supervisor's "Preliminary opinion on Data Protection and Scientific Research"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf)
   * {% tool "bbmri-eric-s-elsi-knowledge-base" %} contains a glossary, agreement templates and guidance.
-  * {% tool "daisy" %} is software tool from ELIXIR that allows the record keeping of data processing activities in research projects.
+  * {% tool "daisy" %} and {% tool "erpa" %} are software tools from ELIXIR that allows the record keeping of data processing activities in research projects.
   * {% tool "dawid" %} is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
+  * {% tool "dpia-knowledge-model" %} is designed to leverage {% tool "data-stewardship-wizard" %} to perform DPIA.
   * {% tool "tryggve-elsi-checklist" %} is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
 
