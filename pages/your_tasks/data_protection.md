@@ -72,7 +72,7 @@ To protect your research data, code, and other information assets you should est
 
 ### Description
 
-Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the [General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN) (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
+Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the {% tool "eu-general-data-protection-regulation" %} (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
 derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
 The safeguards are a multitude and include:
   * data collection with informed consent under ethical oversight and accountability;
