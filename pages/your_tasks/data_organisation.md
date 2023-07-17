@@ -127,7 +127,7 @@ Folders should:
 * have a self-explanatory name that is only as long as is necessary
 * have a unique name – avoid assigning the same name to a folder and a subfolder
 
-The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. This file should also contain explanation of the file naming convention. See also [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
+The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. For information on the content of a README file see corresponding section on [Documentation and metadata](metadata_management#what-do-you-write-in-a-readme-file) page. See also [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
 
 #### An example:
 

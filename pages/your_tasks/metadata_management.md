@@ -1,6 +1,6 @@
 ---
 title: Documentation and metadata
-contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft]
+contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft, Elin Kronander, Marina Popleteeva]
 description: How to document and describe your data.
 page_id: metadata
 related_pages:
@@ -70,19 +70,20 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * The established data organization system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, RDF, HTML). The description of the data organization system has to be placed in the folder at the highest level (e.g. “Project” folder).
 
-* [Study-level and data-level documentation](https://www.ukdataservice.ac.uk/manage-data/document/data-level.aspx) can be provided as
+* [Study-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/study-level-documentation/) and [data-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/data-level/) documentation can be provided as
   * README file
   * [Codebook](https://ddialliance.org/training/getting-started-new-content/create-a-codebook)
   * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
-  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf). Also non-proprietary formats are preferred over proprietary ones.
+  Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception since its main purpose is to be human-readable, i.e. not intended to be machine-readable or -actionable.
+  Also non-proprietary formats are preferred over proprietary ones.
 
 * Highly structured data documentation is called **metadata**. Generating metadata in a machine-readable or -actionable format makes your data more FAIR . Metadata provides structured and searchable information so that a user can find existing data, evaluate its reusability and cite it.
 
 * It is good practice to use international standard metadata schemas to organise and store your (meta)data in a structured way. A metadata schema describes the relations, such as hierarchy, of the elements that belong to the structure. It is also good practice to use international standard metadata checklists to describe the content your (meta)data. A (meta)data checklist is a fixed set of attributes about the data that needs to be provided. Some attributes are mandatory, some are only recommended or optional. International standard metadata schemas and checklists are developed by and accepted as standards by communities. There are many standard metadata schemas and checklists, some generic, while others discipline-specific. See the paragraph about [how to find standard metadata.](metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
 
-* You can use the attributes of metadata schemas and checklists in a format that is not machine-readable or -actionable (e.g., by copying the metadata fields in a README.txt file or in a Codebook.xls). However, using standard metadata in a machine-readable or -actionable format will increase the findability of your data.
+* You can use the attributes of metadata schemas and checklists in a format that is not machine-readable or -actionable (e.g., by copying the metadata fields in a Codebook.xls). However, using standard metadata in a machine-readable or -actionable format will increase the findability of your data.
 
 * Metadata schemas and checklists usually rely on ontologies and controlled vocabularies, which make your data more reusable and interoperable. See the paragraph about [how to find ontologies and controlled vocabularies.](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
 
@@ -145,3 +146,68 @@ There are many vocabularies and ontologies available on the web. Finding a suita
   * [Ontobee](http://www.ontobee.org)
   * [BioPortal](https://bioportal.bioontology.org)
   * [AgroPortal](https://agroportal.lirmm.fr)
+
+## What do you write in a README file?
+
+### Description
+
+A README file is typically a text file written in text (.txt) or markdown (.md) format. The content could either be on study-level or data-level. This is a file for a potential user of your data, including yourself, it is not meant to be machine-actionable.
+
+### Considerations
+
+* README file can be updated with time to include information which was not available before. It is a good practice to create a first version when starting a new project.
+* For complex projects, consider to write README files on several levels, not only in the top level of the project.
+
+### Solutions 
+
+Below you will find examples of README files for study-level and data-level. For more information you might want to check [documentation page](https://rdm.elixir-belgium.org/data_documentation#readme-file) from ELIXIR Belgium node.
+
+#### Study/project level README
+
+    This README file was generated on [YYYY-MM-DD] by [NAME]
+
+    GENERAL INFORMATION
+    - Study/project title:
+    - Description: <provide a short description of the study/project>
+    - Principle Investigator:
+    - Link to Data management plan
+
+    ORGANIZATION
+    - Folder structure: similar to folder structure example above (below)
+    - File naming conventions (with examples) <unless your project is big and you have README files in every subfolder with this information provided there>
+    - File formats: <Provide a list of all file formats present in this study/project>
+
+
+#### Data level README 
+
+    This README file was generated on [YYYY-MM-DD] by [NAME]
+
+    GENERAL INFORMATION
+    - Dataset title:
+    - Description: <provide description of the dataset origin, steps used in its generation, content and its purpose>
+
+    ORGANIZATION
+    - Folder structure: similar to folder structure example above (below)
+    - File naming conventions: <provide explanation of the elements used, allowed values and examples> 
+    - File formats: <Provide a list of all file formats present in this dataset>
+
+    DATA COLLECTION
+    - Institutional catalog ID (if applicable):
+    - Date of data collection: <provide single date, range, or approximate date; suggested format YYYY-MM-DD>
+    - Link to electronic lab book (codebook) where the following is described (if it does not exist, include it here):
+      - Methods used for data collection (including references, documentation (e.g. consent form template), links):
+      - Geographic location of collection (if applicable):
+      - Experimental & environmental conditions of collection (if applicable):
+      - Standards and calibration for data collection (if applicable):
+      - Uncertainty, precision and accuracy of measurements (if applicable):
+      - Known problems & caveats (sampling, blanks, etc.):
+      - Codes or symbols used to record missing data with description (if applicable):
+    - Link to data dictionary:
+
+    DATA RE-USE
+    - DOI/accession number (if dataset is published): 
+    - License (if any):
+    - Use restrictions (if any):
+    - Recommended citation for the data (if any):
+
+
