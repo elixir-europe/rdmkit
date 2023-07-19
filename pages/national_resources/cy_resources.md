@@ -1,7 +1,6 @@
 ---
 
 title: Cyprus
-search_exclude: true
 country_code: CY
 contributors: [Anastasis Oulas, Nicholas Killilis, Nestoras Kathanasis, George Spyrou, Vasilis Promponas]
 
@@ -58,7 +57,7 @@ This page provides a general overview of national resources and initiatives on r
 The [Research and Innovation Foundation (RIF)](https://www.research.org.cy/en/) is the national authority in charge of supporting and promoting research, technological development and innovation in Cyprus.
 
 ## Regulations
-The [Cypurs National Policy of the Republic of Cyprus for Open Science Practices](https://www.dmrid.gov.cy/dmrid/research.nsf/All/877E9BEBAF67EE6CC2258859003DF656/$file/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CE%AE%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CE%BA%CE%AE%20%CE%91%CE%BD%CE%BF%CE%B9%CE%BA%CF%84%CE%AE%CF%82%20%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B7%CF%82.pdf?) was recently revised to inlcude research data managment and planning.
+The [Cypurs National Policy of the Republic of Cyprus for Open Science Practices (PDF document)](https://www.dmrid.gov.cy/dmrid/research.nsf/All/877E9BEBAF67EE6CC2258859003DF656/$file/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CE%AE%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CE%BA%CE%AE%20%CE%91%CE%BD%CE%BF%CE%B9%CE%BA%CF%84%CE%AE%CF%82%20%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B7%CF%82.pdf?) was recently revised to inlcude research data managment and planning.
 
 The [Cyprus National Bioethics Committee](http://www.bioethics.gov.cy/moh/cnbc/cnbc.nsf/index_en/index_en?OpenDocument) (document EEBK3). 
 All medical records and biological material are kept under secure conditions at a specially prepared 
