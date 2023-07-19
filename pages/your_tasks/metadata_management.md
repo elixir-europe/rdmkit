@@ -89,6 +89,8 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * We recommend familiarising yourself with the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data according to their requirements as early as possible.
 
+* Platforms for management of metadata and data used by some scientific communities: {% tool "cedar" %}, {% tool "semares" %}, {% tool "fairdom-seek" %}, {% tool "fairdomhub" %}, {% tool "copo" %}.
+
 
 
 
@@ -146,6 +148,8 @@ There are many vocabularies and ontologies available on the web. Finding a suita
   * {% tool "ontobee" %}
   * {% tool "bioportal" %}
   * {% tool "agroportal" %}
+  * {% tool "the-open-biological-and-biomedical-ontology-foundry" %}
+  * {% tool "evidence-and-conclusion-ontology" %}
 
 ## What do you write in a README file?
 
@@ -209,4 +213,3 @@ Below you will find examples of README files for study-level and data-level. For
     - License (if any):
     - Use restrictions (if any):
     - Recommended citation for the data (if any):
-
