@@ -40,6 +40,7 @@ Here, we provide some advice and methods to help consortia with data management 
 * If applicable, each partner (actually, its representative) should consult with personal data legislation experts (e.g. GDPR or equivalent), Data Protection Officers (DPOs) and the legal office of the institution (e.g. for technology transfer) to reach a consensus at the consortium level about data protection, availability and open science.
 * It is recommended to discuss as early as possible the licensing and the intellectual property (IP) rights of project outcomes (datasets, software, tools, etc.), in order to comply with open science requirements and to avoid legal issues later on. 
 * Discuss a common plan for the sharing of data, [documentation and metadata](metadata_management) between partners.
+* Tools such as {% tool "fair-implementation-profile" %} and {% tool "fip-wizard" %} could be used to explicitly declare FAIR Implementation Profiles.
 
 ## How to execute data management in collaborative projects?
 
