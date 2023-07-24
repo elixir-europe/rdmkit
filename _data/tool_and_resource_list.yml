@@ -1986,6 +1986,10 @@
   registry:
     tess: UniChem
   url: https://www.ebi.ac.uk/unichem/
+- description: Protein modification for mass spectrometry
+  id: unimod
+  name: Unimod
+  url: https://www.unimod.org
 - description: Comprehensive resource for protein sequence and annotation data
   id: uniprot
   name: UniProt
@@ -2172,6 +2176,10 @@
   registry:
     tess: Homebrew
   url: https://brew.sh/
+- description:  A database to quickly access all tryptic peptides of the UniProtKB
+  id: macpepdb
+  name: Mass Centric Peptide Database
+  url: https://macpepdb.mpc.rub.de/
 - description: The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac operating system.
   id: macports
   name: MacPorts
