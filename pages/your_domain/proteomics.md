@@ -57,15 +57,12 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 
 ### Solutions
 - Within the proteomics community various converter software tools such as {% tool "msconvert" %} were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
-- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ).
-
-
-### Example of tools using PSI formats
-* {% tool "comet" %}
-* {% tool "mascot" %}
-* {% tool "openms" %}
-* {% tool "pia-protein-inference-algorithms" %}
-* {% tool "skyline" %}
+- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ). The following list shows just a few tools using standard data formats as input and/or output: 
+  * {% tool "comet" %}
+  * {% tool "mascot" %}
+  * {% tool "openms" %}
+  * {% tool "pia-protein-inference-algorithms" %}
+  * {% tool "skyline" %}
 
 
 ## Preserving and sharing proteomics data
