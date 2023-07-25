@@ -36,11 +36,11 @@ For different proteomics experiments and different steps of the respective data 
 ### Solutions
 The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ({% tool "proteomics-standards-initiative" %}), a proteomics community-driven organization, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
 - Controlled vocabularies: PSI-MS, PSI-MI, XLMOD and sepCV, which are provided as OBO files.
-- The Minimum Information About a Proteomics Experiment (MIAPE) guidelines document.
-- mzML  - a standard format for encoding raw mass spectrometer output.
-- mzIdentML - a standard exchange format for peptides and proteins identified from mass spectra.
-- mzQuantML - a standard format that is intended to store the systematic description of workflows quantifying molecules (principally peptides and proteins) by mass spectrometry.
-- mzTab - a tab delimited text file format to report proteomics and metabolomics results.
+- The Minimum Information About a Proteomics Experiment ([MIAPE](https://psidev.info/miape)) guidelines document.
+- [mzML](https://www.psidev.info/mzML)  - a standard format for encoding raw mass spectrometer output.
+- [mzIdentML](https://www.psidev.info/mzidentml) - a standard exchange format for peptides and proteins identified from mass spectra.
+- [mzQuantML](https://psidev.info/mzquantml) - a standard format that is intended to store the systematic description of workflows quantifying molecules (principally peptides and proteins) by mass spectrometry.
+- [mzTab](https://www.psidev.info/mztab) - a tab delimited text file format to report proteomics and metabolomics results.
 
 
 ## Processing and analysis of proteomics data
@@ -52,12 +52,12 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 - Can your proteomics raw data recorded by a mass spectrometer be stored as an mzML file?
 - Is it possible to convert your raw data to mzML?
 - Does your search engine support mzML and/or mzIdentML?
-- Does your quantification software support mzQuantML or mzTAB?
+- Does your quantification software support mzQuantML or mzTab?
 
 
 ### Solutions
 - Within the proteomics community various converter software tools such as {% tool "msconvert" %} were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
-- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ). The following list shows just a few tools using standard data formats as input and/or output: 
+- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [mzTab](https://www.psidev.info/mztab) ). The following list shows just a few tools using standard data formats as input and/or output: 
   * {% tool "comet" %}
   * {% tool "mascot" %}
   * {% tool "openms" %}
