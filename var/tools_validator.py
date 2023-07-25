@@ -144,31 +144,6 @@ rootdir = 'pages/'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
 my_represent_none = NullRepresenter()
 
-
-# --------- Reading out page_ids from pages ---------
-
-print(f"----> Reading out page_id from each file")
-pages_metadata = {}
-for subdir, dirs, files in os.walk(rootdir):
-    for file_name in files:
-        if os.path.splitext(file_name)[1] == '.md':
-            print(f"Opening {os.path.splitext(file_name)[0]}")
-            with open(os.path.join(subdir, file_name)) as f:
-                metadata, content = frontmatter.parse(f.read())
-            if 'page_id' in metadata.keys() and 'search_exclude' not in metadata.keys():
-                pages_metadata[metadata['page_id']] = {}
-                pages_metadata[metadata['page_id']
-                               ]['title'] = metadata['title']
-                pages_metadata[metadata['page_id']]['type'] = remove_prefix(
-                    subdir, 'pages/').replace("_", " ").capitalize()
-                pages_metadata[metadata['page_id']]['url'] = os.path.splitext(file_name)[
-                    0]
-                if 'description' in metadata:
-                    pages_metadata[metadata['page_id']
-                                   ]['description'] = metadata['description']
-
-print(f"----> Allowed related_pages: {', '.join(pages_metadata.keys())}.")
-
 args = process_args()
 main_list = []
 
