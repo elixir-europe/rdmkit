@@ -342,12 +342,12 @@
   id: bulk-rename-utility
   name: Bulk Rename Utility
   url: https://www.bulkrenameutility.co.uk/
-- description: A highly useful and flexible tool for calibration of targeted MS?based measurements. CalibraCurve enables an automated batch-mode determination of dynamic linear ranges and quantification limits for both targeted proteomics and similar assays. The software uses a variety of measures to assess the accuracy of the calibration and provides intuitive visualizations.
-  id: calibracurve
-  name: CalibraCurve
+- description: Open source tandem mass spectrometry (MS/MS) sequence database search tool.
+  id: comet
+  name: Comet
   registry:
-    biotools: calibracurve
-  url: https://github.com/mpc-bioinformatics/CalibraCurve
+    biotools: comet
+  url: https://uwpr.github.io/Comet/
 - description: Continuous evaluation of the accuracy and reliability of protein structure prediction methods in a fully automated manner
   id: cameo
   name: CAMEO
@@ -1254,6 +1254,18 @@
   registry:
     biotools: marref
   url: https://mmp2.sfb.uit.no/marref/
+- description: Powerful search engine which uses mass spectrometry data to identify proteins
+    from DNA, RNA and protein sequence databases as well as spectral libraries.
+  id: mascot
+  name: Mascot
+  registry:
+    biotools: MASCOT
+  url: https://www.matrixscience.com/server.html
+- description: Powerful search engine which uses mass spectrometry data to identify proteins
+    from DNA, RNA and protein sequence databases as well as spectral libraries.
+  id: massive
+  name: MassIVE
+  url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
 - description: Database of over 5000 intrinsic membrane protein structures
   id: memprotmd
   name: MemProtMD
@@ -1311,6 +1323,13 @@
     fairsharing: 9aa0zp
     tess: MIxS
   url: https://genomicsstandardsconsortium.github.io/mixs/
+- description: Provides a set of open-source, cross-platform software libraries and tools 
+    that facilitate proteomics data analysis.
+  id: msconvert
+  name: msconvert
+  registry:
+    biotools: msconvert
+  url: https://proteowizard.sourceforge.io/
 - description: A database of protein disorder and mobility annotations
   id: mobidb
   name: MobiDB
@@ -1464,6 +1483,12 @@
   registry:
     biotools: openebench
   url: https://openebench.bsc.es/
+- description: OpenMS offers an open-source C++ library (+ Python bindings) for LC/MS data management, analysis and visualization.
+  id: openms
+  name: OpenMS
+  registry:
+    biotools: openms
+  url: https://openms.de/
 - description: Data curation tool for working with messy data
   id: openrefine
   name: OpenRefine
@@ -1547,6 +1572,11 @@
   id: pdbx-mmcif-modelcif-extension-dictionary
   name: PDBx/mmCIF ModelCIF Extension Dictionary
   url: https://mmcif.wwpdb.org/dictionaries/mmcif_ma.dic/Index/
+- description: Database of multi-organism, publicly accessible compendium of peptides identified 
+    in a large set of tandem mass spectrometry proteomics experiments.
+  id: peptideatlas
+  name: PeptideAtlas
+  url: https://peptideatlas.org/
 - description: A resource that curates knowledge about the impact of genetic variation on drug response.
   id: pharmgkb
   name: PharmGKB
@@ -1598,6 +1628,10 @@
     fairsharing: e1byny
     tess: PRIDE
   url: https://www.ebi.ac.uk/pride/
+- description: Main tool used to submit proteomics datasets to PRIDE Archive
+  id: pride-submission-tool
+  name: PRIDE Submission Tool
+  url: https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool
 - description: ProteomeXchange provides globally coordinated standard data submission and dissemination pipelines
   id: proteomexchange
   name: ProteomeXchange
@@ -1804,6 +1838,15 @@
   registry:
     tess: Singularity
   url: https://sylabs.io
+- description: Freely-available, open-source Windows client application for building Selected
+    Reaction Monitoring (SRM) / Multiple Reaction Monitoring (MRM), Parallel Reaction Monitoring (PRM), 
+    DIA/SWATH and targeted DDA quantitative methods and analyzing the resulting mass spectrometer data.
+  id: skyline
+  name: Skyline
+  registry:
+    biotools: skyline
+    tess: Skyline
+  url: https://skyline.ms/project/home/begin.view
 - description: SMASCH (Smart Scheduling) system, is a web-based tooldesigned for longitudinal clinical studies requiring recurrent follow-upvisits of the participants. SMASCH controls and simplifies the scheduling of big database of patients. Smasch is also used to organize the daily plannings (delegation of tasks) for the different medical professionals such as doctors, nurses and neuropsychologists.
   id: smasch
   name: SMASCH
@@ -1943,6 +1986,10 @@
   registry:
     tess: UniChem
   url: https://www.ebi.ac.uk/unichem/
+- description: Protein modification for mass spectrometry
+  id: unimod
+  name: Unimod
+  url: https://www.unimod.org
 - description: Comprehensive resource for protein sequence and annotation data
   id: uniprot
   name: UniProt
@@ -2129,6 +2176,10 @@
   registry:
     tess: Homebrew
   url: https://brew.sh/
+- description:  A database to quickly access all tryptic peptides of the UniProtKB
+  id: macpepdb
+  name: Mass Centric Peptide Database
+  url: https://macpepdb.mpc.rub.de/
 - description: The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac operating system.
   id: macports
   name: MacPorts

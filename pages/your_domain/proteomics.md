@@ -1,7 +1,7 @@
 ---
 title: Proteomics
 description: Data management solutions for proteomics data.
-contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig]
+contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig, Dirk Winkelhardt]
 page_id: proteomics
 related_pages:
   your_tasks: [metadata]
@@ -34,7 +34,7 @@ For different proteomics experiments and different steps of the respective data 
 
 
 ### Solutions
-The Human Proteome Organisation (HUPO) {% tool "proteomics-standards-initiative" %}, a proteomics community-driven organization, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
+The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ({% tool "proteomics-standards-initiative" %}), a proteomics community-driven organization, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
 - Controlled vocabularies: PSI-MS, PSI-MI, XLMOD and sepCV, which are provided as OBO files.
 - The Minimum Information About a Proteomics Experiment (MIAPE) guidelines document.
 - mzML  - a standard format for encoding raw mass spectrometer output.
@@ -56,9 +56,13 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
 
 
 ### Solutions
-- Within the proteomics community various converter software tools such as {% tool "proteowizard" %} were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
-- Information on software tools that support HUPO-PSI standard data formats can be found on the standard format-specific web pages of the {% tool "proteomics-standards-initiative" %} (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab)).
-
+- Within the proteomics community various converter software tools such as {% tool "msconvert" %} were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
+- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [MZTAB](https://www.psidev.info/mztab) ). The following list shows just a few tools using standard data formats as input and/or output: 
+  * {% tool "comet" %}
+  * {% tool "mascot" %}
+  * {% tool "openms" %}
+  * {% tool "pia-protein-inference-algorithms" %}
+  * {% tool "skyline" %}
 
 
 ## Preserving and sharing proteomics data
@@ -75,6 +79,6 @@ In order to make proteomics data and results worldwide findable and accessible f
 
 
 ### Solution
-- You can find an appropriate data repository via the website of the {% tool "proteomexchange" %} Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include PRIDE, PepideAtlasq, MassIVE, jPOST, iProx and PanoramaPublic.
-- Information on data uploads can be found on [proteomexchange.org](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via a [submission tool](https://www.ebi.ac.uk/pride/markdownpage/pridesubmissiontool). There are data repository-specific requirements.
-- Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools.
+- You can find an appropriate data repository via the website of the {% tool "proteomexchange" %} Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include {% tool "pride" %}, {% tool "peptideatlas" %}, {% tool "massive" %}, jPOST, iProx and PanoramaPublic.
+- Information on data uploads can be found on [ProteomeXchange submissions](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via the {% tool "pride-submission-tool" %}. There are data repository-specific requirements.
+- Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools and possible integration in more specialized knowledgebases like: {% tool "human-protein-atlas" %}, {% tool "macpepdb" %}, {% tool "string" %}, {% tool "unimod" %} or {% tool "uniprot" %}
