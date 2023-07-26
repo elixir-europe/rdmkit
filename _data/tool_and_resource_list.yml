@@ -1531,12 +1531,6 @@
   id: owncloud
   name: ownCloud
   url: https://owncloud.com
-- description: PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.
-  id: paa
-  name: PAA
-  registry:
-    biotools: paa
-  url: https://bioconductor.org/packages/PAA/
 - description: Data Publisher for Earth and Environmental Science
   id: pangaea
   name: PANGAEA
