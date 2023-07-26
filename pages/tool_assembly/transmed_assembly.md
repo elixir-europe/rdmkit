@@ -43,5 +43,5 @@ TransMed projects usually require different data types from different cohorts to
 
 ### Data stewardship
 
-To facilitate the findability of data the TransMed assembly provides a {% tool "data-catalog" %} tool that supports the indexing search and discovery of studies, data sets and samples accumulated in the context of projects from different sites and cohorts. The catalog implements a controlled-access model by integration with {% tool "rems" %}. Audit trailing of data access is achieved by integration of the {% tool "daisy" %} in the access process. The catalog tool can be integrated with various identity management systems such as {%tool "keycloak" %}, {% tool "life-science-login" %} or {% tool "free-ipa" %}. 
+To facilitate the findability of data the TransMed assembly provides a {% tool "data-catalog" %} tool that supports the indexing search and discovery of studies, data sets and samples accumulated in the context of projects from different sites and cohorts. The catalog implements a controlled-access model by integration with {% tool "rems" %}. Audit trailing of data access is achieved by integration of the {% tool "daisy" %} in the access process. The catalog tool can be integrated with various identity management systems such as {% tool "keycloak" %}, {% tool "life-science-login" %} or {% tool "free-ipa" %}. 
 
