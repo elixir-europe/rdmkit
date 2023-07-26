@@ -108,7 +108,7 @@ File versioning is a way to keep track of changes made to files and datasets. Wh
 
 ### Solutions
 * Smaller demands of versioning can be managed manually e.g. by keeping a log where the changes for each respective file is documented, version by version.
-* For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as {% tool "git" %}, hosted by e.g. {% tool "github" %} and {% tool "bitbucket" %}.
+* For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as {% tool "git" %}, hosted by e.g. {% tool "github" %}, {% tool "gitlab" %} and {% tool "bitbucket" %}.
 * Use a Cloud Storage service (see [Data storage](storage#what-features-do-you-need-in-a-storage-solution-when-collecting-data) page) that provides automatic file versioning. It can be very handy for spreadsheets, text files and slides.
 
 
