@@ -47,7 +47,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 ### Solutions
 
 * Deposit your data to a suitable repository for sharing. There’s a long (and incomplete) list of repositories available for data sharing. Repositories are divided into two main categories, *general-purpose* and *discipline-specific*, and both categories are utilised in the domain of biomolecular modeling and simulation. For a general introduction to repositories, you are advised to read the [data publication](data_publication) page.
-  * General-purpose repositories such as {% tool "zenodo" %}, {% tool "figshare" %}, {% tool "mendeley-data"  %}, {% tool "dryad" %}, and {% tool "openscienceframework" %} can be used.
+  * General-purpose repositories such as {% tool "zenodo" %}, {% tool "figshare" %}, {% tool "mendeley-data" %}, {% tool "dryad" %}, and {% tool "openscienceframework" %} can be used.
   * Discipline-specific repositories can be used when the repository supports the type of data to be shared e.g. molecular dynamics data. Repositories for various data types and models are listed below:
     * Molecular Dynamics repositories
       * {% tool "gpcrmd" %} - for GPCR protein simulations, [with submission process](https://submission.gpcrmd.org/accounts/login/?next=/accounts/memberpage/).
