@@ -175,13 +175,6 @@
   registry:
     biotools: NA
   url: http://www.bgsc.org/
-- description: A search engine for academic web resources
-  id: base
-  name: BASE
-  registry:
-    biotools: base
-    tess: BASE
-  url: https://www.base-search.net/
 - description: The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.
   id: bbmri-eric-s-elsi-knowledge-base
   name: BBMRI-ERIC's ELSI Knowledge Base
@@ -1476,7 +1469,7 @@
 - description: Explore Open Access research outcomes from OpenAIRE network
   id: openaire-explore
   name: OpenAIRE Explore
-  url: https://explore.openaire.eu/search/find
+  url: https://explore.openaire.eu/
 - description: ELIXIR benchmarking platform to support community-led scientific benchmarking efforts and the technical monitoring of bioinformatics reosurces
   id: openebench
   name: OpenEBench
