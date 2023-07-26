@@ -2093,12 +2093,6 @@
   id: ern-registries-generic-informed-consent-forms
   name: ERN Registries Generic Informed Consent Forms
   url: https://www.ejprarediseases.org/ern-registries-generic-icf/
-- description: ProteoWizard provides a set of open-source, cross-platform software libraries and tools that facilitate proteomics data analysis.
-  id: proteowizard
-  name: ProteoWizard
-  registry:
-    biotools: proteowizard
-  url: https://proteowizard.sourceforge.io/
 - description: The International Nucleotide Sequence Database Collaboration (INSDC) is a long-standing foundational initiative that operates between DDBJ, EMBL-EBI and NCBI. INSDC covers the spectrum of data raw reads, through alignments and assemblies to functional annotation, enriched with contextual information relating to samples and experimental configurations.
   id: international-nucleotide-sequence-database-collaboration
   name: International Nucleotide Sequence Database Collaboration
