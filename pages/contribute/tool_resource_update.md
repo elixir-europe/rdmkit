@@ -48,25 +48,22 @@ Tools and resources specifically mentioned in the text of the pages should be pr
 1. Copy the `tool_id` of the tool or resource
 
 1. Add the right context on RDMkit for the tool by mentioning it somewhere in the text using following syntax:
-    ```
-    {% raw %}
-    {% tool "tool_id" %}
-    {% endraw %}
-    ```
+  
+  ```
+  {% raw %}
+  {% tool "tool_id" %}
+  {% endraw %}
+  ```
 
-    {% include callout.html type="important" content="Don't forget to add the `\"` double quotes around the tool_id and make sure to use the exact tool_id as described in the yaml file." %}
+  {% include callout.html type="important" content="Don't forget to add the `\"` double quotes around the tool_id and make sure to use the exact tool_id as described in the yaml file." %}
 
-    Example:
+  Example:
 
-    ```
-    {% raw %}
-    {% tool "zenodo" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
-    {% endraw %}
-    ```
-    Will give: 
-    
-    {% tool "zenodo" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
-
-    
-
-
+  ```
+  {% raw %}
+  {% tool "zenodo" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
+  {% endraw %}
+  ```
+  Will give: 
+  
+  {% tool "zenodo" %} is a powerful data publication service, which is supported by the European commission and focused on research data, including supplemental material like software, tables, figures or slides.
