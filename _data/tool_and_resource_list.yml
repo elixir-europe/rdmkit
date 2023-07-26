@@ -110,10 +110,6 @@
   registry:
     tess: Amazon Web Services
   url: https://aws.amazon.com/
-- description: Amnesia is a GDPR compliant high accuracy data anonymization tool
-  id: amnesia
-  name: Amnesia
-  url: https://amnesia.openaire.eu/
 - description: AOP4EUpest web server is devoted to the identification of pesticides involved in an Adverse Outcome Pathway via text mining approaches.
   id: aop4eupest
   name: AOP4EUpest
@@ -1403,10 +1399,6 @@
   id: ncimb
   name: NCIMB
   url: https://www.ncimb.com/culture-collection/
-- description: Form and survey tool, also for sensitive data
-  id: nettskjema
-  name: Nettskjema
-  url: https://nettskjema.no/
 - description: As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks
   id: nextcloud
   name: Nextcloud
