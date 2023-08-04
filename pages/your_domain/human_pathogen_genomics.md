@@ -12,14 +12,6 @@ related_pages:
     - data_quality
   tool_assembly:
     - covid19_data_portal
-  your_domain:
-    - rare_disease_data
-    - human_data
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
-#training:
-#  - name:
-#    registry:
-#    url:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
