@@ -6,12 +6,12 @@ page_id: human_pathogen_genomics
 related_pages: 
   your_tasks:
     - data_brokering
-    - metadata_management
-    - data_transfer
+    - metadata
+    - transfer
     - data_protection
     - data_quality
   tool_assembly:
-    - covid19_data_portal
+    - covid-19
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
