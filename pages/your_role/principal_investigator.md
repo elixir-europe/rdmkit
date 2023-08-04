@@ -1,10 +1,8 @@
 ---
 title: Principal Investigator (PI)
-description: Researchers generating and reusing data.
-contributors: [Mijke Jetten, Gregoire Rossier]
-page_id: pi
-related_pages:
-training:
+description: Data management guidance for people who are Principal Investigators (PIs).
+contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xenia Perez-Sitja, Nazeefa Fatima, Gregoire Rossier]
+page_id: principal_investigator
 ---
 
 ## Introduction
@@ -12,6 +10,7 @@ training:
 As a Principal Investigator (PI), you may have recently acquired project funding. More and more funders require data management plans (DMP), stimulating the researcher to consider, from the beginning of a project, all relevant aspects of data management. 
 
 Funders often refer to the FAIR principles. Applying these principles to your research data would greatly ease reusing and repurposing of data, either by you or others, and enable automation of processes.
+
 
 ## Data management responsibilities
 
@@ -25,6 +24,7 @@ In your role of PI, you may need to:
  * Consider a common work environment and lab notebook, to limit the risk of information loss and unauthorised access, and start creating metadata from the beginning of a project.
  * Ensure maximum reproducibility, such as data organisation, data documentation and providing workflows and code.
  * Share data as it allows others to build upon your work, enables meta-analysis, increases visibility and it is a requirement for grant funding.
+
 
 ## Data management guidance
 
@@ -42,6 +42,7 @@ In your role of PI, you may need to:
  * The [data processing](https://rdmkit.elixir-europe.org/processing#what-is-data-processing) and [data analysis pages](https://rdmkit.elixir-europe.org/data_analysis#what-are-the-best-practices-for-data-analysis) provide useful tips, including ensuring maximum reproducibility
  * The [data publication page](https://rdmkit.elixir-europe.org/data_publication#which-repository-should-you-use-to-publish-your-data) guides you in publishing your data via a public (domain-specific) repository.
  * To make research more robust, consider [reusing existing data](https://rdmkit.elixir-europe.org/existing_data#how-can-you-reuse-existing-data) yourself.
+
 
 ### Other resources
 
