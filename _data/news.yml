@@ -114,3 +114,7 @@
   date: 2023-05-24
   linked_pr: 1076
   description: This page gives an insight in RDM on national level in Ireland. [Discover the page here](ie_resources)
+- name: "New page: Human pathogen genomics"
+  date: 2023-08-04
+  linked_pr: 1263
+  description: This page gives insights about data management solutions for Human pathogen genomics. [Discover the page here](human_pathogen_genomics).
