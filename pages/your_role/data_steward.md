@@ -24,7 +24,7 @@ Data stewards can be categorised in different ways, for example according to the
 | Embedded DS                | Works directly for research departments or research teams and offers support and hands on help with any RDM matter from collection of data to publishing and long-term preservation.|
 | Policy-oriented DS         | Focuses on policy development and the implementation of research data management practices in their organisation. They may coordinate other data stewards in their institutions.|
 | Research-oriented DS       | Works directly with researchers and offers support with RDM matters. They make sure data is handled in compliance with the institute’s policy and they can also perform hands-on work in a project.|
-| Infrastructure-oriented DS | Works directly with researchers and offers support with RDM matters. They make sure data is handled in compliance with the institute’s policy and they can also perform hands-on work in a project.|
+| Infrastructure-oriented DS | Translates the requirements of policies and science into suitable IT solutions and tools as well as provide advice. They implement IT infrastructure solutions, give access to data and software for researchers.|
 
 
 ## Data management responsibilities
