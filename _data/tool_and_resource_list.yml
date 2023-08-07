@@ -14,7 +14,7 @@
 
     The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are
     being revised in QUAREP-LiMi in collaboration with instrument manufacturers'
-  name: 4DN-BINA-OME-QUAREP (NBO-Q) Microscopy Metadata Specifications
+  name: 4DN-BINA-OME-QUAREP (NBO-Q)
   registry:
     fairsharing: '4747'
   related_pages:
@@ -89,8 +89,6 @@
   name: Argos
   related_pages:
   - dmp
-  - researcher
-  - data_manager
   url: https://argos.openaire.eu/splash/
 - description: A repository of array based genomics data
   name: ArrayExpress
@@ -107,9 +105,6 @@
     compute and storage resources.
   name: Arvados
   related_pages:
-  - it_support
-  - policy_officer
-  - researcher
   - data_analysis
   url: https://arvados.org
 - description: Biological materials resource including cell-lines, strains and genomics
@@ -128,8 +123,6 @@
     biotools: atlas
     tess: Atlas
   related_pages:
-  - data_manager
-  - researcher
   - transmed
   url: https://github.com/OHDSI/Atlas/wiki
 - description: Store and publish your research data. Can be used to bridge between
@@ -169,8 +162,6 @@
   related_pages:
   - data_protection
   - sensitive
-  - policy_officer
-  - data_manager
   - human_data
   url: https://www.bbmri-eric.eu/elsi/knowledge-base/
 - description: The Beacon protocol defines an open standard for genomics data discovery.
@@ -180,9 +171,6 @@
     fairsharing: 6fba91
     tess: Beacon
   related_pages:
-  - researcher
-  - data_manager
-  - it_support
   - human_data
   url: https://beacon-project.io/
 - description: R&D Platform for Life Sciences
@@ -212,7 +200,6 @@
   registry:
     biotools: BISE
   related_pages:
-  - it_support
   - data_analysis
   url: https://biii.eu/
 - description: Public, web-accessible database of measured binding affinities
@@ -247,7 +234,6 @@
     biotools: bioconda
     tess: Bioconda
   related_pages:
-  - it_support
   - data_analysis
   url: https://bioconda.github.io/
 - description: Biodiversity Information Standards (TDWG), historically the Taxonomic
@@ -289,10 +275,18 @@
     biotools: bionda
   related_pages:
   - storage
-  - researcher
   - human_data
   - proteomics
   url: http://bionda.mpc.ruhr-uni-bochum.de/start.php
+- description: A comprehensive repository of biomedical ontologies
+  name: BioPortal
+  registry:
+    biotools: bioportal
+    fairsharing: 4m97ah
+    tess: BioPortal
+  related_pages:
+  - metadata
+  url: https://bioportal.bioontology.org
 - description: BioSamples stores and supplies descriptions and metadata about biological
     samples used in research and development by academia and industry.
   name: BioSamples
@@ -313,7 +307,6 @@
     tess: Bioschemas
   related_pages:
   - machine_actionability
-  - it_support
   url: https://bioschemas.org
 - description: A database hosting datasets from biological studies. Useful for storing
     or accessing data that is not compliant for mainstream repositories.
@@ -333,7 +326,6 @@
     biotools: bisque
   related_pages:
   - data_organisation
-  - data_manager
   - data_analysis
   - bioimaging_data
   url: https://bioimage.ucsb.edu/bisque
@@ -343,8 +335,6 @@
     fairsharing: fc3431
   related_pages:
   - data_organisation
-  - data_manager
-  - it_support
   url: https://bitbucket.org/
 - description: Biological Magnetic Resonance Data Bank
   name: BMRB
@@ -352,7 +342,6 @@
     biotools: bmrb
   related_pages:
   - idp
-  - researcher
   url: https://bmrb.io/
 - description: BoostDM is a method to score all possible point mutations (single base
     substitutions) in cancer genes for their potential to be involved in tumorigenesis.
@@ -369,7 +358,6 @@
     tess: Box
   related_pages:
   - storage
-  - it_support
   - transfer
   url: https://www.box.com
 - description: 'Specification for a standard API for plant data: plant material, plant
@@ -378,7 +366,6 @@
   registry:
     tess: BrAPI
   related_pages:
-  - it_support
   - plants
   - plant_pheno_assembly
   url: https://www.brapi.org
@@ -397,8 +384,6 @@
   name: Bulk Rename Utility
   related_pages:
   - data_organisation
-  - data_manager
-  - researcher
   url: https://www.bulkrenameutility.co.uk/
 - description: A highly useful and flexible tool for calibration of targeted MS?based
     measurements. CalibraCurve enables an automated batch-mode determination of dynamic
@@ -465,8 +450,6 @@
     biotools: castor
   related_pages:
   - identifiers
-  - it_support
-  - data_manager
   url: https://www.castoredc.com
 - description: A hierarchical domain classification of protein structures in the Protein
     Data Bank.
@@ -485,8 +468,6 @@
   related_pages:
   - metadata
   - machine_actionability
-  - researcher
-  - data_manager
   url: https://metadatacenter.org
 - description: A version management tool for modifying strains
   name: CellRepo
@@ -524,7 +505,6 @@
     tess: ChEMBL
   related_pages:
   - data_analysis
-  - researcher
   - toxicology_data
   url: https://www.ebi.ac.uk/chembl/
 - description: ChIPSummitDB is a database of transcription factor binding sites and
@@ -539,9 +519,6 @@
   name: Choose a license
   related_pages:
   - licensing
-  - researcher
-  - data_manager
-  - policy_officer
   url: https://choosealicense.com
 - description: ClinicalTrials.gov is a resource depending on the National Library
     of medicine which makes available private and public-funded clinical trials.
@@ -566,8 +543,6 @@
     fairsharing: 8y5ayx
     tess: Common Workflow Language (CWL)
   related_pages:
-  - it_support
-  - researcher
   - data_analysis
   url: https://www.commonwl.org
 - description: The CompTox Chemicals Dashboard provides toxicological information
@@ -594,7 +569,6 @@
   registry:
     tess: Conda
   related_pages:
-  - it_support
   - data_analysis
   url: https://docs.conda.io/en/latest/
 - description: A resource for researchers when drafting consent forms so they can
@@ -609,8 +583,6 @@
   name: Cookiecutter
   related_pages:
   - data_organisation
-  - it_support
-  - data_manager
   url: https://github.com/cookiecutter/cookiecutter
 - description: Portal for scientists to broker more easily rich metadata alongside
     data to public repos.
@@ -620,7 +592,6 @@
     fairsharing-coll: bsg-d001247
   related_pages:
   - metadata
-  - researcher
   - plants
   - machine_actionability
   - plant_pheno_assembly
@@ -640,16 +611,11 @@
   name: Create a Codebook
   related_pages:
   - metadata
-  - researcher
-  - data_manager
   url: https://ddialliance.org/training/getting-started-new-content/create-a-codebook
 - description: It helps you choose the right Creative Commons license for your needs.
   name: Creative Commons License Chooser
   related_pages:
   - licensing
-  - researcher
-  - data_manager
-  - policy_officer
   url: https://creativecommons.org/choose/
 - description: The Crop Ontology compiles concepts to curate phenotyping assays on
     crop plants, including anatomy, structure and phenotype.
@@ -658,9 +624,6 @@
     fairsharing: wgfrmg
     tess: Crop Ontology
   related_pages:
-  - researcher
-  - data_manager
-  - it_support
   - plants
   - plant_pheno_assembly
   url: https://www.cropontology.org
@@ -689,12 +652,10 @@
   name: cURL
   related_pages:
   - transfer
-  - it_support
   url: https://curl.se
 - description: Image Data management
   name: Cytomine-IMS
   related_pages:
-  - data_manager
   - bioimaging_data
   url: https://github.com/cytomine/Cytomine-IMS
 - description: Data Information System to keep sensitive data inventory and meet GDPR
@@ -704,8 +665,6 @@
     biotools: Data_Information_System_DAISY
     tess: DAISY
   related_pages:
-  - it_support
-  - policy_officer
   - human_data
   - data_protection
   - transmed
@@ -717,8 +676,6 @@
   name: DAMAP
   related_pages:
   - dmp
-  - researcher
-  - data_manager
   url: https://damap.org/
 - description: Unique collection of project-level metadata from large research initiatives
     in a diverse range of fields, including clinical, molecular and observational
@@ -734,15 +691,12 @@
   name: Data Catalog Vocabulary (DCAT)
   related_pages:
   - machine_actionability
-  - it_support
   - rare_disease
   url: https://www.w3.org/TR/vocab-dcat-2/
 - description: List of metadata standards
   name: Data Curation Centre Metadata list
   related_pages:
   - metadata
-  - researcher
-  - data_manager
   url: https://www.dcc.ac.uk/guidance/standards/metadata/list
 - description: Publicly available online tool for composing smart data management
     plans
@@ -752,9 +706,6 @@
     tess: Data Stewardship Wizard
   related_pages:
   - dmp
-  - researcher
-  - data_manager
-  - it_support
   - nels
   - tsd
   - plant_pheno_assembly
@@ -773,8 +724,6 @@
     fairsharing: 5dnjs2
     tess: Data Use Ontology
   related_pages:
-  - data_manager
-  - researcher
   - human_data
   url: https://github.com/EBISPOT/DUO
 - description: Overview of typical licenses used for data resources
@@ -791,15 +740,21 @@
   related_pages:
   - existing_data
   url: https://search.datacite.org/
+- description: DataPLAN is a FAIR and fast Data Management Plan (DMP) generator that
+    focuses on plant science.
+  name: DataPLAN
+  registry:
+    biotools: dataplan
+  related_pages:
+  - dmp
+  - plants
+  url: https://plan.nfdi4plants.org/
 - description: Open source research data respository software.
   name: DATAVERSE
   registry:
     tess: DATAVERSE
   related_pages:
   - storage
-  - researcher
-  - data_manager
-  - it_support
   - ifb
   url: https://dataverse.org/
 - description: The Data Agreement Wizard is a tool developed by ELIXIR-Luxembourg
@@ -807,7 +762,6 @@
   name: DAWID
   related_pages:
   - data_protection
-  - policy_officer
   - human_data
   url: https://dawid.elixir-luxembourg.org/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
@@ -819,8 +773,6 @@
     tess: dbGAP
   related_pages:
   - data_publication
-  - researcher
-  - it_support
   - human_data
   url: https://www.ncbi.nlm.nih.gov/gap/
 - description: A discovery platform containing collections of genes and variants associated
@@ -833,7 +785,6 @@
   related_pages:
   - data_analysis
   - human_data
-  - researcher
   - toxicology_data
   url: https://www.disgenet.org/
 - description: A database of intrinsically disordered proteins
@@ -844,36 +795,27 @@
     tess: DisProt
   related_pages:
   - idp
-  - researcher
   url: https://disprot.org/
 - description: Questionnaire, which generates a pre-filled a DMP
   name: DMP Canvas Generator
   related_pages:
   - dmp
-  - researcher
-  - data_manager
   url: https://dmp.vital-it.ch
 - description: Semi-automatically generated, searchable catalogue of resources that
     are relevant to data management plans.
   name: DMPlanner
   related_pages:
   - dmp
-  - researcher
-  - data_manager
   url: https://dmplanner.athenarc.gr/
 - description: DMP Roadmap is a Data Management Planning tool
   name: DMPRoadmap
   related_pages:
   - dmp
-  - researcher
-  - data_manager
   url: https://github.com/DMPRoadmap/roadmap
 - description: Build your Data Management Plan
   name: DMPTool
   related_pages:
   - dmp
-  - researcher
-  - data_manager
   url: https://dmptool.org
 - description: A database of DNA sequences
   name: DNA Data Bank of Japan (DDBJ)
@@ -891,7 +833,6 @@
     fairsharing-coll: bsg-d001254
     tess: Docker
   related_pages:
-  - it_support
   - data_analysis
   url: https://www.docker.com/
 - description: A DSW knowledge model guiding users through a set of questions to collect
@@ -900,14 +841,12 @@
   name: DPIA Knowledge Model
   related_pages:
   - data_protection
-  - policy_officer
   - human_data
   url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
 - description: Cloud storage and file sharing service
   name: Dropbox
   related_pages:
   - storage
-  - it_support
   - transfer
   url: https://www.dropbox.com/?landing=dbv2
 - description: A toxicogenomic resource that provides access to the gene expression
@@ -940,7 +879,6 @@
     biotools: edal
   related_pages:
   - storage
-  - it_support
   url: https://edal.ipk-gatersleben.de/
 - description: Plant Genomics and Phenomics Research Data Repository
   name: e!DAL-PGP
@@ -949,9 +887,6 @@
   related_pages:
   - plants
   - plant_geno_assembly
-  - researcher
-  - data_manager
-  - it_support
   - data_publication
   - metadata
   - plant_pheno_assembly
@@ -969,8 +904,6 @@
   name: ECPGR
   related_pages:
   - plants
-  - researcher
-  - data_manager
   url: https://www.ecpgr.cgiar.org/
 - description: 'Endocrine Disruptor Knowledge Base is a platform designed to foster
     the development of computational predictive toxicology. This platform allows direct
@@ -996,9 +929,6 @@
     fairsharing-coll: bsg-c000039
   related_pages:
   - data_publication
-  - researcher
-  - data_manager
-  - it_support
   - covid-19
   - nels
   - ifb
@@ -1018,16 +948,12 @@
   name: EMBL-EBI Ontology Lookup Service
   related_pages:
   - metadata
-  - data_manager
-  - researcher
   url: https://www.ebi.ac.uk/ols/index
 - description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
     data.
   name: EMBL-EBI's data submission wizard
   related_pages:
   - data_publication
-  - researcher
-  - data_manager
   url: https://www.ebi.ac.uk/submission/
 - description: Electron Microscopy Public Image Archive is a public resource for raw,
     2D electron microscopy images. You can browse, upload and download the raw images
@@ -1047,16 +973,11 @@
   name: ENA COMPARE Data Hubs
   related_pages:
   - dm_coordination
-  - it_support
-  - data_manager
   url: https://github.com/nadimm-rahman/ena-datahub-setup
 - description: The program submits experimental data and respective metadata to the
     European Nucleotide Archive (ENA).
   name: ENA upload tool
   related_pages:
-  - it_support
-  - data_manager
-  - researcher
   - data_brokering
   url: https://github.com/usegalaxy-eu/ena-upload-cli
 - description: Genome browser for vertebrate genomes that supports research in comparative
@@ -1088,7 +1009,6 @@
     data processing activities (ROPA).
   name: ERPA
   related_pages:
-  - policy_officer
   - human_data
   - data_protection
   url: https://gitlab.sib.swiss/clinbio/erpa-app
@@ -1099,7 +1019,6 @@
   name: EU General Data Protection Regulation
   related_pages:
   - data_protection
-  - policy_officer
   - human_data
   - tsd
   url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN
@@ -1107,9 +1026,6 @@
   name: EUDAT licence selector wizard
   related_pages:
   - licensing
-  - researcher
-  - data_manager
-  - policy_officer
   url: https://ufal.github.io/public-license-selector/
 - description: The European database of suspected adverse drug reaction reports is
     a public resource aimed to provide access to reported suspected side-effects of
@@ -1122,8 +1038,6 @@
     record linkage to bridge the gap between multiple contexts.
   name: EUPID
   related_pages:
-  - it_support
-  - policy_officer
   - human_data
   url: https://eupid.eu/#/concept
 - description: European Search Catalogue for Plant Genetic Resources
@@ -1132,8 +1046,6 @@
     biotools: eurisco
   related_pages:
   - plants
-  - researcher
-  - data_manager
   - plant_pheno_assembly
   url: https://eurisco.ipk-gatersleben.de
 - description: Europe PMC is a repository, providing access to worldwide life sciences
@@ -1143,8 +1055,6 @@
     biotools: europe_pmc
     fairsharing: cmw6mm
     tess: Europe PMC
-  related_pages:
-  - researcher
   url: https://europepmc.org/
 - description: A programme aiming to create an effective rare diseases research ecosystem
     for progress, innovation and for the benefit of everyone with a rare disease.
@@ -1169,8 +1079,8 @@
   related_pages:
   - rare_disease
   url: https://vp.ejprarediseases.org/
-- description: A record of sequence information scaling from raw sequcning reads to
-    assemblies and functional annotation
+- description: A record of sequence information scaling from raw sequencing reads
+    to assemblies and functional annotation
   name: European Nucleotide Archive (ENA)
   registry:
     biotools: ena
@@ -1241,8 +1151,6 @@
   registry:
     biotools: faidare
   related_pages:
-  - researcher
-  - data_manager
   - plants
   - ifb
   - plant_pheno_assembly
@@ -1254,7 +1162,6 @@
   name: FAIR Cookbook
   related_pages:
   - compliance
-  - data_manager
   - transmed
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
 - description: A FAIR Data Point stores metadata in a standardized and sharable way.
@@ -1265,14 +1172,11 @@
   related_pages:
   - rare_disease
   - metadata
-  - it_support
   url: https://www.fairdatapoint.org/
 - description: Resources and guidelines to assess the FAIRness of digital resources.
   name: FAIR Evaluation Services
   related_pages:
   - compliance
-  - data_manager
-  - policy_officer
   url: https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!
 - description: The FIP is a collection of FAIR implementation choices made by a community
     of practice for each of the FAIR Principles.
@@ -1282,8 +1186,6 @@
   related_pages:
   - dm_coordination
   - dmp
-  - researcher
-  - data_manager
   url: https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/
 - description: The FAIR wizard utilizes FAIRification resources developed by the FAIRplus
     project and other platforms, suggests FAIRification materials based on the FAIRification
@@ -1294,15 +1196,11 @@
     tess: FAIR-Wizard
   related_pages:
   - compliance
-  - data_manager
-  - policy_officer
   url: https://wwwdev.ebi.ac.uk/ait/fair-wizard/home
 - description: Help you discover resources to measure and improve FAIRness.
   name: FAIRassist.org
   related_pages:
   - compliance
-  - data_manager
-  - policy_officer
   url: https://fairassist.org/#!/
 - description: A data Management Platform for organising, sharing and publishing research
     datasets, models, protocols, samples, publications and other research outcomes.
@@ -1311,7 +1209,6 @@
     biotools: seek
   related_pages:
   - storage
-  - it_support
   - nels
   - micro_biotech
   - ifb
@@ -1327,19 +1224,15 @@
     tess: FAIRDOMHub
   related_pages:
   - storage
-  - researcher
   - nels
   - metadata
   - micro_biotech
   - machine_actionability
-  - data_manager
   url: https://fairdomhub.org
 - description: A System to Evaluate the FAIRness of Digital Objects
   name: FAIRshake
   related_pages:
   - compliance
-  - data_manager
-  - it_support
   url: https://fairshake.cloud
 - description: A curated, informative and educational resource on data and metadata
     standards, inter-related to databases and data policies.
@@ -1350,9 +1243,6 @@
   related_pages:
   - metadata
   - data_publication
-  - policy_officer
-  - data_manager
-  - researcher
   - micro_biotech
   - existing_data
   url: https://fairsharing.org/
@@ -1373,7 +1263,6 @@
     tess: FileZilla
   related_pages:
   - transfer
-  - it_support
   url: https://filezilla-project.org
 - description: FIP Wizard is a toolset to facilitate the capture of data in FAIR Convergence
     Matrix questionnaire prompting communities to explicitly declare their FAIR Implementation
@@ -1382,14 +1271,11 @@
   related_pages:
   - dm_coordination
   - dmp
-  - researcher
-  - data_manager
   url: https://fip-wizard.readthedocs.io/en/latest/
 - description: FreeIPA is an integrated Identity and Authentication solution for Linux/UNIX
     networked environments.
   name: Free-IPA
   related_pages:
-  - it_support
   - transmed
   url: https://www.freeipa.org/
 - description: Repository of IP-free synthetic biological parts
@@ -1402,17 +1288,12 @@
   name: GA4GH Data Security Toolkit
   related_pages:
   - data_publication
-  - policy_officer
-  - data_manager
-  - it_support
   - human_data
   - sensitive
   url: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
 - description: Open standards for genomic data sharing.
   name: GA4GH Genomic Data Toolkit
   related_pages:
-  - data_manager
-  - it_support
   - human_data
   url: https://www.ga4gh.org/genomic-data-toolkit/
 - description: Framework for Responsible Sharing of Genomic and Health-Related Data
@@ -1420,9 +1301,6 @@
   related_pages:
   - data_protection
   - sensitive
-  - policy_officer
-  - data_manager
-  - it_support
   - human_data
   url: https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/
 - description: Open, web-based platform for data intensive biomedical research. Whether
@@ -1436,8 +1314,6 @@
   - nels
   - marine_assembly
   - data_analysis
-  - researcher
-  - it_support
   - ifb
   - galaxy
   url: https://galaxyproject.org/
@@ -1470,7 +1346,6 @@
     biotools: geneid
   related_pages:
   - data_analysis
-  - researcher
   url: https://genome.crg.cat/software/geneid/index.html
 - description: GHS (Globally Harmonized System of Classification and Labelling of
     Chemicals) classification was developed by the United Nations in an attempt to
@@ -1489,8 +1364,6 @@
     tess: Git
   related_pages:
   - data_organisation
-  - data_manager
-  - it_support
   url: https://git-scm.com/
 - description: Versioning system, used for sharing code, as well as for sharing of
     small data
@@ -1502,8 +1375,6 @@
   related_pages:
   - data_publication
   - data_organisation
-  - it_support
-  - data_manager
   url: https://github.com
 - description: GitLab is an open source end-to-end software development platform with
     built-in version control, issue tracking, code review, CI/CD, and more. Self-host
@@ -1515,14 +1386,11 @@
   related_pages:
   - data_organisation
   - data_publication
-  - it_support
-  - data_manager
   url: https://gitlab.com/gitlab-org/gitlab
 - description: High-performance data transfers between systems within and across organizations
   name: Globus
   related_pages:
   - transfer
-  - it_support
   url: https://www.globus.org
 - description: A multispecies integrative information system dedicated to plant and
     fungi pests. It allows researchers to access genetic, phenotypic and genomic data.
@@ -1568,8 +1436,6 @@
   related_pages:
   - metadata
   - identifiers
-  - researcher
-  - data_manager
   url: https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks
 - description: Haz-Map is an occupational health database that makes available information
     about the adverse effects of exposures to chemical and biological agents at the
@@ -1583,9 +1449,6 @@
   name: How to License Research Data - DCC
   related_pages:
   - licensing
-  - researcher
-  - data_manager
-  - policy_officer
   url: https://www.dcc.ac.uk/guidance/how-guides/license-research-data
 - description: The Human Protein Atlas contains information for a large majority of
     all human protein-coding genes regarding the expression and localization of the
@@ -1607,8 +1470,6 @@
     tess: HumanMine
   related_pages:
   - data_organisation
-  - data_manager
-  - researcher
   - human_data
   - data_analysis
   url: https://www.humanmine.org/
@@ -1617,7 +1478,6 @@
   name: IBM Aspera
   related_pages:
   - transfer
-  - it_support
   url: https://www.ibm.com/products/aspera
 - description: Data sharing
   name: iCloud
@@ -1636,8 +1496,6 @@
     tess: Identifiers.org
   related_pages:
   - identifiers
-  - it_support
-  - data_manager
   url: http://identifiers.org
 - description: A collection of standard biological parts to which all entrants in
     the iGEM competition must submit their parts
@@ -1664,8 +1522,6 @@
   registry:
     fairsharing: b9znd5
   related_pages:
-  - it_support
-  - policy_officer
   - human_data
   url: http://purl.obolibrary.org/obo/ICO.owl
 - description: The International Compilation of Human Research Standards enumerates
@@ -1736,7 +1592,6 @@
     biotools: irods
   related_pages:
   - storage
-  - it_support
   - transmed
   - bioimaging_data
   url: https://irods.org/
@@ -1747,8 +1602,6 @@
   registry:
     fairsharing: 53gp75
   related_pages:
-  - it_support
-  - data_manager
   - micro_biotech
   - machine_actionability
   url: https://isa-tools.org/
@@ -1767,7 +1620,6 @@
   name: ISO/IEC 27001
   related_pages:
   - data_protection
-  - policy_officer
   - human_data
   url: https://en.wikipedia.org/wiki/ISO/IEC_27001
 - description: A collaborative resource from IUPAC and IUBMB for naming standards
@@ -1786,7 +1638,6 @@
   registry:
     tess: Jupyter
   related_pages:
-  - it_support
   - data_analysis
   url: https://jupyter.org
 - description: Keycloak is an open source identity and data access management solution.
@@ -1794,7 +1645,6 @@
   registry:
     tess: Keycloak
   related_pages:
-  - it_support
   - transmed
   url: https://www.keycloak.org/
 - description: The LiMTox system is a text mining approach that tries to extract associations
@@ -1815,8 +1665,6 @@
   name: Linked Open Vocabularies (LOV)
   related_pages:
   - metadata
-  - data_manager
-  - researcher
   url: https://lov.linkeddata.es/dataset/lov/
 - description: A database of prokaryote specific biodiversity information
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
@@ -1831,8 +1679,6 @@
     biotools: lumi
   related_pages:
   - data_analysis
-  - researcher
-  - it_support
   - csc
   url: https://www.lumi-supercomputer.eu/
 - description: Machine-Actionable Data Management Plan | Webinar (2016) on making
@@ -1840,7 +1686,6 @@
   name: maDMP - Research Bridge
   related_pages:
   - dmp
-  - it_support
   url: https://library.ust.hk/sc/machine-actionable-dmp/
 - description: MarDB includes all non-complete marine microbial genomes regardless
     of level of completeness. Each entry contains 120 metadata fields including information
@@ -1909,8 +1754,6 @@
   name: MIADE
   related_pages:
   - metadata
-  - researcher
-  - data_manager
   - idp
   url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
 - description: Minimum Information About a Plant Phenotyping Experiment
@@ -1920,8 +1763,6 @@
     tess: MIAPPE
   related_pages:
   - metadata
-  - researcher
-  - data_manager
   - plants
   - plant_geno_assembly
   - plant_pheno_assembly
@@ -1930,14 +1771,12 @@
   name: Microsoft Azure
   related_pages:
   - storage
-  - it_support
   - transfer
   url: https://azure.microsoft.com/en-gb/
 - description: Cloud storage and file sharing service from Microsoft
   name: Microsoft OneDrive
   related_pages:
   - storage
-  - it_support
   url: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
 - description: Minimum Information about a (Meta)Genome Sequence
   name: MIGS/MIMS
@@ -1945,8 +1784,6 @@
     fairsharing: va1hck
   related_pages:
   - metadata
-  - researcher
-  - data_manager
   - marine
   - micro_biotech
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
@@ -1965,8 +1802,6 @@
     tess: MIxS
   related_pages:
   - metadata
-  - researcher
-  - data_manager
   - marine
   - plant_geno_assembly
   url: https://genomicsstandardsconsortium.github.io/mixs/
@@ -1978,7 +1813,6 @@
     tess: MobiDB
   related_pages:
   - idp
-  - researcher
   url: https://mobidb.org/
 - description: Database of Protein Molecular Dynamics simulations representing different
     structural clusters of the PDB
@@ -2021,8 +1855,6 @@
     biotools: molgenis
   related_pages:
   - identifiers
-  - it_support
-  - data_manager
   url: https://molgenis.gitbooks.io/molgenis/content/
 - description: Database about interactions of molecules with membranes
   name: MolMeDB
@@ -2037,7 +1869,6 @@
   name: MONARC
   related_pages:
   - data_protection
-  - policy_officer
   - human_data
   - transmed
   url: https://open-source-security-software.net/project/MONARC
@@ -2045,8 +1876,6 @@
     \ Inc. Billerica, MA) file format to DICOM standard"
   name: MRI2DICOM
   related_pages:
-  - researcher
-  - data_manager
   - xnat-pic
   url: https://github.com/szullino/XNAT-PIC
 - description: The Multi-Crop Passport Descriptor is the metadata standard for plant
@@ -2057,9 +1886,6 @@
     tess: Multi-Crop Passport Descriptor
   related_pages:
   - metadata
-  - researcher
-  - it_support
-  - policy_officer
   - plants
   - plant_pheno_assembly
   - plant_geno_assembly
@@ -2067,7 +1893,6 @@
 - description: A file-system based platform handling the transfer of data
   name: MyTARDIS
   related_pages:
-  - data_manager
   - transfer
   - bioimaging_data
   url: http://www.mytardis.org/
@@ -2108,7 +1933,6 @@
   name: Nextcloud
   related_pages:
   - storage
-  - it_support
   - transfer
   url: https://nextcloud.com
 - description: Nextflow is a framework for data analysis workflow execution
@@ -2117,7 +1941,6 @@
     biotools: nextflow
     tess: Nextflow
   related_pages:
-  - it_support
   - data_analysis
   url: https://www.nextflow.io
 - description: Repository for lipid MD simulations to validate force fields with NMR
@@ -2139,8 +1962,6 @@
   registry:
     biotools: ohdsi
   related_pages:
-  - researcher
-  - data_manager
   - data_analysis
   - storage
   - transmed
@@ -2154,8 +1975,6 @@
     tess: OMERO
   related_pages:
   - metadata
-  - data_manager
-  - it_support
   - storage
   - ome
   - bioimaging_data
@@ -2181,9 +2000,6 @@
     Google Spreadsheets.
   name: OnotoMaton
   related_pages:
-  - researcher
-  - data_manager
-  - it_support
   - metadata
   - identifiers
   url: https://github.com/ISA-tools/OntoMaton
@@ -2193,17 +2009,12 @@
     fairsharing: q8fx1b
   related_pages:
   - metadata
-  - data_manager
-  - researcher
   url: http://www.ontobee.org
 - description: Licenses that are conformant with the principles laid out in the Open
     Definition.
   name: Open Definition Conformant Licenses
   related_pages:
   - licensing
-  - researcher
-  - data_manager
-  - policy_officer
   url: https://opendefinition.org/licenses/
 - description: Explore Open Access research outcomes from OpenAIRE network
   name: OpenAIRE Explore
@@ -2217,8 +2028,6 @@
     biotools: openebench
   related_pages:
   - data_analysis
-  - data_manager
-  - it_support
   url: https://openebench.bsc.es/
 - description: Data curation tool for working with messy data
   name: OpenRefine
@@ -2263,8 +2072,6 @@
     tess: OSF
   related_pages:
   - storage
-  - researcher
-  - data_manager
   url: https://osf.io
 - description: One Touch Pipeline (OTP) is a data management platform for running
     bioinformatics pipelines in a high-throughput setting, and for organising the
@@ -2282,7 +2089,6 @@
   name: ownCloud
   related_pages:
   - storage
-  - it_support
   - transfer
   - data_analysis
   url: https://owncloud.com
@@ -2293,7 +2099,6 @@
     biotools: paa
   related_pages:
   - data_analysis
-  - researcher
   - human_data
   - proteomics
   url: https://bioconductor.org/packages/PAA/
@@ -2306,8 +2111,6 @@
   related_pages:
   - data_publication
   - metadata
-  - researcher
-  - data_manager
   url: https://www.pangaea.de/
 - description: The Protein Circular Dichroism Data Bank
   name: PCDDB
@@ -2315,7 +2118,6 @@
     biotools: pcddb
   related_pages:
   - idp
-  - researcher
   url: https://pcddb.cryst.bbk.ac.uk/
 - description: The Protein Data Bank (PDB)
   name: PDB
@@ -2323,7 +2125,6 @@
     biotools: pdb
     tess: PDB
   related_pages:
-  - researcher
   - idp
   - struct_bioinfo
   url: https://www.wwpdb.org/
@@ -2382,7 +2183,6 @@
     biotools: pia
   related_pages:
   - data_analysis
-  - researcher
   - proteomics
   url: https://github.com/mpc-bioinformatics/pia
 - description: A data management solution for intra-institutional organization and
@@ -2393,8 +2193,6 @@
     biotools: pisa-tree
   related_pages:
   - micro_biotech
-  - researcher
-  - data_manager
   - data_organisation
   - metadata
   - plant_pheno_assembly
@@ -2409,7 +2207,6 @@
   related_pages:
   - plants
   - plant_geno_assembly
-  - researcher
   url: https://bioinformatics.psb.ugent.be/plaza/
 - description: Platform for the study of the impact of pathological mutations in protein
     stuctures.
@@ -2469,24 +2266,21 @@
     tess: R Markdown
   related_pages:
   - data_analysis
-  - researcher
   url: https://rmarkdown.rstudio.com
 - description: The RD-Connect GPAP is an online tool for diagnosis and gene discovery
     in rare disease research.
   name: RD-Connect Genome Phenome Analysis Platform
   registry:
+    biotools: rd-connect_platform
     tess: RD-Connect Genome Phenome Analysis Platform
   related_pages:
-  - researcher
   - human_data
   - rare_disease
-  url: https://rd-connect.eu/what-we-do/omics/gpap/
+  url: https://platform.rd-connect.eu/#/
 - description: Directory of standard metadata, divided into different research areas
   name: RDA Standards
   related_pages:
   - metadata
-  - researcher
-  - data_manager
   url: https://rd-alliance.github.io/metadata-directory/standards/
 - description: Registry of Research Data Repositories
   name: re3data
@@ -2513,8 +2307,6 @@
     tess: REDCap
   related_pages:
   - identifiers
-  - it_support
-  - data_manager
   - data_quality
   url: https://projectredcap.org
 - description: Database of A-to-I (deamination of adenosines to inosines) events that
@@ -2545,15 +2337,12 @@
     biotools: rems
     tess: REMS
   related_pages:
-  - it_support
   - transmed
   url: https://github.com/CSCfi/rems
 - description: File renaming software for Mac
   name: Renamer4Mac
   related_pages:
   - data_organisation
-  - data_manager
-  - researcher
   url: https://renamer.com/
 - description: Repository Finder can help you find an appropriate repository to deposit
     your research data. The tool is hosted by DataCite and queries the re3data registry
@@ -2561,17 +2350,12 @@
   name: Repository Finder
   related_pages:
   - data_publication
-  - researcher
-  - data_manager
   url: https://repositoryfinder.datacite.org
 - description: Supports the systematic planning, organisation and implementation of
     research data management throughout the course of a project
   name: Research Data Management Organiser
   related_pages:
   - dmp
-  - researcher
-  - data_manager
-  - it_support
   url: https://rdmorganiser.github.io/en
 - description: Data management platform for automated loading, storage, linkage and
     provision of data sets
@@ -2580,14 +2364,11 @@
     biotools: rdmp
   related_pages:
   - storage
-  - it_support
   url: https://www.dundee.ac.uk/hic/data-team/researchdatamanagementplatform/
 - description: Machine actionable DMPs.
   name: Research Management Plan
   related_pages:
   - dmp
-  - researcher
-  - data_manager
   url: https://researcheracademy.elsevier.com/research-preparation/research-data-management/creating-good-research-data-management-plan
 - description: RO-Crate is a lightweight approach to packaging research data with
     their metadata, using schema.org. An RO-Crate is a structured archive of all the
@@ -2600,8 +2381,6 @@
   - metadata
   - storage
   - data_organisation
-  - data_manager
-  - researcher
   - micro_biotech
   - machine_actionability
   - data_provenance
@@ -2621,9 +2400,7 @@
   registry:
     biotools: rightfield
   related_pages:
-  - researcher
   - metadata
-  - data_manager
   - micro_biotech
   - identifiers
   - machine_actionability
@@ -2635,8 +2412,6 @@
     tess: Rstudio
   related_pages:
   - data_analysis
-  - it_support
-  - researcher
   url: https://rstudio.com
 - description: Rucio - Scientific Data Management
   name: Rucio
@@ -2666,7 +2441,6 @@
   name: SASBDB
   related_pages:
   - idp
-  - researcher
   url: https://www.sasbdb.org/
 - description: A standard library of visual glyphs used to represent SBOL designs
     and interactions.
@@ -2688,7 +2462,6 @@
     tess: Schema.org
   related_pages:
   - machine_actionability
-  - it_support
   url: https://schema.org
 - description: ScienceMesh - frictionless scientific collaboration and access to research
     services
@@ -2703,9 +2476,6 @@
   name: Scientific Data's Recommended Repositories
   related_pages:
   - data_publication
-  - researcher
-  - data_manager
-  - it_support
   url: https://www.nature.com/sdata/policies/repositories
 - description: SeaFile File Synchronization and Share Solution
   name: SeaFile
@@ -2723,11 +2493,8 @@
     integration, data analysis and visualization
   name: Semares
   related_pages:
-  - researcher
-  - data_manager
   - metadata
   - data_analysis
-  - it_support
   - storage
   url: https://www.genevention.com/products
 - description: Contains 16 data elements to be registered by each rare disease registry
@@ -2745,7 +2512,6 @@
 - description: Structure integration with function, taxonomy and sequence
   name: SIFTS
   related_pages:
-  - researcher
   - idp
   url: https://www.ebi.ac.uk/pdbe/docs/sifts/
 - description: SILVA provides comprehensive, quality checked and regularly updated
@@ -2762,7 +2528,6 @@
   registry:
     tess: Singularity
   related_pages:
-  - it_support
   - data_analysis
   - tsd
   url: https://sylabs.io
@@ -2782,7 +2547,6 @@
     biotools: snakemake
     tess: Snakemake
   related_pages:
-  - it_support
   - data_analysis
   url: https://snakemake.github.io
 - description: Added-value database for biological dynamics images
@@ -2851,8 +2615,6 @@
 - description: Talend is an open source data integration platform.
   name: Talend
   related_pages:
-  - data_manager
-  - researcher
   - transmed
   url: https://www.talend.com/
 - description: A toxicogenomics database that stores gene expression data and biochemistry,
@@ -2881,7 +2643,6 @@
   related_pages:
   - data_publication
   - human_data
-  - policy_officer
   - csc
   - tsd
   url: https://ega-archive.org/
@@ -2893,9 +2654,6 @@
     fairsharing: 9aa0zp
   related_pages:
   - metadata
-  - researcher
-  - it_support
-  - policy_officer
   - human_data
   url: https://www.gensc.org/pages/about.html
 - description: Collaborative effort to develob interoperable ontologies for the biological
@@ -2905,8 +2663,6 @@
     fairsharing-coll: bsg-d001083
   related_pages:
   - metadata
-  - data_manager
-  - researcher
   url: http://obofoundry.org
 - description: The Toxicology in the 21st Century program, or Tox21, is a unique collaboration
     between several federal agencies to develop new ways to rapidly test whether substances
@@ -2939,8 +2695,6 @@
   registry:
     biotools: transmart
   related_pages:
-  - researcher
-  - data_manager
   - data_analysis
   - storage
   - transmed
@@ -2950,8 +2704,6 @@
   name: Tryggve ELSI Checklist
   related_pages:
   - sensitive
-  - policy_officer
-  - data_manager
   - human_data
   - nels
   - csc
@@ -2971,7 +2723,6 @@
     biotools: txg-mapr
   related_pages:
   - data_analysis
-  - researcher
   - toxicology_data
   url: https://txg-mapr.eu/
 - description: UK Data Service activity-based costing tool.
@@ -3006,7 +2757,6 @@
     tess: UniProt
   related_pages:
   - metadata
-  - researcher
   - idp
   - micro_biotech
   - proteomics
@@ -3017,8 +2767,6 @@
   related_pages:
   - metadata
   - identifiers
-  - researcher
-  - data_manager
   url: https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products
 - description: A JavaScript library for the visualisation of SBOL.
   name: VisBOL
@@ -3032,8 +2780,6 @@
   name: Wellcome Open Research - Data Guidelines
   related_pages:
   - data_publication
-  - researcher
-  - data_manager
   url: https://wellcomeopenresearch.org/for-authors/data-guidelines
 - description: WinSCP is a popular SFTP client and FTP client for Microsoft Windows!
     Copy file between a local computer and remote servers using FTP, FTPS, SCP, SFTP,
@@ -3041,7 +2787,6 @@
   name: WinSCP
   related_pages:
   - transfer
-  - it_support
   url: https://winscp.net/eng/index.php
 - description: WorkflowHub is a registry for describing, sharing and publishing scientific
     computational workflows.
@@ -3052,14 +2797,11 @@
     tess: WorkflowHub
   related_pages:
   - data_publication
-  - data_manager
-  - researcher
   url: https://workflowhub.eu
 - description: Open source imaging informatics platform. It facilitates common management,
     productivity, and quality assurance tasks for imaging and associated data.
   name: XNAT
   related_pages:
-  - researcher
   - data_analysis
   - transmed
   - xnat-pic
@@ -3069,16 +2811,12 @@
     XNAT
   name: XNAT-PIC Pipelines
   related_pages:
-  - researcher
-  - data_manager
   - data_analysis
   - xnat-pic
   url: https://github.com/szullino/XNAT-PIC
 - description: Import tool for multimodal DICOM image datasets to XNAT
   name: XNAT-PIC Uploader
   related_pages:
-  - researcher
-  - data_manager
   - xnat-pic
   url: https://github.com/szullino/XNAT-PIC
 - description: Generalist research data repository built and developed by OpenAIRE
@@ -3100,15 +2838,4 @@
     tess: Zooma
   related_pages:
   - metadata
-  - data_manager
-  - researcher
   url: https://www.ebi.ac.uk/spot/zooma/
-- description: A comprehensive repository of biomedical ontologies
-  name: BioPortal
-  registry:
-    biotools: bioportal
-    fairsharing: 4m97ah
-    tess: BioPortal
-  related_pages:
-  - metadata
-  url: https://bioportal.bioontology.org
