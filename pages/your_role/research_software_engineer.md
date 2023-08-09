@@ -33,17 +33,17 @@ In your role of research software engineer, you may need to:
 
 ### RDMkit pages
 
- * The [data organisation page](https://rdmkit.elixir-europe.org/data_organisation) helps with file naming, versioning and folder structures.
- * [Data documentation(https://rdmkit.elixir-europe.org/metadata_management)], such as README files and metadata, helps to make data understandable and reusable.
- * The [identifiers page(https://rdmkit.elixir-europe.org/identifiers)] gives advice on how to create and use identifiers.
-[Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability) helps to automatically access and process research data.
- * Consider the best practices and technical solutions for [data analysis](https://rdmkit.elixir-europe.org/data_analysis).
- * [Data protection](https://rdmkit.elixir-europe.org/data_protection) helps you to make research data GDPR-compliant.
- * [Data sensitivity(https://rdmkit.elixir-europe.org/sensitive_data)] helps you to identify sensitivity of different research data types.
- * [Licensing](https://rdmkit.elixir-europe.org/licensing) gives advice on how to assign a licence to research data.
- * Consult the [data transfer page](https://rdmkit.elixir-europe.org/data_transfer) for information about transferring large data files.
- * The [data brokering page](https://rdmkit.elixir-europe.org/data_brokering) provides information on uploading data to repositories and metadata requirements for the process.
- * The [data storage page](https://rdmkit.elixir-europe.org/storage) helps to consider short and long-term storage, during and at the end of a project.
+ * The [data organisation page](data_organisation) helps with file naming, versioning and folder structures.
+ * [Data documentation(metadata_management)], such as README files and metadata, helps to make data understandable and reusable.
+ * The [identifiers page(identifiers)] gives advice on how to create and use identifiers.
+[Machine actionability](machine_actionability) helps to automatically access and process research data.
+ * Consider the best practices and technical solutions for [data analysis](data_analysis).
+ * [Data protection](data_protection) helps you to make research data GDPR-compliant.
+ * [Data sensitivity(sensitive_data)] helps you to identify sensitivity of different research data types.
+ * [Licensing](licensing) gives advice on how to assign a licence to research data.
+ * Consult the [data transfer page](data_transfer) for information about transferring large data files.
+ * The [data brokering page](data_brokering) provides information on uploading data to repositories and metadata requirements for the process.
+ * The [data storage page](storage) helps to consider short and long-term storage, during and at the end of a project.
 
 
 ### Other resources

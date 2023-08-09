@@ -66,13 +66,13 @@ In your role of policy maker, you may need to:
 
 ### RDMkit pages
 
-* The [Compliance page](https://rdmkit.elixir-europe.org/compliance_monitoring) helps comply with the institution policy, including legal and ethical aspects.
-* The [National resources pages](https://rdmkit.elixir-europe.org/national_resources) point to country-specific information resources such as local funding agencies and research councils, and information on local policies for open science, national regulations on data ethics, and domain-specific infrastructures and tools.
-* [Data protection](https://rdmkit.elixir-europe.org/data_protection) helps to make research data compliant to GDPR.
-* [Data sensitivity](https://rdmkit.elixir-europe.org/sensitive_data) helps to identify sensitivity of different research data types.
-* [Licensing](https://rdmkit.elixir-europe.org/licensing) gives advice on how to assign a licence to research data.
-* [Data management plan](https://rdmkit.elixir-europe.org/data_management_plan) guides through writing a data management plan.
-* [Project data management coordination](https://rdmkit.elixir-europe.org/dm_coordination) gives support in coordination and organisation of RDM in collaborative projects.
+* The [Compliance page](compliance_monitoring) helps comply with the institution policy, including legal and ethical aspects.
+* The [National resources pages](national_resources) point to country-specific information resources such as local funding agencies and research councils, and information on local policies for open science, national regulations on data ethics, and domain-specific infrastructures and tools.
+* [Data protection](data_protection) helps to make research data compliant to GDPR.
+* [Data sensitivity](sensitive_data) helps to identify sensitivity of different research data types.
+* [Licensing](licensing) gives advice on how to assign a licence to research data.
+* [Data management plan](data_management_plan) guides through writing a data management plan.
+* [Project data management coordination](dm_coordination) gives support in coordination and organisation of RDM in collaborative projects.
 
 ### Other resources
 

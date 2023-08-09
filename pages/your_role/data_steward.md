@@ -45,10 +45,10 @@ In your role of data steward, you may need to:
 
 ### RDMkit pages
 
- * The [RDM life cycle pages](https://rdmkit.elixir-europe.org/data_life_cycle) give an overview of data management tasks. 
- * [Your domain pages](https://rdmkit.elixir-europe.org/your_domain) have a description of domain-specific data management challenges, considerations to be taken into account and solutions used by the community to address the challenges. You will also find training material and links to relevant tools and resources.
- * [Your task pages](https://rdmkit.elixir-europe.org/your_tasks) are organised around regular RDM tasks and challenges. You will find best practices, guidelines, training material as well as links to tools and resources.
- * The [National resources pages](https://rdmkit.elixir-europe.org/national_resources) point to country-specific information resources such as local funding agencies and research councils, and information on local policies for open science, national regulations on data ethics, and domain-specific infrastructures and tools.
+ * The [RDM life cycle pages](data_life_cycle) give an overview of data management tasks. 
+ * [Your domain pages](your_domain) have a description of domain-specific data management challenges, considerations to be taken into account and solutions used by the community to address the challenges. You will also find training material and links to relevant tools and resources.
+ * [Your task pages](your_tasks) are organised around regular RDM tasks and challenges. You will find best practices, guidelines, training material as well as links to tools and resources.
+ * The [National resources pages](national_resources) point to country-specific information resources such as local funding agencies and research councils, and information on local policies for open science, national regulations on data ethics, and domain-specific infrastructures and tools.
 
 ### Other resources
 
