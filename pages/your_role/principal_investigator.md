@@ -2,9 +2,7 @@
 title: Principal Investigator (PI)
 description: Researchers generating and reusing data.
 contributors: [Mijke Jetten, Gregoire Rossier]
-page_id: pi
-related_pages:
-training:
+page_id: principal_investigator
 ---
 
 ## Introduction
