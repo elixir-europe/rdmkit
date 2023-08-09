@@ -12,16 +12,16 @@ subitems:
     url: /your_role
     image_url: /assets/img/section-icons/address-card-light.svg
     subitems:
-      - title: "Data Steward: policy"
-        url: /data_steward_policy
-      - title: "Data Steward: research"
-        url: /data_steward_research
-      - title: "Data Steward: infrastructure"
-        url: /data_steward_infrastructure
+      - title: Data Steward
+        url: /data_steward
+      - title: Policy maker
+        url: /policy_maker
       - title: Principal Investigator (PI)
         url: /pi
       - title: Researcher
         url: /researcher
+      - title: Research Software Engineer
+        url: /research_software_engineer
   - title: Your domain
     description: Learn about data management tasks that affect your domain or research community, and the solutions adopted to address them.
     url: /your_domain
