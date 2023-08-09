@@ -94,7 +94,7 @@ Examples of databases containing drug toxicological data:
 - {% tool "clinicaltrials-gov" %} is a resource depending on the National Library of medicine which makes available private and public-funded clinical trials.
 - The FDA Adverse Event Reporting System {% tool "faers" %} contains adverse event reports, medication error reports and product quality complaints submitted by healthcare professionals, consumers, and manufacturers.
 - The {% tool "eudravigilance" %} is the European database of suspected adverse drug reaction reports is a public resource aimed to provide access to reported suspected side-effects of drugs. Side-effects are defined according to the MedDRA ontology.
-- The {% tool "txg-maprA" %} is a tool that contains weighted gene co-expression networks obtained from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs datasets.
+- The {% tool "txg-mapr" %} is a tool that contains weighted gene co-expression networks obtained from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs datasets.
 
 Harmonization of terminologies can be achieved by using different resources:
 
