@@ -46,7 +46,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, it_support]
+      your_role: [data_steward, research_software_engineer]
       your_tasks: [data_analysis, storage]
     url: https://www.e-infra.cz/en
   - name: ownCloud@CESNET
@@ -56,7 +56,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, it_support]
+      your_role: [researcher, research_software_engineer]
       your_tasks: [storage, data_transfer, data_organisation]
     url: https://du.cesnet.cz/en/navody/owncloud/start/
   - name: Czech National Repository
@@ -66,7 +66,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, data_manager, it_support]
+      your_role: [researcher, data_steward, research_software_engineer]
       your_tasks: [storage, existing_data, identifiers, dmp]
     url: https://data.narodni-repozitar.cz/
 

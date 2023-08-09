@@ -1,7 +1,7 @@
 ---
 title: Researcher
-description: Researchers generating and reusing data.
-contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona, Munazah Andrabi]
+description: Data management guidance for researchers, including how to make your data FAIR.
+contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xenia Perez-Sitja, Nazeefa Fatima, Gregoire Rossier, Federico Bianchini, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona, Munazah Andrabi]
 page_id: researcher
 related_pages: 
   your_tasks: [data_analysis, dmp, data_organisation, data_publication, data_quality, existing_data, metadata, identifiers, data_provenance]
@@ -31,13 +31,13 @@ In your role of researcher, you may need to:
 
 ### RDMkit pages
 
- * [The RDM life cycle pages](https://rdmkit.elixir-europe.org/data_life_cycle) give an overview of how to approach data management tasks.
- * [Data management plan](https://rdmkit.elixir-europe.org/data_management_plan) guides you through writing a data management plan.
- * [Costs of data management](https://rdmkit.elixir-europe.org/costs_data_management) helps you budget for your project.
- * [Compliance](https://rdmkit.elixir-europe.org/compliance_monitoring) helps you comply with the institution policy, including the legal and ethical aspects.
- * [National resources](https://rdmkit.elixir-europe.org/national_resources) give country-specific guidance and resources.
- * [Documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management) helps you document data and choose the appropriate metadata standards.
- * [Data publication](https://rdmkit.elixir-europe.org/data_publication) guides to find a data repository for your needs.
+ * [The RDM life cycle pages](data_life_cycle) give an overview of how to approach data management tasks.
+ * [Data management plan](data_management_plan) guides you through writing a data management plan.
+ * [Costs of data management](costs_data_management) helps you budget for your project.
+ * [Compliance](compliance_monitoring) helps you comply with the institution policy, including the legal and ethical aspects.
+ * [National resources](national_resources) give country-specific guidance and resources.
+ * [Documentation and metadata](metadata_management) helps you document data and choose the appropriate metadata standards.
+ * [Data publication](data_publication) guides to find a data repository for your needs.
 
 ### Other resources
 
