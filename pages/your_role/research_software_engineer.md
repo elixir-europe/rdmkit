@@ -33,7 +33,7 @@ In your role of research software engineer, you may need to:
 
 ### RDMkit pages
 
- * The [data organisation page](https://rdmkit.elixir-europe.org/data_organisation#how-do-you-manage-file-versioning) helps with file naming, versioning and folder structures.
+ * The [data organisation page](https://rdmkit.elixir-europe.org/data_organisation) helps with file naming, versioning and folder structures.
  * [Data documentation(https://rdmkit.elixir-europe.org/metadata_management)], such as README files and metadata, helps to make data understandable and reusable.
  * The [identifiers page(https://rdmkit.elixir-europe.org/identifiers)] gives advice on how to create and use identifiers.
 [Machine actionability](https://rdmkit.elixir-europe.org/machine_actionability) helps to automatically access and process research data.
@@ -43,7 +43,7 @@ In your role of research software engineer, you may need to:
  * [Licensing](https://rdmkit.elixir-europe.org/licensing) gives advice on how to assign a licence to research data.
  * Consult the [data transfer page](https://rdmkit.elixir-europe.org/data_transfer) for information about transferring large data files.
  * The [data brokering page](https://rdmkit.elixir-europe.org/data_brokering) provides information on uploading data to repositories and metadata requirements for the process.
- * The [data storage page](https://rdmkit.elixir-europe.org/storage#where-should-you-store-the-data-after-the-end-of-the-project) helps to consider short and long-term storage, during and at the end of a project.
+ * The [data storage page](https://rdmkit.elixir-europe.org/storage) helps to consider short and long-term storage, during and at the end of a project.
 
 
 ### Other resources
