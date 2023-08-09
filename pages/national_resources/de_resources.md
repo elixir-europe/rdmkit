@@ -27,13 +27,13 @@ national_resources:
     description: The German Human Genome-Phenome Archive.
     related_pages:
       your_tasks: [storage, metadata]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
     url: https://ghga.dkfz.de/
   - name: PUBLISSO
     description: Open access publishing platform for life sciences.
     related_pages:
       your_tasks: [data_publication]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
     url: https://www.publisso.de/en/
   - name: RDMO
     description: Research Data Management Organiser.

@@ -29,7 +29,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: []
     url: https://rdm.elixir-belgium.org
   - name: Galaxy Belgium
@@ -49,7 +49,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [dmp]
     url: https://dmponline.be
   - name: PIPPA
@@ -58,7 +58,7 @@ national_resources:
     related_pages:
       tool_assembly: [plant_pheno_assembly]
       your_domain: [plants]
-      your_role: [data_manager, researcher, it_support]
+      your_role: [data_steward, researcher, research_software_engineer]
       your_tasks: []
     url: https://pippa.psb.ugent.be
     registry:
@@ -69,7 +69,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, researcher, it_support]
+      your_role: [data_steward, researcher, research_software_engineer]
       your_tasks: [transfer]
     url: https://belnet.be/en
   - name: Flemish Supercomputing Center (VSC)
@@ -78,7 +78,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, it_support]
+      your_role: [data_steward, research_software_engineer]
       your_tasks: [data_analysis, storage]
     url: https://www.vscentrum.be
     

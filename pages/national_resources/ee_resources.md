@@ -24,7 +24,7 @@ national_resources:
     related_pages:
       tool_assembly:
       your_domain:
-      your_role: [data_manager]
+      your_role: [data_steward]
       your_tasks: [data_quality]
     url: https://redcap.ut.ee/
 ---
