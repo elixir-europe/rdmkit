@@ -107,8 +107,10 @@ For human data, it is very important to use technical and procedural measures to
 * {% tool "intogen" %} collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.
 * {% tool "boostdm" %} is a method to score all possible point mutations in cancer genes for their potential to be involved in tumorigenesis.
 * {% tool "cancer-genome-interpreter" %} is designed to identify tumor alterations that drive the disease and detect those that may be therapeutically actionable.
-* GA4GH's [Data Security](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/), and [Genomic Data](https://www.ga4gh.org/genomic-data-toolkit/) toolkits provide policies, standards for the secure transfer and processing of human genomics data. GA4GH standards are often implemented into multiple tools. For example, the [Crypt4GH data encryption standard](https://www.ga4gh.org/news/crypt4gh-a-secure-method-for-sharing-human-genetic-data/) is implemented both in [SAMTools](http://samtools.github.io/hts-specs/crypt4gh.pdf) and also provided as a utility from the EGA Archive, {% tool "crypt4gh" %}.
+* GA4GH's [Data Security](https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/), and {% tool "ga4gh-genomic-data-toolkit" %} provide policies, standards for the secure transfer and processing of human genomics data. GA4GH standards are often implemented into multiple tools. For example, the [Crypt4GH data encryption standard](https://www.ga4gh.org/news/crypt4gh-a-secure-method-for-sharing-human-genetic-data/) is implemented both in [SAMTools](http://samtools.github.io/hts-specs/crypt4gh.pdf) and also provided as a utility from the EGA Archive, {% tool "crypt4gh" %}.
 * [GA4GH's Cloud Workstream](https://www.ga4gh.org/how-we-work/2020-2021-roadmap/2020-2021-roadmap-part-ii/cloud-2020-2021-roadmap/) is a more recent initiative and focuses on keeping data in secure cloud environments and meanwhile bringing computational analysis to the data.
+* The {% tool "erpa" %} is a Web-based tool allowing users to create and manage a register of personal data processing activities (ROPA).
+* {% tool "otp" %} is a data management platform for running bioinformatics pipelines in a high-throughput setting, and for organising the resulting data and metadata.
 
 ## Preserving human data
 
@@ -134,6 +136,7 @@ It is a good ethical practice to ensure that data underlying research is preserv
 * {% tool "ga4gh-data-security-toolkit" %}
 * {% tool "iso-iec-27001" %} is an international information security standard adopted by data centres of some universities and research institutes.
 * {% tool "the-european-genome-phenome-archive" %} is an international service for secure archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical studies and healthcare centres. All services are free of charge. The EGA stores the data and metadata long-term, without ending date of the service. The data is backed-up in two separate geographical locations. The storing is GDPR-compliant, thanks to the use of [Ga4GH encryption standard](https://www.ga4gh.org/news/crypt4gh-a-secure-method-for-sharing-human-genetic-data/) and continuously kept up-to-date. National repositories working as Federated EGA nodes are available in some countries like Sweden, Norway, Finland, Germany and Spain. Those may address specific additional national legal needs, not included in European regulation.
+* {% tool "dpia-knowledge-model" %} is a DSW knowledge model guiding users through a set of questions to collect information necessary for a research project Data Protection Impact Assessment (DPIA).
 
 ## Sharing and reusing of human data
 
