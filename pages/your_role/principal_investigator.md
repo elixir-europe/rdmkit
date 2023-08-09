@@ -1,6 +1,6 @@
 ---
 title: Principal Investigator (PI)
-description: Researchers generating and reusing data.
+description: Data management guidance for Principal Investigator (PI).
 contributors: [Mijke Jetten, Gregoire Rossier]
 page_id: principal_investigator
 ---
@@ -22,7 +22,7 @@ In your role of PI, you may need to:
  * Anticipate the ethical and legal aspects of your project in an early stage, like protecting human data against unauthorised access.
  * Consider a common work environment and lab notebook, to limit the risk of information loss and unauthorised access, and start creating metadata from the beginning of a project.
  * Ensure maximum reproducibility, such as data organisation, data documentation and providing workflows and code.
- * Share data as it allows others to build upon your work, enables meta-analysis, increases visibility and it is a requirement for grant funding.
+ * Share data as it allows others to build upon your work, enables meta-analysis, increases visibility as it is a requirement for grant funding.
 
 ## Data management guidance
 
@@ -34,9 +34,9 @@ In your role of PI, you may need to:
  * The [costs of data management page](https://rdmkit.elixir-europe.org/costs_data_management) helps you budget for your project, including costs for data storage and preservation.
  * The [national resources pages](https://rdmkit.elixir-europe.org/national_resources) provide country-specific guidance, to help you choose the best services, tools and pipelines to manage your data.
  * The [human data page](https://rdmkit.elixir-europe.org/human_data#planning-for-projects-with-human-data) gathers information that needs to be taken into consideration when working with human data. Make sure to [protect the data](https://rdmkit.elixir-europe.org/data_protection#how-do-you-ensure-that-your-data-is-handled-securely) in your project well and prevent unauthorised access.
- * Consider your [data storage needs](https://rdmkit.elixir-europe.org/storage#where-should-you-store-the-data-after-the-end-of-the-project) in an early stage, including long-term storage at the project end.
- * The [data organisation page](https://rdmkit.elixir-europe.org/data_organisation#how-do-you-manage-file-versioning) helps you with file naming, versioning and folder structures.
- * [Data documentation](https://rdmkit.elixir-europe.org/metadata_management), like readme files and metadata, help secondary users to understand and reuse your data.
+ * Consider your [data storage needs](https://rdmkit.elixir-europe.org/storage) in an early stage, including long-term storage at the project end.
+ * The [data organisation page](https://rdmkit.elixir-europe.org/data_organisation) helps you with file naming, versioning and folder structures.
+ * [Data documentation](https://rdmkit.elixir-europe.org/metadata_management), like README files and metadata, help secondary users to understand and reuse your data.
  * The [data processing](https://rdmkit.elixir-europe.org/processing#what-is-data-processing) and [data analysis pages](https://rdmkit.elixir-europe.org/data_analysis#what-are-the-best-practices-for-data-analysis) provide useful tips, including ensuring maximum reproducibility
  * The [data publication page](https://rdmkit.elixir-europe.org/data_publication#which-repository-should-you-use-to-publish-your-data) guides you in publishing your data via a public (domain-specific) repository.
  * To make research more robust, consider [reusing existing data](https://rdmkit.elixir-europe.org/existing_data#how-can-you-reuse-existing-data) yourself.
