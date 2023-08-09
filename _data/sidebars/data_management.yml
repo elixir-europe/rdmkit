@@ -12,10 +12,12 @@ subitems:
     url: /your_role
     image_url: /assets/img/section-icons/address-card-light.svg
     subitems:
-      - title: Data Steward
+       - title: Data Steward
         url: /data_steward
       - title: Policy maker
         url: /policy_maker
+      - title: Principal Investigator (PI)
+        url: /principal_investigator
       - title: Researcher
         url: /researcher
       - title: Research Software Engineer
