@@ -3,6 +3,7 @@ title: Data Steward
 description: Data management guidance for data stewards.
 contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xenia Perez-Sitja, Nazeefa Fatima, Gregoire Rossier]
 page_id: data_steward
+redirect_from: [data_steward_infrastructure, data_steward_policy, data_steward_research]
 ---
 
 ## Introduction
