@@ -16,6 +16,8 @@ subitems:
         url: /data_steward
       - title: Policy maker
         url: /policy_maker
+      - title: Principal Investigator (PI)
+        url: /principal_investigator
       - title: Researcher
         url: /researcher
       - title: Research Software Engineer
