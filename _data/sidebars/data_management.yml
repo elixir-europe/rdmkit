@@ -22,6 +22,8 @@ subitems:
         url: /researcher
       - title: Research Software Engineer
         url: /research_software_engineer
+      - title: Trainer
+        url: /trainer
   - title: Your domain
     description: Learn about data management tasks that affect your domain or research community, and the solutions adopted to address them.
     url: /your_domain
