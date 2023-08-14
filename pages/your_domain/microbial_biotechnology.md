@@ -103,6 +103,7 @@ Appropriate and detailed description of the synthetic parts design is critical f
   * {% tool "igem-parts-registry" %}
   * {% tool "jbei-ice" %} ([Ham et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467034/))
   * {% tool "synbiohub" %}
+  * {% tool "freegenes" %} - Repository of IP-free synthetic biological parts
 * Sequences can be isolated from standard genetic databases such as {% tool "european-nucleotide-archive" %} and {% tool "genbank" %}.
 
 #### Tools for metadata collection
@@ -137,7 +138,7 @@ Here we describe some of the available options to accurately represent and store
 ### Solutions
 #### Metadata and ontologies
 * SBOL allows information about the enzymes and the metabolic pathways to be captured in the design document and so this is a viable approach for sharing more than just the genetics of the system.
-* Enzymes can be assigned EC numbers, according to the guidance from the {% tool "iupac-iubmb-joint-commission-on-biochemical-nomenclature" %}, to indicate their function and an entry made in the {% tool "brenda" %} (BRENDA).
+* Enzymes can be assigned EC numbers, according to the guidance from the {% tool "iupac-iubmb-joint-commission-on-biochemical-nomenclature" %} (IUPAC and {% tool "international-union-of-biochemistry-and-molecular-biology" %}), to indicate their function and an entry made in the {% tool "brenda" %} (BRENDA).
 * More generally, the {% tool "iupac-iubmb-joint-commission-on-biochemical-nomenclature" %} encourages the communication of biochemical information using generally understood terminology.
 
 #### (Meta)data publication
