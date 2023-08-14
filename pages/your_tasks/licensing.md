@@ -61,7 +61,7 @@ What licence you should apply to your research data depends on what rights prote
 * Remember that the rights granted in a licence cannot be revoked once it has been applied.
 
 ### Solutions
-* Apply to your data one of the [recommended licenses conformant to the Open Definition](https://opendefinition.org/licenses/), so that your data can be shared and reused. The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
+* Apply to your data one of the {% tool "open-definition-conformant-licenses" %}, so that your data can be shared and reused. The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
 * [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licences and are available in human-readable and machine-readable forms, with different levels of permissions.
   * {% tool "creative-commons-license-chooser" %} helps you choose the right Creative Commons licence for your needs.
   * The [video tutorial from Kingsborough E-Learning](https://www.youtube.com/watch?v=5QxkuuiZwRU) shows how to add a Creative Commons licence to your work in practice.
@@ -70,4 +70,5 @@ What licence you should apply to your research data depends on what rights prote
   * {% tool "choose-a-license" %} is an online guide provided by GitHub to help you choose a license for open-source projects.
   * {% tool "data-world-data-license-list" %} provides list of common license types for datasets.
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
+* Additional guidance about licences can be found on the DCC page about {% tool "how-to-license-research-data-dcc" %}.
 
