@@ -148,3 +148,4 @@ The top folder should have a README.txt file describing the folder structure and
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
 
+* Structured directories can be made by using {% tool "cookiecutter" %},a command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
