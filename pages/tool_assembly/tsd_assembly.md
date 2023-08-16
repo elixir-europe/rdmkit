@@ -19,7 +19,7 @@ training:
 ## What is the Norwegian tools assembly for sensitive data - TSD data management tools assembly?
 The Norwegian ELIXIR tools assembly for sensitive data is centred around 
 [TSD - literally for: services for sensitive data](https://www.uio.no/english/services/it/research/sensitive-data/) is an infrastructure provided by [the University of Oslo (UiO)](https://www.uio.no). Together with the other complementary tools provided by ELIXIR, TSD can be used for the management of [sensitive data](sensitive_data), including handling of [Human data](human_data).
-This assembly covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offer [Data Storage](storage) capacities and tools for [transfer](data_transfer) of sensitive data, following the requirements of the EU general data protection regulations (GDPR) and its Norwegian implementation. 
+This assembly covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offer [Data Storage](storage) capacities and tools for [transfer](data_transfer) of sensitive data, following the requirements of the {% tool "eu-general-data-protection-regulation" %} and its Norwegian implementation. 
 
 
 
