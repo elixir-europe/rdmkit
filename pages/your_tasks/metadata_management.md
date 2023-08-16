@@ -62,6 +62,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
   * There is a major area of overlap between the aforementioned tools for data documentation, so it is better to choose the tool(s) that best address your specific need. Some tools can be used at the same time to address different needs and they can be complementary. Comparative lists can help with the choice:
     * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
     * [University of Cambridge - Electronic Research Notebook Products.](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products)
+    * [PUBLISSO - Documenting research data: Electronic Lab(oratory) Notebooks.](https://www.publisso.de/en/research-data-management/rd-documenting)
 
 * Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data):
   * Folder structure
