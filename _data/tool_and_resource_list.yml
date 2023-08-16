@@ -2304,3 +2304,7 @@
   id: ome-data-model-and-file-formats
   name: OME Data Model and File Formats
   url: https://docs.openmicroscopy.org/ome-model/
+- description: "Documenting research data: Electronic Lab(oratory) Notebooks."
+  id: publisso
+  name: PUBLISSO
+  url: https://www.publisso.de/en/research-data-management/rd-documenting
