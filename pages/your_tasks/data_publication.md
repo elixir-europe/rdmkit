@@ -60,9 +60,11 @@ The most suitable repository will depend on the data type and your discipline.
 * Discipline-specific repositories: if a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
   * The {% tool "embl-ebi-s-data-submission-wizard" %} can help you choose a suitable repository based on your data type.
   * There are lists of discipline-specific, community-recognised repositories e.g.:
-   * {% tool "elixir-deposition-databases-for-biomolecular-data" %}
+   * {% tool "elixir-deposition-databases-for-biomolecular-data" %} including {% tool "arrayexpress" %}, {% tool "biomodels" %}, {% tool "biostudies" %}, {% tool "european-nucleotide-archive" %}, {% tool "pdb" %}, {% tool "pride" %}
    * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories)
-* General-purpose and institutional repositories: For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [general-purpose repository](https://www.nature.com/sdata/policies/repositories#general) or a centralised repository provided by your institution or university.
+   * {% tool "wellcome-open-research-data-guidelines" %}
+* Check if there are repositories available for specific data formats, such as images (e.g. {% tool "bioimagearchive" %}, {% tool "empiar" %}) or earth and environmental science data (e.g. {% tool "pangaea" %}).
+* General-purpose and institutional repositories: For other cases, a repository that accepts data of different types and disciplines should be considered. It could be a [general-purpose repository](https://www.nature.com/sdata/policies/repositories#general), such as {% tool "zenodo" %}, {% tool "mendeley-data" %}, {% tool "figshare" %}, {% tool "dryad" %} or a centralised repository provided by your institution or university.
 * {% tool "re3data" %} or {% tool "repository-finder" %} gather information about existing repositories and allows you to filter them based on access and licence types.
 * {% tool "re3data" %} and {% tool "fairsharing" %} websites gather features of repositories, which you can filter by discipline, data type, taxonomy and many other features.
 
