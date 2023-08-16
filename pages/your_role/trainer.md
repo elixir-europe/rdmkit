@@ -8,7 +8,7 @@ page_id: trainer
 ## Introduction
 As a trainer, you design and deliver training courses in research data management with a focus on bioinformatics data. Your audience is mainly people in biomedical sciences: PhD students, postdocs, researchers, technicians and PIs.
 
-Your role is to emphasise the importance of applying best practices in Research Data Management, including FAIR principles, and also to provide the guidance necessary to improve participants' skills throughout their projects.
+Your role is to emphasise the importance of applying best practices in Research Data Management, including FAIR principles, and also to provide researchers with the skills necessary to put these principles into practice throughout their projects.
 
 In addition to the usual abilities required for a trainer (communication, pedagogy, problem-solving), flexibility is key as you have to deal with an audience of several domains, skills and levels of involvement.
 
