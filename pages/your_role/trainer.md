@@ -33,9 +33,9 @@ In your role of trainer maker, you may need to:
 
 ### RDMkit pages
 
-* [Your task pages](https://rdmkit.elixir-europe.org/your_tasks) are organised around regular RDM tasks and challenges. You will find best practices, guidelines and training materials. 
-* The [National resources pages](https://rdmkit.elixir-europe.org/national_resources) provide country-specific guidance, to help you choose the best services, tools and pipelines to manage your data. Furthermore, it links to national training pages in [TeSS](https://tess.elixir-europe.org/).
-* You can find an overview of all training recourses on the [All training resources pages](https://rdmkit.elixir-europe.org/all_training_resources).
+* [Your task pages](your_tasks) are organised around regular RDM tasks and challenges. You will find best practices, guidelines and training materials. 
+* The [National resources pages](national_resources) provide country-specific guidance, to help you choose the best services, tools and pipelines to manage your data. Furthermore, it links to national training pages in [TeSS](https://tess.elixir-europe.org/).
+* You can find an overview of all training recourses on the [All training resources pages](all_training_resources).
 
 ### Other resources
 
