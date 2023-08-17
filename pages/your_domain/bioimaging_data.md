@@ -125,7 +125,7 @@ Due to the scale of data, keeping track of the image data and the associated dat
 - Existing data can be found by using the following resources:
   - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers).
   - [Research Data repositories Registry](https://www.re3data.org/).
-- Find software tools, image databases for benchmarking, and training materials for bioimage analysis in the {% tool biii %} registry
+- Find software tools, image databases for benchmarking, and training materials for bioimage analysis in the {% tool "biii" %} registry
 
 
 ## Data publication and archiving
