@@ -92,39 +92,40 @@ Due to the scale of data, keeping track of the image data and the associated dat
 
 
 ### Considerations
- - Consider using an image management software platform. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used and shared within research groups.
- - When evaluating an image management software platforms, check if it allows you to:
-   - Control the access you wish to give to your data and how you wish to work e.g. PI only can view and annotate my data or you can choose to work on project with some collaborators.
-   - Access data from anywhere via either Web or Desktop clients and API.
-   - Store the metadata with your images. For example, analytical results can be linked to your imaging data and can be easily findable.
-   - Add value to your imaging data by for example linking them to external resources like ontologies.
-   - Make your data publicly available and slowly moving towards FAIRness.
- - Try to avoid storing bioimaging data in the local system’s PC.
- - If possible, make a transfer to central storage mandatory. If not possible, enable automation of data backup to central storage.
- - Consider support for minimal standards (metadata schemas, file formats, etc.) in your domain.
- - Consider reusing existing data.
+- Consider using an image management software platform. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used and shared within research groups.
+- When evaluating an image management software platforms, check if it allows you to:
+  - Control the access you wish to give to your data and how you wish to work e.g. PI only can view and annotate my data or you can choose to work on project with some collaborators.
+  - Access data from anywhere via either Web or Desktop clients and API.
+  - Store the metadata with your images. For example, analytical results can be linked to your imaging data and can be easily findable.
+  - Add value to your imaging data by for example linking them to external resources like ontologies.
+  - Make your data publicly available and slowly moving towards FAIRness.
+- Try to avoid storing bioimaging data in the local system’s PC.
+- If possible, make a transfer to central storage mandatory. If not possible, enable automation of data backup to central storage.
+- Consider support for minimal standards (metadata schemas, file formats, etc.) in your domain.
+- Consider reusing existing data.
 
 
 ### Solutions
 
- - Agnostic platforms that can be used to bridge between domain data include:
-   - {% tool "irods" %}.
-   - {% tool "b2share" %}.
- - Image-specific data management platforms include:
-   - {% tool "omero" %} - broad support for a large number of imaging formats.
-   - {% tool "cytomine-ims" %} - image specific.
-   - {% tool "xnat" %} - medical imaging platform, DICOM-based.
-   - {% tool "mytardis" %} - largely file-system based platform handling the transfer of data.
-   - {% tool "bisque" %} - resource for management and analysis of 5D biological images.m
-  - Platforms like {% tool "omero" %}, {% tool "b2share" %} also allow you to publish the data associated with a given project.
-  - Metadata standards can be found at the [Metadata Standards Directory Working Group](https://rdamsc.bath.ac.uk/).
-  - Ontologies Resources available at:
-    - {% tool "zooma" %} - Resource to find ontology mapping for free text terms.
-    - {% tool "ontology-lookup-service" %} - Ontology lookup service.
-    - {% tool "bioportal" %} - Biomedical ontologies.
-   - Existing data can be found by using the following resources:
-    - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers).
-    - [Research Data repositories Registry](https://www.re3data.org/).
+- Agnostic platforms that can be used to bridge between domain data include:
+  - {% tool "irods" %}.
+  - {% tool "b2share" %}.
+- Image-specific data management platforms include:
+  - {% tool "omero" %} - broad support for a large number of imaging formats.
+  - {% tool "cytomine-ims" %} - image specific.
+  - {% tool "xnat" %} - medical imaging platform, DICOM-based.
+  - {% tool "mytardis" %} - largely file-system based platform handling the transfer of data.
+  - {% tool "bisque" %} - resource for management and analysis of 5D biological images.m
+- Platforms like {% tool "omero" %}, {% tool "b2share" %} also allow you to publish the data associated with a given project.
+- Metadata standards can be found at the [Metadata Standards Directory Working Group](https://rdamsc.bath.ac.uk/).
+- Ontologies Resources available at:
+  - {% tool "zooma" %} - Resource to find ontology mapping for free text terms.
+  - {% tool "ontology-lookup-service" %} - Ontology lookup service.
+  - {% tool "bioportal" %} - Biomedical ontologies.
+- Existing data can be found by using the following resources:
+  - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers).
+  - [Research Data repositories Registry](https://www.re3data.org/).
+- Find software tools, image databases for benchmarking, and training materials for bioimage analysis in the {% tool biii %} registry
 
 
 ## Data publication and archiving
