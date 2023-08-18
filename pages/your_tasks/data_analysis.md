@@ -61,7 +61,7 @@ By using package and environment management systems like {% tool "conda" %} and 
 
 Conda works by making a nested folder containing the traditional UNIX directory structure `bin/` `lib/` but installed from Conda's repositories instead of from a Linux distribution.
 
-* As such Conda enables consistent installation of computational tools independent of your distribution or operating system version. Conda is  available for Linux, macOS and Windows, giving consistent experience across operating systems (although not all software is available for all OSes).
+* As such Conda enables consistent installation of computational tools independent of your distribution or operating system version. Conda is available for Linux, macOS and Windows, giving consistent experience across operating systems (although not all software is available for all OSes).
 * Package management systems work particularly well for installing free and Open Source software, but can also be useful for creating an isolated environment for installing commercial software packages; for instance if they requires an older Python version than you have pre-installed.
 * Conda is one example of a generic package management, but individual programming languages typically have their environment management and package repositories.
 * You may want to consider submitting a release of your own code, or at least the general bits of it, to the package repositories for your programming language.
@@ -109,6 +109,7 @@ In short containers works almost like a virtual machine (VMs), in that it re-cre
     * If you need to use multiple tools in a pipeline, find Conda or container images, compose them in a Computational Workflow.
     * If you need to run tools in a cloud instance, but it has nothing preinstalled, use Conda or containers to ensure installation on cloud VM matches your local machine.
     * If you just need a particular open source tool installed, e.g. ImageMagick, check the document how to install: _For Ubuntu 20.04, try `apt install imagemagick`_.
+* Domain specific solutions that make use of containers to benchmark and reproducibly deploy workflows exist, including {% tool "biaflows" %} for bioimage data.
 
 ## How can you use workflow management systems for reproducible data analysis?
 
@@ -118,7 +119,7 @@ Using containerization together with workflow management systems provides severa
 
 * Reproducibility: By using containerized environments and workflow management systems, you can ensure that your analysis is reproducible, as the environment in which the analysis is executed is exactly the same each time.
 * Portability: Containerized environments can be easily moved between different computing environments, allowing you to execute your analysis on different computing resources or share your analysis with collaborators.
-* Scalability: Workflow management systems can be used to execute analyses on large computing clusters or cloud computing resources, enabling you to scale your analysis as needed.
+* Scalability: Workflow management systems can be used to execute analyses on large computing clusters (like the EuroHPC supercomputer {% tool "lumi" %}) or cloud computing resources, enabling you to scale your analysis as needed.
 
 ### Considerations
 
@@ -140,3 +141,4 @@ Creating an analysis workflow involves several steps that require careful consid
 - {% tool "workflowhub" %} and {% tool "dockstore" %} are two popular services for sharing and re-using workflows.
 - {% tool "life-monitor" %} is a service designed to facilitate the long-term viability and reusability of published computational workflows.
 - The [ELIXIR Cloud and AAI project](https://elixir-cloud-aai.github.io/) supports a framework for executing workflows in the cloud via the standards developed by the [GA4GH](https://www.ga4gh.org/) community.
+

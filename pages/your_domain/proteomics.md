@@ -63,6 +63,7 @@ For all steps within a FAIR proteomics data analysis pipeline software is needed
   * {% tool "openms" %}
   * {% tool "pia-protein-inference-algorithms" %}
   * {% tool "skyline" %}
+  * {% tool "paa" %}
 
 
 ## Preserving and sharing proteomics data
