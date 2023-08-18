@@ -253,12 +253,6 @@
     fairsharing: paz6mh
     tess: BioModels
   url: https://www.ebi.ac.uk/biomodels/
-- description: BIONDA is a free and open-access biomarker database, which employs various text mining methods to extract structured information on biomarkers from abstracts of scientific publications
-  id: bionda
-  name: BIONDA
-  registry:
-    biotools: bionda
-  url: http://bionda.mpc.ruhr-uni-bochum.de/start.php
 - description: BioSamples stores and supplies descriptions and metadata about biological samples used in research and development by academia and industry.
   id: biosamples
   name: BioSamples
@@ -431,12 +425,6 @@
     fairsharing: m3jtpg
     tess: ChEMBL
   url: https://www.ebi.ac.uk/chembl/
-- description: ChIPSummitDB is a database of transcription factor binding sites and the distances of the binding sites relative to the peak summits.
-  id: chipsummitdb
-  name: ChIPSummitDB
-  registry:
-    biotools: chipsummitdb
-  url: http://summit.med.unideb.hu/summitdb/
 - description: Choose an open source license
   id: choose-a-license
   name: Choose a license
@@ -988,12 +976,6 @@
   id: gene-expression-omnibus
   name: Gene Expression Omnibus (GEO)
   url: https://www.ncbi.nlm.nih.gov/geo/
-- description: Geneid is an ab initio gene finding program used to predict genes along DNA sequences in a large set of organisms.
-  id: geneid
-  name: GENEID
-  registry:
-    biotools: geneid
-  url: https://genome.crg.cat/software/geneid/index.html
 - description: GHS (Globally Harmonized System of Classification and Labelling of Chemicals) classification was developed by the United Nations in an attempt to align standards and chemical regulations in different countries. GHS includes criteria for the classification of health, physical and environmental hazards, and what information should be included on labels of hazardous chemicals and safety data sheets.
   id: ghs-classification
   name: GHS Classification
@@ -1044,12 +1026,6 @@
   registry:
     biotools: GPCRmd
   url: http://gpcrmd.org/
-- description: The GRAPE pipeline provides an extensive pipeline for RNA-Seq analyses. It allows the creation of an automated and integrated workflow to manage, analyse and visualize RNA-Seq data.
-  id: grape-2-0
-  name: GRAPE 2.0
-  registry:
-    biotools: grape_2.0
-  url: https://github.com/guigolab/grape-nf
 - description: ELN Comparison Grid by Hardvard Medical School
   id: harvard-medical-school-electronic-lab-notebooks
   name: Harvard Medical School - Electronic Lab Notebooks
@@ -1223,10 +1199,6 @@
   registry:
     biotools: lumi
   url: https://www.lumi-supercomputer.eu/
-- description: Machine-Actionable Data Management Plan | Webinar (2016) on making a good data management plan.
-  id: madmp-research-bridge
-  name: maDMP - Research Bridge
-  url: https://library.ust.hk/sc/machine-actionable-dmp/
 - description: MarDB includes all non-complete marine microbial genomes regardless of level of completeness. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation.
   id: mardb
   name: MarDB
@@ -1941,10 +1913,6 @@
   id: toxcast-data
   name: ToxCast_data
   url: https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
-- description: The Toxicology Data Network (TOXNET) was a portal that allowed access to several relevant sources in the toxicological field. Nowadays, these sources have been integrated into other NLM resources.
-  id: toxnet
-  name: TOXNET
-  url: https://www.nlm.nih.gov/toxnet/index.html
 - description: Knowledge management and high-content analysis platform enabling analysis of integrated data for the purposes of hypothesis generation, hypothesis validation, and cohort discovery in translational research.
   id: transmart
   name: tranSMART
