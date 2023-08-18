@@ -37,7 +37,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 ### Considerations
 * Write the documentation in such a way that someone else who is known to the field cannot misinterpret any of the data.
 
-* It is best practice to use one appropriate tool or an integration of multiple tools (also called tool assembly or ecosystem) for data documentation during a project. Suitable tools for data documentation are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services (such as OSF) could also be used as ELN or data management systems. Check with your institute or other relevant infrastructures to know what is offered.
+* It is best practice to use one appropriate tool or an integration of multiple tools (also called tool assembly or ecosystem) for data documentation during a project. Suitable tools for data documentation are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services (such as {% tool "openscienceframework" %}) could also be used as ELN or data management systems. Check with your institute or other relevant infrastructures to know what is offered.
 
 * Independently of the tools you will use, data documentation is needed at two levels: documentation about the entire study or project and documentation about individual records, observations or data points.
   * Study-level documentation describes the project title and summary, study aims, authors, institutions involved, funds, methods, licence and identifier for each dataset, folders structure, file naming conventions, versioning system, relation between files or tables and other general information.
@@ -57,12 +57,12 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
   * Electronic Data Capture (EDC) systems are usually designated for collection of clinical trial data.
 
-  * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, OSF.io has integrations with Mendeley, Dropbox, GitHub, Figshare, etc.
+  * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, {% tool "openscienceframework" %} has integrations with Mendeley, {% tool "dropbox" %}, {% tool "github" %}, {% tool "figshare" %}, etc.
 
   * There is a major area of overlap between the aforementioned tools for data documentation, so it is better to choose the tool(s) that best address your specific need. Some tools can be used at the same time to address different needs and they can be complementary. Comparative lists can help with the choice:
-    * [Harvard Medical School – ELN Comparison Grid.](https://datamanagement.hms.harvard.edu/analyze/electronic-lab-notebooks)
-    * [University of Cambridge - Electronic Research Notebook Products.](https://www.data.cam.ac.uk/data-management-guide/electronic-research-notebooks/electronic-research-notebook-products)
-    * [PUBLISSO - Documenting research data: Electronic Lab(oratory) Notebooks.](https://www.publisso.de/en/research-data-management/rd-documenting)
+    * {% tool "harvard-medical-school-electronic-lab-notebooks" %}
+    * {% tool "university-of-cambridge-electronic-research-notebook-products" %}
+    * {% tool "publisso" %} - Documenting research data: Electronic Lab(oratory) Notebooks
 
 * Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data):
   * Folder structure
@@ -73,7 +73,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * [Study-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/study-level-documentation/) and [data-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/data-level/) documentation can be provided as
   * README file
-  * [Codebook](https://ddialliance.org/training/getting-started-new-content/create-a-codebook)
+  * {% tool "create-a-codebook" %}
   * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
@@ -90,6 +90,8 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * We recommend familiarising yourself with the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data according to their requirements as early as possible.
 
+* Platforms for management of metadata and data used by some scientific communities: {% tool "cedar" %}, {% tool "semares" %}, {% tool "fairdom-seek" %}, {% tool "fairdomhub" %}, {% tool "copo" %}.
+
 
 
 
@@ -102,7 +104,7 @@ There are multiple standards for different types of data, ranging from generic d
 
 ### Considerations
 
-* Decide at the beginning of the project what are the [recommended repositories](https://elixir-europe.org/platforms/data/elixir-deposition-databases) for your data types.
+* Decide at the beginning of the project what are the {% tool "elixir-deposition-databases-for-biomolecular-data" %} for your data types.
   * Note that you can use several repositories if you have different data types.
   * Distinguish between generic (e.g. Zenodo) and data type (technique) specific repositories (e.g. EBI repositories).
 
@@ -114,10 +116,10 @@ There are multiple standards for different types of data, ranging from generic d
   * On the repository website, go through the submission process (try to submit some dummy data) to identify metadata requirements. For instance, if you consider publishing your transcriptomic data in ArrayExpress, you can make your metadata spreadsheet by using [Annotare 2.0 submission tool](https://www.ebi.ac.uk/fg/annotare/), at the beginning of the project.
   * Be aware that data type specific repositories usually have check-lists for metadata. For example, the European Nucleotide Archive provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
-* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information ...your topic”, e.g. [MIAME](https://www.fged.org/projects/miame) or [MINSEQE](https://www.fged.org/projects/minseqe) or [MIAPPE](https://www.miappe.org)) required for your type of data in your community, or other metadata, at the following resources:
-  * [Research Data Alliance (RDA): Metadata Dictionary: Standards](https://rd-alliance.github.io/metadata-directory/standards/)
-  * [FAIRsharing.org](https://fairsharing.org) at “Standards” and “Collections”
-  * [The Digital Curation Centre (DCC): List of Metadata Standards](https://www.dcc.ac.uk/guidance/standards/metadata/list)
+* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information ...your topic”, e.g. [MIAME](https://www.fged.org/projects/miame) or [MINSEQE](https://www.fged.org/projects/minseqe) or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
+  * {% tool "rda-standards" %}
+  * {% tool "fairsharing" %} at “Standards” and “Collections”
+  * {% tool "data-curation-centre-metadata-list" %}
 
 
 ## How do you find appropriate vocabularies or ontologies?
@@ -142,11 +144,13 @@ There are many vocabularies and ontologies available on the web. Finding a suita
 
 * Define a list of terms that you want to find ontologies for. Include in the list also any alternative term names that you are aware of.
 * Search for your listed terms on dedicated web portals. These are a few:
-  * [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
-  * [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols/index)
-  * [Ontobee](http://www.ontobee.org)
-  * [BioPortal](https://bioportal.bioontology.org)
-  * [AgroPortal](https://agroportal.lirmm.fr)
+  * {% tool "linked-open-vocabularies" %}
+  * {% tool "ontology-lookup-service" %}
+  * {% tool "ontobee" %}
+  * {% tool "bioportal" %}
+  * {% tool "agroportal" %}
+  * {% tool "the-open-biological-and-biomedical-ontology-foundry" %}
+  * {% tool "evidence-and-conclusion-ontology" %}
 
 ## What do you write in a README file?
 
@@ -210,5 +214,3 @@ Below you will find examples of README files for study-level and data-level. For
     - License (if any):
     - Use restrictions (if any):
     - Recommended citation for the data (if any):
-
-

@@ -28,18 +28,18 @@ In your role of PI, you may need to:
 
 ### RDMkit pages
 
- * At the heart of FAIR science lies good data management practice. The [RDM life cycle pages](https://rdmkit.elixir-europe.org/data_life_cycle) guide you in complying with the FAIR requirements of funders.
- * A DMP should address a broad range of data management aspects, so it is important to be aware of the current [best practices in DMPs](https://rdmkit.elixir-europe.org/data_management_plan).
- * To organise data management in collaborative projects, it will benefit from a formalised way of working via a [Data Management Working Group (DMWG)](https://rdmkit.elixir-europe.org/dm_coordination).
- * The [costs of data management page](https://rdmkit.elixir-europe.org/costs_data_management) helps you budget for your project, including costs for data storage and preservation.
- * The [national resources pages](https://rdmkit.elixir-europe.org/national_resources) provide country-specific guidance, to help you choose the best services, tools and pipelines to manage your data.
- * The [human data page](https://rdmkit.elixir-europe.org/human_data#planning-for-projects-with-human-data) gathers information that needs to be taken into consideration when working with human data. Make sure to [protect the data](https://rdmkit.elixir-europe.org/data_protection#how-do-you-ensure-that-your-data-is-handled-securely) in your project well and prevent unauthorised access.
- * Consider your [data storage needs](https://rdmkit.elixir-europe.org/storage) in an early stage, including long-term storage at the project end.
- * The [data organisation page](https://rdmkit.elixir-europe.org/data_organisation) helps you with file naming, versioning and folder structures.
- * [Data documentation](https://rdmkit.elixir-europe.org/metadata_management), like README files and metadata, help secondary users to understand and reuse your data.
- * The [data processing](https://rdmkit.elixir-europe.org/processing#what-is-data-processing) and [data analysis pages](https://rdmkit.elixir-europe.org/data_analysis#what-are-the-best-practices-for-data-analysis) provide useful tips, including ensuring maximum reproducibility
- * The [data publication page](https://rdmkit.elixir-europe.org/data_publication#which-repository-should-you-use-to-publish-your-data) guides you in publishing your data via a public (domain-specific) repository.
- * To make research more robust, consider [reusing existing data](https://rdmkit.elixir-europe.org/existing_data#how-can-you-reuse-existing-data) yourself.
+ * At the heart of FAIR science lies good data management practice. The [RDM life cycle pages](data_life_cycle) guide you in complying with the FAIR requirements of funders.
+ * A DMP should address a broad range of data management aspects, so it is important to be aware of the current [best practices in DMPs](data_management_plan).
+ * To organise data management in collaborative projects, it will benefit from a formalised way of working via a [Data Management Working Group (DMWG)](dm_coordination).
+ * The [costs of data management page](costs_data_management) helps you budget for your project, including costs for data storage and preservation.
+ * The [national resources pages](national_resources) provide country-specific guidance, to help you choose the best services, tools and pipelines to manage your data.
+ * The [human data page](human_data#planning-for-projects-with-human-data) gathers information that needs to be taken into consideration when working with human data. Make sure to [protect the data](data_protection#how-do-you-ensure-that-your-data-is-handled-securely) in your project well and prevent unauthorised access.
+ * Consider your [data storage needs](storage) in an early stage, including long-term storage at the project end.
+ * The [data organisation page](data_organisation) helps you with file naming, versioning and folder structures.
+ * [Data documentation](metadata_management), like README files and metadata, help secondary users to understand and reuse your data.
+ * The [data processing](processing#what-is-data-processing) and [data analysis pages](data_analysis#what-are-the-best-practices-for-data-analysis) provide useful tips, including ensuring maximum reproducibility
+ * The [data publication page](data_publication#which-repository-should-you-use-to-publish-your-data) guides you in publishing your data via a public (domain-specific) repository.
+ * To make research more robust, consider [reusing existing data](existing_data#how-can-you-reuse-existing-data) yourself.
 
 ### Other resources
 

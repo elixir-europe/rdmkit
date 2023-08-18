@@ -88,7 +88,7 @@ Similarly, funders and institutions ask researchers to make their (meta)data FAI
   * Look through numerous (shared) folders to find the documentation about a specific experiment done by previous colleagues that generated the dataset you are interested in.
   * Read all publications about a topic and check if there is a dataset linked to it and/or available upon request.
 
-* Integration of multiple datasets can be straightforward only if each dataset can be easily queried, processed and formatted via software/programmes that can properly handle structured and big (meta)data files, such as [OpenRefine](https://openrefine.org/#) and programming languages such as Python or R. Otherwise, manual data integration and processing can be very slow and error-prone.
+* Integration of multiple datasets can be straightforward only if each dataset can be easily queried, processed and formatted via software/programmes that can properly handle structured and big (meta)data files, such as {% tool "openrefine" %} and programming languages such as Python or R. Otherwise, manual data integration and processing can be very slow and error-prone.
 
 
 ### Advantages
@@ -99,12 +99,12 @@ The advantages of having machine-actionable data and metadata are numerous for a
 
 By providing structured metadata and data to a database that follows standards (metadata schemas, ontologies, file formats, programmatic access, etc.), at the level of each recorded value or observation, researchers:
 * Could more easily query and filter (meta)data based on specific variables, experimental conditions, biological sources and many other parameters, based on the capabilities of the used ELN or data management software.
-* Can more easily find and reproduce experiments performed in the past by others in  literature or in databases e.g. by using [Europe PMC](https://europepmc.org/) and [EBI Search](https://www.ebi.ac.uk/ebisearch/overview.ebi/about).
-* Can easily integrate data from multiple datasets and studies, sharing the same experimental conditions or variables. Datasets integration and manipulation are easier to achieve, more reproducible and can be automated by using common programmes/software such as R and [OpenRefine](https://openrefine.org/#).
-* Can make use of visualization and exploration tools, provided by some repositories, to browse and explore the data of multiple datasets at once. For instance, you can use  [Expression Atlas](https://www.ebi.ac.uk/gxa/home) to easily make a query about the expression of a gene in specific conditions, even without knowledge of any data analysis software. As another example, [GISAID](https://www.gisaid.org) allows you to visualise the spreading of viral variants. See the pages in the “Your Domain” section to find domain-specific databases, atlas or portals.
-* Can import, export and exchange (meta)data between tools/systems/platforms without data loss. Exchanging and integrating (meta)data between two software or platforms is possible only if the format in which the information is contained can be read and interpreted by both. For instance, (meta)data from both [UniProt](https://www.uniprot.org) and [PDBe-KB](https://www.ebi.ac.uk/pdbe/pdbe-kb) can be accessed in [3DBioNotes](http://3dbionotes-ws.cnb.csic.es/) to enrich the structural analysis with sequence features.
-* Can explore and visualise biological knowledge graphs by using software such as [KnetMiner](https://knetminer.com) and [AgroLD](http://agrold.southgreen.fr/agrold/).
-* Can perform complex queries, from a single entry point, across multiple distributed databases and across domains via [APIs](https://en.wikipedia.org/wiki/API) or via SPARQL Query Language. For instance: “Retrieve the number of UniProtKB/Swiss-Prot human enzymes that metabolize cholesterol or cholesterol derivatives and that are involved in diseases?" in the [Integrated Database of Small Molecules](https://idsm.elixir-czech.cz/).
+* Can more easily find and reproduce experiments performed in the past by others in  literature or in databases e.g. by using {% tool "europe-pmc" %} and [EBI Search](https://www.ebi.ac.uk/ebisearch/overview.ebi/about).
+* Can easily integrate data from multiple datasets and studies, sharing the same experimental conditions or variables. Datasets integration and manipulation are easier to achieve, more reproducible and can be automated by using common programmes/software such as R and {% tool "openrefine" %}.
+* Can make use of visualization and exploration tools, provided by some repositories, to browse and explore the data of multiple datasets at once. For instance, you can use {% tool "expression-atlas" %} to easily make a query about the expression of a gene in specific conditions, even without knowledge of any data analysis software. As another example, {% tool "gisaid" %} allows you to visualise the spreading of viral variants. See the pages in the [Your Domain](your_domain) section to find domain-specific databases, atlas or portals.
+* Can import, export and exchange (meta)data between tools/systems/platforms without data loss. Exchanging and integrating (meta)data between two software or platforms is possible only if the format in which the information is contained can be read and interpreted by both. For instance, (meta)data from both {% tool "uniprot" %} and {% tool "pdbe-kb" %}  can be accessed in {% tool "3dbionotes" %} to enrich the structural analysis with sequence features.
+* Can explore and visualise biological knowledge graphs by using software such as {% tool "knetminer" %} and {% tool "agronomic-linked-data" %}.
+* Can perform complex queries, from a single entry point, across multiple distributed databases and across domains via [APIs](https://en.wikipedia.org/wiki/API) or via SPARQL Query Language. For instance: “Retrieve the number of UniProtKB/Swiss-Prot human enzymes that metabolize cholesterol or cholesterol derivatives and that are involved in diseases?" in the {% tool "integrated-database-of-small-molecules" %}.
 * Can more easily find reference data and existing data in general, since machine-actionable (meta)data could be found by search engines and domain specific or generic data catalogs and portals.
 
 
@@ -114,10 +114,10 @@ By providing structured metadata and data to a database that follows standards (
 * Applying RDF syntax to the database can make the (meta)data available for knowledge graphs and semantic web applications.
 * If [Application Programming Interface (API)](https://en.wikipedia.org/wiki/API) is available, other software/applications could make complex queries, access the database programmatically and always get up-to-date data.
 * If the metadata of your database or repository is exposed according to specific standards, it could function as data provider or data source, and be harvested and indexed by
-  * Data catalogues or data portals, such as [OmicsDI](http://blog.omicsdi.org/post/omicsdi-spec/) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
+  * Data catalogues or data portals, such as {% tool "omicsdi" %} [data format specification](http://blog.omicsdi.org/post/omicsdi-spec/) and [COVID-19 Data Portal](https://www.covid19dataportal.org).
   * The [OpenAIRE aggregator](https://www.openaire.eu/aggregation-and-content-provision-workflows) that collects metadata records via OAI-PMH in the majority of cases.
-  * Other instances of your data repository software, such as [Dataverse](https://guides.dataverse.org/en/latest/admin/dashboard.html#harvesting) and [EUDAT B2FIND](http://b2find.eudat.eu/guidelines/harvesting.html), which use OAI-PMH for metadata harvest.
-  * Search engines such as [Google Dataset Search](https://datasetsearch.research.google.com/help), which relies on [sitemaps.org](https://www.sitemaps.org), [schema.org](https://schema.org), [DCAT](https://www.w3.org/TR/vocab-dcat/) and other approaches to datasets discovery.
+  * Other instances of your data repository software which use OAI-PMH for metadata harvest, such as {% tool "dataverse" %} [harvesting](https://guides.dataverse.org/en/latest/admin/dashboard.html#harvesting).
+  * Search engines such as [Google Dataset Search](https://datasetsearch.research.google.com/help), which relies on [sitemaps.org](https://www.sitemaps.org), {% tool "schema-org" %}, {% tool "data-catalog-vocabulary" %} and other approaches to datasets discovery.
 * Machine actionable metadata facilitates the automatization of data handling and validation, allowing for easier development of new tools and analysis strategies (e.g. data visualization tools, machine learning and artificial intelligence applications).
 
 #### For the authors of a machine-actionable public dataset
@@ -146,7 +146,7 @@ The theoretically most machine-actionable format is in practice not achieved or 
 
 For machine-actionability and interoperability, you should consider:
 1. File formats that are data exchange formats (e.g. JSON, XML).
-2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. ISA model, OME data model). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
+2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html), {% tool "ome-data-model-and-file-formats" %}). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
 3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. MIAPPE, ENA Samples checklists), that capture reporting best practice in the field.
 4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. EFO, OBI).
 
@@ -169,11 +169,11 @@ For machine-actionability and interoperability, you should consider:
 * Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model in a more implicit way (e.g. ISA-TAB,  MAGE-TAB).
 * Some data repositories develop customised (meta)data schemas.
 * Different metadata schemas are preferred for different purposes. Some examples are listed below. 
-  * [Schema.org](https://schema.org) and [Bioschemas.org](https://bioschemas.org/index.html) markup are mostly used to describe web resources and make them findable by Web search engines. 
-  * [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-2/) is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
+  * {% tool "schema-org" %} and {% tool "bioschemas" %} markup are mostly used to describe web resources and make them findable by Web search engines. 
+  * {% tool "data-catalog-vocabulary" %} is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
   * [Investigation-Study-Assay (ISA) model](https://isa-tools.org/isa-api/content/isamodel.html#) was originally designed for describing multi-omics experiments in Life Sciences.
   * The [DAta Tag Suite (DATS)](https://github.com/datatagsuite) is a data description model designed and produced to describe datasets and associated metadata in a number of data deposition repositories.
-  * The [OME Data Model](https://docs.openmicroscopy.org/ome-model/latest/) is a specification for storing and exchanging data on biological imaging.
+  * The {% tool "ome-data-model-and-file-formats" %} is a specification for storing and exchanging data on biological imaging.
 
 * The [W3C](https://www.w3.org/) consortium has formalised a universal abstract data model to potentially establish relationships among any resource available on the web (people, places, web pages, events, abstract concepts, etc.) called [Resource Description Framework (RDF)](https://www.w3.org/TR/rdf-concepts/#section-Introduction). This universal abstract data model allows us to describe relationships between multiple resources encoded in different formats, following different standards and stored in different locations/servers on the internet. 
 
@@ -214,7 +214,7 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
 * Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
   * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
   * [MAGE-TAB](https://www.ebi.ac.uk/arrayexpress/help/magetab_spec.html) (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
-  * [OME data model](https://docs.openmicroscopy.org/ome-model/latest/) (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included.
+  * {% tool "ome-data-model-and-file-formats" %} (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included. See also Hammer, M., Huisman, M., Rigano, A. et al. Towards community-driven metadata standards for light microscopy: tiered specifications extending the OME model. Nat Methods 18, 1427–1440 (2021). https://doi.org/10.1038/s41592-021-01327-9.
 * For more information about metadata schemas and ontologies, see [Documentation and Metadata](metadata_management) page.
 
 
