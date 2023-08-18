@@ -1,6 +1,6 @@
 ---
 title: Policy maker
-description: Data Steward with focus on data policies.
+description: Data management guidance for policy makers.
 contributors: [Mijke Jetten, Federico Bianchini, Gregoire Rossier, Erik Hjerde, Siiri Fuchs, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Daniel Wibberg, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona, Ulrike Wittig]
 page_id: policy_maker
 ---
