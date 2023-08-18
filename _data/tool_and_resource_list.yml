@@ -480,10 +480,6 @@
     biotools: copo
     fairsharing-coll: bsg-d001247
   url: https://copo-project.org/
-- description: An assembly of molecular interaction diagrams, established based on literature evidence
-  id: covid-19-disease-map
-  name: COVID-19 Disease Map
-  url: https://fairdomhub.org/projects/190
 - description: Examples and tools to create a codebook by the Data Documentation Initiative (DDI)
   id: create-a-codebook
   name: Create a Codebook
@@ -576,13 +572,6 @@
   registry:
     fairsharing: yknezb
   url: https://search.datacite.org/
-- description: DataPLAN is a FAIR and fast Data Management Plan (DMP) generator that
-    focuses on plant science.
-  id: dataplan
-  name: DataPLAN
-  registry:
-    biotools: dataplan
-  url: https://plan.nfdi4plants.org/
 - description: Open source research data respository software.
   id: dataverse
   name: DATAVERSE
@@ -748,14 +737,6 @@
     fairsharing: fx0mw7
     tess: Ensembl
   url: https://www.ensembl.org/index.html
-- description: Comparative analysis, data mining and visualisation for the genomes of non-vertebrate species
-  id: ensembl-genomes
-  name: Ensembl Genomes
-  registry:
-    biotools: ensembl_genomes
-    fairsharing: 923a0p
-    tess: Ensembl Genomes
-  url: https://ensemblgenomes.org/
 - description: Open-access database of full genomes of plant species.
   id: ensembl-plants
   name: Ensembl Plants
@@ -1276,13 +1257,6 @@
   registry:
     fairsharing: va1hck
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
-- description: MINT, the Molecular INTeraction database, focuses on experimentally verified protein-protein interactions mined from the scientific literature by expert curators
-  id: mint
-  name: MINT
-  registry:
-    biotools: mint
-    fairsharing: 2bdvmk
-  url: https://mint.bio.uniroma2.it/
 - description: Minimum Information about any (x) Sequence
   id: mixs
   name: MIxS
@@ -1470,14 +1444,6 @@
   registry:
     tess: OpenStack
   url: https://www.openstack.org/
-- description: The Orphadata platform provides the scientific community with comprehensive, high-quality datasets related to rare diseases and orphan drugs, in a reusable and computable format
-  id: orphadata
-  name: Orphadata
-  registry:
-    biotools: orphadata
-    fairsharing: d1a667
-    fairsharing-coll: bsg-d001249
-  url: http://www.orphadata.org/cgi-bin/index.php
 - description: OSF (Open Science Framework) is a free, open platform to support your research and enable collaboration.
   id: osf
   name: OSF
@@ -1789,14 +1755,6 @@
   id: sifts
   name: SIFTS
   url: https://www.ebi.ac.uk/pdbe/docs/sifts/
-- description: SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya).
-  id: silva
-  name: Silva
-  registry:
-    biotools: silva
-    fairsharing: 5vtYGG
-    tess: Silva
-  url: https://www.arb-silva.de/
 - description: Singularity is a container platform.
   id: singularity
   name: Singularity
