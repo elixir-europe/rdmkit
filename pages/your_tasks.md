@@ -11,4 +11,4 @@ In this section, information is organised around regular research data managemen
 - A summary table of tools and resources relevant for the specific task and recommended by communities.
 
 
-{% include section-navigation-tiles.html type="your_tasks" search=true  except="your_tasks.md" %}
+{% include section-navigation-tiles.html type="your_tasks" search=true  except="your_tasks.md" col=3 %}

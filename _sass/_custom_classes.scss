@@ -136,13 +136,11 @@ section#search-section {
         box-shadow: $box-shadow;
     }
 
-    .card-header {
-        a:hover {
-            text-decoration: none;
-        }
-        h3 {
-            font-size: 1.2rem;
-        }
+    a:hover {
+        text-decoration: none;
+    }
+    .card-title {
+        font-size: 1.2rem;
     }
 }
 
