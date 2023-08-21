@@ -4,7 +4,7 @@ title: RDMkit
 description: "Best practices and guidelines you can use for FAIR management of your research data."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.20.1
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.2.0
 
 sass:
   style: compressed
@@ -13,7 +13,10 @@ sass:
 gtag: G-RXQ55EFTTH
 # Google analytics tag
 
-dsw_deep_link_prefix: https://converge.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
+matomo: https://webstats.elixir-europe.org/
+# Matomo domain where Matomo is running
+
+dsw_deep_link_prefix: https://researchers.ds-wizard.org/knowledge-models/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 
 theme_variables:
@@ -26,6 +29,11 @@ theme_variables:
 
 exclude:
   - README.md
+  - .gitignore
+  - var/
+  - vendor
+  - Gemfile*
+  - LICENSE
 
 defaults:
   -
@@ -87,32 +95,32 @@ defaults:
       no_robots: true
   -
     scope:
-      path: "pages/data_life_cycle"
+      path: "pages/data_life_cycle/"
     values:
       type: data_life_cycle
   -
     scope:
-      path: "pages/your_domain"
+      path: "pages/your_domain/"
     values:
       type: your_domain
   -
     scope:
-      path: "pages/your_tasks"
+      path: "pages/your_tasks/"
     values:
       type: your_tasks
   -
     scope:
-      path: "pages/your_role"
+      path: "pages/your_role/"
     values:
       type: your_role
   -
     scope:
-      path: "pages/tool_assembly"
+      path: "pages/tool_assembly/"
     values:
       type: tool_assembly
   -
     scope:
-      path: "pages/national_resources"
+      path: "pages/national_resources/"
     values:
       type: national_resources
       datatable: true
@@ -128,6 +136,8 @@ defaults:
       sidebar: about
 
 plugins:
+  - elixir-toolkit-theme-plugins
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-github-metadata

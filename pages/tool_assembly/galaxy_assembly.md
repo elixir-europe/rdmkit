@@ -5,7 +5,7 @@ description: Galaxy is an open, web-based platform for accessible, reproducible,
 page_id: galaxy
 affiliations: [ELIXIR Europe, "European Union"]
 related_pages: 
-  your_tasks: [data analysis, data organisation, data publication, data quality, data transfer, existing data, identifiers, machine actionability, metadata]
+  your_tasks: [data_analysis, data_organisation, data_publication, data_quality, data_transfer, existing_data, identifiers, machine_actionability, metadata]
 training:
   - name: Galaxy Training Network
     url: https://training.galaxyproject.org/
@@ -40,10 +40,14 @@ Galaxy also provides [open infrastructure ready to use for researchers worldwide
 
 Galaxy can be used at different stages of the data life cycle, covering from the data collection to the reuse steps. 
 
-
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+<style>
+  #galaxy-rdm .tool {
+  white-space: normal !important;
+}
+</style>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4" id="galaxy-rdm">
   <div class="col">
-    <div class="card border-3 h-100" style="border-color: #fac54b!important">
+    <div class="card border border-3 h-100" style="border-color: #fac54b!important">
     <div style="background-color:#fac54b;">
         <img src="{{ '/images/life_cycle_icons/collect-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="collect">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Collect</h3>
@@ -51,15 +55,16 @@ Galaxy can be used at different stages of the data life cycle, covering from the
       <div class="card-body">
         <h4 class="mt-0">Access to databases</h4>
         <ul class="lh-sm">
-          <li><a href="https://www.uniprot.org/">UniProt</a></li>
+          <li>{% tool "uniprot" %}</li>
           <li><a href="http://intermine.org/">InterMine</a></li>
-          <li><a href="https://www.openmicroscopy.org/omero/">OMERO</a></li>
-          <li><a href="https://www.omicsdi.org/">OmicsDI</a></li>
+          <li>{% tool "omero" %}</li>
+          <li>{% tool "omicsdi" %}</li>
           <li><a href="https://www.copernicus.eu/en">Copernicus</a></li>
           <li><a href="https://genome.ucsc.edu/">UCSC genome browser</a> (<a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html">tutorial</a>)</li>
           <li><a href="https://www.ncbi.nlm.nih.gov/datasets/">NCBI datasets</a></li>
-          <li><a href="https://www.insdc.org/">INSDC</a> (<a href="https://www.ebi.ac.uk/ena/browser/about">ENA</a>)</li>
-          <li><a href="https://www.rcsb.org/">PDB</a></li>
+          <li>{% tool "international-nucleotide-sequence-database-collaboration" %}</li>
+          <li>{% tool "european-nucleotide-archive" %}</li>
+          <li>{% tool "pdb" %}</li>
           <li>3rd-party databases</li>
         </ul>
         <h4>Customised data access</h4>
@@ -78,7 +83,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
     </div>
   </div>
   <div class="col">
-    <div class="card border-3 h-100" style="border-color: #8aba56!important">
+    <div class="card border border-3 h-100" style="border-color: #8aba56!important">
       <div style="background-color:#8aba56;">
         <img src="{{ '/images/life_cycle_icons/process-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="process">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Process</h3>
@@ -94,7 +99,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
         </ul>
         <h4>Import workflows</h4>
         <ul class="lh-sm">
-          <li><a href="https://workflowhub.eu/">WorkflowHub</a></li>
+          <li>{% tool "workflowhub" %}</li>
           <li><a href="https://dockstore.org/">Dockstore</a></li>
           <li><a href="https://www.ga4gh.org/news/tool-registry-service-api-enabling-an-interoperable-library-of-genomics-analysis-tools/">GA4GH TRS API</a></li>
         </ul>
@@ -108,7 +113,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
     </div>
   </div>
   <div class="col">
-    <div class="card border-3 h-100" style="border-color: #32b890!important">
+    <div class="card border border-3 h-100" style="border-color: #32b890!important">
       <div style="background-color:#32b890;">
         <img src="{{ '/images/life_cycle_icons/analyse-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="analyse">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Analyse</h3>
@@ -134,7 +139,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
     </div>
   </div>
   <div class="col">
-    <div class="card border-3 h-100" style="border-color: #4176a5!important">
+    <div class="card border border-3 h-100" style="border-color: #4176a5!important">
       <div style="background-color:#4176a5;">
         <img src="{{ '/images/life_cycle_icons/preserve-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="preserve">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Preserve</h3>
@@ -150,7 +155,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
         <ul class="lh-sm">
           <li>Archive file</li>
           <li><a href="https://biocomputeobject.org/">BioCompute Object</a></li>
-          <li><a href="https://www.researchobject.org/ro-crate/">RO-Crate</a> (WIP)</li>
+          <li>{% tool "research-object-crate" %}</li>
         </ul>
         <h4>Export to remote sources</h4>
         <ul class="lh-sm">
@@ -167,7 +172,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
     </div>
   </div>
   <div class="col">
-    <div class="card border-3 h-100" style="border-color: #9e51ad!important">
+    <div class="card border border-3 h-100" style="border-color: #9e51ad!important">
       <div style="background-color:#9e51ad;">
         <img src="{{ '/images/life_cycle_icons/share-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="share">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Share</h3>
@@ -195,7 +200,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
     </div>
   </div>
   <div class="col">
-    <div class="card border-3 h-100" style="border-color: #fa484b!important">
+    <div class="card border border-3 h-100" style="border-color: #fa484b!important">
       <div style="background-color:#fa484b;">
         <img src="{{ '/images/life_cycle_icons/reuse-icon.svg' | relative_url }}" class="card-img-top pt-3" style="max-height: 5em;" alt="reuse">
         <h3 class="card-title text-center mb-4 ff-theme mt-0 text-white">Reuse</h3>
@@ -211,7 +216,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
         <h4>Import artefacts</h4>
         <ul class="lh-sm">
           <li>Histories (own, shared by others)</li>
-          <li>Workflows from the <a href="https://workflowhub.eu/">WorkflowHub</a></li>
+          <li>Workflows from the {% tool "workflowhub" %}</li>
         </ul>
       </div>
     </div>

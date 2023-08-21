@@ -54,13 +54,13 @@ Make sure you have cloned the rdmkit repo:
     cd rdmkit
 
 
-To run the website locally, you can either use [Docker](https://www.docker.com/) or use Jekyll directly after installing various dependencies.
+To run the website locally, you can either use {% tool "docker" %} or use Jekyll directly after installing various dependencies.
 
 ### Run using Docker
 
 1. If not already installed on your machine, install Docker. From the root of the ``rdmkit`` directory, run:
     ```
-    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:latest /bin/bash -c "gem install github-pages --no-document && chmod 777 /srv/jekyll && jekyll serve -w"
+    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:3 /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll serve -w - --host 0.0.0.0 --livereload"   
     ```
 This will start the docker container and serve the website locally.
 
@@ -76,7 +76,8 @@ If you have never installed or run a Jekyll site locally on your computer, follo
 1. Install Bundler and Jekyll
 
     ```
-    gem install jekyll bundler github-pages
+    gem install jekyll
+    bundle install
     ```
 
 2. deploy website

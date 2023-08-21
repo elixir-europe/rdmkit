@@ -30,7 +30,7 @@ title: Title of the page
 
 * `hide_sidebar`: When true, the sidebar will be hided. Default: false
 
-* `custom-editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
+* `custom_editme`: This attribute can be used to specify an alternative file/link when clicked on the edit-me button
 
 * `keywords`: List here all the keywords that can be used to find the page using the searchbox in the right upper corner of the page, lowercase.
 
@@ -73,12 +73,12 @@ title: Title of the page
       url: example_url
   ```
 
+  The supported registries that can be used in the `registry` attribute are: *YouTube*, *Zenodo*, *Carpentries*, *GitHub* and *TeSS*.
+
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
 
-* `dsw`: Here all relevant Data Stewardship Wizard questions in the RDMkit knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
-
-
+* `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
 
 
 ### Tools and resources
@@ -97,9 +97,9 @@ The main tools are described in the mains tools and resources table. How to add 
   ```yml
   national_resources: 
     - name: Resource name
-      description: A general description about the resource
+      description: A general description about the resource.
       how_to_access: explantation on how you can access this resource
-      instance_of: GitHub
+      instance_of: github
       related_pages:
         example_pages: [gp3, gp1, gp2]
       registry:

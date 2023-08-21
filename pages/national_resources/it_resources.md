@@ -15,14 +15,14 @@ training:
 
 national_resources:
   - name: Open-science.it
-    description: Italian portal dedicated to the field of open science
+    description: Italian portal dedicated to the field of open science.
     how_to_access: 
     instance_of: 
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data manager, researcher]
-      your_tasks: [DMP]
+      your_role: [data_steward, researcher]
+      your_tasks: [dmp]
     url: https://open-science.it/
 
 ---

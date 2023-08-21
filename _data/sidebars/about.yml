@@ -11,6 +11,8 @@ subitems:
         url: /support
   - title: Contact
     url: /contact
+  - title: RDMkit Alliance
+    url: /rdmkit_alliance
   - title: News
     url: /news
   - title: Events

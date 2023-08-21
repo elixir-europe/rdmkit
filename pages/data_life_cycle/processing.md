@@ -1,10 +1,10 @@
 ---
 title: Processing
 page_id: process
-description: How to manage the data processing stage
+description: Introduction to data processing.
 contributors: [Rob Hooft, Munazah Andrabi]
 related_pages: 
-  your_tasks: [data analysis, data organisation, data quality, sensitive]
+  your_tasks: [data_analysis, data_organisation, data_quality, data_provenance]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -20,13 +20,13 @@ dsw:
 ## What is data processing?
 
 Data processing is the phase in the project where data is converted into a desired format and prepared for analysis. When data has been freshly collected, data processing includes some automated steps in a workflow that perform format conversion, quality check and preprocessing following a standardised protocol. The main aim of processing is to:
- * Convert data into readable format giving it the shape and form necessary for downstream analysis. 
- * Discard bad or low quality data in order to create clean, high-quality dataset for reliable results.
+ * convert data into readable format giving it the shape and form necessary for downstream analysis;
+ * discard bad or low quality data in order to create clean, high-quality dataset for reliable results.
 
 When data is imported from existing sources, e.g. data to be reused from another project, processing can also include manual steps to make it suitable for analysis. These steps include but are not limited to:
- * Making changes to data formats such that different datasets will be compatible for integration with each other.
- * Changing coding systems or ontologies for the data to bring everything to the same level.
- * Filtering data such that only data suitable for the project is retained.
+ * making changes to data formats such that different datasets will be compatible for integration with each other;
+ * changing coding systems or ontologies for the data to bring everything to the same level;
+ * filtering data such that only data suitable for the project is retained.
 
  After data processing, clean data is ready for analysis and should therefore be available to the members of the project team that need to perform the next steps.
 
@@ -38,10 +38,9 @@ Data processing is important to ensure good quality of the collected data and to
 
 The following considerations are important for data processing:
 
-* Sensitive data should be Pseudonymised/anonymised. Not only should you remove the directly identifying data, but also be attentive to other sources e.g. names written on images.
-* Appropriate standards for encoding different data fields should be used.
-* All steps of anonymisation and encoding should be properly documented, For e.g.
-    * The chosen encoding formats used for data fields should be documented.
-    * The special significance of empty or otherwise special data fields.
-    * All relationships between data fields should be made explicit (e.g. if a dataset contains "medication" and "disease", is that medication actually used to treat the disease? Or is it a medication that the patient is using for other reasons?).
-
+* sensitive data should be pseudonymised/anonymised. Not only should you remove the directly identifying data, but also be attentive to other sources e.g. names written on images;
+* appropriate standards for encoding different data fields should be used;
+* all steps of encoding and anonymisation should be properly documented. E.g. consider recording:
+    * encoding formats used for data fields;
+    * significance of empty fields and meaning of any special value;
+    * all relationships between data fields (e.g. if a dataset contains "medication" and "disease", is that medication actually used to treat the disease? Or is it a medication that the patient is using for other reasons?).

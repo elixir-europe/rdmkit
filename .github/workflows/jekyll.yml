@@ -1,16 +1,84 @@
 name: Jekyll site CI
 
 on:
+  push:
   pull_request:
-    branches: [ master ]
+    branches: [ master, main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll --env PAGES_REPO_NWO=${{github.repository}} -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:3.8.6 /bin/bash -c "gem install github-pages --no-document && chmod 777 /srv/jekyll && jekyll build"
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
+
+      - name: Set Jekyll environment
+        id: name
+        run: |
+          if [ "$REPO_OWNER" == "elixir-europe" ]; then
+            echo "jekyll_env=production" >> $GITHUB_OUTPUT
+          else
+            echo "jekyll_env=development" >> $GITHUB_OUTPUT
+          fi
+        env:
+          REPO_OWNER: ${{ github.repository_owner }}
+
+      - name: Install dependencies
+        run: |
+          bundle install
+
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
+          JEKYLL_ENV: ${{ steps.name.outputs.jekyll_env }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' && github.event.repository.default_branch == github.ref_name)
+
+    concurrency:
+      group: "pages"
+      cancel-in-progress: true
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+

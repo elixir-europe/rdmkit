@@ -1,11 +1,13 @@
-name: Converting to yaml + registry lookup + countrylist update
-
+name: Validation of the tools and page metadata
 on:
+  pull_request:
+    branches: [ master, main ]
   schedule:
     - cron:  '0 13 * * 1'
   workflow_dispatch:
+
 jobs:
-  build:
+  validation:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -20,29 +22,66 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml requests python-frontmatter
+          pip install ruamel.yaml requests python-frontmatter
       - name: Run tool table 2 yaml
         run: | 
-          python var/conversions.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+          python var/tools_validator.py
+  
+  registry-lookup:
+    if: |
+        github.repository_owner == 'elixir-europe' &&  github.event_name != 'pull_request'
+  
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: [3.8]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruamel.yaml requests python-frontmatter
+
+      - name: Run regsitry lookup for the tools file
+        run: | 
+          python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+
       - name: Fetch country names with corresponding iso
         run: |
           python var/country_list.py
+
       - name: Update markdown pages with DSW links
         run: |
           python var/dsw_integration.py
+
       - name: Get faircookbook-rdmkit repository
         uses: actions/checkout@v3
         with:
           repository: elixir-europe/faircookbook-rdmkit
           path: faircookbook-rdmkit
           ref: main
+
       - name: Update markdown pages with FAIR Cookbook links
         run: |
           python var/faircookbook_integration.py ${GITHUB_WORKSPACE}/faircookbook-rdmkit/faircookbook_rdmkit_mapping.yml
+
       - name: Deleting faircookbook-rdmkit repository
-        run: rm -r faircookbook-rdmkit
+        run: |
+          rm -r faircookbook-rdmkit
+
       - name: Show differences
-        run: 'git diff --stat'
+        run: |
+          git diff --stat
+
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v3
@@ -57,8 +96,6 @@ jobs:
           labels: |
             automatic PR
           reviewers: bedroesb
-          team-reviewers: |
-            maintainers
           branch: list_updates
           base: master
 

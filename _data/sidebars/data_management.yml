@@ -12,43 +12,49 @@ subitems:
     url: /your_role
     image_url: /assets/img/section-icons/address-card-light.svg
     subitems:
+      - title: Data Steward
+        url: /data_steward
+      - title: Policy maker
+        url: /policy_maker
+      - title: Principal Investigator (PI)
+        url: /principal_investigator
       - title: Researcher
         url: /researcher
-      - title: "Data Steward: policy"
-        url: /data_steward_policy
-      - title: "Data Steward: research"
-        url: /data_steward_research
-      - title: "Data Steward: infrastructure"
-        url: /data_steward_infrastructure
+      - title: Research Software Engineer
+        url: /research_software_engineer
+      - title: Trainer
+        url: /trainer
   - title: Your domain
     description: Learn about data management tasks that affect your domain or research community, and the solutions adopted to address them.
     url: /your_domain
     image_url: /assets/img/section-icons/dna-light.svg
     subitems:
-      - title: Plant sciences
-        url: /plant_sciences
-      - title: Marine metagenomics
-        url: /marine_metagenomics
-      - title: Human data
-        url: /human_data
-      - title: Biomolecular simulation data
-        url: /biomolecular_simulation_data
-      - title: Intrinsically disordered proteins
-        url: /intrinsically_disordered_proteins
-      - title: Microbial biotechnology
-        url: /microbial_biotechnology
-      - title: Epitranscriptome data
-        url: /epitranscriptome_data
-      - title: Proteomics
-        url: /proteomics
-      - title: Toxicology data
-        url: /toxicology_data
       - title: Bioimaging data
         url: /bioimaging_data
-      - title: Structural bioinformatics
-        url: /structural_bioinformatics
+      - title: Biomolecular simulation data
+        url: /biomolecular_simulation_data
+      - title: Epitranscriptome data
+        url: /epitranscriptome_data
+      - title: Human data
+        url: /human_data
+      - title: Human pathogen genomics
+        url: /human_pathogen_genomics
+      - title: Intrinsically disordered proteins
+        url: /intrinsically_disordered_proteins
+      - title: Marine metagenomics
+        url: /marine_metagenomics
+      - title: Microbial biotechnology
+        url: /microbial_biotechnology
+      - title: Plant sciences
+        url: /plant_sciences
+      - title: Proteomics
+        url: /proteomics
       - title: Rare disease data
         url: /rare_disease_data
+      - title: Structural bioinformatics
+        url: /structural_bioinformatics
+      - title: Toxicology data
+        url: /toxicology_data
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks
@@ -56,6 +62,8 @@ subitems:
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring
+      - title: Costs of data management
+        url: /costs_data_management
       - title: Data analysis
         url: /data_analysis
       - title: Data brokering
@@ -68,6 +76,8 @@ subitems:
         url: /data_organisation
       - title: Data protection
         url: /data_protection
+      - title: Data provenance
+        url: /data_provenance
       - title: Data publication
         url: /data_publication
       - title: Data quality
@@ -86,13 +96,13 @@ subitems:
         url: /licensing
       - title: Machine actionability
         url: /machine_actionability
-      - title: Sensitive data
+      - title: Data sensitivity
         url: /sensitive_data
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.
     url: /tool_assembly
     subitems:
-      - title: COVID-19 Data Portal 
+      - title: COVID-19 Data Portal
         url: /covid19_data_portal
       - title: CSC
         url: /csc_assembly
@@ -102,11 +112,13 @@ subitems:
         url: /ifb_assembly
       - title: Marine Metagenomics
         url: /marine_metagenomics_assembly
+      - title: MOLGENIS
+        url: /molgenis_assembly
       - title: NeLS
         url: /nels_assembly
       - title: OMERO
         url: /omero_assembly
-      - title: Plant Genomics 
+      - title: Plant Genomics
         url: /plant_genomics_assembly
       - title: Plant Phenomics
         url: /plant_phenomics_assembly
@@ -118,12 +130,14 @@ subitems:
         url: /xnat_pic_assembly
     image_url: /assets/img/section-icons/arrows-to-dot-light.svg
   - title: National resources
-    description: Find pointers to country specific information resources and national research data management practices. 
+    description: Find pointers to country specific information resources and national research data management practices.
     url: /national_resources
     image_url: /assets/img/section-icons/flag-light.svg
     subitems:
       - title: Belgium
         url: /be_resources
+      - title: Czech Republic
+        url: /cz_resources
       - title: Germany
         url: /de_resources
       - title: Estonia
@@ -136,6 +150,10 @@ subitems:
         url: /fr_resources
       - title: Italy
         url: /it_resources
+      - title: Ireland
+        url: /ie_resources
+      - title: Luxembourg
+        url: /lu_resources
       - title: Netherlands
         url: /nl_resources
       - title: Norway
@@ -144,6 +162,8 @@ subitems:
         url: /pt_resources
       - title: Sweden
         url: /se_resources
+      - title: Switzerland
+        url: /ch_resources
       - title: United Kingdom
         url: /uk_resources
   - title: All tools and resources

@@ -1,19 +1,19 @@
 ---
 title: Support
-custom-editme: _data/affiliations.yaml
+custom_editme: _data/affiliations.yaml
 ---
 
 ## Institutions
 
 We thank these institutions for their contribution.
 
-{% include affiliation-tiles-selection.html type="institution"%}
+{% include affiliation-tiles-selection.html type="institution" %}
 
 ## Projects
 
 We thank these projects for their efforts:
 
-{% include affiliation-tiles-selection.html type="project"%}
+{% include affiliation-tiles-selection.html type="project" %}
 
 ## Funders
 
@@ -21,10 +21,10 @@ RDMkit is developed in ELIXIR-CONVERGE that received funding from the European U
 
 Additionally we thank the funders that supported some of our contributors.
 
-{% include affiliation-tiles-selection.html type="funder"%}
+{% include affiliation-tiles-selection.html type="funder" %}
 
 ## Infrastructures
 
 We thank these infrastructures for their efforts:
 
-{% include affiliation-tiles-selection.html type="infrastructure"%}
+{% include affiliation-tiles-selection.html type="infrastructure" %}

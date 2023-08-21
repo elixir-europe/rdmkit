@@ -44,7 +44,7 @@ More information about these topics can be found in the GitHub documentation:
 
 ## Review pull requests
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags and keywords, and tools and resources' tags should be checked and assigned according to the established tagging system.
+If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. Before merging a PR, pages' tags, and tools and resources' tags should be checked and assigned according to the established tagging system. The editor who provides the last approval to a PR should also merge it.
   
 ## Link a pull request to an issue
 
@@ -62,7 +62,7 @@ Add an event to the landing page by editing the `events.yml` in the `_data` dire
   startTime: '9:00'
   endDate: 2021-06-24
   endTime: 13:30 CET
-  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days)
+  description: We would like to invite you to highlight your set of data management tools as a tool assembly in the RDMkit and describe how to use it, so others can do the same. (two half days).
   location: Online
 
 ```
@@ -78,7 +78,7 @@ Add a news item to the landing page by editing the `news.yml` in the `_data` dir
 - name: News title
   date: 2021-06-23
   linked_pr: 767
-  description: A short description
+  description: A short description.
 ```
 
 All attributes are mandatory.
@@ -218,7 +218,7 @@ Only pages from specific sections are allowed in each page (see image below), as
 
 
 
-An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
+An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [List of page IDs](website_overview).
 
 
 ```yml
@@ -231,12 +231,15 @@ related_pages:
 
 ### Page ID
 
-To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [Website overview page](website_overview).
+To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
 
 
 ## Linking from RDMkit to FAIR Cookbook
 
 - Links between RDMkit and FAIR Cookbook are described in the `faircookbook_rdmkit_mapping.yml` file located in the [faircookbook-rdmkit repository](https://github.com/elixir-europe/faircookbook-rdmkit).
+  - Data life cycle, your role, and national resources pages are not linked to recipes.
+  - Domain pages should only link to domain specific recipes.
+  - Task pages should only link to recipes for generic tasks.
 - After adding the links create a PR. The PR should be reviewed and approved by at least one editor from both teams.
 - After the approval from editors Fair Cookbook and RDMkit will automatically pull changes from the central .yml file to update there repository. The process of merging the changes to the main branch from the reposiory takes place weekly.
 

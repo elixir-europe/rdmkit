@@ -10,50 +10,50 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Sweden&scientific_topics=Data+management
   - name: SciLifeLab Data Management YouTube
-    registry: Youtube
+    registry: YouTube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
 national_resources:
   - name: DS-Wizard ELIXIR-SE
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
     how_to_access: ELIXIR AAI login
-    instance_of: Data Stewardship Wizard
+    instance_of: data-stewardship-wizard
     related_pages:
-      your_tasks: [DMP]
+      your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
-    instance_of: FigShare
+    instance_of: figshare
     related_pages:
-      your_tasks: [existing data, data publication]
+      your_tasks: [existing_data, data_publication]
     url: https://scilifelab.figshare.com/
   - name: NBIS Data Management Consultation
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
-      your_tasks: [DMP, data publication, sensitive]
+      your_tasks: [dmp, data_publication, sensitive]
     url: https://nbis.se/support/supportform/index.php?form=consultation
   - name: Swedish COVID-19 Data Portal
     description: The Swedish COVID-19 Data Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
-      tool_assembly: [Covid-19]
-      your_domain: [human data]
-      your_tasks: [sensitive, existing data, data publication]
+      tool_assembly: [covid-19]
+      your_domain: [human_data]
+      your_tasks: [sensitive, existing_data, data_publication]
     url: https://covid19dataportal.se/ 
   - name: SNIC 
     description: The Swedish National Infrastructure for Computing (SNIC) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
     how_to_access: An application is required to gain access to the compute and storage services.
     related_pages:
-      your_tasks: [data analysis, storage]
+      your_tasks: [data_analysis, storage]
     url: https://www.snic.se/ 
-  - name: SciLifeLab Data Guidelines
-    description: A data type centric resource that provides guidance on good data management practices during the data life cycle, including available infrastructures.
-    url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html
+  - name: SciLifeLab RDM Guidelines
+    description: Knowledge hub for the management of life science research data in Sweden.
+    url: https://data-guidelines.scilifelab.se/
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
-      your_domain: [human data]
+      your_domain: [human_data]
       your_tasks: [sensitive]
     url: https://nbis.se/support/human-data.html
     
@@ -91,7 +91,7 @@ If personal data is processed in your research, contact your institute’s Data 
 
 The [**SciLifeLab Data Centre**](https://www.scilifelab.se/data)  provides services for IT and data management, including Data Stewardship Wizard instance (for writing data management plans), the Swedish COVID-19 data portal, and the SciLifeLab Data Repository. 
 
-Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support services regarding data management questions, including e.g. guidance when writing data management plans and when doing submissions to domain-specific repositories. For information about this and other resources at NBIS please see the [**Data Management**](https://nbis.se/infrastructure/data-management/) page. An upcoming resource is the [**Swedish Sensitive Data Archive**](https://nbis.se/infrastructure/sensitive-data-archive.html), a secure data archive and sharing platform for sensitive datasets, which will be integrated with the [**Federated EGA network**](https://ega-archive.org/federated).
+Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support services regarding data management questions, including e.g. guidance when writing data management plans and when doing submissions to domain-specific repositories. For information about this and other resources at NBIS please see the [**Data Management**](https://nbis.se/infrastructure/data-management/) page. An upcoming resource is the [**Swedish Sensitive Data Archive**](https://nbis.se/infrastructure/sensitive-data-archive.html), a secure data archive and sharing platform for sensitive datasets, which will be integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
 The [**Swedish National Infrastructure for Computing**](https://snic.se/) (SNIC) is a national research infrastructure that provides resources and user support for large scale computation and data storage to meet the needs of researchers from all scientific disciplines and from all over Sweden. Of particular use for life science researchers is the [**SNIC-SENS**](https://www.uppmax.uu.se/projects-and-collaborations/snic-sens/) project which provides high-performance computing resources for analyzing sensitive data.
 
@@ -101,9 +101,12 @@ List of universities with established Research Data Offices or Data Access Units
 * Chalmers University of Technology - [Research Data Support](https://www.lib.chalmers.se/en/publish-and-analyse/open-access/research-data/) - <dataoffice@chalmers.se>
 * Karolinska Institutet - [Research Data Support](https://staff.ki.se/about-research-data-office-rdo) - <rdo@ki.se>
 * KTH Royal Institute of Technology - [Research Data Support](https://intra.kth.se/en/forskning/overgripande-stod) - <researchdata@kth.se>
+* Linköping University - [Research Data Support](https://ep.liu.se/en/datamanagement.aspx) - <datamanagement@liu.se>
+* Linnaeus University - [Research Data Support](https://lnu.se/en/medarbetare/researcher/researcher5/research-data/) - <dau@lnu.se>
 * Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-data/contacts-and-research-data-initiatives) - See web page for contact information
 * Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - <opendata@su.se>
 * Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data) - <dms@slu.se>
 * Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/library/research-data/organisation-and-contacts/) for contact information
 * University of Gothenburg - [Research Data Support](https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001) - <researchdata@gu.se>
 * Uppsala University - [Research Data Support](https://mp.uu.se/en/web/info/forska/forskningsdata) - <dataoffice@uu.se>
+* Örebro University - [Research Data Support](https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/) - See web page for contact information

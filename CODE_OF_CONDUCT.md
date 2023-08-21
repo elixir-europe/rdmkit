@@ -179,7 +179,7 @@ Possible responses may include:
   The committee may choose to publish this message elsewhere for posterity.
 * An imposed "time out" from online spaces.
   Niklas Blomberg will communicate this "time out" to the individual(s) involved.
-* A permanent or temporary ban from some or all RDMkit spaces (GitHub, in-person events etc).
+* A permanent or temporary ban from some or all RDMkit spaces (GitHub, in-person events, etc.).
   The research team will maintain records of all such bans so that they may be reviewed in the future, extended to a Code of Conduct safety team as it is built, or otherwise maintained.
   If a member of the community is removed from an event they will not be reimbursed for any part of the event that they miss.
 

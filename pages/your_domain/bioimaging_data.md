@@ -1,34 +1,47 @@
 ---
 title: Bioimaging data
-description: Data management solutions for bioimaging data
+description: Data management solutions for bioimaging data.
 contributors: [Sébastien Besson, Jean-Marie Burel, Susanne Kunis, Josh Moore, Stefanie Weidtkamp-Peters]
-page_id: bioimaging data
+page_id: bioimaging_data
 related_pages: 
-  your_tasks: [DMP, data organisation, data publication, existing data, transfer, licensing, metadata, storage]
-  tool_assembly: [ome, XNAT-PIC]
+  your_tasks: [dmp, data_organisation, data_publication, existing_data, transfer, licensing, metadata, storage]
+  tool_assembly: [ome, xnat_pic]
+training:
+  - name: RDMbites for using REMBI
+    registry: TeSS
+    url: https://tess.elixir-europe.org/collections/rdmbites-data-sharing-collection
+faircookbook:
+- name: Depositing IMI EUBOPEN High-Content Screening data to EBI BioImage Archive
+  url: https://w3id.org/faircookbook/FCB067
 ---
 
 ## Introduction
 
-Bioimaging specialists are acquiring an ever growing amount of data: images, associated metadata, etc. However, image data management often does not receive the attention it requires or is avoided altogether since it is considered a burdensome task. At the same time, storing images on personal computers or USB keys is no longer an option, assuming it ever was! Data volume is exponentially increasing, and not just the acquired images need storing but potentially processed images will be generated and will need to be kept alongside the original images. It is critical to proactively identify where the data will be stored, for how long, who will cover the cost of the hardware, and who will cover the cost of managing the infrastructure. All the stakeholders need to be involved in the preliminary discussions: biologists, facility managers, data analysis, IT support, etc. to ensure that the requirements are understood and met. 
+Bioimaging specialists are acquiring an ever growing amount of data: images, associated metadata, etc. However, image data management often does not receive the attention it requires or is avoided altogether since it is considered a burdensome task. At the same time, storing images on personal computers or USB keys is no longer an option, assuming it ever was! Data volume is exponentially increasing, and not just the acquired images need storing but potentially processed images will be generated and will need to be kept alongside the original images. It is critical to proactively identify where the data will be stored, for how long, who will cover the cost of the hardware, and who will cover the cost of managing the infrastructure. All the stakeholders need to be involved in the preliminary discussions: biologists, facility managers, data analysis, IT support, etc., to ensure that the requirements are understood and met. 
 
 ## What constitutes bioimage data
 
 An image is much more than a collection of zeros and ones.
 The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used, etc.
-Managing images immediately becomes a larger problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and still ongoing to capture those metadata.
-Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
 
-The collection of images can take several forms: 
- - Data acquired within a facility
- - Data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility
- - Slides scanned for example.
-
+The number of image proprietary formats is very large and keeps increasing. It is challenging to support so many proprietary file formats i.e. read/extract metadata.
+The {% tool "bio-formats" %} library currently supports over [150 different file formats](https://bio-formats.readthedocs.io/en/latest/supported-formats.html).
+The [Dataset Structure Table](https://bio-formats.readthedocs.io/en/latest/formats/dataset-table.html) shows the extension of the files to read and indicates the structure of the image itself e.g. single file, multiple files, one image file and a companion file, etc.
 
 ### Data management challenges
 
-The number of files and the size of files could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse. Managing images immediately becomes a major problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and are still ongoing to capture those metadata. Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
+The number of files and their size could be extremely large. Deleting/misplacing a file could invalidate the study itself, preventing its reuse. 
 
+Managing images immediately becomes a larger problem, not only the binary files need to be handled, but also the associated metadata. Several efforts have been made and still ongoing to capture those metadata.
+Understanding and capturing the metadata are critical for many reasons, just to mention a few: analysis, detection of possible faults in acquisition systems. It is important to decide how much details will be recorded since this could dramatically increase the metadata volume and therefore the effort required to capture the metadata.
+
+The collection of images could be: 
+ - data acquired within a facility;
+ - data acquired in other facility (commissioned work or external guest user) and "transported" by the users to their facility;
+ - slides scanned.
+
+After acquisition, data are usually moved to more permanent storages with different level of permissions. This depends on the facility policies and could prevent collaborative work.
+Users will also adopt their own "organisation" conventions, this could potentially make it very difficult to find or understand the data when, for example, the data are migrated to a new location or when the researcher who acquired the data leaves the lab.
 
 ## Standard (meta)data formats
 
@@ -46,26 +59,26 @@ Unlike other domains, the bioimaging community has not yet agreed on a single st
 
 ### Solutions
 
-**Vendor libraries**: Some vendors provide open source libraries for parsing their proprietary file formats. See [libCZI](https://github.com/zeiss-microscopy/libCZI) from Zeiss.
+**Vendor libraries**: Some vendors provide open source libraries for parsing their proprietary file formats. See [libCZI](https://github.com/ZEISS/libczi) from Zeiss.
 
-**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data with needing to transform it. You will need to perform this translation each time you access your data.
+**Open source translators**: Members of the community have developed multi-format translators that can be used to access your data on-the-fly i.e. the original format is preserved, no file written on disk. This implies that you will need to perform this translation each time you access your data and, depending on the size of the image(s), you could run out of memory. Translation libraries include, 
 
-  - [Bio-Formats](https://www.openmicroscopy.org/bio-formats/) (Java) - supports over 150 file formats
-  - [OpenSlide](https://openslide.org/) (C++) - primarily for whole-slide imaging (WSI) formats
-  - [aicsimageio](https://github.com/AllenCellModeling/aicsimageio) (Python) - wraps vendor libraries and Bio-Formats to support a wide-range of formats in Python
+  - {% tool "bio-formats" %} (Java) - supports over 150 file formats
+  - {% tool "openslide" %} (C++) - primarily for whole-slide imaging (WSI) formats
+  - {% tool "aicsimageio" %} (Python) - wraps vendor libraries and Bio-Formats to support a wide-range of formats in Python
 
-**Permanent conversion**: An alternative is permanently convert your data to
+**Permanent conversion**: An alternative is to permanently convert your data to
 
-  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. Bio-Formats (above) is likely the most straight-forward method to convert your data to OME-TIFF.
-  - The [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw) and [raw2ometiff](https://github.com/glencoesoftware/raw2ometiff) toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, you might want to give it a try.
+  - [OME-Files](https://www.openmicroscopy.org/ome-files/) - The [Open Microscopy Consortium (OME)](https://www.openmicroscopy.org/) has developed an open format, "OME-TIFF", to which you can convert your data. The Bio-Formats (above) library comes with a command line to tool {% tool "bfconvert" %} that can be used to convert to files to OME-TIFF
+  - The {% tool "bioformats2raw" %} and {% tool "raw2ometiff" %} toolchain provided by [Glencoe Software](https://www.glencoesoftware.com/) allows the more performant conversion of your data, but requires an extra intermediate copy of the data. If you have available space, the toolchain could also be an option to consider.
 
 **Cloud (or "object") storage**: If you are storing your data in the cloud, you will likely need a different file format since most current image file formats are not suitable for cloud storage. OME is currently developing a [next-generation file format (NGFF)](https://ngff.openmicroscopy.org/latest/) that you can use.
 
 **Metadata**: If metadata are stored separately from the image data, the format of the metadata should follow the subject-specific standards regarding the schema, vocabulary or ontologies and storage format used such as:
 
-  - [OME model](https://docs.openmicroscopy.org/ome-model/latest/) XML-based representation of microscopy data
-  - [Quality assessment working groups](https://quarep.org/)
-  - [REMBI](https://www.nature.com/articles/s41592-021-01166-8)
+  - [OME model](https://docs.openmicroscopy.org/ome-model/latest/) XML-based representation of microscopy data.
+  - {% tool "4dn-bina-ome-quarep" %}.
+  - [REMBI](https://www.nature.com/articles/s41592-021-01166-8).
 
 
 
@@ -79,39 +92,40 @@ Due to the scale of data, keeping track of the image data and the associated dat
 
 
 ### Considerations
- - Consider using an image management software platform. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used and shared within research groups.
- - When evaluating an image management software platforms, check if it allows you to:
-   - Control the access you wish to give to your data and how you wish to work e.g. PI only can view and annotate my data or you can choose to work on project with some collaborators.
-   - Access data from anywhere via either Web or Desktop clients and API.
-   - Store the metadata with your images. For example, analytical results can be linked to your imaging data and can be easily findable.
-   - Add value to your imaging data by for example linking them to external resources like ontologies.
-   - Make your data publicly available and slowly moving towards FAIRness.
- - Try to avoid storing bioimaging data in the local system’s PC.
- - If possible, make a transfer to central storage mandatory. If not possible, enable automation of data backup to central storage.
- - Consider support for minimal standards (metadata schemas, file formats etc.) in your domain.
- - Consider reusing existing data.
+- Consider using an image management software platform. Image management software platforms offer a way to centralize, organize, view, distribute and track all of their digital images and photos. It allows you to take control over how your images are managed, used and shared within research groups.
+- When evaluating an image management software platforms, check if it allows you to:
+  - Control the access you wish to give to your data and how you wish to work e.g. PI only can view and annotate my data or you can choose to work on project with some collaborators.
+  - Access data from anywhere via either Web or Desktop clients and API.
+  - Store the metadata with your images. For example, analytical results can be linked to your imaging data and can be easily findable.
+  - Add value to your imaging data by for example linking them to external resources like ontologies.
+  - Make your data publicly available and slowly moving towards FAIRness.
+- Try to avoid storing bioimaging data in the local system’s PC.
+- If possible, make a transfer to central storage mandatory. If not possible, enable automation of data backup to central storage.
+- Consider support for minimal standards (metadata schemas, file formats, etc.) in your domain.
+- Consider reusing existing data.
 
 
 ### Solutions
 
- - Agnostic platforms that can be used to bridge between domain data include:
-   - [iRODS](https://irods.org/)
-   - [b2share](https://b2share.eudat.eu/)
- - Image-specific data management platforms include:
-   - [OMERO](https://www.openmicroscopy.org/omero/) - broad support for a large number of imaging formats
-   - [Cytomine-IMS](https://github.com/cytomine/Cytomine-IMS) - image specific
-   - [XNAT](https://www.xnat.org/) - medical imaging platform, DICOM-based
-   - [MyTardis](http://www.mytardis.org/) - largely file-system based platform handling the transfer of data
-   - [BisQue](https://bioimage.ucsb.edu/bisque) - resource for management and analysis of 5D biological images
-  - Platforms like [OMERO](https://www.openmicroscopy.org/omero/), [b2share](https://b2share.eudat.eu/) also allow you to publish the data associated with a given project.
-  - Metadata standards can be found at the [Metadata Standards Directory Working Group](http://rd-alliance.github.io/metadata-directory/).
-  - Ontologies Resources available at:
-    - [Zooma](https://www.ebi.ac.uk/spot/zooma/) - Resource to find ontology mapping for free text terms
-    - [Ontology Search](https://www.ebi.ac.uk/ols/index) - Ontology lookup service
-    - [BioPortal](https://www.bioontology.org/) - Biomedical ontologies
-   - Existing data can be found by using the following resources:
-    - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers)
-    - [Research Data repositories Registry](https://www.re3data.org/)
+- Agnostic platforms that can be used to bridge between domain data include:
+  - {% tool "irods" %}.
+  - {% tool "b2share" %}.
+- Image-specific data management platforms include:
+  - {% tool "omero" %} - broad support for a large number of imaging formats.
+  - {% tool "cytomine-ims" %} - image specific.
+  - {% tool "xnat" %} - medical imaging platform, DICOM-based.
+  - {% tool "mytardis" %} - largely file-system based platform handling the transfer of data.
+  - {% tool "bisque" %} - resource for management and analysis of 5D biological images.m
+- Platforms like {% tool "omero" %}, {% tool "b2share" %} also allow you to publish the data associated with a given project.
+- Metadata standards can be found at the [Metadata Standards Directory Working Group](https://rdamsc.bath.ac.uk/).
+- Ontologies Resources available at:
+  - {% tool "zooma" %} - Resource to find ontology mapping for free text terms.
+  - {% tool "ontology-lookup-service" %} - Ontology lookup service.
+  - {% tool "bioportal" %} - Biomedical ontologies.
+- Existing data can be found by using the following resources:
+  - [LINCS](https://lincsproject.org/LINCS/tools/workflows/explore-microscopy-imaging-data-collected-across-the-lincs-centers).
+  - [Research Data repositories Registry](https://www.re3data.org/).
+- Find software tools, image databases for benchmarking, and training materials for bioimage analysis in the {% tool "biii" %} registry
 
 
 ## Data publication and archiving
@@ -125,7 +139,7 @@ mainly due to limited infrastructures capable of hosting the data. There are a f
 
 Two distinct types of resources should be considered: 
  - Data archives ("storage") as a long-lasting storage for data and metadata and making those data easily accessible to the community.
- - Added-values archives: store enhanced curated data, typically aiming at a scientific community,
+ - Added-values archives: store enhanced curated data, typically aiming at a scientific community.
 
 
 ### Considerations
@@ -133,10 +147,10 @@ Two distinct types of resources should be considered:
 - If you only need to make your data available online and have limited metadata associated, consider publishing in a **Data archive**.
 - If your data should be considered as a reference dataset, consider an **Added-values archive**.
 - Select and choose the repositories based on the following characteristics:
-  - Storage vs Added-value resources
-  - Images format support
-  - Supported licenses e.g. CC0 or CC-BY license. For example the [Image Data Resource (IDR)](http://idr.openmicroscopy.org/) uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
-  - Which types of access is required for the users e.g. download only, browse search and view data and metadata, API access, etc. 
+  - Storage vs Added-value resources.
+  - Images format support.
+  - Supported licenses e.g. CC0 or CC-BY license. For example the {% tool "image-data-resource" %} uses Creative Commons Licenses for submitted datasets and encourages submitting authors to choose.
+  - Which types of access are required for the users e.g. download only, browse search and view data and metadata, API access. 
       - Does an entry have an access e.g. idr-xxx, EMPIAR-#####?
       - Does an entry have a DOI (Digital Object Identifier)?
 
@@ -145,15 +159,76 @@ Two distinct types of resources should be considered:
 
 Comparative table of some repositories that can be used to deposit imaging data:
 
-| Repository | Type | Data Restrictions | Data Upload Restrictions | DOI | Cost |
-|------------|------|-------------------|---------------------|-----|------|
-| [BioImageArchive](https://www.ebi.ac.uk/bioimage-archive/) | Archive | No PIH data | None | --- | Free |
-| [Dryad](https://datadryad.org/)| Archive | No PIH data | 300GB | Yes | over 50GB (*) |
-| [EMPIAR](https://www.ebi.ac.uk/empiar/) | Added-value | Electron microscopy imaging data | None | Yes | Free |
-| [IDR](https://idr.openmicroscopy.org/) | Added-value | Cell/Tissue imaging data, no PIH data | None| Yes | Free |
-| [SSBD:database](https://ssbd.riken.jp/database/) | Added-value | Biological dynamics imaging data | None | --- | Free |
-| [SSBD:repository](https://ssbd.riken.jp/repository/) | Archive | Biological dynamics imaging data | None | --- | Free |
-| [Zenodo](https://zenodo.org) | Archive | None | 50GB per dataset | Yes | Free |
+<table>
+<thead>
+  <tr>
+    <th>Repository</th>
+    <th>Type</th>
+    <th>Data Restrictions</th>
+    <th>Data Upload Restrictions</th>
+    <th>DOI</th>
+    <th>Cost</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>{% tool "bioimagearchive" %}</td>
+    <td>Archive</td>
+    <td>No PIH data</td>
+    <td>None</td>
+    <td>---</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "dryad" %}</td>
+    <td>Archive</td>
+    <td>No PIH data</td>
+    <td>300GB</td>
+    <td>Yes</td>
+    <td>over 50GB (*)</td>
+  </tr>
+  <tr>
+    <td>{% tool "empiar" %}</td>
+    <td>Added-value</td>
+    <td>Electron microscopy imaging data</td>
+    <td>None</td>
+    <td>Yes</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "image-data-resource" %}</td>
+    <td>Added-value</td>
+    <td>Cell/Tissue imaging data, no PIH data</td>
+    <td>None</td>
+    <td>Yes</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "ssbd-database" %}</td>
+    <td>Added-value</td>
+    <td>Biological dynamics imaging data</td>
+    <td>None</td>
+    <td>---</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "ssbd-repository" %}</td>
+    <td>Archive</td>
+    <td>Biological dynamics imaging data</td>
+    <td>None</td>
+    <td>---</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>{% tool "zenodo" %}</td>
+    <td>Archive</td>
+    <td>None</td>
+    <td>50GB per dataset</td>
+    <td>Yes</td>
+    <td>Free</td>
+  </tr>
+</tbody>
+</table>
 
 - PIH: Protected health information.
 - (*) unless submitter is based at member institution.

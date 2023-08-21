@@ -1,5 +1,5 @@
 - name: VIB
-  image_url: /images/institutions/VIB-PSB.svg
+  image_url: /images/institutions/VIB-notagline-pos.svg
   pid: https://ror.org/03xrhmk39
   expose: true
   type: institution
@@ -13,7 +13,7 @@
 - name: NBIS
   url: https://nbis.se/
   image_url: /images/institutions/nbislogo-green-txt.svg
-  pid: 
+  pid:
   expose: true
   type: institution
 - name: SciLifeLab
@@ -70,7 +70,7 @@
   expose: true
   type: funder
   url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
-- name: Research Council of Norway 
+- name: Research Council of Norway
   image_url: /images/funders/fr-nettsted-logo_engelsk.svg
   pid: http://dx.doi.org/10.13039/501100005416
   expose: true
@@ -96,31 +96,31 @@
   url: https://bioexcel.eu/
 - name: TeSS
   image_url: /images/projects/tess_logo.svg
-  pid: 
+  pid:
   expose: true
   type: project
   url: https://tess.elixir-europe.org/
 - name: FAIRsharing
   image_url: /images/projects/FAIRsharing-sdp.svg
-  pid: 
+  pid:
   expose: true
   type: project
   url: https://fairsharing.org/
 - name: Bio.tools
   image_url: /images/projects/bio.tools.svg
-  pid: 
+  pid:
   expose: true
   type: project
   url: https://bio.tools/
 - name: ELIXIR Europe
   image_url: /images/infrastructures/ELIXIR-logo.svg
-  pid: 
+  pid:
   expose: true
   type: infrastructure
   url: https://elixir-europe.org/
 - name: Euro BioImaging
   image_url: /images/infrastructures/Euro-BioImaging_logo.svg
-  pid: 
+  pid:
   expose: false
   type: infrastructure
   url: https://www.eurobioimaging.eu/
@@ -144,13 +144,19 @@
   url: https://ec.europa.eu/
 - name: Data Stewardship Wizard
   image_url: /images/projects/dsw-logo-full-color-filled.svg
-  pid: 
+  pid:
   expose: yes
   type: project
   url: https://ds-wizard.org/
 - name: FAIR Cookbook
   image_url: /images/projects/cookbook-logo.png
-  pid: 
+  pid:
   expose: yes
   type: project
   url: https://faircookbook.elixir-europe.org/
+- name: BBMRI-NL
+  image_url: /images/infrastructures/BBMRI-NL_logo.svg
+  pid: https://ror.org/0003kpv33
+  expose: yes
+  type: infrastructure
+  url: https://www.bbmri.nl/

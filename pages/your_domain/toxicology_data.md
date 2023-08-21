@@ -1,14 +1,17 @@
 ---
 title: Toxicology data
-description: Data management solutions for toxicology data
+description: Data management solutions for toxicology data.
 contributors: [Manuel Pastor, Janet Piñero Gonzalez, Juan Manuel Ramírez-Anguita, Ferran Sanz, Miguel Angel Mayer, Laura Portell Silva]
-page_id: toxicology data
+page_id: toxicology_data
 related_pages: 
-  your_tasks: [data analysis]
+  your_tasks: [data_analysis]
   tool_assembly: []
 dsw:
 - name: Will you need existing data for toxicology research
   uuid: a781badf-f7ee-4588-9478-d31470f00c38
+faircookbook:
+- name: Creating InChIKeys for IUPAC names
+  url: https://w3id.org/faircookbook/FCB080
 ---
 
 ## Introduction
@@ -25,7 +28,7 @@ In vitro cell culture technologies are commonly used in toxicology. They provide
 
 Although two-dimensional cell cultures are very popular, it has been shown that they do not represent the *in vivo* situation, as they are still far from the tissue organization and the cellular connections seen in an organism. Recent advances in three-dimensional cell culture technologies have allowed the widespread use of organoids. Organoids have been used for in vitro modelling of drug adverse effects, specifically in organs commonly susceptible to drug-induced toxicities (i.e. gastrointestinal tract, liver, kidney).
 
-In vitro tests in toxicology typically consist of exposing in vitro cell cultures to growing concentrations of the substance under study and recording changes using a wide variety of techniques, from high-content imaging to cell death. Among the diverse sources of toxicological in vitro data it is worth mentioning the results of the Toxicology in the 21st Century program, or [Tox21](https://ntp.niehs.nih.gov/whatwestudy/tox21/index.html). The results of this project (data and tools) are publicly available.
+In vitro tests in toxicology typically consist of exposing in vitro cell cultures to growing concentrations of the substance under study and recording changes using a wide variety of techniques, from high-content imaging to cell death. Among the diverse sources of toxicological in vitro data it is worth mentioning the results of the Toxicology in the 21st Century program, or {% tool "tox21-toolbox" %}. The results of this project (data and tools) are publicly available.
 
 Gene expression changes that occur in biological systems in response to exposure to xenobiotics may represent mechanistically relevant cellular events contributing to the onset and progression of xenobiotic-induced adverse health outcomes. Transcriptomics data can be used to identify changes to gene expression profiles that occur in response to drug treatment which might provide predictive and mechanistic insight into the mode of action of a drug, as well as the molecular clues linked to possible toxicity.
 
@@ -35,10 +38,13 @@ Results of in vitro assays are typically collected as dose-response curves. Thes
 
 ### Solutions
 
-- [ToxCast](https://cran.r-project.org/web/packages/tcpl/index.html) has published an R-package with the tools used to process the high throughput chemical screening data.
-- Benchmark concentrations (and doses) can be computed with free software as [PROAST](https://www.rivm.nl/en/proast) and [BMDS](https://www.epa.gov/bmds).
-- For experiments where gene expression has been measured in response to a toxicant, R packages such as [DESEq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) for RNA-Seq data, and [limma](https://bioconductor.org/packages/release/bioc/html/limma.html) for microarray data are used to find genes that are differentially expressed.
-- In silico prediction models can be developed starting from a series of compounds annotated with the results on in vitro methods. The quality of the predictions provided by these methods are often comparable with those obtained by experimental methods, particularly when the models are used within their applicability domain. [Flame](https://github.com/phi-grib/flame) is an open-source modelling framework developed specifically for this purpose.
+- {% tool "toxcast-data" %} has published an R-package with the tools used to process the high throughput chemical screening data.
+- Benchmark concentrations (and doses) can be computed with free software as {% tool "proast" %} and {% tool "bmds" %}.
+- For experiments where gene expression has been measured in response to a toxicant, R packages such as {% tool "deseq2" %} for RNA-Seq data, and {% tool "limma" %} for microarray data are used to find genes that are differentially expressed.
+- In silico prediction models can be developed starting from a series of compounds annotated with the results on in vitro methods. The quality of the predictions provided by these methods are often comparable with those obtained by experimental methods, particularly when the models are used within their applicability domain. {% tool "flame" %} is an open-source modelling framework developed specifically for this purpose.
+- {% tool "edkb" %} is a platform designed to foster the development of computational predictive toxicology. This platform allows direct access to ten libraries containing the following resources: a biological activity database, QSAR training sets, in vitro and in vivo experimental data for more than 3,000 chemicals, literature citations, chemical-structure search capabilities.
+- The {% tool "t3db" %} is a bioinformatics resource that combines exhaustive toxin data with toxin target information. Currently it presents more than 42,000 toxin-target associations extracted from other databases, government documents, books and scientific literature. Each toxin record includes data on chemical properties and descriptors, toxicity values and medical information.
+- The {% tool "tox21-toolbox" %} is a unique collaboration between several federal agencies to develop new ways to rapidly test whether substances adversely affect human health. The Tox21 Toolbox contains data-analysis tools for accessing and visualizing Tox21 quantitative high-throughput screening (qHTS) 10K library data, as well as integrating with other publicly available data.
 
 ## Data from animal assays - Existing data and vocabularies
 
@@ -48,7 +54,7 @@ Assays are expensive. Most animal data come from compiling normative studies whi
 
 In spite of their inconveniences (high costs, time consumption, requirements of significant amounts of the substance being tested, limited translatability of the observed results), in many cases, there is no suitable replacement for *in vivo* tests. The replacement of *in vivo* data for alternative approaches (often called NAM, New Approach methodologies) is an active research field.
 
-Two important toxicogenomics resources containing animal data are [TG-GATEs](https://pubmed.ncbi.nlm.nih.gov/25313160/), and [DrugMatrix](https://pubmed.ncbi.nlm.nih.gov/25058030/). These resources contain gene expression data in several rat tissues for a large number of compounds, in several doses and exposure times. They also include histopathology annotations and chemistry measurements.
+Two important toxicogenomics resources containing animal data are {% tool "tg-gates" %}, and {% tool "drug-matrix" %}. These resources contain gene expression data in several rat tissues for a large number of compounds, in several doses and exposure times. They also include histopathology annotations and chemistry measurements.
 
 
 ### Considerations
@@ -57,9 +63,9 @@ Data generated in normative studies were obtained under Good Laboratory Practice
 
 ### Solutions
 
-- Use information about genes, and variants associated with human adverse effects, from platforms such as [DisGeNET](https://www.disgenet.org/), [CTD](http://ctdbase.org/), and [PharmGKB](https://www.pharmgkb.org/).
-- Histopathology data requires the use of a controlled vocabulary like [CDISC/SEND](https://evs.nci.nih.gov/ftp1/CDISC/SEND/SEND%20Terminology.html).
-- The extension and curation of ontologies like CDISC/SEND to specific domains is facilitated by tools like [ONTOBROWSER](https://opensource.nibr.com/projects/ontobrowser/).
+- Use information about genes, and variants associated with human adverse effects, from platforms such as {% tool "disgenet" %}, {% tool "ctd" %}, and {% tool "pharmgkb" %}.
+- Histopathology data requires the use of a controlled vocabulary like {% tool "cdisc-send" %}.
+- The extension and curation of ontologies like CDISC/SEND to specific domains is facilitated by tools like {% tool "ontobrowser" %}.
 - In order to reduce the number of animals used in toxicological studies, it has been suggested to replace control groups with historically collected data from studies carried out in comparable conditions (so-called Virtual Control Groups). VCGs are being developed by [eTRANSAFE project](https://etransafe.eu/virtual-control-groups-one-step-forward-into-the-future-of-animal-testing-in-toxicology).
 
 ## Data from human assays - Existing data and vocabularies
@@ -80,24 +86,27 @@ Data from human assays are highly heterogeneous and integration with in vitro an
 - Similarly, medication identifiers are not always consistent among different sources. This is a challenging issue as many medicinal products have different denominations and available commercial presentations depending on the country/region where the product is commercialized.
 - Usually, structured resources present metadata explaining how the data is organized, thus enabling an easy data transformation process. Conversely, non-structured resources are not easy to harmonize as data organization is not consistent among the available documents.
 
-Databases containing clinical toxicological data of drugs can contain the results of clinical studies ([clinicaltrials.gov](https://clinicaltrials.gov/)), frequent adversities (Medline), or collect pharmacovigilance data ([FAERS](https://www.fda.gov/drugs/surveillance/questions-and-answers-fdas-adverse-event-reporting-system-faers)) depending on the data being incorporated, the interpretation is different. For example, in the case of spontaneous reporting systems, the frequency with which an adverse event is reported should be considered relative to the time the compound has been in the market and the frequency of these adverse events in the population treated.
+Databases containing clinical toxicological data of drugs can contain the results of clinical studies {% tool "clinicaltrials-gov" %}, frequent adversities (Medline), or collect pharmacovigilance data {% tool "faers" %} depending on the data being incorporated, the interpretation is different. For example, in the case of spontaneous reporting systems, the frequency with which an adverse event is reported should be considered relative to the time the compound has been in the market and the frequency of these adverse events in the population treated.
 
 ### Solutions
 
 Examples of databases containing drug toxicological data:
-- [clinicaltrials.gov](https://clinicaltrials.gov/) is a resource depending on the National Library of medicine which makes available private and public-funded clinical trials.
-- The [FDA Adverse Event Reporting System (FAERS)](https://www.fda.gov/drugs/surveillance/questions-and-answers-fdas-adverse-event-reporting-system-faers) contains adverse event reports, medication error reports and product quality complaints submitted by healthcare professionals, consumers, and manufacturers.
+- {% tool "clinicaltrials-gov" %} is a resource depending on the National Library of medicine which makes available private and public-funded clinical trials.
+- The FDA Adverse Event Reporting System {% tool "faers" %} contains adverse event reports, medication error reports and product quality complaints submitted by healthcare professionals, consumers, and manufacturers.
+- The {% tool "eudravigilance" %} is the European database of suspected adverse drug reaction reports is a public resource aimed to provide access to reported suspected side-effects of drugs. Side-effects are defined according to the MedDRA ontology.
+- The {% tool "txg-mapr" %} is a tool that contains weighted gene co-expression networks obtained from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs datasets.
 
 Harmonization of terminologies can be achieved by using different resources:
 
-- The [Unified Medical Language System (UMLS)](https://www.nlm.nih.gov/research/umls/index.html) provides mappings between different medical vocabularies. It includes common ontologies within the condition/diagnosis domain like SNOMED, ICD9CM, ICD10CM, and also the MedDRA ontology.
-- The [OHDSI](https://www.ohdsi.org/analytic-tools/athena-standardized-vocabularies/) initiative for health data harmonization is an alternative solution for the mapping of vocabularies needed for the harmonization of different resources. This initiative maintains the ATHENA set of vocabularies which is in constant evolution and covers relevant domains in the realm of health care. The OHDSI community is paying special attention to the mappings between medication identifiers coming from national regulatory agencies of the countries of provenance of the institutions involved in the initiative, and the RxNorm identifier which is the standard vocabulary used by OHDSI.
-- Resources in the context of environmental ([ITER](https://www.tera.org/iter/), [IRIS](https://www.epa.gov/iris)) or occupational ([Haz-Map](https://haz-map.com/)) toxicity using CAS Registry Number identifiers can be connected with those in the pharmaceutical field prone to use [ChEMBL](https://www.ebi.ac.uk/chembl/) identifiers via molecular identifiers available in both resources like the standard InChI or standard InChI Key representations. Services like EBI’s [UniChem](https://www.ebi.ac.uk/unichem/) can help to translate between different chemical identifiers.
+- The Unified Medical Language System {% tool "umls" %} provides mappings between different medical vocabularies. It includes common ontologies within the condition/diagnosis domain like SNOMED, ICD9CM, ICD10CM, and also the MedDRA ontology.
+- The {% tool "ohdsi" %} initiative for health data harmonization is an alternative solution for the mapping of vocabularies needed for the harmonization of different resources. This initiative maintains the ATHENA set of vocabularies which is in constant evolution and covers relevant domains in the realm of health care. The OHDSI community is paying special attention to the mappings between medication identifiers coming from national regulatory agencies of the countries of provenance of the institutions involved in the initiative, and the {% tool "rxnorm" %} identifier which is the standard vocabulary used by OHDSI.
+- Resources in the context of environmental ({% tool "iter" %}, {% tool "iris" %}) or occupational ({% tool "haz-map" %}) toxicity using {% tool "cas-registry" %} Number identifiers can be connected with those in the pharmaceutical field prone to use {% tool "chembl" %} identifiers via molecular identifiers available in both resources like the standard InChI or standard InChI Key representations. Services like EBI’s {% tool "unichem" %} can help to translate between different chemical identifiers.
+- The {% tool "ghs-classification" %} was developed by the United Nations in an attempt to align standards and chemical regulations in different countries. GHS includes criteria for the classification of health, physical and environmental hazards, and what information should be included on labels of hazardous chemicals and safety data sheets.
 
 To import unstructured data sources into structured schemas is a really challenging task as it involves the application of natural language processing technologies. The development of these tools in the field of toxicology is still at the embryonic stage but several initiatives exist:
 
-- The [LimTox](http://limtox.bioinfo.cnio.es/) system is a text mining approach devoted to the extraction of associations between chemical agents and hepatotoxicity.
-- The [AOP4EUpest](http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php) webserver is a resource for the identification of annotated pesticides-biological events involved in Adverse Outcome Pathways (AOPs) via text mining approaches.
+- The {% tool "limtox" %} system is a text mining approach devoted to the extraction of associations between chemical agents and hepatotoxicity.
+- The {% tool "aop4eupest" %} webserver is a resource for the identification of annotated pesticides-biological events involved in Adverse Outcome Pathways (AOPs) via text mining approaches.
 
 ## Ecotoxicology data - Existing data
 
@@ -111,5 +120,9 @@ When considering the effect of a substance on the environment, in addition to it
 
 ### Solutions
 
-- The [ECOTOXicology Knowledgebase (ECOTOX)](https://cfpub.epa.gov/ecotox/) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
-- The [CompTox Chemicals Dashboard](https://comptox.epa.gov/dashboard) provides toxicological information for over 800.000 chemical compounds, including experimental and predicted fate information.
+- The ECOTOXicology Knowledgebase ({% tool "ecotox" %}) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
+- The {% tool "comptox" %} provides toxicological information for over 800.000 chemical compounds, including experimental and predicted fate information.
+- The {% tool "nbp" %} is a public resource that offers an assessment of nutritional status and the exposure of the U.S. population to environmental chemicals and toxic substances.
+- The {% tool "npds" %} is a resource that provides poisson exposure occurring in the US and some freely associated states.
+- {% tool "pharos" %} provides hazard, use, and exposure information on 140,872 chemicals and 180 different kinds of building products.
+- The {% tool "reach-registered-substances" %} is a portal with public data submitted to ECHA in REACH registration dossiers by substance manufacturers, importers, or their representatives, as laid out by the REACH Regulation (see Understanding REACH regulation).

@@ -5,7 +5,7 @@ _pdf
 .DS_Store
 .idea
 .bundle/
-_site
-/vendor
+_site/
+vendor/
 .vscode/
 Gemfile.lock

@@ -36,4 +36,4 @@ If you find any content unsatisfactory, please feel free to [create an issue](ht
 
 ## Making a quick suggestion
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-yfGjAdusicjzdmzrfmUOcrfszhaZEk24igCeVwMllKzxsw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="width: 100%;" class="mt-1">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfw1hcOlXcgJ1mImx_37WLnA160SPObP8crEdkSRVEAX2AIrw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;" class="mt-1">Loading…</iframe>

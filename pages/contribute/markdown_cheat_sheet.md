@@ -319,33 +319,6 @@ Text
 </details>
 ```
 
-## Add "Related pages" to a page 
-
-If you want pages from the specific sections Your tasks, Your domain and Tool assembly to be shown as Related pages, list their `page_id`. If you want to list multiple related pages, make sure to put them in a list like this: [page_id1, page_id2]. 
-
-An overview of all RDMkit pages (belonging to the sections listed above) and their `page_id` can be found in the [Website overview page](website_overview).
-
-
-```yml
-related_pages: 
-   your_tasks: [page_id1, page_id2]
-   your_domain: [page_id1, page_id2]
-   tool_assembly: [page_id1, page_id2]
-```
-
-## Listing training material
-You can list training material by using the metadata fields as in the example below. Each training item will be automatically added as an entry to the table in the [All training resources page](all_training_resources).
-
-```yml
-training:
-   - name: Training in TeSS
-     registry: TeSS
-     url: https://tess.elixir-europe.org/search?q=data%20analysis
-
-   - name: Training in TeSS
-     registry: TeSS
-     url: https://tess.elixir-europe.org/search?q=data%20analysis
-```
 
 ## Enforce space between two lines
 

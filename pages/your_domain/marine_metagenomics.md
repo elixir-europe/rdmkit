@@ -1,12 +1,12 @@
 ---
 title: Marine metagenomics
-description: Data management solutions for marine metagenomics data
-contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis]
+description: Data management solutions for marine metagenomics data.
+contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis,Nazeefa Fatima]
 related_pages: 
 page_id: marine
 related_pages: 
   your_tasks: [metadata]
-  tool_assembly: [marine assembly]
+  tool_assembly: [marine_assembly]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -24,16 +24,16 @@ Metagenomics is a highly complex process the encompasses several steps including
 
 Moreover, in marine metagenomics, it is also necessary to characterize the marine environment of the sample, including geolocation, and the physico-chemical properties of the water.
 
-### Solutions
+### Considerations
 - As a starting point to get acquainted with the intricacies of reporting marine metagenomics experiments, the following publications are recommended reading: 
   - [The metagenomic data life-cycle: standards and best practices](https://doi.org/10.1093/gigascience/gix047) which describes the metagenomics data life-cycle in detail.
   - [Marine microbial biodiversity, bioinformatics and biotechnology (M2B3) data reporting and service standards](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4511511/), guided by marine microbial research, and providing clear examples and colour-coded illustrations.
-- Metadata standards that apply to marine metagenomics data are the [Genome Standards Consortium](https://gensc.org/) family of minimum information standards, including the core standard, [Minimum Information about any (x) Sequence (MIxS)](https://gensc.org/mixs/), the derived [Minimum Information about (Meta)genome Sequence (MIGS/MIMS)](https://gensc.org/mixs/), and the also derived [Minimum Information About a Metagenome-Assembled Genome (MIMAG)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6436528/) that is presently only available as a scientific publication. 
+- Metadata standards that apply to marine metagenomics data are the {% tool "genomic-standards-consortium" %} family of minimum information standards, including the core standard {% tool "mixs" %}, the derived {% tool "migs-mims" %}, and the also derived [Minimum Information About a Metagenome-Assembled Genome (MIMAG)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6436528/) that is presently only available as a scientific publication. 
 
 ## Tools and resources for analyzing metagenomics datasets
 
 ### Description
-The field of marine metagenomics has been in rapid expansion, with many statistical/computational tools and databases developed to explore the huge influx of data. You need to be able to choose between the multiple bioinformatics techniques, tools, and methodologies available for performing each step of a typical metagenomics  analysis, while ensuring that your choice conforms to the best practices for the domain. Moreover you need access to HPC facilities with capacity to execute the analysis and store the resulting data, and therefore should be aware of what computing infrastructures are available to you (and at what cost).
+The field of marine metagenomics has been in rapid expansion, with many statistical/computational tools and databases developed to explore the huge influx of data. You need to be able to choose between the multiple bioinformatics techniques, tools, and methodologies available for performing each step of a typical metagenomics  analysis, while ensuring that your choice conforms to the best practices for the domain. Moreover, you need access to HPC facilities with capacity to execute the data analysis and store the resulting data, and therefore should be aware of what computing infrastructures are available to you (and at what cost).
 
 ### Considerations 
 - Are there particular characteristics of your dataset that would restrict the choice of applicable tools?
