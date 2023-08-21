@@ -6,7 +6,6 @@ layout: none
 <!doctype html>
 <html lang="en">
 {% include head.html %}
-
 <body>
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
@@ -81,7 +80,7 @@ layout: none
                     {% include news.html caption=true title=true limit=3 %}
                     </div>
                     <div class="col-lg-6 mt-3 mt-lg-0">
-                    {% include events.html title=true event_type="upcoming_event"%}
+                    {% include events.html title=true event_type="upcoming_event" %}
                     </div>
                 </div>
             </div>

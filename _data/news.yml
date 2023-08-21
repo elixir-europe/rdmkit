@@ -126,3 +126,11 @@
   date: 2023-08-10
   linked_pr: 1344
   description: This page acts as a data management portal for PI's. [Discover the page here](principal_investigator).
+- name: "New page: Trainer"
+  date: 2023-08-16
+  linked_pr: 1355
+  description: This page acts as a data management portal for trainers. [Discover the page here](trainer).
+- name: "All tools and resources are now described in the page text"
+  date: 2023-08-18
+  linked_pr: 1249
+  description: "All items in the 'Relevant tools and resources' tables are now mentioned in the text. This means you have context of when it is appropriate to use each one. Tools and resources in the text will also feature a popup providing extra information about them. These changes means there is a new way to contribute tools: see our [new guidelines](tool_resource_update)!"

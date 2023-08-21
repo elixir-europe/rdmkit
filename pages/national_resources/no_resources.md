@@ -22,22 +22,22 @@ training:
 
 national_resources:
   - name: Feide
-    description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
+    description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [Life Science Login (LS Login)](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
     how_to_access: Everyone with an affiliation to a Norwegian academic institution.
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
     description: DS-Wizard is a tool to aid the creation, organisaton and sharing of data management plans. It provides scientists with guidance, facilitating the understanding of the key components of FAIR-oriented Data Stewardship. The template in this instance provides additional guidance on resources, laws and regulations in Norway.
-    how_to_access: ELIXIR-AAI with Feide or upon registration
-    instance_of: Data Stewardship Wizard
+    how_to_access: Life Science Login (LS Login) with Feide or upon registration
+    instance_of: data-stewardship-wizard
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
       your_tasks: [dmp]
     url: https://elixir-no.ds-wizard.org/
   - name: EasyDMP
     description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
-    instance_of: EasyDMP
+    instance_of:
     how_to_access: Feide
     related_pages:
       your_tasks: [dmp]
@@ -58,8 +58,8 @@ national_resources:
     url: https://covid19dataportal.no/
   - name: Norwegian Federated EGA
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
-    how_to_access: ELIXIR-AAI; intended for data from Norwegian institutions
-    instance_of: The European Genome-phenome Archive (EGA)
+    how_to_access: Life Science Login (LS Login); intended for data from Norwegian institutions
+    instance_of: the-european-genome-phenome-archive
     related_pages:
       your_domain: [human_data]
       your_tasks: [sensitive, existing_data, data_publication]
@@ -67,7 +67,7 @@ national_resources:
     url: https://ega.elixir.no/
   - name: usegalaxy.no
     description: Galaxy is an open source, web-based platform for data intensive biomedical research. This instance of Galaxy is coupled with NeLS for easy data transfer.
-    instance_of: Galaxy
+    instance_of: galaxy
     how_to_access: Feide or upon application
     related_pages:
       your_tasks: [data_analysis, sensitive, existing_data, data_publication]
@@ -95,7 +95,7 @@ national_resources:
   - name: Norwegian Research and Education Cloud (NREC)
     description: NREC is an Infrastructure-as-a-Service (IaaS) project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett., commonly referred to as a cloud infrastructure An IaaS is a self-service infrastructure where you spawn standardized servers and storage instantly, as needed, from a given resource quota.
     how_to_access: All users at educational institutions via Feide
-    instance_of: OpenStack
+    instance_of: openstack
     related_pages:
       your_tasks: [data_analysis, storage]
     url: https://www.nrec.no/
@@ -138,7 +138,7 @@ national_resources:
   - name: DataverseNO
     description: DataverseNO is a national, generic repository for open research data. Various Norwegian research institutions have established a partner agreements about using DataverseNO as institutional repositories for open research data.
     how_to_access: open access
-    instance_of: DATAVERSE
+    instance_of: dataverse
     related_pages:
       your_domain: []
       your_tasks: [data_publication]
@@ -155,8 +155,8 @@ national_resources:
       tool_assembly: [tsd]
     url: https://nettskjema.no/
 ref_to_main_resources:
-  - MarDB
-  - MarFun
+  - mardb
+  - marfun
 
 ---
 

@@ -55,9 +55,11 @@ jobs:
           JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
           JEKYLL_ENV: ${{ steps.name.outputs.jekyll_env }}
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+
 
   deploy:
     runs-on: ubuntu-latest

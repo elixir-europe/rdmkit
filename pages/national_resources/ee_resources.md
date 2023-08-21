@@ -9,7 +9,7 @@ national_resources:
   - name: Galaxy Estonia
     description: This is the Estonian instance of  Galaxy, which is an open source, web-based platform for data intensive biomedical research.
     how_to_access:
-    instance_of: Galaxy
+    instance_of: galaxy
     related_pages:
       tool_assembly:
       your_domain:
@@ -20,7 +20,7 @@ national_resources:
   - name: REDCap Estonia
     description: This is the Estonian instance of REDCap, which is a secure web platform for building and managing online databases and surveys.
     how_to_access:
-    instance_of: REDCap
+    instance_of: redcap
     related_pages:
       tool_assembly:
       your_domain:

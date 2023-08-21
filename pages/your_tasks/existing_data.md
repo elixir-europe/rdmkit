@@ -33,14 +33,16 @@ Many datasets could exist that you can reuse for your project. Even if you know 
     * Search for research communities in the field, and find out whether they have policies for data submission that mention data repositories. For instance, [ELIXIR communities in Life Sciences](https://elixir-europe.org/communities).
 
 * Locate the primary journals in the field, and find out what data repositories they endorse.
-    * Journal websites will have a “Submitter Guide”, where you’ll find lists of recommended deposition databases per discipline, or generalist repositories. For instance, [Scientific Data's Recommended Repositories]( https://www.nature.com/sdata/policies/repositories).
-    * You can also find the databases supported by a journal through the policy interface of [FAIRsharing](https://fairsharing.org/policies/).
+    * Journal websites will have a “Submitter Guide”, where you’ll find lists of recommended deposition databases per discipline, or generalist repositories. For instance, {% tool "scientific-data-s-recommended-repositories" %}.
+    * You can also find the databases supported by a journal through the policy interface of {% tool "fairsharing" %}.
 
 * Search registries for suitable data repositories.
-    * [FAIRsharing](https://fairsharing.org) is an ELIXIR resource listing repositories.
-    * [Re3data](https://www.re3data.org) lists repositories from all fields of science.
-    * [Google Dataset Search](https://datasetsearch.research.google.com) or [DataCite](https://search.datacite.org) for localization of datasets.
-    * The [Omics Discovery Index (OmicsDI)](https://www.omicsdi.org) provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).
+    * {% tool "fairsharing" %} is an ELIXIR resource listing repositories.
+    * {% tool "re3data" %} lists repositories from all fields of science.
+    * {% tool "google-dataset-search" %} or {% tool "datacite" %} for localization of datasets.
+    * The {% tool "omicsdi" %} provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).
+    * The {% tool "elixir-core-data-resources" %} list of knowledge resources recommended by ELIXIR.
+    * {% tool "openaire-explore" %} provides linked open research datasets.
 
 * Search through all repositories you found to identify what you could use. Give priority to curated repositories.
 
@@ -70,7 +72,7 @@ When you find data of interest, you should first check if the quality is good an
 
 * Verify the quality of the data. Some repositories have quality indicators, such as:
     * Star system indicating level of curation, e.g. for manually curated/non-curated entries.
-    * [Evidence & Conclusion Ontology](https://evidenceontology.org).
+    * {% tool "evidence-and-conclusion-ontology" %}.
     * Detailed quality assessment methods. For instance, PDB has several [structure quality assessment metrics](https://validate.wwpdb.org/).
 
 * If metadata is available, check the quality of metadata. For instance, information about experimental setup, sample preparation, data analysis/processing can be necessary to reuse the data and reproduce the experiments.

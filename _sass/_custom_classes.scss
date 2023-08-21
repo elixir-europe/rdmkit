@@ -11,6 +11,21 @@
     background-color: $light-x;
 }
 
+
+#main {
+    h2,
+    .h2-like {
+        font-weight: 600;
+        margin-top: $spacer * 2.5;
+        margin-bottom: $spacer * 0.5;
+    }
+
+    h3 {
+        font-weight: 600;
+    }
+
+}
+
 /*-----Sidebar-----*/
 
 //RDM wheel in sidebar
@@ -36,7 +51,8 @@ li ul .sidebar_rdm_sub {
 }
 
 #side-nav .btn.sidebar-title {
-    border-bottom: 0.2rem solid $primary;
+    border: 0;
+    border-bottom: 0.2rem solid $primary!important;
     font-weight: bold;
     padding-bottom: $input-btn-padding-y - 0.2rem;
 }
