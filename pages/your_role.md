@@ -11,4 +11,3 @@ In this section, information is organised based on the different roles a profess
 
 
 {% include section-navigation-tiles.html type="your_role" search=true col=3 %}
-
