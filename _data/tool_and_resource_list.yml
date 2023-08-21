@@ -1257,6 +1257,12 @@
   registry:
     fairsharing: va1hck
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
+- description: A stand-alone server for structural proteome curation
+  id: mineprot
+  name: MineProt
+  registry:
+    biotools: mineprot
+  url: https://github.com/huiwenke/MineProt
 - description: Minimum Information about any (x) Sequence
   id: mixs
   name: MIxS
