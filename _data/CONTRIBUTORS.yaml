@@ -129,6 +129,7 @@ Ivan Mičetić:
     git: ivanmicetic
     email: ivan.micetic@unipd.it
     orcid: 0000-0003-1691-8425
+    affiliation: University of Padua / ELIXIR-IT
 Robert Andrews:
     git: robertmand
     email: andrewsr9@cardiff.ac.uk
@@ -487,6 +488,21 @@ Vilem Ded:
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
 Sven Twardziok:
     git: svedziok
+Erin Calhoun:
+    git: erincalhoun
+    orcid: 0009-0003-3752-7156
+    email: erin.calhoun@uit.no
+    affiliation: UiT The Arctic University of Norway / ELIXIR-NO
+Naeem Muhammad:
+    git: naeemmuhammad
+    orcid: 0000-0003-4475-0164
+    email: naeem.muhammad@kuleuven.be
+    affiliation: KU Leuven University
+Siobhan Cleary:
+    git: clearysi
+    orcid: 0009-0008-0778-0130
+    email: siobhan.cleary@ucd.ie
+    affiliation: University College Dublin / ELIXIR-IE
 Brane Leskošek: 
     git: brane007
     orcid: 0000-0001-5202-2349
@@ -502,4 +518,8 @@ Nadja Žlender:
     orcid: 0000-0001-5913-5530
     email: nadja.zlender@mf.uni-lj.si
     affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
-
+Dirk Winkelhardt:
+    git: di-hardt
+    orcid: 0000-0001-8770-2221
+    email: dirk.winkelhardt@rub.de
+    affiliation: Ruhr-Universität Bochum, Medzinisches Proteom-Center & ELIXIR Germany Forschungszentrum Jülich

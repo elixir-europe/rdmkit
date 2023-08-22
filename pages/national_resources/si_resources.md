@@ -29,14 +29,14 @@ training:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
-  -  <!---REPLACE THIS with the tool name--->
+  -  <!---REPLACE THIS with the tool id--->
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
   - name: DS Wizard ELIXIR Slovenia
     description: Publicly available online tool for composing smart data management plans
-    how_to_access: registration is open to everyone
-    instance_of: DSW
+    how_to_access: 
+    instance_of: dsw
     related_pages:
       your_tasks: [data_management_plan]
     url: https://elixir-si.ds-wizard.org/
@@ -44,7 +44,7 @@ national_resources:
       
   - name: ELIXIR E-learning Platform
     description: E-learning Platform
-    how_to_access: registration is open to everyone, some classes are closed
+    how_to_access: Registration is open to everyone, some classes are closed
     url: https://elixir.mf.uni-lj.si
     registry:
       tess: <!--- DELETE ME if not needed --->
