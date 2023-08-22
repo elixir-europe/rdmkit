@@ -54,7 +54,7 @@ Make sure you have cloned the rdmkit repo:
     cd rdmkit
 
 
-To run the website locally, you can either use [Docker](https://www.docker.com/) or use Jekyll directly after installing various dependencies.
+To run the website locally, you can either use {% tool "docker" %} or use Jekyll directly after installing various dependencies.
 
 ### Run using Docker
 

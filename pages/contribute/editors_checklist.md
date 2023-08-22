@@ -14,10 +14,10 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `training`
    * `search_exclude` must be deleted
    * `description`
-   * `affiliation`
+   * `affiliations`
    * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
-5. Items in the "[all tools and resources spreadsheet](https://docs.google.com/spreadsheets/d/16RESor_qQ_ygI0lQYHR23kbZJUobOWZUbOwhJbLptDE/edit#gid=268211668)" are tagged with already existing (merged) `page_id` from "Your role, Your domain, Your tasks, Tool assembly" and that Bert has been informed of the changes.
+5. Make sure that listed tools or resources are tagged in the text with the [correct snippet](tool_resource_update) + that its metadata is described in the [tool_and_resource_list.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml) file. 
 6. Check if relevant recipes on FAIR Cookbook can be linked to the RDMkit page that is being added/changed ([Linking from RDMkit to FAIR Cookbook](editorial_board_guide#linking-from-rdmkit-to-fair-cookbook)).
 7. The content is conform to RDMkit scope, [style](style_guide) and templates.
 8. There are no [copyright](copyright) issues related to the content of the page.
