@@ -24,14 +24,14 @@ training:
     url: https://zenodo.org/communities/elixir-cz/
 
 ref_to_main_resources: 
-  - Galaxy
-  - Data Stewardship Wizard
+  - galaxy
+  - data-stewardship-wizard
 
 national_resources: 
   - name: Galaxy MetaCentrum
     description: Galaxy MetaCentrum is a Galaxy instance managed by the Czech ELIXIR node and [e-INFRA](https://www.e-infra.cz/en). It provides extra support for [RepeatExplorer](https://repeatexplorer-elixir.cerit-sc.cz/) tool for plant genomic analysis.
     how_to_access:
-    instance_of: Galaxy
+    instance_of: galaxy
     related_pages:
       tool_assembly: []
       your_domain: [plant]
@@ -46,17 +46,17 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, it_support]
+      your_role: [data_steward, research_software_engineer]
       your_tasks: [data_analysis, storage]
     url: https://www.e-infra.cz/en
   - name: ownCloud@CESNET
     description: CESNET-hosted ownCloud is a 100 GB cloud storage freely available for Czech scientists to manage their data from any research projects.
     how_to_access: To use the CESNET-hosted ownCloud, you have to be an employee or a student of a Czech academic organization. For technical reasons, you have to have an account in [eduID.cz](https://eduid.cz).
-    instance_of: ownCloud
+    instance_of: owncloud
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, it_support]
+      your_role: [researcher, research_software_engineer]
       your_tasks: [storage, data_transfer, data_organisation]
     url: https://du.cesnet.cz/en/navody/owncloud/start/
   - name: Czech National Repository
@@ -66,7 +66,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, data_manager, it_support]
+      your_role: [researcher, data_steward, research_software_engineer]
       your_tasks: [storage, existing_data, identifiers, dmp]
     url: https://data.narodni-repozitar.cz/
 

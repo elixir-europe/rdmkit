@@ -40,6 +40,7 @@ Here, we provide some advice and methods to help consortia with data management 
 * If applicable, each partner (actually, its representative) should consult with personal data legislation experts (e.g. GDPR or equivalent), Data Protection Officers (DPOs) and the legal office of the institution (e.g. for technology transfer) to reach a consensus at the consortium level about data protection, availability and open science.
 * It is recommended to discuss as early as possible the licensing and the intellectual property (IP) rights of project outcomes (datasets, software, tools, etc.), in order to comply with open science requirements and to avoid legal issues later on. 
 * Discuss a common plan for the sharing of data, [documentation and metadata](metadata_management) between partners.
+* Tools such as {% tool "fair-implementation-profile" %} and {% tool "fip-wizard" %} could be used to explicitly declare FAIR Implementation Profiles.
 
 ## How to execute data management in collaborative projects?
 
@@ -50,7 +51,7 @@ Once the project is awarded, the data management plan needs to be executed throu
 * Some data management challenges may not have been foreseen at the pre-award stage.
 * Possible difficulties during the execution of the DMP by individual partners may arise. Not all partners have the same skills and resources.
 * Possible problems with data exchange between partners can resurface during the project. 
-* Consider contacting and establishing collaborations for depositing data with key repositories, e.g. setting up an [ENA Compare Data Hub](https://github.com/nadimm-rahman/ena-datahub-setup)for depositing sequence data at the European Nucleotide Archive.
+* Consider contacting and establishing collaborations for depositing data with key repositories, e.g. setting up an {% tool "ena-compare-data-hubs" %} for depositing sequence data at the {% tool "european-nucleotide-archive" %}.
 
 ### Solutions 
 * The DMWG should have regular meetings to find appropriate solutions to arising data management issues.

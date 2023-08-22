@@ -9,16 +9,16 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, it_support]
+      your_role: [researcher, research_software_engineer]
       your_tasks: [data_analysis]
     url: https://chipster.csc.fi/
   - name: DMPTuuli
     description: Data management planning tool (Finland).
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [dmp]
     url: https://www.dmptuuli.fi/
   - name: Fairdata.fi
@@ -27,7 +27,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [storage, data_publication, existing_data]
     url: https://research.csc.fi/-/fairdata-services
   - name: Federated EGA Finland
@@ -36,7 +36,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [sensitive, data_publication, existing_data]
       your_domain: [human_data]
     url: https://research.csc.fi/-/fega
@@ -46,7 +46,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [sensitive, existing_data]
       your_domain: [human_data]
     url: https://findata.fi/en/
@@ -56,7 +56,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [sensitive]
       your_domain: [human_data]
     url: https://site.fingenious.fi/en/
@@ -66,7 +66,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [sensitive, data_analysis, storage, data_publication]
       your_domain: [human_data]
     url: https://research.csc.fi/sensitive-data-services-for-research
@@ -76,7 +76,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [data_analysis]
     url: https://research.csc.fi/computing#high-performance-computing
   - name: Cloud computing
@@ -85,7 +85,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [data_analysis]
     url: https://research.csc.fi/computing#cloud-computing 
   - name: IceBear
@@ -94,7 +94,7 @@ national_resources:
     how_to_access: 
     related_pages:
       tool_assembly:
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: [data_analysis]
       your_domain: [structural_bioinformatics]
     url: https://icebear.fi/

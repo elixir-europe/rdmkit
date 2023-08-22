@@ -60,30 +60,31 @@ Preferable transfer channel depends on the volume of your data and number of fil
     * gzip: since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive.
 
 * Ask the IT team of your institution or organisation about available services for data transfer. Usually, for **small data volume or limited number of files** universities and professional organisations can provide:
-    * Secure server- or cloud-based applications where you should store work-related data files, synchronize files from different computers and share files by sending a link for access or download. This solution is ideal in case of a small number of files, since files need to be downloaded one by one and this can be inconvenient. Examples of these kinds of applications are NextCloud, Box, ownCloud (see [Data storage page](storage)).
-    * Access to Office 365 (Software as a Service, or SaaS) that includes cloud storage on OneDrive, and SharePoint for collaborations and files sharing - you can “transfer” your data with these services by generating and sending a link for access or download of specific files.
+    * Secure server- or cloud-based applications where you should store work-related data files, synchronize files from different computers and share files by sending a link for access or download. This solution is ideal in case of a small number of files, since files need to be downloaded one by one and this can be inconvenient. Examples of these kinds of applications are NextCloud, {% tool "box" %}, {% tool "owncloud" %} (see [Data storage page](storage)).
+    * Access to Office 365 (Software as a Service, or SaaS) that includes cloud storage on {% tool "microsoft-onedrive" %}, and SharePoint for collaborations and files sharing - you can “transfer” your data with these services by generating and sending a link for access or download of specific files.
+    * Cloud synchronization and sharing services (CS3) for that can be used in science, education and research have been implemented by companies (e.g. {% tool "seafile" %}), institutions such as CERN (e.g. {% tool "reva" %}, {% tool "rucio" %}) and initiatives (e.g. {% tool "sciencemesh" %}).
 
-* Usually, universities and institutions strongly **discourage** the use of personal accounts on Google Drive, Amazon Drive, Dropbox and similar, to share and transfer work related data, and especially sensitive or personal data. Moreover, it is not allowed to store human data in clouds which are not hosted in the EU.
+* Usually, universities and institutions strongly **discourage** the use of personal accounts on {% tool "google-drive" %}, Amazon Drive, {% tool "dropbox" %} and similar, to share and transfer work related data, and especially sensitive or personal data. Moreover, it is not allowed to store human data in clouds which are not hosted in the EU.
 
-* Institutions and professional organisations could also make use of Infrastructure as a Service (IaaS), such as Microsoft Windows Azure, Amazon Web Services (Amazon Simple Storage Service or S3), Oracle Cloud Infrastructure or Google Cloud Platform.
+* Institutions and professional organisations could also make use of Infrastructure as a Service (IaaS), such as {% tool "microsoft-azure" %}, {% tool "amazon-web-services" %} (Amazon Simple Storage Service or S3), Oracle Cloud Infrastructure or Google Cloud Platform.
 
 * A useful [comparison of cloud-computing software and providers](https://en.wikipedia.org/wiki/Cloud-computing_comparison ) is on Wikipedia. Cloud-computing infrastructures, services and platforms offer a variety of file hosting services; a [comparison of file hosting services](https://en.wikipedia.org/wiki/Comparison_of_file_hosting_services ) is available on Wikipedia.
 
-* If you are considering transferring data from or to cloud-based services (Microsoft Azure or Amazon S3) by shipping hard disks through carrier services, it is useful to know that services such as Amazon Snowball and Azure Data Box Disk will help you with the shipping of hard disks or appliances through carrier services.
+* If you are considering transferring data from or to cloud-based services ({% tool "microsoft-azure" %} or Amazon S3) by shipping hard disks through carrier services, it is useful to know that services such as Amazon Snowball and Azure Data Box Disk will help you with the shipping of hard disks or appliances through carrier services.
 
 * Countries could provide national file sender services (browser based or other) which could be useful for one time transfer of data files, limited in number and volume (for instance, up to 100 GB or 250 GB), from person to person. Importantly, an academic account is usually needed to use these kinds of services, therefore contact the IT team in your institute for more information.
 
 * If you have the technical skills and the knowledge, you can use the most common data transfer protocols. These protocols are useful for data volume **larger than 50GB or for hundreds of data files**.
-    * Applications suitable for small to mid size data available on any operating system and that can be used either through command-line (directly or with tools like [cURL](https://curl.se)) or through a graphical interface, are:
+    * Applications suitable for small to mid size data available on any operating system and that can be used either through command-line (directly or with tools like {% tool "curl" %}) or through a graphical interface, are:
         * FTP (File Transfer Protocol) will transfer files between a client and an FTP server, which will require an account in order to transfer the files.
-        * Be sure to use a **secure** version of this protocol, such as FTPS or SFTP (SSH File Transfer Protocol). A possible tool with graphical interface is [FileZilla](https://filezilla-project.org).
+        * Be sure to use a **secure** version of this protocol, such as FTPS or SFTP (SSH File Transfer Protocol). A possible tool with graphical interface is {% tool "filezilla" %}.
         * HTTP (HyperText Transfer Protocol).
         * Rsync (remote synchronization) can be used to transfer files between two computers and to keep the files synchronized between these two computers.
-        * SCP (secure copy protocol) will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication. A possible tool with graphical interface is [WinSCP](https://winscp.net/eng/index.php).
+        * SCP (secure copy protocol) will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication. A possible tool with graphical interface is {% tool "winscp" %}.
 
     * For massive amounts of data, additional protocols have been developed, parallelizing the flow of data. These transfer solutions require specific tools and as such they are available mostly on large computational centres.
-        * FASP protocol implemented in [IBM Aspera tool](https://www.ibm.com/products/aspera).
-        * GridFTP protocol used by [Globus tool](https://www.globus.org).
+        * FASP protocol implemented in {% tool "ibm-aspera" %}.
+        * GridFTP protocol used by {% tool "globus" %}.
 
 * Several algorithms can be used for checksum calculation.
   * MD5 checksums can be generated and verified in command line of all operational systems or throught tools with a graphical interface, e.g. [MD5Summer](http://www.md5summer.org/) for Windows.

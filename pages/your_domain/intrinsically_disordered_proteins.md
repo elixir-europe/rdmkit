@@ -26,13 +26,13 @@ You can split the experimental process in several steps:
 * How should you publish IDP data to a wider audience?
 
 ### Solutions
-* The IDP community developed a [MIADE](http://www.psidev.info/intrinsically-disordered-proteins-workgroup) standard under a PSI-ID workgroup. The standard specifies the minimum information required to comprehend the result of a disorder experiment.
+* The IDP community developed a {% tool "miade" %} standard under a PSI-ID workgroup. The standard specifies the minimum information required to comprehend the result of a disorder experiment.
 
     The standard is available in XML and TAB format. You can check example annotation in [XML](https://github.com/normandavey/HUPO-PSI-ID/blob/master/HUPO-PSI-ID_XML_format_compact_NFAT_example.xml) and [TAB](https://github.com/normandavey/HUPO-PSI-ID/blob/master/HUPO-PSI-ID_TAB_format.xlsx) format and adapt it to your data.
-* The IDP community developed the Intrinsically Disordered Proteins Ontology ([IDPO](https://disprot.org/ontology)). The ontology is an agreed consensus of terms used in the community, organised in a structured way.
+* The IDP community developed the Intrinsically Disordered Proteins Ontology ({% tool "idpo" %}). The ontology is an agreed consensus of terms used in the community, organised in a structured way.
 
     The ontology is available in [OWL](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.owl) and [OBO](https://disprot.org/assets/data/idpontology_disprot_8_v0.1.0.obo) format. 
-* You should deposit primary data into relevant community databases ([BMRB](http://www.bmrb.wisc.edu/), [PCDDB](https://pcddb.cryst.bbk.ac.uk/), [SASBDB](https://www.sasbdb.org/)). You should deposit literature data to the manually curated database [DisProt](https://disprot.org/). DisProt is built on MIADE standard and IDPO ontology. As such, DisProt requires curators to annotate all new data according to community standards. IDP data from primary databases, together with curated experimental annotations and software predictions, is integrated in the comprehensive [MobiDB](https://mobidb.org/) database. DisProt and MobiDB add and expose [Bioschemas](https://bioschemas.org/) markup to all data records increasing data findability and interoperability.
+* You should deposit primary data into relevant community databases ({% tool "bmrb" %}, {% tool "pcddb" %}, {% tool "sasbdb" %}). You should deposit literature data to the manually curated database {% tool "disprot" %}. DisProt is built on MIADE standard and IDPO ontology. As such, DisProt requires curators to annotate all new data according to community standards. IDP data from primary databases, together with curated experimental annotations and software predictions, is integrated in the comprehensive {% tool "mobidb" %} database. DisProt and MobiDB add and expose {% tool "bioschemas" %} markup to all data records increasing data findability and interoperability.
 
 ## Issues annotating or describing an IDP related term or study
 
@@ -45,9 +45,9 @@ Most common issues that you as a researcher can encounter during the mapping pro
 * how to deal with missing terms in IDPO?
 
 ### Solutions
-* In order to uniquely identify the protein under study, you should identify the protein on [UniProt](https://www.uniprot.org/) reference protein database. The protein identifier must be complemented with an isoform identifier (if needed) in order to completely match the experimental protein sequence.
+* In order to uniquely identify the protein under study, you should identify the protein on {% tool "uniprot" %} reference protein database. The protein identifier must be complemented with an isoform identifier (if needed) in order to completely match the experimental protein sequence.
 
-  Use the [SIFTS](https://www.ebi.ac.uk/pdbe/docs/sifts/) database to precisely map the experimental protein fragment (deposited at [PDB](https://www.ebi.ac.uk/pdbe/)) to a reference protein database ([UniProt](https://www.uniprot.org/)) at an amino acid level.
+  Use the {% tool "sifts" %} database to precisely map the experimental protein fragment (deposited at {% tool "pdb" %}) to a reference protein database ({% tool "uniprot" %}) at an amino acid level.
 * Experimental evidence from literature must be mapped to relevant IDPO terms. If no suitable term could be found in IDPO, try with following resources:
   * [Evidence & Conclusion Ontology (ECO)](https://www.ebi.ac.uk/ols/ontologies/eco) for experimental methods
   * [Molecular Interactions Controlled Vocabulary](https://www.ebi.ac.uk/ols/ontologies/mi) for molecular interactions
