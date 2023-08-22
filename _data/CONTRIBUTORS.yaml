@@ -15,12 +15,12 @@ Bert Droesbeke:
     email: bedro@psb.ugent.be
     orcid: 0000-0003-0522-5674
     role: editor
-    affiliation: VIB-UGent / ELIXIR-BE
+    affiliation: VIB Data Core / ELIXIR-BE
 Flora D'Anna:
     git: floradanna
     orcid: 0000-0003-4665-6673
     role: editor
-    affiliation: VIB-UGent / ELIXIR-BE
+    affiliation: VIB Data Core / ELIXIR-BE
 Daniel Faria:
     git: DanFaria
     role: editor
@@ -44,8 +44,8 @@ Frederik Coppens:
     git: frederikcoppens
     role: lead
     orcid: 0000-0001-6565-5145
-    email: frederik.coppens@psb.vib-ugent.be
-    affiliation: VIB-UGent / ELIXIR-BE
+    email: frederik.coppens@vib.be
+    affiliation: VIB Data Core / ELIXIR-BE
 Mijke Jetten:
     git: MijkeJetten
     email: m.jetten@dtls.nl
@@ -129,6 +129,7 @@ Ivan Mičetić:
     git: ivanmicetic
     email: ivan.micetic@unipd.it
     orcid: 0000-0003-1691-8425
+    affiliation: University of Padua / ELIXIR-IT
 Robert Andrews:
     git: robertmand
     email: andrewsr9@cardiff.ac.uk
@@ -236,7 +237,6 @@ Alan R Williams:
     orcid: 0000-0003-3156-2105
     affiliation: The University of Manchester / ELIXIR-UK
 Chris Child:
-    git: christopherchild
     orcid: 0000-0003-0758-6908
     affiliation: The University of Manchester / ELIXIR-UK
 Olivier Collin:
@@ -256,7 +256,6 @@ Muhammad Shoaib:
 Xinhui Wang:
     orcid : 0000-0001-8697-4209
     email : xinhui.wang@uni.lu
-    git: xinhui.wang
     affiliation: LCSB
 Soumyabrata Ghosh:
     orcid: 0000-0003-0659-6733
@@ -323,6 +322,7 @@ Nadim Rahman:
 Rafael Andrade Buono:
     orcid: 0000-0002-6675-3836
     git: rabuono
+    affiliation: VIB Data Core / ELIXIR-BE
 Sebastian Beier:
     git: sebeier
     orcid: 0000-0002-2177-8781
@@ -478,7 +478,6 @@ Teresa D'Altri:
     orcid: 0000-0002-8146-5365
     affiliation: Center for Genomic Regulation
 Marina Popleteeva:
-    git: marina-popleteeva
     orcid: 0000-0002-8409-6147
     email: marina.popleteeva@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
@@ -487,3 +486,40 @@ Vilem Ded:
     orcid: 0000-0001-9235-8496
     email: vilem.ded@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
+Sven Twardziok:
+    git: svedziok
+Erin Calhoun:
+    git: erincalhoun
+    orcid: 0009-0003-3752-7156
+    email: erin.calhoun@uit.no
+    affiliation: UiT The Arctic University of Norway / ELIXIR-NO
+Naeem Muhammad:
+    git: naeemmuhammad
+    orcid: 0000-0003-4475-0164
+    email: naeem.muhammad@kuleuven.be
+    affiliation: KU Leuven University
+Siobhan Cleary:
+    git: clearysi
+    orcid: 0009-0008-0778-0130
+    email: siobhan.cleary@ucd.ie
+    affiliation: University College Dublin / ELIXIR-IE
+Brane Leskošek: 
+    git: brane007
+    orcid: 0000-0001-5202-2349
+    email: brane.leskosek@mf.uni-lj.si
+    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+Marko Vidak: 
+    git: marko-whatever
+    orcid: 0000-0001-7901-3936
+    email: marko.vidak@mf.uni-lj.si
+    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+Nadja Žlender: 
+    git: nadja-zlender
+    orcid: 0000-0001-5913-5530
+    email: nadja.zlender@mf.uni-lj.si
+    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+Dirk Winkelhardt:
+    git: di-hardt
+    orcid: 0000-0001-8770-2221
+    email: dirk.winkelhardt@rub.de
+    affiliation: Ruhr-Universität Bochum, Medzinisches Proteom-Center & ELIXIR Germany Forschungszentrum Jülich

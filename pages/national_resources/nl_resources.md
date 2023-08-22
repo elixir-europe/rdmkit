@@ -113,11 +113,10 @@ national_resources:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources:
-  - FAIRsharing
-  - Molgenis
-  - XNAT
-  - Data Stewardship Wizard
-  - WikiPathways
+  - fairsharing
+  - molgenis
+  - xnat
+  - data-stewardship-wizard
 
 ---
 

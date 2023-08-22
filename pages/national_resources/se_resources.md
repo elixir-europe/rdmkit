@@ -17,14 +17,14 @@ national_resources:
   - name: DS-Wizard ELIXIR-SE
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
     how_to_access: ELIXIR AAI login
-    instance_of: Data Stewardship Wizard
+    instance_of: data-stewardship-wizard
     related_pages:
       your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
-    instance_of: FigShare
+    instance_of: figshare
     related_pages:
       your_tasks: [existing_data, data_publication]
     url: https://scilifelab.figshare.com/
@@ -47,9 +47,9 @@ national_resources:
     related_pages:
       your_tasks: [data_analysis, storage]
     url: https://www.snic.se/ 
-  - name: SciLifeLab Data Guidelines
-    description: A data type centric resource that provides guidance on good data management practices during the data life cycle, including available infrastructures.
-    url: https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/index.html
+  - name: SciLifeLab RDM Guidelines
+    description: Knowledge hub for the management of life science research data in Sweden.
+    url: https://data-guidelines.scilifelab.se/
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
@@ -91,7 +91,7 @@ If personal data is processed in your research, contact your institute’s Data 
 
 The [**SciLifeLab Data Centre**](https://www.scilifelab.se/data)  provides services for IT and data management, including Data Stewardship Wizard instance (for writing data management plans), the Swedish COVID-19 data portal, and the SciLifeLab Data Repository. 
 
-Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support services regarding data management questions, including e.g. guidance when writing data management plans and when doing submissions to domain-specific repositories. For information about this and other resources at NBIS please see the [**Data Management**](https://nbis.se/infrastructure/data-management/) page. An upcoming resource is the [**Swedish Sensitive Data Archive**](https://nbis.se/infrastructure/sensitive-data-archive.html), a secure data archive and sharing platform for sensitive datasets, which will be integrated with the [**Federated EGA network**](https://ega-archive.org/federated).
+Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support services regarding data management questions, including e.g. guidance when writing data management plans and when doing submissions to domain-specific repositories. For information about this and other resources at NBIS please see the [**Data Management**](https://nbis.se/infrastructure/data-management/) page. An upcoming resource is the [**Swedish Sensitive Data Archive**](https://nbis.se/infrastructure/sensitive-data-archive.html), a secure data archive and sharing platform for sensitive datasets, which will be integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
 The [**Swedish National Infrastructure for Computing**](https://snic.se/) (SNIC) is a national research infrastructure that provides resources and user support for large scale computation and data storage to meet the needs of researchers from all scientific disciplines and from all over Sweden. Of particular use for life science researchers is the [**SNIC-SENS**](https://www.uppmax.uu.se/projects-and-collaborations/snic-sens/) project which provides high-performance computing resources for analyzing sensitive data.
 

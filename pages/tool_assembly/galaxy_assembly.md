@@ -40,8 +40,12 @@ Galaxy also provides [open infrastructure ready to use for researchers worldwide
 
 Galaxy can be used at different stages of the data life cycle, covering from the data collection to the reuse steps. 
 
-
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+<style>
+  #galaxy-rdm .tool {
+  white-space: normal !important;
+}
+</style>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4" id="galaxy-rdm">
   <div class="col">
     <div class="card border border-3 h-100" style="border-color: #fac54b!important">
     <div style="background-color:#fac54b;">
@@ -51,15 +55,16 @@ Galaxy can be used at different stages of the data life cycle, covering from the
       <div class="card-body">
         <h4 class="mt-0">Access to databases</h4>
         <ul class="lh-sm">
-          <li><a href="https://www.uniprot.org/">UniProt</a></li>
+          <li>{% tool "uniprot" %}</li>
           <li><a href="http://intermine.org/">InterMine</a></li>
-          <li><a href="https://www.openmicroscopy.org/omero/">OMERO</a></li>
-          <li><a href="https://www.omicsdi.org/">OmicsDI</a></li>
+          <li>{% tool "omero" %}</li>
+          <li>{% tool "omicsdi" %}</li>
           <li><a href="https://www.copernicus.eu/en">Copernicus</a></li>
           <li><a href="https://genome.ucsc.edu/">UCSC genome browser</a> (<a href="https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html">tutorial</a>)</li>
           <li><a href="https://www.ncbi.nlm.nih.gov/datasets/">NCBI datasets</a></li>
-          <li><a href="https://www.insdc.org/">INSDC</a> (<a href="https://www.ebi.ac.uk/ena/browser/about">ENA</a>)</li>
-          <li><a href="https://www.rcsb.org/">PDB</a></li>
+          <li>{% tool "international-nucleotide-sequence-database-collaboration" %}</li>
+          <li>{% tool "european-nucleotide-archive" %}</li>
+          <li>{% tool "pdb" %}</li>
           <li>3rd-party databases</li>
         </ul>
         <h4>Customised data access</h4>
@@ -94,7 +99,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
         </ul>
         <h4>Import workflows</h4>
         <ul class="lh-sm">
-          <li><a href="https://workflowhub.eu/">WorkflowHub</a></li>
+          <li>{% tool "workflowhub" %}</li>
           <li><a href="https://dockstore.org/">Dockstore</a></li>
           <li><a href="https://www.ga4gh.org/news/tool-registry-service-api-enabling-an-interoperable-library-of-genomics-analysis-tools/">GA4GH TRS API</a></li>
         </ul>
@@ -150,7 +155,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
         <ul class="lh-sm">
           <li>Archive file</li>
           <li><a href="https://biocomputeobject.org/">BioCompute Object</a></li>
-          <li><a href="https://www.researchobject.org/ro-crate/">RO-Crate</a> (WIP)</li>
+          <li>{% tool "research-object-crate" %}</li>
         </ul>
         <h4>Export to remote sources</h4>
         <ul class="lh-sm">
@@ -211,7 +216,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
         <h4>Import artefacts</h4>
         <ul class="lh-sm">
           <li>Histories (own, shared by others)</li>
-          <li>Workflows from the <a href="https://workflowhub.eu/">WorkflowHub</a></li>
+          <li>Workflows from the {% tool "workflowhub" %}</li>
         </ul>
       </div>
     </div>

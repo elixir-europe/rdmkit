@@ -27,7 +27,7 @@ national_resources:
     url:
     registry:
       biotools: 
-      fairsharing: >
+      fairsharing: 
       tess: 
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->

@@ -33,7 +33,7 @@ IFB data management tool assembly supports data management activities of scienti
 
 IFB and the underlying infrastructure are accessible to researchers in France and their foreign collaborators. Researchers that would like to know more about IFB services can find specific contact details at the unified [IFB help desk page](https://www.france-bioinformatique.fr/en/help-desk/) and get support through the dedicated help pages. Depending on the resources, fees may apply. It is therefore advisable to contact them during the planning phase of the project.
 
-The way you can access the IFB depends on the type of resources (for instance, cluster or cloud), and there will be different authentication procedures (local, national or international). For example, the Biosphere cloud federation uses the EduGAIN federation for authentication, while useGalaxy.fr uses the [ELIXIR AAI](https://elixir-europe.org/services/compute/aai) authentication. To have additional information on how to access the IFB contact the [help desk](https://www.france-bioinformatique.fr/en/help-desk/). 
+The way you can access the IFB depends on the type of resources (for instance, cluster or cloud), and there will be different authentication procedures (local, national or international). For example, the Biosphere cloud federation uses the EduGAIN federation for authentication, while useGalaxy.fr uses the {% tool "life-science-login" %} authentication. To have additional information on how to access the IFB contact the [help desk](https://www.france-bioinformatique.fr/en/help-desk/). 
 
 
 ## For what can you use the IFB data management tool assembly?
@@ -76,11 +76,9 @@ IFB infrastructure can also help you with bioinformatics analysis of your data. 
 
 ### Data sharing and publishing
 
-It is good practice to [publish](data_publication) your data on repositories. IFB encourages researchers to browse the list of [ELIXIR deposition databases for biomolecular data](https://elixir-europe.org/platforms/data/elixir-deposition-databases) to find the appropriate repository. 
+It is good practice to [publish](data_publication) your data on repositories. IFB encourages researchers to browse the list of {% tool "elixir-deposition-databases-for-biomolecular-data" %} to find the appropriate repository. 
 
 The french scientific community benefit from [Recherche.Data.Gouv](https://recherche.data.gouv.fr/en) a national Dataverse repository. This repository is associated with [thematic reference centres](https://recherche.data.gouv.fr/en/page/thematic-reference-centers-providing-expertise-for-individual-scientific-fields) and data management clusters. IFB is the reference centre for Life Science. 
-
-If you are a member of INRAE (one of the stakeholders of IFB infrastructure), you can access the institutional instance of the Dataverse platform [Data INRAE](https://data.inrae.fr). Data INRAE can be used by researchers to store and describe datasets during the project, and to share them according to specific sharing settings. 
 
 You can also browse [cat-OPIDoR](https://cat.opidor.fr/index.php/Cat_OPIDoR,_wiki_des_services_dédiés_aux_données_de_la_recherche) for an overview of the different services related to data management provided by IFB infrastructure and its stakeholders in France.
 

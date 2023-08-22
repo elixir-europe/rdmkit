@@ -9,9 +9,9 @@ national_resources:
   - name: DMPonline
     description: "DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs."
     how_to_access:
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [dmp]
     url: https://dmponline.dcc.ac.uk/
     
@@ -20,7 +20,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: https://cyverseuk.org/
     
@@ -29,7 +29,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: https://www.jisc.ac.uk/guides/rdm-toolkit 
     
@@ -38,7 +38,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
     
@@ -47,14 +47,14 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: http://intermine.org/
 
 ref_to_main_resources:
-  - WorkflowHub
-  - FAIRDOM-SEEK
-  - COPO
+  - workflowhub
+  - fairdom-seek
+  - copo
   
 ---
 
@@ -63,9 +63,9 @@ ref_to_main_resources:
 This page provides an overview of the data management resources in the UK. The target audience is the scientific community in the life sciences and collaborators.
 
 ## Funder policies, guidelines and data management plan (DMP) templates
-   * UK Research and Innovation ([UKRI](https://www.ukri.org/)): [Concordat on open research](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf) and [Open access policy](https://www.ukri.org/publications/ukri-open-access-policy/)
+   * UK Research and Innovation ([UKRI](https://www.ukri.org/)): [Publishing your research findings](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [Concordat on open research](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf) and [Open access policy](https://www.ukri.org/publications/ukri-open-access-policy/)
    
-   * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [DM guidelines](https://www.ukri.org/councils/bbsrc/guidance-for-applicants/what-to-include-in-your-application/data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
+   * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [DM guidelines](https://www.ukri.org/councils/bbsrc/guidance-for-applicants/what-to-include-in-your-application/data-management-plan/) and [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
    * Medical Research Council ([MRC](https://www.ukri.org/councils/mrc/)): [DM guidelines](https://www.ukri.org/publications/what-is-a-data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/mrc-data-sharing-policy/)
    * [Wellcome Trust](https://wellcome.org/): [DM and sharing guidelines](https://wellcome.org/grant-funding/guidance/data-software-materials-management-and-sharing-policy)
    * [The Royal Society](https://royalsociety.org/): [DM and sharing guidelines](https://royalsociety.org/journals/ethics-policies/data-sharing-mining/)
@@ -74,13 +74,14 @@ This page provides an overview of the data management resources in the UK. The t
    * Horizon 2020: [DM guidelines](https://ec.europa.eu/research/participants/docs/h2020-funding-guide/cross-cutting-issues/open-access-data-management/data-management_en.htm) and [DMP template](http://ec.europa.eu/research/participants/data/ref/h2020/gm/reporting/h2020-erc-tpl-oa-data-mgt-plan_en.docx)
 
 ## National policies and recommendations for research data
-  * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018)
+  * UK [Data Protection Act](https://www.gov.uk/data-protection) (2018) is the UK’s implementation of the General Data Protection Regulation (GDPR)
   * The [Five Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/) framework enabling data services to provide safe research access to data
   * [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis) into how the efficient and safe use of health data for research and analysis can benefit patients and the healthcare sector
+  * [Building Trusted Research Environments](https://doi.org/10.5281/zenodo.5767586); the paper covers principles, approaches and guidelines for data sharing and linkage practice within TREs, as well as examples of best practices. 
 
 ## Domain-specific data infrastructures
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics
-  * [Digital Curation Centre](https://www.dcc.ac.uk/) Organisation offering a range of services to assist UK institutions in digital curation and data     management
+  * [Digital Curation Centre](https://www.dcc.ac.uk/) Organisation offering a range of services to assist UK institutions in digital curation and data management
   * Genomics England: [The Research Environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/)
   * [Health Data Research Innovation Gateway](https://www.healthdatagateway.org/) Search engine/portal to discover and access UK health-related datasets, and any associated health data resources such as tools, projects, and publications
   * [NERC EDS](https://eds.ukri.org) (Natural Environment Research Council Environmental Data Service) providing data stewardship services for environmental data

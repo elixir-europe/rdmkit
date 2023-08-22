@@ -12,7 +12,14 @@ training:
 
 
 national_resources:
+  - name: DataPLAN
+    description: Data Management Plan (DMP) generator that focuses on plant science. 
+    related_pages:
+      your_tasks: [dmp]
+      your_domain: [plants]
+    url: https://plan.nfdi4plants.org/
   - name: GFBio Data Management Plan Tool
+    description: DMP creation and support by German Federation for Biological Data (GFBio).
     related_pages:
       your_tasks: [dmp]
     url: https://www.gfbio.org/plan
@@ -20,13 +27,13 @@ national_resources:
     description: The German Human Genome-Phenome Archive.
     related_pages:
       your_tasks: [storage, metadata]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
     url: https://ghga.dkfz.de/
   - name: PUBLISSO
     description: Open access publishing platform for life sciences.
     related_pages:
       your_tasks: [data_publication]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
     url: https://www.publisso.de/en/
   - name: RDMO
     description: Research Data Management Organiser.
@@ -35,9 +42,11 @@ national_resources:
     url: https://rdmorganiser.github.io/
 
 ref_to_main_resources:
-  - e!DAL-PGP
-  - FAIRDOM-SEEK
-  - PANGAEA
+  - brenda
+  - e-dal-pgp
+  - fairdom-seek
+  - pangaea
+  - silva
 
 ---
 
@@ -55,14 +64,17 @@ This page provides useful information and resources with a focus on research dat
 ## Policies and Recommendations for Research Data
 
 * List of [Research Data Policies and Recommendations](https://www.forschungsdaten.org/index.php/Data_Policies)
-* [DFG Checklist for handling research data](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf)
+* [BMBF - Research Data Guidelines and Activities](https://www.bildung-forschung.digital/digitalezukunft/de/wissen/forschungsdaten/forschungsdaten_node.html)
+* [DFG Checklist for handling research data, PDF document](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf)
 * [forschungsdaten.info - Portal for information on research data management](https://www.forschungsdaten.info/)
 * [forschungsdaten.org - Information and guidelines for research data](https://www.forschungsdaten.org)
+* [DINI/nestor-AG Forschungsdaten](https://dini.de/ag/dininestor-ag-forschungsdaten/)
+* [Open Access Guidelines](https://open-access.network)
 
 ## Research Data Initiatives 
 
 * [NFDI - National Research Data Infrastructure (Nationale Forschungsdaten Infrastruktur)](https://www.nfdi.de/)
-* [re3data.org - Registry of Research Data Repositories](https://www.re3data.org/)
+* {% tool "re3data" %}/)
 * [GFBio - German Federation for Biological Data](https://www.gfbio.org/)
 * [FAIRDOM - Consortium of Services for Research Data Management](https://fair-dom.org/)
 * [ZB MED - Infrastructure and research centre for information and data in the life sciences](https://www.zbmed.de/)

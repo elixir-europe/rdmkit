@@ -6,7 +6,6 @@ layout: none
 <!doctype html>
 <html lang="en">
 {% include head.html %}
-
 <body>
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
@@ -81,7 +80,7 @@ layout: none
                     {% include news.html caption=true title=true limit=3 %}
                     </div>
                     <div class="col-lg-6 mt-3 mt-lg-0">
-                    {% include events.html title=true event_type="upcoming_event"%}
+                    {% include events.html title=true event_type="upcoming_event" %}
                     </div>
                 </div>
             </div>
@@ -123,10 +122,9 @@ layout: none
                     <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
                         {%- assign national_tools = 0 %}
                         {%- assign country_pages = site.pages | where: "type", "national_resources" | where:
-                        "search_exclude",
-                        "false" %}
+                        "search_exclude", false %}
                         {%- for country_page in country_pages %}
-                        {%- assign national_tools = national_tools | plus: country_page.resources.size %}
+                        {%- assign national_tools = national_tools | plus: country_page.national_resources.size %}
                         {%- endfor %}
                         <div class="row g-1 flex-grow-1">
                             <div class="col-7">
@@ -142,7 +140,7 @@ layout: none
                 </div>
                 <div class="col">
                     <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
-                        {%- assign content_pages = site.pages | where: "search_exclude", "false" %}
+                        {%- assign content_pages = site.pages | where: "search_exclude", false %}
                         <div class="row g-1 flex-grow-1">
                             <div class="col-7">
                                 <span class="count-number text-primary">{{content_pages.size}}</span>
