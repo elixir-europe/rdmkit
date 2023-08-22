@@ -1,10 +1,10 @@
 ---
 title: Data organisation
-contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg]
+contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg, Ivan Mičetić, Marina Popleteeva, Naeem Muhammad]
 description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
-  tool_assembly: [ome, transmed, xnat-pic]
+  tool_assembly: [ome, transmed, xnat_pic]
 dsw:
 - name: How will you do file naming and file organization?
   uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
@@ -43,7 +43,7 @@ Brief and descriptive file names are important in keeping your data files organi
 * Include a unique identifier (see: [Identifiers](identifiers))
 * Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.
 * Write your file naming convention down and explain abbreviations in your data documentation.
-* If you need to rename a lot of files in order to organize your project data and manage your files better, it is possible to use applications like [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free) and [Renamer4Mac](https://renamer.com/) (Mac).
+* If you need to rename a lot of files in order to organize your project data and manage your files better, it is possible to use applications like {% tool "bulk-rename-utility" %} (Windows, free) and {% tool "renamer4mac" %} (Mac).
 
 #### Example elements to include in the file name
 * Date of creation
@@ -62,6 +62,40 @@ Brief and descriptive file names are important in keeping your data files organi
   * File name: `20201203_MM_HEAD_CROPPED_V1.psd`
   * Explanation: `Time_CreatorData_TypeModification_Version`
 
+## How to choose the appropriate file formats?
+
+### Description
+File formats play an important role when you try to open files later or another person would like to work with the data. Some file formats keep structured data and even permit metadata inclusion, hereby enabling machine-readability and promoting interoperability. Others are easy for humans to understand. Each type of format has use cases. However, as a general principle, choosing open and widely supported file formats ensures long-term compatibility and accessibility in the foreseen future.
+
+### Considerations
+When making a selection for an appropriate file format, you should consider the following factors whenever feasible:
+- non-proprietary;
+- based on open standard;
+- commonly used in your research domain;
+- uncompressed;
+- unencrypted.
+
+It is important to differentiate between file formats intended for active phase (data acquisition, data reduction and primary data analysis) and those designed for long-term storage or reuse (sharing, publishing and archiving). For the latter purpose, we recommend utilizing file formats that adhere to open standards, have a broad acceptance, and are unlikely to become obsolete. In the active phase, it is fine to use proprietary device-specific file formats if needed. This is acceptable until you reach the phase of sharing the data for subsequent analysis, and for data validation or control with other team members. At this point, you need to convert (or export) the data for it be usable by members without access to proprietary software or instrumentation that generated it.
+
+### Solutions
+The best file formats depend on data types, availability and common acceptance of open file formats and research domain. There is no one size fits all solution. You need to choose the best for your case.
+
+The following table lists the recommended file formats for best practices in research data management. Acceptable and non-recommended file formats represent commonly used file formats that do not fulfill above-mentioned criteria (listed under 'Considerations').  
+
+| **Type**                       | **Preferred**                                                                  | **Acceptable**                                                | Non-recommended                                         |
+|----------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|
+| Rich text documents        | ODT (.odt)<br> Markdown (.md)<br> LaTeX (.tex)<br> for read-only documents: PDF/A (.pdf) | Office Open XML (.docx)                                   | Microsoft Word (.doc)<br> PDF other than PDF/A (.pdf)        |
+| Plain text documents       | Unicode text (.txt)                                                        |                                                           | Non-Unicode text (.txt)                                 |
+| Tabular data               | CSV (.csv, .tsv)                                                           | Office Open XML Workbook (.xlsx)                          | Microsoft Excel (.xls)                                  |
+| Containers and compression | ZIP (.zip)                                                                 | tar (.tar)<br> gzip (.gz)<br> bzip2 (.bz2)                        | RAR (.rar)<br> 7-Zip (.7z)                                  |
+| Raster images              | TIFF (.tif, .tiff)<br>  DICOM (.dcm)                                           | proprietary microscopy formats (CZI, LIF, NEF)<br> PNG (.png) | JPEG (.jpg, .jpeg)<br> PS (.ps)<br> EPS (.eps)<br> BMP (.bmp)       |
+| Vector images              | SVG (.svg)                                                                 | PS (.ps)<br> EPS (.eps)                                       | Adobe Illustrator (.ai)<br> WMF/EMF (.wmf, .emf)<br> CDR (.cdr) |
+| Audio                      | Matroska (.mka)<br> FLAC (.flac)                                              | WAVE (.wav)<br> MP3 (.mp3)                                    |                                                         |
+| Video                      | Matroska (.mkv)                                                            | MPEG/MPG animation (.mpg, .mp4, .mjpeg)                   | AVI (.avi)<br> QuickTime (.mov, .qt)                         |
+| Machine-readable metadata  | JSON (.json)<br> XML (.xml)                                                     |                                                           |                                                         |
+
+For domain-specific file formats, please check the appropriate [domain page](your_domain).
+
 ## How do you manage file versioning?
 
 ### Description
@@ -74,7 +108,7 @@ File versioning is a way to keep track of changes made to files and datasets. Wh
 
 ### Solutions
 * Smaller demands of versioning can be managed manually e.g. by keeping a log where the changes for each respective file is documented, version by version.
-* For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as [Git](https://git-scm.com/), hosted by e.g. [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
+* For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as {% tool "git" %}, hosted by e.g. {% tool "github" %}, {% tool "gitlab" %} and {% tool "bitbucket" %}.
 * Use a Cloud Storage service (see [Data storage](storage#what-features-do-you-need-in-a-storage-solution-when-collecting-data) page) that provides automatic file versioning. It can be very handy for spreadsheets, text files and slides.
 
 
@@ -93,7 +127,7 @@ Folders should:
 * have a self-explanatory name that is only as long as is necessary
 * have a unique name – avoid assigning the same name to a folder and a subfolder
 
-The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. This file should also contain explanation of the file naming convention. See also [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
+The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. For information on the content of a README file see corresponding section on [Documentation and metadata](metadata_management#what-do-you-write-in-a-readme-file) page. See also [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
 
 #### An example:
 
@@ -114,3 +148,4 @@ The top folder should have a README.txt file describing the folder structure and
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
 
+* Structured directories can be made by using {% tool "cookiecutter" %},a command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.

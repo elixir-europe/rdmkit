@@ -1,40 +1,39 @@
 ---
 
 title: Ireland
-search_exclude: true
 country_code: IE
 contributors: [Siobhán Cleary]
 coordinators: [Lars Jermiin, Siobhán Cleary]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id.
 # More information on which page_id you can use can be found at https://rdmkit.elixir-europe.org/website_overview 
-related_pages:
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+# related_pages:
+#   tool_assembly:
 
 training:
   - name: ELIXIR Ireland Training
     registry: ELIXIR Ireland
     url: https://elixir-ireland.ie/training.html
 
-ref_to_main_resources: 
-  -  <!---REPLACE THIS with the tool name--->
+# ref_to_main_resources: 
 
 # List here tools and resources mainly relevant for the specific country
-national_resources: 
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations, etc., are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
-    related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-    url:
-    registry:
-      biotools: <!--- DELETE ME if not needed --->
-      fairsharing: <!--- DELETE ME if not needed --->
-      tess: <!--- DELETE ME if not needed --->
+# national_resources: 
+#   - name:
+#     description:
+#     how_to_access: 
+#     instance_of: 
+#     related_pages:
+#       tool_assembly: 
+#       your_domain: 
+#       your_role: 
+#       your_tasks:
+#     url:
+#     registry:
+#       biotools:
+#       fairsharing:
+#       tess:
+
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
@@ -48,7 +47,7 @@ national_resources:
 
 ## Introduction 
 
-This page gives an overview of data management services provided by ELIXIR-Ireland which can be accessed through the [ELIXIR-Ireland website](https://elixir-ireland.ie). 
+This page gives an overview of national guidelines and resources for data management planning. All data management services provided by ELIXIR-Ireland can be accessed through the [ELIXIR-Ireland website](https://elixir-ireland.ie).
 
 
 ## Funder guidelines and policies
@@ -64,12 +63,15 @@ Irish research funding agencies support Open Science and require data management
 
 * [National Open Research Forum](https://norf.ie/about-norf/) 
 * [National Action Plan for Open Research](https://norf.ie/national-action-plan/)
-* [HEA Principles of Good Practice in Research within Irish Higher Education Institutes](https://hea.ie/assets/uploads/2022/12/High-res-links-v3-HEA-Principles-of-Good-Practice-in-Research-within-Irish-Higher-Education-Institutions.pdf)
+* [HEA Principles of Good Practice in Research within Irish Higher Education Institutes](https://hea.ie/assets/uploads/2022/12/High-res-links-v3-HEA-Principles-of-Good-Practice-in-Research-within-Irish-Higher-Education-Institutions.pdf) (PDF)
 
 ## Institutional policies
 Here are non-exhaustive lists of data management policies and open research policies from the universities across Ireland.
+
 ### Data Management Policies from Irish Universities
-* [University of Galway](https://www.universityofgalway.ie/media/staffsub-sites/researchoffice/files/Research-Data-Management-Policy-(QA509).pdf)
+
+* [University College Dublin](https://www.ucd.ie/researchethics/informationforresearchers/researchethicsdatamanagement/) (UCD Library [Data Management Checklist](https://libguides.ucd.ie/ld.php?content_id=32484988))
+* [University of Galway](https://www.universityofgalway.ie/media/staffsub-sites/researchoffice/files/Research-Data-Management-Policy-(QA509).pdf) (PDF)
 * [University College Cork](https://www.ucc.ie/en/media/support/academicsecretariat/policies/researchpolicies/ResearchDataManagementPolicy.pdf)
 * [Royal College of Surgeons in Ireland](https://drive.google.com/file/d/1mCM4hHK97cMJFKh0dm5mZ5tn8FdBnAHB/view)
 * [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Research_Data_Management_Policy.pdf)

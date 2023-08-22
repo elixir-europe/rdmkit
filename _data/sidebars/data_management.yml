@@ -12,14 +12,18 @@ subitems:
     url: /your_role
     image_url: /assets/img/section-icons/address-card-light.svg
     subitems:
+      - title: Data Steward
+        url: /data_steward
+      - title: Policy maker
+        url: /policy_maker
+      - title: Principal Investigator (PI)
+        url: /principal_investigator
       - title: Researcher
         url: /researcher
-      - title: "Data Steward: policy"
-        url: /data_steward_policy
-      - title: "Data Steward: research"
-        url: /data_steward_research
-      - title: "Data Steward: infrastructure"
-        url: /data_steward_infrastructure
+      - title: Research Software Engineer
+        url: /research_software_engineer
+      - title: Trainer
+        url: /trainer
   - title: Your domain
     description: Learn about data management tasks that affect your domain or research community, and the solutions adopted to address them.
     url: /your_domain
@@ -33,6 +37,8 @@ subitems:
         url: /epitranscriptome_data
       - title: Human data
         url: /human_data
+      - title: Human pathogen genomics
+        url: /human_pathogen_genomics
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins
       - title: Marine metagenomics
@@ -146,6 +152,8 @@ subitems:
         url: /fr_resources
       - title: Italy
         url: /it_resources
+      - title: Ireland
+        url: /ie_resources
       - title: Luxembourg
         url: /lu_resources
       - title: Netherlands

@@ -22,22 +22,22 @@ training:
 
 national_resources:
   - name: Feide
-    description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [ELIXIR-AAI](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
+    description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [Life Science Login (LS Login)](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
     how_to_access: Everyone with an affiliation to a Norwegian academic institution.
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
     description: DS-Wizard is a tool to aid the creation, organisaton and sharing of data management plans. It provides scientists with guidance, facilitating the understanding of the key components of FAIR-oriented Data Stewardship. The template in this instance provides additional guidance on resources, laws and regulations in Norway.
-    how_to_access: ELIXIR-AAI with Feide or upon registration
-    instance_of: Data Stewardship Wizard
+    how_to_access: Life Science Login (LS Login) with Feide or upon registration
+    instance_of: data-stewardship-wizard
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
       your_tasks: [dmp]
     url: https://elixir-no.ds-wizard.org/
   - name: EasyDMP
     description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
-    instance_of: EasyDMP
+    instance_of:
     how_to_access: Feide
     related_pages:
       your_tasks: [dmp]
@@ -58,8 +58,8 @@ national_resources:
     url: https://covid19dataportal.no/
   - name: Norwegian Federated EGA
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
-    how_to_access: ELIXIR-AAI; intended for data from Norwegian institutions
-    instance_of: The European Genome-phenome Archive (EGA)
+    how_to_access: Life Science Login (LS Login); intended for data from Norwegian institutions
+    instance_of: the-european-genome-phenome-archive
     related_pages:
       your_domain: [human_data]
       your_tasks: [sensitive, existing_data, data_publication]
@@ -67,7 +67,7 @@ national_resources:
     url: https://ega.elixir.no/
   - name: usegalaxy.no
     description: Galaxy is an open source, web-based platform for data intensive biomedical research. This instance of Galaxy is coupled with NeLS for easy data transfer.
-    instance_of: Galaxy
+    instance_of: galaxy
     how_to_access: Feide or upon application
     related_pages:
       your_tasks: [data_analysis, sensitive, existing_data, data_publication]
@@ -95,7 +95,7 @@ national_resources:
   - name: Norwegian Research and Education Cloud (NREC)
     description: NREC is an Infrastructure-as-a-Service (IaaS) project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett., commonly referred to as a cloud infrastructure An IaaS is a self-service infrastructure where you spawn standardized servers and storage instantly, as needed, from a given resource quota.
     how_to_access: All users at educational institutions via Feide
-    instance_of: OpenStack
+    instance_of: openstack
     related_pages:
       your_tasks: [data_analysis, storage]
     url: https://www.nrec.no/
@@ -133,12 +133,12 @@ national_resources:
     related_pages:
       your_domain: [human_data]
       your_tasks: [data_protection, sensitive]
-      your_role: [policy_officer, data_manager]
+      your_role: [policy_maker, data_steward]
     url: https://rette.app.uib.no/
   - name: DataverseNO
     description: DataverseNO is a national, generic repository for open research data. Various Norwegian research institutions have established a partner agreements about using DataverseNO as institutional repositories for open research data.
     how_to_access: open access
-    instance_of: DATAVERSE
+    instance_of: dataverse
     related_pages:
       your_domain: []
       your_tasks: [data_publication]
@@ -155,8 +155,8 @@ national_resources:
       tool_assembly: [tsd]
     url: https://nettskjema.no/
 ref_to_main_resources:
-  - MarDB
-  - MarFun
+  - mardb
+  - marfun
 
 ---
 
@@ -167,7 +167,7 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/
+The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian Ministry of Education and Research's "[National strategy on access to and sharing of research data](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/?ch=1)" from 2018 is an initiative aimed at fostering open, equitable, and efficient sharing of research data in Norway. For researchers in Norway and their international partners, this strategy lays the groundwork for creating a robust, collaborative research environment where data is shared freely but responsibly. The national strategy underscores Norway's commitment to scientific advancement and maintaining ethical and legal standards in a data-driven era.
@@ -181,7 +181,7 @@ The Norwegian Ministry of Education and Research's "[National strategy on access
 
 We provide here a non-exhaustive list of research institutions with Data Management Policies in Norway:
 
-* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34680)
+* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/forskning/forskningsdata)
 * [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/policy-for-open-science)
 * [University of Bergen (UiB)](https://www.uib.no/en/foremployees/142184/university-bergen-policy-open-science)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-guidelines.html)
@@ -190,7 +190,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
-* [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
+* [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/Documents#docSDMS)
 
 ### Institutional storage guidelines
 
@@ -201,14 +201,14 @@ Most universities in Norway classify data into four categories, depending on acc
 * **Strictly confidential (Black)**: Information must have the strictest access rights if unauthorised access could cause significant damage (for example, highly confidential research or confidential addresses).
 
 Details and provided solutions vary according to each institution:
-* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/38755)
+* [Norwegian University of Life Sciences (NMBU) - login](https://www.nmbu.no/node/35651)
 * [Norwegian University of Science and Technology (NTNU)](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
 
 ### Institutional guidelines related to personal data
-* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/en/research/for_researchers/researchdata/node/34780)
+* [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/forskning/forskningsdata)
 * [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects), also available [in Norwegian](https://i.ntnu.no/wiki/-/wiki/Norsk/Behandle+personopplysninger+i+student-+og+forskningsprosjekt)
 * [Norwegian University of Science and Technology - Health research guidelines](https://i.ntnu.no/helseforskning)
 * [University of Bergen (UiB)](https://www.uib.no/en/personaldata/130126/privacy-policy-university-bergen), also available [in Norwegian](https://www.uib.no/personvern)
@@ -234,7 +234,7 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
-* [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
+* [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/DMsupport)
 
 ### Other data management infrastructures
 
@@ -254,8 +254,8 @@ There are several RDM communities (with subject or local focus) in Norway to ena
 * [Bergen Research Data Network](mailto:research-data@uib.no?subject=forskningsdata@uib.no)
 * [GIDA-Sápmi -Sámi Research Data Governance, members from Norway, Sweden and Finland](https://uit.no/research/sshf-no/project?pid=788403)
 * DataverseNO Network of Expertise
-* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic FAIR Data Forum](https://neic.no/fairdataforum/)
-* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic Sensitive Data Forum](https://neic.no/sensitivedataforum/)
+* [FAIR Data Forum by Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/fairdataforum/)
+* [Sensitive Data Forum by NeIC](https://neic.no/sensitivedataforum/)
 
 
 
@@ -275,7 +275,7 @@ ELIXIR Norway provides access to a [national instance of the Data Stewardship Wi
 
 ## Life science-specific infrastructures/resources
 
-We've included both general and topic-specific resources to simplify and streamline data management practices and to protect your research data. These resources can help you increase productivity while ensuring that your research is compliant, transparent, and reproducible.
+We have included here both general and topic-specific resources, that help to simplify and streamline data management practices and to protect your research data. These resources can help you increase productivity while ensuring that your research is compliant, transparent, and reproducible.
 
 ### Norwegian e-Infrastructure for Life Sciences (NeLS) tool assembly
 
