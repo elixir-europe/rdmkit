@@ -110,3 +110,27 @@
   date: 2023-05-10
   linked_pr: 1239
   description: This page gives an insight in how we will govern and further develop the RDMkit in the future. [Discover the page here](rdmkit_alliance).
+- name: "New page: National resources Ireland"
+  date: 2023-05-24
+  linked_pr: 1076
+  description: This page gives an insight in RDM on national level in Ireland. [Discover the page here](ie_resources)
+- name: "New page: Human pathogen genomics"
+  date: 2023-08-04
+  linked_pr: 1263
+  description: This page gives insights about data management solutions for Human pathogen genomics. [Discover the page here](human_pathogen_genomics).
+- name: "New content for following role pages: Data Steward, Policy maker, Researcher and Research Software Engineer"
+  date: 2023-08-10
+  linked_pr: 1350
+  description: These pages are rewritten from scratch and can be visited in the [Your role](your_role) section.
+- name: "New page: Principal Investigator (PI)"
+  date: 2023-08-10
+  linked_pr: 1344
+  description: This page acts as a data management portal for PI's. [Discover the page here](principal_investigator).
+- name: "New page: Trainer"
+  date: 2023-08-16
+  linked_pr: 1355
+  description: This page acts as a data management portal for trainers. [Discover the page here](trainer).
+- name: "All tools and resources are now described in the page text"
+  date: 2023-08-18
+  linked_pr: 1249
+  description: "All items in the 'Relevant tools and resources' tables are now mentioned in the text. This means you have context of when it is appropriate to use each one. Tools and resources in the text will also feature a popup providing extra information about them. These changes means there is a new way to contribute tools: see our [new guidelines](tool_resource_update)!"
