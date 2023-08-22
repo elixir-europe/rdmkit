@@ -23,7 +23,7 @@ national_resources:
   url: http://services.biodata.pt/
 - name: BioData.pt Data Management Portal (DMPortal)
   description: This instance of DataVerse is provided by the BioData.pt. We can help you write and maintain data management plans for your research.
-  instance_of: DATAVERSE
+  instance_of: dataverse
   how_to_access: 
   related_pages:
     your_role: [researcher, data_steward]
@@ -31,15 +31,14 @@ national_resources:
   url: https://dmportal.biodata.pt/
 - name: BioData.pt Data Stewardship Wizard
   description: Local instance of Data Stewardship Wizard. You can use this tool to create your own Data Management Plans.
-  instance_of: Data Stewardship Wizard
-  how_to_access: 
+  instance_of: data-stewardship-wizard
   related_pages:
     your_role: [researcher, data_steward]
     your_tasks: [dmp]
   url: https://biodata-pt.ds-wizard.org/
 - name: Ready for BioData Management
   description: Capacity building program in data management for the life sciences to empower researchers and institutions in managing their data more effectively and efficiently.
-  instance_of: Data Stewardship Wizard
+  instance_of: data-stewardship-wizard
   how_to_access: 
   related_pages:
     your_role: [researcher]

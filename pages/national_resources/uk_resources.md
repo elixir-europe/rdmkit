@@ -9,7 +9,7 @@ national_resources:
   - name: DMPonline
     description: "DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs."
     how_to_access:
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
       your_role: [data_steward, researcher]
       your_tasks: [dmp]
@@ -52,9 +52,9 @@ national_resources:
     url: http://intermine.org/
 
 ref_to_main_resources:
-  - WorkflowHub
-  - FAIRDOM-SEEK
-  - COPO
+  - workflowhub
+  - fairdom-seek
+  - copo
   
 ---
 

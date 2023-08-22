@@ -56,18 +56,19 @@ What licence you should apply to your research data depends on what rights prote
 
 * If possible, choose and apply the least restrictive licence to ensure the widest possible reuse.
 * Remember that if you publish your data in a data repository of your choice, a licence agreement will be applied to your data.
-  * Repositories can be selected based on data licence and sharing policy by using [re3data.org](https://www.re3data.org/).
+  * Repositories can be selected based on data licence and sharing policy by using {% tool "re3data" %}.
 * ELIXIR data resources ideally have terms of use or a licence that enables the reuse and remixing of data.
 * Remember that the rights granted in a licence cannot be revoked once it has been applied.
 
 ### Solutions
-* Apply to your data one of the [recommended licenses conformant to the Open Definition](https://opendefinition.org/licenses/), so that your data can be shared and reused. The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
+* Apply to your data one of the {% tool "open-definition-conformant-licenses" %}, so that your data can be shared and reused. The [Open Definition](https://opendefinition.org/) sets out principles that define the meaning of "open" in relation to data and content.
 * [Creative Commons licenses](https://creativecommons.org/licenses/) are the best known open data licences and are available in human-readable and machine-readable forms, with different levels of permissions.
-  * [Creative Commons License Chooser](https://creativecommons.org/choose/) helps you choose the right Creative Commons licence for your needs.
+  * {% tool "creative-commons-license-chooser" %} helps you choose the right Creative Commons licence for your needs.
   * The [video tutorial from Kingsborough E-Learning](https://www.youtube.com/watch?v=5QxkuuiZwRU) shows how to add a Creative Commons licence to your work in practice.
 * The following tools helps you find the right licence for your software and data.
-  * [EUDAT licence selector wizard](https://ufal.github.io/public-license-selector/).
-  * [Choose a license](https://choosealicense.com) is an online guide provided by GitHub to help you choose a license for open-source projects.
-  * [data.world](https://help.data.world/hc/en-us/articles/115006114287-Common-license-types-for-datasets) provides list of common license types for datasets.
+  * {% tool "eudat-licence-selector-wizard" %}.
+  * {% tool "choose-a-license" %} is an online guide provided by GitHub to help you choose a license for open-source projects.
+  * {% tool "data-world-data-license-list" %} provides list of common license types for datasets.
 * If your research data is a database or a dataset, consider putting it in the public domain by using the [Creative Commons CC0](https://creativecommons.org/share-your-work/public-domain/cc0) tool. CC0 let you waive all your rights to the work ("No Rights Reserved").
+* Additional guidance about licences can be found on the DCC page about {% tool "how-to-license-research-data-dcc" %}.
 

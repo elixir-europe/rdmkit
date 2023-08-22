@@ -51,11 +51,11 @@ national_resources:
     url: https://rdmorganiser.github.io/
 
 ref_to_main_resources:
-  - BRENDA
-  - e!DAL-PGP
-  - FAIRDOM-SEEK
-  - PANGAEA
-  - Silva
+  - brenda
+  - e-dal-pgp
+  - fairdom-seek
+  - pangaea
+  - silva
 
 ---
 
