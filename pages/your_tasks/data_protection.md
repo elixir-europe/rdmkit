@@ -14,6 +14,9 @@ dsw:
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
 - name: Do you need a Data Protection Impact Assessment?
   uuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
+- name: What technical and procedural safeguards have been established for processing
+    the data?
+  uuid: a30f5047-33c1-45a7-8b3f-b1b90c364fc9
 faircookbook:
 - name: Licensing Data
   url: https://w3id.org/faircookbook/FCB034
@@ -72,7 +75,7 @@ To protect your research data, code, and other information assets you should est
 
 ### Description
 
-Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
+Where scientific research involves the processing of data concerning people in the European Union (EU), it is subject to the {% tool "eu-general-data-protection-regulation" %} (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing
 derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
 The safeguards are a multitude and include:
   * data collection with informed consent under ethical oversight and accountability;
@@ -114,10 +117,10 @@ Record your data processing. To meet  GDPR's accountability requirement you shou
 
 ### Solution
 
-  * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
   * [European Data Protection Supervisor's "Preliminary opinion on Data Protection and Scientific Research"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf)
-  * [BBMRI-ERIC's Ethical Legal Societal Issues (ELSI) Knowledge Base](https://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance.
-  * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects.
-  * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
-  * [Tryggve ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/sensitive_data.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
+  * {% tool "bbmri-eric-s-elsi-knowledge-base" %} contains a glossary, agreement templates and guidance.
+  * {% tool "daisy" %} and {% tool "erpa" %} are software tools from ELIXIR that allows the record keeping of data processing activities in research projects.
+  * {% tool "dawid" %} is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
+  * {% tool "dpia-knowledge-model" %} is designed to leverage {% tool "data-stewardship-wizard" %} to perform DPIA.
+  * {% tool "tryggve-elsi-checklist" %} is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
 

@@ -26,14 +26,14 @@ training:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
-  -  <!---REPLACE THIS with the tool name--->
+  -  <!---REPLACE THIS with the tool id--->
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
   - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
     description:
     how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations, etc., are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool name of which this resource is an instance of, taken from the all tools and resources page --->
+    instance_of: <!--- REPLACE THIS with the tool id of which this resource is an instance of, taken from the all tools and resources file --->
     related_pages:
       tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
       your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]

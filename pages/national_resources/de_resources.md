@@ -27,13 +27,13 @@ national_resources:
     description: The German Human Genome-Phenome Archive.
     related_pages:
       your_tasks: [storage, metadata]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
     url: https://ghga.dkfz.de/
   - name: PUBLISSO
     description: Open access publishing platform for life sciences.
     related_pages:
       your_tasks: [data_publication]
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
     url: https://www.publisso.de/en/
   - name: RDMO
     description: Research Data Management Organiser.
@@ -42,11 +42,11 @@ national_resources:
     url: https://rdmorganiser.github.io/
 
 ref_to_main_resources:
-  - BRENDA
-  - e!DAL-PGP
-  - FAIRDOM-SEEK
-  - PANGAEA
-  - Silva
+  - brenda
+  - e-dal-pgp
+  - fairdom-seek
+  - pangaea
+  - silva
 
 ---
 
@@ -74,7 +74,7 @@ This page provides useful information and resources with a focus on research dat
 ## Research Data Initiatives 
 
 * [NFDI - National Research Data Infrastructure (Nationale Forschungsdaten Infrastruktur)](https://www.nfdi.de/)
-* [re3data.org - Registry of Research Data Repositories](https://www.re3data.org/)
+* {% tool "re3data" %}/)
 * [GFBio - German Federation for Biological Data](https://www.gfbio.org/)
 * [FAIRDOM - Consortium of Services for Research Data Management](https://fair-dom.org/)
 * [ZB MED - Infrastructure and research centre for information and data in the life sciences](https://www.zbmed.de/)

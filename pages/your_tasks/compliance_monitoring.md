@@ -36,13 +36,15 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 * FAIR data
   *  GO-FAIR Initiative provides a framework for designing [metrics for the evaluation of FAIRness](https://www.go-fair.org/2017/12/11/metrics-evaluation-fairness/).
 * RDA developed a first set of [guidelines and a checklist](https://zenodo.org/record/3909563#.YKZV3i0RpN1) related to the implementation of the FAIR indicators.
-* The [FAIRplus project](https://fairplus-project.eu) with its [FAIR Cookbook](https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#) provides services, tools, and indicators necessary for the assessment or the evaluation of data against the FAIR Principles.
-    * [FAIR Evaluators](https://fairsharing.github.io/FAIR-Evaluator-FrontEnd/#!/#%2F!) are an automated approach to evaluate FAIRness of data services.
-    * [FAIRassist.org](https://fairassist.org/#!/) aims to collect and describe existing resources for the assessment and/or evaluation of digital objects against the FAIR principles.
+* The [FAIRplus project](https://fairplus-project.eu) with its {% tool "fair-cookbook" %} provides services, tools, and indicators necessary for the assessment or the evaluation of data against the FAIR Principles.
+    * {% tool "fair-evaluation-services" %} are an automated approach to evaluate FAIRness of data services.
+    * {% tool "fairassist-org" %} aims to collect and describe existing resources for the assessment and/or evaluation of digital objects against the FAIR principles.
+* The {% tool "fair-wizard" %} utilizes FAIRification resources developed by the FAIRplus project and other platforms, suggests FAIRification materials based on the FAIRification requirements, and designs FAIRification solutions for data owners, data stewards, and other people involved in FAIRification.
+* The {% tool "fairshake" %} evaluates the FAIRness of Digital Objects.
 * Information Security, Data Protection, Accountability
   *  [21 CFR part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) is a standard, which outlines criteria for electronic records in an IT system to be as valid as signed paper
 records. It is widely adopted in lab information systems and applications used in clinical trials and medical research.
-  *  [ISO 27001](https://www.iso.org/isoiec-27001-information-security.html) is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres.
+  *  {% tool "iso-iec-27001" %} is an international standard for the management of information security. It is adopted by some universities and research institutes to certify their data centres.
   *  [ISO/IEC 27018](https://www.iso.org/standard/76559.html) is a standard aimed to be a code of practice for protection of personally identifiable information (PII) in public clouds.
 
 ## How can you ethically access genetic resources of another country?
