@@ -5,7 +5,7 @@ description: The Sensitive Data Service (TSD) provides a platform to store, comp
 page_id: tsd
 affiliations: ["NO", ELIXIR Europe, University of Oslo]
 related_pages: 
-  your_tasks: [dmp, storage, sensitive, data_security, GDPR_compliance, transfer]
+  your_tasks: [dmp, storage, sensitive, data_security, gdpr_compliance, transfer]
   your_domain: [human_data]
 training:
   - name: Documentation for the HPC cluster
