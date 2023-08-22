@@ -4,7 +4,7 @@ contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg, Ivan Mičetić, Marin
 description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
-  tool_assembly: [ome, transmed, xnat-pic]
+  tool_assembly: [ome, transmed, xnat_pic]
 dsw:
 - name: How will you do file naming and file organization?
   uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
@@ -43,7 +43,7 @@ Brief and descriptive file names are important in keeping your data files organi
 * Include a unique identifier (see: [Identifiers](identifiers))
 * Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.
 * Write your file naming convention down and explain abbreviations in your data documentation.
-* If you need to rename a lot of files in order to organize your project data and manage your files better, it is possible to use applications like [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) (Windows, free) and [Renamer4Mac](https://renamer.com/) (Mac).
+* If you need to rename a lot of files in order to organize your project data and manage your files better, it is possible to use applications like {% tool "bulk-rename-utility" %} (Windows, free) and {% tool "renamer4mac" %} (Mac).
 
 #### Example elements to include in the file name
 * Date of creation
@@ -94,7 +94,7 @@ The following table lists the recommended file formats for best practices in res
 | Video                      | Matroska (.mkv)                                                            | MPEG/MPG animation (.mpg, .mp4, .mjpeg)                   | AVI (.avi)<br> QuickTime (.mov, .qt)                         |
 | Machine-readable metadata  | JSON (.json)<br> XML (.xml)                                                     |                                                           |                                                         |
 
-For domain-specific file formats, please check the appropriate [domain page](https://rdmkit.elixir-europe.org/your_domain).
+For domain-specific file formats, please check the appropriate [domain page](your_domain).
 
 ## How do you manage file versioning?
 
@@ -108,7 +108,7 @@ File versioning is a way to keep track of changes made to files and datasets. Wh
 
 ### Solutions
 * Smaller demands of versioning can be managed manually e.g. by keeping a log where the changes for each respective file is documented, version by version.
-* For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as [Git](https://git-scm.com/), hosted by e.g. [GitHub](https://github.com/) and [BitBucket](https://bitbucket.org/).
+* For automatic management of versioning, conflict resolution and back-tracing capabilities, use a proper version control software such as {% tool "git" %}, hosted by e.g. {% tool "github" %}, {% tool "gitlab" %} and {% tool "bitbucket" %}.
 * Use a Cloud Storage service (see [Data storage](storage#what-features-do-you-need-in-a-storage-solution-when-collecting-data) page) that provides automatic file versioning. It can be very handy for spreadsheets, text files and slides.
 
 
@@ -127,7 +127,7 @@ Folders should:
 * have a self-explanatory name that is only as long as is necessary
 * have a unique name – avoid assigning the same name to a folder and a subfolder
 
-The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. This file should also contain explanation of the file naming convention. See also [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
+The top folder should have a README.txt file describing the folder structure and what files are contained within the folders. For information on the content of a README file see corresponding section on [Documentation and metadata](metadata_management#what-do-you-write-in-a-readme-file) page. See also [A Quick Guide to Organizing Computational Biology Projects](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
 
 #### An example:
 
@@ -148,3 +148,4 @@ The top folder should have a README.txt file describing the folder structure and
       scratch/              temporary files that can safely be deleted or lost  
       README.txt            file and folder description  
 
+* Structured directories can be made by using {% tool "cookiecutter" %},a command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.

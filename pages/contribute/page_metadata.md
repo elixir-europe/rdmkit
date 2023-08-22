@@ -99,7 +99,7 @@ The main tools are described in the mains tools and resources table. How to add 
     - name: Resource name
       description: A general description about the resource.
       how_to_access: explantation on how you can access this resource
-      instance_of: GitHub
+      instance_of: github
       related_pages:
         example_pages: [gp3, gp1, gp2]
       registry:
