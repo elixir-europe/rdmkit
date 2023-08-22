@@ -54,7 +54,7 @@ When you start [collecting](collecting) data and need a storing environment wher
 
 
 ### Data processing and analysis 
-For [processing](processing), [analysing](analysing) and [storing data](storage) during the research project, CSC offers several [computing platforms](https://research.csc.fi/computing). These include both environments for non-sensitive and [sensitive data](sensitive_data). Depending on your needs, you can choose from a wide variety of computing resources: use [Chipster](https://chipster.csc.fi/) software for high-throughput data such as RNA-seq and single cell RNA-seq, build your own custom virtual machine, or utilise the full power of our world-class supercomputers. 
+For [processing](processing), [analysing](analysing) and [storing data](storage) during the research project, CSC offers several [computing platforms](https://research.csc.fi/computing). These include both environments for non-sensitive and [sensitive data](data_sensitivity). Depending on your needs, you can choose from a wide variety of computing resources: use [Chipster](https://chipster.csc.fi/) software for high-throughput data such as RNA-seq and single cell RNA-seq, build your own custom virtual machine, or utilise the full power of our world-class supercomputers. 
 
 Supercomputers Puhti and Mahti can be used for larger scale analysis and simulations. They will soon be accompanied with the world-class supercomputer {% tool "lumi" %}. Pouta and Rahti cloud computing services offer more flexibility, allowing the user to manage the infrastructure. CSC's computers have a wide range of [preinstalled scientific software and databases](https://research.csc.fi/bioscience-programs) with usage instructions. 
 

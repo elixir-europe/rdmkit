@@ -76,6 +76,8 @@ subitems:
         url: /data_organisation
       - title: Data security
         url: /data_security
+      - title: Data sensitivity
+        url: /data_sensitivity
       - title: Data provenance
         url: /data_provenance
       - title: Data publication
@@ -96,8 +98,6 @@ subitems:
         url: /licensing
       - title: Machine actionability
         url: /machine_actionability
-      - title: Data sensitivity
-        url: /sensitive_data
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.
     url: /tool_assembly

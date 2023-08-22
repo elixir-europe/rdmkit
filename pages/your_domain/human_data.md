@@ -58,7 +58,7 @@ When working with human data, you must follow established research ethical guide
 * Personal data protection legislation:
   * **Within the EU.** If you are performing human data research in the EU, or your data subjects are located in the EU, then you must adhere to the General Data Protection Regulation - GDPR.
     * Requirements for research that fall under the GDPR are outlined in the [RDMkit GDPR compliance page](gdpr_compliance). 
-    * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](sensitive_data) provides guidance on determining and reducing data sensitivity.
+    * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](data_sensitivity) provides guidance on determining and reducing data sensitivity.
   * **Outside the EU.** For countries outside the EU, the {% tool "international-compilation-of-human-research-standards" %} list relevant legislations.
 
 
