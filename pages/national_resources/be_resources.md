@@ -17,10 +17,10 @@ training:
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
 ref_to_main_resources:
-  - FAIRDOM-SEEK
-  - Galaxy
-  - WorkflowHub
-  - ENA upload tool
+  - fairdom-seek
+  - galaxy
+  - workflowhub
+  - ena-upload-tool
 
 national_resources:
   - name: RDM Guide
@@ -29,13 +29,13 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [researcher, data_manager]
+      your_role: [researcher, data_steward]
       your_tasks: []
     url: https://rdm.elixir-belgium.org
   - name: Galaxy Belgium
     description: Galaxy Belgium is a Galaxy instance managed by the Belgian ELIXIR node, funded by the Flemish government, which utilizing infrastructure provided by the Flemish Supercomputer Center (VSC).
     how_to_access:
-    instance_of: Galaxy
+    instance_of: galaxy
     related_pages:
       tool_assembly: []
       your_domain: []
@@ -45,11 +45,11 @@ national_resources:
   - name: DMPonline.be
     description: This instance of DMPonline is provided by the DMPbelgium Consortium. We can help you write and maintain data management plans for your research.
     how_to_access: Affiliation with one of the universities of the consortium is required.
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [dmp]
     url: https://dmponline.be
   - name: PIPPA
@@ -58,7 +58,7 @@ national_resources:
     related_pages:
       tool_assembly: [plant_pheno_assembly]
       your_domain: [plants]
-      your_role: [data_manager, researcher, it_support]
+      your_role: [data_steward, researcher, research_software_engineer]
       your_tasks: []
     url: https://pippa.psb.ugent.be
     registry:
@@ -69,7 +69,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, researcher, it_support]
+      your_role: [data_steward, researcher, research_software_engineer]
       your_tasks: [transfer]
     url: https://belnet.be/en
   - name: Flemish Supercomputing Center (VSC)
@@ -78,7 +78,7 @@ national_resources:
     related_pages:
       tool_assembly: []
       your_domain: []
-      your_role: [data_manager, it_support]
+      your_role: [data_steward, research_software_engineer]
       your_tasks: [data_analysis, storage]
     url: https://www.vscentrum.be
     

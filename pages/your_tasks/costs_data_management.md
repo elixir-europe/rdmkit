@@ -10,7 +10,7 @@ related_pages:
 
 ### Description
 
-The processes of data management will incur costs. The expenses may consist of people’s time, tools and services needed for managing the research data during the whole life cycle of the project. You should estimate these costs and address the resources needed in your [data management plan](dmp). 
+The processes of data management will incur costs. The expenses may consist of people’s time, tools and services needed for managing the research data during the whole life cycle of the project. You should estimate these costs and address the resources needed in your [data management plan](data_management_plan). 
 
 ### Considerations
 
@@ -22,7 +22,7 @@ The processes of data management will incur costs. The expenses may consist of p
 
 ### Solutions 
 * To get an overview of possible costs in your research project, you can go through different research [life cycle phases](data_life_cycle) and activities specific for your project.
-* Some organisations have created tools, for their users, to help formulate and budget data management costs; such as [Storage Costs Evaluator by Data Stewardship Wizard](https://storage-costs-evaluator.ds-wizard.org/), the [Data Management costing Tool](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/costing/) developed by the UK Data Service, and the [TU Delft data management costing tool](https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-costs). These tools can help to budget for personnel costs and/or additional costs that are needed to preserve and share research data beyond a research project.
+* Some organisations have created tools, for their users, to help formulate and budget data management costs; such as {% tool "data-stewardship-wizard-storage-costs-evaluator" %}, the {% tool "uk-data-service-data-management-costing-tool" %} developed by the UK Data Service, and the {% tool "tu-delft-data-management-costing-tool" %}. These tools can help to budget for personnel costs and/or additional costs that are needed to preserve and share research data beyond a research project.
 
 #### Costs for data stewards
 * Personnel costs for data stewards is an eligible cost in many projects although with limitations on the number of full time employee (FTE). Check if this cost is eligible in your grant.
