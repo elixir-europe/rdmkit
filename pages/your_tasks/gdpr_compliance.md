@@ -41,7 +41,7 @@ The practical impact of the GDPR on research is, then, establishing these safegu
 
 Seek expert help for the interpretation of GDPR legal requirements to practicable measures.
   * Research institutes appoint Data Protection Officers (DPO). Before starting a project you should contact your DPO to be informed of GDPR compliance requirements for your institution.
-  * Each EU country has its own national implementation of the GDPR. If your project involves a multi-national consortium, the requirements of all participating countries need to be met and you should inform the project coordinator of any country-specific requirements.  
+  * Each EU country has its own national implementation of the GDPR. If your project involves a multi-national consortium, the requirements of all participating countries need to be met and you should inform the project coordinator of any country-specific requirements.
   * Legal offices in research institutes provide model agreements, which cater for various research scenarios and consortia setups. You should inform your local legal office of your project's setup and identify the necessary agreements to be signed.
 
 Assess your project under the GDPR.
@@ -70,10 +70,9 @@ Record your data processing. To meet GDPR's accountability requirement you shoul
 
 ### Solution
 
-  * [EU General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN).
   * [European Data Protection Supervisor's "Preliminary opinion on Data Protection and Scientific Research"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf)
-  * [GDPR-Carpa - A Luxembourgish certification mechanism according to the GDPR criteria](https://cnpd.public.lu/en/actualites/national/2022/06/adpoption-gdpr-carpa.html)
-  * [BBMRI-ERIC's Ethical Legal Societal Issues (ELSI) Knowledge Base](https://www.bbmri-eric.eu/elsi/knowledge-base/) contains a glossary, agreement templates and guidance.
-  * [Data Information System DAISY](https://daisy-demo.elixir-luxembourg.org/) is software tool from ELIXIR that allows the record keeping of data processing activities in research projects.
-  * [DAWID](https://dawid.elixir-luxembourg.org) is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
-  * [Tryggve ELSI Checklist](https://scilifelab-data-guidelines.readthedocs.io/en/latest/docs/general/data_sensitivity.html) is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
+  * {% tool "bbmri-eric-s-elsi-knowledge-base" %} contains a glossary, agreement templates and guidance.
+  * {% tool "daisy" %} and {% tool "erpa" %} are software tools from ELIXIR that allows the record keeping of data processing activities in research projects.
+  * {% tool "dawid" %} is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
+  * {% tool "dpia-knowledge-model" %} is designed to leverage {% tool "data-stewardship-wizard" %} to perform DPIA.
+  * {% tool "tryggve-elsi-checklist" %} is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
