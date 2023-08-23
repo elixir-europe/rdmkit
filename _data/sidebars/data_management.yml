@@ -136,6 +136,8 @@ subitems:
     subitems:
       - title: Belgium
         url: /be_resources
+      - title: Cyprus
+        url: /cy_resources
       - title: Czech Republic
         url: /cz_resources
       - title: Germany
