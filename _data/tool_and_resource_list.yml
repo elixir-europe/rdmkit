@@ -73,8 +73,7 @@
   registry:
     biotools: 3d-beacons
   url: https://3d-beacons.org
-- description: 'Rigorous record-keeping and quality control are required to ensure the quality, reproducibility and value of imaging data. The 4DN Initiative and BINA have published light Microscopy Metadata Specifications that extend the OME Data Model, scale with experimental intent and complexity, and make it possible for scientists to create comprehensive records of imaging experiments.
-    The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are being revised in QUAREP-LiMi in collaboration with instrument manufacturers'
+- description: Rigorous record-keeping and quality control are required to ensure the quality, reproducibility and value of imaging data. The 4DN Initiative and BINA have published light Microscopy Metadata Specifications that extend the OME Data Model, scale with experimental intent and complexity, and make it possible for scientists to create comprehensive records of imaging experiments. The Microscopy Metadata Specifications have been adopted by QUAREP-LiMi and are being revised in QUAREP-LiMi in collaboration with instrument manufacturers
   id: 4dn-bina-ome-quarep
   name: 4DN-BINA-OME-QUAREP (NBO-Q)
   registry:
@@ -1202,17 +1201,18 @@
   registry:
     biotools: marref
   url: https://mmp2.sfb.uit.no/marref/
-- description: Powerful search engine which uses mass spectrometry data to identify proteins
-    from DNA, RNA and protein sequence databases as well as spectral libraries.
+- description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: mascot
   name: Mascot
   registry:
     biotools: MASCOT
+    tess: Mascot
   url: https://www.matrixscience.com/server.html
-- description: Powerful search engine which uses mass spectrometry data to identify proteins
-    from DNA, RNA and protein sequence databases as well as spectral libraries.
+- description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: massive
   name: MassIVE
+  registry:
+    tess: MassIVE
   url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
 - description: Database of over 5000 intrinsic membrane protein structures
   id: memprotmd
@@ -1264,8 +1264,7 @@
     fairsharing: 9aa0zp
     tess: MIxS
   url: https://genomicsstandardsconsortium.github.io/mixs/
-- description: Provides a set of open-source, cross-platform software libraries and tools 
-    that facilitate proteomics data analysis.
+- description: Provides a set of open-source, cross-platform software libraries and tools that facilitate proteomics data analysis.
   id: msconvert
   name: msconvert
   registry:
@@ -1425,6 +1424,7 @@
   name: OpenMS
   registry:
     biotools: openms
+    tess: OpenMS
   url: https://openms.de/
 - description: Data curation tool for working with messy data
   id: openrefine
@@ -1460,13 +1460,12 @@
   id: owncloud
   name: ownCloud
   url: https://owncloud.com
-- description: PAA is an R/Bioconductor tool for protein microarray data analysis
-    aimed at biomarker discovery.
+- description: PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.
+  id: paa
   name: PAA
   registry:
     biotools: paa
   url: https://bioconductor.org/packages/PAA/
-  id: paa
 - description: Data Publisher for Earth and Environmental Science
   id: pangaea
   name: PANGAEA
@@ -1502,10 +1501,12 @@
   id: pdbx-mmcif-modelcif-extension-dictionary
   name: PDBx/mmCIF ModelCIF Extension Dictionary
   url: https://mmcif.wwpdb.org/dictionaries/mmcif_ma.dic/Index/
-- description: Database of multi-organism, publicly accessible compendium of peptides identified 
-    in a large set of tandem mass spectrometry proteomics experiments.
+- description: Database of multi-organism, publicly accessible compendium of peptides identified in a large set of tandem mass spectrometry proteomics experiments.
   id: peptideatlas
   name: PeptideAtlas
+  registry:
+    biotools: peptideatlas
+    fairsharing: dvyrsz
   url: https://peptideatlas.org/
 - description: A resource that curates knowledge about the impact of genetic variation on drug response.
   id: pharmgkb
@@ -1761,14 +1762,11 @@
   registry:
     tess: Singularity
   url: https://sylabs.io
-- description: Freely-available, open-source Windows client application for building Selected
-    Reaction Monitoring (SRM) / Multiple Reaction Monitoring (MRM), Parallel Reaction Monitoring (PRM), 
-    DIA/SWATH and targeted DDA quantitative methods and analyzing the resulting mass spectrometer data.
+- description: Freely-available, open-source Windows client application for building Selected Reaction Monitoring (SRM) / Multiple Reaction Monitoring (MRM), Parallel Reaction Monitoring (PRM), DIA/SWATH and targeted DDA quantitative methods and analyzing the resulting mass spectrometer data.
   id: skyline
   name: Skyline
   registry:
     biotools: skyline
-    tess: Skyline
   url: https://skyline.ms/project/home/begin.view
 - description: SMASCH (Smart Scheduling) system, is a web-based tooldesigned for longitudinal clinical studies requiring recurrent follow-upvisits of the participants. SMASCH controls and simplifies the scheduling of big database of patients. Smasch is also used to organize the daily plannings (delegation of tasks) for the different medical professionals such as doctors, nurses and neuropsychologists.
   id: smasch
@@ -1908,6 +1906,9 @@
 - description: Protein modification for mass spectrometry
   id: unimod
   name: Unimod
+  registry:
+    biotools: unimod
+    fairsharing: zZHCUQ
   url: https://www.unimod.org
 - description: Comprehensive resource for protein sequence and annotation data
   id: uniprot
@@ -2089,7 +2090,7 @@
   registry:
     tess: Homebrew
   url: https://brew.sh/
-- description:  A database to quickly access all tryptic peptides of the UniProtKB
+- description: A database to quickly access all tryptic peptides of the UniProtKB
   id: macpepdb
   name: Mass Centric Peptide Database
   url: https://macpepdb.mpc.rub.de/
@@ -2230,7 +2231,7 @@
   id: ome-data-model-and-file-formats
   name: OME Data Model and File Formats
   url: https://docs.openmicroscopy.org/ome-model/
-- description: "Documenting research data: Electronic Lab(oratory) Notebooks."
+- description: 'Documenting research data: Electronic Lab(oratory) Notebooks.'
   id: publisso
   name: PUBLISSO
   url: https://www.publisso.de/en/research-data-management/rd-documenting
