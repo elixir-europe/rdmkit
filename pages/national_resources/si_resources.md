@@ -11,7 +11,6 @@ coordinators: [Brane Leskošek, Marko Vidak, Nadja Žlender, Polonca Ferk]
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id.
 # More information on which page_id you can use can be found at https://rdmkit.elixir-europe.org/website_overview 
 related_pages:
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
 
 training:
   - name: Training in TeSS
