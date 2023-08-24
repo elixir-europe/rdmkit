@@ -1,12 +1,10 @@
 ---
 
 title: Slovenia
-search_exclude: true
 country_code: SI
-page_id:  si_resources
 description: This page provides a general overview of national resources on Research Data Management (RDM) in Slovenia.
-contributors: [Brane Leskošek, Marko Vidak, Nadja Žlender]
-coordinators: [Brane Leskošek, Marko Vidak, Nadja Žlender, Polonca Ferk]
+contributors: [Brane Leskošek, Marko Vidak, Nadja Žlender, Polonca Ferk]
+coordinators: [Brane Leskošek, Marko Vidak, Nadja Žlender]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id.
 # More information on which page_id you can use can be found at https://rdmkit.elixir-europe.org/website_overview 
@@ -23,19 +21,17 @@ training:
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
   - name: DS Wizard ELIXIR Slovenia
-    description: Publicly available online tool for composing smart data management plans
+    description: Publicly available online tool for composing smart data management plans.
     how_to_access: 
-    instance_of: dsw
+    instance_of: data-stewardship-wizard
     related_pages:
-      your_tasks: [data_management_plan]
+      your_tasks: [dmp]
     url: https://elixir-si.ds-wizard.org/
-
       
   - name: ELIXIR eLearning Platform
-    description: Learning Management System
-    how_to_access: Registration is open to everyone, some classes are closed
+    description: Learning Management System.
+    how_to_access: Registration is open to everyone, some classes are closed.
     url: https://elixir.mf.uni-lj.si
-    registry: TeSS
 
       
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
