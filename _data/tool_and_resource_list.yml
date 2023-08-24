@@ -2241,3 +2241,19 @@
   id: publisso
   name: PUBLISSO
   url: https://www.publisso.de/en/research-data-management/rd-documenting
+- description: A public repository for electron cryo-microscopy maps and tomograms of macromolecular complexes and subcellular structures.
+  id: emdb
+  name: Electron Microscopy Data Bank (EMDB)
+  url: https://www.ebi.ac.uk/emdb/
+- description: Integrated Resource for Reproducibility in Macromolecular Crystallography. Repository of diffraction experiments used to determine protein structures in the PDB, contributed by the CSGID, SSGCID, JCSG, MCSG, SGC, and other large-scale projects, as well as individual research laboratories.
+  id: irrmc
+  name: IRRMC
+  url: https://www.proteindiffraction.org/
+- description: Repository of X-ray diffraction, MicroED, LLSM datasets, as well as structural models. 
+  id: sbgrid-data-bank
+  name: SBGrid Data Bank
+  url: https://data.sbgrid.org/
+- description: Cryo em image processing framework. Integration, traceability and analysis.
+  id: scipion
+  name: Scipion
+  url: https://scipion.i2pc.es/
