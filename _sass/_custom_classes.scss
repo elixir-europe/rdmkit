@@ -39,15 +39,6 @@
     }
 }
 
-li ul .sidebar_rdm_sub {
-    border-color: $light;
-    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
-    border-radius: 0px 0px $border-radius $border-radius;
-    border-style: none solid solid solid;
-    border-width: 0.2em;
-    margin-top: -0.25rem;
-}
-
 #side-nav .btn.sidebar-title {
     border: 0;
     border-bottom: 0.2rem solid $primary !important;
@@ -130,12 +121,6 @@ section#search-section {
         &:hover {
             box-shadow: $box-shadow;
         }
-    }
-    a:hover {
-        text-decoration: none;
-    }
-    .card-title {
-        font-size: 1.2rem;
     }
 }
 
