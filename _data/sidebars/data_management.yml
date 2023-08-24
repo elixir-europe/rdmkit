@@ -162,7 +162,7 @@ subitems:
         url: /no_resources
       - title: Portugal
         url: /pt_resources
-     - title: Slovenia
+      - title: Slovenia
         url: /si_resources
       - title: Sweden
         url: /se_resources
