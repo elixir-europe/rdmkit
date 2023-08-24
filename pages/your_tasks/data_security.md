@@ -11,10 +11,6 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:
-- name: Will you collect any data connected to a person, "personal data"?
-  uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
-- name: Do you need a Data Protection Impact Assessment?
-  uuid: 8915bd25-db22-4ed6-bcc8-b1bbdc52989e
 - name: What technical and procedural safeguards have been established for processing
     the data?
   uuid: a30f5047-33c1-45a7-8b3f-b1b90c364fc9
