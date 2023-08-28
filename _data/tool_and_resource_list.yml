@@ -2241,3 +2241,7 @@
   id: publisso
   name: PUBLISSO
   url: https://www.publisso.de/en/research-data-management/rd-documenting
+- description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
+  id: sdrf
+  name: SDRF
+  url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
