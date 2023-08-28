@@ -2257,3 +2257,7 @@
   id: scipion
   name: Scipion
   url: https://scipion.i2pc.es/
+- description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
+  id: sdrf
+  name: SDRF
+  url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
