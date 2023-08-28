@@ -50,7 +50,7 @@ An overview of data management services provided by ELIXIR Slovenia can be found
 ## Funders
 The main public funder of research in Slovenia is the Slovenian Research and Innovation Agency (ARIS), which provides stable funding to the scientific community. The funding policy goals are to enable fair competition of scientists and to achieve excellence in science, reflected through participation of Slovenian scientists in European and other international projects. These projects result in high-impact publication with ARIS-funded scientists as leading authors. The Agency follows the policies of open science, scientific integrity, and gender equality.
 
-Some of ELIXIR Slovenia’s activities are funded by the European Union (EU), currently mainly through the ELIXIR-CONVERGE.
+Some of ELIXIR Slovenia’s activities are funded by the European Union (EU).
 
 ## Regulations
 There are several guidelines and regulations in Slovenia that promote scientific integrity, open science, and research data management. The key aspects of the legal framework are listed below.
