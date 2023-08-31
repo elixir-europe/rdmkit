@@ -50,7 +50,7 @@ national_resources:
   how_to_access:
   related_pages:
     your_role: [researcher, data_steward, principal_investigator]
-    your_tasks: [data, metadata_management, data_quality, dm_coordination, data_protection, data_organization, data_provenance, machine_actionability]
+    your_tasks: [metadata, data_quality, dm_coordination, data_protection, data_organization, data_provenance, machine_actionability]
   url: https://elab.biodata.pt/
 ---
 
