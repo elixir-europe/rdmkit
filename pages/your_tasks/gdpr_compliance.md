@@ -28,7 +28,7 @@ faircookbook:
 
 ### Description
 
-Where scientific research involves the processing of data concerning identifiable people in the European Union (EU), it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria is to follow standards in research method and ethics, as well as to aim societal benefit rather than serving private interests in research.
+Where scientific research involves the processing of data concerning identifiable people in the European Union (EU), it is subject to the General Data Protection Regulation (GDPR). The GDPR applies a ["special regime"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf) to research, providing derogations from some obligations given appropriate criteria are met and safeguards are in place. The criteria are to follow standards in research method and ethics, as well as to aim for societal benefit rather than serving private interests in research.
 
 The safeguards are a multitude and include:
   * data collection with informed consent under ethical oversight and accountability;
@@ -47,16 +47,16 @@ Seek expert help for the interpretation of GDPR legal requirements to practicabl
 Assess your project under the GDPR.
   * Determine your GDPR role. Are you a data controller, who determines the purposes and means of the processing, or, are you a data processor, who acts under instructions from the controller?
   * If you are a controller, you need to check whether your processing poses high privacy risks for data subjects, and if so, perform a  Data Protection Impact Assessment (DPIA).
-     * The GDPR lists certain data e.g. race, ethnicity, health, genetic, biometric data as [special category](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/how-my-personal-data-protected/how-data-my-religious-beliefs-sexual-orientation-health-political-views-protected_en), requiring it's heightened protection. Your research will be considered high risk processing if it involves special category data or if it includes some specified types of processing.
-     * A DPIA is often a pre-requisite for ethics applications. Your DPO or local ethics advisory board can help determine whether your project requires a DPIA.  
+     * The GDPR lists certain data e.g. race, ethnicity, health, genetic, biometric data as [special category](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/how-my-personal-data-protected/how-data-my-religious-beliefs-sexual-orientation-health-political-views-protected_en), requiring heightened protection. Your research will be considered high-risk processing if it involves special category data or if it includes some specified types of processing.
+     * A DPIA is often a prerequisite for ethics applications. Your DPO or local ethics advisory board can help determine whether your project requires a DPIA.  
      * Performing the DPIA while writing the DMP will allow you to reuse information and save time.
-     * An outcome of the DPIA will be a listing of risks and corresponding mitigations. Mitigations identify the data protection measures you'll adopt, both technical organisational.
+     * An outcome of the DPIA will be a listing of risks and corresponding mitigations. Mitigations identify the data protection measures you will adopt, both technical and organisational.
 
 Apply technical and organisational measures for data protection. These include:
   * institutional policies and codes of conduct;
   * staff training;
   * user authentication, authorisation, data level access control;
-  * data privacy measures such as pseudonymisation, anonymisation and encryption,
+  * data privacy measures such as pseudonymisation, anonymisation and encryption;
   * arrangements that will enable data subjects to exercise their rights.
 
 Record your data processing. To meet GDPR's accountability requirement you should maintain records on the following:
@@ -66,13 +66,13 @@ Record your data processing. To meet GDPR's accountability requirement you shoul
   * description of data recipients, particularly those outside the EU;
   * logs of data transfers to recipients and the safeguards put in place for transfers, such as data sharing agreements;
   * time limits for keeping different categories of personal data;
-  * description of organizational and technical data protection measures.
+  * description of organisational and technical data protection measures.
 
 ### Solution
 
   * [European Data Protection Supervisor's "Preliminary opinion on Data Protection and Scientific Research"](https://edps.europa.eu/sites/edp/files/publication/20-01-06_opinion_research_en.pdf)
   * {% tool "bbmri-eric-s-elsi-knowledge-base" %} contains a glossary, agreement templates and guidance.
-  * {% tool "daisy" %} and {% tool "erpa" %} are software tools from ELIXIR that allows the record keeping of data processing activities in research projects.
-  * {% tool "dawid" %} is a software tool from ELIXIR that allows generation of tailor-made data sharing agreements
+  * {% tool "daisy" %} and {% tool "erpa" %} are software tools from ELIXIR that allow the record-keeping of data processing activities in research projects.
+  * {% tool "dawid" %} is a software tool from ELIXIR that allows the generation of tailor-made data-sharing agreements
   * {% tool "dpia-knowledge-model" %} is designed to leverage {% tool "data-stewardship-wizard" %} to perform DPIA.
   * {% tool "tryggve-elsi-checklist" %} is a list of Ethical, Legal, and Societal Implications (ELSI) to consider for research projects on human subjects.
