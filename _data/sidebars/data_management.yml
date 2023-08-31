@@ -92,6 +92,8 @@ subitems:
         url: /metadata_management
       - title: Existing data
         url: /existing_data
+      - title: GDPR compliance
+        url: /gdpr_compliance
       - title: Identifiers
         url: /identifiers
       - title: Licensing
