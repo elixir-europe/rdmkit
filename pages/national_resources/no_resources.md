@@ -167,7 +167,7 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/
+The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian Ministry of Education and Research's "[National strategy on access to and sharing of research data](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/?ch=1)" from 2018 is an initiative aimed at fostering open, equitable, and efficient sharing of research data in Norway. For researchers in Norway and their international partners, this strategy lays the groundwork for creating a robust, collaborative research environment where data is shared freely but responsibly. The national strategy underscores Norway's commitment to scientific advancement and maintaining ethical and legal standards in a data-driven era.
@@ -190,7 +190,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
-* [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
+* [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/Documents#docSDMS)
 
 ### Institutional storage guidelines
 
@@ -234,7 +234,7 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
-* [SIOS Svalbard](https://sios-svalbard.org/Documents#docSDMS)
+* [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/DMsupport)
 
 ### Other data management infrastructures
 
@@ -254,8 +254,8 @@ There are several RDM communities (with subject or local focus) in Norway to ena
 * [Bergen Research Data Network](mailto:research-data@uib.no?subject=forskningsdata@uib.no)
 * [GIDA-Sápmi -Sámi Research Data Governance, members from Norway, Sweden and Finland](https://uit.no/research/sshf-no/project?pid=788403)
 * DataverseNO Network of Expertise
-* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic FAIR Data Forum](https://neic.no/fairdataforum/)
-* [Nordic e-Infrastructure Collaboration (NeIC) Nordic/Baltic Sensitive Data Forum](https://neic.no/sensitivedataforum/)
+* [FAIR Data Forum by Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/fairdataforum/)
+* [Sensitive Data Forum by NeIC](https://neic.no/sensitivedataforum/)
 
 
 
@@ -275,7 +275,7 @@ ELIXIR Norway provides access to a [national instance of the Data Stewardship Wi
 
 ## Life science-specific infrastructures/resources
 
-We've included both general and topic-specific resources to simplify and streamline data management practices and to protect your research data. These resources can help you increase productivity while ensuring that your research is compliant, transparent, and reproducible.
+We have included here both general and topic-specific resources, that help to simplify and streamline data management practices and to protect your research data. These resources can help you increase productivity while ensuring that your research is compliant, transparent, and reproducible.
 
 ### Norwegian e-Infrastructure for Life Sciences (NeLS) tool assembly
 
