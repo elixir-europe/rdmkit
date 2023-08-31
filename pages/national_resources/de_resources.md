@@ -21,12 +21,21 @@ national_resources:
   - name: ELN Finder
     description: Electronic Laboratory Notebook (ELN) selection service. 
     url: https://eln-finder.ulb.tu-darmstadt.de/home
+    related_pages:
+      your_tasks: [metadata]
+      your_role: [researcher, research_software_engineer]
   - name: ELN Guide
     description: Guide for Electronic Laboratory Notebooks (ELN). 
     url: https://repository.publisso.de/resource/frl:6425772
+    related_pages:
+      your_tasks: [metadata]
+      your_role: [researcher, research_software_engineer]
   - name: ELN Video Tutorials
     description: Video Tutorials for Electronic Laboratory Notebooks (ELN). 
     url: https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K
+    related_pages:
+      your_tasks: [metadata]
+      your_role: [researcher, research_software_engineer]
   - name: GFBio Data Management Plan Tool
     description: DMP creation and support by German Federation for Biological Data (GFBio).
     related_pages:
