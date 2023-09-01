@@ -66,7 +66,7 @@ When you find data of interest, you should first check if the quality is good an
     * Check the [licences](licensing) or repository policy for data usage.
     * Data from publications can generally be used but make sure that you cite the publication as reference.
     * If you cannot find the licence of the data, contact the authors. No licence means no reuse allowed.
-    * If you are reusing personal (identifiable) or even sensitive data, some extra care needs to be taken (see [Human data](human_data) and [Sensitive data](sensitive_data) pages):
+    * If you are reusing personal (identifiable) or even sensitive data, some extra care needs to be taken (see [Human data](human_data) and [Sensitive data](data_sensitivity) pages):
         * Make sure you select a data repository that has a clear, published data access/use policy. You do not want to be liable for improper reuse of personal information. For instance, if you’re downloading human data from some lab’s website make sure there is a statement/confirmation that the data was collected with ethical and legal considerations in place.  
         * Sensitive data is often shared under restrictions. Check in the description of the access conditions whether these match with your project (i.e. whether you would be able to successfully ask to get access to the data). For instance, certain datasets can only be accessed by projects with Ethics/Institutional Review Board approval or some can only be used within a specific research field.
 

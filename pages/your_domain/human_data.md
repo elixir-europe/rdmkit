@@ -4,7 +4,7 @@ description: Data management solutions for human data.
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Vilem Ded, Teresa D'Altri]
 page_id: human_data
 related_pages:
-  your_tasks: [sensitive]
+  your_tasks: [sensitive, gdpr_compliance]
   tool_assembly: [tsd, covid-19, transmed]
 training:
   - name: Training in TeSS
@@ -57,8 +57,8 @@ When working with human data, you must follow established research ethical guide
   * **Receiving data from a repository** also comes with certain use restrictions. These are either defined in the license attributed to the data or defined in a dataset specific **access policy** and **terms of service** of the repository.
 * Personal data protection legislation:
   * **Within the EU.** If you are performing human data research in the EU, or your data subjects are located in the EU, then you must adhere to the General Data Protection Regulation - GDPR.
-    * Requirements for research that fall under the GDPR are outlined in the [RDMkit Data protection page](data_protection). 
-    * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](sensitive_data) provides guidance on determining and reducing data sensitivity.
+    * Requirements for research that fall under the GDPR are outlined in the [RDMkit GDPR compliance page](gdpr_compliance). 
+    * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](data_sensitivity) provides guidance on determining and reducing data sensitivity.
   * **Outside the EU.** For countries outside the EU, the {% tool "international-compilation-of-human-research-standards" %} list relevant legislations.
 
 

@@ -38,8 +38,8 @@ In your role of research software engineer, you may need to:
  * The [identifiers page](identifiers) gives advice on how to create and use identifiers.
 [Machine actionability](machine_actionability) helps to automatically access and process research data.
  * Consider the best practices and technical solutions for [data analysis](data_analysis).
- * [Data protection](data_protection) helps you to make research data GDPR-compliant.
- * [Data sensitivity](sensitive_data) helps you to identify sensitivity of different research data types.
+ * [Data protection](data_security) helps you to make research data GDPR-compliant.
+ * [Data sensitivity](data_sensitivity) helps you to identify sensitivity of different research data types.
  * [Licensing](licensing) gives advice on how to assign a licence to research data.
  * Consult the [data transfer page](data_transfer) for information about transferring large data files.
  * The [data brokering page](data_brokering) provides information on uploading data to repositories and metadata requirements for the process.

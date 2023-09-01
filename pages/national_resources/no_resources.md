@@ -132,7 +132,7 @@ national_resources:
     how_to_access: Through Feide, only if you are based at the UiB
     related_pages:
       your_domain: [human_data]
-      your_tasks: [data_protection, sensitive]
+      your_tasks: [data_security, gdpr_compliance, sensitive]
       your_role: [policy_maker, data_steward]
     url: https://rette.app.uib.no/
   - name: DataverseNO

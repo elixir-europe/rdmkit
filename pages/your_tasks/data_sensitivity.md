@@ -3,6 +3,7 @@ title: Data sensitivity
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews, Nazeefa Fatima]
 description: How to identify the sensitivity of different research data types
 page_id: sensitive
+redirect_from: sensitive_data
 related_pages: 
   tool_assembly: [tsd, covid-19, transmed]
 training:
