@@ -481,7 +481,7 @@ Marina Popleteeva:
     orcid: 0000-0002-8409-6147
     email: marina.popleteeva@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
-Vilem Ded: 
+Vilem Ded:
     git: vildead
     orcid: 0000-0001-9235-8496
     email: vilem.ded@uni.lu
@@ -503,17 +503,17 @@ Siobhan Cleary:
     orcid: 0009-0008-0778-0130
     email: siobhan.cleary@ucd.ie
     affiliation: University College Dublin / ELIXIR-IE
-Brane Leskošek: 
+Brane Leskošek:
     git: brane007
     orcid: 0000-0001-5202-2349
     email: brane.leskosek@mf.uni-lj.si
     affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
-Marko Vidak: 
+Marko Vidak:
     git: marko-whatever
     orcid: 0000-0001-7901-3936
     email: marko.vidak@mf.uni-lj.si
     affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
-Nadja Žlender: 
+Nadja Žlender:
     git: nadja-zlender
     orcid: 0000-0001-5913-5530
     email: nadja.zlender@mf.uni-lj.si
@@ -523,3 +523,8 @@ Dirk Winkelhardt:
     orcid: 0000-0001-8770-2221
     email: dirk.winkelhardt@rub.de
     affiliation: Ruhr-Universität Bochum, Medzinisches Proteom-Center & ELIXIR Germany Forschungszentrum Jülich
+Anamika Chatterjee:
+    git: anamikachatterjee
+    orcid: 0000-0002-3215-7163
+    email: anamika.chatterjee@ntnu.no
+    affiliation: Norwegian University of Science and Technology, Department of Biotechnology and Food Science, Centre for Digital Life Norway

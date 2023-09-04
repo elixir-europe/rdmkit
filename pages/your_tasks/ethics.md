@@ -1,6 +1,6 @@
 ---
 title: Ethical aspects
-contributors: [Karel Berka, Korbinian Bösl, Erin Calhoun, Paulette Lieby]
+contributors: [Karel Berka , Erin Calhoun, Paulette Lieby, Anamika Chatterjee, Korbinian Bösl]
 description: Working on aspects in the management of research data that can raise ethical issues
 page_id: ethics
 related_pages:
@@ -17,8 +17,8 @@ training:
   url: https://tess.elixir-europe.org/materials/from-swab-to-server-testing-sequencing-and-sharing-during-a-pandemic
 ---
 ​
-Ethical issues refer to moral principles and standards that guide human conduct and define what is considered right or wrong within a particular context.
-Ethics covers topics beyond the issue of personal data, compliance with legal obligations, and the collection and use of data.
+Ethics refers to moral principles and norms that help us identify right from wrong within a particular context. Ethical issues/concerns typically arise when these principles conflict. Navigating through such concerns often requires one to compare the benefits of an action with its potential harmful consequences.
+When it comes to research involving human participants, such ethical concerns may appear when accessing, using, or sharing data of a sensitive nature, for example health or personal data. Ethics, however, goes beyond the issue of compliance with legal obligations, and the collection and use of data.
 ​
 
 The [Open Data Institute](https://www.scribd.com/document/358778144/ODI-Ethical-Data-Handling-2017-09-13) narrows ‘ethics’ in the RDM context to:
@@ -50,21 +50,21 @@ There are additional considerations connected to health research. Under the view
     * Publication of research data that might impact security of society, communities or individuals
 ​
 * General research ethics considerations that are also reflecting on research data, including:
-    * Examination of what data is excluded or included and of the circumstances of its collection
-    * Accuracy and trustworthiness of data sources
-    * Avoidance of bias of research data while collecting, processing, analysing or re-using data
+    * What are the reasons justifying the exclusion/inclusion of research data in a particular context?
+    * Is the data source accurate and trustworthy?
+    * How can bias in practices of research data management be identified and minimised/avoided?
     * Assessment of models and algorithms used with respect to possible bias
-    * Prevention of misinterpretation of research data
+    * Can the research data be misinterpreted?
     * Prevention of withholding of research data
     * Prevention of manipulation and fraud of research data
     * Assessment of who is excluded or included to data access and why
-    * Avoidance of unnecessary harm to other beings and environment
+    * How can harm to other beings and the environment be identified and mitigated in a timely manner?
 ​
 ### Solutions
 * Assess potential ethical implication through an ethics review
     * Your local ethics committee can help you to review the ethical implications of the project or might guide you to more relevant bodies and resources
 * In order to address challenges when working with human data (see also the [RDMkit page on human data](human_data))
-    * Used standardised consent forms (see e.g. [GA4GH]({% raw %}https://www.ga4gh.org/resource-library/#{%22document%22:{%22category%22:%22Toolkit%20Component%22,%22related_products%22:%22Consent%20Toolkit%22}}{% endraw %}), [BBMRI](https://zenodo.org/record/3928446)) that can be represented in a machine actionable way ([DUO](https://www.ga4gh.org/product/data-use-ontology-duo/))
+    * Used standardised consent forms (see e.g. [GA4GH consent toolkit]({% raw %}https://www.ga4gh.org/resource-library/#{%22document%22:{%22category%22:%22Toolkit%20Component%22,%22related_products%22:%22Consent%20Toolkit%22}}{% endraw %}), [BBMRI](https://zenodo.org/record/3928446)) that can be represented in a machine actionable way ([DUO](https://www.ga4gh.org/product/data-use-ontology-duo/))
     * Anticipate the possibility of consent/data withdrawal and implement administrative and technical processes before you start collecting/processing, be transparent about these in the consent form and also about the cases when withdrawal is no longer possible due to anonymization, aggregation, or other data processing.
     * Data should be anonymized whenever possible (this is a non-reversible process), pseudonymisation (this is a reversible process) enhances data protection in cases where this is not possible (see also [Recommendations on shaping technology according to GDPR provisions](https://op.europa.eu/en/publication-detail/-/publication/a8e7a463-29c5-11e9-8d04-01aa75ed71a1/) and the [RDMkit data protection page](data_protection))
     * Data analysis approaches that have potential to cause stigmatisation should be considered in advance and be discussed as part of an ethics review
@@ -76,7 +76,7 @@ There are additional considerations connected to health research. Under the view
     * In order to ensure conformity with ethical research principles, the following should also be considered for data management:
         * Follow general research ethics laws and guidelines (see below)
         * Minimise suffering of animals in research to the absolute minimum, following [the guidelines and laws relevant to your location as a baseline](national_resources). A sound documentation and management of research outputs is an essential cornerstone to reduce unnecessary repetitions of experiments. Consider the use of specialised LIMS systems to capture relevant [metadata](metadata_management)
-        * Reflect on potential future implications of the outcome of research and data capture and sharing for society and environment (RRI Toolkit, RRI Self-Reflection Tool) involving stakeholders of the research is an important measure in order to receive feedback. If data is presented to stakeholders, this should happen in an accessible format and might require pre-processing, visualisation and guidance.
+        * Reflect on potential future implications of the outcome of research and data capture and sharing for society and environment ({% tool "rri-toolkit" %}, {% tool "rri-self-reflection-tool" %}) involving stakeholders of the research is an important measure in order to receive feedback. If data is presented to stakeholders, this should happen in an accessible format and might require pre-processing, visualisation and guidance.
         * Transparency and reproducibility of the research project underpin the scientific rigour of the project and reduce unnecessary duplication of efforts. Good RDM following the FAIR principles is a cornerstone of these efforts. Continuous tracking of [provenance](provenance) from e.g. research subjects to samples to data and semantic annotation of processes ([documentation and metadata](metadata_management)) can enhance the trustworthiness and value of research findings.
         * Automated sharing of research data after a specific period or milestones and deliverables in a project can be a good mechanism to enhance the openness of a project ([data management coordination](dm_coordination))
 ​
@@ -101,7 +101,7 @@ There are additional considerations connected to health research. Under the view
     * For animal research: the [Three Rs principle](https://ec.europa.eu/health/scientific_committees/opinions_layman/en/non-human-primates/glossary/tuv/three-rs-principle.htm)  
     * For data produced with Machine Learning (ML) techniques: the [recommendations from UNESCO](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics), and the [DOME guidelines](https://dome-ml.org/), a product of the [ELIXIR ML focus group](https://elixir-europe.org/focus-groups/machine-learning)  
 * Resources and Policies from research infrastructures
-    * BBMRI ELSI Toolkit, Helpdesk and Services
+    * {% tool "bbmri-eric-s-elsi-knowledge-base" %} and the BBMRI [Helpdesk and Services](https://www.bbmri-eric.eu/elsi/helpdesk/)
     * ELIXIR ELSI Policy [ELIXIR Ethics Policy](https://zenodo.org/record/557027#.ZGtrzpFBxD8)  
 * Check existing EU policies, directives and regulations
     * The [General Data Protection Regulation](https://gdprinfo.eu/)
