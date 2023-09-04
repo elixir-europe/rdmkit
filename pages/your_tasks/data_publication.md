@@ -78,7 +78,7 @@ Once you have decided where to publish your data, you will have to make your (me
   * How is the data uploaded?
   * What metadata do you need to provide?
   * Under which licence should the data be published?
-  * Should [sensitive data](sensitive_data) and metadata be anonymised or pseudonymised prior to a publication? This could notably be the case if you work with [human data](human_data).
+  * Should [sensitive data](data_sensitivity) and metadata be anonymised or pseudonymised prior to a publication? This could notably be the case if you work with [human data](human_data).
   * After data is submitted to a public repository, should the original copy of the data be retained at the central brokering platform and linked to its public counterpart? Or should it be removed and replaced with the ID of the public record?
 
 

@@ -1257,6 +1257,12 @@
   registry:
     fairsharing: va1hck
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
+- description: A stand-alone server for structural proteome curation
+  id: mineprot
+  name: MineProt
+  registry:
+    biotools: mineprot
+  url: https://github.com/huiwenke/MineProt
 - description: Minimum Information about any (x) Sequence
   id: mixs
   name: MIxS
@@ -2239,7 +2245,11 @@
   id: rri-toolkit
   name: RRI Toolkit
   url: https://rri-tools.eu/
-- description: 'he Self-Reflection Tool provides questions and statements addressing all stakeholder groups (policy makers, education representatives, civil society organisations, industry and business, and the research community).'
+- description: 'The Self-Reflection Tool provides questions and statements addressing all stakeholder groups (policy makers, education representatives, civil society organisations, industry and business, and the research community).'
   id: rri-self-reflection-tool
   name: RRI self reflection tool
   url: https://rri-tools.eu/self-reflection-tool
+- description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
+  id: sdrf
+  name: SDRF
+  url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
