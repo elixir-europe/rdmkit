@@ -2273,7 +2273,7 @@
   id: scipioncloud
   name: ScipionCloud
   url: https://scipion-em.github.io/docs/release-3.0.0/docs/developer/scipion-on-the-cloud.html#scipion-on-the-cloud
-- description: Access and data management platform that permits facilities to manage outputs and associate them with proposal information and other research outputs.
+- description: Access and data management platform that allows facilities to manage outputs and associate them with proposal information and other research outputs.
   id: aria
   name: Access to Research Infrastructure Administration (ARIA)
   url: https://aria.services
