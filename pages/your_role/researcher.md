@@ -40,7 +40,7 @@ In your role of researcher, you may need to:
  * [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm.html) handbook to reproducible, ethical and collaborative data science offers guidance to researchers in academia, industry and the public sector.
  * [FAIR Cookbook](https://faircookbook.elixir-europe.org/) gives step by step recipes to complete common data management tasks.
  * [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) guides through creating a data management plan.
- * [FAIRification Framework](https://fairplus-project.eu/fairplus-outputs/) guides through making your data FAIR.
+ * [FAIRification Framework](https://fairplus-project.eu/) guides through making your data FAIR.
  * [TeSS](https://tess.elixir-europe.org/) is a life science training portal, where you can search for training courses or materials on data management.
  * [FAIRsharing](https://fairsharing.org/) is a portal where you can search for databases, standards and policies.
  * [FAIR Principles](https://www.go-fair.org/fair-principles/) gives an overview of how to make your data Findable, Accessible, Interoperable and Reusable (FAIR).

@@ -36,7 +36,7 @@ There are many aspects to consider when getting started as a broker.
 * Identify what kind of processing you will handle as a broker, such as (meta)data curation and validation, data masking/anonymisation.
 * Define the time frame for your commitment and your responsibilities for the data, such as how to handle data loss before delivery, what to do with the data after a successful delivery, how to manage changes to data that has already been delivered, etc.
 * Identify who is responsible for the data before, during and after delivery, such as the data controller/processor (according to GDPR) and/or intellectual property owner/licensee relationships between the provider and recipient
-* Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data protection](data_protection), [licensing](licensing), and [compliance](compliance_monitoring).
+* Ensure that you will be able to establish contracts/agreements that cover the data and processing that you will handle, such as considerations for [data security](data_security), [licensing](licensing), [GDPR](gdpr_compliance) and general [compliance](compliance_monitoring).
 * Estimate and secure the resources required to keep your commitment, such as staff with time and necessary skills, accounts, compute, storage and software
 * Refer to the sections below for considerations related to collecting data from data providers and delivering data to public data repositories.
 
@@ -45,7 +45,7 @@ There are many aspects to consider when getting started as a broker.
 
 The solutions that you adopt will vary depending on the agreements you have negotiated with data providers and/or recipients. The following are examples of general solutions that would help you comply with regulations and implement good data management practices.
 * [Data management plan](data_management_plan) – Many questions that you would answer while writing a data management plan can be relevant to answer when you specify the terms of service for your brokering service, such as data storage, data standards, legal and ethical, etc. 
-* [Data protection](data_protection) – If you are working with data concerning people in the EU, you should make sure to comply with both national and international regulations for data protection.
+* [GDPR compliance](gdpr_compliance) – If you are working with data concerning people in the EU, you should make sure to comply with both national and international regulations for data protection.
 * Apply for brokering permissions at the repository where you plan to submit data. For example, you can have a broker account at ENA; in this case, please visit [ENA Documentation](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html) for guidelines on how to apply for such an account.
 
 ## Collecting and processing the metadata and data
