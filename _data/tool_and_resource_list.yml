@@ -2279,3 +2279,13 @@
   url: https://aria.services
   registry:
     biotools: aria_access
+- description: Data Management Plan (DMP) generator that focuses on plant science.
+  id: dataplan
+  name: DataPLAN
+  url: https://plan.nfdi4plants.org
+  registry:
+    biotools: dataplan
+- description: Online questionnaire for the development of data management plans, and DMP repository.
+  id: opidor
+  name: DMP OPIDoR
+  url: https://dmp.opidor.fr
