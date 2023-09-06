@@ -57,9 +57,12 @@ Before starting editing on GitHub:
 2. Click “Propose changes”. 
 3. Create a pull request following [GitHub's documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
+
 {% include callout.html type="tip" content="You can create a draft pull request when you're not ready to submit and will need to work more on it later. You can find more information about draft pull requests in the [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests)" %}
 
+
 4. In the description of your pull request, link the issue related to this change by typing a hashtag # and the issue number. Suggestions will appear.
+
 
 {% include callout.html type="tip" content="You can return to your pull request by going to the [pull request section](https://github.com/elixir-europe/rdmkit/pulls) of our GitHub repo." %}
 
