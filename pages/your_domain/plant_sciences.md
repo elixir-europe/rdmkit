@@ -43,8 +43,8 @@ The knowledge model of the data management planning application {% tool "data-st
 * The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
 
 #### DMP as a text document
-* [DataPLAN](https://plan.nfdi4plants.org) is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.
-* Depending on the country there might also be other tools to take into consideration: for example [DMP OPIDoR](https://dmp.opidor.fr/) in France, or {% tool "dmponline" %} for UK. Visit the RDMkit [national resources](national_resources) section for details.
+* {% tool "dataplan" %} is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.
+* Depending on the country there might also be other tools to take into consideration: for example {% tool "opidor" %} in France, or {% tool "dmponline" %} for UK. Visit the RDMkit [national resources](national_resources) section for details.
 
 ## Plant biological materials: (meta)data collection and sharing
 
