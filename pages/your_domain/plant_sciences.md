@@ -33,7 +33,7 @@ The general principles for data management planning are described in the [Planni
 ### Considerations <!-- TODO -->
 
 * Important general considerations about data management planning can be found on the [Planning](planning#what-should-be-considered-for-data-management-planning) page.
-* Phenotyping data must be described following the [MIAPPE](https://www.miappe.org/) data standard.
+* Phenotyping data must be described following the {% tool "miappe" %} data standard.
 * Make sure to identify and describe the biological material and the observation variables in your research.
 
 ### Solutions
