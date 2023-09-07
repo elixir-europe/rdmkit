@@ -40,11 +40,9 @@ All the components of the plant phenomics tool assembly are publicly available a
 
 ### Data management planning
 
-The general principles to be considered are described in the [Plant Science domain page](plant_sciences) and in particular in its section dedicated to [plant phenotyping data](plant_sciences#phenotyping-metadata-collection-and-publication). In a nutshell:
-* the phenotyping data must be described following the {% tool "miappe" %} data standard;
-* special attention should be given to the identification and description of the [biological material](plant_sciences#plant-biological-materials-metadata-collection-and-sharing) and the [observation variables](plant_sciences#phenotyping-metadata-collection-and-publication).
+The general principles to be considered are described in the [Plant Sciences domain page](plant_sciences).
 
-The general principles for data management planning and available tools are described in the RDMkit [data management plan page](data_management_plan). The knowledge model of the data management planning application {% tool "data-stewardship-wizard" %} was reviewed for compliance with the needs of the Plant Sciences community.
+* {% tool "data-stewardship-wizard" %} is a human-friendly tool for machine-actionable DMP collaborative editing. The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
 
 ### File based data collection
 

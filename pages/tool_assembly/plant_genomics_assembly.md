@@ -25,6 +25,11 @@ All the components of this tool assembly are publicly available, but most requir
 ## For what purpose can you use the plant genomics tool assembly?
 {% include image.html file="plant_genomics.svg" caption="Figure 1. The plant genomics tool assembly." alt="Tools and resources used in managing plant genomics and genotyping data." %}
 
+### Data management planning
+The general principles to be considered are described in the [Plant Sciences domain page](plant_sciences).
+
+* {% tool "data-stewardship-wizard" %} is a human-friendly tool for machine-actionable DMP collaborative editing. The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
+
 ### Metadata collection and tracking
 Accurate [documentation](metadata_management) of the plant biological materials and samples is critical for interoperability, and should comply with the {% tool "miappe" %} standard.
 This information should be submitted to {% tool "biosamples" %}, with MIAPPE compliance validated using BioSamples' [plant-miappe.json](https://github.com/EBIBioSamples/biosamples-v4/blob/biohackathon_miappe_checklist/webapps/core/src/main/resources/schemas/certification/plant-miappe.json) template available on the [sample validation](https://www.ebi.ac.uk/biosamples/docs/guides/validation) page.
