@@ -2285,7 +2285,4 @@
   url: https://plan.nfdi4plants.org
   registry:
     biotools: dataplan
-- description: Online questionnaire for the development of data management plans, and DMP repository.
-  id: opidor
-  name: DMP OPIDoR
-  url: https://dmp.opidor.fr
+

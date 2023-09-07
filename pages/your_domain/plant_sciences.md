@@ -44,7 +44,7 @@ The knowledge model of the data management planning application {% tool "data-st
 
 #### DMP as a text document
 * {% tool "dataplan" %} is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.
-* Depending on the country there might also be other tools to take into consideration: for example {% tool "opidor" %} in France, or {% tool "dmponline" %} for UK. Visit the RDMkit [national resources](national_resources) section for details.
+* Depending on the country there might also be other tools to take into consideration: for example [DMP OPIDoR](https://dmp.opidor.fr) in France, or {% tool "dmponline" %} for UK. Visit the RDMkit [national resources](national_resources) section for details.
 
 ## Plant biological materials: (meta)data collection and sharing
 
