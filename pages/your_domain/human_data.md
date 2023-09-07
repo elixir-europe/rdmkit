@@ -1,18 +1,15 @@
 ---
 title: Human data
 description: Data management solutions for human data.
-contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Teresa D'Altri]
+contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Vilem Ded, Teresa D'Altri]
 page_id: human_data
 related_pages:
-  your_tasks: [sensitive]
+  your_tasks: [sensitive, gdpr_compliance]
   tool_assembly: [tsd, covid-19, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
-  - name: RDMbites about data sensitivity
-    registry: TeSS
-    url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
   - name: A FAIR guide for data providers to maximise sharing of human genomic data
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873
   - name: Toward better governance of human genomic data
@@ -32,7 +29,7 @@ dsw:
 
 ## Introduction
 
-When you do research on data derived from human individuals (hereon human data), there are additional aspects that must be considered during the data life cycle. Note, much of the topics discussed on this page will refer to the European General Data Protection Regulation (EU GDPR) as it is a central piece of legislation that affects basically all research taking place in the European Union (EU) using human data or research with data of individuals residing in the EU.
+When you do research on data derived from human individuals (hereon human data), there are additional aspects that must be considered during the data life cycle. Note, much of the topics discussed on this page will refer to the General Data Protection Regulation (GDPR) as it is a central piece of legislation that affects basically all research taking place in the European Union (EU) using human data or research with data of individuals residing in the EU.
 Much of the information on this page is of a general nature when it comes to working with human data, an additional focus is on human genomic data and the sharing of such information for research purposes.
 
 ## Planning for projects with human data
@@ -46,19 +43,22 @@ When working with human data, you must follow established research ethical guide
 * Have you got an **ethical permit** for your research project?
   * To get an ethical permit, you have to apply for an **ethical review** by an **ethical review board**.
     - The legislation that governs this differs between countries. Do seek advice from your research institute.
-  * In most cases, you should get **informed consents** from your research subjects.
+  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing)(PDF document).
+* The acquisition of data must be legal.
+  * **Receiving data/samples directly from data subjects** requires in most cases **informed consents**.
     - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimise those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.
-      - Consider describing data use conditions using a machine-readable formalised description such as the Data Use Ontology {% tool "data-use-ontology" %}. This will greatly improve the possibilities to make the data FAIR later on.
+      - Consider adoption of formalised machine-readable description of data use conditions. This will greatly improve the possibilities to make the data FAIR later on.
     - Informed consents should be acquired for different purposes:
       - It is a cornerstone of _research ethics_. Regardless of legal obligations, it is important to ask for informed consents as it is a good research ethics practice and maintains trust in research.
       - _Ethical permission legislation_ to perform research on human subjects demand informed consents in many cases.
       - _Personal data protection legislation_ might have informed consent as one legal basis for processing the personal data.
       - _**Note that the content of an informed consent, as defined by one piece of legislation, might not live up to the demands of another piece of legislation.**_ For example, an informed consent that is good enough for an ethical permit, might not be good enough for the demands of the GDPR.
-  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the {% tool "consent-clauses-for-genomic-research" %}.
+  * **Receiving data from a collaborator** must be covered by a contract. Ensure detailed provisions on data use, retention, re-use and publication are included in the agreements (Data Use agreement, Consortium agreement, Data Sharing agreement, ...). This applies also to samples you receive from a collaborator. Related contract (e.g. Material Transfer Agreement - MTA) should cover use of human data generated from these samples. Incomplete legal framework for the data use can require lengthy legal amendments and can result in your in-ability to comply with requirements set out by your funder or targeted publisher.
+  * **Receiving data from a repository** also comes with certain use restrictions. These are either defined in the license attributed to the data or defined in a dataset specific **access policy** and **terms of service** of the repository.
 * Personal data protection legislation:
   * **Within the EU.** If you are performing human data research in the EU, or your data subjects are located in the EU, then you must adhere to the General Data Protection Regulation - GDPR.
-    * Requirements for research that fall under the GDPR are outlined in the [RDMkit Data protection page](data_protection). 
-    * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](sensitive_data) provides guidance on determining and reducing data sensitivity.
+    * Requirements for research that fall under the GDPR are outlined in the [RDMkit GDPR compliance page](gdpr_compliance). 
+    * Attributes of the data determines data sensitivity and  sensitivity affects the considerations for data handling. The [RDMkit Data Sensitivity page](data_sensitivity) provides guidance on determining and reducing data sensitivity.
   * **Outside the EU.** For countries outside the EU, the {% tool "international-compilation-of-human-research-standards" %} list relevant legislations.
 
 
@@ -88,7 +88,7 @@ For human data, it is very important to use technical and procedural measures to
     - Integrity is about measures to ensure that data is not corrupted or destroyed.
     - Accessibility is about measures to ensure that data can be accessed by those that have a right to access it, when they need to access it.
   - Information security measures are both _procedural_ and _technical_.
-  - What information security measures that need to be established should be defined at the planning stage (see above), when doing a risk assessment, e.g. a GDPR Data Protection Impact Assessment. This should identify information security risks, and define measures to mitigate those risks.
+  - What information security measures that need to be established should be defined at the planning stage (see above), when doing a risk assessment, e.g. the GDPR Data Protection Impact Assessment. This should identify information security risks, and define measures to mitigate those risks.
   - Contact the IT or Information security office at your institution to get guidance and support to address these issues.
   - {% tool "iso-iec-27001" %} is an international information security standard adopted by data centres of some universities and research institutes.
 * Check whether there are local/national tools and platforms suited to handle human data.
@@ -149,7 +149,7 @@ To make human data reusable for others, it must be discoverable, stored in a saf
   * Human data often carries restrictions to its use and it would need to be shared in a manner that obeys such restrictions. There are three access modes for sharing research data:
     * **Open access**: Data is shared publicly.  Open-access is a rarely used access mode for the sharing of human data. To use open-access researchers need to ensure that the shared data cannot be traced back to individual study participants. In other words the data needs to be anonymised, which is difficult in practice.
     * **Registered access:** Data is shared with researchers, whose “researcher” status has been vouched for by their institution and who agree to abide by data usage policies of repositories that serve the shared data. Datasets that are shared via registered-access would typically have no restrictions besides the condition that data is to be used for research.   
-    * **Controlled access**: Data can only be shared with researchers, whose research is reviewed and approved by a data access committee (DAC). Typically  researchers, who were involved in the primary collection of data will form the DAC. Use conditions for controlled-access could be a multitude and includes allowed research topics, allowed geographical regions, allowed recipients e.g. non-profit organisations.
+    * **Controlled access**: Data can only be shared with researchers, whose research is reviewed and approved by a Data Access Committee (DAC) - typically,  researchers who are/were involved in the primary collection of data will form the DAC. Use conditions for controlled-access could be a multitude and includes allowed research topics, allowed geographical regions, allowed recipients e.g. non-profit organisations.
 
 * Publishing human data:
   * It is highly recommended that human data is shared under controlled access. There are emerging models of sharing data through repositories under federated models.

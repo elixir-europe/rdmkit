@@ -33,7 +33,7 @@ In your role of PI, you may need to:
  * To organise data management in collaborative projects, it will benefit from a formalised way of working via a [Data Management Working Group (DMWG)](dm_coordination).
  * The [costs of data management page](costs_data_management) helps you budget for your project, including costs for data storage and preservation.
  * The [national resources pages](national_resources) provide country-specific guidance, to help you choose the best services, tools and pipelines to manage your data.
- * The [human data page](human_data#planning-for-projects-with-human-data) gathers information that needs to be taken into consideration when working with human data. Make sure to [protect the data](data_protection#how-do-you-ensure-that-your-data-is-handled-securely) in your project well and prevent unauthorised access.
+ * The [human data page](human_data#planning-for-projects-with-human-data) gathers information that needs to be taken into consideration when working with human data. Make sure to [protect the data](data_security#how-do-you-ensure-that-your-data-is-handled-securely) in your project well and prevent unauthorised access.
  * Consider your [data storage needs](storage) in an early stage, including long-term storage at the project end.
  * The [data organisation page](data_organisation) helps you with file naming, versioning and folder structures.
  * [Data documentation](metadata_management), like README files and metadata, help secondary users to understand and reuse your data.

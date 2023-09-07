@@ -2,7 +2,7 @@
 
 title: Portugal
 country_code: PT
-contributors: [Jorge Oliveira, Ana Portugal Melo]
+contributors: [Jorge Oliveira, Ana Portugal Melo, Gil Poiares-Oliveira]
 coordinators: [Ana Portugal Melo]
 
 training:
@@ -44,6 +44,14 @@ national_resources:
     your_role: [researcher]
     your_tasks: [dmp]
   url: http://ready4biodatamanagement.biodata.pt/
+- name: eLab BioData.pt
+  description: An electronic lab notebook (ELN) for the BioData.pt community.
+  inistance_of: eLabFTW
+  how_to_access:
+  related_pages:
+    your_role: [researcher, data_steward, principal_investigator]
+    your_tasks: [metadata, data_quality, dm_coordination, data_protection, data_organization, data_provenance, machine_actionability]
+  url: https://elab.biodata.pt/
 ---
 
 ## Introduction 

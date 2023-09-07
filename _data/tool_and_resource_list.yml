@@ -1257,6 +1257,12 @@
   registry:
     fairsharing: va1hck
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
+- description: A stand-alone server for structural proteome curation
+  id: mineprot
+  name: MineProt
+  registry:
+    biotools: mineprot
+  url: https://github.com/huiwenke/MineProt
 - description: Minimum Information about any (x) Sequence
   id: mixs
   name: MIxS
@@ -2235,3 +2241,51 @@
   id: publisso
   name: PUBLISSO
   url: https://www.publisso.de/en/research-data-management/rd-documenting
+- description: A public repository for electron cryo-microscopy maps and tomograms of macromolecular complexes and subcellular structures.
+  id: emdb
+  name: Electron Microscopy Data Bank (EMDB)
+  url: https://www.ebi.ac.uk/emdb/
+- description: Integrated Resource for Reproducibility in Macromolecular Crystallography. Repository of diffraction experiments used to determine protein structures in the PDB, contributed by the CSGID, SSGCID, JCSG, MCSG, SGC, and other large-scale projects, as well as individual research laboratories.
+  id: irrmc
+  name: IRRMC
+  url: https://www.proteindiffraction.org/
+- description: Repository of X-ray diffraction, MicroED, LLSM datasets, as well as structural models. 
+  id: sbgrid-data-bank
+  name: SBGrid Data Bank
+  url: https://data.sbgrid.org/
+- description: Cryo em image processing framework. Integration, traceability and analysis.
+  id: scipion
+  name: Scipion
+  url: https://scipion.i2pc.es/
+  registry:
+    biotools: scipion
+- description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
+  id: sdrf
+  name: SDRF
+  url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
+- description: Structural information organiser, collecting structures deposited in public repositories together with computationally predicted models from SARS-CoV-2, as well as their interactions with host proteins. 
+  id: covid-19-structural-hub
+  name: COVID-19 Structural Hub
+  url: https://3dbionotes.cnb.csic.es/ws/covid19
+  registry:
+    tess: covid-19+structural+hub
+- description: Cloud virtual machine with the Scipion software to process EM imaging data either in a single server or in a cluster.
+  id: scipioncloud
+  name: ScipionCloud
+  url: https://scipion-em.github.io/docs/release-3.0.0/docs/developer/scipion-on-the-cloud.html#scipion-on-the-cloud
+- description: Access and data management platform that allows facilities to manage outputs and associate them with proposal information and other research outputs.
+  id: aria
+  name: Access to Research Infrastructure Administration (ARIA)
+  url: https://aria.services
+  registry:
+    biotools: aria_access
+- description: Data Management Plan (DMP) generator that focuses on plant science.
+  id: dataplan
+  name: DataPLAN
+  url: https://plan.nfdi4plants.org
+  registry:
+    biotools: dataplan
+- description: Online questionnaire for the development of data management plans, and DMP repository.
+  id: opidor
+  name: DMP OPIDoR
+  url: https://dmp.opidor.fr

@@ -74,8 +74,10 @@ subitems:
         url: /data_management_plan
       - title: Data organisation
         url: /data_organisation
-      - title: Data protection
-        url: /data_protection
+      - title: Data security
+        url: /data_security
+      - title: Data sensitivity
+        url: /data_sensitivity
       - title: Data provenance
         url: /data_provenance
       - title: Data publication
@@ -90,14 +92,14 @@ subitems:
         url: /metadata_management
       - title: Existing data
         url: /existing_data
+      - title: GDPR compliance
+        url: /gdpr_compliance
       - title: Identifiers
         url: /identifiers
       - title: Licensing
         url: /licensing
       - title: Machine actionability
         url: /machine_actionability
-      - title: Data sensitivity
-        url: /sensitive_data
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.
     url: /tool_assembly
@@ -136,6 +138,8 @@ subitems:
     subitems:
       - title: Belgium
         url: /be_resources
+      - title: Cyprus
+        url: /cy_resources
       - title: Czech Republic
         url: /cz_resources
       - title: Germany
@@ -160,6 +164,8 @@ subitems:
         url: /no_resources
       - title: Portugal
         url: /pt_resources
+      - title: Slovenia
+        url: /si_resources
       - title: Sweden
         url: /se_resources
       - title: Switzerland
