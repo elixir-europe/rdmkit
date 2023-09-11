@@ -1,15 +1,26 @@
 ---
-title: Single-Cell Sequencing
-description: Managing data generated from single-cell sequencing experiments.
-contributors: [Johan Rollin, Collaborator's Name, add your name]
-page_id: single_cell_sequencing
+title: "Single-Cell Sequencing"
+description: "Managing data generated from single-cell sequencing experiments."
+contributors:
+- Johan Rollin
+- MeInBIo program
+- Collaborator's Name
+- add your name
+output: pdf_document
 related_pages:
-  your_tasks:  [dmp, data_organisation, data_publication, licensing, metadata, storage]
-  tool_assembly: [galaxy]
+  your_tasks:
+  - dmp
+  - data_organisation
+  - data_publication
+  - licensing
+  - metadata
+  - storage
+  tool_assembly: galaxy
   training:
   - name: Training in Galaxy
     registry: Galaxy
-    url: https://usegalaxy.eu/training-material/topics/single-cell/
+    url: "https://usegalaxy.eu/training-material/topics/single-cell/"
+page_id: single_cell_sequencing
 ---
 
 ## Introduction
