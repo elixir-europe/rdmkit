@@ -1,7 +1,7 @@
 ---
 title: "Single-Cell Sequencing"
 description: "Managing data generated from single-cell sequencing experiments."
-contributors: [Johan Rollin, MeInBIo program, Freiburg unviresity, Collaborator's Name, add your name]
+contributors: [Johan Rollin, MeInBIo program, Freiburg university, Collaborator's Name, add your name]
 output: pdf_document
 related_pages:
   your_tasks: [dmp, data_organisation, data_publication, metadata, storage]
