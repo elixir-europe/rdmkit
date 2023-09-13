@@ -25,6 +25,27 @@ The challenges to data integration stem from the multiple levels of heterogeneit
 
 Another particularity of this domain is the absence of central deposition databases for certain important data types, in particular data deriving from plant phenotyping experiments. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This makes it difficult to find, access and interconnect plant phenotyping data.
 
+## Data management planning
+
+### Description <!-- TODO -->
+The general principles for data management planning are described in the [Planning](planning) page of the Data fife cycle section, while generic but more practical aspects of writing a DMP can be found on the [Data Management Plan](data_management_plan) page.
+
+### Considerations <!-- TODO -->
+
+* Important general considerations about data management planning can be found on the [Planning](planning#what-should-be-considered-for-data-management-planning) page.
+* Phenotyping data must be described following the {% tool "miappe" %} data standard.
+* Make sure to identify and describe the biological material and the observation variables in your research.
+
+### Solutions
+The knowledge model of the data management planning application {% tool "data-stewardship-wizard" %} was reviewed for compliance with the needs of the Plant Sciences community.
+
+#### Machine-actionable DMP
+* The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
+
+#### DMP as a text document
+* {% tool "dataplan" %} is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.
+* Depending on the country there might also be other tools to take into consideration: for example [DMP OPIDoR](https://dmp.opidor.fr) in France, or {% tool "dmponline" %} for UK. Visit the RDMkit [national resources](national_resources) section for details.
+
 ## Plant biological materials: (meta)data collection and sharing
 
 ### Description

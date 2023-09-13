@@ -12,12 +12,6 @@ training:
 
 
 national_resources:
-  - name: DataPLAN
-    description: Data Management Plan (DMP) generator that focuses on plant science. 
-    related_pages:
-      your_tasks: [dmp]
-      your_domain: [plants]
-    url: https://plan.nfdi4plants.org/
   - name: ELN Finder
     description: Electronic Laboratory Notebook (ELN) selection service. 
     url: https://eln-finder.ulb.tu-darmstadt.de/home
@@ -65,6 +59,7 @@ ref_to_main_resources:
   - fairdom-seek
   - pangaea
   - silva
+  - dataplan
 
 ---
 

@@ -54,6 +54,6 @@ In your role of data steward, you may need to:
 
  * [FAIR Cookbook](https://faircookbook.elixir-europe.org/) gives you step by step recipes to complete common data management tasks.
  * [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) guides you through creating a data management plan.
- * [FAIRification Framework](https://fairplus-project.eu/fairplus-outputs/) guides you through making your data FAIR.
+ * [FAIRification Framework](https://fairplus-project.eu/) guides you through making your data FAIR.
  * [TeSS](https://tess.elixir-europe.org/) is a life science training portal, where you can search for training courses or materials on data management.
  * [FAIRsharing](https://tess.elixir-europe.org/) is a portal where you can search for databases, standards and policies.
