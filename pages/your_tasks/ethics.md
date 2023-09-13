@@ -49,7 +49,7 @@ There are additional considerations connected to health research. Under the view
     * Publication of research data that might impact economical interests of  communities or individuals
     * Publication of research data that might impact security of society, communities or individuals
 ​
-* General research ethics considerations that are also reflecting on research data, including:
+* There are also general research ethics considerations that are relevant in the context of research data, including:
     * What are the reasons justifying the exclusion/inclusion of research data in a particular context?
     * Is the data source accurate and trustworthy?
     * How can bias in practices of research data management be identified and minimised/avoided?
