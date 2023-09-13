@@ -90,6 +90,8 @@ subitems:
         url: /data_transfer
       - title: Documentation and metadata
         url: /metadata_management
+      - title: Ethical aspects
+        url: /ethics
       - title: Existing data
         url: /existing_data
       - title: GDPR compliance

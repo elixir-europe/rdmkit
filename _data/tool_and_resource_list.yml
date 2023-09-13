@@ -2262,6 +2262,14 @@
     biotools: scipion
     fairsharing: EsY1WF
   url: https://scipion.i2pc.es/
+- description: 'The RRI Toolkit helps stakeholders across Europe put Responsible Research and Innovation into practice.'
+  id: rri-toolkit
+  name: RRI Toolkit
+  url: https://rri-tools.eu/
+- description: 'The Self-Reflection Tool provides questions and statements addressing all stakeholder groups (policy makers, education representatives, civil society organisations, industry and business, and the research community).'
+  id: rri-self-reflection-tool
+  name: RRI self reflection tool
+  url: https://rri-tools.eu/self-reflection-tool
 - description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
   id: sdrf
   name: SDRF
