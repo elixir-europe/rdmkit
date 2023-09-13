@@ -44,7 +44,7 @@ There are additional considerations connected to health research. Under the view
     * Findings about participants that are outside of the original research question(s): see [Purpose of data processing](https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/principles-gdpr/purpose-data-processing_en) and [Incidental findings Archives - BBMRI-ERIC](https://www.bbmri-eric.eu/elsi-topic/incidental-findings/)
 ​
 * Other ethical questions are arising from the impact of research outcomes, including data on the interest of communities or individuals
-    * Fair management of intellectual property rights - also see e.g. ABS
+    * Fair management of intellectual property rights - also see e.g. Access and Benefit-sharing (ABS)
     * Publication of research data that might impact the reputation of communities or individuals
     * Publication of research data that might impact economical interests of  communities or individuals
     * Publication of research data that might impact security of society, communities or individuals
