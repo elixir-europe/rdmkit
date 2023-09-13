@@ -6,15 +6,9 @@ page_id: ethics
 related_pages:
   tool_assembly: [covid-19, transmed, tsd, csc]
 training:
-- name: 'Ethics/ELSI considerations - From FAIR to fair data sharing - recorded webinar'
+- name: 'Learning material on ethics in RDM'
   registry: TeSS
-  url: https://tess.elixir-europe.org/materials/ethics-elsi-considerations-from-fair-to-fair-data-sharing
-- name: 'Biomedical data: Ethical, legal and social implications - e-learning'
-  registry: TeSS
-  url: https://tess.elixir-europe.org/materials/biomedical-data
-- name: 'From Swab to Server: Testing, Sequencing, and Sharing During a Pandemic - free online course'
-  registry: TeSS
-  url: https://tess.elixir-europe.org/materials/from-swab-to-server-testing-sequencing-and-sharing-during-a-pandemic
+  url: https://tess.elixir-europe.org/materials?q=ethics
 ---
 ​
 Ethics refers to moral principles and norms that help us identify right from wrong within a particular context. Ethical issues/concerns typically arise when these principles conflict. Navigating through such concerns often requires one to compare the benefits of an action with its potential harmful consequences.
@@ -109,8 +103,8 @@ There are additional considerations connected to health research. Under the view
 
 ### Further materials
 * Basic ethical principles are compliant with relevant international regulations:
-    * Universal Declaration of Human Rights, 10 December 1948
-    * Article 8 of the European Convention on Human Rights
-    * Council of Europe Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data 1981 (convention 108)
-    * Charter of Fundamental Rights of the European Union 2010/C 83/0215
-    * Directive 95/46/EC of the European Parliament of 24 October 1995 on the protection of individuals with regard to the processing of Personal Data and on the free movement of such data
+    * [Universal Declaration of Human Rights, 10 December 1948](https://www.un.org/en/about-us/universal-declaration-of-human-rights)
+    * [Article 8 of the European Convention on Human Rights](https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168007ff47)
+    * [Council of Europe Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data 1981 (convention 108)](https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=108)
+    * [Charter of Fundamental Rights of the European Union 2010/C 83/0215](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2010:083:0389:0403:en:PDF)
+    * [Directive 95/46/EC of the European Parliament of 24 October 1995 on the protection of individuals with regard to the processing of Personal Data and on the free movement of such data](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31995L0046)https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A31995L0046
