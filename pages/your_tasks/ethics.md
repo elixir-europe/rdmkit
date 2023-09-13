@@ -86,7 +86,7 @@ There are additional considerations connected to health research. Under the view
 ### Considerations
 * In all cases, your institution’s Data Protection Officer (DPO) is the person to refer to when considering ethical and legal aspects of data management.
 * When looking for recommendations and regulations, it is best to start from the local, that is, starting what is applicable within your discipline, and nationally. Then (if applicable), EU policies, directives and regulations are to be explored, as well as global recommendations (for example, from the UNESCO).
-* The list of resources given below does not attempt to be exhaustive: it tries to highlight the most relevant ones.
+* The solutions given below do not attempt to be exhaustive and highlight only the most relevant ones.
 ​
 ### Solutions
 * Use [domain](your_domain) and [national](national_resources) pages in the RDMkit as a starting point
