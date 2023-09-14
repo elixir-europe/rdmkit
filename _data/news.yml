@@ -142,7 +142,7 @@
   date: 2023-08-28
   linked_pr: 1280
   description: This page gives an insight in RDM on national level in Slovenia. [Discover the page here](si_resources)
-- name: "New page: Ethics"
+- name: "New page: Ethical aspects"
   date: 2023-09-14
   linked_pr: 1375
   description: This page gives insights about working on aspects in the management of research data that can raise ethical issues. [Discover the page here](ethics).
