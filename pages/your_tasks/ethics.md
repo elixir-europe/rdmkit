@@ -17,8 +17,9 @@ When it comes to research involving human participants, such ethical concerns ma
 The [Open Data Institute](https://www.scribd.com/document/358778144/ODI-Ethical-Data-Handling-2017-09-13) narrows ‘ethics’ in the RDM context to:
 ​
 > “A branch of ethics that evaluates data practices with the potential to adversely impact on people and society – in data collection, sharing and use.”
-​
+
 ## Which aspects of RDM might raise ethical issues?
+
 ### Description
 Ethical issues refer to moral principles and standards that guide human conduct and define what is considered right or wrong within a particular context.
 ​
@@ -51,6 +52,7 @@ There are additional considerations connected to health research. Under the view
     * Assessment of who is excluded or included to data access and why
     * How can harm to other beings and the environment be identified and mitigated in a timely manner?
 ​
+
 ### Solutions
 * Assess potential ethical implication through an ethics review
     * Your local ethics committee can help you to review the ethical implications of the project or might guide you to more relevant bodies and resources
@@ -79,6 +81,7 @@ There are additional considerations connected to health research. Under the view
 * When looking for recommendations and regulations, it is best to start from the local, that is, starting what is applicable within your discipline, and nationally. Then (if applicable), EU policies, directives and regulations are to be explored, as well as global recommendations (for example, from the UNESCO).
 * The solutions given below do not attempt to be exhaustive and highlight only the most relevant ones.
 ​
+
 ### Solutions
 * Use [domain](your_domain) and [national](national_resources) pages in the RDMkit as a starting point
 * Follow national legislation in terms of
@@ -97,6 +100,7 @@ There are additional considerations connected to health research. Under the view
 * Check existing EU policies, directives and regulations
     * The [General Data Protection Regulation](https://gdprinfo.eu/)
     * The European [Clinical Trials Regulation](https://www.ema.europa.eu/en/human-regulatory/research-development/clinical-trials/clinical-trials-regulation)
+
 
 ### Further materials
 * Basic ethical principles are compliant with relevant international regulations:
