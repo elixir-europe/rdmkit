@@ -14,12 +14,9 @@ training:
 Ethics refers to moral principles and norms that help us identify right from wrong within a particular context. Ethical issues/concerns typically arise when these principles conflict. Navigating through such concerns often requires one to compare the benefits of an action with its potential harmful consequences.
 When it comes to research involving human participants, such ethical concerns may appear when accessing, using, or sharing data of a sensitive nature, for example health or personal data. Ethics, however, goes beyond the issue of compliance with legal obligations, and the collection and use of data.
 ​
-
 The [Open Data Institute](https://www.scribd.com/document/358778144/ODI-Ethical-Data-Handling-2017-09-13) narrows ‘ethics’ in the RDM context to:
 ​
 > “A branch of ethics that evaluates data practices with the potential to adversely impact on people and society – in data collection, sharing and use.”
-​
-
 ​
 ## Which aspects of RDM might raise ethical issues?
 ### Description
