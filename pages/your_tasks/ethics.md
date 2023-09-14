@@ -98,7 +98,7 @@ There are additional considerations connected to health research. Under the view
     * {% tool "bbmri-eric-s-elsi-knowledge-base" %} and the BBMRI [Helpdesk and Services](https://www.bbmri-eric.eu/elsi/helpdesk/)
     * ELIXIR ELSI Policy [ELIXIR Ethics Policy](https://zenodo.org/record/557027#.ZGtrzpFBxD8)  
 * Check existing EU policies, directives and regulations
-    * The [General Data Protection Regulation](https://gdprinfo.eu/)
+    * The [General Data Protection Regulation](https://gdprinfo.eu/) see also the [RDMKit page on GDPR compliance](gdpr_compliance).
     * The European [Clinical Trials Regulation](https://www.ema.europa.eu/en/human-regulatory/research-development/clinical-trials/clinical-trials-regulation)
 
 ### Further materials
