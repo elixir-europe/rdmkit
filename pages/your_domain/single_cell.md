@@ -84,7 +84,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Ethical Data Handling**: Emphasize the importance of informed consent and ethical considerations in data sharing agreements.
 
-- **Collaboration Platforms**: Explore version control systems (e.g., [Git](https://zenodo.org/)), data sharing platforms (e.g., [Zenodo](https://zenodo.org/)), data analysis platforms (e.g., [Galaxy](https://usegalaxy.eu/)), and domain-specific repositories (e.g., [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell?order=recent)) to facilitate efficient data sharing, analysis, and collaboration.
+- **Collaboration Platforms**: Explore version control systems (e.g., [Git](https://git-scm.com/)), data sharing platforms (e.g., [Zenodo](https://zenodo.org/)), data analysis platforms (e.g., [Galaxy](https://usegalaxy.eu/)), and domain-specific repositories (e.g., [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell?order=recent)) to facilitate efficient data sharing, analysis, and collaboration.
 
 - **Enhancing Reproducibility**: Provide guidance on enhancing reproducibility, including the use of containerization technologies like [Docker](https://www.docker.com/) to encapsulate analysis environments. Emphasize the importance of documenting analysis workflows, code, and metadata using standardized formats and sharing them in version-controlled repositories.
 
