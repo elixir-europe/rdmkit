@@ -88,16 +88,7 @@ national_resources:
       your_role: [researcher, data_steward]
       your_tasks: [data_analysis]
     url: https://research.csc.fi/computing#cloud-computing 
-  - name: IceBear
-    description: A browser-based Research Data Management tool for protein cyrstallization that offers flexible crystal fishing workbench, no-typing submission for crystal shipment, and linking crystals and datasets including PDB depositions. 
-    instance_of: 
-    how_to_access: 
-    related_pages:
-      tool_assembly:
-      your_role: [researcher, data_steward]
-      your_tasks: [data_analysis]
-      your_domain: [structural_bioinformatics]
-    url: https://icebear.fi/
+
 ---
 
 ## Introduction 
