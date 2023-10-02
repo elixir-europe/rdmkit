@@ -40,7 +40,7 @@ The process documents and data are made available under a CC-BY license. Softwar
 
 ## Acknowledgements
 
-The RDMkit was supported by [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge).
+The RDMkit was supported by [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) and it is coordinated by [ELIXIR Europe](https://elixir-europe.org/).
 
 <br>
 <br>
