@@ -15,13 +15,13 @@ dsw:
     the data?
   uuid: a30f5047-33c1-45a7-8b3f-b1b90c364fc9
 faircookbook:
-- name: Downloading data with Aspera
+- name: Downloading data with Aspera protocol
   url: https://w3id.org/faircookbook/FCB015
-- name: Transferring data with SFTP
+- name: Transferring data with SFTP protocol
   url: https://w3id.org/faircookbook/FCB014
-- name: How to create checksum files
+- name: Creating file checksums
   url: https://w3id.org/faircookbook/FCB052
-- name: How to check file integrity by validating checksums
+- name: Validating checksums to verify file integrity
   url: https://w3id.org/faircookbook/FCB053
 ---
 
