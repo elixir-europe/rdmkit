@@ -11,28 +11,23 @@ columns:
     children: 
       - url_text: Contributors
         url: /contributors
-        external_url: 
+      - url_text: Accessibility
+        url: /accessibility
       - url_text: ELIXIR
-        url: 
         external_url: https://elixir-europe.org
       - url_text: Institutes, projects and funders
         url: /support
-        external_url: 
   - type: links
     width: 3
     children: 
       - url_text: About
         url: /about
-        external_url: 
       - url_text: Contact
         url: /contact
-        external_url: 
-      - url_text: Accessibility
-        url: /accessibility
-        external_url: 
+      - url_text: How to cite
+        url: /about#how-to-cite-the-rdmkit
       - url_text: Privacy
         url: /privacy
-        external_url: 
   - type: image
     image_width: 100px
     width: 1
