@@ -12,8 +12,10 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
 faircookbook:
-- name: Improving dataset maturity - the MIAPPE use case
+- name: MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
+- name: Publishing plant phenotypic data
+  url: https://w3id.org/faircookbook/FCB083
 ---
 
 ## Introduction
