@@ -156,7 +156,7 @@ Emma Karoune:
 Graham Parton:
     git: gap736uk
     orcid: 0000-0003-4157-0352
-    affiliation: Science and Technology Facilities Council (STFC), UKRI
+    affiliation: Science and Technology Facilities Council (STFC) / UKRI
 Minna Ahokas:
     git: minnami
     email: minna.ahokas@csc.fi
@@ -524,17 +524,17 @@ Brane Leskošek:
     git: brane007
     orcid: 0000-0001-5202-2349
     email: brane.leskosek@mf.uni-lj.si
-    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
 Marko Vidak:
     git: marko-whatever
     orcid: 0000-0001-7901-3936
     email: marko.vidak@mf.uni-lj.si
-    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
 Nadja Žlender:
     git: nadja-zlender
     orcid: 0000-0001-5913-5530
     email: nadja.zlender@mf.uni-lj.si
-    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
 Dirk Winkelhardt:
     git: di-hardt
     orcid: 0000-0001-8770-2221
@@ -549,7 +549,7 @@ Anamika Chatterjee:
     git: anamikachatterjee
     orcid: 0000-0002-3215-7163
     email: anamika.chatterjee@ntnu.no
-    affiliation: Norwegian University of Science and Technology, Department of Biotechnology and Food Science, Centre for Digital Life Norway
+    affiliation: Norwegian University of Science and Technology / Centre for Digital Life Norway
 Polonca Ferk:
     orcid: 0000-0002-4541-3648
     email: polonca.ferk@mf.uni-lj.si
