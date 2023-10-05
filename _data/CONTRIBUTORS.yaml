@@ -498,7 +498,7 @@ Marina Popleteeva:
     orcid: 0000-0002-8409-6147
     email: marina.popleteeva@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
-Vilem Ded: 
+Vilem Ded:
     git: vildead
     orcid: 0000-0001-9235-8496
     email: vilem.ded@uni.lu
@@ -520,17 +520,17 @@ Siobhan Cleary:
     orcid: 0009-0008-0778-0130
     email: siobhan.cleary@ucd.ie
     affiliation: University College Dublin / ELIXIR-IE
-Brane Leskošek: 
+Brane Leskošek:
     git: brane007
     orcid: 0000-0001-5202-2349
     email: brane.leskosek@mf.uni-lj.si
     affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
-Marko Vidak: 
+Marko Vidak:
     git: marko-whatever
     orcid: 0000-0001-7901-3936
     email: marko.vidak@mf.uni-lj.si
     affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
-Nadja Žlender: 
+Nadja Žlender:
     git: nadja-zlender
     orcid: 0000-0001-5913-5530
     email: nadja.zlender@mf.uni-lj.si
@@ -545,6 +545,11 @@ Carolina Simón Guerrero:
     email: carolina.simon@cnb.csic.es
     orcid: 0000-0002-0735-4317
     affiliation: INSTRUCT-ERIC / National Center for Biotechnology (CNB-CSIC)
+Anamika Chatterjee:
+    git: anamikachatterjee
+    orcid: 0000-0002-3215-7163
+    email: anamika.chatterjee@ntnu.no
+    affiliation: Norwegian University of Science and Technology, Department of Biotechnology and Food Science, Centre for Digital Life Norway
 Polonca Ferk:
     orcid: 0000-0002-4541-3648
     email: polonca.ferk@mf.uni-lj.si
@@ -554,4 +559,18 @@ Gil Poiares-Oliveira:
     orcid: 0000-0003-4638-2879
     email: gil.oliveira@tecnico.ulisboa.pt
     affiliation: INESC-ID / BioData.pt / ELIXIR-PT
-
+Uladzislau Vadadokhau:
+    git: uladzislau21
+    email: uladzislau.vadadokhau@med.unideb.hu
+    orcid: 0000-0003-3773-7746
+    affilation: University of Debrecen, Proteomics Core Facility
+Fotis Psomopoulos:
+    git: fpsom
+    orcid: 0000-0002-0222-4273
+    email: fpsom@certh.gr
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / ELIXIR-GR 
+Styliani-Christina Fragkouli:
+    git: sfragkoul
+    orcid: 0000-0003-4067-7123
+    email: sfragkoul@certh.gr
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR  
