@@ -44,7 +44,7 @@ More information about these topics can be found in the GitHub documentation:
 
 ## Review pull requests
 
-If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. The use of the suggestion for specific changes to the line or lines (by clicking {% include image.html file="octicon:file-diff.svg" inline=true alt="Raw button GitHub." %} in the comment field) For more infomration about this please visit the [GitHub documentation page: starting a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review).
+If contributors make a pull request to make changes, by default the editors that are responsible for files that will be changed by the PR will be assigned and notified. All PR should be assigned to one of the editors. The use of the suggestion for specific changes to the line or lines (by clicking {% octicon file-diff height:16 %}in the comment field) For more infomration about this please visit the [GitHub documentation page: starting a review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review).
 
 
 Before merging a PR, pages' tags, and tools and resources' tags should be checked and assigned according to the established tagging system. The editor who provides the last approval to a PR should also merge it.
