@@ -1,4 +1,4 @@
-copyright: '[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) RDMkit by [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted.'
+copyright: '[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) RDMkit by [ELIXIR](https://elixir-europe.org/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), except where otherwise noted.'
 extra_line: Recommended in the <a href="https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf">Horizon Europe Program Guide</a> as the "resource for Data Management guidelines and good practices for the Life Sciences"
 columns:
   - type: image
@@ -11,31 +11,23 @@ columns:
     children: 
       - url_text: Contributors
         url: /contributors
-        external_url: 
-      - url_text: ELIXIR-CONVERGE
-        url: 
-        external_url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
-      - url_text: Contributions from the 23 ELIXIR Nodes
-        url: 
-        external_url: 
+      - url_text: Accessibility
+        url: /accessibility
+      - url_text: ELIXIR
+        external_url: https://elixir-europe.org
       - url_text: Institutes, projects and funders
         url: /support
-        external_url: 
   - type: links
     width: 3
     children: 
       - url_text: About
         url: /about
-        external_url: 
       - url_text: Contact
         url: /contact
-        external_url: 
-      - url_text: Accessibility
-        url: /accessibility
-        external_url: 
+      - url_text: How to cite
+        url: /about#how-to-cite-the-rdmkit
       - url_text: Privacy
         url: /privacy
-        external_url: 
   - type: image
     image_width: 100px
     width: 1
