@@ -4,7 +4,7 @@ columns:
   - type: image
     image_width: 120px
     width: 2
-    src: 'assets/img/converge_logo_inverted.svg'
+    src: 'assets/img/elixir_logo.svg'
     alt: Converge logo
   - type: links
     width: 3

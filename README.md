@@ -44,4 +44,4 @@ The RDMkit was supported by [ELIXIR-CONVERGE](https://elixir-europe.org/about-us
 
 <br>
 <br>
-<a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge"><img src="https://raw.githubusercontent.com/elixir-europe/rdmkit/master/assets/img/converge_logo.svg" width="15%"></a>
+<a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge"><img src="https://raw.githubusercontent.com/elixir-europe/rdmkit/master/assets/img/elixir_logo_inverted.svg" width="15%"></a>
