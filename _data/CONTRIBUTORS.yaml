@@ -495,9 +495,11 @@ Teresa D'Altri:
     orcid: 0000-0002-8146-5365
     affiliation: Center for Genomic Regulation
 Marina Popleteeva:
+    git: marikapop
     orcid: 0000-0002-8409-6147
     email: marina.popleteeva@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
+    role: editor
 Vilem Ded:
     git: vildead
     orcid: 0000-0001-9235-8496
@@ -574,3 +576,9 @@ Styliani-Christina Fragkouli:
     orcid: 0000-0003-4067-7123
     email: sfragkoul@certh.gr
     affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR  
+Diana Pilvar:
+    git: diana-pilvar
+    email: diana.pilvar@ut.ee
+    orcid: 0000-0002-5788-2687
+    affiliation: University of Tartu / ELIXIR-Estonia
+    role: editor
