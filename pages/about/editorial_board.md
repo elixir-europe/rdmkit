@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Bert Droesbeke, Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Niclas Jareborg, Pinar Alper, Rob Hooft, Ulrike Wittig, Laura Portell Silva, Martin Cook, Korbinian Bösl, Federico Bianchini, Nazeefa Fatima, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva" %}
+{% include contributor-carousel-selection.html custom="Bert Droesbeke, Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Pinar Alper, Rob Hooft, Ulrike Wittig, Laura Portell Silva, Martin Cook, Korbinian Bösl, Federico Bianchini, Nazeefa Fatima, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva" %}
 
 ## Join as editorial board member
 
@@ -49,3 +49,9 @@ To become part of the editorial team, please provide:
 * List of the RDMkit sections that you are most interested in (or feel are missing).
 
 Please, send your application to rdm-editors@elixir-europe.org.
+
+## Past editorial board members
+
+In this section we would like to thank contributions of our past editorial members.
+
+{% include contributor-tiles-all.html custom="Mijke Jetten, Niclas Jareborg" %}
