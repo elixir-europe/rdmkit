@@ -67,6 +67,26 @@ The analysis of single-cell sequencing data frequently requires the integration 
 - **Data Integration & Data Comparison**: Use built-in method for data integration & comparison (like [Seurat](https://satijalab.org/seurat/) or [Scanpy](https://scanpy.readthedocs.io/en/stable/) ), including normalization, batch correction methods and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison made make sense meanning beeing careful that the celltype annotations are consistent and that the number/cell repartition is relevant.
 - **Annotation Consistency**: Emphasize the need for consistent metadata and annotation practices, including standardized naming and format usage. 
 
+## Datatype Consistency and Interoperability Across Formats
+
+### Description
+
+Single-cell sequencing data is encoded into many different competing formats, with HDF5-compatible formats such as [AnnData](https://anndata.readthedocs.io/en/latest/) and [Loom](https://linnarssonlab.org/loompy/format/index.html), as well as other commonly-used formats such as [SeuratObject](https://search.r-project.org/CRAN/refmans/SeuratObject/html/SeuratObject-package.html), [CellDataSet](https://rdrr.io/bioc/monocle/man/CellDataSet.html) (CDS) and [SingleCellExperiment](https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html) (SCE). Each of these formats are favoured by their respective analysis suites; Scanpy, Seurat, [Monocle](https://cole-trapnell-lab.github.io/monocle3/) and [Scater](https://github.com/jimhester/scater).
+
+![conversion routes via SCEasy](https://raw.githubusercontent.com/galaxyproject/tools-iuc/c6b28d9b29287d19e778267acf787bd7e53e1178/tools/sceasy/static/images/conv.png)
+
+The image above depicts the conversion routes of a popular conversion tool [SCEasy](https://github.com/cellgeni/sceasy), which demonstrates the limited conversion potential between the different formats. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
+
+### Considerations
+
+- **Datatype Preferences**: Which datatypes should be actively maintained and supported, and which ones should be discouraged? (e.g. popularity, complexity of format, stability between versions)
+- **Datatype Support**: Which datatypes do we actively support via bioinformatic cloud pipelines and tutorials?
+
+### Solutions
+
+- **Datatype Preferences**: The most common formats are AnnData and SeuratObject. There is waning support for Loom, CDS and SCE, though SCE is an important format on BioConductor and is a common datatype for sharing single-cell experiments in publications.
+- **Datatype Support**: Seurat and ScanPy are popular analysis workflows in Galaxy, and it might be important to ensure that there is consistent and stable conversion potential between the two.
+
 ## Long-Term Data Storage and Accessibility
 
 ### Description
