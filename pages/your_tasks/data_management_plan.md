@@ -12,7 +12,7 @@ training:
 ---
 
 
-## What should you write in a DMP?
+## What should you write in a Data Management Plan (DMP)?
 
 ### Description
 A DMP should address a broad range of data management aspects, regardless of funder or institution specific templates. It is important to be aware of the current best practices in DMPs before starting one. For more generic information about data management planning, see also our [Planning page](planning).
@@ -32,7 +32,7 @@ Common topics of a DMP are:
 * Core requirements for DMP have been described by [Science Europe](https://www.scienceeurope.org/our-priorities/research-data/research-data-management/).
 * Consider the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) from the Research Data Alliance as a reference data model for organising the different topics.
 
-## What template should you use to draft your Data Management Plan (DMP)?
+## What template should you use to draft your DMP?
 
 ### Description
 
