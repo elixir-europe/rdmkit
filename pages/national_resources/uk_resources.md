@@ -92,3 +92,4 @@ This page provides an overview of the data management resources in the UK. The t
   * The [Safepod Network](https://safepodnetwork.ac.uk/) providing approved researchers with access to sensitive data
   * [UK Biobank](https://www.ukbiobank.ac.uk/) large-scale biomedical database and research resource
   * [UK Data Archive](https://www.data-archive.ac.uk/) collection of social, economic and population data
+  * Clinical Practice Research Datalink [CPRD](https://cprd.com/) supports public health and clinical studies in the UK, by maintaining a collection of anonymised health dataset representing UK population.
