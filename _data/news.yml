@@ -133,7 +133,7 @@
 - name: "All tools and resources are now described in the page text"
   date: 2023-08-18
   linked_pr: 1249
-  description: "All items in the 'Relevant tools and resources' tables are now mentioned in the text. This means you have context of when it is appropriate to use each one. Tools and resources in the text will also feature a popup providing extra information about them. These changes means there is a new way to contribute tools: see our [new guidelines](tool_resource_update)!"
+  description: "All items in the 'Tools and resources on this page' tables are now mentioned in the text. This means you have context of when it is appropriate to use each one. Tools and resources in the text will also feature a popup providing extra information about them. These changes means there is a new way to contribute tools: see our [new guidelines](tool_resource_update)!"
 - name: "New page: National resources Cyprus"
   date: 2023-08-22
   linked_pr: 1226
