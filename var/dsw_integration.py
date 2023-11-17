@@ -13,7 +13,7 @@ import yaml
 rootdir = 'pages/'
 DSWQuestion = collections.namedtuple('DSWQuestion', 'uuid, text')
 RDMKIT_PREFIX = 'https://rdmkit.elixir-europe.org'
-DSW_API_URL = 'https://researchers.ds-wizard.org/wizard-api/'
+DSW_API_URL = 'https://researchers.ds-wizard.org/wizard-api'
 DSW_KM_ID = 'dsw:root:latest'
 
 # --------- Functions ---------
