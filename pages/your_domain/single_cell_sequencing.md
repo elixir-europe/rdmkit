@@ -15,7 +15,7 @@ page_id: single_cell_sequencing
 
 In this section, we provide an overview of the data management challenges specific to single-cell sequencing experiments. Single-cell sequencing enables the analysis of gene expression at the individual cell level, leading to unique data management requirements due to the high dimensionality and complexity of the data. Single-cell sequencing encompasses a diverse array of techniques to sequence transcriptomics, epigenomics and combinations of multiple modalities (multiomics) at single-cell resolution, each presenting its own set of challenges and considerations. Additionally, the field embraces a wide range of data analysis approaches, further compounding the complexity. Consequently, addressing the standardized description and storage of data and associated metadata becomes paramount in this context. To ensure the reproducibility and reliability of research findings, it is crucial to proactively identify the specific steps in the data workflow that should be preserved. Moreover, decisions regarding data formats must be made collectively to facilitate seamless data sharing, collaboration, and long-term data preservation within the single-cell user community. This document aims to elucidate these challenges and provide practical guidance for navigating them effectively.
 
-###  Preprocessing and Quality Control
+###  Preprocessing and quality control
 
 Data preprocessing and quality control are integral components of the single-cell data analysis workflow, playing a pivotal role in ensuring the integrity of the data and facilitating accurate downstream analysis. These challenges encompass a spectrum of tasks aimed at enhancing the quality, reliability, and interpretability of the data, making them conducive for subsequent analysis.
 By comprehensively addressing data preprocessing and quality control, we aim to provide researchers with a robust framework for navigating these critical stages of the single-cell sequencing process. This includes strategies for addressing technical variability, identifying and mitigating low-quality cells or outliers, managing batch effects, and other sources of variability that may arise within and between datasets.
@@ -49,7 +49,7 @@ Following the execution of cell and gene assignment, post-processing steps come 
 
 Each of these elements needs to be provided with a comprehensive description. Including details on the normalization techniques applied, outlier removal strategies, and batch correction methods employed to enhance data quality and reliability.
 
-## Data Integration and Analysis Across Experiments
+## Data integration and analysis across experiments
 
 ### Description
 
@@ -66,7 +66,7 @@ The analysis of single-cell sequencing data frequently requires the integration 
 - **Data Integration & Data Comparison**: Use a built-in method for data integration & comparison (like [Seurat](https://satijalab.org/seurat/) or [Scanpy](https://scanpy.readthedocs.io/en/stable/)), including normalization, batch correction method and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison is reliable, meaning being careful that the cell type annotations are consistent with previous knowledge and that the number/cell repartition is relevant.
 - **Annotation Consistency**: Consistent metadata and annotation practices are needed, including standardized naming and format usage. Re-using terms from [UniProt](https://www.uniprot.org/) or [Gene Ontology](https://www.geneontology.org/) should be considered. 
 
-## Datatype Consistency and Interoperability Across Formats
+## Datatype consistency and interoperability across formats
 
 ### Description
 
@@ -86,7 +86,7 @@ The image above depicts the conversion routes of a popular conversion tool [SCEa
 - **Datatype Preferences**: The most common formats are AnnData and SeuratObject. There is waning support for Loom, CDS and SCE, though SCE is an important format on BioConductor and is a common datatype for sharing single-cell experiments in publications.
 - **Datatype Support**: Seurat and ScanPy are popular analysis workflows in Galaxy, and it might be important to ensure that there is consistent and stable conversion potential between the two.
 
-## Long-Term Data Storage and Accessibility
+## Long-term data storage and accessibility
 
 ### Description
 
