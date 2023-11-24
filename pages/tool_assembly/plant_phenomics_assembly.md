@@ -21,6 +21,9 @@ training:
   - name: PHIS developer documentation
     registry:
     url: https://opensilex.github.io/docs-community-dev/
+faircookbook:
+- name: Publishing plant phenotypic data
+  url: https://w3id.org/faircookbook/FCB083
 ---
 
 ## What is the plant phenomics tool assembly and who can use it?
