@@ -1,5 +1,5 @@
 ---
-title: "Single-Cell Sequencing"
+title: "Single-cell sequencing"
 description: "Managing data generated from single-cell sequencing experiments."
 contributors: [Johan Rollin, Pavankumar Videm, Mehmet Tekman, MeInBIo program, European Galaxy team, Freiburg University]
 related_pages:
