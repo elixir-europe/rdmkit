@@ -4,7 +4,7 @@ description: "Managing data generated from single-cell sequencing experiments."
 contributors: [Johan Rollin, Pavankumar Videm, Mehmet Tekman, MeInBIo program, European Galaxy team, Freiburg University]
 related_pages:
   your_tasks: [dmp, data_organisation, data_publication, metadata, storage]
-  tool_assembly: galaxy
+  tool_assembly: [galaxy]
   training:
   - name: Training in Galaxy
     registry: Galaxy
