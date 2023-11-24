@@ -5,7 +5,7 @@ contributors: [Johan Rollin, Pavankumar Videm, Mehmet Tekman]
 related_pages:
   your_tasks: [dmp, data_organisation, data_publication, metadata, storage]
   tool_assembly: [galaxy]
-  training:
+training:
   - name: Single-cell training on the Galaxy Training Network
     url: "https://usegalaxy.eu/training-material/topics/single-cell/"
 page_id: single_cell_sequencing
