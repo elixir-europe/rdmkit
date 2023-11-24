@@ -103,7 +103,6 @@ Niclas Jareborg:
     git: nicjar
     email: niclas.jareborg@nbis.se
     orcid: 0000-0002-4520-044X
-    role: editor
     affiliation: NBIS / ELIXIR-SE
 Elin Kronander:
     git: elinkronander
@@ -156,7 +155,7 @@ Emma Karoune:
 Graham Parton:
     git: gap736uk
     orcid: 0000-0003-4157-0352
-    affiliation: Science and Technology Facilities Council (STFC), UKRI
+    affiliation: Science and Technology Facilities Council (STFC) / UKRI
 Minna Ahokas:
     git: minnami
     email: minna.ahokas@csc.fi
@@ -173,6 +172,7 @@ Federico Bianchini:
     email: federico.bianchini@mn.uio.no
     orcid: 0000-0002-9016-4820
     role: editor
+    affiliation: University of Oslo / ELIXIR-NO
 Celia van Gelder:
     git: celiavg
     email: celia.vangelder@dtls.nl
@@ -219,7 +219,9 @@ Anne-Françoise Adam-Blondon:
     affiliation: INRAE / ELIXIR-FR
 Nazeefa Fatima:
     git: Nazeeefa
+    orcid: 0000-0001-7791-4984
     role: editor
+    affiliation: Centre for Bioinformatics, University of Oslo / ELIXIR-NO
 Ernesto Picardi:
     email: ernesto.picardi@uniba.it
     orcid: 0000-0002-6549-0114
@@ -495,9 +497,11 @@ Teresa D'Altri:
     orcid: 0000-0002-8146-5365
     affiliation: Center for Genomic Regulation
 Marina Popleteeva:
+    git: marikapop
     orcid: 0000-0002-8409-6147
     email: marina.popleteeva@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
+    role: editor
 Vilem Ded:
     git: vildead
     orcid: 0000-0001-9235-8496
@@ -524,17 +528,17 @@ Brane Leskošek:
     git: brane007
     orcid: 0000-0001-5202-2349
     email: brane.leskosek@mf.uni-lj.si
-    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
 Marko Vidak:
     git: marko-whatever
     orcid: 0000-0001-7901-3936
     email: marko.vidak@mf.uni-lj.si
-    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
 Nadja Žlender:
     git: nadja-zlender
     orcid: 0000-0001-5913-5530
     email: nadja.zlender@mf.uni-lj.si
-    affiliation: University of Ljubljana, Medical Faculty, ELIXIR-SI
+    affiliation: University of Ljubljana, Medical Faculty / ELIXIR-SI
 Dirk Winkelhardt:
     git: di-hardt
     orcid: 0000-0001-8770-2221
@@ -549,7 +553,7 @@ Anamika Chatterjee:
     git: anamikachatterjee
     orcid: 0000-0002-3215-7163
     email: anamika.chatterjee@ntnu.no
-    affiliation: Norwegian University of Science and Technology, Department of Biotechnology and Food Science, Centre for Digital Life Norway
+    affiliation: Norwegian University of Science and Technology / Centre for Digital Life Norway
 Polonca Ferk:
     orcid: 0000-0002-4541-3648
     email: polonca.ferk@mf.uni-lj.si
@@ -574,3 +578,9 @@ Styliani-Christina Fragkouli:
     orcid: 0000-0003-4067-7123
     email: sfragkoul@certh.gr
     affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR  
+Diana Pilvar:
+    git: diana-pilvar
+    email: diana.pilvar@ut.ee
+    orcid: 0000-0002-5788-2687
+    affiliation: University of Tartu / ELIXIR-Estonia
+    role: editor
