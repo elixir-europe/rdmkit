@@ -2297,3 +2297,88 @@
   registry:
     biotools: dataplan
   url: https://plan.nfdi4plants.org
+- description: Fast, sensitive and accurate integration of single-cell data.
+  id: harmony
+  name: Harmony
+  registry:
+    biotools: Harmony-R
+  url: https://github.com/immunogenomics/harmony
+- description: A database of manually curated cell markers in human/mouse and web tools based on scRNA-seq data.
+  id: cellmarker
+  name: CellMarker
+  registry:
+    biotools: cellmarker_2.0
+  url: http://bio-bigdata.hrbmu.edu.cn/CellMarker/
+- description: Seurat is an R package designed for QC, analysis, and exploration of single-cell RNA-seq data.
+  id: seurat
+  name: Seurat
+  registry:
+    biotools: seurat
+  url: https://satijalab.org/seurat/
+- description: Scalable toolkit for analyzing single-cell gene expression data. It includes preprocessing, visualization, clustering, pseudotime and trajectory inference and differential expression testing.
+  id: scanpy
+  name: Scanpy
+  registry:
+    biotools: scanpy
+  url: https://github.com/theislab/Scanpy
+- description: The Gene Ontology Consortium continues to develop, maintain and use a set of structured, controlled vocabularies for the annotation of genes, gene products and sequences.
+  id: gene-ontology
+  name: Gene Ontology
+  registry:
+    biotools: go
+  url: http://www.geneontology.org/
+- description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
+  id: anndata
+  name: AnnData
+  registry:
+    biotools: NA
+  url: https://anndata.readthedocs.io/en/latest/
+- description: Loom is an efficient file format for large omics datasets.
+  id: loom
+  name: Loom
+  registry:
+    biotools: NA
+  url: https://loompy.org/
+- description: The main class used by Monocle to hold single cell expression data. CellDataSet extends the basic Bioconductor ExpressionSet class.
+  id: celldataset
+  name: CellDataSet
+  registry:
+    biotools: NA
+  url: https://rdrr.io/bioc/monocle/man/CellDataSet.html
+- description: The SingleCellExperiment class is a lightweight Bioconductor container for storing and manipulating single-cell genomics data.
+  id: singlecellexperiment
+  name: SingleCellExperiment
+  registry:
+    biotools: NA
+  url: https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html
+- description: The Monocle 3 package provides a toolkit for analyzing single-cell gene expression experiments.
+   id: monocle
+  name: Monocle
+  registry:
+    biotools: monocle
+  url: https://cole-trapnell-lab.github.io/monocle3/
+- description: This package contains useful tools for the analysis of single-cell gene expression data.
+  id: scater
+  name: Scater
+  registry:
+    biotools: NA
+  url: https://github.com/jimhester/scater
+- description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
+  id: scEasy
+  name: SCEasy
+  registry:
+    biotools: NA
+  url: https://github.com/cellgeni/sceasy
+- description:  Interactive portal for single-cell genomics data.
+  id: single-cell-portal
+  name: Single Cell Portal
+  registry:
+    biotools: NA
+  url: https://singlecell.broadinstitute.org/single_cell?order=recent
+- description: An entry point for novices in the field of single-cell (multi-)omic analysis and guides advanced users to the most recent best practices.
+  id: single-cell-best-pratices
+  name: Single-cell best pratices
+  registry:
+    biotools: NA
+  url: https://www.sc-best-practices.org/preamble.html
+  

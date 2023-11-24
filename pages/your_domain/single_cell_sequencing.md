@@ -44,8 +44,8 @@ Following the execution of cell and gene assignment, post-processing steps come 
 
 - **Normalization and Transformation**: Consider using established methods such as shifted logarithm, variance stabilizing transformation (sctransform) or cell pool-based size factor estimators (scran) to address differences in sequencing depth and monitor data quality. Alternative normalization methods such as term frequency-inverse document frequency (TF-IDF) are well-suited for scATAC-seq data.
 - **Low-Quality Cell Detection**: Evaluate metrics like the number of detected genes per cell, mitochondrial gene content, and UMI counts to define quality criteria. The threshold for data quality acceptability is variable depending of several factors like the number of replicates or the type of organism (prokaryote, plant, animal...) used.
-- **Batch Effects Handling**: Examining your data to check that the most important elements for the clustering/cell comparison are biological and not technical. Exploring batch correction methods like [Harmony](https://www.nature.com/articles/s41592-019-0619-0) can help reduce technical biases in data integration. 
-- **Biological Annotation**: Use known marker genes or reference-based annotation to assign cell types or states to clusters. A database of known cell markers (like [CellMarker](http://117.50.127.228/CellMarker/index.html)) can be helpful.
+- **Batch Effects Handling**: Examining your data to check that the most important elements for the clustering/cell comparison are biological and not technical. Exploring batch correction methods like {% tool "harmony" %} can help reduce technical biases in data integration. 
+- **Biological Annotation**: Use known marker genes or reference-based annotation to assign cell types or states to clusters. A database of known cell markers (like {% tool "cellmarker" %}) can be helpful.
 
 Each of these elements needs to be provided with a comprehensive description. Including details on the normalization techniques applied, outlier removal strategies, and batch correction methods employed to enhance data quality and reliability.
 
@@ -63,18 +63,18 @@ The analysis of single-cell sequencing data frequently requires the integration 
 
 ### Solutions
 
-- **Data Integration & Data Comparison**: Use a built-in method for data integration & comparison (like [Seurat](https://satijalab.org/seurat/) or [Scanpy](https://scanpy.readthedocs.io/en/stable/)), including normalization, batch correction method and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison is reliable, meaning being careful that the cell type annotations are consistent with previous knowledge and that the number/cell repartition is relevant.
-- **Annotation Consistency**: Consistent metadata and annotation practices are needed, including standardized naming and format usage. Re-using terms from [UniProt](https://www.uniprot.org/) or [Gene Ontology](https://www.geneontology.org/) should be considered. 
+- **Data Integration & Data Comparison**: Use a built-in method for data integration & comparison (like {% tool "seurat" %} or {% tool "scanpy" %}), including normalization, batch correction method and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison is reliable, meaning being careful that the cell type annotations are consistent with previous knowledge and that the number/cell repartition is relevant.
+- **Annotation Consistency**: Consistent metadata and annotation practices are needed, including standardized naming and format usage. Re-using terms from {% tool "uniprot" %} or {% tool "gene-ontology" %} should be considered. 
 
 ## Datatype consistency and interoperability across formats
 
 ### Description
 
-Single-cell sequencing data is encoded into many different competing formats, with HDF5-compatible formats such as [AnnData](https://anndata.readthedocs.io/en/latest/) and [Loom](https://linnarssonlab.org/loompy/format/index.html), as well as other commonly-used formats such as [SeuratObject](https://search.r-project.org/CRAN/refmans/SeuratObject/html/SeuratObject-package.html), [CellDataSet](https://rdrr.io/bioc/monocle/man/CellDataSet.html) (CDS) and [SingleCellExperiment](https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html) (SCE). Each of these formats is favoured by their respective analysis suites; Scanpy, Seurat, [Monocle](https://cole-trapnell-lab.github.io/monocle3/) and [Scater](https://github.com/jimhester/scater).
+Single-cell sequencing data is encoded into many different competing formats, with HDF5-compatible formats such as {% tool "anndata" %} and {% tool "loom" %}, as well as other commonly-used formats such as {% tool "seurat" %}, {% tool "celldataset" %} (CDS) and {% tool "singlecellexperiment" %} (SCE). Each of these formats is favoured by their respective analysis suites; {% tool "scanpy" %}, {% tool "seurat" %}, {% tool "monocle" %} and {% tool "scater" %}.
 
 ![conversion routes via SCEasy](https://raw.githubusercontent.com/galaxyproject/tools-iuc/c6b28d9b29287d19e778267acf787bd7e53e1178/tools/sceasy/static/images/conv.png)
 
-The image above depicts the conversion routes of a popular conversion tool [SCEasy](https://github.com/cellgeni/sceasy), which demonstrates the limited conversion potential between the different formats. Indeed, data are stored in a matrix composed of different layers, converting the format may lead to the loss of some of them as described in the image. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
+The image above depicts the conversion routes of a popular conversion tool {% tool "scEasy" %}, which demonstrates the limited conversion potential between the different formats. Indeed, data are stored in a matrix composed of different layers, converting the format may lead to the loss of some of them as described in the image. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
 
 ### Considerations
 
@@ -105,9 +105,9 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Ethical Data Handling**: Emphasize the importance of informed consent and ethical considerations in data-sharing agreements.
 
-- **Collaboration Platforms**: Explore version control systems (e.g., [Git](https://git-scm.com/)), data sharing platforms (e.g., [Zenodo](https://zenodo.org/)), data analysis platforms (e.g., [Galaxy](https://galaxyproject.org/)), and domain-specific repositories (e.g., [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell?order=recent)) to facilitate efficient data sharing, analysis, and collaboration.
+- **Collaboration Platforms**: Explore version control systems (e.g., {% tool "git" %}), data sharing platforms (e.g., {% tool "zenodo" %}), data analysis platforms (e.g., {% tool "galaxy" %}), and domain-specific repositories (e.g., {% tool "single-cell-portal" %}) to facilitate efficient data sharing, analysis, and collaboration.
 
-- **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerization technologies like [Docker](https://www.docker.com/) to encapsulate analysis environments to ensure analysis can be reproduced with the exact same tools version. Particularly, [BioContainers](https://biocontainers.pro/) comes in handy when dealing with bioinformatics tools. Emphasize the importance of documenting analysis workflows, code, and metadata using standardized formats and sharing them in version-controlled repositories. Galaxy provides a solution for containerization, versioning, workflow management and reproducibility for novice users.
+- **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerization technologies like {% tool "docker" %} to encapsulate analysis environments to ensure analysis can be reproduced with the exact same tools version. Particularly, {% tool "biocontainers" %} comes in handy when dealing with bioinformatics tools. Emphasize the importance of documenting analysis workflows, code, and metadata using standardized formats and sharing them in version-controlled repositories. Galaxy provides a solution for containerization, versioning, workflow management and reproducibility for novice users.
 
 ## Analysis step description and format proposal
 
@@ -142,13 +142,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
     - *Explanation*: Following community-specific metadata standards, if available, ensures consistency and compatibility with other datasets.
 
 By preserving these steps and data in standardized and accessible formats, researchers can enhance the reproducibility of single-cell sequencing experiments, facilitate collaboration, and ensure that others can validate and build upon their work effectively. Other additional files can be kept if useful for the interpretation (e.g., for scATAC, the results files containing sequence fragments or mapping can be important, they should be kept in standardized format: tsv, bam, bed or bigwig). 
+An overview of the best practice can be found following the {% tool "single-cell-best-pratices" %}
 
-## Relevant Tools and Resources
-
-
-
-- Review of single cell best practices: Heumos, L., Schaar, A.C., Lance, C. et al. Best practices for single-cell analysis across modalities. Nat Rev Genet 24, 550–572 (2023) [https://doi.org/10.1038/s41576-023-00586-w](https://doi.org/10.1038/s41576-023-00586-w)
-
-- The single cell best practice book by the single-cell best practices consortium: [https://www.sc-best-practices.org/preamble.html](https://www.sc-best-practices.org/preamble.html)
 
 <!-- Feel free to add more sections or subsections as needed. -->
