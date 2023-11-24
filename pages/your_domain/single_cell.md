@@ -1,7 +1,7 @@
 ---
 title: "Single-Cell Sequencing"
 description: "Managing data generated from single-cell sequencing experiments."
-contributors: [Johan Rollin, MeInBIo program, Freiburg university, Collaborator's Name, add your name]
+contributors: [Johan Rollin, Pavankumar Videm, MeInBIo program, Freiburg University]
 output: pdf_document
 related_pages:
   your_tasks: [dmp, data_organisation, data_publication, metadata, storage]
@@ -25,15 +25,15 @@ By comprehensively addressing data preprocessing and quality control, we aim to 
 ## Data analysis rational
 
 ### Description
-Preprocessing encompasses tasks such as removal of empty droplets, quality control, batch correction, data normalization, and transformation to mitigate technical variations. These steps aim to ensure that the data is in a suitable state for downstream analysis.
-Then, the next step's central objectives include the identification of individual cells within the dataset, the assignment of gene expression profiles to each cell, and the generation of count matrices that represent the expression levels of thousands of genes across all cells. To do so, tools like CellRanger (for 10x data) or STARsolo (more generic and open source tool that supports various droplet- and platelet-based data) are used to facilitate the crucial process of cell and gene assignment. These tools are specifically designed to take the raw sequencing data and process it into quantifiable and interpretable information. This transformation of raw data into structured, cell-by-gene matrices is fundamental for downstream analyses, such as clustering cells by similar gene expression profiles, identifying cell types or inferring cell evolution trajectories. In essence, CellRanger and STARsolo play a pivotal role in converting large and complex sequencing data into a format that researchers can subsequently explore to extract these aforementioned biological insights.
+Preprocessing encompasses tasks such as the removal of empty droplets, quality control, batch correction, data normalization, and transformation to mitigate technical variations. These steps aim to ensure that the data is in a suitable state for downstream analysis.
+Then, the next step's central objectives include the identification of individual cells within the dataset, the assignment of gene expression profiles to each cell, and the generation of count matrices that represent the expression levels of thousands of genes across all cells. To do so, tools like CellRanger (for 10x data) or STARsolo (a more generic and open-source tool that supports various droplet- and plate-based data) are used to facilitate the crucial process of cell and gene assignment. These tools are specifically designed to take the raw sequencing data and process it into quantifiable and interpretable information. This transformation of raw data into structured, cell-by-gene matrices is fundamental for downstream analyses, such as clustering cells by similar gene expression profiles, identifying cell types or inferring cell evolution trajectories. In essence, CellRanger and STARsolo play a pivotal role in converting large and complex sequencing data into a format that researchers can subsequently explore to extract these aforementioned biological insights.
 Following the execution of cell and gene assignment, post-processing steps come into play. These post-processing stages involve activities like efficient clustering of cells and biologically relevant annotation of clusters. By carefully orchestrating both pre- and post-processing phases, researchers can enhance the quality, reliability, and interpretability of their single-cell sequencing data, ultimately leading to more accurate and biologically meaningful insights.
 
 ### Considerations
 ##### Pre-cell/gene assignation
 
-- **Normalization and Transformation**: Determine how to effectively normalize and transform the data to account for technical variability.
 - **Low-Quality Cell Detection**: Explore methods for identifying and removing low-quality cells or outliers from the dataset.
+- **Normalization and Transformation**: Determine how to effectively normalize and transform the data to account for technical variability.
 
 
 ##### Post-cell/gene assignation
@@ -44,12 +44,12 @@ Following the execution of cell and gene assignment, post-processing steps come 
 
 ### Solutions
 
-- **Normalization and Transformation**: Consider using established methods such as shifted logarithm, variance stabilizing transformation (sctransform) or cell pool-based size facor estimators (scran) to address differences in sequencing depth and monitor data quality. Alternative normalization methods such as term frequency inverse document frequency (TF-IDF) are well-suited for scATAC-seq data.
-- **Low-Quality Cell Detection**: Evaluate metrics like the number of detected genes per cell, mitochondrial gene content, and UMI counts to define quality criteria. The threshold for data quality acceptability is variable depending of several factors like the number of replicates or the type of organism (procaryote, plant, animal...) used.
-- **Batch Effects Handling**: Examining you data to check that the most important elements for the clustering/cell comparison are biological and not technical. Exploring batch correction methods like [Harmony](https://www.nature.com/articles/s41592-019-0619-0) can help reduce technical biases in data integration. 
-- **Biological Annotation**: Use known marker genes or reference-based annotation to assign cell types or states to clusters. Database of knwon cell markers (like [CellMarker](http://117.50.127.228/CellMarker/index.html)) can be helpful.
+- **Normalization and Transformation**: Consider using established methods such as shifted logarithm, variance stabilizing transformation (sctransform) or cell pool-based size factor estimators (scran) to address differences in sequencing depth and monitor data quality. Alternative normalization methods such as term frequency-inverse document frequency (TF-IDF) are well-suited for scATAC-seq data.
+- **Low-Quality Cell Detection**: Evaluate metrics like the number of detected genes per cell, mitochondrial gene content, and UMI counts to define quality criteria. The threshold for data quality acceptability is variable depending of several factors like the number of replicates or the type of organism (prokaryote, plant, animal...) used.
+- **Batch Effects Handling**: Examining your data to check that the most important elements for the clustering/cell comparison are biological and not technical. Exploring batch correction methods like [Harmony](https://www.nature.com/articles/s41592-019-0619-0) can help reduce technical biases in data integration. 
+- **Biological Annotation**: Use known marker genes or reference-based annotation to assign cell types or states to clusters. A database of known cell markers (like [CellMarker](http://117.50.127.228/CellMarker/index.html)) can be helpful.
 
-Each of these elements need to be provided with a comprehensive description. Including details on the normalization techniques applied, outlier removal strategies, and batch correction methods employed to enhance data quality and reliability.
+Each of these elements needs to be provided with a comprehensive description. Including details on the normalization techniques applied, outlier removal strategies, and batch correction methods employed to enhance data quality and reliability.
 
 ## Data Integration and Analysis Across Experiments
 
@@ -59,24 +59,24 @@ The analysis of single-cell sequencing data frequently requires the integration 
 
 ### Considerations
 
-- **Data Integration**:  How can we integrate data from different experiments while accounting for differences in experimental conditions? (ie. sample WT vs KO with several time point)
-- **Data Comparison**: What approaches can be used to identify shared cell types and biological signals across datasets? (ie. sample WT vs KO comparison scATAC- and scRNA-seq)
+- **Data Integration**:  How can we integrate data from different experiments while accounting for differences in experimental conditions? (eg. sample WT vs KO with several time points)
+- **Data Comparison**: What approaches can be used to identify shared cell types and biological signals across datasets? (eg. sample WT vs KO comparison scATAC- and scRNA-seq)
 - **Annotation Consistency**: How should we manage metadata and annotations to ensure consistent interpretation across experiments?
 
 ### Solutions
 
-- **Data Integration & Data Comparison**: Use built-in method for data integration & comparison (like [Seurat](https://satijalab.org/seurat/) or [Scanpy](https://scanpy.readthedocs.io/en/stable/) ), including normalization, batch correction methods and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison made make sense meanning beeing careful that the celltype annotations are consistent and that the number/cell repartition is relevant.
-- **Annotation Consistency**: Emphasize the need for consistent metadata and annotation practices, including standardized naming and format usage. 
+- **Data Integration & Data Comparison**: Use a built-in method for data integration & comparison (like [Seurat](https://satijalab.org/seurat/) or [Scanpy](https://scanpy.readthedocs.io/en/stable/)), including normalization, batch correction method and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison is reliable, meaning being careful that the cell type annotations are consistent with previous knowledge and that the number/cell repartition is relevant.
+- **Annotation Consistency**: Consistent metadata and annotation practices are needed, including standardized naming and format usage. Re-using terms from [UniProt](https://www.uniprot.org/) or [Gene Ontology](https://www.geneontology.org/) should be considered. 
 
 ## Datatype Consistency and Interoperability Across Formats
 
 ### Description
 
-Single-cell sequencing data is encoded into many different competing formats, with HDF5-compatible formats such as [AnnData](https://anndata.readthedocs.io/en/latest/) and [Loom](https://linnarssonlab.org/loompy/format/index.html), as well as other commonly-used formats such as [SeuratObject](https://search.r-project.org/CRAN/refmans/SeuratObject/html/SeuratObject-package.html), [CellDataSet](https://rdrr.io/bioc/monocle/man/CellDataSet.html) (CDS) and [SingleCellExperiment](https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html) (SCE). Each of these formats are favoured by their respective analysis suites; Scanpy, Seurat, [Monocle](https://cole-trapnell-lab.github.io/monocle3/) and [Scater](https://github.com/jimhester/scater).
+Single-cell sequencing data is encoded into many different competing formats, with HDF5-compatible formats such as [AnnData](https://anndata.readthedocs.io/en/latest/) and [Loom](https://linnarssonlab.org/loompy/format/index.html), as well as other commonly-used formats such as [SeuratObject](https://search.r-project.org/CRAN/refmans/SeuratObject/html/SeuratObject-package.html), [CellDataSet](https://rdrr.io/bioc/monocle/man/CellDataSet.html) (CDS) and [SingleCellExperiment](https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html) (SCE). Each of these formats is favoured by their respective analysis suites; Scanpy, Seurat, [Monocle](https://cole-trapnell-lab.github.io/monocle3/) and [Scater](https://github.com/jimhester/scater).
 
 ![conversion routes via SCEasy](https://raw.githubusercontent.com/galaxyproject/tools-iuc/c6b28d9b29287d19e778267acf787bd7e53e1178/tools/sceasy/static/images/conv.png)
 
-The image above depicts the conversion routes of a popular conversion tool [SCEasy](https://github.com/cellgeni/sceasy), which demonstrates the limited conversion potential between the different formats. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
+The image above depicts the conversion routes of a popular conversion tool [SCEasy](https://github.com/cellgeni/sceasy), which demonstrates the limited conversion potential between the different formats. Indeed, data are stored in a matrix composed of different layers, converting the format may lead to the loss of some of them as described in the image. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
 
 ### Considerations
 
@@ -103,15 +103,15 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 ### Solutions
 
-- **Effective Archiving**: Use established data repositories like GEO (Gene Expression Omnibus) or ArrayExpress for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archieved at Sequence Read Archive or European Nucleotide Archive.
+- **Effective Archiving**: Use established data repositories like GEO (Gene Expression Omnibus) or ArrayExpress for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at Sequence Read Archive or European Nucleotide Archive.
 
-- **Ethical Data Handling**: Emphasize the importance of informed consent and ethical considerations in data sharing agreements.
+- **Ethical Data Handling**: Emphasize the importance of informed consent and ethical considerations in data-sharing agreements.
 
 - **Collaboration Platforms**: Explore version control systems (e.g., [Git](https://git-scm.com/)), data sharing platforms (e.g., [Zenodo](https://zenodo.org/)), data analysis platforms (e.g., [Galaxy](https://galaxyproject.org/)), and domain-specific repositories (e.g., [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell?order=recent)) to facilitate efficient data sharing, analysis, and collaboration.
 
-- **Enhancing Reproducibility**: Provide guidance on enhancing reproducibility, including the use of containerization technologies like [Docker](https://www.docker.com/) to encapsulate analysis environments. Particularly, [BioContainers](https://biocontainers.pro/) comes in handy when dealing with bioinformatics tools. Emphasize the importance of documenting analysis workflows, code, and metadata using standardized formats and sharing them in version-controlled repositories. Galaxy provides one stop solution for containerization, versioning, workflow management and reproducibility for novice users.
+- **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerization technologies like [Docker](https://www.docker.com/) to encapsulate analysis environments to ensure analysis can be reproduced with the exact same tools version. Particularly, [BioContainers](https://biocontainers.pro/) comes in handy when dealing with bioinformatics tools. Emphasize the importance of documenting analysis workflows, code, and metadata using standardized formats and sharing them in version-controlled repositories. Galaxy provides a solution for containerization, versioning, workflow management and reproducibility for novice users.
 
-## analysis step desription and format proposal
+## Analysis step description and format proposal
 
 - **Raw Sequencing Data**:
     - *Data Type*: Raw FASTQ files for sequencing reads.
@@ -119,9 +119,9 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
     - *Explanation*: Raw sequencing data is typically stored in compressed FASTQ format (*.fastq.gz). This format retains the original sequencing reads and is space-efficient. Compressed files reduce storage requirements while preserving data integrity.
 
 - **Cell-Gene Assignment**:
-    - *Data Type*: Cell-gene assignment matrix indicating gene expression levels per cell. Additionally, gene and cell annotations (for eg. gene symbols or batches, time points, genotypes) are added. 
+    - *Data Type*: Cell-gene assignment matrix indicating gene expression levels per cell. Additionally, gene and cell annotations (eg. gene symbols or batches, time points, genotypes) are added. 
     - *Format*: Standardized data matrix format, such as h5, h5ad or CSV.
-    - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardized format like h5 h5ad or CSV as it will allow the modification needed for the next step while being readable by most single cell tool.
+    - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardized format like h5 h5ad or CSV as it will allow the modification needed for the next step while being readable by most single-cell tools.
 
 - **Dimensionality Reduction and Clustering**:
     - *Data Type*: Reduced-dimension representations (e.g., PCA, t-SNE) and cell clusters.
@@ -135,15 +135,15 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Analysis Code and Environment**:
     - *Data Type*: All code and scripts used for data preprocessing, analysis, and visualization.
-    - *Format*: Version-controlled repositories using Git, ideally, container files to capture analysis environments should be used. Detailed documentation for code execution should be provided.
-    - *Explanation*: Analysis code and scripts should be version-controlled using Git repositories. Additionally, capturing the analysis environment using Docker or Singularity container files help to ensure reproducibility. Detailed documentation of code execution is essential for transparency and re-suability.
+    - *Format*: Version-controlled repositories using Git, or container files to capture analysis environments should be used. Detailed documentation for code execution should be provided.
+    - *Explanation*: Analysis code and scripts should be version-controlled using Git repositories. Additionally, capturing the analysis environment using Docker or Singularity container files helps to ensure reproducibility. Detailed documentation of code execution is essential for transparency and re-usability.
 
 - **Metadata**:
     - *Data Type*: Comprehensive metadata describing experimental conditions, sample information, and data processing steps.
     - *Format*: Structured metadata files in widely accepted formats like JSON, CSV or Excel spreadsheets, following community-specific metadata standards if available.
     - *Explanation*: Following community-specific metadata standards, if available, ensures consistency and compatibility with other datasets.
 
-By preserving these steps and data in standardized and accessible formats, researchers can enhance the reproducibility of single-cell sequencing experiments, facilitate collaboration, and ensure that others can validate and build upon their work effectively. Other additional file can be kept if useful for the interpretaion (e.g., for scATAC, the results files containing sequences fragments or mapping can be important, they should be kept in standardize format: tsv, bam, bed or bigwig). 
+By preserving these steps and data in standardized and accessible formats, researchers can enhance the reproducibility of single-cell sequencing experiments, facilitate collaboration, and ensure that others can validate and build upon their work effectively. Other additional files can be kept if useful for the interpretation (e.g., for scATAC, the results files containing sequence fragments or mapping can be important, they should be kept in standardized format: tsv, bam, bed or bigwig). 
 
 ## Relevant Tools and Resources
 
@@ -153,5 +153,4 @@ By preserving these steps and data in standardized and accessible formats, resea
 
 - The single cell best practice book by the single-cell best practices consortium: [https://www.sc-best-practices.org/preamble.html](https://www.sc-best-practices.org/preamble.html)
 
-List relevant tools and resources that researchers can use to address the data management challenges discussed in this protocol. Include links to tools, software, and databases that facilitate data preprocessing, analysis, integration, and storage in the context of single-cell sequencing experiments.
 <!-- Feel free to add more sections or subsections as needed. -->
