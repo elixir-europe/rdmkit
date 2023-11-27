@@ -74,7 +74,7 @@ Single-cell sequencing data is encoded into many different competing formats, wi
 
 ![conversion routes via SCEasy](https://raw.githubusercontent.com/galaxyproject/tools-iuc/c6b28d9b29287d19e778267acf787bd7e53e1178/tools/sceasy/static/images/conv.png)
 
-The image above depicts the conversion routes of a popular conversion tool {% tool "scEasy" %}, which demonstrates the limited conversion potential between the different formats. Indeed, data are stored in a matrix composed of different layers, converting the format may lead to the loss of some of them as described in the image. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
+The image above depicts the conversion routes of a popular conversion tool {% tool "sceasy" %}, which demonstrates the limited conversion potential between the different formats. Indeed, data are stored in a matrix composed of different layers, converting the format may lead to the loss of some of them as described in the image. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
 
 ### Considerations
 
