@@ -65,7 +65,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
     * Docking respositories
       * {% tool "molssi" %} - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
       * {% tool "pdb-dev" %} - prototype archiving system for structural models using integrative or hybrid modeling, [with submission process](https://pdb-dev.wwpdb.org/deposit.html).
-      * [Model Archive](https://www.modelarchive.org/) - theoretical models of macromolecular structures, [with submission process](https://www.modelarchive.org/projects/new/basic).
+      * {% tool "modelarchive" %} - theoretical models of macromolecular structures, [with submission process](https://modelarchive.org/account).
 
     * Virtual Screening repositories:
       * {% tool "bioactive-conformational-ensemble" %} - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
