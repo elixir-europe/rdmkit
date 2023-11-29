@@ -132,7 +132,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
     - *Explanation*: Biologically meaningful annotations, including cell types and differential gene expression results, should be stored in structured formats. Visualisations like heatmaps or volcano plots should be included in standard visual formats for easy interpretation.
 
 - **Analysis Code and Environment**:
-    - *Data Type*: All code and scripts used for data preprocessing, analysis, and visualization.
+    - *Data Type*: All code and scripts used for data preprocessing, analysis, and visualisation.
     - *Format*: Version-controlled repositories using Git, or container files to capture analysis environments should be used. Detailed documentation for code execution should be provided.
     - *Explanation*: Analysis code and scripts should be version-controlled using Git repositories. Additionally, capturing the analysis environment using Docker or Singularity container files helps to ensure reproducibility. Detailed documentation of code execution is essential for transparency and re-usability.
 
