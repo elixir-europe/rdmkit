@@ -47,7 +47,7 @@ Following the execution of cell and gene assignment, post-processing steps come 
 - **Batch Effects Handling**: Examining your data to check that the most important elements for the clustering/cell comparison are biological and not technical. Exploring batch correction methods like {% tool "harmony" %} can help reduce technical biases in data integration. 
 - **Biological Annotation**: Use known marker genes or reference-based annotation to assign cell types or states to clusters. A database of known cell markers (like {% tool "cellmarker" %}) can be helpful.
 
-Each of these elements needs to be provided with a comprehensive description. Including details on the normalization techniques applied, outlier removal strategies, and batch correction methods employed to enhance data quality and reliability.
+Each of these elements needs to be provided with a comprehensive description. Including details on the normalisation techniques applied, outlier removal strategies, and batch correction methods employed to enhance data quality and reliability.
 
 ## Data integration and analysis across experiments
 
