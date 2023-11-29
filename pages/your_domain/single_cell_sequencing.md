@@ -63,7 +63,7 @@ The analysis of single-cell sequencing data frequently requires the integration 
 
 ### Solutions
 
-- **Data Integration & Data Comparison**: Use a built-in method for data integration & comparison (like {% tool "seurat" %} or {% tool "scanpy" %}), including normalization, batch correction method and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison is reliable, meaning being careful that the cell type annotations are consistent with previous knowledge and that the number/cell repartition is relevant.
+- **Data Integration & Data Comparison**: Use a built-in method for data integration & comparison (like {% tool "seurat" %} or {% tool "scanpy" %}), including normalisation, batch correction method and dimensionality reduction techniques to see their effect. Here the difficulty is to make sure the integration/comparison is reliable, meaning being careful that the cell type annotations are consistent with previous knowledge and that the number/cell repartition is relevant.
 - **Annotation Consistency**: Consistent metadata and annotation practices are needed, including standardized naming and format usage. Re-using terms from {% tool "uniprot" %} or {% tool "gene-ontology" %} should be considered. 
 
 ## Datatype consistency and interoperability across formats
