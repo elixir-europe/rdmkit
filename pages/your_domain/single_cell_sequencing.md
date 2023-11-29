@@ -59,7 +59,7 @@ The analysis of single-cell sequencing data frequently requires the integration 
 
 - **Data Integration**:  How can we integrate data from different experiments while accounting for differences in experimental conditions? (e.g. sample WT vs KO with several time points)
 - **Data Comparison**: What approaches can be used to identify shared cell types and biological signals across datasets? (eg. sample WT vs KO comparison scATAC- and scRNA-seq)
-- **Annotation Consistency**: How should we manage metadata and annotations to ensure consistent interpretation across experiments?
+- **Annotation Consistency**: How should we manage metadata and annotations to ensure a consistent interpretation across experiments?
 
 ### Solutions
 
