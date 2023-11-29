@@ -31,7 +31,7 @@ Following the execution of cell and gene assignment, post-processing steps come 
 ##### Pre-cell/gene assignation
 
 - **Low-Quality Cell Detection**: Explore methods for identifying and removing low-quality cells or outliers from the dataset.
-- **Normalization and Transformation**: Determine how to effectively normalize and transform the data to account for technical variability.
+- **Normalisation and Transformation**: Determine how to effectively normalise and transform the data to account for technical variability.
 
 
 ##### Post-cell/gene assignation
