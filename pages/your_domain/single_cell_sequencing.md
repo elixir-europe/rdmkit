@@ -107,7 +107,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Collaboration Platforms**: Explore version control systems (e.g., {% tool "git" %}), data sharing platforms (e.g., {% tool "zenodo" %}), data analysis platforms (e.g., {% tool "galaxy" %}), and domain-specific repositories (e.g., {% tool "single-cell-portal" %}) to facilitate efficient data sharing, analysis, and collaboration.
 
-- **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerization technologies like {% tool "docker" %} to encapsulate analysis environments to ensure analysis can be reproduced with the exact same tools version. Particularly, {% tool "biocontainers" %} comes in handy when dealing with bioinformatics tools. Emphasize the importance of documenting analysis workflows, code, and metadata using standardized formats and sharing them in version-controlled repositories. Galaxy provides a solution for containerization, versioning, workflow management and reproducibility for novice users.
+- **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerisation technologies like {% tool "docker" %} to encapsulate analysis environments to ensure analysis can be reproduced with the exact same tool version. Particularly, {% tool "biocontainers" %} comes in handy when dealing with bioinformatics tools. Emphasise the importance of documenting analysis workflows, code, and metadata using standardised formats and sharing them in version-controlled repositories. Galaxy provides a solution for containerisation, versioning, workflow management and reproducibility for novice users.
 
 ## Analysis step description and format proposal
 
