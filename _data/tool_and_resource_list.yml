@@ -2373,3 +2373,13 @@
   id: starsolo
   name: STARsolo
   url: https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md
+- description: HDF5 consists of a file format for storing HDF5 data, a data model for logically organizing and accessing HDF5 data from an application, and the software (libraries, language interfaces, and tools) for working with this format.
+  id: hierarchical-data-format 
+  name: Hierarchical Data Format 
+  url: https://www.10xgenomics.com/support/software/cell-ranger/analysis/outputs/cr-outputs-h5-matrices
+- description: Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data.
+  id: sequence-read-archive 
+  name: Sequence Read Archive 
+  url: https://www.ncbi.nlm.nih.gov/sra
+
+

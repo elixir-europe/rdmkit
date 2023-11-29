@@ -70,7 +70,7 @@ The analysis of single-cell sequencing data frequently requires the integration 
 
 ### Description
 
-Single-cell sequencing data is encoded into many different competing formats, with HDF5-compatible formats such as {% tool "anndata" %} and {% tool "loom" %}, as well as other commonly-used formats such as {% tool "seurat" %}, {% tool "celldataset" %} (CDS) and {% tool "singlecellexperiment" %} (SCE). Each of these formats is favoured by their respective analysis suites; {% tool "scanpy" %}, {% tool "seurat" %}, {% tool "monocle" %} and {% tool "scater" %}.
+Single-cell sequencing data is encoded into many different competing formats, with  {% tool "hierarchical-data-format" %} (HDF5)-compatible formats such as {% tool "anndata" %} and {% tool "loom" %}, as well as other commonly-used formats such as {% tool "seurat" %}, {% tool "celldataset" %} (CDS) and {% tool "singlecellexperiment" %} (SCE). Each of these formats is favoured by their respective analysis suites; {% tool "scanpy" %}, {% tool "seurat" %}, {% tool "monocle" %} and {% tool "scater" %}.
 
 ![conversion routes via SCEasy](https://raw.githubusercontent.com/galaxyproject/tools-iuc/c6b28d9b29287d19e778267acf787bd7e53e1178/tools/sceasy/static/images/conv.png)
 
@@ -83,8 +83,8 @@ The image above depicts the conversion routes of a popular conversion tool {% to
 
 ### Solutions
 
-- **Datatype Preferences**: The most common formats are AnnData and SeuratObject. There is waning support for Loom, CDS and SCE, though SCE is an important format on BioConductor and is a common datatype for sharing single-cell experiments in publications.
-- **Datatype Support**: Seurat and ScanPy are popular analysis workflows in Galaxy, and it might be important to ensure that there is consistent and stable conversion potential between the two.
+- **Datatype Preferences**: The most common formats are AnnData from {% tool "scanpy" %} and SeuratObject from {% tool "seurat" %}. There is waning support for {% tool "loom" %}, {% tool "celldataset" %} and {% tool "singlecellexperiment" %}, though {% tool "singlecellexperiment" %} is an important format on BioConductor and is a common datatype for sharing single-cell experiments in publications.
+- **Datatype Support**: {% tool "seurat" %} and {% tool "scanpy" %} are popular analysis workflows in {% tool "galaxy" %}, and it might be important to ensure that there is consistent and stable conversion potential between the two.
 
 ## Long-term data storage and accessibility
 
@@ -101,13 +101,13 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 ### Solutions
 
-- **Effective Archiving**: Use established data repositories like GEO (Gene Expression Omnibus) or ArrayExpress for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at Sequence Read Archive or European Nucleotide Archive.
+- **Effective Archiving**: Use established data repositories like {% tool "gene-expression-omnibus" %} (GEO) or {% tool "arrayexpress" %} for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at {% tool "sequence-read-archive" %} or {% tool "european-nucleotide-archive" %}. 
 
 - **Ethical Data Handling**: Emphasise the importance of informed consent and ethical considerations in data-sharing agreements.
 
 - **Collaboration Platforms**: Explore version control systems (e.g., {% tool "git" %}), data sharing platforms (e.g., {% tool "zenodo" %}), data analysis platforms (e.g., {% tool "galaxy" %}), and domain-specific repositories (e.g., {% tool "single-cell-portal" %}) to facilitate efficient data sharing, analysis, and collaboration.
 
-- **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerisation technologies like {% tool "docker" %} to encapsulate analysis environments to ensure analysis can be reproduced with the exact same tool version. Particularly, {% tool "biocontainers" %} comes in handy when dealing with bioinformatics tools. Emphasise the importance of documenting analysis workflows, code, and metadata using standardised formats and sharing them in version-controlled repositories. Galaxy provides a solution for containerisation, versioning, workflow management and reproducibility for novice users.
+- **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerisation technologies like {% tool "docker" %} to encapsulate analysis environments to ensure analysis can be reproduced with the exact same tool version. Particularly, {% tool "biocontainers" %} comes in handy when dealing with bioinformatics tools. Emphasise the importance of documenting analysis workflows, code, and metadata using standardised formats and sharing them in version-controlled repositories. {% tool "galaxy" %} provides a solution for containerisation, versioning, workflow management and reproducibility for novice users.
 
 ## Analysis step description and format proposal
 
@@ -118,8 +118,8 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Cell-Gene Assignment**:
     - *Data Type*: Cell-gene assignment matrix indicating gene expression levels per cell. Additionally, gene and cell annotations (e.g. gene symbols or batches, time points, genotypes) are added. 
-    - *Format*: Standardised data matrix format, such as h5, h5ad or CSV.
-    - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardised format like h5 h5ad or CSV as it will allow the modification needed for the next step while being readable by most single-cell tools.
+    - *Format*: Standardised data matrix format, such as {% tool "hierarchical-data-format" %} (h5), h5ad from {% tool "anndata" %} or CSV.
+    - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardised format like {% tool "hierarchical-data-format" %} (h5), h5ad from {% tool "anndata" %} or CSV as it will allow the modification needed for the next step while being readable by most single-cell tools.
 
 - **Dimensionality Reduction and Clustering**:
     - *Data Type*: Reduced-dimension representations (e.g., PCA, t-SNE) and cell clusters.
