@@ -2365,4 +2365,11 @@
   id: single-cell-best-pratices
   name: Single-cell best pratices
   url: https://www.sc-best-practices.org/preamble.html
-  
+- description: A set of analysis pipelines that perform sample demultiplexing, barcode processing, single cell gene counting, V(D)J transcript sequence assembly and annotation, and Feature Barcode analysis from single cell data.
+  id: cellranger
+  name: CellRanger 
+  url: https://www.10xgenomics.com/support/software/cell-ranger
+- description: A comprehensive turnkey solution for quantifying gene expression in single-cell/nucleus RNA-seq data, built into RNA-seq aligner STAR.
+  id: starsolo
+  name: STARsolo
+  url: https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md
