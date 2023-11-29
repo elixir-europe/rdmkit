@@ -117,7 +117,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
     - *Explanation*: Raw sequencing data is typically stored in compressed FASTQ format (*.fastq.gz). This format retains the original sequencing reads and is space-efficient. Compressed files reduce storage requirements while preserving data integrity.
 
 - **Cell-Gene Assignment**:
-    - *Data Type*: Cell-gene assignment matrix indicating gene expression levels per cell. Additionally, gene and cell annotations (eg. gene symbols or batches, time points, genotypes) are added. 
+    - *Data Type*: Cell-gene assignment matrix indicating gene expression levels per cell. Additionally, gene and cell annotations (e.g. gene symbols or batches, time points, genotypes) are added. 
     - *Format*: Standardized data matrix format, such as h5, h5ad or CSV.
     - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardized format like h5 h5ad or CSV as it will allow the modification needed for the next step while being readable by most single-cell tools.
 
