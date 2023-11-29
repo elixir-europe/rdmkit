@@ -103,7 +103,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Effective Archiving**: Use established data repositories like GEO (Gene Expression Omnibus) or ArrayExpress for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at Sequence Read Archive or European Nucleotide Archive.
 
-- **Ethical Data Handling**: Emphasize the importance of informed consent and ethical considerations in data-sharing agreements.
+- **Ethical Data Handling**: Emphasise the importance of informed consent and ethical considerations in data-sharing agreements.
 
 - **Collaboration Platforms**: Explore version control systems (e.g., {% tool "git" %}), data sharing platforms (e.g., {% tool "zenodo" %}), data analysis platforms (e.g., {% tool "galaxy" %}), and domain-specific repositories (e.g., {% tool "single-cell-portal" %}) to facilitate efficient data sharing, analysis, and collaboration.
 
