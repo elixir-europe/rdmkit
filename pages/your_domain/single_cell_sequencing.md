@@ -118,13 +118,13 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Cell-Gene Assignment**:
     - *Data Type*: Cell-gene assignment matrix indicating gene expression levels per cell. Additionally, gene and cell annotations (e.g. gene symbols or batches, time points, genotypes) are added. 
-    - *Format*: Standardized data matrix format, such as h5, h5ad or CSV.
-    - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardized format like h5 h5ad or CSV as it will allow the modification needed for the next step while being readable by most single-cell tools.
+    - *Format*: Standardised data matrix format, such as h5, h5ad or CSV.
+    - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardised format like h5 h5ad or CSV as it will allow the modification needed for the next step while being readable by most single-cell tools.
 
 - **Dimensionality Reduction and Clustering**:
     - *Data Type*: Reduced-dimension representations (e.g., PCA, t-SNE) and cell clusters.
-    - *Format*: Include plots and files in common data visualization formats (e.g., PDF, PNG).
-    - *Explanation*: Visual formats like PDF and PNG allow easy sharing and visualization.
+    - *Format*: Include plots and files in common data visualisation formats (e.g., PDF, PNG).
+    - *Explanation*: Visual formats like PDF and PNG allow easy sharing and visualisation.
 
 - **Annotation and Biological Interpretation**:
     - *Data Type*: Annotated cell types, differential gene expression results, and any other biologically meaningful annotations.
