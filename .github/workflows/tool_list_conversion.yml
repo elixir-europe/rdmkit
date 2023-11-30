@@ -55,10 +55,6 @@ jobs:
         run: | 
           python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
 
-      - name: Fetch country names with corresponding iso
-        run: |
-          python var/country_list.py
-
       - name: Update markdown pages with DSW links
         run: |
           python var/dsw_integration.py

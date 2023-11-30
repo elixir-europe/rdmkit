@@ -9,7 +9,7 @@ related_pages:
   your_domain: [plants]
   tool_assembly: [plant_pheno_assembly]
 faircookbook:
-- name: Improving dataset maturity - the MIAPPE use case
+- name: Improving dataset maturity - MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
 ---
 

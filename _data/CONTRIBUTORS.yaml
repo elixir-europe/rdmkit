@@ -103,7 +103,6 @@ Niclas Jareborg:
     git: nicjar
     email: niclas.jareborg@nbis.se
     orcid: 0000-0002-4520-044X
-    role: editor
     affiliation: NBIS / ELIXIR-SE
 Elin Kronander:
     git: elinkronander
@@ -173,6 +172,7 @@ Federico Bianchini:
     email: federico.bianchini@mn.uio.no
     orcid: 0000-0002-9016-4820
     role: editor
+    affiliation: University of Oslo / ELIXIR-NO
 Celia van Gelder:
     git: celiavg
     email: celia.vangelder@dtls.nl
@@ -219,7 +219,9 @@ Anne-Françoise Adam-Blondon:
     affiliation: INRAE / ELIXIR-FR
 Nazeefa Fatima:
     git: Nazeeefa
+    orcid: 0000-0001-7791-4984
     role: editor
+    affiliation: Centre for Bioinformatics, University of Oslo / ELIXIR-NO
 Ernesto Picardi:
     email: ernesto.picardi@uniba.it
     orcid: 0000-0002-6549-0114
@@ -495,9 +497,11 @@ Teresa D'Altri:
     orcid: 0000-0002-8146-5365
     affiliation: Center for Genomic Regulation
 Marina Popleteeva:
+    git: marikapop
     orcid: 0000-0002-8409-6147
     email: marina.popleteeva@uni.lu
     affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
+    role: editor
 Vilem Ded:
     git: vildead
     orcid: 0000-0001-9235-8496
@@ -573,9 +577,15 @@ Styliani-Christina Fragkouli:
     git: sfragkoul
     orcid: 0000-0003-4067-7123
     email: sfragkoul@certh.gr
-    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR  
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR
 Sveinung Gundersen:
     git: sveinugu
     orcid: 0000-0001-9888-7954
     email: sveinugu@ifi.uio.no
     affiliation: ELIXIR Norway  
+Diana Pilvar:
+    git: diana-pilvar
+    email: diana.pilvar@ut.ee
+    orcid: 0000-0002-5788-2687
+    affiliation: University of Tartu / ELIXIR-Estonia
+    role: editor

@@ -58,7 +58,6 @@ ref_to_main_resources:
   - e-dal-pgp
   - fairdom-seek
   - pangaea
-  - silva
   - dataplan
 
 ---

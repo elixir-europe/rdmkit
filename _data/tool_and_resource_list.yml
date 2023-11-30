@@ -534,6 +534,7 @@
   name: Data Catalog
   registry:
     fairsharing: NA
+    tess: Data Catalog
   url: https://datacatalog.elixir-luxembourg.org/
 - description: DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
   id: data-catalog-vocabulary
