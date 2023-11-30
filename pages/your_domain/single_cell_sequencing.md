@@ -141,7 +141,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
     - *Format*: Structured metadata files in widely accepted formats like JSON, CSV or Excel spreadsheets, following community-specific metadata standards if available.
     - *Explanation*: Following community-specific metadata standards, if available, ensures consistency and compatibility with other datasets.
 
-By preserving these steps and data in standardised and accessible formats, researchers can enhance the reproducibility of single-cell sequencing experiments, facilitate collaboration, and ensure that others can validate and build upon their work effectively. Other additional files can be kept if useful for the interpretation (e.g. for scATAC-seq, the results files containing sequence fragments or mapping can be important, they should be kept in standardized format: tsv, bam, bed or bigwig). 
+By preserving these steps and data in standardised and accessible formats, researchers can enhance the reproducibility of single-cell sequencing experiments, facilitate collaboration, and ensure that others can validate and build upon their work effectively. Other additional files can be kept if useful for the interpretation (e.g. for scATAC-seq, the results files containing sequence fragments or mapping can be important, they should be kept in standardised format: tsv, bam, bed or bigwig). 
 An overview of the best practice can be found following the {% tool "single-cell-best-pratices" %}
 
 
