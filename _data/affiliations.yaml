@@ -160,3 +160,9 @@
   expose: yes
   type: infrastructure
   url: https://www.bbmri.nl/
+- name: EMBL-EBI
+  image_url: /images/institutions/Ebi_official_logo.png
+  pid: https://ror.org/02catss52
+  expose: yes
+  type: project
+  url: https://www.ebi.ac.uk/

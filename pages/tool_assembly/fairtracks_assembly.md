@@ -3,7 +3,7 @@ title: FAIRtracks
 contributors: [Federico Bianchini, Sveinung Gundersen]
 description: FAIRtracks
 page_id: fairtracks
-affiliations: ["NO", "ES", "EBI"]
+affiliations: ["NO", "ES", "EMBL-EBI"]
 related_pages: 
   your_tasks: [data_publication, data_transfer, metadata]
   your_domain: [human_pathogen_genomics, plants]
