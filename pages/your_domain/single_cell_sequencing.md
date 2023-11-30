@@ -128,7 +128,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 - **Annotation and Biological Interpretation**:
     - *Data Type*: Annotated cell types, differential gene expression results, and any other biologically meaningful annotations.
-    - *Format*: Structured and standardised annotation files, such as Excel spreadsheets, CSV or JSON, alongside visualizations like heatmaps or volcano plots in common visualization formats.
+    - *Format*: Structured and standardised annotation files, such as Excel spreadsheets, CSV or JSON, alongside visualisations like heatmaps or volcano plots in common visualisation formats.
     - *Explanation*: Biologically meaningful annotations, including cell types and differential gene expression results, should be stored in structured formats. Visualisations like heatmaps or volcano plots should be included in standard visual formats for easy interpretation.
 
 - **Analysis Code and Environment**:
