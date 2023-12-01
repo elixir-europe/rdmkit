@@ -6,7 +6,7 @@ contributors: [Nazeefa Fatima,Federico Bianchini,Korbinian Bösl,Erin Calhoun]
 coordinators: [Korbinian Bösl, Nazeefa Fatima]
 
 related_pages:
-  tool_assembly: [tsd, nels, marine_assembly]
+  tool_assembly: [tsd, nels, marine_assembly, fairtracks]
 
 training:
   - name: Training in TeSS
