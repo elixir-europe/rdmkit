@@ -84,7 +84,7 @@ national_resources:
     how_to_access: A formal application is required to gain access to the storage services.
     related_pages:
       your_tasks: [transfer, storage]
-      tool_assembly: [nels]
+      tool_assembly: [nels, fairtracks]
     url: https://documentation.sigma2.no/files_storage/nird.html
   - name: Sigma2 HPC systems
     description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
