@@ -1,7 +1,7 @@
 ---
 title: FAIRtracks
 contributors: [Federico Bianchini, Sveinung Gundersen]
-description: FAIRtracks
+description: The FAIRtracks ecosystem provides technical solutions for the FAIRification of genome browser track files
 page_id: fairtracks
 affiliations: ["NO", "ES", "EMBL-EBI"]
 related_pages: 
