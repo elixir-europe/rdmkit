@@ -56,7 +56,7 @@ national_resources:
       your_tasks: [sensitive, existing_data, data_publication]
       tool_assembly: [covid-19_data_portal]
     url: https://covid19dataportal.no/
-  - name: Norwegian Federated EGA
+  - name: Federated EGA Norway node
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
     how_to_access: Life Science Login (LS Login); intended for data from Norwegian institutions
     instance_of: the-european-genome-phenome-archive
