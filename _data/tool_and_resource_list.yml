@@ -1606,7 +1606,7 @@
   registry:
     biotools: rd-connect_platform
     tess: RD-Connect Genome Phenome Analysis Platform
-  url: https://rd-connect.eu/what-we-do/omics/gpap/
+  url: https://platform.rd-connect.eu
 - description: Directory of standard metadata, divided into different research areas
   id: rda-standards
   name: RDA Standards
