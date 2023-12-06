@@ -589,3 +589,18 @@ Diana Pilvar:
     orcid: 0000-0002-5788-2687
     affiliation: University of Tartu / ELIXIR-Estonia
     role: editor
+Johan Rollin:
+    git: johrollin
+    email: johan.rollin@anat.uni-freiburg.de
+    orcid: 0000-0002-9564-7872
+    affiliation: University of Freiburg / MeInBio program
+Mehmet Tekman:
+    git: mtekman
+    email: tekman@informatik.uni-freiburg.de
+    orcid: 0000-0002-4181-2676
+    affiliation: University of Freiburg / European Galaxy team
+Pavankumar Videm:
+    git: pavanvidem
+    email: videmp@informatik.uni-freiburg.de
+    orcid: 0000-0002-5192-126X
+    affiliation: University of Freiburg / European Galaxy team

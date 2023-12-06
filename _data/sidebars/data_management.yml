@@ -51,6 +51,8 @@ subitems:
         url: /proteomics
       - title: Rare disease data
         url: /rare_disease_data
+      - title: Single-cell sequencing
+        url: /single_cell_sequencing
       - title: Structural bioinformatics
         url: /structural_bioinformatics
       - title: Toxicology data
