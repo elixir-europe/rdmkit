@@ -2381,5 +2381,6 @@
   id: sequence-read-archive 
   name: Sequence Read Archive 
   url: https://www.ncbi.nlm.nih.gov/sra
-
+  registry:
+    fairsharing: g7t2hv
 
