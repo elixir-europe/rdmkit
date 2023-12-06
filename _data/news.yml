@@ -146,3 +146,7 @@
   date: 2023-09-14
   linked_pr: 1375
   description: This page gives insights about working on aspects in the management of research data that can raise ethical issues. [Discover the page here](ethics).
+- name: "New page: Single-cell sequencing"
+  date: 2023-12-06
+  linked_pr: 1413
+  description: A "your domain" page about Rare disease data. [Discover the page here](single_cell_sequencing).
