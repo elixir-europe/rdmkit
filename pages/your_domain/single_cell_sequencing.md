@@ -72,9 +72,9 @@ The analysis of single-cell sequencing data frequently requires the integration 
 
 Single-cell sequencing data is encoded into many different competing formats, with  {% tool "hierarchical-data-format" %} (HDF5)-compatible formats such as {% tool "anndata" %} and {% tool "loom" %}, as well as other commonly-used formats such as {% tool "seurat" %}, {% tool "celldataset" %} (CDS) and {% tool "singlecellexperiment" %} (SCE). Each of these formats is favoured by their respective analysis suites; {% tool "scanpy" %}, {% tool "seurat" %}, {% tool "monocle" %} and {% tool "scater" %}.
 
-![Figure 1: Conversion routes for different datatypes from sceasy](https://raw.githubusercontent.com/galaxyproject/tools-iuc/c6b28d9b29287d19e778267acf787bd7e53e1178/tools/sceasy/static/images/conv.png)
+{% include image.html file="single_cell_img.png" caption="Figure 1: Conversion routes for different datatypes from sceasy" alt="Conversion routes for different datatypes from sceasy" %}
 
-The image depicts the conversion routes of a popular conversion tool {% tool "sceasy" %}, which demonstrates the limited conversion potential between the different formats. Indeed, data are stored in a matrix composed of different layers, converting the format may lead to the loss of some of them as described in the image. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
+Figure 1 depicts the conversion routes of a popular conversion tool {% tool "sceasy" %}, which demonstrates the limited conversion potential between the different formats. Indeed, data are stored in a matrix composed of different layers, converting the format may lead to the loss of some of them as described in the image. Some of these formats use different programming languages to perform the conversion, such as the Loom format which requires a Python component.
 
 ### Considerations
 
