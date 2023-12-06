@@ -103,21 +103,25 @@ defaults:
       path: "pages/your_domain/"
     values:
       type: your_domain
+      datatable: true
   -
     scope:
       path: "pages/your_tasks/"
     values:
       type: your_tasks
+      datatable: true
   -
     scope:
       path: "pages/your_role/"
     values:
       type: your_role
+      datatable: true
   -
     scope:
       path: "pages/tool_assembly/"
     values:
       type: tool_assembly
+      datatable: true
   -
     scope:
       path: "pages/national_resources/"
