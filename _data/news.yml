@@ -137,16 +137,16 @@
 - name: "New page: National resources Cyprus"
   date: 2023-08-22
   linked_pr: 1226
-  description: This page gives an insight in RDM on national level in Cyprus. [Discover the page here](cy_resources)
+  description: This page gives insight into RDM on the national level in Cyprus. [Discover the page here](cy_resources)
 - name: "New page: National resources Slovenia"
   date: 2023-08-28
   linked_pr: 1280
-  description: This page gives an insight in RDM on national level in Slovenia. [Discover the page here](si_resources)
+  description: This page gives insight into RDM on the national level in Slovenia. [Discover the page here](si_resources)
 - name: "New page: Ethical aspects"
   date: 2023-09-14
   linked_pr: 1375
-  description: This page gives insights about working on aspects in the management of research data that can raise ethical issues. [Discover the page here](ethics).
+  description: This page gives insights about working on aspects of managing research data that can raise ethical issues. [Discover the page here](ethics).
 - name: "New page: Single-cell sequencing"
   date: 2023-12-06
   linked_pr: 1413
-  description: A new "your domain" page about Single-cell sequencing got added. [Discover the page here](single_cell_sequencing).
+  description: A new "your domain" page about Single-cell sequencing was added. [Discover the page here](single_cell_sequencing).
