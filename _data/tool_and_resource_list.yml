@@ -2349,10 +2349,10 @@
   registry:
     biotools: monocle
   url: https://cole-trapnell-lab.github.io/monocle3/
-- description: This package contains useful tools for the analysis of single-cell gene expression data.
+- description: Scater offers a collection of tools for analysis (such as quality control) for single-cell gene expression data.
   id: scater
   name: Scater
-  url: https://github.com/jimhester/scater
+  url: https://bioconductor.org/packages/release/bioc/html/scater.html
 - description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
   id: sceasy
   name: SCEasy
@@ -2360,7 +2360,7 @@
 - description:  Interactive portal for single-cell genomics data.
   id: single-cell-portal
   name: Single Cell Portal
-  url: https://singlecell.broadinstitute.org/single_cell?order=recent
+  url: https://singlecell.broadinstitute.org/single_cell
 - description: An entry point for novices in the field of single-cell (multi-)omic analysis and guides advanced users to the most recent best practices.
   id: single-cell-best-pratices
   name: Single-cell best pratices
