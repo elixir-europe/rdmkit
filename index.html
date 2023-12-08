@@ -6,6 +6,7 @@ layout: none
 <!doctype html>
 <html lang="en">
 {% include head.html %}
+
 <body>
     {% if jekyll.environment == "development" %}{% include dev-info.html %}{% endif %}
     {% include topnav.html search=false %}
@@ -24,8 +25,7 @@ layout: none
                         <div class="d-flex justify-content-center">
                             <form role="search" class="input-group">
                                 <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
-                                <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
-                                    placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                                <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
                             </form>
                             <div id="search-results" class="search-results"></div>
                         </div>
@@ -40,15 +40,15 @@ layout: none
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                     {%- for folder in sidebar.subitems %}
                     <div class="col">
-                            <div class="card bg-white h-100">
-                                <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto" alt="{{folder.title}} icon">
-                                <div class="card-body text-center">
-                                    <a href="{{ folder.url | relative_url }}" class="stretched-link">
-                                        <h3 class="card-title no-anchor text-primary">{{folder.title}}</h3>
-                                    </a>
-                                    <p class="card-text">{{folder.description}}</p>
-                                </div>
+                        <div class="card bg-white h-100">
+                            <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto" alt="{{folder.title}} icon">
+                            <div class="card-body text-center">
+                                <a href="{{ folder.url | relative_url }}" class="stretched-link">
+                                    <h3 class="card-title no-anchor text-primary">{{folder.title}}</h3>
+                                </a>
+                                <p class="card-text">{{folder.description}}</p>
                             </div>
+                        </div>
                         </a>
                     </div>
                     {%- endfor %}
@@ -64,7 +64,7 @@ layout: none
                     <div class="col-lg-7">
                         <h2>We welcome contributors!</h2>
                         <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}"><b>amazing
-                            community contributors</b></a>. RDMkit is an open community project, and you are welcome to join us!
+                                    community contributors</b></a>. RDMkit is an open community project, and you are welcome to join us!
                         </p>
                     </div>
                     <div class="col-lg-3 my-auto">
@@ -77,78 +77,136 @@ layout: none
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                    {% include news.html caption=true title=true limit=3 %}
+                        {% include news.html caption=true title=true limit=3 %}
                     </div>
                     <div class="col-lg-6 mt-3 mt-lg-0">
-                    {% include events.html title=true event_type="upcoming_event" %}
+                        {% include events.html title=true event_type="upcoming_event" %}
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container my-5">
-            <h2 class="mt-5 mb-3">RDMkit in numbers</h2>
-            {%- assign contributors = site.data.CONTRIBUTORS %}
-            {%- for page in site.pages %}
-            {%- if page.contributors and page.search_exclude != true %}
-            {%- assign pagecontr = page.contributors | join: ", " %}
-            {%- if allcontrstr %}
-            {%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
-            {%- else %}
-            {%- assign allcontrstr = allcontrstr | append: pagecontr %}
-            {%- endif %}
-            {%- endif %}
-            {%- endfor %}
-            {%- for contr in contributors %}
-            {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
-            {%- endfor %}
-            {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
-            {%- assign tools = site.data.tool_and_resource_list -%}
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-3">
+        <section class="container py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h2 class="mb-3">Testimonials</h2>
+                    <p class="mb-4 pb-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                        numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+                        quisquam eum porro a pariatur veniam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
                 <div class="col">
-                    <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
-                        <div class="row g-1 flex-grow-1">
-                            <div class="col-7">
-                                <span class="count-number text-primary">{{allcontributors.size}}</span>
-                                <p><b>Contributors</b><br>
-                                    The force behind RDMkit</p>
-                            </div>
-                            <div class="col-5 my-auto">
-                                <img class="h-icon-4" src="{{ '/assets/img/section-icons/users-light.svg' | relative_url }}" alt="Contributors icon">
-                            </div>
-                        </div>
+                    <div class="bg-light d-flex flex-column align-items-center rounded p-4 text-center h-100">
+                        <img src="https://www.nih.gov/sites/default/files/about-nih/2012-logo.png" class="rounded-circle mb-3" width="100" height="100" />
+
+                        <h5 class="fw-bold mb-2">Teresa May</h5>
+                        <h5 class="fw-bold mb-3 text-muted">Founder at ET Company</h5>
+                        <p class="mb-2">
+                            <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat
+                            ad velit ab hic tenetur.
+                        </p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
-                        {%- assign national_tools = 0 %}
-                        {%- assign country_pages = site.pages | where: "type", "national_resources" | where:
-                        "search_exclude", false %}
-                        {%- for country_page in country_pages %}
-                        {%- assign national_tools = national_tools | plus: country_page.national_resources.size %}
-                        {%- endfor %}
-                        <div class="row g-1 flex-grow-1">
-                            <div class="col-7">
-                                <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
-                                <p><b>Tools & resources</b><br>
-                                    Explained in the context of real world problems</p>
-                            </div>
-                            <div class="col-5 my-auto">
-                                <img class="h-icon-4" src="{{ '/assets/img/section-icons/gears-light.svg' | relative_url }}" alt="Contributors icon">
-                            </div>
-                        </div>
+                    <div class="bg-light d-flex flex-column align-items-center rounded p-3 text-center h-100">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(15).webp" class="rounded-circle mb-3" width="100" height="100" />
+
+                        <h5 class="fw-bold mb-2">Maggie McLoan</h5>
+                        <h5 class="fw-bold mb-3 text-muted">Photographer at Studio LA</h5>
+                        <p class="mb-2">
+                            <i class="fas fa-quote-left pe-2"></i>Autem, totam debitis suscipit saepe
+                            sapiente magnam officiis quaerat necessitatibus odio assumenda perferendis
+                            labore laboriosam.
+                        </p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
-                        {%- assign content_pages = site.pages | where: "search_exclude", false %}
-                        <div class="row g-1 flex-grow-1">
-                            <div class="col-7">
-                                <span class="count-number text-primary">{{content_pages.size}}</span>
-                                <p><b>Pages</b><br>
-                                    Helping you with data management</p>
+                    <div class="bg-light d-flex flex-column align-items-center rounded p-3 text-center h-100">
+
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp" class="rounded-circle mb-3" width="100" height="100" />
+
+                        <h5 class="fw-bold mb-2">Alexa Horwitz</h5>
+                        <h5 class="fw-bold mb-3 text-muted">Front-end Developer in NY</h5>
+                        <p class="mb-2">
+                            <i class="fas fa-quote-left pe-2"></i>Cras sit amet nibh libero, in gravida
+                            nulla metus scelerisque ante sollicitudin commodo cras purus odio,
+                            vestibulum in tempus viverra turpis.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-3">RDMkit in numbers</h2>
+                {%- assign contributors = site.data.CONTRIBUTORS %}
+                {%- for page in site.pages %}
+                {%- if page.contributors and page.search_exclude != true %}
+                {%- assign pagecontr = page.contributors | join: ", " %}
+                {%- if allcontrstr %}
+                {%- assign allcontrstr = allcontrstr | append: ", " | append: pagecontr %}
+                {%- else %}
+                {%- assign allcontrstr = allcontrstr | append: pagecontr %}
+                {%- endif %}
+                {%- endif %}
+                {%- endfor %}
+                {%- for contr in contributors %}
+                {%- assign allcontrstr = allcontrstr | append: ", " | append: contr[0] %}
+                {%- endfor %}
+                {%- assign allcontributors = allcontrstr | split: ", " | uniq | sort %}
+                {%- assign tools = site.data.tool_and_resource_list %}
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-3">
+                    <div class="col">
+                        <div class="bg-white d-flex align-items-center rounded p-3 text-center h-100">
+                            <div class="row g-1 flex-grow-1">
+                                <div class="col-7">
+                                    <span class="count-number text-primary">{{allcontributors.size}}</span>
+                                    <p><b>Contributors</b><br>
+                                        The force behind RDMkit</p>
+                                </div>
+                                <div class="col-5 my-auto">
+                                    <img class="h-icon-4" src="{{ '/assets/img/section-icons/users-light.svg' | relative_url }}" alt="Contributors icon">
+                                </div>
                             </div>
-                            <div class="col-5 my-auto">
-                                <img class="h-icon-4" src="{{ '/assets/img/section-icons/file-lines-light.svg' | relative_url }}" alt="Contributors icon">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white d-flex align-items-center rounded p-3 text-center h-100">
+                            {%- assign national_tools = 0 %}
+                            {%- assign country_pages = site.pages | where: "type", "national_resources" | where:
+                            "search_exclude", false %}
+                            {%- for country_page in country_pages %}
+                            {%- assign national_tools = national_tools | plus: country_page.national_resources.size %}
+                            {%- endfor %}
+                            <div class="row g-1 flex-grow-1">
+                                <div class="col-7">
+                                    <span class="count-number text-primary">{{tools.size | plus: national_tools }}</span>
+                                    <p><b>Tools & resources</b><br>
+                                        Explained in the context of real world problems</p>
+                                </div>
+                                <div class="col-5 my-auto">
+                                    <img class="h-icon-4" src="{{ '/assets/img/section-icons/gears-light.svg' | relative_url }}" alt="Contributors icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white d-flex align-items-center rounded p-3 text-center h-100">
+                            {%- assign content_pages = site.pages | where: "search_exclude", false %}
+                            <div class="row g-1 flex-grow-1">
+                                <div class="col-7">
+                                    <span class="count-number text-primary">{{content_pages.size}}</span>
+                                    <p><b>Pages</b><br>
+                                        Helping you with data management</p>
+                                </div>
+                                <div class="col-5 my-auto">
+                                    <img class="h-icon-4" src="{{ '/assets/img/section-icons/file-lines-light.svg' | relative_url }}" alt="Contributors icon">
+                                </div>
                             </div>
                         </div>
                     </div>
