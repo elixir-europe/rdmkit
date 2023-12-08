@@ -1,39 +1,30 @@
 ---
 title: How to contribute to RDMkit
+toc: false
 ---
+
+This project is only possible with the many [community contributors](https://rdmkit.elixir-europe.org/contributors). RDMkit is an open project where everyone can contribute to the site.
+
+If you wish to contribute to this community-led project, we ask you to remember the following for better consistency and efficiency: 
+
+* Follow our [style guide](https://rdmkit.elixir-europe.org/style_guide).
+* Ensure your content respects copyright. Please follow our[ Copyright guidelines](https://rdmkit.elixir-europe.org/copyright).
+* Provide acknowledgement for all your contributions.
+
 
 ## Ways of contributing
 
-Everyone is welcome to contribute to this site, and we've tried to make it as easy as possible. Choose a way that suits you. The website is hosted on GitHub, so:
+* Google Doc. If you are unfamiliar with Git and prefer to use a classic document editor, follow [the Google Doc way](https://rdmkit.elixir-europe.org/google_doc_way)
+* GitHub. If you are unfamiliar with Git but want to try contributing on GitHub with no technical knowledge required, follow [our step-by-step instructions](https://rdmkit.elixir-europe.org/github_way)
+* Git. If you are familiar with Git, fork the repo and create a pull request following our [instructions](https://rdmkit.elixir-europe.org/working_with_git)
 
-* **If you are not familiar with Git** but want to give it a try on GitHub: follow [our step-by-step instructions](github_way) (no technical knowledge required!).
-* **If you are happier using Google Docs**: follow [the Google Doc way](google_doc_way).
-* **If you are familiar with Git**: fork the repo and create a pull request (see our [instructions](working_with_git)).
-* **If you just want to make a quick suggestion**: submit your comments/suggestions using the form below.
 
-## Contributor responsibilities
+## Acknowledgement and ownership of content
 
-When writing for this website keep in mind the following:
+Contributors will be shown at the bottom of each page and on the main [contributors page](https://rdmkit.elixir-europe.org/contributors). if listed in the metadata of the markdown file. All contributors will also be displayed on the. If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
 
-* For the sake of consistency, please follow our [style guide](style_guide).
-* It is your responsibility to make sure that the content you provide respects copyright. Please follow our [Copyright guidelines](copyright).
-* Please read our [Markdown cheat sheet](markdown_cheat_sheet) in order to be able to fill in the page metadata and to format the layout correctly.
-* To avoid having to resolve many issues during the revision process, please check the [Editors checklist](editors_checklist) and make sure you have complied with the requirements.
-* If others were involved in your contribution, by writing up or by providing resources such as diagrams or links, please make sure you acknowledge them in the contributors' section of your page, after receiving their permission.
+No single contributor or editor owns the site's content or has the right to dictate what the content should be. The content on the RDMkit is community-led, with many people contributing to each section. Hence, decisions are driven by consensus among the contributors and editors.
 
-## Acknowledgement of contributors
-
-Contributors will be shown at the bottom of the page if listed in the metadata of the markdown file. All contributors will also be displayed in the [contributors page](contributors). If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
-
-## Ownership of content
-
-No single contributor or editor owns the content of the site, or has the right to dictate what the content should be. The content on the RDMkit is a community effort, with many people contributing. Decisions are driven by consensus among the contributors and editors.
-
-The content is periodically updated, which means that if you create content in an RDMkit page, others can change the content without notifying you. However, the RDMkit editors ensure that content is only modified for good reasons. The RDMkit editors try to ensure that the legitimate concerns and different point of views of all contributors are accommodated, and that the content reflects the most popular consensus on any given topic.
+Since content is periodically updated, others may change your contribution without notifying you. However, the RDMkit editors ensure that content is only modified for good reasons, ensuring that all legitimate concerns and different points of view are accommodated and that the content reflects the most popular consensus on any given topic.
 
 If you find any content unsatisfactory, please feel free to [create an issue](https://github.com/elixir-europe/rdmkit/issues/new/choose) about it.
-
-
-## Making a quick suggestion
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfw1hcOlXcgJ1mImx_37WLnA160SPObP8crEdkSRVEAX2AIrw/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;" class="mt-1">Loading…</iframe>
