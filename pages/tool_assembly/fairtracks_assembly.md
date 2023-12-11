@@ -34,7 +34,7 @@ alt="FAIRtracks RDMkit" %}
 
 The FAIRtracks ecosystem is available to everyone.
 Distinct services are hosted on different platforms which might require authentication procedures which are not handled centrally by FAIRtracks.
-Most of the services are accessible through Application Programming Interfaces (APIs). More detials is provided in the description below.
+Most of the services are accessible through Application Programming Interfaces (APIs). More details are provided in the description below.
 Users of the FAIRtracks ecosystem belong to different categories, which could be summarised as:
 
 - Researchers and data analysts
@@ -46,14 +46,14 @@ Users of the FAIRtracks ecosystem belong to different categories, which could be
 Each of these categories benefits specifically from a subset of the global ecosystem.
 The core services can be accessed both upstream (for data providers and biocurators) and downstream (for tool developers and analytical end users).
 
-## For what can you use the FAIRtracks data management tool assembly?
+## For what can you use the FAIRtracks tool assembly?
 
-The FAIRtracks tool assembly can be used for a large number of applications; we summarise the main ones below following the steps of data life-cycle
-and focusing on the particular tools. 
+The FAIRtracks tool assembly can be used for a large number of applications; we summarise the main ones below following the steps of the data life-cycle
+and focusing on particular tools. 
 
 While the assembly does not include a tool for [Data Management Planning](dmp),
 the FAIRtracks metadata standard is registered in {%tool "fairsharing" %}
-and, thus, formally connected to a number of other standards and databases.
+and, thus, formally connected to several other standards and databases.
 The FAIRtracks standard can, thus, be selected on your Data Management Plan in all the instances of {% tool "data-stewardship-wizard" %} through
 the integration with FAIRsharing. 
 
@@ -70,16 +70,16 @@ There is ongoing work into adding {%tool "prefect" %} as one of the services ava
 [National Infrastructure for Research Data (NIRD) service platform](https://www.sigma2.no/nird-service-platform).
 This would enable running {%tool "omnipy" %} on data and metadata stored in the [NIRD data storage](https://www.sigma2.no/data-storage).
 Refer also to the [Norwegian national page](no_resources) for more details. Note that, while the usage of NIRD storage and services
-is certainly of convenient for Norwegian users, this is not a central or mandatory part of the tool assembly which is born as an international
+is certainly convenient for Norwegian users, this is not a central or mandatory part of the tool assembly which is born as an international
 service and aims at maintaining this status.
 
-Data [sharing](sharing) and preservation is one of the key component of the FAIRtracks ecosystem.
+Data [sharing](sharing) and preservation is one of the key components of the FAIRtracks ecosystem.
 Since genomic annotations (tracks) typically consist of secondary data files referring to primary data sources,
 they are often deposited together with the primary data. The aim of the minimal information metadata model is to
-offer a greater level of granularity, providing each track with an identifyer and enabling the possibility of analysis across datasets
+offer a greater level of granularity, providing each track with an identifier and enabling the possibility of analysis across datasets
 in a semi-automatised fashion. In order to accomplish this a dedicated registry would be required. Given that this tool does not yet exist,
-the current reccomendation is to deposit FAIRtracks-compliant metadata files to {%tool "zenodo" %},
-as this platform supports both Digital Object identifier (DOI) versioning and DOI reservation prior to publication.
+the current recommendation is to deposit FAIRtracks-compliant metadata files to {%tool "zenodo" %},
+as this platform supports both Digital Object identifier (DOI) versioning and DOI reservation before publication.
 The identifiers on the metadata FAIRtracks object are then cross-linked with the actual data which is hosted
 e.g. in a [Track Hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html) and registered in
 the {%tool "track-hub-registry" %}.
@@ -88,7 +88,7 @@ Data and metadata organised in this fashion can then be collected for [reuse](re
 a search and curation engine for genomic tracks.
 {%tool "trackfind" %} supports crawling of the {%tool "track-hub-registry" %} and other data portals to fetch track metadata,
 that can be accessed through hierarchical browsing or by search queries both through a web-based user interface and as a RESTful API.
-TrackFind supports advanced SQL-based queries that can be easily built in the user interface.
+TrackFind supports advanced SQL-based queries that can be easily built into the user interface.
 
 Additional tools that comprise the core of the FAIRtracks ecosystem are the
 [metadata validation](https://fairtracks.net/services/?category=Core%20services&tags%5B0%5D=Metadata%20validation) and the
