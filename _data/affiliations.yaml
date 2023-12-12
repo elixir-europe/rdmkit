@@ -77,7 +77,7 @@
   type: funder
   url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
 - name: Research Council of Norway
-  image_url: /images/funders/Forskningsradet_Stottet-logo_Engelsk_01_Weller_RGB.svg
+  image_url: /images/funders/Forskningsdagene_Ikon_Rod_RGB.svg
   pid: http://dx.doi.org/10.13039/501100005416
   expose: true
   type: funder
