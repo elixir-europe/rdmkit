@@ -28,6 +28,12 @@
   pid: https://ror.org/03zga2b32
   expose: true
   type: institution
+- name: University of Oslo
+  url: https://www.uio.no/english/index.html
+  image_url: /images/institutions/UiO_logo.svg
+  pid: https://ror.org/01xtthb56
+  expose: true
+  type: institution
 - name: Barcelona Supercomputing Center
   url: https://www.bsc.es/
   image_url: /images/institutions/BSC-blue.svg
