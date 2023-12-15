@@ -33,7 +33,7 @@ national_resources:
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
       your_tasks: [dmp, data_publication, sensitive]
-    url: https://nbis.se/support/supportform/index.php?form=consultation
+    url: https://nbis.se/services/guidance-on-data-handling/apply
   - name: Swedish Pathogens Portal
     description: The Swedish Pathogens Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
