@@ -7,13 +7,8 @@ page_id: health_data
 related_pages: 
   your_tasks: [sensitive, gdpr_compliance]
   your_domain: [human data]
-  tool_assembly: []
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
-training:
-  - name:
-    registry:
-    url:
-
+  
+---
 ## Introduction
 
 Human ‘health data’ is a broad concept encapsulating diverse data types and modalities, including omics and clinical data. Clinical data (routinely collected or originating from clinical studies) includes but is not limited to images, healthcare administrative data (e.g., demographics), free text and patient-generated data from questionnaires or real-world wearables/mobile devices. This page describes data management considerations and solutions for two widely collected data types used in health data research studies - data about the patient from questionnaires and electronic health records (EHRs) generated from interactions with the healthcare system. Future versions of this page will include additional health data types.
