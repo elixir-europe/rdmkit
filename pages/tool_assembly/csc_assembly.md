@@ -62,7 +62,7 @@ For sensitive data management, there is available [SD Connect](https://research.
 
 
 ### Data sharing and publishing
-It is recommended to [publish](data_publication) data in data specific repositories. You can find many options from {% tool "elixir-deposition-databases-for-biomolecular-data" %}.  Furthermore, CSC and ELIXIR-FI will offer Federated EGA for sensitive human biomedical data that is linked to the central European Genome-phenome Archive.
+It is recommended to [publish](data_publication) data in data specific repositories. You can find many options from {% tool "elixir-deposition-databases-for-biomolecular-data" %}.  Furthermore, CSC and ELIXIR-FI will offer Federated EGA for sensitive human biomedical data that is linked to the central {%tool "the-european-genome-phenome-archive" %}
 
 The Finnish Federated EGA is part of a European network of repositories for biomedical data. The service will give you the tools to describe your dataset (adding the appropriate metadata) and assigning an EGA accession number.  After publication, you will remain the data controller and decide according to specific policies, who can access the sensitive data for reuse. According to the GDPR, your data will remain within the Finnish borders and, at the same time, they will be accessible and discoverable according to FAIR data principles. 
 
