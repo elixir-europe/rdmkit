@@ -7,6 +7,10 @@ affiliations: ["NO", "ES", "EMBL-EBI"]
 related_pages: 
   your_tasks: [data_publication, data_transfer, metadata]
   your_domain: [human_pathogen_genomics, plants]
+training:
+  - name: Training in TeSS
+    registry: TeSS
+    url: https://tess.elixir-europe.org/search?q=fairtracks
 ---
 
 ## What is the FAIRtracks tool assembly?
