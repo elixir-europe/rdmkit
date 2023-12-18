@@ -23,7 +23,7 @@ training:
     url: https://opensilex.github.io/docs-community-dev/
 faircookbook:
 - name: Publishing plant phenotypic data
-  url: https://w3id.org/faircookbook/FCB083
+  url: https://w3id.org/faircookbook/FCB083PRE
 ---
 
 ## What is the plant phenomics tool assembly and who can use it?

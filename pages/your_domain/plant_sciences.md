@@ -15,7 +15,7 @@ faircookbook:
 - name: Improving dataset maturity - MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
 - name: Publishing plant phenotypic data
-  url: https://w3id.org/faircookbook/FCB083
+  url: https://w3id.org/faircookbook/FCB083PRE
 ---
 
 ## Introduction
