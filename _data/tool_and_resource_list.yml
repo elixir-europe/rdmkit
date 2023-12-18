@@ -2304,6 +2304,7 @@
     Omnipy is a high level Python library for type-driven data wrangling and scalable workflow orchestration.
   registry:
     biotools: omnipy
+    tess: omnipy
 - id: trackfind
   name: TrackFind
   url: https://trackfind.elixir.no/
