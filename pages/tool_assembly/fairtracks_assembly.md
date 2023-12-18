@@ -6,7 +6,7 @@ page_id: fairtracks
 affiliations: ["NO", "ES", "EMBL-EBI"]
 related_pages: 
   your_tasks: [data_publication, data_transfer, metadata]
-  your_domain: [human_pathogen_genomics, plants]
+  your_domain: [plants, rare_disease, single_cell_sequencing, human_data]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -15,29 +15,39 @@ training:
 
 ## What is the FAIRtracks tool assembly?
 
-The [FAIRtracks ecosystem](https://fairtracks.net/) is a set of services associated with a "minimum information"
-[metadata standard](https://fairtracks.net/standards/#standards-01-fairtracks) for
-[genomic tracks](https://fairtracks.net/tracks/#tracks-01-genomic-tracks)
+The [FAIRtracks ecosystem](https://fairtracks.net/) is a set of services associated with a minimal
+[metadata model](https://fairtracks.net/standards/#standards-01-fairtracks) for
+[genomic annotations/tracks](https://fairtracks.net/tracks/#tracks-01-genomic-tracks),
 implemented as a [set of JSON Schemas](https://github.com/fairtracks/fairtracks_standard/tree/master/json/schema).
+The FAIRtracks model contains metadata fields particularly useful for data discovery,
+harmonised through strict adherence to a selection of ontologies available through TOOL OLS.
+The usability of the model can be expanded through reference to the original records via identifiers.org resolvable CURIEs.
+
+In the context of the Data Life Cycle and its stages, the FAIRtracks ecosystem covers [Collecting](collecting), [Processing](processing),
+[Analysing](analysing), [Sharing](sharing), and [Reusing](reusing). It has to be noted, however, that the FAIRtracks ecosystem is structured
+around a secondary data life cycle, as illustrated in Figure 1. As part of this secondary DLF, the annotation/track data gets further distributed
+and its discovery is enhanced through derived metadata. The FAIRtracks ecosystem aims at harmonising this process.
+Primary data needs to be handled independently following domain best practices
+(see e.g. the pages on [Single cell sequencing](single_cell_sequencing), [Plant sciences](plant_sciences), or [Rare disease data](rare_disease_data)).
+
 The FAIRtracks ecosystem is developed and provided as part of the national Service Delivery Plans by
 [ELIXIR Norway](https://elixir.no/) and [ELIXIR Spain](https://elixir-europe.org/about-us/who-we-are/nodes/spain),
 and is supported by the [Track Hub Registry group](https://trackhubregistry.org/) at [EMBL-EBI](https://www.ebi.ac.uk/).
 FAIRtracks is endorsed by [ELIXIR Europe](https://elixir-europe.org/) as a
 [Recommended Interoperability Resource](https://elixir-europe.org/platforms/interoperability/rirs).
 
-In the context of the Data Life Cycle and its stages, the FAIRtracks ecosystem covers [Collecting](collecting), [Processing](processing),
-[Analysing](analysing), [Sharing](sharing), and [Reusing](reusing). It has to be noted, however, that the FAIRtracks ecosystem operates
-on derived/secondary data and not on the raw sequencing data, as illustrated in Figure 1.
-Sequencing data needs to be handled independently following domain best practices
-(see e.g. the pages on [Human pathogen genomics](human_pathogen_genomics) or [Plant sciences](plant_sciences) ).
-
-{% include image.html file="fairtracks-rdmkit-tool-assembly.png" caption="Figure 1. The FAIRtracks tool assembly and the associated workflow."
+{% include image.html file="fairtracks-rdmkit-tool-assembly.png" caption=" Illustration of the Data life cycle 
+for the FAIRtracks tool assembly. As genomic tracks/annotations represent condensed summaries of the raw data, 
+this ecosystem covers a secondary cycle designed around the FAIRtracks metadata model. 
+The grey box shows the areas of relevance for the FAIRtracks ecosystem with its integrations, 
+and only a subset of the icons represents FAIRtracks services per se. Omnipy (dark grey box) is a general Python library 
+for scalable and reproducible data wrangling which can be used across several data models and research disciplines."
 alt="FAIRtracks RDMkit" %}
 
 ## Who can use the FAIRtracks tool assembly?
 
-The FAIRtracks ecosystem is available to everyone.
-Distinct services are hosted on different platforms which might require authentication procedures which are not handled centrally by FAIRtracks.
+There is no central authentication solution for the FAIRtracks services requiring login,
+but the entire FAIRtracks ecosystem is available to everyone.
 Most of the services are accessible through Application Programming Interfaces (APIs). More details are provided in the description below.
 Users of the FAIRtracks ecosystem belong to different categories, which could be summarised as:
 
@@ -61,14 +71,12 @@ and, thus, formally connected to several other standards and databases.
 The FAIRtracks standard can, thus, be selected on your Data Management Plan in all the instances of {% tool "data-stewardship-wizard" %} through
 the integration with FAIRsharing. 
 
-{%tool "omnipy" %} is a high-level Python library for type-driven data wrangling and scalable workflow orchestration;
-it is a very important self-standing subset of the FAIRtracks ecosystem covering several steps in the data life-cicle.
-It can be used to extract metadata from specific portals, doubling up on the [data Collection](collecting)
-capabilities of TrackFind, and to [process](processing) metadata entries to uniform them to a unique standard.
-Omnipy workflows are defined as transformations from specific input data models to specific output data models.
+{%tool "omnipy" %} is a high-level Python library for type-driven data wrangling and scalable data flow orchestration;
+it is a self-standing subset of the FAIRtracks ecosystem covering several steps in the data life-cicle.
+It can be used to extract metadata from specific portals and to [process](processing) metadata entries to uniform them to a unique standard.
+Omnipy data flows are defined as transformations from specific input data models to specific output data models.
 Input and output data are validated at each iteration through parsing based on {%tool "pydantic" %}.
-Offloading of workflows to external compute resources is provided through the integration of Omnipy with a
-workflow engine based on {%tool "prefect" %}.
+Offloading of  data flows to external compute resources is provided through the integration of Omnipy with an orchestration engine based on {%tool "prefect" %}.
 
 There is ongoing work into adding {%tool "prefect" %} as one of the services available in the
 [National Infrastructure for Research Data (NIRD) service platform](https://www.sigma2.no/nird-service-platform).
@@ -79,32 +87,28 @@ service and aims at maintaining this status.
 
 Data [sharing](sharing) and preservation is one of the key components of the FAIRtracks ecosystem.
 Since genomic annotations (tracks) typically consist of secondary data files referring to primary data sources,
-they are often deposited together with the primary data. The aim of the minimal information metadata model is to
+they are often deposited together with the primary data. The aim of the minimal metadata model is to
 offer a greater level of granularity, providing each track with an identifier and enabling the possibility of analysis across datasets
-in a semi-automatised fashion. In order to accomplish this a dedicated registry would be required. Given that this tool does not yet exist,
+in an automatised fashion. In order to accomplish this a dedicated registry would typically be required. Given that such a registry does not yet exist,
 the current recommendation is to deposit FAIRtracks-compliant metadata files to {%tool "zenodo" %},
 as this platform supports both Digital Object identifier (DOI) versioning and DOI reservation before publication.
 The identifiers on the metadata FAIRtracks object are then cross-linked with the actual data which is hosted
 e.g. in a [Track Hub](https://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html) and registered in
 the {%tool "track-hub-registry" %}.
 
-Data and metadata organised in this fashion can then be collected for [reuse](reusing) using {%tool "trackfind" %},
+Data and metadata organised in this fashion can then be discovered for [reuse](reusing) through {%tool "trackfind" %},
 a search and curation engine for genomic tracks.
-{%tool "trackfind" %} supports crawling of the {%tool "track-hub-registry" %} and other data portals to fetch track metadata,
-that can be accessed through hierarchical browsing or by search queries both through a web-based user interface and as a RESTful API.
+TOOL TrackFind will import FAIRtracks-compliant metadata from e.g. TOOL Zenodo. 
+This metadata can be accessed through hierarchical browsing or by search queries both through a web-based user interface and as a RESTful API.
 TrackFind supports advanced SQL-based queries that can be easily built into the user interface.
 
 Additional tools that comprise the core of the FAIRtracks ecosystem are the
 [metadata validation](https://fairtracks.net/services/?category=Core%20services&tags%5B0%5D=Metadata%20validation) and the
 [metadata augmentation](https://fairtracks.net/services/?category=Core%20services&tags%5B0%5D=Metadata%20augmentation) services.
-The former is REST API that extends the standard JSON Schema validation technology through additional modules allowing for:
-
-* validation of ontology terms against specific ontology versions;
-* checking Compact Uniform Resource Identifiers (CURIEs) against the registered entries at {%tool "identifiers-org" %};
-* checking restrictions on a full set of documents, e.g. whether identifiers are unique and whether the records referred to by foreign keys exist.
-
+The former is REST API that extends the standard JSON Schema validation technology to
+e.g. validate ontology terms or check CURIEs against the registered entries.
 The [FAIRtracks augmentation service](https://fairtracks.net/services/?category=Core%20services&tags%5B0%5D=Metadata%20augmentation)
 is implemented as a REST API that expands on the information contained in a minimal FAIRtracks JSON by adding
-a set of fields with human-readable values. These include ontology labels and versions, summaries, and other relevant fields.
+a set of fields with human-readable values including ontology labels, versions, and summaries.
 This service bridges the gap between data providers, which are required to submit only minimal information, and data consumers
 who require richer information for data discovery and retrieval.
