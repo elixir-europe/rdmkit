@@ -154,3 +154,7 @@
   date: 2023-12-19
   linked_pr: 1429
   description: The content of the "tool assembly" page for CSC (Finnish IT Center for Science) was updated. [Discover the page here](csc_assembly).
+  - name: "New page: FAIRtracks tool assembly"
+    date: 2023-12-19
+    linked_pr: 1419
+    description: A new "tool assembly" page for FAIRtracks was added. [Discover the page here](fairtracks_assembly)
