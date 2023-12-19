@@ -34,7 +34,7 @@ training:
 
 
 ## Who can use the CSC data management tool assembly?
-CSC and ELIXIR-FI services are available for researchers affiliated with a Finnish academic organization or research institutes and their international collaborators. Most of CSC’s services are [free-of-charge](https://research.csc.fi/free-of-charge-use-cases) for academic research, education and training purposes in Finnish higher education institutions and in state research institutes. Researchers can start using services by registering an account and get bioinformatics user support from our [service desk](mailto:servicedesk@csc.fi).
+CSC and ELIXIR-FI services are available for researchers affiliated with a Finnish academic organisation or research institutes and their international collaborators. Most of CSC’s services are [free of charge](https://research.csc.fi/free-of-charge-use-cases) for academic research, education and training purposes in Finnish higher education institutions and state research institutes. Researchers can start using services by registering an account and get bioinformatics user support from our [service desk](mailto:servicedesk@csc.fi).
 
 
 ## How can you access the CSC data management tool assembly?
