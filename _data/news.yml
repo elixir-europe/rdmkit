@@ -150,3 +150,7 @@
   date: 2023-12-06
   linked_pr: 1413
   description: A new "your domain" page about Single-cell sequencing was added. [Discover the page here](single_cell_sequencing).
+- name: "Refreshed content: CSC tool assembly"
+  date: 2023-12-19
+  linked_pr: 1429
+  description: The content of the "tool assembly" page for CSC (Finnish IT Center for Science) was updated. [Discover the page here](csc_assembly).
