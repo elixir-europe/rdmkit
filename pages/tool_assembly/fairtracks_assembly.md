@@ -37,7 +37,7 @@ and is supported by the [Track Hub Registry group](https://trackhubregistry.org/
 FAIRtracks is endorsed by [ELIXIR Europe](https://elixir-europe.org/) as a
 [Recommended Interoperability Resource](https://elixir-europe.org/platforms/interoperability/rirs).
 
-{% include image.html file="fairtracks-rdmkit-tool-assembly.png" caption="Figure 1. Illustration of the Data life cycle 
+{% include image.html file="fairtracks_tool-assembly.png" caption="Figure 1. Illustration of the Data life cycle 
 for the FAIRtracks tool assembly. As genomic tracks/annotations represent condensed summaries of the raw data, 
 this ecosystem covers a secondary cycle designed around the FAIRtracks metadata model. 
 The grey box shows the areas of relevance for the FAIRtracks ecosystem with its integrations, 
