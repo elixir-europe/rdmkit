@@ -2334,6 +2334,7 @@
   name: Harmony
   registry:
     biotools: Harmony-R
+    tess: Harmony
   url: https://github.com/immunogenomics/harmony
 - description: A database of manually curated cell markers in human/mouse and web tools based on scRNA-seq data.
   id: cellmarker
@@ -2346,22 +2347,28 @@
   name: Seurat
   registry:
     biotools: seurat
+    tess: Seurat
   url: https://satijalab.org/seurat/
 - description: Scalable toolkit for analyzing single-cell gene expression data. It includes preprocessing, visualization, clustering, pseudotime and trajectory inference and differential expression testing.
   id: scanpy
   name: Scanpy
   registry:
     biotools: scanpy
+    tess: Scanpy
   url: https://github.com/theislab/Scanpy
 - description: The Gene Ontology Consortium continues to develop, maintain and use a set of structured, controlled vocabularies for the annotation of genes, gene products and sequences.
   id: gene-ontology
   name: Gene Ontology
   registry:
     biotools: go
+    fairsharing: FGJ2T8
+    tess: Gene Ontology
   url: http://www.geneontology.org/
 - description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
   id: anndata
   name: AnnData
+  registry:
+    tess: AnnData
   url: https://anndata.readthedocs.io/en/latest/
 - description: Loom is an efficient file format for large omics datasets.
   id: loom
@@ -2374,22 +2381,28 @@
 - description: The SingleCellExperiment class is a lightweight Bioconductor container for storing and manipulating single-cell genomics data.
   id: singlecellexperiment
   name: SingleCellExperiment
+  registry:
+    biotools: singlecellexperiment
   url: https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html
 - description: The Monocle 3 package provides a toolkit for analyzing single-cell gene expression experiments.
   id: monocle
   name: Monocle
   registry:
     biotools: monocle
+    tess: Monocle
   url: https://cole-trapnell-lab.github.io/monocle3/
 - description: Scater offers a collection of tools for analysis (such as quality control) for single-cell gene expression data.
   id: scater
   name: Scater
+  registry:
+    biotools: scater
+    tess: Scater
   url: https://bioconductor.org/packages/release/bioc/html/scater.html
 - description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
   id: sceasy
   name: SCEasy
   url: https://github.com/cellgeni/sceasy
-- description:  Interactive portal for single-cell genomics data.
+- description: Interactive portal for single-cell genomics data.
   id: single-cell-portal
   name: Single Cell Portal
   url: https://singlecell.broadinstitute.org/single_cell
@@ -2399,19 +2412,24 @@
   url: https://www.sc-best-practices.org/preamble.html
 - description: A set of analysis pipelines that perform sample demultiplexing, barcode processing, single cell gene counting, V(D)J transcript sequence assembly and annotation, and Feature Barcode analysis from single cell data.
   id: cellranger
-  name: CellRanger 
+  name: CellRanger
   url: https://www.10xgenomics.com/support/software/cell-ranger
 - description: A comprehensive turnkey solution for quantifying gene expression in single-cell/nucleus RNA-seq data, built into RNA-seq aligner STAR.
   id: starsolo
   name: STARsolo
+  registry:
+    tess: STARsolo
   url: https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md
 - description: HDF5 consists of a file format for storing HDF5 data, a data model for logically organizing and accessing HDF5 data from an application, and the software (libraries, language interfaces, and tools) for working with this format.
-  id: hierarchical-data-format 
-  name: Hierarchical Data Format 
+  id: hierarchical-data-format
+  name: Hierarchical Data Format
+  registry:
+    fairsharing: wvgta9
   url: https://www.10xgenomics.com/support/software/cell-ranger/analysis/outputs/cr-outputs-h5-matrices
 - description: Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data.
-  id: sequence-read-archive 
-  name: Sequence Read Archive 
-  url: https://www.ncbi.nlm.nih.gov/sra
+  id: sequence-read-archive
+  name: Sequence Read Archive
   registry:
     fairsharing: g7t2hv
+    tess: Sequence Read Archive
+  url: https://www.ncbi.nlm.nih.gov/sra
