@@ -19,6 +19,9 @@ training:
   - name: YouTube channel with tutorials and presentations
     registry: YouTube
     url: https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ
+  - name: "I3D:bio's OMERO Training Videos 2023: Research Data Management for Microscopy"
+    registry: YouTube 
+    url: https://www.youtube.com/playlist?list=PL2k-L-zWPoR7SHjG1HhDIwLZj0MB_stlU
   - name: Imaging Forum - discussions about imaging related topics
     url: https://forum.image.sc/
 ---

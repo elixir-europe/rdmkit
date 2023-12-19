@@ -88,16 +88,7 @@ national_resources:
       your_role: [researcher, data_steward]
       your_tasks: [data_analysis]
     url: https://research.csc.fi/computing#cloud-computing 
-  - name: IceBear
-    description: A browser-based Research Data Management tool for protein cyrstallization that offers flexible crystal fishing workbench, no-typing submission for crystal shipment, and linking crystals and datasets including PDB depositions. 
-    instance_of: 
-    how_to_access: 
-    related_pages:
-      tool_assembly:
-      your_role: [researcher, data_steward]
-      your_tasks: [data_analysis]
-      your_domain: [structural_bioinformatics]
-    url: https://icebear.fi/
+
 ---
 
 ## Introduction 
@@ -118,7 +109,7 @@ Ethical review is needed in defined research configurations. See more at [Finnis
 [Policies of open science and research in Finland](https://avointiede.fi/en/policies/policies-open-science-and-research-finland) outline in detail the strategic principles, objectives and action plans necessary to achieve the objectives set out in [the Declaration for Open Science and Research](https://avointiede.fi/en/policies/declaration-open-science-and-research-2020-2025). The policies cover four areas: culture for open scholarship, open access to scholarly publications, open access of research data and methods, and open education and open access to educational resources. 
 
 ### Funder policies 
-Funders have their individual data policies and mandatory guidelines with regard to research data management. The general expectation is that publicly funded research data are a public good, and should be made openly available with as few restrictions as possible. Check your funder’s website for current information and guidance. See e.g. [Academy of Finland policies on open science](https://www.aka.fi/en/research-funding/responsible-science/open-science/academy-policies-on-open-science/).
+Funders have their individual data policies and mandatory guidelines with regard to research data management. The general expectation is that publicly funded research data are a public good, and should be made openly available with as few restrictions as possible. Check your funder’s website for current information and guidance. See e.g. [Research Council of Finland policies on open science](https://www.aka.fi/en/research-funding/responsible-science/open-science/academy-policies-on-open-science/).
 
 ### Institutional policies
 Universities and other research organisations and data service providers have data policies describing the principles and policies that are related to the management of research data [(e.g CSC Data Policy)](https://www.csc.fi/en/data-policy). In addition, data policies make clear the responsibilities of the organisation and its researchers for managing research data well. Remember to check your organisation's current information and guidance.

@@ -15,15 +15,7 @@ training:
 
 Data management planning consists of defining the strategy that you plan to use for managing data and documentation generated within the project. It is about thinking upfront what's the best way to avoid problems or unexpected costs related to data management, and set the conditions for your research data to achieve the highest possible impact in science, even after the end of the project.
 
-Solutions regarding the handling of the data generated within a project is usually formalised in a Data Management Plan (DMP). A DMP is a document describing several aspects of the data management process which occur before, during and after the end of a project.
-Common components of a DMP are:
-- general information about the project;
-- description of the datasets that will be used and generated;
-- use of metadata, ontologies and the way data documentation will be provided;
-- storage solutions, data security and preservation strategy during and after the project;
-- sharing of the data;
-- costs and resources needed for data management;
-- ethical and legal issues, such as privacy, intellectual property and licences.
+Solutions regarding the handling of the data generated within a project is usually formalised in a Data Management Plan (DMP). A DMP is a document describing several aspects of the data management process which occur before, during and after the end of a project (see the [Data Management Plan page](https://rdmkit.elixir-europe.org/data_management_plan)).
 
 ## Why is data management planning important?
 

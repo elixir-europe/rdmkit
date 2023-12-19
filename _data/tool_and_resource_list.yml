@@ -534,6 +534,7 @@
   name: Data Catalog
   registry:
     fairsharing: NA
+    tess: Data Catalog
   url: https://datacatalog.elixir-luxembourg.org/
 - description: DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
   id: data-catalog-vocabulary
@@ -1217,6 +1218,8 @@
 - description: Database of over 5000 intrinsic membrane protein structures
   id: memprotmd
   name: MemProtMD
+  registry:
+    biotools: memprotmd
   url: http://memprotmd.bioch.ox.ac.uk/
 - description: Multidisciplinary, free-to-use open repository specialized for research data
   id: mendeley-data
@@ -1603,7 +1606,7 @@
   registry:
     biotools: rd-connect_platform
     tess: RD-Connect Genome Phenome Analysis Platform
-  url: https://rd-connect.eu/what-we-do/omics/gpap/
+  url: https://platform.rd-connect.eu
 - description: Directory of standard metadata, divided into different research areas
   id: rda-standards
   name: RDA Standards
@@ -2093,8 +2096,6 @@
 - description: The Missing Package Manager for macOS or Linux
   id: homebrew
   name: Homebrew
-  registry:
-    tess: Homebrew
   url: https://brew.sh/
 - description: A database to quickly access all tryptic peptides of the UniProtKB
   id: macpepdb
@@ -2244,31 +2245,42 @@
 - description: A public repository for electron cryo-microscopy maps and tomograms of macromolecular complexes and subcellular structures.
   id: emdb
   name: Electron Microscopy Data Bank (EMDB)
+  registry:
+    biotools: emdb
   url: https://www.ebi.ac.uk/emdb/
 - description: Integrated Resource for Reproducibility in Macromolecular Crystallography. Repository of diffraction experiments used to determine protein structures in the PDB, contributed by the CSGID, SSGCID, JCSG, MCSG, SGC, and other large-scale projects, as well as individual research laboratories.
   id: irrmc
   name: IRRMC
   url: https://www.proteindiffraction.org/
-- description: Repository of X-ray diffraction, MicroED, LLSM datasets, as well as structural models. 
+- description: Repository of X-ray diffraction, MicroED, LLSM datasets, as well as structural models.
   id: sbgrid-data-bank
   name: SBGrid Data Bank
   url: https://data.sbgrid.org/
 - description: Cryo em image processing framework. Integration, traceability and analysis.
   id: scipion
   name: Scipion
-  url: https://scipion.i2pc.es/
   registry:
     biotools: scipion
+    fairsharing: EsY1WF
+  url: https://scipion.i2pc.es/
+- description: The RRI Toolkit helps stakeholders across Europe put Responsible Research and Innovation into practice.
+  id: rri-toolkit
+  name: RRI Toolkit
+  url: https://rri-tools.eu/
+- description: The Self-Reflection Tool provides questions and statements addressing all stakeholder groups (policy makers, education representatives, civil society organisations, industry and business, and the research community).
+  id: rri-self-reflection-tool
+  name: RRI self reflection tool
+  url: https://rri-tools.eu/self-reflection-tool
 - description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
   id: sdrf
   name: SDRF
   url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
-- description: Structural information organiser, collecting structures deposited in public repositories together with computationally predicted models from SARS-CoV-2, as well as their interactions with host proteins. 
+- description: Structural information organiser, collecting structures deposited in public repositories together with computationally predicted models from SARS-CoV-2, as well as their interactions with host proteins.
   id: covid-19-structural-hub
   name: COVID-19 Structural Hub
-  url: https://3dbionotes.cnb.csic.es/ws/covid19
   registry:
-    tess: covid-19+structural+hub
+    tess: COVID-19 Structural Hub
+  url: https://3dbionotes.cnb.csic.es/ws/covid19
 - description: Cloud virtual machine with the Scipion software to process EM imaging data either in a single server or in a cluster.
   id: scipioncloud
   name: ScipionCloud
@@ -2276,6 +2288,116 @@
 - description: Access and data management platform that allows facilities to manage outputs and associate them with proposal information and other research outputs.
   id: aria
   name: Access to Research Infrastructure Administration (ARIA)
-  url: https://aria.services
   registry:
     biotools: aria_access
+  url: https://aria.services
+- description: Data Management Plan (DMP) generator that focuses on plant science.
+  id: dataplan
+  name: DataPLAN
+  registry:
+    biotools: dataplan
+  url: https://plan.nfdi4plants.org
+- description: Fast, sensitive and accurate integration of single-cell data.
+  id: harmony
+  name: Harmony
+  registry:
+    biotools: Harmony-R
+    tess: Harmony
+  url: https://github.com/immunogenomics/harmony
+- description: A database of manually curated cell markers in human/mouse and web tools based on scRNA-seq data.
+  id: cellmarker
+  name: CellMarker
+  registry:
+    biotools: cellmarker_2.0
+  url: http://bio-bigdata.hrbmu.edu.cn/CellMarker/
+- description: Seurat is an R package designed for QC, analysis, and exploration of single-cell RNA-seq data.
+  id: seurat
+  name: Seurat
+  registry:
+    biotools: seurat
+    tess: Seurat
+  url: https://satijalab.org/seurat/
+- description: Scalable toolkit for analyzing single-cell gene expression data. It includes preprocessing, visualization, clustering, pseudotime and trajectory inference and differential expression testing.
+  id: scanpy
+  name: Scanpy
+  registry:
+    biotools: scanpy
+    tess: Scanpy
+  url: https://github.com/theislab/Scanpy
+- description: The Gene Ontology Consortium continues to develop, maintain and use a set of structured, controlled vocabularies for the annotation of genes, gene products and sequences.
+  id: gene-ontology
+  name: Gene Ontology
+  registry:
+    biotools: go
+    fairsharing: FGJ2T8
+    tess: Gene Ontology
+  url: http://www.geneontology.org/
+- description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
+  id: anndata
+  name: AnnData
+  registry:
+    tess: AnnData
+  url: https://anndata.readthedocs.io/en/latest/
+- description: Loom is an efficient file format for large omics datasets.
+  id: loom
+  name: Loom
+  url: https://loompy.org/
+- description: The main class used by Monocle to hold single cell expression data. CellDataSet extends the basic Bioconductor ExpressionSet class.
+  id: celldataset
+  name: CellDataSet
+  url: https://rdrr.io/bioc/monocle/man/CellDataSet.html
+- description: The SingleCellExperiment class is a lightweight Bioconductor container for storing and manipulating single-cell genomics data.
+  id: singlecellexperiment
+  name: SingleCellExperiment
+  registry:
+    biotools: singlecellexperiment
+  url: https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html
+- description: The Monocle 3 package provides a toolkit for analyzing single-cell gene expression experiments.
+  id: monocle
+  name: Monocle
+  registry:
+    biotools: monocle
+    tess: Monocle
+  url: https://cole-trapnell-lab.github.io/monocle3/
+- description: Scater offers a collection of tools for analysis (such as quality control) for single-cell gene expression data.
+  id: scater
+  name: Scater
+  registry:
+    biotools: scater
+    tess: Scater
+  url: https://bioconductor.org/packages/release/bioc/html/scater.html
+- description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
+  id: sceasy
+  name: SCEasy
+  url: https://github.com/cellgeni/sceasy
+- description: Interactive portal for single-cell genomics data.
+  id: single-cell-portal
+  name: Single Cell Portal
+  url: https://singlecell.broadinstitute.org/single_cell
+- description: An entry point for novices in the field of single-cell (multi-)omic analysis and guides advanced users to the most recent best practices.
+  id: single-cell-best-pratices
+  name: Single-cell best pratices
+  url: https://www.sc-best-practices.org/preamble.html
+- description: A set of analysis pipelines that perform sample demultiplexing, barcode processing, single cell gene counting, V(D)J transcript sequence assembly and annotation, and Feature Barcode analysis from single cell data.
+  id: cellranger
+  name: CellRanger
+  url: https://www.10xgenomics.com/support/software/cell-ranger
+- description: A comprehensive turnkey solution for quantifying gene expression in single-cell/nucleus RNA-seq data, built into RNA-seq aligner STAR.
+  id: starsolo
+  name: STARsolo
+  registry:
+    tess: STARsolo
+  url: https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md
+- description: HDF5 consists of a file format for storing HDF5 data, a data model for logically organizing and accessing HDF5 data from an application, and the software (libraries, language interfaces, and tools) for working with this format.
+  id: hierarchical-data-format
+  name: Hierarchical Data Format
+  registry:
+    fairsharing: wvgta9
+  url: https://www.10xgenomics.com/support/software/cell-ranger/analysis/outputs/cr-outputs-h5-matrices
+- description: Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data.
+  id: sequence-read-archive
+  name: Sequence Read Archive
+  registry:
+    fairsharing: g7t2hv
+    tess: Sequence Read Archive
+  url: https://www.ncbi.nlm.nih.gov/sra

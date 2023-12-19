@@ -28,7 +28,7 @@ In the event that no adequate Problem page exists for a problem that can be gene
 ## section 1 title
  
 ### Description
-<!--- Sections within Domain pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should focus on particular data management problems, which should be described in this first sub-section.
+<!--- Sections within Domain pages (aside from "Introduction" at the start and "Tools and resources on this page" at the end) should focus on particular data management problems, which should be described in this first sub-section.
 For problems that are fully domain-specific, a detailed description is merited.
 For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges. --->
 
