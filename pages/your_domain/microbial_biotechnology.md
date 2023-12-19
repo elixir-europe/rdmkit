@@ -71,15 +71,15 @@ It is recommended to publish and share information about biological hosts in ded
 #### Metadata schemas and ontologies
 * Current data standards to capture the  taxonomic and phenotypic data are still evolving, with notable work on the {% tool "access-to-biological-collection-data-schema" %} and the activities of the {% tool "biodiversity-information-standards" %}. The Darwin Core standard from the {% tool "biodiversity-information-standards" %} is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism.
 * The {% tool "ncbi-taxonomy" %}homepage can also provide appropriate taxon IDs for recording taxonomic information.
-* Information about proposed standardised nomenclature for prokaryotes can be found at the {% tool "list-of-prokaryotic-names-with-standing-in-nomenclature" %} ([Parte et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32701423/)).
-* Data standards for recording the information about where a microorganism was isolated from do exist and this topic is covered in other RDMkit pages such as the [marine metagenomics](marine_metagenomics) domain. Information can also be found in a publication by Ten Hoopen and colleagues ([Ten Hoopen et al., 2015](https://pubmed.ncbi.nlm.nih.gov/26203332/)). 
+* Information about proposed standardised nomenclature for prokaryotes can be found at the {% tool "list-of-prokaryotic-names-with-standing-in-nomenclature" %} {% cite parte2020lpsn %}.
+* Data standards for recording the information about where a microorganism was isolated from do exist and this topic is covered in other RDMkit pages such as the [marine metagenomics](marine_metagenomics) domain. Information can also be found in a publication by Ten Hoopen and colleagues {% cite tenhoopen2015m2b3 %}. 
 * {% tool "the-environment-ontology" %} is also relevant here to describe environmental entities of all kinds, from microscopic to intergalactic scales.
-* A set of genetic nomenclature standards have been established by microbiologists and have been used for many years. These are still a useful way of communicating data about the genotype of a strain ([Maloy and Hughes, 2007](https://pubmed.ncbi.nlm.nih.gov/17352909/)).
-* Minimal information standards have been established to specify this metadata, such as the MIGS standard ([Field et al., 2008](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2409278/)).
+* A set of genetic nomenclature standards have been established by microbiologists and have been used for many years. These are still a useful way of communicating data about the genotype of a strain {% cite maloy2007strain %}.
+* Minimal information standards have been established to specify this metadata, such as the MIGS standard {% cite field2008migs %}.
 
 #### (Meta)data publication and sharing
 * For sharing host information, you  can use databases such as the {% tool "bacdive" %}. You  can also deposit strains and associated information in a strain repository such as the {% tool "ncimb" %} or the {% tool "atcc" %}. There are also many organisations established for individual species of microorganisms, the {% tool "bacillus-genetic-stock-center" %} being one example. 
-* Databases such as {% tool "cellrepo" %} allow strains that have been barcoded to be tracked using a version control type system ([Tellechea-Luzardo et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32078768/)).
+* Databases such as {% tool "cellrepo" %} allow strains that have been barcoded to be tracked using a version control type system {% cite tellechealuzardo2020linking %}.
 * Genomic information can be captured at the nucleotide level using the well-known {% tool "european-nucleotide-archive" %} and submitted to the ENA database to allow the information to be shared.
 * The database collection from the {% tool "international-nucleotide-sequence-database-collaboration" %} provides an umbrella for gathering and sharing a variety of sequence data from different sequence databases internationally.
 * Other databases such as {% tool "genbank" %} and the {% tool "dna-data-bank-of-japan" %} also cater for sequence information.
@@ -101,7 +101,7 @@ Appropriate and detailed description of the synthetic parts design is critical f
 #### Existing data
 * Sequences are characterised as parts which can be found with the assistance of various repositories such as: 
   * {% tool "igem-parts-registry" %}
-  * {% tool "jbei-ice" %} ([Ham et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467034/))
+  * {% tool "jbei-ice" %} {% cite ham2012jbeiice %}
   * {% tool "synbiohub" %}
   * {% tool "freegenes" %} - Repository of IP-free synthetic biological parts
 * Sequences can be isolated from standard genetic databases such as {% tool "european-nucleotide-archive" %} and {% tool "genbank" %}.
@@ -109,9 +109,9 @@ Appropriate and detailed description of the synthetic parts design is critical f
 #### Tools for metadata collection
 * You can manage the design stage using genetic computer aided design tools, such as {% tool "benchling" %} for example, where information can be shared within small teams. {% tool "benchling" %} supports a number of different data standards including FASTA, GenBank and SBOL1. 
   * Sometimes FASTA will be the most relevant format, for example when sending for DNA synthesis. 
-  * Formats like GenBank, DICOM-SB ([Sainz de Murieta, Bultelle and Kitney, 2016](https://pubmed.ncbi.nlm.nih.gov/26854090/)) or SBOL may be more applicable for instances where more information, such as functional annotation, would be useful to be shared. 
+  * Formats like GenBank, DICOM-SB {% cite sainzdemurieta2016toward %} or SBOL may be more applicable for instances where more information, such as functional annotation, would be useful to be shared. 
   * SBOL 2.0 and higher allows more than just the genetics of a system to be captured and shared. Using SBOL allows interactions between components in the design to be specified, information about RNA and proteins can be included and the provenance of a design can also be captured. Experimental information relating to the test and build of a system can also be captured and shared.
-* SBOL data can be made using tools such as {% tool "benchling" %} (SBOL1 only), {% tool "sboldesigner" %} ([Zhang et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28441476/)) and {% tool "shortbol" %} to name but a few. A more comprehensive list of SBOL tools can be found on the {% tool "synthetic-biology-open-language" %} website.
+* SBOL data can be made using tools such as {% tool "benchling" %} (SBOL1 only), {% tool "sboldesigner" %} {% cite zhang2017sboldesigner %} and {% tool "shortbol" %} to name but a few. A more comprehensive list of SBOL tools can be found on the {% tool "synthetic-biology-open-language" %} website.
 * More generally, the [Investigation/Study/Assay (ISA)](https://isa-specs.readthedocs.io/) model can be used in systems biology, life sciences, environmental and biomedical domains to structure research outputs. The [ISA-Tab](https://isa-specs.readthedocs.io/en/latest/isatab.html) format provides a framework for capturing these data in CSV files.
 * {% tool "rightfield" %} provides a mechanism for capturing metadata using easy to use spreadsheets.
 
@@ -142,7 +142,7 @@ Here we describe some of the available options to accurately represent and store
 * More generally, the {% tool "iupac-iubmb-joint-commission-on-biochemical-nomenclature" %} encourages the communication of biochemical information using generally understood terminology.
 
 #### (Meta)data publication
-* Databases such as SBOLME ([Kuwahara et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28076956/)) or {% tool "synbiohub" %} can be used to share the data.
+* Databases such as SBOLME {% cite kuwahara2017sbolme %} or {% tool "synbiohub" %} can be used to share the data.
 * Metabolite information can also be submitted to, or referred to in, {% tool "chebi" %}.
 * {% tool "brenda" %} (BRENDA).
 
@@ -210,13 +210,13 @@ The data arising from assays for product development is highly variable and beyo
 ### Solutions
 
 #### Metadata standards
-* **Minimum Information Standard for Engineered Organism Experiments (MIEO).** Minimal information necessary to record the growth of an organism in culture, has been described by Hect and colleagues ([Hecht et al., 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283831/)). 
+* **Minimum Information Standard for Engineered Organism Experiments (MIEO).** Minimal information necessary to record the growth of an organism in culture, has been described by Hect and colleagues {% cite hecht2018bacterial %}. 
 
-* **Enzyme.** If your product is a protein such as an enzyme then some standards developed by the {% tool "standards-for-reporting-enzyme-data" %} may be helpful ([‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’, 2014](https://www.sciencedirect.com/science/article/pii/S2213020914000135)).
+* **Enzyme.** If your product is a protein such as an enzyme then some standards developed by the {% tool "standards-for-reporting-enzyme-data" %} may be helpful {% cite strenda2014standards %}.
 
 * **Microscopy.** Microscopy is often also used to characterise the behaviour of engineered microorganisms. Standards such as the [Open Microscopy Environment Ontology](https://fairsharing.org/bsg-s001430/) and the {% tool "cellular-microscopy-phenotype-ontology" %} can help provide standardised metadata terms.
 
-* **Flow Cytometry data.** The {% tool "international-society-for-the-advancement-of-cytometry" %} provides information on a variety of appropriate data standards for capturing Flow Cytometry data (used to characterise microbial populations at a single cell level) ([Spidlen et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32881398/)).
+* **Flow Cytometry data.** The {% tool "international-society-for-the-advancement-of-cytometry" %} provides information on a variety of appropriate data standards for capturing Flow Cytometry data (used to characterise microbial populations at a single cell level) {% cite spidlen2021data %}.
 
 * **Nucleic acids information.** The {% tool "european-nucleotide-archive" %}, amongst others, provides guidance on the metadata for RNAseq datasets.
 
@@ -234,33 +234,9 @@ The data arising from assays for product development is highly variable and beyo
   * {% tool "arrayexpress" %} 
 * **Proteomics.** Proteomics data can be shared via {% tool "proteomics-standards-initiative" %}.
 * **Metabolic studies.** Metabolomic studies can be shared through the {% tool "metabolomexchange" %}, which provides a resource for sharing data from metabolic studies and guidance for the submission of metabolome data.
-* **Biological sources.** Information about biological sources can be shared via the {% tool "biostudies" %} database, which has been set up to capture and share information about multi-omics and other biological studies ([Sarkans et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29069414/)).
+* **Biological sources.** Information about biological sources can be shared via the {% tool "biostudies" %} database, which has been set up to capture and share information about multi-omics and other biological studies {% cite sarkans2018biostudies %}.
 
 
 ## Bibliography
 
-[Field, D. et al. (2008) ‘The minimum information about a genome sequence (MIGS) specification’, Nature biotechnology, 26(5), pp. 541–547. doi: 10.1038/nbt1360.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2409278/)
-
-[Ham, T. S. et al. (2012) ‘Design, implementation and practice of JBEI-ICE: an open source biological part registry platform and tools’, Nucleic acids research, 40(18), p. e141. doi: 10.1093/nar/gks531.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467034/)
-
-[Hecht, A. et al. (2018) ‘A minimum information standard for reproducing bench-scale bacterial cell growth and productivity’, Communications biology, 1, p. 219. doi: 10.1038/s42003-018-0220-6.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6283831/)
-
-[Kuwahara, H. et al. (2017) ‘SBOLme: a Repository of SBOL Parts for Metabolic Engineering’, ACS synthetic biology, 6(4), pp. 732–736. doi: 10.1021/acssynbio.6b00278.](https://pubmed.ncbi.nlm.nih.gov/28076956/)
-
-[Maloy, S. R. and Hughes, K. T. (2007) ‘Strain Collections and Genetic Nomenclature’, Methods in Enzymology, pp. 3–8. doi: 10.1016/s0076-6879(06)21001-2.](https://pubmed.ncbi.nlm.nih.gov/17352909/)
-
-[Parte, A. C. et al. (2020) ‘List of Prokaryotic names with Standing in Nomenclature (LPSN) moves to the DSMZ’, International journal of systematic and evolutionary microbiology, 70(11), pp. 5607–5612. doi: 10.1099/ijsem.0.004332.](https://pubmed.ncbi.nlm.nih.gov/32701423/)
-
-[Sainz de Murieta, I., Bultelle, M. and Kitney, R. I. (2016) ‘Toward the First Data Acquisition Standard in Synthetic Biology’, ACS synthetic biology, 5(8), pp. 817–826. doi: 10.1021/acssynbio.5b00222.](https://pubmed.ncbi.nlm.nih.gov/26854090/)
-
-[Sarkans, U. et al. (2018) ‘The BioStudies database—one stop shop for all data supporting a life sciences study’, Nucleic Acids Research, pp. D1266–D1270. doi: 10.1093/nar/gkx965.](https://pubmed.ncbi.nlm.nih.gov/29069414/)
-
-[Spidlen, J. et al. (2021) ‘Data File Standard for Flow Cytometry, Version FCS 3.2’, Cytometry. Part A: the journal of the International Society for Analytical Cytology, 99(1), pp. 100–102. doi: 10.1002/cyto.a.24225.](https://pubmed.ncbi.nlm.nih.gov/32881398/)
-
-[‘Standards for Reporting Enzyme Data: The STRENDA Consortium: What it aims to do and why it should be helpful’ (2014) Perspectives in Science, 1(1-6), pp. 131–137. doi: 10.1016/j.pisc.2014.02.012.](https://www.sciencedirect.com/science/article/pii/S2213020914000135)
-
-[Tellechea-Luzardo, J. et al. (2020) ‘Linking Engineered Cells to Their Digital Twins: A Version Control System for Strain Engineering’, ACS synthetic biology, 9(3), pp. 536–545. doi: 10.1021/acssynbio.9b00400.](https://pubmed.ncbi.nlm.nih.gov/32078768/)
-
-[Ten Hoopen, P. et al. (2015) ‘Marine microbial biodiversity, bioinformatics and biotechnology (M2B3) data reporting and service standards’, Standards in genomic sciences, 10, p. 20. doi: 10.1186/s40793-015-0001-5.](https://pubmed.ncbi.nlm.nih.gov/26203332/)
-
-[Zhang, M. et al. (2017) ‘SBOLDesigner 2: An Intuitive Tool for Structural Genetic Design’, ACS synthetic biology, 6(7), pp. 1150–1160. doi: 10.1021/acssynbio.6b00275.](https://pubmed.ncbi.nlm.nih.gov/28441476/)
+{% bibliography --cited %}

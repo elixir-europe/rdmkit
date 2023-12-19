@@ -135,6 +135,9 @@ defaults:
     values:
       sidebar: about
 
+scholar:
+  style: modern-language-association
+
 plugins:
   - elixir-toolkit-theme-plugins
   - jemoji
@@ -142,3 +145,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-octicons
+  - jekyll-scholar

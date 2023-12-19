@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem 'jekyll-github-metadata', '~> 2.15'
   gem 'jekyll-relative-links', '~> 0.6'
   gem 'jekyll-seo-tag', '~> 2.8'
+  gem 'jekyll-scholar', '~> 7.1.3'
   gem 'jekyll-remote-theme'
 end
 
