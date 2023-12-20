@@ -575,7 +575,12 @@ Styliani-Christina Fragkouli:
     git: sfragkoul
     orcid: 0000-0003-4067-7123
     email: sfragkoul@certh.gr
-    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR  
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR
+Sveinung Gundersen:
+    git: sveinugu
+    orcid: 0000-0001-9888-7954
+    email: sveinugu@ifi.uio.no
+    affiliation: ELIXIR Norway  
 Diana Pilvar:
     git: diana-pilvar
     email: diana.pilvar@ut.ee

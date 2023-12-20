@@ -112,6 +112,8 @@ subitems:
         url: /covid19_data_portal
       - title: CSC
         url: /csc_assembly
+      - title: FAIRtracks
+        url: /fairtracks_assembly
       - title: Galaxy
         url: /galaxy_assembly
       - title: IFB

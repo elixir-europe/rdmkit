@@ -2297,6 +2297,38 @@
   registry:
     biotools: dataplan
   url: https://plan.nfdi4plants.org
+- id: omnipy
+  name: Omnipy
+  url: https://github.com/fairtracks/omnipy
+  description:
+    Omnipy is a high level Python library for type-driven data wrangling and scalable workflow orchestration.
+  registry:
+    biotools: omnipy
+    tess: omnipy
+- id: trackfind
+  name: TrackFind
+  url: https://trackfind.elixir.no/
+  description:
+    TrackFind is a search and curation engine for metadata of geneomic tracks. It supports crawling of the TrackHub Registry and other portals.
+  registry:
+    biotools: trackfind
+- id: pydantic
+  name: Pydantic
+  url: https://docs.pydantic.dev/latest/
+  description:
+    Pydantic is the most widely used data validation library for Python.
+- id: prefect
+  name: Prefect
+  url: https://www.prefect.io/
+  description:
+    Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines.
+- id: track-hub-registry
+  name: Track Hub Registry
+  url: https://www.trackhubregistry.org/
+  description:
+    A global centralised collection of publicly accessible track hubs
+  registry:
+    fairsharing: a1de61
 - description: Fast, sensitive and accurate integration of single-cell data.
   id: harmony
   name: Harmony
