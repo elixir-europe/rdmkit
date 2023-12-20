@@ -32,7 +32,7 @@ national_resources:
     url: https://research.csc.fi/-/fairdata-services
   - name: Federated EGA Finland
     description: FEGA allows you to store and shaare sensitive data in Finland in a way that fulfils all the requirements of the General Data Protection Regulation (GDPR). 
-    instance_of: 
+    instance_of: the-european-genome-phenome-archive 
     how_to_access: 
     related_pages:
       tool_assembly: [csc]
