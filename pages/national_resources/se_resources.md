@@ -56,7 +56,13 @@ national_resources:
       your_domain: [human_data]
       your_tasks: [sensitive]
     url: https://data-guidelines.scilifelab.se/topics/research-involving-human-data/
-    
+  - name: Federated EGA Sweden node
+    description: Secure archiving and sharing of genetic and phenotypic data resulting from Swedish biomedical research projects.
+    instance_of: the-european-genome-phenome-archive
+    related_pages:
+      your_domain: [human_data]
+      your_tasks: [sensitive, existing_data, data_publication]
+    url: https://fega.nbis.se/
 ---
 
 ## Introduction 
