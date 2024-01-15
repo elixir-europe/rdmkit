@@ -50,8 +50,8 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Bibliography
- * Add your citations as bibtex to the `_bibliography/references.bib` file
- * Add `{% cite reference_key %}` to the text where you are citing the reference
+ * Add your citations as bibtex to the `_bibliography/references.bib` file.
+ * Add `{% cite reference_key %}` to the text where you are citing the reference.
  * Add ## Bibliography {% bibliography --cited %} to show a bibliography section containing the references in the page.
 
 ## Graphic design
