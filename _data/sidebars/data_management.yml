@@ -41,6 +41,8 @@ subitems:
         url: /human_pathogen_genomics
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins
+      - title: Machine-learning
+        url: /machine_learning
       - title: Marine metagenomics
         url: /marine_metagenomics
       - title: Microbial biotechnology
