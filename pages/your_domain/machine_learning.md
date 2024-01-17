@@ -1,7 +1,7 @@
 ---
 title: Machine-learning
 description: This page is about setting best practices for data towards enabling FAIR ML.
-contributors: [Styliani-Christina (Stella) Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi,
+contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi,
 Edward Parkinson, Federico Bianchini, Munazah Andrabi]
 page_id: machine_learning
 related_pages: 
