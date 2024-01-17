@@ -24,7 +24,7 @@ training:
 ## What is ML (in this page)
  
 ### Description
-The definition of Machine Learning (ML) can become so vague that it can reach the point of becoming a philosophical question. There are two main approaches; the first one considers the model as the centre of the definition. In this perspective, ML is defined mainly by the characteristics and capabilities of the model employed. This approach focuses on the technical aspects of ML, by emphasising factors such as algorithms, data processing and model performance [4].
+The definition of Machine Learning (ML) can become so vague that it can reach the point of becoming a philosophical question. There are two main approaches; the first one considers the model as the centre of the definition. In this perspective, ML is defined mainly by the characteristics and capabilities of the model employed. This approach focuses on the technical aspects of ML, by emphasising factors such as algorithms, data processing and model performance \cite{Ravi2022}.
 In contrast, the second approach places the entire ML process at the centre of the definition of ML. In this form, the entire process is seen as a single entity, which includes all internal aspects/steps  such as data collection, preprocessing, feature engineering, model training, evaluation and deployment. This approach acknowledges that all these stages are interconnected.
 For the purposes of this page, we will be using the first definition, i.e. the model-centred approach. The reasons behind this choice mainly include the technical focus with a strong emphasis on the technical aspects of ML and the performance evaluation because it provides a clear framework for comparing against other models.
 
@@ -32,9 +32,9 @@ For the purposes of this page, we will be using the first definition, i.e. the m
 ## What does FAIR mean for ML?
  
 ### Description
-As global standards for good data stewardship, the FAIR principles have become instrumental in ML, impacting policies and practices across sectors [7]. Embraced by policymakers and research institutes, implementing FAIR in ML enhances technical performance and proves economically advantageous.
-FAIR is an aspirational guideline, not a stringent standard, propelling better data utilisation in ML. Applying the FAIR principles in ML involves creating easily discoverable models with comprehensive metadata, openly accessible with clear licensing, compatible with other systems via standardised formats, and designed for reuse with meticulous documentation, licensing and versioning [1].
-Actualising these principles necessitates infrastructural adjustments and stakeholder education. FAIR ML holds immense potential in life sciences - from accelerating drug discovery processes to driving innovative bioinformatics applications through data interoperability from various sources. The transformative power of FAIR extends to enhancing predictive modelling, genetic research, disease diagnosis, and much more, demonstrating the criticality of its adoption for the future of life sciences [4].
+As global standards for good data stewardship, the FAIR principles have become instrumental in ML, impacting policies and practices across sectors \cite{Psomopoulos2023}. Embraced by policymakers and research institutes, implementing FAIR in ML enhances technical performance and proves economically advantageous.
+FAIR is an aspirational guideline, not a stringent standard, propelling better data utilisation in ML. Applying the FAIR principles in ML involves creating easily discoverable models with comprehensive metadata, openly accessible with clear licensing, compatible with other systems via standardised formats, and designed for reuse with meticulous documentation, licensing and versioning \cite{Huerta2023}.
+Actualising these principles necessitates infrastructural adjustments and stakeholder education. FAIR ML holds immense potential in life sciences - from accelerating drug discovery processes to driving innovative bioinformatics applications through data interoperability from various sources. The transformative power of FAIR extends to enhancing predictive modelling, genetic research, disease diagnosis, and much more, demonstrating the criticality of its adoption for the future of life sciences \cite{Ravi2022}.
 
 
 ### Considerations 
@@ -52,7 +52,7 @@ There are several key considerations in applying the FAIR principles in ML and t
 
 
 ### Solutions
-Applying the FAIR principles in ML is the focal point of initiatives such as the ELIXIR {% tool "dome" %} recommendations and the ML Focus Group. The following solutions apply to the above mentioned considerations at a high level:
+Applying the FAIR principles in ML is the focal point of initiatives such as the ELIXIR {% tool "dome" %} \cite{Walsh2021} recommendations and the ML Focus Group. The following solutions apply to the above mentioned considerations at a high level:
 - Use community-backed and standardised metadata that includes details about the model's authors, creation date, model type, training data, intended tasks, and performance metrics (such as {% tool "bioimage" %}, {% tool "schema" %}, {% tool "dome" %}, {% tool "onnx" %}).
 - Assign a unique and persistent identifier to each model. This identifier should be linked to the model's metadata to improve searchability.
 - Ensure that models are open-sourced and shared on public platforms (e.g. {% tool "github" %}  or {% tool "huggingface" %}) to improve accessibility.
@@ -69,9 +69,9 @@ Applying the FAIR principles in ML is the focal point of initiatives such as the
 ## Data readiness for the ML models?
  
 ### Description
-The success of an ML model depends on the input data. Finding an appropriate dataset can be a challenge. The data has to be cleaned, explored, and evaluated before ML model training. Data preparation is often the most time-consuming step in the AI lifecycle. The “Garbage in, Garbage out” principle (GIGO) has to be kept in mind at this stage, namely the model trained on unreliable data will produce unreliable predictions [6].
-To prepare data for ML models, there are a number of steps that need to be followed. Firstly, data should be collected from reliable and diverse resources, ensuring it represents the problem domain accurately. Then, data cleaning techniques such as removing duplicates, handling missing values, and addressing outliers should be applied to enhance data quality. Regarding features, on one hand there is the selection or extraction that can be performed to identify the most relevant and informative attributes for the model[8]. On the other hand, there is the problem of the number of features which exceeds that of observations due to the nature of data in life sciences[9]. Furthermore, data normalisation and standardisation might be necessary to scale features appropriately. Also, over or under
--sampling can be used to handle an imbalanced dataset [5]. 
+The success of an ML model depends on the input data. Finding an appropriate dataset can be a challenge. The data has to be cleaned, explored, and evaluated before ML model training. Data preparation is often the most time-consuming step in the AI lifecycle. The “Garbage in, Garbage out” principle (GIGO) has to be kept in mind at this stage, namely the model trained on unreliable data will produce unreliable predictions \cite{Sansone2023}.
+To prepare data for ML models, there are a number of steps that need to be followed. Firstly, data should be collected from reliable and diverse resources, ensuring it represents the problem domain accurately. Then, data cleaning techniques such as removing duplicates, handling missing values, and addressing outliers should be applied to enhance data quality. Regarding features, on one hand there is the selection or extraction that can be performed to identify the most relevant and informative attributes for the model \cite{Comess2020}. On the other hand, there is the problem of the number of features which exceeds that of observations due to the nature of data in life sciences \cite{Berisha2021}. Furthermore, data normalisation and standardisation might be necessary to scale features appropriately. Also, over or under
+-sampling can be used to handle an imbalanced dataset \cite{Williamson2023}. 
 
 
 ### Considerations
