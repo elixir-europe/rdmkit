@@ -1,3 +1,47 @@
+- description: scikit-learn is a free software machine learning library for the Python programming language.
+  id: scikit-learn
+  name: scikit-learn
+  url: https://scikit-learn.org
+- description: The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications
+  id: cuda
+  name: CUDA toolkit
+  url: https://developer.nvidia.com/cuda-toolkit
+- description: A free and open-source software library for machine learning and artificial intelligence.
+  id: tensorflow
+  name: Tensorflow
+  url: https://www.tensorflow.org
+- description: BRAVA is a tool designed to help developers test servers that comply with the BrAPI specifications.
+  id: keras
+  name: Keras
+  url: https://keras.io/
+- description: BioImage is a collaborative effort to bring AI models to the bioimaging community. 
+  id: bioimage
+  name: BioImage Model Zoo
+  url: https://bioimage.io/#/
+- description: Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.BioImage is a collaborative effort to bring AI models to the bioimaging community. 
+  id: schema
+  name: Schema.org
+  url: https://schema.org/
+- description: DOME is a set of community-wide guidelines, recommendations and checklists spanning these four areas aiming to help establish standards of supervised machine learning validation in biology. 
+  id: dome
+  name: DOME-ML
+  url: https://dome-ml.org/
+- description: ONNX is an open format built to represent machine learning models.
+  id: onnx
+  name: Open Neural Network Exchange (ONNX)
+  url: https://onnx.ai/
+- description: The platform where the machine learning community collaborates on models, datasets, and applications.
+  id: huggingface
+  name: HuggingFace
+  url: https://huggingface.co/
+- description: A short and simple permissive license with conditions only requiring preservation of copyright and license notices.
+  id: mit-license
+  name: MIT-License
+  url: https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt
+- description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
+  id: catboost
+  name: CatBoost
+  url: https://catboost.ai/
 - description: BRAVA is a tool designed to help developers test servers that comply with the BrAPI specifications.
   id: brava
   name: BRAVA
