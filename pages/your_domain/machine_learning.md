@@ -1,5 +1,5 @@
 ---
-title: Machine-learning
+title: Machine learning
 description: This page is about setting best practices for data towards enabling FAIR ML.
 contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi,
 Edward Parkinson, Federico Bianchini, Munazah Andrabi]
@@ -7,19 +7,19 @@ page_id: machine_learning
 related_pages:
   your_tasks: [data_quality, sensitive]
 training:
-  - name: Machine-learning events and materials on TeSS
+  - name: Machine learning events and materials on TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=machine+learning#events
 
 ---
-## Introduction: what is ML (on this page)
+## Introduction: what is machine learning (on this page)
  
 ### Description
 The definition of Machine Learning (ML) can become so vague that it can reach the point of becoming a philosophical question. There are two main approaches; the first one considers the model as the centre of the definition. In this perspective, ML is defined mainly by the characteristics and capabilities of the model employed. This approach focuses on the technical aspects of ML, by emphasising factors such as algorithms, data processing and model performance {% cite Ravi2022 %}.
 In contrast, the second approach places the entire ML process at the centre of the definition of ML. In this form, the entire process is seen as a single entity, which includes all internal aspects/steps  such as data collection, preprocessing, feature engineering, model training, evaluation and deployment. This approach acknowledges that all these stages are interconnected.
 For the purposes of this page, we will be using the first definition, i.e. the model-centred approach. The reasons behind this choice mainly include the technical focus with a strong emphasis on the technical aspects of ML and the performance evaluation because it provides a clear framework for comparing against other models.
 
-## What does FAIR mean for ML?
+## What does FAIR mean for machine learning?
 
 ### Description
 As global standards for good data stewardship, the FAIR principles have become instrumental in ML, impacting policies and practices across sectors {% cite Psomopoulos2023 %}. Embraced by policymakers and research institutes, implementing FAIR in ML enhances technical performance and proves economically advantageous.
