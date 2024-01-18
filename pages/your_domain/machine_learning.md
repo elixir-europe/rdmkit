@@ -4,19 +4,14 @@ description: This page is about setting best practices for data towards enabling
 contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi,
 Edward Parkinson, Federico Bianchini, Munazah Andrabi]
 page_id: machine_learning
-related_pages: 
-  your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-# More information on which page ID you can use can be found at https://rdmkit.elixir-europe.org/website_overview
+related_pages:
+  your_tasks: [data_quality, sensitive]
 training:
-  - name:
-    registry:
-    url:
-# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+  - name: Machine-learning events and materials on TeSS
+    registry: TeSS
+    url: https://tess.elixir-europe.org/search?q=machine+learning#events
+
 ---
-
-<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
-
 ## Introduction: what is ML (on this page)
  
 ### Description
@@ -57,7 +52,7 @@ Applying the FAIR principles in ML is the focal point of initiatives such as the
 - Provide comprehensive documentation about the model's training data, architecture, hyperparameters, and performance. This allows other researchers to reproduce the original work or build upon it.
 - Design models modularly, separating data pre-processing, the model itself, and post-processing. This makes each component reusable in different contexts.
 - Ensure that models and their dependencies (like libraries or data sources) are maintained regularly or provide versioned snapshots of your library and all its dependencies, e.g. by offering dockerised containers.
-- Implement anonymisation techniques for sensitive data and always gain consent before using data, especially in sensitive areas like healthcare. Note that privacy considerations can affect the FAIRness of the data, but models can be trustworthy even when they compromise on specific FAIRness aspects. [RDMkit pages on sensitive data](https://rdmkit.elixir-europe.org/data_sensitivity)
+- Implement anonymisation techniques for sensitive data and always gain consent before using data, especially in sensitive areas like healthcare. Note that privacy considerations can affect the FAIRness of the data, but models can be trustworthy even when they compromise on specific FAIRness aspects. See also the [Data sensitivity page](data_sensitivity) for more information.
 
 ## Data readiness for the ML models?
  
