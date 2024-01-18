@@ -2,6 +2,8 @@
   id: scikit-learn
   name: scikit-learn
   url: https://scikit-learn.org
+  registry:
+    biotools: scikit-learn
 - description: The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications
   id: cuda
   name: CUDA toolkit
@@ -10,7 +12,8 @@
   id: tensorflow
   name: Tensorflow
   url: https://www.tensorflow.org
-- description: BRAVA is a tool designed to help developers test servers that comply with the BrAPI specifications.
+    biotools: tensorflow
+- description: Keras is an open-source library that provides a Python interface for artificial neural networks.
   id: keras
   name: Keras
   url: https://keras.io/
@@ -22,10 +25,14 @@
   id: schema
   name: Schema.org
   url: https://schema.org/
+  registry:
+    fairsharing: hzdzq8
 - description: DOME is a set of community-wide guidelines, recommendations and checklists spanning these four areas aiming to help establish standards of supervised machine learning validation in biology. 
   id: dome
   name: DOME-ML
   url: https://dome-ml.org/
+  registry:
+    fairsharing: cf62c2
 - description: ONNX is an open format built to represent machine learning models.
   id: onnx
   name: Open Neural Network Exchange (ONNX)
