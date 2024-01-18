@@ -12,6 +12,7 @@
   id: tensorflow
   name: Tensorflow
   url: https://www.tensorflow.org
+  registry: 
     biotools: tensorflow
 - description: Keras is an open-source library that provides a Python interface for artificial neural networks.
   id: keras
