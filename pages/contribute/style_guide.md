@@ -51,8 +51,8 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 
 ## Bibliography
  * Add your citations as bibtex to the `_bibliography/references.bib` file.
- * Add `{% cite reference_key %}` to the text where you are citing the reference.
- * Add ## Bibliography {% bibliography --cited %} to show a bibliography section containing the references in the page.
+ * Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing the reference.
+ * Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} to show a bibliography section containing the references in the page.
 
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
