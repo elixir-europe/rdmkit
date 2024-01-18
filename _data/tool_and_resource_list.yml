@@ -22,13 +22,13 @@
   id: bioimage
   name: BioImage Model Zoo
   url: https://bioimage.io/#/
-- description: Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.BioImage is a collaborative effort to bring AI models to the bioimaging community. 
+- description: Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.
   id: schema
   name: Schema.org
   url: https://schema.org/
   registry:
     fairsharing: hzdzq8
-- description: DOME is a set of community-wide guidelines, recommendations and checklists spanning these four areas aiming to help establish standards of supervised machine learning validation in biology. 
+- description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology. 
   id: dome
   name: DOME-ML
   url: https://dome-ml.org/
