@@ -12,7 +12,7 @@ training:
     url: https://tess.elixir-europe.org/search?q=machine+learning#events
 
 ---
-## Introduction: what is machine learning (on this page)
+## What is machine learning (on this page)
  
 ### Description
 The definition of Machine Learning (ML) can become so vague that it can reach the point of becoming a philosophical question. There are two main approaches; the first one considers the model as the centre of the definition. In this perspective, ML is defined mainly by the characteristics and capabilities of the model employed. This approach focuses on the technical aspects of ML, by emphasising factors such as algorithms, data processing and model performance {% cite Ravi2022 %}.
