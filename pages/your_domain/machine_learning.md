@@ -12,19 +12,23 @@ training:
     url: https://tess.elixir-europe.org/search?q=machine+learning#events
 
 ---
-## What is machine learning (on this page)
+## What is machine learning (on this page)?
  
 ### Description
 The definition of Machine Learning (ML) can become so vague that it can reach the point of becoming a philosophical question. There are two main approaches; the first one considers the model as the centre of the definition. In this perspective, ML is defined mainly by the characteristics and capabilities of the model employed. This approach focuses on the technical aspects of ML, by emphasising factors such as algorithms, data processing and model performance {% cite Ravi2022 %}.
 In contrast, the second approach places the entire ML process at the centre of the definition of ML. In this form, the entire process is seen as a single entity, which includes all internal aspects/steps  such as data collection, preprocessing, feature engineering, model training, evaluation and deployment. This approach acknowledges that all these stages are interconnected.
+
 For the purposes of this page, we will be using the first definition, i.e. the model-centred approach. The reasons behind this choice mainly include the technical focus with a strong emphasis on the technical aspects of ML and the performance evaluation because it provides a clear framework for comparing against other models.
 
-## What does FAIR mean for machine learning?
+## What is FAIR in machine learning?
 
 ### Description
 As global standards for good data stewardship, the FAIR principles have become instrumental in ML, impacting policies and practices across sectors {% cite Psomopoulos2023 %}. Embraced by policymakers and research institutes, implementing FAIR in ML enhances technical performance and proves economically advantageous.
+
 FAIR is an aspirational guideline, not a stringent standard, propelling better data utilisation in ML. Applying the FAIR principles in ML involves creating easily discoverable models with comprehensive metadata, openly accessible with clear licensing, compatible with other systems via standardised formats, and designed for reuse with meticulous documentation, licensing and versioning {% cite Huerta2023 %}.
-Actualising these principles necessitates infrastructural adjustments and stakeholder education {% cite Katz2021WorkingTU %}. FAIR ML holds immense potential in life sciences - from accelerating drug discovery processes to driving innovative bioinformatics applications through data interoperability from various sources. The transformative power of FAIR extends to enhancing predictive modelling, genetic research, disease diagnosis, and much more, demonstrating the criticality of its adoption for the future of life sciences {% cite Ravi2022 %}.
+Actualising these principles necessitates infrastructural adjustments and stakeholder education {% cite Katz2021WorkingTU %}.
+
+FAIR ML holds immense potential in life sciences, from accelerating drug discovery processes to driving innovative bioinformatics applications through data interoperability from various sources. The transformative power of FAIR extends to enhancing predictive modelling, genetic research, disease diagnosis, and much more, demonstrating the criticality of its adoption for the future of life sciences {% cite Ravi2022 %}.
 
 
 ### Considerations 
@@ -40,11 +44,11 @@ There are several key considerations in applying the FAIR principles in ML and t
 - Evaluation: How can FAIR models be transparently evaluated? What role does documentation of performance metrics, validation procedures, and evaluation results play in providing users with an understanding of a model’s capabilities and limitations?
 
 ### Solutions
-Applying the FAIR principles in ML is the focal point of initiatives such as the ELIXIR {% tool "dome" %} {% cite Walsh2021 %} recommendations and the ML Focus Group. The following solutions apply to the above-mentioned considerations at a high level:
+Applying the FAIR principles in ML is the focal point of initiatives such as the ELIXIR {% tool "dome" %} {% cite Walsh2021 %} recommendations and the [ELIXIR ML Focus Group](https://elixir-europe.org/focus-groups/machine-learning). The following solutions apply to the above-mentioned considerations at a high level:
 - Use community-backed and standardised metadata that includes details about the model's authors, creation date, model type, training data, intended tasks, and performance metrics (such as {% tool "bioimage" %}, {% tool "schema" %}, {% tool "dome" %}, and {% tool "onnx" %}).
 - Assign a unique and persistent identifier to each model. This identifier should be linked to the model's metadata to improve searchability.
 - Ensure that models are open-sourced and shared on public platforms (e.g. {% tool "github" %}  or {% tool "huggingface" %}) to improve accessibility.
-- Specify the terms of use in the licensing information, or link to standard licenses. This must include what users are allowed to do with the model. The most commonly used license on {% tool "github" %} is the {% tool "mit-license" %}, other options can be explored here.
+- Specify the terms of use in the licensing information, or link to standard licenses. This must include what users are allowed to do with the model. The most commonly used license on {% tool "github" %} is the {% tool "mit-license" %}, other options can be explored [here](https://choosealicense.com/).
 - Implement Application Programming Interfaces (APIs) to allow easy interaction with the model.
 - Use standardised formats for sharing models, making them compatible with different platforms and languages ({% tool "onnx" %} for neural networks, for example).
 - Provide clear documentation about the model's requirements, design, usage, and output formats. This will ensure the model can interact with other systems more easily.
@@ -54,10 +58,11 @@ Applying the FAIR principles in ML is the focal point of initiatives such as the
 - Ensure that models and their dependencies (like libraries or data sources) are maintained regularly or provide versioned snapshots of your library and all its dependencies, e.g. by offering dockerised containers.
 - Implement anonymisation techniques for sensitive data and always gain consent before using data, especially in sensitive areas like healthcare. Note that privacy considerations can affect the FAIRness of the data, but models can be trustworthy even when they compromise on specific FAIRness aspects. See also the [Data sensitivity page](data_sensitivity) for more information.
 
-## Data readiness for the ML models?
+## Data readiness for the ML models
  
 ### Description
 The success of an ML model depends on the input data. Finding an appropriate dataset can be a challenge. The data has to be cleaned, explored, and evaluated before ML model training. Data preparation is often the most time-consuming step in the AI lifecycle. The “Garbage in, Garbage out” principle (GIGO) has to be kept in mind at this stage: models trained on unreliable data will produce unreliable predictions {% cite Sansone2023 %}.
+
 To prepare data for ML models, several steps need to be followed. Firstly, data should be collected from reliable and diverse resources, ensuring it represents the problem domain accurately. Then, data cleaning techniques such as removing duplicates, handling missing values, and addressing outliers should be applied to enhance data quality. A commonly used practice for this task is the implementation of {% tool "scikit-learn" %}. Regarding features, on one hand there is the selection or extraction that can be performed to identify the most relevant and informative attributes for the model {% cite Comess2020 %}. On the other hand, there is the problem of the number of features which exceeds that of observations due to the nature of data in life sciences {% cite Berisha2021 %}. Furthermore, data normalisation and standardisation might be necessary to scale features appropriately. Also, over or under-sampling can be used to handle an imbalanced dataset {% cite Williamson2023 %}. 
 
 ### Considerations
