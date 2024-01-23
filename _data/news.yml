@@ -159,6 +159,6 @@
   linked_pr: 1419
   description: A new "tool assembly" page for FAIRtracks was added. [Discover the page here](fairtracks_assembly).
 - name: "New page: Machine learning"
-  date: 2024-01-19
+  date: 2024-01-23
   linked_pr: 1443
   description: A new "domain" page for machine learning was added. [Discover the page here](machine_learning).
