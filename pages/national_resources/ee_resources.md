@@ -2,7 +2,7 @@
 
 title: Estonia
 country_code: EE
-contributors: [Heleri Inno][Diana Pilvar]
+contributors: [Heleri Inno, Diana Pilvar]
 coordinators: [Heleri Inno]
 
 national_resources:
