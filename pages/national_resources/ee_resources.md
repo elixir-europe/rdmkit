@@ -61,7 +61,7 @@ The Estonian government has released an “Estonian Research and Development, In
 ## Domain-specific infrastructures or resources
 
 * [ELIXIR Estonia](https://elixir.ut.ee/services) list of services that are provided.
-* [Estonian Research Information System]([https://www.etis.ee/)) contains information about the researchers and the projects.
+* [Estonian Research Information System](https://www.etis.ee/) contains information about the researchers and the projects.
 * [DataDOI](https://datadoi.ee/) is an Estonian National repository.
 * [PlutoF](https://plutof.ut.ee/) is a data management and publishing platform.
 * [The High Performance Computing Center](https://hpc.ut.ee/)
