@@ -1,3 +1,45 @@
+- description: scikit-learn is a free software machine learning library for the Python programming language.
+  id: scikit-learn
+  name: scikit-learn
+  url: https://scikit-learn.org
+  registry:
+    biotools: scikit-learn
+- description: The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications
+  id: cuda
+  name: CUDA toolkit
+  url: https://developer.nvidia.com/cuda-toolkit
+- description: A free and open-source software library for machine learning and artificial intelligence.
+  id: tensorflow
+  name: Tensorflow
+  url: https://www.tensorflow.org
+  registry: 
+    biotools: tensorflow
+- description: Keras is an open-source library that provides a Python interface for artificial neural networks.
+  id: keras
+  name: Keras
+  url: https://keras.io/
+- description: BioImage is a collaborative effort to bring AI models to the bioimaging community. 
+  id: bioimage
+  name: BioImage Model Zoo
+  url: https://bioimage.io/#/
+- description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology. 
+  id: dome
+  name: DOME-ML
+  url: https://dome-ml.org/
+  registry:
+    fairsharing: cf62c2
+- description: ONNX is an open format built to represent machine learning models.
+  id: onnx
+  name: Open Neural Network Exchange (ONNX)
+  url: https://onnx.ai/
+- description: The platform where the machine learning community collaborates on models, datasets, and applications.
+  id: huggingface
+  name: HuggingFace
+  url: https://huggingface.co/
+- description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
+  id: catboost
+  name: CatBoost
+  url: https://catboost.ai/
 - description: BRAVA is a tool designed to help developers test servers that comply with the BrAPI specifications.
   id: brava
   name: BRAVA
