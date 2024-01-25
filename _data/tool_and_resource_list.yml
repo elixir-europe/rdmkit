@@ -896,6 +896,8 @@
 - description: FAIR Cookbook is an online resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable (FAIR)
   id: fair-cookbook
   name: FAIR Cookbook
+  registry:
+    biotools: fair_cookbook
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
 - description: A FAIR Data Point stores metadata in a standardized and sharable way.
   id: fair-data-point
