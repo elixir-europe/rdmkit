@@ -45,7 +45,7 @@ There are several key considerations in applying the FAIR principles in ML and t
 
 ### Solutions
 Applying the FAIR principles in ML is the focal point of initiatives such as the ELIXIR {% tool "dome" %} {% cite Walsh2021 %} recommendations and the [ELIXIR ML Focus Group](https://elixir-europe.org/focus-groups/machine-learning). The following solutions apply to the above-mentioned considerations at a high level:
-- Use community-backed and standardised metadata that includes details about the model's authors, creation date, model type, training data, intended tasks, and performance metrics (such as {% tool "bioimage" %}, {% tool "schema" %}, {% tool "dome" %}, and {% tool "onnx" %}).
+- Use community-backed and standardised metadata that includes details about the model's authors, creation date, model type, training data, intended tasks, and performance metrics (such as {% tool "bioimage" %}, {% tool "schema-org" %}, {% tool "dome" %}, and {% tool "onnx" %}).
 - Assign a unique and persistent identifier to each model. This identifier should be linked to the model's metadata to improve searchability.
 - Ensure that models are open-sourced and shared on public platforms (e.g. {% tool "github" %}  or {% tool "huggingface" %}) to improve accessibility.
 - Specify the terms of use in the licensing information, or link to standard licenses. This must include what users are allowed to do with the model. The most commonly used license on {% tool "github" %} is the {% tool "mit-license" %}, other options can be explored [here](https://choosealicense.com/).
