@@ -36,10 +36,6 @@
   id: huggingface
   name: HuggingFace
   url: https://huggingface.co/
-- description: A short and simple permissive license with conditions only requiring preservation of copyright and license notices.
-  id: mit-license
-  name: MIT-License
-  url: https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt
 - description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
   id: catboost
   name: CatBoost

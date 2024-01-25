@@ -48,7 +48,7 @@ Applying the FAIR principles in ML is the focal point of initiatives such as the
 - Use community-backed and standardised metadata that includes details about the model's authors, creation date, model type, training data, intended tasks, and performance metrics (such as {% tool "bioimage" %}, {% tool "schema-org" %}, {% tool "dome" %}, and {% tool "onnx" %}).
 - Assign a unique and persistent identifier to each model. This identifier should be linked to the model's metadata to improve searchability.
 - Ensure that models are open-sourced and shared on public platforms (e.g. {% tool "github" %}  or {% tool "huggingface" %}) to improve accessibility.
-- Specify the terms of use in the licensing information, or link to standard licenses. This must include what users are allowed to do with the model. The most commonly used license on {% tool "github" %} is the {% tool "mit-license" %}, other options can be explored [here](https://choosealicense.com/).
+- Specify the terms of use in the licensing information, or link to standard licenses. This must include what users are allowed to do with the model. The most commonly used license on {% tool "github" %} is the [MIT license](https://opensource.org/license/mit/), other options can be explored [here](https://choosealicense.com/).
 - Implement Application Programming Interfaces (APIs) to allow easy interaction with the model.
 - Use standardised formats for sharing models, making them compatible with different platforms and languages ({% tool "onnx" %} for neural networks, for example).
 - Provide clear documentation about the model's requirements, design, usage, and output formats. This will ensure the model can interact with other systems more easily.
