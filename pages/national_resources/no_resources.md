@@ -191,6 +191,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
+* [VID Specialized University](https://www.vid.no/en/files/guidelines-for-managing-research-data-at-vid/)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/Documents#docSDMS)
 
 ### Institutional storage guidelines
@@ -207,6 +208,7 @@ Details and provided solutions vary according to each institution:
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
+* [VID Specialized University](https://www.vid.no/en/research/research-data/data-storage-guide/)
 
 ### Institutional guidelines related to personal data
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/forskning/forskningsdata)
@@ -215,6 +217,8 @@ Details and provided solutions vary according to each institution:
 * [University of Bergen (UiB)](https://www.uib.no/en/personaldata/130126/privacy-policy-university-bergen), also available [in Norwegian](https://www.uib.no/personvern)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/ethics/art?p_document_id=754184), [full guidelines](https://uit.no/Content/800249/cache=1673451716000/Guidelines%20for%20processing%20of%20personal%20data%20in%20research%20and%20student%20projects%20at%20UiT.PDF) available as pdf
+* [VID Specialized University](https://www.vid.no/en/privacy-and-gdpr/research-and-publishing/)
+
 
 ## Support services
 
@@ -235,6 +239,7 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
+* [VID Specialized University](https://www.vid.no/en/research/research-data/)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/DMsupport)
 
 ### Other data management infrastructures
