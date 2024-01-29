@@ -1,9 +1,10 @@
 - description: scikit-learn is a free software machine learning library for the Python programming language.
   id: scikit-learn
   name: scikit-learn
-  url: https://scikit-learn.org
   registry:
     biotools: scikit-learn
+    tess: scikit-learn
+  url: https://scikit-learn.org
 - description: The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications
   id: cuda
   name: CUDA toolkit
@@ -11,23 +12,28 @@
 - description: A free and open-source software library for machine learning and artificial intelligence.
   id: tensorflow
   name: Tensorflow
-  url: https://www.tensorflow.org
-  registry: 
+  registry:
     biotools: tensorflow
+    tess: Tensorflow
+  url: https://www.tensorflow.org
 - description: Keras is an open-source library that provides a Python interface for artificial neural networks.
   id: keras
   name: Keras
+  registry:
+    tess: Keras
   url: https://keras.io/
-- description: BioImage is a collaborative effort to bring AI models to the bioimaging community. 
+- description: BioImage is a collaborative effort to bring AI models to the bioimaging community.
   id: bioimage
   name: BioImage Model Zoo
+  registry:
+    tess: BioImage Model Zoo
   url: https://bioimage.io/#/
-- description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology. 
+- description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology.
   id: dome
   name: DOME-ML
-  url: https://dome-ml.org/
   registry:
     fairsharing: cf62c2
+  url: https://dome-ml.org/
 - description: ONNX is an open format built to represent machine learning models.
   id: onnx
   name: Open Neural Network Exchange (ONNX)
@@ -708,12 +714,14 @@
   name: e!DAL
   registry:
     biotools: edal
+    tess: e!DAL
   url: https://edal.ipk-gatersleben.de/
 - description: Plant Genomics and Phenomics Research Data Repository
   id: e-dal-pgp
   name: e!DAL-PGP
   registry:
     fairsharing: rf3m4g
+    tess: e!DAL-PGP
   url: https://edal-pgp.ipk-gatersleben.de/
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
   id: ecotox
@@ -882,6 +890,7 @@
   name: FAIDARE
   registry:
     biotools: faidare
+    tess: FAIDARE
   url: https://urgi.versailles.inra.fr/faidare/
 - description: FAIR Cookbook is an online resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable (FAIR)
   id: fair-cookbook
@@ -2270,6 +2279,7 @@
   registry:
     biotools: knetminer
     fairsharing: 826b4a
+    tess: KnetMiner
   url: https://knetminer.com
 - description: The RDF Knowledge-based Database for plant molecular networks
   id: agronomic-linked-data
