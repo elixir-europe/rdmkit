@@ -211,6 +211,7 @@ Details and provided solutions vary according to each institution:
 * [VID Specialized University](https://www.vid.no/en/research/research-data/data-storage-guide/)
 
 ### Institutional guidelines related to personal data
+* [Guidance for personal research in the healthcare system](https://www.ehelse.no/normen/normen-dokumenter/Veileder-i-personvern-og-informasjonssikkerhet-i-forskningsprosjekter)
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/forskning/forskningsdata)
 * [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects), also available [in Norwegian](https://i.ntnu.no/wiki/-/wiki/Norsk/Behandle+personopplysninger+i+student-+og+forskningsprosjekt)
 * [Norwegian University of Science and Technology - Health research guidelines](https://i.ntnu.no/helseforskning)
