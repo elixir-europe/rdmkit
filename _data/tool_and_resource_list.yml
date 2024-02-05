@@ -897,6 +897,7 @@
   name: FAIR Cookbook
   registry:
     biotools: fair_cookbook
+    tess: FAIR Cookbook
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
 - description: A FAIR Data Point stores metadata in a standardized and sharable way.
   id: fair-data-point
@@ -2359,6 +2360,7 @@
   name: Omnipy
   registry:
     biotools: omnipy
+    tess: Omnipy
   url: https://github.com/fairtracks/omnipy
 - description: TrackFind is a search and curation engine for metadata of geneomic tracks. It supports crawling of the TrackHub Registry and other portals.
   id: trackfind
