@@ -141,6 +141,7 @@
   id: addgene
   name: Addgene
   registry:
+    biotools: addgene
     fairsharing: 8hcczk
   url: https://www.addgene.org/browse/
 - description: Browser for ontologies for agricultural science based on NBCO BioPortal.
@@ -561,6 +562,8 @@
 - description: Command line tool and library for transferring data with URLs
   id: curl
   name: cURL
+  registry:
+    tess: cURL
   url: https://curl.se
 - description: Image Data management
   id: cytomine-ims
