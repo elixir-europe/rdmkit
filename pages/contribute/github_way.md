@@ -8,7 +8,7 @@ This guide tells you how to request and edit a page using GitHub.
 
 Prerequisites:
 * No technical knowledge
-* A GitHub account. If you don’t have one, [create a free GitHub account](https://github.com/join) before you start.
+* A GitHub account. If you do not have one, [create a free GitHub account](https://github.com/join) before you start.
 
 
 ## Announce and discuss your proposal through GitHub “issues”
