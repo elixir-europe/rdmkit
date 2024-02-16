@@ -11,7 +11,7 @@ Since the `Data life cycle` pages do not list tools, no tools table will be pres
 
 The [all_tools_and_resources](all_tools_and_resources) list is based on the [yaml file](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml) in the `_data` directory of the RDMkit repository. Tools and resources can be manually linked to [FAIRsharing.org](https://fairsharing.org/), [Bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/), but every week we also run a fully automatic check that links tools and resources with the corresponding registries. A GitHub Bot will generate a Pull Request (PR) with the new links added to the main data file of the website.
 
-{% include callout.html type="important" content="The link with FAIRsharing,TeSS and Bio.tools is automatically done using GitHub actions and is updated weekly. If no FAIRsharing ID, Bio.tools ID or TeSS Query is available for a source, but there is yet one automatically given (faulty), you can overwrite the automatic linking by adding 'NA' as a registry." %}
+{% include callout.html type="important" content="The link with FAIRsharing,TeSS and Bio.tools is automatically done using GitHub actions and is updated weekly. If no FAIRsharing ID, Bio.tools ID or TeSS query is available for a source, but there is yet one automatically given (faulty), you can overwrite the automatic linking by adding 'NA' as a registry." %}
 
 ## The main yaml file
 
