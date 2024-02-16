@@ -2489,3 +2489,17 @@
     fairsharing: g7t2hv
     tess: Sequence Read Archive
   url: https://www.ncbi.nlm.nih.gov/sra
+- description: Minimum Information about a high-throughput SEQuencing Experiment
+  id: minseqe
+  name: MINSEQE
+  registry:
+    fairsharing: a55z32
+    tess: MINSEQE
+  url: https://doi.org/10.5281/zenodo.5706412
+- description: Minimum Information About a Microarray Experiment
+  id: miame
+  name: MIAME
+  registry:
+    fairsharing: 32b10v
+    tess: MIAME
+  url: https://www.fged.org/projects/miame/
