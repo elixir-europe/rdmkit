@@ -14,7 +14,7 @@ Follow the steps below to contribute using Google Docs:
 
 3. Notify the editorial team when you are finished.
 4. Read feedback. The editors will assign reviewers to your page, who will provide feedback as comments on the shared Google Doc.
-5. Address the reviewers’ comments and let the editorial team know that you’ve finished reviewing.
+5. Address the reviewers’ comments and let the editorial team know when you are finished.
 6. Receive notification from the editors when your contributions are live.
 
 
