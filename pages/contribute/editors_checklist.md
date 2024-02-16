@@ -23,5 +23,5 @@ summary: Checklist for editors before approving and merging a pull request (PR).
 8. There are no [copyright](copyright) issues related to the content of the page.
 9. The contributors implemented the requested changes.
 10. When a new page is added, a news item is added to the [news.yml file](https://github.com/elixir-europe/rdmkit/blob/master/_data/news.yml), in the same branch of the PR.
-11. The contributors are thanked for their efforts and informed about the publication of their content.
+11. The contributors are acknowledged for their efforts and informed about the publication of their content.
 12. The PR is linked to related issues and can be merged into the main branch with no conflicts.
