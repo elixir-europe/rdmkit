@@ -360,7 +360,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Medicines Act](http://www.lovdata.no/all/nl-19921204-132.html)
 * [Regulations on clinical trials of medical products for human use](http://www.lovdata.no/for/sf/ho/ho-20091030-1321.html)
 * [Biotechnology Act (on the medical use of biotechnology)](https://lovdata.no/dokument/NL/lov/2003-12-05-100)
-* [e-helse Direktoratet: “Normen”: Norms for health data](https://ehelse.no/normen)
+* [e-helse Direktoratet: “Normen”: Norms for health research data](https://www.ehelse.no/normen/normen-dokumenter/Veileder-i-personvern-og-informasjonssikkerhet-i-forskningsprosjekter)
 
 ### Other laws of potential relevance to life sciences research data
 
