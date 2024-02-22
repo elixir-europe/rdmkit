@@ -28,6 +28,7 @@ national_resources:
       tool_assembly: [tsd, nels, marine_assembly]
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
+    id: dsw-no
     description: DS-Wizard is a tool to aid the creation, organisation and sharing of data management plans. It provides scientists with guidance, facilitating the understanding of the key components of FAIR-oriented Data Stewardship. The template in this instance provides additional guidance on resources, laws and regulations in Norway.
     how_to_access: Life Science Login (LS Login) with Feide or upon registration
     instance_of: data-stewardship-wizard
@@ -174,7 +175,7 @@ The Norwegian Ministry of Education and Research's "[National strategy on access
 
 ##  Funder policies on research data
 
-[Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The [research data management policy of RCN requires a Data Management Plan (DMP)](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/) after a positive funding decision for each project. A DMP has to be submitted as part of a final report. RCN recommends following the ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and performers. In addition to advising policies for open science and open access to publications, [RCN provides recommendations on how to make research data available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). From 2023 and onwards, a [project grant application submitted to RCN is assessed for open science best practices](https://www.forskningsradet.no/en/processing-grant-applications/processing-applications/assessment-open-science/).
+[Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The [research data management policy of RCN requires a Data Management Plan (DMP)](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/), preferably also available in the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) as supported by for example by {% tool "data-stewardship-wizard" %} after a positive funding decision for each project. A DMP has to be submitted as part of a final report. RCN recommends following the ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and performers. In addition to advising [policies for open science and open access](https://www.forskningsradet.no/siteassets/forskningspolitisk-radgivning/apen-forskning/nfr-policy-open-science-eng.pdf), [RCN provides recommendations on how to make research data available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). From 2023 and onwards, a [project grant application submitted to RCN is assessed for open science best practices](https://www.forskningsradet.no/en/processing-grant-applications/processing-applications/assessment-open-science/).
 
 
 ##  Institutional policies on research data
@@ -190,6 +191,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
+* [VID Specialized University](https://www.vid.no/en/files/guidelines-for-managing-research-data-at-vid/)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/Documents#docSDMS)
 
 ### Institutional storage guidelines
@@ -206,14 +208,18 @@ Details and provided solutions vary according to each institution:
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
+* [VID Specialized University](https://www.vid.no/en/research/research-data/data-storage-guide/)
 
 ### Institutional guidelines related to personal data
+* [Guidance for personal research in the healthcare system](https://www.ehelse.no/normen/normen-dokumenter/Veileder-i-personvern-og-informasjonssikkerhet-i-forskningsprosjekter)
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/forskning/forskningsdata)
 * [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects), also available [in Norwegian](https://i.ntnu.no/wiki/-/wiki/Norsk/Behandle+personopplysninger+i+student-+og+forskningsprosjekt)
 * [Norwegian University of Science and Technology - Health research guidelines](https://i.ntnu.no/helseforskning)
 * [University of Bergen (UiB)](https://www.uib.no/en/personaldata/130126/privacy-policy-university-bergen), also available [in Norwegian](https://www.uib.no/personvern)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/ethics/art?p_document_id=754184), [full guidelines](https://uit.no/Content/800249/cache=1673451716000/Guidelines%20for%20processing%20of%20personal%20data%20in%20research%20and%20student%20projects%20at%20UiT.PDF) available as pdf
+* [VID Specialized University](https://www.vid.no/en/privacy-and-gdpr/research-and-publishing/)
+
 
 ## Support services
 
@@ -234,6 +240,7 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
+* [VID Specialized University](https://www.vid.no/en/research/research-data/)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/DMsupport)
 
 ### Other data management infrastructures
@@ -353,7 +360,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Medicines Act](http://www.lovdata.no/all/nl-19921204-132.html)
 * [Regulations on clinical trials of medical products for human use](http://www.lovdata.no/for/sf/ho/ho-20091030-1321.html)
 * [Biotechnology Act (on the medical use of biotechnology)](https://lovdata.no/dokument/NL/lov/2003-12-05-100)
-* [e-helse Direktoratet: “Normen”: Norms for health data](https://ehelse.no/normen)
+* [e-helse Direktoratet: “Normen”: Norms for health research data](https://www.ehelse.no/normen/normen-dokumenter/Veileder-i-personvern-og-informasjonssikkerhet-i-forskningsprosjekter)
 
 ### Other laws of potential relevance to life sciences research data
 
