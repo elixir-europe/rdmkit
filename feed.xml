@@ -14,9 +14,10 @@ layout: none
 		<sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		<lastBuildDate>{% for post in site.data.news limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
-		{%- assign feed_items = site.feed_items | default: 10 %}
-		{%- for post in site.data.news limit:feed_items %}
+        {%- assign news = site.data.news | sort: "date" %}
+		{%- assign latest_news = news | last %}
+		<lastBuildDate>{{ latest_news.date | date_to_rfc822 }}</lastBuildDate>
+		{%- for post in news reversed %}
 			<item>
 				<title>{{ post.name | xml_escape }}</title>
 				{%- if post.description %}
