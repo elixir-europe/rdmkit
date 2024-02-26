@@ -1,3 +1,51 @@
+- description: scikit-learn is a free software machine learning library for the Python programming language.
+  id: scikit-learn
+  name: scikit-learn
+  registry:
+    biotools: scikit-learn
+    tess: scikit-learn
+  url: https://scikit-learn.org
+- description: The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications
+  id: cuda
+  name: CUDA toolkit
+  url: https://developer.nvidia.com/cuda-toolkit
+- description: A free and open-source software library for machine learning and artificial intelligence.
+  id: tensorflow
+  name: Tensorflow
+  registry:
+    biotools: tensorflow
+    tess: Tensorflow
+  url: https://www.tensorflow.org
+- description: Keras is an open-source library that provides a Python interface for artificial neural networks.
+  id: keras
+  name: Keras
+  registry:
+    tess: Keras
+  url: https://keras.io/
+- description: BioImage is a collaborative effort to bring AI models to the bioimaging community.
+  id: bioimage
+  name: BioImage Model Zoo
+  registry:
+    tess: BioImage Model Zoo
+  url: https://bioimage.io/#/
+- description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology.
+  id: dome
+  name: DOME-ML
+  registry:
+    fairsharing: cf62c2
+  url: https://dome-ml.org/
+- description: ONNX is an open format built to represent machine learning models.
+  id: onnx
+  name: Open Neural Network Exchange (ONNX)
+  url: https://onnx.ai/
+- description: The platform where the machine learning community collaborates on models, datasets, and applications.
+  id: huggingface
+  name: HuggingFace
+  url: https://huggingface.co/
+- description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
+  id: catboost
+  name: CatBoost
+  url: https://catboost.ai/
 - description: BRAVA is a tool designed to help developers test servers that comply with the BrAPI specifications.
   id: brava
   name: BRAVA
@@ -93,6 +141,7 @@
   id: addgene
   name: Addgene
   registry:
+    biotools: addgene
     fairsharing: 8hcczk
   url: https://www.addgene.org/browse/
 - description: Browser for ontologies for agricultural science based on NBCO BioPortal.
@@ -513,6 +562,8 @@
 - description: Command line tool and library for transferring data with URLs
   id: curl
   name: cURL
+  registry:
+    tess: cURL
   url: https://curl.se
 - description: Image Data management
   id: cytomine-ims
@@ -622,6 +673,8 @@
 - description: Build your Data Management Plan
   id: dmptool
   name: DMPTool
+  registry:
+    tess: DMPTool
   url: https://dmptool.org
 - description: A database of DNA sequences
   id: dna-data-bank-of-japan
@@ -664,12 +717,14 @@
   name: e!DAL
   registry:
     biotools: edal
+    tess: e!DAL
   url: https://edal.ipk-gatersleben.de/
 - description: Plant Genomics and Phenomics Research Data Repository
   id: e-dal-pgp
   name: e!DAL-PGP
   registry:
     fairsharing: rf3m4g
+    tess: e!DAL-PGP
   url: https://edal-pgp.ipk-gatersleben.de/
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
   id: ecotox
@@ -838,10 +893,14 @@
   name: FAIDARE
   registry:
     biotools: faidare
+    tess: FAIDARE
   url: https://urgi.versailles.inra.fr/faidare/
 - description: FAIR Cookbook is an online resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable (FAIR)
   id: fair-cookbook
   name: FAIR Cookbook
+  registry:
+    biotools: fair_cookbook
+    tess: FAIR Cookbook
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
 - description: A FAIR Data Point stores metadata in a standardized and sharable way.
   id: fair-data-point
@@ -1413,6 +1472,7 @@
   name: Ontobee
   registry:
     fairsharing: q8fx1b
+    tess: Ontobee
   url: http://www.ontobee.org
 - description: Licenses that are conformant with the principles laid out in the Open Definition.
   id: open-definition-conformant-licenses
@@ -2223,6 +2283,7 @@
   registry:
     biotools: knetminer
     fairsharing: 826b4a
+    tess: KnetMiner
   url: https://knetminer.com
 - description: The RDF Knowledge-based Database for plant molecular networks
   id: agronomic-linked-data
@@ -2297,6 +2358,33 @@
   registry:
     biotools: dataplan
   url: https://plan.nfdi4plants.org
+- description: Omnipy is a high level Python library for type-driven data wrangling and scalable workflow orchestration.
+  id: omnipy
+  name: Omnipy
+  registry:
+    biotools: omnipy
+    tess: Omnipy
+  url: https://github.com/fairtracks/omnipy
+- description: TrackFind is a search and curation engine for metadata of geneomic tracks. It supports crawling of the TrackHub Registry and other portals.
+  id: trackfind
+  name: TrackFind
+  registry:
+    biotools: trackfind
+  url: https://trackfind.elixir.no/
+- description: Pydantic is the most widely used data validation library for Python.
+  id: pydantic
+  name: Pydantic
+  url: https://docs.pydantic.dev/latest/
+- description: Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines.
+  id: prefect
+  name: Prefect
+  url: https://www.prefect.io/
+- description: A global centralised collection of publicly accessible track hubs
+  id: track-hub-registry
+  name: Track Hub Registry
+  registry:
+    fairsharing: a1de61
+  url: https://www.trackhubregistry.org/
 - description: Fast, sensitive and accurate integration of single-cell data.
   id: harmony
   name: Harmony
@@ -2336,6 +2424,7 @@
   id: anndata
   name: AnnData
   registry:
+    biotools: anndata
     tess: AnnData
   url: https://anndata.readthedocs.io/en/latest/
 - description: Loom is an efficient file format for large omics datasets.
@@ -2401,3 +2490,17 @@
     fairsharing: g7t2hv
     tess: Sequence Read Archive
   url: https://www.ncbi.nlm.nih.gov/sra
+- description: Minimum Information about a high-throughput SEQuencing Experiment
+  id: minseqe
+  name: MINSEQE
+  registry:
+    fairsharing: a55z32
+    tess: MINSEQE
+  url: https://doi.org/10.5281/zenodo.5706412
+- description: Minimum Information About a Microarray Experiment
+  id: miame
+  name: MIAME
+  registry:
+    fairsharing: 32b10v
+    tess: MIAME
+  url: https://www.fged.org/projects/miame/

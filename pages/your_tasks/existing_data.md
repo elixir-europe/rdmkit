@@ -43,6 +43,7 @@ Many datasets could exist that you can reuse for your project. Even if you know 
     * The {% tool "omicsdi" %} provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).
     * The {% tool "elixir-core-data-resources" %} list of knowledge resources recommended by ELIXIR.
     * {% tool "openaire-explore" %} provides linked open research datasets.
+    * {% tool "mendeley-data" %} is linked with the Mendeley social network.
 
 * Search through all repositories you found to identify what you could use. Give priority to curated repositories.
 

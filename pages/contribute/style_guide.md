@@ -53,6 +53,11 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
+## Bibliography
+ * Add your citations as bibtex to the `_bibliography/references.bib` file.
+ * Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing the reference.
+ * Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} to show a bibliography section containing the references in the page.
+
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
   * **Colours:** <br/>

@@ -5,6 +5,7 @@ contributors: [Philip van Damme, Nirupama Benis, César Bernabé, Shuxin Zhang, 
 page_id: rare_disease
 related_pages: 
   your_domain: [human_data]
+  tool_assembly: [fairtracks]
   your_tasks: [dmp, data_publication, machine_actionability]
 ---
 

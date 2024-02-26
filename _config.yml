@@ -136,7 +136,7 @@ defaults:
       sidebar: about
 
 scholar:
-  style: modern-language-association
+  style: _bibliography/nature_custom.csl
 
 plugins:
   - elixir-toolkit-theme-plugins
