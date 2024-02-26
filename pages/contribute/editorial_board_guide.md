@@ -171,10 +171,10 @@ Do you want that the GitHub picture of a contributor is shown next to their name
 ```yaml
 Bert Droesbeke:
     git: bedroesb
-    email: bedro@psb.ugent.be
+    email: bert.droesbeke@vib.be
     orcid: 0000-0003-0522-5674
     role: editor
-    affiliation: VIB-UGent
+    affiliation: VIB Data Core / ELIXIR-BE
 ```
 {% include callout.html type="important" content="Make sure that the name in the yaml file is identically the same as the one used in the metadata of the page." %}
 

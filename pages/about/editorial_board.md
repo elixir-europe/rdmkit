@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Bert Droesbeke, Carole Goble, Daniel Faria, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Ulrike Wittig, Laura Portell Silva, Martin Cook, Korbinian Bösl, Federico Bianchini, Nazeefa Fatima, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva" %}
+{% include contributor-carousel-selection.html custom="Bert Droesbeke, Carole Goble, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Ulrike Wittig, Laura Portell Silva, Martin Cook, Korbinian Bösl, Federico Bianchini, Nazeefa Fatima, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva" %}
 
 ## Join as editorial board member
 
@@ -54,4 +54,4 @@ Please, send your application to rdm-editors@elixir-europe.org.
 
 In this section we would like to thank contributions of our past editorial members.
 
-{% include contributor-tiles-all.html custom="Mijke Jetten, Niclas Jareborg, Pinar Alper, Rob Hooft" %}
+{% include contributor-tiles-all.html custom="Mijke Jetten, Niclas Jareborg, Pinar Alper, Rob Hooft, Daniel Faria" %}
