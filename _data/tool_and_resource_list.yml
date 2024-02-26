@@ -2424,6 +2424,7 @@
   id: anndata
   name: AnnData
   registry:
+    biotools: anndata
     tess: AnnData
   url: https://anndata.readthedocs.io/en/latest/
 - description: Loom is an efficient file format for large omics datasets.
