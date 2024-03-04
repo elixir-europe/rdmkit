@@ -141,9 +141,14 @@ defaults:
     values:
       sidebar: about
 
+scholar:
+  style: _bibliography/nature_custom.csl
+
 plugins:
   - elixir-toolkit-theme-plugins
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-octicons
+  - jekyll-scholar

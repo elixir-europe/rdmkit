@@ -6,14 +6,16 @@ related_pages:
 page_id: plants
 related_pages: 
   your_tasks: [metadata]
-  tool_assembly: [plant_geno_assembly, plant_pheno_assembly]
+  tool_assembly: [plant_geno_assembly, plant_pheno_assembly, fairtracks]
 training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
 faircookbook:
-- name: Improving dataset maturity - the MIAPPE use case
+- name: Improving dataset maturity - MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
+- name: Publishing plant phenotypic data
+  url: https://w3id.org/faircookbook/FCB083
 ---
 
 ## Introduction
@@ -24,6 +26,27 @@ The plant science domain includes studying the adaptation of plants to their env
 The challenges to data integration stem from the multiple levels of heterogeneity in this domain. It encompasses a variety of species, ranging from model organisms, to crop species, to wild plants such as forest trees. These often need to be detailed at infra-specific levels (e.g. subspecies, variety), but naming at these levels sometimes lacks consensus. Studies can take place in a diversity of settings including indoor (e.g. growth chamber, greenhouse) and outdoor settings (e.g. cultivated field, forest) which differ fundamentally on the requirements and manner of characterizing the environment. Phenotypic data can be collected manually or automatically (by sensors and drones), and be very diverse in nature, spanning physical measurements, the results of biochemical assays, and images. Some omics data can be considered as well as molecular phenotypes (e.g. transcriptome, metabolomes, …). Thus the extension and depth of metadata required to describe a plant experiment in a FAIR-compliant way is very demanding for researchers.
 
 Another particularity of this domain is the absence of central deposition databases for certain important data types, in particular data deriving from plant phenotyping experiments. Whereas datasets from plant omics experiments are typically deposited in global deposition databases for that type of experiment, those from phenotyping experiments remain in institutional or at best national repositories. This makes it difficult to find, access and interconnect plant phenotyping data.
+
+## Data management planning
+
+### Description <!-- TODO -->
+The general principles for data management planning are described in the [Planning](planning) page of the Data fife cycle section, while generic but more practical aspects of writing a DMP can be found on the [Data Management Plan](data_management_plan) page.
+
+### Considerations <!-- TODO -->
+
+* Important general considerations about data management planning can be found on the [Planning](planning#what-should-be-considered-for-data-management-planning) page.
+* Phenotyping data must be described following the {% tool "miappe" %} data standard.
+* Make sure to identify and describe the biological material and the observation variables in your research.
+
+### Solutions
+The knowledge model of the data management planning application {% tool "data-stewardship-wizard" %} was reviewed for compliance with the needs of the Plant Sciences community.
+
+#### Machine-actionable DMP
+* The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
+
+#### DMP as a text document
+* {% tool "dataplan" %} is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.
+* Depending on the country there might also be other tools to take into consideration: for example [DMP OPIDoR](https://dmp.opidor.fr) in France, or {% tool "dmponline" %} for UK. Visit the RDMkit [national resources](national_resources) section for details.
 
 ## Plant biological materials: (meta)data collection and sharing
 

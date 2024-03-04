@@ -12,12 +12,24 @@ training:
 
 
 national_resources:
-  - name: DataPLAN
-    description: Data Management Plan (DMP) generator that focuses on plant science. 
+  - name: ELN Finder
+    description: Electronic Laboratory Notebook (ELN) selection service. 
+    url: https://eln-finder.ulb.tu-darmstadt.de/home
     related_pages:
-      your_tasks: [dmp]
-      your_domain: [plants]
-    url: https://plan.nfdi4plants.org/
+      your_tasks: [metadata]
+      your_role: [researcher, research_software_engineer]
+  - name: ELN Guide
+    description: Guide for Electronic Laboratory Notebooks (ELN). 
+    url: https://repository.publisso.de/resource/frl:6425772
+    related_pages:
+      your_tasks: [metadata]
+      your_role: [researcher, research_software_engineer]
+  - name: ELN Video Tutorials
+    description: Video Tutorials for Electronic Laboratory Notebooks (ELN). 
+    url: https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K
+    related_pages:
+      your_tasks: [metadata]
+      your_role: [researcher, research_software_engineer]
   - name: GFBio Data Management Plan Tool
     description: DMP creation and support by German Federation for Biological Data (GFBio).
     related_pages:
@@ -46,7 +58,7 @@ ref_to_main_resources:
   - e-dal-pgp
   - fairdom-seek
   - pangaea
-  - silva
+  - dataplan
 
 ---
 
@@ -70,11 +82,12 @@ This page provides useful information and resources with a focus on research dat
 * [forschungsdaten.org - Information and guidelines for research data](https://www.forschungsdaten.org)
 * [DINI/nestor-AG Forschungsdaten](https://dini.de/ag/dininestor-ag-forschungsdaten/)
 * [Open Access Guidelines](https://open-access.network)
+* [PUBLISSO - Research Data Management Guidelines](https://www.publisso.de/en/research-data-management)
 
 ## Research Data Initiatives 
 
 * [NFDI - National Research Data Infrastructure (Nationale Forschungsdaten Infrastruktur)](https://www.nfdi.de/)
-* {% tool "re3data" %}/)
+* [re3data.org - Registry of Research Data Repositories](https://www.re3data.org)
 * [GFBio - German Federation for Biological Data](https://www.gfbio.org/)
 * [FAIRDOM - Consortium of Services for Research Data Management](https://fair-dom.org/)
 * [ZB MED - Infrastructure and research centre for information and data in the life sciences](https://www.zbmed.de/)

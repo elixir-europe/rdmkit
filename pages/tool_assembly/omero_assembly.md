@@ -19,6 +19,9 @@ training:
   - name: YouTube channel with tutorials and presentations
     registry: YouTube
     url: https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ
+  - name: "I3D:bio's OMERO Training Videos 2023: Research Data Management for Microscopy"
+    registry: YouTube 
+    url: https://www.youtube.com/playlist?list=PL2k-L-zWPoR7SHjG1HhDIwLZj0MB_stlU
   - name: Imaging Forum - discussions about imaging related topics
     url: https://forum.image.sc/
 ---
@@ -39,7 +42,7 @@ Recommendations and software tools are being developed to capture acquisition me
 
 ## Who is OMERO intended for?
 
-OMERO is designed to be an institutional repository. It offers a secure central way for scientists, researchers and data stewards to handle their imaging data. All the image data from a facility can be securely stored and managed, using group permissions and user roles to allow controlled access tailored to your institution. From private repositories for [sensitive data](sensitive_data) to hosting public data for your website and latest publications, the permissions model is designed to meet the range of researchers’ needs. OMERO is tried and tested in hundreds of institutions world-wide, with extensive installation and configuration documentation for system administrators and community support via dedicated mailing lists and forums.
+OMERO is designed to be an institutional repository. It offers a secure central way for scientists, researchers and data stewards to handle their imaging data. All the image data from a facility can be securely stored and managed, using group permissions and user roles to allow controlled access tailored to your institution. From private repositories for [sensitive data](data_sensitivity) to hosting public data for your website and latest publications, the permissions model is designed to meet the range of researchers’ needs. OMERO is tried and tested in hundreds of institutions world-wide, with extensive installation and configuration documentation for system administrators and community support via dedicated mailing lists and forums.
 
 The OMERO platform uses a Group/User permission system. ​​The degree to which their data is available to other members of the group depends on the permissions settings for that group. Whenever a user logs on to an OMERO server, they are connected under one of their groups. All data they import and any work that is done is assigned to the current group, however the user can move their data into another group. Users require login credentials to access the system. OMERO also supports the use of an LDAP server.
 

@@ -22,7 +22,7 @@ faircookbook:
 - name: Making Computational Workflows FAIR
   url: https://w3id.org/faircookbook/FCB062
 - name: Depositing to generic repositories - Zenodo use case
-  url: https://w3id.org/faircookbook/FCB0009
+  url: https://w3id.org/faircookbook/FCB009
 - name: Registering datasets with Wikidata
   url: https://w3id.org/faircookbook/FCB060
 ---

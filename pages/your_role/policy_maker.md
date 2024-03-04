@@ -31,8 +31,8 @@ In your role of policy maker, you may need to:
 
 * The [Compliance page](compliance_monitoring) helps comply with the institution policy, including legal and ethical aspects.
 * The [National resources pages](national_resources) point to country-specific information resources such as local funding agencies and research councils, and information on local policies for open science, national regulations on data ethics, and domain-specific infrastructures and tools.
-* [Data protection](data_protection) helps to make research data compliant to GDPR.
-* [Data sensitivity](sensitive_data) helps to identify sensitivity of different research data types.
+* [Data protection](data_security) helps to make research data compliant to GDPR.
+* [Data sensitivity](data_sensitivity) helps to identify sensitivity of different research data types.
 * [Licensing](licensing) gives advice on how to assign a licence to research data.
 * [Data management plan](data_management_plan) guides through writing a data management plan.
 * [Project data management coordination](dm_coordination) gives support in coordination and organisation of RDM in collaborative projects.

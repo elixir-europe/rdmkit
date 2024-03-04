@@ -5,7 +5,7 @@ description: The Sensitive Data Service (TSD) provides a platform to store, comp
 page_id: tsd
 affiliations: ["NO", ELIXIR Europe, University of Oslo]
 related_pages: 
-  your_tasks: [dmp, storage, sensitive, data_protection, transfer]
+  your_tasks: [dmp, storage, sensitive, data_security, gdpr_compliance, transfer]
   your_domain: [human_data]
 training:
   - name: Documentation for the HPC cluster
@@ -18,7 +18,7 @@ training:
 
 ## What is the Norwegian tools assembly for sensitive data - TSD data management tools assembly?
 The Norwegian ELIXIR tools assembly for sensitive data is centred around 
-[TSD - literally for: services for sensitive data](https://www.uio.no/english/services/it/research/sensitive-data/) is an infrastructure provided by [the University of Oslo (UiO)](https://www.uio.no). Together with the other complementary tools provided by ELIXIR, TSD can be used for the management of [sensitive data](sensitive_data), including handling of [Human data](human_data).
+[TSD - literally for: services for sensitive data](https://www.uio.no/english/services/it/research/sensitive-data/) is an infrastructure provided by [the University of Oslo (UiO)](https://www.uio.no). Together with the other complementary tools provided by ELIXIR, TSD can be used for the management of [sensitive data](data_sensitivity), including handling of [Human data](human_data).
 This assembly covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offer [Data Storage](storage) capacities and tools for [transfer](data_transfer) of sensitive data, following the requirements of the {% tool "eu-general-data-protection-regulation" %} and its Norwegian implementation. 
 
 
@@ -52,7 +52,7 @@ You can access the [ELIXIR-NO instance of the Data Stewardship Wizard](https://e
 If you use one of the Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/) they can directly upload data to your TSD project for you - the process is described by ELIXIR Norway at [https://elixir.no/Services-bak/data_produced_NorSeq](https://elixir.no/Services-bak/data_produced_NorSeq)
 
 The sensitive data tools assembly provides [Nettskjema](https://nettskjema.no) as a solution for designing and managing data collections using online forms and surveys. This is a secure and GDPR-compliant service. It can be accessed through the  UiO's web pages and it is used through a web browser. Submissions from a Nettskjema questionnaire can be delivered securely (fully encrypted) to your project area within TSD. 
-TSD-users are granted access to Nettskjema through [IDporten or Feide](https://www.uio.no/tjenester/it/adm-app/nettskjema/mer-om/eksterne-brukere). When the Nettskjema form is complete, you can upload it on TSD following [these instructions](https://www.uio.no/tjenester/it/adm-app/nettskjema/hjelp/koble-skjema-til-tsd.html). After verification, the form can be used for collecting sensitive data. Note that further processing and analysis of the results should be conducted within TSD. If exporting data is necessary, the files should be properly [de-identified or anonymised](sensitive_data.html#how-can-you-de-identify-your-data). 
+TSD-users are granted access to Nettskjema through [IDporten or Feide](https://www.uio.no/tjenester/it/adm-app/nettskjema/mer-om/eksterne-brukere). When the Nettskjema form is complete, you can upload it on TSD following [these instructions](https://www.uio.no/tjenester/it/adm-app/nettskjema/hjelp/koble-skjema-til-tsd.html). After verification, the form can be used for collecting sensitive data. Note that further processing and analysis of the results should be conducted within TSD. If exporting data is necessary, the files should be properly [de-identified or anonymised](data_sensitivity.html#how-can-you-de-identify-your-data). 
 
 ### Data Processing and Analysis
 

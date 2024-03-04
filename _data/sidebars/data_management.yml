@@ -41,6 +41,8 @@ subitems:
         url: /human_pathogen_genomics
       - title: Intrinsically disordered proteins
         url: /intrinsically_disordered_proteins
+      - title: Machine learning
+        url: /machine_learning
       - title: Marine metagenomics
         url: /marine_metagenomics
       - title: Microbial biotechnology
@@ -51,6 +53,8 @@ subitems:
         url: /proteomics
       - title: Rare disease data
         url: /rare_disease_data
+      - title: Single-cell sequencing
+        url: /single_cell_sequencing
       - title: Structural bioinformatics
         url: /structural_bioinformatics
       - title: Toxicology data
@@ -74,8 +78,10 @@ subitems:
         url: /data_management_plan
       - title: Data organisation
         url: /data_organisation
-      - title: Data protection
-        url: /data_protection
+      - title: Data security
+        url: /data_security
+      - title: Data sensitivity
+        url: /data_sensitivity
       - title: Data provenance
         url: /data_provenance
       - title: Data publication
@@ -88,16 +94,18 @@ subitems:
         url: /data_transfer
       - title: Documentation and metadata
         url: /metadata_management
+      - title: Ethical aspects
+        url: /ethics
       - title: Existing data
         url: /existing_data
+      - title: GDPR compliance
+        url: /gdpr_compliance
       - title: Identifiers
         url: /identifiers
       - title: Licensing
         url: /licensing
       - title: Machine actionability
         url: /machine_actionability
-      - title: Data sensitivity
-        url: /sensitive_data
   - title: Tool assembly
     description: Find concrete combinations of tools and resources assembled into an ecosystem for research data management.
     url: /tool_assembly
@@ -106,6 +114,8 @@ subitems:
         url: /covid19_data_portal
       - title: CSC
         url: /csc_assembly
+      - title: FAIRtracks
+        url: /fairtracks_assembly
       - title: Galaxy
         url: /galaxy_assembly
       - title: IFB
@@ -162,6 +172,8 @@ subitems:
         url: /no_resources
       - title: Portugal
         url: /pt_resources
+      - title: Slovenia
+        url: /si_resources
       - title: Sweden
         url: /se_resources
       - title: Switzerland

@@ -6,6 +6,14 @@ We are, since the beginning, actively spreading the word about RDMkit making sur
 
 ## Presentations
 
+
+### RDMkit poster at ELIXIR All Hands 2023
+
+**2023-06-05**
+
+From launch to maturity: growing and sustaining the RDMkit.
+The poster can be found on [F1000Research](https://f1000research.com/posters/12-682)
+
 ### RDM Knowledge Source (RDMkit) - Data Stewardship Interest Group (DSIG) meeting
 
 **2023-01-12**

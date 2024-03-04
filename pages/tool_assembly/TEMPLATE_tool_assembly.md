@@ -29,7 +29,7 @@ In the event that you describe a domain specific tool assembly and no adequate D
 <!---If need be, you can create a separate section to organise information e.g. a section titled "Who can use the TOOL ASSEMBLY?" can be used to define potential users--->
 
 ### What can you use the TOOL ASSEMBLY for?
-<!--- Sections within Tool Assembly pages (aside from "Introduction" at the start and "Relevant tools and resources " at the end) should be used to describe the potential usage of the tool and the tool assembly --->
+<!--- Sections within Tool Assembly pages (aside from "Introduction" at the start and "Tools and resources on this page" at the end) should be used to describe the potential usage of the tool and the tool assembly --->
 
 ### How to access the TOOL ASSEMBLY?
 

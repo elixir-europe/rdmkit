@@ -3,18 +3,14 @@ title: Data sensitivity
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews, Nazeefa Fatima]
 description: How to identify the sensitivity of different research data types
 page_id: sensitive
+redirect_from: sensitive_data
 related_pages: 
   tool_assembly: [tsd, covid-19, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
-  - name: RDMbites for using REDCap
-    registry: TeSS
-    url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
-  - name: RDMbites about data sensitivity
-    registry: TeSS
-    url: https://tess.elixir-europe.org/collections/rdmbites-sensitive-data-collection
+
 dsw:
 - name: Are there privacy reasons why your data can not be open?
   uuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
