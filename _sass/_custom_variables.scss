@@ -7,13 +7,16 @@ $topnav-bg: $dark;
 $topnav-brand-height: 40px;
 
 /*-----More information tiles-----*/
-$info-card-header-bg: $dark;
+$info-card-bg: $light;
+$info-card-color: $dark;
+$info-card-bg-hover: $primary;
+$info-card-color-hover: $light;
 
 /*-----Section navigation tiles-----*/
 $nav-card-bg: $light;
-$nav-card-bg-hover: $light;
-$nav-card-color-hover: $dark;
-$nav-card-header-color: $dark;
+$nav-card-color: $dark;
+$nav-card-bg-hover: $primary;
+$nav-card-color-hover: $light;
 
 /*-----Footer-----*/
 $footer-bg: $dark;
