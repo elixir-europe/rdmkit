@@ -11,6 +11,38 @@
     background-color: $light-x;
 }
 
+// Light gray background on the left
+@media (min-width: 992px) {
+    body:not(:has(.landingpage)) {
+        #layout {
+            gap: 0 !important;
+        }
+        header nav.navbar {
+            margin-bottom: 0 !important;
+        }
+        aside#sidebar {
+            padding-top: $spacer * 3;
+            padding-right: 1.5rem;
+        }
+        main#main {
+            padding-top: $spacer * 3;
+            padding-left: 1.5rem;
+            background-color: #fff;
+        }
+        background-image: url("/assets/img/background.svg"); /* The image used */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar-collapse {
+        background-color: $light;
+    }
+}
+
 #main {
     h2,
     .h2-like {
