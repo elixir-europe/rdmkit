@@ -14,6 +14,10 @@
 // Light gray background on the left
 @media (min-width: 992px) {
     body:not(:has(.landingpage)) {
+        .anchorjs-link {
+            margin-left: -1em !important;
+        }
+
         #layout {
             gap: 0 !important;
         }
@@ -22,11 +26,11 @@
         }
         aside#sidebar {
             padding-top: $spacer * 3;
-            padding-right: 1.5rem;
+            padding-right: 0.9rem;
         }
         main#main {
             padding-top: $spacer * 3;
-            padding-left: 1.5rem;
+            padding-left: 2.1rem;
             background-color: $white;
         }
         background-image: url("../img/background.svg"); /* The image used */
