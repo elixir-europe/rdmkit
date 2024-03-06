@@ -15,7 +15,8 @@
 @media (min-width: 992px) {
     body:not(:has(.landingpage)) {
         .anchorjs-link {
-            margin-left: -1em !important;
+            font-size: 0.7em!important;
+            padding-top: 0.3em;
         }
 
         #layout {
