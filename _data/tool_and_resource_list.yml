@@ -1998,6 +1998,8 @@
 - description: Wellcome Open Research requires that the source data underlying the results are made available as soon as an article is published. This page provides information about data you need to include, where your data can be stored, and how your data should be presented.
   id: wellcome-open-research-data-guidelines
   name: Wellcome Open Research - Data Guidelines
+  registry:
+    fairsharing: wf9q40
   url: https://wellcomeopenresearch.org/for-authors/data-guidelines
 - description: WinSCP is a popular SFTP client and FTP client for Microsoft Windows! Copy file between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.
   id: winscp
