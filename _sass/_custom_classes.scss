@@ -174,3 +174,15 @@ section#search-section {
         border-radius: $border-radius;
     }
 }
+
+/*-----Information tiles-----*/
+
+.info-collapse:first-of-type {
+    border-top: 1px solid $border-color;
+
+}
+
+.info-collapse h2 {
+    font-size: 1.5em;
+}
+
