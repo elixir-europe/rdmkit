@@ -49,7 +49,7 @@ national_resources:
       your_domain: [human_data]
       your_role: [researcher]
       your_tasks: [data_analysis, existing_data, storage]
-    url: https://www.bbmri.nl
+    url: https://www.cbioportal.org
   - name: CBS, Statistics Netherlands
     description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data in the life sciences and health domain.
     how_to_access: 
