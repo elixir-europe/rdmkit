@@ -166,4 +166,8 @@
   date: 2024-01-25
   linked_pr: 1443
   description: A new "domain" page for machine learning was added. [Discover the page here](machine_learning).
+- name: "Improved navigation and user experience"
+  date: 2024-03-21
+  linked_pr: 1366
+  description: By collapsing secondary information we hope to give more attention to the main content of the RDMkit. Together with the improved navigation tiles, multiple bugfixes nad some style tweaks, we hope to improve the user experience.
   
