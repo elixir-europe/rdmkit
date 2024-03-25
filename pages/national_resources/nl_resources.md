@@ -2,7 +2,7 @@
 
 title: Netherlands
 country_code: NL
-contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft]
+contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft, Robin Navest]
 coordinators: [Mijke Jetten]
 
 training:
@@ -49,6 +49,10 @@ national_resources:
       your_domain: [human_data]
       your_role: [researcher]
       your_tasks: [data_analysis, existing_data, storage]
+    registry:
+      biotools: cBioportal
+      zenodo: https://zenodo.org/records/8163342
+      fairsharing: https://doi.org/10.25504/FAIRsharing.6L6MjA
     url: https://www.cbioportal.org
   - name: CBS, Statistics Netherlands
     description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data in the life sciences and health domain.
