@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-carousel-selection.html custom="Bert Droesbeke, Carole Goble, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Ulrike Wittig, Laura Portell Silva, Martin Cook, Korbinian Bösl, Federico Bianchini, Nazeefa Fatima, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva" %}
+{% include contributor-carousel-selection.html custom="Bert Droesbeke, Carole Goble, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Ulrike Wittig, Laura Portell Silva, Martin Cook, Korbinian Bösl, Federico Bianchini, Nazeefa Fatima, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva, Gil Poiares-Oliveira" %}
 
 ## Join as editorial board member
 
