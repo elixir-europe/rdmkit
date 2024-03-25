@@ -12,6 +12,5 @@ In this section, information is organised based on different domains in life sci
 
 
 
-{% include section-navigation-tiles.html type="your_domain" search=true %}
-
+{% include section-navigation-tiles.html type="your_domain" search=true col=3 %}
 
