@@ -2506,3 +2506,206 @@
     fairsharing: 32b10v
     tess: MIAME
   url: https://www.fged.org/projects/miame/
+- description: A fully managed REDCap system based in the cloud, provided by nPhase.
+  id: redcapcloud
+  name: REDCap Cloud
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.redcapcloud.com
+- description:  European Commission's official multilingual online survey-management system built for the creation and publishing of globally accessible forms.
+  id: eusurvey
+  name: EU Survey
+  registry:
+    biotools:    
+    tess: 
+  url: https://ec.europa.eu/eusurvey
+- description: A free and open source platform to develop and publish online surveys.
+  id: limesurvey
+  name: LimeSurvey
+  registry:
+    biotools:    
+    tess: 
+  url: https://github.com/LimeSurvey/LimeSurvey 
+- description: Commercial online survey tool.
+  id: alchemer
+  name: Alchemer
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.alchemer.com
+- description: Commercial online survey tool.
+  id: jotform
+  name: Jotform
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.jotform.com
+- description: A standard used for health care data exchange.
+  id: hl7fhir
+  name: HL7 FHIR 
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.hl7.org/fhir/
+- description: A minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research.
+  id: vulcan
+  name: Real World Data for Clinical Research (Vulcan)
+  registry:
+    biotools:    
+    tess: 
+  url:  https://build.fhir.org/ig/HL7/vulcan-rwd/
+- description: Guidance on how FHIR can be used for supporting FAIR health data.
+  id: fhir4fair
+  name:  FHIR4FAIR
+  registry:
+    biotools:    
+    tess: 
+  url: https://build.fhir.org/ig/HL7/fhir-for-fair/
+- description: A standard designed by the European Committee for Standardization to define a information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository.
+  id:  iso13606
+  name: ISO 13606
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.iso.org/standard/67868.html
+- description: Recommended by the European Commission as the format to be used for the exchange of EHR data for cross-border healthcare.
+  id: eehrxf
+  name: European Electronic Health Record Exchange Format (EEHRxF)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.x-ehealth.eu/eehrxf/
+- description: Domain model for data interchange that enables semantic interoperability and intends to integrate biomedical, clinical research and routine healthcare data.
+  id: isodis14199
+  name: ISO/DIS 14199
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.iso.org/standard/83433.html
+- description: Non‑profit organisation that publishes technical standards for an EHR platform along with domain‑developed clinical models to define content.
+  id: openehr
+  name: OpenEHR
+  registry:
+    biotools:    
+    tess: 
+  url: https://openehr.org
+- description: Consortium which defines several open standards for regulatory approval and case report forms in particular in the context of clinical trials meant for submission to FDA and EMA.
+  id: cdisc
+  name: Clinical Data Interchange Standards Consortium (CDISC)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org
+- description: A CDISC Foundational Standard that defines dataset and metadata standards.
+  id: adam
+  name:  Analysis Data Model for data and metadata of clinical trial statistical analysis (ADaM)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/foundational/adam
+- description: A CDISC Data Exchange Standard that lets technology vendors implement tools that support a “write once, use many times” solution based on XML.
+  id: ctrxml
+  name:  Clinical Trial Registry-XML (CTR-XML)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/data-exchange/ctr-xml
+- description: A CDISC Data Exchange Standard that  is a vendor-neutral, platform-independent format for exchanging and archiving clinical and translational research data, along with their associated metadata, administrative data, reference data, and audit information.
+  id: odmxml
+  name: Operational Data Model-XML (ODM-XML)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/data-exchange/odm
+- description:  A CDISC Foundational Standard that provides a standard for organizing and formatting data to streamline processes in collection, management, analysis and reporting.
+  id: sdtm
+  name: Study Data Tabulation Model (SDTM)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/foundational/sdtm
+- description: Open community standard for observational health care data obtained from health records.
+  id: cdm
+  name:  OMOP Common Data Model
+  registry:
+    biotools:    
+    tess: 
+  url: https://ohdsi.github.io/CommonDataModel/
+- description: A UML-based logical health information model defined by the Open Group, intended to achieve interoperability between multiple healthcare standards and protocols.
+  id: fhim
+  name:  Federated Health Information Model (FHIM)
+  registry:
+    biotools:    
+    tess: 
+  url: https://fhim.org/fhim-model
+- description: Defines data elements, the relationships between such data elements and terminologies for detailed small, reusable clinical models.
+  id: iso139722022
+  name:  ISO 13972:2022
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.iso.org/standard/79498.html
+- description: REDCap feature which allows a REDCap project to interact with an EHR system and pull EHR data into REDCap.
+  id: cdis
+  name:  Clinical Data Interoperability Services
+  registry:
+    biotools:    
+    tess: 
+  url: https://projectredcap.org/software/cdis/
+- description: Open-source tools to support data-analytics use cases on observational patient-level data.
+  id: ohdsi
+  name: Observational health data sciences and informatics (OHDSI) Software Tools
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.ohdsi.org/software-tools/
+- description: Open-source tool to map datasets to the OMOP CDM.
+  id: carrotmapper
+  name: Convenient And Reusable Rapid OMOP Transformer (CaRROT-Mapper)
+  registry:
+    biotools:    
+    tess: 
+  url: https://github.com/Health-Informatics-UoN/CaRROT-Mapper
+- description: Repository of ontologies for use with the OMOP CDM.
+  id: ohdsiathen
+  name: OHDSI Athena
+  registry:
+    biotools:    
+    tess: 
+  url: https://athena.ohdsi.org/search-terms/start
+- description: Codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances, and external causes of injury or diseases. Replaced by ICD-11 on 1/1/2022.
+  id:  icd10
+  name: International Classification of Diseases 10th Revision (ICD-10)
+  registry:
+    biotools:    
+    tess: 
+  url: https://icd.who.int/browse10/2019/en
+- description: Replaces the ICD-10 as the global standard for recording health information and causes of death. It is developed by the World Health Organization and is annually updated.
+  id:  icd11
+  name: International Classification of Diseases 11th Revision (ICD-11)
+  registry:
+    biotools:    
+    tess: 
+  url: https://icd.who.int/en
+- description: Terminology standard for health measurements, observations, and documents.
+  id: loinc
+  name:  Logical Observation Identifiers Names and Codes (LOINC)
+  registry:
+    biotools:    
+    tess: 
+  url: https://loinc.org
+- description: Terminology standard consisting of codes, terms, synonyms and definitions used in clinical documentation and reporting.
+  id:  snomedct
+  name: Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.snomed.org
+- description: Standardised vocabulary of phenotypic abnormalities encountered in human disease.
+  id:  hpo
+  name: Human Phenotype Ontology (HPO)
+  registry:
+    biotools:    
+    tess: 
+  url: https://hpo.jax.org/app/
