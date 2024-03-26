@@ -12,7 +12,7 @@
 
 Bert Droesbeke:
     git: bedroesb
-    email: bedro@psb.ugent.be
+    email: bert.droesbeke@vib.be
     orcid: 0000-0003-0522-5674
     role: editor
     affiliation: VIB Data Core / ELIXIR-BE
@@ -23,13 +23,11 @@ Flora D'Anna:
     affiliation: VIB Data Core / ELIXIR-BE
 Daniel Faria:
     git: DanFaria
-    role: editor
     orcid: 0000-0003-1511-277X
     affiliation: University of Lisbon / ELIXIR-PT
 Pinar Alper:
     git: pinarpink
     orcid: 0000-0002-2224-0780
-    role: editor
     affiliation: LCSB / ELIXIR-LU
 Carole Goble:
     git: CaroleGoble
@@ -65,7 +63,6 @@ Rob Hooft:
     git: rwwh
     email: rob.hooft@dtls.nl
     orcid: 0000-0001-6825-9439
-    role: editor
 Karel Berka:
     git: KarelBerka
     email: karel.berka@upol.cz
@@ -561,8 +558,9 @@ Polonca Ferk:
 Gil Poiares-Oliveira:
     git: GilOliveira
     orcid: 0000-0003-4638-2879
-    email: gil.oliveira@tecnico.ulisboa.pt
+    email: gpo@biodata.pt
     affiliation: INESC-ID / BioData.pt / ELIXIR-PT
+    role: editor
 Uladzislau Vadadokhau:
     git: uladzislau21
     email: uladzislau.vadadokhau@med.unideb.hu
@@ -577,7 +575,12 @@ Styliani-Christina Fragkouli:
     git: sfragkoul
     orcid: 0000-0003-4067-7123
     email: sfragkoul@certh.gr
-    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR  
+    affiliation: Institute of Applied Biosciences(INAB|CERTH) / University of Athens / ELIXIR-GR
+Sveinung Gundersen:
+    git: sveinugu
+    orcid: 0000-0001-9888-7954
+    email: sveinugu@ifi.uio.no
+    affiliation: ELIXIR Norway  
 Diana Pilvar:
     git: diana-pilvar
     email: diana.pilvar@ut.ee
@@ -599,3 +602,11 @@ Pavankumar Videm:
     email: videmp@informatik.uni-freiburg.de
     orcid: 0000-0002-5192-126X
     affiliation: University of Freiburg / European Galaxy team
+Edward Parkinson:
+    git: parkyed
+    orcid: 0009-0006-4552-9495
+    affiliation: Cardiff University
+Adriano Fonzino:
+    git: F0nz0
+    orcid: 0009-0009-3325-8554
+    affiliation: University of Bari

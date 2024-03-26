@@ -11,6 +11,41 @@
     background-color: $light-x;
 }
 
+// Light gray background on the left
+@media (min-width: 992px) {
+    body:not(:has(.landingpage)) {
+        .anchorjs-link {
+            font-size: 0.7em !important;
+            padding-top: 0.3em;
+        }
+
+        #layout {
+            gap: 0 !important;
+        }
+        header nav.navbar {
+            margin-bottom: 0 !important;
+        }
+        aside#sidebar {
+            padding-top: $spacer * 3;
+            padding-right: 0.9rem;
+        }
+        main#main {
+            padding-top: $spacer * 3;
+            padding-left: 2.1rem;
+            background-color: $white;
+        }
+        background-image: url("../img/background.svg"); /* The image used */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar-collapse {
+        background-color: $light;
+    }
+}
 
 #main {
     h2,
@@ -23,7 +58,6 @@
     h3 {
         font-weight: 600;
     }
-
 }
 
 .octicon {
@@ -45,18 +79,9 @@
     }
 }
 
-li ul .sidebar_rdm_sub {
-    border-color: $light;
-    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
-    border-radius: 0px 0px $border-radius $border-radius;
-    border-style: none solid solid solid;
-    border-width: 0.2em;
-    margin-top: -0.25rem;
-}
-
 #side-nav .btn.sidebar-title {
     border: 0;
-    border-bottom: 0.2rem solid $primary!important;
+    border-bottom: 0.2rem solid $primary !important;
     font-weight: bold;
     padding-bottom: $input-btn-padding-y - 0.2rem;
 }
@@ -68,7 +93,6 @@ li ul .sidebar_rdm_sub {
 /* -----Homepage----- */
 
 .landingpage {
-
     .h-icon-6 {
         height: 6em;
     }
@@ -80,7 +104,7 @@ li ul .sidebar_rdm_sub {
     }
 
     .card {
-        &:hover{
+        &:hover {
             box-shadow: $box-shadow;
         }
 
@@ -98,14 +122,13 @@ li ul .sidebar_rdm_sub {
 
     h2 {
         font-weight: 700;
-        font-family:  $font-family-theme;
+        font-family: $font-family-theme;
     }
 
     h3 {
         font-weight: 600;
-        font-family:  $font-family-theme;
+        font-family: $font-family-theme;
     }
-
 }
 
 // Search box
@@ -121,8 +144,6 @@ section#search-section {
     .input-group-text {
         font-size: 1.5rem;
     }
-
-    
 }
 
 // Counters on landing page
@@ -132,24 +153,16 @@ section#search-section {
     font-weight: 700;
 }
 
-
 /*-----Section navigation tiles-----*/
 
 .navigation-tiles {
-    .card:hover {
-        box-shadow: $box-shadow;
-    }
-
-    .card-header {
-        a:hover {
-            text-decoration: none;
-        }
-        h3 {
-            font-size: 1.2rem;
+    .card,
+    .btn {
+        &:hover {
+            box-shadow: $box-shadow;
         }
     }
 }
-
 
 /*-----Top navigation-----*/
 

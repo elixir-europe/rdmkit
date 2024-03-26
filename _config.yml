@@ -4,7 +4,7 @@ title: RDMkit
 description: "Best practices and guidelines you can use for FAIR management of your research data."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.4.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.0
 
 sass:
   style: compressed
@@ -26,6 +26,8 @@ theme_variables:
   fonts:
     - https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap
     - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
+  headings:
+    resource-table-all-collapse: true
 
 exclude:
   - README.md
@@ -98,31 +100,37 @@ defaults:
       path: "pages/data_life_cycle/"
     values:
       type: data_life_cycle
+      type_img: /assets/img/section-icons/arrows-spin-light.svg
   -
     scope:
       path: "pages/your_domain/"
     values:
       type: your_domain
+      type_img: /assets/img/section-icons/dna-light.svg
   -
     scope:
       path: "pages/your_tasks/"
     values:
       type: your_tasks
+      type_img: /assets/img/section-icons/list-check-light.svg
   -
     scope:
       path: "pages/your_role/"
     values:
       type: your_role
+      type_img: /assets/img/section-icons/address-card-light.svg
   -
     scope:
       path: "pages/tool_assembly/"
     values:
       type: tool_assembly
+      type_img: /assets/img/section-icons/arrows-to-dot-light.svg
   -
     scope:
       path: "pages/national_resources/"
     values:
       type: national_resources
+      type_img: /assets/img/section-icons/flag-light.svg
       datatable: true
   -
     scope:
@@ -135,6 +143,9 @@ defaults:
     values:
       sidebar: about
 
+scholar:
+  style: _bibliography/nature_custom.csl
+
 plugins:
   - elixir-toolkit-theme-plugins
   - jemoji
@@ -142,3 +153,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-octicons
+  - jekyll-scholar

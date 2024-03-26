@@ -42,15 +42,17 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       * This is item 3 of the list.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
-  * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "*et al.*" for more than five authors.
-    * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016).
-    * Lam, J. <cite>Data Management</cite>. (John Wiley & Sons, Inc., 2019).
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
   * **Titles (the "title" in the front matter of pages):** only the first word, proper nouns and acronyms are capitalised.
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
+
+## Bibliography
+ * Add your citations as bibtex to the `_bibliography/references.bib` file.
+ * Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing the reference.
+ * Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} to show a bibliography section containing the references in the page.
 
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.

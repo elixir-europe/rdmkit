@@ -10,7 +10,7 @@ related_pages:
 training:
   - name: Training in TeSS
     registry: TeSS
-    url: https://tess.elixir-europe.org/search?q=norway
+    url: https://tess.elixir-europe.org/search?q=NeLS+Norway
 ---
 
 ## What is the NeLS data management tool assembly?

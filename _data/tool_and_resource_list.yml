@@ -1,3 +1,51 @@
+- description: scikit-learn is a free software machine learning library for the Python programming language.
+  id: scikit-learn
+  name: scikit-learn
+  registry:
+    biotools: scikit-learn
+    tess: scikit-learn
+  url: https://scikit-learn.org
+- description: The CUDA Toolkit from NVIDIA provides everything you need to develop GPU-accelerated applications
+  id: cuda
+  name: CUDA toolkit
+  url: https://developer.nvidia.com/cuda-toolkit
+- description: A free and open-source software library for machine learning and artificial intelligence.
+  id: tensorflow
+  name: Tensorflow
+  registry:
+    biotools: tensorflow
+    tess: Tensorflow
+  url: https://www.tensorflow.org
+- description: Keras is an open-source library that provides a Python interface for artificial neural networks.
+  id: keras
+  name: Keras
+  registry:
+    tess: Keras
+  url: https://keras.io/
+- description: BioImage is a collaborative effort to bring AI models to the bioimaging community.
+  id: bioimage
+  name: BioImage Model Zoo
+  registry:
+    tess: BioImage Model Zoo
+  url: https://bioimage.io/#/
+- description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology.
+  id: dome
+  name: DOME-ML
+  registry:
+    fairsharing: cf62c2
+  url: https://dome-ml.org/
+- description: ONNX is an open format built to represent machine learning models.
+  id: onnx
+  name: Open Neural Network Exchange (ONNX)
+  url: https://onnx.ai/
+- description: The platform where the machine learning community collaborates on models, datasets, and applications.
+  id: huggingface
+  name: HuggingFace
+  url: https://huggingface.co/
+- description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
+  id: catboost
+  name: CatBoost
+  url: https://catboost.ai/
 - description: BRAVA is a tool designed to help developers test servers that comply with the BrAPI specifications.
   id: brava
   name: BRAVA
@@ -93,6 +141,7 @@
   id: addgene
   name: Addgene
   registry:
+    biotools: addgene
     fairsharing: 8hcczk
   url: https://www.addgene.org/browse/
 - description: Browser for ontologies for agricultural science based on NBCO BioPortal.
@@ -513,6 +562,8 @@
 - description: Command line tool and library for transferring data with URLs
   id: curl
   name: cURL
+  registry:
+    tess: cURL
   url: https://curl.se
 - description: Image Data management
   id: cytomine-ims
@@ -622,6 +673,8 @@
 - description: Build your Data Management Plan
   id: dmptool
   name: DMPTool
+  registry:
+    tess: DMPTool
   url: https://dmptool.org
 - description: A database of DNA sequences
   id: dna-data-bank-of-japan
@@ -664,12 +717,14 @@
   name: e!DAL
   registry:
     biotools: edal
+    tess: e!DAL
   url: https://edal.ipk-gatersleben.de/
 - description: Plant Genomics and Phenomics Research Data Repository
   id: e-dal-pgp
   name: e!DAL-PGP
   registry:
     fairsharing: rf3m4g
+    tess: e!DAL-PGP
   url: https://edal-pgp.ipk-gatersleben.de/
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
   id: ecotox
@@ -838,10 +893,14 @@
   name: FAIDARE
   registry:
     biotools: faidare
+    tess: FAIDARE
   url: https://urgi.versailles.inra.fr/faidare/
 - description: FAIR Cookbook is an online resource for the Life Sciences with recipes that help you to make and keep data Findable, Accessible, Interoperable and Reusable (FAIR)
   id: fair-cookbook
   name: FAIR Cookbook
+  registry:
+    biotools: fair_cookbook
+    tess: FAIR Cookbook
   url: https://fairplus.github.io/the-fair-cookbook/content/recipes/assessing-fairness.html#
 - description: A FAIR Data Point stores metadata in a standardized and sharable way.
   id: fair-data-point
@@ -1413,6 +1472,7 @@
   name: Ontobee
   registry:
     fairsharing: q8fx1b
+    tess: Ontobee
   url: http://www.ontobee.org
 - description: Licenses that are conformant with the principles laid out in the Open Definition.
   id: open-definition-conformant-licenses
@@ -1938,6 +1998,8 @@
 - description: Wellcome Open Research requires that the source data underlying the results are made available as soon as an article is published. This page provides information about data you need to include, where your data can be stored, and how your data should be presented.
   id: wellcome-open-research-data-guidelines
   name: Wellcome Open Research - Data Guidelines
+  registry:
+    fairsharing: wf9q40
   url: https://wellcomeopenresearch.org/for-authors/data-guidelines
 - description: WinSCP is a popular SFTP client and FTP client for Microsoft Windows! Copy file between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.
   id: winscp
@@ -2223,6 +2285,7 @@
   registry:
     biotools: knetminer
     fairsharing: 826b4a
+    tess: KnetMiner
   url: https://knetminer.com
 - description: The RDF Knowledge-based Database for plant molecular networks
   id: agronomic-linked-data
@@ -2297,11 +2360,39 @@
   registry:
     biotools: dataplan
   url: https://plan.nfdi4plants.org
+- description: Omnipy is a high level Python library for type-driven data wrangling and scalable workflow orchestration.
+  id: omnipy
+  name: Omnipy
+  registry:
+    biotools: omnipy
+    tess: Omnipy
+  url: https://github.com/fairtracks/omnipy
+- description: TrackFind is a search and curation engine for metadata of geneomic tracks. It supports crawling of the TrackHub Registry and other portals.
+  id: trackfind
+  name: TrackFind
+  registry:
+    biotools: trackfind
+  url: https://trackfind.elixir.no/
+- description: Pydantic is the most widely used data validation library for Python.
+  id: pydantic
+  name: Pydantic
+  url: https://docs.pydantic.dev/latest/
+- description: Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines.
+  id: prefect
+  name: Prefect
+  url: https://www.prefect.io/
+- description: A global centralised collection of publicly accessible track hubs
+  id: track-hub-registry
+  name: Track Hub Registry
+  registry:
+    fairsharing: a1de61
+  url: https://www.trackhubregistry.org/
 - description: Fast, sensitive and accurate integration of single-cell data.
   id: harmony
   name: Harmony
   registry:
     biotools: Harmony-R
+    tess: Harmony
   url: https://github.com/immunogenomics/harmony
 - description: A database of manually curated cell markers in human/mouse and web tools based on scRNA-seq data.
   id: cellmarker
@@ -2314,22 +2405,29 @@
   name: Seurat
   registry:
     biotools: seurat
+    tess: Seurat
   url: https://satijalab.org/seurat/
 - description: Scalable toolkit for analyzing single-cell gene expression data. It includes preprocessing, visualization, clustering, pseudotime and trajectory inference and differential expression testing.
   id: scanpy
   name: Scanpy
   registry:
     biotools: scanpy
+    tess: Scanpy
   url: https://github.com/theislab/Scanpy
 - description: The Gene Ontology Consortium continues to develop, maintain and use a set of structured, controlled vocabularies for the annotation of genes, gene products and sequences.
   id: gene-ontology
   name: Gene Ontology
   registry:
     biotools: go
+    fairsharing: FGJ2T8
+    tess: Gene Ontology
   url: http://www.geneontology.org/
 - description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
   id: anndata
   name: AnnData
+  registry:
+    biotools: anndata
+    tess: AnnData
   url: https://anndata.readthedocs.io/en/latest/
 - description: Loom is an efficient file format for large omics datasets.
   id: loom
@@ -2342,22 +2440,28 @@
 - description: The SingleCellExperiment class is a lightweight Bioconductor container for storing and manipulating single-cell genomics data.
   id: singlecellexperiment
   name: SingleCellExperiment
+  registry:
+    biotools: singlecellexperiment
   url: https://www.bioconductor.org/packages/release/bioc/vignettes/SingleCellExperiment/inst/doc/intro.html
 - description: The Monocle 3 package provides a toolkit for analyzing single-cell gene expression experiments.
   id: monocle
   name: Monocle
   registry:
     biotools: monocle
+    tess: Monocle
   url: https://cole-trapnell-lab.github.io/monocle3/
 - description: Scater offers a collection of tools for analysis (such as quality control) for single-cell gene expression data.
   id: scater
   name: Scater
+  registry:
+    biotools: scater
+    tess: Scater
   url: https://bioconductor.org/packages/release/bioc/html/scater.html
 - description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
   id: sceasy
   name: SCEasy
   url: https://github.com/cellgeni/sceasy
-- description:  Interactive portal for single-cell genomics data.
+- description: Interactive portal for single-cell genomics data.
   id: single-cell-portal
   name: Single Cell Portal
   url: https://singlecell.broadinstitute.org/single_cell
@@ -2367,20 +2471,241 @@
   url: https://www.sc-best-practices.org/preamble.html
 - description: A set of analysis pipelines that perform sample demultiplexing, barcode processing, single cell gene counting, V(D)J transcript sequence assembly and annotation, and Feature Barcode analysis from single cell data.
   id: cellranger
-  name: CellRanger 
+  name: CellRanger
   url: https://www.10xgenomics.com/support/software/cell-ranger
 - description: A comprehensive turnkey solution for quantifying gene expression in single-cell/nucleus RNA-seq data, built into RNA-seq aligner STAR.
   id: starsolo
   name: STARsolo
+  registry:
+    tess: STARsolo
   url: https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md
 - description: HDF5 consists of a file format for storing HDF5 data, a data model for logically organizing and accessing HDF5 data from an application, and the software (libraries, language interfaces, and tools) for working with this format.
-  id: hierarchical-data-format 
-  name: Hierarchical Data Format 
+  id: hierarchical-data-format
+  name: Hierarchical Data Format
+  registry:
+    fairsharing: wvgta9
   url: https://www.10xgenomics.com/support/software/cell-ranger/analysis/outputs/cr-outputs-h5-matrices
 - description: Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data.
-  id: sequence-read-archive 
-  name: Sequence Read Archive 
-  url: https://www.ncbi.nlm.nih.gov/sra
+  id: sequence-read-archive
+  name: Sequence Read Archive
   registry:
     fairsharing: g7t2hv
-
+    tess: Sequence Read Archive
+  url: https://www.ncbi.nlm.nih.gov/sra
+- description: Minimum Information about a high-throughput SEQuencing Experiment
+  id: minseqe
+  name: MINSEQE
+  registry:
+    fairsharing: a55z32
+    tess: MINSEQE
+  url: https://doi.org/10.5281/zenodo.5706412
+- description: Minimum Information About a Microarray Experiment
+  id: miame
+  name: MIAME
+  registry:
+    fairsharing: 32b10v
+    tess: MIAME
+  url: https://www.fged.org/projects/miame/
+- description: A fully managed REDCap system based in the cloud, provided by nPhase.
+  id: redcapcloud
+  name: REDCap Cloud
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.redcapcloud.com
+- description:  European Commission's official multilingual online survey-management system built for the creation and publishing of globally accessible forms.
+  id: eusurvey
+  name: EU Survey
+  registry:
+    biotools:    
+    tess: 
+  url: https://ec.europa.eu/eusurvey
+- description: A free and open source platform to develop and publish online surveys.
+  id: limesurvey
+  name: LimeSurvey
+  registry:
+    biotools:    
+    tess: 
+  url: https://github.com/LimeSurvey/LimeSurvey 
+- description: Commercial online survey tool.
+  id: alchemer
+  name: Alchemer
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.alchemer.com
+- description: Commercial online survey tool.
+  id: jotform
+  name: Jotform
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.jotform.com
+- description: A standard used for health care data exchange.
+  id: hl7fhir
+  name: HL7 FHIR 
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.hl7.org/fhir/
+- description: A minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research.
+  id: vulcan
+  name: Real World Data for Clinical Research (Vulcan)
+  registry:
+    biotools:    
+    tess: 
+  url:  https://build.fhir.org/ig/HL7/vulcan-rwd/
+- description: Guidance on how FHIR can be used for supporting FAIR health data.
+  id: fhir4fair
+  name:  FHIR4FAIR
+  registry:
+    biotools:    
+    tess: 
+  url: https://build.fhir.org/ig/HL7/fhir-for-fair/
+- description: A standard designed by the European Committee for Standardization to define a information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository.
+  id:  iso13606
+  name: ISO 13606
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.iso.org/standard/67868.html
+- description: Recommended by the European Commission as the format to be used for the exchange of EHR data for cross-border healthcare.
+  id: eehrxf
+  name: European Electronic Health Record Exchange Format (EEHRxF)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.x-ehealth.eu/eehrxf/
+- description: Domain model for data interchange that enables semantic interoperability and intends to integrate biomedical, clinical research and routine healthcare data.
+  id: isodis14199
+  name: ISO/DIS 14199
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.iso.org/standard/83433.html
+- description: Non‑profit organisation that publishes technical standards for an EHR platform along with domain‑developed clinical models to define content.
+  id: openehr
+  name: OpenEHR
+  registry:
+    biotools:    
+    tess: 
+  url: https://openehr.org
+- description: Consortium which defines several open standards for regulatory approval and case report forms in particular in the context of clinical trials meant for submission to FDA and EMA.
+  id: cdisc
+  name: Clinical Data Interchange Standards Consortium (CDISC)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org
+- description: A CDISC Foundational Standard that defines dataset and metadata standards.
+  id: adam
+  name:  Analysis Data Model for data and metadata of clinical trial statistical analysis (ADaM)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/foundational/adam
+- description: A CDISC Data Exchange Standard that lets technology vendors implement tools that support a “write once, use many times” solution based on XML.
+  id: ctrxml
+  name:  Clinical Trial Registry-XML (CTR-XML)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/data-exchange/ctr-xml
+- description: A CDISC Data Exchange Standard that  is a vendor-neutral, platform-independent format for exchanging and archiving clinical and translational research data, along with their associated metadata, administrative data, reference data, and audit information.
+  id: odmxml
+  name: Operational Data Model-XML (ODM-XML)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/data-exchange/odm
+- description:  A CDISC Foundational Standard that provides a standard for organizing and formatting data to streamline processes in collection, management, analysis and reporting.
+  id: sdtm
+  name: Study Data Tabulation Model (SDTM)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.cdisc.org/standards/foundational/sdtm
+- description: Open community standard for observational health care data obtained from health records.
+  id: cdm
+  name:  OMOP Common Data Model
+  registry:
+    biotools:    
+    tess: 
+  url: https://ohdsi.github.io/CommonDataModel/
+- description: A UML-based logical health information model defined by the Open Group, intended to achieve interoperability between multiple healthcare standards and protocols.
+  id: fhim
+  name:  Federated Health Information Model (FHIM)
+  registry:
+    biotools:    
+    tess: 
+  url: https://fhim.org/fhim-model
+- description: Defines data elements, the relationships between such data elements and terminologies for detailed small, reusable clinical models.
+  id: iso139722022
+  name:  ISO 13972:2022
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.iso.org/standard/79498.html
+- description: REDCap feature which allows a REDCap project to interact with an EHR system and pull EHR data into REDCap.
+  id: cdis
+  name:  Clinical Data Interoperability Services
+  registry:
+    biotools:    
+    tess: 
+  url: https://projectredcap.org/software/cdis/
+- description: Open-source tools to support data-analytics use cases on observational patient-level data.
+  id: ohdsi
+  name: Observational health data sciences and informatics (OHDSI) Software Tools
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.ohdsi.org/software-tools/
+- description: Open-source tool to map datasets to the OMOP CDM.
+  id: carrotmapper
+  name: Convenient And Reusable Rapid OMOP Transformer (CaRROT-Mapper)
+  registry:
+    biotools:    
+    tess: 
+  url: https://github.com/Health-Informatics-UoN/CaRROT-Mapper
+- description: Repository of ontologies for use with the OMOP CDM.
+  id: ohdsiathen
+  name: OHDSI Athena
+  registry:
+    biotools:    
+    tess: 
+  url: https://athena.ohdsi.org/search-terms/start
+- description: Codes for diseases, signs and symptoms, abnormal findings, complaints, social circumstances, and external causes of injury or diseases. Replaced by ICD-11 on 1/1/2022.
+  id:  icd10
+  name: International Classification of Diseases 10th Revision (ICD-10)
+  registry:
+    biotools:    
+    tess: 
+  url: https://icd.who.int/browse10/2019/en
+- description: Replaces the ICD-10 as the global standard for recording health information and causes of death. It is developed by the World Health Organization and is annually updated.
+  id:  icd11
+  name: International Classification of Diseases 11th Revision (ICD-11)
+  registry:
+    biotools:    
+    tess: 
+  url: https://icd.who.int/en
+- description: Terminology standard for health measurements, observations, and documents.
+  id: loinc
+  name:  Logical Observation Identifiers Names and Codes (LOINC)
+  registry:
+    biotools:    
+    tess: 
+  url: https://loinc.org
+- description: Terminology standard consisting of codes, terms, synonyms and definitions used in clinical documentation and reporting.
+  id:  snomedct
+  name: Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)
+  registry:
+    biotools:    
+    tess: 
+  url: https://www.snomed.org
+- description: Standardised vocabulary of phenotypic abnormalities encountered in human disease.
+  id:  hpo
+  name: Human Phenotype Ontology (HPO)
+  registry:
+    biotools:    
+    tess: 
+  url: https://hpo.jax.org/app/
