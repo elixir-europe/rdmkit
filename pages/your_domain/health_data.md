@@ -44,7 +44,7 @@ To collect health data directly from participants, an efficient data collection 
   * Use a collaborative editing platform with versioning 
   * Finalise the questionnaires in the required template (if any) for ethical approval
 
-* Development of the machine readable data dictionary for all languages   
+* Development of the machine-readable data dictionary for all languages:   
    * Use a table format file such as CSV or TSV for the data dictionary
    * REDCap has an example [data dictionary template](https://github.com/sglcsb/health/wiki/REDCap-EDC-Data-Dictionary-template)
    * It is highly recommended to use standard ontology terms as field names and value options where applicable
