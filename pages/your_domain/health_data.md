@@ -60,25 +60,25 @@ To collect health data directly from participants, an efficient data collection 
 
 ### Solutions
 GDPR compliant EDC systems that support the capture of COMs:
-* [REDCap](https://www.project-redcap.org) - Academic licence
+* {% tool "redcap" %} - Academic licence
     - Check the licence terms carefully, as some uses in commercial research may not be allowed.
     - REDCap – [online training videos](https://tess.elixir-europe.org/materials?tools=REDCap)
-* [REDCap Cloud](https://www.redcapcloud.com) - Commercial licence
+* {% tool "redcapcloud" } - Commercial licence
     - A fully managed REDCap system based in the cloud, provided by nPhase.
-* [Castor](https://www.castoredc.com) - Academic/commercial licence
-* [EU Survey](https://ec.europa.eu/eusurvey) - SaaS provided by EU commission
-* [LimeSurvey](https://github.com/LimeSurvey/LimeSurvey) Open source, 
-* [Alchemer](https://www.alchemer.com) – Commercial
-* [Jotform](https://www.jotform.com) – Commercial 
+* {% tool "castor" %} - Academic/commercial licence
+* {% tool "eusurvey" %} - SaaS provided by EU commission
+* {% tool "limesurvey" %} Open source, 
+* {% tool "alchemer" %} – Commercial
+* {% tool "jotform"} – Commercial 
 * [Data Integration System](https://www.bitcare.de) – Commercial
 
 PII separation and storage systems:
-* [SMASCH](https://r3.lcsb.uni.lu/frozen/8wvb-mt36/) - Open source
+* {% tool "smasch" %} - Open source
 * [Mosaic Project](https://www.ths-greifswald.de/en/projekte/mosaic-project/) - Open source 
 
 Improving the FAIRness of health data:
-[FAIRSharing](https://fairsharing.org/)
-[FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html)
+{% tool "fairsharing" %}
+{% tool "fair-cookbook" %}
 
 
 ## Electronic Health Record (EHR) data
@@ -106,17 +106,17 @@ The [International Patient Summary (IPS)](https://international-patient-summary.
 ### Solutions
 
 It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems.These interchange formats are the standards that are likely to be present as part of the EHR, and include:
-* [HL7 FHIR](https://www.hl7.org/fhir/) is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
-    * Real World Data for Clinical Research ([Vulcan](https://build.fhir.org/ig/HL7/vulcan-rwd/)) defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
-    * [FHIR4FAIR](https://build.fhir.org/ig/HL7/fhir-for-fair/) provides guidance on how FHIR can be used for supporting FAIR health data
-* [ISO 13606](https://www.iso.org/obp/ui/#iso:std:iso:13606:-1:ed-1:v1:en) is a standard designed by the European Committee for Standardization to define a rigorous and stable information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository. It may also be used for EHR communication between an EHR system and clinical applications or middleware components, or for representing EHR data within a federated record system
-* The European Electronic Health Record Exchange Format ([EEHRxF](https://www.x-ehealth.eu/eehrxf/)) is recommended by the European Commission to be used for the exchange of EHR data for cross-border healthcare
+* {% tool "hl7fhir" %} is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
+    * Real World Data for Clinical Research ({% tool "vulcan" %}) defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
+    * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
+* {% tool "iso13606" %} is a standard designed by the European Committee for Standardization to define a rigorous and stable information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository. It may also be used for EHR communication between an EHR system and clinical applications or middleware components, or for representing EHR data within a federated record system
+* The {% tool "eehrxf" %} is recommended by the European Commission to be used for the exchange of EHR data for cross-border healthcare
 * The ISO/DIS 141997 standard Biomedical Research Integrated Domain Group ([BRIDG](https://bridgmodel.nci.nih.gov/)) Model is a domain model for data interchange that enables semantic interoperability and intends to integrate biomedical, clinical research and routine healthcare data
-* [OpenEHR](https://openehr.org/) - a non‑profit organisation that publishes technical standards for an EHR platform along with domain‑developed clinical models to define content. It is an open health interoperability standard and an alternative to FHIR. The data are patient-centric, i.e., all health data for a person are stored in a lifetime, vendor-independent EHR for that patient
+* {% tool "openehr" %} - a non‑profit organisation that publishes technical standards for an EHR platform along with domain‑developed clinical models to define content. It is an open health interoperability standard and an alternative to FHIR. The data are patient-centric, i.e., all health data for a person are stored in a lifetime, vendor-independent EHR for that patient
 
 These common data models are less likely to be directly supported by the EHR, but can facilitate sharing and analysis of data, however, EHR data are likely to require curation to these standards:
-* [CDISC](https://www.cdisc.org/)(Clinical Data Interchange Standards Consortium) is a consortium, which defines several open standards for regulatory approval and case report forms in particular in the context of clinical trials meant for submission to FDA and EMA, e.g.
-      * [ADaM](https://www.cdisc.org/standards/foundational/adam)	Analysis Data Model for data and metadata of clinical trial statistical analysis
+* {% tool "cdisc" %} is a consortium, which defines several open standards for regulatory approval and case report forms in particular in the context of clinical trials meant for submission to FDA and EMA, e.g.
+      * {% tool "adam" %} Analysis Data Model for data and metadata of clinical trial statistical analysis
       * [CTR-XML](https://www.cdisc.org/standards/data-exchange/ctr-xml) Clinical Trial Registry-XML
       * [ODM-XML](https://www.cdisc.org/standards/data-exchange/odm) Operational Data Model-XML
       * [SDTM](https://www.cdisc.org/standards/foundational/sdtm)	Study Data Tabulation Model for clinical study data in a tabular format

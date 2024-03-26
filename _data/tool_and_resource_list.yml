@@ -2583,7 +2583,7 @@
     biotools:    
     tess: 
   url: https://www.iso.org/standard/83433.html
-- description: Non‑profit organisation that publishes technical standards for an EHR platform along with domain‑developed clinical models to define content.
+- description: Non-profit organisation that publishes technical standards for an EHR platform along with domain‑developed clinical models to define content.
   id: openehr
   name: OpenEHR
   registry:
@@ -2605,14 +2605,14 @@
     tess: 
   url: https://www.cdisc.org/standards/foundational/adam
 - description: A CDISC Data Exchange Standard that lets technology vendors implement tools that support a “write once, use many times” solution based on XML.
-  id: ctrxml
+  id: ctr-xml
   name:  Clinical Trial Registry-XML (CTR-XML)
   registry:
     biotools:    
     tess: 
   url: https://www.cdisc.org/standards/data-exchange/ctr-xml
 - description: A CDISC Data Exchange Standard that  is a vendor-neutral, platform-independent format for exchanging and archiving clinical and translational research data, along with their associated metadata, administrative data, reference data, and audit information.
-  id: odmxml
+  id: odm-xml
   name: Operational Data Model-XML (ODM-XML)
   registry:
     biotools:    
@@ -2653,13 +2653,6 @@
     biotools:    
     tess: 
   url: https://projectredcap.org/software/cdis/
-- description: Open-source tools to support data-analytics use cases on observational patient-level data.
-  id: ohdsi
-  name: Observational health data sciences and informatics (OHDSI) Software Tools
-  registry:
-    biotools:    
-    tess: 
-  url: https://www.ohdsi.org/software-tools/
 - description: Open-source tool to map datasets to the OMOP CDM.
   id: carrotmapper
   name: Convenient And Reusable Rapid OMOP Transformer (CaRROT-Mapper)
