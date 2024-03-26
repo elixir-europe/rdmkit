@@ -1,6 +1,5 @@
 ---
 title: Human health data
-search_exclude: true
 description: Data management solutions for human health data.
 contributors: [Marcus Buchwald, Tim Beck, Saskia Lawson-Tovey, Gerhard Mayer, Soumyabrata Ghosh, Philip Quinlan, Venkata Satagopam, Jan Willem Boiten, Patrick Ruch, Hindrik Kerstens, Carlos Luís Parra Calderón, Salvador Capella-Gutierrez, Magda Chegkazi, Arshiya Merchant and the ELIXIR Health Data Focus Group]
 page_id: health_data
