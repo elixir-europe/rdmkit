@@ -35,6 +35,8 @@ subitems:
         url: /biomolecular_simulation_data
       - title: Epitranscriptome data
         url: /epitranscriptome_data
+      - title: Health data
+        url: /health_data
       - title: Human data
         url: /human_data
       - title: Human pathogen genomics
