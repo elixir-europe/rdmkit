@@ -51,8 +51,8 @@ national_resources:
       your_tasks: [data_analysis, existing_data, storage]
     registry:
       biotools: cBioportal
-      zenodo: https://zenodo.org/records/8163342
-      fairsharing: https://doi.org/10.25504/FAIRsharing.6L6MjA
+      tess: cBioPortal
+      fairsharing: FAIRsharing.6L6MjA
     url: https://www.cbioportal.org
   - name: CBS, Statistics Netherlands
     description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data in the life sciences and health domain.
