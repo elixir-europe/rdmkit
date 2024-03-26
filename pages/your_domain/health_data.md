@@ -34,7 +34,7 @@ To collect health data directly from participants, an efficient data collection 
 * In the case of a longitudinal study, define time points for the data collection (consult doctors on typical visit schedules to minimise the burden on participants and a calendar for holidays and other events).
 * Any personally identifiable information (PII), including communication details like name, address, email, or telephone number, needs to be separated from data and stored in a separate system with additional security measures like Two-Factor Authentication and encryption at rest. 
 * Design the privacy policy for the survey according to relevant local guidelines with the information governance/data protection officer and IT team
-* Design the questionnaires with consideration given to interoperability (e.g., mapping questions/answers to concepts in clinical terminologies) and avoiding ambiguity in the questions.
+* Design the questionnaires with consideration given to interoperability (e.g. mapping questions/answers to concepts in clinical terminologies) and avoiding ambiguity in the questions.
 
   * Guidelines: 
      - [EC Guidelines for the development and criteria for the adoption of Health Survey instruments] (https://ec.europa.eu/health/ph_information/dissemination/reporting/healthsurveys_en.pdf)
