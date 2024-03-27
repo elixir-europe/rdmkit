@@ -66,7 +66,7 @@ GDPR compliant EDC systems that support the capture of COMs:
 * {% tool "redcap-cloud" %} - Commercial licence
     - A fully managed REDCap system based in the cloud, provided by nPhase.
 * {% tool "castor" %} - Academic/commercial licence
-* {% tool "eu-survey" %} - SaaS provided by EU commission
+* {% tool "eu-survey" %} - SaaS provided by the EU Commission
 * {% tool "limesurvey" %} Open source, 
 * {% tool "alchemer" %} – Commercial
 * {% tool "jotform" %} – Commercial 
