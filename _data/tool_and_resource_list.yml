@@ -2507,14 +2507,14 @@
     tess: MIAME
   url: https://www.fged.org/projects/miame/
 - description: A fully managed REDCap system based in the cloud, provided by nPhase.
-  id: redcapcloud
+  id: redcap-cloud
   name: REDCap Cloud
   registry:
     biotools:    
     tess: 
   url: https://www.redcapcloud.com
 - description:  European Commission's official multilingual online survey-management system built for the creation and publishing of globally accessible forms.
-  id: eusurvey
+  id: eu-survey
   name: EU Survey
   registry:
     biotools:    
@@ -2542,7 +2542,7 @@
     tess: 
   url: https://www.jotform.com
 - description: A standard used for health care data exchange.
-  id: hl7fhir
+  id: hl7-fhir
   name: HL7 FHIR 
   registry:
     biotools:    
@@ -2577,7 +2577,7 @@
     tess: 
   url: https://www.x-ehealth.eu/eehrxf/
 - description: Domain model for data interchange that enables semantic interoperability and intends to integrate biomedical, clinical research and routine healthcare data.
-  id: isodis14199
+  id: isodis-14199
   name: ISO/DIS 14199
   registry:
     biotools:    
@@ -2654,14 +2654,14 @@
     tess: 
   url: https://projectredcap.org/software/cdis/
 - description: Open-source tool to map datasets to the OMOP CDM.
-  id: carrotmapper
+  id: carrot-mapper
   name: Convenient And Reusable Rapid OMOP Transformer (CaRROT-Mapper)
   registry:
     biotools:    
     tess: 
   url: https://github.com/Health-Informatics-UoN/CaRROT-Mapper
 - description: Repository of ontologies for use with the OMOP CDM.
-  id: ohdsiathen
+  id: ohdsi-athena
   name: OHDSI Athena
   registry:
     biotools:    
@@ -2689,8 +2689,8 @@
     tess: 
   url: https://loinc.org
 - description: Terminology standard consisting of codes, terms, synonyms and definitions used in clinical documentation and reporting.
-  id:  snomedct
-  name: Systematized Nomenclature of Medicine – Clinical Terms (SNOMED-CT)
+  id:  snomed-ct
+  name: Systematized Nomenclature of Medicine - Clinical Terms (SNOMED-CT)
   registry:
     biotools:    
     tess: 

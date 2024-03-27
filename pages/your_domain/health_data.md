@@ -63,13 +63,13 @@ GDPR compliant EDC systems that support the capture of COMs:
 * {% tool "redcap" %} - Academic licence
     - Check the licence terms carefully, as some uses in commercial research may not be allowed.
     - REDCap – [online training videos](https://tess.elixir-europe.org/materials?tools=REDCap)
-* {% tool "redcapcloud" } - Commercial licence
+* {% tool "redcap-cloud" %} - Commercial licence
     - A fully managed REDCap system based in the cloud, provided by nPhase.
 * {% tool "castor" %} - Academic/commercial licence
-* {% tool "eusurvey" %} - SaaS provided by EU commission
+* {% tool "eu-survey" %} - SaaS provided by EU commission
 * {% tool "limesurvey" %} Open source, 
 * {% tool "alchemer" %} – Commercial
-* {% tool "jotform"} – Commercial 
+* {% tool "jotform" %} – Commercial 
 * [Data Integration System](https://www.bitcare.de) – Commercial
 
 PII separation and storage systems:
@@ -77,8 +77,8 @@ PII separation and storage systems:
 * [Mosaic Project](https://www.ths-greifswald.de/en/projekte/mosaic-project/) - Open source 
 
 Improving the FAIRness of health data:
-{% tool "fairsharing" %}
-{% tool "fair-cookbook" %}
+* {% tool "fairsharing" %}
+* {% tool "fair-cookbook" %}
 
 
 ## Electronic Health Record (EHR) data
@@ -106,7 +106,7 @@ The [International Patient Summary (IPS)](https://international-patient-summary.
 ### Solutions
 
 It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems.These interchange formats are the standards that are likely to be present as part of the EHR, and include:
-* {% tool "hl7fhir" %} is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
+* {% tool "hl7-fhir" %} is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
     * Real World Data for Clinical Research ({% tool "vulcan" %}) defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
     * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
 * {% tool "iso13606" %} is a standard designed by the European Committee for Standardization to define a rigorous and stable information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository. It may also be used for EHR communication between an EHR system and clinical applications or middleware components, or for representing EHR data within a federated record system
@@ -117,24 +117,24 @@ It is likely that the use of one of the following standards will not be a choice
 These common data models are less likely to be directly supported by the EHR, but can facilitate sharing and analysis of data, however, EHR data are likely to require curation to these standards:
 * {% tool "cdisc" %} is a consortium, which defines several open standards for regulatory approval and case report forms in particular in the context of clinical trials meant for submission to FDA and EMA, e.g.
       * {% tool "adam" %} Analysis Data Model for data and metadata of clinical trial statistical analysis
-      * [CTR-XML](https://www.cdisc.org/standards/data-exchange/ctr-xml) Clinical Trial Registry-XML
-      * [ODM-XML](https://www.cdisc.org/standards/data-exchange/odm) Operational Data Model-XML
-      * [SDTM](https://www.cdisc.org/standards/foundational/sdtm)	Study Data Tabulation Model for clinical study data in a tabular format
-* The OMOP Common Data Model [(CDM] (https://ohdsi.github.io/CommonDataModel/) is an open community standard for observational health care data obtained from health records. It uses the OHDSI (Observational Health Data Sciences and Informatics) standard vocabularies. It has quickly gained traction over recent years, amongst others, through the support received from several large EU projects.
-* Federated Health Information Model [(VA-FHIM)](https://fhim.org/fhim-model) is a UML-based logical health information model defined by the Open Group, intended to achieve interoperability between multiple healthcare standards and protocols
-* Detailed clinical model (DCM) is the [ISO 13972:2022](https://www.iso.org/standard/79498.html) standard. It defines data elements, the relationships between such data elements and terminologies for detailed small, reusable clinical models
-Additionally, [FAIRSharing](https://fairsharing.org/) can be used to search for more domain/disease-specific standards (if applicable).
+      * {% tool "ctr-xml" %} Clinical Trial Registry-XML
+      * {% tool "odm-xml" %} Operational Data Model-XML
+      * {% tool "sdtm" %}	Study Data Tabulation Model for clinical study data in a tabular format
+* The OMOP Common Data Model {% tool "cdm" %} is an open community standard for observational health care data obtained from health records. It uses the OHDSI (Observational Health Data Sciences and Informatics) standard vocabularies. It has quickly gained traction over recent years, amongst others, through the support received from several large EU projects.
+* {% tool "fhim" %} is a UML-based logical health information model defined by the Open Group, intended to achieve interoperability between multiple healthcare standards and protocols
+* Detailed clinical model (DCM) is the {% tool "iso139722022" %} standard. It defines data elements, the relationships between such data elements and terminologies for detailed small, reusable clinical models
+Additionally, {% tool "fairsharing" %} can be used to search for more domain/disease-specific standards (if applicable).
 
 
 **Data integration tooling**, from EHR to a common data model:
 * REDCap has an existing feature, CDIS (Clinical Data Interoperability Services), which allows a REDCap project to interact with an EHR system and pull EHR data into REDCap
 * Tools to map datasets to the OMOP CDM
     * [OHDSI software](https://www.ohdsi.org/software-tools/)
-    * [CaRROT-Mapper](https://github.com/HDRUK/CaRROT-Mapper)
+    * {% tool "carrot-mapper" %}
 
-Comprehensive lists of clinical terminologies are available from the [EBI OLS](https://www.ebi.ac.uk/ols4/ontologies) and [NCBO BioPortal](https://bioportal.bioontology.org/ontologies) ontology catalogues. Ontologies for use with the OMOP CDM are available from [OHDSI Athena](https://athena.ohdsi.org/search-terms/start). Some examples of widely used clinical terminologies in health data research include:
-* International Classification of Diseases ([ICD-10](https://icd.who.int/browse10/2019/en), [ICD-11](https://icd.who.int/en))
-* Logical Observation Identifiers Names and Codes ([LOINC](https://loinc.org/)) for reporting laboratory test results
-* Systematized Nomenclature of Medicine – Clinical Terms ([SNOMED-CT](https://www.snomed.org/))
-* Human Phenotype Ontology ([HPO](https://hpo.jax.org/))
-* Normalised names for clinical drugs ([RxNorm](https://www.nlm.nih.gov/research/umls/rxnorm/index.html))
+Comprehensive lists of clinical terminologies are available from the {% tool "ontology-lookup-service" %} and [NCBO BioPortal](https://bioportal.bioontology.org/ontologies) ontology catalogues. Ontologies for use with the OMOP CDM are available from {% tool "ohdsi-athena" %}. Some examples of widely used clinical terminologies in health data research include:
+* International Classification of Diseases ({% tool "icd10" %}, {% tool "icd11" %})
+* Logical Observation Identifiers Names and Codes ({% tool "loinc" %}) for reporting laboratory test results
+* Systematized Nomenclature of Medicine – Clinical Terms ({% tool "snomed-ct" %})
+* Human Phenotype Ontology ({% tool "hpo" %})
+* Normalised names for clinical drugs ({% tool "rxnorm" %})
