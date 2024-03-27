@@ -66,7 +66,7 @@ GDPR compliant EDC systems that support the capture of COMs:
 * {% tool "redcap-cloud" %} - Commercial licence
     - A fully managed REDCap system based in the cloud, provided by nPhase.
 * {% tool "castor" %} - Academic/commercial licence
-* {% tool "eu-survey" %} - SaaS provided by EU commission
+* {% tool "eu-survey" %} - SaaS provided by the EU Commission
 * {% tool "limesurvey" %} Open source, 
 * {% tool "alchemer" %} – Commercial
 * {% tool "jotform" %} – Commercial 
@@ -94,7 +94,7 @@ For member states within the EU, the European Commission published a proposed re
   * Researchers, innovators and policymakers can request access to these electronic health data in a trusted and secure way that preserves the individual’s personal data
 The EHDS will also regulate the interoperability of EHRs to a certain extent, in particular to facilitate the exchange of the patient summary data.
 
-EHDS places a significant emphasis on promoting the secondary use of health data, to serve research, innovation, policy making and regulatory purposes. To achieve this, several European initiatives have been launched to establish its foundation and define guiding principles. Among these endeavors, two signification projects stand out:
+EHDS places a significant emphasis on promoting the secondary use of health data, to serve research, innovation, policy-making and regulatory purposes. To achieve this, several European initiatives have been launched to establish its foundation and define guiding principles. Among these endeavors, two signification projects stand out:
 - [TEHDAS]( https://tehdas.eu/), the joint action Towards the European Health Data Space, helped develop and promote concepts for the secondary use of health data to benefit public health and health research and innovation in Europe. TEHDAS produced [a set of recommendations]( https://tehdas.eu/results/) for the European Commission and member states to enable secondary use of health data.
 - [HealthData@EU Pilot](https://ehds2pilot.eu/) is a project designed to build a pilot version of the EHDS infrastructure for the secondary use of health data “HealthData@EU”. The project establishes connections between data platforms within a network infrastructure and develops services that facilitate the user journey for research projects using health data. It also offers guidelines for data standards, data quality, data security and data transfer to support this cross-border infrastructure.
 
@@ -105,7 +105,7 @@ The [International Patient Summary (IPS)](https://international-patient-summary.
 
 ### Solutions
 
-It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems.These interchange formats are the standards that are likely to be present as part of the EHR, and include:
+It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems. These interchange formats are the standards that are likely to be present as part of the EHR and include:
 * {% tool "hl7-fhir" %} is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
     * Real World Data for Clinical Research ({% tool "vulcan" %}) defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
     * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
@@ -131,8 +131,7 @@ Additionally, {% tool "fairsharing" %} can be used to search for more domain/dis
 * Tools to map datasets to the OMOP CDM
     * [OHDSI software](https://www.ohdsi.org/software-tools/)
     * {% tool "carrot-mapper" %}
-
-Comprehensive lists of clinical terminologies are available from the {% tool "ontology-lookup-service" %} and [NCBO BioPortal](https://bioportal.bioontology.org/ontologies) ontology catalogues. Ontologies for use with the OMOP CDM are available from {% tool "ohdsi-athena" %}. Some examples of widely used clinical terminologies in health data research include:
+Comprehensive lists of clinical terminologies are available from the {% tool "ontology-lookup-service" %} and {% tool "bioportal" %} ontology catalogues. Ontologies for use with the OMOP CDM are available from {% tool "ohdsi-athena" %}. Some examples of widely used clinical terminologies in health data research include:
 * International Classification of Diseases ({% tool "icd10" %}, {% tool "icd11" %})
 * Logical Observation Identifiers Names and Codes ({% tool "loinc" %}) for reporting laboratory test results
 * Systematized Nomenclature of Medicine – Clinical Terms ({% tool "snomed-ct" %})
