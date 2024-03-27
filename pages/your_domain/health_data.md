@@ -105,7 +105,7 @@ The [International Patient Summary (IPS)](https://international-patient-summary.
 
 ### Solutions
 
-It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems.These interchange formats are the standards that are likely to be present as part of the EHR, and include:
+It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems. These interchange formats are the standards that are likely to be present as part of the EHR and include:
 * {% tool "hl7-fhir" %} is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
     * Real World Data for Clinical Research ({% tool "vulcan" %}) defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
     * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
