@@ -131,8 +131,7 @@ Additionally, {% tool "fairsharing" %} can be used to search for more domain/dis
 * Tools to map datasets to the OMOP CDM
     * [OHDSI software](https://www.ohdsi.org/software-tools/)
     * {% tool "carrot-mapper" %}
-
-Comprehensive lists of clinical terminologies are available from the {% tool "ontology-lookup-service" %} and [NCBO BioPortal](https://bioportal.bioontology.org/ontologies) ontology catalogues. Ontologies for use with the OMOP CDM are available from {% tool "ohdsi-athena" %}. Some examples of widely used clinical terminologies in health data research include:
+Comprehensive lists of clinical terminologies are available from the {% tool "ontology-lookup-service" %} and {% tool "bioportal" %} ontology catalogues. Ontologies for use with the OMOP CDM are available from {% tool "ohdsi-athena" %}. Some examples of widely used clinical terminologies in health data research include:
 * International Classification of Diseases ({% tool "icd10" %}, {% tool "icd11" %})
 * Logical Observation Identifiers Names and Codes ({% tool "loinc" %}) for reporting laboratory test results
 * Systematized Nomenclature of Medicine – Clinical Terms ({% tool "snomed-ct" %})
