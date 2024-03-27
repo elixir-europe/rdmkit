@@ -69,7 +69,7 @@ GDPR compliant EDC systems that support the capture of COMs:
 * {% tool "eusurvey" %} - SaaS provided by EU commission
 * {% tool "limesurvey" %} Open source, 
 * {% tool "alchemer" %} – Commercial
-* {% tool "jotform"} – Commercial 
+* {% tool "jotform" %} – Commercial 
 * [Data Integration System](https://www.bitcare.de) – Commercial
 
 PII separation and storage systems:
