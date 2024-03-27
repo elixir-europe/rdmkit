@@ -111,7 +111,7 @@ It is likely that the use of one of the following standards will not be a choice
     * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
 * {% tool "iso13606" %} is a standard designed by the European Committee for Standardization to define a rigorous and stable information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository. It may also be used for EHR communication between an EHR system and clinical applications or middleware components, or for representing EHR data within a federated record system
 * The {% tool "eehrxf" %} is recommended by the European Commission to be used for the exchange of EHR data for cross-border healthcare
-* The ISO/DIS 141997 standard Biomedical Research Integrated Domain Group ([BRIDG](https://bridgmodel.nci.nih.gov/)) Model is a domain model for data interchange that enables semantic interoperability and intends to integrate biomedical, clinical research and routine healthcare data
+* The {% tool "isodis-14199" %} standard Biomedical Research Integrated Domain Group ([BRIDG](https://bridgmodel.nci.nih.gov/)) Model is a domain model for data interchange that enables semantic interoperability and intends to integrate biomedical, clinical research and routine healthcare data
 * {% tool "openehr" %} - a non‑profit organisation that publishes technical standards for an EHR platform along with domain‑developed clinical models to define content. It is an open health interoperability standard and an alternative to FHIR. The data are patient-centric, i.e., all health data for a person are stored in a lifetime, vendor-independent EHR for that patient
 
 These common data models are less likely to be directly supported by the EHR, but can facilitate sharing and analysis of data, however, EHR data are likely to require curation to these standards:
@@ -127,7 +127,7 @@ Additionally, {% tool "fairsharing" %} can be used to search for more domain/dis
 
 
 **Data integration tooling**, from EHR to a common data model:
-* REDCap has an existing feature, CDIS (Clinical Data Interoperability Services), which allows a REDCap project to interact with an EHR system and pull EHR data into REDCap
+* REDCap has an existing feature, {% tool "cdis" %}, which allows a REDCap project to interact with an EHR system and pull EHR data into REDCap
 * Tools to map datasets to the OMOP CDM
     * [OHDSI software](https://www.ohdsi.org/software-tools/)
     * {% tool "carrot-mapper" %}

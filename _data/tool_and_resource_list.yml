@@ -2648,7 +2648,7 @@
   url: https://www.iso.org/standard/79498.html
 - description: REDCap feature which allows a REDCap project to interact with an EHR system and pull EHR data into REDCap.
   id: cdis
-  name:  Clinical Data Interoperability Services
+  name:  Clinical Data Interoperability Services (CDIS)
   registry:
     biotools:    
     tess: 
