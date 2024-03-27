@@ -170,4 +170,8 @@
   date: 2024-03-24
   linked_pr: 1366
   description: By collapsing secondary information we hope to give more attention to the main content of the RDMkit. Together with the improved navigation tiles, multiple bugfixes and some style tweaks, we hope to improve the user experience.
-  
+- name: "New page: Health data"
+  date: 2024-03-27
+  linked_pr: 1432
+  description: A new "domain" page for human health data was added. [Discover the page here](health_data).
+
