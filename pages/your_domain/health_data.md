@@ -1,7 +1,7 @@
 ---
 title: Human health data
 description: Data management solutions for human health data.
-contributors: [Marcus Buchwald, Tim Beck, Saskia Lawson-Tovey, Gerhard Mayer, Soumyabrata Ghosh, Philip Quinlan, Venkata Satagopam, Jan Willem Boiten, Patrick Ruch, Hindrik Kerstens, Carlos Luís Parra Calderón, Salvador Capella-Gutierrez, Magda Chegkazi, Arshiya Merchant and the ELIXIR Health Data Focus Group]
+contributors: [Marcus Buchwald, Tim Beck, Saskia Lawson-Tovey, Gerhard Mayer, Soumyabrata Ghosh, Philip Quinlan, Venkata Satagopam, Jan Willem Boiten, Patrick Ruch, Hindrik Kerstens, Carlos Luís Parra Calderón, Salvador Capella-Gutierrez, Magda Chegkazi, Arshiya Merchant]
 page_id: health_data
 related_pages: 
   your_tasks: [sensitive, gdpr_compliance]
