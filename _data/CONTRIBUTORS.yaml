@@ -558,8 +558,9 @@ Polonca Ferk:
 Gil Poiares-Oliveira:
     git: GilOliveira
     orcid: 0000-0003-4638-2879
-    email: gil.oliveira@tecnico.ulisboa.pt
+    email: gpo@biodata.pt
     affiliation: INESC-ID / BioData.pt / ELIXIR-PT
+    role: editor
 Uladzislau Vadadokhau:
     git: uladzislau21
     email: uladzislau.vadadokhau@med.unideb.hu
@@ -609,3 +610,32 @@ Adriano Fonzino:
     git: F0nz0
     orcid: 0009-0009-3325-8554
     affiliation: University of Bari
+Tim Beck:
+    git: tb143
+    email: tim.beck@nottingham.ac.uk
+    orcid: 0000-0002-0292-7972
+    affiliation: University of Nottingham
+Marcus Buchwald:
+    email: marcus.buchwald@uni-heidelberg.de 
+    affiliation: Heidelberg University 
+Philip Quinlan:
+    email: philip.quinlan@nottingham.ac.uk
+    affiliation: University of Nottingham
+Jan Willem Boiten:
+    email: janwillem.boiten@lygature.org
+    affiliation: Lygature 
+Patrick Ruch:
+    email: patrick.ruch@hesge.ch
+    affiliation: Swiss Institute of Bioinformatics 
+Hindrik Kerstens:
+    email: H.H.D.Kerstens-2@prinsesmaximacentrum.nl
+    affiliation: Wageningen University
+Salvador Capella-Gutierrez:
+    email: salvador.capella@bsc.es 
+    affiliation: Barcelona Supercomputing Centre (BSC) 
+Magda Chegkazi:
+    email: magda.chegkazi@elixir-europe.org 
+    affiliation: ELIXIR 
+Arshiya Merchant:
+    email: arshiya.merchant@elixir-europe.org
+    affiliation: ELIXIR 

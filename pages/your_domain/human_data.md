@@ -43,7 +43,7 @@ When working with human data, you must follow established research ethical guide
 * Have you got an **ethical permit** for your research project?
   * To get an ethical permit, you have to apply for an **ethical review** by an **ethical review board**.
     - The legislation that governs this differs between countries. Do seek advice from your research institute.
-  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the [Consent Clauses for Genomic Research](https://drive.google.com/file/d/1O5Ti7g7QJqS3h0ABm-LyTe02Gtq8wlKM/view?usp=sharing)(PDF document).
+  * The [Global Alliance for Genomics and Health (GA4GH)](https://www.ga4gh.org) has recommendations for these issues in their [GA4GH regulatory and ethical toolkit](https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/), see for instance the {% tool "consent-clauses-for-genomic-research" %}.
 * The acquisition of data must be legal.
   * **Receiving data/samples directly from data subjects** requires in most cases **informed consents**.
     - An informed consent is an agreement from the research subject to participate in and share personal data for a particular purpose. It shall describe the purpose and any risks involved (along with any mitigations to minimise those risks) in such a way that the research subject can make an informed choice about participating. It should also state under what circumstances the data can be used for the initial purpose, as well as for later re-use by others.

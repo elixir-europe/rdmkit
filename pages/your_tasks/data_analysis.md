@@ -22,6 +22,8 @@ dsw:
 faircookbook:
 - name: Introducing Provenance Information
   url: https://w3id.org/faircookbook/FCB036
+- name: Making Computational Workflows FAIR
+  url: https://w3id.org/faircookbook/FCB062
 ---
 
 ## What are the best practices for data analysis?
