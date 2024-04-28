@@ -210,7 +210,7 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
   "alternateName": "Jaguar"
   }
   ```
-* Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rdamsc.bath.ac.uk) or among standards in [Fairsharing.org](https://fairsharing.org/standards/).
+* Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rdamsc.bath.ac.uk) or among the [reporting guidelines](https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%2520science&recordType=reporting_guideline) in {%tool "fairsharing" %}.
 * Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
   * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
   * [MAGE-TAB](https://www.ebi.ac.uk/arrayexpress/help/magetab_spec.html) (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
