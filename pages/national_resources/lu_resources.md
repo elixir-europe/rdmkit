@@ -34,7 +34,7 @@ national_resources:
     instance_of: data-stewardship-wizard
     related_pages:
       your_tasks: [dmp]
-    url: https://learning.ds-wizard.org/dashboard
+    url: https://learning.dsw.elixir-europe.org/dashboard
 
   - name: DPMRoadmap @ ELIXIR Luxembourg
     description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
