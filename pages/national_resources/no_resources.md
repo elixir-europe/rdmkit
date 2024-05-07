@@ -196,7 +196,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 
 ### Institutional storage guidelines
 
-Most universities in Norway classify data into four categories, depending on access requirements. These categories are based on recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
+Most universities in Norway classify data into four categories, depending on access requirements. These categories are based on recommendations from [SIKT](https://cms.sikt.no/sites/default/files/2023-02/Sektorstandard_klassifisering_av_informasjon%20%281%29.pdf).
 * **Open (Green)**: Information can be available to everyone, without special access rights.
 * **Restricted (Yellow)**: Information must have some protections if access by unauthorised persons could harm the institution or collaborators in some way. The information can be available both internally and externally with controlled access rights.
 * **Confidential (Red)**: Information must have strict access rights if unauthorised access would cause damage to public interests, individuals, the institution, or collaborators.
