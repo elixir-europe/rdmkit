@@ -42,7 +42,7 @@ The general principles for data management planning are described in the [Planni
 The knowledge model of the data management planning application {% tool "data-stewardship-wizard" %} was reviewed for compliance with the needs of the Plant Sciences community.
 
 #### Machine-actionable DMP
-* The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.ds-wizard.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.ds-wizard.org/projects/create/from-template)" and search for the "Plant Sciences" template.
+* The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.dsw.elixir-europe.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.dsw.elixir-europe.org/projects/create/from-template)" and search for the "Plant Sciences" template.
 
 #### DMP as a text document
 * {% tool "dataplan" %} is a Data Management Plan generator for plant science. It supports DMPs for Horizon 2020, Horizon Europe and the German BMBF and DFG. The main focus during development was to be able to be used with German funding agencies but was also extended to include other European funders.

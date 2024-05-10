@@ -26,7 +26,7 @@ national_resources:
     instance_of: data-stewardship-wizard
     related_pages:
       your_tasks: [dmp]
-    url: https://elixir-si.ds-wizard.org/
+    url: https://slovenia.dsw.elixir-europe.org/
       
   - name: ELIXIR eLearning Platform
     description: Learning Management System.

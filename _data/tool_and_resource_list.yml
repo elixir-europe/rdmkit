@@ -693,7 +693,7 @@
 - description: A DSW knowledge model guiding users through a set of questions to collect information necessary for a research project Data Protection Impact Assessment (DPIA).
   id: dpia-knowledge-model
   name: DPIA Knowledge Model
-  url: https://converge.ds-wizard.org/knowledge-models/elixir.lu:dpia-research:0.1.0
+  url: https://converge.dsw.elixir-europe.org/knowledge-models/elixir.lu:dpia-research:0.1.0
 - description: Cloud storage and file sharing service
   id: dropbox
   name: Dropbox
