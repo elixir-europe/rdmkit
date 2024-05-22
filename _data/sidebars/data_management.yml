@@ -6,11 +6,11 @@ subitems:
     url: /data_life_cycle
     subitems:
       - RDM: True
-    image_url: /assets/img/section-icons/arrows-spin-light.svg
+    image_url: /assets/img/section-icons/reuse-sustain.svg
   - title: Your role
     description: Identify your role in research data management, find data management resources relevant for you, and information to help you progress in your career path.
     url: /your_role
-    image_url: /assets/img/section-icons/address-card-light.svg
+    image_url: /assets/img/section-icons/role-id.svg
     subitems:
       - title: Data Steward
         url: /data_steward
@@ -27,7 +27,7 @@ subitems:
   - title: Your domain
     description: Learn about data management tasks that affect your domain or research community, and the solutions adopted to address them.
     url: /your_domain
-    image_url: /assets/img/section-icons/dna-light.svg
+    image_url: /assets/img/section-icons/dna.svg
     subitems:
       - title: Bioimaging data
         url: /bioimaging_data
@@ -64,7 +64,7 @@ subitems:
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks
-    image_url: /assets/img/section-icons/list-check-light.svg
+    image_url: /assets/img/section-icons/tick.svg
     subitems:
       - title: Compliance monitoring
         url: /compliance_monitoring
@@ -140,11 +140,11 @@ subitems:
         url: /tsd_assembly
       - title: XNAT-PIC
         url: /xnat_pic_assembly
-    image_url: /assets/img/section-icons/arrows-to-dot-light.svg
+    image_url: /assets/img/section-icons/tool-assembly.svg
   - title: National resources
     description: Find pointers to country specific information resources and national research data management practices.
     url: /national_resources
-    image_url: /assets/img/section-icons/flag-light.svg
+    image_url: /assets/img/section-icons/network.svg
     subitems:
       - title: Belgium
         url: /be_resources
@@ -185,9 +185,9 @@ subitems:
   - title: All tools and resources
     description: Browse the RDMkit's catalogue of tools and resources for research data management.
     url: /all_tools_and_resources
-    image_url: /assets/img/section-icons/gears-light.svg
+    image_url: /assets/img/section-icons/cogs.svg
     hr: True
   - title: All training resources
     description: Browse all training resources mentioned in RDMkit pages.
     url: /all_training_resources
-    image_url: /assets/img/section-icons/graduation-cap-light.svg
+    image_url: /assets/img/section-icons/training-icon.svg
