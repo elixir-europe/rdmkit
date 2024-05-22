@@ -125,13 +125,13 @@ defaults:
       path: "pages/tool_assembly/"
     values:
       type: tool_assembly
-      type_img: /assets/img/section-icons/arrows-to-dot-light.svg
+      type_img: /assets/img/tool-assembly.svg
   -
     scope:
       path: "pages/national_resources/"
     values:
       type: national_resources
-      type_img: /assets/img/section-icons/tool-assembly.svg
+      type_img: /assets/img/section-icons/network.svg
       datatable: true
   -
     scope:
