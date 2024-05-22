@@ -125,7 +125,7 @@ defaults:
       path: "pages/tool_assembly/"
     values:
       type: tool_assembly
-      type_img: /assets/img/tool-assembly.svg
+      type_img: /assets/img/section-icons/tool-assembly.svg
   -
     scope:
       path: "pages/national_resources/"
