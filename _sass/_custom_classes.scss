@@ -237,3 +237,15 @@ i.fa-solid.fa-magnifying-glass {
     }
 }
 
+// Tool snippet
+
+i.fa-solid.fa-wrench {
+    background: url("../img/section-icons/tools.svg") center no-repeat;
+    &:before {
+        content: "";
+    }
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-bottom: -0.25rem;
+}
+
