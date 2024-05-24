@@ -131,7 +131,7 @@ defaults:
       path: "pages/national_resources/"
     values:
       type: national_resources
-      type_img: /assets/img/section-icons/network.svg
+      type_img: /assets/img/section-icons/flag.svg
       datatable: true
   -
     scope:
