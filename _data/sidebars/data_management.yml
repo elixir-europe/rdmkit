@@ -144,7 +144,7 @@ subitems:
   - title: National resources
     description: Find pointers to country specific information resources and national research data management practices.
     url: /national_resources
-    image_url: /assets/img/section-icons/network.svg
+    image_url: /assets/img/section-icons/location-map.svg
     subitems:
       - title: Belgium
         url: /be_resources
