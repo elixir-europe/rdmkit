@@ -174,4 +174,9 @@
   date: 2024-03-27
   linked_pr: 1432
   description: A new "domain" page for human health data was added. [Discover the page here](health_data).
+- name: "New custom icon set"
+  date: 2024-05-27
+  linked_pr: 1489
+  description: We are gradually improving the icons that are in use on the RDMkit by applying our own style.
+
 
