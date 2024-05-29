@@ -101,7 +101,7 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 ### Solutions
 
-- **Effective Archiving**: Use established data repositories such as {% tool "gene-expression-omnibus" %} (GEO) or {% tool "arrayexpress" %} for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at {% tool "sequence-read-archive" %} or {% tool "european-nucleotide-archive" %}. {% tool "annotare" %} can be used to faciltate deposition of data to the {% tool "arrayexpress" %} collection in BioStudies. This tool offer support for various metadata standards; in the case of single-cell experiments it is recommended to follow the {% tool "minsce" %} guidelines.
+- **Effective Archiving**: Use established data repositories such as {% tool "gene-expression-omnibus" %} (GEO) or {% tool "arrayexpress" %} for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at {% tool "sequence-read-archive" %} or {% tool "european-nucleotide-archive" %}. {% tool "annotare" %} can be used to faciltate deposition of data to the {% tool "arrayexpress" %} collection in {% tool "biostudies" %}. This tool offer support for various metadata standards; in the case of single-cell experiments it is recommended to follow the {% tool "minsce" %} guidelines.
 
 - **Ethical Data Handling**: Emphasise the importance of informed consent and ethical considerations in data-sharing agreements. Following the privacy and ethical regulation of the hosting country or institution, using the data sharing infrastructure corresponding to the level of privacy required by the data.
 
