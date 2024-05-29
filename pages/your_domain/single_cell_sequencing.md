@@ -101,11 +101,11 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
 
 ### Solutions
 
-- **Effective Archiving**: Use established data repositories such as {% tool "gene-expression-omnibus" %} (GEO) or {% tool "arrayexpress" %} for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at {% tool "sequence-read-archive" %} or {% tool "european-nucleotide-archive" %}. {% tool "annotare" %} can be used to faciltate deposition of data to the {% tool "arrayexpress" %} collection in {% tool "biostudies" %}. This tool offer support for various metadata standards; in the case of single-cell experiments it is recommended to follow the {% tool "minsce" %} guidelines.
+- **Effective Archiving**: Use established data repositories such as {% tool "gene-expression-omnibus" %} (GEO) or {% tool "arrayexpress" %} for storage of experimental descriptive metadata and processed data such as count matrices. The corresponding raw sequencing data can be optimally archived at {% tool "sequence-read-archive" %} or {% tool "european-nucleotide-archive" %}. {% tool "annotare" %} can be used to faciltate deposition of data to the {% tool "arrayexpress" %} collection in {% tool "biostudies" %}. This tool offers support for various metadata standards; in the case of single-cell experiments it is recommended to follow the {% tool "minsce" %} guidelines.
 
 - **Ethical Data Handling**: Emphasise the importance of informed consent and ethical considerations in data-sharing agreements. Following the privacy and ethical regulation of the hosting country or institution, using the data sharing infrastructure corresponding to the level of privacy required by the data.
 
-- **Collaboration Platforms**: Explore version control systems (e.g., {% tool "git" %}), data sharing platforms (e.g., {% tool "zenodo" %}), data analysis platforms (e.g., {% tool "galaxy" %}), and domain-specific repositories (e.g., {% tool "single-cell-portal" %}) to facilitate efficient data sharing, analysis, and collaboration.
+- **Collaboration Platforms**: Explore version control systems (e.g. {% tool "git" %}), data sharing platforms (e.g. {% tool "zenodo" %}), data analysis platforms (e.g. {% tool "galaxy" %}), and domain-specific repositories (e.g. {% tool "single-cell-portal" %}) to facilitate efficient data sharing, analysis, and collaboration.
 
 - **Enhancing Reproducibility**: Guide on enhancing reproducibility, including the use of containerisation technologies such as {% tool "docker" %} to encapsulate analysis environments and to ensure analysis can be reproduced with the exact same tool version. Particularly, {% tool "biocontainers" %} comes in handy when dealing with bioinformatics tools. Prioritise the documentation for analysis workflows, code, and metadata using standardised formats and sharing them in version-controlled repositories. {% tool "galaxy" %} provides a solution for containerisation, versioning, workflow management and reproducibility for novice users.
 
@@ -122,8 +122,8 @@ Ensuring the long-term storage and accessibility of single-cell sequencing data 
     - *Explanation*: The cell-gene assignment matrix, representing gene expression per cell, is best stored in a standardised format like {% tool "hierarchical-data-format" %} (h5), h5ad from {% tool "anndata" %} or CSV as it will allow the modification needed for the next step while being readable by most single-cell tools.
 
 - **Dimensionality Reduction and Clustering**:
-    - *Data Type*: Reduced-dimension representations (e.g., PCA, t-SNE) and cell clusters.
-    - *Format*: Include plots and files in common data visualisation formats (e.g., PDF, PNG).
+    - *Data Type*: Reduced-dimension representations (e.g. PCA, t-SNE) and cell clusters.
+    - *Format*: Include plots and files in common data visualisation formats (e.g. PDF, PNG).
     - *Explanation*: Visual formats like PDF and PNG allow easy sharing and visualisation.
 
 - **Annotation and Biological Interpretation**:
