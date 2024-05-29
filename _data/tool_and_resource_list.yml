@@ -2638,3 +2638,7 @@
   url: https://github.com/ebi-gene-expression-group/sc-metadata-fields
   registry:
     fairsharing: 77c3d3
+- id: annotare
+  name: Annotare
+  description: Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies.
+  url: https://www.ebi.ac.uk/fg/annotare/login/
