@@ -2632,3 +2632,9 @@
   registry:
     biotools: hpo
   url: https://hpo.jax.org/app/
+- id: minsce
+  description: MinSCe is a minimum set of metadata categories used to describe a single-cell assay in sufficient detail to enable the analysis of transcriptomic data.
+  name: Minimum Information about a Single-Cell Experiment (minSCe)
+  url: https://github.com/ebi-gene-expression-group/sc-metadata-fields
+  registry:
+    fairsharing: 77c3d3
