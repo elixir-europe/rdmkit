@@ -187,6 +187,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Bergen (UiB)](https://www.uib.no/en/foremployees/142184/university-bergen-policy-open-science)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-guidelines.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/regelverk/sentraleregler#innhold_740835)
+* [Oslo University Hospital(OUS)](https://www.ous-research.no/ous/docs/Research-policy-documents/Data%20Management%20Plan%20for%20Reseachers.pdf)
 * [University of Stavanger](https://www.uis.no/en/library/researchdata)
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
