@@ -10,8 +10,8 @@ The RDMkit community aims to foster the adoption, enhancement, and incorporation
 The community convenes under the RDMkit Club, a platform for collective engagement where members share experiences, address queries, troubleshoot issues, and stay updated on pertinent developments. Additionally, we maintain close collaboration with the [ELIXIR RDM Community](https://elixir-europe.org/communities/research-data-management).
 
 RDMkit community includes:
-- **[Contributors](contributors)**
-- **[Editorial Board](editorial_board)**
-- **[RDMkit Club](rdmkit_club)**
+- [**Contributors**](contributors)
+- [**Editorial Board**](editorial_board)
+- [**RDMkit Club**](rdmkit_club)
 
 
