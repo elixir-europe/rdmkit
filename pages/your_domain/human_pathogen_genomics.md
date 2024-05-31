@@ -63,7 +63,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 #### Sequencing experiments
 * Good practices for genome experiments suggest that the documentation, at a minimum, should describe the design of the study or surveillance program, the collected specimens and how the samples were prepared, the experimental setup and protocols, and the analysis workflow.
   * Adopt recommendations specifically for genomics and pathogen genomics such as [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260).
-  * Refer to general guidance on how to provide [documentation and metadata](Documentation_and_metadata) during your project.
+  * Refer to general guidance on how to provide [documentation and metadata](metadata_management) during your project.
 * Adopt standards, conventions and robust protocols to maximise the reuse potential of the data in parallel initiatives and your future projects.
   * The Genomic Standards Consortium (GSC) develops and maintains the [GSC Minimum Information about any Sequence (MIxS)](https://fairsharing.org/FAIRsharing.9aa0zp) set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high quality research. 
   * The GenEpiO Consortium develops and maintains the [Genomic Epidemiology Application Ontology (GenEpiO)](https://doi.org/10.25504/FAIRsharing.y1mmbv) to support data sharing and integration specifically for foodborne infectious disease surveillance and outbreak investigations.
@@ -112,7 +112,7 @@ While the object of interest in this domain are pathogens, the data is usually d
 * Establish protocols and document the steps taken in the lab to process the sample and in the computational workflow to prepare the resulting data. Make sure to keep information from quality assurance procedures and strive to make your labwork and computational process as reproducible as possible.
     * [High-Throughput Sequencing \| LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
     * [The Beyond One Million Genomes (B1MG)](https://b1mg-project.eu) project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
-    * Data repositories generally have information about recommended [data file formats](Data_publication) and [metadata](metadata_management)
+    * Data repositories generally have information about recommended [data file formats](data_publication) and [metadata](metadata_management)
     * The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
     * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is  [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
   * The [Infectious Diseases Toolkit (IDTk)](https://www.infectious-diseases-toolkit.org/) has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
