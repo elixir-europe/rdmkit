@@ -66,7 +66,7 @@ The core services can be accessed both upstream (for data providers and biocurat
 The FAIRtracks tool assembly can be used for a large number of applications; we summarise the main ones below following the steps of the data life-cycle
 and focusing on particular tools. 
 
-While the assembly does not include a tool for [Data Management Planning](dmp),
+While the assembly does not include a tool for [Data Management Planning](data_management_plan),
 the FAIRtracks metadata standard is registered in {%tool "fairsharing" %}
 and, thus, formally connected to several other standards and databases.
 The FAIRtracks standard can, thus, be selected on your Data Management Plan in all the instances of {% tool "data-stewardship-wizard" %} through
