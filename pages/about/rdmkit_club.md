@@ -16,5 +16,5 @@ RDMkit Club is an informal drop-in session held on the **last Thursday of each m
 
 - Contact email for enquiries: [rdmkit-club@elixir-europe.org](mailto:rdmkit-club@elixir-europe.org)
 
-- Subscribe to the RDMkit Club:  [https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=External%3ARDMkit+Club](https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=External%3ARDMkit+Club)
+- Subscribe to the RDMkit Club:  [Subscription form](https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=External%3ARDMkit+Club)
 
