@@ -6,7 +6,7 @@ title: Working with git
 ## Forking - branching - changing - pushing - PR
 
 This is a general workflow in how to work on your own fork (copy) of the rdmkit repo and request changes through a pull request:
-NOTE: if you already did these steps in the past, start from the `git fetch upstream` command. 
+NOTE: if you already did these steps in the past, start from the `git fetch upstream` command.
 
 - Make a fork of this repository, using the fork button.
 - Open a terminal and clone your fork using:
@@ -60,7 +60,7 @@ To run the website locally, you can either use {% tool "docker" %} or use Jekyll
 
 1. If not already installed on your machine, install Docker. From the root of the ``rdmkit`` directory, run:
     ```
-    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:4 /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll serve -w - --host 0.0.0.0 --livereload"   
+    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:4 /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll serve -w - --host 0.0.0.0 --livereload"
     ```
 This will start the docker container and serve the website locally.
 
@@ -73,14 +73,19 @@ This will start the docker container and serve the website locally.
 If you have never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
    * Install Jekyll on MacOS/Ubuntu/Other_Linux/Windows: [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
 
-1. Install Bundler and Jekyll
+1. Install Jekyll and Bundler
 
     ```
     gem install jekyll
+    gem install bundler
+    ```
+2. Install dependencies using Bundler
+
+    ```
     bundle install
     ```
 
-2. deploy website
+2. Serve website locally
 
     ```
     bundle exec jekyll serve
