@@ -2,7 +2,7 @@
 title: RDMkit Club
 ---
 
-RDMkit Club is an informal drop-in session held on the **last Thursday of each month at 10:00 CEST/ 9:00 BST**, where we come together and discuss all topics related to RDMkit including its impact and future directions. 
+RDMkit Club is an informal drop-in session held on the **last Thursday of each month at 10:00 CE(S)T / 9:00 BST**, where we come together and discuss all topics related to RDMkit including its impact and future directions. 
 
 - The Club is open to everybody within and beyond ELIXIR. Please [register here](https://elixir-europe-org.zoom.us/meeting/register/tZAuce-grDssEtH114zzMh8DgRPHzWteDAmt) to get the zoom link.
 
