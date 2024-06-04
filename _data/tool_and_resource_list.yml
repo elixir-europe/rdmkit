@@ -1015,9 +1015,9 @@
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput sequencing
   id: gene-expression-omnibus
   name: Gene Expression Omnibus (GEO)
-  url: https://www.ncbi.nlm.nih.gov/geo/
   registry:
     fairsharing: 5hc8vt
+  url: https://www.ncbi.nlm.nih.gov/geo/
 - description: GHS (Globally Harmonized System of Classification and Labelling of Chemicals) classification was developed by the United Nations in an attempt to align standards and chemical regulations in different countries. GHS includes criteria for the classification of health, physical and environmental hazards, and what information should be included on labels of hazardous chemicals and safety data sheets.
   id: ghs-classification
   name: GHS Classification
