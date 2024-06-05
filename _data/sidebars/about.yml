@@ -2,11 +2,14 @@ title: About
 title_url: /about
 subitems:
   - title: Community
+    url: /community
     subitems:
       - title: Contributors
         url: /contributors
       - title: Editorial board
         url: /editorial_board
+      - title: RDMkit Club
+        url: /rdmkit_club
       - title: Support
         url: /support
   - title: Contact
