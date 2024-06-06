@@ -2,7 +2,7 @@
 
 title: Norway
 country_code: "NO"
-contributors: [Nazeefa Fatima,Federico Bianchini,Korbinian Bösl,Erin Calhoun]
+contributors: [Nazeefa Fatima, Federico Bianchini, Korbinian Bösl, Erin Calhoun]
 coordinators: [Korbinian Bösl, Nazeefa Fatima]
 
 related_pages:
@@ -35,7 +35,7 @@ national_resources:
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
       your_tasks: [dmp]
-    url: https://elixir-no.ds-wizard.org/
+    url: https://norway.dsw.elixir-europe.org/
   - name: EasyDMP
     description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
     instance_of:
@@ -168,7 +168,7 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
+The [Data Stewardship Wizard instance from ELIXIR Norway](https://norway.dsw.elixir-europe.org/wizard/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian Ministry of Education and Research's "[National strategy on access to and sharing of research data](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/?ch=1)" from 2018 is an initiative aimed at fostering open, equitable, and efficient sharing of research data in Norway. For researchers in Norway and their international partners, this strategy lays the groundwork for creating a robust, collaborative research environment where data is shared freely but responsibly. The national strategy underscores Norway's commitment to scientific advancement and maintaining ethical and legal standards in a data-driven era.
