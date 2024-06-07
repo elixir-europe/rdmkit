@@ -55,7 +55,8 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
    1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
    1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you citing one of your entries.
    1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
-* We use a display class based on *Nature* publications. Your BibTeX files should follow a standardised format described below. We recommend using Zotero to automatise the process (see below).
+* We use a display class based on *Nature* publications. Your BibTeX files should follow a standardised format described below.
+  We recommend using {% tool "zotero" %} to automatise the process (see below).
 * An example of the minimal structure required for BibTeX entries is:
 
 ```
@@ -74,14 +75,14 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 Make sure that the *author* field does not contain *et al.*, as this substitution is performed via the class and should
 not be part of the information provided by the contributors.
 
-* If you are a Zotero user, we recommed
-  1. Install the [Better BibTeX (BBT)](https://retorque.re/zotero-better-bibtex/index.html) plugin.
-  1. On your desktop version of Zotero, open the *Better BibTeX preferences* (under *Tools > Better BibTeX*).
+* If you are a {% tool "zotero" %} user, we recommed
+  1. Install the {% tool "better-bibtex" %} plugin.
+  1. On your desktop version of {% tool "zotero" %}, open the *Better BibTeX preferences* (under *Tools > Better BibTeX*).
   in the *citation keys* tab, edit the *citation key formula* to `auth.lower + year + shorttitle(1,0)`
   1. Import the file e.g. using the *Add item by identifier* functionality.
-  1. Right click on the item and select *Export item*. Select the Better BibLateX format and export.
+  1. Right click on the item and select *Export item*. Select the *Better BibLateX* format and export.
   1. Edit the resulting .bib file if necessary, and append it to `_bibliography/references.bib`.
-  * Optionally, if you have a Zotero account and would like to contribute to RDMkit group library on Zotero,
+  * Optionally, if you have a Zotero account and would like to contribute to RDMkit group library,
   import the items to [this group](https://www.zotero.org/groups/5371154/rdmkit)
 
 ## Graphic design
