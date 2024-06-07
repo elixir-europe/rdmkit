@@ -55,10 +55,24 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
    1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
    1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you citing one of your entries.
    1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
-* We use a display class based on *nature*. Your BibTeX files should follow a standardised format described below. We recommend using Zotero to automatise the process (see below).
-* The supported format is the following:
+* We use a display class based on *Nature* publications. Your BibTeX files should follow a standardised format described below. We recommend using Zotero to automatise the process (see below).
+* An example of the minimal structure required for BibTeX entries is:
 
-TODO
+```
+﻿@article{surname12024lorem,
+  title = {Lorem Ipsum},
+  author = {Surname1, Alice and Surname2, Bob}
+  journal = {Journal},
+  volume = {1},
+  pages = {1--10},
+  year = {2024},
+  number = {1},
+  doi = {DOI},
+  langid = {english}
+}
+```
+Make sure that the *author* field does not contain *et al.*, as this substitution is performed via the class and should
+not be part of the information provided by the contributors.
 
 * If you are a Zotero user, we recommed
   1. Install the [Better BibTeX (BBT)](https://retorque.re/zotero-better-bibtex/index.html) plugin.
