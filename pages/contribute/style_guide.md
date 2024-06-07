@@ -50,9 +50,25 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Bibliography
- * Add your citations as bibtex to the `_bibliography/references.bib` file.
- * Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing the reference.
- * Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} to show a bibliography section containing the references in the page.
+ * RDMkit uses BibTeX as a tool for creating bibliography.
+ * Follow the following instuctions to create and display a bibiography on your page:
+   1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
+   1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you citing one of your entries.
+   1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
+* We use a display class based on *nature*. Your BibTeX files should follow a standardised format described below. We recommend using Zotero to automatise the process (see below).
+* The supported format is the following:
+
+TODO
+
+* If you are a Zotero user, we recommed
+  1. Install the [Better BibTeX (BBT)](https://retorque.re/zotero-better-bibtex/index.html) plugin.
+  1. On your desktop version of Zotero, open the *Better BibTeX preferences* (under *Tools > Better BibTeX*).
+  in the *citation keys* tab, edit the *citation key formula* to `auth.lower + year + shorttitle(1,0)`
+  1. Import the file e.g. using the *Add item by identifier* functionality.
+  1. Right click on the item and select *Export item*. Select the Better BibLateX format and export.
+  1. Edit the resulting .bib file if necessary, and append it to `_bibliography/references.bib`.
+  * Optionally, if you have a Zotero account and would like to contribute to RDMkit group library on Zotero,
+  import the items to [this group](https://www.zotero.org/groups/5371154/rdmkit)
 
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
