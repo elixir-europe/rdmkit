@@ -2643,4 +2643,4 @@
 - id: annotare
   name: Annotare
   description: Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies.
-  url: https://www.ebi.ac.uk/fg/annotare/login/
+  url: https://www.ebi.ac.uk/fg/annotare/
