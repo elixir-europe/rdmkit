@@ -2634,13 +2634,15 @@
   registry:
     biotools: hpo
   url: https://hpo.jax.org/app/
-- id: minsce
-  description: MinSCe is a minimum set of metadata categories used to describe a single-cell assay in sufficient detail to enable the analysis of transcriptomic data.
+- description: MinSCe is a minimum set of metadata categories used to describe a single-cell assay in sufficient detail to enable the analysis of transcriptomic data.
+  id: minsce
   name: Minimum Information about a Single-Cell Experiment (minSCe)
-  url: https://github.com/ebi-gene-expression-group/sc-metadata-fields
   registry:
     fairsharing: 77c3d3
-- id: annotare
+  url: https://github.com/ebi-gene-expression-group/sc-metadata-fields
+- description: Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies.
+  id: annotare
   name: Annotare
-  description: Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies.
+  registry:
+    tess: Annotare
   url: https://www.ebi.ac.uk/fg/annotare/
