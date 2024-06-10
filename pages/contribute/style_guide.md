@@ -56,7 +56,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
    1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing one of your entries.
    1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
 * We use a display class based on *Nature* publications. Your BibTeX files should follow a standardised format described below.
-  We recommend using {% tool "zotero" %} to automatise the process (see below).
+  We recommend using {% tool "zotero" %} to automate the process (see below).
 * An example of the minimal structure required for BibTeX entries is:
 
 ```
