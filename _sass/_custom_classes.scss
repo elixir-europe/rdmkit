@@ -48,6 +48,8 @@
 }
 
 #main {
+    min-height: 100vh;
+
     h2,
     .h2-like {
         font-weight: 600;
@@ -206,7 +208,6 @@ a.info-collapse:hover h3 {
     padding-right: 0.5rem;
 }
 
-
 /*-----New Icons-----*/
 
 // Calender
@@ -242,7 +243,9 @@ i.fa-solid.fa-code-branch {
 }
 
 // Search
-nav #search-label, .landingpage #search-label, nav #search-input {
+nav #search-label,
+.landingpage #search-label,
+nav #search-input {
     background-color: $white;
 }
 i.fa-solid.fa-magnifying-glass {
@@ -265,4 +268,3 @@ i.fa-solid.fa-wrench {
     height: 1.2rem;
     margin-bottom: -0.25rem;
 }
-
