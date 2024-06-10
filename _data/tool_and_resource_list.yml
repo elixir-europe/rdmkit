@@ -2644,7 +2644,7 @@
   name: Annotare
   description: Annotare is a tool for submitting functional genomics data to the ArrayExpress collection in BioStudies.
   url: https://www.ebi.ac.uk/fg/annotare/
-- description: free and open-source reference management software to manage bibliographic data and related research materials
+- description: Free and open-source reference management software to manage bibliographic data and related research materials.
   id: zotero
   name: Zotero
   url: https://www.zotero.org/
