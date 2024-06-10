@@ -50,7 +50,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Bibliography
- * RDMkit uses BibTeX as a tool for creating bibliography.
+ * RDMkit uses BibTeX as a tool for creating a bibliography.
  * Follow the following instuctions to create and display a bibiography on your page:
    1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
    1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you citing one of your entries.
