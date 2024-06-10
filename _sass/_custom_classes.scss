@@ -211,7 +211,17 @@ a.info-collapse:hover h3 {
 
 // Calender
 i.far.fa-calendar {
-    background: url("../img/section-icons/calenadr.svg") center no-repeat;
+    background: url("../img/section-icons/calendar.svg") center no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -2px;
+    &:before {
+        content: "";
+    }
+}
+
+i.fa-solid.fa-map-marker-alt {
+    background: url("../img/section-icons/pin.svg") center no-repeat;
     width: 17px;
     height: 17px;
     margin-bottom: -2px;

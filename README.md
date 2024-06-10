@@ -42,6 +42,10 @@ The process documents and data are made available under a CC-BY license. Softwar
 
 The RDMkit was supported by [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) and it is coordinated by [ELIXIR Europe](https://elixir-europe.org/) and [NIH](https://www.nih.gov/).
 
+### Custom icons
+
+We would like to thank Xènia Pérez Sitjà for creating the custom icons for the RDMkit. Her work has added to the visual appeal and usability of our toolkit.
+
 <br>
 <br>
 <a href="https://elixir-europe.org/about-us/how-funded/eu-projects/converge"><img src="https://raw.githubusercontent.com/elixir-europe/rdmkit/master/assets/img/elixir_logo_inverted.svg" width="15%"></a>
