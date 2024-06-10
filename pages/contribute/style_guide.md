@@ -75,7 +75,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 Make sure that the *author* field does not contain *et al.*, as this substitution is performed via the class and should
 not be part of the information provided by the contributors.
 
-* If you are a {% tool "zotero" %} user, we recommed
+* If you are a {% tool "zotero" %} user, we recommend that you:
   1. Install the {% tool "better-bibtex" %} plugin.
   1. On your desktop version of {% tool "zotero" %}, open the *Better BibTeX preferences* (under *Tools > Better BibTeX*).
   in the *citation keys* tab, edit the *citation key formula* to `auth.lower + year + shorttitle(1,0)`
