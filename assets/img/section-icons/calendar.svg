@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_50" data-name="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c33669;
+        isolation: isolate;
+        opacity: .5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #2a2e3d;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M385.05,430H74.95c-24.83,0-44.95-20.13-44.95-44.95V96.67h400v288.38c0,24.83-20.13,44.95-44.95,44.95Z"/>
+  <path class="cls-2" d="M383.34,30H76.66c-25.77,0-46.66,20.89-46.66,46.66v42.23h400v-42.23c0-25.77-20.89-46.66-46.66-46.66Z"/>
+  <g>
+    <circle class="cls-2" cx="183.26" cy="185.56" r="22.22"/>
+    <circle class="cls-2" cx="89.78" cy="185.56" r="22.22"/>
+    <circle class="cls-2" cx="370.22" cy="185.56" r="22.22"/>
+    <circle class="cls-2" cx="276.74" cy="185.56" r="22.22"/>
+  </g>
+  <g>
+    <circle class="cls-2" cx="183.26" cy="274.44" r="22.22"/>
+    <circle class="cls-2" cx="89.78" cy="274.44" r="22.22"/>
+    <circle class="cls-2" cx="370.22" cy="274.44" r="22.22"/>
+    <circle class="cls-2" cx="276.74" cy="274.44" r="22.22"/>
+  </g>
+  <g>
+    <g>
+      <circle class="cls-2" cx="183.26" cy="363.33" r="22.22"/>
+      <circle class="cls-2" cx="89.78" cy="363.33" r="22.22"/>
+    </g>
+    <path class="cls-2" d="M296.67,341.11h-22.22c-12.27,0-22.22,9.96-22.22,22.22s9.96,22.22,22.22,22.22h22.22c12.27,0,22.22-9.96,22.22-22.22s-9.96-22.22-22.22-22.22Z"/>
+  </g>
+</svg>

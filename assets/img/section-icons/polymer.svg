@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_50" data-name="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2a2e3d;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #c33669;
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="161.69" y="312.18" width="116.9" height="36.53" rx="18.26" ry="18.26"/>
+    <rect class="cls-2" x="125.89" y="226.79" width="36.53" height="116.9" rx="18.26" ry="18.26" transform="translate(-107.04 87.65) rotate(-25)"/>
+    <rect class="cls-2" x="233.65" y="266.06" width="116.9" height="36.53" rx="18.26" ry="18.26" transform="translate(-89.04 428.9) rotate(-65)"/>
+    <rect class="cls-2" x="161.69" y="130.69" width="116.9" height="36.53" rx="18.26" ry="18.26"/>
+    <rect class="cls-2" x="85.71" y="175.89" width="116.9" height="36.53" rx="18.26" ry="18.26" transform="translate(-92.73 242.75) rotate(-65)"/>
+    <rect class="cls-2" x="120.41" y="69.96" width="36.53" height="116.9" rx="18.26" ry="18.26" transform="translate(-50.18 135.67) rotate(-45)"/>
+    <rect class="cls-2" x="281.14" y="290.96" width="36.53" height="116.9" rx="18.26" ry="18.26" transform="translate(-159.38 314.05) rotate(-45)"/>
+    <rect class="cls-2" x="80.45" y="331.14" width="116.9" height="36.53" rx="18.26" ry="18.26" transform="translate(-206.39 200.55) rotate(-45)"/>
+    <rect class="cls-2" x="239.13" y="110.14" width="116.9" height="36.53" rx="18.26" ry="18.26" transform="translate(-3.64 248.03) rotate(-45)"/>
+    <rect class="cls-2" x="30" y="222.68" width="116.9" height="36.53" rx="18.26" ry="18.26"/>
+    <rect class="cls-2" x="285.71" y="222.68" width="116.9" height="36.53" rx="18.26" ry="18.26"/>
+    <rect class="cls-2" x="313.1" y="71.08" width="116.9" height="36.53" rx="18.26" ry="18.26"/>
+    <rect class="cls-2" x="273.84" y="136.62" width="36.53" height="116.9" rx="18.26" ry="18.26" transform="translate(-55.07 141.72) rotate(-25)"/>
+  </g>
+  <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-1" cx="163.52" cy="153.82" r="25.98"/>
+  </g>
+  <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-1" cx="334.3" cy="89.89" r="25.98"/>
+  </g>
+  <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-1" cx="126.99" cy="240.58" r="25.98"/>
+  </g>
+  <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-1" cx="308.73" cy="240.58" r="25.98"/>
+  </g>
+  <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-1" cx="272.2" cy="153.82" r="25.98"/>
+  </g>
+  <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-1" cx="163.52" cy="325.58" r="25.98"/>
+  </g>
+  <g id="_Radial_Repeat_-7" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-1" cx="272.2" cy="325.58" r="25.98"/>
+  </g>
+</svg>

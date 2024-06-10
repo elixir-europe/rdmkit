@@ -41,10 +41,10 @@ layout: none
                     {%- for folder in sidebar.subitems %}
                     <div class="col">
                             <div class="card bg-white h-100">
-                                <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-5 mx-auto" alt="{{folder.title}} icon">
+                                <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-6 mx-auto" alt="{{folder.title}} icon">
                                 <div class="card-body text-center">
                                     <a href="{{ folder.url | relative_url }}" class="stretched-link">
-                                        <h3 class="card-title no-anchor text-primary">{{folder.title}}</h3>
+                                        <h3 class="card-title no-anchor text-dark">{{folder.title}}</h3>
                                     </a>
                                     <p class="card-text">{{folder.description}}</p>
                                 </div>
@@ -69,7 +69,7 @@ layout: none
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 my-auto">
-                        <img class="h-icon-6" src="{{ '/assets/img/section-icons/users-light.svg' | relative_url }}" alt="Contributors icon">
+                        <img class="h-icon-8" src="{{ '/assets/img/section-icons/community.svg' | relative_url }}" alt="Contributors icon">
                     </div>
                     <div class="col-lg-7">
                         <h2>We welcome contributors!</h2>
@@ -78,7 +78,7 @@ layout: none
                         </p>
                     </div>
                     <div class="col-lg-3 my-auto">
-                        <a class="btn btn-primary btn-lg rounded-pill" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
+                        <a class="btn btn-primary btn-lg rounded-pill px-4" href="{{ '/how_to_contribute' | relative_url }}">Start contributing</a>
                     </div>
                 </div>
             </div>
@@ -86,11 +86,26 @@ layout: none
         <section class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 pe-lg-4">
                     {% include news.html caption=true title=true limit=3 %}
                     </div>
-                    <div class="col-lg-6 mt-3 mt-lg-0">
-                    {% include events.html title=true event_type="upcoming_event" %}
+                    <div class="col-lg-6 mt-4 mt-lg-0 ps-lg-4">
+                    <h2>Events</h2>
+                        <div class="events upcoming_events" style="display: block;">
+                            <ul class="list-unstyled mt-3">
+                                <li class="upcoming_event" data-start="2024-06-22" style="display: list-item;">
+                                    <span class="title mb-1">RDMkit Club monthly meeting</span>
+                                    <p class="text-muted mb-0"><i class="far fa-calendar me-2"></i>Last Thursday of each month at 10:00 CEST / 9:00 BST</p>
+                                    <i class="fa-solid fa-map-marker-alt me-2 text-muted"></i>
+                                    <div class="d-inline-block text-muted">
+                                        <p><a href="https://elixir-europe-org.zoom.us/meeting/register/tZAuce-grDssEtH114zzMh8DgRPHzWteDAmt">Zoom</a></p>
+                                    </div>
+                                    <p>Informal drop-in session to discuss impact and future directions of the RDMkit. More information can be found on our <a href="{{ 'rdmkit_club' | relative_url }}">RDMkit Club page</a>.</p>
+                                </li> 
+                            </ul>
+                        </div>
+                        
+                    {% include events.html event_type="upcoming_event" %}
                     </div>
                 </div>
             </div>
@@ -124,7 +139,7 @@ layout: none
                                         The force behind RDMkit</p>
                                 </div>
                                 <div class="col-5 my-auto">
-                                    <img class="h-icon-4" src="{{ '/assets/img/section-icons/users-light.svg' | relative_url }}" alt="Contributors icon">
+                                    <img class="h-icon-6" src="{{ '/assets/img/section-icons/community.svg' | relative_url }}" alt="Contributors icon">
                                 </div>
                             </div>
                         </div>
@@ -144,7 +159,7 @@ layout: none
                                         Explained in the context of real world problems</p>
                                 </div>
                                 <div class="col-5 my-auto">
-                                    <img class="h-icon-4" src="{{ '/assets/img/section-icons/gears-light.svg' | relative_url }}" alt="Contributors icon">
+                                    <img class="h-icon-6" src="{{ '/assets/img/section-icons/cogs.svg' | relative_url }}" alt="Tools icon">
                                 </div>
                             </div>
                         </div>
@@ -159,7 +174,7 @@ layout: none
                                         Helping you with data management</p>
                                 </div>
                                 <div class="col-5 my-auto">
-                                    <img class="h-icon-4" src="{{ '/assets/img/section-icons/file-lines-light.svg' | relative_url }}" alt="Contributors icon">
+                                    <img class="h-icon-6" src="{{ '/assets/img/section-icons/your-task.svg' | relative_url }}" alt="Pages icon">
                                 </div>
                             </div>
                         </div>

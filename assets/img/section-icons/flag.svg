@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_30" data-name="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c33669;
+        isolation: isolate;
+        opacity: .5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #2a2e3d;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M400.07,115.65v154.35h-186.14v-70H79.93V30h216.74c8.32,0,15.06,6.74,15.06,15.06v55.53h73.28c8.32,0,15.06,6.74,15.06,15.06Z"/>
+  <polygon class="cls-2" points="311.11 200 213.93 270 213.93 200 311.11 200"/>
+  <rect class="cls-2" x="59.93" y="30" width="40" height="400" rx="9.35" ry="9.35"/>
+</svg>

@@ -101,37 +101,37 @@ defaults:
       path: "pages/data_life_cycle/"
     values:
       type: data_life_cycle
-      type_img: /assets/img/section-icons/arrows-spin-light.svg
+      type_img: /assets/img/section-icons/reuse-sustain.svg
   -
     scope:
       path: "pages/your_domain/"
     values:
       type: your_domain
-      type_img: /assets/img/section-icons/dna-light.svg
+      type_img: /assets/img/section-icons/dna.svg
   -
     scope:
       path: "pages/your_tasks/"
     values:
       type: your_tasks
-      type_img: /assets/img/section-icons/list-check-light.svg
+      type_img: /assets/img/section-icons/tick.svg
   -
     scope:
       path: "pages/your_role/"
     values:
       type: your_role
-      type_img: /assets/img/section-icons/address-card-light.svg
+      type_img: /assets/img/section-icons/role-id.svg
   -
     scope:
       path: "pages/tool_assembly/"
     values:
       type: tool_assembly
-      type_img: /assets/img/section-icons/arrows-to-dot-light.svg
+      type_img: /assets/img/section-icons/tool-assembly.svg
   -
     scope:
       path: "pages/national_resources/"
     values:
       type: national_resources
-      type_img: /assets/img/section-icons/flag-light.svg
+      type_img: /assets/img/section-icons/flag.svg
       datatable: true
   -
     scope:

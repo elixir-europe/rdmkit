@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_50" data-name="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #c33669;
+        opacity: .5;
+      }
+
+      .cls-2 {
+        fill: #2a2e3d;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="210.1" y="269.8" width="39.8" height="159.2" rx="19.9" ry="19.9"/>
+  <path class="cls-1" d="M85.87,294.53h119.4c10.98,0,19.9,8.92,19.9,19.9h0c0,10.98-8.92,19.9-19.9,19.9h-119.4c-10.98,0-19.9-8.92-19.9-19.9h0c0-10.98,8.92-19.9,19.9-19.9Z" transform="translate(-179.7 195.03) rotate(-45)"/>
+  <rect class="cls-1" x="30.99" y="210.1" width="159.2" height="39.8" rx="19.9" ry="19.9"/>
+  <path class="cls-1" d="M145.57,65.97h0c10.98,0,19.9,8.92,19.9,19.9v119.4c0,10.98-8.92,19.9-19.9,19.9h0c-10.98,0-19.9-8.92-19.9-19.9v-119.4c0-10.98,8.92-19.9,19.9-19.9Z" transform="translate(-60.3 145.57) rotate(-45)"/>
+  <rect class="cls-3" x="210.1" y="30.99" width="39.8" height="159.2" rx="19.9" ry="19.9"/>
+  <path class="cls-1" d="M254.73,125.67h119.4c10.98,0,19.9,8.92,19.9,19.9h0c0,10.98-8.92,19.9-19.9,19.9h-119.4c-10.98,0-19.9-8.92-19.9-19.9h0c0-10.98,8.92-19.9,19.9-19.9Z" transform="translate(-10.84 264.97) rotate(-45)"/>
+  <rect class="cls-1" x="269.8" y="210.1" width="159.2" height="39.8" rx="19.9" ry="19.9"/>
+  <path class="cls-1" d="M314.43,234.83h0c10.98,0,19.9,8.92,19.9,19.9v119.4c0,10.98-8.92,19.9-19.9,19.9h0c-10.98,0-19.9-8.92-19.9-19.9v-119.4c0-10.98,8.92-19.9,19.9-19.9Z" transform="translate(-130.24 314.43) rotate(-45)"/>
+  <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="230" cy="401.55" r="28.45"/>
+  </g>
+  <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="108.7" cy="351.31" r="28.45"/>
+  </g>
+  <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="58.45" cy="230" r="28.45"/>
+  </g>
+  <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="108.7" cy="108.7" r="28.45"/>
+  </g>
+  <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="230" cy="58.45" r="28.45"/>
+  </g>
+  <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="351.3" cy="108.7" r="28.45"/>
+  </g>
+  <g id="_Radial_Repeat_-7" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="401.55" cy="230" r="28.45"/>
+  </g>
+  <g id="_Radial_Repeat_-8" data-name="&amp;lt;Radial Repeat&amp;gt;">
+    <circle class="cls-2" cx="351.3" cy="351.3" r="28.45"/>
+  </g>
+</svg>
