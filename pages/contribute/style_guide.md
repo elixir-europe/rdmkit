@@ -79,7 +79,7 @@ not be part of the information provided by the contributors.
   1. Install the {% tool "better-bibtex" %} plugin.
   1. On your desktop version of {% tool "zotero" %}, open the *Better BibTeX preferences* (under *Tools > Better BibTeX*).
   in the *citation keys* tab, change the *citation key formula* to `auth.lower + year + shorttitle(1,0)`
-  1. Import the file e.g. using the *Add item by identifier* functionality.
+  1. Import the file e.g. by using *Add item by identifier*.
   1. Right click on the item and select *Export item*. Select the *Better BibLateX* format and export.
   1. Edit the resulting .bib file if necessary, and append it to `_bibliography/references.bib`.
   * Optionally, if you have a Zotero account and would like to contribute to RDMkit group library,
