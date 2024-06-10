@@ -2648,7 +2648,7 @@
   id: zotero
   name: Zotero
   url: https://www.zotero.org/
-- description: a plugin for Zotero and Juris-M that makes it easier to manage bibliographic data
+- description: A plugin for Zotero and Juris-M that makes it easier to manage bibliographic data.
   id: better-bibtex
   name: Better BibTeX (BBT)
   url: https://retorque.re/zotero-better-bibtex/
