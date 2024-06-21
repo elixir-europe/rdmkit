@@ -16,7 +16,7 @@ The contents are generated and maintained by the ELIXIR community. More informat
 ## Why are the FAIR principles needed?
 At the heart of FAIR Science lies good data management practice. This is increasingly important as life science research becomes data-intensive and traditional ‘wet labs’ make space for ‘dry (computer) labs’.
 
-With that in mind, the [FAIR Principles](https://www.nature.com/articles/sdata201618) were designed to improve the infrastructure supporting the reuse of research data. These principles intend to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**euse of digital assets.
+With that in mind, the [FAIR Principles](https://www.nature.com/articles/sdata201618) were designed to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of data.
 
 The increasing volume, complexity and speed of data creation made scientists rely on computational support exponentially. Therefore, the FAIR Principles place specific emphasis on enhancing the ability of machines to automatically find and use data, as well as supporting its reuse by other scientists, which facilitates knowledge discovery and improves research transparency.
 
