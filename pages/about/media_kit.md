@@ -69,8 +69,9 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 ## Presentations
 
 #### RDMkit template slide
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuJurLY3btKaQQsQlxSpFcMy3C6oFSKBt-VW2Xu1hwRR7wvEQGqglvAxoohVOnUg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="ratio ratio-16x9">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuJurLY3btKaQQsQlxSpFcMy3C6oFSKBt-VW2Xu1hwRR7wvEQGqglvAxoohVOnUg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 [Google Drive link to the template](https://docs.google.com/presentation/d/19M-oKsY10FdudVL4gcyfaMAFMq3pTfEv/edit#slide=id.p1)
 
