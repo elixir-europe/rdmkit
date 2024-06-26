@@ -1297,6 +1297,8 @@
 - description: Minimum Information About Disorder Experiments (MIADE) standard
   id: miade
   name: MIADE
+  registry:
+    tess: MIADE
   url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
 - description: Minimum Information About a Plant Phenotyping Experiment
   id: miappe
