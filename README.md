@@ -26,7 +26,7 @@ Do you want to help with this project? Please check out following pages for more
 
 Do you which to contact the editors of this project? Use [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org )
 
-If you want to build the website locally, please have a look at our [tutorial](working_with_git#the-advantage-of-working-locally-previewing-your-changes-through-your-web-browser).
+If you want to build the website locally, please have a look at our [Git tutorial](https://rdmkit.elixir-europe.org/working_with_git).
 
 
 ## RDMkit is an ELIXIR product
@@ -41,6 +41,10 @@ The process documents and data are made available under a CC-BY license. Softwar
 ## Acknowledgements
 
 The RDMkit was supported by [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) and it is coordinated by [ELIXIR Europe](https://elixir-europe.org/) and [NIH](https://www.nih.gov/).
+
+### Custom icons
+
+We would like to thank Xènia Pérez Sitjà for creating the custom icons for the RDMkit. Her work has added to the visual appeal and usability of our toolkit.
 
 <br>
 <br>

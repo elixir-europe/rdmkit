@@ -35,7 +35,7 @@ national_resources:
   related_pages:
     your_role: [researcher, data_steward]
     your_tasks: [dmp]
-  url: https://biodata-pt.ds-wizard.org/
+  url: https://biodatapt.dsw.elixir-europe.org/
 - name: Ready for BioData Management
   description: Capacity building program in data management for the life sciences to empower researchers and institutions in managing their data more effectively and efficiently.
   instance_of: data-stewardship-wizard

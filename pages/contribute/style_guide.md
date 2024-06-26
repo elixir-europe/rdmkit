@@ -54,9 +54,40 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Bibliography
- * Add your citations as bibtex to the `_bibliography/references.bib` file.
- * Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing the reference.
- * Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} to show a bibliography section containing the references in the page.
+ * RDMkit uses BibTeX as a tool for creating a bibliography.
+ * Follow the following instuctions to create and display a bibiography on your page:
+   1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
+   1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing one of your entries.
+   1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
+* We use a display class based on *Nature* publications. Your BibTeX files should follow a standardised format described below.
+  We recommend using {% tool "zotero" %} to automate the process (see below).
+* An example of the minimal structure required for BibTeX entries is:
+
+```
+﻿@article{surname12024lorem,
+  title = {Lorem Ipsum},
+  author = {Surname1, Alice and Surname2, Bob}
+  journal = {Journal},
+  volume = {1},
+  pages = {1--10},
+  year = {2024},
+  number = {1},
+  doi = {DOI},
+  langid = {english}
+}
+```
+Make sure that the *author* field does not contain *et al.*, as this substitution is performed via the class and should
+not be part of the information provided by the contributors.
+
+* If you are a {% tool "zotero" %} user, we recommend that you:
+  1. Install the {% tool "better-bibtex" %} plugin.
+  1. On your desktop version of {% tool "zotero" %}, open the *Better BibTeX preferences* (under *Tools > Better BibTeX*).
+  in the *citation keys* tab, change the *citation key formula* to `auth.lower + year + shorttitle(1,0)`
+  1. Import the file e.g. by using *Add item by identifier*.
+  1. Right click on the item and select *Export item*. Select the *Better BibLateX* format and export.
+  1. Edit the resulting .bib file if necessary, and append it to `_bibliography/references.bib`.
+  * Optionally, if you have a Zotero account and would like to contribute to RDMkit group library,
+  import the items to [this group](https://www.zotero.org/groups/5371154/rdmkit)
 
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
@@ -69,7 +100,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       | <span style="display: inline-block; width: 20px; height: 20px; background: #73757d;"></span> | #73757d | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and the right to publish them without attribution. Other icons on this site come from [Font Awesome](https://fontawesome.com/).
+  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and the right to publish them without attribution. Other icons on this site are either desgined by Xènia Pérez Sitjà or come from [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
   * **Images:**

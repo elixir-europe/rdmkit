@@ -166,4 +166,19 @@
   date: 2024-01-25
   linked_pr: 1443
   description: A new "domain" page for machine learning was added. [Discover the page here](machine_learning).
-  
+- name: "Improved navigation and user experience"
+  date: 2024-03-24
+  linked_pr: 1366
+  description: By collapsing secondary information we hope to give more attention to the main content of the RDMkit. Together with the improved navigation tiles, multiple bugfixes and some style tweaks, we hope to improve the user experience.
+- name: "New page: Health data"
+  date: 2024-03-27
+  linked_pr: 1432
+  description: A new "domain" page for human health data was added. [Discover the page here](health_data).
+- name: "New pages: Community and RDMkit Club."
+  date: 2024-06-05
+  linked_pr: 1496
+  description: The new community page serves as a landing page for all RDMkit community related information, [discover the page here](community). The new RDMkit Club page gives more information about our new monthly meeting which is open for everyone, [discover the page here](rdmkit_club).
+- name: "New custom icon set"
+  date: 2024-06-10
+  linked_pr: 1489
+  description: We are gradually improving the icons that are in use on the RDMkit by applying our own style. You can discover them throughout the whole website!

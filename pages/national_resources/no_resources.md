@@ -2,7 +2,7 @@
 
 title: Norway
 country_code: "NO"
-contributors: [Nazeefa Fatima,Federico Bianchini,Korbinian Bösl,Erin Calhoun]
+contributors: [Nazeefa Fatima, Federico Bianchini, Korbinian Bösl, Erin Calhoun]
 coordinators: [Korbinian Bösl, Nazeefa Fatima]
 
 related_pages:
@@ -35,7 +35,7 @@ national_resources:
     related_pages:
       tool_assembly: [tsd, nels, marine_assembly]
       your_tasks: [dmp]
-    url: https://elixir-no.ds-wizard.org/
+    url: https://norway.dsw.elixir-europe.org/
   - name: EasyDMP
     description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
     instance_of:
@@ -168,7 +168,7 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR Norway](https://elixir-no.ds-wizard.org/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
+The [Data Stewardship Wizard instance from ELIXIR Norway](https://norway.dsw.elixir-europe.org/wizard/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian Ministry of Education and Research's "[National strategy on access to and sharing of research data](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/?ch=1)" from 2018 is an initiative aimed at fostering open, equitable, and efficient sharing of research data in Norway. For researchers in Norway and their international partners, this strategy lays the groundwork for creating a robust, collaborative research environment where data is shared freely but responsibly. The national strategy underscores Norway's commitment to scientific advancement and maintaining ethical and legal standards in a data-driven era.
@@ -187,8 +187,9 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Bergen (UiB)](https://www.uib.no/en/foremployees/142184/university-bergen-policy-open-science)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/research-data-management/policies-guidelines.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/regelverk/sentraleregler#innhold_740835)
-* [University of Stavanger](https://www.uis.no/en/library/researchdata)
-* [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
+* [Oslo University Hospital (OUS)](https://www.ous-research.no/ous/docs/Research-policy-documents/Data%20Management%20Plan%20for%20Reseachers.pdf)
+* [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
+* [University of Agder (UiA)](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
 * [VID Specialized University](https://www.vid.no/en/files/guidelines-for-managing-research-data-at-vid/)
@@ -196,7 +197,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 
 ### Institutional storage guidelines
 
-Most universities in Norway classify data into four categories, depending on access requirements. These categories are based on recommendations from [UNIT](https://www.unit.no/klassifisering-av-informasjon-og-informasjonssikkerhet).
+Most universities in Norway classify data into four categories, depending on access requirements. These categories are based on recommendations from [SIKT](https://cms.sikt.no/sites/default/files/2023-02/Sektorstandard_klassifisering_av_informasjon%20%281%29.pdf).
 * **Open (Green)**: Information can be available to everyone, without special access rights.
 * **Restricted (Yellow)**: Information must have some protections if access by unauthorised persons could harm the institution or collaborators in some way. The information can be available both internally and externally with controlled access rights.
 * **Confidential (Red)**: Information must have strict access rights if unauthorised access would cause damage to public interests, individuals, the institution, or collaborators.
@@ -277,7 +278,7 @@ A DMP typically contains information about data handling during a project and af
 
 <!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
 
-ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](elixir-no.ds-wizard.org/), an internationally developed tool that has been adapted to better suit the needs of Norwegian researchers, PIs, and institutions. Both [RCN]((https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/)) and [BOTT (Bergen, Oslo, Trondheim, Tromsø) university libraries](https://zenodo.org/record/7428542) list the DSW as a preferred tool, particularly for life sciences data. DSW provides templates that are compliant with all different funders' regulations and offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for your own projects.
+ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](https://norway.dsw.elixir-europe.org/wizard/), an internationally developed tool that has been adapted to better suit the needs of Norwegian researchers, PIs, and institutions. Both [RCN]((https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/)) and [BOTT (Bergen, Oslo, Trondheim, Tromsø) university libraries](https://zenodo.org/record/7428542) list the DSW as a preferred tool, particularly for life sciences data. DSW provides templates that are compliant with all different funders' regulations and offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for your own projects.
 
 
 ## Life science-specific infrastructures/resources

@@ -1,6 +1,6 @@
 ---
 title: GDPR compliance
-contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jareborg]
+contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jareborg, Laura Portell Silva]
 description: How to protect your research data, and how to make research data compliant to GDPR.
 page_id: gdpr_compliance
 related_pages: 
@@ -58,6 +58,10 @@ Apply technical and organisational measures for data protection. These include:
   * user authentication, authorisation, data level access control;
   * data privacy measures such as pseudonymisation, anonymisation and encryption;
   * arrangements that will enable data subjects to exercise their rights.
+
+Ensure you know your data: while the GDPR governs pseudonymous data, anonymous data falls outside its scope.
+* According to the GDPR, 'pseudonymisation' involves processing personal data so that it cannot be directly linked to an individual without additional information, which must be kept separately and secured with technical and organizational measures. The inclusion of 'additional information' retains the potential for individual identification, hence pseudonymous data remains within the realm of personal data.
+* Conversely, anonymous data lacks associations with specific individuals. Once data achieves genuine anonymity, rendering individuals unidentifiable, it falls beyond the regulatory reach of the GDPR.
 
 Record your data processing. To meet GDPR's accountability requirement you should maintain records on the following:
   * project stakeholders and their GDPR roles (controller, processor);

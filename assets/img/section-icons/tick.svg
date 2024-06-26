@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_50" data-name="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c33669;
+        isolation: isolate;
+        opacity: .5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #2a2e3d;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="224" cy="230" r="200"/>
+  <path class="cls-2" d="M202,312c-5.12,0-10.24-1.96-14.14-5.86l-60-60c-7.82-7.82-7.82-20.46,0-28.28s20.46-7.82,28.28,0l45.86,45.86,185.86-185.86c7.82-7.82,20.46-7.82,28.28,0,7.82,7.82,7.82,20.46,0,28.28l-200,200c-3.9,3.9-9.02,5.86-14.14,5.86Z"/>
+</svg>

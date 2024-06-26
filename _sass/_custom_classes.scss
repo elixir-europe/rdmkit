@@ -11,8 +11,45 @@
     background-color: $light-x;
 }
 
+// Light gray background on the left
+@media (min-width: 992px) {
+    body:not(:has(.landingpage)) {
+        .anchorjs-link {
+            font-size: 0.7em !important;
+            padding-top: 0.3em;
+        }
+
+        #layout {
+            gap: 0 !important;
+        }
+        header nav.navbar {
+            margin-bottom: 0 !important;
+        }
+        aside#sidebar {
+            padding-top: $spacer * 3;
+            padding-right: 0.9rem;
+        }
+        main#main {
+            padding-top: $spacer * 3;
+            padding-left: 2.1rem;
+            background-color: $white;
+        }
+        background-image: url("../img/background.svg"); /* The image used */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar-collapse {
+        background-color: $light;
+    }
+}
 
 #main {
+    min-height: 100vh;
+
     h2,
     .h2-like {
         font-weight: 600;
@@ -23,7 +60,6 @@
     h3 {
         font-weight: 600;
     }
-
 }
 
 .octicon {
@@ -45,18 +81,9 @@
     }
 }
 
-li ul .sidebar_rdm_sub {
-    border-color: $light;
-    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
-    border-radius: 0px 0px $border-radius $border-radius;
-    border-style: none solid solid solid;
-    border-width: 0.2em;
-    margin-top: -0.25rem;
-}
-
 #side-nav .btn.sidebar-title {
     border: 0;
-    border-bottom: 0.2rem solid $primary!important;
+    border-bottom: 0.2rem solid $primary !important;
     font-weight: bold;
     padding-bottom: $input-btn-padding-y - 0.2rem;
 }
@@ -68,7 +95,9 @@ li ul .sidebar_rdm_sub {
 /* -----Homepage----- */
 
 .landingpage {
-
+    .h-icon-8 {
+        height: 8em;
+    }
     .h-icon-6 {
         height: 6em;
     }
@@ -80,7 +109,7 @@ li ul .sidebar_rdm_sub {
     }
 
     .card {
-        &:hover{
+        &:hover {
             box-shadow: $box-shadow;
         }
 
@@ -98,14 +127,13 @@ li ul .sidebar_rdm_sub {
 
     h2 {
         font-weight: 700;
-        font-family:  $font-family-theme;
+        font-family: $font-family-theme;
     }
 
     h3 {
         font-weight: 600;
-        font-family:  $font-family-theme;
+        font-family: $font-family-theme;
     }
-
 }
 
 // Search box
@@ -121,8 +149,6 @@ section#search-section {
     .input-group-text {
         font-size: 1.5rem;
     }
-
-    
 }
 
 // Counters on landing page
@@ -132,24 +158,16 @@ section#search-section {
     font-weight: 700;
 }
 
-
 /*-----Section navigation tiles-----*/
 
 .navigation-tiles {
-    .card:hover {
-        box-shadow: $box-shadow;
-    }
-
-    .card-header {
-        a:hover {
-            text-decoration: none;
-        }
-        h3 {
-            font-size: 1.2rem;
+    .card,
+    .btn {
+        &:hover {
+            box-shadow: $box-shadow;
         }
     }
 }
-
 
 /*-----Top navigation-----*/
 
@@ -159,4 +177,94 @@ section#search-section {
         background-color: $primary;
         border-radius: $border-radius;
     }
+}
+
+/*-----Accordion styles-----*/
+
+// Add a bottom border to the last accordion.
+a.info-collapse[aria-expanded="false"]:last-of-type,
+a.info-collapse[aria-expanded="true"]:last-of-type + .show {
+    border-bottom: 1px solid $border-color;
+}
+
+// Remove border hover effect.
+.info-collapse:hover,
+.info-collapse[aria-expanded="true"] {
+    border-color: $border-color !important;
+}
+
+// Add hover effect to accordion header text.
+a.info-collapse h3 {
+    transition: color 0.2s ease-in-out;
+}
+
+a.info-collapse:hover h3 {
+    color: rgba($link-color, 0.8) !important;
+}
+
+/*-----Better tools-----*/
+.tool {
+    border-radius: 1rem;
+    padding-right: 0.5rem;
+}
+
+/*-----New Icons-----*/
+
+// Calender
+i.far.fa-calendar {
+    background: url("../img/section-icons/calendar.svg") center no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -2px;
+    &:before {
+        content: "";
+    }
+}
+
+i.fa-solid.fa-map-marker-alt {
+    background: url("../img/section-icons/pin.svg") center no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -2px;
+    &:before {
+        content: "";
+    }
+}
+
+// Fork
+i.fa-solid.fa-code-branch {
+    background: url("../img/section-icons/git.svg") center no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -2.5px;
+    &:before {
+        content: "";
+    }
+}
+
+// Search
+nav #search-label,
+.landingpage #search-label,
+nav #search-input {
+    background-color: $white;
+}
+i.fa-solid.fa-magnifying-glass {
+    background: url("../img/section-icons/search.svg") center no-repeat;
+    width: 30px;
+    height: 30px;
+    &:before {
+        content: "";
+    }
+}
+
+// Tool snippet
+
+i.fa-solid.fa-wrench {
+    background: url("../img/section-icons/tools.svg") center no-repeat;
+    &:before {
+        content: "";
+    }
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-bottom: -0.25rem;
 }
