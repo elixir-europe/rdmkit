@@ -41,6 +41,8 @@
 - description: The platform where the machine learning community collaborates on models, datasets, and applications.
   id: huggingface
   name: HuggingFace
+  registry:
+    tess: HuggingFace
   url: https://huggingface.co/
 - description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
   id: catboost
@@ -171,6 +173,8 @@
 - description: Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.
   id: argos
   name: Argos
+  registry:
+    tess: Argos
   url: https://argos.openaire.eu/splash/
 - description: A repository of array based genomics data
   id: arrayexpress
