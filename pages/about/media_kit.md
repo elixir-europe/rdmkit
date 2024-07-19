@@ -42,6 +42,23 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 
 ## Data life cycle diagram
 
+If you reuse the Data life cycle diagram please use one of the following snippets for correct attribution:
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text">"<a href="https://rdmkit.elixir-europe.org/media_kit">Data life cycle diagram</a>" by <a href="https://rdmkit.elixir-europe.org">RDMkit</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+  </div>
+</div>
+
+or
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text">"<a href="https://rdmkit.elixir-europe.org/media_kit">Data life cycle diagram</a>" by <a href="https://rdmkit.elixir-europe.org">RDMkit</a> / <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a></p>
+  </div>
+</div>
+
+
 #### Data life cycle diagram basic
 
 <p>
