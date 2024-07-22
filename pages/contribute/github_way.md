@@ -1,5 +1,5 @@
 ---
-title: GitHub way (beginner)
+title: GitHub way
 ---
 
 

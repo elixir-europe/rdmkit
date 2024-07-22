@@ -2,7 +2,15 @@
 title: Google Docs way
 ---
 
-Follow the steps below to contribute using Google Docs:
+This guide tells you how to request and edit a page using Google Docs.
+
+Prerequisites:
+* No technical knowledge
+* A Google account
+
+
+## Follow the steps below to contribute using Google Docs
+
 1. Email the editorial team at [rdm-editors@elixir-europe.org](mailto:rdm-editors@elixir-europe.org)  to propose additions or updates to an existing page. Make sure you keep other contributors in CC.
 2. Use our section-specific Google Doc templates to write your page:
     *  [Your task template](https://docs.google.com/document/d/11MsyGl7WJXI4dahMjbI3addEXQlpDzM19Yk_6e-gsVI)
