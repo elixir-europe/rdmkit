@@ -14,7 +14,7 @@ If you wish to contribute, please remember the following for better consistency 
 
 ## Ways of contributing
 
-* Google Doc. If you are unfamiliar with Git and prefer to use a classic document editor, follow [the Google Doc way](https://rdmkit.elixir-europe.org/google_doc_way)
+* Google Docs. If you are unfamiliar with Git and prefer to use a classic document editor, follow [the Google Docs way](https://rdmkit.elixir-europe.org/google_doc_way)
 * GitHub. If you are unfamiliar with Git but want to try contributing on GitHub with no technical knowledge required, follow [our step-by-step instructions](https://rdmkit.elixir-europe.org/github_way)
 * Git. If you are familiar with Git, fork the repo and create a pull request following our [instructions](https://rdmkit.elixir-europe.org/working_with_git)
 
