@@ -21,7 +21,7 @@ If you wish to contribute, please remember the following for better consistency 
 
 ## Acknowledgement and ownership of content
 
-Contributors will be shown at the bottom of each page and on the main [contributors page](https://rdmkit.elixir-europe.org/contributors). if listed in the metadata of the markdown file. All contributors will also be displayed on the. If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
+Contributors will be shown at the bottom of each page and on the main [contributors page](https://rdmkit.elixir-europe.org/contributors) if listed in the metadata of the markdown file. If you want to link your GitHub account, ORCID or email address, please add your name and corresponding information to the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml).
 
 No single contributor or editor owns the site's content or has the right to dictate what the content should be. The content on the RDMkit is community-led, with many people contributing to each section. Hence, decisions are driven by consensus among the contributors and editors.
 
