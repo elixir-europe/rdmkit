@@ -30,7 +30,7 @@ Prerequisites:
 Before starting editing on GitHub:
 1. Make sure you are following our [style guide](https://rdmkit.elixir-europe.org/style_guide).
 2. Follow the structure of the provided template for the page you wish to create or update. 
-3. We use markdown. To know how to create paragraphs, headings, format text, add links and images and much more, follow our [markdown cheat sheet](https://rdmkit.elixir-europe.org/markdown_cheat_sheet).
+3. We use markdown. To learn how to create paragraphs, headings, format text, add links and images and much more, follow our [markdown cheat sheet](https://rdmkit.elixir-europe.org/markdown_cheat_sheet).
 
 {% include callout.html type="tip" content="For more information on writing and formatting, visit [GitHub’s documentation](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)." %}
 
