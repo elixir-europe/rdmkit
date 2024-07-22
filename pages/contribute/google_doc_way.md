@@ -1,5 +1,5 @@
 ---
-title: Google Doc way
+title: Google Docs way
 toc: false
 ---
 
