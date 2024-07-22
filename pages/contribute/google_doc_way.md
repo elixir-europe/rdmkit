@@ -1,6 +1,5 @@
 ---
 title: Google Docs way
-toc: false
 ---
 
 Follow the steps below to contribute using Google Docs:

@@ -3,20 +3,50 @@ title: How to contribute to RDMkit
 toc: false
 ---
 
-This project is only possible with the many [community contributors](https://rdmkit.elixir-europe.org/contributors). RDMkit is an open project where everyone can contribute to the site.
+This project is only possible with the many [community contributors](contributors). RDMkit is an open project where everyone can contribute to the site.
 
 If you wish to contribute, please remember the following for better consistency and efficiency: 
 
-* Follow our [style guide](https://rdmkit.elixir-europe.org/style_guide).
-* Ensure your content respects copyright. Please follow our[ Copyright guidelines](https://rdmkit.elixir-europe.org/copyright).
+* Follow our [style guide](style_guide).
+* Ensure your content respects copyright. Please follow our[ Copyright guidelines](copyright).
 * Provide acknowledgement for all your contributions.
 
 
 ## Ways of contributing
 
-* Google Docs. If you are unfamiliar with Git and prefer to use a classic document editor, follow [the Google Docs way](https://rdmkit.elixir-europe.org/google_doc_way)
-* GitHub. If you are unfamiliar with Git but want to try contributing on GitHub with no technical knowledge required, follow [our step-by-step instructions](https://rdmkit.elixir-europe.org/github_way)
-* Git. If you are familiar with Git, fork the repo and create a pull request following our [instructions](https://rdmkit.elixir-europe.org/working_with_git)
+* Google Docs. If you are unfamiliar with Git and prefer to use a Word-like editor, follow [the Google Docs way](google_doc_way)
+* GitHub. If you are unfamiliar with Git but want to try contributing on GitHub with no technical knowledge required, follow [our step-by-step instructions](github_way)
+* Git. If you are familiar with Git, fork the repo and create a pull request following our [instructions](working_with_git)
+
+ <div class="row ways-to-contribute text-center landingpage mt-4">
+    <div class="col-md-4">
+      <div class="card bg-light h-100">
+        <img src="/assets/img/section-icons/edit-file.svg" class="card-img-top h-icon-6 pt-3" alt="Google Docs icon">
+        <div class="card-body">
+          <h3 class="card-title mt-0">Google Docs</h3>
+          <p class="card-text">If you are unfamiliar with Git and prefer to use a Word-like editor.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-light h-100">
+        <img src="/assets/img/section-icons/github.svg" class="card-img-top h-icon-6 pt-3" alt="GitHub Icon">
+        <div class="card-body">
+          <h3 class="card-title mt-0">GitHub</h3>
+          <p class="card-text">If you are unfamiliar with Git but want to try contributing on GitHub with no technical knowledge required.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card bg-light h-100">
+        <img src="/assets/img/section-icons/git.svg" class="card-img-top h-icon-6 pt-3" alt="Git Icon">
+        <div class="card-body">
+          <h3 class="card-title mt-0">Git</h3>
+          <p class="card-text">If you are familiar with Git, fork the repo and create a pull request.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 ## Acknowledgement and ownership of content

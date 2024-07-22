@@ -1,6 +1,5 @@
 ---
 title: GitHub way (beginner)
-toc: false
 ---
 
 
@@ -28,7 +27,7 @@ Prerequisites:
 ## Read the guides {#read-the-guides}
 
 Before starting editing on GitHub:
-1. Make sure you are following our [style guide](https://rdmkit.elixir-europe.org/style_guide).
+1. Make sure you are following our [style guide](style_guide).
 2. Follow the structure of the provided template for the page you wish to create or update. 
 3. We use markdown. To learn how to create paragraphs, headings, format text, add links and images and much more, follow our [markdown cheat sheet](https://rdmkit.elixir-europe.org/markdown_cheat_sheet).
 
@@ -45,7 +44,7 @@ Before starting editing on GitHub:
 2. You will be taken to the correct GitHub repository, where you will look for a pencil icon on the top right.
 
 ## Linking resources and other pages (optional)
-* If you have mentioned tools or resources in your text, you will have to add them to the [tool and resource list](https://rdmkit.elixir-europe.org/tool_resource_update).
+* If you have mentioned tools or resources in your text, you will have to add them to the [tool and resource list](tool_resource_update).
 * If you want to list training material, add it to the page metadata. This is the training fields that are part of the template, provided at the top of the page.
 
 {% include callout.html type="important" content="In general terms, you must avoid manual interlinking of RDMkit pages." %}
