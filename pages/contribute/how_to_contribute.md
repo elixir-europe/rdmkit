@@ -5,7 +5,7 @@ toc: false
 
 This project is only possible with the many [community contributors](https://rdmkit.elixir-europe.org/contributors). RDMkit is an open project where everyone can contribute to the site.
 
-If you wish to contribute to this community-led project, we ask you to remember the following for better consistency and efficiency: 
+If you wish to contribute, please remember the following for better consistency and efficiency: 
 
 * Follow our [style guide](https://rdmkit.elixir-europe.org/style_guide).
 * Ensure your content respects copyright. Please follow our[ Copyright guidelines](https://rdmkit.elixir-europe.org/copyright).
