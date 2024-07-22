@@ -16,7 +16,7 @@ If you wish to contribute, please remember the following for better consistency 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ways-to-contribute text-center mt-5">
   <div class="col">
     <div class="card bg-light h-100">
-      <img src="/assets/img/section-icons/github.svg" class="card-img-top h-icon-6 pt-3" alt="GitHub Icon">
+      <img src="{{ '/assets/img/section-icons/github.svg' | relative_url }}" class="card-img-top h-icon-6 pt-3" alt="GitHub Icon">
       <div class="card-body">
         <a href="{{ 'github_way' | relative_url }}" class="stretched-link">
           <h3 class="card-title text-dark mt-0">GitHub</h3>
@@ -27,7 +27,7 @@ If you wish to contribute, please remember the following for better consistency 
   </div>
   <div class="col">
     <div class="card bg-light h-100">
-      <img src="/assets/img/section-icons/edit-file.svg" class="card-img-top h-icon-6 pt-3" alt="Google Docs icon">
+      <img src="{{ '/assets/img/section-icons/edit-file.svg' | relative_url }}" class="card-img-top h-icon-6 pt-3" alt="Google Docs icon">
       <div class="card-body">
         <a href="{{ 'google_doc_way' | relative_url }}" class="stretched-link">
           <h3 class="card-title text-dark mt-0">Google Docs</h3>
@@ -38,7 +38,7 @@ If you wish to contribute, please remember the following for better consistency 
   </div>
   <div class="col">
     <div class="card bg-light h-100">
-      <img src="/assets/img/section-icons/git.svg" class="card-img-top h-icon-6 pt-3" alt="Git Icon">
+      <img src="{{ '/assets/img/section-icons/git.svg' | relative_url }}" class="card-img-top h-icon-6 pt-3" alt="Git Icon">
       <div class="card-body">
         <a href="{{ 'working_with_git' | relative_url }}" class="stretched-link">
           <h3 class="card-title text-dark mt-0">Git</h3>
