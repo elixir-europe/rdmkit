@@ -15,7 +15,7 @@ Prerequisites:
 1. Go to the [RDMkit repo](https://github.com/elixir-europe/rdmkit) on GitHub.
 2. Click “Issues” in the top menu bar and look at the existing issues. See if your idea or suggestion is already being discussed.
     * If an issue exists, comment and let people know if you want to contribute.
-    * If no relevant issue exists, create a new issue by clicking the green “New issue” button on the right and choosing one of the issue templates. You can find more information on creating issues in the [GitHub documentation](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
+    * If no relevant issue exists, create a new issue: click the green “New issue” button on the right and choose one of the issue templates. You can find more information on creating issues in the [GitHub documentation](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
 
 3. Discuss your idea with the editors through comments in the issues – you will be notified when others comment.
     * You can read the comments and write your opinion/questions/answers in the “Leave a comment” box. To submit your responses, click the green “Comment” button on the right.
