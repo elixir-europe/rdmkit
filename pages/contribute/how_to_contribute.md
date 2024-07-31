@@ -21,7 +21,7 @@ If you wish to contribute, please remember the following for better consistency 
         <a href="{{ 'github_way' | relative_url }}" class="stretched-link">
           <h3 class="card-title text-dark mt-0">GitHub</h3>
         </a>
-        <p class="card-text">If you are unfamiliar with Git but want to try contributing on GitHub with no technical knowledge required.</p>
+        <p class="card-text">If you are unfamiliar with Git but want to contribute on GitHub. No technical knowledge is required.</p>
       </div>
     </div>
   </div>
