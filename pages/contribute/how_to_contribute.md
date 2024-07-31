@@ -13,7 +13,7 @@ If you wish to contribute, please remember the following for better consistency 
 
 ## Ways of contributing
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ways-to-contribute text-center mt-5">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ways-to-contribute text-center mt-4">
   <div class="col">
     <div class="card bg-light h-100">
       <img src="{{ '/assets/img/section-icons/github.svg' | relative_url }}" class="card-img-top h-icon-6 pt-3" alt="GitHub Icon">
@@ -21,7 +21,7 @@ If you wish to contribute, please remember the following for better consistency 
         <a href="{{ 'github_way' | relative_url }}" class="stretched-link">
           <h3 class="card-title text-dark mt-0">GitHub</h3>
         </a>
-        <p class="card-text">If you are unfamiliar with Git but want to contribute on GitHub. No technical knowledge is required.</p>
+        <p class="card-text">Contribute directly to the website's content. No technical knowledge is required.</p>
       </div>
     </div>
   </div>

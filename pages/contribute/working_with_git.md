@@ -5,7 +5,7 @@ title: Working with git
 This guide tells you how to request and edit a page using Git and GitHub.
 
 Prerequisites:
-* Technical knowledge using about Git
+* Technical knowledge about Git
 * A GitHub account
 
 
