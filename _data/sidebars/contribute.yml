@@ -5,7 +5,7 @@ subitems:
     subitems:
       - title: GitHub way
         url: /github_way
-      - title: Google doc way
+      - title: Google Docs way
         url: /google_doc_way
       - title: Git way (advanced)
         url: /working_with_git

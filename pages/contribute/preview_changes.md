@@ -14,19 +14,19 @@ As an editor with editing rights, changes made by clicking on the pencil icon wi
 
 ### 1. Make sure you have forked the main branch
 
-Click on the 'fork' button in the right top corner to find out. If a fork is present under your personal GitHub ID, click on it. 
+Click on the 'fork' button in the top right corner to find out. If a fork is present under your personal GitHub ID, click on it. 
 
 {% include image.html file="your_own_fork.png" alt="Your own fork" %}
 
 
-Make sure you are in the `main` branch of your fork seen in the left top corner.
+Make sure you are in the `main` branch of your fork, seen in the left top corner.
 
 {% include image.html file="change_branch.png" alt="Change branch on GitHUb" %}
 
 
 ### 2. Make sure your fork is up to date
 
-Click on the 'sync fork' button to make sure you have the latest changes of the main branch in your fork. 'Update branch'.
+Click on the 'sync fork' button to ensure you have the latest changes of the main branch in your fork. 'Update branch'.
 
 {% include image.html file="sync_branch.png" alt="Click on the sync fork button." %}
 
@@ -51,9 +51,9 @@ This step is important. Make sure to commit to a new feature branch which you na
 {% include image.html file="deploy_using_gh_actions.png" alt="Got to the settings tab in your repo to enable GitHub pages" %}
 
 
-## Open a Pull Request (PR) with you changes
+## Open a Pull Request (PR) with your changes
 
-Got to your newly created branch and click 'Contribute'. This will create a PR to the main repository.
+Got to your newly created branch and click 'Contribute'. This will create a PR for the main repository.
 
 {% include image.html file="create_pr_from_fork.png" alt="Create new PR from fork." %}
 
