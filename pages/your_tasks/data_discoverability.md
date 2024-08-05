@@ -67,11 +67,11 @@ Currently there are two ways to implement a Beacon:
 
 * On top of existing tools (API): Targeted to those organizations equipped with well-organized and structured data housed in databases, whether SQL or NoSQL, and possess the necessary resources and expertise to interpret and implement the Beacon v2 specification and construct an API on top of an existing tool.
 
-{% include image.html file="beacon-api.JPG" caption="Figure 1. Beacon API funcionality ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon API" %}
+  {% include image.html file="beacon-api.JPG" inline=true caption="Figure 1. Beacon API funcionality ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon API" max-width="30em"%}
 
 * {% tool "beacon-ri" %}: Beacon v2 Reference Implementation, B2RI, is an out-of-the-box example implementation of the Beacon v2 protocol. It is an open-source toolkit based on Python programming language and consists of tools for loading metadata, e.g.phenotypic data, from a CSV file and genomic variants from a VCF file into a MongoDB database. It also features the Beacon query engine (REST API) and comes bundled with an example dataset (CINECA synthetic cohort EUROPE UK1) comprising synthetic data.
 
-{% include image.html file="beacon-ri.JPG" caption="Figure 2. Beacon RI funcionality. ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon RI" %}
+  {% include image.html file="beacon-ri.JPG" inline=true caption="Figure 2. Beacon RI funcionality. ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon RI" max-width="30em" %}
 
 Documentation: https://b2ri-documentation.readthedocs.io/en/latest/ 
 GitHub Repository: https://github.com/EGA-archive/beacon2-ri-tools-v2 
