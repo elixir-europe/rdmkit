@@ -54,7 +54,7 @@ Discovering research data for re-analysis can occur at different levels of granu
 
 {% tool "beacon" %}, developed through the Global Alliance for Genomics and Health (GA4GH) Discovery workstream, and with substantial support from ELIXIR, serves as a data discovery protocol and specification defining an open standard for discovering genomic and phenoclinic data in biomedical research and clinical applications.
 
-The latest version, Beacon v2, introduced expanded query options, enabling the retrieval of biological or technical (meta)data through filters defined via CURIEs. This includes, but not limited to, parameters like phenotypes, disease codes, sex, or age, providing researchers with a nuanced approach to data inquiries.
+The latest version, {% tool "beacon-v2" %}, introduced expanded query options, enabling the retrieval of biological or technical (meta)data through filters defined via CURIEs. This includes, but not limited to, parameters like phenotypes, disease codes, sex, or age, providing researchers with a nuanced approach to data inquiries.
 
 Beacon v2 is organized in two main blocks: the Beacon Framework and the Beacon Model. 
 The Framework defines the format for the requests and responses, whereas the Model defines the structure of the biological data response.
@@ -69,7 +69,7 @@ Currently there are two ways to implement a Beacon:
 
 {% include image.html file="beacon-api.JPG" caption="Figure 1. Beacon API funcionality ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon API" %}
 
-* Beacon v2 Reference Implementation: Beacon v2 Reference Implementation, B2RI, is an out-of-the-box example implementation of the Beacon v2 protocol. It is an open-source toolkit based on Python programming language and consists of tools for loading metadata, e.g.phenotypic data, from a CSV file and genomic variants from a VCF file into a MongoDB database. It also features the Beacon query engine (REST API) and comes bundled with an example dataset (CINECA synthetic cohort EUROPE UK1) comprising synthetic data.
+* {% tool "beacon-ri" %}: Beacon v2 Reference Implementation, B2RI, is an out-of-the-box example implementation of the Beacon v2 protocol. It is an open-source toolkit based on Python programming language and consists of tools for loading metadata, e.g.phenotypic data, from a CSV file and genomic variants from a VCF file into a MongoDB database. It also features the Beacon query engine (REST API) and comes bundled with an example dataset (CINECA synthetic cohort EUROPE UK1) comprising synthetic data.
 
 {% include image.html file="beacon-ri.JPG" caption="Figure 2. Beacon RI funcionality. ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon RI" %}
 
