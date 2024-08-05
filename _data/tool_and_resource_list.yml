@@ -2668,5 +2668,5 @@
   url: https://docs.genomebeacons.org/implementations-options/
 - description: An open-source out-of-the-box toolkit to initiate a Beacon v2. B2RI includes tools for loading metadata, such as phenotypic data and genomic variants into a MongoDB database, and features a Beacon query engine (REST API).
   id: beacon-ri
-  name: Beacon RI
+  name: Beacon v2 Reference Implementation
   url: https://github.com/EGA-archive/beacon2-ri-tools-v2
