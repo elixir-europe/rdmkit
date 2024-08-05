@@ -2658,3 +2658,7 @@
   id: better-bibtex
   name: Better BibTeX (BBT)
   url: https://retorque.re/zotero-better-bibtex/
+- description: Beacon for OMOP (B4OMOP) software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database.
+  id: b4omop
+  name: Beacon for OMOP
+  url: https://gitlab.bsc.es/impact-data/impd-beacon_omopcdm
