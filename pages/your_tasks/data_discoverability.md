@@ -30,7 +30,7 @@ Data discovery involves processes and tools that help users understand what data
 * Various standards exist for different data types, from general dataset descriptions like DCAT, Dublin Core, and (bio)schema.org, to those tailored for specific data types, such as MIABIS for biosamples. Hence, selecting the appropriate standard at the project's outset is crucial. Typically, if you choose a suitable data repository for your data, it will come with an integrated metadata scheme, simplifying your work by eliminating the need to develop a separate metadata profile.
  * Decide at the beginning of the project the right repository for your data type. To search for it, you can use the {% tool "elixir-deposition-databases-for-biomolecular-data" %}, {% tool "re3data" %} or {% tool "fairsharing" %} at “Databases”.
  * If your chosen repository lacks some of the metadata fields you wish to include and you need to add a separate file with this information (such as in Zenodo), you should adhere to the appropriate metadata schema. To identify the correct schema, you have several options:
-  * {% tool "rda-standards %}
+  * {% tool "rda-standards" %}
   * {% tool "fairsharing" %} at “Standards” and “Collections”
   * {% tool "data-curation-centre-metadata-list" %}
 * The ideal file formats vary based on the type of data, the availability and common acceptance of open file formats, and the research domain. There isn't a universal solution, so selecting the most suitable format for your specific needs is essential. The [Data Organisation page](data_organisation) provides a table with recommended file formats and best practices for research data management.
