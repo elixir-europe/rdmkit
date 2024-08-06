@@ -25,7 +25,7 @@ Data discovery involves processes and tools that help users understand what data
 
 * There are many appropriate tools for detailed metadata and data documentation during the project. Check the [Documentation and metadata page](metadata_management) for more information.
 * Some scientific communities utilize platforms such as {% tool "cedar" %}, {% tool "semares" %}, {% tool "fairdom-seek" %}, {% tool "fairdomhub" %}, and {% tool "copo" %} for managing metadata and data.
-* Various standards exist for different data types, from general dataset descriptions like DCAT, Dublin Core, and (bio)schema.org, to those tailored for specific data types, such as MIABIS for biosamples. Hence, selecting the appropriate standard at the project's outset is crucial. Typically, if you choose a suitable data repository for your data, it will come with an integrated metadata scheme, simplifying your work by eliminating the need to develop a separate metadata profile.
+* Various standards exist for different data types, from general dataset descriptions such as DCAT, Dublin Core, and (bio)schema.org, to those tailored for specific data types, such as MIABIS for biosamples. Hence, selecting the appropriate standard at the project's outset is crucial. Typically, if you choose a suitable data repository for your data, it will come with an integrated metadata scheme, simplifying your work by eliminating the need to develop a separate metadata profile.
  * Decide at the beginning of the project the right repository for your data type. To search for it, you can use the {% tool "elixir-deposition-databases-for-biomolecular-data" %}, {% tool "re3data" %} or {% tool "fairsharing" %} at “Databases”.
  * If your chosen repository lacks some of the metadata fields you wish to include and you need to add a separate file with this information (such as in Zenodo), you should adhere to the appropriate metadata schema. To identify the correct schema, you have several options:
   * {% tool "rda-standards" %}
@@ -52,12 +52,12 @@ Discovering research data for re-analysis can occur at different levels of granu
 
 {% tool "beacon" %}, developed through the Global Alliance for Genomics and Health (GA4GH) Discovery workstream, and with substantial support from ELIXIR, serves as a data discovery protocol and specification defining an open standard for discovering genomic and phenoclinic data in biomedical research and clinical applications.
 
-The latest version, {% tool "beacon-v2" %}, introduced expanded query options, enabling the retrieval of biological or technical (meta)data through filters defined via CURIEs. This includes, but not limited to, parameters like phenotypes, disease codes, sex, or age, providing researchers with a nuanced approach to data inquiries.
+The latest version, {% tool "beacon-v2" %}, introduced expanded query options, enabling the retrieval of biological or technical (meta)data through filters defined via CURIEs. This includes, but not limited to, parameters such as phenotypes, disease codes, sex, or age, providing researchers with a nuanced approach to data inquiries.
 
 Beacon v2 is organized in two main blocks: the Beacon Framework and the Beacon Model. 
 The Framework defines the format for the requests and responses, whereas the Model defines the structure of the biological data response.
 
-This dual-system approach not only broadens the scope for diverse Models – using different domains like images, pathogens, or infectious diseases– but also reinforces the adaptability of the Framework. The overall function of these components is to provide the instructions to design a REST API that could be implemented as a stand-alone product or, preferably, extending existing data management solutions. 
+This dual-system approach not only broadens the scope for diverse Models – using different domains such as images, pathogens, or infectious diseases – but also reinforces the adaptability of the Framework. The overall function of these components is to provide the instructions to design a REST API that could be implemented as a stand-alone product or, preferably, extending existing data management solutions. 
 
 Consequently, the 'beaconized' data represents a significant enhancement in data discoverability with minimal risks. 
 
