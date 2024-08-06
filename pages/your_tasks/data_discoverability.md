@@ -4,9 +4,6 @@ description: How to make data discoverable
 contributors: [Aina Jené Cortada, Laura Portell Silva]
 page_id: data_discoverability
 related_pages: 
-  your_domain: human_data
-  data_life_cycle: reusing, sharing
-  your_task: sensitive
 ---
 
 ## How can you make your data more discoverable?
