@@ -92,7 +92,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: [covid-19]
+      tool_assembly: [covid19_data_portal]
       your_domain: []
       your_role: []
       your_tasks: [existing_data]
