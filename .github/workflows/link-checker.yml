@@ -1,0 +1,68 @@
+# .pre-commit-config.yaml
+name: Link checker
+on:
+  schedule:
+    - cron:  '0 13 * * 1'
+  workflow_dispatch:
+
+jobs:
+  build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+            ref: ${{ github.event.inputs.branch }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+            ruby-version: '3.1'
+            bundler-cache: true
+            cache-version: 0
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
+
+
+      - name: Install dependencies
+        run: |
+            bundle install
+
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: |
+            bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+            PAGES_REPO_NWO: ${{ github.repository }}
+            JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
+            JEKYLL_ENV: production
+            JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+    
+  linkChecker:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check Links
+        uses: lycheeverse/lychee-action@v1.6.1
+        with:
+          # For parameter description, see https://github.com/lycheeverse/lychee#commandline-parameters
+          # Accept 429 for now due to github rate limit.
+          # See https://github.com/lycheeverse/lychee/issues/634
+          args: --fallback-extensions=html _site/
+          output: out.md
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Broken Link Detected
+          content-filepath: out.md
+
+#      - name: Fail if there were link errors
+#        run: exit ${{ steps.lychee.outputs.exit_code }}
