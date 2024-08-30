@@ -23,12 +23,13 @@ Prerequisites:
 {% include callout.html type="tip" content="You can also get to the [RDMkit](https://github.com/elixir-europe/rdmkit) repo on GitHub using the ‘GitHub’ link in the header of this site." %}
 
 
-## Read the guides {#read-the-guides}
+## Read the guides
 
 Before starting editing on GitHub:
 1. Make sure you are following our [style guide](style_guide).
 2. Follow the structure of the provided template for the page you wish to create or update. 
 3. We use markdown. To learn how to create paragraphs, headings, format text, add links and images and much more, follow our [markdown cheat sheet](https://rdmkit.elixir-europe.org/markdown_cheat_sheet).
+4. Our pages contain metadata. Read more about them in our [page metadata guide](page_metadata).
 
 {% include callout.html type="tip" content="For more information on writing and formatting, visit [GitHub’s documentation](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)." %}
 
@@ -46,7 +47,7 @@ Before starting editing on GitHub:
 
 ## Linking resources and other pages (optional)
 * If you have mentioned tools or resources in your text, you will have to add them to the [tool and resource list](tool_resource_update).
-* If you want to list training material, add it to the page metadata. This is the training fields that are part of the template, provided at the top of the page.
+* If you want to list training material or link to other RDMkit pages, add it to the page metadata. Read more on how to do this in our [page metadata guide](page_metadata).
 
 {% include callout.html type="important" content="In general terms, you must avoid manual interlinking of RDMkit pages." %}
 
