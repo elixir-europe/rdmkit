@@ -5,8 +5,9 @@ title: Working with git
 This guide tells you how to request and edit a page using Git and GitHub.
 
 Prerequisites:
-* Technical knowledge about Git
-* A GitHub account
+* Basic knowledge of Markdown. All you need to know is in our [markdown cheat sheet](markdown_cheat_sheet)
+* Technical knowledge about Git.
+* A GitHub account. If you do not have one, [create a free GitHub account](https://github.com/join) before you start.
 
 
 ## Forking - branching - changing - pushing - PR

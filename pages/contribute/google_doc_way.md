@@ -5,7 +5,6 @@ title: Google Docs way
 This guide tells you how to request and edit a page using Google Docs.
 
 Prerequisites:
-* No technical knowledge
 * A Google account
 
 
