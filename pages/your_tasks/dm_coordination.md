@@ -11,7 +11,7 @@ training:
     url:
 ---
 
-## How to organize data management in collaborative projects?
+## How to organise data management in collaborative projects?
  
 ### Description
 
@@ -76,7 +76,7 @@ If you want to secure a constant effort on research data management across the p
 ### Considerations
 * Be aware of a possible lack of storage infrastructure, thus requiring financing that might not be part of the initially proposed project budget.
 * Monitor that data is not lost, e.g. by missing or unimplemented backup procedures. 
-* Monitor that metadata is collected, and organized according to agreed standards and no discrepancies between metadata and reality exist (e.g. sample ID mismatches).
+* Monitor that metadata is collected, and organised according to agreed standards and no discrepancies between metadata and reality exist (e.g. sample ID mismatches).
 * Copyright licenses connected to the reuse of the project outputs should be applicable long-term beyond the project's lifetime.
 * Some data might need to be made available through restricted access mechanisms, e.g. for sensitive (personal) data. Safeguarding the functionality of a data access committee beyond the project period requires coordination on an institutional level.
 * The quality, size, location, and reuse of datasets might be an object of project reporting and be used as a performance indicator. 
