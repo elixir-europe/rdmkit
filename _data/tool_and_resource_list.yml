@@ -176,7 +176,7 @@
   registry:
     tess: Argos
   url: https://argos.openaire.eu/splash/
-- description: A repository of array based genomics data
+- description: A collection in BioStudies for archiving and publishing data from high-throughput functional genomics experiments.
   id: arrayexpress
   name: ArrayExpress
   registry:
@@ -318,7 +318,7 @@
     fairsharing: f3a3ca
     tess: Bioschemas
   url: https://bioschemas.org
-- description: A database hosting datasets from biological studies. Useful for storing or accessing data that is not compliant for mainstream repositories.
+- description: A database hosting datasets from biological studies. Useful for storing or accessing life sciences data without community-accepted repositories, and for linking components of data from multi-omics studies.
   id: biostudies
   name: BioStudies
   registry:
@@ -332,7 +332,7 @@
   registry:
     biotools: bisque
   url: https://bioimage.ucsb.edu/bisque
-- description: Git based code hosting and collaboration tool, built for teams.
+- description: Git-based code hosting and collaboration tool, built for teams.
   id: bitbucket
   name: Bitbucket
   registry:
