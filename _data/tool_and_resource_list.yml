@@ -2302,6 +2302,8 @@
 - description: Interoperability in small molecules
   id: integrated-database-of-small-molecules
   name: Integrated Database of Small Molecules
+  registry:
+    fairsharing: nn9r0d
   url: https://idsm.elixir-czech.cz/
 - description: The OME Model is a specification for storing data on biological imaging.
   id: ome-data-model-and-file-formats
