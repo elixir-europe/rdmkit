@@ -2299,9 +2299,9 @@
   registry:
     fairsharing: ZPRtfG
   url: http://agrold.southgreen.fr/agrold/
-- description: Interoperability in small molecules
+- description: Increasing interoperability of small molecules by agregating many different sources of information into a single, logically coherent and semantically interconnected information source.
   id: integrated-database-of-small-molecules
-  name: Integrated Database of Small Molecules
+  name: Integrated Database of Small Molecules (IDSM)
   registry:
     fairsharing: nn9r0d
   url: https://idsm.elixir-czech.cz/
