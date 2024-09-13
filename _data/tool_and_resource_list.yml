@@ -1319,9 +1319,9 @@
   id: microsoft-onedrive
   name: Microsoft OneDrive
   url: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
-- description: Minimum Information about a (Meta)Genome Sequence
+- description: a conceptual structure for extending the core INSDC information to describe genomic and metagenomic sequences.
   id: migs-mims
-  name: MIGS/MIMS
+  name: Minimum Information about a (Meta)Genome Sequence (MIxS - MIGS/MIMS)
   registry:
     fairsharing: va1hck
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
@@ -1331,9 +1331,9 @@
   registry:
     biotools: mineprot
   url: https://github.com/huiwenke/MineProt
-- description: Minimum Information about any (x) Sequence
+- description: An overarching framework of standard metadata that includes sequence-type and technology-specific checklists.
   id: mixs
-  name: MIxS
+  name: Minimum Information about any (x) Sequence (MIxS)
   registry:
     fairsharing: 9aa0zp
     tess: MIxS
