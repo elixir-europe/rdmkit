@@ -104,18 +104,18 @@ While the objects of interest in this domain are pathogens, the data is usually 
 
 * Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
 * Adopt common reporting checklists, data dictionaries, terms and vocabularies to simplify data sharing across initiatives.
-  * ENA hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequencing experiements, including checklists derived from the [MIxS consortium](http://w3id.org/mixs). The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
-  * Reuse terms and definitions from existing vocabularies, such as the [Phenotypic QualiTy Ontology](https://www.ebi.ac.uk/ols4/ontologies/pato), [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy), [Disease Ontology](https://disease-ontology.org),  [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary), and [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON).
+  * {% tool "european-nucleotide-archive" %} hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequencing experiements, including checklists derived from the [MIxS consortium](http://w3id.org/mixs). The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
+  * Reuse terms and definitions from existing vocabularies, such as the [Phenotypic QualiTy Ontology](https://www.ebi.ac.uk/ols4/ontologies/pato), {% tool "ncbi-taxonomy" %}, {% tool "doid" %},  [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary), and [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON).
   * The [PHA4GE SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification) is a comprehensive example including a reporting checklist, related protocols, and mappings to relevant vocabularies and data sharing platforms.
 
 #### Generating genomic data
 * Establish protocols and document the steps taken in the lab to process the sample and in the computational workflow to prepare the resulting data. Make sure to keep information from quality assurance procedures and strive to make your labwork and computational process as reproducible as possible.
     * [High-Throughput Sequencing \| LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
-    * [The Beyond One Million Genomes (B1MG)](https://b1mg-project.eu) project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
+    * {% tool"beyond-1-million-genomes" %} project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
     * Data repositories generally have information about recommended [data file formats](data_publication) and [metadata](metadata_management)
-    * The [FAIR Cookbook](https://faircookbook.elixir-europe.org/content/home.html) provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
+    * The {% tool "fair-cookbook" %} provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
     * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is  [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
-  * The [Infectious Diseases Toolkit (IDTk)](https://www.infectious-diseases-toolkit.org/) has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
+  * The {% tool "idtk" %} has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
   * The Galaxy Training Network provides free on-line [training materials on quality control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html).
 
 
@@ -134,17 +134,17 @@ While the objects of interest in this domain are pathogens, the data is usually 
 #### Sharing host related and other contextual information
 * Some host related information can be personal and/or sensitive and care should be taken when storing and sharing it. Apply data masking and aggregation techniques to pseudonymise or anonymise the contextual information and take measures to separate personal and sensitive information from the pathogen data when possible.
 * Adopt solutions for federated analysis to support distributed analyses on information that could otherwise not be shared, such as establishing contractual agreements with suitable regional or international data infrastructures.
-* [GA4GH (Global Alliance for Genomics and Health)](https://www.ga4gh.org/what-we-do/) is a global organisation that frames policy and builds standards to meet the real-world needs of the genomics and health community. Its [GDPR & International Health Data Sharing Forum](https://www.ga4gh.org/product/gdpr-international-health-data-sharing-forum/) shares *GDPR Briefs* that represent a consensus position among its Forum Members (not legal advice) regarding the current understanding of the GDPR and its implications for genomic and health-related research, such as 
+* {% tool "ga4gh" %} is a global organisation that frames policy and builds standards to meet the real-world needs of the genomics and health community. Its [GDPR & International Health Data Sharing Forum](https://www.ga4gh.org/product/gdpr-international-health-data-sharing-forum/) shares *GDPR Briefs* that represent a consensus position among its Forum Members (not legal advice) regarding the current understanding of the GDPR and its implications for genomic and health-related research, such as 
   * [GDPR Brief: data protection implications of publishing metadata to enable discovery](https://www.ga4gh.org/news_item/ga4gh-gdpr-brief-data-protection-implications-of-publishing-metadata-to-enable-discovery/)
   * [GDPR Brief: federated analysis for responsible data sharing under the GDPR](https://www.ga4gh.org/news_item/ga4gh-gdpr-brief-federated-analysis-for-responsible-data-sharing-under-the-gdpr/)
 
 #### Sharing pathogen genomic data
 * You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to use to reach the relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
   * European healthcare surveillance systems is administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
-  * International research data exchanges such as [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/submit) for non-sensitive genomic data and the [Federated EGA](https://ega-archive.org/federated) network for sensitive data.
-  * There are also pathogen specifc initiatives, such as [EMBL-EBI Pathogens](https://www.ebi.ac.uk/ena/pathogens/home) and [NCBI Pathogen Detection](https://www.ncbi.nlm.nih.gov/pathogens/). And initiatives focusing specifically on viruses, certain pathogens or certain data types, such as [GISAID (Global Initiative on Sharing All Influenza Data)](https://gisaid.org/) for observations and assembled consensus sequences on a selection of pathogens.
+  * International research data exchanges such as {% tool "european-nucleotide-archive" %} for non-sensitive genomic data 
+  * There are also pathogen specific initiatives, such as {% tool "pathogens-portal" %} and {% tool "pathogen-detection" %}. And initiatives focusing specifically on viruses, certain pathogens or certain data types, such as {% tool "gisaid"%} for observations and assembled consensus sequences on a selection of pathogens.
 * Investigate if there are [national resources](national_resources) or a [data brokering](data_brokering) organisation available to facilitate data sharing.
-  * [EBI Pathogens data hubs](https://www.ebi.ac.uk/ena/pathogens/v2/)
-  * [Submit new data \| European COVID-19 platform](https://www.covid19dataportal.org/submit-data)
+  * {% tool "pathogens-portal" %} Data Hubs network for sensitive data.
+  * {% tool "covid-19-data-portal" %}
 
 
