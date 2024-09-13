@@ -1,5 +1,6 @@
 ---
 title: Your role
+toc: false
 ---
 
 In this section, information is organised based on the different roles a professional can have in research data management. You will find:
