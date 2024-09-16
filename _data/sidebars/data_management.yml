@@ -94,6 +94,8 @@ subitems:
         url: /storage
       - title: Data transfer
         url: /data_transfer
+      - title: Data workflow diagram
+        url: /data_workflow_diagram
       - title: Documentation and metadata
         url: /metadata_management
       - title: Ethical aspects
