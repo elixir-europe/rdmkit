@@ -40,6 +40,16 @@ national_resources:
       your_role: [researcher]
       your_tasks: [data_analysis, existing_data, storage]
     url: https://www.bbmri.nl    
+  - name: cBioPortal for Cancer Genomics
+    description: cBioPortal provides a web-based resource for researchers to explore, visualize, analyze, and share multidimensional cancer genomic datasets, as well as other studies involving multidimensional genomic data.
+    how_to_access: 
+    instance_of: 
+    related_pages:
+      tool_assembly: 
+      your_domain: [human_data]
+      your_role: [researcher]
+      your_tasks: [data_analysis, existing_data, storage]
+    url: https://www.cbioportal.org
   - name: CBS, Statistics Netherlands
     description: The national statistical office, Statistics Netherlands (CBS), provides reliable statistical information and data in the life sciences and health domain.
     how_to_access: 
@@ -113,11 +123,10 @@ national_resources:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources:
-  - FAIRsharing
-  - Molgenis
-  - XNAT
-  - Data Stewardship Wizard
-  - WikiPathways
+  - fairsharing
+  - molgenis
+  - xnat
+  - data-stewardship-wizard
 
 ---
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="_50"
+   data-name="50"
+   viewBox="0 0 460 460"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: #c33669;
+        opacity: .5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #2a2e3d;
+      }
+    </style>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1074">
+      <path
+         d="M 0,460 H 460 V 0 H 0 Z"
+         id="path1072" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1082">
+      <path
+         d="M 30,340.49 H 340.439 V 30.0208 H 30 Z"
+         id="path1080" />
+    </clipPath>
+  </defs>
+  <g
+     id="g6914"
+     transform="translate(0,8)">
+    <circle
+       class="cls-1"
+       cx="117.28"
+       cy="98.500877"
+       r="45"
+       id="circle6" />
+    <path
+       class="cls-1"
+       d="M 171.21,166.39088 H 68.8 c -21.43,0 -38.79,17.36 -38.79,38.79 0,21.43 17.36,38.79 38.79,38.79 h 102.41 c 21.43,0 38.79,-17.36 38.79,-38.79 0,-21.43 -17.36,-38.79 -38.79,-38.79 z"
+       id="path8" />
+    <g
+       class="cls-3"
+       id="g14"
+       style="fill:#c3366a;fill-opacity:0.501961"
+       transform="translate(0,8.5008793)">
+      <circle
+         class="cls-2"
+         cx="342.72"
+         cy="90"
+         r="45"
+         id="circle10"
+         style="fill:#c3366a;fill-opacity:0.501961" />
+      <path
+         class="cls-2"
+         d="M 391.21,157.89 H 288.23 c -21.43,0 -38.79,17.36 -38.79,38.79 0,21.43 17.36,38.79 38.79,38.79 h 102.98 c 21.43,0 38.79,-17.36 38.79,-38.79 0,-21.43 -17.36,-38.79 -38.79,-38.79 z"
+         id="path12"
+         style="fill:#c3366a;fill-opacity:0.501961" />
+    </g>
+    <g
+       class="cls-3"
+       id="g14-5"
+       style="isolation:isolate"
+       transform="translate(-115.40704,112.13632)">
+      <g
+         id="g6888"
+         transform="matrix(1.5455901,0,0,1.4785916,-184.66427,-71.603941)"
+         style="stroke:none">
+        <circle
+           class="cls-2"
+           cx="342.72"
+           cy="90"
+           r="45"
+           id="circle10-3"
+           style="stroke:none;stroke-width:32.1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+        <path
+           class="cls-2"
+           d="M 391.21,157.89 H 288.23 c -21.43,0 -38.79,17.36 -38.79,38.79 0,21.43 17.36,38.79 38.79,38.79 h 102.98 c 21.43,0 38.79,-17.36 38.79,-38.79 0,-21.43 -17.36,-38.79 -38.79,-38.79 z"
+           id="path12-5"
+           style="stroke:none" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,7 +1,11 @@
 ---
 title: Data life cycle
+toc: false
 ---
 
+In the RDMkit, data can be defined as any information or materials that are collected, observed, generatared, or used during the research process. Data can take various forms, including experimental results, numerical data, text documents, images, software code, surveys, and more.
+
+The RDMkit recognises the importance of managing data effectively through the research lifecycle, and the need to handle data in a structured, organised, and documented manner to ensure its quality, integrity, and long-term usability.
 
 In this section, information is organised according to the stages of the research data life cycle. You will find:
 - A general description and introduction of each  stage.

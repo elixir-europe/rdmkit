@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_50" data-name="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c33669;
+        isolation: isolate;
+        opacity: .5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #2a2e3d;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="260.46" cy="199.7" rx="169.54" ry="169.7"/>
+  <path class="cls-2" d="M36.25,423.75h0c-8.33-8.34-8.33-21.86,0-30.2l91.2-91.29,30.17,30.2-91.2,91.29c-8.33,8.34-21.84,8.34-30.17,0Z"/>
+</svg>

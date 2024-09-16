@@ -2,7 +2,7 @@
 title: Style guide
 ---
 
-In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and the more detailed [English Style Guide](https://commission.europa.eu/system/files/2023-01/styleguide_english_dgt_en.pdf). Below are the points that you might find most useful, though, and that relate particularly to the RDMkit.
+In general, we follow the European Commission's [Web Writing Style Guide](https://wikis.ec.europa.eu/display/WEBGUIDE/02.+Web+writing+guidelines) and their more detailed English Style Guide. Search online for "EC English style guide" to find the link, since it changes regularly. Below are the points that you might find most useful, though, and that relate particularly to the RDMkit. 
 
 ## General style and tone
   * Keep the tone friendly rather than formal, and use "you". Imagine you were explaining something verbally to someone - how would you say it?
@@ -42,15 +42,48 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       * This is item 3 of the list.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
   * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
-  * **References:** use the [Nature Author instructions](https://www.nature.com/srep/author-instructions/submission-guidelines#references) for books and papers. Use "*et al.*" for more than five authors.
-    * Bellin, D. L. *et al.* Electrochemical camera chip for simultaneous imaging of multiple metabolites in biofilms. Nat. Commun. 7, 10535; [10.1038/ncomms10535](http://www.nature.com/articles/ncomms10535) (2016).
-    * Lam, J. <cite>Data Management</cite>. (John Wiley & Sons, Inc., 2019).
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
   * **Titles (the "title" in the front matter of pages):** only the first word, proper nouns and acronyms are capitalised.
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
+
+## Bibliography
+ * RDMkit uses BibTeX as a tool for creating a bibliography.
+ * Follow the following instuctions to create and display a bibiography on your page:
+   1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
+   1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing one of your entries.
+   1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
+* We use a display class based on *Nature* publications. Your BibTeX files should follow a standardised format described below.
+  We recommend using {% tool "zotero" %} to automate the process (see below).
+* An example of the minimal structure required for BibTeX entries is:
+
+```
+﻿@article{surname12024lorem,
+  title = {Lorem Ipsum},
+  author = {Surname1, Alice and Surname2, Bob}
+  journal = {Journal},
+  volume = {1},
+  pages = {1--10},
+  year = {2024},
+  number = {1},
+  doi = {DOI},
+  langid = {english}
+}
+```
+Make sure that the *author* field does not contain *et al.*, as this substitution is performed via the class and should
+not be part of the information provided by the contributors.
+
+* If you are a {% tool "zotero" %} user, we recommend that you:
+  1. Install the {% tool "better-bibtex" %} plugin.
+  1. On your desktop version of {% tool "zotero" %}, open the *Better BibTeX preferences* (under *Tools > Better BibTeX*).
+  in the *citation keys* tab, change the *citation key formula* to `auth.lower + year + shorttitle(1,0)`
+  1. Import the file e.g. by using *Add item by identifier*.
+  1. Right click on the item and select *Export item*. Select the *Better BibLateX* format and export.
+  1. Edit the resulting .bib file if necessary, and append it to `_bibliography/references.bib`.
+  * Optionally, if you have a Zotero account and would like to contribute to RDMkit group library,
+  import the items to [this group](https://www.zotero.org/groups/5371154/rdmkit)
 
 ## Graphic design
   * **White space:** make sure there is plenty of space so that the main elements stand out and the text does not appear overwhelming.
@@ -63,7 +96,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
       | <span style="display: inline-block; width: 20px; height: 20px; background: #73757d;"></span> | #73757d | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution. Other icons on this site come from [Font Awesome](https://fontawesome.com/).
+  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution. Other icons on this site are either desgined by Xènia Pérez Sitjà or come from [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
   * **Images:**

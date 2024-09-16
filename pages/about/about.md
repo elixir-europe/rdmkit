@@ -5,7 +5,7 @@ title: About
 ## Who is the RDMkit for?
 The ELIXIR Research Data Management Kit (RDMkit) has been designed to guide life scientists in their efforts to better manage their research data following the FAIR Principles. It is based on the various steps of the data lifecycle, although not all the steps will be relevant to everyone.
 
-The contents are generated and maintained by the ELIXIR community coming together as part of the [ELIXIR-CONVERGE](https://elixir-europe.org/about-us/how-funded/eu-projects/converge) project. More information on how we want to sustain and govern RDMkit can be found on the [RDMkit Alliance page](rdmkit_alliance).
+The contents are generated and maintained by the ELIXIR community. More information on how we want to sustain and govern RDMkit can be found on the [RDMkit Alliance page](rdmkit_alliance).
 
 <div class="card bg-light my-4">
   <div class="card-body">
@@ -16,21 +16,21 @@ The contents are generated and maintained by the ELIXIR community coming togethe
 ## Why are the FAIR principles needed?
 At the heart of FAIR Science lies good data management practice. This is increasingly important as life science research becomes data-intensive and traditional ‘wet labs’ make space for ‘dry (computer) labs’.
 
-With that in mind, the [FAIR Principles](https://www.nature.com/articles/sdata201618) were designed to improve the infrastructure supporting the reuse of research data. The intention of these principles is to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**euse of digital assets.
+With that in mind, the [FAIR Principles](https://www.nature.com/articles/sdata201618) were designed to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of data.
 
 The increasing volume, complexity and speed of data creation made scientists rely on computational support exponentially. Therefore, the FAIR Principles place specific emphasis on enhancing the ability of machines to automatically find and use data, as well as supporting its reuse by other scientists, which facilitates knowledge discovery and improves research transparency.
 
 ## What does the RDMkit aim to achieve?
 More than ever, scientists need relevant tools and guidance to better manage their data and hence contribute to making FAIR Science a reality as well as help researchers be more productive for themselves and their collaborators.
 
-- **For researchers** - RDMkit is a one stop shop of information, advice and signposting to research data management know-how, tools, examples and best practice. Struggling with writing your project data management plan? Then RDMkit can help.
+- **For researchers** - RDMkit is a one-stop shop of information, advice and signposting to research data management know-how, tools, examples and best practices. Are you struggling with writing your project's data management plan? RDMkit can help.
 
-- **For data managers in laboratories, facilities or universities** - RDMkit is a resource for your researchers, a complement to your own resources and a guide to the specific challenges of RDM for life science researchers. 
+- **For data managers in laboratories, facilities or universities** - RDMkit is a resource for your researchers, a complement to your resources and a guide to the specific challenges of RDM for life science researchers. 
 
-- **For funding agencies and policy makers** - RDMkit is the resource researchers can turn to at the proposal stage of the research, throughout their projects and when publishing their results.  Remember that the cost of not having FAIR research data has been estimated at €10.2bn annually in Europe. By using RDMkit and better managing  data, the outcomes of your investments will be contributing to strengthening regional, national and European economies.
+- **For funding agencies and policymakers** - RDMkit is the resource researchers can turn to at the proposal stage of the research, throughout their projects and when publishing their results.  Remember that the cost of not having FAIR research data has been estimated at €10.2bn annually in Europe. By using RDMkit and better managing  data, the outcomes of your investments will contribute to strengthening regional, national and European economies.
 
 ## Funding acknowledgement
-RDMkit was developed with funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing contents for RDMkit. 
+RDMkit was developed with funding from the European Union’s Horizon 2020 Research and Innovation Programme under grant agreement No 871075, as part of the ELIXIR-CONVERGE project. We are grateful to all who contributed their time to producing content for RDMkit. 
 
 ## How to cite the RDMkit
 

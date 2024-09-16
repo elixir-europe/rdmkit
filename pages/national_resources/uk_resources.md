@@ -9,9 +9,9 @@ national_resources:
   - name: DMPonline
     description: "DMPonline is a web-based tool that supports researchers to develop data management and sharing plans. It contains the latest funder templates and best practice guidelines to support users to create good quality DMPs."
     how_to_access:
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [dmp]
     url: https://dmponline.dcc.ac.uk/
     
@@ -20,7 +20,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: https://cyverseuk.org/
     
@@ -29,7 +29,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: https://www.jisc.ac.uk/guides/rdm-toolkit 
     
@@ -38,7 +38,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
     
@@ -47,14 +47,14 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_manager, researcher]
+      your_role: [data_steward, researcher]
       your_tasks: [metadata]
     url: http://intermine.org/
 
 ref_to_main_resources:
-  - WorkflowHub
-  - FAIRDOM-SEEK
-  - COPO
+  - workflowhub
+  - fairdom-seek
+  - copo
   
 ---
 
@@ -92,3 +92,4 @@ This page provides an overview of the data management resources in the UK. The t
   * The [Safepod Network](https://safepodnetwork.ac.uk/) providing approved researchers with access to sensitive data
   * [UK Biobank](https://www.ukbiobank.ac.uk/) large-scale biomedical database and research resource
   * [UK Data Archive](https://www.data-archive.ac.uk/) collection of social, economic and population data
+  * Clinical Practice Research Datalink [CPRD](https://cprd.com/) supports public health and clinical studies in the UK, by maintaining a collection of anonymised health datasets representing the UK population.

@@ -1,5 +1,6 @@
 ---
 title: National resources
+toc: false
 ---
 
 To carry out RDM tasks FAIRly and effectively, it is important to consider not only common global solutions but also existing, national solutions, that are often dependent on institute- and country-specific policies, funders, and infrastructures.
@@ -9,4 +10,4 @@ Here, we point to non-exhaustive collection of country-specific information reso
 These country-specific RDM overviews will help readers to seek national advice and could be an inspirational guide for other countries to implement and promote data management practices at national level.
 
 <br>
-{% include section-navigation-tiles-simple.html type="national_resources" %}
+{% include section-navigation-tiles-simple.html type="national_resources" col=3 %}

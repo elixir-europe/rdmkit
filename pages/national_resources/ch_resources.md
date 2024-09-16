@@ -92,7 +92,7 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: [covid-19]
+      tool_assembly: [covid19_data_portal]
       your_domain: []
       your_role: []
       your_tasks: [existing_data]
@@ -118,7 +118,7 @@ national_resources:
   - name: UNIL DMP Online
     description: This instance of DMPonline is provided by the Service des ressources informationnelles et archives (UNIRIS) of the University of Lausanne (UNIL) to help its community of researchers to write a Data Management Plan (DMP).
     how_to_access:
-    instance_of: DMPonline
+    instance_of: dmponline
     related_pages:
       tool_assembly: []
       your_domain: []

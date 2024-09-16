@@ -20,26 +20,26 @@ training:
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
-  -  FAIR Cookbook
-  -  COVID-19 Disease Map
-  -  DAISY
-  -  Data Catalog
-  -  DPIA Knowledge Model
+  -  fair-cookbook
+  -  covid-19-disease-map
+  -  daisy
+  -  data-catalog
+  -  dpia-knowledge-model
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
   - name: learning.DSW 
     description: A training instance of Data Steward Wizard (DSW), which has the FNR and the DPIA templates.
     how_to_access: registration
-    instance_of: Data Stewardship Wizard
+    instance_of: data-stewardship-wizard
     related_pages:
       your_tasks: [dmp]
-    url: https://learning.ds-wizard.org/dashboard
+    url: https://learning.dsw.elixir-europe.org/dashboard
 
   - name: DPMRoadmap @ ELIXIR Luxembourg
     description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
     how_to_access: registration
-    instance_of: DMPRoadmap
+    instance_of: dmproadmap
     related_pages:
       your_tasks: [dmp]
     url: https://dmponline.elixir-luxembourg.org/
@@ -47,7 +47,7 @@ national_resources:
   - name: Luxembourg Covid-19 data portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  
     related_pages:
-      tool_assembly: [Covid-19]
+      tool_assembly: [covid19_data_portal]
       your_domain: [human data]
       your_tasks: [sensitive, existing data, data publication]
     url: https://covid19dataportal.lu/

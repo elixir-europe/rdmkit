@@ -9,7 +9,7 @@ related_pages:
   your_domain: [plants]
   tool_assembly: [plant_pheno_assembly]
 faircookbook:
-- name: Improving dataset maturity - the MIAPPE use case
+- name: Improving dataset maturity - MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
 ---
 
@@ -25,10 +25,15 @@ All the components of this tool assembly are publicly available, but most requir
 ## For what purpose can you use the plant genomics tool assembly?
 {% include image.html file="plant_genomics.svg" caption="Figure 1. The plant genomics tool assembly." alt="Tools and resources used in managing plant genomics and genotyping data." %}
 
+### Data management planning
+The general principles to be considered are described in the [Plant Sciences domain page](plant_sciences).
+
+* {% tool "data-stewardship-wizard" %} is a human-friendly tool for machine-actionable DMP collaborative editing. The DSW Plant Sciences project template, available on [ELIXIR's DSW instance for researchers](https://researchers.dsw.elixir-europe.org) can be used for any plant sciences project. When creating the DMP Project, choose the option "[From Project Template](https://researchers.dsw.elixir-europe.org/projects/create/from-template)" and search for the "Plant Sciences" template.
+
 ### Metadata collection and tracking
-Accurate [documentation](metadata_management.html) of the plant biological materials and samples is critical for interoperability, and should comply with the [MIAPPE](https://www.miappe.org/) standard.
-This information should be submitted to [BioSamples](https://www.ebi.ac.uk/biosamples/), with MIAPPE compliance validated using BioSamples' [plant-miappe.json](https://github.com/EBIBioSamples/biosamples-v4/blob/biohackathon_miappe_checklist/webapps/core/src/main/resources/schemas/certification/plant-miappe.json) template available on the [sample validation](https://www.ebi.ac.uk/biosamples/docs/guides/validation) page.
-Submission of sample descriptions to BioSamples can be done as early as the data collection stage, but at the latest, must acompany submission of the genomic data to the [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) (ENA) or of genotyping data to the [European Variation Archive](https://www.ebi.ac.uk/eva/) (EVA). The complete timeline for submitting plant biological material to BioSamples and resulting genotyping experiment results to ENA and EVA should look like this:
+Accurate [documentation](metadata_management) of the plant biological materials and samples is critical for interoperability, and should comply with the {% tool "miappe" %} standard.
+This information should be submitted to {% tool "biosamples" %}, with MIAPPE compliance validated using BioSamples' [plant-miappe.json](https://github.com/EBIBioSamples/biosamples-v4/blob/biohackathon_miappe_checklist/webapps/core/src/main/resources/schemas/certification/plant-miappe.json) template available on the [sample validation](https://www.ebi.ac.uk/biosamples/docs/guides/validation) page.
+Submission of sample descriptions to BioSamples can be done as early as the data collection stage, but at the latest, must acompany submission of the genomic data to the {% tool "european-nucleotide-archive" %} (ENA) or of genotyping data to the {% tool "european-variation-archive" %} (EVA). The complete timeline for submitting plant biological material to BioSamples and resulting genotyping experiment results to ENA and EVA should look like this:
 1.  Register plant biological material information to BioSamples
 2.  Submit Sequencing reads to ENA (using BioSamples IDs to identify material)
 3.  Check if used reference genome assembly is INSDC available (GCF / GCA accesion number available)
@@ -38,12 +43,12 @@ Submission of sample descriptions to BioSamples can be done as early as the data
 
 {% include callout.html type="note" content="Metadata associated with a single sample registered with BioSamples can only be updated from the original account." %}
 
-[e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/), FAIRDOM-SEEK instances such as [FAIRDOMHub](https://fairdomhub.org/) or [Recherche Data Gouv](https://recherche.data.gouv.fr/) can be used to manage and share experimental metadata, as well as data.
+{% tool "e-dal-pgp" %}, FAIRDOM-SEEK instances such as {% tool "fairdomhub" %} or [Recherche Data Gouv](https://recherche.data.gouv.fr/) can be used to manage and share experimental metadata, as well as data.
 
 ### Data processing and analysis
-Reference genomes for genome assembly and annotation should be obtained from [ENSEMBL Plants](https://plants.ensembl.org/index.html) or [PLAZA](https://bioinformatics.psb.ugent.be/plaza/), if available.
+Reference genomes for genome assembly and annotation should be obtained from {% tool "ensembl-plants" %} or {% tool "plaza" %}, if available.
 Genetic variant data must be produced in the VCF format, and validated using the EVA vcf-validator (https://github.com/EBIvariation/vcf-validator). Please note to only use identifiers of sequences that match the reference genome assembly identifiers.
 In order to ensure interoperability of VCF files, the VCF meta-information lines should be used: see the [Plant sciences page](plant_sciences#plant-genotyping-data-sharing-and-deposition) for more details.
 
 ### Data sharing and publishing
-All sequencing data collected in plant genotyping experiments should be submitted to ENA together with metadata compliant to the [GSC MIxS plant associated checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000020). Final results of such studies in the form of VCF files should be submitted to EVA. Additionally, supplemental data complementing these two data types is encouraged to be submitted to [e!DAL-PGP](https://edal-pgp.ipk-gatersleben.de/) or [Recherche Data Gouv](https://recherche.data.gouv.fr/).
+All sequencing data collected in plant genotyping experiments should be submitted to ENA together with metadata compliant to the [GSC MIxS plant associated checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000020). Final results of such studies in the form of VCF files should be submitted to EVA. Additionally, supplemental data complementing these two data types is encouraged to be submitted to {% tool "e-dal-pgp" %} or [Recherche Data Gouv](https://recherche.data.gouv.fr/).

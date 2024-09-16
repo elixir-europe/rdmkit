@@ -42,6 +42,23 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 
 ## Data life cycle diagram
 
+If you reuse the Data life cycle diagram please use one of the following snippets for correct attribution:
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text">"<a href="https://rdmkit.elixir-europe.org/media_kit">Data life cycle diagram</a>" by <a href="https://rdmkit.elixir-europe.org">RDMkit</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+  </div>
+</div>
+
+or
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text">"<a href="https://rdmkit.elixir-europe.org/media_kit">Data life cycle diagram</a>" by <a href="https://rdmkit.elixir-europe.org">RDMkit</a> / <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a></p>
+  </div>
+</div>
+
+
 #### Data life cycle diagram basic
 
 <p>
@@ -68,9 +85,13 @@ For use in presentations, tutorials and all other RDMkit related activities the 
 
 ## Presentations
 
-#### RDMkit in 1 and 3 slides
+#### RDMkit template slide
+<div class="ratio ratio-16x9">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuJurLY3btKaQQsQlxSpFcMy3C6oFSKBt-VW2Xu1hwRR7wvEQGqglvAxoohVOnUg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
-<iframe  class="scale" src="https://docs.google.com/presentation/d/e/2PACX-1vQN8VjdCv96Jwdd1H8r-bxhVPk1wgI-FBTfuHiHX1_7R9HCl30W6GDPXMSm_bQkwz99vK0KGDYY3Na2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+\\
+[Google Drive link to the template](https://docs.google.com/presentation/d/19M-oKsY10FdudVL4gcyfaMAFMq3pTfEv/edit#slide=id.p1)
 
 
 ## Promotion gif
