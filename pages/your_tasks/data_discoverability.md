@@ -4,7 +4,7 @@ description: How to make data discoverable
 contributors: [Aina Jené Cortada, Laura Portell Silva]
 page_id: data_discoverability
 related_pages: 
-  your_task: sensitive
+  your_task: metadata, data_organisation, sensitive, gpdr_compliance, ethics
 ---
 
 ## How can you make your data more discoverable?
@@ -23,7 +23,7 @@ Data discovery involves processes and tools that help users understand what data
 
 ### Solutions
 
-* There are many appropriate tools for detailed metadata and data documentation during the project. Check the [Documentation and metadata page](metadata_management) for more information.
+* There are several appropriate tools to create detailed (or comprehensive) metadata and document data properly for the project. Check the [Documentation and metadata](metadata_management) page for more information.
 * Some scientific communities utilise platforms such as {% tool "cedar" %}, {% tool "semares" %}, {% tool "fairdom-seek" %}, {% tool "fairdomhub" %}, and {% tool "copo" %} for managing metadata and data.
 * Various standards exist for different data types, from general dataset descriptions such as DCAT, Dublin Core, and (bio)schema.org, to those tailored for specific data types, such as MIABIS for biosamples. Hence, selecting the appropriate standard at the project's outset is crucial. Typically, if you choose a suitable data repository for your data, it will come with an integrated metadata scheme, simplifying your work by eliminating the need to develop a separate metadata profile.
  * Decide at the beginning of the project the right repository for your data type. To search for it, you can use the {% tool "elixir-deposition-databases-for-biomolecular-data" %}, {% tool "re3data" %} or {% tool "fairsharing" %} at “Databases”.
@@ -31,7 +31,7 @@ Data discovery involves processes and tools that help users understand what data
   * {% tool "rda-standards" %}
   * {% tool "fairsharing" %} at “Standards” and “Collections”
   * {% tool "data-curation-centre-metadata-list" %}
-* The ideal file formats vary based on the type of data, the availability and common acceptance of open file formats, and the research domain. There isn't a universal solution, so selecting the most suitable format for your specific needs is essential. The [Data Organisation page](data_organisation) provides a table with recommended file formats and best practices for research data management.
+* The ideal file formats vary based on the type of data, the availability and common acceptance of open file formats, and the research domain. There isn't a universal solution, so selecting the most suitable format for your specific needs is essential. The [Data Organisation](data_organisation) page provides a table with recommended file formats and best practices for research data management.
 
 ## How can you discover controlled access data?
  
@@ -44,9 +44,9 @@ Discovering research data for re-analysis can occur at different levels of granu
 * Detailed Metadata: ensure comprehensive metadata for your datasets, including detailed descriptions of studies, datasets, variables, and any available distributions.
 * Data Catalogs and Repositories: use well-maintained online catalogs and repositories that support controlled access data, and check for advanced search features to filter datasets by specific attributes.
 * Data Access Policies: get familiar with the data access policies of different repositories and datasets, understanding the requirements and procedures for requesting access to controlled data.
-* Ethical and Legal Compliance: ensure compliance with ethical guidelines and legal regulations governing data use and sharing, and obtain necessary approvals from institutional review boards or ethics committees if required.
+* Ethical and Legal Compliance: ensure compliance with ethical guidelines and legal regulations governing data use and sharing, and obtain necessary approvals from institutional review boards or ethics committees if required. Check the [GDPR compliance](gpdr_compliance) and [Ethical aspects](ethics) pages for more information.
 * Data Access Request Process: be aware that the process for requesting and obtaining data access can be time-consuming, and prepare detailed justifications for data access requests, including research objectives and intended analyses.
-* Privacy and Security Measures: implement robust privacy and security measures to protect sensitive data during discovery and after access is granted, ensuring data handling practices comply with data protection regulations.
+* Privacy and Security Measures: implement robust privacy and security measures to protect sensitive data during discovery and after access is granted, ensuring data handling practices comply with data protection regulations. Check the [Data sensitivity](data_sensitivity) page for more information.
 
 ### Solutions
 
