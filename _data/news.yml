@@ -182,3 +182,7 @@
   date: 2024-06-10
   linked_pr: 1489
   description: We are gradually improving the icons that are in use on the RDMkit by applying our own style. You can discover them throughout the whole website!
+- name: "New page: Data workflow diagram"
+  date: 2024-09-16
+  linked_pr: 1528
+  description: This page guides you with capturing your planned data workflow in a diagram. [Discover the page here](data_workflow_diagram).
