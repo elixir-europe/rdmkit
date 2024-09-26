@@ -1336,7 +1336,6 @@
   name: Minimum Information about any (x) Sequence (MIxS)
   registry:
     fairsharing: 9aa0zp
-    tess: MIxS
   url: https://genomicsstandardsconsortium.github.io/mixs/
 - description: Provides a set of open-source, cross-platform software libraries and tools that facilitate proteomics data analysis.
   id: msconvert
@@ -2303,6 +2302,7 @@
   id: integrated-database-of-small-molecules
   name: Integrated Database of Small Molecules (IDSM)
   registry:
+    biotools: idsm
     fairsharing: nn9r0d
   url: https://idsm.elixir-czech.cz/
 - description: The OME Model is a specification for storing data on biological imaging.
