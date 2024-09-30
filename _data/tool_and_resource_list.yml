@@ -560,6 +560,7 @@
   name: CTD
   registry:
     biotools: ctd
+    tess: CTD
   url: http://ctdbase.org/
 - description: Command line tool and library for transferring data with URLs
   id: curl
@@ -1408,6 +1409,8 @@
 - description: Online database hosting a vast amount of biotechnological information including nucleic acids, proteins, genomes and publications. Also boasts integrated tools for analysis.
   id: national-center-for-biotechnology-information
   name: National Center for Biotechnology Information (NCBI)
+  registry:
+    tess: National Center for Biotechnology Information (NCBI)
   url: https://www.ncbi.nlm.nih.gov
 - description: The National Biomonitoring Program (NBP) is a public resource that offers an assessment of nutritional status and the exposure of the U.S. population to environmental chemicals and toxic substances.
   id: nbp
