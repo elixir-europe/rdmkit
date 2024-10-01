@@ -10,7 +10,7 @@ Prerequisites:
 * A GitHub account. If you do not have one, [create a free GitHub account](https://github.com/join) before you start.
 
 
-## Announce and discuss your proposal through GitHub “issues”
+## Announce and discuss your proposal through a GitHub Issue
 
 1. Go to the [RDMkit repo](https://github.com/elixir-europe/rdmkit) on GitHub.
 2. Click “Issues” in the top menu bar and look at the existing issues. See if your idea or suggestion is already being discussed.

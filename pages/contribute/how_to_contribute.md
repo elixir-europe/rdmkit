@@ -7,8 +7,8 @@ This project is only possible with the many [community contributors](contributor
 If you wish to contribute, please remember the following for better consistency and efficiency: 
 
 * Follow our [style guide](style_guide).
-* Ensure your content respects copyright. Please follow our[ Copyright guidelines](copyright).
-* Provide acknowledgement for all your contributions.
+* Ensure your content respects copyright. Please follow our [Copyright guidelines](copyright).
+* Acknowledge [contributions](#acknowledgement-and-ownership-of-content) of yourself and other contributors.
 
 
 ## Ways of contributing
