@@ -4,7 +4,7 @@ title: How to contribute to RDMkit
 
 This project is only possible with the many [community contributors](contributors). RDMkit is an open project where everyone can contribute to the site.
 
-If you wish to contribute, please remember the following for better consistency and efficiency: 
+If you wish to contribute, please remember the following: 
 
 * Follow our [style guide](style_guide).
 * Ensure your content respects copyright. Please follow our [Copyright guidelines](copyright).
