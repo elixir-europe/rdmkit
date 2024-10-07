@@ -13,38 +13,42 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 
 ## Text
   * **Acronyms:** spell them out the first time.
-  * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space.
+  * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus if you need to save space.
   * **Capitals:** do not use all capitals for emphasis or in headings.
   * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
   * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations).
   * **Datasets:** not "data sets".
   * **Email:** not "e-mail".
-  * **Email addresses:** spell these out and make the email address the link e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
+  * **Email addresses:** spell these out and make the email address the link, e.g. [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org). Do not hide the email address behind a word or phrase like "contact us".
   * **Etc.** should be avoided. Try using ‘for example’ or ‘such as’ or ‘including’ at the start of a listing. If etc. is used, put a comma before it if it is in a list, like "A, B, etc.". 
   * **Gender:** avoid using gender-specific words like "he" or "she".
   * **Headings:**
-    * Only the first word is capitalised, unless other words are proper nouns.
-    * Headings must be hierarchical. They must go down in order (level one, level two, level three), and not skip a level. It is fine to skip levels when moving back up e.g. you can skip from level four to level two.
+    * Only the first word is capitalised unless other words are proper nouns.
+    * Headings must be hierarchical. They must go down in order (level one, level two, level three) and not skip a level. It is fine to skip levels when moving back up, e.g. you can skip from level four to level two.
   * **-ise/-ize:** use the "-ise" form.
   * **Life cycle:** two separate words.
-  * **Links:** make the link text say where the link goes e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
+  * **Links:** make the link text say where the link goes, e.g. "the Contribute page", not "click here". Avoid using the url as the link text.
   * **Lists:** 
     * _A list of short items_: introduce with a colon, start each bullet point with a capital and don't use punctuation at the end of each bullet point:
       * Item 1
       * Item 2
-    * _A list of longer items following an incomplete introductory sentence (e.g. a sentence ending in a colon)_: each item ends with a semi colon and the final item ends with a full stop. Do not capitalise the first letter of each item e.g. This is the first part of a sentence that includes:
+    * _A list of longer items following an incomplete introductory sentence (e.g. a sentence ending in a colon)_: each item ends with a semi-colon and the final item ends with a full stop. Do not capitalise the first letter of each item, e.g. This is the first part of a sentence that includes:
       * a longer item 1;
       * a longer item 2;
       * a longer item 3.
-    * _A list following a complete sentence (with a full stop)_: each item ends with a full stop and each point begins with a capital letter e.g. This a complete sentence.
+    * _A list following a complete sentence (with a full stop)_: each item ends with a full stop, and each point begins with a capital letter, e.g. This a complete sentence.
       * This is item 1 of the list.
       * This is item 2 of the list.
       * This is item 3 of the list.
   * **Numbers:** spell the numbers one to ten out. After that, write the numbers (11, 12, 13, etc.).
-  * **Quotations:** use double quotes for quotations, and single quotes for quotes within quotes.
+  * **Quotations:** use double quotes for quotations and single quotes for quotes within quotes.
+  * **References:**
+    * add your citations as bibtex to the `_bibliography/references.bib` file
+    * add `{% cite reference_key %}` to the text where you are citing the reference
+    * add  `## Bibliography` `{% bibliography --cited %}` to show a bibliography section with cited refrences on a page.
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
-    * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
+    * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause, and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
   * **Titles (the "title" in the front matter of pages):** only the first word, proper nouns and acronyms are capitalised.
   * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
@@ -96,9 +100,9 @@ not be part of the information provided by the contributors.
       | <span style="display: inline-block; width: 20px; height: 20px; background: #73757d;"></span> | #73757d | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and so the right to publish them without attribution. Other icons on this site are either desgined by Xènia Pérez Sitjà or come from [Font Awesome](https://fontawesome.com/).
+  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and the right to publish them without attribution. Other icons on this site are either desgined by Xènia Pérez Sitjà or come from [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
-  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons, or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
+  * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
   * **Images:**
     * Do not use images to display text.
     * Include an 'alt' attribute in images.
@@ -107,12 +111,12 @@ not be part of the information provided by the contributors.
 
 * **Markdown file names:**
   * Do not contain spaces or special characters like &, %, #, (, ), è, é, ê, ë, ...
-  * Are unique among the website.
+  * Are unique across the website.
   * Are lowercase, except for acronyms.
 * **Tags for tools, resources and pages:**
   * Do not contain special characters like &, %, #, (, ), è, é, ê, ë, ...
   * Are lowercase, except for acronyms.
-  * Are short if possible, but distinguishable from existing tags.
+  * Are short if possible but distinguishable from existing tags.
   * Can contain spaces.
 * **Keywords:**
   * Are lowercase.
