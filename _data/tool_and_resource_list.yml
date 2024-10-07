@@ -26,6 +26,7 @@
   id: bioimage
   name: BioImage Model Zoo
   registry:
+    fairsharing: 77fc63
     tess: BioImage Model Zoo
   url: https://bioimage.io/#/
 - description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology.
@@ -1596,6 +1597,7 @@
   name: Pharos
   registry:
     biotools: pharos
+    fairsharing: 52d6ae
   url: https://pharosproject.net/
 - description: The open-source Phenotyping Hybrid Information System (PHIS) manages and collects data from plants phenotyping and high throughput phenotyping experiments on a day to day basis.
   id: phis
