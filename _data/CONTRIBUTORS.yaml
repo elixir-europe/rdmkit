@@ -638,9 +638,12 @@ Magda Chegkazi:
     affiliation: ELIXIR 
 Arshiya Merchant:
     email: arshiya.merchant@elixir-europe.org
-    affiliation: ELIXIR 
+    affiliation: ELIXIR
+Xènia Pérez Sitjà:
+    affiliation: Earlham Institute / ELIXIR-UK
+    git: sitjart
 Aina Jené Cortada:
-  git: ainajene
-  email: aina.jene@crg.eu
-  orcid: 0000-0001-7721-7097
-  affiliation: European Genome-phenome Archive (EGA) / CRG
+    git: ainajene
+    email: aina.jene@crg.eu
+    orcid: 0000-0001-7721-7097
+    affiliation: European Genome-phenome Archive (EGA) / CRG

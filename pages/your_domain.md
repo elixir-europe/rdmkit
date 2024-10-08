@@ -1,5 +1,6 @@
 ---
 title: Your domain
+toc: false
 ---
 
 In this section, information is organised based on different domains in life sciences with different approaches on how they manage their data. You will find:

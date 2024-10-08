@@ -182,3 +182,7 @@
   date: 2024-06-10
   linked_pr: 1489
   description: We are gradually improving the icons that are in use on the RDMkit by applying our own style. You can discover them throughout the whole website!
+- name: "Improved contribute pages"
+  date: 2024-10-07
+  linked_pr: 1437
+  description: Our [contribute section](how_to_contribute) got an overhaul, with clear ways in how to contribute and improved documentation. 

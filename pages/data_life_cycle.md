@@ -1,5 +1,6 @@
 ---
 title: Data life cycle
+toc: false
 ---
 
 In the RDMkit, data can be defined as any information or materials that are collected, observed, generatared, or used during the research process. Data can take various forms, including experimental results, numerical data, text documents, images, software code, surveys, and more.
