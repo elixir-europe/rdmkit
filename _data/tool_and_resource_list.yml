@@ -2665,3 +2665,8 @@
   id: better-bibtex
   name: Better BibTeX (BBT)
   url: https://retorque.re/zotero-better-bibtex/
+- description: A free and open source electronic lab notebook.
+  id: elabftw
+  name: eLabFTW
+  url: https://www.elabftw.net/
+
