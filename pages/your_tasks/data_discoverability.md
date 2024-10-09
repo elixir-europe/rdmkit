@@ -37,14 +37,14 @@ Data discovery involves processes and tools that help users understand what data
  
 ### Description
 
-Discovering research data for re-analysis can occur at different levels of granularity. Initially, researchers browse online catalogues that describe studies, datasets, related publications, variables, and some data distributions. This basic discovery may suffice if the datasets meet all the criteria. However, to find dataset that meet specific combinations of attributes — such as identifying datasets with particular combinations of attributes, like 'adults diagnosed with COVID-19 in the last year, fully vaccinated, with no underlying health conditions' (as an example) — researchers must either contact the authors or request data access and verify themselves. This process is feasible for a small number of datasets and cooperative data controllers but it is usually time-consuming and uncertain. To streamline this, data discovery at the source allows users to query data non-disclosively, determining its relevance before requesting full access.
+Discovering research data for re-analysis can occur at different levels of granularity. Initially, researchers browse online catalogues that describe studies, datasets, related publications, variables, and some data distributions. This basic discovery may suffice if the datasets meet all the criteria. However, to find dataset that meet specific combinations of attributes — such as identifying datasets with particular combinations of attributes, like 'adults diagnosed with COVID-19 in the last year, fully vaccinated, with no underlying health conditions' (for example) — researchers must either contact the authors or request data access and verify themselves. This process is feasible for a small number of datasets and cooperative data controllers but it is usually time-consuming and uncertain. To streamline this, data discovery at the source allows users to query data non-disclosively, determining its relevance before requesting full access.
 
 ### Considerations
 
 * Detailed Metadata: ensure comprehensive metadata for your datasets, including detailed descriptions of studies, datasets, variables, and any available distributions.
 * Data Catalogs and Repositories: use well-maintained online catalogs and repositories that support controlled access data, and check for advanced search features to filter datasets by specific attributes.
 * Data Access Policies: get familiar with the data access policies of different repositories and datasets, understanding the requirements and procedures for requesting access to controlled data.
-* Ethical and Legal Compliance: ensure compliance with ethical guidelines and legal regulations governing data use and sharing, and obtain necessary approvals from institutional review boards or ethics committees if required. Check the [GDPR compliance](gpdr_compliance) and [Ethical aspects](ethics) pages for more information.
+* Ethical and Legal Compliance: ensure compliance with ethical guidelines and legal regulations governing data use and sharing, and obtain necessary approvals from institutional review boards or ethics committees if required. Check the [GDPR compliance](gdpr_compliance) and [Ethical aspects](ethics) pages for more information.
 * Data Access Request Process: be aware that the process for requesting and obtaining data access can be time-consuming, and prepare detailed justifications for data access requests, including research objectives and intended analyses.
 * Privacy and Security Measures: implement robust privacy and security measures to protect sensitive data during discovery and after access is granted, ensuring data handling practices comply with data protection regulations. Check the [Data sensitivity](data_sensitivity) page for more information.
 
@@ -59,11 +59,9 @@ The Framework defines the format for the requests and responses, whereas the Mod
 
 This dual-system approach not only broadens the scope for diverse Models – using different domains such as images, pathogens, or infectious diseases – but also reinforces the adaptability of the Framework. The overall function of these components is to provide the instructions to design a REST API that could be implemented as a stand-alone product or, preferably, extending existing data management solutions. 
 
-Consequently, the 'beaconised' data represents a significant enhancement in data discoverability with minimal risks. 
+Consequently, the 'beaconised' data represents a significant enhancement in data discoverability with minimal risks. Currently, there are two ways to implement a Beacon:
 
-Currently, there are two ways to implement a Beacon:
-
-* On top of existing tools (API): targeted to those organizations equipped with well-organised and structured data housed in databases, whether SQL or NoSQL, and possess the necessary resources and expertise to interpret and implement the Beacon v2 specification and construct an API on top of an existing tool.
+* API on top of existing tools: This APIs is targeted to those organizations equipped with well-organised and structured data housed in databases, whether SQL or NoSQL, and possess the necessary resources and expertise to interpret and implement the Beacon v2 specification and construct an API on top of an existing tool.
 
   {% include image.html file="beacon-api.JPG" inline=true caption="Figure 1. Beacon API functionality ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon API" max-width="30em"%}
 
@@ -71,8 +69,8 @@ Currently, there are two ways to implement a Beacon:
 
   {% include image.html file="beacon-ri.JPG" inline=true caption="Figure 2. Beacon RI functionality. ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon RI" max-width="30em" %}
 
-Documentation: https://b2ri-documentation.readthedocs.io/en/latest/ 
-GitHub Repository: https://github.com/EGA-archive/beacon2-ri-tools-v2 
+Documentation for B2RI: https://b2ri-documentation.readthedocs.io/en/latest/ 
+GitHub Repository for Beacon v2: https://github.com/EGA-archive/beacon2-ri-tools-v2 
 
 Building on B2RI, the {% tool "b4omop" %} (B4OMOP) software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database. This enables organizations using the OMOP CDM to leverage the Beacon framework for querying and sharing genomic and phenotypic data.
 
