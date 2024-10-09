@@ -1,5 +1,5 @@
 ---
-title: Data Discoverability
+title: Data discoverability
 description: How to make data discoverable
 contributors: [Aina Jené Cortada, Laura Portell Silva]
 page_id: data_discoverability
