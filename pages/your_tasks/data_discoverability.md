@@ -3,8 +3,6 @@ title: Data discoverability
 description: How to make data discoverable
 contributors: [Aina Jené Cortada, Laura Portell Silva]
 page_id: data_discoverability
-related_pages: 
-  your_task: metadata, data_organisation, sensitive, gpdr_compliance, ethics
 ---
 
 ## How can you make your data more discoverable?
