@@ -2701,7 +2701,10 @@
     fairsharing: f3b7a9
     tess: COVID-19 Data Portal
   url: https://www.covid19dataportal.org/
-- description: The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics, underlying mechanisms and related medical vocabulary disease concepts.
+- description: The Disease Ontology has been developed as a standardised ontology for human disease to provide the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics, underlying mechanisms and related medical vocabulary disease concepts.
   name: Disease Ontology (DOID)
   id: doid
   url: http://www.disease-ontology.org
+  registry:
+    fairsharing: 8b6wfq
+  
