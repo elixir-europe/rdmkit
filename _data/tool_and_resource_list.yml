@@ -2707,4 +2707,10 @@
   url: http://www.disease-ontology.org
   registry:
     fairsharing: 8b6wfq
+- description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations.
+  name: Genomic Epidemiology Ontology (GenEpiO) 
+  id: genepio
+  url: https://genepio.org/
+  registry:
+    fairsharing: y1mmbv
   
