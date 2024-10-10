@@ -63,11 +63,8 @@ Consequently, the 'beaconised' data represents a significant enhancement in data
 
   {% include image.html file="beacon-api.JPG" inline=true caption="Figure 1. Beacon API functionality ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon API" max-width="30em"%}
 
-* {% tool "beacon-ri" %}: an out-of-the-box example implementation of the Beacon v2 protocol. It is an open-source toolkit based on Python programming language and consists of tools for loading metadata, e.g. phenotypic data, from a CSV file and genomic variants from a VCF file into a MongoDB database. It also features the Beacon query engine (REST API) and comes bundled with an example dataset (CINECA synthetic cohort EUROPE UK1) comprising synthetic data.
+* {% tool "beacon-ri" %}: an out-of-the-box example implementation of the Beacon v2 protocol. It is an open-source toolkit based on Python programming language and consists of tools for loading metadata, e.g. phenotypic data, from a CSV file and genomic variants from a VCF file into a MongoDB database. It also features the Beacon query engine (REST API) and comes bundled with an example dataset (CINECA synthetic cohort EUROPE UK1) comprising synthetic data. You can find the GitHub Repository for Beacon v2 [here](https://github.com/EGA-archive/beacon2-ri-tools-v2).
 
   {% include image.html file="beacon-ri.JPG" inline=true caption="Figure 2. Beacon RI functionality. ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon RI" max-width="30em" %}
-
-Documentation for B2RI: https://b2ri-documentation.readthedocs.io/en/latest/ 
-GitHub Repository for Beacon v2: https://github.com/EGA-archive/beacon2-ri-tools-v2 
 
 Building on B2RI, the {% tool "b4omop" %} software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database. This enables organizations using the OMOP CDM to leverage the Beacon framework for querying and sharing genomic and phenotypic data.
