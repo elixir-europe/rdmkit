@@ -71,5 +71,3 @@ Documentation for B2RI: https://b2ri-documentation.readthedocs.io/en/latest/
 GitHub Repository for Beacon v2: https://github.com/EGA-archive/beacon2-ri-tools-v2 
 
 Building on B2RI, the {% tool "b4omop" %} software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database. This enables organizations using the OMOP CDM to leverage the Beacon framework for querying and sharing genomic and phenotypic data.
-
-Documentation: https://gitlab.bsc.es/impact-data/impd-beacon_omopcdm
