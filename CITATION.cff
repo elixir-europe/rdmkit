@@ -9,3 +9,5 @@ date-released: 2021-03-01
 url: "https://github.com/elixir-europe/rdmkit"
 preferred-citation:
   type: generic
+  authors:
+  - family-names: "ELIXIR"
