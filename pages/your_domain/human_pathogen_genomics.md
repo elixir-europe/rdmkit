@@ -62,13 +62,13 @@ While the objects of interest in this domain are pathogens, the data is usually 
 
 #### Sequencing experiments
 * Good practices for genome experiments suggest that the documentation, at a minimum, should describe the design of the study or surveillance program, the collected specimens and how the samples were prepared, the experimental setup and protocols, and the analysis workflow.
-  * Adopt recommendations specifically for genomics and pathogen genomics such as [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260).
-  * Refer to general guidance on how to provide [documentation and metadata](metadata_management) during your project.
+  * Adopt specific genomics and pathogen genomics recommendations such as [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260).
+  * Refer to the general guidance on providing [documentation and metadata](metadata_management) during your project.
 * Adopt standards, conventions and robust protocols to maximise the reuse potential of the data in parallel initiatives and your future projects.
   * The Genomic Standards Consortium (GSC) develops and maintains the {% tool "mixs" %} and the {% tool "migs-mims" %}set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high-quality research. 
   * The GenEpiO Consortium develops and maintains the {% tool "genepio" %} to support data sharing and integration specifically for foodborne infectious disease surveillance and outbreak investigations.
   * The [Public Health Alliance for Genomic Epidemiology (PHA4GE)](https://pha4ge.org/) supports openness and interoperability in public health bioinformatics. The [Data Structures working group](https://pha4ge.org/working-groups/) develops, adapts and standardises data models for microbial sequence data, contextual metadata, results and workflow metrics, such as the [SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification).
-  * ISO (the International Organization for Standardization) has issued standards that can be referenced when designing or commissioning genomic sequencing and informatics services, such as 
+  * The International Organization for Standardization (ISO) has issued standards that can be referenced when designing or commissioning genomic sequencing and informatics services, such as 
     * [ISO 20397-1:2022 Biotechnology — Massively parallel sequencing — Part 1: Nucleic acid and library preparation](https://www.iso.org/standard/74054.html)
     * [ISO 20397-2:2021 Biotechnology — Massively parallel sequencing — Part 2: Quality evaluation of sequencing data](https://www.iso.org/standard/67895.html)
     * [ISO/TS 20428:2017 Health informatics — Data elements and their metadata for describing structured clinical genomic sequence information in electronic health records](https://www.iso.org/standard/67981.html)
@@ -84,8 +84,8 @@ While the objects of interest in this domain are pathogens, the data is usually 
   * How will you capture information about the configuration and quality of the sequencing results?
   * How will you ensure that the information captured is complete and correct?
 * What data and file formats should you consider for your project?
-  * What are the *de-facto* standards used for the experiment type and down-stream analysis-pipelines?
-  * Where are the instrument specific aspects for the data and files formats documented?
+  * What are the *de-facto* standards used for the experiment type and downstream analysis pipelines?
+  * Where are the instrument-specific aspects of the data and file formats documented?
 * What existing data will you integrate or use as a reference in your project?
   * What reference genome(s) will you need access to?
   * What is the recommended citation for the data and their versions?
@@ -94,17 +94,17 @@ While the objects of interest in this domain are pathogens, the data is usually 
 
 #### Filtering genomic reads corresponding to human DNA fragments
 
-* Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
-  * Mapping to (human) host reference genomes, [can inadvertently leave some host associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
-  * Mapping to pathogens reference genomes can inadvertently mask some pathogen associated reads and still leave some host associated reads unmasked
+* Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host-associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
+  * Mapping to (human) host reference genomes, [can inadvertently leave some host-associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
+  * Mapping to pathogens reference genomes can inadvertently mask some pathogen-associated reads and still leave some host-associated reads unmasked
   * [Removal of human reads from SARS-CoV-2 sequencing data \| Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
 
 
 #### Contextual information about the sample
 
-* Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
+* Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host-related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
 * Adopt common reporting checklists, data dictionaries, terms and vocabularies to simplify data sharing across initiatives.
-  * {% tool "european-nucleotide-archive" %} hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequencing experiements, including checklists derived from the [MIxS consortium](http://w3id.org/mixs). The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
+  * {% tool "european-nucleotide-archive" %} hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequencing experiments, including checklists derived from {% tool "mixs" %}. The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
   * Reuse terms and definitions from existing vocabularies, such as the [Phenotypic QualiTy Ontology](https://www.ebi.ac.uk/ols4/ontologies/pato), {% tool "ncbi-taxonomy" %}, {% tool "doid" %},  [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary), and [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON).
   * The [PHA4GE SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification) is a comprehensive example including a reporting checklist, related protocols, and mappings to relevant vocabularies and data sharing platforms.
 
@@ -114,25 +114,25 @@ While the objects of interest in this domain are pathogens, the data is usually 
     * {% tool"beyond-1-million-genomes" %} project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
     * Data repositories generally have information about recommended [data file formats](data_publication) and [metadata](metadata_management)
     * The {% tool "fair-cookbook" %} provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
-    * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is  [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
+    * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
   * The {% tool "idtk" %} has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
-  * The Galaxy Training Network provides free on-line [training materials on quality control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html).
+  * The Galaxy Training Network provides free online [training materials on quality control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html).
 
 
 ## Sharing and preserving pathogen genomic data
 
 ### Considerations
 
-* What data need to be preserved by the project and for how long?
+* What data needs to be preserved by the project and for how long?
 * What is preserved by others and how would someone find and access the data?
 * What databases should I use to share human pathogen genomics data?
-* What other research information (such as protocols, computational tools, samples) can the project share?
+* What other research information (such as protocols, computational tools, and samples) can the project share?
 
 
 ### Solutions
 
-#### Sharing host related and other contextual information
-* Some host related information can be personal and/or sensitive and care should be taken when storing and sharing it. Apply data masking and aggregation techniques to pseudonymise or anonymise the contextual information and take measures to separate personal and sensitive information from the pathogen data when possible.
+#### Sharing host-related and other contextual information
+* Some host-related information can be personal and/or sensitive and care should be taken when storing and sharing it. Apply data masking and aggregation techniques to pseudonymise or anonymise the contextual information and take measures to separate personal and sensitive information from the pathogen data when possible.
 * Adopt solutions for federated analysis to support distributed analyses on information that could otherwise not be shared, such as establishing contractual agreements with suitable regional or international data infrastructures.
 * {% tool "ga4gh" %} is a global organisation that frames policy and builds standards to meet the real-world needs of the genomics and health community. Its [GDPR & International Health Data Sharing Forum](https://www.ga4gh.org/product/gdpr-international-health-data-sharing-forum/) shares *GDPR Briefs* that represent a consensus position among its Forum Members (not legal advice) regarding the current understanding of the GDPR and its implications for genomic and health-related research, such as 
   * [GDPR Brief: data protection implications of publishing metadata to enable discovery](https://www.ga4gh.org/news_item/ga4gh-gdpr-brief-data-protection-implications-of-publishing-metadata-to-enable-discovery/)
@@ -140,7 +140,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 
 #### Sharing pathogen genomic data
 * You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to use to reach the relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
-  * European healthcare surveillance systems is administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
+  * European healthcare surveillance systems are administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
   * International research data exchanges such as {% tool "european-nucleotide-archive" %} for non-sensitive genomic data 
   * There are also pathogen specific initiatives, such as {% tool "pathogens-portal" %} and {% tool "pathogen-detection" %}. And initiatives focusing specifically on viruses, certain pathogens or certain data types, such as {% tool "gisaid"%} for observations and assembled consensus sequences on a selection of pathogens.
 * Investigate if there are [national resources](national_resources) or a [data brokering](data_brokering) organisation available to facilitate data sharing.
