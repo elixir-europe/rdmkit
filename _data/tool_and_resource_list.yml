@@ -2672,6 +2672,8 @@
 - description: Developed through the Global Alliance for Genomics and Health (GA4GH) Discovery workstream with support from ELIXIR, Beacon is a data discovery protocol defining an open standard for discovering genomic and phenoclinic data in research and clinical applications.
   id: beacon-v2
   name: Beacon v2
+  registry:
+    tess: Beacon v2
   url: https://docs.genomebeacons.org/implementations-options/
 - description: An open-source out-of-the-box toolkit to initiate a Beacon v2. B2RI includes tools for loading metadata, such as phenotypic data and genomic variants into a MongoDB database, and features a Beacon query engine (REST API).
   id: beacon-ri
