@@ -2719,4 +2719,9 @@
   url: https://github.com/pato-ontology/pato/
   registry:
     fairsharing: ezwdhz
-  
+- description: ChEBI) is a dictionary describing small chemical compounds including distinct synthetic or natural atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, and conformers.
+  name: Chemical Entities of Biological Interest (ChEBI) 
+  id: chebi
+  url: https://www.ebi.ac.uk/chebi/
+  registry:
+    fairsharing: 62qk8w
