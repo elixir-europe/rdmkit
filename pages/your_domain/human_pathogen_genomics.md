@@ -114,7 +114,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
     * {% tool"beyond-1-million-genomes" %} project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
     * Data repositories generally have information about recommended [data file formats](data_publication) and [metadata](metadata_management)
     * The {% tool "fair-cookbook" %} provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
-    * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is {% tool "bio.tools" %}.
+    * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is {% tool "bio-tools" %}.
   * The {% tool "idtk" %} has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
   * The Galaxy Training Network provides free online [training materials on quality control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html).
 
