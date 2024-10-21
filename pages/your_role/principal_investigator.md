@@ -1,7 +1,7 @@
 ---
 title: Principal Investigator (PI)
 description: Data management guidance for Principal Investigator (PI).
-contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xenia Perez-Sitja, Nazeefa Fatima, Gregoire Rossier]
+contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xènia Pérez Sitjà, Nazeefa Fatima, Gregoire Rossier]
 page_id: principal_investigator
 ---
 
