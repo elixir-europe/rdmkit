@@ -2713,4 +2713,10 @@
   url: https://genepio.org/
   registry:
     fairsharing: y1mmbv
+- description: PATO is an ontology of phenotypic qualities, intended for use primarily in phenotype annotation.
+  name: Phenotypic QualiTy Ontology (PATO) 
+  id: pato
+  url: https://github.com/pato-ontology/pato/
+  registry:
+    fairsharing: ezwdhz
   
