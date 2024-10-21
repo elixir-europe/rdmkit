@@ -2725,3 +2725,9 @@
   url: https://www.ebi.ac.uk/chebi/
   registry:
     fairsharing: 62qk8w
+- description: Uberon is an integrated cross-species anatomy ontology covering animals and bridging multiple species-specific ontologies.
+  name: UBER anatomy ONtology (UBERON) 
+  id: uberon
+  url: http://uberon.org/
+  registry:
+    fairsharing: 4c0b6b
