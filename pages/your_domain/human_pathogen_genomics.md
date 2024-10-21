@@ -105,7 +105,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 * Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host-related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
 * Adopt common reporting checklists, data dictionaries, terms and vocabularies to simplify data sharing across initiatives.
   * {% tool "european-nucleotide-archive" %} hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequencing experiments, including checklists derived from {% tool "mixs" %}. The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
-  * Reuse terms and definitions from existing vocabularies, such as the [Phenotypic QualiTy Ontology](https://www.ebi.ac.uk/ols4/ontologies/pato), {% tool "ncbi-taxonomy" %}, {% tool "doid" %},  [Chemical Entities of Biological Interest](https://bioportal.bioontology.org/ontologies/CHEBI/?p=summary), and [UBER anatomy ONtology](https://bioportal.bioontology.org/ontologies/UBERON).
+  * Reuse terms and definitions from existing vocabularies, such as the {% tool "pato" %}, {% tool "ncbi-taxonomy" %}, {% tool "doid" %}, {% tool "chebi" %}, and {% tool "uberon" %}.
   * The [PHA4GE SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification) is a comprehensive example including a reporting checklist, related protocols, and mappings to relevant vocabularies and data sharing platforms.
 
 #### Generating genomic data
@@ -114,10 +114,9 @@ While the objects of interest in this domain are pathogens, the data is usually 
     * {% tool"beyond-1-million-genomes" %} project provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
     * Data repositories generally have information about recommended [data file formats](data_publication) and [metadata](metadata_management)
     * The {% tool "fair-cookbook" %} provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
-    * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is [Bio.Tools](https://bio.tools/t?page=1&q=validation&sort=score&topicID=%22topic_3168%22).
+    * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is {% tool "bio.tools" %}.
   * The {% tool "idtk" %} has a showcase on [An automated SARS-CoV-2 genome surveillance system built around Galaxy](https://www.infectious-diseases-toolkit.org/showcase/covid19-galaxy)
   * The Galaxy Training Network provides free online [training materials on quality control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html).
-
 
 ## Sharing and preserving pathogen genomic data
 
