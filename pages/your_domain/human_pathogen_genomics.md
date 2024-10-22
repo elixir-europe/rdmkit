@@ -18,7 +18,7 @@ related_pages:
 ## Introduction
 The human pathogen genomics domain focuses on studying the genetic code of organisms that cause disease in humans. Studies to identify and understand pathogens are conducted across different types of organisations ranging from research institutes to regional public health authorities. The aims can include urgent outbreak response, prevention measures, and developing remedies such as treatments and vaccines.
 
-Data management challenges in this domain include the potential urgency of data sharing and secondary use of data across initiatives emerging from research, public health and policy. While the pathogenic organisms are the object of interest, there are many considerations to take into account when dealing with samples collected from patients, pathogen surveillance, and human research subjects.
+Data management challenges in this domain include the potential urgency of data sharing and secondary use of data across initiatives emerging from research, public health and policy. While pathogenic organisms are the object of interest, there are many considerations to take into account when dealing with samples collected from patients, pathogen surveillance, and human research subjects.
 
 The genomic data can represent anything from the genetic sequence of a single pathogen isolate to various fragments of genetic materials from a flora of pathogens in a larger population. Other data can represent a wide range of contextual information about the human host, the disease, and various environmental factors.
 
@@ -80,7 +80,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 ### Considerations
 
 * What information should you consider recording when collecting data?
-  * What should you note when collecting, storing and preparing the samples?
+  * What should you note when collecting, storing, and preparing the samples?
   * How will you capture information about the configuration and quality of the sequencing results?
   * How will you ensure that the information captured is complete and correct?
 * What data and file formats should you consider for your project?
@@ -95,14 +95,14 @@ While the objects of interest in this domain are pathogens, the data is usually 
 #### Filtering genomic reads corresponding to human DNA fragments
 
 * Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host-associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
-  * Mapping to (human) host reference genomes, [can inadvertently leave some host-associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
+  * Mapping to (human) host reference genomes [can inadvertently leave some host-associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
   * Mapping to pathogens reference genomes can inadvertently mask some pathogen-associated reads and still leave some host-associated reads unmasked
   * [Removal of human reads from SARS-CoV-2 sequencing data \| Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
 
 
 #### Contextual information about the sample
 
-* Information about the host phenotype, context and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host-related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
+* Information about the host phenotype, context, and disease is often necessary to answer questions in a research study or policy perspective. Other contextual information can include non-host-related environmental factors, such as interactions with other pathogens, drugs and geographic proliferation. It can also include information about the sampled material and how it was processed for sequencing.
 * Adopt common reporting checklists, data dictionaries, terms and vocabularies to simplify data sharing across initiatives.
   * {% tool "european-nucleotide-archive" %} hosts a selection of [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can be used to annotate sequencing experiments, including checklists derived from {% tool "mixs" %}. The [ENA virus pathogen reporting standard checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000033) has been widely used for SARS-CoV-2 genomic studies.
   * Reuse terms and definitions from existing vocabularies, such as the {% tool "pato" %}, {% tool "ncbi-taxonomy" %}, {% tool "doid" %}, {% tool "chebi" %}, and {% tool "uberon" %}.
@@ -127,7 +127,6 @@ While the objects of interest in this domain are pathogens, the data is usually 
 * What databases should I use to share human pathogen genomics data?
 * What other research information (such as protocols, computational tools, and samples) can the project share?
 
-
 ### Solutions
 
 #### Sharing host-related and other contextual information
@@ -145,5 +144,3 @@ While the objects of interest in this domain are pathogens, the data is usually 
 * Investigate if there are [national resources](national_resources) or a [data brokering](data_brokering) organisation available to facilitate data sharing.
   * {% tool "pathogens-portal" %} Data Hubs network for sensitive data.
   * {% tool "covid-19-data-portal" %}
-
-
