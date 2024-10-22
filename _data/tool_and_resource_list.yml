@@ -2679,22 +2679,10 @@
   id: beacon-ri
   name: Beacon v2 Reference Implementation (B2RI)
   url: https://github.com/EGA-archive/beacon2-ri-tools-v2
-- description: GA4GH frames policy and builds standards to meet the real-world needs of the global genomics and health community.
-  id: ga4gh
-  name: Global Alliance for Genomics and Health (GA4GH)
-  url: https://www.ga4gh.org
-  registry:
-    biotools: ga4gh
-    fairsharing: 2tpx4v
-    tess: GA4GH
 - description: Discover tools and best practices for working with infectious disease data. IDTk provides general guidance as well as specific information for pathogen characterisation, socioeconomic data, human biomolecular data, and human clinical and health data.
   id: idtk
   name: Infectious Diseases Toolkit (IDTk)
   url: https://www.infectious-diseases-toolkit.org/
-- description: The Beyond 1 Million Genomes (B1MG) project is helping to create a network of genetic and clinical data across Europe. The project provides coordination and support to the 1+ Million Genomes Initiative (1+MG). This initiative is a commitment of 24 EU countries, the UK and Norway to give cross-border access to one million sequenced genomes by 2022.
-  id: beyond-1-million-genomes
-  name: Beyond 1 Million Genomes (B1MG)
-  url: https://b1mg-project.eu/
 - description: The Federated EGA is an infrastructure built upon the European Genome-phenome Archive (EGA), an EMBL-EBI and CRG data resource for secure archiving and sharing of human sensitive biomolecular and phenotypic data resulting from biomedical research projects.
   id: fega
   name: Federated EGA
