@@ -62,7 +62,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 
 #### Sequencing experiments
 * Good practices for genome experiments suggest that the documentation, at a minimum, should describe the design of the study or surveillance program, the collected specimens and how the samples were prepared, the experimental setup and protocols, and the analysis workflow.
-  * Adopt specific genomics and pathogen genomics recommendations such as [Ten simple rules for annotating sequencing experiments](https://doi.org/10.1371/journal.pcbi.1008260).
+  * Adopt specific genomics and pathogen genomics recommendations such as those outlined in Stevens2020{%cite "stevens2020Ten" %}.
   * Refer to the general guidance on providing [documentation and metadata](metadata_management) during your project.
 * Adopt standards, conventions and robust protocols to maximise the reuse potential of the data in parallel initiatives and your future projects.
   * The Genomic Standards Consortium (GSC) develops and maintains the {% tool "mixs" %} and the {% tool "migs-mims" %}set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high-quality research. 
@@ -95,7 +95,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 #### Filtering genomic reads corresponding to human DNA fragments
 
 * Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host-associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
-  * Mapping to (human) host reference genomes [can inadvertently leave some host-associated reads unmasked](https://doi.org/10.1099%2Fmgen.0.000393). 
+  * Mapping to (human) host reference genomes can inadvertently leave some host-associated reads unmasked {% cite "bush2020Evaluation" %}.
   * Mapping to pathogens reference genomes can inadvertently mask some pathogen-associated reads and still leave some host-associated reads unmasked
   * [Removal of human reads from SARS-CoV-2 sequencing data \| Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
 
@@ -111,7 +111,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 #### Generating genomic data
 * Establish protocols and document the steps taken in the lab to process the sample and in the computational workflow to prepare the resulting data. Make sure to keep information from quality assurance procedures and strive to make your labwork and computational process as reproducible as possible.
     * [High-Throughput Sequencing \| LifeScienceRDMLookUp](https://elixir.no/rdm-lookup/sequencing)
-    * The [Beyond 1 Million genomes project](https://b1mg-project.eu/) provides guidelines that cover the minimum [quality requirements](https://zenodo.org/record/5018495) for the generation of genome sequencing data.
+    * The [Beyond 1 Million genomes project](https://b1mg-project.eu/) provides guidelines that cover the minimum quality requirements {% cite "gut2021B1MG" %} for the generation of genome sequencing data.
     * Data repositories generally have information about recommended [data file formats](data_publication) and [metadata](metadata_management)
     * The {% tool "fair-cookbook" %} provides instructions on [validation of file formats](https://faircookbook.elixir-europe.org/content/recipes/interoperability/fastq-file-format-validators.html)
     * A good place to look for scientific and technical information about data quality validation software tools for pathogenomics is {% tool "bio-tools" %}.
@@ -144,3 +144,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 * Investigate if there are [national resources](national_resources) or a [data brokering](data_brokering) organisation available to facilitate data sharing.
   * {% tool "pathogens-portal" %} Data Hubs network for sensitive data.
   * {% tool "covid-19-data-portal" %}
+
+## Bibliography
+
+{% bibliography --cited %}
