@@ -143,7 +143,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
   * There are also pathogen specific initiatives, such as {% tool "pathogens-portal" %} and {% tool "pathogen-detection" %}. And initiatives focusing specifically on viruses, certain pathogens or certain data types, such as {% tool "gisaid"%} for observations and assembled consensus sequences on a selection of pathogens.
 * Investigate if there are [national resources](national_resources) or a [data brokering](data_brokering) organisation available to facilitate data sharing.
   * {% tool "pathogens-portal" %} Data Hubs network for sensitive data.
-  * {% tool "covid-19-data-portal" %}
+  * {% tool "covid-19-data-portal" %}.
 
 ## Bibliography
 
