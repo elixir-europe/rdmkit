@@ -25,7 +25,7 @@ The genomic data can represent anything from the genetic sequence of a single pa
 ## Planning a study with pathogen genomic data
 
 ### Description
-While the objects of interest in this domain are pathogens, the data is usually derived from samples originating from patients and human research subjects. This means that you must plan to either remove or handle [human data](human_data) during your study.
+While the objects of interest in this domain are pathogens, the data is usually derived from samples originating from human research subjects. This means that you must plan to either remove or handle [human data](human_data) during your study.
 
 ### Considerations
 
