@@ -82,7 +82,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 * What information should you consider recording when collecting data?
   * What should you note when collecting, storing, and preparing the samples?
   * How will you capture information about the configuration and quality of the sequencing results?
-  * How will you ensure that the information captured is complete and correct?
+  * How will you ensure that the captured information is complete and correct?
 * What data and file formats should you consider for your project?
   * What are the *de-facto* standards used for the experiment type and downstream analysis pipelines?
   * Where are the instrument-specific aspects of the data and file formats documented?
