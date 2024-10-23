@@ -94,7 +94,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 
 #### Filtering genomic reads corresponding to human DNA fragments
 
-* Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject or patient, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host-associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
+* Data files with reads produced by sequencing experiments sometimes contain fragments of the host organism’s DNA. When the host is a human research subject, these fragments can be masked or removed to produce files that could potentially be handled with fewer restrictions. The approach chosen to mask the host-associated reads leads to different trade-offs. Make sure to include this as a factor in your risk assessment.
   * Mapping to (human) host reference genomes can inadvertently leave some host-associated reads unmasked {% cite "bush2020Evaluation" %}.
   * Mapping to pathogens reference genomes can inadvertently mask some pathogen-associated reads and still leave some host-associated reads unmasked
   * [Removal of human reads from SARS-CoV-2 sequencing data \| Galaxy training](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
