@@ -138,7 +138,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 
 #### Sharing pathogen genomic data
 * You should adopt good practices for [data sharing](sharing) and identify which data sharing platforms to use to reach the relevant stakeholders. You can use more than one platform but care should be taken to make sure that data is interconnected where possible to enable deduplication in downstream analyses.
-  * European healthcare surveillance systems are administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases)
+  * European healthcare surveillance systems are administered and used by public health authorities such as [ECDC’s TESSy/EpiPulse](https://www.ecdc.europa.eu/en/publications-data/epipulse-european-surveillance-portal-infectious-diseases).
   * International research data exchanges such as {% tool "european-nucleotide-archive" %} for non-sensitive genomic data.
   * There are also pathogen specific initiatives, such as {% tool "pathogens-portal" %} and {% tool "pathogen-detection" %}. And initiatives focusing specifically on viruses, certain pathogens or certain data types, such as {% tool "gisaid"%} for observations and assembled consensus sequences on a selection of pathogens.
 * Investigate if there are [national resources](national_resources) or a [data brokering](data_brokering) organisation available to facilitate data sharing.
