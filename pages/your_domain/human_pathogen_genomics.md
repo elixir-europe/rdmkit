@@ -51,7 +51,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
   * [Processing and analysing human data](human_data#processing-and-analysing-human-data)
 
 #### Isolate pathogen from host information
-* Depending on the pathogen and how it interacts with the host or the methods applied, it can be possible to generate clean isolates that do not contain host-related material. Data produced from a clean isolate could potentially be handled with few restrictions, while other data will be considered to be personal and [sensitive](data_sensitivity) and will need [protection](data_security).
+* Depending on the pathogen and how it interacts with the host or the methods applied, it can be possible to generate clean isolates that do not contain host-related material. Data produced from a clean isolate could potentially be handled with fewer restrictions, while other data will be considered to be [sensitive](data_sensitivity) and will need [protection](data_security).
 
 #### Public health initiatives
 * National and international recommendations from public health authorities, epidemic surveillance programs and research data communities should be considered when planning a new study or surveillance programme. In particular, you could consult conventions for relevant surveillance programs while considering widely adopted guidelines for research documentation, and instructions from the data-sharing platforms.
