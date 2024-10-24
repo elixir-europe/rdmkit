@@ -18,7 +18,7 @@ related_pages:
 ## Introduction
 The human pathogen genomics domain focuses on studying the genetic code of organisms that cause disease in humans. Studies to identify and understand pathogens are conducted across different types of organisations ranging from research institutes to regional public health authorities. The aims can include urgent outbreak response, prevention measures, and developing remedies such as treatments and vaccines.
 
-Data management challenges in this domain include the potential urgency of data sharing and secondary use of data across initiatives emerging from research, public health and policy. While pathogenic organisms are the object of interest, there are many considerations to take into account when dealing with samples collected from patients, pathogen surveillance, and human research subjects.
+Data management challenges in this domain include the potential urgency of data sharing and secondary use of data across initiatives emerging from research, public health and policymakers. While pathogenic organisms are the object of interest, there are many considerations to take into account when dealing with samples collected from patients, pathogen surveillance, and human research subjects.
 
 The genomic data can represent anything from the genetic sequence of a single pathogen isolate to various fragments of genetic materials from a flora of pathogens in a larger population. Other data can represent a wide range of contextual information about the human host, the disease, and various environmental factors.
 
