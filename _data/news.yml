@@ -190,3 +190,7 @@
   date: 2024-10-10
   linked_pr: 1517
   description: A "your task" page about how to make your data more discoverable was added. [Discover the page here](data_discoverability).
+- name: "Revamped page: Human pathogen genomics"
+  date: 2024-10-24
+  linked_pr: 1526
+  description: The page is enriched with additional links and a bibliography. [Discover the page here](human_pathogen_genomics).

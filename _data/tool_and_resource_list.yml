@@ -2269,12 +2269,12 @@
     fairsharing: f5zx00
     tess: Expression Atlas
   url: https://www.ebi.ac.uk/gxa/home
-- description: Accessible database designed by scientist for scientist, to improve the sharing of influenza data.
+- description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
   id: gisaid
-  name: GISAID
+  name: Global Initiative on Sharing All Influenza Data (GISAID)
   registry:
-    fairsharing: ba6a09
-  url: https://www.gisaid.org
+    fairsharing: 2f7f9f
+  url: https://gisaid.org
 - description: Protein Data Bank in Europe Knowledge Base
   id: pdbe-kb
   name: PDBe-KB
@@ -2679,3 +2679,62 @@
   id: beacon-ri
   name: Beacon v2 Reference Implementation (B2RI)
   url: https://github.com/EGA-archive/beacon2-ri-tools-v2
+- description: Discover tools and best practices for working with infectious disease data. IDTk provides general guidance as well as specific information for pathogen characterisation, socioeconomic data, human biomolecular data, and human clinical and health data.
+  id: idtk
+  name: Infectious Diseases Toolkit (IDTk)
+  url: https://www.infectious-diseases-toolkit.org/
+- description: The Federated EGA is an infrastructure built upon the European Genome-phenome Archive (EGA), an EMBL-EBI and CRG data resource for secure archiving and sharing of human sensitive biomolecular and phenotypic data resulting from biomedical research projects.
+  id: fega
+  name: Federated EGA
+  registry:
+    tess: Federated EGA
+  url: https://ega-archive.org/about/projects-and-funders/federated-ega/
+- description: The Pathogens Portal aims to provide access to data and tools relating to pathogens, their human and animal hosts and their vectors. Current content spans bacterial, viral and eukaryotic parasite lineages alongside human host data.
+  id: pathogens-portal
+  name: Pathogens Portal
+  registry:
+    fairsharing: a085b2
+    tess: Pathogens Portal
+  url: https://www.pathogensportal.org/
+- description: NCBI Pathogen Detection integrates bacterial and fungal pathogen genomic sequences from numerous ongoing surveillance and research efforts whose sources include food, environmental sources such as water or production facilities, and patient samples. Foodborne, hospital-acquired, and other clinically infectious pathogens are included.
+  id: pathogen-detection
+  name: Pathogen Detection
+  url: https://www.ncbi.nlm.nih.gov/pathogens/
+- description: The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.
+  id: covid-19-data-portal
+  name: COVID-19 Data Portal
+  registry:
+    biotools: covid-19-data-portal
+    fairsharing: f3b7a9
+    tess: COVID-19 Data Portal
+  url: https://www.covid19dataportal.org/
+- description: The Disease Ontology has been developed as a standardised ontology for human disease to provide the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics, underlying mechanisms and related medical vocabulary disease concepts.
+  name: Disease Ontology (DOID)
+  id: doid
+  url: http://www.disease-ontology.org
+  registry:
+    fairsharing: 8b6wfq
+- description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations.
+  name: Genomic Epidemiology Ontology (GenEpiO) 
+  id: genepio
+  url: https://genepio.org/
+  registry:
+    fairsharing: y1mmbv
+- description: PATO is an ontology of phenotypic qualities, intended for use primarily in phenotype annotation.
+  name: Phenotypic QualiTy Ontology (PATO) 
+  id: pato
+  url: https://github.com/pato-ontology/pato/
+  registry:
+    fairsharing: ezwdhz
+- description: ChEBI) is a dictionary describing small chemical compounds including distinct synthetic or natural atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, and conformers.
+  name: Chemical Entities of Biological Interest (ChEBI) 
+  id: chebi
+  url: https://www.ebi.ac.uk/chebi/
+  registry:
+    fairsharing: 62qk8w
+- description: Uberon is an integrated cross-species anatomy ontology covering animals and bridging multiple species-specific ontologies.
+  name: UBER anatomy ONtology (UBERON) 
+  id: uberon
+  url: http://uberon.org/
+  registry:
+    fairsharing: 4c0b6b
