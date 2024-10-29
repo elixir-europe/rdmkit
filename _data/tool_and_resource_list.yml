@@ -127,7 +127,7 @@
   id: 4dn-bina-ome-quarep
   name: 4DN-BINA-OME-QUAREP (NBO-Q)
   registry:
-    fairsharing: '4747'
+    fairsharing: 87756d
   url: https://www.nature.com/articles/s41592-021-01327-9
 - description: A standard schema for primary biodiversity data
   id: access-to-biological-collection-data-schema
