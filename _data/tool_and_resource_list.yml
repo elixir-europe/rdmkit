@@ -58,7 +58,7 @@
   name: Plant 3D
   registry:
     biotools: plant-3d
-  url: https://bio.tools/plant-3d
+  url: https://github.com/iziamtso/P3D/
 - description: LeafNet is a convenient tool that can robustly localize stomata and segment pavement cells for light-microscope images of leaves
   id: leafnet
   name: LeafNet
