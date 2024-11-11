@@ -2473,6 +2473,8 @@
 - description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
   id: sceasy
   name: SCEasy
+  registry:
+    biotools: sceasy
   url: https://github.com/cellgeni/sceasy
 - description: Interactive portal for single-cell genomics data.
   id: single-cell-portal
