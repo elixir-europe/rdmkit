@@ -2745,3 +2745,12 @@
   registry:
     fairsharing: 4c0b6b
   url: http://uberon.org/
+- description: A free and open source electronic lab notebook.
+  id: elabftw
+  name: eLabFTW
+  url: https://www.elabftw.net/
+  tess: elabftw
+- description: A tool to aid in chosing the most suitable Electronic Lab Notebook (ELN) for a specific purpose.
+  id: eln-finder
+  name: ELN Finder
+  url: https://eln-finder.ulb.tu-darmstadt.de/home
