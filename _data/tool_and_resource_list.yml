@@ -280,6 +280,7 @@
   name: Bioconda
   registry:
     biotools: bioconda
+    fairsharing: 185b0d
     tess: Bioconda
   url: https://bioconda.github.io/
 - description: Biodiversity Information Standards (TDWG), historically the Taxonomic Databases Working Group, work to develop biodiversity information standards
@@ -514,6 +515,7 @@
   id: conda
   name: Conda
   registry:
+    fairsharing: 185b0d
     tess: Conda
   url: https://docs.conda.io/en/latest/
 - description: A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards
@@ -2266,6 +2268,7 @@
   id: expression-atlas
   name: Expression Atlas
   registry:
+    biotools: expression_atlas
     fairsharing: f5zx00
     tess: Expression Atlas
   url: https://www.ebi.ac.uk/gxa/home
