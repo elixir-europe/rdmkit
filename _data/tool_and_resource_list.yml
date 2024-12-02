@@ -58,7 +58,7 @@
   name: Plant 3D
   registry:
     biotools: plant-3d
-  url: https://bio.tools/plant-3d
+  url: https://github.com/iziamtso/P3D/
 - description: LeafNet is a convenient tool that can robustly localize stomata and segment pavement cells for light-microscope images of leaves
   id: leafnet
   name: LeafNet
@@ -127,7 +127,7 @@
   id: 4dn-bina-ome-quarep
   name: 4DN-BINA-OME-QUAREP (NBO-Q)
   registry:
-    fairsharing: '4747'
+    fairsharing: 87756d
   url: https://www.nature.com/articles/s41592-021-01327-9
 - description: A standard schema for primary biodiversity data
   id: access-to-biological-collection-data-schema
@@ -2473,6 +2473,8 @@
 - description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
   id: sceasy
   name: SCEasy
+  registry:
+    biotools: sceasy
   url: https://github.com/cellgeni/sceasy
 - description: Interactive portal for single-cell genomics data.
   id: single-cell-portal
@@ -2699,6 +2701,8 @@
 - description: NCBI Pathogen Detection integrates bacterial and fungal pathogen genomic sequences from numerous ongoing surveillance and research efforts whose sources include food, environmental sources such as water or production facilities, and patient samples. Foodborne, hospital-acquired, and other clinically infectious pathogens are included.
   id: pathogen-detection
   name: Pathogen Detection
+  registry:
+    tess: Pathogen Detection
   url: https://www.ncbi.nlm.nih.gov/pathogens/
 - description: The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.
   id: covid-19-data-portal
@@ -2709,32 +2713,35 @@
     tess: COVID-19 Data Portal
   url: https://www.covid19dataportal.org/
 - description: The Disease Ontology has been developed as a standardised ontology for human disease to provide the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics, underlying mechanisms and related medical vocabulary disease concepts.
-  name: Disease Ontology (DOID)
   id: doid
-  url: http://www.disease-ontology.org
+  name: Disease Ontology (DOID)
   registry:
     fairsharing: 8b6wfq
+  url: http://www.disease-ontology.org
 - description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations.
-  name: Genomic Epidemiology Ontology (GenEpiO) 
   id: genepio
-  url: https://genepio.org/
+  name: Genomic Epidemiology Ontology (GenEpiO)
   registry:
     fairsharing: y1mmbv
+  url: https://genepio.org/
 - description: PATO is an ontology of phenotypic qualities, intended for use primarily in phenotype annotation.
-  name: Phenotypic QualiTy Ontology (PATO) 
   id: pato
-  url: https://github.com/pato-ontology/pato/
+  name: Phenotypic QualiTy Ontology (PATO)
   registry:
+    biotools: pato
     fairsharing: ezwdhz
+  url: https://github.com/pato-ontology/pato/
 - description: ChEBI) is a dictionary describing small chemical compounds including distinct synthetic or natural atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, and conformers.
-  name: Chemical Entities of Biological Interest (ChEBI) 
   id: chebi
-  url: https://www.ebi.ac.uk/chebi/
+  name: Chemical Entities of Biological Interest (ChEBI)
   registry:
+    biotools: chebi
     fairsharing: 62qk8w
+    tess: Chemical Entities of Biological Interest (ChEBI)
+  url: https://www.ebi.ac.uk/chebi/
 - description: Uberon is an integrated cross-species anatomy ontology covering animals and bridging multiple species-specific ontologies.
-  name: UBER anatomy ONtology (UBERON) 
   id: uberon
-  url: http://uberon.org/
+  name: UBER anatomy ONtology (UBERON)
   registry:
     fairsharing: 4c0b6b
+  url: http://uberon.org/
