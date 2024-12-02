@@ -2749,7 +2749,8 @@
   id: elabftw
   name: eLabFTW
   url: https://www.elabftw.net/
-  tess: elabftw
+  registry:
+    tess: elabftw
 - description: A tool to aid in chosing the most suitable Electronic Lab Notebook (ELN) for a specific purpose.
   id: eln-finder
   name: ELN Finder
