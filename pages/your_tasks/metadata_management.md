@@ -51,7 +51,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Solutions
 * There are many appropriate tools for data documentation during the project. Check with your institute to know what is offered.
-  * Electronic Lab Notebooks (ELNs), are usually better for more disparate and unstructured information that requires flexibility. Researchers can use an ELN (such as {% tool "elabftw" %}) in a personalized way and adapt it to document their every-day work.
+  * Electronic Lab Notebooks (ELNs) are usually better for more disparate and unstructured information that requires flexibility. Researchers can use an ELN (such as {% tool "elabftw" %}) in a personalised way and adapt it to document their everyday work.
 
   * Laboratory Information Management Systems (LIMS) typically follow pre-defined and highly structured experimental workflow. LIMS are used to document and track biological samples through the experimental processes and can support direct import of data from sources such as instruments.
 
