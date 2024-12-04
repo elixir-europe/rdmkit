@@ -515,7 +515,7 @@
   id: conda
   name: Conda
   registry:
-    fairsharing: 185b0d
+    fairsharing: NA
     tess: Conda
   url: https://docs.conda.io/en/latest/
 - description: A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards
