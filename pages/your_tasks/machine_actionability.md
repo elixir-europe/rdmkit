@@ -24,10 +24,12 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB081
 ---
 
-## What does machine-readable, machine-actionable or machine-interpretable mean for data and metadata in RDM?
+## What does machine-readable, machine-actionable and machine-interpretable mean?
 
 ### Description
 More and more often, funders, data managers/stewards, IT staff and institutions in general encourage researchers in Life Sciences to generate metadata (and data) in ways that can be retrieved, read and processed by computers (machines).
+
+{% include callout.html type="important" content="This page covers the WHAT, WHY and HOW of machine-actionable files but not what information to put into machine-actionable metadata files. For more information on this, please review the [Metadata management page](metadata_management)." %}
 
 ### Considerations
 * It is common to come across different terms, such as _machine-readable_, _machine-actionable_ and _machine-interpretable_, which express different levels of making “(meta)data for machines”. The definition and the differences between these terms are not always clear and depend on the current technology. Computers, software, programming languages, formats and standards evolve quite fast and therefore new inventions could potentially make machine-readable/actionable any digital object that wasn’t before. 
@@ -65,7 +67,7 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
 
 
 
-## What are the advantages of generating machine-actionable metadata and data, during and after the project?
+## What are the advantages of machine-actionable metadata and data?
 
 ### Description
 
