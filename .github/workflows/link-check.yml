@@ -44,6 +44,7 @@ jobs:
         env:
             PAGES_REPO_NWO: ${{ github.repository }}
             JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
+            JEKYLL_ENV: production
             JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Link Checker
