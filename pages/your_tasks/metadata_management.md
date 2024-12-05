@@ -117,6 +117,7 @@ There are multiple standards for different types of data, ranging from generic d
   * Be aware that data type specific repositories usually have check-lists for metadata. For example, the European Nucleotide Archive provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
 * If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {%tool "miame" %}, {%tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
+  * {% tool "min-info-standards" %}
   * {% tool "rda-standards" %}
   * {% tool "fairsharing" %} at “Standards” and “Collections”
   * {% tool "data-curation-centre-metadata-list" %}
