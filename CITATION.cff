@@ -6,7 +6,8 @@ title: "RDMkit: The Research Data Management toolkit for Life Sciences"
 version: 2.0.0
 doi: 10.5281/zenodo.5110060
 date-released: 2021-03-01
-url: "https://github.com/elixir-europe/rdmkit"
+repository-code: "https://github.com/elixir-europe/rdmkit"
+url: "https://rdmkit.elixir-europe.org"
 preferred-citation:
   type: website
   authors:
