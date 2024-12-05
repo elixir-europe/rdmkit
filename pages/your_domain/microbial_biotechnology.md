@@ -16,16 +16,16 @@ The microbial biotechnology domain is a very broad field that encompasses the ap
 The **Design-Build-Test-Learn (DBTL) cycle** represents experimental design and analysis steps in synthetic biology. Current data management best practices and guidelines that should be applied throughout the DBTL cycle will be described and discussed here.
 
 #### Design
-The design for a system in microbial biotechnology essentially involves two, interrelated exercises: (i) Identification of the biological entities/hosts that will be used to develop the product in question (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. The design stage may also include optional approaches: (iii) Metabolic engineering of biosynthetic pathways (iv) Using mathematical modelling to aid the design of the system. Data management best practices and guidelines should be applied for each exercise and approach.
+The design for a system in microbial biotechnology essentially involves two, interrelated exercises: (i) Identification of the biological entities/hosts that will be used to develop the product in question and (ii) Identification of the genetic modifications/circuitry/constructs necessary to modify the host if appropriate. The design stage may also include optional approaches: (iii) Metabolic engineering of biosynthetic pathways and (iv) Using mathematical modelling to aid the design of the system. Data management best practices and guidelines should be applied for each exercise and approach.
 
-The components of the design stage could be summarised as below.
+The components of the design stage can be summarised as:
 * [Biological host](microbial_biotechnology#design-biological-hosts---metadata-ontologies-and-metadata-publication) or organism.
 * [Synthetic parts](microbial_biotechnology#design-synthetic-parts---existing-data-metadata-collection-and-publication).
 * [Metabolomic pathways and enzymes](microbial_biotechnology#design-metabolomic-pathways-and-enzymes---metadata-ontologies-and-metadata-publication).
 * [Mathematical model](microbial_biotechnology#design-mathematical-model---standards-and-metadata-publication) for system design.
 
 #### Build
-The build stage in the microbial biotechnology and/or synthetic biology life cycle is about building of the microbial systems and involves the application of any number of a range of experimental techniques. In this stage the synthetic parts are assembled and transformed into the biological host.
+The build stage in the microbial biotechnology and/or synthetic biology life cycle is about the building of the microbial systems and involves the application of any number of a range of experimental techniques. At this stage, the synthetic parts are assembled and transformed into the biological host.
 
 The main aspects of the build stage are:
 * [methods](microbial_biotechnology#build-methods---documentation-and-metadata-publication), protocols and procedures used to build the modified organism.
@@ -36,7 +36,7 @@ The test stage of a biotechnological study is the most variable in terms of the 
 * Characterising the synthetic parts using experimental data.
 
 #### Learn
-The learning stage consists in interpreting the obtained results, share the acquired knowledge and reuse it in combination with other existing data to improve the creation of the modified organism.
+The learning stage consists of interpreting the obtained results, sharing the acquired knowledge and reusing it in combination with other existing data to improve the creation of the modified organism.
 * Publish and share data and results.
 * Reuse existing data and combine it with new data.
 * Feed data back into model(s) to inform the next iteration.
@@ -46,9 +46,9 @@ Here, we adopt the stages of **design**, **build** and **test**, and their compo
 ### Data management challenges
 Ultimately, the ideal scenario is that data is captured in a standard format and then uploaded to a repository to ensure that it is Findable, Accessible, Interoperable and Reusable (FAIR). However, for the biotechnology field, data standards are still under development or missing completely and there are still gaps in database provision for some data types.
 
-Due to the interdisciplinary nature of the field, data arising from studies in microbial biotechnology relate to both computational studies, such as modelling and simulation, and the results of wet-lab based studies used for the construction and experimental characterisation of microbial systems. Given the breadth, scope and rapid development of the field of microbial biotechnology, this guide is by no means exhaustive.
+Due to the interdisciplinary nature of the field, data arising from studies in microbial biotechnology relate to both computational studies, such as modelling and simulation, and the results of wet lab-based studies used for the construction and experimental characterisation of microbial systems. Given the breadth, scope and rapid development of the field of microbial biotechnology, this guide is by no means exhaustive.
 
-This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data sharing tools that can make it more complete. Sites such as {% tool "fairsharing" %} can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide.
+This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data-sharing tools that can make it more complete. Sites such as {% tool "fairsharing" %} can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide.
 
 
 ## Design: Biological hosts - metadata, ontologies and (meta)data publication
@@ -62,14 +62,14 @@ It is recommended to publish and share information about biological hosts in ded
  * The recording of taxonomic and genetic data must be considered carefully as part of the design stage.
  * Metadata surrounding the host is essential, such as where it was isolated, growth conditions, recommended protocols, etc.
  * Genetic information relating to strains and any modifications needs to be kept track of as modifications are made. Note that capturing the metadata describing a genome sequence and its host is vitally important to facilitate further studies in comparative genomics and phenotypic analysis.
- * To choose what are the appropriate repositories for your (meta)data, you should consider what kind of information about the host you are going to share, since each type of information could be published in a different repository.
+ * To choose what are the appropriate repositories for your (meta)data, you should consider what kind of information about the host you are going to share since each type of information could be published in a different repository.
    * Species, taxonomy, strain.
    * Phenotypic information.
    * Genomic or nucleotide information.
 
 ### Solutions
 #### Metadata schemas and ontologies
-* Current data standards to capture the  taxonomic and phenotypic data are still evolving, with notable work on the {% tool "access-to-biological-collection-data-schema" %} and the activities of the {% tool "biodiversity-information-standards" %}. The Darwin Core standard from the {% tool "biodiversity-information-standards" %} is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism.
+* The current data standards to capture the  taxonomic and phenotypic data are still evolving, with notable work on the {% tool "access-to-biological-collection-data-schema" %} and the activities of the {% tool "biodiversity-information-standards" %}. The Darwin Core standard from the {% tool "biodiversity-information-standards" %} is an appropriate standard to provide metadata about the taxonomic properties of a particular microorganism.
 * The {% tool "ncbi-taxonomy" %}homepage can also provide appropriate taxon IDs for recording taxonomic information.
 * Information about proposed standardised nomenclature for prokaryotes can be found at the {% tool "list-of-prokaryotic-names-with-standing-in-nomenclature" %} {% cite parte2020lpsn %}.
 * Data standards for recording the information about where a microorganism was isolated from do exist and this topic is covered in other RDMkit pages such as the [marine metagenomics](marine_metagenomics) domain. Information can also be found in a publication by Ten Hoopen and colleagues {% cite tenhoopen2015m2b3 %}. 
@@ -93,7 +93,7 @@ Appropriate and detailed description of the synthetic parts design is critical f
 ### Considerations
 * Format of designs may vary depending on the application, whether this be at the sequence level or an entire system.
 * Consider existing management tools that can help visualise and modify genetic designs.
-* Think about how the information about characterisation of genetic constructs assist in the selection of parts and modelling designs.
+* Think about how the information about the characterisation of genetic constructs assist in the selection of parts and modelling designs.
 * At this stage, it may be desirable to assert which host the designed device is intended to express in and also the intended method of replication in the host - for example, cloned on a particular plasmid or integrated in the host chromosome.
 
 ### Solutions
@@ -107,7 +107,7 @@ Appropriate and detailed description of the synthetic parts design is critical f
 * Sequences can be isolated from standard genetic databases such as {% tool "european-nucleotide-archive" %} and {% tool "genbank" %}.
 
 #### Tools for metadata collection
-* You can manage the design stage using genetic computer aided design tools, such as {% tool "benchling" %} for example, where information can be shared within small teams. {% tool "benchling" %} supports a number of different data standards including FASTA, GenBank and SBOL1. 
+* You can manage the design stage using genetic computer-aided design tools, such as {% tool "benchling" %} for example, where information can be shared within small teams. {% tool "benchling" %} supports a number of different data standards including FASTA, GenBank and SBOL1. 
   * Sometimes FASTA will be the most relevant format, for example when sending for DNA synthesis. 
   * Formats like GenBank, DICOM-SB {% cite sainzdemurieta2016toward %} or SBOL may be more applicable for instances where more information, such as functional annotation, would be useful to be shared. 
   * SBOL 2.0 and higher allows more than just the genetics of a system to be captured and shared. Using SBOL allows interactions between components in the design to be specified, information about RNA and proteins can be included and the provenance of a design can also be captured. Experimental information relating to the test and build of a system can also be captured and shared.
@@ -125,6 +125,7 @@ Appropriate and detailed description of the synthetic parts design is critical f
 * It would be recommended to use standard figures that can be easily understood. 
   * {% tool "sbol-visual" %} is a good example of a graphical standard; it utilises standard shapes to represent different genetic parts which can help clarify a complex synthetic construct. {% tool "sbol-visual" %} can be crafted using tools such as {% tool "visbol" %}.
 * Platforms such as {% tool "fairdom-seek" %}, built on technologies such as ISA, support a large range of systems and synthetic biology projects. {% tool "fairdom-seek" %} provides a web-based resource for sharing scientific research datasets, models or simulations, and processes. {% tool "fairdom-seek" %} can be installed locally or {% tool "fairdomhub" %}, a version of {% tool "fairdom-seek" %} is available for general community use.
+* Information about biological sources and other data not fitting elsewhere can be shared via the {% tool "biostudies" %} database,
 
 
 ## Design: Metabolomic pathways and enzymes - metadata, ontologies and (meta)data publication
@@ -160,7 +161,7 @@ How can the models be shared via repositories and made  available in a way that 
 
 ### Solutions
 * {% tool "systems-biology-markup-language" %} is a popular standardised format for sharing mathematical models for which a variety of tools are available for model building.
-* More generally, the {% tool "computational-modeling-in-biology-network" %}, provides a platform for coordinating standardisation of models in biology.
+* More generally, the {% tool "computational-modeling-in-biology-network" %}, provides a platform for coordinating the standardisation of models in biology.
 * SBOL can also be used to associate a genetic design with its corresponding model.
 * Models can be shared in model repositories such as {% tool "biomodels" %}.
 
@@ -197,7 +198,7 @@ The current method of sharing information about the building of microbial system
 ### Description
 The test stage of a biotechnological study is the most variable in terms of the types of data produced. The types of experiments carried out to test a microbial system are highly dependent on the intended function of the system under construction. Some common approaches include at the simplest level, characterising the growth of an organism at various scales in different growth regimes and assaying the production of desired product.
 
-The data arising from assays for product development is highly variable and beyond the scope of this short guide, however we propose some recommended resources.
+The data arising from assays for product development is highly variable and beyond the scope of this short guide, however, we propose some recommended resources.
 
 ### Considerations
 
