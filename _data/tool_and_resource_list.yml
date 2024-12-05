@@ -2748,3 +2748,9 @@
   registry:
     fairsharing: 4c0b6b
   url: http://uberon.org/
+  - description: Wikipedia list on minimum information standards
+    id: min-info-standard
+    name: Minimum information standards in life sciences
+    registry: 
+      fairsharing:
+    url: https://en.wikipedia.org/wiki/Minimum_information_standard
