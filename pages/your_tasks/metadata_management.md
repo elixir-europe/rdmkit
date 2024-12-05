@@ -1,6 +1,6 @@
 ---
 title: Documentation and metadata
-contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft, Elin Kronander, Marina Popleteeva]
+contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft, Elin Kronander, Marina Popleteeva, Gil Poiares-Oliveira]
 description: How to document and describe your data.
 page_id: metadata
 related_pages:
@@ -51,7 +51,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Solutions
 * There are many appropriate tools for data documentation during the project. Check with your institute to know what is offered.
-  * Electronic Lab Notebooks (ELNs) are usually better for more disparate and unstructured information that requires flexibility. Researchers can use ELN in a personalized way and adapt it to document their every-day work.
+  * Electronic Lab Notebooks (ELNs) are usually better for more disparate and unstructured information that requires flexibility. Researchers can use an ELN (such as {% tool "elabftw" %}) in a personalised way and adapt it to document their everyday work.
 
   * Laboratory Information Management Systems (LIMS) typically follow pre-defined and highly structured experimental workflow. LIMS are used to document and track biological samples through the experimental processes and can support direct import of data from sources such as instruments.
 
@@ -59,10 +59,11 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
   * Online platforms for collaborative research and file sharing services, which integrate with several data management tools, could also be used for data documentation during the project. For instance, {% tool "openscienceframework" %} has integrations with Mendeley, {% tool "dropbox" %}, {% tool "github" %}, {% tool "figshare" %}, etc.
 
-  * There is a major area of overlap between the aforementioned tools for data documentation, so it is better to choose the tool(s) that best address your specific need. Some tools can be used at the same time to address different needs and they can be complementary. Comparative lists can help with the choice:
+  * There is a major area of overlap between the aforementioned tools for data documentation, so it is better to choose the tool(s) that best address your specific need. Some tools can be used at the same time to address different needs and they can be complementary. Comparative lists and tools can help with the choice:
     * {% tool "harvard-medical-school-electronic-lab-notebooks" %}
     * {% tool "university-of-cambridge-electronic-research-notebook-products" %}
     * {% tool "publisso" %} - Documenting research data: Electronic Lab(oratory) Notebooks
+    * {% tool "eln-finder" %}
 
 * Independently of the tools, you should agree on and establish a [data organisation](data_organisation) system for files (or tables in a database) together with your team or [Data Management Working Group](data_quality#how-do-you-ensure-the-quality-of-research-data):
   * Folder structure
