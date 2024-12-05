@@ -43,6 +43,7 @@ jobs:
             args: _site/ --fallback-extensions .html
             # Don't fail action on broken links
             fail: false
+            lycheeVersion: nightly
             
       - name: Add page URL
         run: |
