@@ -24,7 +24,7 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB081
 ---
 
-## What does machine-readable, machine-actionable or machine-interpretable mean?
+## What does machine-readable, machine-actionable and machine-interpretable mean?
 
 ### Description
 More and more often, funders, data managers/stewards, IT staff and institutions in general encourage researchers in Life Sciences to generate metadata (and data) in ways that can be retrieved, read and processed by computers (machines).
