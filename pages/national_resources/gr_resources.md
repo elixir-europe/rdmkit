@@ -2,7 +2,7 @@
 
 title: Greece
 search_exclude: true
-description: <!---REPLACE THIS with a one sentence description of the page--->
+description: A comprehensive guide to research data management (RDM) in Greece, featuring tools, resources, and services tailored for the life sciences community.
 country_code: GR
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
@@ -31,8 +31,8 @@ ref_to_main_resources:
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
+  - name: RDMkit
+    description: A catalogue of best practices & tools relevant to data management.
     how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations, etc., are needed to access the resource or tool--->
     instance_of: <!--- REPLACE THIS with the tool id of which this resource is an instance of, taken from the all tools and resources file --->
     related_pages:
