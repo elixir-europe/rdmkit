@@ -74,6 +74,8 @@ subitems:
         url: /data_analysis
       - title: Data brokering
         url: /data_brokering
+      - title: Data discoverability
+        url: /data_discoverability
       - title: Data management coordination
         url: /dm_coordination
       - title: Data management plan
