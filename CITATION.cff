@@ -8,6 +8,6 @@ doi: 10.5281/zenodo.5110060
 date-released: 2021-03-01
 url: "https://github.com/elixir-europe/rdmkit"
 preferred-citation:
-  type: generic
+  type: website
   authors:
   - family-names: "ELIXIR"
