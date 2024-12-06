@@ -70,10 +70,14 @@ subitems:
         url: /compliance_monitoring
       - title: Costs of data management
         url: /costs_data_management
+      - title: Creating a data workflow
+        url: /creating_data_workflow
       - title: Data analysis
         url: /data_analysis
       - title: Data brokering
         url: /data_brokering
+      - title: Data discoverability
+        url: /data_discoverability
       - title: Data management coordination
         url: /dm_coordination
       - title: Data management plan

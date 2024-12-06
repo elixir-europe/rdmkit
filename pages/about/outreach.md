@@ -18,7 +18,7 @@ The poster can be found on [F1000Research](https://f1000research.com/posters/12-
 
 **2023-01-12**
 
-RDMkit was introduced to the [DSIG]((https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)) at one of their monthly meetings, together with introduction on IDTkit and FAIRCookBook. [Presentation slides on RDMkit (PDF)](https://drive.google.com/file/d/12aHIH0rRU6ogOOacZr3K6PrzXylYgHIo/view).
+RDMkit was introduced to the [DSIG](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/) at one of their monthly meetings, together with introduction on IDTkit and FAIRCookBook. [Presentation slides on RDMkit (PDF)](https://drive.google.com/file/d/12aHIH0rRU6ogOOacZr3K6PrzXylYgHIo/view).
 
 ### ELIXIR FAIR & Research Data Management know-how ecosystem - All hands 2022
 

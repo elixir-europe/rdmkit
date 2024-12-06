@@ -28,7 +28,7 @@ Daniel Faria:
 Pinar Alper:
     git: pinarpink
     orcid: 0000-0002-2224-0780
-    affiliation: LCSB / ELIXIR-LU
+    affiliation: ELIXIR-LU
 Carole Goble:
     git: CaroleGoble
     role: lead
@@ -201,7 +201,6 @@ Alexander Botzki:
 Martin Cook:
     git: martin-nc
     email: martin.cook@elixir-europe.org
-    role: editor
     affiliation: ELIXIR Hub
 Victoria Dominguez D. Angel:
     git: vdda
@@ -496,8 +495,8 @@ Teresa D'Altri:
 Marina Popleteeva:
     git: marikapop
     orcid: 0000-0002-8409-6147
-    email: marina.popleteeva@uni.lu
-    affiliation: Luxembourg Centre for Systems Biomedicine, University of Luxembourg
+    email: marina.popleteeva@lih.lu
+    affiliation: Luxembourg Institute of Health
     role: editor
 Vilem Ded:
     git: vildead
@@ -638,4 +637,17 @@ Magda Chegkazi:
     affiliation: ELIXIR 
 Arshiya Merchant:
     email: arshiya.merchant@elixir-europe.org
-    affiliation: ELIXIR 
+    affiliation: ELIXIR
+Xènia Pérez Sitjà:
+    affiliation: Earlham Institute / ELIXIR-UK
+    git: sitjart
+Aina Jené Cortada:
+    git: ainajene
+    email: aina.jene@crg.eu
+    orcid: 0000-0001-7721-7097
+    affiliation: European Genome-phenome Archive (EGA) / CRG
+Espen Åberg:
+    git: Workberg
+    email: espen.aberg@uit.no
+    orcid: 0000-0002-2280-7978
+    affiliation: UiT The Arctic University of Norway / ELIXIR-NO

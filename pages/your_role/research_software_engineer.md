@@ -1,7 +1,7 @@
 ---
 title: Research Software Engineer (RSE)
 description: Data management guidance for Research Software Engineers (RSEs).
-contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xenia Perez-Sitja, Nazeefa Fatima, Gregoire Rossier, Federico Bianchini, Erik Hjerde, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
+contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xènia Pérez Sitjà, Nazeefa Fatima, Gregoire Rossier, Federico Bianchini, Erik Hjerde, Minna Ahokas, Priit Adler, Alexander Botzki, Robert Andrews, Celia van Gelder, Graham Hughes, Marko Vidak, Pedro Fernandes, Pinar Alper, Victoria Dominguez D. Angel, Wolmar Nyberg Åkerström, Alexia Cardona]
 page_id: research_software_engineer
 ---
 
