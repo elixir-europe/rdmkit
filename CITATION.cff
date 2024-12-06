@@ -2,13 +2,15 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
   - family-names: "ELIXIR"
-title: "RDMkit: The Research Data Management toolkit for Life Sciences"
-version: 2.0.0
-doi: 10.5281/zenodo.5110060
-date-released: 2021-03-01
+title: "RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences"
+version: "2.0.0"
+doi: "10.5281/zenodo.5110060"
+date-released: "2021-03-01"
 repository-code: "https://github.com/elixir-europe/rdmkit"
 url: "https://rdmkit.elixir-europe.org"
 preferred-citation:
   type: website
+  title: "RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences"
   authors:
-  - family-names: "ELIXIR"
+    - family-names: "ELIXIR"
+  url: "https://rdmkit.elixir-europe.org"
