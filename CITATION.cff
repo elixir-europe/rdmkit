@@ -11,6 +11,4 @@ url: "https://rdmkit.elixir-europe.org"
 preferred-citation:
   type: website
   title: "RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences"
-  authors:
-    - family-names: "ELIXIR"
   url: "https://rdmkit.elixir-europe.org"
