@@ -1,8 +1,8 @@
 ---
-title: Creating a data workflow
+title: Creating a data workflow diagram
 contributors: [Vilem Ded]
 description: Best practices to capture your planned data workflow in a diagram.
-page_id: creating_data_workflow
+page_id: creating_workflow_diagram
 ---
 
 ## How should you draw a data workflow diagram?

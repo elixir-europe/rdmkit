@@ -194,7 +194,7 @@
   date: 2024-10-24
   linked_pr: 1526
   description: The page is enriched with additional links and a bibliography. [Discover the page here](human_pathogen_genomics).
-- name: "New page: Creating a data workflow"
+- name: "New page: Creating a data workflow diagram"
   date: 2024-12-06
   linked_pr: 1528
   description: This page guides you with capturing your planned data workflow in a diagram. [Discover the page here](creating_data_workflow).
