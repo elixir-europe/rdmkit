@@ -49,7 +49,7 @@ national_resources:
     related_pages:
       your_tasks: [data_analysis]
       tool_assembly: [marine_assembly]
-    url:  https://mmp2.sfb.uit.no/metapipe/
+    url: https://sfb.mmp2.sigma2.no/metapipe/
   - name: Norwegian COVID-19 Data Portal
     description: The Norwegian COVID-19 Data Portal aims to bundle the Norwegian research efforts and offers guidelines, tools, databases and services to support Norwegian COVID-19 researchers.
     related_pages:
