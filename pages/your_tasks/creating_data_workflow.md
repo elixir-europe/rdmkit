@@ -53,6 +53,6 @@ A well-crafted workflow diagram also boosts the engagement of less-involved part
 * Source files for the diagrams should be vector based to facilitate portability and reuse. For example, Scalable Vector Graphics (SVG).
 * For dissemination, you can use a raster-graphics file format such as Portable Network Graphics (PNG) or other.
 * Use vector graphics tool of your preference.
-  * open source: [Draw.io](https://www.drawio.com/), [Inkscape](https://inkscape.org/), [Libre Office Draw](https://www.libreoffice.org/discover/draw/).
+  * open source: {% tool "draw-io" %}, {% tool "inkscape" %}, {% tool "libre-office-draw" %}.
   * licensed: MS Visio, Miro.com, Corel Draw, MS PowerPoint.
-* Investigate your tool and all features it provides. E.g. Draw.io allows you to host the diagram in {% tool "github" %} making it very convenient tool for collaborative editing.
+* Investigate your tool and all features it provides. E.g. {% tool "draw-io" %} allows you to host the diagram in {% tool "github" %} making it very convenient tool for collaborative editing.
