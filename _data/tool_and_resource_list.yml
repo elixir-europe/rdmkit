@@ -2772,7 +2772,7 @@
   id: inkscape
   name: Inkscape
   url: https://inkscape.org/
-- description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This powerful tool allows users to create complex designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. Whether for professional projects or personal creativity, LibreOffice Draw provides a robust platform for crafting detailed illustrations and diagrams.
+- description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This tool allows users to create designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. It provides a robust platform for crafting illustrations and diagrams.
   id: libre-office-draw
   name: Libre Office Draw
   url: https://www.libreoffice.org/discover/draw/
