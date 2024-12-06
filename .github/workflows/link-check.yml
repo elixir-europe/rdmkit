@@ -40,7 +40,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
             # Check all markdown, html and reStructuredText files in repo (default)
-            args: _site/ --fallback-extensions html --github-token ${{ secrets.GITHUB_TOKEN }}
+            args: _site/ --fallback-extensions html --github-token ${{ secrets.PERSONAL_GITHUB_TOKEN }}
             # Don't fail action on broken links
             fail: false
             lycheeVersion: nightly
