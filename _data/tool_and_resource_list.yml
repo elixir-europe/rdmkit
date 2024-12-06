@@ -1252,23 +1252,23 @@
   name: MarDB
   registry:
     biotools: mardb
-  url: https://mmp2.sfb.uit.no/mardb/
+  url: https://sfb.mmp2.sigma2.no/mardb/
 - description: MarFun is a manually curated marine fungi genome database.
   id: marfun
   name: MarFun
-  url: https://mmp2.sfb.uit.no/marfun/
+  url: https://sfb.mmp2.sigma2.no/marfun/
 - description: High-quality curated and freely accessible microbial genomics and metagenomics resources for the marine scientific community
   id: marine-metagenomics-portal
   name: Marine Metagenomics Portal (MMP)
   registry:
     biotools: mmp
-  url: https://mmp2.sfb.uit.no/
+  url: https://sfb.mmp2.sigma2.no
 - description: MarRef is a manually curated marine microbial reference genome database that equenced genomes. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation information
   id: marref
   name: MarRef
   registry:
     biotools: marref
-  url: https://mmp2.sfb.uit.no/marref/
+  url: https://sfb.mmp2.sigma2.no/marref/
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: mascot
   name: Mascot
@@ -1785,7 +1785,7 @@
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes representing the microbiota of fishes found in the taxonomic family of Salmonidae.
   id: saldb
   name: salDB
-  url: https://mmp.sfb.uit.no/databases/saldb/
+  url: https://sfb.mmp2.sigma2.no/databases/saldb/
 - description: Small Angle Scattering Biological Data Bank
   id: sasbdb
   name: SASBDB
