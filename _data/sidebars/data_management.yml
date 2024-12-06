@@ -70,6 +70,8 @@ subitems:
         url: /compliance_monitoring
       - title: Costs of data management
         url: /costs_data_management
+      - title: Creating a data workflow
+        url: /creating_data_workflow
       - title: Data analysis
         url: /data_analysis
       - title: Data brokering
@@ -96,8 +98,6 @@ subitems:
         url: /storage
       - title: Data transfer
         url: /data_transfer
-      - title: Creating a data workflow
-        url: /creating_data_workflow
       - title: Documentation and metadata
         url: /metadata_management
       - title: Ethical aspects
