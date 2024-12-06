@@ -1,8 +1,8 @@
 ---
-title: Data workflow diagram
+title: Creating a data workflow
 contributors: [Vilem Ded]
 description: Best practices to capture your planned data workflow in a diagram.
-page_id: data_workflow_diagram
+page_id: creating_data_workflow
 related_pages: 
 dsw:
 faircookbook:
@@ -12,15 +12,19 @@ faircookbook:
 
 ### Description
 
-Creating a data workflow diagram for your research project greatly enhances your data management process. While Data Management Plans (DMPs) can span tens or even hundreds of pages, a diagram offers a more concise and accessible way to represent your workflow. This visual approach helps bridge the gap between partners who may have varying perceptions and levels of understanding, ensuring everyone is aligned. Diagrams make it easier to identify potential issues by highlighting undocumented data sources or destinations that might otherwise go unnoticed in a lengthy document. Additionally, these visual representations are invaluable during discussions and planning sessions, sparking deeper conversations and encouraging collaboration. A well-crafted workflow diagram also boosts the engagement of less-involved partners or stakeholders, giving them a clear and intuitive way to contribute to the planning process.
+Creating a data workflow diagram for your research project greatly enhances your data management process.
+While Data Management Plans (DMPs) can span tens or even hundreds of pages, a diagram offers a more concise and accessible way to represent your workflow.
+This visual approach helps bridge the gap between partners who may have varying perceptions and levels of understanding, ensuring everyone is aligned.
+Diagrams make it easier to identify potential issues by highlighting undocumented data sources or destinations that might otherwise go unnoticed in a lengthy document.
+A well-crafted workflow diagram also boosts the engagement of less-involved partners or stakeholders, giving them a clear and intuitive way to contribute to the planning process.
 
 ### Considerations
 
-* Even a simple diagram can significantly improve clarity and communication, but it's essential to first consider the complexity of the workflow. If the process is straightforward and can be easily described in a single paragraph, a diagram might not be necessary. However, for more complex workflows with multiple steps, data sources, or stakeholders, a diagram is invaluable for identifying steps, dependencies, potential issues and ensuring everyone has a shared understanding.
-* The more complex the workflow, the more time and effort it will take to create and update the diagram. It’s important to plan carefully and ensure that the time invested in diagram creation and updates is manageable and that your contribution is clearly recognized.
-* A diagram can include sensitive or confidential information or reveal critical details that could be exploited by attackers, such as system vulnerabilities or data access points.  So be cautious about sharing it publicly. Ensure that appropriate security measures are in place and such information is properly protected to prevent security breaches.
+* A simple diagram can significantly improve clarity and communication and it's essential to first consider the complexity of the workflow. For complex project with multiple steps, data sources, or stakeholders, a diagram is invaluable for identifying steps, dependencies, potential issues and ensuring everyone has a shared understanding.
+* The more complex the workflow, the more time and effort it will take to create and update the diagram. It is important to plan carefully and ensure that the time invested in diagram creation and updates is manageable and that your contribution is clearly recognized.
+* A diagram may include sensitive or confidential information or reveal critical details that could be exploited by attackers, such as system vulnerabilities or data access points. Therefore, be cautious about sharing information publicly. Ensure that appropriate security measures are in place and such information is properly protected to prevent security breaches.
 * While a diagram is a helpful tool, it is usually not legally binding without a formal, written description of the workflow. It’s good practice to complement your diagram with a full textual annex to ensure the process is well-documented and understood.
-* Content of the diagram will depend on many factors. Its good practice to start with definition of the targeted audience (project partners, data managers, funders, public) and main purpose (capturing life of project data, clarification of data protection framework​, description of pre-processing steps). Based on the targeted audience and purpose, you can then more precisely define the scope of your diagram, i.e. what (not) to include. These can be physical assets and entities (partners/people, storage locations, instruments, datasets, documents) or logical elements of your project (processes, data types, partner roles).
+* Content of the diagram will depend on many factors. It is good practice to start with definition of the targeted audience (project partners, data managers, funders, public) and main purpose (capturing life of project data, clarification of data protection framework​, description of pre-processing steps). Based on the targeted audience and purpose, you can then more precisely define the scope of your diagram, i.e. what (not) to include. These can be physical assets and entities (partners/people, storage locations, instruments, datasets, documents) or logical elements of your project (processes, data types, partner roles).
 * Same as DMP, the diagram is a living resource and should be updated as the research project progresses.
 
 ### Solution

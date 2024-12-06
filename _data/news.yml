@@ -197,4 +197,4 @@
 - name: "New page: Data workflow diagram"
   date: 2024-12-06
   linked_pr: 1528
-  description: This page guides you with capturing your planned data workflow in a diagram. [Discover the page here](data_workflow_diagram).
+  description: This page guides you with capturing your planned data workflow in a diagram. [Discover the page here](creating_data_workflow).

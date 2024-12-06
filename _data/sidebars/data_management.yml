@@ -97,7 +97,7 @@ subitems:
       - title: Data transfer
         url: /data_transfer
       - title: Data workflow diagram
-        url: /data_workflow_diagram
+        url: /creating_data_workflow
       - title: Documentation and metadata
         url: /metadata_management
       - title: Ethical aspects
