@@ -3,9 +3,6 @@ title: Creating a data workflow
 contributors: [Vilem Ded]
 description: Best practices to capture your planned data workflow in a diagram.
 page_id: creating_data_workflow
-related_pages: 
-dsw:
-faircookbook:
 ---
 
 ## How should you draw a data workflow diagram?
@@ -52,7 +49,7 @@ A well-crafted workflow diagram also boosts the engagement of less-involved part
 
 * Source files for the diagrams should be vector based to facilitate portability and reuse. For example, Scalable Vector Graphics (SVG).
 * For dissemination, you can use a raster-graphics file format such as Portable Network Graphics (PNG) or other.
-* Use vector graphics tool of your preference.
-  * open source: {% tool "draw-io" %}, {% tool "inkscape" %}, {% tool "libre-office-draw" %}.
-  * licensed: MS Visio, Miro.com, Corel Draw, MS PowerPoint.
+* Use a vector graphics tool of your preference.
+  * Open source: {% tool "draw-io" %}, {% tool "inkscape" %}, {% tool "libre-office-draw" %}.
+  * Licensed: MS Visio, Miro.com, Corel Draw, MS PowerPoint, Affinity Designer and Adobe Illustrator.
 * Investigate your tool and all features it provides. E.g. {% tool "draw-io" %} allows you to host the diagram in {% tool "github" %} making it very convenient tool for collaborative editing.
