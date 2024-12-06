@@ -1,5 +1,6 @@
 ---
 title: Your tasks
+toc: false
 ---
 
 In this section, information is organised around regular research data management tasks or challenges. You will find:

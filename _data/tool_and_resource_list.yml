@@ -26,6 +26,7 @@
   id: bioimage
   name: BioImage Model Zoo
   registry:
+    fairsharing: 77fc63
     tess: BioImage Model Zoo
   url: https://bioimage.io/#/
 - description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology.
@@ -41,6 +42,8 @@
 - description: The platform where the machine learning community collaborates on models, datasets, and applications.
   id: huggingface
   name: HuggingFace
+  registry:
+    tess: HuggingFace
   url: https://huggingface.co/
 - description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
   id: catboost
@@ -87,7 +90,6 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
-    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   id: bioformats2raw
@@ -172,8 +174,10 @@
 - description: Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.
   id: argos
   name: Argos
+  registry:
+    tess: Argos
   url: https://argos.openaire.eu/splash/
-- description: A repository of array based genomics data
+- description: A collection in BioStudies for archiving and publishing data from high-throughput functional genomics experiments.
   id: arrayexpress
   name: ArrayExpress
   registry:
@@ -264,7 +268,6 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
-    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Platform designed to efficiently generate bioactive conformers and speed up the drug discovery process.
   id: bioactive-conformational-ensemble
@@ -316,7 +319,7 @@
     fairsharing: f3a3ca
     tess: Bioschemas
   url: https://bioschemas.org
-- description: A database hosting datasets from biological studies. Useful for storing or accessing data that is not compliant for mainstream repositories.
+- description: A database hosting datasets from biological studies. Useful for storing or accessing life sciences data without community-accepted repositories, and for linking components of data from multi-omics studies.
   id: biostudies
   name: BioStudies
   registry:
@@ -330,7 +333,7 @@
   registry:
     biotools: bisque
   url: https://bioimage.ucsb.edu/bisque
-- description: Git based code hosting and collaboration tool, built for teams.
+- description: Git-based code hosting and collaboration tool, built for teams.
   id: bitbucket
   name: Bitbucket
   registry:
@@ -558,6 +561,7 @@
   name: CTD
   registry:
     biotools: ctd
+    tess: CTD
   url: http://ctdbase.org/
 - description: Command line tool and library for transferring data with URLs
   id: curl
@@ -1299,6 +1303,8 @@
 - description: Minimum Information About Disorder Experiments (MIADE) standard
   id: miade
   name: MIADE
+  registry:
+    tess: MIADE
   url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
 - description: Minimum Information About a Plant Phenotyping Experiment
   id: miappe
@@ -1315,9 +1321,9 @@
   id: microsoft-onedrive
   name: Microsoft OneDrive
   url: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
-- description: Minimum Information about a (Meta)Genome Sequence
+- description: a conceptual structure for extending the core INSDC information to describe genomic and metagenomic sequences.
   id: migs-mims
-  name: MIGS/MIMS
+  name: Minimum Information about a (Meta)Genome Sequence (MIxS - MIGS/MIMS)
   registry:
     fairsharing: va1hck
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
@@ -1327,12 +1333,11 @@
   registry:
     biotools: mineprot
   url: https://github.com/huiwenke/MineProt
-- description: Minimum Information about any (x) Sequence
+- description: An overarching framework of standard metadata that includes sequence-type and technology-specific checklists.
   id: mixs
-  name: MIxS
+  name: Minimum Information about any (x) Sequence (MIxS)
   registry:
     fairsharing: 9aa0zp
-    tess: MIxS
   url: https://genomicsstandardsconsortium.github.io/mixs/
 - description: Provides a set of open-source, cross-platform software libraries and tools that facilitate proteomics data analysis.
   id: msconvert
@@ -1405,6 +1410,8 @@
 - description: Online database hosting a vast amount of biotechnological information including nucleic acids, proteins, genomes and publications. Also boasts integrated tools for analysis.
   id: national-center-for-biotechnology-information
   name: National Center for Biotechnology Information (NCBI)
+  registry:
+    tess: National Center for Biotechnology Information (NCBI)
   url: https://www.ncbi.nlm.nih.gov
 - description: The National Biomonitoring Program (NBP) is a public resource that offers an assessment of nutritional status and the exposure of the U.S. population to environmental chemicals and toxic substances.
   id: nbp
@@ -1590,6 +1597,7 @@
   name: Pharos
   registry:
     biotools: pharos
+    fairsharing: 52d6ae
   url: https://pharosproject.net/
 - description: The open-source Phenotyping Hybrid Information System (PHIS) manages and collects data from plants phenotyping and high throughput phenotyping experiments on a day to day basis.
   id: phis
@@ -2295,9 +2303,12 @@
   registry:
     fairsharing: ZPRtfG
   url: http://agrold.southgreen.fr/agrold/
-- description: Interoperability in small molecules
+- description: Increasing interoperability of small molecules by agregating many different sources of information into a single, logically coherent and semantically interconnected information source.
   id: integrated-database-of-small-molecules
-  name: Integrated Database of Small Molecules
+  name: Integrated Database of Small Molecules (IDSM)
+  registry:
+    biotools: idsm
+    fairsharing: nn9r0d
   url: https://idsm.elixir-czech.cz/
 - description: The OME Model is a specification for storing data on biological imaging.
   id: ome-data-model-and-file-formats
@@ -2654,3 +2665,15 @@
   id: better-bibtex
   name: Better BibTeX (BBT)
   url: https://retorque.re/zotero-better-bibtex/
+- description: Beacon for OMOP (B4OMOP) software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database.
+  id: b4omop
+  name: Beacon for OMOP (B4OMOP)
+  url: https://gitlab.bsc.es/impact-data/impd-beacon_omopcdm
+- description: Developed through the Global Alliance for Genomics and Health (GA4GH) Discovery workstream with support from ELIXIR, Beacon is a data discovery protocol defining an open standard for discovering genomic and phenoclinic data in research and clinical applications.
+  id: beacon-v2
+  name: Beacon v2
+  url: https://docs.genomebeacons.org/implementations-options/
+- description: An open-source out-of-the-box toolkit to initiate a Beacon v2. B2RI includes tools for loading metadata, such as phenotypic data and genomic variants into a MongoDB database, and features a Beacon query engine (REST API).
+  id: beacon-ri
+  name: Beacon v2 Reference Implementation (B2RI)
+  url: https://github.com/EGA-archive/beacon2-ri-tools-v2

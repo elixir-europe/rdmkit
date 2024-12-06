@@ -1,5 +1,6 @@
 ---
 title: National resources
+toc: false
 ---
 
 To carry out RDM tasks FAIRly and effectively, it is important to consider not only common global solutions but also existing, national solutions, that are often dependent on institute- and country-specific policies, funders, and infrastructures.
