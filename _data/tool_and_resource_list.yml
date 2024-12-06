@@ -58,7 +58,7 @@
   name: Plant 3D
   registry:
     biotools: plant-3d
-  url: https://bio.tools/plant-3d
+  url: https://github.com/iziamtso/P3D/
 - description: LeafNet is a convenient tool that can robustly localize stomata and segment pavement cells for light-microscope images of leaves
   id: leafnet
   name: LeafNet
@@ -127,7 +127,7 @@
   id: 4dn-bina-ome-quarep
   name: 4DN-BINA-OME-QUAREP (NBO-Q)
   registry:
-    fairsharing: '4747'
+    fairsharing: 87756d
   url: https://www.nature.com/articles/s41592-021-01327-9
 - description: A standard schema for primary biodiversity data
   id: access-to-biological-collection-data-schema
@@ -280,6 +280,7 @@
   name: Bioconda
   registry:
     biotools: bioconda
+    fairsharing: 185b0d
     tess: Bioconda
   url: https://bioconda.github.io/
 - description: Biodiversity Information Standards (TDWG), historically the Taxonomic Databases Working Group, work to develop biodiversity information standards
@@ -514,6 +515,7 @@
   id: conda
   name: Conda
   registry:
+    fairsharing: NA
     tess: Conda
   url: https://docs.conda.io/en/latest/
 - description: A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards
@@ -1250,23 +1252,23 @@
   name: MarDB
   registry:
     biotools: mardb
-  url: https://mmp2.sfb.uit.no/mardb/
+  url: https://sfb.mmp2.sigma2.no/mardb/
 - description: MarFun is a manually curated marine fungi genome database.
   id: marfun
   name: MarFun
-  url: https://mmp2.sfb.uit.no/marfun/
+  url: https://sfb.mmp2.sigma2.no/marfun/
 - description: High-quality curated and freely accessible microbial genomics and metagenomics resources for the marine scientific community
   id: marine-metagenomics-portal
   name: Marine Metagenomics Portal (MMP)
   registry:
     biotools: mmp
-  url: https://mmp2.sfb.uit.no/
+  url: https://sfb.mmp2.sigma2.no
 - description: MarRef is a manually curated marine microbial reference genome database that equenced genomes. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation information
   id: marref
   name: MarRef
   registry:
     biotools: marref
-  url: https://mmp2.sfb.uit.no/marref/
+  url: https://sfb.mmp2.sigma2.no/marref/
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: mascot
   name: Mascot
@@ -1783,7 +1785,7 @@
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes representing the microbiota of fishes found in the taxonomic family of Salmonidae.
   id: saldb
   name: salDB
-  url: https://mmp.sfb.uit.no/databases/saldb/
+  url: https://sfb.mmp2.sigma2.no/databases/saldb/
 - description: Small Angle Scattering Biological Data Bank
   id: sasbdb
   name: SASBDB
@@ -2266,15 +2268,16 @@
   id: expression-atlas
   name: Expression Atlas
   registry:
+    biotools: expression_atlas
     fairsharing: f5zx00
     tess: Expression Atlas
   url: https://www.ebi.ac.uk/gxa/home
-- description: Accessible database designed by scientist for scientist, to improve the sharing of influenza data.
+- description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
   id: gisaid
-  name: GISAID
+  name: Global Initiative on Sharing All Influenza Data (GISAID)
   registry:
-    fairsharing: ba6a09
-  url: https://www.gisaid.org
+    fairsharing: 2f7f9f
+  url: https://gisaid.org
 - description: Protein Data Bank in Europe Knowledge Base
   id: pdbe-kb
   name: PDBe-KB
@@ -2473,6 +2476,8 @@
 - description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
   id: sceasy
   name: SCEasy
+  registry:
+    biotools: sceasy
   url: https://github.com/cellgeni/sceasy
 - description: Interactive portal for single-cell genomics data.
   id: single-cell-portal
@@ -2672,8 +2677,102 @@
 - description: Developed through the Global Alliance for Genomics and Health (GA4GH) Discovery workstream with support from ELIXIR, Beacon is a data discovery protocol defining an open standard for discovering genomic and phenoclinic data in research and clinical applications.
   id: beacon-v2
   name: Beacon v2
+  registry:
+    tess: Beacon v2
   url: https://docs.genomebeacons.org/implementations-options/
 - description: An open-source out-of-the-box toolkit to initiate a Beacon v2. B2RI includes tools for loading metadata, such as phenotypic data and genomic variants into a MongoDB database, and features a Beacon query engine (REST API).
   id: beacon-ri
   name: Beacon v2 Reference Implementation (B2RI)
   url: https://github.com/EGA-archive/beacon2-ri-tools-v2
+- description: Discover tools and best practices for working with infectious disease data. IDTk provides general guidance as well as specific information for pathogen characterisation, socioeconomic data, human biomolecular data, and human clinical and health data.
+  id: idtk
+  name: Infectious Diseases Toolkit (IDTk)
+  url: https://www.infectious-diseases-toolkit.org/
+- description: The Federated EGA is an infrastructure built upon the European Genome-phenome Archive (EGA), an EMBL-EBI and CRG data resource for secure archiving and sharing of human sensitive biomolecular and phenotypic data resulting from biomedical research projects.
+  id: fega
+  name: Federated EGA
+  registry:
+    tess: Federated EGA
+  url: https://ega-archive.org/about/projects-and-funders/federated-ega/
+- description: The Pathogens Portal aims to provide access to data and tools relating to pathogens, their human and animal hosts and their vectors. Current content spans bacterial, viral and eukaryotic parasite lineages alongside human host data.
+  id: pathogens-portal
+  name: Pathogens Portal
+  registry:
+    fairsharing: a085b2
+    tess: Pathogens Portal
+  url: https://www.pathogensportal.org/
+- description: NCBI Pathogen Detection integrates bacterial and fungal pathogen genomic sequences from numerous ongoing surveillance and research efforts whose sources include food, environmental sources such as water or production facilities, and patient samples. Foodborne, hospital-acquired, and other clinically infectious pathogens are included.
+  id: pathogen-detection
+  name: Pathogen Detection
+  registry:
+    tess: Pathogen Detection
+  url: https://www.ncbi.nlm.nih.gov/pathogens/
+- description: The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.
+  id: covid-19-data-portal
+  name: COVID-19 Data Portal
+  registry:
+    biotools: covid-19-data-portal
+    fairsharing: f3b7a9
+    tess: COVID-19 Data Portal
+  url: https://www.covid19dataportal.org/
+- description: The Disease Ontology has been developed as a standardised ontology for human disease to provide the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics, underlying mechanisms and related medical vocabulary disease concepts.
+  id: doid
+  name: Disease Ontology (DOID)
+  registry:
+    fairsharing: 8b6wfq
+  url: http://www.disease-ontology.org
+- description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations.
+  id: genepio
+  name: Genomic Epidemiology Ontology (GenEpiO)
+  registry:
+    fairsharing: y1mmbv
+  url: https://genepio.org/
+- description: PATO is an ontology of phenotypic qualities, intended for use primarily in phenotype annotation.
+  id: pato
+  name: Phenotypic QualiTy Ontology (PATO)
+  registry:
+    biotools: pato
+    fairsharing: ezwdhz
+  url: https://github.com/pato-ontology/pato/
+- description: ChEBI) is a dictionary describing small chemical compounds including distinct synthetic or natural atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, and conformers.
+  id: chebi
+  name: Chemical Entities of Biological Interest (ChEBI)
+  registry:
+    biotools: chebi
+    fairsharing: 62qk8w
+    tess: Chemical Entities of Biological Interest (ChEBI)
+  url: https://www.ebi.ac.uk/chebi/
+- description: Uberon is an integrated cross-species anatomy ontology covering animals and bridging multiple species-specific ontologies.
+  id: uberon
+  name: UBER anatomy ONtology (UBERON)
+  registry:
+    fairsharing: 4c0b6b
+  url: http://uberon.org/
+- description: A free and open source electronic lab notebook.
+  id: elabftw
+  name: eLabFTW
+  url: https://www.elabftw.net/
+  registry:
+    tess: elabftw
+- description: A tool to aid in choosing the most suitable Electronic Lab Notebook (ELN) for a specific purpose.
+  id: eln-finder
+  name: ELN Finder
+  url: https://eln-finder.ulb.tu-darmstadt.de/home
+- description: List of minimum information standards on Wikipedia
+  id: min-info-standards
+  name: Minimum information standards in life sciences
+  registry: 
+    fairsharing:
+  url: https://en.wikipedia.org/wiki/Minimum_information_standard
+- description: draw.io is a free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+  id: draw-io
+  name: draw.io
+  url: https://www.drawio.com/
+- description: Inkscape is a versatile and free graphic design editor suitable for both personal and professional use. It offers a comprehensive suite of design tools, enabling users to create and edit vector graphics, primarily in the SVG format. Additionally, Inkscape supports working with rasterized images (bitmaps), making it a powerful tool for diverse design projects.
+  id: inkscape
+  name: Inkscape
+  url: https://inkscape.org/
+- description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This tool allows users to create designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. It provides a robust platform for crafting illustrations and diagrams.
+  id: libre-office-draw
+  name: Libre Office Draw
+  url: https://www.libreoffice.org/discover/draw/

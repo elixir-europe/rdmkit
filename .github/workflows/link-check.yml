@@ -1,0 +1,61 @@
+name: Link Checker
+
+on:
+  workflow_dispatch:    
+  schedule:
+    - cron: "00 18 * * *"
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+
+
+      - name: Install dependencies
+        run: |
+            bundle install
+      - name: Build with Jekyll
+          # Outputs to the './_site' directory by default
+        run: |
+            bundle exec jekyll build
+        env:
+            PAGES_REPO_NWO: ${{ github.repository }}
+            JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
+            JEKYLL_ENV: production
+            JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+            # Check all markdown, html and reStructuredText files in repo (default)
+            args: _site/ --fallback-extensions html --github-token ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+            # Don't fail action on broken links
+            fail: false
+            lycheeVersion: nightly
+            
+      - name: Add page URL
+        run: |
+            DEPLOY_URL="https://rdmkit.elixir-europe.org/" && \
+            sed -i "s|\\#\\#\\# Errors in _site\/|\\#\\#\\# Errors in ${DEPLOY_URL}|g" ./lychee/out.md && \
+            cat ./lychee/out.md
+            
+      - name: Create Issue From File
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: bug, automated issue
+          issue-number: 1570

@@ -49,7 +49,7 @@ national_resources:
     related_pages:
       your_tasks: [data_analysis]
       tool_assembly: [marine_assembly]
-    url:  https://mmp2.sfb.uit.no/metapipe/
+    url: https://sfb.mmp2.sigma2.no/metapipe/
   - name: Norwegian COVID-19 Data Portal
     description: The Norwegian COVID-19 Data Portal aims to bundle the Norwegian research efforts and offers guidelines, tools, databases and services to support Norwegian COVID-19 researchers.
     related_pages:
@@ -278,7 +278,7 @@ A DMP typically contains information about data handling during a project and af
 
 <!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
 
-ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](https://norway.dsw.elixir-europe.org/wizard/), an internationally developed tool that has been adapted to better suit the needs of Norwegian researchers, PIs, and institutions. Both [RCN]((https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/)) and [BOTT (Bergen, Oslo, Trondheim, Tromsø) university libraries](https://zenodo.org/record/7428542) list the DSW as a preferred tool, particularly for life sciences data. DSW provides templates that are compliant with all different funders' regulations and offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for your own projects.
+ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](https://norway.dsw.elixir-europe.org/wizard/), an internationally developed tool that has been adapted to better suit the needs of Norwegian researchers, PIs, and institutions. Both [RCN](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) and [BOTT (Bergen, Oslo, Trondheim, Tromsø) university libraries](https://zenodo.org/record/7428542) list the DSW as a preferred tool, particularly for life sciences data. DSW provides templates that are compliant with all different funders' regulations and offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for your own projects.
 
 
 ## Life science-specific infrastructures/resources
