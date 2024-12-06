@@ -37,7 +37,7 @@ RDMkit was developed with funding from the European Union’s Horizon 2020 Resea
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>ELIXIR (2021) Research Data Management Kit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org</a></i></p>
+    <p class="card-text"><i>ELIXIR Research Data Management Kit - RDMkit URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org</a></i></p>
   </div>
 </div>
 
