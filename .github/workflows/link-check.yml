@@ -37,7 +37,7 @@ jobs:
 
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@v2.1.0
         with:
             # Check all markdown, html and reStructuredText files in repo (default)
             args: _site/ --fallback-extensions html --exclude '^https://github\.com'
