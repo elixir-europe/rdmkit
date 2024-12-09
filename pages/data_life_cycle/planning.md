@@ -4,7 +4,7 @@ page_id: plan
 description: Introduction to data management planning.
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
 related_pages: 
-  your_tasks: [compliance, costs, dmp, data_security, dm_coordination, machine_actionability, creating_workflow_diagram]
+  your_tasks: [compliance, costs, dmp, data_security, dm_coordination, machine_actionability, creating_dataflow_diagram]
 training:
   - name: Training in TeSS
     registry: TeSS
