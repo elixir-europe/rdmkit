@@ -43,7 +43,7 @@ jobs:
             args: _site/ --fallback-extensions html --exclude '^https://github\.com'
             # Don't fail action on broken links
             fail: false
-            lycheeVersion: 0.17.0
+            lycheeVersion: v0.17.0
             
       - name: Add page URL
         run: |
