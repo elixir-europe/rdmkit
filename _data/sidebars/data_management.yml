@@ -70,7 +70,7 @@ subitems:
         url: /compliance_monitoring
       - title: Costs of data management
         url: /costs_data_management
-      - title:  Creating a data-flow diagram
+      - title: Creating a data-flow diagram
         url: /creating_dataflow_diagram
       - title: Data analysis
         url: /data_analysis
