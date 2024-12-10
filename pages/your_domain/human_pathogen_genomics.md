@@ -49,6 +49,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
 * Ensure that the project’s procedures conform with good practices for handling [human data](human_data). In particular, the following sections of the RDMkit:
   * [Planning for projects with human data](human_data#planning-for-projects-with-human-data)
   * [Processing and analysing human data](human_data#processing-and-analysing-human-data)
+* You can also check the practices included in the {% tool "idtk" %} related to the management of human and pathogen data in the context of infectious diseases.
 
 #### Isolate pathogen from host information
 * Depending on the pathogen and how it interacts with the host or the methods applied, it can be possible to generate clean isolates that do not contain host-related material. Data produced from a clean isolate could potentially be handled with fewer restrictions, while other data will be considered to be [sensitive](data_sensitivity) and will need [protection](data_security).
