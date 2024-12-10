@@ -297,7 +297,7 @@ Established by ELIXIR Norway and hosted by the University of Oslo, the Norwegian
 
 ### Norwegian tools assembly for sensitive personal data
 
-ELIXIR Norway's tools assembly for personally identifiable datasets is based on the University of Oslo's Services for Sensitive Data (TSD). This infrastructure provides resources to help you comply with Norwegian and European regulations regarding sensitive personal data. You can also store, process, and analyse your data in a secure, restricted environment and use a wide range of integrated data management tools. More details are available on the [National Norwegian services for sensitive (personal) data tool assembly RDMkit page](tsd_assembly).
+ELIXIR Norway's tools assembly for personally identifiable datasets is based on the University of Oslo's Services for Sensitive Data (TSD). TSD provides resources to help you comply with Norwegian and European regulations regarding sensitive personal data. You can also store, process, and analyse your data in a secure, restricted environment and use a wide range of integrated data management tools. More details are available on the [National Norwegian services for sensitive (personal) data tool assembly RDMkit page](tsd_assembly).
 
 ### The Norwegian Pathogen Portal
 
