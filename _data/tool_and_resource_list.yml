@@ -1346,6 +1346,7 @@
   name: msconvert
   registry:
     biotools: msconvert
+    tess: msconvert
   url: https://proteowizard.sourceforge.io/
 - description: A database of protein disorder and mobility annotations
   id: mobidb
