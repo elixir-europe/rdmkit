@@ -49,7 +49,7 @@ The Estonian government has released an “Estonian Research and Development, In
 * [Open Knowledge Estonia](https://okee.ee/andmeklubi/) Promoter of data competence and digital literacy in Estonia.
 
 ### Libraries
-* [University of Tartu Library](https://utlib.ut.ee/en/open-science) open science page. The main focus is on Open Science and Open Access and how to write a Data Management Plan
+* [University of Tartu Library](https://utlib.ut.ee/en/content/open-science) open science page. The main focus is on Open Science and Open Access and how to write a Data Management Plan
 * [Library of Estonian University of Life Sciences](https://library.emu.ee/en/research/open-science/) open science page.
 * [Tallinn University of Technology](https://taltech.ee/en/library/open-science) open science page.
 
