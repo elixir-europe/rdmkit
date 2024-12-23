@@ -789,6 +789,8 @@
 - description: The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
   id: ena-upload-tool
   name: ENA upload tool
+  registry:
+    tess: ENA upload tool
   url: https://github.com/usegalaxy-eu/ena-upload-cli
 - description: Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.
   id: ensembl
