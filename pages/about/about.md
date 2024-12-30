@@ -34,6 +34,7 @@ RDMkit was developed with funding from the European Union’s Horizon 2020 Resea
 
 ## How to cite the RDMkit
 
+When referencing content from the RDMkit pages, please cite as follows:
 
 <div class="card bg-light my-4">
   <div class="card-body">
