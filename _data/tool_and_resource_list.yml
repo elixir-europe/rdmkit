@@ -789,6 +789,8 @@
 - description: The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
   id: ena-upload-tool
   name: ENA upload tool
+  registry:
+    tess: ENA upload tool
   url: https://github.com/usegalaxy-eu/ena-upload-cli
 - description: Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.
   id: ensembl
@@ -1346,6 +1348,7 @@
   name: msconvert
   registry:
     biotools: msconvert
+    tess: msconvert
   url: https://proteowizard.sourceforge.io/
 - description: A database of protein disorder and mobility annotations
   id: mobidb
@@ -2751,9 +2754,9 @@
 - description: A free and open source electronic lab notebook.
   id: elabftw
   name: eLabFTW
-  url: https://www.elabftw.net/
   registry:
-    tess: elabftw
+    tess: eLabFTW
+  url: https://www.elabftw.net/
 - description: A tool to aid in choosing the most suitable Electronic Lab Notebook (ELN) for a specific purpose.
   id: eln-finder
   name: ELN Finder
@@ -2761,8 +2764,6 @@
 - description: List of minimum information standards on Wikipedia
   id: min-info-standards
   name: Minimum information standards in life sciences
-  registry: 
-    fairsharing:
   url: https://en.wikipedia.org/wiki/Minimum_information_standard
 - description: draw.io is a free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
   id: draw-io
@@ -2771,6 +2772,8 @@
 - description: Inkscape is a versatile and free graphic design editor suitable for both personal and professional use. It offers a comprehensive suite of design tools, enabling users to create and edit vector graphics, primarily in the SVG format. Additionally, Inkscape supports working with rasterized images (bitmaps), making it a powerful tool for diverse design projects.
   id: inkscape
   name: Inkscape
+  registry:
+    tess: Inkscape
   url: https://inkscape.org/
 - description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This tool allows users to create designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. It provides a robust platform for crafting illustrations and diagrams.
   id: libre-office-draw
