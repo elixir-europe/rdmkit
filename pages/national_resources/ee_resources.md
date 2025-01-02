@@ -52,7 +52,7 @@ The Estonian government has released an “Estonian Research and Development, In
 
 ### Open Science at Estonian Libraries
 
-* [Open Science page for University of Tartu Library](https://utlib.ut.ee/en/content/open-science) Includes guidelines on how to write a Data Management Plan
+* [Open Science page for University of Tartu Library](https://utlib.ut.ee/en/content/open-science) includes guidelines on how to write a Data Management Plan
 * [Open Science page for Library of Estonian University of Life Sciences](https://library.emu.ee/en/research/open-science/)
 * [Open Science page for Tallinn University of Technology](https://taltech.ee/en/library/open-science)
 * [Open Science page for The Academic Library of Tallinn University](https://www.tlulib.ee/en/research/open-science/open-access/)
