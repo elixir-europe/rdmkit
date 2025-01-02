@@ -50,17 +50,13 @@ The Estonian government has released an “Estonian Research and Development, In
 * [Open Knowledge Estonia](https://okee.ee/andmeklubi/) Promoter of data competence and digital literacy in Estonia.
 * [Data management policy in National Institute of Chemical Physics and Biophysics](https://kbfi.ee/wp-content/uploads/2024/08/KBFI-andmehalduse-poliitika_2020.pdf) (in Estonian)
 
-### Open Science at Estonian Libraries
+### Open Science in Estonia
 
+* [Open Science in Estonia](https://www.avatudteadus.ee/en/home/) - the official Open Science branding of Estonia, developed by the University of Tartu Library; contains information about community, infrastructure, initiatives, and services.
 * [Open Science page for University of Tartu Library](https://utlib.ut.ee/en/content/open-science) includes guidelines on how to write a Data Management Plan
 * [Open Science page for Library of Estonian University of Life Sciences](https://library.emu.ee/en/research/open-science/)
 * [Open Science page for Tallinn University of Technology](https://taltech.ee/en/library/open-science)
 * [Open Science page for The Academic Library of Tallinn University](https://www.tlulib.ee/en/research/open-science/open-access/)
-
-
-### Other initiatives
-* [Open Science in Estonia](https://www.avatudteadus.ee/en/home/): the official Open Science branding of Estonia, developed by the University of Tartu Library. Contains information about community, initiatives, infrastructure and services.
-
 
 ## Domain-specific infrastructures or resources
 
