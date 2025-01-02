@@ -44,14 +44,18 @@ The Estonian government has released an “Estonian Research and Development, In
 <!--- Ethical and legal regulations in the country, committees, etc.; we mostly don't have these, we will add different organisations dealing with data management in Estonia --->
 
 ### Organisations
+
 * [Estonian Research Council](https://etag.ee/en/activities/open-science/) open science policies, surveys and documentation.
 * ELIXIR Estonia [Data Management page](https://elixir.ut.ee/data_management/introduction/): general information about data management and specific recommendations and references on how to manage your scientific data in Estonia.
 * [Open Knowledge Estonia](https://okee.ee/andmeklubi/) Promoter of data competence and digital literacy in Estonia.
+* [Data management policy in National Institute of Chemical Physics and Biophysics](https://kbfi.ee/wp-content/uploads/2024/08/KBFI-andmehalduse-poliitika_2020.pdf) (in Estonian)
 
-### Libraries
-* [University of Tartu Library](https://utlib.ut.ee/en/content/open-science) open science page. The main focus is on Open Science and Open Access and how to write a Data Management Plan
-* [Library of Estonian University of Life Sciences](https://library.emu.ee/en/research/open-science/) open science page.
-* [Tallinn University of Technology](https://taltech.ee/en/library/open-science) open science page.
+### Open Science at Estonian Libraries
+
+* [Open Science page for University of Tartu Library](https://utlib.ut.ee/en/content/open-science) Includes guidelines on how to write a Data Management Plan
+* [Open Science page for Library of Estonian University of Life Sciences](https://library.emu.ee/en/research/open-science/)
+* [Open Science page for Tallinn University of Technology](https://taltech.ee/en/library/open-science)
+* [Open Science page for The Academic Library of Tallinn University](https://www.tlulib.ee/en/research/open-science/open-access/)
 
 
 ### Other initiatives
