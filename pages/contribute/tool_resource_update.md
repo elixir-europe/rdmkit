@@ -20,7 +20,7 @@ Tools and resources mentioned in the text of the pages should be included in the
 
 Additionally, it is important to note that we do not distinguish between tools and resources; these terms are used interchangeably throughout RDMkit.
 
-Tool and resource mentions are allowed in the following sections:  
+Tool and resource mentions are allowed only in the following sections:  
 - **Your domain**  
 - **Your role**  
 - **Your tasks**  
