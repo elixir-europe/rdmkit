@@ -4,7 +4,7 @@ title: Add new tool or resource
 
 ## Way of working
 
-The "Tools and resources on this page" you will find at the bottom of many pages are a subset of the [All tools and resources](all_tools_and_resources) table. The appearance of a tool or resource in this subset is solely determined by the fact that it is mentioned in the content of that page.
+You will find a "Tools and resources on this page" section at the bottom of most pages. The entries of this section are a subset of the [All tools and resources](all_tools_and_resources) table. The appearance of a tool or resource in this subset is solely determined by the fact that it is mentioned in the content of that page using the syntax described below.
 
 The [All tools and resources](all_tools_and_resources) table is described in a central YAML file, [tool_and_resource_list.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml), in the `_data` directory. Tools and resources can be manually linked to [FAIRsharing.org](https://fairsharing.org/), [bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/). We also run a fully automatic weekly check that links tools and resources with the corresponding registries. A GitHub Bot will open a Pull Request (PR) when new links are found.
 
