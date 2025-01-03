@@ -26,7 +26,7 @@ Tool and resource mentions are allowed in the following sections:
 - **Your tasks**  
 - **Tool assembly**  
 
-If your contribution aligns with these criteria, follow the steps outlined below to add it to the main YAML file.
+If your contribution aligns with these criteria, follow the steps outlined below to add your entries to the main YAML file.
 
 ## The main YAML file
 
