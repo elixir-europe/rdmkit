@@ -52,7 +52,7 @@ Example:
 
 ## Linking the tool or resource in the text with the main YAML file
 
-1. Make sure the tool you want to add is not already described in the [YAML file](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml). If so, go to step 3, if not, follow the next step.
+1. Make sure the tool you want to add is not already listed in the [YAML file](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml). If so, go to step 3, if not, follow the next step.
 
 1. Click on the pencil icon seen on GitHub of the [main YAML file](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml) as described in our GitHub Guide. Add your tool or resource at the bottom of the file following the structure described in the [The main YAML file section of this page](#the-main-YAML-file). Make sure the indentation follows one of the previously listed items. In case of doubt, copy the content of the YAML file and paste it into an online YAML validator to check the format.
 
