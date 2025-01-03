@@ -18,7 +18,7 @@ Tools and resources mentioned in the text of the pages should be included in the
 - **Policies**: Guidelines, mandates, or institutional frameworks.  
 - **Webpages of groups or consortia**: Informational pages or organizational websites without a dedicated tool or service.
 
-Additionally, it is important to note that we do not distinguish between tools and resources; the terms are used interchangeably throughout RDMkit.
+Additionally, it is important to note that we do not distinguish between tools and resources; these terms are used interchangeably throughout RDMkit.
 
 Tool and resource mentions are allowed in the following sections:  
 - **Your domain**  
