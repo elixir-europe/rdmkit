@@ -16,17 +16,6 @@ national_resources:
       your_role: [researcher]
       your_tasks: [data_analysis]
     url: https://galaxy.hpc.ut.ee/
-
-  - name: REDCap Estonia
-    description: This is the Estonian instance of REDCap, which is a secure web platform for building and managing online databases and surveys.
-    how_to_access:
-    instance_of: redcap
-    related_pages:
-      tool_assembly:
-      your_domain:
-      your_role: [data_steward]
-      your_tasks: [data_quality]
-    url: https://redcap.ut.ee/
 ---
 
 ## Introduction
