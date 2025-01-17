@@ -35,7 +35,7 @@ Each tool or resource mentioned in the text has metadata stored in the [main YAM
 - **name**: the name of the tool or resource
 - **url**: URL to the main page of the tool or resource, make sure to let the URL start with `https://`
 - **description**: A short description of the tool or resource. Try to not use the characters `"` or `'` 
-- **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing`, `fairsharing-coll` and `tess`, specifying the id or query with a colon. FAIRsharing collections have an ID that follows the pattern `bsg-s000XXX`. List registries under the `registry` attribute as `key: value pairs`. If no FAIRsharing ID, Bio.tools ID or TeSS query is available for a source, you can overwrite the automatic linking by adding 'NA' as a registry.
+- **registry**: 3 registries are supported: [Bio.tools](https://bio.tools), [FAIRsharing.org](https://fairsharing.org/) and [TeSS](https://tess.elixir-europe.org/). The keywords you can use respectively are: `biotools`, `fairsharing`, `fairsharing-coll` and `tess`, specifying the id or query with a colon. For FAIRsharing, copy the alphanumeric characters after "FAIRsharing." in the DOI. FAIRsharing collections are not associated with a DOI but use a four-digit ID well-visible on the page. List registries under the `registry` attribute as `key: value pairs`. If no FAIRsharing ID, bio.tools ID or TeSS query is available for a source, you can overwrite the automatic linking by adding 'NA' as a registry.
 
 Example:
 
@@ -48,6 +48,7 @@ Example:
     small data
   registry:
     tess: GitHub
+    fairsharing: c55d5e
 ```
 
 ## Linking the tool or resource in the text with the main YAML file
