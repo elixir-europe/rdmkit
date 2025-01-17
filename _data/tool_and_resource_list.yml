@@ -748,13 +748,13 @@
   id: elixir-core-data-resources
   name: ELIXIR Core Data Resources
   registry:
-    fairsharing-coll: bsg-c000039
+    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/core-data-resources
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
   id: elixir-deposition-databases-for-biomolecular-data
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
-    fairsharing-coll: bsg-c000039
+    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
   id: life-science-login
