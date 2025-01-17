@@ -531,7 +531,7 @@
   name: COPO
   registry:
     biotools: copo
-    fairsharing-coll: bsg-d001247
+    fairsharing: 91a79b
   url: https://copo-project.org/
 - description: Examples and tools to create a codebook by the Data Documentation Initiative (DDI)
   id: create-a-codebook
