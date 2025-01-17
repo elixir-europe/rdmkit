@@ -1039,7 +1039,6 @@
   name: GitHub
   registry:
     fairsharing: c55d5e
-    fairsharing-coll: bsg-d001160
     tess: GitHub
   url: https://github.com
 - description: GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.
