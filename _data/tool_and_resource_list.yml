@@ -1940,7 +1940,7 @@
   id: the-open-biological-and-biomedical-ontology-foundry
   name: The Open Biological and Biomedical Ontology (OBO) Foundry
   registry:
-    fairsharing-coll: bsg-d001083
+    fairsharing: 847069
   url: http://obofoundry.org
 - description: The Toxicology in the 21st Century program, or Tox21, is a unique collaboration between several federal agencies to develop new ways to rapidly test whether substances adversely affect human health. The Tox21 Toolbox contains data-analysis tools for accessing and visualizing Tox21 quantitative high-throughput screening (qHTS) 10K library data, as well as integrating with other publicly available data.
   id: tox21-toolbox
