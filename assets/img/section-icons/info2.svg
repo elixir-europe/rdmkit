@@ -14,22 +14,11 @@
         fill: #2a2e3d;
       }</style>
  </defs>
- <path class="cls-1" d="m230 30a200 200 0 0 0-200 200 200 200 0 0 0 200 200 200 200 0 0 0 200-200 200 200 0 0 0-200-200zm0 46.705a156.22 153.29 0 0 1 156.22 153.29 156.22 153.29 0 0 1-156.22 153.29 156.22 153.29 0 0 1-156.22-153.29 156.22 153.29 0 0 1 156.22-153.29z" style="display:none"/>
  <circle class="cls-1" cx="230" cy="230" r="200"/>
- <path d="m230 29.686c-65.28 0-118.26 31.894-118.26 71.196v258.23c0 39.302 52.982 71.201 118.26 71.201 65.28 0 118.26-31.898 118.26-71.201v-258.23c0-39.302-52.982-71.196-118.26-71.196z" style="display:none;fill-opacity:.50196;fill:#c3366a;stroke-width:0px"/>
- <g style="display:none">
-  <path d="m230 182.75c-30.376 0-55.029 24.649-55.029 55.025v137.21c0 30.376 24.653 55.029 55.029 55.029 30.376 0 55.029-24.653 55.029-55.029v-137.21c0-30.376-24.653-55.025-55.029-55.025z" style="display:inline;fill:#2a2e3d;stroke-width:0px"/>
-  <circle class="cls-2" cx="230" cy="85.187" r="55.029" style="display:inline;fill:#2a2e3d;stroke-width:0px"/>
- </g>
- <g transform="translate(-8.8658 18.046)" style="display:none">
-  <g transform="translate(-1.2723 23.59)">
-   <path transform="translate(10.138 -41.636)" d="m230 190.36c-16.883 0-30.586 13.701-30.586 30.584v110.93c0 16.883 13.703 30.586 30.586 30.586s30.586-13.703 30.586-30.586v-110.93c0-16.883-13.703-30.584-30.586-30.584z" style="fill:#2a2e3d;stroke-width:0px"/>
+ <g transform="translate(-8.8658,18.046)">
+  <g transform="translate(-1.2723,23.59)">
+   <path transform="translate(10.138,-41.636)" d="m230 190.36c-16.883 0-30.586 13.701-30.586 30.584v110.93c0 16.883 13.703 30.586 30.586 30.586s30.586-13.703 30.586-30.586v-110.93c0-16.883-13.703-30.584-30.586-30.584z" style="fill:#2a2e3d;stroke-width:0px"/>
    <circle class="cls-2" cx="240.14" cy="94.494" r="30.586"/>
   </g>
- </g>
- <g transform="translate(.72498 12.524)">
-  <circle cx="230" cy="154.18" r="52.81" style="fill:#2a2e3d;stop-color:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:.68032"/>
-  <circle cx="161.91" cy="268.78" r="52.81" style="fill:#2a2e3d;stop-color:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:.68032"/>
-  <circle cx="296.64" cy="268.78" r="52.81" style="fill:#2a2e3d;stop-color:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:.68032"/>
  </g>
 </svg>
