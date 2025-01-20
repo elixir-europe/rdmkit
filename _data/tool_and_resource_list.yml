@@ -1281,7 +1281,7 @@
   id: massive
   name: MassIVE
   registry:
-    fairsharing: 8ac890
+    fairsharing: LYsiMd
     tess: MassIVE
   url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
 - description: Database of over 5000 intrinsic membrane protein structures
