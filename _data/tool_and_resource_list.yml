@@ -692,6 +692,7 @@
   id: docker
   name: Docker
   registry:
+    fairsharing: NA
     tess: Docker
   url: https://www.docker.com/
 - description: A DSW knowledge model guiding users through a set of questions to collect information necessary for a research project Data Protection Impact Assessment (DPIA).
@@ -1273,12 +1274,14 @@
   name: Mascot
   registry:
     biotools: MASCOT
+    fairsharing: 8e1ce0
     tess: Mascot
   url: https://www.matrixscience.com/server.html
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: massive
   name: MassIVE
   registry:
+    fairsharing: LYsiMd
     tess: MassIVE
   url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
 - description: Database of over 5000 intrinsic membrane protein structures
