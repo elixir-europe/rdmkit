@@ -2222,9 +2222,9 @@
   id: dockerfile-reference
   name: Dockerfile reference
   url: https://docs.docker.com/engine/reference/builder/
-- description: Compose is a tool for defining and running multi-container  applications.
+- description: Compose is a tool for defining and running multi-container Docker applications.
   id: docker-compose-overview
-  name:  Docker Compose overview
+  name: Docker Compose overview
   url: https://docs.docker.com/compose/
 - description: Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
   id: kubernetes
