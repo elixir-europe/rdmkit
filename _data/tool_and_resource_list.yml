@@ -688,7 +688,7 @@
   registry:
     biotools: ddbj
   url: https://www.ddbj.nig.ac.jp/index-e.html
-- description:  is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
+- description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
   name: Docker
   registry:
