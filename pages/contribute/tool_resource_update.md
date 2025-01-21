@@ -16,7 +16,7 @@ The [All tools and resources](all_tools_and_resources) table is described in a c
 Tools and resources mentioned in the text of the pages should be included in the main table. However, not everything qualifies as a tool or resource in the context of RDMkit. Specifically, the following are **not** considered tools or resources:  
 - **Publications**: Articles, white papers, or other academic literature. See our [style guide](https://rdmkit.elixir-europe.org/style_guide#bibliography) on how to add publications using a Bibiography.
 - **Policies**: Guidelines, mandates, or institutional frameworks.  
-- **Webpages of groups or consortia**: Informational pages or organizational websites without a dedicated tool or service.
+- **Webpages of groups or consortia**: Informational pages or organisational websites without a dedicated tool or service.
 
 Additionally, it is important to note that we do not distinguish between tools and resources; these terms are used interchangeably throughout RDMkit.
 
