@@ -8,7 +8,7 @@ You will find a "Tools and resources on this page" section at the bottom of most
 
 The [All tools and resources](all_tools_and_resources) table is described in a central YAML file, [tool_and_resource_list.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml), in the `_data` directory. Tools and resources can be manually linked to [FAIRsharing.org](https://fairsharing.org/), [bio.tools](https://bio.tools) and [TeSS](https://tess.elixir-europe.org/). We also run a fully automatic weekly check that links tools and resources with the corresponding registries. A GitHub Bot will open a Pull Request (PR) when new links are found.
 
-{% include callout.html type="important" content="Possible links between a tool or resource and registries like FAIRsharing, TeSS and Bio.tools, are automatically identified using GitHub Actions on a weekly basis. If the automatically proposed link is faulty, and there is no FAIRsharing ID, Bio.tools ID or TeSS query available for the source, you can overwrite the automatic linking by adding `NA` as a registry." %}
+{% include callout.html type="important" content="Possible links between a tool or resource and registries such as FAIRsharing, TeSS, or bio.tools are automatically identified using GitHub Actions on a weekly basis. If the automatically proposed link is not relevant, and there is no other FAIRsharing ID, bio.tools ID, or TeSS query available for the source, you can overwrite the automatic linking by adding `NA` as the value of a registry field." %}
 
 
 ## When can you add a new tool or resource
