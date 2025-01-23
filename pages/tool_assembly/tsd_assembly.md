@@ -33,14 +33,14 @@ If you are affiliated to a Norwegian institution which has already stipulated a 
 {% include image.html file="TSD_tool_assembly.svg" caption="Figure 1. Norwegian ELIXIR tools assembly for sensitive data - TSD" alt="TSD tool assembly" %}
 
 
-The Norwegian tools assembly for sensitive data offers support with [Data Management Planning](planning) through an [instance of the Data Stewardship Wizard](https://elixir-no.ds-wizard.org) following the guidelines of the major national and European funding bodies. Dedicated references guide you through national infrastructure, resources, laws and regulations and also include the {% tool "tryggve-elsi-checklist" %} for Ethical, Legal and Social Implications. Soon you will be able to submit storage request forms for [Data Storage](storage) in TSD with defined access permissions through the Data Stewardship Wizard.
+The Norwegian tools assembly for sensitive data offers support with [Data Management Planning](planning) through a [national instance of the Data Stewardship Wizard (DSW)](https://norway.dsw.elixir-europe.org/wizard/) following the guidelines of the major national and European funding bodies. Dedicated references in DSW guide you (user) through national infrastructure, resources, and laws and regulations, and also include the {% tool "tryggve-elsi-checklist" %} for Ethical, Legal and Social Implications. In the future, you will be able to submit storage request forms for [Data Storage](storage) in TSD with defined access permissions through the DSW.
 
-TSD offers [Data Storage](storage) services. Moreover, [Processing](processing) and [Analysing](analysing) of data is performed in a safe environment within TSD. 
+In addition to storage services offered by TSD, [processing](processing) and [analysis](analysing) of data is performed in a safe environment within TSD. 
 As a national user, you can access TSD by identifying yourself using the Norwegian [ID-porten](https://eid.difi.no/en/id-porten) system. International users can get access by contacting [tsd-contact@usit.uio.no](mailto:tsd-contact@usit.uio.no).
 
 Within TSD, you can access  a Windows or Linux virtual machine (VM) and, upon request, [high performance computing (HPC) resources](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/resources.html) and [backup storage](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/directories-files/backup/index.html). You login using two factor authentication with [Google Authenticator](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en) and a dedicated username and password. The [login in procedure](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/login/index.html) is different for Windows and Linux VMs on TSD.
 
-As the primary design goal of TSD is security, [transfer of data](data_transfer) by other means to and from [TSD is restricted and logged](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/import-export/index.html).
+As the primary design goal of TSD is data security, [transfer of data](data_transfer) by other means to and from [TSD is restricted and logged](https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/import-export/index.html).
 
 
 ### Data management planning
