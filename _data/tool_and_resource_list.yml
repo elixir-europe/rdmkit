@@ -1446,6 +1446,8 @@
 - description: Repository for lipid MD simulations to validate force fields with NMR data
   id: nmrlipids
   name: NMRlipids
+  registry:
+    fairsharing: d32bc8
   url: http://nmrlipids.blogspot.com/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
