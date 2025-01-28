@@ -13,6 +13,8 @@ training:
 faircookbook:
 - name: Depositing IMI EUBOPEN High-Content Screening data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB067
+- name: Depositing Covid-19 image data to BioImage Archive
+  url: https://w3id.org/faircookbook/FCB086
 ---
 
 ## Introduction
