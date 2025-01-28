@@ -16,7 +16,7 @@ national_resources:
     description: Extensible and searchable catalogue for DMP resources. Currently inactive
     <!--- url: inactive --->
 
-      - name: Federated EGA (FEGA)
+      - name: Federated EGA (FEGA) Greece
     description: Local EGA implementation by ELIXIR-GR, aligned with the FEGA framework, currently in testing mode.
     how_to_access: Restricted to test users; details available upon request.
     <!---related_pages:--->
@@ -25,21 +25,21 @@ national_resources:
 
  - name: Genomic Data Infrastructure (GDI)
     description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
-    how_to_access:  Login via GDI Portal.
+    how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
     related_pages:
       tool_assembly: Beacon Network, LS AAI, REMS, htsget.
     url: (https://login.gdi.elixir-greece.org/)
-   
- - name: Genomic Data Infrastructure (GDI)
-    description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
-    how_to_access:  Login via GDI Portal.
+
+   - name: ARGOS
+    description:  ARGOS is an open, extensible service based on OpenCDMP software that simplifies the creation, management, and validation of research plans, including Data Management Plans (DMPs) and Software Management Plans (SMPs). It integrates with the OpenAIRE Graph, applying FAIR principles to ensure that research outputs are Findable, Accessible, Interoperable, and Reusable. ARGOS also supports research administration by streamlining workflows, enabling researchers, data stewards, and institutions to collaborate effectively in managing both research data and software. With curated templates and tools for planning, validation, and monitoring, ARGOS helps drive best practices in Open Science.
+    how_to_access:  OpenAIRE AAI
     related_pages:
-      tool_assembly: Beacon Network, LS AAI, REMS, htsget.
-    url: (https://login.gdi.elixir-greece.org/)
+      tool_assembly: 
+    url: (https://argos.openaire.eu/splash/)
 ---
 
 ## Introduction 
-This page provides useful information and resources with a focus on research data management in Greece. An overview of services provided by ELIXIR Greece can be found on the websites of ELIXIR Greece https://www.elixir-greece.org/node/268 and ELIXIR.
+This page provides useful information and resources with a focus on research data management in Greece. An overview of services provided by ELIXIR Greece can be found on the website https://www.elixir-greece.org/node/268.
 
 <!---## Funders--->
 
@@ -53,7 +53,7 @@ The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information,
 ## More information
 [ELIXIR-GR: Prospects of data and tools for Elixir-Greece](https://zenodo.org/records/4043630#.ZACFtE_Nx60)
 
-[Zenodo ELIXIR-Greece Galaxy server](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
+[The ELIXIR-Greece Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
 
 [Twitter ELIXIR Greece](https://x.com/i/flow/login?redirect_after_login=%2Felixir_greece)
 
