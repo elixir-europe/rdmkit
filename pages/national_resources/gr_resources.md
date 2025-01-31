@@ -55,5 +55,3 @@ The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information,
 
 [The ELIXIR-Greece Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
 
-[Twitter ELIXIR Greece](https://x.com/i/flow/login?redirect_after_login=%2Felixir_greece)
-
