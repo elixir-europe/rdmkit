@@ -14,28 +14,24 @@ coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 national_resources: 
   - name: DMPlanner
     description: Extensible and searchable catalogue for DMP resources. Currently inactive
-    <!--- url: inactive --->
+    url: inactive
 
-      - name: Federated EGA (FEGA) Greece
+  - name: Federated EGA (FEGA) Greece
     description: Local EGA implementation by ELIXIR-GR, aligned with the FEGA framework, currently in testing mode.
     how_to_access: Restricted to test users; details available upon request.
-    <!---related_pages:--->
-    <!---  tool_assembly: Federated Human Data Community.--->
     url: under development
 
- - name: Genomic Data Infrastructure (GDI)
+  - name: Genomic Data Infrastructure (GDI)
     description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
     how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
     related_pages:
       tool_assembly: Beacon Network, LS AAI, REMS, htsget.
-    url: (https://login.gdi.elixir-greece.org/)
+    url: https://login.gdi.elixir-greece.org/
 
-   - name: ARGOS
+  - name: ARGOS
     description:  ARGOS is an open, extensible service based on OpenCDMP software that simplifies the creation, management, and validation of research plans, including Data Management Plans (DMPs) and Software Management Plans (SMPs). It integrates with the OpenAIRE Graph, applying FAIR principles to ensure that research outputs are Findable, Accessible, Interoperable, and Reusable. ARGOS also supports research administration by streamlining workflows, enabling researchers, data stewards, and institutions to collaborate effectively in managing both research data and software. With curated templates and tools for planning, validation, and monitoring, ARGOS helps drive best practices in Open Science.
     how_to_access:  OpenAIRE AAI
-    related_pages:
-      tool_assembly: 
-    url: (https://argos.openaire.eu/splash/)
+    url: https://argos.openaire.eu/splash/
 ---
 
 ## Introduction 
@@ -51,7 +47,6 @@ The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information,
 
 
 ## More information
-[ELIXIR-GR: Prospects of data and tools for Elixir-Greece](https://zenodo.org/records/4043630#.ZACFtE_Nx60)
-
-[The ELIXIR-Greece Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
+- [ELIXIR-GR: Prospects of data and tools for Elixir-Greece](https://zenodo.org/records/4043630#.ZACFtE_Nx60)
+- [The ELIXIR-Greece Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
 
