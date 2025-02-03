@@ -2781,3 +2781,9 @@
   id: libre-office-draw
   name: Libre Office Draw
   url: https://www.libreoffice.org/discover/draw/
+- description: The Research Organization Registry (ROR) is a project developing open unique identifiers for research organisations.
+  id: ror
+  name: Research Organization Registry (ROR)
+  url: https://ror.org/
+  registry:
+    fairsharing: 1jKfji
