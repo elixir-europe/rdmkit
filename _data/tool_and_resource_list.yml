@@ -214,6 +214,7 @@
   name: BacDive
   registry:
     biotools: bacdive
+    fairsharing: aSszvY
     tess: BacDive
   url: https://bacdive.dsmz.de
 - description: A repository specific to Bacillus strains
