@@ -4,7 +4,7 @@ title: Greece
 description: A comprehensive guide to research data management (RDM) in Greece, featuring tools, resources, and services tailored for the life sciences community.
 country_code: GR
 contributors: [Eleni Adamidi]
-coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
+coordinators: []
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
 
@@ -12,14 +12,6 @@ coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
-  - name: DMPlanner
-    description: Extensible and searchable catalogue for DMP resources. Currently inactive
-    url: inactive
-
-  - name: Federated EGA (FEGA) Greece
-    description: Local EGA implementation by ELIXIR-GR, aligned with the FEGA framework, currently in testing mode.
-    how_to_access: Restricted to test users; details available upon request.
-    url: under development
 
   - name: Genomic Data Infrastructure (GDI)
     description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
@@ -32,6 +24,12 @@ national_resources:
     description:  ARGOS is an open, extensible service based on OpenCDMP software that simplifies the creation, management, and validation of research plans, including Data Management Plans (DMPs) and Software Management Plans (SMPs). It integrates with the OpenAIRE Graph, applying FAIR principles to ensure that research outputs are Findable, Accessible, Interoperable, and Reusable. ARGOS also supports research administration by streamlining workflows, enabling researchers, data stewards, and institutions to collaborate effectively in managing both research data and software. With curated templates and tools for planning, validation, and monitoring, ARGOS helps drive best practices in Open Science.
     how_to_access:  OpenAIRE AAI
     url: https://argos.openaire.eu/splash/
+
+  - name: Greek COVID-19 Portal
+    description: Provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
+    url: https://covid19dataportal.gr/
+    related_pages: https://rdmkit.elixir-europe.org/covid19_data_portal
+    
 ---
 
 ## Introduction 
@@ -43,7 +41,7 @@ This page provides useful information and resources with a focus on research dat
 <!--- Ethical and legal regulations in the country, committees, etc. --->
 
 ## Domain-specific infrastructures or resources 
-The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
+The [Greek COVID-19 Portal](https://covid19dataportal.gr/) 
 
 
 ## More information
