@@ -35,13 +35,14 @@ If the research institute or group has a centralised and structured system (such
 * At the beginning of your research project, check if your institute or research group has a centralised database where data must be entered during data collection. Usually, large and international research projects, industries, research institutes or hospitals have a centralised electronic database, an Electronic Data Capture (EDC) system, a Laboratory Information Management System (LIMS) or an Electronic Lab Notebook (ELN) with a user interface for data entry. More details about using ELNs are given by e.g. {% tool "university-of-cambridge-electronic-research-notebook-products" %} and {% tool "harvard-medical-school-electronic-lab-notebooks" %}.
 * If you can choose how to manage your data entry system, consider what the level of exposure of the identifier for each record or observation in the dataset should be. Define the context in which the identifier should be used and is unique. This is a key aspect of defining what kind of identifier for each individual record is appropriate in your case.
   * Should the identifier of a record or observation be unique within your spreadsheet, your entire research project files or across the whole institute? What is the reference system (or “target audience") of your identifier?
-  * Will your reference system change in due time? If it will be opened up later, assigning globally unique identifiers from the beginning may be saving time.
+  * Will your reference system change in due time? If it will be opened up later, assigning globally unique identifiers from the beginning may save time.
   * Will the identifiers for individual records or observations be made openly accessible on the internet, during data collection?
 * If the identifier of an individual record or observation should be unique only within your research group (within an intranet), and it will not be available on the internet, it can be considered an “internal or [local identifier](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2001414#pbio-2001414-g001)”. A local identifier is unique only in a specific local context (e.g. single collection or dataset).
 * Local identifiers can be applied not only for individual records or observations in a tabular dataset but also for each variable or even value ([columns and cells in a tabular dataset](https://datacarpentry.org/spreadsheet-ecology-lesson/01-format-data/index.html), respectively).
 * Identifiers for an individual record, variable and value in a dataset can be assigned by using ontology terms (see [metadata page](metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)) or accession numbers provided by public databases such as, [EBI](https://www.ebi.ac.uk/services/all) and {% tool "national-center-for-biotechnology-information" %} repositories. Here there are few examples for tabular (meta)data, but the same type of identifiers can be applied independently of the (meta)data structure and format.
   * The patient ID is in its own row, a column header is the variable “[disease](http://www.ebi.ac.uk/efo/EFO_0000408)” from the EFO ontology (ID EFO:0000408), and the value in the cell is the child term “[chronic fatigue syndrome](http://www.ebi.ac.uk/efo/EFO_0004540)” (ID EFO:0004540) of “disease”.
   * The specimen ID is in its own row, a column header is the variable “Ensembl gene ID” from the {% tool "ensembl" %} genome browser and the value in the cell is the identifier for [BRCA1](https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000012048;r=17:43044295-43170245) gene ENSG00000012048.
+* On top of identifiers for domain-specific metadata, more general fields such as research organisation, project participants, and funders are also typically described using identifiers.
 
 ### Solutions
 
@@ -60,7 +61,11 @@ If the research institute or group has a centralised and structured system (such
   * {% tool "castor" %} is an EDC system for researchers and institutions. With Castor, you can create and customise your own database in no time. Without any prior technical knowledge, you can build a study in just a few clicks using an intuitive Form Builder. Simply define your data points and start collecting high-quality data, all you need is a web browser.
   * {% tool "redcap" %} is a secure web application for building and managing online surveys and databases. While REDCap can be used to collect virtually any type of data in any environment, it is specifically geared to support online and offline data capture for research studies and operations.
 * We do not encourage setting up a centralised electronic database that will be exposed to the internet, unless really necessary. We encourage you to use existing and professional deposition databases to publish and share your datasets (see below).
-
+* For generic fields to enter either your metadata entries or data management plan, it is very common to use:
+  * {% tool "ror" %} to indicate affiliation
+  * {% tool "orcid" %} to indicate the contributors
+  * {% tool "ofr" %} to indicate the funder 
+  
 ## Which type of identifiers should you use for data publication?
  
 ### Description
