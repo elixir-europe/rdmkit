@@ -2787,3 +2787,17 @@
   url: https://ror.org/
   registry:
     fairsharing: 1jKfji
+- description: The Open Funder Registry (OFR) is a registry of persistent identifiers for grant-giving organisations.
+  id: ofr
+  name: Open Funder Registry (OFR)
+  url: https://www.crossref.org/services/funder-registry/
+  registry:
+    fairsharing: odf1nG
+- description: ORCID is an open, non-profit, community-driven registry of unique researcher identifiers and offers a transparent method of attributing outputs.
+  id: orcid
+  name:  Open Researcher and Contributor ID Registry (ORCID)
+  url: https://orcid.org/
+  registry:
+    fairsharing: nx58jg
+    bio.tools: orcid
+    tess: ORCID
