@@ -2799,5 +2799,5 @@
   url: https://orcid.org/
   registry:
     fairsharing: nx58jg
-    bio.tools: orcid
+    biotools: orcid
     tess: ORCID
