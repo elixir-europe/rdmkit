@@ -22,6 +22,7 @@ national_resources:
     description:  ARGOS is an open, extensible service based on OpenCDMP software that simplifies the creation, management, and validation of research plans, including Data Management Plans (DMPs) and Software Management Plans (SMPs). It integrates with the OpenAIRE Graph, applying FAIR principles to ensure that research outputs are Findable, Accessible, Interoperable, and Reusable. ARGOS also supports research administration by streamlining workflows, enabling researchers, data stewards, and institutions to collaborate effectively in managing both research data and software. With curated templates and tools for planning, validation, and monitoring, ARGOS helps drive best practices in Open Science.
     how_to_access:  OpenAIRE AAI
     url: https://argos.openaire.eu/splash/
+    ref_to_main_resouces: argos
 
   - name: Greek COVID-19 Portal
     description: Provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
