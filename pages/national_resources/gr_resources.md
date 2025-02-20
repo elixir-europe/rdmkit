@@ -3,8 +3,8 @@
 title: Greece
 description: A comprehensive guide to research data management (RDM) in Greece, featuring tools, resources, and services tailored for the life sciences community.
 country_code: GR
-contributors: [Eleni Adamidi]
-coordinators: []
+contributors: [Eleni Adamidi, Thanasis Vergoulis, Alexandros Dimopoulos]
+coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
 
