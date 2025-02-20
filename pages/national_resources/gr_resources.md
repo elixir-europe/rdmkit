@@ -16,8 +16,6 @@ national_resources:
   - name: Genomic Data Infrastructure (GDI)
     description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
     how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
-    related_pages:
-      tool_assembly: Beacon Network, LS AAI, REMS, htsget.
     url: https://login.gdi.elixir-greece.org/
 
   - name: ARGOS
