@@ -16,17 +16,6 @@ national_resources:
       your_role: [researcher]
       your_tasks: [data_analysis]
     url: https://galaxy.hpc.ut.ee/
-
-  - name: REDCap Estonia
-    description: This is the Estonian instance of REDCap, which is a secure web platform for building and managing online databases and surveys.
-    how_to_access:
-    instance_of: redcap
-    related_pages:
-      tool_assembly:
-      your_domain:
-      your_role: [data_steward]
-      your_tasks: [data_quality]
-    url: https://redcap.ut.ee/
 ---
 
 ## Introduction
@@ -44,19 +33,19 @@ The Estonian government has released an “Estonian Research and Development, In
 <!--- Ethical and legal regulations in the country, committees, etc.; we mostly don't have these, we will add different organisations dealing with data management in Estonia --->
 
 ### Organisations
+
 * [Estonian Research Council](https://etag.ee/en/activities/open-science/) open science policies, surveys and documentation.
 * ELIXIR Estonia [Data Management page](https://elixir.ut.ee/data_management/introduction/): general information about data management and specific recommendations and references on how to manage your scientific data in Estonia.
 * [Open Knowledge Estonia](https://okee.ee/andmeklubi/) Promoter of data competence and digital literacy in Estonia.
+* [Data management policy in National Institute of Chemical Physics and Biophysics](https://kbfi.ee/wp-content/uploads/2024/08/KBFI-andmehalduse-poliitika_2020.pdf) (in Estonian)
 
-### Libraries
-* [University of Tartu Library](https://utlib.ut.ee/en/open-science) open science page. The main focus is on Open Science and Open Access and how to write a Data Management Plan
-* [Library of Estonian University of Life Sciences](https://library.emu.ee/en/research/open-science/) open science page.
-* [Tallinn University of Technology](https://taltech.ee/en/library/open-science) open science page.
+### Open Science in Estonia
 
-
-### Other initiatives
-* [Open Science in Estonia](https://www.avatudteadus.ee/en/home/): the official Open Science branding of Estonia, developed by the University of Tartu Library. Contains information about community, initiatives, infrastructure and services.
-
+* [Open Science in Estonia](https://www.avatudteadus.ee/en/home/) - the official Open Science branding of Estonia, developed by the University of Tartu Library; contains information about community, infrastructure, initiatives, and services.
+* [Open Science page for University of Tartu Library](https://utlib.ut.ee/en/content/open-science) includes guidelines on how to write a Data Management Plan
+* [Open Science page for Library of Estonian University of Life Sciences](https://library.emu.ee/en/research/open-science/)
+* [Open Science page for Tallinn University of Technology](https://taltech.ee/en/library/open-science)
+* [Open Science page for The Academic Library of Tallinn University](https://www.tlulib.ee/en/research/open-science/open-access/)
 
 ## Domain-specific infrastructures or resources
 

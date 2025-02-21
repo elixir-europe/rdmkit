@@ -171,6 +171,11 @@ section#search-section {
     }
 }
 
+#search-label-tiles {
+    background-color: $light;
+}
+
+
 /*-----Top navigation-----*/
 
 .navbar-nav .nav-item > a {
@@ -239,7 +244,7 @@ i.fa-solid.fa-magnifying-glass {
 // Tool snippet
 
 i.fa-solid.fa-wrench {
-    background: url("../img/section-icons/tools.svg") center no-repeat;
+    background: url("../img/section-icons/info2.svg") center no-repeat;
     &:before {
         content: "";
     }

@@ -49,14 +49,14 @@ national_resources:
     related_pages:
       your_tasks: [data_analysis]
       tool_assembly: [marine_assembly]
-    url:  https://mmp2.sfb.uit.no/metapipe/
+    url: https://sfb.mmp2.sigma2.no/metapipe/
   - name: Norwegian COVID-19 Data Portal
     description: The Norwegian COVID-19 Data Portal aims to bundle the Norwegian research efforts and offers guidelines, tools, databases and services to support Norwegian COVID-19 researchers.
     related_pages:
       your_domain: [human_data]
       your_tasks: [sensitive, existing_data, data_publication]
       tool_assembly: [covid19_data_portal]
-    url: https://covid19dataportal.no/
+    url: https://pathogens.no/
   - name: Federated EGA Norway node
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
     how_to_access: Life Science Login (LS Login); intended for data from Norwegian institutions
@@ -86,7 +86,7 @@ national_resources:
     related_pages:
       your_tasks: [transfer, storage]
       tool_assembly: [nels, fairtracks]
-    url: https://documentation.sigma2.no/files_storage/nird.html
+    url: https://documentation.sigma2.no/files_storage/nird_lmd.html
   - name: Sigma2 HPC systems
     description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
     how_to_access: A formal application is required to gain access to the storage services.
@@ -168,14 +168,14 @@ ref_to_main_resources:
 ## Introduction
 
 This page provides an overview of the data management resources in Norway. The target audience is the Norwegian scientific community in the life sciences and collaborators.
-The [Data Stewardship Wizard instance from ELIXIR Norway](https://norway.dsw.elixir-europe.org/wizard/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
+[plan.research-data.no](https://plan.research-data.no) is a national knowledge base on research data management. The [Data Stewardship Wizard instance from ELIXIR Norway](https://norway.dsw.elixir-europe.org/wizard/knowledge-models/elixir.no:lifesciences-elixir-norway:latest/preview) provides an interactive way to navigate these recommendations and resources. You can also find condensed information in the interlinked [RDM LookUp from ELIXIR Norway](https://elixir.no/rdm-lookup/).
 
 <!---General RDM considerations for your country, how to deal with RDM on a national level--->
 The Norwegian Ministry of Education and Research's "[National strategy on access to and sharing of research data](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/?ch=1)" from 2018 is an initiative aimed at fostering open, equitable, and efficient sharing of research data in Norway. For researchers in Norway and their international partners, this strategy lays the groundwork for creating a robust, collaborative research environment where data is shared freely but responsibly. The national strategy underscores Norway's commitment to scientific advancement and maintaining ethical and legal standards in a data-driven era.
 
 ##  Funder policies on research data
 
-[Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The [research data management policy of RCN requires a Data Management Plan (DMP)](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/), preferably also available in the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) as supported by for example by {% tool "data-stewardship-wizard" %} after a positive funding decision for each project. A DMP has to be submitted as part of a final report. RCN recommends following the ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and performers. In addition to advising [policies for open science and open access](https://www.forskningsradet.no/siteassets/forskningspolitisk-radgivning/apen-forskning/nfr-policy-open-science-eng.pdf), [RCN provides recommendations on how to make research data available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). From 2023 and onwards, a [project grant application submitted to RCN is assessed for open science best practices](https://www.forskningsradet.no/en/processing-grant-applications/processing-applications/assessment-open-science/).
+[Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) is the primary funding body in Norway for research. The [research data management policy of RCN requires a Data Management Plan (DMP)](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/), preferably also available in the [DMP Common Standard](https://www.rd-alliance.org/group/dmp-common-standards-wg/outcomes/rda-dmp-common-standard-machine-actionable-data-management) as supported by for example by {% tool "data-stewardship-wizard" %} after a positive funding decision for each project. A DMP has to be submitted as part of a final report. RCN recommends following the ‘[Practical Guide to the International Alignment of Research Data Management](https://scienceeurope.org/our-resources/practical-guide-to-the-international-alignment-of-research-data-management/)’ by Science Europe, the organisation of research funders and performers. In addition to advising [policies for open science and open access]( https://www.forskningsradet.no/en/research-policy-strategy/open-science/policy/), [RCN provides recommendations on how to make research data available](https://www.forskningsradet.no/siteassets/publikasjoner/2021/how-should-we-share-research-data.v2.pdf). From 2023 and onwards, a [project grant application submitted to RCN is assessed for open science best practices](https://www.forskningsradet.no/en/financing/application-process/assessment-open-science/).
 
 
 ##  Institutional policies on research data
@@ -191,8 +191,8 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
 * [University of Agder (UiA)](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
-* [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
-* [VID Specialized University](https://www.vid.no/en/files/guidelines-for-managing-research-data-at-vid/)
+* [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data/)
+* [VID Specialized University](https://www.vid.no/en/research/research-support/research-data/)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/Documents#docSDMS)
 
 ### Institutional storage guidelines
@@ -204,7 +204,7 @@ Most universities in Norway classify data into four categories, depending on acc
 * **Strictly confidential (Black)**: Information must have the strictest access rights if unauthorised access could cause significant damage (for example, highly confidential research or confidential addresses).
 
 Details and provided solutions vary according to each institution:
-* [Norwegian University of Life Sciences (NMBU) - login](https://www.nmbu.no/node/35651)
+* [Norwegian University of Life Sciences (NMBU) - login](https://www.nmbu.no/en/research/forskningsdata)
 * [Norwegian University of Science and Technology (NTNU)](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
@@ -274,11 +274,13 @@ A data management plan (DMP) is currently requested by:
 * RCN upon project funding
 * International funding programs (e.g. Horizon Europe, European Research Council)
 
-A DMP typically contains information about data handling during a project and after its completion and makes it possible to identify (and budget for) significant issues to be resolved (e.g. storage). While some of the institutions mentioned above require DMPs to follow a certain standard, this does not apply to all local institutions (e.g. [UiO does not currently enforce any specific template](https://www.uio.no/english/for-employees/support/research/research-data-management/write-a-dmp.html)). There are several tools available for creating a DMP. 
+A DMP typically contains information about data handling during a project and after its completion and makes it possible to identify (and budget for) significant issues to be resolved (e.g. storage). While some of the institutions mentioned above require DMPs to follow a certain standard, this does not apply to all local institutions (e.g. [UiO does not currently enforce any specific template](https://www.uio.no/english/for-employees/support/research/research-data-management/topics/data-management-plan.html). There are several tools available for creating a DMP. 
 
-<!-- Some of these tools come from international providers (e.g. DMPonline), some are national services, such as EasyDMP (Sigma2) and sikt’s DMP tool. -->
+<!-- Some of these tools come from international providers (e.g. DMPonline), and some are national services, such as EasyDMP (Sigma2) and Sikt’s DMP tool. -->
 
-ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](https://norway.dsw.elixir-europe.org/wizard/), an internationally developed tool that has been adapted to better suit the needs of Norwegian researchers, PIs, and institutions. Both [RCN]((https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/)) and [BOTT (Bergen, Oslo, Trondheim, Tromsø) university libraries](https://zenodo.org/record/7428542) list the DSW as a preferred tool, particularly for life sciences data. DSW provides templates that are compliant with all different funders' regulations and offers machine-actionable DMP exports. To facilitate the adoption of best-practises, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for your own projects.
+There is a joint knowledge resource for data management planning in Norwegian research under [plan.research-data.no](https://plan.research-data.no)
+
+ELIXIR Norway provides access to a [national instance of the Data Stewardship Wizard (DSW)](https://norway.dsw.elixir-europe.org/wizard/), an internationally developed tool that has been adapted to better suit the needs of Norwegian researchers, PIs, and institutions. Both [RCN](https://www.forskningsradet.no/en/Adviser-research-policy/open-science/open-access-to-research-data/) and [BOTT (Bergen, Oslo, Trondheim, Tromsø) university libraries](https://zenodo.org/record/7428542) list the DSW as a preferred tool, particularly for life sciences data. DSW provides templates that are compliant with all different funders' regulations and offers machine-actionable DMP exports. To facilitate the adoption of best practices, the ELIXIR-NO DSW instance also provides a collection of exemplar DMPs. These DMPs are partially pre-filled with domain-specific recommendations and can be used as a starting point for your own projects.
 
 
 ## Life science-specific infrastructures/resources
@@ -295,11 +297,11 @@ Established by ELIXIR Norway and hosted by the University of Oslo, the Norwegian
 
 ### Norwegian tools assembly for sensitive personal data
 
-ELIXIR Norway's tools assembly for personally identifiable datasets is based on the University of Oslo's Services for Sensitive Data (TSD). This infrastructure provides resources to help you comply with Norwegian and European regulations regarding sensitive personal data. You can also store, process, and analyse your data in a secure, restricted environment and use a wide range of integrated data management tools. More details are available on the [National Norwegian services for sensitive (personal) data tool assembly RDMkit page](tsd_assembly).
+ELIXIR Norway's tools assembly for personally identifiable datasets is based on the University of Oslo's Services for Sensitive Data (TSD). TSD provides resources to help you comply with Norwegian and European regulations regarding sensitive personal data. You can also store, process, and analyse your data in a secure, restricted environment and use a wide range of integrated data management tools. More details are available on the [National Norwegian services for sensitive (personal) data tool assembly RDMkit page](tsd_assembly).
 
-### The Norwegian Covid-19 data portal
+### The Norwegian Pathogen Portal
 
-The [Norwegian Covid-19 Data Portal](https://covid19dataportal.no/) acts as a specialised hub for collecting, storing, and analysing Covid-19 related research data. You can access research data, tools, and workflows with the assurance of data security and privacy in compliance with national and EU data protection regulations.
+The [Norwegian Pathogen Portal](https://pathogens.no/) acts as a specialised hub for collecting, storing, and analysing Covid-19 related research data. You can access research data, tools, and workflows with the assurance of data security and privacy in compliance with national and EU data protection regulations.
 
 ### Marine metagenomics portal tool assembly
 
@@ -329,7 +331,7 @@ We provide here a list of ethics committees and guidelines, relevant to life sci
 * [Payment to participants in medical or health research](https://www.forskningsetikk.no/retningslinjer/med-helse/betaling-til-deltakere-i-medisinsk-eller-helsefaglig-forskning/)
 * [Guidelines for the inclusion of women](https://www.forskningsetikk.no/retningslinjer/med-helse/inklusjon-av-kvinner/)
 * [Ethical guidelines for clinical trial of drugs](https://www.forskningsetikk.no/ressurser/publikasjoner/kliniske-utprovinger-av-legemidler/)
-* [Guidelines for the inclusion of adults with impaired or absent capacity to consent](https://www.forskningsetikk.no/retningslinjer/med-helse/inklusjon-av-voksne-personer-med-manglende-eller-redusert-samtykkekompetanse/)
+* [Guidelines for the inclusion of adults with impaired or absent capacity to consent](https://www.forskningsetikk.no/globalassets/dokumenter/4-publikasjoner-som-pdf/redusert-samtykkekompetanse-i-helsefaglig-forskning-2005.pdf)
 * [Guidelines for research ethical and scientifically assessment of qualitative research projects](https://www.forskningsetikk.no/retningslinjer/med-helse/vurdering-av-kvalitative-forskningsprosjekt-innen-medisin-og-helsefag/)
 
 Through the Research Ethics Committees, the following recommendations were made binding in Norway and it is therefore advised to take them into consideration for data ethics:
@@ -353,7 +355,7 @@ These are some of the laws relevant for research data management in Norway. You 
 
 * [Health Research Act](https://lovdata.no/dokument/LTI/lov/2008-06-20-44)
 * [Regulations on the organization of medical and health research](http://www.lovdata.no/for/sf/ho/ho-20090701-0955.html)
-* [Comments to health research legislative work by the Norwegian government](http://www.regjeringen.no/nb/dep/hod/dok/lover_regler/forskrifter/2009/helseforskningsloven.html?id=570542)
+* [Comments to health research legislative work by the Norwegian government](https://www.regjeringen.no/globalassets/upload/hod/hra/veileder-til-helseforskningsloven.pdf)
 * [Health Register Act](https://lovdata.no/dokument/NL/lov/2014-06-20-43)
 * [Regulations on population-based health surveys](https://lovdata.no/dokument/SF/forskrift/2018-04-27-645)
 * [Health Personnel Act](http://www.lovdata.no/all/nl-19990702-064.html)
@@ -369,7 +371,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Research Ethics Act](https://lovdata.no/dokument/NL/lov/2017-04-28-23)
 * [Patent Act](https://lovdata.no/dokument/NL/lov/1967-12-15-9)
 * [Copyright Act](https://lovdata.no/dokument/NL/lov/2018-06-15-40)
-* [Act on Universities and Colleges Act](https://lovdata.no/dokument/NL/lov/2005-04-01-15)
+* [Act on Universities and Colleges Act](https://lovdata.no/dokument/NL/lov/2024-03-08-9)
 * [National Security Act](https://lovdata.no/dokument/NL/lov/2018-06-01-24)
 * [Genetic Engineering Act](https://lovdata.no/dokument/NL/lov/1993-04-02-38)
 * [Biodiversity Act](https://lovdata.no/dokument/NL/lov/2009-06-19-100)

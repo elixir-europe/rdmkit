@@ -214,6 +214,7 @@
   name: BacDive
   registry:
     biotools: bacdive
+    fairsharing: aSszvY
     tess: BacDive
   url: https://bacdive.dsmz.de
 - description: A repository specific to Bacillus strains
@@ -531,7 +532,7 @@
   name: COPO
   registry:
     biotools: copo
-    fairsharing-coll: bsg-d001247
+    fairsharing: 91a79b
   url: https://copo-project.org/
 - description: Examples and tools to create a codebook by the Data Documentation Initiative (DDI)
   id: create-a-codebook
@@ -692,8 +693,7 @@
   id: docker
   name: Docker
   registry:
-    fairsharing: afc2b3
-    fairsharing-coll: bsg-d001254
+    fairsharing: NA
     tess: Docker
   url: https://www.docker.com/
 - description: A DSW knowledge model guiding users through a set of questions to collect information necessary for a research project Data Protection Impact Assessment (DPIA).
@@ -750,13 +750,13 @@
   id: elixir-core-data-resources
   name: ELIXIR Core Data Resources
   registry:
-    fairsharing-coll: bsg-c000039
+    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/core-data-resources
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
   id: elixir-deposition-databases-for-biomolecular-data
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
-    fairsharing-coll: bsg-c000039
+    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
   id: life-science-login
@@ -789,6 +789,8 @@
 - description: The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
   id: ena-upload-tool
   name: ENA upload tool
+  registry:
+    tess: ENA upload tool
   url: https://github.com/usegalaxy-eu/ena-upload-cli
 - description: Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.
   id: ensembl
@@ -1039,7 +1041,6 @@
   name: GitHub
   registry:
     fairsharing: c55d5e
-    fairsharing-coll: bsg-d001160
     tess: GitHub
   url: https://github.com
 - description: GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.
@@ -1252,34 +1253,36 @@
   name: MarDB
   registry:
     biotools: mardb
-  url: https://mmp2.sfb.uit.no/mardb/
+  url: https://sfb.mmp2.sigma2.no/mardb/
 - description: MarFun is a manually curated marine fungi genome database.
   id: marfun
   name: MarFun
-  url: https://mmp2.sfb.uit.no/marfun/
+  url: https://sfb.mmp2.sigma2.no/marfun/
 - description: High-quality curated and freely accessible microbial genomics and metagenomics resources for the marine scientific community
   id: marine-metagenomics-portal
   name: Marine Metagenomics Portal (MMP)
   registry:
     biotools: mmp
-  url: https://mmp2.sfb.uit.no/
+  url: https://sfb.mmp2.sigma2.no
 - description: MarRef is a manually curated marine microbial reference genome database that equenced genomes. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation information
   id: marref
   name: MarRef
   registry:
     biotools: marref
-  url: https://mmp2.sfb.uit.no/marref/
+  url: https://sfb.mmp2.sigma2.no/marref/
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: mascot
   name: Mascot
   registry:
     biotools: MASCOT
+    fairsharing: 8e1ce0
     tess: Mascot
   url: https://www.matrixscience.com/server.html
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: massive
   name: MassIVE
   registry:
+    fairsharing: LYsiMd
     tess: MassIVE
   url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
 - description: Database of over 5000 intrinsic membrane protein structures
@@ -1346,6 +1349,7 @@
   name: msconvert
   registry:
     biotools: msconvert
+    tess: msconvert
   url: https://proteowizard.sourceforge.io/
 - description: A database of protein disorder and mobility annotations
   id: mobidb
@@ -1443,6 +1447,8 @@
 - description: Repository for lipid MD simulations to validate force fields with NMR data
   id: nmrlipids
   name: NMRlipids
+  registry:
+    fairsharing: d32bc8
   url: http://nmrlipids.blogspot.com/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
@@ -1785,7 +1791,7 @@
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes representing the microbiota of fishes found in the taxonomic family of Salmonidae.
   id: saldb
   name: salDB
-  url: https://mmp.sfb.uit.no/databases/saldb/
+  url: https://sfb.mmp2.sigma2.no/databases/saldb/
 - description: Small Angle Scattering Biological Data Bank
   id: sasbdb
   name: SASBDB
@@ -1940,7 +1946,7 @@
   id: the-open-biological-and-biomedical-ontology-foundry
   name: The Open Biological and Biomedical Ontology (OBO) Foundry
   registry:
-    fairsharing-coll: bsg-d001083
+    fairsharing: 847069
   url: http://obofoundry.org
 - description: The Toxicology in the 21st Century program, or Tox21, is a unique collaboration between several federal agencies to develop new ways to rapidly test whether substances adversely affect human health. The Tox21 Toolbox contains data-analysis tools for accessing and visualizing Tox21 quantitative high-throughput screening (qHTS) 10K library data, as well as integrating with other publicly available data.
   id: tox21-toolbox
@@ -2748,3 +2754,31 @@
   registry:
     fairsharing: 4c0b6b
   url: http://uberon.org/
+- description: A free and open source electronic lab notebook.
+  id: elabftw
+  name: eLabFTW
+  registry:
+    tess: eLabFTW
+  url: https://www.elabftw.net/
+- description: A tool to aid in choosing the most suitable Electronic Lab Notebook (ELN) for a specific purpose.
+  id: eln-finder
+  name: ELN Finder
+  url: https://eln-finder.ulb.tu-darmstadt.de/home
+- description: List of minimum information standards on Wikipedia
+  id: min-info-standards
+  name: Minimum information standards in life sciences
+  url: https://en.wikipedia.org/wiki/Minimum_information_standard
+- description: draw.io is a free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+  id: draw-io
+  name: draw.io
+  url: https://www.drawio.com/
+- description: Inkscape is a versatile and free graphic design editor suitable for both personal and professional use. It offers a comprehensive suite of design tools, enabling users to create and edit vector graphics, primarily in the SVG format. Additionally, Inkscape supports working with rasterized images (bitmaps), making it a powerful tool for diverse design projects.
+  id: inkscape
+  name: Inkscape
+  registry:
+    tess: Inkscape
+  url: https://inkscape.org/
+- description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This tool allows users to create designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. It provides a robust platform for crafting illustrations and diagrams.
+  id: libre-office-draw
+  name: Libre Office Draw
+  url: https://www.libreoffice.org/discover/draw/
