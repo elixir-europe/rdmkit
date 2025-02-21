@@ -1,65 +1,49 @@
 ---
 
 title: Greece
-search_exclude: true
-description: <!---REPLACE THIS with a one sentence description of the page--->
+description: A comprehensive guide to research data management (RDM) in Greece, featuring tools, resources, and services tailored for the life sciences community.
 country_code: GR
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
+contributors: [Eleni Adamidi, Thanasis Vergoulis, Alexandros Dimopoulos]
+coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
-related_pages:
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-
-training:
-  - name: Training in TeSS
-    registry: TeSS
-    url: <!--- https://tess.elixir-europe.org/materials?node=NODENAME --->
-  - name: ELIXIR NODENAME community in Zenodo
-    registry: Zenodo
-    url: <!--- https://zenodo.org/communities/elixir NODENAME --->
-  - name: ELIXIR NODENAME YouTube
-    registry: YouTube
-    url: <!--- URL of the channel --->
-  - name: <!---REPLACE THIS with the name of your training in registry or platform--->
-    registry: <!---REPLACE THIS with the name of the registry--->
-    url: <!---REPLACE THIS with the url of your training registry or platform--->
 
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
-ref_to_main_resources: 
-  -  <!---REPLACE THIS with the tool id--->
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
-  - name: <!---REPLACE THIS with the national resources about RDM in life sciences such as local instances of tools, guidelines or regulations--->
-    description:
-    how_to_access: <!--- REPLACE THIS free text to explain if credentials, login, specific affiliations, etc., are needed to access the resource or tool--->
-    instance_of: <!--- REPLACE THIS with the tool id of which this resource is an instance of, taken from the all tools and resources file --->
-    related_pages:
-      tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
-      your_domain: [<!---REPLACE THIS with the page ID of the domain pages that you want to list here as related pages--->]
-      your_role: [<!---REPLACE THIS with the page ID of the your_role pages that you want to list here as related pages--->]
-      your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-    url:
-    registry:
-      biotools: <!--- DELETE ME if not needed --->
-      fairsharing: <!--- DELETE ME if not needed --->
-      tess: <!--- DELETE ME if not needed --->
----
-<!---All the resources added above will appear on the table at the bottom of the page--->
 
-<!---Following information for the page text--->
-<!---Use this template as guidance, all fields are optional. Feel free to modify any section if you think it is necessary--->
-<!---If the information is already in another resource, please include the link instead of duplicating information--->
-<!---Please focus on resources that are relevant for the whole country for life sciences--->
+  - name: Genomic Data Infrastructure (GDI)
+    description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
+    how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
+    url: https://login.gdi.elixir-greece.org/
+
+  - name: ARGOS
+    description:  ARGOS is an open, extensible service based on OpenCDMP software that simplifies the creation, management, and validation of research plans, including Data Management Plans (DMPs) and Software Management Plans (SMPs). It integrates with the OpenAIRE Graph, applying FAIR principles to ensure that research outputs are Findable, Accessible, Interoperable, and Reusable. ARGOS also supports research administration by streamlining workflows, enabling researchers, data stewards, and institutions to collaborate effectively in managing both research data and software. With curated templates and tools for planning, validation, and monitoring, ARGOS helps drive best practices in Open Science.
+    how_to_access:  OpenAIRE AAI
+    url: https://argos.openaire.eu/splash/
+    ref_to_main_resouces: argos
+
+  - name: Greek COVID-19 Portal
+    description: Provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
+    url: https://covid19dataportal.gr/
+    related_pages: https://rdmkit.elixir-europe.org/covid19_data_portal
+    
+---
 
 ## Introduction 
-<!---General RDM considerations for your country, how to deal with RDM on a national level--->
+This page provides useful information and resources with a focus on research data management in Greece. An overview of services provided by ELIXIR Greece can be found on the website https://www.elixir-greece.org/node/268.
 
-## Funders
+<!---## Funders--->
 
-## Regulations
+<!---## Regulations--->
 <!--- Ethical and legal regulations in the country, committees, etc. --->
 
 ## Domain-specific infrastructures or resources 
-<!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
+The [Greek COVID-19 Portal](https://covid19dataportal.gr/) 
+
+
+## More information
+- [ELIXIR-GR: Prospects of data and tools for Elixir-Greece](https://zenodo.org/records/4043630#.ZACFtE_Nx60)
+- [The ELIXIR-Greece Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
+
