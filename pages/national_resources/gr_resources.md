@@ -13,8 +13,8 @@ coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
 
-  - name: HYPATIA 
-    description:  HYPATIA is the Cloud infrastructure that has been developed to support the computational needs of the ELIXIR-GR community, but also the broader community of life scientists in Greece and abroad.
+  - name: HYPATIA - Cloud Infrastructure for ELIXIR Greece
+    description:  HYPATIA is a cloud-based infrastructure that has been developed to support the computational needs of the ELIXIR Greece community and the wider life sciences community including researchers and institutions in Greece and internationally.
     how_to_access:  Login via Life Science (LS) Login required.
     url: https://hypatia.athenarc.gr/
     
