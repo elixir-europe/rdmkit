@@ -1,5 +1,15 @@
 ---
 
+training:
+  - name: ELIXIR GREECE Zenodo
+    registry: Zenodo
+    description: "ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece"
+    url: https://zenodo.org/records/4043630#.ZACFtE_Nx60
+  - name: ELIXIR GREECE Zenodo
+    registry: Zenodo
+    description: "The ELIXIR GREECE Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data"
+    url: https://zenodo.org/records/4042834#.ZACFUk9vD9M
+
 title: Greece
 description: A comprehensive guide to research data management (RDM) in Greece, featuring tools, resources, and services tailored for the life sciences community.
 country_code: GR
@@ -82,9 +92,4 @@ Greece has made significant progress in adopting Open Science policies, aligning
 
 ## Domain-specific infrastructures or resources 
 The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
-
-
-## More information
-- [ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece](https://zenodo.org/records/4043630#.ZACFtE_Nx60)
-- [The ELIXIR-Greece Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
 
