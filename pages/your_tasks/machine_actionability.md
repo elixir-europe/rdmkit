@@ -18,6 +18,8 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB026
 - name: Interlinking data from different sources
   url: https://w3id.org/faircookbook/FCB016
+- name: Inventorying tools for converting data to RDF
+  url: https://w3id.org/faircookbook/FCB051
 - name: Introducing the DATS model
   url: https://w3id.org/faircookbook/FCB082
 - name: Creating knowledge graphs from unstructured text
