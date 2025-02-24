@@ -48,7 +48,6 @@ Research funding in Greece is primarily provided by **National and European fund
 
   HFRI Policies and Requirements:
   - Encourages Open Science and FAIR data principles.
-  - Requires researchers to submit a Data Management Plan (DMP).
   - Supports infrastructure for Open Access to research outputs.
 
 - The **[General Secretariat for Research and Innovation (GSRI)](https://gsri.gov.gr/)** which operates under the Ministry of Development and Investments and funds major research projects in Greece. 
