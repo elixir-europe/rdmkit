@@ -13,22 +13,23 @@ coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
 
+  - name: HYPATIA 
+    description:  HYPATIA is the Cloud infrastructure that has been developed to support the computational needs of the ELIXIR-GR community, but also the broader community of life scientists in Greece and abroad.
+    how_to_access:  Login via Life Science (LS) Login required.
+    url: https://hypatia.athenarc.gr/
+    
   - name: Genomic Data Infrastructure (GDI)
     description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
     how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
     url: https://login.gdi.elixir-greece.org/
 
-  - name: ARGOS
-    description:  ARGOS is an open, extensible service based on OpenCDMP software that simplifies the creation, management, and validation of research plans, including Data Management Plans (DMPs) and Software Management Plans (SMPs). It integrates with the OpenAIRE Graph, applying FAIR principles to ensure that research outputs are Findable, Accessible, Interoperable, and Reusable. ARGOS also supports research administration by streamlining workflows, enabling researchers, data stewards, and institutions to collaborate effectively in managing both research data and software. With curated templates and tools for planning, validation, and monitoring, ARGOS helps drive best practices in Open Science.
-    how_to_access:  OpenAIRE AAI
-    url: https://argos.openaire.eu/splash/
-    ref_to_main_resouces: argos
-
   - name: Greek COVID-19 Portal
     description: Provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
     url: https://covid19dataportal.gr/
     related_pages: https://rdmkit.elixir-europe.org/covid19_data_portal
-    
+
+ref_to_main_resources:
+  - argos
 ---
 
 ## Introduction 
@@ -39,8 +40,48 @@ This page provides useful information and resources with a focus on research dat
 <!---## Regulations--->
 <!--- Ethical and legal regulations in the country, committees, etc. --->
 
+## Funders in Greece
+Research funding in Greece is primarily provided by **National and European funding agencies**. The major national funders supporting Open Science and Research Data Management (RDM) include:
+
+- The **[Hellenic Foundation for Research and Innovation (HFRI)](https://www.elidek.gr/)** which is a key funder supporting fundamental and applied research in Greece. 
+
+  HFRI Policies and Requirements:
+  - Encourages Open Science and FAIR data principles.
+  - Requires researchers to submit a Data Management Plan (DMP).
+  - Supports infrastructure for Open Access to research outputs.
+
+- The **[General Secretariat for Research and Innovation (GSRI)](https://gsri.gov.gr/)** which operates under the Ministry of Development and Investments and funds major research projects in Greece. 
+
+  GSRI Policies and Requirements:
+  - Funds research projects across all disciplines, including Open Science initiatives.
+  - Promotes adherence to EOSC policies and data sharing.
+  - Provides funding for data infrastructures, repositories, and research data management tools.
+
+## Policies and Recommendations for Research Data in Greece
+
+Greece has made significant progress in adopting Open Science policies, aligning with European initiatives such as the European Open Science Cloud (EOSC). The country has established a national initiative called **Hellenic Open Science Initiative** to coordinate and implement national policies for Open Science and research data management.
+
+- The **[Hellenic Open Science Initiative (HOSI)](https://www.hellenicopenscience.gr/en/welcome-to-os-greece/about-hosi)** was founded on February 28, 2022, by 13 leading Greek research, technology, and innovation organizations. Its goal is to support the coordinated and participatory implementation of Open Science policies in Greece while ensuring national representation in EOSC.
+
+  HOSI Key Policies:
+   - Open Science is a national priority and is integrated into Greece’s Digital Transformation Strategy.
+   - Policies are based on the principle "as open as possible, as closed as necessary."
+   - National coordination efforts support FAIR (Findable, Accessible, Interoperable, Reusable) data principles.
+
+- The **National Research Data Management Policy** aims to ensure open access to research data, particularly for publicly funded research. The policy is outlined in the **[National Plan for Open Science](https://zenodo.org/records/3908953#.Ye7gdepBw2w)**, including:
+
+  Key Principles:
+   - **Open by default**: Research data must be openly available unless legal or ethical restrictions apply.
+   - **FAIR principles**: Research data should be managed following international standards for metadata and licensing.
+   - **Permanent Identifiers**: Research data must be assigned persistent digital identifiers (DOIs).
+   - **Machine-readable metadata**: Research software must be documented using OpenAIRE Guidelines, codemeta.json, and schema.org.
+   - **Open Data Licenses**: Researchers should use standardized open licenses, with a preference for CC-BY (Attribution Only).
+   - **Mandatory Data Management Plans (DMPs)**: All research projects must include a Data Management Plan (DMP).
+
+- Part of the **National Research Data Management Policy** has been embedded in the Greece’s **[Digital Transformation Strategy 2020-2025](https://digitalstrategy.gov.gr/vivlos_pdf)**. This strategy highlights Open Science as a key pillar for modernizing the country’s research landscape outlining its importance in fostering collaboration, transparency, and innovation in scientific research. The strategy aligns with European Open Science Cloud (EOSC) guidelines, ensuring interoperability with European research infrastructures and reinforcing Greece’s role in EOSC.  
+
 ## Domain-specific infrastructures or resources 
-The [Greek COVID-19 Portal](https://covid19dataportal.gr/) 
+The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
 
 
 ## More information
