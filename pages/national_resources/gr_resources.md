@@ -86,6 +86,6 @@ The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information,
 
 
 ## More information
-- [ELIXIR-GR: Prospects of data and tools for Elixir-Greece](https://zenodo.org/records/4043630#.ZACFtE_Nx60)
+- [ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece](https://zenodo.org/records/4043630#.ZACFtE_Nx60)
 - [The ELIXIR-Greece Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data](https://zenodo.org/records/4042834#.ZACFUk9vD9M)
 
