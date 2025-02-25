@@ -9,10 +9,10 @@ related_pages:
   your_domain: [human_data]
 training:
   - name: Documentation for the HPC cluster
-    url: https://www.uio.no/english/services/it/research/sensitive-data/use-tsd/hpc/colossus-userguide
+    url: https://www.uio.no/english/services/it/research/sensitive-data/help/hpc/index.html
   - name: Courses on the usage of TSD from the University of Oslo
-    url: https://www.uio.no/english/for-employees/support/research/research-data/training/courses/
-  - name: Recording of a previous course on Nettskjema and TSD
+    url: https://www.uio.no/for-ansatte/kompetanse/tema/data/nettskjema-tsd/
+  - name: Recording of a previous course on Nettskjema and TSD (April 2020)
     url: https://www.uio.no/for-ansatte/kompetanse/tema/data/nettskjema-tsd/tsd-nettskjema2april.html
 ---
 
