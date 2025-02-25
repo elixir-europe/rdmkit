@@ -3,7 +3,7 @@
 training:
   - name: "ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece"
     registry: Zenodo
-    description: This presentation provides and overview of the data, tools and standards used in ELIXIR Greece as well as guidelines for effective research data management, emphasizing on best practices for open science and data stewardship.
+    description: This presentation provides an overview of the data, tools, and standards used in ELIXIR Greece, as well as guidelines for effective research data management, with an emphasis on best practices for open science and data stewardship.
     url: https://zenodo.org/records/4043630#.ZACFtE_Nx60
   - name: "The ELIXIR GREECE Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data"
     registry: Zenodo
@@ -59,6 +59,7 @@ Research funding in Greece is primarily provided by **National and European fund
 
   HFRI Policies and Requirements:
   - Encourages Open Science and FAIR data principles.
+  - Requires researchers to submit a Data Management Plan (DMP) in various time points depending on each call.
   - Supports infrastructure for Open Access to research outputs.
 
 - The **[General Secretariat for Research and Innovation (GSRI)](https://gsri.gov.gr/)** which operates under the Ministry of Development and Investments and funds major research projects in Greece. 
