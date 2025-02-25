@@ -1,13 +1,13 @@
 ---
 
 training:
-  - name: ELIXIR GREECE Zenodo
+  - name: "ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece"
     registry: Zenodo
-    description: "ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece"
+    description: This presentation provides and overview of the data, tools and standards used in ELIXIR Greece as well as guidelines for effective research data management, emphasizing on best practices for open science and data stewardship.
     url: https://zenodo.org/records/4043630#.ZACFtE_Nx60
-  - name: ELIXIR GREECE Zenodo
+  - name: "The ELIXIR GREECE Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data"
     registry: Zenodo
-    description: "The ELIXIR GREECE Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data"
+    description: This presentation highlights how the local Greek Galaxy instance at usegalaxy.elixir-greece.org makes SARS-CoV-2 data analysis accessible and reproducible using open software and public research infrastructures. It showcases practical workflows in genomics, proteomics, evolution, and cheminformatics, with comprehensive training materials available to support collaborative research.
     url: https://zenodo.org/records/4042834#.ZACFUk9vD9M
 
 title: Greece
@@ -28,8 +28,8 @@ national_resources:
     how_to_access:  Login via Life Science (LS) Login required.
     url: https://hypatia.athenarc.gr/
     
-  - name: Genomic Data Infrastructure (GDI)
-    description:  Infrastructure for secure genomic data management, including storage, discovery, access, and reception.
+  - name: National instance of Genomic Data Infrastructure for ELIXIR Greece
+    description:  An instance of the Genomic Data Infrastructure (GDI)(https://gdi.onemilliongenomes.eu/) on ELIXIR Greece, for secure genomic data management, including storage, discovery, access, and reception. This is a pilot instance based on the GDI Starter Kit.
     how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
     url: https://login.gdi.elixir-greece.org/
 
@@ -38,6 +38,7 @@ national_resources:
     url: https://covid19dataportal.gr/
     related_pages:
      tool_assembly: [covid19_data_portal]
+    instance_of: covid-19-data-portal
 
 ref_to_main_resources:
   - argos
