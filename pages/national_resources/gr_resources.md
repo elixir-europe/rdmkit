@@ -26,11 +26,15 @@ national_resources:
   - name: HYPATIA - Cloud Infrastructure for ELIXIR Greece
     description:  HYPATIA is a cloud-based infrastructure that has been developed to support the computational needs of the ELIXIR Greece community and the wider life sciences community including researchers and institutions in Greece and internationally.
     how_to_access:  Login via Life Science (LS) Login required.
+    related_pages:
+      tool_assembly: [data_analysis, storage, data_transfer]
     url: https://hypatia.athenarc.gr/
     
   - name: National instance of Genomic Data Infrastructure for ELIXIR Greece
     description:  An instance of the Genomic Data Infrastructure (GDI)(https://gdi.onemilliongenomes.eu/) on ELIXIR Greece, for secure genomic data management, including storage, discovery, access, and reception. This is a pilot instance based on the GDI Starter Kit.
     how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
+    related_pages:
+      tool_assembly: [data_sensitivity, human_data, data_publication, existing_data]
     url: https://login.gdi.elixir-greece.org/
 
   - name: Greek COVID-19 Portal
