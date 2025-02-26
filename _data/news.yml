@@ -199,6 +199,6 @@
   linked_pr: 1528
   description: This page guides you with capturing your planned data workflow in a diagram. [Discover the page here](creating_dataflow_diagram).
 - name: "New page: National resources Greece"
-  date: 2025-02-27
+  date: 2025-02-26
   linked_pr: 1568
   description: This page gives an insight in RDM on national level in Greece. [Discover the page here](gr_resources)
