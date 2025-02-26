@@ -49,7 +49,7 @@ ref_to_main_resources:
 ---
 
 ## Introduction 
-This page provides useful information and resources with a focus on research data management in Greece. An overview of services provided by ELIXIR Greece can be found on the website https://www.elixir-greece.org/node/268.
+This page provides useful information and resources with a focus on research data management in Greece. An overview of services provided by ELIXIR Greece can be found on [the node website](https://www.elixir-greece.org/node/268) .
 
 <!---## Funders--->
 
