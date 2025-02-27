@@ -30,7 +30,7 @@ national_resources:
     url: https://hypatia.athenarc.gr/
     
   - name: National instance of Genomic Data Infrastructure for ELIXIR Greece
-    description:  An instance of the Genomic Data Infrastructure (GDI)(https://gdi.onemilliongenomes.eu/) on ELIXIR Greece, for secure genomic data management, including storage, discovery, access, and reception. This is a pilot instance based on the GDI Starter Kit.
+    description:  An instance of the Genomic Data Infrastructure [GDI](https://gdi.onemilliongenomes.eu/) on ELIXIR Greece, for secure genomic data management, including storage, discovery, access, and reception. This is a pilot instance based on the GDI Starter Kit.
     how_to_access:  Login via Life Science (LS) Login required to access ELIXIR-Greece GDI Portal.
     related_pages:
       your_domain: [human_data]
