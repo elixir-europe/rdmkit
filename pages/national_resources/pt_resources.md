@@ -121,7 +121,7 @@ BioData.pt, through its affiliate institutions, provides a wide array of RDM too
 
 ## Institutional policies on research data in Portugal
 
-Some institutions implemented their own data managemend policies. Here's a few examples from the Life and Health Sciences:
+Some institutions implemented their own data management policies. Here are few examples from the organisations in Life and Health Sciences:
 * [Centre of Marine Sciences (CCMAR)](https://ccmar.ualg.pt/en/our-policies)
 * [Instituto Gulbenkian de Ciência (IGC)](https://zenodo.org/record/6325980#.YmrF1m7MJTY)
 * [NOVA Institute of Medical Systems Biology (NIMSB)](https://nimsb.unl.pt/research-innovation/data-management-plan/)
