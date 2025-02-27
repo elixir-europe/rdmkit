@@ -19,7 +19,7 @@ training:
 ## What is the Norwegian TSD Data Management Tools Assembly?
 The Norwegian TSD tools assembly is centred around 
 [TSD (services for sensitive data in Norwegian)](https://www.uio.no/english/services/it/research/sensitive-data/); an infrastructure provided by [the University of Oslo (UiO)](https://www.uio.no). Together with the complementary tools provided by ELIXIR, TSD is used for the management of [sensitive data](data_sensitivity), including [Human data](human_data).
-This assembly covers Data Life Cycle stage such as [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) and, in addition, offers [Data Storage](storage) capacities and tools for [transfer](data_transfer) of sensitive data, following the requirements of the {% tool "eu-general-data-protection-regulation" %} and its Norwegian implementation. 
+This assembly covers Data Life Cycle stages such as [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) and, in addition, offers [Data Storage](storage) quotas and tools for [transfer](data_transfer) of sensitive data, following the requirements of the {% tool "eu-general-data-protection-regulation" %} and its Norwegian implementation. 
 
 
 ## Who can use the TSD data management tools assembly?
