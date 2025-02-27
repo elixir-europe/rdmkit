@@ -6,8 +6,6 @@
 
 # Contribute
 /pages/contribute       @floradanna @bedroesb
-/pages/contribute/copyright.md
-/pages/contribute/style_guide.md
 CONTRIBUTING.md       @floradanna
 
 # Different Sections
@@ -15,13 +13,11 @@ CONTRIBUTING.md       @floradanna
 /pages/your_role       @smza @GilOliveira
 /pages/data_life_cycle       @wittigue @floradanna @smza @marikapop
 /pages/tool_assembly       @korbinib @bianchini88
-/pages/your_domain       @bianchini88 @lauportell @GilOliveira
-/pages/national_resources       @lauportell @nazeeefa @diana-pilvar
+/pages/your_domain       @bianchini88 @GilOliveira
+/pages/national_resources       @nazeeefa @diana-pilvar
 
 #About
 /pages/about/about.md       @frederikcoppens @CaroleGoble
-/pages/about/accessibility.md
-/pages/about/privacy.md
 CODE_OF_CONDUCT.md       @frederikcoppens @CaroleGoble
 
 
@@ -32,5 +28,5 @@ CODE_OF_CONDUCT.md       @frederikcoppens @CaroleGoble
 # Sidebar
 /_data/sidebars/*      @bedroesb
 
-# Tool and resources
+# Tools and resources
 /_data/tool*     @wittigue @bedroesb
