@@ -27,7 +27,7 @@ national_resources:
     description:  HYPATIA is a cloud-based infrastructure that has been developed to support the computational needs of the ELIXIR Greece community and the wider life sciences community including researchers and institutions in Greece and internationally.
     how_to_access:  Login via Life Science (LS) Login required.
     related_pages:
-      your_tasks: [data_analysis, storage, data_transfer]
+      your_tasks: [data_analysis, storage, transfer]
     url: https://hypatia.athenarc.gr/
     
   - name: National instance of Genomic Data Infrastructure for ELIXIR Greece
