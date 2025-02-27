@@ -1,4 +1,9 @@
 ---
+title: Greece
+description: A comprehensive guide to research data management (RDM) in Greece, featuring tools, resources, and services tailored for the life sciences community.
+country_code: GR
+contributors: [Eleni Adamidi, Thanasis Vergoulis, Alexandros Dimopoulos]
+coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 
 training:
   - name: "ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece"
@@ -10,19 +15,13 @@ training:
     description: This presentation highlights how the local Greek Galaxy instance at usegalaxy.elixir-greece.org makes SARS-CoV-2 data analysis accessible and reproducible using open software and public research infrastructures. It showcases practical workflows in genomics, proteomics, evolution, and cheminformatics, with comprehensive training materials available to support collaborative research.
     url: https://zenodo.org/records/4042834#.ZACFUk9vD9M
 
-title: Greece
-description: A comprehensive guide to research data management (RDM) in Greece, featuring tools, resources, and services tailored for the life sciences community.
-country_code: GR
-contributors: [Eleni Adamidi, Thanasis Vergoulis, Alexandros Dimopoulos]
-coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
-
-# Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
-
 # Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+
+ref_to_main_resources:
+  - argos
 
 # List here tools and resources mainly relevant for the specific country
 national_resources: 
-
   - name: HYPATIA - Cloud Infrastructure for ELIXIR Greece
     description:  HYPATIA is a cloud-based infrastructure that has been developed to support the computational needs of the ELIXIR Greece community and the wider life sciences community including researchers and institutions in Greece and internationally.
     how_to_access:  Login via Life Science (LS) Login required.
@@ -45,8 +44,7 @@ national_resources:
      tool_assembly: [covid19_data_portal]
     instance_of: covid-19-data-portal
 
-ref_to_main_resources:
-  - argos
+
 ---
 
 ## Introduction 
