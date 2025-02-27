@@ -6,8 +6,6 @@
 
 # Contribute
 /pages/contribute       @floradanna @bedroesb
-/pages/contribute/copyright.md
-/pages/contribute/style_guide.md
 CONTRIBUTING.md       @floradanna
 
 # Different Sections
@@ -20,8 +18,6 @@ CONTRIBUTING.md       @floradanna
 
 #About
 /pages/about/about.md       @frederikcoppens @CaroleGoble
-/pages/about/accessibility.md
-/pages/about/privacy.md
 CODE_OF_CONDUCT.md       @frederikcoppens @CaroleGoble
 
 
