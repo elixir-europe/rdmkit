@@ -52,6 +52,6 @@ Please send your application to rdm-editors@elixir-europe.org.
 
 ## Past editorial board members
 
-In this section we would like to thank contributions of our past editorial members.
+In this section, we would like to thank the contributions of our past editorial members.
 
-{% include contributor-tiles-all.html custom="Mijke Jetten, Niclas Jareborg, Pinar Alper, Rob Hooft, Daniel Faria, Martin Cook" %}
+{% include contributor-tiles-all.html custom="Mijke Jetten, Niclas Jareborg, Pinar Alper, Rob Hooft, Daniel Faria, Martin Cook, Laura Portell Silva" %}
