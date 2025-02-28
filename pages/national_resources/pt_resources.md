@@ -106,9 +106,9 @@ The Research Data Management Forum ([Fórum de Gestão de Dados de Informação]
 ideas, projects, and best practices in Research Data Management, aiming to join together RDM support professionals in research institutions and
 science funding organisations.
 
-### National Distributed Computing Infrastructure
+### National Center for Advanced Computing
 
-The [National Distributed Computing Infrastructure (INCD)](https://www.incd.pt) provides computing and data services to the national scientific and academic community in all areas of knowledge. The infrastructure is especially oriented to provide scientific computing services, supporting researchers and the participation in national and international projects.
+The [National Center for Advanced Computing (CNCA)](https://www.incd.pt) (previously National Distributed Computing Infrastructure) provides computing and data services to the national scientific and academic community in all areas of knowledge. CNCA is especially oriented to provide scientific computing services, supporting researchers and the participation in national and international projects.
 
 ## Life and Health Sciences Infrastructures and Resources
 
