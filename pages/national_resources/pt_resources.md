@@ -100,7 +100,7 @@ The [RNCA - National Network for Advanced Computing](https://rnca.fccn.pt) - is 
 research data management. It also aims to promote open science, and the sharing and preservation of research data generated within the scope of
 projects developed with public funding.
 
-### Fórum GDI
+### Research Data Management Forum
 
 The Research Data Management Forum ([Fórum de Gestão de Dados de Informação](https://forumgdi.rcaap.pt)) is a space for the debate and sharing of
 ideas, projects, and best practices in Research Data Management, aiming to join together RDM support professionals in research institutions and
