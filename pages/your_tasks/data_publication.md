@@ -106,3 +106,21 @@ You will sometimes need to update or delete some entries that were incomplete or
 
 ### Solutions
 Solutions are very much repository-dependent. For example, on the {% tool "european-nucleotide-archive" %}, entries can be easily updated using a CLI. However, the updated information is not automatically redistributed to other registries linked to ENA. Upon email request, entries may also be suppressed from public view. Note that ENA also has a test server to make test submissions before submitting to the actual production server, which can be very useful when sending large batches of data to test for any systematic errors. Please check these points with your repository of choice.
+
+## Should you include datasets accession numbers in pre-prints or thesis?
+
+### Description
+Researchers often deposit their data in public databases (e.g., ArrayExpress, GEO) and receive an accession number for that data. Including these accession numbers in a pre-print or a thesis could make the dataset publicly available, even before the final publication. Whether to include them depends on whether the researcher wants the data to be accessible to the public at an early stage or keep it private until later.
+
+### Considerations
+* Pre-prints are often treated as citable publications.
+* Some databases may release data upon request if an accession number is cited in a pre-print or in a published thesis.
+* Policies vary between repositories—some release data proactively, while others do so only upon inquiry.
+* Once an accession number is made public in a pre-print, the dataset may become publicly accessible, even if the preprint is intended to be temporary and even if a second manuscript describing the same data is pending.
+
+### Solutions
+* To avoid unintended data release, authors should refrain from including accession numbers in pre-prints if they wish to keep the dataset private. If public availability is not an issue, citing the accession number ensures accessibility.
+
+* Check the guidelines or policies of the data repository of interest before deciding whether to include the accession number in a pre-print. For example, GEO's policy requires that data be publicly accessible once an accession number is cited, even if the manuscript is a pre-print. More information can be found here: [GEO FAQ](https://www.ncbi.nlm.nih.gov/geo/info/faq.html#holdprivate).
+
+
