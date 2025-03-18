@@ -3,7 +3,7 @@
   pid: https://ror.org/03xrhmk39
   expose: true
   type: institution
-  url: https://www.psb.ugent.be/
+  url: https://www.vib.be/
 - name: The Manchester University
   image_url: /images/institutions/logo-university-of-manchester.svg
   pid: https://ror.org/02aswte26
