@@ -123,4 +123,3 @@ The primary data that emerge directly from experimental analysis are mostly exte
 * The {% tool "pyenzyme" %} library facilitates the processing of data by providing a programmatic interface to {% tool "enzymeml" %}. {% tool "pyenzyme" %} also interfaces with computational systems biology tools such as {% tool "pysces" %} and {% tool "copasi" %} to assist with numerically solving the kinetic models for parameter estimation.
 * Fitting statistics such as the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC), which are commonly reported by fitting libraries, can be used to select the most appropriate model from different alternatives.
 
-
