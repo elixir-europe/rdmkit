@@ -72,7 +72,7 @@ Before data can be sampled in a structured way, frameworks and tools are require
 
 The model repositories {% tool "jws-online" %} and {% tool "biomodels" %} are home to a large variety of detailed kinetic models of cell biochemistry that are exchangeable through {% tool "systems-biology-markup-language" %}. The models are populated with curated parameter values based on experimental data. As such they serve to structure the data concerning enzymological parameters in a way that shows the implications of the parameter values for physiological functions. This makes models and data immediately useful for the non-modelling expert.
 
-{% tool "bioschemas" %} is a framework that adds bio-related properties and types to {% tool "schemas-org" %} which aims at increasing the findability of datasets in the web. {% tool "schemas-org" %} is a general framework that enriches any webpage with additional metadata. However, as {% tool "schemas-org" %} is a general framework, Bioschemas introduces a domain-specific controlled vocabulary.
+{% tool "bioschemas" %} is a framework that adds bio-related properties and types to {% tool "schema-org" %} which aims at increasing the findability of datasets in the web. {% tool "schema-org" %} is a general framework that enriches any webpage with additional metadata. However, as {% tool "schema-org" %} is a general framework, Bioschemas introduces a domain-specific controlled vocabulary.
 
 The {% tool "ontology-lookup-service" %} provides more than 260 ontologies in the various fields. For the biocatalysis and enzymology domain, the following ontologies may be of interest:
 * {% tool "bioassay-ontology" %}
