@@ -2878,7 +2878,7 @@
     biotools: metacyc
     fairsharing: yytevr
   url: https://metacyc.org/
-- description: GotEnzymes: an extensive database of enzyme parameter predictions.
+- description: "GotEnzymes: an extensive database of enzyme parameter predictions."
   id: gotenzymes
   name: GotEnzymes
   url: https://metabolicatlas.org/gotenzymes
