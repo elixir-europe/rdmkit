@@ -76,7 +76,7 @@ This page provides an overview of data management resources in Portugal, with a 
 
 ## Funders
 
-### Fundação para a Ciência e a Tecnologia (FCT)
+### Fundação para a Ciência e a Tecnologia
 
 The Foundation for Science and Technology ([_Fundação para a Ciência e a Tecnologia_, FCT](https://www.fct.pt)) is the national public agency
 providing support for research for science, innovation, and technology in all domains. It is a public institute of special resposibility under
@@ -85,12 +85,12 @@ FCT provides their own [Data Management Plan template (in Portuguese)](https://p
 
 ## National Infrastructures and Resources
 
-### Fundação para a Computação Científica Nacional (FCCN)
+### Fundação para a Computação Científica Nacional
 
 The Foundation for National Scientific Computing ([_Fundação para a Computação Científica Nacional_, FCCN](https://www.fccn.pt)) is the Scientific
 Computing Unit of FCT. FCCN provides high-speed Internet connectivity and IT services to the Portuguese higher education and research system.
 
-#### National Network for Advanced Computing (RNCA)
+#### National Network for Advanced Computing
 
 The [RNCA - National Network for Advanced Computing](https://rnca.fccn.pt) - is managed by FCCN, with the aim of making advanced computing services available to the research, technology and innovation communities. RCNA's network of operational centres include the EuroHPC [Deucalion supercomputer](https://macc.fccn.pt/resources#deucalion). It is a member of the Iberian Advanced Computing Network, with also includes the [MareNostrum](https://www.bsc.es/marenostrum/marenostrum) supercomputers in Spain.
 
@@ -100,15 +100,15 @@ The [RNCA - National Network for Advanced Computing](https://rnca.fccn.pt) - is 
 research data management. It also aims to promote open science, and the sharing and preservation of research data generated within the scope of
 projects developed with public funding.
 
-### Fórum GDI
+### Research Data Management Forum
 
 The Research Data Management Forum ([Fórum de Gestão de Dados de Informação](https://forumgdi.rcaap.pt)) is a space for the debate and sharing of
 ideas, projects, and best practices in Research Data Management, aiming to join together RDM support professionals in research institutions and
 science funding organisations.
 
-### National Distributed Computing Infrastructure (INCD)
+### National Center for Advanced Computing
 
-The [National Distributed Computing Infrastructure (INCD)](https://www.incd.pt) provides computing and data services to the national scientific and academic community in all areas of knowledge. The infrastructure is especially oriented to provide scientific computing services, supporting researchers and the participation in national and international projects.
+The [National Center for Advanced Computing (CNCA)](https://www.incd.pt) (previously National Distributed Computing Infrastructure) provides computing and data services to the national scientific and academic community in all areas of knowledge. CNCA is especially oriented to provide scientific computing services, supporting researchers and the participation in national and international projects.
 
 ## Life and Health Sciences Infrastructures and Resources
 
@@ -121,7 +121,7 @@ BioData.pt, through its affiliate institutions, provides a wide array of RDM too
 
 ## Institutional policies on research data in Portugal
 
-Some institutions implemented their own data managemend policies. Here's a few examples from the Life and Health Sciences:
+Some institutions implemented their own data management policies. Here are few examples from the organisations in Life and Health Sciences:
 * [Centre of Marine Sciences (CCMAR)](https://ccmar.ualg.pt/en/our-policies)
 * [Instituto Gulbenkian de Ciência (IGC)](https://zenodo.org/record/6325980#.YmrF1m7MJTY)
 * [NOVA Institute of Medical Systems Biology (NIMSB)](https://nimsb.unl.pt/research-innovation/data-management-plan/)
