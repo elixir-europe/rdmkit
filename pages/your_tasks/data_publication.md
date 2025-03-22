@@ -119,7 +119,7 @@ Researchers often deposit their data in public databases (e.g., ArrayExpress, GE
 * Once an accession number is made public in a pre-print, the dataset may become publicly accessible, even if the preprint is intended to be temporary and even if a second manuscript describing the same data is pending.
 
 ### Solutions
-
+* If public availability before final publication is not an issue, citing the accession number ensures accessibility.
 * Check the guidelines or policies of the data repository of interest before deciding whether to include the accession number in a pre-print. For example, GEO's policy requires that data be publicly accessible once an accession number is cited, even if the manuscript is a pre-print. More information can be found here: [GEO FAQ](https://www.ncbi.nlm.nih.gov/geo/info/faq.html#holdprivate).
 
 
