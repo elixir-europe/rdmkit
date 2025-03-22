@@ -107,7 +107,7 @@ You will sometimes need to update or delete some entries that were incomplete or
 ### Solutions
 Solutions are very much repository-dependent. For example, on the {% tool "european-nucleotide-archive" %}, entries can be easily updated using a CLI. However, the updated information is not automatically redistributed to other registries linked to ENA. Upon email request, entries may also be suppressed from public view. Note that ENA also has a test server to make test submissions before submitting to the actual production server, which can be very useful when sending large batches of data to test for any systematic errors. Please check these points with your repository of choice.
 
-## Should you include datasets accession numbers in pre-prints or thesis?
+## Should you include datasets accession numbers in pre-prints or theses?
 
 ### Description
 Researchers often deposit their data in public databases (e.g., ArrayExpress, GEO) and receive an accession number for that data. Including these accession numbers in a pre-print or a thesis could make the dataset publicly available, even before the final publication. Whether to include them depends on whether the researcher wants the data to be accessible to the public at an early stage or keep it private until later.
