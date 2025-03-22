@@ -113,7 +113,7 @@ Solutions are very much repository-dependent. For example, on the {% tool "europ
 Researchers often deposit their data in public databases (e.g., ArrayExpress, GEO) and receive an accession number for that data. Often researchers put data under embargo until the final publication - a period of time during which a dataset remains unavailable to the public. Including accession number(s) in a pre-print or a thesis could finish embargo and make the dataset publicly available, even before the final publication. Whether to include accession number(s) depends on whether the researcher wants the data to be accessible to the public at an early stage or keep it private until later.
 
 ### Considerations
-* Pre-prints are often treated as citable publications.
+* Pre-prints and theses are often treated as citable publications.
 * Some databases may release data upon request if an accession number is cited in a pre-print or in a published thesis.
 * Policies vary between repositories — some release data proactively, while others do so only upon inquiry.
 * Once an accession number is made public in a pre-print, the dataset may become publicly accessible, even if the preprint is intended to be temporary and even if a second manuscript describing the same data is pending.
