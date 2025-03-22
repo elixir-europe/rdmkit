@@ -114,7 +114,7 @@ Researchers often deposit their data in public databases (e.g., ArrayExpress, GE
 
 ### Considerations
 * Pre-prints and theses are often treated as citable publications.
-* Some databases may release data upon request if an accession number is cited in a pre-print or in a published thesis.
+* Some databases may release data as soon as an accession number is cited in a pre-print or in a published thesis.
 * Policies vary between repositories — some release data proactively, while others do so only upon inquiry.
 * Once an accession number is made public in a pre-print, the dataset may become publicly accessible, even if the preprint is intended to be temporary and even if a second manuscript describing the same data is pending.
 
