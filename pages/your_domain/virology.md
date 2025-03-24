@@ -45,8 +45,7 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
 * FAIRsharing resources for metadata selection
   * Refer to the [EVORA collection](https://fairsharing.org/5449) of FAIRsharing-referenced metadata standards for pandemic preparedness and response.
   * Consult {% tool "fairsharing" %} registries to identify suitable standards for different types of virology datasets.
-  * Integrate epidemiological and genomic data for outbreak analysis
-  * Utilize phylodynamic workflows (e.g., BEAST, Nextstrain, or TreeTime) to combine genomic data with epidemiological models, enabling real-time outbreak tracking.
+  * Integrate epidemiological and genomic data for outbreak analysis, by utilizing phylodynamic workflows (e.g., BEAST, Nextstrain, or TreeTime), enabling real-time outbreak tracking.
   * Implement structured pipelines for linking viral genome sequences with patient and outbreak metadata.
 * Apply domain-specific vocabularies for consistent annotation
   * Utilize the [EVORA ontology](https://www.ebi.ac.uk/ols4/ontologies/evorao) and [ICTV ontologies](https://ictv.global/taxonomy) to ensure that virus-related metadata terms are standardized and interoperable.
@@ -69,21 +68,16 @@ Key challenges in managing data sensitivity and ethics include:
 Organizations must implement robust governance policies, encryption techniques, and controlled data access mechanisms to maintain patient privacy while enabling scientific advancements. The following strategies outline best practices for secure data management and ethical compliance.
 * Ensure GDPR and regulatory compliance
   * For guidance on managing sensitive data ethically and in compliance with regulations, the RDMkit pages on '[GDPR compliance](https://rdmkit.elixir-europe.org/gdpr_compliance)', '[Ethical aspects](https://rdmkit.elixir-europe.org/ethics)', and '[Compliance monitoring & measurement](https://rdmkit.elixir-europe.org/compliance_monitoring)' provide detailed recommendations on protecting personal data, navigating ethical responsibilities, and implementing effective compliance monitoring practices.
-  * Conduct a Data Protection Impact Assessment (DPIA) to proactively identify and mitigate privacy risks associated with human and health-related data (see RDMkit Human data and Health data domain pages).
-  * Utilize resources such as the Infectious Diseases Toolkit (IDTk) for detailed guidance on ethical, legal, and social implications related to handling sensitive data.
+  * Identify and mitigate privacy risks associated with human and health-related data (see RDMkit [Human data](https://rdmkit.elixir-europe.org/human_data) and [Health data](https://rdmkit.elixir-europe.org/health_data) domain pages).
   * Establish clear data governance policies defining roles and responsibilities regarding data processing and sharing.
   * Ensure contractual coverage for data exchanges through appropriate agreements (e.g., Data Use Agreements, Consortium Agreements, Data Sharing Agreements), explicitly outlining data usage, retention, reuse, and publication policies. Material Transfer Agreements (MTAs) should similarly address the handling of human data derived from received samples.
-  * When appropriate, employ specialized bioinformatics pipelines designed to remove human reads from genomic and transcriptomic virus datasets, rendering the data non-sensitive and suitable for open public sharing—an approach successfully implemented by initiatives such as the ENA upload tool for COVID-1
-* Implement effective data anonymization and pseudonymization strategies
-  * Refer to Your tasks: Data sensitivity | RDMkit?
-* Adopt secure and scalable storage solutions
-  * Refer to Your tasks: Data storage | RDMkit?
-  * Store sensitive data in repositories designed for controlled access (e.g., EGA, ENA, ...
+  * You can also check the practices included in the {% tool "idtk" %} related to the management of human and pathogen data in the context of infectious diseases.
+* Implement effective data anonymization and pseudonymization strategies to reduce data sensitivity and protect privacy, following best practices detailed on the RDMkit [Data Sensitivity](https://rdmkit.elixir-europe.org/data_sensitivity) page.
+* Adopt secure and scalable data storage solutions to ensure long-term data integrity, controlled access, and compliance with relevant standards and best practices, as described on the RDMkit [Data Storage](https://rdmkit.elixir-europe.org/storage) page.
+  * Store sensitive data in repositories designed for controlled access (e.g., {% tool "the-european-genome-phenome-archive" %}, {% tool "european-nucleotide-archive" %}, ...
   * Use encryption for data at rest and in transit to prevent unauthorized access.
   * Establish strict access control policies, using role-based access and multi-factor authentication where appropriate.
-* Implement best practices for data versioning and backup
-  * Refer to Your tasks: Data organisation | RDMkit?
-  * Use version control systems to track changes in datasets while maintaining data integrity.
+* Implement best practices for data versioning and backup to maintain clear data histories, prevent loss, and enhance reproducibility, following guidelines provided on the RDMkit [Data Organisation](https://rdmkit.elixir-europe.org/data_organisation) page.
 
 ## Data sharing and access
  
@@ -100,21 +94,17 @@ Key challenges in data sharing and access include:
 
 ### Solutions
 To ensure secure and effective data sharing in virology outbreak surveillance, researchers and institutions should implement structured strategies:
-* Balance openness with security for data sharing
-  * Refer to Your tasks: Data security | RDMkit and Your tasks: Data discoverability | RDMkit?
-  * Use controlled-access repositories like VODAN - GO FAIR to manage and access sensitive patient or outbreak data securely.
+* Balance openness with security in data sharing by implementing measures that protect sensitive data while ensuring it remains discoverable and accessible, following the guidelines provided on the RDMkit pages for [Data Security](https://rdmkit.elixir-europe.org/data_security) and [Data Discoverability](https://rdmkit.elixir-europe.org/data_discoverability)
+  * Use controlled-access repositories like [VODAN - GO FAIR](https://www.go-fair.org/implementation-networks/overview/vodan/) to manage and access sensitive patient or outbreak data securely.
   * Implement data access governance models that allow tiered access based on user credentials and need.
-  * Utilize Pathoplexus for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
-* Ensure proper deposition of outbreak data in trusted repositories
-  * Refer to Your tasks: Data publication | RDMkit?
-  * Submit viral genomic sequences and epidemiological data to GISAID, NCBI GenBank, and ENA for public accessibility.
+  * Utilize [Pathoplexus](https://pathoplexus.org/) for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
+* Ensure proper deposition of outbreak data into trusted repositories to facilitate data sharing, citation, and reuse, following best practices outlined on the RDMkit [Data Publication](https://rdmkit.elixir-europe.org/data_publication) page.
+  * Submit viral genomic sequences and epidemiological data to {% tool "gisaid" %}, NCBI {% tool "genbank" %}, and {% tool "european-nucleotide-archive" %} for public accessibility.
   * Use standard submission pipelines to ensure compliance with repository-specific metadata and formatting guidelines.
-* Assign persistent identifiers for dataset discoverability
-  * Refer to Your tasks: Identifiers | RDMkit
+* Assign persistent identifiers to datasets to enhance discoverability, citation, and long-term accessibility, following recommendations on the [RDMkit Identifiers](https://rdmkit.elixir-europe.org/identifiers) page.
   * Register DOIs or accession numbers for datasets to facilitate long-term accessibility and proper citation.
   * Ensure metadata linking persistent identifiers is properly formatted and recorded.
-* Comply with national and EU data-sharing regulations
-  * Refer to National resources | RDMkit?
+* Comply with national and EU data-sharing regulations by consulting country-specific guidelines and legal frameworks available on the RDMkit [National Resources](https://rdmkit.elixir-europe.org/national_resources) page.
   * Align data-sharing practices with GDPR, national laws, and institutional ethical guidelines.
   * Implement data-sharing agreements between collaborating institutions to formalize responsibilities.
 
