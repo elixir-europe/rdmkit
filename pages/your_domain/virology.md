@@ -1,12 +1,12 @@
 ---
 title: Virology
 search_exclude: true
-description: <!---REPLACE THIS with a one sentence description of the page--->
-contributors: [Niels Geudens]
-page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo
+description: Data management solutions for virology data.
+contributors: [Niels Geudens, Flora D'Anna]
+page_id: virology
 related_pages: 
-  your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-  tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+  your_tasks: [data_provenance, metadata, data_brokering]
+  tool_assembly: [covid19_data_portal]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
   - name:
@@ -15,30 +15,108 @@ training:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
-<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
-
-<!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
-In the event that no adequate Problem page exists for a problem that can be generalized across domains, consider first contributing to create one or raising a GitHub issue. However, if a problem is entirely domain specific, then it should be fully detailed within the respective Domain page. --->
-
 ## Introduction
+Virology is a rapidly evolving field that generates diverse and complex datasets, from genomic sequences to clinical trial results and epidemiological data. Effective research data management (RDM) is essential to ensure that these valuable datasets are organized, shared, and preserved in a manner that enables data integration, reproducibility, and interoperability for long-term impact.
 
-<!--- In this section you should provide a brief overview of the domain from the data management perspective, mentioning and putting into context the challenges that are particular to the domain, which will be the object of sections below. --->
-
-
-## section 1 title
+## Data Heterogeneity
  
 ### Description
-<!--- Sections within Domain pages (aside from "Introduction" at the start and "Tools and resources on this page" at the end) should focus on particular data management problems, which should be described in this first sub-section.
-For problems that are fully domain-specific, a detailed description is merited.
-For detailing the domain-specific challenges of a problem that is generic, please link to the corresponding generic Problem page before going into the domain-specific challenges. --->
+Outbreak surveillance in virology requires the integration of multiple data types, including sequencing, clinical, and epidemiological data. These data types originate from diverse sources, such as hospitals, research laboratories, and public health agencies, making their harmonization and interoperability critical. Without standardized data management approaches, inconsistencies in metadata, sampling protocols, and data formats can hinder effective outbreak response, cross-study comparisons, and reproducibility of findings.
 
-### Considerations <!--- (optional) --->
-<!---  Direct and concise considerations, structured in bullet points and typically framed as questions RDMkit reader should ask themselves in order to arrive at the best solution among those listed below. One level of nesting of bullet points within considerations is fine, but more levels should be avoided. --->
-
+### Considerations
+Key challenges in managing data heterogeneity include:
+* Standardizing sample collection protocols across clinical and environmental settings to ensure comparability.
+* Adopting structured, appropriate and sufficient  metadata to improve data annotation and organization .
+* Integrating epidemiological and genomic data to enhance outbreak detection and integrative and global responses.
 
 ### Solutions
-<!--- Detail, either in normal text or in bullet points, the domain-specific solutions to the problem. Do not merely list tools or resources, as they will be automatically listed in the bottom section, but you can and should mention tools and resources listed below if you detail their usage to solve the problem. --->
+To effectively manage data heterogeneity in virology outbreak surveillance, several domain-specific solutions are recommended:
+* Refer to Your tasks: Data provenance | RDMkit?
+* Use standardized protocols for sample collection by identifying and reviewing existing guidelines from organizations such as WHO, CDC, and ISO standards to ensure alignment with best practices.
+* Implement metadata standards for data interoperability
+  * The ['Data Provenance' page](https://rdmkit.elixir-europe.org/data_provenance) on RDMkit provides comprehensive guidance on capturing metadata, documenting data origins, and maintaining transparent records, ensuring data traceability and reproducibility.
+  * Apply MIxS (Minimum Information about any (x) Sequence) for annotating viral sequence data with necessary metadata fields.
+  * Use MIUVIG (Minimum Information about Uncultivated Virus Genomes) for uncultivated viral genomes to ensure data consistency.
+  * Adapt Dublin Core Metadata Element Set for basic dataset descriptions such as title, creator, and date.
+  * Follow BioSamples Metadata Schema from EBI for structured viral sample metadata.
+* Ensure metadata compliance with international repositories
+  * Refer to Your tasks: Data brokering | RDMkit?
+  * Format metadata to meet the submission requirements of repositories like GISAID and ENA to ensure smooth data deposition and retrieval.
+  * Utilize validation tools and checklists to ensure completeness and accuracy before data submission.
+* FAIRsharing resources for metadata selection
+  * Refer to the EVORA collection of FAIRsharing-referenced metadata standards for pandemic preparedness and response.
+  * Consult FAIRsharing registries to identify suitable standards for different types of virology datasets.
+  * Integrate epidemiological and genomic data for outbreak analysis
+  * Utilize phylodynamic workflows (e.g., BEAST, Nextstrain, or TreeTime) to combine genomic data with epidemiological models, enabling real-time outbreak tracking.
+  * Implement structured pipelines for linking viral genome sequences with patient and outbreak metadata.
+* Apply domain-specific vocabularies for consistent annotation
+  * Utilize the [EVORA ontology](https://www.ebi.ac.uk/ols4/ontologies/evorao) and [ICTV ontologies](https://ictv.global/taxonomy) to ensure that virus-related metadata terms are standardized and interoperable.
+  * Monitor updates in virology-specific ontologies to maintain alignment with evolving standards.
+By implementing these best practices, outbreak surveillance data can be better structured, more interoperable, and more effectively shared, ultimately improving global response efforts to viral outbreaks.
 
-<!--- ## Section 2 Title --->
-<!--- Add more sections as needed, with the same subsections as above. --->
+## Data Heterogeneity
+ 
+### Description
+Handling sensitive data in virology outbreak surveillance involves managing patient data, ensuring proper anonymization, and complying with regulations such as the General Data Protection Regulation (GDPR). The ethical and legal aspects of handling such data are crucial to maintaining patient privacy while allowing researchers and public health authorities to analyze and respond to viral threats effectively.
+Proper data governance strategies must balance the need for data accessibility and data security, ensuring that only authorized personnel can access identifiable information. Secure storage, controlled access mechanisms, and appropriate anonymization techniques must be implemented to meet legal and ethical standards.
+
+### Considerations
+Key challenges in managing data sensitivity and ethics include:
+* Ensuring compliance with GDPR and other legal frameworks when collecting, processing, and sharing sensitive patient data.
+* Anonymizing and pseudonymizing patient data to reduce privacy risks while preserving data utility for research.
+* Implementing secure and scalable storage solutions that support controlled data access, encryption, and long-term preservation.
+* Establishing best practices for data versioning and backup to ensure data integrity and reproducibility without compromising privacy.
+
+### Solutions
+Organizations must implement robust governance policies, encryption techniques, and controlled data access mechanisms to maintain patient privacy while enabling scientific advancements. The following strategies outline best practices for secure data management and ethical compliance.
+* Ensure GDPR and regulatory compliance
+  * Refer to Your tasks: GDPR compliance | RDMkit, Your tasks: Ethical aspects | RDMkit and Your tasks: Compliance monitoring & measurement | RDMkit?
+  * Conduct a Data Protection Impact Assessment (DPIA) to identify and mitigate privacy risks. A DSW knowledge model is available, guiding users through a set of questions to collect the necessary information. 
+  * Establish clear data governance policies that define roles and responsibilities for data processing and sharing. 
+    * Receiving data from a collaborator must be covered by a contract. Ensure detailed provisions on data use, retention, re-use and publication are included in the agreements (Data Use agreement, Consortium agreement, Data Sharing agreement, …). This applies also to samples you receive from a collaborator. Related contracts (e.g. Material Transfer Agreement - MTA) should cover use of human data generated from these samples. 
+    * Incomplete legal framework for the data use can require lengthy legal amendments and can result in your in-ability to comply with requirements set out by your funder or targeted publisher.
+    * Implement Data Processing Agreements (DPAs) with all collaborating institutions handling sensitive data.
+* Implement effective data anonymization and pseudonymization strategies
+  * Refer to Your tasks: Data sensitivity | RDMkit?
+* Adopt secure and scalable storage solutions
+  * Refer to Your tasks: Data storage | RDMkit?
+  * Store sensitive data in repositories designed for controlled access (e.g., EGA, ENA, ...
+  * Use encryption for data at rest and in transit to prevent unauthorized access.
+  * Establish strict access control policies, using role-based access and multi-factor authentication where appropriate.
+* Implement best practices for data versioning and backup
+  * Refer to Your tasks: Data organisation | RDMkit?
+  * Use version control systems to track changes in datasets while maintaining data integrity.
+
+## Data Heterogeneity
+ 
+### Description
+Effective data sharing and access enable timely surveillance of viral genome evolution, facilitating early detection of mutations and emerging variants. This rapid exchange of outbreak information supports swift global responses while simultaneously addressing critical concerns around data security and patient privacy. 
+Researchers have a responsibility to share outbreak-related data ethically, legally, and efficiently, allowing authorized users appropriate access to sensitive materials, such as patient records and genomic sequences, in alignment with national and EU regulatory frameworks. Furthermore, assigning persistent identifiers and utilizing structured data repositories enhance the long-term usability, traceability, and discoverability of outbreak data, significantly improving preparedness and response strategies.
+
+### Considerations
+Key challenges in data sharing and access include:
+* Balancing openness with security, ensuring that sensitive data is accessible to authorized users without compromising privacy.
+* Adhering to national and international regulations to ensure ethical data sharing.
+* Ensuring proper data deposition in repositories that align with domain-specific standards.
+* Maintaining dataset integrity and discoverability using persistent identifiers like DOIs and accession numbers.
+
+### Solutions
+To ensure secure and effective data sharing in virology outbreak surveillance, researchers and institutions should implement structured strategies:
+* Balance openness with security for data sharing
+  * Refer to Your tasks: Data security | RDMkit and Your tasks: Data discoverability | RDMkit?
+  * Use controlled-access repositories like VODAN - GO FAIR to manage and access sensitive patient or outbreak data securely.
+  * Implement data access governance models that allow tiered access based on user credentials and need.
+  * Utilize Pathoplexus for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
+* Ensure proper deposition of outbreak data in trusted repositories
+  * Refer to Your tasks: Data publication | RDMkit?
+  * Submit viral genomic sequences and epidemiological data to GISAID, NCBI GenBank, and ENA for public accessibility.
+  * Use standard submission pipelines to ensure compliance with repository-specific metadata and formatting guidelines.
+* Assign persistent identifiers for dataset discoverability
+  * Refer to Your tasks: Identifiers | RDMkit
+  * Register DOIs or accession numbers for datasets to facilitate long-term accessibility and proper citation.
+  * Ensure metadata linking persistent identifiers is properly formatted and recorded.
+* Comply with national and EU data-sharing regulations
+  * Refer to National resources | RDMkit?
+  * Align data-sharing practices with GDPR, national laws, and institutional ethical guidelines.
+  * Implement data-sharing agreements between collaborating institutions to formalize responsibilities.
 
