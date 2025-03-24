@@ -2179,7 +2179,7 @@
   url: https://brew.sh/
 - description: A database to quickly access all tryptic peptides of the UniProtKB
   id: macpepdb
-  name: Mass Centric Peptide Database
+  name: Mass Centric Peptide Database (MaCPepDB)
   registry:
     fairsharing: c756a7
   url: https://macpepdb.mpc.rub.de/
