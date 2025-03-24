@@ -12,6 +12,9 @@ training:
   - name:
     registry:
     url:
+fairsharing:
+- name: EVORA FAIRsharing collection
+  url: https://fairsharing.org/5449
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
