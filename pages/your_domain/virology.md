@@ -32,7 +32,7 @@ Key challenges in managing data heterogeneity include:
 ### Solutions
 To effectively manage data heterogeneity in virology outbreak surveillance, several domain-specific solutions are recommended:
 * The ['Data Provenance' page](https://rdmkit.elixir-europe.org/data_provenance) on RDMkit provides comprehensive guidance on capturing metadata, documenting data origins, and maintaining transparent records, ensuring data traceability and reproducibility.
-* Use standardized protocols for sample collection by identifying and reviewing existing guidelines from organizations such as WHO, CDC, and ISO standards to ensure alignment with best practices.
+* Use standardized protocols for sample collection by identifying and reviewing existing guidelines from organizations such as [World Health Organisation](https://www.who.int/publications/who-guidelines), [ECDC](https://www.ecdc.europa.eu/en), and [ISO standards](https://www.iso.org/standards.html) to ensure alignment with best practices.
 * Implement metadata standards for data interoperability
   * The ['Documentation and metadata' page](https://rdmkit.elixir-europe.org/metadata_management) on RDMkit offers practical recommendations and standards for accurately describing data, ensuring consistent interpretation, interoperability, and long-term usability.
   * Apply {% tool "mixs" %} and the complementary [MIUVIG (Minimum Information about Uncultivated Virus Genomes)](https://www.nature.com/articles/nbt.4306) for annotating viral sequence data with necessary metadata fields.
