@@ -2179,7 +2179,9 @@
   url: https://brew.sh/
 - description: A database to quickly access all tryptic peptides of the UniProtKB
   id: macpepdb
-  name: Mass Centric Peptide Database
+  name: Mass Centric Peptide Database (MaCPepDB)
+  registry:
+    fairsharing: c756a7
   url: https://macpepdb.mpc.rub.de/
 - description: The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac operating system.
   id: macports
