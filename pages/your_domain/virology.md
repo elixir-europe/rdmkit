@@ -26,7 +26,6 @@ Outbreak surveillance in virology requires the integration of multiple data type
 ### Considerations
 Key challenges in managing data heterogeneity include:
 * Standardizing sample collection protocols across clinical and environmental settings to ensure comparability.
-* Adopting structured, appropriate and sufficient  metadata to improve data annotation and organization .
 * Integrating epidemiological and genomic data to enhance outbreak detection and integrative and global responses.
 
 ### Solutions
@@ -87,14 +86,14 @@ Researchers have a responsibility to share outbreak-related data ethically, lega
 
 ### Considerations
 Key challenges in data sharing and access include:
-* Balancing openness with security, ensuring that sensitive data is accessible to authorized users without compromising privacy.
+* Balancing accesibility with security, ensuring that sensitive data is accessible to authorized users without compromising privacy.
 * Adhering to national and international regulations to ensure ethical data sharing.
 * Ensuring proper data deposition in repositories that align with domain-specific standards.
 * Maintaining dataset integrity and discoverability using persistent identifiers like DOIs and accession numbers.
 
 ### Solutions
 To ensure secure and effective data sharing in virology outbreak surveillance, researchers and institutions should implement structured strategies:
-* Balance openness with security in data sharing by implementing measures that protect sensitive data while ensuring it remains discoverable and accessible, following the guidelines provided on the RDMkit pages for [Data Security](https://rdmkit.elixir-europe.org/data_security) and [Data Discoverability](https://rdmkit.elixir-europe.org/data_discoverability)
+* Balance accessibility with security in data sharing by implementing measures that protect sensitive data while ensuring it remains discoverable and accessible, following the guidelines provided on the RDMkit pages for [Data Security](https://rdmkit.elixir-europe.org/data_security) and [Data Discoverability](https://rdmkit.elixir-europe.org/data_discoverability)
   * Use controlled-access repositories like [VODAN - GO FAIR](https://www.go-fair.org/implementation-networks/overview/vodan/) to manage and access sensitive patient or outbreak data securely.
   * Implement data access governance models that allow tiered access based on user credentials and need.
   * Utilize [Pathoplexus](https://pathoplexus.org/) for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
