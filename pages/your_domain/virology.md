@@ -2,7 +2,7 @@
 title: Virology
 search_exclude: true
 description: <!---REPLACE THIS with a one sentence description of the page--->
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+contributors: [Niels Geudens]
 page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo
 related_pages: 
   your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
