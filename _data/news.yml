@@ -202,3 +202,7 @@
   date: 2025-02-27
   linked_pr: 1568
   description: This page provides insights into RDM on a national level in Greece. [Discover the page here](gr_resources)
+- name: "New page: Virology"
+  date: 2025-12-06
+  linked_pr: 1620
+  description: A new "your domain" page about Virology was added. [Discover the page here](virology).

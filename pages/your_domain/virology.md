@@ -1,6 +1,5 @@
 ---
 title: Virology
-search_exclude: true
 description: Data management solutions for virology data.
 contributors: [Niels Geudens, Flora D'Anna]
 page_id: virology
