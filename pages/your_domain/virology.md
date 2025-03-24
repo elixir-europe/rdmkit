@@ -5,7 +5,7 @@ description: Data management solutions for virology data.
 contributors: [Niels Geudens, Flora D'Anna]
 page_id: virology
 related_pages: 
-  your_tasks: [data_provenance, metadata, data_brokering]
+  your_tasks: [data_provenance, metadata, data_brokering, gdpr_compliance, ethics, compliance, sensitive, storage, data_organisation, data_security, data_discoverability, data_publication, identifiers]
   tool_assembly: [covid19_data_portal]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
@@ -16,7 +16,7 @@ training:
 ---
 
 ## Introduction
-Virology is a rapidly evolving field that generates diverse and complex datasets, from genomic sequences to clinical trial results and epidemiological data. Effective research data management (RDM) is essential to ensure that these valuable datasets are organized, shared, and preserved in a manner that enables data integration, reproducibility, and interoperability for long-term impact.
+Virology is a rapidly evolving field that generates diverse and complex datasets, from genomic sequences to clinical trial results and epidemiological data. Effective research data management (RDM) is essential to ensure that these valuable datasets are organized, shared, and preserved in a manner that enables long-term impact.
 
 ## Data Heterogeneity
  
@@ -34,12 +34,12 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
 * The ['Data Provenance' page](https://rdmkit.elixir-europe.org/data_provenance) on RDMkit provides comprehensive guidance on capturing metadata, documenting data origins, and maintaining transparent records, ensuring data traceability and reproducibility.
 * Use standardized protocols for sample collection by identifying and reviewing existing guidelines from organizations such as WHO, CDC, and ISO standards to ensure alignment with best practices.
 * Implement metadata standards for data interoperability
-  * the ['Documentation and metadata' page](https://rdmkit.elixir-europe.org/metadata_management) on RDMkit offers practical recommendations and standards for accurately describing data, ensuring consistent interpretation, interoperability, and long-term usability.
+  * The ['Documentation and metadata' page](https://rdmkit.elixir-europe.org/metadata_management) on RDMkit offers practical recommendations and standards for accurately describing data, ensuring consistent interpretation, interoperability, and long-term usability.
   * Apply {% tool "mixs" %} and the complementary [MIUVIG (Minimum Information about Uncultivated Virus Genomes)](https://www.nature.com/articles/nbt.4306) for annotating viral sequence data with necessary metadata fields.
-  * Adapt Dublin Core Metadata Element Set for basic dataset descriptions such as title, creator, and date.
+  * Adapt generic dataset descriptions (e.g. DCAT, Dublin core, (bio)schema.org) for basic dataset descriptions.
   * Follow {% tool "biosamples" %} Metadata Schema from EBI for structured viral sample metadata.
 * Ensure metadata compliance with international repositories
-  * the ['Data Brokering' page](https://rdmkit.elixir-europe.org/data_brokering) on RDMkit describes strategies and tools for integrating, harmonizing, and translating data across diverse formats and sources.
+  * The ['Data Brokering' page](https://rdmkit.elixir-europe.org/data_brokering) on RDMkit describes strategies and tools for integrating, harmonizing, and translating data across diverse formats and sources.
   * Format metadata to meet the submission requirements of repositories like {% tool "gisaid" %} and {% tool "european-nucleotide-archive" %} to ensure smooth data deposition and retrieval.
   * Utilize validation tools and checklists to ensure completeness and accuracy before data submission.
 * FAIRsharing resources for metadata selection
