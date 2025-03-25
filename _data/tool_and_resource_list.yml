@@ -2814,3 +2814,10 @@
     fairsharing: dba7ba
     tess: Nextstrain
   url: http://nextstrain.org
+- description: ORCID is an open, non-profit, community-driven registry of unique researcher identifiers and offers a transparent method of attributing outputs.
+  id: orcid
+  name: Open Researcher and Contributor ID Registry (ORCID)
+  registry:
+    biotools: orcid
+    fairsharing: nx58jg
+  url: https://orcid.org/
