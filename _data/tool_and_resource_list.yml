@@ -2821,3 +2821,9 @@
     biotools: orcid
     fairsharing: nx58jg
   url: https://orcid.org/
+- description: MIxS - MIUViG (Minimum Information about an Uncultivated Virus Genome) is a checklist that is a part of the larger MIxS standard.
+  id: miuvig
+  name: Minimum Information about an Uncultivated Virus Genome (MIOViG)
+  registry:
+    fairsharing: bd9566
+  url: https://genomicsstandardsconsortium.github.io/mixs/0010012/
