@@ -14,10 +14,6 @@ training:
 fairsharing:
 - name: EVORA FAIRsharing collection
   url: https://fairsharing.org/5449
-- name: Pathoplexus
-  url: https://fairsharing.org/FAIRsharing.f7ec51
-- name: International Committee on Taxonomy of Viruses (ICTV)
-  url: https://doi.org/10.25504/FAIRsharing.c92ffe
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---
 
