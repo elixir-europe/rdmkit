@@ -32,15 +32,15 @@ Key challenges in managing data heterogeneity include:
 
 ### Solutions
 To effectively manage data heterogeneity in virology outbreak surveillance, several domain-specific solutions are recommended:
-* The ['Data Provenance' page](https://rdmkit.elixir-europe.org/data_provenance) provides comprehensive guidance on capturing metadata, documenting data origins, and maintaining transparent records, ensuring data traceability and reproducibility.
+* The ['Data Provenance' page](data_provenance) provides comprehensive guidance on capturing metadata, documenting data origins, and maintaining transparent records, ensuring data traceability and reproducibility.
 * Use standardized protocols for sample collection by identifying and reviewing existing guidelines from organizations such as [World Health Organisation](https://www.who.int/publications/who-guidelines), [ECDC](https://www.ecdc.europa.eu/en), and [ISO standards](https://www.iso.org/standards.html) to ensure alignment with best practices.
 * Implement metadata standards for data interoperability
-  * The ['Documentation and metadata' page](https://rdmkit.elixir-europe.org/metadata_management) offers practical recommendations and standards for accurately describing data, ensuring consistent interpretation, interoperability, and long-term usability.
+  * The ['Documentation and metadata' page](metadata_management) offers practical recommendations and standards for accurately describing data, ensuring consistent interpretation, interoperability, and long-term usability.
   * Apply {% tool "mixs" %} and the complementary [MIUVIG (Minimum Information about Uncultivated Virus Genomes)](https://doi.org/10.1038/nbt.4306) for annotating viral sequence data with necessary metadata fields.
   * Adapt generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, Dublin Core, {% tool "bioschemas" %}) for basic dataset descriptions.
   * Follow {% tool "biosamples" %} Metadata Schema from EBI for structured viral sample metadata.
 * Ensure metadata compliance with international repositories
-  * The ['Data Brokering' page](https://rdmkit.elixir-europe.org/data_brokering) describes strategies and tools for integrating, harmonizing, and translating data across diverse formats and sources.
+  * The ['Data Brokering' page](data_brokering) describes strategies and tools for integrating, harmonizing, and translating data across diverse formats and sources.
   * Format metadata to meet the submission requirements of repositories like {% tool "gisaid" %} and {% tool "european-nucleotide-archive" %} to ensure smooth data deposition and retrieval.
   * Utilize validation tools and checklists to ensure completeness and accuracy before data submission.
 * FAIRsharing resources for metadata selection
@@ -68,17 +68,17 @@ Key challenges in managing data sensitivity and ethics include:
 ### Solutions
 Organizations must implement robust governance policies, encryption techniques, and controlled data access mechanisms to maintain patient privacy while enabling scientific advancements. The following strategies outline best practices for secure data management and ethical compliance.
 * Ensure GDPR and regulatory compliance
-  * For guidance on managing sensitive data ethically and in compliance with regulations, the pages on '[GDPR compliance](https://rdmkit.elixir-europe.org/gdpr_compliance)', '[Ethical aspects](https://rdmkit.elixir-europe.org/ethics)', and '[Compliance monitoring & measurement](https://rdmkit.elixir-europe.org/compliance_monitoring)' provide detailed recommendations on protecting personal data, navigating ethical responsibilities, and implementing effective compliance monitoring practices.
-  * Identify and mitigate privacy risks associated with human and health-related data (see [Human data](https://rdmkit.elixir-europe.org/human_data) and [Health data](https://rdmkit.elixir-europe.org/health_data) domain pages).
+  * For guidance on managing sensitive data ethically and in compliance with regulations, the pages on '[GDPR compliance](gdpr_compliance)', '[Ethical aspects](ethics)', and '[Compliance monitoring & measurement](compliance_monitoring)' provide detailed recommendations on protecting personal data, navigating ethical responsibilities, and implementing effective compliance monitoring practices.
+  * Identify and mitigate privacy risks associated with human and health-related data (see [Human data](human_data) and [Health data](health_data) domain pages).
   * Establish clear data governance policies defining roles and responsibilities regarding data processing and sharing.
   * Ensure contractual coverage for data exchanges through appropriate agreements (e.g., Data Use Agreements, Consortium Agreements, Data Sharing Agreements), explicitly outlining data usage, retention, reuse, and publication policies. Material Transfer Agreements (MTAs) should similarly address the handling of human data derived from received samples.
   * You can also check the practices included in the {% tool "idtk" %} related to the management of human and pathogen data in the context of infectious diseases.
-* Implement effective data anonymization and pseudonymization strategies to reduce data sensitivity and protect privacy, following best practices detailed on the [Data Sensitivity](https://rdmkit.elixir-europe.org/data_sensitivity) page.
-* Adopt secure and scalable data storage solutions to ensure long-term data integrity, controlled access, and compliance with relevant standards and best practices, as described on the [Data Storage](https://rdmkit.elixir-europe.org/storage) page.
+* Implement effective data anonymization and pseudonymization strategies to reduce data sensitivity and protect privacy, following best practices detailed on the [Data Sensitivity](data_sensitivity) page.
+* Adopt secure and scalable data storage solutions to ensure long-term data integrity, controlled access, and compliance with relevant standards and best practices, as described on the [Data Storage](storage) page.
   * Store sensitive data in repositories designed for controlled access (e.g., {% tool "the-european-genome-phenome-archive" %}, {% tool "european-nucleotide-archive" %}, ...
   * Use encryption for data at rest and in transit to prevent unauthorized access.
   * Establish strict access control policies, using role-based access and multi-factor authentication where appropriate.
-* Implement best practices for data versioning and backup to maintain clear data histories, prevent loss, and enhance reproducibility, following guidelines provided on the [Data Organisation](https://rdmkit.elixir-europe.org/data_organisation) page.
+* Implement best practices for data versioning and backup to maintain clear data histories, prevent loss, and enhance reproducibility, following guidelines provided on the [Data Organisation](data_organisation) page.
 
 ## Data sharing and access
  
@@ -95,17 +95,17 @@ Key challenges in data sharing and access include:
 
 ### Solutions
 To ensure secure and effective data sharing in virology outbreak surveillance, researchers and institutions should implement structured strategies:
-* Balance accessibility with security in data sharing by implementing measures that protect sensitive data while ensuring it remains discoverable and accessible, following the guidelines provided on the pages for [Data Security](https://rdmkit.elixir-europe.org/data_security) and [Data Discoverability](https://rdmkit.elixir-europe.org/data_discoverability)
+* Balance accessibility with security in data sharing by implementing measures that protect sensitive data while ensuring it remains discoverable and accessible, following the guidelines provided on the pages for [Data Security](data_security) and [Data Discoverability](data_discoverability)
   * Use controlled-access repositories like [VODAN - GO FAIR](https://www.go-fair.org/implementation-networks/overview/vodan/) to manage and access sensitive patient or outbreak data securely.
   * Implement data access governance models that allow tiered access based on user credentials and need.
   * Utilize {% tool "pathoplexus" %} for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
-* Ensure proper deposition of outbreak data into trusted repositories to facilitate data sharing, citation, and reuse, following best practices outlined on the [Data Publication](https://rdmkit.elixir-europe.org/data_publication) page.
+* Ensure proper deposition of outbreak data into trusted repositories to facilitate data sharing, citation, and reuse, following best practices outlined on the [Data Publication](data_publication) page.
   * Submit viral genomic sequences and epidemiological data to {% tool "gisaid" %}, NCBI {% tool "genbank" %}, and {% tool "european-nucleotide-archive" %} for public accessibility.
   * Use standard submission pipelines to ensure compliance with repository-specific metadata and formatting guidelines.
-* Assign persistent identifiers to datasets to enhance discoverability, citation, and long-term accessibility, following recommendations on the [Identifiers](https://rdmkit.elixir-europe.org/identifiers) page.
+* Assign persistent identifiers to datasets to enhance discoverability, citation, and long-term accessibility, following recommendations on the [Identifiers](identifiers) page.
   * Register DOIs or accession numbers for datasets to facilitate long-term accessibility and proper citation.
   * Ensure metadata linking persistent identifiers is properly formatted and recorded.
-* Comply with national and EU data-sharing regulations by consulting country-specific guidelines and legal frameworks available on the [National Resources](https://rdmkit.elixir-europe.org/national_resources) page.
+* Comply with national and EU data-sharing regulations by consulting country-specific guidelines and legal frameworks available on the [National Resources](national_resources) page.
   * Align data-sharing practices with GDPR, national laws, and institutional ethical guidelines.
   * Implement data-sharing agreements between collaborating institutions to formalize responsibilities.
 
