@@ -110,7 +110,7 @@ Solutions are very much repository-dependent. For example, on the {% tool "europ
 ## Should you include datasets accession numbers in pre-prints or theses?
 
 ### Description
-Researchers often deposit their data in public databases (e.g., {% tool "arrayexpress" %}, {% tool "gene-expression-omnibus" %}) and receive an accession number for that data. Often researchers put data under embargo until the final publication - a period of time during which a dataset remains unavailable to the public. Including accession number(s) in a pre-print or a thesis could finish embargo and make the dataset publicly available, even before the final publication. Whether to include accession number(s) depends on whether the researcher wants the data to be accessible to the public at an early stage or keep it private until later.
+Researchers often deposit their data in public databases (e.g., {% tool "arrayexpress" %}, {% tool "gene-expression-omnibus" %}) and receive an accession number for that data. Often researchers put data under embargo until the final publication - a period of time during which a dataset remains unavailable to the public. Including accession number(s) in a pre-print or a thesis could finish embargo and make the dataset publicly available, even before the final publication. Including accession number(s) depends on whether the researcher wants to make the data publicly accessible early or keep it private until later.
 
 ### Considerations
 * Pre-prints and theses are often treated as citable publications.
