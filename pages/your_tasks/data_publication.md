@@ -1,6 +1,6 @@
 ---
 title: Data publication
-contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins]
+contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins, Korbinian Bösl, Marina Popleteeva]
 description: How to prepare data and find repositories for publication.
 page_id: data_publication
 related_pages: 
