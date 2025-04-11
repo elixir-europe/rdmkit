@@ -177,8 +177,8 @@ Comparative table of some repositories that can be used to deposit imaging data:
     <td>{% tool "bioimagearchive" %}</td>
     <td>Archive</td>
     <td>No PIH data</td>
-    <td>None</td>
-    <td>---</td>
+    <td>2TB</td>
+    <td>Yes</td>
     <td>Free</td>
   </tr>
   <tr>
