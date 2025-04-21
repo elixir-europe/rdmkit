@@ -90,6 +90,7 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
+    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   id: bioformats2raw
@@ -145,6 +146,7 @@
   registry:
     biotools: addgene
     fairsharing: 8hcczk
+    tess: Addgene
   url: https://www.addgene.org/browse/
 - description: Browser for ontologies for agricultural science based on NBCO BioPortal.
   id: agroportal
@@ -238,6 +240,8 @@
 - description: R&D Platform for Life Sciences
   id: benchling
   name: Benchling
+  registry:
+    tess: Benchling
   url: https://www.benchling.com
 - description: BIAFLOWS is an open-soure web framework to reproducibly deploy and benchmark bioimage analysis workflows
   id: biaflows
@@ -269,6 +273,7 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
+    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Platform designed to efficiently generate bioactive conformers and speed up the drug discovery process.
   id: bioactive-conformational-ensemble
