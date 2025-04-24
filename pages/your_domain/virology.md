@@ -36,8 +36,8 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
 * Use standardised protocols for sample collection by identifying and reviewing existing guidelines from organisations such as [World Health Organisation](https://www.who.int/publications/who-guidelines), [ECDC](https://www.ecdc.europa.eu/en), and [ISO standards](https://www.iso.org/standards.html) to ensure alignment with best practices.
 * Implement metadata standards for data interoperability
   * The [Documentation and metadata page](metadata_management) offers practical recommendations and standards for accurately describing data, ensuring consistent interpretation, interoperability, and long-term usability.
-  * Apply {% tool "mixs" %} and the derived {% tool "miuvig" %} for annotating viral sequence data with necessary metadata fields.
-  * Adapt generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, Dublin Core, {% tool "bioschemas" %}) for basic dataset descriptions.
+  * Apply {% tool "mixs" %} and the derived {% tool "miuvig" %} for annotating viral sequence data with necessary metadata fields. Visit the [NCBI submission portal](https://submit.ncbi.nlm.nih.gov/biosample/template) for an overview. 
+  * Adapt generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "bioschemas" %}) for basic dataset descriptions.
   * Follow {% tool "biosamples" %} Metadata Schema from EBI for structured viral sample metadata.
 * Ensure metadata compliance with international repositories
   * The [Data Brokering page](data_brokering) describes strategies and tools for integrating, harmonising, and translating data across diverse formats and sources.
@@ -75,7 +75,7 @@ Organisations must implement robust governance policies, encryption techniques, 
   * You can also check the practices included in the {% tool "idtk" %} related to the management of human and pathogen data in the context of infectious diseases.
 * Implement effective data anonymisation and pseudonymisation strategies to reduce data sensitivity and protect privacy, following best practices detailed on the [Data Sensitivity](data_sensitivity) page.
 * Adopt secure and scalable data storage solutions to ensure long-term data integrity, controlled access, and compliance with relevant standards and best practices, as described on the [Data Storage](storage) page.
-  * Store sensitive data in repositories designed for controlled access (e.g., {% tool "the-european-genome-phenome-archive" %}, {% tool "european-nucleotide-archive" %})
+  * Store sensitive data in repositories designed for controlled access (e.g., {% tool "the-european-genome-phenome-archive" %})
   * Use encryption for data at rest and in transit to prevent unauthorised access.
   * Establish strict access control policies, using role-based access and multi-factor authentication where appropriate.
 * Implement best practices for data versioning and backup to maintain clear data histories, prevent loss, and enhance reproducibility, following guidelines provided on the [Data Organisation](data_organisation) page.
