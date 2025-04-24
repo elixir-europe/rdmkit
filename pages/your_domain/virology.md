@@ -36,7 +36,7 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
 * Use standardised protocols for sample collection by identifying and reviewing existing guidelines from organisations such as [World Health Organisation](https://www.who.int/publications/who-guidelines), [ECDC](https://www.ecdc.europa.eu/en), and [ISO standards](https://www.iso.org/standards.html) to ensure alignment with best practices.
 * Implement metadata standards for data interoperability
   * The [Documentation and metadata page](metadata_management) offers practical recommendations and standards for accurately describing data, ensuring consistent interpretation, interoperability, and long-term usability.
-  * Apply {% tool "mixs" %} and the complementary {% tool "miuvig" %} for annotating viral sequence data with necessary metadata fields.
+  * Apply {% tool "mixs" %} and the derived {% tool "miuvig" %} for annotating viral sequence data with necessary metadata fields.
   * Adapt generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, Dublin Core, {% tool "bioschemas" %}) for basic dataset descriptions.
   * Follow {% tool "biosamples" %} Metadata Schema from EBI for structured viral sample metadata.
 * Ensure metadata compliance with international repositories
