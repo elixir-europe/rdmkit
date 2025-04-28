@@ -1,6 +1,6 @@
 ---
 title: Data publication
-contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins]
+contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Aitana Neves, Nazeefa Fatima, Carla Cummins, Korbinian Bösl, Marina Popleteeva]
 description: How to prepare data and find repositories for publication.
 page_id: data_publication
 related_pages: 
@@ -106,3 +106,20 @@ You will sometimes need to update or delete some entries that were incomplete or
 
 ### Solutions
 Solutions are very much repository-dependent. For example, on the {% tool "european-nucleotide-archive" %}, entries can be easily updated using a CLI. However, the updated information is not automatically redistributed to other registries linked to ENA. Upon email request, entries may also be suppressed from public view. Note that ENA also has a test server to make test submissions before submitting to the actual production server, which can be very useful when sending large batches of data to test for any systematic errors. Please check these points with your repository of choice.
+
+## Should you include datasets accession numbers in pre-prints or theses?
+
+### Description
+Researchers often deposit their data in public databases (e.g., {% tool "arrayexpress" %}, {% tool "gene-expression-omnibus" %}) and receive an accession number for that data. Often researchers put data under embargo until the final publication - a period of time during which a dataset remains unavailable to the public. Including accession number(s) in a pre-print or a thesis could finish embargo and make the dataset publicly available, even before the final publication. Including accession number(s) depends on whether the researcher wants to make the data publicly accessible early or keep it private until later.
+
+### Considerations
+* Pre-prints and theses are often treated as citable publications.
+* Some databases may release data as soon as an accession number is cited in a pre-print or in a published thesis.
+* Policies vary between repositories — some release data proactively, while others do so only upon inquiry.
+* Once an accession number is made public in a pre-print, the dataset may become publicly accessible, even if the preprint is intended to be temporary and even if a second manuscript describing the same data is pending.
+
+### Solutions
+* If public availability before final publication is not an issue, citing the accession number ensures accessibility.
+* Check the guidelines or policies of the data repository of interest before deciding whether to include the accession number in a pre-print. For example, GEO's policy requires that data be publicly accessible once an accession number is cited, even if the manuscript is a pre-print. More information can be found here: [GEO FAQ](https://www.ncbi.nlm.nih.gov/geo/info/faq.html#holdprivate).
+* To avoid unintended data release, authors should refrain from including accession numbers in pre-prints or mask them. 
+
