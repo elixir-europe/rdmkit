@@ -96,7 +96,7 @@ Key challenges in data sharing and access include:
 ### Solutions
 To ensure secure and effective data sharing in virology outbreak surveillance, researchers and institutions should implement structured strategies:
 * Balance accessibility with security in data sharing by implementing measures that protect sensitive data while ensuring it remains discoverable and accessible, following the guidelines provided on the pages for [Data Security](data_security) and [Data Discoverability](data_discoverability)
-  * Use controlled-access repositories like [VODAN - GO FAIR](https://www.go-fair.org/implementation-networks/overview/vodan/) to manage and access sensitive patient or outbreak data securely.
+  * Use controlled-access repositories, findable via [VODAN - GO FAIR](https://www.go-fair.org/implementation-networks/overview/vodan/) to manage and access sensitive patient or outbreak data securely.
   * Implement data access governance models that allow tiered access based on user credentials and need.
   * Utilise {% tool "pathoplexus" %} for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
 * Ensure proper deposition of outbreak data into trusted repositories to facilitate data sharing, citation, and reuse, following best practices outlined on the [Data Publication](data_publication) page.
