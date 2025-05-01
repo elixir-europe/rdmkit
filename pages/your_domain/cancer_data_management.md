@@ -16,6 +16,7 @@ Each stage of the patient journey has different associated data types,  a number
 
 Efficient data management and interoperability are essential for ensuring timely and accurate diagnoses and treatment while maintaining compliance with ethical and regulatory standards. In the following sections we will address  data management best practices, considerations and possible solutions for effective management of data in each stage ( Figure1)  of the individual patient's journey.
 
+{% include image.html file="cancer_dm_stages.png" caption="Figure 1. Cancer data management challenges at different stages of patient journey." %}
 
 
 ## Cancer prevention
