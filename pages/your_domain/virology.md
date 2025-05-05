@@ -43,7 +43,7 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
 * FAIRsharing resources for metadata selection
   * Refer to the [EVORA collection](https://fairsharing.org/5449) of FAIRsharing-referenced metadata standards for pandemic preparedness and response.
   * Consult {% tool "fairsharing" %} registries to identify suitable standards for different types of virology datasets.
-  * Integrate epidemiological and genomic data for outbreak analysis, by utilising phylodynamic workflows (e.g., BEAST, {% tool "nextstrain" %}, or TreeTime), enabling real-time outbreak tracking.
+  * Integrate epidemiological and genomic data for outbreak analysis, by utilising phylodynamic workflows (e.g. BEAST, {% tool "nextstrain" %}, or TreeTime), enabling real-time outbreak tracking.
   * Implement structured pipelines for linking viral genome sequences with patient and outbreak metadata.
 * Apply domain-specific vocabularies for consistent annotation
   * Utilise the [EVORA ontology](https://www.ebi.ac.uk/ols4/ontologies/evorao) and {% tool "ictv" %} to ensure that virus-related metadata terms are standardised and interoperable.
