@@ -2808,3 +2808,223 @@
     biotools: orcid
     fairsharing: nx58jg
   url: https://orcid.org/
+  - description: A network promoting collaboration between cancer registries in Europe to improve data quality and comparability.
+  id: encr
+  name: European Network of Cancer Registries (ENCR)
+  url: https://encr.eu
+  - description: A research infrastructure for assessing environmental exposures and their health impacts.
+  id: eirene-ri
+  name: Environmental Exposure Assessment Research Infrastructure (EIRENE-RI)
+  url: https://www.eirene-ri.eu
+- description: A registry of statistical metadata (SDMX) for European data reporting and exchange.
+  id: euro-sdmx-registry
+  name: Euro SDMX Registry
+  url: https://webgate.ec.europa.eu/sdmxregistry
+- description: A standard for medical imaging data storage and transmission.
+  id: dicom
+  name: DICOM
+  url: https://www.dicomstandard.org
+- description: A classification system for oncology, used in cancer registries and pathology reporting.
+  id: icd-o-3
+  name: ICD-O-3 Coding Materials
+  url: https://www.who.int/standards/classifications
+- description: An open-source data warehouse for clinical and translational research.
+  id: i2b2
+  name: Informatics for Integrating Biology & the Bedside (i2b2)
+  url: https://www.i2b2.org
+- description: A platform for exploring, analyzing, and visualizing cancer genomics data.
+  id: cbioportal
+  name: cBioPortal
+  url: https://www.cbioportal.org
+- description: A cancer staging system used globally for classifying tumor spread.
+  id: ajcc-uicc
+  name: AJCC/UICC
+  url: https://www.cancerstaging.org
+- description: The standard for diagnostic oncology, defining tumor types and classifications.
+  id: who-tumour-classification
+  name: WHO Classification of Tumours
+  url: https://tumourclassification.iarc.who.int
+- description: A repository of medical images related to cancer.
+  id: tcia
+  name: The Cancer Imaging Archive
+  url: https://www.cancerimagingarchive.net
+- description: AI-powered pathology tools for cancer diagnosis and research.
+  id: path-ai
+  name: PathAI
+  url: https://www.pathai.com
+- description: AI-based medical imaging analysis for radiology and oncology.
+  id: qure-ai
+  name: Qure.ai
+  url: https://www.qure.ai
+- description: AI solutions for digital pathology in cancer detection.
+  id: paige-ai
+  name: Paige AI
+  url: https://www.paige.ai
+- description: Guidelines for reporting predictive model studies in medicine.
+  id: tripod
+  name: Transparent Reporting of a Multivariable Prediction Model
+  url: https://www.tripod-statement.org
+- description: Professional organization for medical oncology, providing guidelines and resources.
+  id: esmo
+  name: European Society of Medical Oncology(ESMO)
+  url: https://www.esmo.org/guidelines
+- description: Leading oncology society providing research, education, and practice guidelines.
+  id: asco-general
+  name: American Society of Clinical Oncology, Treatment Types
+  url: https://www.cancer.org/cancer/managing-cancer/treatment-types.html
+- description: Clinical practice guidelines serving as a guide for doctors and outlining appropriate methods of treatment and care.
+  id: asco-clinical
+  name: American Society of Clinical Oncology, Clinical Guidelines
+  url: https://ascopubs.org/jco/special/guidelines
+- description: Alliance of cancer centers providing evidence-based treatment guidelines.
+  id: nccn
+  name: National Comprehensive Cancer Network (NCCN)
+  url: https://www.nccn.org/guidelines/category_1
+- description: Integrated clinical and genomic data for over 100,000 cancer patients from the International Cancer Genome Consortium.
+  id: icgc-argo
+  name: ICGC-ARGO
+  url: https://dcc.icgc-argo.org/
+- description: Real-world cancer genomic dataset aggregated from multiple institutions.
+  id: aacr-genie
+  name: AACR-GENIE
+  url: https://www.aacr.org/professionals/research/aacr-project-genie/
+- description: Platform from Memorial Sloan Kettering providing molecular and clinical data to support precision oncology.
+  id: msk-chord
+  name: MSK-CHORD
+  url: https://www.mskcc.org/research-areas/programs-centers/msk-chord
+- description: Multi-omic cancer dataset of >7000 patients, including whole genome sequencing and clinical outcomes.
+  id: hmf
+  name: Hartwig Medical Foundation(HMF)
+  url: https://www.hartwigmedicalfoundation.nl/en/
+- description: A federated real-world evidence platform containing clinical and genomic data from patients with solid tumours.
+  id: wayfind-r
+  name: WAYFIND-R
+  url: https://wayfindr.eu/
+- description: A federated platform for cancer imaging data.
+  id: eucaim
+  name: European Cancer Imaging Initiative (EUCAIM)
+  url: https://cancerimage.eu/
+- description: U.S.-based NIH research program with diverse patient health, genetic, and lifestyle data.
+  id: all-of-us
+  name: All of Us
+  url: https://www.researchallofus.org/
+- description: Large-scale biomedical database with genetic, clinical, and lifestyle data from 500,000 UK participants.
+  id: uk-biobank
+  name: UK Biobank
+  url: https://www.ukbiobank.ac.uk/
+- description: Repository of medical images of cancer available for public download with metadata.
+  id: cia
+  name: Cancer Imaging Archive (CIA)
+  url: https://www.cancerimagingarchive.net/
+- description: Database of drug sensitivity and genomic data from ~1000 cancer cell lines.
+  id: gdsc
+  name: Genomics of Drug Sensitivity in Cancer (GDSC)
+  url: https://www.cancerrxgene.org/
+- description: Resource to explore relationships between cancer cell line genotypes and drug response.
+  id: ctrp
+  name: Cancer Therapeutics Response Portal (CTRP)
+  url: https://portals.broadinstitute.org/ctrp
+- description: A database of cancer-related drugs, including descriptions, uses, and approvals.
+  id: nci
+  name: National Cancer Institute (NCI)
+  url: https://www.cancer.gov/about-cancer/treatment/drugs/
+- description: European Medicines Agency's portal for authorized medicines in the EU.
+  id: ema
+  name: EMA
+  url: https://www.ema.europa.eu/en/medicines
+- description: Database of privately and publicly funded clinical studies conducted around the world.
+  id: clinical-trials-gov
+  name: ClinicalTrials.gov
+  url: https://clinicaltrials.gov/
+- description: Comprehensive database containing information on drugs and drug targets.
+  id: drugbank
+  name: DrugBank
+  url: https://go.drugbank.com/
+- description: Drug-Gene Interaction Database linking drugs to their target genes.
+  id: dgidb
+  name: DGIdb
+  url: https://dgidb.org/
+- description: Database for drug mechanisms, targets, pathways, and indications.
+  id: drugmap
+  name: DrugMap
+  url: https://drugmap.idrblab.net/
+- description: Database of known and explored therapeutic targets and their related drugs.
+  id: ttd
+  name: Therapeutic Target Database (TTD)
+  url: https://idrblab.net/ttd/
+- description: Pharmacogenomics knowledge base including cancer pharmacogenomic information.
+  id: pharmgkb-cancer-pgx
+  name: Cancer Pharmacogenomics
+  url: https://www.pharmgkb.org/page/cancerPgx
+- description: Precision oncology knowledge base that annotates the effects and treatment implications of somatic mutations in cancer.
+  id: oncokb
+  name: OncoKB
+  url: https://www.oncokb.org/
+- description: Side Effect Resource containing information on marketed medicines and their recorded adverse drug reactions.
+  id: sider
+  name: SIDER
+  url: http://sideeffects.embl.de/
+- description: Provides a general framework to interpret the functional and predictive relevance of a list of gene variants through interactive reports.
+  id: mtb-portal
+  name: MTB Portal
+  url: https://www.mtbp.org
+- description: Platform to prioritize cancer drug treatments based on individual multi-omics data including SNVs, CNVs, and gene expression.
+  id: pandrugs
+  name: PanDrugs
+  url: https://www.pandrugs.org/
+- description: Tool that flags genomic biomarkers of drug response with clinical relevance in cancer.
+  id: cgi
+  name: Cancer Genome Interpreter
+  url: https://www.cancergenomeinterpreter.org/
+- description: A community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer
+  id: civic
+  name: Clinical Interpretations of Variants in Cancer (CIViC)
+  url: https://civicdb.org/
+- description: Provides therapy-oriented precision oncology guidelines for recommending anti-cancer drugs based on genetic alterations.
+  id: topograph
+  name: Topograph
+  url: https://topograph.info/
+- description: A cancer staging system that describes the size of the tumor (T), lymph node involvement (N), and metastasis (M).
+  id: tnm
+  name: TNM
+  url: https://www.cancerstaging.org/
+- description: An NCI registry of clinical trials for cancer research.
+  id: ctrp
+  name: Clinical Trials Reporting Program
+  url: https://portals.broadinstitute.org/ctrp/
+- description: A single standardised international medical terminology.
+  id: meddra
+  name: Medical Dictionary for Regulatory Activities(MedDRA)
+  url: https://www.meddra.org/ 
+- description: A scale for assessing patient functional status.
+  id: ecog
+  name: Eastern Cooperative Oncology Group (ECOG)
+  url: https://pubmed.ncbi.nlm.nih.gov/7165009/
+- description: A standardized method for assessing tumor response via PET imaging.
+  id: percist
+  name: PET Response Criteria in Solid Tumors (PERCIST)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/
+- description: A set of quesstionnaires developed to assess the quality of life of cancer patients.
+  id: eortc-qlq
+  name: European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaires (EORTC QLQ)
+  url: https://qol.eortc.org
+- description:  A set of person-centered measures that evaluates and monitors physical, mental, and social health in adults and children.
+  id: promis
+  name: Patient-Reported Outcomes Measurement Information System (PROMIS)
+  url: https://www.promishealth.org/57461-2/
+- description: Various digital health tools approved by the FDA for medical use (e.g., wearables, software, diagnostics).
+  id: fda-approved-tools
+  name: FDA-approved tools
+  url: https://www.fda.gov/medical-devices/digital-health-center-excellence
+- description: A framework for health and fitness data integration on Apple devices.
+  id: apple-health-kit
+  name: Apple HealthKit
+  url: https://developer.apple.com/health-fitness/
+- description: A health-tracking platform by Google for collecting and accessing fitness data.
+  id: google-fit
+  name: Google Fit
+  url: https://www.google.com/fit/
+- description: An open-source platform for integrating mobile health data to improve healthcare insights.
+  id: open-mHealth
+  name: Open mHealth
+  url: https://www.openmhealth.org
