@@ -2822,7 +2822,7 @@
   url: https://webgate.ec.europa.eu/sdmxregistry
 - description: A standard for medical imaging data storage and transmission.
   id: dicom
-  name: DICOM
+  name: Digital Imaging and Communications in Medicine (DICOM)
   url: https://www.dicomstandard.org
 - description: A classification system for oncology, used in cancer registries and pathology reporting.
   id: icd-o-3
@@ -2841,7 +2841,7 @@
   name: AJCC/UICC
   url: https://www.cancerstaging.org
 - description: The standard for diagnostic oncology, defining tumor types and classifications.
-  id: who-tumour-classification
+  id: who-tc
   name: WHO Classification of Tumours
   url: https://tumourclassification.iarc.who.int
 - description: A repository of medical images related to cancer.
@@ -2894,7 +2894,7 @@
   url: https://www.mskcc.org/research-areas/programs-centers/msk-chord
 - description: Multi-omic cancer dataset of >7000 patients, including whole genome sequencing and clinical outcomes.
   id: hmf
-  name: Hartwig Medical Foundation(HMF)
+  name: Hartwig Medical Foundation (HMF)
   url: https://www.hartwigmedicalfoundation.nl/en/
 - description: A federated real-world evidence platform containing clinical and genomic data from patients with solid tumours.
   id: wayfind-r
@@ -2904,7 +2904,7 @@
   id: eucaim
   name: European Cancer Imaging Initiative (EUCAIM)
   url: https://cancerimage.eu/
-- description: U.S.-based NIH research program with diverse patient health, genetic, and lifestyle data.
+- description: U.S.A based NIH research program with diverse patient health, genetic, and lifestyle data.
   id: all-of-us
   name: All of Us
   url: https://www.researchallofus.org/
@@ -2986,8 +2986,8 @@
   url: https://topograph.info/
 - description: A cancer staging system that describes the size of the tumor (T), lymph node involvement (N), and metastasis (M).
   id: tnm
-  name: TNM
-  url: https://www.cancerstaging.org/
+  name: Tumour, Nodes, Metastases (TNM) cancer staging system
+  url: https://www.uicc.org/who-we-are/about-uicc/uicc-and-tnm
 - description: An NCI registry of clinical trials for cancer research.
   id: ctrp
   name: Clinical Trials Reporting Program
