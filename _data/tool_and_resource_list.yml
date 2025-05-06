@@ -746,7 +746,7 @@
 - description: Hub for the identification of plant genetic resources in Europe
   id: ecpgr
   name: ECPGR
-  url: https://www.ecpgr.cgiar.org/
+  url: https://www.ecpgr.ar.org/
 - description: 'Endocrine Disruptor Knowledge Base is a platform designed to foster the development of computational predictive toxicology. This platform allows direct access to ten libraries containing the following resources: a biological activity database, QSAR training sets, in vitro and in vivo experimental data for more than 3,000 chemicals, literature citations, chemical-structure search capabilities.'
   id: edkb
   name: EDKB
@@ -2135,11 +2135,11 @@
 - description: A number of ECPGR Central Crop Databases have been established through the initiative of individual institutes and of ECPGR Working Groups. The databases hold passport data and, to varying degrees, characterization and primary evaluation data of the major collections of the respective crops in Europe.
   id: ecpgr-central-crop-databases
   name: ECPGR Central Crop Databases and other Crop Databases
-  url: https://www.ecpgr.cgiar.org/resources/germplasm-databases/ecpgr-central-crop-databases
+  url: https://www.ecpgr.ar.org/resources/germplasm-databases/ecpgr-central-crop-databases
 - description: A catalogue of relevant International Multicrop Databases
   id: international-multicrop-databases
   name: International Multicrop Databases
-  url: https://www.ecpgr.cgiar.org/resources/germplasm-databases/international-multicrop-databases
+  url: https://www.ecpgr.ar.org/resources/germplasm-databases/international-multicrop-databases
 - description: Genesys is an online platform where you can find information about Plant Genetic Resources for Food and Agriculture PGRFA conserved in genebanks worldwide.
   id: genesys
   name: Genesys
@@ -2972,10 +2972,6 @@
   id: pandrugs
   name: PanDrugs
   url: https://www.pandrugs.org/
-- description: Tool that flags genomic biomarkers of drug response with clinical relevance in cancer.
-  id: cgi
-  name: Cancer Genome Interpreter
-  url: https://www.cancergenomeinterpreter.org/
 - description: A community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer
   id: civic
   name: Clinical Interpretations of Variants in Cancer (CIViC)
