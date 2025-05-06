@@ -3016,7 +3016,4 @@
   id: google-fit
   name: Google Fit
   url: https://www.google.com/fit/
-- description: An open-source platform for integrating mobile health data to improve healthcare insights.
-  id: open-mHealth
-  name: Open mHealth
-  url: https://www.openmhealth.org
+
