@@ -2988,10 +2988,6 @@
   id: tnm
   name: Tumour, Nodes, Metastases (TNM) cancer staging system
   url: https://www.uicc.org/who-we-are/about-uicc/uicc-and-tnm
-- description: An NCI registry of clinical trials for cancer research.
-  id: ctrp
-  name: Clinical Trials Reporting Program
-  url: https://portals.broadinstitute.org/ctrp/
 - description: A single standardised international medical terminology.
   id: meddra
   name: Medical Dictionary for Regulatory Activities(MedDRA)
@@ -3008,7 +3004,7 @@
   id: eortc-qlq
   name: European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaires (EORTC QLQ)
   url: https://qol.eortc.org
-- description:  A set of person-centered measures that evaluates and monitors physical, mental, and social health in adults and children.
+- description: A set of person-centered measures that evaluates and monitors physical, mental, and social health in adults and children.
   id: promis
   name: Patient-Reported Outcomes Measurement Information System (PROMIS)
   url: https://www.promishealth.org/57461-2/
