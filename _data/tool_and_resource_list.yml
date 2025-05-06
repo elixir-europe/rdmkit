@@ -2808,11 +2808,11 @@
     biotools: orcid
     fairsharing: nx58jg
   url: https://orcid.org/
-  - description: A network promoting collaboration between cancer registries in Europe to improve data quality and comparability.
+- description: A network promoting collaboration between cancer registries in Europe to improve data quality and comparability.
   id: encr
   name: European Network of Cancer Registries (ENCR)
   url: https://encr.eu
-  - description: A research infrastructure for assessing environmental exposures and their health impacts.
+- description: A research infrastructure for assessing environmental exposures and their health impacts.
   id: eirene-ri
   name: Environmental Exposure Assessment Research Infrastructure (EIRENE-RI)
   url: https://www.eirene-ri.eu
