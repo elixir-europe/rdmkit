@@ -59,24 +59,24 @@
   registry:
     biotools: plant-3d
   url: https://github.com/iziamtso/P3D/
-- description: LeafNet is a convenient tool that can robustly localize stomata and segment pavement cells for light-microscope images of leaves
+- description: LeafNet is a convenient tool that can robustly localise stomata and segment pavement cells for light-microscope images of leaves
   id: leafnet
   name: LeafNet
   registry:
     biotools: leafnet
-  url: https://bio.tools/leafnet
+  url: https://leafnet.whu.edu.cn/
 - description: Plant Computer Vision (PlantCV)is an image processing toolkit for plant phenotyping analysis.
   id: plantcv
   name: PlantCV
   registry:
     biotools: plantcv_v2
   url: https://bio.tools/plantcv_v2
-- description: Phenomenal-3D is an automatic open source library for 3D shoot architecture reconstruction and analysis for image-based plant phenotyping
+- description: Phenomenal-3D is an automatic open-source library for 3D shoot architecture reconstruction and analysis for image-based plant phenotyping
   id: phenomenal-3d
   name: Phenomenal 3D
   registry:
     biotools: phenomenal-3d
-  url: https://bio.tools/phenomenal-3d
+  url: https://github.com/openalea/phenomenal
 - description: C library that provides a simple interface to read whole-slide images (also known as virtual slides)
   id: openslide
   name: OpenSlide
