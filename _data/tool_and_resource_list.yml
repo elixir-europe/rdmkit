@@ -2864,22 +2864,6 @@
   id: tripod
   name: Transparent Reporting of a Multivariable Prediction Model
   url: https://www.tripod-statement.org
-- description: Professional organisation for medical oncology, providing guidelines and resources.
-  id: esmo
-  name: European Society of Medical Oncology(ESMO)
-  url: https://www.esmo.org/guidelines
-- description: Leading oncology society providing research, education, and practice guidelines.
-  id: asco-general
-  name: American Society of Clinical Oncology, Treatment Types
-  url: https://www.cancer.org/cancer/managing-cancer/treatment-types.html
-- description: Clinical practice guidelines serving as a guide for doctors and outlining appropriate methods of treatment and care.
-  id: asco-clinical
-  name: American Society of Clinical Oncology, Clinical Guidelines
-  url: https://ascopubs.org/jco/special/guidelines
-- description: Alliance of cancer centres providing evidence-based treatment guidelines.
-  id: nccn
-  name: National Comprehensive Cancer Network (NCCN)
-  url: https://www.nccn.org/guidelines/category_1
 - description: Integrated clinical and genomic data for over 100,000 cancer patients from the International Cancer Genome Consortium.
   id: icgc-argo
   name: ICGC-ARGO
@@ -2904,7 +2888,7 @@
   id: eucaim
   name: European Cancer Imaging Initiative (EUCAIM)
   url: https://cancerimage.eu/
-- description: U.S.A.-based NIH research program with diverse patient health, genetic, and lifestyle data.
+- description: NIH research program with diverse patient health, genetic, and lifestyle data.
   id: all-of-us
   name: All of Us
   url: https://www.researchallofus.org/
@@ -2930,12 +2914,8 @@
   url: https://www.cancer.gov/about-cancer/treatment/drugs/
 - description: European Medicines Agency's portal for authorised medicines in the EU.
   id: ema
-  name: EMA
+  name: European Medicines Agency
   url: https://www.ema.europa.eu/en/medicines
-- description: Database of privately and publicly funded clinical studies conducted around the world.
-  id: clinical-trials-gov
-  name: ClinicalTrials.gov
-  url: https://clinicaltrials.gov/
 - description: Comprehensive database containing information on drugs and drug targets.
   id: drugbank
   name: DrugBank
@@ -2976,10 +2956,6 @@
   id: civic
   name: Clinical Interpretations of Variants in Cancer (CIViC)
   url: https://civicdb.org/
-- description: Provides therapy-oriented precision oncology guidelines for recommending anti-cancer drugs based on genetic alterations.
-  id: topograph
-  name: Topograph
-  url: https://topograph.info/
 - description: A cancer staging system that describes the size of the tumor (T), lymph node involvement (N), and metastasis (M).
   id: tnm
   name: Tumour, Nodes, Metastases (TNM) cancer staging system
