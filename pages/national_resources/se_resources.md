@@ -37,7 +37,7 @@ national_resources:
   - name: Swedish Pathogens Portal
     description: The Swedish Pathogens Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
-      tool_assembly: [covid-19]
+      tool_assembly: [covid19_data_portal]
       your_domain: [human_data]
       your_tasks: [sensitive, existing_data, data_publication]
     url: https://pathogens.se/ 

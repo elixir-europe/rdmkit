@@ -26,6 +26,7 @@
   id: bioimage
   name: BioImage Model Zoo
   registry:
+    fairsharing: 77fc63
     tess: BioImage Model Zoo
   url: https://bioimage.io/#/
 - description: Data, Optimisation, Model and Evaluation in Machine Learning (DOME-ML) is a set of community guidelines, recommendations and checklists for supervised ML validation in biology.
@@ -57,7 +58,7 @@
   name: Plant 3D
   registry:
     biotools: plant-3d
-  url: https://bio.tools/plant-3d
+  url: https://github.com/iziamtso/P3D/
 - description: LeafNet is a convenient tool that can robustly localize stomata and segment pavement cells for light-microscope images of leaves
   id: leafnet
   name: LeafNet
@@ -89,6 +90,7 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
+    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   id: bioformats2raw
@@ -126,7 +128,7 @@
   id: 4dn-bina-ome-quarep
   name: 4DN-BINA-OME-QUAREP (NBO-Q)
   registry:
-    fairsharing: '4747'
+    fairsharing: 87756d
   url: https://www.nature.com/articles/s41592-021-01327-9
 - description: A standard schema for primary biodiversity data
   id: access-to-biological-collection-data-schema
@@ -144,6 +146,7 @@
   registry:
     biotools: addgene
     fairsharing: 8hcczk
+    tess: Addgene
   url: https://www.addgene.org/browse/
 - description: Browser for ontologies for agricultural science based on NBCO BioPortal.
   id: agroportal
@@ -176,7 +179,7 @@
   registry:
     tess: Argos
   url: https://argos.openaire.eu/splash/
-- description: A repository of array based genomics data
+- description: A collection in BioStudies for archiving and publishing data from high-throughput functional genomics experiments.
   id: arrayexpress
   name: ArrayExpress
   registry:
@@ -213,6 +216,7 @@
   name: BacDive
   registry:
     biotools: bacdive
+    fairsharing: aSszvY
     tess: BacDive
   url: https://bacdive.dsmz.de
 - description: A repository specific to Bacillus strains
@@ -236,6 +240,8 @@
 - description: R&D Platform for Life Sciences
   id: benchling
   name: Benchling
+  registry:
+    tess: Benchling
   url: https://www.benchling.com
 - description: BIAFLOWS is an open-soure web framework to reproducibly deploy and benchmark bioimage analysis workflows
   id: biaflows
@@ -267,6 +273,7 @@
   name: Bio-Formats
   registry:
     biotools: bio-formats
+    tess: Bio-Formats
   url: https://www.openmicroscopy.org/bio-formats/
 - description: Platform designed to efficiently generate bioactive conformers and speed up the drug discovery process.
   id: bioactive-conformational-ensemble
@@ -279,6 +286,7 @@
   name: Bioconda
   registry:
     biotools: bioconda
+    fairsharing: 185b0d
     tess: Bioconda
   url: https://bioconda.github.io/
 - description: Biodiversity Information Standards (TDWG), historically the Taxonomic Databases Working Group, work to develop biodiversity information standards
@@ -318,7 +326,7 @@
     fairsharing: f3a3ca
     tess: Bioschemas
   url: https://bioschemas.org
-- description: A database hosting datasets from biological studies. Useful for storing or accessing data that is not compliant for mainstream repositories.
+- description: A database hosting datasets from biological studies. Useful for storing or accessing life sciences data without community-accepted repositories, and for linking components of data from multi-omics studies.
   id: biostudies
   name: BioStudies
   registry:
@@ -332,7 +340,7 @@
   registry:
     biotools: bisque
   url: https://bioimage.ucsb.edu/bisque
-- description: Git based code hosting and collaboration tool, built for teams.
+- description: Git-based code hosting and collaboration tool, built for teams.
   id: bitbucket
   name: Bitbucket
   registry:
@@ -513,6 +521,7 @@
   id: conda
   name: Conda
   registry:
+    fairsharing: NA
     tess: Conda
   url: https://docs.conda.io/en/latest/
 - description: A resource for researchers when drafting consent forms so they can use language matching cutting-edge GA4GH international standards
@@ -528,7 +537,7 @@
   name: COPO
   registry:
     biotools: copo
-    fairsharing-coll: bsg-d001247
+    fairsharing: 91a79b
   url: https://copo-project.org/
 - description: Examples and tools to create a codebook by the Data Documentation Initiative (DDI)
   id: create-a-codebook
@@ -560,6 +569,7 @@
   name: CTD
   registry:
     biotools: ctd
+    tess: CTD
   url: http://ctdbase.org/
 - description: Command line tool and library for transferring data with URLs
   id: curl
@@ -688,8 +698,7 @@
   id: docker
   name: Docker
   registry:
-    fairsharing: afc2b3
-    fairsharing-coll: bsg-d001254
+    fairsharing: NA
     tess: Docker
   url: https://www.docker.com/
 - description: A DSW knowledge model guiding users through a set of questions to collect information necessary for a research project Data Protection Impact Assessment (DPIA).
@@ -746,13 +755,13 @@
   id: elixir-core-data-resources
   name: ELIXIR Core Data Resources
   registry:
-    fairsharing-coll: bsg-c000039
+    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/core-data-resources
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
   id: elixir-deposition-databases-for-biomolecular-data
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
-    fairsharing-coll: bsg-c000039
+    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
   id: life-science-login
@@ -785,6 +794,8 @@
 - description: The program submits experimental data and respective metadata to the European Nucleotide Archive (ENA).
   id: ena-upload-tool
   name: ENA upload tool
+  registry:
+    tess: ENA upload tool
   url: https://github.com/usegalaxy-eu/ena-upload-cli
 - description: Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.
   id: ensembl
@@ -1035,7 +1046,6 @@
   name: GitHub
   registry:
     fairsharing: c55d5e
-    fairsharing-coll: bsg-d001160
     tess: GitHub
   url: https://github.com
 - description: GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more. Self-host GitLab on your own servers, in a container, or on a cloud provider.
@@ -1248,34 +1258,36 @@
   name: MarDB
   registry:
     biotools: mardb
-  url: https://mmp2.sfb.uit.no/mardb/
+  url: https://sfb.mmp2.sigma2.no/mardb/
 - description: MarFun is a manually curated marine fungi genome database.
   id: marfun
   name: MarFun
-  url: https://mmp2.sfb.uit.no/marfun/
+  url: https://sfb.mmp2.sigma2.no/marfun/
 - description: High-quality curated and freely accessible microbial genomics and metagenomics resources for the marine scientific community
   id: marine-metagenomics-portal
   name: Marine Metagenomics Portal (MMP)
   registry:
     biotools: mmp
-  url: https://mmp2.sfb.uit.no/
+  url: https://sfb.mmp2.sigma2.no
 - description: MarRef is a manually curated marine microbial reference genome database that equenced genomes. Each entry contains 120 metadata fields including information about sampling environment or host, organism and taxonomy, phenotype, pathogenicity, assembly and annotation information
   id: marref
   name: MarRef
   registry:
     biotools: marref
-  url: https://mmp2.sfb.uit.no/marref/
+  url: https://sfb.mmp2.sigma2.no/marref/
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: mascot
   name: Mascot
   registry:
     biotools: MASCOT
+    fairsharing: 8e1ce0
     tess: Mascot
   url: https://www.matrixscience.com/server.html
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: massive
   name: MassIVE
   registry:
+    fairsharing: LYsiMd
     tess: MassIVE
   url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
 - description: Database of over 5000 intrinsic membrane protein structures
@@ -1319,9 +1331,9 @@
   id: microsoft-onedrive
   name: Microsoft OneDrive
   url: https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage
-- description: Minimum Information about a (Meta)Genome Sequence
+- description: a conceptual structure for extending the core INSDC information to describe genomic and metagenomic sequences.
   id: migs-mims
-  name: MIGS/MIMS
+  name: Minimum Information about a (Meta)Genome Sequence (MIxS - MIGS/MIMS)
   registry:
     fairsharing: va1hck
   url: https://www.gensc.org/pages/projects/mixs-gsc-project.html
@@ -1331,18 +1343,18 @@
   registry:
     biotools: mineprot
   url: https://github.com/huiwenke/MineProt
-- description: Minimum Information about any (x) Sequence
+- description: An overarching framework of standard metadata that includes sequence-type and technology-specific checklists.
   id: mixs
-  name: MIxS
+  name: Minimum Information about any (x) Sequence (MIxS)
   registry:
     fairsharing: 9aa0zp
-    tess: MIxS
   url: https://genomicsstandardsconsortium.github.io/mixs/
 - description: Provides a set of open-source, cross-platform software libraries and tools that facilitate proteomics data analysis.
   id: msconvert
   name: msconvert
   registry:
     biotools: msconvert
+    tess: msconvert
   url: https://proteowizard.sourceforge.io/
 - description: A database of protein disorder and mobility annotations
   id: mobidb
@@ -1409,6 +1421,8 @@
 - description: Online database hosting a vast amount of biotechnological information including nucleic acids, proteins, genomes and publications. Also boasts integrated tools for analysis.
   id: national-center-for-biotechnology-information
   name: National Center for Biotechnology Information (NCBI)
+  registry:
+    tess: National Center for Biotechnology Information (NCBI)
   url: https://www.ncbi.nlm.nih.gov
 - description: The National Biomonitoring Program (NBP) is a public resource that offers an assessment of nutritional status and the exposure of the U.S. population to environmental chemicals and toxic substances.
   id: nbp
@@ -1438,6 +1452,8 @@
 - description: Repository for lipid MD simulations to validate force fields with NMR data
   id: nmrlipids
   name: NMRlipids
+  registry:
+    fairsharing: d32bc8
   url: http://nmrlipids.blogspot.com/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
@@ -1594,6 +1610,7 @@
   name: Pharos
   registry:
     biotools: pharos
+    fairsharing: 52d6ae
   url: https://pharosproject.net/
 - description: The open-source Phenotyping Hybrid Information System (PHIS) manages and collects data from plants phenotyping and high throughput phenotyping experiments on a day to day basis.
   id: phis
@@ -1779,7 +1796,7 @@
 - description: SalDB is a salmon specific database of genome sequenced prokaryotes representing the microbiota of fishes found in the taxonomic family of Salmonidae.
   id: saldb
   name: salDB
-  url: https://mmp.sfb.uit.no/databases/saldb/
+  url: https://sfb.mmp2.sigma2.no/databases/saldb/
 - description: Small Angle Scattering Biological Data Bank
   id: sasbdb
   name: SASBDB
@@ -1934,7 +1951,7 @@
   id: the-open-biological-and-biomedical-ontology-foundry
   name: The Open Biological and Biomedical Ontology (OBO) Foundry
   registry:
-    fairsharing-coll: bsg-d001083
+    fairsharing: 847069
   url: http://obofoundry.org
 - description: The Toxicology in the 21st Century program, or Tox21, is a unique collaboration between several federal agencies to develop new ways to rapidly test whether substances adversely affect human health. The Tox21 Toolbox contains data-analysis tools for accessing and visualizing Tox21 quantitative high-throughput screening (qHTS) 10K library data, as well as integrating with other publicly available data.
   id: tox21-toolbox
@@ -2167,7 +2184,9 @@
   url: https://brew.sh/
 - description: A database to quickly access all tryptic peptides of the UniProtKB
   id: macpepdb
-  name: Mass Centric Peptide Database
+  name: Mass Centric Peptide Database (MaCPepDB)
+  registry:
+    fairsharing: c756a7
   url: https://macpepdb.mpc.rub.de/
 - description: The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac operating system.
   id: macports
@@ -2262,15 +2281,16 @@
   id: expression-atlas
   name: Expression Atlas
   registry:
+    biotools: expression_atlas
     fairsharing: f5zx00
     tess: Expression Atlas
   url: https://www.ebi.ac.uk/gxa/home
-- description: Accessible database designed by scientist for scientist, to improve the sharing of influenza data.
+- description: A web-based platform for sharing viral sequence data, initially for influenza data, and now for other pathogens (including SARS-CoV-2).
   id: gisaid
-  name: GISAID
+  name: Global Initiative on Sharing All Influenza Data (GISAID)
   registry:
-    fairsharing: ba6a09
-  url: https://www.gisaid.org
+    fairsharing: 2f7f9f
+  url: https://gisaid.org
 - description: Protein Data Bank in Europe Knowledge Base
   id: pdbe-kb
   name: PDBe-KB
@@ -2299,9 +2319,12 @@
   registry:
     fairsharing: ZPRtfG
   url: http://agrold.southgreen.fr/agrold/
-- description: Interoperability in small molecules
+- description: Increasing interoperability of small molecules by agregating many different sources of information into a single, logically coherent and semantically interconnected information source.
   id: integrated-database-of-small-molecules
-  name: Integrated Database of Small Molecules
+  name: Integrated Database of Small Molecules (IDSM)
+  registry:
+    biotools: idsm
+    fairsharing: nn9r0d
   url: https://idsm.elixir-czech.cz/
 - description: The OME Model is a specification for storing data on biological imaging.
   id: ome-data-model-and-file-formats
@@ -2466,6 +2489,8 @@
 - description: sceasy is a package that helps easy conversion of different single-cell data formats to each other.
   id: sceasy
   name: SCEasy
+  registry:
+    biotools: sceasy
   url: https://github.com/cellgeni/sceasy
 - description: Interactive portal for single-cell genomics data.
   id: single-cell-portal
@@ -2658,3 +2683,340 @@
   id: better-bibtex
   name: Better BibTeX (BBT)
   url: https://retorque.re/zotero-better-bibtex/
+- description: Beacon for OMOP (B4OMOP) software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database.
+  id: b4omop
+  name: Beacon for OMOP (B4OMOP)
+  url: https://gitlab.bsc.es/impact-data/impd-beacon_omopcdm
+- description: Developed through the Global Alliance for Genomics and Health (GA4GH) Discovery workstream with support from ELIXIR, Beacon is a data discovery protocol defining an open standard for discovering genomic and phenoclinic data in research and clinical applications.
+  id: beacon-v2
+  name: Beacon v2
+  registry:
+    tess: Beacon v2
+  url: https://docs.genomebeacons.org/implementations-options/
+- description: An open-source out-of-the-box toolkit to initiate a Beacon v2. B2RI includes tools for loading metadata, such as phenotypic data and genomic variants into a MongoDB database, and features a Beacon query engine (REST API).
+  id: beacon-ri
+  name: Beacon v2 Reference Implementation (B2RI)
+  url: https://github.com/EGA-archive/beacon2-ri-tools-v2
+- description: Discover tools and best practices for working with infectious disease data. IDTk provides general guidance as well as specific information for pathogen characterisation, socioeconomic data, human biomolecular data, and human clinical and health data.
+  id: idtk
+  name: Infectious Diseases Toolkit (IDTk)
+  url: https://www.infectious-diseases-toolkit.org/
+- description: The Federated EGA is an infrastructure built upon the European Genome-phenome Archive (EGA), an EMBL-EBI and CRG data resource for secure archiving and sharing of human sensitive biomolecular and phenotypic data resulting from biomedical research projects.
+  id: fega
+  name: Federated EGA
+  registry:
+    tess: Federated EGA
+  url: https://ega-archive.org/about/projects-and-funders/federated-ega/
+- description: The Pathogens Portal aims to provide access to data and tools relating to pathogens, their human and animal hosts and their vectors. Current content spans bacterial, viral and eukaryotic parasite lineages alongside human host data.
+  id: pathogens-portal
+  name: Pathogens Portal
+  registry:
+    fairsharing: a085b2
+    tess: Pathogens Portal
+  url: https://www.pathogensportal.org/
+- description: NCBI Pathogen Detection integrates bacterial and fungal pathogen genomic sequences from numerous ongoing surveillance and research efforts whose sources include food, environmental sources such as water or production facilities, and patient samples. Foodborne, hospital-acquired, and other clinically infectious pathogens are included.
+  id: pathogen-detection
+  name: Pathogen Detection
+  registry:
+    tess: Pathogen Detection
+  url: https://www.ncbi.nlm.nih.gov/pathogens/
+- description: The COVID-19 Data Portal enables researchers to upload, access and analyse COVID-19 related reference data and specialist datasets. The aim of the COVID-19 Data Portal is to facilitate data sharing and analysis, and to accelerate coronavirus research. The portal includes relevant datasets submitted to EMBL-EBI as well as other major centres for biomedical data. The COVID-19 Data Portal is the primary entry point into the functions of a wider project, the European COVID-19 Data Platform.
+  id: covid-19-data-portal
+  name: COVID-19 Data Portal
+  registry:
+    biotools: covid-19-data-portal
+    fairsharing: f3b7a9
+    tess: COVID-19 Data Portal
+  url: https://www.covid19dataportal.org/
+- description: The Disease Ontology has been developed as a standardised ontology for human disease to provide the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics, underlying mechanisms and related medical vocabulary disease concepts.
+  id: doid
+  name: Disease Ontology (DOID)
+  registry:
+    fairsharing: 8b6wfq
+  url: http://www.disease-ontology.org
+- description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations.
+  id: genepio
+  name: Genomic Epidemiology Ontology (GenEpiO)
+  registry:
+    fairsharing: y1mmbv
+  url: https://genepio.org/
+- description: PATO is an ontology of phenotypic qualities, intended for use primarily in phenotype annotation.
+  id: pato
+  name: Phenotypic QualiTy Ontology (PATO)
+  registry:
+    biotools: pato
+    fairsharing: ezwdhz
+  url: https://github.com/pato-ontology/pato/
+- description: ChEBI) is a dictionary describing small chemical compounds including distinct synthetic or natural atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, and conformers.
+  id: chebi
+  name: Chemical Entities of Biological Interest (ChEBI)
+  registry:
+    biotools: chebi
+    fairsharing: 62qk8w
+    tess: Chemical Entities of Biological Interest (ChEBI)
+  url: https://www.ebi.ac.uk/chebi/
+- description: Uberon is an integrated cross-species anatomy ontology covering animals and bridging multiple species-specific ontologies.
+  id: uberon
+  name: UBER anatomy ONtology (UBERON)
+  registry:
+    fairsharing: 4c0b6b
+  url: http://uberon.org/
+- description: A free and open source electronic lab notebook.
+  id: elabftw
+  name: eLabFTW
+  registry:
+    tess: eLabFTW
+  url: https://www.elabftw.net/
+- description: A tool to aid in choosing the most suitable Electronic Lab Notebook (ELN) for a specific purpose.
+  id: eln-finder
+  name: ELN Finder
+  url: https://eln-finder.ulb.tu-darmstadt.de/home
+- description: List of minimum information standards on Wikipedia
+  id: min-info-standards
+  name: Minimum information standards in life sciences
+  url: https://en.wikipedia.org/wiki/Minimum_information_standard
+- description: draw.io is a free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+  id: draw-io
+  name: draw.io
+  url: https://www.drawio.com/
+- description: Inkscape is a versatile and free graphic design editor suitable for both personal and professional use. It offers a comprehensive suite of design tools, enabling users to create and edit vector graphics, primarily in the SVG format. Additionally, Inkscape supports working with rasterized images (bitmaps), making it a powerful tool for diverse design projects.
+  id: inkscape
+  name: Inkscape
+  registry:
+    tess: Inkscape
+  url: https://inkscape.org/
+- description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This tool allows users to create designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. It provides a robust platform for crafting illustrations and diagrams.
+  id: libre-office-draw
+  name: Libre Office Draw
+  url: https://www.libreoffice.org/discover/draw/
+- description: The Research Organization Registry (ROR) is a project developing open unique identifiers for research organisations.
+  id: ror
+  name: Research Organization Registry (ROR)
+  registry:
+    fairsharing: 1jKfji
+  url: https://ror.org/
+- description: The Open Funder Registry (OFR) is a registry of persistent identifiers for grant-giving organisations.
+  id: ofr
+  name: Open Funder Registry (OFR)
+  registry:
+    fairsharing: odf1nG
+  url: https://www.crossref.org/services/funder-registry/
+- description: ORCID is an open, non-profit, community-driven registry of unique researcher identifiers and offers a transparent method of attributing outputs.
+  id: orcid
+  name: Open Researcher and Contributor ID Registry (ORCID)
+  registry:
+    biotools: orcid
+    fairsharing: nx58jg
+  url: https://orcid.org/
+- description: A network promoting collaboration between cancer registries in Europe to improve data quality and comparability.
+  id: encr
+  name: European Network of Cancer Registries (ENCR)
+  url: https://encr.eu
+- description: A research infrastructure for assessing environmental exposures and their health impacts.
+  id: eirene-ri
+  name: Environmental Exposure Assessment Research Infrastructure (EIRENE-RI)
+  url: https://www.eirene-ri.eu
+- description: A registry of statistical metadata (SDMX) for European data reporting and exchange.
+  id: euro-sdmx-registry
+  name: Euro SDMX Registry
+  url: https://webgate.ec.europa.eu/sdmxregistry
+- description: A standard for medical imaging data storage and transmission.
+  id: dicom
+  name: Digital Imaging and Communications in Medicine (DICOM)
+  url: https://www.dicomstandard.org
+- description: A classification system for oncology, used in cancer registries and pathology reporting.
+  id: icd-o-3
+  name: ICD-O-3 Coding Materials
+  url: https://www.who.int/standards/classifications
+- description: An open-source data warehouse for clinical and translational research.
+  id: i2b2
+  name: Informatics for Integrating Biology & the Bedside (i2b2)
+  url: https://www.i2b2.org
+- description: A platform for exploring, analysing, and visualising cancer genomics data.
+  id: cbioportal
+  name: cBioPortal
+  url: https://www.cbioportal.org
+- description: A cancer staging system used globally for classifying tumor spread.
+  id: ajcc-uicc
+  name: AJCC/UICC
+  url: https://www.cancerstaging.org
+- description: The standard for diagnostic oncology, defining tumor types and classifications.
+  id: who-tc
+  name: WHO Classification of Tumours
+  url: https://tumourclassification.iarc.who.int
+- description: A repository of medical images related to cancer.
+  id: tcia
+  name: The Cancer Imaging Archive
+  url: https://www.cancerimagingarchive.net
+- description: AI-powered pathology tools for cancer diagnosis and research.
+  id: path-ai
+  name: PathAI
+  url: https://www.pathai.com
+- description: AI-based medical imaging analysis for radiology and oncology.
+  id: qure-ai
+  name: Qure.ai
+  url: https://www.qure.ai
+- description: AI solutions for digital pathology in cancer detection.
+  id: paige-ai
+  name: Paige AI
+  url: https://www.paige.ai
+- description: Guidelines for reporting predictive model studies in medicine.
+  id: tripod
+  name: Transparent Reporting of a Multivariable Prediction Model
+  url: https://www.tripod-statement.org
+- description: Professional organisation for medical oncology, providing guidelines and resources.
+  id: esmo
+  name: European Society of Medical Oncology(ESMO)
+  url: https://www.esmo.org/guidelines
+- description: Leading oncology society providing research, education, and practice guidelines.
+  id: asco-general
+  name: American Society of Clinical Oncology, Treatment Types
+  url: https://www.cancer.org/cancer/managing-cancer/treatment-types.html
+- description: Clinical practice guidelines serving as a guide for doctors and outlining appropriate methods of treatment and care.
+  id: asco-clinical
+  name: American Society of Clinical Oncology, Clinical Guidelines
+  url: https://ascopubs.org/jco/special/guidelines
+- description: Alliance of cancer centres providing evidence-based treatment guidelines.
+  id: nccn
+  name: National Comprehensive Cancer Network (NCCN)
+  url: https://www.nccn.org/guidelines/category_1
+- description: Integrated clinical and genomic data for over 100,000 cancer patients from the International Cancer Genome Consortium.
+  id: icgc-argo
+  name: ICGC-ARGO
+  url: https://dcc.icgc-argo.org/
+- description: Real-world cancer genomic dataset aggregated from multiple institutions.
+  id: aacr-genie
+  name: AACR-GENIE
+  url: https://www.aacr.org/professionals/research/aacr-project-genie/
+- description: Platform from Memorial Sloan Kettering providing molecular and clinical data to support precision oncology.
+  id: msk-chord
+  name: MSK-CHORD
+  url: https://www.mskcc.org/research-areas/programs-centers/msk-chord
+- description: Multi-omic cancer dataset of >7000 patients, including whole genome sequencing and clinical outcomes.
+  id: hmf
+  name: Hartwig Medical Foundation (HMF)
+  url: https://www.hartwigmedicalfoundation.nl/en/
+- description: A federated real-world evidence platform containing clinical and genomic data from patients with solid tumours.
+  id: wayfind-r
+  name: WAYFIND-R
+  url: https://wayfindr.eu/
+- description: A federated platform for cancer imaging data.
+  id: eucaim
+  name: European Cancer Imaging Initiative (EUCAIM)
+  url: https://cancerimage.eu/
+- description: U.S.A.-based NIH research program with diverse patient health, genetic, and lifestyle data.
+  id: all-of-us
+  name: All of Us
+  url: https://www.researchallofus.org/
+- description: Large-scale biomedical database with genetic, clinical, and lifestyle data from 500,000 UK participants.
+  id: uk-biobank
+  name: UK Biobank
+  url: https://www.ukbiobank.ac.uk/
+- description: Repository of medical images of cancer available for public download with metadata.
+  id: cia
+  name: Cancer Imaging Archive (CIA)
+  url: https://www.cancerimagingarchive.net/
+- description: Database of drug sensitivity and genomic data from ~1000 cancer cell lines.
+  id: gdsc
+  name: Genomics of Drug Sensitivity in Cancer (GDSC)
+  url: https://www.cancerrxgene.org/
+- description: Resource to explore relationships between cancer cell line genotypes and drug response.
+  id: ctrp
+  name: Cancer Therapeutics Response Portal (CTRP)
+  url: https://portals.broadinstitute.org/ctrp
+- description: A database of cancer-related drugs, including descriptions, uses, and approvals.
+  id: nci
+  name: National Cancer Institute (NCI)
+  url: https://www.cancer.gov/about-cancer/treatment/drugs/
+- description: European Medicines Agency's portal for authorised medicines in the EU.
+  id: ema
+  name: EMA
+  url: https://www.ema.europa.eu/en/medicines
+- description: Database of privately and publicly funded clinical studies conducted around the world.
+  id: clinical-trials-gov
+  name: ClinicalTrials.gov
+  url: https://clinicaltrials.gov/
+- description: Comprehensive database containing information on drugs and drug targets.
+  id: drugbank
+  name: DrugBank
+  url: https://go.drugbank.com/
+- description: Drug-Gene Interaction Database linking drugs to their target genes.
+  id: dgidb
+  name: DGIdb
+  url: https://dgidb.org/
+- description: Database for drug mechanisms, targets, pathways, and indications.
+  id: drugmap
+  name: DrugMap
+  url: https://drugmap.idrblab.net/
+- description: Database of known and explored therapeutic targets and their related drugs.
+  id: ttd
+  name: Therapeutic Target Database (TTD)
+  url: https://idrblab.net/ttd/
+- description: Pharmacogenomics knowledge base including cancer pharmacogenomic information.
+  id: pharmgkb-cancer-pgx
+  name: Cancer Pharmacogenomics
+  url: https://www.pharmgkb.org/page/cancerPgx
+- description: Precision oncology knowledge base that annotates the effects and treatment implications of somatic mutations in cancer.
+  id: oncokb
+  name: OncoKB
+  url: https://www.oncokb.org/
+- description: Side Effect Resource containing information on marketed medicines and their recorded adverse drug reactions.
+  id: sider
+  name: SIDER
+  url: http://sideeffects.embl.de/
+- description: Provides a general framework to interpret the functional and predictive relevance of a list of gene variants through interactive reports.
+  id: mtb-portal
+  name: MTB Portal
+  url: https://www.mtbp.org
+- description: Platform to prioritise cancer drug treatments based on individual multi-omics data including SNVs, CNVs, and gene expression.
+  id: pandrugs
+  name: PanDrugs
+  url: https://www.pandrugs.org/
+- description: A community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer
+  id: civic
+  name: Clinical Interpretations of Variants in Cancer (CIViC)
+  url: https://civicdb.org/
+- description: Provides therapy-oriented precision oncology guidelines for recommending anti-cancer drugs based on genetic alterations.
+  id: topograph
+  name: Topograph
+  url: https://topograph.info/
+- description: A cancer staging system that describes the size of the tumor (T), lymph node involvement (N), and metastasis (M).
+  id: tnm
+  name: Tumour, Nodes, Metastases (TNM) cancer staging system
+  url: https://www.uicc.org/who-we-are/about-uicc/uicc-and-tnm
+- description: A single standardised international medical terminology.
+  id: meddra
+  name: Medical Dictionary for Regulatory Activities(MedDRA)
+  url: https://www.meddra.org/ 
+- description: A scale for assessing patient functional status.
+  id: ecog
+  name: Eastern Cooperative Oncology Group (ECOG)
+  url: https://pubmed.ncbi.nlm.nih.gov/7165009/
+- description: A standardised method for assessing tumor response via PET imaging.
+  id: percist
+  name: PET Response Criteria in Solid Tumors (PERCIST)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/
+- description: A set of questionnaires developed to assess the quality of life of cancer patients.
+  id: eortc-qlq
+  name: European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaires (EORTC QLQ)
+  url: https://qol.eortc.org
+- description: A set of person-centred measures that evaluates and monitors physical, mental, and social health in adults and children.
+  id: promis
+  name: Patient-Reported Outcomes Measurement Information System (PROMIS)
+  url: https://www.promishealth.org/57461-2/
+- description: Various digital health tools approved by the FDA for medical use (e.g., wearables, software, diagnostics).
+  id: fda-approved-tools
+  name: FDA-approved tools
+  url: https://www.fda.gov/medical-devices/digital-health-center-excellence
+- description: A framework for health and fitness data integration on Apple devices.
+  id: apple-health-kit
+  name: Apple HealthKit
+  url: https://developer.apple.com/health-fitness/
+- description: An open-source Clinical Interpretations platform for integrating mobile health data to improve healthcare insights.
+  id: open-mhealth 
+  name: Open mHealth
+  url: https://www.openmhealth.org/
+- description: A health-tracking platform by Google for collecting and accessing fitness data.
+  id: google-fit
+  name: Google Fit
+  url: https://www.google.com/fit/

@@ -70,10 +70,14 @@ subitems:
         url: /compliance_monitoring
       - title: Costs of data management
         url: /costs_data_management
+      - title: Creating a data-flow diagram
+        url: /creating_dataflow_diagram
       - title: Data analysis
         url: /data_analysis
       - title: Data brokering
         url: /data_brokering
+      - title: Data discoverability
+        url: /data_discoverability
       - title: Data management coordination
         url: /dm_coordination
       - title: Data management plan
@@ -162,6 +166,8 @@ subitems:
         url: /fi_resources
       - title: France
         url: /fr_resources
+      - title: Greece
+        url: /gr_resources       
       - title: Italy
         url: /it_resources
       - title: Ireland

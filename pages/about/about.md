@@ -34,16 +34,14 @@ RDMkit was developed with funding from the European Union’s Horizon 2020 Resea
 
 ## How to cite the RDMkit
 
+When referencing content from the RDMkit pages, please cite as follows:
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>ELIXIR (2021) Research Data Management Kit. A deliverable from the EU-funded ELIXIR-CONVERGE project (grant agreement 871075). URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org</a></i></p>
+    <p class="card-text"><i>RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org</a></i></p>
   </div>
 </div>
 
-The ELIXIR Research Data Management Kit makes all of their materials publicly available under [Open Source Initiative](https://opensource.org/licenses) licenses.
-The process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
-Software are made available under an [MIT license](https://opensource.org/licenses/mit-license.html).
-For full details on licensing, please visit our [License document](https://github.com/elixir-europe/rdmkit/blob/master/LICENSE).
+The ELIXIR Research Data Management Kit makes all its materials publicly available under open licenses. Software is released under the [MIT license](https://opensource.org/licenses/mit-license.html) (an [Open Source Initiative-approved](https://opensource.org/licenses) license), while the process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license. For full details on licensing, please visit our [License document on GitHub](https://github.com/elixir-europe/rdmkit/blob/master/LICENSE).
 
 

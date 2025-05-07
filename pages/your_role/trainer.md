@@ -1,7 +1,7 @@
 ---
 title: Trainer
 description: Data management guidance for trainers.
-contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xenia Perez-Sitja, Nazeefa Fatima, Gregoire Rossier]
+contributors: [Mijke Jetten, Martin Cook, Siiri Fuchs, Ulrike Wittig, Daniel Wibberg, Helena Schnitzer, Xènia Pérez Sitjà, Nazeefa Fatima, Gregoire Rossier]
 page_id: trainer
 ---
 

@@ -13,6 +13,8 @@ training:
 faircookbook:
 - name: Depositing IMI EUBOPEN High-Content Screening data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB067
+- name: Depositing Covid-19 image data to BioImage Archive
+  url: https://w3id.org/faircookbook/FCB086
 ---
 
 ## Introduction
@@ -175,8 +177,8 @@ Comparative table of some repositories that can be used to deposit imaging data:
     <td>{% tool "bioimagearchive" %}</td>
     <td>Archive</td>
     <td>No PIH data</td>
-    <td>None</td>
-    <td>---</td>
+    <td>2TB</td>
+    <td>Yes</td>
     <td>Free</td>
   </tr>
   <tr>

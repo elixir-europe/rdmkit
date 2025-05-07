@@ -1,0 +1,23 @@
+<svg data-name="50" version="1.1" viewBox="0 0 460 460" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1 {
+        fill: #c33669;
+        isolation: isolate;
+        opacity: .5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #2a2e3d;
+      }</style>
+ </defs>
+ <circle class="cls-1" cx="230" cy="230" r="200"/>
+ <g transform="translate(.72498 12.524)">
+  <circle cx="230" cy="154.18" r="52.81" style="fill:#2a2e3d;stop-color:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:.68032"/>
+  <circle cx="161.91" cy="268.78" r="52.81" style="fill:#2a2e3d;stop-color:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:.68032"/>
+  <circle cx="296.64" cy="268.78" r="52.81" style="fill:#2a2e3d;stop-color:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:.68032"/>
+ </g>
+</svg>
