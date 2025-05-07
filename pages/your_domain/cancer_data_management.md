@@ -100,7 +100,7 @@ Managing cancer data for diagnosing and determining the best treatment for local
 
 ### Solutions
 
-* Utilize structured clinical data models and interoperability frameworks (e.g., {% tool "hl7-fir" %}, {% tool "omop-cdm" %}, {% tool "dicom" %} and {% tool "xnat" %} for imaging) to facilitate the integration of multi-modal diagnostic data such as clinical, imaging, and molecular data.
+* Utilize structured clinical data models and interoperability frameworks (e.g., {% tool "hl7-fhir" %}, {% tool "omop-cdm" %}, {% tool "dicom" %} and {% tool "xnat" %} for imaging) to facilitate the integration of multi-modal diagnostic data such as clinical, imaging, and molecular data.
 * Implement version-controlled patient records using [EHR](health_data) systems that support updates based on evolving classification standards and cancer-specific coding dictionaries for diagnosis (e.g., {% tool "icd-o-3" %} or {% tool "snomed-ct" %} for cancer diagnosis and topography, AJCC/UICC {% tool "tnm" %} staging system, {% tool "who-tc" %}).
 * Utilize secure repositories and specialized cancer clinical data management systems (e.g., {% tool "redcap" %}, {% tool "i2b2" %}, {% tool "cbioportal" %}) that comply with GDPR, [HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html), and other regulatory frameworks.
 * Implement standardized consent forms and patient data governance frameworks, such as GA4GH's {% tool "data-use-ontology" %}, to allow data sharing while maintaining privacy.
