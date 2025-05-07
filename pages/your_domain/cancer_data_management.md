@@ -2,7 +2,7 @@
 title: Cancer Data Management
 description: Data management solutions for human cancer data
 contributors: [Fátima Al-Shahrour, Erika Schirghuber, Robin Navest, Eva Budinska, Gonzalo Gómez, María González, Fotis Psomopoulos, Sarah Morgan, Sophie Huiskes Berends]
-page_id: cancer_data
+page_id: cancer_data_management
 related_pages: 
   your_tasks: [sensitive, gdpr_compliance]
   your_domain: [health_data, human_data, bioimaging_data, data_security]
@@ -145,9 +145,9 @@ A more unified approach to cancer treatment data collection is crucial for impro
 * {% tool "the-european-genome-phenome-archive" %} : Service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data.
 * {% tool "cbioportal" %}: Multidimensional genomics data with treatment annotations.
 * {% tool "icgc-argo" %}: Comprehensive clinical and genomic data for >100,000 patients.
-* {% tool "aacr-genie" %}:  Cancer genomic dataset.
+* {% tool "aacr-genie" %}: Cancer genomic dataset.
 * {% tool "msk-chord" %}:Molecular and clinical data for cancer treatment analysis.
-* {% tool "hmf" %}:  Multi-omic data for >7000 patients.
+* {% tool "hmf" %}: Multi-omic data for >7000 patients.
 * {% tool "wayfind-r" %}: Real-world clinical/genomic data from patients diagnosed with solid tumours across geographies.
 * {% tool "eucaim" %}: Federated platform for Cancer image data.
 * {% tool "all-of-us" %}: US-based patient health data.
