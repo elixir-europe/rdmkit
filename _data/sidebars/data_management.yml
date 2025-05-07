@@ -61,6 +61,8 @@ subitems:
         url: /structural_bioinformatics
       - title: Toxicology data
         url: /toxicology_data
+      - title: Canacer data management
+        url: /cancer_data_management
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks
