@@ -6,6 +6,12 @@ page_id: cancer_data
 related_pages: 
   your_tasks: [sensitive, gdpr_compliance]
   your_domain: [health_data, human_data, bioimaging_data, data_security]
+training:
+- name: Training in TeSS
+  registry: TeSS
+  url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
+- name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
+  url: https://academy.ehden.eu/
 
 ---
 ## Introduction
@@ -33,20 +39,20 @@ Primary prevention in cancer care refers to strategies aimed at reducing the ris
 
 #### Considerations 
 
-* Consider local cancer registries in the different European countries as they can be organised locally, regionally or nationally
-* Think about the health data access procedures which could be different for each cancer registry
-* Bear in mind the interoperability of variables from the exposome data could be suboptimal due to heterogeneous data collection between different sources
+* Consider local cancer registries in the different European countries as they can be organised locally, regionally or nationally.
+* Think about the health data access procedures which could be different for each cancer registry.
+* Bear in mind the interoperability of variables from the exposome data could be suboptimal due to heterogeneous data collection between different sources.
 * Linkage between different data types, e.g. exposome and health data, could be non-trivial. Think about the following:
   * Does the geographical grid match?
   * Does the timestamp of the data correlate?
-* Exposome data is considered non-personal data, but once linked to personal data the linked dataset becomes personal data and privacy has to be ensured    in compliance with applicable legislation (e.g. GDPR).
+* Exposome data is considered non-personal data, but once linked to personal data the linked dataset becomes personal data and privacy has to be ensured in compliance with applicable legislation (e.g. GDPR).
 
 #### Solutions
 
 * For data management considerations and solutions of Patient-generated health data and Electronic Health Record (EHR) data see the [Health data page](human_data).
-* Cancer registry data common rules and definitions used within Europe defined by the ENCR (European Network of Cancer Registries): https://www.encr.eu/ENCR-Recommendations 
-* Exposome data management recommendations under development by EIRENE-RI (Environmental Exposure Assessment Research Infrastructure)
-* Exposome (meta)data definitions used within Europe defined by Eurostat: https://webgate.ec.europa.eu/fusionregistry/
+* Cancer registry data common rules and definitions used within Europe defined by the [European Network of Cancer Registries(ENCR)](https://www.encr.eu/ENCR-Recommendations).
+* Exposome data management recommendations under development by [Environmental Exposure Assessment Research Infrastructure(EIRENE-RI)](https://eirene.eu/).
+* Exposome (meta)data definitions used within Europe defined by Eurostat, [Euro SDMX Regustry](https://webgate.ec.europa.eu/fusionregistry/).
 
 
 #### Secondary prevention (screening) data
@@ -59,10 +65,10 @@ Key challenges include integrating diverse datasets and ensuring data accuracy s
 
 #### Considerations
 
-* The data access procedure could be different for different data sources. Be mindful to contact the relevant data creators and managers for the relevant access rights
-* Interoperability of data originating from multiple screening programs is not guaranteed
-* For general health data considerations, see [Health data page](health_data)
-* For general bioimaging data considerations, see [bioImaging data page](bioimaging_data)
+* The data access procedure could be different for different data sources. Be mindful to contact the relevant data creators and managers for the relevant access rights.
+* Interoperability of data originating from multiple screening programs is not guaranteed.
+* For general health data considerations, see [Health data page](health_data).
+* For general bioimaging data considerations, see [bioImaging data page](bioimaging_data).
 
 #### Solutions
 
@@ -94,19 +100,19 @@ Managing cancer data for diagnosing and determining the best treatment for local
 
 ### Solutions
 
-* Utilize structured clinical data models and interoperability frameworks (e.g., HL7 FHIR, OMOP, DICOM and XNAT for imaging) to facilitate the integration of multi-modal diagnostic data such as clinical, imaging, and molecular data.
-* Implement version-controlled patient records using EHR systems that support updates based on evolving classification standards and cancer-specific coding dictionaries for diagnosis (e.g., ICD-O-3 or SNOMED CT for cancer diagnosis and topography, AJCC/UICC TNM staging system, WHO Classification).
-* Utilize secure repositories and specialized cancer clinical data management systems (e.g., REDCap, i2b2, cBioPortal) that comply with GDPR, HIPAA, and other regulatory frameworks.
-* Implement standardized consent forms and patient data governance frameworks, such as GA4GH's Data Use Ontology (DUO), to allow data sharing while maintaining privacy.
+* Utilize structured clinical data models and interoperability frameworks (e.g., {% tool "hl7-fir" %}, {% tool "omop-cdm" %}, {% tool "dicom" %} and {% tool "xnat" %} for imaging) to facilitate the integration of multi-modal diagnostic data such as clinical, imaging, and molecular data.
+* Implement version-controlled patient records using [EHR](health_data) systems that support updates based on evolving classification standards and cancer-specific coding dictionaries for diagnosis (e.g., {% tool "icd-o-3" %} or {% tool "snomed-ct" %} for cancer diagnosis and topography, AJCC/UICC {% tool "tnm" %} staging system, {% tool "who-tc" %}).
+* Utilize secure repositories and specialized cancer clinical data management systems (e.g., {% tool "redcap" %}, {% tool "i2b2" %}, {% tool "cbioportal" %}) that comply with GDPR, [HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html), and other regulatory frameworks.
+* Implement standardized consent forms and patient data governance frameworks, such as GA4GH's {% tool "data-use-ontology" %}, to allow data sharing while maintaining privacy.
 * Store raw sequencing and imaging data in cloud-based or institutional repositories (e.g., EGA, dbGAP, SRA, TCIA for imaging) to allow reanalysis when new prognostic markers emerge.
-* Adopt federated learning approaches (e.g., Federated EGA, Federated EHR Learning Models) to enable collaborative research without transferring sensitive patient data.
-* Integrate AI-based imaging tools (e.g., PathAI, Qure.ai, Paige AI) for radiology and pathology analysis to assist in detecting subtle cancer features and ensure adherence to explainability frameworks (e.g., DOME, TRIPOD, SPIRIT-AI), avoiding biases in cancer diagnosis.
+* Adopt federated learning approaches (e.g., {% tool "fega" %}, Federated EHR Learning Models) to enable collaborative research without transferring sensitive patient data.
+* Integrate AI-based imaging tools (e.g., {% tool "path-ai" %}, {% tool "qure-ai" %}, {% tool "paige-ai" %}) for radiology and pathology analysis to assist in detecting subtle cancer features and ensure adherence to standards (e.g., {% tool "dome" %}, {% tool "tripod" %}), avoiding biases in cancer diagnosis.
 
 
 ## Cancer treatment
 
 ### Description
-Cancer treatment varies depending on the type and stage of cancer (e.g. locally advanced, metastatic disease), as well as the overall health and preferences of the patient. The use of advanced diagnostic techniques (e.g. PET-CT/MRI, molecular profiling (e.g. next-generation sequencing, comprehensive genomic profiling (CGP), WGS) and liquid biopsies (e.g. ctDNA)) has tremendously increased the data density and complexity to be dealt with at this stage of disease.
+Cancer treatment varies depending on the type and stage of cancer (e.g. locally advanced, metastatic disease), as well as the overall health and preferences of the patient. The use of advanced diagnostic techniques (e.g. PET-CT/MRI, molecular profiling (e.g. next-generation sequencing, comprehensive genomic profiling (CGP), whole genome sequencing (WGS)) and liquid biopsies (e.g. ctDNA)) has tremendously increased the data density and complexity to be dealt with at this stage of disease.
 
 Cancer treatment employs a wide range of data types, such as patients' therapeutic regimens, including surgery techniques, stem cell transplantation, radiotherapy, systemic therapies (e.g., hormone, chemotherapy, immunotherapy and targeted therapies) as well as  imaging data, biomarker assessments, responses to therapies data, clinical trial outcomes, drug efficacy, and adverse reactions. Cancer treatment data is commonly associated with further clinical data and patients' information. Due to their sensitive nature, the data must be managed following ethical guidelines, data protection laws, and FAIR (Findable, Accessible, Interoperable, and Reusable) principles.
 
@@ -126,48 +132,50 @@ Although cancer treatment data is crucial for developing personalized medicine a
 
 In order to obtain information about oncological clinical practice guidelines several medical societies provide guidance:
 
-* European Society of Medical Oncology (ESMO): https://www.esmo.org/guidelines
-* American Society of Clinical Oncology (ASCO): General treatment types: https://www.cancer.org/cancer/managing-cancer/treatment-types.html; Clinical guidelines: https://ascopubs.org/jco/special/guidelines
-* National Comprehensive Cancer Network (NCCN): https://www.nccn.org/guidelines/category_1
+* [European Society of Medical Oncology (ESMO)](https://www.esmo.org/guidelines)
+* American Society of Clinical Oncology (ASCO):
+  * [General treatment types](https://www.cancer.org/cancer/managing-cancer/treatment-types.html)
+  * [Clinical guidelines](https://ascopubs.org/jco/special/guidelines)
+* [National Comprehensive Cancer Network (NCCN)](https://www.nccn.org/guidelines/category_1)
 
 A more unified approach to cancer treatment data collection is crucial for improving outcome analysis and supporting all stakeholders. To support this aim, several consortia and institutions provide annotated reference datasets with cancer treatment data:
 
 #### Reference databases and platforms:
 
-* European Genome-Phenome Archive (EGA): Service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data 
-* cBioPortal : Multidimensional genomics data with treatment annotations
-* ICGC-ARGO: Comprehensive clinical and genomic data for >100,000 patients
-* AACR-GENIE:  Cancer genomic dataset
-* MSK-CHORD:Molecular and clinical data for cancer treatment analysis
-* Hartwig Medical Foundation:  Multi-omic data for >7000 patients
-* WAYFIND-R: Real-world clinical/genomic data from patients diagnosed with solid tumours across geographies
-* EUCAIM: Federated platform for Cancer image data
-* AllOfUs: US-based patient health data
-* UK Biobank: UK-based longitudinal study of 500,000 UK individuals; multi-level data across a range of diseases.
-* Cancer Imaging Archive: Imaging data with metadata
-* Genomics of Drug Sensitivity in Cancer (GDSC):Drug sensitivity data from 1000 cancer cell lines
-* Cancer Therapeutics Response Portal (CTRP): Genetic and drug sensitivity relationships
+* {% tool "the-european-genome-phenome-archive" %} : Service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data.
+* {% tool "cbioportal" %}: Multidimensional genomics data with treatment annotations.
+* {% tool "icgc-argo" %}: Comprehensive clinical and genomic data for >100,000 patients.
+* {% tool "aacr-genie" %}:  Cancer genomic dataset.
+* {% tool "msk-chord" %}:Molecular and clinical data for cancer treatment analysis.
+* {% tool "hmf" %}:  Multi-omic data for >7000 patients.
+* {% tool "wayfind-r" %}: Real-world clinical/genomic data from patients diagnosed with solid tumours across geographies.
+* {% tool "eucaim" %}: Federated platform for Cancer image data.
+* {% tool "all-of-us" %}: US-based patient health data.
+* {% tool "uk-biobank" %}: UK-based longitudinal study of 500,000 UK individuals; multi-level data across a range of diseases.
+* {% tool "cia" %}: Imaging data with metadata.
+* {% tool "gdsc" %}): Drug sensitivity data from 1000 cancer cell lines.
+* {% tool "ctrp" %}: Genetic and drug sensitivity relationships.
 
 #### Drug and trial public repositories:
 
-* NCI: https://www.cancer.gov/about-cancer/treatment/drugs/
-* EMA: https://www.ema.europa.eu/en/medicines
-* ClinicalTrials.gov: https://clinicaltrials.gov/
-* DrugBank: https://go.drugbank.com/
-* dDGIdb: https://dgidb.org/
-* DrugMap: https://drugmap.idrblab.net/
-* Therapeutic Target Database: https://idrblab.net/ttd/
-* PharmGKB: https://www.pharmgkb.org/page/cancerPgx
-* OncoKB: https://www.oncokb.org/
-* SIDER: http://sideeffects.embl.de/
+* {% tool "nci" %}
+* {% tool "ema" %}
+* {% tool "clinicaltrials-gov" %}
+* {% tool "drugbank" %}
+* {% tool "dgidb" %}
+* {% tool "drugmap" %}
+* {% tool "ttd" %} 
+* {% tool "pharmgkb-cancer-pgx" %}
+* {% tool "oncokb" %}
+* {% tool "sider" %}
 
 #### Genomics & multi-omics resources:
 
-* MTB Portal: provides a general framework to interpret the functional and predictive relevance of a given list of gene variants in interactive reports.
-* PanDrugs: a platform to prioritize cancer drug treatments according to individual multi-omics data (SNVs, CNVs and gene expression)
-* Cancer Genome Interpreter: flags genomic biomarkers of drug response with clinical relevance
-* CIViC: a free resource to identify the best cancer treatment options based on DNA alterations. 
-* Topograph: Therapy-Oriented Precision Oncology Guidelines for Recommending Anti-cancer Pharmaceuticals
+* {% tool "mtb-portal" %}: provides a general framework to interpret the functional and predictive relevance of a given list of gene variants in interactive reports.
+* {% tool "pandrugs" %}: a platform to prioritize cancer drug treatments according to individual multi-omics data (SNVs, CNVs and gene expression).
+* {% tool "cancer-genome-interpreter" %} flags genomic biomarkers of drug response with clinical relevance.
+* {% tool "civic" %}: a free resource to identify the best cancer treatment options based on DNA alterations.
+* [Topograph](https://topograph.info/): Therapy-Oriented Precision Oncology Guidelines for Recommending Anti-cancer Pharmaceuticals.
 
 ## Monitoring of outcomes during follow-up visits
 
@@ -185,8 +193,8 @@ Different considerations should be taken into account depending on the type of d
 
 * Use specific standards and methods to extract and transform data included in the Electronic Health Record (clinical data, diagnoses, demographics, procedures, medications, vital signs, laboratory results). For Considerations towards improved reuse of EHR refer to the section in the Health data page.
 * Considerations for managing  imaging data (and histopathological data),  binary files,as well as the associated metadata can be found in the BioImaging domain page.
-* For  human genomic data, established research ethical guidelines and legislations must be followed as described in the Human data page.
-* Since  health data falls under the "special category of data" as defined by the GDPR, strict guidelines and considerations must be followed when handling this information covered in the GDPR compliance and Data Sensitivity page of the RDMkit.
+* For human genomic data, established research ethical guidelines and legislations must be followed as described in the Human data page.
+* Since health data falls under the "special category of data" as defined by the GDPR, strict guidelines and considerations must be followed when handling this information covered in the GDPR compliance and Data Sensitivity page of the RDMkit.
 * For PROs, to collect data directly from cancer patients and/or survivors, follow the considerations listed on the health data page. Additionally, since these PROs focus on quality-of-life and are inherently subjective, additional considerations must be addressed:
 
   * Are questionnaires designed to minimize ambiguity and ensure that all patients interpret questions in a similar way?
@@ -215,12 +223,12 @@ Different considerations should be taken into account depending on the type of d
 
 * To address the challenges associated with the monitoring of outcomes during follow-up visits, the following solutions are proposed:
 * Adopt common data models and standards to ensure consistency and interoperability of clinical data across institutions.
-    * Regarding data included in the EHR, for standards that are likely to be present as part of such systems, common data models that can facilitate data sharing, and tools for data integration, refer to the section in the Health data page. 
-    * Regarding imaging data, for standard (meta)data formats, management platforms, ontologies resources, and image repositories, refer to the BioImaging domain page.
-* Use cancer-specific standard terminologies, ontologies, and reference databases for coding diagnosis related data (e.g., ICD-O-3, WHO, TNM), treatment related data (e.e.g., CTRP, CIViC, TTD) and follow-up related data (e.g., MedDRA, ECOG, PERCIST).
-* Utilize GDPR compliant EDC systems that support capture of PROs (refer to the health data page) and structured formats (e.g., FHIR QuestionnaireResponse).
-* Employ validated and standardized instruments for quality-of-life assessment (e.g., EORTC QLQ, PROMIS) to reduce variability in interpretation and improve comparability. 
-* Use certified, clinically validated devices and apps to ensure data reliability and regulatory compliance (e.g., CE-marked, FDA-approved tools). Employ data aggregation platforms (e.g., Apple HealthKit, Google Fit, Open mHealth) that support cross-device integration and longitudinal monitoring.
+    * Regarding data included in the EHR, for standards that are likely to be present as part of such systems, common data models that can facilitate data sharing, and tools for data integration, refer to the section in the [Health data page](health_data). 
+    * Regarding imaging data, for standard (meta)data formats, management platforms, ontologies resources, and image repositories, refer to the [BioImaging page](bioimaging_data).
+* Use cancer-specific standard terminologies, ontologies, and reference databases for coding diagnosis related data (e.g.,{% tool "icd-o-3" %} , {% tool "who-tnm" %}, {% tool "tnm" %}), treatment related data (e.g., {% tool "ctrp" %}, {% tool "civic" %}, {% tool "ttd" %}) and follow-up related data (e.g., {% tool "meddra" %}, {% tool "ecog" %}, {% tool "percist" %}).
+* Utilize GDPR compliant EDC systems that support capture of PROs (refer to the health data page) and structured formats (e.g., [FHIR QuestionnaireResponse (https://build.fhir.org/questionnaireresponse.html).
+* Employ validated and standardized instruments for quality-of-life assessment (e.g., {% tool "eortc-qlq" %}, {% tool "promis" %}) to reduce variability in interpretation and improve comparability. 
+* Use certified, clinically validated devices and apps to ensure data reliability and regulatory compliance (e.g., CE-marked, {% tool "FDA-approved tools" %}). Employ data aggregation platforms (e.g., {% tool "apple-health-kit" %}, {% tool "google-fit" %}, {% tool "open-mhealth" %}) that support cross-device integration and longitudinal monitoring.
 * Define clear data governance policies for longitudinal data capture and ensure data traceability.
 * Establish patient engagement protocols to support consistent reporting and minimize data loss over time. Define standardized follow-up templates to optimize data completeness.
 
