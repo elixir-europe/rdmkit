@@ -146,7 +146,7 @@ A more unified approach to cancer treatment data collection is crucial for impro
 * {% tool "cbioportal" %}: Multidimensional genomics data with treatment annotations.
 * {% tool "icgc-argo" %}: Comprehensive clinical and genomic data for >100,000 patients.
 * {% tool "aacr-genie" %}: Cancer genomic dataset.
-* {% tool "msk-chord" %}:Molecular and clinical data for cancer treatment analysis.
+* {% tool "msk-chord" %}: Molecular and clinical data for cancer treatment analysis.
 * {% tool "hmf" %}: Multi-omic data for >7000 patients.
 * {% tool "wayfind-r" %}: Real-world clinical/genomic data from patients diagnosed with solid tumours across geographies.
 * {% tool "eucaim" %}: Federated platform for Cancer image data.
