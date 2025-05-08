@@ -28,7 +28,7 @@ Efficient data management and interoperability are essential for ensuring timely
 ## Cancer prevention
  
 ### Description
-Cancer prevention involves taking proactive measures to reduce the risk of developing cancer. These measures can be implemented at various levels, including personal behavior, community actions such as cancer screening programs, and public health policies.Cancer screening and awareness of early symptoms play a crucial role in the early detection of many types of cancer.Cancer prevention aims to answer the general questions: “what is the risk” and “who is at risk?”, relating to genetic, socio-economic  and environmental factors to predict risk at the individual and population levels. 
+Cancer prevention involves taking proactive measures to reduce the risk of developing cancer. These measures can be implemented at various levels, including personal behaviour, community actions such as cancer screening programs, and public health policies. Cancer screening and awareness of early symptoms play a crucial role in the early detection of many types of cancer. Cancer prevention aims to answer the general questions: “what is the risk?” and “who is at risk?”, relating to genetic, socio-economic, and environmental factors to predict risk at the individual and population levels. 
 Cancer prevention is classified into two levels: primary and secondary.Primary prevention aims to reduce the incidence of cancer by minimizing exposure to risk factors and adopting protective behaviors, while secondary prevention focuses on early detection.
 
 #### Primary prevention (genetic predisposition and exposome factors) data  
