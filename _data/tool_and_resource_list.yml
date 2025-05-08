@@ -2808,18 +2808,6 @@
     biotools: orcid
     fairsharing: nx58jg
   url: https://orcid.org/
-- description: A network promoting collaboration between cancer registries in Europe to improve data quality and comparability.
-  id: encr
-  name: European Network of Cancer Registries (ENCR)
-  url: https://encr.eu
-- description: A research infrastructure for assessing environmental exposures and their health impacts.
-  id: eirene-ri
-  name: Environmental Exposure Assessment Research Infrastructure (EIRENE-RI)
-  url: https://www.eirene-ri.eu
-- description: A registry of statistical metadata (SDMX) for European data reporting and exchange.
-  id: euro-sdmx-registry
-  name: Euro SDMX Registry
-  url: https://webgate.ec.europa.eu/sdmxregistry
 - description: A standard for medical imaging data storage and transmission.
   id: dicom
   name: Digital Imaging and Communications in Medicine (DICOM)
@@ -2836,10 +2824,10 @@
   id: cbioportal
   name: cBioPortal
   url: https://www.cbioportal.org
-- description: A cancer staging system used globally for classifying tumor spread.
-  id: ajcc-uicc
-  name: AJCC/UICC
-  url: https://www.cancerstaging.org
+- description: A common file format that contains information about variants found at specific positions in a reference genome.
+  id: vcf
+  name: Variant Call Format 
+  url: https://gatk.broadinstitute.org/hc/en-us/articles/360035531692-VCF-Variant-Call-Format
 - description: The standard for diagnostic oncology, defining tumor types and classifications.
   id: who-tc
   name: WHO Classification of Tumours
@@ -2896,10 +2884,6 @@
   id: uk-biobank
   name: UK Biobank
   url: https://www.ukbiobank.ac.uk/
-- description: Repository of medical images of cancer available for public download with metadata.
-  id: cia
-  name: Cancer Imaging Archive (CIA)
-  url: https://www.cancerimagingarchive.net/
 - description: Database of drug sensitivity and genomic data from ~1000 cancer cell lines.
   id: gdsc
   name: Genomics of Drug Sensitivity in Cancer (GDSC)
@@ -2909,12 +2893,12 @@
   name: Cancer Therapeutics Response Portal (CTRP)
   url: https://portals.broadinstitute.org/ctrp
 - description: A database of cancer-related drugs, including descriptions, uses, and approvals.
-  id: nci
-  name: National Cancer Institute (NCI)
+  id: nci-drug-database
+  name: National Cancer Institute(NCI) treatment drugs 
   url: https://www.cancer.gov/about-cancer/treatment/drugs/
-- description: European Medicines Agency's portal for authorised medicines in the EU.
-  id: ema
-  name: European Medicines Agency
+- description: European Medicines Agency's (EMA) portal for authorised medicines in the EU.
+  id: ema-medicine-finder
+  name: European Medicines Agency's (EMA) medicine finder
   url: https://www.ema.europa.eu/en/medicines
 - description: Comprehensive database containing information on drugs and drug targets.
   id: drugbank
@@ -2922,7 +2906,7 @@
   url: https://go.drugbank.com/
 - description: Drug-Gene Interaction Database linking drugs to their target genes.
   id: dgidb
-  name: DGIdb
+  name: Drug-Gene Interaction Database (DGIdb)
   url: https://dgidb.org/
 - description: Database for drug mechanisms, targets, pathways, and indications.
   id: drugmap
@@ -2957,7 +2941,7 @@
   name: Clinical Interpretations of Variants in Cancer (CIViC)
   url: https://civicdb.org/
 - description: A cancer staging system that describes the size of the tumor (T), lymph node involvement (N), and metastasis (M).
-  id: tnm
+  id: uicc-tnm
   name: Tumour, Nodes, Metastases (TNM) cancer staging system
   url: https://www.uicc.org/who-we-are/about-uicc/uicc-and-tnm
 - description: A single standardised international medical terminology.
