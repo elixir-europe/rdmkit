@@ -230,5 +230,5 @@ Different considerations should be taken into account depending on the type of d
 * Employ validated and standardised instruments for quality-of-life assessment (e.g. {% tool "eortc-qlq" %}, {% tool "promis" %}) to reduce variability in interpretation and improve comparability. 
 * Use certified, clinically validated devices and apps to ensure data reliability and regulatory compliance (e.g. CE-marked, {% tool "fda-approved-tools" %}). Employ data aggregation platforms (e.g. {% tool "apple-health-kit" %}, {% tool "google-fit" %}, {% tool "open-mhealth" %}) that support cross-device integration and longitudinal monitoring.
 * Define clear data governance policies for longitudinal data capture and ensure data traceability.
-* Establish patient engagement protocols to support consistent reporting and minimize data loss over time. Define standardized follow-up templates to optimize data completeness.
+* Establish patient engagement protocols to support consistent reporting and minimise data loss over time. Define standardised follow-up templates to optimise data completeness.
 
