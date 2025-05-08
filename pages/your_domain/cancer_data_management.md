@@ -20,7 +20,7 @@ Cancer is a heterogeneous disease that affects almost everyone: as a patient, su
 
 Each stage of the patient journey has different associated data types,  a number of  technical, ethical, legal and organisational challenges. In this page we focus on the management of human health data generated from patients diagnosed with both solid and liquid tumors (oncology or hematology). Data might be collected by a number of different means, e.g. from clinical trials and non-interventional studies (NIS) or real-world data (RWD) from observational studies (e.g. registries) or captured in electronic health record (EHR) hospital systems during primary care. 
 
-Efficient data management and interoperability are essential for ensuring timely and accurate diagnoses and treatment while maintaining compliance with ethical and regulatory standards. In the following sections we will address  data management best practices, considerations and possible solutions for effective management of data in each stage ( Figure1)  of the individual patient's journey.
+Efficient data management and interoperability are essential for ensuring timely and accurate diagnoses and treatment while maintaining compliance with ethical and regulatory standards. In the following sections we will address data management best practices, considerations and possible solutions for effective management of data in each stage (Figure1)  of the individual patient's journey.
 
 {% include image.html file="cancer_dm_stages.png" caption="Figure 1. Cancer data management challenges at different stages of patient journey." %}
 
