@@ -78,7 +78,7 @@ As there are no commonly accepted data collection standards currently, EOSC4Canc
 
 ### Description
 
-A cancer patient journey starts with a confirmed diagnosis, which involves clinical evaluation, imaging, laboratory tests, and testing of molecular biomarkers by different methods (e.g. immunohistochemistry, next-generation sequencing, in situ hybridization, etc.) in biopsies (e.g. tissue or liquid biopsies) to confirm malignancy and assess tumor characteristics. 
+A cancer patient's journey starts with a confirmed diagnosis, which involves clinical evaluation, imaging, laboratory tests, and testing of molecular biomarkers by different methods (e.g. immunohistochemistry, next-generation sequencing, in situ hybridisation) in biopsies (e.g. tissue or liquid biopsies) to confirm malignancy and assess tumour characteristics. 
 
 Cancer diagnosis is a multi-step process that begins with a patient's clinical presentation, such as symptoms or incidental findings during routine check-ups or specialized screening programs (e.g., mammography for breast cancer, FIT tests and consequent colonoscopy for colorectal cancer, Pap smears and HPV PCR for cervical cancer). If cancer is suspected, the diagnostic journey typically involves a combination of medical imaging (CT, MRI, PET scans, ultrasound), laboratory tests, and biopsy procedures to confirm malignancy, each step producing a different data type. Integrating diverse data sources, including clinical history, imaging, pathology, and genomic data, allows for a more comprehensive understanding of the disease and personalized treatment strategies. 
 
