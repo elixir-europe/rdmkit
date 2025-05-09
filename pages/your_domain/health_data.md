@@ -37,7 +37,7 @@ To collect health data directly from participants, an efficient data collection 
 * Design the questionnaires with consideration given to interoperability (e.g. mapping questions/answers to concepts in clinical terminologies) and avoiding ambiguity in the questions.
 
   * Guidelines: 
-     - [EC Guidelines for the development and criteria for the adoption of Health Survey instruments] (https://ec.europa.eu/health/ph_information/dissemination/reporting/healthsurveys_en.pdf)
+     - [EC Guidelines for the development and criteria for the adoption of Health Survey instruments](https://ec.europa.eu/health/ph_information/dissemination/reporting/healthsurveys_en.pdf)
      - [EC Selection of a Coherent Set of Health Indicators for the European Union Phase II](https://ec.europa.eu/health/ph_projects/2000/monitoring/fp_monitoring_2000_frep_03_en.pdf)
   * Check the readability and accessibility of the questionnaires.
   * Use validated, standardised questionnaires where possible, for example REDCap has a [library of data collection instruments](https://redcap.vanderbilt.edu/consortium/library/search.php)
