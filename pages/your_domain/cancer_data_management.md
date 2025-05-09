@@ -29,16 +29,20 @@ Efficient data management and interoperability are essential for ensuring timely
  
 ### Description
 
-**Primary prevention** in cancer care refers to strategies aimed at reducing the risk of developing cancer. Data from cancer registries (which includes spatial patterns of cancer incidence, as well as stage, survival and mortality) in combination with genetic predisposition and/or exposome data (including exposure to environmental factors and socio-economic characteristics) can be used to identify risk factors for developing cancer. These cancer registries are information systems designed for the collection, storage, and management of data on persons with cancer and play a critical role in cancer research, surveillance, cancer prevention and control interventions. Key challenges include heterogeneity in data collection and integrating diverse datasets from different sources, e.g. linkage of exposome data to the health data from cancer registries. 
+#### Primary prevention data
 
-**Secondary prevention** in cancer care focuses on early detection and intervention to identify cancer at an early stage when it is more treatable and potentially curable. Survival rate improvement in most major tumour types depends on early detection, which has prompted screening programs in many European countries. These programs produce highly relevant data sets for further (data-driven) research on early cancer diagnostics. This data typically consists of health and bioimaging data, such as mammograms, colonoscopies, or blood tests. Most of this data contains personal health information and must be managed in compliance with privacy regulations such as GDPR.
+Primary prevention in cancer care refers to strategies aimed at reducing the risk of developing cancer. Data from cancer registries (which includes spatial patterns of cancer incidence, as well as stage, survival and mortality) in combination with genetic predisposition and/or exposome data (including exposure to environmental factors and socio-economic characteristics) can be used to identify risk factors for developing cancer. These cancer registries are information systems designed for the collection, storage, and management of data on persons with cancer and play a critical role in cancer research, surveillance, cancer prevention and control interventions. Key challenges include heterogeneity in data collection and integrating diverse datasets from different sources, e.g. linkage of exposome data to the health data from cancer registries. 
+
+#### Secondary prevention data
+
+Secondary prevention in cancer care focuses on early detection and intervention to identify cancer at an early stage when it is more treatable and potentially curable. Survival rate improvement in most major tumour types depends on early detection, which has prompted screening programs in many European countries. These programs produce highly relevant data sets for further (data-driven) research on early cancer diagnostics. This data typically consists of health and bioimaging data, such as mammograms, colonoscopies, or blood tests. Most of this data contains personal health information and must be managed in compliance with privacy regulations such as GDPR.
 
 Key challenges include integrating diverse datasets and ensuring data accuracy since the screening programs could be organised on national or regional level. Additionally, the risks and benefits of screening programs must be balanced.
 
 
 ### Considerations 
 
-#### Primary prevention
+#### Primary prevention data
 
 * Consider local cancer registries in the different European countries as they can be organised locally, regionally or nationally.
 * Think about the health data access procedures which could be different for each cancer registry.
@@ -58,7 +62,7 @@ Key challenges include integrating diverse datasets and ensuring data accuracy s
 
 ### Solutions
 
-#### Primary prevention
+#### Primary prevention data
 
 * For data management considerations and solutions of Patient-generated health data and Electronic Health Record (EHR) data see the [Health data page](human_data).
 * Cancer registry data common rules and definitions used within Europe defined by the [European Network of Cancer Registries(ENCR)](https://www.encr.eu/ENCR-Recommendations).
