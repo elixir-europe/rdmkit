@@ -33,6 +33,8 @@ subitems:
         url: /bioimaging_data
       - title: Biomolecular simulation data
         url: /biomolecular_simulation_data
+      - title: Cancer data
+        url: /cancer_data
       - title: Epitranscriptome data
         url: /epitranscriptome_data
       - title: Health data
@@ -61,8 +63,6 @@ subitems:
         url: /structural_bioinformatics
       - title: Toxicology data
         url: /toxicology_data
-      - title: Cancer data management
-        url: /cancer_data_management
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks

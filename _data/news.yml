@@ -206,7 +206,7 @@
   date: 2025-03-28
   linked_pr: 1611
   description: This paragraph in the Your task page Data publication, provides guidance on whether to include dataset accession numbers in preprints and theses. [Discover the paragraph here](https://rdmkit.elixir-europe.org/data_publication#should-you-include-datasets-accession-numbers-in-pre-prints-or-theses)
-- name: "New page: Cancer Data Management"
+- name: "New page: Cancer data management"
   date: 2025-05-09
   linked_pr: 1515
-  description: A new "domain" page for human health data was added. [Discover the page here](cancer_data_management)
+  description: A new "domain" page for Cancer Data Management was added. [Discover the page here](cancer_data)
