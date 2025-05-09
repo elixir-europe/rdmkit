@@ -125,7 +125,7 @@ Although cancer treatment data is crucial for developing personalized medicine a
 * Do you use human data? You can find more information on the [human data page](human_data).
 * Are the required clinical variables related to the treatment available?
 * How will clinical variables be integrated with molecular or imaging data?
-* Which resources are available for downloading and analyzing cancer treatment data?
+* Which resources are available for downloading and analysing cancer treatment data?
 * Where can you access standard-of-care cancer clinical guidelines?
 * How to access cancer treatment data from clinical trials or side effect registries?
 * How to propose cancer treatments based on  cancer multi-omics data?
