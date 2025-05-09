@@ -34,7 +34,7 @@ subitems:
       - title: Biomolecular simulation data
         url: /biomolecular_simulation_data
       - title: Enzymology and biocatalysis
-        url: enzymology_and_biocatalysis
+        url: /enzymology_and_biocatalysis
       - title: Epitranscriptome data
         url: /epitranscriptome_data
       - title: Health data
