@@ -2958,8 +2958,8 @@
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/
 - description: A set of questionnaires developed to assess the quality of life of cancer patients.
   id: eortc-qlq
-  name: European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaires (EORTC QLQ)
-  url: https://qol.eortc.org
+  name: European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaires (QLQ)
+  url: https://qol.eortc.org/questionnaires/
 - description: A set of person-centred measures that evaluates and monitors physical, mental, and social health in adults and children.
   id: promis
   name: Patient-Reported Outcomes Measurement Information System (PROMIS)
