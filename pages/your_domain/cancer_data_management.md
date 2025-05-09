@@ -91,7 +91,7 @@ Cancer diagnosis relies on data from multiple sources that are also often used a
 * **Genetic/Genomic** profiling can identify tumor genomic alterations relevant for molecularly matched therapies, pharmacogenomic biomarkers relevant for drug metabolism, germline alterations
 * **Clinical data** (patient history, symptoms, lab tests) provide context on overall health and treatment history
 
-Managing cancer data for diagnosing and determining the best treatment for localized tumors presents several challenges, as it requires working with a wide range of [sensitive patient data](sensitive), coming from different departments/sources, including [clinical records](health_data), [radiological images](bioimaging_data) (radiology), histopathological evaluation (pathology) and genomic profiles (pathology or other specialized laboratory). This makes interoperability and data integration essential to enable a holistic approach to cancer care. Consequently,  data management must be precise to ensure that healthcare professionals have accurate and comprehensive information for tumor identification and treatment decisions. Data security and compliance with ethical guidelines (such as [GDPR](gdpr_compliance)) are critical to protecting patient privacy when dealing with personal health records and sensitive tumor data. Furthermore, the need for data to be accessible across different healthcare providers and research institutions adds complexity to the management process.
+Managing cancer data for diagnosing and determining the best treatment for localized tumors presents several challenges, as it requires working with a wide range of [sensitive patient data](sensitive), coming from different departments/sources, including [clinical records](health_data), [radiological images](bioimaging_data) (radiology), histopathological evaluation (pathology) and genomic profiles (pathology or other specialized laboratory). This makes interoperability and data integration essential to enable a holistic approach to cancer care. Consequently,  data management must be precise to ensure that healthcare professionals have accurate and comprehensive information for tumour identification and treatment decisions. Data security and compliance with ethical guidelines (such as [GDPR](gdpr_compliance)) are critical to protecting patient privacy when dealing with personal health records and sensitive tumour data. Furthermore, the need for data to be accessible across different healthcare providers and research institutions adds complexity to the management process.
 
 ### Considerations
 
@@ -125,7 +125,7 @@ Although cancer treatment data is crucial for developing personalized medicine a
 * Do you use human data? You can find more information on the [human data page](human_data).
 * Are the required clinical variables related to the treatment available?
 * How will clinical variables be integrated with molecular or imaging data?
-* Which resources are available for downloading and analyzing cancer treatment data?
+* Which resources are available for downloading and analysing cancer treatment data?
 * Where can you access standard-of-care cancer clinical guidelines?
 * How to access cancer treatment data from clinical trials or side effect registries?
 * How to propose cancer treatments based on  cancer multi-omics data?
