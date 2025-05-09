@@ -209,4 +209,4 @@
 - name: "New page: Cancer data management"
   date: 2025-05-09
   linked_pr: 1515
-  description: A new "domain" page for Cancer Data Management was added. [Discover the page here](cancer_data)
+  description: A new "domain" page for Cancer data was added. [Discover the page here](cancer_data)
