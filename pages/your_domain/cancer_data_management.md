@@ -28,16 +28,17 @@ Efficient data management and interoperability are essential for ensuring timely
 ## Cancer prevention
  
 ### Description
-Cancer prevention involves taking proactive measures to reduce the risk of developing cancer. These measures can be implemented at various levels, including personal behaviour, community actions such as cancer screening programs, and public health policies. Cancer screening and awareness of early symptoms play a crucial role in the early detection of many types of cancer. Cancer prevention aims to answer the general questions: “what is the risk?” and “who is at risk?”, relating to genetic, socio-economic, and environmental factors to predict risk at the individual and population levels. 
-Cancer prevention is classified into two levels: primary and secondary. Primary prevention aims to reduce the incidence of cancer by minimising exposure to risk factors and adopting protective behaviours, while secondary prevention focuses on early detection.
 
-#### Primary prevention (genetic predisposition and exposome factors) data  
+**Primary prevention** in cancer care refers to strategies aimed at reducing the risk of developing cancer. Data from cancer registries (which includes spatial patterns of cancer incidence, as well as stage, survival and mortality) in combination with genetic predisposition and/or exposome data (including exposure to environmental factors and socio-economic characteristics) can be used to identify risk factors for developing cancer. These cancer registries are information systems designed for the collection, storage, and management of data on persons with cancer and play a critical role in cancer research, surveillance, cancer prevention and control interventions. Key challenges include heterogeneity in data collection and integrating diverse datasets from different sources, e.g. linkage of exposome data to the health data from cancer registries. 
 
-#### Description
+**Secondary prevention** in cancer care focuses on early detection and intervention to identify cancer at an early stage when it is more treatable and potentially curable. Survival rate improvement in most major tumour types depends on early detection, which has prompted screening programs in many European countries. These programs produce highly relevant data sets for further (data-driven) research on early cancer diagnostics. This data typically consists of health and bioimaging data, such as mammograms, colonoscopies, or blood tests. Most of this data contains personal health information and must be managed in compliance with privacy regulations such as GDPR.
 
-Primary prevention in cancer care refers to strategies aimed at reducing the risk of developing cancer. Data from cancer registries (which includes spatial patterns of cancer incidence, as well as stage, survival and mortality) in combination with genetic predisposition and/or exposome data (including exposure to environmental factors and socio-economic characteristics) can be used to identify risk factors for developing cancer. These cancer registries are information systems designed for the collection, storage, and management of data on persons with cancer and play a critical role in cancer research, surveillance, cancer prevention and control interventions. Key challenges include heterogeneity in data collection and integrating diverse datasets from different sources, e.g. linkage of exposome data to the health data from cancer registries. 
+Key challenges include integrating diverse datasets and ensuring data accuracy since the screening programs could be organised on national or regional level. Additionally, the risks and benefits of screening programs must be balanced.
 
-#### Considerations 
+
+### Considerations 
+
+#### Primary prevention
 
 * Consider local cancer registries in the different European countries as they can be organised locally, regionally or nationally.
 * Think about the health data access procedures which could be different for each cancer registry.
@@ -47,32 +48,29 @@ Primary prevention in cancer care refers to strategies aimed at reducing the ris
   * Does the timestamp of the data correlate?
 * Exposome data is considered non-personal data, but once linked to personal data the linked dataset becomes personal data and privacy has to be ensured in compliance with applicable legislation (e.g. GDPR).
 
-#### Solutions
-
-* For data management considerations and solutions of Patient-generated health data and Electronic Health Record (EHR) data see the [Health data page](human_data).
-* Cancer registry data common rules and definitions used within Europe defined by the [European Network of Cancer Registries(ENCR)](https://www.encr.eu/ENCR-Recommendations).
-* Exposome data management recommendations under development by [Environmental Exposure Assessment Research Infrastructure(EIRENE-RI)](https://eirene.eu/).
-* Exposome (meta)data definitions used within Europe defined by Eurostat, [Euro SDMX Registry](https://webgate.ec.europa.eu/fusionregistry/).
-
-
-#### Secondary prevention (screening) data
-
-#### Description
-
-Secondary prevention in cancer care focuses on early detection and intervention to identify cancer at an early stage when it is more treatable and potentially curable. Survival rate improvement in most major tumour types depends on early detection, which has prompted screening programs in many European countries. These programs produce highly relevant data sets for further (data-driven) research on early cancer diagnostics. This data typically consists of health and bioimaging data, such as mammograms, colonoscopies, or blood tests. Most of this data contains personal health information and must be managed in compliance with privacy regulations such as GDPR.
-
-Key challenges include integrating diverse datasets and ensuring data accuracy since the screening programs could be organised on national or regional level. Additionally, the risks and benefits of screening programs must be balanced.
-
-#### Considerations
+#### Secondary prevention data
 
 * The data access procedure could be different for different data sources. Be mindful to contact the relevant data creators and managers for the relevant access rights.
 * Interoperability of data originating from multiple screening programs is not guaranteed.
 * For general health data considerations, see [Health data page](health_data).
 * For general bioimaging data considerations, see [bioImaging data page](bioimaging_data).
 
-#### Solutions
+
+### Solutions
+
+#### Primary prevention
+
+* For data management considerations and solutions of Patient-generated health data and Electronic Health Record (EHR) data see the [Health data page](human_data).
+* Cancer registry data common rules and definitions used within Europe defined by the [European Network of Cancer Registries(ENCR)](https://www.encr.eu/ENCR-Recommendations).
+* Exposome data management recommendations under development by [Environmental Exposure Assessment Research Infrastructure(EIRENE-RI)](https://eirene.eu/).
+* Exposome (meta)data definitions used within Europe defined by Eurostat, [Euro SDMX Registry](https://webgate.ec.europa.eu/fusionregistry/).
+
+#### Secondary prevention data
 
 As there are no commonly accepted data collection standards currently, [EOSC4Cancer](https://eosc4cancer.eu/the-project/) developed a harmonised codebook for colorectal cancer screening (based on Dutch, Catalan, Italian and Czech screening codebooks), which could be used as a common basis to be extended to other cancer types.
+
+
+
 
 ## Cancer diagnosis
 
