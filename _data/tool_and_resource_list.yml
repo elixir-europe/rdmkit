@@ -2803,7 +2803,7 @@
     biotools: orcid
     fairsharing: nx58jg
   url: https://orcid.org/
-- description: EnzymeML is a standardized data format for catalytic reaction data, designed to ensure consistency and interoperability. It enables researchers to store, share, and enrich reaction data with detailed metadata in JSON or XML formats. 
+- description: EnzymeML is a standardised data format for catalytic reaction data, designed to ensure consistency and interoperability. It enables researchers to store, share, and enrich reaction data with detailed metadata in JSON or XML formats. 
   id: enzymeml
   name: EnzymeML
   registry:
