@@ -2913,7 +2913,7 @@
   url: https://portals.broadinstitute.org/ctrp
 - description: A database of cancer-related drugs, including descriptions, uses, and approvals.
   id: nci-drug-database
-  name: National Cancer Institute(NCI) treatment drugs
+  name: National Cancer Institute (NCI) treatment drugs
   url: https://www.cancer.gov/about-cancer/treatment/drugs/
 - description: European Medicines Agency's (EMA) portal for authorised medicines in the EU.
   id: ema-medicine-finder
