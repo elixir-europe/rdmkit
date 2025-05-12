@@ -2986,7 +2986,7 @@
   registry:
     biotools: enzymeml
   url: https://enzymeml.org/
-- description: The BioAssay Ontology (BAO) describes chemical biology screening assays and their results including high-throughput screening (HTS) data for the purpose of categorizing assays and data analysis.
+- description: The BioAssay Ontology (BAO) describes chemical biology screening assays and their results, including high-throughput screening (HTS) data, to categorise assays and data analysis.
   id: bioassay-ontology
   name: Bioassay Ontology
   registry:
