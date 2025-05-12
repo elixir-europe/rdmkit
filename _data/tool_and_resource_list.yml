@@ -2985,7 +2985,7 @@
   url: https://www.uicc.org/who-we-are/about-uicc/uicc-and-tnm
 - description: A single standardised international medical terminology.
   id: meddra
-  name: Medical Dictionary for Regulatory Activities(MedDRA)
+  name: Medical Dictionary for Regulatory Activities (MedDRA)
   url: https://www.meddra.org/
 - description: A scale for assessing patient functional status.
   id: ecog
