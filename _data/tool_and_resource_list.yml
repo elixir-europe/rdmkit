@@ -2842,7 +2842,7 @@
   url: https://tumourclassification.iarc.who.int
 - description: A repository of medical images related to cancer.
   id: tcia
-  name: The Cancer Imaging Archive
+  name: The Cancer Imaging Archive (TCIA)
   registry:
     fairsharing: jrfd8y
   url: https://www.cancerimagingarchive.net
