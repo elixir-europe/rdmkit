@@ -174,10 +174,6 @@
   date: 2024-03-27
   linked_pr: 1432
   description: A new "domain" page for human health data was added. [Discover the page here](health_data).
-- name: "New pages: Community and RDMkit Club."
-  date: 2024-06-05
-  linked_pr: 1496
-  description: The new community page serves as a landing page for all RDMkit community related information, [discover the page here](community). The new RDMkit Club page gives more information about our new monthly meeting which is open for everyone, [discover the page here](rdmkit_club).
 - name: "New custom icon set"
   date: 2024-06-10
   linked_pr: 1489
@@ -206,7 +202,12 @@
   date: 2025-03-28
   linked_pr: 1611
   description: This paragraph in the Your task page Data publication, provides guidance on whether to include dataset accession numbers in preprints and theses. [Discover the paragraph here](https://rdmkit.elixir-europe.org/data_publication#should-you-include-datasets-accession-numbers-in-pre-prints-or-theses)
+- name: "New page: Cancer data"
+  date: 2025-05-09
+  linked_pr: 1515
+  description: A new "domain" page for Cancer data was added. [Discover the page here](cancer_data)
 - name: "New page: Virology"
-  date: 2025-12-06
+  date: 2025-05-12
   linked_pr: 1620
   description: A new "your domain" page about Virology was added. [Discover the page here](virology).
+

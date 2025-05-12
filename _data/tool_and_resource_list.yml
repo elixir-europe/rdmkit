@@ -59,24 +59,24 @@
   registry:
     biotools: plant-3d
   url: https://github.com/iziamtso/P3D/
-- description: LeafNet is a convenient tool that can robustly localize stomata and segment pavement cells for light-microscope images of leaves
+- description: LeafNet is a convenient tool that can robustly localise stomata and segment pavement cells for light-microscope images of leaves
   id: leafnet
   name: LeafNet
   registry:
     biotools: leafnet
-  url: https://bio.tools/leafnet
+  url: https://leafnet.whu.edu.cn/
 - description: Plant Computer Vision (PlantCV)is an image processing toolkit for plant phenotyping analysis.
   id: plantcv
   name: PlantCV
   registry:
     biotools: plantcv_v2
   url: https://bio.tools/plantcv_v2
-- description: Phenomenal-3D is an automatic open source library for 3D shoot architecture reconstruction and analysis for image-based plant phenotyping
+- description: Phenomenal-3D is an automatic open-source library for 3D shoot architecture reconstruction and analysis for image-based plant phenotyping
   id: phenomenal-3d
   name: Phenomenal 3D
   registry:
     biotools: phenomenal-3d
-  url: https://bio.tools/phenomenal-3d
+  url: https://github.com/openalea/phenomenal
 - description: C library that provides a simple interface to read whole-slide images (also known as virtual slides)
   id: openslide
   name: OpenSlide
@@ -2828,6 +2828,178 @@
     biotools: orcid
     fairsharing: nx58jg
   url: https://orcid.org/
+- description: A standard for medical imaging data storage and transmission.
+  id: dicom
+  name: Digital Imaging and Communications in Medicine (DICOM)
+  url: https://www.dicomstandard.org
+- description: A classification system for oncology, used in cancer registries and pathology reporting.
+  id: icd-o-3
+  name: ICD-O-3 Coding Materials
+  url: https://www.who.int/standards/classifications
+- description: An open-source data warehouse for clinical and translational research.
+  id: i2b2
+  name: Informatics for Integrating Biology & the Bedside (i2b2)
+  url: https://www.i2b2.org
+- description: A platform for exploring, analysing, and visualising cancer genomics data.
+  id: cbioportal
+  name: cBioPortal
+  url: https://www.cbioportal.org
+- description: A common file format that contains information about variants found at specific positions in a reference genome.
+  id: vcf
+  name: Variant Call Format 
+  url: https://gatk.broadinstitute.org/hc/en-us/articles/360035531692-VCF-Variant-Call-Format
+- description: The standard for diagnostic oncology, defining tumor types and classifications.
+  id: who-tc
+  name: WHO Classification of Tumours
+  url: https://tumourclassification.iarc.who.int
+- description: A repository of medical images related to cancer.
+  id: tcia
+  name: The Cancer Imaging Archive
+  url: https://www.cancerimagingarchive.net
+- description: AI-powered pathology tools for cancer diagnosis and research.
+  id: path-ai
+  name: PathAI
+  url: https://www.pathai.com
+- description: AI-based medical imaging analysis for radiology and oncology.
+  id: qure-ai
+  name: Qure.ai
+  url: https://www.qure.ai
+- description: AI solutions for digital pathology in cancer detection.
+  id: paige-ai
+  name: Paige AI
+  url: https://www.paige.ai
+- description: Guidelines for reporting predictive model studies in medicine.
+  id: tripod
+  name: Transparent Reporting of a Multivariable Prediction Model
+  url: https://www.tripod-statement.org
+- description: Integrated clinical and genomic data for over 100,000 cancer patients from the International Cancer Genome Consortium.
+  id: icgc-argo
+  name: ICGC-ARGO
+  url: https://dcc.icgc-argo.org/
+- description: Real-world cancer genomic dataset aggregated from multiple institutions.
+  id: aacr-genie
+  name: AACR-GENIE
+  url: https://www.aacr.org/professionals/research/aacr-project-genie/
+- description: Platform from Memorial Sloan Kettering providing molecular and clinical data to support precision oncology.
+  id: msk-chord
+  name: MSK-CHORD
+  url: https://www.mskcc.org/research-areas/programs-centers/msk-chord
+- description: Multi-omic cancer dataset of >7000 patients, including whole genome sequencing and clinical outcomes.
+  id: hmf
+  name: Hartwig Medical Foundation (HMF)
+  url: https://www.hartwigmedicalfoundation.nl/en/
+- description: A federated real-world evidence platform containing clinical and genomic data from patients with solid tumours.
+  id: wayfind-r
+  name: WAYFIND-R
+  url: https://wayfindr.eu/
+- description: A federated platform for cancer imaging data.
+  id: eucaim
+  name: European Cancer Imaging Initiative (EUCAIM)
+  url: https://cancerimage.eu/
+- description: NIH research program with diverse patient health, genetic, and lifestyle data.
+  id: all-of-us
+  name: All of Us
+  url: https://www.researchallofus.org/
+- description: Large-scale biomedical database with genetic, clinical, and lifestyle data from 500,000 UK participants.
+  id: uk-biobank
+  name: UK Biobank
+  url: https://www.ukbiobank.ac.uk/
+- description: Database of drug sensitivity and genomic data from ~1000 cancer cell lines.
+  id: gdsc
+  name: Genomics of Drug Sensitivity in Cancer (GDSC)
+  url: https://www.cancerrxgene.org/
+- description: Resource to explore relationships between cancer cell line genotypes and drug response.
+  id: ctrp
+  name: Cancer Therapeutics Response Portal (CTRP)
+  url: https://portals.broadinstitute.org/ctrp
+- description: A database of cancer-related drugs, including descriptions, uses, and approvals.
+  id: nci-drug-database
+  name: National Cancer Institute(NCI) treatment drugs 
+  url: https://www.cancer.gov/about-cancer/treatment/drugs/
+- description: European Medicines Agency's (EMA) portal for authorised medicines in the EU.
+  id: ema-medicine-finder
+  name: European Medicines Agency's (EMA) medicine finder
+  url: https://www.ema.europa.eu/en/medicines
+- description: Comprehensive database containing information on drugs and drug targets.
+  id: drugbank
+  name: DrugBank
+  url: https://go.drugbank.com/
+- description: Drug-Gene Interaction Database linking drugs to their target genes.
+  id: dgidb
+  name: Drug-Gene Interaction Database (DGIdb)
+  url: https://dgidb.org/
+- description: Database for drug mechanisms, targets, pathways, and indications.
+  id: drugmap
+  name: DrugMap
+  url: https://drugmap.idrblab.net/
+- description: Database of known and explored therapeutic targets and their related drugs.
+  id: ttd
+  name: Therapeutic Target Database (TTD)
+  url: https://idrblab.net/ttd/
+- description: Pharmacogenomics knowledge base including cancer pharmacogenomic information.
+  id: pharmgkb-cancer-pgx
+  name: Cancer Pharmacogenomics
+  url: https://www.pharmgkb.org/page/cancerPgx
+- description: Precision oncology knowledge base that annotates the effects and treatment implications of somatic mutations in cancer.
+  id: oncokb
+  name: OncoKB
+  url: https://www.oncokb.org/
+- description: Side Effect Resource containing information on marketed medicines and their recorded adverse drug reactions.
+  id: sider
+  name: SIDER
+  url: http://sideeffects.embl.de/
+- description: Provides a general framework to interpret the functional and predictive relevance of a list of gene variants through interactive reports.
+  id: mtb-portal
+  name: MTB Portal
+  url: https://www.mtbp.org
+- description: Platform to prioritise cancer drug treatments based on individual multi-omics data including SNVs, CNVs, and gene expression.
+  id: pandrugs
+  name: PanDrugs
+  url: https://www.pandrugs.org/
+- description: A community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer
+  id: civic
+  name: Clinical Interpretations of Variants in Cancer (CIViC)
+  url: https://civicdb.org/
+- description: A cancer staging system that describes the size of the tumor (T), lymph node involvement (N), and metastasis (M).
+  id: uicc-tnm
+  name: Tumour, Nodes, Metastases (TNM) cancer staging system
+  url: https://www.uicc.org/who-we-are/about-uicc/uicc-and-tnm
+- description: A single standardised international medical terminology.
+  id: meddra
+  name: Medical Dictionary for Regulatory Activities(MedDRA)
+  url: https://www.meddra.org/ 
+- description: A scale for assessing patient functional status.
+  id: ecog
+  name: Eastern Cooperative Oncology Group (ECOG)
+  url: https://pubmed.ncbi.nlm.nih.gov/7165009/
+- description: A standardised method for assessing tumor response via PET imaging.
+  id: percist
+  name: PET Response Criteria in Solid Tumors (PERCIST)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/
+- description: A set of questionnaires developed to assess the quality of life of cancer patients.
+  id: eortc-qlq
+  name: European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaires (QLQ)
+  url: https://qol.eortc.org/questionnaires/
+- description: A set of person-centred measures that evaluates and monitors physical, mental, and social health in adults and children.
+  id: promis
+  name: Patient-Reported Outcomes Measurement Information System (PROMIS)
+  url: https://www.promishealth.org/57461-2/
+- description: Various digital health tools approved by the FDA for medical use (e.g., wearables, software, diagnostics).
+  id: fda-approved-tools
+  name: FDA-approved tools
+  url: https://www.fda.gov/medical-devices/digital-health-center-excellence
+- description: A framework for health and fitness data integration on Apple devices.
+  id: apple-health-kit
+  name: Apple HealthKit
+  url: https://developer.apple.com/health-fitness/
+- description: An open-source Clinical Interpretations platform for integrating mobile health data to improve healthcare insights.
+  id: open-mhealth 
+  name: Open mHealth
+  url: https://www.openmhealth.org/
+- description: A health-tracking platform by Google for collecting and accessing fitness data.
+  id: google-fit
+  name: Google Fit
+  url: https://www.google.com/fit/
 - description: MIxS - MIUViG (Minimum Information about an Uncultivated Virus Genome) is a checklist that is a part of the larger MIxS standard.
   id: miuvig
   name: Minimum Information about an Uncultivated Virus Genome (MIOViG)
