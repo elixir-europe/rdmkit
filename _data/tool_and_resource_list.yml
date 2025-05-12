@@ -2832,7 +2832,7 @@
   url: https://www.cbioportal.org
 - description: A common file format that contains information about variants found at specific positions in a reference genome.
   id: vcf
-  name: Variant Call Format
+  name: Variant Call Format (VCF)
   registry:
     fairsharing: cfzz0h
   url: https://gatk.broadinstitute.org/hc/en-us/articles/360035531692-VCF-Variant-Call-Format
