@@ -120,6 +120,6 @@ The primary data that emerge directly from experimental analysis are mostly exte
 * Many examples of kinetic models for enzymes are available in standard enzyme kinetics textbooks. Moreover, simulation tools such as {% tool "copasi" %} and {% tool "jws-online" %} provide a predefined list of reference kinetic models from which the user can choose when entering a new enzyme reaction.
 * {% tool "enzymeml" %} provides a standard format and data model for capturing the raw data, the metadata of the kinetic experiment, the kinetic model used for fitting and the final kinetic and thermodynamic parameters.
 * The {% tool "pyenzyme" %} library facilitates the processing of data by providing a programmatic interface to {% tool "enzymeml" %}. {% tool "pyenzyme" %} also interfaces with computational systems biology tools such as {% tool "pysces" %} and {% tool "copasi" %} to assist with numerically solving the kinetic models for parameter estimation.
-* Fitting statistics such as the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC), which are commonly reported by fitting libraries, can be used to select the most appropriate model from different alternatives.
+* Fitting statistics such as the [Akaike Information Criterion (AIC)](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Bayesian Information Criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion), which are commonly reported by fitting libraries, can be used to select the most appropriate model from different alternatives.
 
 
