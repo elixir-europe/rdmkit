@@ -46,7 +46,7 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
   * Integrate epidemiological and genomic data for outbreak analysis, by utilising phylodynamic workflows (e.g. BEAST, {% tool "nextstrain" %}, or TreeTime), enabling real-time outbreak tracking.
   * Implement structured pipelines for linking viral genome sequences with patient and outbreak metadata.
 * Apply domain-specific vocabularies for consistent annotation
-  * Utilise the [EVORA ontology](https://www.ebi.ac.uk/ols4/ontologies/evorao) and {% tool "ictv" %} to ensure that virus-related metadata terms are standardised and interoperable.
+  * Utilise the {% tool "evora-ontology" %} and {% tool "ictv" %} to ensure that virus-related metadata terms are standardised and interoperable.
   * Monitor updates in virology-specific ontologies to maintain alignment with evolving standards.
 By implementing these best practices, outbreak surveillance data can be better structured, more interoperable, and more effectively shared, ultimately improving global response efforts to viral outbreaks.
 
