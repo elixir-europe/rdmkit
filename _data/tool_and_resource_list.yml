@@ -1884,6 +1884,8 @@
 - description: Resource of standards for reporting enzyme data
   id: standards-for-reporting-enzyme-data
   name: Standards for Reporting Enzyme Data (STRENDA)
+  registry:
+    fairsharing: 8ntfwm
   url: https://www.beilstein-institut.de/en/projects/strenda/
 - description: Known and predicted protein-protein interactions.
   id: string
@@ -3021,3 +3023,106 @@
   id: google-fit
   name: Google Fit
   url: https://www.google.com/fit/
+- description: EnzymeML is a standardised data format for catalytic reaction data, designed to ensure consistency and interoperability. It enables researchers to store, share, and enrich reaction data with detailed metadata in JSON or XML formats. 
+  id: enzymeml
+  name: EnzymeML
+  registry:
+    biotools: enzymeml
+  url: https://enzymeml.org/
+- description: The BioAssay Ontology (BAO) describes chemical biology screening assays and their results, including high-throughput screening (HTS) data, to categorise assays and data analysis.
+  id: bioassay-ontology
+  name: Bioassay Ontology
+  registry:
+    fairsharing: mye76w
+  url: http://bioassayontology.org/
+- description: The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. 
+  id: cell-ontology
+  name: Cell Ontology
+  registry:
+    fairsharing: j9y503
+  url: https://www.ebi.ac.uk/ols4/ontologies/cl
+- description: A structured controlled vocabulary for the source of an enzyme. It comprises terms for tissues, cell lines, cell types and cell cultures from uni- and multicellular organisms. 
+  id: brenda-tissue-ontology
+  name: BRENDA Tissue Ontology
+  registry:
+    fairsharing: 1414v8
+  url: https://www.ebi.ac.uk/ols4/ontologies/bto
+- description: PSI-MOD is an ontology consisting of terms that describe protein chemical modifications.
+  id: protein-modification-ontology
+  name:  Protein MODification (PSI-MOD) 
+  registry:
+    fairsharing: 2m4ms9
+  url: https://github.com/hupo-psi/psi-mod-cv
+- description: Protein Ontology (PRO) provides an ontological representation of protein-related entities by explicitly defining them and showing the relationships between them.
+  id: protein-ontology
+  name:  PRotein Ontology (PRO) 
+  registry:
+    fairsharing: 4ndncv
+  url: https://proconsortium.org/
+- description: Chemotion is a repository for chemistry research data that provides solutions for current challenges to store research data in a feasible manner, allowing the conservation of domain specific information in a machine readable format. 
+  id: chemotion
+  name: Chemotion
+  registry:
+    biotools: chemotion
+    fairsharing: iagXcR
+  url: https://www.chemotion-repository.net/welcome
+- description: openBIS (open Biology Information System) is an Electronic Laboratory Notebook and a Laboratory Information Management System (ELN-LIMS) solution suitable for life science laboratories.
+  id: openbis
+  name: openBIS
+  url: https://openbis.ch/
+- description: STRENDA DB is a storage and search platform that incorporates the STRENDA Guidelines in a user-friendly, web-based system.
+  id: strenda-db
+  name: STRENDA DB
+  registry:
+    fairsharing: ekj9zx
+  url: https://www.beilstein-strenda-db.org/strenda/
+- description: SABIO-RK is a curated database that contains information about biochemical reactions, their kinetic rate equations with parameters and experimental conditions.
+  id: sabiork
+  name: SABIO-RK
+  registry:
+    biotools: sabio-rk
+    fairsharing: cwx04e
+  url: https://sabiork.h-its.org/
+- description: M-CSA is a database of enzyme reaction mechanisms.
+  id: m-csa
+  name: M-CSA (Mechanism and Catalytic Site Atlas)
+  registry:
+    fairsharing: BrubDI
+  url: https://www.ebi.ac.uk/thornton-srv/m-csa/
+- description: EzCatDB is a database of enzyme catalytic mechanisms.
+  id: ezcatdb
+  name: EzCatDB
+  url: https://ezcatdb.cbrc.pj.aist.go.jp/EzCatDB/
+- description: The MetaCyc database is a comprehensive resource for metabolic pathways and enzymes from all domains of life. 
+  id: metacyc
+  name: MetaCyc
+  registry:
+    biotools: metacyc
+    fairsharing: yytevr
+  url: https://metacyc.org/
+- description: "GotEnzymes: an extensive database of enzyme parameter predictions."
+  id: gotenzymes
+  name: GotEnzymes
+  url: https://metabolicatlas.org/gotenzymes
+- description: TopEnzyme is a framework and database for structural coverage of the functional enzyme space.
+  id: topenzyme
+  name: TopEnzyme
+  registry:
+    biotools: topenzyme
+  url: https://cpclab.uni-duesseldorf.de/topenzyme/
+- description: COPASI is a software application for simulation and analysis of biochemical networks and their dynamics.
+  id: copasi
+  name: Copasi
+  registry:
+    biotools: copasi
+  url: https://copasi.org/
+- description: PyEnzyme is a comprehensive software solution for manipulating EnzymeML files.
+  id: pyenzyme
+  name: PyEnzyme
+  url: https://enzymeml.github.io/tools/pyenzyme/
+- description: The Python Simulator for Cellular Systems (PySCeS) is a a flexible, user friendly tool for the analysis of cellular systems. 
+  id: pysces
+  name: PySCeS
+  registry:
+      biotools: pysces
+  url: https://pysces.github.io/
