@@ -39,7 +39,7 @@ Prerequisite for the reproducibility of enzyme activity datasets is the reportin
 * How can I ensure that my datasets are reproducible?
 
 ### Solutions
-The Standards for Reporting Enzymology Data (STRENDA) Commission, a community driven initiative has developed reporting standards that are unique for this domain and include:
+The Commission of {% tool "standards-for-reporting-enzyme-data" %}, a community driven initiative has developed reporting standards that are unique for this domain and include:
 * [STRENDA Guidelines List Level 1a - Data required for a complete description of an experiment](https://www.beilstein-institut.de/en/projects/strenda/guidelines/#Level1A)
 * [STRENDA Guidelines List Level 1b - Description of enzyme activity data](https://www.beilstein-institut.de/en/projects/strenda/guidelines/#Level1B)
 * [Recommendations on the design and execution of experiments to obtain the apparent equilibrium constants of enzyme catalyzed reactions](https://www.beilstein-institut.de/en/projects/strenda/guidelines/#thermodynamics)
