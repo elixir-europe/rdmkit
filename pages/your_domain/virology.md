@@ -72,7 +72,7 @@ Organisations must implement robust governance policies, encryption techniques, 
   * You can also check the practices included in the {% tool "idtk" %} related to the management of human and pathogen data in the context of infectious diseases.
 * Implement effective data anonymisation and pseudonymisation strategies to reduce data sensitivity and protect privacy, following best practices detailed on the [Data Sensitivity](data_sensitivity) page.
 * Adopt secure and scalable data storage solutions to ensure long-term data integrity, controlled access, and compliance with relevant standards and best practices, as described on the [Data Storage](storage) page.
-  * Store sensitive data in repositories designed for controlled access (e.g., {% tool "the-european-genome-phenome-archive" %})
+  * Store sensitive data in repositories designed for controlled access (e.g. {% tool "the-european-genome-phenome-archive" %})
   * Use encryption for data at rest and in transit to prevent unauthorised access.
   * Establish strict access control policies, using role-based access and multi-factor authentication where appropriate.
 * Implement best practices for data versioning and backup to maintain clear data histories, prevent loss, and enhance reproducibility, following guidelines provided on the [Data Organisation](data_organisation) page.
