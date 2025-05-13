@@ -35,6 +35,8 @@ subitems:
         url: /biomolecular_simulation_data
       - title: Cancer data
         url: /cancer_data
+      - title: Enzymology and biocatalysis
+        url: /enzymology_and_biocatalysis
       - title: Epitranscriptome data
         url: /epitranscriptome_data
       - title: Health data
