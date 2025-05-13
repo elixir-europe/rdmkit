@@ -39,7 +39,7 @@ Prerequisite for the reproducibility of enzyme activity datasets is the reportin
 * How can I ensure that my datasets are reproducible?
 
 ### Solutions
-The Commission of {% tool "standards-for-reporting-enzyme-data" %}, a community driven initiative has developed reporting standards that are unique for this domain and include:
+The Commission of {% tool "standards-for-reporting-enzyme-data" %}, a community driven initiative {% cite strenda2014standards %} has developed reporting standards that are unique for this domain and include:
 * [STRENDA Guidelines List Level 1a - Data required for a complete description of an experiment](https://www.beilstein-institut.de/en/projects/strenda/guidelines/#Level1A)
 * [STRENDA Guidelines List Level 1b - Description of enzyme activity data](https://www.beilstein-institut.de/en/projects/strenda/guidelines/#Level1B)
 * [Recommendations on the design and execution of experiments to obtain the apparent equilibrium constants of enzyme catalyzed reactions](https://www.beilstein-institut.de/en/projects/strenda/guidelines/#thermodynamics)
@@ -101,7 +101,7 @@ Because of their usefulness for comparative enzymology, as well as for understan
 * Enzyme-related repositories which enable the direct submission of enzyme function data and experimental conditions are {% tool "strenda-db" %} and {% tool "sabiork" %} via the data exchange formats {% tool "enzymeml" %} and {% tool "systems-biology-markup-language" %}. 
 * {% tool "strenda-db" %} is a storage and search platform for authors who are preparing a manuscript containing functional enzymology data. Data sets entered in {% tool "strenda-db" %} are automatically checked for compliance with the {% tool "standards-for-reporting-enzyme-data" %} and prepared for publication after the journal’s reviewing process together with the corresponding paper. The direct deposition of experimental data in {% tool "strenda-db" %} by the authors not only ensures the completeness of information but also simplifies the integration of the data into other enzyme databases.
 * Information about the effects of chemical compounds on enzyme protein targets can be uploaded to the {% tool "chembl" %} database.   
-* Most of the databases containing enzymology data are based on information manually extracted from literature. The structured format of the literature data in such databases allows the export and reuse of enzyme data (e.g. kinetic parameters) as well as the automatic integration in processing tools for modelling or visualisation. Manually curated databases containing enzyme function data are: {% tool "uniprot" %}, {% tool "brenda" %}, {% tool "sabiork" %}, {% tool "m-csa" %}, {% tool "ezcatdb" %}, {% tool "metacyc" %}. An overview of general and more specialised enzyme databases is given in [Enzyme Databases in the Era of Omics and Artificial Intelligence](https://doi.org/10.3390/ijms242316918).
+* Most of the databases containing enzymology data are based on information manually extracted from literature. The structured format of the literature data in such databases allows the export and reuse of enzyme data (e.g. kinetic parameters) as well as the automatic integration in processing tools for modelling or visualisation. Manually curated databases containing enzyme function data are: {% tool "uniprot" %}, {% tool "brenda" %}, {% tool "sabiork" %}, {% tool "m-csa" %}, {% tool "ezcatdb" %}, {% tool "metacyc" %}. An overview of general and more specialised enzyme databases was published 2023.{% cite presern2023enzymedatabases %}
 * Besides literature-based information, there are databases such as {% tool "gotenzymes" %} containing predicted kinetic parameters for enzymes or {% tool "topenzyme" %} containing predicted enzyme structure models. 
 * Further repositories which are neither domain specific nor store data in a structured way are {% tool "zenodo" %}, {% tool "figshare" %} and {% tool "dataverse" %}. These repositories are often suggested by journals and funding agencies that may be unaware of awareness of the structured repositories mentioned above.
 
@@ -121,5 +121,9 @@ The primary data that emerge directly from experimental analysis are mostly exte
 * {% tool "enzymeml" %} provides a standard format and data model for capturing the raw data, the metadata of the kinetic experiment, the kinetic model used for fitting and the final kinetic and thermodynamic parameters.
 * The {% tool "pyenzyme" %} library facilitates the processing of data by providing a programmatic interface to {% tool "enzymeml" %}. {% tool "pyenzyme" %} also interfaces with computational systems biology tools such as {% tool "pysces" %} and {% tool "copasi" %} to assist with numerically solving the kinetic models for parameter estimation.
 * Fitting statistics such as the [Akaike Information Criterion (AIC)](https://en.wikipedia.org/wiki/Akaike_information_criterion) or [Bayesian Information Criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion), which are commonly reported by fitting libraries, can be used to select the most appropriate model from different alternatives.
+
+## Bibliography
+
+{% bibliography --cited %}
 
 
