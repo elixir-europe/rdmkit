@@ -3158,3 +3158,7 @@
   registry:
     fairsharing: 9vtwjs
   url: hhttps://www.dublincore.org/
+- description: European Viral Outbreak Response Alliance Ontology
+  id: evora-ontology
+  name: EVORA Ontology
+  url: https://www.ebi.ac.uk/ols4/ontologies/evorao
