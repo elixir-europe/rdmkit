@@ -3006,7 +3006,7 @@
   registry:
     fairsharing: bd9566
   url: https://genomicsstandardsconsortium.github.io/mixs/0010012/
-- description: ORCID is an open, non-profit, community-driven registry of unique researcher identifiers and offers a transparent method of attributing outputs.
+- description: A metadata standard for describing any resources of any kind. 
   id: dublincore
   name: Dublin Core Metadata Terms
   registry:
