@@ -2903,7 +2903,7 @@
     biotools: uk-biobank
     tess: UK Biobank
   url: https://www.ukbiobank.ac.uk/
-- description: Database of drug sensitivity and genomic data from ~1000 cancer cell lines.
+- description: Database of drug sensitivity and genomic data from cancer cell lines.
   id: gdsc
   name: Genomics of Drug Sensitivity in Cancer (GDSC)
   url: https://www.cancerrxgene.org/
