@@ -2981,7 +2981,7 @@
   id: uicc-tnm
   name: Tumour, Nodes, Metastases (TNM) cancer staging system
   registry:
-    biotools: tnm
+    biotools: NA
   url: https://www.uicc.org/who-we-are/about-uicc/uicc-and-tnm
 - description: A single standardised international medical terminology.
   id: meddra
