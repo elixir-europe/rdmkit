@@ -2896,7 +2896,7 @@
   registry:
     tess: All of Us
   url: https://www.researchallofus.org/
-- description: Large-scale biomedical database with genetic, clinical, and lifestyle data from 500,000 UK participants.
+- description: Large-scale biomedical database with genetic, clinical, and lifestyle data from UK participants.
   id: uk-biobank
   name: UK Biobank
   registry:
