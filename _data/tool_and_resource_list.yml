@@ -1884,6 +1884,8 @@
 - description: Resource of standards for reporting enzyme data
   id: standards-for-reporting-enzyme-data
   name: Standards for Reporting Enzyme Data (STRENDA)
+  registry:
+    fairsharing: 8ntfwm
   url: https://www.beilstein-institut.de/en/projects/strenda/
 - description: Known and predicted protein-protein interactions.
   id: string
