@@ -89,7 +89,7 @@ This page provides useful information and resources with a focus on research dat
 ## Policies and Recommendations for Research Data
 
 * List of [Research Data Policies and Recommendations](https://www.forschungsdaten.org/index.php/Data_Policies)
-* [BMBF - Aktionsplan Forschungsdaten](https://www.bildung-forschung.digital/digitalezukunft/de/wissen/forschungsdaten/forschungsdaten_node.html)
+* [BMBF - Aktionsplan Forschungsdaten](https://www.bildung-forschung.digital/digitalezukunft/de/wissenschaft_und_forschung/forschungsdaten/forschungsdaten_node.html)
 * [DFG Checklist for handling research data](https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf)
 * [forschungsdaten.info - Portal for information on research data management](https://www.forschungsdaten.info/)
 * [forschungsdaten.org - Information and guidelines for research data](https://www.forschungsdaten.org)
