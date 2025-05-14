@@ -3152,7 +3152,7 @@
   registry:
     fairsharing: bd9566
   url: https://genomicsstandardsconsortium.github.io/mixs/0010012/
-- description: A metadata standard for describing any resources of any kind. 
+- description: A metadata standard for describing resources of any kind. 
   id: dublincore
   name: Dublin Core Metadata Terms
   registry:
