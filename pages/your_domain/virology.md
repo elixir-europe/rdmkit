@@ -38,7 +38,7 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
   * Follow {% tool "biosamples" %} Metadata Schema from EBI for structured viral sample metadata.
 * Ensure metadata compliance with international repositories
   * The [Data Brokering page](data_brokering) describes strategies and tools for integrating, harmonising, and translating data across diverse formats and sources.
-  * Format metadata to meet the submission requirements of repositories like {% tool "gisaid" %} and {% tool "european-nucleotide-archive" %} to ensure smooth data deposition and retrieval.
+  * Format metadata to meet the submission requirements of repositories like {% tool "gisaid" %} and {% tool "european-nucleotide-archive" %} to ensure smooth data deposition and retrieval. For instance, search for a virology-related checklists in the [ENA sample checklists](https://www.ebi.ac.uk/ena/browser/checklists).
   * Utilise validation tools and checklists to ensure completeness and accuracy before data submission.
 * FAIRsharing resources for metadata selection
   * Refer to the [EVORA collection](https://fairsharing.org/5449) of FAIRsharing-referenced metadata standards for pandemic preparedness and response.
