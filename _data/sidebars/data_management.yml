@@ -65,6 +65,8 @@ subitems:
         url: /structural_bioinformatics
       - title: Toxicology data
         url: /toxicology_data
+      - title: Virology
+        url: /virology
   - title: Your tasks
     description: Find guidelines and solutions for tackling common data management tasks.
     url: /your_tasks

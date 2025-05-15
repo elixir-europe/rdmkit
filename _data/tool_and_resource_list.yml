@@ -2803,6 +2803,26 @@
   registry:
     fairsharing: odf1nG
   url: https://www.crossref.org/services/funder-registry/
+- description: Pathoplexus is an open-source database designed to enhance the sharing and analysis of human viral pathogen genomic data.
+  id: pathoplexus
+  name: Pathoplexus
+  registry:
+    fairsharing: f7ec51
+  url: https://pathoplexus.org/
+- description: The International Committee on Taxonomy of Viruses (ICTV) taxonomic database is a maintained resource comprised of a universal taxonomic scheme for all the viruses infecting animals (vertebrates, invertebrates and protozoa), plants (higher plants and algae), fungi, bacteria and archaea.
+  id: ictv
+  name: ICTV
+  registry:
+    fairsharing: c92ffe
+  url: https://ictv.global/taxonomy
+- description: Nextstrain is an open-source project to harness the scientific and public health potential of pathogen genome data.
+  id: nextstrain
+  name: Nextstrain
+  registry:
+    biotools: nextstrain.org
+    fairsharing: dba7ba
+    tess: Nextstrain
+  url: http://nextstrain.org
 - description: ORCID is an open, non-profit, community-driven registry of unique researcher identifiers and offers a transparent method of attributing outputs.
   id: orcid
   name: Open Researcher and Contributor ID Registry (ORCID)
@@ -3126,3 +3146,19 @@
   registry:
       biotools: pysces
   url: https://pysces.github.io/
+- description: MIxS - MIUViG (Minimum Information about an Uncultivated Virus Genome) is a checklist that is a part of the larger MIxS standard.
+  id: miuvig
+  name: Minimum Information about an Uncultivated Virus Genome (MIOViG)
+  registry:
+    fairsharing: bd9566
+  url: https://genomicsstandardsconsortium.github.io/mixs/0010012/
+- description: A metadata standard for describing resources of any kind. 
+  id: dublincore
+  name: Dublin Core Metadata Terms
+  registry:
+    fairsharing: 9vtwjs
+  url: hhttps://www.dublincore.org/
+- description: European Viral Outbreak Response Alliance Ontology
+  id: evora-ontology
+  name: EVORA Ontology
+  url: https://www.ebi.ac.uk/ols4/ontologies/evorao
