@@ -23,6 +23,8 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB052
 - name: Validating checksums to verify file integrity
   url: https://w3id.org/faircookbook/FCB053
+- name: Data Protection Impact Assessment and Data Privacy
+  url: https://w3id.org/faircookbook/FCB074
 ---
 
 ## How do you ensure that your data is handled securely?

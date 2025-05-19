@@ -7,6 +7,11 @@ related_pages:
   your_tasks: [sensitive, gdpr_compliance]
   your_domain: [human data]
   
+faircookbook:
+- name: Creating a metadata profile for clinical trial protocols
+  url: https://w3id.org/faircookbook/FCB084
+- name: Mapping IMI APPROACH datasets to CDISC-SDTM standard
+  url: https://w3id.org/faircookbook/FCB078
 ---
 ## Introduction
 
