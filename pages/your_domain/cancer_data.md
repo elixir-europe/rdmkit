@@ -4,8 +4,7 @@ description: Data management solutions for human cancer data
 contributors: [Fátima Al-Shahrour, Erika Schirghuber, Robin Navest, Eva Budinska, Gonzalo Gómez, María González, Fotis Psomopoulos, Sarah Morgan, Sophie Huiskes Berends]
 page_id: cancer_data
 related_pages: 
-  your_tasks: [sensitive, gdpr_compliance]
-  your_domain: [health_data, human_data, bioimaging_data, data_security]
+  your_tasks: [sensitive, gdpr_compliance,data_security]
 training:
 - name: Training in TeSS
   registry: TeSS
