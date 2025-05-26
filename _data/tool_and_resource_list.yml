@@ -1761,6 +1761,7 @@
   name: Research Object Crate (RO-Crate)
   registry:
     fairsharing: wUoZKE
+    tess: Research Object Crate
   url: https://w3id.org/ro/crate
 - description: Reva connects cloud storages and application providers
   id: reva
