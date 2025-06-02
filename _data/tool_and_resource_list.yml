@@ -2408,6 +2408,8 @@
 - description: Pydantic is the most widely used data validation library for Python.
   id: pydantic
   name: Pydantic
+  registry:
+    tess: Pydantic
   url: https://docs.pydantic.dev/latest/
 - description: Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines.
   id: prefect
