@@ -755,6 +755,7 @@
   id: elixir-core-data-resources
   name: ELIXIR Core Data Resources
   registry:
+    fairsharing: 7cbcb7
     fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/core-data-resources
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
@@ -1666,6 +1667,8 @@
 - description: The HUPO Proteomics Standards Initiative defines community standards for data representation in proteomics and interactomics to facilitate data comparison, exchange and verification.
   id: proteomics-standards-initiative
   name: HUPO Proteomics Standards Initiative
+  registry:
+    fairsharing: 9f60e7
   url: https://www.psidev.info/
 - description: A secure platform for developing and sharing reproducible methods.
   id: protocols-io
