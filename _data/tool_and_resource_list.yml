@@ -1917,7 +1917,7 @@
   url: http://sbml.org/Main_Page
 - description: The Toxin and Toxin Target Database is a bioinformatics resource that combines exhaustive toxin data with toxin target information. Currently it presents more than 42,000 toxin-target associations extracted from other databases, government documents, books and scientific literature. Each toxin record includes data on chemical properties and descriptors, toxicity values and medical information.
   id: t3db
-  name: T3DB
+  name: Toxin and Toxin Target Database (T3DB)
   registry:
     biotools: t3db
   url: http://www.t3db.ca/
