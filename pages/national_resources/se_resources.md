@@ -33,7 +33,7 @@ national_resources:
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
       your_tasks: [dmp, data_publication, sensitive]
-    url: https://nbis.se/services/guidance-on-data-handling/apply
+    url: https://nbis.se/services/guidance-on-data-management
   - name: Swedish Pathogens Portal
     description: The Swedish Pathogens Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
@@ -97,22 +97,22 @@ If personal data is processed in your research, contact your institute’s Data 
 
 The [**SciLifeLab Data Centre**](https://www.scilifelab.se/data)  provides services for IT and data management, including Data Stewardship Wizard instance (for writing data management plans), the Swedish Pathogens Portal, and the SciLifeLab Data Repository. 
 
-Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support services regarding data management questions, including e.g. guidance when writing data management plans and when doing submissions to domain-specific repositories. For information about this and other resources at NBIS please see the [**Data Management**](https://nbis.se/services/guidance-on-data-handling) page. An upcoming resource is the [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which will be integrated with the {% tool "the-european-genome-phenome-archive" %}.
+Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support services regarding data management questions, including e.g. guidance when writing data management plans and when doing submissions to domain-specific repositories. For information about this and other resources at NBIS please see the [**Data Management**](https://nbis.se/services/guidance-on-data-management) page. An upcoming resource is the [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which will be integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
 The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that provides resources and user support for large scale computation and data storage to meet the needs of researchers from all scientific disciplines and from all over Sweden. Of particular use for life science researchers is the [**NAISS-SENS**](https://www.uppmax.uu.se/projects-and-collaborations/naiss-sens/) project which provides high-performance computing resources for analyzing sensitive data.
 
 [**Swedish National Data Service**](https://snd.gu.se/en) (SND) with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans.
  
 List of universities with established Research Data Offices or Data Access Units (DAUs), with links to local online resources and contact information:
-* Chalmers University of Technology - [Research Data Support](https://www.chalmers.se/en/infrastructure/ecommons/chalmers-data-office/) - <dataoffice@chalmers.se>
+* Chalmers University of Technology - [Research Data Support](https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/) - <dataoffice@chalmers.se>
 * Karolinska Institutet - [Research Data Support](https://staff.ki.se/research-data-management) - <rdo@ki.se>
 * KTH Royal Institute of Technology - [Research Data Support](https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/) - <researchdata@kth.se>
 * Linköping University - [Research Data Support](https://ep.liu.se/en/datamanagement.aspx) - <datamanagement@liu.se>
 * Linnaeus University - [Research Data Support](https://lnu.se/en/medarbetare/researcher/researcher5/research-data/) - <dau@lnu.se>
-* Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-data/contacts-and-research-data-initiatives) - See web page for contact information
+* Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-support) - See web page for contact information
 * Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - <opendata@su.se>
-* Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data) - <dms@slu.se>
-* Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/library/research-data/organisation-and-contacts/) for contact information
-* University of Gothenburg - [Research Data Support](https://medarbetarportalen.gu.se/service-stod/hantering-av-forskningsdata/?languageId=100001) - <researchdata@gu.se>
-* Uppsala University - [Research Data Support](https://mp.uu.se/en/web/info/forska/forskningsdata) - <dataoffice@uu.se>
+* Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/library/manage-data/) - <dms@slu.se>
+* Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/library/contact-us/)
+* University of Gothenburg - [Research Data Support](https://www.ub.gu.se/en/services-and-support) - <researchdata@gu.se>
+* Uppsala University - [Research Data Support](https://www.uu.se/en/staff/gateway/research/research-data) - <dataoffice@uu.se>
 * Örebro University - [Research Data Support](https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/) - See web page for contact information
