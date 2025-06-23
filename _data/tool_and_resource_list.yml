@@ -2898,7 +2898,7 @@
 - description: Integrated clinical and genomic data for over 100,000 cancer patients from the International Cancer Genome Consortium.
   id: icgc-argo
   name: ICGC-ARGO
-  url: https://dcc.icgc-argo.org/
+  url: https://www.icgc-argo.org
 - description: Real-world cancer genomic dataset aggregated from multiple institutions.
   id: aacr-genie
   name: AACR-GENIE
