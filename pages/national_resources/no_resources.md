@@ -240,7 +240,7 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
-* [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data-management/publish-research-data/)
+* [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data/research-data-management-team/)
 * [VID Specialized University](https://www.vid.no/en/research/research-data/)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/DMsupport)
 
@@ -331,7 +331,6 @@ We provide here a list of ethics committees and guidelines, relevant to life sci
 * [Payment to participants in medical or health research](https://www.forskningsetikk.no/retningslinjer/med-helse/betaling-til-deltakere-i-medisinsk-eller-helsefaglig-forskning/)
 * [Guidelines for the inclusion of women](https://www.forskningsetikk.no/retningslinjer/med-helse/inklusjon-av-kvinner/)
 * [Ethical guidelines for clinical trial of drugs](https://www.forskningsetikk.no/ressurser/publikasjoner/kliniske-utprovinger-av-legemidler/)
-* [Guidelines for the inclusion of adults with impaired or absent capacity to consent](https://www.forskningsetikk.no/globalassets/dokumenter/4-publikasjoner-som-pdf/redusert-samtykkekompetanse-i-helsefaglig-forskning-2005.pdf)
 * [Guidelines for research ethical and scientifically assessment of qualitative research projects](https://www.forskningsetikk.no/retningslinjer/med-helse/vurdering-av-kvalitative-forskningsprosjekt-innen-medisin-og-helsefag/)
 
 Through the Research Ethics Committees, the following recommendations were made binding in Norway and it is therefore advised to take them into consideration for data ethics:
@@ -348,7 +347,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * [Personal Data Act](https://lovdata.no/dokument/RFA/lov/2000-04-14-31)
 * Regulations on the processing of personal data [Forskrift om behandling av personopplysninger](https://lovdata.no/dokument/SF/forskrift/2018-06-15-876)
 * Transitional rules on the processing of personal data [Overgangsregler om behandling av personopplysninger](https://lovdata.no/dokument/SF/forskrift/2018-06-15-877)
-* [The Norwegian Data Protection Agency: Journalistic, academic, artistic and literary purposes](https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/personvern-vs.-ytringsfrihet/)
+* [The Norwegian Data Protection Agency: Journalistic, academic, artistic and literary purposes](https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/personvern-og-ytrings--og-informasjonsfrihet/)
 * [The Norwegian Data Protection Agency: Code of Conduct on Information Security and Internal Control](https://www.datatilsynet.no/regelverk-og-verktoy/atferdsnorm/)
 
 ### Health research data
