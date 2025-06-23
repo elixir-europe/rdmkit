@@ -91,4 +91,4 @@ In line with European funders, Czech research funders are asking for Data Manage
   * [Charles University Open Science Support Centre](https://openscience.cuni.cz/OSCIEN-1.html)
   * [Masaryk University Open Science](https://openscience.muni.cz/en)
   * [Palacký University Open Science](https://openscience.upol.cz/en/)
-* [National Information Centre for European Research (NICER)](https://www.tc.cz/en/what-we-do/1/national-information-centre-for-european-research-) (for help with navigating the EU funding system)
+* [National Information Centre for European Research (NICER), Technology Centre Prague](https://www.tc.cz/en/what-we-do/1/national-information-centre-for-european-research-) (for help with navigating the EU funding system)
