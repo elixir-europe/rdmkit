@@ -2906,7 +2906,7 @@
 - description: Platform from Memorial Sloan Kettering providing molecular and clinical data to support precision oncology.
   id: msk-chord
   name: MSK-CHORD
-  url: https://www.mskcc.org/research-areas/programs-centers/msk-chord
+  url: https://datacatalog.mskcc.org/dataset/11458
 - description: Multi-omic cancer dataset of >7000 patients, including whole genome sequencing and clinical outcomes.
   id: hmf
   name: Hartwig Medical Foundation (HMF)
