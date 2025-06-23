@@ -1618,7 +1618,7 @@
   name: PHIS
   registry:
     tess: PHIS
-  url: http://www.phis.inra.fr/
+  url: https://opensilex.github.io/phis-docs-community/
 - description: PIA is a toolbox for mass spectrometrey based protein inference and identification analysis.
   id: pia-protein-inference-algorithms
   name: PIA - Protein Inference Algorithms
