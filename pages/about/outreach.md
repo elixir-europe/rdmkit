@@ -81,7 +81,7 @@ OS Fair 2021 aims to bring together and empower open science communities and ser
 to identify common practices related to open science;
 to see what are the best synergies to deliver and operate services that work for many;
 and to bring experiences from all around the world and learn from each other.
-- [Program zoom links for panel sessions](https://www.opensciencefair.eu/2021/programme)
+- [Event page](https://www.opensciencefair.eu/2021/)
 - [Plenaries on youtube](https://www.youtube.com/watch?v=TrZrRcCoQSo)
 
 
