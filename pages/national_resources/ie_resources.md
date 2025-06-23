@@ -72,15 +72,15 @@ Here are non-exhaustive lists of data management policies and open research poli
 
 * [University College Dublin](https://www.ucd.ie/researchethics/informationforresearchers/researchethicsdatamanagement/) (UCD Library [Data Management Checklist](https://libguides.ucd.ie/ld.php?content_id=32484988))
 * [University of Galway](https://www.universityofgalway.ie/media/staffsub-sites/researchoffice/files/Research-Data-Management-Policy-(QA509).pdf) (PDF)
-* [University College Cork](https://www.ucc.ie/en/media/support/academicsecretariat/policies/researchpolicies/ResearchDataManagementPolicy.pdf)
+* [University College Cork](https://www.ucc.ie/en/media/research/researchatucc/researchculture/policiesproceduresandguidelines/UCCResearchDataManagementPolicy.pdf)
 * [Royal College of Surgeons in Ireland](https://drive.google.com/file/d/1mCM4hHK97cMJFKh0dm5mZ5tn8FdBnAHB/view)
-* [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Research_Data_Management_Policy.pdf)
+* [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Research-Data-Management-Policy.pdf)
 * [University of Limerick Health Research Policy](https://www.ul.ie/media/23713/download?inline)
 
 ### Open Research Policies from Irish Universities
 * [Maynooth University](https://nuim.libguides.com/ld.php?content_id=33703942)
 * [Royal College of Surgeons in Ireland](https://drive.google.com/file/d/1vXnxf-K9KZa78-PmWRY9Q4vZpb-qBG6S/view?usp=sharing)
-* [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Open_Access_Policy.pdf)
+* [Munster Technological University](https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Open-Access-Policy.pdf)
 * [South East Technological University](https://www.wit.ie/images/uploads/Research_PDF/WIT_Open_Research_Policy_v2.pdf)
 * [Technological University Dublin](https://arrow.tudublin.ie/open_access_policy.pdf)
 
