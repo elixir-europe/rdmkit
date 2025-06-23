@@ -82,7 +82,7 @@ This page provides an overview of the data management resources in the UK. The t
 ## Domain-specific data infrastructures
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics
   * [Digital Curation Centre](https://www.dcc.ac.uk/) Organisation offering a range of services to assist UK institutions in digital curation and data management
-  * Genomics England: [The Research Environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/)
+  * Genomics England: [The Research Environment](https://www.genomicsengland.co.uk/research)
   * [Health Data Research Innovation Gateway](https://www.healthdatagateway.org/) Search engine/portal to discover and access UK health-related datasets, and any associated health data resources such as tools, projects, and publications
   * [NERC EDS](https://eds.ukri.org) (Natural Environment Research Council Environmental Data Service) providing data stewardship services for environmental data
   * NHS England: [Trusted Research Environment service](https://digital.nhs.uk/coronavirus/coronavirus-data-services-updates/trusted-research-environment-service-for-england)
