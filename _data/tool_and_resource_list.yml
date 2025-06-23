@@ -1754,7 +1754,7 @@
   name: Research Data Management Platform (RDMP)
   registry:
     biotools: rdmp
-  url: https://www.dundee.ac.uk/hic/data-team/researchdatamanagementplatform/
+  url: https://www.dundee.ac.uk/hic/data-service/research-data-management-platform
 - description: Machine actionable DMPs.
   id: research-management-plan
   name: Research Management Plan
