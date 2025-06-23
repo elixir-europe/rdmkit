@@ -134,7 +134,7 @@ In order to obtain information about oncological clinical practice guidelines se
 * [European Society of Medical Oncology (ESMO)](https://www.esmo.org/guidelines)
 * American Society of Clinical Oncology (ASCO)
   * [General treatment types](https://www.cancer.org/cancer/managing-cancer/treatment-types.html)
-  * [Clinical guidelines](https://ascopubs.org/jco/special/guidelines)
+  * [Clinical guidelines](https://ascopubs.org/guidelines)
 * [National Comprehensive Cancer Network (NCCN)](https://www.nccn.org/guidelines/category_1)
 
 A more unified approach to cancer treatment data collection is crucial for improving outcome analysis and supporting all stakeholders. To support this aim, several consortia and institutions provide annotated reference datasets with cancer treatment data:
