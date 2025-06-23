@@ -190,7 +190,7 @@ The current method of sharing information about the building of microbial system
 #### (Meta)data publication and sharing
 * The design information about the vector DNA or RNA sequence should be shared via public databases  such as ENA or Genbank. 
 * Various DNA synthesis companies build DNA from a computer specification of the sequence and also a variety of experimental approaches for assembling DNA molecules. This information can be shared as free text attached to a design in SBOL format and uploaded to a repository that supports SBOL2 format and above such as {% tool "synbiohub" %}.
-* Once grouped together in a free form the data can be archived along with the metadata, collecting the data together in an archived form using a file compression format. The [combine archive format](http://co.mbine.org/specifications/omex.version-1) may also be useful.
+* Once grouped together in a free form the data can be archived along with the metadata, collecting the data together in an archived form using a file compression format. The [combine archive format](https://combinearchive.org/index/) may also be useful.
  
 
 ## Test: outcome tests - metadata standards and (meta)data publication
