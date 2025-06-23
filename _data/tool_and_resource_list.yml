@@ -1913,7 +1913,7 @@
   name: Systems Biology Markup Language (SBML)
   registry:
     biotools: sbml
-  url: http://sbml.org/Main_Page
+  url: https://sbml.org/
 - description: The Toxin and Toxin Target Database is a bioinformatics resource that combines exhaustive toxin data with toxin target information. Currently it presents more than 42,000 toxin-target associations extracted from other databases, government documents, books and scientific literature. Each toxin record includes data on chemical properties and descriptors, toxicity values and medical information.
   id: t3db
   name: Toxin and Toxin Target Database (T3DB)
