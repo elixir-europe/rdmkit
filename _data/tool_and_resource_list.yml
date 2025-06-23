@@ -1311,12 +1311,13 @@
   id: metagen-fastqc
   name: Metagen-FastQC
   url: https://github.com/alakob/Metagen-FastQC-Docker
-- description: Minimum Information About Disorder Experiments (MIADE) standard
+- description: Minimum information guidelines for experiments structurally characterising intrinsically disordered protein regions.
   id: miade
-  name: MIADE
+  name: Minimum Information About Disorder Experiments (MIADE)
   registry:
     tess: MIADE
-  url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
+    fairsharing: ff0b20
+  url: https://www.psidev.info/intrinsically-disordered-proteins
 - description: Minimum Information About a Plant Phenotyping Experiment
   id: miappe
   name: MIAPPE
