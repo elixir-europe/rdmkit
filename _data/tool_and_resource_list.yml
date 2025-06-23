@@ -938,7 +938,7 @@
   name: FAIR-Wizard
   registry:
     tess: FAIR-Wizard
-  url: https://wwwdev.ebi.ac.uk/ait/fair-wizard/home
+  url: https://fair-wizard.com/
 - description: Help you discover resources to measure and improve FAIRness.
   id: fairassist-org
   name: FAIRassist.org
