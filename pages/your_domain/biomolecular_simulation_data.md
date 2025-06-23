@@ -58,7 +58,6 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
       * {% tool "molssi" %} - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
 
     * Molecular Dynamics databases - allow access to precalculated data
-      * {% tool "bioexcel-covid-19" %} - database and associated web server to offer in a graphical way analyses on top of COVID-19 related MD trajectories stored in the MolSSI-BioExcel COVID-19 therapeutics hub.  
       * {% tool "dynameomics" %} - database of folding/unfolding pathways
       * {% tool "memprotmd" %} - database of automatically generated membrane proteins from PDB inserted into simulated lipid bilayers
 
@@ -68,12 +67,12 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
       * {% tool "modelarchive" %} - theoretical models of macromolecular structures, [with submission process](https://modelarchive.org/account).
 
     * Virtual Screening repositories:
-      * {% tool "bioactive-conformational-ensemble" %} - small molecule conformations, [with submission process](http://mmb.irbbarcelona.org/BCE/db/upload).
+      * {% tool "bioactive-conformational-ensemble" %} - small molecule conformations, [with submission process](https://mmb.irbbarcelona.org/BCE/db/upload).
       * {% tool "bindingdb" %} - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, [with submission process](https://www.bindingdb.org/bind/contributedata.jsp).
 
     * Repositories for the analyzed data from simulations:
        * {% tool "molmedb" %} - for molecule-membrane interactions and free energy profiles, [with submission process](mailto:molmedb@upol.cz).  
-       * [ChannelsDB](https://webchemdev.ncbr.muni.cz/ChannelsDB/index.html) - resource of channels, pores and tunnels found in biomacromolecules, [with submission process](https://webchemdev.ncbr.muni.cz/ChannelsDB/contribute.html).
+       * {% tool "channelsdb" %} - resource of channels, pores and tunnels found in biomacromolecules, [with submission process](https://channelsdb2.biodata.ceitec.cz/contribute.html).
 
 * Based on the type of data to be shared, pay attention to what should be included and the data and metadata that will be deposited to repositories. Below listed are some suggested examples of types of essential and optional data describing the biomolecular simulation data:
     * Molecular Dynamics:
