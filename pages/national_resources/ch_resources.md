@@ -173,7 +173,7 @@ The ETH Domain falls under the authority of the Federal Department of Economic A
 [Swiss Open Research Data](https://www.swissuniversities.ch/en/topics/digitalisation/open-research-data/national-strategy-and-action-plan)
 In 2021, the State Secretariat for Education, Research and Innovation (SERI), the Swiss Conference of Rectors of Higher Education Institutions (swissuniversities), the Swiss National Science Foundation (SNSF) and Switzerland’s two federal institutes of technology (ETHZ in Zurich and EPFL in Lausanne) signed an agreement to develop a national strategy on open research data.
 
-The [Swiss ORD Strategy](https://www.swissuniversities.ch/en/topics/digitalisation/open-research-data/swiss-open-research-data-grants) provides a framework for the development of practices
+The [Swiss ORD Strategy](https://www.swissuniversities.ch/en/topics/open-science/open-science-programme/calls) provides a framework for the development of practices
 built around sharing research data in Switzerland, and for governing the services and infrastructures that support researchers and enable ORD practices. It should enable Switzerland to implement a coherent and ambitious open science policy in line with European and global developments.
 
 [SPHN - Swiss Personalized Health Network](https://sphn.ch/)
@@ -189,7 +189,7 @@ SPHN is a national initiative under the leadership of the Swiss Academy of Medic
 ### Institutional policy
 
 * [ETHZ](https://rechtssammlung.sp.ethz.ch/Dokumente/414.2en.pdf)
-* [University of Basel](https://researchdata.unibas.ch/en/services/policy-on-rdm/)
+* [University of Basel](https://researchdata.unibas.ch/en/about/guiding-principles-on-research-data-management/)
 * [University of Geneva](https://www.unige.ch/researchdata/en/presentation/policy/)
 
 
@@ -200,7 +200,7 @@ SPHN is a national initiative under the leadership of the Swiss Academy of Medic
 * [University of Fribourg](https://www.unifr.ch/researcher/en/openscience/open-research-data/research-data-management.html)
 * [University of Geneva](https://www.unige.ch/researchdata/en/home/)
 * [University of Lausanne](https://www.unil.ch/uniris/home/menuinst/donnees-de-recherche.html)
-* [University of St.Gallen](https://www.unisg.ch/en/universitaet/bibliothek/dienstleistungen/openscience/researchdatamanagement/rdm_support)
+* [University of St.Gallen](https://www.unisg.ch/en/university/library/research-and-publishing/data-services/)
 * [University of Zurich](https://www.ub.uzh.ch/en/wissenschaftlich-arbeiten/mit-daten-arbeiten.html)
 * [ETHZ](https://sis.id.ethz.ch/services/rdm/)
 * [EPFL](https://www.epfl.ch/campus/library/services-researchers/rdm-support-advice/)
