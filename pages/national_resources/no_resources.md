@@ -240,7 +240,7 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [University of Stavanger (UiS)](https://www.uis.no/en/library/researchdata)
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
-* [Inland Norway University of Applied Sciences](https://www.inn.no/english/library/research-support/research-data/research-data-management-team/)
+* [University of Inland Norway](https://www.inn.no/english/library/research-support/research-data/research-data-management-team/)
 * [VID Specialized University](https://www.vid.no/en/research/research-data/)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/DMsupport)
 
