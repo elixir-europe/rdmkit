@@ -293,10 +293,6 @@
   id: biodiversity-information-standards
   name: Biodiversity Information Standards (TDWG)
   url: https://www.tdwg.org
-- description: Platform designed to provide web-access to atomistic-MD trajectories for macromolecules involved in the COVID-19 disease.
-  id: bioexcel-covid-19
-  name: BioExcel COVID-19
-  url: https://bioexcel-cv19.bsc.es/#/
 - description: The BioImage Archive stores and distributes biological images that are useful to life-science researchers.
   id: bioimagearchive
   name: BioImageArchive
@@ -938,7 +934,7 @@
   name: FAIR-Wizard
   registry:
     tess: FAIR-Wizard
-  url: https://wwwdev.ebi.ac.uk/ait/fair-wizard/home
+  url: https://fair-wizard.com/
 - description: Help you discover resources to measure and improve FAIRness.
   id: fairassist-org
   name: FAIRassist.org
@@ -1917,7 +1913,7 @@
   name: Systems Biology Markup Language (SBML)
   registry:
     biotools: sbml
-  url: http://sbml.org/Main_Page
+  url: https://sbml.org/
 - description: The Toxin and Toxin Target Database is a bioinformatics resource that combines exhaustive toxin data with toxin target information. Currently it presents more than 42,000 toxin-target associations extracted from other databases, government documents, books and scientific literature. Each toxin record includes data on chemical properties and descriptors, toxicity values and medical information.
   id: t3db
   name: Toxin and Toxin Target Database (T3DB)
@@ -3179,3 +3175,10 @@
   id: evora-ontology
   name: EVORA Ontology
   url: https://www.ebi.ac.uk/ols4/ontologies/evorao
+- description: A comprehensive resource of channels, pores and tunnels found in biomacromolecular structures deposited in the Protein Data Bank.
+  id: channelsdb
+  name: ChannelsDB 2.0
+  url: https://channelsdb2.biodata.ceitec.cz/
+  registry:
+    biotools: channelsdb
+    fairsharing: d33rx4

@@ -38,7 +38,7 @@ Examples of such measures are:
 * post collection data curation;
 * data peer-review.
 
-Certain areas such as clinical studies, or those involving Next Generation Sequencing have commonly working methods to ensure data quality. Consider familiarizing yourself with data quality standards or established working practices in your field of study.
+Certain areas such as clinical studies, or those involving Next Generation Sequencing have commonly working methods to ensure data quality. Consider familiarising yourself with data quality standards or established working practices in your field of study.
 
 There are many frameworks proposed in the literature to define and evaluate overall data quality, such as:
 
@@ -52,11 +52,11 @@ For health data, a nice example of working out what data quality means can be fo
 ### Solutions
 
 * Electronic data capturing system: {% tool "redcap" %} allows you to design electronic data capture forms and allows you to monitor the quality of data collected via those forms.
-* An example of [data dictionary](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx) illustrating the elements and factors that should be defined for the variable needed by data collection.
+* An example of [data dictionary](https://webdav.lcsb.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx) illustrating the elements and factors that should be defined for the variable needed by data collection.
 * The World Bank provides [quality assurance guidance](https://dimewiki.worldbank.org/wiki/Data_Quality_Assurance_Plan) for survey design and execution.
 * The U.S. National Institute's of Health's provides [introductory training material](https://oir.nih.gov/sites/default/files/uploads/sourcebook/documents/ethical_conduct/data_quality_management-2015_05_15.pdf) on data quality.
 * Bio.tools' listing for [computational tools and pipelines for data quality control in life sciences](https://bio.tools/t?page=1&q=quality&sort=score).
 * Data integration tools that include pre-defined building blocks to monitor and check data quality, such as [Pentaho Community Edition (CE)](https://wiki.pentaho.com/display/COM/Community+Edition+Downloads?desktop=true&macroName=ul), [Talend Open Studio](https://sourceforge.net/projects/talend-studio/).
 * Data curation tools such as {% tool "openrefine" %} that help you to identify quality issues, correct (curate) them, carry out transformations in the collected data with easy-to-use graphic interface and visualisation. It also documents all the steps during the curation for reproducibility and backtracking.
 
-* For heath data, the [Book of OHDSI](http://book.ohdsi.org) has several [chapters](https://ohdsi.github.io/TheBookOfOhdsi/EvidenceQuality.html) on methods for assessing the data quality of observational health datasets, split out by data quality, clinical validity, software validity and method validity. Frameworks proposed in the literature, to define and evaluate overall data quality, could be used to create computational representations of the data quality of a dataset. [OHDSI DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard), which leverages the Kahn framework referenced above (adapted from [original thehyve.nl blogpost](https://www.thehyve.nl/articles/fair-data-for-machine-learning)), is a software framework for assessing the quality and suitability of routinely generated healthcare data that is represented in the {% tool "omop-cdm" %}.
+* For health data, the [Book of OHDSI](http://book.ohdsi.org) has several [chapters](https://ohdsi.github.io/TheBookOfOhdsi/EvidenceQuality.html) on methods for assessing the data quality of observational health datasets, split out by data quality, clinical validity, software validity and method validity. Frameworks proposed in the literature, to define and evaluate overall data quality, could be used to create computational representations of the data quality of a dataset. [OHDSI DataQualityDashboard](https://github.com/OHDSI/DataQualityDashboard), which leverages the Kahn framework referenced above (adapted from [original thehyve.nl blogpost](https://www.thehyve.nl/articles/fair-data-for-machine-learning)), is a software framework for assessing the quality and suitability of routinely generated healthcare data that is represented in the {% tool "omop-cdm" %}.
