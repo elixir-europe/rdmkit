@@ -1313,12 +1313,13 @@
   id: metagen-fastqc
   name: Metagen-FastQC
   url: https://github.com/alakob/Metagen-FastQC-Docker
-- description: Minimum Information About Disorder Experiments (MIADE) standard
+- description: Minimum information guidelines for experiments structurally characterising intrinsically disordered protein regions.
   id: miade
-  name: MIADE
+  name: Minimum Information About Disorder Experiments (MIADE)
   registry:
     tess: MIADE
-  url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
+    fairsharing: ff0b20
+  url: https://www.psidev.info/intrinsically-disordered-proteins
 - description: Minimum Information About a Plant Phenotyping Experiment
   id: miappe
   name: MIAPPE
@@ -1620,7 +1621,7 @@
   name: PHIS
   registry:
     tess: PHIS
-  url: http://www.phis.inra.fr/
+  url: https://opensilex.github.io/phis-docs-community/
 - description: PIA is a toolbox for mass spectrometrey based protein inference and identification analysis.
   id: pia-protein-inference-algorithms
   name: PIA - Protein Inference Algorithms
@@ -2907,7 +2908,7 @@
 - description: Integrated clinical and genomic data for over 100,000 cancer patients from the International Cancer Genome Consortium.
   id: icgc-argo
   name: ICGC-ARGO
-  url: https://dcc.icgc-argo.org/
+  url: https://www.icgc-argo.org
 - description: Real-world cancer genomic dataset aggregated from multiple institutions.
   id: aacr-genie
   name: AACR-GENIE
@@ -2915,7 +2916,7 @@
 - description: Platform from Memorial Sloan Kettering providing molecular and clinical data to support precision oncology.
   id: msk-chord
   name: MSK-CHORD
-  url: https://www.mskcc.org/research-areas/programs-centers/msk-chord
+  url: https://datacatalog.mskcc.org/dataset/11458
 - description: Multi-omic cancer dataset of >7000 patients, including whole genome sequencing and clinical outcomes.
   id: hmf
   name: Hartwig Medical Foundation (HMF)
