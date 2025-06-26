@@ -81,7 +81,7 @@ This page provides an overview of data management resources in Portugal, with a 
 The Foundation for Science and Technology ([_Fundação para a Ciência e a Tecnologia_, FCT](https://www.fct.pt)) is the national public agency
 providing support for research for science, innovation, and technology in all domains. It is a public institute of special resposibility under
 the tutelage and superintendence of the Ministry of Education, Science and Innovation.
-FCT provides their own [Data Management Plan template (in Portuguese)](https://polen.fccn.pt/wp-content/uploads/2022/12/Modelo-PGD-FCT.pdf).
+FCT provides their own Data Management Plan template, which is availabe as [a PDF (in Portuguese)](https://polen.fccn.pt/wp-content/uploads/2025/04/Modelo-de-PGD-FCT.pdf) and in {% tool "argos" %}.
 
 ## National Infrastructures and Resources
 

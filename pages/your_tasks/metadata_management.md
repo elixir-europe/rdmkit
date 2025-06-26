@@ -70,12 +70,16 @@ Due to the large variety of experiments, techniques and collaborative studies th
   * File naming convention
   * Versioning system
 
-* The established data organization system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, RDF, HTML). The description of the data organization system has to be placed in the folder at the highest level (e.g. “Project” folder).
+* The established data organisation system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, RDF, HTML). The description of the data organisation system has to be placed in the folder at the highest level (e.g. “Project” folder).
 
 * [Study-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/study-level-documentation/) and [data-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/data-level/) documentation can be provided as
   * README file
   * {% tool "create-a-codebook" %}
+<<<<<<< metadata-link
   * Data dictionary
+=======
+  * Data dictionary ([see an example](https://webdav.lcsb.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
+>>>>>>> master
   * Data list
 
   Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception since its main purpose is to be human-readable, i.e. not intended to be machine-readable or -actionable.

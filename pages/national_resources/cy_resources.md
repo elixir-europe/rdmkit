@@ -31,7 +31,7 @@ This page provides a general overview of national resources and initiatives on r
 The [Research and Innovation Foundation (RIF)](https://www.research.org.cy/en/) is the national authority in charge of supporting and promoting research, technological development and innovation in Cyprus.
 
 ## Regulations
-The [Cypurs National Policy of the Republic of Cyprus for Open Science Practices (PDF document)](https://www.dmrid.gov.cy/dmrid/research.nsf/All/877E9BEBAF67EE6CC2258859003DF656/$file/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CE%AE%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CE%BA%CE%AE%20%CE%91%CE%BD%CE%BF%CE%B9%CE%BA%CF%84%CE%AE%CF%82%20%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B7%CF%82.pdf?) was recently revised to include research data management and planning.
+The [Cyprus National Policy of the Republic of Cyprus for Open Science Practices (PDF document)](https://eosc.eu/wp-content/uploads/2022/11/national_policy.pdf) was recently revised to include research data management and planning.
 
 The [Cyprus National Bioethics Committee](http://www.bioethics.gov.cy/moh/cnbc/cnbc.nsf/index_en/index_en?OpenDocument) (document EEBK3). 
 All medical records and biological material are kept under secure conditions at a specially prepared 
@@ -40,7 +40,7 @@ in compliance with the [European General Data Protection Regulation (GDPR)](http
 
 ## Domain-specific infrastructures or resources
 
-The [Cyprus National Initiatives for Open Science in Europe – NI4OS Europe](https://ni4os.eu/overview/), aims to be a core contributor to the [European Open Science Cloud (EOSC)](https://www.eosc-portal.eu/) service portfolio, commit to EOSC governance and ensure inclusiveness on the European level for enabling global Open Science
+The [Cyprus National Initiatives for Open Science in Europe – NI4OS Europe](https://ni4os.eu/overview/), aims to be a core contributor to the [European Open Science Cloud (EOSC)](https://eosc.eu/eosc-about/) service portfolio, commit to EOSC governance and ensure inclusiveness on the European level for enabling global Open Science
 
 The [Cyprus Institite of Neurology and Genetics (CING)](https://www.cing.ac.cy/) acted as a hub for COVID-19 data during the pandemic. CING was involved in biosample collection and high-throughput data analysis of samples using Next Generation Sequencing (NGS).
 
