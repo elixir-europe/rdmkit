@@ -196,7 +196,7 @@
   name: ATCC
   registry:
     biotools: atcc
-  url: https://www.lgcstandards-atcc.org/en.aspx#
+  url: https://www.atcc.org/
 - description: Free, publicly available web-based, open-source software application developed by the OHDSI community to support the design and execution of observational analyses to generate real world evidence from patient level observational data.
   id: atlas
   name: Atlas
@@ -452,7 +452,7 @@
 - description: A version management tool for modifying strains
   id: cellrepo
   name: CellRepo
-  url: https://cellrepo.herokuapp.com/
+  url: https://www.cellrepo.com/
 - description: An ontology for expressing cellular (or multi-cellular) terms with applications in microscopy
   id: cellular-microscopy-phenotype-ontology
   name: Cellular Microscopy Phenotype Ontology (CMPO)
