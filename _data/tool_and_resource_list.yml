@@ -539,7 +539,7 @@
 - description: Examples and tools to create a codebook by the Data Documentation Initiative (DDI)
   id: create-a-codebook
   name: Create a Codebook
-  url: https://ddialliance.org/training/getting-started-new-content/create-a-codebook
+  url: https://ddialliance.org/create-a-codebook
 - description: It helps you choose the right Creative Commons license for your needs.
   id: creative-commons-license-chooser
   name: Creative Commons License Chooser
