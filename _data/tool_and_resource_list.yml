@@ -2181,7 +2181,7 @@
 - description: The Common Workflow Language CWL is an emerging standard for writing workflows that are portable across multiple workflow engines and platforms. Toil has full support for the CWL v1.0, v1.1, and v1.2 standards.
   id: cwl-in-toil
   name: CWL in Toil
-  url: https://toil.readthedocs.io/en/latest/running/cwl.html
+  url: https://toil.readthedocs.io/en/latest/cwl/running.html
 - description: This is the reference implementation of the Common Workflow Language open standards. It is intended to be feature complete and provide comprehensive validation of CWL files as well as provide other tools related to working with CWL.
   id: cwltool
   name: cwltool
