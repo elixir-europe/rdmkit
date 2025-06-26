@@ -3199,3 +3199,10 @@
     biotools: channelsdb
     fairsharing: d33rx4
   url: https://channelsdb2.biodata.ceitec.cz/
+- description: Minimum Information About Biobank data Sharing (MIABIS) is dedicated to standardising data elements used to describe biobanks, research on samples, and associated data. 
+  id: miabis
+  name: MIABIS
+  registry:
+    fairsharing: s0jj2t
+  url: https://github.com/BBMRI-ERIC/miabis
+
