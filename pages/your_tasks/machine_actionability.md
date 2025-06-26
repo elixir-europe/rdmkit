@@ -151,7 +151,7 @@ The theoretically most machine-actionable format is in practice not achieved or 
 For machine-actionability and interoperability, you should consider:
 1. File formats that are data exchange formats (e.g. JSON, XML).
 2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html), {% tool "ome-data-model-and-file-formats" %}). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
-3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. MIAPPE, ENA Samples checklists), that capture reporting best practice in the field.
+3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. {% tool "miappe" %}, ENA Samples checklists), that capture reporting best practice in the field.
 4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. EFO, OBI).
 
 #### File format
@@ -183,13 +183,13 @@ For machine-actionability and interoperability, you should consider:
 
   [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values, etc.
 
-* RDF concept can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as Schema.org or Bioschemas.org (for Life Sciences), Data Catalog Vocabulary (DCAT), Dublin Core, etc.
+* RDF concept can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as {% tool "schema-org" %} or {% tool "bioschemas" %} (for Life Sciences), {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, etc.
   
   Any metadata schemas and [vocabularies/ontologies](https://www.w3.org/standards/semanticweb/ontology) describing web resources can be expressed according to standards, such as the [Web Ontology Language (OWL)](https://www.w3.org/TR/owl-ref/), the [RDF Schema (RDFS)](https://www.w3.org/TR/rdf-schema/) or the [Simple Knowledge Organisation System (SKOS)](http://www.w3.org/standards/techs/skos#w3c_all) to provide more expressive definition and inferences/relationships between terms or pieces of information.
 
 #### Metadata checklist
 * Here, we define metadata checklists as content in the form of a fixed set of attributes or fields, without any particular order nor structure. Compliance to metadata checklists is not related to the format nor the structure, but rather to the content provided.
-* Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. MIAPPE). 
+* Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. {% tool "miappe" %}). 
 * Some data repositories have customised metadata checklists (e.g. ENA Samples checklists).
 * Attributes in a metadata checklist can be ontology terms.
 * For more information see the [Data documentation and metadata](metadata_management) page.
