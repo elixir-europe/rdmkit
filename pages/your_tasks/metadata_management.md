@@ -100,7 +100,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Description
 
-There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. DCAT, Dublin core, (bio)schema.org) to specific data types (e.g. MIABIS for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
+There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. MIABIS for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
 
 
 ### Considerations
@@ -117,7 +117,7 @@ There are multiple standards for different types of data, ranging from generic d
   * On the repository website, go through the submission process (try to submit some dummy data) to identify metadata requirements. For instance, if you consider publishing your transcriptomic data in ArrayExpress, you can make your metadata spreadsheet by using [Annotare 2.0 submission tool](https://www.ebi.ac.uk/fg/annotare/), at the beginning of the project.
   * Be aware that data type specific repositories usually have check-lists for metadata. For example, the European Nucleotide Archive provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
-* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {%tool "miame" %}, {%tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
+* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {% tool "miame" %}, {% tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
   * {% tool "min-info-standards" %}
   * {% tool "rda-standards" %}
   * {% tool "fairsharing" %} at “Standards” and “Collections”
