@@ -136,7 +136,7 @@ Creating an analysis workflow involves several steps that require careful consid
 
 ### Solutions
 
-- Most workflow management systems provide detailed tutorials and documentation for creating workflows and including containerization technologies. Here are documentations for [Nextflow](https://docs.seqera.io/wave/install/docker-compose#docker-compose), [Snakemake](https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html), [Cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/Containers/), [CWL](https://www.commonwl.org/user_guide/topics/using-containers.html).
+- Most workflow management systems provide detailed tutorials and documentation for creating workflows and including containerization technologies. Here are documentations for [Nextflow](https://nextflow.io/docs/latest/container.html#docker), [Snakemake](https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html), [Cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/Containers/), [CWL](https://www.commonwl.org/user_guide/topics/using-containers.html).
 - The {% tool "biocontainers" %} project provides a platform for storing and sharing containers that can used in your workflow.
 - The {% tool "bio-tools" %} repository lists state of the art tools and databases from the field of bioinformatics ordered by collections and communities.
 - {% tool "openebench" %} is a framework for monitoring and  benchmarking analysis tools and workflows.
