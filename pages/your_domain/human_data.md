@@ -103,7 +103,7 @@ For human data, it is very important to use technical and procedural measures to
 * {% tool "eupid" %} is a tool that allows researchers to generate unique pseudonyms for patients that participate in rare disease studies.
 * {% tool "rd-connect-genome-phenome-analysis-platform" %} is a platform to improve the study and analysis of Rare Diseases.
 * {% tool "disgenet" %} is a platform containing collections of genes and variants associated to human diseases.
-* {% tool "pmut" %} is a platform for the study of the impact of pathological mutations in protein structures.
+* {% tool "pymut" %} is a Python3 module that help in the prediction of pathology in protein mutation.
 * {% tool "intogen" %} collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.
 * {% tool "boostdm" %} is a method to score all possible point mutations in cancer genes for their potential to be involved in tumorigenesis.
 * {% tool "cancer-genome-interpreter" %} is designed to identify tumor alterations that drive the disease and detect those that may be therapeutically actionable.
