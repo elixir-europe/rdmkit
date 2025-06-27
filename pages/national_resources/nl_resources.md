@@ -29,7 +29,7 @@ national_resources:
       your_domain: [human_data]
       your_role: [researcher]
       your_tasks: [data_analysis, existing_data, storage]
-    url: https://www.health-ri.nl/services/health-ri-service-catalogue 
+    url: https://www.health-ri.nl/en/services 
   - name: BBMRI catalogue
     description: Biobanking Netherlands makes biosamples, images and data findable, accessible and usable for health research.
     how_to_access: 
