@@ -1749,9 +1749,9 @@
   id: research-data-management-organiser
   name: Research Data Management Organiser
   url: https://rdmorganiser.github.io/en
-- description: Data management platform for automated loading, storage, linkage and provision of data sets
+- description: Research Data Management Platform (RDMP) at Health Informatics Centre, University of Dundee for automated loading, storage, linkage and provision of data sets
   id: research-data-management-platform
-  name: Research Data Management Platform (RDMP)
+  name: RDMP
   registry:
     biotools: rdmp
   url: https://www.dundee.ac.uk/hic/data-service/research-data-management-platform
