@@ -623,6 +623,7 @@ Jan Willem Boiten:
     email: janwillem.boiten@lygature.org
     affiliation: Lygature 
 Patrick Ruch:
+    orcid: 0000-0002-3374-2962
     email: patrick.ruch@hesge.ch
     affiliation: Swiss Institute of Bioinformatics 
 Hindrik Kerstens:
@@ -721,3 +722,43 @@ Philippe Lieutaud:
     email: philippe.lieutaud@univ-amu.fr
     orcid: 0000-0002-5080-3456
     affiliation: Aix Marseille Université
+Josephine Burgin:
+    git: josieburgin
+    orcid: 0000-0002-9818-1094
+    affiliation: European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI)
+Joana Paupério:
+    git: joanapauperio
+    orcid: 0000-0003-2569-0768
+    affiliation: European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI)
+Robert Waterhouse:
+    git: evogenlab
+    orcid: 0000-0003-4199-9052
+    affiliation: SIB Swiss Institute of Bioinformatics
+Valeria Di Cola:
+    git: vdicolab
+    orcid: 0000-0003-2925-8366
+    affiliation: SIB Swiss Institute of Bioinformatics; ELIXIR-CH
+Peter Woollard:
+    git: Woolly-at-EBI
+    orcid: 0000-0002-7654-6902
+    affiliation: European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI)
+Erwan Corre:
+    git:
+    orcid: 0000-0001-6354-2278
+    affiliation: CNRS, Sorbonne Université, FR2424, ABiMS-IFB, Station Biologique, Roscoff, France
+Yvan Le Bras:
+    git: yvanlebras
+    orcid: 0000-0002-8504-068X
+    affiliation: PNDB Data Terra, Concarneau marine station, French National Museum of Natural History (MNHN)
+Bachir Balech:
+    git: bachob5
+    orcid: 0000-0002-4419-0729
+    affiliation: Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, Consiglio Nazionale delle Ricerche (IBIOM-CNR), ELIXIR-IT
+Matteo Montagna:
+    git: MontagnaLab
+    orcid: 0000-0003-4465-7146
+    affiliation: Department of Agricultural Sciences, University of Naples Federico II; ELIXIR-IT
+Angela P. Fuentes-Pardo:
+    git: apfuentes
+    orcid: 0000-0002-5734-9030
+    affiliation: Science for Life Laboratory (SciLifeLab) Data Centre. Department of Immunology, Genetics and Pathology. Uppsala University, Sweden
