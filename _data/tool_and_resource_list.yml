@@ -1641,12 +1641,12 @@
     fairsharing: wBOua0
     tess: PLAZA
   url: https://bioinformatics.psb.ugent.be/plaza/
-- description: Platform for the study of the impact of pathological mutations in protein stuctures.
-  id: pmut
-  name: PMut
+- description: Python3 module that help in the prediction of pathology in protein mutations.
+  id: pymut
+  name: PyMut
   registry:
-    biotools: pmut
-  url: http://mmb.irbbarcelona.org/PMut
+    biotools: pymut
+  url: http://mmb.irbbarcelona.org/PMut/pymut
 - description: PRoteomics IDEntifications (PRIDE) Archive database
   id: pride
   name: PRIDE
