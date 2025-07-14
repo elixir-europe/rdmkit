@@ -23,7 +23,7 @@ training:
   - name: CSC - Research data management services for life science research (youtube video)
     url: https://youtu.be/lf9L7PYQrBE
   - name: Data analysis with Chipster - Course packages
-    url: https://chipster.rahtiapp.fi/manual/courses.html
+    url: https://chipster.2.rahtiapp.fi/manual/courses.html
   - name: Tutorials and lecture playlists on different topics (youtube)
     registry: YouTube
     url: https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists

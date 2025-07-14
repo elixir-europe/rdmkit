@@ -196,7 +196,7 @@
   name: ATCC
   registry:
     biotools: atcc
-  url: https://www.lgcstandards-atcc.org/en.aspx#
+  url: https://www.atcc.org/
 - description: Free, publicly available web-based, open-source software application developed by the OHDSI community to support the design and execution of observational analyses to generate real world evidence from patient level observational data.
   id: atlas
   name: Atlas
@@ -293,10 +293,6 @@
   id: biodiversity-information-standards
   name: Biodiversity Information Standards (TDWG)
   url: https://www.tdwg.org
-- description: Platform designed to provide web-access to atomistic-MD trajectories for macromolecules involved in the COVID-19 disease.
-  id: bioexcel-covid-19
-  name: BioExcel COVID-19
-  url: https://bioexcel-cv19.bsc.es/#/
 - description: The BioImage Archive stores and distributes biological images that are useful to life-science researchers.
   id: bioimagearchive
   name: BioImageArchive
@@ -456,11 +452,12 @@
 - description: A version management tool for modifying strains
   id: cellrepo
   name: CellRepo
-  url: https://cellrepo.herokuapp.com/
+  url: https://www.cellrepo.com/
 - description: An ontology for expressing cellular (or multi-cellular) terms with applications in microscopy
   id: cellular-microscopy-phenotype-ontology
   name: Cellular Microscopy Phenotype Ontology (CMPO)
   registry:
+    fairsharing: knp11s
     tess: Cellular Microscopy Phenotype Ontology (CMPO)
   url: https://www.ebi.ac.uk/cmpo/
 - description: CERNBox cloud data storage, sharing and synchronization
@@ -542,7 +539,7 @@
 - description: Examples and tools to create a codebook by the Data Documentation Initiative (DDI)
   id: create-a-codebook
   name: Create a Codebook
-  url: https://ddialliance.org/training/getting-started-new-content/create-a-codebook
+  url: https://ddialliance.org/create-a-codebook
 - description: It helps you choose the right Creative Commons license for your needs.
   id: creative-commons-license-chooser
   name: Creative Commons License Chooser
@@ -602,6 +599,8 @@
 - description: DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
   id: data-catalog-vocabulary
   name: Data Catalog Vocabulary (DCAT)
+  registry:
+    fairsharing: h4j3qm
   url: https://www.w3.org/TR/vocab-dcat-2/
 - description: List of metadata standards
   id: data-curation-centre-metadata-list
@@ -693,6 +692,7 @@
   name: DNA Data Bank of Japan (DDBJ)
   registry:
     biotools: ddbj
+    fairsharing: k337f0
   url: https://www.ddbj.nig.ac.jp/index-e.html
 - description: Docker is a software for the execution of applications in virtualized environments called containers. It is linked to DockerHub, a library for sharing container images
   id: docker
@@ -938,7 +938,7 @@
   name: FAIR-Wizard
   registry:
     tess: FAIR-Wizard
-  url: https://wwwdev.ebi.ac.uk/ait/fair-wizard/home
+  url: https://fair-wizard.com/
 - description: Help you discover resources to measure and improve FAIRness.
   id: fairassist-org
   name: FAIRassist.org
@@ -1176,6 +1176,7 @@
   name: Intrinsically disordered proteins ontology (IDPO)
   registry:
     biotools: idpo
+    fairsharing: bc973b
   url: https://disprot.org/ontology
 - description: The Integrated Risk Information System (IRIS) resource evaluates information on health that might arise after exposure to environmental contaminants.
   id: iris
@@ -1247,6 +1248,7 @@
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
   registry:
     biotools: lpsn
+    fairsharing: 8c6a6b
   url: https://lpsn.dsmz.de
 - description: EuroHPC world-class supercomputer
   id: lumi
@@ -1311,12 +1313,13 @@
   id: metagen-fastqc
   name: Metagen-FastQC
   url: https://github.com/alakob/Metagen-FastQC-Docker
-- description: Minimum Information About Disorder Experiments (MIADE) standard
+- description: Minimum information guidelines for experiments structurally characterising intrinsically disordered protein regions.
   id: miade
-  name: MIADE
+  name: Minimum Information About Disorder Experiments (MIADE)
   registry:
-    tess: MIADE
-  url: https://www.psidev.info/intrinsically-disordered-proteins-workgroup
+    fairsharing: ff0b20
+    tess: Minimum Information About Disorder Experiments
+  url: https://www.psidev.info/intrinsically-disordered-proteins
 - description: Minimum Information About a Plant Phenotyping Experiment
   id: miappe
   name: MIAPPE
@@ -1618,7 +1621,7 @@
   name: PHIS
   registry:
     tess: PHIS
-  url: http://www.phis.inra.fr/
+  url: https://opensilex.github.io/phis-docs-community/
 - description: PIA is a toolbox for mass spectrometrey based protein inference and identification analysis.
   id: pia-protein-inference-algorithms
   name: PIA - Protein Inference Algorithms
@@ -1911,18 +1914,21 @@
   name: Synthetic Biology Open Language (SBOL)
   registry:
     biotools: sbol
+    fairsharing: cwf4py
   url: https://sbolstandard.org
 - description: An open format for computational models of biological processes
   id: systems-biology-markup-language
   name: Systems Biology Markup Language (SBML)
   registry:
     biotools: sbml
-  url: http://sbml.org/Main_Page
+    fairsharing: 9qv71f
+  url: https://sbml.org/
 - description: The Toxin and Toxin Target Database is a bioinformatics resource that combines exhaustive toxin data with toxin target information. Currently it presents more than 42,000 toxin-target associations extracted from other databases, government documents, books and scientific literature. Each toxin record includes data on chemical properties and descriptors, toxicity values and medical information.
   id: t3db
   name: Toxin and Toxin Target Database (T3DB)
   registry:
     biotools: t3db
+    fairsharing: psn0h2
   url: http://www.t3db.ca/
 - description: Talend is an open source data integration platform.
   id: talend
@@ -2175,7 +2181,7 @@
 - description: The Common Workflow Language CWL is an emerging standard for writing workflows that are portable across multiple workflow engines and platforms. Toil has full support for the CWL v1.0, v1.1, and v1.2 standards.
   id: cwl-in-toil
   name: CWL in Toil
-  url: https://toil.readthedocs.io/en/latest/running/cwl.html
+  url: https://toil.readthedocs.io/en/latest/cwl/running.html
 - description: This is the reference implementation of the Common Workflow Language open standards. It is intended to be feature complete and provide comprehensive validation of CWL files as well as provide other tools related to working with CWL.
   id: cwltool
   name: cwltool
@@ -2345,6 +2351,7 @@
   name: Electron Microscopy Data Bank (EMDB)
   registry:
     biotools: emdb
+    fairsharing: 651n9j
   url: https://www.ebi.ac.uk/emdb/
 - description: Integrated Resource for Reproducibility in Macromolecular Crystallography. Repository of diffraction experiments used to determine protein structures in the PDB, contributed by the CSGID, SSGCID, JCSG, MCSG, SGC, and other large-scale projects, as well as individual research laboratories.
   id: irrmc
@@ -2670,6 +2677,7 @@
   name: Human Phenotype Ontology (HPO)
   registry:
     biotools: hpo
+    fairsharing: kbtt7f
   url: https://hpo.jax.org/app/
 - description: MinSCe is a minimum set of metadata categories used to describe a single-cell assay in sufficient detail to enable the analysis of transcriptomic data.
   id: minsce
@@ -2840,6 +2848,8 @@
 - description: A standard for medical imaging data storage and transmission.
   id: dicom
   name: Digital Imaging and Communications in Medicine (DICOM)
+  registry:
+    fairsharing: b7z8by
   url: https://www.dicomstandard.org
 - description: A classification system for oncology, used in cancer registries and pathology reporting.
   id: icd-o-3
@@ -2898,7 +2908,7 @@
 - description: Integrated clinical and genomic data for over 100,000 cancer patients from the International Cancer Genome Consortium.
   id: icgc-argo
   name: ICGC-ARGO
-  url: https://dcc.icgc-argo.org/
+  url: https://www.icgc-argo.org
 - description: Real-world cancer genomic dataset aggregated from multiple institutions.
   id: aacr-genie
   name: AACR-GENIE
@@ -2906,7 +2916,7 @@
 - description: Platform from Memorial Sloan Kettering providing molecular and clinical data to support precision oncology.
   id: msk-chord
   name: MSK-CHORD
-  url: https://www.mskcc.org/research-areas/programs-centers/msk-chord
+  url: https://datacatalog.mskcc.org/dataset/11458
 - description: Multi-omic cancer dataset of >7000 patients, including whole genome sequencing and clinical outcomes.
   id: hmf
   name: Hartwig Medical Foundation (HMF)
@@ -2975,6 +2985,7 @@
   name: Therapeutic Target Database (TTD)
   registry:
     biotools: ttd
+    fairsharing: fwzf0w
   url: https://idrblab.net/ttd/
 - description: Pharmacogenomics knowledge base including cancer pharmacogenomic information.
   id: pharmgkb-cancer-pgx
@@ -3017,6 +3028,8 @@
 - description: A single standardised international medical terminology.
   id: meddra
   name: Medical Dictionary for Regulatory Activities (MedDRA)
+  registry:
+    fairsharing: ad3137
   url: https://www.meddra.org/
 - description: A scale for assessing patient functional status.
   id: ecog
@@ -3179,3 +3192,10 @@
   id: evora-ontology
   name: EVORA Ontology
   url: https://www.ebi.ac.uk/ols4/ontologies/evorao
+- description: A comprehensive resource of channels, pores and tunnels found in biomacromolecular structures deposited in the Protein Data Bank.
+  id: channelsdb
+  name: ChannelsDB 2.0
+  registry:
+    biotools: channelsdb
+    fairsharing: d33rx4
+  url: https://channelsdb2.biodata.ceitec.cz/
