@@ -76,13 +76,10 @@ BioData.pt talks comprise a series of monthly webinars given by BioData.pt colla
 
 **2021-09-20**
 
-3rd Open Science FAIR Conference, an international event for all topics related to Open Science
-OS Fair 2021 aims to bring together and empower open science communities and services;
-to identify common practices related to open science;
-to see what are the best synergies to deliver and operate services that work for many;
-and to bring experiences from all around the world and learn from each other.
-- [Program zoom links for panel sessions](https://www.opensciencefair.eu/2021/programme)
-- [Plenaries on youtube](https://www.youtube.com/watch?v=TrZrRcCoQSo)
+3rd Open Science FAIR Conference; an international event for all topics related to Open Science
+OS Fair 2021 aims to bring together and empower open science communities and services; to identify common practices related to open science, to see what are the best synergies to deliver and operate services that work for many and, to bring experiences from all around the world and learn from each other.
+- [Event page](https://www.opensciencefair.eu/2021/)
+- [Plenaries on YouTube](https://www.youtube.com/watch?v=TrZrRcCoQSo)
 
 
 
