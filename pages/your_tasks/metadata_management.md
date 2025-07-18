@@ -70,12 +70,12 @@ Due to the large variety of experiments, techniques and collaborative studies th
   * File naming convention
   * Versioning system
 
-* The established data organization system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, RDF, HTML). The description of the data organization system has to be placed in the folder at the highest level (e.g. “Project” folder).
+* The established data organisation system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, RDF, HTML). The description of the data organisation system has to be placed in the folder at the highest level (e.g. “Project” folder).
 
 * [Study-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/study-level-documentation/) and [data-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/data-level/) documentation can be provided as
   * README file
   * {% tool "create-a-codebook" %}
-  * Data dictionary ([see an example](https://webdav-r3lab.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
+  * Data dictionary ([see an example](https://webdav.lcsb.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
   Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception since its main purpose is to be human-readable, i.e. not intended to be machine-readable or -actionable.
@@ -100,7 +100,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Description
 
-There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. DCAT, Dublin core, (bio)schema.org) to specific data types (e.g. MIABIS for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
+There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
 
 
 ### Considerations
@@ -117,7 +117,7 @@ There are multiple standards for different types of data, ranging from generic d
   * On the repository website, go through the submission process (try to submit some dummy data) to identify metadata requirements. For instance, if you consider publishing your transcriptomic data in ArrayExpress, you can make your metadata spreadsheet by using [Annotare 2.0 submission tool](https://www.ebi.ac.uk/fg/annotare/), at the beginning of the project.
   * Be aware that data type specific repositories usually have check-lists for metadata. For example, the European Nucleotide Archive provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
-* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {%tool "miame" %}, {%tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
+* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {% tool "miame" %}, {% tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
   * {% tool "min-info-standards" %}
   * {% tool "rda-standards" %}
   * {% tool "fairsharing" %} at “Standards” and “Collections”
