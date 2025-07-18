@@ -42,7 +42,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
             # Check all markdown, html and reStructuredText files in repo (default)
-            args: _site/ --fallback-extensions html --exclude '^https://github\.com' --exclude-path /all_tools_and_resources.html,/all_training_resources.html
+            args: _site/ --fallback-extensions html --exclude '^https://github\.com' --exclude-path all_tools_and_resources.html,all_training_resources.html
             # Don't fail action on broken links
             fail: false
             lycheeVersion: v0.19.1
