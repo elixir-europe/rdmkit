@@ -89,7 +89,7 @@ Greece has made significant progress in adopting Open Science policies, aligning
    - **Open by default**: Research data must be openly available unless legal or ethical restrictions apply.
    - **FAIR principles**: Research data should be managed following international standards for metadata and licensing.
    - **Permanent Identifiers**: Research data must be assigned persistent digital identifiers (DOIs).
-   - **Machine-readable metadata**: Research software must be documented using OpenAIRE Guidelines, codemeta.json, and schema.org.
+   - **Machine-readable metadata**: Research software must be documented using OpenAIRE Guidelines, codemeta.json, and {% tool "schema-org" %} attributes.
    - **Open Data Licenses**: Researchers should use standardized open licenses, with a preference for CC-BY (Attribution Only).
    - **Mandatory Data Management Plans (DMPs)**: All research projects must include a Data Management Plan (DMP).
 

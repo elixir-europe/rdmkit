@@ -70,7 +70,7 @@
   name: PlantCV
   registry:
     biotools: plantcv_v2
-  url: https://bio.tools/plantcv_v2
+  url: https://github.com/danforthcenter/plantcv-v2-paper
 - description: Phenomenal-3D is an automatic open-source library for 3D shoot architecture reconstruction and analysis for image-based plant phenotyping
   id: phenomenal-3d
   name: Phenomenal 3D
@@ -3199,3 +3199,10 @@
     biotools: channelsdb
     fairsharing: d33rx4
   url: https://channelsdb2.biodata.ceitec.cz/
+- description: Minimum Information About Biobank data Sharing (MIABIS) is dedicated to standardising data elements used to describe biobanks, research on samples, and associated data. 
+  id: miabis
+  name: MIABIS
+  registry:
+    fairsharing: s0jj2t
+  url: https://github.com/BBMRI-ERIC/miabis
+
