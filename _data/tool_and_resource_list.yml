@@ -1146,6 +1146,7 @@
   name: International Nucleotide Sequence Database Collaboration (INSDC)
   registry:
     biotools: insdc
+    tess: International Nucleotide Sequence Database Collaboration (INSDC)
   url: http://www.insdc.org
 - description: Data standards and formats for reporting flow cytometry data
   id: international-society-for-the-advancement-of-cytometry
@@ -2143,6 +2144,8 @@
 - description: The International Nucleotide Sequence Database Collaboration (INSDC) is a long-standing foundational initiative that operates between DDBJ, EMBL-EBI and NCBI. INSDC covers the spectrum of data raw reads, through alignments and assemblies to functional annotation, enriched with contextual information relating to samples and experimental configurations.
   id: international-nucleotide-sequence-database-collaboration
   name: International Nucleotide Sequence Database Collaboration
+  registry:
+    tess: International Nucleotide Sequence Database Collaboration
   url: http://www.insdc.org/
 - description: A number of ECPGR Central Crop Databases have been established through the initiative of individual institutes and of ECPGR Working Groups. The databases hold passport data and, to varying degrees, characterization and primary evaluation data of the major collections of the respective crops in Europe.
   id: ecpgr-central-crop-databases
@@ -3199,10 +3202,9 @@
     biotools: channelsdb
     fairsharing: d33rx4
   url: https://channelsdb2.biodata.ceitec.cz/
-- description: Minimum Information About Biobank data Sharing (MIABIS) is dedicated to standardising data elements used to describe biobanks, research on samples, and associated data. 
+- description: Minimum Information About Biobank data Sharing (MIABIS) is dedicated to standardising data elements used to describe biobanks, research on samples, and associated data.
   id: miabis
   name: MIABIS
   registry:
     fairsharing: s0jj2t
   url: https://github.com/BBMRI-ERIC/miabis
-
