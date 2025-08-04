@@ -292,6 +292,8 @@
 - description: Biodiversity Information Standards (TDWG), historically the Taxonomic Databases Working Group, work to develop biodiversity information standards
   id: biodiversity-information-standards
   name: Biodiversity Information Standards (TDWG)
+  registry:
+    fairsharing: '826786'
   url: https://www.tdwg.org
 - description: The BioImage Archive stores and distributes biological images that are useful to life-science researchers.
   id: bioimagearchive
@@ -353,6 +355,7 @@
   name: BoostDM
   registry:
     biotools: boostdm
+    tess: BoostDM
   url: https://www.intogen.org/boostdm/search
 - description: Cloud storage and file sharing service
   id: box
@@ -1171,6 +1174,7 @@
   name: IntoGen
   registry:
     biotools: intogen
+    tess: IntoGen
   url: https://www.intogen.org/search
 - description: Intrinsically disordered proteins ontology
   id: idpo
@@ -1207,6 +1211,8 @@
 - description: International information security standard
   id: iso-iec-27001
   name: ISO/IEC 27001
+  registry:
+    fairsharing: b2744f
   url: https://en.wikipedia.org/wiki/ISO/IEC_27001
 - description: A collaborative resource from IUPAC and IUBMB for naming standards in biochemistry
   id: iupac-iubmb-joint-commission-on-biochemical-nomenclature
@@ -2052,6 +2058,8 @@
 - description: Open source imaging informatics platform. It facilitates common management, productivity, and quality assurance tasks for imaging and associated data.
   id: xnat
   name: XNAT
+  registry:
+    biotools: xnat
   url: https://www.xnat.org/
 - description: Analysing of single or multiple subjects within the same project in XNAT
   id: xnat-pic-pipelines
