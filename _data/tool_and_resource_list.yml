@@ -64,7 +64,7 @@
   name: LeafNet
   registry:
     biotools: leafnet
-  url: https://bio.tools/leafnet
+  url: https://github.com/zhouyulab/leafnet
 - description: Plant Computer Vision (PlantCV)is an image processing toolkit for plant phenotyping analysis.
   id: plantcv
   name: PlantCV
