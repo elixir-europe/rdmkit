@@ -40,10 +40,9 @@ To collect health data directly from participants, an efficient data collection 
 * Any personally identifiable information (PII), including communication details like name, address, email, or telephone number, needs to be separated from data and stored in a separate system with additional security measures like Two-Factor Authentication and encryption at rest. 
 * Design the privacy policy for the survey according to relevant local guidelines with the information governance/data protection officer and IT team
 * Design the questionnaires with consideration given to interoperability (e.g. mapping questions/answers to concepts in clinical terminologies) and avoiding ambiguity in the questions.
-
   * Guidelines: 
-     - [EC Guidelines for the development and criteria for the adoption of Health Survey instruments](https://ec.europa.eu/health/ph_information/dissemination/reporting/healthsurveys_en.pdf)
-     - [EC Selection of a Coherent Set of Health Indicators for the European Union Phase II](https://ec.europa.eu/health/ph_projects/2000/monitoring/fp_monitoring_2000_frep_03_en.pdf)
+     * [EC Guidelines for the development and criteria for the adoption of Health Survey instruments](https://ec.europa.eu/health/ph_information/dissemination/reporting/healthsurveys_en.pdf)
+     * [EC Selection of a Coherent Set of Health Indicators for the European Union Phase II](https://ec.europa.eu/health/ph_projects/2000/monitoring/fp_monitoring_2000_frep_03_en.pdf)
   * Check the readability and accessibility of the questionnaires.
   * Use validated, standardised questionnaires where possible, for example REDCap has a [library of data collection instruments](https://redcap.vanderbilt.edu/consortium/library/search.php)
   * Use a collaborative editing platform with versioning 
@@ -66,10 +65,10 @@ To collect health data directly from participants, an efficient data collection 
 ### Solutions
 GDPR compliant EDC systems that support the capture of COMs:
 * {% tool "redcap" %} - Academic licence
-    - Check the licence terms carefully, as some uses in commercial research may not be allowed.
-    - REDCap – [online training videos](https://tess.elixir-europe.org/materials?tools=REDCap)
+  * Check the licence terms carefully, as some uses in commercial research may not be allowed.
+  * REDCap – [online training videos](https://tess.elixir-europe.org/materials?tools=REDCap)
 * {% tool "redcap-cloud" %} - Commercial licence
-    - A fully managed REDCap system based in the cloud, provided by nPhase.
+  * A fully managed REDCap system based in the cloud, provided by nPhase.
 * {% tool "castor" %} - Academic/commercial licence
 * {% tool "eu-survey" %} - SaaS provided by the EU Commission
 * {% tool "limesurvey" %} Open source, 
@@ -95,16 +94,16 @@ Electronic Health Record (EHR) data includes patient identifiers, diagnoses, dem
 The structure of EHRs varies widely within and between countries. Even within a single care provider, there may be multiple EHRs. National and international efforts are underway to drive EHR standardisation and interoperability. It is useful to keep in mind that EHRs are healthcare-oriented electronic tools with a data model design and functionalities intended for critical healthcare operations and not for research.  Therefore, specific standards and methods to extract and transform this information are required to allow such use ethically and legally. This section presents some of the transnational projects working towards improved reuse of EHR data, and the next section introduces key technical standards for storing, integrating, and exchanging EHR and clinical data.
 
 For member states within the EU, the European Commission published a proposed regulation for establishing the [European Health Data Space (or “EHDS”)](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en). The proposed regulation establishes a common space for health data where:
-  * Individuals are empowered through increased digital access to and control of their electronic personal health data
-  * Researchers, innovators and policymakers can request access to these electronic health data in a trusted and secure way that preserves the individual’s personal data
+* Individuals are empowered through increased digital access to and control of their electronic personal health data
+* Researchers, innovators and policymakers can request access to these electronic health data in a trusted and secure way that preserves the individual’s personal data
 The EHDS will also regulate the interoperability of EHRs to a certain extent, in particular to facilitate the exchange of the patient summary data.
 
 EHDS places a significant emphasis on promoting the secondary use of health data, to serve research, innovation, policy-making and regulatory purposes. To achieve this, several European initiatives have been launched to establish its foundation and define guiding principles. Among these endeavors, two signification projects stand out:
-- [TEHDAS]( https://tehdas.eu/), the joint action Towards the European Health Data Space, helped develop and promote concepts for the secondary use of health data to benefit public health and health research and innovation in Europe. TEHDAS produced [a set of recommendations]( https://tehdas.eu/results/) for the European Commission and member states to enable secondary use of health data.
-- [HealthData@EU Pilot](https://ehds2pilot.eu/) is a project designed to build a pilot version of the EHDS infrastructure for the secondary use of health data “HealthData@EU”. The project establishes connections between data platforms within a network infrastructure and develops services that facilitate the user journey for research projects using health data. It also offers guidelines for data standards, data quality, data security and data transfer to support this cross-border infrastructure.
+* [TEHDAS]( https://tehdas.eu/), the joint action Towards the European Health Data Space, helped develop and promote concepts for the secondary use of health data to benefit public health and health research and innovation in Europe. TEHDAS produced [a set of recommendations]( https://tehdas.eu/results/) for the European Commission and member states to enable secondary use of health data.
+* [HealthData@EU Pilot](https://ehds2pilot.eu/) is a project designed to build a pilot version of the EHDS infrastructure for the secondary use of health data “HealthData@EU”. The project establishes connections between data platforms within a network infrastructure and develops services that facilitate the user journey for research projects using health data. It also offers guidelines for data standards, data quality, data security and data transfer to support this cross-border infrastructure.
 
 The EU published an overview of the [national laws on electronic health records](https://health.ec.europa.eu/other-pages/basic-page/overview-national-laws-electronic-health-records-eu-member-states-2016_en) in 2016. Under US law, EHR data is classified as protected health information (PHI) and must comply with security laws and encrypt data properly when sending or retrieving such information. Examples of protected health data include patient names, phone numbers, addresses, dates of birth, social security numbers, and insurance information.
-  * Regulations: [Health Insurance Portability and Accountability Act (HIPAA) and Health Information Technology for Economic and Clinical Health (HITECH)](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)
+* Regulations: [Health Insurance Portability and Accountability Act (HIPAA) and Health Information Technology for Economic and Clinical Health (HITECH)](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)
 
 The [International Patient Summary (IPS)](https://international-patient-summary.net/) is a standardised set of basic patient-related physiological and clinical data that includes the most important health and care related facts required to ensure safe and secure healthcare. It comprises data about medications, allergies/intolerances, problems, immunizations, results and procedures for a specified patient. It is a joint standard of five standard development organisations (CEN, HL7, IHE, ISO and SNOMED) and is actively supported by the Global Digital Health Partnership and the World Health Organisation.
 
@@ -112,8 +111,8 @@ The [International Patient Summary (IPS)](https://international-patient-summary.
 
 It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems. These interchange formats are the standards that are likely to be present as part of the EHR and include:
 * {% tool "hl7-fhir" %} is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
-    * Real World Data for Clinical Research ({% tool "vulcan" %}) defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
-    * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
+  * {% tool "vulcan" %} defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
+  * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
 * {% tool "iso13606" %} is a standard designed by the European Committee for Standardization to define a rigorous and stable information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository. It may also be used for EHR communication between an EHR system and clinical applications or middleware components, or for representing EHR data within a federated record system
 * The {% tool "eehrxf" %} is recommended by the European Commission to be used for the exchange of EHR data for cross-border healthcare
 * The {% tool "isodis-14199" %} standard Biomedical Research Integrated Domain Group ([BRIDG](https://bridgmodel.nci.nih.gov/)) Model is a domain model for data interchange that enables semantic interoperability and intends to integrate biomedical, clinical research and routine healthcare data
@@ -121,11 +120,11 @@ It is likely that the use of one of the following standards will not be a choice
 
 These common data models are less likely to be directly supported by the EHR, but can facilitate sharing and analysis of data, however, EHR data are likely to require curation to these standards:
 * {% tool "cdisc" %} is a consortium, which defines several open standards for regulatory approval and case report forms in particular in the context of clinical trials meant for submission to FDA and EMA, e.g.
-      * {% tool "adam" %} Analysis Data Model for data and metadata of clinical trial statistical analysis
-      * {% tool "ctr-xml" %} Clinical Trial Registry-XML
-      * {% tool "odm-xml" %} Operational Data Model-XML
-      * {% tool "sdtm" %}	Study Data Tabulation Model for clinical study data in a tabular format
-* The OMOP Common Data Model {% tool "cdm" %} is an open community standard for observational health care data obtained from health records. It uses the OHDSI (Observational Health Data Sciences and Informatics) standard vocabularies. It has quickly gained traction over recent years, amongst others, through the support received from several large EU projects.
+  * {% tool "adam" %}
+  * {% tool "ctr-xml" %}
+  * {% tool "odm-xml" %}
+  * {% tool "sdtm" %}	for clinical study data in a tabular format
+* The {% tool "cdm" %} is an open community standard for observational health care data obtained from health records. It uses the OHDSI (Observational Health Data Sciences and Informatics) standard vocabularies. It has quickly gained traction over recent years, amongst others, through the support received from several large EU projects.
 * {% tool "fhim" %} is a UML-based logical health information model defined by the Open Group, intended to achieve interoperability between multiple healthcare standards and protocols
 * Detailed clinical model (DCM) is the {% tool "iso139722022" %} standard. It defines data elements, the relationships between such data elements and terminologies for detailed small, reusable clinical models
 Additionally, {% tool "fairsharing" %} can be used to search for more domain/disease-specific standards (if applicable).
@@ -134,11 +133,11 @@ Additionally, {% tool "fairsharing" %} can be used to search for more domain/dis
 **Data integration tooling**, from EHR to a common data model:
 * REDCap has an existing feature, {% tool "cdis" %}, which allows a REDCap project to interact with an EHR system and pull EHR data into REDCap
 * Tools to map datasets to the OMOP CDM
-    * [OHDSI software](https://www.ohdsi.org/software-tools/)
-    * {% tool "carrot-mapper" %}
+  * [OHDSI software](https://www.ohdsi.org/software-tools/)
+  * {% tool "carrot-mapper" %}
 Comprehensive lists of clinical terminologies are available from the {% tool "ontology-lookup-service" %} and {% tool "bioportal" %} ontology catalogues. Ontologies for use with the OMOP CDM are available from {% tool "ohdsi-athena" %}. Some examples of widely used clinical terminologies in health data research include:
 * International Classification of Diseases ({% tool "icd10" %}, {% tool "icd11" %})
-* Logical Observation Identifiers Names and Codes ({% tool "loinc" %}) for reporting laboratory test results
-* Systematized Nomenclature of Medicine – Clinical Terms ({% tool "snomed-ct" %})
-* Human Phenotype Ontology ({% tool "hpo" %})
-* Normalised names for clinical drugs ({% tool "rxnorm" %})
+* {% tool "loinc" %} for reporting laboratory test results
+* {% tool "snomed-ct" %}
+* {% tool "hpo" %}
+* Normalised names for clinical drugs {% tool "rxnorm" %}
