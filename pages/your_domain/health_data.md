@@ -112,7 +112,7 @@ The [International Patient Summary (IPS)](https://international-patient-summary.
 
 It is likely that the use of one of the following standards will not be a choice, but something imposed by the software providers of the EHR systems. These interchange formats are the standards that are likely to be present as part of the EHR and include:
 * {% tool "hl7-fhir" %} is a standard used for health care data exchange and/or storage of semantically annotated clinical or administrative health data that is useful for data integration and data interoperability. Within the FHIR ecosystem there are specific implementation guides for its use in research:
-    * Real World Data for Clinical Research ({% tool "vulcan" %}) defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
+    * {% tool "vulcan" %} defines a minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research
     * {% tool "fhir4fair" %} provides guidance on how FHIR can be used for supporting FAIR health data
 * {% tool "iso13606" %} is a standard designed by the European Committee for Standardization to define a rigorous and stable information architecture for communicating part or all of the EHR of a single patient between EHR systems or between EHR systems and a centralised EHR data repository. It may also be used for EHR communication between an EHR system and clinical applications or middleware components, or for representing EHR data within a federated record system
 * The {% tool "eehrxf" %} is recommended by the European Commission to be used for the exchange of EHR data for cross-border healthcare
@@ -121,11 +121,13 @@ It is likely that the use of one of the following standards will not be a choice
 
 These common data models are less likely to be directly supported by the EHR, but can facilitate sharing and analysis of data, however, EHR data are likely to require curation to these standards:
 * {% tool "cdisc" %} is a consortium, which defines several open standards for regulatory approval and case report forms in particular in the context of clinical trials meant for submission to FDA and EMA, e.g.
-      * {% tool "adam" %} Analysis Data Model for data and metadata of clinical trial statistical analysis
-      * {% tool "ctr-xml" %} Clinical Trial Registry-XML
-      * {% tool "odm-xml" %} Operational Data Model-XML
-      * {% tool "sdtm" %}	Study Data Tabulation Model for clinical study data in a tabular format
-* The OMOP Common Data Model {% tool "cdm" %} is an open community standard for observational health care data obtained from health records. It uses the OHDSI (Observational Health Data Sciences and Informatics) standard vocabularies. It has quickly gained traction over recent years, amongst others, through the support received from several large EU projects.
+
+    * {% tool "adam" %}
+    * {% tool "ctr-xml" %}
+    * {% tool "odm-xml" %}
+    * {% tool "sdtm" %}	for clinical study data in a tabular format
+
+* The {% tool "cdm" %} is an open community standard for observational health care data obtained from health records. It uses the OHDSI (Observational Health Data Sciences and Informatics) standard vocabularies. It has quickly gained traction over recent years, amongst others, through the support received from several large EU projects.
 * {% tool "fhim" %} is a UML-based logical health information model defined by the Open Group, intended to achieve interoperability between multiple healthcare standards and protocols
 * Detailed clinical model (DCM) is the {% tool "iso139722022" %} standard. It defines data elements, the relationships between such data elements and terminologies for detailed small, reusable clinical models
 Additionally, {% tool "fairsharing" %} can be used to search for more domain/disease-specific standards (if applicable).
@@ -138,7 +140,7 @@ Additionally, {% tool "fairsharing" %} can be used to search for more domain/dis
     * {% tool "carrot-mapper" %}
 Comprehensive lists of clinical terminologies are available from the {% tool "ontology-lookup-service" %} and {% tool "bioportal" %} ontology catalogues. Ontologies for use with the OMOP CDM are available from {% tool "ohdsi-athena" %}. Some examples of widely used clinical terminologies in health data research include:
 * International Classification of Diseases ({% tool "icd10" %}, {% tool "icd11" %})
-* Logical Observation Identifiers Names and Codes ({% tool "loinc" %}) for reporting laboratory test results
-* Systematized Nomenclature of Medicine – Clinical Terms ({% tool "snomed-ct" %})
-* Human Phenotype Ontology ({% tool "hpo" %})
-* Normalised names for clinical drugs ({% tool "rxnorm" %})
+* {% tool "loinc" %} for reporting laboratory test results
+* {% tool "snomed-ct" %}
+* {% tool "hpo" %}
+* Normalised names for clinical drugs {% tool "rxnorm" %}
