@@ -29,8 +29,6 @@ subitems:
     url: /your_domain
     image_url: /assets/img/section-icons/dna.svg
     subitems:
-      - title: Biodiversity
-        url: /biodiversity
       - title: Bioimaging data
         url: /bioimaging_data
       - title: Biomolecular simulation data
