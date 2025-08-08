@@ -3216,3 +3216,176 @@
   registry:
     fairsharing: s0jj2t
   url: https://github.com/BBMRI-ERIC/miabis
+- description: Global Biodiversity Information Facility (GBIF) is an international
+    network and data platform that provides open access to biodiversity data from
+    sources worldwide to support research and conservation
+  id: gbif
+  name: GBIF
+  registry:
+    biotools: https://bio.tools/GBIF
+    fairsharing: https://doi.org/10.25504/FAIRsharing.zv11j3
+  url: https://www.gbif.org/
+- description: Barcode of Life Data System (BOLD) is an online platform that manages
+    and provides access to DNA barcoding data, facilitating species identification
+    and biodiversity research.
+  id: bold
+  name: BOLD
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.en9npn
+  url: https://www.boldsystems.org/
+- description: The Ocean Biodiversity Information System (OBIS) is a global data platform
+    that provides access to marine biodiversity information to support research, conservation,
+    and sustainable ocean management.
+  id: obis
+  name: OBIS
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.3rv9m8
+  url: https://obis.org/
+- description: Global Genome Biodiversity Network (GGBN) is an international network
+    that preserves and provides access to high-quality genomic samples from across
+    the world's biodiversity for research and conservation
+  id: ggbn
+  name: GGBN
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.eff3b2
+  url: http://www.ggbn.org/
+- description: An authoritative classification and catalogue of marine names
+  id: worms
+  name: WORMS
+  registry:
+    biotools: https://bio.tools/worms
+    fairsharing: https://doi.org/10.25504/FAIRsharing.7g1bzj
+  url: https://www.marinespecies.org/index.php
+- description: Distributed System of Scientific Collections is a project that aims
+    to enhance the accessibility and interoperability of scientific collection data,
+    facilitating research and collaboration across various biodiversity collections
+    and institutions.
+  id: dissco
+  name: DISSCO
+  registry:
+    fairsharing: https://fairsharing.org/3816
+  url: https://www.dissco.eu/
+- description: Collaborative OPen Omics (COPO) is a portal for scientists to describe,
+    store and retrieve data more easily, using community standards and public repositories
+    that enable the open sharing of results. The COPO project is one of several projects
+    supported by the [Earlham Institute](https://www.earlham.ac.uk/research-project/collaborative-open-omics-copo)
+    (EI), in Norwich, United Kingdom.
+  id: genomes-on-a-tree
+  name: GoAT
+  registry:
+    biotools: https://bio.tools/goat
+  url: '[https://www.sanger.ac.uk/tool/genome-on-a-tree-goat/](https://www.sanger.ac.uk/tool/genome-on-a-tree-goat/)'
+- description: "Galaxy initiative for Biodiversity related domains. For now, two main\
+    \ Galaxy Ecology instances are available, on ecology.usegalaxy.eu and  ecology.usegalaxy.fr.\
+    \ Many tools exist for data / metadata management, notably to deal with \u201C\
+    Ecological Metadata Language (EML)\u201D"
+  id: ''
+  name: Galaxy Ecology
+  registry:
+    biotools: https://bio.tools/galaxy_ecology
+    software heritage: https://archive.softwareheritage.org/browse/search/?q=galaxyecology&with_visit=true&with_content=true
+  url: https://ecology.usegalaxy.eu/
+- description: Training materials from Galaxy Ecology initiative are centralized in
+    Galaxy Training Network platform and specific data/metadata management tutorials
+    exist.
+  id: ''
+  name: Galaxy Training for Ecology
+  registry:
+    tess: https://tess.elixir-europe.org/search?q=galaxy%2Becology
+    biotools: https://bio.tools/tiaas
+  url: '[https://training.galaxyproject.org/training-material/topics/ecology/](https://training.galaxyproject.org/training-material/topics/ecology/)'
+- description: The Ecological Metadata Language (EML) metadata standard was originally
+    developed for the earth, environmental and ecological sciences. It is based on
+    prior work done by the Ecological Society of America and associated efforts. It
+    has been developed to document any research data, and as such can be used outside
+    of these original subject areas. EML is implemented as a series of XML document
+    types that can by used in a modular and extensible manner to document research
+    data. Each EML module is designed to describe one logical part of the total metadata
+    that should be included with any dataset.
+  id: eml
+  name: Ecological Metadata Language (EML)
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.r3vtvx
+  url: https://eml.ecoinformatics.org/
+- description: Darwin Core (DwC) is a vocabulary that includes a glossary of terms
+    defined to facilitate the sharing of information about biological diversity.
+  id: dwc
+  name: DwC
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.xvf5y3
+  url: https://www.tdwg.org/standards/dwc/
+- description: CETAF is European network of biological and geological collections
+  id: cetaf
+  name: CETAF
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.12eced
+  url: https://cetaf.org/
+- description: ICZN is the International Code for Zoological Nomenclature
+  id: iczn
+  name: ICZN
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.588e65
+  url: https://www.iczn.org/
+- description: The International Code of Nomenclature for algae, fungi, and plants
+    is the set of rules and recommendations that govern the scientific naming of all
+    organisms traditionally treated as algae, fungi, or plants.
+  id: iapt
+  name: IAPT
+  registry: {}
+  url: https://www.iapt-taxon.org/nomen/main.php
+- description: Catalogue of Life is a collaboration that brings together contributions
+    of taxonomists and informaticians.
+  id: catalogue-of-life
+  name: CoL
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.9b63c9
+  url: https://www.catalogueoflife.org/
+- description: ChecklistBank is a repository and management system for taxonomic datasets.
+  id: checklistbank
+  name: ChecklistBank
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.00873e
+  url: https://www.checklistbank.org/
+- description: TreatmentBank is a service that extracts and makes available taxonomic
+    treatments, treatment citations and material citations among other data from scholarly
+    publications.
+  id: treatmentbank
+  name: TreatmentBank
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.fe8b36
+  url: https://plazi.org/treatmentbank/
+- description: UNITE is a database and sequence management platform of eukaryotic
+    sequences of the nuclear ribosomal ITS region.
+  id: unite
+  name: Unite
+  registry:
+    biotools: https://bio.tools/unite_rdna
+    fairsharing: https://doi.org/10.25504/FAIRsharing.cnwx8c
+  url: https://unite.ut.ee/index.php
+- description: Taxize is a tool that interacts with several application programming
+    interfaces (API) for taxonomic tasks, such as getting database specific taxonomic
+    identifiers, verifying species names, among other tasks.
+  id: taxize
+  name: Taxize
+  registry:
+    biotools: https://bio.tools/taxize
+  url: https://cran.r-project.org/web/packages/taxize/index.html
+- description: The taxonomyCleanr is a user friendly workflow and collection of functions
+    to help process taxonomic information
+  id: taxonomycleanr
+  name: taxonomyCleanr
+  registry: {}
+  url: https://github.com/EDIorg/taxonomyCleanr
+- description: MADBOT is a web application that provides a dashboard for managing
+    research data and metadata
+  id: madbot
+  name: MADBOT
+  registry: {}
+  url: https://gitlab.com/ifb-elixirfr/madbot
+- description: NMDC Field Notes is a mobile app that streamlines collection of sample
+    information with automated syncing with the NMDC Submission Portal
+  id: nmdc-field-notes
+  name: NMDC Field Notes
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.0a6aee
+  url: https://microbiomedata.org/field-notes/
