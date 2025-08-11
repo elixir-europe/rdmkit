@@ -94,7 +94,7 @@ Below, you can find some aspects that you need to consider to be able to estimat
 * If you need some reference datasets (e.g the reference genomes such as human genome.), ask IT if they provide it or consult  bioinformaticians that can set up automated public reference dataset retrieval.
 * For small data files and private projects, using the computational resources of your own laptop might be fine, but make sure to preserve the reproducibility of your work by using data analysis software such as {% tool "galaxy" %} or {% tool "r-markdown" %}.
 * For small data volume and small collaborative projects, a commonly accessible cloud storage, such as {% tool "nextcloud" %} (on-premises) or {% tool "owncloud" %} might be fine. Adhere to the policies of your institute.
-* For large data volume and bigger collaborative projects, you need a large storage volume on fast hardware that is closely tied to a computational resource accessible to multiple users, such as {% tool "rucio" %}, {% tool "transmart" %}, {% tool "semares" %} or {% tool "research-data-management-platform" %}.
+* For large data volume and bigger collaborative projects, you need a large storage volume on fast hardware that is closely tied to a computational resource accessible to multiple users, such as {% tool "rucio" %}, {% tool "transmart" %}, {% tool "semares" %} or {% tool "rdmp" %}.
 
 ## Where should you store the data after the end of the project?
 
