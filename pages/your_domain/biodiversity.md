@@ -1,6 +1,5 @@
 ---
 title: Biodiversity
-search_exclude: true
 description: Data management solutions for biodiversity data.
 contributors: [Josephine Burgin, Joana Pauperio, Anne-Françoise Adam-Blondon, Patrick Ruch, Robert Waterhouse, Valeria Di Cola, Erwan Corre, Yvan Le Bras, Peter Woollard, Bachir Balech, Matteo Montagna, Angela P. Fuentes Pardo, Solenne Correard]
 page_id: biodiversity
@@ -225,4 +224,6 @@ Here, we highlight key considerations to keep in mind when annotating and sharin
 * You can also use data brokering services or brokering tools that can help manage metadata and data submission to the public repositories (see section on biological material: metadata collection and publication).  
 * The bioproject accession should be included in the publication.
 
-## Bibliography {% bibliography --cited %}
+## Bibliography 
+
+{% bibliography --cited %}
