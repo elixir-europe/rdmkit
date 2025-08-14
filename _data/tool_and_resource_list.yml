@@ -3223,7 +3223,7 @@
   name: GBIF
   registry:
     biotools: https://bio.tools/GBIF
-    fairsharing: https://doi.org/10.25504/FAIRsharing.zv11j3
+    fairsharing: zv11j3
   url: https://www.gbif.org/
 - description: Barcode of Life Data System (BOLD) is an online platform that manages
     and provides access to DNA barcoding data, facilitating species identification
@@ -3231,7 +3231,7 @@
   id: bold
   name: BOLD
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.en9npn
+    fairsharing: en9npn
   url: https://www.boldsystems.org/
 - description: The Ocean Biodiversity Information System (OBIS) is a global data platform
     that provides access to marine biodiversity information to support research, conservation,
@@ -3239,7 +3239,7 @@
   id: obis
   name: OBIS
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.3rv9m8
+    fairsharing: 3rv9m8
   url: https://obis.org/
 - description: Global Genome Biodiversity Network (GGBN) is an international network
     that preserves and provides access to high-quality genomic samples from across
@@ -3247,14 +3247,14 @@
   id: ggbn
   name: GGBN
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.eff3b2
+    fairsharing: eff3b2
   url: http://www.ggbn.org/
 - description: An authoritative classification and catalogue of marine names
   id: worms
   name: WORMS
   registry:
     biotools: https://bio.tools/worms
-    fairsharing: https://doi.org/10.25504/FAIRsharing.7g1bzj
+    fairsharing: 7g1bzj
   url: https://www.marinespecies.org/index.php
 - description: Distributed System of Scientific Collections is a project that aims
     to enhance the accessibility and interoperability of scientific collection data,
@@ -3305,26 +3305,26 @@
   id: eml
   name: Ecological Metadata Language (EML)
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.r3vtvx
+    fairsharing: r3vtvx
   url: https://eml.ecoinformatics.org/
 - description: Darwin Core (DwC) is a vocabulary that includes a glossary of terms
     defined to facilitate the sharing of information about biological diversity.
   id: dwc
   name: DwC
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.xvf5y3
+    fairsharing: xvf5y3
   url: https://www.tdwg.org/standards/dwc/
 - description: CETAF is European network of biological and geological collections
   id: cetaf
   name: CETAF
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.12eced
+    fairsharing: 12eced
   url: https://cetaf.org/
 - description: ICZN is the International Code for Zoological Nomenclature
   id: iczn
   name: ICZN
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.588e65
+    fairsharing: 588e65
   url: https://www.iczn.org/
 - description: The International Code of Nomenclature for algae, fungi, and plants
     is the set of rules and recommendations that govern the scientific naming of all
@@ -3338,13 +3338,13 @@
   id: catalogue-of-life
   name: CoL
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.9b63c9
+    fairsharing: 9b63c9
   url: https://www.catalogueoflife.org/
 - description: ChecklistBank is a repository and management system for taxonomic datasets.
   id: checklistbank
   name: ChecklistBank
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.00873e
+    fairsharing: 00873e
   url: https://www.checklistbank.org/
 - description: TreatmentBank is a service that extracts and makes available taxonomic
     treatments, treatment citations and material citations among other data from scholarly
@@ -3352,7 +3352,7 @@
   id: treatmentbank
   name: TreatmentBank
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.fe8b36
+    fairsharing: fe8b36
   url: https://plazi.org/treatmentbank/
 - description: UNITE is a database and sequence management platform of eukaryotic
     sequences of the nuclear ribosomal ITS region.
@@ -3360,7 +3360,7 @@
   name: Unite
   registry:
     biotools: https://bio.tools/unite_rdna
-    fairsharing: https://doi.org/10.25504/FAIRsharing.cnwx8c
+    fairsharing: cnwx8c
   url: https://unite.ut.ee/index.php
 - description: Taxize is a tool that interacts with several application programming
     interfaces (API) for taxonomic tasks, such as getting database specific taxonomic
@@ -3387,5 +3387,5 @@
   id: nmdc-field-notes
   name: NMDC Field Notes
   registry:
-    fairsharing: https://doi.org/10.25504/FAIRsharing.0a6aee
+    fairsharing: 0a6aee
   url: https://microbiomedata.org/field-notes/
