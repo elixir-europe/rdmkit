@@ -3222,7 +3222,7 @@
   id: gbif
   name: GBIF
   registry:
-    biotools: https://bio.tools/GBIF
+    biotools: GBIF
     fairsharing: zv11j3
   url: https://www.gbif.org/
 - description: Barcode of Life Data System (BOLD) is an online platform that manages
@@ -3253,7 +3253,7 @@
   id: worms
   name: WORMS
   registry:
-    biotools: https://bio.tools/worms
+    biotools: worms
     fairsharing: 7g1bzj
   url: https://www.marinespecies.org/index.php
 - description: Distributed System of Scientific Collections is a project that aims
@@ -3273,7 +3273,7 @@
   id: genomes-on-a-tree
   name: GoAT
   registry:
-    biotools: https://bio.tools/goat
+    biotools: goat
   url: '[https://www.sanger.ac.uk/tool/genome-on-a-tree-goat/](https://www.sanger.ac.uk/tool/genome-on-a-tree-goat/)'
 - description: "Galaxy initiative for Biodiversity related domains. For now, two main\
     \ Galaxy Ecology instances are available, on ecology.usegalaxy.eu and  ecology.usegalaxy.fr.\
@@ -3282,7 +3282,7 @@
   id: ''
   name: Galaxy Ecology
   registry:
-    biotools: https://bio.tools/galaxy_ecology
+    biotools: galaxy_ecology
     software heritage: https://archive.softwareheritage.org/browse/search/?q=galaxyecology&with_visit=true&with_content=true
   url: https://ecology.usegalaxy.eu/
 - description: Training materials from Galaxy Ecology initiative are centralized in
@@ -3292,7 +3292,7 @@
   name: Galaxy Training for Ecology
   registry:
     tess: https://tess.elixir-europe.org/search?q=galaxy%2Becology
-    biotools: https://bio.tools/tiaas
+    biotools: tiaas
   url: '[https://training.galaxyproject.org/training-material/topics/ecology/](https://training.galaxyproject.org/training-material/topics/ecology/)'
 - description: The Ecological Metadata Language (EML) metadata standard was originally
     developed for the earth, environmental and ecological sciences. It is based on
@@ -3359,7 +3359,7 @@
   id: unite
   name: Unite
   registry:
-    biotools: https://bio.tools/unite_rdna
+    biotools: unite_rdna
     fairsharing: cnwx8c
   url: https://unite.ut.ee/index.php
 - description: Taxize is a tool that interacts with several application programming
@@ -3368,7 +3368,7 @@
   id: taxize
   name: Taxize
   registry:
-    biotools: https://bio.tools/taxize
+    biotools: taxize
   url: https://cran.r-project.org/web/packages/taxize/index.html
 - description: The taxonomyCleanr is a user friendly workflow and collection of functions
     to help process taxonomic information
