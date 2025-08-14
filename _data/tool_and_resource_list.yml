@@ -3331,7 +3331,6 @@
     organisms traditionally treated as algae, fungi, or plants.
   id: iapt
   name: IAPT
-  registry: {}
   url: https://www.iapt-taxon.org/nomen/main.php
 - description: Catalogue of Life is a collaboration that brings together contributions
     of taxonomists and informaticians.
@@ -3374,13 +3373,11 @@
     to help process taxonomic information
   id: taxonomycleanr
   name: taxonomyCleanr
-  registry: {}
   url: https://github.com/EDIorg/taxonomyCleanr
 - description: MADBOT is a web application that provides a dashboard for managing
     research data and metadata
   id: madbot
   name: MADBOT
-  registry: {}
   url: https://gitlab.com/ifb-elixirfr/madbot
 - description: NMDC Field Notes is a mobile app that streamlines collection of sample
     information with automated syncing with the NMDC Submission Portal
