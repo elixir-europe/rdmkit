@@ -135,7 +135,7 @@ Collecting extensive (or "long-tail") metadata can greatly enhance data reuse an
 * You can also reach out to data brokers or use brokering tools, that can help manage metadata and data submission to public repositories, as for example:   
   * {% tool "copo" %} (Collaborative OPen Omics) is a data broker that is involved in metadata and data submission for the ERGA initiative  
   * {% tool "madbot" %} (Metadata And Data Brokering Online Tool) is a web application that provides a dashboard for managing research data and metadata.  
-  * [Galaxy Ecology](https://ecology.usegalaxy.eu/), a Biodiversity oriented Galaxy instance, proposing data brokers functionalities in a common platform. Some examples of the tools available:  
+  * {% tool "galaxy-ecology" %}, a Biodiversity oriented Galaxy instance, proposing data brokers functionalities in a common platform. Some examples of the tools available:  
     * {% tool "ena-upload-tool" %} to publish in {% tool "european-nucleotide-archive" %},   
     * {% tool "eml" %} oriented tools allowing to create EML metadata,  
     * data packages that can be used to share data through international repositories as [DataONE](https://www.dataone.org/), accepting raw datafiles related to earth observation, or {% tool "gbif" %}, {% tool "obis" %}, [Emodnet](https://emodnet.ec.europa.eu/en) accepting DwC Archives related mainly to taxon occurrences.  
