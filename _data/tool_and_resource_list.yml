@@ -672,10 +672,6 @@
     fairsharing: dt9z89
     tess: DisProt
   url: https://disprot.org/
-- description: Semi-automatically generated, searchable catalogue of resources that are relevant to data management plans.
-  id: dmplanner
-  name: DMPlanner
-  url: https://dmplanner.athenarc.gr/
 - description: DMP Roadmap is a Data Management Planning tool
   id: dmproadmap
   name: DMPRoadmap
