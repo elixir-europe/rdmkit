@@ -79,5 +79,4 @@ However, a number of web-based DMP tools are currently available that greatly fa
 * Examples of useful resources for writing and implementing a DMP.
   * {% tool "fair-implementation-profile" %} and {% tool "fip-wizard" %} are effective instruments for clearly defining and explaining the particular implementation choices required to effectively enact FAIR principles during and after the course of a research project.
   * {% tool "research-data-management-organiser" %}: tool that supports the systematic planning, organisation and implementation of research data management throughout the course of a project.
-  * Resources about data management plan can be found via the {% tool "dmplanner" %} registry.
   * Webinars explaining what a data management plan is and when you might need one, such as the {% tool "research-management-plan" %} webinar produced in collaboration with Dr. Rob Hooft, Technical Coordinator of the Dutch TechCentre for Life Sciences, could be useful instruments to learn more about the topic.
