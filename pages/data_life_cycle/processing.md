@@ -4,7 +4,7 @@ page_id: process
 description: Introduction to data processing.
 contributors: [Rob Hooft, Munazah Andrabi]
 related_pages: 
-  your_tasks: [data_analysis, data_organisation, data_quality, data_provenance]
+  Your_tasks: [data_analysis, data_organisation, data_quality, data_provenance]
 training:
   - name: Training in TeSS
     registry: TeSS

@@ -7,7 +7,7 @@ coordinators: [Wei Gu]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
 related_pages:
-  tool_assembly: [transmed]
+  Tool_assembly: [transmed]
 
 training:
   - name: Training in TeSS
@@ -33,7 +33,7 @@ national_resources:
     how_to_access: registration
     instance_of: data-stewardship-wizard
     related_pages:
-      your_tasks: [dmp]
+      Your_tasks: [dmp]
     url: https://learning.dsw.elixir-europe.org/dashboard
 
   - name: DPMRoadmap @ ELIXIR Luxembourg
@@ -41,15 +41,15 @@ national_resources:
     how_to_access: registration
     instance_of: dmproadmap
     related_pages:
-      your_tasks: [dmp]
+      Your_tasks: [dmp]
     url: https://dmponline.elixir-luxembourg.org/
 
   - name: Luxembourg Covid-19 data portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  
     related_pages:
-      tool_assembly: [covid19_data_portal]
-      your_domain: [human data]
-      your_tasks: [sensitive, existing data, data publication]
+      Tool_assembly: [covid19_data_portal]
+      Your_domain: [human data]
+      Your_tasks: [sensitive, existing data, data publication]
     url: https://covid19dataportal.lu/
 
 ---

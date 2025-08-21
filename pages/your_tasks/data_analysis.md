@@ -4,7 +4,7 @@ contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe, Sven Twar
 description: How to make data analysis FAIR.
 page_id: data_analysis
 related_pages:
-  tool_assembly: [nels, xnat_pic, transmed, ome, galaxy]
+  Tool_assembly: [nels, xnat_pic, transmed, ome, galaxy]
 training:
   - name: Training in TeSS
     registry: TeSS

@@ -4,7 +4,7 @@ contributors: [Flora D'Anna, Daniel Faria]
 description: How to write a Data Management Plan (DMP).
 page_id: dmp
 related_pages: 
-  tool_assembly: [nels, tsd]
+  Tool_assembly: [nels, tsd]
 training:
   - name: Training in TeSS
     registry: TeSS

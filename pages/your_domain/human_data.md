@@ -4,8 +4,8 @@ description: Data management solutions for human data.
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Vilem Ded, Teresa D'Altri]
 page_id: human_data
 related_pages:
-  your_tasks: [sensitive, gdpr_compliance]
-  tool_assembly: [tsd, covid19_data_portal, transmed, fairtracks]
+  Your_tasks: [sensitive, gdpr_compliance]
+  Tool_assembly: [tsd, covid19_data_portal, transmed, fairtracks]
 training:
   - name: Training in TeSS
     registry: TeSS

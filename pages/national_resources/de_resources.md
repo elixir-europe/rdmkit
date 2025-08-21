@@ -16,41 +16,41 @@ national_resources:
     description: Electronic Laboratory Notebook (ELN) selection service. 
     url: https://eln-finder.ulb.tu-darmstadt.de/home
     related_pages:
-      your_tasks: [metadata]
-      your_role: [researcher, research_software_engineer]
+      Your_tasks: [metadata]
+      Your_role: [researcher, research_software_engineer]
   - name: ELN Guide
     description: Guide for Electronic Laboratory Notebooks (ELN). 
     url: https://repository.publisso.de/resource/frl:6425772
     related_pages:
-      your_tasks: [metadata]
-      your_role: [researcher, research_software_engineer]
+      Your_tasks: [metadata]
+      Your_role: [researcher, research_software_engineer]
   - name: ELN Video Tutorials
     description: Video Tutorials for Electronic Laboratory Notebooks (ELN). 
     url: https://www.youtube.com/playlist?list=PLJYlS0FDTMq17tvYMeuI2Ct5XtykRFy0K
     related_pages:
-      your_tasks: [metadata]
-      your_role: [researcher, research_software_engineer]
+      Your_tasks: [metadata]
+      Your_role: [researcher, research_software_engineer]
   - name: GFBio Data Management Plan Tool
     description: DMP creation and support by German Federation for Biological Data (GFBio).
     related_pages:
-      your_tasks: [dmp]
+      Your_tasks: [dmp]
     url: https://www.gfbio.org/plan
   - name: GHGA
     description: The German Human Genome-Phenome Archive.
     related_pages:
-      your_tasks: [storage, metadata]
-      your_role: [researcher, data_steward]
+      Your_tasks: [storage, metadata]
+      Your_role: [researcher, data_steward]
     url: https://ghga.dkfz.de/
   - name: PUBLISSO
     description: Open access publishing platform for life sciences.
     related_pages:
-      your_tasks: [data_publication]
-      your_role: [researcher, data_steward]
+      Your_tasks: [data_publication]
+      Your_role: [researcher, data_steward]
     url: https://www.publisso.de/en/
   - name: RDMO
     description: Research Data Management Organiser.
     related_pages:
-      your_tasks: [dmp]
+      Your_tasks: [dmp]
     url: https://rdmorganiser.github.io/
 
 ref_to_main_resources:

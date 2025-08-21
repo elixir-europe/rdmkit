@@ -5,8 +5,8 @@ contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erw
 related_pages: 
 page_id: plants
 related_pages: 
-  your_tasks: [metadata]
-  tool_assembly: [plant_geno_assembly, plant_pheno_assembly, fairtracks]
+  Your_tasks: [metadata]
+  Tool_assembly: [plant_geno_assembly, plant_pheno_assembly, fairtracks]
 training:
   - name: Training in TeSS
     registry: TeSS
