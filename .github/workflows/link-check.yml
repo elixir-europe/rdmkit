@@ -45,7 +45,7 @@ jobs:
             args: _site/ --fallback-extensions html --exclude '^https://github\.com' --exclude-path all_tools_and_resources.html,all_training_resources.html
             # Don't fail action on broken links
             fail: false
-            lycheeVersion: v0.19.1
+            lycheeVersion: v0.20.0
             
       - name: Add page URL
         run: |
