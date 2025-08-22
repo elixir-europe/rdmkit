@@ -23,16 +23,7 @@ national_resources:
       Your_role: [data_steward, researcher]
       Your_tasks: [metadata]
     url: https://cyverseuk.org/
-    
-  - name: Jisc Research data management toolkit
-    description: "Guidance on the research data lifecycle that signposts resources from a wide range of organisations and websites."
-    how_to_access:
-    instance_of:
-    related_pages:
-      Your_role: [data_steward, researcher]
-      Your_tasks: [metadata]
-    url: https://web.archive.org/web/20230530165420/https://www.jisc.ac.uk/guides/rdm-toolkit
-    
+
   - name: Agrischema
     description: "Linked data schemas for the fields of agriculture, food, agri-business, plant biology."
     how_to_access:
