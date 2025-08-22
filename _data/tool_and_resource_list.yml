@@ -3212,3 +3212,7 @@
   registry:
     fairsharing: s0jj2t
   url: https://github.com/BBMRI-ERIC/miabis
+- description: A collection of information and references with relevance for the microbiology community in terms of Research Data Management, Data Analysis, FAIR principles, standards, and much more.
+  id: nfdi4microbiotakb
+  name: NFDI4Microbiota Knowledge Base
+  url: https://knowledgebase.nfdi4microbiota.de/Getting-Started/01-introduction.html
