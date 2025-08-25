@@ -143,7 +143,7 @@
       <key variable="citation-number"/>
     </sort>
     <layout vertical-align="sup" delimiter=",">
-      <text variable="citation-number"/>
+      <text variable="citation-number" prefix="[" suffix="]"/>
     </layout>
   </citation>
   <bibliography et-al-min="6" et-al-use-first="1" second-field-align="flush" entry-spacing="0" line-spacing="2">
