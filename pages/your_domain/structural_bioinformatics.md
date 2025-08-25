@@ -4,8 +4,8 @@ description: Data management solutions for structural bioinformatics data.
 contributors: [Gerardo Tauriello, Ian Sillitoe, Nicola Bordin, Christine Orengo, Mihaly Varadi, Sameer Velankar, Jiří Černý, Carolina Simón Guerrero]
 page_id: struct_bioinfo
 related_pages: 
-  your_tasks: []
-  tool_assembly: []
+  Your_tasks: []
+  Tool_assembly: []
 training:
   - name: Training in TeSS
     registry: TeSS

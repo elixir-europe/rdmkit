@@ -14,25 +14,25 @@ national_resources:
     description: The Spanish Supercomputing Network's mission is to offer the resources and services of supercomputing and data management necessary for the development of innovative and high-quality scientific and technological projects, through competitive calls based on the scientific excellence of the projects to be developed.
     how_to_access: 
     related_pages:
-      your_role: [researcher, data_steward, research_software_engineer]
+      Your_role: [researcher, data_steward, research_software_engineer]
     url: https://www.res.es/en
   - name: RedIRIS
     description: Spanish academic and research network that provides advanced communication services to the scientific community and national universities.
     how_to_access: 
     related_pages:
-      your_role: [researcher, data_steward, research_software_engineer]
+      Your_role: [researcher, data_steward, research_software_engineer]
     url: https://www.rediris.es/
   - name: Recolecta
     description: The national aggregator of open access repositories. This platform brings together all the Spanish digital infrastructures in which open access research results are published and / or deposited.
     how_to_access: 
     related_pages:
-      your_role: [researcher, data_steward, research_software_engineer]
+      Your_role: [researcher, data_steward, research_software_engineer]
     url: https://recolecta.fecyt.es/repositorios-recolectados 
   - name: Datos.gob.es
     description: Open data portal of the spanish government. A meeting point for the various actors that make up the open data ecosystem.
     how_to_access: 
     related_pages:
-      your_role: [researcher, data_steward, research_software_engineer]
+      Your_role: [researcher, data_steward, research_software_engineer]
     url: https://datos.gob.es/
 ---
 
