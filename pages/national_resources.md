@@ -10,4 +10,4 @@ Here, we point to non-exhaustive collection of country-specific information reso
 These country-specific RDM overviews will help readers to seek national advice and could be an inspirational guide for other countries to implement and promote data management practices at national level.
 
 <br>
-{% include section-navigation-tiles-simple.html type="national_resources" col=3 %}
+{% include section-navigation-tiles-simple.html type="National_resources" col=3 %}

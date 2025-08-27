@@ -4,7 +4,7 @@ contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg, Ivan Mičetić, Marin
 description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
-  tool_assembly: [ome, transmed, xnat_pic]
+  Tool_assembly: [ome, transmed, xnat_pic]
 dsw:
 - name: How will you do file naming and file organization?
   uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8

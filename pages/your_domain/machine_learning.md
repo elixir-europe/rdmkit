@@ -5,7 +5,7 @@ contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonz
 Edward Parkinson, Federico Bianchini, Munazah Andrabi]
 page_id: machine_learning
 related_pages:
-  your_tasks: [data_quality, sensitive]
+  Your_tasks: [data_quality, sensitive]
 training:
   - name: Machine learning events and materials on TeSS
     registry: TeSS

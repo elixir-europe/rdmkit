@@ -5,7 +5,7 @@ description: How to identify the sensitivity of different research data types
 page_id: sensitive
 redirect_from: sensitive_data
 related_pages: 
-  tool_assembly: [tsd, covid19_data_portal, transmed]
+  Tool_assembly: [tsd, covid19_data_portal, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS

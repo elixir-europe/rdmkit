@@ -1,6 +1,7 @@
 ---
 title: News
-custom_editme: _data/news.yml
+github: 
+    file_path: _data/news.yml
 ---
 
 [<i class="fa fa-rss me-2"></i>Subscribe to the RSS feed]({{ '/feed.xml' | relative_url }}){: class="btn btn-light rounded-pill"}

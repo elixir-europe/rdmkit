@@ -4,8 +4,8 @@ description: Data management solutions for proteomics data.
 contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig, Dirk Winkelhardt]
 page_id: proteomics
 related_pages:
-  your_tasks: [metadata]
-  tool_assembly: []
+  Your_tasks: [metadata]
+  Tool_assembly: []
 training:
   - name: Training in TeSS
     registry: TeSS

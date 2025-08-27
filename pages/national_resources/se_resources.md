@@ -19,33 +19,33 @@ national_resources:
     how_to_access: ELIXIR AAI login
     instance_of: data-stewardship-wizard
     related_pages:
-      your_tasks: [dmp]
+      Your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
     description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     instance_of: figshare
     related_pages:
-      your_tasks: [existing_data, data_publication]
+      Your_tasks: [existing_data, data_publication]
     url: https://scilifelab.figshare.com/
   - name: NBIS Data Management Consultation
     description: Free consultation service regarding data management questions in life science research.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     related_pages:
-      your_tasks: [dmp, data_publication, sensitive]
+      Your_tasks: [dmp, data_publication, sensitive]
     url: https://nbis.se/services/guidance-on-data-management
   - name: Swedish Pathogens Portal
     description: The Swedish Pathogens Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
     related_pages:
-      tool_assembly: [covid19_data_portal]
-      your_domain: [human_data]
-      your_tasks: [sensitive, existing_data, data_publication]
+      Tool_assembly: [covid19_data_portal]
+      Your_domain: [human_data]
+      Your_tasks: [sensitive, existing_data, data_publication]
     url: https://pathogens.se/ 
   - name: NAISS 
     description: The National Academic Infrastructure for Super­computing in Sweden (NAISS) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
     how_to_access: An application is required to gain access to the compute and storage services.
     related_pages:
-      your_tasks: [data_analysis, storage]
+      Your_tasks: [data_analysis, storage]
     url: https://www.naiss.se/ 
   - name: SciLifeLab RDM Guidelines
     description: Knowledge hub for the management of life science research data in Sweden.
@@ -53,15 +53,15 @@ national_resources:
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [sensitive]
+      Your_domain: [human_data]
+      Your_tasks: [sensitive]
     url: https://data-guidelines.scilifelab.se/topics/research-involving-human-data/
   - name: Federated EGA Sweden node
     description: Secure archiving and sharing of genetic and phenotypic data resulting from Swedish biomedical research projects.
     instance_of: the-european-genome-phenome-archive
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [sensitive, existing_data, data_publication]
+      Your_domain: [human_data]
+      Your_tasks: [sensitive, existing_data, data_publication]
     url: https://fega.nbis.se/
 ---
 

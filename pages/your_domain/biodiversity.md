@@ -4,8 +4,8 @@ description: Data management solutions for biodiversity data.
 contributors: [Josephine Burgin, Joana Pauperio, Anne-Françoise Adam-Blondon, Patrick Ruch, Robert Waterhouse, Valeria Di Cola, Erwan Corre, Yvan Le Bras, Peter Woollard, Bachir Balech, Matteo Montagna, Angela P. Fuentes Pardo, Solenne Correard]
 page_id: biodiversity
 related_pages: 
-  your_tasks: [dmp, data_organisation, metadata, data_brokering, machine_actionability, compliance, data_analysis]
-  tool_assembly: [galaxy, fairtracks]
+  Your_tasks: [dmp, data_organisation, metadata, data_brokering, machine_actionability, compliance, data_analysis]
+  Tool_assembly: [galaxy, fairtracks]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
   - name: Training about Biodiversity data

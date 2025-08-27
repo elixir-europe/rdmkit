@@ -5,9 +5,9 @@ description: Tool assembly for managing plant phenomic data.
 page_id: plant_pheno_assembly
 affiliations:
 related_pages: 
-  your_tasks: [metadata, data_publication]
-  your_domain: [plants]
-  tool_assembly: [plant_geno_assembly]
+  Your_tasks: [metadata, data_publication]
+  Your_domain: [plants]
+  Tool_assembly: [plant_geno_assembly]
 training:
   - name: MIAPPE training in TeSS
     registry: TeSS
