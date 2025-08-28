@@ -46,7 +46,7 @@ These research activities present unique data management challenges, especially 
 
 Addressing these challenges requires collaborative solutions involving better metadata practices, advanced bioinformatics tools, improved data integration platforms, and standardization efforts across the global biodiversity research community.
 
-In addition to the specific data management challenges faced in biodiversity research, there is the need to move towards [Open Link Data](https://www.ontotext.com/knowledgehub/fundamentals/linked-data-linked-open-data/) in Biodiversity and a linked **Biodiversity Knowledge Graph** (see [machine actionability](https://rdmkit.elixir-europe.org/machine_actionability) for further information on knowledge graph)**.**   
+In addition to the specific data management challenges faced in biodiversity research, there is the need to move towards [Open Link Data](https://www.ontotext.com/knowledgehub/fundamentals/linked-data-linked-open-data/) in Biodiversity and a linked **Biodiversity Knowledge Graph** (see [machine actionability](machine_actionability) for further information on knowledge graph)**.**   
 This shift could fundamentally transform the landscape of biodiversity research by enabling more efficient data integration, discovery, and re-use. Moving towards a **Biodiversity Knowledge Graph** represents an ambitious but essential step in modernizing biodiversity research. While significant challenges remain, the potential for improved data integration, accessibility, and re-use across multiple disciplines could transform the field and open up new avenues for understanding and conserving biodiversity.
 
 
