@@ -113,7 +113,7 @@ Collecting extensive (or "long-tail") metadata can greatly enhance data reuse an
   * For reference barcodes, {% tool "bold" %} is using the Barcoding Data Model ([BCDM](https://github.com/DNAdiversity/BCDM)).  
   * For reference genomes there are specific guidelines regarding sample metadata collection. For example, the [ERGA](https://www.erga-biodiversity.eu/) (European Reference Genomes Atlas) initiative developed the [ERGA sample manifest](https://github.com/ERGA-consortium/ERGA-sample-manifest) that aligns with current standards and the [Tree of Life Checklist](https://www.ebi.ac.uk/ena/browser/view/ERC000053) at {% tool "european-nucleotide-archive" %}.  
 * When referencing in the sample metadata information held in other repositories, as for example taxonomic information (also see the section Biological material: Taxonomic information), specimen collections or sampling protocols, always use persistent identifiers.  
-* Also see this page on [documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management).
+* Also see this page on [documentation and metadata](metadata_management).
 
 **Biobanking and specimen linking**
 
