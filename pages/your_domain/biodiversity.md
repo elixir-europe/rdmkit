@@ -102,7 +102,7 @@ Collecting extensive (or "long-tail") metadata can greatly enhance data reuse an
 
 ### Solutions
 
-* Consult your institution or project Data Management Plan to obtain information around the standard metadata that should be collected (also see [Documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)), the procedures that should be used and the best practices for storing and sharing your data and metadata. Alternatively you can develop a Data Management Plan specific for your study following the guidelines available [here](https://rdmkit.elixir-europe.org/data_management_plan).  
+* Consult your institution or project Data Management Plan to obtain information around the standard metadata that should be collected (also see [Documentation and metadata](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)), the procedures that should be used and the best practices for storing and sharing your data and metadata. Alternatively you can develop a Data Management Plan specific for your study following the guidelines available in the [Data Management Plan page](https://rdmkit.elixir-europe.org/data_management_plan).  
 * The metadata collected should be made available following community widespread standards to promote interoperability. The most relevant standards include the {% tool "mixs" %}{% cite field2011of %} for genomics data, {% tool "eml" %}{% cite michener1997rd %} for general biodiversity data, and {% tool "dwc" %}{% cite wieczorek2012al %} mainly for taxa and their occurrences. For DNA/RNA barcoding data, the {% tool "bold" %}{% cite ratnasingham2007ji %} is developing the Barcoding Data Model ([BCDM](https://github.com/DNAdiversity/BCDM)). The core {% tool "dwc" %} terms have been aligned with the {% tool "mixs" %} terms{% cite meyer2023fm %}, with further work underway to align many DwC extension terms to increase the interoperability.
 
 **Sample metadata and checklists**
@@ -124,9 +124,9 @@ Collecting extensive (or "long-tail") metadata can greatly enhance data reuse an
 * In the sample metadata in {% tool "biosamples" %}, reference the specimen or tissue/DNA samples using persistent identifiers available or using the {% tool "dwc" %} standard (‘triplet’ that includes the institution and collection codes, and specimen catalogue number), see also recommendations in Agosti D. et al.{% cite agosti2022vt %}.  
 * In relation with collections of genetic resources that also encompass the intraspecific diversity, part of the recommendations are developed in the frame of FAO’s activities and completed through consortia of researchers supported by initiatives such as the Research Data Alliance.  
 * You can also find relevant information by consulting other domain pages related to Biodiversity:  
-  * link to Plant genetic resources: [https://rdmkit.elixir-europe.org/plant\_sciences](https://rdmkit.elixir-europe.org/plant_sciences)  
-  * Link to Domestic animals: [https://data.faang.org/home](https://data.faang.org/home)   
-  * Link to Microbial genetic resources: [https://www.mirri.org/microbial-resources-data/](https://www.mirri.org/microbial-resources-data/) 
+  * [Plant Sciences domain](plant_sciences)  
+  * [Functional Annotation of Animal Genomes project (FAANG)](https://data.faang.org/home)   
+  * [Microbial Resource Research Infrastructure (MIRRI)](https://www.mirri.org/microbial-resources-data/) 
 
 **Sample metadata sharing and publication**
 
@@ -176,10 +176,10 @@ Therefore, key considerations include:
 * There are also sequence clustering frameworks, used in some databases and management systems that identify novel taxonomic units (Operational Taxonomic Units \- OTU) and assign them with identifiers:  
   * {% tool "bold" %} processes barcode sequences through an online framework that clusters the sequences into units and generates Barcode Identification Numbers (BINs {% cite ratnasingham2013yt %}).   
   * {% tool "unite" %}, a database that targets the nuclear ribosomal internal transcribed spacer (ITS) region and is used for molecular identification primarily of fungi, holds a pipeline that clusters ITS sequences into units, the UNITE Species Hypotheses (SHs) to which a unique DOI is assigned{% cite abarenkov2024du %}.  
-  * The {% tool "catalogue-of-life" %} is a global collaboration between taxonomists and bioinformaticians aiming at gathering up-to-date listings of all the world’s known species. {% tool "catalogue-of-life" %} in collaboration with the {% tool "gbif" %} provides a global list of accepted names by integrating existing checklists, both from large scale and national initiatives. The {% tool "gbif" %} taxonomic backbone derives from {% tool "catalogue-of-life" %} and merges additional names from authoritative nomenclatural and taxonomic datasets including identifiers such as BINs from {% tool "bold" %} and SHs from {% tool "unite" %}.   
+  * The {% tool "catalogue-of-life" %} is a global collaboration between taxonomists and bioinformaticians aiming at gathering up-to-date listings of all the world’s known species. In collaboration with the {% tool "gbif" %} provides a global list of accepted names by integrating existing checklists, both from large scale and national initiatives. The GBIF taxonomic backbone derives from CoL and merges additional names from authoritative nomenclatural and taxonomic datasets including identifiers such as BINs from {% tool "bold" %} and SHs from {% tool "unite" %}.   
 * Use mapping tools available to facilitate the discovery of taxon names and persistent identifiers, such as:   
   * {% tool "taxize" %} and {% tool "taxonomycleanr" %} R packages  
-  * {% tool "checklistbank" %}, a repository of taxonomic datasets, developed in collaboration between {% tool "gbif" %} and {% tool "catalogue-of-life" %}, allows mapping of taxonomic names and identifiers between the different taxonomies/checklists in {% tool "catalogue-of-life" %}.  
+  * {% tool "checklistbank" %}, a repository of taxonomic datasets, allows mapping of taxonomic names and identifiers between the different taxonomies/checklists in CoL.  
 * Use persistent identifiers for the taxon name in the data publication if available (e.g. {% tool "catalogue-of-life" %}, {% tool "ncbi-taxonomy" %}, {% tool "bold" %}, {% tool "unite" %}).
 
 ## Reference libraries: meta(data) collection and publication
