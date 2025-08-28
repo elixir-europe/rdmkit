@@ -214,3 +214,7 @@
   date: 2025-05-15
   linked_pr: 1620
   description: A new "your domain" page about Virology was added. [Discover the page here](virology).
+- name: "New page: Biodiversity"
+  date: 2025-08-28
+  linked_pr: 1711
+  description: A new "your domain" page about Biodiversity was added. [Discover the page here](biodiversity).
