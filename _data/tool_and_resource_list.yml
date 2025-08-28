@@ -532,7 +532,11 @@
   id: cookiecutter
   name: Cookiecutter
   url: https://github.com/cookiecutter/cookiecutter
-- description: Portal for scientists to broker more easily rich metadata alongside data to public repos.
+- description: Collaborative OPen Omics (COPO) is a portal for scientists to describe,
+    store and retrieve data more easily, using community standards and public repositories
+    that enable the open sharing of results. The COPO project is one of several projects
+    supported by the [Earlham Institute](https://www.earlham.ac.uk/research-project/collaborative-open-omics-copo)
+    (EI), in Norwich, United Kingdom.
   id: copo
   name: COPO
   registry:
@@ -3261,11 +3265,9 @@
   registry:
     fairsharing: https://fairsharing.org/3816
   url: https://www.dissco.eu/
-- description: Collaborative OPen Omics (COPO) is a portal for scientists to describe,
-    store and retrieve data more easily, using community standards and public repositories
-    that enable the open sharing of results. The COPO project is one of several projects
-    supported by the [Earlham Institute](https://www.earlham.ac.uk/research-project/collaborative-open-omics-copo)
-    (EI), in Norwich, United Kingdom.
+- description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report
+      underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata 
+      for all eukaryotic species and interpolates missing values through phylogenetic comparison.
   id: genomes-on-a-tree
   name: GoAT
   registry:
