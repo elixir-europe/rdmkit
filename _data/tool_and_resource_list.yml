@@ -676,10 +676,6 @@
     fairsharing: dt9z89
     tess: DisProt
   url: https://disprot.org/
-- description: Questionnaire, which generates a pre-filled a DMP
-  id: dmp-canvas-generator
-  name: DMP Canvas Generator
-  url: https://dmp.vital-it.ch
 - description: DMP Roadmap is a Data Management Planning tool
   id: dmproadmap
   name: DMPRoadmap
