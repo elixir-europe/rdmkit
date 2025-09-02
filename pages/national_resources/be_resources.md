@@ -99,15 +99,15 @@ FOSB is the strategic steering body of the [Flemish Research Data Network (FRDN)
 
 ## Funders and assistance
 In line with European funders, Belgian research funders require Data Management Plans (DMP) and support Open Science. Consult the funders' webpage and their policy about data management and Open Science.
-* [Research Foundation - Flanders (FWO)](https://www.fwo.be/en/).
-  * [FWO Research policy](https://www.fwo.be/en/the-fwo/research-policy/).
+* [Research Foundation - Flanders (FWO)](https://www.fwo.be).
+  * [FWO Research policy](https://www.fwo.be/en/about-fwo/research-policy/).
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
 * Special Research Fund (BOF) from Universities.
-* [Fonds de la Recherche Scientifique (FNRS)](https://www.frs-fnrs.be/en/).
+* [Fonds de la Recherche Scientifique (FNRS)](https://www.frs-fnrs.be).
   * [FNRS Scientific policy](https://www.frs-fnrs.be/en/politique-scientifique).
 * EU-Team and/or Research support team from Universities.
-* [National Contact Points (NCPs)](https://ncpfederal.belspo.be/contact_NCPbelgium_en.stm) for help with navigating the EU funding system.
+* [National Contact Points (NCPs)](https://ncpfederal.belspo.be/contact_en.stm) for help with navigating the EU funding system.
 
 
 <!---## Regulations--->
