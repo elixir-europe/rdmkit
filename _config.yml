@@ -101,7 +101,7 @@ defaults:
     scope:
       path: "pages/data_life_cycle/"
     values:
-      type: Data_life_cycle
+      type: data_life_cycle
       type_img: /assets/img/section-icons/reuse-sustain.svg
   -
     scope:
