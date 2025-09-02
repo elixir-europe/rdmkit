@@ -4,8 +4,8 @@ contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jarebo
 description: How to protect your research data, and how to make research data compliant to GDPR.
 page_id: gdpr_compliance
 related_pages: 
-  tool_assembly: [tsd, transmed]
-  your_tasks: [data_security]
+  Tool_assembly: [tsd, transmed]
+  Your_tasks: [data_security]
 training:
   - name: Training in TeSS
     registry: TeSS

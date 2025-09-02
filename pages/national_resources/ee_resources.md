@@ -11,10 +11,10 @@ national_resources:
     how_to_access:
     instance_of: galaxy
     related_pages:
-      tool_assembly:
-      your_domain:
-      your_role: [researcher]
-      your_tasks: [data_analysis]
+      Tool_assembly:
+      Your_domain:
+      Your_role: [researcher]
+      Your_tasks: [data_analysis]
     url: https://galaxy.hpc.ut.ee/
 ---
 

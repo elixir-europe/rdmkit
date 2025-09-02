@@ -5,7 +5,7 @@ description: How do you ensure that your data is handled securely.
 page_id: data_security
 redirect_from: data_protection
 related_pages: 
-  tool_assembly: [tsd, transmed]
+  Tool_assembly: [tsd, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS

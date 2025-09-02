@@ -4,7 +4,7 @@ contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ort
 description: How to measure compliance to data management regulations and standards.
 page_id: compliance
 related_pages:
-  tool_assembly: [transmed]
+  Tool_assembly: [transmed]
 faircookbook:
 - name: Creating a data/variable dictionary
   url: https://w3id.org/faircookbook/FCB025

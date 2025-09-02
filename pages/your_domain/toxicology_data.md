@@ -4,8 +4,8 @@ description: Data management solutions for toxicology data.
 contributors: [Manuel Pastor, Janet Piñero Gonzalez, Juan Manuel Ramírez-Anguita, Ferran Sanz, Miguel Angel Mayer, Laura Portell Silva]
 page_id: toxicology_data
 related_pages: 
-  your_tasks: [data_analysis]
-  tool_assembly: []
+  Your_tasks: [data_analysis]
+  Tool_assembly: []
 dsw:
 - name: Will you need existing data for toxicology research
   uuid: a781badf-f7ee-4588-9478-d31470f00c38

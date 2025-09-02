@@ -4,8 +4,8 @@ description: Data management solutions for microbial biotechnology data.
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
 page_id: micro_biotech
 related_pages: 
-  your_tasks: []
-  tool_assembly: []
+  Your_tasks: []
+  Tool_assembly: []
 ---
 
 ## Introduction

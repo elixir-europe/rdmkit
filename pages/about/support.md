@@ -1,6 +1,7 @@
 ---
 title: Support
-custom_editme: _data/affiliations.yaml
+github: 
+    file_path: _data/affiliations.yaml
 ---
 
 ## Institutions

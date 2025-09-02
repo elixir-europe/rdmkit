@@ -6,7 +6,7 @@ contributors: [Gregoire Rossier, Vassilios Ioannidis]
 coordinators: [Gregoire Rossier, Vassilios Ioannidis]
 
 related_pages:
-  tool_assembly: []
+  Tool_assembly: []
 
 training:
   - name: Training in TeSS
@@ -22,10 +22,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: []
-      your_tasks: [storage, data_publication]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [storage, data_publication]
     url: https://www.dlcm.ch/olos
     registry:
       biotools:
@@ -36,10 +36,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: []
-      your_tasks: [storage, data_publication]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [storage, data_publication]
     url: https://www.swissubase.ch/
     registry:
       biotools:
@@ -50,10 +50,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: []
-      your_tasks: [data_analysis]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [data_analysis]
     url: https://openbis.ch/index.php/openrdm-swiss/
     registry:
       biotools:
@@ -64,10 +64,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: []
-      your_tasks: [data_analysis]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [data_analysis]
     url: https://renkulab.io/
     registry:
       biotools:
@@ -78,10 +78,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: [human_data]
-      your_role: []
-      your_tasks: [data_analysis, sensitive]
+      Tool_assembly: []
+      Your_domain: [human_data]
+      Your_role: []
+      Your_tasks: [data_analysis, sensitive]
     url: https://www.biomedit.ch/
     registry:
       biotools:
@@ -92,10 +92,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: [covid19_data_portal]
-      your_domain: []
-      your_role: []
-      your_tasks: [existing_data]
+      Tool_assembly: [covid19_data_portal]
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [existing_data]
     url: https://spsp.ch/
     registry:
       biotools:
@@ -106,10 +106,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: []
-      your_tasks: [data_publication]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [data_publication]
     url: https://www.dora.lib4ri.ch/
     registry:
       biotools:
@@ -120,10 +120,10 @@ national_resources:
     how_to_access:
     instance_of: dmponline
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: []
-      your_tasks: [dmp]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [dmp]
     url: https://dmp.unil.ch/
     registry:
       biotools:
@@ -134,10 +134,10 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: []
-      your_tasks: [dmp]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: []
+      Your_tasks: [dmp]
     url: https://dmp.vital-it.ch/
     registry:
       biotools:

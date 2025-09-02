@@ -1,6 +1,7 @@
 ---
 title: Events
-custom_editme: _data/events.yml
+github: 
+    file_path: _data/events.yml
 ---
 
 {% include events.html event_type="upcoming_event" title=true %}
