@@ -3216,3 +3216,8 @@
   registry:
     fairsharing: s0jj2t
   url: https://github.com/BBMRI-ERIC/miabis
+- description: User-friendly application for creating FAIR- and ISA-compliant metadata for results of life science experiments.
+  id: isa-wizard
+  name: ISA Wizard
+  url: https://github.com/IPK-BIT/isa-wizard
+  
