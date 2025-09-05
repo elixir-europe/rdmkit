@@ -104,7 +104,7 @@ In line with European funders, Belgian research funders require Data Management 
 * [The Belgian Science Policy Office (BELSPO)](https://www.belspo.be).
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
 * Special Research Fund (BOF) from Universities.
-* [Fonds de la Recherche Scientifique (FNRS)](https://www.frs-fnrs.be).
+* [Fonds de la Recherche Scientifique (FNRS)](https://www.frs-fnrs.be/en/).
   * [FNRS Scientific policy](https://www.frs-fnrs.be/en/politique-scientifique).
 * EU-Team and/or Research support team from Universities.
 * [National Contact Points (NCPs)](https://ncpfederal.belspo.be/contact_en.stm) for help with navigating the EU funding system.
