@@ -14,7 +14,7 @@ training:
     url: https://tess.elixir-europe.org/search?q=miappe
   - name: MIAPPE templates on GitHub
     registry: GitHub
-    url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates
+    url: https://github.com/MIAPPE/MIAPPE/tree/master/Templates
   - name: PHIS user documentation
     registry:
     url: https://opensilex.github.io/phis-docs-community/
