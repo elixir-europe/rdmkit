@@ -3339,3 +3339,7 @@
   registry:
     fairsharing: 0a6aee
   url: https://microbiomedata.org/field-notes/
+- description: A collection of information and references with relevance for the microbiology community in terms of Research Data Management, Data Analysis, FAIR principles, standards, and much more.
+  id: nfdi4microbiotakb
+  name: NFDI4Microbiota Knowledge Base
+  url: https://knowledgebase.nfdi4microbiota.de/
