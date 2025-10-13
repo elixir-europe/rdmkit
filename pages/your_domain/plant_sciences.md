@@ -4,8 +4,8 @@ description: Data management solutions for plant sciences data.
 contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erwan Le Floch, Daniel Faria, Timothé Cezard, Daniel Arend, Matthijs Brouwer, Manuel Feser]
 page_id: plants
 related_pages: 
-  your_tasks: [metadata]
-  tool_assembly: [plant_geno_assembly, plant_pheno_assembly, fairtracks]
+  Your_tasks: [metadata]
+  Tool_assembly: [plant_geno_assembly, plant_pheno_assembly, fairtracks]
 training:
   - name: Training in TeSS
     registry: TeSS

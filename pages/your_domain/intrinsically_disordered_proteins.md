@@ -5,8 +5,8 @@ contributors: [Ivan Mičetić]
 related_pages: 
 page_id: idp
 related_pages: 
-  your_tasks: [metadata]
-  tool_assembly: []
+  Your_tasks: [metadata]
+  Tool_assembly: []
 ---
 
 ## Introduction

@@ -5,9 +5,9 @@ description: Tool assembly for managing plant genomic data.
 page_id: plant_geno_assembly
 affiliations:
 related_pages: 
-  your_tasks: [metadata, data_publication]
-  your_domain: [plants]
-  tool_assembly: [plant_pheno_assembly]
+  Your_tasks: [metadata, data_publication]
+  Your_domain: [plants]
+  Tool_assembly: [plant_pheno_assembly]
 faircookbook:
 - name: Improving dataset maturity - MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061

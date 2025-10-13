@@ -11,8 +11,8 @@ national_resources:
     how_to_access:
     instance_of: dmproadmap
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [dmp]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [dmp]
     url: https://dmponline.dcc.ac.uk/
     
   - name: CyVerse UK
@@ -20,26 +20,17 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: https://cyverseuk.org/
-    
-  - name: Jisc Research data management toolkit
-    description: "Guidance on the research data lifecycle that signposts resources from a wide range of organisations and websites."
-    how_to_access:
-    instance_of:
-    related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
-    url: https://web.archive.org/web/20230530165420/https://www.jisc.ac.uk/guides/rdm-toolkit
-    
+
   - name: Agrischema
     description: "Linked data schemas for the fields of agriculture, food, agri-business, plant biology."
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
     
   - name: InterMine
@@ -47,8 +38,8 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: http://intermine.org/
 
 ref_to_main_resources:

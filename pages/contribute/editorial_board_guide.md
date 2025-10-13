@@ -226,9 +226,9 @@ An overview of all RDMkit pages (belonging to the sections listed above) and the
 
 ```yml
 related_pages: 
-   your_tasks: [page_id1, page_id2]
-   your_domain: [page_id1, page_id2]
-   tool_assembly: [page_id1, page_id2]
+   Your_tasks: [page_id1, page_id2]
+   Your_domain: [page_id1, page_id2]
+   Tool_assembly: [page_id1, page_id2]
   ``` 
 
 

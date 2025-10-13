@@ -6,7 +6,7 @@ contributors: [Nazeefa Fatima, Federico Bianchini, Korbinian Bösl, Erin Calhoun
 coordinators: [Korbinian Bösl, Nazeefa Fatima]
 
 related_pages:
-  tool_assembly: [tsd, nels, marine_assembly, fairtracks]
+  Tool_assembly: [tsd, nels, marine_assembly, fairtracks]
 
 training:
   - name: Training in TeSS
@@ -25,7 +25,7 @@ national_resources:
     description: Feide is the national solution for secure login and data exchange in education and research. Feide can be linked with [Life Science Login (LS Login)](https://elixir-europe.org/services/compute/aai) through [eduGAIN](https://edugain.org/).
     how_to_access: Everyone with an affiliation to a Norwegian academic institution.
     related_pages:
-      tool_assembly: [tsd, nels, marine_assembly]
+      Tool_assembly: [tsd, nels, marine_assembly]
     url: https://www.feide.no/
   - name: DS-Wizard ELIXIR-Norway
     id: dsw-no
@@ -33,117 +33,117 @@ national_resources:
     how_to_access: Life Science Login (LS Login) with Feide or upon registration
     instance_of: data-stewardship-wizard
     related_pages:
-      tool_assembly: [tsd, nels, marine_assembly]
-      your_tasks: [dmp]
+      Tool_assembly: [tsd, nels, marine_assembly]
+      Your_tasks: [dmp]
     url: https://norway.dsw.elixir-europe.org/
   - name: EasyDMP
     description: DMP tool from [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
     instance_of:
     how_to_access: Feide
     related_pages:
-      your_tasks: [dmp]
+      Your_tasks: [dmp]
     url: https://easydmp.no/
   - name: Meta-pipe
     description: META-pipe is a pipeline for annotation and analysis of marine metagenomics samples, which provides insight into phylogenetic diversity, metabolic and functional potential of environmental communities.
     how_to_access: Feide or upon application
     related_pages:
-      your_tasks: [data_analysis]
-      tool_assembly: [marine_assembly]
+      Your_tasks: [data_analysis]
+      Tool_assembly: [marine_assembly]
     url: https://sfb.mmp2.sigma2.no/metapipe/
   - name: Norwegian COVID-19 Data Portal
     description: The Norwegian COVID-19 Data Portal aims to bundle the Norwegian research efforts and offers guidelines, tools, databases and services to support Norwegian COVID-19 researchers.
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [sensitive, existing_data, data_publication]
-      tool_assembly: [covid19_data_portal]
+      Your_domain: [human_data]
+      Your_tasks: [sensitive, existing_data, data_publication]
+      Tool_assembly: [covid19_data_portal]
     url: https://pathogens.no/
   - name: Federated EGA Norway node
     description: Federated instance collects metadata of -omics data collections stored in national or regional archives and makes them available for search through the main EGA portal. With this solution, sensitive data will not physically leave the country, but will reside on TSD.
     how_to_access: Life Science Login (LS Login); intended for data from Norwegian institutions
     instance_of: the-european-genome-phenome-archive
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [sensitive, existing_data, data_publication]
-      tool_assembly: [tsd]
+      Your_domain: [human_data]
+      Your_tasks: [sensitive, existing_data, data_publication]
+      Tool_assembly: [tsd]
     url: https://ega.elixir.no/
   - name: usegalaxy.no
     description: Galaxy is an open-source, web-based platform for data-intensive biomedical research. This instance of Galaxy is coupled with NeLS for easy data transfer.
     instance_of: galaxy
     how_to_access: Feide or upon application
     related_pages:
-      your_tasks: [data_analysis, sensitive, existing_data, data_publication]
-      tool_assembly: [nels]
+      Your_tasks: [data_analysis, sensitive, existing_data, data_publication]
+      Tool_assembly: [nels]
     url: https://usegalaxy.no
   - name: NeLS
     description: Norwegian e-Infrastructure for Life Sciences enables Norwegian life scientists and their international collaborators to store, share, archive, and analyse their omics-scale data.
     how_to_access: Everyone with funding from a Norwegian funder or a project at one of the health regions or universities can get access through Feide or upon application for collaborators.
     related_pages:
-      tool_assembly: [nels, marine_assembly]
+      Tool_assembly: [nels, marine_assembly]
     url: https://nels.bioinfo.no
   - name: NIRD
     description: The National Infrastructure for Research Data (NIRD) infrastructure offers storage services, archiving services, and processing capacity for computing on the stored data. It offers services and capacities to any scientific discipline that requires access to advanced, large-scale, or high-end resources for storing, processing, publishing research data or searching digital databases and collections. This service is owned and operated by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2](https://www.sigma2.no/).
     how_to_access: A formal application is required to gain access to the storage services.
     related_pages:
-      your_tasks: [transfer, storage]
-      tool_assembly: [nels, fairtracks]
+      Your_tasks: [transfer, storage]
+      Tool_assembly: [nels, fairtracks]
     url: https://documentation.sigma2.no/files_storage/nird_lmd.html
   - name: Sigma2 HPC systems
     description: The current Norwegian academic HPC infrastructure consists of three systems for different purposes. The Norwegian academic high-performance computing and storage infrastructure is maintained by [Sigma2 NRIS](https://sigma2.no/nris), which is a joint collaboration between UiO, UiB, NTNU, UiT, and [UNINETT Sigma2 (SIKT)](https://www.sigma2.no/).
     how_to_access: A formal application is required to gain access to the storage services.
     related_pages:
-      your_tasks: [data_analysis]
+      Your_tasks: [data_analysis]
     url: https://documentation.sigma2.no/hpc_machines/hardware_overview.html
   - name: Norwegian Research and Education Cloud (NREC)
     description: NREC is an Infrastructure-as-a-Service (IaaS) project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett., commonly referred to as a cloud infrastructure An IaaS is a self-service infrastructure where you spawn standardized servers and storage instantly, as needed, from a given resource quota.
     how_to_access: All users at educational institutions via Feide
     instance_of: openstack
     related_pages:
-      your_tasks: [data_analysis, storage]
+      Your_tasks: [data_analysis, storage]
     url: https://www.nrec.no/
   - name: Educloud Research
     description: Educloud Research is a platform provided by the Centre for Information Technology (USIT) at the University of Oslo (UiO). This platform provides access to a work environment accessible to collaborators from other institutions or countries. This service provides a storage solution and a low-threshold HPC system that offers batch job submission (SLURM) and interactive nodes. Data up to the [red classification  level](https://www.uio.no/english/services/it/security/lsis/data-classes.html#toc4) can be stored/analysed.
     how_to_access: Educloud Research can be ordered by a project at UiO or by external organisations connected to the University/University College sector. 
     related_pages:
-      your_tasks: [data_analysis, sensitive, storage]
+      Your_tasks: [data_analysis, sensitive, storage]
     url: https://www.uio.no/english/services/it/research/platforms/edu-research/
   - name: TSD
     description: The TSD – Service for Sensitive Data, is a platform for collecting, storing, analysing and sharing sensitive data in compliance with the Norwegian privacy regulation.  TSD is developed and operated by UiO.
     how_to_access: To register a project in TSD you have to attach the ethical approval, to conduct your research, either from REK, NSD, the Norwegian Data Protection Authority or your local Data Protection Officer (DPO). You can access your project through minID-login.
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [data_analysis, sensitive, storage]
-      tool_assembly: [tsd]
+      Your_domain: [human_data]
+      Your_tasks: [data_analysis, sensitive, storage]
+      Tool_assembly: [tsd]
     url: https://www.uio.no/english/services/it/research/sensitive-data/
   - name: HUNTCloud
     description: The HUNT Cloud, established in 2013, aims to improve and develop the collection, accessibility and exploration of large-scale information. HUNT Cloud offers cloud services and lab management. It is a key service that has established a framework for data protection, data security, and data management. HUNT Cloud is owned by NTNU and operated by HUNT Research Centre at the Department of Public Health and Nursing at the Faculty of Medicine and Health Sciences.
     how_to_access: Depending on your organisation, data processor agreements may be signed on various organizational levels. For example, your Department will be the internal data controller at NTNU.
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [data_analysis, sensitive, storage]
+      Your_domain: [human_data]
+      Your_tasks: [data_analysis, sensitive, storage]
     url: https://www.ntnu.edu/mh/huntcloud
   - name: SAFE
     description: SAFE (secure access to research data and e-infrastructure) is  the solution for the secure processing of sensitive personal data in research at the University of Bergen. SAFE is based on the “Norwegian Code of conduct for information security in the health and care sector” (Normen) and ensures confidentiality, integrity, and availability are preserved when processing sensitive personal data. Through SAFE, the IT department offers a service where employees, students and external partners get access to dedicated resources for processing of sensitive personal data.
     how_to_access: Access to SAFE requires a University of Bergen computer account. However, each department has approvers who can create external accounts for partners if needed.
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [data_analysis, sensitive, storage]
+      Your_domain: [human_data]
+      Your_tasks: [data_analysis, sensitive, storage]
     url: https://www.uib.no/en/it/131011/safe-secure-access-research-data-and-e-infrastructure
   - name: RETTE
     description: System for Risk and compliance. Processing of personal data in research and student projects at UiB.
     how_to_access: Through Feide, only if you are based at the UiB
     related_pages:
-      your_domain: [human_data]
-      your_tasks: [data_security, gdpr_compliance, sensitive]
-      your_role: [policy_maker, data_steward]
+      Your_domain: [human_data]
+      Your_tasks: [data_security, gdpr_compliance, sensitive]
+      Your_role: [policy_maker, data_steward]
     url: https://rette.app.uib.no/
   - name: DataverseNO
     description: DataverseNO is a national, generic repository for open research data. Various Norwegian research institutions have established partner agreements about using DataverseNO as institutional repositories for open research data.
     how_to_access: open access
     instance_of: dataverse
     related_pages:
-      your_domain: []
-      your_tasks: [data_publication]
-      your_role: []
+      Your_domain: []
+      Your_tasks: [data_publication]
+      Your_role: []
     url: https://dataverse.no/  
   - name: openscience.no
     description: General information about open research, especially open access and guidance for researchers and institutions.
@@ -152,8 +152,8 @@ national_resources:
     description: Nettskjema is a solution for designing and managing data collections using online forms and surveys. It can be used for collecting sensitive data and offers a high degree of security and privacy.
     how_to_access: Feide, TSD, or via ID-porten upon application.
     related_pages:
-      your_tasks: [sensitive]
-      tool_assembly: [tsd]
+      Your_tasks: [sensitive]
+      Tool_assembly: [tsd]
     url: https://nettskjema.no/
 ref_to_main_resources:
   - mardb

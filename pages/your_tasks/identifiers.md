@@ -4,7 +4,7 @@ contributors: [Markus Englund, Flavio Licciulli, Nick Juty, Olivier Collin, Ulri
 description: How to use identifiers for research data.
 page_id: identifiers
 related_pages: 
-    tool_assembly: []
+    Tool_assembly: []
 dsw:
 - name: Will you make explicit cross-reference between physical samples and your digital
     data?

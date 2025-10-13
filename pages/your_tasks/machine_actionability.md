@@ -4,7 +4,7 @@ contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat 
 description: How to make machine-actionable (meta)data.
 page_id: machine_actionability
 related_pages: 
-    tool_assembly: []
+    Tool_assembly: []
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure

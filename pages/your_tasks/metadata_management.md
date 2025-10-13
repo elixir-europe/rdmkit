@@ -4,7 +4,7 @@ contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Mar
 description: How to document and describe your data.
 page_id: metadata
 related_pages:
-  tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly]
+  Tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly]
 dsw:
 - name: Will the metadata be available even when the data no longer exists?
   uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd

@@ -25,8 +25,8 @@ national_resources:
   instance_of: dataverse
   how_to_access: Open registration. Target users are researchers of BioData.pt associate organisations.
   related_pages:
-    your_role: [researcher, data_steward]
-    your_tasks: [storage]
+    Your_role: [researcher, data_steward]
+    Your_tasks: [storage]
   registry:
     biotools: dmportal
     fairsharing: b2f583
@@ -35,8 +35,8 @@ national_resources:
   description: This tool guides users through generating Data Management Plans. 
   instance_of: data-stewardship-wizard
   related_pages:
-    your_role: [researcher, data_steward]
-    your_tasks: [dmp]
+    Your_role: [researcher, data_steward]
+    Your_tasks: [dmp]
   how_to_access: Open registration. Target users are researchers of BioData.pt associate organisations.
   registry:
     biotools: Data_Stewardship_Wizard
@@ -45,28 +45,28 @@ national_resources:
   description: Capacity building program in data management for the life sciences to empower researchers and institutions in managing their data more effectively and efficiently.
   instance_of:
   related_pages:
-    your_role: [researcher]
-    your_tasks: [dmp, dm_coordination]
+    Your_role: [researcher]
+    Your_tasks: [dmp, dm_coordination]
   url: https://biodata.pt/training/programmes/r4bdm
 - name: eLab BioData.pt
   description: An electronic lab notebook (ELN) for BioData.pt training programmes (data wiped periodically).
   inistance_of: eLabFTW
   how_to_access: For trainees of BioData.pt training programmes.
   related_pages:
-    your_role: [researcher, data_steward, principal_investigator]
-    your_tasks: [metadata, data_quality, dm_coordination, data_protection, data_organization, data_provenance, machine_actionability]
+    Your_role: [researcher, data_steward, principal_investigator]
+    Your_tasks: [metadata, data_quality, dm_coordination, data_protection, data_organization, data_provenance, machine_actionability]
   url: https://elab.biodata.pt/
 - name: INDEXAR
   description: National directory of repositories and digital scientific journals, in the fields of science and culture.
   related_pages:
-    your_role: [researcher, data_steward]
-    your_tasks: [data_publication, existing_data]
+    Your_role: [researcher, data_steward]
+    Your_tasks: [data_publication, existing_data]
   url: https://www.indexar.pt/
 - name: dados.gov.pt
   description: Open data portal of the Portuguese Public Administration.
   related_pages:
-    your_role: [researcher, data_steward]
-    your_tasks: [data_publication, existing_data]
+    Your_role: [researcher, data_steward]
+    Your_tasks: [data_publication, existing_data]
   url: https://dados.gov.pt
   instance_of: udata
 ---
