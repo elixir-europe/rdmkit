@@ -3348,3 +3348,7 @@
   id: nfdi4microbiotakb
   name: NFDI4Microbiota Knowledge Base
   url: https://knowledgebase.nfdi4microbiota.de/
+- description: Framework for organizing and documenting research data, extending ISA, CWL and RO-Crate.
+  id: arc
+  name: Annotated Research Context
+  url: https://arc-rdm.org/
