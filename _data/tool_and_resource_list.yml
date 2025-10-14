@@ -2480,6 +2480,8 @@
 - description: Loom is an efficient file format for large omics datasets.
   id: loom
   name: Loom
+  registry:
+    tess: Loom
   url: https://loompy.org/
 - description: The main class used by Monocle to hold single cell expression data. CellDataSet extends the basic Bioconductor ExpressionSet class.
   id: celldataset
