@@ -95,10 +95,14 @@
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   id: bioformats2raw
   name: bioformats2raw
+  registry:
+    biotools: bioformats2raw
   url: https://github.com/glencoesoftware/bioformats2raw
 - description: Java application to convert a directory of tiles to an OME-TIFF pyramid. This is the second half of iSyntax/.mrxs => OME-TIFF conversion.
   id: raw2ometiff
   name: raw2ometiff
+  registry:
+    biotools: raw2ometiff
   url: https://github.com/glencoesoftware/raw2ometiff
 - description: The bfconvert command line tool can be used to convert files between supported formats.
   id: bfconvert
