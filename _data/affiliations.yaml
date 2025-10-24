@@ -172,3 +172,9 @@
   expose: yes
   type: project
   url: https://www.ebi.ac.uk/
+- name: EVORA
+  image_url: /images/projects/evora.svg
+  pid:
+  expose: yes
+  type: project
+  url: https://evora-project.eu/
