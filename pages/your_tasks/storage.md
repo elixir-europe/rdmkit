@@ -4,7 +4,7 @@ contributors: [Ulrike Wittig, Elin Kronander, Munazah Andrabi, Flora D'Anna, Fla
 description: How to find appropriate storage solutions.
 page_id: storage
 related_pages: 
-  tool_assembly: [nels, tsd, ome, transmed, xnat_pic]
+  Tool_assembly: [nels, tsd, ome, transmed, xnat_pic]
 training:
   - name: Training in TeSS
     registry: TeSS

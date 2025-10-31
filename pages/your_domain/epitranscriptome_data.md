@@ -4,8 +4,8 @@ description: Data management solutions for epitranscriptome data.
 contributors: [Ernesto Picardi, Laura Portell Silva]
 page_id: epitrans
 related_pages: 
-  your_tasks: []
-  tool_assembly: []
+  Your_tasks: []
+  Tool_assembly: []
 ---
 
 ## Introduction

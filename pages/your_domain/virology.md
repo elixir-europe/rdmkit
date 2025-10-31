@@ -4,8 +4,8 @@ description: Data management solutions for virology data.
 contributors: [Niels Geudens, Flora D'Anna, Romain David, Philippe Lieutaud]
 page_id: virology
 related_pages: 
-  your_tasks: [data_brokering, gdpr_compliance, ethics, compliance, sensitive, data_security, data_discoverability, identifiers]
-  tool_assembly: [covid19_data_portal]
+  Your_tasks: [data_brokering, gdpr_compliance, ethics, compliance, sensitive, data_security, data_discoverability, identifiers]
+  Tool_assembly: [covid19_data_portal]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
   - name:

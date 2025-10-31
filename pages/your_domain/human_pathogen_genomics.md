@@ -4,13 +4,13 @@ description: Data management solutions for Human pathogen genomics
 contributors: [Diana Pilvar, Espen Åberg, Wolmar Nyberg Åkerström, Rafael Andrade Buono]
 page_id: human_pathogen_genomics
 related_pages: 
-  your_tasks:
+  Your_tasks:
     - data_brokering
     - metadata
     - transfer
     - data_security
     - data_quality
-  tool_assembly:
+  Tool_assembly:
     - covid-19
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 ---

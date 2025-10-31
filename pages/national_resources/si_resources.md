@@ -25,7 +25,7 @@ national_resources:
     how_to_access: 
     instance_of: data-stewardship-wizard
     related_pages:
-      your_tasks: [dmp]
+      Your_tasks: [dmp]
     url: https://slovenia.dsw.elixir-europe.org/
       
   - name: ELIXIR eLearning Platform
