@@ -47,7 +47,7 @@ def is_record_collected(linked_records, id_to_check):
 # FAIRsharing_record_collection_id is the ID (number) of the FAIRsharing collection. If this field is empty, a collection will be created
 collections_to_check = {}
 existing_collection = []
-with open('-/data/rdmkit_fairsharing_record_map.csv', 'r', encoding='utf8') as f:
+with open('_data/rdmkit_fairsharing_record_map.csv', 'r', encoding='utf8') as f:
     read_csv = csv.reader(f, delimiter=",")
     for line in read_csv:
         collections_to_check[line[0]] = {}
