@@ -1,0 +1,28 @@
+name: Creation or update of FAIRsharing collections
+on:
+  pull_request:
+    branches: [ master, main ]
+  schedule:
+    - cron:  '0 13 * * 1'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruamel.yaml requests python-frontmatter
+      - name: Run script for creating or updating collections
+        run: | 
+          python var/coll_rdmkit_fs_creat_upd.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
