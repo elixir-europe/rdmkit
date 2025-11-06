@@ -63,7 +63,7 @@ title: Title of the page
   * [Organisation] on GitHub or [Organisation] - [Repository] in GitHub
   * [Organisation] on YouTube [Channel/ Video]
   * [Organisation] [Training Material/Community] on Zenodo
-  * [Organisation] Carpentries Lessons
+  * [Organisation] The Carpentries Lessons
 
   For referencing training on a specific topic please use this format:
     
@@ -75,7 +75,7 @@ title: Title of the page
   * [Topic] in GitHub
   * [Topic]  YouTube [channel/video]
   * [Topic] [Training material/Community] in Zenodo
-  * [Topic] Carpentries Lessons
+  * [Topic] The Carpentries Lessons
  
  ```yml
   training:
