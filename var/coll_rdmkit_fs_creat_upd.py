@@ -72,7 +72,8 @@ with open('-/data/rdmkit_fairsharing_record_map.csv', 'r', encoding='utf8') as f
 #url_base = "https://api.fairsharing.org/" # FAIRsharing PRODUCTION API
 url_base = "https://dev-api.fairsharing.org/" # FAIRsharing DEV API
 
-payload="{\"user\": {\"login\":\"" + args.username,\"password\":\"" + args.password} }"
+payload = "{\"user\": {\"login\":\"" + args.username + \
+    "\",\"password\":\"" + args.password + "\"} }"
 headers = {
   'Accept': 'application/json',
   'Content-Type': 'application/json'
