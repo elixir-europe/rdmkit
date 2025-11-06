@@ -19,13 +19,13 @@ def is_record_collected(linked_records, id_to_check):
     return False
 
 
-#The format of each line of the file rdmkit_fairharing_record_map.csv is
+#The format of each line of the file rdmkit_fairsharing_record_map.csv is
 # URL_rdmkit_file,FAIRsharing_record_collection_id
-# URL_rdmkit_file is the URL of the rdm .md file e.g. https://raw.githubusercontent.com/elixir-europe/rdmkit/refs/heads/master/pages/your_domain/plant_sciences.md
-# FAIRsharing_record_collection_id is the ID (number) of the FAIRsharing collection, if this field is empty a collection will be created
+# URL_rdmkit_file is the URL of the rdm .md file, e.g. https://raw.githubusercontent.com/elixir-europe/rdmkit/refs/heads/master/pages/your_domain/plant_sciences.md
+# FAIRsharing_record_collection_id is the ID (number) of the FAIRsharing collection. If this field is empty, a collection will be created
 collections_to_check = {}
 existing_collection = []
-with open('rdmkit_fairharing_record_map.csv', 'r', encoding='utf8') as f:
+with open('-/data/rdmkit_fairsharing_record_map.csv', 'r', encoding='utf8') as f:
     read_csv = csv.reader(f, delimiter=",")
     for line in read_csv:
         collections_to_check[line[0]] = {}
