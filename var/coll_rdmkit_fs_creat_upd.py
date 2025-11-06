@@ -3,6 +3,28 @@ import yaml
 import json
 import csv
 from datetime import date
+import argparse
+
+def process_args():
+    '''parse command-line arguments
+    '''
+
+    parser = argparse.ArgumentParser(prog='Tools Validator',
+                                     description='This script will convert the tool and resources table to a yaml file while injecting bio.tools and FAIRsharing IDs where needed.',)
+    parser.add_argument('--username',
+                        help='Specify the FAIRsharing username')
+
+    parser.add_argument('--password',
+                        help='Specify the FAIRsharing password')
+
+    parser.add_argument('--reg',
+                        default=False,
+                        action="store_true",
+                        help='Enable TeSS, bio.tools and FAIRsharing lookup')
+
+    args = parser.parse_args()
+
+    return args
 
 def return_fs_doi(m):
     doi = None
@@ -46,11 +68,11 @@ with open('-/data/rdmkit_fairsharing_record_map.csv', 'r', encoding='utf8') as f
             collections_to_check[line[0]]['new_homepage'] = 'https://rdmkit.elixir-europe.org/'+label
             collections_to_check[line[0]]['new_ref_url'] = 'https://github.com/elixir-europe/rdmkit/blob/master/pages/your_domain/'+label+'.md'
 
-#Instructions to connect to the API, select real one (api.fairsharing) or dev one (dev-api.fairsharing.org)
+#Instructions to connect to the API, select the real one (api.fairsharing) or the dev one (dev-api.fairsharing.org)
 #url_base = "https://api.fairsharing.org/" # FAIRsharing PRODUCTION API
 url_base = "https://dev-api.fairsharing.org/" # FAIRsharing DEV API
 
-payload="{\"user\": {\"login\":\"YOUR_NAME\",\"password\":\"YOUR_LOGIN\"} }"
+payload="{\"user\": {\"login\":\"" + args.username,\"password\":\"" + args.password} }"
 headers = {
   'Accept': 'application/json',
   'Content-Type': 'application/json'
