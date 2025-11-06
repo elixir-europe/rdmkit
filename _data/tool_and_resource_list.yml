@@ -3349,3 +3349,17 @@
   id: nfdi4microbiotakb
   name: NFDI4Microbiota Knowledge Base
   url: https://knowledgebase.nfdi4microbiota.de/
+- description: A secure, free, cross-platform and open-source drive wiping utility. Should work with any HDD, SSD (read limitations) and flash drives.
+  id: lethe
+  name: lethe
+  url: https://github.com/Kostassoid/lethe
+- description: Free open-source data wiping software for personal use. Delete information stored on hard disk drives (HDDs, not SSDs) in PC laptops, desktops, or servers.
+  id: dban
+  name: Darik's Boot and Nuke (DBAN)
+  registry:
+    tess: Darik's Boot and Nuke (DBAN)
+  url: https://www.dban.org/
+- description: Eraser is an advanced security tool for Windows which allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns. 
+  name: Eraser
+  id: eraser
+  url: https://eraser.heidi.ie/
