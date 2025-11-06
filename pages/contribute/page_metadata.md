@@ -51,25 +51,48 @@ title: Title of the page
 ### More information
 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS.
+* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS.   The supported registries that can be used in the `registry` attribute are: *YouTube*, *Zenodo*, *Carpentries*, *GitHub* and *TeSS*.
 
-  ```yml
+  For referencing training from a local or national organisation please use this format: 
+  
+  [Organisation] [Type of material] on [Source]
+  
+   Examples: 
+
+  * [Organisation] [Training Material/ Search Query] on TeSS
+  * [Organisation] on GitHub or [Organisation] - [Repository] in GitHub
+  * [Organisation] on YouTube [Channel/ Video]
+  * [Organisation] [Training Material/Community] on Zenodo
+  * [Organisation] Carpentries Lessons
+
+  For referencing training on a specific topic please use this format:
+    
+  [Topic]  [Type of material] in [Source] or  [Topic] [Documentation/Website] 
+    
+  Examples: 
+
+  * [Topic]  [Training material/ Search query] in TeSS
+  * [Topic] in GitHub
+  * [Topic]  YouTube [channel/video]
+  * [Topic] [Training material/Community] in Zenodo
+  * [Topic] Carpentries Lessons
+ 
+ ```yml
   training:
-    - name: Training in TeSS
+    - name: VIB Training material on TeSS 
       registry: TeSS
-      url: https://tess.elixir-europe.org/search?q=data%20analysis
+      url: https://tess.elixir-europe.org/content_providers/vib-training
 
-    - name: Training in X
-      registry: 
-      url: example_url
-  ```
+    - name: RStudio basic course in GitHub
+      registry: GitHub
+      url: https://github.com/ELIXIREstonia/2025-09-01-R-basic
 
-  The supported registries that can be used in the `registry` attribute are: *YouTube*, *Zenodo*, *Carpentries*, *GitHub* and *TeSS*.
+ ```
 
-* `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
+* `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
 
-* `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
+* `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automatically updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
 
 
 ### Tools and resources
