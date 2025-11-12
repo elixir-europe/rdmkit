@@ -3,11 +3,6 @@ title: Data deletion
 contributors: [Vilem Ded]
 description: How to properly delete data
 page_id: data_deletion
-related_pages: 
-  tool_assembly:
-training:
-dsw:
-faircookbook:
 ---
 
 ## How do you properly delete data?
