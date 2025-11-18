@@ -95,10 +95,14 @@
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   id: bioformats2raw
   name: bioformats2raw
+  registry:
+    biotools: bioformats2raw
   url: https://github.com/glencoesoftware/bioformats2raw
 - description: Java application to convert a directory of tiles to an OME-TIFF pyramid. This is the second half of iSyntax/.mrxs => OME-TIFF conversion.
   id: raw2ometiff
   name: raw2ometiff
+  registry:
+    biotools: raw2ometiff
   url: https://github.com/glencoesoftware/raw2ometiff
 - description: The bfconvert command line tool can be used to convert files between supported formats.
   id: bfconvert
@@ -2480,6 +2484,8 @@
 - description: Loom is an efficient file format for large omics datasets.
   id: loom
   name: Loom
+  registry:
+    tess: Loom
   url: https://loompy.org/
 - description: The main class used by Monocle to hold single cell expression data. CellDataSet extends the basic Bioconductor ExpressionSet class.
   id: celldataset
@@ -3348,7 +3354,21 @@
   id: nfdi4microbiotakb
   name: NFDI4Microbiota Knowledge Base
   url: https://knowledgebase.nfdi4microbiota.de/
-- description: Framework for organizing and documenting research data, extending ISA, CWL and RO-Crate.
+- description: Framework for organising and documenting research data, extending ISA, CWL, and RO-Crate.
   id: arc
   name: Annotated Research Context
   url: https://arc-rdm.org/
+- description: A secure, free, cross-platform, and open-source drive wiping utility. Should work with any HDD, SSD (read limitations) and flash drives.
+  id: lethe
+  name: lethe
+  url: https://github.com/Kostassoid/lethe
+- description: Free open-source data wiping software for personal use. Delete information stored on hard disk drives (HDDs, not SSDs) in PC laptops, desktops, or servers.
+  id: dban
+  name: Darik's Boot and Nuke (DBAN)
+  url: https://www.dban.org/
+- description: Eraser is an advanced security tool for Windows which allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns.
+  id: eraser
+  name: Eraser
+  registry:
+    tess: Eraser
+  url: https://eraser.heidi.ie/
