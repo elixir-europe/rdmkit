@@ -54,13 +54,13 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Bibliography
- * RDMkit uses BibTeX as a tool for creating a bibliography.
- * Follow the following instuctions to create and display a bibiography on your page:
+ * RDMkit uses BibTeX to create page bibliographies.
+ * Follow these instuctions to create and display a bibiography on your page:
    1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
    1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing one of your entries.
    1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
 * We use a display class based on *Nature* publications. Your BibTeX files should follow a standardised format described below.
-  We recommend using {% tool "zotero" %} to automate the process (see below).
+  We recommend using {% tool "zotero" %} to automate the process (see below). Alternatively, consider using one of the [converters](https://www.bibtex.com/converters/) from {% tool "paperpile" %}
 * An example of the minimal structure required for BibTeX entries is:
 
 ```
