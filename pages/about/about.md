@@ -42,7 +42,7 @@ When referencing content from the RDMkit pages, please cite as follows:
   </div>
 </div>
 
-To cite the paper about how RDMkit was build please cite:
+To cite the paper about how RDMkit was created please cite:
 
 <div class="card bg-light my-4">
   <div class="card-body">
