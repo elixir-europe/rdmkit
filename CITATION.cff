@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "When referencing content from the RDMkit pages, please cite as follows:"
 authors:
-  - family-names: "RDMkit community"
+  - name: "RDMkit community"
 title: "RDMkit: The Research Data Management toolkit for Life Sciences"
 version: "3.0.0"
 doi: "10.5281/zenodo.5110060"
@@ -74,7 +74,7 @@ references:
   - type: software
     title: "ELIXIR toolkit theme"
     authors:
-      - family-names: "ELIXIR Belgium"
+      - name: "ELIXIR Belgium"
       - given-names: Bert
         family-names: Droesbeke
     repository-code: "https://github.com/ELIXIR-Belgium/elixir-toolkit-theme"
