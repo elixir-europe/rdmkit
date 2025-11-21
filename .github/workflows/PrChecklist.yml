@@ -1,0 +1,54 @@
+name: Add Page PR Checklist
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  add_template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install the GH cli
+        uses: ksivamuthu/actions-setup-gh-cli@v3
+        with:
+          version: 2.83.0
+
+      - name: Check Modified Files
+        id: check_files
+        run: |
+          # Get the changed files in the pull request
+          CHANGED_FILES=$(gh pr diff ${{ github.event.pull_request.number }} --name-only)
+          if echo "$CHANGED_FILES" | grep -qE '^pages/'; then
+            echo "TRUE" >> $GITHUB_ENV
+          else
+            echo "FALSE" >> $GITHUB_ENV
+          fi
+
+      - name: Parse Checklist
+        id: parse_checklist
+        if: ${{ env.is_pages_changed == 'TRUE' }}
+        run: |
+          # Read the checklist file from the repository
+          CHECKLIST=$(sed -E 's/^[0-9]+\.\s+-?/- [ ] /' pages/contribute/editors_checklist.md)
+          echo "CHECKLIST=$CHECKLIST" >> $GITHUB_ENV
+
+      - name: Add Review Comment
+        if: env.CHECKLIST != ''
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const checklist = process.env.CHECKLIST;
+            const template = `### Review Checklist\n\n${checklist}\n\nPlease refer to the complete [editor's checklist](https://github.com/elixir-europe/rdmkit/edit/master/pages/contribute/editors_checklist.md) for details.`;
+            const prNumber = context.payload.pull_request.number;
+            const owner = context.payload.pull_request.head.repo.owner.login; // Get code owner
+            const repo = context.payload.pull_request.head.repo.name;
+
+            await github.pulls.createReviewComment({
+              owner: owner,
+              repo: repo,
+              pull_number: prNumber,
+              body: template,
+            });
