@@ -14,7 +14,17 @@ training:
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
 national_resources:
-  - name: DS-Wizard ELIXIR-SE
+  - name: Researchdata.se
+    description: Researchdata.se is a national web portal where you can find, share, and reuse research data from a wide range of research fields. You can also find helpful advice and recommendations on managing research data.
+    how_to_access: Available to everyone.
+    related_pages:
+      Your_tasks: [existing_data, data_publication, dmp]
+    url: https://www.researchdata.se/
+  - name: Swedish Open Science Portal
+    description: The Swedish Open Science Portal is a national knowledge hub for open science in Sweden. It provides information, guidelines, and tools to support researchers and research institutions in implementing open science practices.
+    how_to_access: Available to everyone.
+    url: https://openscience.se/en/
+  - name: SciLifeLab DS-Wizard
     description: Data Stewardship Wizard is a tool to be used when planning for data management, including generating a data management plan (DMP). This instance provides guidance with focus towards Swedish life science researchers, including national resources.   
     how_to_access: ELIXIR AAI login
     instance_of: data-stewardship-wizard
@@ -22,7 +32,7 @@ national_resources:
       Your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
-    description: A repository for publishing any kind of research-related data, e.g. documents, figures, or presentations.
+    description: A repository for publishing any kind of research-related data when no domain-specific repositories exist, e.g. documents, figures, or presentations.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     instance_of: figshare
     related_pages:
@@ -35,7 +45,7 @@ national_resources:
       Your_tasks: [dmp, data_publication, sensitive]
     url: https://nbis.se/services/guidance-on-data-management
   - name: Swedish Pathogens Portal
-    description: The Swedish Pathogens Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing.
+    description: The Swedish Pathogens Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing related to pathogens.
     related_pages:
       Tool_assembly: [covid19_data_portal]
       Your_domain: [human_data]
@@ -63,6 +73,43 @@ national_resources:
       Your_domain: [human_data]
       Your_tasks: [sensitive, existing_data, data_publication]
     url: https://fega.nbis.se/
+  - name: Swedish Reference Genome Portal
+    description: A web platform for aggregating, sharing, and visualising non-human eukaryotic genome assemblies and genome annotations (co-)produced by researchers affiliated with Swedish institutions.
+    related_pages:
+      Your_domain: [biodiversity]
+      Your_tasks: [existing_data, data_publication]
+    url: https://genomes.scilifelab.se/
+  - name: SciLifeLab Serve
+    description: A platform offering machine learning model serving, app hosting, and other web tools.
+    how_to_access: Available to life science researchers affiliated with a Swedish research institute
+    url: https://serve.scilifelab.se/
+  - name: SciLifeLab Precision Medicine Portal
+    description: The PM Portal is a service for researchers in the precision medicine field, designed to support and accelerate data-driven life science research in Sweden. It provides links to various data sources, customised dashboards, and resources for navigating data management challenges. Researchers can also find guidance on handling sensitive data and links to relevant tools and services.
+    how_to_access: Available to life science researchers affiliated with a Swedish research institute
+    related_pages:
+      Your_domain: [health_data, human_data]
+      Your_tasks: [existing_data, gdpr_compliance]
+    url: https://precision-medicine-portal.scilifelab.se/
+  - name: Swedish Biodiversity Data Infrastructure - SBDI
+    description: The Swedish Biodiversity Data Infrastructure (SBDI) is a national research infrastructure that provides access to biodiversity data and related services for researchers in Sweden. SBDI aims to facilitate the use of biodiversity data for research, conservation, and sustainable development.
+    how_to_access: Available to everyone.
+    related_pages:
+      Your_domain: [biodiversity]
+      Your_tasks: [existing_data, data_publication]
+    url: https://biodiversitydata.se/
+  - name: SciLifeLab Training Portal
+    description: A portal for finding training events and materials related to life science research data management and bioinformatics in Sweden. Herein, the life science community in Sweden can find opportunities to gain relevant skills, and experts can find support in creating training that captures their knowledge
+    url: https://training.scilifelab.se/
+  - name: AIDA Data Hub
+    description: AIDA Data Hub is a national infrastructure for storing and sharing research data in Sweden, with a focus on clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI. It provides secure storage and data management services to researchers, industry, and caregivers of national significance, ensuring compliance with data protection regulations.
+    how_to_access: An application is required to gain access to the services.
+    related_pages:
+      Your_domain: [health_data, human_data]
+      Your_tasks: [gdpr_compliance]
+    url: https://datahub.aida.scilifelab.se/
+  - name: SciLifeLab Open science
+    description: A knowledge hub for open science in life science research in Sweden, providing information, guidelines, and tools to support researchers and research institutions in implementing open science practices.
+    url: https://data.scilifelab.se/open_science/
 ---
 
 ## Introduction 
