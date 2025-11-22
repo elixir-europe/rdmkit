@@ -126,7 +126,9 @@ The National Library of Sweden provides [national guidelines](https://www.kb.se/
 
 ## Authorities and Regulations
 
-If personal data is processed in your research, contact your institute’s Data Protection Officer, and if available, the Research Data Office (see list at end of page), for guidance on ethical and legal compliance. The following is a list of ethical and legal committees, authorities and regulations of interest:
+If personal data is processed in your research, contact your university’s or institute’s Data Protection Officer (DPO), and if available, the Research Data Office (RDO) (see list at the end of the page), for guidance on ethical and legal compliance. 
+
+The following is a list of ethical and legal committees, authorities and regulations of interest:
 
 ### Authorities
 
@@ -136,10 +138,12 @@ If personal data is processed in your research, contact your institute’s Data 
 ### Regulations
 
 * [The Ethics Review Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) (in Swedish)
-* [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355) (in Swedish)
+* [The Patient Data Act](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38/) (in Swedish)
 * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297) (in Swedish)
 * [The Archives Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/arkivlag-1990782_sfs-1990-782) (in Swedish)
 * [Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218)
+* [The Public Access to Information and Secrecy Act (2009:400)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/) (in Swedish)
+* [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/)
 
 ## Domain-specific infrastructures and resources 
 
