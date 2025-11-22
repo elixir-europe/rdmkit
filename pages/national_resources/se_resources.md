@@ -14,12 +14,18 @@ training:
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 
 national_resources:
+  - name: NBIS data submission documentation
+    description: A GitHub repository with documentation and guidelines for submitting data to domain-specific repositories, provided by NBIS data stewards.
+    how_to_access: Available to everyone.
+    related_pages:
+      Your_tasks: [data_publication]
+    url: https://github.com/NBISweden/data-submission-documentation
   - name: Researchdata.se
     description: Researchdata.se is a national web portal where you can find, share, and reuse research data from a wide range of research fields. You can also find helpful advice and recommendations on managing research data.
     how_to_access: Available to everyone.
     related_pages:
       Your_tasks: [existing_data, data_publication, dmp]
-    url: https://www.researchdata.se/
+    url: https://www.researchdata.se/en
   - name: Swedish Open Science Portal
     description: The Swedish Open Science Portal is a national knowledge hub for open science in Sweden. It provides information, guidelines, and tools to support researchers and research institutions in implementing open science practices.
     how_to_access: Available to everyone.
@@ -124,9 +130,11 @@ The [**Swedish Research Council**](https://www.vr.se/) has a government mandate 
 
 The National Library of Sweden provides [national guidelines](https://www.kb.se/for-bibliotekssektorn/eng/open-science/national-guidelines-for-open-science.html) intended to provide support and guidance for the different stakeholders in Sweden who have overarching responsibility in the transition to open science. The purpose of these guidelines is to outline the direction for the continued development towards open science in Sweden, specifying which key actors are responsible for what, as well as how the guidelines are to be monitored and updated over time.
 
+Many universities have established data and open access policies, for more information contact the Research Data Office (RDO) (see list at the end of the page).
+
 ## Authorities and Regulations
 
-If personal data is processed in your research, contact your university’s or institute’s Data Protection Officer (DPO), and if available, the Research Data Office (RDO) (see list at the end of the page), for guidance on ethical and legal compliance. 
+If personal data is processed in your research, contact your university’s or institute’s Data Protection Officer (DPO) (see list at the end of the page), for guidance on ethical and legal compliance. 
 
 The following is a list of ethical and legal committees, authorities and regulations of interest:
 
@@ -151,9 +159,9 @@ The [**SciLifeLab Data Centre**](https://www.scilifelab.se/data) provides servic
 
 Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support services regarding data management questions, including e.g. guidance when writing data management plans and when doing submissions to domain-specific repositories. For information about this and other resources at NBIS please see the [**Data Management**](https://nbis.se/services/guidance-on-data-management) page. Regarding sensitive human data, an important resource is the [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which will be integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
-The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that provides resources and user support for large-scale computation and data storage meeting the needs of researchers from all scientific disciplines and from all over Sweden. Of particular use for life science researchers is the [**NAISS-SENS**](https://www.uppmax.uu.se/projects-and-collaborations/naiss-sens/) project, which provides high-performance computing resources for analyzing sensitive data.
+The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that provides resources and user support for large-scale computation and data storage meeting the needs of researchers from all scientific disciplines and from all over Sweden. Of particular use for life science researchers is the [**NAISS-SENS**](https://supr.naiss.se/round/open_or_pending_type/?type=NAISS+SENS) project, which provides high-performance computing resources for analyzing sensitive data.
 
-[**Swedish National Data Service**](https://snd.gu.se/en) (SND), with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans.
+[**Swedish National Data Service**](https://snd.gu.se/en) (SND), with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans. In order to promote reuse and open access to data, SND has established [**researchdata.se**](https://researchdata.se/en), which serves as a portal for information on data management as well as a data catalogue to a variety of research fields.
  
 List of universities with established Research Data Offices or Data Access Units (DAUs), with links to local online resources and contact information:
 * Chalmers University of Technology - [RDO Support](https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/reserch-data-management-support/) - <dataoffice@chalmers.se> - [DPO support](https://www.chalmers.se/en/about-chalmers/about-the-website/processing-of-personal-data/) - <>
