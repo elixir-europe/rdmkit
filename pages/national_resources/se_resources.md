@@ -156,15 +156,15 @@ The [**National Academic Infrastructure for Super­computing in Sweden**](https:
 [**Swedish National Data Service**](https://snd.gu.se/en) (SND), with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans.
  
 List of universities with established Research Data Offices or Data Access Units (DAUs), with links to local online resources and contact information:
-* Chalmers University of Technology - [Research Data Support](https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/) - <dataoffice@chalmers.se>
-* Karolinska Institutet - [Research Data Support](https://staff.ki.se/research-data-management) - <rdo@ki.se>
+* Chalmers University of Technology - [Research Data Support](https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/reserch-data-management-support/) - <dataoffice@chalmers.se>
+* Karolinska Institutet - [Research Data Support](https://staff.ki.se/research-support/research-data-management) - <rdo@ki.se>
 * KTH Royal Institute of Technology - [Research Data Support](https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/) - <researchdata@kth.se>
 * Linköping University - [Research Data Support](https://ep.liu.se/en/datamanagement.aspx) - <datamanagement@liu.se>
 * Linnaeus University - [Research Data Support](https://lnu.se/en/medarbetare/researcher/researcher5/research-data/) - <dau@lnu.se>
-* Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-support) - See web page for contact information
-* Stockholm University - [Research Data Support](https://www.su.se/staff/researchers/research-data) - <opendata@su.se>
-* Swedish University of Agricultural Sciences - [Research Data Support](https://www.slu.se/en/library/manage-data/) - <dms@slu.se>
-* Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/library/contact-us/)
-* University of Gothenburg - [Research Data Support](https://www.ub.gu.se/en/services-and-support) - <researchdata@gu.se>
+* Lund University - [Research Data Support](https://www.lub.lu.se/en/services-and-support/research-data) - <support@researchdata.lu.se>
+* Stockholm University - [Research Data Support](https://medarbetare.su.se/en/research/your-research) - <opendata@su.se>
+* Swedish University of Agricultural Sciences - [Research Data Support](https://internt.slu.se/en/support-services/data-management-support-for-research-and-environmental-assessment/#stod) - <dms@slu.se>
+* Umeå University - [Research Data Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/support-regarding-research-data/contact-the-research-data-support-team/)
+* University of Gothenburg - [Research Data Support](https://gunet.sharepoint.com/sites/mp-utbildning-och-forskning/SitePages/en/Research-data-management.aspx) - <researchdata@gu.se>
 * Uppsala University - [Research Data Support](https://www.uu.se/en/staff/gateway/research/research-data) - <dataoffice@uu.se>
 * Örebro University - [Research Data Support](https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/) - See web page for contact information
