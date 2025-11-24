@@ -170,7 +170,7 @@ Sharing plant genotyping data files involves the use of the Variant Call Format 
 * Once the VCF file is ready with all necessary metadata, it can be submitted to {% tool "european-variation-archive" %}. You will find all necessary information on the submission steps on the [EVA submission page](https://www.ebi.ac.uk/eva/?Submit-Data).
 
 #### Permanent identifers
-* {% tool "eva" %} will issue a permanant identifier far each study and anlysis included in the submission. This permanant identifer can be used in publication to refer to the dataset.
+* {% tool "eva" %} will issue a permanant identifier for each study (BioProject Accession, e.g. PRJEB...) and analysis (Analysis Accession, e.g. ERZ...) included in the submission. This permanant identifer can be used in publication to refer to the dataset.
 * Each variant submitted to the EVA will receive RSids for consistent referencing and interoperability. RSids are unique, stable identifiers assigned by the European Variation Archive (EVA) that cluster identical genetic variants found at the same genomic location across multiple independent submissions. These can be used in publication or other database to higlight specific variant of interest.
 
 * It is also recommended that you provide permanent access to a description of the project or study, that contains links to all the data, molecular or phenotypic (see [Data Publication](#Data-Publication))
