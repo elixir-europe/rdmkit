@@ -1,4 +1,4 @@
-name: Add Page PR Checklist
+name: Add editorial checklist upon review
 
 on:
   pull_request_review:
