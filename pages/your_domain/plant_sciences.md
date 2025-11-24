@@ -122,7 +122,7 @@ It is recommended that metadata collection is contemplated from the start of the
   * Other sections include a description of investigations/dataset, studies, people involved, data files, environmental parameters, experimental factors, events.
   * It is implemented as an Excel template, as an ISA profile, in several databases and in the Breeding API ({% tool "brapi" %}).
   
-* Tools and resources for data collection and management:
+* Tools and resources for data collection and management (all resources that support {% tool "miappe" %} also support {% tool "crop-ontology" %}):
   * A simple [MIAPPE Excel template](https://github.com/MIAPPE/MIAPPE/tree/master/Templates) enables pragmatic and basic data exchange. See also {% tool "miappe-compliant-spreadsheet-template" %} to potentially enhance customised templates with ontology tools such as {% tool "rightfield" %} or {% tool "onotomaton" %}.
   * Submission using {% tool "miappe-compliant-spreadsheet-template" %} to databases such as {% tool "dataverse" %}, {% tool "zenodo" %} and {% tool "e-dal" %} is described in [Plant Phenomics](plant_pheno_assembly), which includes a detailled [step by step procedure](https://w3id.org/faircookbook/FCB083).
   * {% tool "fairdom-seek" %} is a free data management platform for which MIAPPE templates are available.
