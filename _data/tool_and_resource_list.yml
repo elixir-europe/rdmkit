@@ -3372,3 +3372,27 @@
   registry:
     tess: Eraser
   url: https://eraser.heidi.ie/
+- description: A file format used in genome assembly projects. It describes how larger sequences, like chromosomes, are constructed by ordering and orienting smaller sequence fragments (contigs or scaffolds).
+  id: agp
+  name: A Golden Path (AGP)
+  url: https://www.ncbi.nlm.nih.gov/assembly/agp/AGP_Specification/
+- description: A concise and flexible format for defining genomic regions. It is commonly used to provide annotation tracks for display in genome browsers and is simpler than GFF.
+  id: bed
+  name: Browser Extensible Data (BED)
+  url: https://genome.ucsc.edu/FAQ/FAQformat.html#format1
+- description: An open-access database of all types of genetic variation data from all species.
+  id: eva
+  name: European Variation Archive (EVA)
+  url: https://www.ebi.ac.uk/eva/
+- description: A tab-delimited text file used to describe the functional features of a genome, such as genes, exons, and regulatory elements.
+  id: gff3
+  name: General Feature Format (GFF3)
+  url: https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
+- description: A specific text-based format for storing genotypes from a population. It typically arranges single nucleotide polymorphisms (SNPs) in rows and individual samples in columns.
+  id: hapmap
+  name: HapMap Format
+  url: https://www.genome.gov/10001688/international-hapmap-project
+- description: A text file format meant to represent genome sequence variations such as SNPs, indels, structural variants, and annotations.
+  id: vcf
+  name: Variant Call Format (VCF)
+  url: https://samtools.github.io/hts-specs/
