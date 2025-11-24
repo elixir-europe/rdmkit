@@ -49,7 +49,7 @@ The general principles to be considered are described in the [Plant Sciences dom
 
 ### File based data collection
 
-The metadata and description of your experiments should be filled using a [MIAPPE template](https://github.com/MIAPPE/MIAPPE/tree/master/Templates). Note that there is a readme that fully describes each field as well as their type and their optional or mandatory status. All fields should be present in the file you are using, even if you leave the optional ones empty. This will allow standard processing and validation using dedicated tools.
+The metadata and description of your experiments should be filled using a [MIAPPE template](https://github.com/MIAPPE/MIAPPE/tree/master/Templates). Note that a README file is provided, which fully describes each field, including its type and whether it is optional or mandatory. All fields should be present in the file you are using, even if you leave the optional ones empty. This will allow standard processing and validation using dedicated tools.
 
 ### Experimental data gathering and management 
 
