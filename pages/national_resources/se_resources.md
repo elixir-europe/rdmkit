@@ -157,7 +157,7 @@ The following is a list of ethical and legal committees, authorities and regulat
 
 The [**SciLifeLab Data Centre**](https://www.scilifelab.se/data) provides services for IT and data management, including an instance of the Data Stewardship Wizard (for writing data management plans), the Swedish Pathogens Portal, and the SciLifeLab Data Repository. 
 
-Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support on research data management, including e.g. guidance on writing data management plans and submitting data to domain-specific repositories. For more information about these and other NBIS resources, please see the [**Data Management page**](https://nbis.se/services/guidance-on-data-management).
+Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support on research data management, including e.g. guidance on writing data management plans and submitting data to domain-specific repositories. For more information about these and other NBIS data management services, please see the [**Data Management page**](https://nbis.se/services/guidance-on-data-management).
 
 For sensitive human data, an key resource is [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which is integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
