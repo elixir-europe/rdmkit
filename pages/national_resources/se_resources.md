@@ -2,7 +2,7 @@
 
 title: Sweden
 country_code: SE
-contributors: [Stephan Nylinder, Yvonne Kallberg, Niclas Jareborg]
+contributors: [Stephan Nylinder, Yvonne Kallberg, Niclas Jareborg, Markus Englund]
 coordinators: [Niclas Jareborg, Yvonne Kallberg]
 
 training:
