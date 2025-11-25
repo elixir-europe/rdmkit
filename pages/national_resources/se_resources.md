@@ -134,7 +134,7 @@ Many universities have established data and open access policies, for more infor
 
 ## Authorities and Regulations
 
-If personal data is processed in your research, contact your university’s or institute’s Data Protection Officer (DPO) (see list at the end of the page), for guidance on ethical and legal compliance. 
+If personal data is processed in your research, contact your organisation’s Data Protection Officer (DPO) (see list at the end of the page), for guidance on ethical and legal compliance. 
 
 The following is a list of ethical and legal committees, authorities and regulations of interest:
 
