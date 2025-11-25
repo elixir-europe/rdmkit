@@ -120,7 +120,7 @@ national_resources:
 
 ## Introduction 
 
-This page provides a general overview of national resources on research data management (RDM) and Open Science in Sweden, directed towards researchers and official collaborators. National and long term data management goals and objectives are provided in the research and innovation bill [2024/25:60](https://www.regeringen.se/contentassets/a70996e2f9de4222b5a6880d33c20d35/forskning-och-innovation-for-framtid-nyfikenhet-och-nytta-prop.-20242560.pdf) (in Swedish). The Swedish ELIXIR node **[National Bioinformatics Infrastructure Sweden (NBIS)](https://nbis.se/)** offers support and training in data management to life science researchers in Sweden, in collaboration with the **[SciLifeLab Data Centre**](https://www.scilifelab.se/data/)**.
+This page provides a general overview of national resources on research data management (RDM) and Open Science in Sweden, directed towards researchers and official collaborators. National and long term data management goals and objectives are provided in the research and innovation bill [2024/25:60](https://www.regeringen.se/contentassets/a70996e2f9de4222b5a6880d33c20d35/forskning-och-innovation-for-framtid-nyfikenhet-och-nytta-prop.-20242560.pdf) (in Swedish). The Swedish ELIXIR node [**National Bioinformatics Infrastructure Sweden (NBIS)**](https://nbis.se/) offers support and training in data management to life science researchers in Sweden, in collaboration with the [**SciLifeLab Data Centre**](https://www.scilifelab.se/data/).
 
 ## Policies and guidelines
 
