@@ -3396,7 +3396,6 @@
   id: vcf
   name: Variant Call Format (VCF)
   url: https://samtools.github.io/hts-specs/
-- description: Paperpile is a commercial library manager with extensive support for the BibTeX format. 
 - description: Paperpile is a commercial library manager with extensive support for the BibTeX format.
   id: paperpile
   name: Paperpile
