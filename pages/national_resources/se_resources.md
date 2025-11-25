@@ -159,7 +159,7 @@ The [**SciLifeLab Data Centre**](https://www.scilifelab.se/data) provides servic
 
 Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support on research data management, including e.g. guidance on writing data management plans and submitting data to domain-specific repositories. For more information about these and other NBIS data management services, please see the [**Data Management page**](https://nbis.se/services/guidance-on-data-management).
 
-For sensitive human data, an key resource is [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which is integrated with the {% tool "the-european-genome-phenome-archive" %}.
+For sensitive human data, a key resource is [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which is integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
 The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that offers compute and storage resources, as well as user support, for researchers across all scientific disciplines in Sweden. Of particular relevance for life science researchers working with sensitive data is [**NAISS-SENS**](https://supr.naiss.se/round/open_or_pending_type/?type=NAISS+SENS), through which researchers can apply for high-performance computing resources for the analysis of sensitive data.
 
