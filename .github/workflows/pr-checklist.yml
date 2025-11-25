@@ -19,21 +19,21 @@ jobs:
           # Get the changed files in the pull request
           CHANGED_FILES=$(gh pr diff ${{ github.event.pull_request.number }} --name-only)
           if echo "$CHANGED_FILES" | grep -qE '^pages/'; then
-            echo "TRUE" >> $GITHUB_ENV
+            echo "is_pages_changed=TRUE" >> $GITHUB_OUTPUT
           else
-            echo "FALSE" >> $GITHUB_ENV
+            echo "is_pages_changed=FALSE" >> $GITHUB_OUTPUT
           fi
 
       - name: Parse Checklist
         id: parse_checklist
-        if: ${{ env.is_pages_changed == 'TRUE' }}
+        if: ${{ steps.check_files.outputs.is_pages_changed == 'TRUE' }}
         run: |
           # Read the checklist file from the repository
           CHECKLIST=$(sed -E 's/^[0-9]+\.\s+-?/- [ ] /' pages/contribute/editors_checklist.md)
-          echo "CHECKLIST=$CHECKLIST" >> $GITHUB_ENV
+          echo "CHECKLIST=$CHECKLIST" >> $GITHUB_OUTPUT
 
       - name: Add Review Comment
-        if: env.CHECKLIST != ''
+        if: ${{ steps.parse_checklist.outputs.CHECKLIST != '' }}
         uses: actions/github-script@v6
         with:
           script: |
@@ -43,9 +43,9 @@ jobs:
             const owner = context.payload.pull_request.head.repo.owner.login; // Get code owner
             const repo = context.payload.pull_request.head.repo.name;
 
-            await github.pulls.createReviewComment({
+            await github.rest.pulls.createReviewComment({
               owner: owner,
               repo: repo,
               pull_number: prNumber,
               body: template,
-            });
+            })
