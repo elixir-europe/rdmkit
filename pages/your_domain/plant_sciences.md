@@ -147,13 +147,13 @@ It is recommended that metadata collection is contemplated from the start of the
 ## Genotyping: (meta)data collection and sharing
 
 ### Description
-Here are described the mandatory, recommended and optional metadata fields for data interoperability and re-use, as well as for data deposition in {% tool "eva" %} (European Variation Archive), the EMBL-EBI's open-access genetic variation archive connected to {% tool "biosamples" %}, described [above](#plant-biological-materials-metadata-collection-and-sharing). In addition to sample and experiment metadata, the use of stable variant identifiers (RSids) issued by EVA is strongly recommended. RSids (Reference SNP cluster IDs) provide a persistent and globally recognised reference for each variable loci, ensuring long-term traceability and interoperability across datasets.
+Here are described the mandatory, recommended and optional metadata fields for data interoperability and re-use, as well as for data deposition in {% tool "european-variation-archive" %} (European Variation Archive), the EMBL-EBI's open-access genetic variation archive connected to {% tool "biosamples" %}, described [above](#plant-biological-materials-metadata-collection-and-sharing). In addition to sample and experiment metadata, the use of stable variant identifiers (RSids) issued by EVA is strongly recommended. RSids (Reference SNP cluster IDs) provide a persistent and globally recognised reference for each variable loci, ensuring long-term traceability and interoperability across datasets.
 
 ### Considerations
 * Did you collect the metadata for the identification of your plant samples according to the recommendations provided in the [above section](#plant-biological-materials-metadata-collection-and-sharing)?
 * Is the reference genome assembly available in an {% tool "international-nucleotide-sequence-database-collaboration" %} archive and has a Genome Collections Accession number, either GCA or GCF?
 * Is the analytic approach used for creating the {% tool "vcf" %} file available in a publication and has a Digital Object Identifier (DOI)? 
-* How do you plan to refer to the variants you will submit to the {% tool "eva" %} ?
+* How do you plan to refer to the variants you will submit to the {% tool "european-variation-archive" %} ?
 
 ### Solutions
 
@@ -170,7 +170,7 @@ Sharing plant genotyping data files involves the use of the Variant Call Format 
 * Once the VCF file is ready with all necessary metadata, it can be submitted to {% tool "european-variation-archive" %}. You will find all necessary information on the submission steps on the [EVA submission page](https://www.ebi.ac.uk/eva/?Submit-Data).
 
 #### Permanent identifers
-* {% tool "eva" %} will issue a permanant identifier for each study (BioProject Accession, e.g. PRJEB...) and analysis (Analysis Accession, e.g. ERZ...) included in the submission. This permanant identifer can be used in publication to refer to the dataset.
+* {% tool "european-variation-archive" %} will issue a permanant identifier for each study (BioProject Accession, pattern: ^PRJ[DEN][A-Z]\d+$) and analysis (Analysis Accession, e.g. ERZxxxxxx) included in the submission. This permanant identifer can be used in publication to refer to the dataset.
 * Each variant submitted to the EVA will receive RSids for consistent referencing and interoperability. RSids are unique, stable identifiers assigned by the European Variation Archive (EVA) that cluster identical genetic variants found at the same genomic location across multiple independent submissions. These can be used in publication or other database to higlight specific variant of interest.
 
 * It is also recommended that you provide permanent access to a description of the project or study, that contains links to all the data, molecular or phenotypic (see [Data Publication](#Data-Publication))
