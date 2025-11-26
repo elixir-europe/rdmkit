@@ -46,7 +46,7 @@ To cite the paper about how RDMkit was created please cite:
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>Alper, P., D’Anna, F., Droesbeke, B., Andrabi, M., Buono, R.A., Bianchini, F., Bösl, K., Chandramouliswaran, I., Cook, M., Faria, D., et al. (2025). RDMkit: A research data management toolkit for life sciences. PATTER 0. https://doi.org/10.1016/j.patter.2025.101345.</a></i></p>
+    <p class="card-text"><i>Alper, P., D’Anna, F., Droesbeke, B., Andrabi, M., Buono, R.A., Bianchini, F., Bösl, K., Chandramouliswaran, I., Cook, M., Faria, D., et al. (2025). RDMkit: A research data management toolkit for life sciences. PATTERNS Volume 6, Issue 9, 101345.<a href="https://doi.org/10.1016/j.patter.2025.101345">https://doi.org/10.1016/j.patter.2025.101345</a>.</i></p>
   </div>
 </div>
 
