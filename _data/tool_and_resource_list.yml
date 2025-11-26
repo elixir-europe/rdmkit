@@ -3394,12 +3394,6 @@
   id: hapmap
   name: HapMap Format
   url: https://www.genome.gov/10001688/international-hapmap-project
-- description: A text file format meant to represent genome sequence variations such as SNPs, indels, structural variants, and annotations.
-  id: vcf
-  name: Variant Call Format (VCF)
-  registry:
-    fairsharing: cfzz0h
-  url: https://samtools.github.io/hts-specs/
 - description: Paperpile is a commercial library manager with extensive support for the BibTeX format.
   id: paperpile
   name: Paperpile
