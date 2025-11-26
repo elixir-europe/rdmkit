@@ -3380,10 +3380,6 @@
   id: bed
   name: Browser Extensible Data (BED)
   url: https://genome.ucsc.edu/FAQ/FAQformat.html#format1
-- description: An open-access database of all types of genetic variation data from all species.
-  id: eva
-  name: European Variation Archive (EVA)
-  url: https://www.ebi.ac.uk/eva/
 - description: A tab-delimited text file used to describe the functional features of a genome, such as genes, exons, and regulatory elements.
   id: gff3
   name: General Feature Format (GFF3)
