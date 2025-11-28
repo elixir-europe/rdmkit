@@ -155,9 +155,7 @@ The following is a list of ethical and legal committees, authorities and regulat
 
 ## Domain-specific infrastructures and resources 
 
-The [**SciLifeLab Data Centre**](https://www.scilifelab.se/data) provides services for IT and data management, including an instance of the Data Stewardship Wizard (for writing data management plans), the Swedish Pathogens Portal, and the SciLifeLab Data Repository. 
-
-Data stewards at [**NBIS**](https://nbis.se/) (ELIXIR-SE) provide consultation and support on research data management, including e.g. guidance on writing data management plans and submitting data to domain-specific repositories. For more information about these and other NBIS data management services, please see the [**Data Management page**](https://nbis.se/services/guidance-on-data-management).
+[SciLifeLab Data Management Support](https://data-guidelines.scilifelab.se/) offers tools, guidance, training and hands-on support on various aspects of research data management, such as data management planning, data publishing, guidance on working with sensitive human data, implementing FAIR data principles, and more. The services are provided as a collaboration between [NBIS Data Management team](https://nbis.se/services/guidance-on-data-management) and the [SciLifeLab Data Centre](http://data.scilifelab.se/).
 
 For sensitive human data, a key resource is [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which is integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
