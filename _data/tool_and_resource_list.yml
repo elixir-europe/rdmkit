@@ -3363,3 +3363,7 @@
   registry:
     tess: Eraser
   url: https://eraser.heidi.ie/
+- description: Paperpile is a commercial library manager with extensive support for the BibTeX format.
+  id: paperpile
+  name: Paperpile
+  url: https://paperpile.com/
