@@ -2167,7 +2167,7 @@
 - description: This document describes the MIAPPE Checklist and Data Model
   id: miappe-checklist-data-model
   name: MIAPPE_Checklist-Data-Model
-  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model.tsv
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist_Data_Model.tsv
 - description: BioSamples Plant MIAPPE checklist in JSON format
   id: plant-miappe-json
   name: plant-miappe.json
