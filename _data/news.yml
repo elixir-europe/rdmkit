@@ -222,3 +222,7 @@
   date: 2025-11-06
   linked_pr: 1715
   description:  A "your task" page about how to properly delete data was added. [Discover the page here](data_deletion).
+- name: "Revamped page: Plant sciences"
+  date: 2024-12-01
+  linked_pr: 1724
+  description: The page was updated with additional standards, tools, and more extensive descriptions. [Discover the page here](plant_sciences).
