@@ -25,7 +25,7 @@ national_resources:
     how_to_access: Available to everyone.
     related_pages:
       Your_tasks: [existing_data, data_publication, dmp]
-    url: https://www.researchdata.se/en
+    url: https://researchdata.se/en
   - name: Swedish Open Science Portal
     description: The Swedish Open Science Portal is a national knowledge hub for open science in Sweden. It provides information, guidelines, and tools to support researchers and research institutions in implementing open science practices.
     how_to_access: Available to everyone.
