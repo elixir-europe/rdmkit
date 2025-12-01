@@ -2167,7 +2167,7 @@
 - description: This document describes the MIAPPE Checklist and Data Model
   id: miappe-checklist-data-model
   name: MIAPPE_Checklist-Data-Model
-  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model.tsv
 - description: BioSamples Plant MIAPPE checklist in JSON format
   id: plant-miappe-json
   name: plant-miappe.json
@@ -2185,7 +2185,7 @@
 - description: MIAPPE-compliant spreadsheet template
   id: miappe-compliant-spreadsheet-template
   name: MIAPPE-compliant spreadsheet template
-  url: https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/Templates/MIAPPE_Spreadsheet_Template.xlsx
 - description: The Common Workflow Language CWL is an emerging standard for writing workflows that are portable across multiple workflow engines and platforms. Toil has full support for the CWL v1.0, v1.1, and v1.2 standards.
   id: cwl-in-toil
   name: CWL in Toil
