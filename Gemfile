@@ -5,6 +5,7 @@ gem "webrick", "~> 1.9.1"
 gem "jekyll", "~> 4.4.1"
 gem "jemoji", "~> 0.13.0"
 gem "kramdown-parser-gfm", "~> 1.1"
+gem 'jekyll-octicons'
 gem "csv"
 
 group :jekyll_plugins do
