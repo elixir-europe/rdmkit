@@ -17,7 +17,7 @@ matomo: https://webstats.elixir-europe.org/
 # Matomo domain where Matomo is running
 matomo_id: 2
 
-dsw_deep_link_prefix: https://researchers.dsw.elixir-europe.org/knowledge-models/dsw:root:latest/preview?questionUuid=
+dsw_deep_link_prefix: https://researchers.dsw.elixir-europe.org/knowledge-model-packages/dsw:root:latest/preview?questionUuid=
 # prefix for DSW deep links to a certain question
 
 theme_variables:
