@@ -38,7 +38,7 @@ national_resources:
       Your_tasks: [dmp]
     url: https://dsw.scilifelab.se/ 
   - name: SciLifeLab Data Repository (Figshare)
-    description: A repository for publishing any kind of research-related data when no domain-specific repositories exist, e.g. documents, figures, or presentations.
+    description: A repository for publishing life science research outputs that do not fit within existing domain-specific repositories, including datasets, documents, figures, and presentations, hosted on SciLifeLab's local Figshare instance.
     how_to_access: Available to everyone with an affiliation to a Swedish academic institution.
     instance_of: figshare
     related_pages:
@@ -51,7 +51,7 @@ national_resources:
       Your_tasks: [dmp, data_publication, sensitive]
     url: https://nbis.se/services/guidance-on-data-management
   - name: Swedish Pathogens Portal
-    description: The Swedish Pathogens Portal provides information, guidelines, tools and services to support researchers to utilise Swedish and European infrastructures for data sharing related to pathogens.
+    description: The Swedish Pathogens Portal provides researchers with information, guidelines, tools and services that enable effective use of national and European infrastructures for sharing data related to pathogens.
     related_pages:
       Tool_assembly: [covid19_data_portal]
       Your_domain: [human_data]
@@ -90,14 +90,14 @@ national_resources:
     how_to_access: Available to life science researchers affiliated with a Swedish research institute
     url: https://serve.scilifelab.se/
   - name: SciLifeLab Precision Medicine Portal
-    description: The PM Portal is a service for researchers in the precision medicine field, designed to support and accelerate data-driven life science research in Sweden. It provides links to various data sources, customised dashboards, and resources for navigating data management challenges. Researchers can also find guidance on handling sensitive data and links to relevant tools and services.
+    description: This portal is a service for researchers in the precision medicine field, designed to support and accelerate data-driven life science research in Sweden. It provides links to various data sources, customised dashboards, and resources for navigating data management challenges. Researchers can also find guidance on handling sensitive data and links to relevant tools and services.
     how_to_access: Available to life science researchers affiliated with a Swedish research institute
     related_pages:
       Your_domain: [health_data, human_data]
       Your_tasks: [existing_data, gdpr_compliance]
     url: https://precision-medicine-portal.scilifelab.se/
-  - name: Swedish Biodiversity Data Infrastructure - SBDI
-    description: The Swedish Biodiversity Data Infrastructure (SBDI) is a national research infrastructure that provides access to biodiversity data and related services for researchers in Sweden. SBDI aims to facilitate the use of biodiversity data for research, conservation, and sustainable development.
+  - name: Swedish Biodiversity Data Infrastructure (SBDI)
+    description: SBDI is a national research infrastructure that provides access to biodiversity data and related services for researchers in Sweden. SBDI aims to facilitate the use of biodiversity data for research, conservation, and sustainable development.
     how_to_access: Available to everyone.
     related_pages:
       Your_domain: [biodiversity]
@@ -106,14 +106,14 @@ national_resources:
   - name: SciLifeLab Training Portal
     description: A portal for finding training events and materials related to life science research data management and bioinformatics in Sweden. Herein, the life science community in Sweden can find opportunities to gain relevant skills, and experts can find support in creating training that captures their knowledge
     url: https://training.scilifelab.se/
-  - name: AIDA Data Hub
-    description: AIDA Data Hub is a national infrastructure for storing and sharing research data in Sweden, with a focus on clinical innovation in data driven precision health, with a base in multi-modal diagnostics and medical imaging AI. It provides secure storage and data management services to researchers, industry, and caregivers of national significance, ensuring compliance with data protection regulations.
+  - name: Analytical Imaging Diagnostics Arena (AIDA) Data Hub
+    description: AIDA Data Hub is a national infrastructure for secure storing and sharing of multi-modal diagnostics and medical imaging AI.
     how_to_access: An application is required to gain access to the services.
     related_pages:
       Your_domain: [health_data, human_data]
       Your_tasks: [gdpr_compliance]
     url: https://datahub.aida.scilifelab.se/
-  - name: SciLifeLab Open science
+  - name: SciLifeLab Open Science
     description: A knowledge hub for open science in life science research in Sweden, providing information, guidelines, and tools to support researchers and research institutions in implementing open science practices.
     url: https://data.scilifelab.se/open_science/
 ---
