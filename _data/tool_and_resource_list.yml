@@ -490,6 +490,8 @@
 - description: Choose an open source license
   id: choose-a-license
   name: Choose a license
+  registry:
+    tess: Choose a license
   url: https://choosealicense.com
 - description: ClinicalTrials.gov is a resource depending on the National Library of medicine which makes available private and public-funded clinical trials.
   id: clinicaltrials-gov
@@ -550,6 +552,8 @@
 - description: It helps you choose the right Creative Commons license for your needs.
   id: creative-commons-license-chooser
   name: Creative Commons License Chooser
+  registry:
+    tess: Creative Commons License Chooser
   url: https://creativecommons.org/choose/
 - description: The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.
   id: crop-ontology
@@ -717,6 +721,7 @@
   name: Dryad
   registry:
     fairsharing: wkggtx
+    tess: Dryad
   url: https://datadryad.org/
 - description: Database of folding / unfolding pathway of representatives from all known protein folds by MD simulation
   id: dynameomics
@@ -762,6 +767,7 @@
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
     fairsharing-coll: 3527
+    tess: ELIXIR Deposition Databases for Biomolecular Data
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
   id: life-science-login
@@ -2989,6 +2995,7 @@
   name: DrugMap
   registry:
     biotools: drugmap
+    fairsharing: 27137a
   url: https://drugmap.idrblab.net/
 - description: Database of known and explored therapeutic targets and their related drugs.
   id: ttd
@@ -3080,6 +3087,7 @@
   name: EnzymeML
   registry:
     biotools: enzymeml
+    fairsharing: 82d2d6
   url: https://enzymeml.org/
 - description: The BioAssay Ontology (BAO) describes chemical biology screening assays and their results, including high-throughput screening (HTS) data, to categorise assays and data analysis.
   id: bioassay-ontology
@@ -3281,6 +3289,7 @@
   name: Darwin Core (DwC)
   registry:
     fairsharing: xvf5y3
+    tess: Darwin Core (DwC)
   url: https://www.tdwg.org/standards/dwc/
 - description: CETAF is a European network of biological and geological collections.
   id: cetaf
