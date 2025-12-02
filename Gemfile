@@ -16,5 +16,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-remote-theme", "~> 0.4.3"
   gem "jekyll-sass-converter", "~> 2.0"
+  gem 'jekyll-scholar', '~> 7.1.3'
 end
 
