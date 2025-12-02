@@ -323,6 +323,7 @@ Rafael Andrade Buono:
 Sebastian Beier:
     git: sebeier
     orcid: 0000-0002-2177-8781
+    affiliation: Forschungszentrum Jülich GmbH
 Sirarat Sarntivijai:
     git: siiraa
 Josh Moore:
@@ -762,3 +763,15 @@ Angela P. Fuentes-Pardo:
     git: apfuentes
     orcid: 0000-0002-5734-9030
     affiliation: SciLifeLab, Uppsala University, Sweden
+Timothé Cezard:
+    git: tcezard
+    orcid: 0000-0002-5626-270X
+    affiliation: European Bioinformatics Institute
+Matthijs Brouwer:
+    git: matthijsbrouwer
+    orcid: 0000-0001-8183-0484
+    affiliation: Wageningen University & Research
+Manuel Feser:
+    git: feserm
+    orcid: 0000-0001-6546-1818
+    affiliation: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben
