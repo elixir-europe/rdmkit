@@ -38,7 +38,7 @@ When referencing content from the RDMkit pages, please cite as follows:
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org </a></i></p>
+    <p class="card-text"><i>RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org</a></i></p>
   </div>
 </div>
 
@@ -49,7 +49,6 @@ title = {{RDMkit: The Research Data Management toolkit for Life Sciences}},
 url = {https://rdmkit.elixir-europe.org}
 }
 ```
-
 
 
 To cite the paper about how RDMkit was created please cite:
@@ -71,7 +70,6 @@ url = {https://doi.org/10.1016/j.patter.2025.101345},
 year = {2025}
 }
 ```
-
 
 The ELIXIR Research Data Management Kit makes all its materials publicly available under open licenses. Software is released under the [MIT license](https://opensource.org/licenses/mit-license.html) (an [Open Source Initiative-approved](https://opensource.org/licenses) license), while the process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license. For full details on licensing, please visit our [License document on GitHub](https://github.com/elixir-europe/rdmkit/blob/master/LICENSE).
 
