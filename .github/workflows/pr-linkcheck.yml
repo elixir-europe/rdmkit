@@ -1,0 +1,91 @@
+name: Link Checker
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  linkChecker:
+    #if: |
+    #  github.repository_owner == 'elixir-europe'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Important to get all files for comparison
+
+      - name: Get Changed Files
+        id: changed-files
+        uses: tj-actions/changed-files@v41
+        with:
+          files: |
+            _site/**
+            pages/**
+            *.md
+            *.html
+
+      - name: Setup Ruby
+        if: steps.changed-files.outputs.any_changed == 'true'
+        uses: ruby/setup-ruby@v1.204.0
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          cache-version: 0
+
+      - name: Install dependencies
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+            bundle install
+
+      - name: Build with Jekyll
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+            bundle exec jekyll build
+        env:
+            PAGES_REPO_NWO: ${{ github.repository }}
+            JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
+            JEKYLL_ENV: production
+            JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Link Checker
+        id: lychee
+        if: steps.changed-files.outputs.any_changed == 'true'
+        uses: lycheeverse/lychee-action@v2.1.0
+        with:
+            # Check only changed files
+            args: >
+              --fallback-extensions html 
+              --exclude '^https://github\.com' 
+              --root-dir "${{ github.workspace }}/_site" 
+              ${{ steps.changed-files.outputs.all_changed_files }}
+              --exclude-path all_tools_and_resources.html 
+              --exclude-path all_training_resources.html 
+            # Don't fail action on broken links
+            fail: false
+            lycheeVersion: v0.21.0
+            
+      - name: Add page URL
+        if: steps.lychee.outputs.exit_code != 0
+        run: |
+            DEPLOY_URL="https://rdmkit.elixir-europe.org/" && \
+            sed -i "s|\\#\\#\\# Errors in _site\/|\\#\\#\\# Errors in ${DEPLOY_URL}|g" ./lychee/out.md && \
+            cat ./lychee/out.md
+            
+      - name: Create PR Comment
+        if: steps.lychee.outputs.exit_code != 0
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('./lychee/out.md', 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: commentBody
+            });
