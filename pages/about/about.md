@@ -38,7 +38,7 @@ When referencing content from the RDMkit pages, please cite as follows:
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org</a></i></p>
+    <p class="card-text"><i>RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org </a></i></p>
   </div>
 </div>
 
