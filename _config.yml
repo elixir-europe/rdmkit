@@ -102,42 +102,36 @@ defaults:
       path: "pages/data_life_cycle/"
     values:
       type: Data_life_cycle
-      page_citation: true
       type_img: /assets/img/section-icons/reuse-sustain.svg
   -
     scope:
       path: "pages/your_domain/"
     values:
       type: Your_domain
-      page_citation: true
       type_img: /assets/img/section-icons/dna.svg
   -
     scope:
       path: "pages/your_tasks/"
     values:
       type: Your_tasks
-      page_citation: true
       type_img: /assets/img/section-icons/tick.svg
   -
     scope:
       path: "pages/your_role/"
     values:
       type: Your_role
-      page_citation: true
       type_img: /assets/img/section-icons/role-id.svg
   -
     scope:
       path: "pages/tool_assembly/"
     values:
       type: Tool_assembly
-      page_citation: true
       type_img: /assets/img/section-icons/tool-assembly.svg
   -
     scope:
       path: "pages/national_resources/"
     values:
       type: National_resources
-      page_citation: true
       type_img: /assets/img/section-icons/flag.svg
       datatable: true
   -
