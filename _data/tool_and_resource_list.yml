@@ -490,6 +490,8 @@
 - description: Choose an open source license
   id: choose-a-license
   name: Choose a license
+  registry:
+    tess: Choose a license
   url: https://choosealicense.com
 - description: ClinicalTrials.gov is a resource depending on the National Library of medicine which makes available private and public-funded clinical trials.
   id: clinicaltrials-gov
@@ -550,6 +552,8 @@
 - description: It helps you choose the right Creative Commons license for your needs.
   id: creative-commons-license-chooser
   name: Creative Commons License Chooser
+  registry:
+    tess: Creative Commons License Chooser
   url: https://creativecommons.org/choose/
 - description: The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.
   id: crop-ontology
@@ -717,6 +721,7 @@
   name: Dryad
   registry:
     fairsharing: wkggtx
+    tess: Dryad
   url: https://datadryad.org/
 - description: Database of folding / unfolding pathway of representatives from all known protein folds by MD simulation
   id: dynameomics
@@ -762,6 +767,7 @@
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
     fairsharing-coll: 3527
+    tess: ELIXIR Deposition Databases for Biomolecular Data
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
   id: life-science-login
@@ -2167,7 +2173,7 @@
 - description: This document describes the MIAPPE Checklist and Data Model
   id: miappe-checklist-data-model
   name: MIAPPE_Checklist-Data-Model
-  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist_Data_Model.tsv
 - description: BioSamples Plant MIAPPE checklist in JSON format
   id: plant-miappe-json
   name: plant-miappe.json
@@ -2185,7 +2191,7 @@
 - description: MIAPPE-compliant spreadsheet template
   id: miappe-compliant-spreadsheet-template
   name: MIAPPE-compliant spreadsheet template
-  url: https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/Templates/MIAPPE_Spreadsheet_Template.xlsx
 - description: The Common Workflow Language CWL is an emerging standard for writing workflows that are portable across multiple workflow engines and platforms. Toil has full support for the CWL v1.0, v1.1, and v1.2 standards.
   id: cwl-in-toil
   name: CWL in Toil
@@ -2989,6 +2995,7 @@
   name: DrugMap
   registry:
     biotools: drugmap
+    fairsharing: 27137a
   url: https://drugmap.idrblab.net/
 - description: Database of known and explored therapeutic targets and their related drugs.
   id: ttd
@@ -3080,6 +3087,7 @@
   name: EnzymeML
   registry:
     biotools: enzymeml
+    fairsharing: 82d2d6
   url: https://enzymeml.org/
 - description: The BioAssay Ontology (BAO) describes chemical biology screening assays and their results, including high-throughput screening (HTS) data, to categorise assays and data analysis.
   id: bioassay-ontology
@@ -3215,6 +3223,11 @@
   registry:
     fairsharing: s0jj2t
   url: https://github.com/BBMRI-ERIC/miabis
+- description: User-friendly application for creating FAIR- and ISA-compliant metadata for results of life science experiments.
+  id: isa-wizard
+  name: ISA Wizard
+  url: https://github.com/IPK-BIT/isa-wizard
+  
 - description: Global Biodiversity Information Facility (GBIF) is an international network and data platform that provides open access to biodiversity data from sources worldwide to support research and conservation.
   id: gbif
   name: Global Biodiversity Information Facility (GBIF)
@@ -3281,6 +3294,7 @@
   name: Darwin Core (DwC)
   registry:
     fairsharing: xvf5y3
+    tess: Darwin Core (DwC)
   url: https://www.tdwg.org/standards/dwc/
 - description: CETAF is a European network of biological and geological collections.
   id: cetaf
@@ -3349,7 +3363,11 @@
   id: nfdi4microbiotakb
   name: NFDI4Microbiota Knowledge Base
   url: https://knowledgebase.nfdi4microbiota.de/
-- description: A secure, free, cross-platform and open-source drive wiping utility. Should work with any HDD, SSD (read limitations) and flash drives.
+- description: Framework for organising and documenting research data, extending ISA, CWL, and RO-Crate.
+  id: arc
+  name: Annotated Research Context
+  url: https://arc-rdm.org/
+- description: A secure, free, cross-platform, and open-source drive wiping utility. Should work with any HDD, SSD (read limitations) and flash drives.
   id: lethe
   name: lethe
   url: https://github.com/Kostassoid/lethe
@@ -3363,3 +3381,29 @@
   registry:
     tess: Eraser
   url: https://eraser.heidi.ie/
+- description: A file format used in genome assembly projects. It describes how larger sequences, like chromosomes, are constructed by ordering and orienting smaller sequence fragments (contigs or scaffolds).
+  id: agp
+  name: A Golden Path (AGP)
+  registry:
+    fairsharing: mg1mdc
+  url: https://www.ncbi.nlm.nih.gov/assembly/agp/AGP_Specification/
+- description: A concise and flexible format for defining genomic regions. It is commonly used to provide annotation tracks for display in genome browsers and is simpler than GFF.
+  id: bed
+  name: Browser Extensible Data (BED)
+  registry:
+    fairsharing: mwmbpq
+  url: https://genome.ucsc.edu/FAQ/FAQformat.html#format1
+- description: A tab-delimited text file used to describe the functional features of a genome, such as genes, exons, and regulatory elements.
+  id: gff3
+  name: General Feature Format (GFF3)
+  registry:
+    fairsharing: dnk0f6
+  url: https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
+- description: A specific text-based format for storing genotypes from a population. It typically arranges single nucleotide polymorphisms (SNPs) in rows and individual samples in columns.
+  id: hapmap
+  name: HapMap Format
+  url: https://www.genome.gov/10001688/international-hapmap-project
+- description: Paperpile is a commercial library manager with extensive support for the BibTeX format.
+  id: paperpile
+  name: Paperpile
+  url: https://paperpile.com/
