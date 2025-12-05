@@ -15,7 +15,7 @@ training:
 
 ## What is the NeLS data management tool assembly?
 
-The [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://nels.bioinfo.no/) is an infrastructure provided by [ELIXIR Norway](https://elixir.no/). [NeLS](https://doi.org/10.12688/f1000research.15119.1) provides necessary tools for Data Management and covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offers [Data Storage](storage) capacities.
+The [Norwegian e-Infrastructure for Life Sciences (NeLS)](https://my.dead.link.test/) is an infrastructure provided by [ELIXIR Norway](https://elixir.no/). [NeLS](https://doi.org/10.12688/f1000research.15119.1) provides necessary tools for Data Management and covers [Planning](planning), [Processing](processing), [Analysing](analysing) and [Sharing](sharing) Data Life Cycle stages and offers [Data Storage](storage) capacities.
 
 ## Who can use the NeLS data management tool assembly?
 
