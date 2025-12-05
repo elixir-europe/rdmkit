@@ -13,8 +13,10 @@ $info-card-bg-hover: $primary;
 $info-card-color-hover: $white;
 
 /*-----Sidebar-----*/
-$sidebar-bg: transparent;
-$sidebar-lvl2-bg: transparent;
+$sidebar-title-bg: $light;
+
+/*-----Page metadata-----*/
+$page-metadata-bg: rgba($blue, 0.1);
 
 /*-----Section navigation tiles-----*/
 $nav-card-bg: $light;
