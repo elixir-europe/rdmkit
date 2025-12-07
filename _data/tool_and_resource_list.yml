@@ -3254,7 +3254,7 @@
   name: DISSCO
   registry:
     biotools: dissco
-    fairsharing: https://fairsharing.org/3816
+    fairsharing-coll: 3816
   url: https://www.dissco.eu/
 - description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata for all eukaryotic species and interpolates missing values through phylogenetic comparison.
   id: genomes-on-a-tree
