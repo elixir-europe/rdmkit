@@ -126,13 +126,11 @@ def get_collects_label_id(headers):
 
 def parse_frontmatter_boundaries(contents):
     """
-    Detect frontmatter and fairsharing block boundaries using the DSW logic.
-    Returns (frontmatter_start, frontmatter_end, fs_start, fs_end).
+    Detect the frontmatter boundaries.
+    Returns (frontmatter_start, frontmatter_end).
     """
     frontmatter_start = False
     frontmatter_end = 0
-    fs_start = 0
-    fs_end = 0
 
     for index, line in enumerate(contents):
         if re.match(r"^---", line):
@@ -140,26 +138,16 @@ def parse_frontmatter_boundaries(contents):
                 frontmatter_start = index
             else:
                 frontmatter_end = index
-                if fs_start and not fs_end:
-                    fs_end = index
-        elif line.startswith("fairsharing:") and isinstance(frontmatter_start, int):
-            fs_start = index
-        elif (
-            re.match(r"^[a-zA-Z]", line)
-            and isinstance(frontmatter_start, int)
-            and fs_start
-            and not fs_end
-        ):
-            fs_end = index
-        if frontmatter_end:
-            break
+                break
 
-    return frontmatter_start, frontmatter_end, fs_start, fs_end
+    return frontmatter_start, frontmatter_end
 
 
 def build_collections_to_check():
     """
-    Walk pages, read metadata via frontmatter, and raw contents via DSW method.
+    Walk pages, read metadata via frontmatter, and (only when needed)
+    compute frontmatter boundaries for later insertion
+    of a fairsharing block.
     Returns (collections_to_check, all_tools).
     """
     collections_to_check = {}
@@ -177,18 +165,6 @@ def build_collections_to_check():
             path = os.path.join(subdir, file_name)
             print(f"Reading out {filename_stripped}")
 
-            # --- Read raw contents for later write-back ---
-            with open(path, "r", encoding="utf8") as f:
-                contents = f.readlines()
-
-            frontmatter_start, frontmatter_end, fs_start, fs_end = parse_frontmatter_boundaries(
-                contents
-            )
-
-            if not isinstance(frontmatter_start, int) or frontmatter_end == 0:
-                print(f"\tNo valid frontmatter found in {path}, skipping.")
-                continue
-
             # --- Use python-frontmatter to read metadata and content ---
             post = frontmatter.load(path)
             metadata = post.metadata or {}
@@ -199,11 +175,10 @@ def build_collections_to_check():
                 continue
 
             existing_fs = metadata.get("fairsharing")
+            has_fs_meta = bool(existing_fs)
             existing_record_id = None
-            has_fs_meta = False
 
             if isinstance(existing_fs, list) and existing_fs:
-                has_fs_meta = True
                 for entry in existing_fs:
                     if isinstance(entry, dict) and "url" in entry:
                         existing_record_id = extract_fairsharing_id_from_url(entry["url"])
@@ -218,6 +193,19 @@ def build_collections_to_check():
                 if t not in all_tools:
                     all_tools.append(t)
 
+            contents = None
+            frontmatter_start = None
+            frontmatter_end = None
+
+            if not has_fs_meta:
+                with open(path, "r", encoding="utf8") as f:
+                    contents = f.readlines()
+                frontmatter_start, frontmatter_end = parse_frontmatter_boundaries(contents)
+
+                if not isinstance(frontmatter_start, int) or frontmatter_end == 0:
+                    print(f"\tNo valid frontmatter found in {path}, skipping.")
+                    continue
+
             # Build GitHub ref URL using relative path for robustness
             rel_path = os.path.relpath(path, ".").replace(os.sep, "/")
             slug = filename_stripped
@@ -231,11 +219,9 @@ def build_collections_to_check():
                 "new_name": f"RDMkit {title} Domain",
                 "new_homepage": f"{RDMKIT_BASE_URL}/{slug}",
                 "new_ref_url": f"{RDMKIT_GITHUB_BASE}/{rel_path}",
-                "contents": contents,
-                "frontmatter_start": frontmatter_start,
-                "frontmatter_end": frontmatter_end,
-                "fs_start": fs_start,
-                "fs_end": fs_end,
+                "contents": contents,                   # None if fairsharing already present
+                "frontmatter_start": frontmatter_start,  # None if fairsharing already present
+                "frontmatter_end": frontmatter_end,      # None if fairsharing already present
             }
 
     return collections_to_check, all_tools
@@ -403,96 +389,141 @@ def fetch_existing_collection(record_id, headers):
 
 def sync_record_associations(colinfo, matched_items, collec_lab_id, headers):
     """
-    Sync the collection's linked_records with the tools found in the page:
-    - Remove associations that are no longer present.
-    - Add new ones for tools that appear and have FAIRsharing ids.
+    Sync the collection's linked_records with the tools found in the page using
+    simple POST/DELETE calls on /record_associations:
+
+    - For tools present in RDMkit but not yet linked -> create association (POST).
+    - For associations present in FAIRsharing but no longer in RDMkit -> delete association (DELETE).
     """
-    # 1. Compute FAIRsharing ids for tools in this page
-    tools_id_to_add = []
+
+    record_id = colinfo["record_id"]
+    linked_records = colinfo["record"].get("linked_records", [])
+
+    # --- 1. Desired tool IDs from this page (from RDMkit) ---
+    desired_tool_ids = set()
     for t in colinfo["tools"]:
         if t in matched_items and matched_items[t]["id_fs"] is not None:
-            tools_id_to_add.append(matched_items[t]["id_fs"])
+            desired_tool_ids.add(matched_items[t]["id_fs"])
 
-    # 2. Remove relations that are no longer in RDMkit
-    for link_rec in list(colinfo["record"]["linked_records"]):
-        lr_id = link_rec.get("linked_record_id")
-        if lr_id not in tools_id_to_add:
-            link_id = link_rec.get("link_id")
-            if link_id is None:
-                continue
-            response = requests.delete(
-                FAIRSHARING_API + "record_associations/" + str(link_id),
+    # --- 2. Current associations of type 'collects' ---
+    # Map tool_id -> association_id (link_id in linked_records)
+    current_tool_to_assoc = {}
+    for lr in linked_records:
+        if lr.get("relation") == "collects":
+            tool_id = lr.get("linked_record_id")
+            assoc_id = lr.get("link_id")
+            if tool_id is not None and assoc_id is not None:
+                current_tool_to_assoc[tool_id] = assoc_id
+
+    current_tool_ids = set(current_tool_to_assoc.keys())
+
+    tools_to_add = desired_tool_ids - current_tool_ids
+    tools_to_delete = current_tool_ids - desired_tool_ids
+
+    print(f"\tTools to add: {tools_to_add}")
+    print(f"\tTools to delete: {tools_to_delete}")
+
+    # --- 3. Delete associations that are no longer desired ---
+    for tool_id in tools_to_delete:
+        assoc_id = current_tool_to_assoc.get(tool_id)
+        if assoc_id is None:
+            continue
+
+        try:
+            resp = requests.delete(
+                f"{FAIRSHARING_API}record_associations/{assoc_id}",
                 headers=headers,
             )
-            if response.ok:
+            if resp.ok:
                 print(
-                    f"In the FAIRsharing collection {colinfo['record_id']} the relation "
-                    f"with the record {lr_id} is removed."
+                    f"\tDeleted association {assoc_id} (tool {tool_id}) "
+                    f"from collection {record_id}"
                 )
             else:
-                print("Error removing record_association")
-                print(response.text)
-
-    # 3. Create missing relations
-    num_relations = 0
-    for id_rec in tools_id_to_add:
-        if not is_record_collected(colinfo["record"]["linked_records"], id_rec):
-            record_association = {"record_association": {}}
-            record_association["record_association"]["fairsharing_record_id"] = colinfo[
-                "record_id"
-            ]
-            record_association["record_association"]["linked_record_id"] = id_rec
-            record_association["record_association"]["record_assoc_label_id"] = collec_lab_id
-            json_object = json.dumps(record_association, indent=4)
-            response = requests.post(
-                FAIRSHARING_API + "record_associations",
-                headers=headers,
-                data=json_object,
+                print(
+                    f"\tError deleting association {assoc_id} for tool {tool_id} "
+                    f"from collection {record_id}"
+                )
+                print(resp.text)
+        except Exception as e:
+            print(
+                f"\tException while deleting association {assoc_id} "
+                f"for tool {tool_id} from collection {record_id}: {e}"
             )
-            if response.ok:
-                num_relations += 1
+
+    # --- 4. Create associations that are missing ---
+    num_created = 0
+    for tool_id in tools_to_add:
+        record_association = {
+            "record_association": {
+                "fairsharing_record_id": record_id,
+                "linked_record_id": tool_id,
+                "record_assoc_label_id": collec_lab_id,
+            }
+        }
+        try:
+            resp = requests.post(
+                f"{FAIRSHARING_API}record_associations",
+                headers=headers,
+                json=record_association,
+            )
+            if resp.ok:
+                num_created += 1
+                print(
+                    f"\tCreated association for tool {tool_id} in collection {record_id}"
+                )
             else:
-                print("Error creating record_association")
-                print(response.text)
+                print(
+                    f"\tError creating association for tool {tool_id} "
+                    f"in collection {record_id}"
+                )
+                print(resp.text)
+        except Exception as e:
+            print(
+                f"\tException while creating association for tool {tool_id} "
+                f"in collection {record_id}: {e}"
+            )
 
     print(
-        f"For the record {colinfo['record_id']} {num_relations} records are collected/added"
+        f"\tAssociation sync complete for {record_id}: "
+        f"{num_created} created, {len(tools_to_delete)} deleted"
     )
 
 
 def update_frontmatter_if_needed(path, colinfo, record_name, fairsharing_url):
     """
-    Use the DSW-style logic to inject a fairsharing block if it's not present.
-    Does NOT remove or modify existing fairsharing frontmatter.
+    Inject a fairsharing block into the YAML frontmatter if the 'fairsharing' key is not already present.
     """
+    if colinfo["has_fs_meta"]:
+        print("\tFairsharing frontmatter already present, not modifying it.")
+        return
+
     contents = colinfo["contents"]
     frontmatter_end = colinfo["frontmatter_end"]
-    fs_start = colinfo["fs_start"]
-    fs_end = colinfo["fs_end"]
 
-    # If previous fairsharing block does not exist, add it
-    if not fs_start and not fs_end and not colinfo["has_fs_meta"]:
-        fs_metadata = {
-            "fairsharing": [
-                {
-                    "name": record_name,
-                    "url": fairsharing_url,
-                }
-            ]
-        }
-        contents.insert(
-            frontmatter_end,
-            yaml.dump(fs_metadata, default_flow_style=False),
-        )
-        print(f"\tNew fairsharing block inserted in content")
+    if contents is None or frontmatter_end is None:
+        print("\tNo raw contents/frontmatter boundaries stored; cannot insert fairsharing block.")
+        return
 
-        print(f"\tDumping content in markdown file {path}")
-        with open(path, "w", encoding="utf8") as f:
-            contents_str = "".join(contents)
-            f.write(contents_str)
-        print(f"\tDone")
-    else:
-        print("\tFairsharing frontmatter already present, not modifying it.")
+    fs_metadata = {
+        "fairsharing": [
+            {
+                "name": record_name,
+                "url": fairsharing_url,
+            }
+        ]
+    }
+    contents.insert(
+        frontmatter_end,
+        yaml.dump(fs_metadata, default_flow_style=False),
+    )
+    print(f"\tNew fairsharing block inserted in content")
+
+    print(f"\tDumping content in markdown file {path}")
+    with open(path, "w", encoding="utf8") as f:
+        contents_str = "".join(contents)
+        f.write(contents_str)
+    print(f"\tDone")
 
 
 # ----------------- Main -----------------
