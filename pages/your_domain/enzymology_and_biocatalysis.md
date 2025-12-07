@@ -6,6 +6,9 @@ page_id: enzym_biocat
 related_pages: 
   Your_tasks: [data_publication, data_quality, metadata]
   Tool_assembly: []
+fairsharing:
+- name: RDMkit Enzymology and biocatalysis Domain
+  url: https://preview.fairsharing.org/7339
 ---
 
 ## Introduction
