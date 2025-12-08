@@ -1,4 +1,4 @@
-name: Update links with registries and services
+name: Update registries and services links
 on:
   schedule:
     - cron:  '0 13 * * 1'
