@@ -3392,7 +3392,7 @@
   id: bed
   name: Browser Extensible Data (BED)
   registry:
-    biotools: bed
+    biotools: NA
     fairsharing: mwmbpq
   url: https://genome.ucsc.edu/FAQ/FAQformat.html#format1
 - description: A tab-delimited text file used to describe the functional features of a genome, such as genes, exons, and regulatory elements.
