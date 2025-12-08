@@ -68,7 +68,7 @@ jobs:
           commit-message: Update tools table and page metadata
           title: 'Automatic updating of the tools table and page metadata'
           body: |
-            This PR is automatically generated based on changes in the tool_and_resource_list.yml file or updates in the page metadata. The updates are based on the API following registries/services:
+            This PR is automatically generated based on changes in the tool_and_resource_list.yml file or updates in the page metadata. The updates are generated using the API of following registries/services:
               - DSW
               - FAIRsharing
               - Bio.tools
