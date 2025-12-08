@@ -3227,7 +3227,6 @@
   id: isa-wizard
   name: ISA Wizard
   url: https://github.com/IPK-BIT/isa-wizard
-  
 - description: Global Biodiversity Information Facility (GBIF) is an international network and data platform that provides open access to biodiversity data from sources worldwide to support research and conservation.
   id: gbif
   name: Global Biodiversity Information Facility (GBIF)
@@ -3366,6 +3365,8 @@
 - description: Framework for organising and documenting research data, extending ISA, CWL, and RO-Crate.
   id: arc
   name: Annotated Research Context
+  registry:
+    tess: Annotated Research Context
   url: https://arc-rdm.org/
 - description: A secure, free, cross-platform, and open-source drive wiping utility. Should work with any HDD, SSD (read limitations) and flash drives.
   id: lethe
@@ -3391,6 +3392,7 @@
   id: bed
   name: Browser Extensible Data (BED)
   registry:
+    biotools: NA
     fairsharing: mwmbpq
   url: https://genome.ucsc.edu/FAQ/FAQformat.html#format1
 - description: A tab-delimited text file used to describe the functional features of a genome, such as genes, exons, and regulatory elements.
