@@ -81,13 +81,6 @@
     }
 }
 
-#side-nav .btn.sidebar-title {
-    border: 0;
-    border-bottom: 0.2rem solid $primary !important;
-    font-weight: bold;
-    padding-bottom: $input-btn-padding-y - 0.2rem;
-}
-
 #side-nav > ul {
     margin-top: $spacer * 0.5;
 }
@@ -171,9 +164,6 @@ section#search-section {
     }
 }
 
-#search-label-tiles {
-    background-color: $light;
-}
 
 
 /*-----Top navigation-----*/
@@ -227,9 +217,7 @@ i.fa-solid.fa-code-branch {
 }
 
 // Search
-nav #search-label,
-.landingpage #search-label,
-nav #search-input {
+.landingpage #search-label {
     background-color: $white;
 }
 i.fa-solid.fa-magnifying-glass {
