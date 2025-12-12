@@ -2686,7 +2686,7 @@
   url: https://loinc.org
 - description: Terminology standard consisting of codes, terms, synonyms, and definitions used in clinical documentation and reporting.
   id: snomed-ct
-  name: Systematized Nomenclature of Medicine - Clinical Terms (SNOMED-CT)
+  name: Systematized Nomenclature of Medicine Clinical Terms (SNOMED CT)
   registry:
     fairsharing: d88s6e
   url: https://www.snomed.org/what-is-snomed-ct
