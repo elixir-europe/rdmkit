@@ -11,6 +11,7 @@ import frontmatter
 PAGES_DIR = "pages/your_domain"
 RDMKIT_BASE_URL = "https://rdmkit.elixir-europe.org"
 RDMKIT_GITHUB_BASE = "https://github.com/elixir-europe/rdmkit/blob/master"
+RDMKIT_PUBLICATION_QUERY = "10.1016/j.patter.2025.101345"
 # FAIRSHARING_API = "https://api.fairsharing.org/"      # FAIRsharing PRODUCTION API
 # FAIRSHARING_URL = "https://fairsharing.org/"          # FAIRsharing PRODUCTION
 FAIRSHARING_API = "https://dev-api.fairsharing.org/"    # FAIRsharing DEV API
@@ -300,9 +301,32 @@ def get_subject_and_taxonomy_ids(headers):
 
     return subject_ids_to_add, taxon_ids_to_add
 
+def get_publication_id(headers, query: str):
+    """Return FAIRsharing publication id (int) for a DOI/title query"""
+    resp = requests.post(
+        f"{FAIRSHARING_API}search/publications?q={query}",
+        headers=headers,
+    )
+    if not resp.ok:
+        print("Error retrieving publications")
+        print(resp.text)
+        return None
+
+    pubs = resp.json()
+
+    if not isinstance(pubs, list) or not pubs:
+        print(f"No publication found for query: {query}")
+        return None
+
+    q = query.strip().lower()
+    for p in pubs:
+        doi = (p.get("doi") or "").lower()
+        url = (p.get("url") or "").lower()
+        if doi == q or q in url:
+            return int(p["id"])
 
 def create_new_collection(colinfo, headers, user_name, user_id,
-                          subject_ids_to_add, taxon_ids_to_add):
+                          subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add):
     """Create a new FAIRsharing collection and return (record, record_id, record_name, fairsharing_url)."""
     new_record = {}
     new_record["fairsharing_record"] = {}
@@ -331,6 +355,7 @@ def create_new_collection(colinfo, headers, user_name, user_id,
     new_record["fairsharing_record"]["metadata"]["contacts"] = [contact]
     new_record["fairsharing_record"]["subject_ids"] = subject_ids_to_add
     new_record["fairsharing_record"]["taxonomy_ids"] = taxon_ids_to_add
+    new_record["fairsharing_record"]["publication_ids"] = publication_ids_to_add
 
     json_object = json.dumps(new_record, indent=4)
     response = requests.post(
@@ -549,8 +574,10 @@ def main():
     data_list = load_tool_metadata()
     matched_items = build_matched_items(all_tools, data_list, headers)
 
-    # 5. Subjects & taxonomies
+    # 5. Subjects, taxonomies & publications
     subject_ids_to_add, taxon_ids_to_add = get_subject_and_taxonomy_ids(headers)
+    publication_id = get_publication_id(headers, RDMKIT_PUBLICATION_QUERY)
+    publication_ids_to_add = [publication_id] if publication_id else []
 
     # 6. Process each page
     for path, colinfo in collections_to_check.items():
@@ -567,8 +594,10 @@ def main():
         # Case B: create new collection
         if colinfo["record_id"] is None:
             record, record_id, record_name, fairsharing_url = create_new_collection(
-                colinfo, headers, user_name, user_id, subject_ids_to_add, taxon_ids_to_add
+                colinfo, headers, user_name, user_id,
+                subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add
             )
+
             if record is None:
                 continue
             colinfo["record"] = record
