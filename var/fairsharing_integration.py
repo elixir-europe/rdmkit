@@ -617,7 +617,7 @@ def main():
             continue
 
         resolved_tools = count_resolved_tool_ids(colinfo, matched_items)
-        if resolved_tools == 0:
+        if resolved_tools < 2:
             print("\tSkipping: no FAIRsharing-resolvable tools, so no collection will be created/linked.")
             continue
 
