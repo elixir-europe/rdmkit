@@ -450,7 +450,7 @@ def sync_record_associations(colinfo, matched_items, collec_lab_id, headers):
     record_id = colinfo["record_id"]
     linked_records = colinfo["record"].get("linked_records", [])
 
-    # --- 1. Desired tool IDs from this page (from RDMkit) ---
+    # --- 1. Desired tool IDs from this page ---
     desired_tool_ids = set()
     for t in colinfo["tools"]:
         if t in matched_items and matched_items[t]["id_fs"] is not None:
@@ -632,6 +632,7 @@ def main():
                 continue
             colinfo["record"] = record
             colinfo["record_id"] = record_id
+
         # Case C: existing collection -> fetch
         else:
             print(f"\tExisting FAIRsharing collection id found: {colinfo['record_id']}")
