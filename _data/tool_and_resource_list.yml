@@ -1837,19 +1837,21 @@
   id: sciencemesh
   name: ScienceMesh
   url: https://sciencemesh.io/
-- description: List of respositories recommended by Scientific Data, contains both discipline-specific and general repositories.
+- description: List of repositories recommended by Scientific Data, contains both discipline-specific and general repositories.
   id: scientific-data-s-recommended-repositories
   name: Scientific Data's Recommended Repositories
   url: https://www.nature.com/sdata/policies/repositories
-- description: SeaFile File Synchronization and Share Solution
+- description: SeaFile File Synchronisation and Share Solution
   id: seafile
   name: SeaFile
   url: https://www.seafile.com/
 - description: A semantic data model describing the common data elements for rare diseases registration.
   id: semantic-data-model-of-the-set-of-common-data-elements-for-rare-diseases-registration
   name: Semantic data model of the set of common data elements for rare diseases registration
+  registry:
+    fairsharing: xVAQX9
   url: https://github.com/ejp-rd-vp/CDE-semantic-model
-- description: All-in-one platform for life science data management, semantic data integration, data analysis and visualization
+- description: All-in-one platform for life science data management, semantic data integration, data analysis and visualisation
   id: semares
   name: Semares
   url: https://www.genevention.com/products
