@@ -6,9 +6,6 @@ page_id: epitrans
 related_pages: 
   Your_tasks: []
   Tool_assembly: []
-fairsharing:
-- name: Epitranscriptome data collection
-  url: https://fairsharing.org/7478
 ---
 
 ## Introduction

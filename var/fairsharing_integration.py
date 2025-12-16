@@ -14,6 +14,7 @@ RDMKIT_GITHUB_BASE = "https://github.com/elixir-europe/rdmkit/blob/master"
 RDMKIT_PUBLICATION_DOI = "10.1016/j.patter.2025.101345"
 RDMKIT_TAXONOMY = "not applicable"
 RDMKIT_SUBJECT = "life science"
+RDMKIT_COUNTRY = "worldwide"
 FAIRSHARING_API = "https://api.fairsharing.org/"      # FAIRsharing PRODUCTION API
 FAIRSHARING_URL = "https://fairsharing.org/"          # FAIRsharing PRODUCTION
 # FAIRSHARING_API = "https://dev-api.fairsharing.org/"    # FAIRsharing DEV API
@@ -74,6 +75,15 @@ def find_tools_in_markdown(text):
             to_save = True
         prev_word = word
     return tools
+
+
+def count_resolved_tool_ids(colinfo, matched_items) -> int:
+    """How many tools on this page resolve to a FAIRsharing record id."""
+    n = 0
+    for t in colinfo["tools"]:
+        if t in matched_items and matched_items[t].get("id_fs") is not None:
+            n += 1
+    return n
 
 
 def extract_fairsharing_id_from_url(url: str):
@@ -270,7 +280,7 @@ def build_matched_items(all_tools, data_list, headers):
     return matched_items
 
 
-def get_subject_taxonomy_and_publication_ids(headers):
+def get_subject_taxonomy_publication_and_country_ids(headers):
     """Return (subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add)."""
 
     # -------- Subjects --------
@@ -294,7 +304,7 @@ def get_subject_taxonomy_and_publication_ids(headers):
         FAIRSHARING_API + f"search/taxonomies?q={RDMKIT_TAXONOMY}", headers=headers
     )
     if response.ok:
-        tax_data = response.json()  # list
+        tax_data = response.json()
         for d in tax_data:
             if d.get("label", "").lower() == RDMKIT_TAXONOMY:
                 taxon_ids_to_add.append(d["id"])
@@ -310,7 +320,7 @@ def get_subject_taxonomy_and_publication_ids(headers):
         headers=headers,
     )
     if response.ok:
-        pub_data = response.json()  # list
+        pub_data = response.json()
         for p in pub_data:
             doi = (p.get("doi") or "").lower()
             url = (p.get("url") or "").lower()
@@ -322,17 +332,34 @@ def get_subject_taxonomy_and_publication_ids(headers):
         print("Error retrieving publications")
         print(response.text)
 
-    return subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add
+    # -------- Countries --------
+    country_ids_to_add = []
+    response = requests.post(
+        FAIRSHARING_API + f"search/countries?q={RDMKIT_COUNTRY}",
+        headers=headers,
+    )
+    if response.ok:
+        country_data = response.json()
+        for c in country_data:
+            if c.get("name", "").lower() == RDMKIT_COUNTRY:
+                country_ids_to_add.append(c["id"])
+                break
+    else:
+        print("Error retrieving countries")
+        print(response.text)
+
+    return subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add, country_ids_to_add
+
 
 def create_new_collection(colinfo, headers, user_name, user_id,
-                          subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add):
+                          subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add, country_ids_to_add):
     """Create a new FAIRsharing collection and return (record, record_id, record_name, fairsharing_url)."""
     new_record = {}
     new_record["fairsharing_record"] = {}
     new_record["fairsharing_record"]["is_data_set"] = False
     new_record["fairsharing_record"]["dups_suspected"] = False
     new_record["fairsharing_record"]["record_type_id"] = 15
-    new_record["fairsharing_record"]["country_ids"] = []
+    new_record["fairsharing_record"]["country_ids"] = country_ids_to_add
     new_record["fairsharing_record"]["metadata"] = {}
     new_record["fairsharing_record"]["metadata"]["name"] = colinfo["new_name"]
     new_record["fairsharing_record"]["metadata"]["homepage"] = colinfo["new_homepage"]
@@ -574,7 +601,7 @@ def main():
     matched_items = build_matched_items(all_tools, data_list, headers)
 
     # 5. Subjects, taxonomies & publications
-    subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add = get_subject_taxonomy_and_publication_ids(headers)
+    subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add, country_ids_to_add = get_subject_taxonomy_publication_and_country_ids(headers)
 
 
     # 6. Process each page
@@ -589,11 +616,16 @@ def main():
             )
             continue
 
+        resolved_tools = count_resolved_tool_ids(colinfo, matched_items)
+        if resolved_tools == 0:
+            print("\tSkipping: no FAIRsharing-resolvable tools, so no collection will be created/linked.")
+            continue
+
         # Case B: create new collection
         if colinfo["record_id"] is None:
             record, record_id, record_name, fairsharing_url = create_new_collection(
                 colinfo, headers, user_name, user_id,
-                subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add
+                subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add, country_ids_to_add
             )
 
             if record is None:
