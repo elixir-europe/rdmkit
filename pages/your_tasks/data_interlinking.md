@@ -1,6 +1,8 @@
 ---
 title: Data interlinking
 search_exclude: true
+no_robots: true
+sitemap: false
 description: Best practices to interlink datasets from a multi-omics study deposited in technology-specific repositories.
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 page_id: data_interlinking
