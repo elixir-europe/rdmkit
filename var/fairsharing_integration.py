@@ -11,7 +11,9 @@ import frontmatter
 PAGES_DIR = "pages/your_domain"
 RDMKIT_BASE_URL = "https://rdmkit.elixir-europe.org"
 RDMKIT_GITHUB_BASE = "https://github.com/elixir-europe/rdmkit/blob/master"
-RDMKIT_PUBLICATION_QUERY = "10.1016/j.patter.2025.101345"
+RDMKIT_PUBLICATION_DOI = "10.1016/j.patter.2025.101345"
+RDMKIT_TAXONOMY = "not applicable"
+RDMKIT_SUBJECT = "life science"
 # FAIRSHARING_API = "https://api.fairsharing.org/"      # FAIRsharing PRODUCTION API
 # FAIRSHARING_URL = "https://fairsharing.org/"          # FAIRsharing PRODUCTION
 FAIRSHARING_API = "https://dev-api.fairsharing.org/"    # FAIRsharing DEV API
@@ -269,61 +271,59 @@ def build_matched_items(all_tools, data_list, headers):
     return matched_items
 
 
-def get_subject_and_taxonomy_ids(headers):
-    """Return (subject_ids_to_add, taxon_ids_to_add)."""
+def get_subject_taxonomy_and_publication_ids(headers):
+    """Return (subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add)."""
+
+    # -------- Subjects --------
     subject_ids_to_add = []
     response = requests.post(
-        FAIRSHARING_API + "search/subjects?q=life science", headers=headers
+        FAIRSHARING_API + f"search/subjects?q={RDMKIT_SUBJECT}", headers=headers
     )
     if response.ok:
         subjects_data = response.json().get("data", [])
         for d in subjects_data:
-            if d["label"].lower() == "life science":
+            if d.get("label", "").lower() == RDMKIT_SUBJECT:
                 subject_ids_to_add.append(d["id"])
                 break
     else:
         print("Error retrieving subjects")
         print(response.text)
 
+    # -------- Taxonomies --------
     taxon_ids_to_add = []
     response = requests.post(
-        FAIRSHARING_API + "search/taxonomies?q=not applicable", headers=headers
+        FAIRSHARING_API + f"search/taxonomies?q={RDMKIT_TAXONOMY}", headers=headers
     )
     if response.ok:
-        tax_data = response.json()
+        tax_data = response.json()  # list
         for d in tax_data:
-            if d["label"].lower() == "not applicable":
+            if d.get("label", "").lower() == RDMKIT_TAXONOMY:
                 taxon_ids_to_add.append(d["id"])
                 break
     else:
         print("Error retrieving taxonomies")
         print(response.text)
 
-    return subject_ids_to_add, taxon_ids_to_add
-
-def get_publication_id(headers, query: str):
-    """Return FAIRsharing publication id (int) for a DOI/title query"""
-    resp = requests.post(
-        f"{FAIRSHARING_API}search/publications?q={query}",
+    # -------- Publications --------
+    publication_ids_to_add = []
+    response = requests.post(
+        FAIRSHARING_API + f"search/publications?q={RDMKIT_PUBLICATION_DOI}",
         headers=headers,
     )
-    if not resp.ok:
+    if response.ok:
+        pub_data = response.json()  # list
+        for p in pub_data:
+            doi = (p.get("doi") or "").lower()
+            url = (p.get("url") or "").lower()
+            if doi == RDMKIT_PUBLICATION_DOI or RDMKIT_PUBLICATION_DOI in url:
+                publication_ids_to_add.append(p["id"])
+                break
+
+    else:
         print("Error retrieving publications")
-        print(resp.text)
-        return None
+        print(response.text)
 
-    pubs = resp.json()
-
-    if not isinstance(pubs, list) or not pubs:
-        print(f"No publication found for query: {query}")
-        return None
-
-    q = query.strip().lower()
-    for p in pubs:
-        doi = (p.get("doi") or "").lower()
-        url = (p.get("url") or "").lower()
-        if doi == q or q in url:
-            return int(p["id"])
+    return subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add
 
 def create_new_collection(colinfo, headers, user_name, user_id,
                           subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add):
@@ -575,9 +575,8 @@ def main():
     matched_items = build_matched_items(all_tools, data_list, headers)
 
     # 5. Subjects, taxonomies & publications
-    subject_ids_to_add, taxon_ids_to_add = get_subject_and_taxonomy_ids(headers)
-    publication_id = get_publication_id(headers, RDMKIT_PUBLICATION_QUERY)
-    publication_ids_to_add = [publication_id] if publication_id else []
+    subject_ids_to_add, taxon_ids_to_add, publication_ids_to_add = get_subject_taxonomy_and_publication_ids(headers)
+
 
     # 6. Process each page
     for path, colinfo in collections_to_check.items():
