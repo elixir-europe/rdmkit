@@ -12,6 +12,9 @@ training:
     registry:
     url:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+fairsharing:
+- name: Virology collection
+  url: https://fairsharing.org/7482
 ---
 
 ## Introduction

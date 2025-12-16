@@ -25,6 +25,9 @@ dsw:
   uuid: b464593d-fb92-4ad9-88e1-764306bb3051
 - name: Are personal data sufficiently protected?
   uuid: d5990471-0618-42cd-92cb-bbbfd4f61532
+fairsharing:
+- name: Human data collection
+  url: https://fairsharing.org/7483
 ---
 
 ## Introduction

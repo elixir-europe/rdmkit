@@ -13,8 +13,8 @@ faircookbook:
 - name: Creating InChIKeys for IUPAC names
   url: https://w3id.org/faircookbook/FCB080
 fairsharing:
-- name: RDMkit Toxicology data Domain
-  url: https://preview.fairsharing.org/7349
+- name: Toxicology data collection
+  url: https://fairsharing.org/7474
 ---
 
 ## Introduction

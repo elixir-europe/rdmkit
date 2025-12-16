@@ -29,6 +29,9 @@ training:
     url: https://glittr.org/
 
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+fairsharing:
+- name: Biodiversity collection
+  url: https://fairsharing.org/7490
 ---
 
 ## Introduction

@@ -14,10 +14,10 @@ RDMKIT_GITHUB_BASE = "https://github.com/elixir-europe/rdmkit/blob/master"
 RDMKIT_PUBLICATION_DOI = "10.1016/j.patter.2025.101345"
 RDMKIT_TAXONOMY = "not applicable"
 RDMKIT_SUBJECT = "life science"
-# FAIRSHARING_API = "https://api.fairsharing.org/"      # FAIRsharing PRODUCTION API
-# FAIRSHARING_URL = "https://fairsharing.org/"          # FAIRsharing PRODUCTION
-FAIRSHARING_API = "https://dev-api.fairsharing.org/"    # FAIRsharing DEV API
-FAIRSHARING_URL = "https://preview.fairsharing.org/"    # FAIRsharing DEV
+FAIRSHARING_API = "https://api.fairsharing.org/"      # FAIRsharing PRODUCTION API
+FAIRSHARING_URL = "https://fairsharing.org/"          # FAIRsharing PRODUCTION
+# FAIRSHARING_API = "https://dev-api.fairsharing.org/"    # FAIRsharing DEV API
+# FAIRSHARING_URL = "https://preview.fairsharing.org/"    # FAIRsharing DEV
 
 
 # ----------------- Helpers -----------------
@@ -168,7 +168,6 @@ def build_collections_to_check():
             path = os.path.join(subdir, file_name)
             print(f"Reading out {filename_stripped}")
 
-            # --- Use python-frontmatter to read metadata and content ---
             post = frontmatter.load(path)
             metadata = post.metadata or {}
 
@@ -515,7 +514,7 @@ def sync_record_associations(colinfo, matched_items, collec_lab_id, headers):
     )
 
 
-def update_frontmatter_if_needed(path, colinfo, record_name, fairsharing_url):
+def update_frontmatter_if_needed(path, colinfo, fairsharing_url):
     """
     Inject a fairsharing block into the YAML frontmatter if the 'fairsharing' key is not already present.
     """
@@ -533,7 +532,7 @@ def update_frontmatter_if_needed(path, colinfo, record_name, fairsharing_url):
     fs_metadata = {
         "fairsharing": [
             {
-                "name": record_name,
+                "name": f"{colinfo['domain']} collection",
                 "url": fairsharing_url,
             }
         ]
@@ -615,7 +614,7 @@ def main():
         sync_record_associations(colinfo, matched_items, collec_lab_id, headers)
 
         # Update frontmatter only if fairsharing is missing
-        update_frontmatter_if_needed(path, colinfo, record_name, fairsharing_url)
+        update_frontmatter_if_needed(path, colinfo, fairsharing_url)
 
     print("FAIRsharing collections successfully created/updated for domain pages.")
 

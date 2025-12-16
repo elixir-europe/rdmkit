@@ -16,6 +16,9 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB061
 - name: Publishing plant phenotypic data
   url: https://w3id.org/faircookbook/FCB083
+fairsharing:
+- name: Plant sciences collection
+  url: https://fairsharing.org/7479
 ---
 
 ## Introduction

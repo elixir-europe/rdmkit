@@ -12,6 +12,9 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB084
 - name: Mapping IMI APPROACH datasets to CDISC-SDTM standard
   url: https://w3id.org/faircookbook/FCB078
+fairsharing:
+- name: Health data collection
+  url: https://fairsharing.org/7492
 ---
 ## Introduction
 

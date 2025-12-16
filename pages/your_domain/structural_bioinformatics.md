@@ -10,6 +10,9 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?utf8=%E2%9C%93&q=Structural+Bioinformatics#workflows
+fairsharing:
+- name: Structural Bioinformatics collection
+  url: https://fairsharing.org/7477
 ---
 
 ## Introduction
