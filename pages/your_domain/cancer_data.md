@@ -12,6 +12,9 @@ training:
 - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
   url: https://academy.ehden.eu/
 
+fairsharing:
+- name: Cancer data collection
+  url: https://fairsharing.org/7486
 ---
 ## Introduction
 

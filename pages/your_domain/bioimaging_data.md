@@ -15,6 +15,9 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB067
 - name: Depositing epifluorescence and confocal microscopy data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB086
+fairsharing:
+- name: Bioimaging data collection
+  url: https://fairsharing.org/7476
 ---
 
 ## Introduction

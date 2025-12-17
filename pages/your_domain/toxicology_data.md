@@ -12,6 +12,9 @@ dsw:
 faircookbook:
 - name: Creating InChIKeys for IUPAC names
   url: https://w3id.org/faircookbook/FCB080
+fairsharing:
+- name: Toxicology data collection
+  url: https://fairsharing.org/7474
 ---
 
 ## Introduction

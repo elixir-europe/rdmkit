@@ -66,10 +66,12 @@ title: Title of the page
 
   The supported registries that can be used in the `registry` attribute are: *YouTube*, *Zenodo*, *Carpentries*, *GitHub* and *TeSS*.
 
-* `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automaticity updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
+* `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
 
-* `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automaticity updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
+* `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automatically updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
+
+* `fairsharing`: This attribute list the FAIRsharing collection that is built based on the standards and databases that are listed on that page. This is automatically updated and can not be altered by humans! If you want to add a resource to the collection you have to add the resource the the page and link to the FAIRsharing identifier from the tool_and_resource_list.yml.
 
 
 ### Tools and resources
