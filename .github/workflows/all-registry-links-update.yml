@@ -29,13 +29,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install ruamel.yaml requests python-frontmatter
 
-      - name: Run regsitry lookup for the tools file
-        run: | 
-          python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
-      
       - name: Run script for creating or updating FAIRsharing collections
         run: | 
           python var/fairsharing_integration.py --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+
+      - name: Run regsitry lookup for the tools file
+        run: | 
+          python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
 
       - name: Update markdown pages with DSW links
         run: |
