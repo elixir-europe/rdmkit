@@ -10,14 +10,14 @@ training:
   - name: RDMbites for using REMBI
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-data-sharing-collection
+fairsharing:
+- name: Bioimaging data collection
+  url: https://fairsharing.org/7476
 faircookbook:
 - name: Depositing IMI EUBOPEN High-Content Screening data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB067
 - name: Depositing epifluorescence and confocal microscopy data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB086
-fairsharing:
-- name: Bioimaging data collection
-  url: https://fairsharing.org/7476
 ---
 
 ## Introduction

@@ -3270,6 +3270,7 @@
   name: DISSCO
   registry:
     biotools: dissco
+    fairsharing: NA
     fairsharing-coll: 3816
   url: https://www.dissco.eu/
 - description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata for all eukaryotic species and interpolates missing values through phylogenetic comparison.
@@ -3309,7 +3310,7 @@
   id: iczn
   name: ICZN
   registry:
-    fairsharing: 588e65
+    fairsharing: '588e65'
   url: https://www.iczn.org/
 - description: The International Code of Nomenclature for algae, fungi, and plants is the set of rules and recommendations that govern the scientific naming of all organisms traditionally treated as algae, fungi, or plants.
   id: iapt

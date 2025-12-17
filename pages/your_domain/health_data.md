@@ -6,15 +6,14 @@ page_id: health_data
 related_pages: 
   Your_tasks: [sensitive, gdpr_compliance]
   Your_domain: [human data]
-  
+fairsharing:
+- name: Health data collection
+  url: https://fairsharing.org/7492
 faircookbook:
 - name: Creating a metadata profile for clinical trial protocols
   url: https://w3id.org/faircookbook/FCB084
 - name: Mapping IMI APPROACH datasets to CDISC-SDTM standard
   url: https://w3id.org/faircookbook/FCB078
-fairsharing:
-- name: Health data collection
-  url: https://fairsharing.org/7492
 ---
 ## Introduction
 

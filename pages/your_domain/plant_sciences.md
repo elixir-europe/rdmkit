@@ -10,14 +10,14 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
+fairsharing:
+- name: Plant sciences collection
+  url: https://fairsharing.org/7479
 faircookbook:
 - name: Improving dataset maturity - MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
 - name: Publishing plant phenotypic data
   url: https://w3id.org/faircookbook/FCB083
-fairsharing:
-- name: Plant sciences collection
-  url: https://fairsharing.org/7479
 ---
 
 ## Introduction
