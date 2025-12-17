@@ -265,14 +265,14 @@ def build_matched_items(all_tools, data_list, headers):
             if fs_doi not in doi_to_id:
                 response = requests.get(
                     "https://api.fairsharing.org/content_negotiation/json/FAIRsharing."
-                    + fs_doi,
+                    + str(fs_doi),
                     headers=headers,
                 )
                 if response.ok:
                     d = response.json()
                     doi_to_id[fs_doi] = int(d["id"])
                 else:
-                    print("Error getting FAIRsharing record for DOI", fs_doi)
+                    print("Error getting FAIRsharing record for DOI", str(fs_doi))
                     print(response.text)
                     continue
             matched_items[m]["id_fs"] = doi_to_id[fs_doi]
