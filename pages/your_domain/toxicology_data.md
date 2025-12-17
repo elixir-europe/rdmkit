@@ -6,15 +6,15 @@ page_id: toxicology_data
 related_pages: 
   Your_tasks: [data_analysis]
   Tool_assembly: []
+fairsharing:
+- name: Toxicology data collection
+  url: https://fairsharing.org/7474
 dsw:
 - name: Will you need existing data for toxicology research
   uuid: a781badf-f7ee-4588-9478-d31470f00c38
 faircookbook:
 - name: Creating InChIKeys for IUPAC names
   url: https://w3id.org/faircookbook/FCB080
-fairsharing:
-- name: Toxicology data collection
-  url: https://fairsharing.org/7474
 ---
 
 ## Introduction
