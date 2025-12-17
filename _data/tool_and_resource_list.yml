@@ -3310,7 +3310,7 @@
   id: iczn
   name: ICZN
   registry:
-    fairsharing: 5.88e+67
+    fairsharing: '588e65'
   url: https://www.iczn.org/
 - description: The International Code of Nomenclature for algae, fungi, and plants is the set of rules and recommendations that govern the scientific naming of all organisms traditionally treated as algae, fungi, or plants.
   id: iapt

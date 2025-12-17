@@ -6,7 +6,6 @@ page_id: health_data
 related_pages: 
   Your_tasks: [sensitive, gdpr_compliance]
   Your_domain: [human data]
-  
 fairsharing:
 - name: Health data collection
   url: https://fairsharing.org/7492
