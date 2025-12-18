@@ -25,7 +25,7 @@ Before starting submitting (meta)data, consider the following.
 * BioStudies is used to register biological studies and link them to related datasets stored in other EMBL-EBI databases or external repositories. It can also hold data that does not fit into any of the structured EMBL-EBI archives. For more information, see the BioStudies manual.
 * BioSamples is the repository to register the biological entities and their specimens, and to describe their hierarchical relations and metadata. Begin by identifying the starting biological entity used in the study—such as each animal, individual, organism, or cohort—and clearly defining the relationships and hierarchy between the source or cohort and any derived specimens (e.g., blood draws, biopsies) or individuals used for specific assays. Examples:
   * ReCoDID: https://www.infectious-diseases-toolkit.org/showcase/linked-cohort-data#sharing-the-linked-emc-pilot-cohort-dataset.
-  * HoloFood: doi: 10.1093/database/baae112.
+  * HoloFood: doi: [10.1093/database/baae112](https://academic.oup.com/database/article/doi/10.1093/database/baae112/7951611).
 
   See BioSamples manual for details.
 * Use the “External Reference” field to cross-link study or project entries across repositories by copying the project or study accession numbers between them. As best practice, use also ORCID ID, Publication ID, ROR for institutes etc.
