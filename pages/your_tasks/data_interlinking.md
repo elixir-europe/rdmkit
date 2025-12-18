@@ -4,7 +4,7 @@ search_exclude: true
 no_robots: true
 sitemap: false
 description: Best practices to interlink datasets from a multi-omics study deposited in technology-specific repositories.
-contributors: Flora D'Anna, Wolmar Nyberg Åkerström, Monique Zahn, Nadim Rahman, Vilem Ded, Marcos Casado Barbero, Ulrike Wittig, Teresa Zulueta-Coarasa, Christos Ouzounis, Silvia Rodríguez Mejías, Luana Licata, Espen Åberg, Niclas Jareborg, Yvonne Kallberg, Stephan Nylinder
+contributors: [Flora D'Anna, Wolmar Nyberg Åkerström, Monique Zahn, Nadim Rahman, Vilem Ded, Marcos Casado Barbero, Ulrike Wittig, Teresa Zulueta-Coarasa, Christos Ouzounis, Silvia Rodríguez Mejías, Luana Licata, Espen Åberg, Niclas Jareborg, Yvonne Kallberg, Stephan Nylinder]
 page_id: data_interlinking 
 training:
   - name: EMBL-EBI Training
