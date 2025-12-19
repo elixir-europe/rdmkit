@@ -35,7 +35,7 @@ Before starting submitting (meta)data, consider the following.
   * {% tool "european-variation-archive" %}
   * {% tool "arrayexpress" %}
 * To achieve maximum granularity in sample interlinking, use sample accession numbers across repositories whenever possible. However, note that sample-level linking varies, may require manual steps, and not all repositories assign accession numbers to every sample, leaving sample names as the only option for referencing.
-  * If technology-specific repositories do not explicitly support BioSamples accession numbers or identifiers, simply include them as a metadata attribute. See example of HoloFood in MetaboLights https://www.ebi.ac.uk/metabolights/editor/MTBLS4382/samples, or this example in the BioImage Archive where the BioSamples IDs are added in the Data Files table: https://www.ebi.ac.uk/biostudies/BioImages/studies/S-BIAD2258.
+  * If technology-specific repositories do not explicitly support BioSamples accession numbers or identifiers, simply include them as a metadata attribute. See [example of HoloFood in MetaboLights](https://www.ebi.ac.uk/metabolights/editor/MTBLS4382/samples), or the [example in the BioImage Archive](https://www.ebi.ac.uk/biostudies/BioImages/studies/S-BIAD2258) where the BioSamples IDs are added in the Data Files table.
 
 Check documentation of the specific repository for more details.
 
@@ -46,7 +46,7 @@ Here we provide recommended steps for creating links and references to help user
 * Start by creating {% tool "biosamples" %} entries, if the technology-specific repositories don't do it for you: register parent samples and sub-samples (e.g. cohort-individual, individual-specimens, etc).
   * To make your samples findable in BioSamples using your project name, add your project title as an attribute to all your samples (at least the parent samples). Name the attribute “**Project**”. [See sample from the HoloFood project](https://www.ebi.ac.uk/biosamples/samples/SAMEA112369763).
 * A way to group all samples from your study under an overarching entry is to create a {% tool "biostudies" %} entry describing your multi-omics study.
-  * Link BioSamples entries (e.g. parent samples) through the Linked Information (Link) section. See the example: https://www.ebi.ac.uk/biostudies/studies/S-SUBS5.
+  * Link BioSamples entries (e.g. parent samples) through the Linked Information (Link) section. [See the BioStudies example](https://www.ebi.ac.uk/biostudies/studies/S-SUBS5).
   * Provide the required details about your project, funding, and any associated publications. Make sure to use the exact same project name as in BioSamples to ensure consistency.
   * Submit your BioStudies entry to get the accession number.
 * If feasible, add your BioStudies accession number as an external reference in the relevant BioSamples entries. This enables you and others to navigate from an entry in BioSamples to all related samples and study information in BioStudies.
@@ -59,11 +59,9 @@ Here we provide recommended steps for creating links and references to help user
 * If applicable, once you have gathered all study or project accession numbers, return to your BioStudies entry and add them under Linked Information. This informs BioStudies users that **some samples in the dataset were processed with multiple omics, although it doesn't specify which**.
 * Optionally, after all submissions are complete, you can improve human readability by updating your BioStudies entry with a README file describing how the data are interlinked, along with any supplementary files.
 
-![Overview of cross-modal sample linking in ELIXIR Deposition Databases.](/images/data_interlinking_figure.svg){: height="500px" width="500px"}
+{% include image.html file="data_interlinking_figure.svg" alt="Overview of cross-modal sample linking in ELIXIR Deposition Databases." caption="**Figure 1: Overview of cross-modal sample linking in ELIXIR Deposition Databases.** 
 
-**Figure 1: Overview of cross-modal sample linking in ELIXIR Deposition Databases.** 
-
-This figure illustrates which links and references can be made across ELIXIR Deposition Databases to help researchers understand which samples were used across different omics modalities. (1) BioSamples accession numbers should be included as metadata in technology-specific datasets. (2) BioStudies can serve as an overarching entry point for a multi-omics study by listing BioSamples accession numbers and referencing other repositories. (3) Repository-specific study or project accession numbers should be cross-referenced between repositories.
+This figure illustrates which links and references can be made across ELIXIR Deposition Databases to help researchers understand which samples were used across different omics modalities. (1) BioSamples accession numbers should be included as metadata in technology-specific datasets. (2) BioStudies can serve as an overarching entry point for a multi-omics study by listing BioSamples accession numbers and referencing other repositories. (3) Repository-specific study or project accession numbers should be cross-referenced between repositories." %}
 
 
 ## How do you search for multi-omics datasets across repositories?
