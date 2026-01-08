@@ -3160,5 +3160,58 @@
   url: hhttps://www.dublincore.org/
 - description: European Viral Outbreak Response Alliance Ontology
   id: evora-ontology
-  name: EVORA Ontology
+  name: EVORA Ontologyg
   url: https://www.ebi.ac.uk/ols4/ontologies/evorao
+- description: DSW instance for IFB
+  id: dsw-ifb
+  name: DSW@IFB
+  registry:
+    biotools: DSW at IFB
+  url: https://dsw.france-bioinformatique.fr/
+- description: Support service for the development of data management plans in life sciences hosted by the French Bioinformatics Institute (IFB / ELIXIR-FR). It is based on an instance of the Data Stewardship Wizard (DSW)
+  id: fair-checker
+  name: FAIR-Checker
+  registry:
+    biotools: FAIR-Checker
+  url: https://bio.tools/fair-checker/
+- description: French Galaxy open-source platform for FAIR data analysis
+  id: usegalaxy-fr
+  name: Usegalaxy.fr
+  url: https://usegalaxy.fr/
+- description: Web application providing a dashboard for managing research data and metadata.
+  id: madbot
+  name: MadBot
+  registry:
+    fairsharing: 
+- description: Ensures the governance and coordinated implementation of the National Plan for Open Science in France
+  id: coso
+  name: The Committee for Open Science
+  registry:
+    fairsharing: 
+  url: https://www.ouvrirlascience.fr/the-committee-for-open-science/
+- description: is a multidisciplinary open archive platform
+  id: hal
+  name: HAL
+  registry:
+    fairsharing: 
+  url: https://hal.science/
+- description: The NNCR relies on a distributed infrastructure consisting of the IFB-core servers (Cloud in Lyon and Cluster in Orsay) and nine high-performance computing platforms located in different regions. This network is open to the French and international research communities, both public and private, in the field of life sciences. 
+  id: NNCR
+  name: National Network of Computing Resources
+  registry:
+    fairsharing: 
+  url: https://www.france-bioinformatique.fr/en/compute-and-storage/
+- description: The Recherche Data Gouv multidisciplinary repository is a sovereign solution for sharing and opening up data produced by communities that do not have a recognized disciplinary repository. It is based on the Dataverse software
+  id: recherche-data-gouv-data-repository
+  name: Recherche Data Gouv Resarch Data Repository
+  registry:
+    fairsharing: 
+  url: https://entrepot.recherche.data.gouv.fr/
+- description: EDAM is a structured ontology of key concepts used in scientific data analysis and data management, covering topics, operations, data types, identifiers, and formats. It enables consistent semantic annotation and categorisation of scientific resources and supports provenance documentation in data management.
+  id: edam
+  name: EDAM ontology
+  registry:
+    fairsharing: 
+  url: https://edamontology.org/page
+  
+  
