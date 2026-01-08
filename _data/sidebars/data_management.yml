@@ -29,6 +29,8 @@ subitems:
     url: /your_domain
     image_url: /assets/img/section-icons/dna.svg
     subitems:
+      - title: Biodiversity
+        url: /biodiversity
       - title: Bioimaging data
         url: /bioimaging_data
       - title: Biomolecular simulation data
@@ -82,6 +84,8 @@ subitems:
         url: /data_analysis
       - title: Data brokering
         url: /data_brokering
+      - title: Data deletion
+        url: /data_deletion
       - title: Data discoverability
         url: /data_discoverability
       - title: Data management coordination

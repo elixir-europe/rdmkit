@@ -121,6 +121,26 @@ Wolmar Nyberg Åkerström:
     email: wolmar.n.akerstrom@nbis.se
     orcid: 0000-0002-3890-6620
     affiliation: NBIS / ELIXIR-SE
+Elisavet Torstensson:
+    git: elisavettorestensson
+    email: elisavet.torstensson@scilifelab.se
+    orcid: 0009-0005-1384-6608
+    affiliation: NBIS / ELIXIR-SE
+Sonja Mathias:
+    git: somathias
+    email: sonja.mathias@scilifelab.se
+    orcid: 0000-0003-3682-7715
+    affiliation: SciLifeLab
+Angela Fuentes Pardo:
+    git: apfuentes
+    email: apfpgen@gmail.com
+    orcid: 0000-0002-5734-9030
+    affiliation: SciLifeLab
+Natashia Benzian Olsson:
+    git: natashiab
+    email: natashia.b.olsson@scilifelab.uu.se
+    orcid: 0000-0002-5287-7707
+    affiliation: SciLifeLab
 Ivan Mičetić:
     git: ivanmicetic
     email: ivan.micetic@unipd.it
@@ -323,6 +343,7 @@ Rafael Andrade Buono:
 Sebastian Beier:
     git: sebeier
     orcid: 0000-0002-2177-8781
+    affiliation: Forschungszentrum Jülich GmbH
 Sirarat Sarntivijai:
     git: siiraa
 Josh Moore:
@@ -623,6 +644,7 @@ Jan Willem Boiten:
     email: janwillem.boiten@lygature.org
     affiliation: Lygature 
 Patrick Ruch:
+    orcid: 0000-0002-3374-2962
     email: patrick.ruch@hesge.ch
     affiliation: Swiss Institute of Bioinformatics 
 Hindrik Kerstens:
@@ -721,3 +743,81 @@ Philippe Lieutaud:
     email: philippe.lieutaud@univ-amu.fr
     orcid: 0000-0002-5080-3456
     affiliation: Aix Marseille Université
+Josephine Burgin:
+    git: josieburgin
+    orcid: 0000-0002-9818-1094
+    affiliation: EMBL-EBI
+Joana Paupério:
+    git: joanapauperio
+    orcid: 0000-0003-2569-0768
+    affiliation: EMBL-EBI
+Robert Waterhouse:
+    git: evogenlab
+    orcid: 0000-0003-4199-9052
+    affiliation: SIB Swiss Institute of Bioinformatics
+Valeria Di Cola:
+    git: vdicolab
+    orcid: 0000-0003-2925-8366
+    affiliation: SIB Swiss Institute of Bioinformatics / ELIXIR-CH
+Peter Woollard:
+    git: Woolly-at-EBI
+    orcid: 0000-0002-7654-6902
+    affiliation: EMBL-EBI
+Erwan Corre:
+    git:
+    orcid: 0000-0001-6354-2278
+    affiliation: CNRS, Sorbonne Université, France
+Yvan Le Bras:
+    git: yvanlebras
+    orcid: 0000-0002-8504-068X
+    affiliation: PNDB Data Terra, French National Museum of Natural History (MNHN)
+Bachir Balech:
+    git: bachob5
+    orcid: 0000-0002-4419-0729
+    affiliation: IBIOM-CNR / ELIXIR-IT
+Matteo Montagna:
+    git: MontagnaLab
+    orcid: 0000-0003-4465-7146
+    affiliation: University of Naples Federico II / ELIXIR-IT
+Angela P. Fuentes-Pardo:
+    git: apfuentes
+    orcid: 0000-0002-5734-9030
+    affiliation: SciLifeLab, Uppsala University, Sweden
+Timothé Cezard:
+    git: tcezard
+    orcid: 0000-0002-5626-270X
+    affiliation: European Bioinformatics Institute
+Matthijs Brouwer:
+    git: matthijsbrouwer
+    orcid: 0000-0001-8183-0484
+    affiliation: Wageningen University & Research
+Manuel Feser:
+    git: feserm
+    orcid: 0000-0001-6546-1818
+    affiliation: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben
+Monique Zahn:
+    git: mzahn
+    orcid: 0000-0001-7961-6091
+    affiliation: SIB Swiss Institute of Bioinformatics
+Marcos Casado Barbero:
+    git: M-casado
+    orcid: 0000-0002-7747-6256   
+    affiliation: EMBL-EBI
+Teresa Zulueta-Coarasa:
+    git: tzulueta
+    orcid: 0000-0002-0456-6912
+    affiliation: EMBL-EBI
+Christos Ouzounis:
+    git: ouzounis
+    orcid: 0000-0002-0086-8657
+    affiliation: Aristotle University of Thessaloniki
+Silvia Rodríguez Mejías:
+    git: SilviaRodriguezMejias
+    orcid: 0009-0009-9916-4729
+Luana Licata:
+    git: luanalicata
+    orcid: 0000-0001-5084-9000
+    affiliation: University of Rome Tor Vergata / ELIXIR-IT
+Stephan Nylinder: 
+    orcid: 0000-0001-5199-7128
+    affiliation: NBIS / ELIXIR-SE

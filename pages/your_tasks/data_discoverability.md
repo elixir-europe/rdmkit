@@ -3,6 +3,15 @@ title: Data discoverability
 description: How to make data discoverable
 contributors: [Aina Jené Cortada, Laura Portell Silva]
 page_id: data_discoverability
+faircookbook:
+- name: Depositing to generic repositories - Zenodo use case
+  url: https://w3id.org/faircookbook/FCB009
+- name: Introducing unique, persistent identifiers
+  url: https://w3id.org/faircookbook/FCB006
+- name: Registering datasets with Wikidata
+  url: https://w3id.org/faircookbook/FCB060
+- name: Introducing Search Engine Optimization (SEO)
+  url: https://w3id.org/faircookbook/FCB010
 ---
 
 ## How can you make your data more discoverable?
@@ -23,7 +32,7 @@ Data discovery involves processes and tools that help users understand what data
 
 * There are several appropriate tools to create detailed (or comprehensive) metadata and document data properly for the project. Check the [Documentation and metadata](metadata_management) page for more information.
 * Some scientific communities utilise platforms such as {% tool "cedar" %}, {% tool "semares" %}, {% tool "fairdom-seek" %}, {% tool "fairdomhub" %}, and {% tool "copo" %} for managing metadata and data.
-* Various standards exist for different data types, from general dataset descriptions such as DCAT, Dublin Core, and (bio)schema.org, to those tailored for specific data types, such as MIABIS for biosamples. Hence, selecting the appropriate standard at the project's outset is crucial. Typically, if you choose a suitable data repository for your data, it will come with an integrated metadata scheme, simplifying your work by eliminating the need to develop a separate metadata profile.
+* Various standards exist for different data types, from general dataset descriptions such as {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}, to those tailored for specific data types, such as {% tool "miabis" %} for biosamples. Hence, selecting the appropriate standard at the project's outset is crucial. Typically, if you choose a suitable data repository for your data, it will come with an integrated metadata scheme, simplifying your work by eliminating the need to develop a separate metadata profile.
  * Decide at the beginning of the project the right repository for your data type. To search for it, you can use the {% tool "elixir-deposition-databases-for-biomolecular-data" %}, {% tool "re3data" %} or {% tool "fairsharing" %} at “Databases”.
  * If your chosen repository lacks some of the metadata fields you wish to include and you need to add a separate file with this information (such as in Zenodo), you should adhere to the appropriate metadata schema. To identify the correct schema, you have several options:
   * {% tool "rda-standards" %}

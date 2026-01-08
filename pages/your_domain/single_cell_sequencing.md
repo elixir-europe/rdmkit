@@ -3,12 +3,15 @@ title: "Single-cell sequencing"
 description: "Managing data generated from single-cell sequencing experiments."
 contributors: [Johan Rollin, Pavankumar Videm, Mehmet Tekman]
 related_pages:
-  your_tasks: [dmp, data_organisation, data_publication, metadata, storage]
-  tool_assembly: [galaxy, fairtracks]
+  Your_tasks: [dmp, data_organisation, data_publication, metadata, storage]
+  Tool_assembly: [galaxy, fairtracks]
 training:
   - name: Single-cell training on the Galaxy Training Network
     url: "https://usegalaxy.eu/training-material/topics/single-cell/"
 page_id: single_cell_sequencing
+fairsharing:
+- name: Single-cell sequencing collection
+  url: https://fairsharing.org/7487
 ---
 
 ## Introduction

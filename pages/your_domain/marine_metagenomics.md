@@ -5,12 +5,15 @@ contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis,Nazeefa Fa
 related_pages: 
 page_id: marine
 related_pages: 
-  your_tasks: [metadata]
-  tool_assembly: [marine_assembly]
+  Your_tasks: [metadata]
+  Tool_assembly: [marine_assembly]
 training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=marine%20metagenomics
+fairsharing:
+- name: Marine metagenomics collection
+  url: https://fairsharing.org/7491
 ---
 
 ## Introduction

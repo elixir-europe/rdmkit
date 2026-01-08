@@ -5,8 +5,8 @@ description: The Center of Science (CSC) provides high-quality ICT expert servic
 page_id: csc
 affiliations: [FI, CSC, ELIXIR Europe]
 related_pages: 
-  your_tasks: [sensitive, dmp, data_security, gdpr_compliance, storage, data_publication, data_transfer, data_analysis]
-  your_domain: [human_data]
+  Your_tasks: [sensitive, dmp, data_security, gdpr_compliance, storage, data_publication, data_transfer, data_analysis]
+  Your_domain: [human_data]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -23,7 +23,7 @@ training:
   - name: CSC - Research data management services for life science research (youtube video)
     url: https://youtu.be/lf9L7PYQrBE
   - name: Data analysis with Chipster - Course packages
-    url: https://chipster.rahtiapp.fi/manual/courses.html
+    url: https://chipster.2.rahtiapp.fi/manual/courses.html
   - name: Tutorials and lecture playlists on different topics (youtube)
     registry: YouTube
     url: https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists

@@ -4,8 +4,8 @@ description: Data management solutions for human data.
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Vilem Ded, Teresa D'Altri]
 page_id: human_data
 related_pages:
-  your_tasks: [sensitive, gdpr_compliance]
-  tool_assembly: [tsd, covid19_data_portal, transmed, fairtracks]
+  Your_tasks: [sensitive, gdpr_compliance]
+  Tool_assembly: [tsd, covid19_data_portal, transmed, fairtracks]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -16,6 +16,9 @@ training:
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
   - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
     url: https://academy.ehden.eu/
+fairsharing:
+- name: Human data collection
+  url: https://fairsharing.org/7483
 dsw:
 - name: Will you collect any data connected to a person, "personal data"?
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
@@ -103,7 +106,7 @@ For human data, it is very important to use technical and procedural measures to
 * {% tool "eupid" %} is a tool that allows researchers to generate unique pseudonyms for patients that participate in rare disease studies.
 * {% tool "rd-connect-genome-phenome-analysis-platform" %} is a platform to improve the study and analysis of Rare Diseases.
 * {% tool "disgenet" %} is a platform containing collections of genes and variants associated to human diseases.
-* {% tool "pmut" %} is a platform for the study of the impact of pathological mutations in protein structures.
+* {% tool "pymut" %} is a Python3 module that helps in the prediction of pathology in protein mutations.
 * {% tool "intogen" %} collects and analyses somatic mutations in thousands of tumor genomes to identify cancer driver genes.
 * {% tool "boostdm" %} is a method to score all possible point mutations in cancer genes for their potential to be involved in tumorigenesis.
 * {% tool "cancer-genome-interpreter" %} is designed to identify tumor alterations that drive the disease and detect those that may be therapeutically actionable.

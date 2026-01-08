@@ -38,9 +38,45 @@ When referencing content from the RDMkit pages, please cite as follows:
 
 <div class="card bg-light my-4">
   <div class="card-body">
-    <p class="card-text"><i>RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org</a></i></p>
+    <p class="card-text"><i>RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences URL: <a href="https://rdmkit.elixir-europe.org">https://rdmkit.elixir-europe.org </a></i></p>
   </div>
 </div>
+
+or using BibTex:
+
+{% raw %}
+```
+@misc{ELIXIR_RDMkit_The_Research,
+author = {ELIXIR},
+title = {{RDMkit: The Research Data Management toolkit for Life Sciences}},
+url = {https://rdmkit.elixir-europe.org}
+}
+```
+{% endraw %}
+
+To cite the paper about how RDMkit was created please cite:
+
+<div class="card bg-light my-4">
+  <div class="card-body">
+    <p class="card-text"><i>Alper, P., D’Anna, F., Droesbeke, B., Andrabi, M., Buono, R.A., Bianchini, F., Bösl, K., Chandramouliswaran, I., Cook, M., Faria, D., et al. (2025). RDMkit: A research data management toolkit for life sciences. PATTERNS Volume 6, Issue 9, 101345.<a href="https://doi.org/10.1016/j.patter.2025.101345">https://doi.org/10.1016/j.patter.2025.101345</a>.</i></p>
+  </div>
+</div>
+
+or using BibTex:
+
+{% raw %}
+```
+@article{Alper_RDMkit_A_Research_2025,
+author = {Alper, Pinar and D'Anna, Flora and Droesbeke, Bert and Andrabi, Munazah and Buono, Rafael Andrade and Bianchini, Federico and Bösl, Korbinian and Chandramouliswaran, Ishwar and Cook, Martin and Faria, Daniel and Fatima, Nazeefa and Hooft, Rob and Jareborg, Niclas and Jetten, Mijke and Pilvar, Diana and Poires-Oliveira, Gil and Popleteeva, Marina and Portell-Silva, Laura and Slifka, Jan and Suchánek, Marek and van Gelder, Celia and Welter, Danielle and Wittig, Ulrike and Coppens, Frederik and Goble, Carole},
+doi = {10.1016/j.patter.2025.101345},
+journal = {Patterns},
+month = aug,
+title = {{RDMkit: A Research Data Management Toolkit for Life Sciences}},
+url = {https://doi.org/10.1016/j.patter.2025.101345},
+year = {2025}
+}
+```
+{% endraw %}
 
 The ELIXIR Research Data Management Kit makes all its materials publicly available under open licenses. Software is released under the [MIT license](https://opensource.org/licenses/mit-license.html) (an [Open Source Initiative-approved](https://opensource.org/licenses) license), while the process documents and data are made available under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license. For full details on licensing, please visit our [License document on GitHub](https://github.com/elixir-europe/rdmkit/blob/master/LICENSE).
 

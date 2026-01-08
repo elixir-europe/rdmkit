@@ -4,7 +4,7 @@ contributors: [Karel Berka , Erin Calhoun, Paulette Lieby, Anamika Chatterjee, K
 description: Working on aspects in the management of research data that can raise ethical issues
 page_id: ethics
 related_pages:
-  tool_assembly: [covid19_data_portal, transmed, tsd, csc]
+  Tool_assembly: [covid19_data_portal, transmed, tsd, csc]
 training:
 - name: 'Learning material on ethics in RDM'
   registry: TeSS

@@ -4,8 +4,8 @@ contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jarebo
 description: How to protect your research data, and how to make research data compliant to GDPR.
 page_id: gdpr_compliance
 related_pages: 
-  tool_assembly: [tsd, transmed]
-  your_tasks: [data_security]
+  Tool_assembly: [tsd, transmed]
+  Your_tasks: [data_security]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -47,7 +47,7 @@ Seek expert help for the interpretation of GDPR legal requirements to practicabl
 Assess your project under the GDPR.
   * Determine your GDPR role. Are you a data controller, who determines the purposes and means of the processing, or, are you a data processor, who acts under instructions from the controller?
   * If you are a controller, you need to check whether your processing poses high privacy risks for data subjects, and if so, perform a  Data Protection Impact Assessment (DPIA).
-     * The GDPR lists certain data e.g. race, ethnicity, health, genetic, biometric data as [special category](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/how-my-personal-data-protected/how-data-my-religious-beliefs-sexual-orientation-health-political-views-protected_en), requiring heightened protection. Your research will be considered high-risk processing if it involves special category data or if it includes some specified types of processing.
+     * The GDPR lists certain data e.g. race, ethnicity, health, genetic, biometric data as [special category](https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_en.htm#inline-nav-3), requiring heightened protection. Your research will be considered high-risk processing if it involves special category data or if it includes some specified types of processing.
      * A DPIA is often a prerequisite for ethics applications. Your DPO or local ethics advisory board can help determine whether your project requires a DPIA.  
      * Performing the DPIA while writing the DMP will allow you to reuse information and save time.
      * An outcome of the DPIA will be a listing of risks and corresponding mitigations. Mitigations identify the data protection measures you will adopt, both technical and organisational.

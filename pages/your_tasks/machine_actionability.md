@@ -4,7 +4,7 @@ contributors: [Karel Berka, Flora D'Anna, Erik Hjerde, Yvonne Kallberg, Sirarat 
 description: How to make machine-actionable (meta)data.
 page_id: machine_actionability
 related_pages: 
-    tool_assembly: []
+    Tool_assembly: []
 dsw:
 - name: List the data formats you will be using for interpretation and describe their
     structure
@@ -40,7 +40,7 @@ More and more often, funders, data managers/stewards, IT staff and institutions 
 * While providing an all-encompassing definition for this topic is not within the scope of this platform, it is important to clarify that (meta)data can be used by machines to different extents, depending on its characteristics. Here, we report a few common definitions.
     * "Machine-readable: data in a data format that can be automatically read and processed by a computer, such as [CSV](https://opendatahandbook.org/glossary/en/terms/csv/), [JSON](https://opendatahandbook.org/glossary/en/terms/json/), [XML](https://opendatahandbook.org/glossary/en/terms/xml/), etc. Machine-readable data must be [structured data](https://opendatahandbook.org/glossary/en/terms/structured-data/).", [Open Data Handbook](https://opendatahandbook.org/glossary/it/terms/machine-readable/).
     * "Machine-readable data, or computer-readable data, is data in a format that can be processed by a computer. Machine-readable data must be structured data.", [Wikipedia](https://en.wikipedia.org/wiki/Machine-readable_data).
-    * "Machine-actionable: this term refers to information that is structured in a consistent way so that machines, or computers, can be programmed against the structure.", [DDI](https://ddialliance.org/taxonomy/term/198).
+    * "Machine-actionable data: structured data that are represented in a way so that a machine (computer) can be programmed to read and process each datum representation of a concept intended for information processing purposes", [DDI](https://ddialliance.org/glossary).
     * Machine-interpretable: machines can put the provided information into context and “understand” the meaning (semantics) and relations contained in the digital object. This concept is related to the [Semantic Web](https://www.w3.org/standards/semanticweb/) vision and the [Linked Data](https://www.w3.org/standards/semanticweb/data) concept. See e.g. [What Is the Semantic Web?](https://www.ontotext.com/knowledgehub/fundamentals/what-is-the-semantic-web/).
 
   The terms _machine-readable_ and _machine-actionable_ are often used interchangeably as synonymous. It is because of the variety of possible definitions for data that can be processed in some form by computers, that we decided to use the term **_machine-actionable_** in the remainder of this document to refer to this type of (meta)data.
@@ -75,7 +75,7 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
 
 Numerous research institutes have already introduced or are going to introduce the use of Electronic Laboratory Notebook (ELN), Laboratory Information Management System (LIMS) or similar systems to manage samples, reagents, metadata and data, during a research project. The reason for this is that this software could organize information in a structured way and make (meta)data “more” machine-actionable, compared to traditional lab books or individual folders and files in a computer. The use of machine-actionable (meta)data allows for scalable solutions that can be applied during a project’s lifetime, increasing efficiency and ensuring that findings and contributions remain relevant within the research group.
 
-Similarly, funders and institutions ask researchers to make their (meta)data FAIR and available in a machine-actionable way. This means that (meta)data should be in databases that can expose it in such a way to allow search engines and [harvesting](https://en.wikipedia.org/wiki/Metadata_discovery) servers to discover it, index it and link it to other relevant contextual information, thus vastly enhancing the likelihood of reusing the data (see [Horizon Europe DMP template](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan-template_he_en.docx)).
+Similarly, funders and institutions ask researchers to make their (meta)data FAIR and available in a machine-actionable way. This means that (meta)data should be in databases that can expose it in such a way to allow search engines and [harvesting](https://en.wikipedia.org/wiki/Metadata_discovery) servers to discover it, index it and link it to other relevant contextual information, thus vastly enhancing the likelihood of reusing the data (see [Horizon Europe DMP template](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx)).
 
 
 ### Considerations
@@ -151,7 +151,7 @@ The theoretically most machine-actionable format is in practice not achieved or 
 For machine-actionability and interoperability, you should consider:
 1. File formats that are data exchange formats (e.g. JSON, XML).
 2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html), {% tool "ome-data-model-and-file-formats" %}). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
-3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. MIAPPE, ENA Samples checklists), that capture reporting best practice in the field.
+3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. {% tool "miappe" %}, ENA Samples checklists), that capture reporting best practice in the field.
 4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. EFO, OBI).
 
 #### File format
@@ -183,13 +183,13 @@ For machine-actionability and interoperability, you should consider:
 
   [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values, etc.
 
-* RDF concept can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as Schema.org or Bioschemas.org (for Life Sciences), Data Catalog Vocabulary (DCAT), Dublin Core, etc.
+* RDF concept can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as {% tool "schema-org" %} or {% tool "bioschemas" %} (for Life Sciences), {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, etc.
   
   Any metadata schemas and [vocabularies/ontologies](https://www.w3.org/standards/semanticweb/ontology) describing web resources can be expressed according to standards, such as the [Web Ontology Language (OWL)](https://www.w3.org/TR/owl-ref/), the [RDF Schema (RDFS)](https://www.w3.org/TR/rdf-schema/) or the [Simple Knowledge Organisation System (SKOS)](http://www.w3.org/standards/techs/skos#w3c_all) to provide more expressive definition and inferences/relationships between terms or pieces of information.
 
 #### Metadata checklist
 * Here, we define metadata checklists as content in the form of a fixed set of attributes or fields, without any particular order nor structure. Compliance to metadata checklists is not related to the format nor the structure, but rather to the content provided.
-* Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. MIAPPE). 
+* Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. {% tool "miappe" %}). 
 * Some data repositories have customised metadata checklists (e.g. ENA Samples checklists).
 * Attributes in a metadata checklist can be ontology terms.
 * For more information see the [Data documentation and metadata](metadata_management) page.

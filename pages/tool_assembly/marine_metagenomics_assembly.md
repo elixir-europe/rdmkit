@@ -5,8 +5,8 @@ description: The Marine Metagenomics tool assembly aims to provide a comprehensi
 page_id: marine_assembly
 affiliations: [ELIXIR Europe, "NO"]
 related_pages:
-  your_tasks: [dmp, existing_data, data_organisation, storage, data_publication, data_transfer, metadata, data_analysis]
-  your_domain: [marine]
+  Your_tasks: [dmp, existing_data, data_organisation, storage, data_publication, data_transfer, metadata, data_analysis]
+  Your_domain: [marine]
 training:
   - name: Training in TeSS
     registry: TeSS

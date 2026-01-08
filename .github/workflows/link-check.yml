@@ -7,6 +7,8 @@ on:
 
 jobs:
   linkChecker:
+    if: |
+      github.repository_owner == 'elixir-europe'
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -15,9 +17,9 @@ jobs:
 
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1.204.0
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
           bundler-cache: true
           cache-version: 0
 
@@ -40,10 +42,10 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
             # Check all markdown, html and reStructuredText files in repo (default)
-            args: _site/ --fallback-extensions html --exclude '^https://github\.com'
+            args: --fallback-extensions html --exclude '^https://github\.com' --root-dir "${{ github.workspace }}/_site" _site/ --exclude-path all_tools_and_resources.html --exclude-path all_training_resources.html 
             # Don't fail action on broken links
             fail: false
-            lycheeVersion: v0.17.0
+            lycheeVersion: v0.21.0
             
       - name: Add page URL
         run: |

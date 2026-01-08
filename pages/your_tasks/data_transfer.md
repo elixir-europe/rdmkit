@@ -4,7 +4,7 @@ contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, 
 description: How to transfer data files.
 page_id: transfer
 related_pages: 
-    tool_assembly: []
+    Tool_assembly: []
 training:
   - name: Training in TeSS
     registry: TeSS

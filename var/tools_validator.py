@@ -114,7 +114,7 @@ def get_fairsharing_token(username, password):
 
 def fairsharing_available(query, token):
     url = "https://api.fairsharing.org/search/fairsharing_records"
-
+    acronym = parse_acronym(query)
     headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
@@ -129,6 +129,9 @@ def fairsharing_available(query, token):
             for fairsharing_obj in output:
                 if query.lower() in fairsharing_obj['attributes']['name'].lower() and fairsharing_obj['attributes']['doi']:
                     return fairsharing_obj['attributes']['url'].split(".")[-1]
+                elif acronym and acronym['fullname'].lower() in fairsharing_obj['attributes']['name'].lower() and fairsharing_obj['attributes']['doi']:
+                    return fairsharing_obj['attributes']['url'].split(".")[-1]
+                    
     except:
         print(response)
         sys.exit("Could not connect to FAIRsharing")

@@ -4,8 +4,11 @@ description: Data management solutions for microbial biotechnology data.
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
 page_id: micro_biotech
 related_pages: 
-  your_tasks: []
-  tool_assembly: []
+  Your_tasks: []
+  Tool_assembly: []
+fairsharing:
+- name: Microbial biotechnology collection
+  url: https://fairsharing.org/7481
 ---
 
 ## Introduction
@@ -48,7 +51,7 @@ Ultimately, the ideal scenario is that data is captured in a standard format and
 
 Due to the interdisciplinary nature of the field, data arising from studies in microbial biotechnology relate to both computational studies, such as modelling and simulation, and the results of wet lab-based studies used for the construction and experimental characterisation of microbial systems. Given the breadth, scope and rapid development of the field of microbial biotechnology, this guide is by no means exhaustive.
 
-This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data-sharing tools that can make it more complete. Sites such as {% tool "fairsharing" %} can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide.
+This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data-sharing tools that can make it more complete. Sites such as {% tool "fairsharing" %} can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide. For further information and references on standards, data management, FAIR principles, data analysis, and more, please visit the {% tool "nfdi4microbiotakb" %}.
 
 
 ## Design: Biological hosts - metadata, ontologies and (meta)data publication
@@ -190,7 +193,7 @@ The current method of sharing information about the building of microbial system
 #### (Meta)data publication and sharing
 * The design information about the vector DNA or RNA sequence should be shared via public databases  such as ENA or Genbank. 
 * Various DNA synthesis companies build DNA from a computer specification of the sequence and also a variety of experimental approaches for assembling DNA molecules. This information can be shared as free text attached to a design in SBOL format and uploaded to a repository that supports SBOL2 format and above such as {% tool "synbiohub" %}.
-* Once grouped together in a free form the data can be archived along with the metadata, collecting the data together in an archived form using a file compression format. The [combine archive format](http://co.mbine.org/specifications/omex.version-1) may also be useful.
+* Once grouped together in a free form, the data can be archived along with the metadata, collecting the data together in an archived form using a file compression format. The [combine archive format](https://combinearchive.org/index/) may also be useful.
  
 
 ## Test: outcome tests - metadata standards and (meta)data publication

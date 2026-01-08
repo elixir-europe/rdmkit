@@ -4,16 +4,19 @@ description: Data management solutions for bioimaging data.
 contributors: [Sébastien Besson, Jean-Marie Burel, Susanne Kunis, Josh Moore, Stefanie Weidtkamp-Peters]
 page_id: bioimaging_data
 related_pages: 
-  your_tasks: [dmp, data_organisation, data_publication, existing_data, transfer, licensing, metadata, storage]
-  tool_assembly: [ome, xnat_pic]
+  Your_tasks: [dmp, data_organisation, data_publication, existing_data, transfer, licensing, metadata, storage]
+  Tool_assembly: [ome, xnat_pic]
 training:
   - name: RDMbites for using REMBI
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/rdmbites-data-sharing-collection
+fairsharing:
+- name: Bioimaging data collection
+  url: https://fairsharing.org/7476
 faircookbook:
 - name: Depositing IMI EUBOPEN High-Content Screening data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB067
-- name: Depositing Covid-19 image data to BioImage Archive
+- name: Depositing epifluorescence and confocal microscopy data to EBI BioImage Archive
   url: https://w3id.org/faircookbook/FCB086
 ---
 

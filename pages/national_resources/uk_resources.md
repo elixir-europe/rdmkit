@@ -11,8 +11,8 @@ national_resources:
     how_to_access:
     instance_of: dmproadmap
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [dmp]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [dmp]
     url: https://dmponline.dcc.ac.uk/
     
   - name: CyVerse UK
@@ -20,26 +20,17 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: https://cyverseuk.org/
-    
-  - name: Jisc Research data management toolkit
-    description: "Guidance on the research data lifecycle that signposts resources from a wide range of organisations and websites."
-    how_to_access:
-    instance_of:
-    related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
-    url: https://www.jisc.ac.uk/guides/rdm-toolkit 
-    
+
   - name: Agrischema
     description: "Linked data schemas for the fields of agriculture, food, agri-business, plant biology."
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
     
   - name: InterMine
@@ -47,8 +38,8 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: http://intermine.org/
 
 ref_to_main_resources:
@@ -65,7 +56,7 @@ This page provides an overview of the data management resources in the UK. The t
 ## Funder policies, guidelines and data management plan (DMP) templates
    * UK Research and Innovation ([UKRI](https://www.ukri.org/)): [Publishing your research findings](https://www.ukri.org/manage-your-award/publishing-your-research-findings/making-your-research-data-open/), [Concordat on open research](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-ConcordatonOpenResearchData.pdf) and [Open access policy](https://www.ukri.org/publications/ukri-open-access-policy/)
    
-   * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [DM guidelines](https://www.ukri.org/councils/bbsrc/guidance-for-applicants/what-to-include-in-your-application/data-management-plan/) and [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
+   * Biotechnology and Biological Sciences Research Council ([BBSRC](https://www.ukri.org/councils/bbsrc/)): [Data sharing policy](https://www.ukri.org/publications/bbsrc-data-sharing-policy/)
    * Medical Research Council ([MRC](https://www.ukri.org/councils/mrc/)): [DM guidelines](https://www.ukri.org/publications/what-is-a-data-management-plan/), [DMP template](https://www.ukri.org/publications/data-management-plan-template/) and [Data sharing policy](https://www.ukri.org/publications/mrc-data-sharing-policy/)
    * [Wellcome Trust](https://wellcome.org/): [DM and sharing guidelines](https://wellcome.org/grant-funding/guidance/data-software-materials-management-and-sharing-policy)
    * [The Royal Society](https://royalsociety.org/): [DM and sharing guidelines](https://royalsociety.org/journals/ethics-policies/data-sharing-mining/)
@@ -82,7 +73,7 @@ This page provides an overview of the data management resources in the UK. The t
 ## Domain-specific data infrastructures
   * [CLIMB](https://www.climb.ac.uk/)-BIG-DATA project providing cloud infrastructure and storage for big data microbial bioinformatics
   * [Digital Curation Centre](https://www.dcc.ac.uk/) Organisation offering a range of services to assist UK institutions in digital curation and data management
-  * Genomics England: [The Research Environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/)
+  * Genomics England: [The Research Environment](https://www.genomicsengland.co.uk/research)
   * [Health Data Research Innovation Gateway](https://www.healthdatagateway.org/) Search engine/portal to discover and access UK health-related datasets, and any associated health data resources such as tools, projects, and publications
   * [NERC EDS](https://eds.ukri.org) (Natural Environment Research Council Environmental Data Service) providing data stewardship services for environmental data
   * NHS England: [Trusted Research Environment service](https://digital.nhs.uk/coronavirus/coronavirus-data-services-updates/trusted-research-environment-service-for-england)

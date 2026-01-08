@@ -4,9 +4,12 @@ description: Data management solutions for rare disease data.
 contributors: [Philip van Damme, Nirupama Benis, César Bernabé, Shuxin Zhang, Alberto Camara Ballesteros, Bruna Dos Santos Vieira, Munazah Andrabi]
 page_id: rare_disease
 related_pages: 
-  your_domain: [human_data]
-  tool_assembly: [fairtracks]
-  your_tasks: [dmp, data_publication, machine_actionability]
+  Your_domain: [human_data]
+  Tool_assembly: [fairtracks]
+  Your_tasks: [dmp, data_publication, machine_actionability]
+fairsharing:
+- name: Rare disease data collection
+  url: https://fairsharing.org/7475
 ---
 
 ## Introduction

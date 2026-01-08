@@ -4,8 +4,11 @@ description: Data management solutions for enzymology and biocatalysis data.
 contributors: [Carsten Kettner, Jürgen Pleiss, Johann Rohwer, Hans V. Westerhoff, Ulrike Wittig]
 page_id: enzym_biocat
 related_pages: 
-  your_tasks: [data_publication, data_quality, metadata]
-  tool_assembly: []
+  Your_tasks: [data_publication, data_quality, metadata]
+  Tool_assembly: []
+fairsharing:
+- name: Enzymology and biocatalysis collection
+  url: https://fairsharing.org/7484
 ---
 
 ## Introduction

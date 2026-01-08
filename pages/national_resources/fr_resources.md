@@ -33,9 +33,9 @@ national_resources:
     how_to_access:
     instance_of: dmproadmap
     related_pages:
-      tool_assembly: [ifb]
-      your_role: [researcher, data_steward]
-      your_tasks: [dmp]
+      Tool_assembly: [ifb]
+      Your_role: [researcher, data_steward]
+      Your_tasks: [dmp]
     url: https://dmp.opidor.fr
   - name: DSW@IFB
     description: The support service for the development of data management plans in life sciences hosted by the French Bioinformatics Institute (IFB / ELIXIR-FR). It is based on an instance of the Data Stewardship Wizard (DSW)

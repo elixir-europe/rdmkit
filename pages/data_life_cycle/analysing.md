@@ -2,7 +2,7 @@
 title: Analysing
 page_id: analyse
 related_pages: 
-  your_tasks: [data_analysis, data_organisation, storage, data_provenance]
+  Your_tasks: [data_analysis, data_organisation, storage, data_provenance]
 contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 description: Introduction to data analysis.
 training:
@@ -24,7 +24,7 @@ With many disciplines becoming data-oriented, more data intensive projects will 
 
 ## What should be considered for data analysis?
 
-Because of the diversity of domains and technologies in Life Sciences, data can be either "small" or "big data". As a consequence, the methods and technical solutions used for data analysis might differ. The characteristics of "big data" are often summarized by a growing list of ["V" properties: Volume, Velocity, Variety, Variability, Veracity, Visualization and Value](https://bigdatapath.wordpress.com/2019/11/13/understanding-the-7-vs-of-big-data/).
+Because of the diversity of domains and technologies in Life Sciences, data can be either "small" or "big data". As a consequence, the methods and technical solutions used for data analysis might differ. The characteristics of "big data" are often summarized by a growing list of ["V" properties: Volume, Velocity, Variety, Variability, Veracity, Visualization and Value](https://www.trigyn.com/insights/seven-vs-big-data-analytics).
 
 * The data analysis stage relies on the previous stages (collection, processing) that will lay the foundations for the generation of new knowledge by providing accurate and trustworthy data.
 * The location of your data is important because of the need of proximity with computing resources. This can impact data transfer across the different infrastructures. It is worthwhile to compare the cost of the transfer of massive amounts of data compared to the transfer of virtual images of machines for the analysis.

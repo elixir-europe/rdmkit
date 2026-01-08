@@ -4,7 +4,7 @@ contributors: [Flora D'Anna, Daniel Faria]
 description: How to write a Data Management Plan (DMP).
 page_id: dmp
 related_pages: 
-  tool_assembly: [nels, tsd]
+  Tool_assembly: [nels, tsd]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -68,17 +68,14 @@ However, a number of web-based DMP tools are currently available that greatly fa
 ### Solutions
 * Use the tool suggested by your funding agency or institution.
 * Choose one of the following online DMP tools (ordered alphabetically).
+  * {% tool "argos" %}: the joint effort of OpenAIRE and EUDAT to deliver an open platform for Data Management Planning.
   * {% tool "data-stewardship-wizard" %}: publicly available open-source tool to collaboratively compose data management plans through smart and customisable questionnaires with FAIRness evaluation.
-  * {% tool "dmp-canvas-generator" %}: this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
   * {% tool "damap" %}: tool for machine actionable Data Management Plans.
-  * {% tool "dmp-canvas-generator" %}: this tool, mainly for researchers in Switzerland, is based on a questionnaire following the structure of the SNSF (Swiss National Science Foundation) instructions for DMP submission. Each Swiss High School can develop a specific template/canvas.
   * {% tool "dmponline" %}: tool widely used in Europe and many universities or institutes provide a DMPonline instance to researchers.
   * {% tool "dmptool" %}: widely used tool and many universities or institutes provide a DMPTool instance to researchers.
   * {% tool "dmproadmap" %}: DMP Roadmap is a Data Management Planning tool. Management and development of DMP Roadmap is jointly provided by the Digital Curation Centre (DCC), http://www.dcc.ac.uk/, and the University of California Curation Center (UC3), http://www.cdlib.org/services/uc3/. The DMPTool and DMPonline sites are both now running from the joint DMPRoadmap codebase.
   * {% tool "easy-dmp" %}: tool provided by the pan-European network EUDAT.
-  * {% tool "argos" %}: the joint effort of OpenAIRE and EUDAT to deliver an open platform for Data Management Planning.
 * Examples of useful resources for writing and implementing a DMP.
   * {% tool "fair-implementation-profile" %} and {% tool "fip-wizard" %} are effective instruments for clearly defining and explaining the particular implementation choices required to effectively enact FAIR principles during and after the course of a research project.
   * {% tool "research-data-management-organiser" %}: tool that supports the systematic planning, organisation and implementation of research data management throughout the course of a project.
-  * Resources about data management plan can be found via the {% tool "dmplanner" %} registry.
   * Webinars explaining what a data management plan is and when you might need one, such as the {% tool "research-management-plan" %} webinar produced in collaboration with Dr. Rob Hooft, Technical Coordinator of the Dutch TechCentre for Life Sciences, could be useful instruments to learn more about the topic.

@@ -6,7 +6,7 @@ contributors: [Marco Carraro, Ivan Mičetić]
 coordinators: [Marco Carraro]
 
 related_pages: 
-  tool_assembly: []
+  Tool_assembly: []
 
 training:
   - name: Training in TeSS
@@ -19,10 +19,10 @@ national_resources:
     how_to_access: 
     instance_of: 
     related_pages:
-      tool_assembly: []
-      your_domain: []
-      your_role: [data_steward, researcher]
-      your_tasks: [dmp]
+      Tool_assembly: []
+      Your_domain: []
+      Your_role: [data_steward, researcher]
+      Your_tasks: [dmp]
     url: https://open-science.it/
 
 ---

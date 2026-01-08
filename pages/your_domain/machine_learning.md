@@ -5,12 +5,14 @@ contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonz
 Edward Parkinson, Federico Bianchini, Munazah Andrabi]
 page_id: machine_learning
 related_pages:
-  your_tasks: [data_quality, sensitive]
+  Your_tasks: [data_quality, sensitive]
 training:
   - name: Machine learning events and materials on TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=machine+learning#events
-
+fairsharing:
+- name: Machine learning collection
+  url: https://fairsharing.org/7473
 ---
 ## What is machine learning (on this page)?
  

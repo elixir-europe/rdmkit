@@ -5,7 +5,7 @@ description: How do you ensure that your data is handled securely.
 page_id: data_security
 redirect_from: data_protection
 related_pages: 
-  tool_assembly: [tsd, transmed]
+  Tool_assembly: [tsd, transmed]
 training:
   - name: Training in TeSS
     registry: TeSS
@@ -23,6 +23,8 @@ faircookbook:
   url: https://w3id.org/faircookbook/FCB052
 - name: Validating checksums to verify file integrity
   url: https://w3id.org/faircookbook/FCB053
+- name: Data Protection Impact Assessment and Data Privacy
+  url: https://w3id.org/faircookbook/FCB074
 ---
 
 ## How do you ensure that your data is handled securely?
