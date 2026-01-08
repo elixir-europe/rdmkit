@@ -3160,7 +3160,7 @@
   url: hhttps://www.dublincore.org/
 - description: European Viral Outbreak Response Alliance Ontology
   id: evora-ontology
-  name: EVORA Ontologyg
+  name: EVORA Ontology
   url: https://www.ebi.ac.uk/ols4/ontologies/evorao
 - description: DSW instance for IFB
   id: dsw-ifb
