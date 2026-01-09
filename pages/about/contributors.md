@@ -1,6 +1,7 @@
 ---
 title: Contributors
-custom_editme: _data/CONTRIBUTORS.yaml
+github: 
+    file_path: _data/CONTRIBUTORS.yaml
 toc: false
 ---
 

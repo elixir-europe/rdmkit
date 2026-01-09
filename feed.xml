@@ -21,7 +21,7 @@ layout: none
 			<item>
 				<title>{{ post.name | xml_escape }}</title>
 				{%- if post.description %}
-				<description>{{ post.description | xml_escape }}</description>
+				<description>{{ post.description | markdownify }}</description>
 				{%- endif %}
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<link>{{site.github.repository_url}}/pull/{{ post.linked_pr }}</link>

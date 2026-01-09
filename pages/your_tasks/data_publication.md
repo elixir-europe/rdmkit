@@ -4,7 +4,7 @@ contributors: [Munazah Andrabi, Ulrike Wittig, Elin Kronander, Flora D'Anna, Ait
 description: How to prepare data and find repositories for publication.
 page_id: data_publication
 related_pages: 
-    tool_assembly: []
+    Tool_assembly: []
 faircookbook:
 - name: Depositing to generic repositories - Zenodo use case
   url: https://w3id.org/faircookbook/FCB009

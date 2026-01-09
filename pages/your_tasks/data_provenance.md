@@ -4,7 +4,7 @@ description: How to record information about data provenance.
 contributors: [Flora D'Anna, Korbinian Bösl, Nazeefa Fatima]
 page_id: data_provenance
 related_pages: 
-  tool_assembly: []
+  Tool_assembly: []
 training:
   - name:
     registry:

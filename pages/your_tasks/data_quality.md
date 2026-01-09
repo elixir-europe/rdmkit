@@ -4,7 +4,7 @@ contributors: [Wei Gu, Pinar Alper, Kees van Bochove]
 description: How to ensure high quality of research data.
 page_id: data_quality
 related_pages: 
-    tool_assembly: []
+    Tool_assembly: []
 dsw:
 - name: Will you monitor data integrity once it has been collected?
   uuid: 02b3fed1-0b50-4a80-b8b6-a225a1107022

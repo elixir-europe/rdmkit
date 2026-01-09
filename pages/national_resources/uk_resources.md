@@ -11,8 +11,8 @@ national_resources:
     how_to_access:
     instance_of: dmproadmap
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [dmp]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [dmp]
     url: https://dmponline.dcc.ac.uk/
     
   - name: CyVerse UK
@@ -20,17 +20,17 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: https://cyverseuk.org/
-  
+
   - name: Agrischema
     description: "Linked data schemas for the fields of agriculture, food, agri-business, plant biology."
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: https://github.com/Rothamsted/agri-schemas
     
   - name: InterMine
@@ -38,8 +38,8 @@ national_resources:
     how_to_access:
     instance_of:
     related_pages:
-      your_role: [data_steward, researcher]
-      your_tasks: [metadata]
+      Your_role: [data_steward, researcher]
+      Your_tasks: [metadata]
     url: http://intermine.org/
 
 ref_to_main_resources:
