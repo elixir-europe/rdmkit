@@ -110,6 +110,8 @@ subitems:
         url: /ethics
       - title: Existing data
         url: /existing_data
+      - title: Data deletion
+        url: /data_deletion
       - title: GDPR compliance
         url: /gdpr_compliance
       - title: Identifiers

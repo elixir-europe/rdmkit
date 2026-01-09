@@ -214,3 +214,7 @@
   date: 2025-05-15
   linked_pr: 1620
   description: A new "your domain" page about Virology was added. [Discover the page here](virology).
+- name: "New page: Data deletion"
+  date: 2025-11-30
+  linked_pr: 1715
+  description: A new "your task" page about Data deletion was added. [Discover the page here](data_deletion).
