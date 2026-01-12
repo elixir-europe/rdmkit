@@ -40,7 +40,7 @@ national_resources:
   - name: DSW@IFB
     description: The support service for the development of data management plans in life sciences hosted by the French Bioinformatics Institute (IFB / ELIXIR-FR). It is based on an instance of the Data Stewardship Wizard (DSW)
     how_to_access:
-    instance_of: dsw
+    instance_of: data-stewardship-wizard
     related_pages:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward]
