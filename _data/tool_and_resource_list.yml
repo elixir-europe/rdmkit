@@ -3442,7 +3442,7 @@
   url: https://eraser.heidi.ie/
 - description: A file format used in genome assembly projects. It describes how larger sequences, like chromosomes, are constructed by ordering and orienting smaller sequence fragments (contigs or scaffolds).
   id: agp
-  name: A Golden Path (AGP)sw
+  name: A Golden Path (AGP)
   registry:
     fairsharing: mg1mdc
   url: https://www.ncbi.nlm.nih.gov/assembly/agp/AGP_Specification/
