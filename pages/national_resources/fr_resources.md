@@ -70,7 +70,7 @@ national_resources:
   - name: Usegalaxy.fr
     description: French Galaxy open-source platform for FAIR data analysis
     how_to_access:
-    instance_of: usegalaxy-fr
+    instance_of: galaxy
     related_pages:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward, metadata, brokering]
