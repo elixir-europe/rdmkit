@@ -1,7 +1,7 @@
 ---
 title: France
 country_code: FR
-contributors: [Saliha Zenboudji-Beddek - Olivier Collin]
+contributors: [Saliha Zenboudji-Beddek, Olivier Collin]
 coordinators: [Anne-Françoise Adam-Blondon, Jean-François Dufayard, Jacques Van Helden]
 
 ref_to_main_resources:
