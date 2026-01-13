@@ -8,6 +8,7 @@ ref_to_main_resources:
   
   - data-stewardship-wizard
   - edam
+  - galaxy
 
 national_resources:
   - name: Cat OPIDoR
@@ -95,7 +96,7 @@ national_resources:
       your_tasks: []
     url: https://hal.science/
   - name: Software Heritage
-    description: 
+    description: is an open archive for software source code
     how_to_access:
     instance_of: hal
     related_pages:
@@ -103,6 +104,13 @@ national_resources:
       your_role: [researcher, data_steward]
       your_tasks: []
     url: https://www.softwareheritage.org/
+  
+  - description: The NNCR relies on a distributed infrastructure consisting of the IFB-core servers (Cloud in Lyon and Cluster in Orsay) and nine high-performance computing platforms located in different regions. This network is open to the French and international research communities, both public and private, in the field of life sciences. 
+  id: NNCR
+  name: National Network of Computing Resources
+  registry:
+    fairsharing: 
+  url: https://www.france-bioinformatique.fr/en/compute-and-storage/
 ---
 
 
