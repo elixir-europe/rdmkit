@@ -7,6 +7,7 @@ coordinators: [Anne-Françoise Adam-Blondon, Jean-François Dufayard, Jacques Va
 ref_to_main_resources:
   
   - data-stewardship-wizard
+  - madbot
   - edam
   - galaxy
 
@@ -77,15 +78,6 @@ national_resources:
       your_role: [researcher, data_steward, metadata, brokering]
       your_tasks: []
     url: https://usegalaxy.fr/
-  - name: MadBot
-    description: Madbot (Metadata And Data Brokering Online Tool) is a web application that provides a dashboard for managing research data and metadata. Its philosophy is to aggregate metadata around scientific projects by creating links, via connectors, to where the data is stored without storing the datasets themselves.
-    how_to_access:
-    instance_of: madbot
-    related_pages:
-      tool_assembly: [ifb]
-      your_role: [researcher, data_steward, metadata, brokering]
-      your_tasks: []
-    url: https://madbot.france-bioinformatique.fr/
   - name: HAL
     description: HAL is a multidisciplinary open archive platform used by the entire scientific community—researchers and scholar-teachers affiliated with a public scientific and technological institution, a university, or a grande école. HAL is interconnected with major international repositories such as arXiv, PubMed Central, RePEc, and OpenAIRE
     how_to_access:
