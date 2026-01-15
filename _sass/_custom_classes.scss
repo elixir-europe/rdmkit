@@ -1,6 +1,6 @@
 /*-----General styling-----*/
 
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
     main h1:not(.has-subtitle):not(.blurb-title),
     main .h1:not(.has-subtitle) {
         margin-top: -1rem;
@@ -12,7 +12,7 @@
 }
 
 // Light gray background on the left
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
     body:not(:has(.landingpage)) {
         .anchorjs-link {
             font-size: 0.7em !important;
@@ -41,10 +41,13 @@
     }
 }
 
-@media (max-width: 992px) {
+@include media-breakpoint-down(lg) {
     .sidebar-collapse {
         background-color: $light;
     }
+    #sidebar>nav .sidebar-title-wrapper {
+        background: $white;
+}
 }
 
 #main {
@@ -75,7 +78,7 @@
     margin-right: auto;
 }
 
-@media (max-width: 992px) {
+@include media-breakpoint-down(lg) {
     .sidebar_rdm {
         width: 200px;
     }
