@@ -9,6 +9,9 @@ training:
   - name: Single-cell training on the Galaxy Training Network
     url: "https://usegalaxy.eu/training-material/topics/single-cell/"
 page_id: single_cell_sequencing
+fairsharing:
+- name: Single-cell sequencing collection
+  url: https://fairsharing.org/7487
 ---
 
 ## Introduction

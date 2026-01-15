@@ -6,6 +6,9 @@ page_id: micro_biotech
 related_pages: 
   Your_tasks: []
   Tool_assembly: []
+fairsharing:
+- name: Microbial biotechnology collection
+  url: https://fairsharing.org/7481
 ---
 
 ## Introduction

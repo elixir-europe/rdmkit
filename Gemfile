@@ -11,11 +11,11 @@ gem "csv"
 group :jekyll_plugins do
   gem 'jekyll-redirect-from', '~> 0.16.0'
   gem 'jekyll-sitemap', '~> 1.4'
-  gem "jekyll-github-metadata", "~> 2.16.0"
-  gem "jekyll-relative-links", "~> 0.7.0"
-  gem "jekyll-seo-tag", "~> 2.8"
-  gem "jekyll-remote-theme", "~> 0.4.3"
-  gem "jekyll-sass-converter", "~> 2.0"
+  gem 'jekyll-github-metadata', '~> 2.16.0'
+  gem 'jekyll-relative-links', '~> 0.7.0'
+  gem 'jekyll-seo-tag', '~> 2.8'
+  gem 'jekyll-remote-theme', '~> 0.4.3'
+  gem 'jekyll-sass-converter', '~> 2.0'
   gem 'jekyll-scholar', '~> 7.1.3'
+  gem 'jekyll-octicons'
 end
-

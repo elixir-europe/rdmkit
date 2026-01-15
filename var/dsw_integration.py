@@ -42,7 +42,7 @@ def client(url, payload):
 
 
 def fetch_rdmkit_dsw_links(endpoint: str, package: str) -> Dict[str, List[DSWQuestion]]:
-    km = client(f'{endpoint}/knowledge-models/preview', {'packageId': package, 'events': [], 'tagUuids': []})
+    km = client(f'{endpoint}/knowledge-models/preview', {'knowledgeModelPackageId': package, 'events': [], 'tagUuids': []})
     print(f"Parsing DSW objects with {endpoint} mention")
     links = {}  # type: dict[str, list[DSWQuestion]]
     rdmkit_references = {
