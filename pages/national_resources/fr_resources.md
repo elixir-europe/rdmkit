@@ -60,7 +60,7 @@ national_resources:
   - name: FAIR-checker
     description: FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources.
     how_to_access:
-    instance_of: fair-checker
+    instance_of: 
     related_pages:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward]
@@ -81,7 +81,7 @@ national_resources:
   - name: HAL
     description: HAL is a multidisciplinary open archive platform used by the entire scientific community—researchers and scholar-teachers affiliated with a public scientific and technological institution, a university, or a grande école. HAL is interconnected with major international repositories such as arXiv, PubMed Central, RePEc, and OpenAIRE
     how_to_access:
-    instance_of: hal
+    instance_of:
     related_pages:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward]
@@ -90,19 +90,23 @@ national_resources:
   - name: Software Heritage
     description: is an open archive for software source code
     how_to_access:
-    instance_of: hal
+    instance_of:
     related_pages:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward]
       your_tasks: []
     url: https://www.softwareheritage.org/
-  
-  - description: The NNCR relies on a distributed infrastructure consisting of the IFB-core servers (Cloud in Lyon and Cluster in Orsay) and nine high-performance computing platforms located in different regions. This network is open to the French and international research communities, both public and private, in the field of life sciences. 
-  id: NNCR
-  name: National Network of Computing Resources
-  registry:
-    fairsharing: 
-  url: https://www.france-bioinformatique.fr/en/compute-and-storage/
+  - name: National Network of Computing Resources
+    description: The NNCR relies on a distributed infrastructure consisting of the IFB-core servers (Cloud in Lyon and Cluster in Orsay) and nine high-performance computing platforms located in different regions. This network is open to the French and international research communities, both public and private, in the field of life sciences. 
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: 
+      your_role: [researcher, data_steward]
+      your_tasks: []
+    url: https://www.france-bioinformatique.fr/en/compute-and-storage/
+
+    
 ---
 
 
