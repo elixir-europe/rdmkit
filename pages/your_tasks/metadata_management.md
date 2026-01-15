@@ -100,7 +100,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Description
 
-There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
+There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "edam" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
 
 
 ### Considerations
