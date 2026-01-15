@@ -7,6 +7,9 @@ page_id: idp
 related_pages: 
   Your_tasks: [metadata]
   Tool_assembly: []
+fairsharing:
+- name: Intrinsically disordered proteins collection
+  url: https://fairsharing.org/7488
 ---
 
 ## Introduction

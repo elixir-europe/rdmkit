@@ -13,6 +13,9 @@ related_pages:
   Tool_assembly:
     - covid-19
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+fairsharing:
+- name: Human pathogen genomics collection
+  url: https://fairsharing.org/7489
 ---
 
 ## Introduction

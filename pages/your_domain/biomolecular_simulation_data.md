@@ -12,6 +12,9 @@ training:
     url: https://tess.elixir-europe.org/search?q=biomolecular%20simulation
   - name: BioExcel Knowledge Resource Center
     url: https://krc.bioexcel.eu/training
+fairsharing:
+- name: Biomolecular simulation data collection
+  url: https://fairsharing.org/7485
 ---
 ## Introduction
 Biomolecular simulations are important technique for our understanding and design of biological molecules and their interactions. Simulation methods are demonstrating rapidly growing impact in areas as diverse as biocatalysis, drug delivery, biomaterials, biotechnology, and drug or protein design. Simulations offer the potential of uniquely detailed, atomic‐level insight into mechanisms, dynamics, and processes, as well as increasingly accurate predictions of molecular properties. Yet the field only relatively recently started to store and share (bio)simulation data to be reused for new, unexpected projects, and started discussions about their biomolecular simulation data FAIRification (i.e. to make them Findable, Accessible, Interoperable and Reusable). Here we show several current possibilities moving in this direction, but we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify their data.

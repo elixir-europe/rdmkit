@@ -11,6 +11,9 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=marine%20metagenomics
+fairsharing:
+- name: Marine metagenomics collection
+  url: https://fairsharing.org/7491
 ---
 
 ## Introduction
