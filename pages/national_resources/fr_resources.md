@@ -10,6 +10,10 @@ ref_to_main_resources:
   - madbot
   - edam
   - galaxy
+  - fair-checker
+  - phis
+  - faidare
+  - software-heritage
 
 national_resources:
   - name: Cat OPIDoR
@@ -29,7 +33,7 @@ national_resources:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward, data storage]
       your_tasks: []
-    url: https://www.ouvrirlascience.fr/crusoe-2/
+    url: https://crusoe.ouvrirlascience.fr/en/application-en/
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs.
     how_to_access:
@@ -106,7 +110,7 @@ national_resources:
       your_tasks: []
     url: https://www.france-bioinformatique.fr/en/compute-and-storage/
 
-    
+
 ---
 
 
