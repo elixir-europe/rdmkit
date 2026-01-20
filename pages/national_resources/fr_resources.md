@@ -109,6 +109,15 @@ national_resources:
       your_role: [researcher, data_steward]
       your_tasks: []
     url: https://www.france-bioinformatique.fr/en/compute-and-storage/
+  - name: MADBOT
+    description: MADBOT is a web application that provides a dashboard for managing research data and metadata.
+    how_to_access:
+    instance_of:
+    related_pages:
+      tool_assembly: [ifb]
+      your_role: [researcher, data_steward]
+      your_tasks: []
+    url: https://madbot.france-bioinformatique.fr/
 
 
 ---
