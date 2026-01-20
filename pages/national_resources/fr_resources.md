@@ -17,8 +17,8 @@ ref_to_main_resources:
 
 national_resources:
   - name: Cat OPIDoR
-    description: catalog of national services and tools that support research data management designed to assist researchers, data stewards, and institutions. 
-    how_to_access:
+    description: Catalog of national services and tools that support research data management designed to assist researchers, data stewards, and institutions. 
+    how_to_access: Create an account
     instance_of: dmproadmap
     related_pages:
       tool_assembly: [ifb]
@@ -26,8 +26,8 @@ national_resources:
       your_tasks: [dmp]
     url: https://cat.opidor.fr
   - name: CRUSOE
-    description: an online support tool for research data repositories wishing to apply for CoreTrustSeal certification or simply to use the CoreTrustSeal criteria to find out about their own repositories and improve their practices.
-    how_to_access:
+    description: An online support tool for research data repositories wishing to apply for CoreTrustSeal certification or simply to use the CoreTrustSeal criteria to find out about their own repositories and improve their practices.
+    how_to_access: Register
     instance_of: 
     related_pages:
       tool_assembly: [ifb]
@@ -36,7 +36,7 @@ national_resources:
     url: https://crusoe.ouvrirlascience.fr/en/application-en/
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs.
-    how_to_access:
+    how_to_access: Create an account
     instance_of: dmproadmap
     related_pages:
       Tool_assembly: [ifb]
@@ -45,7 +45,7 @@ national_resources:
     url: https://dmp.opidor.fr
   - name: DSW@IFB
     description: The support service for the development of data management plans in life sciences hosted by the French Bioinformatics Institute (IFB / ELIXIR-FR). It is based on an instance of the Data Stewardship Wizard (DSW)
-    how_to_access:
+    how_to_access: Create an account
     instance_of: data-stewardship-wizard
     related_pages:
       tool_assembly: [ifb]
@@ -54,7 +54,7 @@ national_resources:
     url: https://dsw.france-bioinformatique.fr/
   - name: Recherche Data Gouv Repository
     description: The Recherche Data Gouv multidisciplinary repository is a sovereign solution for sharing and opening up data produced by communities that do not have a recognized disciplinary repository. It is based on the Dataverse software
-    how_to_access:
+    how_to_access: Create an account
     instance_of: recherche-data-gouv
     related_pages:
       tool_assembly: [ifb]
@@ -63,7 +63,7 @@ national_resources:
     url: https://entrepot.recherche.data.gouv.fr/
   - name: FAIR-checker
     description: FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources.
-    how_to_access:
+    how_to_access: Online
     instance_of: 
     related_pages:
       tool_assembly: [ifb]
@@ -75,7 +75,7 @@ national_resources:
     url: https://fair-checker.france-bioinformatique.fr/
   - name: Usegalaxy.fr
     description: French Galaxy open-source platform for FAIR data analysis
-    how_to_access:
+    how_to_access: Create an account
     instance_of: galaxy
     related_pages:
       tool_assembly: [ifb]
@@ -84,7 +84,7 @@ national_resources:
     url: https://usegalaxy.fr/
   - name: HAL
     description: HAL is a multidisciplinary open archive platform used by the entire scientific community—researchers and scholar-teachers affiliated with a public scientific and technological institution, a university, or a grande école. HAL is interconnected with major international repositories such as arXiv, PubMed Central, RePEc, and OpenAIRE
-    how_to_access:
+    how_to_access: Create an account
     instance_of:
     related_pages:
       tool_assembly: [ifb]
@@ -92,8 +92,8 @@ national_resources:
       your_tasks: []
     url: https://hal.science/
   - name: Software Heritage
-    description: is an open archive for software source code
-    how_to_access:
+    description: An archive of source code that supports reproducible science, open access, and sustainable reuse.
+    how_to_access: Online
     instance_of:
     related_pages:
       tool_assembly: [ifb]
@@ -102,16 +102,16 @@ national_resources:
     url: https://www.softwareheritage.org/
   - name: National Network of Computing Resources
     description: The NNCR relies on a distributed infrastructure consisting of the IFB-core servers (Cloud in Lyon and Cluster in Orsay) and nine high-performance computing platforms located in different regions. This network is open to the French and international research communities, both public and private, in the field of life sciences. 
-    how_to_access:
+    how_to_access: Create an accont
     instance_of:
     related_pages:
       tool_assembly: 
       your_role: [researcher, data_steward]
       your_tasks: []
-    url: https://www.france-bioinformatique.fr/en/compute-and-storage/
+    url: https://nncr-clusters.france-bioinformatique.fr/
   - name: MADBOT
     description: MADBOT is a web application that provides a dashboard for managing research data and metadata.
-    how_to_access:
+    how_to_access: Create an account 
     instance_of:
     related_pages:
       tool_assembly: [ifb]

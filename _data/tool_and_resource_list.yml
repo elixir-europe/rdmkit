@@ -3418,13 +3418,13 @@
   id: edam
   name: EDAM ontology
   registry:
-    fairsharing: 
+    fairsharing: a6r7zs
   url: https://edamontology.org/page
 - description: is an open archive for software source code
   id: software-heritage
   name: Software Heritage
   registry:
-    fairsharing: 
+    fairsharing: 6ffb92
   url: https://www.softwareheritage.org/
   
   
