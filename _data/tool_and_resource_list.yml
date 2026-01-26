@@ -2479,7 +2479,7 @@
   name: Gene Ontology
   registry:
     biotools: go
-    fairsharing: FGJ2T8
+    fairsharing: 6xq0ee
     tess: Gene Ontology
   url: http://www.geneontology.org/
 - description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
