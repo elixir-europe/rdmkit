@@ -1471,7 +1471,7 @@
   registry:
     biotools: nmrlipids
     fairsharing: d32bc8
-  url: http://nmrlipids.blogspot.com/
+  url: https://www.databank.nmrlipids.fi/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
   name: NPDS
