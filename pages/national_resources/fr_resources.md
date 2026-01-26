@@ -5,7 +5,6 @@ contributors: [Saliha Zenboudji-Beddek, Olivier Collin, Nadia Goué]
 coordinators: [Anne-Françoise Adam-Blondon, Jean-François Dufayard, Jacques Van Helden]
 
 ref_to_main_resources:
-  
   - data-stewardship-wizard
   - madbot
   - edam
@@ -91,15 +90,6 @@ national_resources:
       your_role: [researcher, data_steward]
       your_tasks: []
     url: https://hal.science/
-  - name: Software Heritage
-    description: An archive of source code that supports reproducible science, open access, and sustainable reuse.
-    how_to_access:
-    instance_of:
-    related_pages:
-      tool_assembly: [ifb]
-      your_role: [researcher, data_steward]
-      your_tasks: []
-    url: https://www.softwareheritage.org/
   - name: National Network of Computing Resources
     description: The NNCR relies on a distributed infrastructure consisting of the IFB-core servers (Cloud in Lyon and Cluster in Orsay) and nine high-performance computing platforms located in different regions. This network is open to the French and international research communities, both public and private, in the field of life sciences. 
     how_to_access:
