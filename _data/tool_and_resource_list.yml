@@ -39,7 +39,7 @@
   id: onnx
   name: Open Neural Network Exchange (ONNX)
   registry:
-    biotools: onnx
+    biotools: NA
   url: https://onnx.ai/
 - description: The platform where the machine learning community collaborates on models, datasets, and applications.
   id: huggingface
