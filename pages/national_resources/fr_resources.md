@@ -9,7 +9,6 @@ ref_to_main_resources:
   - madbot
   - edam
   - galaxy
-  - fair-checker
   - phis
   - faidare
   - software-heritage
