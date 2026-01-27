@@ -577,8 +577,8 @@ Polonca Ferk:
 Gil Poiares-Oliveira:
     git: GilOliveira
     orcid: 0000-0003-4638-2879
-    email: gpo@biodata.pt
-    affiliation: INESC-ID / BioData.pt / ELIXIR-PT
+    email: gil.oliveira@tecnico.ulisboa.pt
+    affiliation: INESC-ID / Instituto Superior Técnico, University of Lisbon / ELIXIR-PT
     role: editor
 Uladzislau Vadadokhau:
     git: uladzislau21
@@ -796,7 +796,7 @@ Manuel Feser:
     orcid: 0000-0001-6546-1818
     affiliation: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) Gatersleben
 Monique Zahn:
-    git: mzahn
+    git: m-zahn
     orcid: 0000-0001-7961-6091
     affiliation: SIB Swiss Institute of Bioinformatics
 Marcos Casado Barbero:
@@ -821,3 +821,5 @@ Luana Licata:
 Stephan Nylinder: 
     orcid: 0000-0001-5199-7128
     affiliation: NBIS / ELIXIR-SE
+Ugis Sarkans:
+    affiliation: EMBL-EBI
