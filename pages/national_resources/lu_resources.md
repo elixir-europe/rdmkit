@@ -44,7 +44,7 @@ national_resources:
       Your_tasks: [dmp]
     url: https://dmponline.elixir-luxembourg.org/
 
-  - name: Luxembourg Covid-19 data portal
+  - name: Luxembourg COVID-19 Data Portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  
     instance_of: covid-19-data-portal
     related_pages:
