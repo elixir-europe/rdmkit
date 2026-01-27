@@ -3422,3 +3422,7 @@
   id: paperpile
   name: Paperpile
   url: https://paperpile.com/
+- description: The Bioconductor project aims to develop and share open source software (R-based) for precise and repeatable analysis of biological data. 
+  id: bioconductor
+  name: Bioconductor
+  url: https://www.bioconductor.org/
