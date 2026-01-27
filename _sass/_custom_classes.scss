@@ -34,10 +34,7 @@
             padding-left: 2.1rem;
             background-color: $white;
         }
-        background-image: url("../img/background.svg"); /* The image used */
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
+        background: linear-gradient(to right, $light 0 50%, $body-bg 50% 100%);    
     }
 }
 
