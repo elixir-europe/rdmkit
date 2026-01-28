@@ -4,7 +4,7 @@ title: RDMkit
 description: "Best practices and guidelines you can use for FAIR management of your research data."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.0.0
 
 sass:
   style: compressed
@@ -101,7 +101,7 @@ defaults:
     scope:
       path: "pages/data_life_cycle/"
     values:
-      type: data_life_cycle
+      type: Data_life_cycle
       type_img: /assets/img/section-icons/reuse-sustain.svg
   -
     scope:

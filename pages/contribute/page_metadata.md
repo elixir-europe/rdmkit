@@ -20,6 +20,10 @@ title: Title of the page
 
 * `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
+* `coordinators`: List here all the coordinators of the page. Use the full name of the person. Make sure that the person name that is listed can be found in the *_data/CONTRIBUTORS.yaml* file in the _data directory if you want to link the github id and other contact information.
+
+* `editors`: List here all the editors of the page. Use the full name of the person. Make sure that the person name that is listed can be found in the *_data/CONTRIBUTORS.yaml* file in the _data directory if you want to link the github id and other contact information.
+
 * `search_exclude`: by setting this field true, the page will not end up in the search results of the searchbar. By default this is false.
 
 * `sitemap`: let the page appear in the sitemap.xml. Default: true
