@@ -181,6 +181,12 @@ def build_collections_to_check():
             post = frontmatter.load(path)
             metadata = post.metadata or {}
 
+            # Exclude files with search_exclude=true in the metadata
+            exclude = metadata.get("search_exclude", False)
+            if str(exclude).strip().lower() == "true":
+                print(f"\tPage {path} has search_exclude=true — skipping.")
+                continue
+
             title = metadata.get("title")
             if not title:
                 print(f"\tPage {path} has no frontmatter 'title' — skipping.")
