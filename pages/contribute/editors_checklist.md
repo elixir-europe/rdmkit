@@ -10,11 +10,12 @@ summary: Checklist for editors before approving and merging a pull request (PR).
 4. All relevant metadata fields in a specific page are correctly filled in (see the [page metadata](page_metadata) and the [Editorial board guide](editorial_board_guide)). Some critical ones are listed below.
    * unique `page_id` ([List of page IDs](website_overview))
    * `contributors`
+   * `editors`
    * `related_pages` ([Related pages](editorial_board_guide.html#related-pages))
    * `training`
    * `search_exclude` must be deleted
    * `description`
-   * `affiliations`
+   * `affiliations` (only used for Tool assembly pages)
    * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
 5. Make sure that listed tools or resources are tagged in the text with the [correct snippet](tool_resource_update) + that its metadata is described in the [tool_and_resource_list.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml) file. 
