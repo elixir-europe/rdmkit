@@ -45,3 +45,12 @@ For detailing the domain-specific challenges of a problem that is generic, pleas
 <!--- Add more sections as needed, with the same subsections as above. --->
 ...
 
+<!--- IF APPLICABLE
+## Bibliography 
+
+{% bibliography --cited %}
+
+
+More info on how to use a bibliography can be found in our style guide: https://rdmkit.elixir-europe.org/style_guide#bibliography
+--->
+
