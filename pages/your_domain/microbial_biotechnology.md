@@ -6,6 +6,9 @@ page_id: micro_biotech
 related_pages: 
   Your_tasks: []
   Tool_assembly: []
+fairsharing:
+- name: Microbial biotechnology collection
+  url: https://fairsharing.org/7481
 ---
 
 ## Introduction
@@ -48,7 +51,7 @@ Ultimately, the ideal scenario is that data is captured in a standard format and
 
 Due to the interdisciplinary nature of the field, data arising from studies in microbial biotechnology relate to both computational studies, such as modelling and simulation, and the results of wet lab-based studies used for the construction and experimental characterisation of microbial systems. Given the breadth, scope and rapid development of the field of microbial biotechnology, this guide is by no means exhaustive.
 
-This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data-sharing tools that can make it more complete. Sites such as {% tool "fairsharing" %} can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide.
+This guide is by no means comprehensive. Please get in touch with further suggestions for relevant standards and data-sharing tools that can make it more complete. Sites such as {% tool "fairsharing" %} can provide a wealth of information about standards that may be appropriate for a given data type and not mentioned in this brief guide. For further information and references on standards, data management, FAIR principles, data analysis, and more, please visit the {% tool "nfdi4microbiotakb" %}.
 
 
 ## Design: Biological hosts - metadata, ontologies and (meta)data publication

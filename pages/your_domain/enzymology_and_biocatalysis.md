@@ -6,6 +6,9 @@ page_id: enzym_biocat
 related_pages: 
   Your_tasks: [data_publication, data_quality, metadata]
   Tool_assembly: []
+fairsharing:
+- name: Enzymology and biocatalysis collection
+  url: https://fairsharing.org/7484
 ---
 
 ## Introduction

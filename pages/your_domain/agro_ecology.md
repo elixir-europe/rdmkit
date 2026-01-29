@@ -1,13 +1,14 @@
 ---
-title: Domain page title
+title: Agro-ecology
 search_exclude: true
+no_robots: true
+sitemap: false
 description: <!---REPLACE THIS with a one sentence description of the page--->
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
-editors: [<!---REPLACE THIS with comma separated list of editors (to be filled in by an editor)--->]
-page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo
+contributors: []
+page_id: agro_ecology
 related_pages: 
-  Your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]
-  Tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
+  Your_tasks: []
+  Tool_assembly: []
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
   - name:

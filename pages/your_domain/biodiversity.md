@@ -11,24 +11,21 @@ training:
   - name: Training about Biodiversity data
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=biodiversity+data
-
   - name: TeSS Collection of biodiversity-relevant training resources
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/elixir-biodiversity-community
-
   - name: Galaxy Training Network
     registry: other
     url: https://training.galaxyproject.org/
-
   - name: ERGA Knowledge Hub
     registry: other
     url: https://knowledge.erga-biodiversity.eu/
-
   - name: Glittr
     registry: other
     url: https://glittr.org/
-
-# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+fairsharing:
+- name: Biodiversity collection
+  url: https://fairsharing.org/7490
 ---
 
 ## Introduction

@@ -2,6 +2,7 @@
 title: Virology
 description: Data management solutions for virology data.
 contributors: [Niels Geudens, Flora D'Anna, Romain David, Philippe Lieutaud]
+editors: [Gil Poiares-Oliveira, Federico Bianchini, Flora D'Anna, Bert Droesbeke]
 page_id: virology
 related_pages: 
   Your_tasks: [data_brokering, gdpr_compliance, ethics, compliance, sensitive, data_security, data_discoverability, identifiers]
@@ -12,6 +13,9 @@ training:
     registry:
     url:
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+fairsharing:
+- name: Virology collection
+  url: https://fairsharing.org/7482
 ---
 
 ## Introduction

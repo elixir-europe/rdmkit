@@ -38,6 +38,8 @@
 - description: ONNX is an open format built to represent machine learning models.
   id: onnx
   name: Open Neural Network Exchange (ONNX)
+  registry:
+    biotools: NA
   url: https://onnx.ai/
 - description: The platform where the machine learning community collaborates on models, datasets, and applications.
   id: huggingface
@@ -95,10 +97,14 @@
 - description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure compatible with the OME-NGFF specification.
   id: bioformats2raw
   name: bioformats2raw
+  registry:
+    biotools: bioformats2raw
   url: https://github.com/glencoesoftware/bioformats2raw
 - description: Java application to convert a directory of tiles to an OME-TIFF pyramid. This is the second half of iSyntax/.mrxs => OME-TIFF conversion.
   id: raw2ometiff
   name: raw2ometiff
+  registry:
+    biotools: raw2ometiff
   url: https://github.com/glencoesoftware/raw2ometiff
 - description: The bfconvert command line tool can be used to convert files between supported formats.
   id: bfconvert
@@ -486,6 +492,8 @@
 - description: Choose an open source license
   id: choose-a-license
   name: Choose a license
+  registry:
+    tess: Choose a license
   url: https://choosealicense.com
 - description: ClinicalTrials.gov is a resource depending on the National Library of medicine which makes available private and public-funded clinical trials.
   id: clinicaltrials-gov
@@ -532,11 +540,7 @@
   id: cookiecutter
   name: Cookiecutter
   url: https://github.com/cookiecutter/cookiecutter
-- description: Collaborative OPen Omics (COPO) is a portal for scientists to describe,
-    store and retrieve data more easily, using community standards and public repositories
-    that enable the open sharing of results. The COPO project is one of several projects
-    supported by the [Earlham Institute](https://www.earlham.ac.uk/research-project/collaborative-open-omics-copo)
-    (EI), in Norwich, United Kingdom.
+- description: Collaborative OPen Omics (COPO) is a portal for scientists to describe, store and retrieve data more easily, using community standards and public repositories that enable the open sharing of results. The COPO project is one of several projects supported by the [Earlham Institute](https://www.earlham.ac.uk/research-project/collaborative-open-omics-copo) (EI), in Norwich, United Kingdom.
   id: copo
   name: COPO
   registry:
@@ -550,6 +554,8 @@
 - description: It helps you choose the right Creative Commons license for your needs.
   id: creative-commons-license-chooser
   name: Creative Commons License Chooser
+  registry:
+    tess: Creative Commons License Chooser
   url: https://creativecommons.org/choose/
 - description: The Crop Ontology compiles concepts to curate phenotyping assays on crop plants, including anatomy, structure and phenotype.
   id: crop-ontology
@@ -717,6 +723,7 @@
   name: Dryad
   registry:
     fairsharing: wkggtx
+    tess: Dryad
   url: https://datadryad.org/
 - description: Database of folding / unfolding pathway of representatives from all known protein folds by MD simulation
   id: dynameomics
@@ -762,6 +769,7 @@
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
     fairsharing-coll: 3527
+    tess: ELIXIR Deposition Databases for Biomolecular Data
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
   id: life-science-login
@@ -1389,6 +1397,7 @@
   registry:
     biotools: modelarchive
     fairsharing: tpqndj
+    tess: ModelArchive
   url: https://www.modelarchive.org/
 - description: Molgenis is a modular web application for scientific data. Molgenis provides researchers with user friendly and scalable software infrastructures to capture, exchange, and exploit the large amounts of data that is being produced by scientific organisations all around the world.
   id: molgenis
@@ -1460,8 +1469,9 @@
   id: nmrlipids
   name: NMRlipids
   registry:
+    biotools: nmrlipids
     fairsharing: d32bc8
-  url: http://nmrlipids.blogspot.com/
+  url: https://www.databank.nmrlipids.fi/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
   name: NPDS
@@ -1830,19 +1840,21 @@
   id: sciencemesh
   name: ScienceMesh
   url: https://sciencemesh.io/
-- description: List of respositories recommended by Scientific Data, contains both discipline-specific and general repositories.
+- description: List of repositories recommended by Scientific Data, contains both discipline-specific and general repositories.
   id: scientific-data-s-recommended-repositories
   name: Scientific Data's Recommended Repositories
   url: https://www.nature.com/sdata/policies/repositories
-- description: SeaFile File Synchronization and Share Solution
+- description: SeaFile File Synchronisation and Share Solution
   id: seafile
   name: SeaFile
   url: https://www.seafile.com/
 - description: A semantic data model describing the common data elements for rare diseases registration.
   id: semantic-data-model-of-the-set-of-common-data-elements-for-rare-diseases-registration
   name: Semantic data model of the set of common data elements for rare diseases registration
+  registry:
+    fairsharing: xVAQX9
   url: https://github.com/ejp-rd-vp/CDE-semantic-model
-- description: All-in-one platform for life science data management, semantic data integration, data analysis and visualization
+- description: All-in-one platform for life science data management, semantic data integration, data analysis and visualisation
   id: semares
   name: Semares
   url: https://www.genevention.com/products
@@ -2166,7 +2178,7 @@
 - description: This document describes the MIAPPE Checklist and Data Model
   id: miappe-checklist-data-model
   name: MIAPPE_Checklist-Data-Model
-  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist_Data_Model.tsv
 - description: BioSamples Plant MIAPPE checklist in JSON format
   id: plant-miappe-json
   name: plant-miappe.json
@@ -2184,7 +2196,7 @@
 - description: MIAPPE-compliant spreadsheet template
   id: miappe-compliant-spreadsheet-template
   name: MIAPPE-compliant spreadsheet template
-  url: https://github.com/MIAPPE/MIAPPE/raw/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates/MIAPPEv1.1_training_spreadsheet.xlsx
+  url: https://github.com/MIAPPE/MIAPPE/tree/master/Templates/MIAPPE_Spreadsheet_Template.xlsx
 - description: The Common Workflow Language CWL is an emerging standard for writing workflows that are portable across multiple workflow engines and platforms. Toil has full support for the CWL v1.0, v1.1, and v1.2 standards.
   id: cwl-in-toil
   name: CWL in Toil
@@ -2308,6 +2320,7 @@
   id: gisaid
   name: Global Initiative on Sharing All Influenza Data (GISAID)
   registry:
+    biotools: gisaid
     fairsharing: 2f7f9f
   url: https://gisaid.org
 - description: Protein Data Bank in Europe Knowledge Base
@@ -2470,7 +2483,7 @@
   name: Gene Ontology
   registry:
     biotools: go
-    fairsharing: FGJ2T8
+    fairsharing: 6xq0ee
     tess: Gene Ontology
   url: http://www.geneontology.org/
 - description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
@@ -2483,6 +2496,8 @@
 - description: Loom is an efficient file format for large omics datasets.
   id: loom
   name: Loom
+  registry:
+    tess: Loom
   url: https://loompy.org/
 - description: The main class used by Monocle to hold single cell expression data. CellDataSet extends the basic Bioconductor ExpressionSet class.
   id: celldataset
@@ -2525,6 +2540,8 @@
 - description: A set of analysis pipelines that perform sample demultiplexing, barcode processing, single cell gene counting, V(D)J transcript sequence assembly and annotation, and Feature Barcode analysis from single cell data.
   id: cellranger
   name: CellRanger
+  registry:
+    tess: CellRanger
   url: https://www.10xgenomics.com/support/software/cell-ranger
 - description: A comprehensive turnkey solution for quantifying gene expression in single-cell/nucleus RNA-seq data, built into RNA-seq aligner STAR.
   id: starsolo
@@ -2675,10 +2692,12 @@
   id: loinc
   name: Logical Observation Identifiers Names and Codes (LOINC)
   url: https://loinc.org
-- description: Terminology standard consisting of codes, terms, synonyms and definitions used in clinical documentation and reporting.
+- description: Terminology standard consisting of codes, terms, synonyms, and definitions used in clinical documentation and reporting.
   id: snomed-ct
-  name: Systematized Nomenclature of Medicine - Clinical Terms (SNOMED-CT)
-  url: https://www.snomed.org
+  name: Systematized Nomenclature of Medicine Clinical Terms (SNOMED CT)
+  registry:
+    fairsharing: d88s6e
+  url: https://www.snomed.org/what-is-snomed-ct
 - description: Standardised vocabulary of phenotypic abnormalities encountered in human disease.
   id: hpo
   name: Human Phenotype Ontology (HPO)
@@ -2986,6 +3005,7 @@
   name: DrugMap
   registry:
     biotools: drugmap
+    fairsharing: 27137a
   url: https://drugmap.idrblab.net/
 - description: Database of known and explored therapeutic targets and their related drugs.
   id: ttd
@@ -3077,6 +3097,7 @@
   name: EnzymeML
   registry:
     biotools: enzymeml
+    fairsharing: 82d2d6
   url: https://enzymeml.org/
 - description: The BioAssay Ontology (BAO) describes chemical biology screening assays and their results, including high-throughput screening (HTS) data, to categorise assays and data analysis.
   id: bioassay-ontology
@@ -3171,7 +3192,7 @@
   name: COPASI
   registry:
     biotools: copasi
-    tess: Copasi
+    tess: COPASI
   url: https://copasi.org/
 - description: PyEnzyme is a comprehensive software solution for manipulating EnzymeML files.
   id: pyenzyme
@@ -3212,34 +3233,31 @@
   registry:
     fairsharing: s0jj2t
   url: https://github.com/BBMRI-ERIC/miabis
-- description: Global Biodiversity Information Facility (GBIF) is an international
-    network and data platform that provides open access to biodiversity data from
-    sources worldwide to support research and conservation.
+- description: User-friendly application for creating FAIR- and ISA-compliant metadata for results of life science experiments.
+  id: isa-wizard
+  name: ISA Wizard
+  url: https://github.com/IPK-BIT/isa-wizard
+- description: Global Biodiversity Information Facility (GBIF) is an international network and data platform that provides open access to biodiversity data from sources worldwide to support research and conservation.
   id: gbif
   name: Global Biodiversity Information Facility (GBIF)
   registry:
     biotools: GBIF
     fairsharing: zv11j3
+    tess: Global Biodiversity Information Facility (GBIF)
   url: https://www.gbif.org/
-- description: Barcode of Life Data System (BOLD) is an online platform that manages
-    and provides access to DNA barcoding data, facilitating species identification
-    and biodiversity research.
+- description: Barcode of Life Data System (BOLD) is an online platform that manages and provides access to DNA barcoding data, facilitating species identification and biodiversity research.
   id: bold
   name: Barcode of Life Data System (BOLD)
   registry:
     fairsharing: en9npn
   url: https://www.boldsystems.org/
-- description: The Ocean Biodiversity Information System (OBIS) is a global data platform
-    that provides access to marine biodiversity information to support research, conservation,
-    and sustainable ocean management.
+- description: The Ocean Biodiversity Information System (OBIS) is a global data platform that provides access to marine biodiversity information to support research, conservation, and sustainable ocean management.
   id: obis
   name: The Ocean Biodiversity Information System (OBIS)
   registry:
     fairsharing: 3rv9m8
   url: https://obis.org/
-- description: Global Genome Biodiversity Network (GGBN) is an international network
-    that preserves and provides access to high-quality genomic samples from across
-    the world's biodiversity for research and conservation
+- description: Global Genome Biodiversity Network (GGBN) is an international network that preserves and provides access to high-quality genomic samples from across the world's biodiversity for research and conservation
   id: ggbn
   name: Global Genome Biodiversity Network (GGBN)
   registry:
@@ -3251,52 +3269,42 @@
   registry:
     biotools: worms
     fairsharing: 7g1bzj
+    tess: WORMS
   url: https://www.marinespecies.org/index.php
-- description: Distributed System of Scientific Collections is a project that aims
-    to enhance the accessibility and interoperability of scientific collection data,
-    facilitating research and collaboration across various biodiversity collections
-    and institutions.
+- description: Distributed System of Scientific Collections is a project that aims to enhance the accessibility and interoperability of scientific collection data, facilitating research and collaboration across various biodiversity collections and institutions.
   id: dissco
   name: DISSCO
   registry:
-    fairsharing: https://fairsharing.org/3816
+    biotools: dissco
+    fairsharing: NA
+    fairsharing-coll: 3816
   url: https://www.dissco.eu/
-- description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report
-      underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata 
-      for all eukaryotic species and interpolates missing values through phylogenetic comparison.
+- description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata for all eukaryotic species and interpolates missing values through phylogenetic comparison.
   id: genomes-on-a-tree
   name: GoAT
   registry:
     biotools: goat
   url: https://www.sanger.ac.uk/tool/genome-on-a-tree-goat/
-- description: "Galaxy initiative for Biodiversity related domains. For now, two main
-     Galaxy Ecology instances are available, on ecology.usegalaxy.eu and  ecology.usegalaxy.fr.
-     Many tools exist for data / metadata management, notably to deal with
-    Ecological Metadata Language (EML)"
-  id: 'galaxy-ecology'
+- description: Galaxy initiative for Biodiversity related domains. For now, two main Galaxy Ecology instances are available, on ecology.usegalaxy.eu and  ecology.usegalaxy.fr. Many tools exist for data / metadata management, notably to deal with Ecological Metadata Language (EML)
+  id: galaxy-ecology
   name: Galaxy Ecology
   registry:
     biotools: galaxy_ecology
+    tess: Galaxy Ecology
   url: https://ecology.usegalaxy.eu/
-- description: The Ecological Metadata Language (EML) metadata standard was originally
-    developed for the earth, environmental and ecological sciences. It is based on
-    prior work done by the Ecological Society of America and associated efforts. It
-    has been developed to document any research data, and as such can be used outside
-    of these original subject areas. EML is implemented as a series of XML document
-    types that can by used in a modular and extensible manner to document research
-    data. Each EML module is designed to describe one logical part of the total metadata
-    that should be included with any dataset.
+- description: The Ecological Metadata Language (EML) metadata standard was originally developed for the earth, environmental and ecological sciences. It is based on prior work done by the Ecological Society of America and associated efforts. It has been developed to document any research data, and as such can be used outside of these original subject areas. EML is implemented as a series of XML document types that can by used in a modular and extensible manner to document research data. Each EML module is designed to describe one logical part of the total metadata that should be included with any dataset.
   id: eml
   name: Ecological Metadata Language (EML)
   registry:
     fairsharing: r3vtvx
+    tess: Ecological Metadata Language (EML)
   url: https://eml.ecoinformatics.org/
-- description: Darwin Core (DwC) is a vocabulary that includes a glossary of terms
-    defined to facilitate the sharing of information about biological diversity.
+- description: Darwin Core (DwC) is a vocabulary that includes a glossary of terms defined to facilitate the sharing of information about biological diversity.
   id: dwc
   name: Darwin Core (DwC)
   registry:
     fairsharing: xvf5y3
+    tess: Darwin Core (DwC)
   url: https://www.tdwg.org/standards/dwc/
 - description: CETAF is a European network of biological and geological collections.
   id: cetaf
@@ -3308,16 +3316,13 @@
   id: iczn
   name: ICZN
   registry:
-    fairsharing: 588e65
+    fairsharing: '588e65'
   url: https://www.iczn.org/
-- description: The International Code of Nomenclature for algae, fungi, and plants
-    is the set of rules and recommendations that govern the scientific naming of all
-    organisms traditionally treated as algae, fungi, or plants.
+- description: The International Code of Nomenclature for algae, fungi, and plants is the set of rules and recommendations that govern the scientific naming of all organisms traditionally treated as algae, fungi, or plants.
   id: iapt
   name: IAPT
   url: https://www.iapt-taxon.org/nomen/main.php
-- description: Catalogue of Life is a collaboration that brings together contributions
-    of taxonomists and informaticians.
+- description: Catalogue of Life is a collaboration that brings together contributions of taxonomists and informaticians.
   id: catalogue-of-life
   name: Catalogue of Life (CoL)
   registry:
@@ -3329,44 +3334,91 @@
   registry:
     fairsharing: 00873e
   url: https://www.checklistbank.org/
-- description: TreatmentBank is a service that extracts and makes available taxonomic
-    treatments, treatment citations and material citations among other data from scholarly
-    publications.
+- description: TreatmentBank is a service that extracts and makes available taxonomic treatments, treatment citations and material citations among other data from scholarly publications.
   id: treatmentbank
   name: TreatmentBank
   registry:
     fairsharing: fe8b36
+    tess: TreatmentBank
   url: https://plazi.org/treatmentbank/
-- description: UNITE is a database and sequence management platform of eukaryotic
-    sequences of the nuclear ribosomal ITS region.
+- description: UNITE is a database and sequence management platform of eukaryotic sequences of the nuclear ribosomal ITS region.
   id: unite
   name: UNITE
   registry:
     biotools: unite_rdna
     fairsharing: cnwx8c
+    tess: UNITE
   url: https://unite.ut.ee
-- description: Taxize is a tool that interacts with several application programming
-    interfaces (API) for taxonomic tasks, such as getting database specific taxonomic
-    identifiers, verifying species names, among other tasks.
+- description: Taxize is a tool that interacts with several application programming interfaces (API) for taxonomic tasks, such as getting database specific taxonomic identifiers, verifying species names, among other tasks.
   id: taxize
   name: Taxize
   registry:
     biotools: taxize
   url: https://cran.r-project.org/web/packages/taxize/index.html
-- description: The taxonomyCleanr is a user friendly workflow and collection of functions
-    to help process taxonomic information.
+- description: The taxonomyCleanr is a user friendly workflow and collection of functions to help process taxonomic information.
   id: taxonomycleanr
   name: taxonomyCleanr
   url: https://github.com/EDIorg/taxonomyCleanr
-- description: MADBOT is a web application that provides a dashboard for managing
-    research data and metadata.
+- description: MADBOT is a web application that provides a dashboard for managing research data and metadata.
   id: madbot
   name: MADBOT
+  registry:
+    biotools: madbot
   url: https://gitlab.com/ifb-elixirfr/madbot
-- description: NMDC Field Notes is a mobile app that streamlines collection of sample
-    information with automated syncing with the NMDC Submission Portal.
+- description: NMDC Field Notes is a mobile app that streamlines collection of sample information with automated syncing with the NMDC Submission Portal.
   id: nmdc-field-notes
   name: NMDC Field Notes
   registry:
     fairsharing: 0a6aee
   url: https://microbiomedata.org/field-notes/
+- description: A collection of information and references with relevance for the microbiology community in terms of Research Data Management, Data Analysis, FAIR principles, standards, and much more.
+  id: nfdi4microbiotakb
+  name: NFDI4Microbiota Knowledge Base
+  url: https://knowledgebase.nfdi4microbiota.de/
+- description: Framework for organising and documenting research data, extending ISA, CWL, and RO-Crate.
+  id: arc
+  name: Annotated Research Context
+  registry:
+    tess: Annotated Research Context
+  url: https://arc-rdm.org/
+- description: A secure, free, cross-platform, and open-source drive wiping utility. Should work with any HDD, SSD (read limitations) and flash drives.
+  id: lethe
+  name: lethe
+  url: https://github.com/Kostassoid/lethe
+- description: Free open-source data wiping software for personal use. Delete information stored on hard disk drives (HDDs, not SSDs) in PC laptops, desktops, or servers.
+  id: dban
+  name: Darik's Boot and Nuke (DBAN)
+  url: https://www.dban.org/
+- description: Eraser is an advanced security tool for Windows which allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns.
+  id: eraser
+  name: Eraser
+  registry:
+    tess: Eraser
+  url: https://eraser.heidi.ie/
+- description: A file format used in genome assembly projects. It describes how larger sequences, like chromosomes, are constructed by ordering and orienting smaller sequence fragments (contigs or scaffolds).
+  id: agp
+  name: A Golden Path (AGP)
+  registry:
+    fairsharing: mg1mdc
+  url: https://www.ncbi.nlm.nih.gov/assembly/agp/AGP_Specification/
+- description: A concise and flexible format for defining genomic regions. It is commonly used to provide annotation tracks for display in genome browsers and is simpler than GFF.
+  id: bed
+  name: Browser Extensible Data (BED)
+  registry:
+    biotools: NA
+    fairsharing: mwmbpq
+  url: https://genome.ucsc.edu/FAQ/FAQformat.html#format1
+- description: A tab-delimited text file used to describe the functional features of a genome, such as genes, exons, and regulatory elements.
+  id: gff3
+  name: General Feature Format (GFF3)
+  registry:
+    fairsharing: dnk0f6
+  url: https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
+- description: A specific text-based format for storing genotypes from a population. It typically arranges single nucleotide polymorphisms (SNPs) in rows and individual samples in columns.
+  id: hapmap
+  name: HapMap Format
+  url: https://www.genome.gov/10001688/international-hapmap-project
+- description: Paperpile is a commercial library manager with extensive support for the BibTeX format.
+  id: paperpile
+  name: Paperpile
+  url: https://paperpile.com/

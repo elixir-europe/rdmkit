@@ -7,6 +7,9 @@ related_pages:
   Your_domain: [human_data]
   Tool_assembly: [fairtracks]
   Your_tasks: [dmp, data_publication, machine_actionability]
+fairsharing:
+- name: Rare disease data collection
+  url: https://fairsharing.org/7475
 ---
 
 ## Introduction

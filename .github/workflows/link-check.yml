@@ -17,9 +17,9 @@ jobs:
 
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@v1.204.0
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
           bundler-cache: true
           cache-version: 0
 
@@ -45,7 +45,7 @@ jobs:
             args: --fallback-extensions html --exclude '^https://github\.com' --root-dir "${{ github.workspace }}/_site" _site/ --exclude-path all_tools_and_resources.html --exclude-path all_training_resources.html 
             # Don't fail action on broken links
             fail: false
-            lycheeVersion: v0.20.0
+            lycheeVersion: v0.21.0
             
       - name: Add page URL
         run: |

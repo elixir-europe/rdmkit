@@ -218,3 +218,20 @@
   date: 2025-08-28
   linked_pr: 1711
   description: A new "your domain" page about Biodiversity was added. [Discover the page here](biodiversity).
+- name: "New page: Data deletion"
+  date: 2025-11-06
+  linked_pr: 1715
+  description:  A "your task" page about how to properly delete data was added. [Discover the page here](data_deletion).
+- name: "Revamped page: Plant sciences"
+  date: 2025-12-01
+  linked_pr: 1724
+  description: The page was updated with additional standards, tools, and more extensive descriptions. [Discover the page here](plant_sciences).
+- name: "Automatic creation and linking of FAIRsharing collections"
+  date: 2025-12-17
+  linked_pr: 1736
+  description: RDMkit will from now on automatically create FAIRsharing collections based on the standards and databases listed in domain pages. You can discover the links in the More information section at the bottom of domain pages.
+- name: "New page: Data interlinking"
+  date: 2026-01-16
+  linked_pr: 1765
+  description:  A "your task" page about data interlinking across ELIXIR Deposition Databases. [Discover the page here](data_interlinking).
+  
