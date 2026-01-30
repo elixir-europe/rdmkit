@@ -50,8 +50,8 @@ national_resources:
       Your_tasks: [data_analysis]
       Tool_assembly: [marine_assembly]
     url: https://sfb.mmp2.sigma2.no/metapipe/
-  - name: Norwegian COVID-19 Data Portal
-    description: The Norwegian COVID-19 Data Portal aims to bundle the Norwegian research efforts and offers guidelines, tools, databases and services to support Norwegian COVID-19 researchers.
+  - name: Pathogens Portal Norway
+    description: The portal provides information about available datasets, resources, tools, and services related to pandemic preparedness in Norway. The portal gives researchers, clinicians and policymakers access to an extensive collection of biomolecular data about pathogens.
     related_pages:
       Your_domain: [human_data]
       Your_tasks: [sensitive, existing_data, data_publication]
