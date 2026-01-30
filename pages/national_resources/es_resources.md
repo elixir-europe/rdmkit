@@ -34,6 +34,12 @@ national_resources:
     related_pages:
       Your_role: [researcher, data_steward, research_software_engineer]
     url: https://datos.gob.es/
+  - name: Spanish COVID-19 Data Portal
+    description: Provides information, guidelines, tools and services to support researchers to utilise Spanish and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
+    url: https://www.covid19dataportal.es/
+    related_pages:
+      Tool_assembly: [covid19_data_portal]
+    instance_of: covid-19-data-portal
 ---
 
 ## Introduction 
