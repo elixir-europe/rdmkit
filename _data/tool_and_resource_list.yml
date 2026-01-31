@@ -3362,9 +3362,7 @@
 - description: MADBOT is a web application that provides a dashboard for managing research data and metadata.
   id: madbot
   name: MADBOT
-  registry:
-    biotools: madbot
-  url: https://gitlab.com/ifb-elixirfr/madbot
+  url: https://madbot.france-bioinformatique.fr/
 - description: NMDC Field Notes is a mobile app that streamlines collection of sample information with automated syncing with the NMDC Submission Portal.
   id: nmdc-field-notes
   name: NMDC Field Notes
@@ -3422,3 +3420,17 @@
   id: paperpile
   name: Paperpile
   url: https://paperpile.com/
+- description: EDAM is a structured ontology of key concepts used in scientific data analysis and data management, covering topics, operations, data types, identifiers, and formats. It enables consistent semantic annotation and categorisation of scientific resources and supports provenance documentation in data management.
+  id: edam
+  name: EDAM ontology
+  registry:
+    fairsharing: a6r7zs
+  url: https://edamontology.org/page
+- description: is an open archive for software source code
+  id: software-heritage
+  name: Software Heritage
+  registry:
+    fairsharing: 6ffb92
+  url: https://www.softwareheritage.org/
+  
+  

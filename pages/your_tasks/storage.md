@@ -108,6 +108,7 @@ After the end of the project, all the relevant (meta)data (to guarantee reproduc
 * Estimate the volume of the (meta)data files that need to be preserved after the end of the project. Consider using a compressed file format to minimize the data volume.
 * Define the amount of time (hours, days…) that you could wait in case the data needs to be reanalysed in the future.
 * It is a good practice to publish your data in public data repositories. Usually, data publication in repositories is a requirement for scientific journals and funders. Repositories preserve your data for a long time, sometimes for free. See our [Data publication page](data_publication) for more information.
+* To ensure long-term preservation and citation of software used in your project, you can leverage {% tool "software-heritage" %}, an archive of source code that supports reproducible science, open access, and sustainable reuse.
 * Institutes or universities could have specific policies for data preservation. For example, your institute can ask you to preserve the data internally for 5 years after the project, even if the same data is available in public repositories.
 
 ### Solutions
