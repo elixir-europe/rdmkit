@@ -38,6 +38,8 @@
 - description: ONNX is an open format built to represent machine learning models.
   id: onnx
   name: Open Neural Network Exchange (ONNX)
+  registry:
+    biotools: NA
   url: https://onnx.ai/
 - description: The platform where the machine learning community collaborates on models, datasets, and applications.
   id: huggingface
@@ -1467,8 +1469,9 @@
   id: nmrlipids
   name: NMRlipids
   registry:
+    biotools: nmrlipids
     fairsharing: d32bc8
-  url: http://nmrlipids.blogspot.com/
+  url: https://www.databank.nmrlipids.fi/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
   name: NPDS
@@ -2317,6 +2320,7 @@
   id: gisaid
   name: Global Initiative on Sharing All Influenza Data (GISAID)
   registry:
+    biotools: gisaid
     fairsharing: 2f7f9f
   url: https://gisaid.org
 - description: Protein Data Bank in Europe Knowledge Base
@@ -2479,7 +2483,7 @@
   name: Gene Ontology
   registry:
     biotools: go
-    fairsharing: FGJ2T8
+    fairsharing: 6xq0ee
     tess: Gene Ontology
   url: http://www.geneontology.org/
 - description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
@@ -2536,6 +2540,8 @@
 - description: A set of analysis pipelines that perform sample demultiplexing, barcode processing, single cell gene counting, V(D)J transcript sequence assembly and annotation, and Feature Barcode analysis from single cell data.
   id: cellranger
   name: CellRanger
+  registry:
+    tess: CellRanger
   url: https://www.10xgenomics.com/support/software/cell-ranger
 - description: A comprehensive turnkey solution for quantifying gene expression in single-cell/nucleus RNA-seq data, built into RNA-seq aligner STAR.
   id: starsolo

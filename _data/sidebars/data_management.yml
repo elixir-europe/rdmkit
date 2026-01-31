@@ -88,6 +88,8 @@ subitems:
         url: /data_deletion
       - title: Data discoverability
         url: /data_discoverability
+      - title: Data interlinking
+        url: /data_interlinking
       - title: Data management coordination
         url: /dm_coordination
       - title: Data management plan
