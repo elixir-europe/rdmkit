@@ -158,10 +158,10 @@ The second [national plan for open science](https://www.ouvrirlascience.fr/get-s
 Recherche Data Gouv is the national ecosystem dedicated to managing, sharing and opening up French research data.
 By encouraging the reuse of data, Recherche Data Gouv stimulates innovation, avoids the dispersal of resources and promotes transdisciplinary approaches, which are essential to meeting complex challenges. Aligned with international standards, it enhances the visibility of French research and embodies an ambitious strategy for open science, benefiting researchers, citizens and economic players alike.
 is a national federated research data platform.
-  [ElIXIR FR](https://recherche.data.gouv.fr/en/page/disciplinary-competence-centers) is a Disciplinary Competence Center for life sciences and contribute to the french [tool assembly](https://rdmkit.elixir-europe.org/ifb_assembly)
-  [INIST] is in charge of OPIDoR (DMP OPIDoR, Cat OPIDoR, DORANum)
+  [ELIXIR-FR](https://recherche.data.gouv.fr/en/page/disciplinary-competence-centers) is a Disciplinary Competence Center for life sciences and contribute to the french [tool assembly](https://rdmkit.elixir-europe.org/ifb_assembly)
+  [INIST](https://www.inist.fr/) is in charge of the [OPIDoR](https://opidor.fr/) and [DORANum](https://doranum.fr/) portals which provides the higher education and research community with tools, services and training that support the implementation of the FAIR principles (DMP OPIDoR, Cat OPIDoR and PID OPIDoR )
 
 - [The Committee for Open Science CoSO](https://www.ouvrirlascience.fr/the-committee-for-open-science/) is a national committe which support the implementation of the National Open Science Policy.
 Its core responsibilities include coordinating the national strategy, developing open science skills, steering France’s European and international engagement, defining orientations for the National Open Science Fund, and guiding negotiations with major scientific publishers.
 
-- [The committee of services and digital infrastructures, CoSIN](https://collection-numerique.amue.fr/numero-35/28.html) supports the digital transformation of Higher Education and Research by developing environmentally responsible infrastructures, pooling expertise, and supporting national and European strategic projects.
+- [The committee of services and digital infrastructures, CoSIN](https://www.canal-u.tv/sites/default/files/medias/fichiers/2025/10/16-09-S02%20-%20Arnauld%20Leservot%20-%20v2.pdf) supports the digital transformation of Higher Education and Research by developing environmentally responsible infrastructures, pooling expertise, and supporting national and European strategic projects.
