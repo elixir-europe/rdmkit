@@ -37,7 +37,7 @@ national_resources:
       Your_tasks: [sensitive, data_publication, existing_data]
     url: https://login.gdi.elixir-greece.org/
 
-  - name: Greek COVID-19 Portal
+  - name: Greek COVID-19 Data Portal
     description: Provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
     url: https://covid19dataportal.gr/
     related_pages:

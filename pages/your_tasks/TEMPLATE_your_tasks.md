@@ -3,6 +3,7 @@ title: Global problem title (e.g. metadata management)
 search_exclude: true
 description: <!---REPLACE THIS with a one sentence description of the page--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+editors: [<!---REPLACE THIS with comma separated list of editors (to be filled in by an editor)--->]
 page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo --->
 related_pages: 
   Tool_assembly: [<!---REPLACE THIS with the page ID of the tool_assembly pages that you want to list here as related pages--->]
@@ -47,3 +48,11 @@ Same as above
 ### Solutions <!-- do not delete this heading and write your text below it -->
 Same as above
 
+<!--- IF APPLICABLE
+## Bibliography 
+
+{% bibliography --cited %}
+
+
+More info on how to use a bibliography can be found in our style guide: https://rdmkit.elixir-europe.org/style_guide#bibliography
+--->
