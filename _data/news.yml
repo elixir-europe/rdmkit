@@ -234,4 +234,7 @@
   date: 2026-01-16
   linked_pr: 1765
   description:  A "your task" page about data interlinking across ELIXIR Deposition Databases. [Discover the page here](data_interlinking).
-  
+- name: "Revamped page: National resources France"
+  date: 2026-02-01
+  linked_pr: 1766
+  description: The page was updated with additional standards, tools, national initiatives and better descriptions. [Discover the page here](fr_resources).
