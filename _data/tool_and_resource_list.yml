@@ -45,6 +45,7 @@
   id: huggingface
   name: HuggingFace
   registry:
+    fairsharing: d1299a
     tess: HuggingFace
   url: https://huggingface.co/
 - description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
