@@ -15,7 +15,7 @@ training:
     description: This presentation highlights how the local Greek Galaxy instance at usegalaxy.elixir-greece.org makes SARS-CoV-2 data analysis accessible and reproducible using open software and public research infrastructures. It showcases practical workflows in genomics, proteomics, evolution, and cheminformatics, with comprehensive training materials available to support collaborative research.
     url: https://zenodo.org/records/4042834#.ZACFUk9vD9M
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 
 ref_to_main_resources:
   - argos

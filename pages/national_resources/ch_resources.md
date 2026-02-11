@@ -88,7 +88,7 @@ national_resources:
       fairsharing:
       tess:    
   - name: Swiss Pathogen Surveillance Platform (SPSP)
-    description: A secure One-health online platform that enables near real-time sharing under controlled access of pathogen whole genome sequences (WGS) and their associated clinical/epidemiological metadata. Since 20221 it has centralized and processed all SARS-CoV-2 sequencing data within the national genomic surveillance program.
+    description: A secure One-health online platform that enables near real-time sharing under controlled access of pathogen whole genome sequences (WGS) and their associated clinical/epidemiological metadata. Since 2021 it has centralized and processed all SARS-CoV-2 sequencing data within the national genomic surveillance program.
     how_to_access:
     instance_of:
     related_pages:
@@ -102,7 +102,7 @@ national_resources:
       fairsharing:
       tess:    
   - name: DORA
-    description: Digit Object Repository at the Libr4RI (4 ETH Domain Research Institutes, that are EAWAG, EMPA, PSI, WSL).
+    description: Digital Object Repository at the Libr4RI (4 ETH Domain Research Institutes, that are EAWAG, EMPA, PSI, WSL).
     how_to_access:
     instance_of:
     related_pages:
@@ -130,7 +130,7 @@ national_resources:
       fairsharing:
       tess:
   - name: SIB/Vital-IT Canvas Generator
-    description: This is a tool to help scientists generate data management plans for SNSF -unded projects. The Word document produced complies with the SNSF instructions for creating DMPs.
+    description: This is a tool to help scientists generate data management plans for SNSF-funded projects. The Word document produced complies with the SNSF instructions for creating DMPs.
     how_to_access:
     instance_of:
     related_pages:
@@ -206,4 +206,3 @@ SPHN is a national initiative under the leadership of the Swiss Academy of Medic
 * [CHUV Library (BiUM)](https://www.bium.ch/en/publication-open-access/data-management/)
 * [Libr4RI - Library for the research institutes of the ETH domain (EAWAG, EMPA, PSI & WSL)](https://www.lib4ri.ch/services/open-access.html)
 * [SWITCH - secure infrastructure for data sharing, storage and archive](https://www.switch.ch/)
-

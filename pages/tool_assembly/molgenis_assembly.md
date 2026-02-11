@@ -36,7 +36,7 @@ One of the key features is that it has a completely customisable data system, al
 
 If you are a researcher, a (bio)informatician, a biomedical practitioner, a data manager or anyone else who handles a considerable amount of (scientific) data, then MOLGENIS is a software package that will help you in setting up an online database application in a short time, making your data query-able and allowing you to share your data with collaborators easily.The MOLGENIS software toolkit enables you to [store, edit, analyse, and share your data](#for-what-purpose-can-molgenis-assembly-be-used) efficiently.
 
-MOLGENIS is open source, [free to download](https://www.molgenis.org/get.html) and to install yourself. You can also purchase a MOLGENIS [instance as a service ready to use from the Genomics Coordination Centrer (GCC)](https://www.molgenis.org/get.html#hosting-and-support), which is the main developer of MOLGENIS. GCC can also provide you with support on entering and managing your data-model on the servers.
+MOLGENIS is open source, [free to download](https://www.molgenis.org/get.html) and to install yourself. You can also purchase a MOLGENIS [instance as a service ready to use from the Genomics Coordination Centre (GCC)](https://www.molgenis.org/get.html#hosting-and-support), which is the main developer of MOLGENIS. GCC can also provide you with support on entering and managing your data-model on the servers.
 
 
 
@@ -51,7 +51,7 @@ Example: https://hfgp.bbmri.nl/
 
 ### FAIR data sharing
 
-Make your data findable, interoperable, accessible, reusable (FAIR). MOLGENIS aims to make  data sharing and re-use should easy. MOLGENIS enables you to quickly create explorers for your data sets and variables to the outside world while preventing exposure of (sensitive) data values using the fine-grained permission system.
+Make your data findable, interoperable, accessible, reusable (FAIR). MOLGENIS aims to make data sharing and re-use easy. MOLGENIS enables you to quickly create explorers for your datasets and variables to the outside world while preventing exposure of (sensitive) data values using the fine-grained permission system.
 Example: http://www.palgaopenbaredatabank.nl
 
 ### Secure access
@@ -62,7 +62,7 @@ Easily control group, role and individual access. MOLGENIS data is organised fol
 Bioinformaticians can take full control in MOLGENIS. Add scripts in your favorite programming languages (e.g. R, javascript, python) and connect to the data using API's to add great analysis tools and views. You can also create complete html + javascript apps to customize MOLGENIS further.
 Example: http://molgenis.org/ase
 Harmonization and integration
-A common task is to make your data interoperable and run combined analysis, which is much more powerful than running smaller analyses on each data set separately. MOLGENIS offers you multiple 'FAIRification' tools to find related data, codify your data contents and transform different tables into one standardized table.
+A common task is to make your data interoperable and run combined analysis, which is much more powerful than running smaller analyses on each dataset separately. MOLGENIS offers you multiple 'FAIRification' tools to find related data, codify your data contents and transform different tables into one standardized table.
 Examples: http://biobankconnect.org and http://molgenis.org/sorta
 
 ### Task automation
