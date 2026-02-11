@@ -51,18 +51,18 @@ title: Title of the page
 ### More information
 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS.   The supported registries that can be used in the `registry` attribute are: *YouTube*, *Zenodo*, *Carpentries*, *GitHub* and *TeSS*.
+* `training`: Add your material directly to TeSS (ELIXIR Training Portal). This ensures maximum visibility and long-term findability. If your material is not yet on TeSS, you can list it manually in the section below using the format url:name.
 
   For referencing training from a local or national organisation please use this format: 
   
-  [Organisation] [Type of material] on [Source]
+  [Organisation] [Type of material] on/in [Source]
   
    Examples: 
 
-  * [Organisation] [Training Material/ Search Query] on TeSS
-  * [Organisation] on GitHub or [Organisation] - [Repository] in GitHub
-  * [Organisation] on YouTube [Channel/ Video]
-  * [Organisation] [Training Material/Community] on Zenodo
+  * [Organisation] [Training Material/Search Query] in TeSS
+  * [Organisation] on GitHub or [Organisation] - [Repository] on GitHub
+  * [Organisation] YouTube [Channel/Video]
+  * [Organisation] [Training Material/Community] in Zenodo
   * [Organisation] The Carpentries Lessons
 
   For referencing training on a specific topic please use this format:
@@ -71,21 +71,19 @@ title: Title of the page
     
   Examples: 
 
-  * [Topic]  [Training material/ Search query] in TeSS
-  * [Topic] in GitHub
-  * [Topic]  YouTube [channel/video]
+  * [Topic] [Training material/Search query] in TeSS
+  * [Topic] on GitHub or [Topic] – [Repository] on GitHub
+  * [Topic] YouTube [Channel/Video]
   * [Topic] [Training material/Community] in Zenodo
   * [Topic] The Carpentries Lessons
  
  ```yml
   training:
-    - name: VIB Training material on TeSS 
-      registry: TeSS
-      url: https://tess.elixir-europe.org/content_providers/vib-training
+    - name: Galaxy Training material on TeSS 
+      url: https://tess.elixir-europe.org/materials?tools=Galaxy
 
-    - name: RStudio basic course in GitHub
-      registry: GitHub
-      url: https://github.com/ELIXIREstonia/2025-09-01-R-basic
+    - name: Galaxy Training material on  Genome annotation  on TeSS 
+      url: https://tess.elixir-europe.org/materials?scientific_topics=Genome+annotation&tools=Galaxy
 
  ```
 
