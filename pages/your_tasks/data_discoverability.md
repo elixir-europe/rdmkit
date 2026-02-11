@@ -3,6 +3,15 @@ title: Data discoverability
 description: How to make data discoverable
 contributors: [Aina Jené Cortada, Laura Portell Silva]
 page_id: data_discoverability
+faircookbook:
+- name: Depositing to generic repositories - Zenodo use case
+  url: https://w3id.org/faircookbook/FCB009
+- name: Introducing unique, persistent identifiers
+  url: https://w3id.org/faircookbook/FCB006
+- name: Registering datasets with Wikidata
+  url: https://w3id.org/faircookbook/FCB060
+- name: Introducing Search Engine Optimization (SEO)
+  url: https://w3id.org/faircookbook/FCB010
 ---
 
 ## How can you make your data more discoverable?

@@ -16,6 +16,12 @@ national_resources:
       Your_role: [researcher]
       Your_tasks: [data_analysis]
     url: https://galaxy.hpc.ut.ee/
+  - name: Estonian COVID-19 Data Portal
+    description: Provides information, guidelines, tools and services to support researchers to utilise Estonian and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.
+    url: https://covid19dataportal.ee/
+    related_pages:
+      Tool_assembly: [covid19_data_portal]
+    instance_of: covid-19-data-portal
 ---
 
 ## Introduction

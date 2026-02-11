@@ -18,7 +18,7 @@ The European COVID-19 Data Portal is part of the European COVID-19 Data Platform
 
 ## How the portal is useful for researchers and how it is supposed to fit into their processes?
 
-Researchers benefit the COVID-19 Data Portal in a host of ways, including:
+Researchers benefit the {% tool "covid-19-data-portal" %} in a host of ways, including:
 - discoverability of COVID-19-relevant biomolecular data and related literature;
 - support for the sharing, analysis and publication of newly-generated data;
 - access to integrated COVID-19 data across multiple assay platforms;
@@ -27,7 +27,7 @@ Researchers benefit the COVID-19 Data Portal in a host of ways, including:
 
 ## What are the components for the COVID-19 Data Portal?
 
-The COVID-19 Data Portal contains reusable components that will be of value to data stewards, including:
+The{% tool "covid-19-data-portal" %} contains reusable components that will be of value to data stewards, including:
 - [discovery API](https://www.covid19dataportal.org/api-documentation) with documented COVID-19 index points across data and literature resources covered by the COVID-19 Data Portal;
 - [options for membership](https://www.covid19dataportal.org/partners) of the network of national COVID-19 Data Portals, currently comprising some 8 partners;
 - open source web application to [establish a national COVID-19 Data Portal](https://github.com/ScilifelabDataCentre/covid-portal), courtesy of ELIXIR Sweden. 

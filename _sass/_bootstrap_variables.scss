@@ -14,20 +14,18 @@ $navbar-dark-hover-color: $primary;
 $navbar-dark-toggler-border-color: transparent;
 $border-radius: 0.45rem;
 $btn-border-radius-sm: $border-radius;
-$card-border-width: 0;
 $link-color: $blue;
 $info: $blue;
-$link-decoration: none;
 $body-bg: $white;
 $body-color: $dark;
 $font-family-sans-serif: "Open Sans", sans-serif;
-$alert-border-width: 0;
 $input-group-addon-bg: $light-x;
-$input-bg: $light;
-$input-border-width: 0;
 $h1-font-size: 1rem * 3.5;
 $h2-font-size: 1rem * 2.2;
 $h3-font-size: 1rem * 1.5;
 $h4-font-size: 1rem * 1.1;
 $h5-font-size: 1rem;
 $h6-font-size: 1rem;
+$custom-container-max-widths: (
+    xxxl: 1700px
+);

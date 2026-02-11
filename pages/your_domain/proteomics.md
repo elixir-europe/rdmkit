@@ -10,6 +10,9 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=proteomics
+fairsharing:
+- name: Proteomics collection
+  url: https://fairsharing.org/7480
 ---
 
 

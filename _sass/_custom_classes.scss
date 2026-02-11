@@ -1,6 +1,6 @@
 /*-----General styling-----*/
 
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
     main h1:not(.has-subtitle):not(.blurb-title),
     main .h1:not(.has-subtitle) {
         margin-top: -1rem;
@@ -12,7 +12,7 @@
 }
 
 // Light gray background on the left
-@media (min-width: 992px) {
+@include media-breakpoint-up(lg) {
     body:not(:has(.landingpage)) {
         .anchorjs-link {
             font-size: 0.7em !important;
@@ -34,17 +34,17 @@
             padding-left: 2.1rem;
             background-color: $white;
         }
-        background-image: url("../img/background.svg"); /* The image used */
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
+        background: linear-gradient(to right, $light 0 50%, $body-bg 50% 100%);    
     }
 }
 
-@media (max-width: 992px) {
+@include media-breakpoint-down(lg) {
     .sidebar-collapse {
         background-color: $light;
     }
+    #sidebar>nav .sidebar-title-wrapper {
+        background: $white;
+}
 }
 
 #main {
@@ -75,17 +75,10 @@
     margin-right: auto;
 }
 
-@media (max-width: 992px) {
+@include media-breakpoint-down(lg) {
     .sidebar_rdm {
         width: 200px;
     }
-}
-
-#side-nav .btn.sidebar-title {
-    border: 0;
-    border-bottom: 0.2rem solid $primary !important;
-    font-weight: bold;
-    padding-bottom: $input-btn-padding-y - 0.2rem;
 }
 
 #side-nav > ul {
@@ -171,9 +164,6 @@ section#search-section {
     }
 }
 
-#search-label-tiles {
-    background-color: $light;
-}
 
 
 /*-----Top navigation-----*/
@@ -227,9 +217,7 @@ i.fa-solid.fa-code-branch {
 }
 
 // Search
-nav #search-label,
-.landingpage #search-label,
-nav #search-input {
+.landingpage #search-label {
     background-color: $white;
 }
 i.fa-solid.fa-magnifying-glass {
@@ -253,6 +241,12 @@ i.fa-solid.fa-wrench {
     margin-bottom: -0.25rem;
 }
 
+// Citation/Bibiography styling
+
 a.citation span {
     font-size: small;
 }
+
+.bibliography { 
+    margin-top: 2rem; 
+} 
