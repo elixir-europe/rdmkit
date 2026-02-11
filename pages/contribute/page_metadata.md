@@ -14,7 +14,7 @@ title: Title of the page
 ## Possible metadata attributes of a page
 
 
-* `title`: Specify here the title of the page. This wil be the H1 title (replacing the top level title using the # in markdown )
+* `title`: Specify here the title of the page. This will be the H1 title (replacing the top level title using the # in markdown )
 
 * `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
 
@@ -100,4 +100,3 @@ The main tools are described in the main tools and resources table. How to add a
         tess: Bioconda
       url:
   ```
-
