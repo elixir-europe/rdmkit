@@ -32,7 +32,7 @@ national_resources:
       fairsharing:
       tess:
   - name: SWISSUbase
-    description: SWISSUbase is a national cross-disciplinary solution for Swiss universities and other research organizations in need of local institutional data repositories for their researchers. The platform relies on international archiving standards and processes to ensure that data are preserved and accessible in the long-term.
+    description: SWISSUbase is a national cross-disciplinary solution for Swiss universities and other research organisations in need of local institutional data repositories for their researchers. The platform relies on international archiving standards and processes to ensure that data are preserved and accessible in the long-term.
     how_to_access:
     instance_of:
     related_pages:
@@ -88,7 +88,7 @@ national_resources:
       fairsharing:
       tess:    
   - name: Swiss Pathogen Surveillance Platform (SPSP)
-    description: A secure One-health online platform that enables near real-time sharing under controlled access of pathogen whole genome sequences (WGS) and their associated clinical/epidemiological metadata. Since 2021 it has centralized and processed all SARS-CoV-2 sequencing data within the national genomic surveillance program.
+    description: A secure One-health online platform that enables near real-time sharing under controlled access of pathogen whole genome sequences (WGS) and their associated clinical/epidemiological metadata. Since 2021 it has centralised and processed all SARS-CoV-2 sequencing data within the national genomic surveillance program.
     how_to_access:
     instance_of:
     related_pages:

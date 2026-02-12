@@ -37,7 +37,7 @@ There are many aspects to consider when dealing with data transfer.
 
 * You need to be aware of the **legal and ethical implications** of your data transfer.
     * For personal data, you have to ensure compliance with various legal and ethical frameworks, including the GDPR. You might have to establish a **data processing** or **joint data controller** agreement before you can transfer the data.  We highly recommend you to check the [human data](human_data) pages of the RDMkit.
-    * For data relevant for later patenting or other types of commercialization you  might want to establish a **non-disclosure** or other type of agreement with the other party to protect your interest.
+    * For data relevant for later patenting or other types of commercialisation you  might want to establish a **non-disclosure** or other type of agreement with the other party to protect your interest.
     * You might also have to consider other laws and regulations, for instance regarding **biosecurity** of data affecting pathogens or other aspects of potential **dual-use**.
     * The technical protocol you choose for your data transfer should meet your requirement for **data security** resulting these implications. You can interact with the IT departments at both locations in order to establish your strategy.
 
@@ -60,9 +60,9 @@ Preferable transfer channel depends on the volume of your data and number of fil
     * gzip: since tar does not compress the archive created, a compression tool such as gzip is often used to reduce the size of the archive.
 
 * Ask the IT team of your institution or organisation about available services for data transfer. Usually, for **small data volume or limited number of files** universities and professional organisations can provide:
-    * Secure server- or cloud-based applications where you should store work-related data files, synchronize files from different computers and share files by sending a link for access or download. This solution is ideal in case of a small number of files, since files need to be downloaded one by one and this can be inconvenient. Examples of these kinds of applications are NextCloud, {% tool "box" %}, {% tool "owncloud" %} (see [Data storage page](storage)).
+    * Secure server- or cloud-based applications where you should store work-related data files, synchronise files from different computers and share files by sending a link for access or download. This solution is ideal in case of a small number of files, since files need to be downloaded one by one and this can be inconvenient. Examples of these kinds of applications are NextCloud, {% tool "box" %}, {% tool "owncloud" %} (see [Data storage page](storage)).
     * Access to Office 365 (Software as a Service, or SaaS) that includes cloud storage on {% tool "microsoft-onedrive" %}, and SharePoint for collaborations and files sharing - you can “transfer” your data with these services by generating and sending a link for access or download of specific files.
-    * Cloud synchronization and sharing services (CS3) for that can be used in science, education and research have been implemented by companies (e.g. {% tool "seafile" %}), institutions such as CERN (e.g. {% tool "reva" %}, {% tool "rucio" %}) and initiatives (e.g. {% tool "sciencemesh" %}).
+    * Cloud synchronisation and sharing services (CS3) for that can be used in science, education and research have been implemented by companies (e.g. {% tool "seafile" %}), institutions such as CERN (e.g. {% tool "reva" %}, {% tool "rucio" %}) and initiatives (e.g. {% tool "sciencemesh" %}).
 
 * Usually, universities and institutions strongly **discourage** the use of personal accounts on {% tool "google-drive" %}, Amazon Drive, {% tool "dropbox" %} and similar, to share and transfer work related data, and especially sensitive or personal data. Moreover, it is not allowed to store human data in clouds which are not hosted in the EU.
 
@@ -79,7 +79,7 @@ Preferable transfer channel depends on the volume of your data and number of fil
         * FTP (File Transfer Protocol) will transfer files between a client and an FTP server, which will require an account in order to transfer the files.
         * Be sure to use a **secure** version of this protocol, such as FTPS or SFTP (SSH File Transfer Protocol). A possible tool with graphical interface is {% tool "filezilla" %}.
         * HTTP (HyperText Transfer Protocol).
-        * Rsync (remote synchronization) can be used to transfer files between two computers and to keep the files synchronized between these two computers.
+        * Rsync (remote synchronisation) can be used to transfer files between two computers and to keep the files synchronised between these two computers.
         * SCP (secure copy protocol) will securely transfer files between a client and a server. It will require an account on the server and can use SSH key based authentication. A possible tool with graphical interface is {% tool "winscp" %}.
 
     * For massive amounts of data, additional protocols have been developed, parallelizing the flow of data. These transfer solutions require specific tools and as such they are available mostly on large computational centres.

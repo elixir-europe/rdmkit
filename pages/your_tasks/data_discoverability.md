@@ -49,7 +49,7 @@ Discovering research data for re-analysis can occur at different levels of granu
 ### Considerations
 
 * Detailed Metadata: ensure comprehensive metadata for your datasets, including detailed descriptions of studies, datasets, variables, and any available distributions.
-* Data Catalogs and Repositories: use well-maintained online catalogs and repositories that support controlled access data, and check for advanced search features to filter datasets by specific attributes.
+* Data Catalogues and Repositories: use well-maintained online catalogues and repositories that support controlled access data, and check for advanced search features to filter datasets by specific attributes.
 * Data Access Policies: get familiar with the data access policies of different repositories and datasets, understanding the requirements and procedures for requesting access to controlled data.
 * Ethical and Legal Compliance: ensure compliance with ethical guidelines and legal regulations governing data use and sharing, and obtain necessary approvals from institutional review boards or ethics committees if required. Check the [GDPR compliance](gdpr_compliance) and [Ethical aspects](ethics) pages for more information.
 * Data Access Request Process: be aware that the process for requesting and obtaining data access can be time-consuming, and prepare detailed justifications for data access requests, including research objectives and intended analyses.
@@ -68,7 +68,7 @@ This dual-system approach not only broadens the scope for diverse Models – usi
 
 Consequently, the 'beaconised' data represents a significant enhancement in data discoverability with minimal risks. Currently, there are two ways to implement a Beacon:
 
-* API on top of existing tools: This APIs is targeted to those organizations equipped with well-organised and structured data housed in databases, whether SQL or NoSQL, and possess the necessary resources and expertise to interpret and implement the Beacon v2 specification and construct an API on top of an existing tool.
+* API on top of existing tools: This APIs is targeted to those organisations equipped with well-organised and structured data housed in databases, whether SQL or NoSQL, and possess the necessary resources and expertise to interpret and implement the Beacon v2 specification and construct an API on top of an existing tool.
 
   {% include image.html file="beacon-api.JPG" inline=true caption="Figure 1. Beacon API functionality ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon API" max-width="30em"%}
 
@@ -76,4 +76,4 @@ Consequently, the 'beaconised' data represents a significant enhancement in data
 
   {% include image.html file="beacon-ri.JPG" inline=true caption="Figure 2. Beacon RI functionality. ([Source](https://docs.genomebeacons.org/implementations-options/))" alt="Beacon RI" max-width="30em" %}
 
-Building on B2RI, the {% tool "b4omop" %} software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database. This enables organizations using the OMOP CDM to leverage the Beacon framework for querying and sharing genomic and phenotypic data.
+Building on B2RI, the {% tool "b4omop" %} software allows for the integration of a Beacon onto any OMOP Common Data Model (CDM) database. This enables organisations using the OMOP CDM to leverage the Beacon framework for querying and sharing genomic and phenotypic data.

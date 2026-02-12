@@ -71,12 +71,12 @@ While the objects of interest in this domain are pathogens, the data is usually 
   * The Genomic Standards Consortium (GSC) develops and maintains the {% tool "mixs" %} and the {% tool "migs-mims" %} set of core and extended descriptors for genomes and metagenomes with associated samples and their environment to guide scientists on how to capture the metadata essential for high-quality research. 
   * The GenEpiO Consortium develops and maintains the {% tool "genepio" %} to support data sharing and integration specifically for foodborne infectious disease surveillance and outbreak investigations.
   * The [Public Health Alliance for Genomic Epidemiology (PHA4GE)](https://pha4ge.org/) supports openness and interoperability in public health bioinformatics. The [Data Structures working group](https://pha4ge.org/working-groups/) develops, adapts and standardises data models for microbial sequence data, contextual metadata, results and workflow metrics, such as the [SARS-CoV-2 contextual data specification](https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification).
-  * The International Organization for Standardization (ISO) has issued standards that can be referenced when designing or commissioning genomic sequencing and informatics services, such as 
+  * The International Organisation for Standardization (ISO) has issued standards that can be referenced when designing or commissioning genomic sequencing and informatics services, such as 
     * [ISO 20397-1:2022 Biotechnology — Massively parallel sequencing — Part 1: Nucleic acid and library preparation](https://www.iso.org/standard/74054.html)
     * [ISO 20397-2:2021 Biotechnology — Massively parallel sequencing — Part 2: Quality evaluation of sequencing data](https://www.iso.org/standard/67895.html)
     * [ISO/TS 20428:2017 Health informatics — Data elements and their metadata for describing structured clinical genomic sequence information in electronic health records](https://www.iso.org/standard/67981.html)
     * [ISO/TS 22692:2020 Genomics informatics — Quality control metrics for DNA sequencing](https://www.iso.org/standard/73693.html)
-    * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterization of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
+    * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterisation of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
 
 ## Collecting and processing pathogen genomic data
 

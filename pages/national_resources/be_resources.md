@@ -95,7 +95,7 @@ Details about national guidelines, tools and resources can be found at [RDM Guid
 
 The Flemish Government approved the Flemish Open Science policy plan and the establishment of the [Flemish Open Science Board (FOSB)](https://www.ewi-vlaanderen.be/nieuws/flemish-open-science-board-fosb-opgericht). The mandate of the FOSB is to develop the policy on Open Science and to advise on how to spend the resources that will be used for this purpose.
 
-FOSB is the strategic steering body of the [Flemish Research Data Network (FRDN)](https://www.frdn.be), a network of 36 Flemish research performing organizations that collaborate on Open and FAIR data. FRDN supports individual institutions to implement the Open Science policy of the Flemish government, and to connect with international initiatives, such as the European Open Science Cloud (EOSC).
+FOSB is the strategic steering body of the [Flemish Research Data Network (FRDN)](https://www.frdn.be), a network of 36 Flemish research performing organisations that collaborate on Open and FAIR data. FRDN supports individual institutions to implement the Open Science policy of the Flemish government, and to connect with international initiatives, such as the European Open Science Cloud (EOSC).
 
 ## Funders and assistance
 In line with European funders, Belgian research funders require Data Management Plans (DMP) and support Open Science. Consult the funders' webpage and their policy about data management and Open Science.
