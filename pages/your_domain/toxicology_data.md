@@ -27,7 +27,7 @@ In this page, the relevant toxicological data management issues from in vitro, a
 ## Data from in vitro assays - Data analysis and modelling
  
 ### Description
-In vitro cell culture technologies are commonly used in toxicology. They provide an alternative to animal testing and allow to assess the response of the cells to toxicant exposure. They also provide unique access to biochemical, and morphological changes that can not be observed *in vivo*. The most commonly used systems are immortalized cell lines and primary cell cultures.
+In vitro cell culture technologies are commonly used in toxicology. They provide an alternative to animal testing and allow to assess the response of the cells to toxicant exposure. They also provide unique access to biochemical, and morphological changes that cannot be observed *in vivo*. The most commonly used systems are immortalized cell lines and primary cell cultures.
 
 Although two-dimensional cell cultures are very popular, it has been shown that they do not represent the *in vivo* situation, as they are still far from the tissue organization and the cellular connections seen in an organism. Recent advances in three-dimensional cell culture technologies have allowed the widespread use of organoids. Organoids have been used for in vitro modelling of drug adverse effects, specifically in organs commonly susceptible to drug-induced toxicities (i.e. gastrointestinal tract, liver, kidney).
 
@@ -37,7 +37,7 @@ Gene expression changes that occur in biological systems in response to exposure
 
 ### Considerations
 
-Results of in vitro assays are typically collected as dose-response curves. These results should be processed to obtain indexes indicating the concentration at which relevant effects are observed like LC50, IC50, benchmark concentration (BMC). This procedure can involve non-linear curve fitting and outlier removal. It is advisable to report the details of the data processing in order to obtain reproducible results and standarization.
+Results of in vitro assays are typically collected as dose-response curves. These results should be processed to obtain indexes indicating the concentration at which relevant effects are observed like LC50, IC50, benchmark concentration (BMC). This procedure can involve non-linear curve fitting and outlier removal. It is advisable to report the details of the data processing in order to obtain reproducible results and standardization.
 
 ### Solutions
 

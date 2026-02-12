@@ -36,7 +36,7 @@ faircookbook:
 
 ### Description
 
-In general, data can be categorised into two types i.e. sensitive data and non-sensitive data. Non-sensitive data can be shared openly without a risk of any harm. The term sensitive data is used when making data publicly available could put people, organisations, countries, and/or ecosystems at risk - this could be for example, personal or commercial information, and it could also be information about habitat, geographical location, and breeding grounds of endangered/vulnerable species. Such data sensitivity must be protected against unauthorized access, and therefore one should be cautious when deadling with potentitally sensitive or sensitive information. It is important to identifty, at early stage of data management process, that at which point data becomes sensitive or what parts of (existing or newly generated) data are sensitive. What is considered sensitive information is usually regulated by national laws and may differ between countries, so it is important to take into consideration both global and local regulations and policies.
+In general, data can be categorised into two types i.e. sensitive data and non-sensitive data. Non-sensitive data can be shared openly without a risk of any harm. The term sensitive data is used when making data publicly available could put people, organisations, countries, and/or ecosystems at risk - this could be for example, personal or commercial information, and it could also be information about habitat, geographical location, and breeding grounds of endangered/vulnerable species. Such data sensitivity must be protected against unauthorized access, and therefore one should be cautious when dealing with potentially sensitive or sensitive information. It is important to identify, at early stage of data management process, that at which point data becomes sensitive or what parts of (existing or newly generated) data are sensitive. What is considered sensitive information is usually regulated by national laws and may differ between countries, so it is important to take into consideration both global and local regulations and policies.
 
 
 ### Considerations
@@ -78,4 +78,3 @@ Anonymization techniques can sometimes damage the statistical properties of the 
 
 An example of pseudonymization is where participants in a study are assigned a non-identifying ID and all identifying data (such as name and address) are removed from the metadata to be shared. The mapping of this ID to personal data is held separately and securely by a named researcher who will not share this data.
 There are well-established data anonymization approaches, such as k-anonymity, l-diversity, and differential privacy.
-

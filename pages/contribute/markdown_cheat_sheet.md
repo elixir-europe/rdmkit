@@ -126,7 +126,7 @@ This image is inserted in the markdown using following snippet:
 ```
 {% endraw %}
 
-Make sure that you add the image to the `images` directory and give it an understanding filename. Adapt the snippet so it points towards you image (only the filename is needed). In the case of the example, the image exampleImage.png is loaded. Supported attributes are:
+Make sure that you add the image to the `images` directory and give it an understandable filename. Adapt the snippet so it points towards your image (only the filename is needed). In the case of the example, the image exampleImage.png is loaded. Supported attributes are:
 
 * `click`: if true, the image will be clickable -> the image will be loaded in another tab
 * `url`: f you want the image to link to anther page
