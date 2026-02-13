@@ -70,7 +70,6 @@ title: Title of the page
 
   For referencing training on a specific topic please use this format:
     
-  [Topic]  [Type of material] in [Source] or  [Topic] [Documentation/Website] 
     
   Examples: 
 
