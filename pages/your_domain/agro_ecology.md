@@ -1,13 +1,13 @@
 ---
 title: Agro-ecology
-search_exclude: true
-no_robots: true
-sitemap: false
+#search_exclude: true
+#no_robots: true
+#sitemap: false
 description: <!---REPLACE THIS with a one sentence description of the page--->
 contributors: []
 page_id: agro_ecology
 related_pages: 
-  Your_tasks: []
+  Your_tasks: [ metadata, data_quality, data_provenance, data_organisation, sensitive ]
   Tool_assembly: []
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
@@ -36,14 +36,14 @@ Agro-ecology studies often combine field observations, sensor measurements, remo
 
 ### Considerations 
 
-- What needs to be defined to ensure measurements are comparable across sites and time?
+- What do you need to define to ensure measurements are comparable across sites and time?
 - Which information is essential to interpret observations in their local context?
-- How will spatial and temporal variability be represented consistently?
-- What quality assurance steps are needed to prevent or detect errors and inconsistencies during data capture?
-- Are any data sensitive, and if so, what restrictions are needed to enable responsible reuse?
+- How will you represent spatial and temporal variability consistently?
+- What quality assurance steps do you need to prevent or detect errors and inconsistencies during data capture?
+- Are any data sensitive, and if so, what restrictions do you need to enable responsible reuse?
 
 ### Solutions
-The following practices help ensure agro-ecology data remain comparable across sites and reusable:
+The following practices help you ensure agro-ecology data remain comparable across sites and reusable:
 - Use standardised protocols and templates to harmonise sampling and field observations across teams and sites (e.g. by maintaining shared, versioned methods in protocols.io, or aligning practices with long-term monitoring initiatives such as LTER protocols).
 - Capture a minimum set of contextual information during collection so measurements remain interpretable later (e.g. where/when/how the observation was made).
 - Maintain a simple field-level data dictionary (variables, units, and codes) to avoid inconsistencies between teams and seasons.
