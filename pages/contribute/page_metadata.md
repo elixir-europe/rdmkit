@@ -71,7 +71,7 @@ title: Title of the page
   For referencing training on a specific topic please use this format:
     
     
-  Examples: 
+  Templates: 
 
   * [Topic] [Training material/Search query] in TeSS
   * [Topic] on GitHub or [Topic] – [Repository] on GitHub
