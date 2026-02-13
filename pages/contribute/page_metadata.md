@@ -55,23 +55,37 @@ title: Title of the page
 ### More information
 
 
-* `training`: List here training material relevant for the page. We recommend to add your training material in TeSS. However, you can also list here training material that is not yet present in TeSS.
+* `training`: Register your material directly in TeSS (ELIXIR's Training eSupport System). This ensures maximum visibility and long-term findability. If your material is not yet registered in TeSS, you can list it manually in the section below using the format url:name.
 
-  ```yml
-  training:
-    - name: Training in TeSS
-      registry: TeSS
-      url: https://tess.elixir-europe.org/search?q=data%20analysis
+  For referencing training from a local or national organisation please use this format: 
+  
+  Templates: 
 
-    - name: Training in X
-      registry: 
-      url: example_url
-  ```
+  * [Organisation] [Training Material/Search Query] in TeSS
+  * [Organisation] on GitHub or [Organisation] - [Repository] on GitHub
+  * [Organisation] YouTube [Channel/Video]
+  * [Organisation] [Training Material/Community] in Zenodo
 
-  The supported registries that can be used in the `registry` attribute are: *YouTube*, *Zenodo*, *Carpentries*, *GitHub* and *TeSS*.
+  For referencing training on a specific topic please use this format:
+    
+  Templates: 
+
+  * [Topic] [Training material/Search query] in TeSS
+  * [Topic] on GitHub or [Topic] – [Repository] on GitHub
+  * [Topic] YouTube [Channel/Video]
+  * [Topic] [Training material/Community] in Zenodo
+
+  Examples: 
+  
+   ```yml
+    training:
+      - name: Galaxy Training material in TeSS 
+        url: https://tess.elixir-europe.org/materials?tools=Galaxy
+      - name: Crash Course in Data Management Training material on Zenodo
+        url: https://doi.org/10.5281/zenodo.14843075
+   ```
 
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
-
 
 * `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automatically updated and cannot be altered by humans. If you want to add a link you have to add the link towards the RDMkit page in the knowledge model on DSW.
 
