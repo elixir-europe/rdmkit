@@ -81,7 +81,7 @@ title: Title of the page
     training:
       - name: Galaxy Training material in TeSS 
         url: https://tess.elixir-europe.org/materials?tools=Galaxy
-      - name: Crash Course in Data Management Training material in Zenodo
+      - name: Crash Course in Data Management Training material on Zenodo
         url: https://doi.org/10.5281/zenodo.14843075
    ```
 
