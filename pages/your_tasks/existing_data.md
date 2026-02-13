@@ -39,7 +39,7 @@ Many datasets could exist that you can reuse for your project. Even if you know 
 * Search registries for suitable data repositories.
     * {% tool "fairsharing" %} is an ELIXIR resource listing repositories.
     * {% tool "re3data" %} lists repositories from all fields of science.
-    * {% tool "google-dataset-search" %} or {% tool "datacite" %} for localization of datasets.
+    * {% tool "google-dataset-search" %} or {% tool "datacite" %} for localisation of datasets.
     * The {% tool "omicsdi" %} provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).
     * The {% tool "elixir-core-data-resources" %} list of knowledge resources recommended by ELIXIR.
     * {% tool "openaire-explore" %} provides linked open research datasets.

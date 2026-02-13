@@ -73,14 +73,14 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
 
 ### Description
 
-Numerous research institutes have already introduced or are going to introduce the use of Electronic Laboratory Notebook (ELN), Laboratory Information Management System (LIMS) or similar systems to manage samples, reagents, metadata and data, during a research project. The reason for this is that this software could organize information in a structured way and make (meta)data “more” machine-actionable, compared to traditional lab books or individual folders and files in a computer. The use of machine-actionable (meta)data allows for scalable solutions that can be applied during a project’s lifetime, increasing efficiency and ensuring that findings and contributions remain relevant within the research group.
+Numerous research institutes have already introduced or are going to introduce the use of Electronic Laboratory Notebook (ELN), Laboratory Information Management System (LIMS) or similar systems to manage samples, reagents, metadata and data, during a research project. The reason for this is that this software could organise information in a structured way and make (meta)data “more” machine-actionable, compared to traditional lab books or individual folders and files in a computer. The use of machine-actionable (meta)data allows for scalable solutions that can be applied during a project’s lifetime, increasing efficiency and ensuring that findings and contributions remain relevant within the research group.
 
 Similarly, funders and institutions ask researchers to make their (meta)data FAIR and available in a machine-actionable way. This means that (meta)data should be in databases that can expose it in such a way to allow search engines and [harvesting](https://en.wikipedia.org/wiki/Metadata_discovery) servers to discover it, index it and link it to other relevant contextual information, thus vastly enhancing the likelihood of reusing the data (see [Horizon Europe DMP template](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx)).
 
 
 ### Considerations
 
-* During a research project, scientists and researchers should utilize metadata in order to use, reuse, and expand knowledge by:
+* During a research project, scientists and researchers should utilise metadata in order to use, reuse, and expand knowledge by:
   * Managing experiments, samples and analysis pipelines. 
   * Expanding current datasets e.g. to increase the sample size.
   * Repeating experiments done by colleagues in the team.
@@ -105,11 +105,11 @@ By providing structured metadata and data to a database that follows standards (
 * Could more easily query and filter (meta)data based on specific variables, experimental conditions, biological sources and many other parameters, based on the capabilities of the used ELN or data management software.
 * Can more easily find and reproduce experiments performed in the past by others in  literature or in databases e.g. by using {% tool "europe-pmc" %} and [EBI Search](https://www.ebi.ac.uk/ebisearch/overview.ebi/about).
 * Can easily integrate data from multiple datasets and studies, sharing the same experimental conditions or variables. Datasets integration and manipulation are easier to achieve, more reproducible and can be automated by using common programmes/software such as R and {% tool "openrefine" %}.
-* Can make use of visualization and exploration tools, provided by some repositories, to browse and explore the data of multiple datasets at once. For instance, you can use {% tool "expression-atlas" %} to easily make a query about the expression of a gene in specific conditions, even without knowledge of any data analysis software. As another example, {% tool "gisaid" %} allows you to visualise the spreading of viral variants. See the pages in the [Your Domain](your_domain) section to find domain-specific databases, atlas or portals.
+* Can make use of visualisation and exploration tools, provided by some repositories, to browse and explore the data of multiple datasets at once. For instance, you can use {% tool "expression-atlas" %} to easily make a query about the expression of a gene in specific conditions, even without knowledge of any data analysis software. As another example, {% tool "gisaid" %} allows you to visualise the spreading of viral variants. See the pages in the [Your Domain](your_domain) section to find domain-specific databases, atlas or portals.
 * Can import, export and exchange (meta)data between tools/systems/platforms without data loss. Exchanging and integrating (meta)data between two software or platforms is possible only if the format in which the information is contained can be read and interpreted by both. For instance, (meta)data from both {% tool "uniprot" %} and {% tool "pdbe-kb" %}  can be accessed in {% tool "3dbionotes" %} to enrich the structural analysis with sequence features.
 * Can explore and visualise biological knowledge graphs by using software such as {% tool "knetminer" %} and {% tool "agronomic-linked-data" %}.
-* Can perform complex queries, from a single entry point, across multiple distributed databases and across domains via [APIs](https://en.wikipedia.org/wiki/API) or via SPARQL Query Language. For instance: “Retrieve the number of UniProtKB/Swiss-Prot human enzymes that metabolize cholesterol or cholesterol derivatives and that are involved in diseases?" in the {% tool "integrated-database-of-small-molecules" %}.
-* Can more easily find reference data and existing data in general, since machine-actionable (meta)data could be found by search engines and domain specific or generic data catalogs and portals.
+* Can perform complex queries, from a single entry point, across multiple distributed databases and across domains via [APIs](https://en.wikipedia.org/wiki/API) or via SPARQL Query Language. For instance: “Retrieve the number of UniProtKB/Swiss-Prot human enzymes that metabolise cholesterol or cholesterol derivatives and that are involved in diseases?" in the {% tool "integrated-database-of-small-molecules" %}.
+* Can more easily find reference data and existing data in general, since machine-actionable (meta)data could be found by search engines and domain specific or generic data catalogues and portals.
 
 
 #### For software developers and repositories managers
@@ -122,7 +122,7 @@ By providing structured metadata and data to a database that follows standards (
   * The [OpenAIRE aggregator](https://www.openaire.eu/aggregation-and-content-provision-workflows) that collects metadata records via OAI-PMH in the majority of cases.
   * Other instances of your data repository software which use OAI-PMH for metadata harvest, such as {% tool "dataverse" %} [harvesting](https://guides.dataverse.org/en/latest/admin/dashboard.html#harvesting).
   * Search engines such as [Google Dataset Search](https://datasetsearch.research.google.com/help), which relies on [sitemaps.org](https://www.sitemaps.org), {% tool "schema-org" %}, {% tool "data-catalog-vocabulary" %} and other approaches to datasets discovery.
-* Machine actionable metadata facilitates the automatization of data handling and validation, allowing for easier development of new tools and analysis strategies (e.g. data visualization tools, machine learning and artificial intelligence applications).
+* Machine actionable metadata facilitates the automatization of data handling and validation, allowing for easier development of new tools and analysis strategies (e.g. data visualisation tools, machine learning and artificial intelligence applications).
 
 #### For the authors of a machine-actionable public dataset
 * High impact of the published data.
@@ -174,7 +174,7 @@ For machine-actionability and interoperability, you should consider:
 * Some data repositories develop customised (meta)data schemas.
 * Different metadata schemas are preferred for different purposes. Some examples are listed below. 
   * {% tool "schema-org" %} and {% tool "bioschemas" %} markup are mostly used to describe web resources and make them findable by Web search engines. 
-  * {% tool "data-catalog-vocabulary" %} is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.
+  * {% tool "data-catalog-vocabulary" %} is an RDF vocabulary designed to facilitate interoperability between data catalogues published on the Web.
   * [Investigation-Study-Assay (ISA) model](https://isa-tools.org/isa-api/content/isamodel.html#) was originally designed for describing multi-omics experiments in Life Sciences.
   * The [DAta Tag Suite (DATS)](https://github.com/datatagsuite) is a data description model designed and produced to describe datasets and associated metadata in a number of data deposition repositories.
   * The {% tool "ome-data-model-and-file-formats" %} is a specification for storing and exchanging data on biological imaging.

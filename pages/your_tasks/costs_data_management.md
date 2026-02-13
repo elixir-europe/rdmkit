@@ -31,7 +31,7 @@ The processes of data management will incur costs. The expenses may consist of p
 #### Costs for data collection 
 * Collecting and reusing data: Collecting data sometimes involves equipment or services that may incur costs. On the other hand, if you reuse data from a data repository it is worth checking whether there are some costs involved using the service. 
 * Granularity of data: When collecting data it can be tempting to collect more data than is required to answer the research question. Hence, it is important to consider what data is needed as the more data you have, the more expensive it gets to store, clean, and transfer the data.
-* Organizing and formatting data: Keeping data organized from the start of the project will help to manage the data later. Keep an up-to-date data catalogue/registry of data provenance and plan beforehand a clear file structure, names and templates so the involved costs and time spent on organizing the data are lower.
+* Organizing and formatting data: Keeping data organised from the start of the project will help to manage the data later. Keep an up-to-date data catalogue/registry of data provenance and plan beforehand a clear file structure, names and templates so the involved costs and time spent on organising the data are lower.
 
 #### Costs for data processing and data documentation
 * Anonymisation & pseudonymisation: When working with sensitive or confidential data, consider the possibility of anonymising or pseudonymising the data for controlled or public release. Costs may rise either from time spent on anonymise data or if the service needs to be bought from an expert.

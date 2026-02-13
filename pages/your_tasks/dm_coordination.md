@@ -82,7 +82,7 @@ If you want to secure a constant effort on research data management across the p
 * The quality, size, location, and reuse of datasets might be an object of project reporting and be used as a performance indicator. 
 
 ### Solutions
-* For long-term preservation of valuable project outcomes, try to look for additional funding within your organization or from other funders, or create a feasible strategy to use e.g. institutional, national, or international repositories, with their preservation policy.
+* For long-term preservation of valuable project outcomes, try to look for additional funding within your organisation or from other funders, or create a feasible strategy to use e.g. institutional, national, or international repositories, with their preservation policy.
 * Automate backups as much as possible with your IT department and test them. Backup log files should be actively monitored for potential issues.
 * The DMWG should perform regular checks with data hosting project partners to check that data and metadata are produced according to the DMP, and that agreed backup routines are followed. 
 * Post-project preservation of data should consider reproducibility/replicability of the data from a long-term perspective, as well as the potential reuse value. You might want to consult a [data preservation](preserving) service (e.g. national data centres) regarding larger amounts of data. As an initial inspiration, you can start from [this data value checklist](https://www.bgs.ac.uk/download/ngdc-data-value-checklist/) and adapt it for your legal framework and domain.
