@@ -59,17 +59,14 @@ title: Title of the page
 
   For referencing training from a local or national organisation please use this format: 
   
-  
-   Templates: 
+  Templates: 
 
   * [Organisation] [Training Material/Search Query] in TeSS
   * [Organisation] on GitHub or [Organisation] - [Repository] on GitHub
   * [Organisation] YouTube [Channel/Video]
   * [Organisation] [Training Material/Community] in Zenodo
-  * [Organisation] The Carpentries Lessons
 
   For referencing training on a specific topic please use this format:
-    
     
   Templates: 
 
@@ -77,17 +74,16 @@ title: Title of the page
   * [Topic] on GitHub or [Topic] – [Repository] on GitHub
   * [Topic] YouTube [Channel/Video]
   * [Topic] [Training material/Community] in Zenodo
-  * [Topic] The Carpentries Lessons
-   Examples: 
- ```yml
-  training:
-    - name: Galaxy Training material in TeSS 
-      url: https://tess.elixir-europe.org/materials?tools=Galaxy
 
-    - name: Galaxy Training material on  Genome annotation  on TeSS 
-      url: https://tess.elixir-europe.org/materials?scientific_topics=Genome+annotation&tools=Galaxy
-
- ```
+  Examples: 
+  
+   ```yml
+    training:
+      - name: Galaxy Training material in TeSS 
+        url: https://tess.elixir-europe.org/materials?tools=Galaxy
+      - name: Crash Course in Data Management Training material in Zenodo
+        url: https://doi.org/10.5281/zenodo.14843075
+   ```
 
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
