@@ -60,7 +60,7 @@ title: Title of the page
   For referencing training from a local or national organisation please use this format: 
   
   
-   Examples: 
+   Templates: 
 
   * [Organisation] [Training Material/Search Query] in TeSS
   * [Organisation] on GitHub or [Organisation] - [Repository] on GitHub
