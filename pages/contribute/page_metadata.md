@@ -78,7 +78,7 @@ title: Title of the page
   * [Topic] YouTube [Channel/Video]
   * [Topic] [Training material/Community] in Zenodo
   * [Topic] The Carpentries Lessons
- 
+   Examples: 
  ```yml
   training:
     - name: Galaxy Training material on TeSS 
