@@ -59,7 +59,6 @@ title: Title of the page
 
   For referencing training from a local or national organisation please use this format: 
   
-  [Organisation] [Type of material] on/in [Source]
   
    Examples: 
 
