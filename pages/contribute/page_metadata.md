@@ -81,7 +81,7 @@ title: Title of the page
    Examples: 
  ```yml
   training:
-    - name: Galaxy Training material on TeSS 
+    - name: Galaxy Training material in TeSS 
       url: https://tess.elixir-europe.org/materials?tools=Galaxy
 
     - name: Galaxy Training material on  Genome annotation  on TeSS 
