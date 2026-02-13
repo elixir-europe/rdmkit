@@ -28,7 +28,7 @@ These markdown files are divided over subdirectories (your_role, your_domain, yo
 
 ### GitHub checks
 
-With each PR or merge to the master, some checks are done using GitHub actions. One of them checks wether the website builds correctly. The other checks for changes in the tool/resource Excel table. When each of them fails, the PR will not be able to be merged. Click on the red dot/failed check to understand better what caused the fail. 
+With each PR or merge to the master, some checks are done using GitHub actions. One of them checks whether the website builds correctly. The other checks for changes in the tool/resource Excel table. When each of them fails, the PR will not be able to be merged. Click on the red dot/failed check to understand better what caused the fail. 
 
 ## Label, discuss and assign issues
 
@@ -245,4 +245,3 @@ To find out what the `page_id` of an RDMkit page is, please check its metadata a
   - Task pages should only link to recipes for generic tasks.
 - After adding the links create a PR. The PR should be reviewed and approved by at least one editor from both teams.
 - After the approval from editors Fair Cookbook and RDMkit will automatically pull changes from the central .yml file to update there repository. The process of merging the changes to the main branch from the reposiory takes place weekly.
-

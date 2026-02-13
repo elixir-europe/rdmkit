@@ -18,7 +18,7 @@ training:
     url: https://zenodo.org/communities/elixir-lu/
 
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
   -  fair-cookbook
   -  covid-19-disease-map

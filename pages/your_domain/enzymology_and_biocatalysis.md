@@ -32,9 +32,9 @@ Additional information is required for both the investigation and reporting of t
 
 ### Considerations
 Prerequisite for the reproducibility of enzyme activity datasets is the reporting in a complete way, without omissions and without the lack of essential information that allows other researchers to corroborate, interpret and reuse the data. Therefore, the major questions to fulfill these aspects include:
-* Which data are required to provide complete data sets?
+* Which data are required to provide complete datasets?
 * What is the minimal data accepted to be considered complete?
-* What is the minimal data set required to make the data useful for studies of metabolic pathways?
+* What is the minimal dataset required to make the data useful for studies of metabolic pathways?
 * Which metadata describe both the materials and methods data and results data most appropriately?
 * From where can I obtain the metadata?
 * What should be the best way to define the metabolic energy of reactions, substrates and metabolites?

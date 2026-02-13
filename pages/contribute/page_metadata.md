@@ -14,7 +14,7 @@ title: Title of the page
 ## Possible metadata attributes of a page
 
 
-* `title`: Specify here the title of the page. This wil be the H1 title (replacing the top level title using the # in markdown )
+* `title`: Specify here the title of the page. This will be the H1 title (replacing the top level title using the # in markdown )
 
 * `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
 
@@ -87,17 +87,17 @@ title: Title of the page
 
 * `faircookbook`: Here all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
 
-* `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automatically updated and can not be altered by humans! If you want to add a link you have to add the link towards the RDMkit page the the knowledge model on DSW.
+* `dsw`: Here all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automatically updated and cannot be altered by humans. If you want to add a link you have to add the link towards the RDMkit page in the knowledge model on DSW.
 
-* `fairsharing`: This attribute list the FAIRsharing collection that is built based on the standards and databases that are listed on that page. This is automatically updated and can not be altered by humans! If you want to add a resource to the collection you have to add the resource the the page and link to the FAIRsharing identifier from the tool_and_resource_list.yml.
+* `fairsharing`: This attribute lists the FAIRsharing collection that is built based on the standards and databases that are listed on that page. This is automatically updated and cannot be altered by humans. If you want to add a resource to the collection you have to add the resource to the page and link to the FAIRsharing identifier from the tool_and_resource_list.yml.
 
 
 ### Tools and resources
 
-The main tools are described in the mains tools and resources table. How to add a tool are resource can be read [here](tool_resource_update). Using the page metadata attributes to describe tools is only used in national resource pages. We support two types: 
+The main tools are described in the main tools and resources table. How to add a tool or resource can be read [here](tool_resource_update). Using the page metadata attributes to describe tools is only used in national resource pages. We support two types: 
 
 
-* `ref_to_main_resources`: Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. List the nme of the tool your refer to in the main tools table.
+* `ref_to_main_resources`: Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. List the name of the tool you refer to in the main tools table.
 
   ```yml
   ref_to_main_resources: 
@@ -118,5 +118,3 @@ The main tools are described in the mains tools and resources table. How to add 
         tess: Bioconda
       url:
   ```
-
-

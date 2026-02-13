@@ -121,7 +121,7 @@ national_resources:
       Your_tasks: [dmp, compliance, data_publication]
     url: https://fairaware.dans.knaw.nl  
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources:
   - fairsharing
   - molgenis
