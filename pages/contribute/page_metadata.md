@@ -55,7 +55,7 @@ title: Title of the page
 ### More information
 
 
-* `training`: Add your material directly to TeSS (ELIXIR Training Portal). This ensures maximum visibility and long-term findability. If your material is not yet on TeSS, you can list it manually in the section below using the format url:name.
+* `training`: Register your material directly in TeSS (ELIXIR's Training eSupport System). This ensures maximum visibility and long-term findability. If your material is not yet registered in TeSS, you can list it manually in the section below using the format url:name.
 
   For referencing training from a local or national organisation please use this format: 
   
