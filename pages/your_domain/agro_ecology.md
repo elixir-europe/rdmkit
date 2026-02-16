@@ -1,20 +1,12 @@
 ---
 title: Agro-ecology
-#search_exclude: true
-#no_robots: true
-#sitemap: false
-description: <!---REPLACE THIS with a one sentence description of the page--->
-contributors: []
+description: Data management solutions for agro-ecology life science research
+contributors: [Niels Geudens, Flora D'Anna, Breza Witmond, Rafael Abbeloos]
 page_id: agro_ecology
 related_pages: 
   Your_tasks: [ metadata, data_quality, data_provenance, data_organisation, sensitive, gdpr_compliance, ethics ]
   Tool_assembly: []
-# More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
-training:
-  - name: Plant Phenotyping Data management Webinar (MIAPPE)
-    registry: tess
-    url: https://tess.elixir-europe.org/materials/plant-phenotyping-data-managment-webinar-miappe
-# More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+
 fairsharing:
 - name: Plant Genomics and Phenomics Research Data Repository (PGP)
   url: https://fairsharing.org/FAIRsharing.rf3m4g
@@ -24,17 +16,13 @@ fairsharing:
   url: https://fairsharing.org/FAIRsharing.f397c2
 ---
 
-<!-- Please take in mind our style guide https://rdmkit.elixir-europe.org/style_guide when writing the content of this page. -->
-
-<!--- Domain pages should detail the particular data management challenges of the domain, typically by complementing and extending one or more existing Problem pages.
-In the event that no adequate Problem page exists for a problem that can be generalized across domains, consider first contributing to create one or raising a GitHub issue. However, if a problem is entirely domain specific, then it should be fully detailed within the respective Domain page. --->
-
 ## Introduction
 
 Agro-ecology is a transdisciplinary field that integrates principles from agriculture, ecology, and environmental sciences to study and promote sustainable farming systems. It focuses on the interactions between plants, soil, water, biodiversity, and climate, aiming to optimise agricultural productivity while enhancing ecosystem resilience and biodiversity conservation. In the context of modern challenges such as climate change, soil degradation, and biodiversity loss, agro-ecology aims to research solutions that prioritise ecological balance and resource efficiency.
 
 Agro-ecological research generates diverse and complex datasets, spanning field observations, soil and plant analysis, remote sensing, genomic studies, and environmental monitoring. Effective Research Data Management (RDM) is essential to ensure that these datasets remain accessible, interoperable, and reusable, facilitating collaboration across disciplines and institutions.
-This page focuses on RDM best practices for the life science aspects of agro-ecology, ensuring that collected data adheres to the FAIR principles (Findable, Accessible, Interoperable, Reusable). Topics related to social and economic sciences are outside the scope of this page but are acknowledged as complementary aspects of agro-ecology research.
+
+This page focuses on RDM best practices for the life science aspects of agro-ecology and supports alignment with the FAIR principles (Findable, Accessible, Interoperable, Reusable). Given the breadth of agro-ecology, readers may also find relevant RDM guidance in existing RDMkit domain pages, in particular [Your Domain - Biodiversity](biodiversity) and [Your Domain - Plant Sciences](plants), which cover overlapping data types, standards, and workflows commonly encountered in agro-ecological research. Topics related to social and economic sciences are outside the scope of this page but are acknowledged as complementary aspects of agro-ecology research.
 
 ## Data collection
  
@@ -78,19 +66,20 @@ In agro-ecological research, documenting data and ensuring data interoperability
 ### Solutions
 
 The following practices help improve interoperability and reuse of agro-ecology datasets across disciplines and infrastructures:
-* Adopt community metadata standards where possible, selecting those that best match your data types, as described in e.g. {% tool "agroserv" %}.
+* Adopt community metadata standards where possible, selecting those that best match your data types, as described in e.g. the {% tool "agroserv" %}.
 * Use controlled vocabularies and ontologies to standardise terminology (especially for environments, traits, and management variables). Useful resources include:
    * {% tool "agroportal" %} (agronomic and plant science ontologies);
    * {% tool "the-environment-ontology" %} (environmental descriptors);
    * {% tool "crop-ontology" %} (crop and trait descriptions);
    * {% tool "ontology-lookup-service" %};
+
    * {% tool "agroserv" %}.
 * Keep identifiers consistent across datasets for sites, plots, samples, and observations, so that data from different sources can be reliably linked and integrated.
    * See also: [Your task - Identifiers](identifiers)
 * Choose formats that support long-term reuse and integration, and document format choices early in the project (including version and conventions used).
    * CSV: A simple, human-readable format for tabular data.
    * NetCDF: A format suited for climate and environmental datasets, supporting multi-dimensional data structures.
-   * ISA Tab template format for {% tool "miappe" %}: [GitHub - MIAPPE/ISA-Tab-for-plant-phenotyping](https://github.com/MIAPPE/ISA-Tab-for-plant-phenotyping).
+   * [ISA Tab template format](https://isa-specs.readthedocs.io/en/latest/isatab.html).
    * For a more detailed overview of appropriate formats, see [Your task - Data organisation](data_organisation).
 * Make transformations and harmonisation steps explicit, especially when integrating multi-source data (field, lab, sensors, remote sensing), to support reproducibility and cross-study reuse. More information on this can be found in [Your task - Data Provenance](data_provenance).
 

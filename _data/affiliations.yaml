@@ -178,3 +178,15 @@
   expose: yes
   type: project
   url: https://evora-project.eu/
+- name: Delft University of Technology
+  pid: https://ror.org/02e2c7k09
+  expose: yes
+  type: institution
+  url: https://www.tudelft.nl/en/
+  image_url: /images/institutions/TUDelft_logo_rgb@16x.png
+- name: VIB Agro-incubator
+  pid: https://ror.org/03xrhmk39
+  expose: yes
+  type: institution
+  url: https://agro-incubator.sites.vib.be/en
+  image_url: /images/institutions/VIB-notagline-pos.svg
