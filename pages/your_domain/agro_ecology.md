@@ -36,7 +36,7 @@ Agro-ecology is a transdisciplinary field that integrates principles from agricu
 Agro-ecological research generates diverse and complex datasets, spanning field observations, soil and plant analysis, remote sensing, genomic studies, and environmental monitoring. Effective Research Data Management (RDM) is essential to ensure that these datasets remain accessible, interoperable, and reusable, facilitating collaboration across disciplines and institutions.
 This page focuses on RDM best practices for the life science aspects of agro-ecology, ensuring that collected data adheres to the FAIR principles (Findable, Accessible, Interoperable, Reusable). Topics related to social and economic sciences are outside the scope of this page but are acknowledged as complementary aspects of agro-ecology research.
 
-## Data Collection
+## Data collection
  
 ### Description
 
@@ -80,10 +80,10 @@ In agro-ecological research, documenting data and ensuring data interoperability
 The following practices help improve interoperability and reuse of agro-ecology datasets across disciplines and infrastructures:
 * Adopt community metadata standards where possible, selecting those that best match your data types, as described in e.g. {% tool "agroserv" %}.
 * Use controlled vocabularies and ontologies to standardise terminology (especially for environments, traits, and management variables). Useful resources include:
-   * {% tool "agroportal" %} (agronomic and plant science ontologies),
-   * {% tool "the-environment-ontology" %} (environmental descriptors),
-   * {% tool "crop-ontology" %} (crop and trait descriptions),
-   * {% tool "ontology-lookup-service" %},
+   * {% tool "agroportal" %} (agronomic and plant science ontologies);
+   * {% tool "the-environment-ontology" %} (environmental descriptors);
+   * {% tool "crop-ontology" %} (crop and trait descriptions);
+   * {% tool "ontology-lookup-service" %};
    * {% tool "agroserv" %}.
 * Keep identifiers consistent across datasets for sites, plots, samples, and observations, so that data from different sources can be reliably linked and integrated.
    * See also: [Your task - Identifiers](identifiers)
@@ -95,7 +95,7 @@ The following practices help improve interoperability and reuse of agro-ecology 
 * Make transformations and harmonisation steps explicit, especially when integrating multi-source data (field, lab, sensors, remote sensing), to support reproducibility and cross-study reuse. More information on this can be found in [Your task - Data Provenance](data_provenance).
 
 
-## Data Sharing and Publishing
+## Data sharing and publishing
 ### Description
 
 Agro-ecology datasets are often valuable beyond the original study, for example for meta-analyses, modelling, long-term monitoring, and synthesis across sites. However, publishing agro-ecology data can be challenging because datasets are heterogeneous, collected across multiple partners, and may include sensitive elements. Sharing data with appropriate documentation, licensing, and access conditions helps maximise reuse while supporting responsible data handling.
