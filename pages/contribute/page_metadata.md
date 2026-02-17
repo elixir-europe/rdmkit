@@ -16,7 +16,7 @@ title: Title of the page
 
 * `title`: Specify here the title of the page. This will be the H1 title (replacing the top level title using the # in markdown )
 
-* `description`: Short sentence about the page starting with a lowercase. This sentence is visualized when pages are automatically listed using a tag.
+* `description`: Short sentence about the page starting with a lowercase. This sentence is visualised when pages are automatically listed using a tag.
 
 * `contributors`: list here all the contributors that helped in establishing the page. This will be the full name of the person. Make sure that the person name that is listed can be found in the CONTRIBUTORS.yaml file in the _data directory if you want to link the github id and other contact information.
 
@@ -83,7 +83,7 @@ title: Title of the page
 The main tools are described in the main tools and resources table. How to add a tool or resource can be read [here](tool_resource_update). Using the page metadata attributes to describe tools is only used in national resource pages. We support two types: 
 
 
-* `ref_to_main_resources`: Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. List the name of the tool you refer to in the main tools table.
+* `ref_to_main_resources`: Refer to entries of the "main_tool_and_resource_table" if institutions, organisations and projects from the country contribute to the development of international tools and resources. List the name of the tool you refer to in the main tools table.
 
   ```yml
   ref_to_main_resources: 

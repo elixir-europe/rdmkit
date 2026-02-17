@@ -46,7 +46,7 @@ To protect your research data, code, and other information assets you should est
 
 ### Solution
 
-* Below is a non-exhaustive list of good practices that might be relevant depending on the level of protection required. Note that some of these might be quite costly, such as investing in hardware or hiring highly specialized staff to ensure high levels of security. More on costs for RDM is available on the [Costs of data management](/costs_data_management) page.
+* Below is a non-exhaustive list of good practices that might be relevant depending on the level of protection required. Note that some of these might be quite costly, such as investing in hardware or hiring highly specialised staff to ensure high levels of security. More on costs for RDM is available on the [Costs of data management](/costs_data_management) page.
 * Confidentiality
   * Use password protection on all computers
   * Use two-factor authentication, i.e. using two ways of identification in order to obtain access to the (remote) data

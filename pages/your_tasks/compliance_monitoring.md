@@ -39,7 +39,7 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 * The [FAIRplus project](https://fairplus-project.eu) with its {% tool "fair-cookbook" %} provides services, tools, and indicators necessary for the assessment or the evaluation of data against the FAIR Principles.
     * {% tool "fair-evaluation-services" %} are an automated approach to evaluate FAIRness of data services.
     * {% tool "fairassist-org" %} aims to collect and describe existing resources for the assessment and/or evaluation of digital objects against the FAIR principles.
-* The {% tool "fair-wizard" %} utilizes FAIRification resources developed by the FAIRplus project and other platforms, suggests FAIRification materials based on the FAIRification requirements, and designs FAIRification solutions for data owners, data stewards, and other people involved in FAIRification.
+* The {% tool "fair-wizard" %} utilises FAIRification resources developed by the FAIRplus project and other platforms, suggests FAIRification materials based on the FAIRification requirements, and designs FAIRification solutions for data owners, data stewards, and other people involved in FAIRification.
 * The {% tool "fairshake" %} evaluates the FAIRness of Digital Objects.
 * Information Security, Data Protection, Accountability
   *  [21 CFR part 11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/part-11-electronic-records-electronic-signatures-scope-and-application) is a standard, which outlines criteria for electronic records in an IT system to be as valid as signed paper
