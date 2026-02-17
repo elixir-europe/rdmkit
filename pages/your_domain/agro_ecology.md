@@ -2,6 +2,7 @@
 title: Agro-ecology
 description: Data management solutions for agro-ecology life science research
 contributors: [Niels Geudens, Flora D'Anna, Breza Witmond, Rafael Abbeloos]
+editors: [Bert Droesbeke]
 page_id: agro_ecology
 related_pages: 
   Your_tasks: [ metadata, data_quality, data_provenance, data_organisation, sensitive, gdpr_compliance, ethics ]
