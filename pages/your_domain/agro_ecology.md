@@ -8,11 +8,7 @@ related_pages:
   Tool_assembly: []
 
 fairsharing:
-- name: Plant Genomics and Phenomics Research Data Repository (PGP)
-  url: https://fairsharing.org/FAIRsharing.rf3m4g
-- name: International Soil Data Network (ISRIC)
-  url: https://fairsharing.org/FAIRsharing.bLMnnR
-- name: AgroServ
+- name: AgroServ collection
   url: https://fairsharing.org/FAIRsharing.f397c2
 ---
 
