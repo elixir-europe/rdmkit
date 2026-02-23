@@ -522,10 +522,6 @@
     biotools: comptox_chemistry_dashboard
     fairsharing: tfj7gt
   url: https://comptox.epa.gov/dashboard
-- description: An initiative to bring together various formats and standard for computational models in biology
-  id: computational-modeling-in-biology-network
-  name: COmputational Modeling in BIology NEtwork (COMBINE)
-  url: http://co.mbine.org
 - description: Open source package management system
   id: conda
   name: Conda
