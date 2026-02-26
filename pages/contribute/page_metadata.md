@@ -55,9 +55,9 @@ title: Title of the page
 ### More information
 
 
-* `training`: Register your material directly in TeSS (ELIXIR's Training eSupport System). This ensures maximum visibility and long-term findability. If your material is not yet registered in TeSS, you can list it manually in the section below using the format url:name.
+* `training`: List here training material relevant to the page.
 
-  For referencing training from a local or national organisation please use this format: 
+  For referencing training from a local or national organisation, please use this format: 
   
   Templates: 
 
@@ -66,7 +66,7 @@ title: Title of the page
   * [Organisation] YouTube [Channel/Video]
   * [Organisation] [Training Material/Community] in Zenodo
 
-  For referencing training on a specific topic please use this format:
+  For referencing training on a specific topic, please use this format:
     
   Templates: 
 
