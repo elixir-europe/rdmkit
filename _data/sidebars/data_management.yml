@@ -29,7 +29,7 @@ subitems:
     url: /your_domain
     image_url: /assets/img/section-icons/dna.svg
     subitems:
-      - title: Agro-ecology
+      - title: Agroecology
         url: /agro_ecology
       - title: Biodiversity
         url: /biodiversity
