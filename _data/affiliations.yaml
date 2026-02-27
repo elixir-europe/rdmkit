@@ -184,3 +184,8 @@
   type: institution
   url: https://www.tudelft.nl/en/
   image_url: /images/institutions/TuDelft_logo_cmyk.svg
+- name: AgroServ
+  image_url: /images/projects/agroserv_project_logo.png
+  expose: no 
+  type: project
+  url: https://agroserv.eu/
