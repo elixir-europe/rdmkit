@@ -61,10 +61,10 @@ title: Title of the page
   
   Templates: 
 
-  * [Organisation] [Training Material/Search Query] in TeSS
-  * [Organisation] on GitHub or [Organisation] - [Repository] on GitHub
-  * [Organisation] YouTube [Channel/Video]
-  * [Organisation] [Training Material/Community] in Zenodo
+  * [Provider] [Training Material/Search Query] in TeSS
+  * [Provider] on GitHub or [Organisation] - [Repository] on GitHub
+  * [Provider] YouTube [Channel/Video]
+  * [Provider] [Training Material/Community] in Zenodo
 
   For referencing training on a specific topic, please use this format:
     
