@@ -30,7 +30,7 @@ subitems:
     image_url: /assets/img/section-icons/dna.svg
     subitems:
       - title: Agroecology
-        url: /agro_ecology
+        url: /agroecology
       - title: Biodiversity
         url: /biodiversity
       - title: Bioimaging data
