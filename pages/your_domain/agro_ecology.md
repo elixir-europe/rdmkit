@@ -11,6 +11,9 @@ related_pages:
 fairsharing:
 - name: AgroServ collection
   url: https://fairsharing.org/FAIRsharing.f397c2
+tess: 
+- name: Visualize Climate data with Panoply netCDF viewer
+  url: https://tess.elixir-europe.org/materials/hands-on-for-visualize-climate-data-with-panoply-netcdf-viewer-tutorial
 ---
 
 ## Introduction
@@ -73,9 +76,9 @@ The following practices help improve interoperability and reuse of agro-ecology 
 * Keep identifiers consistent across datasets for sites, plots, samples, and observations, so that data from different sources can be reliably linked and integrated.
    * See also: [Your task - Identifiers](identifiers)
 * Choose formats that support long-term reuse and integration, and document format choices early in the project (including version and conventions used).
-   * CSV: A simple, human-readable format for tabular data.
-   * NetCDF: A format suited for climate and environmental datasets, supporting multi-dimensional data structures.
-   * [ISA Tab template format](https://isa-specs.readthedocs.io/en/latest/isatab.html).
+   * {% tool "csv" %}: A simple, human-readable format for tabular data.
+   * {% tool "netcdf" %}: A format suited for climate and environmental datasets, supporting multi-dimensional data structures. 
+   * Use {% tool "isa-tab" %} format to describe complex field experiments and keep sample - measurement - datafile relationships clear across many sites, seasons, and analytical methods (soil chemistry, crop traits, biodiversity surveys, omics, remote sensing, etc.).
    * For a more detailed overview of appropriate formats, see [Your task - Data organisation](data_organisation).
 * Make transformations and harmonisation steps explicit, especially when integrating multi-source data (field, lab, sensors, remote sensing), to support reproducibility and cross-study reuse. More information on this can be found in [Your task - Data Provenance](data_provenance).
 

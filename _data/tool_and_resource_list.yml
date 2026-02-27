@@ -3458,3 +3458,21 @@
   id: crop-nutrient-data
   name: Crop Nutrient Data
   url: https://cropnutrientdata.net/ 
+- description: Machine-independent data model and file format for storing and sharing array-oriented scientific data with self-describing metadata
+  id: netcdf
+  name: NetCDF
+  url: https://www.unidata.ucar.edu/software/netcdf/
+  registry:
+    fairsharing: 995b08
+- description: Tab-delimited (TSV) metadata format based on the ISA model to describe investigations, studies, and assays, capturing experimental design, sample metadata, protocols, and sample-to-data relationships
+  id: isa-tab 
+  name: ISA-Tab
+  url: https://isa-specs.readthedocs.io/en/latest/isatab.html
+  registry:
+    fairsharing: 53gp75
+- description: Plain-text tabular file format where each row is a record and fields are separated by commas; widely supported for exchanging simple tables
+  id: csv
+  name: CSV (Comma-Separated Values)
+  url: https://tools.ietf.org/html/rfc4180
+  registry:
+    fairsharing: 1943d4
