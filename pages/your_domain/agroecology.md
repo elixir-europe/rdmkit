@@ -72,7 +72,7 @@ The following practices help improve interoperability and reuse of agro-ecology 
   * {% tool "the-environment-ontology" %}: a widely used ontology for environmental and habitat descriptors, often used to harmonise site and environmental context.
   * {% tool "crop-ontology" %}: provides standardised trait and variable descriptions for crops, commonly used in plant breeding and phenotyping contexts.
   * {% tool "ontology-lookup-service" %}: a general-purpose service for searching and resolving terms across many biomedical and life science ontologies, useful when projects span multiple domains.
-  * {% tool "agroserv" %}: the AgroServ FAIRsharing collection complements the ontology resources above by pointing to recommended community standards, and project-relevant guidance across life sciences and beyond.
+  * [AgroServ FAIRSharing collection](https://doi.org/10.25504/FAIRsharing.f397c2): complements the ontology resources above by pointing to recommended community standards, and project-relevant guidance across life sciences and beyond.
 * Keep identifiers consistent across datasets for sites, plots, samples, and observations, so that data from different sources can be reliably linked and integrated.
    * See also: [Your task - Identifiers](identifiers)
 * Choose formats that support long-term reuse and integration, and document format choices early in the project (including version and conventions used).
