@@ -732,12 +732,13 @@
     biotools: edal
     tess: e!DAL
   url: https://edal.ipk-gatersleben.de/
-- description: Plant Genomics and Phenomics Research Data Repository
+- description: A repository for plant genomics and phenomics research data, including data from the German Plant Phenotyping Network (DPPN) and the European Plant Phenotyping Network (EPPN).
   id: e-dal-pgp
-  name: e!DAL-PGP
+  name: Plant Genomics and Phenomics Research Data Repository
   registry:
     fairsharing: rf3m4g
     tess: e!DAL-PGP
+    biotools: pgp
   url: https://edal-pgp.ipk-gatersleben.de/
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
   id: ecotox
@@ -3430,3 +3431,37 @@
   registry:
     fairsharing: 6ffb92
   url: https://www.softwareheritage.org/
+- description: AgroDataCube is a comprehensive data platform that provides access to a wide range of agricultural data, including soil, weather, crop, and management information, to support research and decision-making in agriculture.
+  id: agrodatacube
+  name: AgroDataCube
+  url: https://agrodatacube.wur.nl/
+- description: A data repository for agricultural research data, providing a platform for sharing and accessing datasets related to agriculture and food systems.
+  id: agcros
+  name: Agricultural Collaborative Research Outcomes System (AgCROS)
+  url: https://agcros.org/
+- description: The Tool for Agroecology Performance Evaluation (TAPE) is a software tool designed to assess and evaluate the performance of agroecological practices. It provides a framework for analyzing various aspects of agroecology, including environmental, economic, and social factors, to support sustainable agricultural practices.
+  id: tape
+  name: Tool for Agroecology Performance Evaluation (TAPE)
+  url: https://www.fao.org/agroecology/tools-tape
+- description: Crop Nutrient Data is a comprehensive database that provides information on the nutrient content of various crops.
+  id: crop-nutrient-data
+  name: Crop Nutrient Data
+  url: https://cropnutrientdata.net/ 
+- description: Machine-independent data model and file format for storing and sharing array-oriented scientific data with self-describing metadata
+  id: netcdf
+  name: NetCDF
+  url: https://www.unidata.ucar.edu/software/netcdf/
+  registry:
+    fairsharing: 995b08
+- description: Tab-delimited (TSV) metadata format based on the ISA model to describe investigations, studies, and assays, capturing experimental design, sample metadata, protocols, and sample-to-data relationships
+  id: isa-tab 
+  name: ISA-Tab
+  url: https://isa-specs.readthedocs.io/en/latest/isatab.html
+  registry:
+    fairsharing: 53gp75
+- description: Plain-text tabular file format where each row is a record and fields are separated by commas; widely supported for exchanging simple tables
+  id: csv
+  name: CSV (Comma-Separated Values)
+  url: https://tools.ietf.org/html/rfc4180
+  registry:
+    fairsharing: 1943d4
