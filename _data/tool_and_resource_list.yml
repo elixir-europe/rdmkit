@@ -3449,11 +3449,6 @@
   id: tape
   name: Tool for Agroecology Performance Evaluation (TAPE)
   url: https://www.fao.org/agroecology/tools-tape
-- description: A FAIRSharing collection of standards, databases, and data resources used for agroecology data management, integration, sharing and analysis.
-  id: agroserv
-  name: AgroServ FAIRSharing collection
-  registry:
-    fairsharing-coll: f397c2
 - description: Crop Nutrient Data is a comprehensive database that provides information on the nutrient content of various crops.
   id: crop-nutrient-data
   name: Crop Nutrient Data
