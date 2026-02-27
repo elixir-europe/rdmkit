@@ -3445,10 +3445,6 @@
   id: agcros
   name: Agricultural Collaborative Research Outcomes System (AgCROS)
   url: https://agcros.org/
-- description: The European Plant Phenotyping Network (EPPN) is a collaborative initiative that focuses on advancing plant phenotyping research across Europe. It provides a platform for sharing data, methodologies, and resources to enhance our understanding of plant traits and their interactions with the environment.
-  id: eppn
-  name: European Plant Phenotyping Network (EPPN)
-  url: https://www.plant-phenotyping-network.eu/
 - description: The Tool for Agroecology Performance Evaluation (TAPE) is a software tool designed to assess and evaluate the performance of agroecological practices. It provides a framework for analyzing various aspects of agroecology, including environmental, economic, and social factors, to support sustainable agricultural practices.
   id: tape
   name: Tool for Agroecology Performance Evaluation (TAPE)
