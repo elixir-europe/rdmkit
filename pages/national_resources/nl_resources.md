@@ -41,7 +41,7 @@ national_resources:
       Your_tasks: [data_analysis, existing_data, storage]
     url: https://www.bbmri.nl    
   - name: cBioPortal for Cancer Genomics
-    description: cBioPortal provides a web-based resource for researchers to explore, visualize, analyze, and share multidimensional cancer genomic datasets, as well as other studies involving multidimensional genomic data.
+    description: cBioPortal provides a web-based resource for researchers to explore, visualise, analyse, and share multidimensional cancer genomic datasets, as well as other studies involving multidimensional genomic data.
     how_to_access: 
     instance_of: 
     related_pages:
@@ -121,7 +121,7 @@ national_resources:
       Your_tasks: [dmp, compliance, data_publication]
     url: https://fairaware.dans.knaw.nl  
 
-# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organisations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources:
   - fairsharing
   - molgenis

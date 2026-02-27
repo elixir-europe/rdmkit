@@ -16,10 +16,10 @@ dsw:
   uuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
 - name: Will you collect any data connected to a person, "personal data"?
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
-- name: How is pseudonymization handled?
+- name: How is pseudonymisation handled?
   uuid: 59748a7b-f729-404d-babe-3147e2c6b247
 - name: Could the coupling of data create a danger of re-identification of pseudo-
-    or anonymized personal data?
+    or anonymised personal data?
   uuid: 6b3d62a5-1d4d-49e1-aaf1-0a8b398a7ac3
 - name: Does this dataset contain personal data?
   uuid: a1d76760-053c-4706-80a2-cfb6c6a061f3
@@ -36,7 +36,7 @@ faircookbook:
 
 ### Description
 
-In general, data can be categorised into two types i.e. sensitive data and non-sensitive data. Non-sensitive data can be shared openly without a risk of any harm. The term sensitive data is used when making data publicly available could put people, organisations, countries, and/or ecosystems at risk - this could be for example, personal or commercial information, and it could also be information about habitat, geographical location, and breeding grounds of endangered/vulnerable species. Such data sensitivity must be protected against unauthorized access, and therefore one should be cautious when dealing with potentially sensitive or sensitive information. It is important to identify, at early stage of data management process, that at which point data becomes sensitive or what parts of (existing or newly generated) data are sensitive. What is considered sensitive information is usually regulated by national laws and may differ between countries, so it is important to take into consideration both global and local regulations and policies.
+In general, data can be categorised into two types i.e. sensitive data and non-sensitive data. Non-sensitive data can be shared openly without a risk of any harm. The term sensitive data is used when making data publicly available could put people, organisations, countries, and/or ecosystems at risk - this could be for example, personal or commercial information, and it could also be information about habitat, geographical location, and breeding grounds of endangered/vulnerable species. Such data sensitivity must be protected against unauthorised access, and therefore one should be cautious when dealing with potentially sensitive or sensitive information. It is important to identify, at early stage of data management process, that at which point data becomes sensitive or what parts of (existing or newly generated) data are sensitive. What is considered sensitive information is usually regulated by national laws and may differ between countries, so it is important to take into consideration both global and local regulations and policies.
 
 
 ### Considerations
@@ -61,20 +61,20 @@ In general, data can be categorised into two types i.e. sensitive data and non-s
 
 ### Description
 
-Data anonymization is the process of irreversibly modifying personal data in such a way that subjects cannot be identified directly or indirectly by anyone, including the study team. If data are anonymized, no one can link data back to the subject.
+Data anonymisation is the process of irreversibly modifying personal data in such a way that subjects cannot be identified directly or indirectly by anyone, including the study team. If data are anonymised, no one can link data back to the subject.
 
-Pseudonymization is a process where identifying-fields within data records are replaced by artificial identifiers called pseudonyms or pseudonymized IDs. Pseudonymization ensures no one can link data back to the subject, apart from nominated members of the study team who will be able to link pseudonyms to identifying records, such as name and address.
+Pseudonymisation is a process where identifying-fields within data records are replaced by artificial identifiers called pseudonyms or pseudonymised IDs. Pseudonymisation ensures no one can link data back to the subject, apart from nominated members of the study team who will be able to link pseudonyms to identifying records, such as name and address.
 
-Data anonymization involves modifying a dataset so that it is impossible to identify a subject from their data. Pseudonymization involves replacing identifying data with artificial IDs, for example, replacing a healthcare record ID with an internal participant ID only known to a named clinician working in the study.
+Data anonymisation involves modifying a dataset so that it is impossible to identify a subject from their data. Pseudonymisation involves replacing identifying data with artificial IDs, for example, replacing a healthcare record ID with an internal participant ID only known to a named clinician working in the study.
 
 ### Considerations
 
-Both anonymization and pseudonymization are approaches that comply with the GDPR.
+Both anonymisation and pseudonymisation are approaches that comply with the GDPR.
 Simply removing identifiers cannot guarantee data anonymity. A dataset may contain unique traits/patterns that could identify individuals. An example of this would be recording 2 potentially unrelated attributes such as the instance of a rare disease and country of residence, where there is only a single case of this disease in this country.
 Data that is anonymous currently may not be anonymous in the future. Future datasets on the same individual may disclose their identity.
 Anonymization techniques can sometimes damage the statistical properties of the data, for example, translating current participant age into an age range.
 
 ### Solutions
 
-An example of pseudonymization is where participants in a study are assigned a non-identifying ID and all identifying data (such as name and address) are removed from the metadata to be shared. The mapping of this ID to personal data is held separately and securely by a named researcher who will not share this data.
-There are well-established data anonymization approaches, such as k-anonymity, l-diversity, and differential privacy.
+An example of pseudonymisation is where participants in a study are assigned a non-identifying ID and all identifying data (such as name and address) are removed from the metadata to be shared. The mapping of this ID to personal data is held separately and securely by a named researcher who will not share this data.
+There are well-established data anonymisation approaches, such as k-anonymity, l-diversity, and differential privacy.

@@ -55,7 +55,7 @@ The nomenclature of an enzyme should follow the systematic classification and nu
 ## Data structure and exchange
  
 ### Description
-When sampling and collecting data for deposition, sharing, and exchanging, the data needs to be structured in a way that both the sender and the recipient of the data are enabled to directly integrate these into their workflow. When structuring data, usually ontologies and metadata catalogs provide a valuable means for the integration of controlled vocabularies, ontologies and additional information that enriches the experimental data. Structured data is required that follows community-based principles to increase the findability of the data on the web.
+When sampling and collecting data for deposition, sharing, and exchanging, the data needs to be structured in a way that both the sender and the recipient of the data are enabled to directly integrate these into their workflow. When structuring data, usually ontologies and metadata catalogues provide a valuable means for the integration of controlled vocabularies, ontologies and additional information that enriches the experimental data. Structured data is required that follows community-based principles to increase the findability of the data on the web.
 
 ### Considerations
 Before data can be sampled in a structured way, frameworks and tools are required to assist the researcher in compiling complete and high-quality datasets. Therefore, the major questions that address the requirement of standardised and structured data include:

@@ -22,7 +22,7 @@ training:
 
 ## What is XNAT-PIC?
 
-Preclinical imaging centers deal with many challenges mostly related to the variety of imaging instrumentation yielding huge volumes of raw data. The current procedures to collect, share and reuse preclinical image data are insufficient, thus revealing an urgent need of standardization in terms of data storage and image processing. **{% tool "xnat" %} for Preclinical Imaging Centers (XNAT-PIC)** has been developed to overcome this limitation by extending XNAT’s basic functionalities to meet the needs of preclinical imaging facilities.
+Preclinical imaging centers deal with many challenges mostly related to the variety of imaging instrumentation yielding huge volumes of raw data. The current procedures to collect, share and reuse preclinical image data are insufficient, thus revealing an urgent need of standardisation in terms of data storage and image processing. **{% tool "xnat" %} for Preclinical Imaging Centers (XNAT-PIC)** has been developed to overcome this limitation by extending XNAT’s basic functionalities to meet the needs of preclinical imaging facilities.
 
 **XNAT for Preclinical Imaging Centers (XNAT-PIC)** consists of a set of tools built in Python and MATLAB to [store](storage), [process](processing) and [share](sharing) preclinical imaging studies built on top of the {% tool "xnat" %} imaging informatics platform.
  
