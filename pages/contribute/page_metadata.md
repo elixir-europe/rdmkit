@@ -85,9 +85,9 @@ title: Title of the page
         url: https://doi.org/10.5281/zenodo.14843075
    ```
 
-* `faircookbook`: Here, all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week, the changes of this mapping file are used to update the frontmatter of the corresponding markdown files.
+* `faircookbook`: Here, all relevant FAIR Cookbook recipes are listed. This is automatically updated based on the [`faircookbook_rdmkit_mapping.yml`](https://github.com/elixir-europe/faircookbook-rdmkit/blob/main/faircookbook_rdmkit_mapping.yml) mapping file. If you want to make a new link, please make a pull request against this file. Every week, the changes to this mapping file are used to update the frontmatter of the corresponding markdown files.
 
-* `dsw`: Here, all relevant Data Stewardship Wizard questions in the Researcher knowledge model are listed. This is automatically updated and cannot be altered by humans. If you want to add a link, you have to add the link towards the RDMkit page in the knowledge model on DSW.
+* `dsw`: Here, all relevant Data Stewardship Wizard questions in the Common DSW Knowledge Model are listed. This is automatically updated and cannot be altered by humans. If you want to add a link, you have to add the link towards the RDMkit page in the knowledge model on DSW.
 
 * `fairsharing`: This attribute lists the FAIRsharing collection that is built based on the standards and databases that are listed on that page. This is automatically updated and cannot be altered by humans. If you want to add a resource to the collection, you have to add the resource to the page and link to the FAIRsharing identifier from the tool_and_resource_list.yml.
 
