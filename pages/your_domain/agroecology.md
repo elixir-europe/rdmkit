@@ -66,7 +66,7 @@ In agroecological research, documenting data and ensuring data interoperability 
 ### Solutions
 
 The following practices help improve interoperability and reuse of agro-ecology datasets across disciplines and infrastructures:
-* Adopt community metadata standards where possible, selecting those that best match your data types and community expectations. For example, guidance on recommended standards and how they map to common agroecology data types is collected via the {% tool "agroserv" %}, which links out to discipline- and technology-specific best practices.
+* Adopt community metadata standards where possible, selecting those that best match your data types and community expectations. For example, guidance on recommended standards and how they map to common agroecology data types is collected via the [AgroServ FAIRSharing collection](https://doi.org/10.25504/FAIRsharing.f397c2), which links out to discipline- and technology-specific best practices.
 * Use controlled vocabularies and ontologies to standardise terminology, especially for describing environments, experimental conditions, traits, organisms, and management variables. This improves consistency within a project and makes it easier to integrate datasets across studies and infrastructures. Useful resources include:
   * {% tool "agroportal" %}: a curated portal for agronomy and related domains (e.g., plant sciences, nutrition, biodiversity), supporting ontology search, browsing, and semantic annotation.
   * {% tool "the-environment-ontology" %}: a widely used ontology for environmental and habitat descriptors, often used to harmonise site and environmental context.
