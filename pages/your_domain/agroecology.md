@@ -8,10 +8,6 @@ related_pages:
   Your_tasks: [ metadata, data_quality, data_provenance, data_organisation, sensitive, gdpr_compliance, ethics ]
   Tool_assembly: []
 affiliations: [AgroServ]
-
-fairsharing:
-- name: AgroServ collection
-  url: https://fairsharing.org/FAIRsharing.f397c2
 tess: 
 - name: Visualize Climate data with Panoply netCDF viewer
   url: https://tess.elixir-europe.org/materials/hands-on-for-visualize-climate-data-with-panoply-netcdf-viewer-tutorial
