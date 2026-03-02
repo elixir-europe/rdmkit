@@ -7,7 +7,7 @@ page_id: agroecology
 related_pages: 
   Your_tasks: [ metadata, data_quality, data_provenance, data_organisation, sensitive, gdpr_compliance, ethics ]
   Tool_assembly: []
-affiliations: [agroserv]
+affiliations: [AgroServ]
 
 fairsharing:
 - name: AgroServ collection
