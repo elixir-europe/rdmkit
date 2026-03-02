@@ -199,7 +199,7 @@ Below you will find examples of README files for study-level and data-level. For
     - File formats: <Provide a list of all file formats present in this dataset>
 
     DATA COLLECTION
-    - Institutional catalog ID (if applicable):
+    - Institutional catalogue ID (if applicable):
     - Date of data collection: <provide single date, range, or approximate date; suggested format YYYY-MM-DD>
     - Link to electronic lab book (codebook) where the following is described (if it does not exist, include it here):
       - Methods used for data collection (including references, documentation (e.g. consent form template), links):

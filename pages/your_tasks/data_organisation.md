@@ -6,7 +6,7 @@ page_id: data_organisation
 related_pages: 
   Tool_assembly: [ome, transmed, xnat_pic]
 dsw:
-- name: How will you do file naming and file organization?
+- name: How will you do file naming and file organisation?
   uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
 - name: Are you using a filesystem with files and folders?
   uuid: a12aa967-28a5-4a9b-8df8-f7c533205ea4
@@ -43,7 +43,7 @@ Brief and descriptive file names are important in keeping your data files organi
 * Include a unique identifier (see: [Identifiers](identifiers))
 * Include a version number if appropriate: minimum two digits (V02) and extend it, if needed for minor corrections (V02-03). The leading zeros, will ensure the files are sorted correctly.
 * Write your file naming convention down and explain abbreviations in your data documentation.
-* If you need to rename a lot of files in order to organize your project data and manage your files better, it is possible to use applications like {% tool "bulk-rename-utility" %} (Windows, free) and {% tool "renamer4mac" %} (Mac).
+* If you need to rename a lot of files in order to organise your project data and manage your files better, it is possible to use applications like {% tool "bulk-rename-utility" %} (Windows, free) and {% tool "renamer4mac" %} (Mac).
 
 #### Example elements to include in the file name
 * Date of creation
@@ -75,7 +75,7 @@ When making a selection for an appropriate file format, you should consider the 
 - uncompressed;
 - unencrypted.
 
-It is important to differentiate between file formats intended for active phase (data acquisition, data reduction and primary data analysis) and those designed for long-term storage or reuse (sharing, publishing and archiving). For the latter purpose, we recommend utilizing file formats that adhere to open standards, have a broad acceptance, and are unlikely to become obsolete. In the active phase, it is fine to use proprietary device-specific file formats if needed. This is acceptable until you reach the phase of sharing the data for subsequent analysis, and for data validation or control with other team members. At this point, you need to convert (or export) the data for it be usable by members without access to proprietary software or instrumentation that generated it.
+It is important to differentiate between file formats intended for active phase (data acquisition, data reduction and primary data analysis) and those designed for long-term storage or reuse (sharing, publishing and archiving). For the latter purpose, we recommend utilising file formats that adhere to open standards, have a broad acceptance, and are unlikely to become obsolete. In the active phase, it is fine to use proprietary device-specific file formats if needed. This is acceptable until you reach the phase of sharing the data for subsequent analysis, and for data validation or control with other team members. At this point, you need to convert (or export) the data for it be usable by members without access to proprietary software or instrumentation that generated it.
 
 ### Solutions
 The best file formats depend on data types, availability and common acceptance of open file formats and research domain. There is no one size fits all solution. You need to choose the best for your case.
