@@ -11,6 +11,9 @@ affiliations: [AgroServ]
 tess: 
 - name: Visualize Climate data with Panoply netCDF viewer
   url: https://tess.elixir-europe.org/materials/hands-on-for-visualize-climate-data-with-panoply-netcdf-viewer-tutorial
+fairsharing:
+- name: Agroecology collection
+  url: https://fairsharing.org/7811
 ---
 
 ## Introduction
