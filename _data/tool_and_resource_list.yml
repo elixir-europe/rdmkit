@@ -3465,3 +3465,9 @@
   url: https://tools.ietf.org/html/rfc4180
   registry:
     fairsharing: 1943d4
+- description: LabID is a data managment solution for life-science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
+  id: labid
+  name: LabID (Lab Integrated Data)
+  url: https://grp-gbcs.embl-community.io/labid-user-docs/
+  registry:
+    biotools: labid
