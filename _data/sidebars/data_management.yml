@@ -29,6 +29,8 @@ subitems:
     url: /your_domain
     image_url: /assets/img/section-icons/dna.svg
     subitems:
+      - title: Agroecology
+        url: /agroecology
       - title: Biodiversity
         url: /biodiversity
       - title: Bioimaging data

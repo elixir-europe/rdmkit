@@ -175,6 +175,11 @@
 - name: EVORA
   image_url: /images/projects/evora.svg
   pid:
-  expose: yes
+  expose: no
   type: project
   url: https://evora-project.eu/
+- name: AgroServ
+  image_url: /images/projects/agroserv_project_logo.png
+  expose: no 
+  type: project
+  url: https://agroserv.eu/
