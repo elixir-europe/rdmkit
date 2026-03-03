@@ -1,10 +1,10 @@
 ---
 title: Data provenance
 description: How to record information about data provenance.
-contributors: [Flora D'Anna, Korbinian Bösl, Nazeefa Fatima]
+contributors: [Flora D'Anna, Korbinian Bösl, Nazeefa Fatima, Laurent Thomas]
 page_id: data_provenance
 related_pages: 
-  Tool_assembly: []
+  Tool_assembly: [ome, labid]
 training:
   - name:
     registry:
@@ -45,6 +45,6 @@ However, knowing what’s the best way to document provenance can be challenging
 - Implement serialisation specification of the [PROV-MODEL](https://www.w3.org/TR/prov-overview/) in your data management tools to record provenance in machine-actionable format (RDF, Linked data, owl, xml, etc.).
 - Use [RO-Crate specifications](https://www.researchobject.org/ro-crate/1.1/provenance.html) and/or specific profiles for provenance (e.g., [RO-Crate profiles to capture the provenance of workflow runs](https://www.researchobject.org/workflow-run-crate/)).
 - Make use of tools and software that help you record provenance in a manual or an automated way. Use:
-  - Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS) or similar tools.
+  - Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS) or similar tools (such as {% tool "labid" %}).
   - Workflow management systems (such as Kepler, {% tool "galaxy" %}, Taverna, VisTrails); provenance information embedded in such software or tools are usually available to users of the same tool or can be exported as separated file in several formats, such as {% tool "research-object-crate" %}.
   - Registries such as {% tool "workflowhub" %}.
