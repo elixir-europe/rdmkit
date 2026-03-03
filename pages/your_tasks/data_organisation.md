@@ -155,7 +155,7 @@ The top folder should have a README.txt file describing the folder structure and
 While there are software that help dealing with the data and associated metadata (typically some kind of database software). The actual choice of software often depends on your application.  
 Those software are often meant to be installed on a server, such that they are available for a full institute or research team.  
 Examples of such software include : 
-* {% tool "ome" %} suitable for microscopy and image-data management. It simplify organisation, browsing and visualisation of image datasets.    
-* {% tool "labid %} for life-science in general, it features an electronic lab notebook, extensive functionalities for data and metadata management, curation and provenance visualization.
+* {% tool "omero" %} suitable for microscopy and image-data management. It simplify organisation, browsing and visualisation of image datasets.    
+* {% tool "labid" %} for life-science in general, it features an electronic lab notebook, extensive functionalities for data and metadata management, curation and provenance visualization.
 
 
