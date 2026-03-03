@@ -16,10 +16,10 @@ dsw:
   uuid: 019db0b3-9067-4134-8bfd-76db3cfc572a
 - name: Will you collect any data connected to a person, "personal data"?
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac
-- name: How is pseudonymisation handled?
+- name: How is pseudonymization handled?
   uuid: 59748a7b-f729-404d-babe-3147e2c6b247
 - name: Could the coupling of data create a danger of re-identification of pseudo-
-    or anonymised personal data?
+    or anonymized personal data?
   uuid: 6b3d62a5-1d4d-49e1-aaf1-0a8b398a7ac3
 - name: Does this dataset contain personal data?
   uuid: a1d76760-053c-4706-80a2-cfb6c6a061f3

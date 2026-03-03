@@ -669,6 +669,7 @@
   registry:
     biotools: disgenet
     fairsharing: fssydn
+    tess: DisGeNET
   url: https://www.disgenet.org/
 - description: A database of intrinsically disordered proteins
   id: disprot
@@ -736,9 +737,8 @@
   id: e-dal-pgp
   name: Plant Genomics and Phenomics Research Data Repository
   registry:
-    fairsharing: rf3m4g
-    tess: e!DAL-PGP
     biotools: pgp
+    fairsharing: rf3m4g
   url: https://edal-pgp.ipk-gatersleben.de/
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
   id: ecotox
@@ -1498,6 +1498,8 @@
 - description: OMOP is a common data model for the harmonisation for of observational health data.
   id: omop-cdm
   name: OMOP-CDM
+  registry:
+    tess: OMOP-CDM
   url: https://ohdsi.github.io/CommonDataModel/
 - description: OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.
   id: onotomaton
@@ -1704,6 +1706,7 @@
   name: RD-Connect Genome Phenome Analysis Platform
   registry:
     biotools: rd-connect_platform
+    tess: RD-Connect Genome Phenome Analysis Platform
   url: https://platform.rd-connect.eu
 - description: Directory of standard metadata, divided into different research areas
   id: rda-standards
@@ -2595,6 +2598,8 @@
 - description: A standard used for health care data exchange.
   id: hl7-fhir
   name: HL7 FHIR
+  registry:
+    tess: HL7 FHIR
   url: https://www.hl7.org/fhir/
 - description: A minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research.
   id: vulcan
@@ -3245,6 +3250,7 @@
   id: bold
   name: Barcode of Life Data System (BOLD)
   registry:
+    biotools: bold
     fairsharing: en9npn
   url: https://www.boldsystems.org/
 - description: The Ocean Biodiversity Information System (OBIS) is a global data platform that provides access to marine biodiversity information to support research, conservation, and sustainable ocean management.
@@ -3446,22 +3452,26 @@
 - description: Crop Nutrient Data is a comprehensive database that provides information on the nutrient content of various crops.
   id: crop-nutrient-data
   name: Crop Nutrient Data
-  url: https://cropnutrientdata.net/ 
+  url: https://cropnutrientdata.net/
 - description: Machine-independent data model and file format for storing and sharing array-oriented scientific data with self-describing metadata
   id: netcdf
   name: NetCDF
-  url: https://www.unidata.ucar.edu/software/netcdf/
   registry:
+    biotools: netcdf
     fairsharing: 995b08
+    tess: NetCDF
+  url: https://www.unidata.ucar.edu/software/netcdf/
 - description: Tab-delimited (TSV) metadata format based on the ISA model to describe investigations, studies, and assays, capturing experimental design, sample metadata, protocols, and sample-to-data relationships
-  id: isa-tab 
+  id: isa-tab
   name: ISA-Tab
-  url: https://isa-specs.readthedocs.io/en/latest/isatab.html
   registry:
     fairsharing: 53gp75
+    tess: ISA-Tab
+  url: https://isa-specs.readthedocs.io/en/latest/isatab.html
 - description: Plain-text tabular file format where each row is a record and fields are separated by commas; widely supported for exchanging simple tables
   id: csv
   name: CSV (Comma-Separated Values)
-  url: https://tools.ietf.org/html/rfc4180
   registry:
     fairsharing: 1943d4
+    tess: CSV
+  url: https://tools.ietf.org/html/rfc4180
