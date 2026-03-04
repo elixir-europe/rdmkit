@@ -7,7 +7,7 @@ related_pages:
   Tool_assembly: [ome, transmed, xnat_pic, labid]
   Your_tasks: [data_provenance]
 dsw:
-- name: How will you do file naming and file organisation?
+- name: How will you do file naming and file organization?
   uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
 - name: Are you using a filesystem with files and folders?
   uuid: a12aa967-28a5-4a9b-8df8-f7c533205ea4
