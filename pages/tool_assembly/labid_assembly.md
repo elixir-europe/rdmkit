@@ -11,9 +11,9 @@ description: LabID is an all-in-one FAIR data management platform for life scien
 
 {% include image.html file="labid.png" caption="" alt="Logo of LabID" %}
 
-Lab Integrated Data ({% tool "labid" %}) is an open-source web-based platform for research data management in life science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
+{% tool "labid" %} is an open-source web-based platform for research data management in life science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
 LabID allows recording extensive experimental information about the provenance of data (samples, reagents, instrument, protocols, assay parameters) and is designed to help individual scientists, research groups and core facilities better manage, annotate and share their research according to FAIR principles. 
-LabID also features an electronic lab notebook, and a "workflow integration" to keep track of the execution of workflows such as Galaxy, Nextflow... It also facilitates workflow versioning, and publication by integrating with e.g {% tool "workflowhub" %} and {% tool "git" %} repositories.
+LabID also features an electronic lab notebook, and a "workflow integration" to keep track of the execution of workflows such as Galaxy or Nextflow. It also facilitates workflow versioning, and publication by integrating with e.g {% tool "workflowhub" %} and {% tool "git" %} repositories.
 Besides, LabID takes advantage of the Workflow RO-Crate and Workflow Run RO-Crate profiles to import workflows from WorkflowHub, and export workflows and workflow runs to other platforms.
 
 {% include image.html file="labid_overview.png" caption="Overview of LabID functionalities" alt="overview of LabID functionalities" %}

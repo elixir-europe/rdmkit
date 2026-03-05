@@ -156,6 +156,6 @@ While there are software that help dealing with the data and associated metadata
 Those software are often meant to be installed on a server, such that they are available for a full institute or research team.  
 Examples of such software include : 
 * {% tool "omero" %} suitable for microscopy and image-data management. It simplify organisation, browsing and visualisation of image datasets.    
-* {% tool "labid" %} for life-science in general, it features an electronic lab notebook, extensive functionalities for data and metadata management, curation and provenance visualization.
+* {% tool "labid" %} for life-science in general, it features an electronic lab notebook, extensive functionalities for data and metadata management, curation and provenance visualisation.
 
 
