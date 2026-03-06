@@ -3,6 +3,7 @@
 title: Luxembourg
 country_code: LU
 contributors: [Pinar Alper, Marina Popleteeva, Vilem Ded, Wei Gu]
+editors: [Bert Droesbeke, Marina Popleteeva]
 coordinators: [Wei Gu]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 

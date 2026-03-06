@@ -2,6 +2,7 @@
 title: Project data management coordination
 description: How to coordinate and organise data management activities in collaborative or multi-parter projects.
 contributors: [Robert Andrews, Stefanie Meyer, Tereza Motalova, Graham Parton, Marko Petek, Maja Zagorščak, Karolina Zavoralova, Karel Berka, Korbinian Bösl, Flora D'Anna, Niclas Jareborg, Yvonne Kallberg, Paulette Lieby]
+editors: [Flora D'Anna, Bert Droesbeke, Nazeefa Fatima, Munazah Andrabi]
 page_id: dm_coordination
 related_pages: 
   Tool_assembly: []

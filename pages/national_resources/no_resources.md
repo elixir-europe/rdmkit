@@ -3,6 +3,7 @@
 title: Norway
 country_code: "NO"
 contributors: [Nazeefa Fatima, Federico Bianchini, Korbinian Bösl, Erin Calhoun]
+editors: [Federico Bianchini, Korbinian Bösl, Nazeefa Fatima]
 coordinators: [Korbinian Bösl, Nazeefa Fatima]
 
 related_pages:

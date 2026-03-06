@@ -1,6 +1,7 @@
 ---
 title: Galaxy
 contributors: [Amandine Nunes-Jorge, Beatriz Serrano-Solano]
+editors: [Bert Droesbeke, Korbinian Bösl]
 description: Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational research.
 page_id: galaxy
 affiliations: [ELIXIR Europe, "European Union"]

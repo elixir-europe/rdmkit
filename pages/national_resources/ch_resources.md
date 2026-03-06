@@ -3,6 +3,7 @@
 title: Switzerland
 country_code: CH
 contributors: [Gregoire Rossier, Vassilios Ioannidis]
+editors: [Bert Droesbeke]
 coordinators: [Gregoire Rossier, Vassilios Ioannidis]
 
 related_pages:

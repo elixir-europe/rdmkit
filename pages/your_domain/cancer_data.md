@@ -2,6 +2,7 @@
 title: Cancer data
 description: Data management solutions for human cancer data
 contributors: [Fátima Al-Shahrour, Erika Schirghuber, Robin Navest, Eva Budinska, Gonzalo Gómez, María González, Fotis Psomopoulos, Sarah Morgan, Sophie Huiskes Berends]
+editors: [Bert Droesbeke, Federico Bianchini, Munazah Andrabi]
 page_id: cancer_data
 related_pages: 
   Your_tasks: [sensitive, gdpr_compliance,data_security]

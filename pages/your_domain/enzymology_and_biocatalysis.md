@@ -2,6 +2,7 @@
 title: Enzymology and biocatalysis
 description: Data management solutions for enzymology and biocatalysis data.
 contributors: [Carsten Kettner, Jürgen Pleiss, Johann Rohwer, Hans V. Westerhoff, Ulrike Wittig]
+editors: [Bert Droesbeke, Federico Bianchini, Gil Poiares-Oliveira, Ulrike Wittig]
 page_id: enzym_biocat
 related_pages: 
   Your_tasks: [data_publication, data_quality, metadata]

@@ -3,6 +3,7 @@
 title: Ireland
 country_code: IE
 contributors: [Siobhán Cleary]
+editors: [Nazeefa Fatima]
 coordinators: [Lars Jermiin, Siobhán Cleary]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id.

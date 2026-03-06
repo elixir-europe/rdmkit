@@ -3,6 +3,7 @@
 title: Netherlands
 country_code: NL
 contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft]
+editors: [Bert Droesbeke, Flora D'Anna]
 coordinators: [Mijke Jetten]
 
 training:
