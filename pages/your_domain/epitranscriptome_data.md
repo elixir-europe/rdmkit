@@ -2,6 +2,7 @@
 title: Epitranscriptome data
 description: Data management solutions for epitranscriptome data.
 contributors: [Ernesto Picardi, Laura Portell Silva]
+editors: [Bert Droesbeke]
 page_id: epitrans
 related_pages: 
   Your_tasks: []

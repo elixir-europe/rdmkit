@@ -3,6 +3,7 @@
 title: Belgium
 country_code: BE
 contributors: [Flora D'Anna]
+editors: [Bert Droesbeke, Flora D'Anna, Korbinian Bösl]
 coordinators: [Flora D'Anna]
 
 training:

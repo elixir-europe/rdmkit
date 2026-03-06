@@ -2,6 +2,7 @@
 title: Plant sciences
 description: Data management solutions for plant sciences data.
 contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erwan Le Floch, Daniel Faria, Timothé Cezard, Daniel Arend, Matthijs Brouwer, Manuel Feser]
+editors: [Bert Droesbeke, Federico Bianchini, Ulrike Wittig]
 page_id: plants
 related_pages: 
   Your_tasks: [metadata]

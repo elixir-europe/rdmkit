@@ -1,6 +1,7 @@
 ---
 title: Plant Genomics
 contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Daniel Faria, Paulette Lieby, Sebastian Beier, Erwan Le Floch]
+editors: [Korbinian Bösl]
 description: Tool assembly for managing plant genomic data.
 page_id: plant_geno_assembly
 affiliations:

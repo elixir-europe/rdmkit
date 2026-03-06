@@ -1,6 +1,7 @@
 ---
 title: Data analysis
 contributors: [Olivier Collin, Stian Soiland-Reyes, Michael R. Crusoe, Sven Twardziok]
+editors: [Flora D'Anna]
 description: How to make data analysis FAIR.
 page_id: data_analysis
 related_pages:

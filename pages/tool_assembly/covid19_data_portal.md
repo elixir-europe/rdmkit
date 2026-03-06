@@ -1,6 +1,7 @@
 ---
 title: COVID-19 Data Portal 
 contributors: [Guy Cochrane, Marianna Ventouratou, Nadim Rahman, Sam Holt]
+editors: [Bert Droesbeke]
 page_id: covid19_data_portal
 affiliations: [ELIXIR CONVERGE]
 related_pages:

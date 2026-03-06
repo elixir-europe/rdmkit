@@ -2,6 +2,7 @@
 title: Proteomics
 description: Data management solutions for proteomics data.
 contributors: [Michael Turewicz, Martin Eisenacher, Anika Frericks-Zipper, Ulrike Wittig, Dirk Winkelhardt]
+editors: [Bert Droesbeke, Korbinian Bösl]
 page_id: proteomics
 related_pages:
   Your_tasks: [metadata]
