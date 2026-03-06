@@ -3,6 +3,7 @@ title: Processing
 page_id: process
 description: Introduction to data processing.
 contributors: [Rob Hooft, Munazah Andrabi]
+editors: [Bert Droesbeke, Flora D'Anna]
 related_pages: 
   Your_tasks: [data_analysis, data_organisation, data_quality, data_provenance]
 training:

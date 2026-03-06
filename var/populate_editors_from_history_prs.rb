@@ -18,7 +18,8 @@ ELIGIBLE_ROOTS = [
   'pages/your_tasks',
   'pages/tool_assembly',
   'pages/national_resources',
-  'pages/your_role'
+  'pages/your_role',
+  'pages/data_life_cycle'
 ].freeze
 
 options = {
@@ -283,14 +284,14 @@ def write_summary(path, rows, options)
   lines << "- Repo: `#{options[:owner]}/#{options[:repo]}`"
   lines << "- Mode: #{options[:write] ? 'write' : 'dry-run'}"
   lines << ''
-  lines << '| Page | Chosen PR | Commit | Added Lines | Editors | Status |'
-  lines << '|---|---:|---|---:|---|---|'
+  lines << '| Page | Chosen PR | Commit | Added Lines | Editors | Status | Source |'
+  lines << '|---|---:|---|---:|---|---|---|'
 
   rows.each do |r|
     pr_col = r[:pr] ? "##{r[:pr]}" : ''
     commit_col = r[:sha] ? "`#{r[:sha][0, 7]}`" : ''
     editors_col = r[:editors].empty? ? '' : r[:editors].join(', ')
-    lines << "| #{r[:page]} | #{pr_col} | #{commit_col} | #{r[:additions] || ''} | #{editors_col} | #{r[:status]} |"
+    lines << "| #{r[:page]} | #{pr_col} | #{commit_col} | #{r[:additions] || ''} | #{editors_col} | #{r[:status]} | history |"
   end
 
   File.write(path, lines.join("\n") + "\n", mode: 'w', encoding: 'UTF-8')

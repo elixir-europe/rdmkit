@@ -8,16 +8,19 @@ require 'uri'
 require 'optparse'
 require 'set'
 require 'date'
+require 'time'
 
 NEWS_PATH = '_data/news.yml'
 CONTRIBUTORS_PATH = '_data/CONTRIBUTORS.yaml'
 PAGES_DIR = 'pages'
+DEFAULT_SUMMARY_PATH = 'var/editors_news_backfill_summary.md'
 
 options = {
   owner: 'elixir-europe',
   repo: 'rdmkit',
   write: false,
-  delay: 0.0
+  delay: 0.0,
+  summary: DEFAULT_SUMMARY_PATH
 }
 
 OptionParser.new do |opts|
@@ -26,6 +29,7 @@ OptionParser.new do |opts|
   opts.on('--repo REPO', 'GitHub repo (default: rdmkit)') { |v| options[:repo] = v }
   opts.on('--write', 'Write changes to files') { options[:write] = true }
   opts.on('--delay SECONDS', Float, 'Delay between paginated requests') { |v| options[:delay] = v }
+  opts.on('--summary PATH', 'Summary markdown output path') { |v| options[:summary] = v }
 end.parse!
 
 def github_get(owner, repo, path, params, token)
@@ -170,6 +174,26 @@ def resolve_page_file(slug)
   nil
 end
 
+def write_summary(path, rows, options)
+  lines = []
+  lines << '# Editors Backfill Summary (News-Based)'
+  lines << ''
+  lines << "- Generated: #{Time.now.utc.iso8601}"
+  lines << "- Repo: `#{options[:owner]}/#{options[:repo]}`"
+  lines << "- Mode: #{options[:write] ? 'write' : 'dry-run'}"
+  lines << ''
+  lines << '| Page | Chosen PR | Editors | Status | Source |'
+  lines << '|---|---:|---|---|---|'
+
+  rows.each do |r|
+    pr_col = r[:pr] ? "##{r[:pr]}" : ''
+    editors_col = r[:editors].empty? ? '' : r[:editors].join(', ')
+    lines << "| #{r[:page] || ''} | #{pr_col} | #{editors_col} | #{r[:status]} | news.yml |"
+  end
+
+  File.write(path, lines.join("\n") + "\n", mode: 'w', encoding: 'UTF-8')
+end
+
 news = YAML.safe_load(File.read(NEWS_PATH, encoding: 'UTF-8'), permitted_classes: [Date], aliases: true) || []
 contributors = YAML.safe_load(File.read(CONTRIBUTORS_PATH, encoding: 'UTF-8'), permitted_classes: [Date], aliases: true) || {}
 
@@ -211,6 +235,7 @@ end
 token = ENV['GITHUB_TOKEN'] || ENV['GH_TOKEN']
 changed = 0
 skipped = 0
+rows = []
 
 puts "Found #{targets.length} new-page news items."
 
@@ -218,6 +243,7 @@ targets.each do |target|
   page_file = resolve_page_file(target[:slug])
   if page_file.nil?
     skipped += 1
+    rows << { page: target[:slug], pr: target[:pr], editors: [], status: 'page_not_found' }
     puts "[skip] PR ##{target[:pr]}: could not resolve page slug '#{target[:slug]}'"
     next
   end
@@ -255,6 +281,7 @@ targets.each do |target|
 
     if matched.empty?
       skipped += 1
+      rows << { page: page_file, pr: target[:pr], editors: [], status: 'no_matching_editor' }
       puts "[skip] PR ##{target[:pr]} -> #{page_file}: no matching editors found"
       next
     end
@@ -270,12 +297,16 @@ targets.each do |target|
              end
 
     did_change = update_editors_line(page_file, merged, options[:write])
+    rows << { page: page_file, pr: target[:pr], editors: merged, status: (did_change ? 'updated' : 'unchanged') }
     puts "[#{did_change ? 'updated' : 'unchanged'}] PR ##{target[:pr]} -> #{page_file}: editors=#{merged.inspect}"
     changed += 1 if did_change
   rescue StandardError => e
     skipped += 1
+    rows << { page: page_file, pr: target[:pr], editors: [], status: "error: #{e.message.gsub('|', '/')}" }
     puts "[skip] PR ##{target[:pr]} (#{page_file}): #{e}"
   end
 end
 
+write_summary(options[:summary], rows, options)
+puts "Summary written to #{options[:summary]}"
 puts "Done. #{options[:write] ? 'Wrote' : 'Dry-run detected'} changes for #{changed} page(s); skipped #{skipped}."
