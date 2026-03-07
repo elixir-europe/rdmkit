@@ -277,6 +277,12 @@ def participants_for_pr(owner, repo, pr_number, token, delay, pr_participants_ca
 end
 
 def write_summary(path, rows, options)
+  page_to_url = lambda do |page|
+    return '' if page.to_s.strip.empty?
+    slug = File.basename(page.to_s, '.md')
+    "[#{page}](https://rdmkit.elixir-europe.org/#{slug})"
+  end
+
   lines = []
   lines << '# Editors Backfill Summary (History-Based)'
   lines << ''
@@ -284,14 +290,18 @@ def write_summary(path, rows, options)
   lines << "- Repo: `#{options[:owner]}/#{options[:repo]}`"
   lines << "- Mode: #{options[:write] ? 'write' : 'dry-run'}"
   lines << ''
-  lines << '| Page | Chosen PR | Commit | Added Lines | Editors | Status | Source |'
-  lines << '|---|---:|---|---:|---|---|---|'
+  lines << '| Page | Chosen PR | Editors |'
+  lines << '|---|---:|---|'
 
   rows.each do |r|
-    pr_col = r[:pr] ? "##{r[:pr]}" : ''
-    commit_col = r[:sha] ? "`#{r[:sha][0, 7]}`" : ''
+    page_col = page_to_url.call(r[:page] || '')
+    pr_col = if r[:pr]
+               "[##{r[:pr]}](https://github.com/#{options[:owner]}/#{options[:repo]}/pull/#{r[:pr]})"
+             else
+               ''
+             end
     editors_col = r[:editors].empty? ? '' : r[:editors].join(', ')
-    lines << "| #{r[:page]} | #{pr_col} | #{commit_col} | #{r[:additions] || ''} | #{editors_col} | #{r[:status]} | history |"
+    lines << "| #{page_col} | #{pr_col} | #{editors_col} |"
   end
 
   File.write(path, lines.join("\n") + "\n", mode: 'w', encoding: 'UTF-8')
