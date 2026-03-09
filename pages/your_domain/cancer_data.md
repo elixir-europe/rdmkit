@@ -114,7 +114,7 @@ Managing cancer data for diagnosing and determining the best treatment for local
 * Store raw sequencing and imaging data in cloud-based or institutional repositories (e.g. {% tool "the-european-genome-phenome-archive" %}, {% tool "dbgap" %}, {% tool "sequence-read-archive" %}, {% tool "tcia" %} for imaging) to allow reanalysis when new prognostic markers emerge.
 * Adopt federated learning approaches (e.g. {% tool "fega" %}, Federated EHR Learning Models) to enable collaborative research without transferring sensitive patient data.
 * Integrate AI-based imaging tools (e.g. {% tool "path-ai" %}, {% tool "qure-ai" %}, {% tool "paige-ai" %}) for radiology and pathology analysis to assist in detecting subtle cancer features and ensure adherence to standards (e.g. {% tool "dome" %}, {% tool "tripod" %}), avoiding biases in cancer diagnosis.
-* Data variables referred to cancer diagnosis  could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative] (https://zenodo.org/records/10784601).
+* Data variables referred to cancer diagnosis could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601).
 
 
 ## Cancer treatment
