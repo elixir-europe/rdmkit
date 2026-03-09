@@ -149,7 +149,7 @@ In order to obtain information about oncological clinical practice guidelines se
 
 To organise the multiple options for cancer treatment:
 
-* Data variables referred to the different options for cancer treatment from surgery to biological therapies  could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative] (https://zenodo.org/records/10784601).
+* Data variables referring to the different options for cancer treatment from surgery to biological therapies could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601).
   
 A more unified approach to cancer treatment data collection is crucial for improving outcome analysis and supporting all stakeholders. 
 To support this aim, several consortia and institutions provide annotated reference datasets with cancer treatment data:
