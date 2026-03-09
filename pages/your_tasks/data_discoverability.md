@@ -2,7 +2,7 @@
 title: Data discoverability
 description: How to make data discoverable
 contributors: [Aina Jené Cortada, Laura Portell Silva]
-editors: [Bert Droesbeke, Nazeefa Fatima]
+editors: [Bert Droesbeke, Nazeefa Fatima, Laura Portell Silva]
 page_id: data_discoverability
 faircookbook:
 - name: Depositing to generic repositories - Zenodo use case

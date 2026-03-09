@@ -1,7 +1,7 @@
 ---
 title: GDPR compliance
 contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jareborg, Laura Portell Silva]
-editors: [Bert Droesbeke, Federico Bianchini, Flora D'Anna]
+editors: [Bert Droesbeke, Federico Bianchini, Flora D'Anna, Rob Hooft]
 description: How to protect your research data, and how to make research data compliant to GDPR.
 page_id: gdpr_compliance
 related_pages: 

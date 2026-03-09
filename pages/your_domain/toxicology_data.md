@@ -2,7 +2,7 @@
 title: Toxicology data
 description: Data management solutions for toxicology data.
 contributors: [Manuel Pastor, Janet Piñero Gonzalez, Juan Manuel Ramírez-Anguita, Ferran Sanz, Miguel Angel Mayer, Laura Portell Silva]
-editors: [Bert Droesbeke, Flora D'Anna, Ulrike Wittig]
+editors: [Bert Droesbeke, Flora D'Anna, Ulrike Wittig, Laura Portell Silva]
 page_id: toxicology_data
 related_pages: 
   Your_tasks: [data_analysis]

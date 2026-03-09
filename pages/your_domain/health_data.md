@@ -2,7 +2,7 @@
 title: Health data
 description: Data management solutions for human health data.
 contributors: [Marcus Buchwald, Tim Beck, Saskia Lawson-Tovey, Gerhard Mayer, Soumyabrata Ghosh, Philip Quinlan, Venkata Satagopam, Jan Willem Boiten, Patrick Ruch, Hindrik Kerstens, Carlos Luís Parra Calderón, Salvador Capella-Gutierrez, Magda Chegkazi, Arshiya Merchant]
-editors: [Bert Droesbeke, Munazah Andrabi, Federico Bianchini]
+editors: [Bert Droesbeke, Munazah Andrabi, Federico Bianchini, Laura Portell Silva]
 page_id: health_data
 related_pages: 
   Your_tasks: [sensitive, gdpr_compliance]

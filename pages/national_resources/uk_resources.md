@@ -3,7 +3,7 @@
 title: United Kingdom
 country_code: GB
 contributors: [Munazah Andrabi, Robert Andrews, Nicola Soranzo, Kellie Snow, Sara Morsy, Branka Franicevic, Emma Karoune, Saskia Lawson-Tovey, Graham Parton]
-editors: [Bert Droesbeke, Munazah Andrabi]
+editors: [Bert Droesbeke, Munazah Andrabi, Laura Portell Silva]
 coordinators: [Robert Andrews, Munazah Andrabi]
 
 national_resources:

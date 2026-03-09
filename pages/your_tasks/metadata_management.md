@@ -1,7 +1,7 @@
 ---
 title: Documentation and metadata
 contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft, Elin Kronander, Marina Popleteeva, Gil Poiares-Oliveira]
-editors: [Flora D'Anna, Marina Popleteeva, Nazeefa Fatima]
+editors: [Flora D'Anna, Marina Popleteeva, Nazeefa Fatima, Niclas Jareborg]
 description: How to document and describe your data.
 page_id: metadata
 related_pages:

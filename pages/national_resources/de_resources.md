@@ -3,7 +3,7 @@
 title: Germany
 country_code: DE
 contributors: [Ulrike Wittig]
-editors: [Bert Droesbeke, Ulrike Wittig]
+editors: [Bert Droesbeke, Ulrike Wittig, Laura Portell Silva]
 coordinators: [Ulrike Wittig]
 
 training:
