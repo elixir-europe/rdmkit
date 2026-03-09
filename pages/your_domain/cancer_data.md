@@ -79,7 +79,7 @@ Data models fitted for cancer could be used to identify and map with standard re
 #### Secondary prevention data
 
 As there are no commonly accepted data collection standards currently, [EOSC4Cancer](https://eosc4cancer.eu/the-project/) developed a harmonised codebook for colorectal cancer screening (based on Dutch, Catalan, Italian and Czech screening codebooks), which could be used as a common basis to be extended to other cancer types.
-Data variables referred to pathological findings in early timepoints  could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative] (https://zenodo.org/records/10784601) considering the specific data domains.
+Data variables referred to pathological findings in early timepoints could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601), considering the specific data domains.
 
 ## Cancer diagnosis
 
