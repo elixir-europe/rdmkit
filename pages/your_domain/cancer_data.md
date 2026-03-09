@@ -43,7 +43,7 @@ Data models fitted for cancer could be used to identify and map with standard re
 Secondary prevention in cancer care focuses on early detection and intervention to identify cancer at an early stage when it is more treatable and potentially curable. Survival rate improvement in most major tumour types depends on early detection, which has prompted screening programs in many European countries. These programs produce highly relevant datasets for further (data-driven) research on early cancer diagnostics. This data typically consists of health and bioimaging data, such as mammograms, colonoscopies, or blood tests. Most of this data contains personal health information and must be managed in compliance with privacy regulations such as GDPR.
 
 Key challenges include integrating diverse datasets and ensuring data accuracy since the screening programs could be organised on national or regional level. Additionally, the risks and benefits of screening programs must be balanced.
-Data models fitted for cancer could be used to identify and map with standard reference vocabularies the concepts found in cancer registries with special focus on pathology reports on biological samples- 
+Data models fitted for cancer could be used to identify and map with standard reference vocabularies the concepts found in cancer registries, with a special focus on the pathology reports of biological samples. 
 
 
 ### Considerations 
