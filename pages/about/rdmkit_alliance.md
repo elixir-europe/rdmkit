@@ -1,6 +1,5 @@
 ---
 title: RDMkit Alliance
-editors: [Bert Droesbeke]
 ---
 
 The RDMkit is written by and for life scientists and data stewards to help them manage their research data in a way that aligns with the FAIR Principles. 
