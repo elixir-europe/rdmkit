@@ -1,6 +1,7 @@
 ---
 title: Licensing
 contributors: [Siiri Fuchs, Minna Ahokas, Nicola Soranzo, Rob Hooft]
+editors: [Flora D'Anna]
 description: How to license research data.
 page_id: licensing
 related_pages: 

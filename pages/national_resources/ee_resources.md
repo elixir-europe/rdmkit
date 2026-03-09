@@ -3,7 +3,7 @@
 title: Estonia
 country_code: EE
 contributors: [Heleri Inno, Diana Pilvar]
-editors: [Bert Droesbeke]
+editors: [Bert Droesbeke, Laura Portell Silva ]
 coordinators: [Heleri Inno]
 
 national_resources:
