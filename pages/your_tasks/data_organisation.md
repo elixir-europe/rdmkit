@@ -1,10 +1,11 @@
 ---
 title: Data organisation
-contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg, Ivan Mičetić, Marina Popleteeva, Naeem Muhammad]
+contributors: [Siiri Fuchs, Minna Ahokas, Yvonne Kallberg, Ivan Mičetić, Marina Popleteeva, Naeem Muhammad, Laurent Thomas]
 description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
-  Tool_assembly: [ome, transmed, xnat_pic]
+  Tool_assembly: [ome, transmed, xnat_pic, labid]
+  Your_tasks: [data_provenance]
 dsw:
 - name: How will you do file naming and file organization?
   uuid: 8e886b55-3287-48e7-b353-daf6ab40f7d8
@@ -149,3 +150,12 @@ The top folder should have a README.txt file describing the folder structure and
       README.txt            file and folder description  
 
 * Structured directories can be made by using {% tool "cookiecutter" %},a command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.
+
+## What software can I use for data organisation ?
+While there are software that help dealing with the data and associated metadata (typically some kind of database software). The actual choice of software often depends on your application.  
+Those software are often meant to be installed on a server, such that they are available for a full institute or research team.  
+Examples of such software include : 
+* {% tool "omero" %} suitable for microscopy and image-data management. It simplify organisation, browsing and visualisation of image datasets.    
+* {% tool "labid" %} for life-science in general, it features an electronic lab notebook, extensive functionalities for data and metadata management, curation and provenance visualisation.
+
+

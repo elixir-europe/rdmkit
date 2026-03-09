@@ -183,3 +183,9 @@
   expose: no 
   type: project
   url: https://agroserv.eu/
+- name: EMBL Heidelberg
+  type: institution
+  image_url: /images/institutions/EMBL_logo.svg
+  pid: https://ror.org/03mstc592
+  expose: yes
+  url: https://www.embl.org/
