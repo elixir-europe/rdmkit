@@ -21,7 +21,7 @@ Cancer is a heterogeneous disease that affects almost everyone: as a patient, su
 
 Each stage of the patient journey has different associated data types,  a number of  technical, ethical, legal and organisational challenges. In this page we focus on the management of human health data generated from patients diagnosed with both solid and liquid tumors (oncology or hematology). Data might be collected by a number of different means, e.g. from clinical trials and non-interventional studies (NIS) or real-world data (RWD) from observational studies (e.g. registries) or captured in electronic health record (EHR) hospital systems during primary care. 
 
-Reference to data models tailored for cancer and based on international projects would be an important aid in identifying essential variables and concept coding choices in huge data collections. Furthermore, transforming databases according to standardized formats is a crucial prerequisite to conducting multi-center studies.
+Reference to data models tailored for cancer and based on international projects is an important aid in identifying essential variables and concept coding choices in huge data collections. Furthermore, transforming databases according to standardised formats is a crucial prerequisite for conducting multi-centre studies.
 
 Efficient data management and interoperability are essential for ensuring timely and accurate diagnoses and treatment while maintaining compliance with ethical and regulatory standards. In the following sections we will address data management best practices, considerations and possible solutions for effective management of data in each stage (Figure1)  of the individual patient's journey.
 
@@ -35,12 +35,15 @@ Efficient data management and interoperability are essential for ensuring timely
 #### Primary prevention data
 
 Primary prevention in cancer care refers to strategies aimed at reducing the risk of developing cancer. Data from cancer registries (which includes spatial patterns of cancer incidence, as well as stage, survival and mortality) in combination with genetic predisposition and/or exposome data (including exposure to environmental factors and socio-economic characteristics) can be used to identify risk factors for developing cancer. These cancer registries are information systems designed for the collection, storage, and management of data on persons with cancer and play a critical role in cancer research, surveillance, cancer prevention and control interventions. Key challenges include heterogeneity in data collection and integrating diverse datasets from different sources, e.g. linkage of exposome data to the health data from cancer registries. 
+Data models fitted for cancer could be used to identify and map with standard reference vocabularies the concepts found in cancer registries.
+
 
 #### Secondary prevention data
 
 Secondary prevention in cancer care focuses on early detection and intervention to identify cancer at an early stage when it is more treatable and potentially curable. Survival rate improvement in most major tumour types depends on early detection, which has prompted screening programs in many European countries. These programs produce highly relevant datasets for further (data-driven) research on early cancer diagnostics. This data typically consists of health and bioimaging data, such as mammograms, colonoscopies, or blood tests. Most of this data contains personal health information and must be managed in compliance with privacy regulations such as GDPR.
 
 Key challenges include integrating diverse datasets and ensuring data accuracy since the screening programs could be organised on national or regional level. Additionally, the risks and benefits of screening programs must be balanced.
+Data models fitted for cancer could be used to identify and map with standard reference vocabularies the concepts found in cancer registries, with a special focus on the pathology reports of biological samples. 
 
 
 ### Considerations 
@@ -71,11 +74,12 @@ Key challenges include integrating diverse datasets and ensuring data accuracy s
 * Cancer registry data common rules and definitions used within Europe defined by the [European Network of Cancer Registries (ENCR)](https://www.encr.eu/ENCR-Recommendations).
 * Exposome data management recommendations under development by [Environmental Exposure Assessment Research Infrastructure (EIRENE-RI)](https://eirene.eu/).
 * Exposome (meta)data definitions used within Europe defined by Eurostat, [Euro SDMX Registry](https://webgate.ec.europa.eu/fusionregistry/).
+* Exposome variables, if collected on a patient level modality, could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601), considering the specific data domain.
 
 #### Secondary prevention data
 
 As there are no commonly accepted data collection standards currently, [EOSC4Cancer](https://eosc4cancer.eu/the-project/) developed a harmonised codebook for colorectal cancer screening (based on Dutch, Catalan, Italian and Czech screening codebooks), which could be used as a common basis to be extended to other cancer types.
-
+Data variables referred to pathological findings in early timepoints could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601), considering the specific data domains.
 
 ## Cancer diagnosis
 
@@ -110,6 +114,7 @@ Managing cancer data for diagnosing and determining the best treatment for local
 * Store raw sequencing and imaging data in cloud-based or institutional repositories (e.g. {% tool "the-european-genome-phenome-archive" %}, {% tool "dbgap" %}, {% tool "sequence-read-archive" %}, {% tool "tcia" %} for imaging) to allow reanalysis when new prognostic markers emerge.
 * Adopt federated learning approaches (e.g. {% tool "fega" %}, Federated EHR Learning Models) to enable collaborative research without transferring sensitive patient data.
 * Integrate AI-based imaging tools (e.g. {% tool "path-ai" %}, {% tool "qure-ai" %}, {% tool "paige-ai" %}) for radiology and pathology analysis to assist in detecting subtle cancer features and ensure adherence to standards (e.g. {% tool "dome" %}, {% tool "tripod" %}), avoiding biases in cancer diagnosis.
+* Data variables referred to cancer diagnosis could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601).
 
 
 ## Cancer treatment
@@ -141,7 +146,13 @@ In order to obtain information about oncological clinical practice guidelines se
   * [Clinical guidelines](https://ascopubs.org/guidelines)
 * [National Comprehensive Cancer Network (NCCN)](https://www.nccn.org/guidelines/category_1)
 
-A more unified approach to cancer treatment data collection is crucial for improving outcome analysis and supporting all stakeholders. To support this aim, several consortia and institutions provide annotated reference datasets with cancer treatment data:
+
+To organise the multiple options for cancer treatment:
+
+* Data variables referring to the different options for cancer treatment from surgery to biological therapies could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601).
+  
+A more unified approach to cancer treatment data collection is crucial for improving outcome analysis and supporting all stakeholders. 
+To support this aim, several consortia and institutions provide annotated reference datasets with cancer treatment data:
 
 #### Reference databases and platforms:
 
