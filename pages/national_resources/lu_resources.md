@@ -18,7 +18,7 @@ training:
     url: https://zenodo.org/communities/elixir-lu/
 
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organisations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
   -  fair-cookbook
   -  covid-19-disease-map
@@ -44,8 +44,9 @@ national_resources:
       Your_tasks: [dmp]
     url: https://dmponline.elixir-luxembourg.org/
 
-  - name: Luxembourg Covid-19 data portal
+  - name: Luxembourg COVID-19 Data Portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  
+    instance_of: covid-19-data-portal
     related_pages:
       Tool_assembly: [covid19_data_portal]
       Your_domain: [human data]

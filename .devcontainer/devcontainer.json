@@ -1,0 +1,4 @@
+{
+    "name": "RDMkit",
+    "image": "mcr.microsoft.com/vscode/devcontainers/jekyll:latest"
+}

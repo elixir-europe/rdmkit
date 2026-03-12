@@ -18,7 +18,7 @@ fairsharing:
 
 ## Introduction
 
-The proteomics domain deals with standard data formats, software tools and data repositories for mass spectrometry-based proteomics data. In proteomics, the relatively wide range of mass spectrometry technologies, devices, protocols, study designs and data analysis approaches poses a particular challenge for the standardized description and storage of data and associated metadata. This circumstance forced the proteomics community to deal with the complex definition of suitable standard data formats relatively early in its history. This encouraged, among other things, the development of software tools that can import and export results in standardized formats, and of data repositories in which proteomics data can be stored in a standardized way. The particular challenge for the proteomics community now is to evolve its achievements in data management to date towards a more complete fulfillment of FAIR research data management and to close the remaining gaps in this regard.
+The proteomics domain deals with standard data formats, software tools and data repositories for mass spectrometry-based proteomics data. In proteomics, the relatively wide range of mass spectrometry technologies, devices, protocols, study designs and data analysis approaches poses a particular challenge for the standardised description and storage of data and associated metadata. This circumstance forced the proteomics community to deal with the complex definition of suitable standard data formats relatively early in its history. This encouraged, among other things, the development of software tools that can import and export results in standardised formats, and of data repositories in which proteomics data can be stored in a standardised way. The particular challenge for the proteomics community now is to evolve its achievements in data management to date towards a more complete fulfillment of FAIR research data management and to close the remaining gaps in this regard.
 
 ## Standard data formats
 
@@ -27,7 +27,7 @@ To make proteomics data interoperable and reproducible from the first to the las
 
 ### Considerations
 
-For different proteomics experiments and different steps of the respective data analysis pipelines there are different kinds of data and metadata that should be recorded. Consequently, the main challenges for data and metadata standardization include:
+For different proteomics experiments and different steps of the respective data analysis pipelines there are different kinds of data and metadata that should be recorded. Consequently, the main challenges for data and metadata standardisation include:
 - What are the definitions of proteomics-specific terms that are needed to describe proteomics experiments?
 - Which is the minimal information that is needed to describe a proteomics experiment?
 - How should the data and metadata of proteomics raw data and peak lists be stored?
@@ -37,7 +37,7 @@ For different proteomics experiments and different steps of the respective data 
 
 
 ### Solutions
-The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ({% tool "proteomics-standards-initiative" %}), a proteomics community-driven organization, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
+The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ({% tool "proteomics-standards-initiative" %}), a proteomics community-driven organisation, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
 - Controlled vocabularies: PSI-MS, PSI-MI, XLMOD and sepCV, which are provided as OBO files.
 - The Minimum Information About a Proteomics Experiment ([MIAPE](https://psidev.info/miape)) guidelines document.
 - [mzML](https://www.psidev.info/mzML)  - a standard format for encoding raw mass spectrometer output.
@@ -88,6 +88,6 @@ In order to make proteomics data and results worldwide findable and accessible f
 
 - You can find an appropriate data repository via the website of the {% tool "proteomexchange" %} Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include {% tool "pride" %}, {% tool "peptideatlas" %}, {% tool "massive" %}, jPOST, iProx and PanoramaPublic.
 - Information on data uploads can be found on [ProteomeXchange submissions](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via the {% tool "pride-submission-tool" %}. There are data repository-specific requirements.
-- Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools and possible integration in more specialized knowledgebases like: {% tool "human-protein-atlas" %}, {% tool "macpepdb" %}, {% tool "string" %}, {% tool "unimod" %}, {% tool "interpro" %}, {% tool "uniprot" %} or {% tool "cath" %}
+- Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools and possible integration in more specialised knowledgebases like: {% tool "human-protein-atlas" %}, {% tool "macpepdb" %}, {% tool "string" %}, {% tool "unimod" %}, {% tool "interpro" %}, {% tool "uniprot" %} or {% tool "cath" %}
 - You can increase transparency and reproducibility of the mass spectrometry-based proteomics data by providing sample and data relationship file ({% tool "sdrf" %}) along with submission to data repository (e.g. ProteomeXchange).
 

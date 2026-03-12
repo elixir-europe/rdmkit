@@ -57,6 +57,7 @@ national_resources:
       Your_domain: [human_data]
       Your_tasks: [sensitive, existing_data, data_publication]
     url: https://pathogens.se/ 
+    instance_of: pathogens-portal
   - name: NAISS 
     description: The National Academic Infrastructure for Super­computing in Sweden (NAISS) is a national research infrastructure that makes available large-scale high-performance computing resources, storage capacity, and advanced user support, for Swedish research.
     how_to_access: An application is required to gain access to the compute and storage services.

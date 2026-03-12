@@ -100,7 +100,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Description
 
-There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
+There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "edam" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
 
 
 ### Considerations
@@ -199,7 +199,7 @@ Below you will find examples of README files for study-level and data-level. For
     - File formats: <Provide a list of all file formats present in this dataset>
 
     DATA COLLECTION
-    - Institutional catalog ID (if applicable):
+    - Institutional catalogue ID (if applicable):
     - Date of data collection: <provide single date, range, or approximate date; suggested format YYYY-MM-DD>
     - Link to electronic lab book (codebook) where the following is described (if it does not exist, include it here):
       - Methods used for data collection (including references, documentation (e.g. consent form template), links):

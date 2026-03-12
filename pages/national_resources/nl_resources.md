@@ -41,7 +41,7 @@ national_resources:
       Your_tasks: [data_analysis, existing_data, storage]
     url: https://www.bbmri.nl    
   - name: cBioPortal for Cancer Genomics
-    description: cBioPortal provides a web-based resource for researchers to explore, visualize, analyze, and share multidimensional cancer genomic datasets, as well as other studies involving multidimensional genomic data.
+    description: cBioPortal provides a web-based resource for researchers to explore, visualise, analyse, and share multidimensional cancer genomic datasets, as well as other studies involving multidimensional genomic data.
     how_to_access: 
     instance_of: 
     related_pages:
@@ -121,7 +121,7 @@ national_resources:
       Your_tasks: [dmp, compliance, data_publication]
     url: https://fairaware.dans.knaw.nl  
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organisations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources:
   - fairsharing
   - molgenis
@@ -156,7 +156,7 @@ The following national services provide useful information and support:
 * [DANS](https://dans.knaw.nl/en/), the Dutch national centre of expertise and repository for research data
 * [4TU.ResearchData](https://data.4tu.nl/info/en/), the Dutch national data repository for science, engineering and design 
 * [Netherlands eScience Center](https://www.esciencecenter.nl/) (NleSC), building and applying software to enhance the use of computing and digital technologies in academic research
-* [Research Data Netherlands](https://researchdata.nl/en/) (RDNL), collaboration of SURF, 4TU.ResearchData, DANS and DTL to contribute to strengthening the National Programme Open Science, and helping create a FAIR research ecosystem across science fields, and its [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) Training 
+* [Research Data Netherlands](https://researchdata.nl/en/) (RDNL), collaboration of SURF, 4TU.ResearchData, DANS and DTL to contribute to strengthening the National Programme Open Science, and helping create a FAIR research ecosystem across science fields, and its [Essentials 4 Data Support](https://researchdata.nl/en/essentials-4-data-support/) Training 
 * The [DTL Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/) (DSIG), the Dutch (and beyond) community hub for data stewardship that enables informal and inclusive knowledge and experience exchange
 * [NL-RSE](https://nl-rse.org/), the Dutch community of people writing and contributing to research software
 * The Dutch [Open Science Communities](https://www.osc-nl.com/) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science
