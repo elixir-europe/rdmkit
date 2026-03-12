@@ -1,7 +1,7 @@
 ---
 title: Agroecology
 description: Data management solutions for agroecology life science research
-contributors: [Niels Geudens, Flora D'Anna, Breza Witmond, Rafael Abbeloos]
+contributors: [Niels Geudens, Flora D'Anna, Breza Witmond, Rafael Abbeloos, Marco Brandizi, Keywan Hassani-Pak, Arne de Klerk]
 editors: [Bert Droesbeke, Federico Bianchini]
 page_id: agroecology
 related_pages: 
@@ -22,7 +22,7 @@ Agroecology is a transdisciplinary field that integrates principles from agricul
 
 Agroecological research generates diverse and complex datasets, spanning field observations, soil and plant analysis, remote sensing, genomic studies, and environmental monitoring. Effective Research Data Management (RDM) is essential to ensure that these datasets remain accessible, interoperable, and reusable, facilitating collaboration across disciplines and institutions.
 
-This page focuses on RDM best practices for the life science aspects of agroecology and supports alignment with the FAIR principles (Findable, Accessible, Interoperable, Reusable). Given the breadth of agroecology, readers may also find relevant RDM guidance in existing RDMkit domain pages, in particular [Your Domain - Biodiversity](biodiversity) and [Your Domain - Plant Sciences](plants), which cover overlapping data types, standards, and workflows commonly encountered in agroecological research. Topics related to social and economic sciences are outside the scope of this page but are acknowledged as complementary aspects of agroecology research.
+This page focuses on RDM best practices for the life science aspects of agroecology and supports alignment with the FAIR principles (Findable, Accessible, Interoperable, Reusable). Given the breadth of agroecology, readers may also find relevant RDM guidance in existing RDMkit domain pages, in particular [Your Domain - Biodiversity](biodiversity) and [Your Domain - Plant Sciences](plant_sciences), which cover overlapping data types, standards, and workflows commonly encountered in agroecological research. Topics related to social and economic sciences are outside the scope of this page but are acknowledged as complementary aspects of agroecology research.
 
 ## Data collection
  
@@ -59,7 +59,7 @@ In agroecological research, documenting data and ensuring data interoperability 
 ### Considerations
 
 * What metadata standards are most relevant for the type of agroecological data you collect (e.g. genomic, environmental, geospatial)?
-* How can you ensured consistent data documentation across multidisciplinary research teams?
+* How can you ensure consistent data documentation across multidisciplinary research teams?
 * What controlled vocabularies and ontologies should you use to enhance data interoperability?
 * Which data formats best support long-term preservation and reusability?
 
@@ -67,7 +67,12 @@ In agroecological research, documenting data and ensuring data interoperability 
 
 The following practices help improve interoperability and reuse of agro-ecology datasets across disciplines and infrastructures:
 * Adopt community metadata standards where possible, selecting those that best match your data types and community expectations. For example, guidance on recommended standards and how they map to common agroecology data types is collected via the [AgroServ FAIRSharing collection](https://doi.org/10.25504/FAIRsharing.f397c2), which links out to discipline- and technology-specific best practices.
+* Use **AgriSchemas** to implement a lightweight, low-formal schematisation approach. Unlike complex OWL-based ontologies, AgriSchemas extends **schema.org** and **Bioschemas** to provide a pragmatic "farm-to-fork" pathway for sharing large, semi-structured datasets.
+* Leverage the successful mapping of **MIAPPE** (Minimum Information About a Plant Phenotyping Experiment) to AgriSchemas. This allows researchers to bridge the gap between genomic data and phenotypic observations, such as investigating gene function based on expression measured in field trials.
 * Use controlled vocabularies and ontologies to standardise terminology, especially for describing environments, experimental conditions, traits, organisms, and management variables. This improves consistency within a project and makes it easier to integrate datasets across studies and infrastructures. Useful resources include:
+
+  * {% tool "knetminer" %}: A knowledge discovery platform that integrates diverse biological datasets into searchable knowledge graphs, supporting AgriSchemas and enabling exploratory research through APIs, graph queries, and interactive analysis.
+  * [AgriSchemas GitHub](https://github.com/Rothamsted/agri-schemas): Provides open-source ETL utilities and data conversion pipelines to transform raw data into compliant RDF and Neo4j datasets.
   * {% tool "agroportal" %}: a curated portal for agronomy and related domains (e.g., plant sciences, nutrition, biodiversity), supporting ontology search, browsing, and semantic annotation.
   * {% tool "the-environment-ontology" %}: a widely used ontology for environmental and habitat descriptors, often used to harmonise site and environmental context.
   * {% tool "crop-ontology" %}: provides standardised trait and variable descriptions for crops, commonly used in plant breeding and phenotyping contexts.
@@ -98,6 +103,8 @@ Agroecology datasets are often valuable beyond the original study, for example f
 ### Solutions
 The following practices help agroecology datasets become discoverable, citable, and reusable:
 * Publish data in a suitable repository or platform, prioritising disciplinary services where possible, and ensuring long-term availability. The following repositories and data networks provide open-access platforms that support collaboration, standardization, and FAIR data practices across multiple scientific domains:
+   * [KnetMiner SPARQL Endpoint](https://sparql-dev.knetminer.com/sparql): Maintains a showcase data endpoint allowing researchers to use the **SPARQL graph query language** to answer complex, multi-domain questions across previously siloed sources like ENSEMBL and PubMed.
+   * [knetgraph-gene-traits](https://github.com/Rothamsted/knetgraphs-gene-traits): A proof-of-concept project demonstrating how standardized knowledge graphs enable flexible analytical approaches like Gene Set Enrichment Analysis (GSEA).
    * {% tool "gbif" %}: GBIF is a biodiversity data repository, providing open access to species occurrence records, ecological datasets, and conservation-relevant information. By publishing and integrating biodiversity data in GBIF, researchers contribute to global biodiversity assessments and ecological research.
    * {% tool "agrodatacube" %}: This platform aggregates spatial agricultural datasets, combining open and derived data to support precision agriculture and agri-food applications. Researchers can use AgroDataCube to analyze spatial patterns in farming, climate interactions, and land use.
    * {% tool "agcros" %}: AgCROS fosters data collaboration in agriculture, allowing researchers to share, compare, and integrate datasets to enhance agricultural productivity, sustainability, and resilience. The platform supports open-access data integration across different agroecological domains.
@@ -110,5 +117,7 @@ The following practices help agroecology datasets become discoverable, citable, 
 * Ensure datasets are citable, for example by assigning a persistent identifier (e.g. DOI) and providing a recommended citation. More information is available at [Your Task - Identifiers](identifiers).
 * Choose a clear licence to remove ambiguity for reusers and to support responsible reuse. More information is available at [Your Task - Licensing](licensing).
 * Manage sensitive data responsibly, especially where sharing could expose precise farm locations or commercially sensitive management records. More information is available at [Your Task - Data sentivity](sensitive), [Your Task - Ethical Aspects](ethics), [Your Task - GDPR compliance](gdpr_compliance) and [Your Task - Data Security](security).
+* Ensure environmental context is preserved by following the [FAIRAgro](https://fairagro.net/en/) collaboration models, which focus on capturing complex field trial variables such as soil descriptions.
+* Prepare data for **Generative AI Integration**. Structuring data with AgriSchemas allows for the development of agentic AI systems that ease knowledge discovery through natural language interfaces.
 
 
