@@ -3,6 +3,7 @@ title: Planning
 page_id: plan
 description: Introduction to data management planning.
 contributors: [Siiri Fuchs, Korbinian Bösl, Minna Ahokas, Federico Bianchini, Flora D'Anna]
+editors: [Bert Droesbeke, Flora D'Anna]
 related_pages: 
   Your_tasks: [compliance, costs, dmp, data_security, dm_coordination, machine_actionability, creating_dataflow_diagram]
 training:

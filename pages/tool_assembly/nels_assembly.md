@@ -1,6 +1,7 @@
 ---
 title: NeLS
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
+editors: [Bert Droesbeke, Flora D'Anna, Ulrike Wittig]
 description: NeLS provides the necessary tools for data management to researchers in Norway and their collaborators.
 page_id: nels
 affiliations: ["ELIXIR Europe", "NO"]

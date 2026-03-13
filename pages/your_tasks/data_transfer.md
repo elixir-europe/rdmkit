@@ -1,6 +1,7 @@
 ---
 title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi, Marina Popleteeva, Nazeefa Fatima]
+editors: [Flora D'Anna]
 description: How to transfer data files.
 page_id: transfer
 related_pages: 

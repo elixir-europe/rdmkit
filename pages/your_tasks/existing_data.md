@@ -1,6 +1,7 @@
 ---
 title: Existing data
 contributors: [Rob Hooft, Flora D'Anna, Pinar Alper, Yvonne Kallberg, Karel Berka, Marko Vidak, Olivier Collin, Ulrike Wittig]
+editors: [Bert Droesbeke]
 page_id: existing_data
 related_pages:
     Tool_assembly: []

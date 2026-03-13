@@ -4,6 +4,7 @@ title: Slovenia
 country_code: SI
 description: This page provides a general overview of national resources on Research Data Management (RDM) in Slovenia.
 contributors: [Brane Leskošek, Marko Vidak, Nadja Žlender, Polonca Ferk]
+editors: [Bert Droesbeke, Nazeefa Fatima]
 coordinators: [Brane Leskošek, Marko Vidak, Nadja Žlender]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id.

@@ -1,6 +1,7 @@
 ---
 title: Ethical aspects
 contributors: [Karel Berka , Erin Calhoun, Paulette Lieby, Anamika Chatterjee, Korbinian Bösl]
+editors: [Korbinian Bösl, Bert Droesbeke, Nazeefa Fatima]
 description: Working on aspects in the management of research data that can raise ethical issues
 page_id: ethics
 related_pages:

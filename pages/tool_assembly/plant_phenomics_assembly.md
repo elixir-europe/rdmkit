@@ -1,6 +1,7 @@
 ---
 title: Plant Phenomics
 contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Bert Droesbeke, Matthias Lange, Daniel Arend, Daniel Faria, Isabelle Alic, Philippe Rocca-Serra, Sebastian Beier, Erwan Le Floch]
+editors: [Bert Droesbeke, Korbinian Bösl]
 description: Tool assembly for managing plant phenomic data.
 page_id: plant_pheno_assembly
 affiliations:
