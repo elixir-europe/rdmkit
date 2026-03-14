@@ -183,3 +183,9 @@
   expose: no 
   type: project
   url: https://agroserv.eu/
+- name: University of Tartu
+  image_url: /images/institutions/university_of_tartu.svg
+  pid: https://ror.org/03z77qz90
+  expose: true
+  type: institution
+  url: https://ut.ee/
