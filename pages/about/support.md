@@ -20,7 +20,7 @@ We thank these projects for their efforts:
 
 We thank these collaborators for their efforts:
 
-{% include affiliation-tiles-selection.html type="Collaborator" %}
+{% include affiliation-tiles-selection.html type="collaborator" %}
 
 ## Funders
 
