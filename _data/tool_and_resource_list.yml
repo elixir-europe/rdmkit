@@ -328,6 +328,7 @@
   id: bioschemas
   name: Bioschemas
   registry:
+    biotools: bioschemas
     fairsharing: f3a3ca
     tess: Bioschemas
   url: https://bioschemas.org
@@ -1832,6 +1833,7 @@
   id: schema-org
   name: Schema.org
   registry:
+    biotools: schema.org
     fairsharing: hzdzq8
     tess: Schema.org
   url: https://schema.org
