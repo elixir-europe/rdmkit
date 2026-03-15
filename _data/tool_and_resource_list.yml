@@ -3496,7 +3496,7 @@
   name:  Minimum Information About a Proteomics Experiment (MIAPE)
   registry:
     fairsharing: 8vv5fc
-- description: mzML was formed to amalgamate two formats for encoding raw spectrometer data; mzData developed by the PSI, and, mzXML developed at the Seattle Proteome Center at the Institute for Systems Biology.
+- description: mzML was formed to amalgamate two formats for encoding raw spectrometer data; mzData, developed by the PSI, and mzXML, developed at the Seattle Proteome Center at the Institute for Systems Biology.
   id: mzml
   name: mz Markup Language (mzML)
   registry:
@@ -3511,3 +3511,22 @@
   name:  mzTab
   registry:
     fairsharing: c12tyk
+- description: jPOSTrepo (Japan ProteOme STandard Repository) is a data repository for sharing MS raw/processed data.
+  id: jpostrepo
+  name: Japan Proteome Standard Repository (jPOSTrepo)
+  registry: 
+    fairsharing: p899f7
+  url: https://repository.jpostdb.org/
+- description: iProX is a public platform for collecting and sharing raw data, analysis results and metadata obtained from proteomics experiments.
+  id: iprox
+  name: iProX
+  registry:
+    fairsharing: 4Sj3vE
+  url: https://www.iprox.org/
+- description: Panorama Public is a data repository for sharing and disseminating results from analysing mass spectrometry data with the Skyline software, supporting targeted analysis of proteomics or metabolomics data from a variety of mass spectrometry data acquisition techniques.
+  id: panoramapublic
+  name: Panorama Public
+  registry:
+    fairsharing: uBpQ1q
+  url: https://panoramaweb.org/home/project-begin.view 
+  
