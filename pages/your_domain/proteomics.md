@@ -48,7 +48,7 @@ For different proteomics experiments and different steps of the respective data 
 ## Processing and analysis of proteomics data
 
 ### Description
-For all steps within a FAIR proteomics data analysis pipeline, software is needed that imports standard data formats and exports standard data formats including all needed results and metadata.
+For all steps within a FAIR proteomics data analysis pipeline, software is needed that imports standard data formats and exports standard data formats, including all needed results and metadata.
 
 ### Considerations
 - Can your proteomics raw data recorded by a mass spectrometer be stored as an mzML file?
@@ -58,8 +58,8 @@ For all steps within a FAIR proteomics data analysis pipeline, software is neede
 
 
 ### Solutions
-- Within the proteomics community various converter software tools such as {% tool "msconvert" %} were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
-- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML) , [mzIdentML](https://www.psidev.info/mzidentml) and [mzTab](https://www.psidev.info/mztab) ). The following list shows just a few tools using standard data formats as input and/or output: 
+- Within the proteomics community, various converter software tools such as {% tool "msconvert" %} were implemented, which support the conversion of mass spectrometer output formats to the mzML standard data format as well as other conversions to standard data formats.
+- Information on software tools that support HUPO-PSI data formats can be found on the standard format-specific web pages of the HUPO-PSI (e.g., [mzML](https://www.psidev.info/mzML), [mzIdentML](https://www.psidev.info/mzidentml) and [mzTab](https://www.psidev.info/mztab) ). The following list shows just a few tools using standard data formats as input and/or output: 
   * {% tool "comet" %}
   * {% tool "mascot" %}
   * {% tool "openms" %}
@@ -80,13 +80,13 @@ In order to make proteomics data and results worldwide findable and accessible f
 - What are the requirements for my data to be uploaded into a proteomics data repository?
 - What are the advantages of uploading data into proteomics data repositories?
 - How can public proteomics data be used by other researchers?
-- How can I increase transparency and reproducibility of my shared data?
+- How can I increase the transparency and reproducibility of my shared data?
 
 
 ### Solution
 
-- You can find an appropriate data repository via the website of the {% tool "proteomexchange" %} Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include {% tool "pride" %}, {% tool "peptideatlas" %}, {% tool "massive" %}, jPOST, iProx and PanoramaPublic.
+- You can find an appropriate data repository via the website of the {% tool "proteomexchange" %} Consortium. ProteomeXchange was established to provide globally coordinated standard data submission and dissemination pipelines involving the main proteomics repositories, and to encourage open data policies in the field. Currently, member repositories include {% tool "pride" %}, {% tool "peptideatlas" %}, {% tool "massive" %}, {% tool "jpostrepo" %}, {% tool "iprox" %}, and {% tool "panoramapublic" %}.
 - Information on data uploads can be found on [ProteomeXchange submissions](http://www.proteomexchange.org/submission) or on the websites of the particular data repositories. E.g. PRIDE uploads are conducted via the {% tool "pride-submission-tool" %}. There are data repository-specific requirements.
-- Advantages of data publication: fulfillment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools and possible integration in more specialised knowledgebases like: {% tool "human-protein-atlas" %}, {% tool "macpepdb" %}, {% tool "string" %}, {% tool "unimod" %}, {% tool "interpro" %}, {% tool "uniprot" %} or {% tool "cath" %}
+- Advantages of data publication: fulfilment of journal requirements, higher visibility of research, free storage, worldwide accessibility, basic re-analysis by repository-associated tools and possible integration in more specialised knowledgebases like: {% tool "human-protein-atlas" %}, {% tool "macpepdb" %}, {% tool "string" %}, {% tool "unimod" %}, {% tool "interpro" %}, {% tool "uniprot" %} or {% tool "cath" %}
 - You can increase transparency and reproducibility of the mass spectrometry-based proteomics data by providing sample and data relationship file ({% tool "sdrf" %}) along with submission to data repository (e.g. ProteomeXchange).
 
