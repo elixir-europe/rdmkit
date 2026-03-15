@@ -24,7 +24,7 @@ The proteomics domain deals with standard data formats, software tools and data 
 ## Standard data formats
 
 ### Description
-To make proteomics data interoperable and reproducible from the first to the last mile of proteomics data analysis pipelines, comprehensive metadata accompanying the data is needed. The crucial metadata includes information on study design, proteomics technology, lab protocol, device, device settings and software settings. All of them have an enormous impact on the resulting data. Thus, to enable data reusability in proteomics appropriate standard data formats are needed.
+To make proteomics data interoperable and reproducible from the first to the last mile of proteomics data analysis pipelines, comprehensive metadata accompanying the data is needed. The crucial metadata includes information on study design, proteomics technology, lab protocol, device, device settings and software settings. All of them have an enormous impact on the resulting data. Thus, to enable data reusability in proteomics, appropriate standard data formats are needed.
 
 ### Considerations
 
@@ -38,7 +38,7 @@ For different proteomics experiments and different steps of the respective data 
 
 
 ### Solutions
-The Human Proteome Organisation (HUPO) Proteomics Standards Initiative ({% tool "proteomics-standards-initiative" %}), a proteomics community-driven organisation, provides several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
+{% tool "proteomics-standards-initiative" %} is a proteomics community-driven organisation providing several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
 - Controlled vocabularies: PSI-MS, PSI-MI, XLMOD and sepCV, which are provided as OBO files.
 - The Minimum Information About a Proteomics Experiment ([MIAPE](https://psidev.info/miape)) guidelines document.
 - [mzML](https://www.psidev.info/mzML)  - a standard format for encoding raw mass spectrometer output.
