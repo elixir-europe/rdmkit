@@ -19,7 +19,7 @@ fairsharing:
 
 ## Introduction
 
-The proteomics domain deals with standard data formats, software tools and data repositories for mass spectrometry-based proteomics data. In proteomics, the relatively wide range of mass spectrometry technologies, devices, protocols, study designs and data analysis approaches poses a particular challenge for the standardised description and storage of data and associated metadata. This circumstance forced the proteomics community to deal with the complex definition of suitable standard data formats relatively early in its history. This encouraged, among other things, the development of software tools that can import and export results in standardised formats, and of data repositories in which proteomics data can be stored in a standardised way. The particular challenge for the proteomics community now is to evolve its achievements in data management to date towards a more complete fulfillment of FAIR research data management and to close the remaining gaps in this regard.
+The proteomics domain deals with standard data formats, software tools and data repositories for mass spectrometry-based proteomics data. In proteomics, the relatively wide range of mass spectrometry technologies, devices, protocols, study designs and data analysis approaches poses a particular challenge for the standardised description and storage of data and associated metadata. This circumstance forced the proteomics community to deal with the complex definition of suitable standard data formats relatively early in its history. This encouraged, among other things, the development of software tools that can import and export results in standardised formats, and of data repositories in which proteomics data can be stored in a standardised way. The particular challenge for the proteomics community now is to evolve its achievements in data management to date towards a more complete fulfilment of FAIR research data management and to close the remaining gaps in this regard.
 
 ## Standard data formats
 
@@ -39,12 +39,12 @@ For different proteomics experiments and different steps of the respective data 
 
 ### Solutions
 {% tool "proteomics-standards-initiative" %} is a proteomics community-driven organisation providing several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
-- Controlled vocabularies: PSI-MS, PSI-MI, XLMOD and sepCV, which are provided as OBO files.
+- Controlled vocabularies: {% tool "psi-ms" %}, {% tool "psi-mi" %}, and {% tool "xlmod" %}, which are provided as OBO files.
 - The Minimum Information About a Proteomics Experiment ([MIAPE](https://psidev.info/miape)) guidelines document.
 - [mzML](https://www.psidev.info/mzML)  - a standard format for encoding raw mass spectrometer output.
 - [mzIdentML](https://www.psidev.info/mzidentml) - a standard exchange format for peptides and proteins identified from mass spectra.
 - [mzQuantML](https://psidev.info/mzquantml) - a standard format that is intended to store the systematic description of workflows quantifying molecules (principally peptides and proteins) by mass spectrometry.
-- [mzTab](https://www.psidev.info/mztab) - a tab delimited text file format to report proteomics and metabolomics results.
+- [mzTab](https://www.psidev.info/mztab) - a tab-delimited text file format to report proteomics and metabolomics results.
 
 
 ## Processing and analysis of proteomics data
