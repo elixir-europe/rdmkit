@@ -40,17 +40,15 @@ For different proteomics experiments and different steps of the respective data 
 ### Solutions
 {% tool "proteomics-standards-initiative" %} is a proteomics community-driven organisation providing several different controlled vocabularies, standard data formats, converter and validator software tools. The most important include:
 - Controlled vocabularies: {% tool "psi-ms" %}, {% tool "psi-mi" %}, and {% tool "xlmod" %}, which are provided as OBO files.
-- The Minimum Information About a Proteomics Experiment ([MIAPE](https://psidev.info/miape)) guidelines document.
-- [mzML](https://www.psidev.info/mzML)  - a standard format for encoding raw mass spectrometer output.
-- [mzIdentML](https://www.psidev.info/mzidentml) - a standard exchange format for peptides and proteins identified from mass spectra.
-- [mzQuantML](https://psidev.info/mzquantml) - a standard format that is intended to store the systematic description of workflows quantifying molecules (principally peptides and proteins) by mass spectrometry.
-- [mzTab](https://www.psidev.info/mztab) - a tab-delimited text file format to report proteomics and metabolomics results.
-
+- {% tool "miape" %} guidelines document.
+- {% tool "mzml" %} - a standard format for encoding raw mass spectrometer output.
+- {% tool "mzidentml" %} - a standard exchange format for peptides and proteins identified from mass spectra.
+- {% tool "mztab" %} - a tab-delimited text file format to report proteomics and metabolomics results.
 
 ## Processing and analysis of proteomics data
 
 ### Description
-For all steps within a FAIR proteomics data analysis pipeline software is needed that imports standard data formats and exports standard data formats including all needed results and metadata.
+For all steps within a FAIR proteomics data analysis pipeline, software is needed that imports standard data formats and exports standard data formats including all needed results and metadata.
 
 ### Considerations
 - Can your proteomics raw data recorded by a mass spectrometer be stored as an mzML file?
