@@ -1681,7 +1681,7 @@
   url: http://www.proteomexchange.org/
 - description: The HUPO Proteomics Standards Initiative defines community standards for data representation in proteomics and interactomics to facilitate data comparison, exchange and verification.
   id: proteomics-standards-initiative
-  name: HUPO Proteomics Standards Initiative
+  name: The Human Proteome Organisation (HUPO) Proteomics Standards Initiative (PSI)
   registry:
     fairsharing: 9f60e7
   url: https://www.psidev.info/
