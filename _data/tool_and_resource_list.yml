@@ -3490,3 +3490,23 @@
   name:  HUPO-PSI cross-linking and derivatization reagents controlled vocabulary (XLMOD) 
   registry:
     fairsharing: 6ccbe6
+- description: MIAPE defines the minimum set of information about whole proteomics experiments that would be required in a public repository.
+  id: miape
+  name:  Minimum Information About a Proteomics Experiment (MIAPE)
+  registry:
+    fairsharing: 8vv5fc
+- description: mzML was formed to amalgamate two formats for encoding raw spectrometer data; mzData developed by the PSI, and, mzXML developed at the Seattle Proteome Center at the Institute for Systems Biology.
+  id: mzml
+  name: mz Markup Language (mzML)
+  registry:
+    fairsharing: 26dmba
+- description: mzIdentML provides a common format for the export of identification results from any search engine.
+  id: mzidentml
+  name:  mz peptide and protein Identification Markup Language (mzIdentML)
+  registry:
+    fairsharing: 11889
+- description: This format aims to present the results of a proteomics experiment in a computationally accessible overview.
+  id: mztab
+  name:  mzTab
+  registry:
+    fairsharing: c12tyk
