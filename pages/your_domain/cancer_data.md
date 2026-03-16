@@ -74,7 +74,7 @@ Data models fitted for cancer could be used to identify and map with standard re
 * Cancer registry data common rules and definitions used within Europe defined by the [European Network of Cancer Registries (ENCR)](https://www.encr.eu/ENCR-Recommendations).
 * Exposome data management recommendations under development by [Environmental Exposure Assessment Research Infrastructure (EIRENE-RI)](https://eirene.eu/).
 * Exposome (meta)data definitions used within Europe defined by Eurostat, [Euro SDMX Registry](https://webgate.ec.europa.eu/fusionregistry/).
-* Exposome variables, if collected on a patient level modality, could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601), considering the specific data domain.
+* Exposome variables, if collected on a patient level modality, could be reviewed based on [The Minimal Dataset for Cancer of the 1+ Million Genomes Initiative](https://zenodo.org/records/10784601), considering the specific data domain {% cite "Riba2024" %}.
 
 #### Secondary prevention data
 
@@ -246,3 +246,7 @@ Different considerations should be taken into account depending on the type of d
 * Define clear data governance policies for longitudinal data capture and ensure data traceability.
 * Establish patient engagement protocols to support consistent reporting and minimise data loss over time. Define standardised follow-up templates to optimise data completeness.
 
+
+## Bibliography
+
+{% bibliography --cited %}
