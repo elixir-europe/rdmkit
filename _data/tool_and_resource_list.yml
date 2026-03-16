@@ -3542,3 +3542,7 @@
   registry:
     fairsharing: uBpQ1q
   url: https://panoramaweb.org/home/project-begin.view
+- description: Proton Drive is a secure cloud storage platform for protecting critical files and information.
+  id: proton-drive
+  name: Proton Drive
+  url: https://proton.me/drive
