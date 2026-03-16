@@ -2,6 +2,7 @@
 title: "Single-cell sequencing"
 description: "Managing data generated from single-cell sequencing experiments."
 contributors: [Johan Rollin, Pavankumar Videm, Mehmet Tekman]
+editors: [Bert Droesbeke, Nazeefa Fatima, Federico Bianchini]
 related_pages:
   Your_tasks: [dmp, data_organisation, data_publication, metadata, storage]
   Tool_assembly: [galaxy, fairtracks]

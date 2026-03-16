@@ -3,6 +3,7 @@
 title: Czech Republic
 country_code: CZ
 contributors: [Karel Berka, Marek Suchánek]
+editors: [Bert Droesbeke, Nazeefa Fatima]
 coordinators: [Karel Berka]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 

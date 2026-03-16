@@ -5,6 +5,7 @@ description: Introduction to data collection.
 related_pages: 
   Your_tasks: [data_organisation, data_quality, existing_data, identifiers, metadata, sensitive, storage, data_provenance]
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
+editors: [Bert Droesbeke]
 training:
   - name: Training in TeSS
     registry: TeSS

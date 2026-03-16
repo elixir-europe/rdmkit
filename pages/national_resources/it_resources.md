@@ -3,6 +3,7 @@
 title: Italy
 country_code: IT
 contributors: [Marco Carraro, Ivan Mičetić]
+editors: [Bert Droesbeke, Flora D'Anna, Laura Portell Silva]
 coordinators: [Marco Carraro]
 
 related_pages: 

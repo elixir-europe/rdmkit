@@ -2,6 +2,7 @@
 title: Intrinsically disordered proteins
 description: Data management solutions for intrinsically disordered proteins data.
 contributors: [Ivan Mičetić]
+editors: [Daniel Faria]
 related_pages: 
 page_id: idp
 related_pages: 

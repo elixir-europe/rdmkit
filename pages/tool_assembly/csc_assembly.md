@@ -1,6 +1,7 @@
 ---
 title: CSC
 contributors: [Siiri Fuchs, Minna Ahokas, Janina Juuvinmaa]
+editors: [Bert Droesbeke, Flora D'Anna, Korbinian Bösl]
 description: The Center of Science (CSC) provides high-quality ICT expert services for researchers in Finland and their collaborators.
 page_id: csc
 affiliations: [FI, CSC, ELIXIR Europe]
