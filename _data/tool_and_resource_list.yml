@@ -176,11 +176,12 @@
   url: http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php
 - description: APID (Agile Protein Interactomes DataServer) is a server that provides a comprehensive collection of protein interactomes for more than 400 organisms based in the integration of known experimentally validated protein-protein physical interactions (PPIs)
   id: apid-interactomes
-  name: APID Interactomes
+  name:  Agile Protein Interactomes Dataserver (APID Interactomes) 
   registry:
     biotools: apid
+    fairsharing: 8ye60e
   url: http://apid.dep.usal.es/
-- description: Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.
+- description: Plan and follow your data. Bring your Data Management Plans closer to where data is generated, analysed, and stored.
   id: argos
   name: Argos
   registry:
@@ -1682,7 +1683,7 @@
   url: http://www.proteomexchange.org/
 - description: The HUPO Proteomics Standards Initiative defines community standards for data representation in proteomics and interactomics to facilitate data comparison, exchange and verification.
   id: proteomics-standards-initiative
-  name: HUPO Proteomics Standards Initiative
+  name: The Human Proteome Organisation (HUPO) Proteomics Standards Initiative (PSI)
   registry:
     fairsharing: 9f60e7
   url: https://www.psidev.info/
@@ -2399,7 +2400,9 @@
   url: https://rri-tools.eu/self-reflection-tool
 - description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
   id: sdrf
-  name: SDRF
+  name:  Sample and Data Relationship Format for Proteomics (SDRF) 
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.4a8cd2
   url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
 - description: Structural information organiser, collecting structures deposited in public repositories together with computationally predicted models from SARS-CoV-2, as well as their interactions with host proteins.
   id: covid-19-structural-hub
@@ -3447,7 +3450,7 @@
   id: agcros
   name: Agricultural Collaborative Research Outcomes System (AgCROS)
   url: https://agcros.org/
-- description: The Tool for Agroecology Performance Evaluation (TAPE) is a software tool designed to assess and evaluate the performance of agroecological practices. It provides a framework for analyzing various aspects of agroecology, including environmental, economic, and social factors, to support sustainable agricultural practices.
+- description: The Tool for Agroecology Performance Evaluation (TAPE) is a software tool designed to assess and evaluate the performance of agroecological practices. It provides a framework for analysing various aspects of agroecology, including environmental, economic, and social factors, to support sustainable agricultural practices.
   id: tape
   name: Tool for Agroecology Performance Evaluation (TAPE)
   url: https://www.fao.org/agroecology/tools-tape
@@ -3483,3 +3486,64 @@
   registry:
     biotools: agrischemas
   url: https://github.com/Rothamsted/agri-schemas
+- description: The PSI-MS Controlled Vocabulary consists of a large collection of structured terms covering description and use of Mass Spectrometry instrumentation as well as Protein Identification and Quantitation software.
+  id: psi-ms
+  name: HUPO PSI Mass Spectrometry Controlled Vocabulary (PSI-MS CV)
+  registry:
+    fairsharing: sxh2dp
+  url: https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo
+- description: A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions.
+  id: psi-mi
+  name: PSI Molecular Interaction Controlled Vocabulary (PSI-MI CV) 
+  registry:
+    fairsharing: 8qzmtr
+  url: http://www.psidev.info/groups/molecular-interactions
+- description: The XLMOD ontology is a structured, controlled vocabulary for cross-linking reagents and cross-linker-related post-translational modifications used in cross-linking mass spectrometry experiments and derivatisation reagents for GC-MS.
+  id: xlmod
+  name:  HUPO-PSI cross-linking and derivatization reagents controlled vocabulary (XLMOD) 
+  registry:
+    fairsharing: 6ccbe6
+  url: https://github.com/HUPO-PSI/xlmod-CV
+- description: MIAPE defines the minimum set of information about whole proteomics experiments that would be required in a public repository.
+  id: miape
+  name:  Minimum Information About a Proteomics Experiment (MIAPE)
+  registry:
+    fairsharing: 8vv5fc
+  url: http://www.psidev.info/miape
+- description: mzML was formed to amalgamate two formats for encoding raw spectrometer data; mzData, developed by the PSI, and mzXML, developed at the Seattle Proteome Center at the Institute for Systems Biology.
+  id: mzml
+  name: mz Markup Language (mzML)
+  registry:
+    fairsharing: 26dmba
+  url: http://www.psidev.info/mzml
+- description: mzIdentML provides a common format for the export of identification results from any search engine.
+  id: mzidentml
+  name:  mz peptide and protein Identification Markup Language (mzIdentML)
+  registry:
+    fairsharing: 11889
+  url: https://www.psidev.info/mzidentml
+- description: This format aims to present the results of a proteomics experiment in a computationally accessible overview.
+  id: mztab
+  name:  mzTab
+  registry:
+    fairsharing: c12tyk
+  url: https://www.psidev.info/mztab-specifications
+- description: jPOSTrepo (Japan ProteOme STandard Repository) is a data repository for sharing MS raw/processed data.
+  id: jpostrepo
+  name: Japan Proteome Standard Repository (jPOSTrepo)
+  registry: 
+    fairsharing: p899f7
+  url: https://repository.jpostdb.org/
+- description: iProX is a public platform for collecting and sharing raw data, analysis results and metadata obtained from proteomics experiments.
+  id: iprox
+  name: iProX
+  registry:
+    fairsharing: 4Sj3vE
+  url: https://www.iprox.org/
+- description: Panorama Public is a data repository for sharing and disseminating results from analysing mass spectrometry data with the Skyline software, supporting targeted analysis of proteomics or metabolomics data from a variety of mass spectrometry data acquisition techniques.
+  id: panoramapublic
+  name: Panorama Public
+  registry:
+    fairsharing: uBpQ1q
+  url: https://panoramaweb.org/home/project-begin.view 
+  
