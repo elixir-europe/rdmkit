@@ -176,7 +176,7 @@
   url: http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php
 - description: APID (Agile Protein Interactomes DataServer) is a server that provides a comprehensive collection of protein interactomes for more than 400 organisms based in the integration of known experimentally validated protein-protein physical interactions (PPIs)
   id: apid-interactomes
-  name:  Agile Protein Interactomes Dataserver (APID Interactomes) 
+  name: Agile Protein Interactomes Dataserver (APID Interactomes)
   registry:
     biotools: apid
     fairsharing: 8ye60e
@@ -1685,6 +1685,7 @@
   id: proteomics-standards-initiative
   name: The Human Proteome Organisation (HUPO) Proteomics Standards Initiative (PSI)
   registry:
+    biotools: psi
     fairsharing: 9f60e7
   url: https://www.psidev.info/
 - description: A secure platform for developing and sharing reproducible methods.
@@ -2400,7 +2401,7 @@
   url: https://rri-tools.eu/self-reflection-tool
 - description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
   id: sdrf
-  name:  Sample and Data Relationship Format for Proteomics (SDRF) 
+  name: Sample and Data Relationship Format for Proteomics (SDRF)
   registry:
     fairsharing: https://doi.org/10.25504/FAIRsharing.4a8cd2
   url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
@@ -3488,19 +3489,19 @@
   url: https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo
 - description: A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions.
   id: psi-mi
-  name: PSI Molecular Interaction Controlled Vocabulary (PSI-MI CV) 
+  name: PSI Molecular Interaction Controlled Vocabulary (PSI-MI CV)
   registry:
     fairsharing: 8qzmtr
   url: http://www.psidev.info/groups/molecular-interactions
 - description: The XLMOD ontology is a structured, controlled vocabulary for cross-linking reagents and cross-linker-related post-translational modifications used in cross-linking mass spectrometry experiments and derivatisation reagents for GC-MS.
   id: xlmod
-  name:  HUPO-PSI cross-linking and derivatization reagents controlled vocabulary (XLMOD) 
+  name: HUPO-PSI cross-linking and derivatization reagents controlled vocabulary (XLMOD)
   registry:
     fairsharing: 6ccbe6
   url: https://github.com/HUPO-PSI/xlmod-CV
 - description: MIAPE defines the minimum set of information about whole proteomics experiments that would be required in a public repository.
   id: miape
-  name:  Minimum Information About a Proteomics Experiment (MIAPE)
+  name: Minimum Information About a Proteomics Experiment (MIAPE)
   registry:
     fairsharing: 8vv5fc
   url: http://www.psidev.info/miape
@@ -3512,26 +3513,27 @@
   url: http://www.psidev.info/mzml
 - description: mzIdentML provides a common format for the export of identification results from any search engine.
   id: mzidentml
-  name:  mz peptide and protein Identification Markup Language (mzIdentML)
+  name: mz peptide and protein Identification Markup Language (mzIdentML)
   registry:
     fairsharing: 11889
   url: https://www.psidev.info/mzidentml
 - description: This format aims to present the results of a proteomics experiment in a computationally accessible overview.
   id: mztab
-  name:  mzTab
+  name: mzTab
   registry:
     fairsharing: c12tyk
   url: https://www.psidev.info/mztab-specifications
 - description: jPOSTrepo (Japan ProteOme STandard Repository) is a data repository for sharing MS raw/processed data.
   id: jpostrepo
   name: Japan Proteome Standard Repository (jPOSTrepo)
-  registry: 
+  registry:
     fairsharing: p899f7
   url: https://repository.jpostdb.org/
 - description: iProX is a public platform for collecting and sharing raw data, analysis results and metadata obtained from proteomics experiments.
   id: iprox
   name: iProX
   registry:
+    biotools: iprox
     fairsharing: 4Sj3vE
   url: https://www.iprox.org/
 - description: Panorama Public is a data repository for sharing and disseminating results from analysing mass spectrometry data with the Skyline software, supporting targeted analysis of proteomics or metabolomics data from a variety of mass spectrometry data acquisition techniques.
@@ -3539,5 +3541,4 @@
   name: Panorama Public
   registry:
     fairsharing: uBpQ1q
-  url: https://panoramaweb.org/home/project-begin.view 
-  
+  url: https://panoramaweb.org/home/project-begin.view
