@@ -330,7 +330,6 @@
   registry:
     fairsharing: f3a3ca
     tess: Bioschemas
-    biotools: bioschemas
   url: https://bioschemas.org
 - description: A database hosting datasets from biological studies. Useful for storing or accessing life sciences data without community-accepted repositories, and for linking components of data from multi-omics studies.
   id: biostudies
@@ -1835,7 +1834,6 @@
   registry:
     fairsharing: hzdzq8
     tess: Schema.org
-    biotools: schema.org
   url: https://schema.org
 - description: ScienceMesh - frictionless scientific collaboration and access to research services
   id: sciencemesh
