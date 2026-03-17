@@ -75,12 +75,12 @@ Data models fitted for cancer could be used to identify and map with standard re
 * Cancer registry data common rules and definitions used within Europe defined by the [European Network of Cancer Registries (ENCR)](https://www.encr.eu/ENCR-Recommendations).
 * Exposome data management recommendations under development by [Environmental Exposure Assessment Research Infrastructure (EIRENE-RI)](https://eirene.eu/).
 * Exposome (meta)data definitions used within Europe defined by Eurostat, [Euro SDMX Registry](https://webgate.ec.europa.eu/fusionregistry/).
-* Exposome variables, if collected on a patient level modality, could be reviewed based on {% tool "1+mg-mdc" %}, considering the specific data domain {% cite "Riba2024" %}.
+* Exposome variables, if collected on a patient level modality, could be reviewed based on {% tool "1pmg-mdc" %}, considering the specific data domain {% cite "Riba2024" %}.
 
 #### Secondary prevention data
 
 As there are no commonly accepted data collection standards currently, [EOSC4Cancer](https://eosc4cancer.eu/the-project/) developed a harmonised codebook for colorectal cancer screening (based on Dutch, Catalan, Italian and Czech screening codebooks), which could be used as a common basis to be extended to other cancer types.
-Data variables referred to pathological findings in early timepoints could be reviewed based on  {% tool "1+mg-mdc" %}, considering the specific data domains.
+Data variables referred to pathological findings in early timepoints could be reviewed based on  {% tool "1pmg-mdc" %}, considering the specific data domains.
 
 ## Cancer diagnosis
 
@@ -115,7 +115,7 @@ Managing cancer data for diagnosing and determining the best treatment for local
 * Store raw sequencing and imaging data in cloud-based or institutional repositories (e.g. {% tool "the-european-genome-phenome-archive" %}, {% tool "dbgap" %}, {% tool "sequence-read-archive" %}, {% tool "tcia" %} for imaging) to allow reanalysis when new prognostic markers emerge.
 * Adopt federated learning approaches (e.g. {% tool "fega" %}, Federated EHR Learning Models) to enable collaborative research without transferring sensitive patient data.
 * Integrate AI-based imaging tools (e.g. {% tool "path-ai" %}, {% tool "qure-ai" %}, {% tool "paige-ai" %}) for radiology and pathology analysis to assist in detecting subtle cancer features and ensure adherence to standards (e.g. {% tool "dome" %}, {% tool "tripod" %}), avoiding biases in cancer diagnosis.
-* Data variables referred to cancer diagnosis could be reviewed based on  {% tool "1+mg-mdc" %}.
+* Data variables referred to cancer diagnosis could be reviewed based on  {% tool "1pmg-mdc" %}.
 
 
 ## Cancer treatment
@@ -150,7 +150,7 @@ In order to obtain information about oncological clinical practice guidelines se
 
 To organise the multiple options for cancer treatment:
 
-* Data variables referring to the different options for cancer treatment from surgery to biological therapies could be reviewed based on {% tool "1+mg-mdc" %}.
+* Data variables referring to the different options for cancer treatment from surgery to biological therapies could be reviewed based on {% tool "1pmg-mdc" %}.
   
 A more unified approach to cancer treatment data collection is crucial for improving outcome analysis and supporting all stakeholders. 
 To support this aim, several consortia and institutions provide annotated reference datasets with cancer treatment data:
