@@ -3,6 +3,7 @@ title: Sharing
 page_id: share
 description: Introduction to data sharing.
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
+editors: [Bert Droesbeke, Korbinian Bösl]
 related_pages: 
   Your_tasks: [gdpr_compliance, data_security, data_brokering, data_publication, transfer, identifiers, licensing, metadata, sensitive]
 training:
