@@ -209,7 +209,7 @@ Different considerations should be taken into account depending on the type of d
 * Use specific standards and methods to extract and transform data included in the Electronic Health Record (clinical data, diagnoses, demographics, procedures, medications, vital signs, laboratory results). For Considerations towards improved reuse of EHR, refer to the section in the [Health data page](health_data).
 * Considerations for managing  imaging data (and histopathological data), binary files, as well as the associated metadata can be found in the [Bioimaging data page](bioimaging_data).
 * For human genomic data, established research ethical guidelines and legislations must be followed as described in the [Human data page](human_data).
-* Since health data falls under the "special category of data" as defined by the GDPR, strict guidelines and considerations must be followed when handling this information covered in the [GDPR compliance](gdpr_compliance) and [Data Sensitivity](sensitive) pages of the RDMkit.
+* Since health data falls under the "special category of data" as defined by the GDPR, strict guidelines and considerations must be followed when handling this information covered in the [GDPR compliance](gdpr_compliance) and [Data sensitivity](data_sensitivity) pages of the RDMkit.
 * For PROs, to collect data directly from cancer patients and/or survivors, follow the considerations listed on the health data page. Additionally, since these PROs focus on quality-of-life and are inherently subjective, additional considerations must be addressed:
 
   * Are questionnaires designed to minimise ambiguity and ensure that all patients interpret questions in a similar way?
