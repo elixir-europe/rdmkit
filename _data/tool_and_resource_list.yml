@@ -3475,3 +3475,7 @@
     fairsharing: 1943d4
     tess: CSV
   url: https://tools.ietf.org/html/rfc4180
+- description: A data model for the collection of cancer-related clinical information and genomics metadata.
+  name:  The Minimal Dataset for Cancer of the 1+Million Genomes Initiative (1+MG-MDC)
+  id: 1+mg-mdc
+  url: https://zenodo.org/records/10784601
