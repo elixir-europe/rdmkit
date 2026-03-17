@@ -101,7 +101,7 @@ Managing cancer data for diagnosing and determining the best treatment for local
 
 ### Considerations
 
-* Are all clinically relevant variables collected using standard vocabularies across data domains, including socio-demographics, risk factors, and tumour-specific metadata (e.g. Tumour- Nodes-Metastases (TNM) stage, histology, genomic alterations)?
+* Are all clinically relevant variables collected using standard vocabularies across data domains, including socio-demographics, risk factors, and tumour-specific metadata (e.g. Tumour-Nodes-Metastases (TNM) stage, histology, genomic alterations)?
 * Are diagnostic data and images stored in standardised formats (e.g. {% tool "dicom" %} for imaging, {% tool "vcf" %} for genomics) to allow long-term usability and reanalysis?
 * Is there a data management system in place to ensure interoperability between different data types (e.g. imaging, molecular, and health records)?
 * Are there AI-based tools or decision-support systems integrated into the workflow to assist oncologists in making diagnostic decisions?
