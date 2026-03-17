@@ -10,7 +10,7 @@ training:
 - name: Training in TeSS
   registry: TeSS
   url: https://tess.elixir-europe.org/collections/rdmbites-redcap-collection
-- name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
+- name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real-world healthcare data courses in EHDEN academy
   url: https://academy.ehden.eu/
 fairsharing:
 - name: Cancer data collection
@@ -18,15 +18,15 @@ fairsharing:
 ---
 ## Introduction
 
-Cancer is a heterogeneous disease that affects almost everyone: as a patient, survivor, relative or friend. This page focuses on the key data management challenges, considerations and solutions that are relevant across all stages of the patient’s journey from cancer prevention, diagnosis and treatment to assessment of patient outcomes and monitoring those at follow-up visits. 
+Cancer is a heterogeneous disease that affects almost everyone: as a patient, survivor, relative or friend. This page focuses on the key data management challenges, considerations and solutions that are relevant across all stages of the patient’s journey from cancer prevention, diagnosis, and treatment to assessment of patient outcomes and monitoring those at follow-up visits. 
 
-Each stage of the patient journey has different associated data types,  a number of  technical, ethical, legal and organisational challenges. In this page we focus on the management of human health data generated from patients diagnosed with both solid and liquid tumors (oncology or hematology). Data might be collected by a number of different means, e.g. from clinical trials and non-interventional studies (NIS) or real-world data (RWD) from observational studies (e.g. registries) or captured in electronic health record (EHR) hospital systems during primary care. 
+Each stage of the patient journey has different associated data types,  a number of  technical, ethical, legal and organisational challenges. In this page we focus on the management of human health data generated from patients diagnosed with both solid and liquid tumours (oncology or haematology). Data might be collected by a number of different means, e.g. from clinical trials and non-interventional studies (NIS) or real-world data (RWD) from observational studies (e.g. registries) or captured in electronic health record (EHR) hospital systems during primary care. 
 
 Reference to data models tailored for cancer and based on international projects is an important aid in identifying essential variables and concept coding choices in huge data collections. Furthermore, transforming databases according to standardised formats is a crucial prerequisite for conducting multi-centre studies.
 
 Efficient data management and interoperability are essential for ensuring timely and accurate diagnoses and treatment while maintaining compliance with ethical and regulatory standards. In the following sections we will address data management best practices, considerations and possible solutions for effective management of data in each stage (Figure1)  of the individual patient's journey.
 
-{% include image.html file="cancer_dm_stages.png" caption="Figure 1. Cancer data management challenges at different stages of patient journey." %}
+{% include image.html file="cancer_dm_stages.png" caption="Figure 1. Cancer data management challenges at different stages of the patient journey." %}
 
 
 ## Cancer prevention
@@ -57,7 +57,7 @@ Data models fitted for cancer could be used to identify and map with standard re
 * Linkage between different data types, e.g. exposome and health data, could be non-trivial. Think about the following:
   * Does the geographical grid match?
   * Does the timestamp of the data correlate?
-* Exposome data is considered non-personal data, but once linked to personal data the linked dataset becomes personal data and privacy has to be ensured in compliance with applicable legislation (e.g. GDPR).
+* Exposome data is considered non-personal data, but once linked to personal data, the linked dataset becomes personal data and privacy has to be ensured in compliance with applicable legislation (e.g. GDPR).
 
 #### Secondary prevention data
 
@@ -92,25 +92,25 @@ Cancer diagnosis is a multi-step process that begins with a patient's clinical p
 
 Cancer diagnosis relies on data from multiple sources that are also often used at other stages of the cancer patient's journey (prevention, treatment, follow-up):
 
-* **Imaging** (MRI, CT, PET scans) provides tumor size, location, and spread
-* **Pathology** (biopsy analysis) confirms tumor type and molecular characteristics
-* **Genetic/Genomic** profiling can identify tumor genomic alterations relevant for molecularly matched therapies, pharmacogenomic biomarkers relevant for drug metabolism, germline alterations
+* **Imaging** (MRI, CT, PET scans) provides tumour size, location, and spread
+* **Pathology** (biopsy analysis) confirms tumour type and molecular characteristics
+* **Genetic/Genomic** profiling can identify tumour genomic alterations relevant for molecularly matched therapies, pharmacogenomic biomarkers relevant for drug metabolism, germline alterations
 * **Clinical data** (patient history, symptoms, lab tests) provide context on overall health and treatment history
 
 Managing cancer data for diagnosing and determining the best treatment for localized tumors presents several challenges, as it requires working with a wide range of [sensitive patient data](sensitive), coming from different departments/sources, including [clinical records](health_data), [radiological images](bioimaging_data) (radiology), histopathological evaluation (pathology) and genomic profiles (pathology or other specialised laboratory). This makes interoperability and data integration essential to enable a holistic approach to cancer care. Consequently,  data management must be precise to ensure that healthcare professionals have accurate and comprehensive information for tumour identification and treatment decisions. Data security and compliance with ethical guidelines (such as [GDPR](gdpr_compliance)) are critical to protecting patient privacy when dealing with personal health records and sensitive tumour data. Furthermore, the need for data to be accessible across different healthcare providers and research institutions adds complexity to the management process.
 
 ### Considerations
 
-* Are all clinically relevant variables collected using standard vocabularies across data domains including socio-demographics, risk factors, and tumor-specific metadata (e.g. Tumour- Nodes-Metastases (TNM) stage, histology, genomic alterations)?
+* Are all clinically relevant variables collected using standard vocabularies across data domains, including socio-demographics, risk factors, and tumour-specific metadata (e.g. Tumour- Nodes-Metastases (TNM) stage, histology, genomic alterations)?
 * Are diagnostic data and images stored in standardised formats (e.g. {% tool "dicom" %} for imaging, {% tool "vcf" %} for genomics) to allow long-term usability and reanalysis?
 * Is there a data management system in place to ensure interoperability between different data types (e.g. imaging, molecular, and health records)?
 * Are there AI-based tools or decision-support systems integrated into the workflow to assist oncologists in making diagnostic decisions?
 
 ### Solutions
 
-* Utilize structured clinical data models and interoperability frameworks (e.g. {% tool "hl7-fhir" %}, {% tool "omop-cdm" %}, {% tool "dicom" %} and {% tool "xnat" %} for imaging) to facilitate the integration of multi-modal diagnostic data such as clinical, imaging, and molecular data.
+* Utilise structured clinical data models and interoperability frameworks (e.g. {% tool "hl7-fhir" %}, {% tool "omop-cdm" %}, {% tool "dicom" %} and {% tool "xnat" %} for imaging) to facilitate the integration of multi-modal diagnostic data such as clinical, imaging, and molecular data.
 * Implement version-controlled patient records using [EHR](health_data) systems that support updates based on evolving classification standards and cancer-specific coding dictionaries for diagnosis (e.g. {% tool "icd-o-3" %} or {% tool "snomed-ct" %} for cancer diagnosis and topography, {% tool "uicc-tnm" %} staging system, {% tool "who-tc" %}).
-* Utilize secure repositories and specialised cancer clinical data management systems (e.g. {% tool "redcap" %}, {% tool "i2b2" %}, {% tool "cbioportal" %}) that comply with GDPR, [HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html), and other regulatory frameworks.
+* Utilise secure repositories and specialised cancer clinical data management systems (e.g. {% tool "redcap" %}, {% tool "i2b2" %}, {% tool "cbioportal" %}) that comply with GDPR, [HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html), and other regulatory frameworks.
 * Implement standardised consent forms and patient data governance frameworks, such as GA4GH's {% tool "data-use-ontology" %}, to allow data sharing while maintaining privacy.
 * Store raw sequencing and imaging data in cloud-based or institutional repositories (e.g. {% tool "the-european-genome-phenome-archive" %}, {% tool "dbgap" %}, {% tool "sequence-read-archive" %}, {% tool "tcia" %} for imaging) to allow reanalysis when new prognostic markers emerge.
 * Adopt federated learning approaches (e.g. {% tool "fega" %}, Federated EHR Learning Models) to enable collaborative research without transferring sensitive patient data.
@@ -121,11 +121,11 @@ Managing cancer data for diagnosing and determining the best treatment for local
 ## Cancer treatment
 
 ### Description
-Cancer treatment varies depending on the type and stage of cancer (e.g. locally advanced, metastatic disease), as well as the overall health and preferences of the patient. The use of advanced diagnostic techniques such as PET-CT/MRI, molecular profiling (e.g. next-generation sequencing, comprehensive genomic profiling (CGP), whole genome sequencing (WGS) and liquid biopsies (e.g. ctDNA) has tremendously increased the data density and complexity to be dealt with at this stage of disease.
+Cancer treatment varies depending on the type and stage of cancer (e.g. locally advanced, metastatic disease), as well as the overall health and preferences of the patient. The use of advanced diagnostic techniques such as PET-CT/MRI, molecular profiling (e.g. next-generation sequencing, comprehensive genomic profiling (CGP), whole genome sequencing (WGS), and liquid biopsies (e.g. ctDNA) has tremendously increased the data density and complexity to be dealt with at this stage of disease.
 
-Cancer treatment employs a wide range of data types, such as patients' therapeutic regimens, including surgery techniques, stem cell transplantation, radiotherapy, systemic therapies (e.g. hormone, chemotherapy, immunotherapy and targeted therapies) as well as  imaging data, biomarker assessments, responses to therapies data, clinical trial outcomes, drug efficacy, and adverse reactions. Cancer treatment data is commonly associated with further clinical data and patients' information. Due to their sensitive nature, the data must be managed following ethical guidelines, data protection laws, and FAIR (Findable, Accessible, Interoperable, and Reusable) principles.
+Cancer treatment employs a wide range of data types, such as patients' therapeutic regimens, including surgery techniques, stem cell transplantation, radiotherapy, systemic therapies (e.g. hormone, chemotherapy, immunotherapy and targeted therapies), as well as  imaging data, biomarker assessments, responses to therapies data, clinical trial outcomes, drug efficacy, and adverse reactions. Cancer treatment data is commonly associated with further clinical data and patients' information. Due to their sensitive nature, the data must be managed following ethical guidelines, data protection laws, and FAIR (Findable, Accessible, Interoperable, and Reusable) principles.
 
-Although cancer treatment data is crucial for developing personalised medicine approaches, improving patient outcomes and advancing research, comprehensive documentation of cancer treatment data remains limited in cancer registries and public datasets. This challenge is often due to data privacy regulations, ethical concerns, and varying reporting standards, which highlight disparities arising from resource limitations, national database structures, and language barriers. In addition, while cancer treatment data publication has increased, it remains inconsistent due to the lack of data standardisation along with sparse ontologies. The increasing use of electronic health records across western countries, along with standardised cancer classification systems (e.g. WHO, ICD, CAP), staging systems (e.g. {% tool "uicc-tnm" %} ), and pioneering drug (e.g. DRON PDRO) and side effects (e.g. OAE) ontologies, facilitates data collection. However, clear guidelines for cancer treatment data collection and tools for unified analysis still need to be developed.
+Although cancer treatment data is crucial for developing personalised medicine approaches, improving patient outcomes and advancing research, comprehensive documentation of cancer treatment data remains limited in cancer registries and public datasets. This challenge is often due to data privacy regulations, ethical concerns, and varying reporting standards, which highlight disparities arising from resource limitations, national database structures, and language barriers. In addition, while cancer treatment data publication has increased, it remains inconsistent due to the lack of data standardisation along with sparse ontologies. The increasing use of electronic health records across Western countries, along with standardised cancer classification systems (e.g. WHO, ICD, CAP), staging systems (e.g. {% tool "uicc-tnm" %} ), and pioneering drug (e.g. DRON PDRO) and side effects (e.g. OAE) ontologies, facilitates data collection. However, clear guidelines for cancer treatment data collection and tools for unified analysis still need to be developed.
 
 ### Considerations 
 
@@ -139,7 +139,7 @@ Although cancer treatment data is crucial for developing personalised medicine a
 
 ### Solutions
 
-In order to obtain information about oncological clinical practice guidelines several medical societies provide guidance:
+To obtain information about oncological clinical practice guidelines, several medical societies provide guidance:
 
 * [European Society of Medical Oncology (ESMO)](https://www.esmo.org/guidelines)
 * American Society of Clinical Oncology (ASCO)
@@ -157,7 +157,7 @@ To support this aim, several consortia and institutions provide annotated refere
 
 #### Reference databases and platforms:
 
-* {% tool "the-european-genome-phenome-archive" %} : Service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data.
+* {% tool "the-european-genome-phenome-archive" %}: Service for permanent archiving and sharing of personally identifiable genetic, phenotypic, and clinical data.
 * {% tool "cbioportal" %}: Multidimensional genomics data with treatment annotations.
 * {% tool "icgc-argo" %}: Comprehensive clinical and genomic data for >100,000 patients.
 * {% tool "aacr-genie" %}: Cancer genomic dataset.
@@ -187,7 +187,7 @@ To support this aim, several consortia and institutions provide annotated refere
 #### Genomics & multi-omics resources:
 
 * {% tool "mtb-portal" %}: provides a general framework to interpret the functional and predictive relevance of a given list of gene variants in interactive reports.
-* {% tool "pandrugs" %}: a platform to prioritize cancer drug treatments according to individual multi-omics data (SNVs, CNVs and gene expression).
+* {% tool "pandrugs" %}: a platform to prioritise cancer drug treatments according to individual multi-omics data (SNVs, CNVs and gene expression).
 * {% tool "cancer-genome-interpreter" %}: flags genomic biomarkers of drug response with clinical relevance.
 * {% tool "civic" %}: a free resource to identify the best cancer treatment options based on DNA alterations.
 * [Topograph](https://topograph.info/): Therapy-Oriented Precision Oncology Guidelines for Recommending Anti-cancer Pharmaceuticals.
@@ -198,16 +198,16 @@ To support this aim, several consortia and institutions provide annotated refere
 
 The follow-up phase in cancer care is a critical component of comprehensive patient management, ensuring long-term monitoring and well-being of cancer survivors. This stage focuses on assessing treatment outcomes, detecting potential recurrences, managing long-term side effects, and enhancing the overall quality of life. Effective follow-up strategies integrate not only systematic clinical evaluations, which include routine medical visits, imaging exams (e.g. MRI, CT, PET), and biomarker testing (e.g. CEA, PSA, ctDNA), but also patient-reported outcomes (PROs).
 
-In this context, the increasing adoption of digital health technologies, including wearable devices and mobile health applications, as well as Artificial Intelligence and predictive analytics, has transformed post-treatment monitoring. On one hand, it has enabled real-time remote tracking of health metrics (e.g. physical activity, heart rate, sleep patterns etc), facilitating early detection of potential complications and on the other hand help anticipate complications and tailor follow-up schedules to individual patients' needs. Both scenarios lead to generation of diverse data types. Additionally, cancer registries (CRs) and clinical trial databases play a fundamental role in storing longitudinal data on disease progression, survival rates, and treatment efficacy, allowing researchers to analyse trends, identify recurrence risk factors, and refine personalised follow-up guidelines. 
+In this context, the increasing adoption of digital health technologies, including wearable devices and mobile health applications, as well as Artificial Intelligence and predictive analytics, has transformed post-treatment monitoring. On one hand, it has enabled real-time remote tracking of health metrics (e.g. physical activity, heart rate, sleep patterns), facilitating early detection of potential complications, and on the other hand, helps anticipate complications and tailor follow-up schedules to individual patients' needs. Both scenarios lead to the generation of diverse data types. Additionally, cancer registries (CRs) and clinical trial databases play a fundamental role in storing longitudinal data on disease progression, survival rates, and treatment efficacy, allowing researchers to analyse trends, identify recurrence risk factors, and refine personalised follow-up guidelines. 
 
-However, due to the wide heterogeneity of data types, sources, and healthcare systems achieving seamless interoperability and standardisation of follow-up data, to support individualised patient management and optimise data reuse in cancer research remains a major challenge. In addition, data collection and management at this stage presents other challenges, including: (i) the sensitive nature of the data, requiring strict adherence to regulatory and ethical frameworks, (ii) the lack of consistency and/or quality of patient follow-up information, and (iii) the lack of standardisation and inherent subjectivity in survivorship quality-of-life data, influenced by patient perception, reporting methods, and assessment tools. 
+However, due to the wide heterogeneity of data types, sources, and healthcare systems, achieving seamless interoperability and standardisation of follow-up data to support individualised patient management and optimise data reuse in cancer research remains a major challenge. In addition, data collection and management at this stage presents other challenges, including: (i) the sensitive nature of the data, requiring strict adherence to regulatory and ethical frameworks, (ii) the lack of consistency and/or quality of patient follow-up information, and (iii) the lack of standardisation and inherent subjectivity in survivorship quality-of-life data, influenced by patient perception, reporting methods, and assessment tools. 
 
 ### Considerations 
 
 Different considerations should be taken into account depending on the type of data being managed:
 
-* Use specific standards and methods to extract and transform data included in the Electronic Health Record (clinical data, diagnoses, demographics, procedures, medications, vital signs, laboratory results). For Considerations towards improved reuse of EHR refer to the section in the [Health data page](health_data).
-* Considerations for managing  imaging data (and histopathological data), binary files,as well as the associated metadata can be found in the [Bioimaging data page](bioimaging_data).
+* Use specific standards and methods to extract and transform data included in the Electronic Health Record (clinical data, diagnoses, demographics, procedures, medications, vital signs, laboratory results). For Considerations towards improved reuse of EHR, refer to the section in the [Health data page](health_data).
+* Considerations for managing  imaging data (and histopathological data), binary files, as well as the associated metadata can be found in the [Bioimaging data page](bioimaging_data).
 * For human genomic data, established research ethical guidelines and legislations must be followed as described in the [Human data page](human_data).
 * Since health data falls under the "special category of data" as defined by the GDPR, strict guidelines and considerations must be followed when handling this information covered in the [GDPR compliance](gdpr_compliance) and [Data Sensitivity](sensitive) pages of the RDMkit.
 * For PROs, to collect data directly from cancer patients and/or survivors, follow the considerations listed on the health data page. Additionally, since these PROs focus on quality-of-life and are inherently subjective, additional considerations must be addressed:
@@ -217,7 +217,7 @@ Different considerations should be taken into account depending on the type of d
   * Have statistical or methodological approaches been considered to adjust for subjectivity in self-reported data?
   * How is the potential discrepancy between patient-reported outcomes and clinician assessments addressed?
  
-* For data collected from wearable devices and mobile applications, the follow considerations should be taken into account:
+* For data collected from wearable devices and mobile applications, the following considerations should be taken into account:
   
   * Are the wearable devices and mobile applications validated to provide accurate real-time measurements?
   * How is the data quality ensured, considering potential sensor calibration issues, environmental factors, or user error?
