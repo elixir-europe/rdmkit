@@ -1330,9 +1330,9 @@
     fairsharing: ff0b20
     tess: Minimum Information About Disorder Experiments
   url: https://www.psidev.info/intrinsically-disordered-proteins
-- description: Minimum Information About a Plant Phenotyping Experiment
+- description: MIAPPE is an open and community-driven data standard designed to harmonise data from plant phenotyping experiments.
   id: miappe
-  name: MIAPPE
+  name: Minimum Information about Plant Phenotyping Experiment (MIAPPE)
   registry:
     fairsharing: nd9ce9
     tess: MIAPPE
