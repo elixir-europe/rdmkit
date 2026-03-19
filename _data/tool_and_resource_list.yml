@@ -38,11 +38,14 @@
 - description: ONNX is an open format built to represent machine learning models.
   id: onnx
   name: Open Neural Network Exchange (ONNX)
+  registry:
+    biotools: NA
   url: https://onnx.ai/
 - description: The platform where the machine learning community collaborates on models, datasets, and applications.
   id: huggingface
   name: HuggingFace
   registry:
+    fairsharing: NA
     tess: HuggingFace
   url: https://huggingface.co/
 - description: CatBoost is a high-performance open source library for gradient boosting on decision trees.
@@ -173,11 +176,12 @@
   url: http://www.biomedicale.parisdescartes.fr/aop4EUpest/home.php
 - description: APID (Agile Protein Interactomes DataServer) is a server that provides a comprehensive collection of protein interactomes for more than 400 organisms based in the integration of known experimentally validated protein-protein physical interactions (PPIs)
   id: apid-interactomes
-  name: APID Interactomes
+  name: Agile Protein Interactomes Dataserver (APID Interactomes)
   registry:
     biotools: apid
+    fairsharing: 8ye60e
   url: http://apid.dep.usal.es/
-- description: Plan and follow your data. Bring your Data Management Plans closer to where data are generated, analysed and stored.
+- description: Plan and follow your data. Bring your Data Management Plans closer to where data is generated, analysed, and stored.
   id: argos
   name: Argos
   registry:
@@ -325,6 +329,7 @@
   id: bioschemas
   name: Bioschemas
   registry:
+    biotools: bioschemas
     fairsharing: f3a3ca
     tess: Bioschemas
   url: https://bioschemas.org
@@ -519,10 +524,6 @@
     biotools: comptox_chemistry_dashboard
     fairsharing: tfj7gt
   url: https://comptox.epa.gov/dashboard
-- description: An initiative to bring together various formats and standard for computational models in biology
-  id: computational-modeling-in-biology-network
-  name: COmputational Modeling in BIology NEtwork (COMBINE)
-  url: http://co.mbine.org
 - description: Open source package management system
   id: conda
   name: Conda
@@ -734,12 +735,12 @@
     biotools: edal
     tess: e!DAL
   url: https://edal.ipk-gatersleben.de/
-- description: Plant Genomics and Phenomics Research Data Repository
+- description: A repository for plant genomics and phenomics research data, including data from the German Plant Phenotyping Network (DPPN) and the European Plant Phenotyping Network (EPPN).
   id: e-dal-pgp
-  name: e!DAL-PGP
+  name: Plant Genomics and Phenomics Research Data Repository
   registry:
+    biotools: pgp
     fairsharing: rf3m4g
-    tess: e!DAL-PGP
   url: https://edal-pgp.ipk-gatersleben.de/
 - description: The ECOTOXicology Knowledgebase (ECOTOX) is a comprehensive, publicly available Knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants, and wildlife.
   id: ecotox
@@ -1329,9 +1330,9 @@
     fairsharing: ff0b20
     tess: Minimum Information About Disorder Experiments
   url: https://www.psidev.info/intrinsically-disordered-proteins
-- description: Minimum Information About a Plant Phenotyping Experiment
+- description: MIAPPE is an open and community-driven data standard designed to harmonise data from plant phenotyping experiments.
   id: miappe
-  name: MIAPPE
+  name: Minimum Information about Plant Phenotyping Experiment (MIAPPE)
   registry:
     fairsharing: nd9ce9
     tess: MIAPPE
@@ -1467,8 +1468,9 @@
   id: nmrlipids
   name: NMRlipids
   registry:
+    biotools: nmrlipids
     fairsharing: d32bc8
-  url: http://nmrlipids.blogspot.com/
+  url: https://www.databank.nmrlipids.fi/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
   name: NPDS
@@ -1498,6 +1500,8 @@
 - description: OMOP is a common data model for the harmonisation for of observational health data.
   id: omop-cdm
   name: OMOP-CDM
+  registry:
+    tess: OMOP-CDM
   url: https://ohdsi.github.io/CommonDataModel/
 - description: OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.
   id: onotomaton
@@ -1679,8 +1683,9 @@
   url: http://www.proteomexchange.org/
 - description: The HUPO Proteomics Standards Initiative defines community standards for data representation in proteomics and interactomics to facilitate data comparison, exchange and verification.
   id: proteomics-standards-initiative
-  name: HUPO Proteomics Standards Initiative
+  name: The Human Proteome Organisation (HUPO) Proteomics Standards Initiative (PSI)
   registry:
+    biotools: psi
     fairsharing: 9f60e7
   url: https://www.psidev.info/
 - description: A secure platform for developing and sharing reproducible methods.
@@ -1830,6 +1835,7 @@
   id: schema-org
   name: Schema.org
   registry:
+    biotools: schema.org
     fairsharing: hzdzq8
     tess: Schema.org
   url: https://schema.org
@@ -1837,19 +1843,21 @@
   id: sciencemesh
   name: ScienceMesh
   url: https://sciencemesh.io/
-- description: List of respositories recommended by Scientific Data, contains both discipline-specific and general repositories.
+- description: List of repositories recommended by Scientific Data, contains both discipline-specific and general repositories.
   id: scientific-data-s-recommended-repositories
   name: Scientific Data's Recommended Repositories
   url: https://www.nature.com/sdata/policies/repositories
-- description: SeaFile File Synchronization and Share Solution
+- description: SeaFile File Synchronisation and Share Solution
   id: seafile
   name: SeaFile
   url: https://www.seafile.com/
 - description: A semantic data model describing the common data elements for rare diseases registration.
   id: semantic-data-model-of-the-set-of-common-data-elements-for-rare-diseases-registration
   name: Semantic data model of the set of common data elements for rare diseases registration
+  registry:
+    fairsharing: xVAQX9
   url: https://github.com/ejp-rd-vp/CDE-semantic-model
-- description: All-in-one platform for life science data management, semantic data integration, data analysis and visualization
+- description: All-in-one platform for life science data management, semantic data integration, data analysis and visualisation
   id: semares
   name: Semares
   url: https://www.genevention.com/products
@@ -2315,6 +2323,7 @@
   id: gisaid
   name: Global Initiative on Sharing All Influenza Data (GISAID)
   registry:
+    biotools: gisaid
     fairsharing: 2f7f9f
   url: https://gisaid.org
 - description: Protein Data Bank in Europe Knowledge Base
@@ -2339,7 +2348,7 @@
     fairsharing: 826b4a
     tess: KnetMiner
   url: https://knetminer.com
-- description: The RDF Knowledge-based Database for plant molecular networks
+- description: A gene and knowledge discovery platform for plant science, using knowledge graphs and natural language to simplify and accelerate discovery.
   id: agronomic-linked-data
   name: Agronomic Linked Data
   registry:
@@ -2392,7 +2401,9 @@
   url: https://rri-tools.eu/self-reflection-tool
 - description: Information about a proposed standard for sample metadata annotations in public repositories called Sample and Data Relationship File (SDRF)-Proteomics format.
   id: sdrf
-  name: SDRF
+  name: Sample and Data Relationship Format for Proteomics (SDRF)
+  registry:
+    fairsharing: https://doi.org/10.25504/FAIRsharing.4a8cd2
   url: https://github.com/bigbio/proteomics-sample-metadata/tree/master/sdrf-proteomics
 - description: Structural information organiser, collecting structures deposited in public repositories together with computationally predicted models from SARS-CoV-2, as well as their interactions with host proteins.
   id: covid-19-structural-hub
@@ -2477,7 +2488,7 @@
   name: Gene Ontology
   registry:
     biotools: go
-    fairsharing: FGJ2T8
+    fairsharing: 6xq0ee
     tess: Gene Ontology
   url: http://www.geneontology.org/
 - description: Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.
@@ -2534,6 +2545,8 @@
 - description: A set of analysis pipelines that perform sample demultiplexing, barcode processing, single cell gene counting, V(D)J transcript sequence assembly and annotation, and Feature Barcode analysis from single cell data.
   id: cellranger
   name: CellRanger
+  registry:
+    tess: CellRanger
   url: https://www.10xgenomics.com/support/software/cell-ranger
 - description: A comprehensive turnkey solution for quantifying gene expression in single-cell/nucleus RNA-seq data, built into RNA-seq aligner STAR.
   id: starsolo
@@ -2591,6 +2604,8 @@
 - description: A standard used for health care data exchange.
   id: hl7-fhir
   name: HL7 FHIR
+  registry:
+    tess: HL7 FHIR
   url: https://www.hl7.org/fhir/
 - description: A minimal set of clinical research FHIR resources and elements in an EHR that can be utilised in an interoperable and consistent manner for clinical research.
   id: vulcan
@@ -2684,10 +2699,12 @@
   id: loinc
   name: Logical Observation Identifiers Names and Codes (LOINC)
   url: https://loinc.org
-- description: Terminology standard consisting of codes, terms, synonyms and definitions used in clinical documentation and reporting.
+- description: Terminology standard consisting of codes, terms, synonyms, and definitions used in clinical documentation and reporting.
   id: snomed-ct
-  name: Systematized Nomenclature of Medicine - Clinical Terms (SNOMED-CT)
-  url: https://www.snomed.org
+  name: Systematized Nomenclature of Medicine Clinical Terms (SNOMED CT)
+  registry:
+    fairsharing: d88s6e
+  url: https://www.snomed.org/what-is-snomed-ct
 - description: Standardised vocabulary of phenotypic abnormalities encountered in human disease.
   id: hpo
   name: Human Phenotype Ontology (HPO)
@@ -3227,7 +3244,6 @@
   id: isa-wizard
   name: ISA Wizard
   url: https://github.com/IPK-BIT/isa-wizard
-  
 - description: Global Biodiversity Information Facility (GBIF) is an international network and data platform that provides open access to biodiversity data from sources worldwide to support research and conservation.
   id: gbif
   name: Global Biodiversity Information Facility (GBIF)
@@ -3240,6 +3256,7 @@
   id: bold
   name: Barcode of Life Data System (BOLD)
   registry:
+    biotools: bold
     fairsharing: en9npn
   url: https://www.boldsystems.org/
 - description: The Ocean Biodiversity Information System (OBIS) is a global data platform that provides access to marine biodiversity information to support research, conservation, and sustainable ocean management.
@@ -3267,7 +3284,8 @@
   name: DISSCO
   registry:
     biotools: dissco
-    fairsharing: https://fairsharing.org/3816
+    fairsharing: NA
+    fairsharing-coll: 3816
   url: https://www.dissco.eu/
 - description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata for all eukaryotic species and interpolates missing values through phylogenetic comparison.
   id: genomes-on-a-tree
@@ -3306,7 +3324,7 @@
   id: iczn
   name: ICZN
   registry:
-    fairsharing: 5.88e+67
+    fairsharing: '588e65'
   url: https://www.iczn.org/
 - description: The International Code of Nomenclature for algae, fungi, and plants is the set of rules and recommendations that govern the scientific naming of all organisms traditionally treated as algae, fungi, or plants.
   id: iapt
@@ -3352,7 +3370,9 @@
 - description: MADBOT is a web application that provides a dashboard for managing research data and metadata.
   id: madbot
   name: MADBOT
-  url: https://gitlab.com/ifb-elixirfr/madbot
+  registry:
+    biotools: madbot
+  url: https://madbot.france-bioinformatique.fr/
 - description: NMDC Field Notes is a mobile app that streamlines collection of sample information with automated syncing with the NMDC Submission Portal.
   id: nmdc-field-notes
   name: NMDC Field Notes
@@ -3366,6 +3386,8 @@
 - description: Framework for organising and documenting research data, extending ISA, CWL, and RO-Crate.
   id: arc
   name: Annotated Research Context
+  registry:
+    tess: Annotated Research Context
   url: https://arc-rdm.org/
 - description: A secure, free, cross-platform, and open-source drive wiping utility. Should work with any HDD, SSD (read limitations) and flash drives.
   id: lethe
@@ -3391,6 +3413,7 @@
   id: bed
   name: Browser Extensible Data (BED)
   registry:
+    biotools: NA
     fairsharing: mwmbpq
   url: https://genome.ucsc.edu/FAQ/FAQformat.html#format1
 - description: A tab-delimited text file used to describe the functional features of a genome, such as genes, exons, and regulatory elements.
@@ -3407,3 +3430,129 @@
   id: paperpile
   name: Paperpile
   url: https://paperpile.com/
+- description: EDAM is a structured ontology of key concepts used in scientific data analysis and data management, covering topics, operations, data types, identifiers, and formats. It enables consistent semantic annotation and categorisation of scientific resources and supports provenance documentation in data management.
+  id: edam
+  name: EDAM ontology
+  registry:
+    fairsharing: a6r7zs
+    tess: EDAM ontology
+  url: https://edamontology.org/page
+- description: is an open archive for software source code
+  id: software-heritage
+  name: Software Heritage
+  registry:
+    fairsharing: 6ffb92
+  url: https://www.softwareheritage.org/
+- description: AgroDataCube is a comprehensive data platform that provides access to a wide range of agricultural data, including soil, weather, crop, and management information, to support research and decision-making in agriculture.
+  id: agrodatacube
+  name: AgroDataCube
+  url: https://agrodatacube.wur.nl/
+- description: A data repository for agricultural research data, providing a platform for sharing and accessing datasets related to agriculture and food systems.
+  id: agcros
+  name: Agricultural Collaborative Research Outcomes System (AgCROS)
+  url: https://agcros.org/
+- description: The Tool for Agroecology Performance Evaluation (TAPE) is a software tool designed to assess and evaluate the performance of agroecological practices. It provides a framework for analysing various aspects of agroecology, including environmental, economic, and social factors, to support sustainable agricultural practices.
+  id: tape
+  name: Tool for Agroecology Performance Evaluation (TAPE)
+  url: https://www.fao.org/agroecology/tools-tape
+- description: Crop Nutrient Data is a comprehensive database that provides information on the nutrient content of various crops.
+  id: crop-nutrient-data
+  name: Crop Nutrient Data
+  url: https://cropnutrientdata.net/
+- description: Machine-independent data model and file format for storing and sharing array-oriented scientific data with self-describing metadata
+  id: netcdf
+  name: NetCDF
+  registry:
+    biotools: netcdf
+    fairsharing: 995b08
+    tess: NetCDF
+  url: https://www.unidata.ucar.edu/software/netcdf/
+- description: Tab-delimited (TSV) metadata format based on the ISA model to describe investigations, studies, and assays, capturing experimental design, sample metadata, protocols, and sample-to-data relationships
+  id: isa-tab
+  name: ISA-Tab
+  registry:
+    fairsharing: 53gp75
+    tess: ISA-Tab
+  url: https://isa-specs.readthedocs.io/en/latest/isatab.html
+- description: Plain-text tabular file format where each row is a record and fields are separated by commas; widely supported for exchanging simple tables
+  id: csv
+  name: CSV (Comma-Separated Values)
+  registry:
+    fairsharing: 1943d4
+    tess: CSV
+  url: https://tools.ietf.org/html/rfc4180
+- description: Extends Schema.org and Bioschemas to provide a pragmatic, "farm-to-fork" pathway for the automatic integration of large, semi-structured datasets in exploratory research.
+  id: agrischemas
+  name: AgriSchemas
+  registry:
+    biotools: agrischemas
+  url: https://github.com/Rothamsted/agri-schemas
+- description: A data model for the collection of cancer-related clinical information and genomics metadata.
+  name:  The Minimal Dataset for Cancer of the 1+Million Genomes Initiative (1+MG-MDC)
+  id: 1pmg-mdc
+  url: https://zenodo.org/records/10784601
+- description: The PSI-MS Controlled Vocabulary consists of a large collection of structured terms covering description and use of Mass Spectrometry instrumentation as well as Protein Identification and Quantitation software.
+  id: psi-ms
+  name: HUPO PSI Mass Spectrometry Controlled Vocabulary (PSI-MS CV)
+  registry:
+    fairsharing: sxh2dp
+  url: https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo
+- description: A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions.
+  id: psi-mi
+  name: PSI Molecular Interaction Controlled Vocabulary (PSI-MI CV)
+  registry:
+    fairsharing: 8qzmtr
+  url: http://www.psidev.info/groups/molecular-interactions
+- description: The XLMOD ontology is a structured, controlled vocabulary for cross-linking reagents and cross-linker-related post-translational modifications used in cross-linking mass spectrometry experiments and derivatisation reagents for GC-MS.
+  id: xlmod
+  name: HUPO-PSI cross-linking and derivatization reagents controlled vocabulary (XLMOD)
+  registry:
+    fairsharing: 6ccbe6
+  url: https://github.com/HUPO-PSI/xlmod-CV
+- description: MIAPE defines the minimum set of information about whole proteomics experiments that would be required in a public repository.
+  id: miape
+  name: Minimum Information About a Proteomics Experiment (MIAPE)
+  registry:
+    fairsharing: 8vv5fc
+  url: http://www.psidev.info/miape
+- description: mzML was formed to amalgamate two formats for encoding raw spectrometer data; mzData, developed by the PSI, and mzXML, developed at the Seattle Proteome Center at the Institute for Systems Biology.
+  id: mzml
+  name: mz Markup Language (mzML)
+  registry:
+    fairsharing: 26dmba
+  url: http://www.psidev.info/mzml
+- description: mzIdentML provides a common format for the export of identification results from any search engine.
+  id: mzidentml
+  name: mz peptide and protein Identification Markup Language (mzIdentML)
+  registry:
+    fairsharing: 11889
+  url: https://www.psidev.info/mzidentml
+- description: This format aims to present the results of a proteomics experiment in a computationally accessible overview.
+  id: mztab
+  name: mzTab
+  registry:
+    fairsharing: c12tyk
+  url: https://www.psidev.info/mztab-specifications
+- description: jPOSTrepo (Japan ProteOme STandard Repository) is a data repository for sharing MS raw/processed data.
+  id: jpostrepo
+  name: Japan Proteome Standard Repository (jPOSTrepo)
+  registry:
+    fairsharing: p899f7
+  url: https://repository.jpostdb.org/
+- description: iProX is a public platform for collecting and sharing raw data, analysis results and metadata obtained from proteomics experiments.
+  id: iprox
+  name: iProX
+  registry:
+    biotools: iprox
+    fairsharing: 4Sj3vE
+  url: https://www.iprox.org/
+- description: Panorama Public is a data repository for sharing and disseminating results from analysing mass spectrometry data with the Skyline software, supporting targeted analysis of proteomics or metabolomics data from a variety of mass spectrometry data acquisition techniques.
+  id: panoramapublic
+  name: Panorama Public
+  registry:
+    fairsharing: uBpQ1q
+  url: https://panoramaweb.org/home/project-begin.view
+- description: Proton Drive is a secure cloud storage platform for protecting critical files and information.
+  id: proton-drive
+  name: Proton Drive
+  url: https://proton.me/drive

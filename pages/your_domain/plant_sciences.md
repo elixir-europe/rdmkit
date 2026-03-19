@@ -2,6 +2,7 @@
 title: Plant sciences
 description: Data management solutions for plant sciences data.
 contributors: [Anne-Françoise Adam-Blondon, Sebastian Beier, Cyril Pommier, Erwan Le Floch, Daniel Faria, Timothé Cezard, Daniel Arend, Matthijs Brouwer, Manuel Feser]
+editors: [Bert Droesbeke, Federico Bianchini, Ulrike Wittig]
 page_id: plants
 related_pages: 
   Your_tasks: [metadata]
@@ -10,6 +11,9 @@ training:
   - name: Training in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
+fairsharing:
+- name: Plant sciences collection
+  url: https://fairsharing.org/7479
 faircookbook:
 - name: Improving dataset maturity - MIAPPE-compliant submission to EMBL-EBI databases
   url: https://w3id.org/faircookbook/FCB061
@@ -59,7 +63,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 
 ### Considerations
 * Are you working with established plant varieties, namely crop plants?
-  * Can you trace their provenance to a genebank accession or a plant variety registered in a [national catalog](https://ec.europa.eu/food/plant-variety-portal/)?
+  * Can you trace their provenance to a genebank accession or a plant variety registered in a [national catalogue](https://ec.europa.eu/food/plant-variety-portal/)?
   * Are they identified in a germplasm database with an accession number?
 * Are you working with crosses of established plant varieties?
   * Can you trace the genealogy of the crosses to plant varieties from a genebank or identified in a germplasm database?

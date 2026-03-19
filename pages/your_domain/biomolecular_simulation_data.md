@@ -3,6 +3,7 @@ title: Biomolecular simulation data
 page_id: biomol_sim
 description: Data management solutions for biomolecular simulation data.
 contributors: [Karel Berka, Adam Hospital]
+editors: [Daniel Faria]
 related_pages:
   Your_tasks: [data_publication, metadata, storage]
   Tool_assembly: []
@@ -12,6 +13,9 @@ training:
     url: https://tess.elixir-europe.org/search?q=biomolecular%20simulation
   - name: BioExcel Knowledge Resource Center
     url: https://krc.bioexcel.eu/training
+fairsharing:
+- name: Biomolecular simulation data collection
+  url: https://fairsharing.org/7485
 ---
 ## Introduction
 Biomolecular simulations are important technique for our understanding and design of biological molecules and their interactions. Simulation methods are demonstrating rapidly growing impact in areas as diverse as biocatalysis, drug delivery, biomaterials, biotechnology, and drug or protein design. Simulations offer the potential of uniquely detailed, atomic‐level insight into mechanisms, dynamics, and processes, as well as increasingly accurate predictions of molecular properties. Yet the field only relatively recently started to store and share (bio)simulation data to be reused for new, unexpected projects, and started discussions about their biomolecular simulation data FAIRification (i.e. to make them Findable, Accessible, Interoperable and Reusable). Here we show several current possibilities moving in this direction, but we should stress that these guidelines are not carved to stone and the biomolecular simulation community still needs to address challenges to FAIRify their data.
@@ -46,7 +50,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 
 ### Solutions
 
-* Deposit your data to a suitable repository for sharing. There’s a long (and incomplete) list of repositories available for data sharing. Repositories are divided into two main categories, *general-purpose* and *discipline-specific*, and both categories are utilised in the domain of biomolecular modeling and simulation. For a general introduction to repositories, you are advised to read the [data publication](data_publication) page.
+* Deposit your data to a suitable repository for sharing. There’s a long (and incomplete) list of repositories available for data sharing. Repositories are divided into two main categories, *general-purpose* and *discipline-specific*, and both categories are utilised in the domain of biomolecular modelling and simulation. For a general introduction to repositories, you are advised to read the [data publication](data_publication) page.
   * General-purpose repositories such as {% tool "zenodo" %}, {% tool "figshare" %}, {% tool "mendeley-data" %}, {% tool "dryad" %}, and {% tool "openscienceframework" %} can be used.
   * Discipline-specific repositories can be used when the repository supports the type of data to be shared e.g. molecular dynamics data. Repositories for various data types and models are listed below:
     * Molecular Dynamics repositories
@@ -63,14 +67,14 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 
     * Docking respositories
       * {% tool "molssi" %} - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
-      * {% tool "pdb-dev" %} - prototype archiving system for structural models using integrative or hybrid modeling, [with submission process](https://pdb-dev.wwpdb.org/deposit.html).
+      * {% tool "pdb-dev" %} - prototype archiving system for structural models using integrative or hybrid modelling, [with submission process](https://pdb-dev.wwpdb.org/deposit.html).
       * {% tool "modelarchive" %} - theoretical models of macromolecular structures, [with submission process](https://modelarchive.org/account).
 
     * Virtual Screening repositories:
       * {% tool "bioactive-conformational-ensemble" %} - small molecule conformations, [with submission process](https://mmb.irbbarcelona.org/BCE/db/upload).
       * {% tool "bindingdb" %} - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, [with submission process](https://www.bindingdb.org/bind/contributedata.jsp).
 
-    * Repositories for the analyzed data from simulations:
+    * Repositories for the analysed data from simulations:
        * {% tool "molmedb" %} - for molecule-membrane interactions and free energy profiles, [with submission process](mailto:molmedb@upol.cz).  
        * {% tool "channelsdb" %} - resource of channels, pores and tunnels found in biomacromolecules, [with submission process](https://channelsdb2.biodata.ceitec.cz/contribute.html).
 

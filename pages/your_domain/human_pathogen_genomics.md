@@ -2,6 +2,7 @@
 title: Human pathogen genomics
 description: Data management solutions for Human pathogen genomics
 contributors: [Diana Pilvar, Espen Åberg, Wolmar Nyberg Åkerström, Rafael Andrade Buono]
+editors: [Bert Droesbeke, Flora D'Anna]
 page_id: human_pathogen_genomics
 related_pages: 
   Your_tasks:
@@ -13,6 +14,9 @@ related_pages:
   Tool_assembly:
     - covid-19
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
+fairsharing:
+- name: Human pathogen genomics collection
+  url: https://fairsharing.org/7489
 ---
 
 ## Introduction
@@ -73,7 +77,7 @@ While the objects of interest in this domain are pathogens, the data is usually 
     * [ISO 20397-2:2021 Biotechnology — Massively parallel sequencing — Part 2: Quality evaluation of sequencing data](https://www.iso.org/standard/67895.html)
     * [ISO/TS 20428:2017 Health informatics — Data elements and their metadata for describing structured clinical genomic sequence information in electronic health records](https://www.iso.org/standard/67981.html)
     * [ISO/TS 22692:2020 Genomics informatics — Quality control metrics for DNA sequencing](https://www.iso.org/standard/73693.html)
-    * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterization of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
+    * [ISO 23418:2022 Microbiology of the food chain — Whole genome sequencing for typing and genomic characterisation of bacteria — General requirements and guidance](https://www.iso.org/obp/ui/#iso:std:iso:23418:ed-1:v1:en)
 
 ## Collecting and processing pathogen genomic data
 

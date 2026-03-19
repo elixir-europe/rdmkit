@@ -5,6 +5,7 @@ search_exclude: true
 country_code: <!---REPLACE THIS with the ISO 3166-1-alpha-2 country code, capital letters--->
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 coordinators: [<!---REPLACE THIS with the name of data management coordinators of your ELIXIR node--->]
+editors: [<!---REPLACE THIS with comma separated list of editors (to be filled in by an editor)--->]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id.
 # More information on which page_id you can use can be found at https://rdmkit.elixir-europe.org/website_overview 
@@ -25,7 +26,7 @@ training:
     registry: <!---REPLACE THIS with the name of the registry--->
     url: <!---REPLACE THIS with the url of your training registry or platform--->
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organisations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
   -  <!---REPLACE THIS with the tool id--->
 
@@ -66,3 +67,12 @@ national_resources:
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
+
+<!--- IF APPLICABLE
+## Bibliography 
+
+{% bibliography --cited %}
+
+
+More info on how to use a bibliography can be found in our style guide: https://rdmkit.elixir-europe.org/style_guide#bibliography
+--->

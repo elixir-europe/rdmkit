@@ -1,8 +1,8 @@
 ---
 title: Machine learning
 description: This page is about setting best practices for data towards enabling FAIR ML.
-contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi,
-Edward Parkinson, Federico Bianchini, Munazah Andrabi]
+contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi, Edward Parkinson, Munazah Andrabi]
+editors: [Bert Droesbeke, Federico Bianchini, Ulrike Wittig]
 page_id: machine_learning
 related_pages:
   Your_tasks: [data_quality, sensitive]
@@ -10,7 +10,9 @@ training:
   - name: Machine learning events and materials on TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=machine+learning#events
-
+fairsharing:
+- name: Machine learning collection
+  url: https://fairsharing.org/7473
 ---
 ## What is machine learning (on this page)?
  
@@ -75,7 +77,7 @@ To prepare data for ML models, several steps need to be followed. Firstly, data 
 - Are there duplicates in the data?
 - Does every subset (train, validation, and test) of the data represent the overall population, if data has been split?
 - Data provenance: The source of the data, and whether it is recognised by the community. (source of data, involved points and more)
-- Dataset size: Ensure the data set captures the full complexity of the underlying distribution, for example, the biological heterogeneity in the sample population.
+- Dataset size: Ensure the dataset captures the full complexity of the underlying distribution, for example, the biological heterogeneity in the sample population.
 - Balanced dataset: a dataset where all classes are properly and equally represented (i.e. same number of cases in each class and more).
 - Availability of data/License associated with data
 - Are the data  processed and AI-ready? One of the possible ways to achieve this would be through a curation effort.

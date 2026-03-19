@@ -2,6 +2,7 @@
 title: Human data
 description: Data management solutions for human data.
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Vilem Ded, Teresa D'Altri]
+editors: [Niclas Jareborg]
 page_id: human_data
 related_pages:
   Your_tasks: [sensitive, gdpr_compliance]
@@ -16,6 +17,9 @@ training:
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
   - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
     url: https://academy.ehden.eu/
+fairsharing:
+- name: Human data collection
+  url: https://fairsharing.org/7483
 dsw:
 - name: Will you collect any data connected to a person, "personal data"?
   uuid: 49c009cb-a38c-4836-9780-8a8b3dd1cbac

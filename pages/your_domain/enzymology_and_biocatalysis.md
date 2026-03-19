@@ -2,10 +2,14 @@
 title: Enzymology and biocatalysis
 description: Data management solutions for enzymology and biocatalysis data.
 contributors: [Carsten Kettner, Jürgen Pleiss, Johann Rohwer, Hans V. Westerhoff, Ulrike Wittig]
+editors: [Bert Droesbeke, Federico Bianchini, Gil Poiares-Oliveira, Ulrike Wittig]
 page_id: enzym_biocat
 related_pages: 
   Your_tasks: [data_publication, data_quality, metadata]
   Tool_assembly: []
+fairsharing:
+- name: Enzymology and biocatalysis collection
+  url: https://fairsharing.org/7484
 ---
 
 ## Introduction
@@ -29,9 +33,9 @@ Additional information is required for both the investigation and reporting of t
 
 ### Considerations
 Prerequisite for the reproducibility of enzyme activity datasets is the reporting in a complete way, without omissions and without the lack of essential information that allows other researchers to corroborate, interpret and reuse the data. Therefore, the major questions to fulfill these aspects include:
-* Which data are required to provide complete data sets?
+* Which data are required to provide complete datasets?
 * What is the minimal data accepted to be considered complete?
-* What is the minimal data set required to make the data useful for studies of metabolic pathways?
+* What is the minimal dataset required to make the data useful for studies of metabolic pathways?
 * Which metadata describe both the materials and methods data and results data most appropriately?
 * From where can I obtain the metadata?
 * What should be the best way to define the metabolic energy of reactions, substrates and metabolites?
@@ -52,7 +56,7 @@ The nomenclature of an enzyme should follow the systematic classification and nu
 ## Data structure and exchange
  
 ### Description
-When sampling and collecting data for deposition, sharing, and exchanging, the data needs to be structured in a way that both the sender and the recipient of the data are enabled to directly integrate these into their workflow. When structuring data, usually ontologies and metadata catalogs provide a valuable means for the integration of controlled vocabularies, ontologies and additional information that enriches the experimental data. Structured data is required that follows community-based principles to increase the findability of the data on the web.
+When sampling and collecting data for deposition, sharing, and exchanging, the data needs to be structured in a way that both the sender and the recipient of the data are enabled to directly integrate these into their workflow. When structuring data, usually ontologies and metadata catalogues provide a valuable means for the integration of controlled vocabularies, ontologies and additional information that enriches the experimental data. Structured data is required that follows community-based principles to increase the findability of the data on the web.
 
 ### Considerations
 Before data can be sampled in a structured way, frameworks and tools are required to assist the researcher in compiling complete and high-quality datasets. Therefore, the major questions that address the requirement of standardised and structured data include:

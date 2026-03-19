@@ -1,48 +1,26 @@
-name: Validation of the tools and page metadata
+name: Update registries and services links
 on:
-  pull_request:
-    branches: [ master, main ]
   schedule:
     - cron:  '0 13 * * 1'
   workflow_dispatch:
 
 jobs:
-  validation:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install ruamel.yaml requests python-frontmatter
-      - name: Run tool table 2 yaml
-        run: | 
-          python var/tools_validator.py
-  
   registry-lookup:
     if: |
-        github.repository_owner == 'elixir-europe' &&  github.event_name != 'pull_request'
+        github.repository_owner == 'elixir-europe'
   
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        python-version: [3.8]
+        python-version: [3.13]
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
 
@@ -50,6 +28,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install ruamel.yaml requests python-frontmatter
+
+      - name: Run script for creating or updating FAIRsharing collections
+        run: | 
+          python var/fairsharing_integration.py --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
 
       - name: Run regsitry lookup for the tools file
         run: | 
@@ -83,16 +65,21 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update tool/resource_list.yaml
-          title: 'Automatic tool/resource-list update'
+          commit-message: Update tools table and page metadata
+          title: 'Automatic updating of the tools table and page metadata'
           body: |
-            This PR is automatically generated based on changes in the main_tool_and_resource_list.csv file or based on new links made between the tool table and TeSS.
+            This PR is automatically generated based on changes in the tool_and_resource_list.yml file or updates in the page metadata. The updates are generated using the API of following registries/services:
+              - DSW
+              - FAIRsharing
+              - Bio.tools
+              - TeSS
+              - FAIR Cookbook
 
             Please verify if these changes are valid.
           labels: |
             automatic PR
           reviewers: bedroesb
-          branch: list_updates
+          branch: registry-updates
           base: master
 
       - name: Check output

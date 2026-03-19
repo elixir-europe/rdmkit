@@ -3,6 +3,7 @@
 title: Cyprus
 country_code: CY
 contributors: [Anastasis Oulas, Nicolas Kylilis, Nestoras Karathanasis, George Spyrou, Vasilis Promponas]
+editors: [Bert Droesbeke, Nazeefa Fatima]
 coordinators: [Anastasis Oulas]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
@@ -10,7 +11,7 @@ related_pages:
 
 training:
 
-# Refer to entries of the "main_tool_ and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organisations and projects from the country contribute to the development of international tools and resources. 
 ref_to_main_resources: 
 
 # List here tools and resources mainly relevant for the specific country

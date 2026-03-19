@@ -2,11 +2,14 @@
 title: Health data
 description: Data management solutions for human health data.
 contributors: [Marcus Buchwald, Tim Beck, Saskia Lawson-Tovey, Gerhard Mayer, Soumyabrata Ghosh, Philip Quinlan, Venkata Satagopam, Jan Willem Boiten, Patrick Ruch, Hindrik Kerstens, Carlos Luís Parra Calderón, Salvador Capella-Gutierrez, Magda Chegkazi, Arshiya Merchant]
+editors: [Bert Droesbeke, Munazah Andrabi, Federico Bianchini, Laura Portell Silva]
 page_id: health_data
 related_pages: 
   Your_tasks: [sensitive, gdpr_compliance]
   Your_domain: [human data]
-  
+fairsharing:
+- name: Health data collection
+  url: https://fairsharing.org/7492
 faircookbook:
 - name: Creating a metadata profile for clinical trial protocols
   url: https://w3id.org/faircookbook/FCB084
@@ -17,7 +20,7 @@ faircookbook:
 
 Human ‘health data’ is a broad concept encapsulating diverse data types and modalities, including omics and clinical data. Clinical data (routinely collected or originating from clinical studies) includes but is not limited to images, healthcare administrative data (e.g. demographics), free text and patient-generated data from questionnaires or real-world wearables/mobile devices. This page describes data management considerations and solutions for two widely collected data types used in health data research studies: data about the patient from questionnaires and electronic health records (EHRs) generated from interactions with the healthcare system. Future versions of this page will include additional health data types.
 
-All scientific research involving data processing concerning identifiable people in the European Union is subject to the General Data Protection Regulation (GDPR) and may require ethics approval. This page will not repeat the GDPR, ethics and data anonymization information given elsewhere in RDMkit, namely on the [GDPR compliance](gdpr_compliance), [Ethical aspects](ethics), [Data sensitivity](data_sensitivity) and [Human data pages](human_data), which should be familiar to scientists working with health data. The content on this page is also distinct from the [Rare disease data page](rare_disease_data), which considers collecting and processing data specific to rare diseases. Country-specific RDM resources, including existing national solutions or RDM advice specific to national policies/funders/infrastructures are on the [National Resources pages](national_resources). The information presented on this page is disease and country-agnostic.
+All scientific research involving data processing concerning identifiable people in the European Union is subject to the General Data Protection Regulation (GDPR) and may require ethics approval. This page will not repeat the GDPR, ethics and data anonymisation information given elsewhere in RDMkit, namely on the [GDPR compliance](gdpr_compliance), [Ethical aspects](ethics), [Data sensitivity](data_sensitivity) and [Human data pages](human_data), which should be familiar to scientists working with health data. The content on this page is also distinct from the [Rare disease data page](rare_disease_data), which considers collecting and processing data specific to rare diseases. Country-specific RDM resources, including existing national solutions or RDM advice specific to national policies/funders/infrastructures are on the [National Resources pages](national_resources). The information presented on this page is disease and country-agnostic.
 
 
 ## Patient-generated health data from questionnaires 

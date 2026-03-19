@@ -1,6 +1,7 @@
 ---
 title: Data deletion
 contributors: [Vilem Ded]
+editors: [Bert Droesbeke, Federico Bianchini, Diana Pilvar, Ulrike Wittig]
 description: How to properly delete data
 page_id: data_deletion
 ---

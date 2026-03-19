@@ -45,7 +45,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
   * **References:**
     * add your citations as bibtex to the `_bibliography/references.bib` file
     * add `{% cite reference_key %}` to the text where you are citing the reference
-    * add  `## Bibliography` `{% bibliography --cited %}` to show a bibliography section with cited refrences on a page.
+    * add  `## Bibliography` `{% bibliography --cited %}` to show a bibliography section with cited references on a page.
   * **That/which:** use "that" when you are defining something and "which" when you are adding extra information about it e.g.:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause, and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
@@ -55,7 +55,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 
 ## Bibliography
  * RDMkit uses BibTeX to create page bibliographies.
- * Follow these instuctions to create and display a bibiography on your page:
+ * Follow these instructions to create and display a bibliography on your page:
    1. Add your citations in the `_bibliography/references.bib` file. Refer to the instructions below for more information on the format.
    1. Add {% raw %} `{% cite reference_key %}` {% endraw %} to the text where you are citing one of your entries.
    1. Add {% raw %} `## Bibliography {% bibliography --cited %}` {% endraw %} in your page to show a bibliography section containing the references you have added following the instructions in the previous point. 
@@ -100,7 +100,7 @@ not be part of the information provided by the contributors.
       | <span style="display: inline-block; width: 20px; height: 20px; background: #73757d;"></span> | #73757d | Gray | Gray text, Fourth level heading (h4) |
       | <span style="display: inline-block; width: 20px; height: 20px; background: #f3f1f2;"></span> | #f3f1f2 | Light gray | Box backgrounds |
   * **Fonts:** Exo 2 is used for headings and main branding font, Open Sans for body text.
-  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and the right to publish them without attribution. Other icons on this site are either desgined by Xènia Pérez Sitjà or come from [Font Awesome](https://fontawesome.com/).
+  * **Icons:** the icons used in the data life cycle diagram come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). We have a Pro license and the right to publish them without attribution. Other icons on this site are either designed by Xènia Pérez Sitjà or come from [Font Awesome](https://fontawesome.com/).
   * **Templates:** keep the structure of the pages consistent by using the site templates (see the [contribute page](how_to_contribute)).
   * **Illustrations:** use the colours listed above. The icons we use for illustrations come from the [Noun Project](https://thenounproject.com/ELIXIRCommunications/kit/rdmkit/). Please use these icons in any illustrations. If you need extra icons or any help with illustrations, [open a new issue](https://github.com/elixir-europe/rdmkit/issues) on GitHub or email [rdm-toolkit@elixir-europe.org](mailto:rdm-toolkit@elixir-europe.org).
   * **Images:**

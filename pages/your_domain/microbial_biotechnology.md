@@ -2,10 +2,14 @@
 title: Microbial biotechnology
 description: Data management solutions for microbial biotechnology data.
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
+editors: [Munazah Andrabi]
 page_id: micro_biotech
 related_pages: 
   Your_tasks: []
   Tool_assembly: []
+fairsharing:
+- name: Microbial biotechnology collection
+  url: https://fairsharing.org/7481
 ---
 
 ## Introduction
@@ -161,7 +165,7 @@ How can the models be shared via repositories and made  available in a way that 
 
 ### Solutions
 * {% tool "systems-biology-markup-language" %} is a popular standardised format for sharing mathematical models for which a variety of tools are available for model building.
-* More generally, the {% tool "computational-modeling-in-biology-network" %}, provides a platform for coordinating the standardisation of models in biology.
+* More generally, the [COmputational Modeling in BIology NEtwork (COMBINE)](http://co.mbine.org) provides a platform for coordinating the standardisation of models in biology.
 * SBOL can also be used to associate a genetic design with its corresponding model.
 * Models can be shared in model repositories such as {% tool "biomodels" %}.
 

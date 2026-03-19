@@ -1,7 +1,8 @@
 ---
 title: Assembly page title
 search_exclude: true
-contributors: [<!---REPLACE THIS with comma separated list of contributors--->] 
+contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
+editors: [<!---REPLACE THIS with comma separated list of editors (to be filled in by an editor)--->]
 description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitiations for the audience--->
 affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work--->]
 page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo
@@ -37,3 +38,11 @@ In the event that you describe a domain specific tool assembly and no adequate D
 <!--- Add more sections as needed. --->
 ...
 
+<!--- IF APPLICABLE
+## Bibliography 
+
+{% bibliography --cited %}
+
+
+More info on how to use a bibliography can be found in our style guide: https://rdmkit.elixir-europe.org/style_guide#bibliography
+--->
