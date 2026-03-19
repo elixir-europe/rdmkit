@@ -3480,7 +3480,7 @@
     fairsharing: 1943d4
     tess: CSV
   url: https://tools.ietf.org/html/rfc4180
-- description: Extends schema.org and Bioschemas to provide a pragmatic, "farm-to-fork" pathway for the automatic integration of large, semi-structured datasets in exploratory research.
+- description: Extends Schema.org and Bioschemas to provide a pragmatic, "farm-to-fork" pathway for the automatic integration of large, semi-structured datasets in exploratory research.
   id: agrischemas
   name: AgriSchemas
   registry:
