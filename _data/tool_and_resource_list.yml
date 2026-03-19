@@ -1330,9 +1330,9 @@
     fairsharing: ff0b20
     tess: Minimum Information About Disorder Experiments
   url: https://www.psidev.info/intrinsically-disordered-proteins
-- description: Minimum Information About a Plant Phenotyping Experiment
+- description: MIAPPE is an open and community-driven data standard designed to harmonise data from plant phenotyping experiments.
   id: miappe
-  name: MIAPPE
+  name: Minimum Information about Plant Phenotyping Experiment (MIAPPE)
   registry:
     fairsharing: nd9ce9
     tess: MIAPPE
@@ -2348,7 +2348,7 @@
     fairsharing: 826b4a
     tess: KnetMiner
   url: https://knetminer.com
-- description: The RDF Knowledge-based Database for plant molecular networks
+- description: A gene and knowledge discovery platform for plant science, using knowledge graphs and natural language to simplify and accelerate discovery.
   id: agronomic-linked-data
   name: Agronomic Linked Data
   registry:
@@ -3481,6 +3481,12 @@
     fairsharing: 1943d4
     tess: CSV
   url: https://tools.ietf.org/html/rfc4180
+- description: Extends Schema.org and Bioschemas to provide a pragmatic, "farm-to-fork" pathway for the automatic integration of large, semi-structured datasets in exploratory research.
+  id: agrischemas
+  name: AgriSchemas
+  registry:
+    biotools: agrischemas
+  url: https://github.com/Rothamsted/agri-schemas
 - description: A data model for the collection of cancer-related clinical information and genomics metadata.
   name:  The Minimal Dataset for Cancer of the 1+Million Genomes Initiative (1+MG-MDC)
   id: 1pmg-mdc
