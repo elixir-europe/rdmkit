@@ -3481,6 +3481,10 @@
     fairsharing: 1943d4
     tess: CSV
   url: https://tools.ietf.org/html/rfc4180
+- description: A data model for the collection of cancer-related clinical information and genomics metadata.
+  name:  The Minimal Dataset for Cancer of the 1+Million Genomes Initiative (1+MG-MDC)
+  id: 1pmg-mdc
+  url: https://zenodo.org/records/10784601
 - description: The PSI-MS Controlled Vocabulary consists of a large collection of structured terms covering description and use of Mass Spectrometry instrumentation as well as Protein Identification and Quantitation software.
   id: psi-ms
   name: HUPO PSI Mass Spectrometry Controlled Vocabulary (PSI-MS CV)
