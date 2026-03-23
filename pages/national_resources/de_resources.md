@@ -7,7 +7,7 @@ editors: [Bert Droesbeke, Ulrike Wittig, Laura Portell Silva]
 coordinators: [Ulrike Wittig]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Germany Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/materials?node=Germany
 
@@ -72,7 +72,6 @@ ref_to_main_resources:
   - sabiork
   - standards-for-reporting-enzyme-data
   - strenda-db
-
 
 ---
 

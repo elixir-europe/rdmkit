@@ -8,7 +8,7 @@ related_pages:
   Your_tasks: [metadata]
   Tool_assembly: [marine_assembly]
 training:
-  - name: Training in TeSS
+  - name: Marine metagenomics Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=marine%20metagenomics
 fairsharing:

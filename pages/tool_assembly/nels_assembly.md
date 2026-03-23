@@ -9,7 +9,7 @@ related_pages:
   Your_tasks: [dmp, data_organisation, storage, data_publication, data_transfer, metadata]
   Your_domain: []
 training:
-  - name: Training in TeSS
+  - name: NeLS Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=NeLS+Norway
 ---

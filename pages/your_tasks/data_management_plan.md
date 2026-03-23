@@ -6,7 +6,7 @@ page_id: dmp
 related_pages: 
   Tool_assembly: [nels, tsd]
 training:
-  - name: Training in TeSS
+  - name: Data management plan Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+management+plan%22#materials
 ---
