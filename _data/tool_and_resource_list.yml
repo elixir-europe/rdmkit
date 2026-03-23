@@ -1335,7 +1335,7 @@
   name: Minimum Information about Plant Phenotyping Experiment (MIAPPE)
   registry:
     fairsharing: nd9ce9
-    tess: MIAPPE
+    tess: Minimum Information about Plant Phenotyping Experiment
   url: https://www.miappe.org/
 - description: Cloud storage and file sharing service from Microsoft
   id: microsoft-azure
@@ -3488,8 +3488,10 @@
     biotools: agrischemas
   url: https://github.com/Rothamsted/agri-schemas
 - description: A data model for the collection of cancer-related clinical information and genomics metadata.
-  name:  The Minimal Dataset for Cancer of the 1+Million Genomes Initiative (1+MG-MDC)
   id: 1pmg-mdc
+  name: The Minimal Dataset for Cancer of the 1+Million Genomes Initiative (1+MG-MDC)
+  registry:
+    fairsharing: 0d9069
   url: https://zenodo.org/records/10784601
 - description: The PSI-MS Controlled Vocabulary consists of a large collection of structured terms covering description and use of Mass Spectrometry instrumentation as well as Protein Identification and Quantitation software.
   id: psi-ms
