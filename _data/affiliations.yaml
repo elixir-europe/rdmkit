@@ -71,10 +71,10 @@
   expose: true
   type: institution
 - name: ELIXIR CONVERGE
-  image_url: /assets/img/converge_logo.svg
+  image_url: /images/projects/converge_logo.svg
   pid: https://cordis.europa.eu/project/id/871075
   expose: true
-  type: funder
+  type: project
   url: https://elixir-europe.org/about-us/how-funded/eu-projects/converge
 - name: Research Council of Norway
   image_url: /images/funders/Forskningsdagene_Ikon_Rod_RGB.svg
@@ -101,22 +101,22 @@
   type: project
   url: https://bioexcel.eu/
 - name: TeSS
-  image_url: /images/projects/tess_logo.svg
+  image_url: /images/collaborators/tess_logo.svg
   pid:
   expose: true
-  type: project
+  type: collaborator
   url: https://tess.elixir-europe.org/
 - name: FAIRsharing
-  image_url: /images/projects/FAIRsharing-sdp.svg
+  image_url: /images/collaborators/FAIRsharing-sdp.svg
   pid:
   expose: true
-  type: project
+  type: collaborator
   url: https://fairsharing.org/
 - name: Bio.tools
-  image_url: /images/projects/bio.tools.svg
+  image_url: /images/collaborators/bio.tools.svg
   pid:
   expose: true
-  type: project
+  type: collaborator
   url: https://bio.tools/
 - name: ELIXIR Europe
   image_url: /images/infrastructures/ELIXIR-logo.svg
@@ -141,24 +141,24 @@
   pid:
   expose: false
   type: infrastructure
-  url: https://nels.bioinfo.no/
+  url: https://nels.elixir.no/
 - name: European Union
-  image_url: /images/funders/European_Commission.svg
+  image_url: /assets/img/Flag_of_Europe.svg
   pid: http://dx.doi.org/10.13039/501100000780
   expose: false
   type: funder
   url: https://ec.europa.eu/
 - name: Data Stewardship Wizard
-  image_url: /images/projects/dsw-logo-full-color-filled.svg
+  image_url: /images/collaborators/dsw-logo-full-color-filled.svg
   pid:
   expose: yes
-  type: project
+  type: collaborator
   url: https://ds-wizard.org/
 - name: FAIR Cookbook
-  image_url: /images/projects/cookbook-logo.png
+  image_url: /images/collaborators/cookbook-logo.png
   pid:
   expose: yes
-  type: project
+  type: collaborator
   url: https://faircookbook.elixir-europe.org/
 - name: BBMRI-NL
   image_url: /images/infrastructures/BBMRI-NL_logo.svg
@@ -170,7 +170,7 @@
   image_url: /images/institutions/Ebi_official_logo.png
   pid: https://ror.org/02catss52
   expose: yes
-  type: project
+  type: institution
   url: https://www.ebi.ac.uk/
 - name: EVORA
   image_url: /images/projects/evora.svg
@@ -183,6 +183,12 @@
   expose: no 
   type: project
   url: https://agroserv.eu/
+- name: University of Tartu
+  image_url: /images/institutions/university_of_tartu.svg
+  pid: https://ror.org/03z77qz90
+  expose: true
+  type: institution
+  url: https://ut.ee/
 - name: EMBL Heidelberg
   type: institution
   image_url: /images/institutions/EMBL_logo.svg

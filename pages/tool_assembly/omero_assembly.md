@@ -1,6 +1,7 @@
 ---
 title: OMERO
 contributors: [Jean-Marie Burel] 
+editors: [Bert Droesbeke, Korbinian Bösl]
 page_id: ome
 affiliations: [Euro BioImaging]
 related_pages: 

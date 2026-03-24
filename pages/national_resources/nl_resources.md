@@ -3,6 +3,7 @@
 title: Netherlands
 country_code: NL
 contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft]
+editors: [Bert Droesbeke, Flora D'Anna, Mijke Jetten, Laura Portell Silva]
 coordinators: [Mijke Jetten]
 
 training:
@@ -156,7 +157,7 @@ The following national services provide useful information and support:
 * [DANS](https://dans.knaw.nl/en/), the Dutch national centre of expertise and repository for research data
 * [4TU.ResearchData](https://data.4tu.nl/info/en/), the Dutch national data repository for science, engineering and design 
 * [Netherlands eScience Center](https://www.esciencecenter.nl/) (NleSC), building and applying software to enhance the use of computing and digital technologies in academic research
-* [Research Data Netherlands](https://researchdata.nl/en/) (RDNL), collaboration of SURF, 4TU.ResearchData, DANS and DTL to contribute to strengthening the National Programme Open Science, and helping create a FAIR research ecosystem across science fields, and its [Essentials 4 Data Support](https://datasupport.researchdata.nl/en/) Training 
+* [Research Data Netherlands](https://researchdata.nl/en/) (RDNL), collaboration of SURF, 4TU.ResearchData, DANS and DTL to contribute to strengthening the National Programme Open Science, and helping create a FAIR research ecosystem across science fields, and its [Essentials 4 Data Support](https://researchdata.nl/en/essentials-4-data-support/) Training 
 * The [DTL Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/) (DSIG), the Dutch (and beyond) community hub for data stewardship that enables informal and inclusive knowledge and experience exchange
 * [NL-RSE](https://nl-rse.org/), the Dutch community of people writing and contributing to research software
 * The Dutch [Open Science Communities](https://www.osc-nl.com/) (OSC), independent, bottom up local communities comprising members of various scientific disciplines and career stages, who want to learn more about Open Science

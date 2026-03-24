@@ -3,6 +3,7 @@
 title: Portugal
 country_code: PT
 contributors: [Jorge Oliveira, Ana Portugal Melo, Gil Poiares-Oliveira]
+editors: [Nazeefa Fatima]
 coordinators: [Jorge Oliveira, Gil Poiares-Oliveira]
 
 training:
