@@ -5,7 +5,7 @@ editors: [Bert Droesbeke, Flora D'Anna, Nazeefa Fatima, Martin Cook]
 description: Information on brokering data to data repositories on behalf of data producers.
 page_id: data_brokering
 training:
-  - name: Data brokering Search query in TeSS
+  - name: Submission Search query in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=%22submission%22#materials

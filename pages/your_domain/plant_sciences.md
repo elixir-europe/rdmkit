@@ -8,7 +8,7 @@ related_pages:
   Your_tasks: [metadata]
   Tool_assembly: [plant_geno_assembly, plant_pheno_assembly, fairtracks]
 training:
-  - name: Plant sciences Search query in TeSS
+  - name: Plant data management Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=plant%20data%20management
 fairsharing:
