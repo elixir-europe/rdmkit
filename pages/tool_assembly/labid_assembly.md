@@ -1,6 +1,7 @@
 ---
 title: LabID
-contributors: [Laurent Thomas] 
+contributors: [Laurent Thomas]
+editors: [Bert droesbeke]
 page_id: labid
 affiliations: [EMBL Heidelberg]
 related_pages: 
@@ -30,7 +31,7 @@ LabID is powered by a database that allows recording and interconnecting laborat
 - **Dataset Management**: Register and annotate datasets with metadata and experimental parameters
 - **Electronic Lab Notebook**: Document experiments and observations
 - **Inventory System**: Manage reagents, instruments, and other lab resources
-- **Workflow Integration**: Keep track of worflow versions and workflow executions for platforms like Galaxy or Nextflow, and custom scripts. Import and export from/to platforms like WorkflowHub and Git.
+- **Workflow Integration**: Keep track of workflow versions and workflow executions for platforms like Galaxy or Nextflow, and custom scripts. Import and export from/to platforms like WorkflowHub and Git.
 
 Below is a video with an overview of LabID's features (the video dates back from the time the software was called "Stocks", but most presented features are still there).  
 {% include video.html file="https://s3.embl.de/gbcs-public/labid-user-docs/labid-overview.mov" caption="LabID overview" %}
@@ -54,7 +55,8 @@ Under the hood, LabID is a client/server solution, similar in its architecture t
 - the server or "backend", written in python and using the [Django framework](https://www.djangoproject.com/)
 - a postgres relational database, used to store reference to data and metadata 
 - the user interface or "frontend", written in [Vue.js](https://vuejs.org/)
-- a python library and commmand line interface, to automate e.g data-registration tasks
+- a python library and command line interface, to automate e.g data-registration tasks
+
 
 ## Links
 * [GitLab repositories](https://gitlab.com/lab-integrated-data)
