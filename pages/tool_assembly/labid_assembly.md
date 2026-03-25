@@ -3,14 +3,13 @@ title: LabID
 contributors: [Laurent Thomas]
 editors: [Bert droesbeke]
 page_id: labid
+page_img: labid.png
 affiliations: [EMBL Heidelberg]
 related_pages: 
   Your_tasks: [data_organisation, data provenance, storage, metadata, machine learning, single-cell sequencing]
   Your_domain: [bioimaging_data, proteomics, plant sciences]
 description: LabID is an all-in-one FAIR data management platform for life sciences institutes. It allows keeping track of datasets, samples, workflows and inventory while featuring an Electronic Lab Notebook.
 ---
-
-{% include image.html file="labid.png" caption="" alt="Logo of LabID" %}
 
 ## What is LabID?
 {% tool "labid" %} is an open-source web-based platform for research data management in life science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook. 
