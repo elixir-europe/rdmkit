@@ -1,7 +1,7 @@
 ---
 title: LabID
 contributors: [Laurent Thomas]
-editors: [Bert droesbeke]
+editors: [Bert droesbeke, Federico Bianchini]
 page_id: labid
 page_img: labid.png
 affiliations: [EMBL Heidelberg]
