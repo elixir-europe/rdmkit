@@ -8,7 +8,7 @@ related_pages:
   Tool_assembly: [tsd, transmed]
   Your_tasks: [data_security]
 training:
-  - name: GDPR compliance Search query in TeSS
+  - name: Data protection Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:
