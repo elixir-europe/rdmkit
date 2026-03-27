@@ -10,7 +10,7 @@ related_pages:
   Your_domain: [plants]
   Tool_assembly: [plant_geno_assembly]
 training:
-  - name: MIAPPE training in TeSS
+  - name: MIAPPE Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=miappe
   - name: MIAPPE templates on GitHub

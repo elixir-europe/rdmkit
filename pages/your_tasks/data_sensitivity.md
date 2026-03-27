@@ -8,7 +8,7 @@ redirect_from: sensitive_data
 related_pages: 
   Tool_assembly: [tsd, covid19_data_portal, transmed]
 training:
-  - name: Training in TeSS
+  - name: Data sensitivity Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
 

@@ -7,7 +7,7 @@ page_id: storage
 related_pages: 
   Tool_assembly: [nels, tsd, ome, transmed, xnat_pic]
 training:
-  - name: Training in TeSS
+  - name: Data storage Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+storage%22#materials
 dsw:

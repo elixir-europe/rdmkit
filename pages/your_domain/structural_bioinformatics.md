@@ -8,7 +8,7 @@ related_pages:
   Your_tasks: []
   Tool_assembly: []
 training:
-  - name: Training in TeSS
+  - name: Structural Bioinformatics Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?utf8=%E2%9C%93&q=Structural+Bioinformatics#workflows
 fairsharing:

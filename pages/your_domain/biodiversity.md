@@ -9,20 +9,17 @@ related_pages:
   Tool_assembly: [galaxy, fairtracks]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
-  - name: Training about Biodiversity data
+  - name: Biodiversity data Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=biodiversity+data
-  - name: TeSS Collection of biodiversity-relevant training resources
+  - name: Biodiversity Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/elixir-biodiversity-community
   - name: Galaxy Training Network
-    registry: other
     url: https://training.galaxyproject.org/
   - name: ERGA Knowledge Hub
-    registry: other
     url: https://knowledge.erga-biodiversity.eu/
-  - name: Glittr
-    registry: other
+  - name: Glittr training resources
     url: https://glittr.org/
 fairsharing:
 - name: Biodiversity collection

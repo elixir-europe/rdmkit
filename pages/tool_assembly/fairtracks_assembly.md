@@ -9,7 +9,7 @@ related_pages:
   Your_tasks: [data_publication, data_transfer, metadata]
   Your_domain: [plants, rare_disease, single_cell_sequencing, human_data]
 training:
-  - name: Training in TeSS
+  - name: FAIRtracks Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=fairtracks
 ---

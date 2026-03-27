@@ -12,7 +12,7 @@ coordinators: [Brane Leskošek, Marko Vidak, Nadja Žlender]
 related_pages:
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Slovenia Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/nodes/slovenia
   - name: ELIXIR eLearning Platform

@@ -11,10 +11,10 @@ related_pages:
   Tool_assembly: [transmed]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Luxembourg Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/nodes/luxembourg
-  - name: Materials for the ELIXIR Luxembourg course on "Best Practices in Research Data Management and Stewardship."
+  - name: ELIXIR Luxembourg best practices in research data management and stewardship in Zenodo
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-lu/
 
@@ -53,7 +53,6 @@ national_resources:
       Your_domain: [human data]
       Your_tasks: [sensitive, existing data, data publication]
     url: https://covid19dataportal.lu/
-
 ---
 <!---All the resources added above will appear on the table at the bottom of the page--->
 

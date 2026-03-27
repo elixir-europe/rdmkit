@@ -7,9 +7,9 @@ page_id: ethics
 related_pages:
   Tool_assembly: [covid19_data_portal, transmed, tsd, csc]
 training:
-- name: 'Learning material on ethics in RDM'
-  registry: TeSS
-  url: https://tess.elixir-europe.org/materials?q=ethics
+  - name: Ethics in RDM Training material in TeSS
+    registry: TeSS
+    url: https://tess.elixir-europe.org/materials?q=ethics
 ---
 
 Ethics refers to moral principles and norms that help us identify right from wrong within a particular context. Ethical issues/concerns typically arise when these principles conflict. Navigating through such concerns often requires one to compare the benefits of an action with its potential harmful consequences.

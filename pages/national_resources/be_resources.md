@@ -7,13 +7,13 @@ editors: [Bert Droesbeke, Flora D'Anna, Korbinian Bösl]
 coordinators: [Flora D'Anna]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Belgium Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/materials?node=Belgium
   - name: ELIXIR Belgium community in Zenodo
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-be/?page=1&size=20
-  - name: ELIXIR Belgium YouTube
+  - name: ELIXIR Belgium YouTube Channel
     registry: YouTube
     url: https://www.youtube.com/channel/UC7XUideTn8tFCOC-lhT9-Aw
 
@@ -83,7 +83,6 @@ national_resources:
       Your_tasks: [data_analysis, storage]
     url: https://www.vscentrum.be
     
-
 ---
 
 <!---Following information for the page text. All fields are optional--->

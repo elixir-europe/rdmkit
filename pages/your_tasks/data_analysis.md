@@ -7,7 +7,7 @@ page_id: data_analysis
 related_pages:
   Tool_assembly: [nels, xnat_pic, transmed, ome, galaxy]
 training:
-  - name: Training in TeSS
+  - name: Data analysis Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 dsw:

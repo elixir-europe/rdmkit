@@ -7,11 +7,11 @@ editors: [Bert Droesbeke, Nazeefa Fatima]
 coordinators: [Thanasis Vergoulis, Alexandros Dimopoulos]
 
 training:
-  - name: "ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece"
+  - name: "ELIXIR GREECE: Prospects of data and tools for ELIXIR Greece in Zenodo"
     registry: Zenodo
     description: This presentation provides an overview of the data, tools, and standards used in ELIXIR Greece, as well as guidelines for effective research data management, with an emphasis on best practices for open science and data stewardship.
     url: https://zenodo.org/records/4043630#.ZACFtE_Nx60
-  - name: "The ELIXIR GREECE Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data"
+  - name: The ELIXIR GREECE Galaxy server including best practices tools and workflows for the analysis of SARS-CoV-2 data in Zenodo
     registry: Zenodo
     description: This presentation highlights how the local Greek Galaxy instance at usegalaxy.elixir-greece.org makes SARS-CoV-2 data analysis accessible and reproducible using open software and public research infrastructures. It showcases practical workflows in genomics, proteomics, evolution, and cheminformatics, with comprehensive training materials available to support collaborative research.
     url: https://zenodo.org/records/4042834#.ZACFUk9vD9M
@@ -44,7 +44,6 @@ national_resources:
     related_pages:
      Tool_assembly: [covid19_data_portal]
     instance_of: covid-19-data-portal
-
 
 ---
 

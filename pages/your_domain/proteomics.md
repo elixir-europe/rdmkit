@@ -8,7 +8,7 @@ related_pages:
   Your_tasks: [metadata]
   Tool_assembly: []
 training:
-  - name: Training in TeSS
+  - name: Proteomics Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=proteomics
 fairsharing:

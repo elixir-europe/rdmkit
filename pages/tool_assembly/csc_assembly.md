@@ -9,7 +9,7 @@ related_pages:
   Your_tasks: [sensitive, dmp, data_security, gdpr_compliance, storage, data_publication, data_transfer, data_analysis]
   Your_domain: [human_data]
 training:
-  - name: Training in TeSS
+  - name: CSC Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=csc
   - name: CSC - Bioscience webpages
@@ -18,14 +18,14 @@ training:
     url: https://www.csc.fi/en/training
   - name: CSC - Learning Materials for Bioscientists
     url: https://research.csc.fi/bioscience-learning-materials
-  - name: CSC - Data management youtube channel
+  - name: CSC - Data management YouTube channel
     registry: YouTube
     url: https://www.youtube.com/watch?v=Ol7mniw687E&list=PLD5XtevzF3yEZw-8LadtaGVV8Um6CbMja
-  - name: CSC - Research data management services for life science research (youtube video)
+  - name: CSC - Research data management services for life science research (YouTube video)
     url: https://youtu.be/lf9L7PYQrBE
   - name: Data analysis with Chipster - Course packages
     url: https://chipster.2.rahtiapp.fi/manual/courses.html
-  - name: Tutorials and lecture playlists on different topics (youtube)
+  - name: Tutorials and lecture playlists on different topics YouTube Playlist
     registry: YouTube
     url: https://www.youtube.com/channel/UCnL-Lx5gGlW01OkskZL7JEQ/playlists
 ---
