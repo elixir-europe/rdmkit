@@ -3,19 +3,20 @@
 title: Portugal
 country_code: PT
 contributors: [Jorge Oliveira, Ana Portugal Melo, Gil Poiares-Oliveira]
+editors: [Nazeefa Fatima]
 coordinators: [Jorge Oliveira, Gil Poiares-Oliveira]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Portugal Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/materials?node=Portugal
   - name: Training at BioData.pt
     registry: BioData.pt
     url: https://biodata.pt/training
-  - name: BioData.pt GitHub
+  - name: BioData.pt on GitHub
     registry: GitHub
     url: https://github.com/BioData-PT
-  - name: BioData.pt YouTube
+  - name: BioData.pt YouTube Channel
     registry: YouTube
     url: https://www.youtube.com/@BioDataPT
 

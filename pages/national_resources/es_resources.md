@@ -2,10 +2,11 @@
 title: Spain
 country_code: ES
 contributors: [Laura Portell Silva, Salvador Capella-Gutierrez, Eva Alloza]
+editors: [Bert Droesbeke, Flora D'Anna, Korbinian Bösl]
 coordinators: [Salvador Capella-Gutierrez]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Spain Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/materials?node=Spain&scientific_topics=Data+management
     

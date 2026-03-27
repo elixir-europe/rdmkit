@@ -1,6 +1,7 @@
 ---
 title: MOLGENIS
 contributors: [Aneas Hodselmans, Marije van der Geest]
+editors: [Bert Droesbeke, Federico Bianchini, Korbinian Bösl]
 description: Molgenis is a modular web application for scientific data. Flexible data integration platform to find, capture, exchange, manage and analyse scientific data.
 page_id: molgenis
 affiliations: ["BBMRI-NL"]
@@ -8,20 +9,20 @@ related_pages:
   Your_tasks: [data_analysis, data_publication ,storage, data_quality, transfer, metadata, sensitive_data]
   Your_domain: []
 training:
-  - name: Intro
+  - name: MOLGENIS YouTube Intro Video
     registry: YouTube
     url: https://www.youtube.com/watch?v=1J2kgLHlgPU
-  - name: Tutorials
+  - name: MOLGENIS YouTube Tutorials Channel
     registry: YouTube
     url: https://www.youtube.com/channel/UCiVR-YZFcBQe0i6RUwE9kyg
-  - name: Manual
+  - name: MOLGENIS documentation
     url: https://molgenis.gitbook.io/molgenis/
-  - name: Code on github
+  - name: MOLGENIS on GitHub
     registry: GitHub
     url: https://github.com/molgenis/molgenis
-  - name: Installation
+  - name: MOLGENIS installation guide
     url: https://galaxy.ansible.com/molgenis
-  - name: Demo
+  - name: MOLGENIS demo environment
     url: https://happy-davinci-bb01a7.netlify.app/#/         
 ---
 

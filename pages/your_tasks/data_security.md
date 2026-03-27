@@ -1,13 +1,14 @@
 ---
 title: Data security
 contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jareborg]
+editors: [Bert Droesbeke]
 description: How do you ensure that your data is handled securely.
 page_id: data_security
 redirect_from: data_protection
 related_pages: 
   Tool_assembly: [tsd, transmed]
 training:
-  - name: Training in TeSS
+  - name: Data protection Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:

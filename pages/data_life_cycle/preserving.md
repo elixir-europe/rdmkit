@@ -3,10 +3,11 @@ title: Preserving
 page_id: preserve
 description: Introduction to data preservation.
 contributors: [Siiri Fuchs, Korbinian Bösl, Anastasia Chasapi, Flora D'Anna]
+editors: [Flora D'Anna]
 related_pages: 
   Your_tasks: [data_organisation, data_security, data_publication, metadata, storage, identifiers, licensing]
 training:
-  - name: Training in TeSS
+  - name: Data preservation Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+preserve%22#materials
 dsw:

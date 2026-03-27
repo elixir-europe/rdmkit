@@ -3,10 +3,11 @@ title: Reusing
 page_id: reuse
 description: Introduction to data reuse.
 contributors: [Korbinian Bösl, Daniel Faria, Markus Englund]
+editors: [Bert Droesbeke, Flora D'Anna]
 related_pages: 
   Your_tasks: [data_analysis, transfer, existing_data, identifiers, licensing, data_provenance, data_quality]
 training:
-  - name: Training in TeSS
+  - name: Data reuse Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+reuse%22#materials
 dsw:
@@ -43,4 +44,3 @@ Reusing existing data implies checking the necessary conditions for reuse are me
 * Verify that the data has been ethically collected and that your reuse of the data conforms with policies and regulations you are expected to follow. For personal (sensitive) data, there are usually legal and technical requirements that have to be met before data can be accessed. Getting access to personal (sensitive) data will therefore involve additional steps.
 * If the data you are reusing has been updated, make sure to document which version of the data you are using. Also consider what impact the changes may have on your results.
 * Cite the data properly by include a persistent identifier (such as a DOI) in the citation, if there is one.
-

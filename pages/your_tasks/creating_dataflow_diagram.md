@@ -1,6 +1,7 @@
 ---
 title: Creating a data-flow diagram
 contributors: [Vilem Ded]
+editors: [Bert Droesbeke, Diana Pilvar, Nazeefa Fatima, Marina Popleteeva]
 description: Best practices to capture your planned data-flow in a diagram.
 page_id: creating_dataflow_diagram
 ---

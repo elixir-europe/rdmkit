@@ -1,13 +1,14 @@
 ---
 title: Data sensitivity
 contributors: [Rob Hooft, Yvonne Kallberg, Pinar Alper, Markus Englund, Thanasis Vergoulis, Robert Andrews, Nazeefa Fatima]
+editors: [Bert Droesbeke]
 description: How to identify the sensitivity of different research data types
 page_id: sensitive
 redirect_from: sensitive_data
 related_pages: 
   Tool_assembly: [tsd, covid19_data_portal, transmed]
 training:
-  - name: Training in TeSS
+  - name: Data sensitivity Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22sensitive+data%22#materials
 

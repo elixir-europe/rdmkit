@@ -1,6 +1,7 @@
 ---
 title: XNAT-PIC
 contributors: [Sara Zullino, Alessandro Paglialonga, Walter Dastrù, Dario Longo, Silvio Aime]
+editors: [Bert Droesbeke, Korbinian Bösl]
 page_id: xnat_pic
 affiliations: [Euro BioImaging, IT]
 related_pages: 
@@ -12,10 +13,10 @@ training:
     url: https://www.eosc-life.eu/d5/
   - name: Euro-Bioimaging website
     url: https://www.eurobioimaging.eu/news/towards-sharing-and-reusing-of-preclinical-image-data
-  - name: Data Management - Biological and Preclinical Imaging Perspective
+  - name: Data Management - Biological and Preclinical Imaging Perspective YouTube Video
     registry: YouTube
     url: https://www.youtube.com/watch?v=QNiAGuFk53w
-  - name: XNAT-PIC - expanding XNAT for image archiving and processing to Preclinical Imaging Centers
+  - name: XNAT-PIC - expanding XNAT for image archiving and processing to Preclinical Imaging Centers YouTube Video
     registry: YouTube
     url: ttps://www.youtube.com/cpEcfIJJqCo
 ---

@@ -5,8 +5,9 @@ description: Introduction to data collection.
 related_pages: 
   Your_tasks: [data_organisation, data_quality, existing_data, identifiers, metadata, sensitive, storage, data_provenance]
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
+editors: [Bert Droesbeke]
 training:
-  - name: Training in TeSS
+  - name: Data collection Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+collection%22#materials
 dsw:
@@ -42,5 +43,4 @@ Independently of the tools you will use, consider the following, while collectin
 * Define how to store the data e.g. format and volume.
 * Find suitable repository to store the data.
 * Identify suitable metadata standards.
-
 

@@ -5,12 +5,12 @@ summary: Use your own fork to preview changes on the website.
 
 ## Introduction
 
-This guide is mainly targeted at editors who have more rights than other contributors. Other contributors who want to preview their changes on their fork can skip towards the GitHub pages section right away.
+Any contributor can preview changes from their own fork. The first part of this guide is mainly relevant for people who can edit the main repository directly and want to make sure their work happens on their fork instead. If you already work on your own fork, you can skip directly to [Preview your changes using GitHub Actions](#preview-your-changes-using-github-actions) or [Preview your changes using GitHub Codespaces](#preview-your-changes-using-github-codespaces).
 
 
 ## Make changes on your fork
 
-As an editor with editing rights, changes made by clicking on the pencil icon will be committed to a branch on the main website itself. This is not a problem in normal circumstances, but when one wants to preview changes on one's own fork, this is not wanted.
+If you have write access to the main repository, changes made by clicking on the pencil icon can be committed to a branch on the main website itself. That is often fine, but it is not what you want if you prefer to preview changes from your own fork.
 
 ### 1. Make sure you have forked the main branch
 
@@ -44,11 +44,40 @@ This step is important. Make sure to commit to a new feature branch which you na
 
 ## Preview your changes using GitHub Actions
 
-- Go to Settings > Pages and enable GitHub Actions as a source
-- Go to Environments > github-pages and remove the rule under Deployment branches if you want to deploy other branches than master via Workflow Dispatch (manually triggered action)
-- Enable GitHub Actions (and use Workflow Dispatch)
+To preview a branch on your fork, you need to trigger the repository's existing GitHub Pages workflow manually.
+
+1. Go to `Settings > Pages` in your fork and make sure the site is published from **GitHub Actions**.
+2. If you want to deploy a feature branch instead of the default branch, go to `Settings > Environments > github-pages` and remove the restriction under **Deployment branches**.
+3. Go to the `Actions` tab of your fork and open the `Jekyll site CI` workflow.
+4. Click **Run workflow**. This is the GitHub interface for the `workflow_dispatch` trigger that is already defined in the workflow file; you do not need to enable anything extra for it.
+5. Select the branch with your changes and start the workflow run.
+6. Open the completed workflow run and use the deployment link shown in the workflow graph or the `View deployment` link to open the preview site.
 
 {% include image.html file="deploy_using_gh_actions.png" alt="Got to the settings tab in your repo to enable GitHub pages" %}
+
+
+## Preview your changes using GitHub Codespaces
+
+GitHub Codespaces is another way to preview your changes without setting up Ruby or Docker on your own computer.
+
+1. Open your fork on GitHub or the and switch to the branch that contains your changes.
+2. Click `Code`, open the `Codespaces` tab, and create a new codespace for that branch.
+3. In the codespace terminal, install the site dependencies:
+
+   ```bash
+   bundle install
+   ```
+
+4. Start the local preview server from the repository root:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+5. Open the preview by clicking the forwarded port link for port `4000`. If it does not open automatically, go to the `PORTS` tab in the codespace and open port `4000` from there.
+6. Keep the server running while you edit files. The preview will refresh automatically after you save your changes.
+
+{% include callout.html type="note" content="GitHub Codespaces availability and included usage depend on your GitHub plan or organisation settings." %}
 
 
 ## Open a Pull Request (PR) with your changes
@@ -61,6 +90,6 @@ You can always make changes after the creation of this pull request by going to 
 
 {% include image.html file="files_changed_github.png" alt="Files changed tab on GitHub" %}
 
-and clicking on the 3 dots to edit the file again. Changes made this way will become visible in your preview automatically after a few minutes.
+and clicking on the 3 dots to edit the file again. After committing new changes to your branch, run the `Jekyll site CI` workflow again from the `Actions` tab to update the preview.
 
 {% include image.html file="3_dots_github.png" alt="File change options on GitHub" %}

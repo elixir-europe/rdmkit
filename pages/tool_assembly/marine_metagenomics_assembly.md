@@ -1,6 +1,7 @@
 ---
 title: Marine Metagenomics
 contributors: [Nazeefa Fatima, Espen Åberg,  Nils Peder Willassens]
+editors: [Bert Droesbeke, Korbinian Bösl]
 description: The Marine Metagenomics tool assembly aims to provide a comprehensive data management toolkit of marine genomics researchers in Norway.
 page_id: marine_assembly
 affiliations: [ELIXIR Europe, "NO"]
@@ -8,7 +9,7 @@ related_pages:
   Your_tasks: [dmp, existing_data, data_organisation, storage, data_publication, data_transfer, metadata, data_analysis]
   Your_domain: [marine]
 training:
-  - name: Training in TeSS
+  - name: Marine Metagenomics Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=marine+metagenomics
   - name: ELIXIR Norways training pages

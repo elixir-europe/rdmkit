@@ -2,6 +2,7 @@
 title: Finland
 country_code: FI
 contributors: [Siiri Fuchs, Minna Ahokas]
+editors: [Bert Droesbeke, Laura Portell Silva]
 coordinators: []
 national_resources:
   - name: Chipster

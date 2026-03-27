@@ -1,6 +1,7 @@
 ---
 title: NeLS
 contributors: [Korbinian Bösl, Federico Bianchini, Erik Hjerde]
+editors: [Bert Droesbeke, Flora D'Anna, Ulrike Wittig]
 description: NeLS provides the necessary tools for data management to researchers in Norway and their collaborators.
 page_id: nels
 affiliations: ["ELIXIR Europe", "NO"]
@@ -8,7 +9,7 @@ related_pages:
   Your_tasks: [dmp, data_organisation, storage, data_publication, data_transfer, metadata]
   Your_domain: []
 training:
-  - name: Training in TeSS
+  - name: NeLS Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=NeLS+Norway
 ---

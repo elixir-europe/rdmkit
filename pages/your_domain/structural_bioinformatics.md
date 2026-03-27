@@ -2,12 +2,13 @@
 title: Structural Bioinformatics
 description: Data management solutions for structural bioinformatics data.
 contributors: [Gerardo Tauriello, Ian Sillitoe, Nicola Bordin, Christine Orengo, Mihaly Varadi, Sameer Velankar, Jiří Černý, Carolina Simón Guerrero]
+editors: [Bert Droesbeke, Munazah Andrabi]
 page_id: struct_bioinfo
 related_pages: 
   Your_tasks: []
   Tool_assembly: []
 training:
-  - name: Training in TeSS
+  - name: Structural Bioinformatics Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?utf8=%E2%9C%93&q=Structural+Bioinformatics#workflows
 fairsharing:

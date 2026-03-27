@@ -3,10 +3,11 @@
 title: Netherlands
 country_code: NL
 contributors: [Mijke Jetten, Celia van Gelder, Rob Hooft]
+editors: [Bert Droesbeke, Flora D'Anna, Mijke Jetten, Laura Portell Silva]
 coordinators: [Mijke Jetten]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Netherlands Training material in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/nodes/netherlands
@@ -127,7 +128,6 @@ ref_to_main_resources:
   - molgenis
   - xnat
   - data-stewardship-wizard
-
 ---
 
 <!---All the resources added above will appear on the table at the bottom of the page--->
