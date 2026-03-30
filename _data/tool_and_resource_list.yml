@@ -1497,11 +1497,12 @@
     fairsharing: re1278
     tess: OmicsDI
   url: https://www.omicsdi.org
-- description: OMOP is a common data model for the harmonisation for of observational health data.
+- description: OMOP is a common data model for the harmonisation of observational health data.
   id: omop-cdm
-  name: OMOP-CDM
+  name: The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
   registry:
     tess: OMOP-CDM
+    fairsharing: qk984b
   url: https://ohdsi.github.io/CommonDataModel/
 - description: OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.
   id: onotomaton
