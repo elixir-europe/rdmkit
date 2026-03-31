@@ -10,7 +10,7 @@ related_pages:
   Tool_assembly: []
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Italy Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/materials?node=Italy
 
@@ -25,7 +25,6 @@ national_resources:
       Your_role: [data_steward, researcher]
       Your_tasks: [dmp]
     url: https://open-science.it/
-
 ---
 
 <!---All the resources added above will appear on the table at the bottom of the page--->

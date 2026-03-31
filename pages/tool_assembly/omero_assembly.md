@@ -9,21 +9,21 @@ related_pages:
   Your_domain: [bioimaging_data]
 description: OMERO is a software platform for managing, sharing and analysing images data.
 training:
-  - name: General information about the OME ecosystem 
+  - name: OME ecosystem documentation
     url: https://www.openmicroscopy.org
-  - name: Collection of presentations given over the years
+  - name: OME presentations archive
     url: https://downloads.openmicroscopy.org/presentations/
-  - name: Technical documentation for developers, system administrators
+  - name: OMERO administrator and developer documentation
     url: https://docs.openmicroscopy.org/omero/latest/
-  - name: Collection of workflow describing to how use the system, with links to scripts and notebooks
+  - name: OMERO workflow guides and notebooks
     url: https://omero-guides.readthedocs.io/en/latest/
-  - name: YouTube channel with tutorials and presentations
+  - name: OMERO YouTube Channel
     registry: YouTube
     url: https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ
-  - name: "I3D:bio's OMERO Training Videos 2023: Research Data Management for Microscopy"
+  - name: I3D:bio OMERO training videos YouTube Playlist
     registry: YouTube 
     url: https://www.youtube.com/playlist?list=PL2k-L-zWPoR7SHjG1HhDIwLZj0MB_stlU
-  - name: Imaging Forum - discussions about imaging related topics
+  - name: Imaging forum community discussions
     url: https://forum.image.sc/
 ---
 

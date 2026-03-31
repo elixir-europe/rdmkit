@@ -7,7 +7,7 @@ related_pages:
 contributors: [Korbinian Bösl, Siiri Fuchs, Anastasia Chasapi, Ulrike Wittig]
 editors: [Bert Droesbeke]
 training:
-  - name: Training in TeSS
+  - name: Data collection Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+collection%22#materials
 dsw:
@@ -43,5 +43,4 @@ Independently of the tools you will use, consider the following, while collectin
 * Define how to store the data e.g. format and volume.
 * Find suitable repository to store the data.
 * Identify suitable metadata standards.
-
 

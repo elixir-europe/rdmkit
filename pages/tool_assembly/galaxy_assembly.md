@@ -12,7 +12,7 @@ training:
     url: https://training.galaxyproject.org/
   - name: Galaxy Mentor Network
     url: https://galaxy-mentor-network.netlify.app/
-  - name: Training in TeSS
+  - name: Galaxy Search query in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=galaxy

@@ -9,7 +9,7 @@ related_pages:
   Your_tasks: [dmp, data_organisation, storage, data_publication, data_transfer, metadata, data_analysis]
   Your_domain: []
 training:
-  - name: Training in TeSS
+  - name: IFB Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=IFB
   - name: Data management training at the IFB

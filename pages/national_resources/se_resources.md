@@ -7,10 +7,10 @@ editors: [Bert Droesbeke, Laura Portell Silva]
 coordinators: [Niclas Jareborg, Yvonne Kallberg]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Sweden Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/nodes/sweden
-  - name: SciLifeLab Data Management YouTube
+  - name: SciLifeLab Data Management YouTube Playlist
     registry: YouTube
     url: https://www.youtube.com/playlist?list=PL1nnHOyxN_WdqnzLqbmWJz_i0f2anT9cS
 

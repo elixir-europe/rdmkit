@@ -10,7 +10,7 @@ related_pages:
   Tool_assembly: [tsd, nels, marine_assembly, fairtracks]
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Norway Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/events?include_expired=true&node=Norway
   - name: ELIXIR Norway community in Zenodo
@@ -160,7 +160,6 @@ national_resources:
 ref_to_main_resources:
   - mardb
   - marfun
-
 ---
 
 <!---Following information for the page text. All fields are optional--->

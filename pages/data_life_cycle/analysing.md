@@ -7,7 +7,7 @@ contributors: [Rob Hooft, Olivier Collin, Munazah Andrabi, Flora D'Anna]
 editors: [Munazah Andrabi]
 description: Introduction to data analysis.
 training:
-  - name: Training in TeSS
+  - name: Data analysis Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+analysis%22#materials
 ---

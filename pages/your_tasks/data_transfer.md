@@ -7,7 +7,7 @@ page_id: transfer
 related_pages: 
     Tool_assembly: []
 training:
-  - name: Training in TeSS
+  - name: Data transfer Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
 dsw:
