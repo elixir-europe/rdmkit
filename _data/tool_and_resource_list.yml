@@ -620,7 +620,7 @@
   url: https://www.dcc.ac.uk/guidance/standards/metadata/list
 - description: Publicly available online tool for composing smart data management plans
   id: data-stewardship-wizard
-  name: Data Stewardship Wizard
+  name: Data Stewardship Wizard (DSW)
   registry:
     biotools: Data_Stewardship_Wizard
     tess: Data Stewardship Wizard
