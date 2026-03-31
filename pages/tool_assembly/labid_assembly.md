@@ -36,7 +36,8 @@ LabID is powered by a database that allows recording and interconnecting laborat
 - **Inventory System**: Manage reagents, instruments, and other lab resources
 - **Workflow Integration**: Keep track of workflow versions and workflow executions for platforms like {% tool "galaxy" %} or {% tool "nextflow" %}, and custom scripts. Import and export workflows from/to platforms like {% tool "workflowhub" %} and {% tool "git" %} repositories ({% tool "github" %}, {% tool "gitlab" %}, {% tool "bitbucket" %}, etc.).
 
-You can find a video with an overview of LabID's features [here](https://s3.embl.de/gbcs-public/labid-user-docs/labid-overview.mov). The video dates back to the time the software was called "Stocks". The features are the same, though, and the interface has only changed slightly since. 
+You can find a video with an overview of LabID's features [here](https://s3.embl.de/gbcs-public/labid-user-docs/labid-overview.mov). The video dates back to the time the software was called "Stocks". The features are the same, though, and the interface has only changed slightly since.  
+The LabID workflow integration is also summarised in the following [video](https://www.youtube.com/watch?v=2YH8TWH1Fg8).  
 
 ## Which tasks can be solved with LabID?
 - referencing instruments, reagents and specimen available in an institute or research team
