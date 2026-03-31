@@ -189,3 +189,9 @@
   expose: true
   type: institution
   url: https://ut.ee/
+- name: EMBL Heidelberg
+  type: institution
+  image_url: /images/institutions/EMBL_logo.svg
+  pid: https://ror.org/03mstc592
+  expose: yes
+  url: https://www.embl.org/
