@@ -3407,3 +3407,47 @@
   id: paperpile
   name: Paperpile
   url: https://paperpile.com/
+- description: A Python package that tracks CO2 emissions from computing, quantifying and reducing the environmental impact of machine learning.
+  id: codecarbon
+  name: CodeCarbon
+  url: https://codecarbon.io/
+- description: An open-source tool for tracking data, models and experiments, providing Git-like version control for machine learning projects.
+  id: dvc
+  name: DVC (Data Version Control)
+  url: https://dvc.org
+- description: An open-source ML monitoring framework for tracking data drift, model performance, and data quality.
+  id: evidently
+  name: Evidently
+  url: https://www.evidentlyai.com
+- description: An industrial-grade federated learning framework supporting homomorphic encryption and multi-party computation.
+  id: fate
+  name: FATE (Federated AI Technology Enabler)
+  url: https://github.com/FederatedAI/FATE
+- description: A unified, framework-agnostic federated learning platform with built-in secure aggregation.
+  id: flower
+  name: Flower
+  url: https://flower.ai
+- description: An online calculator for estimating the carbon footprint of machine learning models.
+  id: green-algorithms
+  name: Green Algorithms
+  url: http://www.green-algorithms.org/
+- description: An online calculator for estimating the CO2 impact of machine learning training.
+  id: ml-co2-impact
+  name: ML CO2 Impact
+  url: https://mlco2.github.io/impact/
+- description: An end-to-end platform for developing and deploying federated learning applications, supporting FedAvg, FedProx and FedOpt.
+  id: nvidia-flare
+  name: NVIDIA FLARE
+  url: https://developer.nvidia.com/flare
+- description: A Python library for vertical federated learning experiments using split neural networks.
+  id: pyvertical
+  name: PyVertical
+  url: https://github.com/OpenMined/PyVertical
+- description: A command-line utility for creating, editing and inspecting Workflow Run RO-Crate packages.
+  id: runcrate
+  name: runcrate
+  url: https://github.com/ResearchObject/runcrate
+- description: A federated learning platform with built-in traceability and a web interface for non-technical stakeholders.
+  id: substra
+  name: Substra
+  url: https://github.com/Substra

@@ -60,11 +60,11 @@ Differences in data collection protocols can cause site-to-site variability. Bef
 
 ### Solutions
 
-* For horizontal federations, FedAvg and its variants (FedProx, FedOpt) aggregate model updates by weighted averaging. For vertical federations, consider split neural networks {% cite splitnn18 %} or statistical alternatives such as federated singular-value decomposition (FedSVD) {% cite hartebrodt2024fedsvd %}, which has been applied to genome-wide association studies (GWAS) and other high-dimensional omics analyses. PyVertical {% cite pyvertical20 %} provides a Python implementation for vertical FL experiments.
-* The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM) {% cite omop_jhu24 %} is widely adopted for observational health data and maps well onto federated structured-query-language (SQL) back-ends. A typical implementation follows an extract, transform and validate pipeline: extract source data into staging tables, transform using Observational Health Data Sciences and Informatics (OHDSI) tools to map local vocabularies to standard concepts, and validate completeness via a data-quality dashboard. See the [OHDSI collaborative protocol](https://www.ohdsi.org/data-standardization/) for implementation guidance {% cite ohdsi2024 %}.
-* OMOP CDM standardises longitudinal health records, while GA4GH Phenopackets formalise genetic and phenotypic findings for specific individuals. The two are complementary and can be used together in a federated study. Refer to the [GA4GH Phenopackets specification](https://www.ga4gh.org/product/phenopackets/) for schema definitions and validation rules.
-* To let external analysts discover which federated data partitions exist, you can expose a read-only endpoint using Beacon v2 (yes/no genomic-presence queries) {% cite beacon_v2 %} or the GA4GH Search/Data-Connect API for richer tabular filters {% cite ga4gh_search %}.
-* Research Object Crate (RO-Crate) is a lightweight community standard for packaging research data together with its metadata. You can use [runcrate](https://github.com/ResearchObject/runcrate), a command-line utility for manipulating Workflow Run RO-Crate packages, to bundle harmonised data descriptions and ensure provenance {% cite runcrate_cli %}.
+* For horizontal federations, FedAvg and its variants (FedProx, FedOpt) aggregate model updates by weighted averaging. For vertical federations, consider split neural networks {% cite splitnn18 %} or statistical alternatives such as federated singular-value decomposition (FedSVD) {% cite hartebrodt2024fedsvd %}, which has been applied to genome-wide association studies (GWAS) and other high-dimensional omics analyses. {% tool "pyvertical" %} {% cite pyvertical20 %} provides a Python implementation for vertical FL experiments.
+* {% tool "omop-cdm" %} {% cite omop_jhu24 %} is widely adopted for observational health data and maps well onto federated structured-query-language (SQL) back-ends. A typical implementation follows an extract, transform and validate pipeline: extract source data into staging tables, transform using Observational Health Data Sciences and Informatics (OHDSI) tools to map local vocabularies to standard concepts, and validate completeness via a data-quality dashboard. See the [OHDSI collaborative protocol](https://www.ohdsi.org/data-standardization/) for implementation guidance {% cite ohdsi2024 %}.
+* {% tool "omop-cdm" %} standardises longitudinal health records, while GA4GH Phenopackets formalise genetic and phenotypic findings for specific individuals. The two are complementary and can be used together in a federated study. Refer to the [GA4GH Phenopackets specification](https://www.ga4gh.org/product/phenopackets/) for schema definitions and validation rules.
+* To let external analysts discover which federated data partitions exist, you can expose a read-only endpoint using {% tool "beacon-v2" %} (yes/no genomic-presence queries) {% cite beacon_v2 %} or the GA4GH Search/Data-Connect API for richer tabular filters {% cite ga4gh_search %}.
+* Research Object Crate (RO-Crate) is a lightweight community standard for packaging research data together with its metadata. You can use {% tool "runcrate" %}, a command-line utility for manipulating Workflow Run RO-Crate packages, to bundle harmonised data descriptions and ensure provenance {% cite runcrate_cli %}.
 
 | FAIR principle | Implementation in FL | Example |
 |----------------|---------------------|---------|
@@ -137,7 +137,7 @@ Governance in federated learning goes beyond technical security. The Five Safes 
 * **Safe data**: de-identify and harmonise data so that each site satisfies minimum quality and confidentiality standards. Use common phenotype dictionaries and perform quality control before including data in a federated study. Note that this requirement applies equally to pooled-data approaches; what is specific to FL is that the data never leaves its origin.
 * **Safe projects**: approve analyses only if they offer public benefit and respect data sensitivity. Ethical approvals and data-sharing agreements should be in place for every federated run, with minimum clauses covering purpose limitation, data retention periods and breach notification protocols. The EDPS TechDispatch on FL {% cite edps2025 %} provides regulatory context and legal framework requirements.
 * **Safe people**: ensure that participating researchers are authorised and trained. Users should authenticate via OIDC and sign terms that outline acceptable use.
-* **Safe settings**: execute computations in secure environments. EUCAIM's federated processing platform, for example, orchestrates tasks through middleware so that data remain within secure nodes.
+* **Safe settings**: execute computations in secure environments. {% tool "eucaim" %}'s federated processing platform, for example, orchestrates tasks through middleware so that data remain within secure nodes.
 * **Safe outputs**: export only aggregated model parameters or summary statistics. Outputs should be screened to ensure that no individual contributions can be reconstructed.
 * **Provenance logging**: each Beacon or Search query can be captured as a `DataDownload` entity inside the Five-Safes RO-Crate so that auditors can trace who accessed which variant count {% cite beacon_v2 %}. A full JSON profile and example crates are available {% cite rocrate_fivesafes2023 %}.
 * **Data protection impact assessment (DPIA)**: run a DPIA before production. Free templates are provided by the [ICO DPIA template](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/data-protection-impact-assessments-dpias/) {% cite ico2024dpia %} and the [CNIL PIA kit](https://www.cnil.fr/en/privacy-impact-assessment-pia) {% cite cnil2024pia %}.
@@ -148,7 +148,7 @@ Governance in federated learning goes beyond technical security. The Five Safes 
 
 A Data Management Plan (DMP) is a structured document that records how data will be collected, stored, shared and preserved throughout a project. A machine-actionable DMP (maDMP) goes further by encoding these decisions in a standard format (typically JSON) so that they can be read and acted upon by software. In a federated study, your DMP should cover not only local data handling at each site but also cross-border governance, federated infrastructure requirements and model versioning.
 
-Beyond planning, capturing FAIR-aligned metadata and provenance throughout the federated life cycle is essential for auditability, regulatory compliance and scientific credibility. RO-Crate, a lightweight community standard for packaging research data with its metadata, provides a practical way to bundle a complete federated run into a single, self-describing artefact.
+Beyond planning, capturing FAIR-aligned metadata and provenance throughout the federated life cycle is essential for auditability, regulatory compliance and scientific credibility. {% tool "research-object-crate" %}, a lightweight community standard for packaging research data with its metadata, provides a practical way to bundle a complete federated run into a single, self-describing artefact.
 
 ### Considerations
 
@@ -160,9 +160,9 @@ Beyond planning, capturing FAIR-aligned metadata and provenance throughout the f
 
 ### Solutions
 
-* Use the [Data Stewardship Wizard (DSW)](https://ds-wizard.org/), the ELIXIR-CONVERGE-supported DMP wizard, to create a machine-actionable DMP for federated studies. DSW implements the maDMP standard, allowing you to export your plan in JSON or PDF. Select an ELIXIR/CONVERGE knowledge model, answer the guided questions and export the plan for inclusion in your project records and RO-Crate. You can also use your institution's [DMPonline](https://dmponline.dcc.ac.uk/) service. See the RDMkit guidance on [data management planning](/data_management_plan) {% cite RDMKit_dmp %}.
+* Use the {% tool "data-stewardship-wizard" %}, the ELIXIR-CONVERGE-supported DMP wizard, to create a machine-actionable DMP for federated studies. DSW implements the maDMP standard, allowing you to export your plan in JSON or PDF. Select an ELIXIR/CONVERGE knowledge model, answer the guided questions and export the plan for inclusion in your project records and RO-Crate. You can also use your institution's {% tool "dmponline" %} service. See the RDMkit guidance on [data management planning](/data_management_plan) {% cite RDMKit_dmp %}.
 
-* Capture dataset-level metadata with RO-Crate 1.2 or the Five-Safes RO-Crate profile. The Workflow-Run RO-Crate (Process Run Crate) profile {% cite rocrate_workflow %} formalises provenance for computational workflows. Full implementations for secure TRE contexts are available in the Five Safes RO-Crate record (Zenodo) {% cite rocrate_fivesafes2023 %}.
+* Capture dataset-level metadata with {% tool "research-object-crate" %} or the Five-Safes RO-Crate profile. The Workflow-Run RO-Crate (Process Run Crate) profile {% cite rocrate_workflow %} formalises provenance for computational workflows. Full implementations for secure TRE contexts are available in the Five Safes RO-Crate record (Zenodo) {% cite rocrate_fivesafes2023 %}.
 
   <details>
   <summary>Example: minimal ro-crate-metadata.json for a federated training run</summary>
@@ -257,7 +257,7 @@ In a federated setting, retention policies apply primarily to intermediate resul
 
 * Register container image digests and environment lock files (such as `conda-lock`) inside your RO-Crate for full environment capture.
 
-* Follow the **DOME-ML** recommendations for reproducible machine-learning validation. DOME-ML (Data, Optimisation, Model, Evaluation) {% cite walsh2021dome %} structures reproducibility into four pillars: version-control data schemas and document splits; log hyperparameters and convergence criteria; store model checkpoints with DOIs and environment lock files; and document evaluation metrics and version test datasets separately. Track preprocessing pipelines with [DVC](https://dvc.org/doc/user-guide) {% cite dvc_guide %}.
+* Follow the **DOME-ML** recommendations for reproducible machine-learning validation. DOME-ML (Data, Optimisation, Model, Evaluation) {% cite walsh2021dome %} structures reproducibility into four pillars: version-control data schemas and document splits; log hyperparameters and convergence criteria; store model checkpoints with DOIs and environment lock files; and document evaluation metrics and version test datasets separately. Track preprocessing pipelines with {% tool "dvc" %} {% cite dvc_guide %}.
 
 * **Retention and deletion**: implement per-node retention windows (for example, ninety-day rolling deletion of checkpoints) with automated deletion scripts and audit trails. The EDPS commentary emphasises that coordinated deletion mechanisms are needed across all participating nodes {% cite edps2025 %}.
 
@@ -282,7 +282,7 @@ Machine Learning Operations (MLOps) practices are important for reliable federat
 
 ### Solutions
 
-* Use **drift detection** to monitor whether local distributions diverge from global assumptions. For production, consider tools such as [Evidently](https://www.evidentlyai.com), an open-source ML monitoring framework for drift detection and model performance tracking. Scrape system and application metrics via Prometheus, an open-source monitoring toolkit, and visualise them with Grafana. When possible, present only aggregate round-level metrics (loss, accuracy) to avoid revealing per-site performance.
+* Use **drift detection** to monitor whether local distributions diverge from global assumptions. For production, consider tools such as {% tool "evidently" %}, an open-source ML monitoring framework for drift detection and model performance tracking. Scrape system and application metrics via Prometheus, an open-source monitoring toolkit, and visualise them with Grafana. When possible, present only aggregate round-level metrics (loss, accuracy) to avoid revealing per-site performance.
 
 * Track three core SLIs (coordinator availability, client-participation rate and per-round latency) because each affects convergence and the overall reliability of your federation:
 
@@ -292,9 +292,9 @@ Machine Learning Operations (MLOps) practices are important for reliable federat
 | Client-participation rate | The fraction of selected clients that report updates each round. | Model quality degrades when too few clients report; large-scale studies observe significant accuracy loss at low participation {% cite bonawitz2019towards %} {% cite fedscale2022 %}. | Export `fl_clients_participation_ratio` each round. Flower and NVFLARE expose this metric via Prometheus {% cite flower_monitoring2023 %} {% cite nvflare_monitoring %}. |
 | Per-round latency (p95) | The 95th-percentile duration of a training round. | Latency spikes warn of network congestion or stragglers {% cite beyer2018site %}. | Track `fl_round_duration_seconds` as a histogram; alert when p95 breaches the SLO budget for three consecutive windows. |
 
-* **Framework selection guidance**: rather than comparing frameworks feature by feature, consider the following decision criteria. [Flower](https://flower.ai) {% cite flower2022 %} is a Python-based framework with built-in secure aggregation (SecAgg+ from version 1.8) and a large community; it is a good starting point for most horizontal FL experiments {% cite flower_docs %} {% cite flower_secagg_example %}. If your regulatory environment requires homomorphic encryption for model training (for example, logistic regression or tree-based models), [FATE](https://github.com/FederatedAI/FATE) provides this out of the box {% cite fate2024 %}. For GPU-heavy workloads, [NVIDIA FLARE](https://developer.nvidia.com/flare) offers FedAvg, FedOpt and FedProx strategies {% cite flare2025 %}. [Substra](https://github.com/substra) adds a web interface for non-technical stakeholders to monitor training progress {% cite substra2025 %}. Whichever framework you choose, consider validating workflows locally through simulation before deploying to production.
+* **Framework selection guidance**: rather than comparing frameworks feature by feature, consider the following decision criteria. {% tool "flower" %} {% cite flower2022 %} is a Python-based framework with built-in secure aggregation (SecAgg+ from version 1.8) and a large community; it is a good starting point for most horizontal FL experiments {% cite flower_docs %} {% cite flower_secagg_example %}. If your regulatory environment requires homomorphic encryption for model training (for example, logistic regression or tree-based models), {% tool "fate" %} provides this out of the box {% cite fate2024 %}. For GPU-heavy workloads, {% tool "nvidia-flare" %} offers FedAvg, FedOpt and FedProx strategies {% cite flare2025 %}. {% tool "substra" %} adds a web interface for non-technical stakeholders to monitor training progress {% cite substra2025 %}. Whichever framework you choose, consider validating workflows locally through simulation before deploying to production.
 
-* **Publishing results**: package every federated run as an RO-Crate using runcrate. When publishing to a repository such as Zenodo, share aggregated evaluation metrics, model cards and code rather than raw model weights, which may encode sensitive information about the training data.
+* **Publishing results**: package every federated run as an RO-Crate using {% tool "runcrate" %}. When publishing to a repository such as Zenodo, share aggregated evaluation metrics, model cards and code rather than raw model weights, which may encode sensitive information about the training data.
 
 * **Community channels**: the [Flower Slack](https://flower.ai/join-slack/) {% cite flower_slack %}, [FATE mailing list](https://groups.io/g/FedAI) {% cite fate_mailing %} {% cite fate_community %} and [ELIXIR Federated Human Data Slack](https://elixir-europe.org/internal-projects/commissioned-services/federated-human-data) {% cite ELIXIR_slack %} provide support and roadmap discussions.
 
@@ -323,7 +323,7 @@ FL also involves computational costs distributed across multiple sites, making b
 * **Cost estimation**: estimate computational costs across federated sites using cloud pricing calculators and monitor actual usage via resource monitoring dashboards. Because costs are distributed, each site should track its own resource consumption and report it centrally for project budgeting.
 
 * **Carbon footprint monitoring**: several tools can help you measure the environmental impact of training:
-  * [CodeCarbon](https://codecarbon.io/) {% cite codecarbon %}: a Python package that tracks CO₂ emissions during training.
+  * {% tool "codecarbon" %} {% cite codecarbon %}: a Python package that tracks CO₂ emissions during training.
 
     ```python
     from codecarbon import EmissionsTracker
@@ -333,8 +333,8 @@ FL also involves computational costs distributed across multiple sites, making b
     emissions = tracker.stop()
     ```
 
-  * [ML CO2 Impact](https://mlco2.github.io/impact/): an online calculator for ML carbon footprint.
-  * [Green Algorithms](http://www.green-algorithms.org/): a computational footprint calculator.
+  * {% tool "ml-co2-impact" %}: an online calculator for ML carbon footprint.
+  * {% tool "green-algorithms" %}: a computational footprint calculator.
 
 * **Optimisation strategies**: schedule training during low-carbon energy periods at each site; use model compression techniques (pruning, quantisation) to reduce per-round computation; implement early stopping based on your carbon budget. Evaluate whether edge devices or cloud GPUs are more efficient for your specific workload and grid carbon intensity. Cloud GPUs may be more energy-efficient per computation than older on-premises hardware, so this decision should be evidence-based rather than assumed. Adaptive client-selection strategies such as EcoLearn can reduce CO₂ by up to an order of magnitude without significant accuracy loss {% cite ecolearn23 %}.
 
