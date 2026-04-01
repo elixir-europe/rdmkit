@@ -242,3 +242,7 @@
   date: 2026-03-02
   linked_pr: 1790
   description: A new "your domain" page about Agroecology was added. [Discover the page here](agroecology).
+- name: "New page: Federated learning"
+  date: 2026-04-01
+  linked_pr: 1805
+  description: A "your task" page about federated learning in life sciences RDM. [Discover the page here](federated_learning).
