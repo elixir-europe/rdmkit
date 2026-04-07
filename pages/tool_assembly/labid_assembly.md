@@ -12,7 +12,7 @@ training:
 related_pages: 
   Your_tasks: [data_organisation, data provenance, storage, metadata, machine learning, single-cell sequencing]
   Your_domain: [bioimaging_data, proteomics, plant sciences]
-description: LabID is an all-in-one FAIR data management platform for life sciences institutes. It allows keeping track of datasets, samples, workflows and inventory while featuring an Electronic Lab Notebook.
+description: LabID is an all-in-one FAIR data management platform for life sciences institutes. It allows keeping track of datasets, samples, workflows and inventory, while also featuring an Electronic Lab Notebook.
 ---
 
 ## What is LabID?
