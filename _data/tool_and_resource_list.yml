@@ -3564,3 +3564,9 @@
   url: https://grp-gbcs.embl-community.io/labid-user-docs/
   registry:
     biotools: labid
+- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects. 
+  id: rohub
+  name: RoHub
+  url: https://www.rohub.org/
+  registry:
+    fairsharing: d3c5fd
