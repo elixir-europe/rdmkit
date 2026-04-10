@@ -243,6 +243,6 @@
   linked_pr: 1790
   description: A new "your domain" page about Agroecology was added. [Discover the page here](agroecology).
 - name: "New page: LabID tool assembly"
-  date: 2026-04-07
+  date: 2026-04-10
   linked_pr: 1799
   description: A new "tool assembly" page for LabID was added. [Discover the page here](labid_assembly).
