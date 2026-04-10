@@ -96,8 +96,8 @@ national_resources:
       Your_tasks: [data_analysis]
     url: https://documentation.sigma2.no/hpc_machines/hardware_overview.html
   - name: Norwegian Research and Education Cloud (NREC)
-    description: NREC is an Infrastructure-as-a-Service (IaaS) project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett., commonly referred to as a cloud infrastructure An IaaS is a self-service infrastructure where you spawn standardised servers and storage instantly, as needed, from a given resource quota.
-    how_to_access: All users at educational institutions via Feide
+    description: NREC (formerly known as UH-IaaS) is a collaboration project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett. We've been in production since 2016 and are currently providing cloud infrastructure for several high profile academic projects, including CERN's ALICE and ATLAS experiments. Our hardware is located exclusively on-premise, our services are developed locally and we are almost entirely based on Open Source Software and open standards, making us a more transparent alternative to commercial cloud providers.
+    how_to_access: Feide or upon application
     instance_of: openstack
     related_pages:
       Your_tasks: [data_analysis, storage]
@@ -124,7 +124,7 @@ national_resources:
       Your_tasks: [data_analysis, sensitive, storage]
     url: https://www.ntnu.edu/mh/huntcloud
   - name: SAFE
-    description: SAFE (secure access to research data and e-infrastructure) is  the solution for the secure processing of sensitive personal data in research at the University of Bergen. SAFE is based on the “Norwegian Code of conduct for information security in the health and care sector” (Normen) and ensures confidentiality, integrity, and availability are preserved when processing sensitive personal data. Through SAFE, the IT department offers a service where employees, students and external partners get access to dedicated resources for processing of sensitive personal data.
+    description: SAFE (secure access to research data and e-infrastructure) is  the solution for the secure processing of sensitive personal data in research at the University of Bergen. SAFE is based on the "Norwegian Code of conduct for information security in the health and care sector" (Normen) and ensures confidentiality, integrity, and availability are preserved when processing sensitive personal data. Through SAFE, the IT department offers a service where employees, students and external partners get access to dedicated resources for processing of sensitive personal data.
     how_to_access: Access to SAFE requires a University of Bergen computer account. However, each department has approvers who can create external accounts for partners if needed.
     related_pages:
       Your_domain: [human_data]
@@ -157,6 +157,26 @@ national_resources:
       Your_tasks: [sensitive]
       Tool_assembly: [tsd]
     url: https://nettskjema.no/
+  - name: SkyHigh IIK
+    description: SkyHigh is IIK's installation in Gjøvik. Used for education and research activities.
+    how_to_access: NTNU internal or upon application
+    instance_of: openstack
+    url: https://skyhigh.iik.ntnu.no
+  - name: SkyLow IIK
+    description: SkyLow is IIK's testing and development platform.
+    how_to_access: NTNU internal or upon application
+    instance_of: openstack
+    url: https://skylow.iik.ntnu.no
+  - name: Stack NTNU IT
+    description: Stack is NTNU IT's general purpose OpenStack cloud.
+    how_to_access: NTNU internal or upon application
+    instance_of: openstack
+    url: https://stack.it.ntnu.no
+  - name: Pile NTNU IT
+    description: Pile is NTNU IT's testing and development platform.
+    how_to_access: NTNU internal or upon application
+    instance_of: openstack
+    url: https://pile.it.ntnu.no
 ref_to_main_resources:
   - mardb
   - marfun
