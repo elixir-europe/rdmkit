@@ -3559,3 +3559,15 @@
   id: proton-drive
   name: Proton Drive
   url: https://proton.me/drive
+- description: LabID is a data management solution for life-science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
+  id: labid
+  name: LabID (Lab Integrated Data)
+  url: https://grp-gbcs.embl-community.io/labid-user-docs/
+  registry:
+    biotools: labid
+- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects. 
+  id: rohub
+  name: RoHub
+  url: https://www.rohub.org/
+  registry:
+    fairsharing: d3c5fd

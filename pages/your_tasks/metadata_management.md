@@ -5,7 +5,7 @@ editors: [Flora D'Anna, Marina Popleteeva, Nazeefa Fatima, Niclas Jareborg]
 description: How to document and describe your data.
 page_id: metadata
 related_pages:
-  Tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly]
+  Tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly, labid]
 dsw:
 - name: Will the metadata be available even when the data no longer exists?
   uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd
@@ -54,7 +54,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 * There are many appropriate tools for data documentation during the project. Check with your institute to know what is offered.
   * Electronic Lab Notebooks (ELNs) are usually better for more disparate and unstructured information that requires flexibility. Researchers can use an ELN (such as {% tool "elabftw" %}) in a personalised way and adapt it to document their everyday work.
 
-  * Laboratory Information Management Systems (LIMS) typically follow pre-defined and highly structured experimental workflow. LIMS are used to document and track biological samples through the experimental processes and can support direct import of data from sources such as instruments.
+  * Laboratory Information Management Systems (LIMS) typically follow pre-defined and highly structured experimental workflow. LIMS are used to document and track biological samples through the experimental processes and can support direct import of data from sources such as instruments (e.g {% tool "labid" %}).
 
   * Electronic Data Capture (EDC) systems are usually designated for collection of clinical trial data.
 
