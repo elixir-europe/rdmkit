@@ -96,7 +96,7 @@ national_resources:
       Your_tasks: [data_analysis]
     url: https://documentation.sigma2.no/hpc_machines/hardware_overview.html
   - name: Norwegian Research and Education Cloud (NREC)
-    description: NREC (formerly known as UH-IaaS) is a collaboration project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett. We've been in production since 2016 and are currently providing cloud infrastructure for several high profile academic projects, including CERN's ALICE and ATLAS experiments. Our hardware is located exclusively on-premise, our services are developed locally and we are almost entirely based on Open Source Software and open standards, making us a more transparent alternative to commercial cloud providers.
+    description: NREC (formerly known as UH-IaaS) is a collaboration project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett. It has been in production since 2016 and is currently providing cloud infrastructure for several high-profile academic projects, including CERN's ALICE and ATLAS experiments. The hardware is located exclusively on-premise, our services are developed locally, and the infrastructure is almost entirely based on open-source software and open standards, making this a more transparent alternative to commercial cloud providers.
     how_to_access: Feide or upon application
     instance_of: openstack
     related_pages:
