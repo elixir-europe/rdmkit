@@ -3571,3 +3571,7 @@
   url: https://www.rohub.org/
   registry:
     fairsharing: d3c5fd
+- description: ENA Reads & Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
+  id: ena-reads-assembly-submission-workflow
+  name: ENA Reads & Assembly Submission Workflow
+  url: https://workflowhub.eu/workflows/2008
