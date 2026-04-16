@@ -3571,3 +3571,9 @@
   url: https://www.rohub.org/
   registry:
     fairsharing: d3c5fd
+- description: ICTV Ontology provides a machine-readable representation of the official International Committee on Taxonomy of Viruses taxonomy, supporting consistent annotation of virus metadata and improved interoperability across virology resources.
+  id: ictv-ontology
+  name: ICTV Ontology
+  registry:
+    fairsharing: a2e727
+  url: https://www.ebi.ac.uk/ols4/ontologies/ictv
