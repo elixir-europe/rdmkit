@@ -34,8 +34,28 @@ jobs:
           python var/fairsharing_integration.py --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
 
       - name: Run regsitry lookup for the tools file
-        run: | 
-          python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+        run: |
+          set -euo pipefail
+          max_attempts=3
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "Attempt $attempt of $max_attempts: running registry lookup..."
+            if python var/tools_validator.py --reg --username "${{ secrets.FAIRSHARING_USERNAME }}" --password "${{ secrets.FAIRSHARING_PASSWORD }}"; then
+              echo "Registry lookup succeeded on attempt $attempt."
+              break
+            else
+              echo "Registry lookup failed on attempt $attempt."
+              if [ $attempt -lt $max_attempts ]; then
+                echo "Sleeping 2 minutes before retry..."
+                sleep 120
+              fi
+            fi
+            attempt=$((attempt + 1))
+          done
+          if [ $attempt -gt $max_attempts ]; then
+            echo "Registry lookup failed after $max_attempts attempts."
+            exit 1
+          fi
 
       - name: Update markdown pages with DSW links
         run: |
