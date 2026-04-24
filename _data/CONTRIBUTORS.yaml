@@ -1,14 +1,14 @@
 # List of contributors
 #
-# reference maintainers/contributors by their name used in contributors metadata section on the pages.
+# reference maintainers/contributors by their name used in the contributors metadata section on the pages.
 # Extra metadata that is possible to add:
 # Full Name:
-#    git: github id
-#    email: email adress
-#    orcid: ocrid id
+#    git: GitHub ID
+#    email: email address
+#    orcid: ORCID id
 #    role: the role of the contributor
 #    affiliation: affiliation
-#    image_url: absolute path to image (default image from github)
+#    image_url: absolute path to image (default image from GitHub)
 
 Bert Droesbeke:
     git: bedroesb
@@ -197,6 +197,7 @@ Erik Hjerde:
     git: ehj000
     email: erik.hjerde@uit.no
     orcid: 0000-0002-6014-1249
+    affiliation: Arctic University of Norway (UiT) / ELIXIR-NO
 Daniel Wibberg:
     git: dwibberg
     email: dwibberg@cebitec.uni-bielefeld.de
@@ -235,7 +236,6 @@ Anne-Françoise Adam-Blondon:
 Nazeefa Fatima:
     git: Nazeeefa
     orcid: 0000-0001-7791-4984
-    role: editor
     affiliation: Centre for Bioinformatics, University of Oslo / ELIXIR-NO
 Ernesto Picardi:
     email: ernesto.picardi@uniba.it
@@ -271,8 +271,8 @@ Muhammad Shoaib:
     git: muhammadshoaib
     affiliation: LCSB
 Xinhui Wang:
-    orcid : 0000-0001-8697-4209
-    email : xinhui.wang@uni.lu
+    orcid: 0000-0001-8697-4209
+    email: xinhui.wang@uni.lu
     affiliation: LCSB
 Soumyabrata Ghosh:
     orcid: 0000-0003-0659-6733
@@ -584,7 +584,7 @@ Uladzislau Vadadokhau:
     git: uladzislau21
     email: uladzislau.vadadokhau@med.unideb.hu
     orcid: 0000-0003-3773-7746
-    affilation: University of Debrecen, Proteomics Core Facility
+    affiliation: University of Debrecen, Proteomics Core Facility
 Fotis Psomopoulos:
     git: fpsom
     orcid: 0000-0002-0222-4273
