@@ -620,7 +620,7 @@
   url: https://www.dcc.ac.uk/guidance/standards/metadata/list
 - description: Publicly available online tool for composing smart data management plans
   id: data-stewardship-wizard
-  name: Data Stewardship Wizard
+  name: Data Stewardship Wizard (DSW)
   registry:
     biotools: Data_Stewardship_Wizard
     tess: Data Stewardship Wizard
@@ -3559,6 +3559,28 @@
   id: proton-drive
   name: Proton Drive
   url: https://proton.me/drive
+- description: LabID is a data management solution for life-science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
+  id: labid
+  name: LabID (Lab Integrated Data)
+  url: https://grp-gbcs.embl-community.io/labid-user-docs/
+  registry:
+    biotools: labid
+- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects. 
+  id: rohub
+  name: RoHub
+  url: https://www.rohub.org/
+  registry:
+    fairsharing: d3c5fd
+- description: ENA Reads & Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
+  id: ena-reads-assembly-submission-workflow
+  name: ENA Reads & Assembly Submission Workflow
+  url: https://workflowhub.eu/workflows/2008
+- description: ICTV Ontology provides a machine-readable representation of the official International Committee on Taxonomy of Viruses taxonomy, supporting consistent annotation of virus metadata and improved interoperability across virology resources.
+  id: ictv-ontology
+  name: ICTV Ontology
+  registry:
+    fairsharing: a2e727
+  url: https://www.ebi.ac.uk/ols4/ontologies/ictv
 - description: A Python package that tracks CO2 emissions from computing, quantifying and reducing the environmental impact of machine learning.
   id: codecarbon
   name: CodeCarbon
