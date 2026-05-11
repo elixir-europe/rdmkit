@@ -46,6 +46,7 @@ To effectively manage data heterogeneity in virology outbreak surveillance, seve
   * Integrate epidemiological and genomic data for outbreak analysis, by utilising phylodynamic workflows (e.g. BEAST, {% tool "nextstrain" %}, or TreeTime), enabling real-time outbreak tracking.
   * Implement structured pipelines for linking viral genome sequences with patient and outbreak metadata.
 * Apply domain-specific vocabularies for consistent annotation
+  * Use the {% tool "ictv-ontology" %} for consistent virus taxonomic annotation. It provides a machine-readable representation of the official ICTV taxonomy, supporting interoperable metadata and cross-resource integration.
   * Utilise the {% tool "evora-ontology" %} and {% tool "ictv" %} to ensure that virus-related metadata terms are standardised and interoperable.
   * Monitor updates in virology-specific ontologies to maintain alignment with evolving standards.
 By implementing these best practices, outbreak surveillance data can be better structured, more interoperable, and more effectively shared, ultimately improving global response efforts to viral outbreaks.
@@ -98,7 +99,7 @@ To ensure secure and effective data sharing in virology outbreak surveillance, r
   * Utilise {% tool "pathoplexus" %} for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
 * Ensure proper deposition of outbreak data into trusted repositories to facilitate data sharing, citation, and reuse, following best practices outlined on the [Data Publication](data_publication) page.
   * Submit viral genomic sequences and epidemiological data to {% tool "gisaid" %}, NCBI {% tool "genbank" %}, and {% tool "european-nucleotide-archive" %} for public accessibility.
-  * Use standard submission pipelines to ensure compliance with repository-specific metadata and formatting guidelines.
+  * Use standard submission pipelines to ensure compliance with repository-specific metadata and formatting guidelines. For example, use the {% tool "ena-reads-assembly-submission-workflow" %} to support submission of raw reads and assembled sequences to ENA. Implemented in {% tool "galaxy" %}, it provides an interactive submission process with metadata capture and validation aligned with [ENA requirements](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html).
 * Assign persistent identifiers to datasets to enhance discoverability, citation, and long-term accessibility, following recommendations on the [Identifiers](identifiers) page.
   * Register DOIs or accession numbers for datasets to facilitate long-term accessibility and proper citation.
   * Ensure metadata linking persistent identifiers is properly formatted and recorded.

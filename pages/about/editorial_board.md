@@ -4,7 +4,7 @@ title: Editorial board
 
 ## Meet the editorial board members
 
-{% include contributor-tiles-all.html custom="Bert Droesbeke, Carole Goble, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Ulrike Wittig, Korbinian Bösl, Federico Bianchini, Nazeefa Fatima, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva, Gil Poiares-Oliveira" %}
+{% include contributor-tiles-all.html custom="Bert Droesbeke, Carole Goble, Flora D'Anna, Frederik Coppens, Munazah Andrabi, Ulrike Wittig, Korbinian Bösl, Federico Bianchini, Ishwar Chandramouliswaran, Diana Pilvar, Marina Popleteeva, Gil Poiares-Oliveira" %}
 
 ## Join as an editorial board member
 
@@ -20,12 +20,12 @@ Being on the editorial board of RDMkit entails shaping how RDM best practices, w
 
 ### Responsibilities
 
-* Careful consideration and examination of topics proposed by contributors to make sure it is relevant for the RDMkit.
+* Careful consideration and examination of topics proposed by contributors to make sure they are relevant for the RDMkit.
 * Work together with contributors on how and where their specific contribution fits best in RDMkit.
 * Provide timely feedback for improving the quality of the content, according to the RDMkit style guide.
 * Format content according to RDMkit templates.
 * Join the biweekly editorial meeting.
-* Manage a Github repository.
+* Manage a GitHub repository.
 
 ### Call to join us
 
@@ -38,7 +38,7 @@ We want to keep the editorial board manageable in numbers. We are, thus, looking
 * The applicant must be interested in effective digital communication of best practices and guidelines.
 * The applicant should be willing to spend some time on the evaluation of content.
 * The applicant should be open to discussing topics with other editorial board members and to accept feedback.
-* The applicant should have basic knowledge of Github.
+* The applicant should have basic knowledge of GitHub.
 
 **Application**
 
@@ -54,4 +54,4 @@ Please send your application to rdm-editors@elixir-europe.org.
 
 In this section, we would like to thank the contributions of our past editorial members.
 
-{% include contributor-tiles-all.html custom="Mijke Jetten, Niclas Jareborg, Pinar Alper, Rob Hooft, Daniel Faria, Martin Cook, Laura Portell Silva" %}
+{% include contributor-tiles-all.html custom="Mijke Jetten, Niclas Jareborg, Pinar Alper, Rob Hooft, Daniel Faria, Martin Cook, Laura Portell Silva, Nazeefa Fatima" %}

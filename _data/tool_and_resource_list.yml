@@ -620,7 +620,7 @@
   url: https://www.dcc.ac.uk/guidance/standards/metadata/list
 - description: Publicly available online tool for composing smart data management plans
   id: data-stewardship-wizard
-  name: Data Stewardship Wizard
+  name: Data Stewardship Wizard (DSW)
   registry:
     biotools: Data_Stewardship_Wizard
     tess: Data Stewardship Wizard
@@ -1497,11 +1497,12 @@
     fairsharing: re1278
     tess: OmicsDI
   url: https://www.omicsdi.org
-- description: OMOP is a common data model for the harmonisation for of observational health data.
+- description: OMOP is a common data model for the harmonisation of observational health data.
   id: omop-cdm
-  name: OMOP-CDM
+  name: The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
   registry:
     tess: OMOP-CDM
+    fairsharing: qk984b
   url: https://ohdsi.github.io/CommonDataModel/
 - description: OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.
   id: onotomaton
@@ -3558,6 +3559,32 @@
   id: proton-drive
   name: Proton Drive
   url: https://proton.me/drive
+- description: LabID is a data management solution for life-science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
+  id: labid
+  name: LabID (Lab Integrated Data)
+  url: https://grp-gbcs.embl-community.io/labid-user-docs/
+  registry:
+    biotools: labid
+- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects. 
+  id: rohub
+  name: RoHub
+  url: https://www.rohub.org/
+  registry:
+    fairsharing: d3c5fd
+- description: ENA Reads & Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
+  id: ena-reads-assembly-submission-workflow
+  name: ENA Reads & Assembly Submission Workflow
+  url: https://workflowhub.eu/workflows/2008
+- description: ICTV Ontology provides a machine-readable representation of the official International Committee on Taxonomy of Viruses taxonomy, supporting consistent annotation of virus metadata and improved interoperability across virology resources.
+  id: ictv-ontology
+  name: ICTV Ontology
+  registry:
+    fairsharing: a2e727
+  url: https://www.ebi.ac.uk/ols4/ontologies/ictv
+- description: A Data Management Plan (DMP) template with questions tailored to bioimaging research projects developed by Euro-Bioimaging.
+  id: dmp-template-euro-bio
+  name: Euro-BioImaging's Template for Research Data Management Plans
+  url: https://doi.org/10.5281/zenodo.11473803
 - description: The Bioconductor project aims to develop and share open source software (R-based) for precise and repeatable analysis of biological data. 
   id: bioconductor
   name: Bioconductor
