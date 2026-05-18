@@ -15,7 +15,7 @@ training:
     description: This presentation highlights how the local Greek Galaxy instance at usegalaxy.elixir-greece.org makes SARS-CoV-2 data analysis accessible and reproducible using open software and public research infrastructures. It showcases practical workflows in genomics, proteomics, evolution, and cheminformatics, with comprehensive training materials available to support collaborative research.
     url: https://zenodo.org/records/4042834#.ZACFUk9vD9M
 
-# Refer to entries of the "main_tool_and_resource_table" if institutions, organizations and projects from the country contribute to the development of international tools and resources. 
+# Refer to entries of the "main_tool_and_resource_table" if institutions, organisations and projects from the country contribute to the development of international tools and resources. 
 
 ref_to_main_resources:
   - argos
@@ -76,7 +76,7 @@ Research funding in Greece is primarily provided by **National and European fund
 
 Greece has made significant progress in adopting Open Science policies, aligning with European initiatives such as the European Open Science Cloud (EOSC). The country has established a national initiative called **Hellenic Open Science Initiative** to coordinate and implement national policies for Open Science and research data management.
 
-- The **[Hellenic Open Science Initiative (HOSI)](https://www.hellenicopenscience.gr/en/welcome-to-os-greece/about-hosi)** was founded on February 28, 2022, by 13 leading Greek research, technology, and innovation organizations. Its goal is to support the coordinated and participatory implementation of Open Science policies in Greece while ensuring national representation in EOSC.
+- The **[Hellenic Open Science Initiative (HOSI)](https://www.hellenicopenscience.gr/en/welcome-to-os-greece/about-hosi)** was founded on February 28, 2022, by 13 leading Greek research, technology, and innovation organisations. Its goal is to support the coordinated and participatory implementation of Open Science policies in Greece while ensuring national representation in EOSC.
 
   HOSI Key Policies:
    - Open Science is a national priority and is integrated into Greece’s Digital Transformation Strategy.
@@ -90,10 +90,10 @@ Greece has made significant progress in adopting Open Science policies, aligning
    - **FAIR principles**: Research data should be managed following international standards for metadata and licensing.
    - **Permanent Identifiers**: Research data must be assigned persistent digital identifiers (DOIs).
    - **Machine-readable metadata**: Research software must be documented using OpenAIRE Guidelines, codemeta.json, and {% tool "schema-org" %} attributes.
-   - **Open Data Licenses**: Researchers should use standardized open licenses, with a preference for CC-BY (Attribution Only).
+   - **Open Data Licenses**: Researchers should use standardised open licenses, with a preference for CC-BY (Attribution Only).
    - **Mandatory Data Management Plans (DMPs)**: All research projects must include a Data Management Plan (DMP).
 
-- Part of the **National Research Data Management Policy** has been embedded in the Greece’s **[Digital Transformation Strategy 2020-2025](https://digitalstrategy.gov.gr/vivlos_pdf)**. This strategy highlights Open Science as a key pillar for modernizing the country’s research landscape outlining its importance in fostering collaboration, transparency, and innovation in scientific research. The strategy aligns with European Open Science Cloud (EOSC) guidelines, ensuring interoperability with European research infrastructures and reinforcing Greece’s role in EOSC.  
+- Part of the **National Research Data Management Policy** has been embedded in the Greece’s **[Digital Transformation Strategy 2020-2025](https://digitalstrategy.gov.gr/vivlos_pdf)**. This strategy highlights Open Science as a key pillar for modernising the country’s research landscape outlining its importance in fostering collaboration, transparency, and innovation in scientific research. The strategy aligns with European Open Science Cloud (EOSC) guidelines, ensuring interoperability with European research infrastructures and reinforcing Greece’s role in EOSC.  
 
 ## Domain-specific infrastructures or resources 
 The [Greek COVID-19 Portal](https://covid19dataportal.gr/) provides information, guidelines, tools and services to support researchers to utilise Greek and European infrastructures for data sharing. The portal is a national node of the European COVID-19 Data Portal.

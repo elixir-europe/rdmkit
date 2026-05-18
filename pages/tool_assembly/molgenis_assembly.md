@@ -27,7 +27,7 @@ training:
 
 ## What is the Molgenis tool assembly?
 
-{% tool "molgenis" %} is a modular web application for scientific data. MOLGENIS was born from molecular genetics research (and was called 'molecular genetics information system') but has become relevant to many other scientific areas such as biobanking, rare disease research, patient registries and even energy research. MOLGENIS provides user-friendly and scalable software infrastructures to capture, exchange, and exploit the large amounts of data that is being produced by scientific organizations all around the world. To get an idea of what the software can do, visit our MOLGENIS YouTube channel or our demo page via the [related pages](#related-pages).
+{% tool "molgenis" %} is a modular web application for scientific data. MOLGENIS was born from molecular genetics research (and was called 'molecular genetics information system') but has become relevant to many other scientific areas such as biobanking, rare disease research, patient registries and even energy research. MOLGENIS provides user-friendly and scalable software infrastructures to capture, exchange, and exploit the large amounts of data that is being produced by scientific organisations all around the world. To get an idea of what the software can do, visit our MOLGENIS YouTube channel or our demo page via the [related pages](#related-pages).
 MOLGENIS is an [ELIXIR Recommended Interoperability Resource](https://elixir-europe.org/platforms/interoperability/rirs#ELIXIR%20Recommended%20Interoperability%20Resources%20list).
 
 One of the key features is that it has a completely customisable data system, allowing you to model your data according to your needs. This creates flexibility that other, more static, database applications often lack. It is web-based, meaning you setup a server, install and configure MOLGENIS, load your data and share it. If your data is ready, setting up a useful online research database application can be done in few hours. Another key feature is that MOLGENIS is modular, having all kinds of extension modules to store and interact with your data. A good example are interfaces to create R and Python scripts that interact with your data. This enables you to add your own statistical modules to run statistical analysis, or create plots based on your data within the online environment.
@@ -59,10 +59,10 @@ Example: http://www.palgaopenbaredatabank.nl
 Easily control group, role and individual access. MOLGENIS data is organised following scientific practice. Data can be divided in research groups, within the groups you can assign roles such as 'data manager', 'data editor' and 'data user'. Authentication can be ensured by connecting you institute account via [SURFconext (NL)](https://www.surf.nl/en/surfconext-global-access-with-1-set-of-credentials) and [BBMRI/LS Login (Europe)](https://lifescience-ri.eu/ls-login/) or using Google two-factor authentication.
 
 ### Scripting & visualisation
-Bioinformaticians can take full control in MOLGENIS. Add scripts in your favorite programming languages (e.g. R, javascript, python) and connect to the data using API's to add great analysis tools and views. You can also create complete html + javascript apps to customize MOLGENIS further.
+Bioinformaticians can take full control in MOLGENIS. Add scripts in your favorite programming languages (e.g. R, javascript, python) and connect to the data using API's to add great analysis tools and views. You can also create complete html + javascript apps to customise MOLGENIS further.
 Example: http://molgenis.org/ase
 Harmonization and integration
-A common task is to make your data interoperable and run combined analysis, which is much more powerful than running smaller analyses on each dataset separately. MOLGENIS offers you multiple 'FAIRification' tools to find related data, codify your data contents and transform different tables into one standardized table.
+A common task is to make your data interoperable and run combined analysis, which is much more powerful than running smaller analyses on each dataset separately. MOLGENIS offers you multiple 'FAIRification' tools to find related data, codify your data contents and transform different tables into one standardised table.
 Examples: http://biobankconnect.org and http://molgenis.org/sorta
 
 ### Task automation

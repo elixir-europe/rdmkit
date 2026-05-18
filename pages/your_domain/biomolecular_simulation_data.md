@@ -49,7 +49,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 
 ### Solutions
 
-* Deposit your data to a suitable repository for sharing. There’s a long (and incomplete) list of repositories available for data sharing. Repositories are divided into two main categories, *general-purpose* and *discipline-specific*, and both categories are utilised in the domain of biomolecular modeling and simulation. For a general introduction to repositories, you are advised to read the [data publication](data_publication) page.
+* Deposit your data to a suitable repository for sharing. There’s a long (and incomplete) list of repositories available for data sharing. Repositories are divided into two main categories, *general-purpose* and *discipline-specific*, and both categories are utilised in the domain of biomolecular modelling and simulation. For a general introduction to repositories, you are advised to read the [data publication](data_publication) page.
   * General-purpose repositories such as {% tool "zenodo" %}, {% tool "figshare" %}, {% tool "mendeley-data" %}, {% tool "dryad" %}, and {% tool "openscienceframework" %} can be used.
   * Discipline-specific repositories can be used when the repository supports the type of data to be shared e.g. molecular dynamics data. Repositories for various data types and models are listed below:
     * Molecular Dynamics repositories
@@ -66,14 +66,14 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
 
     * Docking respositories
       * {% tool "molssi" %} - database with COVID-19 related simulations, [with submission process](https://covid.bioexcel.eu/contributing/).
-      * {% tool "pdb-dev" %} - prototype archiving system for structural models using integrative or hybrid modeling, [with submission process](https://pdb-dev.wwpdb.org/deposit.html).
+      * {% tool "pdb-dev" %} - prototype archiving system for structural models using integrative or hybrid modelling, [with submission process](https://pdb-dev.wwpdb.org/deposit.html).
       * {% tool "modelarchive" %} - theoretical models of macromolecular structures, [with submission process](https://modelarchive.org/account).
 
     * Virtual Screening repositories:
       * {% tool "bioactive-conformational-ensemble" %} - small molecule conformations, [with submission process](https://mmb.irbbarcelona.org/BCE/db/upload).
       * {% tool "bindingdb" %} - database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules, [with submission process](https://www.bindingdb.org/bind/contributedata.jsp).
 
-    * Repositories for the analyzed data from simulations:
+    * Repositories for the analysed data from simulations:
        * {% tool "molmedb" %} - for molecule-membrane interactions and free energy profiles, [with submission process](mailto:molmedb@upol.cz).  
        * {% tool "channelsdb" %} - resource of channels, pores and tunnels found in biomacromolecules, [with submission process](https://channelsdb2.biodata.ceitec.cz/contribute.html).
 

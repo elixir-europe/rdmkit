@@ -33,7 +33,7 @@ Essential roles include:
 *	Software engineer responsible for the software that manages the data (it is recommended to avoid vendor lock-in as much as possible).
 
 Recommended additional roles:
-*	Project manager (highly recommended organizer role).
+*	Project manager (highly recommended organiser role).
 *	Part-time advisors for expertise on (i) the domain (e.g., a medical doctor), (ii) international FAIR standards (e.g., a senior FAIR expert), and (iii) implementation of FAIR software.
 *	Data scientist dedicated to exploiting the added value of FAIR, machine readable data.
 
@@ -51,7 +51,7 @@ Data collection for clinical research is often done through (electronic) Case Re
 When choosing an EDC system, it is important to check if the system is open to and supports an implementation of FAIR. Two aspects to take into consideration are, for example: 
 
 *	Does the EDC system support the implementation of a {% tool "fair-data-point" %}?
-    *	A FAIR Data Point stores the metadata of the data that has been collected. It makes metadata findable and reusable for others on the internet and offers a uniform way for accessing the data for those who are authorized. 
+    *	A FAIR Data Point stores the metadata of the data that has been collected. It makes metadata findable and reusable for others on the internet and offers a uniform way for accessing the data for those who are authorised. 
 *	Does the EDC system support semantic data models?
     *	Mapping the eCRFs to the elements of a semantic data model helps making the data being collected interoperable and reusable. The EJP RD developed and published a {% tool "semantic-data-model-of-the-set-of-common-data-elements-for-rare-diseases-registration" %}.
 
@@ -65,7 +65,7 @@ When choosing an EDC system, it is important to check if the system is open to a
  This section covers the processing of data as it is being collected. It covers the different pseudonymisation tools that could be used for registry data.
 
 ### Considerations
-For data pseudonymization, it is recommended to use the {% tool "spider-pseudonymisation-tool" %} offered by the European Platform on Rare Disease Registration.
+For data pseudonymisation, it is recommended to use the {% tool "spider-pseudonymisation-tool" %} offered by the European Platform on Rare Disease Registration.
 When making data FAIR retrospectively, it is recommended to follow the [retrospective FAIRification workflow](https://doi.org/10.1162/dint_a_00028). On the other hand, when registry data must be FAIR right from when it is being collected by an EDC system, it is recommended to read two papers ([here](https://ojrd.biomedcentral.com/articles/10.1186/s13023-021-02004-y) and [here](https://pubmed.ncbi.nlm.nih.gov/34454078/)), to learn more about the denovo FAIRification process.
 
 ### Solutions
@@ -74,7 +74,7 @@ When making data FAIR retrospectively, it is recommended to follow the [retrospe
 
 ## Interpreting rare disease data
 ### Description
-This section deals with the modeling of your data, so it can be annotated with unambiguous terms and the different ways it can be queried.
+This section deals with the modelling of your data, so it can be annotated with unambiguous terms and the different ways it can be queried.
 
 ### Considerations
 EJP RD’s CDE semantic model comes with a data transformation tool called ‘CDE in a box’, which transforms data in CSV format to linked data according to the model. The {% tool "common-data-elements-in-a-box" %} tool works independently from any EDC system. Additionally, the EJP RD will provide mappings to other data models such as the Observational Health Data Sciences and Informatics (OMOP) Common Data Model, the Clinical Data Interchange Standards Consortium (CDISC) Operational Data Model, and Health Level 7’s Fast Healthcare Interoperability Resources (FHIR). 

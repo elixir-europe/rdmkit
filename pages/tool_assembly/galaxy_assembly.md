@@ -23,7 +23,7 @@ Galaxy is a well-known **open-source platform for FAIR data analysis** that enab
 - **access and collect data** from reference databases, external repositories and other data sources;
 - **use tools from various domains** that can be plugged into workflows through its graphical web interface;
 - **run code in interactive environments** (RStudio, Jupyter...) along with other tools or workflows;
-- **manage data** by sharing and publishing results, workflows, and visualizations;
+- **manage data** by sharing and publishing results, workflows, and visualisations;
 - **capture the metadata** of data analyses, thus ensuring their reproducibility.
 
 Galaxy supports scientists to perform accessible, reproducible, and transparent computational analysis. The Galaxy Community is actively involved in helping the ecosystem improve and sharing scientific discoveries.

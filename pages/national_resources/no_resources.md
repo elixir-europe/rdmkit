@@ -95,7 +95,7 @@ national_resources:
       Your_tasks: [data_analysis]
     url: https://documentation.sigma2.no/hpc_machines/hardware_overview.html
   - name: Norwegian Research and Education Cloud (NREC)
-    description: NREC is an Infrastructure-as-a-Service (IaaS) project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett., commonly referred to as a cloud infrastructure An IaaS is a self-service infrastructure where you spawn standardized servers and storage instantly, as needed, from a given resource quota.
+    description: NREC is an Infrastructure-as-a-Service (IaaS) project between the University of Bergen and the University of Oslo, with additional contributions from NeIC (Nordic e-Infrastructure Collaboration) and Uninett., commonly referred to as a cloud infrastructure An IaaS is a self-service infrastructure where you spawn standardised servers and storage instantly, as needed, from a given resource quota.
     how_to_access: All users at educational institutions via Feide
     instance_of: openstack
     related_pages:
@@ -229,7 +229,7 @@ Details and provided solutions vary according to each institution:
 
 The [ELIXIR Norway Helpdesk](https://elixir.no/helpdesk) offers bioinformatics and data management support together with documentation and support for using ELIXIR Norway's life science infrastructures. Researchers in Norway as well as international collaborators—including private companies and governmental research institutions—can contact the Helpdesk to request access to data management services.
 
-The [Global Biodiversity Information Facility (GBIF) Norway Helpdesk](https://www.gbif.no/services/) supplies IT-services and assistance with deposition of biodiversity data to affiliated organizations. If you are not currently part of the GBIF community, you can follow their guidelines to request endorsement. The GBIF network supports four classes of datasets: resources metadata, checklists, occurrences, and sampling-event data.
+The [Global Biodiversity Information Facility (GBIF) Norway Helpdesk](https://www.gbif.no/services/) supplies IT-services and assistance with deposition of biodiversity data to affiliated organisations. If you are not currently part of the GBIF community, you can follow their guidelines to request endorsement. The GBIF network supports four classes of datasets: resources metadata, checklists, occurrences, and sampling-event data.
 
 The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates compliance with Norway-specific regulations and standards for ethical, legal, and societal issues, as part of Biobank Norway (BBMRI-NO).
 
@@ -354,7 +354,7 @@ These are some of the laws relevant for research data management in Norway. You 
 ### Health research data
 
 * [Health Research Act](https://lovdata.no/dokument/LTI/lov/2008-06-20-44)
-* [Regulations on the organization of medical and health research](http://www.lovdata.no/for/sf/ho/ho-20090701-0955.html)
+* [Regulations on the organisation of medical and health research](http://www.lovdata.no/for/sf/ho/ho-20090701-0955.html)
 * [Comments to health research legislative work by the Norwegian government](https://www.regjeringen.no/globalassets/upload/hod/hra/veileder-til-helseforskningsloven.pdf)
 * [Health Register Act](https://lovdata.no/dokument/NL/lov/2014-06-20-43)
 * [Regulations on population-based health surveys](https://lovdata.no/dokument/SF/forskrift/2018-04-27-645)

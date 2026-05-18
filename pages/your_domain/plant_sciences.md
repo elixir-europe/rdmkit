@@ -62,7 +62,7 @@ Integrating phenotyping and molecular data, both within and between studies, hin
 
 ### Considerations
 * Are you working with established plant varieties, namely crop plants?
-  * Can you trace their provenance to a genebank accession or a plant variety registered in a [national catalog](https://ec.europa.eu/food/plant-variety-portal/)?
+  * Can you trace their provenance to a genebank accession or a plant variety registered in a [national catalogue](https://ec.europa.eu/food/plant-variety-portal/)?
   * Are they identified in a germplasm database with an accession number?
 * Are you working with crosses of established plant varieties?
   * Can you trace the genealogy of the crosses to plant varieties from a genebank or identified in a germplasm database?

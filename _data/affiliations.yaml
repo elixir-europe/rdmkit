@@ -178,12 +178,6 @@
   expose: no
   type: project
   url: https://evora-project.eu/
-- name: Delft University of Technology
-  pid: https://ror.org/02e2c7k09
-  expose: no
-  type: institution
-  url: https://www.tudelft.nl/en/
-  image_url: /images/institutions/TuDelft_logo_cmyk.svg
 - name: AgroServ
   image_url: /images/projects/agroserv_project_logo.png
   expose: no 
