@@ -1,6 +1,7 @@
 ---
 title: Data quality
 contributors: [Wei Gu, Pinar Alper, Kees van Bochove]
+editors: [Bert Droesbeke, Flora D'Anna]
 description: How to ensure high quality of research data.
 page_id: data_quality
 related_pages: 

@@ -2,19 +2,18 @@
 title: Human data
 description: Data management solutions for human data.
 contributors: [Niclas Jareborg, Nirupama Benis, Ana Portugal Melo, Pinar Alper, Laura Portell Silva, Wolmar Nyberg Åkerström, Nazeefa Fatima, Vilem Ded, Teresa D'Altri]
+editors: [Niclas Jareborg]
 page_id: human_data
 related_pages:
   Your_tasks: [sensitive, gdpr_compliance]
   Tool_assembly: [tsd, covid19_data_portal, transmed, fairtracks]
 training:
-  - name: Training in TeSS
+  - name: Sensitive human data Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
   - name: A FAIR guide for data providers to maximise sharing of human genomic data
     url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005873
-  - name: Toward better governance of human genomic data
-    url: https://tess.elixir-europe.org/search?q=sensitive%20human%20data
-  - name: OMOP Common Data Model and the OHDSI analytics for observational analytics of real world healthcare data courses in EHDEN academy
+  - name: EHDEN Academy courses on OMOP Common Data Model and OHDSI analytics
     url: https://academy.ehden.eu/
 fairsharing:
 - name: Human data collection

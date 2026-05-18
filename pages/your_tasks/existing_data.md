@@ -1,6 +1,7 @@
 ---
 title: Existing data
 contributors: [Rob Hooft, Flora D'Anna, Pinar Alper, Yvonne Kallberg, Karel Berka, Marko Vidak, Olivier Collin, Ulrike Wittig]
+editors: [Bert Droesbeke]
 page_id: existing_data
 related_pages:
     Tool_assembly: []
@@ -35,6 +36,8 @@ Many datasets could exist that you can reuse for your project. Even if you know 
 * Locate the primary journals in the field, and find out what data repositories they endorse.
     * Journal websites will have a “Submitter Guide”, where you’ll find lists of recommended deposition databases per discipline, or generalist repositories. For instance, {% tool "scientific-data-s-recommended-repositories" %}.
     * You can also find the databases supported by a journal through the policy interface of {% tool "fairsharing" %}.
+
+* Look up relevant publications in {% tool "europe-pmc" %} and similar research databases, then check through {% tool "europe-pmc" %} for linked datasets. You can do the reverse and search for articles that link to specific datasets in {% tool "elixir-deposition-databases-for-biomolecular-data" %}.
 
 * Search registries for suitable data repositories.
     * {% tool "fairsharing" %} is an ELIXIR resource listing repositories.

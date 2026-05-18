@@ -1,13 +1,14 @@
 ---
 title: GDPR compliance
 contributors: [Pinar Alper, Yvonne Kallberg, Vilem Ded, Eva Csosz, Niclas Jareborg, Laura Portell Silva]
+editors: [Bert Droesbeke, Federico Bianchini, Flora D'Anna, Rob Hooft]
 description: How to protect your research data, and how to make research data compliant to GDPR.
 page_id: gdpr_compliance
 related_pages: 
   Tool_assembly: [tsd, transmed]
   Your_tasks: [data_security]
 training:
-  - name: Training in TeSS
+  - name: Data protection Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=data+protection#materials
 dsw:

@@ -6,6 +6,29 @@ We are, since the beginning, actively spreading the word about RDMkit making sur
 
 ## Presentations
 
+### RDMkit at ISMB/ECCB 2025
+
+**2025-07-24**
+
+RDMkit was presented as part of the eScience Lab ISMB/ECCB 2025 presentations, with a poster titled "Research Data Management Toolkit for Life Scientists". The poster materials can be found on [Zenodo](https://zenodo.org/records/15830546).
+
+### Hands-On RDM with ELIXIR groups: Crafting short and long-term strategies
+
+**2024-06-10**
+
+These slides, presented at ELIXIR All Hands 2024, include RDMkit as part of the wider ELIXIR research data management ecosystem. The slides can be found on [F1000Research](https://f1000research.com/slides/14-27).
+
+### RDMkit: A key resource for FAIR data management
+
+**2024-06-11**
+
+RDMkit was presented as a poster at ELIXIR All Hands 2024. The poster can be found on [F1000Research](https://f1000research.com/posters/13-727).
+
+### RDMkit: The Research Data Management Toolkit for Life Sciences
+
+**2023-09-12**
+
+This presentation was given at the 1st Conference on Research Data Infrastructure (CoRDI 2023). The slides can be found on [Zenodo](https://zenodo.org/records/8354863).
 
 ### RDMkit poster at ELIXIR All Hands 2023
 
@@ -20,11 +43,35 @@ The poster can be found on [F1000Research](https://f1000research.com/posters/12-
 
 RDMkit was introduced to the [DSIG](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/) at one of their monthly meetings, together with introduction on IDTkit and FAIRCookBook. [Presentation slides on RDMkit (PDF)](https://drive.google.com/file/d/12aHIH0rRU6ogOOacZr3K6PrzXylYgHIo/view).
 
-### ELIXIR FAIR & Research Data Management know-how ecosystem - All hands 2022
+### Research Data Management Toolkit (RDMkit): guidelines for plant phenotyping data management and sharing
 
-**2022-06-10**
+**2022-09-26**
 
-RDMkit was presented at all hands. The presentation can be found on [F1000Research](https://f1000research.com/slides/11-737).
+This poster highlighted RDMkit in the context of plant phenotyping data management and sharing, and was presented at the 7th International Plant Phenotyping Symposium (IPPS2022). The poster can be found on [Zenodo](https://zenodo.org/records/7148792).
+
+### RDMkit - The research data management toolkit for life sciences
+
+**2022-06-08**
+
+RDMkit was presented as a poster at ELIXIR All Hands 2022. The poster can be found on [F1000Research](https://f1000research.com/posters/11-736).
+
+### The ecosystem together - walkthrough from two perspectives: a User and a Contributor
+
+**2022-06-09**
+
+This ELIXIR All Hands 2022 presentation placed RDMkit in the wider FAIR and research data management ecosystem together with FAIRsharing, the FAIR Cookbook, DSW, WorkflowHub, and TeSS. The slides can be found on [F1000Research](https://f1000research.com/slides/11-636).
+
+### RDMkit walkthrough
+
+**2022-06-07**
+
+RDMkit was presented at ELIXIR All Hands 2022 through a walkthrough of the toolkit. The slides can be found on [F1000Research](https://f1000research.com/slides/11-737).
+
+### Registries walkthrough
+
+**2022-06-09**
+
+This ELIXIR All Hands 2022 talk focused on the registries connected to the broader RDMkit ecosystem, including FAIRsharing, TeSS, bio.tools, and WorkflowHub. The slides can be found on [F1000Research](https://f1000research.com/slides/11-940).
 
 ### Q-EBRA WORKSHOP: Your next grant application - methodological approach
 
@@ -105,4 +152,3 @@ OS Fair 2021 aims to bring together and empower open science communities and ser
 ### Promotion video for RDMkit contributors
 
 <iframe class="scale" src="https://drive.google.com/file/d/1CUKAGm9Ve4WeY04T7paZgcHGpSg_9E6r/preview" width="640" height="480" allow="autoplay"></iframe>
-

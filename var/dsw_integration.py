@@ -14,7 +14,8 @@ rootdir = 'pages/'
 DSWQuestion = collections.namedtuple('DSWQuestion', 'uuid, text')
 RDMKIT_PREFIX = 'https://rdmkit.elixir-europe.org'
 DSW_API_URL = 'https://researchers.dsw.elixir-europe.org/wizard-api'
-DSW_KM_ID = 'dsw:root:latest'
+DSW_KM_UUID = '6932a8c8-6c67-46f9-b6d0-651883d116df'  # dsw:root:2.7.0
+# This should be the same as in _config.yml value `dsw_deep_link_prefix`
 
 # --------- Functions ---------
 
@@ -41,8 +42,8 @@ def client(url, payload):
     return r.json()
 
 
-def fetch_rdmkit_dsw_links(endpoint: str, package: str) -> Dict[str, List[DSWQuestion]]:
-    km = client(f'{endpoint}/knowledge-models/preview', {'knowledgeModelPackageId': package, 'events': [], 'tagUuids': []})
+def fetch_rdmkit_dsw_links(endpoint: str, package_uuid: str) -> Dict[str, List[DSWQuestion]]:
+    km = client(f'{endpoint}/knowledge-models/preview', {'knowledgeModelPackageUuid': package_uuid, 'events': [], 'tagUuids': []})
     print(f"Parsing DSW objects with {endpoint} mention")
     links = {}  # type: dict[str, list[DSWQuestion]]
     rdmkit_references = {
@@ -66,7 +67,7 @@ def fetch_rdmkit_dsw_links(endpoint: str, package: str) -> Dict[str, List[DSWQue
 # --------- Parsing DSW json ---------
 parent_ids = fetch_rdmkit_dsw_links(
     endpoint=DSW_API_URL,
-    package=DSW_KM_ID,
+    package_uuid=DSW_KM_UUID,
 )
 
 

@@ -3,6 +3,7 @@
 title: Cyprus
 country_code: CY
 contributors: [Anastasis Oulas, Nicolas Kylilis, Nestoras Karathanasis, George Spyrou, Vasilis Promponas]
+editors: [Bert Droesbeke, Nazeefa Fatima]
 coordinators: [Anastasis Oulas]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 

@@ -1,6 +1,7 @@
 ---
 title: TransMed
 contributors: [Wei Gu, Soumyabrata Ghosh, Muhammad Shoaib, Irina Balaur, Xinhui Wang, Carlos Vega, Pinar Alper, Venkata Satagopam]
+editors: [Korbinian Bösl]
 description: TransMed tool assembly from ELIXIR Luxembourg supports projects in clinical and translational biomedicine.
 page_id: transmed
 affiliations: [ELIXIR Europe, LU]

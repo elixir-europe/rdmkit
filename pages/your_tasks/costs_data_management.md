@@ -2,6 +2,7 @@
 title: Costs of data management
 description: Budgeting and costing for data management
 contributors: [Siiri Fuchs, Minna Ahokas, Robert Andrews, Anna Strachotova, Nazeefa Fatima]
+editors: [Bert Droesbeke, Flora D'Anna, Nazeefa Fatima]
 page_id: costs
 related_pages:
 ---

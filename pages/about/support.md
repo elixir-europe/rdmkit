@@ -1,5 +1,5 @@
 ---
-title: Support
+title: Supported by
 github: 
     file_path: _data/affiliations.yaml
 ---
@@ -15,6 +15,12 @@ We thank these institutions for their contribution.
 We thank these projects for their efforts:
 
 {% include affiliation-tiles-selection.html type="project" %}
+
+## Collaborators
+
+We thank these collaborators for their efforts:
+
+{% include affiliation-tiles-selection.html type="collaborator" %}
 
 ## Funders
 

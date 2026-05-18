@@ -1,13 +1,13 @@
 ---
 title: Machine learning
 description: This page is about setting best practices for data towards enabling FAIR ML.
-contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi,
-Edward Parkinson, Federico Bianchini, Munazah Andrabi]
+contributors: [Styliani-Christina Fragkouli, Uladzislau Vadadokhau, Adriano Fonzino, Fotis Psomopoulos, Mihaly Varadi, Edward Parkinson, Munazah Andrabi]
+editors: [Bert Droesbeke, Federico Bianchini, Ulrike Wittig]
 page_id: machine_learning
 related_pages:
   Your_tasks: [data_quality, sensitive]
 training:
-  - name: Machine learning events and materials on TeSS
+  - name: Machine learning Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=machine+learning#events
 fairsharing:

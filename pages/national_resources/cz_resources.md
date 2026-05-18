@@ -3,6 +3,7 @@
 title: Czech Republic
 country_code: CZ
 contributors: [Karel Berka, Marek Suchánek]
+editors: [Bert Droesbeke, Nazeefa Fatima]
 coordinators: [Karel Berka]
 
 # Link to other pages in the tool assembly section on the RDMkit by listing the page_id 
@@ -10,16 +11,16 @@ related_pages:
   Tool_assembly: []
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Czech Republic Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/content_providers/elixir-the-czech-republic-node
-  - name: ELIXIR-CZ YouTube
+  - name: ELIXIR-CZ YouTube Channel
     registry: YouTube
     url: https://www.youtube.com/channel/UCt0SKet24szBGjN-V1d4EKw
-  - name: ELIXIR-CZ GitHub
+  - name: ELIXIR-CZ on GitHub
     registry: GitHub
     url: https://github.com/ELIXIR-CZ
-  - name: ELIXIR-CZ Zenodo
+  - name: ELIXIR-CZ community in Zenodo
     registry: Zenodo
     url: https://zenodo.org/communities/elixir-cz/
 
@@ -69,7 +70,6 @@ national_resources:
       Your_role: [researcher, data_steward, research_software_engineer]
       Your_tasks: [storage, existing_data, identifiers, dmp]
     url: https://data.narodni-repozitar.cz/
-
 ---
 
 ## Introduction 

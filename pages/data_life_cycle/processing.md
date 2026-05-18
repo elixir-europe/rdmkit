@@ -3,10 +3,11 @@ title: Processing
 page_id: process
 description: Introduction to data processing.
 contributors: [Rob Hooft, Munazah Andrabi]
+editors: [Bert Droesbeke, Flora D'Anna]
 related_pages: 
   Your_tasks: [data_analysis, data_organisation, data_quality, data_provenance]
 training:
-  - name: Training in TeSS
+  - name: Data processing Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+process%22#materials
 dsw:

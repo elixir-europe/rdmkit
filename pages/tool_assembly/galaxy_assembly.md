@@ -1,6 +1,7 @@
 ---
 title: Galaxy
 contributors: [Amandine Nunes-Jorge, Beatriz Serrano-Solano]
+editors: [Bert Droesbeke, Korbinian Bösl, Martin Cook]
 description: Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational research.
 page_id: galaxy
 affiliations: [ELIXIR Europe, "European Union"]
@@ -11,7 +12,7 @@ training:
     url: https://training.galaxyproject.org/
   - name: Galaxy Mentor Network
     url: https://galaxy-mentor-network.netlify.app/
-  - name: Training in TeSS
+  - name: Galaxy Search query in TeSS
     registry: TeSS
     registry_url: https://tess.elixir-europe.org
     url: https://tess.elixir-europe.org/search?q=galaxy

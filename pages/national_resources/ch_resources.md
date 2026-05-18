@@ -3,13 +3,14 @@
 title: Switzerland
 country_code: CH
 contributors: [Gregoire Rossier, Vassilios Ioannidis]
+editors: [Bert Droesbeke]
 coordinators: [Gregoire Rossier, Vassilios Ioannidis]
 
 related_pages:
   Tool_assembly: []
 
 training:
-  - name: Training in TeSS
+  - name: ELIXIR Switzerland Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/nodes/switzerland
 

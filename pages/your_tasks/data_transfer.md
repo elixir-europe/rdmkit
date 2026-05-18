@@ -1,12 +1,13 @@
 ---
 title: Data transfer
 contributors: [Olivier Collin, Alan R Williams, Flora D'Anna, Frederik Delaere, Munazah Andrabi, Marina Popleteeva, Nazeefa Fatima]
+editors: [Flora D'Anna]
 description: How to transfer data files.
 page_id: transfer
 related_pages: 
     Tool_assembly: []
 training:
-  - name: Training in TeSS
+  - name: Data transfer Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+transfer%22#materials
 dsw:

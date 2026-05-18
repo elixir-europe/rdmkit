@@ -3,10 +3,11 @@ title: Sharing
 page_id: share
 description: Introduction to data sharing.
 contributors: [Flora D'Anna, Bert Droesbeke, Niclas Jareborg, Ulrike Wittig]
+editors: [Bert Droesbeke, Korbinian Bösl]
 related_pages: 
   Your_tasks: [gdpr_compliance, data_security, data_brokering, data_publication, transfer, identifiers, licensing, metadata, sensitive]
 training:
-  - name: Training in TeSS
+  - name: Data sharing Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=%22data+share%22#materials
 dsw:

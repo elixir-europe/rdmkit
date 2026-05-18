@@ -2,6 +2,7 @@
 title: Human pathogen genomics
 description: Data management solutions for Human pathogen genomics
 contributors: [Diana Pilvar, Espen Åberg, Wolmar Nyberg Åkerström, Rafael Andrade Buono]
+editors: [Bert Droesbeke, Flora D'Anna]
 page_id: human_pathogen_genomics
 related_pages: 
   Your_tasks:

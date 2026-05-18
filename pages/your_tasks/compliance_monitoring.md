@@ -1,6 +1,7 @@
 ---
 title: Compliance monitoring & measurement
 contributors: [Christophe Trefois, Wei Gu, Pinar Alper, Markus Englund, Vera Ortseifen]
+editors: [Flora D'Anna]
 description: How to measure compliance to data management regulations and standards.
 page_id: compliance
 related_pages:

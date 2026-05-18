@@ -1,27 +1,25 @@
 ---
 title: Biodiversity
 description: Data management solutions for biodiversity data.
-contributors: [Josephine Burgin, Joana Pauperio, Anne-Françoise Adam-Blondon, Patrick Ruch, Robert Waterhouse, Valeria Di Cola, Erwan Corre, Yvan Le Bras, Peter Woollard, Bachir Balech, Matteo Montagna, Angela P. Fuentes Pardo, Solenne Correard]
+contributors: [Josephine Burgin, Joana Pauperio, Anne-Françoise Adam-Blondon, Patrick Ruch, Robert Waterhouse, Valeria Di Cola, Erwan Corre, Yvan Le Bras, Peter Woollard, Bachir Balech, Matteo Montagna, Angela Fuentes Pardo, Solenne Correard]
+editors: [Bert Droesbeke, Flora D'Anna]
 page_id: biodiversity
 related_pages: 
   Your_tasks: [dmp, data_organisation, metadata, data_brokering, machine_actionability, compliance, data_analysis]
   Tool_assembly: [galaxy, fairtracks]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
-  - name: Training about Biodiversity data
+  - name: Biodiversity data Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=biodiversity+data
-  - name: TeSS Collection of biodiversity-relevant training resources
+  - name: Biodiversity Training material in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/collections/elixir-biodiversity-community
   - name: Galaxy Training Network
-    registry: other
     url: https://training.galaxyproject.org/
   - name: ERGA Knowledge Hub
-    registry: other
     url: https://knowledge.erga-biodiversity.eu/
-  - name: Glittr
-    registry: other
+  - name: Glittr training resources
     url: https://glittr.org/
 fairsharing:
 - name: Biodiversity collection

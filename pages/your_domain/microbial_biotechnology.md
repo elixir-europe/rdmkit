@@ -2,6 +2,7 @@
 title: Microbial biotechnology
 description: Data management solutions for microbial biotechnology data.
 contributors: [Anil Wipat, David Markham, Christian Atallah, Bradley Brown, Munazah Andrabi]
+editors: [Munazah Andrabi]
 page_id: micro_biotech
 related_pages: 
   Your_tasks: []
