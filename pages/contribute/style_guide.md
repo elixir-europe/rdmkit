@@ -2,7 +2,7 @@
 title: Style guide
 ---
 
-In general, we follow the European Commission's [English Style Guide](https://knowledge-centre-translation-interpretation.ec.europa.eu/sites/default/files/ckeditor5-files/styleguide_english_dgt_en.pdf). Search online for "EC English style guide" to find the link, since it changes regularly. Below are the points that you might find most useful, though, and that relate particularly to the RDMkit. 
+In general, we follow the European Commission's [English Style Guide](https://knowledge-centre-translation-interpretation.ec.europa.eu/sites/default/files/ckeditor5-files/styleguide_english_dgt_en.pdf). Search online for "EC English style guide" to find the link, since it changes regularly. Below are the points that you might find most useful.
 
 ## General style and tone
   * Keep the tone friendly rather than formal, and use "you". Imagine you were explaining something verbally to someone - how would you say it?
