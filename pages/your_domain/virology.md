@@ -97,7 +97,7 @@ To ensure secure and effective data sharing in virology outbreak surveillance, r
   * Implement data access governance models that allow tiered access based on user credentials and need.
   * Utilise {% tool "pathoplexus" %} for managing metadata and access rights in a structured manner. It is an open-source database dedicated to the efficient sharing of human viral pathogen genomic data, fostering global collaboration and public health response.
 * Ensure proper deposition of outbreak data into trusted repositories to facilitate data sharing, citation, and reuse, following best practices outlined on the [Data Publication](data_publication) page.
-  * Submit viral genomic sequences and epidemiological data to {% tool "gisaid" %}, NCBI {% tool "genbank" %}, and {% tool "european-nucleotide-archive" %} for public accessibility.
+  * Submit viral genomic sequences and epidemiological data to {% tool "gisaid" %}, NCBI {% tool "genbank" %}, and {% tool "european-nucleotide-archive" %} for public accessibility. Please note that ENA provides free, unrestricted access to deposited records, whereas GISAID uses a controlled-access model requiring registration and acceptance of its terms of use.
   * Use standard submission pipelines to ensure compliance with repository-specific metadata and formatting guidelines.
 * Assign persistent identifiers to datasets to enhance discoverability, citation, and long-term accessibility, following recommendations on the [Identifiers](identifiers) page.
   * Register DOIs or accession numbers for datasets to facilitate long-term accessibility and proper citation.
