@@ -41,7 +41,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const checklist = Buffer.from(process.env.CHECKLIST_B64 || '', 'base64').toString('utf8');
-            const template = `### Editors checklist\n\n${checklist}\n\nPlease refer to the complete [editor's checklist](https://rdmkit.elixir-europe.org/editors_checklist) for details.`;
+            const template = `${checklist}\n\nPlease refer to the complete [editor's checklist](https://rdmkit.elixir-europe.org/editors_checklist) for details.`;
             try {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
