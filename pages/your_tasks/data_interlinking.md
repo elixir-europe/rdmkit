@@ -13,6 +13,7 @@ training:
  
 ### Description
 
+
 Depositing (meta)data from multi-omics studies (e.g., genomics, transcriptomics, proteomics, metabolomics, imaging and complementary data types) while preserving cross-links is not straightforward but is essential. Data interlinking ensures that datasets placed in their appropriate technology- or domain-specific repositories remain connected and can be reused together. Here we provide brief recommendations to help make these links and improve the findability of related datasets across {% tool "elixir-deposition-databases-for-biomolecular-data" %}.
 
 ### Considerations
