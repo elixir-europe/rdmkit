@@ -1,0 +1,55 @@
+name: Add editorial checklist upon PR
+
+on:
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  add_template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Modified Files
+        id: check_files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Get the changed files in the pull request
+          CHANGED_FILES=$(gh pr diff ${{ github.event.pull_request.number }} --name-only)
+          if echo "$CHANGED_FILES" | grep -qE '^pages/'; then
+            echo "is_pages_changed=TRUE" >> $GITHUB_OUTPUT
+          else
+            echo "is_pages_changed=FALSE" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Parse Checklist
+        id: parse_checklist
+        if: ${{ steps.check_files.outputs.is_pages_changed == 'TRUE' }}
+        run: |
+          # Read the checklist file, strip front-matter, convert numbered items to unchecked markdown list, base64-encode
+          sed -E '/^---$/,/^---$/d; s/^[0-9]+\.\s*-?\s*/- [ ] /' pages/contribute/editors_checklist.md | base64 -w0 > /tmp/checklist.b64
+          echo "checklist_b64=$(cat /tmp/checklist.b64)" >> $GITHUB_OUTPUT
+
+      - name: Add Review Comment
+        if: ${{ steps.parse_checklist.outputs.checklist_b64 != '' }}
+        uses: actions/github-script@v6
+        env:
+          CHECKLIST_B64: ${{ steps.parse_checklist.outputs.checklist_b64 }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const checklist = Buffer.from(process.env.CHECKLIST_B64 || '', 'base64').toString('utf8');
+            const template = `### Editors checklist\n\n${checklist}\n\nPlease refer to the complete [editor's checklist](https://rdmkit.elixir-europe.org/editors_checklist) for details.`;
+            try {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: template
+              });
+            } catch (error) {
+              console.error('Error creating comment:', error);
+              throw error;
+            }
