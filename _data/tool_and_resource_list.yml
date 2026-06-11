@@ -119,7 +119,7 @@
   id: pia
   name: Privacy Impact Assessment Tool (PIA)
   registry:
-    biotools: pia
+    biotools: NA
   url: https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment
 - description: The Japanese Genotype-phenotype Archive (JGA) is a service for permanent archiving and sharing of all types of individual-level genetic and de-identified phenotypic data resulting from biomedical research projects.
   id: jga
