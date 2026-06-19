@@ -1499,7 +1499,7 @@
   url: https://www.omicsdi.org
 - description: OMOP is a common data model for the harmonisation of observational health data.
   id: omop-cdm
-  name: The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
+  name: Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
   registry:
     tess: OMOP-CDM
     fairsharing: qk984b
@@ -3571,9 +3571,9 @@
   url: https://www.rohub.org/
   registry:
     fairsharing: d3c5fd
-- description: ENA Reads & Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
+- description: ENA Reads and Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
   id: ena-reads-assembly-submission-workflow
-  name: ENA Reads & Assembly Submission Workflow
+  name: ENA Reads and Assembly Submission Workflow
   url: https://workflowhub.eu/workflows/2008
 - description: ICTV Ontology provides a machine-readable representation of the official International Committee on Taxonomy of Viruses taxonomy, supporting consistent annotation of virus metadata and improved interoperability across virology resources.
   id: ictv-ontology
