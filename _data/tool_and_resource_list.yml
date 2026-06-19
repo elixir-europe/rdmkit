@@ -1499,7 +1499,7 @@
   url: https://www.omicsdi.org
 - description: OMOP is a common data model for the harmonisation of observational health data.
   id: omop-cdm
-  name: The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
+  name: Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
   registry:
     tess: OMOP-CDM
     fairsharing: qk984b
