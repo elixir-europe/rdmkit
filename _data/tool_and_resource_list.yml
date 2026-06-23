@@ -623,7 +623,7 @@
   name: Data Stewardship Wizard (DSW)
   registry:
     biotools: Data_Stewardship_Wizard
-    tess: Data Stewardship Wizard
+    tess: Data Stewardship Wizard (DSW)
   url: https://ds-wizard.org/
 - description: This service provides simple estimation of storage costs based on desired properties and local/actual configuration.
   id: data-stewardship-wizard-storage-costs-evaluator
@@ -1065,6 +1065,8 @@
 - description: High-performance data transfers between systems within and across organizations
   id: globus
   name: Globus
+  registry:
+    tess: Globus
   url: https://www.globus.org
 - description: A multispecies integrative information system dedicated to plant and fungi pests. It allows researchers to access genetic, phenotypic and genomic data. It is used by both large international projects and the French National Research Institute for Agriculture, Food and Environment.
   id: gnpis
@@ -1501,8 +1503,8 @@
   id: omop-cdm
   name: Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
   registry:
-    tess: OMOP-CDM
     fairsharing: qk984b
+    tess: Observational Medical Outcomes Partnership Common Data Model
   url: https://ohdsi.github.io/CommonDataModel/
 - description: OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.
   id: onotomaton
@@ -1572,7 +1574,7 @@
   url: https://owncloud.com
 - description: PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.
   id: paa
-  name: PAA
+  name: Protein Array Analyzer (PAA)
   registry:
     biotools: paa
   url: https://bioconductor.org/packages/PAA/
@@ -1873,6 +1875,8 @@
 - description: Structure integration with function, taxonomy and sequence
   id: sifts
   name: SIFTS
+  registry:
+    tess: SIFTS
   url: https://www.ebi.ac.uk/pdbe/docs/sifts/
 - description: Singularity is a container platform.
   id: singularity
@@ -2832,8 +2836,6 @@
 - description: Inkscape is a versatile and free graphic design editor suitable for both personal and professional use. It offers a comprehensive suite of design tools, enabling users to create and edit vector graphics, primarily in the SVG format. Additionally, Inkscape supports working with rasterized images (bitmaps), making it a powerful tool for diverse design projects.
   id: inkscape
   name: Inkscape
-  registry:
-    tess: Inkscape
   url: https://inkscape.org/
 - description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This tool allows users to create designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. It provides a robust platform for crafting illustrations and diagrams.
   id: libre-office-draw
@@ -3562,15 +3564,15 @@
 - description: LabID is a data management solution for life-science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
   id: labid
   name: LabID (Lab Integrated Data)
-  url: https://grp-gbcs.embl-community.io/labid-user-docs/
   registry:
     biotools: labid
-- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects. 
+  url: https://grp-gbcs.embl-community.io/labid-user-docs/
+- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects.
   id: rohub
   name: RoHub
-  url: https://www.rohub.org/
   registry:
     fairsharing: d3c5fd
+  url: https://www.rohub.org/
 - description: ENA Reads and Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
   id: ena-reads-assembly-submission-workflow
   name: ENA Reads and Assembly Submission Workflow
@@ -3585,7 +3587,11 @@
   id: dmp-template-euro-bio
   name: Euro-BioImaging's Template for Research Data Management Plans
   url: https://doi.org/10.5281/zenodo.11473803
-- description: The Bioconductor project aims to develop and share open source software (R-based) for precise and repeatable analysis of biological data. 
+- description: The Bioconductor project aims to develop and share open source software (R-based) for precise and repeatable analysis of biological data.
   id: bioconductor
   name: Bioconductor
+  registry:
+    biotools: bioconductor
+    fairsharing: 81ettx
+    tess: Bioconductor
   url: https://www.bioconductor.org/
