@@ -1574,7 +1574,7 @@
   url: https://owncloud.com
 - description: PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.
   id: paa
-  name: PAA
+  name: Protein Array Analyzer (PAA)
   registry:
     biotools: paa
     tess: PAA
