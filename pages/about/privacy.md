@@ -16,7 +16,7 @@ We collect data about your activity on the site, such as:
 The information is collected anonymously and aggregated. We cannot identify you from the information gathered, or track your web browsing outside of this site.
 
 ## How we collect the data
-We use Google Analytics and Matomo to collect this data. When you visit this site, Google Analytics and Matomo place a small file called a cookie in your browser. Cookies are widely used to store preferences and to enable shopping carts and log-in areas on websites.
+We use Google Analytics and Matomo to collect data. When you visit this site, Google Analytics and Matomo place a small file called a cookie in your browser. Cookies are widely used to store preferences and to enable shopping carts and log-in areas on websites.
 
 ## Embedded YouTube video
 The homepage includes an embedded YouTube video, using YouTube's Privacy Enhanced Mode. YouTube may still set or read cookies and similar technologies for playback, security, analytics, advertising, and personalisation, depending on your Google settings and browser choices. See [Google's Privacy Policy](https://policies.google.com/privacy), [How Google uses cookies](https://policies.google.com/technologies/cookies), and [YouTube's embedding information](https://support.google.com/youtube/answer/171780).
