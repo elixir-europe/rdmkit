@@ -16,13 +16,16 @@ We collect data about your activity on the site, such as:
 The information is collected anonymously and aggregated. We cannot identify you from the information gathered, or track your web browsing outside of this site.
 
 ## How we collect the data
-We use Google Analytics and Matomo to collect this data. When you visit this site, Google Analytics and Matomo puts a small file called a cookie in your browser. Cookies are widely used to store preferences and to enable shopping carts and log-in areas on websites.
+We use Google Analytics and Matomo to collect data. When you visit this site, Google Analytics and Matomo place a small file called a cookie in your browser. Cookies are widely used to store preferences and to enable shopping carts and log-in areas on websites.
+
+## Embedded YouTube video
+The homepage includes an embedded YouTube video, using YouTube's Privacy Enhanced Mode. YouTube may still set or read cookies and similar technologies for playback, security, analytics, advertising, and personalisation, depending on your Google settings and browser choices. See [Google's Privacy Policy](https://policies.google.com/privacy), [How Google uses cookies](https://policies.google.com/technologies/cookies), and [YouTube's embedding information](https://support.google.com/youtube/answer/171780).
 
 ## Why we collect the data
-We collect the data so that we can then generate reports about the site for our funders. We also collect the date to help us improve the site, and ensure we design the site for the browsers and devices that most people are using.
+We collect the data so that we can then generate reports about the site for our funders. We also collect the data to help us improve the site, and ensure we design the site for the browsers and devices that most people are using.
 
 ## Who has access to the data
-The data collected from you visit to the site is sent to Google but aggregated and anonymised. We do not have access to personally identifiable information, but Google records and stores your IP address in order to generate the site statistics.
+The data collected from your visit to the site is sent to Google but aggregated and anonymised. We do not have access to personally identifiable information, but Google records and stores your IP address in order to generate the site statistics.
 
 See [Google Analytics cookies information](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) and [Google's Safeguarding your data article](https://support.google.com/analytics/answer/6004245?hl=en).
 
