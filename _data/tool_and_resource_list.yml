@@ -1577,7 +1577,6 @@
   name: Protein Array Analyzer (PAA)
   registry:
     biotools: paa
-    tess: PAA
   url: https://bioconductor.org/packages/PAA/
 - description: Data Publisher for Earth and Environmental Science
   id: pangaea
