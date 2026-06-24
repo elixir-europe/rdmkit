@@ -144,7 +144,7 @@ def remove_prefix(s, prefix):
 
 yaml_path = "_data/tool_and_resource_list.yml"
 rootdir = 'pages/'
-allowed_registries = ['biotools', 'fairsharing', 'tess', 'fairsharing-coll']
+allowed_registries = ['biotools', 'fairsharing', 'tess']
 my_represent_none = NullRepresenter()
 
 args = process_args()

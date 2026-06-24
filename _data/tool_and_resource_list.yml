@@ -761,13 +761,12 @@
   name: ELIXIR Core Data Resources
   registry:
     fairsharing: 7cbcb7
-    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/core-data-resources
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
   id: elixir-deposition-databases-for-biomolecular-data
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
-    fairsharing-coll: 3527
+    fairsharing: 7cbcb7
     tess: ELIXIR Deposition Databases for Biomolecular Data
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
@@ -3282,14 +3281,6 @@
     fairsharing: 7g1bzj
     tess: WORMS
   url: https://www.marinespecies.org/index.php
-- description: Distributed System of Scientific Collections is a project that aims to enhance the accessibility and interoperability of scientific collection data, facilitating research and collaboration across various biodiversity collections and institutions.
-  id: dissco
-  name: DISSCO
-  registry:
-    biotools: dissco
-    fairsharing: NA
-    fairsharing-coll: 3816
-  url: https://www.dissco.eu/
 - description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata for all eukaryotic species and interpolates missing values through phylogenetic comparison.
   id: genomes-on-a-tree
   name: GoAT
