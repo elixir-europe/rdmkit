@@ -2,7 +2,8 @@ name: Add editorial checklist upon PR
 
 on:
   pull_request:
-    branches: [ master, main ]
+    branches: [master, main]
+    types: [opened, reopened]
 
 jobs:
   add_template:
