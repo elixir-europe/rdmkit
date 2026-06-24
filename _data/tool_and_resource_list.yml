@@ -3281,13 +3281,6 @@
     fairsharing: 7g1bzj
     tess: WORMS
   url: https://www.marinespecies.org/index.php
-- description: Distributed System of Scientific Collections is a project that aims to enhance the accessibility and interoperability of scientific collection data, facilitating research and collaboration across various biodiversity collections and institutions.
-  id: dissco
-  name: DiSSCo
-  registry:
-    biotools: NA
-    fairsharing: NA
-  url: https://www.dissco.eu/
 - description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata for all eukaryotic species and interpolates missing values through phylogenetic comparison.
   id: genomes-on-a-tree
   name: GoAT
