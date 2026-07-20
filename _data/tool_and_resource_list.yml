@@ -3586,3 +3586,9 @@
     fairsharing: 81ettx
     tess: Bioconductor
   url: https://www.bioconductor.org/
+- description: Centralised access to EMBL-EBI’s spatial transcriptomics resources: discover where data lives, how to access it, and how to submit new studies.
+  id: spatial-transcriptomics-portal
+  name: EMBL-EBI Spatial Transcriptomics Portal
+  registry:
+    fairsharing:
+  url: https://www.ebi.ac.uk/spatial-transcriptomics/
