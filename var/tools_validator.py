@@ -9,6 +9,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import frontmatter
 from urllib.parse import urlparse
+import time
 
 class NullRepresenter:
     def __init__(self):
@@ -211,6 +212,7 @@ with open(yaml_path, 'r') as read_obj:
                             registry['fairsharing'] = check_fairsharing
                 if 'fairsharing' in registry.keys() and not registry['fairsharing']:
                     del registry['fairsharing']
+                time.sleep(1) # to avoid issues with rate limit
 
                 # Add populated registry dict to the main list
                 if registry:
