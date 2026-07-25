@@ -3586,3 +3586,8 @@
     fairsharing: 81ettx
     tess: Bioconductor
   url: https://www.bioconductor.org/
+- name: FAIR-checker
+  description: FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources.
+    registry:
+      biotools: FAIR-Checker
+  url: https://fair-checker.france-bioinformatique.fr/
