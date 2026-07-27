@@ -119,7 +119,7 @@
   id: pia
   name: Privacy Impact Assessment Tool (PIA)
   registry:
-    biotools: pia
+    biotools: NA
   url: https://www.cnil.fr/en/open-source-pia-software-helps-carry-out-data-protection-impact-assessment
 - description: The Japanese Genotype-phenotype Archive (JGA) is a service for permanent archiving and sharing of all types of individual-level genetic and de-identified phenotypic data resulting from biomedical research projects.
   id: jga
@@ -623,7 +623,7 @@
   name: Data Stewardship Wizard (DSW)
   registry:
     biotools: Data_Stewardship_Wizard
-    tess: Data Stewardship Wizard
+    tess: Data Stewardship Wizard (DSW)
   url: https://ds-wizard.org/
 - description: This service provides simple estimation of storage costs based on desired properties and local/actual configuration.
   id: data-stewardship-wizard-storage-costs-evaluator
@@ -761,13 +761,12 @@
   name: ELIXIR Core Data Resources
   registry:
     fairsharing: 7cbcb7
-    fairsharing-coll: 3527
   url: https://elixir-europe.org/platforms/data/core-data-resources
 - description: List of discipline-specific deposition databases recommended by ELIXIR.
   id: elixir-deposition-databases-for-biomolecular-data
   name: ELIXIR Deposition Databases for Biomolecular Data
   registry:
-    fairsharing-coll: 3527
+    fairsharing: 7cbcb7
     tess: ELIXIR Deposition Databases for Biomolecular Data
   url: https://elixir-europe.org/platforms/data/elixir-deposition-databases
 - description: An authentication service from EOSC-Life
@@ -1065,6 +1064,8 @@
 - description: High-performance data transfers between systems within and across organizations
   id: globus
   name: Globus
+  registry:
+    tess: Globus
   url: https://www.globus.org
 - description: A multispecies integrative information system dedicated to plant and fungi pests. It allows researchers to access genetic, phenotypic and genomic data. It is used by both large international projects and the French National Research Institute for Agriculture, Food and Environment.
   id: gnpis
@@ -1499,10 +1500,10 @@
   url: https://www.omicsdi.org
 - description: OMOP is a common data model for the harmonisation of observational health data.
   id: omop-cdm
-  name: The Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
+  name: Observational Medical Outcomes Partnership Common Data Model (OMOP CDM)
   registry:
-    tess: OMOP-CDM
     fairsharing: qk984b
+    tess: Observational Medical Outcomes Partnership Common Data Model
   url: https://ohdsi.github.io/CommonDataModel/
 - description: OntoMaton facilitates ontology search and tagging functionalities within Google Spreadsheets.
   id: onotomaton
@@ -1572,7 +1573,7 @@
   url: https://owncloud.com
 - description: PAA is an R/Bioconductor tool for protein microarray data analysis aimed at biomarker discovery.
   id: paa
-  name: PAA
+  name: Protein Array Analyzer (PAA)
   registry:
     biotools: paa
   url: https://bioconductor.org/packages/PAA/
@@ -1873,6 +1874,8 @@
 - description: Structure integration with function, taxonomy and sequence
   id: sifts
   name: SIFTS
+  registry:
+    tess: SIFTS
   url: https://www.ebi.ac.uk/pdbe/docs/sifts/
 - description: Singularity is a container platform.
   id: singularity
@@ -2832,8 +2835,6 @@
 - description: Inkscape is a versatile and free graphic design editor suitable for both personal and professional use. It offers a comprehensive suite of design tools, enabling users to create and edit vector graphics, primarily in the SVG format. Additionally, Inkscape supports working with rasterized images (bitmaps), making it a powerful tool for diverse design projects.
   id: inkscape
   name: Inkscape
-  registry:
-    tess: Inkscape
   url: https://inkscape.org/
 - description: LibreOffice Draw is a free, open-source vector graphics editor that is part of the LibreOffice suite, developed by The Document Foundation. This tool allows users to create designs with ease, offering a variety of features such as shape tools, straight and curved line tools, polygon tools, and more. It provides a robust platform for crafting illustrations and diagrams.
   id: libre-office-draw
@@ -3280,14 +3281,6 @@
     fairsharing: 7g1bzj
     tess: WORMS
   url: https://www.marinespecies.org/index.php
-- description: Distributed System of Scientific Collections is a project that aims to enhance the accessibility and interoperability of scientific collection data, facilitating research and collaboration across various biodiversity collections and institutions.
-  id: dissco
-  name: DISSCO
-  registry:
-    biotools: dissco
-    fairsharing: NA
-    fairsharing-coll: 3816
-  url: https://www.dissco.eu/
 - description: Genome on a Tree (GoaT) is a powerful data aggregator and portal to explore and report underlying data for the eukaryotic tree of life. It indexes publicly available genomic metadata for all eukaryotic species and interpolates missing values through phylogenetic comparison.
   id: genomes-on-a-tree
   name: GoAT
@@ -3562,18 +3555,18 @@
 - description: LabID is a data management solution for life-science institutes, featuring sample and dataset management, an inventory management system and an electronic lab notebook.
   id: labid
   name: LabID (Lab Integrated Data)
-  url: https://grp-gbcs.embl-community.io/labid-user-docs/
   registry:
     biotools: labid
-- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects. 
+  url: https://grp-gbcs.embl-community.io/labid-user-docs/
+- description: RoHub is a solution for the storage, life-cycle management and preservation of scientific investigations, campaigns, and operational processes via research objects.
   id: rohub
   name: RoHub
-  url: https://www.rohub.org/
   registry:
     fairsharing: d3c5fd
-- description: ENA Reads & Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
+  url: https://www.rohub.org/
+- description: ENA Reads and Assembly Submission Workflow is a Galaxy workflow for submission of raw sequencing reads and assembled sequences to the European Nucleotide Archive (ENA), supporting interactive metadata capture and validation.
   id: ena-reads-assembly-submission-workflow
-  name: ENA Reads & Assembly Submission Workflow
+  name: ENA Reads and Assembly Submission Workflow
   url: https://workflowhub.eu/workflows/2008
 - description: ICTV Ontology provides a machine-readable representation of the official International Committee on Taxonomy of Viruses taxonomy, supporting consistent annotation of virus metadata and improved interoperability across virology resources.
   id: ictv-ontology
@@ -3581,6 +3574,18 @@
   registry:
     fairsharing: a2e727
   url: https://www.ebi.ac.uk/ols4/ontologies/ictv
+- description: A Data Management Plan (DMP) template with questions tailored to bioimaging research projects developed by Euro-Bioimaging.
+  id: dmp-template-euro-bio
+  name: Euro-BioImaging's Template for Research Data Management Plans
+  url: https://doi.org/10.5281/zenodo.11473803
+- description: The Bioconductor project aims to develop and share open source software (R-based) for precise and repeatable analysis of biological data.
+  id: bioconductor
+  name: Bioconductor
+  registry:
+    biotools: bioconductor
+    fairsharing: 81ettx
+    tess: Bioconductor
+  url: https://www.bioconductor.org/
 - description: A Python package that tracks CO2 emissions from computing, quantifying and reducing the environmental impact of machine learning.
   id: codecarbon
   name: CodeCarbon
