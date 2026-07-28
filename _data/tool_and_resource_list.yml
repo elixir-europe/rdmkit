@@ -3586,6 +3586,10 @@
     fairsharing: 81ettx
     tess: Bioconductor
   url: https://www.bioconductor.org/
+- description: Centralised access to EMBL-EBI’s spatial transcriptomics resources. Discover where data lives, how to access it, and how to submit new studies.
+  id: spatial-transcriptomics-portal
+  name: EMBL-EBI Spatial Transcriptomics Portal
+  url: https://www.ebi.ac.uk/spatial-transcriptomics/
 - name: FAIR-checker
   id: fair-checker
   description: FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources.

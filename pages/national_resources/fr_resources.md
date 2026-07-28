@@ -68,9 +68,8 @@ national_resources:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward]
       your_tasks: []
-      registry:
-        biotools: FAIR-Checker
-      url: https://bio.tools/fair-checker/
+    registry:
+      biotools: FAIR-Checker
     url: https://fair-checker.france-bioinformatique.fr/
   - name: Usegalaxy.fr
     description: French Galaxy open-source platform for FAIR data analysis
@@ -108,8 +107,6 @@ national_resources:
       your_role: [researcher, data_steward]
       your_tasks: []
     url: https://madbot.france-bioinformatique.fr/
-
-
 ---
 
 
