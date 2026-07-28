@@ -1,13 +1,16 @@
 name: Add editorial checklist upon PR
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [master, main]
     types: [opened, reopened]
 
 jobs:
   add_template:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
