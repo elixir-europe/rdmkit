@@ -45,3 +45,5 @@ In your role of trainer maker, you may need to:
 * The [Train-the-Trainer program](https://elixir-europe.org/platforms/training/train-the-trainer) relies in the development of new Train-the-Trainer (TtT) courses and materials with the aim to give new instructors tools and tips for providing and enriching learning experiences to trainees and to include best-practice guidance on course and training material development
 * [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) guides you through creating a data management plan.
 * [Mantra Research Data Management Training](https://mantra.ed.ac.uk) is a free, online course with guidelines to help understanding and reflecting on how to manage the digital data collected throughout your research.
+* The [FAIR Training Handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) is a practical resource for FAIRifying training materials. It is an extended version of [Ten simple rules for making training materials FAIR
+](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854). 
