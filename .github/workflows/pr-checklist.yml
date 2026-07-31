@@ -1,16 +1,25 @@
 name: Add editorial checklist upon PR
 
+# Runs as pull_request_target so that PRs opened from forks get a writable
+# GITHUB_TOKEN (a plain pull_request run from a fork is read-only and cannot
+# post a comment). Only trusted code from the base branch is checked out and
+# executed here; the PR's own code is never run.
 on:
-  pull_request:
+  pull_request_target:
     branches: [master, main]
     types: [opened, reopened]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
 
 jobs:
   add_template:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Check Modified Files
         id: check_files
@@ -35,7 +44,7 @@ jobs:
 
       - name: Add Review Comment
         if: ${{ steps.parse_checklist.outputs.checklist_b64 != '' }}
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         env:
           CHECKLIST_B64: ${{ steps.parse_checklist.outputs.checklist_b64 }}
         with:
