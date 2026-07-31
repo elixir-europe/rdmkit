@@ -25,10 +25,9 @@ jobs:
         id: check_files
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           # Get the changed files in the pull request
-          CHANGED_FILES=$(gh pr diff "$PR_NUMBER" --name-only)
+          CHANGED_FILES=$(gh pr diff ${{ github.event.pull_request.number }} --name-only)
           if echo "$CHANGED_FILES" | grep -qE '^pages/'; then
             echo "is_pages_changed=TRUE" >> $GITHUB_OUTPUT
           else
