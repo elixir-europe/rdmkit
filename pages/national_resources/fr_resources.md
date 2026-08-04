@@ -53,7 +53,7 @@ national_resources:
       your_tasks: [dmp]
     url: https://dsw.france-bioinformatique.fr/
   - name: Recherche Data Gouv Repository
-    description: The Recherche Data Gouv multidisciplinary repository is a sovereign solution for sharing and opening up data produced by communities that do not have a recognised disciplinary repository. It is based on the Dataverse software
+    description: The Recherche Data Gouv multidisciplinary repository is a national sovereign solution for sharing and opening up data produced by communities that do not have a recognised disciplinary repository. It is based on the Dataverse software
     how_to_access:
     instance_of: recherche-data-gouv
     related_pages:
