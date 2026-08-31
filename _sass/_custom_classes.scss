@@ -88,11 +88,17 @@
 /* -----Homepage----- */
 
 .landingpage, .ways-to-contribute  {
-    .card {
-        &:hover {
+    .card,
+    .landing-tile {
+        transition: $transition-base;
+
+        &:hover,
+        &:focus-within {
             box-shadow: $box-shadow;
         }
+    }
 
+    .card {
         .card-img-top {
             width: unset;
             padding: $card-spacer-x $card-spacer-x 0 $card-spacer-x;

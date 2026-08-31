@@ -116,7 +116,7 @@ layout: none
                 {%- assign tools = site.data.tool_and_resource_list -%}
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-3">
                     <div class="col">
-                        <div class="bg-white d-flex align-items-center rounded p-3 text-center h-100">
+                        <div class="landing-tile bg-white d-flex align-items-center rounded p-3 text-center h-100">
                             <div class="row g-1 flex-grow-1">
                                 <div class="col-7">
                                     <span class="count-number text-primary">{{allcontributors.size}}</span>
@@ -130,7 +130,7 @@ layout: none
                         </div>
                     </div>
                     <div class="col">
-                        <div class="bg-white d-flex align-items-center rounded p-3 text-center h-100">
+                        <div class="landing-tile bg-white d-flex align-items-center rounded p-3 text-center h-100">
                             {%- assign national_tools = 0 %}
                             {%- assign country_pages = site.pages | where: "type", "national_resources" | where:
                             "search_exclude", false %}
@@ -150,7 +150,7 @@ layout: none
                         </div>
                     </div>
                     <div class="col">
-                        <div class="bg-white d-flex align-items-center rounded p-3 text-center h-100">
+                        <div class="landing-tile bg-white d-flex align-items-center rounded p-3 text-center h-100">
                             {%- assign content_pages = site.pages | where: "search_exclude", false %}
                             <div class="row g-1 flex-grow-1">
                                 <div class="col-7">
