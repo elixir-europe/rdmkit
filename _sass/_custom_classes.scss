@@ -44,7 +44,7 @@
     }
     #sidebar>nav .sidebar-title-wrapper {
         background: $white;
-}
+    }
 }
 
 #main {
@@ -170,10 +170,6 @@ section#search-section {
 
 .navbar-nav .nav-item > a {
     white-space: nowrap;
-    &.active {
-        background-color: $primary;
-        border-radius: $border-radius;
-    }
 }
 
 /*-----Better tools-----*/
@@ -184,48 +180,73 @@ section#search-section {
 
 /*-----New Icons-----*/
 
-// Calender
-i.far.fa-calendar {
+.landingpage #search-label {
+    background-color: $white;
+}
+
+i.icon-search {
+    display: inline-block;
+    background: url("../img/section-icons/search.svg") center no-repeat;
+    width: 30px;
+    height: 30px;
+
+    &:before {
+        content: "" !important;
+    }
+}
+
+// Calendar
+.news-timeline-date i.icon-calendar,
+.event-card-icon i.icon-calendar {
+    display: inline-block;
     background: url("../img/section-icons/calendar.svg") center no-repeat;
     width: 17px;
     height: 17px;
     margin-bottom: -2px;
+
     &:before {
         content: "";
     }
 }
 
-i.fa-solid.fa-map-marker-alt {
+// Map pin
+.event-card-date i.icon-map-pin {
+    display: inline-block;
     background: url("../img/section-icons/pin.svg") center no-repeat;
     width: 17px;
     height: 17px;
     margin-bottom: -2px;
+
     &:before {
         content: "";
     }
 }
 
-// Fork
-i.fa-solid.fa-code-branch {
+// Git branch
+.news-timeline-date i.icon-git-branch {
+    display: inline-block;
     background: url("../img/section-icons/git.svg") center no-repeat;
     width: 20px;
     height: 20px;
     margin-bottom: -2.5px;
+
     &:before {
         content: "";
     }
 }
 
-// Search
-.landingpage #search-label {
-    background-color: $white;
+/*-----News and events-----*/
+
+.news-timeline-date {
+    .news-metadata-item {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
 }
-i.fa-solid.fa-magnifying-glass {
-    background: url("../img/section-icons/search.svg") center no-repeat;
-    width: 30px;
-    height: 30px;
-    &:before {
-        content: "";
+
+.event-card-date {
+    time {
+        white-space: nowrap;
     }
 }
 
