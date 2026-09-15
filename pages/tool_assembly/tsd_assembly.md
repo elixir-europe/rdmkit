@@ -4,7 +4,7 @@ contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl, Nazeefa Fati
 editors: [Flora D'Anna, Korbinian Bösl]
 description: The Sensitive Data Service (TSD) provides a platform to store, compute and analyse research sensitive data in compliance with Norwegian regulations regarding individuals’ privacy.
 page_id: tsd
-affiliations: ["NO", ELIXIR Europe, University of Oslo]
+supported_by: ["NO", ELIXIR Europe, University of Oslo]
 related_pages: 
   Your_tasks: [dmp, storage, sensitive, data_security, gdpr_compliance, transfer]
   Your_domain: [human_data]

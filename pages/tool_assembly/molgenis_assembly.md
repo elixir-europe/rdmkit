@@ -4,7 +4,7 @@ contributors: [Aneas Hodselmans, Marije van der Geest]
 editors: [Bert Droesbeke, Federico Bianchini, Korbinian Bösl]
 description: Molgenis is a modular web application for scientific data. Flexible data integration platform to find, capture, exchange, manage and analyse scientific data.
 page_id: molgenis
-affiliations: ["BBMRI-NL"]
+supported_by: ["BBMRI-NL"]
 related_pages:
   Your_tasks: [data_analysis, data_publication ,storage, data_quality, transfer, metadata, sensitive_data]
   Your_domain: []
