@@ -13,10 +13,11 @@ ref_to_main_resources:
   - phis
   - faidare
   - software-heritage
+  - fair-checker
 
 national_resources:
   - name: Cat OPIDoR
-    description: Catalog of national services and tools that support research data management designed to assist researchers, data stewards, and institutions. 
+    description: Catalogue of national services and tools that support research data management, designed to assist researchers, data stewards, and institutions. 
     how_to_access:
     instance_of: dmproadmap
     related_pages:
@@ -52,7 +53,7 @@ national_resources:
       your_tasks: [dmp]
     url: https://dsw.france-bioinformatique.fr/
   - name: Recherche Data Gouv Repository
-    description: The Recherche Data Gouv multidisciplinary repository is a sovereign solution for sharing and opening up data produced by communities that do not have a recognized disciplinary repository. It is based on the Dataverse software
+    description: The Recherche Data Gouv multidisciplinary repository is a national sovereign solution for sharing and opening up data produced by communities that do not have a recognised disciplinary repository. It is based on the Dataverse software
     how_to_access:
     instance_of: recherche-data-gouv
     related_pages:
@@ -60,17 +61,6 @@ national_resources:
       your_role: [researcher, data_steward, data storage, data management]
       your_tasks: []
     url: https://entrepot.recherche.data.gouv.fr/
-  - name: FAIR-checker
-    description: FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data provider to enhance the quality of their digital resources.
-    how_to_access:
-    instance_of: 
-    related_pages:
-      tool_assembly: [ifb]
-      your_role: [researcher, data_steward]
-      your_tasks: []
-    registry:
-      biotools: FAIR-Checker
-    url: https://fair-checker.france-bioinformatique.fr/
   - name: Usegalaxy.fr
     description: French Galaxy open-source platform for FAIR data analysis
     how_to_access:
@@ -112,17 +102,17 @@ national_resources:
 
 ## Introduction 
 
-This is an overview of research data management resources in France. These resources are accessible for researchers in France and to their collaborators.
+This is an overview of research data management resources in France. These resources are accessible to researchers in France and to their collaborators.
 
-The french governement has set up the ["Committee for Open Science"](https://www.ouvrirlascience.fr/home/), which brings together education and research stakeholders to support the implementation of the National Open Science Policy.
-The second [national plan for open science](https://www.ouvrirlascience.fr/get-started-with-open-science/) has been released in 2021.
+The French government has set up the ["Committee for Open Science"](https://www.ouvrirlascience.fr/home/), which brings together education and research stakeholders to support the implementation of the National Open Science Policy.
+The second [national plan for open science](https://www.ouvrirlascience.fr/get-started-with-open-science/) was released in 2021.
 
 
 ## Funders
 
 
 - [National Research Agency (ANR) Open Science Policy](https://anr.fr/en/anrs-role-in-research/commitments/open-science/)
-- [French Ministery of Higher Education and Research Open Science Plateform](https://www.ouvrirlascience.fr/category/resources/)
+- [French Ministry of Higher Education and Research Open Science Platform](https://www.ouvrirlascience.fr/category/resources/)
 
 
 
@@ -137,7 +127,7 @@ The second [national plan for open science](https://www.ouvrirlascience.fr/get-s
 
 - [RDA-France](https://www.rd-alliance.org/groups/rda-france) is a subsection of RDA dedicated to the activities, news and events of the RDA French Node.
 
-- [Recherche Data Gouv Repository](https://www.ouvrirlascience.fr/recherche-data-gouv-the-federated-national-research-data-platform/) The Recherche Data Gouv multidisciplinary repository is a sovereign solution for sharing and opening up data produced by communities that do not have a recognized disciplinary repository. It is based on the Dataverse software.
+- [Recherche Data Gouv Repository](https://www.ouvrirlascience.fr/recherche-data-gouv-the-federated-national-research-data-platform/) The Recherche Data Gouv multidisciplinary repository is a sovereign solution for sharing and opening up data produced by communities that do not have a recognised disciplinary repository. It is based on the Dataverse software.
 
 - [HAL](https://hal.archives-ouvertes.fr) is an open archive where authors can deposit scholarly documents from all academic fields.
 
@@ -156,8 +146,8 @@ The second [national plan for open science](https://www.ouvrirlascience.fr/get-s
 Recherche Data Gouv is the national ecosystem dedicated to managing, sharing and opening up French research data.
 By encouraging the reuse of data, Recherche Data Gouv stimulates innovation, avoids the dispersal of resources and promotes transdisciplinary approaches, which are essential to meeting complex challenges. Aligned with international standards, it enhances the visibility of French research and embodies an ambitious strategy for open science, benefiting researchers, citizens and economic players alike.
 is a national federated research data platform.
-  [ELIXIR-FR](https://recherche.data.gouv.fr/en/page/disciplinary-competence-centers) is a Disciplinary Competence Center for life sciences and contribute to the french [tool assembly](https://rdmkit.elixir-europe.org/ifb_assembly)
-  [INIST](https://www.inist.fr/) is in charge of the [OPIDoR](https://opidor.fr/) and [DORANum](https://doranum.fr/) portals which provides the higher education and research community with tools, services and training that support the implementation of the FAIR principles (DMP OPIDoR, Cat OPIDoR and PID OPIDoR )
+  [ELIXIR-FR](https://recherche.data.gouv.fr/en/page/disciplinary-competence-centers) is a Disciplinary Competence Center for life sciences and contributes to the French [tool assembly](https://rdmkit.elixir-europe.org/ifb_assembly)
+  [INIST](https://www.inist.fr/) is in charge of the [OPIDoR](https://opidor.fr/) and [DORANum](https://doranum.fr/) portals, which provide the higher education and research community with tools, services and training that support the implementation of the FAIR principles (DMP OPIDoR, Cat OPIDoR and PID OPIDoR )
 
 - [The Committee for Open Science CoSO](https://www.ouvrirlascience.fr/the-committee-for-open-science/) is a national committe which support the implementation of the National Open Science Policy.
 Its core responsibilities include coordinating the national strategy, developing open science skills, steering France’s European and international engagement, defining orientations for the National Open Science Fund, and guiding negotiations with major scientific publishers.
