@@ -42,7 +42,7 @@ In your role of trainer maker, you may need to:
 
 * [TeSS](https://tess.elixir-europe.org/) is a life science training portal, where you can search for training courses or materials on data management
 * [FAIR guiding principles](https://www.go-fair.org/fair-principles/) gives an overview of how to make your data Findable, Accessible, Interoperable and Reusable (FAIR).
-* The [Train-the-Trainer program](https://elixir-europe.org/platforms/training/train-the-trainer) relies in the development of new Train-the-Trainer (TtT) courses and materials with the aim to give new instructors tools and tips for providing and enriching learning experiences to trainees and to include best-practice guidance on course and training material development
+* The [Train-the-Trainer programme](https://elixir-europe.org/platforms/training/train-the-trainer) relies in the development of new Train-the-Trainer (TtT) courses and materials with the aim to give new instructors tools and tips for providing and enriching learning experiences to trainees and to include best-practice guidance on course and training material development
 * [Data Stewardship Wizard (DSW)](https://ds-wizard.org/) guides you through creating a data management plan.
 * [Mantra Research Data Management Training](https://mantra.ed.ac.uk) is a free, online course with guidelines to help understanding and reflecting on how to manage the digital data collected throughout your research.
 * The [FAIR Training Handbook](https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/) is a practical resource for FAIRifying training materials. It is an extended version of "Ten Simple Rules for Making Training Materials FAIR" {% cite garcia2020ten %}. 
