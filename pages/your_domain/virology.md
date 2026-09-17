@@ -3,7 +3,7 @@ title: Virology
 description: Data management solutions for virology data.
 contributors: [Niels Geudens, Flora D'Anna, Romain David, Philippe Lieutaud]
 editors: [Gil Poiares-Oliveira, Federico Bianchini, Flora D'Anna, Bert Droesbeke]
-affiliations: [EVORA]
+supported_by: [EVORA]
 page_id: virology
 related_pages: 
   Your_tasks: [data_brokering, gdpr_compliance, ethics, compliance, sensitive, data_security, data_discoverability, identifiers]

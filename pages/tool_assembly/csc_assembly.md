@@ -4,7 +4,7 @@ contributors: [Siiri Fuchs, Minna Ahokas, Janina Juuvinmaa]
 editors: [Bert Droesbeke, Flora D'Anna, Korbinian Bösl]
 description: The Center of Science (CSC) provides high-quality ICT expert services for researchers in Finland and their collaborators.
 page_id: csc
-affiliations: [FI, CSC, ELIXIR Europe]
+supported_by: [FI, CSC, ELIXIR Europe]
 related_pages: 
   Your_tasks: [sensitive, dmp, data_security, gdpr_compliance, storage, data_publication, data_transfer, data_analysis]
   Your_domain: [human_data]

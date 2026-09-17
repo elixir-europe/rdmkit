@@ -4,7 +4,7 @@ contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Daniel Faria, Paulet
 editors: [Korbinian Bösl, Daniel Faria]
 description: Tool assembly for managing plant genomic data.
 page_id: plant_geno_assembly
-affiliations:
+supported_by:
 related_pages: 
   Your_tasks: [metadata, data_publication]
   Your_domain: [plants]
@@ -42,7 +42,8 @@ Submission of sample descriptions to BioSamples can be done as early as the data
     2. Submit reference genome assembly to INSDC (NCBI Genbank / EBML-EBI ENA / DDBJ) and wait until accession number is issued, then proceed to step 4
 4.  Submit VCF file to EVA (using BioSamples IDs to identify material, GCF/GCA accession for the reference genome assembly)
 
-{% include callout.html type="note" content="Metadata associated with a single sample registered with BioSamples can only be updated from the original account." %}
+{: .note }
+> Metadata associated with a single sample registered with BioSamples can only be updated from the original account.
 
 {% tool "e-dal-pgp" %}, FAIRDOM-SEEK instances such as {% tool "fairdomhub" %} or [Recherche Data Gouv](https://recherche.data.gouv.fr/) can be used to manage and share experimental metadata, as well as data.
 

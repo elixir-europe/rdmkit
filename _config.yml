@@ -4,7 +4,7 @@ title: RDMkit
 description: "Best practices and guidelines you can use for FAIR management of your research data."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@7.0.0
 
 sass:
   style: compressed
@@ -28,6 +28,8 @@ theme_variables:
     - https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap
   headings:
     resource-table-all-collapse: true
+  page_metadata:
+    supported_by_sort: true
 
 exclude:
   - README.md

@@ -3,7 +3,7 @@ title: LabID
 contributors: [Laurent Thomas]
 editors: [Bert Droesbeke, Federico Bianchini]
 page_id: labid
-affiliations: [EMBL Heidelberg]
+supported_by: [EMBL Heidelberg]
 training:
   - name: Tutorials from the LabID user-documentation
     registry: LabID user-documentation

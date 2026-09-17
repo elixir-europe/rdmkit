@@ -180,8 +180,12 @@ section#search-section {
 
 /*-----Better tools-----*/
 .tool {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
     border-radius: 1rem;
     padding-right: 0.5rem;
+    vertical-align: middle;
 }
 
 /*-----New Icons-----*/
@@ -258,14 +262,18 @@ i.icon-search {
 
 // Tool snippet
 
-i.fa-solid.fa-wrench {
-    background: url("../img/section-icons/info2.svg") center no-repeat;
-    &:before {
-        content: "";
-    }
+.tool i.icon-wrench {
+    display: inline-block;
+    flex: 0 0 auto;
+    background: url("../img/section-icons/info2.svg") center / contain no-repeat;
     width: 1.2rem;
     height: 1.2rem;
-    margin-bottom: -0.25rem;
+    margin: 0 !important;
+    line-height: 1;
+
+    &::before {
+        content: "";
+    }
 }
 
 // Citation/Bibiography styling
