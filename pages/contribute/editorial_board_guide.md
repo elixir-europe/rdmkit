@@ -236,6 +236,8 @@ related_pages:
 
 To find out what the `page_id` of an RDMkit page is, please check its metadata attribute `page_id` at the top of the markdown file or the [list of page IDs](website_overview).
 
+{% include callout.html type="important" content="Use the `page_id` only in `related_pages`. Links in the text of a page point to the markdown file name instead, which often differs from the `page_id`. For example, the `page_id` of `data_management_plan.md` is `dmp`, but an in-text link is written `[DMP](data_management_plan)`." %}
+
 
 ## Linking from RDMkit to FAIR Cookbook
 

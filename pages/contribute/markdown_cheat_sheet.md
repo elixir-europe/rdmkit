@@ -197,6 +197,14 @@ When linking to internal pages, you can manually link to the pages like this:
 ```
 Will link to the planning page.
 
+The link target is the name of the markdown file, without the `.md` extension and without a leading slash. It is **not** the `page_id` from the page metadata, and the two often differ. For example, the file `metadata_management.md` has the `page_id` `metadata`, so you link to it with:
+
+```md
+[metadata management](metadata_management)
+```
+
+The `page_id` is only used in the `related_pages` metadata attribute (see [Related pages](editorial_board_guide#related-pages)).
+
 If you change the file name, you'll have to update all of your links.
 
 ## Emoji's
