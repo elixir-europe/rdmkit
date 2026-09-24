@@ -4,7 +4,7 @@ search_exclude: true
 contributors: [<!---REPLACE THIS with comma separated list of contributors--->]
 editors: [<!---REPLACE THIS with comma separated list of editors (to be filled in by an editor)--->]
 description: <!---REPLACE THIS with a very short summary (one sentence) this should include if there are limitiations for the audience--->
-affiliations: [<!---REPLACE THIS with comma separated list of affiliations. Countries use the ISO 3166-1-alpha-2 notation, other affiliations must be present in the affiliations.yaml in the _data directory in order to work--->]
+supported_by: [<!---REPLACE THIS with comma separated list of supporters. Countries use the ISO 3166-1-alpha-2 notation, other supporters must be present in supported_by.yml in the _data directory in order to work--->]
 page_id: <!---REPLACE THIS with a shortened page name. The shortened page name should be in lowercase and separated by underscore(s) if needed. For example, page_id of structural bioinformatics will be struct_bioinfo
 related_pages: 
   Your_tasks: [<!---REPLACE THIS with the page ID of the your_tasks pages that you want to list here as related pages--->]

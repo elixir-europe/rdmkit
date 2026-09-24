@@ -7,7 +7,7 @@ page_id: agroecology
 related_pages: 
   Your_tasks: [ metadata, data_quality, data_provenance, data_organisation, sensitive, gdpr_compliance, ethics ]
   Tool_assembly: []
-affiliations: [AgroServ]
+supported_by: [AgroServ]
 tess: 
 - name: Visualize Climate data with Panoply netCDF viewer
   url: https://tess.elixir-europe.org/materials/hands-on-for-visualize-climate-data-with-panoply-netcdf-viewer-tutorial
