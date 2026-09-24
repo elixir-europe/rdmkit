@@ -2858,7 +2858,7 @@
   registry:
     fairsharing: f7ec51
   url: https://pathoplexus.org/
-- description: The International Committee on Taxonomy of Viruses (ICTV) taxonomic database is a maintained resource comprised of a universal taxonomic scheme for all the viruses infecting animals (vertebrates, invertebrates and protozoa), plants (higher plants and algae), fungi, bacteria and archaea.
+- description: ICTV maintains the official global taxonomy and nomenclature of viruses. Its website provides interfaces for searching and browsing current and historical taxonomy, viewing taxon histories and downloading the current taxonomy release.
   id: ictv
   name: ICTV
   registry:
@@ -3225,10 +3225,10 @@
   registry:
     fairsharing: 9vtwjs
   url: hhttps://www.dublincore.org/
-- description: European Viral Outbreak Response Alliance Ontology
+- description: EVORAO is a DCAT-compatible ontology for describing pathogen materials, derived products and associated services in interoperable catalogues, including their origin, access, biosafety, transport, licensing, provenance and contacts.
   id: evora-ontology
-  name: EVORA Ontology
-  url: https://www.ebi.ac.uk/ols4/ontologies/evorao
+  name: European Viral Outbreak Response Alliance Ontology (EVORAO)
+  url: https://evora-project.github.io/evora-ontology/
 - description: A comprehensive resource of channels, pores and tunnels found in biomacromolecular structures deposited in the Protein Data Bank.
   id: channelsdb
   name: ChannelsDB 2.0
@@ -3568,12 +3568,12 @@
   id: ena-reads-assembly-submission-workflow
   name: ENA Reads and Assembly Submission Workflow
   url: https://workflowhub.eu/workflows/2008
-- description: ICTV Ontology provides a machine-readable representation of the official International Committee on Taxonomy of Viruses taxonomy, supporting consistent annotation of virus metadata and improved interoperability across virology resources.
+- description: The ICTV Ontology is a browsable, machine-readable representation of current and historical ICTV taxonomy. Its main purpose is programmatic access through the Ontology Lookup Service API and helper libraries, including lineage retrieval, change tracking and resolution of historical names and identifiers to the latest taxon when a current counterpart is defined.
   id: ictv-ontology
-  name: ICTV Ontology
+  name: ICTV Ontology and API
   registry:
     fairsharing: a2e727
-  url: https://www.ebi.ac.uk/ols4/ontologies/ictv
+  url: https://evora-project.github.io/ictv-ontology/
 - description: A Data Management Plan (DMP) template with questions tailored to bioimaging research projects developed by Euro-Bioimaging.
   id: dmp-template-euro-bio
   name: Euro-BioImaging's Template for Research Data Management Plans
