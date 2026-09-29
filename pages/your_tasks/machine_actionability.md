@@ -66,8 +66,8 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
 * Be interpreted by computer systems unambiguously. The meaning (semantic) of the (meta)data should be unique and shared among computer systems.
   * Syntaxes such as JSON-LD and RDF/XML contribute to [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability#Semantic_as_a_function_of_syntactic_interoperability).
 * Not be in PDF format (scanned images of lab books, tables, articles or papers in .pdf)
-* Not be in plain text (.txt) nor Word documents (.docx) formats (e.g. README.txt file).
-* Not be images, audio, or video (.jpeg, png, etc.).
+* Not be free text, such as a README.txt or a Word document (.docx). A .txt file can still be machine-actionable if it follows a defined structure, as ISA-TAB and MAGE-TAB do.
+* Not be images, audio or video without embedded structured metadata. OME-TIFF, for example, stores its metadata as OME-XML inside the file.
 
 
 
@@ -163,7 +163,7 @@ For machine-actionability and interoperability, you should consider:
   * CSV is appropriate to exchange plain text information in a tabular format, but its flat nature makes a challenge to describe more complex relationships between information. 
   * XML and JSON formats are widely used for data exchange between systems (such as software, platforms, or hardware) and on the web. Both are easy to read and interpreted by machines, but not very human-readable.
 
-* Exchange file formats using key-value pairs, such as .xml and .json, can wrap or encode the information to be sent or exchanged in a hierarchical (tree) data model. 
+* Exchange formats such as XML and JSON encode information as a hierarchical (tree) data model. XML nests elements that can carry attributes. JSON nests objects of key-value pairs and arrays.
   * XML is a markup language. It is based on “elements” enclosed by pairs of opening and closing “tags”, which can carry “attributes” ```(<tag attribute="value">element</tag>)```. It is self-explanatory because it contains metadata about the format, and “tags” are chosen by the creator of the .xml file. For instance, ```<name>Jaguar</name>```.
   * JSON format can be easily read in any programming language. It is built on a collection of name/value pairs. In various languages, this is realised as an object, record, struct, dictionary, hash table, keyed list, or associative array. Refer to [json.org](https://www.json.org/json-en.html) for more information. Keys are strings in double quotes, and a colon separates each key from its value ( ```{"key": value}``` ). A value can be a string (also in double quotes), a number, `true`, `false`, `null`, an array (a list of values) or another object. For instance, ```{"name": "Jaguar"}```.
 
@@ -185,7 +185,7 @@ For machine-actionability and interoperability, you should consider:
 
   [RDF model](https://www.w3.org/TR/rdf-concepts/#section-Concepts) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. Subject and Object can be any resource available on the internet, Predicate (properties) connects resources to other resources or data values, etc.
 
-* RDF concepts can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. The benefit is that web browsers can put the provided information with these syntaxes into context and “understand” the meaning (semantics) and relations contained in the digital object. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as {% tool "schema-org" %} or {% tool "bioschemas" %} (for Life Sciences), {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, etc.
+* RDF concepts can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. Search engines, data harvesters and linked-data applications can use these syntaxes to put the information into context and “understand” its meaning (semantics) and relations. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as {% tool "schema-org" %} or {% tool "bioschemas" %} (for Life Sciences), {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, etc.
   
   Any metadata schemas and [vocabularies/ontologies](https://www.w3.org/standards/semanticweb/ontology) describing web resources can be expressed according to standards, such as the [Web Ontology Language (OWL)](https://www.w3.org/TR/owl-ref/), the [RDF Schema (RDFS)](https://www.w3.org/TR/rdf-schema/) or the [Simple Knowledge Organisation System (SKOS)](http://www.w3.org/standards/techs/skos#w3c_all) to provide more expressive definition and inferences/relationships between terms or pieces of information.
 
