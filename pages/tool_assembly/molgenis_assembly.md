@@ -6,7 +6,7 @@ description: Molgenis is a modular web application for scientific data. Flexible
 page_id: molgenis
 supported_by: ["BBMRI-NL"]
 related_pages:
-  Your_tasks: [data_analysis, data_publication ,storage, data_quality, transfer, metadata, sensitive_data]
+  Your_tasks: [data_analysis, data_publication ,storage, data_quality, transfer, metadata, sensitive]
   Your_domain: []
 training:
   - name: MOLGENIS YouTube Intro Video

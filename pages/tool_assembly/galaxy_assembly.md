@@ -6,7 +6,7 @@ description: Galaxy is an open, web-based platform for accessible, reproducible,
 page_id: galaxy
 supported_by: [ELIXIR Europe, "European Union"]
 related_pages: 
-  Your_tasks: [data_analysis, data_organisation, data_publication, data_quality, data_transfer, existing_data, identifiers, machine_actionability, metadata]
+  Your_tasks: [data_analysis, data_organisation, data_publication, data_quality, transfer, existing_data, identifiers, machine_actionability, metadata]
 training:
   - name: Galaxy Training Network
     url: https://training.galaxyproject.org/

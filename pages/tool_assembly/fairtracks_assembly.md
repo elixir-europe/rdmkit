@@ -6,7 +6,7 @@ description: The FAIRtracks ecosystem provides technical solutions for the FAIRi
 page_id: fairtracks
 supported_by: ["NO", "ES", "EMBL-EBI"]
 related_pages: 
-  Your_tasks: [data_publication, data_transfer, metadata]
+  Your_tasks: [data_publication, transfer, metadata]
   Your_domain: [plants, rare_disease, single_cell_sequencing, human_data]
 training:
   - name: FAIRtracks Search query in TeSS

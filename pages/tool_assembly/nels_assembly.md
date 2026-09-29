@@ -6,7 +6,7 @@ description: NeLS provides the necessary tools for data management to researcher
 page_id: nels
 supported_by: ["ELIXIR Europe", "NO"]
 related_pages: 
-  Your_tasks: [dmp, data_organisation, storage, data_publication, data_transfer, metadata]
+  Your_tasks: [dmp, data_organisation, storage, data_publication, transfer, metadata]
   Your_domain: []
 training:
   - name: NeLS Search query in TeSS
