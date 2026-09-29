@@ -246,3 +246,7 @@
   date: 2026-04-10
   linked_pr: 1799
   description: A new "tool assembly" page for LabID was added. [Discover the page here](labid_assembly).
+- name: "New page: Metabarcoding tool assembly"
+  date: 2026-09-29
+  linked_pr:
+  description: A new "tool assembly" page about managing metabarcoding data was added. [Discover the page here](metabarcoding_assembly).

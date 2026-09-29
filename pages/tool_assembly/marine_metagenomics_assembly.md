@@ -8,6 +8,7 @@ supported_by: [ELIXIR Europe, "NO"]
 related_pages:
   Your_tasks: [dmp, existing_data, data_organisation, storage, data_publication, data_transfer, metadata, data_analysis]
   Your_domain: [marine]
+  Tool_assembly: [metabarcoding_assembly]
 training:
   - name: Marine Metagenomics Search query in TeSS
     registry: TeSS

@@ -1,12 +1,12 @@
 ---
 title: Biodiversity
 description: Data management solutions for biodiversity data.
-contributors: [Josephine Burgin, Joana Pauperio, Anne-Françoise Adam-Blondon, Patrick Ruch, Robert Waterhouse, Valeria Di Cola, Erwan Corre, Yvan Le Bras, Peter Woollard, Bachir Balech, Matteo Montagna, Angela Fuentes Pardo, Solenne Correard]
+contributors: [Josephine Burgin, Joana Paupério, Anne-Françoise Adam-Blondon, Patrick Ruch, Robert Waterhouse, Valeria Di Cola, Erwan Corre, Yvan Le Bras, Peter Woollard, Bachir Balech, Matteo Montagna, Angela Fuentes Pardo, Solenne Correard]
 editors: [Bert Droesbeke, Flora D'Anna]
 page_id: biodiversity
 related_pages: 
   Your_tasks: [dmp, data_organisation, metadata, data_brokering, machine_actionability, compliance, data_analysis]
-  Tool_assembly: [galaxy, fairtracks]
+  Tool_assembly: [galaxy, fairtracks, metabarcoding_assembly]
 # More information on which page id you can use can be found at https://rdmkit.elixir-europe.org/website_overview
 training:
   - name: Biodiversity data Search query in TeSS
@@ -29,6 +29,8 @@ fairsharing:
 ## Introduction
 
 While there is significant literature around biodiversity loss, there is a limited effort in reviewing biodiversity using high-throughput data acquisition technologies. Today, scientists recognise the important roles that genetic and genomic data (e.g. reference genomes, DNA/RNA barcoding approaches, metagenomics and metabarcoding), can play in biodiversity discovery, assessment, monitoring, conservation, and restoration, and its impact in policy and decision making processes. 
+
+Metabarcoding is an environmental DNA (eDNA) method. Unlike methods based on direct tissue sampling, it identifies the species present in an environment from DNA traces recovered from environmental samples, such as water, soil or air. It is often used by biodiversity observatories to monitor the biodiversity of a given ecosystem. It relies on gene markers to amplify a highly conserved gene region, for example the 18S rRNA gene or CO1. The raw sequences obtained from amplification are matched and classified against a reference database, producing occurrence tables of Amplicon Sequence Variants (ASVs) or Operational Taxonomic Units (OTUs). For more details on managing metabarcoding data, see the [Metabarcoding tool assembly](metabarcoding_assembly).
 
 These research activities present unique data management challenges, especially in terms of complexity, data integration, and the need for interoperability across diverse datasets. Some of challenges include:
 
