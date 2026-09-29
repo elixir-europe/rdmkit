@@ -38,15 +38,15 @@ Due to the large variety of experiments, techniques and collaborative studies th
 ### Considerations
 * Write the documentation in such a way that someone else who is known to the field cannot misinterpret any of the data.
 
-* It is best practice to use one appropriate tool or an integration of multiple tools (also called tool assembly or ecosystem) for data documentation during a project. Suitable tools for data documentation are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services (such as {% tool "openscienceframework" %}) could also be used as ELN or data management systems. Check with your institute or other relevant infrastructures to know what is offered.
+* It is best practice to use one appropriate tool or an integration of multiple tools (also called tool assembly or ecosystem) for data documentation during a project. Suitable tools for data documentation are Electronic Lab Notebooks (ELNs), Electronic Data Capture (EDC) systems, Laboratory Information Management Systems (LIMS). Moreover, online platforms for collaborative research and file sharing services could also be used as ELN or data management systems. Check with your institute or other relevant infrastructures to know what is offered.
 
 * Independently of the tools you will use, data documentation is needed at two levels: documentation about the entire study or project and documentation about individual records, observations or data points.
   * Study-level documentation describes the project title and summary, study aims, authors, institutions involved, funds, methods, licence and identifier for each dataset, folders structure, file naming conventions, versioning system, relation between files or tables and other general information.
-  * Data-level documentation provides information about individual records or data point, such as the meaning of each variable name, label, ID or type (numeric, string, regular expression, date, etc.), units (i.e., cm, kg…), experimental factors, categories, controlled vocabulary or ontology terms accepted as values for each variable, missing values code and so on. An example could be a data file that contains a "sex" field: someone known to the field could try to misinterpret that from "external sex organs present at birth" to "chromosomal XX or XY" or "high or low testosterone level" or "social gender" or other. In order to avoid this, the way the assignment is made must be part of the documentation or of the data itself (controlled vocabulary).
+  * Data-level documentation provides information about individual records or data point, such as the meaning of each variable name, label, ID, type (numeric, string, regular expression, date...), units (i.e., cm, kg...), experimental factors, categories, controlled vocabulary or ontology terms accepted as values for each variable, missing value codes and so on. An example could be a data file that contains a "sex" field: without addition clarification, this could be interpreted as any of "external sex organs present at birth", "chromosomal XX or XY", "high or low testosterone level", "social gender" or another context-specific meaning. In order to avoid this, the way the assignment is made must be part of the documentation or of the data itself (controlled vocabulary).
 
-* Both the study- and data-level documentation must be generated as early as possible in the research process and also maintained, in order to be accurate and complete
+* Both the study- and data-level documentation must be generated as early as possible in the research process and maintained on a regular basis, in order to be accurate and complete.
 
-* Documentation is also required when publishing your data. General-purpose repositories usually require only study-level documentation, while discipline-specific repositories generally require both study-level and data-level documentation. Importantly, repositories often accept data and documentation in a very strict format: they can require a predefined set of attributes or fields (metadata checklists) to be filled, ontology terms to be used, specific (meta)data schemas (e.g., ISA model, MAGE-TAB) to be adopted. We recommend familiarising yourself with  the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data accordingly as early as possible.
+* Documentation is also required when publishing your data. General-purpose repositories usually require only study-level documentation, while discipline-specific repositories generally require both study-level and data-level documentation. Importantly, repositories often accept data and documentation in a very strict format: they can require a predefined set of attributes or fields (metadata checklists) to be filled, ontology terms to be used, specific (meta)data schemas (e.g. {% tool "isa-tab" %}, {% tool "mage-tab" %}) to be adopted. We recommend familiarising yourself with the requirements of the repositories that could be appropriate for publishing your data already at the beginning of the project, so that you can start documenting and formatting your data accordingly as early as possible.
 
 * Make sure the documentation is kept close to the data, so that nobody will be exposed to the data without being able to find the documentation.
 
@@ -73,7 +73,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * The established data organisation system has to be described in detail in the documentation, preferably in open and machine-readable formats (i.e., XML, JSON, CSV, RDF, HTML). The description of the data organisation system has to be placed in the folder at the highest level (e.g. “Project” folder).
 
-* [Study-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/study-level-documentation/) and [data-level](https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/data-level/) documentation can be provided as
+* [Study-level]([https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/study-level-documentation/](https://ukdataservice.ac.uk/learning-hub/data-producer-support/preparing-data-for-sharing-and-reuse/documenting-and-describing-data/collectionleveldocumentation/)) and [data-level](https://ukdataservice.ac.uk/learning-hub/data-producer-support/preparing-data-for-sharing-and-reuse/documenting-and-describing-data/data-leveldocumentation/) documentation can be provided as
   * README file
   * {% tool "create-a-codebook" %}
   * Data dictionary ([see an example](https://webdav.lcsb.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
@@ -82,7 +82,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
   Each of these files can be made in several formats depending on the features available in your data documentation tool, your needs or skills. Machine-readable or -actionable formats (such as .xml, .json, .csv, .rdf) are preferred to non-machine-readable ones (.txt, .xls, .pdf).  README.txt is an exception since its main purpose is to be human-readable, i.e. not intended to be machine-readable or -actionable.
   Also non-proprietary formats are preferred over proprietary ones.
 
-* Highly structured data documentation is called **metadata**. Generating metadata in a machine-readable or -actionable format makes your data more FAIR . Metadata provides structured and searchable information so that a user can find existing data, evaluate its reusability and cite it.
+* Highly structured data documentation is called **metadata**. Generating metadata in a machine-readable or -actionable format makes your data more FAIR. Metadata provides [structured and searchable information](https://ukdataservice.ac.uk/learning-hub/data-producer-support/preparing-data-for-sharing-and-reuse/documenting-and-describing-data/metadata/) so that a user can find existing data, evaluate its reusability and cite it.
 
 * It is good practice to use international standard metadata schemas to organise and store your (meta)data in a structured way. A metadata schema describes the relations, such as hierarchy, of the elements that belong to the structure. It is also good practice to use international standard metadata checklists to describe the content your (meta)data. A (meta)data checklist is a fixed set of attributes about the data that needs to be provided. Some attributes are mandatory, some are only recommended or optional. International standard metadata schemas and checklists are developed by and accepted as standards by communities. There are many standard metadata schemas and checklists, some generic, while others discipline-specific. See the paragraph about [how to find standard metadata.](metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples)
 
@@ -101,12 +101,12 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Description
 
-There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "edam" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are relevant questions.
+There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "edam" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples or {% tool "miame" %} for microarray experiments). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are related questions.
 
 
 ### Considerations
 
-* Decide at the beginning of the project what are the {% tool "elixir-deposition-databases-for-biomolecular-data" %} for your data types.
+* Decide at the beginning of the project what the most appropriate deposition databases for your data types, e.g. from {% tool "elixir-deposition-databases-for-biomolecular-data" %}.
   * Note that you can use several repositories if you have different data types.
   * Distinguish between generic (e.g. Zenodo) and data type (technique) specific repositories (e.g. EBI repositories).
 
@@ -115,8 +115,8 @@ There are multiple standards for different types of data, ranging from generic d
 
 * If you have a repository in mind:
   * Go to the repository website and check the “help”, "guide" or “how to submit” tab to find information about required metadata.
-  * On the repository website, go through the submission process (try to submit some dummy data) to identify metadata requirements. For instance, if you consider publishing your transcriptomic data in ArrayExpress, you can make your metadata spreadsheet by using [Annotare 2.0 submission tool](https://www.ebi.ac.uk/fg/annotare/), at the beginning of the project.
-  * Be aware that data type specific repositories usually have check-lists for metadata. For example, the European Nucleotide Archive provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
+  * On the repository website, go through the submission process (try to submit some dummy data) to identify metadata requirements. For instance, if you consider publishing your transcriptomic data in {% tool "arrayexpress" %}, you can make your metadata spreadsheet by using {% tool "annotare" %}, at the beginning of the project.
+  * Be aware that data type specific repositories usually have check-lists for metadata. For example, the {% tool "european-nucleotide-archive" %} provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
 * If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {% tool "miame" %}, {% tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
   * {% tool "min-info-standards" %}
