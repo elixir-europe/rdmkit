@@ -3,7 +3,7 @@ title: Finland
 country_code: FI
 contributors: [Siiri Fuchs, Minna Ahokas]
 editors: [Bert Droesbeke, Laura Portell Silva]
-coordinators: []
+coordinators: [Minna Ahokas]
 national_resources:
   - name: Chipster
     description: Chipster is a user-friendly analysis software for high-throughput data such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large reference genome collection.
