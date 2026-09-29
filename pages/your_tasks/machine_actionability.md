@@ -205,15 +205,15 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
 * (Meta)Data in data exchange formats (XML, JSON, CSV, etc.) that follows a standard metadata schema can be considered machine-actionable and syntactically interoperable. Ontologies that uniquely identify terms can be included for semantic interoperability.
 * RDF syntaxes, such as RDF/XML and JSON-LD, support syntactic and semantic interoperability among machines. In other words, these formats convey the structure of the data being presented and the link to the necessary information to interpret its content, e.g. ontologies. Ontology or vocabulary is a way of expressing semantics/meaning of (meta)data. 
 
-  Example of machine-interpretable metadata for the word “Jaguar” in JSON-LD format, which allows to clarify the intended meaning of the word "Jaguar" (the animal) and distinguishes it from other possible meanings such as car or computer. The `@context` tells machines which vocabulary ({% tool "schema-org" %}) defines the terms used:
+  Example of machine-interpretable metadata for the word “Jaguar” in JSON-LD format, which allows to clarify the intended meaning of the word "Jaguar" (the animal) and distinguishes it from other possible meanings such as car or computer. The example is based on the {% tool "bioschemas" %} [Taxon profile](https://bioschemas.org/profiles/Taxon/1.0-RELEASE): the `@context` tells machines which vocabularies ({% tool "schema-org" %} and Darwin Core) define the terms used, and the taxonomic rank is given as a URI from a controlled vocabulary:
   ```
   {
-  "@context": "https://schema.org",
+  "@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}],
   "@type": "Taxon",
   "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9690",
-  "taxonRank": "species",
   "name": "Panthera onca",
-  "alternateName": "Jaguar"
+  "taxonRank": "http://rs.tdwg.org/ontology/voc/TaxonRank#Species",
+  "dwc:vernacularName": "Jaguar"
   }
   ```
 * Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rdamsc.bath.ac.uk) or among the [reporting guidelines](https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%2520science&recordType=reporting_guideline) in {%tool "fairsharing" %}.
