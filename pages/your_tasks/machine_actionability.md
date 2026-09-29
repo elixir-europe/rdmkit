@@ -165,7 +165,7 @@ For machine-actionability and interoperability, you should consider:
 
 * Exchange file formats using key-value pairs, such as .xml and .json, can wrap or encode the information to be sent or exchanged in a hierarchical (tree) data model. 
   * XML is a markup language. It is based on “elements” enclosed by pairs of opening and closing “tags”, which can carry “attributes” ```(<tag attribute="value">element</tag>)```. It is self-explanatory because it contains metadata about the format and “tags” are chosen by the creator of the .xml file. For instance, ```<name>Jaguar</name>```.
-  * JSON format can be easily read in any programming language. It is based on key-value pairs separated by colons ( ```{"key": "value"}``` ). For instance, ```{"name": "Jaguar"}```.
+  * JSON format can be easily read in any programming language. "JSON is built on [...] a collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.", [json.org](https://www.json.org/json-en.html). Keys are strings in double quotes, and a colon separates each key from its value ( ```{"key": value}``` ). A value can be a string (also in double quotes), a number, `true`, `false`, `null`, an array (a list of values) or another object. For instance, ```{"name": "Jaguar"}```.
 
 * File formats (or file extensions) for expressing data in triplets (e.g. “Jaguar” → “is in” → “Jungle”) in the Resource Description Framework (RDF) data model are .rdf for RDF/XML, .jsonld for JSON-LD, .nt for N-Triples and .ttl for Turtle syntax.
 
@@ -205,7 +205,7 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
 * (Meta)Data in data exchange formats (XML, JSON, CSV, etc.) that follows a standard metadata schema can be considered machine-actionable and syntactically interoperable. Ontologies that uniquely identify terms can be included for semantic interoperability.
 * RDF syntaxes, such as RDF/XML and JSON-LD, support syntactic and semantic interoperability among machines. In other words, these formats convey the structure of the data being presented and the link to the necessary information to interpret its content, e.g. ontologies. Ontology or vocabulary is a way of expressing semantics/meaning of (meta)data. 
 
-  Example of machine-interpretable metadata for the word “Jaguar” in JSON-LD format, which allows to clarify the intended meaning of the word "Jaguar" (the animal) and distinguishes it from other possible meanings such as car or computer. The example is based on the {% tool "bioschemas" %} [Taxon profile](https://bioschemas.org/profiles/Taxon/1.0-RELEASE): the `@context` tells machines which vocabularies ({% tool "schema-org" %} and Darwin Core) define the terms used, and the taxonomic rank is given as a URI from a controlled vocabulary:
+  Example of machine-interpretable metadata for the word “Jaguar” in JSON-LD format, which allows to clarify the intended meaning of the word "Jaguar" (the animal) and distinguishes it from other possible meanings such as car or computer. The example is based on the {% tool "bioschemas" %} [Taxon profile](https://bioschemas.org/profiles/Taxon/1.0-RELEASE): the `@context` tells machines which vocabularies ({% tool "schema-org" %} and {% tool "dwc" %}) define the terms used, and the taxonomic rank is given as a URI from a controlled vocabulary:
   ```
   {
   "@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}],
