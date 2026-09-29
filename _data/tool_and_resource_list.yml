@@ -3585,6 +3585,7 @@
   name: EMBL-EBI Spatial Transcriptomics Portal
   url: https://www.ebi.ac.uk/spatial-transcriptomics/
 - description: Simple tab-delimited format used for annotationg and communicating microarray data in a MIAME-compliant fashion.
+  id: mage-tab
   name: MicroArray Gene Expression Tabular Format (MAGE-TAB)
   registry:
     fairsharing: ak8p5g
