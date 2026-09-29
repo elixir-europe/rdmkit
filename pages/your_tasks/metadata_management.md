@@ -108,7 +108,7 @@ A wide range of standards for describing and documenting data exist, ranging fro
 
 * Decide at the beginning of the project what the most appropriate deposition databases for your datatypes, e.g. from {% tool "elixir-deposition-databases-for-biomolecular-data" %}.
   * Note that you can use several repositories if you have different datatypes.
-  * Distinguish between generic (e.g. {% tool "zenodo" %}) and datatype/technique specific repositories (e.g. EBI repositories).
+  * Distinguish between generic (e.g. {% tool "zenodo" %}) and datatype/technique specific repositories (e.g. EMBL-EBI data repositories via {% tool "embl-ebi-s-data-submission-wizard" %}).
 
 
 ### Solutions
