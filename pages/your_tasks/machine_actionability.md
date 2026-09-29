@@ -172,7 +172,7 @@ For machine-actionability and interoperability, you should consider:
 #### (Meta)Data schema
 * A (meta)data schema describes the relations, such as hierarchy, among the elements or pieces of information that constitute the (meta)data model or structure.
 * The relationship between pieces of information in a (meta)data schema can be implicit, following an agreed order (such as the order of columns in a table), or explicitly expressed by additional information in the file. To allow more universal interpretability, explicit additional information on the relationship between the pieces of information is highly advantageous.
-* Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model in a more implicit way (e.g. ISA-TAB,  MAGE-TAB).
+* Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model in a more implicit way (e.g. {% tool "isa-tab" %},  {% tool "mage-tab" %}).
 * Some data repositories develop customised (meta)data schemas.
 * Different metadata schemas are preferred for different purposes. Some examples are listed below. 
   * {% tool "schema-org" %} and {% tool "bioschemas" %} markup are mostly used to describe web resources and make them findable by Web search engines. 

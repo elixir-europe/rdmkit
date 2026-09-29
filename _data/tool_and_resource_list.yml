@@ -1253,7 +1253,7 @@
 - description: Web portal for finding ontologies
   id: linked-open-vocabularies
   name: Linked Open Vocabularies (LOV)
-  url: https://lov.linkeddata.es/dataset/lov/
+  url: https://lov.linkeddata.es/dataset
 - description: A database of prokaryote specific biodiversity information
   id: list-of-prokaryotic-names-with-standing-in-nomenclature
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
@@ -1545,7 +1545,7 @@
   url: https://openrefine.org/
 - description: 'free and open source project management tool that supports the entire research lifecycle: planning, execution, reporting, archiving, and discovery'
   id: openscienceframework
-  name: OpenScienceFramework
+  name: OpenScienceFramework (OSF)
   registry:
     fairsharing: g4z879
   url: https://osf.io/
@@ -1555,12 +1555,6 @@
   registry:
     tess: OpenStack
   url: https://www.openstack.org/
-- description: OSF (Open Science Framework) is a free, open platform to support your research and enable collaboration.
-  id: osf
-  name: OSF
-  registry:
-    tess: OSF
-  url: https://osf.io
 - description: One Touch Pipeline (OTP) is a data management platform for running bioinformatics pipelines in a high-throughput setting, and for organising the resulting data and metadata.
   id: otp
   name: OTP
@@ -1716,7 +1710,7 @@
 - description: Directory of standard metadata, divided into different research areas
   id: rda-standards
   name: RDA Standards
-  url: https://rd-alliance.github.io/metadata-directory/standards/
+  url: https://rdamsc.bath.ac.uk/
 - description: Registry of Research Data Repositories
   id: re3data
   name: re3data
@@ -3590,3 +3584,9 @@
   id: spatial-transcriptomics-portal
   name: EMBL-EBI Spatial Transcriptomics Portal
   url: https://www.ebi.ac.uk/spatial-transcriptomics/
+- description: Simple tab-delimited format used for annotationg and communicating microarray data in a MIAME-compliant fashion.
+  id: mage-tab
+  name: MicroArray Gene Expression Tabular Format (MAGE-TAB)
+  registry:
+    fairsharing: ak8p5g
+  url: https://www.fged.org/projects/mage-tab
