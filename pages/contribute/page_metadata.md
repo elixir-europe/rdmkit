@@ -36,7 +36,7 @@ title: Title of the page
 
 * `datatable`: Use this attribute to activate the pagination + sorting + searching in tables
 
-* `affiliations`: List here all affiliations related to the page. Make sure that the person's name that is listed can be found in the _data/affiliations.yaml file. These affiliations will get displayed at the bottom of the page and in the section navigation tile of the page.
+* `supported_by`: List here all institutions, projects, funders, collaborators or infrastructures related to the page. Make sure every name is listed in the _data/supported_by.yml file. These supporters will be displayed at the bottom of the page and in the section navigation tile of the page.
 
 ### Related pages
 

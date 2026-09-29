@@ -3630,3 +3630,7 @@
   id: substra
   name: Substra
   url: https://github.com/Substra
+- description: Centralised access to EMBL-EBI’s spatial transcriptomics resources. Discover where data lives, how to access it, and how to submit new studies.
+  id: spatial-transcriptomics-portal
+  name: EMBL-EBI Spatial Transcriptomics Portal
+  url: https://www.ebi.ac.uk/spatial-transcriptomics/
