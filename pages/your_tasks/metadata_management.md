@@ -1,6 +1,6 @@
 ---
 title: Documentation and metadata
-contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft, Elin Kronander, Marina Popleteeva, Gil Poiares-Oliveira]
+contributors: [Flora D'Anna, Marco Carraro, Yvonne Kallberg, Markus Englund, Marco Roos, Korbinian Bösl, Rob Hooft, Elin Kronander, Marina Popleteeva, Gil Poiares-Oliveira, Danielle Welter]
 editors: [Flora D'Anna, Marina Popleteeva, Nazeefa Fatima, Niclas Jareborg]
 description: How to document and describe your data.
 page_id: metadata
@@ -101,14 +101,14 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 ### Description
 
-There are multiple standards for different types of data, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "edam" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to specific data types (e.g. {% tool "miabis" %} for biosamples or {% tool "miame" %} for microarray experiments). Therefore, *how to find standard metadata*, and *how to find an appropriate repository for depositing your data* are related questions.
+A wide range of standards for describing and documenting data exist, ranging from generic dataset descriptions (e.g. {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, {% tool "schema-org" %} and {% tool "bioschemas" %}) to datatype-, community- or repository-specific ones such as {% tool "miabis" %} for biosamples or {% tool "miame" %} for microarray experiments. Therefore, *how to find metadata standards*, and *how to find an appropriate repository for depositing your data* are related questions.
 
 
 ### Considerations
 
-* Decide at the beginning of the project what the most appropriate deposition databases for your data types, e.g. from {% tool "elixir-deposition-databases-for-biomolecular-data" %}.
-  * Note that you can use several repositories if you have different data types.
-  * Distinguish between generic (e.g. Zenodo) and data type (technique) specific repositories (e.g. EBI repositories).
+* Decide at the beginning of the project what the most appropriate deposition databases for your datatypes, e.g. from {% tool "elixir-deposition-databases-for-biomolecular-data" %}.
+  * Note that you can use several repositories if you have different datatypes.
+  * Distinguish between generic (e.g. {% tool "zenodo" %}) and datatype/technique specific repositories (e.g. EBI repositories).
 
 
 ### Solutions
@@ -116,9 +116,9 @@ There are multiple standards for different types of data, ranging from generic d
 * If you have a repository in mind:
   * Go to the repository website and check the “help”, "guide" or “how to submit” tab to find information about required metadata.
   * On the repository website, go through the submission process (try to submit some dummy data) to identify metadata requirements. For instance, if you consider publishing your transcriptomic data in {% tool "arrayexpress" %}, you can make your metadata spreadsheet by using {% tool "annotare" %}, at the beginning of the project.
-  * Be aware that data type specific repositories usually have check-lists for metadata. For example, the {% tool "european-nucleotide-archive" %} provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
+  * Be aware that datatype-specific repositories usually have check-lists for metadata. For example, the {% tool "european-nucleotide-archive" %} provides [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists) that can also be downloaded as a spreadsheet after log in.
 
-* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {% tool "miame" %}, {% tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, at the following resources:
+* If you do not know yet what repository you will use, look for what is the recommended minimal information (i.e. “Minimum Information about your topic”, e.g. {% tool "miame" %}, {% tool "minseqe" %}, or {% tool "miappe" %}) required for your type of data in your community, or other metadata, in the following resources:
   * {% tool "min-info-standards" %}
   * {% tool "rda-standards" %}
   * {% tool "fairsharing" %} at “Standards” and “Collections”
@@ -129,7 +129,7 @@ There are multiple standards for different types of data, ranging from generic d
 
 ### Description
 
-Vocabularies and ontologies are describe concepts and relationships within a knowledge domain. Used wisely, they can enable both humans and computers to understand your data. There is no clear-cut division between the terms "vocabulary" and "ontology", but the latter is more commonly used when dealing with complex (and perhaps more formal) collections of terms and relationships. Ontologies typically provide an identifier.
+Vocabularies and ontologies provide standardised descriptions of concepts and relationships between them within a knowledge domain. Used wisely, they can enable both humans and computers to understand your data. There is no clear-cut division between the terms "vocabulary" and "ontology", but the latter is more commonly used when dealing with complex and formal collections of terms and relationships. Ontologies typically provide a unique and persistent identifier for each term.
 
 There are many vocabularies and ontologies available on the web. Finding a suitable one can be difficult and time-consuming.
 
@@ -137,33 +137,43 @@ There are many vocabularies and ontologies available on the web. Finding a suita
 ### Considerations
 
 * Check whether you really need to find a suitable ontology or vocabulary yourself. Perhaps the repository where you are about to submit your data have recommendations? Or the journal where you plan to publish your results?
-* Understand your goal with sharing data. Which formal requirements (by e.g. by funder or publisher) need to be fulfilled? Which parts of your data would benefit the most from adopting ontologies?
+* Understand your goal with sharing data. Which formal requirements (e.g. by funder or publisher) need to be fulfilled? Which parts of your data would benefit the most from adopting ontologies?
 * Learn the basics about ontologies. This will be helpful when you search for terms in ontologies and want to understand how terms are related to one another.
-* Accept that one ontology may not be sufficient to describe your data. It is very common that you have to combine terms from more than one ontology.
-* Accept terms that are good enough. Sometimes you you cannot find a term that perfectly match what you want to express. Choosing the best available term is often better than not choosing a term at all. Note that the same concept may also be present in multiple ontologies.
+* Accept that one ontology may not be sufficient to describe your data. It is very common that you have to combine terms from more than one ontology. Be mindful not to use too many different ontologies for a variable though or it may actually complicate long-term annotation maintenance.
+* Accept terms that are good enough. Sometimes you cannot find a term that perfectly matches what you want to express. Choosing the best available term is often better than not choosing a term at all. Note that the same concept may also be present in multiple ontologies. If you do not need a missing term at once, consider submitting a new term request to a suitable ontology. Depending on an ontology's development support, new terms become available a few weeks to a few months after they are requested.
 
 
 ### Solutions
 
 * Define a list of terms that you want to find ontologies for. Include in the list also any alternative term names that you are aware of.
-* Search for your listed terms on dedicated web portals. These are a few:
-  * {% tool "linked-open-vocabularies" %}
+* Search for your listed terms on dedicated web portals such as:
   * {% tool "ontology-lookup-service" %}
-  * {% tool "ontobee" %}
   * {% tool "bioportal" %}
   * {% tool "agroportal" %}
+  * {% tool "ontobee" %}
   * {% tool "the-open-biological-and-biomedical-ontology-foundry" %}
+  * {% tool "linked-open-vocabularies" %}
+* Some commonly used ontologies in biomedical metadata include:
   * {% tool "evidence-and-conclusion-ontology" %}
+  * {% tool "edam" %}
+  * {% tool "data-use-ontology" %}
+  * {% tool "bioassay-ontology" %}
+  * {% tool "informed-consent-ontology" %}
+  * {% tool "gene-ontology" %}
+  * {% tool "hpo" %}
+
+
+
 
 ## What do you write in a README file?
 
 ### Description
 
-A README file is typically a text file written in text (.txt) or markdown (.md) format. The content could either be on study-level or data-level. This is a file for a potential user of your data, including yourself, it is not meant to be machine-actionable.
+A README file is typically a text file written in text (.txt) or markdown (.md) format. The content could either be on study-level or data-level. This is a file for a potential user of your data, including yourself, and it is not meant to be machine-actionable.
 
 ### Considerations
 
-* README file can be updated with time to include information which was not available before. It is a good practice to create a first version when starting a new project.
+* README file can be updated over time to include information which was not available before. It is a good practice to create a first version when starting a new project.
 * For complex projects, consider to write README files on several levels, not only in the top level of the project.
 
 ### Solutions 

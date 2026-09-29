@@ -1253,7 +1253,7 @@
 - description: Web portal for finding ontologies
   id: linked-open-vocabularies
   name: Linked Open Vocabularies (LOV)
-  url: https://lov.linkeddata.es/dataset/lov/
+  url: https://lov.linkeddata.es/dataset
 - description: A database of prokaryote specific biodiversity information
   id: list-of-prokaryotic-names-with-standing-in-nomenclature
   name: List of Prokaryotic names with Standing in Nomenclature (LPSN)
