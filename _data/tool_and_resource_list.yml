@@ -2858,7 +2858,7 @@
   registry:
     fairsharing: f7ec51
   url: https://pathoplexus.org/
-- description: The International Committee on Taxonomy of Viruses (ICTV) maintains the official global taxonomy and nomenclature of viruses. Its website provides interfaces for searching and browsing current and historical taxonomy, viewing taxon histories and downloading the current taxonomy release.
+- description: The International Committee on Taxonomy of Viruses (ICTV) maintains the official global taxonomy and nomenclature of viruses and publishes a new main taxonomy release yearly. Its website provides interfaces for searching and browsing current and historical taxonomy, viewing taxon histories and downloading the current taxonomy release.
   id: ictv
   name: ICTV
   registry:
@@ -3568,7 +3568,7 @@
   id: ena-reads-assembly-submission-workflow
   name: ENA Reads and Assembly Submission Workflow
   url: https://workflowhub.eu/workflows/2008
-- description: The ICTV Ontology is a browsable, machine-readable representation of current and historical ICTV taxonomy. It is served through the Ontology Lookup Service, whose API enables programmatic access. The ICTV Ontology project also provides dedicated helper libraries that simplify OLS API access for ICTV-specific tasks, including lineage retrieval, change tracking and resolution of historical names and identifiers to the latest taxon when a current counterpart is defined.
+- description: The ICTV Ontology is a browsable, machine-readable representation of current and historical ICTV taxonomy. Its main purpose is programmatic access either through ICTV-specific Ontology Lookup Service API endpoints or through JavaScript, Python and PHP helper libraries. The libraries simplify taxon searches, lineage retrieval, historical taxon resolution and use of the ICTV-NCBI Taxonomy mapping.
   id: ictv-ontology
   name: ICTV Ontology
   registry:
