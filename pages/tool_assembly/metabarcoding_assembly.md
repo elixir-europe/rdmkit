@@ -41,7 +41,7 @@ All the tools presented in this tool assembly are free, publicly available and o
 
 This tool assembly provides guidance and tool recommendations for each stage of the metabarcoding data life cycle: [Planning](planning), [Collecting](collecting), [Processing](processing) and [Analysing](analysing), [Preserving](preserving), [Sharing](sharing) and [Reusing](reusing). Each stage is described below Figure 1.
 
-{% include image.html file="metabarcoding_assembly.png" caption="Figure 1. The metabarcoding tool assembly: tools and resources for data and metadata at each stage of the data life cycle." alt="Metabarcoding tool assembly showing the tools used at the Plan, Collect, Process and Analyse, Preserve, Share and Reuse stages, with MADBOT managing metadata across all stages" %}
+{% include image.html file="metabarcoding_assembly.svg" caption="Figure 1. The metabarcoding tool assembly: tools and resources for data and metadata at each stage of the data life cycle." alt="Metabarcoding tool assembly showing the tools used at the Plan, Collect, Process and Analyse, Preserve, Share and Reuse stages, with MADBOT managing metadata across all stages" %}
 
 ### Data management planning
 
@@ -114,9 +114,9 @@ All genomic data produced should be [submitted to ENA](https://www.ebi.ac.uk/ena
 In parallel with ENA submission, occurrence data (taxonomic tables) should be submitted to biodiversity databases:
 
 * {% tool "obis" %} for marine occurrence data
-* GBIF for all biodiversity occurrence data
+* {% tool "gbif" %} for all biodiversity occurrence data
 
-Both OBIS and GBIF require data formatted as DwC-A. The GBIF MDT is a web application that reshapes tabular metabarcoding data (similar to the FAIRe format) and publishes it to both GBIF and OBIS. The R script {% tool "faire2mdt" %} converts FAIRe-formatted templates to the MDT input format, bridging the two standards.
+Both OBIS and GBIF require data formatted as DwC-A. The {% tool "gbif-metabarcoding-data-toolkit" %} is a web application that reshapes tabular metabarcoding data (similar to the FAIRe format) and publishes it to both GBIF and OBIS. The R script {% tool "faire2mdt" %} converts FAIRe-formatted templates to the MDT input format, bridging the two standards.
 
 Data components that cannot be accommodated in the nucleotide or biodiversity databases mentioned above should be archived in generalist open data repositories such as {% tool "zenodo" %}, {% tool "dryad" %} or {% tool "figshare" %}. Do not use generalist repositories, or supplementary materials in journals, as a replacement for the domain-specific databases, because they offer less discoverability and accessibility. Data archived this way must be assigned DOIs and referenced in the `projectMetadata` component of the study.
 
