@@ -22,7 +22,7 @@ Metabolomics is the large-scale study of metabolites, the small molecules that c
 
 That closeness to phenotype is also what makes metabolomics data hard to manage. Unlike a genome, a metabolome has no reference. There is no template you can align against, no finite list of entities to match, and no equivalent of a reference proteome from which the measurable set can be derived.
 
-What you can detect depends on the extraction protocol, the analytical platform (for example, nuclear magnetic resonance or chromatography coupled with mass spectrometry) and the associated acquisition parameters, so two laboratories studying the same samples can legitimately report different sets of metabolites. This has four consequences for research data management:
+What you can detect depends on the extraction protocol, the analytical platform, such as nuclear magnetic resonance (NMR) spectroscopy or chromatography coupled with mass spectrometry, and the associated acquisition parameters, so two laboratories studying the same samples can legitimately report different sets of metabolites. This has four consequences for research data management:
 
 - Measurements are only comparable if quality control is designed into the acquisition. Signal drift and batch effects are the norm, not the exception, and they cannot be corrected afterwards unless the run structure was recorded.
 - The experimental context is part of the result. Sample preparation, separation method, instrument and acquisition parameters all shape what is measured, so they have to be captured as metadata rather than left in a laboratory notebook.
