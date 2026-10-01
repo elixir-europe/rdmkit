@@ -6,7 +6,7 @@ description: The Marine Metagenomics tool assembly aims to provide a comprehensi
 page_id: marine_assembly
 supported_by: [ELIXIR Europe, "NO"]
 related_pages:
-  Your_tasks: [dmp, existing_data, data_organisation, storage, data_publication, data_transfer, metadata, data_analysis]
+  Your_tasks: [dmp, existing_data, data_organisation, storage, data_publication, transfer, metadata, data_analysis]
   Your_domain: [marine]
   Tool_assembly: [metabarcoding_assembly]
 training:

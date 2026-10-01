@@ -39,13 +39,13 @@ jobs:
 
       - name: Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v2.1.0
+        uses: lycheeverse/lychee-action@v2.9.0
         with:
             # Check all markdown, html and reStructuredText files in repo (default)
             args: --fallback-extensions html --exclude '^https://github\.com' --root-dir "${{ github.workspace }}/_site" _site/ --exclude-path all_tools_and_resources.html --exclude-path all_training_resources.html 
             # Don't fail action on broken links
             fail: false
-            lycheeVersion: v0.21.0
+            lycheeVersion: v0.24.2
             
       - name: Add page URL
         run: |

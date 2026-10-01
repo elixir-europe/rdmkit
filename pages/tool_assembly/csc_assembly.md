@@ -6,7 +6,7 @@ description: The Center of Science (CSC) provides high-quality ICT expert servic
 page_id: csc
 supported_by: [FI, CSC, ELIXIR Europe]
 related_pages: 
-  Your_tasks: [sensitive, dmp, data_security, gdpr_compliance, storage, data_publication, data_transfer, data_analysis]
+  Your_tasks: [sensitive, dmp, data_security, gdpr_compliance, storage, data_publication, transfer, data_analysis]
   Your_domain: [human_data]
 training:
   - name: CSC Search query in TeSS
