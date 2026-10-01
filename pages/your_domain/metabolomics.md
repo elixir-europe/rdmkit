@@ -107,7 +107,7 @@ A metabolomics study may produce several linked data products:
 - Raw instrument files, including vendor-specific files and, where possible, converted open-format files.
 - Processed spectra or chromatograms.
 - An NMR intensity matrix, often containing one value per spectral bucket and sample. Bucket width, spectral region, alignment, exclusion regions and normalisation method should be recorded because they influence the resulting variables.
-- An MS feature matrix, commonly containing one value per feature and sample. Features may be described by retention time, \(m/z\), polarity, ionisation mode and intensity; depending on the workflow, several ion features may be grouped as a single compound.
+- An MS feature matrix, commonly containing one value per feature and sample. Features may be described by retention time, *m/z*, polarity, ionisation mode and intensity; depending on the workflow, several ion features may be grouped as a single compound.
 - Metabolite annotations or identifications, including database matches, spectral evidence, annotation level, confidence and associated identifiers.
 - Targeted quantitative results, including units, calibration model, internal standards, limits of detection or quantification and validation information.
 
