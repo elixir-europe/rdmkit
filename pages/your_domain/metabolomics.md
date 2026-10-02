@@ -59,7 +59,7 @@ The remedy is well established {% cite broadhurst2018Guidelines %}: randomise th
 ### Solutions
 
 - Design the run before you acquire anything. Randomise sample order, and interleave pooled quality control samples (an aliquoted mixture of all study samples) at regular intervals so that drift can be modelled and corrected.
-- Encode the sample role in your metadata explicitly. In the {% tool "isa-tools" %} model, a pooled quality control sample, a blank and a study sample are different sample types, and saying so is what makes the distinction machine-readable.
+- Encode the sample role in your metadata explicitly. In the {% tool "isa-tools" %} model, biological replicates, technical replicates, pooled quality control samples, blanks, reference materials, calibration samples and a study samples are different sample types, and saying so is what makes the distinction machine-readable.
 - Report quality metrics in {% tool "mzqc" %}, the Proteomics Standards Initiative format for exchanging quality control information from mass spectrometry runs. It is deliberately multi-omics and applies directly to metabolomics.
 - Use a reference material where one exists, so that your batches can be compared with other laboratories' rather than only with each other.
 - Correct for drift and batch effects during processing, and record what you did. The correction is part of the provenance of the final data, not a private preprocessing detail. See [data provenance](data_provenance).
@@ -99,7 +99,7 @@ At a minimum, record:
 - Convert raw data to an open format as soon as it comes off the instrument. {% tool "mzml" %} is the open standard for raw mass spectra, and {% tool "msconvert" %} converts the major vendor formats to it. For NMR, use {% tool "nmrml" %}. For imaging, use {% tool "imzml" %}.
 - Preserve the relationship between raw files, intermediate results, feature tables, annotations and final statistical results.
 - Keep the vendor raw files. Conversion is lossy in practice, tools improve, and repositories generally accept both.
-- Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and, unusually, is explicitly designed to cover lipidomics too.
+- Use formats such as ISA-Tab or ISA-JSON to link analyses to raw and derived files, and {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %} to record source files, features, evidence and both identification and quantification end results, as well as platforms that ensure traceability and reproductibility, such as {% tool "workflow4metabolomics" %} or usegalaxy.eu, to document the history of analyses carried out.
 
 ### Data products
 
