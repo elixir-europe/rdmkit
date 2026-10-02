@@ -18,18 +18,20 @@ training:
 
 ## Introduction
 
-Metabolomics is the large-scale study of metabolites, the small molecules present in cells, biofluids, tissues or whole organisms. Because metabolite levels respond quickly to genetic and environmental change, a metabolome is a snapshot of what a biological system is actually doing at a given moment, rather than what it is capable of doing.
+Metabolomics is the large-scale study of metabolites, the small molecules that constitute the metabolome of cells, organelles, tissues, biofluids and whole organisms. This chemical space includes endogenous metabolites (such as amino acids, organic acids, lipids, sugars, vitamins and cofactors) and exogenous compounds, including drugs, environmental contaminants, food additives, toxins and other xenobiotics. Metabolomics can therefore be used to investigate metabolic responses to genetic, physiological, nutritional, environmental or pharmacological perturbations. Because metabolite levels respond quickly to such changes, a metabolome provides a snapshot of what a biological system is actually doing at a given moment, rather than what it is capable of doing.
 
 That closeness to phenotype is also what makes metabolomics data hard to manage. Unlike a genome, a metabolome has no reference. There is no template you can align against, no finite list of entities to match, and no equivalent of a reference proteome from which the measurable set can be derived.
 
-What you can detect depends on the extraction protocol, the analytical platform, the chromatography and the instrument settings, so two laboratories studying the same samples can legitimately report different metabolites. This has four consequences for research data management:
+What you can detect depends on the extraction protocol, the analytical platform, such as nuclear magnetic resonance (NMR) spectroscopy or chromatography coupled with mass spectrometry, and the associated acquisition parameters, so two laboratories studying the same samples can legitimately report different sets of metabolites. This has four consequences for research data management:
 
 - Measurements are only comparable if quality control is designed into the acquisition. Signal drift and batch effects are the norm, not the exception, and they cannot be corrected afterwards unless the run structure was recorded.
 - The experimental context is part of the result. Sample preparation, separation method, instrument and acquisition parameters all shape what is measured, so they have to be captured as metadata rather than left in a laboratory notebook.
 - Metabolite identification is uncertain, and that uncertainty is itself data. An annotation is only reusable if you also report how confident it is and what evidence supports it.
-- Data is heterogeneous and bulky. Nuclear magnetic resonance (NMR), liquid chromatography-mass spectrometry (LC-MS), gas chromatography-mass spectrometry (GC-MS) and direct infusion mass spectrometry all produce different raw data, most of it in proprietary vendor formats.
+- Data is heterogeneous and bulky. NMR, liquid chromatography-mass spectrometry (LC-MS), gas chromatography-mass spectrometry (GC-MS), ion chromatography-mass spectrometry (IC-MS) and direct infusion mass spectrometry all produce raw data with different structures, most of it in proprietary vendor formats. NMR data is often reduced to spectra or bucketed intensity matrices, whereas chromatography-mass spectrometry data is commonly represented as chromatographic features defined by retention time, mass-to-charge ratio (*m/z*) and intensity.
 
-Two broad experimental strategies sit behind all of this. Untargeted metabolomics tries to measure as much of the metabolome as possible and works out afterwards what was measured, so it produces large raw datasets, many unidentified features and a heavy dependence on annotation confidence. Targeted metabolomics measures a defined panel of known compounds against calibration standards, so it can report absolute quantities and identification is largely settled in advance, but the calibration curves, internal standards and validation parameters become metadata that has to be reported. Most of this page applies to both, but state which one you did, because a reuser cannot reliably infer it from the data.
+Two broad experimental strategies sit behind all of this. Untargeted metabolomics tries to measure as much of the metabolome as possible and works out afterwards what was measured, so it produces large raw datasets, many unidentified features (a detected feature is not necessarily an identified metabolite) and a heavy dependence on annotation confidence. Targeted metabolomics measures a defined panel of known compounds against calibration standards, so it can report absolute quantities and identification is largely settled in advance, but the calibration curves, internal standards and validation parameters become metadata that has to be reported. Most of the guidance on this page applies to both approaches, but you should explicitly state whether your study is untargeted or targeted, because a data reuser cannot reliably infer this from the deposited data alone.
+
+A metabolomics study is a multi-step process spanning experimental design, sampling, extraction, preparation, instrumental acquisition, computational processing and biological interpretation. Reproducibility therefore depends on preserving metadata and provenance across the complete workflow, not only on depositing the final feature table.
 
 This page covers the core data management practices for metabolomics and, in the final section, for lipidomics. Several neighbouring areas are only touched on briefly: mass spectrometry imaging and spatial metabolomics, where {% tool "imzml" %} and {% tool "metaspace" %} are the main entry points; exposomics, which shares its infrastructure with [toxicology data](toxicology_data); and fluxomics and volatilomics, which do not yet have mature community repositories or reporting standards.
 
@@ -51,6 +53,7 @@ The remedy is well established {% cite broadhurst2018Guidelines %}: randomise th
 - Is the batch structure and the injection order recorded, or only the sample list?
 - Did you include internal standards, and are they described well enough for someone else to use them for normalisation?
 - Are you reporting quality metrics alongside the data, or expecting reusers to recompute them?
+- Can a reuser determine whether each reported variable is a raw signal, an extracted feature, a grouped ion, an annotated metabolite or a quantitatively validated compound?
 - For a clinical or multi-site study, did you use a common reference material so that batches can be aligned across sites?
 
 ### Solutions
@@ -69,6 +72,15 @@ Metabolomics data without metadata is close to worthless. A peak list on its own
 
 Fortunately, you do not have to invent a way to record this. The {% tool "metabolomics-standards-initiative" %}, the {% tool "lipidomics-standards-initiative" %} and the {% tool "proteomics-standards-initiative" %} between them provide reporting checklists, controlled vocabularies and open file formats that cover the whole path from raw spectra to reported results. Most of the formats here are governed by the Proteomics Standards Initiative and are shared with proteomics, so adopting them buys you interoperability across both domains. See also the general [metadata management](metadata_management) page.
 
+At a minimum, record:
+
+- The biological source, including species, strain or variety, genotype, phenotype, developmental stage or age, and relevant sex or clinical characteristics.
+- The sampled material, such as whole organism, organ, tissue, cell line, biofluid or extract.
+- Sampling conditions, storage, freeze–thaw history, extraction protocol and sample preparation.
+- The experimental design, including treatment, diet, genotype, time point, longitudinal structure, randomisation and biological or technical replicates.
+- The analytical platform, chromatographic or spectroscopic method, column, gradient, ionisation mode, polarity, scan settings and acquisition parameters.
+- The processing steps used to produce each derived data product, including peak picking, alignment, deconvolution, annotation, normalisation, filtering and batch correction.
+
 ### Considerations
 
 - Which analytical platform did you use, and does an open format exist for it?
@@ -80,11 +92,24 @@ Fortunately, you do not have to invent a way to record this. The {% tool "metabo
 
 - Report the experiment against a community checklist. The {% tool "cimr" %} checklist from the Metabolomics Standards Initiative sets out the minimum you should describe. For studies in a regulatory toxicology context, the Organisation for Economic Co-operation and Development (OECD) omics reporting framework applies instead.
 - Read the {% tool "lipidomics-minimal-reporting-checklist" %} even if your study has nothing to do with lipids {% cite mcdonald2022Introducing %}. Most of its items describe pre-analytics, sample handling, the analytical method, the mass spectrometry setup, method validation and quality control, and only become lipid-specific for extraction, ionisation and lipid quantification. On those shared acquisition details it is considerably more granular than the general metabolomics checklists, so it is a useful companion to them.
+- Distinguish biological replicates, technical replicates, pooled quality-control samples, blanks, reference materials and calibration samples explicitly.
 - Structure your study metadata with {% tool "isa-tools" %}. The Investigation-Study-Assay model separates the experimental design from the individual assays, and it is what {% tool "metabolights" %} expects on submission, so using it early saves work later.
-- Convert raw data to an open format as soon as it comes off the instrument. {% tool "mzml" %} is the open standard for raw mass spectra, and {% tool "msconvert" %} converts the major vendor formats to it. For NMR, use {% tool "nmrml" %}. For imaging, use {% tool "imzml" %}.
-- Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and, unusually, is explicitly designed to cover lipidomics too.
 - Annotate with controlled vocabularies rather than free text. The {% tool "msio" %} covers metabolomics study design, and the {% tool "psi-ms" %} covers instruments and acquisition. Use {% tool "chebi" %} for chemical entities.
+- Convert raw data to an open format as soon as it comes off the instrument. {% tool "mzml" %} is the open standard for raw mass spectra, and {% tool "msconvert" %} converts the major vendor formats to it. For NMR, use {% tool "nmrml" %}. For imaging, use {% tool "imzml" %}.
+- Preserve the relationship between raw files, intermediate results, feature tables, annotations and final statistical results.
 - Keep the vendor raw files. Conversion is lossy in practice, tools improve, and repositories generally accept both.
+- Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and, unusually, is explicitly designed to cover lipidomics too.
+
+### Data products
+
+A metabolomics study may produce several linked data products:
+
+- Raw instrument files, including vendor-specific files and, where possible, converted open-format files.
+- Processed spectra or chromatograms.
+- An NMR intensity matrix, often containing one value per spectral bucket and sample. Bucket width, spectral region, alignment, exclusion regions and normalisation method should be recorded because they influence the resulting variables.
+- An MS feature matrix, commonly containing one value per feature and sample. Features may be described by retention time, *m/z*, polarity, ionisation mode and intensity; depending on the workflow, several ion features may be grouped as a single compound.
+- Metabolite annotations or identifications, including database matches, spectral evidence, annotation level, confidence and associated identifiers.
+- Targeted quantitative results, including units, calibration model, internal standards, limits of detection or quantification and validation information.
 
 ## Storing and organising raw data
 
