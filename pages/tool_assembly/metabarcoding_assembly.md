@@ -45,7 +45,7 @@ This tool assembly provides guidance and tool recommendations for each stage of 
 
 ### Data management planning
 
-As described on the [Biodiversity](biodiversity) domain page, a Data Management Plan (DMP) centralises all the information about a study. You can write it using the {% tool "data-stewardship-wizard" %} or any other platform that follows the Research Data Alliance (RDA) DMP Common Standard, such as {% tool "dmproadmap" %} (for example, [DMP OPIDoR](https://dmp.opidor.fr)). An ELIXIR instance of {% tool "data-stewardship-wizard" %} is available for researchers [here](https://researchers.dsw.elixir-europe.org/wizard/). The DMP should follow the RDA structure and ideally be shared publicly alongside the dataset upon publication.
+As described on the [Biodiversity](biodiversity) domain page, a Data Management Plan (DMP) centralises all the information about a study. You can write it using the {% tool "data-stewardship-wizard" %} or any other platform that follows the Research Data Alliance (RDA) DMP Common Standard, such as {% tool "dmproadmap" %} (for example DMP OPIDoR). An ELIXIR instance of {% tool "data-stewardship-wizard" %} is available for researchers [here](https://researchers.dsw.elixir-europe.org/wizard/). The DMP should follow the RDA structure and ideally be shared publicly alongside the dataset upon publication.
 For more information, see the RDMkit page on [data management planning](planning).
 
 ### Collecting data and metadata
