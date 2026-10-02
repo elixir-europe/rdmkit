@@ -1,7 +1,7 @@
 ---
 title: Metabolomics
 description: data management solutions for metabolomics and lipidomics data.
-contributors: [Nils Hoffmann]
+contributors: [Nils Hoffmann, Franck Giacomoni, Franziska Nicolaus]
 editors: []
 page_id: metabolomics
 related_pages:
@@ -79,10 +79,10 @@ Fortunately, you do not have to invent a way to record this. The {% tool "metabo
 ### Solutions
 
 - Report the experiment against a community checklist. The {% tool "cimr" %} checklist from the Metabolomics Standards Initiative sets out the minimum you should describe. For studies in a regulatory toxicology context, the Organisation for Economic Co-operation and Development (OECD) omics reporting framework applies instead.
-- Read the {% tool "lipidomics-minimal-reporting-checklist" %} even if your study has nothing to do with lipids {% cite mcdonald2022Introducing %}. Most of its items describe pre-analytics, sample handling, the analytical method, the mass spectrometry setup, method validation and quality control, and only become lipid-specific for extraction, ionisation and lipid quantification. On those shared acquisition details it is considerably more granular than the general metabolomics checklists, so it is a useful companion to them.
+- Read the {% tool "lipidomics-minimal-reporting-checklist" %} even if your study is mainly concerned with metabolites, rather than lipids {% cite mcdonald2022Introducing %}. Most of its items describe pre-analytics, sample handling, the analytical method, the mass spectrometry setup, method validation and quality control, and only become lipid-specific for extraction, ionisation and lipid quantification. On those shared acquisition details it is considerably more granular than the general metabolomics checklists, so it is a useful companion to them.
 - Structure your study metadata with {% tool "isa-tools" %}. The Investigation-Study-Assay model separates the experimental design from the individual assays, and it is what {% tool "metabolights" %} expects on submission, so using it early saves work later.
 - Convert raw data to an open format as soon as it comes off the instrument. {% tool "mzml" %} is the open standard for raw mass spectra, and {% tool "msconvert" %} converts the major vendor formats to it. For NMR, use {% tool "nmrml" %}. For imaging, use {% tool "imzml" %}.
-- Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and, unusually, is explicitly designed to cover lipidomics too.
+- Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and can be used for reporting of small molecule results, like metabolites and lipids, from mass spectrometry experiments.
 - Annotate with controlled vocabularies rather than free text. The {% tool "msio" %} covers metabolomics study design, and the {% tool "psi-ms" %} covers instruments and acquisition. Use {% tool "chebi" %} for chemical entities.
 - Keep the vendor raw files. Conversion is lossy in practice, tools improve, and repositories generally accept both.
 
@@ -188,7 +188,7 @@ Deposit the raw data, not just the processed table. Raw spectra can be reprocess
 
 Lipidomics is the branch of metabolomics concerned with lipids. It shares its repositories, its file formats and most of its tooling with the rest of metabolomics, which is why it is covered here rather than on a page of its own: you deposit to the same places, in the same formats, and process with many of the same tools.
 
-What is genuinely different is naming. A lipid name is not a stable identifier but a statement about **how much structural detail the measurement actually resolved** {% cite liebisch2020Update %}. `PC 34:1` says only that a phosphatidylcholine with 34 carbons and one double bond was detected. `PC 16:0_18:1` additionally names the two fatty acyl chains but does not say which is at which position. `PC 16:0/18:1` assigns those positions, and `PC 16:0/18:1(9Z)` further locates the double bond and its geometry. These are four different levels of structural detail, and reporting at a level higher than your assay supports is a data integrity problem, not a stylistic one.
+What is genuinely different is naming. A lipid name is not a stable identifier but a statement about **how much structural detail the measurement actually resolved** {% cite liebisch2020Update %}. `PC 34:1` says only that a phosphatidylcholine with 34 carbons and one double bond was detected. `PC 16:0_18:1` additionally names the two fatty acyl chains but does not say which is at which position. `PC 16:0/18:1` assigns those positions, and `PC 16:0/18:1(9Z)` further locates the double bond and its geometry. These are four different levels of structural detail, while more exist, and reporting at a level higher than your assay supports is a data integrity problem, not a stylistic one.
 
 ### Considerations
 
