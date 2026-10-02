@@ -476,14 +476,6 @@
   id: cernbox
   name: CERNBox
   url: https://cernbox.web.cern.ch/cernbox/
-- description: Dictionary of molecular entities focused on 'small' chemical compounds
-  id: chebi
-  name: ChEBI
-  registry:
-    biotools: chebi
-    fairsharing: 62qk8w
-    tess: ChEBI
-  url: https://www.ebi.ac.uk/chebi/
 - description: Database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties and abstracted bioactivities.
   id: chembl
   name: ChEMBL
@@ -1148,13 +1140,13 @@
   id: international-compilation-of-human-research-standards
   name: International Compilation of Human Research Standards
   url: https://www.hhs.gov/ohrp/sites/default/files/2020-international-compilation-of-human-research-standards.pdf
-- description: A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI and NCBI
+- description: The International Nucleotide Sequence Database Collaboration (INSDC) is a long-standing foundational initiative that operates between DDBJ, EMBL-EBI and NCBI. INSDC covers the spectrum of data from raw reads, through alignments and assemblies to functional annotation, enriched with contextual information relating to samples and experimental configurations.
   id: international-nucleotide-sequence-database-collaboration
   name: International Nucleotide Sequence Database Collaboration (INSDC)
   registry:
     biotools: insdc
     tess: International Nucleotide Sequence Database Collaboration (INSDC)
-  url: http://www.insdc.org
+  url: https://www.insdc.org/
 - description: Data standards and formats for reporting flow cytometry data
   id: international-society-for-the-advancement-of-cytometry
   name: International Society for the Advancement of Cytometry (ISAC)
@@ -2158,12 +2150,6 @@
   id: ern-registries-generic-informed-consent-forms
   name: ERN Registries Generic Informed Consent Forms
   url: https://www.ejprarediseases.org/ern-registries-generic-icf/
-- description: The International Nucleotide Sequence Database Collaboration (INSDC) is a long-standing foundational initiative that operates between DDBJ, EMBL-EBI and NCBI. INSDC covers the spectrum of data raw reads, through alignments and assemblies to functional annotation, enriched with contextual information relating to samples and experimental configurations.
-  id: international-nucleotide-sequence-database-collaboration
-  name: International Nucleotide Sequence Database Collaboration
-  registry:
-    tess: International Nucleotide Sequence Database Collaboration
-  url: http://www.insdc.org/
 - description: A number of ECPGR Central Crop Databases have been established through the initiative of individual institutes and of ECPGR Working Groups. The databases hold passport data and, to varying degrees, characterization and primary evaluation data of the major collections of the respective crops in Europe.
   id: ecpgr-central-crop-databases
   name: ECPGR Central Crop Databases and other Crop Databases
@@ -2794,7 +2780,7 @@
     biotools: pato
     fairsharing: ezwdhz
   url: https://github.com/pato-ontology/pato/
-- description: ChEBI) is a dictionary describing small chemical compounds including distinct synthetic or natural atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, and conformers.
+- description: ChEBI is a dictionary describing small chemical compounds including distinct synthetic or natural atoms, molecules, ions, ion pairs, radicals, radical ions, complexes, and conformers.
   id: chebi
   name: Chemical Entities of Biological Interest (ChEBI)
   registry:
@@ -3584,6 +3570,65 @@
   id: spatial-transcriptomics-portal
   name: EMBL-EBI Spatial Transcriptomics Portal
   url: https://www.ebi.ac.uk/spatial-transcriptomics/
+- description: The FAIRe metadata checklist provides terms and data formatting guidelines to make environmental DNA (eDNA) data, including metabarcoding data, Findable, Accessible, Interoperable and Reusable.
+  id: faire-checklist
+  name: FAIRe metadata checklist
+  url: https://github.com/FAIR-eDNA/FAIRe_checklist
+- description: FAIRe-fier is a web-based tool that validates eDNA data and metadata against the FAIRe checklist, checking controlled vocabularies, mandatory fields and formatting constraints.
+  id: faire-fier
+  name: FAIRe-fier
+  url: https://shiny.csiro.au/FAIRe-fier/
+- description: FAIRe-ator generates pre-formatted FAIRe data templates based on assay type, sample type and number of assays.
+  id: faire-ator
+  name: FAIRe-ator
+  url: https://github.com/FAIR-eDNA/FAIRe-ator
+- description: FAIRe2MDT is an R script that converts FAIRe-formatted eDNA data templates to the input format of the GBIF Metabarcoding Data Toolkit.
+  id: faire2mdt
+  name: FAIRe2MDT
+  url: https://github.com/FAIR-eDNA/FAIRe2MDT
+- description: The GBIF Metabarcoding Data Toolkit (MDT) is a web application that formats tabular metabarcoding data and publishes it to GBIF and OBIS.
+  id: gbif-metabarcoding-data-toolkit
+  name: GBIF Metabarcoding Data Toolkit (MDT)
+  url: https://mdt.gbif.org/
+- description: Darwin Core Archive (DwC-A) is a biodiversity informatics data standard that uses Darwin Core terms to package datasets for publishing and exchange.
+  id: darwin-core-archive
+  name: Darwin Core Archive (DwC-A)
+  url: https://ipt.gbif.org/manual/en/ipt/latest/dwca-guide
+- description: The Darwin Core Data Package (DwC-DP) is a new model for publishing richer biodiversity datasets using Darwin Core, intended to replace Darwin Core Archives in the long term.
+  id: dwc-dp
+  name: Darwin Core Data Package (DwC-DP)
+  url: https://gbif.github.io/dwc-dp/
+- description: nf-core/ampliseq is a bioinformatics analysis pipeline for amplicon sequencing, supporting denoising of any amplicon and taxonomic assignment of 16S, ITS, CO1 and 18S amplicons.
+  id: nf-core-ampliseq
+  name: nf-core/ampliseq
+  url: https://nf-co.re/ampliseq
+- description: MGnify is a resource for the analysis, archiving and browsing of microbiome data, including metagenomic, metatranscriptomic and amplicon sequencing data.
+  id: mgnify
+  name: MGnify
+  registry:
+    biotools: mgnify
+  url: https://www.ebi.ac.uk/metagenomics/
+- description: PlutoF provides online services to manage biological data, fully integrated and ready for analyses or publishing.
+  id: plutof
+  name: PlutoF
+  registry:
+    biotools: plutof
+    fairsharing: 23ac74
+  url: https://plutof.ut.ee/
+- description: SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small and large subunit ribosomal RNA (rRNA) sequences for Bacteria, Archaea and Eukarya.
+  id: silva
+  name: SILVA
+  registry:
+    biotools: silva
+    fairsharing: 5vtYGG
+  url: https://www.arb-silva.de/
+- description: The Protist Ribosomal Reference database (PR2) is a set of interconnected 18S rRNA databases that are particularly useful for metabarcoding applications.
+  id: pr2
+  name: Protist Ribosomal Reference database (PR2)
+  registry:
+    biotools: pr2
+    fairsharing: 28df52
+  url: https://pr2-database.org/
 - description: Simple tab-delimited format used for annotationg and communicating microarray data in a MIAME-compliant fashion.
   id: mage-tab
   name: MicroArray Gene Expression Tabular Format (MAGE-TAB)
