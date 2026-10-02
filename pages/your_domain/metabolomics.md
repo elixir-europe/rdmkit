@@ -31,7 +31,7 @@ What you can detect depends on the extraction protocol, the analytical platform,
 
 Two broad experimental strategies sit behind all of this. Untargeted metabolomics tries to measure as much of the metabolome as possible and works out afterwards what was measured, so it produces large raw datasets, many unidentified features and a heavy dependence on annotation confidence. Targeted metabolomics measures a defined panel of known compounds against calibration standards, so it can report absolute quantities and identification is largely settled in advance, but the calibration curves, internal standards and validation parameters become metadata that has to be reported. Most of this page applies to both, but state which one you did, because a reuser cannot reliably infer it from the data.
 
-This page covers the core data management practices for metabolomics and, in the final section, for lipidomics. Several neighbouring areas are only touched on briefly: mass spectrometry imaging and spatial metabolomics, where {% tool "imzml" %} and {% tool "metaspace" %} are the main entry points; exposomics, which shares its infrastructure with [toxicology data](toxicology_data); and fluxomics and volatilomics, which do not yet have mature community repositories or reporting standards.
+This page covers the core data management practices for metabolomics. The final section focuses on lipidomics, a branch of metabolomics dedicated to the analysis of lipids. Several neighbouring areas are only touched on briefly: mass spectrometry imaging and spatial metabolomics, where {% tool "imzml" %} and {% tool "metaspace" %} are the main entry points; exposomics, which shares its infrastructure with [toxicology data](toxicology_data); and fluxomics and volatilomics, which do not yet have mature community repositories or reporting standards.
 
 Much of what follows is shared with mass spectrometry-based [proteomics](proteomics). If you work across both, read the two pages together.
 
@@ -188,7 +188,14 @@ Deposit the raw data, not just the processed table. Raw spectra can be reprocess
 
 Lipidomics is the branch of metabolomics concerned with lipids. It shares its repositories, its file formats and most of its tooling with the rest of metabolomics, which is why it is covered here rather than on a page of its own: you deposit to the same places, in the same formats, and process with many of the same tools.
 
-What is genuinely different is naming. A lipid name is not a stable identifier but a statement about **how much structural detail the measurement actually resolved** {% cite liebisch2020Update %}. `PC 34:1` says only that a phosphatidylcholine with 34 carbons and one double bond was detected. `PC 16:0_18:1` additionally names the two fatty acyl chains but does not say which is at which position. `PC 16:0/18:1` assigns those positions, and `PC 16:0/18:1(9Z)` further locates the double bond and its geometry. These are four different levels of structural detail, while more exist, and reporting at a level higher than your assay supports is a data integrity problem, not a stylistic one.
+What is genuinely different is the naming. A lipid name is not a stable identifier but a statement about **how much structural detail the measurement actually resolved**: under the shorthand nomenclature, the name grows as more of the structure is known {% cite liebisch2020Update %}. The table below shows the most common levels for the same phosphatidylcholine, there are more, so be aware that this may look different for your data. Reporting at a level higher than your assay supports is a data integrity problem, not a stylistic one.
+
+| Level | Example | What the name tells you |
+|---|---|---|
+| Species | `PC 34:1` | Lipid class, and the total number of carbon atoms and double bonds across all chains |
+| Molecular species | `PC 16:0_18:1` | The individual fatty acyl chains, but not their positions on the glycerol backbone (`_`) |
+| sn-position | `PC 16:0/18:1` | The positions of the chains (`/`), but not where the double bond is |
+| Full structure | `PC 16:0/18:1(9Z)` | The position and geometry of each double bond |
 
 ### Considerations
 
