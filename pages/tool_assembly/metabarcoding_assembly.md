@@ -35,7 +35,7 @@ The main challenges that are specific to metabarcoding are:
 
 ## How to access the metabarcoding tool assembly?
 
-All the tools presented in this tool assembly are free, publicly available and open source. Most of them require registration.
+All the tools presented in this tool assembly are free, publicly available and mostly open source. Most of them require registration.
 
 ## What can you use the metabarcoding tool assembly for?
 
