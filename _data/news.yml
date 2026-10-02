@@ -246,3 +246,11 @@
   date: 2026-04-10
   linked_pr: 1799
   description: A new "tool assembly" page for LabID was added. [Discover the page here](labid_assembly).
+- name: "New page: Metabolomics"
+  date: 2026-09-01
+  linked_pr: TODO
+  description: A new "your domain" page about research data management for metabolomics and lipidomics was added. [Discover the page here](metabolomics).
+- name: "New page: Multi-omics"
+  date: 2026-09-01
+  linked_pr: TODO
+  description: A new "your domain" page on managing studies that combine several omics modalities was added. [Discover the page here](multiomics).

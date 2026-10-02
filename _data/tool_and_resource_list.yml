@@ -1289,6 +1289,10 @@
   registry:
     biotools: marref
   url: https://sfb.mmp2.sigma2.no/marref/
+- description: ELIXIR framework for submitting a multi-omics study to several target repositories from one ISA-JSON metadata record, through repository-specific adapters.
+  id: mars
+  name: Multi-omics Adapter for Repository Submissions (MARS)
+  url: https://elixir-europe.github.io/MARS/
 - description: Powerful search engine which uses mass spectrometry data to identify proteins from DNA, RNA and protein sequence databases as well as spectral libraries.
   id: mascot
   name: Mascot
@@ -3580,6 +3584,195 @@
     fairsharing: 81ettx
     tess: Bioconductor
   url: https://www.bioconductor.org/
+- description: Open-access repository for metabolomics studies, their raw experimental data and associated metadata, based on the ISA model.
+  id: metabolights
+  name: MetaboLights
+  registry:
+    biotools: metabolights
+    tess: MetaboLights
+  url: https://www.ebi.ac.uk/metabolights/
+- description: Public repository and analysis platform for metabolomics studies, providing study accessions, DOIs and the mwTab submission format.
+  id: metabolomics-workbench
+  name: Metabolomics Workbench
+  url: https://www.metabolomicsworkbench.org/
+- description: Repository for metabolomics data hosted by DDBJ, accepting raw data and metadata from mass spectrometry and NMR studies.
+  id: metabobank
+  name: MetaboBank
+  url: https://www.ddbj.nig.ac.jp/metabobank/index-e.html
+- description: Web platform for community sharing of raw and annotated mass spectrometry data, and for molecular networking analysis of untargeted metabolomics data.
+  id: gnps
+  name: Global Natural Products Social Molecular Networking (GNPS)
+  registry:
+    biotools: gnps
+  url: https://gnps.ucsd.edu/
+- description: Open repository and reference library of mass spectra of small molecules, maintained by an international consortium.
+  id: massbank
+  name: MassBank Europe
+  registry:
+    biotools: massbank
+  url: https://massbank.eu/MassBank/
+- description: Open repository of mass spectra for small molecules, aggregating experimental and in-silico spectral libraries.
+  id: mona
+  name: MassBank of North America (MoNA)
+  url: https://mona.fiehnlab.ucdavis.edu/
+- description: Database of small molecule metabolites found in the human body, combining chemical, clinical and biochemical data.
+  id: hmdb
+  name: Human Metabolome Database (HMDB)
+  registry:
+    biotools: hmdb
+    tess: Human Metabolome Database
+  url: https://hmdb.ca/
+- description: Database and classification system for lipids, providing lipid structures, identifiers and the community shorthand nomenclature.
+  id: lipidmaps
+  name: LIPID MAPS
+  registry:
+    tess: LIPID MAPS
+  url: https://www.lipidmaps.org/
+- description: Knowledge resource for lipids and their biology, linking lipid structures to proteins, reactions and pathways.
+  id: swisslipids
+  name: SwissLipids
+  registry:
+    biotools: swisslipids
+    tess: SwissLipids
+  url: https://www.expasy.org/resources/swisslipids
+- description: Open chemistry database of chemical structures, identifiers and bioactivity data maintained by the NIH.
+  id: pubchem
+  name: PubChem
+  registry:
+    biotools: pubchem
+    tess: PubChem
+  url: https://pubchem.ncbi.nlm.nih.gov/
+- description: Community organisation coordinating the development of reporting standards, ontologies and open formats for metabolomics.
+  id: metabolomics-standards-initiative
+  name: Metabolomics Standards Initiative (MSI)
+  url: https://github.com/MSI-Metabolomics-Standards-Initiative
+- description: Core Information for Metabolomics Reporting, the minimum information checklist for describing a metabolomics experiment.
+  id: cimr
+  name: Core Information for Metabolomics Reporting (CIMR)
+  url: https://github.com/MSI-Metabolomics-Standards-Initiative/CIMR
+- description: Ontology developed by the Metabolomics Standards Initiative to describe metabolomics studies, samples and analytical methods.
+  id: msio
+  name: Metabolomics Standards Initiative Ontology (MSIO)
+  url: https://github.com/MSI-Metabolomics-Standards-Initiative/MSIO
+- description: Tab-delimited standard format for reporting metabolomics and lipidomics identification and quantification results, developed by HUPO-PSI.
+  id: mztab-m
+  name: mzTab-M
+  url: https://hupo-psi.github.io/mzTab/
+- description: Standard format for reporting and exchanging quality control information from mass spectrometry experiments.
+  id: mzqc
+  name: mzQC
+  registry:
+    biotools: mzqc
+  url: https://www.psidev.info/mzqc
+- description: Open XML-based exchange and storage format for raw NMR spectral data and its metadata.
+  id: nmrml
+  name: nmrML
+  url: https://nmrml.org/
+- description: Open standard format for mass spectrometry imaging data, storing spectra together with their spatial coordinates.
+  id: imzml
+  name: imzML
+  registry:
+    tess: imzML
+  url: https://github.com/imzML
+- description: Multi-part identifier that unambiguously references an individual mass spectrum held in a public repository.
+  id: usi
+  name: Universal Spectrum Identifier (USI)
+  url: https://www.psidev.info/usi
+- description: Hash-based identifier for a mass spectrum, allowing spectra to be referenced and compared unambiguously.
+  id: splash
+  name: SPLASH
+  url: https://splash.fiehnlab.ucdavis.edu/
+- description: Reference nomenclature and identifier system harmonising metabolite names across metabolomics studies.
+  id: refmet
+  name: RefMet
+  url: https://www.metabolomicsworkbench.org/databases/refmet/index.php
+- description: R package for processing untargeted metabolomics data, including peak detection, alignment and correspondence.
+  id: xcms
+  name: XCMS
+  registry:
+    biotools: xcms
+    tess: XCMS
+  url: https://bioconductor.org/packages/release/bioc/html/xcms.html
+- description: Open source software for processing, visualising and annotating raw mass spectrometry data from metabolomics experiments.
+  id: mzmine
+  name: MZmine
+  registry:
+    biotools: mzmine
+  url: https://mzmine.github.io/
+- description: Open source software for untargeted metabolomics and lipidomics data processing, deconvolution and compound annotation.
+  id: ms-dial
+  name: MS-DIAL
+  url: https://systemsomicslab.github.io/compms/msdial/main.html
+- description: Web-based platform for statistical analysis, functional interpretation and pathway analysis of metabolomics data.
+  id: metaboanalyst
+  name: MetaboAnalyst
+  registry:
+    biotools: metaboanalyst
+  url: https://www.metaboanalyst.ca/
+- description: Galaxy-based virtual research environment providing curated workflows and tools for metabolomics data processing and analysis.
+  id: workflow4metabolomics
+  name: Workflow4Metabolomics
+  registry:
+    biotools: workflow4metabolomics
+    tess: Workflow4Metabolomics
+  url: https://workflow4metabolomics.usegalaxy.fr/
+- description: Software for the identification of small molecules from fragmentation spectra, predicting molecular formulae, structures and compound classes.
+  id: sirius
+  name: SIRIUS
+  registry:
+    biotools: sirius
+  url: https://bio.informatik.uni-jena.de/software/sirius/
+- description: Tool for in-silico fragmentation of candidate structures to annotate metabolites from tandem mass spectra.
+  id: metfrag
+  name: MetFrag
+  registry:
+    biotools: metfrag
+    tess: MetFrag
+  url: https://msbi.ipb-halle.de/MetFrag/
+- description: Cloud platform and knowledge base for the annotation and sharing of imaging mass spectrometry datasets.
+  id: metaspace
+  name: METASPACE
+  registry:
+    biotools: metaspace
+  url: https://metaspace2020.org/
+- description: Community initiative providing good practice guidelines, quality control recommendations and a minimal reporting checklist for lipidomics.
+  id: lipidomics-standards-initiative
+  name: Lipidomics Standards Initiative (LSI)
+  url: https://lipidomicstandards.org/
+- description: Tool and web service for parsing, normalising and translating lipid names across the common lipid nomenclature grammars.
+  id: goslin
+  name: Goslin
+  registry:
+    biotools: goslin
+  url: https://apps.lifs-tools.org/goslin/
+- description: Minimal reporting checklist from the Lipidomics Standards Initiative, covering pre-analytics, sample handling, the analytical method, mass spectrometry setup, method validation and quality control, as well as lipid extraction, ionisation, identification and quantification.
+  id: lipidomics-minimal-reporting-checklist
+  name: Lipidomics Minimal Reporting Checklist
+  url: https://lipidomicstandards.org/reporting_checklist/
+- description: Central access point for metabolomics data maintained by EMBL-EBI, aggregating studies, assays, compounds and spectra from MetaboLights, Metabolomics Workbench and GNPS/MassIVE behind a unified search interface and open APIs.
+  id: metabolomicshub
+  name: MetabolomicsHub
+  url: https://www.metabolomicshub.org/
+- description: Recommended Metadata for Biological Images, a checklist describing the minimum metadata that should accompany deposited biological imaging data.
+  id: rembi
+  name: REMBI
+  url: https://www.ebi.ac.uk/bioimage-archive/rembi-help-overview/
+- description: Bioconductor data structure that holds multiple assays measured on a shared set of samples, preserving the mapping between them.
+  id: multiassayexperiment
+  name: MultiAssayExperiment
+  url: https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html
+- description: Python framework and data container for multimodal omics data, extending the annotated data model to several modalities over shared observations.
+  id: muon
+  name: muon
+  url: https://muon.readthedocs.io/
+- description: Multi-Omics Factor Analysis, an unsupervised method that infers latent factors explaining variation shared across several omics modalities.
+  id: mofa
+  name: MOFA
+  url: https://biofam.github.io/MOFA2/
+- description: R package providing multivariate methods for the supervised and unsupervised integration of several omics datasets.
+  id: mixomics
+  name: mixOmics
+  url: https://mixomics.org/
 - description: Centralised access to EMBL-EBI’s spatial transcriptomics resources. Discover where data lives, how to access it, and how to submit new studies.
   id: spatial-transcriptomics-portal
   name: EMBL-EBI Spatial Transcriptomics Portal
