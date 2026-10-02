@@ -3,7 +3,7 @@ title: OMERO
 contributors: [Jean-Marie Burel] 
 editors: [Bert Droesbeke, Korbinian Bösl]
 page_id: ome
-affiliations: [Euro BioImaging]
+supported_by: [Euro BioImaging]
 related_pages: 
   Your_tasks: [data_organisation, storage, data_analysis, metadata]
   Your_domain: [bioimaging_data]

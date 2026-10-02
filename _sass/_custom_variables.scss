@@ -4,31 +4,30 @@ $font-family-theme: "Exo 2", sans-serif;
 
 /*-----Top navigation-----*/
 $topnav-bg: $dark;
+$topnav-title-color: $white;
 $topnav-brand-height: 40px;
-
-/*-----More information tiles-----*/
-$info-card-bg: $light;
-$info-card-color: $dark;
-$info-card-bg-hover: $primary;
-$info-card-color-hover: $white;
+$topnav-link-color: $white;
+$topnav-link-color-active: $white;
+$topnav-link-bg-active: $primary;
+$topnav-break-color: rgba($white, 0.50);
 
 /*-----Sidebar-----*/
 $sidebar-title-bg: $light;
+$sidebar-link-bg-active: rgba($primary, 0.1);
 
 /*-----Page metadata-----*/
 $page-metadata-bg: rgba($blue, 0.1);
 
 /*-----Section navigation tiles-----*/
-$nav-card-bg: $light;
-$nav-card-color: $dark;
 $nav-card-bg-hover: $light;
-$nav-card-color-hover: $dark;
+$nav-card-arrow-bg: rgba($primary, 0.1);
 
 /*-----Footer-----*/
 $footer-bg: $dark;
 $footer-color: $white;
 $footer-link-color: $white;
+$footer-link-color-hover: $primary;
 $footer-copyright-bg: #00000033;
+$footer-ett: $white;
 
-/*-----Events & news-----*/
-$news-border-color: $dark;
+

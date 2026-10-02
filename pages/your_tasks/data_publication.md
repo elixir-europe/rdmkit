@@ -60,6 +60,7 @@ The most suitable repository will depend on the data type and your discipline.
 * Check if/what discipline-specific repositories can apply the necessary access conditions and licences to your (meta)data.
 * Discipline-specific repositories: if a discipline-specific repository, recognised by the community, exists this should be your first choice since discipline-specific repositories often increases the FAIRness of the data.
   * The {% tool "embl-ebi-s-data-submission-wizard" %} can help you choose a suitable repository based on your data type.
+  * The {% tool "spatial-transcriptomics-portal" %} directs you to the relevant spatial sequencing and imaging archives for retrieving data or submitting new studies.
   * There are lists of discipline-specific, community-recognised repositories e.g.:
    * {% tool "elixir-deposition-databases-for-biomolecular-data" %} including {% tool "arrayexpress" %}, {% tool "biomodels" %}, {% tool "biostudies" %}, {% tool "european-nucleotide-archive" %}, {% tool "pdb" %}, {% tool "pride" %}
    * [Scientific Data journal's recommended repositories](https://www.nature.com/sdata/policies/repositories)

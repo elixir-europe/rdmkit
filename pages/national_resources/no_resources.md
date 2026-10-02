@@ -314,7 +314,7 @@ ELIXIR Norway offers the comprehensive NeLS tool assembly for researchers in Nor
 
 ### Federated European Genome-phenome Archive (EGA) Norway node
 
-Established by ELIXIR Norway and hosted by the University of Oslo, the Norwegian Federated EGA node provides a secure, controlled platform for sharing and archiving sensitive personal data. This service prioritises making sensitive data findable, accessible, interoperable, and reusable (FAIR) while fully complying with GDPR and the Norwegian Personal Data Act. You can boost the visibility of your datasets while maintaining control over access permissions with a designated data access committee. Learn more at the [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/).
+Established by ELIXIR Norway and hosted by the University of Oslo, the Norwegian node of {% tool "fega" %} provides a secure, controlled platform for sharing and archiving sensitive personal data. This service prioritises making sensitive data findable, accessible, interoperable, and reusable (FAIR) while fully complying with GDPR and the Norwegian Personal Data Act. You can boost the visibility of your datasets while maintaining control over access permissions with a designated data access committee. Learn more at the [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/).
 
 ### Norwegian tools assembly for sensitive personal data
 
@@ -370,6 +370,7 @@ These are some of the laws relevant for research data management in Norway. You 
 * Transitional rules on the processing of personal data [Overgangsregler om behandling av personopplysninger](https://lovdata.no/dokument/SF/forskrift/2018-06-15-877)
 * [The Norwegian Data Protection Agency: Journalistic, academic, artistic and literary purposes](https://www.datatilsynet.no/regelverk-og-verktoy/lover-og-regler/personvern-og-ytrings--og-informasjonsfrihet/)
 * [The Norwegian Data Protection Agency: Code of Conduct on Information Security and Internal Control](https://www.datatilsynet.no/regelverk-og-verktoy/atferdsnorm/)
+* [RDA-Norway: Guidelines for sharing research data with personal information](https://doi.org/10.18711/j7pc-7883)
 
 ### Health research data
 

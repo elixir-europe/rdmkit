@@ -856,19 +856,22 @@ Rahuman Sheriff:
     orcid: 0000-0003-0705-9809
     affiliation: EMBL-EBI
     email: sheriff@ebi.ac.uk
+Flavio Licciulli:
+    git: flaviolic
+    orcid: 0000-0002-1861-8947
+    affiliation: National Research Council, CNR
+    email: flavio.licciulli@cnr.it
 Laurent Thomas:
     git: LauLauThom
     orcid: 0000-0001-7686-3249
     affiliation: EMBL Heidelberg
-Franziska Nicolaus:
-    git: fijmnicolaus
 Nils Hoffmann:
     git: nilshoffmann
     orcid: 0000-0002-6540-6875
     affiliation: Forschungszentrum Jülich GmbH / ELIXIR-DE
     email: n.hoffmann@fz-juelich.de
 Franziska Nicolaus:
-    git:  fijmnicolaus
+    git: fijmnicolaus
     orcid: 0009-0008-4238-4117
     affiliation: Forschungszentrum Jülich GmbH / ELIXIR-DE
     email: f.nicolaus@fz-juelich.de
@@ -882,3 +885,12 @@ Helena Schnitzer:
     email: h.schnitzer@fz-juelich.de
     orcid: 0000-0002-6382-9452
     affiliation: Forschungszentrum Jülich GmbH / ELIXIR-DE
+Toni Hermoso Pulido:
+    git: toniher
+    email: toni.hermoso@crg.eu
+    orcid: 0000-0003-2016-6465
+    affiliation: CRG / ELIXIR-ES
+Danielle Welter:
+    git: daniwelter
+    orcid: 0000-0003-1058-2668
+    affiliation: Luxembourg National Data Service / ELIXIR-LU

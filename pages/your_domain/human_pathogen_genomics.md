@@ -12,7 +12,7 @@ related_pages:
     - data_security
     - data_quality
   Tool_assembly:
-    - covid-19
+    - covid19_data_portal
 # More information on how to fill in this metadata section can be found here https://rdmkit.elixir-europe.org/page_metadata
 fairsharing:
 - name: Human pathogen genomics collection

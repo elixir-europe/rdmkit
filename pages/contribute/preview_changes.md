@@ -77,7 +77,8 @@ GitHub Codespaces is another way to preview your changes without setting up Ruby
 5. Open the preview by clicking the forwarded port link for port `4000`. If it does not open automatically, go to the `PORTS` tab in the codespace and open port `4000` from there.
 6. Keep the server running while you edit files. The preview will refresh automatically after you save your changes.
 
-{% include callout.html type="note" content="GitHub Codespaces availability and included usage depend on your GitHub plan or organisation settings." %}
+{: .note }
+> GitHub Codespaces availability and included usage depend on your GitHub plan or organisation settings.
 
 
 ## Open a Pull Request (PR) with your changes

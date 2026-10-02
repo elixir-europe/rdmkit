@@ -118,7 +118,8 @@ To generate a new page it is sufficient to simply copy the TEMPLATE file in the 
 
 1. If the markdown file is named *example.md* the page will be rendered at https://rdmkit.elixir-europe.org/example. This link can be provided to the contributor through the issue.
 
-{% include callout.html type="note" content="Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors." %}
+{: .note }
+> Always make a new branch when making changes to the website, this to prevent little mistakes and to enforce approval from other editors.
 
 ### Advanced: working on your own feature branch and pushing local changes
 
@@ -149,7 +150,8 @@ The attributes that define the structure are:
       url: level_2_url
 ```
 
-{% include callout.html type="tip" content="Copy around existing parts in the yaml file to add pages to the same level" %}
+{: .tip }
+> Copy around existing parts in the yaml file to add pages to the same level.
 
 ### Link page within existing page
 
@@ -161,7 +163,8 @@ If the markdown page is named example_1.md, you can link towards it using:
 [Example 1](example_1)
 ```
 
-{% include callout.html type="important" content="If you change the file name, you'll have to update all of your links." %}
+{: .important }
+> If you change the file name, you'll have to update all of your links.
 
 
 ## Adding extra info to the contributors
@@ -176,12 +179,13 @@ Bert Droesbeke:
     role: editor
     affiliation: VIB Data Core / ELIXIR-BE
 ```
-{% include callout.html type="important" content="Make sure that the name of the contributor in the yaml file is identical as the one used in the metadata of the page." %}
+{: .important }
+> Make sure that the name of the contributor in the yaml file is identical as the one used in the metadata of the page.
 
 
-## Adding an institution, infrastructure, project or funder
+## Adding an institution, infrastructure, project, collaborator or funder
 
-Institutions, projects, funders and infrastructures are listed in the [affiliations.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/affiliations.yaml) file. The info in this file is used on the support page in the about section, but also for the affiliations in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
+Institutions, projects, collaborators, funders and infrastructures are listed in the [supported_by.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/supported_by.yml) file. The info in this file is used on the Supported by page in the about section, but also for the `supported_by` metadata in tool assembly pages. Make sure you make use of the same name in those assembly pages. The yaml file has following syntax:
 ```yaml
 - name: VIB
   image_url: /images/institutions/VIB-PSB.svg
@@ -194,14 +198,15 @@ Institutions, projects, funders and infrastructures are listed in the [affiliati
 - `name`: name
 - `image_url`: relative url towards the image
 - `pid`: url including the unique identifier towards the page of the association on [ROR](https://ror.org)
-- `expose`: true or false, when true this association will be shown in the about section
+- `expose`: true or false, when true this supporter will be shown in the about section
 - `type`: can be any of these values: *institution*, *funder*, *infrastructure* or *project*
 - `url`: url towards the homepage of this association
 
 
 The logos can be added to the [/images/institutions](https://github.com/elixir-europe/rdmkit/blob/master/images/institutions/), [/images/projects](https://github.com/elixir-europe/rdmkit/blob/master/images/projects/), [/images/infrastructures](https://github.com/elixir-europe/rdmkit/blob/master/images/infrastructures/) and [/images/funders](https://github.com/elixir-europe/rdmkit/blob/master/images/funders/) directory.
 
-{% include callout.html type="important" content="Upload vector images (.svg filetype) of the institute logo for better quality, scaleability and file size, if possible." %}
+{: .important }
+> Upload vector images (.svg filetype) of the institute logo for better quality, scalability and file size, if possible.
 
 ## Related pages
 
