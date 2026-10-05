@@ -64,7 +64,7 @@ For RDM in Life Sciences, machine-actionable metadata and data should:
   * Common formats such as XML and JSON contribute to [syntactic interoperability](https://en.wikipedia.org/wiki/Interoperability) between machines.
 * Be interpreted by computer systems unambiguously. The meaning (semantic) of the (meta)data should be unique and shared among computer systems.
   * Syntaxes such as JSON-LD and RDF/XML contribute to [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability#Semantic_as_a_function_of_syntactic_interoperability).
-* Not be in PDF format (scanned images of lab books, tables, articles or papers in .pdf)
+* Not be in PDF format (scanned images of lab books, tables, articles or papers in .pdf).
 * Not be free text, as a README.txt or a Word document (.docx) usually is. A .txt file can still be machine-actionable if it follows a defined structure, as ISA-TAB and MAGE-TAB files do.
 * Not be images, audio or video, unless they embed structured metadata. OME-TIFF, for example, stores OME-XML metadata inside the TIFF file.
 
@@ -103,13 +103,13 @@ The advantages of having machine-actionable data and metadata are numerous for a
 #### For researchers
 
 By providing structured metadata and data to a database that follows standards (metadata schemas, ontologies, file formats, programmatic access, etc.), at the level of each recorded value or observation, researchers:
-* Could more easily query and filter (meta)data based on specific variables, experimental conditions, biological sources and many other parameters, based on the capabilities of the used ELN or data management software.
+* Can more easily query and filter (meta)data based on specific variables, experimental conditions, biological sources and many other parameters, based on the capabilities of the used ELN or data management software.
 * Can more easily find and reproduce experiments performed in the past by others in  literature or in databases, e.g. by using {% tool "europe-pmc" %} and [EBI Search](https://www.ebi.ac.uk/ebisearch/overview.ebi/about).
 * Can easily integrate data from multiple datasets and studies, sharing the same experimental conditions or variables. Dataset integration and manipulation are easier to achieve, more reproducible and can be automated by using common programmes/software such as R and {% tool "openrefine" %}.
 * Can make use of visualisation and exploration tools provided by some repositories, to browse and explore the data of multiple datasets at once. For instance, you can use {% tool "expression-atlas" %} to easily make a query about the expression of a gene in specific conditions, even without knowledge of any data analysis software. As another example, {% tool "gisaid" %} allows you to visualise the spreading of viral variants. See the pages in the [Your Domain](your_domain) section to find domain-specific databases, atlas or portals.
 * Can import, export and exchange (meta)data between tools/systems/platforms without data loss. Exchanging and integrating (meta)data between two software or platforms is possible only if the format in which the information is contained can be read and interpreted by both. For instance, (meta)data from both {% tool "uniprot" %} and {% tool "pdbe-kb" %}  can be accessed in {% tool "3dbionotes" %} to enrich the structural analysis with sequence features.
 * Can explore and visualise biological knowledge graphs by using software such as {% tool "knetminer" %} and {% tool "agronomic-linked-data" %}.
-* Can perform complex queries, from a single entry point, across multiple distributed databases and across domains via [APIs](https://en.wikipedia.org/wiki/API) or via SPARQL Query Language. For instance: “Retrieve the number of UniProtKB/Swiss-Prot human enzymes that metabolise cholesterol or cholesterol derivatives and that are involved in diseases?" in the {% tool "integrated-database-of-small-molecules" %}.
+* Can perform complex queries, from a single entry point, across multiple distributed databases and across domains via [APIs](https://en.wikipedia.org/wiki/API) or via SPARQL Query Language. For instance: “Retrieve the number of UniProtKB/Swiss-Prot human enzymes that metabolise cholesterol or cholesterol derivatives and that are involved in diseases” in the {% tool "integrated-database-of-small-molecules" %}.
 * Can more easily find reference data and existing data in general, since machine-actionable (meta)data could be found by search engines and domain-specific or generic data catalogues and portals.
 
 
@@ -117,7 +117,7 @@ By providing structured metadata and data to a database that follows standards (
 * Implementation of domain-specific metadata schemas and ontologies for data and metadata increases the reusability for researchers.
 * The use of machine-actionable formats and ontologies contributes to [syntactic](https://en.wikipedia.org/wiki/Interoperability) and [semantic interoperability](https://en.wikipedia.org/wiki/Semantic_interoperability) of the (meta)data, which can be used by other tools/software or platforms.
 * Applying RDF syntax to the database can make the (meta)data available for knowledge graphs and semantic web applications.
-* If [Application Programming Interface (API)](https://en.wikipedia.org/wiki/API) is available, other software/applications could make complex queries, access the database programmatically and always get up-to-date data.
+* If an [Application Programming Interface (API)](https://en.wikipedia.org/wiki/API) is available, other software/applications can make complex queries, access the database programmatically and get the latest data.
 * If the metadata of your database or repository is exposed according to specific standards, it could function as a data provider or data source, and be harvested and indexed by
   * Data catalogues or data portals, such as {% tool "omicsdi" %} and [COVID-19 Data Portal](https://www.covid19dataportal.org).
   * The [OpenAIRE aggregator](https://www.openaire.eu/aggregation-and-content-provision-workflows) that collects metadata records via OAI-PMH in the majority of cases.
@@ -189,7 +189,7 @@ For machine-actionability and interoperability, you should consider:
   Any metadata schemas and vocabularies/ontologies describing web resources can be expressed according to standards, such as the [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/), the [RDF Schema (RDFS)](https://www.w3.org/TR/rdf-schema/) or the [Simple Knowledge Organisation System (SKOS)](https://www.w3.org/TR/skos-reference/) to provide more expressive definition and inferences/relationships between terms or pieces of information.
 
 #### Metadata checklist
-* Here, we define metadata checklists as content in the form of a fixed set of attributes or fields, without any particular order or structure. Compliance with metadata checklists is not related to the format nor the structure, but rather to the content provided.
+* Here, we define metadata checklists as content in the form of a fixed set of attributes or fields, without any particular order or structure. Compliance with metadata checklists depends on the content provided, regardless of format or structure.
 * Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. {% tool "miappe" %}). 
 * Some data repositories have customised metadata checklists (e.g. ENA Samples checklists).
 * Attributes in a metadata checklist can be ontology terms.
@@ -219,5 +219,5 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
 * Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
   * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
   * {% tool "mage-tab" %} (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
-  * {% tool "ome-data-model-and-file-formats" %} (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included. See also Hammer, M., Huisman, M., Rigano, A. et al. Towards community-driven metadata standards for light microscopy: tiered specifications extending the OME model. Nat Methods 18, 1427–1440 (2021). https://doi.org/10.1038/s41592-021-01327-9.
+  * {% tool "ome-data-model-and-file-formats" %} (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included. See also Hammer, M., Huisman, M., Rigano, A. et al. Towards community-driven metadata standards for light microscopy: tiered specifications extending the OME model. Nat Methods 18, 1427–1440 (2021). [doi:10.1038/s41592-021-01327-9](https://doi.org/10.1038/s41592-021-01327-9).
 * For more information about metadata schemas and ontologies, see the [Documentation and metadata](metadata_management) page.
