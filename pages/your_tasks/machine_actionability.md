@@ -163,7 +163,7 @@ For machine-actionability and interoperability, you should consider:
   * XML and JSON formats are widely used for data exchange between systems (such as software, platforms, or hardware) and on the web. Both are easy for machines to parse.
 
 * Exchange formats such as XML and JSON encode information as a hierarchical (tree) data model. XML nests elements that can carry attributes. JSON nests objects of key-value pairs and arrays.
-  * XML is a markup language. It is based on “elements” enclosed by pairs of opening and closing “tags”, which can carry “attributes” ```(<tag attribute="value">element</tag>)```. It is self-describing: tag names, chosen by the creator of the .xml file, label the content they enclose. For instance, ```<name>Jaguar</name>```.
+  * XML is a markup language. It is based on “elements” enclosed by pairs of opening and closing “tags”, which can carry “attributes” ```(<tag attribute="value">content</tag>)```. It is self-describing: tag names, chosen by the creator of the .xml file, label the content they enclose. For instance, ```<name>Jaguar</name>```.
   * JSON format can be easily read in any programming language. It is built on a collection of name/value pairs. In various languages, this is realised as an object, record, struct, dictionary, hash table, keyed list, or associative array. Refer to [json.org](https://www.json.org/json-en.html) for more information. Keys are strings in double quotes, and a colon separates each key from its value ( ```{"key": value}``` ). A value can be a string (also in double quotes), a number, `true`, `false`, `null`, an array (a list of values) or another object. For instance, ```{"name": "Jaguar"}```.
 
 * File formats (or file extensions) for expressing data in triples (e.g. “Jaguar” → “is in” → “Jungle”) in the Resource Description Framework (RDF) data model are .rdf for RDF/XML, .jsonld for JSON-LD, .nt for N-Triples and .ttl for Turtle syntax.
@@ -184,7 +184,7 @@ For machine-actionability and interoperability, you should consider:
 
   [RDF model](https://www.w3.org/TR/rdf11-concepts/#section-triples) consists of sentences in the form of “Subject” →  “Predicate” → “Object”, called Triples, that describe the relationship between different pieces of information. An example could be “Jaguar” → “is in” → “Jungle”. The Subject is a resource, the Predicate (property) is a resource that names the relationship, and the Object is either a resource or a literal value (e.g. a string or a number).
 
-* RDF concepts can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. Search engines, data harvesters and linked-data applications can use these syntaxes to put the information into context and “understand” its meaning (semantics) and relations. Information provided in RDF syntaxes is *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as {% tool "schema-org" %} or {% tool "bioschemas" %} (for Life Sciences), {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, etc.
+* RDF concepts can be written and applied to databases using different syntaxes, such as N-Triples, Turtle,  RDF/XML, RDFa, JSON-LD. Search engines, data harvesters and linked-data applications can use these syntaxes to put the information into context and “understand” its meaning (semantics) and relations. Information provided in RDF syntaxes can be *machine-interpretable*. Digital objects in these formats can specify the context and the globally unique definition of each resource by referencing other standard metadata schemas and vocabularies/ontologies to describe web resources, such as {% tool "schema-org" %} or {% tool "bioschemas" %} (for Life Sciences), {% tool "data-catalog-vocabulary" %}, {% tool "dublincore" %}, etc.
   
   Any metadata schemas and vocabularies/ontologies describing web resources can be expressed according to standards, such as the [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/), the [RDF Schema (RDFS)](https://www.w3.org/TR/rdf-schema/) or the [Simple Knowledge Organisation System (SKOS)](https://www.w3.org/TR/skos-reference/) to provide more expressive definition and inferences/relationships between terms or pieces of information.
 
@@ -209,13 +209,13 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
   {
   "@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}],
   "@type": "Taxon",
-  "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9690",
+  "@id": "https://identifiers.org/taxonomy:9690",
   "name": "Panthera onca",
   "taxonRank": "http://rs.tdwg.org/ontology/voc/TaxonRank#Species",
   "dwc:vernacularName": "Jaguar"
   }
   ```
-* Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rdamsc.bath.ac.uk) or among the [reporting guidelines](https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%2520science&recordType=reporting_guideline) in {%tool "fairsharing" %}.
+* Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rdamsc.bath.ac.uk) or among the [reporting guidelines](https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%20science&recordType=reporting_guideline) in {%tool "fairsharing" %}.
 * Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
   * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
   * {% tool "mage-tab" %} (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
