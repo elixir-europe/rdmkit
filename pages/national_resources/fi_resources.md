@@ -2,8 +2,8 @@
 title: Finland
 country_code: FI
 contributors: [Siiri Fuchs, Minna Ahokas]
-editors: [Bert Droesbeke, Laura Portell Silva]
-coordinators: []
+editors: [Bert Droesbeke, Laura Portell Silva, Federico Bianchini]
+coordinators: [Minna Ahokas]
 national_resources:
   - name: Chipster
     description: Chipster is a user-friendly analysis software for high-throughput data such as RNA-seq and single cell RNA-seq. It contains analysis tools and a large reference genome collection.
@@ -52,7 +52,7 @@ national_resources:
       Your_domain: [human_data]
     url: https://findata.fi/en/
   - name: Fingenious
-    description: Finnish Biobank Cooperative (FINBB) connects researchers to Finnish biomedical research. Via Fingenious® services the researcher can connect to all Finnish public bio banks.
+    description: Finnish Biobank Cooperative (FINBB) connects researchers to Finnish biomedical research. Via Fingenious® services the researcher can connect to all Finnish public biobanks.
     instance_of: 
     how_to_access: 
     related_pages:
@@ -72,7 +72,7 @@ national_resources:
       Your_domain: [human_data]
     url: https://research.csc.fi/sensitive-data-services-for-research
   - name: High performance computing
-    description: CSC Supercomputers Puhti, Mahti and LUMI performance ranges from medium scale simulations to one of the most competitive supercomputers in the world.
+    description: CSC Supercomputers Puhti, Mahti and LUMI performance ranges from medium-scale simulations to one of the most competitive supercomputers in the world.
     instance_of: 
     how_to_access: 
     related_pages:
@@ -96,13 +96,13 @@ national_resources:
 
 This is an overview of research data management resources in Finland. These resources are accessible for researchers in Finland and to their collaborators.
 
-[CSC – IT Center for Science](https://research.csc.fi/home) provides comprehensive scientific computing, data management and analysis services and solutions for research in Finland. CSC operates the ELIXIR Finland node and offers medical and bioinformatic research tools developed in Finland and Europe. An overview of data management services provided by ELIXIR Finland and CSC can be found on the [ELIXIR Finland](https://www.elixir-finland.org/en/frontpage/) website and [Service catalog](https://research.csc.fi/service/).
+[CSC – IT Center for Science](https://research.csc.fi/home) provides comprehensive scientific computing, data management and analysis services and solutions for research in Finland. CSC operates the ELIXIR Finland node and offers medical and bioinformatic research tools developed in Finland and Europe. An overview of data management services provided by ELIXIR Finland and CSC can be found on the [ELIXIR Finland](https://www.elixir-finland.org/en/frontpage/) website and [Service catalogue](https://research.csc.fi/service/).
 
 ## Regulations and policies on research data
 
-Every research data involves the questions of rights, legal and ethical issues. Contact you own organisation's data management support services for guidance on ethical and legal compliance and data protection and ownership. 
+Every research data involves the questions of rights, legal and ethical issues. Contact your own organisation's data management support services for guidance on ethical and legal compliance and data protection and ownership. 
 
-If personal data are processed in your research, [Data Protection Act](https://www.finlex.fi/en/legislation/2018/1050) will apply to it. [Data Protection Ombudsman](https://tietosuoja.fi/en/home) is a national supervisory authority which supervises the compliance with data protection legislation. 
+If personal data are processed in your research, [Data Protection Act](https://www.finlex.fi/en/legislation/2018/1050) will apply to it. [Data Protection Ombudsman](https://tietosuoja.fi/en/home) is a national supervisory authority which supervises compliance with data protection legislation. 
 
 Ethical review is needed in defined research configurations. See more at [Finnish National Board of Research Integrity, TENK](https://tenk.fi/en/ethical-review).
 
@@ -119,10 +119,10 @@ Universities and other research organisations and data service providers have da
 
 Finland has a long tradition of collecting and analysing biobank samples and the associated clinical data. 
 
-[Finnish Biobank Cooperative, FINNB](https://finbb.fi/en/) is to enhance the competitiveness of Finnish health and biomedical research by providing researchers a centralized access to collections and services of the Finnish biobanks and their background organisations.
+[Finnish Biobank Cooperative, FINNB](https://finbb.fi/en/) is to enhance the competitiveness of Finnish health and biomedical research by providing researchers with centralised access to collections and services of the Finnish biobanks and their background organisations.
 
-[The Fingenious Service](https://site.fingenious.fi/en/) provides researchers with a one-stop service for availability, feasibility, and access requests, research coordination, and contract services, especially in research activities under Act on Secondary Use of Health and Social Data.
+[The Fingenious Service](https://site.fingenious.fi/en/) provides researchers with a one-stop service for availability, feasibility, and access requests, research coordination, and contract services, especially in research activities under the Act on Secondary Use of Health and Social Data.
 
-National social and health data resources can be searched in [Aineistokatalogi](https://aineistokatalogi.fi/catalog/studies), a catalogue developed in cooperation between The Finnish institute for health and welfare (THL), Statistics Finland, the Data Archives and Sitra.
+National social and health data resources can be searched in [Aineistokatalogi](https://aineistokatalogi.fi/catalog/studies), a catalogue developed in cooperation between The Finnish Institute for Health and Welfare (THL), Statistics Finland, the Data Archives and Sitra.
 
-Read more about domain specific resources from [ELIXIR-FI webpages](https://www.elixir-finland.org/en/data-resources/).
+Read more about domain-specific resources from [ELIXIR-FI webpages](https://www.elixir-finland.org/en/data-resources/).
