@@ -150,10 +150,10 @@ The theoretically most machine-actionable format is in practice not achieved or 
 ### Considerations
 
 For machine-actionability and interoperability, you should consider:
-1. File formats that are data exchange formats (e.g. JSON, XML).
-2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html), {% tool "ome-data-model-and-file-formats" %}). The (meta)data schema describes the relations, such as hierarchy, of the elements that constitute the (meta)data model or structure.
-3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. {% tool "miappe" %}, ENA Samples checklists), that capture reporting best practice in the field.
-4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. EFO, OBI).
+1. File formats that are data exchange formats (e.g. JSON, XML, CSV).
+2. (Meta)Data schemas recognised and accepted by communities as standards (e.g. [ISA model](https://isa-specs.readthedocs.io/en/latest/isamodel.html), {% tool "ome-data-model-and-file-formats" %}).
+3. Sets of metadata attributes or metadata checklists recognised and accepted by communities (e.g. {% tool "miappe" %}, {% tool "european-nucleotide-archive" %} [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists)), that capture reporting best practice in the field.
+4. Controlled vocabularies and ontologies recognised and accepted by communities to convey meaning or semantics (e.g. [EFO](https://github.com/EBISPOT/efo), [OBI](https://obi-ontology.org/)).
 
 #### File format
 
@@ -191,7 +191,7 @@ For machine-actionability and interoperability, you should consider:
 #### Metadata checklist
 * Here, we define metadata checklists as content in the form of a fixed set of attributes or fields, without any particular order or structure. Compliance with metadata checklists depends on the content provided, regardless of format or structure.
 * Many metadata checklists have been adopted as standards by Life Sciences communities (e.g. {% tool "miappe" %}). 
-* Some data repositories have customised metadata checklists (e.g. ENA Samples checklists).
+* Some data repositories have customised metadata checklists (e.g. {% tool "european-nucleotide-archive" %} [sample checklists](https://www.ebi.ac.uk/ena/browser/checklists)).
 * Attributes in a metadata checklist can be ontology terms.
 * For more information, see the [Documentation and metadata](metadata_management) page.
 
