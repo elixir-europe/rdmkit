@@ -1,0 +1,48 @@
+name: Link Checker (PR)
+
+# Checks only the links that a pull request adds or changes, so a broken link
+# is flagged in review instead of in the nightly Link Checker Report.
+on:
+  pull_request:
+    branches: [master, main]
+    paths:
+      - '**.md'
+      - '**.html'
+      - '**.yml'
+      - '**.yaml'
+      - '!.github/**'
+
+permissions:
+  contents: read
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect lines added by this PR
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          # Keep only the added/changed lines of content files; lychee then
+          # extracts the links from them. Written outside the workspace because
+          # lychee-action removes ./lychee before it runs.
+          git diff --unified=0 --no-color --diff-filter=AMR "$BASE_SHA...$HEAD_SHA" \
+            -- '*.md' '*.html' '*.yml' '*.yaml' ':(exclude).github/**' \
+            | grep '^+' | grep -v '^+++ ' | sed 's/^+//' > "$RUNNER_TEMP/pr-added-lines.md" || true
+          echo "Lines added in content files: $(wc -l < "$RUNNER_TEMP/pr-added-lines.md")"
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2.1.0
+        with:
+          # External links only: relative links and {% tool %} tags are resolved
+          # at build time and covered by the nightly check of the built site.
+          args: --no-progress --scheme https --scheme http --exclude '^https://github\.com' --accept '100..=103,200..=299,429' ${{ runner.temp }}/pr-added-lines.md
+          fail: true
+          # A PR whose added lines contain no links is fine.
+          failIfEmpty: false
+          lycheeVersion: v0.21.0
