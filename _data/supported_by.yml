@@ -195,3 +195,9 @@
   pid: https://ror.org/03mstc592
   expose: yes
   url: https://www.embl.org/
+- name: Forschungszentrum Jülich GmbH / ELIXIR-DE
+  type: institution
+  image_url: 
+  pid: https://ror.org/02nv7yv05
+  expose: yes
+  url: https://www.fz-juelich.de 

@@ -62,6 +62,8 @@ Here we provide recommended steps for creating links and references to help user
 This figure illustrates which links and references can be made across ELIXIR Deposition Databases to help researchers understand which samples were used across different omics modalities. (1) BioSamples accession numbers should be included as metadata in technology-specific datasets. (2) BioStudies can serve as an overarching entry point for a multi-omics study by listing BioSamples accession numbers and referencing other repositories. (3) Repository-specific study or project accession numbers should be cross-referenced between repositories." %}
 
 
+For the wider data management context of combining modalities, including sample identity across assays and integrated analysis, see the [multi-omics](multiomics) page.
+
 ## How do you search for multi-omics datasets across repositories?
  
 ### Description
