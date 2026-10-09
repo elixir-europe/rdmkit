@@ -1,7 +1,7 @@
 ---
 title: Metabolomics
 description: data management solutions for metabolomics and lipidomics data.
-contributors: [Nils Hoffmann, Franck Giacomoni, Franziska Nicolaus]
+contributors: [Nils Hoffmann, Franck Giacomoni, Franziska Nicolaus, Helena Schnitzer]
 editors: []
 page_id: metabolomics
 related_pages:
