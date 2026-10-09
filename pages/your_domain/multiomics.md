@@ -1,7 +1,7 @@
 ---
 title: Multi-omics
 description: data management solutions for studies that combine several omics modalities.
-contributors: [Nils Hoffmann, Franziska Nicolaus]
+contributors: [Nils Hoffmann, Franziska Nicolaus, Helena Schnitzer]
 editors: []
 page_id: multiomics
 related_pages:
