@@ -14,6 +14,11 @@ training:
   - name: Lipidomics search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=lipidomics
+fairsharing:
+- name: Metabolomics subject results
+  url: https://fairsharing.org/search?subjects=Metabolomics
+- name: Lipidomics subject results
+  url: https://fairsharing.org/search?subjects=Lipidomics
 ---
 
 ## Introduction
@@ -59,7 +64,7 @@ The remedy is well established {% cite broadhurst2018Guidelines %}: randomise th
 ### Solutions
 
 - Design the run before you acquire anything. Randomise sample order, and interleave pooled quality control samples (an aliquoted mixture of all study samples) at regular intervals so that drift can be modelled and corrected.
-- Encode the sample role in your metadata explicitly. In the {% tool "isa-tools" %} model, biological replicates, technical replicates, pooled quality control samples, blanks, reference materials, calibration samples and a study samples are different sample types, and saying so is what makes the distinction machine-readable.
+- Encode the sample role in your metadata explicitly. In the {% tool "isa-tools" %} model, biological replicates, technical replicates, pooled quality control samples, blanks, reference materials, calibration samples and study samples are different sample types, and saying so is what makes the distinction machine-readable.
 - Report quality metrics in {% tool "mzqc" %}, the Proteomics Standards Initiative format for exchanging quality control information from mass spectrometry runs. It is deliberately multi-omics and applies directly to metabolomics.
 - Use a reference material where one exists, so that your batches can be compared with other laboratories' rather than only with each other.
 - Correct for drift and batch effects during processing, and record what you did. The correction is part of the provenance of the final data, not a private preprocessing detail. See [data provenance](data_provenance).
@@ -92,14 +97,12 @@ At a minimum, record:
 
 - Report the experiment against a community checklist. The {% tool "cimr" %} checklist from the Metabolomics Standards Initiative sets out the minimum you should describe. For studies in a regulatory toxicology context, the Organisation for Economic Co-operation and Development (OECD) omics reporting framework applies instead.
 - Read the {% tool "lipidomics-minimal-reporting-checklist" %} even if your study is mainly concerned with metabolites, rather than lipids {% cite mcdonald2022Introducing %}. Most of its items describe pre-analytics, sample handling, the analytical method, the mass spectrometry setup, method validation and quality control, and only become lipid-specific for extraction, ionisation and lipid quantification. On those shared acquisition details it is considerably more granular than the general metabolomics checklists, so it is a useful companion to them.
-- Read the {% tool "lipidomics-minimal-reporting-checklist" %} even if your study has nothing to do with lipids {% cite mcdonald2022Introducing %}. Most of its items describe pre-analytics, sample handling, the analytical method, the mass spectrometry setup, method validation and quality control, and only become lipid-specific for extraction, ionisation and lipid quantification. On those shared acquisition details it is considerably more granular than the general metabolomics checklists, so it is a useful companion to them.
-- Distinguish biological replicates, technical replicates, pooled quality-control samples, blanks, reference materials and calibration samples explicitly.
 - Structure your study metadata with {% tool "isa-tools" %}. The Investigation-Study-Assay model separates the experimental design from the individual assays, and it is what {% tool "metabolights" %} expects on submission, so using it early saves work later.
 - Annotate with controlled vocabularies rather than free text. The {% tool "msio" %} covers metabolomics study design, and the {% tool "psi-ms" %} covers instruments and acquisition. Use {% tool "chebi" %} for chemical entities.
 - Convert raw data to an open format as soon as it comes off the instrument. {% tool "mzml" %} is the open standard for raw mass spectra, and {% tool "msconvert" %} converts the major vendor formats to it. For NMR, use {% tool "nmrml" %}. For imaging, use {% tool "imzml" %}.
 - Preserve the relationship between raw files, intermediate results, feature tables, annotations and final statistical results.
 - Keep the vendor raw files. Conversion is lossy in practice, tools improve, and repositories generally accept both.
-- Use formats such as ISA-Tab or ISA-JSON to link analyses to raw and derived files, and {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %} to record source files, features, evidence and both identification and quantification end results, as well as platforms that ensure traceability and reproductibility, such as {% tool "workflow4metabolomics" %} or usegalaxy.eu, to document the history of analyses carried out.
+- Use formats such as ISA-Tab or ISA-JSON to link analyses to raw and derived files, and {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %} to record source files, features, evidence and both identification and quantification end results, as well as platforms that ensure traceability and reproducibility, such as {% tool "workflow4metabolomics" %} or {% tool "galaxy" %} (for example usegalaxy.eu), to document the history of analyses carried out.
 
 ### Data products
 
@@ -188,7 +191,7 @@ Two analysts processing the same raw files with different settings will produce 
 
 Metabolomics has good public repositories, and most journals and funders now expect deposition. What it has not had is a single coordinated submission consortium, the direct equivalent of {% tool "proteomexchange" %} in proteomics, so you choose a repository yourself rather than submitting through a common front door.
 
-That gap is being closed. {% tool "metabolomicshub" %}, maintained by EMBL's European Bioinformatics Institute (EMBL-EBI), aims to provide globally coordinated submission and dissemination pipelines across the major metabolomics repositories. It already indexes studies, assays, compounds and spectra from {% tool "metabolights" %}, {% tool "metabolomics-workbench" %} and {% tool "gnps" %}/MassIVE behind one search interface, with open programmatic access for bulk analysis. It entered early access in May 2026 and its interface and data model are still changing, so treat it for now as the place to find data across repositories rather than as a submission front door. Choose your deposition repository as described below, and expect that choice to matter less over time.
+That gap is being closed. {% tool "metabolomicshub" %}, maintained by EMBL's European Bioinformatics Institute (EMBL-EBI), aims to provide globally coordinated submission and dissemination pipelines across the major metabolomics repositories. It already indexes studies, assays, compounds and spectra from {% tool "metabolights" %}, {% tool "metabolomics-workbench" %} and {% tool "massive" %} behind one search interface, with open programmatic access for bulk analysis. It entered early access in May 2026 and its interface and data model are still changing, so treat it for now as the place to find data across repositories rather than as a submission front door. Choose your deposition repository as described below, and expect that choice to matter less over time.
 
 Deposit the raw data, not just the processed table. Raw spectra can be reprocessed and re-annotated as tools and libraries improve; a summary table cannot. See also the general [data publication](data_publication) and [existing data](existing_data) pages.
 
@@ -202,7 +205,7 @@ Deposit the raw data, not just the processed table. Raw spectra can be reprocess
 
 ### Solutions
 
-- Deposit study data in a dedicated repository. {% tool "metabolights" %} at EMBL-EBI is the ELIXIR-recommended deposition database {% cite haug2020MetaboLights %}; it is built on the {% tool "isa-tools" %} model and accepts data from all major platforms including NMR. {% tool "metabolomics-workbench" %} is the main alternative, uses its own mwTab format, and mints a digital object identifier for each study. {% tool "metabobank" %} at the DNA Data Bank of Japan (DDBJ) serves the same role in Japan, and {% tool "gnps" %} is the natural home for data you intend to analyse by molecular networking.
+- Deposit study data in a dedicated repository. {% tool "metabolights" %} at EMBL-EBI is the ELIXIR-recommended deposition database {% cite haug2020MetaboLights %}; it is built on the {% tool "isa-tools" %} model and accepts data from all major platforms including NMR. {% tool "metabolomics-workbench" %}, which hosts the National Metabolomics Data Repository funded by the US National Institutes of Health (NIH) Common Fund, is the main alternative; it also accepts both mass spectrometry and NMR data, uses its own mwTab format, and mints a digital object identifier for each study. {% tool "metabobank" %} at the DNA Data Bank of Japan (DDBJ) serves the same role in Japan. {% tool "massive" %} is a separate repository for mass spectrometry data only, and a {% tool "proteomexchange" %} member. Although both are hosted at the University of California San Diego, it is independent of Metabolomics Workbench, with its own submission route and accessions. MassIVE is the native repository of {% tool "gnps" %}, the molecular networking and analysis platform built on top of it, which makes it the natural home for data you intend to analyse there. GNPS itself is not a repository, and it can also reanalyse public data from MetaboLights and Metabolomics Workbench, so depositing elsewhere does not rule out using it.
 - Contribute your reference spectra back to a library. Depositing to {% tool "massbank" %} or {% tool "mona" %} turns a private measurement into a public annotation resource, and it is one of the highest-leverage things a metabolomics laboratory can do.
 - State the licence and any access conditions when you deposit, so that reusers know what they are allowed to do with the data. See [licensing](licensing).
 - If your samples are of human origin, treat the data as potentially personal. Metabolic profiles are derived from human material and are usually linked to clinical or lifestyle data, so consent, access control and legal basis all apply. See [human data](human_data), [data sensitivity](data_sensitivity) and [General Data Protection Regulation (GDPR) compliance](gdpr_compliance).

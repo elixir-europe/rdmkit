@@ -11,6 +11,9 @@ training:
   - name: Multi-omics search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=multi-omics
+fairsharing:
+- name: Multi-Omics Metadata Standards Integration Working Group Iterative Collection
+  url: https://fairsharing.org/FAIRsharing.2fa4fb
 ---
 
 ## Introduction
@@ -22,7 +25,7 @@ A multi-omics study measures the same biological material with several different
 You can group omics technologies into three families. Each family has its own data management requirements, which largely hold regardless of the individual assay:
 
 - **Sequence-based omics**, such as genomics, transcriptomics and epigenomics, together with their community-level counterparts metagenomics and metatranscriptomics. Data is read out as sequence, usually aligned to a reference, and reported as features on coordinates.
-- **Mass spectrometry and NMR-based omics**, such as proteomics, metabolomics and lipidomics. Data is read out as spectra, and the molecules present are *inferred* from those spectra.
+- **Mass spectrometry and nuclear magnetic resonance (NMR)-based omics**, such as proteomics, metabolomics and lipidomics. Data is read out as spectra, and the molecules present are *inferred* from those spectra.
 - **Spatial, optical and microscopy-based omics**, such as bioimaging, spatial transcriptomics and imaging mass spectrometry. Data is read out as images, and the entities of interest are *segmented* out of them.
 
 ### Why integration is hard
@@ -117,7 +120,7 @@ The critical point for integration is that **the segmentation is part of the res
 
 There is no single multi-omics metadata standard, and there is unlikely to be one. Each community has built the standards it needs: minimum-information checklists, controlled vocabularies and exchange formats, all tuned to its own technology.
 
-The scale of this fragmentation is worth seeing plainly. The Research Data Alliance's Multi-Omics Metadata Standards Interoperability working group maintains a catalogue of the standards in use across omics. It lists several dozen standards for each individual technology — genomics, proteomics and metabolomics each have their own crowded shelf — and a comparable number that it classifies as *universal*, meaning they are not tied to a single technology.
+The scale of this fragmentation is worth seeing plainly. The Research Data Alliance's Multi-Omics Metadata Standards Integration (MOMSI) working group maintains a [catalogue of the standards in use across omics](https://rda-momsi.github.io/Dashboard/). It lists several dozen standards for each individual technology — genomics, proteomics and metabolomics each have their own crowded shelf — and a comparable number that it classifies as *universal*, meaning they are not tied to a single technology. The working group also curates these standards as [MOMSI collections](https://fairsharing.org/search/?fairsharingRegistry=collection&page=1&q=momsi) in {% tool "fairsharing" %}, where each standard is linked to the repositories and policies that use it.
 
 That final group is particularly important. **Interoperability across omics does not happen at the level of the technology-specific standards. It happens at the universal layer**: the identifiers, the ontologies, the packaging formats and the study-level descriptions that all modalities can share. This is where your effort pays off most.
 
@@ -153,6 +156,7 @@ This problem is generic enough to have its own RDMkit page. Read [data interlink
 - Have you recorded, in each deposit, the accessions of the other deposits from the same study?
 - Is there a single study-level record that points to all the parts?
 - If your study has a controlled-access component, does the public part still reveal that it exists?
+- If your study includes human participants, have you assessed what the modalities reveal in combination, and not only each one on its own?
 - Would a stranger who found one of your datasets be able to discover the others?
 
 ### Solutions
@@ -164,6 +168,7 @@ This problem is generic enough to have its own RDMkit page. Read [data interlink
 - Anchor everything on the sample accessions from {% tool "biosamples" %}, so the join across repositories is explicit rather than inferred from sample names.
 - Use the Omics Discovery Index ({% tool "omicsdi" %}) to discover existing multi-omics datasets. It indexes datasets across genomics, transcriptomics, proteomics and metabolomics, and is the most practical starting point when looking for public data to integrate with your own. See [existing data](existing_data).
 - If part of your study is human and subject to controlled access, deposit that part accordingly and keep a discoverable public metadata record. See [human data](human_data) and [data sensitivity](data_sensitivity).
+- Assess the disclosure risk of the modalities in combination, not one at a time. A genome is already close to uniquely identifying, so adding metabolomics or proteomics to it rarely makes an individual much more distinguishable. The combination raises the risk in two other ways. First, **linkage**: each additional modality, and each cross-reference between deposits, is another route by which a record can be matched to records in other studies or databases. The two-way links and shared sample accessions recommended above make this easier, so apply them to controlled-access data deliberately. Second, **attribute disclosure**: once someone has been identified, metabolomics and proteomics reveal their current health status, medication, drug use, diet and lifestyle, which a genome alone cannot. Where no genome is part of the study, the non-genomic modalities and their metadata can together become identifying. How easily this happens depends on the size of the cohort: in a rare disease study with a handful of patients, a few attributes may be enough to point to one individual, whereas in a population-scale study this is harder, but not impossible. See [human data](human_data) and [data sensitivity](data_sensitivity).
 
 ## Integrated analysis
 
@@ -185,7 +190,7 @@ Consequently, no single integration method suits every multi-omics study, and th
 - Correct batch effects within each modality first, using the method appropriate to that technology, before attempting integration. Do not apply a single correction across the combined matrix.
 - Keep the modalities in a container designed to hold them together with their sample mapping intact, rather than in a pile of joined spreadsheets. {% tool "multiassayexperiment" %} in {% tool "bioconductor" %} and {% tool "muon" %} in Python both represent multiple assays over a shared set of samples, and both preserve the link that the sample identifiers established.
 - Choose an integration method suited to your question and record it. Multi-Omics Factor Analysis ({% tool "mofa" %}) infers latent factors that explain variation across modalities and is a reasonable default for unsupervised integration; {% tool "mixomics" %} provides a broad set of supervised and unsupervised multivariate methods.
-- Carry the uncertainty through. If a metabolite entered the analysis as a level 3 annotation under the Metabolomics Standards Initiative reporting levels {% cite sumner2007Proposed %}, that fact should be visible in the integrated result. Dropping the confidence level at the join is how a tentative annotation becomes a confident conclusion.
+- Carry the uncertainty through. If a metabolite entered the analysis as a level 3 annotation under the Metabolomics Standards Initiative reporting levels {% cite sumner2007Proposed %}, that fact should be visible in the integrated result. Dropping the confidence level at the join is how a tentative annotation turns into a confident conclusion downstream, one that the data support only weakly, or not at all.
 - Run the integration in a workflow system so that the parameters and versions are captured. [Galaxy](galaxy_assembly) records every step as executable provenance, and the resulting workflow should be deposited with the data.
 - Deposit the integrated dataset and the code that produced it, in addition to the raw modality-specific deposits. The integrated matrix is a derived product, and it is not reproducible from the raw parts unless you say exactly how it was made. See [data provenance](data_provenance).
 - If you are applying machine learning to the integrated data, be aware that multi-modal models are unusually easy to fool with leakage across modalities. See the [machine learning](machine_learning) page.
