@@ -37,7 +37,7 @@ jobs:
           echo "Lines added in content files: $(wc -l < "$RUNNER_TEMP/pr-added-lines.md")"
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v2.1.0
+        uses: lycheeverse/lychee-action@v2.9.0
         with:
           # External links only: relative links and {% tool %} tags are resolved
           # at build time and covered by the nightly check of the built site.
@@ -45,4 +45,4 @@ jobs:
           fail: true
           # A PR whose added lines contain no links is fine.
           failIfEmpty: false
-          lycheeVersion: v0.21.0
+          lycheeVersion: v0.24.2
