@@ -68,7 +68,7 @@ The gene marker used (`target_gene`) should be entered using the controlled voca
 
 The {% tool "darwin-core-archive" %} format, based on the {% tool "dwc" %} standard, is recommended for describing occurrence data. The {% tool "gbif-metabarcoding-data-toolkit" %}, developed by the {% tool "gbif" %}, enables formatting the data and publishing it through GBIF. The MDT [user guide](https://doi.org/10.35035/doc-wkpc-m352) promotes the use of controlled vocabularies, which make your research inputs and outputs interoperable, and lists [local instances](https://docs.gbif-test.org/mdt-user-guide/en/#mdt_installations) of the tool. In the long term, the new {% tool "dwc-dp" %} publishing profiles should replace DwC-A, as they are more practical.
 
-Persistent identifiers (PIDs) at the sample level ({% tool "biosamples" %} accession) and at the sequence level (ENA or SRA accession) are mandatory to ensure that the data is truly findable and interoperable.
+Persistent identifiers (PIDs) at the sample level ({% tool "biosamples" %} accession) and at the sequence level (accessions number from the European Nucleotide Archive - ENA  or the US based Short Read Archive - SRA ) are mandatory to ensure that the data is truly findable and interoperable.
 
 ### Processing and analysing data
 
