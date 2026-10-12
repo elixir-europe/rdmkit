@@ -7,7 +7,6 @@ on:
     branches: [master, main]
     paths:
       - '**.md'
-      - '**.html'
       - '**.yml'
       - '**.yaml'
       - '!.github/**'
@@ -17,6 +16,8 @@ permissions:
 
 jobs:
   linkChecker:
+    if: |
+      github.repository_owner == 'elixir-europe'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,16 +33,20 @@ jobs:
           # extracts the links from them. Written outside the workspace because
           # lychee-action removes ./lychee before it runs.
           git diff --unified=0 --no-color --diff-filter=AMR "$BASE_SHA...$HEAD_SHA" \
-            -- '*.md' '*.html' '*.yml' '*.yaml' ':(exclude).github/**' \
+            -- '*.md' '*.yml' '*.yaml' ':(exclude).github/**' \
             | grep '^+' | grep -v '^+++ ' | sed 's/^+//' > "$RUNNER_TEMP/pr-added-lines.md" || true
           echo "Lines added in content files: $(wc -l < "$RUNNER_TEMP/pr-added-lines.md")"
 
       - name: Link Checker
+        id: lychee
         uses: lycheeverse/lychee-action@v2.9.0
         with:
-          # External links only: relative links and {% tool %} tags are resolved
-          # at build time and covered by the nightly check of the built site.
-          args: --no-progress --scheme https --scheme http --exclude '^https://github\.com' --accept '100..=103,200..=299,429' ${{ runner.temp }}/pr-added-lines.md
+          # Same exclusions as the nightly Link Checker. Only external links are
+          # checked: relative links, root-relative links (resolved against
+          # --root-dir to file:// URLs) and {% tool %} tags only resolve in the
+          # built site, which the nightly check covers.
+          args: --no-progress --exclude '^https://github\.com' --root-dir "${{ runner.temp }}" --scheme https --scheme http --accept '100..=103,200..=299,429' "${{ runner.temp }}/pr-added-lines.md"
+          # Unlike the nightly check, fail so the broken link is fixed in the PR.
           fail: true
           # A PR whose added lines contain no links is fine.
           failIfEmpty: false
