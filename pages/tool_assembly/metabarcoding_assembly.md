@@ -93,7 +93,7 @@ Curated databases specific to gene markers include:
 
 * {% tool "silva" %} for 16S/18S rRNA gene markers (Bacteria, Archaea and Eukarya)
 * {% tool "pr2" %} for eukaryotic 18S rRNA
-* {% tool "unite" %} for fungal ITS
+* {% tool "unite" %} for fungal Internal transcribed spacer (ITS)
 
 ITSoneDB (Eukaryal Ribosomal Internal Transcribed Spacer 1) and Greengenes2 are also gene-marker-specific databases, but they have not been maintained since 2024.
 
