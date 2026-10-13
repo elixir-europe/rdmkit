@@ -19,6 +19,8 @@ fairsharing:
 ## Introduction
 The proteomics domain encompasses standard data formats, software tools, and data repositories for mass spectrometry-based proteomics data. In proteomics, the relatively wide range of mass spectrometry technologies, devices, protocols, study designs and data analysis approaches poses a particular challenge for the standardised description and storage of data and associated metadata. This circumstance compelled the proteomics community to address the complex definition of suitable standard data formats relatively early in its history. This encouraged, among other things, the development of software tools that can import and export results in standardised formats, and of data repositories in which proteomics data can be stored in a standardised way. The particular challenge for the proteomics community now is to evolve its achievements in data management to date towards a more complete fulfilment of FAIR research data management and to close the remaining gaps in this regard.
 
+Many of the standards and tools described below are shared with mass spectrometry-based [metabolomics](metabolomics). If you work across both, read the two pages together.
+
 ## Standard data formats
 ### Description
 To make proteomics data interoperable and reproducible from the first to the last mile of proteomics data analysis pipelines, comprehensive metadata accompanying the data is needed. The crucial metadata includes information on study design, proteomics technology, lab protocol, device, device settings and software settings. All of them have an enormous impact on the resulting data. Thus, to enable data reusability in proteomics, appropriate standard data formats are needed.
