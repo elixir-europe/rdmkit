@@ -4,6 +4,8 @@ contributors: [Aitana Neves, Parul Tewatia, Wolmar Nyberg Åkerström, Carla Cum
 editors: [Bert Droesbeke, Flora D'Anna, Nazeefa Fatima, Martin Cook]
 description: Information on brokering data to data repositories on behalf of data producers.
 page_id: data_brokering
+related_pages:
+  Tool_assembly: [metabarcoding_assembly]
 training:
   - name: Submission Search query in TeSS
     registry: TeSS

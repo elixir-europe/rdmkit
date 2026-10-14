@@ -5,7 +5,7 @@ editors: [Flora D'Anna, Marina Popleteeva, Nazeefa Fatima, Niclas Jareborg]
 description: How to document and describe your data.
 page_id: metadata
 related_pages:
-  Tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly, labid]
+  Tool_assembly: [nels, transmed, plant_geno_assembly, marine_assembly, labid, metabarcoding_assembly]
 dsw:
 - name: Will the metadata be available even when the data no longer exists?
   uuid: 3b3fbcc6-c405-4151-8dce-e11dbd46b1bd

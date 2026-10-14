@@ -5,7 +5,7 @@ editors: [Flora D'Anna]
 description: How to license research data.
 page_id: licensing
 related_pages: 
-  Tool_assembly: []
+  Tool_assembly: [metabarcoding_assembly]
 dsw:
 - name: Licenses under which this distribution of the data set will be available
   uuid: 3d89e23d-ff5c-45da-97a8-169ad8c39be6

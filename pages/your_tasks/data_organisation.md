@@ -5,7 +5,7 @@ editors: [Bert Droesbeke, Flora D'Anna]
 description: Best practices to name and organise research data.
 page_id: data_organisation
 related_pages: 
-  Tool_assembly: [ome, transmed, xnat_pic, labid]
+  Tool_assembly: [ome, transmed, xnat_pic, labid, metabarcoding_assembly]
   Your_tasks: [data_provenance]
 dsw:
 - name: How will you do file naming and file organization?
