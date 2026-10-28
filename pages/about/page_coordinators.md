@@ -31,17 +31,10 @@ As a page coordinator, you:
 
 ## How are coordinators listed?
 
-Coordinators are listed in the `coordinators` attribute in the [metadata](page_metadata) of the page. The names used there must match a name in the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml), so that the GitHub account and contact details of the coordinator can be linked. A coordinator is also listed as a contributor of the page.
+Coordinators are listed in the `coordinators` attribute in the [metadata](page_metadata) of the page. The names used there must match a name in the [CONTRIBUTORS file](https://github.com/elixir-europe/rdmkit/blob/master/_data/CONTRIBUTORS.yaml). A coordinator is also listed as a contributor of the page.
 
-```yaml
----
-title: Title of the page
-contributors: [Full Name, Another Name]
-coordinators: [Full Name]
----
-```
+Since a coordinator is the contact point for the page, it is **mandatory** that their entry in the CONTRIBUTORS file contains both an email address and a GitHub account. The email address lets readers and editors contact the coordinator, and the GitHub account allows the editors to mention the coordinator directly in pull requests and issues related to the page.
 
-If a GitHub account is linked to the coordinator in the CONTRIBUTORS file, the editors can mention the coordinator directly in pull requests and issues related to the page.
 
 ## How to become a page coordinator
 
