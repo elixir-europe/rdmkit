@@ -6,6 +6,8 @@ subitems:
     subitems:
       - title: Contributors
         url: /contributors
+      - title: Page coordinators
+        url: /page_coordinators
       - title: Editorial board
         url: /editorial_board
       - title: Supported by
