@@ -8,16 +8,6 @@ A page coordinator is a community member who looks after one or more RDMkit page
 
 Coordinators are listed in the **Coordinators** tab at the bottom of the page they coordinate.
 
-## What a page coordinator is not
-
-Page coordinators are **not page owners**. As described in [How to contribute](how_to_contribute#acknowledgement-and-ownership-of-content), no single contributor, editor or coordinator owns the content of the RDMkit. Content is community-led and decisions are driven by consensus among the contributors and editors.
-
-This means that:
-
-* Anyone can still propose changes to a coordinated page, with or without involving the coordinator.
-* The coordinator cannot block or veto changes. Final decisions on merging content remain with the [editorial board](editorial_board).
-* Coordinators are not expected to write all content themselves. Their role is to make sure the right people are involved.
-
 ## Responsibilities
 
 As a page coordinator, you:
@@ -28,6 +18,15 @@ As a page coordinator, you:
 * **Help find the right content**. When a page becomes outdated or incomplete, you suggest what should be added, changed or removed, and open an issue or pull request where needed.
 * **Respond to issues** that are opened about the page, or help the editors to find someone who can.
 
+## What a page coordinator is not
+
+Page coordinators are **not page owners**. As described in [How to contribute](how_to_contribute#acknowledgement-and-ownership-of-content), no single contributor, editor or coordinator owns the content of the RDMkit. Content is community-led and decisions are driven by consensus among the contributors and editors.
+
+This means that:
+
+* Anyone can still propose changes to a coordinated page, with or without involving the coordinator.
+* The coordinator cannot block or veto changes. Final decisions on merging content remain with the [editorial board](editorial_board).
+* Coordinators are not expected to write all content themselves. Their role is to make sure the right people are involved.
 
 ## How are coordinators listed?
 
