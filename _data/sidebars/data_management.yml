@@ -118,6 +118,8 @@ subitems:
         url: /ethics
       - title: Existing data
         url: /existing_data
+      - title: Federated learning
+        url: /federated_learning
       - title: GDPR compliance
         url: /gdpr_compliance
       - title: Identifiers
