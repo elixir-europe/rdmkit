@@ -5,7 +5,7 @@ editors: [Flora D'Anna]
 description: How to make data analysis FAIR.
 page_id: data_analysis
 related_pages:
-  Tool_assembly: [nels, xnat_pic, transmed, ome, galaxy]
+  Tool_assembly: [nels, xnat_pic, transmed, ome, galaxy, metabarcoding_assembly]
 training:
   - name: Data analysis Search query in TeSS
     registry: TeSS
