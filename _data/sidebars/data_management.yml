@@ -67,6 +67,8 @@ subitems:
         url: /single_cell_sequencing
       - title: Structural bioinformatics
         url: /structural_bioinformatics
+      - title: System biology models
+        url: system_biology_models
       - title: Toxicology data
         url: /toxicology_data
       - title: Virology
