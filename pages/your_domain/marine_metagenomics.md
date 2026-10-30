@@ -2,7 +2,6 @@
 title: Marine metagenomics
 description: Data management solutions for marine metagenomics data.
 contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis,Nazeefa Fatima]
-related_pages: 
 page_id: marine
 related_pages: 
   Your_tasks: [metadata]

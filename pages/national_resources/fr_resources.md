@@ -18,7 +18,6 @@ national_resources:
   - name: Cat OPIDoR
     description: Catalog of national services and tools that support research data management designed to assist researchers, data stewards, and institutions. 
     how_to_access:
-    instance_of: dmproadmap
     related_pages:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward]

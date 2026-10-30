@@ -6,7 +6,7 @@ description: The French Bioinformatics Institute (IFB) offers IT infrastructure 
 page_id: ifb
 supported_by: ["ELIXIR Europe", "FR"]
 related_pages: 
-  Your_tasks: [dmp, data_organisation, storage, data_publication, data_transfer, metadata, data_analysis]
+  Your_tasks: [dmp, data_organisation, storage, data_publication, transfer, metadata, data_analysis]
   Your_domain: []
 training:
   - name: IFB Search query in TeSS
