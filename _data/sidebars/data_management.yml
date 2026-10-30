@@ -55,8 +55,12 @@ subitems:
         url: /machine_learning
       - title: Marine metagenomics
         url: /marine_metagenomics
+      - title: Metabolomics
+        url: /metabolomics
       - title: Microbial biotechnology
         url: /microbial_biotechnology
+      - title: Multi-omics
+        url: /multiomics
       - title: Plant sciences
         url: /plant_sciences
       - title: Proteomics
