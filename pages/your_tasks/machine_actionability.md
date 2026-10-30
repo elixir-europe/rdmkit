@@ -145,7 +145,7 @@ By providing structured metadata and data to a database that follows standards (
 
 Due to the complexity of the topic and the lack of a unified definition, it is often difficult to identify the characteristics that make information contained in a digital object machine-actionable. Moreover, it is important not only to make a digital file machine-actionable, but also interoperable between different machines, so that different systems can exchange information.
 
-The theoretically most machine-actionable format is in practice not achieved or established yet; however, we try to list here some of the currently accepted best practices that should be considered when making a file machine-actionable and interoperable, in Life Sciences research.
+The theoretically most machine-actionable format is in practice not achieved or established yet; however, we try to list here some of the currently accepted best practices that should be considered when making a file machine-actionable and interoperable in Life Sciences research.
 
 ### Considerations
 
@@ -171,7 +171,7 @@ For machine-actionability and interoperability, you should consider:
 #### (Meta)Data schema
 * A (meta)data schema describes the relations, such as hierarchy, among the elements or pieces of information that constitute the (meta)data model or structure.
 * The relationship between pieces of information in a (meta)data schema can be implicit, following an agreed order (such as the order of columns in a table), or explicitly expressed by additional information in the file. To allow more universal interpretability, explicit additional information on the relationship between the pieces of information is highly advantageous.
-* Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model in a more implicit way (e.g. {% tool "isa-tab" %},  {% tool "mage-tab" %}).
+* Some of the (meta)data schemas considered standard in Life Sciences define the relations between elements of the model more implicitly (e.g. {% tool "isa-tab" %},  {% tool "mage-tab" %}).
 * Some data repositories develop customised (meta)data schemas.
 * Different metadata schemas are preferred for different purposes. Some examples are listed below. 
   * {% tool "schema-org" %} and {% tool "bioschemas" %} markup are mostly used to describe web resources and make them findable by Web search engines. 
@@ -217,7 +217,7 @@ Vocabularies and ontologies are meant for describing concepts and relationships 
   ```
 * Metadata schemas and checklists can be found within [RDA curated list of Life Sciences metadata standards](https://rdamsc.bath.ac.uk) or among the [reporting guidelines](https://fairsharing.org/search?fairsharingRegistry=Standards&isMaintained=true&page=1&status=ready&subjects=life%2520science&recordType=reporting_guideline) in {%tool "fairsharing" %}.
 * Examples of standard (meta)data schemas, in different formats, in Life Sciences: 
-  * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework originally created to describe information about multi-omics experiments.
+  * [ISA-JSON (.json) and ISA-TAB (.txt)](https://isa-specs.readthedocs.io/en/latest/) - generic metadata framework created to describe information about multi-omics experiments.
   * {% tool "mage-tab" %} (.txt) - MicroArray Gene Expression Tabular. The format has been developed and adopted by the functional genomics community.
   * {% tool "ome-data-model-and-file-formats" %} (.tiff or .xml) for a wide range of biological imaging modalities. Ontologies to uniquely identify terms can be included. See also Hammer, M., Huisman, M., Rigano, A. et al. Towards community-driven metadata standards for light microscopy: tiered specifications extending the OME model. Nat Methods 18, 1427–1440 (2021). [doi:10.1038/s41592-021-01327-9](https://doi.org/10.1038/s41592-021-01327-9).
 * For more information about metadata schemas and ontologies, see the [Documentation and metadata](metadata_management) page.
