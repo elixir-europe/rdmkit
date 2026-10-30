@@ -82,7 +82,7 @@ This page provides useful information and resources with a focus on research dat
 
 ## Funders
 
-* [BMBF - Federal Ministry of Research, Technology and Space (Bundesministerium für ­Forschung, Technologie und Raumfahrt)](https://www.bmbf.de/)
+* [BMFTR - Federal Ministry of Research, Technology and Space (Bundesministerium für ­Forschung, Technologie und Raumfahrt)](https://www.bmftr.bund.de/)
 * [DFG - Deutsche Forschungsgemeinschaft](https://www.dfg.de)
 * Overview of [Research Funding in Germany](https://www.research-in-germany.org/en/)
 
