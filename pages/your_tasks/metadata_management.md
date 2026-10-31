@@ -75,7 +75,7 @@ Due to the large variety of experiments, techniques and collaborative studies th
 
 * [Study-level](https://ukdataservice.ac.uk/learning-hub/data-producer-support/preparing-data-for-sharing-and-reuse/documenting-and-describing-data/collectionleveldocumentation/) and [data-level](https://ukdataservice.ac.uk/learning-hub/data-producer-support/preparing-data-for-sharing-and-reuse/documenting-and-describing-data/data-leveldocumentation/) documentation can be provided as
   * README file
-  * {% tool "create-a-codebook" %}
+  * {% tool "create-a-codebook" %} (a human-readable codebook can also be generated from a spreadsheet variable list, for example with the {% tool "metaco-codebook-generator" %})
   * Data dictionary ([see an example](https://webdav.lcsb.uni.lu/public/elixir/templates/Data_dictionary_example.xlsx))
   * Data list
 
