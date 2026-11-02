@@ -3228,7 +3228,7 @@
 - description: EVORAO is a DCAT-compatible ontology for describing pathogen materials, derived products and associated services in interoperable catalogues, including their origin, access, biosafety, transport, licensing, provenance and contacts.
   id: evora-ontology
   name: European Viral Outbreak Response Alliance Ontology (EVORAO)
-  url: https://evora-project.github.io/evora-ontology/
+  url: https://w3id.org/evorao/
 - description: A comprehensive resource of channels, pores and tunnels found in biomacromolecular structures deposited in the Protein Data Bank.
   id: channelsdb
   name: ChannelsDB 2.0
