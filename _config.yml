@@ -6,6 +6,9 @@ description: "Best practices and guidelines you can use for FAIR management of y
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@7.0.0
 
+repository: elixir-europe/rdmkit
+# GitHub repository, used by jekyll-github-metadata (avoids needing a git remote or PAGES_REPO_NWO)
+
 sass:
   style: compressed
   sourcemap: never
