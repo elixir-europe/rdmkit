@@ -3590,3 +3590,110 @@
   registry:
     fairsharing: ak8p5g
   url: https://www.fged.org/projects/mage-tab
+- description: Open standard for representing computer models of biological processes, in particular multiscale physiological models.
+  id: cellml
+  name: CellML
+  registry:
+    biotools: cellml
+    fairsharing: 50n9hc
+  url: https://www.cellml.org
+- description: Community standard for describing physiologically based kinetic (PBK) models in SBML in a FAIR way.
+  id: fair-pbk-standard
+  name: FAIR PBK standard
+  url: https://fair-pbk.github.io/fair-pbk-standard/
+- description: Web tool to annotate and validate physiologically based kinetic (PBK) models in SBML against the FAIR PBK standard.
+  id: fair-pbk-inspector
+  name: FAIR PBK Inspector
+  url: https://fair-pbk.wur.nl
+- description: Standard visual notation for diagrams and maps of biological networks and processes, with SBGN-ML as its file format.
+  id: systems-biology-graphical-notation
+  name: Systems Biology Graphical Notation (SBGN)
+  registry:
+    biotools: sbgn
+    fairsharing: z9kvry
+  url: https://sbgn.github.io
+- description: Simulation Experiment Description Markup Language, a standard format for encoding simulation experiments on computational models.
+  id: sed-ml
+  name: SED-ML
+  registry:
+    fairsharing: 6f7m6j
+  url: https://sed-ml.org
+- description: Community standard for specifying parameter estimation problems in systems biology, including experimental data, observables, simulation conditions, parameter definitions and optimisation settings.
+  id: petab
+  name: PEtab
+  url: https://petab.readthedocs.io/en/latest/
+- description: Single file format to package and exchange all files of a modelling project, such as models, simulation experiments and metadata.
+  id: combine-archive
+  name: COMBINE archive
+  registry:
+    fairsharing: 27tnee
+  url: https://combinearchive.org
+- description: Minimum Information Requested In the Annotation of Models, guidelines for the curation and annotation of quantitative models in biology.
+  id: miriam
+  name: MIRIAM
+  registry:
+    fairsharing: ap169a
+  url: https://co.mbine.org/author/miriam/
+- description: Minimum Information About a Simulation Experiment, guidelines for describing simulation experiments so they can be reproduced.
+  id: miase
+  name: MIASE
+  registry:
+    fairsharing: zj6y9h
+  url: https://identifiers.org/combine.specifications:miase
+- description: Ontology for describing mathematical models, their types and how they are used.
+  id: mathematical-modelling-ontology
+  name: Mathematical Modelling Ontology
+  registry:
+    fairsharing: kbz5jh
+  url: https://sourceforge.net/p/mamo-ontology/wiki/Home/
+- description: Template for depositing genome-scale metabolic models in git repositories.
+  id: standard-gem
+  name: standard-GEM
+  url: https://github.com/MetabolicAtlas/standard-GEM
+- description: Software containers for packaging code together with its dependencies so it can run reproducibly across systems.
+  id: apptainer
+  name: Apptainer
+  url: https://apptainer.org
+- description: Registry and platform to run simulation experiments encoded in SED-ML across a range of simulation tools, with Docker image export.
+  id: biosimulators
+  name: BioSimulators
+  registry:
+    biotools: biosimulators
+    fairsharing: pweima
+  url: https://biosimulators.org
+- description: Validates SBML syntax and consistency before publication or repository submission.
+  id: sbml-validator
+  name: SBML Validator
+  registry:
+    biotools: online_sbml_validator
+  url: https://sbml.bioquant.uni-heidelberg.de/validator_servlet/
+- description: Python environment to build, simulate and analyse SBML-compliant models, with SED-ML and COMBINE archive support.
+  id: tellurium
+  name: Tellurium
+  url: https://github.com/sys-bio/tellurium
+- description: Cross-platform environment to edit, simulate and analyse CellML models, using SED-ML and COMBINE archives.
+  id: opencor
+  name: OpenCOR
+  url: https://opencor.ws
+- description: Proprietary numerical computing environment, used among others for modelling workflows.
+  id: matlab
+  name: MATLAB
+  registry:
+    biotools: matlab
+  url: https://www.mathworks.com/products/matlab.html
+- description: Software library implementing EFECT for checking the reproducibility of stochastic simulations.
+  id: libssr
+  name: libSSR
+  url: https://github.com/tjsego/libSSR
+- description: Collection of logically consistent Boolean network models, with a validation pipeline.
+  id: biodivine-boolean-models
+  name: Biodivine Boolean Models (BBM)
+  url: https://github.com/sybila/biodivine-boolean-models
+- description: Python utilities to create, annotate, and validate SBML models, including MIRIAM annotations, SBO terms, and unit checks.
+  id: sbmlutils
+  name: sbmlutils
+  url: https://matthiaskoenig.github.io/sbmlutils
+- description: Web application that renders an SBML model as an interactive, human-readable report, resolving its annotations.
+  id: sbml4humans
+  name: SBML4Humans
+  url: https://matthiaskoenig.github.io/sbml4humans/
