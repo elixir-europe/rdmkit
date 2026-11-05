@@ -55,4 +55,5 @@ In your role of research software engineer, you may need to:
  * Learn from experts in the field in the [RDNL & DCC Delivery RDM Services course](https://www.futurelearn.com/courses/delivering-research-data-management-services).
  * [Software Carpentry](https://software-carpentry.org/) helps set up training in basic lab skills for research computing.
  * [ELN Guide](https://doi.org/10.4126/FRL01-006425772) is a useful resource on Electronic Laboratory Notebooks (ELN). 
+ * [De.KCD - Data Management Platform on the Cloud, step by step](https://dekcd.github.io/DeKCD-DMOnTheCloud/) is a technical quickstart clarifying the range of possible setups and alternatives, also to help gauge whether the complexity of a solution is justified, or whether a managed service would be a better fit.
 
