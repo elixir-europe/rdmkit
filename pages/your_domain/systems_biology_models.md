@@ -120,7 +120,7 @@ Annotation links the components of a model (species, reactions, genes, parameter
 - Choose namespaces and ontologies from the FAIRsharing collection of [Systems Biology Identifier Systems and Ontologies](https://fairsharing.org/8014/).
 - Annotate units as well as components where the format allows it. For SBML models, {% tool "sbmlutils" %} can add MIRIAM annotations and SBO terms and check that units are consistent.
 - For PBK models, use the {% tool "fair-pbk-inspector" %} to annotate components and units and to validate the model against the FAIR PBK standard.
-- Deposit the model in a repository that checks annotations, such as BioModels (see [Deposit, license, and publish](#deposit-license-and-publish)).
+- Deposit the model in a repository that checks annotations, such as {% tool "biomodels" %} (see [Deposit, license, and publish](#deposit-license-and-publish)).
 - Re-check and update annotations with each new model version.
 
 ## Describe the model
