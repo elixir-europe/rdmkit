@@ -2,7 +2,7 @@
 title: Systems biology models
 search_exclude: false
 description: Data management of systems biology models.
-contributors: [Carissa Bleker, Frank T. Bergmann, Mihail Anton]
+contributors: [Carissa Bleker, Frank T. Bergmann, Mihail Anton, Ulrike Wittig]
 editors: [Federico Bianchini]
 page_id: sysbio_models
 related_pages: 
@@ -46,7 +46,8 @@ The figure below places model development recommendations along the model life c
 
 Models are often revised after an initial release, so each new version cycles back through the same steps.
 
-{% include image.html file="systems_biology_life_cycle_FAIR_CURE.png" caption="Figure 1. Ten priorities for FAIR and CURE-compliant models mapped onto the model development life cycle (Hancock et al. 2026)." alt="Model development life cycle in three phases. Before: use modular and transparent design; use standardised, open formats. During: validate and test, describe and annotate, and engage in community curation, in a cycle supported by versioning and documenting all changes. After: assign persistent identifiers, ensure open access to code and data, provide complete metadata, and share simulation protocols and parameters. Each priority is tagged with the FAIR and CURE principles it supports." %}
+{% capture figure1_caption %}Figure 1. Ten priorities for FAIR and CURE-compliant models mapped onto the model development life cycle (Hancock et al. 2026) {% cite hancock2026Making %}.{% endcapture %}
+{% include image.html file="systems_biology_life_cycle_FAIR_CURE.png" caption=figure1_caption alt="Model development life cycle in three phases. Before: use modular and transparent design; use standardised, open formats. During: validate and test, describe and annotate, and engage in community curation, in a cycle supported by versioning and documenting all changes. After: assign persistent identifiers, ensure open access to code and data, provide complete metadata, and share simulation protocols and parameters. Each priority is tagged with the FAIR and CURE principles it supports." %}
 
 ## Organise the model in a modular and transparent way
 
