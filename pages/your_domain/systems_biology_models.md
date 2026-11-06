@@ -245,7 +245,7 @@ Reproducibility is the capacity to independently reproduce simulation results, e
 ### Solutions
 
 - Run the shared {% tool "sed-ml" %} file on more than one simulation engine, for example through {% tool "biosimulators" %}, and compare the outputs within tolerance.
-- Apply a reproducibility scorecard where available, such as the [BioModels 8-point reproducibility scorecard](https://www.ebi.ac.uk/biomodels/reproducibility).
+- Apply a reproducibility scorecard where available, such as the [BioModels 8-point reproducibility scorecard](https://www.biomodels.org/reproducibility).
 - Use model-type-specific reproducibility checks when possible, for example:
   - [FROG](https://www.biomodels.org/curation/fbc) analysis (Flux variability, Reaction deletion, Objective function, Gene deletion) for genome-scale/constraint-based models;
   - {% tool "memote" %} for genome-scale metabolic models, which tests annotation, stoichiometric consistency, and SBML compliance;
