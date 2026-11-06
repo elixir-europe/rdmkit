@@ -144,6 +144,8 @@ subitems:
         url: /labid_assembly
       - title: Marine Metagenomics
         url: /marine_metagenomics_assembly
+      - title: Metabarcoding
+        url: /metabarcoding_assembly
       - title: MOLGENIS
         url: /molgenis_assembly
       - title: NeLS

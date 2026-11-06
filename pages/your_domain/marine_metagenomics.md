@@ -5,7 +5,7 @@ contributors: [Nils Peder Willassen,Anastasis Oulas,Evangelos Pafilis,Nazeefa Fa
 page_id: marine
 related_pages: 
   Your_tasks: [metadata]
-  Tool_assembly: [marine_assembly]
+  Tool_assembly: [marine_assembly, metabarcoding_assembly]
 training:
   - name: Marine metagenomics Search query in TeSS
     registry: TeSS
