@@ -7,6 +7,7 @@ editors: [Federico Bianchini]
 page_id: sysbio_models
 related_pages: 
   Your_tasks: [data_analysis, identifiers, licensing, data_publication, metadata, data_quality, data_provenance, machine_actionability, data_discoverability]
+  Your_domain: [enzym_biocat, micro_biotech]
   Tool_assembly: []
 training:
   - name: TeSS Systems Biology Collection
@@ -23,7 +24,7 @@ Systems biology leverages computational models to integrate heterogeneous data, 
 
 Data management in systems biology encompasses three closely related categories of consideration. First, it concerns the models themselves, including their structure, implementation, documentation, and versioning. Second, it includes the data used to develop, parameterise, and validate models, such as experimental measurements, reference datasets, and derived parameters. Third, it covers *in silico* experiments, including computational workflows used to generate results, and the resulting model simulations and analyses. Effective research data management must address all three categories to ensure that systems biology studies are reproducible, interpretable, and reusable across different contexts and over time.
 
-This page provides practical recommendations for managing systems biology models throughout their life cycle, aligned with the FAIR (Findable, Accessible, Interoperable, Reusable) and CURE (Credible, Understandable, Reproducible, Extensible) principles {% cite sauro2026FAIR %}. It focuses on the first and last of the above categories: the models themselves and simulation experiments and code, since these are essential for making models FAIR. The data used to develop and validate models is covered only where it affects the model, for example through provenance.
+This page provides practical recommendations for managing systems biology models throughout their life cycle, aligned with the FAIR (Findable, Accessible, Interoperable, Reusable) and CURE (Credible, Understandable, Reproducible, Extensible) principles {% cite sauro2026FAIR %}. It focuses on the first and last of the above categories: the models themselves and simulation experiments and code, since these are essential for making models FAIR. The data used to develop and validate models is covered only where it affects the model, for example through provenance. For managing the experimental data itself, see the relevant domain pages, for example [Enzymology and biocatalysis](enzymology_and_biocatalysis) for the enzyme kinetic data used to parameterise kinetic models.
 
 ### What constitutes a systems biology model?
 
@@ -141,7 +142,7 @@ A thorough model description is essential for correct interpretation and reuse. 
 
 - Provide a clear narrative description of model purpose and scope.
 - Explicitly state biological and mathematical assumptions.
-- Document parameter sources, estimation methods, calibration procedures, and optimisation settings used to derive model parameters.
+- Document parameter sources, estimation methods, calibration procedures, and optimisation settings used to derive model parameters. When parameters come from a database, cite the specific entries, for example from {% tool "sabiork" %} for enzyme kinetic parameters (see also [Enzymology and biocatalysis](enzymology_and_biocatalysis)).
 - Specify which datasets were used for model construction, calibration, and independent validation, including persistent identifiers where available.
 - Describe limitations and intended use, including the conditions and parameter ranges for which the model was developed and tested.
 - Include the elements below, within the model file itself when possible, or in the accompanying documentation:
