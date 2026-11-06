@@ -3590,3 +3590,11 @@
   registry:
     fairsharing: ak8p5g
   url: https://www.fged.org/projects/mage-tab
+- description: Free browser-based tool that turns a variable list (pasted from Excel, or an xlsx or CSV file) into a printable codebook with value labels. No account needed and no data upload.
+  id: metaco-codebook-generator
+  name: METACO Codebook Generator
+  registry:
+    biotools: NA
+    fairsharing: NA
+    tess: NA
+  url: https://ersan.eu/MetaCo/free/codebook.html
