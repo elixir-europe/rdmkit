@@ -1,10 +1,19 @@
 name: Link Checker (PR)
 
-# Checks only the links that a pull request adds or changes, so a broken link
-# is flagged in review instead of in the nightly Link Checker Report.
+# Checks only the links that a pull request adds or changes and lists the ones
+# that could not be reached in a PR comment with a checkbox per link, so they
+# can be verified by hand in review. Unreachable links do not fail the check,
+# because many sites block automated requests (see issue #1908).
+#
+# Runs as pull_request_target so that PRs opened from forks get a writable
+# GITHUB_TOKEN (a plain pull_request run from a fork is read-only and cannot
+# post a comment). Only trusted code from the base branch is checked out and
+# executed here; the PR's commits are fetched as git objects to read the diff,
+# and their code is never checked out or run.
 on:
-  pull_request:
+  pull_request_target:
     branches: [master, main]
+    types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - '**.md'
       - '**.yml'
@@ -13,11 +22,18 @@ on:
 
 permissions:
   contents: read
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: pr-link-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   linkChecker:
+    # Draft PRs are skipped; the check runs once the PR is marked ready for review.
     if: |
-      github.repository_owner == 'elixir-europe'
+      github.repository_owner == 'elixir-europe' && !github.event.pull_request.draft
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,29 +41,141 @@ jobs:
           fetch-depth: 0
 
       - name: Collect lines added by this PR
+        id: collect
         env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          # Keep only the added/changed lines of content files; lychee then
-          # extracts the links from them. Written outside the workspace because
-          # lychee-action removes ./lychee before it runs.
-          git diff --unified=0 --no-color --diff-filter=AMR "$BASE_SHA...$HEAD_SHA" \
-            -- '*.md' '*.yml' '*.yaml' ':(exclude).github/**' \
-            | grep '^+' | grep -v '^+++ ' | sed 's/^+//' > "$RUNNER_TEMP/pr-added-lines.md" || true
-          echo "Lines added in content files: $(wc -l < "$RUNNER_TEMP/pr-added-lines.md")"
+          # Fetch the PR's commits as objects only; nothing from the PR is checked out.
+          git fetch --no-tags origin "+refs/pull/${PR_NUMBER}/head:refs/remotes/pr/head"
+
+          # Write the added/changed lines of each content file to
+          # $RUNNER_TEMP/pr-lines/<path>.md, so lychee reports the source file.
+          # The .md suffix makes lychee parse every file (YAML too) as Markdown.
+          # Written outside the workspace because lychee-action removes ./lychee.
+          OUT_DIR="$RUNNER_TEMP/pr-lines"
+          mkdir -p "$OUT_DIR"
+          count=0
+          git diff -z --name-status --diff-filter=AMR "$BASE_SHA...$HEAD_SHA" \
+            -- '*.md' '*.yml' '*.yaml' ':(exclude).github/**' > "$RUNNER_TEMP/pr-changed-files"
+          while IFS= read -r -d '' status; do
+            if [[ "$status" == R* ]]; then
+              IFS= read -r -d '' old_file
+              IFS= read -r -d '' file
+              diff_paths=("$old_file" "$file")
+            else
+              IFS= read -r -d '' file
+              diff_paths=("$file")
+            fi
+            mkdir -p "$OUT_DIR/$(dirname -- "$file")"
+            git --literal-pathspecs diff --unified=0 --no-color "$BASE_SHA...$HEAD_SHA" -- "${diff_paths[@]}" \
+              | grep '^+' | grep -v '^+++ ' | sed 's/^+//' > "$OUT_DIR/$file.md" || true
+            count=$((count + 1))
+          done < "$RUNNER_TEMP/pr-changed-files"
+          echo "Content files with added lines: $count"
+          echo "files=$count" >> "$GITHUB_OUTPUT"
 
       - name: Link Checker
         id: lychee
+        if: steps.collect.outputs.files != '0'
         uses: lycheeverse/lychee-action@v2.9.0
         with:
           # Same exclusions as the nightly Link Checker. Only external links are
           # checked: relative links, root-relative links (resolved against
           # --root-dir to file:// URLs) and {% tool %} tags only resolve in the
           # built site, which the nightly check covers.
-          args: --no-progress --exclude '^https://github\.com' --root-dir "${{ runner.temp }}" --scheme https --scheme http --accept '100..=103,200..=299,429' "${{ runner.temp }}/pr-added-lines.md"
-          # Unlike the nightly check, fail so the broken link is fixed in the PR.
-          fail: true
+          args: --no-progress --exclude '^https://github\.com' --root-dir "${{ runner.temp }}" --scheme https --scheme http --accept '100..=103,200..=299,429' "${{ runner.temp }}/pr-lines"
+          # Unreachable links are reported in a PR comment instead of failing.
+          fail: false
           # A PR whose added lines contain no links is fine.
           failIfEmpty: false
+          format: json
+          checkbox: false
+          output: ${{ runner.temp }}/lychee-report/out.json
           lycheeVersion: v0.24.2
+
+      - name: Comment unreachable links on the PR
+        uses: actions/github-script@v8
+        env:
+          REPORT: ${{ runner.temp }}/lychee-report/out.json
+          FILES: ${{ steps.collect.outputs.files }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const MARKER = '<!-- pr-link-check -->';
+            const sha = process.env.HEAD_SHA.slice(0, 7);
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+
+            // Collect unreachable links per source file: { 'pages/foo.md': [{url, status}] }
+            const failures = {};
+            if (process.env.FILES !== '0') {
+              if (!fs.existsSync(process.env.REPORT)) {
+                core.warning('Lychee produced no report; leaving the PR comment unchanged.');
+                return;
+              }
+              const report = JSON.parse(fs.readFileSync(process.env.REPORT, 'utf8'));
+              for (const map of [report.error_map, report.timeout_map]) {
+                for (const [source, entries] of Object.entries(map || {})) {
+                  // e.g. /home/runner/work/_temp/pr-lines/pages/foo.md.md -> pages/foo.md
+                  const file = source.split('/pr-lines/').pop().replace(/\.md$/, '');
+                  for (const entry of entries) {
+                    (failures[file] ??= []).push({ url: entry.url, status: entry.status?.text || 'unknown error' });
+                  }
+                }
+              }
+            }
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              ...context.repo, issue_number: context.issue.number, per_page: 100,
+            });
+            const existing = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(MARKER));
+
+            // Keep boxes ticked in the previous comment for links that still fail.
+            const ticked = new Set();
+            if (existing) {
+              let file = '';
+              for (const line of existing.body.split('\n')) {
+                const heading = line.match(/^\*\*`(.+)`\*\*$/);
+                if (heading) file = heading[1];
+                const item = line.match(/^- \[[xX]\] (\S+)/);
+                if (item) ticked.add(`${file}\n${item[1]}`);
+              }
+            }
+
+            const files = Object.keys(failures).sort();
+            let body;
+            if (files.length === 0) {
+              if (!existing) return; // Nothing to report and nothing to update.
+              body = [
+                MARKER,
+                '### 🔗 Link check',
+                `✅ All links added or changed in this PR are reachable (commit ${sha}).`,
+              ].join('\n');
+            } else {
+              const sections = files.map(file => {
+                const items = failures[file]
+                  .sort((a, b) => a.url.localeCompare(b.url))
+                  .map(f => `- [${ticked.has(`${file}\n${f.url}`) ? 'x' : ' '}] ${f.url} (${f.status})`);
+                return [`**\`${file}\`**`, ...items].join('\n');
+              });
+              body = [
+                MARKER,
+                '### 🔗 Link check',
+                'The links below, added or changed in this PR, could not be reached automatically.',
+                "This doesn't always mean they're broken (bot protection, rate limits and timeouts are common).",
+                "Please open each link and tick its box once you've confirmed it works, or fix it.",
+                '',
+                sections.join('\n\n'),
+                '',
+                `<sub>Checked at commit ${sha} · [workflow run](${runUrl})</sub>`,
+              ].join('\n');
+            }
+
+            if (existing) {
+              await github.rest.issues.updateComment({ ...context.repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body });
+            }
