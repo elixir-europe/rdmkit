@@ -2,7 +2,7 @@
 title: Systems biology models
 search_exclude: false
 description: Data management of systems biology models.
-contributors: [Carissa Bleker, Frank T. Bergmann]
+contributors: [Carissa Bleker, Frank T. Bergmann, Mihail Anton]
 editors: [Federico Bianchini]
 page_id: sysbio_models
 related_pages: 
