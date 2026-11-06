@@ -3675,12 +3675,6 @@
   id: opencor
   name: OpenCOR
   url: https://opencor.ws
-- description: Proprietary numerical computing environment, used among others for modelling workflows.
-  id: matlab
-  name: MATLAB
-  registry:
-    biotools: matlab
-  url: https://www.mathworks.com/products/matlab.html
 - description: Software library implementing EFECT for checking the reproducibility of stochastic simulations.
   id: libssr
   name: libSSR
