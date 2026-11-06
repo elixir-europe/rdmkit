@@ -226,7 +226,7 @@ Reproducible simulation results depend not only on the model structure but also 
 - Bundle the model with its simulation experiments, metadata, and documentation in a single package. The {% tool "combine-archive" %} is the systems biology option. {% tool "research-object-crate" %} is a generic one: it links all parts of a modelling experiment and can be published on {% tool "zenodo" %} with a DOI.
 - Use platforms that support simulation experiments: {% tool "fairdomhub" %} can organise, annotate, and publish modelling experiments together with their data and protocols, and {% tool "biosimulators" %} can run SED-ML files across a range of simulation tools and export Docker images.
 - Check models for errors before publication or repository submission, for example with the {% tool "sbml-validator" %}.
-- State the platforms and tools on which the model has been tested (for example {% tool "copasi" %}, {% tool "tellurium" %}, {% tool "opencor" %}, {% tool "matlab" %}-based workflows, or BioSimulators-compatible simulation engines).
+- State the platforms and tools on which the model has been tested (for example {% tool "copasi" %}, {% tool "tellurium" %}, {% tool "opencor" %}, MATLAB-based workflows, or BioSimulators-compatible simulation engines).
 
 ## Check and report reproducibility
 
