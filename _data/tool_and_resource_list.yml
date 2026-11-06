@@ -3691,3 +3691,9 @@
   id: sbml4humans
   name: SBML4Humans
   url: https://matthiaskoenig.github.io/sbml4humans/
+- description: Test suite for genome-scale metabolic models that checks annotation, stoichiometric consistency, and SBML compliance.
+  id: memote
+  name: MEMOTE
+  registry:
+    biotools: memote
+  url: https://memote.readthedocs.io

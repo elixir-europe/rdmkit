@@ -248,6 +248,7 @@ Reproducibility is the capacity to independently reproduce simulation results, e
 - Apply a reproducibility scorecard where available, such as the [BioModels 8-point reproducibility scorecard](https://www.ebi.ac.uk/biomodels/reproducibility).
 - Use model-type-specific reproducibility checks when possible, for example:
   - [FROG](https://www.biomodels.org/curation/fbc) analysis (Flux variability, Reaction deletion, Objective function, Gene deletion) for genome-scale/constraint-based models;
+  - {% tool "memote" %} for genome-scale metabolic models, which tests annotation, stoichiometric consistency, and SBML compliance;
   - EFECT (Empirical Characteristic Function Equality Convergence Test) for stochastic simulation studies, as implemented in {% tool "libssr" %};
   - the validation pipeline of {% tool "biodivine-boolean-models" %} for consistency checks of logical/Boolean models.
 - Clearly describe which scorecards or analyses were applied, so reviewers and users can assess repeatability.
