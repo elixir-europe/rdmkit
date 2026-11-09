@@ -152,7 +152,7 @@ jobs:
               body = [
                 MARKER,
                 '### 🔗 Link check',
-                `✅ All links added or changed in this PR are reachable (commit ${sha}).`,
+                `All links added or changed in this PR are reachable (commit ${sha}).`,
               ].join('\n');
             } else {
               const sections = files.map(file => {
