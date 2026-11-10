@@ -54,7 +54,7 @@ For health data, a nice example of working out what data quality means can be fo
 
 * Electronic data capturing system: {% tool "redcap" %} allows you to design electronic data capture forms and allows you to monitor the quality of data collected via those forms.
 * An example of [data dictionary](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwebdav.lcsb.uni.lu%2Fpublic%2Felixir%2Ftemplates%2FData_dictionary_example.xlsx) illustrating the elements and factors that should be defined for the variable needed by data collection.
-* The World Bank provides [quality assurance guidance](https://dimewiki.worldbank.org/wiki/Data_Quality_Assurance_Plan) for survey design and execution.
+* The World Bank provides [quality assurance guidance](https://dimewiki.worldbank.org/Data_Quality_Assurance_Plan) for survey design and execution.
 * The U.S. National Institute's of Health's provides [introductory training material](https://oir.nih.gov/sites/default/files/uploads/sourcebook/documents/ethical_conduct/data_quality_management-2015_05_15.pdf) on data quality.
 * Bio.tools' listing for [computational tools and pipelines for data quality control in life sciences](https://bio.tools/t?page=1&q=quality&sort=score).
 * Data integration tools that include pre-defined building blocks to monitor and check data quality, such as [Pentaho Community Edition (CE)](https://pentaho-public.atlassian.net/wiki/spaces/COM/overview), [Talend Open Studio](https://www.talend.com/products/talend-open-studio/).

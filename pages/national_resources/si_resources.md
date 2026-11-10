@@ -56,7 +56,7 @@ Some of ELIXIR Slovenia’s activities are funded by the European Union (EU).
 ## Regulations
 There are several guidelines and regulations in Slovenia that promote scientific integrity, open science, and research data management. The key aspects of the legal framework are listed below.
 
-- [Slovenian Research and Innovation Agency (ARIS)](http://www.arrs.si/en/index.asp) Guidelines: 
+- [Slovenian Research and Innovation Agency (ARIS)](https://www.aris-rs.si/en) Guidelines: 
   - Principles for research ethics, integrity and responsible conduct in research, including honesty, objectivity, transparency, and accountability.
   - Open access to scientific publications and data to ensure wider accessibility and dissemination of knowledge. Researchers are encouraged to publish their findings in open access journals and deposit their data in open repositories.
   - Data Management Plans (DMPs) have to be submitted as part of research project proposals. These plans outline how data will be collected, managed, preserved, and shared throughout the research project.

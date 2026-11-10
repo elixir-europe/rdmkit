@@ -54,7 +54,7 @@ The biomolecular simulation data comes in several forms and multiple formats, wh
   * General-purpose repositories such as {% tool "zenodo" %}, {% tool "figshare" %}, {% tool "mendeley-data" %}, {% tool "dryad" %}, and {% tool "openscienceframework" %} can be used.
   * Discipline-specific repositories can be used when the repository supports the type of data to be shared e.g. molecular dynamics data. Repositories for various data types and models are listed below:
     * Molecular Dynamics repositories
-      * {% tool "gpcrmd" %} - for GPCR protein simulations, [with submission process](https://submission.gpcrmd.org/accounts/login/?next=/accounts/memberpage/).
+      * {% tool "gpcrmd" %} - for GPCR protein simulations, [with submission process](https://www.gpcrmd.org/accounts/login/?next=/accounts/memberpage/).
       * {% tool "model" %} - (https://bio.tools/model) specific database for protein MD simulations.
       * {% tool "bignasim" %} - (https://bio.tools/bignasim) specific database for Nucleic Acids MD simulations, [with submission process](https://github.com/NMRLipids).
       * {% tool "model-cns" %} - specific database for Central Nervous System-related, mainly membrane protein, MD simulations.
