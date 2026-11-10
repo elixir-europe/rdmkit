@@ -5,7 +5,7 @@ editors: [Munazah Andrabi, Flora D'Anna]
 description: How to prepare data and find repositories for publication.
 page_id: data_publication
 related_pages: 
-    Tool_assembly: []
+    Tool_assembly: [metabarcoding_assembly]
 faircookbook:
 - name: Depositing to generic repositories - Zenodo use case
   url: https://w3id.org/faircookbook/FCB009

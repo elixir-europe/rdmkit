@@ -5,7 +5,7 @@ contributors: [Flora D'Anna, Korbinian Bösl, Nazeefa Fatima]
 editors: [Bert Droesbeke, Flora D'Anna, Korbinian Bösl]
 page_id: data_provenance
 related_pages: 
-  Tool_assembly: [ome, labid]
+  Tool_assembly: [ome, labid, metabarcoding_assembly]
 training:
   - name:
     registry:
