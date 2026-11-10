@@ -161,7 +161,7 @@
   registry:
     biotools: AgroPortal
     fairsharing: z4xpxx
-  url: http://agroportal.lirmm.fr/
+  url: https://agroportal.eu/
 - description: Amazon Web Services
   id: amazon-web-services
   name: Amazon Web Services
@@ -236,7 +236,7 @@
 - description: The ELSI Knowledge Base is an open-access resource platform that aims at providing practical know-how for responsible research.
   id: bbmri-eric-s-elsi-knowledge-base
   name: BBMRI-ERIC's ELSI Knowledge Base
-  url: https://www.bbmri-eric.eu/elsi/knowledge-base/
+  url: https://www.bbmri-eric.eu/knowledgebase/
 - description: The Beacon protocol defines an open standard for genomics data discovery.
   id: beacon
   name: Beacon
@@ -471,7 +471,7 @@
   registry:
     fairsharing: knp11s
     tess: Cellular Microscopy Phenotype Ontology (CMPO)
-  url: https://www.ebi.ac.uk/cmpo/
+  url: https://www.ebi.ac.uk/ols4/ontologies/cmpo
 - description: CERNBox cloud data storage, sharing and synchronization
   id: cernbox
   name: CERNBox
@@ -560,7 +560,7 @@
   name: Crypt4GH
   registry:
     tess: Crypt4GH
-  url: https://crypt4gh.readthedocs.io/en/latest/
+  url: https://crypt4gh.readthedocs.io/latest/
 - description: Cloud Storage Services for Synchronization and Sharing (CS3)
   id: cs3
   name: CS3
@@ -571,7 +571,7 @@
   registry:
     biotools: ctd
     tess: CTD
-  url: http://ctdbase.org/
+  url: https://ctdbase.org/
 - description: Command line tool and library for transferring data with URLs
   id: curl
   name: cURL
@@ -929,7 +929,7 @@
   name: FAIR Implementation Profile
   registry:
     fairsharing: '343864'
-  url: https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/
+  url: https://www.gofair.foundation/fip
 - description: The FAIR wizard utilizes FAIRification resources developed by the FAIRplus project and other platforms, suggests FAIRification materials based on the FAIRification requirements, and designs FAIRification solutions for data owners, data stewards, and other people involved in FAIRification.
   id: fair-wizard
   name: FAIR-Wizard
@@ -998,8 +998,8 @@
   url: https://stanford.freegenes.org/collections/open-genes
 - description: Principled and practical framework for the responsible sharing of genomic and health-related data.
   id: ga4gh-data-security-toolkit
-  name: GA4GH Data Security Toolkit
-  url: https://www.ga4gh.org/genomic-data-toolkit/data-security-toolkit/
+  name: GA4GH Data Security Work Stream
+  url: https://www.ga4gh.org/work_stream/data-security-work-stream/
 - description: Open standards for genomic data sharing.
   id: ga4gh-genomic-data-toolkit
   name: GA4GH Genomic Data Toolkit
@@ -1007,7 +1007,7 @@
 - description: Framework for Responsible Sharing of Genomic and Health-Related Data
   id: ga4gh-regulatory-and-ethics-toolkit
   name: GA4GH Regulatory and Ethics toolkit
-  url: https://www.ga4gh.org/genomic-data-toolkit/regulatory-ethics-toolkit/
+  url: https://www.ga4gh.org/work_stream/regulatory-ethics-work-stream-rews/
 - description: Open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.
   id: galaxy
   name: Galaxy
@@ -1156,7 +1156,7 @@
 - description: Resource for naming standards in biochemistry and molecular biology
   id: international-union-of-biochemistry-and-molecular-biology
   name: International Union of Biochemistry and Molecular Biology (IUBMB)
-  url: https://www.qmul.ac.uk/sbcs/iubmb/
+  url: https://iubmb.qmul.ac.uk/
 - description: Functional analysis of protein sequences by classifying them into families and predicting the presence of domains and important sites
   id: interpro
   name: InterPro
@@ -1213,11 +1213,11 @@
 - description: A collaborative resource from IUPAC and IUBMB for naming standards in biochemistry
   id: iupac-iubmb-joint-commission-on-biochemical-nomenclature
   name: IUPAC-IUBMB Joint Commission on Biochemical Nomenclature (JCBN)
-  url: https://www.qmul.ac.uk/sbcs/iupac/jcbn/
+  url: https://iupac.qmul.ac.uk/jcbn/
 - description: A registry platform for biological parts
   id: jbei-ice
   name: JBEI-ICE
-  url: https://ice.jbei.org
+  url: https://public-registry.jbei.org/
 - description: Jupyter notebooks allow to share code, documentation
   id: jupyter
   name: Jupyter
@@ -1311,7 +1311,7 @@
 - description: A repository of genomics data relating to the study of the metabolome
   id: metabolomexchange
   name: Metabolome Exchange
-  url: http://www.metabolomexchange.org/site/
+  url: http://www.metabolomexchange.org/
 - description: Cleans metagenomic reads to remove adapters, low-quality bases and host (e.g. human) contamination
   id: metagen-fastqc
   name: Metagen-FastQC
@@ -1396,7 +1396,7 @@
   name: MOLGENIS
   registry:
     biotools: molgenis
-  url: https://molgenis.gitbooks.io/molgenis/content/
+  url: https://molgenis.github.io/molgenis-emx2/#/
 - description: Database about interactions of molecules with membranes
   id: molmedb
   name: MolMeDB
@@ -1425,7 +1425,7 @@
 - description: A file-system based platform handling the transfer of data
   id: mytardis
   name: MyTARDIS
-  url: http://www.mytardis.org/
+  url: https://mytardis.readthedocs.io/en/latest/
 - description: Online database hosting a vast amount of biotechnological information including nucleic acids, proteins, genomes and publications. Also boasts integrated tools for analysis.
   id: national-center-for-biotechnology-information
   name: National Center for Biotechnology Information (NCBI)
@@ -1459,11 +1459,11 @@
   url: https://www.nextflow.io
 - description: Repository for lipid MD simulations to validate force fields with NMR data
   id: nmrlipids
-  name: NMRlipids
+  name: FAIRMD Lipids (formerly NMRlipids)
   registry:
     biotools: nmrlipids
     fairsharing: d32bc8
-  url: https://www.databank.nmrlipids.fi/
+  url: https://lipids.fairmd.org/
 - description: The National Poison Data System (NPDS) is a resource that provides poisson exposure occurring in the US and some freely associated states.
   id: npds
   name: NPDS
@@ -1856,7 +1856,7 @@
 - description: A scripting language for creating Synthetic Biology Open Language (SBOL) in a more abstract way.
   id: shortbol
   name: ShortBOL
-  url: http://shortbol.org
+  url: https://github.com/intbio-ncl/shortbol
 - description: Structure integration with function, taxonomy and sequence
   id: sifts
   name: SIFTS
@@ -1901,7 +1901,7 @@
   name: Standards for Reporting Enzyme Data (STRENDA)
   registry:
     fairsharing: 8ntfwm
-  url: https://www.beilstein-institut.de/en/projects/strenda/
+  url: https://www.beilstein-strenda-db.org/strenda/
 - description: Known and predicted protein-protein interactions.
   id: string
   name: STRING
@@ -1947,7 +1947,7 @@
   name: TG-GATES
   registry:
     biotools: open_tg-gates
-  url: https://toxico.nibiohn.go.jp/english/
+  url: https://dbarchive.biosciencedbc.jp/en/open-tggates/desc.html
 - description: An ontology for expressing environmental terms
   id: the-environment-ontology
   name: The Environment Ontology (EnvO)
@@ -1980,7 +1980,7 @@
 - description: The Toxicology in the 21st Century program, or Tox21, is a unique collaboration between several federal agencies to develop new ways to rapidly test whether substances adversely affect human health. This portal contains diverse downloadable results of the ToxCast project.
   id: toxcast-data
   name: ToxCast_data
-  url: https://www.epa.gov/chemical-research/exploring-toxcast-data-downloadable-data
+  url: https://www.epa.gov/comptox-tools/exploring-toxcast-data
 - description: Knowledge management and high-content analysis platform enabling analysis of integrated data for the purposes of hypothesis generation, hypothesis validation, and cohort discovery in translational research.
   id: transmart
   name: tranSMART
@@ -1994,7 +1994,7 @@
 - description: TU Delft costing tool helps to budget for data management personnel costs in proposals.
   id: tu-delft-data-management-costing-tool
   name: TU Delft data management costing tool
-  url: https://www.tudelft.nl/en/library/research-data-management/r/plan/data-management-costs
+  url: https://www.tudelft.nl/en/library/data-management/research-data-management/data-management-costs
 - description: A tool that contains weighted gene co-expression networks obtained from the Primary Human Hepatocytes, rat kidney, and liver TG-GATEs dataset.
   id: txg-mapr
   name: TXG-MAPr
@@ -2294,7 +2294,7 @@
 - description: Data Management Plan Generator
   id: easy-dmp
   name: easy.DMP
-  url: https://easydmp.no
+  url: https://www.sigma2.no/service/data-management-plan
 - description: Gene expression across species and biological conditions
   id: expression-atlas
   name: Expression Atlas
@@ -2374,7 +2374,7 @@
   registry:
     biotools: scipion
     fairsharing: EsY1WF
-  url: https://scipion.i2pc.es/
+  url: https://scipion-em.github.io/docs/
 - description: The RRI Toolkit helps stakeholders across Europe put Responsible Research and Innovation into practice.
   id: rri-toolkit
   name: RRI Toolkit
@@ -2695,7 +2695,7 @@
   registry:
     biotools: hpo
     fairsharing: kbtt7f
-  url: https://hpo.jax.org/app/
+  url: https://hpo.jax.org/
 - description: MinSCe is a minimum set of metadata categories used to describe a single-cell assay in sufficient detail to enable the analysis of transcriptomic data.
   id: minsce
   name: Minimum Information about a Single-Cell Experiment (minSCe)
@@ -2766,7 +2766,7 @@
   name: Disease Ontology (DOID)
   registry:
     fairsharing: 8b6wfq
-  url: http://www.disease-ontology.org
+  url: https://disease-ontology.org/
 - description: The Genomic Epidemiology Ontology (GenEpiO) covers vocabulary necessary to identify, document and research food-borne pathogens, infectious disease surveillance and outbreak investigations.
   id: genepio
   name: Genomic Epidemiology Ontology (GenEpiO)
@@ -2939,7 +2939,7 @@
 - description: A federated real-world evidence platform containing clinical and genomic data from patients with solid tumours.
   id: wayfind-r
   name: WAYFIND-R
-  url: https://wayfindr.eu/
+  url: https://www.wayfind-r.com/
 - description: A federated platform for cancer imaging data.
   id: eucaim
   name: European Cancer Imaging Initiative (EUCAIM)
@@ -3120,7 +3120,7 @@
   registry:
     biotools: pro
     fairsharing: 4ndncv
-  url: https://proconsortium.org/
+  url: https://github.com/PROconsortium
 - description: Chemotion is a repository for chemistry research data that provides solutions for current challenges to store research data in a feasible manner, allowing the conservation of domain specific information in a machine readable format.
   id: chemotion
   name: Chemotion
@@ -3303,7 +3303,7 @@
 - description: The International Code of Nomenclature for algae, fungi, and plants is the set of rules and recommendations that govern the scientific naming of all organisms traditionally treated as algae, fungi, or plants.
   id: iapt
   name: IAPT
-  url: https://www.iapt-taxon.org/nomen/main.php
+  url: https://www.iaptglobal.org/icn
 - description: Catalogue of Life is a collaboration that brings together contributions of taxonomists and informaticians.
   id: catalogue-of-life
   name: Catalogue of Life (CoL)
@@ -3428,7 +3428,7 @@
 - description: The Tool for Agroecology Performance Evaluation (TAPE) is a software tool designed to assess and evaluate the performance of agroecological practices. It provides a framework for analysing various aspects of agroecology, including environmental, economic, and social factors, to support sustainable agricultural practices.
   id: tape
   name: Tool for Agroecology Performance Evaluation (TAPE)
-  url: https://www.fao.org/agroecology/tools-tape
+  url: https://www.fao.org/agroecology/Database/tools-tape/en
 - description: Crop Nutrient Data is a comprehensive database that provides information on the nutrient content of various crops.
   id: crop-nutrient-data
   name: Crop Nutrient Data

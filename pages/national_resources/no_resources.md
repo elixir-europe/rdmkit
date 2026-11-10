@@ -161,22 +161,22 @@ national_resources:
     description: SkyHigh is IIK's installation in Gjøvik. Used for education and research activities.
     how_to_access: NTNU internal or upon application
     instance_of: openstack
-    url: https://skyhigh.iik.ntnu.no
+    url: https://www.ntnu.no/wiki/spaces/skyhigh/pages/93261214/Openstack+at+NTNU
   - name: SkyLow IIK
     description: SkyLow is IIK's testing and development platform.
     how_to_access: NTNU internal or upon application
     instance_of: openstack
-    url: https://skylow.iik.ntnu.no
+    url: https://www.ntnu.no/wiki/spaces/skyhigh/pages/93261214/Openstack+at+NTNU
   - name: Stack NTNU IT
     description: Stack is NTNU IT's general purpose OpenStack cloud.
     how_to_access: NTNU internal or upon application
     instance_of: openstack
-    url: https://stack.it.ntnu.no
+    url: https://www.ntnu.no/wiki/spaces/skyhigh/pages/93261214/Openstack+at+NTNU
   - name: Pile NTNU IT
     description: Pile is NTNU IT's testing and development platform.
     how_to_access: NTNU internal or upon application
     instance_of: openstack
-    url: https://pile.it.ntnu.no
+    url: https://www.ntnu.no/wiki/spaces/skyhigh/pages/93261214/Openstack+at+NTNU
 ref_to_main_resources:
   - mardb
   - marfun
@@ -218,7 +218,7 @@ We provide here a non-exhaustive list of research institutions with Data Managem
 
 ### Institutional storage guidelines
 
-Most universities in Norway classify data into four categories, depending on access requirements. These categories are based on recommendations from [SIKT](https://cms.sikt.no/sites/default/files/2023-02/Sektorstandard_klassifisering_av_informasjon%20%281%29.pdf).
+Most universities in Norway classify data into four categories, depending on access requirements. These categories are based on recommendations from [SIKT](https://cms.sikt.no/sites/default/files/2025-06/Klassifisering%20av%20informasjonsverdier%20%E2%80%93%20sektorstandard%201_0.pdf).
 * **Open (Green)**: Information can be available to everyone, without special access rights.
 * **Restricted (Yellow)**: Information must have some protections if access by unauthorised persons could harm the institution or collaborators in some way. The information can be available both internally and externally with controlled access rights.
 * **Confidential (Red)**: Information must have strict access rights if unauthorised access would cause damage to public interests, individuals, the institution, or collaborators.
@@ -230,28 +230,26 @@ Details and provided solutions vary according to each institution:
 * [University of Bergen (UiB)](https://www.uib.no/en/it/153608/storage-guide)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/storage-guide.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
-* [VID Specialized University](https://www.vid.no/en/research/research-data/data-storage-guide/)
+* [VID Specialized University](https://www.vid.no/en/research/research-support/research-data-management/tools-and-storage)
 
 ### Institutional guidelines related to personal data
 * [Guidance for personal research in the healthcare system](https://www.ehelse.no/normen/normen-dokumenter/Veileder-i-personvern-og-informasjonssikkerhet-i-forskningsprosjekter)
 * [Norwegian University of Life Sciences (NMBU)](https://www.nmbu.no/forskning/forskningsdata)
 * [Norwegian University of Science and Technology (NTNU) - Privacy in research guidelines](https://innsida.ntnu.no/wiki/-/wiki/English/Collection+of+personal+data+for+research+projects), also available [in Norwegian](https://i.ntnu.no/wiki/-/wiki/Norsk/Behandle+personopplysninger+i+student-+og+forskningsprosjekt)
 * [Norwegian University of Science and Technology - Health research guidelines](https://i.ntnu.no/helseforskning)
-* [University of Bergen (UiB)](https://www.uib.no/en/personaldata/130126/privacy-policy-university-bergen), also available [in Norwegian](https://www.uib.no/personvern)
+* [University of Bergen (UiB)](https://www4.uib.no/en/about-uib/privacy-policy-for-the-university-of-bergen), also available [in Norwegian](https://www.uib.no/personvern)
 * [University of Oslo (UiO)](https://www.uio.no/english/for-employees/support/privacy-dataprotection/personal-data-in-research.html)
 * [The Arctic University of Norway (UiT)](https://en.uit.no/research/ethics/art?p_document_id=754184), [full guidelines](https://uit.no/Content/800249/cache=1673451716000/Guidelines%20for%20processing%20of%20personal%20data%20in%20research%20and%20student%20projects%20at%20UiT.PDF) available as pdf
-* [VID Specialized University](https://www.vid.no/en/privacy-and-gdpr/research-and-publishing/)
+* [VID Specialized University](https://www.vid.no/en/privacy-and-gdpr/privacy-in-research)
 
 
 ## Support services
 
 ### Helpdesks
 
-The [ELIXIR Norway Helpdesk](https://elixir.no/helpdesk) offers bioinformatics and data management support together with documentation and support for using ELIXIR Norway's life science infrastructures. Researchers in Norway as well as international collaborators—including private companies and governmental research institutions—can contact the Helpdesk to request access to data management services.
+The [ELIXIR Norway Helpdesk](https://elixir.no/research-support/) offers bioinformatics and data management support together with documentation and support for using ELIXIR Norway's life science infrastructures. Researchers in Norway as well as international collaborators—including private companies and governmental research institutions—can contact the Helpdesk to request access to data management services.
 
 The [Global Biodiversity Information Facility (GBIF) Norway Helpdesk](https://www.gbif.no/services/) supplies IT-services and assistance with deposition of biodiversity data to affiliated organisations. If you are not currently part of the GBIF community, you can follow their guidelines to request endorsement. The GBIF network supports four classes of datasets: resources metadata, checklists, occurrences, and sampling-event data.
-
-The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates compliance with Norway-specific regulations and standards for ethical, legal, and societal issues, as part of Biobank Norway (BBMRI-NO).
 
 ### Institutional research data teams
 * [Norges teknisk-naturvitenskapelige universitet (NTNU)](https://i.ntnu.no/researchdata)
@@ -262,7 +260,7 @@ The [ELSI helpdesk for biobanking](https://bbmri.no/help-desk-elsi) facilitates 
 * [University of Agder](https://libguides.uia.no/c.php?g=653927&p=4778251#)
 * [Nord University](https://www.nord.no/en/research/researchers/research-data)
 * [University of Inland Norway](https://www.inn.no/english/library/research-support/research-data/research-data-management-team/)
-* [VID Specialized University](https://www.vid.no/en/research/research-data/)
+* [VID Specialized University](https://www.vid.no/en/research/research-support/research-data-management)
 * [Svalbard Integrated Arctic Earth Observing System, SIOS](https://sios-svalbard.org/DMsupport)
 
 ### Other data management infrastructures
@@ -277,14 +275,14 @@ NRIS, a collaboration between Sigma2 (a subsidiary of Sikt) and four universitie
 There are several RDM communities (with subject or local focus) in Norway to enable exchange and discussion:
  
 
-* [Life-Science RDM Group](https://elixir.no/organization/biomeddata/Life-Science-RDM-Group)
+* [Life-Science RDM Group](https://elixir.no/funding-and-projects/bio-med-data/)
 * [RDA Norway](https://www.rd-alliance.org/groups/rda-norway)
 * [University of Oslo Data Manager Network](https://www.ub.uio.no/english/libraries/dsc/data-managers-network/)
 * [Bergen Research Data Network](mailto:research-data@uib.no?subject=forskningsdata@uib.no)
 * [GIDA-Sápmi -Sámi Research Data Governance, members from Norway, Sweden and Finland](https://uit.no/research/sshf-no/project?pid=788403)
 * DataverseNO Network of Expertise
 * [FAIR Data Forum by Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/fairdataforum/)
-* [Sensitive Data Forum by NeIC](https://neic.no/sensitivedataforum/)
+* [Sensitive Data Forum by NeIC](https://neic.no/forum-sensitivedata/)
 
 
 
@@ -350,7 +348,6 @@ We provide here a list of ethics committees and guidelines, relevant to life sci
 * [Guidelines for Internet Research Ethics](https://www.forskningsetikk.no/retningslinjer/hum-sam/forskningsetisk-veileder-for-internettforskning/)
 * [Guidelines for the use of genetic studies of humans](https://www.forskningsetikk.no/retningslinjer/med-helse/retningslinjer-for-bruk-av-genetiske-undersokelser-av-mennesker-i-medisinsk-og-helsefaglig-forskning/)
 * [Payment to participants in medical or health research](https://www.forskningsetikk.no/retningslinjer/med-helse/betaling-til-deltakere-i-medisinsk-eller-helsefaglig-forskning/)
-* [Guidelines for the inclusion of women](https://www.forskningsetikk.no/retningslinjer/med-helse/inklusjon-av-kvinner/)
 * [Ethical guidelines for clinical trial of drugs](https://www.forskningsetikk.no/ressurser/publikasjoner/kliniske-utprovinger-av-legemidler/)
 * [Guidelines for research ethical and scientifically assessment of qualitative research projects](https://www.forskningsetikk.no/retningslinjer/med-helse/vurdering-av-kvalitative-forskningsprosjekt-innen-medisin-og-helsefag/)
 
@@ -375,20 +372,20 @@ These are some of the laws relevant for research data management in Norway. You 
 ### Health research data
 
 * [Health Research Act](https://lovdata.no/dokument/LTI/lov/2008-06-20-44)
-* [Regulations on the organisation of medical and health research](http://www.lovdata.no/for/sf/ho/ho-20090701-0955.html)
+* [Regulations on the organisation of medical and health research](https://lovdata.no/dokument/SF/forskrift/2009-07-01-955)
 * [Comments to health research legislative work by the Norwegian government](https://www.regjeringen.no/globalassets/upload/hod/hra/veileder-til-helseforskningsloven.pdf)
 * [Health Register Act](https://lovdata.no/dokument/NL/lov/2014-06-20-43)
 * [Regulations on population-based health surveys](https://lovdata.no/dokument/SF/forskrift/2018-04-27-645)
-* [Health Personnel Act](http://www.lovdata.no/all/nl-19990702-064.html)
-* [Patient and User Rights Act](http://www.lovdata.no/all/nl-19990702-063.html)
-* [Medicines Act](http://www.lovdata.no/all/nl-19921204-132.html)
-* [Regulations on clinical trials of medical products for human use](http://www.lovdata.no/for/sf/ho/ho-20091030-1321.html)
+* [Health Personnel Act](https://lovdata.no/dokument/NL/lov/1999-07-02-64)
+* [Patient and User Rights Act](https://lovdata.no/dokument/NL/lov/1999-07-02-63)
+* [Medicines Act](https://lovdata.no/dokument/NL/lov/1992-12-04-132)
+* [Regulations on clinical trials of medical products for human use](https://lovdata.no/dokument/SF/forskrift/2009-10-30-1321)
 * [Biotechnology Act (on the medical use of biotechnology)](https://lovdata.no/dokument/NL/lov/2003-12-05-100)
 * [e-helse Direktoratet: “Normen”: Norms for health research data](https://www.ehelse.no/normen/normen-dokumenter/Veileder-i-personvern-og-informasjonssikkerhet-i-forskningsprosjekter)
 
 ### Other laws of potential relevance to life sciences research data
 
-* [Archive Act](https://lovdata.no/dokument/NL/lov/1992-12-04-126)
+* [Archive Act (2025)](https://lovdata.no/dokument/NL/lov/2025-06-20-96)
 * [Research Ethics Act](https://lovdata.no/dokument/NL/lov/2017-04-28-23)
 * [Patent Act](https://lovdata.no/dokument/NL/lov/1967-12-15-9)
 * [Copyright Act](https://lovdata.no/dokument/NL/lov/2018-06-15-40)

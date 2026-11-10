@@ -93,7 +93,7 @@ Computing Unit of FCT. FCCN provides high-speed Internet connectivity and IT ser
 
 #### National Network for Advanced Computing
 
-The [RNCA - National Network for Advanced Computing](https://rnca.fccn.pt) - is managed by FCCN, with the aim of making advanced computing services available to the research, technology and innovation communities. RCNA's network of operational centres include the EuroHPC [Deucalion supercomputer](https://macc.fccn.pt/resources#deucalion). It is a member of the Iberian Advanced Computing Network, with also includes the [MareNostrum](https://www.bsc.es/marenostrum/marenostrum) supercomputers in Spain.
+The [RNCA - National Network for Advanced Computing](https://rnca.fccn.pt) - is managed by FCCN, with the aim of making advanced computing services available to the research, technology and innovation communities. RCNA's network of operational centres include the EuroHPC [Deucalion supercomputer](https://deucalion.acnca.pt/). It is a member of the Iberian Advanced Computing Network, with also includes the [MareNostrum](https://www.bsc.es/marenostrum/marenostrum) supercomputers in Spain.
 
 #### POLEN
 

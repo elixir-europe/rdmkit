@@ -58,6 +58,6 @@ A demo server maintained by the OME team is also available for users wishing to 
 
 OMERO can be used for the day-to-day data management of data.
 - Users can remotely view, [handle metadata](metadata_management), [analyse](data_analysis), generate figures ready for publication, etc.
-- The plaform can also be used to publish data either using public repository like Image Data Repository (IDR) or by enabling the public user within the OMERO installation in a given institution e.g. [Liverpool CCI gallery](https://cci02.liv.ac.uk/gallery/).
+- The plaform can also be used to publish data either using public repository like Image Data Repository (IDR) or by enabling the public user within the OMERO installation in a given institution.
 - It is the software platform for several public image repositories e.g. {% tool "image-data-resource" %},{% tool "empiar" %}
 - It is also used as a teaching platform by several institutions e.g. University of Dundee, Harvard Medical school.

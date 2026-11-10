@@ -31,7 +31,7 @@ national_resources:
       tool_assembly: [ifb]
       your_role: [researcher, data_steward, data storage]
       your_tasks: []
-    url: https://crusoe.ouvrirlascience.fr/en/application-en/
+    url: https://www.ouvrirlascience.fr/crusoe-2/
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs.
     how_to_access:

@@ -14,7 +14,7 @@ coordinators: [Lars Jermiin, Siobhán Cleary]
 training:
   - name: ELIXIR Ireland Training
     registry: ELIXIR Ireland
-    url: https://elixir-ireland.ie/training.html
+    url: https://elixir-ireland.ie/what-we-do/#training
 
 # ref_to_main_resources: 
 
