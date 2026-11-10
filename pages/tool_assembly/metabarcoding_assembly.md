@@ -78,7 +78,7 @@ The choice of pipeline depends strongly on the study. For biodiversity monitorin
 
 For a detailed overview of available pipelines, see the review by Hakimzadeh et al. {% cite hakimzadeh2024pile %}, which covers tools appropriate for water, sediment and eukaryote-only datasets. For an ASV-based metabarcoding analysis, {% tool "nf-core-ampliseq" %} is a well-documented, reproducible workflow that wraps several established tools. {% tool "mgnify" %} can also be used for comparative microbiome analyses, although it is better known for metagenomics analysis. {% tool "galaxy-ecology" %}, as well as other Galaxy Labs, provides a web-based platform that allows you to export your full analysis history which can be published as a  {% tool "research-object-crate" %}  to e.g.  {% tool "zenodo" %}. If you have created a new workflow you can make it publicly available (for example, via {% tool "workflowhub" %}), which is valuable for reproducibility (see also the [Galaxy tool assembly](galaxy_assembly)). WorkflowHub allows publishing workflows with a DOI, and {% tool "bio-tools" %} helps you identify suitable tools for specific analysis needs.
 
-Bioinformatics code and tailored pipelines should be published in a code repository such as {% tool "github" %}, registered in WorkflowHub with a DOI, and documented under the FAIRe term `code_repo` in the `projectMetadata` component.
+Bioinformatics code and tailored pipelines should be published in a code repository such as {% tool "github" %}, registered in WorkflowHub with a DOI, and documented under the term `code_repo` in the `projectMetadata` component of the {% tool "faire-checklist" %}.
 
 #### Reference database selection
 
