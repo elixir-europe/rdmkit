@@ -15,7 +15,7 @@ summary: Checklist for editors before approving and merging a pull request (PR).
    * `training`
    * `search_exclude` must be deleted
    * `description`
-   * `affiliations` (only used for Tool assembly pages)
+   * `supported_by` (only used for Tool assembly pages)
    * `coordinators`(only used in national pages + they must be listed as `contributors` as well)
    * `resources`
 5. Make sure that listed tools or resources are tagged in the text with the [correct snippet](tool_resource_update) + that its metadata is described in the [tool_and_resource_list.yml](https://github.com/elixir-europe/rdmkit/blob/master/_data/tool_and_resource_list.yml) file. 

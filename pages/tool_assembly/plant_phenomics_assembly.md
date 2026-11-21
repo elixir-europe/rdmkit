@@ -4,7 +4,7 @@ contributors: [Anne-Françoise Adam-Blondon, Cyril Pommier, Bert Droesbeke, Matt
 editors: [Bert Droesbeke, Korbinian Bösl]
 description: Tool assembly for managing plant phenomic data.
 page_id: plant_pheno_assembly
-affiliations:
+supported_by:
 related_pages: 
   Your_tasks: [metadata, data_publication]
   Your_domain: [plants]

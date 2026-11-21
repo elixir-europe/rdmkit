@@ -20,7 +20,8 @@ Prerequisites:
     * You can read the comments and write your opinion/questions/answers in the “Leave a comment” box. To submit your responses, click the green “Comment” button on the right.
     * You can always return to your opened issue by going to the [issues section](https://github.com/elixir-europe/rdmkit/issues) of our GitHub repo.
 
-{% include callout.html type="tip" content="You can also get to the [RDMkit](https://github.com/elixir-europe/rdmkit) repo on GitHub using the ‘GitHub’ link in the header of this site." %}
+{: .tip }
+> You can also get to the [RDMkit](https://github.com/elixir-europe/rdmkit) repo on GitHub using the 'GitHub' link in the header of this site.
 
 
 ## Read the guides
@@ -31,12 +32,13 @@ Before starting editing on GitHub:
 3. We use markdown. To learn how to create paragraphs, headings, format text, add links and images and much more, follow our [markdown cheat sheet](https://rdmkit.elixir-europe.org/markdown_cheat_sheet).
 4. Our pages contain metadata. Read more about them in our [page metadata guide](page_metadata).
 
-{% include callout.html type="tip" content="For more information on writing and formatting, visit [GitHub’s documentation](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github)." %}
+{: .tip }
+> For more information on writing and formatting, visit [GitHub's documentation](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github).
 
 
 ## Start editing {#start-editing}
-{% include callout.html type="important" content="Only move to the following steps if you and the editors have agreed on your plans and you have read the guides.
-" %}
+{: .important }
+> Only move to the following steps if you and the editors have agreed on your plans and you have read the guides.
 
 1. Find where to edit on GitHub
     * If you want to contribute to an existing page, go to the page on the site and click the “Edit me” pencil icon <i class="fa-solid fa-pencil text-primary"></i> next to the page title
@@ -49,7 +51,8 @@ Before starting editing on GitHub:
 * If you have mentioned tools or resources in your text, you will have to add them to the [tool and resource list](tool_resource_update).
 * If you want to list training material or link to other RDMkit pages, add it to the page metadata. Read more on how to do this in our [page metadata guide](page_metadata).
 
-{% include callout.html type="important" content="In general terms, you must avoid manual interlinking of RDMkit pages." %}
+{: .important }
+> In general terms, you must avoid manual interlinking of RDMkit pages.
 
 
 ## Submit your first draft
@@ -61,8 +64,11 @@ Before starting editing on GitHub:
     {% include image.html file="draft_pullrequest_github.png" inline=true alt="PrDraft pull request on GitHub" %}
 4. In the description of your pull request, link the issue related to this change by typing a hashtag # and the issue number. Suggestions will appear.
     {% include image.html file="linking_issues_github.png" inline=true alt="Linking issues in a pull request on GitHub" %}
-{% include callout.html type="tip" content="You can create a draft pull request when you're not ready to submit and will need to work more on it later. You can find more information about draft pull requests in the [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests)" %}
-{% include callout.html type="tip" content="You can return to your pull request by going to the [pull request section](https://github.com/elixir-europe/rdmkit/pulls) of our GitHub repo." %}
+{: .tip }
+> You can create a draft pull request when you're not ready to submit and will need to work more on it later. You can find more information about draft pull requests in the [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#draft-pull-requests).
+
+{: .tip }
+> You can return to your pull request by going to the [pull request section](https://github.com/elixir-europe/rdmkit/pulls) of our GitHub repo.
 
 
 ## Address editors' reviews by editing your pull request
@@ -79,4 +85,5 @@ When editors add comments or add a review of your pull request, you will be noti
 
 When all the requests have been addressed, the editors will mark the conversation as “Resolved” and the proposed changes as “Approved”. This means your content is ready to be published on the main website.
 
-{% include callout.html type="tip" content="You can also edit your pull request any time if you change your mind about anything in your pull request and the request is not closed yet." %}
+{: .tip }
+> You can also edit your pull request any time if you change your mind about anything in your pull request and the request is not closed yet.

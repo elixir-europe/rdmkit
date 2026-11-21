@@ -1,4 +1,36 @@
 {
     "name": "RDMkit",
-    "image": "mcr.microsoft.com/vscode/devcontainers/jekyll:latest"
+    "image": "mcr.microsoft.com/vscode/devcontainers/jekyll:latest",
+
+    // The image ships a root-owned GEM_HOME at /usr/local/bundle, so gem installs
+    // as the non-root "vscode" user fail with Bundler::PermissionError. Point
+    // Bundler at a user-owned directory instead.
+    "containerEnv": {
+        "GEM_HOME": "/home/vscode/.gem",
+        "BUNDLE_PATH": "/home/vscode/.gem",
+        "BUNDLE_APP_CONFIG": "/home/vscode/.gem",
+
+        // jekyll-github-metadata derives the repository name by shelling out to
+        // "git remote", which is unreliable on a bind-mounted workspace, and is
+        // skipped altogether when JEKYLL_ENV=production (as "make build" sets).
+        // Supplying the name directly is what the CI workflows do as well.
+        "PAGES_REPO_NWO": "elixir-europe/rdmkit"
+    },
+    "remoteEnv": {
+        "PATH": "/home/vscode/.gem/bin:${containerEnv:PATH}"
+    },
+
+    // Keep installed gems in a named volume so they survive container rebuilds
+    // and are not written into the (bind-mounted, slower) workspace.
+    "mounts": [
+        "source=rdmkit-gems,target=/home/vscode/.gem,type=volume"
+    ],
+
+    // A fresh named volume is created root-owned; hand it to vscode before use.
+    // The workspace is a bind mount whose owner uid git may read as root, which
+    // makes it refuse to run there ("detected dubious ownership").
+    "postCreateCommand": "sudo chown -R vscode:vscode /home/vscode/.gem && git config --global --add safe.directory ${containerWorkspaceFolder} && bundle install",
+
+    "forwardPorts": [4000, 35729],
+    "remoteUser": "vscode"
 }

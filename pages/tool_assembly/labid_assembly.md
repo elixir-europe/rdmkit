@@ -3,14 +3,14 @@ title: LabID
 contributors: [Laurent Thomas]
 editors: [Bert Droesbeke, Federico Bianchini]
 page_id: labid
-affiliations: [EMBL Heidelberg]
+supported_by: [EMBL Heidelberg]
 training:
   - name: Tutorials from the LabID user-documentation
     registry: LabID user-documentation
     url: https://grp-gbcs.embl-community.io/labid-user-docs/training/
 related_pages: 
-  Your_tasks: [data_organisation, data provenance, storage, metadata, machine learning, single-cell sequencing]
-  Your_domain: [bioimaging_data, proteomics, plant sciences]
+  Your_tasks: [data_organisation, data_provenance, storage, metadata]
+  Your_domain: [bioimaging_data, proteomics, plants, machine_learning, single_cell_sequencing]
 description: LabID is an all-in-one FAIR data management platform for life sciences institutes. It allows keeping track of datasets, samples, workflows and inventory, while also featuring an Electronic Lab Notebook.
 ---
 

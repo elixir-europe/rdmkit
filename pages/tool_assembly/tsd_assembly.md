@@ -4,7 +4,7 @@ contributors: [Tina Visnovska, Federico Bianchini, Korbinian Bösl, Nazeefa Fati
 editors: [Flora D'Anna, Korbinian Bösl]
 description: The Sensitive Data Service (TSD) provides a platform to store, compute and analyse research sensitive data in compliance with Norwegian regulations regarding individuals’ privacy.
 page_id: tsd
-affiliations: ["NO", ELIXIR Europe, University of Oslo]
+supported_by: ["NO", ELIXIR Europe, University of Oslo]
 related_pages: 
   Your_tasks: [dmp, storage, sensitive, data_security, gdpr_compliance, transfer]
   Your_domain: [human_data]
@@ -62,4 +62,4 @@ The computing services provided through TSD include an Illumina DRAGEN (Dynamic 
  
 ### Data Sharing and Preservation
  
-One solution for permanent archiving and sharing of personally identifiable genetic and phenotypic datasets resulting from biomedical research data is to deposit them to the {% tool "the-european-genome-phenome-archive" %}. The EGA applies a controlled access model. There can be limitations, e.g. given consents, for your datasets which prevents them from leaving your jurisdiction or being archived in general. This is partly addressed by federated EGA services with nodes operating from one country or institution under one specific jurisdiction. This model enables discovery of publicly shareable metadata about studies/datasets archived at the federated EGA nodes through the Central EGA, while the remaining data is stored in a local solution. The federated EGA nodes offer the same APIs as the Central EGA and provide independent data distribution to users. The [Norwegian Federated EGA](https://ega.elixir.no/) is accessible through {% tool "life-science-login" %}, compatible with [Feide](https://www.feide.no/).
+One solution for permanent archiving and sharing of personally identifiable genetic and phenotypic datasets resulting from biomedical research data is to deposit them to the {% tool "the-european-genome-phenome-archive" %}. The EGA applies a controlled access model. There can be limitations, e.g. given consents, for your datasets which prevents them from leaving your jurisdiction or being archived in general. This is partly addressed by {% tool "fega" %} services with nodes operating from one country or institution under one specific jurisdiction. This model enables discovery of publicly shareable metadata about studies/datasets archived at the federated EGA nodes through the Central EGA, while the remaining data is stored in a local solution. The federated EGA nodes offer the same APIs as the Central EGA and provide independent data distribution to users. The [Norwegian Federated EGA](https://ega.elixir.no/) is accessible through {% tool "life-science-login" %}, compatible with [Feide](https://www.feide.no/).

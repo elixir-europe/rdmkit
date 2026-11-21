@@ -4,7 +4,7 @@ contributors: [Wei Gu, Soumyabrata Ghosh, Muhammad Shoaib, Irina Balaur, Xinhui 
 editors: [Korbinian Bösl]
 description: TransMed tool assembly from ELIXIR Luxembourg supports projects in clinical and translational biomedicine.
 page_id: transmed
-affiliations: [ELIXIR Europe, LU]
+supported_by: [ELIXIR Europe, LU]
 related_pages: 
   Your_tasks: [compliance, storage, metadata, data_organisation, data_analysis, sensitive, gdpr_compliance, dmp]
   Your_domain: [human_data]

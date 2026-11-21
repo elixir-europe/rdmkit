@@ -314,7 +314,7 @@ ELIXIR Norway offers the comprehensive NeLS tool assembly for researchers in Nor
 
 ### Federated European Genome-phenome Archive (EGA) Norway node
 
-Established by ELIXIR Norway and hosted by the University of Oslo, the Norwegian Federated EGA node provides a secure, controlled platform for sharing and archiving sensitive personal data. This service prioritises making sensitive data findable, accessible, interoperable, and reusable (FAIR) while fully complying with GDPR and the Norwegian Personal Data Act. You can boost the visibility of your datasets while maintaining control over access permissions with a designated data access committee. Learn more at the [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/).
+Established by ELIXIR Norway and hosted by the University of Oslo, the Norwegian node of {% tool "fega" %} provides a secure, controlled platform for sharing and archiving sensitive personal data. This service prioritises making sensitive data findable, accessible, interoperable, and reusable (FAIR) while fully complying with GDPR and the Norwegian Personal Data Act. You can boost the visibility of your datasets while maintaining control over access permissions with a designated data access committee. Learn more at the [Norwegian node of the European genome-phenome archive for sensitive human (genetic) data](https://ega.elixir.no/).
 
 ### Norwegian tools assembly for sensitive personal data
 
