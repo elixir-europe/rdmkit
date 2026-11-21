@@ -81,3 +81,14 @@ Example:
   Will give: 
   
   {% tool "zenodo" %} is a powerful data publication service, which is supported by the European Commission and focused on research data, including supplemental material like software, tables, figures or slides.
+
+  The snippet is replaced by the full `name` of the tool or resource, as written in the YAML file. Many names already contain both the spelled-out form and the acronym, so check the `name` before writing the sentence around the snippet. For example, the `name` of `common-workflow-language` is "Common Workflow Language (CWL)":
+
+  ```
+  {% raw %}
+  Correct: workflows described in the {% tool "common-workflow-language" %}
+  Wrong:   workflows described in the Common Workflow Language ({% tool "common-workflow-language" %})
+  {% endraw %}
+  ```
+
+  The second sentence would render as "Common Workflow Language (Common Workflow Language (CWL))".
