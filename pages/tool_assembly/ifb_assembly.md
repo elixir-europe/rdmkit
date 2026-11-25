@@ -1,6 +1,6 @@
 ---
 title: IFB
-contributors: [Saliha Zenboudji-Beddek, Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna, Anne-Françoise Adam-Blondon, Morgane Thomas-Chaullier]
+contributors: [Saliha Zenboudji-Beddek, Jean-François Dufayard, Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna, Anne-Françoise Adam-Blondon, Morgane Thomas-Chaullier]
 editors: [Korbinian Bösl, Bert Droesbeke, Flora D'Anna]
 description: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_id: ifb
