@@ -4,7 +4,7 @@ title: Page coordinators
 
 ## What is a page coordinator?
 
-A page coordinator is a community member who looks after one or more RDMkit pages. Coordinators are usually (co-)authors of the page or experts on its topic, but anyone who knows the subject well and is willing to take on the role is welcome.
+A page coordinator is an individual appointed by a recognised community of domain experts. Coordinators look after one or more RDMkit pages and are usually (co-)contributors or experts on its topic.
 
 Coordinators are listed in the **Coordinators** tab at the bottom of the page they coordinate.
 
