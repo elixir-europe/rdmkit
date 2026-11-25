@@ -123,7 +123,7 @@ national_resources:
 
 This is an overview of research data management resources in France. These resources are accessible to research communities in France and their collaborators.
 
-The French governement has set up the ["Committee for Open Science"](https://www.ouvrirlascience.fr/home/), which brings together education and research stakeholders to support the implementation of the National Open Science Policy.
+The French government has set up the ["Committee for Open Science"](https://www.ouvrirlascience.fr/home/), which brings together education and research stakeholders to support the implementation of the National Open Science Policy.
 The second [national plan for open science](https://www.ouvrirlascience.fr/get-started-with-open-science/) was released in 2021.
 
 
