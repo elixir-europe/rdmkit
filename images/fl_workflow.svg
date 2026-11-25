@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="'Open Sans', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#376AC3"/>
+    </marker>
+    <marker id="arrow-magenta" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#C23669"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="420" fill="#ffffff"/>
+
+  <!-- Step 5 + 4 annotations above coordinator -->
+  <text x="360" y="18" font-size="11" fill="#73757d" text-anchor="middle" font-weight="700" font-style="italic">⑤ Repeat until convergence</text>
+  <text x="360" y="36" font-size="11" fill="#376AC3" text-anchor="middle" font-weight="600">④ Aggregate updates → new global model</text>
+
+  <!-- Coordinator node -->
+  <rect x="260" y="50" width="200" height="60" rx="6" fill="#376AC3"/>
+  <text x="360" y="76" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700">Coordinator</text>
+  <text x="360" y="96" font-size="11" fill="rgba(255,255,255,0.85)" text-anchor="middle">Central server</text>
+
+  <!-- LEFT PAIR: parallel arrows between coordinator and Client A -->
+  <!-- Blue down (outer/right side of pair) -->
+  <line x1="316" y1="112" x2="196" y2="212" stroke="#376AC3" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <!-- Magenta up (inner/left side of pair) -->
+  <line x1="164" y1="216" x2="284" y2="116" stroke="#C23669" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow-magenta)"/>
+
+  <!-- CENTRE PAIR: parallel vertical arrows for Client B -->
+  <!-- Blue down (right) -->
+  <line x1="370" y1="112" x2="370" y2="212" stroke="#376AC3" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <!-- Magenta up (left) -->
+  <line x1="350" y1="216" x2="350" y2="116" stroke="#C23669" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow-magenta)"/>
+
+  <!-- RIGHT PAIR: parallel arrows between coordinator and Client C -->
+  <!-- Blue down (inner/left side of pair) -->
+  <line x1="404" y1="112" x2="524" y2="212" stroke="#376AC3" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <!-- Magenta up (outer/right side of pair) -->
+  <line x1="556" y1="216" x2="436" y2="116" stroke="#C23669" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow-magenta)"/>
+
+  <!-- Labels left side -->
+  <text x="188" y="148" font-size="10" fill="#376AC3" text-anchor="end" font-weight="700">① Distribute</text>
+  <text x="188" y="160" font-size="10" fill="#376AC3" text-anchor="end" font-weight="700">global model</text>
+  <text x="174" y="186" font-size="10" fill="#C23669" text-anchor="end" font-weight="700">③ Send updates</text>
+
+  <!-- Labels right side -->
+  <text x="532" y="148" font-size="10" fill="#376AC3" text-anchor="start" font-weight="700">① Distribute</text>
+  <text x="532" y="160" font-size="10" fill="#376AC3" text-anchor="start" font-weight="700">global model</text>
+  <text x="546" y="186" font-size="10" fill="#C23669" text-anchor="start" font-weight="700">③ Send updates</text>
+
+  <!-- Client A -->
+  <rect x="100" y="220" width="160" height="56" rx="6" fill="#2a2e3d"/>
+  <text x="180" y="246" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Client A</text>
+  <text x="180" y="264" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">② Train on local data</text>
+
+  <!-- Client B -->
+  <rect x="280" y="220" width="160" height="56" rx="6" fill="#2a2e3d"/>
+  <text x="360" y="246" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Client B</text>
+  <text x="360" y="264" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">② Train on local data</text>
+
+  <!-- Client C -->
+  <rect x="460" y="220" width="160" height="56" rx="6" fill="#2a2e3d"/>
+  <text x="540" y="246" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Client C</text>
+  <text x="540" y="264" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">② Train on local data</text>
+
+  <!-- Data stays local boxes -->
+  <rect x="100" y="286" width="160" height="40" rx="4" fill="#f3f1f2" stroke="#C23669" stroke-width="1"/>
+  <text x="180" y="304" font-size="10" fill="#C23669" text-anchor="middle" font-weight="600">Raw data stays local</text>
+  <text x="180" y="318" font-size="10" fill="#73757d" text-anchor="middle">Hospital records</text>
+
+  <rect x="280" y="286" width="160" height="40" rx="4" fill="#f3f1f2" stroke="#C23669" stroke-width="1"/>
+  <text x="360" y="304" font-size="10" fill="#C23669" text-anchor="middle" font-weight="600">Raw data stays local</text>
+  <text x="360" y="318" font-size="10" fill="#73757d" text-anchor="middle">Genomic data</text>
+
+  <rect x="460" y="286" width="160" height="40" rx="4" fill="#f3f1f2" stroke="#C23669" stroke-width="1"/>
+  <text x="540" y="304" font-size="10" fill="#C23669" text-anchor="middle" font-weight="600">Raw data stays local</text>
+  <text x="540" y="318" font-size="10" fill="#73757d" text-anchor="middle">Biobank samples</text>
+
+  <!-- Legend -->
+  <line x1="210" y1="370" x2="250" y2="370" stroke="#376AC3" stroke-width="2"/>
+  <text x="258" y="374" font-size="11" fill="#2a2e3d">Global model (coordinator → clients)</text>
+
+  <line x1="210" y1="392" x2="250" y2="392" stroke="#C23669" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="258" y="396" font-size="11" fill="#2a2e3d">Model updates only (clients → coordinator)</text>
+
+</svg>
