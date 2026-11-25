@@ -14,7 +14,7 @@ training:
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=marine+metagenomics
   - name: ELIXIR Norways training pages
-    url: https://elixir.no/training/material
+    url: https://elixir.no/training/
   - name: Workshop materials on ELIXIR-SI eLearning Platform (EeLP)
     url: https://elixir.mf.uni-lj.si/course/index.php?categoryid=16  
 ---
@@ -36,7 +36,7 @@ To be able to use resources and tools that are mentioned here, you are recommend
 The support for data management planning and the Data Management Plan model for marine metagenomics in Norway is provided through the [ELIXIR-NO instance of the Data Stewardship Wizard](https://elixir-no.ds-wizard.org/projects/create/custom?selected=elixir.no:marinemetagenomics-elixir-norway:0.0.2). To read more on standards and best practices for the metagenomics data life-cycle, we refer you to a [publication for further reading](https://academic.oup.com/gigascience/article/6/8/gix047/3869082). Questions regarding the DSW and data management in general can be directed to the [ELIXIR Norway helpdesk](mailto:contact@bioinfo.no?subject=marine%20metagenomics).
 
 ### Data collection
-If you use one of the National Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/), they can directly upload data to your NeLS project for you, as described in [this page](https://elixir.no/Services-bak/data_produced_NorSeq)
+If you use one of the National Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/), they can directly upload data to your NeLS project for you, as described in [this page](https://nels-docs.readthedocs.io/en/latest/about.html#creating-a-project-in-nels-and-access-to-sbi)
 
 ### Data storage, sharing and compute
 The solutions for data storage, sharing and computation are built on the services and infrastructure delivered by ELIXIR Norway described in the Norwegian e-Infrastructure for Life Sciences (NeLS) [tool assembly](nels_assembly). 
@@ -47,7 +47,7 @@ The {% tool "marine-metagenomics-portal" %} provides a complete service for anal
 [Usegalaxy.no](https://usegalaxy.no/) is a Norwegian instance of the {% tool "galaxy" %} web-based platform for data intensive life science research that provides users with a unified, easy-to-use graphical interface to a host of more than 200 different analysis tools. Here, you can find tools for a wide variety of analysis for your marine metagenomic and genomic data. The tools are publicly available in the [Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/) which serves as an "appstore" so you can easily transfer them to your favourite Galaxy instance anywhere. You can run the tools interactively, one by one, or combine them into multi-step workflows that can be executed as a single analysis. Premade workflows (i.e for Taxonomic classification of metagenomic sequences) are provided, and you can request installation of your favourite tool by contacting the [ELIXIR Norway help desk](mailto:contact@bioinfo.no?subject=marine metagenomics).
 
 ### Data sharing and publishing
-ELIXIR Norway acts as a [broker for Norwegian end-users](https://elixir.no/news/52/63/ELIXIR-Norway-broker-data-to-ENA) that wish to submit data to {% tool "elixir-deposition-databases-for-biomolecular-data" %} (such as ENA), providing support in submitting the data on behalf of the data owners directly from the National e-infrastructure for Life Science (NeLS).
+ELIXIR Norway acts as a [broker for Norwegian end-users](https://elixir.no/news/2021/elixir-norway-broker-data-to-ena/) that wish to submit data to {% tool "elixir-deposition-databases-for-biomolecular-data" %} (such as ENA), providing support in submitting the data on behalf of the data owners directly from the National e-infrastructure for Life Science (NeLS).
 
 If you need help with publishing or are interested in using the brokering service, please contact the [ELIXIR Norway help desk](mailto:contact@bioinfo.no?subject=marine%20metagenomics).
 

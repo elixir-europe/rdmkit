@@ -53,7 +53,7 @@ Once the project is awarded, the data management plan needs to be executed throu
 * Possible difficulties during the execution of the DMP by individual partners may arise. Not all partners have the same skills and resources.
 * Possible problems with data exchange between partners can resurface during the project. 
 * Consider contacting and establishing collaborations for depositing data with key repositories, e.g. setting up an {% tool "ena-compare-data-hubs" %} for depositing sequence data at the {% tool "european-nucleotide-archive" %}
-or collaborating with {% tool "biostudies" %}, that can provide a project-specific data collection for early data sharing and sustainable data publishing (see, for example, [this dedicated collection](https://www.ebi.ac.uk/biostudies/EU-ToxRisk/studies) for the [EU-ToxRisk](https://eu-toxrisk.eu/) project on toxicity testing and risk assessment)
+or collaborating with {% tool "biostudies" %}, that can provide a project-specific data collection for early data sharing and sustainable data publishing (see, for example, [this dedicated collection](https://www.ebi.ac.uk/biostudies/EU-ToxRisk/studies) for the [EU-ToxRisk](https://cordis.europa.eu/project/id/681002) project on toxicity testing and risk assessment)
 
 ### Solutions 
 * The DMWG should have regular meetings to find appropriate solutions to arising data management issues.

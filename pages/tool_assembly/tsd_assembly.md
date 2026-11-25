@@ -10,7 +10,7 @@ related_pages:
   Your_domain: [human_data]
 training:
   - name: Documentation for the HPC cluster
-    url: https://www.uio.no/english/services/it/research/sensitive-data/help/hpc/index.html
+    url: https://docs.hpc.uio.no/hardware/colossus.html
   - name: Courses on the usage of TSD from the University of Oslo
     url: https://www.uio.no/for-ansatte/kompetanse/tema/data/nettskjema-tsd/
   - name: Recording of a previous course on Nettskjema and TSD (April 2020)
@@ -39,7 +39,7 @@ The Norwegian Tool Assembly for sensitive data offers support with [Data Managem
 In addition to its storage services, TSD offers safe environments for data [processing](processing) and [analysis](analysing). 
 As a national user, you can access TSD by identifying yourself using the Norwegian [ID-porten](https://eid.difi.no/en/id-porten) system. International users can get access by contacting [tsd-contact@usit.uio.no](mailto:tsd-contact@usit.uio.no).
 
-Within TSD, you can access a Windows or Linux virtual machine (VM) and, upon request, [high-performance computing (HPC) resources](https://www.uio.no/english/services/it/research/sensitive-data/help/hpc/index.html) and [backup storage](https://www.uio.no/english/services/it/research/sensitive-data/help/Backup-file-recovery.html). You log in using two-factor authentication with [Google Authenticator](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en) and a dedicated username and password. The [login procedure](https://www.uio.no/english/services/it/research/sensitive-data/help/login.html) is different for Windows and Linux VMs.
+Within TSD, you can access a Windows or Linux virtual machine (VM) and, upon request, [high-performance computing (HPC) resources](https://www.uio.no/english/services/it/research/hpc/colossus/) and [backup storage](https://www.uio.no/english/services/it/research/sensitive-data/help/Backup-file-recovery.html). You log in using two-factor authentication with [Google Authenticator](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=en) and a dedicated username and password. The [login procedure](https://www.uio.no/english/services/it/research/sensitive-data/help/login.html) is different for Windows and Linux VMs.
 
 As the primary design goal of TSD is data security, [transfer of data](data_transfer) by other means to and from [TSD is restricted and logged](https://www.uio.no/english/services/it/research/sensitive-data/help/import-export.html).
 
@@ -50,7 +50,7 @@ You can access the [ELIXIR-NO instance of the Data Stewardship Wizard](https://n
 
 ### Data Collection
 
-If you use one of the Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/) they can directly upload data to your TSD project for you - the process is described by ELIXIR Norway at [https://elixir.no/Services-bak/data_produced_NorSeq](https://elixir.no/Services-bak/data_produced_NorSeq)
+If you use one of the Norwegian research infrastructures, such as the Norwegian sequencing infrastructure [NorSeq](https://www.norseq.org/) they can directly upload data to your TSD project for you.
 
 The sensitive data tools assembly provides [Nettskjema](https://nettskjema.no) as a solution for designing and managing data collections using online forms and surveys. This is a secure and GDPR-compliant service. It can be accessed through the UiO's web pages and it is used through a web browser. Submissions from a Nettskjema questionnaire can be delivered securely (fully encrypted) to your project area within TSD. 
 TSD-users are granted access to Nettskjema through [IDporten or Feide](https://www.uio.no/tjenester/it/adm-app/nettskjema/mer-om/eksterne-brukere). When the Nettskjema form is complete, you can upload it on TSD following [these instructions](https://www.uio.no/tjenester/it/adm-app/nettskjema/hjelp/koble-skjema-til-tsd.html). After verification, the form can be used for collecting sensitive data. Note that further processing and analysis of the results should be conducted within TSD. If exporting data is necessary, the files should be properly [de-identified or anonymised](data_sensitivity.html#how-can-you-de-identify-your-data). 

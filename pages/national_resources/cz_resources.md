@@ -69,7 +69,7 @@ national_resources:
       Your_domain: []
       Your_role: [researcher, data_steward, research_software_engineer]
       Your_tasks: [storage, existing_data, identifiers, dmp]
-    url: https://data.narodni-repozitar.cz/
+    url: https://www.eosc.cz/en/projects/national-repository-platform-for-research-data-nrp/national-repository-platform
 ---
 
 ## Introduction 

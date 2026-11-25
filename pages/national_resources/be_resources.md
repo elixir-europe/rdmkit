@@ -61,7 +61,7 @@ national_resources:
       Your_domain: [plants]
       Your_role: [data_steward, researcher, research_software_engineer]
       Your_tasks: []
-    url: https://pippa.psb.ugent.be
+    url: https://www.psb.ugent.be/phenotyping/pippa
     registry:
       biotools: PIPPA
   - name: Belnet
@@ -105,7 +105,7 @@ In line with European funders, Belgian research funders require Data Management 
 * [Kom op tegen Kanker](https://www.komoptegenkanker.be).
 * Special Research Fund (BOF) from Universities.
 * [Fonds de la Recherche Scientifique (FNRS)](https://www.frs-fnrs.be/en/).
-  * [FNRS Scientific policy](https://www.frs-fnrs.be/en/politique-scientifique).
+  * [FNRS Scientific policy](https://www.frs-fnrs.be/en/our-commitments/scientific-policy).
 * EU-Team and/or Research support team from Universities.
 * [National Contact Points (NCPs)](https://ncpfederal.belspo.be/contact_en.stm) for help with navigating the EU funding system.
 

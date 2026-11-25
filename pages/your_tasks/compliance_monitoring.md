@@ -35,7 +35,7 @@ By knowing their capabilities institutions can spot areas of improvement and dir
 ### Solutions
 
 * FAIR data
-  *  GO-FAIR Initiative provides a framework for designing [metrics for the evaluation of FAIRness](https://www.go-fair.org/2017/12/11/metrics-evaluation-fairness/).
+  *  GO-FAIR Initiative provides a framework for designing [metrics for the evaluation of FAIRness](https://www.dtls.nl/2017/12/11/metrics-evaluation-fairness/).
 * RDA developed a first set of [guidelines and a checklist](https://zenodo.org/record/3909563#.YKZV3i0RpN1) related to the implementation of the FAIR indicators.
 * The [FAIRplus project](https://fairplus-project.eu) with its {% tool "fair-cookbook" %} provides services, tools, and indicators necessary for the assessment or the evaluation of data against the FAIR Principles.
     * {% tool "fair-evaluation-services" %} are an automated approach to evaluate FAIRness of data services.

@@ -37,13 +37,13 @@ national_resources:
       Your_tasks: [dmp]
     url: https://learning.dsw.elixir-europe.org/dashboard
 
-  - name: DPMRoadmap @ ELIXIR Luxembourg
-    description: This instance of DMPOnline is provided by ELIXIR Luxembourg and has FNR template for Data Management Plan (DMP).
+  - name: Data Stewardship Wizard @ ELIXIR Luxembourg
+    description: This instance of the Data Stewardship Wizard (DSW) is provided by ELIXIR Luxembourg for creating Data Management Plans (DMP).
     how_to_access: registration
-    instance_of: dmproadmap
+    instance_of: data-stewardship-wizard
     related_pages:
       Your_tasks: [dmp]
-    url: https://dmponline.elixir-luxembourg.org/
+    url: https://elixir-luxembourg.org/services/dmp/
 
   - name: Luxembourg COVID-19 Data Portal
     description: The Luxembourgish COVID-19 Data Portal acts as a collection of links and provides information to support researchers to utilise Luxembourgish and European infrastructures for data sharing.  

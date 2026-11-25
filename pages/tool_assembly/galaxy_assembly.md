@@ -155,7 +155,7 @@ Galaxy can be used at different stages of the data life cycle, covering from the
         <h4>Formats</h4>
         <ul class="lh-sm">
           <li>Archive file</li>
-          <li><a href="https://biocomputeobject.org/">BioCompute Object</a></li>
+          <li><a href="https://docs.biocomputeobject.org/">BioCompute Object</a></li>
           <li>{% tool "research-object-crate" %}</li>
         </ul>
         <h4>Export to remote sources</h4>

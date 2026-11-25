@@ -128,7 +128,7 @@ It is recommended that metadata collection is contemplated from the start of the
   
 * Tools and resources for data collection and management (all resources that support {% tool "miappe" %} also support {% tool "crop-ontology" %}):
   * A simple [MIAPPE Excel template](https://github.com/MIAPPE/MIAPPE/tree/master/Templates) enables pragmatic and basic data exchange. See also {% tool "miappe-compliant-spreadsheet-template" %} to potentially enhance customised templates with ontology tools such as {% tool "rightfield" %} or {% tool "onotomaton" %}.
-  * Submission using {% tool "miappe-compliant-spreadsheet-template" %} to databases such as {% tool "dataverse" %}, {% tool "zenodo" %} and {% tool "e-dal" %} is described in [Plant Phenomics](plant_pheno_assembly), which includes a detailled [step by step procedure](https://w3id.org/faircookbook/FCB083).
+  * Submission using {% tool "miappe-compliant-spreadsheet-template" %} to databases such as {% tool "dataverse" %}, {% tool "zenodo" %} and {% tool "e-dal" %} is described in [Plant Phenomics](plant_phenomics_assembly), which includes a detailled [step by step procedure](https://w3id.org/faircookbook/FCB083).
   * {% tool "fairdom-seek" %} is a free data management platform for which MIAPPE templates are available.
   * {% tool "dataverse" %} is a free data sharing platform where full datasets can be deposited with MIAPPE templates for a complete description. It is used in several repositories such as {% tool "recherche-data-gouv" %}.
   * {% tool "e-dal" %} is a free data management platform for which MIAPPE templates are in development.

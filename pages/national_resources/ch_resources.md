@@ -154,7 +154,7 @@ This page provides useful information and resources about research data manageme
 
 ### SERI
 
-The State Secretariat for Education, Research and Innovation ([SERI](https://www.sbfi.admin.ch/sbfi/en/home.html?_organization=1080)) within the Federal Department of Economic Affairs, Education and Research EAER is the federal government’s specialised agency for national and international matters concerning education, research and innovation policy.
+The State Secretariat for Education, Research and Innovation ([SERI](https://www.sbfi.admin.ch/en)) within the Federal Department of Economic Affairs, Education and Research EAER is the federal government’s specialised agency for national and international matters concerning education, research and innovation policy.
 
 ### SNFS
 
@@ -171,7 +171,7 @@ The ETH Domain falls under the authority of the Federal Department of Economic A
 
 ## National initiatives
  
-[Swiss Open Research Data](https://www.swissuniversities.ch/en/topics/digitalisation/open-research-data/national-strategy-and-action-plan)
+[Swiss Open Research Data](https://www.swissuniversities.ch/en/topics/open-science/open-research-data/national-strategy)
 In 2021, the State Secretariat for Education, Research and Innovation (SERI), the Swiss Conference of Rectors of Higher Education Institutions (swissuniversities), the Swiss National Science Foundation (SNSF) and Switzerland’s two federal institutes of technology (ETHZ in Zurich and EPFL in Lausanne) signed an agreement to develop a national strategy on open research data.
 
 The [Swiss ORD Strategy]( https://openresearchdata.swiss/what-is-ord/) provides a framework for the development of practices built around sharing research data in Switzerland, and for governing the services and infrastructures that support researchers and enable ORD practices. It should enable Switzerland to implement a coherent and ambitious open science policy in line with European and global developments.
@@ -196,10 +196,10 @@ SPHN is a national initiative under the leadership of the Swiss Academy of Medic
 ## Institutional RDM support and services
 
 * [University of Basel](https://researchdata.unibas.ch/en/services/)
-* [University of Bern](https://www.ub.unibe.ch/services/open_science/research_data_management/index_eng.html)
+* [University of Bern](https://www.ub.unibe.ch/services/open_science/index_eng.html)
 * [University of Fribourg](https://www.unifr.ch/researcher/en/openscience/open-research-data/research-data-management.html)
 * [University of Geneva](https://www.unige.ch/researchdata/en/home/)
-* [University of Lausanne](https://www.unil.ch/uniris/home/menuinst/donnees-de-recherche.html)
+* [University of Lausanne](https://www.unil.ch/unil/en/home/menuinst/universite/organisation-universite/unites-et-services/uniris-service-ressources-informationnelles-archives/donnees-de-recherche.html)
 * [University of St.Gallen](https://www.unisg.ch/en/university/library/research-and-publishing/data-services/)
 * [University of Zurich](https://www.ub.uzh.ch/en/wissenschaftlich-arbeiten/mit-daten-arbeiten.html)
 * [ETHZ](https://sis.id.ethz.ch/services/rdm/)

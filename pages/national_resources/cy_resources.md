@@ -41,7 +41,7 @@ in compliance with the [European General Data Protection Regulation (GDPR)](http
 
 ## Domain-specific infrastructures or resources
 
-The [Cyprus National Initiatives for Open Science in Europe – NI4OS Europe](https://ni4os.eu/overview/), aims to be a core contributor to the [European Open Science Cloud (EOSC)](https://eosc.eu/eosc-about/) service portfolio, commit to EOSC governance and ensure inclusiveness on the European level for enabling global Open Science
+The [Cyprus National Initiatives for Open Science in Europe – NI4OS Europe](https://cordis.europa.eu/project/id/857645), aims to be a core contributor to the [European Open Science Cloud (EOSC)](https://eosc.eu/eosc-about/) service portfolio, commit to EOSC governance and ensure inclusiveness on the European level for enabling global Open Science
 
 The [Cyprus Institite of Neurology and Genetics (CING)](https://www.cing.ac.cy/) acted as a hub for COVID-19 data during the pandemic. CING was involved in biosample collection and high-throughput data analysis of samples using Next Generation Sequencing (NGS).
 

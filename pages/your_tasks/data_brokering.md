@@ -49,7 +49,7 @@ There are many aspects to consider when getting started as a broker.
 The solutions that you adopt will vary depending on the agreements you have negotiated with data providers and/or recipients. The following are examples of general solutions that would help you comply with regulations and implement good data management practices.
 * [Data management plan](data_management_plan) – Many questions that you would answer while writing a data management plan can be relevant to answer when you specify the terms of service for your brokering service, such as data storage, data standards, legal and ethical, etc. 
 * [GDPR compliance](gdpr_compliance) – If you are working with data concerning people in the EU, you should make sure to comply with both national and international regulations for data protection.
-* Apply for brokering permissions at the repository where you plan to submit data. For example, you can have a broker account at ENA; in this case, please visit [ENA Documentation](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html) for guidelines on how to apply for such an account.
+* Apply for brokering permissions at the repository where you plan to submit data. For example, you can have a broker account at ENA; in this case, please visit [ENA Documentation](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/data-brokering.html) for guidelines on how to apply for such an account.
 
 ## Collecting and processing the metadata and data
 ### Description
@@ -84,5 +84,5 @@ Once relevant repositories are identified for data submission and sharing, being
 * As a data broker, you generally wish to submit large amounts of data continuously. Hence, having access to a submission command-line-interface (CLI) or API is generally preferred over a user interface.
 
 ### Solutions
-* For example, {% tool "european-nucleotide-archive" %} offers a submission CLI and API as well as an official data broker role. For more information on data submission as a broker, please visit: [https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html?highlight=broker](https://ena-docs.readthedocs.io/en/latest/faq/data_brokering.html?highlight=broker)
+* For example, {% tool "european-nucleotide-archive" %} offers a submission CLI and API as well as an official data broker role. For more information on data submission as a broker, please visit: [https://ena-docs.readthedocs.io/en/latest/submit/general-guide/data-brokering.html](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/data-brokering.html)
 * {% tool "ena-upload-tool" %}, a collaboratively developed and compiled Galaxy tools and workflows necessary to clean, assemble and submit sequences to the {% tool "european-nucleotide-archive" %}.
