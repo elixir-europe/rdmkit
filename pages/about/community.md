@@ -10,6 +10,7 @@ The RDMkit community aims to foster the adoption, enhancement, and incorporation
 
 RDMkit community includes:
 - [**Contributors**](contributors)
+- [**Page coordinators**](page_coordinators)
 - [**Editorial Board**](editorial_board)
 
 
