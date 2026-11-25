@@ -49,7 +49,7 @@ An overview of the IFB/ELIXIR-FR services supporting Open Science and FAIR data 
 
 ## Which steps and tools are contained in the IFB data management tool assembly?
 
-{% include image.html file="fr_ifb_assembly_update.svg" caption="Figure 1. The French Bioinformatics Institute (IFB) tool assembly." alt="IFB RDMkit" %}
+{% include image.html file="fr_ifb_assembly.svg" caption="Figure 1. The French Bioinformatics Institute (IFB) tool assembly." alt="IFB RDMkit" %}
 
 ### Data management planning
 
