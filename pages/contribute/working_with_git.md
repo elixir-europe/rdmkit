@@ -67,9 +67,12 @@ To run the website locally, you can either use {% tool "docker" %} or use Jekyll
 
 1. If not already installed on your machine, install Docker. From the root of the ``rdmkit`` directory, run:
     ```
-    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:4 /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll serve -w - --host 0.0.0.0 --livereload"
+    docker run -it --rm -p 4000:4000 -v $PWD:/srv/jekyll jekyll/jekyll:4 bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload"
     ```
 This will start the docker container and serve the website locally.
+
+{: .tip }
+> On Linux, the container runs as root, so the files it creates (such as `_site/`) are owned by root. To create them as your own user instead, add `--user $(id -u):$(id -g) -e BUNDLE_PATH=vendor/bundle` after `docker run`.
 
 ### Run using Jekyll directly
 
