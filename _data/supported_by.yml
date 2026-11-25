@@ -198,6 +198,6 @@
 - name: IFB
   type: institution
   image_url: /images/institutions/IFB_logo.svg
-  pid: 
+  pid: https://ror.org/045f7pv37
   expose: yes
   url: https://www.ifb-elixir.fr/
