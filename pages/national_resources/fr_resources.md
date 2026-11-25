@@ -22,7 +22,7 @@ national_resources:
     related_pages:
       Tool_assembly: [ifb]
       Your_role: [researcher, data_steward]
-      Your_tasks: [dmp]
+      Your_tasks: [data_management_plan]
     url: https://cat.opidor.fr
   - name: CRUSOE
     description: An online support tool for research data repositories wishing to apply for CoreTrustSeal certification or simply to use the CoreTrustSeal criteria to find out about their own repositories and improve their practices.
@@ -30,8 +30,8 @@ national_resources:
     instance_of: 
     related_pages:
       Tool_assembly: []
-      Your_role: [researcher, data_steward, data storage]
-      Your_tasks: []
+      Your_role: [researcher, data_steward]
+      Your_tasks: [storage]
     url: https://crusoe.ouvrirlascience.fr/en/application-en/
   - name: DMP OPIDoR
     description: Online questionnaire for the development of data management plans - repository of DMPs.
@@ -40,16 +40,16 @@ national_resources:
     related_pages:
       Tool_assembly: [ifb]
       Your_role: [researcher, data_steward]
-      Your_tasks: [dmp]
+      Your_tasks: [data_management_plan]
     url: https://dmp.opidor.fr
   - name: DSW@IFB
-    description: The support service for the development of data management plans in life sciences hosted by the French Bioinformatics Institute (IFB/ELIXIR-FR). It is based on an instance of the Data Stewardship Wizard (DSW).
+    description: The support service for the development of data management plans in life sciences hosted by the French Bioinformatics Institute (IFB/ELIXIR-FR). It is based on an instance of Data Stewardship Wizard (DSW).
     how_to_access:
     instance_of: data-stewardship-wizard
     related_pages:
       Tool_assembly: [ifb]
       Your_role: [researcher, data_steward]
-      Your_tasks: [dmp]
+      Your_tasks: [data_management_plan]
     url: https://dsw.france-bioinformatique.fr/
   - name: Recherche Data Gouv Repository
     description: The Recherche Data Gouv multidisciplinary repository is a sovereign solution for sharing and opening up data produced by communities that do not have a recognized disciplinary repository. It is based on the Dataverse software.
@@ -57,8 +57,8 @@ national_resources:
     instance_of: dataverse
     related_pages:
       Tool_assembly: [ifb]
-      Your_role: [researcher, data_steward, data storage, data management]
-      Your_tasks: []
+      Your_role: [researcher, data_steward]
+      Your_tasks: [data storage, data management]
     url: https://entrepot.recherche.data.gouv.fr/
   - name: FAIR-Checker
     description: FAIR-Checker is a tool aimed at assessing FAIR principles and empowering data providers to enhance the quality of their digital resources.
@@ -131,7 +131,7 @@ The second [national plan for open science](https://www.ouvrirlascience.fr/get-s
 
 
 - [National Research Agency (ANR) Open Science Policy](https://anr.fr/en/anrs-role-in-research/commitments/open-science/)
-- [French Ministry of Higher Education and Research Open Science Plateform](https://www.ouvrirlascience.fr/category/resources/)
+- [French Ministry of Higher Education and Research Open Science Platform](https://www.ouvrirlascience.fr/category/resources/)
 
 
 
@@ -171,7 +171,7 @@ By encouraging the reuse of data, Recherche Data Gouv stimulates innovation, avo
 
 - [INIST](https://www.inist.fr/) is in charge of the [OPIDoR](https://opidor.fr/) and [DORANum](https://doranum.fr/) portals which provide the higher education and research community with tools, services and training that support the implementation of the FAIR principles (DMP OPIDoR, Cat OPIDoR and PID OPIDoR).
 
-- [The Committee for Open Science CoSO](https://www.ouvrirlascience.fr/the-committee-for-open-science/) is a national committe that supports the implementation of the National Open Science Policy.
+- [The Committee for Open Science CoSO](https://www.ouvrirlascience.fr/the-committee-for-open-science/) is a national committee that supports the implementation of the National Open Science Policy.
 Its core responsibilities include coordinating the national strategy, developing open science skills, steering France’s European and international engagement, defining orientations for the National Open Science Fund, and guiding negotiations with major scientific publishers.
 
 - [The Committee of services and digital infrastructures, CoSIN](https://www.canal-u.tv/sites/default/files/medias/fichiers/2025/10/16-09-S02%20-%20Arnauld%20Leservot%20-%20v2.pdf) supports the digital transformation of Higher Education and Research by developing environmentally responsible infrastructures, pooling expertise, and supporting national and European strategic projects.

@@ -4,7 +4,7 @@ contributors: [Saliha Zenboudji-Beddek, Jean-François Dufayard, Olivier Collin,
 editors: [Korbinian Bösl, Bert Droesbeke, Flora D'Anna]
 description: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_id: ifb
-supported_by: [ "IFB","ELIXIR Europe", "FR" ]
+supported_by: [ "IFB", "IFB/ELIXIR-FR", "ELIXIR Europe", "FR" ]
 related_pages: 
   Your_tasks: [dmp, data_organisation, storage, data_publication, transfer, metadata, data_analysis]
   Your_domain: []
@@ -21,7 +21,6 @@ training:
     url: https://moodle.france-bioinformatique.fr/course/index.php?categoryid=2&lang=fr
   - name: Doranum, the french national resources to support the scientific community for data management and sharing(in French)
     url: https://doranum.fr
-Resources:
   - name: Documentation for the IFB/ELIXIR-FR core cluster
     URL: https://ifb-elixirfr.gitlab.io/cluster/doc/
   - name: Documentation for the Biosphere cloud federation
@@ -64,7 +63,7 @@ IFB/ELIXIR-FR hosts its own instance [DSW@IFB](https://dsw.france-bioinformatiqu
 
 IFB/ELIXIR-FR facilitates data and [metadata collection](https://rdmkit.elixir-europe.org/collecting) through [madbot](https://madbot.france-bioinformatique.fr/), a software that stores metadata along with links to the data in their storage place during the project. Storage capacities are provided by IFB/ELIXIR-FR’s National Network of Computing Resources [NNCR](https://nncr-clusters.france-bioinformatique.fr/). 
 
-To support data collection along with standard metadata, IFB/ELIXIR-FR is providing [{% tool "fairdom-seek" %}](https://seek4science.org/) instance which is available at [GenOuest](https://research-sharing.cesgo.org) core facility. 
+To support data collection along with standard metadata, IFB/ELIXIR-FR is providing a [{% tool "fairdom-seek" %}](https://seek4science.org/) instance which is available at [GenOuest](https://research-sharing.cesgo.org) core facility. 
 
 ### Data processing and analysis 
 
@@ -83,7 +82,7 @@ For bioimage analysis, researchers can explore {% tool "biii" %}, the BioImage I
 ### Data sharing and publishing
  In France, providing access to public research data is mandatory. It is advised to publish such data in dedicated repositories. IFB/ELIXIR-FR encourages researchers to browse the list of  {% tool "elixir-deposition-databases-for-biomolecular-data" %} and the {% tool "elixir-core-data-resources" %} to identify the appropriate repository for their data type. In addition, a list of [trusted repositories](https://recherche.data.gouv.fr/en/repositories) is maintained by Recherche Data Gouv.
 
- IFB/ELIXIr-FR members contribute to domain-specific thematic repositories hosted in France: - {% tool "imgt" %} and - {% tool "orphadata-science" %}.
+ IFB/ELIXIR-FR members contribute to domain-specific thematic repositories hosted in France: - {% tool "imgt" %} and - {% tool "orphadata-science" %}.
 
  For the semantic annotation of data, software and services, IFB/ELIXIR-FR recommends the use of {% tool "edam" %}, a comprehensive ontology of bioinformatics operations, data types, formats and topics. To ensure that published data are findable and citable, IFB/ELIXIR-FR promotes the attribution of persistent identifiers through {% tool "datacite" %}.
 
@@ -93,4 +92,4 @@ For bioimage analysis, researchers can explore {% tool "biii" %}, the BioImage I
 
 ### Compliance monitoring & measurement
 
-IFB/ELXIIR-FR promotes the implementation of FAIR principles. To this end, IFB/ELIXIR-FR provides and encourages the use of [FAIR-Checker](https://fair-checker.france-bioinformatique.fr/), a web service aimed at assenssing and monitoring FAIRness levels of online digital resources. This tool also relies on metadata profiles (mandatory/recommended/optional) such as Bioschemas or Datacite to evaluate metadata completeness. 
+IFB/ELXIIR-FR promotes the implementation of FAIR principles. To this end, IFB/ELIXIR-FR provides and encourages the use of [FAIR-Checker](https://fair-checker.france-bioinformatique.fr/), a web service aimed at assessing and monitoring FAIRness levels of online digital resources. This tool also relies on metadata profiles (mandatory/recommended/optional) such as Bioschemas or Datacite to evaluate metadata completeness. 

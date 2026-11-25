@@ -201,3 +201,9 @@
   pid: https://ror.org/045f7pv37
   expose: yes
   url: https://www.ifb-elixir.fr/
+- name: IFB/ELIXIR-FR
+  type: institution
+  image_url: /images/institutions/elixir_node_france.png
+  pid: https://ror.org/045f7pv37
+  expose: yes
+  url: https://www.ifb-elixir.fr/
