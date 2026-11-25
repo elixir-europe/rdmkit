@@ -105,7 +105,7 @@ national_resources:
     related_pages:
       Tool_assembly: [ifb]
       Your_role: [researcher, data_steward]
-      Your_tasks: []
+      Your_tasks: [metadata]
     url: https://madbot.france-bioinformatique.fr/
   - name: Biosphere
     description: The IFB/ELIXIR-FR cloud federation, which gives access to ready-to-use virtual machines  for bioinformatics analyses, listed in the RainBio catalogue.
