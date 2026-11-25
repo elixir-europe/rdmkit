@@ -195,3 +195,9 @@
   pid: https://ror.org/03mstc592
   expose: yes
   url: https://www.embl.org/
+- name: IFB
+  type: institution
+  image_url: /images/institutions/IFB_logo.svg
+  pid: 
+  expose: yes
+  url: https://www.ifb-elixir.fr/
