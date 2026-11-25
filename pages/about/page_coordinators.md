@@ -37,8 +37,5 @@ Since a coordinator is the contact point for the page, it is **mandatory** that 
 
 ## How to become a page coordinator
 
-If you want to become the coordinator of a page:
-
-* Open a [pull request](how_to_contribute) adding your name to the `coordinators` attribute of the page, or
-* [Open an issue](https://github.com/elixir-europe/rdmkit/issues/new/choose) or contact the editorial board at rdm-editors@elixir-europe.org stating which page you would like to coordinate.
+If you want to become the coordinator of a page, contact the editorial board at rdm-editors@elixir-europe.org stating which page you would like to coordinate. Please provide a brief history of your contributions to RDMkit and connections with the relevant communities.
 
