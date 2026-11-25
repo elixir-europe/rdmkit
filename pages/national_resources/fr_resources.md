@@ -77,8 +77,8 @@ national_resources:
     instance_of: galaxy
     related_pages:
       Tool_assembly: [ifb]
-      Your_role: [researcher, data_steward, metadata, brokering]
-      Your_tasks: []
+      Your_role: [researcher, data_steward]
+      Your_tasks: [data_brokering, metadata]
     url: https://usegalaxy.fr/
   - name: HAL
     description: HAL is a multidisciplinary open archive platform used by the entire scientific community—researchers and scholar-teachers affiliated with a public scientific and technological institution, a university, or a grande école. HAL is interconnected with major international repositories such as arXiv, PubMed Central, RePEc, and OpenAIRE.
