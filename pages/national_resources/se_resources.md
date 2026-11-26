@@ -67,13 +67,13 @@ national_resources:
     url: https://www.naiss.se/ 
   - name: SciLifeLab RDM Guidelines
     description: Knowledge hub for the management of life science research data in Sweden.
-    url: https://data-guidelines.scilifelab.se/
+    url: https://rdm-guidelines.scilifelab.se/
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
       Your_domain: [human_data]
       Your_tasks: [sensitive]
-    url: https://data-guidelines.scilifelab.se/topics/research-involving-human-data/
+    url: https://rdm-guidelines.scilifelab.se/topics/research-involving-human-data/
   - name: FEGA Sweden
     description: The Swedish node of Federated European Genome-phenome Archive (FEGA), which offers secure archiving and sharing of genetic and phenotypic data resulting from Swedish biomedical research projects.
     instance_of: the-european-genome-phenome-archive
@@ -122,17 +122,17 @@ national_resources:
 
 ## Introduction 
 
-This page provides a general overview of national resources on research data management (RDM) and Open Science in Sweden, directed towards researchers and official collaborators. National and long term data management goals and objectives are provided in the research and innovation bill [2024/25:60](https://www.regeringen.se/contentassets/a70996e2f9de4222b5a6880d33c20d35/forskning-och-innovation-for-framtid-nyfikenhet-och-nytta-prop.-20242560.pdf) (in Swedish). The Swedish ELIXIR node [**National Bioinformatics Infrastructure Sweden (NBIS)**](https://nbis.se/) offers support and training in data management to life science researchers in Sweden, in collaboration with the [**SciLifeLab Data Centre**](https://www.scilifelab.se/data/).
+This page provides a general overview of national resources on research data management (RDM) and Open Science in Sweden, directed towards researchers and official collaborators. National and long term data management goals and objectives are provided in the research and innovation bill [2024/25:60](https://www.regeringen.se/contentassets/a70996e2f9de4222b5a6880d33c20d35/forskning-och-innovation-for-framtid-nyfikenhet-och-nytta-prop.-20242560.pdf) (in Swedish). The Swedish ELIXIR node [**National Bioinformatics Infrastructure Sweden (NBIS)**](https://nbis.se/) offers support and training in data management to life science researchers in Sweden, in collaboration with the [**SciLifeLab Data Centre**](https://www.scilifelab.se/data-ai/).
 
 ## Policies and guidelines
 
-The [**Swedish Research Council**](https://www.vr.se/) has a government mandate to coordinate and promote Sweden’s work on introducing [**open access**](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html) to research data, with the goal for transition to open access to research data to be fully implemented by 2026. As of 2019, all recipients of grants from the council are required to have a data management plan (DMP), written according to their [**DMP template**](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/producing-a-data-management-plan/data-management-plan-template.html), which is a partially revised version of Science Europe’s "Core Requirements for Data Management Plans".
+The [**Swedish Research Council**](https://www.vr.se/) has a government mandate to coordinate and promote Sweden’s work on introducing [**open access**](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html) to research data, with the goal for transition to open access to research data to be fully implemented by 2026. As of 2019, all recipients of grants from the council are required to have a data management plan (DMP), written according to their [**DMP template**](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/data-management-plan-template.html), which is a partially reworked version of Science Europe’s "Core Requirements for Data Management Plans".
 
-[**Formas**](https://formas.se/) - The Swedish Research Council for Environment, Agricultural Sciences and Spatial Planning - has a [**policy**](https://formas.se/download/18.7357e3f3168752d5a10c7f7/1549956105856/Beslut_policy_oppna_data.pdf) on open access to research data, and requires that a [**DMP**](https://formas.se/soka-finansiering/sa-har-gar-det-till/att-kanna-till-nar-du-skriver-en-ansokan.html) is written and can be shown upon request.
+[**Formas**](https://formas.se/) - The Swedish Research Council for Environment, Agricultural Sciences and Spatial Planning - has a [**policy**](https://formas.se/download/18.2e79248019931f7628194c8a/1758274143665/Formas%20policy%20for%20open%20access%20to%20scientific%20publications.pdf) on open access to scientific publications, and requires that a [**DMP**](https://formas.se/en/start-page/apply-for-funding/how-it-works/good-to-know-before-you-apply.html#h-Openaccesstoresearchresultsanddata) is written and can be shown upon request.
 
 The National Library of Sweden provides [national guidelines](https://www.kb.se/for-bibliotekssektorn/eng/open-science/national-guidelines-for-open-science.html) intended to provide support and guidance for the different stakeholders in Sweden who have overarching responsibility in the transition to open science. The purpose of these guidelines is to outline the direction for the continued development towards open science in Sweden, specifying which key actors are responsible for what, as well as how the guidelines are to be monitored and updated over time.
 
-Many universities have established data and open access policies, for more information contact the Research Data Office (RDO) (see list at the end of the page).
+Many universities have established data and open access policies, for more information contact the Research Data Office (RDO) (see table at the end of the page).
 
 ## Authorities and Regulations
 
@@ -142,7 +142,7 @@ The following is a list of ethical and legal committees, authorities and regulat
 
 ### Authorities
 
-* [Swedish Ethical Review Authority](https://etikprovningsmyndigheten.se/)
+* [Swedish Ethical Review Authority](https://etikprovningsmyndigheten.se/en/)
 * [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/)
 
 ### Regulations
@@ -151,19 +151,19 @@ The following is a list of ethical and legal committees, authorities and regulat
 * [The Patient Data Act](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38/) (in Swedish)
 * [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297) (in Swedish)
 * [The Archives Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/arkivlag-1990782_sfs-1990-782) (in Swedish)
-* [Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218)
 * [The Public Access to Information and Secrecy Act (2009:400)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/) (in Swedish)
 * [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/EN/legal-content/summary/general-data-protection-regulation-gdpr.html)
+* [Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218)
 
 ## Domain-specific infrastructures and resources 
 
-[SciLifeLab Data Management Support](https://data-guidelines.scilifelab.se/) offers tools, guidance, training and hands-on support on various aspects of research data management, such as data management planning, data publishing, guidance on working with sensitive human data, implementing FAIR data principles, and more. The services are provided as a collaboration between [NBIS Data Management team](https://nbis.se/services/guidance-on-data-management) and the [SciLifeLab Data Centre](http://data.scilifelab.se/).
+[SciLifeLab Data Management Support](https://rdm-guidelines.scilifelab.se/) offers tools, guidance, training and hands-on support on various aspects of research data management, such as data management planning, data publishing, guidance on working with sensitive human data, implementing FAIR data principles, and more. The services are provided as a collaboration between [NBIS Data Management team](https://nbis.se/services/guidance-on-data-management) and the [SciLifeLab Data Centre](http://data.scilifelab.se/).
 
 For sensitive human data, a key resource is [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which is integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
-The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that offers compute and storage resources, as well as user support, for researchers across all scientific disciplines in Sweden. Of particular relevance for life science researchers working with sensitive data is [**NAISS-SENS**](https://supr.naiss.se/round/open_or_pending_type/?type=NAISS+SENS), through which researchers can apply for high-performance computing resources for the analysis of sensitive data.
+The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that offers compute and storage resources, as well as user support, for researchers across all scientific disciplines in Sweden. Application for high-performance computing is done via [**SUPR - Swedish User and Project Repository**](https://supr.naiss.se/), including resources for the analysis of sensitive data.
 
-[**Swedish National Data Service**](https://snd.gu.se/en) (SND), with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans. In order to promote reuse and open access to data, SND has established [**Researchdata.se**](https://researchdata.se/en), which serves as a portal for information on data management as well as a data catalogue to a variety of research fields.
+[**Swedish National Data Service**](https://snd.se/en) (SND), with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans. In order to promote reuse and open access to data, SND has established [**Researchdata.se**](https://researchdata.se/en), which serves as a portal for information on data management as well as a data catalogue to a variety of research fields.
  
 List of universities with established Research Data Offices (RDOs) or Data Access Units (DAUs), with links to local online resources and contact information. Note that "RDO" and "DAU" are used here as functional descriptions; the corresponding units may have different names at each university.
 * Chalmers University of Technology - [RDO Support](https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/reserch-data-management-support/) - <dataoffice@chalmers.se> - [DPO support](https://www.chalmers.se/en/about-chalmers/about-the-website/processing-of-personal-data/) - <>
