@@ -4,7 +4,7 @@ contributors: [Saliha Zenboudji-Beddek, Jean-François Dufayard, Olivier Collin,
 editors: [Korbinian Bösl, Bert Droesbeke, Flora D'Anna]
 description: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_id: ifb
-supported_by: [ "IFB", "IFB/ELIXIR-FR", "ELIXIR Europe", "FR" ]
+supported_by: [ "IFB", "ELIXIR Europe", "FR" ]
 related_pages: 
   Your_tasks: [dmp, data_organisation, storage, data_publication, transfer, metadata, data_analysis]
   Your_domain: []
