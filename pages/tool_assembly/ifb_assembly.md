@@ -22,11 +22,11 @@ training:
   - name: Doranum, the french national resources to support the scientific community for data management and sharing(in French)
     url: https://doranum.fr
   - name: Documentation for the IFB/ELIXIR-FR core cluster
-    URL: https://ifb-elixirfr.gitlab.io/cluster/doc/
+    url: https://ifb-elixirfr.gitlab.io/cluster/doc/
   - name: Documentation for the Biosphere cloud federation
-    URL: https://ifb-elixirfr.github.io/biosphere/
+    url: https://ifb-elixirfr.github.io/biosphere/
   - name: Data management training at the IFB
-    URL: https://www.france-bioinformatique.fr/en/training/
+    url: https://www.france-bioinformatique.fr/en/training/
   - name: "Simplified Guide: Research Data Management for Project Leaders (in French)"
     url: https://hal.inrae.fr/hal-03204351v2/file/2024-qualinous-cycle-de-vie-v1.pdf
 ---
