@@ -68,6 +68,11 @@ national_resources:
   - name: SciLifeLab RDM Guidelines
     description: Knowledge hub for the management of life science research data in Sweden.
     url: https://rdm-guidelines.scilifelab.se/
+  - name: Data type guide
+    description: Guide to identify suitable repositories depending on data type, including which standards to use to describe the data, and appropriate data file formats.
+    related_pages:
+      Your_tasks: [data_publication, dmp]
+    url: https://rdm-guidelines.scilifelab.se/data-type-guide/
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
