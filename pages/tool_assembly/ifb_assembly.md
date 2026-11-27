@@ -27,7 +27,7 @@ training:
     URL: https://ifb-elixirfr.github.io/biosphere/
   - name: Data management training at the IFB
     URL: https://www.france-bioinformatique.fr/en/training/
-  - name: Simplified Guide: Research Data Management for Project Leaders (in French)
+  - name: "Simplified Guide: Research Data Management for Project Leaders (in French)"
     url: https://hal.inrae.fr/hal-03204351v2/file/2024-qualinous-cycle-de-vie-v1.pdf
 ---
 
