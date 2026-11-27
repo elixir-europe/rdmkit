@@ -148,8 +148,8 @@ The following is a list of ethical and legal committees, authorities and regulat
 ### Regulations
 
 * [The Ethics Review Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) (in Swedish)
-* [The Patient Data Act](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38/) (in Swedish)
-* [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297) (in Swedish)
+* [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355) (in Swedish)
+* [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38) (in Swedish)
 * [The Archives Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/arkivlag-1990782_sfs-1990-782) (in Swedish)
 * [The Public Access to Information and Secrecy Act (2009:400)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/) (in Swedish)
 * [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/EN/legal-content/summary/general-data-protection-regulation-gdpr.html)
