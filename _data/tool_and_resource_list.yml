@@ -3570,6 +3570,14 @@
   id: spatial-transcriptomics-portal
   name: EMBL-EBI Spatial Transcriptomics Portal
   url: https://www.ebi.ac.uk/spatial-transcriptomics/
+- description: Orphadata Science is a platform providing free and structured access to Orphanet’s core datasets on rare diseases and orphan drugs.
+  id: orphadata-science
+  name: Orphadata Science
+  url: https://sciences.orphadata.com/
+- description: IMGT is the global reference information system for immunogenetics and immunoinformatics, specializing in the genes and proteins of the immune system.
+  id: imgt
+  name: International ImMunoGeneTics information system
+  url: https://www.imgt.org/
 - description: The FAIRe metadata checklist provides terms and data formatting guidelines to make environmental DNA (eDNA) data, including metabarcoding data, Findable, Accessible, Interoperable and Reusable.
   id: faire-checklist
   name: FAIRe metadata checklist

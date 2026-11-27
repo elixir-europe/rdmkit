@@ -1,89 +1,95 @@
 ---
 title: IFB
-contributors: [Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna, Anne-Françoise Adam-Blondon]
+contributors: [Saliha Zenboudji-Beddek, Jean-François Dufayard, Olivier Collin, Marie-Christine Jacquemot, Paulette Lieby, Flora D'Anna, Anne-Françoise Adam-Blondon, Morgane Thomas-Chaullier]
 editors: [Korbinian Bösl, Bert Droesbeke, Flora D'Anna]
 description: The French Bioinformatics Institute (IFB) offers IT infrastructure and bioinformatics expertise to support researchers in Life Sciences.
 page_id: ifb
-supported_by: ["ELIXIR Europe", "FR"]
+supported_by: [ "IFB", "ELIXIR Europe", "FR" ]
 related_pages: 
   Your_tasks: [dmp, data_organisation, storage, data_publication, transfer, metadata, data_analysis]
   Your_domain: []
 training:
-  - name: IFB Search query in TeSS
+  - name: IFB/ELIXIR-FR Search query in TeSS
     registry: TeSS
     url: https://tess.elixir-europe.org/search?q=IFB
-  - name: Data management training at the IFB
-    url: https://www.france-bioinformatique.fr/en/training/
-  - name: Inist and the network of regional scientific information units (Urfist)
+  - name: The IFB/ELIXIR-FR training materials on RDM in Tess
+    registry: TeSS
+    url: https://tess.elixir-europe.org/materials?content_provider=IFB+French+Institute+of+Bioinformatics&q=RDM
+  - name: IFB/ELIXIR-FR training courses
+    url: https://www.ifb-elixir.fr/en/trainings/i-am-looking-for-training/
+  - name: FAIR principles in bioinformatics and data management
+    url: https://moodle.france-bioinformatique.fr/course/index.php?categoryid=2&lang=fr
+  - name: Doranum, the french national resources to support the scientific community for data management and sharing(in French)
     url: https://doranum.fr
-  - name: Documentation for the IFB core cluster
+  - name: Documentation for the IFB/ELIXIR-FR core cluster
     url: https://ifb-elixirfr.gitlab.io/cluster/doc/
   - name: Documentation for the Biosphere cloud federation
     url: https://ifb-elixirfr.github.io/biosphere/
+  - name: Data management training at the IFB
+    url: https://www.france-bioinformatique.fr/en/training/
+  - name: "Simplified Guide: Research Data Management for Project Leaders (in French)"
+    url: https://hal.inrae.fr/hal-03204351v2/file/2024-qualinous-cycle-de-vie-v1.pdf
 ---
 
 ## What is the IFB data management tool assembly?
 
-The [IFB](https://www.france-bioinformatique.fr) is the French national Bioinformatics Infrastructure that supports research projects in Life Sciences by provisioning a bioinformatics environment, which consists of IT infrastructure (such as storage and computing resources), software and training, distributed across the country. 
-The IFB federates around 20 bioinformatics platforms which make physical, operational and human resources available to researchers in a synergistic and efficient way. Each platform brings its own IT infrastructure and bioinformatics expertise to create a better support network, distributed over the country, for Life Sciences research activities. 
-
-IFB data management tool assembly supports data management activities of scientists during all the phases of their projects, from planning to publication. 
+[IFB/ELIXIR-FR](https://www.ifb-elixir.fr/) develops an infrastructure that supports Life science data management all along the data life cycle. IFB/ELIXIR-FR benefits from and contributes to both the ELIXIR’s [RDM community](https://elixir-europe.github.io/ds-handbook/mm-data-dmp) and Recherche Data Gouv [Recherche.Data.Gouv](https://recherche.data.gouv.fr/en), the French National ecosystem supporting research data management.
 
 
-## Who can use the IFB data management tool assembly?
+## Who can use the IFB/ELIXIR-FR data management tool assembly?
 
-IFB and the underlying infrastructure are accessible to researchers in France and their foreign collaborators. Researchers that would like to know more about IFB services can find specific contact details at the unified [IFB help desk page](https://www.france-bioinformatique.fr/en/help-desk/) and get support through the dedicated help pages. Depending on the resources, fees may apply. It is therefore advisable to contact them during the planning phase of the project.
-
-The way you can access the IFB depends on the type of resources (for instance, cluster or cloud), and there will be different authentication procedures (local, national or international). For example, the Biosphere cloud federation uses the EduGAIN federation for authentication, while useGalaxy.fr uses the {% tool "life-science-login" %} authentication. To have additional information on how to access the IFB contact the [help desk](https://www.france-bioinformatique.fr/en/help-desk/). 
+The IFB/ELIXIR-FR infrastructure for Life science data is accessible to the French research community (researchers, engineers, technicians and students)  and their international collaborators. 
 
 
-## For what can you use the IFB data management tool assembly?
+## How to use the IFB/ELIXIR-FR data management tool assembly ?
+
+An overview of the IFB/ELIXIR-FR services supporting Open Science and FAIR data management is available on the [Open Science page](https://www.ifb-elixir.fr/en/services/open-science/). To access the computing resources,  users can request an account through the [computing infrastructure page](https://www.ifb-elixir.fr/en/services/computing-infrastructure/). For any other requests,  they can contact IFB/ELIXIR-FR to get support through the dedicated [help pages](https://www.ifb-elixir.fr/en/contact/). As well, it is recommended to contact IFB/ELIXIR-FR during the project’s planning phase to discuss details, as fees may apply based on resource usage.
+
+
+## Which steps and tools are contained in the IFB data management tool assembly?
 
 {% include image.html file="fr_ifb_assembly.svg" caption="Figure 1. The French Bioinformatics Institute (IFB) tool assembly." alt="IFB RDMkit" %}
 
 ### Data management planning
 
-IFB recommends [DMP-OPIDoR](https://dmp.opidor.fr) or [DSW](https://dsw.france-bioinformatique.fr) as tools for writing a Data Management Plan (DMP).
+IFB/ELIXIR-FR recommends [DMP-OPIDoR](https://dmp.opidor.fr) (supported by French research bodies) or {% tool "data-stewardship-wizard" %} as tools for writing a Data Management Plan (DMP).
 
-- DMP-OPIDoR is hosted and maintained at Inist-CNRS and is tailored to meet the needs of many French academic institutes. You will find many DMP templates, in French and/or English, created by funders and academic institutes. A dedicated team offers training and support for DMP templates and DMPs. They can be reached [via this contact form](https://dmp.opidor.fr/contact-us).
-The machine actionable version of DMP-OPIDoR allows the production of structured standardised DMP content. It enables the integration of information from funding agencies such as the French National Agency (ANR), and also integration and interactions with computing infrastructures provided by IFB and Genci, the organisation in charge of the three supercomputing centres in France. 
-DMP OPIDoR is freely accessible to anyone. First, one has to [create an account](https://dmp.opidor.fr/#create-account-form) (login, password). Then this account can be linked to the [Renater identity federation](https://www.renater.fr).
-For support about OPIDoR, you can check the [cat-OPIDoR support providers page](https://cat.opidor.fr/index.php/Accompagnement).
+DMP-Opidor is hosted and maintained at INIST-CNRS and tailored to the needs of the French research community. Its machine-actionable format is fully compliant with the RDA DMP Common Standard and covers both data and software management within a single plan.
 
-- DSW is a tool to collaboratively compose data management plans through customisable questionnaires. IFB has used DSW to develop templates for France Bioimaging ([FBI data management plan](https://dsw.france-bioinformatique.fr)) and for Hosted Scientific Service Management Plan ([HSSMP](https://dsw.genouest.org)). 
+IFB/ELIXIR-FR hosts its own instance [DSW@IFB](https://dsw.france-bioinformatique.fr/wizard/dashboard), freely accessible to the french research community. It has co-developed with the other National Research Infrastructures in Biology and Health ([INBS](https://www.ibisa.net/inbs/)) a multidisciplinary DMP model for core facilities, covering bioimaging, genomics, proteomics, cytometry and metabolomics.
+
 
 ### Data collection
 
-Although they are not part of IFB, other infrastructures in France can also help you generate new data. Specifically, some facilities can assist you with in vivo and in vitro experiments, synthetic biology, omics techniques, imaging, structural biology and other techniques and expertise. To find the adequate facility you may use the [Ministry search engine](https://data.enseignementsup-recherche.gouv.fr/pages/feuille_de_route_2018/?sort=acronyme) or the [IBiSA directory](https://www.ibisa.net/trouver-plateforme/) of french facilities in Life Sciences. 
+IFB/ELIXIR-FR facilitates data and [metadata collection](https://rdmkit.elixir-europe.org/collecting) through [madbot](https://madbot.france-bioinformatique.fr/), a software that stores metadata along with links to the data in their storage place during the project. Storage capacities are provided by IFB/ELIXIR-FR’s National Network of Computing Resources [NNCR](https://nncr-clusters.france-bioinformatique.fr/). 
 
-Once your data have been generated by the facility, you will need to [transfer](data_transfer) it to your local system or to the IFB infrastructure, if you intend to use the IFB’s compute services. In both cases it is a good practice to get in touch with IT support (local or IFB), especially if the volume of your data is large. 
-
-If you have to reuse previously generated data, keep in mind that the different IFB platforms provide many specialised databases. A list of the databases is available [here](https://ressources.france-bioinformatique.fr/en/services/data). These databases are, for the most, freely available. 
-
-To support data collection along with standard metadata, IFB is providing SEEK instances available at [URGI](https://urgi.versailles.inrae.fr/fairdom/) and [GenOuest](https://research-sharing.cesgo.org). 
-
+To support data collection along with standard metadata, IFB/ELIXIR-FR is providing a [{% tool "fairdom-seek" %}](https://seek4science.org/) instance which is available at [GenOuest](https://research-sharing.cesgo.org) core facility. 
 
 ### Data processing and analysis 
 
-IFB infrastructure gives you access to several flavours of computing resources, according to your needs and expertise:
+IFB/ELIXIR-FR infrastructure gives access to several types of computing resources, according to needs and expertise of the users:
 
-* Several clusters hosted either at IFB-Core or on any of the member platforms. You can [request accounts](https://www.france-bioinformatique.fr/en/ifb-clusters/) on any of the member clusters. 
-* The [Galaxy France](https://usegalaxy.fr) portal operated by IFB members in complement of the [Galaxy Europe](https://usegalaxy.eu). 
-* The cloud federation [Biosphere](https://biosphere.france-bioinformatique.fr) allows the deployment of ready-to-use appliances (virtual machines with all required software installed for analysis) for several scientific domains (Genomics, Bioimaging, Metabolomics, etc.). A list of the different appliances is available on the [RainBio catalogue](https://biosphere.france-bioinformatique.fr/catalogue/). You can log in [here](https://biosphere.france-bioinformatique.fr/cloudweb/login/?next=/) using your academic credentials. 
+* Several high-performance computing [clusters](https://www.ifb-elixir.fr/en/services/computing-infrastructure/ifb-clusters/). 
+* The [Galaxy France](https://usegalaxy.fr) portal operated by IFB/ELIXIR-FR members in complement of the [Galaxy Europe](https://usegalaxy.eu). 
+* The cloud federation [Biosphere](https://biosphere.france-bioinformatique.fr). A list of the different appliances is available on the [RainBio catalogue](https://biosphere.france-bioinformatique.fr/catalogue/). 
 
-Each of the computing resources offers its own storage solution tailored for the needs of the users (fast access, capacitive). You may have to choose a resource according to what its service offers and also according to its proximity to your own location in order to benefit from better support and also better data transfer speed.
+Each of the computing resources offers its own storage solution tailored for the needs of the users (fast access, capacitive).
 
-IFB infrastructure can also help you with bioinformatics analysis of your data. Many of the IFB member platforms can provide expertise for data analysis in many domains (genomics, metagenomics, transcriptomics) as well as software development. To check the expertise of the platforms, you can use this [catalogue](https://ressources.france-bioinformatique.fr/en/expertise). A list of the tools developed by all IFB members is available [here](https://ressources.france-bioinformatique.fr/en/services/tools). 
+IFB/ELIXIR-FR core facilities can also assist or perform bioinformatics analyses of the user’s data. Most IFB/ELIXIR-FR core facilities can provide [expertise](https://www.ifb-elixir.fr/en/services/data-analysis/) for data analysis in several domains (genomics, metagenomics, transcriptomics, phenomics, metabolomics...) as well as software development. More generally, a list of tools developed by French teams is available [here](https://www.ifb-elixir.fr/en/services/tools-services-catalog/). 
+
+For bioimage analysis, researchers can explore {% tool "biii" %}, the BioImage Informatics Index. Biii is a community-driven registry that catalogues bioimage analysis software, workflows, training resources and example datasets.
 
 ### Data sharing and publishing
+ In France, providing access to public research data is mandatory. It is advised to publish such data in dedicated repositories. IFB/ELIXIR-FR encourages researchers to browse the list of  {% tool "elixir-deposition-databases-for-biomolecular-data" %} and the {% tool "elixir-core-data-resources" %} to identify the appropriate repository for their data type. In addition, a list of [trusted repositories](https://recherche.data.gouv.fr/en/repositories) is maintained by Recherche Data Gouv.
 
-It is good practice to [publish](data_publication) your data on repositories. IFB encourages researchers to browse the list of {% tool "elixir-deposition-databases-for-biomolecular-data" %} to find the appropriate repository. 
+ IFB/ELIXIR-FR members contribute to domain-specific thematic repositories hosted in France: - {% tool "imgt" %} and - {% tool "orphadata-science" %}.
 
-The french scientific community benefit from [Recherche.Data.Gouv](https://recherche.data.gouv.fr/en) a national Dataverse repository. This repository is associated with [thematic reference centres](https://recherche.data.gouv.fr/en/page/thematic-reference-centers-providing-expertise-for-individual-scientific-fields) and data management clusters. IFB is the reference centre for Life Science. 
+ For the semantic annotation of data, software and services, IFB/ELIXIR-FR recommends the use of {% tool "edam" %}, a comprehensive ontology of bioinformatics operations, data types, formats and topics. To ensure that published data are findable and citable, IFB/ELIXIR-FR promotes the attribution of persistent identifiers through {% tool "datacite" %}.
 
-You can also browse [cat-OPIDoR](https://cat.opidor.fr/index.php/Cat_OPIDoR,_wiki_des_services_dédiés_aux_données_de_la_recherche) for an overview of the different services related to data management provided by IFB infrastructure and its stakeholders in France.
+ Research software produced in life science projects can be preserved and shared through {% tool "software-heritage" %}, the global archive of software source code. 
+
+ The French scientific community can publish its data in the [Recherche.Data.Gouv](https://recherche.data.gouv.fr/en) repository, a [national multidisciplinary repository](https://recherche.data.gouv.fr/en/page/recherche-data-gouv-repository) based on Dataverse,only if thematic repository doesn’t exist for one discipline. Support is available from [thematic reference centres](https://recherche.data.gouv.fr/en/page/thematic-reference-centers-providing-expertise-for-individual-scientific-fields) providing domain-specific expertise, and from [regional data management clusters](https://recherche.data.gouv.fr/en/data-management-cluster) offering local support. IFB/ELIXIR-FR is also the [reference centre for Life Science](https://recherche.data.gouv.fr/fr/page/institut-francais-de-bioinformatique-ifb). 
 
 ### Compliance monitoring & measurement
 
-IFB infrastructure promotes the implementation of the FAIR principles. To this end, IFB provides and encourages the use of the [FAIR-Checker](https://github.com/IFB-ElixirFr/fair-checker), a web interface aimed at monitoring the level of FAIRification of data resources. This tool uses the FAIRMetrics APIs to provide a global assessment and recommendations. It also uses semantic technologies to help users in annotating their resources with high-quality metadata.
-
+IFB/ELXIIR-FR promotes the implementation of FAIR principles. To this end, IFB/ELIXIR-FR provides and encourages the use of [FAIR-Checker](https://fair-checker.france-bioinformatique.fr/), a web service aimed at assessing and monitoring FAIRness levels of online digital resources. This tool also relies on metadata profiles (mandatory/recommended/optional) such as Bioschemas or Datacite to evaluate metadata completeness. 
