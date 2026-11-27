@@ -2,7 +2,7 @@
 title: France
 country_code: FR
 contributors: [Saliha Zenboudji-Beddek, Nadia Goué, Olivier Collin]
-editors: [Bert Droesbeke, Laura Portell Silva]
+editors: [Bert Droesbeke, Laura Portell Silva, Korbinian Bösl]
 coordinators: [Anne-Françoise Adam-Blondon, Jean-François Dufayard, Jacques Van Helden]
 
 ref_to_main_resources:
