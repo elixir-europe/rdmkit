@@ -97,7 +97,7 @@ national_resources:
       Tool_assembly: [ifb] 
       Your_role: [researcher, data_steward]
       Your_tasks: []
-    url: https://nncr-clusters.france-bioinformatique.fr/
+    url: https://www.ifb-elixir.fr/en/services/computing-infrastructure/ifb-clusters/
   - name: Madbot
     description: Madbot is a web application that provides a dashboard for managing research data and metadata.
     how_to_access: 
