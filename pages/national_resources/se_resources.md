@@ -67,13 +67,18 @@ national_resources:
     url: https://www.naiss.se/ 
   - name: SciLifeLab RDM Guidelines
     description: Knowledge hub for the management of life science research data in Sweden.
-    url: https://data-guidelines.scilifelab.se/
+    url: https://rdm-guidelines.scilifelab.se/
+  - name: Data type guide
+    description: Guide to identify suitable repositories depending on data type, including which standards to use to describe the data, and appropriate data file formats.
+    related_pages:
+      Your_tasks: [data_publication, dmp]
+    url: https://rdm-guidelines.scilifelab.se/data-type-guide/
   - name: Human Data Guidelines
     description: Guidelines as well as further information on legal considerations when working with human biomedical data.
     related_pages:
       Your_domain: [human_data]
       Your_tasks: [sensitive]
-    url: https://data-guidelines.scilifelab.se/topics/research-involving-human-data/
+    url: https://rdm-guidelines.scilifelab.se/topics/research-involving-human-data/
   - name: FEGA Sweden
     description: The Swedish node of Federated European Genome-phenome Archive (FEGA), which offers secure archiving and sharing of genetic and phenotypic data resulting from Swedish biomedical research projects.
     instance_of: the-european-genome-phenome-archive
@@ -122,17 +127,17 @@ national_resources:
 
 ## Introduction 
 
-This page provides a general overview of national resources on research data management (RDM) and Open Science in Sweden, directed towards researchers and official collaborators. National and long term data management goals and objectives are provided in the research and innovation bill [2024/25:60](https://www.regeringen.se/contentassets/a70996e2f9de4222b5a6880d33c20d35/forskning-och-innovation-for-framtid-nyfikenhet-och-nytta-prop.-20242560.pdf) (in Swedish). The Swedish ELIXIR node [**National Bioinformatics Infrastructure Sweden (NBIS)**](https://nbis.se/) offers support and training in data management to life science researchers in Sweden, in collaboration with the [**SciLifeLab Data Centre**](https://www.scilifelab.se/data/).
+This page provides a general overview of national resources on research data management (RDM) and Open Science in Sweden, directed towards researchers and official collaborators. National and long term data management goals and objectives are provided in the research and innovation bill [2024/25:60](https://www.regeringen.se/contentassets/a70996e2f9de4222b5a6880d33c20d35/forskning-och-innovation-for-framtid-nyfikenhet-och-nytta-prop.-20242560.pdf) (in Swedish). The Swedish ELIXIR node [**National Bioinformatics Infrastructure Sweden (NBIS)**](https://nbis.se/) offers support and training in data management to life science researchers in Sweden, in collaboration with the [**SciLifeLab Data Centre**](https://www.scilifelab.se/data-ai/).
 
 ## Policies and guidelines
 
-The [**Swedish Research Council**](https://www.vr.se/) has a government mandate to coordinate and promote Sweden’s work on introducing [**open access**](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html) to research data, with the goal for transition to open access to research data to be fully implemented by 2026. As of 2019, all recipients of grants from the council are required to have a data management plan (DMP), written according to their [**DMP template**](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/producing-a-data-management-plan/data-management-plan-template.html), which is a partially revised version of Science Europe’s "Core Requirements for Data Management Plans".
+The [**Swedish Research Council**](https://www.vr.se/) has a government mandate to coordinate and promote Sweden’s work on introducing [**open access**](https://www.vr.se/english/mandates/open-science/open-access-to-research-data.html) to research data, with the goal for transition to open access to research data to be fully implemented by 2026. As of 2019, all recipients of grants from the council are required to have a data management plan (DMP), written according to their [**DMP template**](https://www.vr.se/english/applying-for-funding/requirements-terms-and-conditions/data-management-plan-template.html), which is a partially reworked version of Science Europe’s "Core Requirements for Data Management Plans".
 
-[**Formas**](https://formas.se/) - The Swedish Research Council for Environment, Agricultural Sciences and Spatial Planning - has a [**policy**](https://formas.se/download/18.7357e3f3168752d5a10c7f7/1549956105856/Beslut_policy_oppna_data.pdf) on open access to research data, and requires that a [**DMP**](https://formas.se/soka-finansiering/sa-har-gar-det-till/att-kanna-till-nar-du-skriver-en-ansokan.html) is written and can be shown upon request.
+[**Formas**](https://formas.se/) - The Swedish Research Council for Environment, Agricultural Sciences and Spatial Planning - has a [**policy**](https://formas.se/download/18.2e79248019931f7628194c8a/1758274143665/Formas%20policy%20for%20open%20access%20to%20scientific%20publications.pdf) on open access to scientific publications, and requires that a [**DMP**](https://formas.se/en/start-page/apply-for-funding/how-it-works/good-to-know-before-you-apply.html#h-Openaccesstoresearchresultsanddata) is written and can be shown upon request.
 
 The National Library of Sweden provides [national guidelines](https://www.kb.se/for-bibliotekssektorn/eng/open-science/national-guidelines-for-open-science.html) intended to provide support and guidance for the different stakeholders in Sweden who have overarching responsibility in the transition to open science. The purpose of these guidelines is to outline the direction for the continued development towards open science in Sweden, specifying which key actors are responsible for what, as well as how the guidelines are to be monitored and updated over time.
 
-Many universities have established data and open access policies, for more information contact the Research Data Office (RDO) (see list at the end of the page).
+Many universities have established data and open access policies, for more information contact the Research Data Office (RDO) (see table at the end of the page).
 
 ## Authorities and Regulations
 
@@ -142,39 +147,42 @@ The following is a list of ethical and legal committees, authorities and regulat
 
 ### Authorities
 
-* [Swedish Ethical Review Authority](https://etikprovningsmyndigheten.se/)
+* [Swedish Ethical Review Authority](https://etikprovningsmyndigheten.se/en/)
 * [Swedish Authority for Privacy Protection (IMY)](https://www.imy.se/en/)
 
 ### Regulations
 
 * [The Ethics Review Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2003460-om-etikprovning-av-forskning-som_sfs-2003-460) (in Swedish)
-* [The Patient Data Act](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38/) (in Swedish)
-* [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2002297-om-biobanker-i-halso--och_sfs-2002-297) (in Swedish)
+* [The Patient Data Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/patientdatalag-2008355_sfs-2008-355) (in Swedish)
+* [The Biobank Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/biobankslag-202338_sfs-2023-38) (in Swedish)
 * [The Archives Act](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/arkivlag-1990782_sfs-1990-782) (in Swedish)
-* [Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218)
 * [The Public Access to Information and Secrecy Act (2009:400)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/) (in Swedish)
 * [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/EN/legal-content/summary/general-data-protection-regulation-gdpr.html)
+* [Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-2018218-med-kompletterande-bestammelser_sfs-2018-218)
 
 ## Domain-specific infrastructures and resources 
 
-[SciLifeLab Data Management Support](https://data-guidelines.scilifelab.se/) offers tools, guidance, training and hands-on support on various aspects of research data management, such as data management planning, data publishing, guidance on working with sensitive human data, implementing FAIR data principles, and more. The services are provided as a collaboration between [NBIS Data Management team](https://nbis.se/services/guidance-on-data-management) and the [SciLifeLab Data Centre](http://data.scilifelab.se/).
+[SciLifeLab Data Management Support](https://rdm-guidelines.scilifelab.se/) offers tools, guidance, training and hands-on support on various aspects of research data management, such as data management planning, data publishing, guidance on working with sensitive human data, implementing FAIR data principles, and more - including a [Data type guide](https://rdm-guidelines.scilifelab.se/data-type-guide/) for selecting suitable repositories, metadata standards, and file formats. The services are provided as a collaboration between [NBIS Data Management team](https://nbis.se/services/guidance-on-data-management) and the [SciLifeLab Data Centre](http://data.scilifelab.se/). Researchers can also use [**SciLifeLab Serve**](https://serve.scilifelab.se/), a free platform for hosting and sharing interactive data visualization apps and machine learning models.
 
 For sensitive human data, a key resource is [**FEGA Sweden**](https://fega.nbis.se/), a secure data archive and sharing platform for sensitive datasets, which is integrated with the {% tool "the-european-genome-phenome-archive" %}.
 
-The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that offers compute and storage resources, as well as user support, for researchers across all scientific disciplines in Sweden. Of particular relevance for life science researchers working with sensitive data is [**NAISS-SENS**](https://supr.naiss.se/round/open_or_pending_type/?type=NAISS+SENS), through which researchers can apply for high-performance computing resources for the analysis of sensitive data.
+The [**National Academic Infrastructure for Super­computing in Sweden**](https://www.naiss.se/) (NAISS) is a national research infrastructure that offers compute and storage resources, as well as user support, for researchers across all scientific disciplines in Sweden. Application for high-performance computing is done via [**SUPR - Swedish User and Project Repository**](https://supr.naiss.se/), including resources for the analysis of sensitive data.
 
-[**Swedish National Data Service**](https://snd.gu.se/en) (SND), with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.gu.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.gu.se/en/manage-data/guides/dmp-checklist) to support researchers in writing data management plans. In order to promote reuse and open access to data, SND has established [**Researchdata.se**](https://researchdata.se/en), which serves as a portal for information on data management as well as a data catalogue to a variety of research fields.
- 
-List of universities with established Research Data Offices (RDOs) or Data Access Units (DAUs), with links to local online resources and contact information. Note that "RDO" and "DAU" are used here as functional descriptions; the corresponding units may have different names at each university.
-* Chalmers University of Technology - [RDO Support](https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/reserch-data-management-support/) - <dataoffice@chalmers.se> - [DPO support](https://www.chalmers.se/en/about-chalmers/about-the-website/processing-of-personal-data/) - <>
-* Karolinska Institutet - [RDO Support](https://staff.ki.se/research-support/research-data-management) - <rdo@ki.se> - [DPO support](https://staff.ki.se/personal-data-in-research) - <dataskyddsombud@ki.se>
-* KTH Royal Institute of Technology - [RDO Support](https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/) - <researchdata@kth.se> - [DPO support](https://intra.kth.se/en/anstallning/anstallningsvillkor/att-vara-statligt-an/behandling-av-person) - <dataskyddsombud@kth.se>
-* Linköping University - [RDO Support](https://ep.liu.se/en/datamanagement.aspx) - <datamanagement@liu.se> - <dataskyddsombud@liu.se>
-* Linnaeus University - [RDO Support](https://lnu.se/en/medarbetare/researcher/researcher5/research-data/) - <dau@lnu.se> - [DPO support](https://lnu.se/en/medarbetare/support-and-service/forvaltningsrattsliga-fragor/general-data-protection-regulation-gdpr/) - <dataskyddsombud@lnu.se>
-* Lund University - [RDO Support](https://www.lub.lu.se/en/services-and-support/research-data) - <support@researchdata.lu.se> - [DPO support](https://www.staff.lu.se/support-and-tools/legal-and-records-management/personal-data-and-data-protection/area-specific-information/research) - <dataskyddsombud@lu.se>
-* Stockholm University - [RDO Support](https://medarbetare.su.se/en/research/your-research) - <opendata@su.se> - [DPO support](https://medarbetare.su.se/en/support-and-service/legal/personal-data-and-data-protection) - <dso@su.se>
-* Swedish University of Agricultural Sciences - [RDO Support](https://internt.slu.se/en/support-services/data-management-support-for-research-and-environmental-assessment/#stod) - <dms@slu.se> - [DPO support](https://internt.slu.se/en/support-services/administrative-support/legal-affairs-data-protection-info-management/data-protection/) - <dataskydd@slu.se>
-* Umeå University - [RDO Support](https://www.umu.se/en/library/research-data/) - See [contact page](https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/support-regarding-research-data/contact-the-research-data-support-team/) - [DPO support](https://www.aurora.umu.se/stod-och-service/rad-och-riktlinjer/juridik-och-personuppgifter/personuppgifter) - <pulo@umu.se>
-* University of Gothenburg - [RDO Support](https://gunet.sharepoint.com/sites/mp-utbildning-och-forskning/SitePages/en/Research-data-management.aspx) - <researchdata@gu.se> - [DPO support](https://medarbetarportalen.gu.se/processing-personal-data) - <dataskydd@gu.se>
-* Uppsala University - [RDO Support](https://www.uu.se/en/staff/gateway/research/research-data) - <dataoffice@uu.se> - [DPO support](https://www.uu.se/en/staff/service-and-tools/general-data-protection-regulation-gdpr) - <dataskyddsombud@uu.se>
-* Örebro University - [RDO Support](https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/) - See web page for contact information - [DPO support](https://www.oru.se/forskning/forskningsstod/starta-projekt/dataskyddgdpr---forskning/) - <dataskyddsombud@oru.se>
+[**Swedish National Data Service**](https://snd.se/en) (SND), with its network of almost 40 higher education institutions and public research institutes, provides researchers with a coordinated and quality-assured system for finding, describing, and sharing research data, nationally as well as internationally. The [**SND network**](https://snd.se/en/about-us/snd-network) has agreed to create local units for managing research data (Data Access Units (DAUs)), with the main task to assist researchers in their respective organisation in making research data as accessible as possible, via training and support in data management. SND also provides a [**DMP checklist**](https://snd.se/en/research-data-support/checklist-data-management-plans) to support researchers in writing data management plans. In order to promote reuse and open access to data, SND has established [**Researchdata.se**](https://researchdata.se/en), which serves as a portal for information on data management as well as a data catalogue to a variety of research fields.
+
+Many universities have established a Research Data Office (RDO) or Data Access Unit (DAU) in order to help researchers with data management questions. Also, the libraries can most often give advice or redirect to local instances. In the table below you can find links and contact information to local offices, including Data Protection Officers (DPOs). 
+
+| Organisation | Research Data Office | Data Protection Officer |
+| :--- | :--- | :--- |
+| Chalmers University <br>of Technology | Web: [RDO guidance](https://www.chalmers.se/en/infrastructure/ecommons/storage-and-data-management/reserch-data-management-support/) <br>Email: <dataoffice@chalmers.se> | Web: [DPO guidance](https://www.chalmers.se/en/about-chalmers/about-the-website/processing-of-personal-data/) <br>Email: <dataskydd@chalmers.se> |
+| Karolinska Institutet | Web: [RDO guidance](https://staff.ki.se/research-support/research-data-management) <br>Email: <rdo@ki.se> | Web: [DPO guidance](https://staff.ki.se/personal-data-in-research) <br>Email: <dataskyddsombud@ki.se> |
+| KTH Royal Institute <br>of Technology | Web: [RDO guidance](https://www.kth.se/en/biblioteket/publicera-analysera/hantera-forskningsdata/) <br>Email: <researchdata@kth.se> | Web: [DPO guidance](https://intra.kth.se/en/anstallning/anstallningsvillkor/att-vara-statligt-an/behandling-av-person) <br>Email: <dataskyddsombud@kth.se> |
+| Linköping University | Web: [RDO guidance](https://ep.liu.se/en/datamanagement.aspx) <br>Email: <datamanagement@liu.se> | Email: <dataskyddsombud@liu.se> |
+| Linnaeus University | Web: [RDO guidance](https://lnu.se/en/medarbetare/researcher/researcher5/research-data/) <br>Email: <dau@lnu.se> | Web: [DPO guidance](https://lnu.se/en/medarbetare/support-and-service/forvaltningsrattsliga-fragor/general-data-protection-regulation-gdpr/) <br>Email: <dataskyddsombud@lnu.se> |
+| Lund University | Web: [RDO guidance](https://www.lub.lu.se/en/services-and-support/research-data) <br>Email: <support@researchdata.lu.se> | Web: [DPO guidance](https://www.staff.lu.se/support-and-tools/legal-and-records-management/personal-data-and-data-protection/area-specific-information/research) <br>Email: <dataskyddsombud@lu.se> |
+| Stockholm University | Web: [RDO guidance](https://medarbetare.su.se/en/research/your-research) <br>Email: <opendata@su.se> | Web: [DPO guidance](https://medarbetare.su.se/en/support-and-service/legal/personal-data-and-data-protection) <br>Email: <dso@su.se> |
+| Swedish University of <br>Agricultural Sciences | Web: [RDO guidance](https://internt.slu.se/en/support-services/data-management-support-for-research-and-environmental-assessment/#stod) <br>Email: <dms@slu.se> | Web: [DPO guidance](https://internt.slu.se/en/support-services/administrative-support/legal-affairs-data-protection-info-management/data-protection/) <br>Email: <dataskydd@slu.se> |
+| Umeå University | Web: [RDO guidance](https://www.umu.se/en/researcher/plan-and-implement/manage-research-data/) | Web: [DPO guidance](https://www.umu.se/en/researcher/plan-and-implement/plan-a-project/process-personal-data-in-research/about-personal-data-in-research/) <br>Email: <dataskydd@umu.se> |
+| University of Gothenburg | Web: [RDO guidance](https://gunet.sharepoint.com/sites/mp-utbildning-och-forskning/SitePages/en/Research-data-management.aspx) <br>Email: <researchdata@gu.se> | Web: [DPO guidance](https://medarbetarportalen.gu.se/processing-personal-data) <br>Email: <dataskydd@gu.se> |
+| Uppsala University | Web: [RDO guidance](https://www.uu.se/en/staff/gateway/research/research-handbook/research-data) <br>Email: <dataoffice@uu.se> | Web: [DPO guidance](https://www.uu.se/en/staff/service-and-tools/general-data-protection-regulation-gdpr) <br>Email: <dataskyddsombud@uu.se> |
+| Örebro University | Web: [RDO guidance](https://www.oru.se/english/research/research-support/starting-up-your-research-project/data-management-plan-components/do-you-need-help-with-your-research-data/) | Web: [DPO guidance](https://www.oru.se/forskning/forskningsstod/starta-projekt/dataskyddgdpr---forskning/) <br>Email: <dataskyddsombud@oru.se> |
